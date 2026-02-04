@@ -1,4 +1,4 @@
-// app/page.tsx - Home page with search
+// app/page.tsx - Home page with search v1
 import SearchBar from '@/components/SearchBar';
 import JobCard from '@/components/JobCard';
 import Link from 'next/link';
