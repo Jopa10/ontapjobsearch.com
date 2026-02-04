@@ -149,6 +149,7 @@ npx prisma generate
 
 # Reset database (⚠️ destroys data)
 npx prisma migrate reset
+Initial Vercel deploy
 ```
 
 ## License
