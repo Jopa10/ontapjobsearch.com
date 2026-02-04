@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: ontap_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ontap_user
+      POSTGRES_PASSWORD: ontap_password
+      POSTGRES_DB: ontap_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ontap_user -d ontap_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Next.js Application (for production deployment)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ontap_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://ontap_user:ontap_password@postgres:5432/ontap_db
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+      NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost:3000}
+      NODE_ENV: production
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./public:/app/public
+
+volumes:
+  postgres_data:

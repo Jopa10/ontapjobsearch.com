@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Ontap Job Search icon">
+  <defs>
+    <linearGradient id="gBrief" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#19d3d3"/>
+      <stop offset="55%" stop-color="#0a7bdc"/>
+      <stop offset="100%" stop-color="#053a92"/>
+    </linearGradient>
+    <linearGradient id="gLens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#20e3ff"/>
+      <stop offset="60%" stop-color="#0b78ff"/>
+      <stop offset="100%" stop-color="#063a9a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Briefcase -->
+  <g filter="url(#soft)">
+    <path d="M110 170c0-22 18-40 40-40h212c22 0 40 18 40 40v150c0 22-18 40-40 40H150c-22 0-40-18-40-40V170z"
+          fill="url(#gBrief)"/>
+    <path d="M206 130v-18c0-18 14-32 32-32h36c18 0 32 14 32 32v18"
+          fill="none" stroke="#0b6fe6" stroke-width="18" stroke-linecap="round"/>
+    <path d="M110 210h292" stroke="#083c9c" stroke-width="10" opacity="0.35"/>
+  </g>
+
+  <!-- Magnifying glass -->
+  <g>
+    <circle cx="318" cy="270" r="92" fill="url(#gLens)" stroke="#052f7a" stroke-width="14"/>
+    <circle cx="318" cy="270" r="70" fill="none" stroke="#0fe0ff" stroke-width="10" opacity="0.35"/>
+    <rect x="382" y="334" width="118" height="36" rx="18" ry="18"
+          transform="rotate(35 382 334)" fill="#14c7e0" stroke="#063a92" stroke-width="10"/>
+  </g>
+
+  <!-- Check mark -->
+  <path d="M280 270l26 26 62-68"
+        fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
