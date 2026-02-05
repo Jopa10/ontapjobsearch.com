@@ -1,5 +1,5 @@
 // app/page.tsx - Home page with search v1
-Ontap Phase 1 – static test page. (staging)
+<p>Ontap Phase 1 – static test page. (staging)</p>
 import SearchBar from '@/components/SearchBar';
 import JobCard from '@/components/JobCard';
 import Link from 'next/link';
