@@ -1,4 +1,5 @@
-import { slices } from "../../data/getSlice"
+import { slices } from "../../../data/getSlice"
+
 
 
 export default function Page({
