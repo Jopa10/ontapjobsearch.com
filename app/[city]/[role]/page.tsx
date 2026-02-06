@@ -1,7 +1,14 @@
-import { slices } from "@/data/getSlice"
+import { slices } from "../../../data/getSlice"
 import { notFound } from "next/navigation"
 
-export default function Page({ params }) {
+type PageProps = {
+  params: {
+    city: string
+    role: string
+  }
+}
+
+export default function Page({ params }: PageProps) {
   const key = `${params.city}/${params.role}`
   const slice = slices[key]
 
@@ -22,3 +29,4 @@ export default function Page({ params }) {
     </main>
   )
 }
+
