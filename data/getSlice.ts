@@ -1,4 +1,4 @@
-export const slices = {
+export const slices: Record<string, any> = {
   "leeds/admin-officer": {
     city: "Leeds",
     role: "Admin Officer",
