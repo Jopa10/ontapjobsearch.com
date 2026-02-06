@@ -1,32 +1,29 @@
-import { slices } from "../../../data/getSlice"
-import { notFound } from "next/navigation"
+import { slices } from "@/data/getSlice"
 
-type PageProps = {
-  params: {
-    city: string
-    role: string
-  }
-}
-
-export default function Page({ params }: PageProps) {
+export default function Page({
+  params,
+}: {
+  params: { city: string; role: string }
+}) {
   const key = `${params.city}/${params.role}`
   const slice = slices[key]
 
-  if (!slice) return notFound()
+  if (!slice) return <div>Not found</div>
+
+  const job = slice.jobs[0]
 
   return (
-    <main>
-      <h1>{slice.role} jobs in {slice.city}</h1>
+    <main style={{ padding: 40 }}>
+      <h1>
+        {slice.role} jobs in {slice.city}
+      </h1>
 
-      {slice.jobs.map((job: any, i: number) => (
-        <div key={i}>
-          <h2>{job.title}</h2>
-          <p>{job.company} — {job.location}</p>
-          <p>{job.salary}</p>
-          <a href={job.applyUrl}>Apply</a>
-        </div>
-      ))}
+      <h2>{job.title}</h2>
+      <p>{job.company}</p>
+      <p>{job.location}</p>
+      <p>{job.salary}</p>
     </main>
   )
 }
+
 
