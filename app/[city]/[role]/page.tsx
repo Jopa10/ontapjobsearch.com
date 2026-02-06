@@ -8,7 +8,7 @@ export default function Page({
   const key = `${params.city}/${params.role}`
   const slice = slices[key]
 
-  if (!slice) return <div>Not found</div>
+  if (!slice) return <div style={{ padding: 40 }}>Not found</div>
 
   const job = slice.jobs[0]
 
@@ -25,5 +25,6 @@ export default function Page({
     </main>
   )
 }
+
 
 
