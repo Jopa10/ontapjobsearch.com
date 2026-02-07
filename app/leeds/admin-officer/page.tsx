@@ -14,14 +14,14 @@ const jobs: Job[] = [
     title: "Admin Officer",
     company: "Leeds City Council",
     location: "Leeds",
-    applyUrl: "https://example.com/job/1",
+    applyUrl: "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0JmpvYmxpc3Rfdmlld192YWM9MTk4NTE1OSZzZWFyY2hwYWdlPTExJnVzZXJzZWFyY2hjb250ZXh0PTE3MjY2OTc0MSZzZWFyY2hzb3J0PWNsb3Npbmcmb3duZXJ0eXBlPWZhaXImcGFnZWNsYXNzPUpvYnMmb3duZXI9NTA3MDAwMCZyZXFzaWc9MTc3MDQ2NTU1OS01NDFlODIyYTA3MWQ1ZTYwNTI2YWJmZjdhM2NlOTQzNGIyMjVkYzZi",
   },
   {
     id: "2",
     title: "Senior Admin Officer",
     company: "NHS Trust",
     location: "Leeds",
-    applyUrl: "https://example.com/job/2",
+    applyUrl: "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0JmpvYmxpc3Rfdmlld192YWM9MTk4NTE1OSZzZWFyY2hwYWdlPTExJnVzZXJzZWFyY2hjb250ZXh0PTE3MjY2OTc0MSZzZWFyY2hzb3J0PWNsb3Npbmcmb3duZXJ0eXBlPWZhaXImcGFnZWNsYXNzPUpvYnMmb3duZXI9NTA3MDAwMCZyZXFzaWc9MTc3MDQ2NTU1OS01NDFlODIyYTA3MWQ1ZTYwNTI2YWJmZjdhM2NlOTQzNGIyMjVkYzZi",
   },
 ]
 
