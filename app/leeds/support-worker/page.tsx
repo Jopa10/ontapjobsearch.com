@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Ontap – Admin Officer jobs in Leeds",
+  title: "Ontap – Support worker jobs in Leeds",
   description: "Public sector and charity Admin Officer roles in Leeds.",
 };
 
