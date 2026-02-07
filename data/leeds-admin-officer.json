@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Admin Officer",
+    "company": "Leeds City Council",
+    "location": "Leeds",
+    "applyUrl": "https://example.com/job1"
+  },
+  {
+    "id": "2",
+    "title": "Senior Admin Officer",
+    "company": "NHS Trust",
+    "location": "Leeds",
+    "applyUrl": "https://example.com/job2"
+  }
+]
