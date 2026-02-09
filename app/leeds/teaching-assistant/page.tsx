@@ -13,7 +13,22 @@ type Job = {
   redirectUrl?: string;
 };
 
-import jobs from "@/data/leeds-teaching-assistant.json";
+const jobs: Job[] = [
+  {
+    id: "1",
+    title: "Teaching Assistant",
+    company: "Dummy Org",
+    location: "Leeds",
+    applyUrl: "#",
+  },
+  {
+    id: "2",
+    title: "Senior Teaching Assistant",
+    company: "Dummy Org",
+    location: "Leeds",
+    applyUrl: "#",
+  },
+];
 
 export default function Page() {
   return (
@@ -31,8 +46,7 @@ export default function Page() {
               {(job.company || job.location) && (
                 <p className="text-sm text-gray-600">
                   {job.company}
-                  {job.company && job.location ? " • " : ""}{" "}
-                  {job.location}
+                  {job.company && job.location ? " • " : ""} {job.location}
                 </p>
               )}
 
