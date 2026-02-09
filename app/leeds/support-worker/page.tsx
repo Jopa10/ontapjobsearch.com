@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Ontap — Support Worker jobs in Leeds",
-  description: "Public sector and charity Support Worker roles in Leeds.",
+  title: "Ontap — Support-worker jobs in Leeds",
+  description: "Public sector and charity support-worker roles in Leeds.",
 };
 
 type Job = {
@@ -16,27 +16,27 @@ type Job = {
 const jobs: Job[] = [
   {
     id: "1",
-    title: "Support Worker",
-    company: "Leeds City Council",
+    title: "Support worker",
+    company: "Dummy Org",
     location: "Leeds",
-    applyUrl: "https://www.civilservicejobs.service.gov.uk/", // replace
+    applyUrl: "#",
   },
   {
     id: "2",
-    title: "Senior Support Worker",
-    company: "NHS Trust",
+    title: "Senior support worker",
+    company: "Dummy Org",
     location: "Leeds",
-    applyUrl: "https://www.civilservicejobs.service.gov.uk/", // replace
+    applyUrl: "#",
   },
 ];
 
 export default function Page() {
   return (
     <main className="max-w-2xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-6">Support Worker jobs in Leeds</h1>
+      <h1 className="text-2xl font-bold mb-6">Teaching Assistant jobs in Leeds</h1>
 
       <div className="space-y-4">
-        {jobs.map((job) => {
+        {jobs.map((job: Job) => {
           const applyHref = job.applyUrl || job.url || job.redirectUrl;
 
           return (
@@ -46,8 +46,7 @@ export default function Page() {
               {(job.company || job.location) && (
                 <p className="text-sm text-gray-600">
                   {job.company}
-                  {job.company && job.location ? " • " : ""}{" "}
-                  {job.location}
+                  {job.company && job.location ? " • " : ""} {job.location}
                 </p>
               )}
 
@@ -68,4 +67,3 @@ export default function Page() {
     </main>
   );
 }
-
