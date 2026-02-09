@@ -14,14 +14,14 @@ type Job = {
 const jobs: Job[] = [
   {
     id: "1",
-    title: "Admin Officer",
+    title: "Administrator",
     company: "Leeds City Council",
     location: "Leeds",
     applyUrl: "#",
   },
   {
     id: "2",
-    title: "Senior Admin Officer",
+    title: "Senior Administrator Officer",
     company: "NHS Trust",
     location: "Leeds",
     applyUrl: "#",
