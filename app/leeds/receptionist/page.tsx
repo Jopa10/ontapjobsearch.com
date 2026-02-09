@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Ontap – Support Worker jobs in Leeds",
-  description: "Public sector and charity Admin Officer roles in Leeds.",
+  title: "Ontap — receptionist jobs in Leeds",
+  description: "Public sector and charity Receptionist roles in Leeds.",
 };
 
 type Job = {
@@ -16,29 +16,27 @@ type Job = {
 const jobs: Job[] = [
   {
     id: "1",
-    title: "Admin Officer",
-    company: "Leeds City Council",
+    title: "receptionist",
+    company: "Dummy Org",
     location: "Leeds",
-    applyUrl:
-      "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0JmpvYmxpc3Rfdmlld192YWM9MTk4NTE1OSZzZWFyY2hwYWdlPTExJnVzZXJzZWFyY2hjb250ZXh0PTE3MjY2OTc0MSZzZWFyY2hzb3J0PWNsb3Npbmcmb3duZXJ0eXBlPWZhaXImcGFnZWNsYXNzPUpvYnMmb3duZXI9NTA3MDAwMCZyZXFzaWc9MTc3MDQ2NTU1OS01NDFlODIyYTA3MWQ1ZTYwNTI2YWJmZjdhM2NlOTQzNGIyMjVkYzZi",
+    applyUrl: "#",
   },
   {
     id: "2",
-    title: "Senior Admin Officer",
-    company: "NHS Trust",
+    title: "Senior receptionist Assistant",
+    company: "Dummy Org",
     location: "Leeds",
-    applyUrl:
-      "https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWFjdGlvbj12aWV3dmFjYnlqb2JsaXN0JmpvYmxpc3Rfdmlld192YWM9MTk4NTE1OSZzZWFyY2hwYWdlPTExJnVzZXJzZWFyY2hjb250ZXh0PTE3MjY2OTc0MSZzZWFyY2hzb3J0PWNsb3Npbmcmb3duZXJ0eXBlPWZhaXImcGFnZWNsYXNzPUpvYnMmb3duZXI9NTA3MDAwMCZyZXFzaWc9MTc3MDQ2NTU1OS01NDFlODIyYTA3MWQ1ZTYwNTI2YWJmZjdhM2NlOTQzNGIyMjVkYzZi",
+    applyUrl: "#",
   },
 ];
 
 export default function Page() {
   return (
     <main className="max-w-2xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-6">Admin Officer jobs in Leeds</h1>
+      <h1 className="text-2xl font-bold mb-6">Receptionist jobs in Leeds</h1>
 
       <div className="space-y-4">
-        {jobs.map((job) => {
+        {jobs.map((job: Job) => {
           const applyHref = job.applyUrl || job.url || job.redirectUrl;
 
           return (
@@ -47,8 +45,8 @@ export default function Page() {
 
               {(job.company || job.location) && (
                 <p className="text-sm text-gray-600">
-                  {job.company} {job.company && job.location ? "•" : ""}{" "}
-                  {job.location}
+                  {job.company}
+                  {job.company && job.location ? " • " : ""} {job.location}
                 </p>
               )}
 
