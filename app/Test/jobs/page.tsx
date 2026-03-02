@@ -84,23 +84,23 @@ function readJobsCsv(): JobRow[] {
   const filePath = path.join(process.cwd(), "data", "leeds-feb26-slice.json");
   const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
   
-  return (parsed as JobRow[]).map((r: JobRow) => ({
-    job_id: r.job_id || "",
-    title: r.title || "",
-    company: r.company || "",
-    location: r.location || "",
-    region: r.region || "",
-    country: r.country || "",
-    category: r.category || "",
-    employment_type: r.employment_type || "",
-    salary_min: r.salary_min || "",
-    salary_max: r.salary_max || "",
-    salary_text: r.salary_text || "",
-    posted_date: r.posted_date || "",
-    description: r.description || "",
-    apply_url: r.apply_url || "",
-    source: r.source || "",
-  }));
+  return parsed.map((r: any) => ({
+  job_id: r.job_id || r.jobapplicationurl || "",
+  title: r.title || r.jobtitle || "",
+  company: r.company || r.companyname || "",
+  location: r.location || r.joblocation || "",
+  region: r.region || "",
+  country: r.country || "",
+  category: r.category || r.jobcategory || "",
+  employment_type: r.employment_type || r.jobtype || "",
+  salary_min: r.salary_min || "",
+  salary_max: r.salary_max || "",
+  salary_text: r.salary_text || r.otherdetails || "",
+  posted_date: r.posted_date || "",
+  description: r.description || r.jobdescription || "",
+  apply_url: r.apply_url || r.jobapplicationurl || "",
+  source: r.source || ""
+}));
 }
 
 export default function TestJobsPage() {
