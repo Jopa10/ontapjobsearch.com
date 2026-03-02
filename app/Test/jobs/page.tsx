@@ -123,25 +123,33 @@ export default function TestJobsPage() {
               padding: 14,
             }}
           >
-            <div style={{ fontSize: 18, fontWeight: 700 }}>{j.title}</div>
-            <div style={{ marginTop: 6 }}>
-              <b>{j.company}</b> — {j.location}
-            </div>
-            <div style={{ marginTop: 6, opacity: 0.85 }}>
-              {j.salary_text ? j.salary_text : ""}
-              {j.salary_text && j.employment_type ? " · " : ""}
-              {j.employment_type ? j.employment_type : ""}
-              {j.posted_date ? ` · Posted ${j.posted_date}` : ""}
-            </div>
+        <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
+  {j.title}
+</div>
 
-            <div style={{ marginTop: 10 }}>
-              <a href={j.apply_url} target="_blank" rel="noreferrer">
-                Apply (external)
-              </a>
-              <span style={{ marginLeft: 12, opacity: 0.7 }}>
-                Job ID: {j.job_id}
-              </span>
-            </div>
+<div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
+  {j.company} • {j.location}
+  {j.salary_text ? ` • ${j.salary_text}` : ""}
+</div>
+
+<div style={{ marginTop: 8 }}>
+  <a
+    href={j.apply_url}
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      display: "inline-block",
+      background: "#2563eb",
+      color: "white",
+      padding: "6px 12px",
+      borderRadius: 6,
+      fontSize: 14,
+      textDecoration: "none"
+    }}
+  >
+    Apply Now
+  </a>
+</div>
           </div>
         ))}
       </div>
