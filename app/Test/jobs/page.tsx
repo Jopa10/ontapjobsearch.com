@@ -14,6 +14,7 @@ type JobRow = {
   salary_max: string;
   salary_text: string;
   posted_date: string;
+  closing_date: string;
   description: string;
   apply_url: string;
   source: string;
@@ -97,6 +98,7 @@ function readJobsCsv(): JobRow[] {
   salary_max: r.salary_max || "",
   salary_text: r.salary_text || r.otherdetails || "",
   posted_date: r.posted_date || "",
+  closing_date: r.closing_date || "",
   description: r.description || r.jobdescription || "",
   apply_url: r.apply_url || r.jobapplicationurl || "",
   source: r.source || ""
@@ -129,7 +131,7 @@ export default function TestJobsPage() {
 
 <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
   {j.company} • {j.location}
-  {j.posted_date ? ` • Closes ${j.posted_date}` : ""}
+  {j.closing_date ? ` • Closes ${j.closing_date}` : ""}
   {j.salary_text ? ` • ${j.salary_text}` : ""}
 </div>
 
