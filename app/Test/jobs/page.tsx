@@ -81,10 +81,8 @@ function parseCsv(csvText: string): Record<string, string>[] {
 }
 
 function readJobsCsv(): JobRow[] {
-  const filePath = path.join(process.cwd(), "data", "jobs.csv");
-  const csv = fs.readFileSync(filePath, "utf8");
-  const parsed = parseCsv(csv);
-
+  const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  
   return parsed.map((r) => ({
     job_id: r.job_id || "",
     title: r.title || "",
