@@ -108,9 +108,9 @@ export default function TestJobsPage() {
 
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
-      <h1>Test Jobs (CSV)</h1>
+      Test Jobs (CSV) → Test Jobs (JSON)
       <p>
-        Loaded <b>{jobs.length}</b> jobs from <code>data/jobs.csv</code>
+        data/jobs.csv → data/leeds-feb26-slice.json
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
