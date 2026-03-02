@@ -84,7 +84,7 @@ function readJobsCsv(): JobRow[] {
   const filePath = path.join(process.cwd(), "data", "leeds-feb26-slice.json");
   const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
   
-  return parsed.map((r) => ({
+  return (parsed as JobRow[]).map((r: JobRow) => ({
     job_id: r.job_id || "",
     title: r.title || "",
     company: r.company || "",
