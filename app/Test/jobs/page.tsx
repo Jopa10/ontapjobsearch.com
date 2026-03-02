@@ -149,6 +149,9 @@ export default function TestJobsPage() {
   >
     Apply Now
   </a>
+  <span style={{ marginLeft: 12, fontSize: 12, opacity: 0.6 }}>
+  Job ID: {j.job_id}
+</span>
 </div>
           </div>
         ))}
