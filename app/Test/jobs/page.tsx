@@ -129,6 +129,7 @@ export default function TestJobsPage() {
 
 <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
   {j.company} • {j.location}
+  {j.posted_date ? ` • Closes ${j.posted_date}` : ""}
   {j.salary_text ? ` • ${j.salary_text}` : ""}
 </div>
 
