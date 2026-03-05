@@ -113,8 +113,12 @@ export default function TestJobsPage() {
       <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>
   Leeds NHS Admin Jobs
 </h1>
-      // under your <h1>...</h1>
-<p className="mt-1 text-sm text-slate-500">
+ <p style={{ 
+  fontSize: 14, 
+  fontWeight: 600, 
+  color: "#334155", 
+  marginBottom: 8 
+}}>
   Last updated: 5 March 2026
 </p>
 <p style={{ color: "#555", marginBottom: 20 }}>
