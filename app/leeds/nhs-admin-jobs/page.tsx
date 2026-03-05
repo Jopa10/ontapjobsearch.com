@@ -110,11 +110,12 @@ export default function TestJobsPage() {
 
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
-      Test Jobs (CSV) → Test Jobs (JSON)
-      <p>
-        data/jobs.csv → data/leeds-feb26-slice.json
-      </p>
-
+      <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>
+  Leeds NHS Admin Jobs
+</h1>
+<p style={{ color: "#555", marginBottom: 20 }}>
+  Updated daily • Roles across Leeds hospitals and NHS services • Apply on employer sites
+</p>
       <div style={{ display: "grid", gap: 12 }}>
         {jobs.map((j) => (
           <div
