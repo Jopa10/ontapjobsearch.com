@@ -104,7 +104,13 @@ function readJobsCsv(): JobRow[] {
   source: r.source || ""
 }));
 }
-
+function getEmployerType(name: string) {
+  if (/NHS|Hospital|Trust/i.test(name)) return "NHS";
+  if (/Surgery|Medical Centre|GP/i.test(name)) return "GP Practice";
+  if (/University/i.test(name)) return "University";
+  if (/Council|City Council/i.test(name)) return "Council";
+  return "Private";
+}
 export default function TestJobsPage() {
   const jobs = readJobsCsv();
 
@@ -137,7 +143,15 @@ export default function TestJobsPage() {
         <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
   {j.title}
 </div>
-
+<div style={{ marginBottom: 4 }}>
+  <span style={{
+    fontSize: 12,
+    fontWeight: 600,
+    color: "#475569"
+  }}>
+    {getEmployerType(j.company)}
+  </span>
+</div>
 <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
   {j.company} • {j.location}
   {j.closing_date ? ` • Closes ${j.closing_date}` : ""}
