@@ -113,6 +113,10 @@ export default function TestJobsPage() {
       <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>
   Leeds NHS Admin Jobs
 </h1>
+      // under your <h1>...</h1>
+<p className="mt-1 text-sm text-slate-500">
+  Last updated: 5 March 2026
+</p>
 <p style={{ color: "#555", marginBottom: 20 }}>
   Updated daily • Roles across Leeds hospitals and NHS services • Apply on employer sites
 </p>
