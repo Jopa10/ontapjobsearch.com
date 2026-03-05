@@ -116,6 +116,17 @@ export default function TestJobsPage() {
 
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Leeds NHS Admin Jobs",
+      url: "https://www.ontapjobsearch.com/leeds/nhs-admin-jobs",
+    }),
+  }}
+/>
       <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>
   Leeds NHS Admin Jobs
 </h1>
