@@ -135,6 +135,19 @@ export default function TestJobsPage() {
   {j.closing_date ? ` • Closes ${j.closing_date}` : ""}
   {j.salary_text ? ` • ${j.salary_text}` : ""}
 </div>
+            <div
+  style={{
+    fontSize: 14,
+    color: "#555",
+    marginBottom: 12,
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  }}
+  title={j.description || ""}
+>
+  {j.description ? j.description.replace(/\s+/g, " ").trim() : ""}
+</div>
 
 <div style={{ marginTop: 8 }}>
   <a
