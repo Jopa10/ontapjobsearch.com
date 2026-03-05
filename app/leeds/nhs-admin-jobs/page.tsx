@@ -141,7 +141,11 @@ export default function TestJobsPage() {
 <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
   {j.company} • {j.location}
   {j.closing_date ? ` • Closes ${j.closing_date}` : ""}
-  {j.salary_text ? ` • ${j.salary_text}` : ""}
+  {j.salary_min && j.salary_max
+  ? ` • £${Number(j.salary_min).toLocaleString()}–£${Number(j.salary_max).toLocaleString()}`
+  : j.salary_text
+  ? ` • ${j.salary_text}`
+  : ""}
 </div>
             <div
   style={{
