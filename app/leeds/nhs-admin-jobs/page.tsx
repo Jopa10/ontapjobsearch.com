@@ -174,7 +174,7 @@ export default function TestJobsPage() {
      : ""}
  </div>
 <div style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
-  {j.closing_date ? `Closing date: ${j.closing_date}` : ""}
+  {j.closing_date ? `Closing: ${new Date(j.closing_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : ""}
 </div>
             <div
   style={{
