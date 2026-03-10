@@ -176,7 +176,6 @@ export default function TestJobsPage() {
 <div style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
   {j.closing_date ? `Closing date: ${j.closing_date}` : ""}
 </div>
-</div>
             <div
   style={{
     fontSize: 14,
