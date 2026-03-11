@@ -36,24 +36,6 @@
       "source": "NHS Jobs"
     },
     {
-      "job_id": "LEEDS-006",
-      "title": "Wellbeing and Activities Coordinator",
-      "company": "Avery Healthcare Group Ltd.",
-      "location": "Kirkstall LS5 3ED",
-      "region": "West Yorkshire",
-      "country": "UK",
-      "category": "Administrative",
-      "employment_type": "Permanent (Full time)",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_text": "£13.30 an hour",
-      "posted_date": "2026-02-22",
-      "closing_date": "2026-04-20",
-      "description": "Activities/wellbeing co-ordination in a care home setting; planning activities and resident engagement.",
-      "apply_url": "",
-      "source": "ApplyGateway (via NHS Jobs listing)"
-    },
-    {
       "job_id": "LEEDS-007",
       "title": "Receptionist / Care Navigator",
       "company": "Conway Medical Centre",
@@ -88,25 +70,7 @@
       "description": "In-house care navigation/booking team; patient-facing by telephone; supports multiple GP surgeries across PCN.",
       "apply_url": "https://www.jobs.nhs.uk/candidate/jobadvert/W0027-26-0004",
       "source": "NHS Jobs"
-    },
-    {
-      "job_id": "LEEDS-011",
-      "title": "Administrator (on-site)",
-      "company": "OneMedicalGroup",
-      "location": "Leeds LS21 1PY",
-      "region": "West Yorkshire",
-      "country": "UK",
-      "category": "Administrative",
-      "employment_type": "Permanent (Full time)",
-      "salary_min": 25400,
-      "salary_max": 25400,
-      "salary_text": "£25,400 a year",
-      "posted_date": "2026-02-18",
-      "closing_date": "2026-03-08",
-      "description": "On-site administrator role supporting growth/bid-related admin & coordination; 40 hours/week.",
-      "apply_url": "https://www.jobs.nhs.uk/candidate/jobadvert/E0135-26-0036",
-      "source": "NHS Jobs / Jobtrain"
-     }
+    }
      ]
     
  
