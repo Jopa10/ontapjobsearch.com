@@ -52,7 +52,7 @@ export default function Footer() {
                         </h4>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="#" className="text-sm hover:text-white transition-colors">
+                                <Link href="/privacy-policy" className="text-sm hover:text-white transition-colors">
                                     Privacy Policy
                                 </Link>
                             </li>
