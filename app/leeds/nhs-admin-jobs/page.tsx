@@ -176,11 +176,11 @@ export default function TestJobsPage() {
 <div style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
   {j.closing_date ? `Closing: ${new Date(j.closing_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : ""}
 </div>
-            <div
+<div
   style={{
     fontSize: 14,
     color: "#555",
-    marginBottom: 12,
+    marginBottom: 8,
     overflow: "hidden",
     textOverflow: "ellipsis",
     whiteSpace: "nowrap",
@@ -190,6 +190,30 @@ export default function TestJobsPage() {
   {j.description ? j.description.replace(/\s+/g, " ").trim() : ""}
 </div>
 
+{j.description && (
+  <details style={{ marginBottom: 12 }}>
+    <summary
+      style={{
+        fontSize: 13,
+        color: "#2563eb",
+        cursor: "pointer",
+        marginBottom: 8,
+      }}
+    >
+      View full job description
+    </summary>
+    <div
+      style={{
+        fontSize: 14,
+        color: "#555",
+        lineHeight: 1.6,
+        whiteSpace: "pre-wrap",
+      }}
+    >
+      {j.description}
+    </div>
+  </details>
+)}
 <div style={{ marginTop: 8 }}>
   <a
     href={j.apply_url}
