@@ -128,7 +128,7 @@ export default function TestJobsPage() {
   }}
 />
       <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>
-  Leeds NHS Admin Jobs
+  Yorkshire Support-worker Roles
 </h1>
  <p style={{ 
   fontSize: 14, 
@@ -139,7 +139,7 @@ export default function TestJobsPage() {
   Last updated: 17th March 2026
 </p>
 <p style={{ color: "#555", marginBottom: 20 }}>
-  Updated daily • Roles across Yorkshire for Support-worker Roles • Apply on employer sites
+  Updated daily • Roles across Yorkshire for Support-workers • Apply on employer sites
 </p>
       <div style={{ display: "grid", gap: 12 }}>
         {jobs.map((j) => (
