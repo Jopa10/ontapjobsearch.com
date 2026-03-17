@@ -122,7 +122,7 @@ export default function TestJobsPage() {
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      name: "Leeds NHS Admin Jobs",
+      name: "Yorkshire Support-worker Jobs",
       url: "https://www.ontapjobsearch.com/leeds/nhs-admin-jobs",
     }),
   }}
@@ -136,10 +136,10 @@ export default function TestJobsPage() {
   color: "#334155", 
   marginBottom: 8 
 }}>
-  Last updated: 10th March 2026
+  Last updated: 17th March 2026
 </p>
 <p style={{ color: "#555", marginBottom: 20 }}>
-  Updated daily • Roles across Leeds hospitals and NHS services • Apply on employer sites
+  Updated daily • Roles across Yorkshire for Support-worker Roles • Apply on employer sites
 </p>
       <div style={{ display: "grid", gap: 12 }}>
         {jobs.map((j) => (
