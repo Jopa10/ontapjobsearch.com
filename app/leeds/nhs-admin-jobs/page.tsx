@@ -82,7 +82,7 @@ function parseCsv(csvText: string): Record<string, string>[] {
 }
 
 function readJobsCsv(): JobRow[] {
-  const filePath = path.join(process.cwd(), "data", "leeds-feb26-slice.json");
+const filePath = path.join(process.cwd(), "app", "yorkshire", "support-worker.json");
   const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
   
   return parsed.map((r: any) => ({
