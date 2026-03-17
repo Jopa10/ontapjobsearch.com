@@ -12,7 +12,9 @@ type JobRow = {
   employment_type: string;
   salary_min: string;
   salary_max: string;
-  salary_text: string;
+  salary_period: string;
+salary_text: string;
+work_pattern: string;
   posted_date: string;
   closing_date: string;
   description: string;
@@ -94,9 +96,11 @@ const filePath = path.join(process.cwd(), "app", "yorkshire", "support-worker.js
   country: r.country || "",
   category: r.category || r.jobcategory || "",
   employment_type: r.employment_type || r.jobtype || "",
-  salary_min: r.salary_min || "",
-  salary_max: r.salary_max || "",
-  salary_text: r.salary_text || r.otherdetails || "",
+  salary_min: r.salary_min || r.jobsalaryminimum || "",
+  salary_max: r.salary_max || r.jobsalarymaximum || "",
+  salary_period: r.salary_period || r.jobsalaryperiod || "",
+    salary_text: r.salary_text || r.salaryadditional || r.otherdetails || "",
+    work_pattern: r.work_pattern || r.jobworkhours || "",
   posted_date: r.posted_date || "",
   closing_date: r.closing_date || "",
   description: r.description || r.jobdescription || "",
@@ -163,17 +167,21 @@ export default function TestJobsPage() {
     {getEmployerType(j.company)}
   </span>
 </div>
-<div style={{ fontSize: 14, color: "#555", marginBottom: 6 }}>
+<div style={{ fontSize: 14, color: "#555", marginBottom: 2 }}>
 {j.company} • {j.location}
- </div>
+</div>
+<div style={{ fontSize: 15, fontWeight: 600, color: "#111", marginBottom: 8 }}>
+<div style={{ fontSize: 13, color: "#6b7280", marginBottom: 6 }}>
+{j.work_pattern}
+</div>
  <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
-   {j.salary_min && j.salary_max
-     ? `£${Number(j.salary_min).toLocaleString()}–£${Number(j.salary_max).toLocaleString()}`
-     : j.salary_text
-     ? `${j.salary_text}`
-     : ""}
- </div>
-<div style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
+  {j.salary_min && j.salary_max
+  ? `£${Number(j.salary_min).toLocaleString()}–£${Number(j.salary_max).toLocaleString()} per ${j.salary_period || ""}`
+  : Number(j.salary_min)
+  ? `£${Number(j.salary_min).toLocaleString()} per ${j.salary_period || ""}`
+  : j.salary_text
+  ? `${j.salary_text}`
+
   {j.closing_date ? `Closing: ${new Date(j.closing_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : ""}
 </div>
 <div
