@@ -123,7 +123,7 @@ export default function TestJobsPage() {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Yorkshire Support-worker Jobs",
-      url: "https://www.ontapjobsearch.com/leeds/nhs-admin-jobs",
+     url: "https://www.ontapjobsearch.com/yorkshire/support-worker",
     }),
   }}
 />
