@@ -145,53 +145,102 @@ export default function TestJobsPage() {
 <p style={{ color: "#555", marginBottom: 20 }}>
   Updated daily • Roles across Yorkshire for Support-workers • Apply on employer sites
 </p>
-      <div style={{ display: "grid", gap: 12 }}>
-        {jobs.map((j) => (
-          <div
-            key={j.job_id}
-            style={{
-              border: "1px solid #e5e7eb",
-              borderRadius: 10,
-              padding: 14,
-            }}
-          >
-        <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
-  {j.title}
+<div style={{ display: "grid", gap: 12 }}>
+  {jobs.map((j) => (
+    <div
+      key={j.job_id}
+      style={{
+        border: "1px solid #e5e7eb",
+        borderRadius: 10,
+        padding: 14,
+      }}
+    >
+     <div style={{ marginBottom: 4 }}>
+  <a
+    href={j.apply_url}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      fontSize: 18,
+      fontWeight: 700,
+      color: "#111",
+      textDecoration: "none"
+    }}
+  >
+    {j.title}
+  </a>
 </div>
-<div style={{ marginBottom: 4 }}>
-  <span style={{
-    fontSize: 12,
-    fontWeight: 600,
-    color: "#475569"
-  }}>
-    {getEmployerType(j.company)}
-  </span>
-</div>
-<div style={{ fontSize: 14, color: "#555", marginBottom: 2 }}>
-{j.company} • {j.location}
-</div>
-<div style={{ fontSize: 15, fontWeight: 600, color: "#111", marginBottom: 8 }}>
-<div style={{ fontSize: 13, color: "#6b7280", marginBottom: 6 }}>
-{j.work_pattern}
-</div>
- <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
-  {j.salary_min && j.salary_max
-  ? `£${Number(j.salary_min).toLocaleString()}–£${Number(j.salary_max).toLocaleString()} per ${j.salary_period || ""}`
-  : Number(j.salary_min)
-  ? `£${Number(j.salary_min).toLocaleString()} per ${j.salary_period || ""}`
-  : j.salary_text
-  ? `${j.salary_text}`
 
-  {j.closing_date ? `Closing: ${new Date(j.closing_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : ""}
+      <div style={{ marginBottom: 4 }}>
+        <span
+          style={{
+            fontSize: 12,
+            fontWeight: 600,
+            color: "#475569",
+          }}
+        >
+          {getEmployerType(j.company)}
+        </span>
+      </div>
+
+      <div style={{ fontSize: 14, color: "#555", marginBottom: 2 }}>
+        {j.company} • {j.location}
+      </div>
+
+      <div style={{ fontSize: 13, color: "#6b7280", marginBottom: 6 }}>
+        {j.work_pattern}
+      </div>
+
+      <div
+        style={{
+          fontSize: 15,
+          fontWeight: 600,
+          color: "#111",
+          marginBottom: 8,
+        }}
+      >
+        {j.salary_min && j.salary_max
+          ? `£${Number(j.salary_min).toLocaleString()}–£${Number(
+              j.salary_max
+            ).toLocaleString()} per ${j.salary_period || ""}`
+          : j.salary_min
+          ? `£${Number(j.salary_min).toLocaleString()} per ${
+              j.salary_period || ""
+            }`
+          : j.salary_text
+          ? `${j.salary_text}`
+          : ""}
+      </div>
+
+      <div
+        style={{
+          fontSize: 14,
+          color: "#555",
+          marginBottom: 8,
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+          whiteSpace: "nowrap",
+        }}
+        title={j.description || ""}
+      >
+        {j.description ? j.description.replace(/\s+/g, " ").trim() : ""}
+      </div>
+
+      <a
+        href={j.apply_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          fontSize: 14,
+          fontWeight: 600,
+          color: "#2563eb",
+        }}
+      >
+        Apply →
+      </a>
+    </div>
+  ))}
 </div>
-<div
-  style={{
-    fontSize: 14,
-    color: "#555",
-    marginBottom: 8,
-    overflow: "hidden",
-    textOverflow: "ellipsis",
-    whiteSpace: "nowrap",
   }}
   title={j.description || ""}
 >
