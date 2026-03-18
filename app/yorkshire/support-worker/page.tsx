@@ -10,6 +10,7 @@ type JobRow = {
   country: string;
   category: string;
   employment_type: string;
+  advertiser_type: string;
   salary_min: string;
   salary_max: string;
   salary_period: string;
@@ -18,42 +19,190 @@ type JobRow = {
   posted_date: string;
   closing_date: string;
   description: string;
+  full_description: string;
   apply_url: string;
   source: string;
 };
 
-function readJobsCsv(): JobRow[] {
+function readJobsJson(): JobRow[] {
   const filePath = path.join(
     process.cwd(),
     "app",
     "yorkshire",
     "support-worker.json"
   );
+
   const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
   return parsed.map((r: any) => ({
-    job_id: r.job_id || r.jobapplicationurl || "",
-    title: r.title || r.jobtitle || "",
-    company: r.company || r.companyname || "",
-    location: r.location || r.joblocation || "",
-    region: r.region || "",
-    country: r.country || "",
-    category: r.category || r.jobcategory || "",
-    employment_type: r.employment_type || r.jobtype || "",
-    salary_min: r.salary_min || r.jobsalaryminimum || "",
-    salary_max: r.salary_max || r.jobsalarymaximum || "",
-    salary_period: r.salary_period || r.jobsalaryperiod || "",
-    salary_text: r.salary_text || r.salaryadditional || r.otherdetails || "",
-    work_pattern: r.work_pattern || r.jobworkhours || "",
-    posted_date: r.posted_date || "",
-    closing_date: r.closing_date || "",
-    description: r.description || r.jobdescription || "",
-    apply_url: r.apply_url || r.jobapplicationurl || "",
+    job_id:
+      r.job_id ||
+      r.display_reference ||
+      r.jobdisplayreference ||
+      r["/Job/DisplayReference"] ||
+      "",
+    title:
+      r.title ||
+      r.jobtitle ||
+      r.position ||
+      r.jobposition ||
+      r["/Job/Position"] ||
+      "",
+    company:
+      r.company ||
+      r.companyname ||
+      r.advertiser_name ||
+      r.jobadvertisername ||
+      r["/Job/AdvertiserName"] ||
+      "",
+    location:
+      r.location ||
+      r.joblocation ||
+      r.area ||
+      r.jobarea ||
+      r["/Job/Area"] ||
+      r["/Job/Location"] ||
+      "",
+    region: r.region || r["/Job/Location"] || "",
+    country: r.country || r.jobcountry || r["/Job/Country"] || "",
+    category:
+      r.category ||
+      r.jobcategory ||
+      r.classification ||
+      r.jobclassification ||
+      r["/Job/Classification"] ||
+      "",
+    employment_type:
+      r.employment_type ||
+      r.jobtype ||
+      r.jobemploymenttype ||
+      r["/Job/EmploymentType"] ||
+      "",
+    advertiser_type:
+      r.advertiser_type ||
+      r.advertisertype ||
+      r.jobadvertisertype ||
+      r["/Job/AdvertiserType"] ||
+      "",
+    salary_min:
+      r.salary_min ||
+      r.jobsalaryminimum ||
+      r["/Job/SalaryMinimum"] ||
+      "",
+    salary_max:
+      r.salary_max ||
+      r.jobsalarymaximum ||
+      r["/Job/SalaryMaximum"] ||
+      "",
+    salary_period:
+      r.salary_period ||
+      r.jobsalaryperiod ||
+      r["/Job/SalaryPeriod"] ||
+      "",
+    salary_text:
+      r.salary_text ||
+      r.salaryadditional ||
+      r.jobsalaryadditional ||
+      r["/Job/SalaryAdditional"] ||
+      r.otherdetails ||
+      "",
+    work_pattern:
+      r.work_pattern ||
+      r.jobworkhours ||
+      r.jobemploymenttype ||
+      r["/Job/EmploymentType"] ||
+      "",
+    posted_date: r.posted_date || r["/Job/PostedDate"] || "",
+    closing_date: r.closing_date || r["/Job/ClosingDate"] || "",
+    description: r.description || r.summary || "",
+    full_description:
+      r.full_description ||
+      r.jobdescription ||
+      r["/Job/Description"] ||
+      r.description ||
+      "",
+    apply_url:
+      r["/Job/ApplicationURL"] ||
+      r.jobapplicationurl ||
+      r.apply_url ||
+      "",
     source: r.source || "",
   }));
 }
 
-function getEmployerType(name: string) {
+function cleanText(value: string) {
+  return (value || "").replace(/\s+/g, " ").trim();
+}
+
+function stripHtml(html: string) {
+  if (!html) return "";
+
+  return html
+    .replace(/<img[^>]*>/gi, "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<\/div>/gi, "\n")
+    .replace(/<\/li>/gi, "\n")
+    .replace(/<li[^>]*>/gi, "• ")
+    .replace(/<\/ul>/gi, "\n")
+    .replace(/<\/ol>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function getSummaryText(job: JobRow) {
+  return cleanText(stripHtml(job.description || ""));
+}
+
+function getFullDescription(job: JobRow) {
+  return stripHtml(job.full_description || "");
+}
+
+function formatNumber(value: string) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return "";
+  return num.toLocaleString(undefined, {
+    maximumFractionDigits: num % 1 === 0 ? 0 : 2,
+  });
+}
+
+function formatSalary(job: JobRow) {
+  const min = Number(job.salary_min);
+  const max = Number(job.salary_max);
+  const hasMin = Number.isFinite(min) && job.salary_min !== "";
+  const hasMax = Number.isFinite(max) && job.salary_max !== "";
+  const period = (job.salary_period || "").toLowerCase();
+
+  if (hasMin && hasMax) {
+    if (min === max) {
+      return `£${formatNumber(job.salary_min)}${
+        period ? ` per ${period}` : ""
+      }`;
+    }
+
+    return `£${formatNumber(job.salary_min)}–£${formatNumber(job.salary_max)}${
+      period ? ` per ${period}` : ""
+    }`;
+  }
+
+  if (hasMin) {
+    return `£${formatNumber(job.salary_min)}${period ? ` per ${period}` : ""}`;
+  }
+
+  if (hasMax) {
+    return `£${formatNumber(job.salary_max)}${period ? ` per ${period}` : ""}`;
+  }
+
+  return job.salary_text || "";
+}
+
+function getEmployerType(name: string, advertiserType?: string) {
+  if (/agency/i.test(advertiserType || "")) return "Agency";
   if (/NHS|Hospital|Trust/i.test(name)) return "NHS";
   if (/Surgery|Medical Centre|GP/i.test(name)) return "GP Practice";
   if (/University/i.test(name)) return "University";
@@ -62,7 +211,7 @@ function getEmployerType(name: string) {
 }
 
 export default function TestJobsPage() {
-  const jobs = readJobsCsv();
+  const jobs = readJobsJson();
 
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
@@ -99,131 +248,136 @@ export default function TestJobsPage() {
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
-        {jobs.map((j) => (
-          <div
-            key={j.job_id}
-            style={{
-              border: "1px solid #e5e7eb",
-              borderRadius: 10,
-              padding: 14,
-            }}
-          >
-            <div style={{ marginBottom: 4 }}>
-              <a
-                href={j.apply_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontSize: 18,
-                  fontWeight: 700,
-                  color: "#111",
-                  textDecoration: "none",
-                }}
-              >
-                {j.title}
-              </a>
-            </div>
+        {jobs.map((j, idx) => {
+          const summaryText = getSummaryText(j);
+          const fullDescription = getFullDescription(j);
+          const salaryDisplay = formatSalary(j);
+          const href = j.apply_url || "#";
 
-            <div style={{ marginBottom: 4 }}>
-              <span
-                style={{
-                  fontSize: 12,
-                  fontWeight: 600,
-                  color: "#475569",
-                }}
-              >
-                {getEmployerType(j.company)}
-              </span>
-            </div>
-
-            <div style={{ fontSize: 14, color: "#555", marginBottom: 2 }}>
-              {j.company} • {j.location}
-            </div>
-
-            <div style={{ fontSize: 13, color: "#6b7280", marginBottom: 6 }}>
-              {j.work_pattern}
-            </div>
-
+          return (
             <div
+              key={j.job_id || `${j.title}-${idx}`}
               style={{
-                fontSize: 15,
-                fontWeight: 600,
-                color: "#111",
-                marginBottom: 8,
+                border: "1px solid #e5e7eb",
+                borderRadius: 10,
+                padding: 14,
               }}
             >
-              {j.salary_min && j.salary_max
-                ? `£${Number(j.salary_min).toLocaleString()}–£${Number(
-                    j.salary_max
-                  ).toLocaleString()} per ${j.salary_period || ""}`
-                : j.salary_min
-                ? `£${Number(j.salary_min).toLocaleString()} per ${
-                    j.salary_period || ""
-                  }`
-                : j.salary_text
-                ? `${j.salary_text}`
-                : ""}
-            </div>
-
-            <div
-              style={{
-                fontSize: 14,
-                color: "#555",
-                marginBottom: 8,
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-                whiteSpace: "nowrap",
-              }}
-              title={j.description || ""}
-            >
-              {j.description ? j.description.replace(/\s+/g, " ").trim() : ""}
-            </div>
-
-            {j.description && (
-              <details style={{ marginBottom: 12 }}>
-                <summary
+              <div style={{ marginBottom: 4 }}>
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
-                    fontSize: 13,
-                    color: "#2563eb",
-                    cursor: "pointer",
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#111",
+                    textDecoration: "none",
+                    pointerEvents: j.apply_url ? "auto" : "none",
+                    opacity: j.apply_url ? 1 : 0.6,
+                  }}
+                >
+                  {j.title}
+                </a>
+              </div>
+
+              <div style={{ marginBottom: 4 }}>
+                <span
+                  style={{
+                    fontSize: 12,
+                    fontWeight: 600,
+                    color: "#475569",
+                  }}
+                >
+                  {getEmployerType(j.company, j.advertiser_type)}
+                </span>
+              </div>
+
+              <div style={{ fontSize: 14, color: "#555", marginBottom: 2 }}>
+                {j.company} • {j.location}
+              </div>
+
+              <div style={{ fontSize: 13, color: "#6b7280", marginBottom: 6 }}>
+                {j.work_pattern}
+              </div>
+
+              {salaryDisplay && (
+                <div
+                  style={{
+                    fontSize: 15,
+                    fontWeight: 600,
+                    color: "#111",
                     marginBottom: 8,
                   }}
                 >
-                  View full job description
-                </summary>
+                  {salaryDisplay}
+                </div>
+              )}
+
+              {summaryText && (
                 <div
                   style={{
                     fontSize: 14,
                     color: "#555",
-                    lineHeight: 1.6,
-                    whiteSpace: "pre-wrap",
+                    marginBottom: 8,
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    whiteSpace: "nowrap",
+                  }}
+                  title={summaryText}
+                >
+                  {summaryText}
+                </div>
+              )}
+
+              {fullDescription && (
+                <details style={{ marginBottom: 12 }}>
+                  <summary
+                    style={{
+                      fontSize: 13,
+                      color: "#2563eb",
+                      cursor: "pointer",
+                      marginBottom: 8,
+                    }}
+                  >
+                    View full job description
+                  </summary>
+                  <div
+                    style={{
+                      fontSize: 14,
+                      color: "#555",
+                      lineHeight: 1.6,
+                      whiteSpace: "pre-wrap",
+                    }}
+                  >
+                    {fullDescription}
+                  </div>
+                </details>
+              )}
+
+              <div style={{ marginTop: 8 }}>
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    display: "inline-block",
+                    background: "#2563eb",
+                    color: "white",
+                    padding: "6px 12px",
+                    borderRadius: 6,
+                    fontSize: 14,
+                    textDecoration: "none",
+                    pointerEvents: j.apply_url ? "auto" : "none",
+                    opacity: j.apply_url ? 1 : 0.6,
                   }}
                 >
-                  {j.description}
-                </div>
-              </details>
-            )}
-
-            <div style={{ marginTop: 8 }}>
-              <a
-                href={j.apply_url}
-                target="_blank"
-                rel="noreferrer"
-                style={{
-                  display: "inline-block",
-                  background: "#2563eb",
-                  color: "white",
-                  padding: "6px 12px",
-                  borderRadius: 6,
-                  fontSize: 14,
-                  textDecoration: "none",
-                }}
-              >
-                Apply Now
-              </a>
+                  Apply Now
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </main>
   );
