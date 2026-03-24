@@ -28,6 +28,17 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XLJL0PXJ0V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XLJL0PXJ0V');
+</script>
+          </head>
       <body className={`${inter.className} antialiased flex flex-col min-h-screen`} suppressHydrationWarning>
         <Toaster position="top-right" />
         <SessionProvider session={session}>
