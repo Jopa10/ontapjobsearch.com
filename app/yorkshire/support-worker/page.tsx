@@ -18,6 +18,7 @@ type JobRow = {
   work_pattern: string;
   posted_date: string;
   closing_date: string;
+  summary: string;
   description: string;
   full_description: string;
   apply_url: string;
@@ -114,7 +115,8 @@ function readJobsJson(): JobRow[] {
       "",
     posted_date: r.posted_date || r["/Job/PostedDate"] || "",
     closing_date: r.closing_date || r["/Job/ClosingDate"] || "",
-    description: r.description || r.summary || "",
+    summary: r.summary || "",
+    description: r.description || "",
     full_description:
       r.full_description ||
       r.jobdescription ||
@@ -130,14 +132,26 @@ function readJobsJson(): JobRow[] {
   }));
 }
 
+function decodeMojibake(value: string) {
+  return (value || "")
+    .replace(/Â£/g, "£")
+    .replace(/â€“/g, "–")
+    .replace(/â€”/g, "—")
+    .replace(/â€˜/g, "‘")
+    .replace(/â€™/g, "’")
+    .replace(/â€œ/g, "“")
+    .replace(/â€/g, "”")
+    .replace(/Â/g, "");
+}
+
 function cleanText(value: string) {
-  return (value || "").replace(/\s+/g, " ").trim();
+  return decodeMojibake(value || "").replace(/\s+/g, " ").trim();
 }
 
 function stripHtml(html: string) {
   if (!html) return "";
 
-  return html
+  return decodeMojibake(html)
     .replace(/<img[^>]*>/gi, "")
     .replace(/<br\s*\/?>/gi, "\n")
     .replace(/<\/p>/gi, "\n\n")
@@ -155,12 +169,32 @@ function stripHtml(html: string) {
     .trim();
 }
 
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function removeLeadingDuplicate(fullText: string, summaryText: string) {
+  if (!fullText || !summaryText) return fullText;
+
+  const cleanSummary = cleanText(summaryText);
+  const cleanFull = cleanText(fullText);
+
+  if (cleanFull.startsWith(cleanSummary)) {
+    return cleanFull.slice(cleanSummary.length).trim().replace(/^[-–—:,\s]+/, "");
+  }
+
+  const summaryRegex = new RegExp("^" + escapeRegExp(cleanSummary) + "[-–—:,\s]*", "i");
+  return cleanFull.replace(summaryRegex, "").trim();
+}
+
 function getSummaryText(job: JobRow) {
-  return cleanText(stripHtml(job.description || ""));
+  return cleanText(job.summary || "");
 }
 
 function getFullDescription(job: JobRow) {
-  return stripHtml(job.full_description || "");
+  const fullText = stripHtml(job.full_description || "");
+  const summaryText = getSummaryText(job);
+  return removeLeadingDuplicate(fullText, summaryText);
 }
 
 function formatNumber(value: string) {
@@ -180,14 +214,10 @@ function formatSalary(job: JobRow) {
 
   if (hasMin && hasMax) {
     if (min === max) {
-      return `£${formatNumber(job.salary_min)}${
-        period ? ` per ${period}` : ""
-      }`;
+      return `£${formatNumber(job.salary_min)}${period ? ` per ${period}` : ""}`;
     }
 
-    return `£${formatNumber(job.salary_min)}–£${formatNumber(job.salary_max)}${
-      period ? ` per ${period}` : ""
-    }`;
+    return `£${formatNumber(job.salary_min)}–£${formatNumber(job.salary_max)}${period ? ` per ${period}` : ""}`;
   }
 
   if (hasMin) {
@@ -198,7 +228,7 @@ function formatSalary(job: JobRow) {
     return `£${formatNumber(job.salary_max)}${period ? ` per ${period}` : ""}`;
   }
 
-  return job.salary_text || "";
+  return cleanText(job.salary_text || "");
 }
 
 function getEmployerType(name: string, advertiserType?: string) {
@@ -243,8 +273,7 @@ export default function TestJobsPage() {
       </p>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
-        Updated daily • Roles across West Yorkshire for Support-workers • Apply on
-        employer sites
+        Updated daily • Roles across West Yorkshire for Support-workers • Apply on employer sites
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
