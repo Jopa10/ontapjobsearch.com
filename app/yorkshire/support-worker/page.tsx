@@ -270,15 +270,7 @@ export default function Page() {
   href={j.apply_url}
   target="_blank"
   rel="noreferrer"
-  onClick={() => {
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("event", "apply_click", {
-        job_id: j.job_id,
-        title: j.title,
-        location: j.location,
-      });
-    }
-  }}
+ 
   style={{
     display: "inline-block",
     marginTop: 10,
