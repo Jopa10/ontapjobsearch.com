@@ -1,4 +1,5 @@
-// app/layout.tsx - Root layout with providers
+// app/layout.tsx – Root layout with providers
+
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -15,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Ontap Job Search - Find Your Perfect Job',
+  title: 'Ontap Job Search – Find Your Perfect Job',
   description: 'Discover job opportunities tailored to your skills and ambitions on Ontap Job Search.',
 };
 
@@ -29,17 +30,21 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XLJL0PXJ0V"></script>
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XLJL0PXJ0V');
-    `,
-  }}
-/>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-XLJL0PXJ0V"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XLJL0PXJ0V');
+            `,
+          }}
+        />
+      </head>
       <body className={`${inter.className} antialiased flex flex-col min-h-screen`} suppressHydrationWarning>
         <Toaster position="top-right" />
         <SessionProvider session={session}>
