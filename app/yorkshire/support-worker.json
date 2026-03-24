@@ -1,22 +1,5 @@
 [
   {
-    "job_id": "SSQ205847",
-    "title": "Behaviour Support Worker",
-    "company": "NextGen Teachers",
-    "location": "Keighley",
-    "region": "Yorkshire",
-    "country": "United Kingdom",
-    "category": "Healthcare & Medical",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Behaviour Support Worker role",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?2uSiqJQf8LCtHwvgf2siHyXNqQu%2fj5%2fVt",
-    "source": "JobG8"
-  },
-  {
     "job_id": "106884195",
     "title": "Resident Project Support Worker (Housing)",
     "company": "Brook Street UK",
@@ -29,7 +12,7 @@
     "salary_max": "26000",
     "salary_text": "Â£26,000 annual",
     "posted_date": "",
-    "description": "Housing Project Support Worker",
+    "description": "Housing-focused project support role in Leeds. Permanent position. pay Â£26,000 annual.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?VT%2fdxUP6WKABCBmkbbsnB%2bJkF%2fHKfWVKf",
     "source": "JobG8"
   },
@@ -46,7 +29,7 @@
     "salary_max": "26000",
     "salary_text": "Â£26,000 annual",
     "posted_date": "",
-    "description": "Residential Childcare Support Worker",
+    "description": "Residential childcare support role in Leeds. Permanent position. pay Â£26,000 annual.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?H2z8xidY93OfoesL9%2fb1aa83PKidcu9Cq",
     "source": "JobG8"
   },
@@ -63,8 +46,42 @@
     "salary_max": "105",
     "salary_text": "Â£90-Â£105 daily",
     "posted_date": "",
-    "description": "Behaviour Support Worker / SEMH",
+    "description": "Behaviour support and SEMH support role in Leeds. Temporary position. pay Â£90-Â£105 daily.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?3cxwURMiH8C0BECz7ii4Gp6%2fdXsypwcAa",
+    "source": "JobG8"
+  },
+  {
+    "job_id": "106936913",
+    "title": "Residential Childcare Support Worker (Sessional/Casual)",
+    "company": "LCS",
+    "location": "Leeds",
+    "region": "Yorkshire",
+    "country": "United Kingdom",
+    "category": "Healthcare & Medical",
+    "employment_type": "Permanent",
+    "salary_min": "12.29",
+    "salary_max": "12.29",
+    "salary_text": "Â£12.29 hourly",
+    "posted_date": "",
+    "description": "Sessional residential childcare support role in Leeds. Permanent position. pay Â£12.29 hourly.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?XxwFjzwo6LXZhlI%2fQBXFFnwrNW8YWco0w",
+    "source": "JobG8"
+  },
+  {
+    "job_id": "SSQ205847",
+    "title": "Behaviour Support Worker",
+    "company": "NextGen Teachers",
+    "location": "Keighley",
+    "region": "Yorkshire",
+    "country": "United Kingdom",
+    "category": "Healthcare & Medical",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Behaviour support role in Keighley. Permanent position.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?2uSiqJQf8LCtHwvgf2siHyXNqQu%2fj5%2fVt",
     "source": "JobG8"
   },
   {
@@ -80,7 +97,7 @@
     "salary_max": "",
     "salary_text": "",
     "posted_date": "",
-    "description": "Night Support Worker",
+    "description": "Night support role in children's homes in Bradford. Permanent position.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?%2fUEw%2fekp5t6ILxmVoGfWC99fkNfGGf1By",
     "source": "JobG8"
   },
@@ -97,25 +114,8 @@
     "salary_max": "",
     "salary_text": "",
     "posted_date": "",
-    "description": "Children Residential Support Worker",
+    "description": "Children's residential support role in Castleford. Permanent position.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?3cxwURMiH8BXbichb%2b%2f7JAbBM%2bVOh7eKa",
-    "source": "JobG8"
-  },
-  {
-    "job_id": "106936913",
-    "title": "Residential Childcare Support Worker (Sessional/Casual)",
-    "company": "LCS",
-    "location": "Leeds",
-    "region": "Yorkshire",
-    "country": "United Kingdom",
-    "category": "Healthcare & Medical",
-    "employment_type": "Permanent",
-    "salary_min": "12.29",
-    "salary_max": "12.29",
-    "salary_text": "Â£12.29 hourly",
-    "posted_date": "",
-    "description": "Residential Childcare Support Worker casual",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?XxwFjzwo6LXZhlI%2fQBXFFnwrNW8YWco0w",
     "source": "JobG8"
   }
 ]
