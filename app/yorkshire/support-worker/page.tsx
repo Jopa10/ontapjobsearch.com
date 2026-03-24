@@ -265,21 +265,31 @@ export default function Page() {
                 </div>
               </details>
 
-              <a
-                href={j.apply_url}
-                target="_blank"
-                rel="noreferrer"
-                style={{
-                  display: "inline-block",
-                  marginTop: 10,
-                  background: "#2563eb",
-                  color: "#fff",
-                  padding: "6px 12px",
-                  borderRadius: 6,
-                }}
-              >
-                Apply Now
-              </a>
+ 
+ <a
+  href={j.apply_url}
+  target="_blank"
+  rel="noreferrer"
+  onClick={() => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "apply_click", {
+        job_id: j.job_id,
+        title: j.title,
+        location: j.location,
+      });
+    }
+  }}
+  style={{
+    display: "inline-block",
+    marginTop: 10,
+    background: "#2563eb",
+    color: "#fff",
+    padding: "6px 12px",
+    borderRadius: 6,
+  }}
+>
+  Apply Now
+</a>
             </div>
           );
         })}
