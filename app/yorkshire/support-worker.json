@@ -1,9 +1,9 @@
 [
   {
-    "job_id": "0",
+    "job_id": "d0d0af50-f2ad-4932-859f-73a3f073524d",
     "title": "Residential Children's Support Worker",
     "company": "Reed",
-    "location": "Yorkshire",
+    "location": "Doncaster",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -17,10 +17,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "1",
+    "job_id": "c39e351d-162c-455e-b1bd-529ac4c16c1d",
     "title": "Children's Residential Support Worker",
     "company": "Reed",
-    "location": "Yorkshire",
+    "location": "Doncaster",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -34,10 +34,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "2",
+    "job_id": "9d0f1478-9ce2-4646-9673-ff97720a5ea8",
     "title": "Mental Health Support Worker",
     "company": "Cygnet Healthcare",
-    "location": "Yorkshire",
+    "location": "Sheffield",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -51,10 +51,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "3",
+    "job_id": "b3c463ab-c689-40e7-8036-170b30f32f8a",
     "title": "Support Worker",
     "company": "Cygnet Healthcare",
-    "location": "Yorkshire",
+    "location": "Mexborough",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -68,10 +68,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "4",
+    "job_id": "a406dae7-0755-4623-a727-070eafcb302e",
     "title": "Care Worker",
     "company": "AmBience Healthcare Ltd",
-    "location": "Yorkshire",
+    "location": "Rotherham",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -85,10 +85,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "5",
+    "job_id": "4310dc48-7039-4c6a-ac13-5239ed1faef9",
     "title": "Bank Support Worker",
     "company": "Cygnet Healthcare",
-    "location": "Yorkshire",
+    "location": "Mexborough",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -102,10 +102,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "6",
+    "job_id": "f73a583c-1837-4b1b-b5fa-00acfc43c55e",
     "title": "Support Worker",
     "company": "Cygnet Healthcare",
-    "location": "Yorkshire",
+    "location": "Barnsley",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -119,10 +119,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "7",
+    "job_id": "c0f8f203-4613-43cb-bcec-a784abac99d6",
     "title": "Support Worker",
     "company": "CROWN RECRUITS",
-    "location": "Yorkshire",
+    "location": "Sheffield",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -136,10 +136,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "8",
+    "job_id": "b474881e-28b3-4c1a-bf51-0e7bb2cddbdc",
     "title": "Support Worker",
     "company": "Cygnet Healthcare",
-    "location": "Yorkshire",
+    "location": "Sheffield",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -153,10 +153,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "9",
+    "job_id": "85d859a2-6193-4157-ac2f-b37027a9e00a",
     "title": "Night Support Worker",
     "company": "Cygnet Healthcare",
-    "location": "Yorkshire",
+    "location": "Sheffield",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -170,10 +170,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "10",
+    "job_id": "106848541",
     "title": "Senior Residential Childcare Support Worker",
     "company": "Dove Adolescent Services",
-    "location": "Yorkshire",
+    "location": "Barnsley",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
@@ -187,10 +187,10 @@
     "source": "JobG8"
   },
   {
-    "job_id": "11",
+    "job_id": "106792981",
     "title": "Complex Care Assistant",
     "company": "Prime Healthcare Solutions Ltd",
-    "location": "Yorkshire",
+    "location": "Sheffield",
     "region": "West Yorkshire",
     "country": "UK",
     "category": "Support Worker",
