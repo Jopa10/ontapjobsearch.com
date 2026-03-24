@@ -217,7 +217,19 @@ export default function Page() {
               </div>
 
               <div style={{ fontSize: 14 }}>
-                {j.company} • {j.location}
+               {j.company} • {j.location}
+{j.location === "Leeds" && (
+  <span style={{
+    marginLeft: 6,
+    padding: "2px 6px",
+    fontSize: 11,
+    borderRadius: 6,
+    background: "#e0f2fe",
+    color: "#0369a1"
+  }}>
+    Leeds
+  </span>
+)}
               </div>
 
               <div style={{ marginBottom: 6 }}>{formatSalary(j)}</div>
