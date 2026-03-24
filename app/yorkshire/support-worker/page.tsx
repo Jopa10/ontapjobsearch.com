@@ -239,11 +239,11 @@ export default function TestJobsPage() {
           marginBottom: 8,
         }}
       >
-        Last updated: 17th March 2026
+        Last updated: 24th March 2026
       </p>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
-        Updated daily • Roles across Yorkshire for Support-workers • Apply on
+        Updated daily • Roles across West Yorkshire for Support-workers • Apply on
         employer sites
       </p>
 
