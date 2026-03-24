@@ -156,14 +156,24 @@ function formatNumber(value: string) {
 }
 
 function formatSalary(job: JobRow) {
-  const min = Number(job.salary_min);
-  const max = Number(job.salary_max);
+  const minRaw = String(job.salary_min || "").trim();
+  const maxRaw = String(job.salary_max || "").trim();
 
-  if (min && max) {
-    return `£${formatNumber(job.salary_min)}–£${formatNumber(job.salary_max)}`;
+  const min = Number(minRaw);
+  const max = Number(maxRaw);
+
+  const hasMin = minRaw !== "" && Number.isFinite(min);
+  const hasMax = maxRaw !== "" && Number.isFinite(max);
+
+  if (hasMin && hasMax) {
+    if (min === max) {
+      return `£${formatNumber(minRaw)}`;
+    }
+    return `£${formatNumber(minRaw)}–£${formatNumber(maxRaw)}`;
   }
-  if (min) return `£${formatNumber(job.salary_min)}`;
-  if (max) return `£${formatNumber(job.salary_max)}`;
+
+  if (hasMin) return `£${formatNumber(minRaw)}`;
+  if (hasMax) return `£${formatNumber(maxRaw)}`;
 
   return cleanText(job.salary_text);
 }
