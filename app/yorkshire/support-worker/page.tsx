@@ -54,7 +54,8 @@ function readJobsJson(): JobRow[] {
     closing_date: r.closing_date || "",
     summary: r.summary || "",
     description: r.description || "",
-    full_description: r.full_description || r["/Job/Description"] || "",
+    full_description:
+      r.full_description || r.description || r["/Job/Description"] || "",
     apply_url: r.apply_url || r["/Job/ApplicationURL"] || "",
     source: "JobG8",
   }));
@@ -65,39 +66,87 @@ function decodeMojibake(value: string) {
     .replace(/Â£/g, "£")
     .replace(/Â/g, "")
     .replace(/â€“/g, "–")
-    .replace(/â€”/g, "—");
+    .replace(/â€”/g, "—")
+    .replace(/â€˜/g, "‘")
+    .replace(/â€™/g, "’")
+    .replace(/â€œ/g, "“")
+    .replace(/â€/g, "”")
+    .replace(/â€¢/g, "•")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&pound;/gi, "£")
+    .replace(/&ndash;/gi, "–")
+    .replace(/&mdash;/gi, "—")
+    .replace(/&bull;/gi, "•")
+    .replace(/&nbsp;/gi, " ");
 }
 
 function cleanText(value: string) {
-  return decodeMojibake(value).replace(/\s+/g, " ").trim();
+  return decodeMojibake(value)
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n[ \t]+/g, "\n")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 function stripHtml(html: string) {
   if (!html) return "";
 
-  return decodeMojibake(html)
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/p>/gi, "\n\n")
-    .replace(/<\/div>/gi, "\n")
-    .replace(/<\/li>/gi, "\n")
-    .replace(/<li[^>]*>/gi, "• ")
-    .replace(/<[^>]+>/g, "")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/\n{2,}/g, "\n\n")   // ← FIXED
-    .trim();
+  return cleanText(
+    decodeMojibake(html)
+      .replace(/\r\n/g, "\n")
+      .replace(/\r/g, "\n")
+      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<\/p>/gi, "\n\n")
+      .replace(/<\/div>/gi, "\n")
+      .replace(/<\/h[1-6]>/gi, "\n\n")
+      .replace(/<\/ul>/gi, "\n")
+      .replace(/<\/ol>/gi, "\n")
+      .replace(/<\/li>/gi, "\n")
+      .replace(/<li[^>]*>/gi, "• ")
+      .replace(/<[^>]+>/g, "")
+  );
 }
 
 function removeDuplicateStart(full: string, summary: string) {
-  const f = cleanText(full);
-  const s = cleanText(summary);
+  const fullText = cleanText(full);
+  const summaryText = cleanText(summary);
 
-  if (!s) return f;
+  if (!fullText) return "";
+  if (!summaryText) return fullText;
 
-  if (f.startsWith(s)) {
-    return f.slice(s.length).trim();
+  if (
+    summaryText.length < 120 &&
+    fullText.startsWith(summaryText)
+  ) {
+    const stripped = fullText.slice(summaryText.length).trimStart();
+    return stripped || fullText;
   }
 
-  return f;
+  return fullText;
+}
+
+function getSummary(job: JobRow) {
+  const summary = cleanText(job.summary);
+
+  if (summary) return summary;
+
+  const fallbackSource = stripHtml(job.full_description || job.description || "");
+  if (!fallbackSource) return "";
+
+  return fallbackSource.slice(0, 140).trim();
+}
+
+function getFullDescription(job: JobRow) {
+  const source = job.full_description || job.description || "";
+  const cleanedDescription = stripHtml(source);
+  const summary = getSummary(job);
+
+  if (!cleanedDescription) return "";
+
+  return removeDuplicateStart(cleanedDescription, summary);
 }
 
 function formatNumber(value: string) {
@@ -110,7 +159,9 @@ function formatSalary(job: JobRow) {
   const min = Number(job.salary_min);
   const max = Number(job.salary_max);
 
-  if (min && max) return `£${formatNumber(job.salary_min)}–£${formatNumber(job.salary_max)}`;
+  if (min && max) {
+    return `£${formatNumber(job.salary_min)}–£${formatNumber(job.salary_max)}`;
+  }
   if (min) return `£${formatNumber(job.salary_min)}`;
   if (max) return `£${formatNumber(job.salary_max)}`;
 
@@ -137,11 +188,8 @@ export default function Page() {
 
       <div style={{ display: "grid", gap: 12 }}>
         {jobs.map((j, idx) => {
-          const summary = cleanText(j.summary);
-          const full = removeDuplicateStart(
-            stripHtml(j.full_description),
-            summary
-          );
+          const summary = getSummary(j);
+          const fullDescription = getFullDescription(j);
 
           return (
             <div
@@ -164,22 +212,22 @@ export default function Page() {
 
               <div style={{ marginBottom: 6 }}>{formatSalary(j)}</div>
 
-              {/* SUMMARY */}
-              <div
-                style={{
-                  fontSize: 14,
-                  color: "#555",
-                  marginBottom: 8,
-                  display: "-webkit-box",
-                  WebkitLineClamp: 2,
-                  WebkitBoxOrient: "vertical",
-                  overflow: "hidden",
-                }}
-              >
-                {summary}
-              </div>
+              {summary ? (
+                <div
+                  style={{
+                    fontSize: 14,
+                    color: "#555",
+                    marginBottom: 8,
+                    display: "-webkit-box",
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                  }}
+                >
+                  {summary}
+                </div>
+              ) : null}
 
-              {/* FULL DESCRIPTION */}
               <details>
                 <summary style={{ color: "#2563eb", cursor: "pointer" }}>
                   View full job description
@@ -187,17 +235,18 @@ export default function Page() {
                 <div
                   style={{
                     fontSize: 14,
-                    whiteSpace: "pre-line",   // ← FIXED
+                    whiteSpace: "pre-line",
                     marginTop: 8,
                   }}
                 >
-                  {full}
+                  {fullDescription}
                 </div>
               </details>
 
               <a
                 href={j.apply_url}
                 target="_blank"
+                rel="noreferrer"
                 style={{
                   display: "inline-block",
                   marginTop: 10,
