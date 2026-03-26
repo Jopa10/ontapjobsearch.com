@@ -23,14 +23,27 @@ export default function ApplyButton({
     }
   };
 
-  return (
-    <a
-      href={apply_url}
-      target="_blank"
-      rel="noopener noreferrer"
-      onClick={handleClick}
-    >
-      Apply
-    </a>
-  );
-}
+return (
+  <a
+    href={apply_url}
+    target="_blank"
+    rel="noopener noreferrer"
+    onClick={(e) => {
+      e.preventDefault();
+
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "apply_click", {
+          job_id,
+          title,
+          location,
+        });
+      }
+
+      setTimeout(() => {
+        window.open(apply_url, "_blank");
+      }, 150);
+    }}
+  >
+    Apply
+  </a>
+);
