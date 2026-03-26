@@ -46,5 +46,5 @@ return (
   >
     Apply
   </a>
-);
+); 
   }
