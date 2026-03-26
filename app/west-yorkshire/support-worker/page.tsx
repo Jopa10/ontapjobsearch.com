@@ -189,7 +189,7 @@ export default function Page() {
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
       <h1 style={{ fontSize: 28, fontWeight: 700 }}>
-        West-Yorkshire Support-worker Roles
+        Yorkshire Support-worker Roles
       </h1>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
