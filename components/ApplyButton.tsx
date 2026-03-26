@@ -41,7 +41,7 @@ return (
 
       setTimeout(() => {
         window.open(apply_url, "_blank");
-      }, 150);
+      }, 500);
     }}
   >
     Apply
