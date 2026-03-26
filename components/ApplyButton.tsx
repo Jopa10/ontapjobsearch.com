@@ -19,32 +19,37 @@ export default function ApplyButton({
         job_id,
         title,
         location,
+        event_callback: () => {
+          window.open(apply_url, "_blank", "noopener,noreferrer");
+        },
+        event_timeout: 1000,
       });
-    }
-  };
-
-return (
-  <a
-    href={apply_url}
-    target="_blank"
-    rel="noopener noreferrer"
-    onClick={(e) => {
-      e.preventDefault();
-
-      if (typeof window !== "undefined" && (window as any).gtag) {
-        (window as any).gtag("event", "apply_click", {
-          job_id,
-          title,
-          location,
-        });
-      }
 
       setTimeout(() => {
-        window.open(apply_url, "_blank");
-      }, 500);
-    }}
-  >
-    Apply
-  </a>
-); 
-  }
+        window.open(apply_url, "_blank", "noopener,noreferrer");
+      }, 1000);
+
+      return;
+    }
+
+    window.open(apply_url, "_blank", "noopener,noreferrer");
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      style={{
+        background: "#2563eb",
+        color: "#fff",
+        border: "none",
+        borderRadius: "8px",
+        padding: "10px 16px",
+        cursor: "pointer",
+        fontSize: "16px",
+      }}
+    >
+      Apply Now
+    </button>
+  );
+}
