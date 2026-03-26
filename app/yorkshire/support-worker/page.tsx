@@ -250,7 +250,7 @@ export default function Page() {
                 </div>
               ) : null}
 
-         <details>
+       <details>
   <summary
     style={{
       fontSize: 13,
@@ -267,15 +267,12 @@ export default function Page() {
       fontSize: 14,
       whiteSpace: "pre-line",
       marginTop: 8,
-      lineHeight: 1.5,
-      maxHeight: 140,
-      overflow: "hidden"
+      lineHeight: 1.5
     }}
   >
     {fullDescription}
   </div>
 </details>
-
  
  <a
   href={j.apply_url}
