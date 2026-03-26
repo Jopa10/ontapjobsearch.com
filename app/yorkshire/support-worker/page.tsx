@@ -250,20 +250,31 @@ export default function Page() {
                 </div>
               ) : null}
 
-              <details>
-                <summary style={{ color: "#2563eb", cursor: "pointer" }}>
-                  View full job description
-                </summary>
-                <div
-                  style={{
-                    fontSize: 14,
-                    whiteSpace: "pre-line",
-                    marginTop: 8,
-                  }}
-                >
-                  {fullDescription}
-                </div>
-              </details>
+         <details>
+  <summary
+    style={{
+      fontSize: 13,
+      color: "#2563eb",
+      cursor: "pointer",
+      marginTop: 4
+    }}
+  >
+    View full job description
+  </summary>
+
+  <div
+    style={{
+      fontSize: 14,
+      whiteSpace: "pre-line",
+      marginTop: 8,
+      lineHeight: 1.5,
+      maxHeight: 140,
+      overflow: "hidden"
+    }}
+  >
+    {fullDescription}
+  </div>
+</details>
 
  
  <a
