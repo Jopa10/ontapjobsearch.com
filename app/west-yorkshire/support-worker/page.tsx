@@ -29,7 +29,7 @@ function readJobsJson(): JobRow[] {
   const filePath = path.join(
     process.cwd(),
     "app",
-    "yorkshire",
+    "west-yorkshire",
     "support-worker.json"
   );
 
@@ -189,7 +189,7 @@ export default function Page() {
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
       <h1 style={{ fontSize: 28, fontWeight: 700 }}>
-        Yorkshire Support-worker Roles
+        West Yorkshire Support Worker Roles
       </h1>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
