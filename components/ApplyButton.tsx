@@ -15,15 +15,15 @@ export default function ApplyButton({
 }: Props) {
   const handleClick = () => {
     if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("event", "apply_click", {
-        job_id,
-        title,
-        location,
-        event_callback: () => {
-          window.open(apply_url, "_blank", "noopener,noreferrer");
-        },
-        event_timeout: 1000,
-      });
+  (window as any).gtag("event", "apply_click", {
+  event_category: "engagement",
+  event_label: title,
+  value: 1,
+  event_callback: () => {
+    window.open(apply_url, "_blank", "noopener,noreferrer");
+  },
+  event_timeout: 1000,
+});
 
       setTimeout(() => {
         window.open(apply_url, "_blank", "noopener,noreferrer");
