@@ -156,25 +156,8 @@ function formatNumber(value: string) {
 }
 
 function formatSalary(job: JobRow) {
- const minRaw = String(job.salary_min || "").trim();
-const maxRaw = String(job.salary_max || "").trim();
-
-const min = Number(minRaw);
-const max = Number(maxRaw);
-
-const hasMin = minRaw !== "" && Number.isFinite(min);
-const hasMax = maxRaw !== "" && Number.isFinite(max);
-
-if (hasMin && hasMax) {
-  if (min === max) {
-    return `£${formatNumber(minRaw)}`;
-  }
-  return `£${formatNumber(minRaw)}–£${formatNumber(maxRaw)}`;
+  return job.salary_text ? cleanText(job.salary_text) : "";
 }
-
-if (hasMin) return `£${formatNumber(minRaw)}`;
-if (hasMax) return `£${formatNumber(maxRaw)}`;
-  return cleanText(job.salary_text);
 }
 
 function getEmployerType(name: string, advertiserType?: string) {
