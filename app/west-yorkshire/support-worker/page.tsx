@@ -156,25 +156,24 @@ function formatNumber(value: string) {
 }
 
 function formatSalary(job: JobRow) {
-  const minRaw = String(job.salary_min || "").trim();
-  const maxRaw = String(job.salary_max || "").trim();
+ const minRaw = String(job.salary_min || "").trim();
+const maxRaw = String(job.salary_max || "").trim();
 
-  const min = Number(minRaw);
-  const max = Number(maxRaw);
+const min = Number(minRaw);
+const max = Number(maxRaw);
 
-  const hasMin = minRaw !== "" && Number.isFinite(min);
-  const hasMax = maxRaw !== "" && Number.isFinite(max);
+const hasMin = minRaw !== "" && Number.isFinite(min);
+const hasMax = maxRaw !== "" && Number.isFinite(max);
 
-  if (hasMin && hasMax) {
-    if (min === max) {
-      return `£${formatNumber(minRaw)}`;
-    }
-    return `£${formatNumber(minRaw)}–£${formatNumber(maxRaw)}`;
+if (hasMin && hasMax) {
+  if (min === max) {
+    return `£${formatNumber(minRaw)}`;
   }
+  return `£${formatNumber(minRaw)}–£${formatNumber(maxRaw)}`;
+}
 
-  if (hasMin) return `£${formatNumber(minRaw)}`;
-  if (hasMax) return `£${formatNumber(maxRaw)}`;
-
+if (hasMin) return `£${formatNumber(minRaw)}`;
+if (hasMax) return `£${formatNumber(maxRaw)}`;
   return cleanText(job.salary_text);
 }
 
@@ -193,7 +192,7 @@ export default function Page() {
       </h1>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
-        Updated daily • Latest update: Thursday 26 Mar, AM • Roles across West Yorkshire • Apply on employer sites
+        Updated daily • Latest update: Friday 27 Mar, AM • Roles across West Yorkshire • Apply on employer sites
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
