@@ -161,7 +161,7 @@ function formatSalary(job: JobRow) {
 
 function getEmployerType(name: string, advertiserType?: string) {
   if (/agency/i.test(advertiserType || "")) return "Agency";
-  return "Private";
+  return "";
 }
 
 export default function Page() {
