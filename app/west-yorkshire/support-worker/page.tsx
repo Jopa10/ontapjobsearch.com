@@ -158,7 +158,6 @@ function formatNumber(value: string) {
 function formatSalary(job: JobRow) {
   return job.salary_text ? cleanText(job.salary_text) : "";
 }
-}
 
 function getEmployerType(name: string, advertiserType?: string) {
   if (/agency/i.test(advertiserType || "")) return "Agency";
