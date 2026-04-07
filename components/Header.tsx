@@ -32,9 +32,14 @@ export default function Header() {
                             height={32}
                             className="w-8 h-8"
                         />
-                        <span className="text-xl font-bold text-gray-900 leading-tight">
-                            Ontap Job Search
-                        </span>
+                        <div className="leading-tight">
+  <div className="text-xl font-bold text-gray-900">
+    Ontap Job Search
+  </div>
+  <div className="text-xs text-gray-500">
+    UK jobs • Updated daily • No signup required
+  </div>
+</div>
                     </Link>
 
                     {/* Navigation */}
