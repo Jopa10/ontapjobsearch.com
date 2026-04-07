@@ -54,7 +54,7 @@ export default function Header() {
                         )}
                         {!isHome && !isAdmin && (
                             <Link
-                                href="/jobs/search/all"
+                                href="/jobs/all"
                                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
                             >
                                 Browse Jobs
