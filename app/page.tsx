@@ -1,12 +1,12 @@
 export default function Page() {
   return (
     <>
-      <h1>UK Healthcare Administration Jobs</h1>
-      <p>Focused listings across NHS and healthcare services.</p>
+      <h1>Yorkshire Support Worker Jobs</h1>
+      <p>Focused listings across West and South Yorkshire. More regions coming soon.</p>
 
       <p>
-        <a href="/leeds/nhs-admin-jobs">
-          Browse Leeds NHS Admin Jobs →
+        <a href="/jobs/search/all">
+          Browse jobs →
         </a>
       </p>
     </>
