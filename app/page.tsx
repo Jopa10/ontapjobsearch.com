@@ -10,7 +10,7 @@ export default function Page() {
       </p>
 
       <a
-        href="/jobs/search/all"
+        href="/jobs/all"
         className="inline-block text-lg font-medium underline underline-offset-4"
       >
         Browse jobs →
