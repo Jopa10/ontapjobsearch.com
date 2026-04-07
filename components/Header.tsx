@@ -46,7 +46,7 @@ export default function Header() {
                     <nav className="flex items-center gap-6">
                         {!isHome && (
                             <Link
-                                href={homeLink}
+                               href="/"
                                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
                             >
                                 Home
