@@ -6,7 +6,7 @@ export default function Page() {
       </h1>
 
       <p style={{ color: "#555", marginBottom: 24 }}>
-        Browse current Yorkshire support worker slices.
+        Browse current Yorkshire support worker roles.
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
