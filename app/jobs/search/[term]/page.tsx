@@ -70,7 +70,7 @@ export default async function SearchResultsPage({ params }: { params: Promise<{ 
                             Try searching with different keywords or browse all jobs
                         </p>
                         <Link
-                            href="/jobs/search/all"
+                            href="/jobs/all"
                             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                         >
                             Browse All Jobs
