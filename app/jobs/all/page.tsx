@@ -25,7 +25,7 @@ export default function Page() {
             West Yorkshire Support Worker Jobs
           </div>
           <div style={{ color: "#555" }}>
-            Primary Yorkshire slice
+            West Yorkshire Support Worker Jobs
           </div>
         </a>
 
@@ -44,7 +44,7 @@ export default function Page() {
             South Yorkshire Support Worker Jobs
           </div>
           <div style={{ color: "#555" }}>
-            Secondary Yorkshire slice
+            South Yorkshire Support Worker Jobs
           </div>
         </a>
       </div>
