@@ -174,7 +174,7 @@ export default function Page() {
       </h1>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
-        Updated daily • Latest update: Fri 10th April, AM • Roles across West Yorkshire • Apply on employer sites
+        Updated daily • Latest update: Mon 13th April, AM • Roles across West Yorkshire • Apply on employer sites
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
