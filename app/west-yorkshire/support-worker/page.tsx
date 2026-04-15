@@ -191,46 +191,81 @@ export default function Page() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "280px 1fr",
+          gridTemplateColumns: "260px 1fr",
           gap: 24,
           alignItems: "start",
         }}
       >
         <aside
           style={{
-            border: "1px solid #e5e7eb",
-            borderRadius: 10,
-            padding: 14,
+            paddingTop: 2,
+            alignSelf: "start",
             position: "sticky",
             top: 24,
-            alignSelf: "start",
           }}
         >
-          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
-            Training
+          <div
+            style={{
+              fontSize: 15,
+              fontWeight: 700,
+              marginBottom: 6,
+              color: "#222",
+            }}
+          >
+            Get started faster
           </div>
 
-          <p style={{ fontSize: 14, color: "#555", marginBottom: 12 }}>
-            Useful courses that may help you start faster or improve your chances.
+          <p
+            style={{
+              fontSize: 13,
+              lineHeight: 1.45,
+              color: "#666",
+              marginBottom: 12,
+            }}
+          >
+            Useful courses that may help strengthen early care applications.
           </p>
 
-          <div style={{ display: "grid", gap: 10 }}>
+          <div style={{ display: "grid", gap: 8 }}>
             {training.map((item, idx) => (
               <div
                 key={idx}
                 style={{
-                  border: "1px solid #e5e7eb",
+                  border: "1px solid #ececec",
                   borderRadius: 8,
                   padding: 10,
+                  background: "#fafafa",
                 }}
               >
-                <div style={{ fontWeight: 700, fontSize: 14 }}>{item.title}</div>
+                <div
+                  style={{
+                    fontWeight: 700,
+                    fontSize: 14,
+                    lineHeight: 1.3,
+                    marginBottom: 2,
+                  }}
+                >
+                  {item.title}
+                </div>
 
-                <div style={{ fontSize: 13, color: "#555", marginTop: 2 }}>
+                <div
+                  style={{
+                    fontSize: 12,
+                    color: "#666",
+                    marginBottom: 6,
+                  }}
+                >
                   {item.provider}
                 </div>
 
-                <div style={{ fontSize: 13, color: "#555", marginTop: 6 }}>
+                <div
+                  style={{
+                    fontSize: 12,
+                    color: "#666",
+                    lineHeight: 1.4,
+                    marginBottom: 6,
+                  }}
+                >
                   {item.description}
                 </div>
 
@@ -240,12 +275,12 @@ export default function Page() {
                   rel="noreferrer"
                   style={{
                     display: "inline-block",
-                    marginTop: 8,
-                    fontSize: 13,
-                    color: "#2563eb",
+                    fontSize: 12,
+                    color: "#4b5563",
+                    textDecoration: "none",
                   }}
                 >
-                  View course
+                  Course details
                 </a>
               </div>
             ))}
