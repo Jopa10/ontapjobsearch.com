@@ -25,6 +25,13 @@ type JobRow = {
   source: string;
 };
 
+type TrainingRow = {
+  title: string;
+  provider: string;
+  description: string;
+  link: string;
+};
+
 function readJobsJson(): JobRow[] {
   const filePath = path.join(
     process.cwd(),
@@ -59,6 +66,17 @@ function readJobsJson(): JobRow[] {
     apply_url: r.apply_url || r["/Job/ApplicationURL"] || "",
     source: "JobG8",
   }));
+}
+
+function readTrainingJson(): TrainingRow[] {
+  const filePath = path.join(
+    process.cwd(),
+    "app",
+    "training",
+    "training.json"
+  );
+
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
 function decodeMojibake(value: string) {
@@ -117,10 +135,7 @@ function removeDuplicateStart(full: string, summary: string) {
   if (!fullText) return "";
   if (!summaryText) return fullText;
 
-  if (
-    summaryText.length < 120 &&
-    fullText.startsWith(summaryText)
-  ) {
+  if (summaryText.length < 120 && fullText.startsWith(summaryText)) {
     const stripped = fullText.slice(summaryText.length).trimStart();
     return stripped || fullText;
   }
@@ -149,12 +164,6 @@ function getFullDescription(job: JobRow) {
   return removeDuplicateStart(cleanedDescription, summary);
 }
 
-function formatNumber(value: string) {
-  const num = Number(value);
-  if (!Number.isFinite(num)) return "";
-  return num.toLocaleString();
-}
-
 function formatSalary(job: JobRow) {
   return job.salary_text ? cleanText(job.salary_text) : "";
 }
@@ -166,115 +175,185 @@ function getEmployerType(name: string, advertiserType?: string) {
 
 export default function Page() {
   const jobs = readJobsJson();
+  const training = readTrainingJson();
 
   return (
-    <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
+    <main style={{ maxWidth: 1180, margin: "40px auto", padding: "0 16px" }}>
       <h1 style={{ fontSize: 28, fontWeight: 700 }}>
         West Yorkshire Support Worker Roles
       </h1>
 
       <p style={{ color: "#555", marginBottom: 20 }}>
-        Updated daily • Latest update: Wed 15th April, PM • Roles across West Yorkshire • Apply on employer sites
+        Updated daily • Latest update: Wed 15th April, PM • Roles across West
+        Yorkshire • Apply on employer sites
       </p>
 
-      <div style={{ display: "grid", gap: 12 }}>
-        {jobs.map((j, idx) => {
-          const summary = getSummary(j);
-          const fullDescription = getFullDescription(j);
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "280px 1fr",
+          gap: 24,
+          alignItems: "start",
+        }}
+      >
+        <aside
+          style={{
+            border: "1px solid #e5e7eb",
+            borderRadius: 10,
+            padding: 14,
+            position: "sticky",
+            top: 24,
+            alignSelf: "start",
+          }}
+        >
+          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
+            Training
+          </div>
 
-          return (
-            <div
-              key={j.job_id || idx}
-              style={{
-                border: "1px solid #e5e7eb",
-                borderRadius: 10,
-                padding: 14,
-              }}
-            >
-              <div style={{ fontWeight: 700 }}>{j.title}</div>
+          <p style={{ fontSize: 14, color: "#555", marginBottom: 12 }}>
+            Useful courses that may help you start faster or improve your chances.
+          </p>
 
-              <div style={{ fontSize: 12, color: "#555" }}>
-                {getEmployerType(j.company, j.advertiser_type)}
-              </div>
+          <div style={{ display: "grid", gap: 10 }}>
+            {training.map((item, idx) => (
+              <div
+                key={idx}
+                style={{
+                  border: "1px solid #e5e7eb",
+                  borderRadius: 8,
+                  padding: 10,
+                }}
+              >
+                <div style={{ fontWeight: 700, fontSize: 14 }}>{item.title}</div>
 
-              <div style={{ fontSize: 14 }}>
-               {j.company} • {j.location}
-{j.location === "Leeds" && (
-  <span style={{
-    marginLeft: 6,
-    padding: "2px 6px",
-    fontSize: 11,
-    borderRadius: 6,
-    background: "#e0f2fe",
-    color: "#0369a1"
-  }}>
-    Leeds
-  </span>
-)}
-              </div>
+                <div style={{ fontSize: 13, color: "#555", marginTop: 2 }}>
+                  {item.provider}
+                </div>
 
-              <div style={{ marginBottom: 6 }}>{formatSalary(j)}</div>
+                <div style={{ fontSize: 13, color: "#555", marginTop: 6 }}>
+                  {item.description}
+                </div>
 
-              {summary ? (
-                <div
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noreferrer"
                   style={{
-                    fontSize: 14,
-                    color: "#555",
-                    marginBottom: 8,
-                    display: "-webkit-box",
-                    WebkitLineClamp: 2,
-                    WebkitBoxOrient: "vertical",
-                    overflow: "hidden",
+                    display: "inline-block",
+                    marginTop: 8,
+                    fontSize: 13,
+                    color: "#2563eb",
                   }}
                 >
-                  {summary}
+                  View course
+                </a>
+              </div>
+            ))}
+          </div>
+        </aside>
+
+        <div style={{ display: "grid", gap: 12 }}>
+          {jobs.map((j, idx) => {
+            const summary = getSummary(j);
+            const fullDescription = getFullDescription(j);
+
+            return (
+              <div
+                key={j.job_id || idx}
+                style={{
+                  border: "1px solid #e5e7eb",
+                  borderRadius: 10,
+                  padding: 14,
+                }}
+              >
+                <div style={{ fontWeight: 700 }}>{j.title}</div>
+
+                <div style={{ fontSize: 12, color: "#555" }}>
+                  {getEmployerType(j.company, j.advertiser_type)}
                 </div>
-              ) : null}
 
-       <details>
-  <summary
-    style={{
-      fontSize: 13,
-      color: "#2563eb",
-      cursor: "pointer",
-      marginTop: 4
-    }}
-  >
-    View full job description
-  </summary>
+                <div style={{ fontSize: 14 }}>
+                  {j.company} • {j.location}
+                  {j.location === "Leeds" && (
+                    <span
+                      style={{
+                        marginLeft: 6,
+                        padding: "2px 6px",
+                        fontSize: 11,
+                        borderRadius: 6,
+                        background: "#e0f2fe",
+                        color: "#0369a1",
+                      }}
+                    >
+                      Leeds
+                    </span>
+                  )}
+                </div>
 
-  <div
-    style={{
-      fontSize: 14,
-      whiteSpace: "pre-line",
-      marginTop: 8,
-      lineHeight: 1.5
-    }}
-  >
-    {fullDescription}
-  </div>
-</details>
- 
- <a
-  href={j.apply_url}
-  target="_blank"
-  rel="noreferrer"
- 
-  style={{
-    display: "inline-block",
-    marginTop: 10,
-    background: "#2563eb",
-    color: "#fff",
-    padding: "6px 12px",
-    borderRadius: 6,
-  }}
->
-  Apply Now
-</a>
-            </div>
-          );
-        })}
+                <div style={{ marginBottom: 6 }}>{formatSalary(j)}</div>
+
+                {summary ? (
+                  <div
+                    style={{
+                      fontSize: 14,
+                      color: "#555",
+                      marginBottom: 8,
+                      display: "-webkit-box",
+                      WebkitLineClamp: 2,
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }}
+                  >
+                    {summary}
+                  </div>
+                ) : null}
+
+                <details>
+                  <summary
+                    style={{
+                      fontSize: 13,
+                      color: "#2563eb",
+                      cursor: "pointer",
+                      marginTop: 4,
+                    }}
+                  >
+                    View full job description
+                  </summary>
+
+                  <div
+                    style={{
+                      fontSize: 14,
+                      whiteSpace: "pre-line",
+                      marginTop: 8,
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {fullDescription}
+                  </div>
+                </details>
+
+                <a
+                  href={j.apply_url}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    display: "inline-block",
+                    marginTop: 10,
+                    background: "#2563eb",
+                    color: "#fff",
+                    padding: "6px 12px",
+                    borderRadius: 6,
+                  }}
+                >
+                  Apply Now
+                </a>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </main>
   );
 }
+
+
