@@ -178,12 +178,27 @@ export default function Page() {
   const training = readTrainingJson();
 
   return (
-    <main style={{ maxWidth: 1180, margin: "40px auto", padding: "0 16px" }}>
-      <h1 style={{ fontSize: 28, fontWeight: 700 }}>
+    <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
+      <h1
+        style={{
+          fontSize: 28,
+          fontWeight: 800,
+          letterSpacing: "-0.02em",
+          color: "#111827",
+          marginBottom: 8,
+        }}
+      >
         West Yorkshire Support Worker Roles
       </h1>
 
-      <p style={{ color: "#555", marginBottom: 20 }}>
+      <p
+        style={{
+          color: "#6b7280",
+          marginBottom: 22,
+          fontSize: 15,
+          lineHeight: 1.5,
+        }}
+      >
         Updated daily • Latest update: Wed 15th April, PM • Roles across West
         Yorkshire • Apply on employer sites
       </p>
@@ -191,14 +206,14 @@ export default function Page() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "260px 1fr",
-          gap: 24,
+          gridTemplateColumns: "250px 1fr",
+          gap: 20,
           alignItems: "start",
         }}
       >
         <aside
           style={{
-            paddingTop: 2,
+            paddingTop: 0,
             alignSelf: "start",
             position: "sticky",
             top: 24,
@@ -207,9 +222,10 @@ export default function Page() {
           <div
             style={{
               fontSize: 15,
-              fontWeight: 700,
-              marginBottom: 6,
-              color: "#222",
+              fontWeight: 800,
+              marginBottom: 5,
+              color: "#111827",
+              lineHeight: 1.3,
             }}
           >
             Get started faster
@@ -219,8 +235,8 @@ export default function Page() {
             style={{
               fontSize: 13,
               lineHeight: 1.45,
-              color: "#666",
-              marginBottom: 12,
+              color: "#6b7280",
+              marginBottom: 10,
             }}
           >
             Useful courses that may help strengthen early care applications.
@@ -231,10 +247,10 @@ export default function Page() {
               <div
                 key={idx}
                 style={{
-                  border: "1px solid #ececec",
-                  borderRadius: 8,
-                  padding: 10,
-                  background: "#fafafa",
+                  border: "1px solid #e5e7eb",
+                  borderRadius: 10,
+                  padding: "10px 12px",
+                  background: "#f9fafb",
                 }}
               >
                 <div
@@ -242,7 +258,8 @@ export default function Page() {
                     fontWeight: 700,
                     fontSize: 14,
                     lineHeight: 1.3,
-                    marginBottom: 2,
+                    marginBottom: 3,
+                    color: "#111827",
                   }}
                 >
                   {item.title}
@@ -251,7 +268,7 @@ export default function Page() {
                 <div
                   style={{
                     fontSize: 12,
-                    color: "#666",
+                    color: "#6b7280",
                     marginBottom: 6,
                   }}
                 >
@@ -261,9 +278,9 @@ export default function Page() {
                 <div
                   style={{
                     fontSize: 12,
-                    color: "#666",
-                    lineHeight: 1.4,
-                    marginBottom: 6,
+                    color: "#6b7280",
+                    lineHeight: 1.45,
+                    marginBottom: 8,
                   }}
                 >
                   {item.description}
@@ -276,8 +293,9 @@ export default function Page() {
                   style={{
                     display: "inline-block",
                     fontSize: 12,
-                    color: "#4b5563",
+                    color: "#2563eb",
                     textDecoration: "none",
+                    fontWeight: 500,
                   }}
                 >
                   Course details
@@ -287,7 +305,7 @@ export default function Page() {
           </div>
         </aside>
 
-        <div style={{ display: "grid", gap: 12 }}>
+        <div style={{ display: "grid", gap: 10 }}>
           {jobs.map((j, idx) => {
             const summary = getSummary(j);
             const fullDescription = getFullDescription(j);
@@ -296,28 +314,45 @@ export default function Page() {
               <div
                 key={j.job_id || idx}
                 style={{
-                  border: "1px solid #e5e7eb",
-                  borderRadius: 10,
-                  padding: 14,
+                  border: "1px solid #dbe3ee",
+                  borderRadius: 12,
+                  padding: "14px 16px",
+                  background: "#ffffff",
+                  boxShadow: "0 1px 2px rgba(16, 24, 40, 0.04)",
                 }}
               >
-                <div style={{ fontWeight: 700 }}>{j.title}</div>
-
-                <div style={{ fontSize: 12, color: "#555" }}>
-                  {getEmployerType(j.company, j.advertiser_type)}
+                <div
+                  style={{
+                    fontWeight: 800,
+                    fontSize: 17,
+                    lineHeight: 1.3,
+                    color: "#111827",
+                    marginBottom: 4,
+                  }}
+                >
+                  {j.title}
                 </div>
 
-                <div style={{ fontSize: 14 }}>
-                  {j.company} • {j.location}
+                <div
+                  style={{
+                    fontSize: 14,
+                    color: "#374151",
+                    lineHeight: 1.45,
+                    marginBottom: 4,
+                  }}
+                >
+                  {j.company} • {getEmployerType(j.company, j.advertiser_type) || j.advertiser_type || "Company"} • {j.employment_type} • {j.location}
                   {j.location === "Leeds" && (
                     <span
                       style={{
-                        marginLeft: 6,
-                        padding: "2px 6px",
+                        marginLeft: 8,
+                        padding: "2px 7px",
                         fontSize: 11,
-                        borderRadius: 6,
+                        fontWeight: 600,
+                        borderRadius: 999,
                         background: "#e0f2fe",
                         color: "#0369a1",
+                        verticalAlign: "middle",
                       }}
                     >
                       Leeds
@@ -325,18 +360,29 @@ export default function Page() {
                   )}
                 </div>
 
-                <div style={{ marginBottom: 6 }}>{formatSalary(j)}</div>
+                <div
+                  style={{
+                    marginBottom: 8,
+                    fontSize: 14,
+                    fontWeight: 600,
+                    color: "#111827",
+                  }}
+                >
+                  {formatSalary(j)}
+                </div>
 
                 {summary ? (
                   <div
                     style={{
                       fontSize: 14,
-                      color: "#555",
+                      color: "#6b7280",
                       marginBottom: 8,
+                      lineHeight: 1.45,
                       display: "-webkit-box",
                       WebkitLineClamp: 2,
                       WebkitBoxOrient: "vertical",
                       overflow: "hidden",
+                      maxWidth: "94%",
                     }}
                   >
                     {summary}
@@ -349,7 +395,9 @@ export default function Page() {
                       fontSize: 13,
                       color: "#2563eb",
                       cursor: "pointer",
-                      marginTop: 4,
+                      marginTop: 2,
+                      marginBottom: 0,
+                      fontWeight: 500,
                     }}
                   >
                     View full job description
@@ -360,7 +408,8 @@ export default function Page() {
                       fontSize: 14,
                       whiteSpace: "pre-line",
                       marginTop: 8,
-                      lineHeight: 1.5,
+                      lineHeight: 1.55,
+                      color: "#374151",
                     }}
                   >
                     {fullDescription}
@@ -376,8 +425,12 @@ export default function Page() {
                     marginTop: 10,
                     background: "#2563eb",
                     color: "#fff",
-                    padding: "6px 12px",
-                    borderRadius: 6,
+                    padding: "7px 14px",
+                    borderRadius: 8,
+                    textDecoration: "none",
+                    fontWeight: 700,
+                    fontSize: 15,
+                    boxShadow: "0 1px 2px rgba(37, 99, 235, 0.18)",
                   }}
                 >
                   Apply Now
