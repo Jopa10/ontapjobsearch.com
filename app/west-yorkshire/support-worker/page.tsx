@@ -25,13 +25,6 @@ type JobRow = {
   source: string;
 };
 
-type TrainingRow = {
-  title: string;
-  provider: string;
-  description: string;
-  link: string;
-};
-
 function readJobsJson(): JobRow[] {
   const filePath = path.join(
     process.cwd(),
@@ -68,17 +61,6 @@ function readJobsJson(): JobRow[] {
   }));
 }
 
-function readTrainingJson(): TrainingRow[] {
-  const filePath = path.join(
-    process.cwd(),
-    "app",
-    "training",
-    "training.json"
-  );
-
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
-}
-
 function cleanText(value: string) {
   return (value || "").replace(/\s+/g, " ").trim();
 }
@@ -100,9 +82,33 @@ function formatSalary(job: JobRow) {
   return job.salary_text || "";
 }
 
+/* HARD-CODED TRAINING (VALIDATED LINKS ONLY) */
+const training = [
+  {
+    title: "Care Certificate Online Course",
+    provider: "CareSkills Academy",
+    description:
+      "Covers all 16 Care Certificate standards. Entry-level care training.",
+    link: "https://careskillsacademy.co.uk/courses/care-certificate/",
+  },
+  {
+    title: "Moving and Handling of People",
+    provider: "TutorCare",
+    description:
+      "Patient handling training for care roles. Reduces injury risk.",
+    link: "https://tutorcare.co.uk/courses/moving-and-handling-of-people/",
+  },
+  {
+    title: "PMVA – Prevention and Management of Violence and Aggression",
+    provider: "Occuteach",
+    description:
+      "Covers de-escalation and safe intervention techniques in care settings.",
+    link: "https://occuteach.co.uk/courses/pmva-prevention-and-management-of-violence-and-aggression/",
+  },
+];
+
 export default function Page() {
   const jobs = readJobsJson();
-  const training = readTrainingJson();
 
   return (
     <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
@@ -165,7 +171,6 @@ export default function Page() {
 
         {/* RIGHT: JOBS */}
         <div>
-          {/* HEADER NOW ALIGNED WITH JOBS */}
           <div style={{ marginBottom: 14 }}>
             <h1
               style={{
