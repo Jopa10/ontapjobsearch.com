@@ -79,98 +79,25 @@ function readTrainingJson(): TrainingRow[] {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
-function decodeMojibake(value: string) {
-  return (value || "")
-    .replace(/Â£/g, "£")
-    .replace(/Â/g, "")
-    .replace(/â€“/g, "–")
-    .replace(/â€”/g, "—")
-    .replace(/â€˜/g, "‘")
-    .replace(/â€™/g, "’")
-    .replace(/â€œ/g, "“")
-    .replace(/â€/g, "”")
-    .replace(/â€¢/g, "•")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/&pound;/gi, "£")
-    .replace(/&ndash;/gi, "–")
-    .replace(/&mdash;/gi, "—")
-    .replace(/&bull;/gi, "•")
-    .replace(/&nbsp;/gi, " ");
-}
-
 function cleanText(value: string) {
-  return decodeMojibake(value)
-    .replace(/[ \t]+\n/g, "\n")
-    .replace(/\n[ \t]+/g, "\n")
-    .replace(/[ \t]{2,}/g, " ")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
+  return (value || "").replace(/\s+/g, " ").trim();
 }
 
 function stripHtml(html: string) {
-  if (!html) return "";
-
-  return cleanText(
-    decodeMojibake(html)
-      .replace(/\r\n/g, "\n")
-      .replace(/\r/g, "\n")
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<\/p>/gi, "\n\n")
-      .replace(/<\/div>/gi, "\n")
-      .replace(/<\/h[1-6]>/gi, "\n\n")
-      .replace(/<\/ul>/gi, "\n")
-      .replace(/<\/ol>/gi, "\n")
-      .replace(/<\/li>/gi, "\n")
-      .replace(/<li[^>]*>/gi, "• ")
-      .replace(/<[^>]+>/g, "")
-  );
-}
-
-function removeDuplicateStart(full: string, summary: string) {
-  const fullText = cleanText(full);
-  const summaryText = cleanText(summary);
-
-  if (!fullText) return "";
-  if (!summaryText) return fullText;
-
-  if (summaryText.length < 120 && fullText.startsWith(summaryText)) {
-    const stripped = fullText.slice(summaryText.length).trimStart();
-    return stripped || fullText;
-  }
-
-  return fullText;
+  return (html || "").replace(/<[^>]+>/g, "").trim();
 }
 
 function getSummary(job: JobRow) {
-  const summary = cleanText(job.summary);
-
-  if (summary) return summary;
-
-  const fallbackSource = stripHtml(job.full_description || job.description || "");
-  if (!fallbackSource) return "";
-
-  return fallbackSource.slice(0, 140).trim();
+  if (job.summary) return cleanText(job.summary);
+  return stripHtml(job.full_description || "").slice(0, 140);
 }
 
 function getFullDescription(job: JobRow) {
-  const source = job.full_description || job.description || "";
-  const cleanedDescription = stripHtml(source);
-  const summary = getSummary(job);
-
-  if (!cleanedDescription) return "";
-
-  return removeDuplicateStart(cleanedDescription, summary);
+  return stripHtml(job.full_description || "");
 }
 
 function formatSalary(job: JobRow) {
-  return job.salary_text ? cleanText(job.salary_text) : "";
-}
-
-function getEmployerType(name: string, advertiserType?: string) {
-  if (/agency/i.test(advertiserType || "")) return "Agency";
-  return "";
+  return job.salary_text || "";
 }
 
 export default function Page() {
@@ -179,66 +106,27 @@ export default function Page() {
 
   return (
     <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
-      <h1
-        style={{
-          fontSize: 28,
-          fontWeight: 800,
-          letterSpacing: "-0.02em",
-          color: "#111827",
-          marginBottom: 8,
-        }}
-      >
-        West Yorkshire Support Worker Roles
-      </h1>
-
-      <p
-        style={{
-          color: "#6b7280",
-          marginBottom: 22,
-          fontSize: 15,
-          lineHeight: 1.5,
-        }}
-      >
-        Updated daily • Latest update: Wed 15th April, PM • Roles across West
-        Yorkshire • Apply on employer sites
-      </p>
-
       <div
         style={{
           display: "grid",
           gridTemplateColumns: "250px 1fr",
-          gap: 20,
+          columnGap: 20,
           alignItems: "start",
         }}
       >
+        {/* LEFT: TRAINING */}
         <aside
           style={{
-            paddingTop: 0,
             alignSelf: "start",
             position: "sticky",
             top: 24,
           }}
         >
-          <div
-            style={{
-              fontSize: 15,
-              fontWeight: 800,
-              marginBottom: 5,
-              color: "#111827",
-              lineHeight: 1.3,
-            }}
-          >
+          <div style={{ fontWeight: 800, marginBottom: 6 }}>
             Get started faster
           </div>
 
-          <p
-            style={{
-              fontSize: 13,
-              lineHeight: 1.45,
-              color: "#6b7280",
-              marginBottom: 10,
-            }}
-          >
+          <p style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
             Useful courses that may help strengthen early care applications.
           </p>
 
@@ -253,50 +141,20 @@ export default function Page() {
                   background: "#f9fafb",
                 }}
               >
-                <div
-                  style={{
-                    fontWeight: 700,
-                    fontSize: 14,
-                    lineHeight: 1.3,
-                    marginBottom: 3,
-                    color: "#111827",
-                  }}
-                >
+                <div style={{ fontWeight: 700, fontSize: 14 }}>
                   {item.title}
                 </div>
-
-                <div
-                  style={{
-                    fontSize: 12,
-                    color: "#6b7280",
-                    marginBottom: 6,
-                  }}
-                >
+                <div style={{ fontSize: 12, color: "#666" }}>
                   {item.provider}
                 </div>
-
-                <div
-                  style={{
-                    fontSize: 12,
-                    color: "#6b7280",
-                    lineHeight: 1.45,
-                    marginBottom: 8,
-                  }}
-                >
+                <div style={{ fontSize: 12, color: "#666", margin: "6px 0" }}>
                   {item.description}
                 </div>
-
                 <a
                   href={item.link}
                   target="_blank"
                   rel="noreferrer"
-                  style={{
-                    display: "inline-block",
-                    fontSize: 12,
-                    color: "#2563eb",
-                    textDecoration: "none",
-                    fontWeight: 500,
-                  }}
+                  style={{ fontSize: 12, color: "#2563eb" }}
                 >
                   Course details
                 </a>
@@ -305,89 +163,52 @@ export default function Page() {
           </div>
         </aside>
 
-        <div style={{ display: "grid", gap: 10 }}>
-          {jobs.map((j, idx) => {
-            const summary = getSummary(j);
-            const fullDescription = getFullDescription(j);
+        {/* RIGHT: JOBS */}
+        <div>
+          {/* HEADER NOW ALIGNED WITH JOBS */}
+          <div style={{ marginBottom: 14 }}>
+            <h1
+              style={{
+                fontSize: 28,
+                fontWeight: 800,
+                marginBottom: 6,
+              }}
+            >
+              West Yorkshire Support Worker Roles
+            </h1>
 
-            return (
+            <p style={{ color: "#6b7280", fontSize: 14 }}>
+              Updated daily • Latest update: Wed 15th April, PM • Roles across
+              West Yorkshire • Apply on employer sites
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gap: 10 }}>
+            {jobs.map((j, idx) => (
               <div
-                key={j.job_id || idx}
+                key={idx}
                 style={{
                   border: "1px solid #dbe3ee",
                   borderRadius: 12,
                   padding: "14px 16px",
-                  background: "#ffffff",
-                  boxShadow: "0 1px 2px rgba(16, 24, 40, 0.04)",
+                  background: "#fff",
                 }}
               >
-                <div
-                  style={{
-                    fontWeight: 800,
-                    fontSize: 17,
-                    lineHeight: 1.3,
-                    color: "#111827",
-                    marginBottom: 4,
-                  }}
-                >
+                <div style={{ fontWeight: 800, fontSize: 16 }}>
                   {j.title}
                 </div>
 
-                <div
-                  style={{
-                    fontSize: 14,
-                    color: "#374151",
-                    lineHeight: 1.45,
-                    marginBottom: 4,
-                  }}
-                >
-                  {j.company} • {getEmployerType(j.company, j.advertiser_type) || j.advertiser_type || "Company"} • {j.employment_type} • {j.location}
-                  {j.location === "Leeds" && (
-                    <span
-                      style={{
-                        marginLeft: 8,
-                        padding: "2px 7px",
-                        fontSize: 11,
-                        fontWeight: 600,
-                        borderRadius: 999,
-                        background: "#e0f2fe",
-                        color: "#0369a1",
-                        verticalAlign: "middle",
-                      }}
-                    >
-                      Leeds
-                    </span>
-                  )}
+                <div style={{ fontSize: 13, color: "#555", marginBottom: 4 }}>
+                  {j.company} • {j.location}
                 </div>
 
-                <div
-                  style={{
-                    marginBottom: 8,
-                    fontSize: 14,
-                    fontWeight: 600,
-                    color: "#111827",
-                  }}
-                >
+                <div style={{ fontWeight: 600, marginBottom: 6 }}>
                   {formatSalary(j)}
                 </div>
 
-                {summary ? (
-                  <div
-                    style={{
-                      fontSize: 14,
-                      color: "#6b7280",
-                      marginBottom: 8,
-                      lineHeight: 1.45,
-                      display: "-webkit-box",
-                      WebkitLineClamp: 2,
-                      WebkitBoxOrient: "vertical",
-                      overflow: "hidden",
-                      maxWidth: "94%",
-                    }}
-                  >
-                    {summary}
-                  </div>
-                ) : null}
+                <div style={{ fontSize: 13, color: "#666", marginBottom: 8 }}>
+                  {getSummary(j)}
+                </div>
 
                 <details>
                   <summary
@@ -395,24 +216,12 @@ export default function Page() {
                       fontSize: 13,
                       color: "#2563eb",
                       cursor: "pointer",
-                      marginTop: 2,
-                      marginBottom: 0,
-                      fontWeight: 500,
                     }}
                   >
                     View full job description
                   </summary>
-
-                  <div
-                    style={{
-                      fontSize: 14,
-                      whiteSpace: "pre-line",
-                      marginTop: 8,
-                      lineHeight: 1.55,
-                      color: "#374151",
-                    }}
-                  >
-                    {fullDescription}
+                  <div style={{ marginTop: 6, fontSize: 13 }}>
+                    {getFullDescription(j)}
                   </div>
                 </details>
 
@@ -425,19 +234,15 @@ export default function Page() {
                     marginTop: 10,
                     background: "#2563eb",
                     color: "#fff",
-                    padding: "7px 14px",
-                    borderRadius: 8,
-                    textDecoration: "none",
-                    fontWeight: 700,
-                    fontSize: 15,
-                    boxShadow: "0 1px 2px rgba(37, 99, 235, 0.18)",
+                    padding: "6px 12px",
+                    borderRadius: 6,
                   }}
                 >
                   Apply Now
                 </a>
               </div>
-            );
-          })}
+            ))}
+          </div>
         </div>
       </div>
     </main>
