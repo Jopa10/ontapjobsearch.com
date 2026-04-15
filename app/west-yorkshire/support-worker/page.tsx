@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import TrainingLink from "@/components/traininglink";
 
 type JobRow = {
   job_id: string;
@@ -82,7 +83,6 @@ function formatSalary(job: JobRow) {
   return job.salary_text || "";
 }
 
-/* HARD-CODED TRAINING (VALIDATED LINKS ONLY) */
 const training = [
   {
     title: "Care Certificate Online Course",
@@ -120,7 +120,6 @@ export default function Page() {
           alignItems: "start",
         }}
       >
-        {/* LEFT: TRAINING */}
         <aside
           style={{
             alignSelf: "start",
@@ -150,26 +149,25 @@ export default function Page() {
                 <div style={{ fontWeight: 700, fontSize: 14 }}>
                   {item.title}
                 </div>
+
                 <div style={{ fontSize: 12, color: "#666" }}>
                   {item.provider}
                 </div>
+
                 <div style={{ fontSize: 12, color: "#666", margin: "6px 0" }}>
                   {item.description}
                 </div>
-                <a
+
+                <TrainingLink
                   href={item.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ fontSize: 12, color: "#2563eb" }}
-                >
-                  Course details
-                </a>
+                  title={item.title}
+                  provider={item.provider}
+                />
               </div>
             ))}
           </div>
         </aside>
 
-        {/* RIGHT: JOBS */}
         <div>
           <div style={{ marginBottom: 14 }}>
             <h1
