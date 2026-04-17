@@ -181,7 +181,7 @@ export default function Page() {
             </h1>
 
             <p style={{ color: "#6b7280", fontSize: 14 }}>
-              Updated daily • Latest update: Wed 15th April, PM • Roles across
+              Updated daily • Latest update: Fri 17th April, PM • Roles across
               West Yorkshire • Apply on employer sites
             </p>
           </div>
