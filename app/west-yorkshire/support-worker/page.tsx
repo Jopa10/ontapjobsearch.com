@@ -77,7 +77,7 @@ function getSummary(job: JobRow) {
 
 function getFullDescription(job: JobRow) {
   return (
-    <div className="whitespace-pre-line leading-relaxed">
+    <div className="whitespace-pre-line leading-normal">
       {stripHtml(job.full_description || "")}
     </div>
   );
