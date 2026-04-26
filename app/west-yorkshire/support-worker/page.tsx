@@ -76,7 +76,11 @@ function getSummary(job: JobRow) {
 }
 
 function getFullDescription(job: JobRow) {
-  return stripHtml(job.full_description || "");
+  return (
+    <div className="whitespace-pre-line leading-relaxed">
+      {stripHtml(job.full_description || "")}
+    </div>
+  );
 }
 
 function formatSalary(job: JobRow) {
