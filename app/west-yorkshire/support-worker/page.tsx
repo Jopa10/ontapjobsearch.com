@@ -72,9 +72,9 @@ function stripHtml(html: string) {
 
 function getSummary(job: JobRow) {
   if (job.summary) return cleanText(job.summary);
- const text = stripHtml(job.full_description || "");
-const truncated = text.slice(0, 180);
-return truncated.slice(0, truncated.lastIndexOf(" ")) + "…";
+const text = stripHtml(job.full_description || "");
+const firstSentenceEnd = text.search(/[.!?]\s/);
+return firstSentenceEnd > 0 ? text.slice(0, firstSentenceEnd + 1) : text.slice(0, 180);
 }
 
 function getFullDescription(job: JobRow) {
