@@ -109,7 +109,8 @@ function stripHtml(html: string) {
       .replace(/<\/ol>/gi, "\n")
       .replace(/<\/li>/gi, "\n")
       .replace(/<li[^>]*>/gi, "• ")
-      .replace(/<[^>]+>/g, "")
+    .replace(/<[^>]+>/g, "")
+.replace(/\n{2,}/g, "\n\n")
   );
 }
 
@@ -293,10 +294,7 @@ export default function JobSlicePage({
                         fontSize: 13,
                         color: "#666",
                         marginBottom: 8,
-                        display: "-webkit-box",
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: "vertical",
-                        overflow: "hidden",
+                     lineHeight: 1.5,
                       }}
                     >
                       {summary}
