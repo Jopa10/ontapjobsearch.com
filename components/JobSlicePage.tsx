@@ -136,7 +136,13 @@ function getSummary(job: JobRow) {
   const fallbackSource = stripHtml(job.full_description || job.description || "");
   if (!fallbackSource) return "";
 
-  return fallbackSource.slice(0, 140).trim();
+  let summary = fallbackSource.split(/(?<=[.?!])\s+/).slice(0,2).join(' ').trim();
+
+// hard clean
+summary = summary.replace(/[\s\n]+/g, ' ');
+summary = summary.replace(/[^a-zA-Z0-9\.\)\]]+$/g, '');
+
+return summary;
 }
 
 function getFullDescription(job: JobRow) {
