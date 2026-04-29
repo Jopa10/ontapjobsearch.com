@@ -136,13 +136,13 @@ function getSummary(job: JobRow) {
   const fallbackSource = stripHtml(job.full_description || job.description || "");
   if (!fallbackSource) return "";
 
- summary = fallbackSource.split(/(?<=[.?!])\s+/).slice(0,2).join(' ').trim();
+ let fallbackSummary = fallbackSource.split(/(?<=[.?!])\s+/).slice(0,2).join(' ').trim();
 
 // hard clean
-summary = summary.replace(/[\s\n]+/g, ' ');
-summary = summary.replace(/[^a-zA-Z0-9\.\)\]]+$/g, '');
+fallbackSummary = fallbackSummary.replace(/[\s\n]+/g, ' ');
+fallbackSummary = fallbackSummary.replace(/[^a-zA-Z0-9\.\)\]]+$/g, '');
 
-return summary;
+return fallbackSummary;
 }
 
 function getFullDescription(job: JobRow) {
