@@ -136,7 +136,7 @@ function getSummary(job: JobRow) {
   const fallbackSource = stripHtml(job.full_description || job.description || "");
   if (!fallbackSource) return "";
 
-  let summary = fallbackSource.split(/(?<=[.?!])\s+/).slice(0,2).join(' ').trim();
+ summary = fallbackSource.split(/(?<=[.?!])\s+/).slice(0,2).join(' ').trim();
 
 // hard clean
 summary = summary.replace(/[\s\n]+/g, ' ');
