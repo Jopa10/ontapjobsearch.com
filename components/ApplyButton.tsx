@@ -22,7 +22,6 @@ export default function ApplyButton({
     location: location,
   });
 }
-    }
 
     // open immediately
     window.open(apply_url, "_blank", "noopener,noreferrer");
