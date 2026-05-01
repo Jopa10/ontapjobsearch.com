@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import TrainingLink from "@/components/traininglink";
+import ApplyButton from "@/components/ApplyButton";
 
 type JobRow = {
   job_id: string;
@@ -330,21 +331,12 @@ export default function JobSlicePage({
                     </div>
                   </details>
 
-                  <a
-                    href={j.apply_url}
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{
-                      display: "inline-block",
-                      marginTop: 10,
-                      background: "#2563eb",
-                      color: "#fff",
-                      padding: "6px 12px",
-                      borderRadius: 6,
-                    }}
-                  >
-                    Apply Now
-                  </a>
+                <ApplyButton
+  apply_url={j.apply_url}
+  job_id={j.job_id}
+  title={j.title}
+  location={j.location}
+/>
                 </div>
               );
             })}
