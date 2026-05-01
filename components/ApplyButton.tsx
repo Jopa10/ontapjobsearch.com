@@ -14,14 +14,14 @@ export default function ApplyButton({
   location,
 }: Props) {
   const handleClick = () => {
-    // push to dataLayer (GTM-friendly)
-    if (typeof window !== "undefined" && (window as any).dataLayer) {
-      (window as any).dataLayer.push({
-        event: "apply_click",
-        job_id: job_id,
-        title: title,
-        location: location,
-      });
+  if (typeof window !== "undefined" && (window as any).gtag) {
+  (window as any).gtag("event", "select_content", {
+    content_type: "job",
+    item_id: job_id,
+    item_name: title,
+    location: location,
+  });
+}
     }
 
     // open immediately
