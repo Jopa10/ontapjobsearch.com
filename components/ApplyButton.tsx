@@ -14,17 +14,17 @@ export default function ApplyButton({
   location,
 }: Props) {
   const handleClick = () => {
-    // fire GA event (no callback)
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("event", "apply_click", {
-        event_category: "engagement",
-        event_label: title,
-        job_id,
-        location,
+    // push to dataLayer (GTM-friendly)
+    if (typeof window !== "undefined" && (window as any).dataLayer) {
+      (window as any).dataLayer.push({
+        event: "apply_click",
+        job_id: job_id,
+        title: title,
+        location: location,
       });
     }
 
-    // open immediately (no delay)
+    // open immediately
     window.open(apply_url, "_blank", "noopener,noreferrer");
   };
 
