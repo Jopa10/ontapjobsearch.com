@@ -14,24 +14,17 @@ export default function ApplyButton({
   location,
 }: Props) {
   const handleClick = () => {
+    // fire GA event (no callback)
     if (typeof window !== "undefined" && (window as any).gtag) {
-  (window as any).gtag("event", "apply_click", {
-  event_category: "engagement",
-  event_label: title,
-  value: 1,
-  event_callback: () => {
-    window.open(apply_url, "_blank", "noopener,noreferrer");
-  },
-  event_timeout: 1000,
-});
-
-      setTimeout(() => {
-        window.open(apply_url, "_blank", "noopener,noreferrer");
-      }, 1000);
-
-      return;
+      (window as any).gtag("event", "apply_click", {
+        event_category: "engagement",
+        event_label: title,
+        job_id,
+        location,
+      });
     }
 
+    // open immediately (no delay)
     window.open(apply_url, "_blank", "noopener,noreferrer");
   };
 
