@@ -88,6 +88,8 @@ function decodeMojibake(value: string) {
 
 function cleanText(value: string) {
   return decodeMojibake(value)
+    .replace(/^\?\s+(?=[A-Z])/g, "")
+    .replace(/\n\?\s+(?=[A-Z])/g, "\n")
     .replace(/[ \t]+\n/g, "\n")
     .replace(/\n[ \t]+/g, "\n")
     .replace(/[ \t]{2,}/g, " ")
@@ -331,12 +333,14 @@ export default function JobSlicePage({
                     </div>
                   </details>
 
-                <ApplyButton
-  apply_url={j.apply_url}
-  job_id={j.job_id}
-  title={j.title}
-  location={j.location}
-/>
+                  <div style={{ marginTop: 12 }}>
+                    <ApplyButton
+                      apply_url={j.apply_url}
+                      job_id={j.job_id}
+                      title={j.title}
+                      location={j.location}
+                    />
+                  </div>
                 </div>
               );
             })}
@@ -346,3 +350,4 @@ export default function JobSlicePage({
     </main>
   );
 }
+
