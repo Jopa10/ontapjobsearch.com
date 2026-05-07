@@ -86,8 +86,19 @@ function decodeMojibake(value: string) {
     .replace(/&nbsp;/gi, " ");
 }
 
+function cleanText(value: string) {
+  return decodeMojibake(value)
+    .replace(/^\s*[\?\uFFFD]\s+(?=[A-Z])/g, "")
+    .replace(/\n\s*[\?\uFFFD]\s+(?=[A-Z])/g, "\n")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n[ \t]+/g, "\n")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 function formatSalary(job: JobRow) {
-  const salary = job.salary_text ? decodeMojibake(job.salary_text) : "";
+  const salary = job.salary_text ? cleanText(job.salary_text) : "";
 
   return salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
     return "£" + Number(amount).toLocaleString("en-GB");
@@ -343,4 +354,6 @@ export default function JobSlicePage({
     </main>
   );
 }
+
+
 
