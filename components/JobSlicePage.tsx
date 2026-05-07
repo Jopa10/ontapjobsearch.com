@@ -156,7 +156,11 @@ function getFullDescription(job: JobRow) {
 }
 
 function formatSalary(job: JobRow) {
-  return job.salary_text ? cleanText(job.salary_text) : "";
+  const salary = job.salary_text ? cleanText(job.salary_text) : "";
+
+  return salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
+    return "£" + Number(amount).toLocaleString("en-GB");
+  });
 }
 
 const training = [
