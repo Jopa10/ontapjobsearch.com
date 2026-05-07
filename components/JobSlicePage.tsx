@@ -169,24 +169,31 @@ function getFullDescription(job: JobRow) {
 const training = [
   {
     title: "Care Certificate Online Course",
-    provider: "CareSkills Academy",
+    provider: "SCIE",
     description:
-      "Covers all 16 Care Certificate standards. Entry-level care training.",
-    link: "https://careskillsacademy.co.uk/courses/care-certificate/",
+      "Self-paced online training covering the Care Certificate standards for new care workers.",
+    link: "https://www.scie.org.uk/e-learning/care-certificate/",
   },
   {
-    title: "Moving and Handling of People",
-    provider: "TutorCare",
+    title: "Moving and Handling Online Training",
+    provider: "Caredemy",
     description:
-      "Patient handling training for care roles. Reduces injury risk.",
-    link: "https://tutorcare.co.uk/courses/moving-and-handling-of-people/",
+      "Online moving and handling training for carers and support workers with downloadable certification.",
+    link: "https://caredemy.co.uk/product/safe-moving-handling-online-training-course/",
   },
   {
-    title: "PMVA – Prevention and Management of Violence and Aggression",
-    provider: "Occuteach",
+    title: "Care Certificate Course",
+    provider: "CPD Online College",
     description:
-      "Covers de-escalation and safe intervention techniques in care settings.",
-    link: "https://occuteach.co.uk/courses/pmva-prevention-and-management-of-violence-and-aggression/",
+      "Flexible online Care Certificate course designed for entry-level health and social care roles.",
+    link: "https://cpdonline.co.uk/course/care-certificate/",
+  },
+  {
+    title: "Online Care Certificate Training",
+    provider: "ProTrainings UK",
+    description:
+      "Complete the Care Certificate online with self-paced learning and instant course access.",
+    link: "https://www.protrainings.uk/courses/216-care-certificate",
   },
 ];
 
