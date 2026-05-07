@@ -222,7 +222,7 @@ export default function JobSlicePage({
           </div>
 
           <p style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
-            Useful courses that may help strengthen early care applications.
+            Useful online courses commonly requested in care and support roles
           </p>
 
           <div style={{ display: "grid", gap: 8 }}>
