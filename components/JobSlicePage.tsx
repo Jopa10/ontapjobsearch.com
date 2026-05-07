@@ -155,14 +155,6 @@ function getFullDescription(job: JobRow) {
   return removeDuplicateStart(cleanedDescription, summary);
 }
 
-function formatSalary(job: JobRow) {
-  const salary = job.salary_text ? cleanText(job.salary_text) : "";
-
-  return salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
-    return "£" + Number(amount).toLocaleString("en-GB");
-  });
-}
-
 const training = [
   {
     title: "Care Certificate Online Course",
