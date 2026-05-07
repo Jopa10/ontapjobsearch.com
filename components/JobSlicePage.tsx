@@ -87,7 +87,7 @@ function decodeMojibake(value: string) {
 }
 
 function formatSalary(job: JobRow) {
-  const salary = job.salary_text ? cleanText(job.salary_text) : "";
+  const salary = job.salary_text ? decodeMojibake(job.salary_text) : "";
 
   return salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
     return "£" + Number(amount).toLocaleString("en-GB");
