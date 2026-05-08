@@ -40,9 +40,11 @@ function FeaturedJobCard({
         {job.company} • {job.location}
       </p>
 
-      {job.salary_text && (
-        <p className="font-semibold mb-3">{job.salary_text}</p>
-      )}
+    {job.salary_text && (
+  <p className="font-semibold mb-3">
+    {stripHtml(job.salary_text)}
+  </p>
+)}
 
       <p className="text-gray-700 mb-4">{getSummary(job)}</p>
 
