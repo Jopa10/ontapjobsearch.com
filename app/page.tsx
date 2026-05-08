@@ -4,10 +4,13 @@ export default function Page() {
       <h1 className="text-4xl font-bold tracking-tight mb-4">
         Yorkshire Support Worker Jobs
       </h1>
+<p className="text-lg text-gray-700 mb-3">
+  Live support worker roles across West and South Yorkshire.
+</p>
 
-      <p className="text-lg text-gray-700 mb-6">
-        Focused listings across West and South Yorkshire. More regions coming soon.
-      </p>
+<p className="text-sm text-gray-600 mb-6">
+  Updated daily • Apply directly on employer websites • No signup required
+</p>
 
       <a
         href="/jobs/all"
