@@ -12,7 +12,11 @@ type Job = {
 };
 
 const stripHtml = (text = "") =>
-  text.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  text
+    .replace(/Â£/g, "£")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 
 const getSummary = (job: Job) =>
   job.summary || stripHtml(job.description).slice(0, 180);
