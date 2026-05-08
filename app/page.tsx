@@ -70,12 +70,12 @@ export default function Page() {
         Updated daily • Apply directly on employer websites • No signup required
       </p>
 
-      <a
-        href="/jobs/all"
-        className="inline-block text-lg font-medium underline underline-offset-4 mb-8"
-      >
-        Browse jobs →
-      </a>
+    <a
+  href="/jobs/all"
+  className="inline-block rounded-lg bg-blue-600 px-5 py-3 text-lg font-medium text-white mb-8"
+>
+  Browse all current jobs →
+</a>
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">Latest live roles</h2>
