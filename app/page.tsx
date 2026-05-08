@@ -72,9 +72,26 @@ export default function Page() {
         Live support worker roles across West and South Yorkshire.
       </p>
 
-      <p className="text-sm text-gray-600 mb-6">
+      <p className="text-sm text-gray-600 mb-4">
         Updated daily • Apply directly on employer websites • No signup required
       </p>
+      <div className="flex flex-wrap gap-2 mb-6 text-sm">
+  <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+    Updated daily
+  </span>
+
+  <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+    West & South Yorkshire roles
+  </span>
+
+  <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+    Direct employer applications
+  </span>
+
+  <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+    No signup required
+  </span>
+</div>
 
     <a
   href="/jobs/all"
