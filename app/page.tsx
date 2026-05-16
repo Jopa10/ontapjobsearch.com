@@ -76,49 +76,101 @@ function RegionBlock({
 
 export default function Page() {
   return (
-    <main className="mx-auto max-w-6xl px-6 py-5">
-      <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-2">
-        Yorkshire Support Worker Jobs
-      </h1>
+    <>
+      <style>{`
+        body:has(main[data-homepage]) footer {
+          margin-top: 1rem;
+        }
 
-      <p className="max-w-3xl text-lg text-gray-700 mb-2">
-        Live support worker roles across West and South Yorkshire.
-      </p>
+        body:has(main[data-homepage]) footer > div {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
 
-      <p className="max-w-3xl text-sm text-gray-600 mb-2">
-        Updated daily • Apply directly on employer websites • No signup required
-      </p>
-      <div className="mb-3 flex flex-wrap gap-1.5 text-sm">
-        <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">Updated daily</span>
+        body:has(main[data-homepage]) footer > div > div:first-child {
+          gap: 1rem;
+        }
 
-        <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
-          West & South Yorkshire roles
-        </span>
+        body:has(main[data-homepage]) footer h3,
+        body:has(main[data-homepage]) footer h4 {
+          margin-bottom: 0.5rem;
+        }
 
-        <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
-          Direct employer applications
-        </span>
+        body:has(main[data-homepage]) footer > div > div:first-child > div:first-child p {
+          display: none;
+        }
 
-        <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">No signup required</span>
-      </div>
+        body:has(main[data-homepage]) footer ul > :not([hidden]) ~ :not([hidden]) {
+          margin-top: 0.25rem;
+        }
 
-      <div className="grid gap-3 md:grid-cols-2">
-        <RegionBlock
-          title="West Yorkshire Support Worker Jobs"
-          intro="Current Leeds and West Yorkshire support worker roles, updated daily."
-          ctaText="View West Yorkshire jobs →"
-          sliceUrl="/west-yorkshire/support-worker"
-          jobs={westYorkshireJobs}
-        />
+        body:has(main[data-homepage]) footer > div > div:last-child {
+          margin-top: 1rem;
+          padding-top: 1rem;
+        }
 
-        <RegionBlock
-          title="South Yorkshire Support Worker Jobs"
-          intro="Current Sheffield and South Yorkshire support worker roles, updated daily."
-          ctaText="View South Yorkshire jobs →"
-          sliceUrl="/south-yorkshire/support-worker"
-          jobs={southYorkshireJobs}
-        />
-      </div>
-    </main>
+        @media (min-width: 768px) {
+          body:has(main[data-homepage]) footer {
+            background-color: #1f2937;
+          }
+
+          body:has(main[data-homepage]) footer > div {
+            padding-top: 0.875rem;
+            padding-bottom: 0.875rem;
+          }
+
+          body:has(main[data-homepage]) footer h3 {
+            font-size: 1rem;
+          }
+        }
+      `}</style>
+
+      <main data-homepage className="mx-auto max-w-6xl px-6 py-5">
+        <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-2">
+          Yorkshire Support Worker Jobs
+        </h1>
+
+        <p className="max-w-3xl text-lg text-gray-700 mb-2">
+          Live support worker roles across West and South Yorkshire.
+        </p>
+
+        <p className="max-w-3xl text-sm text-gray-600 mb-2">
+          Updated daily • Apply directly on employer websites • No signup required
+        </p>
+        <div className="mb-3 flex flex-wrap gap-1.5 text-sm">
+          <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">Updated daily</span>
+
+          <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+            West & South Yorkshire roles
+          </span>
+
+          <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+            Direct employer applications
+          </span>
+
+          <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
+            No signup required
+          </span>
+        </div>
+
+        <div className="grid gap-3 md:grid-cols-2">
+          <RegionBlock
+            title="West Yorkshire Support Worker Jobs"
+            intro="Current Leeds and West Yorkshire support worker roles, updated daily."
+            ctaText="View West Yorkshire jobs →"
+            sliceUrl="/west-yorkshire/support-worker"
+            jobs={westYorkshireJobs}
+          />
+
+          <RegionBlock
+            title="South Yorkshire Support Worker Jobs"
+            intro="Current Sheffield and South Yorkshire support worker roles, updated daily."
+            ctaText="View South Yorkshire jobs →"
+            sliceUrl="/south-yorkshire/support-worker"
+            jobs={southYorkshireJobs}
+          />
+        </div>
+      </main>
+    </>
   );
 }
