@@ -6,7 +6,7 @@ export default function Page() {
       jsonPath={["app", "south-yorkshire", "support-worker.json"]}
       region="South Yorkshire"
       title="South Yorkshire Support Worker Roles"
-      latestUpdate="Fri 15th May, AM"
+      latestUpdate="Sat 16th May, AM"
       anchorTown="Sheffield"
     />
   );
