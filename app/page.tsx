@@ -41,6 +41,21 @@ function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
   );
 }
 
+const popularSearches = [
+  {
+    label: 'West Yorkshire support worker jobs',
+    href: '/west-yorkshire/support-worker',
+  },
+  {
+    label: 'South Yorkshire support worker jobs',
+    href: '/south-yorkshire/support-worker',
+  },
+  {
+    label: 'Browse all jobs',
+    href: '/jobs/all',
+  },
+];
+
 function RegionBlock({
   title,
   intro,
@@ -115,7 +130,7 @@ export default function Page() {
 
         @media (min-width: 768px) {
           body:has(main[data-homepage]) footer {
-            margin-top: 5rem;
+            margin-top: 1rem;
           }
 
           body:has(main[data-homepage]) footer > div {
@@ -175,6 +190,24 @@ export default function Page() {
             jobs={southYorkshireJobs}
           />
         </div>
+
+        <section className="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-3">
+          <h2 className="mb-2 text-base font-semibold text-gray-800">
+            Popular support worker searches
+          </h2>
+
+          <div className="flex flex-wrap gap-2">
+            {popularSearches.map((search) => (
+              <a
+                key={search.href}
+                href={search.href}
+                className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 hover:border-blue-200 hover:text-blue-700"
+              >
+                {search.label}
+              </a>
+            ))}
+          </div>
+        </section>
       </main>
     </>
   );
