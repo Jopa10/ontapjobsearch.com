@@ -6,8 +6,6 @@ type Job = {
   company?: string;
   location?: string;
   salary_text?: string;
-  summary?: string;
-  description?: string;
   apply_url?: string;
 };
 
@@ -18,45 +16,66 @@ const stripHtml = (text = '') =>
     .replace(/\s+/g, ' ')
     .trim();
 
-const getSummary = (job: Job) => job.summary || stripHtml(job.description).slice(0, 180);
-
-function FeaturedJobCard({
-  job,
-  label,
-  sliceUrl,
-}: {
-  job: Job;
-  label: string;
-  sliceUrl: string;
-}) {
+function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
   return (
-    <article className="rounded-xl border border-gray-200 p-4 md:p-3">
-      <h3 className="text-sm font-semibold text-gray-500 mb-2">{label}</h3>
-
-      <h4 className="text-lg font-semibold mb-1">{job.title}</h4>
+    <article className="rounded-lg border border-gray-200 bg-white p-3">
+      <h3 className="text-base font-semibold mb-1">{job.title}</h3>
 
       <p className="text-sm text-gray-600 mb-2">
         {job.company} • {job.location}
       </p>
 
-      {job.salary_text && <p className="font-semibold mb-2">{stripHtml(job.salary_text)}</p>}
+      {job.salary_text && (
+        <p className="text-sm font-semibold mb-3">{stripHtml(job.salary_text)}</p>
+      )}
 
-      <p className="text-sm text-gray-700 mb-3">{getSummary(job)}</p>
-
-      <a
-        href={sliceUrl}
-        className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white"
-      >
-        View role
+      <a href={sliceUrl} className="text-sm font-medium text-blue-700 hover:text-blue-900">
+        View role →
       </a>
     </article>
   );
 }
 
-export default function Page() {
-  const westJob = westYorkshireJobs[0];
-  const southJob = southYorkshireJobs[0];
+function RegionBlock({
+  title,
+  intro,
+  ctaText,
+  sliceUrl,
+  jobs,
+}: {
+  title: string;
+  intro: string;
+  ctaText: string;
+  sliceUrl: string;
+  jobs: Job[];
+}) {
+  return (
+    <section className="rounded-xl border border-gray-200 p-4 hover:border-blue-300 hover:bg-blue-50">
+      <h2 className="text-xl font-semibold mb-1">{title}</h2>
 
+      <p className="text-gray-600 mb-4">{intro}</p>
+
+      <a
+        href={sliceUrl}
+        className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white"
+      >
+        {ctaText}
+      </a>
+
+      <div className="mt-4 grid gap-3">
+        {jobs.slice(0, 2).map((job) => (
+          <MiniJobCard
+            key={`${job.title}-${job.company}-${job.location}`}
+            job={job}
+            sliceUrl={sliceUrl}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default function Page() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-8">
       <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-4">
@@ -84,51 +103,23 @@ export default function Page() {
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">No signup required</span>
       </div>
 
-      <section className="grid gap-4 mb-6 md:mb-5 md:grid-cols-2">
-        <a
-          href="/west-yorkshire/support-worker"
-          className="block rounded-xl border border-gray-200 p-4 hover:border-blue-300 hover:bg-blue-50"
-        >
-          <h2 className="text-xl font-semibold mb-1">West Yorkshire Support Worker Jobs</h2>
-          <p className="text-gray-600 mb-4">
-            Current Leeds and West Yorkshire support worker roles, updated daily.
-          </p>
-          <span className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white">
-            View West Yorkshire jobs →
-          </span>
-        </a>
+      <div className="grid gap-4 md:grid-cols-2">
+        <RegionBlock
+          title="West Yorkshire Support Worker Jobs"
+          intro="Current Leeds and West Yorkshire support worker roles, updated daily."
+          ctaText="View West Yorkshire jobs →"
+          sliceUrl="/west-yorkshire/support-worker"
+          jobs={westYorkshireJobs}
+        />
 
-        <a
-          href="/south-yorkshire/support-worker"
-          className="block rounded-xl border border-gray-200 p-4 hover:border-blue-300 hover:bg-blue-50"
-        >
-          <h2 className="text-xl font-semibold mb-1">South Yorkshire Support Worker Jobs</h2>
-          <p className="text-gray-600 mb-4">
-            Current Sheffield and South Yorkshire support worker roles, updated daily.
-          </p>
-          <span className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white">
-            View South Yorkshire jobs →
-          </span>
-        </a>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold mb-3">Latest role previews by area</h2>
-
-        <div className="grid gap-4 md:grid-cols-2">
-          <FeaturedJobCard
-            job={westJob}
-            label="Latest West Yorkshire role"
-            sliceUrl="/west-yorkshire/support-worker"
-          />
-
-          <FeaturedJobCard
-            job={southJob}
-            label="Latest South Yorkshire role"
-            sliceUrl="/south-yorkshire/support-worker"
-          />
-        </div>
-      </section>
+        <RegionBlock
+          title="South Yorkshire Support Worker Jobs"
+          intro="Current Sheffield and South Yorkshire support worker roles, updated daily."
+          ctaText="View South Yorkshire jobs →"
+          sliceUrl="/south-yorkshire/support-worker"
+          jobs={southYorkshireJobs}
+        />
+      </div>
     </main>
   );
 }
