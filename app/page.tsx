@@ -9,27 +9,20 @@ type Job = {
   apply_url?: string;
 };
 
-const stripHtml = (text = '') =>
-  text
-    .replace(/Â£/g, '£')
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-
 function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
   return (
-    <article className="rounded-lg border border-gray-200 bg-white p-3">
-      <h3 className="text-base font-semibold mb-1">{job.title}</h3>
+    <article className="rounded-lg border border-gray-200 bg-white p-2.5 leading-tight">
+      <h3 className="mb-0.5 text-sm font-semibold leading-snug">{job.title}</h3>
 
-      <p className="text-sm text-gray-600 mb-2">
+      <p className="mb-1 text-xs leading-snug text-gray-600">
         {job.company} • {job.location}
       </p>
 
       {job.salary_text && (
-        <p className="text-sm font-semibold mb-3">{stripHtml(job.salary_text)}</p>
+        <p className="mb-1.5 text-xs font-semibold leading-snug">{job.salary_text}</p>
       )}
 
-      <a href={sliceUrl} className="text-sm font-medium text-blue-700 hover:text-blue-900">
+      <a href={sliceUrl} className="text-xs font-medium text-blue-700 hover:text-blue-900">
         View role →
       </a>
     </article>
@@ -50,19 +43,19 @@ function RegionBlock({
   jobs: Job[];
 }) {
   return (
-    <section className="rounded-xl border border-gray-200 p-4 hover:border-blue-300 hover:bg-blue-50">
-      <h2 className="text-xl font-semibold mb-1">{title}</h2>
+    <section className="rounded-xl border border-gray-200 p-3 hover:border-blue-300 hover:bg-blue-50">
+      <h2 className="mb-1 text-lg font-semibold leading-tight">{title}</h2>
 
-      <p className="text-gray-600 mb-4">{intro}</p>
+      <p className="mb-3 text-sm leading-snug text-gray-600">{intro}</p>
 
       <a
         href={sliceUrl}
-        className="inline-block rounded-lg bg-blue-600 px-4 py-2 font-medium text-white"
+        className="inline-block rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-medium text-white"
       >
         {ctaText}
       </a>
 
-      <div className="mt-4 grid gap-3">
+      <div className="mt-3 grid gap-2">
         {jobs.slice(0, 2).map((job) => (
           <MiniJobCard
             key={`${job.title}-${job.company}-${job.location}`}
@@ -103,7 +96,7 @@ export default function Page() {
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">No signup required</span>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-3 md:grid-cols-2">
         <RegionBlock
           title="West Yorkshire Support Worker Jobs"
           intro="Current Leeds and West Yorkshire support worker roles, updated daily."
