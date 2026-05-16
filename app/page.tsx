@@ -13,6 +13,12 @@ function cleanMojibakeCurrency(text: string) {
   return text.replaceAll('Â£', '£');
 }
 
+function formatSalaryText(text: string) {
+  return cleanMojibakeCurrency(text).replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
+    return `£${Number(amount).toLocaleString('en-GB')}`;
+  });
+}
+
 function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
   return (
     <article className="rounded-lg border border-gray-200 bg-white p-2 leading-tight">
@@ -24,7 +30,7 @@ function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
 
       {job.salary_text && (
         <p className="mb-1 text-xs font-semibold leading-snug">
-          {cleanMojibakeCurrency(job.salary_text)}
+          {formatSalaryText(job.salary_text)}
         </p>
       )}
 
@@ -79,48 +85,43 @@ export default function Page() {
     <>
       <style>{`
         body:has(main[data-homepage]) footer {
-          margin-top: 1rem;
+          margin-top: 0.75rem;
         }
 
         body:has(main[data-homepage]) footer > div {
-          padding-top: 1rem;
-          padding-bottom: 1rem;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
         }
 
         body:has(main[data-homepage]) footer > div > div:first-child {
-          gap: 1rem;
+          gap: 0.5rem;
         }
 
-        body:has(main[data-homepage]) footer h3,
-        body:has(main[data-homepage]) footer h4 {
-          margin-bottom: 0.5rem;
-        }
-
-        body:has(main[data-homepage]) footer > div > div:first-child > div:first-child p {
+        body:has(main[data-homepage]) footer > div > div:first-child > div:first-child,
+        body:has(main[data-homepage]) footer h4,
+        body:has(main[data-homepage]) footer > div > div:last-child {
           display: none;
         }
 
-        body:has(main[data-homepage]) footer ul > :not([hidden]) ~ :not([hidden]) {
-          margin-top: 0.25rem;
+        body:has(main[data-homepage]) footer ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem 1rem;
         }
 
-        body:has(main[data-homepage]) footer > div > div:last-child {
-          margin-top: 1rem;
-          padding-top: 1rem;
+        body:has(main[data-homepage]) footer ul > :not([hidden]) ~ :not([hidden]) {
+          margin-top: 0;
         }
 
         @media (min-width: 768px) {
-          body:has(main[data-homepage]) footer {
-            background-color: #1f2937;
-          }
-
           body:has(main[data-homepage]) footer > div {
-            padding-top: 0.875rem;
-            padding-bottom: 0.875rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
           }
 
-          body:has(main[data-homepage]) footer h3 {
-            font-size: 1rem;
+          body:has(main[data-homepage]) footer > div > div:first-child {
+            display: flex;
+            justify-content: center;
           }
         }
       `}</style>
