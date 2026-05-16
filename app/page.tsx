@@ -82,7 +82,7 @@ export default function Page() {
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">No signup required</span>
       </div>
 
-      <section className="grid gap-4 mb-10">
+      <section className="grid gap-4 mb-10 md:grid-cols-2">
         <a
           href="/west-yorkshire/support-worker"
           className="block rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:bg-blue-50"
