@@ -30,18 +30,18 @@ function FeaturedJobCard({
   sliceUrl: string;
 }) {
   return (
-    <article className="rounded-xl border border-gray-200 p-5">
+    <article className="rounded-xl border border-gray-200 p-4">
       <p className="text-sm font-medium text-gray-500 mb-2">{region}</p>
 
-      <h3 className="text-xl font-semibold mb-1">{job.title}</h3>
+      <h3 className="text-lg font-semibold mb-1">{job.title}</h3>
 
-      <p className="text-gray-600 mb-2">
+      <p className="text-sm text-gray-600 mb-2">
         {job.company} • {job.location}
       </p>
 
       {job.salary_text && <p className="font-semibold mb-3">{stripHtml(job.salary_text)}</p>}
 
-      <p className="text-gray-700 mb-4">{getSummary(job)}</p>
+      <p className="text-sm text-gray-700 mb-4">{getSummary(job)}</p>
 
       <a
         href={sliceUrl}
@@ -58,14 +58,16 @@ export default function Page() {
   const southJob = southYorkshireJobs[0];
 
   return (
-    <main className="mx-auto max-w-4xl px-6 py-10">
-      <h1 className="text-4xl font-bold tracking-tight mb-4">Yorkshire Support Worker Jobs</h1>
+    <main className="mx-auto max-w-6xl px-6 py-10">
+      <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-4">
+        Yorkshire Support Worker Jobs
+      </h1>
 
-      <p className="text-lg text-gray-700 mb-3">
+      <p className="max-w-3xl text-lg text-gray-700 mb-3">
         Live support worker roles across West and South Yorkshire.
       </p>
 
-      <p className="text-sm text-gray-600 mb-4">
+      <p className="max-w-3xl text-sm text-gray-600 mb-4">
         Updated daily • Apply directly on employer websites • No signup required
       </p>
       <div className="flex flex-wrap gap-2 mb-6 text-sm">
@@ -113,7 +115,7 @@ export default function Page() {
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">Latest live roles</h2>
 
-        <div className="grid gap-4">
+        <div className="grid gap-4 md:grid-cols-2">
           <FeaturedJobCard
             job={westJob}
             region="West Yorkshire"
