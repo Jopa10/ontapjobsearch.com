@@ -114,6 +114,10 @@ export default function Page() {
         }
 
         @media (min-width: 768px) {
+          body:has(main[data-homepage]) footer {
+            margin-top: 5rem;
+          }
+
           body:has(main[data-homepage]) footer > div {
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
