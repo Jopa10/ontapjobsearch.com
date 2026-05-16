@@ -9,9 +9,13 @@ type Job = {
   apply_url?: string;
 };
 
+function cleanMojibakeCurrency(text: string) {
+  return text.replaceAll('Â£', '£');
+}
+
 function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
   return (
-    <article className="rounded-lg border border-gray-200 bg-white p-2.5 leading-tight">
+    <article className="rounded-lg border border-gray-200 bg-white p-2 leading-tight">
       <h3 className="mb-0.5 text-sm font-semibold leading-snug">{job.title}</h3>
 
       <p className="mb-1 text-xs leading-snug text-gray-600">
@@ -19,7 +23,9 @@ function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
       </p>
 
       {job.salary_text && (
-        <p className="mb-1.5 text-xs font-semibold leading-snug">{job.salary_text}</p>
+        <p className="mb-1 text-xs font-semibold leading-snug">
+          {cleanMojibakeCurrency(job.salary_text)}
+        </p>
       )}
 
       <a href={sliceUrl} className="text-xs font-medium text-blue-700 hover:text-blue-900">
@@ -43,10 +49,10 @@ function RegionBlock({
   jobs: Job[];
 }) {
   return (
-    <section className="rounded-xl border border-gray-200 p-3 hover:border-blue-300 hover:bg-blue-50">
+    <section className="rounded-xl border border-gray-200 p-2.5 hover:border-blue-300 hover:bg-blue-50">
       <h2 className="mb-1 text-lg font-semibold leading-tight">{title}</h2>
 
-      <p className="mb-3 text-sm leading-snug text-gray-600">{intro}</p>
+      <p className="mb-2 text-sm leading-snug text-gray-600">{intro}</p>
 
       <a
         href={sliceUrl}
@@ -55,7 +61,7 @@ function RegionBlock({
         {ctaText}
       </a>
 
-      <div className="mt-3 grid gap-2">
+      <div className="mt-2 grid gap-1.5">
         {jobs.slice(0, 2).map((job) => (
           <MiniJobCard
             key={`${job.title}-${job.company}-${job.location}`}
@@ -70,19 +76,19 @@ function RegionBlock({
 
 export default function Page() {
   return (
-    <main className="mx-auto max-w-6xl px-6 py-8">
-      <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-4">
+    <main className="mx-auto max-w-6xl px-6 py-5">
+      <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-2">
         Yorkshire Support Worker Jobs
       </h1>
 
-      <p className="max-w-3xl text-lg text-gray-700 mb-3">
+      <p className="max-w-3xl text-lg text-gray-700 mb-2">
         Live support worker roles across West and South Yorkshire.
       </p>
 
-      <p className="max-w-3xl text-sm text-gray-600 mb-4">
+      <p className="max-w-3xl text-sm text-gray-600 mb-2">
         Updated daily • Apply directly on employer websites • No signup required
       </p>
-      <div className="flex flex-wrap gap-2 mb-4 text-sm">
+      <div className="mb-3 flex flex-wrap gap-1.5 text-sm">
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">Updated daily</span>
 
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
