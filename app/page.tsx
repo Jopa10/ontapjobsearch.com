@@ -22,26 +22,26 @@ const getSummary = (job: Job) => job.summary || stripHtml(job.description).slice
 
 function FeaturedJobCard({
   job,
-  region,
+  label,
   sliceUrl,
 }: {
   job: Job;
-  region: string;
+  label: string;
   sliceUrl: string;
 }) {
   return (
-    <article className="rounded-xl border border-gray-200 p-4">
-      <p className="text-sm font-medium text-gray-500 mb-2">{region}</p>
+    <article className="rounded-xl border border-gray-200 p-4 md:p-3">
+      <h3 className="text-sm font-semibold text-gray-500 mb-2">{label}</h3>
 
-      <h3 className="text-lg font-semibold mb-1">{job.title}</h3>
+      <h4 className="text-lg font-semibold mb-1">{job.title}</h4>
 
       <p className="text-sm text-gray-600 mb-2">
         {job.company} • {job.location}
       </p>
 
-      {job.salary_text && <p className="font-semibold mb-3">{stripHtml(job.salary_text)}</p>}
+      {job.salary_text && <p className="font-semibold mb-2">{stripHtml(job.salary_text)}</p>}
 
-      <p className="text-sm text-gray-700 mb-4">{getSummary(job)}</p>
+      <p className="text-sm text-gray-700 mb-3">{getSummary(job)}</p>
 
       <a
         href={sliceUrl}
@@ -58,7 +58,7 @@ export default function Page() {
   const southJob = southYorkshireJobs[0];
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-10">
+    <main className="mx-auto max-w-6xl px-6 py-8">
       <h1 className="max-w-3xl text-4xl font-bold tracking-tight mb-4">
         Yorkshire Support Worker Jobs
       </h1>
@@ -70,7 +70,7 @@ export default function Page() {
       <p className="max-w-3xl text-sm text-gray-600 mb-4">
         Updated daily • Apply directly on employer websites • No signup required
       </p>
-      <div className="flex flex-wrap gap-2 mb-6 text-sm">
+      <div className="flex flex-wrap gap-2 mb-4 text-sm">
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">Updated daily</span>
 
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">
@@ -84,10 +84,10 @@ export default function Page() {
         <span className="rounded-full bg-gray-100 px-3 py-1 text-gray-700">No signup required</span>
       </div>
 
-      <section className="grid gap-4 mb-10 md:grid-cols-2">
+      <section className="grid gap-4 mb-6 md:mb-5 md:grid-cols-2">
         <a
           href="/west-yorkshire/support-worker"
-          className="block rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:bg-blue-50"
+          className="block rounded-xl border border-gray-200 p-4 hover:border-blue-300 hover:bg-blue-50"
         >
           <h2 className="text-xl font-semibold mb-1">West Yorkshire Support Worker Jobs</h2>
           <p className="text-gray-600 mb-4">
@@ -100,7 +100,7 @@ export default function Page() {
 
         <a
           href="/south-yorkshire/support-worker"
-          className="block rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:bg-blue-50"
+          className="block rounded-xl border border-gray-200 p-4 hover:border-blue-300 hover:bg-blue-50"
         >
           <h2 className="text-xl font-semibold mb-1">South Yorkshire Support Worker Jobs</h2>
           <p className="text-gray-600 mb-4">
@@ -112,19 +112,19 @@ export default function Page() {
         </a>
       </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-bold mb-4">Latest live roles</h2>
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold mb-3">Latest role previews by area</h2>
 
         <div className="grid gap-4 md:grid-cols-2">
           <FeaturedJobCard
             job={westJob}
-            region="West Yorkshire"
+            label="Latest West Yorkshire role"
             sliceUrl="/west-yorkshire/support-worker"
           />
 
           <FeaturedJobCard
             job={southJob}
-            region="South Yorkshire"
+            label="Latest South Yorkshire role"
             sliceUrl="/south-yorkshire/support-worker"
           />
         </div>
