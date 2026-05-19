@@ -37,7 +37,17 @@ type JobSlicePageProps = {
 
 function readJobsJson(jsonPath: string[], region: string): JobRow[] {
   const filePath = path.join(process.cwd(), ...jsonPath);
-  const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+  if (!fs.existsSync(filePath)) return [];
+
+  let parsed: any;
+  try {
+    parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return [];
+  }
+
+  if (!Array.isArray(parsed) || parsed.length === 0) return [];
 
   return parsed.map((r: any) => ({
     job_id: r.job_id || r["/Job/DisplayReference"] || "",
@@ -268,6 +278,20 @@ export default function JobSlicePage({
           </div>
 
           <div style={{ display: "grid", gap: 10 }}>
+            {jobs.length === 0 ? (
+              <div
+                style={{
+                  border: "1px solid #dbe3ee",
+                  borderRadius: 12,
+                  padding: "14px 16px",
+                  background: "#fff",
+                  color: "#555",
+                }}
+              >
+                No current jobs available for this slice
+              </div>
+            ) : null}
+
             {jobs.map((j, idx) => {
               const summary = getSummary(j);
               const fullDescription = getFullDescription(j);
