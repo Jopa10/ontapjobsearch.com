@@ -27,12 +27,23 @@ type JobRow = {
   source: string;
 };
 
+type TrainingItem = {
+  title: string;
+  provider: string;
+  description: string;
+  link: string;
+};
+
 type JobSlicePageProps = {
   jsonPath: string[];
   region: string;
   title: string;
   latestUpdate: string;
   anchorTown?: string;
+  introText?: string;
+  trainingHeading?: string;
+  trainingSubheading?: string;
+  trainingItems?: TrainingItem[];
 };
 
 function readJobsJson(jsonPath: string[], region: string): JobRow[] {
@@ -130,8 +141,8 @@ function stripHtml(html: string) {
       .replace(/<\/ol>/gi, "\n")
       .replace(/<\/li>/gi, "\n")
       .replace(/<li[^>]*>/gi, "• ")
-    .replace(/<[^>]+>/g, "")
-.replace(/\n{2,}/g, "\n\n")
+      .replace(/<[^>]+>/g, "")
+      .replace(/\n{2,}/g, "\n\n")
   );
 }
 
@@ -157,13 +168,16 @@ function getSummary(job: JobRow) {
   const fallbackSource = stripHtml(job.full_description || job.description || "");
   if (!fallbackSource) return "";
 
- let fallbackSummary = fallbackSource.split(/(?<=[.?!])\s+/).slice(0,2).join(' ').trim();
+  let fallbackSummary = fallbackSource
+    .split(/(?<=[.?!])\s+/)
+    .slice(0, 2)
+    .join(" ")
+    .trim();
 
-// hard clean
-fallbackSummary = fallbackSummary.replace(/[\s\n]+/g, ' ');
-fallbackSummary = fallbackSummary.replace(/[^a-zA-Z0-9\.\)\]]+$/g, '');
+  fallbackSummary = fallbackSummary.replace(/[\s\n]+/g, " ");
+  fallbackSummary = fallbackSummary.replace(/[^a-zA-Z0-9\.\)\]]+$/g, "");
 
-return fallbackSummary;
+  return fallbackSummary;
 }
 
 function getFullDescription(job: JobRow) {
@@ -176,7 +190,7 @@ function getFullDescription(job: JobRow) {
   return removeDuplicateStart(cleanedDescription, summary);
 }
 
-const training = [
+const careTraining: TrainingItem[] = [
   {
     title: "Care Certificate Online Course",
     provider: "SCIE",
@@ -213,8 +227,13 @@ export default function JobSlicePage({
   title,
   latestUpdate,
   anchorTown,
+  introText,
+  trainingHeading,
+  trainingSubheading,
+  trainingItems,
 }: JobSlicePageProps) {
   const jobs = readJobsJson(jsonPath, region);
+  const sidebarItems = trainingItems || careTraining;
 
   return (
     <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
@@ -228,15 +247,16 @@ export default function JobSlicePage({
       >
         <aside style={{ alignSelf: "start", position: "sticky", top: 24 }}>
           <div style={{ fontWeight: 800, marginBottom: 6 }}>
-            Get started faster
+            {trainingHeading || "Get started faster"}
           </div>
 
           <p style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
-            Useful online courses commonly requested in care and support roles
+            {trainingSubheading ||
+              "Useful online courses commonly requested in care and support roles"}
           </p>
 
           <div style={{ display: "grid", gap: 8 }}>
-            {training.map((item, idx) => (
+            {sidebarItems.map((item, idx) => (
               <div
                 key={idx}
                 style={{
@@ -246,12 +266,8 @@ export default function JobSlicePage({
                   background: "#f9fafb",
                 }}
               >
-                <div style={{ fontWeight: 700, fontSize: 14 }}>
-                  {item.title}
-                </div>
-                <div style={{ fontSize: 12, color: "#666" }}>
-                  {item.provider}
-                </div>
+                <div style={{ fontWeight: 700, fontSize: 14 }}>{item.title}</div>
+                <div style={{ fontSize: 12, color: "#666" }}>{item.provider}</div>
                 <div style={{ fontSize: 12, color: "#666", margin: "6px 0" }}>
                   {item.description}
                 </div>
@@ -272,8 +288,8 @@ export default function JobSlicePage({
             </h1>
 
             <p style={{ color: "#6b7280", fontSize: 14 }}>
-              Updated daily • Latest update: {latestUpdate} • Roles across{" "}
-              {region} • Apply on employer sites
+              {introText ||
+                `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
             </p>
           </div>
 
@@ -306,9 +322,7 @@ export default function JobSlicePage({
                     background: "#fff",
                   }}
                 >
-                  <div style={{ fontWeight: 800, fontSize: 16 }}>
-                    {j.title}
-                  </div>
+                  <div style={{ fontWeight: 800, fontSize: 16 }}>{j.title}</div>
 
                   <div style={{ fontSize: 13, color: "#555", marginBottom: 4 }}>
                     {j.company} • {j.location}
@@ -338,7 +352,7 @@ export default function JobSlicePage({
                         fontSize: 13,
                         color: "#666",
                         marginBottom: 8,
-                     lineHeight: 1.5,
+                        lineHeight: 1.5,
                       }}
                     >
                       {summary}
@@ -385,6 +399,3 @@ export default function JobSlicePage({
     </main>
   );
 }
-
-
-
