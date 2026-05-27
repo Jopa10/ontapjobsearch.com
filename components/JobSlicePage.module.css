@@ -1,0 +1,29 @@
+.layout {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  column-gap: 20px;
+  align-items: start;
+}
+
+.sidebar {
+  align-self: start;
+  position: sticky;
+  top: 24px;
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 20px;
+  }
+
+  .content {
+    order: 1;
+  }
+
+  .sidebar {
+    order: 2;
+    position: static;
+    top: auto;
+  }
+}
