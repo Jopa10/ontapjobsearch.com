@@ -146,48 +146,41 @@ function stripHtml(html: string) {
   );
 }
 
-function removeDuplicateStart(full: string, summary: string) {
-  const fullText = cleanText(full);
-  const summaryText = cleanText(summary);
+function truncateAtWord(value: string, maxChars: number) {
+  if (value.length <= maxChars) return value;
 
-  if (!fullText) return "";
-  if (!summaryText) return fullText;
-
-  if (summaryText.length < 120 && fullText.startsWith(summaryText)) {
-    const stripped = fullText.slice(summaryText.length).trimStart();
-    return stripped || fullText;
-  }
-
-  return fullText;
+  const clipped = value.slice(0, maxChars);
+  const wordBoundary = clipped.lastIndexOf(" ");
+  const safeClip = (wordBoundary > 0 ? clipped.slice(0, wordBoundary) : clipped).trim();
+  return `${safeClip}…`;
 }
 
 function getSummary(job: JobRow) {
-  const summary = cleanText(job.summary);
-  if (summary) return summary;
-
+  const summarySource = cleanText(job.summary);
   const fallbackSource = stripHtml(job.full_description || job.description || "");
-  if (!fallbackSource) return "";
+  const baseSource = summarySource || fallbackSource;
+  if (!baseSource) return "";
 
-  let fallbackSummary = fallbackSource
-    .split(/(?<=[.?!])\s+/)
-    .slice(0, 2)
-    .join(" ")
-    .trim();
+  const collapsed = baseSource.replace(/\s+/g, " ").trim();
+  if (!collapsed) return "";
 
-  fallbackSummary = fallbackSummary.replace(/[\s\n]+/g, " ");
-  fallbackSummary = fallbackSummary.replace(/[^a-zA-Z0-9\.\)\]]+$/g, "");
+  const sentenceParts = collapsed.split(/(?<=[.!?])\s+/);
+  const firstSentence = sentenceParts[0]?.trim() || "";
 
-  return fallbackSummary;
+  if (firstSentence && firstSentence.length <= 220) {
+    return firstSentence;
+  }
+
+  return truncateAtWord(collapsed, 220);
 }
 
 function getFullDescription(job: JobRow) {
   const source = job.full_description || job.description || "";
   const cleanedDescription = stripHtml(source);
-  const summary = getSummary(job);
 
   if (!cleanedDescription) return "";
 
-  return removeDuplicateStart(cleanedDescription, summary);
+  return cleanedDescription;
 }
 
 const careTraining: TrainingItem[] = [
