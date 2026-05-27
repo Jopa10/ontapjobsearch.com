@@ -135,7 +135,7 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
           </a>
 
           <div className="mt-2 grid gap-1.5">
-            {card.jobs.slice(0, 2).map((job) => (
+            {card.jobs.slice(0, 1).map((job) => (
               <MiniJobCard
                 key={`${card.sliceUrl}-${job.title}-${job.company}-${job.location}`}
                 job={job}
