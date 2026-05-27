@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import TrainingLink from "@/components/traininglink";
 import ApplyButton from "@/components/ApplyButton";
+import styles from "@/components/JobSlicePage.module.css";
 
 type JobRow = {
   job_id: string;
@@ -230,15 +231,8 @@ export default function JobSlicePage({
 
   return (
     <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "250px 1fr",
-          columnGap: 20,
-          alignItems: "start",
-        }}
-      >
-        <aside style={{ alignSelf: "start", position: "sticky", top: 24 }}>
+      <div className={styles.layout}>
+                <aside className={styles.sidebar}>
           <div style={{ fontWeight: 800, marginBottom: 6 }}>
             {trainingHeading || "Get started faster"}
           </div>
@@ -274,7 +268,7 @@ export default function JobSlicePage({
           </div>
         </aside>
 
-        <div>
+                <div className={styles.content}>
           <div style={{ marginBottom: 14 }}>
             <h1 style={{ fontSize: 28, fontWeight: 800, marginBottom: 6 }}>
               {title}
