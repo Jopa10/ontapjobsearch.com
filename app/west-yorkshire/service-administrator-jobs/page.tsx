@@ -38,7 +38,7 @@ export default function Page() {
       title="Service administrator jobs in West Yorkshire"
       latestUpdate="Checked Wed 27th May, AM"
       anchorTown="Leeds"
-      introText="Updated daily • Latest update: Checked Wed 27th May, AM • Service administrator, customer service administrator, office support and admin roles across West Yorkshire • Apply on employer sites"
+      introText="Updated daily • Latest update: Checked Thu 28th May, AM • Service administrator, customer service administrator, office support and admin roles across West Yorkshire • Apply on employer sites"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
