@@ -6,7 +6,7 @@ export const jobPageStatus = {
     "west-yorkshire/support-worker": "Checked",
     "south-yorkshire/support-worker": "Checked",
     "west-yorkshire/service-administrator-jobs": "",
-    "south-yorkshire/service-administrator-jobs": "",
+    "south-yorkshire/service-administrator-jobs": "checked",
   },
 };
 
