@@ -1,4 +1,7 @@
 import JobSlicePage from "@/components/JobSlicePage";
+import { getJobPageStatus } from "@/config/job-page-status";
+
+const routeKey = "west-yorkshire/support-worker";
 
 export default function Page() {
   return (
@@ -6,7 +9,7 @@ export default function Page() {
       jsonPath={["app", "west-yorkshire", "support-worker.json"]}
       region="West Yorkshire"
       title="West Yorkshire Support Worker Roles"
-      latestUpdate="Checked Fri 29th May, AM"
+      latestUpdate={getJobPageStatus(routeKey)}
       anchorTown="Leeds"
     />
   );
