@@ -2,16 +2,19 @@ export const jobPageStatus = {
   defaultStatus: "Updated",
   defaultDate: "Fri 29th May, AM",
 
-  checkedRoutes: [
-    "west-yorkshire/support-worker",
-    "south-yorkshire/support-worker",
-  ],
+  routeStatus: {
+    "west-yorkshire/support-worker": "Checked",
+    "south-yorkshire/support-worker": "Checked",
+    "west-yorkshire/service-administrator-jobs": "",
+    "south-yorkshire/service-administrator-jobs": "",
+  },
 };
 
 export function getJobPageStatus(routeKey: string) {
-  const status = jobPageStatus.checkedRoutes.includes(routeKey)
-    ? "Checked"
-    : jobPageStatus.defaultStatus;
+  const routeStatus =
+    jobPageStatus.routeStatus[routeKey as keyof typeof jobPageStatus.routeStatus];
+
+  const status = routeStatus || jobPageStatus.defaultStatus;
 
   return `${status} ${jobPageStatus.defaultDate}`;
 }
