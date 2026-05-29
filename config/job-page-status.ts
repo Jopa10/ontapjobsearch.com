@@ -3,7 +3,7 @@ export const jobPageStatus = {
   defaultDate: "Fri 29th May, AM",
 
   routeStatus: {
-    "west-yorkshire/support-worker": "",
+    "west-yorkshire/support-worker": "Checked",
     "south-yorkshire/support-worker": "Checked",
     "west-yorkshire/service-administrator-jobs": "",
     "south-yorkshire/service-administrator-jobs": "",
