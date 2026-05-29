@@ -36,7 +36,7 @@ export default function Page() {
       jsonPath={["app", "south-yorkshire", "service-administrator-jobs.json"]}
       region="South Yorkshire"
       title="Service administrator jobs in South Yorkshire"
-      latestUpdate="Checked Thu 28th May, AM"
+      latestUpdate="Updated 29th May, AM"
       anchorTown="Sheffield"
       introText="Updated daily • Latest update: Checked Wed 27th May, AM • Service administrator, customer service administrator, office support and admin roles across South Yorkshire • Apply on employer sites"
       trainingHeading="Boost your admin applications"
