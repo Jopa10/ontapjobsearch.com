@@ -37,6 +37,7 @@ jobs:
           --month "${{ inputs.month }}"
           --input-dir "${{ inputs.input_dir }}"
           --output-dir output-profiler
+          --geo-lookup geo/lookup.xlsx
 
       - name: Upload profiler output
         if: always()

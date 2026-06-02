@@ -341,7 +341,7 @@ class GeoMapper:
         return self.classify_with_context(location)[0]
 
 
-def find_default_geo_lookup(base_dir: Path) -> Optional[Path]:
+def find_default_geo_lookup(base_dir: Path) -> Path:
     script_path = Path(__file__).resolve()
     pipeline_dir = script_path.parents[1]
     candidates = [
@@ -353,24 +353,41 @@ def find_default_geo_lookup(base_dir: Path) -> Optional[Path]:
     ]
     for candidate in candidates:
         if candidate.exists():
-            return candidate
-    return None
+            return candidate.resolve()
+
+    # Return the intended repository default even when it is missing so the run
+    # log can show the exact path checked before falling back to keyword rules.
+    return candidates[0].resolve()
 
 
-def resolve_geo_lookup_arg(geo_lookup: Optional[Path]) -> Optional[Path]:
+def resolve_geo_lookup_arg(geo_lookup: Optional[Path]) -> Path:
     if geo_lookup is None:
         return find_default_geo_lookup(Path.cwd())
 
-    if geo_lookup.is_absolute() or geo_lookup.exists():
-        return geo_lookup
+    if geo_lookup.is_absolute():
+        return geo_lookup.resolve()
+
+    # First honour paths relative to the current working directory. The GitHub
+    # Actions job runs from pipeline/, so --geo-lookup geo/lookup.xlsx resolves
+    # here.
+    cwd_relative = (Path.cwd() / geo_lookup).resolve()
+    if cwd_relative.exists():
+        return cwd_relative
 
     script_path = Path(__file__).resolve()
     repo_root = script_path.parents[2]
-    repo_relative = repo_root / geo_lookup
+    repo_relative = (repo_root / geo_lookup).resolve()
     if repo_relative.exists():
         return repo_relative
 
-    return geo_lookup
+    pipeline_dir = script_path.parents[1]
+    pipeline_relative = (pipeline_dir / geo_lookup).resolve()
+    if pipeline_relative.exists():
+        return pipeline_relative
+
+    # Return the cwd-relative path for transparent diagnostics if none of the
+    # supported locations exists.
+    return cwd_relative
 
 
 # -----------------------------
@@ -1159,9 +1176,9 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     errors = []
 
     geo_lookup = resolve_geo_lookup_arg(geo_lookup)
+    geo_lookup_exists = geo_lookup.exists()
 
     geo_mapper = GeoMapper(geo_lookup)
-    geo_lookup_label = str(geo_lookup) if geo_lookup else "not found"
     geo_lookup_status = "loaded" if geo_mapper.lookup_loaded else "not loaded"
     fallback_status = "yes" if geo_mapper.fallback_keywords_enabled else "no"
 
@@ -1218,7 +1235,9 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"Files found: {len(files)}",
         f"Files read successfully: {len(frames)}",
         f"Total rows profiled: {len(all_jobs)}",
-        f"Geo lookup: {geo_lookup_label}",
+        f"Current working directory: {Path.cwd().resolve()}",
+        f"Resolved geo lookup path: {geo_lookup}",
+        f"Geo lookup file exists: {'yes' if geo_lookup_exists else 'no'}",
         f"Geo lookup status: {geo_lookup_status}",
         f"Geo lookup rows loaded: {geo_mapper.lookup_rows_loaded}",
         f"Fallback keyword rules used: {fallback_status}",
@@ -1270,6 +1289,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--geo-lookup",
+        "--geo-path",
+        dest="geo_lookup",
         default=None,
         help="Optional geo lookup Excel file. Default: pipeline/geo/lookup.xlsx in this repository.",
     )
