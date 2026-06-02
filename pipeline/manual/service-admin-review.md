@@ -10,7 +10,7 @@ Edit only the `action:` line in each block:
 ## WEST YORKSHIRE — SELECTED
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Wetherby | £35000 per year | Financial Planning Administrator
 job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
 ---
@@ -84,7 +84,7 @@ job_id: 107417429
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
 job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
 ---
