@@ -23,22 +23,65 @@ jobs:
       - name: Install Python packages
         run: python -m pip install --upgrade pip pandas openpyxl
 
+      - name: Check manual decision report
+        id: manual-report
+        run: |
+          set -euo pipefail
+          report_path="pipeline/manual/decision-report-admin-service.csv"
+          if [ -f "$report_path" ]; then
+            echo "Manual decision report exists: yes"
+            echo "exists_before=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "Manual decision report exists: no"
+            echo "exists_before=no" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run service-admin pipeline
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
 
       - name: Commit starter manual decision report
+        env:
+          MANUAL_REPORT_EXISTS_BEFORE: ${{ steps.manual-report.outputs.exists_before }}
         run: |
-          if [ -z "$(git status --porcelain -- pipeline/manual/decision-report-admin-service.csv)" ]; then
+          set -euo pipefail
+          report_path="pipeline/manual/decision-report-admin-service.csv"
+
+          if [ "$MANUAL_REPORT_EXISTS_BEFORE" = "yes" ]; then
+            echo "Existing manual report preserved: yes"
+            echo "Starter manual decision report committed: no"
+            exit 0
+          fi
+
+          echo "Existing manual report preserved: no"
+
+          if [ ! -f "$report_path" ]; then
+            echo "::warning::Service-admin pipeline did not create $report_path."
+            echo "Starter manual decision report committed: no"
+            exit 0
+          fi
+
+          if [ -z "$(git status --porcelain -- "$report_path")" ]; then
             echo "No starter manual decision report changes to commit."
+            echo "Starter manual decision report committed: no"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/manual/decision-report-admin-service.csv
+          git add -- "$report_path"
+
+          staged_files="$(git diff --cached --name-only)"
+          if [ "$staged_files" != "$report_path" ]; then
+            echo "::error::Refusing to commit files other than $report_path. Staged files:"
+            printf '%s\n' "$staged_files"
+            git reset --mixed
+            exit 1
+          fi
+
           git commit -m "Add starter service-admin manual decision report"
           git push
+          echo "Starter manual decision report committed: yes"
 
       - name: Upload service-admin output
         if: always()
