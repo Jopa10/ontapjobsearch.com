@@ -1,0 +1,33 @@
+name: Run service-admin pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-service-admin-pipeline:
+    name: Run service-admin pipeline
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Run service-admin pipeline
+        working-directory: pipeline
+        run: python -m scripts.service_admin_pipeline
+
+      - name: Upload service-admin output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: service-admin-output
+          path: pipeline/output-admin-service/
+          if-no-files-found: warn

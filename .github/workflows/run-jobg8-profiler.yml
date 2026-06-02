@@ -1,0 +1,47 @@
+name: Run JobG8 profiler
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: Month to profile in YYYY-MM format
+        required: true
+        type: string
+      input_dir:
+        description: Input folder under pipeline/ containing JobG8 files
+        required: false
+        default: input
+        type: string
+
+jobs:
+  run-jobg8-profiler:
+    name: Run JobG8 profiler
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Run JobG8 profiler
+        working-directory: pipeline
+        run: >-
+          python -m scripts.jobg8_profiler
+          --month "${{ inputs.month }}"
+          --input-dir "${{ inputs.input_dir }}"
+          --output-dir output-profiler
+
+      - name: Upload profiler output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-profiler-output
+          path: pipeline/output-profiler/
+          if-no-files-found: warn
