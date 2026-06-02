@@ -65,6 +65,21 @@ import pandas as pd
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-support-worker")
 DECISION_REPORT_PATH = OUTPUT_DIR / "decision-report-support-worker.csv"
+MANUAL_DIR = Path("manual")
+MANUAL_REVIEW_CSV_PATH = MANUAL_DIR / "support-worker-review.csv"
+MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "support-worker-review.md"
+# Backwards-compatible alias for older helper code.
+MANUAL_REVIEW_PATH = MANUAL_REVIEW_CSV_PATH
+MANUAL_REVIEW_FIELDNAMES = [
+    "decision",
+    "region",
+    "title",
+    "town",
+    "salary_text",
+    "manual_override",
+    "manual_select",
+    "job_id",
+]
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
 LOOKUP_FILE_KEYWORDS = ["lookup", "region", "town"]
@@ -893,76 +908,218 @@ def get_posted_date(row: pd.Series, df_columns: list[str]) -> str:
     return ""
 
 
-def load_manual_overrides() -> dict[str, str]:
+@dataclass
+class ManualDecisionState:
+    """Editorial decisions loaded from the human review markdown or legacy CSV."""
+
+    report_loaded: bool
+    rerun_mode: bool
+    overrides: dict[str, str]
+    selections: set[str]
+    previously_selected: set[str]
+    load_warning: str = ""
+    source: str = "none"
+    markdown_excludes_loaded: int = 0
+    markdown_selections_loaded: int = 0
+
+
+MANUAL_OVERRIDE_ALIASES = {
+    "FORCE_INCLUDE": "FORCE_INCLUDE",
+    "FORCE_EXCLUDE": "FORCE_EXCLUDE",
+    "EXCLUDE": "FORCE_EXCLUDE",
+}
+
+
+def _truthy_manual_marker(value: Any) -> bool:
+    return norm(value).strip().lower() in {"1", "yes", "y", "true"}
+
+
+def normalise_manual_override(value: Any) -> str:
+    """Return the internal manual_override token for a human-entered value."""
+    return MANUAL_OVERRIDE_ALIASES.get(norm(value).strip().upper(), "")
+
+
+def _parse_markdown_review_blocks(text: str) -> list[dict[str, str]]:
+    """Parse --- delimited key/value blocks from support-worker-review.md.
+
+    The compact review format keeps the editable ``action:`` field on one
+    line and puts the immutable job summary on the next line. Older expanded
+    key/value blocks are also accepted so existing action edits can be
+    preserved if the review file is regenerated.
     """
-    Read manual overrides from output-support-worker/decision-report-support-worker.csv if it already exists.
+    blocks: list[dict[str, str]] = []
+    current: dict[str, str] | None = None
+    last_key: str | None = None
 
-    Supported manual_override values:
-      FORCE_INCLUDE
-      FORCE_EXCLUDE
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if line == "---":
+            if current is not None and current:
+                blocks.append(current)
+                current = None
+            else:
+                current = {}
+            last_key = None
+            continue
 
-    Notes:
-    - First run normally has no manual_override values.
-    - After reviewing decision-report-support-worker.csv, add values in the manual_override column and rerun.
-    - FORCE_INCLUDE bypasses missing include-term filtering but does NOT bypass hard exclusions
-      such as driver, senior, manager, nurse, teacher, semh, or housing.
-    """
-    overrides: dict[str, str] = {}
+        if current is None or not line or line.startswith("#"):
+            continue
 
-    if not DECISION_REPORT_PATH.exists():
-        return overrides
+        key_match = re.match(r"^([A-Za-z_][A-Za-z0-9_ -]*):(.*)$", line)
+        if key_match:
+            key, value = key_match.groups()
+            last_key = key.strip().lower()
+            current[last_key] = value.strip()
+            continue
 
+        if last_key == "action":
+            current["summary"] = line
+
+    if current is not None and current:
+        blocks.append(current)
+
+    return blocks
+
+
+def _markdown_review_action_by_job_id(text: str) -> dict[str, str]:
+    """Return explicit Markdown review actions keyed by job_id."""
+    actions: dict[str, str] = {}
+    for block in _parse_markdown_review_blocks(text):
+        job_id = norm(block.get("job_id"))
+        action = norm(block.get("action")).strip().lower()
+        if job_id and action in {"exclude", "select"}:
+            actions[job_id] = action
+    return actions
+
+
+def load_manual_decisions_from_markdown() -> ManualDecisionState:
+    """Read manual rerun decisions from manual/support-worker-review.md."""
     try:
-        df = pd.read_csv(DECISION_REPORT_PATH, dtype=str).fillna("")
-    except Exception:
-        return overrides
+        text = MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
+    except Exception as exc:
+        return ManualDecisionState(
+            report_loaded=False,
+            rerun_mode=False,
+            overrides={},
+            selections=set(),
+            previously_selected=set(),
+            load_warning=f"support-worker review Markdown exists but could not be read: {exc}",
+            source="none",
+        )
 
-    if "manual_override" not in df.columns:
-        return overrides
+    overrides: dict[str, str] = {}
+    selections: set[str] = set()
+    previously_selected: set[str] = set()
 
-    for _, row in df.iterrows():
-        job_id = norm(row.get("job_id"))
-        override = norm(row.get("manual_override")).upper()
-
+    for block in _parse_markdown_review_blocks(text):
+        job_id = norm(block.get("job_id"))
         if not job_id:
             continue
 
-        if override in {"FORCE_INCLUDE", "FORCE_EXCLUDE"}:
-            overrides[job_id] = override
+        action = norm(block.get("action")).strip().lower()
+        if action == "exclude":
+            overrides[job_id] = "FORCE_EXCLUDE"
+        elif action == "select":
+            selections.add(job_id)
 
-    return overrides
+        decision = norm(block.get("decision")).upper()
+        summary_decision = norm(block.get("summary")).split("|", 1)[0].strip().upper()
+        if decision == "SELECTED" or summary_decision == "SELECTED":
+            previously_selected.add(job_id)
+
+    markdown_excludes = sum(1 for value in overrides.values() if value == "FORCE_EXCLUDE")
+    return ManualDecisionState(
+        report_loaded=True,
+        rerun_mode=True,
+        overrides=overrides,
+        selections=selections,
+        previously_selected=previously_selected,
+        source="markdown",
+        markdown_excludes_loaded=markdown_excludes,
+        markdown_selections_loaded=len(selections),
+    )
 
 
-def load_manual_selects() -> set[str]:
-    """
-    Read manual_select = 1 from output-support-worker/decision-report-support-worker.csv if it already exists.
-
-    V10 use:
-    - Only use this for Scenario 3 rows marked POSSIBLE_SELECTION.
-    - Keep manual_override for true FORCE_INCLUDE / FORCE_EXCLUDE exceptions.
-    """
-    selected: set[str] = set()
-
-    if not DECISION_REPORT_PATH.exists():
-        return selected
-
+def load_manual_decisions_from_csv() -> ManualDecisionState:
+    """Read manual rerun decisions from manual/support-worker-review.csv."""
     try:
-        df = pd.read_csv(DECISION_REPORT_PATH, dtype=str).fillna("")
-    except Exception:
-        return selected
+        df = pd.read_csv(MANUAL_REVIEW_CSV_PATH, dtype=str).fillna("")
+    except Exception as exc:
+        return ManualDecisionState(
+            report_loaded=False,
+            rerun_mode=False,
+            overrides={},
+            selections=set(),
+            previously_selected=set(),
+            load_warning=f"support-worker review CSV exists but could not be read: {exc}",
+            source="none",
+        )
 
-    if "manual_select" not in df.columns:
-        return selected
+    overrides: dict[str, str] = {}
+    selections: set[str] = set()
+    previously_selected: set[str] = set()
+
+    has_manual_override = "manual_override" in df.columns
+    has_manual_select = "manual_select" in df.columns
+    has_selection_status = "selection_status" in df.columns
+    has_decision = "decision" in df.columns
 
     for _, row in df.iterrows():
         job_id = norm(row.get("job_id"))
-        marker = norm(row.get("manual_select")).strip().lower()
+        if not job_id:
+            continue
 
-        if job_id and marker in {"1", "yes", "y", "true"}:
-            selected.add(job_id)
+        if has_manual_override:
+            override = normalise_manual_override(row.get("manual_override"))
+            if override:
+                overrides[job_id] = override
 
-    return selected
+        if has_manual_select and _truthy_manual_marker(row.get("manual_select")):
+            selections.add(job_id)
 
+        selection_status = norm(row.get("selection_status")).upper() if has_selection_status else ""
+        decision = norm(row.get("decision")).upper() if has_decision else ""
+        if selection_status == "SELECTED" or decision == "SELECTED":
+            previously_selected.add(job_id)
+
+    return ManualDecisionState(
+        report_loaded=True,
+        rerun_mode=True,
+        overrides=overrides,
+        selections=selections,
+        previously_selected=previously_selected,
+        source="csv",
+    )
+
+
+def load_manual_decisions() -> ManualDecisionState:
+    """Prefer GitHub-editable Markdown, falling back to the preview CSV."""
+    empty_state = ManualDecisionState(
+        report_loaded=False,
+        rerun_mode=False,
+        overrides={},
+        selections=set(),
+        previously_selected=set(),
+        source="none",
+    )
+
+    if MANUAL_REVIEW_MD_PATH.exists():
+        return load_manual_decisions_from_markdown()
+
+    if MANUAL_REVIEW_CSV_PATH.exists():
+        return load_manual_decisions_from_csv()
+
+    return empty_state
+
+
+def load_manual_overrides() -> dict[str, str]:
+    """Read supported manual_override values from the human review source."""
+    return load_manual_decisions().overrides
+
+
+def load_manual_selects() -> set[str]:
+    """Read manual_select = 1/yes/y/true from the human review source."""
+    return load_manual_decisions().selections
 
 
 def find_optional_input_file(keywords: list[str]) -> Path | None:
@@ -1219,6 +1376,8 @@ def process(
 def anchor_sort_and_cap(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
+    manual_rerun_mode: bool = False,
+    previously_selected_ids: set[str] | None = None,
 ) -> tuple[dict[str, list[dict[str, Any]]], dict[str, dict[str, Any]]]:
     """
     Support-worker V12_7 selection/report logic copied from working admin/service V2 pattern.
@@ -1226,12 +1385,15 @@ def anchor_sort_and_cap(
     Core behaviour:
     - Cap remains 12 per region.
     - FORCE_EXCLUDE removes bad rows earlier in process().
-    - manual_select = 1 promotes a credible row into the selected set before routine ranking,
-      making swaps practical after FORCE_EXCLUDE has removed an unwanted selected row.
+    - In manual rerun mode, previously SELECTED rows and manual_select = 1 rows are
+      the editorial selection set; routine cap-filling/backfill is disabled.
+    - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
+      selected set before routine ranking.
     - POSS rows are shown as the next credible swap/review candidates even when the slice is full.
     """
     final_outputs: dict[str, list[dict[str, Any]]] = {}
     selected_ids: set[str] = set()
+    previously_selected_ids = previously_selected_ids or set()
     possible_selection_ids: dict[str, int] = {}
     region_status: dict[str, dict[str, Any]] = {}
 
@@ -1296,6 +1458,10 @@ def anchor_sort_and_cap(
             [item for item in routine if str(item.get("_manual_select", "")).strip() == "1"],
             key=routine_sort_key,
         )
+        previously_selected = sorted(
+            [item for item in routine if str(item.get("job_id", "")) in previously_selected_ids],
+            key=routine_sort_key,
+        )
 
         selected: list[dict[str, Any]] = []
         seen: set[str] = set()
@@ -1312,42 +1478,55 @@ def anchor_sort_and_cap(
         credible_total = len(forced + hc + anchor_elastic + other_elastic)
         base_without_manual = len(forced) + len(hc) + len(anchor_elastic)
 
-        # V2: manual_select rows are deliberate editorial choices, so add them before routine fill.
-        add_candidates(forced, cap)
-        add_candidates(manually_selected, cap)
-        add_candidates(hc, cap)
-        add_candidates(anchor_elastic, cap)
-        add_candidates(other_elastic, cap)
-
-        if credible_total < threshold:
-            scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
+        if manual_rerun_mode:
+            # Editorial reruns preserve the reviewed selected set and only add explicit
+            # manual_select rows. Do not refill to the cap from routine HC/elastic pools.
+            add_candidates(forced, cap)
+            add_candidates(previously_selected, cap)
+            add_candidates(manually_selected, cap)
+            scenario = "SCENARIO_MANUAL_RERUN"
             message = (
-                f"{region} selection below publish threshold: {credible_total}/{threshold} credible roles. "
-                "Do not publish/refresh this slice from this run."
+                f"{region} manual rerun: {len(previously_selected)} previously SELECTED row(s) retained "
+                f"and {len(manually_selected)} manual_select row(s) applied; "
+                f"{min(len(selected), cap)}/{cap} selected. Cap treated as a maximum; auto backfill disabled."
             )
-        elif manually_selected:
-            scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
-            message = (
-                f"{region} manual_select applied: {len(manually_selected)} row(s) prioritised; "
-                f"{min(len(selected), cap)}/{cap} selected."
-            )
-        elif len(forced) + len(hc) >= cap:
-            scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
-            message = (
-                f"{region} selection complete: HIGH_CONFIDENCE roles meet/exceed cap; "
-                f"{anchor} HC roles protected before cap."
-            )
-        elif base_without_manual >= cap:
-            scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
-            message = f"{region} selection complete: HIGH_CONFIDENCE plus {anchor} ELASTIC_FIT fills cap."
         else:
-            needed = max(cap - base_without_manual, 0)
-            scenario = "SCENARIO_3_ACTION_REQUIRED"
-            message = (
-                f"{region} selection incomplete: {base_without_manual}/{cap} selected after HIGH_CONFIDENCE + "
-                f"{anchor} ELASTIC_FIT. {needed} slots remain. Review POSS candidates; "
-                "put 1 in manual_select for chosen rows and rerun."
-            )
+            # V2: manual_select rows are deliberate editorial choices, so add them before routine fill.
+            add_candidates(forced, cap)
+            add_candidates(manually_selected, cap)
+            add_candidates(hc, cap)
+            add_candidates(anchor_elastic, cap)
+            add_candidates(other_elastic, cap)
+
+            if credible_total < threshold:
+                scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
+                message = (
+                    f"{region} selection below publish threshold: {credible_total}/{threshold} credible roles. "
+                    "Do not publish/refresh this slice from this run."
+                )
+            elif manually_selected:
+                scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
+                message = (
+                    f"{region} manual_select applied: {len(manually_selected)} row(s) prioritised; "
+                    f"{min(len(selected), cap)}/{cap} selected."
+                )
+            elif len(forced) + len(hc) >= cap:
+                scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
+                message = (
+                    f"{region} selection complete: HIGH_CONFIDENCE roles meet/exceed cap; "
+                    f"{anchor} HC roles protected before cap."
+                )
+            elif base_without_manual >= cap:
+                scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
+                message = f"{region} selection complete: HIGH_CONFIDENCE plus {anchor} ELASTIC_FIT fills cap."
+            else:
+                needed = max(cap - base_without_manual, 0)
+                scenario = "SCENARIO_3_ACTION_REQUIRED"
+                message = (
+                    f"{region} selection incomplete: {base_without_manual}/{cap} selected after HIGH_CONFIDENCE + "
+                    f"{anchor} ELASTIC_FIT. {needed} slots remain. Review POSS candidates; "
+                    "put 1 in manual_select for chosen rows and rerun."
+                )
 
         capped_selected = selected[:cap]
         selected_for_region = {str(item.get("job_id", "")) for item in capped_selected}
@@ -1479,69 +1658,8 @@ def write_selection_summary_report(
         writer.writeheader()
         writer.writerows(rows)
 
-def write_outputs(outputs: dict[str, list[dict[str, Any]]], report_rows: list[dict[str, Any]], total_input: int) -> None:
-    OUTPUT_DIR.mkdir(exist_ok=True)
-
-    # IMPORTANT: cap first, then write JSON and validation counts from the capped output.
-    outputs, region_status = anchor_sort_and_cap(outputs, report_rows)
-
-    for region, filename in OUTPUT_FILES.items():
-        path = OUTPUT_DIR / filename
-        payload = [clean_for_json(item) for item in outputs[region]]
-
-        # HARD STOP: do not write user-facing JSON if encoding garbage remains.
-        payload_text = json.dumps(payload, ensure_ascii=False)
-        bad_markers = ["Â£", "Â", "â€“", "â€”", "â€", "Ã", "â?", "�", "“¢", "\"¢"]
-        remaining = [marker for marker in bad_markers if marker in payload_text]
-        if remaining:
-            raise SystemExit(
-                "STOP: encoding garbage still present in JSON payload for "
-                f"{region}: {', '.join(remaining)}"
-            )
-
-        with path.open("w", encoding="utf-8") as f:
-            json.dump(payload, f, ensure_ascii=False, indent=2)
-
-    # Clean report rows after over-cap adjustment.
-    report_rows = [clean_record_strings(row) for row in report_rows]
-
-    # Compact daily selection dashboard.
-    write_selection_summary_report(report_rows, region_status)
-
-    # Short summary report
-    report_path = OUTPUT_DIR / "validation-report-support-worker.csv"
-    dropped_count = sum(
-        1 for r in report_rows
-        if r["decision"] == "DROPPED" or str(r["decision"]).startswith("POSS - ")
-    )
-    included_count = sum(1 for r in report_rows if r["decision"] == "SELECTED")
-
-    with report_path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["metric", "value"])
-        writer.writeheader()
-        writer.writerow({"metric": "total rows input", "value": total_input})
-        writer.writerow({"metric": "total rows included", "value": included_count})
-        writer.writerow({"metric": "total rows dropped", "value": dropped_count})
-        for classification in ["HIGH_CONFIDENCE", "ELASTIC_FIT", "REVIEW_CONTEXT_DEPENDENT", "HARD_PASS", "OUT_OF_SCOPE"]:
-            writer.writerow({
-                "metric": f"title classification count - {classification}",
-                "value": sum(1 for r in report_rows if r.get("title_classification") == classification),
-            })
-        for region in OUTPUT_FILES:
-            status = region_status.get(region, {})
-            writer.writerow({"metric": f"selection scenario - {region}", "value": status.get("scenario", "")})
-            writer.writerow({"metric": f"selection message - {region}", "value": status.get("message", "")})
-            writer.writerow({"metric": f"credible total - {region}", "value": status.get("credible_total", "")})
-            writer.writerow({"metric": f"high confidence count - {region}", "value": status.get("high_confidence_count", "")})
-            writer.writerow({"metric": f"anchor elastic count - {region}", "value": status.get("anchor_elastic_count", "")})
-            writer.writerow({"metric": f"other elastic count - {region}", "value": status.get("other_elastic_count", "")})
-            writer.writerow({"metric": f"total rows output - {region}", "value": len(outputs[region])})
-            ids = "; ".join(item["job_id"] for item in outputs[region])
-            writer.writerow({"metric": f"job_id included - {region}", "value": ids})
-
-    # Full audit report: this is the one to review daily
-    decision_path = OUTPUT_DIR / "decision-report-support-worker.csv"
-    fieldnames = [
+def decision_report_fieldnames() -> list[str]:
+    return [
         # Daily QA / review columns first.
         "decision",
         "region",
@@ -1570,33 +1688,220 @@ def write_outputs(outputs: dict[str, list[dict[str, Any]]], report_rows: list[di
         "excel_row",
         "region_selection_message",
     ]
-    with decision_path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        # Region-first daily QA: SELECTED rows and POSSIBLE_SELECTION rows stay grouped together by region.
-        # This makes it easier to review POSS - <REGION> directly under that region's selected rows.
-        region_order = {region: idx for idx, region in enumerate(OUTPUT_FILES.keys())}
 
-        def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
-            selection_status = str(r.get("selection_status", ""))
-            region_rank = region_order.get(str(r.get("region", "")), 9999)
-            if selection_status == "SELECTED":
-                top_group = region_rank * 2
-            elif selection_status == "POSSIBLE_SELECTION":
-                top_group = region_rank * 2 + 1
-            else:
-                top_group = 9999
-            return (
-                top_group,
-                int(r.get("possible_selection_rank") or 9999),
-                int(r.get("excel_row") or 999999),
-                region_rank,
-                str(r.get("town", "")),
-                str(r.get("title", "")),
+
+def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
+    # V2 daily QA order:
+    # West SELECTED -> West POSS -> South SELECTED -> South POSS -> all remaining dropped/audit rows.
+    region_order = {region: idx for idx, region in enumerate(OUTPUT_FILES.keys())}
+    selection_status = str(r.get("selection_status", ""))
+    region_rank = region_order.get(str(r.get("region", "")), 9999)
+    if selection_status == "SELECTED":
+        top_group = region_rank * 2
+    elif selection_status == "POSSIBLE_SELECTION":
+        top_group = region_rank * 2 + 1
+    else:
+        top_group = 9999
+    return (
+        top_group,
+        int(r.get("possible_selection_rank") or 9999),
+        int(r.get("excel_row") or 999999),
+        region_rank,
+        str(r.get("town", "")),
+        str(r.get("title", "")),
+    )
+
+
+def write_decision_report(path: Path, rows: list[dict[str, Any]]) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=decision_report_fieldnames())
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_manual_review_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    """Write the compact GitHub-editable support-worker review CSV."""
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=MANUAL_REVIEW_FIELDNAMES)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({field: row.get(field, "") for field in MANUAL_REVIEW_FIELDNAMES})
+
+
+def _markdown_review_rows(rows: list[dict[str, Any]], region: str, selection_status: str) -> list[dict[str, Any]]:
+    return [
+        row for row in rows
+        if str(row.get("region", "")) == region
+        and str(row.get("selection_status", "")) == selection_status
+    ]
+
+
+def _markdown_value(value: Any) -> str:
+    """Keep generated Markdown block values single-line and easy to edit."""
+    return re.sub(r"\s+", " ", norm(value)).strip()
+
+
+def write_manual_review_markdown(
+    path: Path,
+    rows: list[dict[str, Any]],
+    preserved_actions: dict[str, str] | None = None,
+) -> None:
+    """Write the compact GitHub-editable support-worker review Markdown file."""
+    preserved_actions = preserved_actions or {}
+    lines = [
+        "# Support-worker manual review",
+        "",
+        "Edit only the `action:` line in each block:",
+        "",
+        "- For a selected job, use `action: exclude` to remove it.",
+        "- For a possible job, use `action: select` to add it on a manual rerun if it remains credible and is not excluded.",
+        "- Leave `action:` blank for no change.",
+        "- Manual edits are matched by `job_id`.",
+        "",
+    ]
+
+    groups = [
+        ("WEST YORKSHIRE — SELECTED", "West Yorkshire", "SELECTED", "SELECTED"),
+        ("WEST YORKSHIRE — POSSIBLES", "West Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+        ("SOUTH YORKSHIRE — SELECTED", "South Yorkshire", "SELECTED", "SELECTED"),
+        ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+    ]
+
+    for heading, region, status, decision_label in groups:
+        lines.extend([f"## {heading}", ""])
+        group_rows = _markdown_review_rows(rows, region, status)
+        if not group_rows:
+            lines.extend(["_No jobs in this group._", ""])
+            continue
+
+        for row in group_rows:
+            job_id = _markdown_value(row.get("job_id"))
+            action = preserved_actions.get(job_id, "")
+            review_label = decision_label
+            if decision_label == "POSS":
+                review_label = f"POSS - {region.upper()}"
+            summary = " | ".join([
+                review_label,
+                _markdown_value(row.get("region")),
+                _markdown_value(row.get("town")),
+                _markdown_value(row.get("salary_text")),
+                _markdown_value(row.get("title")),
+            ])
+            lines.extend([
+                "---",
+                f"action: {action}" if action else "action:",
+                summary,
+                f"job_id: {job_id}",
+                "---",
+                "",
+            ])
+
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_outputs(
+    outputs: dict[str, list[dict[str, Any]]],
+    report_rows: list[dict[str, Any]],
+    total_input: int,
+    manual_decisions: ManualDecisionState | None = None,
+) -> tuple[bool, bool]:
+    OUTPUT_DIR.mkdir(exist_ok=True)
+
+    manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
+
+    # IMPORTANT: cap first, then write JSON and validation counts from the capped output.
+    outputs, region_status = anchor_sort_and_cap(
+        outputs,
+        report_rows,
+        manual_rerun_mode=manual_decisions.rerun_mode,
+        previously_selected_ids=manual_decisions.previously_selected,
+    )
+
+    for region, filename in OUTPUT_FILES.items():
+        path = OUTPUT_DIR / filename
+        payload = [clean_for_json(item) for item in outputs[region]]
+
+        # HARD STOP: do not write user-facing JSON if encoding garbage remains.
+        payload_text = json.dumps(payload, ensure_ascii=False)
+        bad_markers = ["Â£", "Â", "â€“", "â€”", "â€", "Ã", "â?", "�", "“¢", "\"¢"]
+        remaining = [marker for marker in bad_markers if marker in payload_text]
+        if remaining:
+            raise SystemExit(
+                "STOP: encoding garbage still present in JSON payload for "
+                f"{region}: {', '.join(remaining)}"
             )
 
-        writer.writerows(sorted(report_rows, key=decision_report_sort_key))
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
 
+    # Clean report rows after over-cap adjustment.
+    report_rows = [clean_record_strings(row) for row in report_rows]
+
+    # Compact daily selection dashboard.
+    write_selection_summary_report(report_rows, region_status)
+
+    # Short summary report
+    report_path = OUTPUT_DIR / "validation-report-support-worker.csv"
+    dropped_count = sum(1 for r in report_rows if r["decision"] == "DROPPED")
+    included_count = sum(1 for r in report_rows if r["decision"] == "SELECTED")
+
+    with report_path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["metric", "value"])
+        writer.writeheader()
+        writer.writerow({"metric": "total rows input", "value": total_input})
+        writer.writerow({"metric": "total rows included", "value": included_count})
+        writer.writerow({"metric": "total rows dropped", "value": dropped_count})
+        for classification in ["HIGH_CONFIDENCE", "ELASTIC_FIT", "REVIEW_CONTEXT_DEPENDENT", "HARD_PASS", "OUT_OF_SCOPE"]:
+            writer.writerow({
+                "metric": f"title classification count - {classification}",
+                "value": sum(1 for r in report_rows if r.get("title_classification") == classification),
+            })
+        for region in OUTPUT_FILES:
+            status = region_status.get(region, {})
+            writer.writerow({"metric": f"selection scenario - {region}", "value": status.get("scenario", "")})
+            writer.writerow({"metric": f"selection message - {region}", "value": status.get("message", "")})
+            writer.writerow({"metric": f"credible total - {region}", "value": status.get("credible_total", "")})
+            writer.writerow({"metric": f"high confidence count - {region}", "value": status.get("high_confidence_count", "")})
+            writer.writerow({"metric": f"anchor elastic count - {region}", "value": status.get("anchor_elastic_count", "")})
+            writer.writerow({"metric": f"other elastic count - {region}", "value": status.get("other_elastic_count", "")})
+            writer.writerow({"metric": f"total rows output - {region}", "value": len(outputs[region])})
+            ids = "; ".join(item["job_id"] for item in outputs[region])
+            writer.writerow({"metric": f"job_id included - {region}", "value": ids})
+
+    # Full audit report: this is the one to review daily.
+    sorted_decision_rows = sorted(report_rows, key=decision_report_sort_key)
+    write_decision_report(DECISION_REPORT_PATH, sorted_decision_rows)
+
+    # Review sources for humans. The Markdown file is the GitHub-editable manual
+    # source. It is regenerated in compact form while preserving explicit
+    # action edits by job_id. The CSV remains a short preview/table overview for
+    # backwards compatibility. The full decision report stays in
+    # output-support-worker as the audit/detail artifact.
+    markdown_review_created = False
+    csv_review_created = False
+    MANUAL_DIR.mkdir(exist_ok=True)
+    preserved_markdown_actions: dict[str, str] = {}
+    markdown_review_existed = MANUAL_REVIEW_MD_PATH.exists()
+    markdown_review_can_write = True
+    if markdown_review_existed:
+        try:
+            preserved_markdown_actions = _markdown_review_action_by_job_id(
+                MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
+            )
+        except Exception:
+            markdown_review_can_write = False
+    if markdown_review_can_write:
+        write_manual_review_markdown(
+            MANUAL_REVIEW_MD_PATH,
+            sorted_decision_rows,
+            preserved_actions=preserved_markdown_actions,
+        )
+    markdown_review_created = not markdown_review_existed and markdown_review_can_write
+    if not MANUAL_REVIEW_CSV_PATH.exists():
+        write_manual_review_csv(MANUAL_REVIEW_CSV_PATH, sorted_decision_rows)
+        csv_review_created = True
+
+    return markdown_review_created, csv_review_created
 
 def main() -> int:
     if not INPUT_DIR.exists():
@@ -1614,17 +1919,24 @@ def main() -> int:
     lookup_df = read_table(lookup_file)
     lookup = build_lookup(lookup_df)
 
-    overrides = load_manual_overrides()
-    if overrides:
-        print(f"Manual overrides loaded: {len(overrides)}")
-    else:
-        print("Manual overrides loaded: 0")
+    support_worker_csv_review_exists = MANUAL_REVIEW_CSV_PATH.exists()
+    support_worker_markdown_review_exists = MANUAL_REVIEW_MD_PATH.exists()
+    manual_decisions = load_manual_decisions()
+    print(f"Support-worker CSV review file exists: {'yes' if support_worker_csv_review_exists else 'no'}")
+    print(f"Support-worker Markdown review file exists: {'yes' if support_worker_markdown_review_exists else 'no'}")
+    if manual_decisions.load_warning:
+        print(f"WARNING: {manual_decisions.load_warning}")
+    print(f"Manual source used: {manual_decisions.source}")
+    print(f"Markdown excludes loaded: {manual_decisions.markdown_excludes_loaded}")
+    print(f"Markdown selections loaded: {manual_decisions.markdown_selections_loaded}")
+    print(f"Manual rerun mode: {'yes' if manual_decisions.rerun_mode else 'no'}")
+    print(f"Manual overrides loaded: {len(manual_decisions.overrides)}")
+    print(f"Manual selections loaded: {len(manual_decisions.selections)}")
+    if manual_decisions.rerun_mode:
+        print("Auto backfill disabled because manual rerun mode is active")
 
-    manual_selects = load_manual_selects()
-    if manual_selects:
-        print(f"Manual selections loaded: {len(manual_selects)}")
-    else:
-        print("Manual selections loaded: 0")
+    overrides = manual_decisions.overrides
+    manual_selects = manual_decisions.selections
 
     title_register = load_title_register()
     if title_register:
@@ -1633,7 +1945,19 @@ def main() -> int:
         print("Title classification register loaded: 0; using embedded V9 rule seeds")
 
     outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
-    write_outputs(outputs, report_rows, len(job_df))
+    markdown_review_created, csv_review_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
+    print(f"Support-worker CSV review file created: {'yes' if csv_review_created else 'no'}")
+    print("Support-worker CSV review file committed: no")
+    print(f"Support-worker Markdown review file created: {'yes' if markdown_review_created else 'no'}")
+    print("Support-worker Markdown review file committed: no")
+    existing_markdown_regenerated = support_worker_markdown_review_exists and not markdown_review_created
+    existing_csv_preserved = support_worker_csv_review_exists and not csv_review_created
+    print(f"Existing support-worker Markdown review file regenerated compactly: {'yes' if existing_markdown_regenerated else 'no'}")
+    print(f"Existing support-worker CSV review file preserved: {'yes' if existing_csv_preserved else 'no'}")
+    if existing_markdown_regenerated:
+        print("Existing support-worker Markdown review action edits preserved by job_id where present.")
+    if existing_csv_preserved:
+        print("Existing support-worker CSV review file protected; not overwritten.")
 
     print("Done. V_12 simple support-worker selector workflow complete.")
     print(f"Input rows: {len(job_df)}")

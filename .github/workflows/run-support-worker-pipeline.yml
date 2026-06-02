@@ -3,6 +3,9 @@ name: Run support-worker pipeline
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-support-worker-pipeline:
     name: Run support-worker pipeline
@@ -20,9 +23,84 @@ jobs:
       - name: Install Python packages
         run: python -m pip install --upgrade pip pandas openpyxl
 
+      - name: Check support-worker review files
+        id: support-worker-review
+        run: |
+          set -euo pipefail
+          csv_review_path="pipeline/manual/support-worker-review.csv"
+          markdown_review_path="pipeline/manual/support-worker-review.md"
+
+          if [ -f "$csv_review_path" ]; then
+            echo "Support-worker CSV review file exists: yes"
+            echo "csv_exists_before=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "Support-worker CSV review file exists: no"
+            echo "csv_exists_before=no" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -f "$markdown_review_path" ]; then
+            echo "Support-worker Markdown review file exists: yes"
+            echo "markdown_exists_before=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "Support-worker Markdown review file exists: no"
+            echo "markdown_exists_before=no" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run support-worker pipeline
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline
+
+      - name: Commit starter support-worker review files
+        env:
+          CSV_REVIEW_EXISTS_BEFORE: ${{ steps.support-worker-review.outputs.csv_exists_before }}
+          MARKDOWN_REVIEW_EXISTS_BEFORE: ${{ steps.support-worker-review.outputs.markdown_exists_before }}
+        run: |
+          set -euo pipefail
+          csv_review_path="pipeline/manual/support-worker-review.csv"
+          markdown_review_path="pipeline/manual/support-worker-review.md"
+          paths_to_commit=()
+
+          if [ "$CSV_REVIEW_EXISTS_BEFORE" = "no" ] && [ -f "$csv_review_path" ] && [ -n "$(git status --porcelain -- "$csv_review_path")" ]; then
+            paths_to_commit+=("$csv_review_path")
+          fi
+
+          if [ "$MARKDOWN_REVIEW_EXISTS_BEFORE" = "no" ] && [ -f "$markdown_review_path" ] && [ -n "$(git status --porcelain -- "$markdown_review_path")" ]; then
+            paths_to_commit+=("$markdown_review_path")
+          fi
+
+          if [ "${#paths_to_commit[@]}" -eq 0 ]; then
+            echo "Support-worker CSV review file committed: no"
+            echo "Support-worker Markdown review file committed: no"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${paths_to_commit[@]}"
+
+          staged_files="$(git diff --cached --name-only)"
+          allowed_files="$(printf '%s\n' "${paths_to_commit[@]}" | sort)"
+          staged_sorted="$(printf '%s\n' "$staged_files" | sort)"
+          if [ "$staged_sorted" != "$allowed_files" ]; then
+            echo "::error::Refusing to commit files other than missing starter support-worker review files. Staged files:"
+            printf '%s\n' "$staged_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git commit -m "Add starter support-worker review files"
+          git push
+
+          if printf '%s\n' "${paths_to_commit[@]}" | grep -Fxq "$csv_review_path"; then
+            echo "Support-worker CSV review file committed: yes"
+          else
+            echo "Support-worker CSV review file committed: no"
+          fi
+          if printf '%s\n' "${paths_to_commit[@]}" | grep -Fxq "$markdown_review_path"; then
+            echo "Support-worker Markdown review file committed: yes"
+          else
+            echo "Support-worker Markdown review file committed: no"
+          fi
 
       - name: Upload support-worker output
         if: always()
