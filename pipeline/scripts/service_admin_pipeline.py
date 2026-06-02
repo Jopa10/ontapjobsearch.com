@@ -563,6 +563,95 @@ def find_input_file(keywords: list[str], exclude: Path | None = None) -> Path:
     )
 
 
+def _table_has_columns(path: Path, required: set[str]) -> bool:
+    """Cheap header check used to identify geo lookup files safely."""
+    try:
+        if path.suffix.lower() in {".xlsx", ".xls"}:
+            cols = set(pd.read_excel(path, dtype=str, nrows=0).columns)
+        elif path.suffix.lower() == ".csv":
+            cols = set(pd.read_csv(path, dtype=str, nrows=0).columns)
+        else:
+            return False
+    except Exception:
+        return False
+    return required.issubset(cols)
+
+
+def _candidate_tables(search_dirs: list[Path]) -> list[Path]:
+    """Return unique spreadsheet/CSV candidates from the supplied folders."""
+    seen: set[Path] = set()
+    candidates: list[Path] = []
+    for directory in search_dirs:
+        if not directory.exists() or not directory.is_dir():
+            continue
+        for candidate in directory.iterdir():
+            if candidate.suffix.lower() not in {".xlsx", ".xls", ".csv"}:
+                continue
+            if candidate.name.startswith("~$"):
+                continue
+            resolved = candidate.resolve()
+            if resolved in seen:
+                continue
+            seen.add(resolved)
+            candidates.append(candidate)
+    return candidates
+
+
+def _unique_paths(paths: list[Path]) -> list[Path]:
+    seen: set[Path] = set()
+    unique: list[Path] = []
+    for path in paths:
+        resolved = path.resolve()
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        unique.append(path)
+    return unique
+
+
+def find_lookup_file(job_file: Path) -> Path:
+    """Find the geo lookup in /input first, then fall back to pipeline/geo."""
+
+    def valid_lookup_candidates(search_dirs: list[Path]) -> list[Path]:
+        candidates = _candidate_tables(search_dirs)
+        candidates = [path for path in candidates if path.resolve() != job_file.resolve()]
+        candidates = [
+            path
+            for path in candidates
+            if not any(keyword in path.name.lower() for keyword in TITLE_REGISTER_FILE_KEYWORDS)
+        ]
+        named = [path for path in candidates if any(keyword in path.name.lower() for keyword in LOOKUP_FILE_KEYWORDS)]
+        valid_named = [path for path in named if _table_has_columns(path, {"Area", "Cluster"})]
+        if valid_named:
+            return _unique_paths(valid_named)
+        return _unique_paths([path for path in candidates if _table_has_columns(path, {"Area", "Cluster"})])
+
+    input_matches = valid_lookup_candidates([INPUT_DIR])
+    if len(input_matches) == 1:
+        return input_matches[0]
+    if len(input_matches) > 1:
+        raise SystemExit(
+            "STOP: multiple valid geo lookup files found in /input: "
+            + ", ".join(path.name for path in input_matches)
+            + ". Keep only one lookup workbook in /input."
+        )
+
+    fallback_matches = valid_lookup_candidates([Path("geo"), Path.cwd(), Path(__file__).resolve().parent])
+    if len(fallback_matches) == 1:
+        return fallback_matches[0]
+    if len(fallback_matches) > 1:
+        raise SystemExit(
+            "STOP: multiple valid geo lookup files found beside the script/pipeline folder: "
+            + ", ".join(path.name for path in fallback_matches)
+            + ". Move the one you want into /input or remove the duplicate."
+        )
+
+    raise SystemExit(
+        "STOP: could not find the geo lookup file. Put one lookup/geo spreadsheet with columns Area and Cluster "
+        "in /input or pipeline/geo."
+    )
+
+
 def validate_job_columns(df: pd.DataFrame) -> None:
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
     if missing:
@@ -861,36 +950,13 @@ def load_manual_selects() -> set[str]:
 
 
 def find_optional_input_file(keywords: list[str]) -> Path | None:
-    """Return an optional input/register file if one clearly matches; otherwise None.
-
-    V2 checks both the main pipeline folder and /input so the admin/service
-    classification register can sit beside this script, as agreed.
-    """
-    search_dirs = [Path(".")]
-    if INPUT_DIR.exists():
-        search_dirs.append(INPUT_DIR)
-
-    files: list[Path] = []
-    for folder in search_dirs:
-        files.extend([
-            p for p in folder.iterdir()
-            if p.suffix.lower() in {".xlsx", ".xls", ".csv"}
-            and not p.name.startswith("~$")
-        ])
-
-    matches = [p for p in files if any(k in p.name.lower() for k in keywords)]
-    unique_matches = []
-    seen = set()
-    for match in matches:
-        resolved = match.resolve()
-        if resolved not in seen:
-            unique_matches.append(match)
-            seen.add(resolved)
-
-    if len(unique_matches) == 1:
-        return unique_matches[0]
+    """Return an optional input/register file if one clearly matches; otherwise None."""
+    files = _candidate_tables([INPUT_DIR, Path("registers"), Path(".")])
+    for keyword in keywords:
+        matches = _unique_paths([path for path in files if keyword in path.name.lower()])
+        if len(matches) == 1:
+            return matches[0]
     return None
-
 
 def normalise_title_for_register(title: Any) -> str:
     return re.sub(r"\s+", " ", norm(title).lower()).strip()
@@ -1523,7 +1589,7 @@ def main() -> int:
         raise SystemExit("Created /input folder. Put the JobG8 export and lookup file in it, then run again.")
 
     job_file = find_input_file(JOB_FILE_KEYWORDS)
-    lookup_file = find_input_file(LOOKUP_FILE_KEYWORDS, exclude=job_file)
+    lookup_file = find_lookup_file(job_file)
 
     print(f"Reading JobG8 export: {job_file}")
     job_df = read_table(job_file)
