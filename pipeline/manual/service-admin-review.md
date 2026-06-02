@@ -64,6 +64,12 @@ job_id: e25924d0-028f-4fc1-b9cc-6305349412d5
 ---
 
 ---
+action: select
+SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
+job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
+---
+
+---
 action:
 SELECTED | West Yorkshire | Bradford | £25500 per year | HR Administrator
 job_id: 64e3885f-2f9e-4208-a007-f8114acdc0ee
@@ -82,12 +88,6 @@ job_id: 107417429
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
-job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
----
 
 ---
 action:

@@ -920,7 +920,7 @@ MANUAL_OVERRIDE_ALIASES = {
 
 
 def _truthy_manual_marker(value: Any) -> bool:
-    return norm(value).strip().lower() in {"1", "yes", "y", "true"}
+    return norm(value).strip().lower() in {"1", "yes", "y", "true", "select"}
 
 
 def normalise_manual_override(value: Any) -> str:
@@ -1008,7 +1008,7 @@ def _markdown_review_action_rows(text: str) -> list[dict[str, str]]:
             "town": norm(block.get("town")) or (summary_parts[2] if len(summary_parts) > 2 else ""),
             "salary_text": norm(block.get("salary_text")) or (summary_parts[3] if len(summary_parts) > 3 else ""),
             "manual_override": "FORCE_EXCLUDE" if action == "exclude" else "",
-            "manual_select": "1" if action == "select" else "",
+            "manual_select": "SELECT" if action == "select" else "",
             "job_id": job_id,
             "selection_status": selection_status,
         })
@@ -1163,7 +1163,7 @@ def load_manual_overrides() -> dict[str, str]:
 
 
 def load_manual_selects() -> set[str]:
-    """Read manual_select = 1/yes/y/true from the human review CSV."""
+    """Read manual_select markers such as SELECT/1/yes/y/true from the human review CSV."""
     return load_manual_decisions().selections
 
 
@@ -1786,7 +1786,7 @@ def _manual_review_csv_rows(
             csv_row["manual_select"] = ""
         elif action == "select":
             csv_row["manual_override"] = ""
-            csv_row["manual_select"] = "1"
+            csv_row["manual_select"] = "SELECT"
         csv_rows.append(csv_row)
     return csv_rows
 
@@ -1798,7 +1798,7 @@ def write_manual_review_csv(
 ) -> None:
     """Write the compact GitHub-editable service-admin review CSV preview."""
     with path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=MANUAL_REVIEW_FIELDNAMES)
+        writer = csv.DictWriter(f, fieldnames=MANUAL_REVIEW_FIELDNAMES, lineterminator="\n")
         writer.writeheader()
         writer.writerows(_manual_review_csv_rows(rows, markdown_actions))
 
@@ -1875,6 +1875,7 @@ def write_manual_review_markdown(
         ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
     ]
 
+    emitted_job_ids: set[str] = set()
     for heading, region, status, decision_label in groups:
         lines.extend([f"## {heading}", ""])
         group_rows = _markdown_review_rows(rows, region, status)
@@ -1885,13 +1886,18 @@ def write_manual_review_markdown(
             and _markdown_value(row.get("region")) == region
             and _markdown_value(row.get("selection_status")) == status
         ]
-        review_rows = [*group_action_rows, *group_rows]
+        review_rows = [
+            row for row in [*group_action_rows, *group_rows]
+            if _markdown_value(row.get("job_id"))
+            and _markdown_value(row.get("job_id")) not in emitted_job_ids
+        ]
         if not review_rows:
             lines.extend(["_No jobs in this group._", ""])
             continue
 
         for row in review_rows:
             job_id = _markdown_value(row.get("job_id"))
+            emitted_job_ids.add(job_id)
             action = preserved_actions.get(job_id, "")
             review_label = decision_label
             if decision_label == "POSS":
