@@ -891,6 +891,7 @@ class ManualDecisionState:
     overrides: dict[str, str]
     selections: set[str]
     previously_selected: set[str]
+    load_warning: str = ""
 
 
 def _truthy_manual_marker(value: Any) -> bool:
@@ -919,8 +920,15 @@ def load_manual_decisions() -> ManualDecisionState:
 
     try:
         df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
-    except Exception:
-        return empty_state
+    except Exception as exc:
+        return ManualDecisionState(
+            report_loaded=False,
+            rerun_mode=False,
+            overrides={},
+            selections=set(),
+            previously_selected=set(),
+            load_warning=f"manual decision report exists but could not be read: {exc}",
+        )
 
     overrides: dict[str, str] = {}
     selections: set[str] = set()
@@ -1515,12 +1523,74 @@ def write_selection_summary_report(
         writer.writeheader()
         writer.writerows(rows)
 
+
+def decision_report_fieldnames() -> list[str]:
+    return [
+        # Daily QA / review columns first.
+        "decision",
+        "region",
+        "title",
+        "manual_override",
+        "manual_select",
+        "remaining_slots",
+        "selection_status",
+        "possible_selection_rank",
+        "town",
+        "title_classification",
+        "selection_scenario",
+        "employment_type",
+        "salary_text",
+        "salary_source",
+        "description_preview",
+
+        # Audit/detail columns pushed right.
+        "title_priority",
+        "review_status",
+        "classification_reason",
+        "reason",
+        "apply_url_present",
+        "job_id",
+        "description_present",
+        "excel_row",
+        "region_selection_message",
+    ]
+
+
+def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
+    # V2 daily QA order:
+    # West SELECTED -> West POSS -> South SELECTED -> South POSS -> all remaining dropped/audit rows.
+    region_order = {region: idx for idx, region in enumerate(OUTPUT_FILES.keys())}
+    selection_status = str(r.get("selection_status", ""))
+    region_rank = region_order.get(str(r.get("region", "")), 9999)
+    if selection_status == "SELECTED":
+        top_group = region_rank * 2
+    elif selection_status == "POSSIBLE_SELECTION":
+        top_group = region_rank * 2 + 1
+    else:
+        top_group = 9999
+    return (
+        top_group,
+        int(r.get("possible_selection_rank") or 9999),
+        int(r.get("excel_row") or 999999),
+        region_rank,
+        str(r.get("town", "")),
+        str(r.get("title", "")),
+    )
+
+
+def write_decision_report(path: Path, rows: list[dict[str, Any]]) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=decision_report_fieldnames())
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def write_outputs(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
     total_input: int,
     manual_decisions: ManualDecisionState | None = None,
-) -> None:
+) -> bool:
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
@@ -1584,63 +1654,19 @@ def write_outputs(
             ids = "; ".join(item["job_id"] for item in outputs[region])
             writer.writerow({"metric": f"job_id included - {region}", "value": ids})
 
-    # Full audit report: this is the one to review daily
-    decision_path = OUTPUT_DIR / "decision-report-admin-service.csv"
-    fieldnames = [
-        # Daily QA / review columns first.
-        "decision",
-        "region",
-        "title",
-        "manual_override",
-        "manual_select",
-        "remaining_slots",
-        "selection_status",
-        "possible_selection_rank",
-        "town",
-        "title_classification",
-        "selection_scenario",
-        "employment_type",
-        "salary_text",
-        "salary_source",
-        "description_preview",
+    # Full audit report: this is the one to review daily.
+    sorted_decision_rows = sorted(report_rows, key=decision_report_sort_key)
+    write_decision_report(DECISION_REPORT_PATH, sorted_decision_rows)
 
-        # Audit/detail columns pushed right.
-        "title_priority",
-        "review_status",
-        "classification_reason",
-        "reason",
-        "apply_url_present",
-        "job_id",
-        "description_present",
-        "excel_row",
-        "region_selection_message",
-    ]
-    with decision_path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        # V2 daily QA order:
-        # West SELECTED -> West POSS -> South SELECTED -> South POSS -> all remaining dropped/audit rows.
-        region_order = {region: idx for idx, region in enumerate(OUTPUT_FILES.keys())}
+    # GitHub-editable starter/manual source. Only create it when missing; never
+    # overwrite an existing reviewed file in pipeline/manual.
+    starter_created = False
+    if not MANUAL_DECISION_REPORT_PATH.exists():
+        MANUAL_DIR.mkdir(exist_ok=True)
+        write_decision_report(MANUAL_DECISION_REPORT_PATH, sorted_decision_rows)
+        starter_created = True
 
-        def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
-            selection_status = str(r.get("selection_status", ""))
-            region_rank = region_order.get(str(r.get("region", "")), 9999)
-            if selection_status == "SELECTED":
-                top_group = region_rank * 2
-            elif selection_status == "POSSIBLE_SELECTION":
-                top_group = region_rank * 2 + 1
-            else:
-                top_group = 9999
-            return (
-                top_group,
-                int(r.get("possible_selection_rank") or 9999),
-                int(r.get("excel_row") or 999999),
-                region_rank,
-                str(r.get("town", "")),
-                str(r.get("title", "")),
-            )
-
-        writer.writerows(sorted(report_rows, key=decision_report_sort_key))
+    return starter_created
 
 
 def main() -> int:
@@ -1659,8 +1685,11 @@ def main() -> int:
     lookup_df = read_table(lookup_file)
     lookup = build_lookup(lookup_df)
 
+    manual_report_exists = MANUAL_DECISION_REPORT_PATH.exists()
     manual_decisions = load_manual_decisions()
-    print(f"Manual decision report loaded: {'yes' if manual_decisions.report_loaded else 'no'}")
+    print(f"Manual decision report exists: {'yes' if manual_report_exists else 'no'}")
+    if manual_decisions.load_warning:
+        print(f"WARNING: {manual_decisions.load_warning}")
     print(f"Manual rerun mode: {'yes' if manual_decisions.rerun_mode else 'no'}")
     print(f"Manual overrides loaded: {len(manual_decisions.overrides)}")
     print(f"Manual selections loaded: {len(manual_decisions.selections)}")
@@ -1677,7 +1706,10 @@ def main() -> int:
         print("Title classification register loaded: 0; using embedded V9 rule seeds")
 
     outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
-    write_outputs(outputs, report_rows, len(job_df), manual_decisions)
+    starter_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
+    print(f"Starter manual decision report created: {'yes' if starter_created else 'no'}")
+    if manual_report_exists and not starter_created:
+        print("Existing manual decision report protected; not overwritten.")
 
     print("Done. Admin/service V2 selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
