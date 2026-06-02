@@ -38,18 +38,21 @@ Input folder:
   input/   put ONE JobG8 export and ONE region lookup file here
 
 Output folder:
-  output/west-yorkshire-admin/service.json
-  output/south-yorkshire-admin/service.json
-  output/lancashire-admin/service.json
-  output/greater-manchester-admin/service.json
-  output/cumbria-admin/service.json
-  output/north-east-admin/service.json
-  output/validation-report.csv
-  output/selection-summary-report.csv
-  output/decision-report.csv  add manual_override values or manual_select = 1 where flagged, then rerun
+  output-admin-service/west-yorkshire-admin/service.json
+  output-admin-service/south-yorkshire-admin/service.json
+  output-admin-service/lancashire-admin/service.json
+  output-admin-service/greater-manchester-admin/service.json
+  output-admin-service/cumbria-admin/service.json
+  output-admin-service/north-east-admin/service.json
+  output-admin-service/validation-report.csv
+  output-admin-service/selection-summary-report.csv
+  output-admin-service/decision-report-admin-service.csv  generated decision report artifact
+
+Manual rerun edits:
+  manual/decision-report-admin-service.csv  reviewed manual_override/manual_select input
 
 Run:
-  python3 jobg8_to_ontap_json_admin_service_V2.py
+  python -m scripts.service_admin_pipeline
 
 """
 from __future__ import annotations
@@ -68,6 +71,8 @@ import pandas as pd
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-admin-service")
 DECISION_REPORT_PATH = OUTPUT_DIR / "decision-report-admin-service.csv"
+MANUAL_DIR = Path("manual")
+MANUAL_DECISION_REPORT_PATH = MANUAL_DIR / "decision-report-admin-service.csv"
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
 LOOKUP_FILE_KEYWORDS = ["lookup", "region", "town"]
@@ -879,7 +884,7 @@ def get_posted_date(row: pd.Series, df_columns: list[str]) -> str:
 
 def load_manual_overrides() -> dict[str, str]:
     """
-    Read manual overrides from output/decision-report.csv if it already exists.
+    Read manual overrides from manual/decision-report-admin-service.csv if it already exists.
 
     Supported manual_override values:
       FORCE_INCLUDE
@@ -887,17 +892,17 @@ def load_manual_overrides() -> dict[str, str]:
 
     Notes:
     - First run normally has no manual_override values.
-    - After reviewing decision-report.csv, add values in the manual_override column and rerun.
+    - After reviewing decision-report-admin-service.csv, upload it to manual/ and rerun.
     - FORCE_INCLUDE bypasses missing include-term filtering but does NOT bypass hard exclusions
       such as driver, senior, manager, nurse, teacher, semh, or housing.
     """
     overrides: dict[str, str] = {}
 
-    if not DECISION_REPORT_PATH.exists():
+    if not MANUAL_DECISION_REPORT_PATH.exists():
         return overrides
 
     try:
-        df = pd.read_csv(DECISION_REPORT_PATH, dtype=str).fillna("")
+        df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
     except Exception:
         return overrides
 
@@ -919,7 +924,7 @@ def load_manual_overrides() -> dict[str, str]:
 
 def load_manual_selects() -> set[str]:
     """
-    Read manual_select = 1 from output/decision-report.csv if it already exists.
+    Read manual_select = 1 from manual/decision-report-admin-service.csv if it already exists.
 
     V10 use:
     - Only use this for Scenario 3 rows marked POSSIBLE_SELECTION.
@@ -927,11 +932,11 @@ def load_manual_selects() -> set[str]:
     """
     selected: set[str] = set()
 
-    if not DECISION_REPORT_PATH.exists():
+    if not MANUAL_DECISION_REPORT_PATH.exists():
         return selected
 
     try:
-        df = pd.read_csv(DECISION_REPORT_PATH, dtype=str).fillna("")
+        df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
     except Exception:
         return selected
 
