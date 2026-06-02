@@ -3,6 +3,9 @@ name: Run service-admin pipeline
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-service-admin-pipeline:
     name: Run service-admin pipeline
@@ -23,6 +26,19 @@ jobs:
       - name: Run service-admin pipeline
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
+
+      - name: Commit starter manual decision report
+        run: |
+          if [ -z "$(git status --porcelain -- pipeline/manual/decision-report-admin-service.csv)" ]; then
+            echo "No starter manual decision report changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/manual/decision-report-admin-service.csv
+          git commit -m "Add starter service-admin manual decision report"
+          git push
 
       - name: Upload service-admin output
         if: always()
