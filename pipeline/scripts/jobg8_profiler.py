@@ -35,9 +35,9 @@ Outputs:
     output-feed-profiler/regional/2026-05-regional-location-audit.csv
 
 Optional geography:
-    If "Geo lookup sheet.xlsx" is present in the Ontap Pipeline folder, the profiler
-    uses it to map raw JobG8 locations into Ontap regions. Otherwise it falls back
-    to the built-in town keyword rules.
+    By default, the profiler reads pipeline/geo/lookup.xlsx from the repository
+    and uses it to map raw JobG8 locations into Ontap regions. The built-in town
+    keyword rules are used only if that lookup file is missing or unreadable.
 """
 
 from __future__ import annotations
@@ -208,36 +208,70 @@ class GeoMapper:
 
     def __init__(self, lookup_path: Optional[Path] = None):
         self.place_to_region: Dict[str, str] = {}
-        if lookup_path and lookup_path.exists():
-            self.load_lookup(lookup_path)
+        self.lookup_path = lookup_path
+        self.lookup_loaded = False
+        self.lookup_rows_loaded = 0
+        self.lookup_error = ""
+        self.fallback_keywords_enabled = True
 
-    def add_place(self, place: object, region: Optional[str]) -> None:
+        if lookup_path:
+            if lookup_path.exists():
+                self.load_lookup(lookup_path)
+            else:
+                self.lookup_error = f"lookup file missing: {lookup_path}"
+
+        # The shared workbook is the primary geography source. Built-in keyword
+        # rules are only a backup for runs where the workbook could not be read.
+        self.fallback_keywords_enabled = not self.lookup_loaded
+
+    def add_place(self, place: object, region: Optional[str]) -> bool:
         place_text = normalise_lookup_place(place)
         if not place_text or not region:
-            return
+            return False
         if len(place_text) < 3:
-            return
-        # Keep the first mapping encountered. The fallback keyword rules still catch
-        # obvious towns if a lookup row is missing.
-        self.place_to_region.setdefault(place_text, region)
+            return False
+        # Keep the first mapping encountered so the shared lookup workbook remains
+        # the single source of truth when duplicate places appear across sheets.
+        if place_text in self.place_to_region:
+            return False
+        self.place_to_region[place_text] = region
+        return True
 
     def load_lookup(self, lookup_path: Path) -> None:
+        loaded_rows = 0
+
         try:
-            workbook = pd.ExcelFile(lookup_path)
-        except Exception:
+            workbook = pd.ExcelFile(lookup_path) if hasattr(pd, "ExcelFile") else None
+            sheet_names = workbook.sheet_names if workbook else [None]
+        except Exception as exc:
+            self.lookup_error = f"failed opening lookup workbook: {exc}"
             return
 
-        for sheet_name in workbook.sheet_names:
+        for sheet_name in sheet_names:
             try:
-                df = pd.read_excel(lookup_path, sheet_name=sheet_name)
-            except Exception:
+                if sheet_name is None:
+                    df = pd.read_excel(lookup_path)
+                else:
+                    df = pd.read_excel(lookup_path, sheet_name=sheet_name)
+            except TypeError:
+                # The local lightweight pandas shim only reads the first sheet and
+                # does not accept a sheet_name argument. That is enough for the
+                # shared lookup workbook's main Area -> Cluster table.
+                try:
+                    df = pd.read_excel(lookup_path)
+                except Exception as exc:
+                    self.lookup_error = f"failed reading lookup sheet: {exc}"
+                    continue
+            except Exception as exc:
+                self.lookup_error = f"failed reading lookup sheet: {exc}"
                 continue
 
             # General all-UK lookup block: Area -> Cluster.
             if "Area" in df.columns and "Cluster" in df.columns:
-                for _, row in df[["Area", "Cluster"]].dropna(how="all").iterrows():
+                for _, row in df.iterrows():
                     region = ontap_region_from_cluster(row.get("Cluster"))
-                    self.add_place(row.get("Area"), region)
+                    if self.add_place(row.get("Area"), region):
+                        loaded_rows += 1
 
             # Older/support-worker helper block in the uploaded sheet:
             # Geo = town/place, Unnamed: 1 = subcluster, Unnamed: 2 = anchor city.
@@ -248,7 +282,15 @@ class GeoMapper:
                     cluster = row.get(cluster_col) if cluster_col else ""
                     anchor = row.get(anchor_col) if anchor_col else ""
                     region = ontap_region_from_cluster(cluster, anchor)
-                    self.add_place(row.get("Geo"), region)
+                    if self.add_place(row.get("Geo"), region):
+                        loaded_rows += 1
+
+        self.lookup_rows_loaded = loaded_rows
+        self.lookup_loaded = loaded_rows > 0
+        if self.lookup_loaded:
+            self.lookup_error = ""
+        elif not self.lookup_error:
+            self.lookup_error = "no matching geo rows were found in lookup workbook"
 
     def lookup_match(self, text: object) -> Tuple[Optional[str], str]:
         lookup_text = normalise_lookup_place(text)
@@ -274,9 +316,10 @@ class GeoMapper:
         if region:
             return region, "location_lookup", place
 
-        keyword_region = classify_region_keywords(loc)
-        if keyword_region != "Other / Unknown":
-            return keyword_region, "location_keyword", ""
+        if self.fallback_keywords_enabled:
+            keyword_region = classify_region_keywords(loc)
+            if keyword_region != "Other / Unknown":
+                return keyword_region, "location_keyword", ""
 
         # Only scan title/description when the original location is broad/ambiguous.
         # This avoids mapping normal out-of-area jobs such as London into Ontap regions
@@ -287,9 +330,10 @@ class GeoMapper:
             if region:
                 return region, "title_description_lookup", place
 
-            context_keyword_region = classify_region_keywords(context)
-            if context_keyword_region != "Other / Unknown":
-                return context_keyword_region, "title_description_keyword", ""
+            if self.fallback_keywords_enabled:
+                context_keyword_region = classify_region_keywords(context)
+                if context_keyword_region != "Other / Unknown":
+                    return context_keyword_region, "title_description_keyword", ""
 
         return "Other / Unknown", "unmapped", ""
 
@@ -298,7 +342,10 @@ class GeoMapper:
 
 
 def find_default_geo_lookup(base_dir: Path) -> Optional[Path]:
+    script_path = Path(__file__).resolve()
+    pipeline_dir = script_path.parents[1]
     candidates = [
+        pipeline_dir / "geo" / "lookup.xlsx",
         base_dir / "Geo lookup sheet.xlsx",
         base_dir / "geo_lookup.xlsx",
         base_dir / "geo-lookup.xlsx",
@@ -308,6 +355,22 @@ def find_default_geo_lookup(base_dir: Path) -> Optional[Path]:
         if candidate.exists():
             return candidate
     return None
+
+
+def resolve_geo_lookup_arg(geo_lookup: Optional[Path]) -> Optional[Path]:
+    if geo_lookup is None:
+        return find_default_geo_lookup(Path.cwd())
+
+    if geo_lookup.is_absolute() or geo_lookup.exists():
+        return geo_lookup
+
+    script_path = Path(__file__).resolve()
+    repo_root = script_path.parents[2]
+    repo_relative = repo_root / geo_lookup
+    if repo_relative.exists():
+        return repo_relative
+
+    return geo_lookup
 
 
 # -----------------------------
@@ -664,6 +727,13 @@ def parse_salary_band(value: object) -> str:
 def read_jobg8_file(path: Path, geo_mapper: Optional[GeoMapper] = None) -> pd.DataFrame:
     try:
         df = pd.read_excel(path, engine="openpyxl")
+    except TypeError:
+        # The repository includes a tiny pandas shim for constrained local runs;
+        # it does not accept engine= but can still read the bundled xlsx files.
+        try:
+            df = pd.read_excel(path)
+        except Exception as exc:
+            raise RuntimeError(f"Failed reading {path.name}: {exc}") from exc
     except Exception as exc:
         raise RuntimeError(f"Failed reading {path.name}: {exc}") from exc
 
@@ -1088,11 +1158,12 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     frames = []
     errors = []
 
-    if geo_lookup is None:
-        geo_lookup = find_default_geo_lookup(Path.cwd())
+    geo_lookup = resolve_geo_lookup_arg(geo_lookup)
 
-    geo_mapper = GeoMapper(geo_lookup) if geo_lookup else GeoMapper(None)
-    geo_lookup_label = str(geo_lookup) if geo_lookup and geo_lookup.exists() else "not used - falling back to built-in keyword rules"
+    geo_mapper = GeoMapper(geo_lookup)
+    geo_lookup_label = str(geo_lookup) if geo_lookup else "not found"
+    geo_lookup_status = "loaded" if geo_mapper.lookup_loaded else "not loaded"
+    fallback_status = "yes" if geo_mapper.fallback_keywords_enabled else "no"
 
     for path in files:
         try:
@@ -1148,6 +1219,9 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"Files read successfully: {len(frames)}",
         f"Total rows profiled: {len(all_jobs)}",
         f"Geo lookup: {geo_lookup_label}",
+        f"Geo lookup status: {geo_lookup_status}",
+        f"Geo lookup rows loaded: {geo_mapper.lookup_rows_loaded}",
+        f"Fallback keyword rules used: {fallback_status}",
         "",
         "Output files:",
         f"- {daily_dir / f'{month}-daily-summary.csv'}",
@@ -1163,6 +1237,9 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     if errors:
         log_lines.extend(["", "Files with errors:"])
         log_lines.extend(f"- {e}" for e in errors)
+
+    if geo_mapper.lookup_error:
+        log_lines.extend(["", f"Geo lookup note: {geo_mapper.lookup_error}"])
 
     (output_dir / f"{month}-feed-profiler-run-log.txt").write_text(
         "\n".join(log_lines),
@@ -1194,7 +1271,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--geo-lookup",
         default=None,
-        help="Optional geo lookup Excel file. Default: tries 'Geo lookup sheet.xlsx' in the current folder.",
+        help="Optional geo lookup Excel file. Default: pipeline/geo/lookup.xlsx in this repository.",
     )
     return parser.parse_args()
 
