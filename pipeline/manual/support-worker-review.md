@@ -10,7 +10,7 @@ Edit only the `action:` line in each block:
 ## WEST YORKSHIRE — SELECTED
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Leeds | £28000 - £31000 per year | PERSONAL ASSISTANT
 job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 ---
