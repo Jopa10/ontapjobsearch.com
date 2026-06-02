@@ -73,7 +73,10 @@ INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-admin-service")
 DECISION_REPORT_PATH = OUTPUT_DIR / "decision-report-admin-service.csv"
 MANUAL_DIR = Path("manual")
-MANUAL_REVIEW_PATH = MANUAL_DIR / "service-admin-review.csv"
+MANUAL_REVIEW_CSV_PATH = MANUAL_DIR / "service-admin-review.csv"
+MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "service-admin-review.md"
+# Backwards-compatible alias for older helper code.
+MANUAL_REVIEW_PATH = MANUAL_REVIEW_CSV_PATH
 MANUAL_REVIEW_FIELDNAMES = [
     "decision",
     "region",
@@ -895,7 +898,7 @@ def get_posted_date(row: pd.Series, df_columns: list[str]) -> str:
 
 @dataclass
 class ManualDecisionState:
-    """Editorial decisions loaded from the compact human review CSV."""
+    """Editorial decisions loaded from the human review markdown or legacy CSV."""
 
     report_loaded: bool
     rerun_mode: bool
@@ -903,6 +906,9 @@ class ManualDecisionState:
     selections: set[str]
     previously_selected: set[str]
     load_warning: str = ""
+    source: str = "none"
+    markdown_excludes_loaded: int = 0
+    markdown_selections_loaded: int = 0
 
 
 MANUAL_OVERRIDE_ALIASES = {
@@ -921,7 +927,90 @@ def normalise_manual_override(value: Any) -> str:
     return MANUAL_OVERRIDE_ALIASES.get(norm(value).strip().upper(), "")
 
 
-def load_manual_decisions() -> ManualDecisionState:
+def _parse_markdown_review_blocks(text: str) -> list[dict[str, str]]:
+    """Parse simple --- delimited key/value blocks from service-admin-review.md."""
+    blocks: list[dict[str, str]] = []
+    current: dict[str, str] | None = None
+
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if line == "---":
+            if current is not None and current:
+                blocks.append(current)
+                current = None
+            else:
+                current = {}
+            continue
+
+        if current is None or not line or line.startswith("#"):
+            continue
+
+        if ":" not in line:
+            continue
+
+        key, value = line.split(":", 1)
+        current[key.strip().lower()] = value.strip()
+
+    if current is not None and current:
+        blocks.append(current)
+
+    return blocks
+
+
+def load_manual_decisions_from_markdown() -> ManualDecisionState:
+    """
+    Read manual rerun decisions from manual/service-admin-review.md.
+
+    Markdown blocks are intentionally GitHub-editable. Only the action field is
+    treated as a human decision: action: exclude becomes FORCE_EXCLUDE and
+    action: select becomes manual_select = 1. SELECTED blocks are remembered as
+    the reviewed selected set for manual rerun mode.
+    """
+    try:
+        text = MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
+    except Exception as exc:
+        return ManualDecisionState(
+            report_loaded=False,
+            rerun_mode=False,
+            overrides={},
+            selections=set(),
+            previously_selected=set(),
+            load_warning=f"human review Markdown exists but could not be read: {exc}",
+            source="none",
+        )
+
+    overrides: dict[str, str] = {}
+    selections: set[str] = set()
+    previously_selected: set[str] = set()
+
+    for block in _parse_markdown_review_blocks(text):
+        job_id = norm(block.get("job_id"))
+        if not job_id:
+            continue
+
+        action = norm(block.get("action")).strip().lower()
+        if action == "exclude":
+            overrides[job_id] = "FORCE_EXCLUDE"
+        elif action == "select":
+            selections.add(job_id)
+
+        if norm(block.get("decision")).upper() == "SELECTED":
+            previously_selected.add(job_id)
+
+    markdown_excludes = sum(1 for value in overrides.values() if value == "FORCE_EXCLUDE")
+    return ManualDecisionState(
+        report_loaded=True,
+        rerun_mode=True,
+        overrides=overrides,
+        selections=selections,
+        previously_selected=previously_selected,
+        source="markdown",
+        markdown_excludes_loaded=markdown_excludes,
+        markdown_selections_loaded=len(selections),
+    )
+
+
+def load_manual_decisions_from_csv() -> ManualDecisionState:
     """
     Read manual rerun decisions from manual/service-admin-review.csv.
 
@@ -930,19 +1019,8 @@ def load_manual_decisions() -> ManualDecisionState:
     previously marked SELECTED are the only routine editorial picks retained
     after credibility checks. The regional cap remains a maximum only.
     """
-    empty_state = ManualDecisionState(
-        report_loaded=False,
-        rerun_mode=False,
-        overrides={},
-        selections=set(),
-        previously_selected=set(),
-    )
-
-    if not MANUAL_REVIEW_PATH.exists():
-        return empty_state
-
     try:
-        df = pd.read_csv(MANUAL_REVIEW_PATH, dtype=str).fillna("")
+        df = pd.read_csv(MANUAL_REVIEW_CSV_PATH, dtype=str).fillna("")
     except Exception as exc:
         return ManualDecisionState(
             report_loaded=False,
@@ -951,6 +1029,7 @@ def load_manual_decisions() -> ManualDecisionState:
             selections=set(),
             previously_selected=set(),
             load_warning=f"human review CSV exists but could not be read: {exc}",
+            source="none",
         )
 
     overrides: dict[str, str] = {}
@@ -986,8 +1065,31 @@ def load_manual_decisions() -> ManualDecisionState:
         overrides=overrides,
         selections=selections,
         previously_selected=previously_selected,
+        source="csv",
     )
 
+
+def load_manual_decisions() -> ManualDecisionState:
+    """
+    Prefer the GitHub-editable Markdown review file, with CSV retained as the
+    backwards-compatible input source when Markdown is absent.
+    """
+    empty_state = ManualDecisionState(
+        report_loaded=False,
+        rerun_mode=False,
+        overrides={},
+        selections=set(),
+        previously_selected=set(),
+        source="none",
+    )
+
+    if MANUAL_REVIEW_MD_PATH.exists():
+        return load_manual_decisions_from_markdown()
+
+    if MANUAL_REVIEW_CSV_PATH.exists():
+        return load_manual_decisions_from_csv()
+
+    return empty_state
 
 def load_manual_overrides() -> dict[str, str]:
     """
@@ -1619,12 +1721,70 @@ def write_manual_review_csv(path: Path, rows: list[dict[str, Any]]) -> None:
             writer.writerow({field: row.get(field, "") for field in MANUAL_REVIEW_FIELDNAMES})
 
 
+def _markdown_review_rows(rows: list[dict[str, Any]], region: str, selection_status: str) -> list[dict[str, Any]]:
+    return [
+        row for row in rows
+        if str(row.get("region", "")) == region
+        and str(row.get("selection_status", "")) == selection_status
+    ]
+
+
+def _markdown_value(value: Any) -> str:
+    """Keep generated Markdown block values single-line and easy to edit."""
+    return re.sub(r"\s+", " ", norm(value)).strip()
+
+
+def write_manual_review_markdown(path: Path, rows: list[dict[str, Any]]) -> None:
+    """Write the GitHub-editable service-admin review Markdown file."""
+    lines = [
+        "# Service-admin manual review",
+        "",
+        "Edit only the `action:` line in each block:",
+        "",
+        "- For a selected job, use `action: exclude` to remove it.",
+        "- For a possible job, use `action: select` to add it on a manual rerun if it remains credible and is not excluded.",
+        "- Leave `action:` blank for no change.",
+        "- Manual edits are matched by `job_id`.",
+        "",
+    ]
+
+    groups = [
+        ("WEST YORKSHIRE — SELECTED", "West Yorkshire", "SELECTED", "SELECTED"),
+        ("WEST YORKSHIRE — POSSIBLES", "West Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+        ("SOUTH YORKSHIRE — SELECTED", "South Yorkshire", "SELECTED", "SELECTED"),
+        ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+    ]
+
+    for heading, region, status, decision_label in groups:
+        lines.extend([f"## {heading}", ""])
+        group_rows = _markdown_review_rows(rows, region, status)
+        if not group_rows:
+            lines.extend(["_No jobs in this group._", ""])
+            continue
+
+        for row in group_rows:
+            lines.extend([
+                "---",
+                f"region: {_markdown_value(row.get('region'))}",
+                f"decision: {decision_label}",
+                f"title: {_markdown_value(row.get('title'))}",
+                f"town: {_markdown_value(row.get('town'))}",
+                f"salary_text: {_markdown_value(row.get('salary_text'))}",
+                f"job_id: {_markdown_value(row.get('job_id'))}",
+                "action:",
+                "---",
+                "",
+            ])
+
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def write_outputs(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
     total_input: int,
     manual_decisions: ManualDecisionState | None = None,
-) -> bool:
+) -> tuple[bool, bool]:
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
@@ -1692,16 +1852,22 @@ def write_outputs(
     sorted_decision_rows = sorted(report_rows, key=decision_report_sort_key)
     write_decision_report(DECISION_REPORT_PATH, sorted_decision_rows)
 
-    # GitHub-editable review source. Only create it when missing; never overwrite
-    # an existing reviewed file in pipeline/manual. The full decision report stays
-    # in output-admin-service as the audit/detail artifact.
-    review_created = False
-    if not MANUAL_REVIEW_PATH.exists():
-        MANUAL_DIR.mkdir(exist_ok=True)
-        write_manual_review_csv(MANUAL_REVIEW_PATH, sorted_decision_rows)
-        review_created = True
+    # Review sources for humans. The Markdown file is the GitHub-editable manual
+    # source. It is created only when missing so edited actions are never
+    # overwritten. The CSV remains a short preview/table overview for backwards
+    # compatibility. The full decision report stays in output-admin-service as
+    # the audit/detail artifact.
+    markdown_review_created = False
+    csv_review_created = False
+    MANUAL_DIR.mkdir(exist_ok=True)
+    if not MANUAL_REVIEW_MD_PATH.exists():
+        write_manual_review_markdown(MANUAL_REVIEW_MD_PATH, sorted_decision_rows)
+        markdown_review_created = True
+    if not MANUAL_REVIEW_CSV_PATH.exists():
+        write_manual_review_csv(MANUAL_REVIEW_CSV_PATH, sorted_decision_rows)
+        csv_review_created = True
 
-    return review_created
+    return markdown_review_created, csv_review_created
 
 
 def main() -> int:
@@ -1720,14 +1886,19 @@ def main() -> int:
     lookup_df = read_table(lookup_file)
     lookup = build_lookup(lookup_df)
 
-    human_review_exists = MANUAL_REVIEW_PATH.exists()
+    markdown_review_exists = MANUAL_REVIEW_MD_PATH.exists()
+    human_review_csv_exists = MANUAL_REVIEW_CSV_PATH.exists()
     manual_decisions = load_manual_decisions()
-    print(f"Human review CSV exists: {'yes' if human_review_exists else 'no'}")
+    print(f"Markdown review file exists: {'yes' if markdown_review_exists else 'no'}")
+    print(f"Human review CSV exists: {'yes' if human_review_csv_exists else 'no'}")
     if manual_decisions.load_warning:
         print(f"WARNING: {manual_decisions.load_warning}")
+    print(f"Manual source used: {manual_decisions.source}")
     print(f"Manual rerun mode: {'yes' if manual_decisions.rerun_mode else 'no'}")
     print(f"Manual overrides loaded: {len(manual_decisions.overrides)}")
     print(f"Manual selections loaded: {len(manual_decisions.selections)}")
+    print(f"Markdown excludes loaded: {manual_decisions.markdown_excludes_loaded}")
+    print(f"Markdown selections loaded: {manual_decisions.markdown_selections_loaded}")
     if manual_decisions.rerun_mode:
         print("Auto backfill disabled because manual rerun mode is active")
 
@@ -1741,11 +1912,16 @@ def main() -> int:
         print("Title classification register loaded: 0; using embedded V9 rule seeds")
 
     outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
-    review_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
-    print(f"Human review CSV created: {'yes' if review_created else 'no'}")
-    existing_review_preserved = human_review_exists and not review_created
-    print(f"Existing human review CSV preserved: {'yes' if existing_review_preserved else 'no'}")
-    if existing_review_preserved:
+    markdown_review_created, csv_review_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
+    print(f"Markdown review file created: {'yes' if markdown_review_created else 'no'}")
+    print(f"Human review CSV created: {'yes' if csv_review_created else 'no'}")
+    existing_markdown_preserved = markdown_review_exists and not markdown_review_created
+    existing_csv_preserved = human_review_csv_exists and not csv_review_created
+    print(f"Existing Markdown review file preserved: {'yes' if existing_markdown_preserved else 'no'}")
+    print(f"Existing human review CSV preserved: {'yes' if existing_csv_preserved else 'no'}")
+    if existing_markdown_preserved:
+        print("Existing Markdown review file protected; not overwritten.")
+    if existing_csv_preserved:
         print("Existing human review CSV protected; not overwritten.")
 
     print("Done. Admin/service V2 selector workflow complete.")
