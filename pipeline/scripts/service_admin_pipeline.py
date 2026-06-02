@@ -49,7 +49,8 @@ Output folder:
   output-admin-service/decision-report-admin-service.csv  generated decision report artifact
 
 Manual rerun edits:
-  manual/service-admin-review.csv  compact human-editable manual_override/manual_select input
+  manual/service-admin-review.md   compact GitHub-editable action source
+  manual/service-admin-review.csv  preview table; manual_override/manual_select mirror Markdown actions
   manual_override accepts FORCE_INCLUDE, FORCE_EXCLUDE, or exclude (alias for FORCE_EXCLUDE)
 
 Run:
@@ -980,6 +981,39 @@ def _markdown_review_action_by_job_id(text: str) -> dict[str, str]:
     return actions
 
 
+def _markdown_review_action_rows(text: str) -> list[dict[str, str]]:
+    """Return explicit action blocks as preview rows so reruns keep them visible."""
+    rows: list[dict[str, str]] = []
+    for block in _parse_markdown_review_blocks(text):
+        job_id = norm(block.get("job_id"))
+        action = norm(block.get("action")).strip().lower()
+        if not job_id or action not in {"exclude", "select"}:
+            continue
+
+        summary_parts = [part.strip() for part in norm(block.get("summary")).split("|")]
+        summary_decision = summary_parts[0].upper() if summary_parts else ""
+        selection_status = ""
+        decision = norm(block.get("decision"))
+        if summary_decision == "SELECTED" or decision.upper() == "SELECTED":
+            selection_status = "SELECTED"
+            decision = "SELECTED"
+        elif summary_decision.startswith("POSS") or decision.upper().startswith("POSS"):
+            selection_status = "POSSIBLE_SELECTION"
+            decision = decision or summary_parts[0]
+
+        rows.append({
+            "decision": decision,
+            "region": norm(block.get("region")) or (summary_parts[1] if len(summary_parts) > 1 else ""),
+            "title": norm(block.get("title")) or (summary_parts[4] if len(summary_parts) > 4 else ""),
+            "town": norm(block.get("town")) or (summary_parts[2] if len(summary_parts) > 2 else ""),
+            "salary_text": norm(block.get("salary_text")) or (summary_parts[3] if len(summary_parts) > 3 else ""),
+            "manual_override": "FORCE_EXCLUDE" if action == "exclude" else "",
+            "manual_select": "1" if action == "select" else "",
+            "job_id": job_id,
+            "selection_status": selection_status,
+        })
+    return rows
+
 def load_manual_decisions_from_markdown() -> ManualDecisionState:
     """
     Read manual rerun decisions from manual/service-admin-review.md.
@@ -1737,13 +1771,36 @@ def write_decision_report(path: Path, rows: list[dict[str, Any]]) -> None:
         writer.writerows(rows)
 
 
-def write_manual_review_csv(path: Path, rows: list[dict[str, Any]]) -> None:
-    """Write the compact GitHub-editable service-admin review CSV."""
+def _manual_review_csv_rows(
+    rows: list[dict[str, Any]],
+    markdown_actions: dict[str, str] | None = None,
+) -> list[dict[str, Any]]:
+    """Overlay Markdown actions onto CSV preview rows by job_id."""
+    markdown_actions = markdown_actions or {}
+    csv_rows: list[dict[str, Any]] = []
+    for row in rows:
+        csv_row = {field: row.get(field, "") for field in MANUAL_REVIEW_FIELDNAMES}
+        action = markdown_actions.get(norm(row.get("job_id")))
+        if action == "exclude":
+            csv_row["manual_override"] = "FORCE_EXCLUDE"
+            csv_row["manual_select"] = ""
+        elif action == "select":
+            csv_row["manual_override"] = ""
+            csv_row["manual_select"] = "1"
+        csv_rows.append(csv_row)
+    return csv_rows
+
+
+def write_manual_review_csv(
+    path: Path,
+    rows: list[dict[str, Any]],
+    markdown_actions: dict[str, str] | None = None,
+) -> None:
+    """Write the compact GitHub-editable service-admin review CSV preview."""
     with path.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=MANUAL_REVIEW_FIELDNAMES)
         writer.writeheader()
-        for row in rows:
-            writer.writerow({field: row.get(field, "") for field in MANUAL_REVIEW_FIELDNAMES})
+        writer.writerows(_manual_review_csv_rows(rows, markdown_actions))
 
 
 def _markdown_review_rows(rows: list[dict[str, Any]], region: str, selection_status: str) -> list[dict[str, Any]]:
@@ -1752,6 +1809,37 @@ def _markdown_review_rows(rows: list[dict[str, Any]], region: str, selection_sta
         if str(row.get("region", "")) == region
         and str(row.get("selection_status", "")) == selection_status
     ]
+
+
+def _manual_review_preview_rows(
+    rows: list[dict[str, Any]],
+    preserved_action_rows: list[dict[str, str]] | None = None,
+) -> list[dict[str, Any]]:
+    """Return compact selected/possible preview rows, keeping actioned rows visible."""
+    preserved_action_rows = preserved_action_rows or []
+    preview_rows: list[dict[str, Any]] = []
+    preview_job_ids: set[str] = set()
+    groups = [
+        ("West Yorkshire", "SELECTED"),
+        ("West Yorkshire", "POSSIBLE_SELECTION"),
+        ("South Yorkshire", "SELECTED"),
+        ("South Yorkshire", "POSSIBLE_SELECTION"),
+    ]
+    for region, status in groups:
+        group_rows = _markdown_review_rows(rows, region, status)
+        group_job_ids = {_markdown_value(row.get("job_id")) for row in group_rows}
+        action_rows = [
+            row for row in preserved_action_rows
+            if _markdown_value(row.get("job_id")) not in group_job_ids
+            and _markdown_value(row.get("region")) == region
+            and _markdown_value(row.get("selection_status")) == status
+        ]
+        for row in [*action_rows, *group_rows]:
+            job_id = _markdown_value(row.get("job_id"))
+            if job_id and job_id not in preview_job_ids:
+                preview_rows.append(row)
+                preview_job_ids.add(job_id)
+    return preview_rows
 
 
 def _markdown_value(value: Any) -> str:
@@ -1763,9 +1851,11 @@ def write_manual_review_markdown(
     path: Path,
     rows: list[dict[str, Any]],
     preserved_actions: dict[str, str] | None = None,
+    preserved_action_rows: list[dict[str, str]] | None = None,
 ) -> None:
     """Write the compact GitHub-editable service-admin review Markdown file."""
     preserved_actions = preserved_actions or {}
+    preserved_action_rows = preserved_action_rows or []
     lines = [
         "# Service-admin manual review",
         "",
@@ -1788,11 +1878,19 @@ def write_manual_review_markdown(
     for heading, region, status, decision_label in groups:
         lines.extend([f"## {heading}", ""])
         group_rows = _markdown_review_rows(rows, region, status)
-        if not group_rows:
+        group_job_ids = {_markdown_value(row.get("job_id")) for row in group_rows}
+        group_action_rows = [
+            row for row in preserved_action_rows
+            if _markdown_value(row.get("job_id")) not in group_job_ids
+            and _markdown_value(row.get("region")) == region
+            and _markdown_value(row.get("selection_status")) == status
+        ]
+        review_rows = [*group_action_rows, *group_rows]
+        if not review_rows:
             lines.extend(["_No jobs in this group._", ""])
             continue
 
-        for row in group_rows:
+        for row in review_rows:
             job_id = _markdown_value(row.get("job_id"))
             action = preserved_actions.get(job_id, "")
             review_label = decision_label
@@ -1899,13 +1997,15 @@ def write_outputs(
     csv_review_created = False
     MANUAL_DIR.mkdir(exist_ok=True)
     preserved_markdown_actions: dict[str, str] = {}
+    preserved_markdown_action_rows: list[dict[str, str]] = []
     markdown_review_existed = MANUAL_REVIEW_MD_PATH.exists()
+    csv_review_existed = MANUAL_REVIEW_CSV_PATH.exists()
     markdown_review_can_write = True
     if markdown_review_existed:
         try:
-            preserved_markdown_actions = _markdown_review_action_by_job_id(
-                MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
-            )
+            markdown_review_text = MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
+            preserved_markdown_actions = _markdown_review_action_by_job_id(markdown_review_text)
+            preserved_markdown_action_rows = _markdown_review_action_rows(markdown_review_text)
         except Exception:
             markdown_review_can_write = False
     if markdown_review_can_write:
@@ -1913,11 +2013,19 @@ def write_outputs(
             MANUAL_REVIEW_MD_PATH,
             sorted_decision_rows,
             preserved_actions=preserved_markdown_actions,
+            preserved_action_rows=preserved_markdown_action_rows,
         )
     markdown_review_created = not markdown_review_existed and markdown_review_can_write
-    if not MANUAL_REVIEW_CSV_PATH.exists():
-        write_manual_review_csv(MANUAL_REVIEW_CSV_PATH, sorted_decision_rows)
-        csv_review_created = True
+
+    # The Markdown review remains the editable source of truth. Refresh the CSV
+    # preview on each run so visible manual_override/manual_select columns mirror
+    # the current Markdown actions by job_id.
+    write_manual_review_csv(
+        MANUAL_REVIEW_CSV_PATH,
+        _manual_review_preview_rows(sorted_decision_rows, preserved_markdown_action_rows),
+        markdown_actions=preserved_markdown_actions,
+    )
+    csv_review_created = not csv_review_existed
 
     return markdown_review_created, csv_review_created
 
@@ -1968,13 +2076,13 @@ def main() -> int:
     print(f"Markdown review file created: {'yes' if markdown_review_created else 'no'}")
     print(f"Human review CSV created: {'yes' if csv_review_created else 'no'}")
     existing_markdown_regenerated = markdown_review_exists and not markdown_review_created
-    existing_csv_preserved = human_review_csv_exists and not csv_review_created
+    existing_csv_refreshed = human_review_csv_exists and not csv_review_created
     print(f"Existing Markdown review file regenerated compactly: {'yes' if existing_markdown_regenerated else 'no'}")
-    print(f"Existing human review CSV preserved: {'yes' if existing_csv_preserved else 'no'}")
+    print(f"Existing human review CSV refreshed: {'yes' if existing_csv_refreshed else 'no'}")
     if existing_markdown_regenerated:
         print("Existing Markdown review action edits preserved by job_id where present.")
-    if existing_csv_preserved:
-        print("Existing human review CSV protected; not overwritten.")
+    if existing_csv_refreshed:
+        print("Existing human review CSV preview refreshed from Markdown actions by job_id.")
 
     print("Done. Admin/service V2 selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
