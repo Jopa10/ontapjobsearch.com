@@ -49,7 +49,7 @@ Output folder:
   output-admin-service/decision-report-admin-service.csv  generated decision report artifact
 
 Manual rerun edits:
-  manual/decision-report-admin-service.csv  reviewed manual_override/manual_select input
+  manual/service-admin-review.csv  compact human-editable manual_override/manual_select input
 
 Run:
   python -m scripts.service_admin_pipeline
@@ -72,7 +72,17 @@ INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-admin-service")
 DECISION_REPORT_PATH = OUTPUT_DIR / "decision-report-admin-service.csv"
 MANUAL_DIR = Path("manual")
-MANUAL_DECISION_REPORT_PATH = MANUAL_DIR / "decision-report-admin-service.csv"
+MANUAL_REVIEW_PATH = MANUAL_DIR / "service-admin-review.csv"
+MANUAL_REVIEW_FIELDNAMES = [
+    "decision",
+    "region",
+    "title",
+    "town",
+    "salary_text",
+    "manual_override",
+    "manual_select",
+    "job_id",
+]
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
 LOOKUP_FILE_KEYWORDS = ["lookup", "region", "town"]
@@ -884,7 +894,7 @@ def get_posted_date(row: pd.Series, df_columns: list[str]) -> str:
 
 @dataclass
 class ManualDecisionState:
-    """Editorial decisions loaded from the manual decision-report artifact."""
+    """Editorial decisions loaded from the compact human review CSV."""
 
     report_loaded: bool
     rerun_mode: bool
@@ -900,12 +910,12 @@ def _truthy_manual_marker(value: Any) -> bool:
 
 def load_manual_decisions() -> ManualDecisionState:
     """
-    Read manual rerun decisions from manual/decision-report-admin-service.csv.
+    Read manual rerun decisions from manual/service-admin-review.csv.
 
-    When the artifact is present and readable, the run is treated as an
-    editorial/manual rerun: explicit manual_select rows and rows previously
-    marked SELECTED are the only routine editorial picks retained after
-    credibility checks. The regional cap remains a maximum only.
+    When the compact human review CSV is present and readable, the run is
+    treated as an editorial/manual rerun: explicit manual_select rows and rows
+    previously marked SELECTED are the only routine editorial picks retained
+    after credibility checks. The regional cap remains a maximum only.
     """
     empty_state = ManualDecisionState(
         report_loaded=False,
@@ -915,11 +925,11 @@ def load_manual_decisions() -> ManualDecisionState:
         previously_selected=set(),
     )
 
-    if not MANUAL_DECISION_REPORT_PATH.exists():
+    if not MANUAL_REVIEW_PATH.exists():
         return empty_state
 
     try:
-        df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
+        df = pd.read_csv(MANUAL_REVIEW_PATH, dtype=str).fillna("")
     except Exception as exc:
         return ManualDecisionState(
             report_loaded=False,
@@ -927,7 +937,7 @@ def load_manual_decisions() -> ManualDecisionState:
             overrides={},
             selections=set(),
             previously_selected=set(),
-            load_warning=f"manual decision report exists but could not be read: {exc}",
+            load_warning=f"human review CSV exists but could not be read: {exc}",
         )
 
     overrides: dict[str, str] = {}
@@ -968,7 +978,7 @@ def load_manual_decisions() -> ManualDecisionState:
 
 def load_manual_overrides() -> dict[str, str]:
     """
-    Read supported manual_override values from the manual decision report.
+    Read supported manual_override values from the human review CSV.
 
     Supported manual_override values:
       FORCE_INCLUDE
@@ -978,7 +988,7 @@ def load_manual_overrides() -> dict[str, str]:
 
 
 def load_manual_selects() -> set[str]:
-    """Read manual_select = 1/yes/y/true from the manual decision report."""
+    """Read manual_select = 1/yes/y/true from the human review CSV."""
     return load_manual_decisions().selections
 
 
@@ -1585,6 +1595,15 @@ def write_decision_report(path: Path, rows: list[dict[str, Any]]) -> None:
         writer.writerows(rows)
 
 
+def write_manual_review_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    """Write the compact GitHub-editable service-admin review CSV."""
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=MANUAL_REVIEW_FIELDNAMES)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({field: row.get(field, "") for field in MANUAL_REVIEW_FIELDNAMES})
+
+
 def write_outputs(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
@@ -1658,15 +1677,16 @@ def write_outputs(
     sorted_decision_rows = sorted(report_rows, key=decision_report_sort_key)
     write_decision_report(DECISION_REPORT_PATH, sorted_decision_rows)
 
-    # GitHub-editable starter/manual source. Only create it when missing; never
-    # overwrite an existing reviewed file in pipeline/manual.
-    starter_created = False
-    if not MANUAL_DECISION_REPORT_PATH.exists():
+    # GitHub-editable review source. Only create it when missing; never overwrite
+    # an existing reviewed file in pipeline/manual. The full decision report stays
+    # in output-admin-service as the audit/detail artifact.
+    review_created = False
+    if not MANUAL_REVIEW_PATH.exists():
         MANUAL_DIR.mkdir(exist_ok=True)
-        write_decision_report(MANUAL_DECISION_REPORT_PATH, sorted_decision_rows)
-        starter_created = True
+        write_manual_review_csv(MANUAL_REVIEW_PATH, sorted_decision_rows)
+        review_created = True
 
-    return starter_created
+    return review_created
 
 
 def main() -> int:
@@ -1685,9 +1705,9 @@ def main() -> int:
     lookup_df = read_table(lookup_file)
     lookup = build_lookup(lookup_df)
 
-    manual_report_exists = MANUAL_DECISION_REPORT_PATH.exists()
+    human_review_exists = MANUAL_REVIEW_PATH.exists()
     manual_decisions = load_manual_decisions()
-    print(f"Manual decision report exists: {'yes' if manual_report_exists else 'no'}")
+    print(f"Human review CSV exists: {'yes' if human_review_exists else 'no'}")
     if manual_decisions.load_warning:
         print(f"WARNING: {manual_decisions.load_warning}")
     print(f"Manual rerun mode: {'yes' if manual_decisions.rerun_mode else 'no'}")
@@ -1706,12 +1726,12 @@ def main() -> int:
         print("Title classification register loaded: 0; using embedded V9 rule seeds")
 
     outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
-    starter_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
-    print(f"Starter manual decision report created: {'yes' if starter_created else 'no'}")
-    existing_report_preserved = manual_report_exists and not starter_created
-    print(f"Existing manual report preserved: {'yes' if existing_report_preserved else 'no'}")
-    if existing_report_preserved:
-        print("Existing manual decision report protected; not overwritten.")
+    review_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
+    print(f"Human review CSV created: {'yes' if review_created else 'no'}")
+    existing_review_preserved = human_review_exists and not review_created
+    print(f"Existing human review CSV preserved: {'yes' if existing_review_preserved else 'no'}")
+    if existing_review_preserved:
+        print("Existing human review CSV protected; not overwritten.")
 
     print("Done. Admin/service V2 selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
