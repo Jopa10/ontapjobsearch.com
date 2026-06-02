@@ -882,75 +882,96 @@ def get_posted_date(row: pd.Series, df_columns: list[str]) -> str:
     return ""
 
 
+@dataclass
+class ManualDecisionState:
+    """Editorial decisions loaded from the manual decision-report artifact."""
+
+    report_loaded: bool
+    rerun_mode: bool
+    overrides: dict[str, str]
+    selections: set[str]
+    previously_selected: set[str]
+
+
+def _truthy_manual_marker(value: Any) -> bool:
+    return norm(value).strip().lower() in {"1", "yes", "y", "true"}
+
+
+def load_manual_decisions() -> ManualDecisionState:
+    """
+    Read manual rerun decisions from manual/decision-report-admin-service.csv.
+
+    When the artifact is present and readable, the run is treated as an
+    editorial/manual rerun: explicit manual_select rows and rows previously
+    marked SELECTED are the only routine editorial picks retained after
+    credibility checks. The regional cap remains a maximum only.
+    """
+    empty_state = ManualDecisionState(
+        report_loaded=False,
+        rerun_mode=False,
+        overrides={},
+        selections=set(),
+        previously_selected=set(),
+    )
+
+    if not MANUAL_DECISION_REPORT_PATH.exists():
+        return empty_state
+
+    try:
+        df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
+    except Exception:
+        return empty_state
+
+    overrides: dict[str, str] = {}
+    selections: set[str] = set()
+    previously_selected: set[str] = set()
+
+    has_manual_override = "manual_override" in df.columns
+    has_manual_select = "manual_select" in df.columns
+    has_selection_status = "selection_status" in df.columns
+    has_decision = "decision" in df.columns
+
+    for _, row in df.iterrows():
+        job_id = norm(row.get("job_id"))
+        if not job_id:
+            continue
+
+        if has_manual_override:
+            override = norm(row.get("manual_override")).upper()
+            if override in {"FORCE_INCLUDE", "FORCE_EXCLUDE"}:
+                overrides[job_id] = override
+
+        if has_manual_select and _truthy_manual_marker(row.get("manual_select")):
+            selections.add(job_id)
+
+        selection_status = norm(row.get("selection_status")).upper() if has_selection_status else ""
+        decision = norm(row.get("decision")).upper() if has_decision else ""
+        if selection_status == "SELECTED" or decision == "SELECTED":
+            previously_selected.add(job_id)
+
+    return ManualDecisionState(
+        report_loaded=True,
+        rerun_mode=True,
+        overrides=overrides,
+        selections=selections,
+        previously_selected=previously_selected,
+    )
+
+
 def load_manual_overrides() -> dict[str, str]:
     """
-    Read manual overrides from manual/decision-report-admin-service.csv if it already exists.
+    Read supported manual_override values from the manual decision report.
 
     Supported manual_override values:
       FORCE_INCLUDE
       FORCE_EXCLUDE
-
-    Notes:
-    - First run normally has no manual_override values.
-    - After reviewing decision-report-admin-service.csv, upload it to manual/ and rerun.
-    - FORCE_INCLUDE bypasses missing include-term filtering but does NOT bypass hard exclusions
-      such as driver, senior, manager, nurse, teacher, semh, or housing.
     """
-    overrides: dict[str, str] = {}
-
-    if not MANUAL_DECISION_REPORT_PATH.exists():
-        return overrides
-
-    try:
-        df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
-    except Exception:
-        return overrides
-
-    if "manual_override" not in df.columns:
-        return overrides
-
-    for _, row in df.iterrows():
-        job_id = norm(row.get("job_id"))
-        override = norm(row.get("manual_override")).upper()
-
-        if not job_id:
-            continue
-
-        if override in {"FORCE_INCLUDE", "FORCE_EXCLUDE"}:
-            overrides[job_id] = override
-
-    return overrides
+    return load_manual_decisions().overrides
 
 
 def load_manual_selects() -> set[str]:
-    """
-    Read manual_select = 1 from manual/decision-report-admin-service.csv if it already exists.
-
-    V10 use:
-    - Only use this for Scenario 3 rows marked POSSIBLE_SELECTION.
-    - Keep manual_override for true FORCE_INCLUDE / FORCE_EXCLUDE exceptions.
-    """
-    selected: set[str] = set()
-
-    if not MANUAL_DECISION_REPORT_PATH.exists():
-        return selected
-
-    try:
-        df = pd.read_csv(MANUAL_DECISION_REPORT_PATH, dtype=str).fillna("")
-    except Exception:
-        return selected
-
-    if "manual_select" not in df.columns:
-        return selected
-
-    for _, row in df.iterrows():
-        job_id = norm(row.get("job_id"))
-        marker = norm(row.get("manual_select")).strip().lower()
-
-        if job_id and marker in {"1", "yes", "y", "true"}:
-            selected.add(job_id)
-
-    return selected
+    """Read manual_select = 1/yes/y/true from the manual decision report."""
+    return load_manual_decisions().selections
 
 
 
@@ -1212,6 +1233,8 @@ def process(
 def anchor_sort_and_cap(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
+    manual_rerun_mode: bool = False,
+    previously_selected_ids: set[str] | None = None,
 ) -> tuple[dict[str, list[dict[str, Any]]], dict[str, dict[str, Any]]]:
     """
     Admin/service V2 selection logic.
@@ -1219,12 +1242,15 @@ def anchor_sort_and_cap(
     Core behaviour:
     - Cap remains 12 per region.
     - FORCE_EXCLUDE removes bad rows earlier in process().
-    - manual_select = 1 promotes a credible row into the selected set before routine ranking,
-      making swaps practical after FORCE_EXCLUDE has removed an unwanted selected row.
+    - In manual rerun mode, previously SELECTED rows and manual_select = 1 rows are
+      the editorial selection set; routine cap-filling/backfill is disabled.
+    - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
+      selected set before routine ranking.
     - POSS rows are shown as the next credible swap/review candidates even when the slice is full.
     """
     final_outputs: dict[str, list[dict[str, Any]]] = {}
     selected_ids: set[str] = set()
+    previously_selected_ids = previously_selected_ids or set()
     possible_selection_ids: dict[str, int] = {}
     region_status: dict[str, dict[str, Any]] = {}
 
@@ -1289,6 +1315,10 @@ def anchor_sort_and_cap(
             [item for item in routine if str(item.get("_manual_select", "")).strip() == "1"],
             key=routine_sort_key,
         )
+        previously_selected = sorted(
+            [item for item in routine if str(item.get("job_id", "")) in previously_selected_ids],
+            key=routine_sort_key,
+        )
 
         selected: list[dict[str, Any]] = []
         seen: set[str] = set()
@@ -1305,42 +1335,55 @@ def anchor_sort_and_cap(
         credible_total = len(forced + hc + anchor_elastic + other_elastic)
         base_without_manual = len(forced) + len(hc) + len(anchor_elastic)
 
-        # V2: manual_select rows are deliberate editorial choices, so add them before routine fill.
-        add_candidates(forced, cap)
-        add_candidates(manually_selected, cap)
-        add_candidates(hc, cap)
-        add_candidates(anchor_elastic, cap)
-        add_candidates(other_elastic, cap)
-
-        if credible_total < threshold:
-            scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
+        if manual_rerun_mode:
+            # Editorial reruns preserve the reviewed selected set and only add explicit
+            # manual_select rows. Do not refill to the cap from routine HC/elastic pools.
+            add_candidates(forced, cap)
+            add_candidates(previously_selected, cap)
+            add_candidates(manually_selected, cap)
+            scenario = "SCENARIO_MANUAL_RERUN"
             message = (
-                f"{region} selection below publish threshold: {credible_total}/{threshold} credible roles. "
-                "Do not publish/refresh this slice from this run."
+                f"{region} manual rerun: {len(previously_selected)} previously SELECTED row(s) retained "
+                f"and {len(manually_selected)} manual_select row(s) applied; "
+                f"{min(len(selected), cap)}/{cap} selected. Cap treated as a maximum; auto backfill disabled."
             )
-        elif manually_selected:
-            scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
-            message = (
-                f"{region} manual_select applied: {len(manually_selected)} row(s) prioritised; "
-                f"{min(len(selected), cap)}/{cap} selected."
-            )
-        elif len(forced) + len(hc) >= cap:
-            scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
-            message = (
-                f"{region} selection complete: HIGH_CONFIDENCE roles meet/exceed cap; "
-                f"{anchor} HC roles protected before cap."
-            )
-        elif base_without_manual >= cap:
-            scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
-            message = f"{region} selection complete: HIGH_CONFIDENCE plus {anchor} ELASTIC_FIT fills cap."
         else:
-            needed = max(cap - base_without_manual, 0)
-            scenario = "SCENARIO_3_ACTION_REQUIRED"
-            message = (
-                f"{region} selection incomplete: {base_without_manual}/{cap} selected after HIGH_CONFIDENCE + "
-                f"{anchor} ELASTIC_FIT. {needed} slots remain. Review POSS candidates; "
-                "put 1 in manual_select for chosen rows and rerun."
-            )
+            # V2: manual_select rows are deliberate editorial choices, so add them before routine fill.
+            add_candidates(forced, cap)
+            add_candidates(manually_selected, cap)
+            add_candidates(hc, cap)
+            add_candidates(anchor_elastic, cap)
+            add_candidates(other_elastic, cap)
+
+            if credible_total < threshold:
+                scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
+                message = (
+                    f"{region} selection below publish threshold: {credible_total}/{threshold} credible roles. "
+                    "Do not publish/refresh this slice from this run."
+                )
+            elif manually_selected:
+                scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
+                message = (
+                    f"{region} manual_select applied: {len(manually_selected)} row(s) prioritised; "
+                    f"{min(len(selected), cap)}/{cap} selected."
+                )
+            elif len(forced) + len(hc) >= cap:
+                scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
+                message = (
+                    f"{region} selection complete: HIGH_CONFIDENCE roles meet/exceed cap; "
+                    f"{anchor} HC roles protected before cap."
+                )
+            elif base_without_manual >= cap:
+                scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
+                message = f"{region} selection complete: HIGH_CONFIDENCE plus {anchor} ELASTIC_FIT fills cap."
+            else:
+                needed = max(cap - base_without_manual, 0)
+                scenario = "SCENARIO_3_ACTION_REQUIRED"
+                message = (
+                    f"{region} selection incomplete: {base_without_manual}/{cap} selected after HIGH_CONFIDENCE + "
+                    f"{anchor} ELASTIC_FIT. {needed} slots remain. Review POSS candidates; "
+                    "put 1 in manual_select for chosen rows and rerun."
+                )
 
         capped_selected = selected[:cap]
         selected_for_region = {str(item.get("job_id", "")) for item in capped_selected}
@@ -1472,11 +1515,23 @@ def write_selection_summary_report(
         writer.writeheader()
         writer.writerows(rows)
 
-def write_outputs(outputs: dict[str, list[dict[str, Any]]], report_rows: list[dict[str, Any]], total_input: int) -> None:
+def write_outputs(
+    outputs: dict[str, list[dict[str, Any]]],
+    report_rows: list[dict[str, Any]],
+    total_input: int,
+    manual_decisions: ManualDecisionState | None = None,
+) -> None:
     OUTPUT_DIR.mkdir(exist_ok=True)
 
+    manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
+
     # IMPORTANT: cap first, then write JSON and validation counts from the capped output.
-    outputs, region_status = anchor_sort_and_cap(outputs, report_rows)
+    outputs, region_status = anchor_sort_and_cap(
+        outputs,
+        report_rows,
+        manual_rerun_mode=manual_decisions.rerun_mode,
+        previously_selected_ids=manual_decisions.previously_selected,
+    )
 
     for region, filename in OUTPUT_FILES.items():
         path = OUTPUT_DIR / filename
@@ -1604,17 +1659,16 @@ def main() -> int:
     lookup_df = read_table(lookup_file)
     lookup = build_lookup(lookup_df)
 
-    overrides = load_manual_overrides()
-    if overrides:
-        print(f"Manual overrides loaded: {len(overrides)}")
-    else:
-        print("Manual overrides loaded: 0")
+    manual_decisions = load_manual_decisions()
+    print(f"Manual decision report loaded: {'yes' if manual_decisions.report_loaded else 'no'}")
+    print(f"Manual rerun mode: {'yes' if manual_decisions.rerun_mode else 'no'}")
+    print(f"Manual overrides loaded: {len(manual_decisions.overrides)}")
+    print(f"Manual selections loaded: {len(manual_decisions.selections)}")
+    if manual_decisions.rerun_mode:
+        print("Auto backfill disabled because manual rerun mode is active")
 
-    manual_selects = load_manual_selects()
-    if manual_selects:
-        print(f"Manual selections loaded: {len(manual_selects)}")
-    else:
-        print("Manual selections loaded: 0")
+    overrides = manual_decisions.overrides
+    manual_selects = manual_decisions.selections
 
     title_register = load_title_register()
     if title_register:
@@ -1623,7 +1677,7 @@ def main() -> int:
         print("Title classification register loaded: 0; using embedded V9 rule seeds")
 
     outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
-    write_outputs(outputs, report_rows, len(job_df))
+    write_outputs(outputs, report_rows, len(job_df), manual_decisions)
 
     print("Done. Admin/service V2 selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
