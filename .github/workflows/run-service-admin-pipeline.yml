@@ -23,16 +23,16 @@ jobs:
       - name: Install Python packages
         run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Check human review CSV
-        id: human-review
+      - name: Check Markdown review file
+        id: markdown-review
         run: |
           set -euo pipefail
-          review_path="pipeline/manual/service-admin-review.csv"
+          review_path="pipeline/manual/service-admin-review.md"
           if [ -f "$review_path" ]; then
-            echo "Human review CSV exists: yes"
+            echo "Markdown review file exists: yes"
             echo "exists_before=yes" >> "$GITHUB_OUTPUT"
           else
-            echo "Human review CSV exists: no"
+            echo "Markdown review file exists: no"
             echo "exists_before=no" >> "$GITHUB_OUTPUT"
           fi
 
@@ -40,30 +40,30 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
 
-      - name: Commit starter human review CSV
+      - name: Commit starter Markdown review file
         env:
-          HUMAN_REVIEW_EXISTS_BEFORE: ${{ steps.human-review.outputs.exists_before }}
+          MARKDOWN_REVIEW_EXISTS_BEFORE: ${{ steps.markdown-review.outputs.exists_before }}
         run: |
           set -euo pipefail
-          review_path="pipeline/manual/service-admin-review.csv"
+          review_path="pipeline/manual/service-admin-review.md"
 
-          if [ "$HUMAN_REVIEW_EXISTS_BEFORE" = "yes" ]; then
-            echo "Existing human review CSV preserved: yes"
-            echo "Human review CSV committed: no"
+          if [ "$MARKDOWN_REVIEW_EXISTS_BEFORE" = "yes" ]; then
+            echo "Existing Markdown review file preserved: yes"
+            echo "Markdown review file committed: no"
             exit 0
           fi
 
-          echo "Existing human review CSV preserved: no"
+          echo "Existing Markdown review file preserved: no"
 
           if [ ! -f "$review_path" ]; then
             echo "::warning::Service-admin pipeline did not create $review_path."
-            echo "Human review CSV committed: no"
+            echo "Markdown review file committed: no"
             exit 0
           fi
 
           if [ -z "$(git status --porcelain -- "$review_path")" ]; then
-            echo "No starter human review CSV changes to commit."
-            echo "Human review CSV committed: no"
+            echo "No starter Markdown review file changes to commit."
+            echo "Markdown review file committed: no"
             exit 0
           fi
 
@@ -79,9 +79,9 @@ jobs:
             exit 1
           fi
 
-          git commit -m "Add starter service-admin review CSV"
+          git commit -m "Add starter service-admin review Markdown"
           git push
-          echo "Human review CSV committed: yes"
+          echo "Markdown review file committed: yes"
 
       - name: Upload service-admin output
         if: always()
