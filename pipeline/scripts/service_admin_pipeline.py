@@ -928,9 +928,16 @@ def normalise_manual_override(value: Any) -> str:
 
 
 def _parse_markdown_review_blocks(text: str) -> list[dict[str, str]]:
-    """Parse simple --- delimited key/value blocks from service-admin-review.md."""
+    """Parse --- delimited key/value blocks from service-admin-review.md.
+
+    The current compact review format keeps the editable ``action:`` field on
+    one line and puts the immutable job summary on the next line. Older files
+    used one key/value line per field. This parser accepts both shapes so
+    existing edited actions can be preserved when the review file is tightened.
+    """
     blocks: list[dict[str, str]] = []
     current: dict[str, str] | None = None
+    last_key: str | None = None
 
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -940,21 +947,37 @@ def _parse_markdown_review_blocks(text: str) -> list[dict[str, str]]:
                 current = None
             else:
                 current = {}
+            last_key = None
             continue
 
         if current is None or not line or line.startswith("#"):
             continue
 
-        if ":" not in line:
+        key_match = re.match(r"^([A-Za-z_][A-Za-z0-9_ -]*):(.*)$", line)
+        if key_match:
+            key, value = key_match.groups()
+            last_key = key.strip().lower()
+            current[last_key] = value.strip()
             continue
 
-        key, value = line.split(":", 1)
-        current[key.strip().lower()] = value.strip()
+        if last_key == "action":
+            current["summary"] = line
 
     if current is not None and current:
         blocks.append(current)
 
     return blocks
+
+
+def _markdown_review_action_by_job_id(text: str) -> dict[str, str]:
+    """Return explicit Markdown review actions keyed by job_id."""
+    actions: dict[str, str] = {}
+    for block in _parse_markdown_review_blocks(text):
+        job_id = norm(block.get("job_id"))
+        action = norm(block.get("action")).strip().lower()
+        if job_id and action in {"exclude", "select"}:
+            actions[job_id] = action
+    return actions
 
 
 def load_manual_decisions_from_markdown() -> ManualDecisionState:
@@ -994,7 +1017,9 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
         elif action == "select":
             selections.add(job_id)
 
-        if norm(block.get("decision")).upper() == "SELECTED":
+        decision = norm(block.get("decision")).upper()
+        summary_decision = norm(block.get("summary")).split("|", 1)[0].strip().upper()
+        if decision == "SELECTED" or summary_decision == "SELECTED":
             previously_selected.add(job_id)
 
     markdown_excludes = sum(1 for value in overrides.values() if value == "FORCE_EXCLUDE")
@@ -1734,8 +1759,13 @@ def _markdown_value(value: Any) -> str:
     return re.sub(r"\s+", " ", norm(value)).strip()
 
 
-def write_manual_review_markdown(path: Path, rows: list[dict[str, Any]]) -> None:
-    """Write the GitHub-editable service-admin review Markdown file."""
+def write_manual_review_markdown(
+    path: Path,
+    rows: list[dict[str, Any]],
+    preserved_actions: dict[str, str] | None = None,
+) -> None:
+    """Write the compact GitHub-editable service-admin review Markdown file."""
+    preserved_actions = preserved_actions or {}
     lines = [
         "# Service-admin manual review",
         "",
@@ -1763,15 +1793,23 @@ def write_manual_review_markdown(path: Path, rows: list[dict[str, Any]]) -> None
             continue
 
         for row in group_rows:
+            job_id = _markdown_value(row.get("job_id"))
+            action = preserved_actions.get(job_id, "")
+            review_label = decision_label
+            if decision_label == "POSS":
+                review_label = f"POSS - {region.upper()}"
+            summary = " | ".join([
+                review_label,
+                _markdown_value(row.get("region")),
+                _markdown_value(row.get("town")),
+                _markdown_value(row.get("salary_text")),
+                _markdown_value(row.get("title")),
+            ])
             lines.extend([
                 "---",
-                f"region: {_markdown_value(row.get('region'))}",
-                f"decision: {decision_label}",
-                f"title: {_markdown_value(row.get('title'))}",
-                f"town: {_markdown_value(row.get('town'))}",
-                f"salary_text: {_markdown_value(row.get('salary_text'))}",
-                f"job_id: {_markdown_value(row.get('job_id'))}",
-                "action:",
+                f"action: {action}" if action else "action:",
+                summary,
+                f"job_id: {job_id}",
                 "---",
                 "",
             ])
@@ -1853,16 +1891,30 @@ def write_outputs(
     write_decision_report(DECISION_REPORT_PATH, sorted_decision_rows)
 
     # Review sources for humans. The Markdown file is the GitHub-editable manual
-    # source. It is created only when missing so edited actions are never
-    # overwritten. The CSV remains a short preview/table overview for backwards
-    # compatibility. The full decision report stays in output-admin-service as
-    # the audit/detail artifact.
+    # source. It is regenerated in compact form while preserving explicit
+    # action edits by job_id. The CSV remains a short preview/table overview for
+    # backwards compatibility. The full decision report stays in
+    # output-admin-service as the audit/detail artifact.
     markdown_review_created = False
     csv_review_created = False
     MANUAL_DIR.mkdir(exist_ok=True)
-    if not MANUAL_REVIEW_MD_PATH.exists():
-        write_manual_review_markdown(MANUAL_REVIEW_MD_PATH, sorted_decision_rows)
-        markdown_review_created = True
+    preserved_markdown_actions: dict[str, str] = {}
+    markdown_review_existed = MANUAL_REVIEW_MD_PATH.exists()
+    markdown_review_can_write = True
+    if markdown_review_existed:
+        try:
+            preserved_markdown_actions = _markdown_review_action_by_job_id(
+                MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
+            )
+        except Exception:
+            markdown_review_can_write = False
+    if markdown_review_can_write:
+        write_manual_review_markdown(
+            MANUAL_REVIEW_MD_PATH,
+            sorted_decision_rows,
+            preserved_actions=preserved_markdown_actions,
+        )
+    markdown_review_created = not markdown_review_existed and markdown_review_can_write
     if not MANUAL_REVIEW_CSV_PATH.exists():
         write_manual_review_csv(MANUAL_REVIEW_CSV_PATH, sorted_decision_rows)
         csv_review_created = True
@@ -1915,12 +1967,12 @@ def main() -> int:
     markdown_review_created, csv_review_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
     print(f"Markdown review file created: {'yes' if markdown_review_created else 'no'}")
     print(f"Human review CSV created: {'yes' if csv_review_created else 'no'}")
-    existing_markdown_preserved = markdown_review_exists and not markdown_review_created
+    existing_markdown_regenerated = markdown_review_exists and not markdown_review_created
     existing_csv_preserved = human_review_csv_exists and not csv_review_created
-    print(f"Existing Markdown review file preserved: {'yes' if existing_markdown_preserved else 'no'}")
+    print(f"Existing Markdown review file regenerated compactly: {'yes' if existing_markdown_regenerated else 'no'}")
     print(f"Existing human review CSV preserved: {'yes' if existing_csv_preserved else 'no'}")
-    if existing_markdown_preserved:
-        print("Existing Markdown review file protected; not overwritten.")
+    if existing_markdown_regenerated:
+        print("Existing Markdown review action edits preserved by job_id where present.")
     if existing_csv_preserved:
         print("Existing human review CSV protected; not overwritten.")
 
