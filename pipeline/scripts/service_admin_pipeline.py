@@ -1708,7 +1708,9 @@ def main() -> int:
     outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
     starter_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
     print(f"Starter manual decision report created: {'yes' if starter_created else 'no'}")
-    if manual_report_exists and not starter_created:
+    existing_report_preserved = manual_report_exists and not starter_created
+    print(f"Existing manual report preserved: {'yes' if existing_report_preserved else 'no'}")
+    if existing_report_preserved:
         print("Existing manual decision report protected; not overwritten.")
 
     print("Done. Admin/service V2 selector workflow complete.")
