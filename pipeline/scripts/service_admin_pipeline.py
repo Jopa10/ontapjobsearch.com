@@ -50,6 +50,7 @@ Output folder:
 
 Manual rerun edits:
   manual/service-admin-review.csv  compact human-editable manual_override/manual_select input
+  manual_override accepts FORCE_INCLUDE, FORCE_EXCLUDE, or exclude (alias for FORCE_EXCLUDE)
 
 Run:
   python -m scripts.service_admin_pipeline
@@ -904,8 +905,20 @@ class ManualDecisionState:
     load_warning: str = ""
 
 
+MANUAL_OVERRIDE_ALIASES = {
+    "FORCE_INCLUDE": "FORCE_INCLUDE",
+    "FORCE_EXCLUDE": "FORCE_EXCLUDE",
+    "EXCLUDE": "FORCE_EXCLUDE",
+}
+
+
 def _truthy_manual_marker(value: Any) -> bool:
     return norm(value).strip().lower() in {"1", "yes", "y", "true"}
+
+
+def normalise_manual_override(value: Any) -> str:
+    """Return the internal manual_override token for a human-entered value."""
+    return MANUAL_OVERRIDE_ALIASES.get(norm(value).strip().upper(), "")
 
 
 def load_manual_decisions() -> ManualDecisionState:
@@ -955,8 +968,8 @@ def load_manual_decisions() -> ManualDecisionState:
             continue
 
         if has_manual_override:
-            override = norm(row.get("manual_override")).upper()
-            if override in {"FORCE_INCLUDE", "FORCE_EXCLUDE"}:
+            override = normalise_manual_override(row.get("manual_override"))
+            if override:
                 overrides[job_id] = override
 
         if has_manual_select and _truthy_manual_marker(row.get("manual_select")):
@@ -983,6 +996,7 @@ def load_manual_overrides() -> dict[str, str]:
     Supported manual_override values:
       FORCE_INCLUDE
       FORCE_EXCLUDE
+      exclude (alias for FORCE_EXCLUDE)
     """
     return load_manual_decisions().overrides
 
@@ -1259,7 +1273,8 @@ def anchor_sort_and_cap(
 
     Core behaviour:
     - Cap remains 12 per region.
-    - FORCE_EXCLUDE removes bad rows earlier in process().
+    - FORCE_EXCLUDE removes bad rows earlier in process(); human-entered
+      exclude is normalised to FORCE_EXCLUDE.
     - In manual rerun mode, previously SELECTED rows and manual_select = 1 rows are
       the editorial selection set; routine cap-filling/backfill is disabled.
     - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
