@@ -602,6 +602,18 @@ def find_input_file(keywords: list[str], exclude: Path | None = None) -> Path:
     )
 
 
+def _unique_paths(paths: list[Path]) -> list[Path]:
+    seen: set[Path] = set()
+    unique: list[Path] = []
+    for path in paths:
+        resolved = path.resolve()
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        unique.append(path)
+    return unique
+
+
 def find_lookup_file(job_file: Path) -> Path:
     """
     Find the geo lookup safely, using the same practical behaviour as the working admin/service script.
@@ -640,7 +652,7 @@ def find_lookup_file(job_file: Path) -> Path:
 
     # Fallback only: support the geo lookup sitting beside the script/pipeline folder.
     script_dir = Path(__file__).resolve().parent
-    fallback_dirs = [Path.cwd(), script_dir]
+    fallback_dirs = [Path("geo"), Path.cwd(), script_dir]
     fallback_matches = valid_lookup_candidates(fallback_dirs)
     if len(fallback_matches) == 1:
         return fallback_matches[0]
@@ -954,17 +966,12 @@ def load_manual_selects() -> set[str]:
 
 
 def find_optional_input_file(keywords: list[str]) -> Path | None:
-    """Return an optional input file if one clearly matches; otherwise None."""
-    if not INPUT_DIR.exists():
-        return None
-    files = [
-        p for p in INPUT_DIR.iterdir()
-        if p.suffix.lower() in {".xlsx", ".xls", ".csv"}
-        and not p.name.startswith("~$")
-    ]
-    matches = [p for p in files if any(k in p.name.lower() for k in keywords)]
-    if len(matches) == 1:
-        return matches[0]
+    """Return an optional input/register file if one clearly matches; otherwise None."""
+    files = _candidate_tables([INPUT_DIR, Path("registers")])
+    for keyword in keywords:
+        matches = [path for path in files if keyword in path.name.lower()]
+        if len(matches) == 1:
+            return matches[0]
     return None
 
 
@@ -1597,7 +1604,7 @@ def main() -> int:
         raise SystemExit("Created /input folder. Put the JobG8 export and lookup file in it, then run again.")
 
     job_file = find_input_file(JOB_FILE_KEYWORDS)
-    lookup_file = find_input_file(LOOKUP_FILE_KEYWORDS, exclude=job_file)
+    lookup_file = find_lookup_file(job_file)
 
     print(f"Reading JobG8 export: {job_file}")
     job_df = read_table(job_file)
