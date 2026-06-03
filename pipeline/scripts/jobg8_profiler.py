@@ -119,6 +119,8 @@ COMPILER_SUMMARY_COLUMNS = [
 ]
 
 TRACKED_ONTAP_REGIONS = ["West Yorkshire", "South Yorkshire"]
+UNMAPPED_LOCATION_WARNING_THRESHOLD = 0.20
+UNMAPPED_LOCATION_HIGH_THRESHOLD = 0.50
 
 
 # -----------------------------
@@ -564,6 +566,9 @@ COLUMN_ALIASES = {
     "location": [
         "location", "job location", "/job/location", "city", "town", "region",
     ],
+    "area": [
+        "/job/area", "job area", "area", "town", "city",
+    ],
     "description": [
         "description", "job description", "/job/description", "body", "job_description",
     ],
@@ -634,6 +639,46 @@ def require_column(df: pd.DataFrame, logical_name: str) -> str:
             f"Available columns: {list(df.columns)}"
         )
     return col
+
+
+def is_missing_location_value(value: object) -> bool:
+    text = normalise_lookup_place(value)
+    if not text:
+        return True
+    return text in {
+        "not specified",
+        "not set",
+        "unknown",
+        "n/a",
+        "na",
+        "none",
+        "null",
+        "city",
+        "town",
+    }
+
+
+def choose_region_mapping_location(area: object, location: object) -> str:
+    """Choose the most specific JobG8 geography field for region mapping.
+
+    JobG8 exports often put the specific town/city in /Job/Area and a broader
+    county/feed geography in /Job/Location. Ontap region mapping should therefore
+    prefer /Job/Area when it contains a real place, falling back to /Job/Location
+    for rows where /Job/Area is blank/generic (for example "Not Specified").
+    """
+    area_text = str(area or "").strip()
+    if not is_missing_location_value(area_text):
+        return area_text
+    return str(location or "").strip()
+
+
+def find_region_mapping_columns(df: pd.DataFrame) -> Tuple[Optional[str], Optional[str]]:
+    """Return the source columns used to build the mappable JobG8 location.
+
+    The first value is the town/area column and the second is the broader
+    location fallback. These names are logged so region mapping can be audited.
+    """
+    return find_column(df, "area"), find_column(df, "location")
 
 
 # -----------------------------
@@ -789,7 +834,7 @@ def read_jobg8_file(path: Path, geo_mapper: Optional[GeoMapper] = None) -> pd.Da
         return df
 
     title_col = require_column(df, "title")
-    location_col = find_column(df, "location")
+    area_col, location_col = find_region_mapping_columns(df)
     description_col = find_column(df, "description")
     company_col = find_column(df, "company")
     salary_col = find_column(df, "salary")
@@ -804,7 +849,12 @@ def read_jobg8_file(path: Path, geo_mapper: Optional[GeoMapper] = None) -> pd.Da
     out["title"] = df[title_col].fillna("").astype(str)
     out["normalised_title"] = out["title"].apply(normalise_title)
 
-    out["location"] = df[location_col].fillna("").astype(str) if location_col else ""
+    out["jobg8_area"] = df[area_col].fillna("").astype(str) if area_col else ""
+    out["jobg8_location"] = df[location_col].fillna("").astype(str) if location_col else ""
+    out["location"] = [
+        choose_region_mapping_location(area, location)
+        for area, location in zip(out["jobg8_area"], out["jobg8_location"])
+    ]
     out["description"] = df[description_col].fillna("").astype(str) if description_col else ""
     out["company"] = df[company_col].fillna("").astype(str) if company_col else ""
     out["salary_text"] = df[salary_col].fillna("").astype(str) if salary_col else ""
@@ -1473,8 +1523,8 @@ def build_compiler_summary_from_outputs(
         audit = location_audit.copy()
         audit["total_count_numeric"] = pd.to_numeric(audit["total_count"], errors="coerce").fillna(0)
         unmapped_count = int(audit.loc[audit["mapped_region"].astype(str) == "Other / Unknown", "total_count_numeric"].sum())
-        if total_jobs and unmapped_count / total_jobs >= 0.2:
-            severity = "HIGH" if unmapped_count / total_jobs >= 0.5 else "MEDIUM"
+        if total_jobs and unmapped_count / total_jobs >= UNMAPPED_LOCATION_WARNING_THRESHOLD:
+            severity = "HIGH" if unmapped_count / total_jobs >= UNMAPPED_LOCATION_HIGH_THRESHOLD else "MEDIUM"
             compiler_add_warning(
                 qa_rows,
                 month,
@@ -1760,6 +1810,8 @@ def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.Data
             "month": month,
             "mapped_region": region,
             "raw_location": loc,
+            "raw_jobg8_area": top_values(group["jobg8_area"], limit=3) if "jobg8_area" in group.columns else "",
+            "raw_jobg8_location": top_values(group["jobg8_location"], limit=3) if "jobg8_location" in group.columns else "",
             "match_source": match_source,
             "match_place": match_place,
             "total_count": len(group),
@@ -1770,8 +1822,8 @@ def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.Data
 
     if not rows:
         return pd.DataFrame(columns=[
-            "month", "mapped_region", "raw_location", "match_source", "match_place",
-            "total_count", "unique_companies", "top_titles", "top_families"
+            "month", "mapped_region", "raw_location", "raw_jobg8_area", "raw_jobg8_location",
+            "match_source", "match_place", "total_count", "unique_companies", "top_titles", "top_families"
         ])
 
     return pd.DataFrame(rows).sort_values(
@@ -1875,6 +1927,33 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
 
     all_jobs = pd.concat(frames, ignore_index=True)
 
+    area_columns = []
+    location_columns = []
+    for path in files:
+        try:
+            header_df = pd.read_excel(path, engine="openpyxl", nrows=0)
+        except TypeError:
+            header_df = pd.read_excel(path, nrows=0)
+        except Exception:
+            continue
+        area_col, location_col = find_region_mapping_columns(header_df)
+        if area_col and area_col not in area_columns:
+            area_columns.append(area_col)
+        if location_col and location_col not in location_columns:
+            location_columns.append(location_col)
+
+    region_match_source_counts = top_values(all_jobs["region_match_source"], limit=10)
+    other_unknown_count = int((all_jobs["region"] == "Other / Unknown").sum())
+    other_unknown_ratio = (other_unknown_count / len(all_jobs)) if len(all_jobs) else 0
+    expected_lookup_checks = [
+        "Leeds", "Bradford", "Wakefield", "Huddersfield", "Halifax",
+        "Sheffield", "Rotherham", "Doncaster", "Barnsley",
+    ]
+    lookup_check_results = []
+    for place in expected_lookup_checks:
+        region, matched_place = geo_mapper.lookup_match(place)
+        lookup_check_results.append(f"{place}->{region or 'unmapped'} via {matched_place or 'no lookup match'}")
+
     daily_dir = output_dir / "daily"
     monthly_dir = output_dir / "monthly"
     title_dir = output_dir / "title-analysis"
@@ -1929,6 +2008,12 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"Geo lookup status: {geo_lookup_status}",
         f"Geo lookup rows loaded: {geo_mapper.lookup_rows_loaded}",
         f"Fallback keyword rules used: {fallback_status}",
+        f"Region mapping town/area source columns: {', '.join(area_columns) if area_columns else 'none found'}",
+        f"Region mapping fallback location columns: {', '.join(location_columns) if location_columns else 'none found'}",
+        f"Region match source counts: {region_match_source_counts}",
+        f"Other / Unknown region count: {other_unknown_count} of {len(all_jobs)} ({other_unknown_ratio:.1%})",
+        f"Other / Unknown warning threshold: {UNMAPPED_LOCATION_WARNING_THRESHOLD:.0%}",
+        "Lookup verification checks: " + "; ".join(lookup_check_results),
         "",
         "Output files:",
         f"- {daily_dir / f'{month}-daily-summary.csv'}",
@@ -1951,6 +2036,13 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     if compiler_warnings:
         log_lines.extend(["", "Compiler summary warnings:"])
         log_lines.extend(f"- {warning}" for warning in compiler_warnings)
+
+    if other_unknown_ratio >= UNMAPPED_LOCATION_WARNING_THRESHOLD:
+        log_lines.extend([
+            "",
+            "Region mapping QA warning:",
+            f"- {other_unknown_count} of {len(all_jobs)} jobs ({other_unknown_ratio:.1%}) still map to Other / Unknown after lookup mapping.",
+        ])
 
     if geo_mapper.lookup_error:
         log_lines.extend(["", f"Geo lookup note: {geo_mapper.lookup_error}"])

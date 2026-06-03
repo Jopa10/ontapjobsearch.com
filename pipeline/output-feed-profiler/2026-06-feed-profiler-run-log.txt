@@ -3,22 +3,31 @@ Input folder: input
 Files found: 1
 Files read successfully: 1
 Total rows profiled: 2968
-Current working directory: /home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline
-Resolved geo lookup path: /home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline/geo/lookup.xlsx
+Current working directory: /workspace/ontapjobsearch.com/pipeline
+Resolved geo lookup path: /workspace/ontapjobsearch.com/pipeline/geo/lookup.xlsx
 Geo lookup file exists: yes
 Geo lookup status: loaded
 Geo lookup rows loaded: 164
 Fallback keyword rules used: no
+Region mapping town/area source columns: /Job/Area
+Region mapping fallback location columns: /Job/Location
+Region match source counts: unmapped (2547); location_lookup (417); title_description_lookup (4)
+Other / Unknown region count: 2547 of 2968 (85.8%)
+Other / Unknown warning threshold: 20%
+Lookup verification checks: Leeds->West Yorkshire via leeds; Bradford->West Yorkshire via bradford; Wakefield->West Yorkshire via wakefield; Huddersfield->West Yorkshire via huddersfield; Halifax->West Yorkshire via halifax; Sheffield->South Yorkshire via sheffield; Rotherham->South Yorkshire via rotherham; Doncaster->South Yorkshire via doncaster; Barnsley->South Yorkshire via barnsley
 
 Output files:
-- output-feed-profiler/daily/2026-06-daily-summary.csv
-- output-feed-profiler/monthly/2026-06-family-trends.csv
-- output-feed-profiler/monthly/2026-06-slice-viability.csv
-- output-feed-profiler/title-analysis/2026-06-top-titles.csv
-- output-feed-profiler/title-analysis/2026-06-unclassified-titles.csv
-- output-feed-profiler/title-analysis/2026-06-title-breadth.csv
-- output-feed-profiler/regional/2026-06-family-region-breakdown.csv
-- output-feed-profiler/regional/2026-06-regional-location-audit.csv
-- output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/daily/2026-06-daily-summary.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/monthly/2026-06-family-trends.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/monthly/2026-06-slice-viability.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/title-analysis/2026-06-top-titles.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/title-analysis/2026-06-unclassified-titles.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/title-analysis/2026-06-title-breadth.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/regional/2026-06-family-region-breakdown.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/regional/2026-06-regional-location-audit.csv
+- /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
 
-Traceable compiler summary generated with reconciliation/source tracing: output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
+Traceable compiler summary generated with reconciliation/source tracing: /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
+
+Region mapping QA warning:
+- 2547 of 2968 jobs (85.8%) still map to Other / Unknown after lookup mapping.
