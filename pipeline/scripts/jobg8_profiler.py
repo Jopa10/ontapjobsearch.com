@@ -93,20 +93,25 @@ REGION_ORDER = list(REGION_KEYWORDS.keys())
 SUPPORT_WORKER_FAMILIES = ["support_worker"]
 ADMIN_SERVICE_FAMILIES = ["service_administrator", "administrator_general"]
 COMPILER_SUMMARY_COLUMNS = [
+    "section",
     "report_month",
     "run_date",
     "total_jobs_month_to_date",
     "total_support_worker_jobs",
     "total_admin_service_jobs",
+    "overall_status",
+    "headline_recommendation",
+    "main_red_flags",
     "region",
-    "support_worker_count",
-    "admin_service_count",
-    "strongest_title_families",
-    "top_locations",
-    "top_companies",
-    "slice_status",
+    "slice_family",
+    "month_to_date_count",
+    "today_count",
+    "status",
     "recommendation",
     "red_flags",
+    "warning_type",
+    "severity",
+    "finding",
 ]
 
 
@@ -1113,20 +1118,24 @@ def compiler_top_from_report(
     value_column: str,
     count_column: str = "total_count",
     limit: int = 5,
+    suppress_values: Optional[List[str]] = None,
 ) -> str:
     if report.empty or value_column not in report.columns or count_column not in report.columns:
         return ""
 
+    suppress = {value.lower() for value in (suppress_values or [])}
     rows = []
-    for _, row in report.head(limit).iterrows():
+    for _, row in report.iterrows():
         value = str(row.get(value_column, "")).strip()
-        if not value or value.lower() == "nan":
+        if not value or value.lower() == "nan" or value.lower() in suppress:
             continue
         try:
             count = int(float(row.get(count_column, 0)))
         except (TypeError, ValueError):
             count = 0
         rows.append(f"{value} ({count})" if count else value)
+        if len(rows) >= limit:
+            break
     return "; ".join(rows)
 
 
@@ -1134,39 +1143,113 @@ def compiler_red_flag_text(flags: List[str]) -> str:
     return "; ".join(dict.fromkeys(flag for flag in flags if flag)) or "none"
 
 
-def compiler_slice_status(
-    support_count: int,
-    admin_count: int,
-    total_region_jobs: int,
-    red_flags: List[str],
-) -> str:
-    serious_flags = [flag for flag in red_flags if "missing source report" not in flag and "could not read source report" not in flag]
-    if any("sharp feed total drop" in flag or "generic Yorkshire" in flag for flag in serious_flags):
+def compiler_today_count(all_jobs: pd.DataFrame, run_date: str, has_valid_dates: bool, region: str, families: List[str]) -> str:
+    if not has_valid_dates:
+        return ""
+    today_jobs = all_jobs[(all_jobs["date"].astype(str) == run_date) & (all_jobs["region"] == region)]
+    return str(int(today_jobs["job_family"].isin(families).sum()))
+
+
+def compiler_slice_status(month_count: int, today_count: str, data_quality_flags: List[str]) -> str:
+    if data_quality_flags:
         return "INVESTIGATE"
-    if support_count == 0 and admin_count == 0:
-        return "INVESTIGATE" if total_region_jobs >= 20 else "THIN"
-    if support_count >= 12 and admin_count >= 12 and not serious_flags:
-        return "STRONG"
-    if support_count >= 6 and admin_count >= 6:
-        return "OK" if not serious_flags else "INVESTIGATE"
-    if support_count >= 3 or admin_count >= 3:
-        return "THIN" if not serious_flags else "INVESTIGATE"
-    return "THIN"
+
+    daily_count = int(today_count) if str(today_count).isdigit() else 0
+    if month_count >= 12 or daily_count >= 6:
+        return "PUBLISHABLE"
+    if month_count >= 6 or daily_count >= 3:
+        return "OK"
+    if month_count >= 3 or daily_count >= 1:
+        return "THIN"
+    return "HOLD"
 
 
-def compiler_recommendation(status: str, red_flags: List[str]) -> str:
-    flag_text = " | ".join(red_flags).lower()
-    if status == "STRONG":
-        return "Publish candidate"
-    if "location mapping" in flag_text or "generic yorkshire" in flag_text or "unmapped" in flag_text:
-        return "Investigate location mapping"
-    if "dominates" in flag_text:
-        return "Hold unless manually topped up"
+def compiler_slice_recommendation(status: str, slice_family: str) -> str:
+    family_label = "support-worker" if slice_family == "support-worker" else "service-admin"
+    if status == "PUBLISHABLE":
+        return f"Use as a live {family_label} slice."
     if status == "OK":
-        return "Publish candidate"
+        return f"Usable {family_label} slice; keep an eye on depth."
     if status == "THIN":
-        return "Not enough depth yet"
-    return "Hold unless manually topped up"
+        return f"Thin {family_label} slice; consider manual top-up before pushing hard."
+    if status == "HOLD":
+        return f"Hold {family_label} slice unless manually topped up."
+    return f"Check data quality before using this {family_label} slice."
+
+
+def compiler_slice_red_flags(status: str, month_count: int, today_count: str, data_quality_flags: List[str]) -> str:
+    if data_quality_flags:
+        return compiler_red_flag_text(data_quality_flags)
+    if status == "HOLD":
+        return f"too few jobs for a credible slice: {month_count} MTD"
+    if status == "THIN":
+        today_note = f", {today_count} today" if today_count != "" else ""
+        return f"low slice depth: {month_count} MTD{today_note}"
+    return "none"
+
+
+def compiler_add_warning(
+    rows: List[dict],
+    month: str,
+    run_date: str,
+    warning_type: str,
+    severity: str,
+    finding: str,
+    recommendation: str,
+) -> None:
+    rows.append({
+        "section": "FEED_QA_WARNINGS",
+        "report_month": month,
+        "run_date": run_date,
+        "warning_type": warning_type,
+        "severity": severity,
+        "finding": finding,
+        "recommendation": recommendation,
+    })
+
+
+def compiler_headline(slice_rows: List[dict], qa_rows: List[dict]) -> str:
+    status_by_slice = {
+        (row.get("region"), row.get("slice_family")): row.get("status")
+        for row in slice_rows
+    }
+    support_statuses = [
+        status_by_slice.get(("West Yorkshire", "support-worker"), "HOLD"),
+        status_by_slice.get(("South Yorkshire", "support-worker"), "HOLD"),
+    ]
+    admin_statuses = [
+        status_by_slice.get(("West Yorkshire", "service-admin"), "HOLD"),
+        status_by_slice.get(("South Yorkshire", "service-admin"), "HOLD"),
+    ]
+    admin_usable = any(status in {"PUBLISHABLE", "OK"} for status in admin_statuses)
+    support_usable = any(status in {"PUBLISHABLE", "OK"} for status in support_statuses)
+
+    if admin_usable and not support_usable:
+        return "Admin-service slices look usable; support-worker remains thin"
+    if support_usable and not admin_usable:
+        return "Support-worker slices look usable; admin-service remains thin"
+    if admin_usable and support_usable:
+        medium_or_high = [row for row in qa_rows if row.get("severity") in {"HIGH", "MEDIUM"}]
+        if medium_or_high:
+            first = medium_or_high[0].get("warning_type", "feed QA").replace("_", " ").lower()
+            return f"Live slices look usable; check {first}"
+        return "Feed looks healthy for live Ontap slices"
+    return "Live Ontap slices remain thin; hold or manually top up"
+
+
+def compiler_overall_status(slice_rows: List[dict], qa_rows: List[dict]) -> str:
+    if any(row.get("severity") == "HIGH" for row in qa_rows):
+        return "INVESTIGATE"
+    statuses = [row.get("status") for row in slice_rows]
+    if any(status == "INVESTIGATE" for status in statuses):
+        return "INVESTIGATE"
+    if statuses and all(status == "HOLD" for status in statuses):
+        return "HOLD"
+    if any(status in {"HOLD", "THIN"} for status in statuses):
+        return "THIN"
+    if any(row.get("severity") == "MEDIUM" for row in qa_rows):
+        return "OK"
+    return "PUBLISHABLE"
 
 
 def build_compiler_summary_from_outputs(
@@ -1174,28 +1257,40 @@ def build_compiler_summary_from_outputs(
     month: str,
     output_dir: Path,
 ) -> Tuple[pd.DataFrame, List[str]]:
-    """Build a first-stop operational CSV from the existing profiler outputs.
+    """Build a concise daily operating report from the existing profiler outputs.
 
-    The summary intentionally reuses the CSVs written by the profiler earlier in
-    the same run. Missing source CSVs are treated as red flags so the GitHub
-    Action still produces a compiler summary for operators to inspect.
+    The detailed profiler CSVs remain unchanged. This compiler view deliberately
+    separates one executive answer, four live-slice decisions, and feed-level QA
+    warnings so shared feed issues are not repeated on every slice row.
     """
     warnings: List[str] = []
 
     daily = read_profiler_csv(output_dir / "daily" / f"{month}-daily-summary.csv", warnings)
-    family_trends = read_profiler_csv(output_dir / "monthly" / f"{month}-family-trends.csv", warnings)
+    read_profiler_csv(output_dir / "monthly" / f"{month}-family-trends.csv", warnings)
     slice_viability = read_profiler_csv(output_dir / "monthly" / f"{month}-slice-viability.csv", warnings)
     title_breadth = read_profiler_csv(output_dir / "title-analysis" / f"{month}-title-breadth.csv", warnings)
-    regional_breakdown = read_profiler_csv(output_dir / "regional" / f"{month}-family-region-breakdown.csv", warnings)
+    read_profiler_csv(output_dir / "regional" / f"{month}-family-region-breakdown.csv", warnings)
     location_audit = read_profiler_csv(output_dir / "regional" / f"{month}-regional-location-audit.csv", warnings)
 
     valid_dates = sorted(str(d) for d in all_jobs["date"].dropna().unique() if str(d) != "unknown_date")
-    run_date = valid_dates[-1] if valid_dates else date.today().isoformat()
+    has_valid_dates = bool(valid_dates)
+    run_date = valid_dates[-1] if has_valid_dates else date.today().isoformat()
     total_jobs = int(len(all_jobs))
     total_support = int(all_jobs["job_family"].isin(SUPPORT_WORKER_FAMILIES).sum())
     total_admin = int(all_jobs["job_family"].isin(ADMIN_SERVICE_FAMILIES).sum())
 
-    shared_flags = list(warnings)
+    qa_rows: List[dict] = []
+    for warning in warnings:
+        warning_type = "missing_source_report" if "missing source report" in warning else "source_report_read_error"
+        compiler_add_warning(
+            qa_rows,
+            month,
+            run_date,
+            warning_type,
+            "HIGH",
+            warning,
+            "Profiler still generated this compiler CSV; check why the source report was unavailable.",
+        )
 
     if not daily.empty and {"date", "total_jobs"}.issubset(daily.columns):
         known_daily = daily[daily["date"].astype(str) != "unknown_date"].copy()
@@ -1206,32 +1301,64 @@ def build_compiler_summary_from_outputs(
             earlier_max = float(earlier["total_jobs_numeric"].max()) if not earlier.empty else 0
             latest_total = float(latest["total_jobs_numeric"])
             if earlier_max > 0 and latest_total <= earlier_max * 0.6:
-                shared_flags.append(
-                    f"sharp feed total drop versus earlier days: latest {int(latest_total)} vs earlier high {int(earlier_max)}"
+                compiler_add_warning(
+                    qa_rows,
+                    month,
+                    run_date,
+                    "sharp_feed_drop",
+                    "HIGH",
+                    f"Latest daily feed total is {int(latest_total)} versus earlier high {int(earlier_max)}.",
+                    "Check whether the newest JobG8 export is incomplete before making publishing decisions.",
                 )
 
     if not location_audit.empty and {"mapped_region", "raw_location", "total_count"}.issubset(location_audit.columns):
         audit = location_audit.copy()
         audit["total_count_numeric"] = pd.to_numeric(audit["total_count"], errors="coerce").fillna(0)
         unmapped_count = int(audit.loc[audit["mapped_region"].astype(str) == "Other / Unknown", "total_count_numeric"].sum())
-        if total_jobs and unmapped_count / total_jobs >= 0.5:
-            shared_flags.append(f"many jobs unmapped: {unmapped_count} of {total_jobs}")
+        if total_jobs and unmapped_count / total_jobs >= 0.2:
+            severity = "HIGH" if unmapped_count / total_jobs >= 0.5 else "MEDIUM"
+            compiler_add_warning(
+                qa_rows,
+                month,
+                run_date,
+                "high_unmapped_location_count",
+                severity,
+                f"{unmapped_count} of {total_jobs} jobs map to Other / Unknown.",
+                "Review the geo lookup and add recurring unmapped places before relying on regional depth.",
+            )
         yorkshire_count = int(audit.loc[audit["raw_location"].astype(str).str.lower() == "yorkshire", "total_count_numeric"].sum())
         if total_jobs and yorkshire_count / total_jobs >= 0.03:
-            shared_flags.append(f"many jobs in generic Yorkshire: {yorkshire_count} of {total_jobs}")
+            compiler_add_warning(
+                qa_rows,
+                month,
+                run_date,
+                "generic_yorkshire_location_count",
+                "MEDIUM",
+                f"{yorkshire_count} of {total_jobs} jobs use generic Yorkshire as the raw location.",
+                "Check whether generic Yorkshire jobs can be mapped to West or South Yorkshire from title/company context.",
+            )
 
-    dominant_company = ""
-    dominant_title = ""
     if not title_breadth.empty:
-        if {"normalised_title", "total_count"}.issubset(title_breadth.columns):
-            top_title = title_breadth.copy()
-            top_title["total_count_numeric"] = pd.to_numeric(top_title["total_count"], errors="coerce").fillna(0)
-            top_title = top_title.sort_values("total_count_numeric", ascending=False).head(1)
-            if not top_title.empty:
-                title_count = int(top_title.iloc[0]["total_count_numeric"])
-                title_name = str(top_title.iloc[0].get("normalised_title", "")).strip()
+        if {"normalised_title", "likely_family", "total_count"}.issubset(title_breadth.columns):
+            title_candidates = title_breadth.copy()
+            title_candidates["total_count_numeric"] = pd.to_numeric(title_candidates["total_count"], errors="coerce").fillna(0)
+            title_candidates = title_candidates[
+                title_candidates["likely_family"].astype(str).str.lower() != "unclassified"
+            ]
+            title_candidates = title_candidates.sort_values("total_count_numeric", ascending=False).head(1)
+            if not title_candidates.empty:
+                title_count = int(title_candidates.iloc[0]["total_count_numeric"])
+                title_name = str(title_candidates.iloc[0].get("normalised_title", "")).strip()
                 if total_jobs and title_count / total_jobs >= 0.08:
-                    dominant_title = f"one title dominates: {title_name} ({title_count})"
+                    compiler_add_warning(
+                        qa_rows,
+                        month,
+                        run_date,
+                        "dominant_title_concentration",
+                        "MEDIUM",
+                        f"Non-unclassified title '{title_name}' accounts for {title_count} of {total_jobs} jobs.",
+                        "Check whether a single title family is distorting the operating picture.",
+                    )
         if "top_companies" in title_breadth.columns:
             company_counter: Counter[str] = Counter()
             for value in title_breadth["top_companies"].dropna().astype(str):
@@ -1240,73 +1367,71 @@ def build_compiler_summary_from_outputs(
             if company_counter:
                 company, count = company_counter.most_common(1)[0]
                 if total_jobs and count / total_jobs >= 0.15:
-                    dominant_company = f"one company dominates: {company} ({count})"
-    if dominant_title:
-        shared_flags.append(dominant_title)
-    if dominant_company:
-        shared_flags.append(dominant_company)
+                    compiler_add_warning(
+                        qa_rows,
+                        month,
+                        run_date,
+                        "dominant_company_concentration",
+                        "MEDIUM",
+                        f"{company} accounts for {count} title/company appearances across {total_jobs} jobs.",
+                        "Review whether one employer campaign is making the feed look deeper than it is.",
+                    )
 
-    rows = []
-    for region in REGION_ORDER:
+    slice_specs = [
+        ("West Yorkshire", "support-worker", SUPPORT_WORKER_FAMILIES),
+        ("South Yorkshire", "support-worker", SUPPORT_WORKER_FAMILIES),
+        ("West Yorkshire", "service-admin", ADMIN_SERVICE_FAMILIES),
+        ("South Yorkshire", "service-admin", ADMIN_SERVICE_FAMILIES),
+    ]
+    slice_rows: List[dict] = []
+    for region, slice_family, families in slice_specs:
         region_jobs = all_jobs[all_jobs["region"] == region]
-        support_count = int(region_jobs["job_family"].isin(SUPPORT_WORKER_FAMILIES).sum())
-        admin_count = int(region_jobs["job_family"].isin(ADMIN_SERVICE_FAMILIES).sum())
-        total_region_jobs = int(len(region_jobs))
-
-        region_flags = list(shared_flags)
-        if support_count < 3:
-            region_flags.append(f"region has unexpectedly low support count: {support_count}")
-        if admin_count < 3:
-            region_flags.append(f"region has unexpectedly low admin/service count: {admin_count}")
+        month_count = int(region_jobs["job_family"].isin(families).sum())
+        today_count = compiler_today_count(all_jobs, run_date, has_valid_dates, region, families)
+        data_quality_flags: List[str] = []
 
         if not slice_viability.empty and {"region", "job_family", "viability"}.issubset(slice_viability.columns):
             region_viability = slice_viability[
                 (slice_viability["region"].astype(str) == region)
-                & (slice_viability["job_family"].astype(str).isin(SUPPORT_WORKER_FAMILIES + ADMIN_SERVICE_FAMILIES))
+                & (slice_viability["job_family"].astype(str).isin(families))
             ]
             drop_rows = region_viability[region_viability["viability"].astype(str).str.contains("month_end_drop", na=False)]
             if not drop_rows.empty:
-                region_flags.append("sharp feed total drop compared with earlier days for key slices")
+                data_quality_flags.append("sharp feed drop for this slice")
 
-        region_breakdown = regional_breakdown[regional_breakdown["region"].astype(str) == region] if not regional_breakdown.empty and "region" in regional_breakdown.columns else pd.DataFrame()
-        region_locations = location_audit[location_audit["mapped_region"].astype(str) == region] if not location_audit.empty and "mapped_region" in location_audit.columns else pd.DataFrame()
-
-        status = compiler_slice_status(support_count, admin_count, total_region_jobs, region_flags)
-        rows.append({
+        status = compiler_slice_status(month_count, today_count, data_quality_flags)
+        slice_rows.append({
+            "section": "SLICE_DECISIONS",
             "report_month": month,
             "run_date": run_date,
-            "total_jobs_month_to_date": total_jobs,
-            "total_support_worker_jobs": total_support,
-            "total_admin_service_jobs": total_admin,
             "region": region,
-            "support_worker_count": support_count,
-            "admin_service_count": admin_count,
-            "strongest_title_families": compiler_top_from_report(region_breakdown, "likely_family", limit=5),
-            "top_locations": compiler_top_from_report(region_locations, "raw_location", limit=5),
-            "top_companies": top_values(region_jobs["company"], limit=5),
-            "slice_status": status,
-            "recommendation": compiler_recommendation(status, region_flags),
-            "red_flags": compiler_red_flag_text(region_flags),
+            "slice_family": slice_family,
+            "month_to_date_count": month_count,
+            "today_count": today_count,
+            "status": status,
+            "recommendation": compiler_slice_recommendation(status, slice_family),
+            "red_flags": compiler_slice_red_flags(status, month_count, today_count, data_quality_flags),
         })
 
-    if not rows:
-        rows.append({
-            "report_month": month,
-            "run_date": run_date,
-            "total_jobs_month_to_date": total_jobs,
-            "total_support_worker_jobs": total_support,
-            "total_admin_service_jobs": total_admin,
-            "region": "All regions",
-            "support_worker_count": total_support,
-            "admin_service_count": total_admin,
-            "strongest_title_families": compiler_top_from_report(family_trends, "job_family", "total_jobs", limit=5),
-            "top_locations": "",
-            "top_companies": top_values(all_jobs["company"], limit=5),
-            "slice_status": "INVESTIGATE" if shared_flags else "THIN",
-            "recommendation": "Investigate location mapping" if shared_flags else "Not enough depth yet",
-            "red_flags": compiler_red_flag_text(shared_flags),
-        })
+    overall_status = compiler_overall_status(slice_rows, qa_rows)
+    headline = compiler_headline(slice_rows, qa_rows)
+    main_red_flags = compiler_red_flag_text([
+        row.get("finding", "") for row in qa_rows if row.get("severity") in {"HIGH", "MEDIUM"}
+    ])
 
+    executive_row = {
+        "section": "EXECUTIVE_SUMMARY",
+        "report_month": month,
+        "run_date": run_date,
+        "total_jobs_month_to_date": total_jobs,
+        "total_support_worker_jobs": total_support,
+        "total_admin_service_jobs": total_admin,
+        "overall_status": overall_status,
+        "headline_recommendation": headline,
+        "main_red_flags": main_red_flags,
+    }
+
+    rows = [executive_row] + slice_rows + qa_rows
     return pd.DataFrame(rows, columns=COMPILER_SUMMARY_COLUMNS), warnings
 
 def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
@@ -1502,7 +1627,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"- {regional_dir / f'{month}-regional-location-audit.csv'}",
         f"- {compiler_summary_path}",
         "",
-        f"Compiler summary generated: {compiler_summary_path}",
+        f"Concise compiler summary generated: {compiler_summary_path}",
     ]
 
     if errors:
