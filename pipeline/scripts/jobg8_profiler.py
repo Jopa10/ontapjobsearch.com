@@ -33,6 +33,8 @@ Outputs:
     output-feed-profiler/title-analysis/2026-05-title-breadth.csv
     output-feed-profiler/regional/2026-05-family-region-breakdown.csv
     output-feed-profiler/regional/2026-05-regional-location-audit.csv
+    output-feed-profiler/regional/2026-05-geo-unmapped-review.csv
+    output-feed-profiler/regional/2026-05-geo-lookup-qa-summary.csv
 
 Optional geography:
     By default, the profiler reads pipeline/geo/lookup.xlsx from the repository
@@ -390,6 +392,7 @@ class GeoMapper:
         self.lookup_path = lookup_path
         self.lookup_loaded = False
         self.lookup_rows_loaded = 0
+        self.lookup_mapped_row_count = 0
         self.lookup_source_rows = 0
         self.lookup_error = ""
         self.fallback_keywords_enabled = True
@@ -419,6 +422,7 @@ class GeoMapper:
 
     def load_lookup(self, lookup_path: Path) -> None:
         loaded_rows = 0
+        mapped_rows = 0
         source_rows = 0
 
         try:
@@ -455,10 +459,13 @@ class GeoMapper:
                 if normalise_lookup_place(row.get("Area")):
                     source_rows += 1
                 region = ontap_region_from_cluster(row.get("Cluster"))
+                if normalise_lookup_place(row.get("Area")) and region:
+                    mapped_rows += 1
                 if self.add_place(row.get("Area"), region):
                     loaded_rows += 1
 
         self.lookup_source_rows = source_rows
+        self.lookup_mapped_row_count = mapped_rows
         self.lookup_rows_loaded = loaded_rows
         self.lookup_loaded = loaded_rows > 0
         if self.lookup_loaded:
@@ -523,6 +530,19 @@ def find_default_geo_lookup(base_dir: Path) -> Path:
     """
     del base_dir
     return DEFAULT_GEO_LOOKUP_PATH.resolve()
+
+
+
+
+def display_geo_lookup_path(path: Optional[Path]) -> str:
+    if path is None:
+        return ""
+    try:
+        if path.resolve() == DEFAULT_GEO_LOOKUP_PATH.resolve():
+            return str(DEFAULT_GEO_LOOKUP_DISPLAY_PATH)
+    except Exception:
+        pass
+    return str(path)
 
 
 def resolve_geo_lookup_arg(geo_lookup: Optional[Path]) -> Path:
@@ -2227,22 +2247,34 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
     )
 
 
-def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.DataFrame, month: str) -> pd.DataFrame:
+def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.DataFrame) -> pd.DataFrame:
     """Summarise lookup coverage and proposal actions for the latest geo QA review."""
     action_counts = Counter()
     if not geo_unmapped_review.empty and "recommended_action" in geo_unmapped_review.columns:
-        action_counts = Counter(str(action) for action in geo_unmapped_review["recommended_action"].fillna(""))
+        if hasattr(geo_unmapped_review, "_rows"):
+            action_counts = Counter(str(row.get("recommended_action") or "") for row in geo_unmapped_review._rows)
+        else:
+            action_counts = Counter(str(action) for action in geo_unmapped_review["recommended_action"].fillna(""))
 
-    rows = [
-        {"month": month, "metric": "lookup_rows_in_workbook", "value": geo_mapper.lookup_source_rows},
-        {"month": month, "metric": "unique_mapped_lookup_keys", "value": len(geo_mapper.place_to_region)},
-        {"month": month, "metric": "latest_geo_unmapped_review_locations", "value": len(geo_unmapped_review)},
+    columns = [
+        "lookup_file_path",
+        "mapped_lookup_row_count",
+        "unique_lookup_key_count",
+        "geo_unmapped_review_row_count",
+        "ADD_TO_LOOKUP_ACTIVE_REGION_count",
+        "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count",
+        "AMBIGUOUS_REVIEW_count",
+        "FIX_EXISTING_LOOKUP_count",
+        "IGNORE_BAD_OR_NON_UK_count",
     ]
-    rows.extend(
-        {"month": month, "metric": f"recommended_action_{action}", "value": action_counts.get(action, 0)}
-        for action in GEO_REVIEW_ACTIONS
-    )
-    return pd.DataFrame(rows, columns=["month", "metric", "value"])
+    row = {
+        "lookup_file_path": display_geo_lookup_path(geo_mapper.lookup_path),
+        "mapped_lookup_row_count": geo_mapper.lookup_mapped_row_count,
+        "unique_lookup_key_count": len(geo_mapper.place_to_region),
+        "geo_unmapped_review_row_count": len(geo_unmapped_review),
+    }
+    row.update({f"{action}_count": action_counts.get(action, 0) for action in GEO_REVIEW_ACTIONS})
+    return pd.DataFrame([row], columns=columns)
 
 
 
@@ -2409,7 +2441,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         geo_unmapped_review_path, index=False
     )
     geo_lookup_qa_summary_path = regional_dir / f"{month}-geo-lookup-qa-summary.csv"
-    geo_lookup_qa_summary = build_geo_lookup_qa_summary(geo_mapper, geo_unmapped_review, month)
+    geo_lookup_qa_summary = build_geo_lookup_qa_summary(geo_mapper, geo_unmapped_review)
     geo_lookup_qa_summary.to_csv(geo_lookup_qa_summary_path, index=False)
     compiler_summary_path = compiler_dir / f"{month}-compiler-summary.csv"
     compiler_summary, compiler_warnings, compiler_trace = build_compiler_summary_from_outputs(
@@ -2442,7 +2474,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         "Lookup verification checks: " + "; ".join(lookup_check_results),
         "",
         "Geo lookup QA summary:",
-        *[f"- {row.metric}: {row.value}" for row in geo_lookup_qa_summary.itertuples(index=False)],
+        *[f"- {column}: {geo_lookup_qa_summary.iloc[0][column]}" for column in geo_lookup_qa_summary.columns],
         "",
         "Output files:",
         f"- {daily_dir / f'{month}-daily-summary.csv'}",
