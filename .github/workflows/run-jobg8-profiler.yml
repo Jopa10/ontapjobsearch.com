@@ -13,6 +13,9 @@ on:
         default: input
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   run-jobg8-profiler:
     name: Run JobG8 profiler
@@ -21,6 +24,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,6 +43,43 @@ jobs:
           --input-dir "${{ inputs.input_dir }}"
           --output-dir output-profiler
           --geo-lookup geo/lookup.xlsx
+
+      - name: Sync profiler output into committed output folder
+        run: |
+          set -euo pipefail
+          mkdir -p pipeline/output-feed-profiler
+          rsync -a pipeline/output-profiler/ pipeline/output-feed-profiler/
+
+      - name: Commit profiler output changes
+        run: |
+          set -euo pipefail
+          output_path="pipeline/output-feed-profiler"
+
+          if [ -z "$(git status --porcelain -- "$output_path")" ]; then
+            echo "No profiler output changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$output_path"
+
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No profiler output changes to commit"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-feed-profiler\//'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside pipeline/output-feed-profiler. Staged files:"
+            printf '%s\n' "$staged_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git commit -m "Update JobG8 profiler outputs"
+          git push origin HEAD:main
 
       - name: Upload profiler output
         if: always()
