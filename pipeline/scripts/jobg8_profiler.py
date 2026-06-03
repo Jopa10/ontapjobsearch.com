@@ -43,6 +43,7 @@ Optional geography:
 from __future__ import annotations
 
 import argparse
+import json
 import re
 from collections import Counter
 from datetime import date
@@ -106,6 +107,11 @@ COMPILER_SUMMARY_COLUMNS = [
     "slice_family",
     "month_to_date_count",
     "today_count",
+    "selected_count",
+    "profiler_count",
+    "count_source",
+    "profiler_source",
+    "reconciliation_note",
     "status",
     "recommendation",
     "red_flags",
@@ -1177,6 +1183,66 @@ def compiler_source_path(path: Path, output_dir: Path) -> str:
         return str(path)
 
 
+def compiler_selector_output_path(output_dir: Path, region: str, slice_family: str) -> Path:
+    """Return the final selector JSON path used for a live Ontap slice."""
+    base_dir = output_dir.parent
+    region_slug = slug(region)
+    if slice_family == "support-worker":
+        return base_dir / "output-support-worker" / f"{region_slug}-support-worker.json"
+    return base_dir / "output-admin-service" / f"{region_slug}-admin-service.json"
+
+
+def compiler_count_from_selector_json(
+    path: Path,
+    output_dir: Path,
+    warnings: List[str],
+) -> Tuple[int, str, str, bool]:
+    """Read selected/published count from the final selector JSON output.
+
+    The compiler summary treats this JSON as the operational source of truth
+    because these files are the same outputs copied into the live pages.
+    """
+    source = compiler_source_path(path, output_dir)
+    if not path.exists():
+        warning = f"missing selector output for selected_count: {path}"
+        warnings.append(warning)
+        return 0, source, warning, True
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        warning = f"could not read selector output for selected_count {path}: {exc}"
+        warnings.append(warning)
+        return 0, source, warning, True
+
+    if isinstance(data, list):
+        return len(data), source, "selected_count read from final selector JSON", False
+    if isinstance(data, dict):
+        for key in ("jobs", "selected_jobs", "selected", "published_jobs"):
+            value = data.get(key)
+            if isinstance(value, list):
+                return len(value), source, f"selected_count read from final selector JSON field '{key}'", False
+        warning = f"selector output for selected_count is an object without a recognised jobs list: {path}"
+        warnings.append(warning)
+        return 0, source, warning, True
+
+    warning = f"selector output for selected_count has unsupported JSON shape: {path}"
+    warnings.append(warning)
+    return 0, source, warning, True
+
+
+def compiler_reconciliation_note(selected_count: int, profiler_count: int, selector_note: str, profiler_issue: bool) -> str:
+    if selected_count == profiler_count and not profiler_issue:
+        return "selected count from selector output matches profiler count from broad feed profiler"
+
+    base_note = "selected count from selector output; profiler count from broad feed profiler"
+    if profiler_issue:
+        return f"{base_note}; profiler source/mapping/classification cross-check needs review"
+    if selected_count != profiler_count:
+        return f"{base_note}; difference is diagnostic only and does not indicate a publishing failure"
+    return compiler_join_notes([base_note, selector_note])
+
+
 def compiler_number_from_family_trends(
     family_trends: pd.DataFrame,
     family: str,
@@ -1303,16 +1369,12 @@ def compiler_today_count(all_jobs: pd.DataFrame, run_date: str, has_valid_dates:
     return str(int(today_jobs["job_family"].isin(families).sum()))
 
 
-def compiler_slice_status(month_count: int, today_count: str, data_quality_flags: List[str]) -> str:
-    if data_quality_flags:
-        return "INVESTIGATE"
-
-    daily_count = int(today_count) if str(today_count).isdigit() else 0
-    if month_count >= 12 or daily_count >= 6:
+def compiler_slice_status(selected_count: int) -> str:
+    if selected_count >= 12:
         return "PUBLISHABLE"
-    if month_count >= 6 or daily_count >= 3:
+    if selected_count >= 6:
         return "OK"
-    if month_count >= 3 or daily_count >= 1:
+    if selected_count >= 1:
         return "THIN"
     return "HOLD"
 
@@ -1330,14 +1392,13 @@ def compiler_slice_recommendation(status: str, slice_family: str) -> str:
     return f"Check data quality before using this {family_label} slice."
 
 
-def compiler_slice_red_flags(status: str, month_count: int, today_count: str, data_quality_flags: List[str]) -> str:
+def compiler_slice_red_flags(status: str, selected_count: int, data_quality_flags: List[str]) -> str:
     if data_quality_flags:
         return compiler_red_flag_text(data_quality_flags)
     if status == "HOLD":
-        return f"too few jobs for a credible slice: {month_count} MTD"
+        return f"no selected jobs in selector output: {selected_count}"
     if status == "THIN":
-        today_note = f", {today_count} today" if today_count != "" else ""
-        return f"low slice depth: {month_count} MTD{today_note}"
+        return f"low selected slice depth: {selected_count}"
     return "none"
 
 
@@ -1409,15 +1470,19 @@ def build_compiler_summary_from_outputs(
     all_jobs: pd.DataFrame,
     month: str,
     output_dir: Path,
-) -> Tuple[pd.DataFrame, List[str]]:
-    """Build a traceable daily operating report from existing profiler outputs.
+) -> Tuple[pd.DataFrame, List[str], Dict[str, List[str]]]:
+    """Build a traceable daily operating report from selector and profiler outputs.
 
-    The detailed profiler CSVs remain unchanged. The compiler summary now reads
-    the already-written profiler reports for its headline and slice counts, then
-    cross-checks those values against the in-memory month dataset used to produce
-    the reports. Source trace columns make each number auditable.
+    The detailed profiler CSVs remain unchanged. Live SLICE_DECISIONS use the
+    final selector JSON files as their selected_count source of truth, while
+    profiler counts remain as separated QA diagnostics for reconciliation.
     """
     warnings: List[str] = []
+    trace: Dict[str, List[str]] = {
+        "selected_count_sources": [],
+        "profiler_count_sources": [],
+        "reconciliation_warnings": [],
+    }
 
     daily_path = output_dir / "daily" / f"{month}-daily-summary.csv"
     family_trends_path = output_dir / "monthly" / f"{month}-family-trends.csv"
@@ -1439,6 +1504,11 @@ def build_compiler_summary_from_outputs(
     title_breadth_source = compiler_source_path(title_breadth_path, output_dir)
     family_region_source = compiler_source_path(family_region_path, output_dir)
     location_audit_source = compiler_source_path(location_audit_path, output_dir)
+    trace["profiler_count_sources"].extend([
+        family_region_source,
+        family_trends_source,
+        slice_viability_source,
+    ])
 
     valid_dates = sorted(str(d) for d in all_jobs["date"].dropna().unique() if str(d) != "unknown_date")
     has_valid_dates = bool(valid_dates)
@@ -1617,14 +1687,12 @@ def build_compiler_summary_from_outputs(
     ]
     slice_rows: List[dict] = []
     slice_counts: Dict[Tuple[str, str], int] = {}
-    source_issue_by_family: Dict[str, bool] = {"support-worker": False, "service-admin": False}
-
     for region, slice_family, families in slice_specs:
-        month_count, regional_note = compiler_number_from_regional_breakdown(
+        profiler_count, regional_note = compiler_number_from_regional_breakdown(
             family_region_breakdown, region, families
         )
         raw_region_jobs = all_jobs[all_jobs["region"] == region]
-        raw_month_count = int(raw_region_jobs["job_family"].isin(families).sum())
+        raw_profiler_count = int(raw_region_jobs["job_family"].isin(families).sum())
         region_column = compiler_region_column(region)
         family_trend_region_count = 0
         family_trend_notes = []
@@ -1636,29 +1704,38 @@ def build_compiler_summary_from_outputs(
         validation_notes = [regional_note]
         if (
             regional_note == "no matching family-region rows found"
-            and month_count == 0
-            and raw_month_count == 0
+            and profiler_count == 0
+            and raw_profiler_count == 0
             and family_trend_region_count == 0
         ):
-            validation_notes = ["no matching family-region rows because the validated slice count is zero"]
+            validation_notes = ["no matching family-region rows because the profiler slice count is zero"]
 
-        if month_count == raw_month_count == family_trend_region_count:
-            validation_notes.append("validated against profiler input rows and monthly family-trends region column")
+        profiler_source_issue = False
+        if profiler_count == raw_profiler_count == family_trend_region_count:
+            validation_notes.append("profiler_count validated against profiler input rows and monthly family-trends region column")
         else:
-            source_issue_by_family[slice_family] = True
+            profiler_source_issue = True
             validation_notes.append(
-                f"join/filter mismatch detected: family-region={month_count}, family-trends {region_column}={family_trend_region_count}, profiler input rows={raw_month_count}"
+                f"profiler join/filter mismatch detected: family-region={profiler_count}, family-trends {region_column}={family_trend_region_count}, profiler input rows={raw_profiler_count}"
             )
+
+        selector_path = compiler_selector_output_path(output_dir, region, slice_family)
+        selected_count, count_source, selector_note, selector_source_issue = compiler_count_from_selector_json(
+            selector_path, output_dir, warnings
+        )
+        trace["selected_count_sources"].append(f"{region} {slice_family}: {count_source}")
 
         today_count = compiler_today_count(all_jobs, run_date, has_valid_dates, region, families)
         if today_count == "":
             validation_notes.append("today_count unavailable because source export dates are unknown_date")
         else:
-            validation_notes.append("today_count filtered from profiler input rows by date, region and family")
+            validation_notes.append("today_count filtered from profiler input rows by date, region and family for QA context only")
 
         data_quality_flags: List[str] = []
-        if source_issue_by_family[slice_family]:
-            data_quality_flags.append("source/reconciliation issue")
+        if selector_source_issue:
+            data_quality_flags.append("selector output source issue")
+        if profiler_source_issue:
+            data_quality_flags.append("profiler source/mapping/classification issue")
 
         if not slice_viability.empty and {"region", "job_family", "viability"}.issubset(slice_viability.columns):
             region_viability = slice_viability[
@@ -1671,25 +1748,38 @@ def build_compiler_summary_from_outputs(
         elif slice_viability.empty:
             validation_notes.append("slice-viability report has no dated slice rows for this month")
 
-        status = compiler_slice_status(month_count, today_count, data_quality_flags)
+        reconciliation_note = compiler_reconciliation_note(
+            selected_count, profiler_count, selector_note, profiler_source_issue
+        )
+        if selected_count != profiler_count or profiler_source_issue or selector_source_issue:
+            trace["reconciliation_warnings"].append(
+                f"{region} {slice_family}: selected_count={selected_count} ({count_source}); profiler_count={profiler_count} ({family_region_source}); {reconciliation_note}"
+            )
+
+        status = compiler_slice_status(selected_count)
         row = {
             "section": "SLICE_DECISIONS",
             "report_month": month,
             "run_date": run_date,
             "region": region,
             "slice_family": slice_family,
-            "month_to_date_count": month_count,
+            "month_to_date_count": selected_count,
             "today_count": today_count,
+            "selected_count": selected_count,
+            "profiler_count": profiler_count,
+            "count_source": count_source,
+            "profiler_source": f"{family_region_source}; {family_trends_source}; {slice_viability_source}",
+            "reconciliation_note": reconciliation_note,
             "status": status,
             "recommendation": compiler_slice_recommendation(status, slice_family),
-            "red_flags": compiler_slice_red_flags(status, month_count, today_count, data_quality_flags),
-            "source_file": f"{family_region_source}; {family_trends_source}; {slice_viability_source}",
-            "source_column": f"family-region-breakdown.total_count; family-trends.{region_column}; slice-viability.viability; profiler input date/region/job_family for today_count",
-            "source_filter_used": f"region == {region}; likely_family/job_family in {', '.join(families)}",
-            "validation_note": compiler_join_notes(validation_notes + family_trend_notes),
+            "red_flags": compiler_slice_red_flags(status, selected_count, data_quality_flags),
+            "source_file": f"{count_source}; {family_region_source}; {family_trends_source}; {slice_viability_source}",
+            "source_column": f"selector JSON list length for selected_count; family-region-breakdown.total_count; family-trends.{region_column}; slice-viability.viability; profiler input date/region/job_family for today_count",
+            "source_filter_used": f"selected_count from final {slice_family} selector JSON for {region}; profiler QA region == {region}; likely_family/job_family in {', '.join(families)}",
+            "validation_note": compiler_join_notes([selector_note] + validation_notes + family_trend_notes),
         }
         slice_rows.append(row)
-        slice_counts[(region, slice_family)] = month_count
+        slice_counts[(region, slice_family)] = profiler_count
 
     reconciliation_rows: List[dict] = []
     reconciliation_specs = [
@@ -1796,7 +1886,7 @@ def build_compiler_summary_from_outputs(
     }
 
     rows = [executive_row] + slice_rows + reconciliation_rows + qa_rows
-    return pd.DataFrame(rows, columns=COMPILER_SUMMARY_COLUMNS), warnings
+    return pd.DataFrame(rows, columns=COMPILER_SUMMARY_COLUMNS), warnings, trace
 
 def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
     """Shows which raw JobG8 locations are being mapped into each Ontap region."""
@@ -1988,7 +2078,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         regional_dir / f"{month}-regional-location-audit.csv", index=False
     )
     compiler_summary_path = compiler_dir / f"{month}-compiler-summary.csv"
-    compiler_summary, compiler_warnings = build_compiler_summary_from_outputs(
+    compiler_summary, compiler_warnings, compiler_trace = build_compiler_summary_from_outputs(
         all_jobs=all_jobs,
         month=month,
         output_dir=output_dir,
@@ -2027,7 +2117,17 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"- {compiler_summary_path}",
         "",
         f"Traceable compiler summary generated with reconciliation/source tracing: {compiler_summary_path}",
+        "",
+        "Compiler selected_count selector output files:",
+        *[f"- {source}" for source in dict.fromkeys(compiler_trace.get("selected_count_sources", []))],
+        "",
+        "Compiler profiler_count diagnostic files:",
+        *[f"- {source}" for source in dict.fromkeys(compiler_trace.get("profiler_count_sources", []))],
     ]
+
+    if compiler_trace.get("reconciliation_warnings"):
+        log_lines.extend(["", "Compiler reconciliation warnings:"])
+        log_lines.extend(f"- {warning}" for warning in compiler_trace["reconciliation_warnings"])
 
     if errors:
         log_lines.extend(["", "Files with errors:"])
