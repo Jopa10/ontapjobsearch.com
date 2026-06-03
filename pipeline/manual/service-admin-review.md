@@ -16,7 +16,7 @@ job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
 ---
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Leeds | £30000 - £380000 per year | Client Services Administrator - Exclusive to Taylor James
 job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
 ---
@@ -64,7 +64,7 @@ job_id: 934f888b-9a1f-4b99-9cfd-d64fa903fbb0
 ---
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Leeds |  | Group Regulatory Administrator
 job_id: 107417429
 ---
@@ -102,7 +102,7 @@ job_id: 107459020
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
 job_id: 107409218
 ---
@@ -154,7 +154,7 @@ job_id: 107425594
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
 job_id: 21aeef82-18d7-4324-9b40-4aab49628831
 ---
