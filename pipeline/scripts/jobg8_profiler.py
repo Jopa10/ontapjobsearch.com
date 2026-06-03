@@ -125,6 +125,13 @@ COMPILER_SUMMARY_COLUMNS = [
 ]
 
 TRACKED_ONTAP_REGIONS = ["West Yorkshire", "South Yorkshire"]
+GEO_REVIEW_ACTIONS = [
+    "ADD_TO_LOOKUP_ACTIVE_REGION",
+    "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE",
+    "AMBIGUOUS_REVIEW",
+    "FIX_EXISTING_LOOKUP",
+    "IGNORE_BAD_OR_NON_UK",
+]
 UNMAPPED_LOCATION_WARNING_THRESHOLD = 0.20
 UNMAPPED_LOCATION_HIGH_THRESHOLD = 0.50
 DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "lookup.xlsx"
@@ -230,6 +237,7 @@ def is_broad_ambiguous_location(value: object) -> bool:
         "uk", "remote", "home based", "field based", "nationwide",
         "not specified", "unspecified", "n/a", "na",
         "various", "multiple locations", "multiple sites",
+        "scotland", "wales", "northern ireland", "great britain",
     }
     if loc in broad_exact:
         return True
@@ -239,6 +247,135 @@ def is_broad_ambiguous_location(value: object) -> bool:
         "northern england", "home based", "field based", "multiple locations",
     ]
     return any(term in loc for term in broad_contains)
+
+
+UK_GEO_SUGGESTIONS: Dict[str, Tuple[str, str]] = {
+    # Major cities and countries/counties commonly present in JobG8 feeds.
+    "london": ("London", "city/county-level UK place"),
+    "bristol": ("South West England", "UK city"),
+    "birmingham": ("West Midlands", "UK city"),
+    "edinburgh": ("Scotland", "UK city"),
+    "liverpool": ("North West England / Merseyside", "UK city"),
+    "cardiff": ("Wales", "UK city"),
+    "glasgow": ("Scotland", "UK city"),
+    "cambridge": ("East of England / Cambridgeshire", "UK city"),
+    "leicester": ("East Midlands / Leicestershire", "UK city"),
+    "nottingham": ("East Midlands / Nottinghamshire", "UK city"),
+    "derby": ("East Midlands / Derbyshire", "UK city"),
+    "coventry": ("West Midlands", "UK city"),
+    "wolverhampton": ("West Midlands", "UK city"),
+    "stoke-on-trent": ("West Midlands / Staffordshire", "UK city"),
+    "norwich": ("East of England / Norfolk", "UK city"),
+    "ipswich": ("East of England / Suffolk", "UK town"),
+    "oxford": ("South East England / Oxfordshire", "UK city"),
+    "reading": ("South East England / Berkshire", "UK town"),
+    "southampton": ("South East England / Hampshire", "UK city"),
+    "portsmouth": ("South East England / Hampshire", "UK city"),
+    "brighton": ("South East England / East Sussex", "UK city"),
+    "plymouth": ("South West England / Devon", "UK city"),
+    "exeter": ("South West England / Devon", "UK city"),
+    "swindon": ("South West England / Wiltshire", "UK town"),
+    "bath": ("South West England / Somerset", "UK city"),
+    "swansea": ("Wales", "UK city"),
+    "newport": ("Wales", "UK city; ambiguous without county if not clearly Wales"),
+    "aberdeen": ("Scotland", "UK city"),
+    "dundee": ("Scotland", "UK city"),
+    "inverness": ("Scotland", "UK city"),
+    "belfast": ("Northern Ireland", "UK city"),
+    # Counties and broader ceremonial/county labels used as useful clusters,
+    # but many county-only rows should remain human-reviewed before addition.
+    "kent": ("South East England / Kent", "UK county"),
+    "surrey": ("South East England / Surrey", "UK county"),
+    "essex": ("East of England / Essex", "UK county"),
+    "hertfordshire": ("East of England / Hertfordshire", "UK county"),
+    "bedfordshire": ("East of England / Bedfordshire", "UK county"),
+    "buckinghamshire": ("South East England / Buckinghamshire", "UK county"),
+    "berkshire": ("South East England / Berkshire", "UK county"),
+    "oxfordshire": ("South East England / Oxfordshire", "UK county"),
+    "cambridgeshire": ("East of England / Cambridgeshire", "UK county"),
+    "suffolk": ("East of England / Suffolk", "UK county"),
+    "norfolk": ("East of England / Norfolk", "UK county"),
+    "hampshire": ("South East England / Hampshire", "UK county"),
+    "dorset": ("South West England / Dorset", "UK county"),
+    "devon": ("South West England / Devon", "UK county"),
+    "cornwall": ("South West England / Cornwall", "UK county"),
+    "somerset": ("South West England / Somerset", "UK county"),
+    "wiltshire": ("South West England / Wiltshire", "UK county"),
+    "gloucestershire": ("South West England / Gloucestershire", "UK county"),
+    "warwickshire": ("West Midlands / Warwickshire", "UK county"),
+    "staffordshire": ("West Midlands / Staffordshire", "UK county"),
+    "shropshire": ("West Midlands / Shropshire", "UK county"),
+    "worcestershire": ("West Midlands / Worcestershire", "UK county"),
+    "leicestershire": ("East Midlands / Leicestershire", "UK county"),
+    "nottinghamshire": ("East Midlands / Nottinghamshire", "UK county"),
+    "derbyshire": ("East Midlands / Derbyshire", "UK county"),
+    "lincolnshire": ("East Midlands / Lincolnshire", "UK county"),
+    "northamptonshire": ("East Midlands / Northamptonshire", "UK county"),
+    "merseyside": ("North West England / Merseyside", "UK county"),
+    "cheshire": ("North West England / Cheshire", "UK county"),
+}
+
+NON_UK_OR_BAD_LOCATION_TERMS = {
+    "blank_location", "unknown", "unknown location", "not applicable", "tbc",
+    "republic of ireland", "ireland", "dublin", "cork", "galway",
+}
+
+COUNTY_ONLY_REVIEW_TERMS = {
+    place for place, (_, reason) in UK_GEO_SUGGESTIONS.items() if "UK county" in reason
+}
+
+RISKY_AMBIGUOUS_PLACE_TERMS = {
+    "bury st. edmunds", "bury st edmunds", "bury saint edmunds",
+}
+
+
+def _lookup_exact_suggestion(value: object) -> Tuple[str, str]:
+    loc = normalise_lookup_place(value)
+    if not loc:
+        return "", ""
+    if loc in UK_GEO_SUGGESTIONS:
+        return UK_GEO_SUGGESTIONS[loc]
+    return "", ""
+
+
+def _uk_geo_suggestion_from_group(raw_location: object, group: pd.DataFrame) -> Tuple[str, str]:
+    """Suggest a UK-wide lookup cluster for proposal/reporting rows only.
+
+    The profiler still maps live regions only from pipeline/geo/lookup.xlsx; these
+    suggestions help humans decide whether an unmapped UK place should be added
+    to the shared workbook or held for review.
+    """
+    cluster, reason = _lookup_exact_suggestion(raw_location)
+    if cluster:
+        return cluster, reason
+
+    for column in ["jobg8_area", "jobg8_location"]:
+        if column not in group.columns:
+            continue
+        values = cleaned_values(group[column])
+        for value, _ in Counter(values).most_common(5):
+            cluster, reason = _lookup_exact_suggestion(value)
+            if cluster:
+                return cluster, f"{reason} from {column}"
+
+    return "", ""
+
+
+def _looks_non_uk_or_bad(raw_location: object, group: pd.DataFrame) -> Tuple[bool, str]:
+    loc = normalise_lookup_place(raw_location)
+    if not loc or loc in NON_UK_OR_BAD_LOCATION_TERMS:
+        return True, "blank, bad, or explicitly non-UK location"
+
+    context = " ".join(
+        str(value)
+        for column in ["jobg8_area", "jobg8_location", "normalised_title"]
+        if column in group.columns
+        for value in cleaned_values(group[column])[:5]
+    ).lower()
+    if "€" in context or any(term in context for term in ["republic of ireland", " dublin ", " cork ", " galway "]):
+        return True, "non-UK signal in JobG8 area/location/title"
+
+    return False, ""
 
 
 class GeoMapper:
@@ -253,6 +390,7 @@ class GeoMapper:
         self.lookup_path = lookup_path
         self.lookup_loaded = False
         self.lookup_rows_loaded = 0
+        self.lookup_source_rows = 0
         self.lookup_error = ""
         self.fallback_keywords_enabled = True
 
@@ -281,6 +419,7 @@ class GeoMapper:
 
     def load_lookup(self, lookup_path: Path) -> None:
         loaded_rows = 0
+        source_rows = 0
 
         try:
             workbook = pd.ExcelFile(lookup_path) if hasattr(pd, "ExcelFile") else None
@@ -313,10 +452,13 @@ class GeoMapper:
                 continue
 
             for _, row in df.iterrows():
+                if normalise_lookup_place(row.get("Area")):
+                    source_rows += 1
                 region = ontap_region_from_cluster(row.get("Cluster"))
                 if self.add_place(row.get("Area"), region):
                     loaded_rows += 1
 
+        self.lookup_source_rows = source_rows
         self.lookup_rows_loaded = loaded_rows
         self.lookup_loaded = loaded_rows > 0
         if self.lookup_loaded:
@@ -1952,7 +2094,12 @@ def _suspected_region_from_context(group: pd.DataFrame) -> Tuple[str, str]:
 
 
 def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
-    """Material geo QA rows for lookup workbook review, not a full UK unmapped dump."""
+    """Material geo QA rows for lookup workbook review, not an auto-write stage.
+
+    Valid UK towns/cities/counties are proposed for the UK-wide shared lookup,
+    even when Ontap does not currently publish an active slice there. The selector
+    and compiler decide later whether a mapped place belongs to an active slice.
+    """
     columns = [
         "month",
         "raw_location",
@@ -1982,6 +2129,8 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
         is_unmapped = region == "Other / Unknown" or match_source == "unmapped"
         is_broad = is_broad_ambiguous_location(raw_location)
         suspected_region, suspected_reason = _suspected_region_from_known_terms(raw_location)
+        uk_cluster, uk_reason = _uk_geo_suggestion_from_group(raw_location, group)
+        is_bad_or_non_uk, bad_or_non_uk_reason = _looks_non_uk_or_bad(raw_location, group)
         recommended_action = ""
         confidence = ""
 
@@ -1994,7 +2143,7 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
         match_norm = normalise_lookup_place(match_place)
         if region != "Other / Unknown" and match_norm and loc_norm and loc_norm != match_norm:
             match_tokens = match_norm.split()
-            if len(match_tokens) == 1 and re.search(r"(?<![a-z0-9])" + re.escape(match_norm) + r"\s+(st|saint)\b", loc_norm):
+            if len(match_tokens) == 1 and re.search(r"(?<![a-z0-9])" + re.escape(match_norm) + r"\s+(st\.?|saint)\b", loc_norm):
                 suspicious_mapping = True
                 suspected_reason = f"short lookup match '{match_place}' may be a different longer place in raw location"
                 suspected_region = ""
@@ -2002,28 +2151,46 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
         if suspicious_mapping:
             recommended_action = "FIX_EXISTING_LOOKUP"
             confidence = "medium"
-        elif is_unmapped and suspected_region:
-            recommended_action = "ADD_TO_LOOKUP"
-            confidence = "high" if not is_broad else "medium"
-        elif is_unmapped and target_family_count:
-            recommended_action = "AMBIGUOUS_REVIEW" if is_broad else "IGNORE_OUT_OF_REGION"
-            confidence = "medium" if is_broad else "low"
-            suspected_reason = suspected_reason or "unmapped location connected to support-worker/admin-service families"
-        elif is_broad and suspected_region:
+        elif is_bad_or_non_uk:
+            recommended_action = "IGNORE_BAD_OR_NON_UK"
+            confidence = "medium"
+            suspected_reason = suspected_reason or bad_or_non_uk_reason
+        elif is_unmapped and is_broad:
             recommended_action = "AMBIGUOUS_REVIEW"
             confidence = "medium"
-        elif suspicious_mapping:
-            recommended_action = "FIX_EXISTING_LOOKUP"
+            suspected_reason = suspected_reason or "broad/ambiguous location; do not add blindly"
+        elif is_unmapped and suspected_region:
+            recommended_action = (
+                "ADD_TO_LOOKUP_ACTIVE_REGION"
+                if suspected_region in TRACKED_ONTAP_REGIONS
+                else "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE"
+            )
+            confidence = "high"
+        elif is_unmapped and uk_cluster:
+            # Valid UK places outside currently active Ontap slices should still be
+            # proposed for the UK-wide lookup rather than ignored, unless the raw
+            # value is county-only or a known risky place that needs human QA.
+            suspected_region = uk_cluster
+            suspected_reason = uk_reason
+            needs_human_geo_review = loc_norm in COUNTY_ONLY_REVIEW_TERMS or loc_norm in RISKY_AMBIGUOUS_PLACE_TERMS
+            recommended_action = "AMBIGUOUS_REVIEW" if needs_human_geo_review else "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE"
+            confidence = "medium" if needs_human_geo_review else "high"
+        elif is_unmapped and target_family_count:
+            recommended_action = "AMBIGUOUS_REVIEW"
+            confidence = "low"
+            suspected_reason = suspected_reason or "unmapped UK possibility connected to support-worker/admin-service families; needs human geo review"
+        elif is_broad and suspected_region:
+            recommended_action = "AMBIGUOUS_REVIEW"
             confidence = "medium"
 
         if not recommended_action:
             continue
 
-        if not (target_family_count or suspected_region or suspicious_mapping or is_broad or total_count >= 2):
+        if not (target_family_count or suspected_region or suspicious_mapping or is_broad or is_bad_or_non_uk or total_count >= 2):
             continue
 
-        suggested_lookup_area = "" if recommended_action == "FIX_EXISTING_LOOKUP" else raw_location
-        suggested_lookup_cluster = suspected_region if recommended_action in {"ADD_TO_LOOKUP", "AMBIGUOUS_REVIEW"} else ""
+        suggested_lookup_area = "" if recommended_action in {"FIX_EXISTING_LOOKUP", "AMBIGUOUS_REVIEW", "IGNORE_BAD_OR_NON_UK"} else raw_location
+        suggested_lookup_cluster = suspected_region if recommended_action in {"ADD_TO_LOOKUP_ACTIVE_REGION", "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE"} else ""
 
         rows.append({
             "month": month,
@@ -2047,9 +2214,10 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
 
     action_order = {
         "FIX_EXISTING_LOOKUP": 0,
-        "ADD_TO_LOOKUP": 1,
-        "AMBIGUOUS_REVIEW": 2,
-        "IGNORE_OUT_OF_REGION": 3,
+        "ADD_TO_LOOKUP_ACTIVE_REGION": 1,
+        "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE": 2,
+        "AMBIGUOUS_REVIEW": 3,
+        "IGNORE_BAD_OR_NON_UK": 4,
     }
     return (
         pd.DataFrame(rows, columns=columns)
@@ -2057,6 +2225,25 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
         .sort_values(["_action_sort", "total_count", "raw_location"], ascending=[True, False, True])
         .drop(columns=["_action_sort"])
     )
+
+
+def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.DataFrame, month: str) -> pd.DataFrame:
+    """Summarise lookup coverage and proposal actions for the latest geo QA review."""
+    action_counts = Counter()
+    if not geo_unmapped_review.empty and "recommended_action" in geo_unmapped_review.columns:
+        action_counts = Counter(str(action) for action in geo_unmapped_review["recommended_action"].fillna(""))
+
+    rows = [
+        {"month": month, "metric": "lookup_rows_in_workbook", "value": geo_mapper.lookup_source_rows},
+        {"month": month, "metric": "unique_mapped_lookup_keys", "value": len(geo_mapper.place_to_region)},
+        {"month": month, "metric": "latest_geo_unmapped_review_locations", "value": len(geo_unmapped_review)},
+    ]
+    rows.extend(
+        {"month": month, "metric": f"recommended_action_{action}", "value": action_counts.get(action, 0)}
+        for action in GEO_REVIEW_ACTIONS
+    )
+    return pd.DataFrame(rows, columns=["month", "metric", "value"])
+
 
 
 def slug(value: str) -> str:
@@ -2217,9 +2404,13 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         regional_dir / f"{month}-regional-location-audit.csv", index=False
     )
     geo_unmapped_review_path = regional_dir / f"{month}-geo-unmapped-review.csv"
-    build_geo_unmapped_review(all_jobs, month).to_csv(
+    geo_unmapped_review = build_geo_unmapped_review(all_jobs, month)
+    geo_unmapped_review.to_csv(
         geo_unmapped_review_path, index=False
     )
+    geo_lookup_qa_summary_path = regional_dir / f"{month}-geo-lookup-qa-summary.csv"
+    geo_lookup_qa_summary = build_geo_lookup_qa_summary(geo_mapper, geo_unmapped_review, month)
+    geo_lookup_qa_summary.to_csv(geo_lookup_qa_summary_path, index=False)
     compiler_summary_path = compiler_dir / f"{month}-compiler-summary.csv"
     compiler_summary, compiler_warnings, compiler_trace = build_compiler_summary_from_outputs(
         all_jobs=all_jobs,
@@ -2240,7 +2431,8 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"Resolved geo lookup path: {geo_lookup}",
         f"Geo lookup file exists: {'yes' if geo_lookup_exists else 'no'}",
         f"Geo lookup status: {geo_lookup_status}",
-        f"Geo lookup rows loaded: {geo_mapper.lookup_rows_loaded}",
+        f"Geo lookup rows in workbook: {geo_mapper.lookup_source_rows}",
+        f"Geo lookup unique mapped keys loaded: {len(geo_mapper.place_to_region)}",
         f"Fallback keyword rules used: {fallback_status}",
         f"Region mapping town/area source columns: {', '.join(area_columns) if area_columns else 'none found'}",
         f"Region mapping fallback location columns: {', '.join(location_columns) if location_columns else 'none found'}",
@@ -2248,6 +2440,9 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"Other / Unknown region count: {other_unknown_count} of {len(all_jobs)} ({other_unknown_ratio:.1%})",
         f"Other / Unknown warning threshold: {UNMAPPED_LOCATION_WARNING_THRESHOLD:.0%}",
         "Lookup verification checks: " + "; ".join(lookup_check_results),
+        "",
+        "Geo lookup QA summary:",
+        *[f"- {row.metric}: {row.value}" for row in geo_lookup_qa_summary.itertuples(index=False)],
         "",
         "Output files:",
         f"- {daily_dir / f'{month}-daily-summary.csv'}",
@@ -2259,6 +2454,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"- {regional_dir / f'{month}-family-region-breakdown.csv'}",
         f"- {regional_dir / f'{month}-regional-location-audit.csv'}",
         f"- {geo_unmapped_review_path}",
+        f"- {geo_lookup_qa_summary_path}",
         f"- {compiler_summary_path}",
         "",
         f"Traceable compiler summary generated with reconciliation/source tracing: {compiler_summary_path}",
