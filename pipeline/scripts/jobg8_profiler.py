@@ -127,6 +127,7 @@ COMPILER_SUMMARY_COLUMNS = [
 ]
 
 TRACKED_ONTAP_REGIONS = ["West Yorkshire", "South Yorkshire"]
+ACTIVE_ONTAP_SLICE_REGIONS = list(REGION_ORDER)
 GEO_REVIEW_ACTIONS = [
     "ADD_TO_LOOKUP_ACTIVE_REGION",
     "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE",
@@ -165,7 +166,24 @@ CLUSTER_TO_ONTAP_REGION = {
     "tees": "North East",
     "darlington": "North East",
     "hartlepool": "North East",
+    "london": "London",
+    "greater london": "London",
 }
+
+
+def display_region_from_cluster(cluster: object) -> Optional[str]:
+    """Return the UK geography label represented by a lookup.xlsx Cluster cell.
+
+    Active Ontap slice clusters are canonicalised to the existing profiler region
+    names so slice/reporting joins keep working. Non-active UK clusters are kept
+    as first-class geography labels instead of being collapsed to Other / Unknown.
+    """
+    cluster_text = normalise_lookup_place(cluster)
+    if not cluster_text:
+        return None
+    if cluster_text in CLUSTER_TO_ONTAP_REGION:
+        return CLUSTER_TO_ONTAP_REGION[cluster_text]
+    return str(cluster).strip()
 
 
 def ontap_region_from_cluster(cluster: object, anchor: object = "") -> Optional[str]:
@@ -389,6 +407,8 @@ class GeoMapper:
 
     def __init__(self, lookup_path: Optional[Path] = None):
         self.place_to_region: Dict[str, str] = {}
+        self._lookup_items_by_length: List[Tuple[str, str]] = []
+        self._lookup_patterns_by_length: List[Tuple[re.Pattern[str], str, str]] = []
         self.lookup_path = lookup_path
         self.lookup_loaded = False
         self.lookup_rows_loaded = 0
@@ -418,6 +438,8 @@ class GeoMapper:
         if place_text in self.place_to_region:
             return False
         self.place_to_region[place_text] = region
+        self._lookup_items_by_length = []
+        self._lookup_patterns_by_length = []
         return True
 
     def load_lookup(self, lookup_path: Path) -> None:
@@ -458,7 +480,7 @@ class GeoMapper:
             for _, row in df.iterrows():
                 if normalise_lookup_place(row.get("Area")):
                     source_rows += 1
-                region = ontap_region_from_cluster(row.get("Cluster"))
+                region = display_region_from_cluster(row.get("Cluster"))
                 if normalise_lookup_place(row.get("Area")) and region:
                     mapped_rows += 1
                 if self.add_place(row.get("Area"), region):
@@ -478,10 +500,19 @@ class GeoMapper:
         if not lookup_text:
             return None, ""
 
+        exact_region = self.place_to_region.get(lookup_text)
+        if exact_region:
+            return exact_region, lookup_text
+
         # Prefer longest lookup terms first so "south shields" wins before "shields".
-        for place, region in sorted(self.place_to_region.items(), key=lambda item: len(item[0]), reverse=True):
-            pattern = r"(?<![a-z0-9])" + re.escape(place) + r"(?![a-z0-9])"
-            if re.search(pattern, lookup_text):
+        if not self._lookup_patterns_by_length:
+            self._lookup_items_by_length = sorted(self.place_to_region.items(), key=lambda item: len(item[0]), reverse=True)
+            self._lookup_patterns_by_length = [
+                (re.compile(r"(?<![a-z0-9])" + re.escape(place) + r"(?![a-z0-9])"), place, region)
+                for place, region in self._lookup_items_by_length
+            ]
+        for pattern, place, region in self._lookup_patterns_by_length:
+            if pattern.search(lookup_text):
                 return region, place
 
         return None, ""
@@ -1018,6 +1049,14 @@ def read_jobg8_file(path: Path, geo_mapper: Optional[GeoMapper] = None) -> pd.Da
     out["region"] = [result[0] for result in region_results]
     out["region_match_source"] = [result[1] for result in region_results]
     out["region_match_place"] = [result[2] for result in region_results]
+    out["is_active_ontap_slice_region"] = [
+        "yes" if region in ACTIVE_ONTAP_SLICE_REGIONS else "no"
+        for region in out["region"]
+    ]
+    out["active_ontap_slice_region"] = [
+        region if region in ACTIVE_ONTAP_SLICE_REGIONS else ""
+        for region in out["region"]
+    ]
 
     out["job_family"] = [
         classify_family(title, desc)
@@ -1282,6 +1321,7 @@ def build_family_region_breakdown(all_jobs: pd.DataFrame, month: str) -> pd.Data
         rows.append({
             "month": month,
             "region": region,
+            "is_active_ontap_slice_region": "yes" if region in ACTIVE_ONTAP_SLICE_REGIONS else "no",
             "likely_family": family,
             "total_count": len(group),
             "unique_companies": unique_nonblank_count(group["company"]),
@@ -1291,7 +1331,7 @@ def build_family_region_breakdown(all_jobs: pd.DataFrame, month: str) -> pd.Data
 
     if not rows:
         return pd.DataFrame(columns=[
-            "month", "region", "likely_family", "total_count",
+            "month", "region", "is_active_ontap_slice_region", "likely_family", "total_count",
             "unique_companies", "unique_locations", "top_titles"
         ])
 
@@ -2065,6 +2105,7 @@ def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.Data
         rows.append({
             "month": month,
             "mapped_region": region,
+            "is_active_ontap_slice_region": "yes" if region in ACTIVE_ONTAP_SLICE_REGIONS else "no",
             "raw_location": loc,
             "raw_jobg8_area": top_values(group["jobg8_area"], limit=3) if "jobg8_area" in group.columns else "",
             "raw_jobg8_location": top_values(group["jobg8_location"], limit=3) if "jobg8_location" in group.columns else "",
@@ -2078,7 +2119,7 @@ def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.Data
 
     if not rows:
         return pd.DataFrame(columns=[
-            "month", "mapped_region", "raw_location", "raw_jobg8_area", "raw_jobg8_location",
+            "month", "mapped_region", "is_active_ontap_slice_region", "raw_location", "raw_jobg8_area", "raw_jobg8_location",
             "match_source", "match_place", "total_count", "unique_companies", "top_titles", "top_families"
         ])
 
@@ -2247,7 +2288,7 @@ def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFram
     )
 
 
-def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.DataFrame) -> pd.DataFrame:
+def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.DataFrame, all_jobs: Optional[pd.DataFrame] = None) -> pd.DataFrame:
     """Summarise lookup coverage and proposal actions for the latest geo QA review."""
     action_counts = Counter()
     if not geo_unmapped_review.empty and "recommended_action" in geo_unmapped_review.columns:
@@ -2256,10 +2297,24 @@ def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.D
         else:
             action_counts = Counter(str(action) for action in geo_unmapped_review["recommended_action"].fillna(""))
 
+    total_rows = len(all_jobs) if all_jobs is not None else 0
+    if all_jobs is not None and not all_jobs.empty:
+        active_mapped_count = int((all_jobs["is_active_ontap_slice_region"] == "yes").sum())
+        known_inactive_mapped_count = int(((all_jobs["region"] != "Other / Unknown") & (all_jobs["is_active_ontap_slice_region"] != "yes")).sum())
+        genuinely_unmapped_ambiguous_count = int((all_jobs["region"] == "Other / Unknown").sum())
+    else:
+        active_mapped_count = 0
+        known_inactive_mapped_count = 0
+        genuinely_unmapped_ambiguous_count = 0
+
     columns = [
         "lookup_file_path",
         "mapped_lookup_row_count",
         "unique_lookup_key_count",
+        "total_rows_profiled",
+        "active_ontap_region_mapped_count",
+        "known_uk_inactive_region_mapped_count",
+        "genuinely_unmapped_ambiguous_count",
         "geo_unmapped_review_row_count",
         "ADD_TO_LOOKUP_ACTIVE_REGION_count",
         "ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count",
@@ -2271,6 +2326,10 @@ def build_geo_lookup_qa_summary(geo_mapper: GeoMapper, geo_unmapped_review: pd.D
         "lookup_file_path": display_geo_lookup_path(geo_mapper.lookup_path),
         "mapped_lookup_row_count": geo_mapper.lookup_mapped_row_count,
         "unique_lookup_key_count": len(geo_mapper.place_to_region),
+        "total_rows_profiled": total_rows,
+        "active_ontap_region_mapped_count": active_mapped_count,
+        "known_uk_inactive_region_mapped_count": known_inactive_mapped_count,
+        "genuinely_unmapped_ambiguous_count": genuinely_unmapped_ambiguous_count,
         "geo_unmapped_review_row_count": len(geo_unmapped_review),
     }
     row.update({f"{action}_count": action_counts.get(action, 0) for action in GEO_REVIEW_ACTIONS})
@@ -2441,7 +2500,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         geo_unmapped_review_path, index=False
     )
     geo_lookup_qa_summary_path = regional_dir / f"{month}-geo-lookup-qa-summary.csv"
-    geo_lookup_qa_summary = build_geo_lookup_qa_summary(geo_mapper, geo_unmapped_review)
+    geo_lookup_qa_summary = build_geo_lookup_qa_summary(geo_mapper, geo_unmapped_review, all_jobs)
     geo_lookup_qa_summary.to_csv(geo_lookup_qa_summary_path, index=False)
     compiler_summary_path = compiler_dir / f"{month}-compiler-summary.csv"
     compiler_summary, compiler_warnings, compiler_trace = build_compiler_summary_from_outputs(
