@@ -1,20 +1,19 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
 SELECTED,West Yorkshire,Financial Planning Administrator,Wetherby,£35000 per year,FORCE_EXCLUDE,,cf0b5837-f853-4c9b-a997-8c383cb51196
-SELECTED,West Yorkshire,Finance Administrator,Leeds,£29000 - £32000 per year,,,8167605c-dd88-46b6-b3e5-bcf1127f6dc2
 SELECTED,West Yorkshire,Client Services Administrator - Exclusive to Taylor James,Leeds,£30000 - £380000 per year,,,e98555cf-7bd1-4ecf-a374-41a09af70cef
 SELECTED,West Yorkshire,Temporary HR Administrator,Huddersfield,£13.21 - £14.29 per hour,,,c2ff7338-f6fc-4e80-8338-c2a36ad5646c
 SELECTED,West Yorkshire,Customer Service Administrator,Wetherby,£25870 per year,,,a80438d7-f117-4ce7-b9a5-e067c271805d
 SELECTED,West Yorkshire,Sales and Operations Support Administrator,Bradford,£24784 - £27000 per year,,,a5f2c907-c09c-4242-8e04-1d01258d4eb4
 SELECTED,West Yorkshire,IFA Administrator,Wetherby,£28000 - £37000 per year,,,7bf81ff4-da16-4cb4-b844-abc17279a687
-SELECTED,West Yorkshire,Fleet Administrator,Leeds,,,,6a4b4e66-7ed9-476e-8eda-1b51e85563fe
 SELECTED,West Yorkshire,Service Administrator,Dewsbury,£28000 - £30000 per year,,,e25924d0-028f-4fc1-b9cc-6305349412d5
 SELECTED,West Yorkshire,Administrator,Dewsbury,£28000 - £30000 per year,,SELECT,ba59e49d-ab11-4637-ae56-7d0d787a942c
-SELECTED,West Yorkshire,HR Administrator,Bradford,£25500 per year,,,64e3885f-2f9e-4208-a007-f8114acdc0ee
 SELECTED,West Yorkshire,Customer Service Administrator,Leeds,£109.85 per daily,,,934f888b-9a1f-4b99-9cfd-d64fa903fbb0
 SELECTED,West Yorkshire,Group Regulatory Administrator,Leeds,,,,107417429
+POSS - WEST YORKSHIRE,West Yorkshire,Marketing & Office Support Coordinator,Leeds,,,,107241070
 POSS - WEST YORKSHIRE,West Yorkshire,Pricing Admin Assistant,Normanton,£26000 per year,,,107166205
 POSS - WEST YORKSHIRE,West Yorkshire,Design Administrator,Batley,£30000 per year,,,107426616
 POSS - WEST YORKSHIRE,West Yorkshire,Commercial/Finance Accounts Assistant,Huddersfield,£35000 per year,,,107242003
+POSS - WEST YORKSHIRE,West Yorkshire,PMO Programme Coordinator,Bradford,,,,107459020
 POSS - WEST YORKSHIRE,West Yorkshire,Business Systems & Data Coordinator,Normanton,£30000 per year,,,107409218
 SELECTED,South Yorkshire,IFA Administrator,Sheffield,£28000 - £34000 per year,,,ea50cbe2-95aa-4843-b8a6-65abc31b3a4b
 SELECTED,South Yorkshire,IT Office Administrator,Sheffield,"£28,835 per annum",,,107174108
@@ -23,3 +22,4 @@ SELECTED,South Yorkshire,Accounts Administrator (Part-time),Sheffield,£28000 pe
 SELECTED,South Yorkshire,Assistant Technical Co-ordinator / Chemist,Sheffield,£30000 per year,,,107408974
 SELECTED,South Yorkshire,Contract Operations Administrator,Doncaster,,,,107216327
 SELECTED,South Yorkshire,Referral & Assessment Coordinator,Sheffield,"£20,982 per annum",,,107425594
+POSS - SOUTH YORKSHIRE,South Yorkshire,Financial Planning Administrator,Rotherham,£27000 - £30000 per year,,,21aeef82-18d7-4324-9b40-4aab49628831

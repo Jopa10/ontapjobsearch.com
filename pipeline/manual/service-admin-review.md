@@ -17,12 +17,6 @@ job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
 
 ---
 action:
-SELECTED | West Yorkshire | Leeds | £29000 - £32000 per year | Finance Administrator
-job_id: 8167605c-dd88-46b6-b3e5-bcf1127f6dc2
----
-
----
-action:
 SELECTED | West Yorkshire | Leeds | £30000 - £380000 per year | Client Services Administrator - Exclusive to Taylor James
 job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
 ---
@@ -53,12 +47,6 @@ job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
 
 ---
 action:
-SELECTED | West Yorkshire | Leeds |  | Fleet Administrator
-job_id: 6a4b4e66-7ed9-476e-8eda-1b51e85563fe
----
-
----
-action:
 SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Service Administrator
 job_id: e25924d0-028f-4fc1-b9cc-6305349412d5
 ---
@@ -67,12 +55,6 @@ job_id: e25924d0-028f-4fc1-b9cc-6305349412d5
 action: select
 SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
 job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
----
-
----
-action:
-SELECTED | West Yorkshire | Bradford | £25500 per year | HR Administrator
-job_id: 64e3885f-2f9e-4208-a007-f8114acdc0ee
 ---
 
 ---
@@ -91,6 +73,12 @@ job_id: 107417429
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Marketing & Office Support Coordinator
+job_id: 107241070
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Normanton | £26000 per year | Pricing Admin Assistant
 job_id: 107166205
 ---
@@ -105,6 +93,12 @@ job_id: 107426616
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £35000 per year | Commercial/Finance Accounts Assistant
 job_id: 107242003
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford |  | PMO Programme Coordinator
+job_id: 107459020
 ---
 
 ---
@@ -159,4 +153,8 @@ job_id: 107425594
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
+job_id: 21aeef82-18d7-4324-9b40-4aab49628831
+---
