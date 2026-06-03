@@ -35,7 +35,7 @@ V9 additions:
 - elastic titles can fill thin slices after high-confidence titles
 
 Input folder:
-  input/   put ONE JobG8 export and ONE region lookup file here
+  input/   put ONE JobG8 export here; geo defaults to pipeline/geo/lookup.xlsx
 
 Output folder:
   output-admin-service/west-yorkshire-admin/service.json
@@ -90,7 +90,9 @@ MANUAL_REVIEW_FIELDNAMES = [
 ]
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
-LOOKUP_FILE_KEYWORDS = ["lookup", "region", "town"]
+DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "lookup.xlsx"
+DEFAULT_GEO_LOOKUP_DISPLAY_PATH = Path("pipeline/geo/lookup.xlsx")
+
 TITLE_REGISTER_FILE_KEYWORDS = ["admin_service_title_classification_register", "title_classification_register"]
 
 # Locked source columns from the real JobG8 export checked on 30-04
@@ -564,6 +566,7 @@ def read_table(path: Path) -> pd.DataFrame:
 
 
 def find_input_file(keywords: list[str], exclude: Path | None = None) -> Path:
+    """Find the JobG8 input file inside /input without treating title registers as daily uploads."""
     files = [
         p
         for p in INPUT_DIR.iterdir()
@@ -572,14 +575,21 @@ def find_input_file(keywords: list[str], exclude: Path | None = None) -> Path:
     ]
     if exclude:
         files = [p for p in files if p.resolve() != exclude.resolve()]
+    files = [
+        p
+        for p in files
+        if not any(keyword in p.name.lower() for keyword in TITLE_REGISTER_FILE_KEYWORDS)
+    ]
     matches = [p for p in files if any(k in p.name.lower() for k in keywords)]
     if len(matches) == 1:
         return matches[0]
+    if len(matches) > 1:
+        raise SystemExit("STOP: multiple matching input files found: " + ", ".join(p.name for p in matches))
     if len(files) == 1:
         return files[0]
     raise SystemExit(
-        "STOP: could not identify input files clearly. Put ONE JobG8 export and ONE lookup file in /input, "
-        "with names including 'jobg8' and 'lookup'."
+        "STOP: could not identify the JobG8 input file clearly. Put ONE JobG8 export in /input, "
+        "with a name including 'jobg8'."
     )
 
 
@@ -630,47 +640,24 @@ def _unique_paths(paths: list[Path]) -> list[Path]:
 
 
 def find_lookup_file(job_file: Path) -> Path:
-    """Find the geo lookup in /input first, then fall back to pipeline/geo."""
+    """Return the shared Ontap geo lookup workbook.
 
-    def valid_lookup_candidates(search_dirs: list[Path]) -> list[Path]:
-        candidates = _candidate_tables(search_dirs)
-        candidates = [path for path in candidates if path.resolve() != job_file.resolve()]
-        candidates = [
-            path
-            for path in candidates
-            if not any(keyword in path.name.lower() for keyword in TITLE_REGISTER_FILE_KEYWORDS)
-        ]
-        named = [path for path in candidates if any(keyword in path.name.lower() for keyword in LOOKUP_FILE_KEYWORDS)]
-        valid_named = [path for path in named if _table_has_columns(path, {"Area", "Cluster"})]
-        if valid_named:
-            return _unique_paths(valid_named)
-        return _unique_paths([path for path in candidates if _table_has_columns(path, {"Area", "Cluster"})])
-
-    input_matches = valid_lookup_candidates([INPUT_DIR])
-    if len(input_matches) == 1:
-        return input_matches[0]
-    if len(input_matches) > 1:
+    The daily /input folder is intentionally not searched for geography files.
+    pipeline/geo/lookup.xlsx is the single source of truth; bad or missing
+    places should be fixed there rather than by supplying per-run lookup files.
+    """
+    del job_file  # kept for backwards-compatible call sites.
+    if not DEFAULT_GEO_LOOKUP_PATH.exists():
         raise SystemExit(
-            "STOP: multiple valid geo lookup files found in /input: "
-            + ", ".join(path.name for path in input_matches)
-            + ". Keep only one lookup workbook in /input."
+            "STOP: could not find the default geo lookup file at "
+            f"{DEFAULT_GEO_LOOKUP_DISPLAY_PATH}. The lookup file must contain columns named exactly: Area, Cluster."
         )
-
-    fallback_matches = valid_lookup_candidates([Path("geo"), Path.cwd(), Path(__file__).resolve().parent])
-    if len(fallback_matches) == 1:
-        return fallback_matches[0]
-    if len(fallback_matches) > 1:
+    if not _table_has_columns(DEFAULT_GEO_LOOKUP_PATH, {"Area", "Cluster"}):
         raise SystemExit(
-            "STOP: multiple valid geo lookup files found beside the script/pipeline folder: "
-            + ", ".join(path.name for path in fallback_matches)
-            + ". Move the one you want into /input or remove the duplicate."
+            "STOP: default geo lookup file must contain columns named exactly: Area, Cluster "
+            f"({DEFAULT_GEO_LOOKUP_DISPLAY_PATH})"
         )
-
-    raise SystemExit(
-        "STOP: could not find the geo lookup file. Put one lookup/geo spreadsheet with columns Area and Cluster "
-        "in /input or pipeline/geo."
-    )
-
+    return DEFAULT_GEO_LOOKUP_PATH
 
 def validate_job_columns(df: pd.DataFrame) -> None:
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
@@ -2039,7 +2026,7 @@ def write_outputs(
 def main() -> int:
     if not INPUT_DIR.exists():
         INPUT_DIR.mkdir()
-        raise SystemExit("Created /input folder. Put the JobG8 export and lookup file in it, then run again.")
+        raise SystemExit("Created /input folder. Put the JobG8 export in it, then run again. Geo defaults to pipeline/geo/lookup.xlsx.")
 
     job_file = find_input_file(JOB_FILE_KEYWORDS)
     lookup_file = find_lookup_file(job_file)
@@ -2048,6 +2035,7 @@ def main() -> int:
     job_df = read_table(job_file)
     validate_job_columns(job_df)
 
+    print(f"Default geo lookup path: {DEFAULT_GEO_LOOKUP_DISPLAY_PATH}")
     print(f"Reading lookup file: {lookup_file}")
     lookup_df = read_table(lookup_file)
     lookup = build_lookup(lookup_df)
