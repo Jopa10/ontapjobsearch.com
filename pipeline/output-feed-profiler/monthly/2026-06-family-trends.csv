@@ -1,5 +1,5 @@
 month,job_family,total_jobs,days_seen,unique_titles,unique_companies,unique_locations,top_regions,slice_viability_flag,west_yorkshire,south_yorkshire,lancashire,greater_manchester,cumbria,north_east,other_unknown
-2026-06,unclassified,1887,1,951,455,566,Other / Unknown (1598); West Yorkshire (121); North East (54); South Yorkshire (45); Greater Manchester (44),unknown_no_valid_dates,121,45,15,44,10,54,1598
+2026-06,unclassified,1887,1,951,455,566,Other / Unknown (1597); West Yorkshire (121); North East (54); Greater Manchester (45); South Yorkshire (45),unknown_no_valid_dates,121,45,15,45,10,54,1597
 2026-06,sales,411,1,22,13,98,Other / Unknown (410); West Yorkshire (1),unknown_no_valid_dates,1,0,0,0,0,0,410
 2026-06,administrator_general,205,1,143,124,130,Other / Unknown (176); Greater Manchester (12); West Yorkshire (8); South Yorkshire (4); North East (2),unknown_no_valid_dates,8,4,2,12,1,2,176
 2026-06,support_worker,189,1,82,78,145,Other / Unknown (145); Cumbria (17); North East (16); Lancashire (6); Greater Manchester (3),unknown_no_valid_dates,0,2,6,3,17,16,145
