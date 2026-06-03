@@ -27,6 +27,14 @@ jobs:
         id: jobg8-month
         run: echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
 
+      - name: Run service-admin pipeline
+        working-directory: pipeline
+        run: python -m scripts.service_admin_pipeline
+
+      - name: Run support-worker pipeline
+        working-directory: pipeline
+        run: python -m scripts.support_worker_pipeline
+
       - name: Run JobG8 profiler
         working-directory: pipeline
         run: >-
@@ -35,14 +43,6 @@ jobs:
           --input-dir input
           --output-dir output-feed-profiler
           --geo-lookup geo/lookup.xlsx
-
-      - name: Run service-admin pipeline
-        working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline
-
-      - name: Run support-worker pipeline
-        working-directory: pipeline
-        run: python -m scripts.support_worker_pipeline
 
       - name: Commit JobG8 daily output
         run: |
