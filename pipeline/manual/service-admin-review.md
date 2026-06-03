@@ -22,6 +22,12 @@ job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
 ---
 
 ---
+action: exclude
+SELECTED | West Yorkshire | Leeds |  | Group Regulatory Administrator
+job_id: 107417429
+---
+
+---
 action:
 SELECTED | West Yorkshire | Huddersfield | £13.21 - £14.29 per hour | Temporary HR Administrator
 job_id: c2ff7338-f6fc-4e80-8338-c2a36ad5646c
@@ -58,15 +64,15 @@ job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
 ---
 
 ---
-action:
-SELECTED | West Yorkshire | Leeds | £109.85 per daily | Customer Service Administrator
-job_id: 934f888b-9a1f-4b99-9cfd-d64fa903fbb0
+action: select
+SELECTED | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
+job_id: 107409218
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Leeds |  | Group Regulatory Administrator
-job_id: 107417429
+action:
+SELECTED | West Yorkshire | Leeds | £109.85 per daily | Customer Service Administrator
+job_id: 934f888b-9a1f-4b99-9cfd-d64fa903fbb0
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -101,13 +107,13 @@ POSS - WEST YORKSHIRE | West Yorkshire | Bradford |  | PMO Programme Coordinator
 job_id: 107459020
 ---
 
+## SOUTH YORKSHIRE — SELECTED
+
 ---
 action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
-job_id: 107409218
+SELECTED | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
+job_id: 21aeef82-18d7-4324-9b40-4aab49628831
 ---
-
-## SOUTH YORKSHIRE — SELECTED
 
 ---
 action:
@@ -153,8 +159,4 @@ job_id: 107425594
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
-job_id: 21aeef82-18d7-4324-9b40-4aab49628831
----
+_No jobs in this group._
