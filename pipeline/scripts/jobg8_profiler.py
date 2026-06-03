@@ -45,6 +45,7 @@ from __future__ import annotations
 import argparse
 import re
 from collections import Counter
+from datetime import date
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 
@@ -88,6 +89,25 @@ REGION_KEYWORDS: Dict[str, List[str]] = {
 }
 
 REGION_ORDER = list(REGION_KEYWORDS.keys())
+
+SUPPORT_WORKER_FAMILIES = ["support_worker"]
+ADMIN_SERVICE_FAMILIES = ["service_administrator", "administrator_general"]
+COMPILER_SUMMARY_COLUMNS = [
+    "report_month",
+    "run_date",
+    "total_jobs_month_to_date",
+    "total_support_worker_jobs",
+    "total_admin_service_jobs",
+    "region",
+    "support_worker_count",
+    "admin_service_count",
+    "strongest_title_families",
+    "top_locations",
+    "top_companies",
+    "slice_status",
+    "recommendation",
+    "red_flags",
+]
 
 
 # -----------------------------
@@ -1068,6 +1088,227 @@ def build_family_region_breakdown(all_jobs: pd.DataFrame, month: str) -> pd.Data
 
 
 
+
+def read_profiler_csv(path: Path, warnings: List[str]) -> pd.DataFrame:
+    """Read an already-written profiler CSV without making the daily run brittle."""
+    if not path.exists():
+        warnings.append(f"missing source report: {path}")
+        return pd.DataFrame()
+
+    try:
+        return pd.read_csv(path)
+    except AttributeError:
+        try:
+            return pd.read_csv(str(path))
+        except Exception as exc:
+            warnings.append(f"could not read source report {path}: {exc}")
+            return pd.DataFrame()
+    except Exception as exc:
+        warnings.append(f"could not read source report {path}: {exc}")
+        return pd.DataFrame()
+
+
+def compiler_top_from_report(
+    report: pd.DataFrame,
+    value_column: str,
+    count_column: str = "total_count",
+    limit: int = 5,
+) -> str:
+    if report.empty or value_column not in report.columns or count_column not in report.columns:
+        return ""
+
+    rows = []
+    for _, row in report.head(limit).iterrows():
+        value = str(row.get(value_column, "")).strip()
+        if not value or value.lower() == "nan":
+            continue
+        try:
+            count = int(float(row.get(count_column, 0)))
+        except (TypeError, ValueError):
+            count = 0
+        rows.append(f"{value} ({count})" if count else value)
+    return "; ".join(rows)
+
+
+def compiler_red_flag_text(flags: List[str]) -> str:
+    return "; ".join(dict.fromkeys(flag for flag in flags if flag)) or "none"
+
+
+def compiler_slice_status(
+    support_count: int,
+    admin_count: int,
+    total_region_jobs: int,
+    red_flags: List[str],
+) -> str:
+    serious_flags = [flag for flag in red_flags if "missing source report" not in flag and "could not read source report" not in flag]
+    if any("sharp feed total drop" in flag or "generic Yorkshire" in flag for flag in serious_flags):
+        return "INVESTIGATE"
+    if support_count == 0 and admin_count == 0:
+        return "INVESTIGATE" if total_region_jobs >= 20 else "THIN"
+    if support_count >= 12 and admin_count >= 12 and not serious_flags:
+        return "STRONG"
+    if support_count >= 6 and admin_count >= 6:
+        return "OK" if not serious_flags else "INVESTIGATE"
+    if support_count >= 3 or admin_count >= 3:
+        return "THIN" if not serious_flags else "INVESTIGATE"
+    return "THIN"
+
+
+def compiler_recommendation(status: str, red_flags: List[str]) -> str:
+    flag_text = " | ".join(red_flags).lower()
+    if status == "STRONG":
+        return "Publish candidate"
+    if "location mapping" in flag_text or "generic yorkshire" in flag_text or "unmapped" in flag_text:
+        return "Investigate location mapping"
+    if "dominates" in flag_text:
+        return "Hold unless manually topped up"
+    if status == "OK":
+        return "Publish candidate"
+    if status == "THIN":
+        return "Not enough depth yet"
+    return "Hold unless manually topped up"
+
+
+def build_compiler_summary_from_outputs(
+    all_jobs: pd.DataFrame,
+    month: str,
+    output_dir: Path,
+) -> Tuple[pd.DataFrame, List[str]]:
+    """Build a first-stop operational CSV from the existing profiler outputs.
+
+    The summary intentionally reuses the CSVs written by the profiler earlier in
+    the same run. Missing source CSVs are treated as red flags so the GitHub
+    Action still produces a compiler summary for operators to inspect.
+    """
+    warnings: List[str] = []
+
+    daily = read_profiler_csv(output_dir / "daily" / f"{month}-daily-summary.csv", warnings)
+    family_trends = read_profiler_csv(output_dir / "monthly" / f"{month}-family-trends.csv", warnings)
+    slice_viability = read_profiler_csv(output_dir / "monthly" / f"{month}-slice-viability.csv", warnings)
+    title_breadth = read_profiler_csv(output_dir / "title-analysis" / f"{month}-title-breadth.csv", warnings)
+    regional_breakdown = read_profiler_csv(output_dir / "regional" / f"{month}-family-region-breakdown.csv", warnings)
+    location_audit = read_profiler_csv(output_dir / "regional" / f"{month}-regional-location-audit.csv", warnings)
+
+    valid_dates = sorted(str(d) for d in all_jobs["date"].dropna().unique() if str(d) != "unknown_date")
+    run_date = valid_dates[-1] if valid_dates else date.today().isoformat()
+    total_jobs = int(len(all_jobs))
+    total_support = int(all_jobs["job_family"].isin(SUPPORT_WORKER_FAMILIES).sum())
+    total_admin = int(all_jobs["job_family"].isin(ADMIN_SERVICE_FAMILIES).sum())
+
+    shared_flags = list(warnings)
+
+    if not daily.empty and {"date", "total_jobs"}.issubset(daily.columns):
+        known_daily = daily[daily["date"].astype(str) != "unknown_date"].copy()
+        if len(known_daily) >= 2:
+            known_daily["total_jobs_numeric"] = pd.to_numeric(known_daily["total_jobs"], errors="coerce").fillna(0)
+            latest = known_daily.sort_values("date").iloc[-1]
+            earlier = known_daily.sort_values("date").iloc[:-1]
+            earlier_max = float(earlier["total_jobs_numeric"].max()) if not earlier.empty else 0
+            latest_total = float(latest["total_jobs_numeric"])
+            if earlier_max > 0 and latest_total <= earlier_max * 0.6:
+                shared_flags.append(
+                    f"sharp feed total drop versus earlier days: latest {int(latest_total)} vs earlier high {int(earlier_max)}"
+                )
+
+    if not location_audit.empty and {"mapped_region", "raw_location", "total_count"}.issubset(location_audit.columns):
+        audit = location_audit.copy()
+        audit["total_count_numeric"] = pd.to_numeric(audit["total_count"], errors="coerce").fillna(0)
+        unmapped_count = int(audit.loc[audit["mapped_region"].astype(str) == "Other / Unknown", "total_count_numeric"].sum())
+        if total_jobs and unmapped_count / total_jobs >= 0.5:
+            shared_flags.append(f"many jobs unmapped: {unmapped_count} of {total_jobs}")
+        yorkshire_count = int(audit.loc[audit["raw_location"].astype(str).str.lower() == "yorkshire", "total_count_numeric"].sum())
+        if total_jobs and yorkshire_count / total_jobs >= 0.03:
+            shared_flags.append(f"many jobs in generic Yorkshire: {yorkshire_count} of {total_jobs}")
+
+    dominant_company = ""
+    dominant_title = ""
+    if not title_breadth.empty:
+        if {"normalised_title", "total_count"}.issubset(title_breadth.columns):
+            top_title = title_breadth.copy()
+            top_title["total_count_numeric"] = pd.to_numeric(top_title["total_count"], errors="coerce").fillna(0)
+            top_title = top_title.sort_values("total_count_numeric", ascending=False).head(1)
+            if not top_title.empty:
+                title_count = int(top_title.iloc[0]["total_count_numeric"])
+                title_name = str(top_title.iloc[0].get("normalised_title", "")).strip()
+                if total_jobs and title_count / total_jobs >= 0.08:
+                    dominant_title = f"one title dominates: {title_name} ({title_count})"
+        if "top_companies" in title_breadth.columns:
+            company_counter: Counter[str] = Counter()
+            for value in title_breadth["top_companies"].dropna().astype(str):
+                for company, count in re.findall(r"([^;()]+)\s+\((\d+)\)", value):
+                    company_counter[company.strip()] += int(count)
+            if company_counter:
+                company, count = company_counter.most_common(1)[0]
+                if total_jobs and count / total_jobs >= 0.15:
+                    dominant_company = f"one company dominates: {company} ({count})"
+    if dominant_title:
+        shared_flags.append(dominant_title)
+    if dominant_company:
+        shared_flags.append(dominant_company)
+
+    rows = []
+    for region in REGION_ORDER:
+        region_jobs = all_jobs[all_jobs["region"] == region]
+        support_count = int(region_jobs["job_family"].isin(SUPPORT_WORKER_FAMILIES).sum())
+        admin_count = int(region_jobs["job_family"].isin(ADMIN_SERVICE_FAMILIES).sum())
+        total_region_jobs = int(len(region_jobs))
+
+        region_flags = list(shared_flags)
+        if support_count < 3:
+            region_flags.append(f"region has unexpectedly low support count: {support_count}")
+        if admin_count < 3:
+            region_flags.append(f"region has unexpectedly low admin/service count: {admin_count}")
+
+        if not slice_viability.empty and {"region", "job_family", "viability"}.issubset(slice_viability.columns):
+            region_viability = slice_viability[
+                (slice_viability["region"].astype(str) == region)
+                & (slice_viability["job_family"].astype(str).isin(SUPPORT_WORKER_FAMILIES + ADMIN_SERVICE_FAMILIES))
+            ]
+            drop_rows = region_viability[region_viability["viability"].astype(str).str.contains("month_end_drop", na=False)]
+            if not drop_rows.empty:
+                region_flags.append("sharp feed total drop compared with earlier days for key slices")
+
+        region_breakdown = regional_breakdown[regional_breakdown["region"].astype(str) == region] if not regional_breakdown.empty and "region" in regional_breakdown.columns else pd.DataFrame()
+        region_locations = location_audit[location_audit["mapped_region"].astype(str) == region] if not location_audit.empty and "mapped_region" in location_audit.columns else pd.DataFrame()
+
+        status = compiler_slice_status(support_count, admin_count, total_region_jobs, region_flags)
+        rows.append({
+            "report_month": month,
+            "run_date": run_date,
+            "total_jobs_month_to_date": total_jobs,
+            "total_support_worker_jobs": total_support,
+            "total_admin_service_jobs": total_admin,
+            "region": region,
+            "support_worker_count": support_count,
+            "admin_service_count": admin_count,
+            "strongest_title_families": compiler_top_from_report(region_breakdown, "likely_family", limit=5),
+            "top_locations": compiler_top_from_report(region_locations, "raw_location", limit=5),
+            "top_companies": top_values(region_jobs["company"], limit=5),
+            "slice_status": status,
+            "recommendation": compiler_recommendation(status, region_flags),
+            "red_flags": compiler_red_flag_text(region_flags),
+        })
+
+    if not rows:
+        rows.append({
+            "report_month": month,
+            "run_date": run_date,
+            "total_jobs_month_to_date": total_jobs,
+            "total_support_worker_jobs": total_support,
+            "total_admin_service_jobs": total_admin,
+            "region": "All regions",
+            "support_worker_count": total_support,
+            "admin_service_count": total_admin,
+            "strongest_title_families": compiler_top_from_report(family_trends, "job_family", "total_jobs", limit=5),
+            "top_locations": "",
+            "top_companies": top_values(all_jobs["company"], limit=5),
+            "slice_status": "INVESTIGATE" if shared_flags else "THIN",
+            "recommendation": "Investigate location mapping" if shared_flags else "Not enough depth yet",
+            "red_flags": compiler_red_flag_text(shared_flags),
+        })
+
+    return pd.DataFrame(rows, columns=COMPILER_SUMMARY_COLUMNS), warnings
+
 def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
     """Shows which raw JobG8 locations are being mapped into each Ontap region."""
     rows = []
@@ -1199,8 +1440,9 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     monthly_dir = output_dir / "monthly"
     title_dir = output_dir / "title-analysis"
     regional_dir = output_dir / "regional"
+    compiler_dir = output_dir / "compiler-summary"
 
-    for folder in [daily_dir, monthly_dir, title_dir, regional_dir]:
+    for folder in [daily_dir, monthly_dir, title_dir, regional_dir, compiler_dir]:
         folder.mkdir(parents=True, exist_ok=True)
 
     build_daily_summary(all_jobs).to_csv(
@@ -1227,6 +1469,13 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     build_regional_location_audit(all_jobs, month).to_csv(
         regional_dir / f"{month}-regional-location-audit.csv", index=False
     )
+    compiler_summary_path = compiler_dir / f"{month}-compiler-summary.csv"
+    compiler_summary, compiler_warnings = build_compiler_summary_from_outputs(
+        all_jobs=all_jobs,
+        month=month,
+        output_dir=output_dir,
+    )
+    compiler_summary.to_csv(compiler_summary_path, index=False)
 
     # Also save a small run log.
     log_lines = [
@@ -1251,11 +1500,18 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"- {title_dir / f'{month}-title-breadth.csv'}",
         f"- {regional_dir / f'{month}-family-region-breakdown.csv'}",
         f"- {regional_dir / f'{month}-regional-location-audit.csv'}",
+        f"- {compiler_summary_path}",
+        "",
+        f"Compiler summary generated: {compiler_summary_path}",
     ]
 
     if errors:
         log_lines.extend(["", "Files with errors:"])
         log_lines.extend(f"- {e}" for e in errors)
+
+    if compiler_warnings:
+        log_lines.extend(["", "Compiler summary warnings:"])
+        log_lines.extend(f"- {warning}" for warning in compiler_warnings)
 
     if geo_mapper.lookup_error:
         log_lines.extend(["", f"Geo lookup note: {geo_mapper.lookup_error}"])
