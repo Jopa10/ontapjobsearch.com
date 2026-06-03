@@ -19,3 +19,6 @@ Output files:
 - output-feed-profiler/title-analysis/2026-06-title-breadth.csv
 - output-feed-profiler/regional/2026-06-family-region-breakdown.csv
 - output-feed-profiler/regional/2026-06-regional-location-audit.csv
+- output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
+
+Compiler summary generated: output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
