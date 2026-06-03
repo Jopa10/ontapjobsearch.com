@@ -36,8 +36,8 @@ Outputs:
 
 Optional geography:
     By default, the profiler reads pipeline/geo/lookup.xlsx from the repository
-    and uses it to map raw JobG8 locations into Ontap regions. The built-in town
-    keyword rules are used only if that lookup file is missing or unreadable.
+    and uses it to map raw JobG8 locations into Ontap regions. /input is not
+    searched for geo files; pass --geo-lookup deliberately to override.
 """
 
 from __future__ import annotations
@@ -127,6 +127,8 @@ COMPILER_SUMMARY_COLUMNS = [
 TRACKED_ONTAP_REGIONS = ["West Yorkshire", "South Yorkshire"]
 UNMAPPED_LOCATION_WARNING_THRESHOLD = 0.20
 UNMAPPED_LOCATION_HIGH_THRESHOLD = 0.50
+DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "lookup.xlsx"
+DEFAULT_GEO_LOOKUP_DISPLAY_PATH = Path("pipeline/geo/lookup.xlsx")
 
 
 # -----------------------------
@@ -226,6 +228,7 @@ def is_broad_ambiguous_location(value: object) -> bool:
         "yorkshire", "yorkshire and the humber", "yorkshire humber",
         "north of england", "northern england", "england", "united kingdom",
         "uk", "remote", "home based", "field based", "nationwide",
+        "not specified", "unspecified", "n/a", "na",
         "various", "multiple locations", "multiple sites",
     }
     if loc in broad_exact:
@@ -259,9 +262,9 @@ class GeoMapper:
             else:
                 self.lookup_error = f"lookup file missing: {lookup_path}"
 
-        # The shared workbook is the primary geography source. Built-in keyword
-        # rules are only a backup for runs where the workbook could not be read.
-        self.fallback_keywords_enabled = not self.lookup_loaded
+        # pipeline/geo/lookup.xlsx is the geography source of truth. Do not use
+        # per-script keyword lists as an automatic mapping fallback.
+        self.fallback_keywords_enabled = False
 
     def add_place(self, place: object, region: Optional[str]) -> bool:
         place_text = normalise_lookup_place(place)
@@ -305,31 +308,21 @@ class GeoMapper:
                 self.lookup_error = f"failed reading lookup sheet: {exc}"
                 continue
 
-            # General all-UK lookup block: Area -> Cluster.
-            if "Area" in df.columns and "Cluster" in df.columns:
-                for _, row in df.iterrows():
-                    region = ontap_region_from_cluster(row.get("Cluster"))
-                    if self.add_place(row.get("Area"), region):
-                        loaded_rows += 1
+            # Shared Ontap geo source of truth: Area -> Cluster.
+            if "Area" not in df.columns or "Cluster" not in df.columns:
+                continue
 
-            # Older/support-worker helper block in the uploaded sheet:
-            # Geo = town/place, Unnamed: 1 = subcluster, Unnamed: 2 = anchor city.
-            if "Geo" in df.columns:
-                cluster_col = "Unnamed: 1" if "Unnamed: 1" in df.columns else None
-                anchor_col = "Unnamed: 2" if "Unnamed: 2" in df.columns else None
-                for _, row in df.iterrows():
-                    cluster = row.get(cluster_col) if cluster_col else ""
-                    anchor = row.get(anchor_col) if anchor_col else ""
-                    region = ontap_region_from_cluster(cluster, anchor)
-                    if self.add_place(row.get("Geo"), region):
-                        loaded_rows += 1
+            for _, row in df.iterrows():
+                region = ontap_region_from_cluster(row.get("Cluster"))
+                if self.add_place(row.get("Area"), region):
+                    loaded_rows += 1
 
         self.lookup_rows_loaded = loaded_rows
         self.lookup_loaded = loaded_rows > 0
         if self.lookup_loaded:
             self.lookup_error = ""
         elif not self.lookup_error:
-            self.lookup_error = "no matching geo rows were found in lookup workbook"
+            self.lookup_error = "lookup workbook must contain columns named exactly: Area, Cluster"
 
     def lookup_match(self, text: object) -> Tuple[Optional[str], str]:
         lookup_text = normalise_lookup_place(text)
@@ -381,22 +374,13 @@ class GeoMapper:
 
 
 def find_default_geo_lookup(base_dir: Path) -> Path:
-    script_path = Path(__file__).resolve()
-    pipeline_dir = script_path.parents[1]
-    candidates = [
-        pipeline_dir / "geo" / "lookup.xlsx",
-        base_dir / "Geo lookup sheet.xlsx",
-        base_dir / "geo_lookup.xlsx",
-        base_dir / "geo-lookup.xlsx",
-        base_dir / "lookup.xlsx",
-    ]
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate.resolve()
+    """Return the shared Ontap geo lookup workbook path.
 
-    # Return the intended repository default even when it is missing so the run
-    # log can show the exact path checked before falling back to keyword rules.
-    return candidates[0].resolve()
+    base_dir is accepted for backwards-compatible callers, but the daily input
+    folder and current working directory are intentionally not searched.
+    """
+    del base_dir
+    return DEFAULT_GEO_LOOKUP_PATH.resolve()
 
 
 def resolve_geo_lookup_arg(geo_lookup: Optional[Path]) -> Path:
@@ -1940,6 +1924,141 @@ def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.Data
         ["mapped_region", "total_count", "raw_location"], ascending=[True, False, True]
     )
 
+
+
+def _suspected_region_from_known_terms(text: object) -> Tuple[str, str]:
+    lookup_text = normalise_lookup_place(text)
+    if not lookup_text:
+        return "", ""
+
+    for region in REGION_ORDER:
+        for place in sorted(REGION_KEYWORDS.get(region, []), key=len, reverse=True):
+            place_text = normalise_lookup_place(place)
+            pattern = r"(?<![a-z0-9])" + re.escape(place_text) + r"(?![a-z0-9])"
+            if re.search(pattern, lookup_text):
+                return region, f"target-region town term '{place}' appears in raw location"
+    return "", ""
+
+
+def _suspected_region_from_context(group: pd.DataFrame) -> Tuple[str, str]:
+    context = " ".join(
+        (
+            group.get(column, pd.Series(dtype=str)).fillna("").astype(str).str.cat(sep=" ")
+            if column in group.columns else ""
+        )
+        for column in ["title", "description"]
+    )
+    return _suspected_region_from_known_terms(context[:5000])
+
+
+def build_geo_unmapped_review(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
+    """Material geo QA rows for lookup workbook review, not a full UK unmapped dump."""
+    columns = [
+        "month",
+        "raw_location",
+        "raw_jobg8_area",
+        "raw_jobg8_location",
+        "suspected_region",
+        "suspected_reason",
+        "job_family_counts",
+        "total_count",
+        "unique_companies",
+        "top_titles",
+        "recommended_action",
+        "suggested_lookup_area",
+        "suggested_lookup_cluster",
+        "confidence",
+    ]
+    rows = []
+    target_families = set(SUPPORT_WORKER_FAMILIES + ADMIN_SERVICE_FAMILIES)
+
+    group_cols = ["region", "location", "region_match_source", "region_match_place"]
+    for (region, location, match_source, match_place), group in all_jobs.groupby(group_cols, dropna=False):
+        raw_location = str(location).strip() if str(location).strip() else "blank_location"
+        loc_norm = normalise_lookup_place(raw_location)
+        family_counts = Counter(str(value) for value in group["job_family"].fillna(""))
+        target_family_count = sum(family_counts.get(family, 0) for family in target_families)
+        total_count = len(group)
+        is_unmapped = region == "Other / Unknown" or match_source == "unmapped"
+        is_broad = is_broad_ambiguous_location(raw_location)
+        suspected_region, suspected_reason = _suspected_region_from_known_terms(raw_location)
+        recommended_action = ""
+        confidence = ""
+
+        if not suspected_region and is_broad:
+            suspected_region, suspected_reason = _suspected_region_from_context(group)
+            if suspected_region:
+                suspected_reason = f"broad/ambiguous location; {suspected_reason} in title/description"
+
+        suspicious_mapping = False
+        match_norm = normalise_lookup_place(match_place)
+        if region != "Other / Unknown" and match_norm and loc_norm and loc_norm != match_norm:
+            match_tokens = match_norm.split()
+            if len(match_tokens) == 1 and re.search(r"(?<![a-z0-9])" + re.escape(match_norm) + r"\s+(st|saint)\b", loc_norm):
+                suspicious_mapping = True
+                suspected_reason = f"short lookup match '{match_place}' may be a different longer place in raw location"
+                suspected_region = ""
+
+        if suspicious_mapping:
+            recommended_action = "FIX_EXISTING_LOOKUP"
+            confidence = "medium"
+        elif is_unmapped and suspected_region:
+            recommended_action = "ADD_TO_LOOKUP"
+            confidence = "high" if not is_broad else "medium"
+        elif is_unmapped and target_family_count:
+            recommended_action = "AMBIGUOUS_REVIEW" if is_broad else "IGNORE_OUT_OF_REGION"
+            confidence = "medium" if is_broad else "low"
+            suspected_reason = suspected_reason or "unmapped location connected to support-worker/admin-service families"
+        elif is_broad and suspected_region:
+            recommended_action = "AMBIGUOUS_REVIEW"
+            confidence = "medium"
+        elif suspicious_mapping:
+            recommended_action = "FIX_EXISTING_LOOKUP"
+            confidence = "medium"
+
+        if not recommended_action:
+            continue
+
+        if not (target_family_count or suspected_region or suspicious_mapping or is_broad or total_count >= 2):
+            continue
+
+        suggested_lookup_area = "" if recommended_action == "FIX_EXISTING_LOOKUP" else raw_location
+        suggested_lookup_cluster = suspected_region if recommended_action in {"ADD_TO_LOOKUP", "AMBIGUOUS_REVIEW"} else ""
+
+        rows.append({
+            "month": month,
+            "raw_location": raw_location,
+            "raw_jobg8_area": top_values(group["jobg8_area"], limit=3) if "jobg8_area" in group.columns else "",
+            "raw_jobg8_location": top_values(group["jobg8_location"], limit=3) if "jobg8_location" in group.columns else "",
+            "suspected_region": suspected_region,
+            "suspected_reason": suspected_reason,
+            "job_family_counts": "; ".join(f"{family}: {count}" for family, count in family_counts.most_common() if family),
+            "total_count": total_count,
+            "unique_companies": unique_nonblank_count(group["company"]),
+            "top_titles": top_values(group["normalised_title"], limit=8),
+            "recommended_action": recommended_action,
+            "suggested_lookup_area": suggested_lookup_area,
+            "suggested_lookup_cluster": suggested_lookup_cluster,
+            "confidence": confidence,
+        })
+
+    if not rows:
+        return pd.DataFrame(columns=columns)
+
+    action_order = {
+        "FIX_EXISTING_LOOKUP": 0,
+        "ADD_TO_LOOKUP": 1,
+        "AMBIGUOUS_REVIEW": 2,
+        "IGNORE_OUT_OF_REGION": 3,
+    }
+    return (
+        pd.DataFrame(rows, columns=columns)
+        .assign(_action_sort=lambda df: df["recommended_action"].map(action_order).fillna(9))
+        .sort_values(["_action_sort", "total_count", "raw_location"], ascending=[True, False, True])
+        .drop(columns=["_action_sort"])
+    )
+
+
 def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_")
 
@@ -2097,6 +2216,10 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
     build_regional_location_audit(all_jobs, month).to_csv(
         regional_dir / f"{month}-regional-location-audit.csv", index=False
     )
+    geo_unmapped_review_path = regional_dir / f"{month}-geo-unmapped-review.csv"
+    build_geo_unmapped_review(all_jobs, month).to_csv(
+        geo_unmapped_review_path, index=False
+    )
     compiler_summary_path = compiler_dir / f"{month}-compiler-summary.csv"
     compiler_summary, compiler_warnings, compiler_trace = build_compiler_summary_from_outputs(
         all_jobs=all_jobs,
@@ -2113,6 +2236,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"Files read successfully: {len(frames)}",
         f"Total rows profiled: {len(all_jobs)}",
         f"Current working directory: {Path.cwd().resolve()}",
+        f"Default geo lookup path: {DEFAULT_GEO_LOOKUP_DISPLAY_PATH}",
         f"Resolved geo lookup path: {geo_lookup}",
         f"Geo lookup file exists: {'yes' if geo_lookup_exists else 'no'}",
         f"Geo lookup status: {geo_lookup_status}",
@@ -2134,6 +2258,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"- {title_dir / f'{month}-title-breadth.csv'}",
         f"- {regional_dir / f'{month}-family-region-breakdown.csv'}",
         f"- {regional_dir / f'{month}-regional-location-audit.csv'}",
+        f"- {geo_unmapped_review_path}",
         f"- {compiler_summary_path}",
         "",
         f"Traceable compiler summary generated with reconciliation/source tracing: {compiler_summary_path}",
