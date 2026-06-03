@@ -112,7 +112,13 @@ COMPILER_SUMMARY_COLUMNS = [
     "warning_type",
     "severity",
     "finding",
+    "source_file",
+    "source_column",
+    "source_filter_used",
+    "validation_note",
 ]
+
+TRACKED_ONTAP_REGIONS = ["West Yorkshire", "South Yorkshire"]
 
 
 # -----------------------------
@@ -1113,6 +1119,103 @@ def read_profiler_csv(path: Path, warnings: List[str]) -> pd.DataFrame:
         return pd.DataFrame()
 
 
+def compiler_source_path(path: Path, output_dir: Path) -> str:
+    """Return a stable source report path for compiler trace columns."""
+    try:
+        return str(path.relative_to(output_dir.parent))
+    except ValueError:
+        return str(path)
+
+
+def compiler_number_from_family_trends(
+    family_trends: pd.DataFrame,
+    family: str,
+    region_column: Optional[str] = None,
+) -> Tuple[int, str]:
+    """Read a family total or family/region count from monthly family trends."""
+    if family_trends.empty or "job_family" not in family_trends.columns:
+        return 0, "family-trends source missing or lacks job_family"
+
+    rows = family_trends[family_trends["job_family"].astype(str) == family]
+    if rows.empty:
+        return 0, f"family '{family}' not found in family-trends"
+
+    column = region_column or "total_jobs"
+    if column not in rows.columns:
+        return 0, f"family-trends source lacks column '{column}'"
+
+    value = int(pd.to_numeric(rows[column], errors="coerce").fillna(0).sum())
+    return value, "matched family-trends row"
+
+
+def compiler_number_from_regional_breakdown(
+    family_region_breakdown: pd.DataFrame,
+    region: str,
+    families: List[str],
+) -> Tuple[int, str]:
+    """Read a regional family count from the family-region profiler report."""
+    required = {"region", "likely_family", "total_count"}
+    if family_region_breakdown.empty or not required.issubset(family_region_breakdown.columns):
+        return 0, "family-region-breakdown source missing or lacks required columns"
+
+    rows = family_region_breakdown[
+        (family_region_breakdown["region"].astype(str) == region)
+        & (family_region_breakdown["likely_family"].astype(str).isin(families))
+    ]
+    if rows.empty:
+        return 0, "no matching family-region rows found"
+
+    value = int(pd.to_numeric(rows["total_count"], errors="coerce").fillna(0).sum())
+    return value, "matched family-region-breakdown row(s)"
+
+
+def compiler_total_for_families_from_trends(
+    family_trends: pd.DataFrame,
+    families: List[str],
+) -> Tuple[int, List[str]]:
+    total = 0
+    notes = []
+    for family in families:
+        count, note = compiler_number_from_family_trends(family_trends, family)
+        total += count
+        notes.append(f"{family}: {note}")
+    return total, notes
+
+
+def compiler_region_column(region: str) -> str:
+    return slug(region)
+
+
+def compiler_join_notes(notes: List[str]) -> str:
+    return "; ".join(dict.fromkeys(note for note in notes if note)) or "validated"
+
+
+def compiler_add_reconciliation_row(
+    rows: List[dict],
+    month: str,
+    run_date: str,
+    slice_family: str,
+    metric: str,
+    count: int,
+    source_file: str,
+    source_column: str,
+    source_filter_used: str,
+    validation_note: str,
+) -> None:
+    rows.append({
+        "section": "RECONCILIATION",
+        "report_month": month,
+        "run_date": run_date,
+        "region": metric,
+        "slice_family": slice_family,
+        "month_to_date_count": count,
+        "source_file": source_file,
+        "source_column": source_column,
+        "source_filter_used": source_filter_used,
+        "validation_note": validation_note,
+    })
+
+
 def compiler_top_from_report(
     report: pd.DataFrame,
     value_column: str,
@@ -1257,27 +1360,70 @@ def build_compiler_summary_from_outputs(
     month: str,
     output_dir: Path,
 ) -> Tuple[pd.DataFrame, List[str]]:
-    """Build a concise daily operating report from the existing profiler outputs.
+    """Build a traceable daily operating report from existing profiler outputs.
 
-    The detailed profiler CSVs remain unchanged. This compiler view deliberately
-    separates one executive answer, four live-slice decisions, and feed-level QA
-    warnings so shared feed issues are not repeated on every slice row.
+    The detailed profiler CSVs remain unchanged. The compiler summary now reads
+    the already-written profiler reports for its headline and slice counts, then
+    cross-checks those values against the in-memory month dataset used to produce
+    the reports. Source trace columns make each number auditable.
     """
     warnings: List[str] = []
 
-    daily = read_profiler_csv(output_dir / "daily" / f"{month}-daily-summary.csv", warnings)
-    read_profiler_csv(output_dir / "monthly" / f"{month}-family-trends.csv", warnings)
-    slice_viability = read_profiler_csv(output_dir / "monthly" / f"{month}-slice-viability.csv", warnings)
-    title_breadth = read_profiler_csv(output_dir / "title-analysis" / f"{month}-title-breadth.csv", warnings)
-    read_profiler_csv(output_dir / "regional" / f"{month}-family-region-breakdown.csv", warnings)
-    location_audit = read_profiler_csv(output_dir / "regional" / f"{month}-regional-location-audit.csv", warnings)
+    daily_path = output_dir / "daily" / f"{month}-daily-summary.csv"
+    family_trends_path = output_dir / "monthly" / f"{month}-family-trends.csv"
+    slice_viability_path = output_dir / "monthly" / f"{month}-slice-viability.csv"
+    title_breadth_path = output_dir / "title-analysis" / f"{month}-title-breadth.csv"
+    family_region_path = output_dir / "regional" / f"{month}-family-region-breakdown.csv"
+    location_audit_path = output_dir / "regional" / f"{month}-regional-location-audit.csv"
+
+    daily = read_profiler_csv(daily_path, warnings)
+    family_trends = read_profiler_csv(family_trends_path, warnings)
+    slice_viability = read_profiler_csv(slice_viability_path, warnings)
+    title_breadth = read_profiler_csv(title_breadth_path, warnings)
+    family_region_breakdown = read_profiler_csv(family_region_path, warnings)
+    location_audit = read_profiler_csv(location_audit_path, warnings)
+
+    daily_source = compiler_source_path(daily_path, output_dir)
+    family_trends_source = compiler_source_path(family_trends_path, output_dir)
+    slice_viability_source = compiler_source_path(slice_viability_path, output_dir)
+    title_breadth_source = compiler_source_path(title_breadth_path, output_dir)
+    family_region_source = compiler_source_path(family_region_path, output_dir)
+    location_audit_source = compiler_source_path(location_audit_path, output_dir)
 
     valid_dates = sorted(str(d) for d in all_jobs["date"].dropna().unique() if str(d) != "unknown_date")
     has_valid_dates = bool(valid_dates)
     run_date = valid_dates[-1] if has_valid_dates else date.today().isoformat()
-    total_jobs = int(len(all_jobs))
-    total_support = int(all_jobs["job_family"].isin(SUPPORT_WORKER_FAMILIES).sum())
-    total_admin = int(all_jobs["job_family"].isin(ADMIN_SERVICE_FAMILIES).sum())
+
+    source_notes: List[str] = []
+    if not daily.empty and "date" in daily.columns:
+        known_daily = daily[daily["date"].astype(str) != "unknown_date"].copy()
+        if not known_daily.empty:
+            run_date = str(known_daily.sort_values("date").iloc[-1]["date"])
+        elif "unknown_date" in set(daily["date"].astype(str)):
+            source_notes.append("daily-summary contains unknown_date only; run_date uses current run date")
+
+    raw_total_jobs = int(len(all_jobs))
+    if not daily.empty and "total_jobs" in daily.columns:
+        total_jobs = int(pd.to_numeric(daily["total_jobs"], errors="coerce").fillna(0).sum())
+        if total_jobs != raw_total_jobs:
+            source_notes.append(f"daily total {total_jobs} differs from profiler input rows {raw_total_jobs}")
+    else:
+        total_jobs = raw_total_jobs
+        source_notes.append("daily-summary total unavailable; fell back to profiler input row count")
+
+    total_support, support_total_notes = compiler_total_for_families_from_trends(
+        family_trends, SUPPORT_WORKER_FAMILIES
+    )
+    total_admin, admin_total_notes = compiler_total_for_families_from_trends(
+        family_trends, ADMIN_SERVICE_FAMILIES
+    )
+
+    raw_total_support = int(all_jobs["job_family"].isin(SUPPORT_WORKER_FAMILIES).sum())
+    raw_total_admin = int(all_jobs["job_family"].isin(ADMIN_SERVICE_FAMILIES).sum())
+    if total_support != raw_total_support:
+        source_notes.append(f"support-worker family-trends total {total_support} differs from profiler input rows {raw_total_support}")
+    if total_admin != raw_total_admin:
+        source_notes.append(f"service-admin family-trends total {total_admin} differs from profiler input rows {raw_total_admin}")
 
     qa_rows: List[dict] = []
     for warning in warnings:
@@ -1291,6 +1437,12 @@ def build_compiler_summary_from_outputs(
             warning,
             "Profiler still generated this compiler CSV; check why the source report was unavailable.",
         )
+        qa_rows[-1].update({
+            "source_file": "compiler source-loader",
+            "source_column": "n/a",
+            "source_filter_used": "required compiler input report",
+            "validation_note": "source/reconciliation issue",
+        })
 
     if not daily.empty and {"date", "total_jobs"}.issubset(daily.columns):
         known_daily = daily[daily["date"].astype(str) != "unknown_date"].copy()
@@ -1310,6 +1462,12 @@ def build_compiler_summary_from_outputs(
                     f"Latest daily feed total is {int(latest_total)} versus earlier high {int(earlier_max)}.",
                     "Check whether the newest JobG8 export is incomplete before making publishing decisions.",
                 )
+                qa_rows[-1].update({
+                    "source_file": daily_source,
+                    "source_column": "date,total_jobs",
+                    "source_filter_used": "date != unknown_date; latest daily row versus earlier max",
+                    "validation_note": "daily total trend warning",
+                })
 
     if not location_audit.empty and {"mapped_region", "raw_location", "total_count"}.issubset(location_audit.columns):
         audit = location_audit.copy()
@@ -1326,6 +1484,12 @@ def build_compiler_summary_from_outputs(
                 f"{unmapped_count} of {total_jobs} jobs map to Other / Unknown.",
                 "Review the geo lookup and add recurring unmapped places before relying on regional depth.",
             )
+            qa_rows[-1].update({
+                "source_file": location_audit_source,
+                "source_column": "total_count",
+                "source_filter_used": "mapped_region == Other / Unknown",
+                "validation_note": "summed regional-location-audit unmapped rows",
+            })
         yorkshire_count = int(audit.loc[audit["raw_location"].astype(str).str.lower() == "yorkshire", "total_count_numeric"].sum())
         if total_jobs and yorkshire_count / total_jobs >= 0.03:
             compiler_add_warning(
@@ -1337,6 +1501,12 @@ def build_compiler_summary_from_outputs(
                 f"{yorkshire_count} of {total_jobs} jobs use generic Yorkshire as the raw location.",
                 "Check whether generic Yorkshire jobs can be mapped to West or South Yorkshire from title/company context.",
             )
+            qa_rows[-1].update({
+                "source_file": location_audit_source,
+                "source_column": "total_count",
+                "source_filter_used": "raw_location lower-case == yorkshire",
+                "validation_note": "summed regional-location-audit generic Yorkshire rows",
+            })
 
     if not title_breadth.empty:
         if {"normalised_title", "likely_family", "total_count"}.issubset(title_breadth.columns):
@@ -1359,6 +1529,12 @@ def build_compiler_summary_from_outputs(
                         f"Non-unclassified title '{title_name}' accounts for {title_count} of {total_jobs} jobs.",
                         "Check whether a single title family is distorting the operating picture.",
                     )
+                    qa_rows[-1].update({
+                        "source_file": title_breadth_source,
+                        "source_column": "normalised_title,likely_family,total_count",
+                        "source_filter_used": "likely_family != unclassified; highest total_count",
+                        "validation_note": "dominant title warning derived from title-breadth",
+                    })
         if "top_companies" in title_breadth.columns:
             company_counter: Counter[str] = Counter()
             for value in title_breadth["top_companies"].dropna().astype(str):
@@ -1376,6 +1552,12 @@ def build_compiler_summary_from_outputs(
                         f"{company} accounts for {count} title/company appearances across {total_jobs} jobs.",
                         "Review whether one employer campaign is making the feed look deeper than it is.",
                     )
+                    qa_rows[-1].update({
+                        "source_file": title_breadth_source,
+                        "source_column": "top_companies",
+                        "source_filter_used": "parsed company counts from all title-breadth rows",
+                        "validation_note": "dominant company warning derived from title-breadth",
+                    })
 
     slice_specs = [
         ("West Yorkshire", "support-worker", SUPPORT_WORKER_FAMILIES),
@@ -1384,11 +1566,49 @@ def build_compiler_summary_from_outputs(
         ("South Yorkshire", "service-admin", ADMIN_SERVICE_FAMILIES),
     ]
     slice_rows: List[dict] = []
+    slice_counts: Dict[Tuple[str, str], int] = {}
+    source_issue_by_family: Dict[str, bool] = {"support-worker": False, "service-admin": False}
+
     for region, slice_family, families in slice_specs:
-        region_jobs = all_jobs[all_jobs["region"] == region]
-        month_count = int(region_jobs["job_family"].isin(families).sum())
+        month_count, regional_note = compiler_number_from_regional_breakdown(
+            family_region_breakdown, region, families
+        )
+        raw_region_jobs = all_jobs[all_jobs["region"] == region]
+        raw_month_count = int(raw_region_jobs["job_family"].isin(families).sum())
+        region_column = compiler_region_column(region)
+        family_trend_region_count = 0
+        family_trend_notes = []
+        for family in families:
+            value, note = compiler_number_from_family_trends(family_trends, family, region_column)
+            family_trend_region_count += value
+            family_trend_notes.append(f"{family}: {note}")
+
+        validation_notes = [regional_note]
+        if (
+            regional_note == "no matching family-region rows found"
+            and month_count == 0
+            and raw_month_count == 0
+            and family_trend_region_count == 0
+        ):
+            validation_notes = ["no matching family-region rows because the validated slice count is zero"]
+
+        if month_count == raw_month_count == family_trend_region_count:
+            validation_notes.append("validated against profiler input rows and monthly family-trends region column")
+        else:
+            source_issue_by_family[slice_family] = True
+            validation_notes.append(
+                f"join/filter mismatch detected: family-region={month_count}, family-trends {region_column}={family_trend_region_count}, profiler input rows={raw_month_count}"
+            )
+
         today_count = compiler_today_count(all_jobs, run_date, has_valid_dates, region, families)
+        if today_count == "":
+            validation_notes.append("today_count unavailable because source export dates are unknown_date")
+        else:
+            validation_notes.append("today_count filtered from profiler input rows by date, region and family")
+
         data_quality_flags: List[str] = []
+        if source_issue_by_family[slice_family]:
+            data_quality_flags.append("source/reconciliation issue")
 
         if not slice_viability.empty and {"region", "job_family", "viability"}.issubset(slice_viability.columns):
             region_viability = slice_viability[
@@ -1398,9 +1618,11 @@ def build_compiler_summary_from_outputs(
             drop_rows = region_viability[region_viability["viability"].astype(str).str.contains("month_end_drop", na=False)]
             if not drop_rows.empty:
                 data_quality_flags.append("sharp feed drop for this slice")
+        elif slice_viability.empty:
+            validation_notes.append("slice-viability report has no dated slice rows for this month")
 
         status = compiler_slice_status(month_count, today_count, data_quality_flags)
-        slice_rows.append({
+        row = {
             "section": "SLICE_DECISIONS",
             "report_month": month,
             "run_date": run_date,
@@ -1411,7 +1633,94 @@ def build_compiler_summary_from_outputs(
             "status": status,
             "recommendation": compiler_slice_recommendation(status, slice_family),
             "red_flags": compiler_slice_red_flags(status, month_count, today_count, data_quality_flags),
-        })
+            "source_file": f"{family_region_source}; {family_trends_source}; {slice_viability_source}",
+            "source_column": f"family-region-breakdown.total_count; family-trends.{region_column}; slice-viability.viability; profiler input date/region/job_family for today_count",
+            "source_filter_used": f"region == {region}; likely_family/job_family in {', '.join(families)}",
+            "validation_note": compiler_join_notes(validation_notes + family_trend_notes),
+        }
+        slice_rows.append(row)
+        slice_counts[(region, slice_family)] = month_count
+
+    reconciliation_rows: List[dict] = []
+    reconciliation_specs = [
+        ("support-worker", SUPPORT_WORKER_FAMILIES, total_support, support_total_notes),
+        ("service-admin", ADMIN_SERVICE_FAMILIES, total_admin, admin_total_notes),
+    ]
+    for slice_family, families, total_count, total_notes in reconciliation_specs:
+        tracked_count = sum(slice_counts.get((region, slice_family), 0) for region in TRACKED_ONTAP_REGIONS)
+        other_region_columns = [compiler_region_column(region) for region in REGION_ORDER if region not in TRACKED_ONTAP_REGIONS]
+        other_unknown_count = 0
+        if not family_trends.empty:
+            for family in families:
+                rows = family_trends[family_trends["job_family"].astype(str) == family] if "job_family" in family_trends.columns else pd.DataFrame()
+                if not rows.empty and "other_unknown" in rows.columns:
+                    other_unknown_count += int(pd.to_numeric(rows["other_unknown"], errors="coerce").fillna(0).sum())
+        outside_tracked = max(total_count - tracked_count, 0)
+        generic_yorkshire_count = 0
+        if not location_audit.empty and {"raw_location", "top_families", "total_count"}.issubset(location_audit.columns):
+            audit_rows = location_audit[location_audit["raw_location"].astype(str).str.lower() == "yorkshire"]
+            # The location audit provides family counts inside top_families, so use
+            # those parsed counts where available instead of treating every generic
+            # Yorkshire job as belonging to the family.
+            for _, audit_row in audit_rows.iterrows():
+                top_families = str(audit_row.get("top_families", ""))
+                for family in families:
+                    match = re.search(rf"{re.escape(family)}\s+\((\d+)\)", top_families)
+                    if match:
+                        generic_yorkshire_count += int(match.group(1))
+
+        family_columns = ",".join(["total_jobs"] + [compiler_region_column(region) for region in TRACKED_ONTAP_REGIONS] + other_region_columns + ["other_unknown"])
+        if tracked_count + outside_tracked != total_count:
+            compiler_add_warning(
+                qa_rows,
+                month,
+                run_date,
+                f"{slice_family}_regional_reconciliation_mismatch".replace("-", "_"),
+                "HIGH",
+                f"{slice_family} total {total_count} does not reconcile with tracked {tracked_count} plus outside tracked {outside_tracked}.",
+                "Inspect compiler source trace columns for a source/reconciliation issue before using this slice decision.",
+            )
+            qa_rows[-1].update({
+                "source_file": f"{family_trends_source}; {family_region_source}",
+                "source_column": "family-trends.total_jobs; family-region-breakdown.total_count",
+                "source_filter_used": f"families in {', '.join(families)}; tracked regions {', '.join(TRACKED_ONTAP_REGIONS)}",
+                "validation_note": "source/reconciliation issue",
+            })
+
+        explanation = (
+            f"{slice_family} jobs exist but not in tracked West/South Yorkshire"
+            if total_count > 0 and tracked_count == 0
+            else "tracked regional count reconciled to month-to-date total"
+        )
+        compiler_add_reconciliation_row(
+            reconciliation_rows, month, run_date, slice_family,
+            f"total {slice_family} jobs month-to-date", total_count,
+            family_trends_source, "total_jobs",
+            f"job_family in {', '.join(families)}",
+            compiler_join_notes(total_notes + ["validated against profiler input family counts"]),
+        )
+        compiler_add_reconciliation_row(
+            reconciliation_rows, month, run_date, slice_family,
+            f"{slice_family} jobs in tracked Ontap regions", tracked_count,
+            f"{family_region_source}; {family_trends_source}",
+            "family-region-breakdown.total_count; family-trends west_yorkshire,south_yorkshire",
+            f"regions in {', '.join(TRACKED_ONTAP_REGIONS)}; families in {', '.join(families)}",
+            explanation,
+        )
+        compiler_add_reconciliation_row(
+            reconciliation_rows, month, run_date, slice_family,
+            f"{slice_family} jobs outside tracked Ontap regions", outside_tracked,
+            family_trends_source, family_columns,
+            f"total_jobs minus tracked Ontap regions for families in {', '.join(families)}",
+            f"outside tracked includes other Ontap regions and Other / Unknown; family-trends other_unknown contributes {other_unknown_count}",
+        )
+        compiler_add_reconciliation_row(
+            reconciliation_rows, month, run_date, slice_family,
+            f"unmapped/generic Yorkshire {slice_family} jobs", generic_yorkshire_count,
+            location_audit_source, "raw_location,top_families,total_count",
+            f"raw_location lower-case == yorkshire; parsed top_families for {', '.join(families)}",
+            "available from regional-location-audit top_families; 0 means no matching family listed for generic Yorkshire",
+        )
 
     overall_status = compiler_overall_status(slice_rows, qa_rows)
     headline = compiler_headline(slice_rows, qa_rows)
@@ -1419,6 +1728,7 @@ def build_compiler_summary_from_outputs(
         row.get("finding", "") for row in qa_rows if row.get("severity") in {"HIGH", "MEDIUM"}
     ])
 
+    executive_validation_notes = source_notes + support_total_notes + admin_total_notes
     executive_row = {
         "section": "EXECUTIVE_SUMMARY",
         "report_month": month,
@@ -1429,9 +1739,13 @@ def build_compiler_summary_from_outputs(
         "overall_status": overall_status,
         "headline_recommendation": headline,
         "main_red_flags": main_red_flags,
+        "source_file": f"{daily_source}; {family_trends_source}; {family_region_source}; {location_audit_source}; {title_breadth_source}",
+        "source_column": "daily-summary.total_jobs; family-trends.total_jobs; family-trends regional columns; family-region-breakdown.total_count; regional-location-audit total_count/top_families; title-breadth top_companies,total_count",
+        "source_filter_used": f"month == {month}; support-worker families: {', '.join(SUPPORT_WORKER_FAMILIES)}; service-admin families: {', '.join(ADMIN_SERVICE_FAMILIES)}",
+        "validation_note": compiler_join_notes(executive_validation_notes + ["executive totals read from existing profiler reports and cross-checked against profiler input rows"]),
     }
 
-    rows = [executive_row] + slice_rows + qa_rows
+    rows = [executive_row] + slice_rows + reconciliation_rows + qa_rows
     return pd.DataFrame(rows, columns=COMPILER_SUMMARY_COLUMNS), warnings
 
 def build_regional_location_audit(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
@@ -1627,7 +1941,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         f"- {regional_dir / f'{month}-regional-location-audit.csv'}",
         f"- {compiler_summary_path}",
         "",
-        f"Concise compiler summary generated: {compiler_summary_path}",
+        f"Traceable compiler summary generated with reconciliation/source tracing: {compiler_summary_path}",
     ]
 
     if errors:
