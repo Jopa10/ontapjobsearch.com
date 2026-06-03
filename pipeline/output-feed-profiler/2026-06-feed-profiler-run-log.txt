@@ -29,5 +29,22 @@ Output files:
 
 Traceable compiler summary generated with reconciliation/source tracing: /workspace/ontapjobsearch.com/pipeline/output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
 
+Compiler selected_count source files by live slice:
+- West Yorkshire support-worker: output-support-worker/west-yorkshire-support-worker.json
+- South Yorkshire support-worker: output-support-worker/south-yorkshire-support-worker.json
+- West Yorkshire service-admin: output-admin-service/west-yorkshire-admin-service.json
+- South Yorkshire service-admin: output-admin-service/south-yorkshire-admin-service.json
+
+Compiler profiler_count diagnostic files:
+- output-feed-profiler/regional/2026-06-family-region-breakdown.csv
+- output-feed-profiler/monthly/2026-06-family-trends.csv
+- output-feed-profiler/monthly/2026-06-slice-viability.csv
+
+Compiler reconciliation warnings:
+- West Yorkshire support-worker: selected_count=3 (output-support-worker/west-yorkshire-support-worker.json); profiler_count=0 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (3) differs from profiler_count (0); profiler difference is diagnostic only and does not drive status
+- South Yorkshire support-worker: selected_count=0 (output-support-worker/south-yorkshire-support-worker.json); profiler_count=2 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (0) differs from profiler_count (2); profiler difference is diagnostic only and does not drive status
+- West Yorkshire service-admin: selected_count=8 (output-admin-service/west-yorkshire-admin-service.json); profiler_count=12 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (8) differs from profiler_count (12); profiler difference is diagnostic only and does not drive status
+- South Yorkshire service-admin: selected_count=8 (output-admin-service/south-yorkshire-admin-service.json); profiler_count=4 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (8) differs from profiler_count (4); profiler difference is diagnostic only and does not drive status
+
 Region mapping QA warning:
 - 2547 of 2968 jobs (85.8%) still map to Other / Unknown after lookup mapping.
