@@ -1,9 +1,2 @@
-month,metric,value
-2026-06,lookup_rows_in_workbook,884
-2026-06,unique_mapped_lookup_keys,164
-2026-06,latest_geo_unmapped_review_locations,501
-2026-06,recommended_action_ADD_TO_LOOKUP_ACTIVE_REGION,0
-2026-06,recommended_action_ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE,429
-2026-06,recommended_action_AMBIGUOUS_REVIEW,69
-2026-06,recommended_action_FIX_EXISTING_LOOKUP,1
-2026-06,recommended_action_IGNORE_BAD_OR_NON_UK,2
+lookup_file_path,mapped_lookup_row_count,unique_lookup_key_count,geo_unmapped_review_row_count,ADD_TO_LOOKUP_ACTIVE_REGION_count,ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count,AMBIGUOUS_REVIEW_count,FIX_EXISTING_LOOKUP_count,IGNORE_BAD_OR_NON_UK_count
+pipeline/geo/lookup.xlsx,164,164,501,0,429,69,1,2

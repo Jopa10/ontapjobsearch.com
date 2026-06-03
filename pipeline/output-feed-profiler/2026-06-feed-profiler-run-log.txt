@@ -19,14 +19,15 @@ Other / Unknown warning threshold: 20%
 Lookup verification checks: Leeds->West Yorkshire via leeds; Bradford->West Yorkshire via bradford; Wakefield->West Yorkshire via wakefield; Huddersfield->West Yorkshire via huddersfield; Halifax->West Yorkshire via halifax; Sheffield->South Yorkshire via sheffield; Rotherham->South Yorkshire via rotherham; Doncaster->South Yorkshire via doncaster; Barnsley->South Yorkshire via barnsley
 
 Geo lookup QA summary:
-- lookup_rows_in_workbook: 884
-- unique_mapped_lookup_keys: 164
-- latest_geo_unmapped_review_locations: 501
-- recommended_action_ADD_TO_LOOKUP_ACTIVE_REGION: 0
-- recommended_action_ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE: 429
-- recommended_action_AMBIGUOUS_REVIEW: 69
-- recommended_action_FIX_EXISTING_LOOKUP: 1
-- recommended_action_IGNORE_BAD_OR_NON_UK: 2
+- lookup_file_path: pipeline/geo/lookup.xlsx
+- mapped_lookup_row_count: 164
+- unique_lookup_key_count: 164
+- geo_unmapped_review_row_count: 501
+- ADD_TO_LOOKUP_ACTIVE_REGION_count: 0
+- ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count: 429
+- AMBIGUOUS_REVIEW_count: 69
+- FIX_EXISTING_LOOKUP_count: 1
+- IGNORE_BAD_OR_NON_UK_count: 2
 
 Output files:
 - output-feed-profiler/daily/2026-06-daily-summary.csv
