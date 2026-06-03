@@ -1,10 +1,16 @@
+import type { Metadata } from "next";
 import JobSlicePage from "@/components/JobSlicePage";
 import { getJobPageStatus } from "@/config/job-page-status";
 
-export const metadata = {
-  title: "Ontap – Service administrator jobs in South Yorkshire",
+const canonicalUrl = "https://www.ontapjobsearch.com/south-yorkshire/service-administrator-jobs";
+
+export const metadata: Metadata = {
+  title: "South Yorkshire Service Administrator Jobs | Ontap Job Search",
   description:
-    "Service administrator, customer service administrator, office support and admin roles in South Yorkshire.",
+    "Browse service administrator, customer service administrator and office support jobs across Sheffield and South Yorkshire.",
+  alternates: {
+    canonical: canonicalUrl,
+  },
 };
 
 const adminTraining = [

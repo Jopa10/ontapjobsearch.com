@@ -1,7 +1,18 @@
+import type { Metadata } from "next";
 import JobSlicePage from "@/components/JobSlicePage";
 import { getJobPageStatus } from "@/config/job-page-status";
 
 const routeKey = "south-yorkshire/support-worker";
+const canonicalUrl = "https://www.ontapjobsearch.com/south-yorkshire/support-worker";
+
+export const metadata: Metadata = {
+  title: "South Yorkshire Support Worker Jobs | Ontap Job Search",
+  description:
+    "Browse current support worker jobs across Sheffield and South Yorkshire, updated daily with employer-site application links.",
+  alternates: {
+    canonical: canonicalUrl,
+  },
+};
 
 export default function Page() {
   return (
