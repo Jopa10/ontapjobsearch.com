@@ -1,0 +1,21 @@
+Month: 2026-06
+Input folder: input
+Files found: 1
+Files read successfully: 1
+Total rows profiled: 2968
+Current working directory: /home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline
+Resolved geo lookup path: /home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline/geo/lookup.xlsx
+Geo lookup file exists: yes
+Geo lookup status: loaded
+Geo lookup rows loaded: 164
+Fallback keyword rules used: no
+
+Output files:
+- output-feed-profiler/daily/2026-06-daily-summary.csv
+- output-feed-profiler/monthly/2026-06-family-trends.csv
+- output-feed-profiler/monthly/2026-06-slice-viability.csv
+- output-feed-profiler/title-analysis/2026-06-top-titles.csv
+- output-feed-profiler/title-analysis/2026-06-unclassified-titles.csv
+- output-feed-profiler/title-analysis/2026-06-title-breadth.csv
+- output-feed-profiler/regional/2026-06-family-region-breakdown.csv
+- output-feed-profiler/regional/2026-06-regional-location-audit.csv

@@ -1,0 +1,14 @@
+month,job_family,total_jobs,days_seen,unique_titles,unique_companies,unique_locations,top_regions,slice_viability_flag,west_yorkshire,south_yorkshire,lancashire,greater_manchester,cumbria,north_east,other_unknown
+2026-06,unclassified,1887,1,951,455,104,Other / Unknown (1769); West Yorkshire (47); Greater Manchester (31); North East (25); South Yorkshire (15),unknown_no_valid_dates,47,15,0,31,0,25,1769
+2026-06,sales,411,1,22,13,22,Other / Unknown (411),unknown_no_valid_dates,0,0,0,0,0,0,411
+2026-06,administrator_general,205,1,143,124,45,Other / Unknown (194); West Yorkshire (6); Greater Manchester (3); North East (1); South Yorkshire (1),unknown_no_valid_dates,6,1,0,3,0,1,194
+2026-06,support_worker,189,1,82,78,45,Other / Unknown (181); North East (7); Greater Manchester (1),unknown_no_valid_dates,0,0,0,1,0,7,181
+2026-06,customer_service,100,1,40,28,44,Other / Unknown (93); West Yorkshire (4); North East (2); Greater Manchester (1),unknown_no_valid_dates,4,0,0,1,0,2,93
+2026-06,care_assistant,79,1,32,31,34,Other / Unknown (71); North East (4); Greater Manchester (2); West Yorkshire (1); South Yorkshire (1),unknown_no_valid_dates,1,1,0,2,0,4,71
+2026-06,teaching_assistant,28,1,21,6,13,Other / Unknown (28),unknown_no_valid_dates,0,0,0,0,0,0,28
+2026-06,healthcare_assistant,24,1,16,13,17,Other / Unknown (22); West Yorkshire (1); Greater Manchester (1),unknown_no_valid_dates,1,0,0,1,0,0,22
+2026-06,service_administrator,14,1,6,12,9,Other / Unknown (11); West Yorkshire (3),unknown_no_valid_dates,3,0,0,0,0,0,11
+2026-06,warehouse_logistics,11,1,11,11,8,Other / Unknown (11),unknown_no_valid_dates,0,0,0,0,0,0,11
+2026-06,scheduler_planner,10,1,7,9,7,Other / Unknown (8); South Yorkshire (2),unknown_no_valid_dates,0,2,0,0,0,0,8
+2026-06,care_coordinator,8,1,5,7,6,Other / Unknown (7); Greater Manchester (1),unknown_no_valid_dates,0,0,0,1,0,0,7
+2026-06,finance_admin,2,1,2,2,2,West Yorkshire (1); Other / Unknown (1),unknown_no_valid_dates,1,0,0,0,0,0,1
