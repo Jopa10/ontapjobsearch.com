@@ -21,4 +21,4 @@ Output files:
 - output-feed-profiler/regional/2026-06-regional-location-audit.csv
 - output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
 
-Compiler summary generated: output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
+Concise compiler summary generated: output-feed-profiler/compiler-summary/2026-06-compiler-summary.csv
