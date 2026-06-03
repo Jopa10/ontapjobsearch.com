@@ -105,15 +105,15 @@ COMPILER_SUMMARY_COLUMNS = [
     "main_red_flags",
     "region",
     "slice_family",
-    "month_to_date_count",
-    "today_count",
     "selected_count",
+    "selected_count_source_file",
     "profiler_count",
-    "count_source",
-    "profiler_source",
-    "reconciliation_note",
+    "profiler_count_source_file",
     "status",
     "recommendation",
+    "reconciliation_note",
+    "month_to_date_count",
+    "today_count",
     "red_flags",
     "warning_type",
     "severity",
@@ -1183,10 +1183,15 @@ def compiler_source_path(path: Path, output_dir: Path) -> str:
         return str(path)
 
 
+def compiler_selector_file_slug(value: str) -> str:
+    """Return the hyphenated slug used by final selector JSON filenames."""
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
 def compiler_selector_output_path(output_dir: Path, region: str, slice_family: str) -> Path:
     """Return the final selector JSON path used for a live Ontap slice."""
     base_dir = output_dir.parent
-    region_slug = slug(region)
+    region_slug = compiler_selector_file_slug(region)
     if slice_family == "support-worker":
         return base_dir / "output-support-worker" / f"{region_slug}-support-worker.json"
     return base_dir / "output-admin-service" / f"{region_slug}-admin-service.json"
@@ -1204,7 +1209,7 @@ def compiler_count_from_selector_json(
     """
     source = compiler_source_path(path, output_dir)
     if not path.exists():
-        warning = f"missing selector output for selected_count: {path}"
+        warning = f"selector output missing: {path}"
         warnings.append(warning)
         return 0, source, warning, True
 
@@ -1231,16 +1236,31 @@ def compiler_count_from_selector_json(
     return 0, source, warning, True
 
 
-def compiler_reconciliation_note(selected_count: int, profiler_count: int, selector_note: str, profiler_issue: bool) -> str:
+def compiler_reconciliation_note(
+    selected_count: int,
+    profiler_count: int,
+    selector_note: str,
+    profiler_issue: bool,
+    selector_source_issue: bool,
+) -> str:
+    base_note = "selected_count from selector/publish output; profiler_count from broad feed profiler for QA only"
+    if selector_source_issue:
+        return compiler_join_notes([
+            base_note,
+            selector_note,
+            "status set to INVESTIGATE because selector output could not be read",
+        ])
     if selected_count == profiler_count and not profiler_issue:
-        return "selected count from selector output matches profiler count from broad feed profiler"
+        return f"{base_note}; counts match"
 
-    base_note = "selected count from selector output; profiler count from broad feed profiler"
-    if profiler_issue:
-        return f"{base_note}; profiler source/mapping/classification cross-check needs review"
+    notes = [base_note]
     if selected_count != profiler_count:
-        return f"{base_note}; difference is diagnostic only and does not indicate a publishing failure"
-    return compiler_join_notes([base_note, selector_note])
+        notes.append(
+            f"selected_count ({selected_count}) differs from profiler_count ({profiler_count}); profiler difference is diagnostic only and does not drive status"
+        )
+    if profiler_issue:
+        notes.append("profiler source/mapping/classification cross-check needs review")
+    return compiler_join_notes(notes)
 
 
 def compiler_number_from_family_trends(
@@ -1749,14 +1769,14 @@ def build_compiler_summary_from_outputs(
             validation_notes.append("slice-viability report has no dated slice rows for this month")
 
         reconciliation_note = compiler_reconciliation_note(
-            selected_count, profiler_count, selector_note, profiler_source_issue
+            selected_count, profiler_count, selector_note, profiler_source_issue, selector_source_issue
         )
         if selected_count != profiler_count or profiler_source_issue or selector_source_issue:
             trace["reconciliation_warnings"].append(
                 f"{region} {slice_family}: selected_count={selected_count} ({count_source}); profiler_count={profiler_count} ({family_region_source}); {reconciliation_note}"
             )
 
-        status = compiler_slice_status(selected_count)
+        status = "INVESTIGATE" if selector_source_issue else compiler_slice_status(selected_count)
         row = {
             "section": "SLICE_DECISIONS",
             "report_month": month,
@@ -1766,15 +1786,15 @@ def build_compiler_summary_from_outputs(
             "month_to_date_count": selected_count,
             "today_count": today_count,
             "selected_count": selected_count,
+            "selected_count_source_file": count_source,
             "profiler_count": profiler_count,
-            "count_source": count_source,
-            "profiler_source": f"{family_region_source}; {family_trends_source}; {slice_viability_source}",
+            "profiler_count_source_file": family_region_source,
             "reconciliation_note": reconciliation_note,
             "status": status,
             "recommendation": compiler_slice_recommendation(status, slice_family),
             "red_flags": compiler_slice_red_flags(status, selected_count, data_quality_flags),
-            "source_file": f"{count_source}; {family_region_source}; {family_trends_source}; {slice_viability_source}",
-            "source_column": f"selector JSON list length for selected_count; family-region-breakdown.total_count; family-trends.{region_column}; slice-viability.viability; profiler input date/region/job_family for today_count",
+            "source_file": f"selected_count={count_source}; profiler_count={family_region_source}; profiler QA cross-checks={family_trends_source}; {slice_viability_source}",
+            "source_column": f"selector JSON list length for selected_count; family-region-breakdown.total_count for profiler_count QA; family-trends.{region_column}; slice-viability.viability; profiler input date/region/job_family for today_count",
             "source_filter_used": f"selected_count from final {slice_family} selector JSON for {region}; profiler QA region == {region}; likely_family/job_family in {', '.join(families)}",
             "validation_note": compiler_join_notes([selector_note] + validation_notes + family_trend_notes),
         }
@@ -2118,7 +2138,7 @@ def run(input_dir: Path, output_dir: Path, month: str, geo_lookup: Optional[Path
         "",
         f"Traceable compiler summary generated with reconciliation/source tracing: {compiler_summary_path}",
         "",
-        "Compiler selected_count selector output files:",
+        "Compiler selected_count source files by live slice:",
         *[f"- {source}" for source in dict.fromkeys(compiler_trace.get("selected_count_sources", []))],
         "",
         "Compiler profiler_count diagnostic files:",
