@@ -172,18 +172,21 @@ CLUSTER_TO_ONTAP_REGION = {
 
 
 def display_region_from_cluster(cluster: object) -> Optional[str]:
-    """Return the UK geography label represented by a lookup.xlsx Cluster cell.
+    """Return the exact UK geography label represented by lookup.xlsx Cluster.
 
-    Active Ontap slice clusters are canonicalised to the existing profiler region
-    names so slice/reporting joins keep working. Non-active UK clusters are kept
-    as first-class geography labels instead of being collapsed to Other / Unknown.
+    Geography classification should preserve the workbook's most specific
+    recognised cluster. Active Ontap slice membership is calculated separately
+    from the cluster label, so broad reporting aliases such as London are not
+    allowed to overwrite finer lookup clusters such as Croydon / South London.
     """
-    cluster_text = normalise_lookup_place(cluster)
-    if not cluster_text:
+    cluster_text = str(cluster or "").strip()
+    if not normalise_lookup_place(cluster_text):
         return None
-    if cluster_text in CLUSTER_TO_ONTAP_REGION:
-        return CLUSTER_TO_ONTAP_REGION[cluster_text]
-    return str(cluster).strip()
+    return cluster_text
+
+
+def is_broad_london_cluster(cluster: object) -> bool:
+    return normalise_lookup_place(cluster) in {"london", "greater london"}
 
 
 def ontap_region_from_cluster(cluster: object, anchor: object = "") -> Optional[str]:
@@ -407,6 +410,7 @@ class GeoMapper:
 
     def __init__(self, lookup_path: Optional[Path] = None):
         self.place_to_region: Dict[str, str] = {}
+        self.place_to_active_ontap_region: Dict[str, str] = {}
         self._lookup_items_by_length: List[Tuple[str, str]] = []
         self._lookup_patterns_by_length: List[Tuple[re.Pattern[str], str, str]] = []
         self.lookup_path = lookup_path
@@ -427,7 +431,7 @@ class GeoMapper:
         # per-script keyword lists as an automatic mapping fallback.
         self.fallback_keywords_enabled = False
 
-    def add_place(self, place: object, region: Optional[str]) -> bool:
+    def add_place(self, place: object, region: Optional[str], active_ontap_region: Optional[str] = None) -> bool:
         place_text = normalise_lookup_place(place)
         if not place_text or not region:
             return False
@@ -438,6 +442,8 @@ class GeoMapper:
         if place_text in self.place_to_region:
             return False
         self.place_to_region[place_text] = region
+        if active_ontap_region:
+            self.place_to_active_ontap_region[place_text] = active_ontap_region
         self._lookup_items_by_length = []
         self._lookup_patterns_by_length = []
         return True
@@ -481,9 +487,10 @@ class GeoMapper:
                 if normalise_lookup_place(row.get("Area")):
                     source_rows += 1
                 region = display_region_from_cluster(row.get("Cluster"))
+                active_ontap_region = ontap_region_from_cluster(row.get("Cluster"), row.get("Area"))
                 if normalise_lookup_place(row.get("Area")) and region:
                     mapped_rows += 1
-                if self.add_place(row.get("Area"), region):
+                if self.add_place(row.get("Area"), region, active_ontap_region):
                     loaded_rows += 1
 
         self.lookup_source_rows = source_rows
@@ -500,9 +507,14 @@ class GeoMapper:
         if not lookup_text:
             return None, ""
 
+        # Prefer the most specific recognised lookup area, not the broadest exact
+        # token. This makes values such as "Croydon, London" resolve through
+        # Croydon when that cluster exists, with broad London used only when no
+        # finer lookup key matches the same raw location.
+        candidates: List[Tuple[int, int, str, str]] = []
         exact_region = self.place_to_region.get(lookup_text)
         if exact_region:
-            return exact_region, lookup_text
+            candidates.append((len(lookup_text), 1, lookup_text, exact_region))
 
         # Prefer longest lookup terms first so "south shields" wins before "shields".
         if not self._lookup_patterns_by_length:
@@ -513,9 +525,25 @@ class GeoMapper:
             ]
         for pattern, place, region in self._lookup_patterns_by_length:
             if pattern.search(lookup_text):
-                return region, place
+                candidates.append((len(place), 0, place, region))
 
-        return None, ""
+        if not candidates:
+            return None, ""
+
+        specific_candidates = [candidate for candidate in candidates if not is_broad_london_cluster(candidate[3])]
+        best_length, _exact_priority, best_place, best_region = max(
+            specific_candidates or candidates,
+            key=lambda candidate: (candidate[0], candidate[1]),
+        )
+        del best_length
+        return best_region, best_place
+
+    def active_ontap_region_for_match(self, place: object, cluster: object) -> str:
+        place_text = normalise_lookup_place(place)
+        active_region = self.place_to_active_ontap_region.get(place_text)
+        if active_region:
+            return active_region
+        return ontap_region_from_cluster(cluster, place) or ""
 
     def classify_with_context(self, location: object, title: object = "", description: object = "") -> Tuple[str, str, str]:
         """Classify region, using title/description only for broad ambiguous locations.
@@ -1049,13 +1077,13 @@ def read_jobg8_file(path: Path, geo_mapper: Optional[GeoMapper] = None) -> pd.Da
     out["region"] = [result[0] for result in region_results]
     out["region_match_source"] = [result[1] for result in region_results]
     out["region_match_place"] = [result[2] for result in region_results]
+    out["active_ontap_slice_region"] = [
+        geo_mapper.active_ontap_region_for_match(match_place, region) if geo_mapper and match_source.endswith("lookup") else (region if region in ACTIVE_ONTAP_SLICE_REGIONS else "")
+        for region, match_source, match_place in zip(out["region"], out["region_match_source"], out["region_match_place"])
+    ]
     out["is_active_ontap_slice_region"] = [
         "yes" if region in ACTIVE_ONTAP_SLICE_REGIONS else "no"
-        for region in out["region"]
-    ]
-    out["active_ontap_slice_region"] = [
-        region if region in ACTIVE_ONTAP_SLICE_REGIONS else ""
-        for region in out["region"]
+        for region in out["active_ontap_slice_region"]
     ]
 
     out["job_family"] = [
@@ -1076,7 +1104,7 @@ def build_daily_summary(all_jobs: pd.DataFrame) -> pd.DataFrame:
     for date, group in all_jobs.groupby("date", dropna=False):
         row = {"date": date, "total_jobs": len(group)}
         for region in REGION_ORDER:
-            row[f"total_{slug(region)}"] = int((group["region"] == region).sum())
+            row[f"total_{slug(region)}"] = int((group["active_ontap_slice_region"] == region).sum())
         row["total_other_unknown"] = int((group["region"] == "Other / Unknown").sum())
         rows.append(row)
 
@@ -1111,7 +1139,7 @@ def build_family_trends(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
             "slice_viability_flag": family_viability_flag(all_jobs, family, total_days),
         }
         for region in REGION_ORDER:
-            row[slug(region)] = int((fam_group["region"] == region).sum())
+            row[slug(region)] = int((fam_group["active_ontap_slice_region"] == region).sum())
         row["other_unknown"] = int((fam_group["region"] == "Other / Unknown").sum())
         rows.append(row)
 
@@ -1163,7 +1191,7 @@ def build_slice_viability(all_jobs: pd.DataFrame, month: str) -> pd.DataFrame:
                 count = len(
                     all_jobs[
                         (all_jobs["date"] == date)
-                        & (all_jobs["region"] == region)
+                        & (all_jobs["active_ontap_slice_region"] == region)
                         & (all_jobs["job_family"] == family)
                     ]
                 )
