@@ -288,6 +288,33 @@ def build_lookup(lookup_df: pd.DataFrame) -> dict[str, str]:
     return lookup
 
 
+
+def lookup_match(lookup: dict[str, str], value: object) -> tuple[str, str]:
+    """Return the most specific lookup region for a raw JobG8 area string.
+
+    JobG8 area values can contain a specific town/borough plus a broader
+    qualifier, e.g. "Croydon, London" or "Leeds, West Yorkshire". Match
+    against all recognised lookup.xlsx Area keys and prefer the longest key so
+    specific places win over broad cluster labels.
+    """
+    area_text = norm_key(value)
+    if not area_text:
+        return "", ""
+
+    broad_london_terms = {"london", "greater london"}
+    matches: list[tuple[bool, int, str, str]] = []
+    for place, region in lookup.items():
+        pattern = r"(?<![a-z0-9])" + re.escape(place) + r"(?![a-z0-9])"
+        if re.search(pattern, area_text):
+            broad_london_match = place in broad_london_terms and area_text != place
+            matches.append((broad_london_match, -len(place), place, region))
+
+    if matches:
+        _, _, place, region = sorted(matches)[0]
+        return region, place
+
+    return "", ""
+
 def included_by_title(title: str) -> tuple[bool, str]:
     t = norm_key(title)
     include_hits = [term for term in INCLUDE_TERMS if term in t]
@@ -431,7 +458,7 @@ def process(job_df: pd.DataFrame, lookup: dict[str, str]) -> tuple[dict[str, lis
         if not area:
             drop("invalid location: blank /Job/Area")
             continue
-        region = lookup.get(norm_key(area))
+        region, _lookup_place = lookup_match(lookup, area)
         if not region:
             drop("invalid location: town not in West/South lookup")
             continue

@@ -168,6 +168,21 @@ CLUSTER_TO_ONTAP_REGION = {
 }
 
 
+def display_lookup_cluster(cluster: object) -> str:
+    """Return a clean cluster label from lookup.xlsx, preserving specific clusters.
+
+    Known Ontap publishable clusters are normalised to their canonical names.
+    Other recognised lookup.xlsx clusters are preserved (with tidy spacing) so
+    places outside the active slices, including London boroughs/sub-areas, do
+    not collapse into "Other / Unknown" or a broader London label.
+    """
+    raw = str(cluster or "").strip()
+    cluster_text = normalise_text(raw)
+    if not cluster_text:
+        return ""
+    return CLUSTER_TO_ONTAP_REGION.get(cluster_text, re.sub(r"\s+", " ", raw))
+
+
 def ontap_region_from_cluster(cluster: object, anchor: object = "") -> Optional[str]:
     cluster_text = normalise_text(cluster)
     anchor_text = normalise_text(anchor)
@@ -458,7 +473,7 @@ class GeoMapper:
             for _, row in df.iterrows():
                 if normalise_lookup_place(row.get("Area")):
                     source_rows += 1
-                region = ontap_region_from_cluster(row.get("Cluster"))
+                region = ontap_region_from_cluster(row.get("Cluster")) or display_lookup_cluster(row.get("Cluster"))
                 if normalise_lookup_place(row.get("Area")) and region:
                     mapped_rows += 1
                 if self.add_place(row.get("Area"), region):
@@ -478,11 +493,21 @@ class GeoMapper:
         if not lookup_text:
             return None, ""
 
-        # Prefer longest lookup terms first so "south shields" wins before "shields".
-        for place, region in sorted(self.place_to_region.items(), key=lambda item: len(item[0]), reverse=True):
+        # Prefer the most specific lookup term first so boroughs/towns win over
+        # broad labels in compound locations like "Croydon, London". Broad
+        # London labels are only selected when the source text is itself London
+        # or no finer recognised lookup place is present.
+        broad_london_terms = {"london", "greater london"}
+        matches: List[Tuple[bool, int, str, str]] = []
+        for place, region in self.place_to_region.items():
             pattern = r"(?<![a-z0-9])" + re.escape(place) + r"(?![a-z0-9])"
             if re.search(pattern, lookup_text):
-                return region, place
+                broad_london_match = place in broad_london_terms and lookup_text != place
+                matches.append((broad_london_match, -len(place), place, region))
+
+        if matches:
+            _, _, place, region = sorted(matches)[0]
+            return region, place
 
         return None, ""
 
