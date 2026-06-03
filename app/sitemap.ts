@@ -1,18 +1,20 @@
 import { MetadataRoute } from 'next'
 
+const siteUrl = 'https://www.ontapjobsearch.com'
+
+const routes = [
+  '/',
+  '/west-yorkshire/support-worker',
+  '/south-yorkshire/support-worker',
+  '/west-yorkshire/service-administrator-jobs',
+  '/south-yorkshire/service-administrator-jobs',
+]
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: 'https://www.ontapjobsearch.com/',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://www.ontapjobsearch.com/west-yorkshire/support-worker',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://www.ontapjobsearch.com/south-yorkshire/support-worker',
-      lastModified: new Date(),
-    }
-  ]
+  const lastModified = new Date()
+
+  return routes.map((route) => ({
+    url: `${siteUrl}${route}`,
+    lastModified,
+  }))
 }
