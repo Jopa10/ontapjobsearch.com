@@ -1,14 +1,14 @@
 month,job_family,total_jobs,days_seen,unique_titles,unique_companies,unique_locations,top_regions,slice_viability_flag,west_yorkshire,south_yorkshire,lancashire,greater_manchester,cumbria,north_east,other_unknown
-2026-06,unclassified,1887,1,951,455,566,Other / Unknown (164); London (134); East Midlands / Leicestershire (119); East Midlands / Lincolnshire (98); Yorkshire (West) (83),unknown_no_valid_dates,117,45,15,42,10,55,164
-2026-06,sales,411,1,22,13,98,South West England / Somerset (145); Other / Unknown (132); Central Scotland (30); South West England / Devon (21); South East (ex-London) (16),unknown_no_valid_dates,1,0,0,0,0,0,132
-2026-06,administrator_general,205,1,143,124,130,Other / Unknown (14); Scotland (13); London (11); South East England / Surrey (11); South East England / Hampshire (10),unknown_no_valid_dates,8,4,2,9,1,2,14
-2026-06,support_worker,189,1,82,78,145,"South East (ex-London) (20); Cumbria (17); South West England / Somerset (10); Other / Unknown (9); North East - Tyneside, Wearside & Northumberland (9)",unknown_no_valid_dates,0,2,6,2,17,19,9
-2026-06,customer_service,100,1,40,28,82,South East (ex-London) (9); North West England / Cheshire (8); South East England / Hampshire (6); Yorkshire (West) (6); London (5),unknown_no_valid_dates,6,1,2,3,3,3,1
-2026-06,care_assistant,79,1,32,31,69,South East England / Kent (7); South East (ex-London) (6); Lancashire (5); Greater Manchester (4); London (4),unknown_no_valid_dates,2,1,5,4,1,8,2
-2026-06,teaching_assistant,28,1,21,6,24,London (6); South East England / Surrey (5); East of England / Essex (4); South East England / Oxfordshire (2); South West England / Wiltshire (2),unknown_no_valid_dates,0,0,0,0,0,0,0
-2026-06,healthcare_assistant,24,1,16,13,22,London (4); Greater Manchester (3); South West England / Wiltshire (2); Cumbria (2); Other / Unknown (1),unknown_no_valid_dates,1,0,1,3,2,0,1
-2026-06,service_administrator,14,1,6,12,12,Yorkshire (West) (3); South West England (2); Other / Unknown (1); West Yorkshire (1); South East England / Kent (1),unknown_no_valid_dates,4,0,1,0,0,0,1
-2026-06,warehouse_logistics,11,1,11,11,10,East Midlands / Northamptonshire (3); South East England / Hampshire (2); Other / Unknown (2); North Yorkshire (1); London (1),unknown_no_valid_dates,0,0,0,0,0,0,2
-2026-06,scheduler_planner,10,1,7,9,9,Yorkshire (South) (2); East of England / Hertfordshire (2); East Midlands / Lincolnshire (1); Other / Unknown (1); South East England / Berkshire (1),unknown_no_valid_dates,0,2,0,0,0,0,1
-2026-06,care_coordinator,8,1,5,7,8,"South East (ex-London) (2); Lancashire (2); North East - Tyneside, Wearside & Northumberland (1); Greater Manchester (1); South West England (1)",unknown_no_valid_dates,0,0,2,1,0,1,1
-2026-06,finance_admin,2,1,2,2,2,Yorkshire (West) (1); West Midlands / Shropshire (1),unknown_no_valid_dates,1,0,0,0,0,0,0
+2026-06,unclassified,1713,1,1037,474,529,Other / Unknown (158); London (139); East Midlands / Lincolnshire (99); South West England / Somerset (83); South East (ex-London) (79),unknown_no_valid_dates,45,32,14,43,11,57,158
+2026-06,administrator_general,222,1,152,133,142,Other / Unknown (18); London (14); Scotland (13); South East England / Surrey (11); Greater Manchester (10),unknown_no_valid_dates,6,4,2,10,1,2,18
+2026-06,support_worker,186,1,92,77,142,South East (ex-London) (21); Other / Unknown (11); Cumbria (10); Lancashire (10); South East England / Hampshire (9),unknown_no_valid_dates,0,2,10,2,10,17,11
+2026-06,sales,127,1,22,15,34,South West England / Somerset (65); South West England / Dorset (17); South East England / Kent (14); South West England / Wiltshire (8); Other / Unknown (7),unknown_no_valid_dates,1,0,0,0,0,0,7
+2026-06,care_assistant,103,1,47,40,84,South East (ex-London) (11); Other / Unknown (9); Lancashire (7); South East England / Kent (7); Greater Manchester (6),unknown_no_valid_dates,3,0,7,6,1,8,9
+2026-06,customer_service,97,1,41,30,80,South East (ex-London) (10); South East England / Hampshire (7); North West England / Cheshire (7); Yorkshire (West) (6); Wales (4),unknown_no_valid_dates,6,1,2,3,3,3,2
+2026-06,healthcare_assistant,25,1,14,16,22,Greater Manchester (4); London (4); South West England / Wiltshire (2); Other / Unknown (2); South West England / Dorset (1),unknown_no_valid_dates,1,0,1,4,1,0,2
+2026-06,teaching_assistant,24,1,19,6,22,London (5); East of England / Essex (4); South East England / Surrey (4); South West England / Wiltshire (2); South East England / Berkshire (1),unknown_no_valid_dates,0,0,1,0,0,0,0
+2026-06,service_administrator,20,1,9,16,16,South East (ex-London) (3); Yorkshire (West) (2); South West England (2); Other / Unknown (1); South West England / Devon (1),unknown_no_valid_dates,3,0,1,0,0,0,1
+2026-06,scheduler_planner,11,1,7,10,10,Yorkshire (South) (2); East of England / Hertfordshire (2); East Midlands / Lincolnshire (1); South West England / Wiltshire (1); Other / Unknown (1),unknown_no_valid_dates,0,2,0,0,0,0,1
+2026-06,warehouse_logistics,11,1,11,11,9,East Midlands / Northamptonshire (4); Other / Unknown (2); North Yorkshire (1); Northern Ireland East (1); London (1),unknown_no_valid_dates,0,0,0,0,0,0,2
+2026-06,care_coordinator,8,1,6,7,8,South East (ex-London) (2); Lancashire (2); County Tyrone (1); Greater Manchester (1); South West England (1),unknown_no_valid_dates,0,0,2,1,0,0,1
+2026-06,finance_admin,1,1,1,1,1,West Midlands / Shropshire (1),unknown_no_valid_dates,0,0,0,0,0,0,0
