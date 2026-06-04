@@ -28,6 +28,12 @@ job_id: 107417429
 ---
 
 ---
+action: exclude
+SELECTED | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
+job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
+---
+
+---
 action:
 SELECTED | West Yorkshire | Huddersfield | £13.21 - £14.29 per hour | Temporary HR Administrator
 job_id: c2ff7338-f6fc-4e80-8338-c2a36ad5646c
@@ -46,12 +52,6 @@ job_id: a5f2c907-c09c-4242-8e04-1d01258d4eb4
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
-job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
----
-
----
 action:
 SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Service Administrator
 job_id: e25924d0-028f-4fc1-b9cc-6305349412d5
@@ -65,29 +65,31 @@ job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
 
 ---
 action: select
-SELECTED | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
-job_id: 107409218
----
-
-## WEST YORKSHIRE — POSSIBLES
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Marketing & Office Support Coordinator
-job_id: 107241070
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Batley | £30000 per year | Design Administrator
+SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
 job_id: 107426616
 ---
 
 ---
 action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Bradford |  | PMO Programme Coordinator
+SELECTED | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
+job_id: 107409218
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Leeds |  | Marketing & Office Support Coordinator
+job_id: 107241070
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Bradford |  | PMO Programme Coordinator
 job_id: 107459020
 ---
+
+## WEST YORKSHIRE — POSSIBLES
+
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
