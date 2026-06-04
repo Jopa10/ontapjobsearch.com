@@ -46,7 +46,7 @@ job_id: a5f2c907-c09c-4242-8e04-1d01258d4eb4
 ---
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
 job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
 ---
@@ -72,19 +72,19 @@ job_id: 107409218
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Marketing & Office Support Coordinator
 job_id: 107241070
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Batley | £30000 per year | Design Administrator
 job_id: 107426616
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Bradford |  | PMO Programme Coordinator
 job_id: 107459020
 ---
