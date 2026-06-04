@@ -35,7 +35,11 @@ job_id: 107334495
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+job_id: 107464615
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 

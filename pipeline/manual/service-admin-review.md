@@ -69,12 +69,6 @@ SELECTED | West Yorkshire | Normanton | £30000 per year | Business Systems & Da
 job_id: 107409218
 ---
 
----
-action:
-SELECTED | West Yorkshire | Leeds | £109.85 per daily | Customer Service Administrator
-job_id: 934f888b-9a1f-4b99-9cfd-d64fa903fbb0
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -85,20 +79,8 @@ job_id: 107241070
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Normanton | £26000 per year | Pricing Admin Assistant
-job_id: 107166205
----
-
----
-action:
 POSS - WEST YORKSHIRE | West Yorkshire | Batley | £30000 per year | Design Administrator
 job_id: 107426616
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £35000 per year | Commercial/Finance Accounts Assistant
-job_id: 107242003
 ---
 
 ---
