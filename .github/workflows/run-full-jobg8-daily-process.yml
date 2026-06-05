@@ -35,20 +35,10 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline
 
-      - name: Run JobG8 profiler
-        working-directory: pipeline
-        run: >-
-          python -m scripts.jobg8_profiler
-          --month "${{ steps.jobg8-month.outputs.month }}"
-          --input-dir input
-          --output-dir output-feed-profiler
-          --geo-lookup geo/lookup.xlsx
-
       - name: Commit JobG8 daily output
         run: |
           set -euo pipefail
           output_paths=(
-            "pipeline/output-feed-profiler"
             "pipeline/output-admin-service/*.json"
             "pipeline/output-support-worker/*.json"
             "pipeline/reports-daily"
@@ -69,7 +59,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-feed-profiler\// && $0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$staged_files"
@@ -115,14 +105,6 @@ jobs:
 
           git commit -m "Refresh JobG8 manual review files"
           git push
-
-      - name: Upload JobG8 profiler output
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: jobg8-profiler-output
-          path: pipeline/output-feed-profiler/
-          if-no-files-found: warn
 
       - name: Upload service-admin output
         if: always()
