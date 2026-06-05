@@ -23,12 +23,6 @@ job_id: 107220389
 
 ---
 action:
-SELECTED | West Yorkshire | Castleford | £13.81 per hour | Nights Health Care Assistant
-job_id: 107255583
----
-
----
-action:
 SELECTED | West Yorkshire | Leeds | £170 per daily | Live-in Personal Care Assistant for a History and Sociology Student
 job_id: 107334495
 ---

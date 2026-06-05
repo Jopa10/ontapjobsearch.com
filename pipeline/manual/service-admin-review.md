@@ -89,7 +89,11 @@ job_id: 107459020
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £32000 per year | IFA Administrator
+job_id: 9c6af44b-86cc-43f2-80c8-e88ab4637722
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -103,12 +107,6 @@ job_id: 21aeef82-18d7-4324-9b40-4aab49628831
 action:
 SELECTED | South Yorkshire | Sheffield | £28000 - £34000 per year | IFA Administrator
 job_id: ea50cbe2-95aa-4843-b8a6-65abc31b3a4b
----
-
----
-action:
-SELECTED | South Yorkshire | Sheffield | £28,835 per annum | IT Office Administrator
-job_id: 107174108
 ---
 
 ---
@@ -143,4 +141,8 @@ job_id: 107425594
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 - £32000 per year | Client Services Administrator
+job_id: 8103dc81-7eb0-49b6-a7e9-a256887b1bf2
+---
