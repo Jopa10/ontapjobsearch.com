@@ -1,2 +1,2 @@
 lookup_file_path,mapped_lookup_row_count,unique_lookup_key_count,total_rows_profiled,active_ontap_region_mapped_count,known_uk_inactive_region_mapped_count,genuinely_unmapped_ambiguous_count,geo_unmapped_review_row_count,ADD_TO_LOOKUP_ACTIVE_REGION_count,ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count,AMBIGUOUS_REVIEW_count,FIX_EXISTING_LOOKUP_count,IGNORE_BAD_OR_NON_UK_count
-pipeline/geo/lookup.xlsx,997,997,2548,329,2007,212,53,0,4,47,0,2
+pipeline/geo/lookup.xlsx,997,997,2521,332,1982,207,61,0,10,49,0,2

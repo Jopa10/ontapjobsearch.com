@@ -2,7 +2,7 @@ Month: 2026-06
 Input folder: input
 Files found: 1
 Files read successfully: 1
-Total rows profiled: 2548
+Total rows profiled: 2521
 Current working directory: /home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline
 Default geo lookup path: pipeline/geo/lookup.xlsx
 Resolved geo lookup path: /home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline/geo/lookup.xlsx
@@ -13,8 +13,8 @@ Geo lookup unique mapped keys loaded: 997
 Fallback keyword rules used: no
 Region mapping town/area source columns: /Job/Area
 Region mapping fallback location columns: /Job/Location
-Region match source counts: location_lookup (2328); unmapped (212); title_description_lookup (8)
-Other / Unknown region count: 212 of 2548 (8.3%)
+Region match source counts: location_lookup (2306); unmapped (207); title_description_lookup (8)
+Other / Unknown region count: 207 of 2521 (8.2%)
 Other / Unknown warning threshold: 20%
 Lookup verification checks: Leeds->Yorkshire (West) via leeds; Bradford->Yorkshire (West) via bradford; Wakefield->Yorkshire (West) via wakefield; Huddersfield->Yorkshire (West) via huddersfield; Halifax->Yorkshire (West) via halifax; Sheffield->Yorkshire (South) via sheffield; Rotherham->Yorkshire (South) via rotherham; Doncaster->Yorkshire (South) via doncaster; Barnsley->Yorkshire (South) via barnsley
 
@@ -22,14 +22,14 @@ Geo lookup QA summary:
 - lookup_file_path: pipeline/geo/lookup.xlsx
 - mapped_lookup_row_count: 997
 - unique_lookup_key_count: 997
-- total_rows_profiled: 2548
-- active_ontap_region_mapped_count: 329
-- known_uk_inactive_region_mapped_count: 2007
-- genuinely_unmapped_ambiguous_count: 212
-- geo_unmapped_review_row_count: 53
+- total_rows_profiled: 2521
+- active_ontap_region_mapped_count: 332
+- known_uk_inactive_region_mapped_count: 1982
+- genuinely_unmapped_ambiguous_count: 207
+- geo_unmapped_review_row_count: 61
 - ADD_TO_LOOKUP_ACTIVE_REGION_count: 0
-- ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count: 4
-- AMBIGUOUS_REVIEW_count: 47
+- ADD_TO_LOOKUP_OUTSIDE_ACTIVE_SLICE_count: 10
+- AMBIGUOUS_REVIEW_count: 49
 - FIX_EXISTING_LOOKUP_count: 0
 - IGNORE_BAD_OR_NON_UK_count: 2
 
@@ -60,7 +60,7 @@ Compiler profiler_count diagnostic files:
 - output-feed-profiler/monthly/2026-06-slice-viability.csv
 
 Compiler reconciliation warnings:
-- West Yorkshire support-worker: selected_count=3 (output-support-worker/west-yorkshire-support-worker.json); profiler_count=0 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (3) differs from profiler_count (0); profiler difference is diagnostic only and does not drive status
+- West Yorkshire support-worker: selected_count=2 (output-support-worker/west-yorkshire-support-worker.json); profiler_count=0 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (2) differs from profiler_count (0); profiler difference is diagnostic only and does not drive status
 - South Yorkshire support-worker: selected_count=0 (output-support-worker/south-yorkshire-support-worker.json); profiler_count=0 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; profiler source/mapping/classification cross-check needs review
 - West Yorkshire service-admin: selected_count=9 (output-admin-service/west-yorkshire-admin-service.json); profiler_count=4 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (9) differs from profiler_count (4); profiler difference is diagnostic only and does not drive status; profiler source/mapping/classification cross-check needs review
-- South Yorkshire service-admin: selected_count=8 (output-admin-service/south-yorkshire-admin-service.json); profiler_count=0 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (8) differs from profiler_count (0); profiler difference is diagnostic only and does not drive status; profiler source/mapping/classification cross-check needs review
+- South Yorkshire service-admin: selected_count=7 (output-admin-service/south-yorkshire-admin-service.json); profiler_count=0 (output-feed-profiler/regional/2026-06-family-region-breakdown.csv); selected_count from selector/publish output; profiler_count from broad feed profiler for QA only; selected_count (7) differs from profiler_count (0); profiler difference is diagnostic only and does not drive status; profiler source/mapping/classification cross-check needs review

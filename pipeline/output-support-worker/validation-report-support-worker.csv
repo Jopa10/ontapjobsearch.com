@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,2548
-total rows included,3
-total rows dropped,2544
-title classification count - HIGH_CONFIDENCE,135
-title classification count - ELASTIC_FIT,86
+total rows input,2521
+total rows included,2
+total rows dropped,2518
+title classification count - HIGH_CONFIDENCE,139
+title classification count - ELASTIC_FIT,91
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,1469
-title classification count - OUT_OF_SCOPE,858
+title classification count - HARD_PASS,1468
+title classification count - OUT_OF_SCOPE,823
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 3 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 3/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,4
+selection message - West Yorkshire,West Yorkshire manual rerun: 2 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 2/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - West Yorkshire,3
 high confidence count - West Yorkshire,2
 anchor elastic count - West Yorkshire,0
-other elastic count - West Yorkshire,2
-total rows output - West Yorkshire,3
-job_id included - West Yorkshire,107334495; 107220389; 107255583
+other elastic count - West Yorkshire,1
+total rows output - West Yorkshire,2
+job_id included - West Yorkshire,107334495; 107220389
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - South Yorkshire,South Yorkshire manual rerun: 0 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 0/12 selected. Cap treated as a maximum; auto backfill disabled.
 credible total - South Yorkshire,0
