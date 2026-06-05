@@ -44,9 +44,9 @@ Output folder:
   output-admin-service/greater-manchester-admin/service.json
   output-admin-service/cumbria-admin/service.json
   output-admin-service/north-east-admin/service.json
-  output-admin-service/validation-report.csv
-  output-admin-service/selection-summary-report.csv
-  output-admin-service/decision-report-admin-service.csv  generated decision report artifact
+  reports-daily/validation-report-admin-service.csv
+  reports-daily/selection-summary-report-admin-service.csv
+  reports-daily/decision-report-admin-service.csv  generated decision report artifact
 
 Manual rerun edits:
   manual/service-admin-review.md   compact GitHub-editable action source
@@ -72,7 +72,8 @@ import pandas as pd
 
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-admin-service")
-DECISION_REPORT_PATH = OUTPUT_DIR / "decision-report-admin-service.csv"
+REPORTS_DAILY_DIR = Path("reports-daily")
+DECISION_REPORT_PATH = REPORTS_DAILY_DIR / "decision-report-admin-service.csv"
 MANUAL_DIR = Path("manual")
 MANUAL_REVIEW_CSV_PATH = MANUAL_DIR / "service-admin-review.csv"
 MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "service-admin-review.md"
@@ -1636,7 +1637,7 @@ def write_selection_summary_report(
     region_status: dict[str, dict[str, Any]],
 ) -> None:
     """Write a compact per-region dashboard for daily selection QA."""
-    summary_path = OUTPUT_DIR / "selection-summary-report-admin-service.csv"
+    summary_path = REPORTS_DAILY_DIR / "selection-summary-report-admin-service.csv"
     fieldnames = [
         "region",
         "cap",
@@ -1915,6 +1916,7 @@ def write_outputs(
     manual_decisions: ManualDecisionState | None = None,
 ) -> tuple[bool, bool]:
     OUTPUT_DIR.mkdir(exist_ok=True)
+    REPORTS_DAILY_DIR.mkdir(exist_ok=True)
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
 
@@ -1950,7 +1952,7 @@ def write_outputs(
     write_selection_summary_report(report_rows, region_status)
 
     # Short summary report
-    report_path = OUTPUT_DIR / "validation-report-admin-service.csv"
+    report_path = REPORTS_DAILY_DIR / "validation-report-admin-service.csv"
     dropped_count = sum(1 for r in report_rows if r["decision"] == "DROPPED")
     included_count = sum(1 for r in report_rows if r["decision"] == "SELECTED")
 
@@ -1985,7 +1987,7 @@ def write_outputs(
     # source. It is regenerated in compact form while preserving explicit
     # action edits by job_id. The CSV remains a short preview/table overview for
     # backwards compatibility. The full decision report stays in
-    # output-admin-service as the audit/detail artifact.
+    # reports-daily as the audit/detail artifact.
     markdown_review_created = False
     csv_review_created = False
     MANUAL_DIR.mkdir(exist_ok=True)

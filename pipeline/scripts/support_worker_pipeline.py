@@ -38,9 +38,9 @@ Input folder:
   input/   put ONE JobG8 export here; geo defaults to pipeline/geo/lookup.xlsx
 
 Output folder:
-  output-support-worker/decision-report-support-worker.csv
-  output-support-worker/validation-report-support-worker.csv
-  output-support-worker/selection-summary-report-support-worker.csv
+  reports-daily/decision-report-support-worker.csv
+  reports-daily/validation-report-support-worker.csv
+  reports-daily/selection-summary-report-support-worker.csv
   output-support-worker/west-yorkshire-support-worker.json
   output-support-worker/south-yorkshire-support-worker.json
 
@@ -64,7 +64,8 @@ import pandas as pd
 
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-support-worker")
-DECISION_REPORT_PATH = OUTPUT_DIR / "decision-report-support-worker.csv"
+REPORTS_DAILY_DIR = Path("reports-daily")
+DECISION_REPORT_PATH = REPORTS_DAILY_DIR / "decision-report-support-worker.csv"
 MANUAL_DIR = Path("manual")
 MANUAL_REVIEW_CSV_PATH = MANUAL_DIR / "support-worker-review.csv"
 MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "support-worker-review.md"
@@ -1600,7 +1601,7 @@ def write_selection_summary_report(
     region_status: dict[str, dict[str, Any]],
 ) -> None:
     """Write a compact per-region dashboard for daily selection QA."""
-    summary_path = OUTPUT_DIR / "selection-summary-report-support-worker.csv"
+    summary_path = REPORTS_DAILY_DIR / "selection-summary-report-support-worker.csv"
     fieldnames = [
         "region",
         "cap",
@@ -1872,6 +1873,7 @@ def write_outputs(
     manual_decisions: ManualDecisionState | None = None,
 ) -> tuple[bool, bool]:
     OUTPUT_DIR.mkdir(exist_ok=True)
+    REPORTS_DAILY_DIR.mkdir(exist_ok=True)
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
 
@@ -1907,7 +1909,7 @@ def write_outputs(
     write_selection_summary_report(report_rows, region_status)
 
     # Short summary report
-    report_path = OUTPUT_DIR / "validation-report-support-worker.csv"
+    report_path = REPORTS_DAILY_DIR / "validation-report-support-worker.csv"
     dropped_count = sum(1 for r in report_rows if r["decision"] == "DROPPED")
     included_count = sum(1 for r in report_rows if r["decision"] == "SELECTED")
 
@@ -1942,7 +1944,7 @@ def write_outputs(
     # source. It is regenerated in compact form while preserving explicit
     # action edits by job_id. The CSV remains a short preview/table overview for
     # backwards compatibility. The full decision report stays in
-    # output-support-worker as the audit/detail artifact.
+    # reports-daily as the audit/detail artifact.
     markdown_review_created = False
     csv_review_created = False
     MANUAL_DIR.mkdir(exist_ok=True)
