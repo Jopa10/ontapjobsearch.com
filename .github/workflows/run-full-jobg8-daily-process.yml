@@ -49,8 +49,9 @@ jobs:
           set -euo pipefail
           output_paths=(
             "pipeline/output-feed-profiler"
-            "pipeline/output-admin-service"
-            "pipeline/output-support-worker"
+            "pipeline/output-admin-service/*.json"
+            "pipeline/output-support-worker/*.json"
+            "pipeline/reports-daily"
           )
 
           if [ -z "$(git status --porcelain -- "${output_paths[@]}")" ]; then
@@ -68,7 +69,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/(output-feed-profiler|output-admin-service|output-support-worker)\//'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-feed-profiler\// && $0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$staged_files"
