@@ -110,6 +110,12 @@ job_id: ea50cbe2-95aa-4843-b8a6-65abc31b3a4b
 ---
 
 ---
+action: select
+SELECTED | South Yorkshire | Sheffield | £26000 - £32000 per year | Client Services Administrator
+job_id: 8103dc81-7eb0-49b6-a7e9-a256887b1bf2
+---
+
+---
 action:
 SELECTED | South Yorkshire | Rotherham |  | Commercial Administrator
 job_id: f0f8c4a2-154d-4c95-aa8d-2110b6a98335
@@ -141,8 +147,4 @@ job_id: 107425594
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 - £32000 per year | Client Services Administrator
-job_id: 8103dc81-7eb0-49b6-a7e9-a256887b1bf2
----
+_No jobs in this group._
