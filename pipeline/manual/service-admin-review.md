@@ -142,7 +142,7 @@ job_id: 107425594
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 - £32000 per year | Client Services Administrator
 job_id: 8103dc81-7eb0-49b6-a7e9-a256887b1bf2
 ---
