@@ -42,8 +42,6 @@ type JobSlicePageProps = {
   latestUpdate: string;
   anchorTown?: string;
   introText?: string;
-  emptyStateTitle?: string;
-  emptyStateMessage?: string;
   trainingHeading?: string;
   trainingSubheading?: string;
   trainingItems?: TrainingItem[];
@@ -224,8 +222,6 @@ export default function JobSlicePage({
   latestUpdate,
   anchorTown,
   introText,
-  emptyStateTitle,
-  emptyStateMessage,
   trainingHeading,
   trainingSubheading,
   trainingItems,
@@ -295,17 +291,13 @@ export default function JobSlicePage({
                   color: "#555",
                 }}
               >
-                <div
-                 fontWeight: 700,
-marginBottom: 6,
-}}
->
-  No current suitable jobs
-</div>
+                <div style={{ fontWeight: 700, marginBottom: 6 }}>
+                  No current suitable jobs
+                </div>
 
-<div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
-  We’ve paused this page while suitable roles are limited. Please check back soon, or browse current admin, service and customer-service roles.
-</div>
+                <div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
+                  We’ve paused this page while suitable roles are limited. Please check back soon, or browse current admin, service and customer-service roles.
+                </div>
               </div>
             ) : null}
 
