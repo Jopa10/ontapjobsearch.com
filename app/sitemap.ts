@@ -8,6 +8,7 @@ const routes = [
   '/south-yorkshire/support-worker',
   '/west-yorkshire/service-administrator-jobs',
   '/south-yorkshire/service-administrator-jobs',
+  '/north-east/service-administrator-jobs',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
