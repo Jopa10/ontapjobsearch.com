@@ -296,19 +296,16 @@ export default function JobSlicePage({
                 }}
               >
                 <div
-                  style={{
-                    fontWeight: 700,
-                    marginBottom: emptyStateMessage ? 6 : 0,
-                  }}
-                >
-                  {emptyStateTitle || "No current jobs available for this slice"}
-                </div>
+                 fontWeight: 700,
+marginBottom: 6,
+}}
+>
+  No current suitable jobs
+</div>
 
-                {emptyStateMessage ? (
-                  <div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
-                    {emptyStateMessage}
-                  </div>
-                ) : null}
+<div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
+  We’ve paused this page while suitable roles are limited. Please check back soon, or browse current admin, service and customer-service roles.
+</div>
               </div>
             ) : null}
 
