@@ -227,7 +227,7 @@ export default function Page() {
           <SliceCardGrid cards={serviceAdministratorSlices} />
         </section>
 
-        <section className="mt-6">
+        <section className="mt-12">
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
             Support worker jobs — paused / limited current supply
           </h2>
