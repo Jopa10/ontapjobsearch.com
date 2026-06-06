@@ -31,6 +31,9 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
 
+      - name: Verify North East service-admin output
+        run: test -s pipeline/output-admin-service/north-east-admin-service.json
+
       - name: Run support-worker pipeline
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline

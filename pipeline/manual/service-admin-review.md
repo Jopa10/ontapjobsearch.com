@@ -200,3 +200,69 @@ action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
 job_id: 54231a53-b17c-47eb-b87a-bb5afe80e3a6
 ---
+
+## NORTH EAST — SELECTED
+
+---
+action:
+SELECTED | North East | South Shields | £13.47 per hour | Service Administrator
+job_id: 6ad52841-1d56-4e10-9964-0771b24f7f3a
+---
+
+---
+action:
+SELECTED | North East | Middlesbrough | £13 - £14.5 per hour | Office Administrator
+job_id: c63ab4b8-73f3-4a7e-b19f-b818de2f27e3
+---
+
+---
+action:
+SELECTED | North East | Durham | £13.48 per hour | Administrator
+job_id: c084becf-d051-48da-8a5e-607cdd02b525
+---
+
+---
+action:
+SELECTED | North East | Newcastle Upon Tyne | £12.71 per hour | Part-Time Receptionist - Every Friday
+job_id: 7445d2f0-123f-44c6-9c48-3b8dcd8b18ee
+---
+
+---
+action:
+SELECTED | North East | Stockton-on-tees | £28000 - £32000 per year | Procurement Administrator
+job_id: e02d9172-7e6c-4498-8665-eea4047e71b3
+---
+
+---
+action:
+SELECTED | North East | Peterlee | £24800 - £26000 per year | Logistics Administrator
+job_id: 68464a14-68f0-47e5-bfc9-b36dab918d6d
+---
+
+---
+action:
+SELECTED | North East | Houghton Le Spring | £14 - £14.82 per hour | Data Administrator
+job_id: f029146d-6f9d-4f7b-8fe8-af9a8afebf31
+---
+
+---
+action:
+SELECTED | North East | Gateshead |  | HR Administrator
+job_id: 64676a78-6614-48e6-8201-cfb30225d582
+---
+
+---
+action:
+SELECTED | North East | Durham | £30000 per year | Support/Housing Management Coordinator
+job_id: 107473649
+---
+
+---
+action:
+SELECTED | North East | Durham | £12.71 per hour | Administrator
+job_id: 658d75d6-9754-4a5c-844b-cbe5b5aa62fb
+---
+
+## NORTH EAST — POSSIBLES
+
+_No jobs in this group._

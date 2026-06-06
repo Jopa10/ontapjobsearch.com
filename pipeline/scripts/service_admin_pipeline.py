@@ -38,12 +38,9 @@ Input folder:
   input/   put ONE JobG8 export here; geo defaults to pipeline/geo/lookup.xlsx
 
 Output folder:
-  output-admin-service/west-yorkshire-admin/service.json
-  output-admin-service/south-yorkshire-admin/service.json
-  output-admin-service/lancashire-admin/service.json
-  output-admin-service/greater-manchester-admin/service.json
-  output-admin-service/cumbria-admin/service.json
-  output-admin-service/north-east-admin/service.json
+  output-admin-service/west-yorkshire-admin-service.json
+  output-admin-service/south-yorkshire-admin-service.json
+  output-admin-service/north-east-admin-service.json
   reports-daily/validation-report-admin-service.csv
   reports-daily/selection-summary-report-admin-service.csv
   reports-daily/decision-report-admin-service.csv  generated decision report artifact
@@ -192,23 +189,34 @@ REGION_MAP = {
     "county durham darlington hartlepool": "North East - County Durham & Darlington/Hartlepool",
     "north east - tees valley": "North East - Tees Valley",
     "tees valley": "North East - Tees Valley",
+    "north east": "North East",
+}
+
+COMBINED_OUTPUT_REGION_MAP = {
+    "North East - Tyneside, Wearside & Northumberland": "North East",
+    "North East - County Durham & Darlington/Hartlepool": "North East",
+    "North East - Tees Valley": "North East",
 }
 
 OUTPUT_FILES = {
     "West Yorkshire": "west-yorkshire-admin-service.json",
     "South Yorkshire": "south-yorkshire-admin-service.json",
+    "North East": "north-east-admin-service.json",
 }
 REGION_CAPS = {
     "West Yorkshire": 12,
     "South Yorkshire": 12,
+    "North East": 12,
 }
 ANCHOR_TOWNS = {
     "West Yorkshire": "Leeds",
     "South Yorkshire": "Sheffield",
+    "North East": "Newcastle",
 }
 PUBLISH_THRESHOLDS = {
     "West Yorkshire": 6,
     "South Yorkshire": 6,
+    "North East": 6,
 }
 POSSIBLE_SELECTION_REVIEW_COUNT = 6
 
@@ -1345,6 +1353,7 @@ def process(
         if not region:
             drop("invalid location: town not in lookup")
             continue
+        region = COMBINED_OUTPUT_REGION_MAP.get(region, region)
         if region not in OUTPUT_FILES:
             drop("outside admin/service V1 target regions", region)
             continue
@@ -1517,7 +1526,9 @@ def anchor_sort_and_cap(
         credible_total = len(forced + hc + anchor_elastic + other_elastic)
         base_without_manual = len(forced) + len(hc) + len(anchor_elastic)
 
-        if manual_rerun_mode:
+        region_has_manual_selection_state = bool(forced or previously_selected or manually_selected)
+
+        if manual_rerun_mode and region_has_manual_selection_state:
             # Editorial reruns preserve the reviewed selected set and only add explicit
             # manual_select rows. Do not refill to the cap from routine HC/elastic pools.
             add_candidates(forced, cap)
@@ -1693,7 +1704,7 @@ def write_selection_summary_report(
         })
 
     with summary_path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -1754,7 +1765,7 @@ def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str
 
 def write_decision_report(path: Path, rows: list[dict[str, Any]]) -> None:
     with path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=decision_report_fieldnames())
+        writer = csv.DictWriter(f, fieldnames=decision_report_fieldnames(), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -1812,6 +1823,8 @@ def _manual_review_preview_rows(
         ("West Yorkshire", "POSSIBLE_SELECTION"),
         ("South Yorkshire", "SELECTED"),
         ("South Yorkshire", "POSSIBLE_SELECTION"),
+        ("North East", "SELECTED"),
+        ("North East", "POSSIBLE_SELECTION"),
     ]
     for region, status in groups:
         group_rows = _markdown_review_rows(rows, region, status)
@@ -1861,6 +1874,8 @@ def write_manual_review_markdown(
         ("WEST YORKSHIRE — POSSIBLES", "West Yorkshire", "POSSIBLE_SELECTION", "POSS"),
         ("SOUTH YORKSHIRE — SELECTED", "South Yorkshire", "SELECTED", "SELECTED"),
         ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+        ("NORTH EAST — SELECTED", "North East", "SELECTED", "SELECTED"),
+        ("NORTH EAST — POSSIBLES", "North East", "POSSIBLE_SELECTION", "POSS"),
     ]
 
     emitted_job_ids: set[str] = set()
@@ -1957,7 +1972,7 @@ def write_outputs(
     included_count = sum(1 for r in report_rows if r["decision"] == "SELECTED")
 
     with report_path.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["metric", "value"])
+        writer = csv.DictWriter(f, fieldnames=["metric", "value"], lineterminator="\n")
         writer.writeheader()
         writer.writerow({"metric": "total rows input", "value": total_input})
         writer.writerow({"metric": "total rows included", "value": included_count})
@@ -2082,11 +2097,8 @@ def main() -> int:
 
     print("Done. Admin/service V2 selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
-    print(f"West Yorkshire admin/service output: {REGION_CAPS['West Yorkshire']} max; check validation-report-admin-service.csv for actual count")
-    print(f"South Yorkshire admin/service output: {REGION_CAPS['South Yorkshire']} max; check validation-report-admin-service.csv for actual count")
     for region in OUTPUT_FILES:
-        if region not in {"West Yorkshire", "South Yorkshire"}:
-            print(f"{region} output: {REGION_CAPS[region]} max; check validation-report.csv for actual count")
+        print(f"{region} admin/service output: {REGION_CAPS[region]} max; check validation-report-admin-service.csv for actual count")
     print(f"Dropped rows: {sum(1 for r in report_rows if r['decision'] == 'DROPPED')}")
     print("Files written to /output-admin-service")
     return 0
