@@ -40,6 +40,9 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
 
+      - name: Verify North East service-admin output
+        run: test -s pipeline/output-admin-service/north-east-admin-service.json
+
       - name: Commit starter Markdown review file
         env:
           MARKDOWN_REVIEW_EXISTS_BEFORE: ${{ steps.markdown-review.outputs.exists_before }}
