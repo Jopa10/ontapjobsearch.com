@@ -38,5 +38,5 @@ SELECTED,North East,Procurement Administrator,Stockton-on-tees,£28000 - £32000
 SELECTED,North East,Logistics Administrator,Peterlee,£24800 - £26000 per year,,,68464a14-68f0-47e5-bfc9-b36dab918d6d
 SELECTED,North East,Data Administrator,Houghton Le Spring,£14 - £14.82 per hour,,,f029146d-6f9d-4f7b-8fe8-af9a8afebf31
 SELECTED,North East,HR Administrator,Gateshead,,,,64676a78-6614-48e6-8201-cfb30225d582
-SELECTED,North East,Support/Housing Management Coordinator,Durham,£30000 per year,,,107473649
+DROPPED,North East,Support/Housing Management Coordinator,Durham,£30000 per year,FORCE_EXCLUDE,,107473649
 SELECTED,North East,Administrator,Durham,£12.71 per hour,,,658d75d6-9754-4a5c-844b-cbe5b5aa62fb

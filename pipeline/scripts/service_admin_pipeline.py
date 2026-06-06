@@ -990,7 +990,10 @@ def _markdown_review_action_rows(text: str) -> list[dict[str, str]]:
         summary_decision = summary_parts[0].upper() if summary_parts else ""
         selection_status = ""
         decision = norm(block.get("decision"))
-        if summary_decision == "SELECTED" or decision.upper() == "SELECTED":
+        if action == "exclude":
+            decision = "DROPPED"
+            selection_status = ""
+        elif summary_decision == "SELECTED" or decision.upper() == "SELECTED":
             selection_status = "SELECTED"
             decision = "SELECTED"
         elif summary_decision.startswith("POSS") or decision.upper().startswith("POSS"):
@@ -1043,8 +1046,15 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
 
         action = norm(block.get("action")).strip().lower()
         if action == "exclude":
+            # Excluded rows may still have a SELECTED summary because the review
+            # block preserves the original context. The action is the editorial
+            # source of truth, so never carry these rows into the retained
+            # previously-selected set for any combined output region.
             overrides[job_id] = "FORCE_EXCLUDE"
-        elif action == "select":
+            selections.discard(job_id)
+            previously_selected.discard(job_id)
+            continue
+        if action == "select":
             selections.add(job_id)
 
         decision = norm(block.get("decision")).upper()
@@ -1101,10 +1111,16 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
         if not job_id:
             continue
 
+        override = ""
         if has_manual_override:
             override = normalise_manual_override(row.get("manual_override"))
             if override:
                 overrides[job_id] = override
+
+        if override == "FORCE_EXCLUDE":
+            selections.discard(job_id)
+            previously_selected.discard(job_id)
+            continue
 
         if has_manual_select and _truthy_manual_marker(row.get("manual_select")):
             selections.add(job_id)

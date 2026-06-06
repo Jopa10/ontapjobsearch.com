@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,2594
-total rows included,31
-total rows dropped,2557
+total rows included,30
+total rows dropped,2558
 title classification count - HIGH_CONFIDENCE,442
 title classification count - ELASTIC_FIT,53
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -24,10 +24,10 @@ other elastic count - South Yorkshire,0
 total rows output - South Yorkshire,10
 job_id included - South Yorkshire,ea50cbe2-95aa-4843-b8a6-65abc31b3a4b; 8103dc81-7eb0-49b6-a7e9-a256887b1bf2; 6d141a8a-f55b-4e99-b930-7e97a4e0c326; 91fd812e-ec05-476c-806f-6b731e55f897; 107408974; 107425594; 21aeef82-18d7-4324-9b40-4aab49628831; f0f8c4a2-154d-4c95-aa8d-2110b6a98335; d1116cfc-c296-4c03-9f35-29c042182837; 107216327
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 10 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - North East,10
+selection message - North East,North East manual rerun: 9 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 9/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - North East,9
 high confidence count - North East,9
 anchor elastic count - North East,0
-other elastic count - North East,1
-total rows output - North East,10
-job_id included - North East,6ad52841-1d56-4e10-9964-0771b24f7f3a; c63ab4b8-73f3-4a7e-b19f-b818de2f27e3; c084becf-d051-48da-8a5e-607cdd02b525; 658d75d6-9754-4a5c-844b-cbe5b5aa62fb; 7445d2f0-123f-44c6-9c48-3b8dcd8b18ee; e02d9172-7e6c-4498-8665-eea4047e71b3; 68464a14-68f0-47e5-bfc9-b36dab918d6d; f029146d-6f9d-4f7b-8fe8-af9a8afebf31; 64676a78-6614-48e6-8201-cfb30225d582; 107473649
+other elastic count - North East,0
+total rows output - North East,9
+job_id included - North East,6ad52841-1d56-4e10-9964-0771b24f7f3a; c63ab4b8-73f3-4a7e-b19f-b818de2f27e3; c084becf-d051-48da-8a5e-607cdd02b525; 658d75d6-9754-4a5c-844b-cbe5b5aa62fb; 7445d2f0-123f-44c6-9c48-3b8dcd8b18ee; e02d9172-7e6c-4498-8665-eea4047e71b3; 68464a14-68f0-47e5-bfc9-b36dab918d6d; f029146d-6f9d-4f7b-8fe8-af9a8afebf31; 64676a78-6614-48e6-8201-cfb30225d582
