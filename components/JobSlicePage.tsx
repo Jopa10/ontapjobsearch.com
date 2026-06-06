@@ -42,6 +42,8 @@ type JobSlicePageProps = {
   latestUpdate: string;
   anchorTown?: string;
   introText?: string;
+  emptyStateTitle?: string;
+  emptyStateMessage?: string;
   trainingHeading?: string;
   trainingSubheading?: string;
   trainingItems?: TrainingItem[];
@@ -222,6 +224,8 @@ export default function JobSlicePage({
   latestUpdate,
   anchorTown,
   introText,
+  emptyStateTitle,
+  emptyStateMessage,
   trainingHeading,
   trainingSubheading,
   trainingItems,
@@ -232,7 +236,7 @@ export default function JobSlicePage({
   return (
     <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
       <div className={styles.layout}>
-                <aside className={styles.sidebar}>
+        <aside className={styles.sidebar}>
           <div style={{ fontWeight: 800, marginBottom: 6 }}>
             {trainingHeading || "Get started faster"}
           </div>
@@ -268,7 +272,7 @@ export default function JobSlicePage({
           </div>
         </aside>
 
-                <div className={styles.content}>
+        <div className={styles.content}>
           <div style={{ marginBottom: 14 }}>
             <h1 style={{ fontSize: 28, fontWeight: 800, marginBottom: 6 }}>
               {title}
@@ -291,7 +295,20 @@ export default function JobSlicePage({
                   color: "#555",
                 }}
               >
-                No current jobs available for this slice
+                <div
+                  style={{
+                    fontWeight: 700,
+                    marginBottom: emptyStateMessage ? 6 : 0,
+                  }}
+                >
+                  {emptyStateTitle || "No current jobs available for this slice"}
+                </div>
+
+                {emptyStateMessage ? (
+                  <div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
+                    {emptyStateMessage}
+                  </div>
+                ) : null}
               </div>
             ) : null}
 
