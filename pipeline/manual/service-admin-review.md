@@ -34,6 +34,18 @@ job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
 ---
 
 ---
+action: select
+SELECTED | West Yorkshire | Leeds | £12.93 per hour | Administrator
+job_id: 82ae9e09-447e-4f9b-ae9b-68474504990f
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Cleckheaton | £26000 - £32000 per year | Client Services Administrator
+job_id: 201e220e-aa0a-422b-b756-19a810b1c8ec
+---
+
+---
 action:
 SELECTED | West Yorkshire | Huddersfield | £13.21 - £14.29 per hour | Temporary HR Administrator
 job_id: c2ff7338-f6fc-4e80-8338-c2a36ad5646c
@@ -96,21 +108,9 @@ job_id: cf581ee7-d839-4dbd-b106-bf8455d4dc67
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £12.93 per hour | Administrator
-job_id: 82ae9e09-447e-4f9b-ae9b-68474504990f
----
-
----
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £32000 per year | IFA Administrator
 job_id: 9c6af44b-86cc-43f2-80c8-e88ab4637722
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Cleckheaton | £26000 - £32000 per year | Client Services Administrator
-job_id: 201e220e-aa0a-422b-b756-19a810b1c8ec
 ---
 
 ---
@@ -137,6 +137,18 @@ job_id: ea50cbe2-95aa-4843-b8a6-65abc31b3a4b
 action: select
 SELECTED | South Yorkshire | Sheffield | £26000 - £32000 per year | Client Services Administrator
 job_id: 8103dc81-7eb0-49b6-a7e9-a256887b1bf2
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Barnsley | £24500 - £25750 per year | Administrator
+job_id: d1116cfc-c296-4c03-9f35-29c042182837
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
+job_id: 6d141a8a-f55b-4e99-b930-7e97a4e0c326
 ---
 
 ---
@@ -184,19 +196,7 @@ job_id: 57553ef6-2531-48f3-85fd-ec14100fe93e
 ---
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
-job_id: 6d141a8a-f55b-4e99-b930-7e97a4e0c326
----
-
----
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
 job_id: 54231a53-b17c-47eb-b87a-bb5afe80e3a6
----
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £24500 - £25750 per year | Administrator
-job_id: d1116cfc-c296-4c03-9f35-29c042182837
 ---
