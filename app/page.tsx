@@ -212,7 +212,7 @@ export default function Page() {
       `}</style>
 
       <main data-homepage className="mx-auto max-w-6xl px-6 py-5">
-        <h1 className="mb-2 max-w-3xl text-4xl font-bold tracking-tight">
+        <h1 className="mb-2 max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">
           Admin, office support and customer-service jobs
         </h1>
 
@@ -220,14 +220,14 @@ export default function Page() {
           Current service administrator, office support and customer-service roles across Yorkshire and the North East. Updated daily; apply directly on employer sites.
         </p>
 
-        <section className="mb-4">
+        <section className="mb-5">
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
             Active service administrator jobs
           </h2>
           <SliceCardGrid cards={serviceAdministratorSlices} />
         </section>
 
-        <section>
+        <section className="mt-6">
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
             Support worker jobs — paused / limited current supply
           </h2>
