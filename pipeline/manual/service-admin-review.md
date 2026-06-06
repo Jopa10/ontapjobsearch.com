@@ -252,7 +252,7 @@ job_id: 64676a78-6614-48e6-8201-cfb30225d582
 ---
 
 ---
-action:
+action: exclude
 SELECTED | North East | Durham | £30000 per year | Support/Housing Management Coordinator
 job_id: 107473649
 ---
