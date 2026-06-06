@@ -2,6 +2,7 @@ import westYorkshireSupportWorkerJobs from './west-yorkshire/support-worker.json
 import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.json';
 import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
 import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
+import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
 
 type Job = {
   title?: string;
@@ -39,7 +40,9 @@ function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
       </p>
 
       {job.salary_text && (
-        <p className="mb-1 text-xs font-semibold leading-snug">{formatSalaryText(job.salary_text)}</p>
+        <p className="mb-1 text-xs font-semibold leading-snug">
+          {formatSalaryText(job.salary_text)}
+        </p>
       )}
 
       <a href={sliceUrl} className="text-xs font-medium text-blue-700 hover:text-blue-900">
@@ -51,14 +54,6 @@ function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
 
 const popularSearches = [
   {
-    label: 'West Yorkshire support worker jobs',
-    href: '/west-yorkshire/support-worker',
-  },
-  {
-    label: 'South Yorkshire support worker jobs',
-    href: '/south-yorkshire/support-worker',
-  },
-  {
     label: 'West Yorkshire service administrator jobs',
     href: '/west-yorkshire/service-administrator-jobs',
   },
@@ -67,23 +62,37 @@ const popularSearches = [
     href: '/south-yorkshire/service-administrator-jobs',
   },
   {
+    label: 'North East service administrator jobs',
+    href: '/north-east/service-administrator-jobs',
+  },
+  {
+    label: 'West Yorkshire support worker jobs',
+    href: '/west-yorkshire/support-worker',
+  },
+  {
+    label: 'South Yorkshire support worker jobs',
+    href: '/south-yorkshire/support-worker',
+  },
+  {
     label: 'Browse all jobs',
-    href: '/jobs/all',
+    href: '/browse-jobs',
   },
 ];
 
 const supportWorkerSlices: SliceCard[] = [
   {
     title: 'West Yorkshire Support Worker Jobs',
-    intro: 'Current Leeds and West Yorkshire support worker roles, updated daily.',
-    ctaText: 'View West Yorkshire jobs →',
+    intro:
+      'Paused / limited current supply while suitable support-worker roles are low in West Yorkshire.',
+    ctaText: 'Check West Yorkshire page →',
     sliceUrl: '/west-yorkshire/support-worker',
     jobs: westYorkshireSupportWorkerJobs,
   },
   {
     title: 'South Yorkshire Support Worker Jobs',
-    intro: 'Current Sheffield and South Yorkshire support worker roles, updated daily.',
-    ctaText: 'View South Yorkshire jobs →',
+    intro:
+      'Paused / limited current supply while suitable support-worker roles are low in South Yorkshire.',
+    ctaText: 'Check South Yorkshire page →',
     sliceUrl: '/south-yorkshire/support-worker',
     jobs: southYorkshireSupportWorkerJobs,
   },
@@ -106,14 +115,17 @@ const serviceAdministratorSlices: SliceCard[] = [
     sliceUrl: '/south-yorkshire/service-administrator-jobs',
     jobs: southYorkshireServiceAdministratorJobs,
   },
+  {
+    title: 'North East Service Administrator Jobs',
+    intro:
+      'Current service administrator, customer service administrator and office support roles across Newcastle and the North East.',
+    ctaText: 'View North East jobs →',
+    sliceUrl: '/north-east/service-administrator-jobs',
+    jobs: northEastServiceAdministratorJobs,
+  },
 ];
 
-const futureSupportWorkerRegions = [
-  'Lancashire',
-  'Greater Manchester',
-  'Cumbria',
-  'North East',
-];
+const futureSupportWorkerRegions = ['Lancashire', 'Greater Manchester', 'Cumbria', 'North East'];
 
 function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
   return (
@@ -200,24 +212,32 @@ export default function Page() {
       `}</style>
 
       <main data-homepage className="mx-auto max-w-6xl px-6 py-5">
-        <h1 className="mb-2 max-w-3xl text-4xl font-bold tracking-tight">Yorkshire jobs by role and region</h1>
+        <h1 className="mb-2 max-w-3xl text-4xl font-bold tracking-tight">
+          Service administrator, admin and customer-service jobs
+        </h1>
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
-          Live job slices across Yorkshire, updated daily. Apply directly on employer sites.
+          Current service administrator, office admin and customer-service job slices, updated
+          daily. Apply directly on employer sites.
         </p>
 
         <section className="mb-4">
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">Support worker jobs</h2>
-          <SliceCardGrid cards={supportWorkerSlices} />
-
-          <p className="mt-2 text-xs text-gray-500">
-            Next regions planned: {futureSupportWorkerRegions.join(', ')}.
-          </p>
+          <h2 className="mb-2 text-2xl font-semibold tracking-tight">
+            Active service administrator jobs
+          </h2>
+          <SliceCardGrid cards={serviceAdministratorSlices} />
         </section>
 
         <section>
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">Service administrator jobs</h2>
-          <SliceCardGrid cards={serviceAdministratorSlices} />
+          <h2 className="mb-2 text-2xl font-semibold tracking-tight">
+            Support worker jobs — paused / limited current supply
+          </h2>
+          <SliceCardGrid cards={supportWorkerSlices} />
+
+          <p className="mt-2 text-xs text-gray-500">
+            Support-worker pages are still available, but current supply is limited. Next regions
+            planned: {futureSupportWorkerRegions.join(', ')}.
+          </p>
         </section>
 
         <section className="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-3">

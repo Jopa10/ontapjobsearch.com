@@ -38,7 +38,7 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/jobs/search/all" className="text-sm hover:text-white transition-colors">
+                                <Link href="/browse-jobs" className="text-sm hover:text-white transition-colors">
                                     Browse Jobs
                                 </Link>
                             </li>
