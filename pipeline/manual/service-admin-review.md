@@ -52,7 +52,7 @@ job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
 job_id: 107426616
 ---
@@ -70,7 +70,7 @@ job_id: 107241070
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | West Yorkshire | Bradford |  | PMO Programme Coordinator
 job_id: 107459020
 ---
@@ -90,7 +90,7 @@ job_id: 9c6af44b-86cc-43f2-80c8-e88ab4637722
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £30000 per year | Administration and Operations Coordinator
 job_id: 107479493
 ---
@@ -152,7 +152,7 @@ job_id: 107216327
 ---
 
 ---
-action:
+action: exclude
 SELECTED | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessment Coordinator
 job_id: 107425594
 ---
@@ -160,7 +160,7 @@ job_id: 107425594
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 per year | Part-Time Administrator
 job_id: 798ae092-76de-45d9-8fe3-65d83df13c1c
 ---
