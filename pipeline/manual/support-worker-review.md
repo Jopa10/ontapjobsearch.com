@@ -29,6 +29,18 @@ POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Car
 job_id: 107464615
 ---
 
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107220388
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £15 per hour (inclusive of holiday pay) | Complex Care Assistant
+job_id: 107220389
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 _No jobs in this group._

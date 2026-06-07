@@ -10,30 +10,6 @@ Edit only the `action:` line in each block:
 ## WEST YORKSHIRE — SELECTED
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Wetherby | £35000 per year | Financial Planning Administrator
-job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Leeds | £30000 - £380000 per year | Client Services Administrator - Exclusive to Taylor James
-job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Leeds |  | Group Regulatory Administrator
-job_id: 107417429
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
-job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
----
-
----
 action: select
 SELECTED | West Yorkshire | Leeds | £12.93 per hour | Administrator
 job_id: 82ae9e09-447e-4f9b-ae9b-68474504990f
@@ -249,12 +225,6 @@ job_id: f029146d-6f9d-4f7b-8fe8-af9a8afebf31
 action:
 SELECTED | North East | Gateshead |  | HR Administrator
 job_id: 64676a78-6614-48e6-8201-cfb30225d582
----
-
----
-action: exclude
-SELECTED | North East | Durham | £30000 per year | Support/Housing Management Coordinator
-job_id: 107473649
 ---
 
 ---

@@ -1,8 +1,4 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
-SELECTED,West Yorkshire,Financial Planning Administrator,Wetherby,£35000 per year,FORCE_EXCLUDE,,cf0b5837-f853-4c9b-a997-8c383cb51196
-SELECTED,West Yorkshire,Client Services Administrator - Exclusive to Taylor James,Leeds,£30000 - £380000 per year,FORCE_EXCLUDE,,e98555cf-7bd1-4ecf-a374-41a09af70cef
-SELECTED,West Yorkshire,Group Regulatory Administrator,Leeds,,FORCE_EXCLUDE,,107417429
-SELECTED,West Yorkshire,IFA Administrator,Wetherby,£28000 - £37000 per year,FORCE_EXCLUDE,,7bf81ff4-da16-4cb4-b844-abc17279a687
 SELECTED,West Yorkshire,Administrator,Leeds,£12.93 per hour,,SELECT,82ae9e09-447e-4f9b-ae9b-68474504990f
 SELECTED,West Yorkshire,Client Services Administrator,Cleckheaton,£26000 - £32000 per year,,SELECT,201e220e-aa0a-422b-b756-19a810b1c8ec
 SELECTED,West Yorkshire,Temporary HR Administrator,Huddersfield,£13.21 - £14.29 per hour,,,c2ff7338-f6fc-4e80-8338-c2a36ad5646c
@@ -38,5 +34,4 @@ SELECTED,North East,Procurement Administrator,Stockton-on-tees,£28000 - £32000
 SELECTED,North East,Logistics Administrator,Peterlee,£24800 - £26000 per year,,,68464a14-68f0-47e5-bfc9-b36dab918d6d
 SELECTED,North East,Data Administrator,Houghton Le Spring,£14 - £14.82 per hour,,,f029146d-6f9d-4f7b-8fe8-af9a8afebf31
 SELECTED,North East,HR Administrator,Gateshead,,,,64676a78-6614-48e6-8201-cfb30225d582
-DROPPED,North East,Support/Housing Management Coordinator,Durham,£30000 per year,FORCE_EXCLUDE,,107473649
 SELECTED,North East,Administrator,Durham,£12.71 per hour,,,658d75d6-9754-4a5c-844b-cbe5b5aa62fb
