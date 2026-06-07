@@ -52,12 +52,6 @@ job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
-job_id: 107426616
----
-
----
 action: select
 SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
 job_id: 107409218
@@ -70,9 +64,9 @@ job_id: 107241070
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Bradford |  | PMO Programme Coordinator
-job_id: 107459020
+action: select
+SELECTED | West Yorkshire | Wetherby | £30000 per year | Administration and Operations Coordinator
+job_id: 107479493
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -90,12 +84,36 @@ job_id: 9c6af44b-86cc-43f2-80c8-e88ab4637722
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £30000 per year | Administration and Operations Coordinator
-job_id: 107479493
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £30000 - £380000 per year | Client Services Administrator - Exclusive to Taylor James
+job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Group Regulatory Administrator
+job_id: 107417429
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £35000 per year | Financial Planning Administrator
+job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
+job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £28000 per year | Part-Time Administrator
+job_id: 798ae092-76de-45d9-8fe3-65d83df13c1c
+---
 
 ---
 action: select
@@ -151,19 +169,7 @@ SELECTED | South Yorkshire | Doncaster |  | Contract Operations Administrator
 job_id: 107216327
 ---
 
----
-action: exclude
-SELECTED | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessment Coordinator
-job_id: 107425594
----
-
 ## SOUTH YORKSHIRE — POSSIBLES
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 per year | Part-Time Administrator
-job_id: 798ae092-76de-45d9-8fe3-65d83df13c1c
----
 
 ---
 action:
@@ -235,4 +241,8 @@ job_id: 658d75d6-9754-4a5c-844b-cbe5b5aa62fb
 
 ## NORTH EAST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH EAST | North East | Durham | £30000 per year | Support/Housing Management Coordinator
+job_id: 107473649
+---
