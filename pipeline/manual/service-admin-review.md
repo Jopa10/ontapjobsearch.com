@@ -245,13 +245,13 @@ SELECTED | North East | Durham | £12.71 per hour | Administrator
 job_id: 658d75d6-9754-4a5c-844b-cbe5b5aa62fb
 ---
 
-## NORTH EAST — POSSIBLES
-
 ---
 action: select
-POSS - NORTH EAST | North East | South Shields | £13.5 per hour | Administrator
+SELECTED | North East | South Shields | £13.5 per hour | Administrator
 job_id: c8e62c68-317f-4c17-8b92-017a706f566a
 ---
+
+## NORTH EAST — POSSIBLES
 
 ---
 action:
