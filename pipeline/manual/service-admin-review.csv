@@ -1,4 +1,5 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
+SELECTED,West Yorkshire,Administration and Operations Coordinator,Wetherby,£30000 per year,,SELECT,107479493
 SELECTED,West Yorkshire,Administrator,Leeds,£12.93 per hour,,SELECT,82ae9e09-447e-4f9b-ae9b-68474504990f
 SELECTED,West Yorkshire,Client Services Administrator,Cleckheaton,£26000 - £32000 per year,,SELECT,201e220e-aa0a-422b-b756-19a810b1c8ec
 SELECTED,West Yorkshire,Temporary HR Administrator,Huddersfield,£13.21 - £14.29 per hour,,,c2ff7338-f6fc-4e80-8338-c2a36ad5646c
@@ -8,7 +9,6 @@ SELECTED,West Yorkshire,Service Administrator,Dewsbury,£28000 - £30000 per yea
 SELECTED,West Yorkshire,Administrator,Dewsbury,£28000 - £30000 per year,,SELECT,ba59e49d-ab11-4637-ae56-7d0d787a942c
 SELECTED,West Yorkshire,Business Systems & Data Coordinator,Normanton,,,SELECT,107409218
 SELECTED,West Yorkshire,Marketing & Office Support Coordinator,Leeds,,,SELECT,107241070
-SELECTED,West Yorkshire,Administration and Operations Coordinator,Wetherby,£30000 per year,,SELECT,107479493
 POSS - WEST YORKSHIRE,West Yorkshire,Senior Pension Projects Administrator,Leeds,£30000 - £40000 per year,,,cf581ee7-d839-4dbd-b106-bf8455d4dc67
 POSS - WEST YORKSHIRE,West Yorkshire,IFA Administrator,Leeds,£25000 - £32000 per year,,,9c6af44b-86cc-43f2-80c8-e88ab4637722
 POSS - WEST YORKSHIRE,West Yorkshire,Client Services Administrator - Exclusive to Taylor James,Leeds,£30000 - £380000 per year,,,e98555cf-7bd1-4ecf-a374-41a09af70cef
@@ -27,6 +27,7 @@ SELECTED,South Yorkshire,Assistant Technical Co-ordinator / Chemist,Sheffield,£
 SELECTED,South Yorkshire,Contract Operations Administrator,Doncaster,,,,107216327
 POSS - SOUTH YORKSHIRE,South Yorkshire,HR Administrator,Sheffield,£110 - £130 per daily,,,57553ef6-2531-48f3-85fd-ec14100fe93e
 POSS - SOUTH YORKSHIRE,South Yorkshire,Pensions Administrator - Sheffield,Sheffield,£12.79 per hour,,,54231a53-b17c-47eb-b87a-bb5afe80e3a6
+POSS - SOUTH YORKSHIRE,South Yorkshire,Referral & Assessment Coordinator,Sheffield,"£20,982 per annum",,,107425594
 SELECTED,North East,Service Administrator,South Shields,£13.47 per hour,,,6ad52841-1d56-4e10-9964-0771b24f7f3a
 SELECTED,North East,Office Administrator,Middlesbrough,£13 - £14.5 per hour,,,c63ab4b8-73f3-4a7e-b19f-b818de2f27e3
 SELECTED,North East,Administrator,Durham,£13.48 per hour,,,c084becf-d051-48da-8a5e-607cdd02b525
@@ -36,4 +37,5 @@ SELECTED,North East,Logistics Administrator,Peterlee,£24800 - £26000 per year,
 SELECTED,North East,Data Administrator,Houghton Le Spring,£14 - £14.82 per hour,,,f029146d-6f9d-4f7b-8fe8-af9a8afebf31
 SELECTED,North East,HR Administrator,Gateshead,,,,64676a78-6614-48e6-8201-cfb30225d582
 SELECTED,North East,Administrator,Durham,£12.71 per hour,,,658d75d6-9754-4a5c-844b-cbe5b5aa62fb
+POSS - NORTH EAST,North East,Administrator,South Shields,£13.5 per hour,,,c8e62c68-317f-4c17-8b92-017a706f566a
 POSS - NORTH EAST,North East,Support/Housing Management Coordinator,Durham,£30000 per year,,,107473649
