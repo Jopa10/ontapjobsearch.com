@@ -64,7 +64,7 @@ job_id: 107409218
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | West Yorkshire | Wetherby | £30000 per year | Administration and Operations Coordinator
 job_id: 107479493
 ---
@@ -102,7 +102,7 @@ job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £22000 - £27000 per year | Administrator
 job_id: e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278
 ---
@@ -116,13 +116,13 @@ job_id: 798ae092-76de-45d9-8fe3-65d83df13c1c
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
 job_id: 21aeef82-18d7-4324-9b40-4aab49628831
 ---
 
 ---
-action:
+action: exclude
 SELECTED | South Yorkshire | Sheffield | £28000 - £34000 per year | IFA Administrator
 job_id: ea50cbe2-95aa-4843-b8a6-65abc31b3a4b
 ---
@@ -152,13 +152,13 @@ job_id: f0f8c4a2-154d-4c95-aa8d-2110b6a98335
 ---
 
 ---
-action:
+action: 
 SELECTED | South Yorkshire | Sheffield | £28000 per year | Accounts Administrator (Part-time)
 job_id: 91fd812e-ec05-476c-806f-6b731e55f897
 ---
 
 ---
-action:
+action: exclude
 SELECTED | South Yorkshire | Sheffield | £30000 per year | Assistant Technical Co-ordinator / Chemist
 job_id: 107408974
 ---
@@ -184,7 +184,7 @@ job_id: 54231a53-b17c-47eb-b87a-bb5afe80e3a6
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £13 - £15 per hour | Data Administrator
 job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
 ---
@@ -196,13 +196,13 @@ job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £25000 per year | Administrator
 job_id: 98178ed7-801d-49d9-86c1-15def8995e52
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £26000 - £28000 per year | Commerical Office Administrator
 job_id: c1ef9a4d-533d-4ae8-b92a-041499009e4d
 ---
@@ -252,7 +252,7 @@ job_id: f029146d-6f9d-4f7b-8fe8-af9a8afebf31
 ---
 
 ---
-action:
+action: exclude
 SELECTED | North East | Gateshead |  | HR Administrator
 job_id: 64676a78-6614-48e6-8201-cfb30225d582
 ---
@@ -302,7 +302,7 @@ job_id: 18c4792b-a245-4d87-aca3-a7276088aee2
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Gateshead | £24000 per year | Administrator
 job_id: f48b0671-4523-4493-aefe-f69191846fb8
 ---
