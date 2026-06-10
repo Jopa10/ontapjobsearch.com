@@ -69,6 +69,12 @@ SELECTED | West Yorkshire | Huddersfield | £22000 - £27000 per year | Administ
 job_id: e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278
 ---
 
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £26897 per year | Administrator
+job_id: b6127a90-c08c-4010-9b17-081b893c6daa
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -90,12 +96,6 @@ job_id: 107417429
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £26897 per year | Administrator
-job_id: b6127a90-c08c-4010-9b17-081b893c6daa
----
-
----
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £35000 per year | Financial Planning Administrator
 job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
@@ -105,6 +105,12 @@ job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
 job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £22000 - £27000 per year | Office Administrator
+job_id: c13fb10e-5bac-4af6-b182-74e1c4e407ca
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -169,6 +175,12 @@ SELECTED | South Yorkshire | Sheffield | £25000 per year | Administrator
 job_id: 98178ed7-801d-49d9-86c1-15def8995e52
 ---
 
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessment Coordinator
+job_id: 107425594
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -199,12 +211,6 @@ job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
 job_id: 21aeef82-18d7-4324-9b40-4aab49628831
----
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessment Coordinator
-job_id: 107425594
 ---
 
 ## NORTH EAST — SELECTED
@@ -269,13 +275,13 @@ SELECTED | North East | South Shields | £13.5 per hour | Administrator
 job_id: c8e62c68-317f-4c17-8b92-017a706f566a
 ---
 
-## NORTH EAST — POSSIBLES
-
 ---
 action: select
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £25000 - £30000 per year | Internal Salesperson (Administrator)
+SELECTED | North East | Newcastle Upon Tyne | £25000 - £30000 per year | Internal Salesperson (Administrator)
 job_id: 94af153b-52b5-44ea-96e7-344f451c008b
 ---
+
+## NORTH EAST — POSSIBLES
 
 ---
 action:
