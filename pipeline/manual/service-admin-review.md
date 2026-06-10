@@ -90,7 +90,7 @@ job_id: 107417429
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £26897 per year | Administrator
 job_id: b6127a90-c08c-4010-9b17-081b893c6daa
 ---
@@ -202,7 +202,7 @@ job_id: 21aeef82-18d7-4324-9b40-4aab49628831
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessment Coordinator
 job_id: 107425594
 ---
@@ -272,7 +272,7 @@ job_id: c8e62c68-317f-4c17-8b92-017a706f566a
 ## NORTH EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £25000 - £30000 per year | Internal Salesperson (Administrator)
 job_id: 94af153b-52b5-44ea-96e7-344f451c008b
 ---
