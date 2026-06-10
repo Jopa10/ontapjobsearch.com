@@ -1940,6 +1940,95 @@ def write_manual_review_markdown(
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def _manual_protected_selected_ids(manual_decisions: ManualDecisionState) -> set[str]:
+    """Selected review ids that must either be output or explicitly unavailable."""
+    excluded_ids = {
+        job_id for job_id, override in manual_decisions.overrides.items()
+        if override == "FORCE_EXCLUDE"
+    }
+    return (manual_decisions.selections | manual_decisions.previously_selected) - excluded_ids
+
+
+def _load_previous_output_items() -> dict[str, dict[str, Any]]:
+    """Return full job records from existing admin/service output JSON files by job_id."""
+    previous_items: dict[str, dict[str, Any]] = {}
+    for region, filename in OUTPUT_FILES.items():
+        path = OUTPUT_DIR / filename
+        if not path.exists():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            raise SystemExit(f"STOP: could not read previous {region} output JSON at {path}: {exc}") from exc
+        if not isinstance(payload, list):
+            raise SystemExit(f"STOP: previous {region} output JSON at {path} is not a list")
+        for item in payload:
+            if not isinstance(item, dict):
+                continue
+            job_id = norm(item.get("job_id"))
+            if not job_id:
+                continue
+            carried = dict(item)
+            carried_region = norm(carried.get("region"))
+            carried["region"] = COMBINED_OUTPUT_REGION_MAP.get(carried_region, carried_region) or region
+            previous_items[job_id] = carried
+    return previous_items
+
+
+def carry_forward_missing_manual_selected_jobs(
+    outputs: dict[str, list[dict[str, Any]]],
+    manual_decisions: ManualDecisionState,
+) -> None:
+    """Keep manually selected review rows from silently disappearing when absent from JobG8 input."""
+    if not manual_decisions.rerun_mode:
+        return
+
+    protected_ids = _manual_protected_selected_ids(manual_decisions)
+    if not protected_ids:
+        return
+
+    current_ids = {
+        norm(item.get("job_id"))
+        for region_items in outputs.values()
+        for item in region_items
+        if norm(item.get("job_id"))
+    }
+    missing_ids = sorted(protected_ids - current_ids)
+    if not missing_ids:
+        return
+
+    previous_items = _load_previous_output_items()
+    unavailable_ids: list[str] = []
+    for job_id in missing_ids:
+        previous_item = previous_items.get(job_id)
+        if previous_item is None:
+            unavailable_ids.append(job_id)
+            continue
+
+        previous_region = norm(previous_item.get("region"))
+        region = COMBINED_OUTPUT_REGION_MAP.get(previous_region, previous_region)
+        if region not in OUTPUT_FILES:
+            unavailable_ids.append(job_id)
+            continue
+
+        carried_item = clean_record_strings(dict(previous_item))
+        carried_item.update({
+            "_excel_row": 999999,
+            "_manual_override": manual_decisions.overrides.get(job_id, ""),
+            "_manual_select": "1" if job_id in manual_decisions.selections else "",
+            "_title_priority": 0,
+            "_title_classification": "HIGH_CONFIDENCE",
+        })
+        outputs[region].append(carried_item)
+
+    if unavailable_ids:
+        raise SystemExit(
+            "STOP: selected manual-review job(s) cannot be written because full job data is missing "
+            "from the current JobG8 input and previous admin/service output JSON: "
+            + ", ".join(unavailable_ids)
+        )
+
+
 def write_outputs(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
@@ -1951,6 +2040,8 @@ def write_outputs(
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
 
+    carry_forward_missing_manual_selected_jobs(outputs, manual_decisions)
+
     # IMPORTANT: cap first, then write JSON and validation counts from the capped output.
     outputs, region_status = anchor_sort_and_cap(
         outputs,
@@ -1958,6 +2049,21 @@ def write_outputs(
         manual_rerun_mode=manual_decisions.rerun_mode,
         previously_selected_ids=manual_decisions.previously_selected,
     )
+
+    if manual_decisions.rerun_mode:
+        protected_ids = _manual_protected_selected_ids(manual_decisions)
+        output_ids = {
+            norm(item.get("job_id"))
+            for region_items in outputs.values()
+            for item in region_items
+            if norm(item.get("job_id"))
+        }
+        missing_selected_ids = sorted(protected_ids - output_ids)
+        if missing_selected_ids:
+            raise SystemExit(
+                "STOP: selected manual-review job(s) were available but not present after capping: "
+                + ", ".join(missing_selected_ids)
+            )
 
     for region, filename in OUTPUT_FILES.items():
         path = OUTPUT_DIR / filename
