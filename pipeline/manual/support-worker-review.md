@@ -46,3 +46,9 @@ action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.45 per hour | Rehabilitation Support Worker
 job_id: 53e91a96-c2a6-4c9a-aadf-77fc639b874f
 ---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Doncaster | £28032 per year | Floating Support Worker
+job_id: 4b89a8be-e743-4a76-8fa4-ab7a2deed29b
+---
