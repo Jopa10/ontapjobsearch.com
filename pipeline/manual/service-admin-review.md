@@ -116,13 +116,13 @@ job_id: c13fb10e-5bac-4af6-b182-74e1c4e407ca
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
-action: select
+action: exclude
 SELECTED | South Yorkshire | Sheffield | £28000 per year | Part-Time Administrator
 job_id: 798ae092-76de-45d9-8fe3-65d83df13c1c
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | South Yorkshire | Sheffield | £26000 - £32000 per year | Client Services Administrator
 job_id: 8103dc81-7eb0-49b6-a7e9-a256887b1bf2
 ---
@@ -216,7 +216,7 @@ job_id: 21aeef82-18d7-4324-9b40-4aab49628831
 ## NORTH EAST — SELECTED
 
 ---
-action: select
+action: exclude
 SELECTED | North East | Gateshead | £24000 per year | Administrator
 job_id: f48b0671-4523-4493-aefe-f69191846fb8
 ---
