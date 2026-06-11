@@ -17,6 +17,12 @@ job_id: 82ae9e09-447e-4f9b-ae9b-68474504990f
 
 ---
 action: select
+SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
+job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
+---
+
+---
+action: select
 SELECTED | West Yorkshire | Cleckheaton | £26000 - £32000 per year | Client Services Administrator
 job_id: 201e220e-aa0a-422b-b756-19a810b1c8ec
 ---
@@ -40,24 +46,6 @@ job_id: a5f2c907-c09c-4242-8e04-1d01258d4eb4
 ---
 
 ---
-action:
-SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Service Administrator
-job_id: e25924d0-028f-4fc1-b9cc-6305349412d5
----
-
----
-action: select
-SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
-job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
----
-
----
-action: select
-SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
-job_id: 107409218
----
-
----
 action: select
 SELECTED | West Yorkshire | Leeds |  | Marketing & Office Support Coordinator
 job_id: 107241070
@@ -73,6 +61,12 @@ job_id: e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278
 action: select
 SELECTED | West Yorkshire | Leeds | £26897 per year | Administrator
 job_id: b6127a90-c08c-4010-9b17-081b893c6daa
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
+job_id: 107409218
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -91,6 +85,18 @@ job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £32000 per year | Finance Administrator
+job_id: 89392945-7f0b-4ec1-992c-2c059c328f81
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £32000 per year | Financial Planning Administrator
+job_id: 16ba2d14-bb19-4608-b959-c8b095d8086e
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Group Regulatory Administrator
 job_id: 107417429
 ---
@@ -99,18 +105,6 @@ job_id: 107417429
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £35000 per year | Financial Planning Administrator
 job_id: cf0b5837-f853-4c9b-a997-8c383cb51196
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £37000 per year | IFA Administrator
-job_id: 7bf81ff4-da16-4cb4-b844-abc17279a687
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £22000 - £27000 per year | Office Administrator
-job_id: c13fb10e-5bac-4af6-b182-74e1c4e407ca
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -125,6 +119,12 @@ job_id: d1116cfc-c296-4c03-9f35-29c042182837
 action: select
 SELECTED | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
 job_id: 6d141a8a-f55b-4e99-b930-7e97a4e0c326
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £13 - £15 per hour | Data Administrator
+job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
 ---
 
 ---
@@ -143,12 +143,6 @@ job_id: 91fd812e-ec05-476c-806f-6b731e55f897
 action:
 SELECTED | South Yorkshire | Doncaster |  | Contract Operations Administrator
 job_id: 107216327
----
-
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £13 - £15 per hour | Data Administrator
-job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
 ---
 
 ---
@@ -185,20 +179,26 @@ job_id: 57553ef6-2531-48f3-85fd-ec14100fe93e
 
 ---
 action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
-job_id: 54231a53-b17c-47eb-b87a-bb5afe80e3a6
----
-
----
-action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
 job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
 
 ---
 action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £27000 - £30000 per year | Financial Planning Administrator
-job_id: 21aeef82-18d7-4324-9b40-4aab49628831
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £13.26 per hour | Business Support Officer / Data Entry
+job_id: 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £40000 - £42000 per year | Senior Pensions Administrator
+job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.71 per hour | Customer Service Administrator
+job_id: 4499ecdd-06ff-4bf1-a429-db09e106917b
 ---
 
 ## NORTH EAST — SELECTED
@@ -225,18 +225,6 @@ job_id: c084becf-d051-48da-8a5e-607cdd02b525
 action:
 SELECTED | North East | Newcastle Upon Tyne | £12.71 per hour | Part-Time Receptionist - Every Friday
 job_id: 7445d2f0-123f-44c6-9c48-3b8dcd8b18ee
----
-
----
-action:
-SELECTED | North East | Stockton-on-tees | £28000 - £32000 per year | Procurement Administrator
-job_id: e02d9172-7e6c-4498-8665-eea4047e71b3
----
-
----
-action:
-SELECTED | North East | Peterlee | £24800 - £26000 per year | Logistics Administrator
-job_id: 68464a14-68f0-47e5-bfc9-b36dab918d6d
 ---
 
 ---
@@ -285,8 +273,8 @@ job_id: 64676a78-6614-48e6-8201-cfb30225d582
 
 ---
 action:
-POSS - NORTH EAST | North East | Darlington | £12.33 per hour | SRA Administrator / Archivist
-job_id: 107501610
+POSS - NORTH EAST | North East | Darlington | £12.9 per hour | Mailroom Administrator
+job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
 ---
 
 ---
