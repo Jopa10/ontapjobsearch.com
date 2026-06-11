@@ -184,7 +184,7 @@ job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £13.26 per hour | Business Support Officer / Data Entry
 job_id: 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31
 ---
@@ -272,7 +272,7 @@ job_id: 64676a78-6614-48e6-8201-cfb30225d582
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Darlington | £12.9 per hour | Mailroom Administrator
 job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
 ---
