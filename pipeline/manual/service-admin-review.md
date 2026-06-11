@@ -163,6 +163,12 @@ SELECTED | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessm
 job_id: 107425594
 ---
 
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £13.26 per hour | Business Support Officer / Data Entry
+job_id: 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -184,12 +190,6 @@ job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £13.26 per hour | Business Support Officer / Data Entry
-job_id: 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31
----
-
----
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £40000 - £42000 per year | Senior Pensions Administrator
 job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
@@ -199,6 +199,12 @@ job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.71 per hour | Customer Service Administrator
 job_id: 4499ecdd-06ff-4bf1-a429-db09e106917b
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £32000 per year | Pensions Administrator
+job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
 ## NORTH EAST — SELECTED
@@ -251,6 +257,12 @@ SELECTED | North East | Newcastle Upon Tyne | £25000 - £30000 per year | Inter
 job_id: 94af153b-52b5-44ea-96e7-344f451c008b
 ---
 
+---
+action: select
+SELECTED | North East | Darlington | £12.9 per hour | Mailroom Administrator
+job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -269,12 +281,6 @@ job_id: 18c4792b-a245-4d87-aca3-a7276088aee2
 action:
 POSS - NORTH EAST | North East | Gateshead |  | HR Administrator
 job_id: 64676a78-6614-48e6-8201-cfb30225d582
----
-
----
-action: select
-POSS - NORTH EAST | North East | Darlington | £12.9 per hour | Mailroom Administrator
-job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
 ---
 
 ---
