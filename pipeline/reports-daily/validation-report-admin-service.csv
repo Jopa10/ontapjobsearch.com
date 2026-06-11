@@ -1,33 +1,33 @@
 ﻿metric,value
 total rows input,2339
-total rows included,22
-total rows dropped,2300
+total rows included,24
+total rows dropped,2299
 title classification count - HIGH_CONFIDENCE,468
 title classification count - ELASTIC_FIT,39
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
 title classification count - HARD_PASS,748
 title classification count - OUT_OF_SCOPE,1084
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 11 previously SELECTED row(s) retained and 7 manual_select row(s) applied; 11/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,19
-high confidence count - West Yorkshire,18
+selection message - West Yorkshire,West Yorkshire manual rerun: 10 previously SELECTED row(s) retained and 7 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - West Yorkshire,18
+high confidence count - West Yorkshire,17
 anchor elastic count - West Yorkshire,0
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,11
-job_id included - West Yorkshire,82ae9e09-447e-4f9b-ae9b-68474504990f; 107241070; b6127a90-c08c-4010-9b17-081b893c6daa; ba59e49d-ab11-4637-ae56-7d0d787a942c; e25924d0-028f-4fc1-b9cc-6305349412d5; a80438d7-f117-4ce7-b9a5-e067c271805d; 201e220e-aa0a-422b-b756-19a810b1c8ec; c2ff7338-f6fc-4e80-8338-c2a36ad5646c; e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278; a5f2c907-c09c-4242-8e04-1d01258d4eb4; 107409218
+total rows output - West Yorkshire,10
+job_id included - West Yorkshire,82ae9e09-447e-4f9b-ae9b-68474504990f; 107241070; b6127a90-c08c-4010-9b17-081b893c6daa; ba59e49d-ab11-4637-ae56-7d0d787a942c; a80438d7-f117-4ce7-b9a5-e067c271805d; 201e220e-aa0a-422b-b756-19a810b1c8ec; c2ff7338-f6fc-4e80-8338-c2a36ad5646c; e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278; a5f2c907-c09c-4242-8e04-1d01258d4eb4; 107409218
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - South Yorkshire,South Yorkshire manual rerun: 9 previously SELECTED row(s) retained and 6 manual_select row(s) applied; 9/12 selected. Cap treated as a maximum; auto backfill disabled.
+selection message - South Yorkshire,South Yorkshire manual rerun: 9 previously SELECTED row(s) retained and 7 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
 credible total - South Yorkshire,17
 high confidence count - South Yorkshire,16
 anchor elastic count - South Yorkshire,1
 other elastic count - South Yorkshire,0
-total rows output - South Yorkshire,9
-job_id included - South Yorkshire,6d141a8a-f55b-4e99-b930-7e97a4e0c326; 8f194adc-4915-49ab-a454-d97355ec47c9; 91fd812e-ec05-476c-806f-6b731e55f897; 98178ed7-801d-49d9-86c1-15def8995e52; 107425594; d1116cfc-c296-4c03-9f35-29c042182837; f0f8c4a2-154d-4c95-aa8d-2110b6a98335; c1ef9a4d-533d-4ae8-b92a-041499009e4d; 107216327
+total rows output - South Yorkshire,10
+job_id included - South Yorkshire,6d141a8a-f55b-4e99-b930-7e97a4e0c326; 8f194adc-4915-49ab-a454-d97355ec47c9; 91fd812e-ec05-476c-806f-6b731e55f897; 98178ed7-801d-49d9-86c1-15def8995e52; 107425594; 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31; d1116cfc-c296-4c03-9f35-29c042182837; f0f8c4a2-154d-4c95-aa8d-2110b6a98335; c1ef9a4d-533d-4ae8-b92a-041499009e4d; 107216327
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 10 previously SELECTED row(s) retained and 2 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - North East,15
-high confidence count - North East,14
+selection message - North East,North East manual rerun: 8 previously SELECTED row(s) retained and 3 manual_select row(s) applied; 9/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - North East,13
+high confidence count - North East,12
 anchor elastic count - North East,0
 other elastic count - North East,1
-total rows output - North East,10
-job_id included - North East,68464a14-68f0-47e5-bfc9-b36dab918d6d; e02d9172-7e6c-4498-8665-eea4047e71b3; 6ad52841-1d56-4e10-9964-0771b24f7f3a; c8e62c68-317f-4c17-8b92-017a706f566a; c63ab4b8-73f3-4a7e-b19f-b818de2f27e3; c084becf-d051-48da-8a5e-607cdd02b525; 658d75d6-9754-4a5c-844b-cbe5b5aa62fb; 7445d2f0-123f-44c6-9c48-3b8dcd8b18ee; 94af153b-52b5-44ea-96e7-344f451c008b; f029146d-6f9d-4f7b-8fe8-af9a8afebf31
+total rows output - North East,9
+job_id included - North East,6ad52841-1d56-4e10-9964-0771b24f7f3a; c8e62c68-317f-4c17-8b92-017a706f566a; c63ab4b8-73f3-4a7e-b19f-b818de2f27e3; c084becf-d051-48da-8a5e-607cdd02b525; 658d75d6-9754-4a5c-844b-cbe5b5aa62fb; 7445d2f0-123f-44c6-9c48-3b8dcd8b18ee; 94af153b-52b5-44ea-96e7-344f451c008b; f029146d-6f9d-4f7b-8fe8-af9a8afebf31; 507c7521-81a4-4ad5-8696-efa1945641b6
