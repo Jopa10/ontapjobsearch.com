@@ -163,6 +163,18 @@ SELECTED | South Yorkshire | Sheffield | £26000 per year | Export/Import Admini
 job_id: 6cfd1576-3aa0-4156-b992-90e9d8fd9e49
 ---
 
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £26000 per year | Billing Administrator
+job_id: d8ec77ff-1d1d-4723-9e52-90343c20eacc
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £26000 - £260000 per year | Logistics Administrator
+job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -190,15 +202,9 @@ job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 per year | Billing Administrator
-job_id: d8ec77ff-1d1d-4723-9e52-90343c20eacc
----
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 - £260000 per year | Logistics Administrator
-job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator
+job_id: 04d36725-d7c8-4940-b556-1e941dd944d1
 ---
 
 ## NORTH EAST — SELECTED
