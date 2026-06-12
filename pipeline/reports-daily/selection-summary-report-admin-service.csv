@@ -1,4 +1,4 @@
 ﻿region,cap,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-West Yorkshire,12,2,1,0,1,6,10,21,Leeds,SCENARIO_MANUAL_RERUN,West Yorkshire manual rerun: 10 previously SELECTED row(s) retained and 7 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
-South Yorkshire,12,2,1,1,0,6,10,19,Sheffield,SCENARIO_MANUAL_RERUN,South Yorkshire manual rerun: 10 previously SELECTED row(s) retained and 7 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
-North East,12,0,0,0,0,6,12,15,Newcastle,SCENARIO_MANUAL_RERUN,North East manual rerun: 9 previously SELECTED row(s) retained and 3 manual_select row(s) applied; 9/12 selected. Cap treated as a maximum; auto backfill disabled.
+West Yorkshire,12,3,2,0,1,6,9,19,Leeds,SCENARIO_MANUAL_RERUN,West Yorkshire manual rerun: 8 previously SELECTED row(s) retained and 8 manual_select row(s) applied; 9/12 selected. Cap treated as a maximum; auto backfill disabled.
+South Yorkshire,12,4,3,1,0,6,8,17,Sheffield,SCENARIO_MANUAL_RERUN,South Yorkshire manual rerun: 8 previously SELECTED row(s) retained and 9 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
+North East,12,3,3,0,0,3,9,9,Newcastle,SCENARIO_MANUAL_RERUN,North East manual rerun: 3 previously SELECTED row(s) retained and 6 manual_select row(s) applied; 6/12 selected. Cap treated as a maximum; auto backfill disabled.
