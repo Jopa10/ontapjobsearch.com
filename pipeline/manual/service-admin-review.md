@@ -57,6 +57,12 @@ SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
 job_id: 107409218
 ---
 
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
+job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -90,9 +96,9 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
-job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
+job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -145,6 +151,18 @@ SELECTED | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessm
 job_id: 107425594
 ---
 
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £12.71 per hour | Customer Service Administrator
+job_id: 4499ecdd-06ff-4bf1-a429-db09e106917b
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £26000 per year | Export/Import Administrator
+job_id: 6cfd1576-3aa0-4156-b992-90e9d8fd9e49
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -166,21 +184,21 @@ job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
 ---
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.71 per hour | Customer Service Administrator
-job_id: 4499ecdd-06ff-4bf1-a429-db09e106917b
----
-
----
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £32000 per year | Pensions Administrator
 job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 per year | Export/Import Administrator
-job_id: 6cfd1576-3aa0-4156-b992-90e9d8fd9e49
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 per year | Billing Administrator
+job_id: d8ec77ff-1d1d-4723-9e52-90343c20eacc
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 - £260000 per year | Logistics Administrator
+job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
 ---
 
 ## NORTH EAST — SELECTED
@@ -203,6 +221,24 @@ SELECTED | North East | Darlington | £12.9 per hour | Mailroom Administrator
 job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
 ---
 
+---
+action: select
+SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
+job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
+---
+
+---
+action: select
+SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
+job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
+---
+
+---
+action: select
+SELECTED | North East | Stockton-on-tees | £26500 - £28000 per year | Customer Service Administrator
+job_id: 3eecac21-b795-46e6-a5fe-31d39224dfae
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -212,27 +248,9 @@ job_id: d5a6637f-52b8-463d-bd6c-54a956157284
 ---
 
 ---
-action: select
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
-job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
----
-
----
 action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne |  | Pensions Administrator
 job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
----
-
----
-action: select
-POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
-job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
----
-
----
-action: select
-POSS - NORTH EAST | North East | Stockton-on-tees | £26500 - £28000 per year | Customer Service Administrator
-job_id: 3eecac21-b795-46e6-a5fe-31d39224dfae
 ---
 
 ---
