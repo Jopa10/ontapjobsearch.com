@@ -190,13 +190,13 @@ job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 per year | Billing Administrator
 job_id: d8ec77ff-1d1d-4723-9e52-90343c20eacc
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 - £260000 per year | Logistics Administrator
 job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
 ---
