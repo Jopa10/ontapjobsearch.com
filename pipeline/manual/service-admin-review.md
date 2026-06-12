@@ -90,7 +90,7 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
 job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
 ---
@@ -166,7 +166,7 @@ job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.71 per hour | Customer Service Administrator
 job_id: 4499ecdd-06ff-4bf1-a429-db09e106917b
 ---
@@ -178,7 +178,7 @@ job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £26000 per year | Export/Import Administrator
 job_id: 6cfd1576-3aa0-4156-b992-90e9d8fd9e49
 ---
@@ -212,7 +212,7 @@ job_id: d5a6637f-52b8-463d-bd6c-54a956157284
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
 job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
 ---
@@ -224,13 +224,13 @@ job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Stockton-on-tees | £26500 - £28000 per year | Customer Service Administrator
 job_id: 3eecac21-b795-46e6-a5fe-31d39224dfae
 ---
