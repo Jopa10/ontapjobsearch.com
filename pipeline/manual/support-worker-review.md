@@ -17,7 +17,11 @@ job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+job_id: 107464615
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -35,4 +39,10 @@ job_id: 26035_20800_REF11862C
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £13.50 per hour | Care Assistant
 job_id: 26035_20800_REF11757I
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.71 per hour | Waking Night Extra Care Support Worker
+job_id: e6f6acb0-ea73-459d-90bf-541509dfb4c5
 ---

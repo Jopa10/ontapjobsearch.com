@@ -46,9 +46,9 @@ job_id: b6127a90-c08c-4010-9b17-081b893c6daa
 ---
 
 ---
-action:
-SELECTED | West Yorkshire | Wetherby | £25870 per year | Customer Service Administrator
-job_id: a80438d7-f117-4ce7-b9a5-e067c271805d
+action: select
+SELECTED | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
+job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
 ---
 
 ---
@@ -57,19 +57,7 @@ SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
 job_id: 107409218
 ---
 
----
-action: select
-SELECTED | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
-job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
----
-
 ## WEST YORKSHIRE — POSSIBLES
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £30000 - £380000 per year | Client Services Administrator - Exclusive to Taylor James
-job_id: e98555cf-7bd1-4ecf-a374-41a09af70cef
----
 
 ---
 action:
@@ -101,6 +89,12 @@ POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25200 - £28000 per year | Se
 job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 ---
 
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
+job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -113,12 +107,6 @@ job_id: d1116cfc-c296-4c03-9f35-29c042182837
 action: select
 SELECTED | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
 job_id: 6d141a8a-f55b-4e99-b930-7e97a4e0c326
----
-
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £13 - £15 per hour | Data Administrator
-job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
 ---
 
 ---
@@ -143,6 +131,12 @@ job_id: 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31
 action:
 SELECTED | South Yorkshire | Sheffield | £28000 per year | Accounts Administrator (Part-time)
 job_id: 91fd812e-ec05-476c-806f-6b731e55f897
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £13 - £15 per hour | Data Administrator
+job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
 ---
 
 ---
@@ -176,12 +170,6 @@ job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £34000 per year | IFA Administrator
-job_id: ea50cbe2-95aa-4843-b8a6-65abc31b3a4b
----
 
 ---
 action:
@@ -261,6 +249,6 @@ job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
 
 ---
 action:
-POSS - NORTH EAST | North East | Durham | £30000 per year | Support/Housing Management Coordinator
-job_id: 107473649
+POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
+job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
