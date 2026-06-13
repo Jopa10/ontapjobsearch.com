@@ -1,20 +1,20 @@
 ﻿metric,value
 total rows input,1828
-total rows included,11
-total rows dropped,1804
+total rows included,13
+total rows dropped,1802
 title classification count - HIGH_CONFIDENCE,308
 title classification count - ELASTIC_FIT,26
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
 title classification count - HARD_PASS,570
 title classification count - OUT_OF_SCOPE,924
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 9 previously SELECTED row(s) retained and 8 manual_select row(s) applied; 9/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,19
-high confidence count - West Yorkshire,18
+selection message - West Yorkshire,West Yorkshire manual rerun: 8 previously SELECTED row(s) retained and 10 manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - West Yorkshire,18
+high confidence count - West Yorkshire,17
 anchor elastic count - West Yorkshire,0
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,9
-job_id included - West Yorkshire,107241070; 155ad04e-0dd2-4136-9720-a1a72144ecc6; 82ae9e09-447e-4f9b-ae9b-68474504990f; b6127a90-c08c-4010-9b17-081b893c6daa; e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278; a80438d7-f117-4ce7-b9a5-e067c271805d; 201e220e-aa0a-422b-b756-19a810b1c8ec; ba59e49d-ab11-4637-ae56-7d0d787a942c; 107409218
+total rows output - West Yorkshire,10
+job_id included - West Yorkshire,107241070; 155ad04e-0dd2-4136-9720-a1a72144ecc6; 82ae9e09-447e-4f9b-ae9b-68474504990f; b6127a90-c08c-4010-9b17-081b893c6daa; c9ca3cfd-899c-4705-8d4e-084a4bda02f3; 4dfff604-ff55-4508-9cf4-a049ea862460; e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278; 201e220e-aa0a-422b-b756-19a810b1c8ec; ba59e49d-ab11-4637-ae56-7d0d787a942c; 107409218
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - South Yorkshire,South Yorkshire manual rerun: 12 previously SELECTED row(s) retained and 11 manual_select row(s) applied; 12/12 selected. Cap treated as a maximum; auto backfill disabled.
 credible total - South Yorkshire,16
