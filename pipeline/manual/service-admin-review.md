@@ -57,6 +57,18 @@ SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
 job_id: 107409218
 ---
 
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
+job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
+job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -84,15 +96,15 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
-job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | Ifa Administrator
+job_id: bb458098-ce77-414b-baef-317fa4b97214
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
-job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £30000 - £37000 per year | Senior IFA Administrator
+job_id: 52701f5e-2455-4a10-9a31-ce278cfb7d2f
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
