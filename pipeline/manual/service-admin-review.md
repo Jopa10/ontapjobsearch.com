@@ -84,13 +84,13 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
 job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
 job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
 ---
