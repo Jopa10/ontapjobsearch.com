@@ -23,6 +23,12 @@ POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Car
 job_id: 107464615
 ---
 
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £14.24 per hour | Bank Health Care Assistant
+job_id: 107506846
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 _No jobs in this group._
