@@ -1,16 +1,16 @@
 ﻿metric,value
-total rows input,1796
+total rows input,2035
 total rows included,0
-total rows dropped,1792
-title classification count - HIGH_CONFIDENCE,101
-title classification count - ELASTIC_FIT,79
+total rows dropped,2030
+title classification count - HIGH_CONFIDENCE,123
+title classification count - ELASTIC_FIT,87
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,1012
-title classification count - OUT_OF_SCOPE,604
+title classification count - HARD_PASS,1132
+title classification count - OUT_OF_SCOPE,693
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - West Yorkshire,West Yorkshire manual rerun: 0 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 0/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,1
-high confidence count - West Yorkshire,1
+credible total - West Yorkshire,2
+high confidence count - West Yorkshire,2
 anchor elastic count - West Yorkshire,0
 other elastic count - West Yorkshire,0
 total rows output - West Yorkshire,0
