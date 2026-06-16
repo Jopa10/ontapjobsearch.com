@@ -102,7 +102,7 @@ job_id: 52701f5e-2455-4a10-9a31-ce278cfb7d2f
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
 job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
 ---
