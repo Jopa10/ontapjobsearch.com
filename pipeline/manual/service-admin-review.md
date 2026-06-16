@@ -73,12 +73,6 @@ job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £32000 per year | Finance Administrator
-job_id: 89392945-7f0b-4ec1-992c-2c059c328f81
----
-
----
-action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £32000 per year | Financial Planning Administrator
 job_id: 16ba2d14-bb19-4608-b959-c8b095d8086e
 ---
@@ -105,6 +99,12 @@ job_id: bb458098-ce77-414b-baef-317fa4b97214
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £30000 - £37000 per year | Senior IFA Administrator
 job_id: 52701f5e-2455-4a10-9a31-ce278cfb7d2f
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
+job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -229,14 +229,14 @@ job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
 
 ---
 action: select
-SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
-job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
+SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
+job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
 ---
 
 ---
 action: select
-SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
-job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
+SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
+job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
 
 ---
@@ -261,12 +261,24 @@ job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
 
 ---
 action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
+job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
+job_id: 107472400
+---
+
+---
+action:
 POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
 job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
 
 ---
 action:
-POSS - NORTH EAST | North East | Durham | £30000 per year | Support/Housing Management Coordinator
-job_id: 107473649
+POSS - NORTH EAST | North East | Middlesbrough | £28000 - £32000 per year | Financial Services Administrator
+job_id: c15991d7-bc2b-4a3d-b5e5-67c171297e77
 ---

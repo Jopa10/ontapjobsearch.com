@@ -19,14 +19,20 @@ job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
 job_id: 107464615
 ---
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £14.24 per hour | Bank Health Care Assistant
-job_id: 107506846
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £12.85 per hour | Relief Support Worker
+job_id: 3ea1f9e6-b959-48af-b520-84e597b09b27
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
