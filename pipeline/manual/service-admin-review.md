@@ -59,6 +59,12 @@ job_id: 107409218
 
 ---
 action: select
+SELECTED | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
+job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
+---
+
+---
+action: select
 SELECTED | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
 job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 ---
@@ -102,9 +108,9 @@ job_id: 52701f5e-2455-4a10-9a31-ce278cfb7d2f
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
-job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £33000 per year | IFA Administrator
+job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
