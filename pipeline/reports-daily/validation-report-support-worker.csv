@@ -9,8 +9,8 @@ title classification count - HARD_PASS,1093
 title classification count - OUT_OF_SCOPE,395
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - West Yorkshire,West Yorkshire manual rerun: 0 previously SELECTED row(s) retained and 0 manual_select row(s) applied; 0/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,9
-high confidence count - West Yorkshire,6
+credible total - West Yorkshire,10
+high confidence count - West Yorkshire,7
 anchor elastic count - West Yorkshire,2
 other elastic count - West Yorkshire,1
 total rows output - West Yorkshire,0
