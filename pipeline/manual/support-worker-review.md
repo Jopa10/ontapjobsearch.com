@@ -19,8 +19,20 @@ job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £12.85 per hour | Café Support Worker
+job_id: 09beb366-d247-4caa-b4c8-b8488b7545fd
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
 job_id: 107532972
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £12.85 per hour | Crisis Support Worker
+job_id: 20585d98-a078-4458-9f79-86aedd96638a
 ---
 
 ---
@@ -31,8 +43,14 @@ job_id: 107464615
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £12.85 per hour | Relief Support Worker
-job_id: 3ea1f9e6-b959-48af-b520-84e597b09b27
+POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £12.85 per hour | Support Worker
+job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Castleford | £13.71 per hour | Part-Time Health Care Assistant
+job_id: 107540252
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -40,6 +58,12 @@ job_id: 3ea1f9e6-b959-48af-b520-84e597b09b27
 _No jobs in this group._
 
 ## SOUTH YORKSHIRE — POSSIBLES
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.85 per hour | Support Worker
+job_id: 6cdb548a-fd52-4cbf-97d4-6688676f4435
+---
 
 ---
 action:
@@ -57,4 +81,16 @@ job_id: 26035_20800_REF11757I
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.71 per hour | Waking Night Extra Care Support Worker
 job_id: e6f6acb0-ea73-459d-90bf-541509dfb4c5
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.71 per hour | Waking Night Support Worker
+job_id: c5ffc5cb-d621-4c18-91cb-d4bc74122d61
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.21 per hour | Relief Extra Care Support Worker
+job_id: de78106e-f107-4136-ab96-96f0976b272e
 ---
