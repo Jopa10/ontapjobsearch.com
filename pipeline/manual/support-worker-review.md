@@ -37,6 +37,12 @@ job_id: 20585d98-a078-4458-9f79-86aedd96638a
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
+job_id: 107521956
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
 job_id: 107464615
 ---
@@ -45,12 +51,6 @@ job_id: 107464615
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £12.85 per hour | Support Worker
 job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Castleford | £13.71 per hour | Part-Time Health Care Assistant
-job_id: 107540252
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
