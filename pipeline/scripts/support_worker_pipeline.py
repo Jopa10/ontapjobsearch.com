@@ -12,7 +12,7 @@ V11_5 additions:
 - secondary salary fallback: if structured JobG8 salary fields are blank, extract only explicit £ salary phrases from /Job/Description; never infer or fabricate salary
 
 V12_6 fix:
-- geo lookup defaults to pipeline/geo/lookup.xlsx, the shared Ontap geo source of truth
+- geo lookup defaults to pipeline/geo/geo_lookup.xlsx, the shared Ontap geo source of truth
 - /input geo lookup workbooks are ignored unless a future explicit override is added
 - report ordering remains report-only; no selection count-fill
 
@@ -35,7 +35,7 @@ V9 additions:
 - elastic titles can fill thin slices after high-confidence titles
 
 Input folder:
-  input/   put ONE JobG8 export here; geo defaults to pipeline/geo/lookup.xlsx
+  input/   put ONE JobG8 export here; geo defaults to pipeline/geo/geo_lookup.xlsx
 
 Output folder:
   reports-daily/decision-report-support-worker.csv
@@ -62,6 +62,8 @@ from typing import Any
 
 import pandas as pd
 
+from .geo_lookup import load_geo_lookup, validate_publishing_clusters
+
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-support-worker")
 REPORTS_DAILY_DIR = Path("reports-daily")
@@ -83,8 +85,6 @@ MANUAL_REVIEW_FIELDNAMES = [
 ]
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
-DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "lookup.xlsx"
-DEFAULT_GEO_LOOKUP_DISPLAY_PATH = Path("pipeline/geo/lookup.xlsx")
 
 TITLE_REGISTER_FILE_KEYWORDS = ["support_worker_title_classification_register", "title_classification_register"]
 
@@ -134,30 +134,9 @@ EXCLUDE_TERMS = [
     "housing",
 ]
 
-REGION_MAP = {
-    # Existing V10_3 regions
-    "yorkshire (west)": "West Yorkshire",
-    "yorkshire west": "West Yorkshire",
-    "west yorkshire": "West Yorkshire",
-    "yorkshire (south)": "South Yorkshire",
-    "yorkshire south": "South Yorkshire",
-    "south yorkshire": "South Yorkshire",
-
-    # V11 North expansion regions. These map lookup.xlsx Cluster values to clean internal region names.
-    "lancashire": "Lancashire",
-    "greater manchester": "Greater Manchester",
-    "manchester": "Greater Manchester",
-    "cumbria": "Cumbria",
-
-    # V11_4: split the old combined North East region into three publishable sub-regions.
-    "north east - tyneside, wearside & northumberland": "North East - Tyneside, Wearside & Northumberland",
-    "tyneside, wearside & northumberland": "North East - Tyneside, Wearside & Northumberland",
-    "tyneside wearside northumberland": "North East - Tyneside, Wearside & Northumberland",
-    "north east - county durham & darlington/hartlepool": "North East - County Durham & Darlington/Hartlepool",
-    "county durham & darlington/hartlepool": "North East - County Durham & Darlington/Hartlepool",
-    "county durham darlington hartlepool": "North East - County Durham & Darlington/Hartlepool",
-    "north east - tees valley": "North East - Tees Valley",
-    "tees valley": "North East - Tees Valley",
+PUBLISHING_CLUSTERS = {
+    "West Yorkshire": frozenset({"Yorkshire - West"}),
+    "South Yorkshire": frozenset({"Yorkshire - South"}),
 }
 
 OUTPUT_FILES = {
@@ -632,25 +611,19 @@ def _unique_paths(paths: list[Path]) -> list[Path]:
     return unique
 
 
-def find_lookup_file(job_file: Path) -> Path:
-    """Return the shared Ontap geo lookup workbook.
-
-    The daily /input folder is intentionally not searched for geography files.
-    pipeline/geo/lookup.xlsx is the single source of truth; bad or missing
-    places should be fixed there rather than by supplying per-run lookup files.
-    """
-    del job_file  # kept for backwards-compatible call sites.
-    if not DEFAULT_GEO_LOOKUP_PATH.exists():
-        raise SystemExit(
-            "STOP: could not find the default geo lookup file at "
-            f"{DEFAULT_GEO_LOOKUP_DISPLAY_PATH}. The lookup file must contain columns named exactly: Area, Cluster."
-        )
-    if not _table_has_columns(DEFAULT_GEO_LOOKUP_PATH, {"Area", "Cluster"}):
-        raise SystemExit(
-            "STOP: default geo lookup file must contain columns named exactly: Area, Cluster "
-            f"({DEFAULT_GEO_LOOKUP_DISPLAY_PATH})"
-        )
-    return DEFAULT_GEO_LOOKUP_PATH
+def validate_geo_configuration() -> dict[str, str]:
+    geo = load_geo_lookup()
+    validate_publishing_clusters(PUBLISHING_CLUSTERS, geo.valid_clusters)
+    cluster_to_output = {
+        cluster: output_name
+        for output_name, clusters in PUBLISHING_CLUSTERS.items()
+        for cluster in clusters
+    }
+    return {
+        area: cluster_to_output[cluster]
+        for area, cluster in geo.area_to_cluster.items()
+        if cluster in cluster_to_output
+    }
 
 def validate_job_columns(df: pd.DataFrame) -> None:
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
@@ -658,23 +631,9 @@ def validate_job_columns(df: pd.DataFrame) -> None:
         raise SystemExit("STOP: missing required JobG8 column(s): " + ", ".join(missing))
 
 
-def build_lookup(lookup_df: pd.DataFrame) -> dict[str, str]:
-    if "Area" not in lookup_df.columns or "Cluster" not in lookup_df.columns:
-        raise SystemExit("STOP: lookup file must contain columns named exactly: Area, Cluster")
-
-    lookup: dict[str, str] = {}
-    for _, row in lookup_df.iterrows():
-        area = norm_key(row.get("Area"))
-        cluster = norm_key(row.get("Cluster"))
-        if not area:
-            continue
-        region = REGION_MAP.get(cluster)
-        if region:
-            lookup[area] = region
-    if not lookup:
-        raise SystemExit("STOP: lookup file contains no supported V11 region areas after mapping Cluster values.")
-    return lookup
-
+def build_lookup(lookup_df: Any = None) -> dict[str, str]:
+    del lookup_df
+    return validate_geo_configuration()
 
 def included_by_title(title: str) -> tuple[bool, str]:
     t = norm_key(title)
@@ -1984,19 +1943,15 @@ def write_outputs(
 def main() -> int:
     if not INPUT_DIR.exists():
         INPUT_DIR.mkdir()
-        raise SystemExit("Created /input folder. Put the JobG8 export in it, then run again. Geo defaults to pipeline/geo/lookup.xlsx.")
+        raise SystemExit("Created /input folder. Put the JobG8 export in it, then run again. Geo defaults to pipeline/geo/geo_lookup.xlsx.")
 
     job_file = find_input_file(JOB_FILE_KEYWORDS)
-    lookup_file = find_lookup_file(job_file)
-
     print(f"Reading JobG8 export: {job_file}")
     job_df = read_table(job_file)
     validate_job_columns(job_df)
 
-    print(f"Default geo lookup path: {DEFAULT_GEO_LOOKUP_DISPLAY_PATH}")
-    print(f"Reading lookup file: {lookup_file}")
-    lookup_df = read_table(lookup_file)
-    lookup = build_lookup(lookup_df)
+    print("Reading geo lookup file: pipeline/geo/geo_lookup.xlsx (Sheet1)")
+    lookup = build_lookup()
 
     support_worker_csv_review_exists = MANUAL_REVIEW_CSV_PATH.exists()
     support_worker_markdown_review_exists = MANUAL_REVIEW_MD_PATH.exists()
