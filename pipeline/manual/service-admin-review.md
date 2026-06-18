@@ -52,12 +52,6 @@ job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
-job_id: 107409218
----
-
----
 action: select
 SELECTED | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
 job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
@@ -73,6 +67,12 @@ job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
 action: select
 SELECTED | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
 job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
+job_id: 107506827
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -99,12 +99,6 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | Ifa Administrator
 job_id: bb458098-ce77-414b-baef-317fa4b97214
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
-job_id: 107506827
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
