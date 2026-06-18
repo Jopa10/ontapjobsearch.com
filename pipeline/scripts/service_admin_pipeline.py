@@ -88,8 +88,8 @@ MANUAL_REVIEW_FIELDNAMES = [
 ]
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
-DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "lookup.xlsx"
-DEFAULT_GEO_LOOKUP_DISPLAY_PATH = Path("pipeline/geo/lookup.xlsx")
+DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "geo_lookup.xlsx"
+DEFAULT_GEO_LOOKUP_DISPLAY_PATH = Path("pipeline/geo/geo_lookup.xlsx")
 
 TITLE_REGISTER_FILE_KEYWORDS = ["admin_service_title_classification_register", "title_classification_register"]
 
