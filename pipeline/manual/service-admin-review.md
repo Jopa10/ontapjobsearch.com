@@ -52,7 +52,7 @@ job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | West Yorkshire | Normanton |  | Business Systems & Data Coordinator
 job_id: 107409218
 ---
@@ -102,7 +102,7 @@ job_id: bb458098-ce77-414b-baef-317fa4b97214
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
 ---
