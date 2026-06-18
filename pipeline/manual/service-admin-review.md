@@ -101,6 +101,12 @@ POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | If
 job_id: bb458098-ce77-414b-baef-317fa4b97214
 ---
 
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
+job_id: 107506827
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -255,12 +261,6 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 
 ---
 action:
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
-job_id: 107472400
----
-
----
-action:
 POSS - NORTH EAST | North East | Stockton-on-tees | £28000 - £30000 per year | Customer Service Admin
 job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
 ---
@@ -269,4 +269,10 @@ job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
 action:
 POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
 job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Middlesbrough | £28000 - £32000 per year | Financial Services Administrator
+job_id: c15991d7-bc2b-4a3d-b5e5-67c171297e77
 ---

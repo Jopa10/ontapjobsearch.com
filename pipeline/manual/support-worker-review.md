@@ -43,14 +43,14 @@ job_id: 107521956
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
-job_id: 107464615
+POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £12.85 per hour | Support Worker
+job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
 ---
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £12.85 per hour | Support Worker
-job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
+POSS - WEST YORKSHIRE | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+job_id: 107464615
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -58,12 +58,6 @@ job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
 _No jobs in this group._
 
 ## SOUTH YORKSHIRE — POSSIBLES
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £12.85 per hour | Support Worker
-job_id: 6cdb548a-fd52-4cbf-97d4-6688676f4435
----
 
 ---
 action:
@@ -79,18 +73,6 @@ job_id: 26035_20800_REF11757I
 
 ---
 action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.71 per hour | Waking Night Extra Care Support Worker
-job_id: e6f6acb0-ea73-459d-90bf-541509dfb4c5
----
-
----
-action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.71 per hour | Waking Night Support Worker
-job_id: c5ffc5cb-d621-4c18-91cb-d4bc74122d61
----
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £13.21 per hour | Relief Extra Care Support Worker
-job_id: de78106e-f107-4136-ab96-96f0976b272e
+job_id: 52e8a656-b195-4919-b776-6f15f4f25694
 ---
