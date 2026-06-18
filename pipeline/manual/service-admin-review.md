@@ -77,29 +77,7 @@ job_id: 107506827
 
 ## WEST YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £32000 per year | Financial Planning Administrator
-job_id: 16ba2d14-bb19-4608-b959-c8b095d8086e
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Group Regulatory Administrator
-job_id: 107417429
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £28000 - £33000 per year | IFA Administrator
-job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | Ifa Administrator
-job_id: bb458098-ce77-414b-baef-317fa4b97214
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -171,29 +149,7 @@ job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
-job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
----
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £40000 - £42000 per year | Senior Pensions Administrator
-job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
----
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £32000 per year | Pensions Administrator
-job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
----
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator
-job_id: 04d36725-d7c8-4940-b556-1e941dd944d1
----
+_No jobs in this group._
 
 ## NORTH EAST — SELECTED
 
