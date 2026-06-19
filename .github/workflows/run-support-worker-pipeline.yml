@@ -105,16 +105,23 @@ jobs:
       - name: Commit support-worker output
         run: |
           set -euo pipefail
-          output_path="pipeline/output-support-worker"
+          support_worker_paths=(
+            "pipeline/output-support-worker"
+            "pipeline/reports-daily/decision-report-support-worker.csv"
+            "pipeline/reports-daily/validation-report-support-worker.csv"
+            "pipeline/reports-daily/selection-summary-report-support-worker.csv"
+            "pipeline/manual/support-worker-review.csv"
+            "pipeline/manual/support-worker-review.md"
+          )
 
-          if [ -z "$(git status --porcelain -- "$output_path")" ]; then
+          if [ -z "$(git status --porcelain -- "${support_worker_paths[@]}")" ]; then
             echo "No support worker output changes to commit"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- "$output_path"
+          git add -- "${support_worker_paths[@]}"
 
           staged_files="$(git diff --cached --name-only)"
           if [ -z "$staged_files" ]; then
@@ -122,9 +129,9 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$(printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-support-worker\//')"
+          unexpected_files="$(printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-support-worker\// && $0 != "pipeline/reports-daily/decision-report-support-worker.csv" && $0 != "pipeline/reports-daily/validation-report-support-worker.csv" && $0 != "pipeline/reports-daily/selection-summary-report-support-worker.csv" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"')"
           if [ -n "$unexpected_files" ]; then
-            echo "::error::Refusing to commit files outside $output_path. Staged files:"
+            echo "::error::Refusing to commit files outside support-worker output/review/report paths. Staged files:"
             printf '%s\n' "$staged_files"
             git reset --mixed
             exit 1
@@ -138,5 +145,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: support-worker-output
-          path: pipeline/output-support-worker/
+          path: |
+            pipeline/output-support-worker/
+            pipeline/reports-daily/decision-report-support-worker.csv
+            pipeline/reports-daily/validation-report-support-worker.csv
+            pipeline/reports-daily/selection-summary-report-support-worker.csv
+            pipeline/manual/support-worker-review.csv
+            pipeline/manual/support-worker-review.md
           if-no-files-found: warn
