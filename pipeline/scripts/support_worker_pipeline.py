@@ -136,18 +136,32 @@ EXCLUDE_TERMS = [
 
 REGION_MAP = {
     # Existing V10_3 regions
+    "yorkshire - west": "West Yorkshire",
     "yorkshire (west)": "West Yorkshire",
     "yorkshire west": "West Yorkshire",
     "west yorkshire": "West Yorkshire",
+    "yorkshire - south": "South Yorkshire",
     "yorkshire (south)": "South Yorkshire",
     "yorkshire south": "South Yorkshire",
     "south yorkshire": "South Yorkshire",
 
     # V11 North expansion regions. These map lookup.xlsx Cluster values to clean internal region names.
     "lancashire": "Lancashire",
+    "lancashire - blackpool & fylde": "Lancashire",
+    "lancashire - central": "Lancashire",
+    "lancashire - east": "Lancashire",
+    "lancashire - north": "Lancashire",
+    "lancashire - west": "Lancashire",
     "greater manchester": "Greater Manchester",
+    "greater manchester - manchester & salford": "Greater Manchester",
+    "greater manchester - north": "Greater Manchester",
+    "greater manchester - south": "Greater Manchester",
+    "greater manchester - wigan & bolton": "Greater Manchester",
     "manchester": "Greater Manchester",
     "cumbria": "Cumbria",
+    "cumbria - north": "Cumbria",
+    "cumbria - south": "Cumbria",
+    "cumbria - west": "Cumbria",
 
     # V11_4: split the old combined North East region into three publishable sub-regions.
     "north east - tyneside, wearside & northumberland": "North East - Tyneside, Wearside & Northumberland",
@@ -1025,10 +1039,13 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
         elif action == "select":
             selections.add(job_id)
 
-        decision = norm(block.get("decision")).upper()
-        summary_decision = norm(block.get("summary")).split("|", 1)[0].strip().upper()
-        if decision == "SELECTED" or summary_decision == "SELECTED":
-            previously_selected.add(job_id)
+        if action == "exclude":
+            selections.discard(job_id)
+            previously_selected.discard(job_id)
+            continue
+
+        # Do not infer a same-day selection from generated SELECTED summaries.
+        # Only explicit `action: select` is applied on rerun.
 
     markdown_excludes = sum(1 for value in overrides.values() if value == "FORCE_EXCLUDE")
     return ManualDecisionState(
@@ -1064,26 +1081,28 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
 
     has_manual_override = "manual_override" in df.columns
     has_manual_select = "manual_select" in df.columns
-    has_selection_status = "selection_status" in df.columns
-    has_decision = "decision" in df.columns
 
     for _, row in df.iterrows():
         job_id = norm(row.get("job_id"))
         if not job_id:
             continue
 
+        override = ""
         if has_manual_override:
             override = normalise_manual_override(row.get("manual_override"))
             if override:
                 overrides[job_id] = override
 
+        if override == "FORCE_EXCLUDE":
+            selections.discard(job_id)
+            previously_selected.discard(job_id)
+            continue
+
         if has_manual_select and _truthy_manual_marker(row.get("manual_select")):
             selections.add(job_id)
 
-        selection_status = norm(row.get("selection_status")).upper() if has_selection_status else ""
-        decision = norm(row.get("decision")).upper() if has_decision else ""
-        if selection_status == "SELECTED" or decision == "SELECTED":
-            previously_selected.add(job_id)
+        # Do not infer a same-day selection from generated SELECTED/decision
+        # columns. Only explicit manual_select values are applied on rerun.
 
     return ManualDecisionState(
         report_loaded=True,
@@ -1388,15 +1407,17 @@ def anchor_sort_and_cap(
     Core behaviour:
     - Cap remains 12 per region.
     - FORCE_EXCLUDE removes bad rows earlier in process().
-    - In manual rerun mode, previously SELECTED rows and manual_select = 1 rows are
-      the editorial selection set; routine cap-filling/backfill is disabled.
+    - In manual rerun mode, only current-feed FORCE_INCLUDE and manual_select = 1
+      rows are the editorial selection set; routine cap-filling/backfill is disabled.
     - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
       selected set before routine ranking.
     - POSS rows are shown as the next credible swap/review candidates even when the slice is full.
     """
     final_outputs: dict[str, list[dict[str, Any]]] = {}
     selected_ids: set[str] = set()
-    previously_selected_ids = previously_selected_ids or set()
+    # Historical selected IDs are intentionally ignored; every run is rebuilt
+    # from the current JobG8 feed plus same-day explicit SELECT/EXCLUDE actions.
+    previously_selected_ids = set()
     possible_selection_ids: dict[str, int] = {}
     region_status: dict[str, dict[str, Any]] = {}
 
@@ -1461,11 +1482,6 @@ def anchor_sort_and_cap(
             [item for item in routine if str(item.get("_manual_select", "")).strip() == "1"],
             key=routine_sort_key,
         )
-        previously_selected = sorted(
-            [item for item in routine if str(item.get("job_id", "")) in previously_selected_ids],
-            key=routine_sort_key,
-        )
-
         selected: list[dict[str, Any]] = []
         seen: set[str] = set()
 
@@ -1481,16 +1497,17 @@ def anchor_sort_and_cap(
         credible_total = len(forced + hc + anchor_elastic + other_elastic)
         base_without_manual = len(forced) + len(hc) + len(anchor_elastic)
 
-        if manual_rerun_mode:
-            # Editorial reruns preserve the reviewed selected set and only add explicit
-            # manual_select rows. Do not refill to the cap from routine HC/elastic pools.
+        region_has_manual_selection_state = bool(forced or manually_selected)
+
+        if manual_rerun_mode and region_has_manual_selection_state:
+            # Editorial reruns only apply explicit same-day SELECT/EXCLUDE actions
+            # to jobs still present in the current feed. Do not retain yesterday's
+            # selected IDs and do not refill to the cap from routine HC/elastic pools.
             add_candidates(forced, cap)
-            add_candidates(previously_selected, cap)
             add_candidates(manually_selected, cap)
             scenario = "SCENARIO_MANUAL_RERUN"
             message = (
-                f"{region} manual rerun: {len(previously_selected)} previously SELECTED row(s) retained "
-                f"and {len(manually_selected)} manual_select row(s) applied; "
+                f"{region} manual rerun: {len(manually_selected)} current-feed manual_select row(s) applied; "
                 f"{min(len(selected), cap)}/{cap} selected. Cap treated as a maximum; auto backfill disabled."
             )
         else:
@@ -1767,7 +1784,8 @@ def _manual_review_preview_rows(
     preserved_action_rows: list[dict[str, str]] | None = None,
 ) -> list[dict[str, Any]]:
     """Return compact selected/possible preview rows, keeping actioned rows visible."""
-    preserved_action_rows = preserved_action_rows or []
+    # Do not append historical action rows: the review CSV must reflect only
+    # selected/possible jobs present in today's feed.
     preview_rows: list[dict[str, Any]] = []
     preview_job_ids: set[str] = set()
     groups = [
@@ -1778,14 +1796,7 @@ def _manual_review_preview_rows(
     ]
     for region, status in groups:
         group_rows = _markdown_review_rows(rows, region, status)
-        group_job_ids = {_markdown_value(row.get("job_id")) for row in group_rows}
-        action_rows = [
-            row for row in preserved_action_rows
-            if _markdown_value(row.get("job_id")) not in group_job_ids
-            and _markdown_value(row.get("region")) == region
-            and _markdown_value(row.get("selection_status")) == status
-        ]
-        for row in [*action_rows, *group_rows]:
+        for row in group_rows:
             job_id = _markdown_value(row.get("job_id"))
             if job_id and job_id not in preview_job_ids:
                 preview_rows.append(row)
@@ -1806,7 +1817,8 @@ def write_manual_review_markdown(
 ) -> None:
     """Write the compact GitHub-editable support-worker review Markdown file."""
     preserved_actions = preserved_actions or {}
-    preserved_action_rows = preserved_action_rows or []
+    # Do not append historical action rows: the review Markdown must reflect only
+    # selected/possible jobs present in today's feed.
     lines = [
         "# Support-worker manual review",
         "",
@@ -1829,14 +1841,7 @@ def write_manual_review_markdown(
     for heading, region, status, decision_label in groups:
         lines.extend([f"## {heading}", ""])
         group_rows = _markdown_review_rows(rows, region, status)
-        group_job_ids = {_markdown_value(row.get("job_id")) for row in group_rows}
-        group_action_rows = [
-            row for row in preserved_action_rows
-            if _markdown_value(row.get("job_id")) not in group_job_ids
-            and _markdown_value(row.get("region")) == region
-            and _markdown_value(row.get("selection_status")) == status
-        ]
-        review_rows = [*group_action_rows, *group_rows]
+        review_rows = group_rows
         if not review_rows:
             lines.extend(["_No jobs in this group._", ""])
             continue
@@ -1882,7 +1887,7 @@ def write_outputs(
         outputs,
         report_rows,
         manual_rerun_mode=manual_decisions.rerun_mode,
-        previously_selected_ids=manual_decisions.previously_selected,
+        previously_selected_ids=set(),
     )
 
     for region, filename in OUTPUT_FILES.items():
