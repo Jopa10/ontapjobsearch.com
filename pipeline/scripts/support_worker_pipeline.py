@@ -177,21 +177,36 @@ REGION_MAP = {
 OUTPUT_FILES = {
     "West Yorkshire": "west-yorkshire-support-worker.json",
     "South Yorkshire": "south-yorkshire-support-worker.json",
+    "North East": "north-east-support-worker.json",
 }
 
 REGION_CAPS = {
     "West Yorkshire": 12,
     "South Yorkshire": 12,
+    "North East": 12,
 }
 
 ANCHOR_TOWNS = {
     "West Yorkshire": "Leeds",
     "South Yorkshire": "Sheffield",
+    "North East": "Newcastle Upon Tyne",
 }
 
 PUBLISH_THRESHOLDS = {
     "West Yorkshire": 6,
     "South Yorkshire": 6,
+    "North East": 6,
+}
+
+NORTH_EAST_DETAILED_REGIONS = [
+    "North East - Tyneside, Wearside & Northumberland",
+    "North East - County Durham & Darlington/Hartlepool",
+    "North East - Tees Valley",
+]
+
+PUBLISH_REGION_BY_DETAIL_REGION = {
+    **{region: region for region in ("West Yorkshire", "South Yorkshire")},
+    **{region: "North East" for region in NORTH_EAST_DETAILED_REGIONS},
 }
 
 POSSIBLE_SELECTION_REVIEW_COUNT = 6
@@ -688,6 +703,11 @@ def build_lookup(lookup_df: pd.DataFrame) -> dict[str, str]:
     if not lookup:
         raise SystemExit("STOP: lookup file contains no supported V11 region areas after mapping Cluster values.")
     return lookup
+
+
+def publish_region_for(report_region: str) -> str:
+    """Return the JSON/output region while keeping report_region available for review."""
+    return PUBLISH_REGION_BY_DETAIL_REGION.get(report_region, report_region)
 
 
 def included_by_title(title: str) -> tuple[bool, str]:
@@ -1329,12 +1349,13 @@ def process(
         if not area:
             drop("invalid location: blank /Job/Area")
             continue
-        region = lookup.get(norm_key(area))
-        if not region:
+        report_region = lookup.get(norm_key(area))
+        if not report_region:
             drop("invalid location: town not in lookup")
             continue
-        if region not in OUTPUT_FILES:
-            drop("outside support-worker V_12 target regions", region)
+        publish_region = publish_region_for(report_region)
+        if publish_region not in OUTPUT_FILES:
+            drop("outside support-worker V_12 target regions", report_region)
             continue
         if not apply_url or not apply_url.lower().startswith("http"):
             drop("missing apply_url")
@@ -1343,18 +1364,18 @@ def process(
             drop("missing description")
             continue
         if not salary_text_preview or str(salary_text_preview).strip() == "":
-            drop("missing_salary", region)
+            drop("missing_salary", report_region)
             continue
         if manual_override == "FORCE_EXCLUDE":
-            drop("manual override: FORCE_EXCLUDE", region)
+            drop("manual override: FORCE_EXCLUDE", report_region)
             continue
 
         if title_classification in {"HARD_PASS", "OUT_OF_SCOPE"}:
-            drop("title classification: " + title_classification + " - " + title_classification_reason, region)
+            drop("title classification: " + title_classification + " - " + title_classification_reason, report_region)
             continue
 
         if title_classification == "REVIEW_CONTEXT_DEPENDENT" and manual_override != "FORCE_INCLUDE":
-            drop("manual review required: " + title_classification_reason, region)
+            drop("manual review required: " + title_classification_reason, report_region)
             continue
 
         if manual_override == "FORCE_INCLUDE":
@@ -1377,7 +1398,8 @@ def process(
             "title": title,
             "company": build_company(row),
             "location": area,
-            "region": region,
+            "region": publish_region,
+            "_report_region": report_region,
             "country": "UK",
             "category": "Support Worker – Wide",
             "employment_type": employment_type,
@@ -1389,8 +1411,8 @@ def process(
             "apply_url": apply_url,
             "source": "JobG8",
         }
-        outputs[region].append(clean_record_strings(item))
-        add_report("INCLUDED", reason, region)
+        outputs[publish_region].append(clean_record_strings(item))
+        add_report("INCLUDED", reason, report_region)
 
     return outputs, report_rows
 
@@ -1585,7 +1607,8 @@ def anchor_sort_and_cap(
     for row in report_rows:
         region = str(row.get("region", ""))
         job_id = str(row.get("job_id", ""))
-        status = region_status.get(region)
+        publish_region = publish_region_for(region)
+        status = region_status.get(publish_region)
         if status:
             row["selection_scenario"] = status["scenario"]
             row["region_selection_message"] = status["message"]
@@ -1639,7 +1662,7 @@ def write_selection_summary_report(
         status = region_status.get(region, {})
         anchor = ANCHOR_TOWNS.get(region, "")
         anchor_key = norm_key(anchor)
-        region_rows = [r for r in report_rows if str(r.get("region", "")) == region]
+        region_rows = [r for r in report_rows if publish_region_for(str(r.get("region", ""))) == region]
         selected_rows = [r for r in region_rows if str(r.get("selection_status", "")) == "SELECTED"]
         possible_rows = [r for r in region_rows if str(r.get("selection_status", "")) == "POSSIBLE_SELECTION"]
 
@@ -1713,7 +1736,8 @@ def decision_report_fieldnames() -> list[str]:
 def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
     # V2 daily QA order:
     # West SELECTED -> West POSS -> South SELECTED -> South POSS -> all remaining dropped/audit rows.
-    region_order = {region: idx for idx, region in enumerate(OUTPUT_FILES.keys())}
+    review_region_order = ["West Yorkshire", "South Yorkshire", *NORTH_EAST_DETAILED_REGIONS]
+    region_order = {region: idx for idx, region in enumerate(review_region_order)}
     selection_status = str(r.get("selection_status", ""))
     region_rank = region_order.get(str(r.get("region", "")), 9999)
     if selection_status == "SELECTED":
@@ -1793,6 +1817,8 @@ def _manual_review_preview_rows(
         ("West Yorkshire", "POSSIBLE_SELECTION"),
         ("South Yorkshire", "SELECTED"),
         ("South Yorkshire", "POSSIBLE_SELECTION"),
+        *[(region, "SELECTED") for region in NORTH_EAST_DETAILED_REGIONS],
+        *[(region, "POSSIBLE_SELECTION") for region in NORTH_EAST_DETAILED_REGIONS],
     ]
     for region, status in groups:
         group_rows = _markdown_review_rows(rows, region, status)
@@ -1836,6 +1862,8 @@ def write_manual_review_markdown(
         ("WEST YORKSHIRE — POSSIBLES", "West Yorkshire", "POSSIBLE_SELECTION", "POSS"),
         ("SOUTH YORKSHIRE — SELECTED", "South Yorkshire", "SELECTED", "SELECTED"),
         ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+        *[(f"{region.upper()} — SELECTED", region, "SELECTED", "SELECTED") for region in NORTH_EAST_DETAILED_REGIONS],
+        *[(f"{region.upper()} — POSSIBLES", region, "POSSIBLE_SELECTION", "POSS") for region in NORTH_EAST_DETAILED_REGIONS],
     ]
 
     for heading, region, status, decision_label in groups:

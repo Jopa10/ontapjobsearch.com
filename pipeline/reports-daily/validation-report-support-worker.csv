@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,1767
-total rows included,13
-total rows dropped,1754
+total rows included,25
+total rows dropped,1736
 title classification count - HIGH_CONFIDENCE,187
 title classification count - ELASTIC_FIT,117
 title classification count - REVIEW_CONTEXT_DEPENDENT,2
@@ -23,3 +23,11 @@ anchor elastic count - South Yorkshire,0
 other elastic count - South Yorkshire,2
 total rows output - South Yorkshire,4
 job_id included - South Yorkshire,26035_20800_REF11862C; 26035_20800_REF11757I; 52e8a656-b195-4919-b776-6f15f4f25694; b4bb895f-a331-4a46-8e07-0ee304e17c4f
+selection scenario - North East,SCENARIO_3_ACTION_REQUIRED
+selection message - North East,North East selection incomplete: 10/12 selected after HIGH_CONFIDENCE + Newcastle Upon Tyne ELASTIC_FIT. 2 slots remain. Review POSS candidates; put 1 in manual_select for chosen rows and rerun.
+credible total - North East,19
+high confidence count - North East,9
+anchor elastic count - North East,1
+other elastic count - North East,9
+total rows output - North East,12
+job_id included - North East,107256886; 6cbc20f8-8dab-4e36-9aea-d5f5aa6639c1; 708d394d-2a23-4d4b-bd20-d93b010bdc3a; 1401783067; beb17a13-0a73-4e65-8043-4a0ba93d3b7e; 90f55d63-912f-41d3-b550-3a080cb49168; 107501464; 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421; 80125070-f907-4977-a6e8-86289aeb44bb; d9021e1d-7f53-4656-95c7-e04cc7100b1e; 107450852; e614c773-7429-4f9a-92e9-067c9292f401
