@@ -16,7 +16,7 @@ job_id: 3ea1f9e6-b959-48af-b520-84e597b09b27
 ---
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
 job_id: 107532972
 ---
@@ -100,7 +100,7 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
 ---
-action:
+action: exclude
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £15.12 per hour (inclusive of holiday pay) | Complex care assistant
 job_id: 107256886
 ---
@@ -144,19 +144,19 @@ job_id: beb17a13-0a73-4e65-8043-4a0ba93d3b7e
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
-action:
+action: exclude
 SELECTED | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
 job_id: 107450852
 ---
 
 ---
-action:
+action: exclude
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
 job_id: 90f55d63-912f-41d3-b550-3a080cb49168
 ---
 
 ---
-action:
+action: exclude
 SELECTED | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
 job_id: 107501464
 ---
@@ -178,25 +178,25 @@ job_id: 80125070-f907-4977-a6e8-86289aeb44bb
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Relief Support Worker
 job_id: d65dd25a-e9dc-4b21-ac8c-28a5f0ed8bcd
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £13.75 per hour | Bank Support Worker
 job_id: 1401783008
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Relief Support Worker
 job_id: 382af74f-b64b-4892-9928-84c6b948a584
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £13.75 per hour | Bank Support Worker
 job_id: 1401783136
 ---
