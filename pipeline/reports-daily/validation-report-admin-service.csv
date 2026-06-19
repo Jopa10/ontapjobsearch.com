@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,1701
-total rows included,2
-total rows dropped,1693
-title classification count - HIGH_CONFIDENCE,245
-title classification count - ELASTIC_FIT,38
+total rows input,1767
+total rows included,3
+total rows dropped,1758
+title classification count - HIGH_CONFIDENCE,255
+title classification count - ELASTIC_FIT,33
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,768
-title classification count - OUT_OF_SCOPE,650
+title classification count - HARD_PASS,816
+title classification count - OUT_OF_SCOPE,663
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - West Yorkshire,West Yorkshire manual rerun: 11 previously SELECTED row(s) retained and 11 manual_select row(s) applied; 11/12 selected. Cap treated as a maximum; auto backfill disabled.
 credible total - West Yorkshire,11
@@ -30,4 +30,4 @@ high confidence count - North East,12
 anchor elastic count - North East,0
 other elastic count - North East,0
 total rows output - North East,6
-job_id included - North East,94af153b-52b5-44ea-96e7-344f451c008b; 963241c7-60ea-48cc-a8cb-6a367d4c2e40; 507c7521-81a4-4ad5-8696-efa1945641b6; c8e62c68-317f-4c17-8b92-017a706f566a; 40c401f3-5f4c-4934-867c-6fcbe4305085; 3eecac21-b795-46e6-a5fe-31d39224dfae
+job_id included - North East,94af153b-52b5-44ea-96e7-344f451c008b; 507c7521-81a4-4ad5-8696-efa1945641b6; c8e62c68-317f-4c17-8b92-017a706f566a; 963241c7-60ea-48cc-a8cb-6a367d4c2e40; 40c401f3-5f4c-4934-867c-6fcbe4305085; 3eecac21-b795-46e6-a5fe-31d39224dfae
