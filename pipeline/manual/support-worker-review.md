@@ -34,7 +34,7 @@ job_id: 20585d98-a078-4458-9f79-86aedd96638a
 ---
 
 ---
-action:
+action: exclude
 SELECTED | West Yorkshire | Leeds | £12.85 per hour | Café Support Worker
 job_id: 09beb366-d247-4caa-b4c8-b8488b7545fd
 ---
