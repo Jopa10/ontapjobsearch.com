@@ -210,7 +210,7 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Stockton-on-tees | £28000 - £30000 per year | Customer Service Admin
 job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
 ---
