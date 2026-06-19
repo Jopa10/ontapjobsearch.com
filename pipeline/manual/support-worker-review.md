@@ -128,25 +128,25 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Support Worker
 job_id: 6cbc20f8-8dab-4e36-9aea-d5f5aa6639c1
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Recovery Support Worker
 job_id: 708d394d-2a23-4d4b-bd20-d93b010bdc3a
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £13.75 per hour | Bank Night Support Worker
 job_id: 1401783067
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Support Worker
 job_id: beb17a13-0a73-4e65-8043-4a0ba93d3b7e
 ---
@@ -154,7 +154,7 @@ job_id: beb17a13-0a73-4e65-8043-4a0ba93d3b7e
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
 job_id: 90f55d63-912f-41d3-b550-3a080cb49168
 ---
