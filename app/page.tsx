@@ -1,5 +1,6 @@
 import westYorkshireSupportWorkerJobs from './west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.json';
+import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
 import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
 import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
@@ -74,6 +75,10 @@ const popularSearches = [
     href: '/south-yorkshire/support-worker',
   },
   {
+    label: 'North East support worker jobs',
+    href: '/north-east/support-worker',
+  },
+  {
     label: 'Browse all jobs',
     href: '/browse-jobs',
   },
@@ -95,6 +100,14 @@ const supportWorkerSlices: SliceCard[] = [
     ctaText: 'Check South Yorkshire page →',
     sliceUrl: '/south-yorkshire/support-worker',
     jobs: southYorkshireSupportWorkerJobs,
+  },
+  {
+    title: 'North East Support Worker Jobs',
+    intro:
+      'Current support-worker roles across Newcastle and the North East.',
+    ctaText: 'View North East jobs →',
+    sliceUrl: '/north-east/support-worker',
+    jobs: northEastSupportWorkerJobs,
   },
 ];
 

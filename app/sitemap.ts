@@ -6,6 +6,7 @@ const routes = [
   '/',
   '/west-yorkshire/support-worker',
   '/south-yorkshire/support-worker',
+  '/north-east/support-worker',
   '/west-yorkshire/service-administrator-jobs',
   '/south-yorkshire/service-administrator-jobs',
   '/north-east/service-administrator-jobs',
