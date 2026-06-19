@@ -1,3 +1,6 @@
+import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
+import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
+
 type BrowseCard = {
   title: string;
   href: string;
@@ -14,6 +17,34 @@ type BrowseSection = {
 
 const activeStatusClassName = 'border-green-200 bg-green-50 text-green-700';
 const pausedStatusClassName = 'border-amber-200 bg-amber-50 text-amber-700';
+
+const getSupportWorkerStatus = (
+  jobs: unknown[],
+  region: string
+): Pick<BrowseCard, 'description' | 'status' | 'statusClassName'> => {
+  if (jobs.length > 0) {
+    return {
+      description: `Current support-worker roles are available across ${region}, with employer-site application links.`,
+      status: 'Active current supply',
+      statusClassName: activeStatusClassName,
+    };
+  }
+
+  return {
+    description: `Support-worker page retained for ${region}. Current support-worker JSON is empty, so supply is paused or limited.`,
+    status: 'Paused / limited current supply',
+    statusClassName: pausedStatusClassName,
+  };
+};
+
+const westYorkshireSupportWorkerStatus = getSupportWorkerStatus(
+  westYorkshireSupportWorkerJobs,
+  'West Yorkshire'
+);
+const southYorkshireSupportWorkerStatus = getSupportWorkerStatus(
+  southYorkshireSupportWorkerJobs,
+  'South Yorkshire'
+);
 
 const jobSections: BrowseSection[] = [
   {
@@ -54,18 +85,12 @@ const jobSections: BrowseSection[] = [
       {
         title: 'West Yorkshire Support Worker Jobs',
         href: '/west-yorkshire/support-worker',
-        description:
-          'Support-worker page retained for West Yorkshire. Current support-worker JSON is empty, so supply is paused or limited.',
-        status: 'Paused / limited current supply',
-        statusClassName: pausedStatusClassName,
+        ...westYorkshireSupportWorkerStatus,
       },
       {
         title: 'South Yorkshire Support Worker Jobs',
         href: '/south-yorkshire/support-worker',
-        description:
-          'Support-worker page retained for South Yorkshire. Current support-worker JSON is empty, so supply is paused or limited.',
-        status: 'Paused / limited current supply',
-        statusClassName: pausedStatusClassName,
+        ...southYorkshireSupportWorkerStatus,
       },
     ],
   },
