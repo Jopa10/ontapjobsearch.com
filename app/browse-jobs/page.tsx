@@ -1,5 +1,6 @@
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
+import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
 
 type BrowseCard = {
   title: string;
@@ -44,6 +45,10 @@ const westYorkshireSupportWorkerStatus = getSupportWorkerStatus(
 const southYorkshireSupportWorkerStatus = getSupportWorkerStatus(
   southYorkshireSupportWorkerJobs,
   'South Yorkshire'
+);
+const northEastSupportWorkerStatus = getSupportWorkerStatus(
+  northEastSupportWorkerJobs,
+  'North East'
 );
 
 const jobSections: BrowseSection[] = [
@@ -91,6 +96,11 @@ const jobSections: BrowseSection[] = [
         title: 'South Yorkshire Support Worker Jobs',
         href: '/south-yorkshire/support-worker',
         ...southYorkshireSupportWorkerStatus,
+      },
+      {
+        title: 'North East Support Worker Jobs',
+        href: '/north-east/support-worker',
+        ...northEastSupportWorkerStatus,
       },
     ],
   },
