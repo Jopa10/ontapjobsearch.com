@@ -167,9 +167,11 @@ EXCLUDE_TERMS = [
 
 REGION_MAP = {
     # Existing V10_3 regions
+    "yorkshire - west": "West Yorkshire",
     "yorkshire (west)": "West Yorkshire",
     "yorkshire west": "West Yorkshire",
     "west yorkshire": "West Yorkshire",
+    "yorkshire - south": "South Yorkshire",
     "yorkshire (south)": "South Yorkshire",
     "yorkshire south": "South Yorkshire",
     "south yorkshire": "South Yorkshire",
