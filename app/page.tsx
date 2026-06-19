@@ -84,31 +84,49 @@ const popularSearches = [
   },
 ];
 
+function createSupportWorkerSlice({
+  region,
+  title,
+  sliceUrl,
+  jobs,
+}: {
+  region: string;
+  title: string;
+  sliceUrl: string;
+  jobs: Job[];
+}): SliceCard {
+  const hasCurrentJobs = jobs.length > 0;
+
+  return {
+    title,
+    intro: hasCurrentJobs
+      ? `Current support-worker roles across ${region}.`
+      : `Paused / limited current supply while suitable support-worker roles are low in ${region}.`,
+    ctaText: hasCurrentJobs ? `View ${region} jobs →` : `Check ${region} page →`,
+    sliceUrl,
+    jobs,
+  };
+}
+
 const supportWorkerSlices: SliceCard[] = [
-  {
+  createSupportWorkerSlice({
+    region: 'West Yorkshire',
     title: 'West Yorkshire Support Worker Jobs',
-    intro:
-      'Paused / limited current supply while suitable support-worker roles are low in West Yorkshire.',
-    ctaText: 'Check West Yorkshire page →',
     sliceUrl: '/west-yorkshire/support-worker',
     jobs: westYorkshireSupportWorkerJobs,
-  },
-  {
+  }),
+  createSupportWorkerSlice({
+    region: 'South Yorkshire',
     title: 'South Yorkshire Support Worker Jobs',
-    intro:
-      'Paused / limited current supply while suitable support-worker roles are low in South Yorkshire.',
-    ctaText: 'Check South Yorkshire page →',
     sliceUrl: '/south-yorkshire/support-worker',
     jobs: southYorkshireSupportWorkerJobs,
-  },
-  {
+  }),
+  createSupportWorkerSlice({
+    region: 'North East',
     title: 'North East Support Worker Jobs',
-    intro:
-      'Current support-worker roles across Newcastle and the North East.',
-    ctaText: 'View North East jobs →',
     sliceUrl: '/north-east/support-worker',
     jobs: northEastSupportWorkerJobs,
-  },
+  }),
 ];
 
 const serviceAdministratorSlices: SliceCard[] = [
