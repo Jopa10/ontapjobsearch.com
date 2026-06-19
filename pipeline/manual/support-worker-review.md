@@ -162,7 +162,7 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Support Worker
 job_id: 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421
 ---
@@ -182,7 +182,7 @@ job_id: 107501464
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
 job_id: d9021e1d-7f53-4656-95c7-e04cc7100b1e
 ---
