@@ -138,7 +138,6 @@ const serviceAdministratorSlices: SliceCard[] = [
   },
 ];
 
-const futureSupportWorkerRegions = ['Lancashire', 'Greater Manchester', 'Cumbria', 'North East'];
 
 function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
   return (
@@ -242,13 +241,13 @@ export default function Page() {
 
         <section className="mt-12">
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
-            Support worker jobs — paused / limited current supply
+            Support worker jobs
           </h2>
           <SliceCardGrid cards={supportWorkerSlices} />
 
           <p className="mt-2 text-xs text-gray-500">
-            Support-worker pages are still available, but current supply is limited. Next regions
-            planned: {futureSupportWorkerRegions.join(', ')}.
+            Current support-worker roles are available in West Yorkshire and the North East. South
+            Yorkshire remains available as a retained page while current supply is limited.
           </p>
         </section>
 
