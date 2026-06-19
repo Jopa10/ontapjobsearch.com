@@ -173,14 +173,14 @@ job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
 
 ---
 action: select
-SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
-job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
+SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
+job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
 
 ---
 action: select
-SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
-job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
+SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
+job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
 ---
 
 ---
