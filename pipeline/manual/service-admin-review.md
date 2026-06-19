@@ -11,60 +11,6 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
-SELECTED | West Yorkshire | Leeds | £12.93 per hour | Administrator
-job_id: 82ae9e09-447e-4f9b-ae9b-68474504990f
----
-
----
-action: select
-SELECTED | West Yorkshire | Dewsbury | £28000 - £30000 per year | Administrator
-job_id: ba59e49d-ab11-4637-ae56-7d0d787a942c
----
-
----
-action: select
-SELECTED | West Yorkshire | Cleckheaton | £26000 - £32000 per year | Client Services Administrator
-job_id: 201e220e-aa0a-422b-b756-19a810b1c8ec
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds |  | Marketing & Office Support Coordinator
-job_id: 107241070
----
-
----
-action: select
-SELECTED | West Yorkshire | Huddersfield | £22000 - £27000 per year | Administrator
-job_id: e18e7052-8c2b-48f7-b4ed-ba5c3a4f5278
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £26897 per year | Administrator
-job_id: b6127a90-c08c-4010-9b17-081b893c6daa
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
-job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
-job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
-job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
----
-
----
-action: select
 SELECTED | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
 job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
 ---
@@ -102,42 +48,6 @@ job_id: bb458098-ce77-414b-baef-317fa4b97214
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
-
----
-action: select
-SELECTED | South Yorkshire | Barnsley | £24500 - £25750 per year | Administrator
-job_id: d1116cfc-c296-4c03-9f35-29c042182837
----
-
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £12.79 per hour | Pensions Administrator - Sheffield
-job_id: 6d141a8a-f55b-4e99-b930-7e97a4e0c326
----
-
----
-action: select
-SELECTED | South Yorkshire | Rotherham | £26000 - £28000 per year | Commerical Office Administrator
-job_id: c1ef9a4d-533d-4ae8-b92a-041499009e4d
----
-
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £25000 per year | Administrator
-job_id: 98178ed7-801d-49d9-86c1-15def8995e52
----
-
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £13.26 per hour | Business Support Officer / Data Entry
-job_id: 1f74cc6f-4e8b-458d-aeb6-f81b2d20ff31
----
-
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £20,982 per annum | Referral & Assessment Coordinator
-job_id: 107425594
----
 
 ---
 action: select
@@ -196,24 +106,6 @@ job_id: 04d36725-d7c8-4940-b556-1e941dd944d1
 ---
 
 ## NORTH EAST — SELECTED
-
----
-action: select
-SELECTED | North East | South Shields | £13.5 per hour | Administrator
-job_id: c8e62c68-317f-4c17-8b92-017a706f566a
----
-
----
-action: select
-SELECTED | North East | Newcastle Upon Tyne | £25000 - £30000 per year | Internal Salesperson (Administrator)
-job_id: 94af153b-52b5-44ea-96e7-344f451c008b
----
-
----
-action: select
-SELECTED | North East | Darlington | £12.9 per hour | Mailroom Administrator
-job_id: 507c7521-81a4-4ad5-8696-efa1945641b6
----
 
 ---
 action: select

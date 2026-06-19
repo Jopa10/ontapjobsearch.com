@@ -1021,8 +1021,8 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
 
     Markdown blocks are intentionally GitHub-editable. Only the action field is
     treated as a human decision: action: exclude becomes FORCE_EXCLUDE and
-    action: select becomes manual_select = 1. SELECTED blocks are remembered as
-    the reviewed selected set for manual rerun mode.
+    action: select becomes manual_select = 1. Historical SELECTED blocks are
+    not retained as protected rows across days.
     """
     try:
         text = MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
@@ -1059,10 +1059,8 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
         if action == "select":
             selections.add(job_id)
 
-        decision = norm(block.get("decision")).upper()
-        summary_decision = norm(block.get("summary")).split("|", 1)[0].strip().upper()
-        if decision == "SELECTED" or summary_decision == "SELECTED":
-            previously_selected.add(job_id)
+        # Do not infer a same-day selection from the generated SELECTED summary.
+        # Only an explicit `action: select` is applied on rerun.
 
     markdown_excludes = sum(1 for value in overrides.values() if value == "FORCE_EXCLUDE")
     return ManualDecisionState(
@@ -1082,9 +1080,9 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
     Read manual rerun decisions from manual/service-admin-review.csv.
 
     When the compact human review CSV is present and readable, the run is
-    treated as an editorial/manual rerun: explicit manual_select rows and rows
-    previously marked SELECTED are the only routine editorial picks retained
-    after credibility checks. The regional cap remains a maximum only.
+    treated as an editorial/manual rerun: only explicit manual_select rows are
+    retained after credibility checks. Previously marked SELECTED rows are not
+    protected across days. The regional cap remains a maximum only.
     """
     try:
         df = pd.read_csv(MANUAL_REVIEW_CSV_PATH, dtype=str).fillna("")
@@ -1105,9 +1103,6 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
 
     has_manual_override = "manual_override" in df.columns
     has_manual_select = "manual_select" in df.columns
-    has_selection_status = "selection_status" in df.columns
-    has_decision = "decision" in df.columns
-
     for _, row in df.iterrows():
         job_id = norm(row.get("job_id"))
         if not job_id:
@@ -1127,10 +1122,8 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
         if has_manual_select and _truthy_manual_marker(row.get("manual_select")):
             selections.add(job_id)
 
-        selection_status = norm(row.get("selection_status")).upper() if has_selection_status else ""
-        decision = norm(row.get("decision")).upper() if has_decision else ""
-        if selection_status == "SELECTED" or decision == "SELECTED":
-            previously_selected.add(job_id)
+        # Do not infer a same-day selection from generated SELECTED/decision
+        # columns. Only explicit manual_select values are applied on rerun.
 
     return ManualDecisionState(
         report_loaded=True,
@@ -1451,15 +1444,17 @@ def anchor_sort_and_cap(
     - Cap remains 12 per region.
     - FORCE_EXCLUDE removes bad rows earlier in process(); human-entered
       exclude is normalised to FORCE_EXCLUDE.
-    - In manual rerun mode, previously SELECTED rows and manual_select = 1 rows are
-      the editorial selection set; routine cap-filling/backfill is disabled.
+    - In manual rerun mode, only current-feed FORCE_INCLUDE and manual_select = 1
+      rows are the editorial selection set; routine cap-filling/backfill is disabled.
     - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
       selected set before routine ranking.
     - POSS rows are shown as the next credible swap/review candidates even when the slice is full.
     """
     final_outputs: dict[str, list[dict[str, Any]]] = {}
     selected_ids: set[str] = set()
-    previously_selected_ids = previously_selected_ids or set()
+    # Historical selected IDs are intentionally ignored; every run is rebuilt
+    # from the current JobG8 feed plus same-day explicit SELECT/EXCLUDE actions.
+    previously_selected_ids = set()
     possible_selection_ids: dict[str, int] = {}
     region_status: dict[str, dict[str, Any]] = {}
 
@@ -1524,11 +1519,6 @@ def anchor_sort_and_cap(
             [item for item in routine if str(item.get("_manual_select", "")).strip() == "1"],
             key=routine_sort_key,
         )
-        previously_selected = sorted(
-            [item for item in routine if str(item.get("job_id", "")) in previously_selected_ids],
-            key=routine_sort_key,
-        )
-
         selected: list[dict[str, Any]] = []
         seen: set[str] = set()
 
@@ -1544,18 +1534,17 @@ def anchor_sort_and_cap(
         credible_total = len(forced + hc + anchor_elastic + other_elastic)
         base_without_manual = len(forced) + len(hc) + len(anchor_elastic)
 
-        region_has_manual_selection_state = bool(forced or previously_selected or manually_selected)
+        region_has_manual_selection_state = bool(forced or manually_selected)
 
         if manual_rerun_mode and region_has_manual_selection_state:
-            # Editorial reruns preserve the reviewed selected set and only add explicit
-            # manual_select rows. Do not refill to the cap from routine HC/elastic pools.
+            # Editorial reruns only apply explicit same-day SELECT/EXCLUDE actions
+            # to jobs still present in the current feed. Do not retain yesterday's
+            # selected IDs and do not refill to the cap from routine HC/elastic pools.
             add_candidates(forced, cap)
-            add_candidates(previously_selected, cap)
             add_candidates(manually_selected, cap)
             scenario = "SCENARIO_MANUAL_RERUN"
             message = (
-                f"{region} manual rerun: {len(previously_selected)} previously SELECTED row(s) retained "
-                f"and {len(manually_selected)} manual_select row(s) applied; "
+                f"{region} manual rerun: {len(manually_selected)} current-feed manual_select row(s) applied; "
                 f"{min(len(selected), cap)}/{cap} selected. Cap treated as a maximum; auto backfill disabled."
             )
         else:
@@ -1833,7 +1822,8 @@ def _manual_review_preview_rows(
     preserved_action_rows: list[dict[str, str]] | None = None,
 ) -> list[dict[str, Any]]:
     """Return compact selected/possible preview rows, keeping actioned rows visible."""
-    preserved_action_rows = preserved_action_rows or []
+    # Do not append historical action rows: the review CSV must reflect only
+    # selected/possible jobs present in today's feed.
     preview_rows: list[dict[str, Any]] = []
     preview_job_ids: set[str] = set()
     groups = [
@@ -1846,14 +1836,7 @@ def _manual_review_preview_rows(
     ]
     for region, status in groups:
         group_rows = _markdown_review_rows(rows, region, status)
-        group_job_ids = {_markdown_value(row.get("job_id")) for row in group_rows}
-        action_rows = [
-            row for row in preserved_action_rows
-            if _markdown_value(row.get("job_id")) not in group_job_ids
-            and _markdown_value(row.get("region")) == region
-            and _markdown_value(row.get("selection_status")) == status
-        ]
-        for row in [*action_rows, *group_rows]:
+        for row in group_rows:
             job_id = _markdown_value(row.get("job_id"))
             if job_id and job_id not in preview_job_ids:
                 preview_rows.append(row)
@@ -1874,7 +1857,8 @@ def write_manual_review_markdown(
 ) -> None:
     """Write the compact GitHub-editable service-admin review Markdown file."""
     preserved_actions = preserved_actions or {}
-    preserved_action_rows = preserved_action_rows or []
+    # Do not append historical action rows: the review Markdown must reflect only
+    # selected/possible jobs present in today's feed.
     lines = [
         "# Service-admin manual review",
         "",
@@ -1900,15 +1884,8 @@ def write_manual_review_markdown(
     for heading, region, status, decision_label in groups:
         lines.extend([f"## {heading}", ""])
         group_rows = _markdown_review_rows(rows, region, status)
-        group_job_ids = {_markdown_value(row.get("job_id")) for row in group_rows}
-        group_action_rows = [
-            row for row in preserved_action_rows
-            if _markdown_value(row.get("job_id")) not in group_job_ids
-            and _markdown_value(row.get("region")) == region
-            and _markdown_value(row.get("selection_status")) == status
-        ]
         review_rows = [
-            row for row in [*group_action_rows, *group_rows]
+            row for row in group_rows
             if _markdown_value(row.get("job_id"))
             and _markdown_value(row.get("job_id")) not in emitted_job_ids
         ]
@@ -1942,94 +1919,9 @@ def write_manual_review_markdown(
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def _manual_protected_selected_ids(manual_decisions: ManualDecisionState) -> set[str]:
-    """Selected review ids that must either be output or explicitly unavailable."""
-    excluded_ids = {
-        job_id for job_id, override in manual_decisions.overrides.items()
-        if override == "FORCE_EXCLUDE"
-    }
-    return (manual_decisions.selections | manual_decisions.previously_selected) - excluded_ids
-
-
-def _load_previous_output_items() -> dict[str, dict[str, Any]]:
-    """Return full job records from existing admin/service output JSON files by job_id."""
-    previous_items: dict[str, dict[str, Any]] = {}
-    for region, filename in OUTPUT_FILES.items():
-        path = OUTPUT_DIR / filename
-        if not path.exists():
-            continue
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-        except Exception as exc:
-            raise SystemExit(f"STOP: could not read previous {region} output JSON at {path}: {exc}") from exc
-        if not isinstance(payload, list):
-            raise SystemExit(f"STOP: previous {region} output JSON at {path} is not a list")
-        for item in payload:
-            if not isinstance(item, dict):
-                continue
-            job_id = norm(item.get("job_id"))
-            if not job_id:
-                continue
-            carried = dict(item)
-            carried_region = norm(carried.get("region"))
-            carried["region"] = COMBINED_OUTPUT_REGION_MAP.get(carried_region, carried_region) or region
-            previous_items[job_id] = carried
-    return previous_items
-
-
-def carry_forward_missing_manual_selected_jobs(
-    outputs: dict[str, list[dict[str, Any]]],
-    manual_decisions: ManualDecisionState,
-) -> None:
-    """Keep manually selected review rows from silently disappearing when absent from JobG8 input."""
-    if not manual_decisions.rerun_mode:
-        return
-
-    protected_ids = _manual_protected_selected_ids(manual_decisions)
-    if not protected_ids:
-        return
-
-    current_ids = {
-        norm(item.get("job_id"))
-        for region_items in outputs.values()
-        for item in region_items
-        if norm(item.get("job_id"))
-    }
-    missing_ids = sorted(protected_ids - current_ids)
-    if not missing_ids:
-        return
-
-    previous_items = _load_previous_output_items()
-    unavailable_ids: list[str] = []
-    for job_id in missing_ids:
-        previous_item = previous_items.get(job_id)
-        if previous_item is None:
-            unavailable_ids.append(job_id)
-            continue
-
-        previous_region = norm(previous_item.get("region"))
-        region = COMBINED_OUTPUT_REGION_MAP.get(previous_region, previous_region)
-        if region not in OUTPUT_FILES:
-            unavailable_ids.append(job_id)
-            continue
-
-        carried_item = clean_record_strings(dict(previous_item))
-        carried_item.update({
-            "_excel_row": 999999,
-            "_manual_override": manual_decisions.overrides.get(job_id, ""),
-            "_manual_select": "1" if job_id in manual_decisions.selections else "",
-            "_title_priority": 0,
-            "_title_classification": "HIGH_CONFIDENCE",
-        })
-        outputs[region].append(carried_item)
-
-    if unavailable_ids:
-        raise SystemExit(
-            "STOP: selected manual-review job(s) cannot be written because full job data is missing "
-            "from the current JobG8 input and previous admin/service output JSON: "
-            + ", ".join(unavailable_ids)
-        )
-
+# Stale-job carry-forward has been removed for service-admin runs. Manual
+# SELECT/EXCLUDE actions are applied only to jobs found in the current JobG8
+# feed; previous output JSON is not read to recover missing job IDs.
 
 def write_outputs(
     outputs: dict[str, list[dict[str, Any]]],
@@ -2042,30 +1934,13 @@ def write_outputs(
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
 
-    carry_forward_missing_manual_selected_jobs(outputs, manual_decisions)
-
     # IMPORTANT: cap first, then write JSON and validation counts from the capped output.
     outputs, region_status = anchor_sort_and_cap(
         outputs,
         report_rows,
         manual_rerun_mode=manual_decisions.rerun_mode,
-        previously_selected_ids=manual_decisions.previously_selected,
+        previously_selected_ids=set(),
     )
-
-    if manual_decisions.rerun_mode:
-        protected_ids = _manual_protected_selected_ids(manual_decisions)
-        output_ids = {
-            norm(item.get("job_id"))
-            for region_items in outputs.values()
-            for item in region_items
-            if norm(item.get("job_id"))
-        }
-        missing_selected_ids = sorted(protected_ids - output_ids)
-        if missing_selected_ids:
-            raise SystemExit(
-                "STOP: selected manual-review job(s) were available but not present after capping: "
-                + ", ".join(missing_selected_ids)
-            )
 
     for region, filename in OUTPUT_FILES.items():
         path = OUTPUT_DIR / filename
