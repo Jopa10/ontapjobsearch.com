@@ -17,6 +17,12 @@ job_id: 3ea1f9e6-b959-48af-b520-84e597b09b27
 
 ---
 action:
+SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
+---
+
+---
+action:
 SELECTED | West Yorkshire | Wakefield | £12.85 per hour | Support Worker
 job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
 ---
@@ -31,12 +37,6 @@ job_id: 61814290-f279-4b96-9e18-3082feb94231
 action:
 SELECTED | West Yorkshire | Bradford | £12.85 per hour | Crisis Support Worker
 job_id: 20585d98-a078-4458-9f79-86aedd96638a
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Leeds | £12.85 per hour | Café Support Worker
-job_id: 09beb366-d247-4caa-b4c8-b8488b7545fd
 ---
 
 ---
@@ -151,20 +151,20 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: beb17a13-0a73-4e65-8043-4a0ba93d3b7e
 ---
 
----
-action:
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Support Worker
-job_id: 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
+job_id: 90f55d63-912f-41d3-b550-3a080cb49168
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
+job_id: 107501464
+---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
 
----
-action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Support Worker
-job_id: 80125070-f907-4977-a6e8-86289aeb44bb
----
+_No jobs in this group._
