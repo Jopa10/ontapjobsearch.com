@@ -60,7 +60,7 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
 job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
 ---
@@ -200,7 +200,7 @@ job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Darlington | £12.86 per hour | Admin Officer - Darlington Magistrates Court
 job_id: 107540150
 ---
