@@ -147,6 +147,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £13.75 p
 job_id: 1401783136
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Ashington | £13.21 per hour | Care Assistant - Care Home
+job_id: aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -168,12 +174,6 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Ashington | £13.21 per hour | Care Assistant - Care Home
-job_id: aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b
----
-
----
 action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
 job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
@@ -191,6 +191,12 @@ job_id: 107501464
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
 job_id: 107555899
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
+job_id: 107450852
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
