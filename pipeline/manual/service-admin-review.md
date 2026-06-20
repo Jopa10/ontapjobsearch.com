@@ -24,7 +24,7 @@ job_id: 107506827
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £32000 per year | Financial Planning Administrator
 job_id: 16ba2d14-bb19-4608-b959-c8b095d8086e
 ---
@@ -36,7 +36,7 @@ job_id: 107417429
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £28000 per year | Customer Service Administrator 12 month FTC
 job_id: 1763d5cf-31ce-4823-8dbd-4324fd412b2f
 ---
@@ -48,13 +48,13 @@ job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
 job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
 job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 ---
@@ -112,7 +112,7 @@ job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator
 job_id: 04d36725-d7c8-4940-b556-1e941dd944d1
 ---
@@ -152,7 +152,7 @@ job_id: d5a6637f-52b8-463d-bd6c-54a956157284
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne |  | Pensions Administrator
 job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
 ---
@@ -164,13 +164,13 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
 job_id: 107472400
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Tyne And Wear | £28000 - £30000 per year | Claims Administrator
 job_id: 26ff2915-7e9a-4f00-8d47-962137c69ff8
 ---
