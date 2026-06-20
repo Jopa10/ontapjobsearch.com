@@ -37,14 +37,26 @@ job_id: 107417429
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £28000 per year | Customer Service Administrator 12 month FTC
+job_id: 1763d5cf-31ce-4823-8dbd-4324fd412b2f
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £28000 - £33000 per year | IFA Administrator
 job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
 ---
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | Ifa Administrator
-job_id: bb458098-ce77-414b-baef-317fa4b97214
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
+job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
+job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -153,12 +165,18 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 
 ---
 action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
+job_id: 107472400
+---
+
+---
+action:
 POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
 job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
 
 ---
 action:
-POSS - NORTH EAST | North East | Middlesbrough | £28000 - £32000 per year | Financial Services Administrator
-job_id: c15991d7-bc2b-4a3d-b5e5-67c171297e77
+POSS - NORTH EAST | North East | Darlington | £12.86 per hour | Admin Officer - Darlington Magistrates Court
+job_id: 107540150
 ---

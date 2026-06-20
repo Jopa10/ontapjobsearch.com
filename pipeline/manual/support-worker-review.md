@@ -17,12 +17,6 @@ job_id: 3ea1f9e6-b959-48af-b520-84e597b09b27
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
-job_id: 107532972
----
-
----
-action:
 SELECTED | West Yorkshire | Wakefield | £12.85 per hour | Support Worker
 job_id: 15c54fc7-5371-42d2-af87-64ee2a9215e7
 ---
@@ -43,12 +37,6 @@ job_id: 20585d98-a078-4458-9f79-86aedd96638a
 action:
 SELECTED | West Yorkshire | Leeds | £12.85 per hour | Café Support Worker
 job_id: 09beb366-d247-4caa-b4c8-b8488b7545fd
----
-
----
-action:
-SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
-job_id: 107464615
 ---
 
 ---
@@ -89,8 +77,14 @@ job_id: 52e8a656-b195-4919-b776-6f15f4f25694
 
 ---
 action:
+SELECTED | South Yorkshire | Sheffield | £92.63 - £100 per daily | Behaviour Support Assistant
+job_id: 8d571880-266d-45cf-922d-664a4e281ac6
+---
+
+---
+action:
 SELECTED | South Yorkshire | Barnsley | £13.21 per hour | Relief Extra Care Support Worker
-job_id: b4bb895f-a331-4a46-8e07-0ee304e17c4f
+job_id: 0a279396-766f-4817-b4d0-5cf1188e0772
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -175,14 +169,14 @@ _No jobs in this group._
 
 ---
 action:
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £15.12 per hour (inclusive of holiday pay) | Complex care assistant
-job_id: 107256886
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Ashington | £13.21 per hour | Care Assistant - Care Home
+job_id: aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b
 ---
 
 ---
 action:
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Female Relief Support Worker
-job_id: e614c773-7429-4f9a-92e9-067c9292f401
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
+job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
@@ -195,8 +189,8 @@ job_id: 107501464
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
-job_id: 107450852
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
+job_id: 107555899
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
@@ -209,6 +203,6 @@ job_id: 80125070-f907-4977-a6e8-86289aeb44bb
 
 ---
 action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Relief Support Worker
-job_id: ff2a1185-992d-48d3-adea-0d2c98869ddc
+POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
+job_id: 0032953b-094a-4366-901b-06c4150f2075
 ---
