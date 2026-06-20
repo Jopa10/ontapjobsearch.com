@@ -157,7 +157,7 @@ const serviceAdministratorSlices: SliceCard[] = [
 ];
 
 function CardHeading({ title }: { title: string }) {
-  return <h3 className="mb-1 text-lg font-semibold leading-tight">{title}</h3>;
+  return <h3 className="mb-1 text-lg font-semibold leading-tight lg:whitespace-nowrap">{title}</h3>;
 }
 
 function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
@@ -250,7 +250,8 @@ export default function Page() {
         </h1>
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
-          Current service administrator, office support and customer-service roles across Yorkshire and the North East. Updated daily; apply directly on employer sites.
+          Current service administrator, office support and customer-service roles across Yorkshire
+          and the North East. Updated daily; apply directly on employer sites.
         </p>
 
         <section className="mb-5">
@@ -261,9 +262,7 @@ export default function Page() {
         </section>
 
         <section className="mt-12">
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">
-            Support worker jobs
-          </h2>
+          <h2 className="mb-2 text-2xl font-semibold tracking-tight">Support worker jobs</h2>
           <SliceCardGrid cards={supportWorkerSlices} />
 
           <p className="mt-2 text-xs text-gray-500">
