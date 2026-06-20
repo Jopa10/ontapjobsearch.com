@@ -41,6 +41,12 @@ job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
 
 ---
 action: select
+SELECTED | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
+job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
+---
+
+---
+action: select
 SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
 ---
@@ -57,12 +63,6 @@ job_id: 107417429
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £28000 - £33000 per year | IFA Administrator
 job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
-job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
 ---
 
 ---
@@ -179,6 +179,12 @@ SELECTED | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesp
 job_id: 107472400
 ---
 
+---
+action: select
+SELECTED | North East | Darlington | £12.86 per hour | Admin Officer - Darlington Magistrates Court
+job_id: 107540150
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -197,10 +203,4 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 action:
 POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
 job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
----
-
----
-action: select
-POSS - NORTH EAST | North East | Darlington | £12.86 per hour | Admin Officer - Darlington Magistrates Court
-job_id: 107540150
 ---
