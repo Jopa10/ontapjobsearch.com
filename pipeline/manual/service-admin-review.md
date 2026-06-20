@@ -171,12 +171,12 @@ job_id: 107472400
 
 ---
 action:
-POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
-job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
+POSS - NORTH EAST | North East | Tyne And Wear | £28000 - £30000 per year | Claims Administrator
+job_id: 26ff2915-7e9a-4f00-8d47-962137c69ff8
 ---
 
 ---
 action:
-POSS - NORTH EAST | North East | Darlington | £12.86 per hour | Admin Officer - Darlington Magistrates Court
-job_id: 107540150
+POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
+job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
