@@ -25,9 +25,9 @@ total rows output - South Yorkshire,5
 job_id included - South Yorkshire,8d571880-266d-45cf-922d-664a4e281ac6; 26035_20800_REF11862C; 26035_20800_REF11757I; 52e8a656-b195-4919-b776-6f15f4f25694; 0a279396-766f-4817-b4d0-5cf1188e0772
 selection scenario - North East,SCENARIO_MANUAL_RERUN
 selection message - North East,North East manual rerun: 11 current-feed manual_select row(s) applied; 11/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - North East,23
+credible total - North East,26
 high confidence count - North East,13
 anchor elastic count - North East,0
-other elastic count - North East,10
+other elastic count - North East,13
 total rows output - North East,11
 job_id included - North East,6cbc20f8-8dab-4e36-9aea-d5f5aa6639c1; 708d394d-2a23-4d4b-bd20-d93b010bdc3a; 1401783067; beb17a13-0a73-4e65-8043-4a0ba93d3b7e; 90f55d63-912f-41d3-b550-3a080cb49168; 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421; d9021e1d-7f53-4656-95c7-e04cc7100b1e; d65dd25a-e9dc-4b21-ac8c-28a5f0ed8bcd; 1401783008; 382af74f-b64b-4892-9928-84c6b948a584; 1401783136
