@@ -57,7 +57,7 @@ const jobSections: BrowseSection[] = [
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
     cards: [
       {
-        title: 'West Yorkshire Service Administrator Jobs',
+        title: 'West Yorkshire Admin & Customer Service Jobs',
         href: '/west-yorkshire/service-administrator-jobs',
         description:
           'Service administrator, customer service administrator and office support roles across Leeds and West Yorkshire.',
@@ -65,7 +65,7 @@ const jobSections: BrowseSection[] = [
         statusClassName: activeStatusClassName,
       },
       {
-        title: 'South Yorkshire Service Administrator Jobs',
+        title: 'South Yorkshire Admin & Customer Service Jobs',
         href: '/south-yorkshire/service-administrator-jobs',
         description:
           'Service administrator, customer service administrator and office support roles across Sheffield and South Yorkshire.',
@@ -73,7 +73,7 @@ const jobSections: BrowseSection[] = [
         statusClassName: activeStatusClassName,
       },
       {
-        title: 'North East Service Administrator Jobs',
+        title: 'North East Admin & Customer Service Jobs',
         href: '/north-east/service-administrator-jobs',
         description:
           'Service administrator, customer service administrator and office support roles across Newcastle and the North East.',
@@ -134,7 +134,9 @@ export default function Page() {
                   className="block rounded-xl border border-gray-200 bg-white p-4 text-gray-900 transition hover:border-blue-300 hover:bg-blue-50"
                 >
                   <div className="mb-3 flex flex-wrap items-start justify-between gap-2">
-                    <h3 className="text-lg font-semibold leading-tight">{card.title}</h3>
+                    <h3 className="text-lg font-semibold leading-tight lg:whitespace-nowrap">
+                      {card.title}
+                    </h3>
                     <span
                       className={`rounded-full border px-2.5 py-1 text-xs font-semibold ${card.statusClassName}`}
                     >
