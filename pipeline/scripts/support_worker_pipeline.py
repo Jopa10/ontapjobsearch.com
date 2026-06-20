@@ -96,6 +96,7 @@ COL = {
     "advertiser_type": "/Job/AdvertiserType",
     "employment_type": "/Job/EmploymentType",
     "area": "/Job/Area",
+    "location": "/Job/Location",
     "apply_url": "/Job/ApplicationURL",
     "description": "/Job/Description",
     "salary_min": "/Job/SalaryMinimum",
@@ -114,6 +115,7 @@ REQUIRED_COLUMNS = [
     COL["advertiser_type"],
     COL["employment_type"],
     COL["area"],
+    COL["location"],
     COL["apply_url"],
     COL["description"],
 ]
@@ -591,11 +593,91 @@ def read_table(path: Path) -> pd.DataFrame:
     raise ValueError(f"Unsupported file type: {path.name}")
 
 
-def _table_has_columns(path: Path, required: set[str]) -> bool:
+
+
+def read_xlsx_sheet(path: Path, sheet_name: str | int = 0, nrows: int | None = None) -> pd.DataFrame:
+    """Read one XLSX sheet using pandas when available, with a stdlib fallback for the local shim."""
+    try:
+        return pd.read_excel(path, dtype=str, nrows=nrows, sheet_name=sheet_name)
+    except TypeError:
+        pass
+
+    import zipfile
+    from html import unescape
+    from xml.etree import ElementTree as ET
+
+    def namespace(tag: str) -> str:
+        return tag[1:].split("}", 1)[0] if tag.startswith("{") else ""
+
+    def column_index(cell_ref: str) -> int:
+        value = 0
+        for char in "".join(ch for ch in cell_ref if ch.isalpha()):
+            value = value * 26 + ord(char.upper()) - ord("A") + 1
+        return value or 1
+
+    with zipfile.ZipFile(path) as archive:
+        workbook = ET.fromstring(archive.read("xl/workbook.xml"))
+        workbook_ns = namespace(workbook.tag)
+        rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
+        rels_ns = namespace(rels.tag)
+        rel_targets = {rel.attrib.get("Id"): rel.attrib.get("Target", "").lstrip("/") for rel in rels.findall(f"{{{rels_ns}}}Relationship")}
+        sheets = workbook.findall(f"{{{workbook_ns}}}sheets/{{{workbook_ns}}}sheet")
+        if isinstance(sheet_name, int):
+            sheet = sheets[sheet_name]
+        else:
+            sheet = next((candidate for candidate in sheets if candidate.attrib.get("name") == sheet_name), None)
+            if sheet is None:
+                raise ValueError(f"worksheet named {sheet_name!r} not found")
+        rel_id = sheet.attrib.get("{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id")
+        sheet_path = rel_targets.get(rel_id, "")
+        if not sheet_path.startswith("xl/"):
+            sheet_path = "xl/" + sheet_path
+
+        shared_strings: list[str] = []
+        if "xl/sharedStrings.xml" in archive.namelist():
+            shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+            shared_ns = namespace(shared_root.tag)
+            for item in shared_root.findall(f"{{{shared_ns}}}si"):
+                shared_strings.append(unescape("".join(node.text or "" for node in item.findall(f".//{{{shared_ns}}}t"))))
+
+        root = ET.fromstring(archive.read(sheet_path))
+    sheet_ns = namespace(root.tag)
+    rows: list[list[str]] = []
+    for row_node in root.findall(f".//{{{sheet_ns}}}sheetData/{{{sheet_ns}}}row"):
+        row_values: list[str] = []
+        for cell in row_node.findall(f"{{{sheet_ns}}}c"):
+            while len(row_values) < column_index(cell.attrib.get("r", "")) - 1:
+                row_values.append("")
+            cell_type = cell.attrib.get("t")
+            if cell_type == "inlineStr":
+                value = unescape("".join(node.text or "" for node in cell.findall(f".//{{{sheet_ns}}}t")))
+            else:
+                value_node = cell.find(f"{{{sheet_ns}}}v")
+                value = value_node.text if value_node is not None else ""
+                if cell_type == "s" and value:
+                    value = shared_strings[int(value)] if int(value) < len(shared_strings) else ""
+            row_values.append(value or "")
+        rows.append(row_values)
+        if nrows == 0 and rows:
+            break
+        if nrows is not None and nrows > 0 and len(rows) > nrows:
+            break
+    if not rows:
+        return pd.DataFrame([])
+    columns = [str(cell or "") for cell in rows[0]]
+    if nrows == 0:
+        return pd.DataFrame([], columns=columns)
+    data_rows = []
+    for row in rows[1:]:
+        padded = row + [""] * max(0, len(columns) - len(row))
+        data_rows.append({columns[idx]: padded[idx] if idx < len(padded) else "" for idx in range(len(columns))})
+    return pd.DataFrame(data_rows, columns=columns)
+
+def _table_has_columns(path: Path, required: set[str], sheet_name: str | int = 0) -> bool:
     """Cheap header check used to identify lookup/register files safely."""
     try:
         if path.suffix.lower() in {".xlsx", ".xls"}:
-            cols = set(pd.read_excel(path, dtype=str, nrows=0).columns)
+            cols = set(read_xlsx_sheet(path, sheet_name=sheet_name, nrows=0).columns)
         elif path.suffix.lower() == ".csv":
             cols = set(pd.read_csv(path, dtype=str, nrows=0).columns)
         else:
@@ -679,6 +761,12 @@ def find_lookup_file(job_file: Path) -> Path:
             "STOP: default geo lookup file must contain columns named exactly: Area, Cluster "
             f"({DEFAULT_GEO_LOOKUP_DISPLAY_PATH})"
         )
+    if not _table_has_columns(DEFAULT_GEO_LOOKUP_PATH, {"Status", "Location", "Cluster"}, sheet_name="LocationFallback"):
+        raise SystemExit(
+            "STOP: default geo lookup file must contain a LocationFallback sheet with columns named exactly: "
+            "Status, Location, Cluster "
+            f"({DEFAULT_GEO_LOOKUP_DISPLAY_PATH})"
+        )
     return DEFAULT_GEO_LOOKUP_PATH
 
 def validate_job_columns(df: pd.DataFrame) -> None:
@@ -703,6 +791,29 @@ def build_lookup(lookup_df: pd.DataFrame) -> dict[str, str]:
     if not lookup:
         raise SystemExit("STOP: lookup file contains no supported V11 region areas after mapping Cluster values.")
     return lookup
+
+
+def build_location_fallback_lookup(fallback_df: pd.DataFrame) -> dict[str, str]:
+    required = {"Status", "Location", "Cluster"}
+    if not required.issubset(set(fallback_df.columns)):
+        raise SystemExit("STOP: LocationFallback sheet must contain columns named exactly: Status, Location, Cluster")
+
+    lookup: dict[str, str] = {}
+    for _, row in fallback_df.iterrows():
+        if norm_key(row.get("Status")) != "auto":
+            continue
+        location = norm_key(row.get("Location"))
+        cluster = norm_key(row.get("Cluster"))
+        if not location or not cluster:
+            continue
+        region = REGION_MAP.get(cluster)
+        if region:
+            lookup[location] = region
+    return lookup
+
+
+def area_is_unusable(area: str) -> bool:
+    return norm_key(area) in {"", "not specified", "unknown"}
 
 
 def publish_region_for(report_region: str) -> str:
@@ -1287,6 +1398,7 @@ def title_filter_details(title: str) -> tuple[list[str], list[str]]:
 def process(
     job_df: pd.DataFrame,
     lookup: dict[str, str],
+    location_fallback_lookup: dict[str, str],
     overrides: dict[str, str],
     manual_selects: set[str],
     title_register: dict[str, dict[str, str]],
@@ -1300,6 +1412,7 @@ def process(
         job_id = norm(row.get(COL["job_id"]))
         title = norm(row.get(COL["title"]))
         area = norm(row.get(COL["area"]))
+        location = norm(row.get(COL["location"]))
         apply_url = norm(row.get(COL["apply_url"]))
         raw_description = norm(row.get(COL["description"]))
         description_preview = make_description_preview(raw_description) if raw_description else ""
@@ -1308,6 +1421,8 @@ def process(
         manual_override = overrides.get(job_id, "")
         manual_select = "1" if job_id in manual_selects else ""
         title_classification, title_classification_reason, title_priority, review_status = classify_title(title, title_register)
+        geo_source = ""
+        town = area
 
         def add_report(decision: str, reason: str, region: str = "") -> None:
             report_rows.append({
@@ -1322,11 +1437,12 @@ def process(
                 "excel_row": excel_row,
                 "job_id": job_id,
                 "title": title,
-                "town": area,
+                "town": town,
                 "region": region,
                 "employment_type": employment_type,
                 "salary_text": salary_text_preview,
                 "salary_source": salary_source,
+                "geo_source": geo_source,
                 "description_preview": description_preview,
                 "title_classification": title_classification,
                 "title_priority": title_priority,
@@ -1346,13 +1462,19 @@ def process(
         if not title:
             drop("missing title")
             continue
-        if not area:
-            drop("invalid location: blank /Job/Area")
-            continue
-        report_region = lookup.get(norm_key(area))
-        if not report_region:
-            drop("invalid location: town not in lookup")
-            continue
+        if area_is_unusable(area):
+            town = location
+            report_region = location_fallback_lookup.get(norm_key(location))
+            if not report_region:
+                drop("invalid location: /Job/Area unusable and /Job/Location not in AUTO fallback lookup")
+                continue
+            geo_source = "location_fallback"
+        else:
+            report_region = lookup.get(norm_key(area))
+            if not report_region:
+                drop("invalid location: town not in lookup")
+                continue
+            geo_source = "area"
         publish_region = publish_region_for(report_region)
         if publish_region not in OUTPUT_FILES:
             drop("outside support-worker V_12 target regions", report_region)
@@ -1397,7 +1519,7 @@ def process(
             "job_id": job_id,
             "title": title,
             "company": build_company(row),
-            "location": area,
+            "location": town,
             "region": publish_region,
             "_report_region": report_region,
             "country": "UK",
@@ -1718,6 +1840,7 @@ def decision_report_fieldnames() -> list[str]:
         "employment_type",
         "salary_text",
         "salary_source",
+        "geo_source",
         "description_preview",
 
         # Audit/detail columns pushed right.
@@ -2028,8 +2151,10 @@ def main() -> int:
 
     print(f"Default geo lookup path: {DEFAULT_GEO_LOOKUP_DISPLAY_PATH}")
     print(f"Reading lookup file: {lookup_file}")
-    lookup_df = read_table(lookup_file)
+    lookup_df = read_xlsx_sheet(lookup_file)
+    location_fallback_df = read_xlsx_sheet(lookup_file, sheet_name="LocationFallback")
     lookup = build_lookup(lookup_df)
+    location_fallback_lookup = build_location_fallback_lookup(location_fallback_df)
 
     support_worker_csv_review_exists = MANUAL_REVIEW_CSV_PATH.exists()
     support_worker_markdown_review_exists = MANUAL_REVIEW_MD_PATH.exists()
@@ -2056,7 +2181,7 @@ def main() -> int:
     else:
         print("Title classification register loaded: 0; using embedded V9 rule seeds")
 
-    outputs, report_rows = process(job_df, lookup, overrides, manual_selects, title_register)
+    outputs, report_rows = process(job_df, lookup, location_fallback_lookup, overrides, manual_selects, title_register)
     markdown_review_created, csv_review_created = write_outputs(outputs, report_rows, len(job_df), manual_decisions)
     print(f"Support-worker CSV review file created: {'yes' if csv_review_created else 'no'}")
     print("Support-worker CSV review file committed: no")
