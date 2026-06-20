@@ -156,6 +156,9 @@ const serviceAdministratorSlices: SliceCard[] = [
   },
 ];
 
+function CardHeading({ title }: { title: string }) {
+  return <h3 className="mb-1 text-lg font-semibold leading-tight">{title}</h3>;
+}
 
 function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
   return (
@@ -165,7 +168,7 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
           key={card.sliceUrl}
           className="rounded-xl border border-gray-200 p-2.5 hover:border-blue-300 hover:bg-blue-50"
         >
-          <h3 className="mb-1 text-lg font-semibold leading-tight">{card.title}</h3>
+          <CardHeading title={card.title} />
 
           <p className="mb-2 text-sm leading-snug text-gray-600">{card.intro}</p>
 
