@@ -51,6 +51,12 @@ SELECTED | West Yorkshire | Holmfirth | £27976 per year (+£60 per sleep-in)) |
 job_id: 1401782970
 ---
 
+---
+action:
+SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+job_id: 107464615
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -84,7 +90,7 @@ job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 ---
 action:
 SELECTED | South Yorkshire | Barnsley | £13.21 per hour | Relief Extra Care Support Worker
-job_id: 0a279396-766f-4817-b4d0-5cf1188e0772
+job_id: cf5570c0-1ef5-42ac-b165-59f56c290c1c
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -179,18 +185,18 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 ---
 
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Northumberland | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
+job_id: 107199252
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
 job_id: 107501464
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
-job_id: 107555899
 ---
 
 ---

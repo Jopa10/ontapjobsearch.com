@@ -179,12 +179,6 @@ SELECTED | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesp
 job_id: 107472400
 ---
 
----
-action: select
-SELECTED | North East | Darlington | £12.86 per hour | Admin Officer - Darlington Magistrates Court
-job_id: 107540150
----
-
 ## NORTH EAST — POSSIBLES
 
 ---
