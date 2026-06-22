@@ -200,7 +200,7 @@ job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Durham | £30000 per year | Support/Housing Management Coordinator
 job_id: 107473649
 ---
