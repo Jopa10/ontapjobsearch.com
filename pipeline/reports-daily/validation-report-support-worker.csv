@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,1987
-total rows included,25
+total rows input,1986
+total rows included,24
 total rows dropped,1956
-title classification count - HIGH_CONFIDENCE,211
-title classification count - ELASTIC_FIT,177
+title classification count - HIGH_CONFIDENCE,203
+title classification count - ELASTIC_FIT,174
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
-title classification count - HARD_PASS,1201
-title classification count - OUT_OF_SCOPE,397
+title classification count - HARD_PASS,1239
+title classification count - OUT_OF_SCOPE,369
 selection scenario - West Yorkshire,SCENARIO_3_ACTION_REQUIRED
-selection message - West Yorkshire,West Yorkshire selection incomplete: 6/12 selected after HIGH_CONFIDENCE + Leeds ELASTIC_FIT. 6 slots remain. Review POSS candidates; put 1 in manual_select for chosen rows and rerun.
-credible total - West Yorkshire,8
-high confidence count - West Yorkshire,5
+selection message - West Yorkshire,West Yorkshire selection incomplete: 7/12 selected after HIGH_CONFIDENCE + Leeds ELASTIC_FIT. 5 slots remain. Review POSS candidates; put 1 in manual_select for chosen rows and rerun.
+credible total - West Yorkshire,9
+high confidence count - West Yorkshire,6
 anchor elastic count - West Yorkshire,1
 other elastic count - West Yorkshire,2
-total rows output - West Yorkshire,8
-job_id included - West Yorkshire,09beb366-d247-4caa-b4c8-b8488b7545fd; a948b42d-63da-4dda-8230-4cab46aa631d; 61814290-f279-4b96-9e18-3082feb94231; 20585d98-a078-4458-9f79-86aedd96638a; 15c54fc7-5371-42d2-af87-64ee2a9215e7; 107464615; 3ea1f9e6-b959-48af-b520-84e597b09b27; 1401782970
+total rows output - West Yorkshire,9
+job_id included - West Yorkshire,09beb366-d247-4caa-b4c8-b8488b7545fd; a948b42d-63da-4dda-8230-4cab46aa631d; 61814290-f279-4b96-9e18-3082feb94231; 20585d98-a078-4458-9f79-86aedd96638a; 107532972; 15c54fc7-5371-42d2-af87-64ee2a9215e7; 107464615; 3ea1f9e6-b959-48af-b520-84e597b09b27; 1401782970
 selection scenario - South Yorkshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - South Yorkshire,South Yorkshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - South Yorkshire,5
@@ -22,12 +22,12 @@ high confidence count - South Yorkshire,2
 anchor elastic count - South Yorkshire,1
 other elastic count - South Yorkshire,2
 total rows output - South Yorkshire,5
-job_id included - South Yorkshire,8d571880-266d-45cf-922d-664a4e281ac6; 26035_20800_REF11862C; 26035_20800_REF11757I; 52e8a656-b195-4919-b776-6f15f4f25694; cf5570c0-1ef5-42ac-b165-59f56c290c1c
+job_id included - South Yorkshire,8d571880-266d-45cf-922d-664a4e281ac6; 26035_20800_REF11862C; 26035_20800_REF11757I; 52e8a656-b195-4919-b776-6f15f4f25694; e4d70e45-94ec-4c3c-a48d-4562a2bab1d1
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 12 current-feed manual_select row(s) applied; 12/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - North East,24
-high confidence count - North East,12
+selection message - North East,North East manual rerun: 10 current-feed manual_select row(s) applied; 10/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - North East,21
+high confidence count - North East,11
 anchor elastic count - North East,0
-other elastic count - North East,12
-total rows output - North East,12
-job_id included - North East,6cbc20f8-8dab-4e36-9aea-d5f5aa6639c1; 708d394d-2a23-4d4b-bd20-d93b010bdc3a; 1401783067; beb17a13-0a73-4e65-8043-4a0ba93d3b7e; 90f55d63-912f-41d3-b550-3a080cb49168; 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421; d9021e1d-7f53-4656-95c7-e04cc7100b1e; aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b; d65dd25a-e9dc-4b21-ac8c-28a5f0ed8bcd; 1401783008; 382af74f-b64b-4892-9928-84c6b948a584; 1401783136
+other elastic count - North East,10
+total rows output - North East,10
+job_id included - North East,6cbc20f8-8dab-4e36-9aea-d5f5aa6639c1; 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421; 708d394d-2a23-4d4b-bd20-d93b010bdc3a; 1401783067; beb17a13-0a73-4e65-8043-4a0ba93d3b7e; d9021e1d-7f53-4656-95c7-e04cc7100b1e; aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b; 382af74f-b64b-4892-9928-84c6b948a584; 1401783136; 1401783008
