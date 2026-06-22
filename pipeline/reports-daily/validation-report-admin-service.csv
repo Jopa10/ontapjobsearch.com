@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,1986
-total rows included,20
+total rows included,21
 total rows dropped,1955
 title classification count - HIGH_CONFIDENCE,288
 title classification count - ELASTIC_FIT,35
@@ -24,10 +24,10 @@ other elastic count - South Yorkshire,0
 total rows output - South Yorkshire,6
 job_id included - South Yorkshire,8f194adc-4915-49ab-a454-d97355ec47c9; 4499ecdd-06ff-4bf1-a429-db09e106917b; 6cfd1576-3aa0-4156-b992-90e9d8fd9e49; d8ec77ff-1d1d-4723-9e52-90343c20eacc; 316a637a-28b0-4ad0-a0ab-aca40781d90e; 04d36725-d7c8-4940-b556-1e941dd944d1
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 7 current-feed manual_select row(s) applied; 7/12 selected. Cap treated as a maximum; auto backfill disabled.
+selection message - North East,North East manual rerun: 8 current-feed manual_select row(s) applied; 8/12 selected. Cap treated as a maximum; auto backfill disabled.
 credible total - North East,11
 high confidence count - North East,10
 anchor elastic count - North East,0
 other elastic count - North East,1
-total rows output - North East,7
-job_id included - North East,963241c7-60ea-48cc-a8cb-6a367d4c2e40; 479a0999-012a-4359-9f87-6afb4a688cc4; 107472400; 40c401f3-5f4c-4934-867c-6fcbe4305085; 3eecac21-b795-46e6-a5fe-31d39224dfae; c4782b5a-061f-4adf-8c0e-fcd5d5900364; 26ff2915-7e9a-4f00-8d47-962137c69ff8
+total rows output - North East,8
+job_id included - North East,963241c7-60ea-48cc-a8cb-6a367d4c2e40; 479a0999-012a-4359-9f87-6afb4a688cc4; 107472400; 40c401f3-5f4c-4934-867c-6fcbe4305085; 3eecac21-b795-46e6-a5fe-31d39224dfae; c4782b5a-061f-4adf-8c0e-fcd5d5900364; 26ff2915-7e9a-4f00-8d47-962137c69ff8; 107473649
