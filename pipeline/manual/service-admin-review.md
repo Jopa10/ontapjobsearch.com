@@ -179,6 +179,12 @@ SELECTED | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesp
 job_id: 107472400
 ---
 
+---
+action: select
+SELECTED | North East | Durham | £30000 per year | Support/Housing Management Coordinator
+job_id: 107473649
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -197,10 +203,4 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 action:
 POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
 job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
----
-
----
-action: select
-POSS - NORTH EAST | North East | Durham | £30000 per year | Support/Housing Management Coordinator
-job_id: 107473649
 ---
