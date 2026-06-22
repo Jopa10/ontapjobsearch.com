@@ -57,6 +57,12 @@ SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
 job_id: 107464615
 ---
 
+---
+action:
+SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -90,7 +96,7 @@ job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 ---
 action:
 SELECTED | South Yorkshire | Barnsley | £13.21 per hour | Relief Extra Care Support Worker
-job_id: cf5570c0-1ef5-42ac-b165-59f56c290c1c
+job_id: e4d70e45-94ec-4c3c-a48d-4562a2bab1d1
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -98,12 +104,6 @@ job_id: cf5570c0-1ef5-42ac-b165-59f56c290c1c
 _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Relief Support Worker
-job_id: d65dd25a-e9dc-4b21-ac8c-28a5f0ed8bcd
----
 
 ---
 action: select
@@ -160,12 +160,6 @@ job_id: aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
-
----
-action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
-job_id: 90f55d63-912f-41d3-b550-3a080cb49168
----
 
 ---
 action: select
