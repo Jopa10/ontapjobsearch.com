@@ -135,12 +135,24 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Ashington | £13.2
 job_id: aaae1d93-c0b4-4c52-a7e4-5603dfae4a2b
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
+job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
 job_id: d9021e1d-7f53-4656-95c7-e04cc7100b1e
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
+job_id: ffbd2625-c6c8-4310-8a8e-90ad6adfe99c
 ---
 
 ## NORTH EAST - TEES VALLEY — SELECTED
@@ -150,9 +162,15 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
-job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Northumberland | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
+job_id: 107199252
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Female Relief Support Worker
+job_id: 61a62654-0e20-4cb7-9dc7-0713076eba34
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
@@ -161,12 +179,6 @@ job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
 job_id: 107501464
----
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
-job_id: ffbd2625-c6c8-4310-8a8e-90ad6adfe99c
 ---
 
 ---

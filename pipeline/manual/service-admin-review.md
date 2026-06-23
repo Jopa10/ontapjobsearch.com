@@ -132,12 +132,6 @@ job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ## NORTH EAST — SELECTED
 
 ---
-action: exclude
-SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
-job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
----
-
----
 action: select
 SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
 job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
@@ -159,6 +153,12 @@ job_id: 26ff2915-7e9a-4f00-8d47-962137c69ff8
 action: select
 SELECTED | North East | Stockton-on-tees | £26500 - £28000 per year | Customer Service Administrator
 job_id: 3eecac21-b795-46e6-a5fe-31d39224dfae
+---
+
+---
+action: select
+SELECTED | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
+job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
 
 ---
@@ -191,10 +191,4 @@ job_id: d5a6637f-52b8-463d-bd6c-54a956157284
 action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
 job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
----
-
----
-action: select
-POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
-job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
