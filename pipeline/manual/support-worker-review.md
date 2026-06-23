@@ -29,18 +29,6 @@ job_id: 61814290-f279-4b96-9e18-3082feb94231
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £12.85 per hour | Crisis Support Worker
-job_id: 20585d98-a078-4458-9f79-86aedd96638a
----
-
----
-action:
-SELECTED | West Yorkshire | Leeds | £12.85 per hour | Café Support Worker
-job_id: 09beb366-d247-4caa-b4c8-b8488b7545fd
----
-
----
-action:
 SELECTED | West Yorkshire | Leeds | £12.85 per hour | Support Worker
 job_id: a948b42d-63da-4dda-8230-4cab46aa631d
 ---
@@ -53,14 +41,14 @@ job_id: 1401782970
 
 ---
 action:
-SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
-job_id: 107464615
+SELECTED | West Yorkshire | Leeds | £12.85 per hour | Relief Support Worker
+job_id: 993f794a-eedc-420a-b2b1-7ae0f3b7e166
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
-job_id: 107532972
+SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+job_id: 107464615
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -68,18 +56,6 @@ job_id: 107532972
 _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
-
----
-action:
-SELECTED | South Yorkshire | Doncaster | £13.00 per hour | Care Assistant
-job_id: 26035_20800_REF11862C
----
-
----
-action:
-SELECTED | South Yorkshire | Rotherham | £13.50 per hour | Care Assistant
-job_id: 26035_20800_REF11757I
----
 
 ---
 action:
@@ -96,7 +72,7 @@ job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 ---
 action:
 SELECTED | South Yorkshire | Barnsley | £13.21 per hour | Relief Extra Care Support Worker
-job_id: e4d70e45-94ec-4c3c-a48d-4562a2bab1d1
+job_id: f68b1e34-5ab0-4680-9b55-cb7000181b8b
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -179,18 +155,18 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 ---
 
----
-action:
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Northumberland | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
-job_id: 107199252
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
 job_id: 107501464
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
+job_id: ffbd2625-c6c8-4310-8a8e-90ad6adfe99c
 ---
 
 ---
