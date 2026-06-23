@@ -7,8 +7,8 @@ title classification count - ELASTIC_FIT,169
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
 title classification count - HARD_PASS,1192
 title classification count - OUT_OF_SCOPE,358
-selection scenario - West Yorkshire,SCENARIO_3_ACTION_REQUIRED
-selection message - West Yorkshire,West Yorkshire selection incomplete: 5/12 selected after HIGH_CONFIDENCE + Leeds ELASTIC_FIT. 7 slots remain. Review POSS candidates; put 1 in manual_select for chosen rows and rerun.
+selection scenario - West Yorkshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
+selection message - West Yorkshire,"West Yorkshire selection complete: 7 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - West Yorkshire,7
 high confidence count - West Yorkshire,3
 anchor elastic count - West Yorkshire,2
@@ -24,7 +24,7 @@ other elastic count - South Yorkshire,2
 total rows output - South Yorkshire,3
 job_id included - South Yorkshire,8d571880-266d-45cf-922d-664a4e281ac6; 52e8a656-b195-4919-b776-6f15f4f25694; f68b1e34-5ab0-4680-9b55-cb7000181b8b
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 12 current-feed manual_select row(s) applied; 12/12 selected. Cap treated as a maximum; auto backfill disabled.
+selection message - North East,North East manual rerun: 12 current-feed manual_select row(s) applied; 12 selected. Routine auto-selection disabled.
 credible total - North East,24
 high confidence count - North East,12
 anchor elastic count - North East,0
