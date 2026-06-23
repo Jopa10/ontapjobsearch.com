@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,1986
-total rows included,21
-total rows dropped,1955
-title classification count - HIGH_CONFIDENCE,288
-title classification count - ELASTIC_FIT,35
+total rows input,1884
+total rows included,20
+total rows dropped,1854
+title classification count - HIGH_CONFIDENCE,282
+title classification count - ELASTIC_FIT,29
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,938
-title classification count - OUT_OF_SCOPE,725
+title classification count - HARD_PASS,871
+title classification count - OUT_OF_SCOPE,702
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 7 current-feed manual_select row(s) applied; 7/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,11
-high confidence count - West Yorkshire,11
+selection message - West Yorkshire,West Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6/12 selected. Cap treated as a maximum; auto backfill disabled.
+credible total - West Yorkshire,10
+high confidence count - West Yorkshire,10
 anchor elastic count - West Yorkshire,0
 other elastic count - West Yorkshire,0
-total rows output - West Yorkshire,7
-job_id included - West Yorkshire,16ba2d14-bb19-4608-b959-c8b095d8086e; 1763d5cf-31ce-4823-8dbd-4324fd412b2f; 155ad04e-0dd2-4136-9720-a1a72144ecc6; c9ca3cfd-899c-4705-8d4e-084a4bda02f3; 4dfff604-ff55-4508-9cf4-a049ea862460; 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68; 107506827
+total rows output - West Yorkshire,6
+job_id included - West Yorkshire,16ba2d14-bb19-4608-b959-c8b095d8086e; 1763d5cf-31ce-4823-8dbd-4324fd412b2f; 155ad04e-0dd2-4136-9720-a1a72144ecc6; 4dfff604-ff55-4508-9cf4-a049ea862460; 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68; 107506827
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - South Yorkshire,South Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6/12 selected. Cap treated as a maximum; auto backfill disabled.
 credible total - South Yorkshire,9
