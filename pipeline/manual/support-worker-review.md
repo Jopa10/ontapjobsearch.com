@@ -150,7 +150,7 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
 job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 ---
@@ -164,7 +164,7 @@ job_id: 107501464
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour | Support Worker
 job_id: ffbd2625-c6c8-4310-8a8e-90ad6adfe99c
 ---
