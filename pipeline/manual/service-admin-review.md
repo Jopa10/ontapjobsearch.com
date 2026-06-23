@@ -192,3 +192,9 @@ action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
 job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
+
+---
+action:
+POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
+job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
+---
