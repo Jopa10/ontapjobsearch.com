@@ -25,7 +25,7 @@ V11 additions:
 V10 additions:
 - daily selection scenario reporting for West/South Yorkshire
 - manual_select = 1 for Scenario 3 candidate fill
-- anchor-town selection logic before cap
+- anchor-town selection logic before final output
 
 V9 additions:
 - title classification layer for Admin/Service slices
@@ -206,11 +206,6 @@ OUTPUT_FILES = {
     "West Yorkshire": "west-yorkshire-admin-service.json",
     "South Yorkshire": "south-yorkshire-admin-service.json",
     "North East": "north-east-admin-service.json",
-}
-REGION_CAPS = {
-    "West Yorkshire": 12,
-    "South Yorkshire": 12,
-    "North East": 12,
 }
 ANCHOR_TOWNS = {
     "West Yorkshire": "Leeds",
@@ -1193,7 +1188,7 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
     When the compact human review CSV is present and readable, the run is
     treated as an editorial/manual rerun: only explicit manual_select rows are
     retained after credibility checks. Previously marked SELECTED rows are not
-    protected across days. The regional cap remains a maximum only.
+    protected across days. All explicit manual selections that remain valid are retained.
     """
     try:
         df = pd.read_csv(MANUAL_REVIEW_CSV_PATH, dtype=str).fillna("")
@@ -1553,7 +1548,7 @@ def process(
     return outputs, report_rows
 
 
-def anchor_sort_and_cap(
+def anchor_sort_and_select(
     outputs: dict[str, list[dict[str, Any]]],
     report_rows: list[dict[str, Any]],
     manual_rerun_mode: bool = False,
@@ -1563,14 +1558,15 @@ def anchor_sort_and_cap(
     Admin/service V2 selection logic.
 
     Core behaviour:
-    - Cap remains 12 per region.
     - FORCE_EXCLUDE removes bad rows earlier in process(); human-entered
       exclude is normalised to FORCE_EXCLUDE.
     - In manual rerun mode, only current-feed FORCE_INCLUDE and manual_select = 1
-      rows are the editorial selection set; routine cap-filling/backfill is disabled.
+      rows are the editorial selection set; routine backfill is disabled.
     - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
       selected set before routine ranking.
-    - POSS rows are shown as the next credible swap/review candidates even when the slice is full.
+    - Every selected valid row is retained for JSON output; no arbitrary regional
+      maximum is applied.
+    - POSS rows are shown as the next credible swap/review candidates.
     """
     final_outputs: dict[str, list[dict[str, Any]]] = {}
     selected_ids: set[str] = set()
@@ -1591,7 +1587,6 @@ def anchor_sort_and_cap(
         return order
 
     for region, items in outputs.items():
-        cap = REGION_CAPS[region]
         threshold = PUBLISH_THRESHOLDS.get(region, 6)
         anchor = ANCHOR_TOWNS[region]
         anchor_key = norm_key(anchor)
@@ -1644,10 +1639,8 @@ def anchor_sort_and_cap(
         selected: list[dict[str, Any]] = []
         seen: set[str] = set()
 
-        def add_candidates(candidates: list[dict[str, Any]], limit: int | None = None) -> None:
+        def add_candidates(candidates: list[dict[str, Any]]) -> None:
             for item in candidates:
-                if limit is not None and len(selected) >= limit:
-                    return
                 job_id = str(item.get("job_id", ""))
                 if job_id and job_id not in seen:
                     selected.append(item)
@@ -1661,21 +1654,21 @@ def anchor_sort_and_cap(
         if manual_rerun_mode and region_has_manual_selection_state:
             # Editorial reruns only apply explicit same-day SELECT/EXCLUDE actions
             # to jobs still present in the current feed. Do not retain yesterday's
-            # selected IDs and do not refill to the cap from routine HC/elastic pools.
-            add_candidates(forced, cap)
-            add_candidates(manually_selected, cap)
+            # selected IDs and do not refill from routine HC/elastic pools.
+            add_candidates(forced)
+            add_candidates(manually_selected)
             scenario = "SCENARIO_MANUAL_RERUN"
             message = (
                 f"{region} manual rerun: {len(manually_selected)} current-feed manual_select row(s) applied; "
-                f"{min(len(selected), cap)}/{cap} selected. Cap treated as a maximum; auto backfill disabled."
+                f"{len(selected)} selected. Auto backfill disabled."
             )
         else:
             # V2: manual_select rows are deliberate editorial choices, so add them before routine fill.
-            add_candidates(forced, cap)
-            add_candidates(manually_selected, cap)
-            add_candidates(hc, cap)
-            add_candidates(anchor_elastic, cap)
-            add_candidates(other_elastic, cap)
+            add_candidates(forced)
+            add_candidates(manually_selected)
+            add_candidates(hc)
+            add_candidates(anchor_elastic)
+            add_candidates(other_elastic)
 
             if credible_total < threshold:
                 scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
@@ -1687,31 +1680,32 @@ def anchor_sort_and_cap(
                 scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
                 message = (
                     f"{region} manual_select applied: {len(manually_selected)} row(s) prioritised; "
-                    f"{min(len(selected), cap)}/{cap} selected."
+                    f"{len(selected)} selected."
                 )
-            elif len(forced) + len(hc) >= cap:
+            elif len(forced) + len(hc) == len(selected):
                 scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
                 message = (
-                    f"{region} selection complete: HIGH_CONFIDENCE roles meet/exceed cap; "
-                    f"{anchor} HC roles protected before cap."
+                    f"{region} selection complete: all {len(selected)} selected role(s) are HIGH_CONFIDENCE "
+                    f"or FORCE_INCLUDE; {anchor} HC roles protected in ordering."
                 )
-            elif base_without_manual >= cap:
+            elif base_without_manual == len(selected):
                 scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
-                message = f"{region} selection complete: HIGH_CONFIDENCE plus {anchor} ELASTIC_FIT fills cap."
-            else:
-                needed = max(cap - base_without_manual, 0)
-                scenario = "SCENARIO_3_ACTION_REQUIRED"
                 message = (
-                    f"{region} selection incomplete: {base_without_manual}/{cap} selected after HIGH_CONFIDENCE + "
-                    f"{anchor} ELASTIC_FIT. {needed} slots remain. Review POSS candidates; "
-                    "put 1 in manual_select for chosen rows and rerun."
+                    f"{region} selection complete: all {len(selected)} selected role(s) are HIGH_CONFIDENCE "
+                    f"plus {anchor} ELASTIC_FIT roles."
+                )
+            else:
+                scenario = "SCENARIO_3_FULL_VALID_SELECTION"
+                message = (
+                    f"{region} selection complete: all {len(selected)} valid selected role(s) retained after "
+                    f"HIGH_CONFIDENCE, {anchor} ELASTIC_FIT and other ELASTIC_FIT ordering."
                 )
 
-        capped_selected = selected[:cap]
-        selected_for_region = {str(item.get("job_id", "")) for item in capped_selected}
+        selected_for_region = {str(item.get("job_id", "")) for item in selected}
 
-        # V2: show the next credible non-selected candidates as POSS for review/swap,
-        # even if the region is already full. This keeps manual decisions visible near the top.
+        # V2: show the next credible non-selected candidates as POSS for review/swap.
+        # This keeps manual decisions visible near the top when manual rerun mode
+        # leaves other credible current-feed jobs unselected.
         review_pool = sorted(
             [item for item in items if str(item.get("job_id", "")) not in selected_for_region],
             key=routine_sort_key,
@@ -1720,9 +1714,9 @@ def anchor_sort_and_cap(
             possible_selection_ids[str(item.get("job_id"))] = rank
 
         # Display-order only: render anchor-town jobs first in JSON.
-        original_selected_order = {str(item.get("job_id", "")): idx for idx, item in enumerate(capped_selected)}
+        original_selected_order = {str(item.get("job_id", "")): idx for idx, item in enumerate(selected)}
         final_outputs[region] = sorted(
-            capped_selected,
+            selected,
             key=lambda item: (
                 0 if norm_key(item.get("location")) == anchor_key else 1,
                 original_selected_order.get(str(item.get("job_id", "")), 9999),
@@ -1733,7 +1727,6 @@ def anchor_sort_and_cap(
             "scenario": scenario,
             "message": message,
             "selected_count": len(final_outputs[region]),
-            "cap": cap,
             "credible_total": credible_total,
             "high_confidence_count": len(forced) + len(hc),
             "anchor_elastic_count": len(anchor_elastic),
@@ -1748,7 +1741,7 @@ def anchor_sort_and_cap(
         if status:
             row["selection_scenario"] = status["scenario"]
             row["region_selection_message"] = status["message"]
-            row["remaining_slots"] = max(int(status["cap"]) - int(status["selected_count"]), 0)
+            row["remaining_slots"] = ""
 
         if row.get("decision") == "INCLUDED" and job_id in selected_ids:
             row["selection_status"] = "SELECTED"
@@ -1762,7 +1755,7 @@ def anchor_sort_and_cap(
         elif row.get("decision") == "INCLUDED" and job_id not in selected_ids:
             row["selection_status"] = "NOT_SELECTED"
             row["decision"] = "DROPPED"
-            row["reason"] = "over_cap/not selected by V2 regional selection logic"
+            row["reason"] = "not selected by V2 regional selection logic"
 
     return final_outputs, region_status
 
@@ -1780,7 +1773,6 @@ def write_selection_summary_report(
     summary_path = REPORTS_DAILY_DIR / "selection-summary-report-admin-service.csv"
     fieldnames = [
         "region",
-        "cap",
         "selected_total",
         "selected_high_confidence",
         "selected_anchor_elastic",
@@ -1819,13 +1811,12 @@ def write_selection_summary_report(
 
         rows.append({
             "region": region,
-            "cap": status.get("cap", REGION_CAPS.get(region, "")),
             "selected_total": len(selected_rows),
             "selected_high_confidence": selected_hc,
             "selected_anchor_elastic": selected_anchor_elastic,
             "selected_other_elastic": selected_other_elastic,
             "possible_candidates": len(possible_rows),
-            "remaining_slots": max(int(status.get("cap", REGION_CAPS.get(region, 0))) - len(selected_rows), 0),
+            "remaining_slots": "",
             "credible_total": status.get("credible_total", ""),
             "anchor_town": anchor,
             "scenario": status.get("scenario", ""),
@@ -2057,8 +2048,8 @@ def write_outputs(
 
     manual_decisions = manual_decisions or ManualDecisionState(False, False, {}, set(), set())
 
-    # IMPORTANT: cap first, then write JSON and validation counts from the capped output.
-    outputs, region_status = anchor_sort_and_cap(
+    # Select/order first, then write JSON and validation counts from the full selected output.
+    outputs, region_status = anchor_sort_and_select(
         outputs,
         report_rows,
         manual_rerun_mode=manual_decisions.rerun_mode,
@@ -2082,7 +2073,7 @@ def write_outputs(
         with path.open("w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    # Clean report rows after over-cap adjustment.
+    # Clean report rows after selection-status adjustment.
     report_rows = [clean_record_strings(row) for row in report_rows]
 
     # Compact daily selection dashboard.
@@ -2222,7 +2213,11 @@ def main() -> int:
     print("Done. Admin/service V2 selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
     for region in OUTPUT_FILES:
-        print(f"{region} admin/service output: {REGION_CAPS[region]} max; check validation-report-admin-service.csv for actual count")
+        selected_count = sum(
+            1 for row in report_rows
+            if row.get("region") == region and row.get("selection_status") == "SELECTED"
+        )
+        print(f"{region} admin/service output: {selected_count} selected; check validation-report-admin-service.csv for actual count")
     print(f"Dropped rows: {sum(1 for r in report_rows if r['decision'] == 'DROPPED')}")
     print("Files written to /output-admin-service")
     return 0
