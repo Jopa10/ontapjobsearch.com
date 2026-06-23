@@ -132,7 +132,7 @@ job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ## NORTH EAST — SELECTED
 
 ---
-action: select
+action: exclude
 SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
@@ -194,7 +194,7 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
 job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 ---
