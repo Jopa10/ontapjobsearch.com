@@ -1,0 +1,67 @@
+name: Publish verified pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-verified-pages:
+    name: Publish verified pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Publish verified pages
+        id: publish
+        run: |
+          set -euo pipefail
+          report_file="$(mktemp)"
+          python pipeline/scripts/publish_verified_pages.py --write | tee "$report_file"
+          cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit approved live JSON changes
+        id: commit
+        run: |
+          set -euo pipefail
+          approved_paths=(
+            "app/north-east/service-administrator-jobs.json"
+            "app/south-yorkshire/service-administrator-jobs.json"
+            "app/west-yorkshire/service-administrator-jobs.json"
+            "app/north-east/support-worker-jobs.json"
+            "app/south-yorkshire/support-worker.json"
+            "app/west-yorkshire/support-worker.json"
+          )
+
+          git add -- "${approved_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "created=false" >> "$GITHUB_OUTPUT"
+            echo "No approved live JSON changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "app/north-east/service-administrator-jobs.json" && $0 != "app/south-yorkshire/service-administrator-jobs.json" && $0 != "app/west-yorkshire/service-administrator-jobs.json" && $0 != "app/north-east/support-worker-jobs.json" && $0 != "app/south-yorkshire/support-worker.json" && $0 != "app/west-yorkshire/support-worker.json"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit unexpected staged paths:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish verified job pages"
+          git push origin main
+          echo "created=true" >> "$GITHUB_OUTPUT"
+          echo "Published verified pages commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
