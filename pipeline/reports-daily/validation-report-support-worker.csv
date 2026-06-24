@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,1942
 total rows included,27
-total rows dropped,1909
+total rows dropped,1898
 title classification count - HIGH_CONFIDENCE,187
 title classification count - ELASTIC_FIT,189
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
