@@ -176,13 +176,13 @@ job_id: b56eccae-63dd-4352-9d0c-4add444416ad
 ## NORTH EAST - TEES VALLEY — SELECTED
 
 ---
-action: select
+action: exclude
 SELECTED | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Support Worker
 job_id: 80125070-f907-4977-a6e8-86289aeb44bb
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
 job_id: 0032953b-094a-4366-901b-06c4150f2075
 ---
@@ -196,25 +196,25 @@ job_id: 107199252
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Female Relief Support Worker
 job_id: 61a62654-0e20-4cb7-9dc7-0713076eba34
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Relief Support Worker
 job_id: 0ab561e9-6b7d-48d4-b3aa-1067116cdf42
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Washington | £13.21 per hour | Care Assistant - Bank - Care Home
 job_id: d20d41b3-4360-4eaa-8a54-a2a79dcc6e3d
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Hebburn | £14.8 per hour | Care Assistant - Bank - Care Home
 job_id: 41d0e77b-efee-48ee-b47c-4020919e5883
 ---
@@ -246,7 +246,7 @@ job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Relief Support Worker
 job_id: bcc522a2-59ed-49cb-9a52-8e2a1be27990
 ---
