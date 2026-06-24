@@ -201,6 +201,30 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: 61a62654-0e20-4cb7-9dc7-0713076eba34
 ---
 
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Relief Support Worker
+job_id: 0ab561e9-6b7d-48d4-b3aa-1067116cdf42
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Washington | £13.21 per hour | Care Assistant - Bank - Care Home
+job_id: d20d41b3-4360-4eaa-8a54-a2a79dcc6e3d
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Hebburn | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 41d0e77b-efee-48ee-b47c-4020919e5883
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Relief Support Worker
+job_id: 7cf23dbb-25ed-4362-8695-4cabd6c13248
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
@@ -221,10 +245,52 @@ POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County 
 job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 ---
 
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Relief Support Worker
+job_id: bcc522a2-59ed-49cb-9a52-8e2a1be27990
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15 per hour ((including holiday pay)) | Complex Care Assistant
+job_id: 107353345
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.5 - £20 per hour | Children and Young People Support Worker
+job_id: cad080f3-2166-40f5-9ef1-7755dbd7ac81
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £29350 per year | Complex care assistant
+job_id: 107539241
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
+job_id: 40cf75f8-c337-4f35-ac7a-4f1debfe62bd
+---
+
 ## NORTH EAST - TEES VALLEY — POSSIBLES
 
 ---
 action:
 POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Redcar | £16 - £18 per hour | Crisis Children's Support Worker - Emergency Ad-Hoc Shifts
 job_id: ca722a3e-0c12-46cd-a3b0-65777ac97ed6
+---
+
+---
+action:
+POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Relief Support Worker
+job_id: ff2a1185-992d-48d3-adea-0d2c98869ddc
+---
+
+---
+action:
+POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Waking Night Support Worker
+job_id: 2a18ba3b-a2e1-4d0e-97f6-45d77f9f992f
 ---
