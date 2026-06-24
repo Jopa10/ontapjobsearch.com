@@ -153,6 +153,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.
 job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Recovery Support Worker
+job_id: 8161276f-51d2-4cba-a8df-d4778df64d19
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -161,16 +167,38 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85
 job_id: ffbd2625-c6c8-4310-8a8e-90ad6adfe99c
 ---
 
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
+job_id: b56eccae-63dd-4352-9d0c-4add444416ad
+---
+
 ## NORTH EAST - TEES VALLEY — SELECTED
 
-_No jobs in this group._
+---
+action: select
+SELECTED | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Support Worker
+job_id: 80125070-f907-4977-a6e8-86289aeb44bb
+---
+
+---
+action: select
+SELECTED | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
+job_id: 0032953b-094a-4366-901b-06c4150f2075
+---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Recovery Support Worker
-job_id: 8161276f-51d2-4cba-a8df-d4778df64d19
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Northumberland | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
+job_id: 107199252
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Female Relief Support Worker
+job_id: 61a62654-0e20-4cb7-9dc7-0713076eba34
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
@@ -182,24 +210,18 @@ job_id: 107501464
 ---
 
 ---
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
-job_id: b56eccae-63dd-4352-9d0c-4add444416ad
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
+job_id: 107450852
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £12.85 per hour | Relief Support Worker
+job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
-
----
-action: select
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Support Worker
-job_id: 80125070-f907-4977-a6e8-86289aeb44bb
----
-
----
-action: select
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
-job_id: 0032953b-094a-4366-901b-06c4150f2075
----
 
 ---
 action:
