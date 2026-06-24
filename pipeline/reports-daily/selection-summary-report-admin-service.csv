@@ -1,4 +1,4 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-West Yorkshire,6,6,0,0,4,,10,Leeds,SCENARIO_MANUAL_RERUN,West Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Auto backfill disabled.
+West Yorkshire,6,6,0,0,5,,11,Leeds,SCENARIO_MANUAL_RERUN,West Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Auto backfill disabled.
 South Yorkshire,6,6,0,0,3,,9,Sheffield,SCENARIO_MANUAL_RERUN,South Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Auto backfill disabled.
 North East,8,7,0,1,3,,11,Newcastle,SCENARIO_MANUAL_RERUN,North East manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Auto backfill disabled.
