@@ -168,7 +168,7 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Recovery Support Worker
 job_id: 8161276f-51d2-4cba-a8df-d4778df64d19
 ---
@@ -182,7 +182,7 @@ job_id: 107501464
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
 job_id: b56eccae-63dd-4352-9d0c-4add444416ad
 ---
@@ -190,13 +190,13 @@ job_id: b56eccae-63dd-4352-9d0c-4add444416ad
 ## NORTH EAST - TEES VALLEY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Support Worker
 job_id: 80125070-f907-4977-a6e8-86289aeb44bb
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
 job_id: 0032953b-094a-4366-901b-06c4150f2075
 ---
