@@ -71,6 +71,12 @@ POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £33000 per year |
 job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
 ---
 
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Elland |  | Sales Administrator / Coordinator
+job_id: 107573603
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
