@@ -206,8 +206,6 @@ PUBLISH_REGION_BY_DETAIL_REGION = {
     **{region: "North East" for region in NORTH_EAST_DETAILED_REGIONS},
 }
 
-POSSIBLE_SELECTION_REVIEW_COUNT = 6
-
 
 CLASSIFICATION_PRIORITY = {
     "HIGH_CONFIDENCE": 1,
@@ -1686,7 +1684,7 @@ def anchor_sort_and_select(
             [item for item in items if str(item.get("job_id", "")) not in selected_for_region],
             key=routine_sort_key,
         )
-        for rank, item in enumerate(review_pool[:POSSIBLE_SELECTION_REVIEW_COUNT], start=1):
+        for rank, item in enumerate(review_pool, start=1):
             possible_selection_ids[str(item.get("job_id"))] = rank
 
         # Display-order only: render anchor-town jobs first in JSON.
