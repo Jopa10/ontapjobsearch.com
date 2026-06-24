@@ -72,7 +72,7 @@ job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Elland |  | Sales Administrator / Coordinator
 job_id: 107573603
 ---
@@ -118,7 +118,7 @@ job_id: 04d36725-d7c8-4940-b556-1e941dd944d1
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
 job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
