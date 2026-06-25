@@ -66,25 +66,25 @@ job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £34000 per year | Finance Administrator
 job_id: 2cf237a5-299c-4483-bd29-b9261fd349a8
 ---
 
 ---
-action:
+action: 
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £33000 per year | IFA Administrator
 job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £12.76 per hour (Benefits: Sick pay, NEST pension & life insurance, cas) | Admin Assistant
 job_id: 107570981
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
 job_id: 107409218
 ---
@@ -98,7 +98,7 @@ job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
 job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
@@ -154,7 +154,7 @@ job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administrator - Expenses (Temporary Contract)
 job_id: 2f714926-5688-4a91-8367-6abbb5916a10
 ---
@@ -200,7 +200,7 @@ job_id: 107473649
 ## NORTH EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £25000 - £35000 per year | Insolvency Administrator
 job_id: d5a6637f-52b8-463d-bd6c-54a956157284
 ---
@@ -218,7 +218,7 @@ job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Cramlington | £24763 per year | Customer Service Administrator
 job_id: 0e6b7d22-66a2-46b6-b0cd-f657f30dc4ce
 ---
