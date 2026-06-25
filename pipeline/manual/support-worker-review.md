@@ -186,7 +186,7 @@ job_id: 107199252
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Relief Support Worker
 job_id: 7cf23dbb-25ed-4362-8695-4cabd6c13248
 ---
@@ -236,13 +236,13 @@ job_id: 107539241
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
 job_id: 40cf75f8-c337-4f35-ac7a-4f1debfe62bd
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107575793
 ---
