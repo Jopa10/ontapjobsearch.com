@@ -45,19 +45,7 @@ SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations A
 job_id: 107506827
 ---
 
----
-action: select
-SELECTED | West Yorkshire | Elland |  | Sales Administrator / Coordinator
-job_id: 107573603
----
-
 ## WEST YORKSHIRE — POSSIBLES
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Group Regulatory Administrator
-job_id: 107417429
----
 
 ---
 action:
@@ -73,8 +61,32 @@ job_id: 52701f5e-2455-4a10-9a31-ce278cfb7d2f
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Senior Pensions Administrator
+job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £34000 per year | Finance Administrator
+job_id: 2cf237a5-299c-4483-bd29-b9261fd349a8
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £33000 per year | IFA Administrator
 job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £12.76 per hour (Benefits: Sick pay, NEST pension & life insurance, cas) | Admin Assistant
+job_id: 107570981
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
+job_id: 107409218
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -135,6 +147,18 @@ POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £32000 per year | Pensio
 job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
 ---
 
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield |  | Senior Pension Administrator
+job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administrator - Expenses (Temporary Contract)
+job_id: 2f714926-5688-4a91-8367-6abbb5916a10
+---
+
 ## NORTH EAST — SELECTED
 
 ---
@@ -147,12 +171,6 @@ job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
 action: select
 SELECTED | North East | Newcastle Upon Tyne |  | Pensions Administrator
 job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
----
-
----
-action: select
-SELECTED | North East | Tyne And Wear | £28000 - £30000 per year | Claims Administrator
-job_id: 26ff2915-7e9a-4f00-8d47-962137c69ff8
 ---
 
 ---
@@ -171,12 +189,6 @@ job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
 action: select
 SELECTED | North East | Stockton-on-tees | £28000 - £30000 per year | Customer Service Admin
 job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
----
-
----
-action: select
-SELECTED | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
-job_id: 107472400
 ---
 
 ---
@@ -203,4 +215,10 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 action:
 POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Cramlington | £24763 per year | Customer Service Administrator
+job_id: 0e6b7d22-66a2-46b6-b0cd-f657f30dc4ce
 ---
