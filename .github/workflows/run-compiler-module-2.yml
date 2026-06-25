@@ -1,0 +1,183 @@
+name: Run Compiler Module 2
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: Month to compile in YYYY-MM format
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  run-compiler-module-2:
+    name: Run Compiler Module 2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Validate month input
+        run: |
+          set -euo pipefail
+          month='${{ inputs.month }}'
+          if [[ ! "$month" =~ ^[0-9]{4}-(0[1-9]|1[0-2])$ ]]; then
+            echo "::error::Invalid month '$month'. Expected YYYY-MM with month 01 through 12."
+            exit 1
+          fi
+
+      - name: Validate monthly archive, geo lookup, and registers
+        run: |
+          set -euo pipefail
+          month='${{ inputs.month }}'
+          archive_dir="pipeline/input-jobg8-archive/${month}"
+
+          if [ ! -d "$archive_dir" ]; then
+            echo "::error::Monthly archive folder '$archive_dir' is missing."
+            exit 1
+          fi
+
+          excel_file="$(find "$archive_dir" -maxdepth 1 -type f \( -iname '*.xlsx' -o -iname '*.xls' -o -iname '*.xlsm' \) -print -quit)"
+          if [ -z "$excel_file" ]; then
+            echo "::error::Monthly archive folder '$archive_dir' contains no Excel files."
+            exit 1
+          fi
+
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd
+
+          geo_lookup_path = Path("pipeline/geo/geo_lookup.xlsx")
+          required_geo_columns = {"Area", "Cluster"}
+          register_paths = [
+              Path("pipeline/registers/admin_service_title_classification_register.csv"),
+              Path("pipeline/registers/customer_service_contact_centre_title_classification_register.csv"),
+              Path("pipeline/registers/finance_accounts_title_classification_register.csv"),
+              Path("pipeline/registers/hr_recruitment_title_classification_register.csv"),
+              Path("pipeline/registers/support_worker_title_classification_register.csv"),
+              Path("pipeline/registers/warehouse_logistics_title_classification_register.csv"),
+          ]
+
+          if not geo_lookup_path.is_file():
+              raise SystemExit(f"::error::{geo_lookup_path} is missing")
+
+          geo_df = pd.read_excel(geo_lookup_path)
+          missing_geo_columns = sorted(required_geo_columns - set(geo_df.columns))
+          if missing_geo_columns:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} is missing required column(s): "
+                  + ", ".join(missing_geo_columns)
+              )
+
+          usable_geo_rows = geo_df[["Area", "Cluster"]].dropna(how="any")
+          usable_geo_rows = usable_geo_rows[
+              usable_geo_rows["Area"].astype(str).str.strip().ne("")
+              & usable_geo_rows["Cluster"].astype(str).str.strip().ne("")
+          ]
+          if usable_geo_rows.empty:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} contains no usable Area/Cluster rows"
+              )
+
+          required_register_columns = {"title", "classification"}
+          for register_path in register_paths:
+              if not register_path.is_file():
+                  raise SystemExit(f"::error::{register_path} is missing")
+              register_df = pd.read_csv(register_path, encoding="utf-8-sig")
+              if register_df.empty:
+                  raise SystemExit(f"::error::{register_path} is empty")
+              missing_register_columns = sorted(
+                  required_register_columns - set(register_df.columns)
+              )
+              if missing_register_columns:
+                  raise SystemExit(
+                      f"::error::{register_path} is missing required column(s): "
+                      + ", ".join(missing_register_columns)
+                  )
+          PY
+
+      - name: Check operational script syntax
+        run: python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
+
+      - name: Run Compiler Module 2
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/jobg8_module_2_monthly_category_profiler.py \
+            --month '${{ inputs.month }}' \
+            --input-dir 'pipeline/input-jobg8-archive/${{ inputs.month }}' \
+            --output-dir 'pipeline/reports-module2' \
+            --geo-lookup 'pipeline/geo/geo_lookup.xlsx' \
+            --registers-dir 'pipeline/registers'
+
+      - name: Verify Compiler Module 2 outputs
+        run: |
+          set -euo pipefail
+          output_files=(
+            "pipeline/reports-module2/${{ inputs.month }}-module2-category-validation.csv"
+            "pipeline/reports-module2/${{ inputs.month }}-module2-daily-counts.csv"
+            "pipeline/reports-module2/${{ inputs.month }}-module2-unknown-location-detail.csv"
+            "pipeline/reports-module2/${{ inputs.month }}-module2-run-log.txt"
+          )
+
+          for output_file in "${output_files[@]}"; do
+            if [ ! -s "$output_file" ]; then
+              echo "::error::Required Compiler Module 2 output '$output_file' is missing or empty."
+              exit 1
+            fi
+          done
+
+      - name: Upload Compiler Module 2 reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiler-module-2-reports-${{ inputs.month }}
+          path: pipeline/reports-module2/
+          if-no-files-found: warn
+
+      - name: Commit Compiler Module 2 outputs
+        run: |
+          set -euo pipefail
+          output_files=(
+            "pipeline/reports-module2/${{ inputs.month }}-module2-category-validation.csv"
+            "pipeline/reports-module2/${{ inputs.month }}-module2-daily-counts.csv"
+            "pipeline/reports-module2/${{ inputs.month }}-module2-unknown-location-detail.csv"
+            "pipeline/reports-module2/${{ inputs.month }}-module2-run-log.txt"
+          )
+
+          if [ -z "$(git status --porcelain -- "${output_files[@]}")" ]; then
+            echo "No Compiler Module 2 output changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${output_files[@]}"
+
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No Compiler Module 2 output changes to commit"
+            exit 0
+          fi
+
+          expected_files="$(printf '%s\n' "${output_files[@]}" | sort)"
+          unexpected_files="$(comm -23 <(printf '%s\n' "$staged_files" | sort) <(printf '%s\n' "$expected_files"))"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside the four Compiler Module 2 outputs. Staged files:"
+            printf '%s\n' "$staged_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git commit -m "Run Compiler Module 2 for ${{ inputs.month }}"
+          git push
