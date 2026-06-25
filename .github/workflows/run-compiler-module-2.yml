@@ -1,0 +1,120 @@
+name: Run Ontap Compiler Module 2
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: Month to profile in YYYY-MM format
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  run-module-2:
+    name: Run Module 2 monthly category profiler
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas openpyxl xlrd
+
+      - name: Validate month input
+        run: |
+          if [[ ! "${{ inputs.month }}" =~ ^[0-9]{4}-[0-9]{2}$ ]]; then
+            echo "month must be in YYYY-MM format: ${{ inputs.month }}" >&2
+            exit 1
+          fi
+
+      - name: Validate archive input path
+        run: |
+          test -d "pipeline/input-jobg8-archive/${{ inputs.month }}"
+          find "pipeline/input-jobg8-archive/${{ inputs.month }}" -maxdepth 1 -type f \( -name '*.xlsx' -o -name '*.xls' -o -name '*.xlsm' \) ! -name '~$*' | grep -q .
+
+      - name: Validate geo lookup and registers
+        run: |
+          test -f "pipeline/geo/geo_lookup.xlsx"
+          test -f "pipeline/registers/support_worker_title_classification_register.csv"
+          test -f "pipeline/registers/admin_service_title_classification_register.csv"
+          test -f "pipeline/registers/finance_accounts_title_classification_register.csv"
+          test -f "pipeline/registers/customer_service_contact_centre_title_classification_register.csv"
+          test -f "pipeline/registers/warehouse_logistics_title_classification_register.csv"
+          test -f "pipeline/registers/hr_recruitment_title_classification_register.csv"
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd
+
+          registers = [
+              Path("pipeline/registers/support_worker_title_classification_register.csv"),
+              Path("pipeline/registers/admin_service_title_classification_register.csv"),
+              Path("pipeline/registers/finance_accounts_title_classification_register.csv"),
+              Path("pipeline/registers/customer_service_contact_centre_title_classification_register.csv"),
+              Path("pipeline/registers/warehouse_logistics_title_classification_register.csv"),
+              Path("pipeline/registers/hr_recruitment_title_classification_register.csv"),
+          ]
+          required = {"title", "classification"}
+          for register in registers:
+              columns = set(pd.read_csv(register, nrows=0).columns)
+              missing = required - columns
+              if missing:
+                  raise SystemExit(f"{register} missing required columns: {sorted(missing)}")
+          PY
+
+      - name: Syntax-check Module 2 script
+        run: python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
+
+      - name: Run Module 2 only
+        run: |
+          python pipeline/scripts/jobg8_module_2_monthly_category_profiler.py \
+            --month "${{ inputs.month }}" \
+            --input-dir "pipeline/input-jobg8-archive/${{ inputs.month }}" \
+            --output-dir "pipeline/reports-module2" \
+            --geo-lookup "pipeline/geo/geo_lookup.xlsx" \
+            --registers-dir "pipeline/registers"
+
+      - name: Verify Module 2 outputs
+        run: |
+          test -s "pipeline/reports-module2/${{ inputs.month }}-module2-category-validation.csv"
+          test -s "pipeline/reports-module2/${{ inputs.month }}-module2-daily-counts.csv"
+          test -s "pipeline/reports-module2/${{ inputs.month }}-module2-unknown-location-detail.csv"
+          test -s "pipeline/reports-module2/${{ inputs.month }}-module2-run-log.txt"
+
+      - name: Upload Module 2 reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: module2-reports-${{ inputs.month }}
+          path: pipeline/reports-module2/
+          if-no-files-found: error
+
+      - name: Commit Module 2 outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            "pipeline/reports-module2/${{ inputs.month }}-module2-category-validation.csv" \
+            "pipeline/reports-module2/${{ inputs.month }}-module2-daily-counts.csv" \
+            "pipeline/reports-module2/${{ inputs.month }}-module2-unknown-location-detail.csv" \
+            "pipeline/reports-module2/${{ inputs.month }}-module2-run-log.txt"
+          if git diff --cached --quiet; then
+            echo "No Module 2 output changes to commit."
+            exit 0
+          fi
+          git commit -m "Add Module 2 reports for ${{ inputs.month }} [skip ci]"
+          git push
