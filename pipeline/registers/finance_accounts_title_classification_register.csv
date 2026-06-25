@@ -1,0 +1,125 @@
+﻿title,classification,review_status,reason,count_in_feed,west_south_regions_seen,example_towns
+pensions administrator,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,8,Yorkshire (South) (1); North West England / Merseyside (1); South East England / Surrey (1); South East England / Hampshire (1); South West England (1); South East (ex-London) (1),Yorkshire (2); Merseyside (1); Surrey (1); Hampshire (1); Somerset (1); London (1)
+mortgage administrator,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,3,South East (ex-London) (2); North West England / Cheshire (1),London (2); Cheshire (1)
+accounts and office administrator,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,1,South East England / Kent (1),Kent (1)
+accounts and office assistant maternity cover,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,1,South East England / Berkshire (1),Berkshire (1)
+assistant pensions administrator,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,1,South East England / Hampshire (1),Hampshire (1)
+db pensions administrator,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,1,South East England / Berkshire (1),Berkshire (1)
+mortgage administrator north leicester salary up to 28 000,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,1,East Midlands / Leicestershire (1),Leicestershire (1)
+pensions administrator york,ELASTIC_FIT,DRAFT_V2_REBUILT,credible finance/administration crossover,1,Yorkshire (North/East) (1),Yorkshire (1)
+senior pensions administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",10,South East (ex-London) (2); Yorkshire (South) (1); South West England (1); South East England / Hampshire (1); South East England / Surrey (1); South East England / Berkshire (1),Yorkshire (1); London (1); Somerset (1); Hampshire (1); Surrey (1); Belfast (1)
+accounts purchasing administration supervisor,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",2,South East England / Buckinghamshire (2),Buckinghamshire (2)
+administration supervisor mortgages,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",2,South East (ex-London) (2),Leicestershire (2)
+accounts and admin supervisor,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Buckinghamshire (1),Buckinghamshire (1)
+accounts office manager,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,Greater Manchester (1),Lancashire (1)
+administrator paraplanner,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,East of England / Norfolk (1),Norfolk (1)
+db senior pensions administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Berkshire (1),Berkshire (1)
+ifa administrator paraplanner ifa firm,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,Greater Manchester (1),Lancashire (1)
+mortgage case manager administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South West England / Wiltshire (1),Wiltshire (1)
+office manager senior paraplanner,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Buckinghamshire (1),Buckinghamshire (1)
+pensions administration manager,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East (ex-London) (1),London (1)
+pensions quality assurance analyst,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East (ex-London) (1),London (1)
+quality auditor data analysis technician,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East (ex-London) (1),Birmingham (1)
+senior dc pensions administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Surrey (1),Surrey (1)
+senior finance administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East (ex-London) (1),Derbyshire (1)
+senior financial services administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,East Midlands / Leicestershire (1),Leicestershire (1)
+senior financial support advisor,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South Wales (1),Gwent (1)
+senior ifa administrator trainee paraplanner,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East (ex-London) (1),Wolverhampton (1)
+senior pensions administator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Surrey (1),Surrey (1)
+senior pensions administrator defined benefit,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,Greater Manchester (1),Lancashire (1)
+senior pensions project administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Surrey (1),Surrey (1)
+senior pensions projects administrator,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East England / Surrey (1),Surrey (1)
+technical ifa administrator junior paraplanner,HARD_PASS,DRAFT_V2_REBUILT,"professional, senior or management finance role",1,South East (ex-London) (1),Birmingham (1)
+accounts administrator,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,6,West Midlands / Shropshire (1); East of England / Norfolk (1); South East England / Buckinghamshire (1); London (1); South East (ex-London) (1); East of England / Hertfordshire (1),Hertfordshire (3); Shropshire (1); Norfolk (1); Buckinghamshire (1)
+finance administrator,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,4,South West England / Wiltshire (1); Other / Unknown (1); East of England / Norfolk (1); South East (ex-London) (1),Wiltshire (1); Renfrewshire (1); Norfolk (1); Devon (1)
+administration and finance officer,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,1,East Midlands / Lincolnshire (1),Lincolnshire (1)
+billing administrator,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,1,Yorkshire (South) (1),Yorkshire (1)
+finance administrator enniskillen,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,1,County Fermanagh (1),County Fermanagh (1)
+finance administrator newry,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,1,South East (ex-London) (1),Not Specified (1)
+finance administrator part time,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,1,South East (ex-London) (1),Shetland (1)
+part time finance administrator,HIGH_CONFIDENCE,DRAFT_V2_REBUILT,clear entry/intermediate finance or accounts support title,1,Greater Manchester (1),Cheshire (1)
+ifa administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,18,South East (ex-London) (4); North West England / Merseyside (3); South West England / Somerset (2); Yorkshire (West) (2); East of England / Hertfordshire (1); Other / Unknown (1),Merseyside (3); Yorkshire (3); Somerset (2); Hertfordshire (1); Worcestershire (1); Cheshire (1)
+senior ifa administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,4,South East England / Kent (1); East Midlands / Leicestershire (1); Yorkshire (North/East) (1); South East (ex-London) (1),Kent (1); Leicestershire (1); Yorkshire (1); London (1)
+wealth planning administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,4,South East England / Hampshire (1); South West England (1); East Midlands / Derbyshire (1); South East (ex-London) (1),Hampshire (1); Somerset (1); Derbyshire (1); London (1)
+bankruptcy administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,Greater Manchester (1),Lancashire (1)
+business development account manager healthcare ambulance servic,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,Wales (1),South Glamorgan (1)
+client services manager pension administration,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South West England (1),Somerset (1)
+community fundraising and engagement officer,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),Belfast (1)
+corporate and m a transactions assistant manager,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),Manchester (1)
+home collected credit manager,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East England / Oxfordshire (1),Oxfordshire (1)
+ifa administration operations manager,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South West England / Dorset (1),Dorset (1)
+ifa administrator exclusive to taylor james,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,Greater Manchester (1),Lancashire (1)
+ifa administrator hybrid remote,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,Wales (1),South Glamorgan (1)
+ifa administrator upto 2 days home working,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South West England (1),Somerset (1)
+ifa office manager,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South West England (1),Somerset (1)
+investment management administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,Greater Manchester (1),Lancashire (1)
+investment support administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,East of England / Essex (1),Essex (1)
+pension administration manager defined benefits,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,Yorkshire (West) (1),Yorkshire (1)
+pension administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),Surrey (1)
+professional indemnity account executive,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South West England (1),Somerset (1)
+remote sjp wealth planning administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East England / Surrey (1),Surrey (1)
+senior business migration account assistant offboarding,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),Channel Isles (1)
+senior ifa administrator team leader london hybrid 45 000 excellent bonus benefits,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),London (1)
+senior wealth planning administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),London (1)
+wealth administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South West England / Devon (1),Devon (1)
+wealth management administrator,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East England / East Sussex (1),Sussex (1)
+wealth planning administrator 12 bonus and 2 days from home,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),London (1)
+wealth planning administrator sjp practice,OUT_OF_SCOPE,DRAFT_V2_REBUILT,no credible finance/accounts title signal,1,South East (ex-London) (1),Kent (1)
+financial planning administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,13,South East England / Surrey (2); South East (ex-London) (2); North West England / Merseyside (2); South East England / Hampshire (1); South East England / Kent (1); Yorkshire (West) (1),Surrey (2); Yorkshire (2); Merseyside (2); Hampshire (1); Kent (1); Ayrshire (1)
+financial services administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,11,South East (ex-London) (2); Yorkshire (North/East) (2); East Midlands / Leicestershire (1); Surrey (1); East Midlands / Lincolnshire (1); North East - Tees Valley (1),Yorkshire (3); Cheshire (2); Ayrshire (1); Leicestershire (1); Sussex (1); Surrey (1)
+financial administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,4,North West England / Cheshire (2); South East England / Kent (1); South East (ex-London) (1),Cheshire (2); Kent (1); Surrey (1)
+finance and office assistant 25 000 30 000 harrogate,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,2,Yorkshire (North/East) (2),Yorkshire (2)
+ifa administrator financial services administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,2,East Midlands / Northamptonshire (1); South East (ex-London) (1),Northamptonshire (1); Wolverhampton (1)
+mortgage protection administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,2,South East (ex-London) (1); West Midlands (1),London (1); West Midlands (1)
+administration support officer finance newry,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,South East (ex-London) (1),Not Specified (1)
+administrator financial services,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,South East (ex-London) (1),Cumbria (1)
+corporate financial administrator trainee entry level,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,North East - Tees Valley (1),County Durham (1)
+finance assessment officer,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,South East (ex-London) (1),County Down (1)
+financial planning administrator part time,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,Greater Manchester (1),Lancashire (1)
+financial planning administrator sheffield basic salary to 31 000,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,Yorkshire (South) (1),Yorkshire (1)
+mandarin speaking account service administrator banking,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,South East (ex-London) (1),London (1)
+mortgage administration teamleader must have exp,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,East Midlands / Leicestershire (1),Leicestershire (1)
+mortgage and protection administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,East of England / Hertfordshire (1),Hertfordshire (1)
+pa receptionist executive assistant financial services,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,South West England / Wiltshire (1),Wiltshire (1)
+payroll company secretary administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,East of England (1),Essex (1)
+pensions bpa administrator,REVIEW_CONTEXT_DEPENDENT,DRAFT_V2_REBUILT,finance wording present but level or function requires review,1,Greater Manchester (1),Lancashire (1)
+Childrens Residential Support Worker (Bank),OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Accounts Purchasing & Administration Supervisor,HARD_PASS,APPROVED_2026-06-17,"professional, senior or management finance role",,,
+Administration Supervisor - Mortgages,HARD_PASS,APPROVED_2026-06-17,"professional, senior or management finance role",,,
+"Finance and Office Assistant, £25,000-£30,000, Harrogate",REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but office duties require review,,,
+Mortgage & Protection Administrator,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Accounts and Office Assistant (maternity cover),ELASTIC_FIT,APPROVED_2026-06-17,credible finance/administration crossover,,,
+Administration Support Officer - Finance Newry,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Administrator - Financial Services,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Business Development & Account Manager Healthcare & Ambulance Servic,OUT_OF_SCOPE,APPROVED_2026-06-17,business-development/account-management role rather than finance/accounts support,,,
+"Client Services Manager, Pension Administration",OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Corporate Financial Administrator (Trainee - Entry Level),REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Finance Administrator (Enniskillen),HIGH_CONFIDENCE,APPROVED_2026-06-17,clear entry/intermediate finance or accounts support title,,,
+Finance Administrator (Newry),HIGH_CONFIDENCE,APPROVED_2026-06-17,clear entry/intermediate finance or accounts support title,,,
+Finance Administrator - Part-Time,HIGH_CONFIDENCE,APPROVED_2026-06-17,clear entry/intermediate finance or accounts support title,,,
+Financial Planning Administrator (Part Time),REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+"Financial Planning Administrator - Sheffield - Basic salary to £31,000",REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,financial-planning administration requires context review,,,
+IFA Administrator / Financial Services Administrator,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+IFA Administrator/Financial Services Administrator,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Mandarin Speaking Account Service Administrator - Banking,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Mortgage Administration Teamleader - must have exp,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+"Mortgage Administrator - North Leicester - Salary up to £28,000",ELASTIC_FIT,APPROVED_2026-06-17,credible finance/administration crossover,,,
+Mortgage Case Manager / Administrator,HARD_PASS,APPROVED_2026-06-17,"professional, senior or management finance role",,,
+PA / Receptionist / Executive Assistant - Financial Services,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,finance wording present but level or function requires review,,,
+Payroll & Company Secretary Administrator,REVIEW_CONTEXT_DEPENDENT,APPROVED_2026-06-17,payroll is relevant but company-secretarial duties require review,,,
+Pension Administration Manager - Defined Benefits,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Pensions Administrator - York,ELASTIC_FIT,APPROVED_2026-06-17,credible finance/administration crossover,,,
+Quality Auditor / Data Analysis Technician,HARD_PASS,APPROVED_2026-06-17,"professional, senior or management finance role",,,
+Senior Business Migration Account Assistant (offboarding),OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Senior Pensions Administrator (Defined Benefit),HARD_PASS,APPROVED_2026-06-17,"professional, senior or management finance role",,,
+Contracts Assistant / Administrator - Warwickshire,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Corporate and M&A Transactions Assistant Manager,OUT_OF_SCOPE,APPROVED_2026-06-17,corporate transactions management role outside Phase-1 finance/accounts support,,,
+Customer Solutions Operations Manager - technical product,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+IFA Administrator (Exclusive to Taylor James),OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+IFA Administrator - Hybrid/Remote,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+IFA Administrator/Paraplanner (IFA Firm),HARD_PASS,APPROVED_2026-06-17,"professional, senior or management finance role",,,
+Sales and Administration Co-ordinator,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Sales Assistant (24 Hours Per Week) Rathmore,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Sales Executive (Medical Devices),OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Wealth Planning Administrator (SJP Practice),OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
+Wealth Planning Administrator - 12% bonus and 2 days from home,OUT_OF_SCOPE,APPROVED_2026-06-17,no credible finance/accounts title signal,,,
