@@ -212,7 +212,7 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
 job_id: 107472400
 ---
