@@ -213,6 +213,17 @@ def top_values(values: Iterable[object], limit: int = 8) -> str:
     return "; ".join(f"{value} ({count})" for value, count in Counter(norm_text(v) for v in values if norm_text(v)).most_common(limit))
 
 
+def top_distinct_job_values(rows: list[dict], field: str, limit: int = 8) -> str:
+    value_jobs: dict[str, set[str]] = {}
+    for row in rows:
+        value = norm_text(row.get(field))
+        job_id = norm_text(row.get("job_id"))
+        if value and job_id:
+            value_jobs.setdefault(value, set()).add(job_id)
+    ranked = sorted(value_jobs.items(), key=lambda item: (-len(item[1]), item[0]))[:limit]
+    return "; ".join(f"{value} ({len(job_ids)})" for value, job_ids in ranked)
+
+
 def unique_count(rows: list[dict], field: str) -> int:
     return len({row[field] for row in rows if norm_text(row.get(field))})
 
@@ -247,6 +258,30 @@ def trend_label(first_avg: float, last_avg: float, peak: int) -> str:
     return "stable"
 
 
+def advertiser_trend_label(first_avg: float, last_avg: float, peak: int, days_active: int, total_feed_days: int) -> str:
+    GROWTH_THRESHOLD_PCT = 20.0
+    DECLINE_THRESHOLD_PCT = -20.0
+    SPIKE_PEAK_TO_LAST_AVG_RATIO = 3.0
+    SPIKE_LAST_TO_PEAK_MAX_RATIO = 0.35
+    SPIKE_MAX_ACTIVE_DAY_SHARE = 0.40
+
+    active_day_share = (days_active / total_feed_days) if total_feed_days else 0.0
+    if (
+        peak >= 3
+        and peak >= last_avg * SPIKE_PEAK_TO_LAST_AVG_RATIO
+        and last_avg <= peak * SPIKE_LAST_TO_PEAK_MAX_RATIO
+        and active_day_share <= SPIKE_MAX_ACTIVE_DAY_SHARE
+    ):
+        return "spike"
+
+    change = ((last_avg - first_avg) / first_avg * 100.0) if first_avg else (100.0 if last_avg else 0.0)
+    if change >= GROWTH_THRESHOLD_PCT:
+        return "growing"
+    if change <= DECLINE_THRESHOLD_PCT:
+        return "declining"
+    return "stable"
+
+
 def write_csv(path: Path, rows: list[dict]) -> None:
     fieldnames = list(rows[0].keys()) if rows else []
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
@@ -261,16 +296,33 @@ def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> 
     first_window = valid_dates[:5]
     last_window = valid_dates[-5:]
 
+    latest_feed_date = max(valid_dates) if valid_dates else ""
+
     for (advertiser,), group in group_rows(base_rows, ("advertiser",)).items():
         counts = daily_counts(group)
         first_avg = window_average(counts, first_window)
         last_avg = window_average(counts, last_window)
-        total = len(group)
+        feed_appearances = len(group)
         days_active = len(counts)
+        unique_job_ids = {row["job_id"] for row in group if norm_text(row.get("job_id"))}
+        first_seen_by_job: dict[str, str] = {}
+        for row in group:
+            job_id = norm_text(row.get("job_id"))
+            if job_id:
+                first_seen_by_job[job_id] = min(first_seen_by_job.get(job_id, row["month_date"]), row["month_date"])
+        current_live_jobs = {
+            row["job_id"]
+            for row in group
+            if latest_feed_date and row["month_date"] == latest_feed_date and norm_text(row.get("job_id"))
+        }
+        peak_daily_live_jobs = max(counts.values()) if counts else 0
         campaign_rows.append({
             "month": month,
             "advertiser": advertiser,
-            "total_adverts": total,
+            "unique_job_ids": len(unique_job_ids),
+            "feed_appearances": feed_appearances,
+            "new_jobs_first_seen": sum(1 for first_seen in first_seen_by_job.values() if first_seen.startswith(month)),
+            "current_live_jobs": len(current_live_jobs),
             "unique_role_count": unique_count(group, "normalised_title"),
             "unique_roles": "; ".join(sorted({row["normalised_title"] for row in group if row["normalised_title"]})),
             "unique_location_count": unique_count(group, "location"),
@@ -280,13 +332,13 @@ def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> 
             "first_day_seen": min(counts.keys()) if counts else "",
             "last_day_seen": max(counts.keys()) if counts else "",
             "days_active": days_active,
-            "average_adverts_per_active_day": round(total / days_active, 2) if days_active else 0.0,
-            "peak_daily_adverts": max(counts.values()) if counts else 0,
-            "top_roles": top_values((row["normalised_title"] for row in group), 10),
-            "top_regions": top_values((row["lookup_region"] for row in group), 10),
-            "campaign_trend": trend_label(first_avg, last_avg, max(counts.values()) if counts else 0),
-            "first_five_day_average": first_avg,
-            "last_five_day_average": last_avg,
+            "average_feed_appearances_per_active_day": round(feed_appearances / days_active, 2) if days_active else 0.0,
+            "peak_daily_live_jobs": peak_daily_live_jobs,
+            "top_roles": top_distinct_job_values(group, "normalised_title", 10),
+            "top_regions": top_distinct_job_values(group, "lookup_region", 10),
+            "campaign_trend": advertiser_trend_label(first_avg, last_avg, peak_daily_live_jobs, days_active, len(valid_dates)),
+            "first_five_day_live_average": first_avg,
+            "last_five_day_live_average": last_avg,
             "first_vs_last_five_day_change_pct": round(((last_avg - first_avg) / first_avg * 100.0), 1) if first_avg else (100.0 if last_avg else 0.0),
         })
 
@@ -322,7 +374,7 @@ def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> 
             "top_advertiser_share_pct": safe_pct(top_count, total),
         })
 
-    campaign_rows.sort(key=lambda row: (-row["total_adverts"], row["advertiser"]))
+    campaign_rows.sort(key=lambda row: (-row["feed_appearances"], row["advertiser"]))
     role_rows.sort(key=lambda row: (row["normalised_title"], row["slice"]))
     return campaign_rows, role_rows
 
