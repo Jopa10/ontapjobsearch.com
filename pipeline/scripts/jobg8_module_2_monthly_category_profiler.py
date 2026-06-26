@@ -33,9 +33,17 @@ from __future__ import annotations
 import argparse
 import math
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path = [
+    entry
+    for entry in sys.path
+    if Path(entry or ".").resolve() != SCRIPT_DIR
+]
 
 import pandas as pd
 
