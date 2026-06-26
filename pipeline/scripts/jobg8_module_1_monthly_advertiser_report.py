@@ -3,8 +3,8 @@
 Ontap Compiler Module 1: Monthly Advertiser and Role Trend Report.
 
 Builds two month-level CSV reports from the archived daily JobG8 Excel feeds:
-- advertiser campaign summary by advertiser/category/region
-- role trends by registered category/region, including top advertiser share
+- advertiser campaign summary by advertiser across the full month
+- role trends by normalised title and selected register slice
 
 Inputs are intentionally repo-native only: the monthly archive folder,
 pipeline/geo/geo_lookup.xlsx, and pipeline/registers/*.csv.
@@ -19,12 +19,17 @@ from collections import Counter
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-if str(SCRIPT_DIR) not in sys.path:
-    sys.path.insert(0, str(SCRIPT_DIR))
-
 import csv
-import pandas as pd
+import importlib.util
+
+_pandas_spec = importlib.util.find_spec("pandas")
+if _pandas_spec is not None:
+    import pandas as pd
+else:
+    _shim_path = Path(__file__).resolve().with_name("pandas.py")
+    _shim_spec = importlib.util.spec_from_file_location("pipeline_scripts_pandas_shim", _shim_path)
+    pd = importlib.util.module_from_spec(_shim_spec)
+    _shim_spec.loader.exec_module(pd)
 
 SELECTED_CLASSIFICATIONS = {"HIGH_CONFIDENCE", "ELASTIC_FIT"}
 
@@ -141,7 +146,7 @@ def load_daily_feeds(input_dir: Path, geo_lookup: Dict[str, str], registers: Dic
     errors: List[str] = []
     valid_dates: List[str] = []
     required_cols = {COL_TITLE, COL_ADVERTISER, COL_AREA}
-    seen: set[tuple[str, str, str, str]] = set()
+    seen_base: set[tuple[str, str]] = set()
 
     for path in files:
         date = extract_date(path)
@@ -161,43 +166,43 @@ def load_daily_feeds(input_dir: Path, geo_lookup: Dict[str, str], registers: Dic
         for index, row in enumerate(iter_records(df)):
             title = norm_text(row.get(COL_TITLE))
             title_key = norm_key(title)
-            matched_categories = [category for category, register in registers.items() if register.get(title_key) in SELECTED_CLASSIFICATIONS]
-            if not matched_categories:
-                continue
+            matched_slices = [category for category, register in registers.items() if register.get(title_key) in SELECTED_CLASSIFICATIONS]
+            if not matched_slices:
+                matched_slices = ["unclassified"]
             area = norm_text(row.get(COL_AREA))
             job_id = norm_text(row.get(COL_JOB_ID)) if COL_JOB_ID in df.columns else ""
             if not job_id:
                 job_id = f"{path.name}:{index + 2}"
-            base = {
+            base_key = (date, job_id)
+            if base_key in seen_base:
+                continue
+            seen_base.add(base_key)
+            rows.append({
                 "month_date": date,
                 "job_id": job_id,
                 "title": title,
-                "title_key": title_key,
+                "normalised_title": title_key or "unknown title",
                 "advertiser": norm_text(row.get(COL_ADVERTISER)) or "Unknown advertiser",
                 "advertiser_type": norm_text(row.get(COL_ADVERTISER_TYPE)) if COL_ADVERTISER_TYPE in df.columns else "",
                 "location": area,
                 "raw_location": norm_text(row.get(COL_LOCATION)) if COL_LOCATION in df.columns else "",
                 "lookup_region": geo_lookup.get(norm_key(area), "Other / Unknown"),
                 "source_file": path.name,
-            }
-            for category in matched_categories:
-                key = (date, job_id, category, base["lookup_region"])
-                if key not in seen:
-                    seen.add(key)
-                    rows.append({**base, "category": category})
+                "slices": matched_slices,
+            })
 
     if not rows:
-        raise RuntimeError("No jobs matched HIGH_CONFIDENCE or ELASTIC_FIT in the registers.")
+        raise RuntimeError("No usable JobG8 adverts were found in the monthly feeds.")
     return rows, sorted(set(valid_dates)), errors
 
-
-def add_report_regions(expanded: list[dict]) -> list[dict]:
-    rows = [{**row, "report_region": row["lookup_region"], "region_scope": "lookup_region"} for row in expanded]
-    for aggregate_region, lookup_regions in LIVE_SLICE_GROUPS.items():
-        for row in expanded:
-            if row["lookup_region"] in lookup_regions:
-                rows.append({**row, "report_region": aggregate_region, "region_scope": "published_aggregate"})
-    return rows
+def expand_role_slices(base_rows: list[dict]) -> list[dict]:
+    expanded: list[dict] = []
+    for row in base_rows:
+        for slice_name in row.get("slices", []) or ["unclassified"]:
+            copy = {key: value for key, value in row.items() if key != "slices"}
+            copy["slice"] = slice_name
+            expanded.append(copy)
+    return expanded
 
 
 def safe_pct(numerator: int | float, denominator: int | float) -> float:
@@ -209,7 +214,7 @@ def top_values(values: Iterable[object], limit: int = 8) -> str:
 
 
 def unique_count(rows: list[dict], field: str) -> int:
-    return len({row[field] for row in rows})
+    return len({row[field] for row in rows if norm_text(row.get(field))})
 
 
 def group_rows(rows: list[dict], fields: tuple[str, ...]) -> dict[tuple, list[dict]]:
@@ -220,11 +225,26 @@ def group_rows(rows: list[dict], fields: tuple[str, ...]) -> dict[tuple, list[di
     return grouped
 
 
-def daily_unique_counts(rows: list[dict]) -> Counter:
-    by_day: dict[str, set[str]] = {}
-    for row in rows:
-        by_day.setdefault(row["month_date"], set()).add(row["job_id"])
-    return Counter({date: len(ids) for date, ids in by_day.items()})
+def daily_counts(rows: list[dict]) -> Counter:
+    return Counter(row["month_date"] for row in rows)
+
+
+def window_average(counts: Counter, dates: List[str]) -> float:
+    return round(sum(counts.get(date, 0) for date in dates) / len(dates), 2) if dates else 0.0
+
+
+def trend_label(first_avg: float, last_avg: float, peak: int) -> str:
+    GROWTH_THRESHOLD_PCT = 20.0
+    DECLINE_THRESHOLD_PCT = -20.0
+    SPIKE_PEAK_TO_LAST_AVG_RATIO = 2.0
+    if last_avg > 0 and peak >= max(3, last_avg * SPIKE_PEAK_TO_LAST_AVG_RATIO) and last_avg <= first_avg:
+        return "spike"
+    change = ((last_avg - first_avg) / first_avg * 100.0) if first_avg else (100.0 if last_avg else 0.0)
+    if change >= GROWTH_THRESHOLD_PCT:
+        return "growing"
+    if change <= DECLINE_THRESHOLD_PCT:
+        return "declining"
+    return "stable"
 
 
 def write_csv(path: Path, rows: list[dict]) -> None:
@@ -235,71 +255,76 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
-def build_reports(expanded: list[dict], valid_dates: List[str], month: str) -> tuple[list[dict], list[dict]]:
-    report_jobs = add_report_regions(expanded)
+def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> tuple[list[dict], list[dict]]:
     campaign_rows: List[dict] = []
     role_rows: List[dict] = []
+    first_window = valid_dates[:5]
+    last_window = valid_dates[-5:]
 
-    for (region, scope, category, advertiser), group in group_rows(report_jobs, ("report_region", "region_scope", "category", "advertiser")).items():
-        daily_counts = daily_unique_counts(group)
-        total_jobs = unique_count(group, "job_id")
-        days_seen = sum(1 for value in daily_counts.values() if value > 0)
+    for (advertiser,), group in group_rows(base_rows, ("advertiser",)).items():
+        counts = daily_counts(group)
+        first_avg = window_average(counts, first_window)
+        last_avg = window_average(counts, last_window)
+        total = len(group)
+        days_active = len(counts)
         campaign_rows.append({
             "month": month,
-            "region": region,
-            "region_scope": scope,
-            "category": category,
             "advertiser": advertiser,
-            "advertiser_type": top_values((row["advertiser_type"] for row in group), 3),
-            "total_jobs": total_jobs,
-            "feed_days": len(valid_dates),
-            "days_seen": days_seen,
-            "seen_ratio_pct": safe_pct(days_seen, len(valid_dates)),
-            "average_daily_jobs": round(total_jobs / len(valid_dates), 2) if valid_dates else 0.0,
-            "maximum_daily_jobs": max(daily_counts.values()) if daily_counts else 0,
-            "first_seen_date": min(daily_counts.keys()) if daily_counts else "",
-            "last_seen_date": max(daily_counts.keys()) if daily_counts else "",
-            "top_titles": top_values((row["title"] for row in group), 8),
-            "top_locations": top_values((row["location"] for row in group), 8),
+            "total_adverts": total,
+            "unique_role_count": unique_count(group, "normalised_title"),
+            "unique_roles": "; ".join(sorted({row["normalised_title"] for row in group if row["normalised_title"]})),
+            "unique_location_count": unique_count(group, "location"),
+            "unique_locations": "; ".join(sorted({row["location"] for row in group if row["location"]})),
+            "unique_region_count": unique_count(group, "lookup_region"),
+            "unique_regions": "; ".join(sorted({row["lookup_region"] for row in group if row["lookup_region"]})),
+            "first_day_seen": min(counts.keys()) if counts else "",
+            "last_day_seen": max(counts.keys()) if counts else "",
+            "days_active": days_active,
+            "average_adverts_per_active_day": round(total / days_active, 2) if days_active else 0.0,
+            "peak_daily_adverts": max(counts.values()) if counts else 0,
+            "top_roles": top_values((row["normalised_title"] for row in group), 10),
+            "top_regions": top_values((row["lookup_region"] for row in group), 10),
+            "campaign_trend": trend_label(first_avg, last_avg, max(counts.values()) if counts else 0),
+            "first_five_day_average": first_avg,
+            "last_five_day_average": last_avg,
+            "first_vs_last_five_day_change_pct": round(((last_avg - first_avg) / first_avg * 100.0), 1) if first_avg else (100.0 if last_avg else 0.0),
         })
 
-    for (region, scope, category), group in group_rows(report_jobs, ("report_region", "region_scope", "category")).items():
-        daily_counts = daily_unique_counts(group)
-        advertiser_counts = Counter()
-        advertiser_jobs: dict[str, set[str]] = {}
-        for row in group:
-            advertiser_jobs.setdefault(row["advertiser"], set()).add(row["job_id"])
-        for advertiser, ids in advertiser_jobs.items():
-            advertiser_counts[advertiser] = len(ids)
-        total_jobs = unique_count(group, "job_id")
-        all_daily_counts = [daily_counts.get(date, 0) for date in valid_dates]
-        top_advertiser, top_count = advertiser_counts.most_common(1)[0] if advertiser_counts else ("", 0)
+    role_jobs = expand_role_slices(base_rows)
+    for (normalised_title, slice_name), group in group_rows(role_jobs, ("normalised_title", "slice")).items():
+        counts = daily_counts(group)
+        first_avg = window_average(counts, first_window)
+        last_avg = window_average(counts, last_window)
+        total = len(group)
+        days_active = len(counts)
+        advertiser_counts = Counter(row["advertiser"] for row in group)
+        top_count = advertiser_counts.most_common(1)[0][1] if advertiser_counts else 0
         role_rows.append({
             "month": month,
-            "region": region,
-            "region_scope": scope,
-            "category": category,
-            "total_jobs": total_jobs,
-            "feed_days": len(valid_dates),
-            "days_seen": sum(1 for value in all_daily_counts if value > 0),
-            "seen_ratio_pct": safe_pct(sum(1 for value in all_daily_counts if value > 0), len(valid_dates)),
-            "average_daily_jobs": round(total_jobs / len(valid_dates), 2) if valid_dates else 0.0,
-            "minimum_daily_jobs": min(all_daily_counts) if all_daily_counts else 0,
-            "maximum_daily_jobs": max(all_daily_counts) if all_daily_counts else 0,
-            "unique_title_count": unique_count(group, "title_key"),
-            "unique_advertiser_count": unique_count(group, "advertiser"),
-            "unique_location_count": unique_count(group, "location"),
-            "top_advertiser": top_advertiser,
-            "top_advertiser_share_pct": safe_pct(top_count, total_jobs),
-            "top_titles": top_values((row["title"] for row in group), 10),
+            "normalised_title": normalised_title,
+            "slice": slice_name,
+            "example_live_titles": top_values((row["title"] for row in group), 5),
+            "total_adverts": total,
+            "days_active": days_active,
+            "first_day_seen": min(counts.keys()) if counts else "",
+            "last_day_seen": max(counts.keys()) if counts else "",
+            "average_adverts_per_active_day": round(total / days_active, 2) if days_active else 0.0,
+            "peak_daily_count": max(counts.values()) if counts else 0,
+            "unique_advertisers": unique_count(group, "advertiser"),
+            "unique_regions": unique_count(group, "lookup_region"),
+            "unique_locations": unique_count(group, "location"),
             "top_advertisers": top_values((row["advertiser"] for row in group), 10),
-            "top_locations": top_values((row["location"] for row in group), 10),
+            "top_regions": top_values((row["lookup_region"] for row in group), 10),
+            "first_five_day_average": first_avg,
+            "last_five_day_average": last_avg,
+            "first_vs_last_five_day_change_pct": round(((last_avg - first_avg) / first_avg * 100.0), 1) if first_avg else (100.0 if last_avg else 0.0),
+            "trend_label": trend_label(first_avg, last_avg, max(counts.values()) if counts else 0),
+            "top_advertiser_share_pct": safe_pct(top_count, total),
         })
 
-    campaign_rows.sort(key=lambda row: (row["category"], row["region"], -row["total_jobs"], row["advertiser"]))
-    role_rows.sort(key=lambda row: (row["category"], row["region"]))
+    campaign_rows.sort(key=lambda row: (-row["total_adverts"], row["advertiser"]))
+    role_rows.sort(key=lambda row: (row["normalised_title"], row["slice"]))
     return campaign_rows, role_rows
-
 
 def run(input_dir: Path, output_dir: Path, month: str, geo_lookup_path: Path, registers_dir: Optional[Path] = None) -> None:
     base_dir = Path.cwd()
