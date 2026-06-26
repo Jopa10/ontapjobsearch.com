@@ -1,0 +1,86 @@
+name: Run Compiler Module 1
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: Month to compile in YYYY-MM format
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  run-compiler-module-1:
+    name: Run Compiler Module 1
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Validate month input
+        run: |
+          set -euo pipefail
+          month='${{ inputs.month }}'
+          if [[ ! "$month" =~ ^[0-9]{4}-(0[1-9]|1[0-2])$ ]]; then
+            echo "::error::Invalid month '$month'. Expected YYYY-MM with month 01 through 12."
+            exit 1
+          fi
+
+      - name: Run Compiler Module 1
+        run: |
+          set -euo pipefail
+          python -m py_compile pipeline/scripts/jobg8_module_1_monthly_advertiser_report.py
+          python pipeline/scripts/jobg8_module_1_monthly_advertiser_report.py \
+            --month '${{ inputs.month }}' \
+            --input-dir 'pipeline/input-jobg8-archive/${{ inputs.month }}' \
+            --output-dir 'pipeline/reports-module1' \
+            --geo-lookup 'pipeline/geo/geo_lookup.xlsx' \
+            --registers-dir 'pipeline/registers'
+
+      - name: Verify Compiler Module 1 outputs
+        run: |
+          set -euo pipefail
+          for output_file in \
+            "pipeline/reports-module1/${{ inputs.month }}-module1-advertiser-campaigns.csv" \
+            "pipeline/reports-module1/${{ inputs.month }}-module1-role-trends.csv"; do
+            if [ ! -s "$output_file" ]; then
+              echo "::error::Required Compiler Module 1 output '$output_file' is missing or empty."
+              exit 1
+            fi
+          done
+
+      - name: Upload Compiler Module 1 reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiler-module-1-reports-${{ inputs.month }}
+          path: pipeline/reports-module1/
+          if-no-files-found: warn
+
+      - name: Commit Compiler Module 1 outputs
+        run: |
+          set -euo pipefail
+          output_files=(
+            "pipeline/reports-module1/${{ inputs.month }}-module1-advertiser-campaigns.csv"
+            "pipeline/reports-module1/${{ inputs.month }}-module1-role-trends.csv"
+          )
+          if [ -z "$(git status --porcelain -- "${output_files[@]}")" ]; then
+            echo "No Compiler Module 1 output changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${output_files[@]}"
+          git commit -m "Run Compiler Module 1 for ${{ inputs.month }}"
+          git push
