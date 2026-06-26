@@ -1,0 +1,38 @@
+Month: 2026-06
+Input directory: pipeline/input-jobg8-archive/2026-06
+Valid feed days: 24
+First feed day: 2026-06-01
+Last feed day: 2026-06-24
+Selected register-expanded job rows: 12631
+Geo lookup: pipeline/geo/geo_lookup.xlsx
+Geo areas loaded: 1198
+Classification mode: register-only
+Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT
+North East published page: aggregated from three geo_lookup regions
+
+Registers:
+- support_worker: pipeline/registers/support_worker_title_classification_register.csv (565 titles)
+- admin_service: pipeline/registers/admin_service_title_classification_register.csv (1292 titles)
+- finance_accounts: pipeline/registers/finance_accounts_title_classification_register.csv (124 titles)
+- customer_service_contact_centre: pipeline/registers/customer_service_contact_centre_title_classification_register.csv (196 titles)
+- warehouse_logistics: pipeline/registers/warehouse_logistics_title_classification_register.csv (25 titles)
+- hr_recruitment: pipeline/registers/hr_recruitment_title_classification_register.csv (331 titles)
+
+Recommendation configuration:
+- minimum_seen_ratio: 0.8
+- minimum_average_daily_jobs: 6.0
+- minimum_unique_titles: 5
+- minimum_unique_companies: 3
+- minimum_unique_locations: 3
+- severe_top_1_company_share: 0.5
+- severe_top_2_company_share: 0.7
+- watch_minimum_average_daily_jobs: 3.0
+- watch_minimum_seen_ratio: 0.5
+- watch_minimum_peak_jobs: 6
+- meaningful_decline_pct: -20.0
+- campaign_driven_decline_share: 0.6
+
+Outputs:
+- pipeline/reports-module2/2026-06-module2-category-validation.csv
+- pipeline/reports-module2/2026-06-module2-daily-counts.csv
+- pipeline/reports-module2/2026-06-module2-unknown-location-detail.csv

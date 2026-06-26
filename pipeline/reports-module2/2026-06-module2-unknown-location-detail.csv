@@ -1,0 +1,4 @@
+﻿date,job_id,title,company,raw_area,raw_location,category,source_file,unknown_reason
+2026-06-01,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,support_worker,2026-06-01.xlsx,area_not_found_in_geo_lookup
+2026-06-07,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,support_worker,2026-06-07.xlsx,area_not_found_in_geo_lookup
+2026-06-08,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,support_worker,2026-06-08.xlsx,area_not_found_in_geo_lookup
