@@ -41,12 +41,6 @@ job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
 
 ---
 action: select
-SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
-job_id: 107506827
----
-
----
-action: select
 SELECTED | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
 job_id: 107409218
 ---
@@ -85,8 +79,20 @@ job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | Ifa Administrator
+job_id: 941c9e3f-81b2-4a8e-9dc4-c907e5f20c63
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £33000 per year | IFA Administrator
 job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
+job_id: 107586970
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -134,6 +140,12 @@ job_id: 2f714926-5688-4a91-8367-6abbb5916a10
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
+job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
+---
 
 ---
 action:
@@ -191,24 +203,18 @@ SELECTED | North East | Stockton-on-tees | £28000 - £30000 per year | Customer
 job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
 ---
 
----
-action: select
-SELECTED | North East | Durham | £30000 per year | Support/Housing Management Coordinator
-job_id: 107473649
----
-
----
-action: select
-SELECTED | North East | Cramlington | £24763 per year | Customer Service Administrator
-job_id: 0e6b7d22-66a2-46b6-b0cd-f657f30dc4ce
----
-
 ## NORTH EAST — POSSIBLES
 
 ---
 action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
 job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
+job_id: 107472400
 ---
 
 ---

@@ -57,6 +57,18 @@ SELECTED | West Yorkshire | Wakefield | £12.85 per hour | Relief Support Worker
 job_id: 17a46495-a6cf-4048-93f8-b7c48dea694e
 ---
 
+---
+action:
+SELECTED | West Yorkshire | Bradford | £12.85 per hour | Support Worker
+job_id: 9b494ab5-0bef-49ee-8374-bd26e9da2456
+---
+
+---
+action:
+SELECTED | West Yorkshire | Bradford | £12.85 per hour | Relief Support Worker
+job_id: 7765f79f-1a3c-4866-b1af-ac2ab8f988d0
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -77,8 +89,8 @@ job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 
 ---
 action:
-SELECTED | South Yorkshire | Barnsley | £13.71 per hour | Waking Night Extra Care Support Worker
-job_id: 55323717-a755-4b01-9fd1-86ae8efcadad
+SELECTED | South Yorkshire | Doncaster | £12.85 per hour | Support Worker
+job_id: 15ffa786-f7e6-401c-b486-b2e370d272d5
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -185,12 +197,6 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.8
 job_id: b56eccae-63dd-4352-9d0c-4add444416ad
 ---
 
----
-action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107575793
----
-
 ## NORTH EAST - TEES VALLEY — SELECTED
 
 _No jobs in this group._
@@ -225,12 +231,6 @@ job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107575786
----
-
----
-action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107353345
 ---
@@ -239,12 +239,6 @@ job_id: 107353345
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.5 - £20 per hour | Children and Young People Support Worker
 job_id: cad080f3-2166-40f5-9ef1-7755dbd7ac81
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £29350 per year | Complex care assistant
-job_id: 107539241
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
