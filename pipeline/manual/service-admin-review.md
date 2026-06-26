@@ -203,18 +203,18 @@ SELECTED | North East | Stockton-on-tees | £28000 - £30000 per year | Customer
 job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
 ---
 
+---
+action: select
+SELECTED | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
+job_id: 107472400
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
 action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
 job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
----
-
----
-action: select
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
-job_id: 107472400
 ---
 
 ---
