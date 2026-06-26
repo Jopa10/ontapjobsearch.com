@@ -112,3 +112,33 @@ Possible future additions:
 - feed diff tracking
 
 Do not add complexity until Phase-1 conversion/indexing signals justify it.
+
+---
+
+# Compiler Module 1: Monthly Advertiser and Role Trends
+
+Module 1 is an inspection report for archived monthly JobG8 supply. It does not publish live pages and does not modify the daily pipelines.
+
+Default run:
+
+```bash
+python pipeline/scripts/jobg8_module_1_monthly_advertiser_report.py \
+  --month 2026-06 \
+  --input-dir pipeline/input-jobg8-archive/2026-06 \
+  --output-dir pipeline/reports-module1 \
+  --geo-lookup pipeline/geo/geo_lookup.xlsx \
+  --registers-dir pipeline/registers
+```
+
+Authoritative inputs:
+- `pipeline/input-jobg8-archive/<YYYY-MM>/` daily JobG8 Excel files
+- `pipeline/geo/geo_lookup.xlsx`
+- `pipeline/registers/*.csv`
+
+Generated outputs:
+- `pipeline/reports-module1/<YYYY-MM>-module1-advertiser-campaigns.csv`
+- `pipeline/reports-module1/<YYYY-MM>-module1-role-trends.csv`
+
+The role-trends report includes `top_advertiser_share_pct` as the only advertiser-concentration metric for now. Module 1 uses register-only title classification (`HIGH_CONFIDENCE` and `ELASTIC_FIT`) and has no local workstation path fallback or legacy `lookup.xlsx` discovery.
+
+A manual GitHub Actions workflow, **Run Compiler Module 1**, can run the same report for a selected month and commit only the two Module 1 report outputs.
