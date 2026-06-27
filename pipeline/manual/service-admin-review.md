@@ -51,6 +51,42 @@ SELECTED | West Yorkshire | Leeds | £27000 - £34000 per year | Finance Adminis
 job_id: 2cf237a5-299c-4483-bd29-b9261fd349a8
 ---
 
+---
+action: select
+SELECTED | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
+job_id: 107586970
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Wakefield | £28000 - £35000 per year | Income Reconciliation Administrator
+job_id: 039d803e-abef-4df9-9913-1b5f402c8839
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £25000 - £27000 per year | Travel Administrator
+job_id: d01d35fb-5cea-496e-8f95-9e9d3825dcc9
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
+job_id: 107506827
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
+job_id: 107426616
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Wakefield | £25000 - £27000 per year | Client Reporting Administrator
+job_id: da684c1e-0b27-49e6-af68-fdfaffcced6c
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -84,12 +120,6 @@ job_id: 852bb979-9f9d-4038-a1df-c3ccd0ea23bf
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £27000 per year | Travel Administrator
-job_id: d01d35fb-5cea-496e-8f95-9e9d3825dcc9
----
-
----
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Finance Administrator
 job_id: f8a02024-1012-4b5e-8bf5-49221850453e
@@ -114,39 +144,9 @@ job_id: 46cd3259-bc0f-49c5-9e35-64f1d6ed2d25
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
-job_id: 107506827
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
-job_id: 107586970
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £28000 - £35000 per year | Income Reconciliation Administrator
-job_id: 039d803e-abef-4df9-9913-1b5f402c8839
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £25000 - £27000 per year | Client Reporting Administrator
-job_id: da684c1e-0b27-49e6-af68-fdfaffcced6c
----
-
----
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Castleford | £13.5 - £14.5 per hour | Part-Time Accounts Administrator
 job_id: ebd2d9a1-a804-4c16-93f0-814db901aab3
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Batley | £30000 per year | Design Administrator
-job_id: 107426616
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -193,6 +193,12 @@ SELECTED | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administ
 job_id: 2f714926-5688-4a91-8367-6abbb5916a10
 ---
 
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £27976 per year | Stock Administrator
+job_id: 5e7d0300-8462-45b1-a6ee-588584c1b127
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -220,24 +226,12 @@ job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
 ---
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £27976 per year | Stock Administrator
-job_id: 5e7d0300-8462-45b1-a6ee-588584c1b127
----
-
----
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £30000 - £35000 per year | HSE Administrator
 job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 ---
 
 ## NORTH EAST — SELECTED
-
----
-action: exclude
-SELECTED | North East | Newcastle Upon Tyne | £25000 - £35000 per year | Insolvency Administrator
-job_id: d5a6637f-52b8-463d-bd6c-54a956157284
----
 
 ---
 action: select
@@ -279,12 +273,6 @@ job_id: 107472400
 
 ---
 action:
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
-job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
----
-
----
-action:
 POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
@@ -293,6 +281,12 @@ job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 action:
 POSS - NORTH EAST | North East | Stockton-on-tees | £26000 - £31000 per year | Ifa Administrator
 job_id: ebcd502a-d040-4a27-8fcb-47dfcd826c1b
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
+job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
 
 ---

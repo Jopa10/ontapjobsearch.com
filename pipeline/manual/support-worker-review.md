@@ -237,6 +237,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.8
 job_id: 8161276f-51d2-4cba-a8df-d4778df64d19
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Relief Support Worker
+job_id: bdcf77dd-281a-42ae-94c8-5240f456581a
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -273,12 +279,6 @@ _No jobs in this group._
 action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Northumberland | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
 job_id: 107199252
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Relief Support Worker
-job_id: bdcf77dd-281a-42ae-94c8-5240f456581a
 ---
 
 ---
