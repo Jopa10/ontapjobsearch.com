@@ -276,7 +276,7 @@ job_id: 107199252
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Relief Support Worker
 job_id: bdcf77dd-281a-42ae-94c8-5240f456581a
 ---
