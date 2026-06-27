@@ -14,7 +14,7 @@ spec.loader.exec_module(module)
 
 
 ADVERTISER_COLUMNS = [
-    "month", "advertiser", "unique_job_ids", "feed_appearances", "new_jobs_first_seen",
+    "month", "advertiser", "advertiser_type", "advertiser_type_source", "unique_job_ids", "feed_appearances", "new_jobs_first_seen",
     "current_live_jobs", "unique_role_count", "unique_roles", "unique_location_count",
     "unique_locations", "unique_region_count", "unique_regions", "first_day_seen", "last_day_seen",
     "days_active", "average_feed_appearances_per_active_day", "peak_daily_live_jobs",
@@ -58,7 +58,7 @@ def count_sum(top_list):
 
 class Module1AdvertiserReportTests(unittest.TestCase):
     def test_outputs_have_required_columns_and_no_old_summary_columns(self):
-        advertiser_campaigns, role_trends = module.build_reports(
+        advertiser_campaigns, role_trends, advertiser_type_summary = module.build_reports(
             [row("2026-06-01", "1", "Support Worker", "Alpha Care", "Leeds", "Yorkshire - West", ["support_worker"])],
             ["2026-06-01"],
             "2026-06",
@@ -77,7 +77,7 @@ class Module1AdvertiserReportTests(unittest.TestCase):
             row("2026-06-02", "4", "Picker", "Beta Logistics", "Leeds", "Yorkshire - West", ["warehouse_logistics"]),
         ]
 
-        advertiser_campaigns, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02"], "2026-06")
+        advertiser_campaigns, _, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02"], "2026-06")
         by_advertiser = {campaign["advertiser"]: campaign for campaign in advertiser_campaigns}
 
         self.assertEqual(len(advertiser_campaigns), 2)
@@ -92,7 +92,7 @@ class Module1AdvertiserReportTests(unittest.TestCase):
         dates = [f"2026-06-{day:02d}" for day in range(1, 11)]
         rows = [row(date, "job-1", "Support Worker", "Repeat Care", "Leeds", "Yorkshire - West", ["support_worker"]) for date in dates]
 
-        advertiser_campaigns, _ = module.build_reports(rows, dates, "2026-06")
+        advertiser_campaigns, _, _ = module.build_reports(rows, dates, "2026-06")
         campaign = advertiser_campaigns[0]
 
         self.assertEqual(campaign["unique_job_ids"], 1)
@@ -107,7 +107,7 @@ class Module1AdvertiserReportTests(unittest.TestCase):
             row("2026-06-03", "job-2", "Care Assistant", "Alpha Care", "Durham", "North East", ["support_worker"]),
         ]
 
-        advertiser_campaigns, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02", "2026-06-03"], "2026-06")
+        advertiser_campaigns, _, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02", "2026-06-03"], "2026-06")
         campaign = advertiser_campaigns[0]
 
         self.assertEqual(campaign["unique_job_ids"], 2)
@@ -121,7 +121,7 @@ class Module1AdvertiserReportTests(unittest.TestCase):
             row("2026-06-01", "job-3", "Care Assistant", "Alpha Care", "Durham", "North East", ["support_worker"]),
         ]
 
-        advertiser_campaigns, _ = module.build_reports(rows, [f"2026-06-{day:02d}" for day in range(1, 6)], "2026-06")
+        advertiser_campaigns, _, _ = module.build_reports(rows, [f"2026-06-{day:02d}" for day in range(1, 6)], "2026-06")
         campaign = advertiser_campaigns[0]
 
         self.assertIn("care assistant (2)", campaign["top_roles"])
@@ -139,7 +139,7 @@ class Module1AdvertiserReportTests(unittest.TestCase):
         for date in dates[21:]:
             rows.extend(row(date, f"late-{index}", "Support Worker", "Sustained Care", "Leeds", "Yorkshire - West", ["support_worker"]) for index in range(8))
 
-        advertiser_campaigns, _ = module.build_reports(rows, dates, "2026-06")
+        advertiser_campaigns, _, _ = module.build_reports(rows, dates, "2026-06")
 
         self.assertNotEqual(advertiser_campaigns[0]["campaign_trend"], "spike")
 
@@ -151,7 +151,7 @@ class Module1AdvertiserReportTests(unittest.TestCase):
             row("2026-06-03", "4", "Mystery Role", "Gamma Care", "Durham", "North East", ["unclassified"]),
         ]
 
-        _, role_trends = module.build_reports(rows, ["2026-06-01", "2026-06-02", "2026-06-03"], "2026-06")
+        _, role_trends, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02", "2026-06-03"], "2026-06")
         keys = [(role["normalised_title"], role["slice"]) for role in role_trends]
 
         self.assertEqual(len(keys), len(set(keys)))
@@ -188,3 +188,68 @@ class Module1AdvertiserReportTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class Module1AdvertiserTypeTests(unittest.TestCase):
+    def test_lookup_overrides_contradictory_feed_and_mars_is_lookup_direct_employer(self):
+        rows = [row("2026-06-01", "1", "Support Worker", "Mars", "Leeds", "Yorkshire - West", ["support_worker"])]
+        rows[0]["advertiser_type"] = "Recruiter"
+        campaigns, _, _ = module.build_reports(rows, ["2026-06-01"], "2026-06", {"mars": "direct_employer"})
+        self.assertEqual(campaigns[0]["advertiser_type"], "direct_employer")
+        self.assertEqual(campaigns[0]["advertiser_type_source"], "lookup")
+
+    def test_recognised_feed_fallback_and_consistent_feed_source(self):
+        rows = [
+            row("2026-06-01", "1", "Support Worker", "Feed Care", "Leeds", "Yorkshire - West", ["support_worker"]),
+            row("2026-06-02", "2", "Support Worker", "Feed Care", "Leeds", "Yorkshire - West", ["support_worker"]),
+        ]
+        for item in rows:
+            item["advertiser_type"] = "Recruitment Agency"
+        campaigns, _, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02"], "2026-06", {})
+        self.assertEqual(campaigns[0]["advertiser_type"], "recruitment_agency")
+        self.assertEqual(campaigns[0]["advertiser_type_source"], "feed")
+
+    def test_mixed_recognised_feed_values_use_feed_majority(self):
+        rows = [
+            row("2026-06-01", "1", "Support Worker", "Mixed Care", "Leeds", "Yorkshire - West", ["support_worker"]),
+            row("2026-06-02", "2", "Support Worker", "Mixed Care", "Leeds", "Yorkshire - West", ["support_worker"]),
+            row("2026-06-03", "3", "Support Worker", "Mixed Care", "Leeds", "Yorkshire - West", ["support_worker"]),
+        ]
+        rows[0]["advertiser_type"] = "Direct"
+        rows[1]["advertiser_type"] = "Recruiter"
+        rows[2]["advertiser_type"] = "Recruiter"
+        campaigns, _, _ = module.build_reports(rows, ["2026-06-01", "2026-06-02", "2026-06-03"], "2026-06", {})
+        self.assertEqual(campaigns[0]["advertiser_type"], "recruitment_agency")
+        self.assertEqual(campaigns[0]["advertiser_type_source"], "feed_majority")
+
+    def test_missing_or_unusable_feed_values_become_unknown_unavailable(self):
+        rows = [row("2026-06-01", "1", "Support Worker", "Unknown Care", "Leeds", "Yorkshire - West", ["support_worker"])]
+        rows[0]["advertiser_type"] = "not classified"
+        campaigns, _, _ = module.build_reports(rows, ["2026-06-01"], "2026-06", {})
+        self.assertEqual(campaigns[0]["advertiser_type"], "unknown")
+        self.assertEqual(campaigns[0]["advertiser_type_source"], "unavailable")
+
+    def test_lookup_values_are_loaded_not_hard_coded_and_conflicts_fail(self):
+        with tempfile.TemporaryDirectory() as tempdir:
+            lookup_path = Path(tempdir) / "advertiser_type_lookup.csv"
+            lookup_path.write_text("advertiser,advertiser_type,source_note\nCustom Employer,direct_employer,test\n", encoding="utf-8")
+            self.assertEqual(module.load_advertiser_type_lookup(lookup_path), {"custom employer": "direct_employer"})
+            lookup_path.write_text("advertiser,advertiser_type,source_note\nAcme,direct_employer,a\n acme ,recruitment_agency,b\n", encoding="utf-8")
+            with self.assertRaises(ValueError):
+                module.load_advertiser_type_lookup(lookup_path)
+
+    def test_advertiser_type_summary_totals_reconcile_exactly(self):
+        rows = [
+            row("2026-06-01", "1", "Support Worker", "Direct Co", "Leeds", "Yorkshire - West", ["support_worker"]),
+            row("2026-06-01", "2", "Support Worker", "Agency Co", "Leeds", "Yorkshire - West", ["support_worker"]),
+            row("2026-06-02", "2", "Support Worker", "Agency Co", "Leeds", "Yorkshire - West", ["support_worker"]),
+            row("2026-06-02", "3", "Support Worker", "Mystery Co", "Leeds", "Yorkshire - West", ["support_worker"]),
+        ]
+        rows[0]["advertiser_type"] = "Direct"
+        rows[1]["advertiser_type"] = "Recruiter"
+        rows[2]["advertiser_type"] = "Recruiter"
+        rows[3]["advertiser_type"] = ""
+        campaigns, _, summary = module.build_reports(rows, ["2026-06-01", "2026-06-02"], "2026-06", {})
+        self.assertEqual([item["advertiser_type"] for item in summary], module.REPORT_ADVERTISER_TYPES)
+        self.assertEqual(sum(item["advertiser_count"] for item in summary), len(campaigns))
+        for field in ["unique_job_ids", "feed_appearances", "new_jobs_first_seen", "current_live_jobs"]:
+            self.assertEqual(sum(item[field] for item in summary), sum(campaign[field] for campaign in campaigns))

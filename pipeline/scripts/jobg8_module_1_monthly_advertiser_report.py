@@ -57,6 +57,19 @@ COL_ADVERTISER_TYPE = "/Job/AdvertiserType"
 COL_AREA = "/Job/Area"
 COL_LOCATION = "/Job/Location"
 
+VALID_ADVERTISER_TYPES = {"direct_employer", "recruitment_agency", "unknown"}
+REPORT_ADVERTISER_TYPES = ["direct_employer", "recruitment_agency", "unknown"]
+FEED_ADVERTISER_TYPE_MAP = {
+    "direct": "direct_employer",
+    "direct employer": "direct_employer",
+    "direct_employer": "direct_employer",
+    "employer": "direct_employer",
+    "recruiter": "recruitment_agency",
+    "recruitment agency": "recruitment_agency",
+    "recruitment_agency": "recruitment_agency",
+    "agency": "recruitment_agency",
+}
+
 
 def norm_text(value: object) -> str:
     if value is None or pd.isna(value):
@@ -135,6 +148,60 @@ def load_register(path: Path) -> Dict[str, str]:
         for row in iter_records(df)
         if norm_key(row.get("title"))
     }
+
+
+def load_advertiser_type_lookup(path: Path) -> Dict[str, str]:
+    df = pd.read_csv(path, dtype=str).fillna("")
+    missing = {"advertiser", "advertiser_type"}.difference(df.columns)
+    if missing:
+        raise ValueError(f"{path.name} missing columns: {sorted(missing)}")
+
+    lookup: Dict[str, str] = {}
+    display_names: Dict[str, str] = {}
+    for row in iter_records(df):
+        advertiser = norm_text(row.get("advertiser"))
+        advertiser_key = norm_key(advertiser)
+        advertiser_type = norm_key(row.get("advertiser_type"))
+        if not advertiser_key and not advertiser_type:
+            continue
+        if not advertiser_key or not advertiser_type:
+            raise ValueError(f"{path.name} contains an incomplete advertiser type lookup row: advertiser='{advertiser}', advertiser_type='{advertiser_type}'")
+        if advertiser_type not in VALID_ADVERTISER_TYPES:
+            raise ValueError(f"{path.name} has invalid advertiser_type '{advertiser_type}' for advertiser '{advertiser}'. Valid values: {sorted(VALID_ADVERTISER_TYPES)}")
+        if advertiser_key in lookup and lookup[advertiser_key] != advertiser_type:
+            raise ValueError(
+                f"{path.name} has conflicting advertiser_type values for normalised advertiser key "
+                f"'{advertiser_key}' ({display_names[advertiser_key]!r} vs {advertiser!r}): "
+                f"'{lookup[advertiser_key]}' and '{advertiser_type}'"
+            )
+        lookup[advertiser_key] = advertiser_type
+        display_names[advertiser_key] = advertiser
+    return lookup
+
+
+def normalise_feed_advertiser_type(value: object) -> str:
+    return FEED_ADVERTISER_TYPE_MAP.get(norm_key(value), "")
+
+
+def resolve_advertiser_type(advertiser: str, rows: list[dict], advertiser_type_lookup: Dict[str, str]) -> tuple[str, str]:
+    advertiser_key = norm_key(advertiser)
+    if advertiser_key in advertiser_type_lookup:
+        return advertiser_type_lookup[advertiser_key], "lookup"
+
+    counts = Counter(
+        resolved
+        for resolved in (normalise_feed_advertiser_type(row.get("advertiser_type")) for row in rows)
+        if resolved
+    )
+    if not counts:
+        return "unknown", "unavailable"
+    if len(counts) == 1:
+        return next(iter(counts)), "feed"
+
+    ranked = counts.most_common()
+    if len(ranked) > 1 and ranked[0][1] == ranked[1][1]:
+        return "unknown", "unavailable"
+    return ranked[0][0], "feed_majority"
 
 
 def load_daily_feeds(input_dir: Path, geo_lookup: Dict[str, str], registers: Dict[str, Dict[str, str]]) -> tuple[list[dict], List[str], List[str]]:
@@ -290,13 +357,14 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
-def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> tuple[list[dict], list[dict]]:
+def build_reports(base_rows: list[dict], valid_dates: List[str], month: str, advertiser_type_lookup: Optional[Dict[str, str]] = None) -> tuple[list[dict], list[dict], list[dict]]:
     campaign_rows: List[dict] = []
     role_rows: List[dict] = []
     first_window = valid_dates[:5]
     last_window = valid_dates[-5:]
 
     latest_feed_date = max(valid_dates) if valid_dates else ""
+    advertiser_type_lookup = advertiser_type_lookup or {}
 
     for (advertiser,), group in group_rows(base_rows, ("advertiser",)).items():
         counts = daily_counts(group)
@@ -316,9 +384,12 @@ def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> 
             if latest_feed_date and row["month_date"] == latest_feed_date and norm_text(row.get("job_id"))
         }
         peak_daily_live_jobs = max(counts.values()) if counts else 0
+        advertiser_type, advertiser_type_source = resolve_advertiser_type(advertiser, group, advertiser_type_lookup)
         campaign_rows.append({
             "month": month,
             "advertiser": advertiser,
+            "advertiser_type": advertiser_type,
+            "advertiser_type_source": advertiser_type_source,
             "unique_job_ids": len(unique_job_ids),
             "feed_appearances": feed_appearances,
             "new_jobs_first_seen": sum(1 for first_seen in first_seen_by_job.values() if first_seen.startswith(month)),
@@ -376,31 +447,54 @@ def build_reports(base_rows: list[dict], valid_dates: List[str], month: str) -> 
 
     campaign_rows.sort(key=lambda row: (-row["feed_appearances"], row["advertiser"]))
     role_rows.sort(key=lambda row: (row["normalised_title"], row["slice"]))
-    return campaign_rows, role_rows
+    advertiser_type_summary = build_advertiser_type_summary(campaign_rows, month)
+    return campaign_rows, role_rows, advertiser_type_summary
 
-def run(input_dir: Path, output_dir: Path, month: str, geo_lookup_path: Path, registers_dir: Optional[Path] = None) -> None:
+
+def build_advertiser_type_summary(campaign_rows: list[dict], month: str) -> list[dict]:
+    summary_rows: list[dict] = []
+    for advertiser_type in REPORT_ADVERTISER_TYPES:
+        rows = [row for row in campaign_rows if row.get("advertiser_type") == advertiser_type]
+        summary_rows.append({
+            "month": month,
+            "advertiser_type": advertiser_type,
+            "advertiser_count": len(rows),
+            "unique_job_ids": sum(int(row["unique_job_ids"]) for row in rows),
+            "feed_appearances": sum(int(row["feed_appearances"]) for row in rows),
+            "new_jobs_first_seen": sum(int(row["new_jobs_first_seen"]) for row in rows),
+            "current_live_jobs": sum(int(row["current_live_jobs"]) for row in rows),
+        })
+    return summary_rows
+
+
+def run(input_dir: Path, output_dir: Path, month: str, geo_lookup_path: Path, registers_dir: Optional[Path] = None, advertiser_type_lookup_path: Path = Path("pipeline/lookup/advertiser_type_lookup.csv")) -> None:
     base_dir = Path.cwd()
     register_paths = discover_registers(base_dir, registers_dir)
     geo_lookup = load_geo_lookup(geo_lookup_path)
     registers = {category: load_register(path) for category, path in register_paths.items()}
+    advertiser_type_lookup = load_advertiser_type_lookup(advertiser_type_lookup_path)
     expanded, valid_dates, errors = load_daily_feeds(input_dir, geo_lookup, registers)
-    advertiser_campaigns, role_trends = build_reports(expanded, valid_dates, month)
+    advertiser_campaigns, role_trends, advertiser_type_summary = build_reports(expanded, valid_dates, month, advertiser_type_lookup)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     advertiser_path = output_dir / f"{month}-module1-advertiser-campaigns.csv"
     role_path = output_dir / f"{month}-module1-role-trends.csv"
+    advertiser_type_summary_path = output_dir / f"{month}-module1-advertiser-type-summary.csv"
     write_csv(advertiser_path, advertiser_campaigns)
     write_csv(role_path, role_trends)
+    write_csv(advertiser_type_summary_path, advertiser_type_summary)
 
     lines = [
         f"Month: {month}",
         f"Input directory: {input_dir}",
         f"Valid feed days: {len(valid_dates)}",
         f"Geo lookup: {geo_lookup_path}",
+        f"Advertiser type lookup: {advertiser_type_lookup_path}",
         "Classification mode: register-only",
         "Outputs:",
         f"- {advertiser_path}",
         f"- {role_path}",
+        f"- {advertiser_type_summary_path}",
     ]
     if errors:
         lines.extend(["Input warnings/errors:", *[f"- {error}" for error in errors]])
@@ -414,13 +508,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", default="pipeline/reports-module1", help="Output folder.")
     parser.add_argument("--geo-lookup", default="pipeline/geo/geo_lookup.xlsx", help="Path to geo_lookup.xlsx.")
     parser.add_argument("--registers-dir", default="pipeline/registers", help="Folder containing register CSV files.")
+    parser.add_argument("--advertiser-type-lookup", default="pipeline/lookup/advertiser_type_lookup.csv", help="Path to maintained advertiser type lookup CSV.")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     input_dir = Path(args.input_dir) if args.input_dir else Path("pipeline/input-jobg8-archive") / args.month
-    run(input_dir, Path(args.output_dir), args.month, Path(args.geo_lookup), Path(args.registers_dir) if args.registers_dir else None)
+    run(input_dir, Path(args.output_dir), args.month, Path(args.geo_lookup), Path(args.registers_dir) if args.registers_dir else None, Path(args.advertiser_type_lookup))
 
 
 if __name__ == "__main__":
