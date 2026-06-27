@@ -69,6 +69,42 @@ SELECTED | West Yorkshire | Bradford | £12.85 per hour | Relief Support Worker
 job_id: 7765f79f-1a3c-4866-b1af-ac2ab8f988d0
 ---
 
+---
+action:
+SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
+---
+
+---
+action:
+SELECTED | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
+job_id: 107521956
+---
+
+---
+action:
+SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+job_id: 107464615
+---
+
+---
+action:
+SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
+job_id: 107465221
+---
+
+---
+action:
+SELECTED | West Yorkshire | Pontefract | £24000 per year | Residential Support Worker
+job_id: 107580501
+---
+
+---
+action:
+SELECTED | West Yorkshire | Bradford | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107589339
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -91,6 +127,42 @@ job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 action:
 SELECTED | South Yorkshire | Doncaster | £12.85 per hour | Support Worker
 job_id: 15ffa786-f7e6-401c-b486-b2e370d272d5
+---
+
+---
+action:
+SELECTED | South Yorkshire | Doncaster | £26400 per year | Children Residential Support Worker
+job_id: a134a79d-a033-4ab3-a55a-9968324ab025
+---
+
+---
+action:
+SELECTED | South Yorkshire | Sheffield | £12.85 per hour | Female Support Worker
+job_id: 22ce2fe5-acd4-4e24-92e9-d908bbbad171
+---
+
+---
+action:
+SELECTED | South Yorkshire | Barnsley | £23.26 per hour | Family Support Worker, Barnsley Council
+job_id: cc9c498c-42bd-4dba-9ef2-3f44e69bfa58
+---
+
+---
+action:
+SELECTED | South Yorkshire | Doncaster | £13.00 per hour | Care Assistant
+job_id: 26035_20800_REF11862C
+---
+
+---
+action:
+SELECTED | South Yorkshire | Rotherham | £13.50 per hour | Care Assistant
+job_id: 26035_20800_REF11757I
+---
+
+---
+action:
+SELECTED | South Yorkshire | Barnsley | £16000 per year | Residential Support Worker
+job_id: 107580551
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -133,12 +205,6 @@ job_id: 1401783136
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Washington | £13.21 per hour | Care Assistant - Bank - Care Home
 job_id: d20d41b3-4360-4eaa-8a54-a2a79dcc6e3d
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
-job_id: 0845caf5-51bf-401b-bbda-6638ccfc8e7a
 ---
 
 ---
@@ -209,6 +275,18 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: 107199252
 ---
 
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Relief Support Worker
+job_id: bdcf77dd-281a-42ae-94c8-5240f456581a
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £15.5 - £20 per hour | Children and Young People Support Worker
+job_id: 3a742b88-0d1b-4483-8c12-9bfd84a97116
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
@@ -239,6 +317,24 @@ job_id: 107353345
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.5 - £20 per hour | Children and Young People Support Worker
 job_id: cad080f3-2166-40f5-9ef1-7755dbd7ac81
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £29350 per year | Complex care assistant
+job_id: 107539241
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £15.5 - £20 per hour | Children and Young People Support Worker
+job_id: 494d4db0-9b32-4a0d-9a65-7cb1400c1b8f
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Barnard Castle | £15.5 - £20 per hour | Children and Young People Support Worker
+job_id: d3620d42-8f31-46d7-a414-d317a5f24a20
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
