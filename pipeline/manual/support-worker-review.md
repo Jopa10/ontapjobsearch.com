@@ -89,20 +89,26 @@ job_id: 107464615
 
 ---
 action:
-SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
-job_id: 107465221
----
-
----
-action:
 SELECTED | West Yorkshire | Pontefract | £24000 per year | Residential Support Worker
 job_id: 107580501
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107589339
+SELECTED | West Yorkshire | Pontefract | £30000 per year | Residential Child Care Worker
+job_id: 107594311
+---
+
+---
+action:
+SELECTED | West Yorkshire | Pontefract | £13.71 per hour | Health Care Assistant - Part-Time
+job_id: 107594918
+---
+
+---
+action:
+SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
+job_id: 107465221
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -157,12 +163,6 @@ job_id: 26035_20800_REF11862C
 action:
 SELECTED | South Yorkshire | Rotherham | £13.50 per hour | Care Assistant
 job_id: 26035_20800_REF11757I
----
-
----
-action:
-SELECTED | South Yorkshire | Barnsley | £16000 per year | Residential Support Worker
-job_id: 107580551
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -291,20 +291,8 @@ job_id: 3a742b88-0d1b-4483-8c12-9bfd84a97116
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
-job_id: 107501464
----
-
----
-action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
 job_id: 107450852
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £12.85 per hour | Relief Support Worker
-job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 ---
 
 ---
@@ -317,6 +305,12 @@ job_id: 107353345
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.5 - £20 per hour | Children and Young People Support Worker
 job_id: cad080f3-2166-40f5-9ef1-7755dbd7ac81
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £12.85 per hour | Relief Support Worker
+job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 ---
 
 ---

@@ -273,6 +273,18 @@ job_id: 107472400
 
 ---
 action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £25000 - £35000 per year | Insolvency Administrator
+job_id: d5a6637f-52b8-463d-bd6c-54a956157284
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
+job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
+---
+
+---
+action:
 POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
@@ -285,14 +297,14 @@ job_id: ebcd502a-d040-4a27-8fcb-47dfcd826c1b
 
 ---
 action:
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
-job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
+POSS - NORTH EAST | North East | Newton Aycliffe | £28000 - £30000 per year | Supply Chain/Procurement Administrator
+job_id: 3b2c892a-cd16-4af4-8550-d2b1682c5bd5
 ---
 
 ---
 action:
-POSS - NORTH EAST | North East | Newton Aycliffe | £28000 - £30000 per year | Supply Chain/Procurement Administrator
-job_id: 3b2c892a-cd16-4af4-8550-d2b1682c5bd5
+POSS - NORTH EAST | North East | Cramlington | £31000 - £340000 per year | IFA Administrator
+job_id: 76859320-21f7-42da-a900-a42405d67129
 ---
 
 ---
