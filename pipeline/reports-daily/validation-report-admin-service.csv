@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,2903
+total rows input,2896
 total rows included,27
-total rows dropped,2855
-title classification count - HIGH_CONFIDENCE,589
-title classification count - ELASTIC_FIT,42
+total rows dropped,2846
+title classification count - HIGH_CONFIDENCE,591
+title classification count - ELASTIC_FIT,41
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,1211
-title classification count - OUT_OF_SCOPE,1061
+title classification count - HARD_PASS,1192
+title classification count - OUT_OF_SCOPE,1072
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - West Yorkshire,West Yorkshire manual rerun: 13 current-feed manual_select row(s) applied; 13 selected. Auto backfill disabled.
 credible total - West Yorkshire,23
@@ -25,9 +25,9 @@ total rows output - South Yorkshire,8
 job_id included - South Yorkshire,8f194adc-4915-49ab-a454-d97355ec47c9; 4499ecdd-06ff-4bf1-a429-db09e106917b; 6cfd1576-3aa0-4156-b992-90e9d8fd9e49; d8ec77ff-1d1d-4723-9e52-90343c20eacc; 316a637a-28b0-4ad0-a0ab-aca40781d90e; 04d36725-d7c8-4940-b556-1e941dd944d1; 5e7d0300-8462-45b1-a6ee-588584c1b127; 2f714926-5688-4a91-8367-6abbb5916a10
 selection scenario - North East,SCENARIO_MANUAL_RERUN
 selection message - North East,North East manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Auto backfill disabled.
-credible total - North East,12
-high confidence count - North East,11
+credible total - North East,14
+high confidence count - North East,13
 anchor elastic count - North East,0
 other elastic count - North East,1
 total rows output - North East,6
-job_id included - North East,3eecac21-b795-46e6-a5fe-31d39224dfae; c4782b5a-061f-4adf-8c0e-fcd5d5900364; 963241c7-60ea-48cc-a8cb-6a367d4c2e40; 479a0999-012a-4359-9f87-6afb4a688cc4; 107472400; c39b9e01-f065-4846-b473-e4ed9f893e29
+job_id included - North East,963241c7-60ea-48cc-a8cb-6a367d4c2e40; 479a0999-012a-4359-9f87-6afb4a688cc4; 107472400; 3eecac21-b795-46e6-a5fe-31d39224dfae; c4782b5a-061f-4adf-8c0e-fcd5d5900364; c39b9e01-f065-4846-b473-e4ed9f893e29
