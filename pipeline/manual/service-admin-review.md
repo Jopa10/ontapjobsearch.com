@@ -144,7 +144,7 @@ job_id: 46cd3259-bc0f-49c5-9e35-64f1d6ed2d25
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Castleford | £13.5 - £14.5 per hour | Part-Time Accounts Administrator
 job_id: ebd2d9a1-a804-4c16-93f0-814db901aab3
 ---
@@ -202,7 +202,7 @@ job_id: 5e7d0300-8462-45b1-a6ee-588584c1b127
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
 job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
 ---
@@ -284,7 +284,7 @@ job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
@@ -296,7 +296,7 @@ job_id: ebcd502a-d040-4a27-8fcb-47dfcd826c1b
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newton Aycliffe | £28000 - £30000 per year | Supply Chain/Procurement Administrator
 job_id: 3b2c892a-cd16-4af4-8550-d2b1682c5bd5
 ---
@@ -314,7 +314,7 @@ job_id: 107595243
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Durham | £30000 per year | Support/Housing Management Coordinator
 job_id: 107473649
 ---
