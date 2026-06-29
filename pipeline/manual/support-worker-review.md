@@ -130,7 +130,7 @@ job_id: 22ce2fe5-acd4-4e24-92e9-d908bbbad171
 ---
 
 ---
-action:
+action: exclude
 SELECTED | South Yorkshire | Barnsley | £23.26 per hour | Family Support Worker, Barnsley Council
 job_id: cc9c498c-42bd-4dba-9ef2-3f44e69bfa58
 ---
@@ -272,7 +272,7 @@ job_id: cad080f3-2166-40f5-9ef1-7755dbd7ac81
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £12.85 per hour | Relief Support Worker
 job_id: cf91c03e-8b85-4d9c-a5cb-2386be1b0dfa
 ---
