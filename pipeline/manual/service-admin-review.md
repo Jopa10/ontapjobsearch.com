@@ -77,14 +77,14 @@ job_id: 107506827
 
 ---
 action: select
-SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
-job_id: 107426616
+SELECTED | West Yorkshire | Wakefield | £25000 - £27000 per year | Client Reporting Administrator
+job_id: da684c1e-0b27-49e6-af68-fdfaffcced6c
 ---
 
 ---
 action: select
-SELECTED | West Yorkshire | Wakefield | £25000 - £27000 per year | Client Reporting Administrator
-job_id: da684c1e-0b27-49e6-af68-fdfaffcced6c
+SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
+job_id: 107426616
 ---
 
 ## WEST YORKSHIRE — POSSIBLES

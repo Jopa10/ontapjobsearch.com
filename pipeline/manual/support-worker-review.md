@@ -71,12 +71,6 @@ job_id: 7765f79f-1a3c-4866-b1af-ac2ab8f988d0
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
-job_id: 107532972
----
-
----
-action:
 SELECTED | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
 job_id: 107521956
 ---
@@ -89,26 +83,14 @@ job_id: 107464615
 
 ---
 action:
-SELECTED | West Yorkshire | Pontefract | £24000 per year | Residential Support Worker
-job_id: 107580501
----
-
----
-action:
-SELECTED | West Yorkshire | Pontefract | £30000 per year | Residential Child Care Worker
-job_id: 107594311
----
-
----
-action:
-SELECTED | West Yorkshire | Pontefract | £13.71 per hour | Health Care Assistant - Part-Time
-job_id: 107594918
----
-
----
-action:
 SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
 job_id: 107465221
+---
+
+---
+action:
+SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -153,29 +135,11 @@ SELECTED | South Yorkshire | Barnsley | £23.26 per hour | Family Support Worker
 job_id: cc9c498c-42bd-4dba-9ef2-3f44e69bfa58
 ---
 
----
-action:
-SELECTED | South Yorkshire | Doncaster | £13.00 per hour | Care Assistant
-job_id: 26035_20800_REF11862C
----
-
----
-action:
-SELECTED | South Yorkshire | Rotherham | £13.50 per hour | Care Assistant
-job_id: 26035_20800_REF11757I
----
-
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Support Worker
-job_id: 8e5d7be1-1fde-42e4-a1f2-1956fd7bd421
----
 
 ---
 action: select
