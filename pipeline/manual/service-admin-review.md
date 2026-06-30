@@ -234,7 +234,7 @@ job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 ## NORTH EAST — SELECTED
 
 ---
-action: select
+action: exclude
 SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
 job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
 ---
