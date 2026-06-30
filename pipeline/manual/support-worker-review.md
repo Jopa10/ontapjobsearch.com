@@ -129,6 +129,12 @@ SELECTED | South Yorkshire | Sheffield | £12.85 per hour | Female Support Worke
 job_id: 22ce2fe5-acd4-4e24-92e9-d908bbbad171
 ---
 
+---
+action:
+SELECTED | South Yorkshire | Barnsley | £23.26 per hour | Family Support Worker, Barnsley Council
+job_id: cc9c498c-42bd-4dba-9ef2-3f44e69bfa58
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
