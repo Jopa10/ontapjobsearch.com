@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,2337
-total rows included,11
+total rows included,17
 total rows dropped,2314
 title classification count - HIGH_CONFIDENCE,347
 title classification count - ELASTIC_FIT,39
@@ -8,21 +8,21 @@ title classification count - REVIEW_CONTEXT_DEPENDENT,0
 title classification count - HARD_PASS,973
 title classification count - OUT_OF_SCOPE,978
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Auto backfill disabled.
+selection message - West Yorkshire,West Yorkshire manual rerun: 9 current-feed manual_select row(s) applied; 9 selected. Auto backfill disabled.
 credible total - West Yorkshire,14
 high confidence count - West Yorkshire,13
 anchor elastic count - West Yorkshire,0
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,6
-job_id included - West Yorkshire,039d803e-abef-4df9-9913-1b5f402c8839; da684c1e-0b27-49e6-af68-fdfaffcced6c; 107506827; 107426616; 107586970; 107409218
+total rows output - West Yorkshire,9
+job_id included - West Yorkshire,711065d2-cf75-4cdc-b332-1d93ce19d73e; f3ab9106-ae47-4d49-b28b-139c5e18fbde; 039d803e-abef-4df9-9913-1b5f402c8839; da684c1e-0b27-49e6-af68-fdfaffcced6c; 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b; 107506827; 107426616; 107586970; 107409218
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - South Yorkshire,South Yorkshire manual rerun: 1 current-feed manual_select row(s) applied; 1 selected. Auto backfill disabled.
+selection message - South Yorkshire,South Yorkshire manual rerun: 4 current-feed manual_select row(s) applied; 4 selected. Auto backfill disabled.
 credible total - South Yorkshire,5
 high confidence count - South Yorkshire,4
 anchor elastic count - South Yorkshire,0
 other elastic count - South Yorkshire,1
-total rows output - South Yorkshire,1
-job_id included - South Yorkshire,2f714926-5688-4a91-8367-6abbb5916a10
+total rows output - South Yorkshire,4
+job_id included - South Yorkshire,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb; 2f714926-5688-4a91-8367-6abbb5916a10; e213c83d-5e71-4c29-bc1e-7a894cfa67aa; 107606837
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - North East,4
