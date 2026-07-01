@@ -41,8 +41,26 @@ job_id: 107426616
 
 ---
 action: select
+SELECTED | West Yorkshire | Leeds | £25000 - £28000 per year | Customer Administrator
+job_id: 711065d2-cf75-4cdc-b332-1d93ce19d73e
+---
+
+---
+action: select
 SELECTED | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
 job_id: 107586970
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £30000 - £32000 per year | Export Administrator
+job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Wakefield | £26000 - £27000 per year | Sales Administrator
+job_id: 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -54,13 +72,7 @@ job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £28000 per year | Customer Administrator
-job_id: 711065d2-cf75-4cdc-b332-1d93ce19d73e
----
-
----
-action: 
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £42000 per year | DB Pensions Administrator and Senior Pensions Administrator home based to 42k
 job_id: c3e3d71e-1da2-4dd2-a6de-95231279aca4
 ---
@@ -72,21 +84,9 @@ job_id: 8c5c01ae-4118-4922-84ba-d04efe68e673
 ---
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £30000 - £32000 per year | Export Administrator
-job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
----
-
----
-action: 
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
 job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £26000 - £27000 per year | Sales Administrator
-job_id: 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b
 ---
 
 ---
@@ -103,30 +103,30 @@ SELECTED | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administ
 job_id: 2f714926-5688-4a91-8367-6abbb5916a10
 ---
 
+---
+action: select
+SELECTED | South Yorkshire | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
+job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Sheffield | £24000 - £35000 per year | Insolvency Case Administrator
+job_id: 8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Barnsley | £26000 per year | Recruitment Onsite Operations Coordinator
+job_id: 107606837
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield |  | Senior Pension Administrator
 job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
----
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £24000 - £35000 per year | Insolvency Case Administrator
-job_id: 8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
----
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
-job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
----
-
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Barnsley | £26000 per year | Recruitment Onsite Operations Coordinator
-job_id: 107606837
 ---
 
 ## NORTH EAST — SELECTED
