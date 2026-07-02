@@ -171,6 +171,18 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 p
 job_id: bdcf77dd-281a-42ae-94c8-5240f456581a
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Wallsend | £12.71 per hour | Care Assistant
+job_id: 26035_20800_REF12976M
+---
+
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Alnwick | £13.71 per hour | Care Assistant
+job_id: 26035_20800_REF12978I
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -191,6 +203,12 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.8
 job_id: b56eccae-63dd-4352-9d0c-4add444416ad
 ---
 
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £13.30 per hour | Care Assistant
+job_id: 26035_20800_REF12970Z
+---
+
 ## NORTH EAST - TEES VALLEY — SELECTED
 
 _No jobs in this group._
@@ -201,18 +219,6 @@ _No jobs in this group._
 action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £19 - £21 per hour | Scottish Island Support Worker
 job_id: 4d1e0b17-123e-4353-b745-45ea25855910
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Wallsend | £12.71 per hour | Care Assistant
-job_id: 26035_20800_REF12976M
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Alnwick | £13.71 per hour | Care Assistant
-job_id: 26035_20800_REF12978I
 ---
 
 ---
@@ -234,12 +240,6 @@ job_id: aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £13.30 per hour | Care Assistant
-job_id: 26035_20800_REF12970Z
----
 
 ---
 action:
