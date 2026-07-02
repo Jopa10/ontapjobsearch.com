@@ -204,13 +204,13 @@ job_id: 4d1e0b17-123e-4353-b745-45ea25855910
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Wallsend | £12.71 per hour | Care Assistant
 job_id: 26035_20800_REF12976M
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Alnwick | £13.71 per hour | Care Assistant
 job_id: 26035_20800_REF12978I
 ---
@@ -236,7 +236,7 @@ job_id: aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £13.30 per hour | Care Assistant
 job_id: 26035_20800_REF12970Z
 ---
