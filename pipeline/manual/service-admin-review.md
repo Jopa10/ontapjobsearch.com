@@ -73,6 +73,18 @@ job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
+job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
+job_id: 107457208
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £42000 per year | DB Pensions Administrator and Senior Pensions Administrator home based to 42k
 job_id: c3e3d71e-1da2-4dd2-a6de-95231279aca4
 ---
