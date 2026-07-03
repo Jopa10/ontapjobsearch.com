@@ -17,12 +17,6 @@ job_id: 107409218
 
 ---
 action: select
-SELECTED | West Yorkshire | Wakefield | £28000 - £35000 per year | Income Reconciliation Administrator
-job_id: 039d803e-abef-4df9-9913-1b5f402c8839
----
-
----
-action: select
 SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
 ---
@@ -73,12 +67,6 @@ job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
-job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
----
-
----
-action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
 job_id: 107457208
 ---
@@ -107,18 +95,18 @@ POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £32300 per year | Ifa Admi
 job_id: 0d628b48-89ea-496a-bd90-29e526f72bed
 ---
 
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Halifax | £45000 per year | Office Management and Operations Coordinator
+job_id: 107624932
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
 action: select
 SELECTED | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administrator - Expenses (Temporary Contract)
 job_id: 2f714926-5688-4a91-8367-6abbb5916a10
----
-
----
-action: select
-SELECTED | South Yorkshire | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
-job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
 ---
 
 ---
@@ -135,11 +123,7 @@ job_id: 107606837
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield |  | Senior Pension Administrator
-job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
----
+_No jobs in this group._
 
 ## NORTH EAST — SELECTED
 
