@@ -1,28 +1,28 @@
 ﻿metric,value
-total rows input,2647
-total rows included,17
-total rows dropped,2622
-title classification count - HIGH_CONFIDENCE,434
-title classification count - ELASTIC_FIT,48
+total rows input,2230
+total rows included,15
+total rows dropped,2208
+title classification count - HIGH_CONFIDENCE,369
+title classification count - ELASTIC_FIT,47
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,1096
-title classification count - OUT_OF_SCOPE,1069
+title classification count - HARD_PASS,816
+title classification count - OUT_OF_SCOPE,998
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 9 current-feed manual_select row(s) applied; 9 selected. Auto backfill disabled.
-credible total - West Yorkshire,16
-high confidence count - West Yorkshire,15
+selection message - West Yorkshire,West Yorkshire manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Auto backfill disabled.
+credible total - West Yorkshire,15
+high confidence count - West Yorkshire,13
 anchor elastic count - West Yorkshire,0
-other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,9
-job_id included - West Yorkshire,711065d2-cf75-4cdc-b332-1d93ce19d73e; f3ab9106-ae47-4d49-b28b-139c5e18fbde; 039d803e-abef-4df9-9913-1b5f402c8839; da684c1e-0b27-49e6-af68-fdfaffcced6c; 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b; 107506827; 107426616; 107586970; 107409218
+other elastic count - West Yorkshire,2
+total rows output - West Yorkshire,8
+job_id included - West Yorkshire,711065d2-cf75-4cdc-b332-1d93ce19d73e; f3ab9106-ae47-4d49-b28b-139c5e18fbde; 107506827; da684c1e-0b27-49e6-af68-fdfaffcced6c; 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b; 107426616; 107586970; 107409218
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - South Yorkshire,South Yorkshire manual rerun: 4 current-feed manual_select row(s) applied; 4 selected. Auto backfill disabled.
-credible total - South Yorkshire,5
-high confidence count - South Yorkshire,4
+selection message - South Yorkshire,South Yorkshire manual rerun: 3 current-feed manual_select row(s) applied; 3 selected. Auto backfill disabled.
+credible total - South Yorkshire,3
+high confidence count - South Yorkshire,2
 anchor elastic count - South Yorkshire,0
 other elastic count - South Yorkshire,1
-total rows output - South Yorkshire,4
-job_id included - South Yorkshire,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb; 2f714926-5688-4a91-8367-6abbb5916a10; e213c83d-5e71-4c29-bc1e-7a894cfa67aa; 107606837
+total rows output - South Yorkshire,3
+job_id included - South Yorkshire,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb; 2f714926-5688-4a91-8367-6abbb5916a10; 107606837
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - North East,4
