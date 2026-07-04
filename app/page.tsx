@@ -207,14 +207,14 @@ export default function Page() {
           </p>
         </div>
 
-        <div className="mt-7 grid gap-6 lg:grid-cols-2">
+        <div className="mb-6 mt-7 grid gap-6 lg:grid-cols-2">
           {roleFamilies.map((card) => (
             <RoleCard key={card.heading} card={card} />
           ))}
         </div>
 
         <section className="mt-9" aria-labelledby="recently-added-heading">
-          <div className="mb-4 flex items-center justify-between gap-4">
+          <div className="mb-8 flex items-center justify-between gap-4">
             <h2
               id="recently-added-heading"
               className="flex items-center gap-3 text-xl font-bold text-slate-950"
@@ -260,7 +260,7 @@ export default function Page() {
 
         <section
           id="how-it-works"
-          className="mt-9 rounded-xl bg-slate-50 px-6 py-4"
+          className="mt-16 rounded-xl bg-slate-50 px-6 py-3"
           aria-labelledby="how-ontap-works-heading"
         >
           <h2 id="how-ontap-works-heading" className="text-center text-xl font-bold text-slate-950">
