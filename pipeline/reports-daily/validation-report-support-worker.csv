@@ -1,20 +1,20 @@
 ﻿metric,value
 total rows input,2198
-total rows included,15
-total rows dropped,2178
+total rows included,14
+total rows dropped,2179
 title classification count - HIGH_CONFIDENCE,193
 title classification count - ELASTIC_FIT,106
 title classification count - REVIEW_CONTEXT_DEPENDENT,3
 title classification count - HARD_PASS,1297
 title classification count - OUT_OF_SCOPE,599
 selection scenario - West Yorkshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - West Yorkshire,"West Yorkshire selection complete: 7 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - West Yorkshire,7
-high confidence count - West Yorkshire,5
+selection message - West Yorkshire,"West Yorkshire selection complete: 6 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - West Yorkshire,6
+high confidence count - West Yorkshire,4
 anchor elastic count - West Yorkshire,1
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,7
-job_id included - West Yorkshire,107616819; 107521956; 107464615; 107465221; 26035_20800_REF12979U; 107532972; 1401782970
+total rows output - West Yorkshire,6
+job_id included - West Yorkshire,107616819; 107464615; 107465221; 26035_20800_REF12979U; 107532972; 1401782970
 selection scenario - South Yorkshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - South Yorkshire,South Yorkshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - South Yorkshire,2
