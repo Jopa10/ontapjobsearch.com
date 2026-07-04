@@ -16,12 +16,6 @@ job_id: 1401782970
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
-job_id: 107521956
----
-
----
 action:
 SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
 job_id: 107464615
