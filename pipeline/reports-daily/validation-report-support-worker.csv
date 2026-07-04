@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,2230
+total rows input,2198
 total rows included,15
-total rows dropped,2209
-title classification count - HIGH_CONFIDENCE,200
-title classification count - ELASTIC_FIT,119
+total rows dropped,2178
+title classification count - HIGH_CONFIDENCE,193
+title classification count - ELASTIC_FIT,106
 title classification count - REVIEW_CONTEXT_DEPENDENT,3
-title classification count - HARD_PASS,1304
-title classification count - OUT_OF_SCOPE,604
+title classification count - HARD_PASS,1297
+title classification count - OUT_OF_SCOPE,599
 selection scenario - West Yorkshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - West Yorkshire,"West Yorkshire selection complete: 7 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - West Yorkshire,7
@@ -25,9 +25,9 @@ total rows output - South Yorkshire,2
 job_id included - South Yorkshire,26035_20800_REF11862C; 26035_20800_REF11757I
 selection scenario - North East,SCENARIO_MANUAL_RERUN
 selection message - North East,North East manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Routine auto-selection disabled.
-credible total - North East,12
+credible total - North East,11
 high confidence count - North East,5
 anchor elastic count - North East,1
-other elastic count - North East,6
+other elastic count - North East,5
 total rows output - North East,6
 job_id included - North East,1401783067; 26035_20800_REF12976M; 26035_20800_REF12970Z; 26035_20800_REF12978I; 1401783008; 1401783136
