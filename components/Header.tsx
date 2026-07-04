@@ -60,7 +60,7 @@ export default function Header() {
                                 Browse Jobs
                             </Link>
                         )}
-                        {session && !isHome && !isAdmin && (
+                        {session && !isAdmin && (
                             <Link
                                 href="/admin/jobs"
                                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
