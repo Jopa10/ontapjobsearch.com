@@ -97,6 +97,12 @@ job_id: 0d628b48-89ea-496a-bd90-29e526f72bed
 
 ---
 action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £12.71 per hour | Sustainability Assistant Coordinator
+job_id: 107634779
+---
+
+---
+action:
 POSS - WEST YORKSHIRE | West Yorkshire | Halifax | £45000 per year | Office Management and Operations Coordinator
 job_id: 107624932
 ---

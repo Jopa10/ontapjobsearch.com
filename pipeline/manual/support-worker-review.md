@@ -125,19 +125,7 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: 107616541
 ---
 
----
-action:
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
-job_id: 107617093
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £26000 per year | Female Support Worker
-job_id: 107604905
----
 
 ---
 action:
@@ -152,6 +140,12 @@ job_id: 107450852
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
+
+---
+action:
+POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
+job_id: 107633630
+---
 
 ---
 action:
