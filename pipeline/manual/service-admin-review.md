@@ -96,7 +96,7 @@ job_id: 0d628b48-89ea-496a-bd90-29e526f72bed
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £12.71 per hour | Sustainability Assistant Coordinator
 job_id: 107634779
 ---
