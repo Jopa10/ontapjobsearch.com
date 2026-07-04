@@ -52,7 +52,7 @@ export default function Header() {
                                 Home
                             </Link>
                         )}
-                        {!isHome && !isAdmin && (
+                        {!isAdmin && (
                             <Link
                                 href="/browse-jobs"
                                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"

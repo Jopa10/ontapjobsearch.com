@@ -5,53 +5,107 @@ type RegionLink = {
 
 type RoleFamily = {
   title: string;
-  text: string;
-  links: RegionLink[];
+  description: string;
+  cta: string;
+  ctaHref: string;
+  viewAllHref: string;
+  icon: string;
+  regions: RegionLink[];
 };
 
 const roleFamilies: RoleFamily[] = [
   {
     title: 'Admin, office support & customer service',
-    text: 'Browse current admin, office-support and customer-service jobs by region.',
-    links: [
+    description: 'Administrator, office-support and customer-service roles across the UK.',
+    cta: 'Browse admin jobs',
+    ctaHref: '/west-yorkshire/service-administrator-jobs',
+    viewAllHref: '/browse-jobs',
+    icon: 'A',
+    regions: [
       { label: 'West Yorkshire', href: '/west-yorkshire/service-administrator-jobs' },
       { label: 'South Yorkshire', href: '/south-yorkshire/service-administrator-jobs' },
       { label: 'North East', href: '/north-east/service-administrator-jobs' },
-      { label: 'View all admin jobs', href: '/browse-jobs' },
+      { label: 'Surrey', href: '/browse-jobs' },
     ],
   },
   {
     title: 'Support worker & care roles',
-    text: 'Browse current support-worker, residential-care and community-support roles by region.',
-    links: [
+    description: 'Support-worker, residential-care and community-support roles across the UK.',
+    cta: 'Browse support worker jobs',
+    ctaHref: '/north-east/support-worker',
+    viewAllHref: '/browse-jobs',
+    icon: 'S',
+    regions: [
       { label: 'North East', href: '/north-east/support-worker' },
-      { label: 'View all support worker jobs', href: '/browse-jobs' },
+      { label: 'Sussex', href: '/browse-jobs' },
+      { label: 'Hampshire', href: '/browse-jobs' },
+      { label: 'Cumbria', href: '/cumbria/support-worker' },
     ],
   },
 ];
 
 const howOntapWorks = [
-  'Choose a role family',
-  'Open a regional job page',
-  'Apply directly on employer sites',
+  {
+    icon: '⌕',
+    title: 'We find live job pages',
+  },
+  {
+    icon: '✓',
+    title: 'We check them daily',
+  },
+  {
+    icon: '↗',
+    title: 'We organise them by role and region',
+  },
 ];
 
 function RoleFamilyCard({ family }: { family: RoleFamily }) {
   return (
-    <section className="rounded-xl border border-[#dbe3ee] bg-white p-4">
-      <h2 className="text-lg font-extrabold leading-tight text-gray-900">{family.title}</h2>
-      <p className="mt-1 text-sm leading-6 text-gray-600">{family.text}</p>
+    <section className="rounded-2xl border border-[#dbe3ee] bg-white p-5 shadow-sm transition hover:border-blue-200 hover:shadow-md">
+      <div className="flex gap-4">
+        <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-blue-100 bg-blue-50 text-sm font-extrabold text-blue-700">
+          {family.icon}
+        </div>
 
-      <div className="mt-3 flex flex-wrap gap-2">
-        {family.links.map((link) => (
+        <div className="min-w-0 flex-1">
+          <h2 className="text-lg font-extrabold leading-tight text-gray-900">{family.title}</h2>
+          <p className="mt-1 text-sm leading-6 text-gray-600">{family.description}</p>
+
           <a
-            key={`${family.title}-${link.href}-${link.label}`}
-            href={link.href}
-            className="rounded-lg border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm font-semibold text-blue-700 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-900"
+            href={family.ctaHref}
+            className="mt-4 inline-flex rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-blue-700"
           >
-            {link.label} →
+            {family.cta}
           </a>
-        ))}
+        </div>
+      </div>
+
+      <div className="my-4 border-t border-gray-100" />
+
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="min-w-0">
+          <div className="mb-2 text-xs font-bold uppercase tracking-wide text-gray-500">
+            Popular regions
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {family.regions.map((region) => (
+              <a
+                key={`${family.title}-${region.href}-${region.label}`}
+                href={region.href}
+                className="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+              >
+                {region.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <a
+          href={family.viewAllHref}
+          className="shrink-0 text-sm font-bold text-blue-700 transition hover:text-blue-900"
+        >
+          View all →
+        </a>
       </div>
     </section>
   );
@@ -59,84 +113,39 @@ function RoleFamilyCard({ family }: { family: RoleFamily }) {
 
 export default function Page() {
   return (
-    <>
-      <style>{`
-        body:has(main[data-homepage]) footer {
-          margin-top: 0.75rem;
-        }
-
-        body:has(main[data-homepage]) footer > div {
-          padding-top: 0.75rem;
-          padding-bottom: 0.75rem;
-        }
-
-        body:has(main[data-homepage]) footer > div > div:first-child {
-          gap: 0.5rem;
-        }
-
-        body:has(main[data-homepage]) footer > div > div:first-child > div:first-child,
-        body:has(main[data-homepage]) footer h4,
-        body:has(main[data-homepage]) footer > div > div:last-child {
-          display: none;
-        }
-
-        body:has(main[data-homepage]) footer ul {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 0.5rem 1rem;
-        }
-
-        body:has(main[data-homepage]) footer ul > :not([hidden]) ~ :not([hidden]) {
-          margin-top: 0;
-        }
-
-        @media (min-width: 768px) {
-          body:has(main[data-homepage]) footer {
-            margin-top: 1rem;
-          }
-
-          body:has(main[data-homepage]) footer > div {
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-          }
-
-          body:has(main[data-homepage]) footer > div > div:first-child {
-            display: flex;
-            justify-content: center;
-          }
-        }
-      `}</style>
-
-      <main data-homepage className="mx-auto max-w-[1180px] px-4 py-9">
-        <header className="mb-4 max-w-3xl">
-          <h1 className="text-[28px] font-extrabold leading-tight tracking-tight text-gray-900">
+    <main data-homepage className="mx-auto w-full max-w-[1180px] px-4 py-8 sm:px-6 lg:px-8">
+      <section className="rounded-2xl border border-[#dbe3ee] bg-gradient-to-br from-white via-white to-blue-50/50 p-5 shadow-sm sm:p-6">
+        <div className="max-w-3xl">
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-blue-700">
+            Ontap Job Search
+          </p>
+          <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl">
             Curated jobs by role and region
           </h1>
-          <p className="mt-1 text-sm text-gray-500">
+          <p className="mt-2 text-base leading-7 text-gray-600">
             Current jobs, checked daily. No signup required.
           </p>
-        </header>
+        </div>
+      </section>
 
-        <div className="grid gap-3 md:grid-cols-2">
-          {roleFamilies.map((family) => (
-            <RoleFamilyCard key={family.title} family={family} />
+      <div className="mt-4 grid gap-4 lg:grid-cols-2">
+        {roleFamilies.map((family) => (
+          <RoleFamilyCard key={family.title} family={family} />
+        ))}
+      </div>
+
+      <section className="mt-4 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
+        <div className="grid gap-3 md:grid-cols-3">
+          {howOntapWorks.map((step) => (
+            <div key={step.title} className="flex items-center gap-3 rounded-xl bg-gray-50 px-3 py-3">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-sm font-extrabold text-blue-700 shadow-sm">
+                {step.icon}
+              </span>
+              <span className="text-sm font-bold text-gray-800">{step.title}</span>
+            </div>
           ))}
         </div>
-
-        <section className="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-3">
-          <h2 className="text-sm font-extrabold text-gray-800">How Ontap works</h2>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {howOntapWorks.map((item) => (
-              <span
-                key={item}
-                className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-semibold text-gray-600"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
-        </section>
-      </main>
-    </>
+      </section>
+    </main>
   );
 }
