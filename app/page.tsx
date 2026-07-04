@@ -25,7 +25,7 @@ const roleFamilies: RoleFamilyCard[] = [
   {
     tone: 'blue',
     heading: 'Admin, office & customer service',
-    description: 'Administrator, office and customer-service roles across the UK.',
+    description: 'UK based administrator, office and customer-service roles.',
     ctaText: 'Browse admin jobs',
     ctaHref: '/west-yorkshire/service-administrator-jobs',
     viewAllHref: '/browse-jobs',
@@ -39,7 +39,7 @@ const roleFamilies: RoleFamilyCard[] = [
   {
     tone: 'green',
     heading: 'Support worker & care roles',
-    description: 'Support-worker, residential-care and community-support roles across the UK.',
+    description: 'UK support-worker, residential and support roles.',
     ctaText: 'Browse support worker jobs',
     ctaHref: '/north-east/support-worker',
     viewAllHref: '/browse-jobs',
@@ -157,7 +157,7 @@ function RoleCard({ card }: { card: RoleFamilyCard }) {
           <h2 className="text-xl font-bold leading-tight tracking-tight text-slate-950 lg:whitespace-nowrap">
             {card.heading}
           </h2>
-          <p className="mt-2 max-w-none text-sm leading-5 text-slate-700 xl:whitespace-nowrap">
+          <p className="mt-2 max-w-none text-xs leading-4 text-slate-700 xl:whitespace-nowrap">
             {card.description}
           </p>
           <a
@@ -199,10 +199,10 @@ export default function Page() {
     <main className="bg-white">
       <section id="about" className="mx-auto max-w-6xl px-4 pb-8 pt-9 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
+          <h1 className="text-2xl font-extrabold tracking-tight text-slate-950 sm:text-3xl">
             Curated jobs by role and region
           </h1>
-          <p className="mt-2 text-base text-slate-600">
+          <p className="mt-1 text-sm text-slate-600">
             Current jobs, checked daily. No signup required.
           </p>
         </div>
