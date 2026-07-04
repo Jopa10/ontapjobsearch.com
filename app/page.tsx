@@ -16,12 +16,10 @@ type Job = {
 type RegionLink = {
   label: string;
   href: string;
-  status?: 'active' | 'limited';
   count?: number;
 };
 
 type RoleFamilyCard = {
-  eyebrow: string;
   title: string;
   description: string;
   browseHref: string;
@@ -67,19 +65,16 @@ const adminRegionLinks: RegionLink[] = [
   {
     label: 'West Yorkshire',
     href: '/west-yorkshire/service-administrator-jobs',
-    status: 'active',
     count: westYorkshireServiceAdministratorJobs.length,
   },
   {
     label: 'South Yorkshire',
     href: '/south-yorkshire/service-administrator-jobs',
-    status: 'active',
     count: southYorkshireServiceAdministratorJobs.length,
   },
   {
     label: 'North East',
     href: '/north-east/service-administrator-jobs',
-    status: 'active',
     count: northEastServiceAdministratorJobs.length,
   },
 ];
@@ -88,26 +83,22 @@ const supportRegionLinks: RegionLink[] = [
   {
     label: 'North East',
     href: '/north-east/support-worker',
-    status: 'active',
     count: northEastSupportWorkerJobs.length,
   },
   {
     label: 'West Yorkshire',
     href: '/west-yorkshire/support-worker',
-    status: 'limited',
     count: westYorkshireSupportWorkerJobs.length,
   },
   {
     label: 'South Yorkshire',
     href: '/south-yorkshire/support-worker',
-    status: 'limited',
     count: southYorkshireSupportWorkerJobs.length,
   },
 ];
 
 const roleFamilies: RoleFamilyCard[] = [
   {
-    eyebrow: 'Most active',
     title: 'Admin, office support & customer service',
     description:
       'Service administrator, customer service administrator and office support pages grouped by region.',
@@ -118,10 +109,9 @@ const roleFamilies: RoleFamilyCard[] = [
     featuredHref: '/west-yorkshire/service-administrator-jobs',
   },
   {
-    eyebrow: 'Growing directory',
     title: 'Support worker & care roles',
     description:
-      'Support worker and care-role pages retained as the directory expands, with limited pages clearly marked.',
+      'Support worker and care-role pages grouped by region, with clear links to current job pages.',
     browseHref: '/browse-jobs#support-worker-care-roles',
     browseText: 'View all support worker regions',
     regionLinks: supportRegionLinks,
@@ -136,32 +126,11 @@ const recentlyAddedJobs = [
   ...northEastServiceAdministratorJobs.slice(0, 1),
 ];
 
-function StatusPill({ status }: { status?: RegionLink['status'] }) {
-  if (status === 'limited') {
-    return (
-      <span className="rounded-full border border-amber-200 bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-700">
-        Limited
-      </span>
-    );
-  }
-
-  return (
-    <span className="rounded-full border border-green-200 bg-green-50 px-2 py-0.5 text-[11px] font-semibold text-green-700">
-      Active
-    </span>
-  );
-}
-
 function RoleFamilyCard({ family }: { family: RoleFamilyCard }) {
   return (
     <section className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:border-blue-300 hover:shadow-md">
       <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
-        <div>
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-blue-700">
-            {family.eyebrow}
-          </p>
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">{family.title}</h2>
-        </div>
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900">{family.title}</h2>
         <a
           href={family.browseHref}
           className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
@@ -182,7 +151,6 @@ function RoleFamilyCard({ family }: { family: RoleFamilyCard }) {
             <span>{region.label}</span>
             <span className="flex items-center gap-2 text-xs text-gray-500">
               {typeof region.count === 'number' ? `${region.count} jobs` : null}
-              <StatusPill status={region.status} />
             </span>
           </a>
         ))}
@@ -230,7 +198,7 @@ export default function Page() {
             href="/west-yorkshire/service-administrator-jobs"
             className="rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-base font-medium text-gray-800 hover:border-blue-300 hover:text-blue-700"
           >
-            View active admin jobs
+            View admin jobs
           </a>
         </div>
       </section>
@@ -265,7 +233,7 @@ export default function Page() {
           <ul className="space-y-2 text-sm leading-6 text-gray-600">
             <li>• Pages focus on specific role families in specific regions.</li>
             <li>• Job lists are checked daily and link to employer application pages.</li>
-            <li>• Limited pages stay visible but lower priority until supply improves.</li>
+            <li>• Browse by role family first, then choose the region that fits your search.</li>
           </ul>
         </aside>
       </section>
