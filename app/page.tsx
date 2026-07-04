@@ -24,8 +24,8 @@ type RecentJobCard = {
 const roleFamilies: RoleFamilyCard[] = [
   {
     tone: 'blue',
-    heading: 'Admin, office support & customer service',
-    description: 'Administrator, office-support and customer-service roles across the UK.',
+    heading: 'Admin, office & customer service',
+    description: 'Administrator, office and customer-service roles across the UK.',
     ctaText: 'Browse admin jobs',
     ctaHref: '/west-yorkshire/service-administrator-jobs',
     viewAllHref: '/browse-jobs',
@@ -146,20 +146,22 @@ function RoleCard({ card }: { card: RoleFamilyCard }) {
     : 'border-slate-200 bg-white text-slate-700 hover:border-blue-200';
 
   return (
-    <section className={`rounded-xl border p-5 shadow-sm ${cardClass}`}>
-      <div className="flex gap-5">
+    <section className={`rounded-xl border p-4 shadow-sm ${cardClass}`}>
+      <div className="flex gap-4">
         <div
-          className={`flex h-20 w-20 shrink-0 items-center justify-center rounded-full ${iconClass}`}
+          className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full ${iconClass}`}
         >
           {isGreen ? <SupportIcon /> : <AdminIcon />}
         </div>
         <div className="min-w-0">
-          <h2 className="text-2xl font-bold leading-tight tracking-tight text-slate-950">
+          <h2 className="text-xl font-bold leading-tight tracking-tight text-slate-950 lg:whitespace-nowrap">
             {card.heading}
           </h2>
-          <p className="mt-4 max-w-sm text-base leading-7 text-slate-700">{card.description}</p>
+          <p className="mt-2 max-w-none text-sm leading-5 text-slate-700 xl:whitespace-nowrap">
+            {card.description}
+          </p>
           <a
-            className={`mt-5 inline-flex items-center gap-3 rounded-md px-5 py-3 text-sm font-bold text-white shadow-sm transition ${buttonClass}`}
+            className={`mt-3 inline-flex items-center gap-2 rounded-md px-3 py-1.5 text-xs font-bold text-white shadow-sm transition ${buttonClass}`}
             href={card.ctaHref}
           >
             {card.ctaText}
@@ -168,7 +170,7 @@ function RoleCard({ card }: { card: RoleFamilyCard }) {
         </div>
       </div>
 
-      <div className="mt-6 border-t border-slate-200 pt-4">
+      <div className="mt-4 border-t border-slate-200 pt-3">
         <div className="flex flex-wrap items-center gap-2">
           <span className="mr-1 text-sm font-semibold text-slate-950">Popular regions</span>
           {card.regions.map((region) => (
@@ -195,17 +197,17 @@ function RoleCard({ card }: { card: RoleFamilyCard }) {
 export default function Page() {
   return (
     <main className="bg-white">
-      <section id="about" className="mx-auto max-w-6xl px-4 pb-8 pt-11 sm:px-6 lg:px-8">
+      <section id="about" className="mx-auto max-w-6xl px-4 pb-8 pt-9 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight text-slate-950 sm:text-5xl">
+          <h1 className="text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
             Curated jobs by role and region
           </h1>
-          <p className="mt-4 text-xl text-slate-600">
+          <p className="mt-2 text-base text-slate-600">
             Current jobs, checked daily. No signup required.
           </p>
         </div>
 
-        <div className="mt-8 grid gap-7 lg:grid-cols-2">
+        <div className="mt-7 grid gap-6 lg:grid-cols-2">
           {roleFamilies.map((card) => (
             <RoleCard key={card.heading} card={card} />
           ))}
