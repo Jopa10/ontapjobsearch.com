@@ -95,6 +95,18 @@ job_id: 1401783136
 
 ---
 action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
+job_id: 107616541
+---
+
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
+job_id: 107617093
+---
+
+---
+action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Wallsend | £12.71 per hour | Care Assistant
 job_id: 26035_20800_REF12976M
 ---
@@ -109,6 +121,12 @@ job_id: 26035_20800_REF12978I
 
 ---
 action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
+job_id: 107615864
+---
+
+---
+action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £13.30 per hour | Care Assistant
 job_id: 26035_20800_REF12970Z
 ---
@@ -119,17 +137,7 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
-job_id: 107616541
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
-job_id: 107617093
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
@@ -143,12 +151,6 @@ job_id: 107539241
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
 job_id: 107450852
----
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
-job_id: 107615864
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
