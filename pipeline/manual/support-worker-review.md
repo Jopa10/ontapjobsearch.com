@@ -17,6 +17,12 @@ job_id: 1401782970
 
 ---
 action:
+SELECTED | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
+job_id: 107521956
+---
+
+---
+action:
 SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
 job_id: 107464615
 ---
@@ -29,12 +35,6 @@ job_id: 107465221
 
 ---
 action:
-SELECTED | West Yorkshire | Keighley | £12.71 per hour | Care Assistant
-job_id: 26035_20800_REF12979U
----
-
----
-action:
 SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
 job_id: 107532972
 ---
@@ -43,6 +43,12 @@ job_id: 107532972
 action:
 SELECTED | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
+---
+
+---
+action:
+SELECTED | West Yorkshire | Keighley | £12.71 per hour | Care Assistant
+job_id: 26035_20800_REF12979U
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -119,6 +125,12 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: 107616541
 ---
 
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
+job_id: 107617093
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
@@ -133,13 +145,13 @@ POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County 
 job_id: 107450852
 ---
 
-## NORTH EAST - TEES VALLEY — POSSIBLES
-
 ---
 action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Middlesbrough | £12.85 per hour | Support Worker
-job_id: 107633630
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
+job_id: 107615864
 ---
+
+## NORTH EAST - TEES VALLEY — POSSIBLES
 
 ---
 action:

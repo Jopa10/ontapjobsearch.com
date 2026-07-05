@@ -1,10 +1,11 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
 SELECTED,West Yorkshire,Residential Support Worker,Holmfirth,£27976 per year (+£60 per sleep-in)),,,1401782970
+SELECTED,West Yorkshire,Care Assistant to English Literature Uni Graduate,Ilkley,£170 per daily,,,107521956
 SELECTED,West Yorkshire,Care Assistant,Dewsbury,£13 - £13.5 per hour,,,107464615
 SELECTED,West Yorkshire,Healthcare Assistant,Liversedge,£30000 per year,,,107465221
-SELECTED,West Yorkshire,Care Assistant,Keighley,£12.71 per hour,,,26035_20800_REF12979U
 SELECTED,West Yorkshire,Hourly Care Assistant to Games Development graduate,Bradford,£15 per hour,,,107532972
 SELECTED,West Yorkshire,Complex Care Assistant,Leeds,£17.93 per hour (+ INC holiday pay),,,107616819
+SELECTED,West Yorkshire,Care Assistant,Keighley,£12.71 per hour,,,26035_20800_REF12979U
 SELECTED,South Yorkshire,Care Assistant,Doncaster,£13.00 per hour,,,26035_20800_REF11862C
 SELECTED,South Yorkshire,Care Assistant,Rotherham,£13.50 per hour,,,26035_20800_REF11757I
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Bank Night Support Worker,Gateshead,£13.75 per hour,,1,1401783067
@@ -14,7 +15,8 @@ SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant,Walls
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant,Alnwick,£13.71 per hour,,1,26035_20800_REF12978I
 SELECTED,North East - County Durham & Darlington/Hartlepool,Care Assistant,Consett,£13.30 per hour,,1,26035_20800_REF12970Z
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Complex care assistant,Newcastle Upon Tyne,£29350 per year,,,107616541
+"POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Complex care assistant,Blaydon-on-tyne,£29350 per year,,,107617093
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Complex care assistant,County Durham,£29350 per year,,,107539241
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Crook,£14.24 per hour (+ Including holiday pay),,,107450852
-POSS - NORTH EAST - TEES VALLEY,North East - Tees Valley,Support Worker,Middlesbrough,£12.85 per hour,,,107633630
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Chester Le Street,£14.24 per hour,,,107615864
 POSS - NORTH EAST - TEES VALLEY,North East - Tees Valley,Complex care assistant,Redcar,£29350 per year,,,107616888
