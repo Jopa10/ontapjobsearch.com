@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,2200
+total rows input,2209
 total rows included,18
-total rows dropped,2179
-title classification count - HIGH_CONFIDENCE,180
-title classification count - ELASTIC_FIT,107
-title classification count - REVIEW_CONTEXT_DEPENDENT,3
-title classification count - HARD_PASS,1312
-title classification count - OUT_OF_SCOPE,598
+total rows dropped,2188
+title classification count - HIGH_CONFIDENCE,178
+title classification count - ELASTIC_FIT,102
+title classification count - REVIEW_CONTEXT_DEPENDENT,2
+title classification count - HARD_PASS,1327
+title classification count - OUT_OF_SCOPE,600
 selection scenario - West Yorkshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - West Yorkshire,"West Yorkshire selection complete: 7 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - West Yorkshire,7
@@ -14,7 +14,7 @@ high confidence count - West Yorkshire,5
 anchor elastic count - West Yorkshire,1
 other elastic count - West Yorkshire,1
 total rows output - West Yorkshire,7
-job_id included - West Yorkshire,107616819; 107521956; 107464615; 107465221; 107532972; 26035_20800_REF12979U; 1401782970
+job_id included - West Yorkshire,107616819; 107521956; 107464615; 107532972; 26035_20800_REF12979U; 107465221; 1401782970
 selection scenario - South Yorkshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - South Yorkshire,South Yorkshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - South Yorkshire,2
@@ -30,4 +30,4 @@ high confidence count - North East,4
 anchor elastic count - North East,1
 other elastic count - North East,7
 total rows output - North East,9
-job_id included - North East,107616541; 1401783067; 26035_20800_REF12976M; 26035_20800_REF12970Z; 26035_20800_REF12978I; 1401783008; 1401783136; 107615864; 107617093
+job_id included - North East,107616541; 1401783067; 26035_20800_REF12976M; 26035_20800_REF12970Z; 26035_20800_REF12978I; 1401783008; 1401783136; 107617093; 107615864
