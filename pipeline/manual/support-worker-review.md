@@ -29,14 +29,14 @@ job_id: 107464615
 
 ---
 action:
-SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
-job_id: 107465221
+SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
-job_id: 107532972
+SELECTED | West Yorkshire | Keighley | £12.71 per hour | Care Assistant
+job_id: 26035_20800_REF12979U
 ---
 
 ---
@@ -47,8 +47,8 @@ job_id: 107616819
 
 ---
 action:
-SELECTED | West Yorkshire | Keighley | £12.71 per hour | Care Assistant
-job_id: 26035_20800_REF12979U
+SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
+job_id: 107465221
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -95,12 +95,6 @@ job_id: 1401783136
 
 ---
 action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
-job_id: 107616541
----
-
----
-action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
 job_id: 107617093
 ---
@@ -117,18 +111,24 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Alnwick | £13.71 
 job_id: 26035_20800_REF12978I
 ---
 
-## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
-
 ---
 action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
-job_id: 107615864
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
+job_id: 107616541
 ---
+
+## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £13.30 per hour | Care Assistant
 job_id: 26035_20800_REF12970Z
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
+job_id: 107615864
 ---
 
 ## NORTH EAST - TEES VALLEY — SELECTED
