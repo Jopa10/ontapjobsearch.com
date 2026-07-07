@@ -35,12 +35,6 @@ job_id: 107532972
 
 ---
 action:
-SELECTED | West Yorkshire | Keighley | £12.71 per hour | Care Assistant
-job_id: 26035_20800_REF12979U
----
-
----
-action:
 SELECTED | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
 ---
@@ -57,17 +51,7 @@ _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | South Yorkshire | Doncaster | £13.00 per hour | Care Assistant
-job_id: 26035_20800_REF11862C
----
-
----
-action:
-SELECTED | South Yorkshire | Rotherham | £13.50 per hour | Care Assistant
-job_id: 26035_20800_REF11757I
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
@@ -101,29 +85,11 @@ job_id: 107617093
 
 ---
 action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Wallsend | £12.71 per hour | Care Assistant
-job_id: 26035_20800_REF12976M
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Alnwick | £13.71 per hour | Care Assistant
-job_id: 26035_20800_REF12978I
----
-
----
-action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
 job_id: 107616541
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
-
----
-action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £13.30 per hour | Care Assistant
-job_id: 26035_20800_REF12970Z
----
 
 ---
 action: select

@@ -57,12 +57,6 @@ SELECTED | West Yorkshire | Wakefield | £26000 - £27000 per year | Sales Admin
 job_id: 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b
 ---
 
----
-action: select
-SELECTED | West Yorkshire | Leeds | £12.71 per hour | Sustainability Assistant Coordinator
-job_id: 107634779
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
