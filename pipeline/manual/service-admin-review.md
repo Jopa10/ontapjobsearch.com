@@ -124,7 +124,7 @@ job_id: 107606837
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield |  | Senior Pension Administrator
 job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
 ---
