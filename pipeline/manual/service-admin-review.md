@@ -11,20 +11,8 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
-SELECTED | West Yorkshire | Normanton | £30000 per year | Business Systems & Data Coordinator
-job_id: 107409218
----
-
----
-action: select
 SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
----
-
----
-action: select
-SELECTED | West Yorkshire | Wakefield | £25000 - £27000 per year | Client Reporting Administrator
-job_id: da684c1e-0b27-49e6-af68-fdfaffcced6c
 ---
 
 ---
@@ -35,8 +23,8 @@ job_id: 107426616
 
 ---
 action: select
-SELECTED | West Yorkshire | Leeds | £25000 - £28000 per year | Customer Administrator
-job_id: 711065d2-cf75-4cdc-b332-1d93ce19d73e
+SELECTED | West Yorkshire | Leeds | £30000 - £32000 per year | Export Administrator
+job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 ---
 
 ---
@@ -45,24 +33,12 @@ SELECTED | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affa
 job_id: 107586970
 ---
 
----
-action: select
-SELECTED | West Yorkshire | Leeds | £30000 - £32000 per year | Export Administrator
-job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
----
-
----
-action: select
-SELECTED | West Yorkshire | Wakefield | £26000 - £27000 per year | Sales Administrator
-job_id: 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Senior Pensions Administrator
-job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
+job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
 ---
 
 ---
@@ -73,26 +49,8 @@ job_id: 107457208
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £42000 per year | DB Pensions Administrator and Senior Pensions Administrator home based to 42k
-job_id: c3e3d71e-1da2-4dd2-a6de-95231279aca4
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £30000 per year | IFA Administrator
-job_id: 8c5c01ae-4118-4922-84ba-d04efe68e673
----
-
----
-action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
 job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
----
-
----
-action:
-POSS - WEST YORKSHIRE | West Yorkshire | Wakefield | £32300 per year | Ifa Administrator
-job_id: 0d628b48-89ea-496a-bd90-29e526f72bed
 ---
 
 ---
@@ -124,24 +82,12 @@ job_id: 107606837
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield |  | Senior Pension Administrator
-job_id: 38b858e3-e930-4b8f-bbf0-cb671cdab3ce
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 per year | Administrator - ERP Systems
+job_id: 107651257
 ---
 
 ## NORTH EAST — SELECTED
-
----
-action:
-SELECTED | North East | Cramlington | £31000 - £340000 per year | IFA Administrator
-job_id: 76859320-21f7-42da-a900-a42405d67129
----
-
----
-action:
-SELECTED | North East | Cramlington | £14 - £14.35 per hour | Finance Administrator
-job_id: 06c76e52-90d1-4e40-8bd8-760c8ee9afac
----
 
 ---
 action:

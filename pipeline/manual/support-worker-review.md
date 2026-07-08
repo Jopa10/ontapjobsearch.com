@@ -45,6 +45,12 @@ SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
 job_id: 107465221
 ---
 
+---
+action:
+SELECTED | West Yorkshire | Castleford | £13.81 per hour | Health Care Assistant
+job_id: 107650967
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -93,6 +99,18 @@ job_id: 107616541
 
 ---
 action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £29350 per year | Complex care assistant
+job_id: 107539241
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
+job_id: 107450852
+---
+
+---
+action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
 job_id: 107615864
 ---
@@ -107,17 +125,7 @@ _No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £29350 per year | Complex care assistant
-job_id: 107539241
----
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
-job_id: 107450852
----
+_No jobs in this group._
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
 
