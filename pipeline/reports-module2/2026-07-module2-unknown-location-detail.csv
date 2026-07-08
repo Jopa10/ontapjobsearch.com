@@ -1,0 +1,44 @@
+﻿date,job_id,title,company,raw_area,raw_location,category,source_file,unknown_reason
+2026-07-02,2044240,Clerical Officer,Apple Recruitment,Altnagelvin,County Londonderry,admin_service,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-03,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-04,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-05,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-06,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-07,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-07.xlsx,area_not_found_in_geo_lookup
+2026-07-01,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-01,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-01,21f6799e-3b33-4611-a828-950b83bf3e96,Part Time Support Worker,Cygnet Healthcare,Newnham,Gloucestershire,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-02,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-03,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-04,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-05,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-06,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-07,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-07.xlsx,area_not_found_in_geo_lookup
+2026-07-08,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-08.xlsx,area_not_found_in_geo_lookup
+2026-07-08,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-08.xlsx,area_not_found_in_geo_lookup
+2026-07-01,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-02,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-07-02.xlsx,area_not_found_in_geo_lookup
