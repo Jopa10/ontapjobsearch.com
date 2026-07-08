@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,2148
-total rows included,12
-total rows dropped,2133
-title classification count - HIGH_CONFIDENCE,111
+total rows input,1899
+total rows included,15
+total rows dropped,1883
+title classification count - HIGH_CONFIDENCE,120
 title classification count - ELASTIC_FIT,99
 title classification count - REVIEW_CONTEXT_DEPENDENT,2
-title classification count - HARD_PASS,1328
-title classification count - OUT_OF_SCOPE,608
+title classification count - HARD_PASS,1099
+title classification count - OUT_OF_SCOPE,579
 selection scenario - West Yorkshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - West Yorkshire,"West Yorkshire selection complete: 6 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - West Yorkshire,6
-high confidence count - West Yorkshire,4
+selection message - West Yorkshire,"West Yorkshire selection complete: 7 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - West Yorkshire,7
+high confidence count - West Yorkshire,5
 anchor elastic count - West Yorkshire,1
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,6
-job_id included - West Yorkshire,107616819; 107521956; 107464615; 107532972; 107465221; 1401782970
+total rows output - West Yorkshire,7
+job_id included - West Yorkshire,107616819; 107521956; 107464615; 107532972; 107465221; 107650967; 1401782970
 selection scenario - South Yorkshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - South Yorkshire,South Yorkshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - South Yorkshire,0
@@ -24,10 +24,10 @@ other elastic count - South Yorkshire,0
 total rows output - South Yorkshire,0
 job_id included - South Yorkshire,
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Routine auto-selection disabled.
+selection message - North East,North East manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Routine auto-selection disabled.
 credible total - North East,9
 high confidence count - North East,1
 anchor elastic count - North East,1
 other elastic count - North East,7
-total rows output - North East,6
-job_id included - North East,107616541; 1401783067; 1401783008; 1401783136; 107617093; 107615864
+total rows output - North East,8
+job_id included - North East,107616541; 1401783067; 1401783008; 1401783136; 107539241; 107450852; 107617093; 107615864

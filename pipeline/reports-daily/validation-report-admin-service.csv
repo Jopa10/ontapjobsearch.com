@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,2148
-total rows included,15
-total rows dropped,2125
-title classification count - HIGH_CONFIDENCE,374
-title classification count - ELASTIC_FIT,58
+total rows input,1899
+total rows included,9
+total rows dropped,1885
+title classification count - HIGH_CONFIDENCE,217
+title classification count - ELASTIC_FIT,51
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,699
-title classification count - OUT_OF_SCOPE,1017
+title classification count - HARD_PASS,687
+title classification count - OUT_OF_SCOPE,944
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Auto backfill disabled.
-credible total - West Yorkshire,15
-high confidence count - West Yorkshire,13
+selection message - West Yorkshire,West Yorkshire manual rerun: 4 current-feed manual_select row(s) applied; 4 selected. Auto backfill disabled.
+credible total - West Yorkshire,8
+high confidence count - West Yorkshire,7
 anchor elastic count - West Yorkshire,0
-other elastic count - West Yorkshire,2
-total rows output - West Yorkshire,8
-job_id included - West Yorkshire,711065d2-cf75-4cdc-b332-1d93ce19d73e; f3ab9106-ae47-4d49-b28b-139c5e18fbde; 107506827; da684c1e-0b27-49e6-af68-fdfaffcced6c; 25fe7e15-0ee1-49e0-b1a8-9fd2385e944b; 107426616; 107586970; 107409218
+other elastic count - West Yorkshire,1
+total rows output - West Yorkshire,4
+job_id included - West Yorkshire,f3ab9106-ae47-4d49-b28b-139c5e18fbde; 107506827; 107426616; 107586970
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - South Yorkshire,South Yorkshire manual rerun: 3 current-feed manual_select row(s) applied; 3 selected. Auto backfill disabled.
 credible total - South Yorkshire,4
@@ -24,10 +24,10 @@ other elastic count - South Yorkshire,1
 total rows output - South Yorkshire,3
 job_id included - South Yorkshire,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb; 2f714926-5688-4a91-8367-6abbb5916a10; 107606837
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - North East,4
-high confidence count - North East,4
+selection message - North East,North East selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - North East,2
+high confidence count - North East,2
 anchor elastic count - North East,0
 other elastic count - North East,0
-total rows output - North East,4
-job_id included - North East,76859320-21f7-42da-a900-a42405d67129; 06c76e52-90d1-4e40-8bd8-760c8ee9afac; 364f7202-fbb5-4390-90c1-bf45e1a277ac; 107595243
+total rows output - North East,2
+job_id included - North East,364f7202-fbb5-4390-90c1-bf45e1a277ac; 107595243
