@@ -11,12 +11,6 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
-SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
-job_id: 107506827
----
-
----
-action: select
 SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
 job_id: 107426616
 ---
@@ -29,8 +23,8 @@ job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 
 ---
 action: select
-SELECTED | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
-job_id: 107586970
+SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
+job_id: 107506827
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -51,6 +45,12 @@ job_id: 107457208
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
 job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £30000 per year | Legal Secretary - Commercial property
+job_id: fab18477-c03a-4672-bb39-d871d89a546c
 ---
 
 ---
@@ -85,6 +85,12 @@ job_id: 107606837
 action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 per year | Administrator - ERP Systems
 job_id: 107651257
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £30000 - £35000 per year | HSE Administrator
+job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 ---
 
 ## NORTH EAST — SELECTED

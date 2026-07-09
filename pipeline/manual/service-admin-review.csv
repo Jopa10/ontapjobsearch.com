@@ -1,15 +1,16 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
-SELECTED,West Yorkshire,Payroll & Operations Administrator,Wetherby,£30000 per year,,SELECT,107506827
 SELECTED,West Yorkshire,Design Administrator,Batley,£30000 per year,,SELECT,107426616
 SELECTED,West Yorkshire,Export Administrator,Leeds,£30000 - £32000 per year,,SELECT,f3ab9106-ae47-4d49-b28b-139c5e18fbde
-SELECTED,West Yorkshire,Junior Regulatory Affairs Administrator,Bradford,£30000 per year,,SELECT,107586970
+SELECTED,West Yorkshire,Payroll & Operations Administrator,Wetherby,£30000 per year,,SELECT,107506827
 POSS - WEST YORKSHIRE,West Yorkshire,Accounts Administrator,Leeds,£35000 per year,,,2a1eb047-53ab-44d6-8251-d40aeef4fc8e
 POSS - WEST YORKSHIRE,West Yorkshire,Office Administrator Assistant & Companies House Compliance Officer Assistant,Leeds,,,,107457208
 POSS - WEST YORKSHIRE,West Yorkshire,Insolvency Administrator,Leeds,£33000 per year,,,589df823-df54-48cf-ba4b-dc3ef93ee05f
+POSS - WEST YORKSHIRE,West Yorkshire,Legal Secretary - Commercial property,Leeds,£25000 - £30000 per year,,,fab18477-c03a-4672-bb39-d871d89a546c
 POSS - WEST YORKSHIRE,West Yorkshire,Office Management and Operations Coordinator,Halifax,£45000 per year,,,107624932
 SELECTED,South Yorkshire,Finance Administrator - Expenses (Temporary Contract),Doncaster,£12 - £14 per hour,,SELECT,2f714926-5688-4a91-8367-6abbb5916a10
 SELECTED,South Yorkshire,Insolvency Case Administrator,Sheffield,£24000 - £35000 per year,,SELECT,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
 SELECTED,South Yorkshire,Recruitment Onsite Operations Coordinator,Barnsley,£26000 per year,,SELECT,107606837
 POSS - SOUTH YORKSHIRE,South Yorkshire,Administrator - ERP Systems,Sheffield,£28000 per year,,,107651257
+POSS - SOUTH YORKSHIRE,South Yorkshire,HSE Administrator,Rotherham,£30000 - £35000 per year,,,4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 SELECTED,North East,Accounts Administrator,Hebburn,£13 - £14 per hour,,,364f7202-fbb5-4390-90c1-bf45e1a277ac
 SELECTED,North East,Asbestos Administrator / Project Coordinator,Houghton Le Spring,£30000 per year,,,107595243

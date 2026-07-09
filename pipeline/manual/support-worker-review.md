@@ -11,12 +11,6 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | West Yorkshire | Holmfirth | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
-job_id: 1401782970
----
-
----
-action:
 SELECTED | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
 job_id: 107521956
 ---
@@ -41,14 +35,14 @@ job_id: 107616819
 
 ---
 action:
-SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
-job_id: 107465221
+SELECTED | West Yorkshire | Holmfirth | £13.75 per hour | Bank Support Worker
+job_id: 1401783630
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Castleford | £13.81 per hour | Health Care Assistant
-job_id: 107650967
+SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
+job_id: 107465221
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -57,7 +51,11 @@ _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | South Yorkshire | Sheffield | £92.63 - £100 per daily | Behaviour Support Assistant
+job_id: 8d571880-266d-45cf-922d-664a4e281ac6
+---
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
@@ -121,7 +119,17 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £15 per hour | Male Support Worker
+job_id: f8a9a12f-ecca-46bd-9b89-5bd763bb3157
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
+job_id: 107652261
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
