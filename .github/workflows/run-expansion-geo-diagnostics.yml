@@ -1,0 +1,278 @@
+name: Expansion Geo Diagnostics
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: Branch to run diagnostics on
+        required: true
+        default: test-9-expansion-clean-geo-diagnostics
+  push:
+    branches:
+      - test-9-expansion-clean-geo-diagnostics
+    paths-ignore:
+      - 'pipeline/reports-expansion-diagnostics/**'
+
+permissions:
+  contents: write
+
+jobs:
+  diagnostics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.target_branch || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Fetch main for comparison only
+        run: git fetch origin main --depth=1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Run geo diagnostics
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          import subprocess
+          import pandas as pd
+
+          OUT = Path('pipeline/reports-expansion-diagnostics')
+          OUT.mkdir(parents=True, exist_ok=True)
+
+          branch_geo = Path('pipeline/geo/geo_lookup.xlsx')
+          main_geo = Path('/tmp/main_geo_lookup.xlsx')
+          with main_geo.open('wb') as f:
+              subprocess.run(['git', 'show', 'origin/main:pipeline/geo/geo_lookup.xlsx'], stdout=f, check=True)
+
+          def norm(value):
+              if pd.isna(value):
+                  return ''
+              return str(value).strip()
+
+          def key(value):
+              return norm(value).casefold()
+
+          def read_geo(path):
+              df = pd.read_excel(path)
+              df.columns = [str(c).strip() for c in df.columns]
+              if 'Area' not in df.columns or 'Cluster' not in df.columns:
+                  raise SystemExit(f'{path} must contain Area and Cluster columns; found {list(df.columns)}')
+              df = df[['Area', 'Cluster']].copy()
+              df['Area'] = df['Area'].map(norm)
+              df['Cluster'] = df['Cluster'].map(norm)
+              df = df[df['Area'] != '']
+              return dict(zip(df['Area'].map(key), df['Cluster']))
+
+          old_geo = read_geo(main_geo)
+          new_geo = read_geo(branch_geo)
+
+          job_path = Path('pipeline/input/jobg8.xlsx')
+          if not job_path.exists():
+              raise SystemExit('Missing pipeline/input/jobg8.xlsx')
+          jobs = pd.read_excel(job_path)
+          jobs.columns = [str(c).strip() for c in jobs.columns]
+
+          def first_col(options):
+              for c in options:
+                  if c in jobs.columns:
+                      return c
+              return None
+
+          area_col = first_col(['/Job/Area', 'Area', 'area'])
+          job_id_col = first_col(['/Job/DisplayReference', 'job_id', 'Job ID', 'DisplayReference'])
+          title_col = first_col(['/Job/Position', 'title', 'Title', 'Position'])
+          town_col = first_col(['/Job/Location', 'town', 'Town', 'Location'])
+          advertiser_col = first_col(['/Job/AdvertiserName', 'advertiser', 'Advertiser', 'company', 'Company'])
+
+          if area_col is None:
+              raise SystemExit(f'Could not find JobG8 area column. Columns found: {list(jobs.columns)}')
+
+          def region_from_cluster(cluster):
+              c = key(cluster)
+              region_map = {
+                  'yorkshire - west': 'West Yorkshire',
+                  'yorkshire (west)': 'West Yorkshire',
+                  'yorkshire west': 'West Yorkshire',
+                  'west yorkshire': 'West Yorkshire',
+                  'yorkshire - south': 'South Yorkshire',
+                  'yorkshire (south)': 'South Yorkshire',
+                  'yorkshire south': 'South Yorkshire',
+                  'south yorkshire': 'South Yorkshire',
+                  'north east - tyneside, wearside & northumberland': 'North East',
+                  'tyneside, wearside & northumberland': 'North East',
+                  'tyneside wearside northumberland': 'North East',
+                  'north east - county durham & darlington/hartlepool': 'North East',
+                  'county durham & darlington/hartlepool': 'North East',
+                  'county durham darlington hartlepool': 'North East',
+                  'north east - tees valley': 'North East',
+                  'tees valley': 'North East',
+                  'north east': 'North East',
+              }
+              return region_map.get(c, '')
+
+          detail_rows = []
+          watched_terms = ['London', 'Belfast', 'Londonderry', 'Derry', 'County Londonderry', 'City', 'City of London', 'City Of London', 'Sydenham']
+          watched_keys = {key(t) for t in watched_terms}
+
+          for idx, row in jobs.iterrows():
+              area = norm(row.get(area_col, ''))
+              old_cluster = old_geo.get(key(area), '')
+              new_cluster = new_geo.get(key(area), '')
+              old_region = region_from_cluster(old_cluster)
+              new_region = region_from_cluster(new_cluster)
+              changed_cluster = old_cluster != new_cluster
+              changed_daily_region = old_region != new_region
+              watched = key(area) in watched_keys
+              if changed_cluster or changed_daily_region or watched:
+                  detail_rows.append({
+                      'row_number': int(idx) + 2,
+                      'job_id': norm(row.get(job_id_col, '')) if job_id_col else '',
+                      'title': norm(row.get(title_col, '')) if title_col else '',
+                      'town': norm(row.get(town_col, '')) if town_col else '',
+                      'area': area,
+                      'advertiser': norm(row.get(advertiser_col, '')) if advertiser_col else '',
+                      'old_cluster': old_cluster,
+                      'new_cluster': new_cluster,
+                      'old_daily_region': old_region,
+                      'new_daily_region': new_region,
+                      'changed_cluster': changed_cluster,
+                      'changed_daily_region': changed_daily_region,
+                      'specific_term_checked': watched,
+                  })
+
+          detail = pd.DataFrame(detail_rows)
+          if detail.empty:
+              detail = pd.DataFrame(columns=[
+                  'row_number','job_id','title','town','area','advertiser','old_cluster','new_cluster',
+                  'old_daily_region','new_daily_region','changed_cluster','changed_daily_region','specific_term_checked'
+              ])
+          detail.to_csv(OUT / 'geo-fix-impact-detail.csv', index=False)
+
+          total_jobs = len(jobs)
+          changed_cluster_count = int(detail['changed_cluster'].sum()) if not detail.empty else 0
+          changed_daily_region_count = int(detail['changed_daily_region'].sum()) if not detail.empty else 0
+          watched_count = int(detail['specific_term_checked'].sum()) if not detail.empty else 0
+          summary = pd.DataFrame([
+              {'metric': 'total_current_jobg8_rows', 'value': total_jobs},
+              {'metric': 'changed_cluster_rows', 'value': changed_cluster_count},
+              {'metric': 'changed_daily_region_rows', 'value': changed_daily_region_count},
+              {'metric': 'specific_term_rows_checked', 'value': watched_count},
+              {'metric': 'main_geo_source', 'value': 'origin/main:pipeline/geo/geo_lookup.xlsx'},
+              {'metric': 'branch_geo_source', 'value': 'pipeline/geo/geo_lookup.xlsx'},
+          ])
+          summary.to_csv(OUT / 'geo-fix-impact-summary.csv', index=False)
+
+          detail_by_job = detail.set_index('job_id').to_dict('index') if 'job_id' in detail.columns else {}
+
+          manual_rows = []
+          for label, path in [
+              ('service-admin', Path('pipeline/manual/service-admin-review.csv')),
+              ('support-worker', Path('pipeline/manual/support-worker-review.csv')),
+          ]:
+              if not path.exists():
+                  manual_rows.append({'slice': label, 'status': 'missing_manual_csv', 'manual_rows': 0, 'impacted_manual_rows': 0, 'moved_region_rows': 0})
+                  continue
+              m = pd.read_csv(path, dtype=str).fillna('')
+              jid_col = 'job_id' if 'job_id' in m.columns else None
+              impacted = 0
+              moved = 0
+              for _, mr in m.iterrows():
+                  jid = norm(mr.get(jid_col, '')) if jid_col else ''
+                  impact = detail_by_job.get(jid)
+                  if impact:
+                      impacted += 1
+                      if impact.get('changed_daily_region'):
+                          moved += 1
+                      manual_rows.append({
+                          'slice': label,
+                          'status': 'impacted_row',
+                          'job_id': jid,
+                          'manual_region': norm(mr.get('region', '')),
+                          'title': norm(mr.get('title', '')),
+                          'old_cluster': impact.get('old_cluster', ''),
+                          'new_cluster': impact.get('new_cluster', ''),
+                          'old_daily_region': impact.get('old_daily_region', ''),
+                          'new_daily_region': impact.get('new_daily_region', ''),
+                          'changed_daily_region': impact.get('changed_daily_region', ''),
+                      })
+              manual_rows.append({'slice': label, 'status': 'summary', 'manual_rows': len(m), 'impacted_manual_rows': impacted, 'moved_region_rows': moved})
+
+          manual_detail = pd.DataFrame(manual_rows)
+          manual_detail.to_csv(OUT / 'manual-output-impact-detail.csv', index=False)
+          manual_summary = manual_detail[manual_detail['status'].isin(['summary', 'missing_manual_csv'])].copy()
+          manual_summary.to_csv(OUT / 'manual-output-impact-summary.csv', index=False)
+
+          selected_ids = set()
+          for folder in [Path('pipeline/output-admin-service'), Path('pipeline/output-support-worker')]:
+              if not folder.exists():
+                  continue
+              for p in folder.glob('*.json'):
+                  try:
+                      data = json.loads(p.read_text())
+                  except Exception:
+                      continue
+                  stack = [data]
+                  while stack:
+                      item = stack.pop()
+                      if isinstance(item, dict):
+                          for k, v in item.items():
+                              if str(k).lower() in {'job_id','id','displayreference','display_reference'} and v:
+                                  selected_ids.add(norm(v))
+                              elif isinstance(v, (dict, list)):
+                                  stack.append(v)
+                      elif isinstance(item, list):
+                          stack.extend(item)
+          selected_impacted = [jid for jid in selected_ids if jid in detail_by_job]
+          selected_moved = [jid for jid in selected_impacted if detail_by_job[jid].get('changed_daily_region')]
+
+          log = []
+          log.append('Expansion geo diagnostics run')
+          log.append(f'Branch/ref: {subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"], text=True).strip()}')
+          log.append('Compared branch pipeline/geo/geo_lookup.xlsx against origin/main:pipeline/geo/geo_lookup.xlsx')
+          log.append(f'Current JobG8 rows: {total_jobs}')
+          log.append(f'Rows with changed cluster: {changed_cluster_count}')
+          log.append(f'Rows with changed daily publish region: {changed_daily_region_count}')
+          log.append(f'Specific-term rows checked: {watched_count}')
+          log.append('Specific terms: ' + ', '.join(watched_terms))
+          for label in ['service-admin', 'support-worker']:
+              subset = manual_summary[manual_summary['slice'] == label]
+              if not subset.empty:
+                  r = subset.iloc[0].to_dict()
+                  log.append(f"{label} manual rows: {r.get('manual_rows', 0)}; impacted: {r.get('impacted_manual_rows', 0)}; moved region: {r.get('moved_region_rows', 0)}")
+          log.append(f'Existing selected live/output job ids impacted: {len(selected_impacted)}')
+          log.append(f'Existing selected live/output job ids moved daily region: {len(selected_moved)}')
+          log.append('No 9-slice expansion review CSVs generated.')
+          log.append('No live JSONs changed.')
+          log.append('No manual review CSV/MD files changed.')
+          log.append('Main was used only as a read-only comparison source.')
+          (OUT / 'geo-diagnostics-run-log.txt').write_text('\n'.join(log) + '\n')
+          PY
+
+      - name: Commit diagnostic outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/reports-expansion-diagnostics/geo-fix-impact-summary.csv \
+                  pipeline/reports-expansion-diagnostics/geo-fix-impact-detail.csv \
+                  pipeline/reports-expansion-diagnostics/manual-output-impact-summary.csv \
+                  pipeline/reports-expansion-diagnostics/manual-output-impact-detail.csv \
+                  pipeline/reports-expansion-diagnostics/geo-diagnostics-run-log.txt
+          if git diff --cached --quiet; then
+            echo "No diagnostic output changes to commit."
+          else
+            git commit -m "Add expansion geo diagnostic reports"
+            git push origin HEAD:${{ github.event.inputs.target_branch || github.ref_name }}
+          fi
