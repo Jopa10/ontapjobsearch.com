@@ -120,13 +120,13 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £15 per hour | Male Support Worker
 job_id: f8a9a12f-ecca-46bd-9b89-5bd763bb3157
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
 job_id: 107652261
 ---
