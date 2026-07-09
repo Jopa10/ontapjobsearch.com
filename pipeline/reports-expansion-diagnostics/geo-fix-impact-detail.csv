@@ -1,0 +1,79 @@
+row_number,job_id,title,town,area,advertiser,old_cluster,new_cluster,old_daily_region,new_daily_region,changed_cluster,changed_daily_region,specific_term_checked
+18,1402260755,"Optometrist / Dundee / £60,000",Dundee,City,Vivid Optical,London,REVIEW - ambiguous or unspecified,,,True,False,True
+53,1402260712,"Optometrist/Edinburgh/£60,000",Edinburgh,City,Vivid Optical,London,REVIEW - ambiguous or unspecified,,,True,False,True
+63,1402260894,"Hearing Aid Audiologist, Derry",County Londonderry,Londonderry,Leightons Opticians & Hearing Care,London,Northern Ireland - West,,,True,False,True
+65,1402260890,Optical Assistant job in Liverpool,Liverpool,City,Inspired Recruitment Group,London,REVIEW - ambiguous or unspecified,,,True,False,True
+71,1402260831,"Optometrist / Newcastle / £70,000",Newcastle Upon Tyne,City,Vivid Optical,London,REVIEW - ambiguous or unspecified,,,True,False,True
+77,1402260801,"Optometrist Opportunity, Edinburgh / £55,000",Edinburgh,City,Vivid Optical,London,REVIEW - ambiguous or unspecified,,,True,False,True
+316,107540183,SEN Teaching Assistant,London,City,Jobsined Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+370,1d6e4c9b-bcef-4e95-becf-fff7b09ade46,Finance Administrator (Part-Time),Belfast,City,Reed,London,REVIEW - ambiguous or unspecified,,,True,False,True
+405,107425682,Medical Affairs Lead,London,City,UKPharm Limited,London,REVIEW - ambiguous or unspecified,,,True,False,True
+769,1402261423,"Optometrist/Dundee/Up to £60,000",Dundee,City,Vivid Optical,London,REVIEW - ambiguous or unspecified,,,True,False,True
+773,1402261419,"Optometrist/Newcastle/Up to £70,000",Newcastle Upon Tyne,City,Leo,London,REVIEW - ambiguous or unspecified,,,True,False,True
+788,1402261394,"Dundee Optometrist Role - Up to £65,000 !",Dundee,City,Vivid Optical,London,REVIEW - ambiguous or unspecified,,,True,False,True
+801,1402261356,"Mobile Hearing Aid Audiologist, Belfast",Belfast,City,Leightons Opticians & Hearing Care,London,REVIEW - ambiguous or unspecified,,,True,False,True
+840,21618_22101_267808,Beauty Therapist,Belfast,City,Superdrug,London,REVIEW - ambiguous or unspecified,,,True,False,True
+900,2045037,Care Assistant Dayshift Our Ladys,Belfast,City,Macklin Care Homes Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+901,2045025,Care Assistant,Belfast,City,MPA Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+902,2045024,Technical Admin (Graduate),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+903,2045022,Inventory Administrator (6 Mnth Contract),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+904,2044996,Admin Support (25/30 hours),County Londonderry,Londonderry,Hays,London,Northern Ireland - West,,,True,False,True
+905,2044991,FATHERS WORKER,Belfast,City,Colin Neighbourhood Sure Start,London,REVIEW - ambiguous or unspecified,,,True,False,True
+906,2044990,Admin,Belfast,City,MPA Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+908,2044961,Administrative & Communications Officer,County Londonderry,Londonderry,Ulster University,London,Northern Ireland - West,,,True,False,True
+911,2044892,Receptionist/ Administrator (37.5 hrs pw),Belfast,City,Lynda Jacobs Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+920,2044812,Resource Advisor,Belfast,City,Prime Recruitment Services,London,REVIEW - ambiguous or unspecified,,,True,False,True
+926,2044773,PW3 LifeSkills Co-ordinator,Belfast,City,Barnardo's Northern Ireland,London,REVIEW - ambiguous or unspecified,,,True,False,True
+927,2044772,"Project Worker 2 - Healthy, Respectful Relationships Group Work Programme",Belfast,City,Barnardo's Northern Ireland,London,REVIEW - ambiguous or unspecified,,,True,False,True
+930,2044739,Environmental Health Officer,Belfast,City,Belfast City Council,London,REVIEW - ambiguous or unspecified,,,True,False,True
+931,2044708,Dispensary Assistant (SATURDAYS) 7 hours per week,County Londonderry,Londonderry,MediCare Pharmacy Group,London,Northern Ireland - West,,,True,False,True
+932,2044690,2 x Administrators - Belfast,Belfast,City,First Choice Selection Services,London,REVIEW - ambiguous or unspecified,,,True,False,True
+934,2044668,Deputy Nurse Manager - Maternity 6 Month FTC,Belfast,City,Macklin Care Homes Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+935,2044655,Medical Receptionist (25 hrs pw),Belfast,City,Lynda Jacobs Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+938,2044565,Personal Assistant,Belfast,City,MPA Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+940,2044561,Permanent Care Assistant - Belfast,Belfast,City,MPA Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+951,2044450,Litigation Legal Secretary,Belfast,City,Pathway Legal,London,REVIEW - ambiguous or unspecified,,,True,False,True
+952,2044448,Legal PA - Property,Belfast,City,Pathway Legal,London,REVIEW - ambiguous or unspecified,,,True,False,True
+961,2044315,Medical Receptionist (28-33 hrs pw),Belfast,City,Lynda Jacobs Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+962,2044302,Administration Officer,Belfast,City,Queen's University Belfast,London,REVIEW - ambiguous or unspecified,,,True,False,True
+964,2044253,Social Care Co-ordinator,Belfast,City,First Choice Selection Services,London,REVIEW - ambiguous or unspecified,,,True,False,True
+967,2044219,Working Foreman,Belfast,City,Hays,London,REVIEW - ambiguous or unspecified,,,True,False,True
+969,2044038,Administrative Assistant,County Londonderry,Londonderry,Derry GP Federation,London,Northern Ireland - West,,,True,False,True
+973,2044144,Legal Secretary,Belfast,City,Staff Source Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+976,2044064,Temporary Accounts Technician (Practice),Belfast,City,McKinty Associates,London,REVIEW - ambiguous or unspecified,,,True,False,True
+979,2044013,Data Management Specialist,Belfast,City,Early Years,London,REVIEW - ambiguous or unspecified,,,True,False,True
+980,2043961,Client Onboarding Analyst,Belfast,City,Hays,London,REVIEW - ambiguous or unspecified,,,True,False,True
+982,2043929,Finance Administrator,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+985,2043852,Customer Service Administrator,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+986,2043840,Deputy Registrar,Belfast,City,Prime Recruitment Services,London,REVIEW - ambiguous or unspecified,,,True,False,True
+990,2043814,Residential Care Assistant Dayshift - Our Ladys,Belfast,City,Macklin Care Homes Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+992,2043811,Temporary Receptionist - Belfast areas,Belfast,Sydenham,Task Recruitment,,REVIEW - ambiguous or unspecified,,,True,False,True
+995,2043753,Band 6 Administration Manager,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+996,2043749,Band 4 Facilities Administrator (Belfast),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+997,2043747,Operations and Compliance Administrator,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1048,2045261,Service Delivery Administrator temp full time,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1049,2045257,Financial Services Administrator,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1050,2045253,PW3/ Senior Practitioner - Children's Services,Belfast,City,Barnardo's Northern Ireland,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1054,2045200,Occupational Health Nurse,County Londonderry,Londonderry,Ulster University,London,Northern Ireland - West,,,True,False,True
+1060,2045154,Finance Administrator (Hybrid),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1160,2045281,OLD CAMPBELLIAN SOCIETY MANAGER,Belfast,City,Campbell College,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1161,2045276,Clerical Supervisor,Belfast,City,Reed Specialist Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1231,2045444,Senior Administrator - Belfast,Belfast,City,First Choice Selection Services,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1233,2045440,Band 3 Medical Secretary (Belfast),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1234,2045439,Band 3 Medical Workforce Administrator (Belfast),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1293,107615075,Beauty Therapist,Belfast,City,Superdrug,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1336,107506508,Sales Manager - Digital Radiology Imaging,London,City,Agfa Gevaert,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1340,107632086,Compliance Officer & Business Support MGA (London),London,City,Asset Resourcing,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1391,2045516,Regional Manager Full-time opportunity,Belfast,City,Macklin Care Homes Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1431,107573794,Field Sales Executive Medical Devices,London,City,Talent Finder,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1477,2045625,Receptionist,Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1479,2045581,Financial Services Administrator (Graduate),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1482,2045565,Administrative Officer (Belfast),Belfast,City,Honeycomb Jobs Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1484,2045554,Service Delivery Administrator,Belfast,City,Riada Resourcing,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1485,2045546,Nurse- Residential Care Homes,Belfast,City,MPA Recruitment,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1488,2045536,Science Support Manager - Staff Officer,Belfast,City,AFBI - Agri-Food and Biosciences Institute,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1511,107475245,WCA Nurse Assessor,Belfast,City,Donard Recruitment Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1580,107461563,Research Grants Administrator,London,City,KEYSTONE EMPLOYMENT GROUP NO.1 LIMITED,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1912,107587925,ECA Agency Client Service Manager,London,City,Johnson & Associates Rec Specialists Ltd,London,REVIEW - ambiguous or unspecified,,,True,False,True
+1946,107631600,Training & Events Assistant,London,City,The Institution of Structural Engineers,London,REVIEW - ambiguous or unspecified,,,True,False,True
+2097,107493852,Executive Assistant to Regional Head,London,City,LJ Recruitment Limited,London,REVIEW - ambiguous or unspecified,,,True,False,True

@@ -1,0 +1,7 @@
+metric,value
+total_current_jobg8_rows,2100
+changed_cluster_rows,78
+changed_daily_region_rows,0
+specific_term_rows_checked,78
+main_geo_source,origin/main:pipeline/geo/geo_lookup.xlsx
+branch_geo_source,pipeline/geo/geo_lookup.xlsx
