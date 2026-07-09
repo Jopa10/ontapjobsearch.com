@@ -30,13 +30,13 @@ job_id: 107506827
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
 job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
 job_id: 107457208
 ---
@@ -48,13 +48,13 @@ job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £30000 per year | Legal Secretary - Commercial property
 job_id: fab18477-c03a-4672-bb39-d871d89a546c
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Halifax | £45000 per year | Office Management and Operations Coordinator
 job_id: 107624932
 ---
@@ -82,13 +82,13 @@ job_id: 107606837
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 per year | Administrator - ERP Systems
 job_id: 107651257
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £30000 - £35000 per year | HSE Administrator
 job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 ---
