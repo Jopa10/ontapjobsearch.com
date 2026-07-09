@@ -11,6 +11,18 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
+SELECTED | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
+job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
+job_id: 107457208
+---
+
+---
+action: select
 SELECTED | West Yorkshire | Batley | £30000 per year | Design Administrator
 job_id: 107426616
 ---
@@ -23,6 +35,18 @@ job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 
 ---
 action: select
+SELECTED | West Yorkshire | Halifax | £45000 per year | Office Management and Operations Coordinator
+job_id: 107624932
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Leeds | £25000 - £30000 per year | Legal Secretary - Commercial property
+job_id: fab18477-c03a-4672-bb39-d871d89a546c
+---
+
+---
+action: select
 SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
 ---
@@ -30,33 +54,9 @@ job_id: 107506827
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
-job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
-job_id: 107457208
----
-
----
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
 job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £30000 per year | Legal Secretary - Commercial property
-job_id: fab18477-c03a-4672-bb39-d871d89a546c
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Halifax | £45000 per year | Office Management and Operations Coordinator
-job_id: 107624932
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -65,6 +65,12 @@ job_id: 107624932
 action: select
 SELECTED | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administrator - Expenses (Temporary Contract)
 job_id: 2f714926-5688-4a91-8367-6abbb5916a10
+---
+
+---
+action: select
+SELECTED | South Yorkshire | Rotherham | £30000 - £35000 per year | HSE Administrator
+job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 ---
 
 ---
@@ -79,19 +85,15 @@ SELECTED | South Yorkshire | Barnsley | £26000 per year | Recruitment Onsite Op
 job_id: 107606837
 ---
 
-## SOUTH YORKSHIRE — POSSIBLES
-
 ---
 action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 per year | Administrator - ERP Systems
+SELECTED | South Yorkshire | Sheffield | £28000 per year | Administrator - ERP Systems
 job_id: 107651257
 ---
 
----
-action: select
-POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £30000 - £35000 per year | HSE Administrator
-job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
----
+## SOUTH YORKSHIRE — POSSIBLES
+
+_No jobs in this group._
 
 ## NORTH EAST — SELECTED
 
