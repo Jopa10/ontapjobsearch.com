@@ -1,33 +1,33 @@
 ﻿metric,value
-total rows input,1899
+total rows input,2100
 total rows included,15
-total rows dropped,1883
-title classification count - HIGH_CONFIDENCE,120
-title classification count - ELASTIC_FIT,99
+total rows dropped,2082
+title classification count - HIGH_CONFIDENCE,132
+title classification count - ELASTIC_FIT,107
 title classification count - REVIEW_CONTEXT_DEPENDENT,2
-title classification count - HARD_PASS,1099
-title classification count - OUT_OF_SCOPE,579
+title classification count - HARD_PASS,1212
+title classification count - OUT_OF_SCOPE,647
 selection scenario - West Yorkshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - West Yorkshire,"West Yorkshire selection complete: 7 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - West Yorkshire,7
-high confidence count - West Yorkshire,5
+selection message - West Yorkshire,"West Yorkshire selection complete: 6 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - West Yorkshire,6
+high confidence count - West Yorkshire,4
 anchor elastic count - West Yorkshire,1
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,7
-job_id included - West Yorkshire,107616819; 107521956; 107464615; 107532972; 107465221; 107650967; 1401782970
+total rows output - West Yorkshire,6
+job_id included - West Yorkshire,107616819; 107521956; 107464615; 107532972; 107465221; 1401783630
 selection scenario - South Yorkshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - South Yorkshire,South Yorkshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - South Yorkshire,0
+selection message - South Yorkshire,South Yorkshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - South Yorkshire,1
 high confidence count - South Yorkshire,0
-anchor elastic count - South Yorkshire,0
+anchor elastic count - South Yorkshire,1
 other elastic count - South Yorkshire,0
-total rows output - South Yorkshire,0
-job_id included - South Yorkshire,
+total rows output - South Yorkshire,1
+job_id included - South Yorkshire,8d571880-266d-45cf-922d-664a4e281ac6
 selection scenario - North East,SCENARIO_MANUAL_RERUN
 selection message - North East,North East manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Routine auto-selection disabled.
-credible total - North East,9
-high confidence count - North East,1
+credible total - North East,11
+high confidence count - North East,2
 anchor elastic count - North East,1
-other elastic count - North East,7
+other elastic count - North East,8
 total rows output - North East,8
 job_id included - North East,107616541; 1401783067; 1401783008; 1401783136; 107539241; 107450852; 107617093; 107615864

@@ -1,4 +1,4 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-West Yorkshire,4,4,0,0,4,,8,Leeds,SCENARIO_MANUAL_RERUN,West Yorkshire manual rerun: 4 current-feed manual_select row(s) applied; 4 selected. Auto backfill disabled.
-South Yorkshire,3,2,0,1,1,,4,Sheffield,SCENARIO_MANUAL_RERUN,South Yorkshire manual rerun: 3 current-feed manual_select row(s) applied; 3 selected. Auto backfill disabled.
+West Yorkshire,3,3,0,0,5,,8,Leeds,SCENARIO_MANUAL_RERUN,West Yorkshire manual rerun: 3 current-feed manual_select row(s) applied; 3 selected. Auto backfill disabled.
+South Yorkshire,3,2,0,1,2,,5,Sheffield,SCENARIO_MANUAL_RERUN,South Yorkshire manual rerun: 3 current-feed manual_select row(s) applied; 3 selected. Auto backfill disabled.
 North East,2,2,0,0,0,,2,Newcastle,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North East selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
