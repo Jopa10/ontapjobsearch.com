@@ -64,19 +64,19 @@ def load_geo():
     return dict(zip(geo['Area'].map(low), geo['Cluster']))
 
 
-def resolve_cluster(town, area, geo_map):
-    """Resolve geography using the normal rule: town/location first, then area fallback."""
-    town_key = low(town)
-    area_key = low(area)
-    if town_key and town_key in geo_map:
-        return geo_map[town_key], 'location'
+def resolve_cluster(job_area, job_location, geo_map):
+    """Resolve geography using the established JobG8 rule: /Job/Area is the town key; /Job/Location is fallback."""
+    area_key = low(job_area)
+    location_key = low(job_location)
     if area_key and area_key in geo_map:
-        return geo_map[area_key], 'area'
+        return geo_map[area_key], 'area_town'
+    if location_key and location_key in geo_map:
+        return geo_map[location_key], 'location_fallback'
     return '', 'unmapped'
 
 
-def decision(target, cluster, area, town, classification, kind):
-    hay = f'{area} {town} {cluster}'
+def decision(target, cluster, area, location, classification, kind):
+    hay = f'{area} {location} {cluster}'
     if target == 'London' and has_any(hay, NI_TERMS):
         return 'EXCLUDE_WRONG_REGION', 'NI/Derry/Belfast safety exclusion from London'
     if cluster != target:
@@ -89,9 +89,9 @@ def decision(target, cluster, area, town, classification, kind):
 def build(kind, slices, jobs, geo_map):
     rows = []
     for _, row in jobs.iterrows():
-        area = clean(row['/Job/Area'])
-        town = clean(row['/Job/Location'])
-        cluster, geo_source = resolve_cluster(town, area, geo_map)
+        job_area = clean(row['/Job/Area'])
+        job_location = clean(row['/Job/Location'])
+        cluster, geo_source = resolve_cluster(job_area, job_location, geo_map)
         title = clean(row['/Job/Position'])
         desc = clean(row.get('/Job/Description', ''))
         cls = classify(title, desc, kind)
@@ -100,19 +100,21 @@ def build(kind, slices, jobs, geo_map):
         for target in slices:
             if cluster != target:
                 continue
-            dec, reason = decision(target, cluster, area, town, cls, kind)
+            dec, reason = decision(target, cluster, job_area, job_location, cls, kind)
             if dec != 'REVIEW_CANDIDATE':
                 continue
             rows.append({
                 'decision': dec,
-                'target_slice': target,
+                'region': target,
                 'region_cluster': cluster,
                 'geo_lookup_source': geo_source,
                 'title': title,
-                'town_location': town,
-                'area': area,
+                'town': job_area,
+                'job_location': job_location,
                 'advertiser': clean(row.get('/Job/AdvertiserName', '')),
                 'salary_text': salary(row),
+                'manual_override': '',
+                'manual_select': '',
                 'job_id': clean(row.get('/Job/DisplayReference', '')),
                 'apply_url': clean(row.get('/Job/ApplicationURL', '')),
                 'reason_classification': reason,
@@ -126,9 +128,9 @@ def write_md(df, path, heading):
     if df.empty:
         lines.append('_No rows found._')
     else:
-        for target, group in df.groupby('target_slice', sort=False):
+        for target, group in df.groupby('region', sort=False):
             lines += [f'## {target}', '', f'Rows: {len(group)}', '']
-            cols = ['decision','title','town_location','area','geo_lookup_source','advertiser','salary_text','job_id','reason_classification']
+            cols = ['decision','region','title','town','job_location','geo_lookup_source','advertiser','salary_text','manual_override','manual_select','job_id','reason_classification']
             lines.append('| ' + ' | '.join(cols) + ' |')
             lines.append('| ' + ' | '.join(['---'] * len(cols)) + ' |')
             for _, r in group[cols].head(200).fillna('').iterrows():
@@ -153,20 +155,20 @@ def main():
     support.to_csv(OUT / 'support-worker-expansion-review.csv', index=False)
     write_md(admin, OUT / 'service-admin-expansion-review.md', 'Admin/service expansion review')
     write_md(support, OUT / 'support-worker-expansion-review.md', 'Support-worker expansion review')
-    log = ['Expansion manual review run', 'Geo rule: /Job/Location first, /Job/Area fallback.', 'Outputs written only under pipeline/manual-expansion/', 'No live JSONs changed.', 'No daily manual review CSV/MD files changed.', 'No merge to main performed.']
+    log = ['Expansion manual review run', 'Geo rule: /Job/Area primary town key, /Job/Location fallback.', 'Outputs written only under pipeline/manual-expansion/', 'No live JSONs changed.', 'No daily manual review CSV/MD files changed.', 'No merge to main performed.']
     for name, df in [('admin/service', admin), ('support-worker', support)]:
         log.append(f'{name} total rows: {len(df)}')
         if not df.empty:
-            for target, group in df.groupby('target_slice', sort=False):
+            for target, group in df.groupby('region', sort=False):
                 cand = int((group['decision'] == 'REVIEW_CANDIDATE').sum())
-                loc = int((group['geo_lookup_source'] == 'location').sum())
-                area = int((group['geo_lookup_source'] == 'area').sum())
-                log.append(f'{name} {target}: rows={len(group)}, candidates={cand}, location_lookup={loc}, area_fallback={area}')
+                area = int((group['geo_lookup_source'] == 'area_town').sum())
+                loc = int((group['geo_lookup_source'] == 'location_fallback').sum())
+                log.append(f'{name} {target}: rows={len(group)}, candidates={cand}, area_town_lookup={area}, location_fallback={loc}')
     ni_london = 0
     if not admin.empty:
-        london = admin[admin['target_slice'] == 'London']
+        london = admin[admin['region'] == 'London']
         if not london.empty:
-            ni_london = int(london.apply(lambda r: has_any(f"{r.get('area','')} {r.get('town_location','')} {r.get('region_cluster','')}", NI_TERMS), axis=1).sum())
+            ni_london = int(london.apply(lambda r: has_any(f"{r.get('town','')} {r.get('job_location','')} {r.get('region_cluster','')}", NI_TERMS), axis=1).sum())
     log.append(f'London admin/service NI/Derry/Belfast wrong-region rows: {ni_london}')
     (OUT / 'expansion-review-run-log.txt').write_text('\n'.join(log) + '\n')
 
