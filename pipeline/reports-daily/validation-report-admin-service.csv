@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,2250
-total rows included,15
+total rows included,16
 total rows dropped,2231
 title classification count - HIGH_CONFIDENCE,231
 title classification count - ELASTIC_FIT,47
@@ -8,13 +8,13 @@ title classification count - REVIEW_CONTEXT_DEPENDENT,0
 title classification count - HARD_PASS,851
 title classification count - OUT_OF_SCOPE,1121
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6 selected. Auto backfill disabled.
+selection message - West Yorkshire,West Yorkshire manual rerun: 7 current-feed manual_select row(s) applied; 7 selected. Auto backfill disabled.
 credible total - West Yorkshire,8
 high confidence count - West Yorkshire,7
 anchor elastic count - West Yorkshire,0
 other elastic count - West Yorkshire,1
-total rows output - West Yorkshire,6
-job_id included - West Yorkshire,2a1eb047-53ab-44d6-8251-d40aeef4fc8e; 107457208; f3ab9106-ae47-4d49-b28b-139c5e18fbde; fab18477-c03a-4672-bb39-d871d89a546c; 107506827; 107624932
+total rows output - West Yorkshire,7
+job_id included - West Yorkshire,2a1eb047-53ab-44d6-8251-d40aeef4fc8e; 107457208; f3ab9106-ae47-4d49-b28b-139c5e18fbde; fab18477-c03a-4672-bb39-d871d89a546c; 107506827; a7598ea5-7cbb-4466-a836-2613c151ee58; 107624932
 selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
 selection message - South Yorkshire,South Yorkshire manual rerun: 5 current-feed manual_select row(s) applied; 5 selected. Auto backfill disabled.
 credible total - South Yorkshire,7
