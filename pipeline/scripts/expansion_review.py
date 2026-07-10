@@ -13,7 +13,6 @@ ADMIN_EXCLUDE = ['support worker','care assistant','care worker','healthcare ass
 SUPPORT_INCLUDE = ['support worker','support workers','care assistant','care worker','healthcare assistant','health care assistant','healthcare support worker','homecare assistant','home care assistant','personal assistant','community care assistant','community care worker','residential support worker','mental health support worker','learning disability support worker']
 SUPPORT_EXCLUDE = ['senior','lead','team leader','deputy','manager','coordinator','officer','housing','homeless','tenancy','driver','transport','school','sen ','send','semh','teacher','teaching','nurse','therapist','social worker','counsellor','admin','administrator','administration','business support','sales support','it support','project support']
 NI_TERMS = ['belfast', 'londonderry', 'derry', 'county londonderry', 'northern ireland']
-AMBIGUOUS_LONDON_AREAS = {'city', 'sydenham'}
 
 
 def clean(v):
@@ -65,13 +64,21 @@ def load_geo():
     return dict(zip(geo['Area'].map(low), geo['Cluster']))
 
 
+def resolve_cluster(town, area, geo_map):
+    """Resolve geography using the normal rule: town/location first, then area fallback."""
+    town_key = low(town)
+    area_key = low(area)
+    if town_key and town_key in geo_map:
+        return geo_map[town_key], 'location'
+    if area_key and area_key in geo_map:
+        return geo_map[area_key], 'area'
+    return '', 'unmapped'
+
+
 def decision(target, cluster, area, town, classification, kind):
     hay = f'{area} {town} {cluster}'
-    if target == 'London':
-        if has_any(hay, NI_TERMS):
-            return 'EXCLUDE_WRONG_REGION', 'NI/Derry/Belfast safety exclusion from London'
-        if low(area) in AMBIGUOUS_LONDON_AREAS or 'review - ambiguous' in low(cluster):
-            return 'REVIEW_AMBIGUOUS_GEO', 'City/Sydenham or ambiguous geo; not treated as normal London'
+    if target == 'London' and has_any(hay, NI_TERMS):
+        return 'EXCLUDE_WRONG_REGION', 'NI/Derry/Belfast safety exclusion from London'
     if cluster != target:
         return 'EXCLUDE_WRONG_REGION', f'Cluster does not match {target}'
     if classification == 'HIGH_CONFIDENCE':
@@ -83,26 +90,24 @@ def build(kind, slices, jobs, geo_map):
     rows = []
     for _, row in jobs.iterrows():
         area = clean(row['/Job/Area'])
-        cluster = geo_map.get(low(area), '')
-        title = clean(row['/Job/Position'])
         town = clean(row['/Job/Location'])
+        cluster, geo_source = resolve_cluster(town, area, geo_map)
+        title = clean(row['/Job/Position'])
         desc = clean(row.get('/Job/Description', ''))
         cls = classify(title, desc, kind)
         if cls == 'OUT_OF_SCOPE':
             continue
         for target in slices:
-            include_geo = cluster == target
-            if target == 'London' and (low(area) in AMBIGUOUS_LONDON_AREAS or 'review - ambiguous' in low(cluster)):
-                include_geo = True
-            if not include_geo:
+            if cluster != target:
                 continue
             dec, reason = decision(target, cluster, area, town, cls, kind)
-            if dec == 'EXCLUDE_TITLE':
+            if dec != 'REVIEW_CANDIDATE':
                 continue
             rows.append({
                 'decision': dec,
                 'target_slice': target,
                 'region_cluster': cluster,
+                'geo_lookup_source': geo_source,
                 'title': title,
                 'town_location': town,
                 'area': area,
@@ -123,7 +128,7 @@ def write_md(df, path, heading):
     else:
         for target, group in df.groupby('target_slice', sort=False):
             lines += [f'## {target}', '', f'Rows: {len(group)}', '']
-            cols = ['decision','title','town_location','area','advertiser','salary_text','job_id','reason_classification']
+            cols = ['decision','title','town_location','area','geo_lookup_source','advertiser','salary_text','job_id','reason_classification']
             lines.append('| ' + ' | '.join(cols) + ' |')
             lines.append('| ' + ' | '.join(['---'] * len(cols)) + ' |')
             for _, r in group[cols].head(200).fillna('').iterrows():
@@ -148,14 +153,15 @@ def main():
     support.to_csv(OUT / 'support-worker-expansion-review.csv', index=False)
     write_md(admin, OUT / 'service-admin-expansion-review.md', 'Admin/service expansion review')
     write_md(support, OUT / 'support-worker-expansion-review.md', 'Support-worker expansion review')
-    log = ['Expansion manual review run', 'Outputs written only under pipeline/manual-expansion/', 'No live JSONs changed.', 'No daily manual review CSV/MD files changed.', 'No merge to main performed.']
+    log = ['Expansion manual review run', 'Geo rule: /Job/Location first, /Job/Area fallback.', 'Outputs written only under pipeline/manual-expansion/', 'No live JSONs changed.', 'No daily manual review CSV/MD files changed.', 'No merge to main performed.']
     for name, df in [('admin/service', admin), ('support-worker', support)]:
         log.append(f'{name} total rows: {len(df)}')
         if not df.empty:
             for target, group in df.groupby('target_slice', sort=False):
                 cand = int((group['decision'] == 'REVIEW_CANDIDATE').sum())
-                amb = int((group['decision'] == 'REVIEW_AMBIGUOUS_GEO').sum())
-                log.append(f'{name} {target}: rows={len(group)}, candidates={cand}, ambiguous={amb}')
+                loc = int((group['geo_lookup_source'] == 'location').sum())
+                area = int((group['geo_lookup_source'] == 'area').sum())
+                log.append(f'{name} {target}: rows={len(group)}, candidates={cand}, location_lookup={loc}, area_fallback={area}')
     ni_london = 0
     if not admin.empty:
         london = admin[admin['target_slice'] == 'London']
