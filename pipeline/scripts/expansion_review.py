@@ -141,6 +141,11 @@ def resolve_cluster(town, location, geo_map):
     return '', 'unmapped'
 
 
+def production_candidate_decision(region):
+    """Use the same pending-candidate decision style as production manual review files."""
+    return f'POSS - {region.upper()}'
+
+
 def build(kind, slices, jobs, geo_map):
     rows = []
     for _, row in jobs.iterrows():
@@ -158,7 +163,7 @@ def build(kind, slices, jobs, geo_map):
             if cluster != target:
                 continue
             rows.append({
-                'decision': 'REVIEW',
+                'decision': production_candidate_decision(target),
                 'region': target,
                 'title': title,
                 'town': town,
@@ -198,6 +203,7 @@ def log_summary(admin, support):
         'Expansion manual review run',
         'Geo rule: /Job/Area primary town key, /Job/Location fallback.',
         'CSV format matches production manual review exactly: decision, region, title, town, salary_text, manual_override, manual_select, job_id.',
+        'Pending candidates use production decision labels: POSS - REGION.',
         'Outputs written only under pipeline/manual-expansion/',
         'No live JSONs changed.',
         'No daily manual review CSV/MD files changed.',
