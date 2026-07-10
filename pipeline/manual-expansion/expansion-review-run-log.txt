@@ -1,19 +1,19 @@
 Expansion manual review run
 Geo rule: /Job/Area primary town key, /Job/Location fallback.
-CSV format: decision, region, title, town, salary_text, manual_override, manual_select, job_id, geo_lookup_source.
+CSV format matches production manual review exactly: decision, region, title, town, salary_text, manual_override, manual_select, job_id.
 Outputs written only under pipeline/manual-expansion/
 No live JSONs changed.
 No daily manual review CSV/MD files changed.
 No merge to main performed.
 admin/service total rows: 47
-admin/service Hampshire: rows=10, area_town_lookup=10, location_fallback=0
-admin/service London: rows=12, area_town_lookup=12, location_fallback=0
-admin/service Northern Ireland - East: rows=23, area_town_lookup=23, location_fallback=0
-admin/service Surrey: rows=2, area_town_lookup=2, location_fallback=0
+admin/service Hampshire: rows=10
+admin/service London: rows=12
+admin/service Northern Ireland - East: rows=23
+admin/service Surrey: rows=2
 support-worker total rows: 37
-support-worker Sussex: rows=10, area_town_lookup=10, location_fallback=0
-support-worker Hampshire: rows=9, area_town_lookup=9, location_fallback=0
-support-worker Lancashire - North: rows=7, area_town_lookup=7, location_fallback=0
-support-worker Cumbria - South: rows=6, area_town_lookup=6, location_fallback=0
-support-worker Cumbria - North: rows=5, area_town_lookup=5, location_fallback=0
+support-worker Sussex: rows=10
+support-worker Hampshire: rows=9
+support-worker Lancashire - North: rows=7
+support-worker Cumbria - South: rows=6
+support-worker Cumbria - North: rows=5
 London admin/service NI/Derry/Belfast wrong-region rows: 0
