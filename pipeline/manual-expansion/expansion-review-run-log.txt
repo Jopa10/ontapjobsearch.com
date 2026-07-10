@@ -1,17 +1,18 @@
 Expansion manual review run
+Geo rule: /Job/Location first, /Job/Area fallback.
 Outputs written only under pipeline/manual-expansion/
 No live JSONs changed.
 No daily manual review CSV/MD files changed.
 No merge to main performed.
-admin/service total rows: 107
-admin/service London: rows=72, candidates=12, ambiguous=10
-admin/service Hampshire: rows=10, candidates=10, ambiguous=0
-admin/service Northern Ireland - East: rows=23, candidates=23, ambiguous=0
-admin/service Surrey: rows=2, candidates=2, ambiguous=0
+admin/service total rows: 102
+admin/service London: rows=40, candidates=40, location_lookup=31, area_fallback=9
+admin/service Hampshire: rows=10, candidates=10, location_lookup=0, area_fallback=10
+admin/service Northern Ireland - East: rows=50, candidates=50, location_lookup=29, area_fallback=21
+admin/service Surrey: rows=2, candidates=2, location_lookup=0, area_fallback=2
 support-worker total rows: 37
-support-worker Sussex: rows=10, candidates=10, ambiguous=0
-support-worker Hampshire: rows=9, candidates=9, ambiguous=0
-support-worker Lancashire - North: rows=7, candidates=7, ambiguous=0
-support-worker Cumbria - South: rows=6, candidates=6, ambiguous=0
-support-worker Cumbria - North: rows=5, candidates=5, ambiguous=0
-London admin/service NI/Derry/Belfast wrong-region rows: 50
+support-worker Sussex: rows=10, candidates=10, location_lookup=0, area_fallback=10
+support-worker Hampshire: rows=9, candidates=9, location_lookup=0, area_fallback=9
+support-worker Lancashire - North: rows=7, candidates=7, location_lookup=0, area_fallback=7
+support-worker Cumbria - South: rows=6, candidates=6, location_lookup=0, area_fallback=6
+support-worker Cumbria - North: rows=5, candidates=5, location_lookup=0, area_fallback=5
+London admin/service NI/Derry/Belfast wrong-region rows: 0
