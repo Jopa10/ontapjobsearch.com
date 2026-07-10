@@ -1,6 +1,7 @@
 Expansion manual review run
 Geo rule: /Job/Area primary town key, /Job/Location fallback.
 CSV format matches production manual review exactly: decision, region, title, town, salary_text, manual_override, manual_select, job_id.
+Pending candidates use production decision labels: POSS - REGION.
 Outputs written only under pipeline/manual-expansion/
 No live JSONs changed.
 No daily manual review CSV/MD files changed.
