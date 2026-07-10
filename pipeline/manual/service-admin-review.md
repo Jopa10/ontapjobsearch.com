@@ -45,18 +45,18 @@ SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations A
 job_id: 107506827
 ---
 
+---
+action: select
+SELECTED | West Yorkshire | Bradford | £20000 - £25000 per year | Legal Secretary
+job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
 job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
----
-
----
-action: select
-POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £20000 - £25000 per year | Legal Secretary
-job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
