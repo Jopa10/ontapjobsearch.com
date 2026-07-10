@@ -1,48 +1,48 @@
-decision,region,region_cluster,geo_lookup_source,title,town,job_location,advertiser,salary_text,manual_override,manual_select,job_id,apply_url,reason_classification,title_classification
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Administrator / SEN Administrator (SEND Support),Southampton,Hampshire,AWD Online,24000.0 | 24000.0 | Annual,,,107546331,https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLS7lFZAxun1AEbZjZGyDUSw,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Logisitics Administrator,Loughton,Essex,Sheridan Maine,30000.0 | 35000.0 | Annual,,,494d9e2f-3e44-4bcc-a85f-e92a085a5e77,https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMyiqW%2fmrrMLqGnha5H%2bHH0o,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Finance and Operations Assistant,Farnborough,Hampshire,HR Inspire,Annual,,,25a0c4b7-190c-41e3-a023-5e6998c11bc9,https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7yjohU886b0wTZjQYI9jB%2bg,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Finance Administrator,Orpington,Kent,Pearson Whiffin Recruitment Ltd,25000.0 | 30000.0 | Annual,,,1f0da1c5-dc31-4a4f-9611-b92fcd6a0d8e,https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyPudl0oRjqw9Yqy8xloIdvf,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Estate Administration Legal Assistant,Orpington,Kent,Gerrard White,30000.0 | 30000.0 | Annual,,,107514507,https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhOmTKcqeW53ga1eoeGTuIYi,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,German Speaking Administrator,Fareham,Hampshire,ABL Recruitment,28000.0 | 31000.0 | Annual,,,cae50eca-4516-4796-b1ed-5bc6de72a34a,https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsR7b8sRQ0qmZeO5UQl2GIYvm,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Project Administrator,Beckenham,Kent,Julie Rose Recruitment,27000.0 | 28000.0 | Annual,,,b92bc3e6-ace8-425c-8e68-37520e628642,https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZyT9hO76hZIYvT%2bFFS7KZqk,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Senior Windows Server Administrator,Southampton,Hampshire,Spectrum IT Recruitment,50000.0 | 70000.0 | Annual,,,edfb6bfb-1af8-4aa8-bf4e-faad98367d1e,https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VIlhnySy%2bQ3fsBTMvtokPvjw,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Italian speaking Administrator,Fareham,Hampshire,ABL Recruitment,28000.0 | 31000.0 | Annual,,,bc4834aa-75a5-4e16-9fe2-24c4e3e865e1,https://www.jobg8.com/Traffic.aspx?6WDmO0cNttoFNnAHS%2f%2bdgwMT12N98Avna,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Credit Administrator,Harrow,Middlesex,LJ Recruitment,29000.0 | 29000.0 | Annual,,,33eab37d-af87-4704-9471-df90f5cef85c,https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fiN7rNxYCT5z0dewp2TFvd8i,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Accounts Administrator,Southampton,Hampshire,Hartley Resourcing,15.0 | 15.0 | Hourly,,,43fee591-7b5c-4468-ad51-16ca088a4e5b,https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpypVyQ%2bVfN10J88V4gKpxNKe,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Optical Assistant job in Bexleyheath,Bexleyheath,Kent,Inspired Recruitment Group,Annual | £28k per year,,,1402261326,https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4fIuuyoF8VUGqY9HN6dLu4g,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Medical Receptionist/ Administrator (14.5 hrs pw),Newtownabbey,County Antrim,Lynda Jacobs Recruitment,13.0 | 13.0 | Hourly,,,2045110,https://www.jobg8.com/Traffic.aspx?d1vRzEYF65SLyvpb6E1zRvn1ldXxV7tGx,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Clerical Officer/Ward Clerk,Dundonald,Belfast,MPA Recruitment,12.71 | 12.71 | Hourly,,,2044985,https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzXotQ5rboZAlMa2enKBAZ6t,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Executive Assistant,Lisburn,County Antrim,Hays,Annual,,,2044815,https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpwROg8XAwfqNmkl%2bPH0lbZOe,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Administrative Assistant,Antrim,County Antrim,Mid and East Antrim Borough Council,Annual,,,2044757,https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhJ1jA8AcGwU%2fVbj4zz%2bKfAi,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Information Assistant,Ballymena,County Antrim,MPA Recruitment,12.75 | 12.75 | Hourly,,,2044778,https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPWqspst58vpBqQziu179D4o,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Ward Clerk - Ulster Hospital,Dundonald,Belfast,First Choice Selection Services,12.71 | 12.71 | Hourly,,,2044681,https://www.jobg8.com/Traffic.aspx?wTAUM266l6fwAOij1RWVyVaC1Xx9q7fxh,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Customs and Procurement Administrator,Newtownards,County Down,Honeycomb Jobs Ltd,30000.0 | 35000.0 | Annual,,,2044550,https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazIIKyoyiYgdg2nTb%2feU141b,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Clerical Officer,Newry,County Down,Apple Recruitment,13.05 | 13.05 | Hourly,,,2044498,https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKSOQ3VBuL7TbjH79a4lLu6l,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Admin Assistant,Ballymena,County Antrim,Apple Recruitment,12.75 | 12.75 | Hourly,,,2044321,https://www.jobg8.com/Traffic.aspx?wTAUM266l6dbXUCMXQOEhbjv4AWusrAmh,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Information & Records Administrator,Ballymena,County Antrim,First Choice Selection Services,12.75 | 12.75 | Hourly,,,2044222,https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwtM08aTnFvYhmwPS6NPdGcv,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Band 3 Finance Admin Downpatrick ( Temp),Downpatrick,County Down,Honeycomb Jobs Ltd,12.75 | 12.75 | Hourly,,,2044151,https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2b16YLfUeG8e3RXlQYhGW8wc,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Office Co-Ordinator & Receptionist,Newtownards,County Down,Keenan Recruitment,Annual,,,2044104,https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VJ7EckAI8leYXLdJn1omOYOw,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Scientific Officer,Lisburn,County Antrim,The Recruitment Co.,17.43 | 17.43 | Hourly,,,2043949,https://www.jobg8.com/Traffic.aspx?6WDmO0cNttrXEl43gYFGG5SBTWRyzWjta,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Administrative Assistant,Newry,County Down,Platinum Recruitment,14.52 | 14.52 | Hourly,,,2043910,https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLHrAJ9Fs5ZbNPUPAL%2bOdUCw,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Customer Support Administrator (1- Year Contract),Newtownabbey,County Antrim,Honeycomb Jobs Ltd,Annual,,,2043815,https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3VrLlT6HmmBEiCQ5vgghm5u,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Sales Administrator,Ballymena,County Antrim,First Choice Selection Services,Annual,,,2045245,https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fw3VnYKScko7uLTWhXqKI6c,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Executive Assistant,Lisburn,County Antrim,Reed Specialist Recruitment,32000.0 | 35000.0 | Annual,,,2045244,https://www.jobg8.com/Traffic.aspx?aziU08XVyRHzFXJ8ccUmSJYtXtVDO%2fasd,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Band 3 Higher Clerical Officer with typing duties,Lisburn,County Antrim,Hays,12.75 | 12.75 | Hourly,,,2045180,https://www.jobg8.com/Traffic.aspx?Yic9job4bS9PjMNcqOAVtxKJsblccgunc,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Band 3 Administrator temp full time,Lisburn,County Antrim,Honeycomb Jobs Ltd,12.75 | 12.75 | Hourly,,,2045155,https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVYUuGgWGWPA2Cm8WaWtN1l%2fj,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Higher Clerical Officer,Lisburn,County Antrim,The Recruitment Co.,12.75 | 12.75 | Hourly,,,2045151,https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgra0szmfgAvSnQugUQZgA5On,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Advocate,Barnet,London,Norwood,"34000.0 | 38000.0 | Annual | (pro rata to, £20,400 - £22,800)",,,328136,https://www.jobg8.com/Traffic.aspx?wTAUM266l6cR3boAhkT5HJpdlP7fpnDNh,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Band 2 Administrator Lisburn( Temp full time),Lisburn,County Antrim,Honeycomb Jobs Ltd,12.71 | 12.71 | Hourly,,,2045364,https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaw3Hx9jf2eRkuvD19cditFgb,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Payroll Administrator / Payroll Officer,City Of Westminster,London,IPSA,34100.0 | 35055.0 | Annual | + Benefits,,,1164743 [JSP51552],https://www.jobg8.com/ATSApply.aspx?kjuUUj3TFp6iHIVIPls7jAgkpJG1CJV0g,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,HR Administrator (Temp),Antrim,County Antrim,Honeycomb Jobs Ltd,13.0 | 13.0 | Hourly,,,2045442,https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7%2ff6xPiaMleMTPurfEHvoGz,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Northern Ireland - East,Northern Ireland - East,area_town,Technical FS Administrator / Paraplanner,Newtownards,County Down,McKinty Associates,Annual,,,2045396,https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsRyKHLRPWpPXb109juAtF81m,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Welfare and Income Assistant,Croydon,Surrey,ccha,Annual | not provided,,,107609157,https://www.jobg8.com/Traffic.aspx?6WDmO0cNttqZNW%2bXT%2f%2f2ZEEg1bojQ%2fe3a,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Assistant Philanthropy & Partnerships Officer (Fundraising),Southampton,Hampshire,Wildlife Trust Hampshire,26000.0 | 26000.0 | Annual,,,107574787,https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyY4xcZhxBPeF%2f1WJK3bZxDf,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Surrey,Surrey,area_town,Housing & Support Officer,Farnham,Surrey,Transform Housing Group,28000.0 | 28000.0 | Annual,,,107631782,https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4GxcEg%2fZMS6VaFHa0IjZB2q,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Surrey,Surrey,area_town,Clinical Team Leader (RMN/RNLD),Woking,Surrey,Cygnet Healthcare,25.7 | 25.7 | Hourly,,,fe767858-0f4e-4e78-ad0a-affa8aa23ef3,https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fKNoEO6CIT6UHqTwX4rgBrc,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Optometrist,Fleet,Hampshire,Specsavers,70000.0 | 70000.0 | Annual,,,fbf9feca-d2f6-4a37-9a70-7b0b13873ac4,https://www.jobg8.com/Traffic.aspx?aziU08XVyREQOH%2b1Rzp6pfGLWklQ6Jn3d,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Audiology Partner,Harrow,Middlesex,Specsavers,Annual,,,d8c795e5-bc77-49e4-9f80-73cf2a98d8d0,https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYMudlQ19WtnUYG8W5Ad61jk,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,Patient Dining Supervisor,Barnet,London,Compass UK & Ireland,14.06 | 14.06 | Hourly,,,107591410,https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5Q4I%2fkZRyd7ukAzhQjIC1xz,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Reward Administrator,Fareham,Hampshire,Specsavers,32000.0 | 32000.0 | Annual,,,f0e0b646-07e7-4d6d-bbcd-d74823f7446e,https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLDbv0SJt2OXKrMBz6SuXYrw,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,Hampshire,Hampshire,area_town,Pharmacist,Farnborough,Hampshire,ASDA,Annual,,,ec8170a8-503c-4d23-8b9a-d4fbb169d7b8,https://www.jobg8.com/Traffic.aspx?aziU08XVyRH1naWpKUujQAp2dXukzdwzd,admin high-confidence title,HIGH_CONFIDENCE
-REVIEW_CANDIDATE,London,London,area_town,School Administrator,Romford,Essex,Remedy Recruitment Group,Annual,,,881b6f20-32fe-4d0c-be91-bcc368aed973,https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VI1ECZJb6Ei4rlJnrDS4ks9w,admin high-confidence title,HIGH_CONFIDENCE
+decision,region,title,town,salary_text,manual_override,manual_select,job_id,geo_lookup_source
+review,Hampshire,Administrator / SEN Administrator (SEND Support),Southampton,24000.0 | 24000.0 | Annual,,,107546331,area_town
+review,London,Logisitics Administrator,Loughton,30000.0 | 35000.0 | Annual,,,494d9e2f-3e44-4bcc-a85f-e92a085a5e77,area_town
+review,Hampshire,Finance and Operations Assistant,Farnborough,Annual,,,25a0c4b7-190c-41e3-a023-5e6998c11bc9,area_town
+review,London,Finance Administrator,Orpington,25000.0 | 30000.0 | Annual,,,1f0da1c5-dc31-4a4f-9611-b92fcd6a0d8e,area_town
+review,London,Estate Administration Legal Assistant,Orpington,30000.0 | 30000.0 | Annual,,,107514507,area_town
+review,Hampshire,German Speaking Administrator,Fareham,28000.0 | 31000.0 | Annual,,,cae50eca-4516-4796-b1ed-5bc6de72a34a,area_town
+review,London,Project Administrator,Beckenham,27000.0 | 28000.0 | Annual,,,b92bc3e6-ace8-425c-8e68-37520e628642,area_town
+review,Hampshire,Senior Windows Server Administrator,Southampton,50000.0 | 70000.0 | Annual,,,edfb6bfb-1af8-4aa8-bf4e-faad98367d1e,area_town
+review,Hampshire,Italian speaking Administrator,Fareham,28000.0 | 31000.0 | Annual,,,bc4834aa-75a5-4e16-9fe2-24c4e3e865e1,area_town
+review,London,Credit Administrator,Harrow,29000.0 | 29000.0 | Annual,,,33eab37d-af87-4704-9471-df90f5cef85c,area_town
+review,Hampshire,Accounts Administrator,Southampton,15.0 | 15.0 | Hourly,,,43fee591-7b5c-4468-ad51-16ca088a4e5b,area_town
+review,London,Optical Assistant job in Bexleyheath,Bexleyheath,Annual | £28k per year,,,1402261326,area_town
+review,Northern Ireland - East,Medical Receptionist/ Administrator (14.5 hrs pw),Newtownabbey,13.0 | 13.0 | Hourly,,,2045110,area_town
+review,Northern Ireland - East,Clerical Officer/Ward Clerk,Dundonald,12.71 | 12.71 | Hourly,,,2044985,area_town
+review,Northern Ireland - East,Executive Assistant,Lisburn,Annual,,,2044815,area_town
+review,Northern Ireland - East,Administrative Assistant,Antrim,Annual,,,2044757,area_town
+review,Northern Ireland - East,Information Assistant,Ballymena,12.75 | 12.75 | Hourly,,,2044778,area_town
+review,Northern Ireland - East,Ward Clerk - Ulster Hospital,Dundonald,12.71 | 12.71 | Hourly,,,2044681,area_town
+review,Northern Ireland - East,Customs and Procurement Administrator,Newtownards,30000.0 | 35000.0 | Annual,,,2044550,area_town
+review,Northern Ireland - East,Clerical Officer,Newry,13.05 | 13.05 | Hourly,,,2044498,area_town
+review,Northern Ireland - East,Admin Assistant,Ballymena,12.75 | 12.75 | Hourly,,,2044321,area_town
+review,Northern Ireland - East,Information & Records Administrator,Ballymena,12.75 | 12.75 | Hourly,,,2044222,area_town
+review,Northern Ireland - East,Band 3 Finance Admin Downpatrick ( Temp),Downpatrick,12.75 | 12.75 | Hourly,,,2044151,area_town
+review,Northern Ireland - East,Office Co-Ordinator & Receptionist,Newtownards,Annual,,,2044104,area_town
+review,Northern Ireland - East,Scientific Officer,Lisburn,17.43 | 17.43 | Hourly,,,2043949,area_town
+review,Northern Ireland - East,Administrative Assistant,Newry,14.52 | 14.52 | Hourly,,,2043910,area_town
+review,Northern Ireland - East,Customer Support Administrator (1- Year Contract),Newtownabbey,Annual,,,2043815,area_town
+review,Northern Ireland - East,Sales Administrator,Ballymena,Annual,,,2045245,area_town
+review,Northern Ireland - East,Executive Assistant,Lisburn,32000.0 | 35000.0 | Annual,,,2045244,area_town
+review,Northern Ireland - East,Band 3 Higher Clerical Officer with typing duties,Lisburn,12.75 | 12.75 | Hourly,,,2045180,area_town
+review,Northern Ireland - East,Band 3 Administrator temp full time,Lisburn,12.75 | 12.75 | Hourly,,,2045155,area_town
+review,Northern Ireland - East,Higher Clerical Officer,Lisburn,12.75 | 12.75 | Hourly,,,2045151,area_town
+review,London,Advocate,Barnet,"34000.0 | 38000.0 | Annual | (pro rata to, £20,400 - £22,800)",,,328136,area_town
+review,Northern Ireland - East,Band 2 Administrator Lisburn( Temp full time),Lisburn,12.71 | 12.71 | Hourly,,,2045364,area_town
+review,London,Payroll Administrator / Payroll Officer,City Of Westminster,34100.0 | 35055.0 | Annual | + Benefits,,,1164743 [JSP51552],area_town
+review,Northern Ireland - East,HR Administrator (Temp),Antrim,13.0 | 13.0 | Hourly,,,2045442,area_town
+review,Northern Ireland - East,Technical FS Administrator / Paraplanner,Newtownards,Annual,,,2045396,area_town
+review,London,Welfare and Income Assistant,Croydon,Annual | not provided,,,107609157,area_town
+review,Hampshire,Assistant Philanthropy & Partnerships Officer (Fundraising),Southampton,26000.0 | 26000.0 | Annual,,,107574787,area_town
+review,Surrey,Housing & Support Officer,Farnham,28000.0 | 28000.0 | Annual,,,107631782,area_town
+review,Surrey,Clinical Team Leader (RMN/RNLD),Woking,25.7 | 25.7 | Hourly,,,fe767858-0f4e-4e78-ad0a-affa8aa23ef3,area_town
+review,Hampshire,Optometrist,Fleet,70000.0 | 70000.0 | Annual,,,fbf9feca-d2f6-4a37-9a70-7b0b13873ac4,area_town
+review,London,Audiology Partner,Harrow,Annual,,,d8c795e5-bc77-49e4-9f80-73cf2a98d8d0,area_town
+review,London,Patient Dining Supervisor,Barnet,14.06 | 14.06 | Hourly,,,107591410,area_town
+review,Hampshire,Reward Administrator,Fareham,32000.0 | 32000.0 | Annual,,,f0e0b646-07e7-4d6d-bbcd-d74823f7446e,area_town
+review,Hampshire,Pharmacist,Farnborough,Annual,,,ec8170a8-503c-4d23-8b9a-d4fbb169d7b8,area_town
+review,London,School Administrator,Romford,Annual,,,881b6f20-32fe-4d0c-be91-bcc368aed973,area_town
