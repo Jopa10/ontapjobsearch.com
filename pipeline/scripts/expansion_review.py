@@ -1,4 +1,6 @@
 from pathlib import Path
+from html import unescape
+import re
 import pandas as pd
 
 OUT = Path('pipeline/manual-expansion')
@@ -14,7 +16,8 @@ SUPPORT_INCLUDE = ['support worker','support workers','care assistant','care wor
 SUPPORT_EXCLUDE = ['senior','lead','team leader','deputy','manager','coordinator','officer','housing','homeless','tenancy','driver','transport','school','sen ','send','semh','teacher','teaching','nurse','therapist','social worker','counsellor','admin','administrator','administration','business support','sales support','it support','project support']
 NI_TERMS = ['belfast', 'londonderry', 'derry', 'county londonderry', 'northern ireland']
 
-CSV_COLUMNS = ['decision', 'region', 'title', 'town', 'salary_text', 'manual_override', 'manual_select', 'job_id', 'geo_lookup_source']
+# Match production manual review CSV fieldnames exactly.
+CSV_COLUMNS = ['decision', 'region', 'title', 'town', 'salary_text', 'manual_override', 'manual_select', 'job_id']
 
 
 def clean(v):
@@ -32,13 +35,74 @@ def has_any(text, terms):
     return any(term in t for term in terms)
 
 
+def format_number(value):
+    raw = clean(value)
+    if raw == '':
+        return ''
+    try:
+        number = float(raw)
+    except ValueError:
+        return raw
+    if number.is_integer():
+        return str(int(number))
+    return str(number).rstrip('0').rstrip('.')
+
+
+def normalise_salary_period(row):
+    period = low(row.get('/Job/SalaryPeriod', ''))
+    nums = []
+    for col in ['/Job/SalaryMinimum', '/Job/SalaryMaximum']:
+        raw = clean(row.get(col, ''))
+        if raw:
+            try:
+                nums.append(float(raw))
+            except ValueError:
+                pass
+    max_num = max(nums) if nums else None
+    if period in {'annual', 'year', 'yearly', 'annum'} and max_num is not None and max_num < 1000:
+        return 'hourly'
+    return period
+
+
+def clean_salary_additional(value):
+    raw = clean(value)
+    if not raw:
+        return ''
+    text = unescape(raw).replace('\u00a0', ' ')
+    text = re.sub(r'\s+', ' ', text).strip()
+    text = text.strip(' -–—,;')
+    if not text or text.lower() == 'not provided':
+        return ''
+    if any(marker in text for marker in ['Â', 'Ã', 'â', '�', '¢']):
+        return ''
+    return text
+
+
 def salary(row):
-    parts = []
-    for col in ['/Job/SalaryMinimum','/Job/SalaryMaximum','/Job/SalaryPeriod','/Job/SalaryAdditional']:
-        val = clean(row.get(col, ''))
-        if val:
-            parts.append(val)
-    return ' | '.join(parts)
+    mn = format_number(row.get('/Job/SalaryMinimum', ''))
+    mx = format_number(row.get('/Job/SalaryMaximum', ''))
+    period = normalise_salary_period(row)
+    additional = clean_salary_additional(row.get('/Job/SalaryAdditional', ''))
+
+    if not mn and not mx:
+        return additional
+
+    period_text = ''
+    if period in {'annual', 'year', 'yearly', 'annum'}:
+        period_text = ' per year'
+    elif period in {'hourly', 'hour', 'hr'}:
+        period_text = ' per hour'
+    elif period:
+        period_text = f' per {period}'
+
+    if mn and mx and mn != mx:
+        base = f'£{mn} - £{mx}{period_text}'
+    else:
+        base = f'£{mn or mx}{period_text}'
+
+    if additional:
+        return f'{base} ({additional})'
+    return base
 
 
 def classify(title, desc, kind):
@@ -82,7 +146,7 @@ def build(kind, slices, jobs, geo_map):
     for _, row in jobs.iterrows():
         town = clean(row['/Job/Area'])
         job_location = clean(row['/Job/Location'])
-        cluster, geo_source = resolve_cluster(town, job_location, geo_map)
+        cluster, _geo_source = resolve_cluster(town, job_location, geo_map)
         title = clean(row['/Job/Position'])
         desc = clean(row.get('/Job/Description', ''))
         cls = classify(title, desc, kind)
@@ -94,7 +158,7 @@ def build(kind, slices, jobs, geo_map):
             if cluster != target:
                 continue
             rows.append({
-                'decision': 'review',
+                'decision': 'REVIEW',
                 'region': target,
                 'title': title,
                 'town': town,
@@ -102,7 +166,6 @@ def build(kind, slices, jobs, geo_map):
                 'manual_override': '',
                 'manual_select': '',
                 'job_id': clean(row.get('/Job/DisplayReference', '')),
-                'geo_lookup_source': geo_source,
             })
     return pd.DataFrame(rows, columns=CSV_COLUMNS)
 
@@ -124,8 +187,8 @@ def write_md(df, path, heading):
 
 
 def write_outputs(admin, support):
-    admin.to_csv(OUT / 'service-admin-expansion-review.csv', index=False)
-    support.to_csv(OUT / 'support-worker-expansion-review.csv', index=False)
+    admin.to_csv(OUT / 'service-admin-expansion-review.csv', index=False, encoding='utf-8-sig')
+    support.to_csv(OUT / 'support-worker-expansion-review.csv', index=False, encoding='utf-8-sig')
     write_md(admin, OUT / 'service-admin-expansion-review.md', 'Admin/service expansion review')
     write_md(support, OUT / 'support-worker-expansion-review.md', 'Support-worker expansion review')
 
@@ -134,7 +197,7 @@ def log_summary(admin, support):
     log = [
         'Expansion manual review run',
         'Geo rule: /Job/Area primary town key, /Job/Location fallback.',
-        'CSV format: decision, region, title, town, salary_text, manual_override, manual_select, job_id, geo_lookup_source.',
+        'CSV format matches production manual review exactly: decision, region, title, town, salary_text, manual_override, manual_select, job_id.',
         'Outputs written only under pipeline/manual-expansion/',
         'No live JSONs changed.',
         'No daily manual review CSV/MD files changed.',
@@ -144,9 +207,7 @@ def log_summary(admin, support):
         log.append(f'{name} total rows: {len(df)}')
         if not df.empty:
             for region, group in df.groupby('region', sort=False):
-                area_town = int((group['geo_lookup_source'] == 'area_town').sum())
-                fallback = int((group['geo_lookup_source'] == 'location_fallback').sum())
-                log.append(f'{name} {region}: rows={len(group)}, area_town_lookup={area_town}, location_fallback={fallback}')
+                log.append(f'{name} {region}: rows={len(group)}')
     ni_london = 0
     if not admin.empty:
         london = admin[admin['region'] == 'London']
