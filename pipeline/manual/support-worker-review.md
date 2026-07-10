@@ -45,6 +45,12 @@ SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
 job_id: 107465221
 ---
 
+---
+action:
+SELECTED | West Yorkshire | Holmfirth | £27394 per year | Complex care assistant
+job_id: 107651994
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -57,6 +63,12 @@ SELECTED | South Yorkshire | Sheffield | £92.63 - £100 per daily | Behaviour S
 job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 ---
 
+---
+action:
+SELECTED | South Yorkshire | Sheffield | £12.75 - £17 per hour | Health care assistant - Sheffield
+job_id: c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -67,12 +79,6 @@ _No jobs in this group._
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £13.75 per hour | Bank Night Support Worker
 job_id: 1401783067
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £13.75 per hour | Bank Support Worker
-job_id: 1401783008
 ---
 
 ---
@@ -91,18 +97,6 @@ job_id: 107617093
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
 job_id: 107616541
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £15 per hour | Male Support Worker
-job_id: f8a9a12f-ecca-46bd-9b89-5bd763bb3157
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
-job_id: 107652261
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -135,7 +129,11 @@ _No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Ferryhill | £15 per hour | Female Support Worker
+job_id: 107656064
+---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
 
