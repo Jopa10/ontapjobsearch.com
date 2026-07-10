@@ -54,7 +54,7 @@ job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £20000 - £25000 per year | Legal Secretary
 job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
 ---
