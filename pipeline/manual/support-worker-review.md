@@ -135,6 +135,18 @@ POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County 
 job_id: 107656064
 ---
 
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
+job_id: 107658956
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
+job_id: 107501464
+---
+
 ## NORTH EAST - TEES VALLEY — POSSIBLES
 
 ---

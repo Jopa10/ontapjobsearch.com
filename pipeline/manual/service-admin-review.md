@@ -17,12 +17,6 @@ job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
 
 ---
 action: select
-SELECTED | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
-job_id: 107457208
----
-
----
-action: select
 SELECTED | West Yorkshire | Leeds | £30000 - £32000 per year | Export Administrator
 job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 ---
@@ -41,14 +35,20 @@ job_id: fab18477-c03a-4672-bb39-d871d89a546c
 
 ---
 action: select
-SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
-job_id: 107506827
+SELECTED | West Yorkshire | Bradford | £20000 - £25000 per year | Legal Secretary
+job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
 ---
 
 ---
 action: select
-SELECTED | West Yorkshire | Bradford | £20000 - £25000 per year | Legal Secretary
-job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
+SELECTED | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
+job_id: 107457208
+---
+
+---
+action: select
+SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
+job_id: 107506827
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -57,6 +57,12 @@ job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
 action:
 POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
 job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Pontefract |  | Optical Receptionist
+job_id: 107647257
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -85,12 +91,6 @@ SELECTED | South Yorkshire | Barnsley | £26000 per year | Recruitment Onsite Op
 job_id: 107606837
 ---
 
----
-action: select
-SELECTED | South Yorkshire | Sheffield | £28000 per year | Administrator - ERP Systems
-job_id: 107651257
----
-
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -101,8 +101,26 @@ job_id: bd1d91d2-2e07-40a8-9078-33295fc0d5c0
 
 ---
 action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Doncaster | £12.71 - £14 per hour | Legal Secretary
+job_id: 9b5eeb38-4b88-44aa-880e-fed4e5403ace
+---
+
+---
+action:
 POSS - SOUTH YORKSHIRE | South Yorkshire | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
 job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £40000 per year | Health Hub Coordinator
+job_id: 107667796
+---
+
+---
+action:
+POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £30000 per year | Workplace Operations Coordinator
+job_id: 107668923
 ---
 
 ## NORTH EAST — SELECTED
@@ -123,12 +141,6 @@ job_id: 107595243
 action:
 SELECTED | North East | Darlington | £26000 per year | HR Administrator
 job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
----
-
----
-action:
-SELECTED | North East | Middlesbrough | £12.71 per hour | Administrative Assistant
-job_id: 107463587
 ---
 
 ## NORTH EAST — POSSIBLES
