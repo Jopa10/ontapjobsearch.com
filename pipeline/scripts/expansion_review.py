@@ -175,6 +175,17 @@ def build(kind, slices, jobs, geo_map):
     return pd.DataFrame(rows, columns=CSV_COLUMNS)
 
 
+def sort_reviews(df):
+    """Keep review outputs grouped by region in case-insensitive alphabetical order."""
+    if df.empty:
+        return df
+    return df.sort_values(
+        by=['region'],
+        key=lambda values: values.astype(str).str.casefold(),
+        kind='stable',
+    ).reset_index(drop=True)
+
+
 def write_md(df, path, heading):
     lines = [f'# {heading}', '', 'Generated on test branch only. No live JSONs or daily manual review files are changed.', '']
     if df.empty:
@@ -232,8 +243,8 @@ def main():
     if missing:
         raise SystemExit(f'Missing JobG8 columns: {missing}')
     geo_map = load_geo()
-    admin = build('admin', ADMIN_SLICES, jobs, geo_map)
-    support = build('support', SUPPORT_SLICES, jobs, geo_map)
+    admin = sort_reviews(build('admin', ADMIN_SLICES, jobs, geo_map))
+    support = sort_reviews(build('support', SUPPORT_SLICES, jobs, geo_map))
     write_outputs(admin, support)
     log_summary(admin, support)
 
