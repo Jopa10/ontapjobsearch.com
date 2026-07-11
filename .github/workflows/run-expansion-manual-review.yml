@@ -16,6 +16,10 @@ on:
       - 'pipeline/input/jobg8.xlsx'
       - 'pipeline/geo/geo_lookup.xlsx'
 
+concurrency:
+  group: expansion-manual-review-${{ github.event.inputs.target_branch || github.ref_name }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -57,6 +61,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          TARGET_BRANCH="${{ github.event.inputs.target_branch || github.ref_name }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add pipeline/manual-expansion/service-admin-expansion-review.csv \
@@ -68,5 +73,6 @@ jobs:
             echo "No expansion review output changes to commit."
           else
             git commit -m "Add expansion manual review outputs"
-            git push origin HEAD:${{ github.event.inputs.target_branch || github.ref_name }}
+            git pull --rebase origin "$TARGET_BRANCH"
+            git push origin HEAD:"$TARGET_BRANCH"
           fi
