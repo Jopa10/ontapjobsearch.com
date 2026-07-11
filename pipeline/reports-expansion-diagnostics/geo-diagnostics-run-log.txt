@@ -1,10 +1,10 @@
 Expansion geo diagnostics run
 Branch/ref: test-9-expansion-clean-geo-diagnostics
 Compared branch pipeline/geo/geo_lookup.xlsx against origin/main:pipeline/geo/geo_lookup.xlsx
-Current JobG8 rows: 2100
-Rows with changed cluster: 78
+Current JobG8 rows: 2293
+Rows with changed cluster: 24
 Rows with changed daily publish region: 0
-Specific-term rows checked: 78
+Specific-term rows checked: 24
 Specific terms: London, Belfast, Londonderry, Derry, County Londonderry, City, City of London, City Of London, Sydenham
 service-admin manual rows: 15; impacted: 0; moved region: 0
 support-worker manual rows: 18; impacted: 0; moved region: 0
