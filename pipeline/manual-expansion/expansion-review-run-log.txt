@@ -11,9 +11,9 @@ admin/service Hampshire: rows=11
 admin/service London: rows=11
 admin/service Surrey: rows=5
 support-worker total rows: 34
-support-worker Hampshire: rows=6
-support-worker Cumbria - South: rows=8
-support-worker Lancashire - North: rows=5
 support-worker Cumbria - North: rows=7
+support-worker Cumbria - South: rows=8
+support-worker Hampshire: rows=6
+support-worker Lancashire - North: rows=5
 support-worker Sussex: rows=8
 London admin/service NI/Derry/Belfast wrong-region rows: 0

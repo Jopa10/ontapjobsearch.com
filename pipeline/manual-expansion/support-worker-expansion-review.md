@@ -2,18 +2,19 @@
 
 Generated on test branch only. No live JSONs or daily manual review files are changed.
 
-## Hampshire
+## Cumbria - North
 
-Rows: 6
+Rows: 7
 
 | decision | region | title | town | salary_text | manual_override | manual_select | job_id |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| POSS - HAMPSHIRE | Hampshire | Specialist Care Support Worker | Winchester | £13 - £14.75 per hour (+ Paid training and Birthday Day Off) |  |  | 107494562 |
-| POSS - HAMPSHIRE | Hampshire | Childrens Residential Support Worker | Aldershot | £12.75 per hour |  |  | 107318709 |
-| POSS - HAMPSHIRE | Hampshire | Domiciliary Care Assistant | Andover | £13 - £15 per hour (Salary Dependent on experience) |  |  | 107404020 |
-| POSS - HAMPSHIRE | Hampshire | Secure Children's Home Support Worker | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) |  |  | 1401783548 |
-| POSS - HAMPSHIRE | Hampshire | Support Worker Female | Eastleigh | £13.26 per hour |  |  | 107650752 |
-| POSS - HAMPSHIRE | Hampshire | Support Worker | Eastleigh | £13.26 per hour |  |  | 107650810 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Residential Child Care Worker | Carlisle | £16000 per year |  |  | 107619106 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Complex care assistant | Carlisle | £29350 per year |  |  | 107554540 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Residential Child Care Worker (Sessional/Casual) | Brampton | £13.23 per hour |  |  | 107650149 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Residential Child Care Worker (Sessional/Casual) | Carlisle | £13.23 per hour |  |  | 107650177 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Childrens Residential Support Worker (Bank) | Penrith | £16000 per year |  |  | 107656581 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Childrens Residential Support Worker | Carlisle | £30000 per year |  |  | 107656594 |
+| POSS - CUMBRIA - NORTH | Cumbria - North | Childrens Residential Support Worker | Penrith | £30000 per year |  |  | 107658862 |
 
 ## Cumbria - South
 
@@ -30,6 +31,19 @@ Rows: 8
 | POSS - CUMBRIA - SOUTH | Cumbria - South | Childrens Residential Support Worker (Bank) | Kirkby Stephen | £16000 per year |  |  | 107656580 |
 | POSS - CUMBRIA - SOUTH | Cumbria - South | Childrens Residential Support Worker | Kirkby Stephen | £30000 per year |  |  | 107658864 |
 
+## Hampshire
+
+Rows: 6
+
+| decision | region | title | town | salary_text | manual_override | manual_select | job_id |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| POSS - HAMPSHIRE | Hampshire | Specialist Care Support Worker | Winchester | £13 - £14.75 per hour (+ Paid training and Birthday Day Off) |  |  | 107494562 |
+| POSS - HAMPSHIRE | Hampshire | Childrens Residential Support Worker | Aldershot | £12.75 per hour |  |  | 107318709 |
+| POSS - HAMPSHIRE | Hampshire | Domiciliary Care Assistant | Andover | £13 - £15 per hour (Salary Dependent on experience) |  |  | 107404020 |
+| POSS - HAMPSHIRE | Hampshire | Secure Children's Home Support Worker | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) |  |  | 1401783548 |
+| POSS - HAMPSHIRE | Hampshire | Support Worker Female | Eastleigh | £13.26 per hour |  |  | 107650752 |
+| POSS - HAMPSHIRE | Hampshire | Support Worker | Eastleigh | £13.26 per hour |  |  | 107650810 |
+
 ## Lancashire - North
 
 Rows: 5
@@ -41,20 +55,6 @@ Rows: 5
 | POSS - LANCASHIRE - NORTH | Lancashire - North | Female Support Worker (Maternity Cover) | Morecambe | £12.85 per hour |  |  | 107597165 |
 | POSS - LANCASHIRE - NORTH | Lancashire - North | Residential Childcare Support Worker (Sessional/Casual) | Carnforth | £12.79 per hour |  |  | 107650187 |
 | POSS - LANCASHIRE - NORTH | Lancashire - North | Residential Childcare Support Worker | Carnforth | £30000 per year |  |  | 107655681 |
-
-## Cumbria - North
-
-Rows: 7
-
-| decision | region | title | town | salary_text | manual_override | manual_select | job_id |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Residential Child Care Worker | Carlisle | £16000 per year |  |  | 107619106 |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Complex care assistant | Carlisle | £29350 per year |  |  | 107554540 |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Residential Child Care Worker (Sessional/Casual) | Brampton | £13.23 per hour |  |  | 107650149 |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Residential Child Care Worker (Sessional/Casual) | Carlisle | £13.23 per hour |  |  | 107650177 |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Childrens Residential Support Worker (Bank) | Penrith | £16000 per year |  |  | 107656581 |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Childrens Residential Support Worker | Carlisle | £30000 per year |  |  | 107656594 |
-| POSS - CUMBRIA - NORTH | Cumbria - North | Childrens Residential Support Worker | Penrith | £30000 per year |  |  | 107658862 |
 
 ## Sussex
 
