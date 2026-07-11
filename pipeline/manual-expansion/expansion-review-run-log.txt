@@ -6,15 +6,14 @@ Outputs written only under pipeline/manual-expansion/
 No live JSONs changed.
 No daily manual review CSV/MD files changed.
 No merge to main performed.
-admin/service total rows: 47
-admin/service Hampshire: rows=10
-admin/service London: rows=12
-admin/service Northern Ireland - East: rows=23
-admin/service Surrey: rows=2
-support-worker total rows: 37
-support-worker Sussex: rows=10
-support-worker Hampshire: rows=9
-support-worker Lancashire - North: rows=7
-support-worker Cumbria - South: rows=6
-support-worker Cumbria - North: rows=5
+admin/service total rows: 27
+admin/service Hampshire: rows=11
+admin/service London: rows=11
+admin/service Surrey: rows=5
+support-worker total rows: 34
+support-worker Hampshire: rows=6
+support-worker Cumbria - South: rows=8
+support-worker Lancashire - North: rows=5
+support-worker Cumbria - North: rows=7
+support-worker Sussex: rows=8
 London admin/service NI/Derry/Belfast wrong-region rows: 0
