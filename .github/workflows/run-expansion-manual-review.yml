@@ -41,8 +41,78 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas openpyxl
 
+      - name: Save existing expansion manual decisions
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in \
+            service-admin-expansion-review.csv \
+            support-worker-expansion-review.csv
+          do
+            if [ -f "pipeline/manual-expansion/$file" ]; then
+              cp "pipeline/manual-expansion/$file" "/tmp/previous-$file"
+            fi
+          done
+
       - name: Generate expansion manual reviews
         run: PYTHONDONTWRITEBYTECODE=1 python -m pipeline.scripts.expansion_review
+
+      - name: Restore expansion manual decisions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd
+          from pipeline.scripts import expansion_review as review
+
+          output_dir = Path('pipeline/manual-expansion')
+          columns = review.CSV_COLUMNS
+
+          def restore(filename):
+              current_path = output_dir / filename
+              previous_path = Path('/tmp') / f'previous-{filename}'
+              current = pd.read_csv(current_path, dtype=str, keep_default_na=False)
+
+              if previous_path.exists():
+                  previous = pd.read_csv(previous_path, dtype=str, keep_default_na=False)
+                  required = {'region', 'job_id', 'manual_override', 'manual_select'}
+                  if required.issubset(previous.columns):
+                      saved = {
+                          (str(row['region']).strip(), str(row['job_id']).strip()): (
+                              str(row['manual_override']).strip(),
+                              str(row['manual_select']).strip(),
+                          )
+                          for _, row in previous.iterrows()
+                      }
+                      for index, row in current.iterrows():
+                          key = (str(row['region']).strip(), str(row['job_id']).strip())
+                          if key not in saved:
+                              continue
+                          manual_override, manual_select = saved[key]
+                          current.at[index, 'manual_override'] = manual_override
+                          current.at[index, 'manual_select'] = manual_select
+                          if manual_select.casefold() == 'select':
+                              current.at[index, 'decision'] = 'SELECTED'
+
+              current = review.sort_reviews(current[columns])
+              current.to_csv(current_path, index=False, encoding='utf-8-sig')
+              return current
+
+          admin = restore('service-admin-expansion-review.csv')
+          support = restore('support-worker-expansion-review.csv')
+          review.write_md(
+              admin,
+              output_dir / 'service-admin-expansion-review.md',
+              'Admin/service expansion review',
+          )
+          review.write_md(
+              support,
+              output_dir / 'support-worker-expansion-review.md',
+              'Support-worker expansion review',
+          )
+          review.log_summary(admin, support)
+          PY
 
       - name: Confirm protected daily files unchanged
         shell: bash
