@@ -1,0 +1,69 @@
+name: Expansion Manual Review
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: Branch to run expansion review on
+        required: true
+        default: test-9-expansion-clean-geo-diagnostics
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expansion-manual-review-${{ github.event.inputs.target_branch }}
+  cancel-in-progress: true
+
+jobs:
+  expansion-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.target_branch }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Generate expansion manual reviews
+        run: PYTHONDONTWRITEBYTECODE=1 python -m pipeline.scripts.expansion_review
+
+      - name: Confirm protected live/daily files unchanged
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --exit-code -- \
+            pipeline/manual/service-admin-review.csv \
+            pipeline/manual/service-admin-review.md \
+            pipeline/manual/support-worker-review.csv \
+            pipeline/manual/support-worker-review.md \
+            pipeline/output-admin-service \
+            pipeline/output-support-worker \
+            app
+
+      - name: Commit expansion review outputs to target branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/manual-expansion/service-admin-expansion-review.csv \
+                  pipeline/manual-expansion/service-admin-expansion-review.md \
+                  pipeline/manual-expansion/support-worker-expansion-review.csv \
+                  pipeline/manual-expansion/support-worker-expansion-review.md \
+                  pipeline/manual-expansion/expansion-review-run-log.txt
+          if git diff --cached --quiet; then
+            echo "No expansion review output changes to commit."
+          else
+            git commit -m "Add expansion manual review outputs"
+            git pull --rebase origin "${{ github.event.inputs.target_branch }}"
+            git push origin HEAD:"${{ github.event.inputs.target_branch }}"
+          fi
