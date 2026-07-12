@@ -29,14 +29,14 @@ job_id: 107532972
 
 ---
 action:
-SELECTED | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107616819
+SELECTED | West Yorkshire | Holmfirth | £13.75 per hour | Bank Support Worker
+job_id: 1401783630
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Holmfirth | £13.75 per hour | Bank Support Worker
-job_id: 1401783630
+SELECTED | West Yorkshire | Holmfirth | £27394 per year | Complex care assistant
+job_id: 107651994
 ---
 
 ---
@@ -47,8 +47,8 @@ job_id: 107465221
 
 ---
 action:
-SELECTED | West Yorkshire | Holmfirth | £27394 per year | Complex care assistant
-job_id: 107651994
+SELECTED | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107616819
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -125,7 +125,17 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
+job_id: 107652261
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Hexham | £30000 per year | Childrens Residential Support Worker
+job_id: 107658860
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
@@ -137,14 +147,14 @@ job_id: 107656064
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
-job_id: 107658956
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
+job_id: 107501464
 ---
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
-job_id: 107501464
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107636018
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES

@@ -61,8 +61,8 @@ job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Pontefract |  | Optical Receptionist
-job_id: 107647257
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
+job_id: 107586970
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
