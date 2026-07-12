@@ -60,7 +60,7 @@ job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
 ---
 
 ---
-action:
+action: select
 POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
 job_id: 107586970
 ---
@@ -100,7 +100,7 @@ job_id: bd1d91d2-2e07-40a8-9078-33295fc0d5c0
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Doncaster | £12.71 - £14 per hour | Legal Secretary
 job_id: 9b5eeb38-4b88-44aa-880e-fed4e5403ace
 ---
@@ -118,7 +118,7 @@ job_id: 107667796
 ---
 
 ---
-action:
+action: select
 POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £30000 per year | Workplace Operations Coordinator
 job_id: 107668923
 ---
