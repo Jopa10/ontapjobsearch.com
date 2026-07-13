@@ -85,6 +85,17 @@ jobs:
               raise SystemExit(f"Expected at least one old identifier in {test_path}: {test_counts}")
           for old, new in replacements.items():
               test_text = test_text.replace(old, new)
+
+          marker = 'service_admin = load_script("service_admin_pipeline")\n'
+          fixture = (
+              marker
+              + '\n'
+              + 'support_worker.ANCHOR_TOWNS = {"Yorkshire - West": "Leeds"}\n'
+              + 'service_admin.ANCHOR_TOWNS = {"Yorkshire - West": "Leeds"}\n'
+          )
+          if marker not in test_text:
+              raise SystemExit("Could not find test module-load marker")
+          test_text = test_text.replace(marker, fixture, 1)
           test_path.write_text(test_text, encoding="utf-8")
           print(test_path, test_counts)
           PY
