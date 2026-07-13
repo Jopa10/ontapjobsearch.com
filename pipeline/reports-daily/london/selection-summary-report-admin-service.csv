@@ -1,2 +1,0 @@
-﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-London,32,28,4,0,0,,32,London,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,London selection complete: all 32 selected role(s) are HIGH_CONFIDENCE plus London ELASTIC_FIT roles.
