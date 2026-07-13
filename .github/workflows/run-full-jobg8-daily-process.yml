@@ -54,7 +54,7 @@ jobs:
       - name: Run service-admin pipeline
         if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline
+        run: python -m scripts.service_admin_existing_pipeline
 
       - name: Verify North East service-admin output
         if: steps.slice-register.outputs.admin_service == 'true'
