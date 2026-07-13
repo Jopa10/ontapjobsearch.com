@@ -23,44 +23,6 @@ jobs:
       - name: Install Python packages
         run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Integrate London into production admin pipeline
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("pipeline/scripts/service_admin_pipeline.py")
-          text = path.read_text(encoding="utf-8")
-
-          replacements = {
-              '    "north east": "North East",\n}':
-                  '    "north east": "North East",\n    "london": "London",\n}',
-              'OUTPUT_FILES = {\n    "Yorkshire - West": "west-yorkshire-admin-service.json",\n    "Yorkshire - South": "south-yorkshire-admin-service.json",\n    "North East": "north-east-admin-service.json",\n}':
-                  'OUTPUT_FILES = {\n    "Yorkshire - West": "west-yorkshire-admin-service.json",\n    "Yorkshire - South": "south-yorkshire-admin-service.json",\n    "North East": "north-east-admin-service.json",\n    "London": "london-admin-service.json",\n}',
-              'PUBLISH_THRESHOLDS = {\n    "Yorkshire - West": 6,\n    "Yorkshire - South": 6,\n    "North East": 6,\n}':
-                  'PUBLISH_THRESHOLDS = {\n    "Yorkshire - West": 6,\n    "Yorkshire - South": 6,\n    "North East": 6,\n    "London": 6,\n}',
-          }
-
-          changed = False
-          for old, new in replacements.items():
-              if new in text:
-                  continue
-              if old not in text:
-                  raise SystemExit(f"STOP: expected production pipeline configuration block not found: {old!r}")
-              text = text.replace(old, new, 1)
-              changed = True
-
-          if changed:
-              path.write_text(text, encoding="utf-8")
-          PY
-
-          if [ -n "$(git status --porcelain -- pipeline/scripts/service_admin_pipeline.py)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add pipeline/scripts/service_admin_pipeline.py
-            git commit -m "Add London to production admin pipeline"
-            git push
-          fi
-
       - name: Read LIVE slices from register
         id: slice-register
         run: |
@@ -133,7 +95,7 @@ jobs:
           unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
-            printf '%s\n' "$staged_files"
+            printf '%s\n' "$unexpected_files"
             git reset --mixed
             exit 1
           fi
@@ -169,7 +131,7 @@ jobs:
           unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/manual/service-admin-review.csv" && $0 != "pipeline/manual/service-admin-review.md" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 manual review files. Staged files:"
-            printf '%s\n' "$staged_files"
+            printf '%s\n' "$unexpected_files"
             git reset --mixed
             exit 1
           fi
