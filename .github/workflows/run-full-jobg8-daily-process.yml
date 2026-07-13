@@ -55,9 +55,13 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
 
-      - name: Verify North East service-admin output
+      - name: Verify service-admin outputs
         if: steps.slice-register.outputs.admin_service == 'true'
-        run: test -s pipeline/output-admin-service/north-east-admin-service.json
+        run: |
+          test -s pipeline/output-admin-service/west-yorkshire-admin-service.json
+          test -s pipeline/output-admin-service/south-yorkshire-admin-service.json
+          test -s pipeline/output-admin-service/north-east-admin-service.json
+          test -s pipeline/output-admin-service/london-admin-service.json
 
       - name: Run support-worker pipeline
         if: steps.slice-register.outputs.support_worker == 'true'
@@ -91,7 +95,7 @@ jobs:
           unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
-            printf '%s\n' "$staged_files"
+            printf '%s\n' "$unexpected_files"
             git reset --mixed
             exit 1
           fi
@@ -127,7 +131,7 @@ jobs:
           unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/manual/service-admin-review.csv" && $0 != "pipeline/manual/service-admin-review.md" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 manual review files. Staged files:"
-            printf '%s\n' "$staged_files"
+            printf '%s\n' "$unexpected_files"
             git reset --mixed
             exit 1
           fi
