@@ -11,42 +11,6 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
-SELECTED | West Yorkshire | Leeds | £27000 - £32000 per year | Financial Planning Administrator
-job_id: 16ba2d14-bb19-4608-b959-c8b095d8086e
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £28000 per year | Customer Service Administrator 12 month FTC
-job_id: 1763d5cf-31ce-4823-8dbd-4324fd412b2f
----
-
----
-action: select
-SELECTED | West Yorkshire | Huddersfield | £26000 - £28000 per year | Customer Service Administrator
-job_id: 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £24000 - £26000 per year | Customer Service & Business Administrator
-job_id: 155ad04e-0dd2-4136-9720-a1a72144ecc6
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £25200 - £28000 per year | Senior Merchandising Admin Assistant- Homeware
-job_id: c9ca3cfd-899c-4705-8d4e-084a4bda02f3
----
-
----
-action: select
-SELECTED | West Yorkshire | Leeds | £22500 - £23500 per year | Merchandising Administrator
-job_id: 4dfff604-ff55-4508-9cf4-a049ea862460
----
-
----
-action: select
 SELECTED | West Yorkshire | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
 ---
@@ -55,152 +19,132 @@ job_id: 107506827
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Group Regulatory Administrator
-job_id: 107417429
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £35000 per year | Accounts Administrator
+job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
 ---
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £28000 - £33000 per year | IFA Administrator
-job_id: 3e761d61-29b2-491c-a4f8-f6c521136a55
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £30000 - £32000 per year | Export Administrator
+job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 ---
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £27000 - £33000 per year | Ifa Administrator
-job_id: bb458098-ce77-414b-baef-317fa4b97214
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £33000 per year | Insolvency Administrator
+job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
 ---
 
 ---
 action:
-POSS - WEST YORKSHIRE | West Yorkshire | Wetherby | £28000 - £33000 per year | IFA Administrator
-job_id: 2c77ccec-005e-4c84-8e12-cf6e3599fdeb
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds | £25000 - £30000 per year | Legal Secretary - Commercial property
+job_id: fab18477-c03a-4672-bb39-d871d89a546c
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Leeds |  | Office Administrator Assistant & Companies House Compliance Officer Assistant
+job_id: 107457208
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £20000 - £25000 per year | Legal Secretary
+job_id: a7598ea5-7cbb-4466-a836-2613c151ee58
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Bradford | £30000 per year | Junior Regulatory Affairs Administrator
+job_id: 107586970
+---
+
+---
+action:
+POSS - WEST YORKSHIRE | West Yorkshire | Halifax | £45000 per year | Office Management and Operations Coordinator
+job_id: 107624932
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
-action: select
-SELECTED | South Yorkshire | Sheffield | £13 - £15 per hour | Data Administrator
-job_id: 8f194adc-4915-49ab-a454-d97355ec47c9
+action:
+SELECTED | South Yorkshire | Doncaster | £12 - £14 per hour | Finance Administrator - Expenses (Temporary Contract)
+job_id: 2f714926-5688-4a91-8367-6abbb5916a10
 ---
 
 ---
-action: select
-SELECTED | South Yorkshire | Sheffield | £12.71 per hour | Customer Service Administrator
-job_id: 4499ecdd-06ff-4bf1-a429-db09e106917b
+action:
+SELECTED | South Yorkshire | Rotherham | £30000 - £35000 per year | HSE Administrator
+job_id: 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 ---
 
 ---
-action: select
-SELECTED | South Yorkshire | Sheffield | £26000 per year | Export/Import Administrator
-job_id: 6cfd1576-3aa0-4156-b992-90e9d8fd9e49
+action:
+SELECTED | South Yorkshire | Sheffield | £24000 - £35000 per year | Insolvency Case Administrator
+job_id: 8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
 ---
 
 ---
-action: select
-SELECTED | South Yorkshire | Sheffield | £26000 per year | Billing Administrator
-job_id: d8ec77ff-1d1d-4723-9e52-90343c20eacc
+action:
+SELECTED | South Yorkshire | Barnsley | £26000 per year | Recruitment Onsite Operations Coordinator
+job_id: 107606837
 ---
 
 ---
-action: select
-SELECTED | South Yorkshire | Sheffield | £26000 - £260000 per year | Logistics Administrator
-job_id: 316a637a-28b0-4ad0-a0ab-aca40781d90e
+action:
+SELECTED | South Yorkshire | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
+job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
 ---
 
 ---
-action: select
-SELECTED | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator
-job_id: 04d36725-d7c8-4940-b556-1e941dd944d1
+action:
+SELECTED | South Yorkshire | Sheffield | £15 - £22 per hour | Medical Secretary with General Practice Experience
+job_id: bd1d91d2-2e07-40a8-9078-33295fc0d5c0
+---
+
+---
+action:
+SELECTED | South Yorkshire | Doncaster | £12.71 - £14 per hour | Legal Secretary
+job_id: 9b5eeb38-4b88-44aa-880e-fed4e5403ace
+---
+
+---
+action:
+SELECTED | South Yorkshire | Sheffield | £40000 per year | Health Hub Coordinator
+job_id: 107667796
+---
+
+---
+action:
+SELECTED | South Yorkshire | Sheffield | £30000 per year | Workplace Operations Coordinator
+job_id: 107668923
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £28000 - £31000 per year | Financial Planning Administrator - Sheffield - Basic salary to £31,000
-job_id: f7239356-147c-4cf7-bf70-3a3072e045d0
----
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £40000 - £42000 per year | Senior Pensions Administrator
-job_id: 8900d53c-6034-4da1-8410-13f8c2c031ba
----
-
----
-action:
-POSS - SOUTH YORKSHIRE | South Yorkshire | Sheffield | £32000 per year | Pensions Administrator
-job_id: 2ab07ad9-42b6-45f7-8d40-686d7c2b348e
----
+_No jobs in this group._
 
 ## NORTH EAST — SELECTED
 
 ---
-action: select
-SELECTED | North East | Stockton-on-tees | £23000 per year | Corporate Financial Administrator (Trainee - Entry Level)
-job_id: 40c401f3-5f4c-4934-867c-6fcbe4305085
+action:
+SELECTED | North East | Hebburn | £13 - £14 per hour | Accounts Administrator
+job_id: 364f7202-fbb5-4390-90c1-bf45e1a277ac
 ---
 
 ---
-action: select
-SELECTED | North East | Newcastle Upon Tyne | £27000 - £29000 per year | Accounts Administrator
-job_id: 963241c7-60ea-48cc-a8cb-6a367d4c2e40
+action:
+SELECTED | North East | Houghton Le Spring | £30000 per year | Asbestos Administrator / Project Coordinator
+job_id: 107595243
 ---
 
 ---
-action: select
-SELECTED | North East | Newcastle Upon Tyne |  | Pensions Administrator
-job_id: 479a0999-012a-4359-9f87-6afb4a688cc4
----
-
----
-action: select
-SELECTED | North East | Tyne And Wear | £28000 - £30000 per year | Claims Administrator
-job_id: 26ff2915-7e9a-4f00-8d47-962137c69ff8
----
-
----
-action: select
-SELECTED | North East | Stockton-on-tees | £26500 - £28000 per year | Customer Service Administrator
-job_id: 3eecac21-b795-46e6-a5fe-31d39224dfae
----
-
----
-action: select
-SELECTED | North East | Stockton-on-tees | £28000 - £30000 per year | Customer Service Admin
-job_id: c4782b5a-061f-4adf-8c0e-fcd5d5900364
----
-
----
-action: select
-SELECTED | North East | Newcastle Upon Tyne | £30000 per year | Internal Salesperson (Administrator)
-job_id: 107472400
----
-
----
-action: select
-SELECTED | North East | Durham | £30000 per year | Support/Housing Management Coordinator
-job_id: 107473649
+action:
+SELECTED | North East | Darlington | £26000 per year | HR Administrator
+job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 ---
 
 ## NORTH EAST — POSSIBLES
 
----
-action:
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £25000 - £35000 per year | Insolvency Administrator
-job_id: d5a6637f-52b8-463d-bd6c-54a956157284
----
-
----
-action:
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Financial Services Administrator
-job_id: 508e2394-20ed-498e-bb9b-ba327b4960de
----
-
----
-action:
-POSS - NORTH EAST | North East | Redcar | £26000 - £32000 per year | Pensions Administrator
-job_id: c39b9e01-f065-4846-b473-e4ed9f893e29
----
+_No jobs in this group._

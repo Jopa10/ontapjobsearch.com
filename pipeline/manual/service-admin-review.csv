@@ -1,32 +1,22 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
-SELECTED,West Yorkshire,Financial Planning Administrator,Leeds,£27000 - £32000 per year,,SELECT,16ba2d14-bb19-4608-b959-c8b095d8086e
-SELECTED,West Yorkshire,Customer Service Administrator 12 month FTC,Leeds,£28000 per year,,SELECT,1763d5cf-31ce-4823-8dbd-4324fd412b2f
-SELECTED,West Yorkshire,Customer Service Administrator,Huddersfield,£26000 - £28000 per year,,SELECT,4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68
-SELECTED,West Yorkshire,Customer Service & Business Administrator,Leeds,£24000 - £26000 per year,,SELECT,155ad04e-0dd2-4136-9720-a1a72144ecc6
-SELECTED,West Yorkshire,Senior Merchandising Admin Assistant- Homeware,Leeds,£25200 - £28000 per year,,SELECT,c9ca3cfd-899c-4705-8d4e-084a4bda02f3
-SELECTED,West Yorkshire,Merchandising Administrator,Leeds,£22500 - £23500 per year,,SELECT,4dfff604-ff55-4508-9cf4-a049ea862460
 SELECTED,West Yorkshire,Payroll & Operations Administrator,Wetherby,£30000 per year,,SELECT,107506827
-POSS - WEST YORKSHIRE,West Yorkshire,Group Regulatory Administrator,Leeds,,,,107417429
-POSS - WEST YORKSHIRE,West Yorkshire,IFA Administrator,Leeds,£28000 - £33000 per year,,,3e761d61-29b2-491c-a4f8-f6c521136a55
-POSS - WEST YORKSHIRE,West Yorkshire,Ifa Administrator,Leeds,£27000 - £33000 per year,,,bb458098-ce77-414b-baef-317fa4b97214
-POSS - WEST YORKSHIRE,West Yorkshire,IFA Administrator,Wetherby,£28000 - £33000 per year,,,2c77ccec-005e-4c84-8e12-cf6e3599fdeb
-SELECTED,South Yorkshire,Data Administrator,Sheffield,£13 - £15 per hour,,SELECT,8f194adc-4915-49ab-a454-d97355ec47c9
-SELECTED,South Yorkshire,Customer Service Administrator,Sheffield,£12.71 per hour,,SELECT,4499ecdd-06ff-4bf1-a429-db09e106917b
-SELECTED,South Yorkshire,Export/Import Administrator,Sheffield,£26000 per year,,SELECT,6cfd1576-3aa0-4156-b992-90e9d8fd9e49
-SELECTED,South Yorkshire,Billing Administrator,Sheffield,£26000 per year,,SELECT,d8ec77ff-1d1d-4723-9e52-90343c20eacc
-SELECTED,South Yorkshire,Logistics Administrator,Sheffield,£26000 - £260000 per year,,SELECT,316a637a-28b0-4ad0-a0ab-aca40781d90e
-SELECTED,South Yorkshire,Financial Planning Administrator,Sheffield,£28000 - £31000 per year,,SELECT,04d36725-d7c8-4940-b556-1e941dd944d1
-POSS - SOUTH YORKSHIRE,South Yorkshire,"Financial Planning Administrator - Sheffield - Basic salary to £31,000",Sheffield,£28000 - £31000 per year,,,f7239356-147c-4cf7-bf70-3a3072e045d0
-POSS - SOUTH YORKSHIRE,South Yorkshire,Senior Pensions Administrator,Sheffield,£40000 - £42000 per year,,,8900d53c-6034-4da1-8410-13f8c2c031ba
-POSS - SOUTH YORKSHIRE,South Yorkshire,Pensions Administrator,Sheffield,£32000 per year,,,2ab07ad9-42b6-45f7-8d40-686d7c2b348e
-SELECTED,North East,Corporate Financial Administrator (Trainee - Entry Level),Stockton-on-tees,£23000 per year,,SELECT,40c401f3-5f4c-4934-867c-6fcbe4305085
-SELECTED,North East,Accounts Administrator,Newcastle Upon Tyne,£27000 - £29000 per year,,SELECT,963241c7-60ea-48cc-a8cb-6a367d4c2e40
-SELECTED,North East,Pensions Administrator,Newcastle Upon Tyne,,,SELECT,479a0999-012a-4359-9f87-6afb4a688cc4
-SELECTED,North East,Claims Administrator,Tyne And Wear,£28000 - £30000 per year,,SELECT,26ff2915-7e9a-4f00-8d47-962137c69ff8
-SELECTED,North East,Customer Service Administrator,Stockton-on-tees,£26500 - £28000 per year,,SELECT,3eecac21-b795-46e6-a5fe-31d39224dfae
-SELECTED,North East,Customer Service Admin,Stockton-on-tees,£28000 - £30000 per year,,SELECT,c4782b5a-061f-4adf-8c0e-fcd5d5900364
-SELECTED,North East,Internal Salesperson (Administrator),Newcastle Upon Tyne,£30000 per year,,SELECT,107472400
-SELECTED,North East,Support/Housing Management Coordinator,Durham,£30000 per year,,SELECT,107473649
-POSS - NORTH EAST,North East,Insolvency Administrator,Newcastle Upon Tyne,£25000 - £35000 per year,,,d5a6637f-52b8-463d-bd6c-54a956157284
-POSS - NORTH EAST,North East,Financial Services Administrator,Newcastle Upon Tyne,£28000 - £32000 per year,,,508e2394-20ed-498e-bb9b-ba327b4960de
-POSS - NORTH EAST,North East,Pensions Administrator,Redcar,£26000 - £32000 per year,,,c39b9e01-f065-4846-b473-e4ed9f893e29
+POSS - WEST YORKSHIRE,West Yorkshire,Accounts Administrator,Leeds,£35000 per year,,,2a1eb047-53ab-44d6-8251-d40aeef4fc8e
+POSS - WEST YORKSHIRE,West Yorkshire,Export Administrator,Leeds,£30000 - £32000 per year,,,f3ab9106-ae47-4d49-b28b-139c5e18fbde
+POSS - WEST YORKSHIRE,West Yorkshire,Insolvency Administrator,Leeds,£33000 per year,,,589df823-df54-48cf-ba4b-dc3ef93ee05f
+POSS - WEST YORKSHIRE,West Yorkshire,Legal Secretary - Commercial property,Leeds,£25000 - £30000 per year,,,fab18477-c03a-4672-bb39-d871d89a546c
+POSS - WEST YORKSHIRE,West Yorkshire,Office Administrator Assistant & Companies House Compliance Officer Assistant,Leeds,,,,107457208
+POSS - WEST YORKSHIRE,West Yorkshire,Legal Secretary,Bradford,£20000 - £25000 per year,,,a7598ea5-7cbb-4466-a836-2613c151ee58
+POSS - WEST YORKSHIRE,West Yorkshire,Junior Regulatory Affairs Administrator,Bradford,£30000 per year,,,107586970
+POSS - WEST YORKSHIRE,West Yorkshire,Office Management and Operations Coordinator,Halifax,£45000 per year,,,107624932
+SELECTED,South Yorkshire,Finance Administrator - Expenses (Temporary Contract),Doncaster,£12 - £14 per hour,,,2f714926-5688-4a91-8367-6abbb5916a10
+SELECTED,South Yorkshire,HSE Administrator,Rotherham,£30000 - £35000 per year,,,4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
+SELECTED,South Yorkshire,Insolvency Case Administrator,Sheffield,£24000 - £35000 per year,,,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
+SELECTED,South Yorkshire,Recruitment Onsite Operations Coordinator,Barnsley,£26000 per year,,,107606837
+SELECTED,South Yorkshire,Health & Safety Administrator (Consultancy),Rotherham,£35000 - £40000 per year,,,e213c83d-5e71-4c29-bc1e-7a894cfa67aa
+SELECTED,South Yorkshire,Medical Secretary with General Practice Experience,Sheffield,£15 - £22 per hour,,,bd1d91d2-2e07-40a8-9078-33295fc0d5c0
+SELECTED,South Yorkshire,Legal Secretary,Doncaster,£12.71 - £14 per hour,,,9b5eeb38-4b88-44aa-880e-fed4e5403ace
+SELECTED,South Yorkshire,Health Hub Coordinator,Sheffield,£40000 per year,,,107667796
+SELECTED,South Yorkshire,Workplace Operations Coordinator,Sheffield,£30000 per year,,,107668923
+SELECTED,North East,Accounts Administrator,Hebburn,£13 - £14 per hour,,,364f7202-fbb5-4390-90c1-bf45e1a277ac
+SELECTED,North East,Asbestos Administrator / Project Coordinator,Houghton Le Spring,£30000 per year,,,107595243
+SELECTED,North East,HR Administrator,Darlington,£26000 per year,,,b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
