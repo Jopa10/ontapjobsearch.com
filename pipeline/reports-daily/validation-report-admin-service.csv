@@ -1,33 +1,33 @@
 ﻿metric,value
-total rows input,1986
-total rows included,21
-total rows dropped,1955
-title classification count - HIGH_CONFIDENCE,288
-title classification count - ELASTIC_FIT,35
+total rows input,2374
+total rows included,13
+total rows dropped,2353
+title classification count - HIGH_CONFIDENCE,229
+title classification count - ELASTIC_FIT,56
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,938
-title classification count - OUT_OF_SCOPE,725
+title classification count - HARD_PASS,913
+title classification count - OUT_OF_SCOPE,1176
 selection scenario - West Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - West Yorkshire,West Yorkshire manual rerun: 7 current-feed manual_select row(s) applied; 7/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - West Yorkshire,11
-high confidence count - West Yorkshire,11
+selection message - West Yorkshire,West Yorkshire manual rerun: 1 current-feed manual_select row(s) applied; 1 selected. Auto backfill disabled.
+credible total - West Yorkshire,9
+high confidence count - West Yorkshire,8
 anchor elastic count - West Yorkshire,0
-other elastic count - West Yorkshire,0
-total rows output - West Yorkshire,7
-job_id included - West Yorkshire,16ba2d14-bb19-4608-b959-c8b095d8086e; 1763d5cf-31ce-4823-8dbd-4324fd412b2f; 155ad04e-0dd2-4136-9720-a1a72144ecc6; c9ca3cfd-899c-4705-8d4e-084a4bda02f3; 4dfff604-ff55-4508-9cf4-a049ea862460; 4daf9ef9-fe6d-4b4a-8e17-95ab7c8c3f68; 107506827
-selection scenario - South Yorkshire,SCENARIO_MANUAL_RERUN
-selection message - South Yorkshire,South Yorkshire manual rerun: 6 current-feed manual_select row(s) applied; 6/12 selected. Cap treated as a maximum; auto backfill disabled.
+other elastic count - West Yorkshire,1
+total rows output - West Yorkshire,1
+job_id included - West Yorkshire,107506827
+selection scenario - South Yorkshire,SCENARIO_3_FULL_VALID_SELECTION
+selection message - South Yorkshire,"South Yorkshire selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Sheffield ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - South Yorkshire,9
-high confidence count - South Yorkshire,9
-anchor elastic count - South Yorkshire,0
-other elastic count - South Yorkshire,0
-total rows output - South Yorkshire,6
-job_id included - South Yorkshire,8f194adc-4915-49ab-a454-d97355ec47c9; 4499ecdd-06ff-4bf1-a429-db09e106917b; 6cfd1576-3aa0-4156-b992-90e9d8fd9e49; d8ec77ff-1d1d-4723-9e52-90343c20eacc; 316a637a-28b0-4ad0-a0ab-aca40781d90e; 04d36725-d7c8-4940-b556-1e941dd944d1
-selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 8 current-feed manual_select row(s) applied; 8/12 selected. Cap treated as a maximum; auto backfill disabled.
-credible total - North East,11
-high confidence count - North East,10
+high confidence count - South Yorkshire,6
+anchor elastic count - South Yorkshire,2
+other elastic count - South Yorkshire,1
+total rows output - South Yorkshire,9
+job_id included - South Yorkshire,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb; bd1d91d2-2e07-40a8-9078-33295fc0d5c0; 107667796; 107668923; 2f714926-5688-4a91-8367-6abbb5916a10; 9b5eeb38-4b88-44aa-880e-fed4e5403ace; 4354d5c5-cce4-4cfe-a9b8-2dc86c831c62; e213c83d-5e71-4c29-bc1e-7a894cfa67aa; 107606837
+selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - North East,North East selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - North East,3
+high confidence count - North East,3
 anchor elastic count - North East,0
-other elastic count - North East,1
-total rows output - North East,8
-job_id included - North East,963241c7-60ea-48cc-a8cb-6a367d4c2e40; 479a0999-012a-4359-9f87-6afb4a688cc4; 107472400; 40c401f3-5f4c-4934-867c-6fcbe4305085; 3eecac21-b795-46e6-a5fe-31d39224dfae; c4782b5a-061f-4adf-8c0e-fcd5d5900364; 26ff2915-7e9a-4f00-8d47-962137c69ff8; 107473649
+other elastic count - North East,0
+total rows output - North East,3
+job_id included - North East,364f7202-fbb5-4390-90c1-bf45e1a277ac; 107595243; b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
