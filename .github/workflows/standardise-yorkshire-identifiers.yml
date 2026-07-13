@@ -1,0 +1,151 @@
+name: Standardise Yorkshire identifiers
+
+on:
+  push:
+    branches:
+      - agent/standardise-yorkshire-region-identifiers
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-and-validate:
+    if: ${{ !contains(github.event.head_commit.message, '[skip yorkshire migration]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/standardise-yorkshire-region-identifiers
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Preserve current six outputs
+        run: |
+          mkdir -p /tmp/ontap-baseline/admin /tmp/ontap-baseline/support
+          cp pipeline/output-admin-service/*.json /tmp/ontap-baseline/admin/
+          cp pipeline/output-support-worker/*.json /tmp/ontap-baseline/support/
+
+      - name: Standardise authoritative and production identifiers
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from openpyxl import load_workbook
+
+          replacements = {
+              "West Yorkshire": "Yorkshire - West",
+              "South Yorkshire": "Yorkshire - South",
+          }
+
+          workbook_path = Path("pipeline/geo/geo_lookup.xlsx")
+          wb = load_workbook(workbook_path)
+          if "Anchor_towns" not in wb.sheetnames:
+              raise SystemExit("Anchor_towns sheet missing")
+          ws = wb["Anchor_towns"]
+          headers = {str(cell.value).strip(): i for i, cell in enumerate(ws[1], start=1)}
+          required = {"region", "category", "anchor_town"}
+          if not required.issubset(headers):
+              raise SystemExit(f"Anchor_towns missing columns: {sorted(required - set(headers))}")
+          changed_rows = 0
+          region_col = headers["region"]
+          for row in range(2, ws.max_row + 1):
+              value = ws.cell(row=row, column=region_col).value
+              if value in replacements:
+                  ws.cell(row=row, column=region_col).value = replacements[value]
+                  changed_rows += 1
+          if changed_rows != 4:
+              raise SystemExit(f"Expected 4 Anchor_towns rows to change; changed {changed_rows}")
+          wb.save(workbook_path)
+
+          for path in [
+              Path("pipeline/scripts/service_admin_pipeline.py"),
+              Path("pipeline/scripts/support_worker_pipeline.py"),
+          ]:
+              text = path.read_text(encoding="utf-8")
+              counts = {old: text.count(old) for old in replacements}
+              if not all(counts.values()):
+                  raise SystemExit(f"Expected both old identifiers in {path}: {counts}")
+              for old, new in replacements.items():
+                  text = text.replace(old, new)
+              path.write_text(text, encoding="utf-8")
+              print(path, counts)
+          PY
+
+      - name: Run production pipelines
+        working-directory: pipeline
+        run: |
+          python -m scripts.service_admin_pipeline
+          python -m scripts.support_worker_pipeline
+
+      - name: Verify six-output parity except region labels
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          pairs = []
+          for folder, baseline in [
+              (Path("pipeline/output-admin-service"), Path("/tmp/ontap-baseline/admin")),
+              (Path("pipeline/output-support-worker"), Path("/tmp/ontap-baseline/support")),
+          ]:
+              for current in sorted(folder.glob("*.json")):
+                  old = baseline / current.name
+                  if not old.exists():
+                      raise SystemExit(f"Missing baseline for {current}")
+                  pairs.append((old, current))
+
+          if len(pairs) != 6:
+              raise SystemExit(f"Expected 6 output files, found {len(pairs)}")
+
+          allowed = {
+              "West Yorkshire": "Yorkshire - West",
+              "South Yorkshire": "Yorkshire - South",
+          }
+          for old_path, new_path in pairs:
+              old = json.loads(old_path.read_text(encoding="utf-8-sig"))
+              new = json.loads(new_path.read_text(encoding="utf-8-sig"))
+              if len(old) != len(new):
+                  raise SystemExit(f"Count changed for {new_path}: {len(old)} -> {len(new)}")
+              for index, (before, after) in enumerate(zip(old, new)):
+                  expected = dict(before)
+                  if expected.get("region") in allowed:
+                      expected["region"] = allowed[expected["region"]]
+                  if expected != after:
+                      raise SystemExit(f"Unexpected output change in {new_path} row {index}")
+              print(f"PARITY OK: {new_path} ({len(new)} jobs)")
+          PY
+
+      - name: Run relevant tests
+        run: |
+          python -m py_compile pipeline/scripts/service_admin_pipeline.py pipeline/scripts/support_worker_pipeline.py
+          pytest -q tests/test_pipeline_possible_selection.py
+
+      - name: Restore generated files and commit intended changes only
+        run: |
+          set -euo pipefail
+          git restore pipeline/manual pipeline/reports-daily pipeline/output-admin-service pipeline/output-support-worker app || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/geo/geo_lookup.xlsx \
+                  pipeline/scripts/service_admin_pipeline.py \
+                  pipeline/scripts/support_worker_pipeline.py
+          staged="$(git diff --cached --name-only)"
+          expected="$(printf '%s\n' \
+            pipeline/geo/geo_lookup.xlsx \
+            pipeline/scripts/service_admin_pipeline.py \
+            pipeline/scripts/support_worker_pipeline.py | sort)"
+          actual="$(printf '%s\n' "$staged" | sort)"
+          if [ "$actual" != "$expected" ]; then
+            echo "::error::Unexpected staged files"
+            printf '%s\n' "$staged"
+            exit 1
+          fi
+          git commit -m "Standardise Yorkshire region identifiers [skip yorkshire migration]"
+          git push
