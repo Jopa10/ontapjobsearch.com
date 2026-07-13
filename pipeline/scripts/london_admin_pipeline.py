@@ -1,12 +1,18 @@
 from __future__ import annotations
 
-import csv
 from pathlib import Path
 
 from scripts import service_admin_pipeline as pipeline
 
 REGION = "London"
 CATEGORY = "admin_service"
+LONDON_HARD_PASS_PHRASES = (
+    "netsuite administrator",
+    "it administrator",
+    "company secretary",
+    "design & technical coordinator",
+    "extra care support coordinator",
+)
 
 
 def load_london_anchor(path: Path, category: str) -> dict[str, str]:
@@ -32,12 +38,42 @@ def configure() -> None:
     pipeline.PUBLISH_THRESHOLDS = {REGION: 6}
     pipeline.load_anchor_towns = load_london_anchor
 
-    pipeline.REPORTS_DAILY_DIR = Path("reports-daily")
-    pipeline.DECISION_REPORT_PATH = pipeline.REPORTS_DAILY_DIR / "decision-report-admin-service-london.csv"
+    # Keep every London report separate from the established admin/service reports.
+    pipeline.REPORTS_DAILY_DIR = Path("reports-daily/london")
+    pipeline.DECISION_REPORT_PATH = pipeline.REPORTS_DAILY_DIR / "decision-report-admin-service.csv"
     pipeline.MANUAL_DIR = Path("manual")
     pipeline.MANUAL_REVIEW_CSV_PATH = pipeline.MANUAL_DIR / "service-admin-london-review.csv"
     pipeline.MANUAL_REVIEW_MD_PATH = pipeline.MANUAL_DIR / "service-admin-london-review.md"
     pipeline.MANUAL_REVIEW_PATH = pipeline.MANUAL_REVIEW_CSV_PATH
+
+    original_process = pipeline.process
+
+    def london_process(*args, **kwargs):
+        outputs, report_rows = original_process(*args, **kwargs)
+        blocked_ids: set[str] = set()
+        for row in report_rows:
+            if str(row.get("region", "")) != REGION:
+                continue
+            title_key = pipeline.norm_key(row.get("title"))
+            matched = next((phrase for phrase in LONDON_HARD_PASS_PHRASES if phrase in title_key), None)
+            if not matched:
+                continue
+            job_id = pipeline.norm(row.get("job_id"))
+            if job_id:
+                blocked_ids.add(job_id)
+            row["decision"] = "DROPPED"
+            row["selection_status"] = "NOT_SELECTED"
+            row["title_classification"] = "HARD_PASS"
+            row["classification_reason"] = f"London false-positive rule: {matched}"
+            row["reason"] = f"London false-positive rule: {matched}"
+
+        outputs[REGION] = [
+            item for item in outputs.get(REGION, [])
+            if pipeline.norm(item.get("job_id")) not in blocked_ids
+        ]
+        return outputs, report_rows
+
+    pipeline.process = london_process
 
     def london_preview(rows, preserved_action_rows=None):
         return [
