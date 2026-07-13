@@ -23,18 +23,43 @@ jobs:
       - name: Install Python packages
         run: python -m pip install --upgrade pip pandas openpyxl
 
+      - name: Read LIVE slices from register
+        id: slice-register
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+
+          scripts = Path("pipeline/scripts").resolve()
+          sys.path.insert(0, str(scripts))
+          from slice_registry import live_slices
+
+          active = sorted(live_slices())
+          print("LIVE slices:")
+          for region, category in active:
+              print(f"- {region} / {category}")
+
+          categories = {category for _, category in active}
+          with Path("$GITHUB_OUTPUT").open("a", encoding="utf-8") as handle:
+              handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
+              handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
+          PY
+
       - name: Resolve current JobG8 month
         id: jobg8-month
         run: echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
 
       - name: Run service-admin pipeline
+        if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline
 
       - name: Verify North East service-admin output
+        if: steps.slice-register.outputs.admin_service == 'true'
         run: test -s pipeline/output-admin-service/north-east-admin-service.json
 
       - name: Run support-worker pipeline
+        if: steps.slice-register.outputs.support_worker == 'true'
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline
 
