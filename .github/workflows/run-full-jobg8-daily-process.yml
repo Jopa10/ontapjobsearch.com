@@ -98,7 +98,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)(-london)?\.csv$/'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 !~ /^pipeline\/reports-daily\/london\/(decision-report|validation-report|selection-summary-report)-admin-service\.csv$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$staged_files"
