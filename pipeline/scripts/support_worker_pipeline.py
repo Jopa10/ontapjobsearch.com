@@ -5,7 +5,7 @@ Ontap Phase-1: JobG8 CSV/XLSX -> support-worker JSON pipeline
 V_12 rollback:
 - simple support-worker selector process only
 - writes to output-support-worker/
-- produces named support-worker reports and West/South Yorkshire JSON only
+- produces named support-worker reports and West/Yorkshire - South JSON only
 - no below-6 comparator, no archive-runs, no comparison-output, no live-json update
 
 V11_5 additions:
@@ -20,10 +20,10 @@ V12_3 additions:
 - separate selection-summary-report.csv for quick per-region QA
 
 V11 additions:
-- expanded North-of-England regional selection: West Yorkshire, South Yorkshire, Lancashire, Greater Manchester, Cumbria, North East
+- expanded North-of-England regional selection: Yorkshire - West, Yorkshire - South, Lancashire, Greater Manchester, Cumbria, North East
 
 V10 additions:
-- daily selection scenario reporting for West/South Yorkshire
+- daily selection scenario reporting for West/Yorkshire - South
 - manual_select = 1 for Scenario 3 candidate fill
 - anchor-town selection ordering
 
@@ -138,14 +138,14 @@ EXCLUDE_TERMS = [
 
 REGION_MAP = {
     # Existing V10_3 regions
-    "yorkshire - west": "West Yorkshire",
-    "yorkshire (west)": "West Yorkshire",
-    "yorkshire west": "West Yorkshire",
-    "west yorkshire": "West Yorkshire",
-    "yorkshire - south": "South Yorkshire",
-    "yorkshire (south)": "South Yorkshire",
-    "yorkshire south": "South Yorkshire",
-    "south yorkshire": "South Yorkshire",
+    "yorkshire - west": "Yorkshire - West",
+    "yorkshire (west)": "Yorkshire - West",
+    "yorkshire west": "Yorkshire - West",
+    "west yorkshire": "Yorkshire - West",
+    "yorkshire - south": "Yorkshire - South",
+    "yorkshire (south)": "Yorkshire - South",
+    "yorkshire south": "Yorkshire - South",
+    "south yorkshire": "Yorkshire - South",
 
     # V11 North expansion regions. These map lookup.xlsx Cluster values to clean internal region names.
     "lancashire": "Lancashire",
@@ -177,8 +177,8 @@ REGION_MAP = {
 }
 
 OUTPUT_FILES = {
-    "West Yorkshire": "west-yorkshire-support-worker.json",
-    "South Yorkshire": "south-yorkshire-support-worker.json",
+    "Yorkshire - West": "west-yorkshire-support-worker.json",
+    "Yorkshire - South": "south-yorkshire-support-worker.json",
     "North East": "north-east-support-worker.json",
 }
 
@@ -188,8 +188,8 @@ OUTPUT_FILES = {
 ANCHOR_TOWNS: dict[str, str] = {}
 
 PUBLISH_THRESHOLDS = {
-    "West Yorkshire": 6,
-    "South Yorkshire": 6,
+    "Yorkshire - West": 6,
+    "Yorkshire - South": 6,
     "North East": 6,
 }
 
@@ -200,7 +200,7 @@ NORTH_EAST_DETAILED_REGIONS = [
 ]
 
 PUBLISH_REGION_BY_DETAIL_REGION = {
-    **{region: region for region in ("West Yorkshire", "South Yorkshire")},
+    **{region: region for region in ("Yorkshire - West", "Yorkshire - South")},
     **{region: "North East" for region in NORTH_EAST_DETAILED_REGIONS},
 }
 
@@ -1897,7 +1897,7 @@ def decision_report_fieldnames() -> list[str]:
 def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
     # V2 daily QA order:
     # West SELECTED -> West POSS -> South SELECTED -> South POSS -> all remaining dropped/audit rows.
-    review_region_order = ["West Yorkshire", "South Yorkshire", *NORTH_EAST_DETAILED_REGIONS]
+    review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS]
     region_order = {region: idx for idx, region in enumerate(review_region_order)}
     selection_status = str(r.get("selection_status", ""))
     region_rank = region_order.get(str(r.get("region", "")), 9999)
@@ -1974,10 +1974,10 @@ def _manual_review_preview_rows(
     preview_rows: list[dict[str, Any]] = []
     preview_job_ids: set[str] = set()
     groups = [
-        ("West Yorkshire", "SELECTED"),
-        ("West Yorkshire", "POSSIBLE_SELECTION"),
-        ("South Yorkshire", "SELECTED"),
-        ("South Yorkshire", "POSSIBLE_SELECTION"),
+        ("Yorkshire - West", "SELECTED"),
+        ("Yorkshire - West", "POSSIBLE_SELECTION"),
+        ("Yorkshire - South", "SELECTED"),
+        ("Yorkshire - South", "POSSIBLE_SELECTION"),
         *[(region, "SELECTED") for region in NORTH_EAST_DETAILED_REGIONS],
         *[(region, "POSSIBLE_SELECTION") for region in NORTH_EAST_DETAILED_REGIONS],
     ]
@@ -2019,10 +2019,10 @@ def write_manual_review_markdown(
     ]
 
     groups = [
-        ("WEST YORKSHIRE — SELECTED", "West Yorkshire", "SELECTED", "SELECTED"),
-        ("WEST YORKSHIRE — POSSIBLES", "West Yorkshire", "POSSIBLE_SELECTION", "POSS"),
-        ("SOUTH YORKSHIRE — SELECTED", "South Yorkshire", "SELECTED", "SELECTED"),
-        ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+        ("WEST YORKSHIRE — SELECTED", "Yorkshire - West", "SELECTED", "SELECTED"),
+        ("WEST YORKSHIRE — POSSIBLES", "Yorkshire - West", "POSSIBLE_SELECTION", "POSS"),
+        ("SOUTH YORKSHIRE — SELECTED", "Yorkshire - South", "SELECTED", "SELECTED"),
+        ("SOUTH YORKSHIRE — POSSIBLES", "Yorkshire - South", "POSSIBLE_SELECTION", "POSS"),
         *[(f"{region.upper()} — SELECTED", region, "SELECTED", "SELECTED") for region in NORTH_EAST_DETAILED_REGIONS],
         *[(f"{region.upper()} — POSSIBLES", region, "POSSIBLE_SELECTION", "POSS") for region in NORTH_EAST_DETAILED_REGIONS],
     ]
@@ -2239,10 +2239,10 @@ def main() -> int:
 
     print("Done. V_12 simple support-worker selector workflow complete.")
     print(f"Input rows: {len(job_df)}")
-    print("West Yorkshire output: all selected valid jobs; check validation-report-support-worker.csv for actual count")
-    print("South Yorkshire output: all selected valid jobs; check validation-report-support-worker.csv for actual count")
+    print("Yorkshire - West output: all selected valid jobs; check validation-report-support-worker.csv for actual count")
+    print("Yorkshire - South output: all selected valid jobs; check validation-report-support-worker.csv for actual count")
     for region in OUTPUT_FILES:
-        if region not in {"West Yorkshire", "South Yorkshire"}:
+        if region not in {"Yorkshire - West", "Yorkshire - South"}:
             print(f"{region} output: all selected valid jobs; check validation-report-support-worker.csv for actual count")
     print(f"Dropped rows: {sum(1 for r in report_rows if r['decision'] == 'DROPPED')}")
     print("Files written to /output-support-worker")
