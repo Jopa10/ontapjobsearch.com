@@ -4,6 +4,7 @@ import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
 import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
 import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
+import londonServiceAdministratorJobs from './london/service-administrator-jobs.json';
 
 type Job = {
   title?: string;
@@ -65,6 +66,10 @@ const popularSearches = [
   {
     label: 'North East service administrator jobs',
     href: '/north-east/service-administrator-jobs',
+  },
+  {
+    label: 'London service administrator jobs',
+    href: '/london/service-administrator-jobs',
   },
   {
     label: 'West Yorkshire support worker jobs',
@@ -153,6 +158,14 @@ const serviceAdministratorSlices: SliceCard[] = [
     ctaText: 'View North East jobs →',
     sliceUrl: '/north-east/service-administrator-jobs',
     jobs: northEastServiceAdministratorJobs,
+  },
+  {
+    title: 'London Admin & Customer Service Jobs',
+    intro:
+      'Current service administrator, customer service administrator and office support roles across London.',
+    ctaText: 'View London jobs →',
+    sliceUrl: '/london/service-administrator-jobs',
+    jobs: londonServiceAdministratorJobs,
   },
 ];
 
@@ -250,8 +263,8 @@ export default function Page() {
         </h1>
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
-          Current service administrator, office support and customer-service roles across Yorkshire
-          and the North East. Updated daily; apply directly on employer sites.
+          Current service administrator, office support and customer-service roles across London,
+          Yorkshire and the North East. Updated daily; apply directly on employer sites.
         </p>
 
         <section className="mb-5">
