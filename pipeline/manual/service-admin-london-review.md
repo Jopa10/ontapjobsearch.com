@@ -10,18 +10,6 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | London | London | £40000 per year | IT Administrator - Japanese speaking
-job_id: d8f7eb2b-27a9-444b-9308-88e5b79e4450
----
-
----
-action:
-SELECTED | London | London | £60000 - £80000 per year | NetSuite Administrator Hyper-Growth Retail
-job_id: 5292868c-8ca9-4001-9c66-343a70ec9606
----
-
----
-action:
 SELECTED | London | London | £27000 - £30000 per year | Finance Administrator INNOVATIVE FIRM
 job_id: 7a0c9b11-2e40-4e96-b556-bffc8b642da8
 ---
@@ -72,12 +60,6 @@ job_id: 5d9fb5dd-9dfb-459d-9e5c-26e1da48ab22
 action:
 SELECTED | London | London | £32000 per year | Purchasing and Shipping Administrator
 job_id: 81e1c860-ef3d-4e7e-81ca-dec75acfc8de
----
-
----
-action:
-SELECTED | London | Harrow | £29000 per year | Credit Administrator
-job_id: 33eab37d-af87-4704-9471-df90f5cef85c
 ---
 
 ---
@@ -148,18 +130,6 @@ job_id: c5d96f98-5957-49dd-a820-1562582caf76
 
 ---
 action:
-SELECTED | London | London | £100000 per year | Company Secretary
-job_id: c5d8f5f4-b759-46de-91b1-258001fb3746
----
-
----
-action:
-SELECTED | London | Croydon | £32000 - £37000 per year | IT Administrator
-job_id: a39777bf-ea97-4765-aa67-7bc5816b084d
----
-
----
-action:
 SELECTED | London | London | £50000 - £65000 per year | Evening Legal Secretary
 job_id: c05fb70f-0622-4751-93ea-9141e25de21c
 ---
@@ -202,12 +172,6 @@ job_id: 107663038
 
 ---
 action:
-SELECTED | London | London |  | Company Secretary Assistant
-job_id: a28c6112-4b4f-46b0-91e7-cfaa547c936e
----
-
----
-action:
 SELECTED | London | London | £29436 - £29856 per year | Receptionist and Administrator
 job_id: 2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
 ---
@@ -216,12 +180,6 @@ job_id: 2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
 action:
 SELECTED | London | City | £50 per month | Office Administrator
 job_id: 24879_101888085
----
-
----
-action:
-SELECTED | London | Harrow | £15.36 per hour | Extra Care Support Coordinator
-job_id: 107652249
 ---
 
 ---
@@ -240,12 +198,6 @@ job_id: 107604881
 action:
 SELECTED | London | London |  | CRM Data Administrator
 job_id: 107657111
----
-
----
-action:
-SELECTED | London | London | £39,685 - £43,978 per annum | Assistant Design & Technical Coordinator
-job_id: 107649502
 ---
 
 ## LONDON — POSSIBLES
