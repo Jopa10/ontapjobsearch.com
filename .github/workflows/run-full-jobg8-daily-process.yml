@@ -44,6 +44,7 @@ jobs:
           with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
               handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
               handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
+              handle.write(f"london_admin_service={'true' if ('London', 'admin_service') in active else 'false'}\n")
           PY
 
       - name: Resolve current JobG8 month
@@ -58,6 +59,15 @@ jobs:
       - name: Verify North East service-admin output
         if: steps.slice-register.outputs.admin_service == 'true'
         run: test -s pipeline/output-admin-service/north-east-admin-service.json
+
+      - name: Run London service-admin pipeline
+        if: steps.slice-register.outputs.london_admin_service == 'true'
+        working-directory: pipeline
+        run: python -m scripts.london_admin_pipeline
+
+      - name: Verify London service-admin output
+        if: steps.slice-register.outputs.london_admin_service == 'true'
+        run: test -s pipeline/output-admin-service/london-admin-service.json
 
       - name: Run support-worker pipeline
         if: steps.slice-register.outputs.support_worker == 'true'
@@ -88,7 +98,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)(-london)?\.csv$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$staged_files"
@@ -105,6 +115,8 @@ jobs:
           manual_review_paths=(
             "pipeline/manual/service-admin-review.csv"
             "pipeline/manual/service-admin-review.md"
+            "pipeline/manual/service-admin-london-review.csv"
+            "pipeline/manual/service-admin-london-review.md"
             "pipeline/manual/support-worker-review.csv"
             "pipeline/manual/support-worker-review.md"
           )
@@ -124,7 +136,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/manual/service-admin-review.csv" && $0 != "pipeline/manual/service-admin-review.md" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/manual/service-admin-review.csv" && $0 != "pipeline/manual/service-admin-review.md" && $0 != "pipeline/manual/service-admin-london-review.csv" && $0 != "pipeline/manual/service-admin-london-review.md" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 manual review files. Staged files:"
             printf '%s\n' "$staged_files"
