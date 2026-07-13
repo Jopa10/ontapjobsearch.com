@@ -2003,6 +2003,8 @@ def _manual_review_preview_rows(
         ("Yorkshire - South", "POSSIBLE_SELECTION"),
         ("North East", "SELECTED"),
         ("North East", "POSSIBLE_SELECTION"),
+        ("London", "SELECTED"),
+        ("London", "POSSIBLE_SELECTION"),
     ]
     for region, status in groups:
         group_rows = _markdown_review_rows(rows, region, status)
@@ -2048,6 +2050,8 @@ def write_manual_review_markdown(
         ("SOUTH YORKSHIRE — POSSIBLES", "Yorkshire - South", "POSSIBLE_SELECTION", "POSS"),
         ("NORTH EAST — SELECTED", "North East", "SELECTED", "SELECTED"),
         ("NORTH EAST — POSSIBLES", "North East", "POSSIBLE_SELECTION", "POSS"),
+        ("LONDON — SELECTED", "London", "SELECTED", "SELECTED"),
+        ("LONDON — POSSIBLES", "London", "POSSIBLE_SELECTION", "POSS"),
     ]
 
     emitted_job_ids: set[str] = set()
