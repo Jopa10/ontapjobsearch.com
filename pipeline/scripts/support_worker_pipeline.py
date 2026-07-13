@@ -183,11 +183,9 @@ OUTPUT_FILES = {
 }
 
 
-ANCHOR_TOWNS = {
-    "West Yorkshire": "Leeds",
-    "South Yorkshire": "Sheffield",
-    "North East": "Newcastle Upon Tyne",
-}
+# Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
+# No hard-coded fallback: missing or invalid configuration stops the pipeline.
+ANCHOR_TOWNS: dict[str, str] = {}
 
 PUBLISH_THRESHOLDS = {
     "West Yorkshire": 6,
@@ -665,6 +663,63 @@ def read_xlsx_sheet(path: Path, sheet_name: str | int = 0, nrows: int | None = N
         padded = row + [""] * max(0, len(columns) - len(row))
         data_rows.append({columns[idx]: padded[idx] if idx < len(padded) else "" for idx in range(len(columns))})
     return pd.DataFrame(data_rows, columns=columns)
+
+
+def load_anchor_towns(path: Path, category: str) -> dict[str, str]:
+    """Load one category's authoritative region -> anchor-town mapping."""
+    required_columns = {"region", "category", "anchor_town"}
+    try:
+        anchor_df = read_xlsx_sheet(path, sheet_name="Anchor_towns")
+    except Exception as exc:
+        raise SystemExit(
+            "STOP: default geo lookup file must contain an Anchor_towns sheet "
+            "with columns named exactly: region, category, anchor_town "
+            f"({DEFAULT_GEO_LOOKUP_DISPLAY_PATH})"
+        ) from exc
+
+    if not required_columns.issubset(set(anchor_df.columns)):
+        raise SystemExit(
+            "STOP: Anchor_towns sheet must contain columns named exactly: "
+            "region, category, anchor_town "
+            f"({DEFAULT_GEO_LOOKUP_DISPLAY_PATH})"
+        )
+
+    anchors: dict[str, str] = {}
+    for _, row in anchor_df.iterrows():
+        row_category = norm_key(row.get("category"))
+        if row_category != norm_key(category):
+            continue
+        region = norm(row.get("region"))
+        anchor_town = norm(row.get("anchor_town"))
+        if not region and not anchor_town:
+            continue
+        if not region or not anchor_town:
+            raise SystemExit(
+                f"STOP: Anchor_towns contains a partial row for category {category!r}."
+            )
+        if region in anchors:
+            raise SystemExit(
+                f"STOP: Anchor_towns contains duplicate rows for region {region!r} "
+                f"and category {category!r}."
+            )
+        anchors[region] = anchor_town
+
+    required_regions = set(OUTPUT_FILES)
+    missing_regions = sorted(required_regions - set(anchors))
+    unexpected_regions = sorted(set(anchors) - required_regions)
+    if missing_regions:
+        raise SystemExit(
+            f"STOP: Anchor_towns is missing required {category} region(s): "
+            + ", ".join(missing_regions)
+        )
+    if unexpected_regions:
+        raise SystemExit(
+            f"STOP: Anchor_towns contains unsupported {category} region(s): "
+            + ", ".join(unexpected_regions)
+        )
+
+    return anchors
+
 
 def _table_has_columns(path: Path, required: set[str], sheet_name: str | int = 0) -> bool:
     """Cheap header check used to identify lookup/register files safely."""
@@ -2127,6 +2182,9 @@ def main() -> int:
 
     job_file = find_input_file(JOB_FILE_KEYWORDS)
     lookup_file = find_lookup_file(job_file)
+
+    global ANCHOR_TOWNS
+    ANCHOR_TOWNS = load_anchor_towns(lookup_file, "support_worker")
 
     print(f"Reading JobG8 export: {job_file}")
     job_df = read_table(job_file)
