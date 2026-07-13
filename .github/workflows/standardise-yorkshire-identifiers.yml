@@ -1,19 +1,20 @@
 name: Standardise Yorkshire identifiers
 
 on:
-  push:
+  pull_request:
     branches:
-      - agent/standardise-yorkshire-region-identifiers
+      - main
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
 
 jobs:
   migrate-and-validate:
-    if: ${{ !contains(github.event.head_commit.message, '[skip yorkshire migration]') }}
+    if: ${{ github.head_ref == 'agent/standardise-yorkshire-region-identifiers' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Check out branch
+      - name: Check out feature branch
         uses: actions/checkout@v4
         with:
           ref: agent/standardise-yorkshire-region-identifiers
@@ -33,7 +34,7 @@ jobs:
           cp pipeline/output-admin-service/*.json /tmp/ontap-baseline/admin/
           cp pipeline/output-support-worker/*.json /tmp/ontap-baseline/support/
 
-      - name: Standardise authoritative and production identifiers
+      - name: Confirm workbook and standardise production identifiers
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -53,16 +54,15 @@ jobs:
           required = {"region", "category", "anchor_town"}
           if not required.issubset(headers):
               raise SystemExit(f"Anchor_towns missing columns: {sorted(required - set(headers))}")
-          changed_rows = 0
+
           region_col = headers["region"]
-          for row in range(2, ws.max_row + 1):
-              value = ws.cell(row=row, column=region_col).value
-              if value in replacements:
-                  ws.cell(row=row, column=region_col).value = replacements[value]
-                  changed_rows += 1
-          if changed_rows != 4:
-              raise SystemExit(f"Expected 4 Anchor_towns rows to change; changed {changed_rows}")
-          wb.save(workbook_path)
+          values = [ws.cell(row=row, column=region_col).value for row in range(2, ws.max_row + 1)]
+          old_count = sum(values.count(old) for old in replacements)
+          new_count = sum(values.count(new) for new in replacements.values())
+          if old_count != 0 or new_count != 4:
+              raise SystemExit(
+                  f"Unexpected Anchor_towns Yorkshire rows: old={old_count}, new={new_count}; expected old=0, new=4"
+              )
 
           for path in [
               Path("pipeline/scripts/service_admin_pipeline.py"),
@@ -127,18 +127,18 @@ jobs:
           python -m py_compile pipeline/scripts/service_admin_pipeline.py pipeline/scripts/support_worker_pipeline.py
           pytest -q tests/test_pipeline_possible_selection.py
 
-      - name: Restore generated files and commit intended changes only
+      - name: Restore generated files and commit final source changes
         run: |
           set -euo pipefail
           git restore pipeline/manual pipeline/reports-daily pipeline/output-admin-service pipeline/output-support-worker app || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/geo/geo_lookup.xlsx \
-                  pipeline/scripts/service_admin_pipeline.py \
-                  pipeline/scripts/support_worker_pipeline.py
+          git add pipeline/scripts/service_admin_pipeline.py pipeline/scripts/support_worker_pipeline.py
+          git rm .github/workflows/standardise-yorkshire-identifiers.yml .github/yorkshire-migration-trigger.txt
           staged="$(git diff --cached --name-only)"
           expected="$(printf '%s\n' \
-            pipeline/geo/geo_lookup.xlsx \
+            .github/workflows/standardise-yorkshire-identifiers.yml \
+            .github/yorkshire-migration-trigger.txt \
             pipeline/scripts/service_admin_pipeline.py \
             pipeline/scripts/support_worker_pipeline.py | sort)"
           actual="$(printf '%s\n' "$staged" | sort)"
@@ -147,5 +147,5 @@ jobs:
             printf '%s\n' "$staged"
             exit 1
           fi
-          git commit -m "Standardise Yorkshire region identifiers [skip yorkshire migration]"
+          git commit -m "Standardise Yorkshire region identifiers"
           git push
