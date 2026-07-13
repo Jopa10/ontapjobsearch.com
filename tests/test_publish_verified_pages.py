@@ -6,7 +6,10 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
-SCRIPT = Path(__file__).resolve().parents[1] / "pipeline/scripts/publish_verified_pages.py"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "pipeline" / "scripts"
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+SCRIPT = SCRIPTS_DIR / "publish_verified_pages.py"
 spec = importlib.util.spec_from_file_location("publish_verified_pages", SCRIPT)
 publish = importlib.util.module_from_spec(spec)
 sys.modules[spec.name] = publish
@@ -18,6 +21,30 @@ class PublishVerifiedPagesTests(unittest.TestCase):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
 
+    def mapping(self, source, dest):
+        return publish.Mapping("Test", "Test Region", "admin_service", source, dest)
+
+    def active(self):
+        return {("Test Region", "admin_service")}
+
+    def test_non_live_slice_is_skipped_before_reading_source(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            dest = Path("live.json")
+            live = [{"job_id": "existing", "title": "Existing", "apply_url": "https://example.com/existing"}]
+            self.write_json(root / dest, live)
+
+            result = publish.publish_one(
+                self.mapping(Path("missing-source.json"), dest),
+                write=True,
+                active_slices=set(),
+                root=root,
+            )
+
+            self.assertEqual(result["status"], "skipped")
+            self.assertIn("not LIVE", result["reason"])
+            self.assertEqual(json.loads((root / dest).read_text()), live)
+
     def test_duplicate_job_id_fails_validation(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -27,7 +54,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             self.write_json(root / source, [row, dict(row)])
             self.write_json(root / dest, [])
 
-            result = publish.publish_one(publish.Mapping("Test", source, dest), write=True, root=root)
+            result = publish.publish_one(self.mapping(source, dest), write=True, active_slices=self.active(), root=root)
 
             self.assertEqual(result["status"], "failed")
             self.assertIn("duplicate job_id", result["reason"])
@@ -42,7 +69,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             self.write_json(root / source, [])
             self.write_json(root / dest, live)
 
-            result = publish.publish_one(publish.Mapping("Test", source, dest), write=True, root=root)
+            result = publish.publish_one(self.mapping(source, dest), write=True, active_slices=self.active(), root=root)
 
             self.assertEqual(result["status"], "skipped")
             self.assertEqual(json.loads((root / dest).read_text()), live)
@@ -54,7 +81,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             dest = Path("missing/live.json")
             self.write_json(root / source, [{"job_id": "1", "title": "Role", "apply_url": "https://example.com/apply"}])
 
-            result = publish.publish_one(publish.Mapping("Test", source, dest), write=True, root=root)
+            result = publish.publish_one(self.mapping(source, dest), write=True, active_slices=self.active(), root=root)
 
             self.assertEqual(result["status"], "failed")
             self.assertIn("destination parent directory does not exist", result["reason"])
@@ -79,7 +106,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
                     original_atomic_write(path, content)
 
             with mock.patch.object(publish, "atomic_write", side_effect=tamper_once):
-                result = publish.publish_one(publish.Mapping("Test", source, dest), write=True, root=root)
+                result = publish.publish_one(self.mapping(source, dest), write=True, active_slices=self.active(), root=root)
 
             self.assertEqual(result["status"], "failed")
             self.assertIn("restored previous destination", result["reason"])
