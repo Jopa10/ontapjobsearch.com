@@ -67,6 +67,7 @@ jobs:
           for path in [
               Path("pipeline/scripts/service_admin_pipeline.py"),
               Path("pipeline/scripts/support_worker_pipeline.py"),
+              Path("tests/test_pipeline_possible_selection.py"),
           ]:
               text = path.read_text(encoding="utf-8")
               counts = {old: text.count(old) for old in replacements}
@@ -133,14 +134,17 @@ jobs:
           git restore pipeline/manual pipeline/reports-daily pipeline/output-admin-service pipeline/output-support-worker app || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/scripts/service_admin_pipeline.py pipeline/scripts/support_worker_pipeline.py
+          git add pipeline/scripts/service_admin_pipeline.py \
+                  pipeline/scripts/support_worker_pipeline.py \
+                  tests/test_pipeline_possible_selection.py
           git rm .github/workflows/standardise-yorkshire-identifiers.yml .github/yorkshire-migration-trigger.txt
           staged="$(git diff --cached --name-only)"
           expected="$(printf '%s\n' \
             .github/workflows/standardise-yorkshire-identifiers.yml \
             .github/yorkshire-migration-trigger.txt \
             pipeline/scripts/service_admin_pipeline.py \
-            pipeline/scripts/support_worker_pipeline.py | sort)"
+            pipeline/scripts/support_worker_pipeline.py \
+            tests/test_pipeline_possible_selection.py | sort)"
           actual="$(printf '%s\n' "$staged" | sort)"
           if [ "$actual" != "$expected" ]; then
             echo "::error::Unexpected staged files"
