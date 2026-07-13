@@ -1,0 +1,16 @@
+region,category,status
+Yorkshire - West,admin_service,LIVE
+Yorkshire - South,admin_service,LIVE
+North East,admin_service,LIVE
+Yorkshire - West,support_worker,LIVE
+Yorkshire - South,support_worker,LIVE
+North East,support_worker,LIVE
+London,admin_service,CANDIDATE
+Northern Ireland - East,admin_service,CANDIDATE
+Hampshire,admin_service,CANDIDATE
+Surrey,admin_service,CANDIDATE
+Sussex,support_worker,CANDIDATE
+Hampshire,support_worker,CANDIDATE
+Cumbria - South,support_worker,CANDIDATE
+Lancashire - North,support_worker,CANDIDATE
+Cumbria - North,support_worker,CANDIDATE
