@@ -20,10 +20,10 @@ V12_3 additions:
 - separate selection-summary-report.csv for quick per-region QA
 
 V11 additions:
-- expanded North-of-England regional selection: West Yorkshire, South Yorkshire, Lancashire, Greater Manchester, Cumbria, North East
+- expanded North-of-England regional selection: Yorkshire - West, Yorkshire - South, Lancashire, Greater Manchester, Cumbria, North East
 
 V10 additions:
-- daily selection scenario reporting for West/South Yorkshire
+- daily selection scenario reporting for West/Yorkshire - South
 - manual_select = 1 for Scenario 3 candidate fill
 - anchor-town selection logic before final output
 
@@ -169,14 +169,14 @@ EXCLUDE_TERMS = [
 
 REGION_MAP = {
     # Existing V10_3 regions
-    "yorkshire - west": "West Yorkshire",
-    "yorkshire (west)": "West Yorkshire",
-    "yorkshire west": "West Yorkshire",
-    "west yorkshire": "West Yorkshire",
-    "yorkshire - south": "South Yorkshire",
-    "yorkshire (south)": "South Yorkshire",
-    "yorkshire south": "South Yorkshire",
-    "south yorkshire": "South Yorkshire",
+    "yorkshire - west": "Yorkshire - West",
+    "yorkshire (west)": "Yorkshire - West",
+    "yorkshire west": "Yorkshire - West",
+    "west yorkshire": "Yorkshire - West",
+    "yorkshire - south": "Yorkshire - South",
+    "yorkshire (south)": "Yorkshire - South",
+    "yorkshire south": "Yorkshire - South",
+    "south yorkshire": "Yorkshire - South",
 
     # V11 North expansion regions. These map lookup.xlsx Cluster values to clean internal region names.
     "lancashire": "Lancashire",
@@ -203,16 +203,16 @@ COMBINED_OUTPUT_REGION_MAP = {
 }
 
 OUTPUT_FILES = {
-    "West Yorkshire": "west-yorkshire-admin-service.json",
-    "South Yorkshire": "south-yorkshire-admin-service.json",
+    "Yorkshire - West": "west-yorkshire-admin-service.json",
+    "Yorkshire - South": "south-yorkshire-admin-service.json",
     "North East": "north-east-admin-service.json",
 }
 # Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
 # No hard-coded fallback: missing or invalid configuration stops the pipeline.
 ANCHOR_TOWNS: dict[str, str] = {}
 PUBLISH_THRESHOLDS = {
-    "West Yorkshire": 6,
-    "South Yorkshire": 6,
+    "Yorkshire - West": 6,
+    "Yorkshire - South": 6,
     "North East": 6,
 }
 
@@ -1994,10 +1994,10 @@ def _manual_review_preview_rows(
     preview_rows: list[dict[str, Any]] = []
     preview_job_ids: set[str] = set()
     groups = [
-        ("West Yorkshire", "SELECTED"),
-        ("West Yorkshire", "POSSIBLE_SELECTION"),
-        ("South Yorkshire", "SELECTED"),
-        ("South Yorkshire", "POSSIBLE_SELECTION"),
+        ("Yorkshire - West", "SELECTED"),
+        ("Yorkshire - West", "POSSIBLE_SELECTION"),
+        ("Yorkshire - South", "SELECTED"),
+        ("Yorkshire - South", "POSSIBLE_SELECTION"),
         ("North East", "SELECTED"),
         ("North East", "POSSIBLE_SELECTION"),
     ]
@@ -2039,10 +2039,10 @@ def write_manual_review_markdown(
     ]
 
     groups = [
-        ("WEST YORKSHIRE — SELECTED", "West Yorkshire", "SELECTED", "SELECTED"),
-        ("WEST YORKSHIRE — POSSIBLES", "West Yorkshire", "POSSIBLE_SELECTION", "POSS"),
-        ("SOUTH YORKSHIRE — SELECTED", "South Yorkshire", "SELECTED", "SELECTED"),
-        ("SOUTH YORKSHIRE — POSSIBLES", "South Yorkshire", "POSSIBLE_SELECTION", "POSS"),
+        ("WEST YORKSHIRE — SELECTED", "Yorkshire - West", "SELECTED", "SELECTED"),
+        ("WEST YORKSHIRE — POSSIBLES", "Yorkshire - West", "POSSIBLE_SELECTION", "POSS"),
+        ("SOUTH YORKSHIRE — SELECTED", "Yorkshire - South", "SELECTED", "SELECTED"),
+        ("SOUTH YORKSHIRE — POSSIBLES", "Yorkshire - South", "POSSIBLE_SELECTION", "POSS"),
         ("NORTH EAST — SELECTED", "North East", "SELECTED", "SELECTED"),
         ("NORTH EAST — POSSIBLES", "North East", "POSSIBLE_SELECTION", "POSS"),
     ]

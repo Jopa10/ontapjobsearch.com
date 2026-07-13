@@ -21,6 +21,9 @@ def load_script(module_name):
 support_worker = load_script("support_worker_pipeline")
 service_admin = load_script("service_admin_pipeline")
 
+support_worker.ANCHOR_TOWNS = {"Yorkshire - West": "Leeds"}
+service_admin.ANCHOR_TOWNS = {"Yorkshire - West": "Leeds"}
+
 
 def make_item(job_id, row, *, manual_select="", title_classification="ELASTIC_FIT", location="Bradford"):
     return {
@@ -34,7 +37,7 @@ def make_item(job_id, row, *, manual_select="", title_classification="ELASTIC_FI
     }
 
 
-def make_report_row(item, region="West Yorkshire"):
+def make_report_row(item, region="Yorkshire - West"):
     return {
         "job_id": item["job_id"],
         "title": item["title"],
@@ -49,8 +52,8 @@ class PossibleSelectionReviewTests(unittest.TestCase):
     def assert_all_possible_rows_are_preserved(self, module):
         selected = make_item("selected", 1, manual_select="1", location="Leeds")
         possibles = [make_item(f"possible-{idx}", idx + 2) for idx in range(8)]
-        outputs = {"West Yorkshire": [selected, *possibles]}
-        report_rows = [make_report_row(item) for item in outputs["West Yorkshire"]]
+        outputs = {"Yorkshire - West": [selected, *possibles]}
+        report_rows = [make_report_row(item) for item in outputs["Yorkshire - West"]]
 
         final_outputs, region_status = module.anchor_sort_and_select(
             outputs,
@@ -58,8 +61,8 @@ class PossibleSelectionReviewTests(unittest.TestCase):
             manual_rerun_mode=True,
         )
 
-        self.assertEqual([row["job_id"] for row in final_outputs["West Yorkshire"]], ["selected"])
-        self.assertEqual(region_status["West Yorkshire"]["selected_count"], 1)
+        self.assertEqual([row["job_id"] for row in final_outputs["Yorkshire - West"]], ["selected"])
+        self.assertEqual(region_status["Yorkshire - West"]["selected_count"], 1)
 
         possible_rows = [row for row in report_rows if row.get("selection_status") == "POSSIBLE_SELECTION"]
         self.assertEqual([row["job_id"] for row in possible_rows], [item["job_id"] for item in possibles])
