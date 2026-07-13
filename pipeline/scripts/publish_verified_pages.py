@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish the six verified pipeline JSON pages to their live page JSON files."""
+"""Publish verified pipeline JSON pages for slices marked LIVE in the register."""
 
 from __future__ import annotations
 
@@ -11,23 +11,27 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
+from slice_registry import live_slices
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 @dataclass(frozen=True)
 class Mapping:
     label: str
+    region: str
+    category: str
     source: Path
     destination: Path
 
 
 MAPPINGS: tuple[Mapping, ...] = (
-    Mapping("North East service administrator jobs", Path("pipeline/output-admin-service/north-east-admin-service.json"), Path("app/north-east/service-administrator-jobs.json")),
-    Mapping("South Yorkshire service administrator jobs", Path("pipeline/output-admin-service/south-yorkshire-admin-service.json"), Path("app/south-yorkshire/service-administrator-jobs.json")),
-    Mapping("West Yorkshire service administrator jobs", Path("pipeline/output-admin-service/west-yorkshire-admin-service.json"), Path("app/west-yorkshire/service-administrator-jobs.json")),
-    Mapping("North East support worker jobs", Path("pipeline/output-support-worker/north-east-support-worker.json"), Path("app/north-east/support-worker-jobs.json")),
-    Mapping("South Yorkshire support worker jobs", Path("pipeline/output-support-worker/south-yorkshire-support-worker.json"), Path("app/south-yorkshire/support-worker.json")),
-    Mapping("West Yorkshire support worker jobs", Path("pipeline/output-support-worker/west-yorkshire-support-worker.json"), Path("app/west-yorkshire/support-worker.json")),
+    Mapping("North East service administrator jobs", "North East", "admin_service", Path("pipeline/output-admin-service/north-east-admin-service.json"), Path("app/north-east/service-administrator-jobs.json")),
+    Mapping("South Yorkshire service administrator jobs", "Yorkshire - South", "admin_service", Path("pipeline/output-admin-service/south-yorkshire-admin-service.json"), Path("app/south-yorkshire/service-administrator-jobs.json")),
+    Mapping("West Yorkshire service administrator jobs", "Yorkshire - West", "admin_service", Path("pipeline/output-admin-service/west-yorkshire-admin-service.json"), Path("app/west-yorkshire/service-administrator-jobs.json")),
+    Mapping("North East support worker jobs", "North East", "support_worker", Path("pipeline/output-support-worker/north-east-support-worker.json"), Path("app/north-east/support-worker-jobs.json")),
+    Mapping("South Yorkshire support worker jobs", "Yorkshire - South", "support_worker", Path("pipeline/output-support-worker/south-yorkshire-support-worker.json"), Path("app/south-yorkshire/support-worker.json")),
+    Mapping("West Yorkshire support worker jobs", "Yorkshire - West", "support_worker", Path("pipeline/output-support-worker/west-yorkshire-support-worker.json"), Path("app/west-yorkshire/support-worker.json")),
 )
 
 STATUSES = ("published", "unchanged", "skipped", "failed")
@@ -91,7 +95,13 @@ def atomic_write(path: Path, content: str) -> None:
             os.unlink(temp_name)
 
 
-def publish_one(mapping: Mapping, *, write: bool, root: Path = REPO_ROOT) -> dict[str, Any]:
+def publish_one(
+    mapping: Mapping,
+    *,
+    write: bool,
+    active_slices: set[tuple[str, str]],
+    root: Path = REPO_ROOT,
+) -> dict[str, Any]:
     source = root / mapping.source
     destination = root / mapping.destination
     result = {
@@ -102,6 +112,10 @@ def publish_one(mapping: Mapping, *, write: bool, root: Path = REPO_ROOT) -> dic
         "status": "failed",
         "reason": "",
     }
+
+    if (mapping.region, mapping.category) not in active_slices:
+        result.update(status="skipped", reason="slice is not LIVE in region_category_slice_register.csv")
+        return result
 
     try:
         source_data = validate_source(source)
@@ -134,7 +148,7 @@ def publish_one(mapping: Mapping, *, write: bool, root: Path = REPO_ROOT) -> dic
             raise RuntimeError("post-write canonical destination content does not equal validated source content")
         result.update(status="published", reason="destination updated and post-write verification passed")
         return result
-    except Exception as exc:  # keep processing remaining mappings
+    except Exception as exc:
         if write and destination.exists() and "previous_text" in locals():
             try:
                 atomic_write(destination, previous_text)
@@ -165,9 +179,13 @@ def main() -> int:
     mode.add_argument("--write", action="store_true", help="publish changed verified pages")
     args = parser.parse_args()
 
-    results = [publish_one(mapping, write=args.write) for mapping in MAPPINGS]
+    active_slices = live_slices()
+    results = [
+        publish_one(mapping, write=args.write, active_slices=active_slices)
+        for mapping in MAPPINGS
+    ]
     print(format_report(results), end="")
-    return 0
+    return 1 if any(row["status"] == "failed" for row in results) else 0
 
 
 if __name__ == "__main__":
