@@ -27,6 +27,7 @@ jobs:
         id: slice-register
         run: |
           python - <<'PY'
+          import os
           import sys
           from pathlib import Path
 
@@ -40,7 +41,7 @@ jobs:
               print(f"- {region} / {category}")
 
           categories = {category for _, category in active}
-          with Path("$GITHUB_OUTPUT").open("a", encoding="utf-8") as handle:
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
               handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
               handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
           PY
