@@ -194,6 +194,7 @@ REGION_MAP = {
     "north east - tees valley": "North East - Tees Valley",
     "tees valley": "North East - Tees Valley",
     "north east": "North East",
+    "london": "London",
 }
 
 COMBINED_OUTPUT_REGION_MAP = {
@@ -206,6 +207,7 @@ OUTPUT_FILES = {
     "Yorkshire - West": "west-yorkshire-admin-service.json",
     "Yorkshire - South": "south-yorkshire-admin-service.json",
     "North East": "north-east-admin-service.json",
+    "London": "london-admin-service.json",
 }
 # Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
 # No hard-coded fallback: missing or invalid configuration stops the pipeline.
@@ -214,6 +216,7 @@ PUBLISH_THRESHOLDS = {
     "Yorkshire - West": 6,
     "Yorkshire - South": 6,
     "North East": 6,
+    "London": 6,
 }
 
 CLASSIFICATION_PRIORITY = {
