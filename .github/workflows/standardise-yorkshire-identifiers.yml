@@ -64,11 +64,11 @@ jobs:
                   f"Unexpected Anchor_towns Yorkshire rows: old={old_count}, new={new_count}; expected old=0, new=4"
               )
 
-          for path in [
+          script_paths = [
               Path("pipeline/scripts/service_admin_pipeline.py"),
               Path("pipeline/scripts/support_worker_pipeline.py"),
-              Path("tests/test_pipeline_possible_selection.py"),
-          ]:
+          ]
+          for path in script_paths:
               text = path.read_text(encoding="utf-8")
               counts = {old: text.count(old) for old in replacements}
               if not all(counts.values()):
@@ -77,6 +77,16 @@ jobs:
                   text = text.replace(old, new)
               path.write_text(text, encoding="utf-8")
               print(path, counts)
+
+          test_path = Path("tests/test_pipeline_possible_selection.py")
+          test_text = test_path.read_text(encoding="utf-8")
+          test_counts = {old: test_text.count(old) for old in replacements}
+          if not any(test_counts.values()):
+              raise SystemExit(f"Expected at least one old identifier in {test_path}: {test_counts}")
+          for old, new in replacements.items():
+              test_text = test_text.replace(old, new)
+          test_path.write_text(test_text, encoding="utf-8")
+          print(test_path, test_counts)
           PY
 
       - name: Run production pipelines
