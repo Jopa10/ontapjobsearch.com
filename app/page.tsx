@@ -1,292 +1,319 @@
-import westYorkshireSupportWorkerJobs from './west-yorkshire/support-worker.json';
-import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.json';
-import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
-import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
-import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
-import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
-
-type Job = {
-  title?: string;
-  company?: string;
-  location?: string;
-  salary_text?: string;
-  apply_url?: string;
+type RegionChip = {
+  label: string;
+  href: string;
 };
 
-type SliceCard = {
-  title: string;
-  intro: string;
+type RoleFamilyCard = {
+  tone: 'blue' | 'green';
+  heading: string;
+  description: string;
   ctaText: string;
-  sliceUrl: string;
-  jobs: Job[];
+  ctaHref: string;
+  regions: RegionChip[];
+  viewAllHref: string;
 };
 
-function cleanMojibakeCurrency(text: string) {
-  return text.replaceAll('Â£', '£');
-}
+type RecentJobCard = {
+  title: string;
+  company: string;
+  region: string;
+  type: string;
+  href: string;
+};
 
-function formatSalaryText(text: string) {
-  return cleanMojibakeCurrency(text).replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
-    return `£${Number(amount).toLocaleString('en-GB')}`;
-  });
-}
-
-function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
-  return (
-    <article className="rounded-lg border border-gray-200 bg-white p-2 leading-tight">
-      <h3 className="mb-0.5 text-sm font-semibold leading-snug">{job.title}</h3>
-
-      <p className="mb-1 text-xs leading-snug text-gray-600">
-        {job.company} • {job.location}
-      </p>
-
-      {job.salary_text && (
-        <p className="mb-1 text-xs font-semibold leading-snug">
-          {formatSalaryText(job.salary_text)}
-        </p>
-      )}
-
-      <a href={sliceUrl} className="text-xs font-medium text-blue-700 hover:text-blue-900">
-        View role →
-      </a>
-    </article>
-  );
-}
-
-const popularSearches = [
+const roleFamilies: RoleFamilyCard[] = [
   {
-    label: 'West Yorkshire service administrator jobs',
+    tone: 'blue',
+    heading: 'Admin, office & customer service',
+    description: 'UK based administrator, office and customer-service roles.',
+    ctaText: 'Browse admin jobs',
+    ctaHref: '/west-yorkshire/service-administrator-jobs',
+    viewAllHref: '/browse-jobs',
+    regions: [
+      { label: 'West Yorkshire', href: '/west-yorkshire/service-administrator-jobs' },
+      { label: 'South Yorkshire', href: '/south-yorkshire/service-administrator-jobs' },
+      { label: 'North East', href: '/north-east/service-administrator-jobs' },
+      { label: 'Surrey', href: '/browse-jobs' },
+    ],
+  },
+  {
+    tone: 'green',
+    heading: 'Support worker & care roles',
+    description: 'UK support-worker, residential and support roles.',
+    ctaText: 'Browse support worker jobs',
+    ctaHref: '/north-east/support-worker',
+    viewAllHref: '/browse-jobs',
+    regions: [
+      { label: 'North East', href: '/north-east/support-worker' },
+      { label: 'Sussex', href: '/browse-jobs' },
+      { label: 'Hampshire', href: '/browse-jobs' },
+      { label: 'Cumbria', href: '/browse-jobs' },
+    ],
+  },
+];
+
+const recentJobs: RecentJobCard[] = [
+  {
+    title: 'Administrator',
+    company: 'Bright Futures Ltd',
+    region: 'Surrey',
+    type: 'Full-time',
     href: '/west-yorkshire/service-administrator-jobs',
   },
   {
-    label: 'South Yorkshire service administrator jobs',
-    href: '/south-yorkshire/service-administrator-jobs',
-  },
-  {
-    label: 'North East service administrator jobs',
-    href: '/north-east/service-administrator-jobs',
-  },
-  {
-    label: 'West Yorkshire support worker jobs',
-    href: '/west-yorkshire/support-worker',
-  },
-  {
-    label: 'South Yorkshire support worker jobs',
-    href: '/south-yorkshire/support-worker',
-  },
-  {
-    label: 'North East support worker jobs',
+    title: 'Support Worker',
+    company: 'Care Together',
+    region: 'Hampshire',
+    type: 'Part-time',
     href: '/north-east/support-worker',
   },
   {
-    label: 'Browse all jobs',
-    href: '/browse-jobs',
-  },
-];
-
-function createSupportWorkerSlice({
-  region,
-  title,
-  sliceUrl,
-  jobs,
-}: {
-  region: string;
-  title: string;
-  sliceUrl: string;
-  jobs: Job[];
-}): SliceCard {
-  const hasCurrentJobs = jobs.length > 0;
-
-  return {
-    title,
-    intro: hasCurrentJobs
-      ? `Current support-worker roles across ${region}.`
-      : `Paused / limited current supply while suitable support-worker roles are low in ${region}.`,
-    ctaText: hasCurrentJobs ? `View ${region} jobs →` : `Check ${region} page →`,
-    sliceUrl,
-    jobs,
-  };
-}
-
-const supportWorkerSlices: SliceCard[] = [
-  createSupportWorkerSlice({
+    title: 'Customer Service Advisor',
+    company: 'Connect Services',
     region: 'West Yorkshire',
-    title: 'West Yorkshire Support Worker Jobs',
-    sliceUrl: '/west-yorkshire/support-worker',
-    jobs: westYorkshireSupportWorkerJobs,
-  }),
-  createSupportWorkerSlice({
-    region: 'South Yorkshire',
-    title: 'South Yorkshire Support Worker Jobs',
-    sliceUrl: '/south-yorkshire/support-worker',
-    jobs: southYorkshireSupportWorkerJobs,
-  }),
-  createSupportWorkerSlice({
-    region: 'North East',
-    title: 'North East Support Worker Jobs',
-    sliceUrl: '/north-east/support-worker',
-    jobs: northEastSupportWorkerJobs,
-  }),
-];
-
-const serviceAdministratorSlices: SliceCard[] = [
-  {
-    title: 'West Yorkshire Admin & Customer Service Jobs',
-    intro:
-      'Current service administrator, customer service administrator and office support roles across West Yorkshire.',
-    ctaText: 'View West Yorkshire jobs →',
-    sliceUrl: '/west-yorkshire/service-administrator-jobs',
-    jobs: westYorkshireServiceAdministratorJobs,
-  },
-  {
-    title: 'South Yorkshire Admin & Customer Service Jobs',
-    intro:
-      'Current service administrator, customer service administrator and office support roles across South Yorkshire.',
-    ctaText: 'View South Yorkshire jobs →',
-    sliceUrl: '/south-yorkshire/service-administrator-jobs',
-    jobs: southYorkshireServiceAdministratorJobs,
-  },
-  {
-    title: 'North East Admin & Customer Service Jobs',
-    intro:
-      'Current service administrator, customer service administrator and office support roles across Newcastle and the North East.',
-    ctaText: 'View North East jobs →',
-    sliceUrl: '/north-east/service-administrator-jobs',
-    jobs: northEastServiceAdministratorJobs,
+    type: 'Full-time',
+    href: '/west-yorkshire/service-administrator-jobs',
   },
 ];
 
-function CardHeading({ title }: { title: string }) {
-  return <h3 className="mb-1 text-lg font-semibold leading-tight lg:whitespace-nowrap">{title}</h3>;
+function AdminIcon() {
+  return (
+    <svg aria-hidden="true" className="h-12 w-12" viewBox="0 0 48 48" fill="none">
+      <path
+        d="M10 35h28M16 35v-5h16v5M12 13h24v17H12V13Z"
+        stroke="currentColor"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M19 24c1.4-2 3-3 5-3s3.6 1 5 3"
+        stroke="currentColor"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+      />
+      <circle cx="24" cy="18" r="3" stroke="currentColor" strokeWidth="2.4" />
+    </svg>
+  );
 }
 
-function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
+function SupportIcon() {
   return (
-    <div className="grid gap-3 md:grid-cols-2">
-      {cards.map((card) => (
-        <section
-          key={card.sliceUrl}
-          className="rounded-xl border border-gray-200 p-2.5 hover:border-blue-300 hover:bg-blue-50"
+    <svg aria-hidden="true" className="h-12 w-12" viewBox="0 0 48 48" fill="none">
+      <path
+        d="M16 25c-3-3-3.5-7.5-.7-10.2 2.6-2.5 6.4-1.7 8.7 1.2 2.3-2.9 6.1-3.7 8.7-1.2 2.8 2.7 2.3 7.2-.7 10.2L24 33l-8-8Z"
+        stroke="currentColor"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11 28v7l9 5M37 28v7l-9 5"
+        stroke="currentColor"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function ArrowIcon() {
+  return (
+    <svg aria-hidden="true" className="h-4 w-4" viewBox="0 0 16 16" fill="none">
+      <path
+        d="M6 3.5 10.5 8 6 12.5"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function RoleCard({ card }: { card: RoleFamilyCard }) {
+  const isGreen = card.tone === 'green';
+  const cardClass = isGreen
+    ? 'border-emerald-100 bg-gradient-to-br from-emerald-50/80 via-white to-emerald-50/70 shadow-emerald-950/5'
+    : 'border-blue-100 bg-gradient-to-br from-blue-50/80 via-white to-slate-50 shadow-blue-950/5';
+  const iconClass = isGreen ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700';
+  const buttonClass = isGreen
+    ? 'bg-emerald-700 hover:bg-emerald-800 focus-visible:outline-emerald-700'
+    : 'bg-blue-700 hover:bg-blue-800 focus-visible:outline-blue-700';
+  const chipClass = isGreen
+    ? 'border-emerald-200 bg-emerald-50 text-emerald-900 hover:border-emerald-300'
+    : 'border-slate-200 bg-white text-slate-700 hover:border-blue-200';
+
+  return (
+    <section className={`rounded-xl border p-4 shadow-sm ${cardClass}`}>
+      <div className="flex gap-4">
+        <div
+          className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-full ${iconClass}`}
         >
-          <CardHeading title={card.title} />
-
-          <p className="mb-2 text-sm leading-snug text-gray-600">{card.intro}</p>
-
+          {isGreen ? <SupportIcon /> : <AdminIcon />}
+        </div>
+        <div className="min-w-0">
+          <h2 className="text-xl font-bold leading-tight tracking-tight text-slate-950 lg:whitespace-nowrap">
+            {card.heading}
+          </h2>
+          <p className="mt-2 max-w-none text-xs leading-4 text-slate-700 xl:whitespace-nowrap">
+            {card.description}
+          </p>
           <a
-            href={card.sliceUrl}
-            className="inline-block rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-medium text-white"
+            className={`mt-3 inline-flex items-center gap-2 rounded-md px-3 py-1.5 text-xs font-bold text-white shadow-sm transition ${buttonClass}`}
+            href={card.ctaHref}
           >
             {card.ctaText}
+            <ArrowIcon />
           </a>
+        </div>
+      </div>
 
-          <div className="mt-2 grid gap-1.5">
-            {card.jobs.slice(0, 1).map((job) => (
-              <MiniJobCard
-                key={`${card.sliceUrl}-${job.title}-${job.company}-${job.location}`}
-                job={job}
-                sliceUrl={card.sliceUrl}
-              />
-            ))}
-          </div>
-        </section>
-      ))}
-    </div>
+      <div className="mt-4 border-t border-slate-200 pt-3">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="mr-1 text-sm font-semibold text-slate-950">Popular regions</span>
+          {card.regions.map((region) => (
+            <a
+              key={region.label}
+              href={region.href}
+              className={`rounded-md border px-2.5 py-1 text-xs font-medium transition ${chipClass}`}
+            >
+              {region.label}
+            </a>
+          ))}
+          <a
+            href={card.viewAllHref}
+            className="ml-auto text-sm font-semibold text-blue-700 hover:text-blue-900"
+          >
+            View all
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }
 
 export default function Page() {
   return (
-    <>
-      <style>{`
-        body:has(main[data-homepage]) footer {
-          margin-top: 0.75rem;
-        }
-
-        body:has(main[data-homepage]) footer > div {
-          padding-top: 0.75rem;
-          padding-bottom: 0.75rem;
-        }
-
-        body:has(main[data-homepage]) footer > div > div:first-child {
-          gap: 0.5rem;
-        }
-
-        body:has(main[data-homepage]) footer > div > div:first-child > div:first-child,
-        body:has(main[data-homepage]) footer h4,
-        body:has(main[data-homepage]) footer > div > div:last-child {
-          display: none;
-        }
-
-        body:has(main[data-homepage]) footer ul {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 0.5rem 1rem;
-        }
-
-        body:has(main[data-homepage]) footer ul > :not([hidden]) ~ :not([hidden]) {
-          margin-top: 0;
-        }
-
-        @media (min-width: 768px) {
-          body:has(main[data-homepage]) footer {
-            margin-top: 1rem;
-          }
-
-          body:has(main[data-homepage]) footer > div {
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-          }
-
-          body:has(main[data-homepage]) footer > div > div:first-child {
-            display: flex;
-            justify-content: center;
-          }
-        }
-      `}</style>
-
-      <main data-homepage className="mx-auto max-w-6xl px-6 py-5">
-        <h1 className="mb-2 max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">
-          Admin, office support and customer-service jobs
-        </h1>
-
-        <p className="mb-2 max-w-3xl text-lg text-gray-700">
-          Current service administrator, office support and customer-service roles across Yorkshire
-          and the North East. Updated daily; apply directly on employer sites.
-        </p>
-
-        <section className="mb-5">
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">
-            Active service administrator jobs
-          </h2>
-          <SliceCardGrid cards={serviceAdministratorSlices} />
-        </section>
-
-        <section className="mt-12">
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">Support worker jobs</h2>
-          <SliceCardGrid cards={supportWorkerSlices} />
-
-          <p className="mt-2 text-xs text-gray-500">
-            Current support-worker roles are available in West Yorkshire and the North East. South
-            Yorkshire remains available as a retained page while current supply is limited.
+    <main className="bg-white">
+      <section id="about" className="mx-auto max-w-6xl px-4 pb-8 pt-9 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h1 className="text-2xl font-extrabold tracking-tight text-slate-950 sm:text-3xl">
+            Curated jobs by role and region
+          </h1>
+          <p className="mt-1 text-sm text-slate-600">
+            Current jobs, checked daily. No signup required.
           </p>
-        </section>
+        </div>
 
-        <section className="mt-4 rounded-xl border border-gray-100 bg-gray-50 p-3">
-          <h2 className="mb-2 text-base font-semibold text-gray-800">Popular job searches</h2>
+        <div className="mb-6 mt-7 grid gap-6 lg:grid-cols-2">
+          {roleFamilies.map((card) => (
+            <RoleCard key={card.heading} card={card} />
+          ))}
+        </div>
 
-          <div className="flex flex-wrap gap-2">
-            {popularSearches.map((search) => (
+        <section className="mt-9" aria-labelledby="recently-added-heading">
+          <div className="mb-8 flex items-center justify-between gap-4">
+            <h2
+              id="recently-added-heading"
+              className="flex items-center gap-3 text-xl font-bold text-slate-950"
+            >
+              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full border-2 border-slate-950 text-slate-950">
+                <span className="h-1.5 w-1.5 rounded-full bg-slate-950" />
+              </span>
+              Recently added jobs
+            </h2>
+            <a
+              href="/browse-jobs"
+              className="inline-flex items-center gap-2 text-sm font-bold text-blue-700 hover:text-blue-900"
+            >
+              View all recent jobs <ArrowIcon />
+            </a>
+          </div>
+
+          <div className="grid gap-5 md:grid-cols-3">
+            {recentJobs.map((job) => (
               <a
-                key={search.href}
-                href={search.href}
-                className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 hover:border-blue-200 hover:text-blue-700"
+                key={`${job.title}-${job.company}`}
+                href={job.href}
+                className="group rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:border-blue-200 hover:shadow-md"
               >
-                {search.label}
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-lg font-bold text-slate-950">{job.title}</h3>
+                    <p className="mt-2 text-sm text-slate-600">
+                      {job.company} <span className="px-2">•</span> {job.region}
+                    </p>
+                    <p className="mt-4 text-sm text-slate-600">
+                      {job.type} <span className="px-2">•</span> Added today
+                    </p>
+                  </div>
+                  <span className="mt-12 text-slate-950 transition group-hover:translate-x-0.5">
+                    <ArrowIcon />
+                  </span>
+                </div>
               </a>
             ))}
           </div>
         </section>
-      </main>
-    </>
+
+        <section
+          id="how-it-works"
+          className="mt-16 rounded-xl bg-slate-50 px-6 py-3"
+          aria-labelledby="how-ontap-works-heading"
+        >
+          <h2 id="how-ontap-works-heading" className="text-center text-xl font-bold text-slate-950">
+            How Ontap works
+          </h2>
+          <div className="mt-4 grid gap-4 md:grid-cols-3 md:divide-x md:divide-slate-200">
+            {[
+              'We find live job pages',
+              'We check them daily',
+              'We organise them by role and region',
+            ].map((step, index) => (
+              <div key={step} className="flex items-center gap-4 px-4 py-2">
+                <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center text-blue-700">
+                  <svg aria-hidden="true" className="h-9 w-9" viewBox="0 0 40 40" fill="none">
+                    {index === 0 && (
+                      <path
+                        d="M18 28a10 10 0 1 1 7.1-2.9L32 32"
+                        stroke="currentColor"
+                        strokeWidth="2.4"
+                        strokeLinecap="round"
+                      />
+                    )}
+                    {index === 1 && (
+                      <path
+                        d="M20 5 31 10v9c0 7-4.5 12-11 16C13.5 31 9 26 9 19v-9l11-5Z"
+                        stroke="currentColor"
+                        strokeWidth="2.4"
+                        strokeLinejoin="round"
+                      />
+                    )}
+                    {index === 2 && (
+                      <>
+                        <path
+                          d="M20 35s10-9.2 10-19A10 10 0 0 0 10 16c0 9.8 10 19 10 19Z"
+                          stroke="currentColor"
+                          strokeWidth="2.4"
+                          strokeLinejoin="round"
+                        />
+                        <circle cx="20" cy="16" r="3" stroke="currentColor" strokeWidth="2.4" />
+                      </>
+                    )}
+                  </svg>
+                </span>
+                <p className="text-sm leading-5 text-slate-700">
+                  <strong className="text-slate-950">
+                    {index + 1}. {step}
+                  </strong>
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </section>
+    </main>
   );
 }

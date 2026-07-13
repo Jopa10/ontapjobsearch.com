@@ -8,69 +8,87 @@ import { useSession } from 'next-auth/react';
 import { usePathname } from 'next/navigation';
 
 export default function Header() {
-    const { data: session } = useSession();
-    const pathname = usePathname();
-    const isAdmin = pathname?.startsWith('/admin');
-    const isHome = pathname === '/';
+  const { data: session } = useSession();
+  const pathname = usePathname();
+  const isAdmin = pathname?.startsWith('/admin');
+  const isHome = pathname === '/';
 
-    if (isAdmin) {
-        return null;
-    }
+  if (isAdmin) {
+    return null;
+  }
 
-    const homeLink = isAdmin ? '/admin/jobs' : '/';
+  const homeLink = isAdmin ? '/admin/jobs' : '/';
 
-    return (
-        <header className="bg-white shadow-sm border-b border-gray-200">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16">
-                    {/* Logo */}
-                    <Link href={homeLink} className="flex items-center gap-2">
-                        <Image
-                            src="/assets/ontap-icon.svg"
-                            alt="Ontap"
-                            width={32}
-                            height={32}
-                            className="w-8 h-8"
-                        />
-                        <div className="leading-tight">
-  <div className="text-xl font-bold text-gray-900">
-    Ontap Job Search
-  </div>
-  <div className="text-xs text-gray-500">
-    UK jobs • Updated daily • No signup required
-  </div>
-</div>
-                    </Link>
-
-                    {/* Navigation */}
-                    <nav className="flex items-center gap-6">
-                        {!isHome && (
-                            <Link
-                               href="/"
-                                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                            >
-                                Home
-                            </Link>
-                        )}
-                        {!isHome && !isAdmin && (
-                            <Link
-                                href="/browse-jobs"
-                                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                            >
-                                Browse Jobs
-                            </Link>
-                        )}
-                        {session && !isHome && !isAdmin && (
-                            <Link
-                                href="/admin/jobs"
-                                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                            >
-                                Admin
-                            </Link>
-                        )}
-                    </nav>
-                </div>
+  return (
+    <header className="bg-white shadow-sm border-b border-gray-200">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          {/* Logo */}
+          <Link href={homeLink} className="flex items-center gap-2">
+            <Image
+              src="/assets/ontap-icon.svg"
+              alt="Ontap"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
+            <div className="leading-tight">
+              <div className="text-xl font-bold text-gray-900">Ontap Job Search</div>
+              <div className="text-xs text-gray-500">
+                UK jobs • Updated daily • No signup required
+              </div>
             </div>
-        </header>
-    );
+          </Link>
+
+          {/* Navigation */}
+          <nav className="flex items-center gap-6">
+            {!isHome && (
+              <Link
+                href="/"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >
+                Home
+              </Link>
+            )}
+            {!isAdmin && (
+              <>
+                <Link
+                  href="/browse-jobs"
+                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                >
+                  Browse Jobs
+                </Link>
+                <Link
+                  href="/#about"
+                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                >
+                  About
+                </Link>
+                <Link
+                  href="/#how-it-works"
+                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                >
+                  How it works
+                </Link>
+                <Link
+                  href="/browse-jobs"
+                  className="rounded-md bg-blue-700 px-4 py-2 font-semibold text-white shadow-sm transition-colors hover:bg-blue-800"
+                >
+                  Browse all jobs
+                </Link>
+              </>
+            )}
+            {session && !isHome && !isAdmin && (
+              <Link
+                href="/admin/jobs"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >
+                Admin
+              </Link>
+            )}
+          </nav>
+        </div>
+      </div>
+    </header>
+  );
 }
