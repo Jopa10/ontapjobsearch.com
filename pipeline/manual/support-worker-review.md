@@ -11,43 +11,43 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | West Yorkshire | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
+SELECTED | Yorkshire - West | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
 job_id: 107521956
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Dewsbury | £13 - £13.5 per hour | Care Assistant
+SELECTED | Yorkshire - West | Dewsbury | £13 - £13.5 per hour | Care Assistant
 job_id: 107464615
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+SELECTED | Yorkshire - West | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
 job_id: 107532972
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Holmfirth | £13.75 per hour | Bank Support Worker
+SELECTED | Yorkshire - West | Holmfirth | £13.75 per hour | Bank Support Worker
 job_id: 1401783630
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
+SELECTED | Yorkshire - West | Liversedge | £30000 per year | Healthcare Assistant
 job_id: 107465221
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
+SELECTED | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
 ---
 
 ---
 action:
-SELECTED | West Yorkshire | Halifax | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
+SELECTED | Yorkshire - West | Halifax | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
 job_id: 1401783720
 ---
 
@@ -59,13 +59,13 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | South Yorkshire | Sheffield | £92.63 - £100 per daily | Behaviour Support Assistant
+SELECTED | Yorkshire - South | Sheffield | £92.63 - £100 per daily | Behaviour Support Assistant
 job_id: 8d571880-266d-45cf-922d-664a4e281ac6
 ---
 
 ---
 action:
-SELECTED | South Yorkshire | Sheffield | £12.75 - £17 per hour | Health care assistant - Sheffield
+SELECTED | Yorkshire - South | Sheffield | £12.75 - £17 per hour | Health care assistant - Sheffield
 job_id: c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
 ---
 
