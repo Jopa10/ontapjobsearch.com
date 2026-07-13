@@ -35,12 +35,6 @@ job_id: 1401783630
 
 ---
 action:
-SELECTED | West Yorkshire | Holmfirth | £27394 per year | Complex care assistant
-job_id: 107651994
----
-
----
-action:
 SELECTED | West Yorkshire | Liversedge | £30000 per year | Healthcare Assistant
 job_id: 107465221
 ---
@@ -49,6 +43,12 @@ job_id: 107465221
 action:
 SELECTED | West Yorkshire | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
+---
+
+---
+action:
+SELECTED | West Yorkshire | Halifax | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
+job_id: 1401783720
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -99,12 +99,6 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyn
 job_id: 107616541
 ---
 
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
-job_id: 107652261
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -149,12 +143,6 @@ job_id: 107656064
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
 job_id: 107501464
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107636018
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
