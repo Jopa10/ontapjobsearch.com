@@ -134,9 +134,26 @@ jobs:
           PY
 
       - name: Run relevant tests
+        id: focused-tests
+        continue-on-error: true
         run: |
+          set -o pipefail
           python -m py_compile pipeline/scripts/service_admin_pipeline.py pipeline/scripts/support_worker_pipeline.py
-          pytest -q tests/test_pipeline_possible_selection.py
+          pytest -vv tests/test_pipeline_possible_selection.py > pytest-output.txt 2>&1
+
+      - name: Upload pytest output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: yorkshire-pytest-output
+          path: pytest-output.txt
+          if-no-files-found: error
+
+      - name: Stop if focused tests failed
+        if: steps.focused-tests.outcome == 'failure'
+        run: |
+          cat pytest-output.txt
+          exit 1
 
       - name: Restore generated files and commit final source changes
         run: |
