@@ -149,7 +149,7 @@ const serviceAdministratorSlices: SliceCard[] = [
   {
     title: 'West Yorkshire Admin & Customer Service Jobs',
     intro:
-      'Current admin, office-support and customer-service roles across West Yorkshire.',
+      'Current admin, office and service roles across West Yorkshire.',
     ctaText: 'View West Yorkshire jobs →',
     sliceUrl: '/west-yorkshire/service-administrator-jobs',
     jobs: westYorkshireServiceAdministratorJobs,
@@ -157,7 +157,7 @@ const serviceAdministratorSlices: SliceCard[] = [
   {
     title: 'South Yorkshire Admin & Customer Service Jobs',
     intro:
-      'Current admin, office-support and customer-service roles across South Yorkshire.',
+      'Current admin, office and service roles across South Yorkshire.',
     ctaText: 'View South Yorkshire jobs →',
     sliceUrl: '/south-yorkshire/service-administrator-jobs',
     jobs: southYorkshireServiceAdministratorJobs,
@@ -165,7 +165,7 @@ const serviceAdministratorSlices: SliceCard[] = [
   {
     title: 'North East Admin & Customer Service Jobs',
     intro:
-      'Current admin, office-support and customer-service roles across the North East.',
+      'Current admin, office and service roles across the North East.',
     ctaText: 'View North East jobs →',
     sliceUrl: '/north-east/service-administrator-jobs',
     jobs: northEastServiceAdministratorJobs,
@@ -173,7 +173,7 @@ const serviceAdministratorSlices: SliceCard[] = [
   {
     title: 'London Admin & Customer Service Jobs',
     intro:
-      'Current admin, office-support and customer-service roles across London.',
+      'Current admin, office and service roles across London.',
     ctaText: 'View London jobs →',
     sliceUrl: '/london/service-administrator-jobs',
     jobs: londonServiceAdministratorJobs,
