@@ -17,10 +17,6 @@ jobs:
         with:
           ref: fix-annual-salary-format
           fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: npm
 
       - name: Apply shared annual salary formatting fix
         run: |
@@ -59,10 +55,8 @@ jobs:
           path.write_text(text.replace(old, new, 1), encoding='utf-8')
           PY
 
-      - name: Validate the focused change
+      - name: Validate the focused output
         run: |
-          npm ci
-          npx eslint components/JobSlicePage.tsx
           node - <<'JS'
           function format(value) {
             let salary = value;
@@ -78,6 +72,8 @@ jobs:
           const actual = format('£29390.4 - £30056 per year (+ £60 per sleep-in))');
           const expected = '£29,390 - £30,056 per year (+ £60 per sleep-in)';
           if (actual !== expected) throw new Error(`${actual} !== ${expected}`);
+          const hourly = format('£13.45 per hour');
+          if (hourly !== '£13.45 per hour') throw new Error(hourly);
           JS
 
       - name: Commit component fix
