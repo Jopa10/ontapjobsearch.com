@@ -22,7 +22,7 @@ job_id: 107624932
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | Yorkshire - West | Leeds | £25000 - £30000 per year | Legal Secretary - Commercial property
 job_id: fab18477-c03a-4672-bb39-d871d89a546c
 ---
@@ -144,7 +144,7 @@ _No jobs in this group._
 ## LONDON — SELECTED
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £60000 - £80000 per year | NetSuite Administrator Hyper-Growth Retail
 job_id: 5292868c-8ca9-4001-9c66-343a70ec9606
 ---
@@ -156,7 +156,7 @@ job_id: 7a0c9b11-2e40-4e96-b556-bffc8b642da8
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London |  | Treasury Settlement Administrator
 job_id: 6c733630-2b4f-4b6a-bfa8-41aecaa829c9
 ---
@@ -210,7 +210,7 @@ job_id: 33eab37d-af87-4704-9471-df90f5cef85c
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London |  | Mandarin Treasury Settlement Administrator
 job_id: 42f2808f-43ea-45ed-b1cf-4b387896856a
 ---
@@ -246,19 +246,19 @@ job_id: 107461563
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £40000 - £43000 per year | Legal Secretary
 job_id: faad204b-1073-443d-a1fe-2fe55a11a635
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £35000 per year | Legal Secretary / Legal Administrator (Private Client)
 job_id: f5e8e30b-1418-4972-8b69-89a8d0be61d4
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £35000 - £40000 per year | Talent Administrator
 job_id: e0be1e2c-2f53-4f53-bab6-251d67488b8a
 ---
@@ -270,13 +270,13 @@ job_id: de18dc84-cb43-4743-99f6-a3d16e406cc7
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London |  | Commercial Property Legal Secretary
 job_id: c5d96f98-5957-49dd-a820-1562582caf76
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £100000 per year | Company Secretary
 job_id: c5d8f5f4-b759-46de-91b1-258001fb3746
 ---
@@ -288,7 +288,7 @@ job_id: a39777bf-ea97-4765-aa67-7bc5816b084d
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £50000 - £65000 per year | Evening Legal Secretary
 job_id: c05fb70f-0622-4751-93ea-9141e25de21c
 ---
@@ -312,7 +312,7 @@ job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London |  | Insolvency Administrator
 job_id: aa5f426d-7db3-449f-a970-bbe6d8dff752
 ---
@@ -336,19 +336,19 @@ job_id: 2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £24.31 per hour | Senior Administrator
 job_id: f1ecf607-8ba3-47e0-b8f9-14a41725eed8
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £39,685 - £43,978 per annum | Assistant Design & Technical Coordinator
 job_id: 107649502
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £22 - £26 per hour | Temporary L&D Course Administrator
 job_id: 268e6cf4-62dc-4dcc-a8ed-e7e7b32b4e63
 ---
@@ -360,7 +360,7 @@ job_id: 107652249
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London |  | Legal Secretary - Corporate Business Transactions
 job_id: b09b70f1-d126-482c-a368-c43abd82557c
 ---
@@ -372,7 +372,7 @@ job_id: 7ea819ef-37a5-4bc9-ac6b-04b786a3e75e
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London | £52977 - £63815 per year | Senior CRM Administrator - Salesforce
 job_id: f498886f-8482-41ae-a070-613f823c01c5
 ---
