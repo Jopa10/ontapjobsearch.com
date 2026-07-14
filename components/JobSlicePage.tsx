@@ -120,11 +120,21 @@ function cleanText(value: string) {
 }
 
 function formatSalary(job: JobRow) {
-  const salary = job.salary_text ? cleanText(job.salary_text) : "";
+  let salary = job.salary_text ? cleanText(job.salary_text) : "";
 
-  return salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
-    return "£" + Number(amount).toLocaleString("en-GB");
-  });
+  if (/\bper year\b|\bper annum\b/i.test(salary)) {
+    salary = salary.replace(/£\s*(\d[\d,]*(?:\.\d+)?)/g, (match, amount) => {
+      const numeric = Number(amount.replace(/,/g, ""));
+      if (!Number.isFinite(numeric)) return match;
+      return "£" + Math.round(numeric).toLocaleString("en-GB");
+    });
+  } else {
+    salary = salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
+      return "£" + Number(amount).toLocaleString("en-GB");
+    });
+  }
+
+  return salary.replace(/\){2,}$/g, ")");
 }
 
 function stripHtml(html: string) {
