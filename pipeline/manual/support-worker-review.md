@@ -114,13 +114,13 @@ _No jobs in this group._
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107672554
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
 job_id: 107652261
 ---
@@ -128,7 +128,7 @@ job_id: 107652261
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Ferryhill | £15 per hour | Female Support Worker
 job_id: 107656064
 ---
@@ -140,13 +140,13 @@ job_id: 107501464
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
 job_id: 107658956
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107652248
 ---
