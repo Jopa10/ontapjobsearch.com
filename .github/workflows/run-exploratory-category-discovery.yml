@@ -13,17 +13,19 @@ on:
       - feature/compiler-category-discovery-july-2026
     paths:
       - '.github/workflows/run-exploratory-category-discovery.yml'
+      - 'pipeline/exploratory_category_discovery_runner.py'
       - 'pipeline/scripts/build_exploratory_candidate_registers.py'
-      - 'pipeline/scripts/run_exploratory_module2_category_discovery.py'
       - 'pipeline/scripts/summarise_exploratory_category_discovery.py'
+      - 'pipeline/scripts/jobg8_module_2_monthly_category_profiler.py'
   pull_request:
     branches:
       - main
     paths:
       - '.github/workflows/run-exploratory-category-discovery.yml'
+      - 'pipeline/exploratory_category_discovery_runner.py'
       - 'pipeline/scripts/build_exploratory_candidate_registers.py'
-      - 'pipeline/scripts/run_exploratory_module2_category_discovery.py'
       - 'pipeline/scripts/summarise_exploratory_category_discovery.py'
+      - 'pipeline/scripts/jobg8_module_2_monthly_category_profiler.py'
 
 permissions:
   contents: write
@@ -74,59 +76,43 @@ jobs:
       - name: Check exploratory scripts
         run: |
           python -m py_compile \
+            pipeline/exploratory_category_discovery_runner.py \
             pipeline/scripts/build_exploratory_candidate_registers.py \
-            pipeline/scripts/run_exploratory_module2_category_discovery.py \
             pipeline/scripts/summarise_exploratory_category_discovery.py \
             pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
 
-      - name: Build temporary candidate registers
-        id: build_registers
+      - name: Run isolated exploratory discovery
+        id: discovery
         continue-on-error: true
-        run: |
-          month='${{ steps.month.outputs.month }}'
-          register_dir="pipeline/registers-exploratory/${month}-category-discovery"
-          report_dir="pipeline/reports-module2-exploratory/${month}-category-discovery"
-          mkdir -p "$register_dir" "$report_dir"
-          python pipeline/scripts/build_exploratory_candidate_registers.py \
-            --month "$month" \
-            --input-dir '${{ steps.month.outputs.archive_dir }}' \
-            --output-dir "$register_dir" \
-            --detail-output "$report_dir/${month}-category-discovery-classification-detail.csv" \
-            > "$report_dir/${month}-candidate-register-builder.log" 2>&1
-
-      - name: Commit builder diagnostics on failure
-        if: steps.build_registers.outcome == 'failure'
         shell: bash
         run: |
           set -euo pipefail
           month='${{ steps.month.outputs.month }}'
-          log="pipeline/reports-module2-exploratory/${month}-category-discovery/${month}-candidate-register-builder.log"
+          register_dir="pipeline/registers-exploratory/${month}-category-discovery"
+          report_dir="pipeline/reports-module2-exploratory/${month}-category-discovery"
+          mkdir -p "$register_dir" "$report_dir"
+          python pipeline/exploratory_category_discovery_runner.py \
+            --month "$month" \
+            --input-dir '${{ steps.month.outputs.archive_dir }}' \
+            --geo-lookup 'pipeline/geo/geo_lookup.xlsx' \
+            --registers-dir "$register_dir" \
+            --reports-dir "$report_dir" \
+            > "$report_dir/${month}-category-discovery-execution.log" 2>&1
+
+      - name: Commit diagnostics on failure
+        if: steps.discovery.outcome == 'failure'
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ steps.month.outputs.month }}'
+          log="pipeline/reports-module2-exploratory/${month}-category-discovery/${month}-category-discovery-execution.log"
           cat "$log"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- "$log"
-          git commit -m "Record exploratory candidate builder failure for ${month}"
+          git commit -m "Record exploratory category discovery failure for ${month}"
           git push origin "HEAD:${TARGET_BRANCH}"
           exit 1
-
-      - name: Run existing Module 2 engine with exploratory registers
-        run: |
-          month='${{ steps.month.outputs.month }}'
-          python pipeline/scripts/run_exploratory_module2_category_discovery.py \
-            --month "$month" \
-            --input-dir '${{ steps.month.outputs.archive_dir }}' \
-            --output-dir "pipeline/reports-module2-exploratory/${month}-category-discovery" \
-            --geo-lookup 'pipeline/geo/geo_lookup.xlsx' \
-            --registers-dir "pipeline/registers-exploratory/${month}-category-discovery"
-
-      - name: Build shortlist and readable summary
-        run: |
-          month='${{ steps.month.outputs.month }}'
-          report_dir="pipeline/reports-module2-exploratory/${month}-category-discovery"
-          python pipeline/scripts/summarise_exploratory_category_discovery.py \
-            --validation "$report_dir/${month}-module2-category-validation.csv" \
-            --shortlist "$report_dir/${month}-category-discovery-shortlist.csv" \
-            --summary "$report_dir/${month}-category-discovery-summary.md"
 
       - name: Verify isolated outputs
         shell: bash
@@ -150,6 +136,7 @@ jobs:
             "$report_dir/${month}-module2-run-log.txt"
             "$report_dir/${month}-category-discovery-shortlist.csv"
             "$report_dir/${month}-category-discovery-summary.md"
+            "$report_dir/${month}-category-discovery-execution.log"
           )
           for path in "${required[@]}"; do
             if [ ! -s "$path" ]; then
