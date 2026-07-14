@@ -11,12 +11,6 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
-SELECTED | Yorkshire - West | Leeds | £35000 per year | Accounts Administrator
-job_id: 2a1eb047-53ab-44d6-8251-d40aeef4fc8e
----
-
----
-action: select
 SELECTED | Yorkshire - West | Leeds | £30000 - £32000 per year | Export Administrator
 job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 ---
@@ -148,12 +142,6 @@ job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £40000 per year | IT Administrator - Japanese speaking
-job_id: d8f7eb2b-27a9-444b-9308-88e5b79e4450
----
 
 ---
 action:
@@ -325,12 +313,6 @@ job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 
 ---
 action:
-SELECTED | London | Orpington | £1,300 per year | Multi Department Legal Secretary
-job_id: aaffe5af-5f41-4661-9b0e-735bc5e97e88
----
-
----
-action:
 SELECTED | London | London |  | Insolvency Administrator
 job_id: aa5f426d-7db3-449f-a970-bbe6d8dff752
 ---
@@ -355,8 +337,20 @@ job_id: 2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
 
 ---
 action:
-SELECTED | London | City | £50 per month | Office Administrator
-job_id: 24879_101888085
+SELECTED | London | London | £24.31 per hour | Senior Administrator
+job_id: f1ecf607-8ba3-47e0-b8f9-14a41725eed8
+---
+
+---
+action:
+SELECTED | London | London | £39,685 - £43,978 per annum | Assistant Design & Technical Coordinator
+job_id: 107649502
+---
+
+---
+action:
+SELECTED | London | London | £22 - £26 per hour | Temporary L&D Course Administrator
+job_id: 268e6cf4-62dc-4dcc-a8ed-e7e7b32b4e63
 ---
 
 ---
@@ -367,26 +361,38 @@ job_id: 107652249
 
 ---
 action:
-SELECTED | London | London | £24.31 per hour | Senior Administrator
-job_id: f1ecf607-8ba3-47e0-b8f9-14a41725eed8
+SELECTED | London | London |  | Legal Secretary - Corporate Business Transactions
+job_id: b09b70f1-d126-482c-a368-c43abd82557c
+---
+
+---
+action:
+SELECTED | London | New Malden | £17000 - £17500 per year | Part Time - Accounts Administrator
+job_id: 7ea819ef-37a5-4bc9-ac6b-04b786a3e75e
+---
+
+---
+action:
+SELECTED | London | London | £52977 - £63815 per year | Senior CRM Administrator - Salesforce
+job_id: f498886f-8482-41ae-a070-613f823c01c5
+---
+
+---
+action:
+SELECTED | London | West Drayton | £27000 - £28000 per year | Nights Export Administrator
+job_id: 52ffc052-865e-4c73-be56-3b01746bacc9
+---
+
+---
+action:
+SELECTED | London | London | £30000 - £35000 per year | Shipping Administration Coordinator
+job_id: 4b95051a-1afd-4f79-8df6-17d52006246e
 ---
 
 ---
 action:
 SELECTED | London | London | £35,000 per year | Sales Admin Coordinator
 job_id: 107604881
----
-
----
-action:
-SELECTED | London | London |  | CRM Data Administrator
-job_id: 107657111
----
-
----
-action:
-SELECTED | London | London | £39,685 - £43,978 per annum | Assistant Design & Technical Coordinator
-job_id: 107649502
 ---
 
 ## LONDON — POSSIBLES
