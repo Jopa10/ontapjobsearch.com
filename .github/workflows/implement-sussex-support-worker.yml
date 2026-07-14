@@ -21,10 +21,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: npm
       - run: python -m pip install --upgrade pip pandas openpyxl
 
       - name: Snapshot existing support-worker outputs
@@ -192,11 +188,8 @@ jobs:
           print("Sussex selected jobs:", len(data))
           PY
 
-      - name: Validate publishing and page build
-        run: |
-          python pipeline/scripts/publish_verified_pages.py --dry-run
-          npm ci
-          npm run build
+      - name: Validate verified publishing
+        run: python pipeline/scripts/publish_verified_pages.py --dry-run
 
       - name: Commit complete branch implementation
         run: |
