@@ -1,4 +1,354 @@
 ﻿month,date,region,region_scope,category,daily_job_count
+2026-07,2026-07-01,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Berkshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Berkshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-02,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-03,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-04,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-05,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-06,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-07,Bristol & Bath,lookup_region,broader_customer_service,0
+2026-07,2026-07-08,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-09,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-10,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-11,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-12,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-13,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-14,Bristol & Bath,lookup_region,broader_customer_service,1
+2026-07,2026-07-01,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Buckinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Buckinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Cumbria - South,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Cumbria - South,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-02,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-03,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-04,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-05,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-06,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-07,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-08,Derbyshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Derbyshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-10,Derbyshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-11,Derbyshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-12,Derbyshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-13,Derbyshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-14,Derbyshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-01,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Dorset,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Dorset,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Essex,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Essex,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-04,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-05,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-06,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-07,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-08,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Essex,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-02,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-03,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-04,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-05,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-06,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-07,Gloucestershire,lookup_region,broader_customer_service,2
+2026-07,2026-07-08,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Gloucestershire,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-02,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-03,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-04,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-05,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-06,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-07,Hampshire,lookup_region,broader_customer_service,2
+2026-07,2026-07-08,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Hampshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Kent,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Kent,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Lancashire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Lancashire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,London,lookup_region,broader_customer_service,2
+2026-07,2026-07-02,London,lookup_region,broader_customer_service,5
+2026-07,2026-07-03,London,lookup_region,broader_customer_service,4
+2026-07,2026-07-04,London,lookup_region,broader_customer_service,5
+2026-07,2026-07-05,London,lookup_region,broader_customer_service,5
+2026-07,2026-07-06,London,lookup_region,broader_customer_service,5
+2026-07,2026-07-07,London,lookup_region,broader_customer_service,5
+2026-07,2026-07-08,London,lookup_region,broader_customer_service,1
+2026-07,2026-07-09,London,lookup_region,broader_customer_service,1
+2026-07,2026-07-10,London,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,London,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,London,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,London,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,London,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Norfolk,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Norfolk,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Northamptonshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Northamptonshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Northern Ireland - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-02,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-09,Northern Ireland - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-10,Northern Ireland - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Northern Ireland - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Northern Ireland - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Northern Ireland - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Northern Ireland - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Northern Ireland - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Northern Ireland - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Northern Ireland - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-05,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-06,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-07,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-08,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Northern Ireland - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Nottinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Nottinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-04,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-05,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-06,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-07,Nottinghamshire,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Nottinghamshire,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Other / Unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Other / Unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Somerset,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Somerset,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-02,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-03,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-04,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-05,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-06,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-07,Surrey,lookup_region,broader_customer_service,3
+2026-07,2026-07-08,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Surrey,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Wales South - Cardiff & Vale,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Yorkshire - East,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Yorkshire - East,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Yorkshire - North,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Yorkshire - North,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Yorkshire - North,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-05,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-06,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-07,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-08,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Yorkshire - North,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-02,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-03,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-04,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-05,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-06,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-07,Yorkshire - West,lookup_region,broader_customer_service,1
+2026-07,2026-07-08,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-10,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-11,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-12,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-13,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-14,Yorkshire - West,lookup_region,broader_customer_service,0
+2026-07,2026-07-01,unknown,lookup_region,broader_customer_service,3
+2026-07,2026-07-02,unknown,lookup_region,broader_customer_service,4
+2026-07,2026-07-03,unknown,lookup_region,broader_customer_service,4
+2026-07,2026-07-04,unknown,lookup_region,broader_customer_service,4
+2026-07,2026-07-05,unknown,lookup_region,broader_customer_service,4
+2026-07,2026-07-06,unknown,lookup_region,broader_customer_service,4
+2026-07,2026-07-07,unknown,lookup_region,broader_customer_service,4
+2026-07,2026-07-08,unknown,lookup_region,broader_customer_service,0
+2026-07,2026-07-09,unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-10,unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-11,unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-12,unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-13,unknown,lookup_region,broader_customer_service,1
+2026-07,2026-07-14,unknown,lookup_region,broader_customer_service,1
 2026-07,2026-07-01,Bedfordshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-02,Bedfordshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-03,Bedfordshire,lookup_region,broader_office_administration,0
@@ -13,13 +363,13 @@
 2026-07,2026-07-12,Bedfordshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Bedfordshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Bedfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Berkshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-02,Berkshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Berkshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-04,Berkshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-05,Berkshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-06,Berkshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-07,Berkshire,lookup_region,broader_office_administration,5
+2026-07,2026-07-01,Berkshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-02,Berkshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-03,Berkshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-04,Berkshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-05,Berkshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-06,Berkshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-07,Berkshire,lookup_region,broader_office_administration,4
 2026-07,2026-07-08,Berkshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Berkshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Berkshire,lookup_region,broader_office_administration,0
@@ -27,13 +377,13 @@
 2026-07,2026-07-12,Berkshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Berkshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Berkshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Bristol & Bath,lookup_region,broader_office_administration,7
-2026-07,2026-07-02,Bristol & Bath,lookup_region,broader_office_administration,7
-2026-07,2026-07-03,Bristol & Bath,lookup_region,broader_office_administration,5
-2026-07,2026-07-04,Bristol & Bath,lookup_region,broader_office_administration,5
-2026-07,2026-07-05,Bristol & Bath,lookup_region,broader_office_administration,5
-2026-07,2026-07-06,Bristol & Bath,lookup_region,broader_office_administration,5
-2026-07,2026-07-07,Bristol & Bath,lookup_region,broader_office_administration,5
+2026-07,2026-07-01,Bristol & Bath,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Bristol & Bath,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Bristol & Bath,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Bristol & Bath,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Bristol & Bath,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Bristol & Bath,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Bristol & Bath,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Bristol & Bath,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Bristol & Bath,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Bristol & Bath,lookup_region,broader_office_administration,1
@@ -41,13 +391,13 @@
 2026-07,2026-07-12,Bristol & Bath,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Bristol & Bath,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Bristol & Bath,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Buckinghamshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Buckinghamshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Buckinghamshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Buckinghamshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Buckinghamshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Buckinghamshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-07,Buckinghamshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Buckinghamshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Buckinghamshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Buckinghamshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Buckinghamshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Buckinghamshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Buckinghamshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Buckinghamshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Buckinghamshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Buckinghamshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Buckinghamshire,lookup_region,broader_office_administration,2
@@ -69,34 +419,20 @@
 2026-07,2026-07-12,Cambridgeshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Cambridgeshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Cambridgeshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-03,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,Cheshire - East,lookup_region,broader_office_administration,0
-2026-07,2026-07-09,Cheshire - East,lookup_region,broader_office_administration,0
-2026-07,2026-07-10,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-11,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Cheshire - East,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-07,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,4
-2026-07,2026-07-08,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
-2026-07,2026-07-09,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
-2026-07,2026-07-10,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
-2026-07,2026-07-11,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
-2026-07,2026-07-12,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
-2026-07,2026-07-13,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
-2026-07,2026-07-14,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,2
+2026-07,2026-07-08,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
+2026-07,2026-07-10,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
+2026-07,2026-07-11,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
+2026-07,2026-07-12,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
+2026-07,2026-07-13,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
+2026-07,2026-07-14,Cheshire - Warrington & Halton,lookup_region,broader_office_administration,0
 2026-07,2026-07-01,Cheshire - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-02,Cheshire - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-03,Cheshire - West,lookup_region,broader_office_administration,0
@@ -111,41 +447,13 @@
 2026-07,2026-07-12,Cheshire - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Cheshire - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Cheshire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-03,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Cumbria - South,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-09,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-10,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-11,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-12,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-13,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-14,Cumbria - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-03,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-09,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-10,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-11,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Derbyshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Devon,lookup_region,broader_office_administration,3
-2026-07,2026-07-02,Devon,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Devon,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Devon,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Devon,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Devon,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Devon,lookup_region,broader_office_administration,1
+2026-07,2026-07-01,Devon,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Devon,lookup_region,broader_office_administration,0
+2026-07,2026-07-03,Devon,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Devon,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Devon,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Devon,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Devon,lookup_region,broader_office_administration,0
 2026-07,2026-07-08,Devon,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Devon,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Devon,lookup_region,broader_office_administration,0
@@ -153,13 +461,13 @@
 2026-07,2026-07-12,Devon,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Devon,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Devon,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Dorset,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Dorset,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Dorset,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Dorset,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Dorset,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Dorset,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Dorset,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,Dorset,lookup_region,broader_office_administration,3
+2026-07,2026-07-02,Dorset,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Dorset,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Dorset,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Dorset,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Dorset,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Dorset,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Dorset,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Dorset,lookup_region,broader_office_administration,2
 2026-07,2026-07-10,Dorset,lookup_region,broader_office_administration,3
@@ -174,7 +482,7 @@
 2026-07,2026-07-05,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
 2026-07,2026-07-06,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
 2026-07,2026-07-07,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
-2026-07,2026-07-08,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,2
+2026-07,2026-07-08,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
 2026-07,2026-07-09,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
 2026-07,2026-07-10,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
 2026-07,2026-07-11,"Dumfries & Galloway, Scotland",lookup_region,broader_office_administration,1
@@ -195,13 +503,13 @@
 2026-07,2026-07-12,East Midlands,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,East Midlands,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,East Midlands,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Essex,lookup_region,broader_office_administration,7
-2026-07,2026-07-02,Essex,lookup_region,broader_office_administration,6
-2026-07,2026-07-03,Essex,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Essex,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Essex,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Essex,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Essex,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,Essex,lookup_region,broader_office_administration,4
+2026-07,2026-07-02,Essex,lookup_region,broader_office_administration,3
+2026-07,2026-07-03,Essex,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Essex,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Essex,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Essex,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Essex,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Essex,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Essex,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Essex,lookup_region,broader_office_administration,1
@@ -209,27 +517,13 @@
 2026-07,2026-07-12,Essex,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Essex,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Essex,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-03,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Flintshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-09,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-10,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-11,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-12,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-13,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-14,Flintshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Gloucestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Gloucestershire,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Gloucestershire,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Gloucestershire,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Gloucestershire,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Gloucestershire,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Gloucestershire,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Gloucestershire,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Gloucestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Gloucestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Gloucestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Gloucestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Gloucestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Gloucestershire,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Gloucestershire,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Gloucestershire,lookup_region,broader_office_administration,2
 2026-07,2026-07-10,Gloucestershire,lookup_region,broader_office_administration,3
@@ -237,48 +531,20 @@
 2026-07,2026-07-12,Gloucestershire,lookup_region,broader_office_administration,3
 2026-07,2026-07-13,Gloucestershire,lookup_region,broader_office_administration,3
 2026-07,2026-07-14,Gloucestershire,lookup_region,broader_office_administration,3
-2026-07,2026-07-01,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,10
-2026-07,2026-07-02,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,9
-2026-07,2026-07-03,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,7
-2026-07,2026-07-04,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,7
-2026-07,2026-07-05,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,7
-2026-07,2026-07-06,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,7
-2026-07,2026-07-07,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,7
+2026-07,2026-07-01,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
-2026-07,2026-07-09,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,2
-2026-07,2026-07-10,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,2
-2026-07,2026-07-11,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,2
-2026-07,2026-07-12,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,2
-2026-07,2026-07-13,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,2
-2026-07,2026-07-14,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,2
-2026-07,2026-07-01,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Greater Manchester - North,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-09,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-10,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-11,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Greater Manchester - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Greater Manchester - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-08,Greater Manchester - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-09,Greater Manchester - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-10,Greater Manchester - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-11,Greater Manchester - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-12,Greater Manchester - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-13,Greater Manchester - South,lookup_region,broader_office_administration,0
-2026-07,2026-07-14,Greater Manchester - South,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-10,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-11,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-12,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-13,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
+2026-07,2026-07-14,Greater Manchester - Manchester & Salford,lookup_region,broader_office_administration,1
 2026-07,2026-07-01,Greater Manchester - Wigan & Bolton,lookup_region,broader_office_administration,1
 2026-07,2026-07-02,Greater Manchester - Wigan & Bolton,lookup_region,broader_office_administration,1
 2026-07,2026-07-03,Greater Manchester - Wigan & Bolton,lookup_region,broader_office_administration,1
@@ -307,34 +573,34 @@
 2026-07,2026-07-12,Gwynedd,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Gwynedd,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Gwynedd,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Hampshire,lookup_region,broader_office_administration,10
-2026-07,2026-07-02,Hampshire,lookup_region,broader_office_administration,10
-2026-07,2026-07-03,Hampshire,lookup_region,broader_office_administration,8
-2026-07,2026-07-04,Hampshire,lookup_region,broader_office_administration,8
-2026-07,2026-07-05,Hampshire,lookup_region,broader_office_administration,8
-2026-07,2026-07-06,Hampshire,lookup_region,broader_office_administration,8
-2026-07,2026-07-07,Hampshire,lookup_region,broader_office_administration,8
+2026-07,2026-07-01,Hampshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-02,Hampshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-03,Hampshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-04,Hampshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-05,Hampshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-06,Hampshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-07,Hampshire,lookup_region,broader_office_administration,3
 2026-07,2026-07-08,Hampshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-09,Hampshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-10,Hampshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-09,Hampshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-10,Hampshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-11,Hampshire,lookup_region,broader_office_administration,4
 2026-07,2026-07-12,Hampshire,lookup_region,broader_office_administration,4
 2026-07,2026-07-13,Hampshire,lookup_region,broader_office_administration,4
 2026-07,2026-07-14,Hampshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-01,Hertfordshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-02,Hertfordshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Hertfordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Hertfordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Hertfordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Hertfordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-07,Hertfordshire,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Hertfordshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Hertfordshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Hertfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-10,Hertfordshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-10,Hertfordshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-11,Hertfordshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-12,Hertfordshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-13,Hertfordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-14,Hertfordshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-13,Hertfordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-14,Hertfordshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-01,Highland,lookup_region,broader_office_administration,1
 2026-07,2026-07-02,Highland,lookup_region,broader_office_administration,1
 2026-07,2026-07-03,Highland,lookup_region,broader_office_administration,2
@@ -349,20 +615,20 @@
 2026-07,2026-07-12,Highland,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Highland,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Highland,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Kent,lookup_region,broader_office_administration,6
-2026-07,2026-07-02,Kent,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Kent,lookup_region,broader_office_administration,5
-2026-07,2026-07-04,Kent,lookup_region,broader_office_administration,5
-2026-07,2026-07-05,Kent,lookup_region,broader_office_administration,5
-2026-07,2026-07-06,Kent,lookup_region,broader_office_administration,5
-2026-07,2026-07-07,Kent,lookup_region,broader_office_administration,6
-2026-07,2026-07-08,Kent,lookup_region,broader_office_administration,4
-2026-07,2026-07-09,Kent,lookup_region,broader_office_administration,4
-2026-07,2026-07-10,Kent,lookup_region,broader_office_administration,3
-2026-07,2026-07-11,Kent,lookup_region,broader_office_administration,3
-2026-07,2026-07-12,Kent,lookup_region,broader_office_administration,3
-2026-07,2026-07-13,Kent,lookup_region,broader_office_administration,3
-2026-07,2026-07-14,Kent,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Kent,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Kent,lookup_region,broader_office_administration,2
+2026-07,2026-07-08,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-09,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-10,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-11,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-12,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-13,Kent,lookup_region,broader_office_administration,1
+2026-07,2026-07-14,Kent,lookup_region,broader_office_administration,1
 2026-07,2026-07-01,Lancashire - Central,lookup_region,broader_office_administration,0
 2026-07,2026-07-02,Lancashire - Central,lookup_region,broader_office_administration,0
 2026-07,2026-07-03,Lancashire - Central,lookup_region,broader_office_administration,0
@@ -405,27 +671,13 @@
 2026-07,2026-07-12,Lancashire - North,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Lancashire - North,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Lancashire - North,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-03,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Lancashire - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-09,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-10,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-11,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-12,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-13,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-14,Lancashire - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Leicestershire,lookup_region,broader_office_administration,6
-2026-07,2026-07-02,Leicestershire,lookup_region,broader_office_administration,6
-2026-07,2026-07-03,Leicestershire,lookup_region,broader_office_administration,6
-2026-07,2026-07-04,Leicestershire,lookup_region,broader_office_administration,5
-2026-07,2026-07-05,Leicestershire,lookup_region,broader_office_administration,6
-2026-07,2026-07-06,Leicestershire,lookup_region,broader_office_administration,5
-2026-07,2026-07-07,Leicestershire,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Leicestershire,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Leicestershire,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Leicestershire,lookup_region,broader_office_administration,4
+2026-07,2026-07-04,Leicestershire,lookup_region,broader_office_administration,3
+2026-07,2026-07-05,Leicestershire,lookup_region,broader_office_administration,4
+2026-07,2026-07-06,Leicestershire,lookup_region,broader_office_administration,3
+2026-07,2026-07-07,Leicestershire,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Leicestershire,lookup_region,broader_office_administration,2
 2026-07,2026-07-09,Leicestershire,lookup_region,broader_office_administration,2
 2026-07,2026-07-10,Leicestershire,lookup_region,broader_office_administration,2
@@ -447,27 +699,27 @@
 2026-07,2026-07-12,Lincolnshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Lincolnshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Lincolnshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,London,lookup_region,broader_office_administration,16
-2026-07,2026-07-02,London,lookup_region,broader_office_administration,34
-2026-07,2026-07-03,London,lookup_region,broader_office_administration,31
-2026-07,2026-07-04,London,lookup_region,broader_office_administration,34
-2026-07,2026-07-05,London,lookup_region,broader_office_administration,34
-2026-07,2026-07-06,London,lookup_region,broader_office_administration,32
-2026-07,2026-07-07,London,lookup_region,broader_office_administration,34
-2026-07,2026-07-08,London,lookup_region,broader_office_administration,20
-2026-07,2026-07-09,London,lookup_region,broader_office_administration,21
-2026-07,2026-07-10,London,lookup_region,broader_office_administration,8
-2026-07,2026-07-11,London,lookup_region,broader_office_administration,6
-2026-07,2026-07-12,London,lookup_region,broader_office_administration,5
-2026-07,2026-07-13,London,lookup_region,broader_office_administration,5
-2026-07,2026-07-14,London,lookup_region,broader_office_administration,5
-2026-07,2026-07-01,Merseyside - Liverpool,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Merseyside - Liverpool,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Merseyside - Liverpool,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Merseyside - Liverpool,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Merseyside - Liverpool,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Merseyside - Liverpool,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Merseyside - Liverpool,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,London,lookup_region,broader_office_administration,4
+2026-07,2026-07-02,London,lookup_region,broader_office_administration,15
+2026-07,2026-07-03,London,lookup_region,broader_office_administration,14
+2026-07,2026-07-04,London,lookup_region,broader_office_administration,16
+2026-07,2026-07-05,London,lookup_region,broader_office_administration,16
+2026-07,2026-07-06,London,lookup_region,broader_office_administration,14
+2026-07,2026-07-07,London,lookup_region,broader_office_administration,16
+2026-07,2026-07-08,London,lookup_region,broader_office_administration,13
+2026-07,2026-07-09,London,lookup_region,broader_office_administration,14
+2026-07,2026-07-10,London,lookup_region,broader_office_administration,6
+2026-07,2026-07-11,London,lookup_region,broader_office_administration,4
+2026-07,2026-07-12,London,lookup_region,broader_office_administration,3
+2026-07,2026-07-13,London,lookup_region,broader_office_administration,3
+2026-07,2026-07-14,London,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Merseyside - Liverpool,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Merseyside - Liverpool,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Merseyside - Liverpool,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Merseyside - Liverpool,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Merseyside - Liverpool,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Merseyside - Liverpool,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Merseyside - Liverpool,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Merseyside - Liverpool,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Merseyside - Liverpool,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Merseyside - Liverpool,lookup_region,broader_office_administration,1
@@ -489,13 +741,13 @@
 2026-07,2026-07-12,Merseyside - St Helens & Knowsley,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Merseyside - St Helens & Knowsley,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Merseyside - St Helens & Knowsley,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Norfolk,lookup_region,broader_office_administration,5
-2026-07,2026-07-02,Norfolk,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Norfolk,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Norfolk,lookup_region,broader_office_administration,5
-2026-07,2026-07-05,Norfolk,lookup_region,broader_office_administration,5
-2026-07,2026-07-06,Norfolk,lookup_region,broader_office_administration,5
-2026-07,2026-07-07,Norfolk,lookup_region,broader_office_administration,5
+2026-07,2026-07-01,Norfolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Norfolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Norfolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Norfolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Norfolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Norfolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Norfolk,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Norfolk,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Norfolk,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Norfolk,lookup_region,broader_office_administration,0
@@ -503,13 +755,13 @@
 2026-07,2026-07-12,Norfolk,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Norfolk,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Norfolk,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,North East,published_aggregate,broader_office_administration,2
-2026-07,2026-07-02,North East,published_aggregate,broader_office_administration,2
-2026-07,2026-07-03,North East,published_aggregate,broader_office_administration,2
-2026-07,2026-07-04,North East,published_aggregate,broader_office_administration,2
-2026-07,2026-07-05,North East,published_aggregate,broader_office_administration,2
-2026-07,2026-07-06,North East,published_aggregate,broader_office_administration,2
-2026-07,2026-07-07,North East,published_aggregate,broader_office_administration,2
+2026-07,2026-07-01,North East,published_aggregate,broader_office_administration,1
+2026-07,2026-07-02,North East,published_aggregate,broader_office_administration,1
+2026-07,2026-07-03,North East,published_aggregate,broader_office_administration,1
+2026-07,2026-07-04,North East,published_aggregate,broader_office_administration,1
+2026-07,2026-07-05,North East,published_aggregate,broader_office_administration,1
+2026-07,2026-07-06,North East,published_aggregate,broader_office_administration,1
+2026-07,2026-07-07,North East,published_aggregate,broader_office_administration,1
 2026-07,2026-07-08,North East,published_aggregate,broader_office_administration,1
 2026-07,2026-07-09,North East,published_aggregate,broader_office_administration,1
 2026-07,2026-07-10,North East,published_aggregate,broader_office_administration,2
@@ -531,13 +783,13 @@
 2026-07,2026-07-12,North East - Tees Valley,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,North East - Tees Valley,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,North East - Tees Valley,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
-2026-07,2026-07-02,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
-2026-07,2026-07-03,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
-2026-07,2026-07-04,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
-2026-07,2026-07-05,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
-2026-07,2026-07-06,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
-2026-07,2026-07-07,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,2
+2026-07,2026-07-01,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
+2026-07,2026-07-02,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
+2026-07,2026-07-03,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
+2026-07,2026-07-04,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
+2026-07,2026-07-05,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
+2026-07,2026-07-06,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
+2026-07,2026-07-07,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
 2026-07,2026-07-08,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
 2026-07,2026-07-09,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
 2026-07,2026-07-10,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
@@ -545,20 +797,6 @@
 2026-07,2026-07-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
 2026-07,2026-07-13,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
 2026-07,2026-07-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,broader_office_administration,1
-2026-07,2026-07-01,North Scotland,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,North Scotland,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-04,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-05,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-06,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-07,North Scotland,lookup_region,broader_office_administration,1
-2026-07,2026-07-08,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-09,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-10,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-11,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-12,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-13,North Scotland,lookup_region,broader_office_administration,0
-2026-07,2026-07-14,North Scotland,lookup_region,broader_office_administration,0
 2026-07,2026-07-01,North Wales - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-02,North Wales - West,lookup_region,broader_office_administration,2
 2026-07,2026-07-03,North Wales - West,lookup_region,broader_office_administration,2
@@ -573,37 +811,37 @@
 2026-07,2026-07-12,North Wales - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,North Wales - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,North Wales - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-08,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-09,Northamptonshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-10,Northamptonshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-11,Northamptonshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Northamptonshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Northamptonshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Northamptonshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-01,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-03,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-04,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-05,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-06,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-08,Northamptonshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-09,Northamptonshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-10,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-11,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-12,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-13,Northamptonshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-14,Northamptonshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-01,Northern Ireland - East,lookup_region,broader_office_administration,0
-2026-07,2026-07-02,Northern Ireland - East,lookup_region,broader_office_administration,18
-2026-07,2026-07-03,Northern Ireland - East,lookup_region,broader_office_administration,19
-2026-07,2026-07-04,Northern Ireland - East,lookup_region,broader_office_administration,17
-2026-07,2026-07-05,Northern Ireland - East,lookup_region,broader_office_administration,17
-2026-07,2026-07-06,Northern Ireland - East,lookup_region,broader_office_administration,15
-2026-07,2026-07-07,Northern Ireland - East,lookup_region,broader_office_administration,15
-2026-07,2026-07-08,Northern Ireland - East,lookup_region,broader_office_administration,11
-2026-07,2026-07-09,Northern Ireland - East,lookup_region,broader_office_administration,11
+2026-07,2026-07-02,Northern Ireland - East,lookup_region,broader_office_administration,17
+2026-07,2026-07-03,Northern Ireland - East,lookup_region,broader_office_administration,18
+2026-07,2026-07-04,Northern Ireland - East,lookup_region,broader_office_administration,16
+2026-07,2026-07-05,Northern Ireland - East,lookup_region,broader_office_administration,16
+2026-07,2026-07-06,Northern Ireland - East,lookup_region,broader_office_administration,14
+2026-07,2026-07-07,Northern Ireland - East,lookup_region,broader_office_administration,14
+2026-07,2026-07-08,Northern Ireland - East,lookup_region,broader_office_administration,10
+2026-07,2026-07-09,Northern Ireland - East,lookup_region,broader_office_administration,10
 2026-07,2026-07-10,Northern Ireland - East,lookup_region,broader_office_administration,0
 2026-07,2026-07-11,Northern Ireland - East,lookup_region,broader_office_administration,0
 2026-07,2026-07-12,Northern Ireland - East,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Northern Ireland - East,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Northern Ireland - East,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Northern Ireland - West,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Northern Ireland - West,lookup_region,broader_office_administration,7
-2026-07,2026-07-03,Northern Ireland - West,lookup_region,broader_office_administration,7
+2026-07,2026-07-01,Northern Ireland - West,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Northern Ireland - West,lookup_region,broader_office_administration,6
+2026-07,2026-07-03,Northern Ireland - West,lookup_region,broader_office_administration,6
 2026-07,2026-07-04,Northern Ireland - West,lookup_region,broader_office_administration,6
 2026-07,2026-07-05,Northern Ireland - West,lookup_region,broader_office_administration,6
 2026-07,2026-07-06,Northern Ireland - West,lookup_region,broader_office_administration,7
@@ -615,13 +853,13 @@
 2026-07,2026-07-12,Northern Ireland - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Northern Ireland - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Northern Ireland - West,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Nottinghamshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Nottinghamshire,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Nottinghamshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Nottinghamshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Nottinghamshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Nottinghamshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Nottinghamshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Nottinghamshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Nottinghamshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Nottinghamshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Nottinghamshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-05,Nottinghamshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-06,Nottinghamshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Nottinghamshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-08,Nottinghamshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Nottinghamshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Nottinghamshire,lookup_region,broader_office_administration,0
@@ -629,13 +867,13 @@
 2026-07,2026-07-12,Nottinghamshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Nottinghamshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Nottinghamshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Other / Unknown,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Other / Unknown,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Other / Unknown,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Other / Unknown,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Other / Unknown,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Other / Unknown,lookup_region,broader_office_administration,5
-2026-07,2026-07-07,Other / Unknown,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Other / Unknown,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Other / Unknown,lookup_region,broader_office_administration,3
+2026-07,2026-07-03,Other / Unknown,lookup_region,broader_office_administration,3
+2026-07,2026-07-04,Other / Unknown,lookup_region,broader_office_administration,3
+2026-07,2026-07-05,Other / Unknown,lookup_region,broader_office_administration,3
+2026-07,2026-07-06,Other / Unknown,lookup_region,broader_office_administration,4
+2026-07,2026-07-07,Other / Unknown,lookup_region,broader_office_administration,3
 2026-07,2026-07-08,Other / Unknown,lookup_region,broader_office_administration,3
 2026-07,2026-07-09,Other / Unknown,lookup_region,broader_office_administration,3
 2026-07,2026-07-10,Other / Unknown,lookup_region,broader_office_administration,1
@@ -643,34 +881,34 @@
 2026-07,2026-07-12,Other / Unknown,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Other / Unknown,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Other / Unknown,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Oxfordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Oxfordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Oxfordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Oxfordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Oxfordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Oxfordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Oxfordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-08,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-09,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-10,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-11,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Oxfordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-08,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-09,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-10,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
-2026-07,2026-07-11,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
+2026-07,2026-07-01,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Oxfordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-08,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-10,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-11,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-12,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-13,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-14,Oxfordshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-01,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,1
+2026-07,2026-07-08,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-10,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-11,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-12,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-13,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
+2026-07,2026-07-14,Scotland Central - Edinburgh & Lothians,lookup_region,broader_office_administration,0
 2026-07,2026-07-01,Scotland Central - Falkirk & Stirling,lookup_region,broader_office_administration,1
 2026-07,2026-07-02,Scotland Central - Falkirk & Stirling,lookup_region,broader_office_administration,1
 2026-07,2026-07-03,Scotland Central - Falkirk & Stirling,lookup_region,broader_office_administration,1
@@ -699,13 +937,13 @@
 2026-07,2026-07-12,Scotland Central - Fife,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Scotland Central - Fife,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Scotland Central - Fife,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Scotland West - Glasgow,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Scotland West - Glasgow,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Scotland West - Glasgow,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Scotland West - Glasgow,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Scotland West - Glasgow,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Scotland West - Glasgow,lookup_region,broader_office_administration,4
-2026-07,2026-07-07,Scotland West - Glasgow,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Scotland West - Glasgow,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Scotland West - Glasgow,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Scotland West - Glasgow,lookup_region,broader_office_administration,0
+2026-07,2026-07-04,Scotland West - Glasgow,lookup_region,broader_office_administration,0
+2026-07,2026-07-05,Scotland West - Glasgow,lookup_region,broader_office_administration,0
+2026-07,2026-07-06,Scotland West - Glasgow,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Scotland West - Glasgow,lookup_region,broader_office_administration,0
 2026-07,2026-07-08,Scotland West - Glasgow,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Scotland West - Glasgow,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Scotland West - Glasgow,lookup_region,broader_office_administration,1
@@ -713,27 +951,13 @@
 2026-07,2026-07-12,Scotland West - Glasgow,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Scotland West - Glasgow,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Scotland West - Glasgow,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Shropshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-02,Shropshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Shropshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Shropshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Shropshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Shropshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Shropshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-08,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-09,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-10,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-11,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-12,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-13,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-14,Shropshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Somerset,lookup_region,broader_office_administration,1
-2026-07,2026-07-02,Somerset,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,Somerset,lookup_region,broader_office_administration,1
-2026-07,2026-07-04,Somerset,lookup_region,broader_office_administration,1
-2026-07,2026-07-05,Somerset,lookup_region,broader_office_administration,1
-2026-07,2026-07-06,Somerset,lookup_region,broader_office_administration,1
-2026-07,2026-07-07,Somerset,lookup_region,broader_office_administration,1
+2026-07,2026-07-01,Somerset,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Somerset,lookup_region,broader_office_administration,0
+2026-07,2026-07-03,Somerset,lookup_region,broader_office_administration,0
+2026-07,2026-07-04,Somerset,lookup_region,broader_office_administration,0
+2026-07,2026-07-05,Somerset,lookup_region,broader_office_administration,0
+2026-07,2026-07-06,Somerset,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Somerset,lookup_region,broader_office_administration,0
 2026-07,2026-07-08,Somerset,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Somerset,lookup_region,broader_office_administration,2
 2026-07,2026-07-10,Somerset,lookup_region,broader_office_administration,2
@@ -741,13 +965,13 @@
 2026-07,2026-07-12,Somerset,lookup_region,broader_office_administration,3
 2026-07,2026-07-13,Somerset,lookup_region,broader_office_administration,3
 2026-07,2026-07-14,Somerset,lookup_region,broader_office_administration,3
-2026-07,2026-07-01,Staffordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Staffordshire,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Staffordshire,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Staffordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Staffordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Staffordshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Staffordshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Staffordshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-02,Staffordshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-03,Staffordshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Staffordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Staffordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Staffordshire,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Staffordshire,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Staffordshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Staffordshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Staffordshire,lookup_region,broader_office_administration,1
@@ -755,13 +979,13 @@
 2026-07,2026-07-12,Staffordshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Staffordshire,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Staffordshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Suffolk,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Suffolk,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Suffolk,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Suffolk,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Suffolk,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Suffolk,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Suffolk,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Suffolk,lookup_region,broader_office_administration,3
+2026-07,2026-07-02,Suffolk,lookup_region,broader_office_administration,3
+2026-07,2026-07-03,Suffolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Suffolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Suffolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Suffolk,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Suffolk,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Suffolk,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Suffolk,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Suffolk,lookup_region,broader_office_administration,1
@@ -769,27 +993,27 @@
 2026-07,2026-07-12,Suffolk,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Suffolk,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Suffolk,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Surrey,lookup_region,broader_office_administration,9
-2026-07,2026-07-02,Surrey,lookup_region,broader_office_administration,8
-2026-07,2026-07-03,Surrey,lookup_region,broader_office_administration,7
-2026-07,2026-07-04,Surrey,lookup_region,broader_office_administration,7
-2026-07,2026-07-05,Surrey,lookup_region,broader_office_administration,7
-2026-07,2026-07-06,Surrey,lookup_region,broader_office_administration,8
-2026-07,2026-07-07,Surrey,lookup_region,broader_office_administration,8
-2026-07,2026-07-08,Surrey,lookup_region,broader_office_administration,2
-2026-07,2026-07-09,Surrey,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-03,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-04,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-05,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-06,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-08,Surrey,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Surrey,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Surrey,lookup_region,broader_office_administration,2
 2026-07,2026-07-11,Surrey,lookup_region,broader_office_administration,2
 2026-07,2026-07-12,Surrey,lookup_region,broader_office_administration,2
 2026-07,2026-07-13,Surrey,lookup_region,broader_office_administration,2
 2026-07,2026-07-14,Surrey,lookup_region,broader_office_administration,2
-2026-07,2026-07-01,Sussex,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Sussex,lookup_region,broader_office_administration,4
-2026-07,2026-07-03,Sussex,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Sussex,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Sussex,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Sussex,lookup_region,broader_office_administration,4
-2026-07,2026-07-07,Sussex,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Sussex,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Sussex,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Sussex,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Sussex,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Sussex,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Sussex,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Sussex,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Sussex,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Sussex,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Sussex,lookup_region,broader_office_administration,1
@@ -797,20 +1021,20 @@
 2026-07,2026-07-12,Sussex,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Sussex,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Sussex,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-05,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-06,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-07,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,3
-2026-07,2026-07-08,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
-2026-07,2026-07-09,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-10,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-11,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-12,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-13,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
-2026-07,2026-07-14,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,4
+2026-07,2026-07-01,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-03,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-04,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-05,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-06,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-07,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-08,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
+2026-07,2026-07-10,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
+2026-07,2026-07-11,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
+2026-07,2026-07-12,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
+2026-07,2026-07-13,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
+2026-07,2026-07-14,Wales South - Cardiff & Vale,lookup_region,broader_office_administration,2
 2026-07,2026-07-01,West Midlands - Black Country,lookup_region,broader_office_administration,0
 2026-07,2026-07-02,West Midlands - Black Country,lookup_region,broader_office_administration,0
 2026-07,2026-07-03,West Midlands - Black Country,lookup_region,broader_office_administration,0
@@ -825,41 +1049,41 @@
 2026-07,2026-07-12,West Midlands - Black Country,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,West Midlands - Black Country,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,West Midlands - Black Country,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,10
-2026-07,2026-07-02,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,10
-2026-07,2026-07-03,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,6
-2026-07,2026-07-04,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,6
-2026-07,2026-07-05,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,6
-2026-07,2026-07-06,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,6
-2026-07,2026-07-07,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,6
-2026-07,2026-07-08,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-09,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-10,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-11,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-12,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-13,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-14,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-01,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-02,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-03,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-04,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Wiltshire,lookup_region,broader_office_administration,3
-2026-07,2026-07-08,Wiltshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-09,Wiltshire,lookup_region,broader_office_administration,1
-2026-07,2026-07-10,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-01,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-02,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,3
+2026-07,2026-07-03,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-08,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-09,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-10,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-11,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-12,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-13,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-14,West Midlands - Coventry & Warwickshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-01,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Wiltshire,lookup_region,broader_office_administration,1
+2026-07,2026-07-08,Wiltshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-09,Wiltshire,lookup_region,broader_office_administration,0
+2026-07,2026-07-10,Wiltshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-11,Wiltshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-12,Wiltshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-13,Wiltshire,lookup_region,broader_office_administration,0
 2026-07,2026-07-14,Wiltshire,lookup_region,broader_office_administration,0
-2026-07,2026-07-01,Worcestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Worcestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,Worcestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Worcestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Worcestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Worcestershire,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Worcestershire,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,Worcestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Worcestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Worcestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Worcestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Worcestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Worcestershire,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Worcestershire,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Worcestershire,lookup_region,broader_office_administration,0
 2026-07,2026-07-09,Worcestershire,lookup_region,broader_office_administration,0
 2026-07,2026-07-10,Worcestershire,lookup_region,broader_office_administration,1
@@ -867,13 +1091,13 @@
 2026-07,2026-07-12,Worcestershire,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,Worcestershire,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,Worcestershire,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Yorkshire - East,lookup_region,broader_office_administration,2
+2026-07,2026-07-01,Yorkshire - East,lookup_region,broader_office_administration,0
+2026-07,2026-07-02,Yorkshire - East,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Yorkshire - East,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Yorkshire - East,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Yorkshire - East,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Yorkshire - East,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Yorkshire - East,lookup_region,broader_office_administration,1
 2026-07,2026-07-08,Yorkshire - East,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Yorkshire - East,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Yorkshire - East,lookup_region,broader_office_administration,2
@@ -881,13 +1105,13 @@
 2026-07,2026-07-12,Yorkshire - East,lookup_region,broader_office_administration,2
 2026-07,2026-07-13,Yorkshire - East,lookup_region,broader_office_administration,2
 2026-07,2026-07-14,Yorkshire - East,lookup_region,broader_office_administration,2
-2026-07,2026-07-01,Yorkshire - North,lookup_region,broader_office_administration,4
-2026-07,2026-07-02,Yorkshire - North,lookup_region,broader_office_administration,5
-2026-07,2026-07-03,Yorkshire - North,lookup_region,broader_office_administration,4
-2026-07,2026-07-04,Yorkshire - North,lookup_region,broader_office_administration,3
-2026-07,2026-07-05,Yorkshire - North,lookup_region,broader_office_administration,3
-2026-07,2026-07-06,Yorkshire - North,lookup_region,broader_office_administration,3
-2026-07,2026-07-07,Yorkshire - North,lookup_region,broader_office_administration,3
+2026-07,2026-07-01,Yorkshire - North,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Yorkshire - North,lookup_region,broader_office_administration,3
+2026-07,2026-07-03,Yorkshire - North,lookup_region,broader_office_administration,2
+2026-07,2026-07-04,Yorkshire - North,lookup_region,broader_office_administration,2
+2026-07,2026-07-05,Yorkshire - North,lookup_region,broader_office_administration,2
+2026-07,2026-07-06,Yorkshire - North,lookup_region,broader_office_administration,2
+2026-07,2026-07-07,Yorkshire - North,lookup_region,broader_office_administration,2
 2026-07,2026-07-08,Yorkshire - North,lookup_region,broader_office_administration,1
 2026-07,2026-07-09,Yorkshire - North,lookup_region,broader_office_administration,1
 2026-07,2026-07-10,Yorkshire - North,lookup_region,broader_office_administration,2
@@ -895,34 +1119,34 @@
 2026-07,2026-07-12,Yorkshire - North,lookup_region,broader_office_administration,2
 2026-07,2026-07-13,Yorkshire - North,lookup_region,broader_office_administration,2
 2026-07,2026-07-14,Yorkshire - North,lookup_region,broader_office_administration,2
-2026-07,2026-07-01,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-02,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-03,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-04,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-05,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-06,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-07,Yorkshire - South,lookup_region,broader_office_administration,2
-2026-07,2026-07-08,Yorkshire - South,lookup_region,broader_office_administration,3
-2026-07,2026-07-09,Yorkshire - South,lookup_region,broader_office_administration,4
-2026-07,2026-07-10,Yorkshire - South,lookup_region,broader_office_administration,6
-2026-07,2026-07-11,Yorkshire - South,lookup_region,broader_office_administration,6
-2026-07,2026-07-12,Yorkshire - South,lookup_region,broader_office_administration,6
-2026-07,2026-07-13,Yorkshire - South,lookup_region,broader_office_administration,6
-2026-07,2026-07-14,Yorkshire - South,lookup_region,broader_office_administration,6
-2026-07,2026-07-01,Yorkshire - West,lookup_region,broader_office_administration,9
-2026-07,2026-07-02,Yorkshire - West,lookup_region,broader_office_administration,10
-2026-07,2026-07-03,Yorkshire - West,lookup_region,broader_office_administration,9
-2026-07,2026-07-04,Yorkshire - West,lookup_region,broader_office_administration,9
-2026-07,2026-07-05,Yorkshire - West,lookup_region,broader_office_administration,9
-2026-07,2026-07-06,Yorkshire - West,lookup_region,broader_office_administration,9
-2026-07,2026-07-07,Yorkshire - West,lookup_region,broader_office_administration,9
-2026-07,2026-07-08,Yorkshire - West,lookup_region,broader_office_administration,5
-2026-07,2026-07-09,Yorkshire - West,lookup_region,broader_office_administration,4
-2026-07,2026-07-10,Yorkshire - West,lookup_region,broader_office_administration,4
-2026-07,2026-07-11,Yorkshire - West,lookup_region,broader_office_administration,5
-2026-07,2026-07-12,Yorkshire - West,lookup_region,broader_office_administration,5
-2026-07,2026-07-13,Yorkshire - West,lookup_region,broader_office_administration,5
-2026-07,2026-07-14,Yorkshire - West,lookup_region,broader_office_administration,5
+2026-07,2026-07-01,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-02,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-03,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Yorkshire - South,lookup_region,broader_office_administration,1
+2026-07,2026-07-08,Yorkshire - South,lookup_region,broader_office_administration,2
+2026-07,2026-07-09,Yorkshire - South,lookup_region,broader_office_administration,3
+2026-07,2026-07-10,Yorkshire - South,lookup_region,broader_office_administration,5
+2026-07,2026-07-11,Yorkshire - South,lookup_region,broader_office_administration,5
+2026-07,2026-07-12,Yorkshire - South,lookup_region,broader_office_administration,5
+2026-07,2026-07-13,Yorkshire - South,lookup_region,broader_office_administration,5
+2026-07,2026-07-14,Yorkshire - South,lookup_region,broader_office_administration,5
+2026-07,2026-07-01,Yorkshire - West,lookup_region,broader_office_administration,2
+2026-07,2026-07-02,Yorkshire - West,lookup_region,broader_office_administration,2
+2026-07,2026-07-03,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-04,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-05,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-06,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-07,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-08,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-09,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-10,Yorkshire - West,lookup_region,broader_office_administration,0
+2026-07,2026-07-11,Yorkshire - West,lookup_region,broader_office_administration,1
+2026-07,2026-07-12,Yorkshire - West,lookup_region,broader_office_administration,0
+2026-07,2026-07-13,Yorkshire - West,lookup_region,broader_office_administration,0
+2026-07,2026-07-14,Yorkshire - West,lookup_region,broader_office_administration,0
 2026-07,2026-07-01,devon,lookup_region,broader_office_administration,0
 2026-07,2026-07-02,devon,lookup_region,broader_office_administration,0
 2026-07,2026-07-03,devon,lookup_region,broader_office_administration,0
@@ -937,20 +1161,20 @@
 2026-07,2026-07-12,devon,lookup_region,broader_office_administration,1
 2026-07,2026-07-13,devon,lookup_region,broader_office_administration,1
 2026-07,2026-07-14,devon,lookup_region,broader_office_administration,1
-2026-07,2026-07-01,unknown,lookup_region,broader_office_administration,48
-2026-07,2026-07-02,unknown,lookup_region,broader_office_administration,52
-2026-07,2026-07-03,unknown,lookup_region,broader_office_administration,42
-2026-07,2026-07-04,unknown,lookup_region,broader_office_administration,42
-2026-07,2026-07-05,unknown,lookup_region,broader_office_administration,42
-2026-07,2026-07-06,unknown,lookup_region,broader_office_administration,41
-2026-07,2026-07-07,unknown,lookup_region,broader_office_administration,42
-2026-07,2026-07-08,unknown,lookup_region,broader_office_administration,17
-2026-07,2026-07-09,unknown,lookup_region,broader_office_administration,21
-2026-07,2026-07-10,unknown,lookup_region,broader_office_administration,24
-2026-07,2026-07-11,unknown,lookup_region,broader_office_administration,26
-2026-07,2026-07-12,unknown,lookup_region,broader_office_administration,26
-2026-07,2026-07-13,unknown,lookup_region,broader_office_administration,26
-2026-07,2026-07-14,unknown,lookup_region,broader_office_administration,26
+2026-07,2026-07-01,unknown,lookup_region,broader_office_administration,12
+2026-07,2026-07-02,unknown,lookup_region,broader_office_administration,13
+2026-07,2026-07-03,unknown,lookup_region,broader_office_administration,12
+2026-07,2026-07-04,unknown,lookup_region,broader_office_administration,13
+2026-07,2026-07-05,unknown,lookup_region,broader_office_administration,13
+2026-07,2026-07-06,unknown,lookup_region,broader_office_administration,13
+2026-07,2026-07-07,unknown,lookup_region,broader_office_administration,13
+2026-07,2026-07-08,unknown,lookup_region,broader_office_administration,9
+2026-07,2026-07-09,unknown,lookup_region,broader_office_administration,12
+2026-07,2026-07-10,unknown,lookup_region,broader_office_administration,13
+2026-07,2026-07-11,unknown,lookup_region,broader_office_administration,14
+2026-07,2026-07-12,unknown,lookup_region,broader_office_administration,14
+2026-07,2026-07-13,unknown,lookup_region,broader_office_administration,14
+2026-07,2026-07-14,unknown,lookup_region,broader_office_administration,14
 2026-07,2026-07-01,Aberdeenshire,lookup_region,care_assistant_healthcare_assistant,1
 2026-07,2026-07-02,Aberdeenshire,lookup_region,care_assistant_healthcare_assistant,1
 2026-07,2026-07-03,Aberdeenshire,lookup_region,care_assistant_healthcare_assistant,0
@@ -1287,20 +1511,20 @@
 2026-07,2026-07-12,Highlands & Islands,lookup_region,care_assistant_healthcare_assistant,0
 2026-07,2026-07-13,Highlands & Islands,lookup_region,care_assistant_healthcare_assistant,0
 2026-07,2026-07-14,Highlands & Islands,lookup_region,care_assistant_healthcare_assistant,0
-2026-07,2026-07-01,Kent,lookup_region,care_assistant_healthcare_assistant,10
-2026-07,2026-07-02,Kent,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-03,Kent,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-04,Kent,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-05,Kent,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-06,Kent,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-07,Kent,lookup_region,care_assistant_healthcare_assistant,9
-2026-07,2026-07-08,Kent,lookup_region,care_assistant_healthcare_assistant,11
-2026-07,2026-07-09,Kent,lookup_region,care_assistant_healthcare_assistant,12
-2026-07,2026-07-10,Kent,lookup_region,care_assistant_healthcare_assistant,12
-2026-07,2026-07-11,Kent,lookup_region,care_assistant_healthcare_assistant,12
-2026-07,2026-07-12,Kent,lookup_region,care_assistant_healthcare_assistant,3
-2026-07,2026-07-13,Kent,lookup_region,care_assistant_healthcare_assistant,10
-2026-07,2026-07-14,Kent,lookup_region,care_assistant_healthcare_assistant,10
+2026-07,2026-07-01,Kent,lookup_region,care_assistant_healthcare_assistant,9
+2026-07,2026-07-02,Kent,lookup_region,care_assistant_healthcare_assistant,12
+2026-07,2026-07-03,Kent,lookup_region,care_assistant_healthcare_assistant,12
+2026-07,2026-07-04,Kent,lookup_region,care_assistant_healthcare_assistant,12
+2026-07,2026-07-05,Kent,lookup_region,care_assistant_healthcare_assistant,12
+2026-07,2026-07-06,Kent,lookup_region,care_assistant_healthcare_assistant,12
+2026-07,2026-07-07,Kent,lookup_region,care_assistant_healthcare_assistant,8
+2026-07,2026-07-08,Kent,lookup_region,care_assistant_healthcare_assistant,10
+2026-07,2026-07-09,Kent,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-10,Kent,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-11,Kent,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-12,Kent,lookup_region,care_assistant_healthcare_assistant,2
+2026-07,2026-07-13,Kent,lookup_region,care_assistant_healthcare_assistant,9
+2026-07,2026-07-14,Kent,lookup_region,care_assistant_healthcare_assistant,9
 2026-07,2026-07-01,Lancashire - Blackpool & Fylde,lookup_region,care_assistant_healthcare_assistant,1
 2026-07,2026-07-02,Lancashire - Blackpool & Fylde,lookup_region,care_assistant_healthcare_assistant,3
 2026-07,2026-07-03,Lancashire - Blackpool & Fylde,lookup_region,care_assistant_healthcare_assistant,3
@@ -2015,20 +2239,20 @@
 2026-07,2026-07-12,Yorkshire - West,lookup_region,care_assistant_healthcare_assistant,6
 2026-07,2026-07-13,Yorkshire - West,lookup_region,care_assistant_healthcare_assistant,5
 2026-07,2026-07-14,Yorkshire - West,lookup_region,care_assistant_healthcare_assistant,5
-2026-07,2026-07-01,unknown,lookup_region,care_assistant_healthcare_assistant,9
-2026-07,2026-07-02,unknown,lookup_region,care_assistant_healthcare_assistant,12
-2026-07,2026-07-03,unknown,lookup_region,care_assistant_healthcare_assistant,11
-2026-07,2026-07-04,unknown,lookup_region,care_assistant_healthcare_assistant,12
-2026-07,2026-07-05,unknown,lookup_region,care_assistant_healthcare_assistant,11
-2026-07,2026-07-06,unknown,lookup_region,care_assistant_healthcare_assistant,11
-2026-07,2026-07-07,unknown,lookup_region,care_assistant_healthcare_assistant,9
-2026-07,2026-07-08,unknown,lookup_region,care_assistant_healthcare_assistant,11
-2026-07,2026-07-09,unknown,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-10,unknown,lookup_region,care_assistant_healthcare_assistant,14
-2026-07,2026-07-11,unknown,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-12,unknown,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-13,unknown,lookup_region,care_assistant_healthcare_assistant,13
-2026-07,2026-07-14,unknown,lookup_region,care_assistant_healthcare_assistant,13
+2026-07,2026-07-01,unknown,lookup_region,care_assistant_healthcare_assistant,8
+2026-07,2026-07-02,unknown,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-03,unknown,lookup_region,care_assistant_healthcare_assistant,10
+2026-07,2026-07-04,unknown,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-05,unknown,lookup_region,care_assistant_healthcare_assistant,10
+2026-07,2026-07-06,unknown,lookup_region,care_assistant_healthcare_assistant,10
+2026-07,2026-07-07,unknown,lookup_region,care_assistant_healthcare_assistant,8
+2026-07,2026-07-08,unknown,lookup_region,care_assistant_healthcare_assistant,9
+2026-07,2026-07-09,unknown,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-10,unknown,lookup_region,care_assistant_healthcare_assistant,12
+2026-07,2026-07-11,unknown,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-12,unknown,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-13,unknown,lookup_region,care_assistant_healthcare_assistant,11
+2026-07,2026-07-14,unknown,lookup_region,care_assistant_healthcare_assistant,11
 2026-07,2026-07-01,Berkshire,lookup_region,residential_childcare_children_support,1
 2026-07,2026-07-02,Berkshire,lookup_region,residential_childcare_children_support,1
 2026-07,2026-07-03,Berkshire,lookup_region,residential_childcare_children_support,0
@@ -2694,10 +2918,10 @@
 2026-07,2026-07-05,unknown,lookup_region,teaching_sen_learning_support,8
 2026-07,2026-07-06,unknown,lookup_region,teaching_sen_learning_support,8
 2026-07,2026-07-07,unknown,lookup_region,teaching_sen_learning_support,8
-2026-07,2026-07-08,unknown,lookup_region,teaching_sen_learning_support,8
-2026-07,2026-07-09,unknown,lookup_region,teaching_sen_learning_support,8
-2026-07,2026-07-10,unknown,lookup_region,teaching_sen_learning_support,7
-2026-07,2026-07-11,unknown,lookup_region,teaching_sen_learning_support,8
-2026-07,2026-07-12,unknown,lookup_region,teaching_sen_learning_support,9
-2026-07,2026-07-13,unknown,lookup_region,teaching_sen_learning_support,8
-2026-07,2026-07-14,unknown,lookup_region,teaching_sen_learning_support,8
+2026-07,2026-07-08,unknown,lookup_region,teaching_sen_learning_support,7
+2026-07,2026-07-09,unknown,lookup_region,teaching_sen_learning_support,7
+2026-07,2026-07-10,unknown,lookup_region,teaching_sen_learning_support,6
+2026-07,2026-07-11,unknown,lookup_region,teaching_sen_learning_support,7
+2026-07,2026-07-12,unknown,lookup_region,teaching_sen_learning_support,8
+2026-07,2026-07-13,unknown,lookup_region,teaching_sen_learning_support,7
+2026-07,2026-07-14,unknown,lookup_region,teaching_sen_learning_support,7

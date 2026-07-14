@@ -1,7 +1,7 @@
 ﻿category,register_file,titles_considered,selected_titles,high_confidence_titles,elastic_fit_titles,review_titles,hard_pass_titles
-care_assistant_healthcare_assistant,care_assistant_healthcare_assistant_candidate_register.csv,113,81,70,11,1,31
-teaching_sen_learning_support,teaching_sen_learning_support_candidate_register.csv,33,25,20,5,7,1
-broader_customer_service,broader_customer_service_candidate_register.csv,19,0,0,0,16,3
-broader_office_administration,broader_office_administration_candidate_register.csv,456,274,48,226,23,159
+care_assistant_healthcare_assistant,care_assistant_healthcare_assistant_candidate_register.csv,113,78,67,11,1,34
+teaching_sen_learning_support,teaching_sen_learning_support_candidate_register.csv,33,24,19,5,7,2
+broader_customer_service,broader_customer_service_candidate_register.csv,29,21,15,6,0,8
+broader_office_administration,broader_office_administration_candidate_register.csv,456,155,37,118,22,279
 residential_childcare_children_support,residential_childcare_children_support_candidate_register.csv,74,30,15,15,6,38
 warehouse_logistics_operative,warehouse_logistics_operative_candidate_register.csv,4,0,0,0,3,1

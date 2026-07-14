@@ -3,7 +3,7 @@ Input directory: pipeline/input-jobg8-archive/2026-07
 Valid feed days: 14
 First feed day: 2026-07-01
 Last feed day: 2026-07-14
-Selected register-expanded job rows: 5116
+Selected register-expanded job rows: 3974
 Geo lookup: pipeline/geo/geo_lookup.xlsx
 Geo areas loaded: 1198
 Classification mode: register-only
@@ -13,7 +13,7 @@ North East published page: aggregated from three geo_lookup regions
 Registers:
 - care_assistant_healthcare_assistant: pipeline/registers-exploratory/2026-07-category-discovery/care_assistant_healthcare_assistant_candidate_register.csv (113 titles)
 - teaching_sen_learning_support: pipeline/registers-exploratory/2026-07-category-discovery/teaching_sen_learning_support_candidate_register.csv (33 titles)
-- broader_customer_service: pipeline/registers-exploratory/2026-07-category-discovery/broader_customer_service_candidate_register.csv (19 titles)
+- broader_customer_service: pipeline/registers-exploratory/2026-07-category-discovery/broader_customer_service_candidate_register.csv (29 titles)
 - broader_office_administration: pipeline/registers-exploratory/2026-07-category-discovery/broader_office_administration_candidate_register.csv (456 titles)
 - residential_childcare_children_support: pipeline/registers-exploratory/2026-07-category-discovery/residential_childcare_children_support_candidate_register.csv (74 titles)
 - warehouse_logistics_operative: pipeline/registers-exploratory/2026-07-category-discovery/warehouse_logistics_operative_candidate_register.csv (4 titles)
