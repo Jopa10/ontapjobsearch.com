@@ -4,6 +4,8 @@ on:
   push:
     branches: [test-add-sussex-support-worker]
     paths: ['.github/workflows/implement-sussex-support-worker.yml']
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: write
