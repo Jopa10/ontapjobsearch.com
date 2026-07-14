@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,2417
-total rows included,19
-total rows dropped,2396
+total rows included,32
+total rows dropped,2383
 title classification count - HIGH_CONFIDENCE,160
 title classification count - ELASTIC_FIT,108
 title classification count - REVIEW_CONTEXT_DEPENDENT,3
@@ -31,3 +31,11 @@ anchor elastic count - North East,1
 other elastic count - North East,8
 total rows output - North East,10
 job_id included - North East,107616541; 107656064; 107658956; 1401783136; 107672554; 107539241; 107617093; 107615864; 107652248; 107652261
+selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
+selection message - Sussex,"Sussex selection complete: 13 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Sussex,13
+high confidence count - Sussex,7
+anchor elastic count - Sussex,0
+other elastic count - Sussex,6
+total rows output - Sussex,13
+job_id included - Sussex,107587865; 107474631; 107658496; 107643396; 7911979f-e083-4358-946e-98879570ba1e; 107678677; 107680820; 1401783140; 107641522; 1401783629; 107657282; 1401783680; 107664527

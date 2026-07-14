@@ -68,6 +68,14 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline
 
+      - name: Verify support-worker outputs
+        if: steps.slice-register.outputs.support_worker == 'true'
+        run: |
+          test -s pipeline/output-support-worker/west-yorkshire-support-worker.json
+          test -s pipeline/output-support-worker/south-yorkshire-support-worker.json
+          test -s pipeline/output-support-worker/north-east-support-worker.json
+          test -s pipeline/output-support-worker/sussex-support-worker.json
+
       - name: Commit JobG8 daily output
         run: |
           set -euo pipefail

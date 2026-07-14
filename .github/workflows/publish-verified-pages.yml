@@ -41,6 +41,7 @@ jobs:
             "app/west-yorkshire/service-administrator-jobs.json"
             "app/north-east/support-worker-jobs.json"
             "app/south-yorkshire/support-worker.json"
+            "app/sussex/support-worker.json"
             "app/west-yorkshire/support-worker.json"
           )
 
@@ -52,7 +53,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "app/london/service-administrator-jobs.json" && $0 != "app/north-east/service-administrator-jobs.json" && $0 != "app/south-yorkshire/service-administrator-jobs.json" && $0 != "app/west-yorkshire/service-administrator-jobs.json" && $0 != "app/north-east/support-worker-jobs.json" && $0 != "app/south-yorkshire/support-worker.json" && $0 != "app/west-yorkshire/support-worker.json"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "app/london/service-administrator-jobs.json" && $0 != "app/north-east/service-administrator-jobs.json" && $0 != "app/south-yorkshire/service-administrator-jobs.json" && $0 != "app/west-yorkshire/service-administrator-jobs.json" && $0 != "app/north-east/support-worker-jobs.json" && $0 != "app/south-yorkshire/support-worker.json" && $0 != "app/sussex/support-worker.json" && $0 != "app/west-yorkshire/support-worker.json"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit unexpected staged paths:"
             printf '%s\n' "$unexpected_files"
