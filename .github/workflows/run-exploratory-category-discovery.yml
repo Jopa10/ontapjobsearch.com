@@ -80,6 +80,8 @@ jobs:
             pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
 
       - name: Build temporary candidate registers
+        id: build_registers
+        continue-on-error: true
         run: |
           month='${{ steps.month.outputs.month }}'
           register_dir="pipeline/registers-exploratory/${month}-category-discovery"
@@ -89,7 +91,23 @@ jobs:
             --month "$month" \
             --input-dir '${{ steps.month.outputs.archive_dir }}' \
             --output-dir "$register_dir" \
-            --detail-output "$report_dir/${month}-category-discovery-classification-detail.csv"
+            --detail-output "$report_dir/${month}-category-discovery-classification-detail.csv" \
+            > "$report_dir/${month}-candidate-register-builder.log" 2>&1
+
+      - name: Commit builder diagnostics on failure
+        if: steps.build_registers.outcome == 'failure'
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ steps.month.outputs.month }}'
+          log="pipeline/reports-module2-exploratory/${month}-category-discovery/${month}-candidate-register-builder.log"
+          cat "$log"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$log"
+          git commit -m "Record exploratory candidate builder failure for ${month}"
+          git push origin "HEAD:${TARGET_BRANCH}"
+          exit 1
 
       - name: Run existing Module 2 engine with exploratory registers
         run: |
