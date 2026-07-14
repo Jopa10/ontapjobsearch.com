@@ -1,0 +1,89 @@
+name: Fix annual salary display
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-annual-salary-format.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply-fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix-annual-salary-format
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Apply shared annual salary formatting fix
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('components/JobSlicePage.tsx')
+          text = path.read_text(encoding='utf-8')
+          old = '''function formatSalary(job: JobRow) {
+            const salary = job.salary_text ? cleanText(job.salary_text) : "";
+
+            return salary.replace(/£(\\d{4,})(?=\\s|$)/g, (_, amount) => {
+              return "£" + Number(amount).toLocaleString("en-GB");
+            });
+          }'''.replace('          ', '')
+          new = '''function formatSalary(job: JobRow) {
+            let salary = job.salary_text ? cleanText(job.salary_text) : "";
+
+            if (/\\bper year\\b|\\bper annum\\b/i.test(salary)) {
+              salary = salary.replace(/£\\s*(\\d[\\d,]*(?:\\.\\d+)?)/g, (match, amount) => {
+                const numeric = Number(amount.replace(/,/g, ""));
+                if (!Number.isFinite(numeric)) return match;
+                return "£" + Math.round(numeric).toLocaleString("en-GB");
+              });
+            } else {
+              salary = salary.replace(/£(\\d{4,})(?=\\s|$)/g, (_, amount) => {
+                return "£" + Number(amount).toLocaleString("en-GB");
+              });
+            }
+
+            return salary.replace(/\\){2,}$/g, ")");
+          }'''.replace('          ', '')
+
+          if text.count(old) != 1:
+              raise SystemExit('STOP: expected one formatSalary block')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
+      - name: Validate the focused change
+        run: |
+          npm ci
+          npx eslint components/JobSlicePage.tsx
+          node - <<'JS'
+          function format(value) {
+            let salary = value;
+            if (/\bper year\b|\bper annum\b/i.test(salary)) {
+              salary = salary.replace(/£\s*(\d[\d,]*(?:\.\d+)?)/g, (match, amount) => {
+                const numeric = Number(amount.replace(/,/g, ""));
+                if (!Number.isFinite(numeric)) return match;
+                return "£" + Math.round(numeric).toLocaleString("en-GB");
+              });
+            }
+            return salary.replace(/\){2,}$/g, ")");
+          }
+          const actual = format('£29390.4 - £30056 per year (+ £60 per sleep-in))');
+          const expected = '£29,390 - £30,056 per year (+ £60 per sleep-in)';
+          if (actual !== expected) throw new Error(`${actual} !== ${expected}`);
+          JS
+
+      - name: Commit component fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add components/JobSlicePage.tsx
+          git commit -m "Format annual salaries as whole pounds"
+          git push origin fix-annual-salary-format
