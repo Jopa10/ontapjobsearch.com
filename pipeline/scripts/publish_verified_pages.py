@@ -32,6 +32,7 @@ MAPPINGS: tuple[Mapping, ...] = (
     Mapping("West Yorkshire service administrator jobs", "Yorkshire - West", "admin_service", Path("pipeline/output-admin-service/west-yorkshire-admin-service.json"), Path("app/west-yorkshire/service-administrator-jobs.json")),
     Mapping("North East support worker jobs", "North East", "support_worker", Path("pipeline/output-support-worker/north-east-support-worker.json"), Path("app/north-east/support-worker-jobs.json")),
     Mapping("South Yorkshire support worker jobs", "Yorkshire - South", "support_worker", Path("pipeline/output-support-worker/south-yorkshire-support-worker.json"), Path("app/south-yorkshire/support-worker.json")),
+    Mapping("Sussex support worker jobs", "Sussex", "support_worker", Path("pipeline/output-support-worker/sussex-support-worker.json"), Path("app/sussex/support-worker.json")),
     Mapping("West Yorkshire support worker jobs", "Yorkshire - West", "support_worker", Path("pipeline/output-support-worker/west-yorkshire-support-worker.json"), Path("app/west-yorkshire/support-worker.json")),
 )
 

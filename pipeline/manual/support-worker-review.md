@@ -160,3 +160,87 @@ action:
 POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Redcar | £29350 per year | Complex care assistant
 job_id: 107616888
 ---
+
+## SUSSEX — SELECTED
+
+---
+action:
+SELECTED | Sussex | Sussex | £13.75 per hour | Bank Support Worker
+job_id: 1401783140
+---
+
+---
+action:
+SELECTED | Sussex | Bognor Regis | £13 - £14.5 per hour | Healthcare Support Worker
+job_id: 107587865
+---
+
+---
+action:
+SELECTED | Sussex | Pulborough | £12.71 - £14.45 per hour (additional payments for sleep in duties) | Residential Children's Home Support Worker
+job_id: 107474631
+---
+
+---
+action:
+SELECTED | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
+job_id: 107641522
+---
+
+---
+action:
+SELECTED | Sussex | Hailsham | £29390.4 - £30056 per year (+ £60 per sleep-in)) | Residential Support Worker
+job_id: 1401783629
+---
+
+---
+action:
+SELECTED | Sussex | Worthing | £13.45 per hour (plus holiday pay of £1.62 per hour) | Bank Support Worker
+job_id: 107657282
+---
+
+---
+action:
+SELECTED | Sussex | Lewes | £29390.4 - £30056 per year (+ £60 per sleep-in)) | Residential Support Worker
+job_id: 1401783680
+---
+
+---
+action:
+SELECTED | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
+job_id: 107658496
+---
+
+---
+action:
+SELECTED | Sussex | Hastings | £23480 per year | Support Worker
+job_id: 107643396
+---
+
+---
+action:
+SELECTED | Sussex | St. Leonards-on-sea | £30000 - £32000 per year | Healthcare Assistant
+job_id: 7911979f-e083-4358-946e-98879570ba1e
+---
+
+---
+action:
+SELECTED | Sussex | Chichester | £15 - £17 per hour | Complex Care Support Worker
+job_id: 107664527
+---
+
+---
+action:
+SELECTED | Sussex | Bexhill-on-sea | £12.72 per hour | Domestic Care Assistant - Bank
+job_id: 107678677
+---
+
+---
+action:
+SELECTED | Sussex | Hove | £13.49 per hour | Support Worker
+job_id: 107680820
+---
+
+## SUSSEX — POSSIBLES
+
+_No jobs in this group._
