@@ -1,0 +1,75 @@
+name: Simplify homepage admin descriptions
+
+on:
+  push:
+    branches:
+      - simplify-homepage-admin-descriptions
+    paths:
+      - '.github/workflows/simplify-homepage-admin-descriptions.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-homepage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: simplify-homepage-admin-descriptions
+          fetch-depth: 0
+
+      - name: Simplify admin card descriptions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('app/page.tsx')
+          text = path.read_text(encoding='utf-8')
+
+          replacements = {
+              'Current admin, office-support and customer-service roles across West Yorkshire.':
+                  'Current admin, office and service roles across West Yorkshire.',
+              'Current admin, office-support and customer-service roles across South Yorkshire.':
+                  'Current admin, office and service roles across South Yorkshire.',
+              'Current admin, office-support and customer-service roles across the North East.':
+                  'Current admin, office and service roles across the North East.',
+              'Current admin, office-support and customer-service roles across London.':
+                  'Current admin, office and service roles across London.',
+          }
+
+          for old, new in replacements.items():
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'Expected one match, found {count}: {old!r}')
+              text = text.replace(old, new, 1)
+
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Validate focused homepage change
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          text = Path('app/page.tsx').read_text(encoding='utf-8')
+
+          expected = [
+              'Current admin, office and service roles across West Yorkshire.',
+              'Current admin, office and service roles across South Yorkshire.',
+              'Current admin, office and service roles across the North East.',
+              'Current admin, office and service roles across London.',
+          ]
+
+          for value in expected:
+              assert text.count(value) == 1, value
+
+          assert 'Current support-worker roles across ${region}.' in text
+          PY
+
+      - name: Commit homepage text change
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/page.tsx
+          git commit -m "Simplify homepage admin card descriptions"
+          git push origin simplify-homepage-admin-descriptions
