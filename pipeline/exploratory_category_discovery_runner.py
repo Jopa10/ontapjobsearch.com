@@ -3,9 +3,10 @@
 
 This file deliberately lives outside pipeline/scripts so the repository's local
 pandas compatibility shim cannot shadow the installed pandas package. It builds
-temporary candidate registers, invokes the existing Module 2 calculation engine,
-and creates the review shortlist. It does not alter production registers,
-production reports, live pipelines or page JSON files.
+temporary candidate registers, applies an evidence-led refinement layer, invokes
+the existing Module 2 calculation engine, and creates the review shortlist. It
+does not alter production registers, production reports, live pipelines or page
+JSON files.
 """
 from __future__ import annotations
 
@@ -20,7 +21,7 @@ PIPELINE_DIR = Path(__file__).resolve().parent
 SCRIPTS_DIR = PIPELINE_DIR / "scripts"
 
 
-def load_script_module(name: str, path: Path) -> ModuleType:
+def load_module(name: str, path: Path) -> ModuleType:
     spec = importlib.util.spec_from_file_location(name, path)
     if spec is None or spec.loader is None:
         raise ImportError(f"Could not load {path}")
@@ -36,15 +37,19 @@ def run(
     registers_dir: Path,
     reports_dir: Path,
 ) -> None:
-    builder = load_script_module(
+    builder = load_module(
         "ontap_exploratory_register_builder",
         SCRIPTS_DIR / "build_exploratory_candidate_registers.py",
     )
-    module2 = load_script_module(
+    refiner = load_module(
+        "ontap_exploratory_register_refiner",
+        PIPELINE_DIR / "exploratory_candidate_register_refinement.py",
+    )
+    module2 = load_module(
         "ontap_module2_category_profiler",
         SCRIPTS_DIR / "jobg8_module_2_monthly_category_profiler.py",
     )
-    summariser = load_script_module(
+    summariser = load_module(
         "ontap_exploratory_summariser",
         SCRIPTS_DIR / "summarise_exploratory_category_discovery.py",
     )
@@ -61,6 +66,7 @@ def run(
         detail_output=classification_detail,
         month=month,
     )
+    refiner.run(registers_dir)
 
     manifest_path = registers_dir / "category_manifest.csv"
     manifest = pd.read_csv(manifest_path, dtype=str).fillna("")
