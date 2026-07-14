@@ -7,6 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 
+# This file is also included in the exploratory workflow's push-path trigger.
+
 
 def run(validation_path: Path, shortlist_path: Path, summary_path: Path) -> None:
     df = pd.read_csv(validation_path, dtype=str).fillna("")
