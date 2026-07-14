@@ -1,0 +1,206 @@
+name: Implement Sussex support-worker slice
+
+on:
+  push:
+    branches: [test-add-sussex-support-worker]
+    paths: ['.github/workflows/implement-sussex-support-worker.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  implement-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test-add-sussex-support-worker
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Snapshot existing support-worker outputs
+        id: existing
+        run: |
+          echo "west=$(git hash-object pipeline/output-support-worker/west-yorkshire-support-worker.json)" >> "$GITHUB_OUTPUT"
+          echo "south=$(git hash-object pipeline/output-support-worker/south-yorkshire-support-worker.json)" >> "$GITHUB_OUTPUT"
+          echo "north=$(git hash-object pipeline/output-support-worker/north-east-support-worker.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Apply Sussex through existing production paths
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text(encoding="utf-8")
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f"STOP: {path} expected one patch target, found {count}: {old[:90]!r}")
+              p.write_text(text.replace(old, new, 1), encoding="utf-8")
+
+          p = "pipeline/scripts/support_worker_pipeline.py"
+          replace_once(p,
+              '    "south yorkshire": "Yorkshire - South",\n\n    # V11 North expansion regions.',
+              '    "south yorkshire": "Yorkshire - South",\n    "sussex": "Sussex",\n\n    # V11 North expansion regions.')
+          replace_once(p,
+              '    "North East": "north-east-support-worker.json",\n}\n\n\n# Loaded from the Anchor_towns sheet',
+              '    "North East": "north-east-support-worker.json",\n    "Sussex": "sussex-support-worker.json",\n}\n\n\n# Loaded from the Anchor_towns sheet')
+          replace_once(p,
+              '    "North East": 6,\n}\n\nNORTH_EAST_DETAILED_REGIONS',
+              '    "North East": 6,\n    "Sussex": 6,\n}\n\nNORTH_EAST_DETAILED_REGIONS')
+          replace_once(p,
+              '    **{region: region for region in ("Yorkshire - West", "Yorkshire - South")},',
+              '    **{region: region for region in ("Yorkshire - West", "Yorkshire - South", "Sussex")},')
+          replace_once(p,
+              '    review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS]',
+              '    review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS, "Sussex"]')
+          replace_once(p,
+              '        *[(region, "POSSIBLE_SELECTION") for region in NORTH_EAST_DETAILED_REGIONS],\n    ]\n    for region, status in groups:',
+              '        *[(region, "POSSIBLE_SELECTION") for region in NORTH_EAST_DETAILED_REGIONS],\n        ("Sussex", "SELECTED"),\n        ("Sussex", "POSSIBLE_SELECTION"),\n    ]\n    for region, status in groups:')
+          replace_once(p,
+              '        *[(f"{region.upper()} — POSSIBLES", region, "POSSIBLE_SELECTION", "POSS") for region in NORTH_EAST_DETAILED_REGIONS],\n    ]\n\n    for heading, region, status, decision_label in groups:',
+              '        *[(f"{region.upper()} — POSSIBLES", region, "POSSIBLE_SELECTION", "POSS") for region in NORTH_EAST_DETAILED_REGIONS],\n        ("SUSSEX — SELECTED", "Sussex", "SELECTED", "SELECTED"),\n        ("SUSSEX — POSSIBLES", "Sussex", "POSSIBLE_SELECTION", "POSS"),\n    ]\n\n    for heading, region, status, decision_label in groups:')
+
+          replace_once(
+              "pipeline/registers/region_category_slice_register.csv",
+              "Sussex,support_worker,CANDIDATE",
+              "Sussex,support_worker,LIVE",
+          )
+
+          replace_once(
+              "pipeline/scripts/publish_verified_pages.py",
+              '    Mapping("South Yorkshire support worker jobs", "Yorkshire - South", "support_worker", Path("pipeline/output-support-worker/south-yorkshire-support-worker.json"), Path("app/south-yorkshire/support-worker.json")),\n',
+              '    Mapping("South Yorkshire support worker jobs", "Yorkshire - South", "support_worker", Path("pipeline/output-support-worker/south-yorkshire-support-worker.json"), Path("app/south-yorkshire/support-worker.json")),\n    Mapping("Sussex support worker jobs", "Sussex", "support_worker", Path("pipeline/output-support-worker/sussex-support-worker.json"), Path("app/sussex/support-worker.json")),\n',
+          )
+
+          replace_once(
+              ".github/workflows/run-full-jobg8-daily-process.yml",
+              "      - name: Run support-worker pipeline\n        if: steps.slice-register.outputs.support_worker == 'true'\n        working-directory: pipeline\n        run: python -m scripts.support_worker_pipeline\n\n      - name: Commit JobG8 daily output",
+              "      - name: Run support-worker pipeline\n        if: steps.slice-register.outputs.support_worker == 'true'\n        working-directory: pipeline\n        run: python -m scripts.support_worker_pipeline\n\n      - name: Verify support-worker outputs\n        if: steps.slice-register.outputs.support_worker == 'true'\n        run: |\n          test -s pipeline/output-support-worker/west-yorkshire-support-worker.json\n          test -s pipeline/output-support-worker/south-yorkshire-support-worker.json\n          test -s pipeline/output-support-worker/north-east-support-worker.json\n          test -s pipeline/output-support-worker/sussex-support-worker.json\n\n      - name: Commit JobG8 daily output",
+          )
+
+          replace_once(
+              ".github/workflows/publish-verified-pages.yml",
+              '            "app/south-yorkshire/support-worker.json"\n            "app/west-yorkshire/support-worker.json"',
+              '            "app/south-yorkshire/support-worker.json"\n            "app/sussex/support-worker.json"\n            "app/west-yorkshire/support-worker.json"',
+          )
+          replace_once(
+              ".github/workflows/publish-verified-pages.yml",
+              '$0 != "app/south-yorkshire/support-worker.json" && $0 != "app/west-yorkshire/support-worker.json"',
+              '$0 != "app/south-yorkshire/support-worker.json" && $0 != "app/sussex/support-worker.json" && $0 != "app/west-yorkshire/support-worker.json"',
+          )
+
+          replace_once(
+              "app/sitemap.ts",
+              "  '/north-east/support-worker',\n",
+              "  '/north-east/support-worker',\n  '/sussex/support-worker',\n",
+          )
+          replace_once(
+              "app/sitemap.ts",
+              "  '/north-east/service-administrator-jobs',\n",
+              "  '/north-east/service-administrator-jobs',\n  '/london/service-administrator-jobs',\n",
+          )
+
+          test_path = Path("tests/test_slice_registry.py")
+          test = test_path.read_text(encoding="utf-8")
+          test = test.replace("test_register_has_seven_live_and_eight_candidate_rows", "test_register_has_eight_live_and_seven_candidate_rows")
+          test = test.replace('sum(row.status == "LIVE" for row in records), 7', 'sum(row.status == "LIVE" for row in records), 8')
+          test = test.replace('sum(row.status == "CANDIDATE" for row in records), 8', 'sum(row.status == "CANDIDATE" for row in records), 7')
+          test = test.replace("test_live_rows_include_london_admin_service", "test_live_rows_include_london_and_sussex")
+          test = test.replace('                ("North East", "support_worker"),\n', '                ("North East", "support_worker"),\n                ("Sussex", "support_worker"),\n')
+          test_path.write_text(test, encoding="utf-8")
+
+          replace_once(
+              ".github/workflows/test-slice-register.yml",
+              "Confirm current six LIVE slices are publishable",
+              "Confirm all LIVE slices are publishable",
+          )
+
+          page = Path("app/sussex/support-worker/page.tsx")
+          page.parent.mkdir(parents=True, exist_ok=True)
+          page.write_text('''import type { Metadata } from "next";
+          import JobSlicePage from "@/components/JobSlicePage";
+          import { getJobPageStatus } from "@/config/job-page-status";
+
+          const routeKey = "sussex/support-worker";
+          const canonicalUrl = "https://www.ontapjobsearch.com/sussex/support-worker";
+
+          export const metadata: Metadata = {
+            title: "Sussex Support Worker Jobs | Ontap Job Search",
+            description:
+              "Browse current support worker jobs across Brighton and Sussex, updated daily with employer-site application links.",
+            alternates: { canonical: canonicalUrl },
+          };
+
+          export default function Page() {
+            return (
+              <JobSlicePage
+                jsonPath={["app", "sussex", "support-worker.json"]}
+                region="Sussex"
+                title="Sussex Support Worker Roles"
+                latestUpdate={getJobPageStatus(routeKey)}
+                anchorTown="Brighton"
+              />
+            );
+          }
+          '''.replace("          ", ""), encoding="utf-8")
+          Path("app/sussex/support-worker.json").write_text("[]\n", encoding="utf-8")
+          PY
+
+      - name: Validate code and register tests
+        run: |
+          python -m py_compile pipeline/scripts/slice_registry.py pipeline/scripts/support_worker_pipeline.py pipeline/scripts/publish_verified_pages.py
+          python -m unittest tests.test_slice_registry tests.test_publish_verified_pages -v
+          python - <<'PY'
+          import importlib.util, sys
+          from pathlib import Path
+          p = Path("pipeline/scripts/support_worker_pipeline.py")
+          spec = importlib.util.spec_from_file_location("support_worker_check", p)
+          m = importlib.util.module_from_spec(spec); sys.modules[spec.name] = m; spec.loader.exec_module(m)
+          assert m.REGION_MAP["sussex"] == "Sussex"
+          assert m.OUTPUT_FILES["Sussex"] == "sussex-support-worker.json"
+          assert m.PUBLISH_THRESHOLDS["Sussex"] == 6
+          assert m.PUBLISH_REGION_BY_DETAIL_REGION["Sussex"] == "Sussex"
+          PY
+
+      - name: Run established support-worker daily pipeline
+        working-directory: pipeline
+        run: python -m scripts.support_worker_pipeline
+
+      - name: Prove existing outputs unchanged and Sussex included
+        run: |
+          test "$(git hash-object pipeline/output-support-worker/west-yorkshire-support-worker.json)" = "${{ steps.existing.outputs.west }}"
+          test "$(git hash-object pipeline/output-support-worker/south-yorkshire-support-worker.json)" = "${{ steps.existing.outputs.south }}"
+          test "$(git hash-object pipeline/output-support-worker/north-east-support-worker.json)" = "${{ steps.existing.outputs.north }}"
+          test -s pipeline/output-support-worker/sussex-support-worker.json
+          grep -q '^## SUSSEX — SELECTED$' pipeline/manual/support-worker-review.md
+          grep -q ',Sussex,' pipeline/manual/support-worker-review.csv
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("pipeline/output-support-worker/sussex-support-worker.json").read_text())
+          assert len(data) == 13, len(data)
+          print("Sussex selected jobs:", len(data))
+          PY
+
+      - name: Validate publishing and page build
+        run: |
+          python pipeline/scripts/publish_verified_pages.py --dry-run
+          npm ci
+          npm run build
+
+      - name: Commit complete branch implementation
+        run: |
+          rm .github/workflows/implement-sussex-support-worker.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add Sussex support-worker slice"
+          git push origin test-add-sussex-support-worker
