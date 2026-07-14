@@ -1,9 +1,9 @@
 Month: 2026-07
 Input directory: pipeline/input-jobg8-archive/2026-07
-Valid feed days: 8
+Valid feed days: 14
 First feed day: 2026-07-01
-Last feed day: 2026-07-08
-Selected register-expanded job rows: 3624
+Last feed day: 2026-07-14
+Selected register-expanded job rows: 5459
 Geo lookup: pipeline/geo/geo_lookup.xlsx
 Geo areas loaded: 1198
 Classification mode: register-only
