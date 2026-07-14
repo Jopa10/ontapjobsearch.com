@@ -1,6 +1,7 @@
 import westYorkshireSupportWorkerJobs from './west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
+import sussexSupportWorkerJobs from './sussex/support-worker.json';
 import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
 import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
@@ -84,6 +85,10 @@ const popularSearches = [
     href: '/north-east/support-worker',
   },
   {
+    label: 'Sussex support worker jobs',
+    href: '/sussex/support-worker',
+  },
+  {
     label: 'Browse all jobs',
     href: '/browse-jobs',
   },
@@ -131,6 +136,12 @@ const supportWorkerSlices: SliceCard[] = [
     title: 'North East Support Worker Jobs',
     sliceUrl: '/north-east/support-worker',
     jobs: northEastSupportWorkerJobs,
+  }),
+  createSupportWorkerSlice({
+    region: 'Sussex',
+    title: 'Sussex Support Worker Jobs',
+    sliceUrl: '/sussex/support-worker',
+    jobs: sussexSupportWorkerJobs,
   }),
 ];
 
@@ -279,8 +290,8 @@ export default function Page() {
           <SliceCardGrid cards={supportWorkerSlices} />
 
           <p className="mt-2 text-xs text-gray-500">
-            Current support-worker roles are available in West Yorkshire and the North East. South
-            Yorkshire remains available as a retained page while current supply is limited.
+            Current support-worker roles are available in West Yorkshire, the North East and Sussex.
+            South Yorkshire remains available as a retained page while current supply is limited.
           </p>
         </section>
 
