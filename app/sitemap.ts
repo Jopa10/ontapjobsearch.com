@@ -4,6 +4,10 @@ const siteUrl = 'https://www.ontapjobsearch.com'
 
 const routes = [
   '/',
+  '/browse-jobs',
+  '/contact',
+  '/privacy-policy',
+  '/terms-of-service',
   '/west-yorkshire/support-worker',
   '/south-yorkshire/support-worker',
   '/north-east/support-worker',
