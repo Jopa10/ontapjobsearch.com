@@ -6,6 +6,7 @@ SELECTED,Yorkshire - West,Office Administrator Assistant & Companies House Compl
 SELECTED,Yorkshire - West,Payroll & Operations Administrator,Wetherby,£30000 per year,,SELECT,107506827
 SELECTED,Yorkshire - West,Junior Regulatory Affairs Administrator,Bradford,£30000 per year,,SELECT,107586970
 POSS - YORKSHIRE - WEST,Yorkshire - West,Insolvency Administrator,Leeds,£33000 per year,,,589df823-df54-48cf-ba4b-dc3ef93ee05f
+POSS - YORKSHIRE - WEST,Yorkshire - West,Legal Secretary - Commercial property,Leeds,£25000 - £30000 per year,,,fab18477-c03a-4672-bb39-d871d89a546c
 SELECTED,Yorkshire - South,Finance Administrator - Expenses (Temporary Contract),Doncaster,£12 - £14 per hour,,SELECT,2f714926-5688-4a91-8367-6abbb5916a10
 SELECTED,Yorkshire - South,HSE Administrator,Rotherham,£30000 - £35000 per year,,SELECT,4354d5c5-cce4-4cfe-a9b8-2dc86c831c62
 SELECTED,Yorkshire - South,Insolvency Case Administrator,Sheffield,£24000 - £35000 per year,,SELECT,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
@@ -18,7 +19,9 @@ POSS - YORKSHIRE - SOUTH,Yorkshire - South,Health Hub Coordinator,Sheffield,£40
 SELECTED,North East,Accounts Administrator,Hebburn,£13 - £14 per hour,,,364f7202-fbb5-4390-90c1-bf45e1a277ac
 SELECTED,North East,Asbestos Administrator / Project Coordinator,Houghton Le Spring,£30000 per year,,,107595243
 SELECTED,North East,HR Administrator,Darlington,£26000 per year,,,b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
+SELECTED,London,NetSuite Administrator Hyper-Growth Retail,London,£60000 - £80000 per year,,,5292868c-8ca9-4001-9c66-343a70ec9606
 SELECTED,London,Finance Administrator INNOVATIVE FIRM,London,£27000 - £30000 per year,,,7a0c9b11-2e40-4e96-b556-bffc8b642da8
+SELECTED,London,Treasury Settlement Administrator,London,,,,6c733630-2b4f-4b6a-bfa8-41aecaa829c9
 SELECTED,London,Finance Administrator (Part-Time),City,£30000 per year,,,1d6e4c9b-bcef-4e95-becf-fff7b09ade46
 SELECTED,London,Logisitics Administrator,Loughton,£30000 - £35000 per year,,,494d9e2f-3e44-4bcc-a85f-e92a085a5e77
 SELECTED,London,Employability Administrator,Morden,£29470 - £32156 per year,,,c70bad86-3329-4410-9255-007ae5e341cf
@@ -27,21 +30,34 @@ SELECTED,London,Payments Administrator,London,£35000 - £40000 per year,,,e5898
 SELECTED,London,Logistics Administrator,Croydon,£28000 - £30000 per year,,,5d9fb5dd-9dfb-459d-9e5c-26e1da48ab22
 SELECTED,London,Purchasing and Shipping Administrator,London,£32000 per year,,,81e1c860-ef3d-4e7e-81ca-dec75acfc8de
 SELECTED,London,Credit Administrator,Harrow,£29000 per year,,,33eab37d-af87-4704-9471-df90f5cef85c
+SELECTED,London,Mandarin Treasury Settlement Administrator,London,,,,42f2808f-43ea-45ed-b1cf-4b387896856a
 SELECTED,London,Graduate - Quality & Compliance Administrator,London,£26000 per year,,,107609680
 SELECTED,London,Payroll & Data Coordinator,London,£35000 per year,,,107609016
 SELECTED,London,Payroll Administrator / Payroll Officer,City Of Westminster,£34100 - £35055 per year (+ Benefits),,,1164743 [JSP51552]
 SELECTED,London,Administrator,London,£28000 - £30000 per year,,,fea38d29-e674-44cf-a4ad-58b740083e94
 SELECTED,London,Research Grants Administrator,City,£21.42 per hour,,,107461563
+SELECTED,London,Legal Secretary,London,£40000 - £43000 per year,,,faad204b-1073-443d-a1fe-2fe55a11a635
+SELECTED,London,Legal Secretary / Legal Administrator (Private Client),London,£35000 per year,,,f5e8e30b-1418-4972-8b69-89a8d0be61d4
+SELECTED,London,Talent Administrator,London,£35000 - £40000 per year,,,e0be1e2c-2f53-4f53-bab6-251d67488b8a
 SELECTED,London,People & Culture Administrator,London,£27500 - £29187 per year,,,de18dc84-cb43-4743-99f6-a3d16e406cc7
+SELECTED,London,Commercial Property Legal Secretary,London,,,,c5d96f98-5957-49dd-a820-1562582caf76
+SELECTED,London,Company Secretary,London,£100000 per year,,,c5d8f5f4-b759-46de-91b1-258001fb3746
 SELECTED,London,IT Administrator,Croydon,£32000 - £37000 per year,,,a39777bf-ea97-4765-aa67-7bc5816b084d
+SELECTED,London,Evening Legal Secretary,London,£50000 - £65000 per year,,,c05fb70f-0622-4751-93ea-9141e25de21c
 SELECTED,London,HR Administrator,London,£30000 - £34000 per year,,,b1cd6534-0cc7-47a9-92b2-2c663e7451be
 SELECTED,London,Patient Coordinator,London,£28000 - £35000 per year,,,ae8f6386-56f4-4fe2-b1dd-c734c98e586a
 SELECTED,London,Academic Administrator,London,£35000 - £40000 per year,,,3863154f-7ddf-4d93-b79d-3f6e577a407f
+SELECTED,London,Insolvency Administrator,London,,,,aa5f426d-7db3-449f-a970-bbe6d8dff752
 SELECTED,London,Internal Communications & Executive Coordinator,London,,,,107663038
 SELECTED,London,Company Secretary Assistant,London,,,,a28c6112-4b4f-46b0-91e7-cfaa547c936e
 SELECTED,London,Receptionist and Administrator,London,£29436 - £29856 per year,,,2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
+SELECTED,London,Senior Administrator,London,£24.31 per hour,,,f1ecf607-8ba3-47e0-b8f9-14a41725eed8
+SELECTED,London,Assistant Design & Technical Coordinator,London,"£39,685 - £43,978 per annum",,,107649502
+SELECTED,London,Temporary L&D Course Administrator,London,£22 - £26 per hour,,,268e6cf4-62dc-4dcc-a8ed-e7e7b32b4e63
 SELECTED,London,Extra Care Support Coordinator,Harrow,£15.36 per hour,,,107652249
+SELECTED,London,Legal Secretary - Corporate Business Transactions,London,,,,b09b70f1-d126-482c-a368-c43abd82557c
 SELECTED,London,Part Time - Accounts Administrator,New Malden,£17000 - £17500 per year,,,7ea819ef-37a5-4bc9-ac6b-04b786a3e75e
+SELECTED,London,Senior CRM Administrator - Salesforce,London,£52977 - £63815 per year,,,f498886f-8482-41ae-a070-613f823c01c5
 SELECTED,London,Nights Export Administrator,West Drayton,£27000 - £28000 per year,,,52ffc052-865e-4c73-be56-3b01746bacc9
 SELECTED,London,Shipping Administration Coordinator,London,£30000 - £35000 per year,,,4b95051a-1afd-4f79-8df6-17d52006246e
 SELECTED,London,Sales Admin Coordinator,London,"£35,000 per year",,,107604881
