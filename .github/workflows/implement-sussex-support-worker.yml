@@ -193,9 +193,21 @@ jobs:
 
       - name: Commit complete branch implementation
         run: |
-          rm .github/workflows/implement-sussex-support-worker.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add -- \
+            pipeline/scripts/support_worker_pipeline.py \
+            pipeline/registers/region_category_slice_register.csv \
+            pipeline/scripts/publish_verified_pages.py \
+            pipeline/output-support-worker/sussex-support-worker.json \
+            pipeline/reports-daily/decision-report-support-worker.csv \
+            pipeline/reports-daily/validation-report-support-worker.csv \
+            pipeline/reports-daily/selection-summary-report-support-worker.csv \
+            pipeline/manual/support-worker-review.md \
+            pipeline/manual/support-worker-review.csv \
+            app/sussex/support-worker/page.tsx \
+            app/sussex/support-worker.json \
+            app/sitemap.ts \
+            tests/test_slice_registry.py
           git commit -m "Add Sussex support-worker slice"
           git push origin test-add-sussex-support-worker
