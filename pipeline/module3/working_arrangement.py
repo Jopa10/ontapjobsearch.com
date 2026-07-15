@@ -44,6 +44,11 @@ _OFFICE_DAYS_PER_WEEK_RE = re.compile(
     rf"\b(?P<number>{_NUMBER})\s+office\s+days?\s+(?:a|per)\s+week\b",
     re.IGNORECASE,
 )
+_DAYS_PER_WEEK_IN_OFFICE_RE = re.compile(
+    rf"\b(?P<number>{_NUMBER})\s+days?\s+(?:a|per)\s+week\s+"
+    rf"(?:in|at)\s+(?:the\s+)?office\b",
+    re.IGNORECASE,
+)
 _WEEKDAY_HOME_RE = re.compile(
     r"\b(?P<day>monday|tuesday|wednesday|thursday|friday)s?\s+"
     r"(?:home\s*working|work(?:ing)?\s+from\s+home)\b",
@@ -73,6 +78,12 @@ _CREDIBLE_SIGNAL_RE = re.compile(
     r"work(?:ing)?\s+from\s+home|home[- ]based)\b",
     re.IGNORECASE,
 )
+_UNCERTAIN_HYBRID_RE = re.compile(
+    r"\bhybrid(?:\s+working|\s+options?)?\s+"
+    r"(?:may|might|could)\s+be\s+available\b",
+    re.IGNORECASE,
+)
+_GLUE_BOUNDARY_RE = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 
 
 @dataclass(frozen=True)
@@ -123,7 +134,10 @@ def _exact_arrangement_text(text: str) -> str:
     if home_days is not None:
         return f"{home_days} {_days_label(home_days)} from home"
 
-    office_week = _OFFICE_DAYS_PER_WEEK_RE.search(text)
+    office_week = (
+        _OFFICE_DAYS_PER_WEEK_RE.search(text)
+        or _DAYS_PER_WEEK_IN_OFFICE_RE.search(text)
+    )
     office_week_days = _match_number(office_week)
     if office_week_days is not None:
         return (
@@ -142,7 +156,9 @@ def _exact_arrangement_text(text: str) -> str:
 
 
 def _evidence_for_explicit_home_office(text: str) -> str:
-    sentences = [norm_text(sentence) for sentence in SPLIT.split(text) if norm_text(sentence)]
+    sentences = [
+        norm_text(sentence) for sentence in SPLIT.split(text) if norm_text(sentence)
+    ]
     for sentence in sentences:
         if _EXPLICIT_HOME_OFFICE_RE.search(sentence):
             return sentence[:1200]
@@ -162,16 +178,29 @@ def classify_working_arrangement(
     remote, ambiguous, conditional, negative and false-positive classifications
     do not receive a regional hybrid badge.
     """
-    combined_text = norm_text(
-        " ".join(map(clean_description, (title, description, area, location)))
+    repaired_values = [
+        _GLUE_BOUNDARY_RE.sub(" ", clean_description(value))
+        for value in (title, description, area, location)
+    ]
+    combined_text = norm_text(" ".join(repaired_values))
+    repaired_title, repaired_description, repaired_area, repaired_location = (
+        repaired_values
     )
-    decision = classify_remote(title, description, area, location)
+    decision = classify_remote(
+        repaired_title,
+        repaired_description,
+        repaired_area,
+        repaired_location,
+    )
 
     qualifies_from_module3 = (
         decision.classification == QUALIFYING_CLASSIFICATION
         and bool(_CREDIBLE_SIGNAL_RE.search(combined_text))
     )
     explicit_home_office = bool(_EXPLICIT_HOME_OFFICE_RE.search(combined_text))
+
+    if _UNCERTAIN_HYBRID_RE.search(combined_text):
+        return WorkingArrangementMetadata(NON_QUALIFYING_VALUE, "", "")
 
     if not (qualifies_from_module3 or explicit_home_office):
         return WorkingArrangementMetadata(NON_QUALIFYING_VALUE, "", "")
