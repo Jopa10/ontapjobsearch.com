@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import TrainingLink from "@/components/traininglink";
 import ApplyButton from "@/components/ApplyButton";
+import WorkingArrangementBadge from "@/components/WorkingArrangementBadge";
 import styles from "@/components/JobSlicePage.module.css";
 
 type JobRow = {
@@ -19,6 +20,9 @@ type JobRow = {
   salary_period: string;
   salary_text: string;
   work_pattern: string;
+  working_arrangement: string;
+  working_arrangement_text: string;
+  working_arrangement_evidence: string;
   posted_date: string;
   closing_date: string;
   summary: string;
@@ -76,6 +80,9 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
     salary_period: r.salary_period || r["/Job/SalaryPeriod"] || "",
     salary_text: r.salary_text || r["/Job/SalaryAdditional"] || "",
     work_pattern: r.work_pattern || r["/Job/EmploymentType"] || "",
+    working_arrangement: r.working_arrangement || "",
+    working_arrangement_text: r.working_arrangement_text || "",
+    working_arrangement_evidence: r.working_arrangement_evidence || "",
     posted_date: r.posted_date || "",
     closing_date: r.closing_date || "",
     summary: r.summary || "",
@@ -343,6 +350,10 @@ export default function JobSlicePage({
                         {anchorTown}
                       </span>
                     )}
+                    <WorkingArrangementBadge
+                      workingArrangement={j.working_arrangement}
+                      workingArrangementText={j.working_arrangement_text}
+                    />
                   </div>
 
                   <div style={{ fontWeight: 600, marginBottom: 6 }}>
