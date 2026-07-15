@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,2417
-total rows included,32
-total rows dropped,2383
-title classification count - HIGH_CONFIDENCE,160
-title classification count - ELASTIC_FIT,108
-title classification count - REVIEW_CONTEXT_DEPENDENT,3
-title classification count - HARD_PASS,1356
-title classification count - OUT_OF_SCOPE,790
+total rows input,2769
+total rows included,36
+total rows dropped,2726
+title classification count - HIGH_CONFIDENCE,198
+title classification count - ELASTIC_FIT,125
+title classification count - REVIEW_CONTEXT_DEPENDENT,6
+title classification count - HARD_PASS,1565
+title classification count - OUT_OF_SCOPE,875
 selection scenario - Yorkshire - West,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Yorkshire - West,"Yorkshire - West selection complete: 8 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Yorkshire - West,8
-high confidence count - Yorkshire - West,4
+selection message - Yorkshire - West,"Yorkshire - West selection complete: 10 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Yorkshire - West,10
+high confidence count - Yorkshire - West,5
 anchor elastic count - Yorkshire - West,1
-other elastic count - Yorkshire - West,3
-total rows output - Yorkshire - West,8
-job_id included - Yorkshire - West,107616819; 107464615; 107521956; 107465221; 107532972; 1401783630; 107651994; 1401783720
+other elastic count - Yorkshire - West,4
+total rows output - Yorkshire - West,10
+job_id included - Yorkshire - West,107616819; 107464615; 107521956; 107465221; 107532972; 107689515; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - South,1
@@ -24,18 +24,18 @@ other elastic count - Yorkshire - South,0
 total rows output - Yorkshire - South,1
 job_id included - Yorkshire - South,c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 10 current-feed manual_select row(s) applied; 10 selected. Routine auto-selection disabled.
-credible total - North East,12
+selection message - North East,North East manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Routine auto-selection disabled.
+credible total - North East,15
 high confidence count - North East,3
-anchor elastic count - North East,1
-other elastic count - North East,8
-total rows output - North East,10
-job_id included - North East,107616541; 107656064; 107658956; 1401783136; 107672554; 107539241; 107617093; 107615864; 107652248; 107652261
+anchor elastic count - North East,2
+other elastic count - North East,10
+total rows output - North East,8
+job_id included - North East,107616541; 1401783136; 107672554; 107617093; 107615864; 107652248; 107652261; 107539241
 selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Sussex,"Sussex selection complete: 13 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Sussex,13
-high confidence count - Sussex,7
+selection message - Sussex,"Sussex selection complete: 17 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Sussex,17
+high confidence count - Sussex,12
 anchor elastic count - Sussex,0
-other elastic count - Sussex,6
-total rows output - Sussex,13
-job_id included - Sussex,107587865; 107474631; 107658496; 107643396; 7911979f-e083-4358-946e-98879570ba1e; 107678677; 107680820; 1401783140; 107641522; 1401783629; 107657282; 1401783680; 107664527
+other elastic count - Sussex,5
+total rows output - Sussex,17
+job_id included - Sussex,f904dd5a-98c0-42fc-b665-bf56faab21ba; ebc70e88-0b55-4541-9a7e-808faac32e58; 107587865; 107474631; 107681285; 107658496; 7911979f-e083-4358-946e-98879570ba1e; 107681237; 107678677; 107680820; ea07d98d-3552-4477-805d-a42476b9f144; 107681269; 1401783140; 107641522; 107657282; eab70bad-0ac6-4d3d-af24-612fcf31464d; 1401783680
