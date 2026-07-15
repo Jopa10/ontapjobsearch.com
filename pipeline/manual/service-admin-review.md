@@ -16,7 +16,7 @@ job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | Yorkshire - West | Halifax | £45000 per year | Office Management and Operations Coordinator
 job_id: 107624932
 ---
@@ -292,13 +292,13 @@ job_id: 1164743 [JSP51552]
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £35000 per year | Legal Secretary / Legal Administrator (Private Client)
 job_id: f5e8e30b-1418-4972-8b69-89a8d0be61d4
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £35000 - £40000 per year | Talent Administrator
 job_id: e0be1e2c-2f53-4f53-bab6-251d67488b8a
 ---
@@ -322,7 +322,7 @@ job_id: c5d96f98-5957-49dd-a820-1562582caf76
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £50000 - £65000 per year | Evening Legal Secretary
 job_id: c05fb70f-0622-4751-93ea-9141e25de21c
 ---
@@ -334,7 +334,7 @@ job_id: b1cd6534-0cc7-47a9-92b2-2c663e7451be
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £35000 - £40000 per year | Academic Administrator
 job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
@@ -346,19 +346,19 @@ job_id: 2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £20 - £22 per hour | School Office Manager
 job_id: f268a985-4df4-4399-b8b6-a63723bc2301
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £22 - £26 per hour | Temporary L&D Course Administrator
 job_id: 268e6cf4-62dc-4dcc-a8ed-e7e7b32b4e63
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London |  | Legal Secretary - Corporate Business Transactions
 job_id: b09b70f1-d126-482c-a368-c43abd82557c
 ---
@@ -466,7 +466,7 @@ job_id: 107609016
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £40000 - £45000 per year | Legal Secretary
 job_id: f3d8e473-8c35-41c8-885a-6af272ed3343
 ---
@@ -490,7 +490,7 @@ job_id: f023e0ee-2973-4539-a1f2-8a244e002010
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £40000 - £45000 per year | Receptionist / Office Assistant
 job_id: ef174fbf-3b4a-4697-914d-08c3e5f90fd3
 ---
@@ -558,13 +558,13 @@ job_id: ebb40fde-75a8-43c5-8f8c-50211f5f594e
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Harrow | £29000 per year | Credit Administrator
 job_id: 33eab37d-af87-4704-9471-df90f5cef85c
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £28000 - £35000 per year | Patient Coordinator
 job_id: ae8f6386-56f4-4fe2-b1dd-c734c98e586a
 ---
