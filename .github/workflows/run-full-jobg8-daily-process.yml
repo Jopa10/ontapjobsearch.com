@@ -53,7 +53,7 @@ jobs:
       - name: Run service-admin pipeline
         if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline
+        run: python -m scripts.service_admin_pipeline_education
 
       - name: Verify service-admin outputs
         if: steps.slice-register.outputs.admin_service == 'true'
