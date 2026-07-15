@@ -1,0 +1,162 @@
+name: Run Compiler Module 3 - WFH Results
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: Inclusive start date in YYYY-MM-DD format
+        required: true
+        default: '2026-06-01'
+        type: string
+      end_date:
+        description: Inclusive end date in YYYY-MM-DD format
+        required: true
+        default: '2026-07-15'
+        type: string
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'pipeline/scripts/jobg8_module_3_remote_work_profiler.py'
+      - 'pipeline/module3/**'
+      - 'tests/test_jobg8_module_3_remote_work_profiler.py'
+      - '.github/workflows/run-compiler-module-3.yml'
+      - 'pipeline/registers/admin_service_title_classification_register.csv'
+      - 'pipeline/input-jobg8-archive/**'
+
+permissions:
+  contents: write
+
+jobs:
+  run-compiler-module-3:
+    name: Run Compiler Module 3
+    runs-on: ubuntu-latest
+    env:
+      START_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.start_date || '2026-06-01' }}
+      END_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.end_date || '2026-07-15' }}
+      OUTPUT_DIR: pipeline/reports-module3
+      ARCHIVE_ROOT: pipeline/input-jobg8-archive
+      ADMIN_REGISTER: pipeline/registers/admin_service_title_classification_register.csv
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Validate inputs and source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! "$START_DATE" =~ ^[0-9]{4}-(0[1-9]|1[0-2])-([0-2][0-9]|3[0-1])$ ]]; then
+            echo "::error::Invalid start date '$START_DATE'. Expected YYYY-MM-DD."
+            exit 1
+          fi
+          if [[ ! "$END_DATE" =~ ^[0-9]{4}-(0[1-9]|1[0-2])-([0-2][0-9]|3[0-1])$ ]]; then
+            echo "::error::Invalid end date '$END_DATE'. Expected YYYY-MM-DD."
+            exit 1
+          fi
+          python - <<'PY'
+          from datetime import datetime
+          import os
+          from pathlib import Path
+
+          start = datetime.strptime(os.environ['START_DATE'], '%Y-%m-%d').date()
+          end = datetime.strptime(os.environ['END_DATE'], '%Y-%m-%d').date()
+          if end < start:
+              raise SystemExit('::error::End date must not precede start date.')
+
+          archive_root = Path(os.environ['ARCHIVE_ROOT'])
+          register = Path(os.environ['ADMIN_REGISTER'])
+          if not archive_root.is_dir():
+              raise SystemExit(f'::error::Archive root {archive_root} is missing.')
+          if not register.is_file():
+              raise SystemExit(f'::error::Admin register {register} is missing.')
+          PY
+
+      - name: Check Module 3 script syntax
+        run: python -m py_compile pipeline/scripts/jobg8_module_3_remote_work_profiler.py pipeline/module3/rules.py pipeline/module3/engine.py
+
+      - name: Run Module 3 tests
+        run: pytest -q tests/test_jobg8_module_3_remote_work_profiler.py
+
+      - name: Run Compiler Module 3
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/jobg8_module_3_remote_work_profiler.py \
+            --start-date "$START_DATE" \
+            --end-date "$END_DATE" \
+            --archive-root "$ARCHIVE_ROOT" \
+            --output-dir "$OUTPUT_DIR" \
+            --admin-register "$ADMIN_REGISTER"
+
+      - name: Verify Compiler Module 3 outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          period="${START_DATE}_to_${END_DATE}"
+          output_files=(
+            "$OUTPUT_DIR/${period}-module3-remote-admin-detail.csv"
+            "$OUTPUT_DIR/${period}-module3-candidate-review.csv"
+            "$OUTPUT_DIR/${period}-module3-daily-counts.csv"
+            "$OUTPUT_DIR/${period}-module3-supply-summary.csv"
+            "$OUTPUT_DIR/${period}-module3-wfh-results.xlsx"
+            "$OUTPUT_DIR/${period}-module3-run-log.txt"
+          )
+          for output_file in "${output_files[@]}"; do
+            if [ ! -s "$output_file" ]; then
+              echo "::error::Required Module 3 output '$output_file' is missing or empty."
+              exit 1
+            fi
+          done
+
+      - name: Upload Compiler Module 3 reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiler-module-3-wfh-results-${{ env.START_DATE }}-to-${{ env.END_DATE }}
+          path: pipeline/reports-module3/
+          if-no-files-found: warn
+
+      - name: Commit Compiler Module 3 outputs
+        if: github.event_name == 'workflow_dispatch'
+        shell: bash
+        run: |
+          set -euo pipefail
+          period="${START_DATE}_to_${END_DATE}"
+          output_files=(
+            "$OUTPUT_DIR/${period}-module3-remote-admin-detail.csv"
+            "$OUTPUT_DIR/${period}-module3-candidate-review.csv"
+            "$OUTPUT_DIR/${period}-module3-daily-counts.csv"
+            "$OUTPUT_DIR/${period}-module3-supply-summary.csv"
+            "$OUTPUT_DIR/${period}-module3-wfh-results.xlsx"
+            "$OUTPUT_DIR/${period}-module3-run-log.txt"
+          )
+
+          if [ -z "$(git status --porcelain -- "${output_files[@]}")" ]; then
+            echo "No Compiler Module 3 output changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${output_files[@]}"
+
+          staged_files="$(git diff --cached --name-only)"
+          expected_files="$(printf '%s\n' "${output_files[@]}" | sort)"
+          unexpected_files="$(comm -23 <(printf '%s\n' "$staged_files" | sort) <(printf '%s\n' "$expected_files"))"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside the six Compiler Module 3 outputs."
+            printf '%s\n' "$staged_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git commit -m "Run Compiler Module 3 WFH results for ${START_DATE} to ${END_DATE}"
+          git push
