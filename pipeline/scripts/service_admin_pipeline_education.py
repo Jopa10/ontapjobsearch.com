@@ -2,15 +2,30 @@
 
 Education is a sector, not a job function. This module makes the narrow
 classification exception required for genuine school/education office roles,
+adds verified hybrid-working metadata after normal service-admin eligibility,
 then delegates every other rule and all processing to service_admin_pipeline.
 """
 from __future__ import annotations
 
 import re
+from typing import Any
 
 from . import service_admin_pipeline as core
 
+try:
+    from pipeline.module3.working_arrangement import classify_working_arrangement
+except ModuleNotFoundError:  # workflow runs with pipeline/ as the working directory
+    from module3.working_arrangement import classify_working_arrangement
+
 _ORIGINAL_CLASSIFY_TITLE = core.classify_title
+_ORIGINAL_PROCESS = core.process
+_ORIGINAL_DECISION_REPORT_FIELDNAMES = core.decision_report_fieldnames
+
+_HYBRID_FIELDS = [
+    "working_arrangement",
+    "working_arrangement_text",
+    "working_arrangement_evidence",
+]
 
 _EDUCATION_SECTOR_RE = re.compile(r"\b(?:school|academy|college|education)\b", re.IGNORECASE)
 
@@ -95,9 +110,55 @@ def classify_title(
     return _ORIGINAL_CLASSIFY_TITLE(title, title_register)
 
 
+def process(*args: Any, **kwargs: Any):
+    """Run normal eligibility first, then attach non-selecting hybrid metadata."""
+    outputs, report_rows = _ORIGINAL_PROCESS(*args, **kwargs)
+    metadata_by_job_id: dict[str, dict[str, str]] = {}
+
+    for jobs in outputs.values():
+        for item in jobs:
+            metadata = classify_working_arrangement(
+                str(item.get("title", "")),
+                str(item.get("description", "")),
+                str(item.get("location", "")),
+                str(item.get("region", "")),
+            ).as_dict()
+            item.update(metadata)
+            job_id = core.norm(item.get("job_id", ""))
+            if job_id:
+                metadata_by_job_id[job_id] = metadata
+
+    for row in report_rows:
+        metadata = metadata_by_job_id.get(core.norm(row.get("job_id", "")))
+        if metadata:
+            row.update(metadata)
+        else:
+            for field in _HYBRID_FIELDS:
+                row.setdefault(field, "")
+
+    return outputs, report_rows
+
+
+def decision_report_fieldnames() -> list[str]:
+    fields = list(_ORIGINAL_DECISION_REPORT_FIELDNAMES())
+    insert_at = fields.index("employment_type") + 1
+    for field in reversed(_HYBRID_FIELDS):
+        if field not in fields:
+            fields.insert(insert_at, field)
+    return fields
+
+
 # process() resolves classify_title from the core module at runtime. Replacing
-# that single global keeps the rest of the 2,000+ line pipeline unchanged.
+# these globals keeps the rest of the 2,000+ line pipeline and all selection
+# rules unchanged while adding education handling and working metadata.
 core.classify_title = classify_title
+core.process = process
+core.decision_report_fieldnames = decision_report_fieldnames
+
+_manual_insert_at = core.MANUAL_REVIEW_FIELDNAMES.index("manual_override")
+for _field in reversed(_HYBRID_FIELDS):
+    if _field not in core.MANUAL_REVIEW_FIELDNAMES:
+        core.MANUAL_REVIEW_FIELDNAMES.insert(_manual_insert_at, _field)
 
 
 def main() -> int:
