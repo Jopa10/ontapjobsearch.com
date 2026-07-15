@@ -207,6 +207,18 @@ job_id: ee6c9507-5386-469e-a140-ee89a59e58dc
 
 ---
 action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £20 - £30 per hour | School Admin Manager
+job_id: 7b255130-0733-4e69-a0d4-a5b29e0959aa
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £15 - £16 per hour | Temporary School Administrator
+job_id: 32c228a5-a4d9-4166-9d83-9960ab60bc8d
+---
+
+---
+action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £27000 - £30000 per year | Pensions Administrator (defined benefit)
 job_id: f27af97e-5429-44ed-973e-9325787dece3
 ---
@@ -219,14 +231,20 @@ job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 
 ---
 action:
-POSS - NORTH EAST | North East | Redcar | £13.8 - £15.5 per hour | Senior Administrator
-job_id: fc9457d9-ae8b-4a32-bbb4-e4002a2d1908
+POSS - NORTH EAST | North East | Middlesbrough | £15 - £16 per hour | Temporary School Administrator
+job_id: 294e5d4b-ab0a-4dc5-8fc3-f2d943821ae4
 ---
 
 ---
 action:
 POSS - NORTH EAST | North East | Middlesbrough | £21.49 per hour | Rent Administrator
 job_id: eec0b597-d00c-4cd3-91ee-38758e4477d7
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Redcar | £13.8 - £15.5 per hour | Senior Administrator
+job_id: fc9457d9-ae8b-4a32-bbb4-e4002a2d1908
 ---
 
 ## LONDON — SELECTED
@@ -317,6 +335,12 @@ job_id: de18dc84-cb43-4743-99f6-a3d16e406cc7
 
 ---
 action:
+SELECTED | London | London | £16 per hour | Primary School Administrator
+job_id: 5140fecd-b98a-4d9d-b35d-44c239c1d48a
+---
+
+---
+action:
 SELECTED | London | London |  | Commercial Property Legal Secretary
 job_id: c5d96f98-5957-49dd-a820-1562582caf76
 ---
@@ -367,6 +391,12 @@ job_id: a28c6112-4b4f-46b0-91e7-cfaa547c936e
 action:
 SELECTED | London | London | £29436 - £29856 per year | Receptionist and Administrator
 job_id: 2a81eb8b-f97e-4a40-a549-7b8a5d9978d3
+---
+
+---
+action:
+SELECTED | London | London | £20 - £22 per hour | School Office Manager
+job_id: f268a985-4df4-4399-b8b6-a63723bc2301
 ---
 
 ---
@@ -431,8 +461,50 @@ job_id: 21673f3a-e467-4b11-bfde-baf3b0f1a7cd
 
 ---
 action:
+SELECTED | London | London | £15 - £25 per hour | Primary School Administrator
+job_id: 548751ba-9f76-4d0f-a120-a2996c433c5d
+---
+
+---
+action:
 SELECTED | London | London | £15 - £20 per hour | Part-Time Admissions & Attendance Administrator
 job_id: 2cde9d2c-e5a1-48b3-a74e-db97f135c4b7
+---
+
+---
+action:
+SELECTED | London | Romford | £100 - £120 per daily | School Administrator
+job_id: bc188a0d-61e8-4f3a-af5c-6dc45fc8784e
+---
+
+---
+action:
+SELECTED | London | London | £115 - £120 per daily | School Administrator - Waltham Forest
+job_id: 3611009d-3fea-4842-8e37-7ec4b9b40d79
+---
+
+---
+action:
+SELECTED | London | London | £15 per hour | School Reception Administrator - Haringey
+job_id: a1f35b5c-0e53-4464-841a-83c472fa89bf
+---
+
+---
+action:
+SELECTED | London | London | £15 per hour | School Receptionist Administrator - Brent
+job_id: 58cebb71-ca4f-4009-a45e-ab8f18ae3f0f
+---
+
+---
+action:
+SELECTED | London | London | £16 - £18 per hour | School Administrator
+job_id: a15a8b40-34b3-4fc2-9cd1-a834834d0017
+---
+
+---
+action:
+SELECTED | London | London | £14 - £15 per hour | School Receptionist
+job_id: 91695f0d-9880-4850-8fc3-8880215d9e18
 ---
 
 ---
