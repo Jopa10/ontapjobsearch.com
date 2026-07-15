@@ -76,14 +76,14 @@ jobs:
       - name: Install frontend packages
         run: npm ci
 
+      - name: Generate Prisma client
+        run: npx prisma generate
+
       - name: Run hybrid badge component tests
         run: npm run test:frontend
 
       - name: Type-check frontend
-        shell: bash
-        run: |
-          set -o pipefail
-          npx tsc --noEmit 2>&1 | tee frontend-typecheck.txt
+        run: npx tsc --noEmit
 
       - name: Lint changed frontend files
         run: npx eslint components/WorkingArrangementBadge.tsx components/JobSlicePage.tsx tests/hybrid-working-badge.test.tsx
@@ -95,7 +95,6 @@ jobs:
           name: hybrid-working-real-feed-audit
           path: |
             hybrid-working-audit.txt
-            frontend-typecheck.txt
             pipeline/output-admin-service/*.json
             pipeline/reports-daily/decision-report-admin-service.csv
             pipeline/manual/service-admin-review.csv
