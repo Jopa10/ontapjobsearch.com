@@ -1,0 +1,98 @@
+name: Test hybrid working badges
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "pipeline/module3/working_arrangement.py"
+      - "pipeline/scripts/service_admin_pipeline_education.py"
+      - "pipeline/scripts/audit_hybrid_badges.py"
+      - "pipeline/tests/test_hybrid_working_metadata.py"
+      - "pipeline/tests/test_service_admin_hybrid_integration.py"
+      - "components/WorkingArrangementBadge.tsx"
+      - "components/JobSlicePage.tsx"
+      - "tests/hybrid-working-badge.test.tsx"
+      - "package.json"
+      - ".github/workflows/test-hybrid-working-badges.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  hybrid-working-integration:
+    name: Pipeline, real-feed audit and frontend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Check Python syntax
+        run: |
+          python -m py_compile \
+            pipeline/module3/working_arrangement.py \
+            pipeline/scripts/service_admin_pipeline_education.py \
+            pipeline/scripts/audit_hybrid_badges.py
+
+      - name: Run hybrid metadata and pipeline integration tests
+        run: |
+          python -m unittest -v \
+            pipeline.tests.test_hybrid_working_metadata \
+            pipeline.tests.test_service_admin_hybrid_integration \
+            pipeline.tests.test_service_admin_education_titles
+
+      - name: Run existing Module 3 classifier tests
+        run: pytest -q tests/test_jobg8_module_3_remote_work_profiler.py
+
+      - name: Run existing service-admin selection tests
+        run: pytest -q tests/test_pipeline_possible_selection.py
+
+      - name: Run service-admin pipeline against current JobG8 input
+        working-directory: pipeline
+        run: python -m scripts.service_admin_pipeline_education
+
+      - name: Audit generated hybrid metadata
+        working-directory: pipeline
+        run: |
+          python -m scripts.audit_hybrid_badges \
+            --output ../hybrid-working-audit.txt \
+            --sample-size 12
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install frontend packages
+        run: npm ci
+
+      - name: Run hybrid badge component tests
+        run: npm run test:frontend
+
+      - name: Type-check frontend
+        run: npx tsc --noEmit
+
+      - name: Lint changed frontend files
+        run: npx eslint components/WorkingArrangementBadge.tsx components/JobSlicePage.tsx tests/hybrid-working-badge.test.tsx
+
+      - name: Upload real-feed audit and generated review outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hybrid-working-real-feed-audit
+          path: |
+            hybrid-working-audit.txt
+            pipeline/output-admin-service/*.json
+            pipeline/reports-daily/decision-report-admin-service.csv
+            pipeline/manual/service-admin-review.csv
+          if-no-files-found: warn
