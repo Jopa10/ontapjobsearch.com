@@ -60,6 +60,20 @@ class HybridWorkingMetadataTests(unittest.TestCase):
         self.assertEqual("partly_remote", result.working_arrangement)
         self.assertEqual("Hybrid working", result.working_arrangement_text)
 
+    def test_glued_jobg8_hybrid_wording_is_repaired(self) -> None:
+        result = self.classify("Full time 37.5 hours per weekHybrid 1 day per weekBenefits")
+        self.assertEqual("hybrid", result.working_arrangement)
+        self.assertEqual("Hybrid working", result.working_arrangement_text)
+
+    def test_days_per_week_in_office_are_preserved(self) -> None:
+        result = self.classify("Hybrid - 2 days per week in the office.")
+        self.assertEqual("hybrid", result.working_arrangement)
+        self.assertEqual("2 office days per week", result.working_arrangement_text)
+
+    def test_uncertain_hybrid_option_does_not_create_badge(self) -> None:
+        result = self.classify("Hybrid options may be available after discussion.")
+        self.assertEqual(NON_QUALIFYING_VALUE, result.working_arrangement)
+
     def test_remote_team_false_positive(self) -> None:
         result = self.classify("You will support a remote team across the UK.")
         self.assertEqual(NON_QUALIFYING_VALUE, result.working_arrangement)
