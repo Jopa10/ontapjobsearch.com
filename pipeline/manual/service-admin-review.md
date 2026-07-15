@@ -108,7 +108,7 @@ job_id: f48d1b56-f911-4ef6-adaf-273c3345fe51
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £26000 - £28000 per year | Sales Administrator
 job_id: ed8f2004-24a1-4e3f-bb31-400f6acad47a
 ---
@@ -200,13 +200,13 @@ job_id: f27af97e-5429-44ed-973e-9325787dece3
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Hebburn | £13 - £14 per hour | Accounts Administrator
 job_id: 364f7202-fbb5-4390-90c1-bf45e1a277ac
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Houghton Le Spring | £30000 per year | Asbestos Administrator / Project Coordinator
 job_id: 107595243
 ---
