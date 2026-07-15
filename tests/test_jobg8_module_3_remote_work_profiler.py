@@ -100,3 +100,48 @@ def test_daily_deduplication_counts_same_job_once(tmp_path):
     detail, daily, _, _ = load_daily_feeds([(date(2026, 7, 15), path)], load_admin_register(register_path))
     assert len(detail) == 1
     assert int(daily.iloc[0]["remote_admin_candidates"]) == 1
+
+
+def test_not_a_remote_working_role_is_explicit_negative():
+    result = decide("Accounts Administrator", "Office based in Brighton. This is not a remote working role.")
+    assert result.classification == "EXPLICITLY_NOT_REMOTE"
+
+
+def test_remote_after_office_training_is_conditional():
+    result = decide(
+        "Finance Administrator",
+        "Remote Working. The role requires office attendance in London whilst going through training, "
+        "with the view to work remote thereafter.",
+    )
+    assert result.classification == "REMOTE_AFTER_TRAINING_OR_PROBATION"
+    assert result.routine_office_attendance == "yes"
+
+
+def test_home_and_office_wording_is_hybrid():
+    result = decide("Sales Administrator", "The Sales Administrator will be working from home and at our Wembley Office.")
+    assert result.classification == "HYBRID_OR_PARTIAL_REMOTE"
+
+
+def test_one_homeworking_day_is_hybrid():
+    result = decide("Service Administrator", "Home Working 1 Day a Week Monday or Friday.")
+    assert result.classification == "HYBRID_OR_PARTIAL_REMOTE"
+
+
+def test_work_from_home_after_six_months_is_conditional():
+    result = decide("Admin Officer", "The option to work from home may become available after 6 months and depending on performance.")
+    assert result.classification == "REMOTE_AFTER_TRAINING_OR_PROBATION"
+
+
+def test_online_remote_learning_is_false_positive():
+    result = decide("Recruitment Administrator", "Access to roles throughout the UK and online/remote learning.")
+    assert result.classification == "REMOTE_MENTION_FALSE_POSITIVE"
+
+
+def test_location_london_or_remote_is_remote_option():
+    result = decide("Customer Service Administrator", "Location: London / Remote. Permanent full-time vacancy.")
+    assert result.classification == "REMOTE_OPTION_AVAILABLE"
+
+
+def test_remote_operational_support_is_false_positive():
+    result = decide("Sales Support Administrator", "Provide remote operational and administrative support to the Production Team.")
+    assert result.classification == "REMOTE_MENTION_FALSE_POSITIVE"
