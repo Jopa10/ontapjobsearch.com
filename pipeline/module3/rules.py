@@ -30,7 +30,7 @@ SIGNALS = {
     "hybrid": r"\bhybrid\b",
 }
 NEGATIVE = [
-    r"\b(?:not|isn['’]?t|is not)\s+(?:a\s+)?remote\s+(?:role|position|job)\b",
+    r"\b(?:not|isn['’]?t|is not)\s+(?:a\s+)?remote(?:[- ]working)?\s+(?:role|position|job)\b",
     r"\bremote(?:\s+or\s+hybrid)?\s+working\s+(?:is|are)\s+not\s+available\b",
     r"\b(?:unable|not able)\s+to\s+offer\s+(?:remote|home|hybrid)\s+working\b",
     r"\bunable\s+to\s+accept.{0,80}\bremote(?:.{0,40}hybrid)?\s+working\b",
@@ -53,6 +53,8 @@ FALSE_POSITIVE = [
     r"\bremote\s+(?:access|desktop|support|monitoring|diagnostics?|systems?|technology|technologies)\b",
     r"\bremote\s+tutor[- ](?:led|lead)\s+(?:training|sessions?)\b",
     r"\bremote\s+training\s+(?:sessions?|delivery)\b",
+    r"\b(?:online\s*/\s*)?remote\s+learning\b",
+    r"\b(?:provide|providing)\s+remote\s+(?:operational|administrative|technical)(?:\s+and\s+(?:operational|administrative|technical))?\s+support\b",
     r"\b(?:clients?|service\s+users?|patients?)['’]?\s+homes\b", r"\bhome\s+visits?\b",
     r"\bhomecare\b|\bhome\s+care\b|\bdomiciliary\b",
     r"\bworking[- ]from[- ]home\s+allowance\b", r"\bwork[- ]from[- ]home\s+allowance\b",
@@ -65,17 +67,33 @@ HYBRID = [
     r"\bup\s+to\s+\d+\s+days?\s+(?:working\s+)?from\s+home\b",
     r"\bpredominantly\s+office[- ]based\b", r"\bregular\s+(?:office|onsite|on-site)\s+attendance\b",
     r"\boffice[- ]based.{0,180}home[- ]?based\b", r"\bhome[- ]?based.{0,180}office[- ]based\b",
+    r"\bwork(?:ing)?\s+from\s+home\s+(?:and|&)\s+(?:at|in|from)\s+(?:our|the)\s+[^.]{0,80}office\b",
+    r"\b(?:work(?:ing)?\s+from\s+home|home\s*working)\s+(?:one|1)\s+day\s+a\s+week\b",
+    r"\b(?:monday|tuesday|wednesday|thursday|friday)\s+(?:home\s*working|work(?:ing)?\s+from\s+home)\b",
+    r"\bwork(?:ing)?\s+from\s+home\s+(?:on\s+)?(?:mondays?|tuesdays?|wednesdays?|thursdays?|fridays?)\b",
+    r"\bremote\s+weekend\s+working\b",
+    r"\bremote.{0,100}attend(?:ing|ance)?\s+(?:an?\s+)?office\s+infrequently\b",
+    r"\b(?:home|remote)[- ]working.{0,100}(?:office|onsite|on-site)\b",
+    r"\b(?:office|onsite|on-site).{0,100}(?:home|remote)[- ]working\b",
+    r"\b(?:evening|weekend)\s+work\s+will\s+be\s+home[- ]based\b",
 ]
 AFTER_CONDITION = [
     r"\b(?:remote|home|hybrid)\s+working\s+(?:after|following)\s+(?:training|induction|probation|a\s+qualifying\s+period)\b",
     r"\bafter\s+(?:training|induction|probation).{0,80}\b(?:remote|home|hybrid)\b",
     r"\b(?:training|induction|probation).{0,80}\b(?:then|thereafter|subsequently)\s+(?:work|working)\s+from\s+home\b",
+    r"\boption\s+to\s+work\s+from\s+home\s+may\s+become\s+available\s+after\s+[^.]{0,80}\b",
+    r"\bwork\s+from\s+home.{0,80}\bupon\s+passing\s+(?:training|probation)\b",
+    r"\boffice\s+attendance.{0,180}(?:training|induction).{0,180}(?:view\s+to|then|thereafter).{0,80}(?:work\s+remote|remote\s+working|work\s+from\s+home)\b",
+    r"\bwith\s+(?:the\s+)?view\s+to\s+work\s+remote\s+thereafter\b",
 ]
 REMOTE_OPTION = [
     r"\bremote\s*,?\s*hybrid\s+or\s+office[- ]based\b",
     r"\bremote\s+or\s+hybrid\s+or\s+office[- ]based\b",
     r"\b(?:fully\s+)?remote\s+(?:is|as)\s+(?:an\s+)?option\b",
     r"\bchoice\s+of\s+(?:remote|homeworking|home-based).{0,60}(?:hybrid|office)\b",
+    r"\b(?:head\s+)?office\s+or\s+remote\b",
+    r"\bremote\s+or\s+(?:head\s+)?office[- ]based\b",
+    r"\blocation\s*:\s*[^.]{0,80}\s/\sremote\b",
 ]
 LOCATION_RESTRICTED = [
     r"\bmust\s+(?:live|reside|be\s+based)\s+(?:within|in|near)\b",
@@ -90,7 +108,7 @@ FULLY_REMOTE = [
     r"\b(?:role|position|job|opportunity)\s+(?:is|will\s+be)\s+home[- ]?based\b",
     r"\bwork(?:ing)?\s+from\s+home\s+(?:full[- ]?time|five\s+days?\s+a\s+week)\b",
     r"\bwork(?:ing)?\s+fully\s+remotely\b", r"\bwork\s+remotely\s+from\s+anywhere\s+in\s+the\s+uk\b",
-    r"\buk[- ]wide\s+remote\b", r"\blocation\s*[:\-]?\s*remote\b", r"\bworking\s+remotely\b",
+    r"\buk[- ]wide\s+remote\b", r"\blocation\s*[:\-]?\s*remote\b",
 ]
 UK_WIDE = [r"\banywhere\s+in\s+the\s+uk\b", r"\buk[- ]wide\b", r"\bacross\s+the\s+uk\b", r"\blocation\s*[:\-]?\s*remote\b"]
 SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9£])|\s*[\r\n]+\s*")
