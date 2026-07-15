@@ -6,6 +6,11 @@ on:
       - agent/allow-school-office-admin
     paths:
       - .github/workflows/patch-service-admin-school-office.yml
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
 
 permissions:
   contents: write
