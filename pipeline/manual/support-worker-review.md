@@ -117,6 +117,18 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 p
 job_id: 107672554
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Support Worker
+job_id: ff58481f-aad3-4f2d-8084-bbbb9dd64f0c
+---
+
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £14.85 per hour | Children's Residential Support Worker
+job_id: f7fb1824-d44c-47c4-955c-4682b9f1b86c
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -129,6 +141,12 @@ job_id: 107615864
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107652248
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: f4341270-8583-4fe9-8839-0a7556a6617f
 ---
 
 ---
@@ -149,30 +167,12 @@ POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside,
 job_id: ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 ---
 
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Support Worker
-job_id: ff58481f-aad3-4f2d-8084-bbbb9dd64f0c
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £14.85 per hour | Children's Residential Support Worker
-job_id: f7fb1824-d44c-47c4-955c-4682b9f1b86c
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
 job_id: 107501464
----
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: f4341270-8583-4fe9-8839-0a7556a6617f
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
