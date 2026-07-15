@@ -150,13 +150,13 @@ job_id: ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Support Worker
 job_id: ff58481f-aad3-4f2d-8084-bbbb9dd64f0c
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £14.85 per hour | Children's Residential Support Worker
 job_id: f7fb1824-d44c-47c4-955c-4682b9f1b86c
 ---
@@ -170,7 +170,7 @@ job_id: 107501464
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.8 per hour | Care Assistant - Bank - Care Home
 job_id: f4341270-8583-4fe9-8839-0a7556a6617f
 ---
