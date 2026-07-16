@@ -76,6 +76,7 @@ jobs:
           test -s pipeline/output-support-worker/south-yorkshire-support-worker.json
           test -s pipeline/output-support-worker/north-east-support-worker.json
           test -s pipeline/output-support-worker/sussex-support-worker.json
+          test -s pipeline/output-support-worker/cumbria-south-support-worker.json
 
       - name: Commit JobG8 daily output
         run: |
