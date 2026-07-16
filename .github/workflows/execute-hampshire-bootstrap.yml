@@ -107,6 +107,6 @@ jobs:
           run(['bash', '-euo', 'pipefail', '-c', blocks[0]], 'build Hampshire slice')
           run(['bash', '-euo', 'pipefail', '-c', blocks[1]], 'validate Python and publisher')
           run(['npm', 'ci'], 'npm ci')
-          run(['npm', 'run', 'build'], 'npm build')
+          run(['bash', '-c', 'DATABASE_URL=postgresql://ontap:ontap@localhost:5432/ontap npm run build'], 'npm build')
           run(['bash', '-euo', 'pipefail', '-c', blocks[2]], 'commit completed Hampshire slice')
           PY
