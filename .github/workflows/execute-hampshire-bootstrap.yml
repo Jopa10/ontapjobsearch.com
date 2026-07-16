@@ -24,14 +24,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Execute production bootstrap
+      - name: Execute production bootstrap with diagnostics
         run: |
-          python -m pip install --upgrade pip pandas openpyxl
           python - <<'PY'
           from pathlib import Path
           import subprocess
 
-          workflow_path = Path('.github/workflows/bootstrap-hampshire-slice.yml')
+          root = Path.cwd()
+          error_path = root / 'bootstrap-error.txt'
+          if error_path.exists():
+              print(error_path.read_text(encoding='utf-8'))
+              raise SystemExit('Previous bootstrap failure is recorded in bootstrap-error.txt')
+
+          workflow_path = root / '.github/workflows/bootstrap-hampshire-slice.yml'
           text = workflow_path.read_text(encoding='utf-8')
           text = text.replace(
               '          git rm .github/workflows/bootstrap-hampshire-slice.yml\n',
@@ -61,12 +66,34 @@ jobs:
                   continue
               index += 1
 
-          if len(blocks) != 3:
-              raise SystemExit(f'Expected 3 executable blocks, found {len(blocks)}')
+          def run(command, label):
+              result = subprocess.run(command, text=True, capture_output=True)
+              print(result.stdout)
+              print(result.stderr)
+              if result.returncode == 0:
+                  return
+              report = (
+                  f'FAILED STAGE: {label}\n'
+                  f'RETURN CODE: {result.returncode}\n\n'
+                  f'STDOUT:\n{result.stdout[-20000:]}\n\n'
+                  f'STDERR:\n{result.stderr[-20000:]}\n'
+              )
+              error_path.write_text(report, encoding='utf-8')
+              subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
+              subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
+              subprocess.run(['git', 'add', 'bootstrap-error.txt'], check=True)
+              subprocess.run(['git', 'commit', '-m', 'Record Hampshire bootstrap failure'], check=True)
+              subprocess.run(['git', 'push'], check=True)
+              raise SystemExit(report)
 
-          subprocess.run(['bash', '-euo', 'pipefail', '-c', blocks[0]], check=True)
-          subprocess.run(['bash', '-euo', 'pipefail', '-c', blocks[1]], check=True)
-          subprocess.run(['npm', 'ci'], check=True)
-          subprocess.run(['npm', 'run', 'build'], check=True)
-          subprocess.run(['bash', '-euo', 'pipefail', '-c', blocks[2]], check=True)
+          if len(blocks) != 3:
+              error_path.write_text(f'Expected 3 executable blocks, found {len(blocks)}\n', encoding='utf-8')
+              run(['bash', '-c', 'exit 1'], 'parse bootstrap workflow')
+
+          run(['python', '-m', 'pip', 'install', '--upgrade', 'pip', 'pandas', 'openpyxl'], 'install Python packages')
+          run(['bash', '-euo', 'pipefail', '-c', blocks[0]], 'build Hampshire slice')
+          run(['bash', '-euo', 'pipefail', '-c', blocks[1]], 'validate Python and publisher')
+          run(['npm', 'ci'], 'npm ci')
+          run(['npm', 'run', 'build'], 'npm build')
+          run(['bash', '-euo', 'pipefail', '-c', blocks[2]], 'commit completed Hampshire slice')
           PY
