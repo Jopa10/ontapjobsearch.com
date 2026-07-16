@@ -66,26 +66,47 @@ jobs:
           npm ci
           npm run build
 
-      - name: Commit completed Cumbria South slice
+      - name: Attempt Cumbria South commit
+        id: commit
+        continue-on-error: true
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            .github/workflows/publish-verified-pages.yml \
-            .github/workflows/run-full-jobg8-daily-process.yml \
-            app/cumbria-south \
-            app/sitemap.ts \
-            pipeline/geo/geo_lookup.xlsx \
-            pipeline/manual/support-worker-review.csv \
-            pipeline/manual/support-worker-review.md \
-            pipeline/output-support-worker/cumbria-south-support-worker.json \
-            pipeline/registers/region_category_slice_register.csv \
-            pipeline/reports-daily/decision-report-support-worker.csv \
-            pipeline/reports-daily/selection-summary-report-support-worker.csv \
-            pipeline/reports-daily/validation-report-support-worker.csv \
-            pipeline/scripts/publish_verified_pages.py \
-            pipeline/scripts/support_worker_pipeline.py
-          git status --short
-          git commit -m "Build Cumbria South support-worker production slice"
-          git push origin feature/cumbria-south-support-worker-slice
+          set +e
+          {
+            set -x
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git status --short
+            git add \
+              .github/workflows/publish-verified-pages.yml \
+              .github/workflows/run-full-jobg8-daily-process.yml \
+              app/cumbria-south \
+              app/sitemap.ts \
+              pipeline/geo/geo_lookup.xlsx \
+              pipeline/manual/support-worker-review.csv \
+              pipeline/manual/support-worker-review.md \
+              pipeline/output-support-worker/cumbria-south-support-worker.json \
+              pipeline/registers/region_category_slice_register.csv \
+              pipeline/reports-daily/decision-report-support-worker.csv \
+              pipeline/reports-daily/selection-summary-report-support-worker.csv \
+              pipeline/reports-daily/validation-report-support-worker.csv \
+              pipeline/scripts/publish_verified_pages.py \
+              pipeline/scripts/support_worker_pipeline.py
+            git diff --cached --name-only
+            git commit -m "Build Cumbria South support-worker production slice"
+            git push origin feature/cumbria-south-support-worker-slice
+          } > commit-diagnostic.txt 2>&1
+          code=$?
+          cat commit-diagnostic.txt
+          exit $code
+
+      - name: Upload commit diagnostic
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cumbria-south-commit-diagnostic
+          path: commit-diagnostic.txt
+          if-no-files-found: error
+
+      - name: Fail if commit failed
+        if: steps.commit.outcome == 'failure'
+        run: exit 1
