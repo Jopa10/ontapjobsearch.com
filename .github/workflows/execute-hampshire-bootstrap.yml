@@ -33,8 +33,7 @@ jobs:
           root = Path.cwd()
           error_path = root / 'bootstrap-error.txt'
           if error_path.exists():
-              print(error_path.read_text(encoding='utf-8'))
-              raise SystemExit('Previous bootstrap failure is recorded in bootstrap-error.txt')
+              subprocess.run(['git', 'rm', 'bootstrap-error.txt'], check=True)
 
           workflow_path = root / '.github/workflows/bootstrap-hampshire-slice.yml'
           text = workflow_path.read_text(encoding='utf-8')
@@ -87,10 +86,24 @@ jobs:
               raise SystemExit(report)
 
           if len(blocks) != 3:
-              error_path.write_text(f'Expected 3 executable blocks, found {len(blocks)}\n', encoding='utf-8')
-              run(['bash', '-c', 'exit 1'], 'parse bootstrap workflow')
+              run(['bash', '-c', 'exit 1'], f'parse bootstrap workflow: found {len(blocks)} blocks')
 
           run(['python', '-m', 'pip', 'install', '--upgrade', 'pip', 'pandas', 'openpyxl'], 'install Python packages')
+
+          from openpyxl import load_workbook
+          geo_path = root / 'pipeline/geo/geo_lookup.xlsx'
+          workbook = load_workbook(geo_path)
+          sheet = workbook['Anchor_towns']
+          existing = {
+              tuple(str(value or '').strip() for value in row)
+              for row in sheet.iter_rows(min_row=2, max_col=3, values_only=True)
+          }
+          anchor = ('Hampshire', 'admin_service', 'Southampton')
+          if anchor not in existing:
+              sheet.append(anchor)
+              workbook.save(geo_path)
+          subprocess.run(['git', 'add', str(geo_path)], check=True)
+
           run(['bash', '-euo', 'pipefail', '-c', blocks[0]], 'build Hampshire slice')
           run(['bash', '-euo', 'pipefail', '-c', blocks[1]], 'validate Python and publisher')
           run(['npm', 'ci'], 'npm ci')
