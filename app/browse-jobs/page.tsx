@@ -1,6 +1,8 @@
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
+import sussexSupportWorkerJobs from '../sussex/support-worker.json';
+import cumbriaSouthSupportWorkerJobs from '../cumbria-south/support-worker.json';
 
 type BrowseCard = {
   title: string;
@@ -50,6 +52,11 @@ const northEastSupportWorkerStatus = getSupportWorkerStatus(
   northEastSupportWorkerJobs,
   'North East'
 );
+const sussexSupportWorkerStatus = getSupportWorkerStatus(sussexSupportWorkerJobs, 'Sussex');
+const southCumbriaSupportWorkerStatus = getSupportWorkerStatus(
+  cumbriaSouthSupportWorkerJobs,
+  'South Cumbria'
+);
 
 const jobSections: BrowseSection[] = [
   {
@@ -80,12 +87,28 @@ const jobSections: BrowseSection[] = [
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
+      {
+        title: 'London Admin & Customer Service Jobs',
+        href: '/london/service-administrator-jobs',
+        description:
+          'Service administrator, customer service administrator and office support roles across London.',
+        status: 'Active current supply',
+        statusClassName: activeStatusClassName,
+      },
+      {
+        title: 'Hampshire Admin & Customer Service Jobs',
+        href: '/hampshire/service-administrator-jobs',
+        description:
+          'Service administrator, customer service administrator and office support roles across Hampshire.',
+        status: 'Active current supply',
+        statusClassName: activeStatusClassName,
+      },
     ],
   },
   {
     heading: 'Support worker jobs',
     intro:
-      'Support-worker routes remain available, but these pages are secondary while current supply is limited.',
+      'Current support-worker pages are listed below. Individual pages show whether supply is active or temporarily limited.',
     cards: [
       {
         title: 'West Yorkshire Support Worker Jobs',
@@ -101,6 +124,16 @@ const jobSections: BrowseSection[] = [
         title: 'North East Support Worker Jobs',
         href: '/north-east/support-worker',
         ...northEastSupportWorkerStatus,
+      },
+      {
+        title: 'Sussex Support Worker Jobs',
+        href: '/sussex/support-worker',
+        ...sussexSupportWorkerStatus,
+      },
+      {
+        title: 'South Cumbria Support Worker Jobs',
+        href: '/cumbria-south/support-worker',
+        ...southCumbriaSupportWorkerStatus,
       },
     ],
   },
