@@ -174,7 +174,7 @@ job_id: ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | South Shields | £12.85 per hour | Support Worker
 job_id: e4c5eb7c-fcec-4da9-8221-f2ac41472c9d
 ---
@@ -186,7 +186,7 @@ job_id: dbd3db2a-800b-4412-9ce0-402a1f442451
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Female Relief Support Worker
 job_id: cc229c96-2589-4d10-9ad8-bf7dea254f59
 ---
