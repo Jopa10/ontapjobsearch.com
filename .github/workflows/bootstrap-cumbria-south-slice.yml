@@ -4,8 +4,6 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - ".github/workflows/bootstrap-cumbria-south-slice.yml"
 
 permissions:
   contents: write
@@ -31,179 +29,7 @@ jobs:
         run: python -m pip install --upgrade pip pandas openpyxl pytest
 
       - name: Add Cumbria South production wiring
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          from openpyxl import load_workbook
-
-          def replace_once(path: str, old: str, new: str) -> None:
-              file_path = Path(path)
-              text = file_path.read_text(encoding="utf-8")
-              count = text.count(old)
-              if count != 1:
-                  raise SystemExit(f"{path}: expected one occurrence, found {count}: {old!r}")
-              file_path.write_text(text.replace(old, new, 1), encoding="utf-8")
-
-          pipeline = "pipeline/scripts/support_worker_pipeline.py"
-          replace_once(
-              pipeline,
-              '    "cumbria - south": "Cumbria",',
-              '    "cumbria - south": "Cumbria - South",',
-          )
-          replace_once(
-              pipeline,
-              '    "Sussex": "sussex-support-worker.json",\n}',
-              '    "Sussex": "sussex-support-worker.json",\n'
-              '    "Cumbria - South": "cumbria-south-support-worker.json",\n}',
-          )
-          replace_once(
-              pipeline,
-              '    "Sussex": 6,\n}',
-              '    "Sussex": 6,\n'
-              '    "Cumbria - South": 6,\n}',
-          )
-          replace_once(
-              pipeline,
-              '("Yorkshire - West", "Yorkshire - South", "Sussex")',
-              '("Yorkshire - West", "Yorkshire - South", "Sussex", "Cumbria - South")',
-          )
-          replace_once(
-              pipeline,
-              'review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS, "Sussex"]',
-              'review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS, "Sussex", "Cumbria - South"]',
-          )
-          replace_once(
-              pipeline,
-              '        ("Sussex", "SELECTED"),\n'
-              '        ("Sussex", "POSSIBLE_SELECTION"),\n'
-              '    ]',
-              '        ("Sussex", "SELECTED"),\n'
-              '        ("Sussex", "POSSIBLE_SELECTION"),\n'
-              '        ("Cumbria - South", "SELECTED"),\n'
-              '        ("Cumbria - South", "POSSIBLE_SELECTION"),\n'
-              '    ]',
-          )
-          replace_once(
-              pipeline,
-              '        ("SUSSEX — SELECTED", "Sussex", "SELECTED", "SELECTED"),\n'
-              '        ("SUSSEX — POSSIBLES", "Sussex", "POSSIBLE_SELECTION", "POSS"),\n'
-              '    ]',
-              '        ("SUSSEX — SELECTED", "Sussex", "SELECTED", "SELECTED"),\n'
-              '        ("SUSSEX — POSSIBLES", "Sussex", "POSSIBLE_SELECTION", "POSS"),\n'
-              '        ("CUMBRIA SOUTH — SELECTED", "Cumbria - South", "SELECTED", "SELECTED"),\n'
-              '        ("CUMBRIA SOUTH — POSSIBLES", "Cumbria - South", "POSSIBLE_SELECTION", "POSS"),\n'
-              '    ]',
-          )
-
-          geo_path = Path("pipeline/geo/geo_lookup.xlsx")
-          workbook = load_workbook(geo_path)
-          if "Anchor_towns" not in workbook.sheetnames:
-              raise SystemExit("geo_lookup.xlsx has no Anchor_towns sheet")
-          sheet = workbook["Anchor_towns"]
-
-          def normalise(value) -> str:
-              return str(value or "").strip().casefold().replace("_", " ")
-
-          header_map = {normalise(cell.value): cell.column for cell in sheet[1]}
-          region_col = header_map.get("region")
-          category_col = header_map.get("category")
-          anchor_col = header_map.get("anchor town") or header_map.get("anchortown")
-          if not all((region_col, category_col, anchor_col)):
-              raise SystemExit(f"Unexpected Anchor_towns headers: {list(header_map)}")
-
-          matching_rows = []
-          for row_number in range(2, sheet.max_row + 1):
-              if (
-                  normalise(sheet.cell(row_number, region_col).value) == "cumbria - south"
-                  and normalise(sheet.cell(row_number, category_col).value) == "support worker"
-              ):
-                  matching_rows.append(row_number)
-
-          if len(matching_rows) > 1:
-              raise SystemExit("Duplicate Cumbria - South / support_worker anchor rows")
-          if matching_rows:
-              row_number = matching_rows[0]
-          else:
-              row_number = sheet.max_row + 1
-              sheet.cell(row_number, region_col).value = "Cumbria - South"
-              sheet.cell(row_number, category_col).value = "support_worker"
-          sheet.cell(row_number, anchor_col).value = "Barrow-in-Furness"
-          workbook.save(geo_path)
-
-          registry = Path("pipeline/registers/region_category_slice_register.csv")
-          registry_text = registry.read_text(encoding="utf-8-sig")
-          old_registry = "Cumbria - South,support_worker,CANDIDATE"
-          new_registry = "Cumbria - South,support_worker,LIVE"
-          if registry_text.count(old_registry) != 1:
-              raise SystemExit("Expected one Cumbria South candidate registry row")
-          registry.write_text(registry_text.replace(old_registry, new_registry, 1), encoding="utf-8")
-
-          replace_once(
-              "pipeline/scripts/publish_verified_pages.py",
-              '    Mapping("North East support worker jobs", "North East", "support_worker", Path("pipeline/output-support-worker/north-east-support-worker.json"), Path("app/north-east/support-worker-jobs.json")),\n',
-              '    Mapping("Cumbria South support worker jobs", "Cumbria - South", "support_worker", Path("pipeline/output-support-worker/cumbria-south-support-worker.json"), Path("app/cumbria-south/support-worker.json")),\n'
-              '    Mapping("North East support worker jobs", "North East", "support_worker", Path("pipeline/output-support-worker/north-east-support-worker.json"), Path("app/north-east/support-worker-jobs.json")),\n',
-          )
-
-          replace_once(
-              ".github/workflows/run-full-jobg8-daily-process.yml",
-              '          test -s pipeline/output-support-worker/sussex-support-worker.json\n',
-              '          test -s pipeline/output-support-worker/sussex-support-worker.json\n'
-              '          test -s pipeline/output-support-worker/cumbria-south-support-worker.json\n',
-          )
-
-          publish_workflow = ".github/workflows/publish-verified-pages.yml"
-          replace_once(
-              publish_workflow,
-              '            "app/north-east/support-worker-jobs.json"\n',
-              '            "app/cumbria-south/support-worker.json"\n'
-              '            "app/north-east/support-worker-jobs.json"\n',
-          )
-          replace_once(
-              publish_workflow,
-              '$0 != "app/north-east/support-worker-jobs.json"',
-              '$0 != "app/cumbria-south/support-worker.json" && $0 != "app/north-east/support-worker-jobs.json"',
-          )
-
-          replace_once(
-              "app/sitemap.ts",
-              "  '/sussex/support-worker',\n",
-              "  '/sussex/support-worker',\n  '/cumbria-south/support-worker',\n",
-          )
-
-          page_dir = Path("app/cumbria-south/support-worker")
-          page_dir.mkdir(parents=True, exist_ok=True)
-          page_dir.joinpath("page.tsx").write_text(
-              '''import type { Metadata } from "next";
-import JobSlicePage from "@/components/JobSlicePage";
-import { getJobPageStatus } from "@/config/job-page-status";
-
-const routeKey = "cumbria-south/support-worker";
-const canonicalUrl = "https://www.ontapjobsearch.com/cumbria-south/support-worker";
-
-export const metadata: Metadata = {
-  title: "South Cumbria Support Worker Jobs | Ontap Job Search",
-  description:
-    "Browse current support worker jobs across Barrow-in-Furness, Kendal, Ulverston and South Cumbria, updated daily with employer-site application links.",
-  alternates: { canonical: canonicalUrl },
-};
-
-export default function Page() {
-  return (
-    <JobSlicePage
-      jsonPath={["app", "cumbria-south", "support-worker.json"]}
-      region="South Cumbria"
-      title="South Cumbria Support Worker Roles"
-      latestUpdate={getJobPageStatus(routeKey)}
-      anchorTown="Barrow-in-Furness"
-    />
-  );
-}
-''',
-              encoding="utf-8",
-          )
-          Path("app/cumbria-south/support-worker.json").write_text("[]\n", encoding="utf-8")
-          PY
+        run: python pipeline/scripts/bootstrap_cumbria_south_slice.py
 
       - name: Run support-worker pipeline
         working-directory: pipeline
@@ -235,7 +61,7 @@ export default function Page() {
           PY
           cp pipeline/output-support-worker/cumbria-south-support-worker.json app/cumbria-south/support-worker.json
 
-      - name: Validate Python and publisher
+      - name: Validate pipeline and publisher
         run: |
           python -m py_compile pipeline/scripts/support_worker_pipeline.py pipeline/scripts/publish_verified_pages.py
           pytest -q tests/test_pipeline_possible_selection.py
@@ -251,7 +77,9 @@ export default function Page() {
       - name: Commit completed Cumbria South slice
         run: |
           set -euo pipefail
-          git rm -f .github/workflows/bootstrap-cumbria-south-slice.yml
+          git rm -f \
+            .github/workflows/bootstrap-cumbria-south-slice.yml \
+            pipeline/scripts/bootstrap_cumbria_south_slice.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
