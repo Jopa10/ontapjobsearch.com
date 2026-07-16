@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,3116
-total rows included,43
-total rows dropped,3064
+total rows included,47
+total rows dropped,3060
 title classification count - HIGH_CONFIDENCE,254
 title classification count - ELASTIC_FIT,145
 title classification count - REVIEW_CONTEXT_DEPENDENT,6
@@ -39,3 +39,11 @@ anchor elastic count - Sussex,0
 other elastic count - Sussex,6
 total rows output - Sussex,18
 job_id included - Sussex,f904dd5a-98c0-42fc-b665-bf56faab21ba; ebc70e88-0b55-4541-9a7e-808faac32e58; d27b754c-0bac-4e78-a5e1-3d9e84a77636; 107474631; e60dfba1-b7bc-4bc9-bb23-43b6d26c6094; 107658496; 7911979f-e083-4358-946e-98879570ba1e; 107681237; 107680820; ea07d98d-3552-4477-805d-a42476b9f144; 107681269; d190e506-a8f8-4d6f-a0f2-1edef5b6612f; 107641522; 107657282; eab70bad-0ac6-4d3d-af24-612fcf31464d; d491ad80-3d80-4f29-870c-be4e4b22d42b; 1401783835; c2f5cd48-3e30-45bb-b26a-2390d356999e
+selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,4
+high confidence count - Cumbria - South,3
+anchor elastic count - Cumbria - South,1
+other elastic count - Cumbria - South,0
+total rows output - Cumbria - South,4
+job_id included - Cumbria - South,fc6489a2-8773-490a-b95c-4b7da8172356; 107665539; 107652240; 107652275

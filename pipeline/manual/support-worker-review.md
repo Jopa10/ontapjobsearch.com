@@ -350,3 +350,33 @@ job_id: c2f5cd48-3e30-45bb-b26a-2390d356999e
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
+
+## CUMBRIA SOUTH — SELECTED
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107652240
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
+job_id: 107652275
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Worker
+job_id: fc6489a2-8773-490a-b95c-4b7da8172356
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Community Support Worker
+job_id: 107665539
+---
+
+## CUMBRIA SOUTH — POSSIBLES
+
+_No jobs in this group._
