@@ -1,42 +1,11 @@
-FAILED STAGE: npm build
+FAILED STAGE: commit completed Hampshire slice
 RETURN CODE: 1
 
 STDOUT:
 
-> ontap@0.1.0 build
-> prisma generate && next build
-
-
-✔ Generated Prisma Client (v7.3.0) to ./node_modules/@prisma/client in 56ms
-
-Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
-
-
-⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
-Attention: Next.js now collects completely anonymous telemetry regarding usage.
-This information is used to shape Next.js' roadmap and prioritize features.
-You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-https://nextjs.org/telemetry
-
-▲ Next.js 16.1.6 (Turbopack)
-
-  Creating an optimized production build ...
-✓ Compiled successfully in 5.7s
-  Running TypeScript ...
-  Collecting page data using 3 workers ...
-
 
 STDERR:
-Loaded Prisma config from prisma.config.ts.
-
-Prisma schema loaded from prisma/schema.prisma.
-⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-Error: DATABASE_URL environment variable is not set
-    at <unknown> (.next/server/chunks/_212f7c70._.js:1:16364)
-
-> Build error occurred
-Error: Failed to collect page data for /api/admin/users
-    at ignore-listed frames {
-  type: 'Error'
-}
+error: the following file has local modifications:
+    .github/workflows/bootstrap-hampshire-slice.yml
+(use --cached to keep the file, or -f to force removal)
 
