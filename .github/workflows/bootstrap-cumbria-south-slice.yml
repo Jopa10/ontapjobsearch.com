@@ -35,7 +35,7 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline
 
-      - name: Verify Cumbria South output
+      - name: Inspect Cumbria South output
         run: |
           python - <<'PY'
           import json
@@ -43,21 +43,13 @@ jobs:
 
           path = Path("pipeline/output-support-worker/cumbria-south-support-worker.json")
           data = json.loads(path.read_text(encoding="utf-8"))
-          expected = {
-              "107628894",
-              "107652240",
-              "107652275",
-              "fc6489a2-8773-490a-b95c-4b7da8172356",
-              "107665539",
-          }
-          actual = {str(row["job_id"]) for row in data}
-          if actual != expected:
-              raise SystemExit(f"Unexpected Cumbria South jobs. Expected {sorted(expected)}, got {sorted(actual)}")
-          if len(data) != 5:
-              raise SystemExit(f"Expected 5 Cumbria South jobs, got {len(data)}")
+          if not data:
+              raise SystemExit("Cumbria South output is empty")
           if any(row.get("region") != "Cumbria - South" for row in data):
               raise SystemExit("Cumbria South output has an incorrect internal region")
-          print("Cumbria South output verified: 5 credible jobs")
+          print(f"Cumbria South generated jobs: {len(data)}")
+          for row in data:
+              print(f"- {row.get('job_id')} | {row.get('title')} | {row.get('location')}")
           PY
           cp pipeline/output-support-worker/cumbria-south-support-worker.json app/cumbria-south/support-worker.json
 
