@@ -26,6 +26,7 @@ class Mapping:
 
 
 MAPPINGS: tuple[Mapping, ...] = (
+    Mapping("Hampshire service administrator jobs", "Hampshire", "admin_service", Path("pipeline/output-admin-service/hampshire-admin-service.json"), Path("app/hampshire/service-administrator-jobs.json")),
     Mapping("London service administrator jobs", "London", "admin_service", Path("pipeline/output-admin-service/london-admin-service.json"), Path("app/london/service-administrator-jobs.json")),
     Mapping("North East service administrator jobs", "North East", "admin_service", Path("pipeline/output-admin-service/north-east-admin-service.json"), Path("app/north-east/service-administrator-jobs.json")),
     Mapping("South Yorkshire service administrator jobs", "Yorkshire - South", "admin_service", Path("pipeline/output-admin-service/south-yorkshire-admin-service.json"), Path("app/south-yorkshire/service-administrator-jobs.json")),

@@ -673,6 +673,12 @@ job_id: f5e8e30b-1418-4972-8b69-89a8d0be61d4
 
 ---
 action:
+POSS - LONDON | London | London |  | Commercial Property Legal Secretary
+job_id: c5d96f98-5957-49dd-a820-1562582caf76
+---
+
+---
+action:
 POSS - LONDON | London | London | £35000 - £40000 per year | Academic Administrator
 job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
@@ -867,4 +873,12 @@ job_id: 107663038
 action:
 POSS - LONDON | London | London | £40000 - £48000 per year | PA / Office Coordinator - 12month Contract
 job_id: cec48803-f84f-458c-ac5e-cf7306918815
+---
+
+## ACTIVE MANUAL ACTIONS
+
+---
+action: exclude
+DROPPED | Hampshire | Southampton | £50000 - £70000 per year | Senior Windows Server Administrator
+job_id: edfb6bfb-1af8-4aa8-bf4e-faad98367d1e
 ---
