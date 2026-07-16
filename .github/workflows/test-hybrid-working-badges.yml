@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "pipeline/module3/working_arrangement.py"
+      - "pipeline/scripts/service_admin_pipeline.py"
       - "pipeline/scripts/service_admin_pipeline_education.py"
       - "pipeline/scripts/audit_hybrid_badges.py"
       - "pipeline/tests/test_hybrid_working_metadata.py"
