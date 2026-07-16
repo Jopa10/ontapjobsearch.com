@@ -1,0 +1,9 @@
+FAILED STAGE: build Hampshire slice
+RETURN CODE: 1
+
+STDOUT:
+
+
+STDERR:
+STOP: Anchor_towns is missing required admin_service region(s): Hampshire
+
