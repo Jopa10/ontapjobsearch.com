@@ -1,0 +1,72 @@
+name: Execute Hampshire bootstrap
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  execute-hampshire-bootstrap:
+    if: github.head_ref == 'feature/hampshire-admin-service-slice'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Execute production bootstrap
+        run: |
+          python -m pip install --upgrade pip pandas openpyxl
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+
+          workflow_path = Path('.github/workflows/bootstrap-hampshire-slice.yml')
+          text = workflow_path.read_text(encoding='utf-8')
+          text = text.replace(
+              '          git rm .github/workflows/bootstrap-hampshire-slice.yml\n',
+              '          git rm .github/workflows/bootstrap-hampshire-slice.yml\n'
+              '          git rm .github/workflows/execute-hampshire-bootstrap.yml\n',
+          )
+          workflow_path.write_text(text, encoding='utf-8')
+
+          lines = text.splitlines()
+          blocks = []
+          index = 0
+          while index < len(lines):
+              line = lines[index]
+              if line.strip() == 'run: |':
+                  base_indent = len(line) - len(line.lstrip())
+                  index += 1
+                  block_lines = []
+                  while index < len(lines):
+                      candidate = lines[index]
+                      indent = len(candidate) - len(candidate.lstrip())
+                      if candidate.strip() and indent <= base_indent:
+                          break
+                      cut = min(len(candidate), base_indent + 2)
+                      block_lines.append(candidate[cut:])
+                      index += 1
+                  blocks.append('\n'.join(block_lines))
+                  continue
+              index += 1
+
+          if len(blocks) != 3:
+              raise SystemExit(f'Expected 3 executable blocks, found {len(blocks)}')
+
+          subprocess.run(['bash', '-euo', 'pipefail', '-c', blocks[0]], check=True)
+          subprocess.run(['bash', '-euo', 'pipefail', '-c', blocks[1]], check=True)
+          subprocess.run(['npm', 'ci'], check=True)
+          subprocess.run(['npm', 'run', 'build'], check=True)
+          subprocess.run(['bash', '-euo', 'pipefail', '-c', blocks[2]], check=True)
+          PY
