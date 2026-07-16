@@ -1,5 +1,5 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,10,10,0,0,12,,22,Leeds,SCENARIO_MANUAL_RERUN,Yorkshire - West manual rerun: 10 current-feed manual_select row(s) applied; 10 selected. Auto backfill disabled.
-Yorkshire - South,7,5,1,1,11,,18,Sheffield,SCENARIO_MANUAL_RERUN,Yorkshire - South manual rerun: 7 current-feed manual_select row(s) applied; 7 selected. Auto backfill disabled.
-North East,3,3,0,0,13,,16,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 3 current-feed manual_select row(s) applied; 3 selected. Auto backfill disabled.
-London,32,29,3,0,48,,80,London,SCENARIO_MANUAL_RERUN,London manual rerun: 32 current-feed manual_select row(s) applied; 32 selected. Auto backfill disabled.
+Yorkshire - West,16,15,1,0,7,,23,Leeds,SCENARIO_MANUAL_RERUN,Yorkshire - West manual rerun: 16 current-feed manual_select row(s) applied; 16 selected. Auto backfill disabled.
+Yorkshire - South,12,9,1,2,6,,18,Sheffield,SCENARIO_MANUAL_RERUN,Yorkshire - South manual rerun: 12 current-feed manual_select row(s) applied; 12 selected. Auto backfill disabled.
+North East,7,7,0,0,9,,16,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 7 current-feed manual_select row(s) applied; 7 selected. Auto backfill disabled.
+London,48,42,5,1,36,,84,London,SCENARIO_MANUAL_RERUN,London manual rerun: 48 current-feed manual_select row(s) applied; 48 selected. Auto backfill disabled.
