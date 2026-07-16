@@ -1,0 +1,327 @@
+name: Bootstrap Hampshire production slice
+
+on:
+  push:
+    branches:
+      - feature/hampshire-admin-service-slice
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap-hampshire:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Build Hampshire slice through existing pipeline
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+
+          root = Path.cwd()
+          core_path = root / "pipeline/scripts/service_admin_pipeline.py"
+          wrapper_path = root / "pipeline/scripts/service_admin_pipeline_education.py"
+
+          # Restore the production wrapper exactly, then extend the existing core
+          # pipeline with Hampshire configuration and durable manual actions.
+          wrapper = subprocess.check_output(
+              ["git", "show", "origin/main:pipeline/scripts/service_admin_pipeline_education.py"],
+              text=True,
+          )
+          wrapper_path.write_text(wrapper, encoding="utf-8")
+
+          source = core_path.read_text(encoding="utf-8")
+          if '"hampshire": "Hampshire"' not in source:
+              source = source.replace(
+                  '    "london": "London",\n}',
+                  '    "london": "London",\n    "hampshire": "Hampshire",\n}',
+                  1,
+              )
+          if '"Hampshire": "hampshire-admin-service.json"' not in source:
+              source = source.replace(
+                  '    "London": "london-admin-service.json",\n}',
+                  '    "London": "london-admin-service.json",\n    "Hampshire": "hampshire-admin-service.json",\n}',
+                  1,
+              )
+          if '"Hampshire": 6' not in source:
+              source = source.replace(
+                  '    "London": 6,\n}',
+                  '    "London": 6,\n    "Hampshire": 6,\n}',
+                  1,
+              )
+
+          preview_start = source.index('def _manual_review_preview_rows(')
+          preview_end = source.index('\n\ndef _markdown_value', preview_start)
+          preview_function = '''def _manual_review_preview_rows(
+              rows: list[dict[str, Any]],
+              preserved_action_rows: list[dict[str, str]] | None = None,
+          ) -> list[dict[str, Any]]:
+              """Return compact selected/possible rows plus active actions still in today's report."""
+              preview_rows: list[dict[str, Any]] = []
+              preview_job_ids: set[str] = set()
+              groups = [
+                  ("West Yorkshire", "SELECTED"),
+                  ("West Yorkshire", "POSSIBLE_SELECTION"),
+                  ("South Yorkshire", "SELECTED"),
+                  ("South Yorkshire", "POSSIBLE_SELECTION"),
+                  ("North East", "SELECTED"),
+                  ("North East", "POSSIBLE_SELECTION"),
+                  ("Hampshire", "SELECTED"),
+                  ("Hampshire", "POSSIBLE_SELECTION"),
+              ]
+              for region, status in groups:
+                  for row in _markdown_review_rows(rows, region, status):
+                      job_id = _markdown_value(row.get("job_id"))
+                      if job_id and job_id not in preview_job_ids:
+                          preview_rows.append(row)
+                          preview_job_ids.add(job_id)
+
+              active_action_ids = {
+                  _markdown_value(row.get("job_id"))
+                  for row in (preserved_action_rows or [])
+                  if _markdown_value(row.get("manual_override")).upper() == "FORCE_EXCLUDE"
+                  or _markdown_value(row.get("manual_select")).upper() in {"1", "SELECT"}
+              }
+              for row in rows:
+                  job_id = _markdown_value(row.get("job_id"))
+                  if job_id in active_action_ids and job_id not in preview_job_ids:
+                      preview_rows.append(row)
+                      preview_job_ids.add(job_id)
+              return preview_rows
+          '''
+          source = source[:preview_start] + preview_function + source[preview_end:]
+
+          if '("HAMPSHIRE — SELECTED", "Hampshire", "SELECTED", "SELECTED")' not in source:
+              source = source.replace(
+                  '        ("NORTH EAST — POSSIBLES", "North East", "POSSIBLE_SELECTION", "POSS"),\n    ]',
+                  '        ("NORTH EAST — POSSIBLES", "North East", "POSSIBLE_SELECTION", "POSS"),\n'
+                  '        ("HAMPSHIRE — SELECTED", "Hampshire", "SELECTED", "SELECTED"),\n'
+                  '        ("HAMPSHIRE — POSSIBLES", "Hampshire", "POSSIBLE_SELECTION", "POSS"),\n'
+                  '    ]',
+                  1,
+              )
+
+          active_marker = '    active_action_rows = []\n'
+          if active_marker not in source:
+              write_marker = '    path.write_text("\\n".join(lines), encoding="utf-8")'
+              active_block = '''    active_action_rows = []
+              for row in rows:
+                  job_id = _markdown_value(row.get("job_id"))
+                  action = preserved_actions.get(job_id, "")
+                  if action in {"select", "exclude"} and job_id not in emitted_job_ids:
+                      active_action_rows.append((row, action))
+                      emitted_job_ids.add(job_id)
+
+              lines.extend(["## ACTIVE MANUAL ACTIONS", ""])
+              if not active_action_rows:
+                  lines.extend(["_No active manual actions outside the selected/possible groups._", ""])
+              else:
+                  for row, action in active_action_rows:
+                      job_id = _markdown_value(row.get("job_id"))
+                      summary = " | ".join([
+                          _markdown_value(row.get("decision")),
+                          _markdown_value(row.get("region")),
+                          _markdown_value(row.get("town")),
+                          _markdown_value(row.get("salary_text")),
+                          _markdown_value(row.get("title")),
+                      ])
+                      lines.extend([
+                          "---",
+                          f"action: {action}",
+                          summary,
+                          f"job_id: {job_id}",
+                          "---",
+                          "",
+                      ])
+
+              path.write_text("\\n".join(lines), encoding="utf-8")'''
+              source = source.replace(write_marker, active_block, 1)
+
+          core_path.write_text(source, encoding="utf-8")
+
+          manual_path = root / "pipeline/manual/service-admin-review.md"
+          false_id = "edfb6bfb-1af8-4aa8-bf4e-faad98367d1e"
+          manual_text = manual_path.read_text(encoding="utf-8-sig") if manual_path.exists() else "# Service-admin manual review\n"
+          if false_id not in manual_text:
+              manual_text += f'''\n\n## ACTIVE MANUAL ACTIONS\n\n---\naction: exclude\nSELECTED | Hampshire | Southampton | £50000 - £60000 per year | Senior Windows Server Administrator\njob_id: {false_id}\n---\n'''
+              manual_path.write_text(manual_text, encoding="utf-8")
+
+          register_path = root / "pipeline/registers/region_category_slice_register.csv"
+          register = register_path.read_text(encoding="utf-8-sig")
+          register = register.replace(
+              "Hampshire,admin_service,CANDIDATE",
+              "Hampshire,admin_service,LIVE",
+          )
+          register_path.write_text(register, encoding="utf-8")
+
+          publisher_path = root / "pipeline/scripts/publish_verified_pages.py"
+          publisher = publisher_path.read_text(encoding="utf-8")
+          mapping = '    Mapping("Hampshire service administrator jobs", "Hampshire", "admin_service", Path("pipeline/output-admin-service/hampshire-admin-service.json"), Path("app/hampshire/service-administrator-jobs.json")),\n'
+          if mapping not in publisher:
+              publisher = publisher.replace(
+                  'MAPPINGS: tuple[Mapping, ...] = (\n',
+                  'MAPPINGS: tuple[Mapping, ...] = (\n' + mapping,
+                  1,
+              )
+          publisher_path.write_text(publisher, encoding="utf-8")
+
+          sitemap_path = root / "app/sitemap.ts"
+          sitemap = sitemap_path.read_text(encoding="utf-8")
+          route = "  '/hampshire/service-administrator-jobs',\n"
+          if route not in sitemap:
+              sitemap = sitemap.replace(
+                  "  '/london/service-administrator-jobs',\n",
+                  "  '/london/service-administrator-jobs',\n" + route,
+                  1,
+              )
+          sitemap_path.write_text(sitemap, encoding="utf-8")
+
+          page_dir = root / "app/hampshire/service-administrator-jobs"
+          page_dir.mkdir(parents=True, exist_ok=True)
+          (page_dir / "page.tsx").write_text('''import type { Metadata } from "next";
+          import JobSlicePage from "@/components/JobSlicePage";
+          import { getJobPageStatus } from "@/config/job-page-status";
+
+          const routeKey = "hampshire/service-administrator-jobs";
+          const canonicalUrl = "https://www.ontapjobsearch.com/hampshire/service-administrator-jobs";
+
+          export const metadata: Metadata = {
+            title: "Hampshire Service Administrator Jobs | Ontap Job Search",
+            description:
+              "Browse service administrator, customer service administrator and office support jobs across Hampshire.",
+            alternates: {
+              canonical: canonicalUrl,
+            },
+          };
+
+          const adminTraining = [
+            {
+              title: "Business Administration Level 2",
+              provider: "OpenLearn",
+              description:
+                "Foundational office administration learning for scheduling, communication and records tasks.",
+              link: "https://www.open.edu/openlearn/money-business/business-studies/introduction-business-administration/content-section-0",
+            },
+            {
+              title: "Customer Service Skills",
+              provider: "Alison",
+              description:
+                "Practical customer service training useful for service-administrator and front-office roles.",
+              link: "https://alison.com/course/customer-service-skills",
+            },
+            {
+              title: "Excel for Administrative Work",
+              provider: "Microsoft Learn",
+              description:
+                "Build spreadsheet and reporting skills commonly required in office support roles.",
+              link: "https://learn.microsoft.com/training/",
+            },
+          ];
+
+          export default function Page() {
+            return (
+              <JobSlicePage
+                jsonPath={["app", "hampshire", "service-administrator-jobs.json"]}
+                region="Hampshire"
+                title="Hampshire Service Administrator Jobs"
+                latestUpdate={getJobPageStatus(routeKey)}
+                anchorTown="Southampton"
+                trainingHeading="Boost your admin applications"
+                trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
+                trainingItems={adminTraining}
+              />
+            );
+          }
+          '''.replace("          ", ""), encoding="utf-8")
+          PY
+
+          cd pipeline
+          python -m scripts.service_admin_pipeline_education
+          python -m scripts.service_admin_pipeline_education
+          cd ..
+
+          python - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          root = Path.cwd()
+          false_id = "edfb6bfb-1af8-4aa8-bf4e-faad98367d1e"
+          output_path = root / "pipeline/output-admin-service/hampshire-admin-service.json"
+          jobs = json.loads(output_path.read_text(encoding="utf-8"))
+          assert len(jobs) == 19, f"expected 19 selected Hampshire jobs, got {len(jobs)}"
+          assert all(job.get("job_id") != false_id for job in jobs), "technical false positive still selected"
+          assert all(job.get("region") == "Hampshire" for job in jobs), "non-Hampshire job in output"
+          assert len({job.get("job_id") for job in jobs}) == 19, "duplicate Hampshire job ID"
+          required = ("job_id", "title", "company", "location", "apply_url")
+          assert all(all(str(job.get(field, "")).strip() for field in required) for job in jobs), "missing required field"
+          assert all("working_arrangement" in job for job in jobs), "hybrid metadata missing"
+
+          manual_md = (root / "pipeline/manual/service-admin-review.md").read_text(encoding="utf-8")
+          assert false_id in manual_md and "action: exclude" in manual_md, "Markdown exclusion did not persist"
+          with (root / "pipeline/manual/service-admin-review.csv").open(encoding="utf-8-sig", newline="") as handle:
+              review_rows = list(csv.DictReader(handle))
+          active = [row for row in review_rows if row.get("job_id") == false_id]
+          assert len(active) == 1 and active[0].get("manual_override") == "FORCE_EXCLUDE", "CSV exclusion did not persist"
+
+          with (root / "pipeline/reports-daily/decision-report-admin-service.csv").open(encoding="utf-8-sig", newline="") as handle:
+              report_rows = list(csv.DictReader(handle))
+          false_rows = [row for row in report_rows if row.get("job_id") == false_id]
+          assert len(false_rows) == 1
+          assert false_rows[0].get("decision") == "DROPPED"
+          assert false_rows[0].get("manual_override") == "FORCE_EXCLUDE"
+          assert sum(1 for row in report_rows if row.get("region") == "Hampshire" and row.get("selection_status") == "SELECTED") == 19
+
+          destination = root / "app/hampshire/service-administrator-jobs.json"
+          destination.write_text(json.dumps(jobs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print("Hampshire verification passed: 20 candidates, 19 selected, 1 excluded, 0 unresolved")
+          PY
+
+      - name: Validate Python and publisher
+        run: |
+          python -m py_compile pipeline/scripts/service_admin_pipeline.py
+          python -m py_compile pipeline/scripts/service_admin_pipeline_education.py
+          python -m py_compile pipeline/scripts/publish_verified_pages.py
+          python pipeline/scripts/publish_verified_pages.py --dry-run
+
+      - name: Install web dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit completed Hampshire slice
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/bootstrap-hampshire-slice.yml
+          git add \
+            app/hampshire/service-administrator-jobs.json \
+            app/hampshire/service-administrator-jobs/page.tsx \
+            app/sitemap.ts \
+            pipeline/manual/service-admin-review.csv \
+            pipeline/manual/service-admin-review.md \
+            pipeline/output-admin-service/hampshire-admin-service.json \
+            pipeline/registers/region_category_slice_register.csv \
+            pipeline/reports-daily/decision-report-admin-service.csv \
+            pipeline/reports-daily/selection-summary-report-admin-service.csv \
+            pipeline/reports-daily/validation-report-admin-service.csv \
+            pipeline/scripts/publish_verified_pages.py \
+            pipeline/scripts/service_admin_pipeline.py \
+            pipeline/scripts/service_admin_pipeline_education.py
+          git commit -m "Build Hampshire admin service production slice"
+          git push
