@@ -12,6 +12,7 @@ const routes = [
   '/south-yorkshire/support-worker',
   '/north-east/support-worker',
   '/sussex/support-worker',
+  '/cumbria-south/support-worker',
   '/west-yorkshire/service-administrator-jobs',
   '/south-yorkshire/service-administrator-jobs',
   '/north-east/service-administrator-jobs',

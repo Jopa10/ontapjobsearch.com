@@ -3,3 +3,4 @@ Yorkshire - West,,12,5,1,6,0,,12,Leeds,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Y
 Yorkshire - South,,3,2,0,1,0,,3,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 North East,,10,2,2,6,9,,19,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 10 current-feed manual_select row(s) applied; 10 selected. Routine auto-selection disabled.
 Sussex,,18,12,0,6,0,,18,Brighton,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Sussex selection complete: 18 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+Cumbria - South,,4,3,1,0,0,,4,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.

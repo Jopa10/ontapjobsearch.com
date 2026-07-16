@@ -163,7 +163,7 @@ REGION_MAP = {
     "manchester": "Greater Manchester",
     "cumbria": "Cumbria",
     "cumbria - north": "Cumbria",
-    "cumbria - south": "Cumbria",
+    "cumbria - south": "Cumbria - South",
     "cumbria - west": "Cumbria",
 
     # V11_4: split the old combined North East region into three publishable sub-regions.
@@ -182,6 +182,7 @@ OUTPUT_FILES = {
     "Yorkshire - South": "south-yorkshire-support-worker.json",
     "North East": "north-east-support-worker.json",
     "Sussex": "sussex-support-worker.json",
+    "Cumbria - South": "cumbria-south-support-worker.json",
 }
 
 
@@ -194,6 +195,7 @@ PUBLISH_THRESHOLDS = {
     "Yorkshire - South": 6,
     "North East": 6,
     "Sussex": 6,
+    "Cumbria - South": 6,
 }
 
 NORTH_EAST_DETAILED_REGIONS = [
@@ -203,7 +205,7 @@ NORTH_EAST_DETAILED_REGIONS = [
 ]
 
 PUBLISH_REGION_BY_DETAIL_REGION = {
-    **{region: region for region in ("Yorkshire - West", "Yorkshire - South", "Sussex")},
+    **{region: region for region in ("Yorkshire - West", "Yorkshire - South", "Sussex", "Cumbria - South")},
     **{region: "North East" for region in NORTH_EAST_DETAILED_REGIONS},
 }
 
@@ -1900,7 +1902,7 @@ def decision_report_fieldnames() -> list[str]:
 def decision_report_sort_key(r: dict[str, Any]) -> tuple[int, int, int, int, str, str]:
     # V2 daily QA order:
     # West SELECTED -> West POSS -> South SELECTED -> South POSS -> all remaining dropped/audit rows.
-    review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS, "Sussex"]
+    review_region_order = ["Yorkshire - West", "Yorkshire - South", *NORTH_EAST_DETAILED_REGIONS, "Sussex", "Cumbria - South"]
     region_order = {region: idx for idx, region in enumerate(review_region_order)}
     selection_status = str(r.get("selection_status", ""))
     region_rank = region_order.get(str(r.get("region", "")), 9999)
@@ -1985,6 +1987,8 @@ def _manual_review_preview_rows(
         *[(region, "POSSIBLE_SELECTION") for region in NORTH_EAST_DETAILED_REGIONS],
         ("Sussex", "SELECTED"),
         ("Sussex", "POSSIBLE_SELECTION"),
+        ("Cumbria - South", "SELECTED"),
+        ("Cumbria - South", "POSSIBLE_SELECTION"),
     ]
     for region, status in groups:
         group_rows = _markdown_review_rows(rows, region, status)
@@ -2032,6 +2036,8 @@ def write_manual_review_markdown(
         *[(f"{region.upper()} — POSSIBLES", region, "POSSIBLE_SELECTION", "POSS") for region in NORTH_EAST_DETAILED_REGIONS],
         ("SUSSEX — SELECTED", "Sussex", "SELECTED", "SELECTED"),
         ("SUSSEX — POSSIBLES", "Sussex", "POSSIBLE_SELECTION", "POSS"),
+        ("CUMBRIA SOUTH — SELECTED", "Cumbria - South", "SELECTED", "SELECTED"),
+        ("CUMBRIA SOUTH — POSSIBLES", "Cumbria - South", "POSSIBLE_SELECTION", "POSS"),
     ]
 
     for heading, region, status, decision_label in groups:
