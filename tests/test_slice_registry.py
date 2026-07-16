@@ -11,14 +11,14 @@ from slice_registry import load_slice_register, live_slices
 
 
 class SliceRegistryTests(unittest.TestCase):
-    def test_register_has_eight_live_and_seven_candidate_rows(self):
+    def test_register_has_nine_live_and_six_candidate_rows(self):
         records = load_slice_register()
         self.assertEqual(len(records), 15)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 8)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 7)
+        self.assertEqual(sum(row.status == "LIVE" for row in records), 9)
+        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 6)
         self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
 
-    def test_live_rows_include_london_and_sussex(self):
+    def test_live_rows_include_hampshire_london_and_sussex(self):
         self.assertEqual(
             live_slices(),
             {
@@ -26,6 +26,7 @@ class SliceRegistryTests(unittest.TestCase):
                 ("Yorkshire - South", "admin_service"),
                 ("North East", "admin_service"),
                 ("London", "admin_service"),
+                ("Hampshire", "admin_service"),
                 ("Yorkshire - West", "support_worker"),
                 ("Yorkshire - South", "support_worker"),
                 ("North East", "support_worker"),
