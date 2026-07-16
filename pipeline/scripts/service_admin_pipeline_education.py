@@ -77,15 +77,7 @@ def classify_title(
     title: str,
     title_register: dict[str, dict[str, str]] | None = None,
 ) -> tuple[str, str, int, str]:
-    """Classify education-sector office roles before the legacy school hard-pass.
-
-    Specialist/non-admin education functions remain hard passes, even when an
-    admin word also appears. Clear education-sector office functions become
-    HIGH_CONFIDENCE. Everything else delegates unchanged to the existing
-    classifier, preserving specialist, senior, register and review behaviour.
-    """
     clean_title = core.norm(title)
-
     specialist_hits = _matching_labels(clean_title, _NON_ADMIN_EDUCATION_PATTERNS)
     if specialist_hits:
         classification = "HARD_PASS"
@@ -95,7 +87,6 @@ def classify_title(
             core.CLASSIFICATION_PRIORITY[classification],
             "STABLE",
         )
-
     if _EDUCATION_SECTOR_RE.search(clean_title):
         admin_hits = _matching_labels(clean_title, _EDUCATION_ADMIN_FUNCTION_PATTERNS)
         if admin_hits:
@@ -106,15 +97,12 @@ def classify_title(
                 core.CLASSIFICATION_PRIORITY[classification],
                 "STABLE",
             )
-
     return _ORIGINAL_CLASSIFY_TITLE(title, title_register)
 
 
 def process(*args: Any, **kwargs: Any):
-    """Run normal eligibility first, then attach non-selecting hybrid metadata."""
     outputs, report_rows = _ORIGINAL_PROCESS(*args, **kwargs)
     metadata_by_job_id: dict[str, dict[str, str]] = {}
-
     for jobs in outputs.values():
         for item in jobs:
             metadata = classify_working_arrangement(
@@ -127,7 +115,6 @@ def process(*args: Any, **kwargs: Any):
             job_id = core.norm(item.get("job_id", ""))
             if job_id:
                 metadata_by_job_id[job_id] = metadata
-
     for row in report_rows:
         metadata = metadata_by_job_id.get(core.norm(row.get("job_id", "")))
         if metadata:
@@ -135,7 +122,6 @@ def process(*args: Any, **kwargs: Any):
         else:
             for field in _HYBRID_FIELDS:
                 row.setdefault(field, "")
-
     return outputs, report_rows
 
 
@@ -148,9 +134,12 @@ def decision_report_fieldnames() -> list[str]:
     return fields
 
 
-# process() resolves classify_title from the core module at runtime. Replacing
-# these globals keeps the rest of the 2,000+ line pipeline and all selection
-# rules unchanged while adding education handling and working metadata.
+# Add Hampshire through the existing core pipeline configuration. Geography and
+# anchor-town values still come from the authoritative geo workbook.
+core.REGION_MAP["hampshire"] = "Hampshire"
+core.OUTPUT_FILES["Hampshire"] = "hampshire-admin-service.json"
+core.PUBLISH_THRESHOLDS["Hampshire"] = 6
+
 core.classify_title = classify_title
 core.process = process
 core.decision_report_fieldnames = decision_report_fieldnames
