@@ -1,5 +1,5 @@
 ﻿region,cap,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,,10,5,1,4,0,,10,Leeds,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Yorkshire - West selection complete: 10 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-Yorkshire - South,,1,1,0,0,0,,1,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-North East,,11,1,2,8,4,,15,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 11 current-feed manual_select row(s) applied; 11 selected. Routine auto-selection disabled.
-Sussex,,17,12,0,5,0,,17,Brighton,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Sussex selection complete: 17 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+Yorkshire - West,,12,5,1,6,0,,12,Leeds,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Yorkshire - West selection complete: 12 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
+Yorkshire - South,,3,2,0,1,0,,3,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+North East,,8,1,2,5,11,,19,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Routine auto-selection disabled.
+Sussex,,18,12,0,6,0,,18,Brighton,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Sussex selection complete: 18 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
