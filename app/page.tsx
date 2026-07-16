@@ -2,10 +2,12 @@ import westYorkshireSupportWorkerJobs from './west-yorkshire/support-worker.json
 import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
 import sussexSupportWorkerJobs from './sussex/support-worker.json';
+import cumbriaSouthSupportWorkerJobs from './cumbria-south/support-worker.json';
 import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
 import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
 import londonServiceAdministratorJobs from './london/service-administrator-jobs.json';
+import hampshireServiceAdministratorJobs from './hampshire/service-administrator-jobs.json';
 
 type Job = {
   title?: string;
@@ -73,6 +75,10 @@ const popularSearches = [
     href: '/london/service-administrator-jobs',
   },
   {
+    label: 'Hampshire service administrator jobs',
+    href: '/hampshire/service-administrator-jobs',
+  },
+  {
     label: 'West Yorkshire support worker jobs',
     href: '/west-yorkshire/support-worker',
   },
@@ -87,6 +93,10 @@ const popularSearches = [
   {
     label: 'Sussex support worker jobs',
     href: '/sussex/support-worker',
+  },
+  {
+    label: 'South Cumbria support worker jobs',
+    href: '/cumbria-south/support-worker',
   },
   {
     label: 'Browse all jobs',
@@ -143,6 +153,12 @@ const supportWorkerSlices: SliceCard[] = [
     sliceUrl: '/sussex/support-worker',
     jobs: sussexSupportWorkerJobs,
   }),
+  createSupportWorkerSlice({
+    region: 'South Cumbria',
+    title: 'South Cumbria Support Worker Jobs',
+    sliceUrl: '/cumbria-south/support-worker',
+    jobs: cumbriaSouthSupportWorkerJobs,
+  }),
 ];
 
 const serviceAdministratorSlices: SliceCard[] = [
@@ -177,6 +193,14 @@ const serviceAdministratorSlices: SliceCard[] = [
     ctaText: 'View London jobs →',
     sliceUrl: '/london/service-administrator-jobs',
     jobs: londonServiceAdministratorJobs,
+  },
+  {
+    title: 'Hampshire Admin & Customer Service Jobs',
+    intro:
+      'Current admin, office and service roles across Hampshire.',
+    ctaText: 'View Hampshire jobs →',
+    sliceUrl: '/hampshire/service-administrator-jobs',
+    jobs: hampshireServiceAdministratorJobs,
   },
 ];
 
@@ -274,8 +298,8 @@ export default function Page() {
         </h1>
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
-          Current service administrator, office support and customer-service roles across London,
-          Yorkshire and the North East. Updated daily; apply directly on employer sites.
+          Current service administrator, office support and customer-service roles across Hampshire,
+          London, Yorkshire and the North East. Updated daily; apply directly on employer sites.
         </p>
 
         <section className="mb-5">
@@ -290,8 +314,8 @@ export default function Page() {
           <SliceCardGrid cards={supportWorkerSlices} />
 
           <p className="mt-2 text-xs text-gray-500">
-            Current support-worker roles are available in West Yorkshire, the North East and Sussex.
-            South Yorkshire remains available as a retained page while current supply is limited.
+            Current support-worker roles are available in West Yorkshire, the North East, Sussex and
+            South Cumbria. South Yorkshire remains available as a retained page while current supply is limited.
           </p>
         </section>
 
