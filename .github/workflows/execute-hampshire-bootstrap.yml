@@ -39,8 +39,8 @@ jobs:
           text = workflow_path.read_text(encoding='utf-8')
           text = text.replace(
               '          git rm .github/workflows/bootstrap-hampshire-slice.yml\n',
-              '          git rm .github/workflows/bootstrap-hampshire-slice.yml\n'
-              '          git rm .github/workflows/execute-hampshire-bootstrap.yml\n',
+              '          git rm -f .github/workflows/bootstrap-hampshire-slice.yml\n'
+              '          git rm -f .github/workflows/execute-hampshire-bootstrap.yml\n',
           )
           workflow_path.write_text(text, encoding='utf-8')
 
