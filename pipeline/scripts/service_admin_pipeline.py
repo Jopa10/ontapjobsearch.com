@@ -195,6 +195,7 @@ REGION_MAP = {
     "tees valley": "North East - Tees Valley",
     "north east": "North East",
     "london": "London",
+    "hampshire": "Hampshire",
 }
 
 COMBINED_OUTPUT_REGION_MAP = {
@@ -208,6 +209,7 @@ OUTPUT_FILES = {
     "Yorkshire - South": "south-yorkshire-admin-service.json",
     "North East": "north-east-admin-service.json",
     "London": "london-admin-service.json",
+    "Hampshire": "hampshire-admin-service.json",
 }
 # Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
 # No hard-coded fallback: missing or invalid configuration stops the pipeline.
@@ -217,6 +219,7 @@ PUBLISH_THRESHOLDS = {
     "Yorkshire - South": 6,
     "North East": 6,
     "London": 6,
+    "Hampshire": 6,
 }
 
 CLASSIFICATION_PRIORITY = {
@@ -1991,28 +1994,37 @@ def _manual_review_preview_rows(
     rows: list[dict[str, Any]],
     preserved_action_rows: list[dict[str, str]] | None = None,
 ) -> list[dict[str, Any]]:
-    """Return compact selected/possible preview rows, keeping actioned rows visible."""
-    # Do not append historical action rows: the review CSV must reflect only
-    # selected/possible jobs present in today's feed.
+    """Return compact selected/possible rows plus active actions still in today's report."""
     preview_rows: list[dict[str, Any]] = []
     preview_job_ids: set[str] = set()
     groups = [
-        ("Yorkshire - West", "SELECTED"),
-        ("Yorkshire - West", "POSSIBLE_SELECTION"),
-        ("Yorkshire - South", "SELECTED"),
-        ("Yorkshire - South", "POSSIBLE_SELECTION"),
+        ("West Yorkshire", "SELECTED"),
+        ("West Yorkshire", "POSSIBLE_SELECTION"),
+        ("South Yorkshire", "SELECTED"),
+        ("South Yorkshire", "POSSIBLE_SELECTION"),
         ("North East", "SELECTED"),
         ("North East", "POSSIBLE_SELECTION"),
-        ("London", "SELECTED"),
-        ("London", "POSSIBLE_SELECTION"),
+        ("Hampshire", "SELECTED"),
+        ("Hampshire", "POSSIBLE_SELECTION"),
     ]
     for region, status in groups:
-        group_rows = _markdown_review_rows(rows, region, status)
-        for row in group_rows:
+        for row in _markdown_review_rows(rows, region, status):
             job_id = _markdown_value(row.get("job_id"))
             if job_id and job_id not in preview_job_ids:
                 preview_rows.append(row)
                 preview_job_ids.add(job_id)
+
+    active_action_ids = {
+        _markdown_value(row.get("job_id"))
+        for row in (preserved_action_rows or [])
+        if _markdown_value(row.get("manual_override")).upper() == "FORCE_EXCLUDE"
+        or _markdown_value(row.get("manual_select")).upper() in {"1", "SELECT"}
+    }
+    for row in rows:
+        job_id = _markdown_value(row.get("job_id"))
+        if job_id in active_action_ids and job_id not in preview_job_ids:
+            preview_rows.append(row)
+            preview_job_ids.add(job_id)
     return preview_rows
 
 
@@ -2084,6 +2096,36 @@ def write_manual_review_markdown(
             lines.extend([
                 "---",
                 f"action: {action}" if action else "action:",
+                summary,
+                f"job_id: {job_id}",
+                "---",
+                "",
+            ])
+
+    active_action_rows = []
+    for row in rows:
+        job_id = _markdown_value(row.get("job_id"))
+        action = preserved_actions.get(job_id, "")
+        if action in {"select", "exclude"} and job_id not in emitted_job_ids:
+            active_action_rows.append((row, action))
+            emitted_job_ids.add(job_id)
+
+    lines.extend(["## ACTIVE MANUAL ACTIONS", ""])
+    if not active_action_rows:
+        lines.extend(["_No active manual actions outside the selected/possible groups._", ""])
+    else:
+        for row, action in active_action_rows:
+            job_id = _markdown_value(row.get("job_id"))
+            summary = " | ".join([
+                _markdown_value(row.get("decision")),
+                _markdown_value(row.get("region")),
+                _markdown_value(row.get("town")),
+                _markdown_value(row.get("salary_text")),
+                _markdown_value(row.get("title")),
+            ])
+            lines.extend([
+                "---",
+                f"action: {action}",
                 summary,
                 f"job_id: {job_id}",
                 "---",
