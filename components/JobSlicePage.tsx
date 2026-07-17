@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import Link from "next/link";
 import TrainingLink from "@/components/traininglink";
 import ApplyButton from "@/components/ApplyButton";
 import WorkingArrangementBadge from "@/components/WorkingArrangementBadge";
+import { getJobPath } from "@/lib/published-jobs";
 import styles from "@/components/JobSlicePage.module.css";
 
 type JobRow = {
@@ -192,15 +194,6 @@ function getSummary(job: JobRow) {
   return truncateAtWord(collapsed, 220);
 }
 
-function getFullDescription(job: JobRow) {
-  const source = job.full_description || job.description || "";
-  const cleanedDescription = stripHtml(source);
-
-  if (!cleanedDescription) return "";
-
-  return cleanedDescription;
-}
-
 const careTraining: TrainingItem[] = [
   {
     title: "Care Certificate Online Course",
@@ -320,7 +313,6 @@ export default function JobSlicePage({
 
             {jobs.map((j, idx) => {
               const summary = getSummary(j);
-              const fullDescription = getFullDescription(j);
 
               return (
                 <div
@@ -373,28 +365,16 @@ export default function JobSlicePage({
                     </div>
                   ) : null}
 
-                  <details>
-                    <summary
-                      style={{
-                        fontSize: 13,
-                        color: "#2563eb",
-                        cursor: "pointer",
-                      }}
-                    >
-                      View full job description
-                    </summary>
-
-                    <div
-                      style={{
-                        marginTop: 8,
-                        fontSize: 14,
-                        whiteSpace: "pre-line",
-                        lineHeight: 1.5,
-                      }}
-                    >
-                      {fullDescription}
-                    </div>
-                  </details>
+                  <Link
+                    href={getJobPath(j.job_id)}
+                    style={{
+                      fontSize: 13,
+                      color: "#2563eb",
+                      textDecoration: "none",
+                    }}
+                  >
+                    View full job description →
+                  </Link>
 
                   <div style={{ marginTop: 12 }}>
                     <ApplyButton
