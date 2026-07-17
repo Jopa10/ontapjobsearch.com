@@ -8,6 +8,7 @@ import json
 import os
 import tempfile
 from dataclasses import dataclass
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -86,6 +87,40 @@ def validate_destination_path(path: Path) -> None:
         raise ValueError("destination file does not exist")
 
 
+def add_stable_posted_dates(
+    source_data: list[dict[str, Any]],
+    destination_data: list[dict[str, Any]],
+    *,
+    publication_date: str,
+) -> list[dict[str, Any]]:
+    """Use the feed date when present, otherwise preserve Ontap's first publication date."""
+    previous_dates = {
+        row["job_id"].strip(): row["posted_date"].strip()
+        for row in destination_data
+        if isinstance(row, dict)
+        and usable_text(row.get("job_id"))
+        and usable_text(row.get("posted_date"))
+    }
+
+    result: list[dict[str, Any]] = []
+    for source_row in source_data:
+        row = dict(source_row)
+        if usable_text(row.get("posted_date")):
+            value = row["posted_date"].strip()
+            for date_format in ("%d/%m/%Y", "%d-%m-%Y"):
+                try:
+                    value = datetime.strptime(value, date_format).date().isoformat()
+                    break
+                except ValueError:
+                    pass
+            row["posted_date"] = value
+        else:
+            job_id = row["job_id"].strip()
+            row["posted_date"] = previous_dates.get(job_id, publication_date)
+        result.append(row)
+    return result
+
+
 def atomic_write(path: Path, content: str) -> None:
     fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:
@@ -105,6 +140,7 @@ def publish_one(
     write: bool,
     active_slices: set[tuple[str, str]],
     root: Path = REPO_ROOT,
+    publication_date: str | None = None,
 ) -> dict[str, Any]:
     source = root / mapping.source
     destination = root / mapping.destination
@@ -133,6 +169,12 @@ def publish_one(
         if not source_data:
             result.update(status="skipped", reason="source selected zero jobs; live destination left unchanged")
             return result
+
+        source_data = add_stable_posted_dates(
+            source_data,
+            destination_data,
+            publication_date=publication_date or date.today().isoformat(),
+        )
 
         source_canonical = canonical_json(source_data)
         if canonical_json(destination_data) == source_canonical:
