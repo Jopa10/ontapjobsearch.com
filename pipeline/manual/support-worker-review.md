@@ -52,31 +52,31 @@ job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 ---
 
 ---
-action:
+action: exclude
 SELECTED | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
 ---
 
 ---
-action:
+action: select
 SELECTED | Yorkshire - West | Huddersfield | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
 job_id: 1401783851
 ---
 
 ---
-action:
+action: select
 SELECTED | Yorkshire - West | Leeds | £90 - £95 per daily | Complex Needs Support Worker
 job_id: d2b6bed8-4c47-4afe-a6e7-f653868515a2
 ---
 
 ---
-action:
+action: slect
 SELECTED | Yorkshire - West | Pontefract | £90 - £95 per daily | Complex Needs Support Worker
 job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 ---
 
 ---
-action:
+action: select
 SELECTED | Yorkshire - West | Bradford | £12.85 per hour | Relief Support Worker
 job_id: ca94f2ef-9003-4685-ad93-7271c45f7edf
 ---
@@ -210,7 +210,7 @@ job_id: aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour | Relief Support Worker
 job_id: af82616a-b889-4ed7-9bf5-ac1d54110402
 ---
@@ -224,7 +224,7 @@ job_id: 107501464
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £14.85 per hour | Children's Outreach Support Worker (Learning Disabilities)
 job_id: ba8e0ae5-050c-4969-b34e-fc3c6489b496
 ---
