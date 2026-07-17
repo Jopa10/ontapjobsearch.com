@@ -132,7 +132,7 @@ job_id: c3e3d71e-1da2-4dd2-a6de-95231279aca4
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £27000 - £32000 per year | Financial Planning Administrator
 job_id: b03765bd-1521-498a-8040-958c3eabf6b0
 ---
@@ -144,7 +144,7 @@ job_id: b292ec3f-453b-4e00-b6ff-2456374c6000
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £24000 - £25000 per year | Customer / Sales Administrator - Multiple applicants
 job_id: a2f5fb7f-1942-41c5-aa97-240edc543fd1
 ---
@@ -156,31 +156,31 @@ job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £12.71 per hour | Dental Receptionist
 job_id: c426ec2b-0dd0-4467-b606-598c0c2ece94
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £13.69 per hour | Business Support Officer
 job_id: ae8b96b9-a0e7-47a7-ba6e-d75116aa2d0c
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Elland | £25000 - £26000 per year | Sales & Office Administrator
 job_id: af49287d-a0e2-48d4-bfad-e89e9c2137ee
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Elland |  | Breakdown Administrator (Weekends)
 job_id: a9053bb0-4c72-4080-a817-eee75d822de2
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Keighley | £13.33 - £13.85 per hour | Data Administrator
 job_id: af178fc4-f738-4009-80f8-5cc73b7fbe60
 ---
@@ -286,13 +286,13 @@ job_id: c070da9b-7c14-459a-96a4-debea832921a
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £25977 per year | Finance Administrator
 job_id: aa1fd782-248b-4fcd-aa69-4899a7cb89d6
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £13.69 per hour | Senior Business Support Officer - Travel Assessment Team - Local Authority
 job_id: a5e99a12-62d4-427c-a3a3-af869a5cb2ea
 ---
@@ -304,7 +304,7 @@ job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Rotherham | £26000 - £29000 per year | Customer Service Admin
 job_id: b6d59678-9609-4c19-acf3-5559db81c9e9
 ---
@@ -374,13 +374,13 @@ job_id: b8837c50-15c8-4606-a98d-94f9bd1d61f6
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £13 per hour | Temporary Part-Time Administrator Gosforth
 job_id: b4f34caf-8e57-4de7-b837-f8ab75aebf4a
 ---
 
 ---
-action:
+action: 
 POSS - NORTH EAST | North East | Darlington | £26000 per year | HR Administrator
 job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 ---
@@ -410,7 +410,7 @@ job_id: fc9457d9-ae8b-4a32-bbb4-e4002a2d1908
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Gateshead | £28000 per year | Operations & Business Support Administrator
 job_id: bd6d89e4-4f92-4798-adf4-297ad06f9bb2
 ---
@@ -422,7 +422,7 @@ job_id: c7a9ec69-dbbc-406b-bc5c-c86785dc0028
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Washington | £14.17 per hour | Administrator
 job_id: c608da02-0232-4069-88e0-8c9d476a2ab9
 ---
@@ -798,7 +798,7 @@ job_id: dd3899a7-f107-4bb0-a36e-0544ab305814
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London |  | Receptionist
 job_id: d6454bc0-085c-4bdb-a470-75f2ed158c4c
 ---
@@ -810,7 +810,7 @@ job_id: d5ef6d55-f983-40be-ab64-3e1b91fadad3
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 per year | Secretary
 job_id: d301bdd5-5c16-4b18-aab4-0b62c66574b6
 ---
@@ -828,13 +828,13 @@ job_id: d0e14838-6e74-4159-8a2e-f6e860e6de2f
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £15 - £17 per hour | School Receptionist
 job_id: f56c816f-17cd-4687-9780-f0e320022607
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £35000 per year | Administrator
 job_id: f9c2aa72-ad63-4de1-a0b4-59d6f3d6f6f8
 ---
@@ -852,7 +852,7 @@ job_id: c5622bf9-170a-413f-9552-6cece8b1654e
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £28000 - £32000 per year | Administrator
 job_id: c3604fba-2d21-4f0b-b8c6-60e55981f0ad
 ---
@@ -870,13 +870,13 @@ job_id: c200d2f2-a7d0-4dcc-b32a-cceb1b0188cf
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £36000 per year | Billing Administrator
 job_id: c028b2f9-ffb7-4fbc-a2df-8e542d13acdd
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £28000 - £30000 per year | Sales and Operations Administrator
 job_id: bcf39daa-2626-4711-a2b0-d49204af6df7
 ---
@@ -888,7 +888,7 @@ job_id: bc1b8e05-397f-4cf5-b8a6-3dced5216d0f
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £35000 per year | Secretary/Receptionist
 job_id: b8e6203a-6935-4c48-aad1-a9db5326b5aa
 ---
@@ -906,13 +906,13 @@ job_id: b4ec1a2c-dc26-4a5b-a5dc-5699341bc6dc
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £25000 - £27000 per year | Administrative Assistant
 job_id: b4184cb3-87d8-43fc-953f-73e8379b5b5e
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £34000 - £36000 per year | Receptionist - Full time - West End
 job_id: b3c7ca56-7031-4b79-acc4-204cd8fdfd5e
 ---
@@ -924,7 +924,7 @@ job_id: af9dc98f-624b-4f28-9113-cb1f1a9f886c
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £26000 - £30000 per year | Office Assistant
 job_id: a9bf0396-642b-4570-8e33-c4d4a1203521
 ---
@@ -954,7 +954,7 @@ job_id: a3933ff5-36a0-445a-bf43-3d8c00c53cac
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £35000 per year | Receptionist & Office Assistant
 job_id: 9fee675f-70ef-4a29-a99b-c733847f0374
 ---
@@ -1002,7 +1002,7 @@ job_id: 107649502
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £28000 - £35000 per year | Care Coordinator
 job_id: f9f87ff6-84cf-43ac-bd6b-70599a386639
 ---
