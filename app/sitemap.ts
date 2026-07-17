@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { getJobPath, getPublishedJobs } from '@/lib/published-jobs'
 
 const siteUrl = 'https://www.ontapjobsearch.com'
 
@@ -23,8 +24,14 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date()
 
-  return routes.map((route) => ({
+  const staticPages = routes.map((route) => ({
     url: `${siteUrl}${route}`,
     lastModified,
   }))
+
+  const jobPages = getPublishedJobs().map((job) => ({
+    url: `${siteUrl}${getJobPath(job.job_id)}`,
+  }))
+
+  return [...staticPages, ...jobPages]
 }
