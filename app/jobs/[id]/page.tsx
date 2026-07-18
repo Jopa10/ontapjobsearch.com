@@ -132,12 +132,22 @@ export default async function JobPage({ params }: PageProps) {
         />
       ) : null}
 
-      <nav style={{ fontSize: 13, marginBottom: 18, color: "#6b7280" }}>
-        <Link href="/browse-jobs" style={{ color: "#2563eb" }}>
-          Browse jobs
+      <nav aria-label="Back to job listings" style={{ marginBottom: 18 }}>
+        <Link
+          href={job.slice_path}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 7,
+            color: "#1d4ed8",
+            fontSize: 16,
+            fontWeight: 700,
+            textDecoration: "none",
+          }}
+        >
+          <span aria-hidden="true">←</span>
+          <span>Back to {job.slice_label}</span>
         </Link>
-        <span aria-hidden="true"> / </span>
-        <span>{job.title}</span>
       </nav>
 
       <article
@@ -187,6 +197,24 @@ export default async function JobPage({ params }: PageProps) {
             title={job.title}
             location={job.location}
           />
+        </div>
+
+        <div style={{ marginTop: 20, paddingTop: 18, borderTop: "1px solid #e5e7eb" }}>
+          <Link
+            href={job.slice_path}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 7,
+              color: "#1d4ed8",
+              fontSize: 16,
+              fontWeight: 700,
+              textDecoration: "none",
+            }}
+          >
+            <span aria-hidden="true">←</span>
+            <span>Back to {job.slice_label}</span>
+          </Link>
         </div>
       </article>
     </div>
