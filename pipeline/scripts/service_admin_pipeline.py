@@ -198,10 +198,11 @@ REGION_MAP = {
     "hampshire": "Hampshire",
 }
 
+# Detailed clusters that roll up into the combined public North East page.
+# Tees Valley stays mapped separately in REGION_MAP for possible future use.
 COMBINED_OUTPUT_REGION_MAP = {
     "North East - Tyneside, Wearside & Northumberland": "North East",
     "North East - County Durham & Darlington/Hartlepool": "North East",
-    "North East - Tees Valley": "North East",
 }
 
 OUTPUT_FILES = {
