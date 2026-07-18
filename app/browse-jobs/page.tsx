@@ -200,7 +200,7 @@ export default function Page() {
 
             {section.featuredCards ? (
               <div className="mt-3 rounded-xl border border-gray-200 bg-gray-50 p-3">
-                <div className="mb-3 border-b border-gray-200 pb-2 text-sm font-semibold text-gray-600">
+                <div className="mb-3 border-b border-gray-200 pb-2 text-center text-sm font-semibold text-gray-600">
                   London admin & customer-service jobs
                 </div>
                 <div className="grid gap-3 md:grid-cols-2">
