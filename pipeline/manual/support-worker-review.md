@@ -55,6 +55,12 @@ job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 
 ---
 action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107616819
+---
+
+---
+action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Holmfirth | £13.75 per hour | Bank Support Worker
 job_id: 1401783630
 ---
@@ -87,12 +93,6 @@ job_id: c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster | £12.85 per hour | Female Support Worker
-job_id: e32d4cc9-0255-4ab4-88ff-95c8b5bbae38
----
-
----
-action:
 SELECTED | Yorkshire - South | Doncaster | £12.85 per hour | Relief Support Worker
 job_id: dedf05f4-9dec-4b6a-b8c5-342496f8deba
 ---
@@ -101,6 +101,24 @@ job_id: dedf05f4-9dec-4b6a-b8c5-342496f8deba
 action:
 SELECTED | Yorkshire - South | Doncaster | £12.85 per hour | Support Worker
 job_id: b5ac469f-15a9-4c54-97f2-b2a0b67bebdc
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Barnsley | £18.35 per hour | Family Support Worker - Barnsley
+job_id: 93a659b4-21d0-4e06-85fd-703137369524
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Rotherham | £13.05 per hour | Support Worker - Elderly Adults
+job_id: 7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £12.85 per hour | Waking Night Support Worker
+job_id: 7b6cf00b-f568-4a73-a73b-963fc4b20e26
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -119,12 +137,6 @@ job_id: 107617093
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
 job_id: 107616541
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Support Worker
-job_id: ff58481f-aad3-4f2d-8084-bbbb9dd64f0c
 ---
 
 ---
@@ -229,8 +241,20 @@ job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 
 ---
 action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £22.5 per hour | Children and Young Person's Support Worker
+job_id: 9ed3947e-ae04-40a4-99b7-72e52e4abc88
+---
+
+---
+action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Support Worker
 job_id: b909b59a-2804-4b0c-a15e-bf5b74a59db0
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13.15 per hour | Female Support Worker
+job_id: 9a8ce501-2608-4cea-8d23-991e3a045247
 ---
 
 ---
@@ -243,6 +267,12 @@ job_id: bab161e8-749f-4c78-a3d7-164cd23a3308
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Ferryhill | £15 per hour | Female Support Worker
 job_id: b7840ef4-1093-4ad9-8984-e88d1a01242c
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
+job_id: 98cda2a5-886d-4473-a300-ed52b21dd240
 ---
 
 ---
@@ -265,14 +295,32 @@ job_id: cd3894a1-69a8-4a34-9958-51dd5b5a95f4
 
 ---
 action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.58 per hour | Care Assistant - Bank - Care Home
+job_id: 8cf94350-e0e1-4c8b-b57d-afa66139d419
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13.91 per hour | Care Assistant - Complex Care
+job_id: 8c2bc592-cdc7-44b0-ac0e-a1d053add964
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Bank Support Worker
+job_id: 828e85e8-bc5c-4940-ab8c-465ede281493
+---
+
+---
+action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
 job_id: bef21be3-da1e-45e3-b5f3-40683d5be526
 ---
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107636018
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £15.5 - £20 per hour | Children and Young People Support Worker
+job_id: 96b7d446-8e01-4198-90bc-dc4c5427960c
 ---
 
 ## NORTH EAST - TEES VALLEY — POSSIBLES
@@ -293,6 +341,12 @@ job_id: f8639c60-fd66-4dfb-a129-d0bda058fedd
 action:
 POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Redcar | £29350 per year | Complex care assistant
 job_id: 107616888
+---
+
+---
+action:
+POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Relief Support Worker
+job_id: 8dfb0b02-78a2-478d-bfa5-e66b167f4eb6
 ---
 
 ## SUSSEX — SELECTED
@@ -365,12 +419,6 @@ job_id: d491ad80-3d80-4f29-870c-be4e4b22d42b
 
 ---
 action:
-SELECTED | Sussex | Brighton | £15 - £18 per hour | Personal Assistant
-job_id: d27b754c-0bac-4e78-a5e1-3d9e84a77636
----
-
----
-action:
 SELECTED | Sussex | Bognor Regis | £13.49 per hour | Support Worker
 job_id: d190e506-a8f8-4d6f-a0f2-1edef5b6612f
 ---
@@ -379,12 +427,6 @@ job_id: d190e506-a8f8-4d6f-a0f2-1edef5b6612f
 action:
 SELECTED | Sussex | Lewes | £29390.4 - £30056 per year (+ £60 per sleep-in)) | Residential Support Worker
 job_id: 1401783835
----
-
----
-action:
-SELECTED | Sussex | Horsham | £14.8 per hour | Night Care Assistant - Bank
-job_id: c2f5cd48-3e30-45bb-b26a-2390d356999e
 ---
 
 ---
@@ -421,6 +463,30 @@ job_id: a42a1600-795b-470d-b7a3-7d1af79a1fd6
 action:
 SELECTED | Sussex | Burgess Hill | £13.45 per hour | Support Worker
 job_id: a0917af0-ae11-4cae-b8ed-0c42eb8594a8
+---
+
+---
+action:
+SELECTED | Sussex | Bognor Regis | £16 per hour | Waking Night Support Worker Children's Residential £16.00 per hour Bognor Regis
+job_id: 9b554a1e-8704-4ffe-819e-ebddfb18a9fe
+---
+
+---
+action:
+SELECTED | Sussex | Horsham | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 9ab8651c-8d51-417d-8fa8-7995487cdcaf
+---
+
+---
+action:
+SELECTED | Sussex | Shoreham-by-sea | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 9820a840-95ba-4d0f-9ac4-10003dc0fa12
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £15 - £17 per hour | Support Worker
+job_id: 86901b4e-c38e-4356-bcdf-438123d57b3d
 ---
 
 ## SUSSEX — POSSIBLES
