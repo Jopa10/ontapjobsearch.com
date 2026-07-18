@@ -12,11 +12,17 @@ type BrowseCard = {
   statusClassName: string;
 };
 
+type BrowseCardGroup = {
+  label: string;
+  cards: BrowseCard[];
+};
+
 type BrowseSection = {
   heading: string;
   intro: string;
-  featuredCards?: BrowseCard[];
   cards: BrowseCard[];
+  groups?: BrowseCardGroup[];
+  trailingCards?: BrowseCard[];
 };
 
 const activeStatusClassName = 'border-green-200 bg-green-50 text-green-700';
@@ -63,38 +69,12 @@ const jobSections: BrowseSection[] = [
   {
     heading: 'Active admin, service administrator and customer-service jobs',
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
-    featuredCards: [
-      {
-        title: 'Central & Inner London Admin & Cust. Service Jobs',
-        href: '/london/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Central and Inner London.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
-      },
-      {
-        title: 'Outer London Admin & Cust. Service Jobs',
-        href: '/london/outer-service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Outer London.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
-      },
-    ],
     cards: [
       {
-        title: 'West Yorkshire Admin & Customer Service Jobs',
-        href: '/west-yorkshire/service-administrator-jobs',
+        title: 'Hampshire Admin & Customer Service Jobs',
+        href: '/hampshire/service-administrator-jobs',
         description:
-          'Service administrator, customer service administrator and office support roles across Leeds and West Yorkshire.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
-      },
-      {
-        title: 'South Yorkshire Admin & Customer Service Jobs',
-        href: '/south-yorkshire/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Sheffield and South Yorkshire.',
+          'Service administrator, customer service administrator and office support roles across Hampshire.',
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
@@ -106,13 +86,49 @@ const jobSections: BrowseSection[] = [
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
+    ],
+    groups: [
       {
-        title: 'Hampshire Admin & Customer Service Jobs',
-        href: '/hampshire/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Hampshire.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
+        label: 'Yorkshire admin & customer-service jobs',
+        cards: [
+          {
+            title: 'West Yorkshire Admin & Customer Service Jobs',
+            href: '/west-yorkshire/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Leeds and West Yorkshire.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+          {
+            title: 'South Yorkshire Admin & Customer Service Jobs',
+            href: '/south-yorkshire/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Sheffield and South Yorkshire.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+        ],
+      },
+      {
+        label: 'London admin & customer-service jobs',
+        cards: [
+          {
+            title: 'Central & Inner London Admin & Cust. Service Jobs',
+            href: '/london/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Central and Inner London.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+          {
+            title: 'Outer London Admin & Cust. Service Jobs',
+            href: '/london/outer-service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Outer London.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+        ],
       },
     ],
   },
@@ -121,16 +137,6 @@ const jobSections: BrowseSection[] = [
     intro:
       'Current support-worker pages are listed below. Individual pages show whether supply is active or temporarily limited.',
     cards: [
-      {
-        title: 'West Yorkshire Support Worker Jobs',
-        href: '/west-yorkshire/support-worker',
-        ...westYorkshireSupportWorkerStatus,
-      },
-      {
-        title: 'South Yorkshire Support Worker Jobs',
-        href: '/south-yorkshire/support-worker',
-        ...southYorkshireSupportWorkerStatus,
-      },
       {
         title: 'North East Support Worker Jobs',
         href: '/north-east/support-worker',
@@ -141,6 +147,25 @@ const jobSections: BrowseSection[] = [
         href: '/sussex/support-worker',
         ...sussexSupportWorkerStatus,
       },
+    ],
+    groups: [
+      {
+        label: 'Yorkshire support-worker jobs',
+        cards: [
+          {
+            title: 'West Yorkshire Support Worker Jobs',
+            href: '/west-yorkshire/support-worker',
+            ...westYorkshireSupportWorkerStatus,
+          },
+          {
+            title: 'South Yorkshire Support Worker Jobs',
+            href: '/south-yorkshire/support-worker',
+            ...southYorkshireSupportWorkerStatus,
+          },
+        ],
+      },
+    ],
+    trailingCards: [
       {
         title: 'South Cumbria Support Worker Jobs',
         href: '/cumbria-south/support-worker',
@@ -198,16 +223,27 @@ export default function Page() {
               ))}
             </div>
 
-            {section.featuredCards ? (
-              <div className="mt-3 rounded-xl border border-gray-200 bg-gray-50 p-3">
+            {section.groups?.map((group) => (
+              <div
+                key={group.label}
+                className="mt-3 rounded-xl border border-gray-200 bg-gray-50 p-3"
+              >
                 <div className="mb-3 border-b border-gray-200 pb-2 text-center text-sm font-semibold text-gray-600">
-                  London admin & customer-service jobs
+                  {group.label}
                 </div>
                 <div className="grid gap-3 md:grid-cols-2">
-                  {section.featuredCards.map((card) => (
+                  {group.cards.map((card) => (
                     <BrowseCardLink key={card.href} card={card} />
                   ))}
                 </div>
+              </div>
+            ))}
+
+            {section.trailingCards ? (
+              <div className="mt-3 grid gap-3 md:grid-cols-2">
+                {section.trailingCards.map((card) => (
+                  <BrowseCardLink key={card.href} card={card} />
+                ))}
               </div>
             ) : null}
           </section>
