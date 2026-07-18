@@ -192,9 +192,15 @@ export default function Page() {
               <p className="mt-1 text-sm text-gray-600">{section.intro}</p>
             </div>
 
+            <div className="grid gap-3 md:grid-cols-2">
+              {section.cards.map((card) => (
+                <BrowseCardLink key={card.href} card={card} />
+              ))}
+            </div>
+
             {section.featuredCards ? (
-              <div className="mb-3 rounded-xl border border-blue-200 bg-blue-50 p-3">
-                <div className="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-sm font-semibold text-white">
+              <div className="mt-3 rounded-xl border border-gray-200 bg-gray-50 p-3">
+                <div className="mb-3 border-b border-gray-200 pb-2 text-sm font-semibold text-gray-600">
                   London admin & customer-service jobs
                 </div>
                 <div className="grid gap-3 md:grid-cols-2">
@@ -204,12 +210,6 @@ export default function Page() {
                 </div>
               </div>
             ) : null}
-
-            <div className="grid gap-3 md:grid-cols-2">
-              {section.cards.map((card) => (
-                <BrowseCardLink key={card.href} card={card} />
-              ))}
-            </div>
           </section>
         ))}
       </div>
