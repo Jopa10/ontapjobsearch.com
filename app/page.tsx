@@ -140,19 +140,7 @@ function createSupportWorkerSlice({
   };
 }
 
-const supportWorkerSlices: SliceCard[] = [
-  createSupportWorkerSlice({
-    region: 'West Yorkshire',
-    title: 'West Yorkshire Support Worker Jobs',
-    sliceUrl: '/west-yorkshire/support-worker',
-    jobs: westYorkshireSupportWorkerJobs,
-  }),
-  createSupportWorkerSlice({
-    region: 'South Yorkshire',
-    title: 'South Yorkshire Support Worker Jobs',
-    sliceUrl: '/south-yorkshire/support-worker',
-    jobs: southYorkshireSupportWorkerJobs,
-  }),
+const leadingSupportWorkerSlices: SliceCard[] = [
   createSupportWorkerSlice({
     region: 'North East',
     title: 'North East Support Worker Jobs',
@@ -165,12 +153,47 @@ const supportWorkerSlices: SliceCard[] = [
     sliceUrl: '/sussex/support-worker',
     jobs: sussexSupportWorkerJobs,
   }),
+];
+
+const yorkshireSupportWorkerSlices: SliceCard[] = [
+  createSupportWorkerSlice({
+    region: 'West Yorkshire',
+    title: 'West Yorkshire Support Worker Jobs',
+    sliceUrl: '/west-yorkshire/support-worker',
+    jobs: westYorkshireSupportWorkerJobs,
+  }),
+  createSupportWorkerSlice({
+    region: 'South Yorkshire',
+    title: 'South Yorkshire Support Worker Jobs',
+    sliceUrl: '/south-yorkshire/support-worker',
+    jobs: southYorkshireSupportWorkerJobs,
+  }),
+];
+
+const trailingSupportWorkerSlices: SliceCard[] = [
   createSupportWorkerSlice({
     region: 'South Cumbria',
     title: 'South Cumbria Support Worker Jobs',
     sliceUrl: '/cumbria-south/support-worker',
     jobs: cumbriaSouthSupportWorkerJobs,
   }),
+];
+
+const yorkshireServiceAdministratorSlices: SliceCard[] = [
+  {
+    title: 'West Yorkshire Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across West Yorkshire.',
+    ctaText: 'View West Yorkshire jobs →',
+    sliceUrl: '/west-yorkshire/service-administrator-jobs',
+    jobs: westYorkshireServiceAdministratorJobs,
+  },
+  {
+    title: 'South Yorkshire Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across South Yorkshire.',
+    ctaText: 'View South Yorkshire jobs →',
+    sliceUrl: '/south-yorkshire/service-administrator-jobs',
+    jobs: southYorkshireServiceAdministratorJobs,
+  },
 ];
 
 const londonServiceAdministratorSlices: SliceCard[] = [
@@ -192,18 +215,11 @@ const londonServiceAdministratorSlices: SliceCard[] = [
 
 const serviceAdministratorSlices: SliceCard[] = [
   {
-    title: 'West Yorkshire Admin & Customer Service Jobs',
-    intro: 'Current admin, office and service roles across West Yorkshire.',
-    ctaText: 'View West Yorkshire jobs →',
-    sliceUrl: '/west-yorkshire/service-administrator-jobs',
-    jobs: westYorkshireServiceAdministratorJobs,
-  },
-  {
-    title: 'South Yorkshire Admin & Customer Service Jobs',
-    intro: 'Current admin, office and service roles across South Yorkshire.',
-    ctaText: 'View South Yorkshire jobs →',
-    sliceUrl: '/south-yorkshire/service-administrator-jobs',
-    jobs: southYorkshireServiceAdministratorJobs,
+    title: 'Hampshire Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across Hampshire.',
+    ctaText: 'View Hampshire jobs →',
+    sliceUrl: '/hampshire/service-administrator-jobs',
+    jobs: hampshireServiceAdministratorJobs,
   },
   {
     title: 'North East Admin & Customer Service Jobs',
@@ -211,13 +227,6 @@ const serviceAdministratorSlices: SliceCard[] = [
     ctaText: 'View North East jobs →',
     sliceUrl: '/north-east/service-administrator-jobs',
     jobs: northEastServiceAdministratorJobs,
-  },
-  {
-    title: 'Hampshire Admin & Customer Service Jobs',
-    intro: 'Current admin, office and service roles across Hampshire.',
-    ctaText: 'View Hampshire jobs →',
-    sliceUrl: '/hampshire/service-administrator-jobs',
-    jobs: hampshireServiceAdministratorJobs,
   },
 ];
 
@@ -259,13 +268,13 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
   );
 }
 
-function LondonSliceGroup() {
+function RegionalSliceGroup({ label, cards }: { label: string; cards: SliceCard[] }) {
   return (
     <div className="rounded-xl border border-gray-200 bg-gray-50 p-3">
       <div className="mb-3 border-b border-gray-200 pb-2 text-center text-sm font-semibold text-gray-600">
-        London admin & customer-service jobs
+        {label}
       </div>
-      <SliceCardGrid cards={londonServiceAdministratorSlices} />
+      <SliceCardGrid cards={cards} />
     </div>
   );
 }
@@ -338,13 +347,31 @@ export default function Page() {
             <SliceCardGrid cards={serviceAdministratorSlices} />
           </div>
           <div className="mt-3">
-            <LondonSliceGroup />
+            <RegionalSliceGroup
+              label="Yorkshire admin & customer-service jobs"
+              cards={yorkshireServiceAdministratorSlices}
+            />
+          </div>
+          <div className="mt-3">
+            <RegionalSliceGroup
+              label="London admin & customer-service jobs"
+              cards={londonServiceAdministratorSlices}
+            />
           </div>
         </section>
 
         <section className="mt-12">
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">Support worker jobs</h2>
-          <SliceCardGrid cards={supportWorkerSlices} />
+          <SliceCardGrid cards={leadingSupportWorkerSlices} />
+          <div className="mt-3">
+            <RegionalSliceGroup
+              label="Yorkshire support-worker jobs"
+              cards={yorkshireSupportWorkerSlices}
+            />
+          </div>
+          <div className="mt-3">
+            <SliceCardGrid cards={trailingSupportWorkerSlices} />
+          </div>
 
           <p className="mt-2 text-xs text-gray-500">
             Current support-worker roles are available in West Yorkshire, the North East, Sussex and
