@@ -8,6 +8,7 @@ import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-ad
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
 import londonServiceAdministratorJobs from './london/service-administrator-jobs.json';
 import hampshireServiceAdministratorJobs from './hampshire/service-administrator-jobs.json';
+import { isCentralInnerLondonJob, isOuterLondonJob } from '@/lib/london-job-area';
 
 type Job = {
   title?: string;
@@ -15,6 +16,8 @@ type Job = {
   location?: string;
   salary_text?: string;
   apply_url?: string;
+  description?: string;
+  full_description?: string;
 };
 
 type SliceCard = {
@@ -57,6 +60,11 @@ function MiniJobCard({ job, sliceUrl }: { job: Job; sliceUrl: string }) {
   );
 }
 
+const centralInnerLondonServiceAdministratorJobs =
+  londonServiceAdministratorJobs.filter(isCentralInnerLondonJob);
+const outerLondonServiceAdministratorJobs =
+  londonServiceAdministratorJobs.filter(isOuterLondonJob);
+
 const popularSearches = [
   {
     label: 'West Yorkshire service administrator jobs',
@@ -71,8 +79,12 @@ const popularSearches = [
     href: '/north-east/service-administrator-jobs',
   },
   {
-    label: 'London service administrator jobs',
+    label: 'Central & Inner London admin and customer service jobs',
     href: '/london/service-administrator-jobs',
+  },
+  {
+    label: 'Outer London admin and customer service jobs',
+    href: '/london/outer-service-administrator-jobs',
   },
   {
     label: 'Hampshire service administrator jobs',
@@ -164,40 +176,42 @@ const supportWorkerSlices: SliceCard[] = [
 const serviceAdministratorSlices: SliceCard[] = [
   {
     title: 'West Yorkshire Admin & Customer Service Jobs',
-    intro:
-      'Current admin, office and service roles across West Yorkshire.',
+    intro: 'Current admin, office and service roles across West Yorkshire.',
     ctaText: 'View West Yorkshire jobs →',
     sliceUrl: '/west-yorkshire/service-administrator-jobs',
     jobs: westYorkshireServiceAdministratorJobs,
   },
   {
     title: 'South Yorkshire Admin & Customer Service Jobs',
-    intro:
-      'Current admin, office and service roles across South Yorkshire.',
+    intro: 'Current admin, office and service roles across South Yorkshire.',
     ctaText: 'View South Yorkshire jobs →',
     sliceUrl: '/south-yorkshire/service-administrator-jobs',
     jobs: southYorkshireServiceAdministratorJobs,
   },
   {
+    title: 'Central & Inner London Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across Central and Inner London.',
+    ctaText: 'View Central & Inner London jobs →',
+    sliceUrl: '/london/service-administrator-jobs',
+    jobs: centralInnerLondonServiceAdministratorJobs,
+  },
+  {
+    title: 'Outer London Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across Outer London.',
+    ctaText: 'View Outer London jobs →',
+    sliceUrl: '/london/outer-service-administrator-jobs',
+    jobs: outerLondonServiceAdministratorJobs,
+  },
+  {
     title: 'North East Admin & Customer Service Jobs',
-    intro:
-      'Current admin, office and service roles across the North East.',
+    intro: 'Current admin, office and service roles across the North East.',
     ctaText: 'View North East jobs →',
     sliceUrl: '/north-east/service-administrator-jobs',
     jobs: northEastServiceAdministratorJobs,
   },
   {
-    title: 'London Admin & Customer Service Jobs',
-    intro:
-      'Current admin, office and service roles across London.',
-    ctaText: 'View London jobs →',
-    sliceUrl: '/london/service-administrator-jobs',
-    jobs: londonServiceAdministratorJobs,
-  },
-  {
     title: 'Hampshire Admin & Customer Service Jobs',
-    intro:
-      'Current admin, office and service roles across Hampshire.',
+    intro: 'Current admin, office and service roles across Hampshire.',
     ctaText: 'View Hampshire jobs →',
     sliceUrl: '/hampshire/service-administrator-jobs',
     jobs: hampshireServiceAdministratorJobs,
