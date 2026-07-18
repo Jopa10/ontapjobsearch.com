@@ -11,6 +11,42 @@ Edit only the `action:` line in each block:
 
 ---
 action: select
+SELECTED | Yorkshire - West | Holmfirth | £13.75 per hour | Bank Support Worker
+job_id: 1401783630
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Halifax | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
+job_id: 1401783720
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Holmfirth | £27394 per year | Complex care assistant
+job_id: 107651994
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
+job_id: 107532972
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Huddersfield | £93 - £105 per daily | Children's Residential Support Worker
+job_id: 4c07aee5-7024-4cb3-b344-dfaecadb7a09
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £28000 - £31000 per year | PERSONAL ASSISTANT
+job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
+---
+
+---
+action: select
 SELECTED | Yorkshire - West | Huddersfield | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
 job_id: 1401783851
 ---
@@ -23,17 +59,17 @@ job_id: d2b6bed8-4c47-4afe-a6e7-f653868515a2
 
 ---
 action: select
+SELECTED | Yorkshire - West | Pontefract | £90 - £95 per daily | Complex Needs Support Worker
+job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
+---
+
+---
+action: select
 SELECTED | Yorkshire - West | Bradford | £12.85 per hour | Relief Support Worker
 job_id: ca94f2ef-9003-4685-ad93-7271c45f7edf
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £31000 per year | PERSONAL ASSISTANT
-job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
----
 
 ---
 action:
@@ -42,45 +78,9 @@ job_id: 107521956
 ---
 
 ---
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
-job_id: 107532972
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Pontefract | £90 - £95 per daily | Complex Needs Support Worker
-job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
----
-
----
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Holmfirth | £13.75 per hour | Bank Support Worker
-job_id: 1401783630
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Holmfirth | £27394 per year | Complex care assistant
-job_id: 107651994
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
-job_id: 1401783720
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £93 - £105 per daily | Children's Residential Support Worker
-job_id: 4c07aee5-7024-4cb3-b344-dfaecadb7a09
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -185,6 +185,12 @@ job_id: f4341270-8583-4fe9-8839-0a7556a6617f
 
 ---
 action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
+job_id: bef21be3-da1e-45e3-b5f3-40683d5be526
+---
+
+---
+action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £14.85 per hour | Children's Outreach Support Worker (Learning Disabilities)
 job_id: ba8e0ae5-050c-4969-b34e-fc3c6489b496
 ---
@@ -193,6 +199,18 @@ job_id: ba8e0ae5-050c-4969-b34e-fc3c6489b496
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £29350 per year | Complex care assistant
 job_id: 107539241
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £22.5 per hour | Children and Young Person's Support Worker
+job_id: 9ed3947e-ae04-40a4-99b7-72e52e4abc88
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
+job_id: 98cda2a5-886d-4473-a300-ed52b21dd240
 ---
 
 ## NORTH EAST - TEES VALLEY — SELECTED
@@ -240,12 +258,6 @@ job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 ---
 
 ---
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £22.5 per hour | Children and Young Person's Support Worker
-job_id: 9ed3947e-ae04-40a4-99b7-72e52e4abc88
----
-
----
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Support Worker
 job_id: b909b59a-2804-4b0c-a15e-bf5b74a59db0
@@ -267,12 +279,6 @@ job_id: bab161e8-749f-4c78-a3d7-164cd23a3308
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Ferryhill | £15 per hour | Female Support Worker
 job_id: b7840ef4-1093-4ad9-8984-e88d1a01242c
----
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
-job_id: 98cda2a5-886d-4473-a300-ed52b21dd240
 ---
 
 ---
@@ -309,12 +315,6 @@ job_id: 8c2bc592-cdc7-44b0-ac0e-a1d053add964
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Bank Support Worker
 job_id: 828e85e8-bc5c-4940-ab8c-465ede281493
----
-
----
-action: select
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
-job_id: bef21be3-da1e-45e3-b5f3-40683d5be526
 ---
 
 ---

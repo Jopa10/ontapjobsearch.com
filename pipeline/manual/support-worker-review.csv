@@ -1,16 +1,16 @@
 ﻿decision,region,title,town,salary_text,manual_override,manual_select,job_id
+SELECTED,Yorkshire - West,Bank Support Worker,Holmfirth,£13.75 per hour,,1,1401783630
+SELECTED,Yorkshire - West,Residential Support Worker,Halifax,£27976 per year (+£60 per sleep-in)),,1,1401783720
+SELECTED,Yorkshire - West,Complex care assistant,Holmfirth,£27394 per year,,1,107651994
+SELECTED,Yorkshire - West,Hourly Care Assistant to Games Development graduate,Bradford,£15 per hour,,1,107532972
+SELECTED,Yorkshire - West,Children's Residential Support Worker,Huddersfield,£93 - £105 per daily,,1,4c07aee5-7024-4cb3-b344-dfaecadb7a09
+SELECTED,Yorkshire - West,PERSONAL ASSISTANT,Leeds,£28000 - £31000 per year,,1,d959f734-4ce9-4559-bc26-805409bdf9bc
 SELECTED,Yorkshire - West,Residential Support Worker,Huddersfield,£27976 per year (+£60 per sleep-in)),,1,1401783851
 SELECTED,Yorkshire - West,Complex Needs Support Worker,Leeds,£90 - £95 per daily,,1,d2b6bed8-4c47-4afe-a6e7-f653868515a2
+SELECTED,Yorkshire - West,Complex Needs Support Worker,Pontefract,£90 - £95 per daily,,1,7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 SELECTED,Yorkshire - West,Relief Support Worker,Bradford,£12.85 per hour,,1,ca94f2ef-9003-4685-ad93-7271c45f7edf
-POSS - YORKSHIRE - WEST,Yorkshire - West,PERSONAL ASSISTANT,Leeds,£28000 - £31000 per year,,,d959f734-4ce9-4559-bc26-805409bdf9bc
 POSS - YORKSHIRE - WEST,Yorkshire - West,Care Assistant to English Literature Uni Graduate,Ilkley,£170 per daily,,,107521956
-POSS - YORKSHIRE - WEST,Yorkshire - West,Hourly Care Assistant to Games Development graduate,Bradford,£15 per hour,,,107532972
-POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Needs Support Worker,Pontefract,£90 - £95 per daily,,,7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Leeds,£17.93 per hour (+ INC holiday pay),,,107616819
-POSS - YORKSHIRE - WEST,Yorkshire - West,Bank Support Worker,Holmfirth,£13.75 per hour,,,1401783630
-POSS - YORKSHIRE - WEST,Yorkshire - West,Complex care assistant,Holmfirth,£27394 per year,,,107651994
-POSS - YORKSHIRE - WEST,Yorkshire - West,Residential Support Worker,Halifax,£27976 per year (+£60 per sleep-in)),,,1401783720
-POSS - YORKSHIRE - WEST,Yorkshire - West,Children's Residential Support Worker,Huddersfield,£93 - £105 per daily,,,4c07aee5-7024-4cb3-b344-dfaecadb7a09
 SELECTED,Yorkshire - South,Health care assistant - Sheffield,Sheffield,£12.75 - £17 per hour,,,c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
 SELECTED,Yorkshire - South,Relief Support Worker,Doncaster,£12.85 per hour,,,dedf05f4-9dec-4b6a-b8c5-342496f8deba
 SELECTED,Yorkshire - South,Support Worker,Doncaster,£12.85 per hour,,,b5ac469f-15a9-4c54-97f2-b2a0b67bebdc
@@ -26,27 +26,27 @@ SELECTED,"North East - Tyneside, Wearside & Northumberland",Relief Support Worke
 SELECTED,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Chester Le Street,£14.24 per hour,,1,107615864
 SELECTED,North East - County Durham & Darlington/Hartlepool,Relief Support Worker,Durham,£12.85 per hour (plus rolled up holiday pay),,1,107652248
 SELECTED,North East - County Durham & Darlington/Hartlepool,Care Assistant - Bank - Care Home,Peterlee,£14.8 per hour,,1,f4341270-8583-4fe9-8839-0a7556a6617f
+SELECTED,North East - County Durham & Darlington/Hartlepool,Relief Support Worker,County Durham,£12.85 per hour,,1,bef21be3-da1e-45e3-b5f3-40683d5be526
 SELECTED,North East - County Durham & Darlington/Hartlepool,Children's Outreach Support Worker (Learning Disabilities),Durham,£14.85 per hour,,1,ba8e0ae5-050c-4969-b34e-fc3c6489b496
 SELECTED,North East - County Durham & Darlington/Hartlepool,Complex care assistant,County Durham,£29350 per year,,1,107539241
+SELECTED,North East - County Durham & Darlington/Hartlepool,Children and Young Person's Support Worker,Durham,£15.5 - £22.5 per hour,,1,9ed3947e-ae04-40a4-99b7-72e52e4abc88
+SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Consett,£12.85 per hour,,1,98cda2a5-886d-4473-a300-ed52b21dd240
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Personal Assistant,Newcastle Upon Tyne,£35000 - £50000 per year,,,a80187d3-fbf2-4a5d-b66a-9c6002941176
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Crisis Support Worker,Jarrow,£17.50-£24.00 per hour,,,ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Childrens Crisis Support Worker,Hebburn,£17.50-£24.00 per hour,,,dbd3db2a-800b-4412-9ce0-402a1f442451
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Children and Young Persons Support Worker,Sunderland,£16.5 - £23 per hour,,,aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Social Care Worker,Newton Aycliffe,£14 - £29 per hour,,,107501464
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Scottish Island Support Worker,Durham,£19 - £21 per hour,,,b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Children and Young Person's Support Worker,Durham,£15.5 - £22.5 per hour,,,9ed3947e-ae04-40a4-99b7-72e52e4abc88
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Female Support Worker,Darlington,£13 per hour,,,b909b59a-2804-4b0c-a15e-bf5b74a59db0
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Female Support Worker,Darlington,£13.15 per hour,,,9a8ce501-2608-4cea-8d23-991e3a045247
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Support Worker,Spennymoor,£12.85 per hour,,,bab161e8-749f-4c78-a3d7-164cd23a3308
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Female Support Worker,Ferryhill,£15 per hour,,,b7840ef4-1093-4ad9-8984-e88d1a01242c
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Support Worker,Consett,£12.85 per hour,,,98cda2a5-886d-4473-a300-ed52b21dd240
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Children and Young People Support Worker,Durham,£15.5 - £20 per hour,,,a091384d-aaa0-4187-a776-aaa3779a3f53
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Children and Young People Support Worker,Barnard Castle,£15.5 - £20 per hour,,,d3620d42-8f31-46d7-a414-d317a5f24a20
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Children's Residential Support Worker,Darlington,£14.85 per hour,,,cd3894a1-69a8-4a34-9958-51dd5b5a95f4
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Care Assistant - Bank - Care Home,Darlington,£15.58 per hour,,,8cf94350-e0e1-4c8b-b57d-afa66139d419
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Care Assistant - Complex Care,Darlington,£13.91 per hour,,,8c2bc592-cdc7-44b0-ac0e-a1d053add964
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Female Bank Support Worker,Darlington,£13 per hour,,,828e85e8-bc5c-4940-ab8c-465ede281493
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Relief Support Worker,County Durham,£12.85 per hour,,,bef21be3-da1e-45e3-b5f3-40683d5be526
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Children and Young People Support Worker,County Durham,£15.5 - £20 per hour,,,96b7d446-8e01-4198-90bc-dc4c5427960c
 POSS - NORTH EAST - TEES VALLEY,North East - Tees Valley,Support Worker,Redcar,£26403 per year,,,e75bb074-b7b2-4c04-8490-5679e3bde686
 POSS - NORTH EAST - TEES VALLEY,North East - Tees Valley,Relief Support Worker,Middlesbrough,£12.85 per hour,,,f8639c60-fd66-4dfb-a129-d0bda058fedd

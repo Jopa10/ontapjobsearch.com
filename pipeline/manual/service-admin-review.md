@@ -147,6 +147,42 @@ SELECTED | Yorkshire - West | Bradford | £24000 - £25000 per year | Customer /
 job_id: a2f5fb7f-1942-41c5-aa97-240edc543fd1
 ---
 
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £12.71 - £13.33 per hour | Receptionist
+job_id: 9ebe9748-c187-4b4c-bf1f-906d0c47f5fc
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Elland |  | Sales Administrator
+job_id: 9d2b0406-be5b-4609-b391-30776c55fbb4
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £26000 - £29000 per year | Finance Administrator
+job_id: 945c313e-01b5-445d-aa83-7d61db5744d6
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £29000 per year | Team Administrator - School Hours
+job_id: 93e46441-7a59-41a4-aa83-5e8fa103f15f
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Bradford | £13 per hour | Temporary Administrator- Aftermarket Support
+job_id: 84e1afd8-5264-4dcf-83de-51c15dd63979
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
+job_id: 107709815
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -171,24 +207,6 @@ job_id: e94d61db-6bf0-4b89-a019-d013160b330b
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £25000 - £42000 per year | DB Pensions Administrator and Senior Pensions Administrator home based to 42k
 job_id: c3e3d71e-1da2-4dd2-a6de-95231279aca4
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £12.71 - £13.33 per hour | Receptionist
-job_id: 9ebe9748-c187-4b4c-bf1f-906d0c47f5fc
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £26000 - £29000 per year | Finance Administrator
-job_id: 945c313e-01b5-445d-aa83-7d61db5744d6
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £29000 per year | Team Administrator - School Hours
-job_id: 93e46441-7a59-41a4-aa83-5e8fa103f15f
 ---
 
 ---
@@ -222,27 +240,9 @@ job_id: b292ec3f-453b-4e00-b6ff-2456374c6000
 ---
 
 ---
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £13 per hour | Temporary Administrator- Aftermarket Support
-job_id: 84e1afd8-5264-4dcf-83de-51c15dd63979
----
-
----
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £15 per hour | Senior Administrator
 job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Elland |  | Sales Administrator
-job_id: 9d2b0406-be5b-4609-b391-30776c55fbb4
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
-job_id: 107709815
 ---
 
 ---
@@ -331,6 +331,12 @@ SELECTED | Yorkshire - South | Sheffield | £13.69 per hour | Senior Business Su
 job_id: a5e99a12-62d4-427c-a3a3-af869a5cb2ea
 ---
 
+---
+action: select
+SELECTED | Yorkshire - South | Rotherham | £25000 per year | Loan Administrator
+job_id: 9eb9de2a-2674-49e2-841e-3afcc2458a7e
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -367,12 +373,6 @@ job_id: baa13983-239e-44fc-b687-d84c57eb55db
 action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
 job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
----
-
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Rotherham | £25000 per year | Loan Administrator
-job_id: 9eb9de2a-2674-49e2-841e-3afcc2458a7e
 ---
 
 ---
@@ -425,6 +425,12 @@ SELECTED | North East | Newcastle Upon Tyne | £13 per hour | Temporary Part-Tim
 job_id: b4f34caf-8e57-4de7-b837-f8ab75aebf4a
 ---
 
+---
+action: select
+SELECTED | North East | Gateshead | £28000 per year | HR Administrator - Gateshead - Permanent
+job_id: 9307e3ea-1077-4140-9bc7-281fbfc59147
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -446,7 +452,7 @@ job_id: b8837c50-15c8-4606-a98d-94f9bd1d61f6
 ---
 
 ---
-action: 
+action:
 POSS - NORTH EAST | North East | Darlington | £26000 per year | HR Administrator
 job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 ---
@@ -476,13 +482,7 @@ job_id: c7a9ec69-dbbc-406b-bc5c-c86785dc0028
 ---
 
 ---
-action: select
-POSS - NORTH EAST | North East | Gateshead | £28000 per year | HR Administrator - Gateshead - Permanent
-job_id: 9307e3ea-1077-4140-9bc7-281fbfc59147
----
-
----
-action: 
+action:
 POSS - NORTH EAST | North East | Spennymoor |  | Internal Sales Administrator
 job_id: 9965df1d-32cb-4cf0-a560-90fa51eaf71a
 ---
@@ -523,12 +523,6 @@ job_id: 33eab37d-af87-4704-9471-df90f5cef85c
 action: select
 SELECTED | London | London | £26000 per year | Graduate - Quality & Compliance Administrator
 job_id: 107609680
----
-
----
-action: exclude
-SELECTED | London | City Of Westminster | £34100 - £35055 per year (+ Benefits) | Payroll Administrator / Payroll Officer
-job_id: 1164743 [JSP51552]
 ---
 
 ---
@@ -742,12 +736,6 @@ job_id: f56c816f-17cd-4687-9780-f0e320022607
 ---
 
 ---
-action: exclude
-SELECTED | London | London | £35000 per year | Payroll & Data Coordinator
-job_id: 107609016
----
-
----
 action: select
 SELECTED | London | London | £24000 - £26000 per year | Bookings Coordinator
 job_id: cd03aed6-abeb-4e93-98c1-aa4d6f69da1a
@@ -802,12 +790,6 @@ job_id: b4184cb3-87d8-43fc-953f-73e8379b5b5e
 ---
 
 ---
-action: exclude
-SELECTED | London | London | £34000 - £36000 per year | Receptionist - Full time - West End
-job_id: b3c7ca56-7031-4b79-acc4-204cd8fdfd5e
----
-
----
 action: select
 SELECTED | London | London | £26000 - £30000 per year | Office Assistant
 job_id: a9bf0396-642b-4570-8e33-c4d4a1203521
@@ -817,6 +799,78 @@ job_id: a9bf0396-642b-4570-8e33-c4d4a1203521
 action: select
 SELECTED | London | London | £30000 - £35000 per year | Receptionist & Office Assistant
 job_id: 9fee675f-70ef-4a29-a99b-c733847f0374
+---
+
+---
+action: select
+SELECTED | London | London | £15 per hour | Receptionist
+job_id: 9effdf63-e993-4664-af8f-2959b3a12044
+---
+
+---
+action: select
+SELECTED | London | West Drayton | £13.85 - £14.8 per hour | Customer Service Administrator
+job_id: 9e7be7c1-c5db-40e6-9ea5-53464ea55de4
+---
+
+---
+action: select
+SELECTED | London | City | £12.75 - £15.14 per hour | Administrator
+job_id: 9e5c17ef-1d1c-4221-8565-1db5db2bda74
+---
+
+---
+action: select
+SELECTED | London | Uxbridge | £12.8 - £13 per hour | Data Entry / Administrator (Degree Educated)
+job_id: 9e3e5bc5-61a5-4e15-8d3f-382940064ede
+---
+
+---
+action: select
+SELECTED | London | London | £30000 - £33000 per year | Receptionist
+job_id: 9b37ac0f-f6b6-4c51-b40e-06c1d0614a99
+---
+
+---
+action: select
+SELECTED | London | London | £25000 - £35000 per year | School Administrator and Receptionist
+job_id: 960e6b29-af29-4a8a-9bc1-7e0f0a51a9a5
+---
+
+---
+action: select
+SELECTED | London | London | £15 - £16 per hour | School Administrator - Enhanced DBS Required!
+job_id: 888558b2-6ca5-4316-a99f-e028067bf76d
+---
+
+---
+action: select
+SELECTED | London | Bexleyheath | £15.68 per hour | Complaints & FOI Business Support Officer
+job_id: 937b7ec1-5bfc-4049-affa-2cdaa4b013fa
+---
+
+---
+action: select
+SELECTED | London | London | £29000 per year | Administrative Coordinator
+job_id: 91c2ba89-af9e-443a-9f05-e408b3bc31e0
+---
+
+---
+action: select
+SELECTED | London | London | £25000 - £31500 per year | Employee Benefits Administrator
+job_id: 917a878a-622a-481d-89dd-cb54f6a997b7
+---
+
+---
+action: select
+SELECTED | London | London | £14 - £15.5 per hour | Membership Services Administrator
+job_id: 8f225185-75cc-4cdc-9bcd-c933be24aeab
+---
+
+---
+action: select
+SELECTED | London | London | £24000 - £25000 per year | Office Assistant
+job_id: 7abb359e-d0e3-4cf5-b57e-63379dd18d53
 ---
 
 ## LONDON — POSSIBLES
@@ -966,18 +1020,6 @@ job_id: a3933ff5-36a0-445a-bf43-3d8c00c53cac
 ---
 
 ---
-action: select
-POSS - LONDON | London | London | £15 per hour | Receptionist
-job_id: 9effdf63-e993-4664-af8f-2959b3a12044
----
-
----
-action: select
-POSS - LONDON | London | London | £30000 - £33000 per year | Receptionist
-job_id: 9b37ac0f-f6b6-4c51-b40e-06c1d0614a99
----
-
----
 action:
 POSS - LONDON | London | London | £32000 - £36000 per year | Mortgage Administrator
 job_id: 9b1ee074-8e6f-47e5-ad15-e9ab674ee4e1
@@ -990,27 +1032,9 @@ job_id: 97ca6bd0-fca0-41b3-97fa-a03277d8cbfc
 ---
 
 ---
-action: select
-POSS - LONDON | London | London | £25000 - £35000 per year | School Administrator and Receptionist
-job_id: 960e6b29-af29-4a8a-9bc1-7e0f0a51a9a5
----
-
----
-action: select
-POSS - LONDON | London | London | £15 - £16 per hour | School Administrator - Enhanced DBS Required!
-job_id: 888558b2-6ca5-4316-a99f-e028067bf76d
----
-
----
 action:
 POSS - LONDON | London | London | £32000 - £36000 per year | Lettings Administrator/Receptionist
 job_id: 91ac4f28-e290-4987-9862-71e7cf7ddf92
----
-
----
-action: select
-POSS - LONDON | London | London | £25000 - £31500 per year | Employee Benefits Administrator
-job_id: 917a878a-622a-481d-89dd-cb54f6a997b7
 ---
 
 ---
@@ -1026,13 +1050,7 @@ job_id: 90ad5564-468d-4f24-af83-e6583ea3582c
 ---
 
 ---
-action: select
-POSS - LONDON | London | London | £14 - £15.5 per hour | Membership Services Administrator
-job_id: 8f225185-75cc-4cdc-9bcd-c933be24aeab
----
-
----
-action: 
+action:
 POSS - LONDON | London | London | £40000 - £55000 per year | Senior Receptionist
 job_id: 8eed72cc-6d45-49ad-ba67-476f989180ca
 ---
@@ -1128,12 +1146,6 @@ job_id: 7b67d9b0-e3cb-405e-a0f8-002cdc121523
 ---
 
 ---
-action: select
-POSS - LONDON | London | London | £24000 - £25000 per year | Office Assistant
-job_id: 7abb359e-d0e3-4cf5-b57e-63379dd18d53
----
-
----
 action:
 POSS - LONDON | London | Croydon | £32000 - £37000 per year | IT Administrator
 job_id: a39777bf-ea97-4765-aa67-7bc5816b084d
@@ -1152,21 +1164,9 @@ job_id: 1154888a-71ca-4ef3-847c-ebf181a045e6
 ---
 
 ---
-action: select
-POSS - LONDON | London | West Drayton | £13.85 - £14.8 per hour | Customer Service Administrator
-job_id: 9e7be7c1-c5db-40e6-9ea5-53464ea55de4
----
-
----
-action: 
+action:
 POSS - LONDON | London | Uxbridge |  | Customer Service & Sales Administrator
 job_id: ac96b5d4-93a0-4506-be23-3a5522d80a9f
----
-
----
-action: select
-POSS - LONDON | London | Uxbridge | £12.8 - £13 per hour | Data Entry / Administrator (Degree Educated)
-job_id: 9e3e5bc5-61a5-4e15-8d3f-382940064ede
 ---
 
 ---
@@ -1179,18 +1179,6 @@ job_id: a9008f47-4f68-4524-ac99-7fbcdf1cdf72
 action:
 POSS - LONDON | London | Barnet | £16.5 - £18 per hour | School Administrator - Primary School Barnet
 job_id: 51c04e89-ef80-496e-87ac-018aae61d75f
----
-
----
-action: select
-POSS - LONDON | London | City | £12.75 - £15.14 per hour | Administrator
-job_id: 9e5c17ef-1d1c-4221-8565-1db5db2bda74
----
-
----
-action: select
-POSS - LONDON | London | Bexleyheath | £15.68 per hour | Complaints & FOI Business Support Officer
-job_id: 937b7ec1-5bfc-4049-affa-2cdaa4b013fa
 ---
 
 ---
@@ -1212,12 +1200,6 @@ job_id: 920deff1-36d0-49c9-96cd-973bcdc16115
 ---
 
 ---
-action: select
-POSS - LONDON | London | London | £29000 per year | Administrative Coordinator
-job_id: 91c2ba89-af9e-443a-9f05-e408b3bc31e0
----
-
----
 action:
 POSS - LONDON | London | London | £35000 - £48000 per year | Team Assistant/Office Coordinator
 job_id: 89c97a85-bcb5-4ae5-b40a-9cc21362070e
@@ -1229,4 +1211,22 @@ job_id: 89c97a85-bcb5-4ae5-b40a-9cc21362070e
 action: exclude
 DROPPED | Hampshire | Southampton | £50000 - £70000 per year | Senior Windows Server Administrator
 job_id: edfb6bfb-1af8-4aa8-bf4e-faad98367d1e
+---
+
+---
+action: exclude
+DROPPED | London | City Of Westminster | £34100 - £35055 per year (+ Benefits) | Payroll Administrator / Payroll Officer
+job_id: 1164743 [JSP51552]
+---
+
+---
+action: exclude
+DROPPED | London | London | £35000 per year | Payroll & Data Coordinator
+job_id: 107609016
+---
+
+---
+action: exclude
+DROPPED | London | London | £34000 - £36000 per year | Receptionist - Full time - West End
+job_id: b3c7ca56-7031-4b79-acc4-204cd8fdfd5e
 ---
