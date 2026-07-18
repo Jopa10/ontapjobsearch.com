@@ -15,6 +15,7 @@ type BrowseCard = {
 type BrowseSection = {
   heading: string;
   intro: string;
+  featuredCards?: BrowseCard[];
   cards: BrowseCard[];
 };
 
@@ -62,6 +63,24 @@ const jobSections: BrowseSection[] = [
   {
     heading: 'Active admin, service administrator and customer-service jobs',
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
+    featuredCards: [
+      {
+        title: 'Central & Inner London Admin & Cust. Service Jobs',
+        href: '/london/service-administrator-jobs',
+        description:
+          'Service administrator, customer service administrator and office support roles across Central and Inner London.',
+        status: 'Active current supply',
+        statusClassName: activeStatusClassName,
+      },
+      {
+        title: 'Outer London Admin & Cust. Service Jobs',
+        href: '/london/outer-service-administrator-jobs',
+        description:
+          'Service administrator, customer service administrator and office support roles across Outer London.',
+        status: 'Active current supply',
+        statusClassName: activeStatusClassName,
+      },
+    ],
     cards: [
       {
         title: 'West Yorkshire Admin & Customer Service Jobs',
@@ -76,22 +95,6 @@ const jobSections: BrowseSection[] = [
         href: '/south-yorkshire/service-administrator-jobs',
         description:
           'Service administrator, customer service administrator and office support roles across Sheffield and South Yorkshire.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
-      },
-      {
-        title: 'Central & Inner London Admin & Customer Service Jobs',
-        href: '/london/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Central and Inner London.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
-      },
-      {
-        title: 'Outer London Admin & Customer Service Jobs',
-        href: '/london/outer-service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Outer London.',
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
@@ -147,6 +150,28 @@ const jobSections: BrowseSection[] = [
   },
 ];
 
+function BrowseCardLink({ card }: { card: BrowseCard }) {
+  return (
+    <a
+      href={card.href}
+      className="block rounded-xl border border-gray-200 bg-white p-4 text-gray-900 transition hover:border-blue-300 hover:bg-blue-50"
+    >
+      <div className="mb-3 flex flex-wrap items-start justify-between gap-2">
+        <h3 className="text-lg font-semibold leading-tight">{card.title}</h3>
+        <span
+          className={`rounded-full border px-2.5 py-1 text-xs font-semibold ${card.statusClassName}`}
+        >
+          {card.status}
+        </span>
+      </div>
+
+      <p className="text-sm leading-6 text-gray-600">{card.description}</p>
+
+      <div className="mt-3 text-sm font-medium text-blue-700">View page →</div>
+    </a>
+  );
+}
+
 export default function Page() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
@@ -167,28 +192,22 @@ export default function Page() {
               <p className="mt-1 text-sm text-gray-600">{section.intro}</p>
             </div>
 
+            {section.featuredCards ? (
+              <div className="mb-3 rounded-xl border border-blue-200 bg-blue-50 p-3">
+                <div className="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-sm font-semibold text-white">
+                  London admin & customer-service jobs
+                </div>
+                <div className="grid gap-3 md:grid-cols-2">
+                  {section.featuredCards.map((card) => (
+                    <BrowseCardLink key={card.href} card={card} />
+                  ))}
+                </div>
+              </div>
+            ) : null}
+
             <div className="grid gap-3 md:grid-cols-2">
               {section.cards.map((card) => (
-                <a
-                  key={card.href}
-                  href={card.href}
-                  className="block rounded-xl border border-gray-200 bg-white p-4 text-gray-900 transition hover:border-blue-300 hover:bg-blue-50"
-                >
-                  <div className="mb-3 flex flex-wrap items-start justify-between gap-2">
-                    <h3 className="text-lg font-semibold leading-tight lg:whitespace-nowrap">
-                      {card.title}
-                    </h3>
-                    <span
-                      className={`rounded-full border px-2.5 py-1 text-xs font-semibold ${card.statusClassName}`}
-                    >
-                      {card.status}
-                    </span>
-                  </div>
-
-                  <p className="text-sm leading-6 text-gray-600">{card.description}</p>
-
-                  <div className="mt-3 text-sm font-medium text-blue-700">View page →</div>
-                </a>
+                <BrowseCardLink key={card.href} card={card} />
               ))}
             </div>
           </section>
