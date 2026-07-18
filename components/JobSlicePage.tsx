@@ -41,6 +41,12 @@ type TrainingItem = {
   link: string;
 };
 
+type RelatedPage = {
+  href: string;
+  prompt: string;
+  label: string;
+};
+
 type JobSlicePageProps = {
   jsonPath: string[];
   region: string;
@@ -51,6 +57,8 @@ type JobSlicePageProps = {
   trainingHeading?: string;
   trainingSubheading?: string;
   trainingItems?: TrainingItem[];
+  jobFilter?: (job: JobRow) => boolean;
+  relatedPage?: RelatedPage;
 };
 
 function readJobsJson(jsonPath: string[], region: string): JobRow[] {
@@ -225,6 +233,29 @@ const careTraining: TrainingItem[] = [
   },
 ];
 
+function RelatedPageLink({ relatedPage }: { relatedPage: RelatedPage }) {
+  return (
+    <div
+      style={{
+        border: "1px solid #bfdbfe",
+        borderRadius: 10,
+        padding: "10px 12px",
+        background: "#eff6ff",
+        color: "#374151",
+        fontSize: 14,
+      }}
+    >
+      <span>{relatedPage.prompt}</span>{" "}
+      <Link
+        href={relatedPage.href}
+        style={{ color: "#1d4ed8", fontWeight: 700, textDecoration: "none" }}
+      >
+        {relatedPage.label} →
+      </Link>
+    </div>
+  );
+}
+
 export default function JobSlicePage({
   jsonPath,
   region,
@@ -235,8 +266,11 @@ export default function JobSlicePage({
   trainingHeading,
   trainingSubheading,
   trainingItems,
+  jobFilter,
+  relatedPage,
 }: JobSlicePageProps) {
-  const jobs = readJobsJson(jsonPath, region);
+  const allJobs = readJobsJson(jsonPath, region);
+  const jobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
   const sidebarItems = trainingItems || careTraining;
 
   return (
@@ -289,6 +323,12 @@ export default function JobSlicePage({
                 `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
             </p>
           </div>
+
+          {relatedPage ? (
+            <div style={{ marginBottom: 14 }}>
+              <RelatedPageLink relatedPage={relatedPage} />
+            </div>
+          ) : null}
 
           <div style={{ display: "grid", gap: 10 }}>
             {jobs.length === 0 ? (
@@ -388,6 +428,12 @@ export default function JobSlicePage({
               );
             })}
           </div>
+
+          {relatedPage ? (
+            <div style={{ marginTop: 14 }}>
+              <RelatedPageLink relatedPage={relatedPage} />
+            </div>
+          ) : null}
         </div>
       </div>
     </main>

@@ -22,6 +22,12 @@ export default function Page() {
       title="West Yorkshire Support Worker Roles"
       latestUpdate={getJobPageStatus(routeKey)}
       anchorTown="Leeds"
+      relatedPage={{
+        href: "/south-yorkshire/support-worker",
+        prompt: "Also searching around South Yorkshire?",
+        label: "View South Yorkshire support-worker jobs",
+      }}
     />
   );
 }
+

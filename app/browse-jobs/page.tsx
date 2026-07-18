@@ -12,10 +12,17 @@ type BrowseCard = {
   statusClassName: string;
 };
 
+type BrowseCardGroup = {
+  label: string;
+  cards: BrowseCard[];
+};
+
 type BrowseSection = {
   heading: string;
   intro: string;
   cards: BrowseCard[];
+  groups?: BrowseCardGroup[];
+  trailingCards?: BrowseCard[];
 };
 
 const activeStatusClassName = 'border-green-200 bg-green-50 text-green-700';
@@ -64,18 +71,10 @@ const jobSections: BrowseSection[] = [
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
     cards: [
       {
-        title: 'West Yorkshire Admin & Customer Service Jobs',
-        href: '/west-yorkshire/service-administrator-jobs',
+        title: 'Hampshire Admin & Customer Service Jobs',
+        href: '/hampshire/service-administrator-jobs',
         description:
-          'Service administrator, customer service administrator and office support roles across Leeds and West Yorkshire.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
-      },
-      {
-        title: 'South Yorkshire Admin & Customer Service Jobs',
-        href: '/south-yorkshire/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Sheffield and South Yorkshire.',
+          'Service administrator, customer service administrator and office support roles across Hampshire.',
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
@@ -87,21 +86,49 @@ const jobSections: BrowseSection[] = [
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
+    ],
+    groups: [
       {
-        title: 'London Admin & Customer Service Jobs',
-        href: '/london/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across London.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
+        label: 'Yorkshire admin & customer-service jobs',
+        cards: [
+          {
+            title: 'West Yorkshire Admin & Customer Service Jobs',
+            href: '/west-yorkshire/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Leeds and West Yorkshire.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+          {
+            title: 'South Yorkshire Admin & Customer Service Jobs',
+            href: '/south-yorkshire/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Sheffield and South Yorkshire.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+        ],
       },
       {
-        title: 'Hampshire Admin & Customer Service Jobs',
-        href: '/hampshire/service-administrator-jobs',
-        description:
-          'Service administrator, customer service administrator and office support roles across Hampshire.',
-        status: 'Active current supply',
-        statusClassName: activeStatusClassName,
+        label: 'London admin & customer-service jobs',
+        cards: [
+          {
+            title: 'Central & Inner London Admin & Cust. Service Jobs',
+            href: '/london/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Central and Inner London.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+          {
+            title: 'Outer London Admin & Cust. Service Jobs',
+            href: '/london/outer-service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Outer London.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+        ],
       },
     ],
   },
@@ -110,16 +137,6 @@ const jobSections: BrowseSection[] = [
     intro:
       'Current support-worker pages are listed below. Individual pages show whether supply is active or temporarily limited.',
     cards: [
-      {
-        title: 'West Yorkshire Support Worker Jobs',
-        href: '/west-yorkshire/support-worker',
-        ...westYorkshireSupportWorkerStatus,
-      },
-      {
-        title: 'South Yorkshire Support Worker Jobs',
-        href: '/south-yorkshire/support-worker',
-        ...southYorkshireSupportWorkerStatus,
-      },
       {
         title: 'North East Support Worker Jobs',
         href: '/north-east/support-worker',
@@ -130,6 +147,25 @@ const jobSections: BrowseSection[] = [
         href: '/sussex/support-worker',
         ...sussexSupportWorkerStatus,
       },
+    ],
+    groups: [
+      {
+        label: 'Yorkshire support-worker jobs',
+        cards: [
+          {
+            title: 'West Yorkshire Support Worker Jobs',
+            href: '/west-yorkshire/support-worker',
+            ...westYorkshireSupportWorkerStatus,
+          },
+          {
+            title: 'South Yorkshire Support Worker Jobs',
+            href: '/south-yorkshire/support-worker',
+            ...southYorkshireSupportWorkerStatus,
+          },
+        ],
+      },
+    ],
+    trailingCards: [
       {
         title: 'South Cumbria Support Worker Jobs',
         href: '/cumbria-south/support-worker',
@@ -138,6 +174,28 @@ const jobSections: BrowseSection[] = [
     ],
   },
 ];
+
+function BrowseCardLink({ card }: { card: BrowseCard }) {
+  return (
+    <a
+      href={card.href}
+      className="block rounded-xl border border-gray-200 bg-white p-4 text-gray-900 transition hover:border-blue-300 hover:bg-blue-50"
+    >
+      <div className="mb-3 flex flex-wrap items-start justify-between gap-2">
+        <h3 className="text-lg font-semibold leading-tight">{card.title}</h3>
+        <span
+          className={`rounded-full border px-2.5 py-1 text-xs font-semibold ${card.statusClassName}`}
+        >
+          {card.status}
+        </span>
+      </div>
+
+      <p className="text-sm leading-6 text-gray-600">{card.description}</p>
+
+      <div className="mt-3 text-sm font-medium text-blue-700">View page →</div>
+    </a>
+  );
+}
 
 export default function Page() {
   return (
@@ -161,28 +219,33 @@ export default function Page() {
 
             <div className="grid gap-3 md:grid-cols-2">
               {section.cards.map((card) => (
-                <a
-                  key={card.href}
-                  href={card.href}
-                  className="block rounded-xl border border-gray-200 bg-white p-4 text-gray-900 transition hover:border-blue-300 hover:bg-blue-50"
-                >
-                  <div className="mb-3 flex flex-wrap items-start justify-between gap-2">
-                    <h3 className="text-lg font-semibold leading-tight lg:whitespace-nowrap">
-                      {card.title}
-                    </h3>
-                    <span
-                      className={`rounded-full border px-2.5 py-1 text-xs font-semibold ${card.statusClassName}`}
-                    >
-                      {card.status}
-                    </span>
-                  </div>
-
-                  <p className="text-sm leading-6 text-gray-600">{card.description}</p>
-
-                  <div className="mt-3 text-sm font-medium text-blue-700">View page →</div>
-                </a>
+                <BrowseCardLink key={card.href} card={card} />
               ))}
             </div>
+
+            {section.groups?.map((group) => (
+              <div
+                key={group.label}
+                className="mt-3 rounded-xl border border-gray-200 bg-gray-50 p-3"
+              >
+                <div className="mb-3 border-b border-gray-200 pb-2 text-center text-sm font-semibold text-gray-600">
+                  {group.label}
+                </div>
+                <div className="grid gap-3 md:grid-cols-2">
+                  {group.cards.map((card) => (
+                    <BrowseCardLink key={card.href} card={card} />
+                  ))}
+                </div>
+              </div>
+            ))}
+
+            {section.trailingCards ? (
+              <div className="mt-3 grid gap-3 md:grid-cols-2">
+                {section.trailingCards.map((card) => (
+                  <BrowseCardLink key={card.href} card={card} />
+                ))}
+              </div>
+            ) : null}
           </section>
         ))}
       </div>

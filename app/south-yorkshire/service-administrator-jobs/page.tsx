@@ -47,6 +47,11 @@ export default function Page() {
       title="Service administrator jobs in South Yorkshire"
       latestUpdate={getJobPageStatus(routeKey)}
       anchorTown="Sheffield"
+      relatedPage={{
+        href: "/west-yorkshire/service-administrator-jobs",
+        prompt: "Also searching around West Yorkshire?",
+        label: "View West Yorkshire admin & customer-service jobs",
+      }}
       introText={`Updated daily • Latest update: ${getJobPageStatus(routeKey)} • Service administrator, customer service administrator, office support and admin roles across South Yorkshire • Apply on employer sites`}
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
@@ -54,3 +59,4 @@ export default function Page() {
     />
   );
 }
+

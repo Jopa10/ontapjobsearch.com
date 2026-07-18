@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import JobSlicePage from "@/components/JobSlicePage";
 import { getJobPageStatus } from "@/config/job-page-status";
+import { isOuterLondonJob } from "@/lib/london-job-area";
 
-const routeKey = "west-yorkshire/service-administrator-jobs";
-const canonicalUrl = "https://www.ontapjobsearch.com/west-yorkshire/service-administrator-jobs";
+const routeKey = "london/outer-service-administrator-jobs";
+const canonicalUrl =
+  "https://www.ontapjobsearch.com/london/outer-service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "West Yorkshire Service Administrator Jobs | Ontap Job Search",
+  title: "Outer London Admin & Customer Service Jobs | Ontap Job Search",
   description:
-    "Browse service administrator, customer service administrator and office support jobs across Leeds and West Yorkshire.",
+    "Browse service administrator, customer service administrator and office support jobs across Outer London.",
   alternates: {
     canonical: canonicalUrl,
   },
@@ -39,17 +41,21 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
+
   return (
     <JobSlicePage
-      jsonPath={["app", "west-yorkshire", "service-administrator-jobs.json"]}
-      region="West Yorkshire"
-      title="West Yorkshire Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
-      anchorTown="Leeds"
+      jsonPath={["app", "london", "service-administrator-jobs.json"]}
+      region="Outer London"
+      title="Outer London Admin & Customer Service Jobs"
+      latestUpdate={latestUpdate}
+      introText={`Updated daily • Latest update: ${latestUpdate} • Roles across Outer London • Apply on employer sites`}
+      anchorTown="London"
+      jobFilter={isOuterLondonJob}
       relatedPage={{
-        href: "/south-yorkshire/service-administrator-jobs",
-        prompt: "Also searching around South Yorkshire?",
-        label: "View South Yorkshire admin & customer-service jobs",
+        href: "/london/service-administrator-jobs",
+        prompt: "Looking for jobs closer to central London?",
+        label: "View Central & Inner London jobs",
       }}
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
@@ -57,4 +63,3 @@ export default function Page() {
     />
   );
 }
-

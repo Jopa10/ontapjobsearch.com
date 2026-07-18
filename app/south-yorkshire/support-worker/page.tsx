@@ -22,6 +22,12 @@ export default function Page() {
       title="South Yorkshire Support Worker Roles"
       latestUpdate={getJobPageStatus(routeKey)}
       anchorTown="Sheffield"
+      relatedPage={{
+        href: "/west-yorkshire/support-worker",
+        prompt: "Also searching around West Yorkshire?",
+        label: "View West Yorkshire support-worker jobs",
+      }}
     />
   );
 }
+
