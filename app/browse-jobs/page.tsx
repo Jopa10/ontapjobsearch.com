@@ -80,18 +80,26 @@ const jobSections: BrowseSection[] = [
         statusClassName: activeStatusClassName,
       },
       {
-        title: 'North East Admin & Customer Service Jobs',
-        href: '/north-east/service-administrator-jobs',
+        title: 'Central & Inner London Admin & Customer Service Jobs',
+        href: '/london/service-administrator-jobs',
         description:
-          'Service administrator, customer service administrator and office support roles across Newcastle and the North East.',
+          'Service administrator, customer service administrator and office support roles across Central and Inner London.',
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
       {
-        title: 'London Admin & Customer Service Jobs',
-        href: '/london/service-administrator-jobs',
+        title: 'Outer London Admin & Customer Service Jobs',
+        href: '/london/outer-service-administrator-jobs',
         description:
-          'Service administrator, customer service administrator and office support roles across London.',
+          'Service administrator, customer service administrator and office support roles across Outer London.',
+        status: 'Active current supply',
+        statusClassName: activeStatusClassName,
+      },
+      {
+        title: 'North East Admin & Customer Service Jobs',
+        href: '/north-east/service-administrator-jobs',
+        description:
+          'Service administrator, customer service administrator and office support roles across Newcastle and the North East.',
         status: 'Active current supply',
         statusClassName: activeStatusClassName,
       },
