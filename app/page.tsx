@@ -173,6 +173,23 @@ const supportWorkerSlices: SliceCard[] = [
   }),
 ];
 
+const londonServiceAdministratorSlices: SliceCard[] = [
+  {
+    title: 'Central & Inner London Admin & Cust. Service Jobs',
+    intro: 'Current admin, office and service roles across Central and Inner London.',
+    ctaText: 'View Central & Inner London jobs →',
+    sliceUrl: '/london/service-administrator-jobs',
+    jobs: centralInnerLondonServiceAdministratorJobs,
+  },
+  {
+    title: 'Outer London Admin & Cust. Service Jobs',
+    intro: 'Current admin, office and service roles across Outer London.',
+    ctaText: 'View Outer London jobs →',
+    sliceUrl: '/london/outer-service-administrator-jobs',
+    jobs: outerLondonServiceAdministratorJobs,
+  },
+];
+
 const serviceAdministratorSlices: SliceCard[] = [
   {
     title: 'West Yorkshire Admin & Customer Service Jobs',
@@ -187,20 +204,6 @@ const serviceAdministratorSlices: SliceCard[] = [
     ctaText: 'View South Yorkshire jobs →',
     sliceUrl: '/south-yorkshire/service-administrator-jobs',
     jobs: southYorkshireServiceAdministratorJobs,
-  },
-  {
-    title: 'Central & Inner London Admin & Customer Service Jobs',
-    intro: 'Current admin, office and service roles across Central and Inner London.',
-    ctaText: 'View Central & Inner London jobs →',
-    sliceUrl: '/london/service-administrator-jobs',
-    jobs: centralInnerLondonServiceAdministratorJobs,
-  },
-  {
-    title: 'Outer London Admin & Customer Service Jobs',
-    intro: 'Current admin, office and service roles across Outer London.',
-    ctaText: 'View Outer London jobs →',
-    sliceUrl: '/london/outer-service-administrator-jobs',
-    jobs: outerLondonServiceAdministratorJobs,
   },
   {
     title: 'North East Admin & Customer Service Jobs',
@@ -219,7 +222,7 @@ const serviceAdministratorSlices: SliceCard[] = [
 ];
 
 function CardHeading({ title }: { title: string }) {
-  return <h3 className="mb-1 text-lg font-semibold leading-tight lg:whitespace-nowrap">{title}</h3>;
+  return <h3 className="mb-1 text-lg font-semibold leading-tight">{title}</h3>;
 }
 
 function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
@@ -228,7 +231,7 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
       {cards.map((card) => (
         <section
           key={card.sliceUrl}
-          className="rounded-xl border border-gray-200 p-2.5 hover:border-blue-300 hover:bg-blue-50"
+          className="rounded-xl border border-gray-200 bg-white p-2.5 hover:border-blue-300 hover:bg-blue-50"
         >
           <CardHeading title={card.title} />
 
@@ -252,6 +255,17 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
           </div>
         </section>
       ))}
+    </div>
+  );
+}
+
+function LondonSliceGroup() {
+  return (
+    <div className="rounded-xl border border-blue-200 bg-blue-50 p-3">
+      <div className="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-sm font-semibold text-white">
+        London admin & customer-service jobs
+      </div>
+      <SliceCardGrid cards={londonServiceAdministratorSlices} />
     </div>
   );
 }
@@ -320,7 +334,10 @@ export default function Page() {
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
             Active service administrator jobs
           </h2>
-          <SliceCardGrid cards={serviceAdministratorSlices} />
+          <LondonSliceGroup />
+          <div className="mt-3">
+            <SliceCardGrid cards={serviceAdministratorSlices} />
+          </div>
         </section>
 
         <section className="mt-12">
