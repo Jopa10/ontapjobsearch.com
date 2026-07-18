@@ -198,10 +198,11 @@ PUBLISH_THRESHOLDS = {
     "Cumbria - South": 6,
 }
 
+# Detailed clusters that roll up into the combined public North East page.
+# Tees Valley stays mapped separately in REGION_MAP for possible future use.
 NORTH_EAST_DETAILED_REGIONS = [
     "North East - Tyneside, Wearside & Northumberland",
     "North East - County Durham & Darlington/Hartlepool",
-    "North East - Tees Valley",
 ]
 
 PUBLISH_REGION_BY_DETAIL_REGION = {
