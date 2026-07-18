@@ -20,6 +20,8 @@ export type PublishedJob = {
   source: string;
   working_arrangement: string;
   working_arrangement_text: string;
+  slice_path: string;
+  slice_label: string;
 };
 
 const APP_DIRECTORY = path.join(process.cwd(), "app");
@@ -44,8 +46,43 @@ function isPublishedJob(value: unknown): value is Record<string, unknown> {
   return Boolean(text(row.job_id) && text(row.title) && text(row.apply_url));
 }
 
-function normaliseJob(row: Record<string, unknown>): PublishedJob {
+function sourceSlice(filePath: string, region: string) {
+  const jsonRoute = path
+    .relative(APP_DIRECTORY, filePath)
+    .replace(/\\/g, "/")
+    .replace(/\.json$/, "");
+  const candidates = [jsonRoute];
+
+  if (jsonRoute.endsWith("-jobs")) {
+    candidates.push(jsonRoute.slice(0, -"-jobs".length));
+  }
+
+  for (const route of candidates) {
+    const pagePath = path.join(APP_DIRECTORY, ...route.split("/"), "page.tsx");
+    if (!fs.existsSync(pagePath)) continue;
+
+    let label = region ? `${region} Jobs` : "Browse jobs";
+    try {
+      const pageSource = fs.readFileSync(pagePath, "utf8");
+      const titleMatch = pageSource.match(/\btitle="([^"]+)"/);
+      if (titleMatch) label = titleMatch[1];
+    } catch {
+      // The route still exists, so retain the region-based fallback label.
+    }
+
+    if (route.endsWith("/service-administrator-jobs")) {
+      label = `${region || "London"} Admin & Customer Service Jobs`;
+    }
+
+    return { path: `/${route}`, label };
+  }
+
+  return { path: "/browse-jobs", label: "Browse jobs" };
+}
+
+function normaliseJob(row: Record<string, unknown>, filePath: string): PublishedJob {
   const description = text(row.full_description) || text(row.description);
+  const slice = sourceSlice(filePath, text(row.region));
 
   return {
     job_id: text(row.job_id),
@@ -66,6 +103,8 @@ function normaliseJob(row: Record<string, unknown>): PublishedJob {
     source: text(row.source) || "JobG8",
     working_arrangement: text(row.working_arrangement),
     working_arrangement_text: text(row.working_arrangement_text),
+    slice_path: slice.path,
+    slice_label: slice.label,
   };
 }
 
@@ -87,7 +126,7 @@ export function getPublishedJobs(): PublishedJob[] {
     if (!Array.isArray(parsed)) continue;
     for (const row of parsed) {
       if (!isPublishedJob(row)) continue;
-      const job = normaliseJob(row);
+      const job = normaliseJob(row, filePath);
       if (!byId.has(job.job_id)) byId.set(job.job_id, job);
     }
   }
