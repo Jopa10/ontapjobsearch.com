@@ -30,7 +30,7 @@ job_id: ca94f2ef-9003-4685-ad93-7271c45f7edf
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £31000 per year | PERSONAL ASSISTANT
 job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 ---
@@ -42,13 +42,13 @@ job_id: 107521956
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
 job_id: 107532972
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Pontefract | £90 - £95 per daily | Complex Needs Support Worker
 job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 ---
@@ -60,25 +60,25 @@ job_id: 107616819
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Holmfirth | £13.75 per hour | Bank Support Worker
 job_id: 1401783630
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Holmfirth | £27394 per year | Complex care assistant
 job_id: 107651994
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £27976 per year (+£60 per sleep-in)) | Residential Support Worker
 job_id: 1401783720
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £93 - £105 per daily | Children's Residential Support Worker
 job_id: 4c07aee5-7024-4cb3-b344-dfaecadb7a09
 ---
@@ -240,7 +240,7 @@ job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £22.5 per hour | Children and Young Person's Support Worker
 job_id: 9ed3947e-ae04-40a4-99b7-72e52e4abc88
 ---
@@ -270,7 +270,7 @@ job_id: b7840ef4-1093-4ad9-8984-e88d1a01242c
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
 job_id: 98cda2a5-886d-4473-a300-ed52b21dd240
 ---
@@ -312,7 +312,7 @@ job_id: 828e85e8-bc5c-4940-ab8c-465ede281493
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
 job_id: bef21be3-da1e-45e3-b5f3-40683d5be526
 ---
