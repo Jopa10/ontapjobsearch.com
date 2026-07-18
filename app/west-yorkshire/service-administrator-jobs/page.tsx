@@ -46,9 +46,15 @@ export default function Page() {
       title="West Yorkshire Service Administrator Jobs"
       latestUpdate={getJobPageStatus(routeKey)}
       anchorTown="Leeds"
+      relatedPage={{
+        href: "/south-yorkshire/service-administrator-jobs",
+        prompt: "Also searching around South Yorkshire?",
+        label: "View South Yorkshire admin & customer-service jobs",
+      }}
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
     />
   );
 }
+
