@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { getLondonJobArea } from "@/lib/london-job-area";
 
 export type PublishedJob = {
   job_id: string;
@@ -46,12 +47,36 @@ function isPublishedJob(value: unknown): value is Record<string, unknown> {
   return Boolean(text(row.job_id) && text(row.title) && text(row.apply_url));
 }
 
-function sourceSlice(filePath: string, region: string) {
+function sourceSlice(
+  filePath: string,
+  region: string,
+  row: Record<string, unknown>
+) {
   const jsonRoute = path
     .relative(APP_DIRECTORY, filePath)
     .replace(/\\/g, "/")
     .replace(/\.json$/, "");
   const candidates = [jsonRoute];
+
+  if (jsonRoute === "london/service-administrator-jobs") {
+    const londonArea = getLondonJobArea({
+      title: text(row.title),
+      location: text(row.location),
+      description: text(row.full_description) || text(row.description),
+    });
+
+    if (londonArea === "outer") {
+      return {
+        path: "/london/outer-service-administrator-jobs",
+        label: "Outer London Admin & Customer Service Jobs",
+      };
+    }
+
+    return {
+      path: "/london/service-administrator-jobs",
+      label: "Central & Inner London Admin & Customer Service Jobs",
+    };
+  }
 
   if (jsonRoute.endsWith("-jobs")) {
     candidates.push(jsonRoute.slice(0, -"-jobs".length));
@@ -82,7 +107,7 @@ function sourceSlice(filePath: string, region: string) {
 
 function normaliseJob(row: Record<string, unknown>, filePath: string): PublishedJob {
   const description = text(row.full_description) || text(row.description);
-  const slice = sourceSlice(filePath, text(row.region));
+  const slice = sourceSlice(filePath, text(row.region), row);
 
   return {
     job_id: text(row.job_id),
