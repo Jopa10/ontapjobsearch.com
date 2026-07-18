@@ -261,8 +261,8 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
 
 function LondonSliceGroup() {
   return (
-    <div className="rounded-xl border border-blue-200 bg-blue-50 p-3">
-      <div className="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-sm font-semibold text-white">
+    <div className="rounded-xl border border-gray-200 bg-gray-50 p-3">
+      <div className="mb-3 border-b border-gray-200 pb-2 text-sm font-semibold text-gray-600">
         London admin & customer-service jobs
       </div>
       <SliceCardGrid cards={londonServiceAdministratorSlices} />
@@ -334,9 +334,11 @@ export default function Page() {
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
             Active service administrator jobs
           </h2>
-          <LondonSliceGroup />
-          <div className="mt-3">
+          <div>
             <SliceCardGrid cards={serviceAdministratorSlices} />
+          </div>
+          <div className="mt-3">
+            <LondonSliceGroup />
           </div>
         </section>
 
