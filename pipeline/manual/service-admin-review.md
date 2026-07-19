@@ -446,13 +446,13 @@ job_id: b8837c50-15c8-4606-a98d-94f9bd1d61f6
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Darlington | £26000 per year | HR Administrator
 job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Darlington | £13.75 per hour | Sales Administrator
 job_id: 8b01429e-cff6-4954-b0b1-cf096be4838b
 ---
@@ -852,7 +852,7 @@ job_id: c5d96f98-5957-49dd-a820-1562582caf76
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 - £40000 per year | Academic Administrator
 job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
