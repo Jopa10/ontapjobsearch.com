@@ -391,6 +391,12 @@ job_id: 107595243
 
 ---
 action: select
+SELECTED | North East | Darlington | £26000 per year | HR Administrator
+job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
+---
+
+---
+action: select
 SELECTED | North East | Newcastle Upon Tyne | £27000 - £30000 per year | Pensions Administrator (defined benefit)
 job_id: f27af97e-5429-44ed-973e-9325787dece3
 ---
@@ -425,6 +431,12 @@ SELECTED | North East | Gateshead | £28000 per year | HR Administrator - Gatesh
 job_id: 9307e3ea-1077-4140-9bc7-281fbfc59147
 ---
 
+---
+action: select
+SELECTED | North East | Darlington | £13.75 per hour | Sales Administrator
+job_id: 8b01429e-cff6-4954-b0b1-cf096be4838b
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -443,18 +455,6 @@ job_id: cc2cfdb4-88d4-4337-8e80-15aca763cf14
 action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | IFA Administrator
 job_id: b8837c50-15c8-4606-a98d-94f9bd1d61f6
----
-
----
-action: select
-POSS - NORTH EAST | North East | Darlington | £26000 per year | HR Administrator
-job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
----
-
----
-action: select
-POSS - NORTH EAST | North East | Darlington | £13.75 per hour | Sales Administrator
-job_id: 8b01429e-cff6-4954-b0b1-cf096be4838b
 ---
 
 ---
@@ -523,6 +523,12 @@ job_id: b1cd6534-0cc7-47a9-92b2-2c663e7451be
 action: select
 SELECTED | London | London | £28000 - £35000 per year | Patient Coordinator
 job_id: ae8f6386-56f4-4fe2-b1dd-c734c98e586a
+---
+
+---
+action: select
+SELECTED | London | London | £35000 - £40000 per year | Academic Administrator
+job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
 
 ---
@@ -849,12 +855,6 @@ job_id: 42f2808f-43ea-45ed-b1cf-4b387896856a
 action:
 POSS - LONDON | London | London |  | Commercial Property Legal Secretary
 job_id: c5d96f98-5957-49dd-a820-1562582caf76
----
-
----
-action: select
-POSS - LONDON | London | London | £35000 - £40000 per year | Academic Administrator
-job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
 
 ---
