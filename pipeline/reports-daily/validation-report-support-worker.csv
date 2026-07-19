@@ -1,11 +1,11 @@
 ﻿metric,value
-total rows input,3415
-total rows included,57
-total rows dropped,3335
-title classification count - HIGH_CONFIDENCE,317
-title classification count - ELASTIC_FIT,200
+total rows input,3372
+total rows included,58
+total rows dropped,3296
+title classification count - HIGH_CONFIDENCE,312
+title classification count - ELASTIC_FIT,199
 title classification count - REVIEW_CONTEXT_DEPENDENT,9
-title classification count - HARD_PASS,1929
+title classification count - HARD_PASS,1892
 title classification count - OUT_OF_SCOPE,960
 selection scenario - Yorkshire - West,SCENARIO_MANUAL_RERUN
 selection message - Yorkshire - West,Yorkshire - West manual rerun: 10 current-feed manual_select row(s) applied; 10 selected. Routine auto-selection disabled.
@@ -25,10 +25,10 @@ total rows output - Yorkshire - South,6
 job_id included - Yorkshire - South,c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9; b5ac469f-15a9-4c54-97f2-b2a0b67bebdc; 93a659b4-21d0-4e06-85fd-703137369524; 7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c; dedf05f4-9dec-4b6a-b8c5-342496f8deba; 7b6cf00b-f568-4a73-a73b-963fc4b20e26
 selection scenario - North East,SCENARIO_MANUAL_RERUN
 selection message - North East,North East manual rerun: 14 current-feed manual_select row(s) applied; 14 selected. Routine auto-selection disabled.
-credible total - North East,35
-high confidence count - North East,14
+credible total - North East,30
+high confidence count - North East,12
 anchor elastic count - North East,2
-other elastic count - North East,19
+other elastic count - North East,16
 total rows output - North East,14
 job_id included - North East,107616541; f7fb1824-d44c-47c4-955c-4682b9f1b86c; ba8e0ae5-050c-4969-b34e-fc3c6489b496; 9ed3947e-ae04-40a4-99b7-72e52e4abc88; e4c5eb7c-fcec-4da9-8221-f2ac41472c9d; 98cda2a5-886d-4473-a300-ed52b21dd240; 107617093; 107615864; 107652248; f4341270-8583-4fe9-8839-0a7556a6617f; af82616a-b889-4ed7-9bf5-ac1d54110402; cc229c96-2589-4d10-9ad8-bf7dea254f59; bef21be3-da1e-45e3-b5f3-40683d5be526; 107539241
 selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
@@ -40,10 +40,10 @@ other elastic count - Sussex,8
 total rows output - Sussex,23
 job_id included - Sussex,f904dd5a-98c0-42fc-b665-bf56faab21ba; ebc70e88-0b55-4541-9a7e-808faac32e58; 86901b4e-c38e-4356-bcdf-438123d57b3d; e60dfba1-b7bc-4bc9-bb23-43b6d26c6094; bb24c3ae-2587-456f-9fb6-eaf6226c2fcf; 7911979f-e083-4358-946e-98879570ba1e; 107680820; ea07d98d-3552-4477-805d-a42476b9f144; 107681269; d190e506-a8f8-4d6f-a0f2-1edef5b6612f; 9b554a1e-8704-4ffe-819e-ebddfb18a9fe; ba7f799b-28eb-4372-b972-0f1e14369fc8; a86e7bf0-44de-488d-9cbf-d0e0db0af758; a42a1600-795b-470d-b7a3-7d1af79a1fd6; a0917af0-ae11-4cae-b8ed-0c42eb8594a8; 107641522; 107657282; eab70bad-0ac6-4d3d-af24-612fcf31464d; d491ad80-3d80-4f29-870c-be4e4b22d42b; 1401783835; b1ea4e7d-5a13-43ff-bc09-d3106191ef2f; 9ab8651c-8d51-417d-8fa8-7995487cdcaf; 9820a840-95ba-4d0f-9ac4-10003dc0fa12
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Cumbria - South,4
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,5
 high confidence count - Cumbria - South,3
 anchor elastic count - Cumbria - South,1
-other elastic count - Cumbria - South,0
-total rows output - Cumbria - South,4
-job_id included - Cumbria - South,fc6489a2-8773-490a-b95c-4b7da8172356; a2c8c9dd-9614-4e95-8ad2-1ddb16043e99; 107652240; 107652275
+other elastic count - Cumbria - South,1
+total rows output - Cumbria - South,5
+job_id included - Cumbria - South,fc6489a2-8773-490a-b95c-4b7da8172356; a2c8c9dd-9614-4e95-8ad2-1ddb16043e99; 107652240; 107652275; 107572044
