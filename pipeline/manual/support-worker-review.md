@@ -213,10 +213,6 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.8
 job_id: 98cda2a5-886d-4473-a300-ed52b21dd240
 ---
 
-## NORTH EAST - TEES VALLEY — SELECTED
-
-_No jobs in this group._
-
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 ---
@@ -244,12 +240,6 @@ job_id: aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Newton Aycliffe | £14 - £29 per hour | Social Care Worker
-job_id: 107501464
----
 
 ---
 action:
@@ -321,32 +311,6 @@ job_id: 828e85e8-bc5c-4940-ab8c-465ede281493
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £15.5 - £20 per hour | Children and Young People Support Worker
 job_id: 96b7d446-8e01-4198-90bc-dc4c5427960c
----
-
-## NORTH EAST - TEES VALLEY — POSSIBLES
-
----
-action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Redcar | £26403 per year | Support Worker
-job_id: e75bb074-b7b2-4c04-8490-5679e3bde686
----
-
----
-action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Middlesbrough | £12.85 per hour | Relief Support Worker
-job_id: f8639c60-fd66-4dfb-a129-d0bda058fedd
----
-
----
-action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Redcar | £29350 per year | Complex care assistant
-job_id: 107616888
----
-
----
-action:
-POSS - NORTH EAST - TEES VALLEY | North East - Tees Valley | Stockton-on-tees | £12.85 per hour | Relief Support Worker
-job_id: 8dfb0b02-78a2-478d-bfa5-e66b167f4eb6
 ---
 
 ## SUSSEX — SELECTED
@@ -517,6 +481,12 @@ job_id: fc6489a2-8773-490a-b95c-4b7da8172356
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Community Support Worker
 job_id: a2c8c9dd-9614-4e95-8ad2-1ddb16043e99
+---
+
+---
+action:
+SELECTED | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
+job_id: 107572044
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES

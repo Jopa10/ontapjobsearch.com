@@ -177,12 +177,6 @@ SELECTED | Yorkshire - West | Bradford | £13 per hour | Temporary Administrator
 job_id: 84e1afd8-5264-4dcf-83de-51c15dd63979
 ---
 
----
-action: select
-SELECTED | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
-job_id: 107709815
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -303,12 +297,6 @@ job_id: d43602dc-56ec-41e9-942d-d4947b018b71
 
 ---
 action: select
-SELECTED | Yorkshire - South | Sheffield | £30000 per year | Workplace Operations Coordinator
-job_id: 107668923
----
-
----
-action: select
 SELECTED | Yorkshire - South | Sheffield | £12.71 per hour | Temporary Receptionist - Automotive Industry!
 job_id: c30c8b9f-2d5e-48b1-88c4-de9afc0084a2
 ---
@@ -335,6 +323,12 @@ job_id: a5e99a12-62d4-427c-a3a3-af869a5cb2ea
 action: select
 SELECTED | Yorkshire - South | Rotherham | £25000 per year | Loan Administrator
 job_id: 9eb9de2a-2674-49e2-841e-3afcc2458a7e
+---
+
+---
+action: select
+SELECTED | Yorkshire - South | Sheffield | £30000 per year | Workplace Operations Coordinator
+job_id: 107668923
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -465,18 +459,6 @@ job_id: 8b01429e-cff6-4954-b0b1-cf096be4838b
 
 ---
 action:
-POSS - NORTH EAST | North East | Middlesbrough | £21.49 per hour | Rent Administrator
-job_id: eec0b597-d00c-4cd3-91ee-38758e4477d7
----
-
----
-action:
-POSS - NORTH EAST | North East | Middlesbrough | £30000 per year | Administrator
-job_id: e0cede7c-eb70-46ec-879f-b7ac58103c73
----
-
----
-action:
 POSS - NORTH EAST | North East | Washington | £4 per month | Internal Sales Administrator
 job_id: c7a9ec69-dbbc-406b-bc5c-c86785dc0028
 ---
@@ -485,12 +467,6 @@ job_id: c7a9ec69-dbbc-406b-bc5c-c86785dc0028
 action:
 POSS - NORTH EAST | North East | Spennymoor |  | Internal Sales Administrator
 job_id: 9965df1d-32cb-4cf0-a560-90fa51eaf71a
----
-
----
-action:
-POSS - NORTH EAST | North East | Redcar | £10 - £13 per hour | Sales and Administration Assistant
-job_id: 7f7241c9-f6c3-4769-9bab-0d2034ea2fcf
 ---
 
 ## LONDON — SELECTED
@@ -565,12 +541,6 @@ job_id: 52ffc052-865e-4c73-be56-3b01746bacc9
 action: select
 SELECTED | London | London | £30000 - £35000 per year | Shipping Administration Coordinator
 job_id: 4b95051a-1afd-4f79-8df6-17d52006246e
----
-
----
-action: select
-SELECTED | London | London | £15 - £25 per hour | Primary School Administrator
-job_id: 548751ba-9f76-4d0f-a120-a2996c433c5d
 ---
 
 ---
@@ -821,12 +791,6 @@ job_id: 9e5c17ef-1d1c-4221-8565-1db5db2bda74
 
 ---
 action: select
-SELECTED | London | Uxbridge | £12.8 - £13 per hour | Data Entry / Administrator (Degree Educated)
-job_id: 9e3e5bc5-61a5-4e15-8d3f-382940064ede
----
-
----
-action: select
 SELECTED | London | London | £30000 - £33000 per year | Receptionist
 job_id: 9b37ac0f-f6b6-4c51-b40e-06c1d0614a99
 ---
@@ -847,12 +811,6 @@ job_id: 888558b2-6ca5-4316-a99f-e028067bf76d
 action: select
 SELECTED | London | Bexleyheath | £15.68 per hour | Complaints & FOI Business Support Officer
 job_id: 937b7ec1-5bfc-4049-affa-2cdaa4b013fa
----
-
----
-action: select
-SELECTED | London | London | £29000 per year | Administrative Coordinator
-job_id: 91c2ba89-af9e-443a-9f05-e408b3bc31e0
 ---
 
 ---
@@ -1117,12 +1075,6 @@ job_id: 81ad045b-63c8-4c78-a2c5-d5ca7eb3b90c
 
 ---
 action:
-POSS - LONDON | London | London | £19 - £21 per hour | Part-Time Secretary & Accounts Administrator
-job_id: 81074d84-ca84-4834-98ea-857a6a7427bc
----
-
----
-action:
 POSS - LONDON | London | London | £36000 - £42000 per year | IFA Administrator
 job_id: 8029efef-6900-4c42-9bd0-6c96a3353639
 ---
@@ -1137,12 +1089,6 @@ job_id: 801105e4-3d69-4bc3-81ae-7e30c542f80d
 action:
 POSS - LONDON | London | London | £35000 - £40000 per year | Mortgage and Protection Administrator
 job_id: 7da72e42-2515-4769-87a4-c8d13df150b2
----
-
----
-action:
-POSS - LONDON | London | London | £20 per hour | Office Administrator - Part Time TEMP
-job_id: 7b67d9b0-e3cb-405e-a0f8-002cdc121523
 ---
 
 ---
@@ -1183,12 +1129,6 @@ job_id: 51c04e89-ef80-496e-87ac-018aae61d75f
 
 ---
 action:
-POSS - LONDON | London | London | £39,685 - £43,978 per annum | Assistant Design & Technical Coordinator
-job_id: 107649502
----
-
----
-action:
 POSS - LONDON | London | London |  | Internal Communications & Executive Coordinator
 job_id: 107663038
 ---
@@ -1203,6 +1143,12 @@ job_id: 920deff1-36d0-49c9-96cd-973bcdc16115
 action:
 POSS - LONDON | London | London | £35000 - £48000 per year | Team Assistant/Office Coordinator
 job_id: 89c97a85-bcb5-4ae5-b40a-9cc21362070e
+---
+
+---
+action:
+POSS - LONDON | London | City |  | Corporate Services Operations Coordinator
+job_id: 107699141
 ---
 
 ## ACTIVE MANUAL ACTIONS
