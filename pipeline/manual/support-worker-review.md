@@ -248,25 +248,25 @@ job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Support Worker
 job_id: b909b59a-2804-4b0c-a15e-bf5b74a59db0
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13.15 per hour | Female Support Worker
 job_id: 9a8ce501-2608-4cea-8d23-991e3a045247
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
 job_id: bab161e8-749f-4c78-a3d7-164cd23a3308
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Ferryhill | £15 per hour | Female Support Worker
 job_id: b7840ef4-1093-4ad9-8984-e88d1a01242c
 ---
@@ -284,7 +284,7 @@ job_id: d3620d42-8f31-46d7-a414-d317a5f24a20
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £14.85 per hour | Children's Residential Support Worker
 job_id: cd3894a1-69a8-4a34-9958-51dd5b5a95f4
 ---
@@ -296,13 +296,13 @@ job_id: 8cf94350-e0e1-4c8b-b57d-afa66139d419
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13.91 per hour | Care Assistant - Complex Care
 job_id: 8c2bc592-cdc7-44b0-ac0e-a1d053add964
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Bank Support Worker
 job_id: 828e85e8-bc5c-4940-ab8c-465ede281493
 ---
