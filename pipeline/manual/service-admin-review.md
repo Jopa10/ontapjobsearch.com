@@ -240,7 +240,7 @@ job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
 job_id: 107709815
 ---
@@ -334,7 +334,7 @@ job_id: 107668923
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: 
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £15 - £22 per hour | Medical Secretary with General Practice Experience
 job_id: bd1d91d2-2e07-40a8-9078-33295fc0d5c0
 ---
@@ -526,7 +526,7 @@ job_id: ae8f6386-56f4-4fe2-b1dd-c734c98e586a
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | London | London | £35000 - £40000 per year | Academic Administrator
 job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
