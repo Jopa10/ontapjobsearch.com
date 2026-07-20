@@ -177,6 +177,12 @@ SELECTED | Yorkshire - West | Bradford | £13 per hour | Temporary Administrator
 job_id: 84e1afd8-5264-4dcf-83de-51c15dd63979
 ---
 
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
+job_id: 107709815
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -237,12 +243,6 @@ job_id: b292ec3f-453b-4e00-b6ff-2456374c6000
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £15 per hour | Senior Administrator
 job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
-job_id: 107709815
 ---
 
 ---
@@ -334,7 +334,7 @@ job_id: 107668923
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action: 
+action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £15 - £22 per hour | Medical Secretary with General Practice Experience
 job_id: bd1d91d2-2e07-40a8-9078-33295fc0d5c0
 ---
@@ -523,12 +523,6 @@ job_id: b1cd6534-0cc7-47a9-92b2-2c663e7451be
 action: select
 SELECTED | London | London | £28000 - £35000 per year | Patient Coordinator
 job_id: ae8f6386-56f4-4fe2-b1dd-c734c98e586a
----
-
----
-action: exclude
-SELECTED | London | London | £35000 - £40000 per year | Academic Administrator
-job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
 
 ---
@@ -1163,6 +1157,12 @@ job_id: edfb6bfb-1af8-4aa8-bf4e-faad98367d1e
 action: exclude
 DROPPED | London | City Of Westminster | £34100 - £35055 per year (+ Benefits) | Payroll Administrator / Payroll Officer
 job_id: 1164743 [JSP51552]
+---
+
+---
+action: exclude
+DROPPED | London | London | £35000 - £40000 per year | Academic Administrator
+job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
 
 ---

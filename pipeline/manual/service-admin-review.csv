@@ -71,6 +71,7 @@ SELECTED,Yorkshire - West,Sales Administrator,Elland,,onsite_or_not_stated,,,,SE
 SELECTED,Yorkshire - West,Finance Administrator,Leeds,£26000 - £29000 per year,hybrid,Hybrid working,"Location: Leeds Contract: 12-month maternity cover Working pattern: Hybrid, 4 days office / 1 day home Salary: Competitive / dependent on experience Start: ASAP Leeds Yorkshire - West",,SELECT,945c313e-01b5-445d-aa83-7d61db5744d6
 SELECTED,Yorkshire - West,Team Administrator - School Hours,Leeds,£29000 per year,onsite_or_not_stated,,,,SELECT,93e46441-7a59-41a4-aa83-5e8fa103f15f
 SELECTED,Yorkshire - West,Temporary Administrator- Aftermarket Support,Bradford,£13 per hour,onsite_or_not_stated,,,,SELECT,84e1afd8-5264-4dcf-83de-51c15dd63979
+SELECTED,Yorkshire - West,Office & Compliance Coordinator,Leeds,£13.6 per hour,onsite_or_not_stated,,,,SELECT,107709815
 SELECTED,Yorkshire - South,Insolvency Case Administrator,Sheffield,£24000 - £35000 per year,onsite_or_not_stated,,,,SELECT,8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
 SELECTED,Yorkshire - South,Recruitment Onsite Operations Coordinator,Barnsley,£26000 per year,onsite_or_not_stated,,,,SELECT,107606837
 SELECTED,Yorkshire - South,Legal Secretary,Doncaster,£12.71 - £14 per hour,onsite_or_not_stated,,,,SELECT,9b5eeb38-4b88-44aa-880e-fed4e5403ace
@@ -93,7 +94,6 @@ SELECTED,London,People & Culture Administrator,London,£27500 - £29187 per year
 SELECTED,London,Primary School Administrator,London,£16 per hour,onsite_or_not_stated,,,,SELECT,5140fecd-b98a-4d9d-b35d-44c239c1d48a
 SELECTED,London,HR Administrator,London,£30000 - £34000 per year,hybrid,4 days in office,"This is a key operational role, supporting the full employee lifecycle and ensuring the accuracy, efficiency and compliance of HR processes on Workday.Responsibilities: - Manage onboarding, employee changes and offboarding processes through Workday, ensuring all documentation and records are accurate and compliant - Conduct Right to Work checks and maintain employee files in line with HR and legal requirements - Draft employee letters relating to contractual changes, employee relations matters and lifecycle events, communicating updates effectively to employees and payroll - Monitor fixed-term contract end dates, performance review processes and key HR workflows, escalating issues where required - Act as the first point of contact for employee and manager queries relating to Workday and HR processes - Generate regular and ad-hoc reports from Workday to support HR decision-making and business requirements - Support mobility programme administration, staff purchase requests and vendor creation/purchase order processes within SAP Finance - Work closely with the HRIS Manager to maintain HR systems, intranet content and support ongoing HR projects and process improvements - Ensure HR da",,SELECT,b1cd6534-0cc7-47a9-92b2-2c663e7451be
 SELECTED,London,Patient Coordinator,London,£28000 - £35000 per year,onsite_or_not_stated,,,,SELECT,ae8f6386-56f4-4fe2-b1dd-c734c98e586a
-SELECTED,London,Academic Administrator,London,£35000 - £40000 per year,onsite_or_not_stated,,,,SELECT,3863154f-7ddf-4d93-b79d-3f6e577a407f
 SELECTED,London,Part Time - Accounts Administrator,New Malden,£17000 - £17500 per year,onsite_or_not_stated,,,,SELECT,7ea819ef-37a5-4bc9-ac6b-04b786a3e75e
 SELECTED,London,Nights Export Administrator,West Drayton,£27000 - £28000 per year,onsite_or_not_stated,,,,SELECT,52ffc052-865e-4c73-be56-3b01746bacc9
 SELECTED,London,Shipping Administration Coordinator,London,£30000 - £35000 per year,onsite_or_not_stated,,,,SELECT,4b95051a-1afd-4f79-8df6-17d52006246e
@@ -146,5 +146,6 @@ SELECTED,London,Employee Benefits Administrator,London,£25000 - £31500 per yea
 SELECTED,London,Membership Services Administrator,London,£14 - £15.5 per hour,onsite_or_not_stated,,,,SELECT,8f225185-75cc-4cdc-9bcd-c933be24aeab
 DROPPED,Hampshire,Senior Windows Server Administrator,Southampton,£50000 - £70000 per year,,,,FORCE_EXCLUDE,,edfb6bfb-1af8-4aa8-bf4e-faad98367d1e
 DROPPED,London,Payroll Administrator / Payroll Officer,City Of Westminster,£34100 - £35055 per year (+ Benefits),,,,FORCE_EXCLUDE,,1164743 [JSP51552]
+DROPPED,London,Academic Administrator,London,£35000 - £40000 per year,,,,FORCE_EXCLUDE,,3863154f-7ddf-4d93-b79d-3f6e577a407f
 DROPPED,London,Payroll & Data Coordinator,London,£35000 per year,,,,FORCE_EXCLUDE,,107609016
 DROPPED,London,Receptionist - Full time - West End,London,£34000 - £36000 per year,,,,FORCE_EXCLUDE,,b3c7ca56-7031-4b79-acc4-204cd8fdfd5e
