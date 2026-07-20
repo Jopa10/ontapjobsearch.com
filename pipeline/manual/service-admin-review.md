@@ -241,6 +241,12 @@ job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
 
 ---
 action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £13.6 per hour | Office & Compliance Coordinator
+job_id: 107709815
+---
+
+---
+action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £45000 per year | Office Management and Operations Coordinator
 job_id: 107624932
 ---
@@ -305,12 +311,6 @@ job_id: c30c8b9f-2d5e-48b1-88c4-de9afc0084a2
 action: select
 SELECTED | Yorkshire - South | Rotherham | £26000 - £29000 per year | Customer Service Admin
 job_id: b6d59678-9609-4c19-acf3-5559db81c9e9
----
-
----
-action: select
-SELECTED | Yorkshire - South | Sheffield | £25977 per year | Finance Administrator
-job_id: aa1fd782-248b-4fcd-aa69-4899a7cb89d6
 ---
 
 ---
@@ -831,12 +831,6 @@ SELECTED | London | London | £14 - £15.5 per hour | Membership Services Admini
 job_id: 8f225185-75cc-4cdc-9bcd-c933be24aeab
 ---
 
----
-action: select
-SELECTED | London | London | £24000 - £25000 per year | Office Assistant
-job_id: 7abb359e-d0e3-4cf5-b57e-63379dd18d53
----
-
 ## LONDON — POSSIBLES
 
 ---
@@ -1089,6 +1083,12 @@ job_id: 801105e4-3d69-4bc3-81ae-7e30c542f80d
 action:
 POSS - LONDON | London | London | £35000 - £40000 per year | Mortgage and Protection Administrator
 job_id: 7da72e42-2515-4769-87a4-c8d13df150b2
+---
+
+---
+action:
+POSS - LONDON | London | London | £17 per hour | Temporary Receptionist (Fire Marshal and First aid) Tech firm
+job_id: 8c12ca8b-14a8-40d6-8fed-b8f5f02b39cb
 ---
 
 ---

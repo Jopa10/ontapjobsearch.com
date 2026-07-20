@@ -23,12 +23,6 @@ job_id: 1401783720
 
 ---
 action: select
-SELECTED | Yorkshire - West | Holmfirth | £27394 per year | Complex care assistant
-job_id: 107651994
----
-
----
-action: select
 SELECTED | Yorkshire - West | Bradford | £15 per hour | Hourly Care Assistant to Games Development graduate
 job_id: 107532972
 ---
@@ -67,6 +61,12 @@ job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 action: select
 SELECTED | Yorkshire - West | Bradford | £12.85 per hour | Relief Support Worker
 job_id: ca94f2ef-9003-4685-ad93-7271c45f7edf
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Holmfirth | £27394 per year | Complex care assistant
+job_id: 107651994
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -129,12 +129,6 @@ _No jobs in this group._
 
 ---
 action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
-job_id: 107617093
----
-
----
-action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
 job_id: 107616541
 ---
@@ -163,18 +157,18 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 p
 job_id: af82616a-b889-4ed7-9bf5-ac1d54110402
 ---
 
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
+job_id: 107617093
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
 job_id: 107615864
----
-
----
-action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107652248
 ---
 
 ---
@@ -291,12 +285,6 @@ job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £20 per hour | Children and Young People Support Worker
-job_id: a091384d-aaa0-4187-a776-aaa3779a3f53
----
-
----
-action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Barnard Castle | £15.5 - £20 per hour | Children and Young People Support Worker
 job_id: d3620d42-8f31-46d7-a414-d317a5f24a20
 ---
@@ -311,6 +299,12 @@ job_id: 8cf94350-e0e1-4c8b-b57d-afa66139d419
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £15.5 - £20 per hour | Children and Young People Support Worker
 job_id: 96b7d446-8e01-4198-90bc-dc4c5427960c
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £20 per hour | Children and Young People Support Worker
+job_id: a091384d-aaa0-4187-a776-aaa3779a3f53
 ---
 
 ## SUSSEX — SELECTED
@@ -361,12 +355,6 @@ job_id: eab70bad-0ac6-4d3d-af24-612fcf31464d
 action:
 SELECTED | Sussex | Eastbourne | £13.8 - £14.49 per hour | Care Assistant
 job_id: ea07d98d-3552-4477-805d-a42476b9f144
----
-
----
-action:
-SELECTED | Sussex | Newhaven | £30000 per year | Residential Support Worker - Children's Home
-job_id: 107681269
 ---
 
 ---
@@ -463,12 +451,6 @@ _No jobs in this group._
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107652240
----
-
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 107652275
 ---
 
 ---
