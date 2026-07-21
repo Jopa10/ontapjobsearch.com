@@ -182,6 +182,8 @@ export default async function JobPage({ params }: PageProps) {
             job_id={job.job_id}
             title={job.title}
             location={job.location}
+            region={job.region}
+            slice_path={job.slice_path}
           />
         </div>
 
@@ -196,6 +198,8 @@ export default async function JobPage({ params }: PageProps) {
             job_id={job.job_id}
             title={job.title}
             location={job.location}
+            region={job.region}
+            slice_path={job.slice_path}
           />
         </div>
 
