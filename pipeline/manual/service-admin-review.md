@@ -41,12 +41,6 @@ job_id: fdbb2948-fc07-4b1f-9d12-2c22fbf7026c
 
 ---
 action: select
-SELECTED | Yorkshire - West | Brighouse | £27000 - £32000 per year | HR Administrator
-job_id: fb4db97f-50df-4d11-888f-437fc67b703c
----
-
----
-action: select
 SELECTED | Yorkshire - West | Leeds | £26500 - £28000 per year | Processing Administrator
 job_id: f2480c5c-88cd-470d-8c28-1bc7c9d54fc6
 ---
@@ -119,12 +113,6 @@ job_id: b03765bd-1521-498a-8040-958c3eabf6b0
 
 ---
 action: select
-SELECTED | Yorkshire - West | Elland | £25000 - £26000 per year | Sales & Office Administrator
-job_id: af49287d-a0e2-48d4-bfad-e89e9c2137ee
----
-
----
-action: select
 SELECTED | Yorkshire - West | Keighley | £13.33 - £13.85 per hour | Data Administrator
 job_id: af178fc4-f738-4009-80f8-5cc73b7fbe60
 ---
@@ -187,12 +175,6 @@ job_id: 107709815
 
 ---
 action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £33000 per year | Insolvency Administrator
-job_id: 589df823-df54-48cf-ba4b-dc3ef93ee05f
----
-
----
-action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £200 - £220 per daily | Data Protection Administrator
 job_id: ffb0d3a3-4804-45f1-8764-5943838d9003
 ---
@@ -223,14 +205,38 @@ job_id: 8c5c01ae-4118-4922-84ba-d04efe68e673
 
 ---
 action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £35000 per year | Senior Client Support Administrator Financial Services
-job_id: 107705925
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £29000 - £30000 per year | Financial Planning Administrator
+job_id: 7bd0cb0b-9fb6-4d54-839b-27f5cf8ec03d
 ---
 
 ---
 action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £29000 - £30000 per year | Financial Planning Administrator
-job_id: 7bd0cb0b-9fb6-4d54-839b-27f5cf8ec03d
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £25000 - £28000 per year | Customer Administrator
+job_id: 711065d2-cf75-4cdc-b332-1d93ce19d73e
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £29000 per year | Team Administrator - Parking on Site
+job_id: 697d8570-8149-49c8-ae90-0c06b6888f2c
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £27000 - £33000 per year | Ifa Administrator
+job_id: 67d2d2dd-fc1a-438a-9393-a2bd69861ffa
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds |  | Insurance Broking Accounts Administrator (I-REC)
+job_id: 5f121748-e727-4979-aa7a-0b9415ecac70
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £35000 per year | Senior Client Support Administrator Financial Services
+job_id: 107705925
 ---
 
 ---
@@ -241,8 +247,44 @@ job_id: b292ec3f-453b-4e00-b6ff-2456374c6000
 
 ---
 action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Wetherby | £28000 - £30000 per year | Team Administrator - Wetherby
+job_id: 59c568c5-9505-4496-9dac-1f4ae2686b6a
+---
+
+---
+action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £15 per hour | Senior Administrator
 job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £27000 - £29993 per year | Project Administrator
+job_id: 6ab6556c-e5a0-4944-b838-95efb7c2b4bd
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £12.7 - £13 per hour | Junior Office Administrator
+job_id: 6415e3f2-97a6-4926-89a2-49e1a07dd954
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £30000 - £34000 per year | Financial Planning Administrator
+job_id: 1d0b163b-35b0-4a1f-bd00-f677b942ff5e
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Elland |  | Breakdown Administrator
+job_id: 6447a876-1837-40b5-9078-a5367830ea0f
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £16 - £18 per hour | Temporary Project Coordinator
+job_id: 6f659804-eb7e-449d-b480-7453b3f06de3
 ---
 
 ---
@@ -255,20 +297,8 @@ job_id: 107624932
 
 ---
 action: select
-SELECTED | Yorkshire - South | Sheffield | £24000 - £35000 per year | Insolvency Case Administrator
-job_id: 8fc5aa78-853e-49c6-9a8d-1d97b0a379fb
----
-
----
-action: select
 SELECTED | Yorkshire - South | Barnsley | £26000 per year | Recruitment Onsite Operations Coordinator
 job_id: 107606837
----
-
----
-action: select
-SELECTED | Yorkshire - South | Doncaster | £12.71 - £14 per hour | Legal Secretary
-job_id: 9b5eeb38-4b88-44aa-880e-fed4e5403ace
 ---
 
 ---
@@ -341,12 +371,6 @@ job_id: bd1d91d2-2e07-40a8-9078-33295fc0d5c0
 
 ---
 action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £13.17 per hour | Pensions Administrator (Bereavments Team) - Sheffield
-job_id: da78b594-604f-456c-a31a-8a9ff9237d21
----
-
----
-action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £27000 - £30000 per year | Financial Services Administrator
 job_id: d5ecf20b-c42e-498c-8015-1ebfe4d0511c
 ---
@@ -365,8 +389,32 @@ job_id: baa13983-239e-44fc-b687-d84c57eb55db
 
 ---
 action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £26000 - £27000 per year | Sales Administrator
+job_id: 6c89e2d9-e831-4f2b-b050-ecd61ea03caf
+---
+
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £22000 - £35000 per year | Financial Services Administrator
+job_id: 61874f47-6de5-49db-beac-564013ba9a95
+---
+
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £28000 - £30000 per year | Import / Export Administrator
+job_id: a526338b-ed95-47c7-889c-44b5c4aff404
+---
+
+---
+action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Rotherham | £35000 - £40000 per year | Health & Safety Administrator (Consultancy)
 job_id: e213c83d-5e71-4c29-bc1e-7a894cfa67aa
+---
+
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Rotherham | £28000 - £30000 per year | Planning Administrator
+job_id: 6bb16486-f0dc-4b37-8fbf-7b48bd388d65
 ---
 
 ---
@@ -381,18 +429,6 @@ job_id: 107667796
 action: select
 SELECTED | North East | Hebburn | £13 - £14 per hour | Accounts Administrator
 job_id: 364f7202-fbb5-4390-90c1-bf45e1a277ac
----
-
----
-action: select
-SELECTED | North East | Houghton Le Spring | £30000 per year | Asbestos Administrator / Project Coordinator
-job_id: 107595243
----
-
----
-action: select
-SELECTED | North East | Darlington | £26000 per year | HR Administrator
-job_id: b59a1f4f-9303-4f1f-82ce-fd708e8e44bc
 ---
 
 ---
@@ -437,6 +473,12 @@ SELECTED | North East | Darlington | £13.75 per hour | Sales Administrator
 job_id: 8b01429e-cff6-4954-b0b1-cf096be4838b
 ---
 
+---
+action: select
+SELECTED | North East | Houghton Le Spring | £30000 per year | Asbestos Administrator / Project Coordinator
+job_id: 107595243
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -467,6 +509,54 @@ job_id: c7a9ec69-dbbc-406b-bc5c-c86785dc0028
 action:
 POSS - NORTH EAST | North East | Spennymoor |  | Internal Sales Administrator
 job_id: 9965df1d-32cb-4cf0-a560-90fa51eaf71a
+---
+
+---
+action:
+POSS - NORTH EAST | North East | County Durham | £24000 - £25350 per year | Sales Administrator
+job_id: d013f62d-f6a6-48c5-96a3-5c918b628dec
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Alnwick | £12 per hour | Call Centre/Admin Assistant
+job_id: 267621bb-9866-4533-bfe2-c572c8ffc1ea
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Cramlington | £31000 - £340000 per year | IFA Administrator
+job_id: 76859320-21f7-42da-a900-a42405d67129
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Cramlington |  | Purchasing Administrator
+job_id: e7a9b51c-2698-4fde-9c96-5700106868e5
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Hartlepool | £12.71 per hour | Temporary Administrator - Immediate start
+job_id: 706dc61c-8f20-469d-bd69-d82307430cf1
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Hartlepool | £19196 per year | Clerical Officer
+job_id: 16501b8c-5a8e-47e1-8cf5-81f01f8565d4
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Durham | £28142 - £31022 per year | School Office Manager - Durham - FTC
+job_id: 5ecb4bc5-00f7-484e-9670-957d9245e23d
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Bishop Auckland | £26000 - £28000 per year | Customer Service Administrator
+job_id: 5b8db6c3-53b1-40ed-a126-ba66f16e0993
 ---
 
 ## LONDON — SELECTED
@@ -605,12 +695,6 @@ job_id: f9f87ff6-84cf-43ac-bd6b-70599a386639
 
 ---
 action: select
-SELECTED | London | London | £25000 - £37000 per year | Mortgage Administrator
-job_id: f316d9fd-1508-42d8-9ec7-a9aa598b340e
----
-
----
-action: select
 SELECTED | London | London |  | Administrative Assistant
 job_id: f1ba36fe-09d8-4779-a3d6-443601e069fe
 ---
@@ -637,12 +721,6 @@ job_id: ecafeb7a-6c0c-4e55-9b8e-6cc1e872fb01
 action: select
 SELECTED | London | London | £15 - £16 per hour | Merchandising Administrator
 job_id: ebb40fde-75a8-43c5-8f8c-50211f5f594e
----
-
----
-action: select
-SELECTED | London | Harrow | £15.36 per hour | Extra Care Support Coordinator
-job_id: 107652249
 ---
 
 ---
@@ -701,12 +779,6 @@ job_id: d301bdd5-5c16-4b18-aab4-0b62c66574b6
 
 ---
 action: select
-SELECTED | London | London | £15 - £17 per hour | School Receptionist
-job_id: f56c816f-17cd-4687-9780-f0e320022607
----
-
----
-action: select
 SELECTED | London | London | £24000 - £26000 per year | Bookings Coordinator
 job_id: cd03aed6-abeb-4e93-98c1-aa4d6f69da1a
 ---
@@ -737,12 +809,6 @@ job_id: c028b2f9-ffb7-4fbc-a2df-8e542d13acdd
 
 ---
 action: select
-SELECTED | London | London | £14 - £14.5 per hour | Complaints Administrator
-job_id: bfc3ce95-f685-4ee5-9328-67a280f0849b
----
-
----
-action: select
 SELECTED | London | London | £28000 - £30000 per year | Sales and Operations Administrator
 job_id: bcf39daa-2626-4711-a2b0-d49204af6df7
 ---
@@ -757,12 +823,6 @@ job_id: b8e6203a-6935-4c48-aad1-a9db5326b5aa
 action: select
 SELECTED | London | London | £25000 - £27000 per year | Administrative Assistant
 job_id: b4184cb3-87d8-43fc-953f-73e8379b5b5e
----
-
----
-action: select
-SELECTED | London | London | £26000 - £30000 per year | Office Assistant
-job_id: a9bf0396-642b-4570-8e33-c4d4a1203521
 ---
 
 ---
@@ -931,12 +991,6 @@ job_id: bc1b8e05-397f-4cf5-b8a6-3dced5216d0f
 
 ---
 action:
-POSS - LONDON | London | London | £30000 - £50000 per year | Russian-speaking Office Assistant/PA
-job_id: b6c40c9d-b94f-4634-af6e-495e3809f6b6
----
-
----
-action:
 POSS - LONDON | London | London | £22 per hour | Contracts Administrator Needed
 job_id: b4ec1a2c-dc26-4a5b-a5dc-5699341bc6dc
 ---
@@ -979,12 +1033,6 @@ job_id: 97ca6bd0-fca0-41b3-97fa-a03277d8cbfc
 
 ---
 action:
-POSS - LONDON | London | London | £32000 - £36000 per year | Lettings Administrator/Receptionist
-job_id: 91ac4f28-e290-4987-9862-71e7cf7ddf92
----
-
----
-action:
 POSS - LONDON | London | London | £32000 - £38000 per year | Wealth Management Administrator
 job_id: 9135c392-469d-4837-a488-bc242d60b397
 ---
@@ -1017,12 +1065,6 @@ job_id: 8db15623-0af6-43e2-8b60-350abb304690
 action:
 POSS - LONDON | London | London | £30000 - £35000 per year | IFA Administrator
 job_id: 8b40a0bc-41b6-4059-87b5-6421d4451490
----
-
----
-action:
-POSS - LONDON | London | London |  | Lab Administrator
-job_id: 88fc83d2-df29-446d-8016-22e7b6344f78
 ---
 
 ---
@@ -1087,8 +1129,116 @@ job_id: 8c12ca8b-14a8-40d6-8fed-b8f5f02b39cb
 
 ---
 action:
-POSS - LONDON | London | Croydon | £32000 - £37000 per year | IT Administrator
-job_id: a39777bf-ea97-4765-aa67-7bc5816b084d
+POSS - LONDON | London | London | £15 per hour | Business Support Officer
+job_id: 760911ff-d185-49ba-bee4-150d1b924aae
+---
+
+---
+action:
+POSS - LONDON | London | London | £45000 - £50000 per year | Senior Administrator - Wealth Management
+job_id: 72d358c0-ae18-4da7-afaf-ea54da3c3c53
+---
+
+---
+action:
+POSS - LONDON | London | London |  | IFA Senior Client Administrator
+job_id: 7046bd61-32ba-4e4c-b43e-a834881cd629
+---
+
+---
+action:
+POSS - LONDON | London | London | £28000 per year | SSAS Administrator
+job_id: 6d1a0d1e-192c-499a-b24f-73a2d1046858
+---
+
+---
+action:
+POSS - LONDON | London | London | £40000 per year | Part-time Club Administrator
+job_id: 6936a447-91d5-468e-a376-d02a60440fc7
+---
+
+---
+action:
+POSS - LONDON | London | London | £16 per hour | Office Assistant 3 month Temp
+job_id: 653586cf-027d-4490-a84f-70b948514312
+---
+
+---
+action:
+POSS - LONDON | London | London | £35000 - £45000 per year | IFA Administrator
+job_id: 6413d8c8-edd2-4698-91de-cbcca7ec9523
+---
+
+---
+action:
+POSS - LONDON | London | London | £30000 - £35000 per year | Receptionist
+job_id: 63d3c933-3a60-4cdd-b3a2-0a99f953fe7e
+---
+
+---
+action:
+POSS - LONDON | London | London | £24 - £28 per hour | PA to Senior Executives
+job_id: 63c27bff-d016-47f6-8c5f-4caa430a18e3
+---
+
+---
+action:
+POSS - LONDON | London | London | £28000 per year | Property Administrator
+job_id: 636731a2-f714-4a38-8e01-1d393a089d3b
+---
+
+---
+action:
+POSS - LONDON | London | London | £38000 - £45000 per year | Sales Administrator
+job_id: 6228b576-2f7f-4e54-8c3e-39c1dfcaa573
+---
+
+---
+action:
+POSS - LONDON | London | London | £40000 - £50000 per year | PA/Office Assistant. Russian Speaking. Central London
+job_id: 61235b53-019f-4919-bf02-40e30c318238
+---
+
+---
+action:
+POSS - LONDON | London | London | £34500 - £35500 per year | Corporate Receptionist
+job_id: 600eacb2-c403-42be-b2b2-439b1268fe30
+---
+
+---
+action:
+POSS - LONDON | London | London | £30000 - £35000 per year | FA Administrator North West London Up to £35,000 Hybrid Working
+job_id: 5ee069a3-5c92-41c7-b10c-b34f4efe1819
+---
+
+---
+action:
+POSS - LONDON | London | London |  | Career Receptionist / Admin Assistant, Private Equity
+job_id: 5b327633-ea8e-4c70-b7ad-6d374c676896
+---
+
+---
+action:
+POSS - LONDON | London | London | £33000 - £36000 per year | Senior Administrator - Graduate
+job_id: 87410cf1-edfa-46c8-8839-99c3b02626ad
+---
+
+---
+action:
+POSS - LONDON | London | London | £70000 - £75000 per year | Salesforce Administrator & Product Owner
+job_id: abc13a7a-44e8-4297-9e5b-5261e280c043
+---
+
+---
+action:
+POSS - LONDON | London | London |  | Assistant Company Secretary
+job_id: 558054731
+---
+
+---
+action:
+POSS - LONDON | London | London |  | CRM Data Administrator
+job_id: 107657111
 ---
 
 ---
@@ -1105,8 +1255,20 @@ job_id: 1154888a-71ca-4ef3-847c-ebf181a045e6
 
 ---
 action:
+POSS - LONDON | London | Ilford | £105 - £106 per daily | Business Support Administrator
+job_id: 75621293-125b-4add-83fd-adaab2197472
+---
+
+---
+action:
 POSS - LONDON | London | Uxbridge |  | Customer Service & Sales Administrator
 job_id: ac96b5d4-93a0-4506-be23-3a5522d80a9f
+---
+
+---
+action:
+POSS - LONDON | London | Barking | £24000 - £26000 per year | Sales Support Administrator
+job_id: 6a2ec28e-20d9-4714-9789-4a06502d54bc
 ---
 
 ---
@@ -1123,6 +1285,42 @@ job_id: 51c04e89-ef80-496e-87ac-018aae61d75f
 
 ---
 action:
+POSS - LONDON | London | Barnet | £25000 - £30000 per year | Trainee Financial Administrator, Barnet, North London, £25,000 - £30,000 + Benefits
+job_id: 6869ff6c-202f-4017-aa3a-e81951bad91b
+---
+
+---
+action:
+POSS - LONDON | London | City | £26000 - £32000 per year | IFA Administrator
+job_id: 54109309-b7a5-4b14-9444-b5dd53f5491c
+---
+
+---
+action:
+POSS - LONDON | London | Sidcup | £25000 - £28000 per year | Operations Administrator
+job_id: 76dc46f9-a6e8-4c12-91a5-424019cb5e58
+---
+
+---
+action:
+POSS - LONDON | London | Sidcup |  | Data Administrator
+job_id: 607a9fc1-d3fd-4288-a7e5-d7166d055da3
+---
+
+---
+action:
+POSS - LONDON | London | Twickenham | £37000 - £40000 per year | Senior IFA Administrator
+job_id: 6f7a8336-06f1-424b-8a71-0b9ecd46bafa
+---
+
+---
+action:
+POSS - LONDON | London | Kingston Upon Thames | £14 per hour | Administrator
+job_id: 5c4f9bf3-8a5b-45b0-8718-fd7e514ff1a1
+---
+
+---
+action:
 POSS - LONDON | London | London |  | Internal Communications & Executive Coordinator
 job_id: 107663038
 ---
@@ -1135,8 +1333,20 @@ job_id: 920deff1-36d0-49c9-96cd-973bcdc16115
 
 ---
 action:
-POSS - LONDON | London | London | £35000 - £48000 per year | Team Assistant/Office Coordinator
-job_id: 89c97a85-bcb5-4ae5-b40a-9cc21362070e
+POSS - LONDON | London | London | £28000 - £30000 per year | Account Coordinator
+job_id: 5b696a5a-a2a2-48f6-98c0-1e7422504062
+---
+
+---
+action:
+POSS - LONDON | London | London | £39,685 - £43,978 per annum | Assistant Design & Technical Coordinator
+job_id: 107649502
+---
+
+---
+action:
+POSS - LONDON | London | Harrow | £15.36 per hour | Extra Care Support Coordinator
+job_id: 107719639
 ---
 
 ---
@@ -1151,18 +1361,6 @@ job_id: 107699141
 action: exclude
 DROPPED | Hampshire | Southampton | £50000 - £70000 per year | Senior Windows Server Administrator
 job_id: edfb6bfb-1af8-4aa8-bf4e-faad98367d1e
----
-
----
-action: exclude
-DROPPED | London | City Of Westminster | £34100 - £35055 per year (+ Benefits) | Payroll Administrator / Payroll Officer
-job_id: 1164743 [JSP51552]
----
-
----
-action: exclude
-DROPPED | London | London | £35000 - £40000 per year | Academic Administrator
-job_id: 3863154f-7ddf-4d93-b79d-3f6e577a407f
 ---
 
 ---

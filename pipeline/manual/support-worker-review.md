@@ -73,6 +73,12 @@ job_id: 107651994
 
 ---
 action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £12.85 per hour | Support Worker
+job_id: 76b402d8-dec0-4103-b0bd-79d57347c9cf
+---
+
+---
+action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
 job_id: 107521956
 ---
@@ -81,6 +87,12 @@ job_id: 107521956
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £12.85 per hour | Relief Support Worker
+job_id: 6ec8847e-6017-45d2-a488-4b3f3274e9d0
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -121,6 +133,18 @@ SELECTED | Yorkshire - South | Doncaster | £12.85 per hour | Waking Night Suppo
 job_id: 7b6cf00b-f568-4a73-a73b-963fc4b20e26
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £26400 per year | Children Residential Support Worker
+job_id: 66e6573f-6a0d-4805-83eb-659743f86d53
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £14.24 per hour | Healthcare Assistant
+job_id: f3f8e2ad-deef-4db9-9895-23e53030230f
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -143,12 +167,6 @@ job_id: f7fb1824-d44c-47c4-955c-4682b9f1b86c
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | South Shields | £12.85 per hour | Support Worker
 job_id: e4c5eb7c-fcec-4da9-8221-f2ac41472c9d
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour | Female Relief Support Worker
-job_id: cc229c96-2589-4d10-9ad8-bf7dea254f59
 ---
 
 ---
@@ -233,12 +251,6 @@ job_id: 9a8ce501-2608-4cea-8d23-991e3a045247
 
 ---
 action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Consett | £12.85 per hour | Support Worker
-job_id: 98cda2a5-886d-4473-a300-ed52b21dd240
----
-
----
-action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £13.91 per hour | Care Assistant - Complex Care
 job_id: 8c2bc592-cdc7-44b0-ac0e-a1d053add964
 ---
@@ -259,6 +271,18 @@ job_id: a80187d3-fbf2-4a5d-b66a-9c6002941176
 
 ---
 action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £15 - £18 per hour (CONTRACT) | Support Worker Days
+job_id: 107199269
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.84 per hour | Care Assistants
+job_id: 107494462
+---
+
+---
+action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £17.50-£24.00 per hour | Crisis Support Worker
 job_id: ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 ---
@@ -267,6 +291,36 @@ job_id: ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Hebburn | £17.50-£24.00 per hour | Childrens Crisis Support Worker
 job_id: dbd3db2a-800b-4412-9ce0-402a1f442451
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Morpeth | £16 - £22 per hour | Young Person's Support Worker Northumberland
+job_id: de44aa4f-4e00-4d6a-86b6-3da55cfd251b
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £16 - £22 per hour | Young Person's Support Worker Gateshead/Newcastle
+job_id: 22c09426-8d3b-4cec-b33d-6f835e145ac2
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Support Worker
+job_id: 631c9ad0-2047-493c-aefe-33dfb4238ac5
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Blyth | £17 per hour | Support Worker
+job_id: 693f58f3-76b8-4dd9-b0f1-97957b5a2a87
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
+job_id: 62acce15-1783-40c4-8d4d-89893e26083e
 ---
 
 ---
@@ -285,26 +339,26 @@ job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Barnard Castle | £15.5 - £20 per hour | Children and Young People Support Worker
-job_id: d3620d42-8f31-46d7-a414-d317a5f24a20
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £16 - £22 per hour | Young Person's Support Worker Durham
+job_id: dcc8c61f-47db-4e30-b192-2b316cf9a6d3
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15 - £18 per hour (CONTRACT) | Support Worker Days
+job_id: 107199283
+---
+
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £17 per hour | Support Worker
+job_id: 6db336e5-49d8-4e18-ab62-aa31374cd4a0
 ---
 
 ---
 action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.58 per hour | Care Assistant - Bank - Care Home
 job_id: 8cf94350-e0e1-4c8b-b57d-afa66139d419
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | £15.5 - £20 per hour | Children and Young People Support Worker
-job_id: 96b7d446-8e01-4198-90bc-dc4c5427960c
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £15.5 - £20 per hour | Children and Young People Support Worker
-job_id: a091384d-aaa0-4187-a776-aaa3779a3f53
 ---
 
 ## SUSSEX — SELECTED
@@ -401,12 +455,6 @@ job_id: b1ea4e7d-5a13-43ff-bc09-d3106191ef2f
 
 ---
 action:
-SELECTED | Sussex | Haywards Heath | £30000 - £32000 per year | Personal Assistant
-job_id: a86e7bf0-44de-488d-9cbf-d0e0db0af758
----
-
----
-action:
 SELECTED | Sussex | Littlehampton | £14.01 - £14.5 per hour | Care Assistant
 job_id: a42a1600-795b-470d-b7a3-7d1af79a1fd6
 ---
@@ -441,23 +489,53 @@ SELECTED | Sussex | Brighton | £15 - £17 per hour | Support Worker
 job_id: 86901b4e-c38e-4356-bcdf-438123d57b3d
 ---
 
+---
+action:
+SELECTED | Sussex | Brighton | £26298 per year | Support Worker - Brighton
+job_id: 754d4870-6635-4f50-b6d9-e858722ab608
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £13.82 per hour | Support Worker
+job_id: 71c69d5d-63c6-4fe9-9b64-aeaf20034b29
+---
+
+---
+action:
+SELECTED | Sussex | Shoreham-by-sea | £16 - £18.5 per hour | Support Worker
+job_id: 6a927a37-77f5-4974-b092-4b95250ac3b1
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £15 per hour | Young Person's Support Worker
+job_id: 61783f8a-d53f-4565-8ca0-878e204ba0bf
+---
+
+---
+action:
+SELECTED | Sussex | Chichester | £13.5 per hour | Care Assistant
+job_id: 5550e727-462b-46bf-9168-3eaa72487b4c
+---
+
+---
+action:
+SELECTED | Sussex | Chichester | £12.71 - £13.57 per hour | Support Worker
+job_id: ae94e49e-f175-432c-842f-6a6ea1ec4646
+---
+
+---
+action:
+SELECTED | Sussex | Littlehampton | £13 - £14.5 per hour | Healthcare Support Worker
+job_id: 107214761
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107652240
----
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Worker
-job_id: fc6489a2-8773-490a-b95c-4b7da8172356
----
 
 ---
 action:
