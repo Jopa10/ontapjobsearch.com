@@ -422,6 +422,7 @@ export default function JobSlicePage({
                       job_id={j.job_id}
                       title={j.title}
                       location={j.location}
+                      region={j.region}
                     />
                   </div>
                 </div>
