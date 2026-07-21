@@ -8,24 +8,28 @@ SELECTED,Yorkshire - West,Residential Support Worker,Huddersfield,£27976 per ye
 SELECTED,Yorkshire - West,Complex Needs Support Worker,Leeds,£90 - £95 per daily,,1,d2b6bed8-4c47-4afe-a6e7-f653868515a2
 SELECTED,Yorkshire - West,Complex Needs Support Worker,Pontefract,£90 - £95 per daily,,1,7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 SELECTED,Yorkshire - West,Relief Support Worker,Bradford,£12.85 per hour,,1,ca94f2ef-9003-4685-ad93-7271c45f7edf
+SELECTED,Yorkshire - West,Support Worker,Leeds,£12.85 per hour,,1,76b402d8-dec0-4103-b0bd-79d57347c9cf
+SELECTED,Yorkshire - West,Relief Support Worker,Leeds,£12.85 per hour,,1,6ec8847e-6017-45d2-a488-4b3f3274e9d0
 SELECTED,Yorkshire - West,Complex care assistant,Holmfirth,£27394 per year,,1,107651994
-POSS - YORKSHIRE - WEST,Yorkshire - West,Support Worker,Leeds,£12.85 per hour,,,76b402d8-dec0-4103-b0bd-79d57347c9cf
 POSS - YORKSHIRE - WEST,Yorkshire - West,Care Assistant to English Literature Uni Graduate,Ilkley,£170 per daily,,,107521956
 POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Leeds,£17.93 per hour (+ INC holiday pay),,,107616819
-POSS - YORKSHIRE - WEST,Yorkshire - West,Relief Support Worker,Leeds,£12.85 per hour,,,6ec8847e-6017-45d2-a488-4b3f3274e9d0
-SELECTED,Yorkshire - South,Health care assistant - Sheffield,Sheffield,£12.75 - £17 per hour,,,c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
-SELECTED,Yorkshire - South,Relief Support Worker,Doncaster,£12.85 per hour,,,dedf05f4-9dec-4b6a-b8c5-342496f8deba
-SELECTED,Yorkshire - South,Support Worker,Doncaster,£12.85 per hour,,,b5ac469f-15a9-4c54-97f2-b2a0b67bebdc
-SELECTED,Yorkshire - South,Family Support Worker - Barnsley,Barnsley,£18.35 per hour,,,93a659b4-21d0-4e06-85fd-703137369524
-SELECTED,Yorkshire - South,Support Worker - Elderly Adults,Rotherham,£13.05 per hour,,,7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c
-SELECTED,Yorkshire - South,Waking Night Support Worker,Doncaster,£12.85 per hour,,,7b6cf00b-f568-4a73-a73b-963fc4b20e26
-SELECTED,Yorkshire - South,Children Residential Support Worker,Doncaster,£26400 per year,,,66e6573f-6a0d-4805-83eb-659743f86d53
-SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£14.24 per hour,,,f3f8e2ad-deef-4db9-9895-23e53030230f
+SELECTED,Yorkshire - South,Health care assistant - Sheffield,Sheffield,£12.75 - £17 per hour,,1,c6e53fd9-b797-463d-bbb4-8cef9c6bf4d9
+SELECTED,Yorkshire - South,Relief Support Worker,Doncaster,£12.85 per hour,,1,dedf05f4-9dec-4b6a-b8c5-342496f8deba
+SELECTED,Yorkshire - South,Support Worker,Doncaster,£12.85 per hour,,1,b5ac469f-15a9-4c54-97f2-b2a0b67bebdc
+SELECTED,Yorkshire - South,Support Worker - Elderly Adults,Rotherham,£13.05 per hour,,1,7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c
+SELECTED,Yorkshire - South,Waking Night Support Worker,Doncaster,£12.85 per hour,,1,7b6cf00b-f568-4a73-a73b-963fc4b20e26
+SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£14.24 per hour,,1,f3f8e2ad-deef-4db9-9895-23e53030230f
+POSS - YORKSHIRE - SOUTH,Yorkshire - South,Family Support Worker - Barnsley,Barnsley,£18.35 per hour,,,93a659b4-21d0-4e06-85fd-703137369524
+POSS - YORKSHIRE - SOUTH,Yorkshire - South,Children Residential Support Worker,Doncaster,£26400 per year,,,66e6573f-6a0d-4805-83eb-659743f86d53
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Newcastle Upon Tyne,£29350 per year,,1,107616541
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Children's Residential Support Worker,Newcastle Upon Tyne,£14.85 per hour,,1,f7fb1824-d44c-47c4-955c-4682b9f1b86c
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Support Worker,South Shields,£12.85 per hour,,1,e4c5eb7c-fcec-4da9-8221-f2ac41472c9d
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Relief Support Worker,Jarrow,£12.85 per hour,,1,af82616a-b889-4ed7-9bf5-ac1d54110402
 SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Blaydon-on-tyne,£29350 per year,,1,107617093
+SELECTED,"North East - Tyneside, Wearside & Northumberland",Young Person's Support Worker Gateshead/Newcastle,Gateshead,£16 - £22 per hour,,1,22c09426-8d3b-4cec-b33d-6f835e145ac2
+SELECTED,"North East - Tyneside, Wearside & Northumberland",Support Worker,Gateshead,£12.85 per hour,,1,631c9ad0-2047-493c-aefe-33dfb4238ac5
+SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Bedlington,£13.21 per hour,,1,62acce15-1783-40c4-8d4d-89893e26083e
+SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistants,Newcastle Upon Tyne,£13.84 per hour,,1,107494462
 SELECTED,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Chester Le Street,£14.24 per hour,,1,107615864
 SELECTED,North East - County Durham & Darlington/Hartlepool,Care Assistant - Bank - Care Home,Peterlee,£14.8 per hour,,1,f4341270-8583-4fe9-8839-0a7556a6617f
 SELECTED,North East - County Durham & Darlington/Hartlepool,Children's Residential Support Worker,Darlington,£14.85 per hour,,1,cd3894a1-69a8-4a34-9958-51dd5b5a95f4
@@ -37,24 +41,20 @@ SELECTED,North East - County Durham & Darlington/Hartlepool,Female Support Worke
 SELECTED,North East - County Durham & Darlington/Hartlepool,Complex care assistant,County Durham,£29350 per year,,1,107539241
 SELECTED,North East - County Durham & Darlington/Hartlepool,Children and Young Person's Support Worker,Durham,£15.5 - £22.5 per hour,,1,9ed3947e-ae04-40a4-99b7-72e52e4abc88
 SELECTED,North East - County Durham & Darlington/Hartlepool,Female Support Worker,Darlington,£13.15 per hour,,1,9a8ce501-2608-4cea-8d23-991e3a045247
+SELECTED,North East - County Durham & Darlington/Hartlepool,Care Assistant - Bank - Care Home,Darlington,£15.58 per hour,,1,8cf94350-e0e1-4c8b-b57d-afa66139d419
 SELECTED,North East - County Durham & Darlington/Hartlepool,Care Assistant - Complex Care,Darlington,£13.91 per hour,,1,8c2bc592-cdc7-44b0-ac0e-a1d053add964
 SELECTED,North East - County Durham & Darlington/Hartlepool,Female Bank Support Worker,Darlington,£13 per hour,,1,828e85e8-bc5c-4940-ab8c-465ede281493
+SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker Days,Durham,£15 - £18 per hour (CONTRACT),,1,107199283
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Personal Assistant,Newcastle Upon Tyne,£35000 - £50000 per year,,,a80187d3-fbf2-4a5d-b66a-9c6002941176
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Support Worker Days,Newcastle Upon Tyne,£15 - £18 per hour (CONTRACT),,,107199269
-"POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Care Assistants,Newcastle Upon Tyne,£13.84 per hour,,,107494462
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Crisis Support Worker,Jarrow,£17.50-£24.00 per hour,,,ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Childrens Crisis Support Worker,Hebburn,£17.50-£24.00 per hour,,,dbd3db2a-800b-4412-9ce0-402a1f442451
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Young Person's Support Worker Northumberland,Morpeth,£16 - £22 per hour,,,de44aa4f-4e00-4d6a-86b6-3da55cfd251b
-"POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Young Person's Support Worker Gateshead/Newcastle,Gateshead,£16 - £22 per hour,,,22c09426-8d3b-4cec-b33d-6f835e145ac2
-"POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Support Worker,Gateshead,£12.85 per hour,,,631c9ad0-2047-493c-aefe-33dfb4238ac5
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Support Worker,Blyth,£17 per hour,,,693f58f3-76b8-4dd9-b0f1-97957b5a2a87
-"POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Bedlington,£13.21 per hour,,,62acce15-1783-40c4-8d4d-89893e26083e
 "POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND","North East - Tyneside, Wearside & Northumberland",Children and Young Persons Support Worker,Sunderland,£16.5 - £23 per hour,,,aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Scottish Island Support Worker,Durham,£19 - £21 per hour,,,b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Young Person's Support Worker Durham,Durham,£16 - £22 per hour,,,dcc8c61f-47db-4e30-b192-2b316cf9a6d3
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Support Worker Days,Durham,£15 - £18 per hour (CONTRACT),,,107199283
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Support Worker,Bishop Auckland,£17 per hour,,,6db336e5-49d8-4e18-ab62-aa31374cd4a0
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL,North East - County Durham & Darlington/Hartlepool,Care Assistant - Bank - Care Home,Darlington,£15.58 per hour,,,8cf94350-e0e1-4c8b-b57d-afa66139d419
 SELECTED,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,,107641522
 SELECTED,Sussex,Bank Support Worker,Worthing,£13.45 per hour (plus holiday pay of £1.62 per hour),,,107657282
 SELECTED,Sussex,Healthcare Assistant,St. Leonards-on-sea,£30000 - £32000 per year,,,7911979f-e083-4358-946e-98879570ba1e
