@@ -1,27 +1,33 @@
 "use client";
 
-type Props = {
-  apply_url: string;
-  job_id: string;
-  title: string;
-  location: string;
-};
+import {
+  buildApplyClickParameters,
+  type ApplyClickDetails,
+} from "@/lib/apply-click-tracking";
 
 export default function ApplyButton({
   apply_url,
   job_id,
   title,
   location,
-}: Props) {
+  region,
+  slice_path,
+}: ApplyClickDetails) {
   const handleClick = () => {
-  if (typeof window !== "undefined" && (window as any).gtag) {
-  (window as any).gtag("event", "select_content", {
-    content_type: "job",
-    item_id: job_id,
-    item_name: title,
-    location: location,
-  });
-}
+    const gtag = (
+      window as Window & { gtag?: (...args: unknown[]) => void }
+    ).gtag;
+
+    if (typeof gtag === "function") {
+      gtag(
+        "event",
+        "apply_click",
+        buildApplyClickParameters(
+          { apply_url, job_id, title, location, region, slice_path },
+          window.location.pathname
+        )
+      );
+    }
 
     // open immediately
     window.open(apply_url, "_blank", "noopener,noreferrer");
