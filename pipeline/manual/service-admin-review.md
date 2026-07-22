@@ -16,7 +16,7 @@ job_id: f3ab9106-ae47-4d49-b28b-139c5e18fbde
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | Yorkshire - West | Wetherby | £30000 per year | Payroll & Operations Administrator
 job_id: 107506827
 ---
@@ -28,7 +28,7 @@ job_id: 107586970
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | Yorkshire - West | Leeds | £24000 - £27000 per year | Legal Secretary
 job_id: e4f13a76-cd2d-41df-9fca-4e91c6b2f758
 ---
@@ -210,7 +210,7 @@ job_id: b292ec3f-453b-4e00-b6ff-2456374c6000
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £13.5 per hour | Temporary Finance Administrator - Education
 job_id: ec237c2a-3320-4238-a950-1ee708174fdc
 ---
@@ -222,7 +222,7 @@ job_id: ee8721ec-41a6-4311-a686-fc235d1c209c
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £12.7 - £13 per hour | Junior Office Administrator
 job_id: 6415e3f2-97a6-4926-89a2-49e1a07dd954
 ---
@@ -352,7 +352,7 @@ job_id: 61874f47-6de5-49db-beac-564013ba9a95
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £25000 - £30000 per year | Receptionist / Facilities Coordinator
 job_id: 3210a914-2c99-4b6c-870b-c2001651b931
 ---
@@ -476,7 +476,7 @@ job_id: c7a9ec69-dbbc-406b-bc5c-c86785dc0028
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Spennymoor |  | Internal Sales Administrator
 job_id: 9965df1d-32cb-4cf0-a560-90fa51eaf71a
 ---
@@ -930,7 +930,7 @@ job_id: c5622bf9-170a-413f-9552-6cece8b1654e
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £35000 per year | Legal Receptionist
 job_id: c2737212-e9d4-466f-8e2b-182f0359889f
 ---
@@ -996,7 +996,7 @@ job_id: 8db15623-0af6-43e2-8b60-350abb304690
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London |  | Receptionist/Administrator
 job_id: 86e6ab2a-9583-4d2f-8c5b-97c1ab08dd7b
 ---
@@ -1188,7 +1188,7 @@ job_id: 2e0f17ce-eacf-4dfd-b33f-6b3dfc640c41
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Bromley | £25000 - £35000 per year | Repairs Administrator
 job_id: 85cb0b33-1187-44a1-9120-c1bef5cd7404
 ---
@@ -1206,7 +1206,7 @@ job_id: a9008f47-4f68-4524-ac99-7fbcdf1cdf72
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Barnet | £16.5 - £18 per hour | School Administrator - Primary School Barnet
 job_id: 51c04e89-ef80-496e-87ac-018aae61d75f
 ---
