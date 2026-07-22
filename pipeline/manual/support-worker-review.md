@@ -105,17 +105,19 @@ job_id: 7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c
 
 ---
 action: select
+SELECTED | Yorkshire - South | Doncaster | £26400 per year | Children Residential Support Worker
+job_id: 66e6573f-6a0d-4805-83eb-659743f86d53
+---
+
+---
+action: select
 SELECTED | Yorkshire - South | Doncaster | £14.24 per hour | Healthcare Assistant
 job_id: f3f8e2ad-deef-4db9-9895-23e53030230f
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £26400 per year | Children Residential Support Worker
-job_id: 66e6573f-6a0d-4805-83eb-659743f86d53
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -157,6 +159,12 @@ job_id: 22c09426-8d3b-4cec-b33d-6f835e145ac2
 
 ---
 action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Blyth | £17 per hour | Support Worker
+job_id: 693f58f3-76b8-4dd9-b0f1-97957b5a2a87
+---
+
+---
+action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £12.85 per hour | Support Worker
 job_id: 631c9ad0-2047-493c-aefe-33dfb4238ac5
 ---
@@ -165,6 +173,18 @@ job_id: 631c9ad0-2047-493c-aefe-33dfb4238ac5
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
 job_id: 62acce15-1783-40c4-8d4d-89893e26083e
+---
+
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £13.5 per hour | Care Assistant
+job_id: 2cce53be-0eb7-4d38-90ef-b37163d4f101
+---
+
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £15 - £18 per hour (CONTRACT) | Support Worker Days
+job_id: 107199272
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -265,24 +285,6 @@ job_id: dbd3db2a-800b-4412-9ce0-402a1f442451
 action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Morpeth | £16 - £22 per hour | Young Person's Support Worker Northumberland
 job_id: de44aa4f-4e00-4d6a-86b6-3da55cfd251b
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £15 - £18 per hour (CONTRACT) | Support Worker Days
-job_id: 107199272
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Blyth | £17 per hour | Support Worker
-job_id: 693f58f3-76b8-4dd9-b0f1-97957b5a2a87
----
-
----
-action: select
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Hexham | £13.5 per hour | Care Assistant
-job_id: 2cce53be-0eb7-4d38-90ef-b37163d4f101
 ---
 
 ---
