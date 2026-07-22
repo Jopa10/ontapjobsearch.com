@@ -112,7 +112,7 @@ job_id: f3f8e2ad-deef-4db9-9895-23e53030230f
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £26400 per year | Children Residential Support Worker
 job_id: 66e6573f-6a0d-4805-83eb-659743f86d53
 ---
@@ -268,19 +268,19 @@ job_id: de44aa4f-4e00-4d6a-86b6-3da55cfd251b
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £15 - £18 per hour (CONTRACT) | Support Worker Days
 job_id: 107199272
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Blyth | £17 per hour | Support Worker
 job_id: 693f58f3-76b8-4dd9-b0f1-97957b5a2a87
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Hexham | £13.5 per hour | Care Assistant
 job_id: 2cce53be-0eb7-4d38-90ef-b37163d4f101
 ---
