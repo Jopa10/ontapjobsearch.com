@@ -1,0 +1,114 @@
+﻿title,classification,reason,example_title,july_occurrences,days_present,first_seen,last_seen
+carer,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Carer,6,6,2026-07-09,2026-07-14
+foster carer - housing officer,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Foster Carer - Housing Officer,6,6,2026-07-09,2026-07-14
+foster carer,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Foster Carer,5,5,2026-07-09,2026-07-14
+health care support worker,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Health Care Support Worker,5,5,2026-07-10,2026-07-14
+autism carer/support worker,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Autism Carer/Support worker,4,2,2026-07-01,2026-07-02
+foster carer/ gofalwr maeth,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Foster Carer/ Gofalwr Maeth,4,4,2026-07-08,2026-07-12
+healthcare support worker,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Healthcare Support Worker,28,14,2026-07-01,2026-07-14
+community carer,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Community Carer,22,14,2026-07-01,2026-07-14
+carer support / assessment worker,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Carer Support / Assessment Worker,14,14,2026-07-01,2026-07-14
+day carer,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Day Carer,14,14,2026-07-01,2026-07-14
+shared lives carer,ELASTIC_FIT,Adjacent hands-on care role with clear care delivery meaning.,Shared Lives Carer,12,10,2026-07-01,2026-07-10
+senior care assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Care Assistant,97,14,2026-07-01,2026-07-14
+"hearing care assistant, cumbria",HARD_PASS,"Hearing, audiology or optical retail/clinical assistant role rather than hands-on personal care.","Hearing Care Assistant, Cumbria",7,7,2026-07-08,2026-07-14
+senior care worker childrens home,HARD_PASS,Children's residential role; assessed in the residential-childcare family instead.,Senior care worker childrens home,7,7,2026-07-08,2026-07-14
+carer/senior carer,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Carer/Senior Carer,6,6,2026-07-08,2026-07-14
+senior night care worker,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Night Care Worker,6,2,2026-07-01,2026-07-02
+children's residential care worker,HARD_PASS,Children's residential role; assessed in the residential-childcare family instead.,Children's Residential Care Worker,5,5,2026-07-10,2026-07-14
+domiciliary care registered manager,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Domiciliary Care Registered Manager,5,5,2026-07-10,2026-07-14
+registered manager domiciliary care,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Registered Manager Domiciliary Care,5,5,2026-07-01,2026-07-05
+senior night care assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Night Care Assistant,5,5,2026-07-10,2026-07-14
+trainee senior care assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Trainee Senior Care Assistant,5,5,2026-07-10,2026-07-14
+domiciliary care manager,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Domiciliary Care Manager,43,14,2026-07-01,2026-07-14
+senior carer - residential care home,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Carer - Residential Care Home,4,2,2026-07-01,2026-07-02
+senior health care assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Health Care Assistant,4,4,2026-07-01,2026-07-04
+senior healthcare assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Healthcare Assistant,4,3,2026-07-01,2026-07-10
+nights senior health care assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Nights Senior Health Care Assistant,38,14,2026-07-01,2026-07-14
+senior carer,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Carer,32,14,2026-07-01,2026-07-14
+hc senior care worker,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",HC Senior Care Worker,3,3,2026-07-02,2026-07-04
+registered manager - domiciliary care,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Registered Manager - Domiciliary Care,3,2,2026-07-01,2026-07-02
+residential child care worker (sessional/casual),HARD_PASS,Children's residential role; assessed in the residential-childcare family instead.,Residential Child Care Worker (Sessional/Casual),26,13,2026-07-01,2026-07-14
+residential child care worker,HARD_PASS,Children's residential role; assessed in the residential-childcare family instead.,Residential Child Care Worker,21,14,2026-07-01,2026-07-14
+night senior care assistant,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Night Senior Care Assistant,2,2,2026-07-13,2026-07-14
+senior care assistant - care home,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Care Assistant - Care Home,2,2,2026-07-01,2026-07-02
+senior care worker,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Care Worker,2,2,2026-07-01,2026-07-02
+senior/ residential child care worker,HARD_PASS,Children's residential role; assessed in the residential-childcare family instead.,Senior/ Residential Child Care Worker,2,2,2026-07-13,2026-07-14
+registered manager - home care,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Registered Manager - Home Care,15,14,2026-07-01,2026-07-14
+qualified hearing care assistant,HARD_PASS,"Hearing, audiology or optical retail/clinical assistant role rather than hands-on personal care.",Qualified Hearing Care Assistant,14,14,2026-07-01,2026-07-14
+senior night carer,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Night Carer,14,14,2026-07-01,2026-07-14
+"trainee hearing care assistant, wolverhampton",HARD_PASS,"Hearing, audiology or optical retail/clinical assistant role rather than hands-on personal care.","Trainee Hearing Care Assistant, Wolverhampton",14,14,2026-07-01,2026-07-14
+registered manager / registered manager designate domiciliary care,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Registered Manager / Registered Manager Designate Domiciliary Care,13,13,2026-07-01,2026-07-14
+senior care assistant nights,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Care Assistant Nights,13,11,2026-07-04,2026-07-14
+senior care assistant days,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Care Assistant Days,11,6,2026-07-09,2026-07-14
+team leader domiciliary care,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Team Leader Domiciliary Care,11,11,2026-07-01,2026-07-14
+senior health care assistant - nights,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Health Care Assistant - Nights,10,10,2026-07-03,2026-07-14
+senior care assistant at caledonia care home,HARD_PASS,"Senior, supervisory or management level falls outside the intended entry-level proposition.",Senior Care Assistant at Caledonia Care Home,1,1,2026-07-09,2026-07-09
+community complex care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Community Complex Care Assistant,9,9,2026-07-06,2026-07-14
+care assistant - newtownards,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Newtownards,8,8,2026-07-02,2026-07-09
+care assistant dayshift our ladys,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant Dayshift Our Ladys,8,8,2026-07-02,2026-07-09
+clinical complex care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Clinical Complex Care Assistant,8,8,2026-07-01,2026-07-08
+permanent care assistant - belfast,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Permanent Care Assistant - Belfast,8,8,2026-07-02,2026-07-09
+residential care assistant day shift- ratheane,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Residential Care Assistant Day Shift- Ratheane,8,8,2026-07-02,2026-07-09
+residential care assistant dayshift - our ladys,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Residential Care Assistant Dayshift - Our Ladys,8,8,2026-07-02,2026-07-09
+personal care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Personal Care Assistant,7,6,2026-07-09,2026-07-14
+relief care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Relief Care Worker,6,2,2026-07-01,2026-07-02
+residential care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Residential Care Assistant,6,6,2026-07-02,2026-07-07
+care assistant (days),HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant (Days),5,5,2026-07-10,2026-07-14
+care assistant (older adults),HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant (Older Adults),5,5,2026-07-10,2026-07-14
+care assistant - care home,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Care Home,5,2,2026-07-01,2026-07-02
+care assistant / support worker - domiciliary care,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant / Support Worker - Domiciliary care,5,5,2026-07-10,2026-07-14
+care assistant support,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant Support,5,5,2026-07-10,2026-07-14
+community care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Community Care Worker,5,5,2026-07-03,2026-07-07
+complex care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Complex Care Worker,5,5,2026-07-01,2026-07-05
+health care assistant - sheffield,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Health care assistant - Sheffield,5,5,2026-07-10,2026-07-14
+healthcare assistant - urgent treatment centres,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Healthcare Assistant - Urgent Treatment Centres,5,5,2026-07-10,2026-07-14
+healthcare assistant/ support worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Healthcare Assistant/ Support worker,5,5,2026-07-10,2026-07-14
+regional bank care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Regional Bank Care Assistant,5,5,2026-07-10,2026-07-14
+healthcare assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Healthcare Assistant,48,14,2026-07-01,2026-07-14
+complex care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Complex Care Assistant,464,14,2026-07-01,2026-07-14
+care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant,433,14,2026-07-01,2026-07-14
+care assistant - complex care,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Complex Care,4,4,2026-07-11,2026-07-14
+care worker - full and part-time hours available,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Worker - Full and Part-Time hours available,4,2,2026-07-01,2026-07-02
+community health care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Community health care assistant,4,4,2026-07-11,2026-07-14
+domestic care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Domestic Care Assistant,4,4,2026-07-11,2026-07-14
+relief care assistant - arlington,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Relief Care Assistant - Arlington,4,4,2026-07-02,2026-07-05
+social care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Social Care Worker,4,4,2026-07-11,2026-07-14
+night care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Night Care Assistant,31,14,2026-07-01,2026-07-14
+learning support assistant + personal care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Learning Support Assistant + Personal Care Assistant,3,3,2026-07-01,2026-07-03
+care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Worker,28,11,2026-07-01,2026-07-14
+community healthcare assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Community Healthcare Assistant,28,14,2026-07-01,2026-07-14
+paediatric care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Paediatric Care Assistant,28,14,2026-07-01,2026-07-14
+healthcare assistant (hca) gp practices & community services,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Healthcare Assistant (HCA) GP Practices & Community Services,27,14,2026-07-01,2026-07-14
+nights health care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Nights Health Care Assistant,23,14,2026-07-01,2026-07-14
+community care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Community Care Assistant,22,14,2026-07-01,2026-07-14
+domiciliary care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Domiciliary Care Assistant,21,14,2026-07-01,2026-07-14
+care assistant days,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant Days,2,2,2026-07-01,2026-07-02
+care worker - part-time,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Worker - Part-Time,2,2,2026-07-01,2026-07-02
+leaving care worker - personal adviser,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Leaving care worker - Personal Adviser,2,2,2026-07-01,2026-07-02
+live in care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Live In Care Worker,2,1,2026-07-01,2026-07-01
+peripatetic care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Peripatetic Care Assistant,2,2,2026-07-13,2026-07-14
+residential care assistant night shift - ratheane,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Residential Care Assistant Night Shift - Ratheane,2,2,2026-07-02,2026-07-03
+care assistant/ support worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care assistant/ Support worker,18,6,2026-07-09,2026-07-14
+care assistant - bank - care home,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Bank - Care Home,17,2,2026-07-01,2026-07-02
+care assistant nights,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care assistant nights,15,13,2026-07-01,2026-07-14
+care assistant to a creative writing & english literature graduate,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant to a Creative Writing & English Literature Graduate,14,14,2026-07-01,2026-07-14
+care assistant to english literature uni graduate,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant to English Literature Uni Graduate,14,14,2026-07-01,2026-07-14
+community complex healthcare assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Community Complex Healthcare Assistant,14,14,2026-07-01,2026-07-14
+graduate opportunity: care assistant to business & marketing graduate,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Graduate Opportunity: Care Assistant to Business & Marketing Graduate,14,14,2026-07-01,2026-07-14
+hourly care assistant to games development graduate,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Hourly Care Assistant to Games Development graduate,14,14,2026-07-01,2026-07-14
+live-in personal care assistant to a cyber security uni student,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Live-In Personal Care Assistant to a Cyber Security Uni student,14,14,2026-07-01,2026-07-14
+night care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Night Care Worker,14,14,2026-07-01,2026-07-14
+night healthcare assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Night Healthcare Assistant,14,14,2026-07-01,2026-07-14
+care assistant - part time,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Part Time,13,13,2026-07-02,2026-07-14
+night health care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Night Health Care Assistant,12,12,2026-07-02,2026-07-14
+health care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Health Care Assistant,11,6,2026-07-08,2026-07-14
+female community care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Female Community Care Assistant,10,10,2026-07-05,2026-07-14
+care assistant - dungannon,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Dungannon,1,1,2026-07-02,2026-07-02
+care assistant - lurgan,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Care Assistant - Lurgan,1,1,2026-07-02,2026-07-02
+domiciliary care worker,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Domiciliary care worker,1,1,2026-07-10,2026-07-10
+health care assistant - bank,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Health Care Assistant - BANK,1,1,2026-07-09,2026-07-09
+hourly care assistant to a recent social sciences graduate,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Hourly Care Assistant to a recent Social Sciences Graduate,1,1,2026-07-01,2026-07-01
+relief care assistant - our ladys,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Relief Care Assistant - Our Ladys,1,1,2026-07-02,2026-07-02
+wraparound care assistant,HIGH_CONFIDENCE,Complete title clearly describes hands-on care-assistant or care-worker work.,Wraparound Care Assistant,1,1,2026-07-01,2026-07-01
+female mental health home care support worker,REVIEW_CONTEXT_DEPENDENT,Care wording is present but the complete title is not sufficiently specific.,Female Mental Health Home Care Support Worker,14,14,2026-07-01,2026-07-14
