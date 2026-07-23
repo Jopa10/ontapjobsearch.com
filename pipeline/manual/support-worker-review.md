@@ -34,7 +34,7 @@ job_id: 4c07aee5-7024-4cb3-b344-dfaecadb7a09
 ---
 
 ---
-action: select
+action: exclude
 SELECTED | Yorkshire - West | Leeds | £28000 - £31000 per year | PERSONAL ASSISTANT
 job_id: d959f734-4ce9-4559-bc26-805409bdf9bc
 ---
@@ -118,7 +118,7 @@ job_id: f3f8e2ad-deef-4db9-9895-23e53030230f
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £23341 per year | Stroke Support Worker
 job_id: 4577ee60-7442-4191-bc9c-9930cb8b4423
 ---
@@ -294,7 +294,7 @@ job_id: 107199266
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £16 - £22 per hour | Young Person's Support Worker Durham
 job_id: dcc8c61f-47db-4e30-b192-2b316cf9a6d3
 ---
