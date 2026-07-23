@@ -1,6 +1,6 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,23,21,2,0,13,,36,Leeds,SCENARIO_MANUAL_RERUN,Yorkshire - West manual rerun: 23 current-feed manual_select row(s) applied; 23 selected. Auto backfill disabled.
-Yorkshire - South,14,11,1,2,7,,21,Sheffield,SCENARIO_MANUAL_RERUN,Yorkshire - South manual rerun: 14 current-feed manual_select row(s) applied; 14 selected. Auto backfill disabled.
-North East,14,14,0,0,6,,20,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 14 current-feed manual_select row(s) applied; 14 selected. Auto backfill disabled.
-London,63,57,6,0,64,,127,London,SCENARIO_MANUAL_RERUN,London manual rerun: 63 current-feed manual_select row(s) applied; 63 selected. Auto backfill disabled.
-Hampshire,28,27,0,1,0,,28,Southampton,SCENARIO_3_FULL_VALID_SELECTION,"Hampshire selection complete: all 28 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+Yorkshire - West,22,20,2,0,14,,36,Leeds,SCENARIO_MANUAL_RERUN,Yorkshire - West manual rerun: 22 current-feed manual_select row(s) applied; 22 selected. Auto backfill disabled.
+Yorkshire - South,14,11,1,2,8,,22,Sheffield,SCENARIO_MANUAL_RERUN,Yorkshire - South manual rerun: 14 current-feed manual_select row(s) applied; 14 selected. Auto backfill disabled.
+North East,13,13,0,0,6,,19,Newcastle Upon Tyne,SCENARIO_MANUAL_RERUN,North East manual rerun: 13 current-feed manual_select row(s) applied; 13 selected. Auto backfill disabled.
+London,54,49,5,0,67,,121,London,SCENARIO_MANUAL_RERUN,London manual rerun: 54 current-feed manual_select row(s) applied; 54 selected. Auto backfill disabled.
+Hampshire,23,22,0,1,0,,23,Southampton,SCENARIO_3_FULL_VALID_SELECTION,"Hampshire selection complete: all 23 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."

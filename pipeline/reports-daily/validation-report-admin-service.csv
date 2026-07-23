@@ -1,49 +1,49 @@
 ﻿metric,value
-total rows input,3688
-total rows included,142
-total rows dropped,3456
-title classification count - HIGH_CONFIDENCE,806
-title classification count - ELASTIC_FIT,71
+total rows input,3528
+total rows included,126
+total rows dropped,3307
+title classification count - HIGH_CONFIDENCE,779
+title classification count - ELASTIC_FIT,68
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,1266
-title classification count - OUT_OF_SCOPE,1545
+title classification count - HARD_PASS,1196
+title classification count - OUT_OF_SCOPE,1485
 selection scenario - Yorkshire - West,SCENARIO_MANUAL_RERUN
-selection message - Yorkshire - West,Yorkshire - West manual rerun: 23 current-feed manual_select row(s) applied; 23 selected. Auto backfill disabled.
+selection message - Yorkshire - West,Yorkshire - West manual rerun: 22 current-feed manual_select row(s) applied; 22 selected. Auto backfill disabled.
 credible total - Yorkshire - West,36
 high confidence count - Yorkshire - West,33
 anchor elastic count - Yorkshire - West,2
 other elastic count - Yorkshire - West,1
-total rows output - Yorkshire - West,23
-job_id included - Yorkshire - West,f3ab9106-ae47-4d49-b28b-139c5e18fbde; fdbb2948-fc07-4b1f-9d12-2c22fbf7026c; f2480c5c-88cd-470d-8c28-1bc7c9d54fc6; eb010ba3-32d8-4d46-a7b0-2d7cd220bba2; b03765bd-1521-498a-8040-958c3eabf6b0; 93e46441-7a59-41a4-aa83-5e8fa103f15f; 711065d2-cf75-4cdc-b332-1d93ce19d73e; 697d8570-8149-49c8-ae90-0c06b6888f2c; e378cd98-a660-49aa-a224-5d09b2803760; 107709815; 107586970; e8f86b79-e4d1-4340-82f5-63688544a56d; ec237c2a-3320-4238-a950-1ee708174fdc; cb3b00ca-e400-4064-83a5-56aee71d0c99; c426ec2b-0dd0-4467-b606-598c0c2ece94; ee65174c-e42b-4e39-a9db-247484fc9d98; 59c568c5-9505-4496-9dac-1f4ae2686b6a; ecb4faa6-e482-415c-87f8-62316f136ede; ec7feb52-2bda-4ed0-8836-f88b515b60ff; ae8b96b9-a0e7-47a7-ba6e-d75116aa2d0c; 6415e3f2-97a6-4926-89a2-49e1a07dd954; af178fc4-f738-4009-80f8-5cc73b7fbe60; a9053bb0-4c72-4080-a817-eee75d822de2
+total rows output - Yorkshire - West,22
+job_id included - Yorkshire - West,f3ab9106-ae47-4d49-b28b-139c5e18fbde; fdbb2948-fc07-4b1f-9d12-2c22fbf7026c; f2480c5c-88cd-470d-8c28-1bc7c9d54fc6; eb010ba3-32d8-4d46-a7b0-2d7cd220bba2; b03765bd-1521-498a-8040-958c3eabf6b0; 93e46441-7a59-41a4-aa83-5e8fa103f15f; 711065d2-cf75-4cdc-b332-1d93ce19d73e; 697d8570-8149-49c8-ae90-0c06b6888f2c; e378cd98-a660-49aa-a224-5d09b2803760; 107709815; 107586970; e8f86b79-e4d1-4340-82f5-63688544a56d; ec237c2a-3320-4238-a950-1ee708174fdc; cb3b00ca-e400-4064-83a5-56aee71d0c99; ee65174c-e42b-4e39-a9db-247484fc9d98; 59c568c5-9505-4496-9dac-1f4ae2686b6a; ecb4faa6-e482-415c-87f8-62316f136ede; ec7feb52-2bda-4ed0-8836-f88b515b60ff; ae8b96b9-a0e7-47a7-ba6e-d75116aa2d0c; 6415e3f2-97a6-4926-89a2-49e1a07dd954; af178fc4-f738-4009-80f8-5cc73b7fbe60; a9053bb0-4c72-4080-a817-eee75d822de2
 selection scenario - Yorkshire - South,SCENARIO_MANUAL_RERUN
 selection message - Yorkshire - South,Yorkshire - South manual rerun: 14 current-feed manual_select row(s) applied; 14 selected. Auto backfill disabled.
-credible total - Yorkshire - South,21
-high confidence count - Yorkshire - South,17
+credible total - Yorkshire - South,22
+high confidence count - Yorkshire - South,18
 anchor elastic count - Yorkshire - South,2
 other elastic count - Yorkshire - South,2
 total rows output - Yorkshire - South,14
 job_id included - Yorkshire - South,dda81c87-9e4b-458a-a4e0-43b6c8bb5c1b; d460451b-1442-486a-9a38-5e638a4539f6; d43602dc-56ec-41e9-942d-d4947b018b71; c30c8b9f-2d5e-48b1-88c4-de9afc0084a2; a5e99a12-62d4-427c-a3a3-af869a5cb2ea; 6c89e2d9-e831-4f2b-b050-ecd61ea03caf; a526338b-ed95-47c7-889c-44b5c4aff404; 107668923; 3210a914-2c99-4b6c-870b-c2001651b931; b6d59678-9609-4c19-acf3-5559db81c9e9; 9eb9de2a-2674-49e2-841e-3afcc2458a7e; 6bb16486-f0dc-4b37-8fbf-7b48bd388d65; 107606837; e6f22f9e-863e-47ab-a1eb-3daa4dac192a
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 14 current-feed manual_select row(s) applied; 14 selected. Auto backfill disabled.
-credible total - North East,20
-high confidence count - North East,20
+selection message - North East,North East manual rerun: 13 current-feed manual_select row(s) applied; 13 selected. Auto backfill disabled.
+credible total - North East,19
+high confidence count - North East,19
 anchor elastic count - North East,0
 other elastic count - North East,0
-total rows output - North East,14
-job_id included - North East,f27af97e-5429-44ed-973e-9325787dece3; e3bdd7d7-6c0c-4560-b09b-d1a92c08dad9; b4f34caf-8e57-4de7-b837-f8ab75aebf4a; 364f7202-fbb5-4390-90c1-bf45e1a277ac; bd6d89e4-4f92-4798-adf4-297ad06f9bb2; 9307e3ea-1077-4140-9bc7-281fbfc59147; 9965df1d-32cb-4cf0-a560-90fa51eaf71a; 8b01429e-cff6-4954-b0b1-cf096be4838b; d013f62d-f6a6-48c5-96a3-5c918b628dec; 706dc61c-8f20-469d-bd69-d82307430cf1; 16501b8c-5a8e-47e1-8cf5-81f01f8565d4; 5b8db6c3-53b1-40ed-a126-ba66f16e0993; e7a9b51c-2698-4fde-9c96-5700106868e5; 107595243
+total rows output - North East,13
+job_id included - North East,f27af97e-5429-44ed-973e-9325787dece3; e3bdd7d7-6c0c-4560-b09b-d1a92c08dad9; b4f34caf-8e57-4de7-b837-f8ab75aebf4a; bd6d89e4-4f92-4798-adf4-297ad06f9bb2; 9307e3ea-1077-4140-9bc7-281fbfc59147; 9965df1d-32cb-4cf0-a560-90fa51eaf71a; 8b01429e-cff6-4954-b0b1-cf096be4838b; d013f62d-f6a6-48c5-96a3-5c918b628dec; 706dc61c-8f20-469d-bd69-d82307430cf1; 16501b8c-5a8e-47e1-8cf5-81f01f8565d4; 5b8db6c3-53b1-40ed-a126-ba66f16e0993; e7a9b51c-2698-4fde-9c96-5700106868e5; 107595243
 selection scenario - London,SCENARIO_MANUAL_RERUN
-selection message - London,London manual rerun: 63 current-feed manual_select row(s) applied; 63 selected. Auto backfill disabled.
-credible total - London,127
-high confidence count - London,116
-anchor elastic count - London,9
+selection message - London,London manual rerun: 54 current-feed manual_select row(s) applied; 54 selected. Auto backfill disabled.
+credible total - London,121
+high confidence count - London,111
+anchor elastic count - London,8
 other elastic count - London,2
-total rows output - London,63
-job_id included - London,81e1c860-ef3d-4e7e-81ca-dec75acfc8de; 107609680; de18dc84-cb43-4743-99f6-a3d16e406cc7; 5140fecd-b98a-4d9d-b35d-44c239c1d48a; 2cde9d2c-e5a1-48b3-a74e-db97f135c4b7; 3611009d-3fea-4842-8e37-7ec4b9b40d79; a1f35b5c-0e53-4464-841a-83c472fa89bf; 58cebb71-ca4f-4009-a45e-ab8f18ae3f0f; a15a8b40-34b3-4fc2-9cd1-a834834d0017; f1ba36fe-09d8-4779-a3d6-443601e069fe; f023e0ee-2973-4539-a1f2-8a244e002010; ecb98ea7-06cb-4f80-8944-c1441ce7857d; ebb40fde-75a8-43c5-8f8c-50211f5f594e; e7e1f6de-0853-4834-b7ea-a551c328d286; e2b840d1-3c78-4ab9-aae7-f5337f647327; cbdbea8e-f34a-48fe-a333-d2077254df76; c3604fba-2d21-4f0b-b8c6-60e55981f0ad; c2737212-e9d4-466f-8e2b-182f0359889f; c028b2f9-ffb7-4fbc-a2df-8e542d13acdd; bcf39daa-2626-4711-a2b0-d49204af6df7; b8e6203a-6935-4c48-aad1-a9db5326b5aa; b4184cb3-87d8-43fc-953f-73e8379b5b5e; af9dc98f-624b-4f28-9113-cb1f1a9f886c; a800d0f9-8951-477d-a609-f5eaf33a246f; 9fee675f-70ef-4a29-a99b-c733847f0374; 9b37ac0f-f6b6-4c51-b40e-06c1d0614a99; 960e6b29-af29-4a8a-9bc1-7e0f0a51a9a5; 888558b2-6ca5-4316-a99f-e028067bf76d; 917a878a-622a-481d-89dd-cb54f6a997b7; 8f225185-75cc-4cdc-9bcd-c933be24aeab; 86e6ab2a-9583-4d2f-8c5b-97c1ab08dd7b; 8c12ca8b-14a8-40d6-8fed-b8f5f02b39cb; 760911ff-d185-49ba-bee4-150d1b924aae; 63d3c933-3a60-4cdd-b3a2-0a99f953fe7e; 636731a2-f714-4a38-8e01-1d393a089d3b; 5b327633-ea8e-4c70-b7ad-6d374c676896; ae8f6386-56f4-4fe2-b1dd-c734c98e586a; 4b95051a-1afd-4f79-8df6-17d52006246e; f9f87ff6-84cf-43ac-bd6b-70599a386639; e639b0b6-ba30-4251-9a38-981b7c524f44; cd03aed6-abeb-4e93-98c1-aa4d6f69da1a; 5b696a5a-a2a2-48f6-98c0-1e7422504062; 4c6a069d-6bb2-488e-ab37-f5a62c7c2966; 5d9fb5dd-9dfb-459d-9e5c-26e1da48ab22; 33eab37d-af87-4704-9471-df90f5cef85c; 7ea819ef-37a5-4bc9-ac6b-04b786a3e75e; bc188a0d-61e8-4f3a-af5c-6dc45fc8784e; fde75564-077e-43bf-95db-8ac20a22def2; 75621293-125b-4add-83fd-adaab2197472; fa86a8ff-8d90-4867-9253-90c87a724dd7; ecafeb7a-6c0c-4e55-9b8e-6cc1e872fb01; 85cb0b33-1187-44a1-9120-c1bef5cd7404; e2dfa737-ca4a-41e0-a227-f26b4d5c5b40; db4a4325-f547-40fe-ad60-7060b5e64e79; c38592d7-5e7b-43dc-b88d-5b69f5edbe29; 6a2ec28e-20d9-4714-9789-4a06502d54bc; 51c04e89-ef80-496e-87ac-018aae61d75f; 6869ff6c-202f-4017-aa3a-e81951bad91b; 9e7be7c1-c5db-40e6-9ea5-53464ea55de4; 9e5c17ef-1d1c-4221-8565-1db5db2bda74; 937b7ec1-5bfc-4049-affa-2cdaa4b013fa; 76dc46f9-a6e8-4c12-91a5-424019cb5e58; 5c4f9bf3-8a5b-45b0-8718-fd7e514ff1a1
+total rows output - London,54
+job_id included - London,107609680; de18dc84-cb43-4743-99f6-a3d16e406cc7; 5140fecd-b98a-4d9d-b35d-44c239c1d48a; 2cde9d2c-e5a1-48b3-a74e-db97f135c4b7; 3611009d-3fea-4842-8e37-7ec4b9b40d79; a1f35b5c-0e53-4464-841a-83c472fa89bf; 58cebb71-ca4f-4009-a45e-ab8f18ae3f0f; a15a8b40-34b3-4fc2-9cd1-a834834d0017; f023e0ee-2973-4539-a1f2-8a244e002010; ecb98ea7-06cb-4f80-8944-c1441ce7857d; ebb40fde-75a8-43c5-8f8c-50211f5f594e; e7e1f6de-0853-4834-b7ea-a551c328d286; e2b840d1-3c78-4ab9-aae7-f5337f647327; cbdbea8e-f34a-48fe-a333-d2077254df76; c3604fba-2d21-4f0b-b8c6-60e55981f0ad; c2737212-e9d4-466f-8e2b-182f0359889f; c028b2f9-ffb7-4fbc-a2df-8e542d13acdd; bcf39daa-2626-4711-a2b0-d49204af6df7; b8e6203a-6935-4c48-aad1-a9db5326b5aa; b4184cb3-87d8-43fc-953f-73e8379b5b5e; af9dc98f-624b-4f28-9113-cb1f1a9f886c; a800d0f9-8951-477d-a609-f5eaf33a246f; 9fee675f-70ef-4a29-a99b-c733847f0374; 9b37ac0f-f6b6-4c51-b40e-06c1d0614a99; 960e6b29-af29-4a8a-9bc1-7e0f0a51a9a5; 917a878a-622a-481d-89dd-cb54f6a997b7; 8f225185-75cc-4cdc-9bcd-c933be24aeab; 8c12ca8b-14a8-40d6-8fed-b8f5f02b39cb; 760911ff-d185-49ba-bee4-150d1b924aae; 63d3c933-3a60-4cdd-b3a2-0a99f953fe7e; 636731a2-f714-4a38-8e01-1d393a089d3b; ae8f6386-56f4-4fe2-b1dd-c734c98e586a; 4b95051a-1afd-4f79-8df6-17d52006246e; f9f87ff6-84cf-43ac-bd6b-70599a386639; e639b0b6-ba30-4251-9a38-981b7c524f44; 5b696a5a-a2a2-48f6-98c0-1e7422504062; 4c6a069d-6bb2-488e-ab37-f5a62c7c2966; 7ea819ef-37a5-4bc9-ac6b-04b786a3e75e; bc188a0d-61e8-4f3a-af5c-6dc45fc8784e; fde75564-077e-43bf-95db-8ac20a22def2; 75621293-125b-4add-83fd-adaab2197472; fa86a8ff-8d90-4867-9253-90c87a724dd7; ecafeb7a-6c0c-4e55-9b8e-6cc1e872fb01; 85cb0b33-1187-44a1-9120-c1bef5cd7404; e2dfa737-ca4a-41e0-a227-f26b4d5c5b40; db4a4325-f547-40fe-ad60-7060b5e64e79; c38592d7-5e7b-43dc-b88d-5b69f5edbe29; 6a2ec28e-20d9-4714-9789-4a06502d54bc; 6869ff6c-202f-4017-aa3a-e81951bad91b; 9e7be7c1-c5db-40e6-9ea5-53464ea55de4; 9e5c17ef-1d1c-4221-8565-1db5db2bda74; 937b7ec1-5bfc-4049-affa-2cdaa4b013fa; 76dc46f9-a6e8-4c12-91a5-424019cb5e58; 5c4f9bf3-8a5b-45b0-8718-fd7e514ff1a1
 selection scenario - Hampshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Hampshire,"Hampshire selection complete: all 28 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Hampshire,28
-high confidence count - Hampshire,27
+selection message - Hampshire,"Hampshire selection complete: all 23 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Hampshire,23
+high confidence count - Hampshire,22
 anchor elastic count - Hampshire,0
 other elastic count - Hampshire,1
-total rows output - Hampshire,28
-job_id included - Hampshire,fa75674d-1b48-48d4-8d92-e2ec4084632f; f5457490-a133-4a7b-a4b0-1ff3cd22900b; f3b51feb-04d9-403f-80b7-38552368205e; f12a7b58-f6fc-4e7b-9eb0-4e9952ab7667; 96d9cb94-c4f0-448e-a4fa-eaf14a84333b; e3477e7d-c089-4875-8fe3-aa9355de0317; f75f699e-a0b4-495f-ab6a-c3b639ae73e4; 8f49a549-d633-4be4-8902-6fe0e11ff19b; bc4834aa-75a5-4e16-9fe2-24c4e3e865e1; 81f392f7-0980-46b8-aee1-f7d93979267a; d54fc5b5-0ff3-4926-9190-c12703e95a9a; 845217fa-30ee-4c6e-b460-dac805d0d4f6; 7c87bc3d-7846-4985-bac8-2f3c804746fa; 1ad09085-eb10-4e39-b707-a3feb02bc263; e3876fc3-a137-4160-9261-fc8d87d6b5b2; 976c2d48-8b7c-4f9a-8bc2-0c14cf0b8967; e4433988-1a56-41f5-ac8f-c910dd080a57; e13ab105-51ca-4a23-a205-c2aa94b9d8b7; 6b7ceabe-3580-47d3-ab07-9be760ff6a89; d9ddff49-2dca-481b-87b8-25e70244e9de; d95586b7-fbaf-43cc-a921-e9389c9e5e3a; 8e30745f-04e7-4e26-a780-b116186e4b7d; d3df7f7d-fd80-4797-8a7e-a56bfcec46c0; b0ad5266-b453-4cd9-9191-c276762c03c0; d25416ff-09ab-42d3-8662-3db2a9d1411d; bd70f859-d69b-4b0e-9483-665fe78b005e; fb5c8f19-92e0-46e9-bc2b-252c448c5820; cda0ce28-ad2b-4d63-9ba9-cb4ebcfbefb2
+total rows output - Hampshire,23
+job_id included - Hampshire,fa75674d-1b48-48d4-8d92-e2ec4084632f; f5457490-a133-4a7b-a4b0-1ff3cd22900b; f3b51feb-04d9-403f-80b7-38552368205e; f12a7b58-f6fc-4e7b-9eb0-4e9952ab7667; 96d9cb94-c4f0-448e-a4fa-eaf14a84333b; f75f699e-a0b4-495f-ab6a-c3b639ae73e4; 8f49a549-d633-4be4-8902-6fe0e11ff19b; bc4834aa-75a5-4e16-9fe2-24c4e3e865e1; 81f392f7-0980-46b8-aee1-f7d93979267a; d54fc5b5-0ff3-4926-9190-c12703e95a9a; 845217fa-30ee-4c6e-b460-dac805d0d4f6; 7c87bc3d-7846-4985-bac8-2f3c804746fa; 1ad09085-eb10-4e39-b707-a3feb02bc263; e4433988-1a56-41f5-ac8f-c910dd080a57; e13ab105-51ca-4a23-a205-c2aa94b9d8b7; d95586b7-fbaf-43cc-a921-e9389c9e5e3a; 8e30745f-04e7-4e26-a780-b116186e4b7d; d3df7f7d-fd80-4797-8a7e-a56bfcec46c0; b0ad5266-b453-4cd9-9191-c276762c03c0; d25416ff-09ab-42d3-8662-3db2a9d1411d; bd70f859-d69b-4b0e-9483-665fe78b005e; fb5c8f19-92e0-46e9-bc2b-252c448c5820; cda0ce28-ad2b-4d63-9ba9-cb4ebcfbefb2
