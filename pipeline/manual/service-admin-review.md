@@ -168,7 +168,7 @@ job_id: 923ff7b8-d100-40e6-9225-40ec500144b4
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £25000 - £30000 per year | IFA Administrator
 job_id: 8c5c01ae-4118-4922-84ba-d04efe68e673
 ---
@@ -366,7 +366,7 @@ job_id: 107667796
 ## NORTH EAST — SELECTED
 
 ---
-action: select
+action: exclude
 SELECTED | North East | Newcastle Upon Tyne | £27000 - £30000 per year | Pensions Administrator (defined benefit)
 job_id: f27af97e-5429-44ed-973e-9325787dece3
 ---
@@ -1122,7 +1122,7 @@ job_id: 7d0294be-7f25-4f8f-ad57-efafc8b997b5
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £28000 - £32000 per year | Office Administrator
 job_id: 50305aa1-cd45-4fbf-9d3c-0396d942139e
 ---
@@ -1188,7 +1188,7 @@ job_id: 107663038
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 per year | Office Coordinator
 job_id: 920deff1-36d0-49c9-96cd-973bcdc16115
 ---
