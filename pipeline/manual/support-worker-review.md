@@ -59,12 +59,6 @@ job_id: 7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 
 ---
 action: select
-SELECTED | Yorkshire - West | Leeds | £12.85 per hour | Support Worker
-job_id: 76b402d8-dec0-4103-b0bd-79d57347c9cf
----
-
----
-action: select
 SELECTED | Yorkshire - West | Leeds | £12.85 per hour | Relief Support Worker
 job_id: 6ec8847e-6017-45d2-a488-4b3f3274e9d0
 ---
@@ -87,6 +81,12 @@ job_id: 107521956
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £13.38 - £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -117,7 +117,11 @@ job_id: f3f8e2ad-deef-4db9-9895-23e53030230f
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £23341 per year | Stroke Support Worker
+job_id: 4577ee60-7442-4191-bc9c-9930cb8b4423
+---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -125,18 +129,6 @@ _No jobs in this group._
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
 job_id: 107616541
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £14.85 per hour | Children's Residential Support Worker
-job_id: f7fb1824-d44c-47c4-955c-4682b9f1b86c
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | South Shields | £12.85 per hour | Support Worker
-job_id: e4c5eb7c-fcec-4da9-8221-f2ac41472c9d
 ---
 
 ---
@@ -155,12 +147,6 @@ job_id: 107617093
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £16 - £22 per hour | Young Person's Support Worker Gateshead/Newcastle
 job_id: 22c09426-8d3b-4cec-b33d-6f835e145ac2
----
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Blyth | £17 per hour | Support Worker
-job_id: 693f58f3-76b8-4dd9-b0f1-97957b5a2a87
 ---
 
 ---
@@ -271,6 +257,12 @@ job_id: a80187d3-fbf2-4a5d-b66a-9c6002941176
 
 ---
 action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £19 - £62 per hour | Scottish Island Support Worker
+job_id: d01075d0-773a-4a80-bd52-6da3943d4872
+---
+
+---
+action:
 POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Jarrow | £17.50-£24.00 per hour | Crisis Support Worker
 job_id: ec6456a3-3b5b-4a8a-a41b-5ec10d0579d2
 ---
@@ -289,28 +281,22 @@ job_id: de44aa4f-4e00-4d6a-86b6-3da55cfd251b
 
 ---
 action:
-POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Sunderland | £16.5 - £23 per hour | Children and Young Persons Support Worker
-job_id: aa367ad9-ad7b-4d33-98dd-e675b0ddf7d8
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £17.50-£24.00 per hour | Children Crisis Support Worker - Waking Nights
+job_id: 05843b40-34ac-40a5-8f4c-e146dd6988e1
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Gateshead | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
+job_id: 107199266
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
 action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £19 - £21 per hour | Scottish Island Support Worker
-job_id: b0ca292d-7dc8-4469-bf9b-48e1c0f4f7f9
----
-
----
-action:
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Durham | £16 - £22 per hour | Young Person's Support Worker Durham
 job_id: dcc8c61f-47db-4e30-b192-2b316cf9a6d3
----
-
----
-action:
-POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £17 per hour | Support Worker
-job_id: 6db336e5-49d8-4e18-ab62-aa31374cd4a0
 ---
 
 ## SUSSEX — SELECTED
@@ -319,12 +305,6 @@ job_id: 6db336e5-49d8-4e18-ab62-aa31374cd4a0
 action:
 SELECTED | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107641522
----
-
----
-action:
-SELECTED | Sussex | Worthing | £13.45 per hour (plus holiday pay of £1.62 per hour) | Bank Support Worker
-job_id: 107657282
 ---
 
 ---
@@ -343,12 +323,6 @@ job_id: 107680820
 action:
 SELECTED | Sussex | Brighton | £27976 per year | Domestic Abuse Support Worker
 job_id: ebc70e88-0b55-4541-9a7e-808faac32e58
----
-
----
-action:
-SELECTED | Sussex | Worthing | £15.07 per hour | Bank Support Worker
-job_id: eab70bad-0ac6-4d3d-af24-612fcf31464d
 ---
 
 ---
@@ -425,12 +399,6 @@ job_id: 9ab8651c-8d51-417d-8fa8-7995487cdcaf
 
 ---
 action:
-SELECTED | Sussex | Shoreham-by-sea | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 9820a840-95ba-4d0f-9ac4-10003dc0fa12
----
-
----
-action:
 SELECTED | Sussex | Brighton | £15 - £17 per hour | Support Worker
 job_id: 86901b4e-c38e-4356-bcdf-438123d57b3d
 ---
@@ -469,12 +437,6 @@ job_id: 5550e727-462b-46bf-9168-3eaa72487b4c
 action:
 SELECTED | Sussex | Chichester | £12.71 - £13.57 per hour | Support Worker
 job_id: ae94e49e-f175-432c-842f-6a6ea1ec4646
----
-
----
-action:
-SELECTED | Sussex | Littlehampton | £13 - £14.5 per hour | Healthcare Support Worker
-job_id: 107214761
 ---
 
 ---

@@ -1,5 +1,4 @@
 ﻿decision,region,title,town,salary_text,working_arrangement,working_arrangement_text,working_arrangement_evidence,manual_override,manual_select,job_id
-SELECTED,North East,Accounts Administrator,Hebburn,£13 - £14 per hour,onsite_or_not_stated,,,,SELECT,364f7202-fbb5-4390-90c1-bf45e1a277ac
 SELECTED,North East,Pensions Administrator (defined benefit),Newcastle Upon Tyne,£27000 - £30000 per year,hybrid,Hybrid working,"This is a great opportunity to join a highly respected pension consultancy which offers a great working environment, generous benefits, hybrid working, and great prospects for development.",,SELECT,f27af97e-5429-44ed-973e-9325787dece3
 SELECTED,North East,Temporary Corporate Receptionist (Ad hoc) - Newcastle,Newcastle Upon Tyne,£13.5 per hour,onsite_or_not_stated,,,,SELECT,e3bdd7d7-6c0c-4560-b09b-d1a92c08dad9
 SELECTED,North East,Operations & Business Support Administrator,Gateshead,£28000 per year,onsite_or_not_stated,,,,SELECT,bd6d89e4-4f92-4798-adf4-297ad06f9bb2
@@ -21,27 +20,22 @@ POSS - NORTH EAST,North East,School Office Manager - Durham - FTC,Durham,£28142
 POSS - NORTH EAST,North East,Legal Secretary,Ryton,£9100 - £10350 per year,onsite_or_not_stated,,,,,b13f69f9-9a4c-4cc6-baec-fe98570d80b3
 SELECTED,Hampshire,Italian speaking Administrator,Fareham,£28000 - £31000 per year,hybrid,Hybrid working,"Job Title: Italian Speaking Administrator (Accounts Receivable) Location: Fareham, Hampshire (Hybrid - Mondays, Tuesdays and Wednesdays on site, Thursdays and Fridays WFH) Contract Type: Full-time, Permanent Salary: £28,000 - £31,000 per year We're working with a global leader in the vision-care industry to recruit an Administrator for their Accounts Receivable department to join their friendly, international team.",,,bc4834aa-75a5-4e16-9fe2-24c4e3e865e1
 SELECTED,Hampshire,Sales Administrator,Winchester,£30000 - £33000 per year,onsite_or_not_stated,,,,,d54fc5b5-0ff3-4926-9190-c12703e95a9a
-SELECTED,Hampshire,Access Arrangements and Examination Administrator,Alton,£10001 - £25000 per year,onsite_or_not_stated,,,,,e3876fc3-a137-4160-9261-fc8d87d6b5b2
 SELECTED,Hampshire,Facilities Administrator - Southampton,Southampton,£126 per daily,onsite_or_not_stated,,,,,fa75674d-1b48-48d4-8d92-e2ec4084632f
 SELECTED,Hampshire,Administrative Assistant,Southampton,£24000 per year,hybrid,Hybrid working,What's on Offer - The opportunity to join one of the UK's leading law firms. - A supportive and collaborative working environment. - Excellent training and long-term career development opportunities. - Competitive salary and comprehensive benefits package. - Hybrid working.,,,f5457490-a133-4a7b-a4b0-1ff3cd22900b
 SELECTED,Hampshire,Temporary Receptionist,Southampton,£12.98 per hour,onsite_or_not_stated,,,,,f3b51feb-04d9-403f-80b7-38552368205e
 SELECTED,Hampshire,Administrator,Southampton,£26000 - £27000 per year,onsite_or_not_stated,,,,,f12a7b58-f6fc-4e7b-9eb0-4e9952ab7667
 SELECTED,Hampshire,Service Administrator,Hook,£28000 - £31000 per year,hybrid,Hybrid working,What's On Offer - Hybrid working - Annual bonus scheme - Generous holiday entitlement - Enhanced pension contribution - Private healthcare - Life assurance - Flexible working arrangements - Ongoing training and development - Friendly and supportive team culture Hook Hampshire,,,e4433988-1a56-41f5-ac8f-c910dd080a57
 SELECTED,Hampshire,Administrator - IMMEDIATE START,Farnborough,£13 - £13.5 per hour,onsite_or_not_stated,,,,,e13ab105-51ca-4a23-a205-c2aa94b9d8b7
-SELECTED,Hampshire,Receptionist,Petersfield,£13 - £14 per hour,onsite_or_not_stated,,,,,d9ddff49-2dca-481b-87b8-25e70244e9de
 SELECTED,Hampshire,Senior Pensions Administrator,Portsmouth,£35000 - £40000 per year,hybrid,Hybrid working,Senior Pensions Administrator Hybrid working Experienced SIPP Pensions Administrator.,,,d95586b7-fbaf-43cc-a921-e9389c9e5e3a
 SELECTED,Hampshire,Operations Administrator,Eastleigh,£13 - £13.5 per hour,onsite_or_not_stated,,,,,d3df7f7d-fd80-4797-8a7e-a56bfcec46c0
 SELECTED,Hampshire,Business Support Assistant / Receptionist,Waterlooville,£21846 - £22308 per year,onsite_or_not_stated,,,,,d25416ff-09ab-42d3-8662-3db2a9d1411d
 SELECTED,Hampshire,Operations Coordinator,Basingstoke,£28000 per year,onsite_or_not_stated,,,,,cda0ce28-ad2b-4d63-9ba9-cb4ebcfbefb2
 SELECTED,Hampshire,Sales Administrator,Fleet,£25000 - £32000 per year,onsite_or_not_stated,,,,,bd70f859-d69b-4b0e-9483-665fe78b005e
 SELECTED,Hampshire,Office Administrator,Eastleigh,£13 - £13.5 per hour,onsite_or_not_stated,,,,,b0ad5266-b453-4cd9-9191-c276762c03c0
-SELECTED,Hampshire,Service Administrator,Alton,£29000 per year,onsite_or_not_stated,,,,,976c2d48-8b7c-4f9a-8bc2-0c14cf0b8967
 SELECTED,Hampshire,Administrator - Perfect for recent graduates,Southampton,£26000 - £27000 per year,onsite_or_not_stated,,,,,96d9cb94-c4f0-448e-a4fa-eaf14a84333b
 SELECTED,Hampshire,Customer Service Administrator,Portsmouth,£26000 - £28000 per year,onsite_or_not_stated,,,,,8e30745f-04e7-4e26-a780-b116186e4b7d
-SELECTED,Hampshire,Programme Support Administrator,Southampton,£14.92 per hour,onsite_or_not_stated,,,,,e3477e7d-c089-4875-8fe3-aa9355de0317
 SELECTED,Hampshire,Sales Administrator,Winchester,£30000 - £33000 per year,onsite_or_not_stated,,,,,845217fa-30ee-4c6e-b460-dac805d0d4f6
 SELECTED,Hampshire,Post Room & Administration Assistant,Fareham,,onsite_or_not_stated,,,,,81f392f7-0980-46b8-aee1-f7d93979267a
-SELECTED,Hampshire,Reception Administrator,Farnborough,£25000 - £30000 per year,onsite_or_not_stated,,,,,6b7ceabe-3580-47d3-ab07-9be760ff6a89
 SELECTED,Hampshire,Customer Service Admin Assistant,Ryde,£11 - £12 per hour,onsite_or_not_stated,,,,,fb5c8f19-92e0-46e9-bc2b-252c448c5820
 SELECTED,Hampshire,Operations Administrator,Southampton,£13.03 per hour,onsite_or_not_stated,,,,,f75f699e-a0b4-495f-ab6a-c3b639ae73e4
 SELECTED,Hampshire,Pensions Administrator,Winchester,,onsite_or_not_stated,,,,,7c87bc3d-7846-4985-bac8-2f3c804746fa
@@ -58,7 +52,6 @@ SELECTED,Yorkshire - West,Team Administrator - 6 months FTC,Leeds,£26000 - £27
 SELECTED,Yorkshire - West,Sales Administrator,Bradford,£12.71 - £13 per hour,onsite_or_not_stated,,,,SELECT,e8f86b79-e4d1-4340-82f5-63688544a56d
 SELECTED,Yorkshire - West,Care Coordinator,Leeds,£28000 per year,onsite_or_not_stated,,,,SELECT,e378cd98-a660-49aa-a224-5d09b2803760
 SELECTED,Yorkshire - West,Business Support Officer,Huddersfield,£13.26 per hour,onsite_or_not_stated,,,,SELECT,cb3b00ca-e400-4064-83a5-56aee71d0c99
-SELECTED,Yorkshire - West,Dental Receptionist,Huddersfield,£12.71 per hour,onsite_or_not_stated,,,,SELECT,c426ec2b-0dd0-4467-b606-598c0c2ece94
 SELECTED,Yorkshire - West,Financial Planning Administrator,Leeds,£27000 - £32000 per year,hybrid,Hybrid working,"Financial Planning Administrator Financial Planning Administrator Location: Leeds (Hybrid)Salary: Up to £32,000 + Bonus Job Type: Full-time, Permanent Are you an experienced Financial Services Administrator looking to join a supportive, growing business where your career can truly progress?",,SELECT,b03765bd-1521-498a-8040-958c3eabf6b0
 SELECTED,Yorkshire - West,Data Administrator,Keighley,£13.33 - £13.85 per hour,onsite_or_not_stated,,,,SELECT,af178fc4-f738-4009-80f8-5cc73b7fbe60
 SELECTED,Yorkshire - West,Business Support Officer,Wakefield,£13.69 per hour,onsite_or_not_stated,,,,SELECT,ae8b96b9-a0e7-47a7-ba6e-d75116aa2d0c
@@ -85,9 +78,6 @@ SELECTED,Yorkshire - South,Import / Export Administrator,Sheffield,£28000 - £3
 SELECTED,Yorkshire - South,Workplace Operations Coordinator,Sheffield,£30000 per year,onsite_or_not_stated,,,,SELECT,107668923
 SELECTED,Yorkshire - South,Receptionist / Facilities Coordinator,Barnsley,£25000 - £30000 per year,onsite_or_not_stated,,,,SELECT,3210a914-2c99-4b6c-870b-c2001651b931
 SELECTED,London,Accounts Administrator,Orpington,£14 - £16 per hour,onsite_or_not_stated,,,,SELECT,4c6a069d-6bb2-488e-ab37-f5a62c7c2966
-SELECTED,London,Logistics Administrator,Croydon,£28000 - £30000 per year,onsite_or_not_stated,,,,SELECT,5d9fb5dd-9dfb-459d-9e5c-26e1da48ab22
-SELECTED,London,Purchasing and Shipping Administrator,London,£32000 per year,onsite_or_not_stated,,,,SELECT,81e1c860-ef3d-4e7e-81ca-dec75acfc8de
-SELECTED,London,Credit Administrator,Harrow,£29000 per year,onsite_or_not_stated,,,,SELECT,33eab37d-af87-4704-9471-df90f5cef85c
 SELECTED,London,Graduate - Quality & Compliance Administrator,London,£26000 per year,onsite_or_not_stated,,,,SELECT,107609680
 SELECTED,London,People & Culture Administrator,London,£27500 - £29187 per year,hybrid,2 office days per week,"People & Culture Administrator People & Culture Administrator Location: East Croydon (Hybrid - 2 days per week in the office)Contract: Part-time (4 days), Permanent Salary: £27,500 - £29,187 per annum fulltime Please note: This post is open to female applicants only, as this is a genuine occupational requirement under the Equality Act 2010.The Opportunity An exciting opportunity for an experienced, organised, and values-driven People & Culture Administrator to join a dedicated team.",,SELECT,de18dc84-cb43-4743-99f6-a3d16e406cc7
 SELECTED,London,Primary School Administrator,London,£16 per hour,onsite_or_not_stated,,,,SELECT,5140fecd-b98a-4d9d-b35d-44c239c1d48a
@@ -103,7 +93,6 @@ SELECTED,London,School Administrator,London,£16 - £18 per hour,onsite_or_not_s
 SELECTED,London,Business Support Administrator,Ilford,£106.56 per daily,onsite_or_not_stated,,,,SELECT,fde75564-077e-43bf-95db-8ac20a22def2
 SELECTED,London,Administrator,Feltham,£28000 per year,onsite_or_not_stated,,,,SELECT,fa86a8ff-8d90-4867-9253-90c87a724dd7
 SELECTED,London,Care Coordinator,London,£28000 - £35000 per year,onsite_or_not_stated,,,,SELECT,f9f87ff6-84cf-43ac-bd6b-70599a386639
-SELECTED,London,Administrative Assistant,London,,hybrid,Hybrid working,Administrative Assistant Administrative Assistant - Marketing & Business Development Competitive London (EC3 A) & Hybrid working We are recruiting for an Administrative Assistant to join a busy Marketing & Business Development team within a leading international law firm in London.,,SELECT,f1ba36fe-09d8-4779-a3d6-443601e069fe
 SELECTED,London,Receptionist Administrator,London,£28000 per year,onsite_or_not_stated,,,,SELECT,f023e0ee-2973-4539-a1f2-8a244e002010
 SELECTED,London,Office Assistant,London,£27000 per year,onsite_or_not_stated,,,,SELECT,ecb98ea7-06cb-4f80-8944-c1441ce7857d
 SELECTED,London,Business Support Officer,Bromley,£18 - £18.22 per hour,onsite_or_not_stated,,,,SELECT,ecafeb7a-6c0c-4e55-9b8e-6cc1e872fb01
@@ -113,7 +102,6 @@ SELECTED,London,Team Assistant and Office Coordinator in Insurance! City based!,
 SELECTED,London,Customer Support Administrator,Uxbridge,£25000 per year,onsite_or_not_stated,,,,SELECT,e2dfa737-ca4a-41e0-a227-f26b4d5c5b40
 SELECTED,London,Administrator Bank and Part time Canary Wharf 32 hours per week,London,£12.71 - £13.71 per hour,onsite_or_not_stated,,,,SELECT,e2b840d1-3c78-4ab9-aae7-f5337f647327
 SELECTED,London,Trainee Office administrator,Barking,£25500 per year,onsite_or_not_stated,,,,SELECT,db4a4325-f547-40fe-ad60-7060b5e64e79
-SELECTED,London,Bookings Coordinator,London,£24000 - £26000 per year,onsite_or_not_stated,,,,SELECT,cd03aed6-abeb-4e93-98c1-aa4d6f69da1a
 SELECTED,London,Office Administrator,London,£25000 - £28000 per year,onsite_or_not_stated,,,,SELECT,cbdbea8e-f34a-48fe-a333-d2077254df76
 SELECTED,London,Entry Level Administrator,Barking,£24000 - £25500 per year,onsite_or_not_stated,,,,SELECT,c38592d7-5e7b-43dc-b88d-5b69f5edbe29
 SELECTED,London,Administrator,London,£28000 - £32000 per year,onsite_or_not_stated,,,,SELECT,c3604fba-2d21-4f0b-b8c6-60e55981f0ad
@@ -129,12 +117,9 @@ SELECTED,London,Customer Service Administrator,West Drayton,£13.85 - £14.8 per
 SELECTED,London,Administrator,City,£12.75 - £15.14 per hour,onsite_or_not_stated,,,,SELECT,9e5c17ef-1d1c-4221-8565-1db5db2bda74
 SELECTED,London,Receptionist,London,£30000 - £33000 per year,onsite_or_not_stated,,,,SELECT,9b37ac0f-f6b6-4c51-b40e-06c1d0614a99
 SELECTED,London,School Administrator and Receptionist,London,£25000 - £35000 per year,onsite_or_not_stated,,,,SELECT,960e6b29-af29-4a8a-9bc1-7e0f0a51a9a5
-SELECTED,London,School Administrator - Enhanced DBS Required!,London,£15 - £16 per hour,onsite_or_not_stated,,,,SELECT,888558b2-6ca5-4316-a99f-e028067bf76d
-SELECTED,London,School Administrator - Primary School Barnet,Barnet,£16.5 - £18 per hour,onsite_or_not_stated,,,,SELECT,51c04e89-ef80-496e-87ac-018aae61d75f
 SELECTED,London,Complaints & FOI Business Support Officer,Bexleyheath,£15.68 per hour,hybrid,Hybrid working,"Complaints & FOI Business Support Officer Complaints & FOI Business Support Officer Location: Bexleyheath (Hybrid Working) Office Attendance: 2 days per week (typically Tuesdays and Wednesdays) central Bexleyheath Home Working: 3 days per week Start Date: Immediate Start Available Contract: Ongoing Temporary Assignment Pay Rate: £15.68 per hour PAYE Hours: Monday to Friday, 8:48am - 5:00pm About the Role We are recruiting for a Complaints & FOI Business Support Officer to join a busy Local Authority team based in Bexleyheath on an ongoing temporary basis.",,SELECT,937b7ec1-5bfc-4049-affa-2cdaa4b013fa
 SELECTED,London,Employee Benefits Administrator,London,£25000 - £31500 per year,hybrid,Hybrid working,"Hours Mon-Fri, 8.45am - 5.30pm with that hybrid/WFH flex.",,SELECT,917a878a-622a-481d-89dd-cb54f6a997b7
 SELECTED,London,Membership Services Administrator,London,£14 - £15.5 per hour,onsite_or_not_stated,,,,SELECT,8f225185-75cc-4cdc-9bcd-c933be24aeab
-SELECTED,London,Receptionist/Administrator,London,,onsite_or_not_stated,,,,SELECT,86e6ab2a-9583-4d2f-8c5b-97c1ab08dd7b
 SELECTED,London,Temporary Receptionist (Fire Marshal and First aid) Tech firm,London,£17 per hour,onsite_or_not_stated,,,,SELECT,8c12ca8b-14a8-40d6-8fed-b8f5f02b39cb
 SELECTED,London,Account Coordinator,London,£28000 - £30000 per year,hybrid,3 days in office,"Account Coordinator Sales Account Administrator - Annual Salary: £26-28k plus benefits - Location: SW14, London - Job Type: Full-time/Hybrid - 3 days in the office, 2 days at home - Hours: Flexible working hours between 8.00am and 10.00am and 4.30pm and 6.30pm Join a dynamic and growing company who design and manufacture accessories for the UK high street.",,SELECT,5b696a5a-a2a2-48f6-98c0-1e7422504062
 SELECTED,London,Operations Administrator,Sidcup,£25000 - £28000 per year,onsite_or_not_stated,,,,SELECT,76dc46f9-a6e8-4c12-91a5-424019cb5e58
@@ -145,10 +130,7 @@ SELECTED,London,"Trainee Financial Administrator, Barnet, North London, £25,000
 SELECTED,London,Receptionist,London,£30000 - £35000 per year,onsite_or_not_stated,,,,SELECT,63d3c933-3a60-4cdd-b3a2-0a99f953fe7e
 SELECTED,London,Property Administrator,London,£28000 per year,onsite_or_not_stated,,,,SELECT,636731a2-f714-4a38-8e01-1d393a089d3b
 SELECTED,London,Administrator,Kingston Upon Thames,£14 per hour,onsite_or_not_stated,,,,SELECT,5c4f9bf3-8a5b-45b0-8718-fd7e514ff1a1
-SELECTED,London,"Career Receptionist / Admin Assistant, Private Equity",London,,hybrid,Hybrid working,"Career Receptionist / Admin Assistant, Private Equity ISE Partners are working on a fantastic opportunity for a polished, professional, and high-potential graduate who is looking for a receptionist job and to build a long-term career within a corporate finance / investment environment.This role will suit someone with 1-3 years' experience as a Receptionist, Team Assistant, Admin Assistant or Junior EA in a corporate environment who enjoys being front-facing but is equally confident providing administrative support to an investment team.The Role:This is a hybrid position combining reception coverage with Team Assistant support to a group of Executives / Investment professionals.",,SELECT,5b327633-ea8e-4c70-b7ad-6d374c676896
 SELECTED,London,Repairs Administrator,Bromley,£25000 - £35000 per year,onsite_or_not_stated,,,,SELECT,85cb0b33-1187-44a1-9120-c1bef5cd7404
-DROPPED,Hampshire,Senior Windows Server Administrator,Southampton,£50000 - £70000 per year,,,,FORCE_EXCLUDE,,edfb6bfb-1af8-4aa8-bf4e-faad98367d1e
-DROPPED,Yorkshire - West,Payroll & Operations Administrator,Wetherby,£30000 per year,,,,FORCE_EXCLUDE,,107506827
 DROPPED,Yorkshire - West,Legal Secretary,Leeds,£24000 - £27000 per year,,,,FORCE_EXCLUDE,,e4f13a76-cd2d-41df-9fca-4e91c6b2f758
 DROPPED,London,Secretary,London,£35000 per year,,,,FORCE_EXCLUDE,,d301bdd5-5c16-4b18-aab4-0b62c66574b6
 DROPPED,London,Payroll & Data Coordinator,London,£35000 per year,,,,FORCE_EXCLUDE,,107609016
