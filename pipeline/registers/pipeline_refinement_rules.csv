@@ -1,0 +1,80 @@
+category,title,classification,context_policy,salary_review_ceiling_gbp,review_status,reason
+admin_service,Secretary,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Plain secretary is transferable office work; specialist qualifiers remain excluded
+admin_service,Billing Administrator,HARD_PASS,,,AGREED_2026-07-24,Billing is a specialist finance function
+admin_service,Complaints & FOI Business Support Officer,HARD_PASS,,,AGREED_2026-07-24,FOI and statutory complaints handling imply specialist public-sector knowledge
+admin_service,Employee Benefits Administrator,HARD_PASS,,,AGREED_2026-07-24,Employee benefits is a specialist pensions or financial-services function
+admin_service,Membership Services Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,General membership services is transferable unless specialist professional-body knowledge is mandatory
+admin_service,Pensions Administrator,HARD_PASS,,,AGREED_2026-07-24,Pensions administration implies specialist sector knowledge
+admin_service,IFA Administrator,HARD_PASS,,,AGREED_2026-07-24,IFA administration implies specialist financial-services knowledge
+admin_service,Internal Sales Administrator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Sales wording alone is not exclusionary; corrupt salary is assessed independently
+admin_service,Call Centre/Admin Assistant,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Basic transferable call-centre and administration role
+admin_service,School Office Manager - Durham - FTC,HARD_PASS,,,AGREED_2026-07-24,Manager wording places the role above basic administration
+admin_service,Senior Windows Server Administrator,HARD_PASS,,,AGREED_2026-07-24,Senior technical systems administration is outside the office-support function
+admin_service,Payroll & Data Coordinator,HARD_PASS,,,AGREED_2026-07-24,Payroll is a specialist function
+admin_service,Receptionist - Full time - West End,HIGH_CONFIDENCE,,36000,AGREED_2026-07-24,Clear receptionist role reviewed as plausible up to the recorded London salary
+admin_service,Accounts Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Basic accounts administration is transferable unless specialist qualifications are mandatory
+admin_service,Pensions Administrator (defined benefit),HARD_PASS,,,AGREED_2026-07-24,Defined-benefit pensions wording is specialist
+admin_service,Admin Assistant - Care Home,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Care home is the sector and the function remains basic administration
+admin_service,Operations & Business Support Administrator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,General operations and business-support administration is transferable
+admin_service,HR Administrator - Gateshead - Permanent,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,HR administration is transferable unless CIPD or substantial prior expertise is mandatory
+admin_service,Asbestos Administrator / Project Coordinator,HARD_PASS,,,AGREED_2026-07-24,Specialist sector wording combined with project coordination creates a barrier
+admin_service,German Speaking Administrator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Language requirements do not make a basic administrator role professionally specialist
+admin_service,Italian speaking Administrator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Language requirements do not make a basic administrator role professionally specialist
+admin_service,Access Arrangements and Examination Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Education administration is eligible unless specialist qualifications are mandatory
+admin_service,Facilities Administrator - Southampton,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Facilities administration is transferable unless specialist facilities qualifications are mandatory
+admin_service,HR & Recruitment Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,HR and recruitment administration is transferable unless explicit specialist barriers apply
+admin_service,Senior Pensions Administrator,HARD_PASS,,,AGREED_2026-07-24,Senior and pensions wording both exclude
+admin_service,Operations Administrator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,General operations administration is transferable
+admin_service,Operations Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Coordinator wording alone is not exclusionary
+admin_service,Wealth Administrator,HARD_PASS,,,AGREED_2026-07-24,Wealth administration implies specialist financial-services knowledge
+admin_service,Programme Support Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Programme support is transferable unless specialist programme qualifications are mandatory
+admin_service,Post Room & Administration Assistant,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Basic post-room and administration work remains eligible without a stated salary
+admin_service,Export Administrator,HIGH_CONFIDENCE,specialist_requirements_review,32000,AGREED_2026-07-24,Export administration is eligible unless customs or export expertise is mandatory
+admin_service,Payroll & Operations Administrator,HARD_PASS,,,AGREED_2026-07-24,Payroll remains a substantive specialist function
+admin_service,Junior Regulatory Affairs Administrator,HARD_PASS,,,AGREED_2026-07-24,Junior wording does not remove the regulatory specialist barrier
+admin_service,Legal Secretary,HARD_PASS,,,AGREED_2026-07-24,Legal in the title signals specialist sector knowledge
+admin_service,Administrator/PA,HIGH_CONFIDENCE,,,AGREED_2026-07-24,General administration and PA functions are transferable
+admin_service,Training Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Training administration is transferable unless specialist training qualifications are mandatory
+admin_service,Care Coordinator,HIGH_CONFIDENCE,,32000,AGREED_2026-07-24,Care coordination is office-based scheduling and service support
+admin_service,Client Reporting Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Reporting can be general administration unless another specialist function is mandatory
+admin_service,Dental Receptionist,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Dental is the sector; reception remains transferable unless prior dental expertise is mandatory
+admin_service,Financial Planning Administrator,HARD_PASS,,,AGREED_2026-07-24,Financial planning implies specialist financial-services knowledge
+admin_service,Breakdown Administrator (Weekends),HIGH_CONFIDENCE,,,AGREED_2026-07-24,General service-support administration remains eligible without a stated salary
+admin_service,Finance Administrator,HARD_PASS,,,AGREED_2026-07-24,Finance wording implies specialist knowledge
+admin_service,Office & Compliance Coordinator,HARD_PASS,,,AGREED_2026-07-24,Compliance is a substantive specialist regulatory function
+admin_service,Recruitment Onsite Operations Coordinator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Recruitment operations coordination is transferable unless senior or specialist requirements are explicit
+admin_service,Administrator - ERP Systems,HARD_PASS,,,AGREED_2026-07-24,ERP systems administration is technical rather than general office administration
+admin_service,Health & Safety Administrator,HARD_PASS,,,AGREED_2026-07-24,Health and safety is a specialist compliance function
+admin_service,Property Administrator,HARD_PASS,,,AGREED_2026-07-24,Property administration is perceived as requiring sector knowledge
+admin_service,Procurement Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Procurement administration is eligible unless substantial expertise or qualifications are mandatory
+admin_service,Senior Business Support Officer - Travel Assessment Team - Local Authority,HARD_PASS,,,AGREED_2026-07-24,Senior wording excludes regardless of sector or salary
+admin_service,Loan Administrator,HARD_PASS,,,AGREED_2026-07-24,Loan administration is a specialist financial-services function
+admin_service,Workplace Operations Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-07-24,General workplace operations coordination is transferable
+admin_service,Logistics Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Logistics administration is eligible unless specialist logistics expertise is mandatory
+admin_service,Purchasing and Shipping Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Purchasing and shipping administration is eligible unless customs or supply-chain expertise is mandatory
+admin_service,Credit Administrator,HARD_PASS,,,AGREED_2026-07-24,Credit administration is a specialist finance function
+admin_service,Graduate - Quality & Compliance Administrator,HARD_PASS,,,AGREED_2026-07-24,Graduate wording does not remove the compliance specialist barrier
+admin_service,People & Culture Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,People and Culture is general HR administration unless specialist barriers are mandatory
+admin_service,Primary School Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,School is the sector; the function remains general administration
+admin_service,HR Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,HR administration is transferable unless CIPD or substantial prior expertise is mandatory
+admin_service,Patient Coordinator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Patient coordination is eligible unless clinical qualifications or substantial healthcare experience are mandatory
+admin_service,Part Time Accounts Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Accounts administration is transferable unless specialist accounting barriers are mandatory
+admin_service,Nights Export Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Night working does not change an eligible export-administration function
+admin_service,Shipping Administration Coordinator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Shipping administration is eligible unless customs or supply-chain expertise is mandatory
+admin_service,Part-Time Admissions & Attendance Administrator,HIGH_CONFIDENCE,specialist_requirements_review,39000,AGREED_2026-07-24,School admissions and attendance administration reviewed as transferable at this pay level
+admin_service,Business Support Officer,HIGH_CONFIDENCE,specialist_requirements_review,35529,AGREED_2026-07-24,General business support is transferable unless additional specialist wording appears
+admin_service,Merchandising Administrator,HARD_PASS,,,AGREED_2026-07-24,Merchandising is a distinct specialist retail function
+admin_service,Virtual Telecommute Research Panel. Flexible Hours. Customer Service Administrator Advisor Welcome,HARD_PASS,,,AGREED_2026-07-24,Keyword-stuffed research-panel advert is not a credible defined vacancy
+admin_service,Team Assistant and Office Coordinator in Insurance! City based!,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Office support remains transferable unless insurance expertise is mandatory
+admin_service,Administrator Bank and Part time Canary Wharf 32 hours per week,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Bank or part-time status does not make general administration specialist
+support_worker,PERSONAL ASSISTANT,REVIEW_CONTEXT_DEPENDENT,support_personal_assistant,35200,AGREED_2026-07-24,Include only where the description clearly establishes personal care or direct support
+support_worker,Family Support Worker - Barnsley,HIGH_CONFIDENCE,family_direct_support,35783,AGREED_2026-07-24,Include direct family support unless mandatory statutory casework or social-work requirements create a barrier
+support_worker,Domestic Abuse Support Worker,HIGH_CONFIDENCE,specialist_support_requirements,,AGREED_2026-07-24,Include direct support unless regulated qualifications or substantial mandatory experience create a barrier
+support_worker,Care Assistant to English Literature Uni Graduate,HIGH_CONFIDENCE,,44200,AGREED_2026-07-24,The client descriptor does not change the core care-assistant function
+support_worker,Crisis Support Worker,HIGH_CONFIDENCE,,46800,AGREED_2026-07-24,Crisis is a client-context descriptor and not an exclusion
+support_worker,Childrens Crisis Support Worker,HIGH_CONFIDENCE,,46800,AGREED_2026-07-24,Children and crisis context does not change the support-worker function
+support_worker,Young Person's Support Worker Northumberland,HIGH_CONFIDENCE,,42900,AGREED_2026-07-24,Client-group wording alone is not exclusionary
+support_worker,Young Person's Support Worker Gateshead/Newcastle,HIGH_CONFIDENCE,,42900,AGREED_2026-07-24,Client-group wording alone is not exclusionary
+support_worker,Children and Young Persons Support Worker,HIGH_CONFIDENCE,,44850,AGREED_2026-07-24,Direct support for children and young people is eligible
+support_worker,Scottish Island Support Worker,HARD_PASS,,,AGREED_2026-07-24,Actual workplace conflicts with the target regional slice
+support_worker,Young Person's Support Worker Durham,HIGH_CONFIDENCE,,42900,AGREED_2026-07-24,Client-group wording alone is not exclusionary

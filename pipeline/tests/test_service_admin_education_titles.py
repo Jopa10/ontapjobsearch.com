@@ -51,11 +51,16 @@ class ServiceAdminEducationTitleTests(unittest.TestCase):
             "Primary School Administrator",
             "School Reception Administrator",
             "School Receptionist Administrator",
-            "School Office Manager",
         )
         for title in eligible_titles:
             with self.subTest(title=title):
                 self.assertEqual("HIGH_CONFIDENCE", self.classification_for(title))
+
+    def test_school_office_manager_is_excluded_by_agreed_seniority_rule(self) -> None:
+        self.assertEqual(
+            "HARD_PASS",
+            self.classification_for("School Office Manager"),
+        )
 
     def test_non_admin_education_titles_remain_excluded(self) -> None:
         excluded_titles = (
@@ -73,8 +78,8 @@ class ServiceAdminEducationTitleTests(unittest.TestCase):
             self.classification_for("School Behaviour Support Administrator"),
         )
 
-    def test_plain_office_manager_keeps_existing_register_rule(self) -> None:
-        self.assertEqual("OUT_OF_SCOPE", self.classification_for("Office Manager"))
+    def test_plain_office_manager_is_excluded_by_agreed_seniority_rule(self) -> None:
+        self.assertEqual("HARD_PASS", self.classification_for("Office Manager"))
 
 
 if __name__ == "__main__":

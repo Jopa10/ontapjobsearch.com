@@ -1,0 +1,5 @@
+region,review_threshold_gbp,notes
+London,35000,Higher London and South East review point agreed 2026-07-24
+Sussex,35000,Use London salary review point
+Hampshire,35000,Use London salary review point
+DEFAULT,30000,All other current regions

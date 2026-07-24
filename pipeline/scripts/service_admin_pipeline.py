@@ -67,6 +67,25 @@ from typing import Any
 
 import pandas as pd
 
+try:
+    from .pipeline_refinement import (
+        assess_context_policy,
+        assess_salary,
+        load_refinement_rules,
+        load_salary_thresholds,
+        markdown_feed_date,
+        resolve_feed_date,
+    )
+except ImportError:  # direct script/test loading
+    from pipeline_refinement import (
+        assess_context_policy,
+        assess_salary,
+        load_refinement_rules,
+        load_salary_thresholds,
+        markdown_feed_date,
+        resolve_feed_date,
+    )
+
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-admin-service")
 REPORTS_DAILY_DIR = Path("reports-daily")
@@ -77,6 +96,7 @@ MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "service-admin-review.md"
 # Backwards-compatible alias for older helper code.
 MANUAL_REVIEW_PATH = MANUAL_REVIEW_CSV_PATH
 MANUAL_REVIEW_FIELDNAMES = [
+    "feed_date",
     "decision",
     "region",
     "title",
@@ -86,6 +106,8 @@ MANUAL_REVIEW_FIELDNAMES = [
     "manual_select",
     "job_id",
 ]
+CURRENT_FEED_DATE = ""
+SALARY_THRESHOLDS = load_salary_thresholds()
 
 JOB_FILE_KEYWORDS = ["jobg8", "jobs"]
 DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "geo_lookup.xlsx"
@@ -248,6 +270,14 @@ HARD_PASS_PATTERNS = [
     # Senior/management and sales-heavy roles.
     "senior manager", "general manager", "operations manager", "sales executive", "field sales",
     "business development", "account manager", "sales consultant", "telesales", "estate agent",
+
+    # Agreed specialist-function and seniority barriers.
+    "senior", "manager", "legal", "pensions", "pension ", "ifa ", "wealth",
+    "financial planning", "finance administrator", "credit administrator", "loan administrator",
+    "billing administrator", "employee benefits", "payroll", "compliance", "regulatory affairs",
+    "health & safety", "health and safety", "property administrator", "erp systems",
+    "server administrator", "systems administrator", "asbestos administrator", "merchandising administrator",
+    "freedom of information", "foi ",
 ]
 
 # Clear office/admin/service-support roles.
@@ -1074,6 +1104,7 @@ class ManualDecisionState:
     source: str = "none"
     markdown_excludes_loaded: int = 0
     markdown_selections_loaded: int = 0
+    feed_date: str = ""
 
 
 MANUAL_OVERRIDE_ALIASES = {
@@ -1181,7 +1212,7 @@ def _markdown_review_action_rows(text: str) -> list[dict[str, str]]:
         })
     return rows
 
-def load_manual_decisions_from_markdown() -> ManualDecisionState:
+def load_manual_decisions_from_markdown(current_feed_date: str = "") -> ManualDecisionState:
     """
     Read manual rerun decisions from manual/service-admin-review.md.
 
@@ -1201,6 +1232,23 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
             previously_selected=set(),
             load_warning=f"human review Markdown exists but could not be read: {exc}",
             source="none",
+        )
+
+    expected_feed_date = current_feed_date or CURRENT_FEED_DATE
+    stored_feed_date = markdown_feed_date(text)
+    if not expected_feed_date or stored_feed_date != expected_feed_date:
+        return ManualDecisionState(
+            report_loaded=True,
+            rerun_mode=False,
+            overrides={},
+            selections=set(),
+            previously_selected=set(),
+            load_warning=(
+                f"manual review feed_date {stored_feed_date or 'missing'} does not match "
+                f"current feed {expected_feed_date or 'unresolved'}; old actions ignored"
+            ),
+            source="markdown_stale",
+            feed_date=expected_feed_date,
         )
 
     overrides: dict[str, str] = {}
@@ -1231,17 +1279,18 @@ def load_manual_decisions_from_markdown() -> ManualDecisionState:
     markdown_excludes = sum(1 for value in overrides.values() if value == "FORCE_EXCLUDE")
     return ManualDecisionState(
         report_loaded=True,
-        rerun_mode=True,
+        rerun_mode=bool(overrides or selections),
         overrides=overrides,
         selections=selections,
         previously_selected=previously_selected,
         source="markdown",
         markdown_excludes_loaded=markdown_excludes,
         markdown_selections_loaded=len(selections),
+        feed_date=expected_feed_date,
     )
 
 
-def load_manual_decisions_from_csv() -> ManualDecisionState:
+def load_manual_decisions_from_csv(current_feed_date: str = "") -> ManualDecisionState:
     """
     Read manual rerun decisions from manual/service-admin-review.csv.
 
@@ -1261,6 +1310,28 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
             previously_selected=set(),
             load_warning=f"human review CSV exists but could not be read: {exc}",
             source="none",
+        )
+
+    expected_feed_date = current_feed_date or CURRENT_FEED_DATE
+    stored_dates = {
+        norm(value)
+        for value in (df["feed_date"] if "feed_date" in df.columns else [])
+        if norm(value)
+    }
+    stored_feed_date = next(iter(stored_dates)) if len(stored_dates) == 1 else ""
+    if not expected_feed_date or stored_feed_date != expected_feed_date:
+        return ManualDecisionState(
+            report_loaded=True,
+            rerun_mode=False,
+            overrides={},
+            selections=set(),
+            previously_selected=set(),
+            load_warning=(
+                f"manual review feed_date {stored_feed_date or 'missing'} does not match "
+                f"current feed {expected_feed_date or 'unresolved'}; old actions ignored"
+            ),
+            source="csv_stale",
+            feed_date=expected_feed_date,
         )
 
     overrides: dict[str, str] = {}
@@ -1293,15 +1364,16 @@ def load_manual_decisions_from_csv() -> ManualDecisionState:
 
     return ManualDecisionState(
         report_loaded=True,
-        rerun_mode=True,
+        rerun_mode=bool(overrides or selections),
         overrides=overrides,
         selections=selections,
         previously_selected=previously_selected,
         source="csv",
+        feed_date=expected_feed_date,
     )
 
 
-def load_manual_decisions() -> ManualDecisionState:
+def load_manual_decisions(current_feed_date: str = "") -> ManualDecisionState:
     """
     Prefer the GitHub-editable Markdown review file, with CSV retained as the
     backwards-compatible input source when Markdown is absent.
@@ -1313,13 +1385,14 @@ def load_manual_decisions() -> ManualDecisionState:
         selections=set(),
         previously_selected=set(),
         source="none",
+        feed_date=current_feed_date or CURRENT_FEED_DATE,
     )
 
     if MANUAL_REVIEW_MD_PATH.exists():
-        return load_manual_decisions_from_markdown()
+        return load_manual_decisions_from_markdown(current_feed_date)
 
     if MANUAL_REVIEW_CSV_PATH.exists():
-        return load_manual_decisions_from_csv()
+        return load_manual_decisions_from_csv(current_feed_date)
 
     return empty_state
 
@@ -1367,32 +1440,42 @@ def load_title_register() -> dict[str, dict[str, str]]:
 
     If no register is supplied, V1 falls back to the embedded admin/service rule seeds.
     """
-    register_path = find_optional_input_file(TITLE_REGISTER_FILE_KEYWORDS)
-    if not register_path:
-        return {}
-
-    try:
-        df = read_table(register_path).fillna("")
-    except Exception:
-        return {}
-
-    required = {"title", "classification", "review_status", "reason"}
-    if not required.issubset(set(df.columns)):
-        return {}
-
     register: dict[str, dict[str, str]] = {}
-    for _, row in df.iterrows():
+    register_path = find_optional_input_file(TITLE_REGISTER_FILE_KEYWORDS)
+    if register_path:
+        try:
+            df = read_table(register_path).fillna("")
+        except Exception:
+            df = pd.DataFrame()
+        required = {"title", "classification", "review_status", "reason"}
+        if required.issubset(set(df.columns)):
+            for _, row in df.iterrows():
+                title_key = normalise_title_for_register(row.get("title"))
+                if not title_key:
+                    continue
+                classification = norm(row.get("classification")).upper() or "REVIEW_CONTEXT_DEPENDENT"
+                review_status = norm(row.get("review_status")).upper()
+                if review_status == "REVIEW" and classification != "ELASTIC_FIT":
+                    classification = "REVIEW_CONTEXT_DEPENDENT"
+                register[title_key] = {
+                    "classification": classification,
+                    "reason": norm(row.get("reason")) or "exact title register match",
+                    "review_status": review_status or "STABLE",
+                    "context_policy": norm(row.get("context_policy")),
+                    "salary_review_ceiling_gbp": norm(row.get("salary_review_ceiling_gbp")),
+                }
+
+    # Curated decisions are loaded last so they override the generated title
+    # register without making the main register a one-off artifact.
+    for row in load_refinement_rules("admin_service"):
         title_key = normalise_title_for_register(row.get("title"))
-        if not title_key:
-            continue
         classification = norm(row.get("classification")).upper() or "REVIEW_CONTEXT_DEPENDENT"
-        review_status = norm(row.get("review_status")).upper()
-        if review_status == "REVIEW" and classification != "ELASTIC_FIT":
-             classification = "REVIEW_CONTEXT_DEPENDENT"
         register[title_key] = {
             "classification": classification,
-            "reason": norm(row.get("reason")) or "exact title register match",
-            "review_status": review_status or "STABLE",
+            "reason": norm(row.get("reason")) or "agreed pipeline refinement",
+            "review_status": norm(row.get("review_status")).upper() or "STABLE",
+            "context_policy": norm(row.get("context_policy")),
+            "salary_review_ceiling_gbp": norm(row.get("salary_review_ceiling_gbp")),
         }
     return register
 
@@ -1486,7 +1569,17 @@ def process(
         salary_text_preview, salary_source = build_salary_details(row)
         manual_override = overrides.get(job_id, "")
         manual_select = "1" if job_id in manual_selects else ""
+        title_rule = title_register.get(normalise_title_for_register(title), {})
         title_classification, title_classification_reason, title_priority, review_status = classify_title(title, title_register)
+        context_policy = norm(title_rule.get("context_policy"))
+        reviewed_salary_ceiling = norm(title_rule.get("salary_review_ceiling_gbp"))
+        context_status = ""
+        context_reason = ""
+        salary_review_status = ""
+        annual_salary_upper = ""
+        regional_salary_review_point = ""
+        review_required = False
+        review_reasons: list[str] = []
         geo_source = ""
         town = area
 
@@ -1508,8 +1601,14 @@ def process(
                 "employment_type": employment_type,
                 "salary_text": salary_text_preview,
                 "salary_source": salary_source,
+                "salary_review_status": salary_review_status,
+                "annual_salary_upper": annual_salary_upper,
+                "regional_salary_review_point": regional_salary_review_point,
                 "geo_source": geo_source,
                 "description_preview": description_preview,
+                "context_policy": context_policy,
+                "context_status": context_status,
+                "context_reason": context_reason,
                 "title_classification": title_classification,
                 "title_priority": title_priority,
                 "review_status": review_status,
@@ -1558,22 +1657,66 @@ def process(
         if not salary_text_preview or str(salary_text_preview).strip() == "":
             salary_text_preview = ""
             salary_source = "missing"
+
+        salary_assessment = assess_salary(
+            salary_min=row.get(COL["salary_min"]),
+            salary_max=row.get(COL["salary_max"]),
+            salary_period=normalise_salary_period(row),
+            salary_text=salary_text_preview,
+            region=region,
+            thresholds=SALARY_THRESHOLDS,
+            reviewed_ceiling_gbp=reviewed_salary_ceiling,
+        )
+        salary_review_status = salary_assessment.status
+        annual_salary_upper = (
+            round(salary_assessment.annual_upper_gbp, 2)
+            if salary_assessment.annual_upper_gbp is not None
+            else ""
+        )
+        regional_salary_review_point = salary_assessment.review_threshold_gbp
+
         if manual_override == "FORCE_EXCLUDE":
             drop("manual override: FORCE_EXCLUDE", region)
+            continue
+        if salary_assessment.corrupt:
+            drop("salary credibility: " + salary_assessment.reason, region)
             continue
 
         if title_classification in {"HARD_PASS", "OUT_OF_SCOPE"}:
             drop("title classification: " + title_classification + " - " + title_classification_reason, region)
             continue
 
-        if title_classification == "REVIEW_CONTEXT_DEPENDENT" and manual_override != "FORCE_INCLUDE":
-            drop("manual review required: " + title_classification_reason, region)
+        context_assessment = assess_context_policy(context_policy, raw_description)
+        context_status = context_assessment.status
+        context_reason = context_assessment.reason
+        if context_assessment.excluded and manual_override != "FORCE_INCLUDE":
+            drop("context rule: " + context_assessment.reason, region)
             continue
+        if context_assessment.review_required:
+            review_required = True
+            review_reasons.append(context_assessment.reason)
+
+        if title_classification == "REVIEW_CONTEXT_DEPENDENT":
+            if context_policy and context_assessment.status == "ok":
+                title_classification = "HIGH_CONFIDENCE"
+                title_priority = CLASSIFICATION_PRIORITY[title_classification]
+                title_classification_reason += "; agreed context rule satisfied"
+            elif manual_override != "FORCE_INCLUDE":
+                review_required = True
+                review_reasons.append(title_classification_reason)
+
+        if salary_assessment.review_required:
+            review_required = True
+            review_reasons.append(salary_assessment.reason)
 
         if manual_override == "FORCE_INCLUDE":
             reason = "manual override: FORCE_INCLUDE; title classification: " + title_classification
+            review_required = False
+            review_reasons = []
         else:
             reason = "title classification: " + title_classification + " - " + title_classification_reason
+            if review_reasons:
+                reason += "; manual review required: " + "; ".join(review_reasons)
 
         description = clean_description(raw_description)
         if not description:
@@ -1586,6 +1729,8 @@ def process(
             "_manual_select": manual_select,
             "_title_priority": title_priority,
             "_title_classification": title_classification,
+            "_review_required": "1" if review_required else "",
+            "_review_reason": "; ".join(review_reasons),
             "job_id": job_id,
             "title": title,
             "company": build_company(row),
@@ -1672,13 +1817,17 @@ def anchor_sort_and_select(
             key=anchor_sort_key,
         )
         routine = [item for item in items if item.get("_manual_override") != "FORCE_INCLUDE"]
+        auto_routine = [
+            item for item in routine
+            if str(item.get("_review_required", "")).strip() != "1"
+        ]
         hc = sorted(
-            [item for item in routine if item.get("_title_classification") == "HIGH_CONFIDENCE"],
+            [item for item in auto_routine if item.get("_title_classification") == "HIGH_CONFIDENCE"],
             key=anchor_sort_key,
         )
         anchor_elastic = sorted(
             [
-                item for item in routine
+                item for item in auto_routine
                 if item.get("_title_classification") == "ELASTIC_FIT"
                 and norm_key(item.get("location")) == anchor_key
             ],
@@ -1686,7 +1835,7 @@ def anchor_sort_and_select(
         )
         other_elastic = sorted(
             [
-                item for item in routine
+                item for item in auto_routine
                 if item.get("_title_classification") == "ELASTIC_FIT"
                 and norm_key(item.get("location")) != anchor_key
             ],
@@ -1811,7 +1960,10 @@ def anchor_sort_and_select(
             row["possible_selection_rank"] = possible_selection_ids[job_id]
             region_label = region.upper() if region else "UNKNOWN REGION"
             row["decision"] = f"POSS - {region_label}"
-            row["reason"] = "possible manual_select candidate for review/swap"
+            if row.get("salary_review_status") == "review" or row.get("context_status") == "review":
+                row["reason"] = "manual review required: " + str(row.get("reason", ""))
+            else:
+                row["reason"] = "possible manual_select candidate for review/swap"
         elif row.get("decision") == "INCLUDED" and job_id not in selected_ids:
             row["selection_status"] = "NOT_SELECTED"
             row["decision"] = "DROPPED"
@@ -1906,8 +2058,14 @@ def decision_report_fieldnames() -> list[str]:
         "employment_type",
         "salary_text",
         "salary_source",
+        "salary_review_status",
+        "annual_salary_upper",
+        "regional_salary_review_point",
         "geo_source",
         "description_preview",
+        "context_policy",
+        "context_status",
+        "context_reason",
 
         # Audit/detail columns pushed right.
         "title_priority",
@@ -1960,6 +2118,7 @@ def _manual_review_csv_rows(
     csv_rows: list[dict[str, Any]] = []
     for row in rows:
         csv_row = {field: row.get(field, "") for field in MANUAL_REVIEW_FIELDNAMES}
+        csv_row["feed_date"] = CURRENT_FEED_DATE
         action = markdown_actions.get(norm(row.get("job_id")))
         if action == "exclude":
             csv_row["manual_override"] = "FORCE_EXCLUDE"
@@ -1999,12 +2158,14 @@ def _manual_review_preview_rows(
     preview_rows: list[dict[str, Any]] = []
     preview_job_ids: set[str] = set()
     groups = [
-        ("West Yorkshire", "SELECTED"),
-        ("West Yorkshire", "POSSIBLE_SELECTION"),
-        ("South Yorkshire", "SELECTED"),
-        ("South Yorkshire", "POSSIBLE_SELECTION"),
+        ("Yorkshire - West", "SELECTED"),
+        ("Yorkshire - West", "POSSIBLE_SELECTION"),
+        ("Yorkshire - South", "SELECTED"),
+        ("Yorkshire - South", "POSSIBLE_SELECTION"),
         ("North East", "SELECTED"),
         ("North East", "POSSIBLE_SELECTION"),
+        ("London", "SELECTED"),
+        ("London", "POSSIBLE_SELECTION"),
         ("Hampshire", "SELECTED"),
         ("Hampshire", "POSSIBLE_SELECTION"),
     ]
@@ -2047,6 +2208,8 @@ def write_manual_review_markdown(
     lines = [
         "# Service-admin manual review",
         "",
+        f"feed_date: {CURRENT_FEED_DATE}",
+        "",
         "Edit only the `action:` line in each block:",
         "",
         "- For a selected job, use `action: exclude` to remove it.",
@@ -2065,6 +2228,8 @@ def write_manual_review_markdown(
         ("NORTH EAST — POSSIBLES", "North East", "POSSIBLE_SELECTION", "POSS"),
         ("LONDON — SELECTED", "London", "SELECTED", "SELECTED"),
         ("LONDON — POSSIBLES", "London", "POSSIBLE_SELECTION", "POSS"),
+        ("HAMPSHIRE — SELECTED", "Hampshire", "SELECTED", "SELECTED"),
+        ("HAMPSHIRE — POSSIBLES", "Hampshire", "POSSIBLE_SELECTION", "POSS"),
     ]
 
     emitted_job_ids: set[str] = set()
@@ -2230,8 +2395,9 @@ def write_outputs(
     if markdown_review_existed:
         try:
             markdown_review_text = MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
-            preserved_markdown_actions = _markdown_review_action_by_job_id(markdown_review_text)
-            preserved_markdown_action_rows = _markdown_review_action_rows(markdown_review_text)
+            if markdown_feed_date(markdown_review_text) == CURRENT_FEED_DATE:
+                preserved_markdown_actions = _markdown_review_action_by_job_id(markdown_review_text)
+                preserved_markdown_action_rows = _markdown_review_action_rows(markdown_review_text)
         except Exception:
             markdown_review_can_write = False
     if markdown_review_can_write:
@@ -2264,10 +2430,12 @@ def main() -> int:
     job_file = find_input_file(JOB_FILE_KEYWORDS)
     lookup_file = find_lookup_file(job_file)
 
-    global ANCHOR_TOWNS
+    global ANCHOR_TOWNS, CURRENT_FEED_DATE
     ANCHOR_TOWNS = load_anchor_towns(lookup_file, "admin_service")
+    CURRENT_FEED_DATE = resolve_feed_date(job_file)
 
     print(f"Reading JobG8 export: {job_file}")
+    print(f"JobG8 feed date: {CURRENT_FEED_DATE}")
     job_df = read_table(job_file)
     validate_job_columns(job_df)
 
@@ -2280,7 +2448,7 @@ def main() -> int:
 
     markdown_review_exists = MANUAL_REVIEW_MD_PATH.exists()
     human_review_csv_exists = MANUAL_REVIEW_CSV_PATH.exists()
-    manual_decisions = load_manual_decisions()
+    manual_decisions = load_manual_decisions(CURRENT_FEED_DATE)
     print(f"Markdown review file exists: {'yes' if markdown_review_exists else 'no'}")
     print(f"Human review CSV exists: {'yes' if human_review_csv_exists else 'no'}")
     if manual_decisions.load_warning:
@@ -2311,8 +2479,10 @@ def main() -> int:
     existing_csv_refreshed = human_review_csv_exists and not csv_review_created
     print(f"Existing Markdown review file regenerated compactly: {'yes' if existing_markdown_regenerated else 'no'}")
     print(f"Existing human review CSV refreshed: {'yes' if existing_csv_refreshed else 'no'}")
-    if existing_markdown_regenerated:
+    if existing_markdown_regenerated and manual_decisions.rerun_mode:
         print("Existing Markdown review action edits preserved by job_id where present.")
+    elif existing_markdown_regenerated:
+        print("Previous-feed Markdown actions cleared before regenerating the current review.")
     if existing_csv_refreshed:
         print("Existing human review CSV preview refreshed from Markdown actions by job_id.")
 
