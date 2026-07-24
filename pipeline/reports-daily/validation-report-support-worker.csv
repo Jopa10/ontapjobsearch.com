@@ -1,36 +1,36 @@
 ﻿metric,value
 total rows input,3461
-total rows included,56
-total rows dropped,3384
+total rows included,65
+total rows dropped,3383
 title classification count - HIGH_CONFIDENCE,340
 title classification count - ELASTIC_FIT,159
 title classification count - REVIEW_CONTEXT_DEPENDENT,5
 title classification count - HARD_PASS,1860
 title classification count - OUT_OF_SCOPE,1097
 selection scenario - Yorkshire - West,SCENARIO_MANUAL_RERUN
-selection message - Yorkshire - West,Yorkshire - West manual rerun: 8 current-feed manual_select row(s) applied; 8 selected. Routine auto-selection disabled.
-credible total - Yorkshire - West,13
-high confidence count - Yorkshire - West,5
+selection message - Yorkshire - West,Yorkshire - West manual rerun: 10 current-feed manual_select row(s) applied; 10 selected. Routine auto-selection disabled.
+credible total - Yorkshire - West,14
+high confidence count - Yorkshire - West,6
 anchor elastic count - Yorkshire - West,1
 other elastic count - Yorkshire - West,7
-total rows output - Yorkshire - West,8
-job_id included - Yorkshire - West,d2b6bed8-4c47-4afe-a6e7-f653868515a2; 107532972; 7b94b93e-757a-4c9c-ba1b-5a8563961cdd; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09; 1401783851
+total rows output - Yorkshire - West,10
+job_id included - Yorkshire - West,d2b6bed8-4c47-4afe-a6e7-f653868515a2; 107616819; 107532972; 7b94b93e-757a-4c9c-ba1b-5a8563961cdd; 13aee433-53ea-4498-a697-7dae796f1986; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09; 1401783851
 selection scenario - Yorkshire - South,SCENARIO_MANUAL_RERUN
-selection message - Yorkshire - South,Yorkshire - South manual rerun: 4 current-feed manual_select row(s) applied; 4 selected. Routine auto-selection disabled.
+selection message - Yorkshire - South,Yorkshire - South manual rerun: 7 current-feed manual_select row(s) applied; 7 selected. Routine auto-selection disabled.
 credible total - Yorkshire - South,8
 high confidence count - Yorkshire - South,6
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,2
-total rows output - Yorkshire - South,4
-job_id included - Yorkshire - South,7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c; f3f8e2ad-deef-4db9-9895-23e53030230f; 4577ee60-7442-4191-bc9c-9930cb8b4423; 66e6573f-6a0d-4805-83eb-659743f86d53
+total rows output - Yorkshire - South,7
+job_id included - Yorkshire - South,9970f2ba-5a14-44da-89b2-e5bde6c3f05d; 7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c; f3f8e2ad-deef-4db9-9895-23e53030230f; 4577ee60-7442-4191-bc9c-9930cb8b4423; 616c0fbd-815e-424d-8086-ba78ca9e8d6b; 66e6573f-6a0d-4805-83eb-659743f86d53; 7da2f211-60b9-4ae6-9195-442a546622e5
 selection scenario - North East,SCENARIO_MANUAL_RERUN
-selection message - North East,North East manual rerun: 18 current-feed manual_select row(s) applied; 18 selected. Routine auto-selection disabled.
+selection message - North East,North East manual rerun: 22 current-feed manual_select row(s) applied; 22 selected. Routine auto-selection disabled.
 credible total - North East,30
 high confidence count - North East,18
 anchor elastic count - North East,2
 other elastic count - North East,10
-total rows output - North East,18
-job_id included - North East,107616541; b909b59a-2804-4b0c-a15e-bf5b74a59db0; bab161e8-749f-4c78-a3d7-164cd23a3308; ba8e0ae5-050c-4969-b34e-fc3c6489b496; 9ed3947e-ae04-40a4-99b7-72e52e4abc88; dcc8c61f-47db-4e30-b192-2b316cf9a6d3; 107199283; b7840ef4-1093-4ad9-8984-e88d1a01242c; 22c09426-8d3b-4cec-b33d-6f835e145ac2; 631c9ad0-2047-493c-aefe-33dfb4238ac5; 62acce15-1783-40c4-8d4d-89893e26083e; 2cce53be-0eb7-4d38-90ef-b37163d4f101; 107615864; cd3894a1-69a8-4a34-9958-51dd5b5a95f4; 8cf94350-e0e1-4c8b-b57d-afa66139d419; 8c2bc592-cdc7-44b0-ac0e-a1d053add964; 107617093; 107539241
+total rows output - North East,22
+job_id included - North East,107616541; b909b59a-2804-4b0c-a15e-bf5b74a59db0; bab161e8-749f-4c78-a3d7-164cd23a3308; ba8e0ae5-050c-4969-b34e-fc3c6489b496; 9ed3947e-ae04-40a4-99b7-72e52e4abc88; dcc8c61f-47db-4e30-b192-2b316cf9a6d3; 107199283; b7840ef4-1093-4ad9-8984-e88d1a01242c; 22c09426-8d3b-4cec-b33d-6f835e145ac2; 631c9ad0-2047-493c-aefe-33dfb4238ac5; 62acce15-1783-40c4-8d4d-89893e26083e; 2cce53be-0eb7-4d38-90ef-b37163d4f101; 84502171-45d7-434c-b5d3-887b994373cc; 107615864; cd3894a1-69a8-4a34-9958-51dd5b5a95f4; 8cf94350-e0e1-4c8b-b57d-afa66139d419; 8c2bc592-cdc7-44b0-ac0e-a1d053add964; fbde3514-679a-40ba-b2c1-6a32e7cfbd98; 107617093; ec4e95ff-f305-4f35-af5d-ffb748f961ae; 6dfecfc7-d73a-415e-8a3a-743dfec8af50; 107539241
 selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Sussex,"Sussex selection complete: 24 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Sussex,24
