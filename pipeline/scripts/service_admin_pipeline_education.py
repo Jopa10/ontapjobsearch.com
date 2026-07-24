@@ -28,6 +28,10 @@ _HYBRID_FIELDS = [
 ]
 
 _EDUCATION_SECTOR_RE = re.compile(r"\b(?:school|academy|college|education)\b", re.IGNORECASE)
+_EDUCATION_SENIORITY_RE = re.compile(
+    r"\b(?:senior|manager|head|lead|team leader|deputy)\b",
+    re.IGNORECASE,
+)
 
 _EDUCATION_ADMIN_FUNCTION_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("administrator", re.compile(r"\badministrator\b", re.IGNORECASE)),
@@ -97,6 +101,14 @@ def classify_title(
         )
 
     if _EDUCATION_SECTOR_RE.search(clean_title):
+        if _EDUCATION_SENIORITY_RE.search(clean_title):
+            classification = "HARD_PASS"
+            return (
+                classification,
+                "education office title has manager/senior wording",
+                core.CLASSIFICATION_PRIORITY[classification],
+                "STABLE",
+            )
         admin_hits = _matching_labels(clean_title, _EDUCATION_ADMIN_FUNCTION_PATTERNS)
         if admin_hits:
             classification = "HIGH_CONFIDENCE"

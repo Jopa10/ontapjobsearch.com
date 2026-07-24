@@ -77,6 +77,29 @@ Typical outputs:
 
 ---
 
+# Editable Daily Classification Policy
+
+The two live selectors keep their category logic in:
+
+- `scripts/service_admin_pipeline.py`
+- `scripts/support_worker_pipeline.py`
+
+Shared policy is editable without creating a second-pass script:
+
+- `registers/pipeline_refinement_rules.csv` records agreed exact-title decisions,
+  optional description-context policies, and the highest salary already reviewed
+  for that title.
+- `config/regional_salary_review_thresholds.csv` sets the shared upper-salary
+  review point. Salary above the point becomes POSS, not an automatic exclusion.
+  Ranges use the upper figure.
+
+Manual `select` and `exclude` actions are stamped with the JobG8 workbook's own
+feed date. They are reused only for the same feed and are ignored when the input
+workbook changes, so a previous day's manual rerun cannot move new
+HIGH_CONFIDENCE jobs into POSS.
+
+---
+
 # Validation Checklist
 
 Before publish:

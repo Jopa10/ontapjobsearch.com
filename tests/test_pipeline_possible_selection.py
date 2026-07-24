@@ -80,6 +80,21 @@ class PossibleSelectionReviewTests(unittest.TestCase):
         self.assertEqual(priority, support_worker.CLASSIFICATION_PRIORITY["HARD_PASS"])
         self.assertIn("driver", reason.lower())
 
+    def test_review_required_row_is_possible_not_automatically_selected(self):
+        for module in (support_worker, service_admin):
+            with self.subTest(module=module.__name__):
+                selected = make_item("selected", 1, title_classification="HIGH_CONFIDENCE")
+                review = make_item("salary-review", 2, title_classification="HIGH_CONFIDENCE")
+                review["_review_required"] = "1"
+                outputs = {"Yorkshire - West": [selected, review]}
+                report_rows = [make_report_row(item) for item in outputs["Yorkshire - West"]]
+
+                final_outputs, _ = module.anchor_sort_and_select(outputs, report_rows)
+
+                self.assertEqual(["selected"], [row["job_id"] for row in final_outputs["Yorkshire - West"]])
+                review_row = next(row for row in report_rows if row["job_id"] == "salary-review")
+                self.assertEqual("POSSIBLE_SELECTION", review_row["selection_status"])
+
 
 if __name__ == "__main__":
     unittest.main()
