@@ -50,16 +50,19 @@ def make_report_row(item, region="Yorkshire - West"):
 
 class PossibleSelectionReviewTests(unittest.TestCase):
     def assert_all_possible_rows_are_preserved(self, module):
-        selected = make_item("selected", 1, manual_select="1", location="Leeds")
+        selected = make_item(
+            "selected",
+            1,
+            title_classification="HIGH_CONFIDENCE",
+            location="Leeds",
+        )
         possibles = [make_item(f"possible-{idx}", idx + 2) for idx in range(8)]
+        for item in possibles:
+            item["_review_required"] = "1"
         outputs = {"Yorkshire - West": [selected, *possibles]}
         report_rows = [make_report_row(item) for item in outputs["Yorkshire - West"]]
 
-        final_outputs, region_status = module.anchor_sort_and_select(
-            outputs,
-            report_rows,
-            manual_rerun_mode=True,
-        )
+        final_outputs, region_status = module.anchor_sort_and_select(outputs, report_rows)
 
         self.assertEqual([row["job_id"] for row in final_outputs["Yorkshire - West"]], ["selected"])
         self.assertEqual(region_status["Yorkshire - West"]["selected_count"], 1)
@@ -73,6 +76,56 @@ class PossibleSelectionReviewTests(unittest.TestCase):
 
     def test_service_admin_includes_all_credible_possible_rows_without_changing_selected_output(self):
         self.assert_all_possible_rows_are_preserved(service_admin)
+
+    def assert_manual_select_is_additive(self, module):
+        automatic = make_item(
+            "automatic",
+            1,
+            title_classification="HIGH_CONFIDENCE",
+            location="Leeds",
+        )
+        promoted = make_item(
+            "promoted",
+            2,
+            manual_select="1",
+            title_classification="HIGH_CONFIDENCE",
+        )
+        promoted["_review_required"] = "1"
+        still_possible = make_item(
+            "still-possible",
+            3,
+            title_classification="HIGH_CONFIDENCE",
+        )
+        still_possible["_review_required"] = "1"
+        outputs = {"Yorkshire - West": [automatic, promoted, still_possible]}
+        report_rows = [make_report_row(item) for item in outputs["Yorkshire - West"]]
+
+        final_outputs, region_status = module.anchor_sort_and_select(
+            outputs,
+            report_rows,
+            manual_rerun_mode=True,
+        )
+
+        self.assertEqual(
+            ["automatic", "promoted"],
+            [row["job_id"] for row in final_outputs["Yorkshire - West"]],
+        )
+        self.assertEqual(2, region_status["Yorkshire - West"]["selected_count"])
+        self.assertEqual(
+            "SCENARIO_4_BELOW_PUBLISH_THRESHOLD",
+            region_status["Yorkshire - West"]["scenario"],
+        )
+        possible_rows = [
+            row for row in report_rows
+            if row.get("selection_status") == "POSSIBLE_SELECTION"
+        ]
+        self.assertEqual(["still-possible"], [row["job_id"] for row in possible_rows])
+
+    def test_support_worker_manual_select_adds_to_automatic_selection(self):
+        self.assert_manual_select_is_additive(support_worker)
+
+    def test_service_admin_manual_select_adds_to_automatic_selection(self):
+        self.assert_manual_select_is_additive(service_admin)
 
     def test_support_worker_driver_specific_remains_hard_pass(self):
         classification, reason, priority, stability = support_worker.classify_title("Support Worker Driver Specific")

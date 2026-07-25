@@ -1765,10 +1765,10 @@ def anchor_sort_and_select(
     Core behaviour:
     - FORCE_EXCLUDE removes bad rows earlier in process(); human-entered
       exclude is normalised to FORCE_EXCLUDE.
-    - In manual rerun mode, only current-feed FORCE_INCLUDE and manual_select = 1
-      rows are the editorial selection set; routine backfill is disabled.
-    - Outside manual rerun mode, manual_select = 1 promotes a credible row into the
-      selected set before routine ranking.
+    - Same-day manual actions are additive: manual_select = 1 promotes a credible
+      POSS row while untouched routine selections remain selected.
+    - ``manual_rerun_mode`` is retained for call compatibility; it never disables
+      routine selection.
     - Every selected valid row is retained for JSON output; no arbitrary regional
       maximum is applied.
     - POSS rows are shown as the next credible swap/review candidates.
@@ -1855,66 +1855,52 @@ def anchor_sort_and_select(
                     selected.append(item)
                     seen.add(job_id)
 
-        credible_total = len(forced + hc + anchor_elastic + other_elastic)
         base_without_manual = len(forced) + len(hc) + len(anchor_elastic)
+        # Manual SELECT adds to the same automatic baseline used on first pass.
+        # FORCE_EXCLUDE rows have already been removed by process(), so the only
+        # difference on rerun is the user's explicit additions/removals.
+        add_candidates(forced)
+        add_candidates(manually_selected)
+        add_candidates(hc)
+        add_candidates(anchor_elastic)
+        add_candidates(other_elastic)
+        credible_total = len(selected)
 
-        region_has_manual_selection_state = bool(forced or manually_selected)
-
-        if manual_rerun_mode and region_has_manual_selection_state:
-            # Editorial reruns only apply explicit same-day SELECT/EXCLUDE actions
-            # to jobs still present in the current feed. Do not retain yesterday's
-            # selected IDs and do not refill from routine HC/elastic pools.
-            add_candidates(forced)
-            add_candidates(manually_selected)
-            scenario = "SCENARIO_MANUAL_RERUN"
+        if credible_total < threshold:
+            scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
             message = (
-                f"{region} manual rerun: {len(manually_selected)} current-feed manual_select row(s) applied; "
-                f"{len(selected)} selected. Auto backfill disabled."
+                f"{region} selection below publish threshold: {credible_total}/{threshold} credible roles. "
+                "Do not publish/refresh this slice from this run."
+            )
+        elif manually_selected:
+            scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
+            message = (
+                f"{region} manual_select applied additively: {len(manually_selected)} row(s) prioritised; "
+                f"{len(selected)} selected."
+            )
+        elif len(forced) + len(hc) == len(selected):
+            scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
+            message = (
+                f"{region} selection complete: all {len(selected)} selected role(s) are HIGH_CONFIDENCE "
+                f"or FORCE_INCLUDE; {anchor} HC roles protected in ordering."
+            )
+        elif base_without_manual == len(selected):
+            scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
+            message = (
+                f"{region} selection complete: all {len(selected)} selected role(s) are HIGH_CONFIDENCE "
+                f"plus {anchor} ELASTIC_FIT roles."
             )
         else:
-            # V2: manual_select rows are deliberate editorial choices, so add them before routine fill.
-            add_candidates(forced)
-            add_candidates(manually_selected)
-            add_candidates(hc)
-            add_candidates(anchor_elastic)
-            add_candidates(other_elastic)
-
-            if credible_total < threshold:
-                scenario = "SCENARIO_4_BELOW_PUBLISH_THRESHOLD"
-                message = (
-                    f"{region} selection below publish threshold: {credible_total}/{threshold} credible roles. "
-                    "Do not publish/refresh this slice from this run."
-                )
-            elif manually_selected:
-                scenario = "SCENARIO_3_MANUAL_SELECTION_APPLIED"
-                message = (
-                    f"{region} manual_select applied: {len(manually_selected)} row(s) prioritised; "
-                    f"{len(selected)} selected."
-                )
-            elif len(forced) + len(hc) == len(selected):
-                scenario = "SCENARIO_1_COMPLETE_HC_ONLY"
-                message = (
-                    f"{region} selection complete: all {len(selected)} selected role(s) are HIGH_CONFIDENCE "
-                    f"or FORCE_INCLUDE; {anchor} HC roles protected in ordering."
-                )
-            elif base_without_manual == len(selected):
-                scenario = "SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC"
-                message = (
-                    f"{region} selection complete: all {len(selected)} selected role(s) are HIGH_CONFIDENCE "
-                    f"plus {anchor} ELASTIC_FIT roles."
-                )
-            else:
-                scenario = "SCENARIO_3_FULL_VALID_SELECTION"
-                message = (
-                    f"{region} selection complete: all {len(selected)} valid selected role(s) retained after "
-                    f"HIGH_CONFIDENCE, {anchor} ELASTIC_FIT and other ELASTIC_FIT ordering."
-                )
+            scenario = "SCENARIO_3_FULL_VALID_SELECTION"
+            message = (
+                f"{region} selection complete: all {len(selected)} valid selected role(s) retained after "
+                f"HIGH_CONFIDENCE, {anchor} ELASTIC_FIT and other ELASTIC_FIT ordering."
+            )
 
         selected_for_region = {str(item.get("job_id", "")) for item in selected}
 
-        # V2: show the next credible non-selected candidates as POSS for review/swap.
-        # This keeps manual decisions visible near the top when manual rerun mode
-        # leaves other credible current-feed jobs unselected.
+        # Show credible non-selected candidates as POSS for review. These are
+        # typically review-required rows not promoted by an explicit manual select.
         review_pool = sorted(
             [item for item in items if str(item.get("job_id", "")) not in selected_for_region],
             key=routine_sort_key,
@@ -2460,7 +2446,7 @@ def main() -> int:
     print(f"Markdown excludes loaded: {manual_decisions.markdown_excludes_loaded}")
     print(f"Markdown selections loaded: {manual_decisions.markdown_selections_loaded}")
     if manual_decisions.rerun_mode:
-        print("Auto backfill disabled because manual rerun mode is active")
+        print("Same-day manual actions will be applied additively to routine auto-selection")
 
     overrides = manual_decisions.overrides
     manual_selects = manual_decisions.selections
