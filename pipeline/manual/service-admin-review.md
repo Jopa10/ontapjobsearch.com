@@ -626,7 +626,7 @@ job_id: b801c68f-5b19-482e-988a-f1d7c5338961
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16 - £18 per hour | School Administrator
 job_id: a15a8b40-34b3-4fc2-9cd1-a834834d0017
 ---
