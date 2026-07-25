@@ -292,7 +292,7 @@ job_id: 9ed3947e-ae04-40a4-99b7-72e52e4abc88
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | Darlington | £15.58 per hour | Care Assistant - Bank - Care Home
 job_id: 8cf94350-e0e1-4c8b-b57d-afa66139d419
 ---
@@ -416,13 +416,13 @@ job_id: 107587865
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
 job_id: ba7f799b-28eb-4372-b972-0f1e14369fc8
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Shoreham-by-sea | £16 - £18.5 per hour | Support Worker
 job_id: 6a927a37-77f5-4974-b092-4b95250ac3b1
 ---
@@ -434,7 +434,7 @@ job_id: 107641522
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
 job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
 ---
@@ -450,7 +450,7 @@ job_id: a2c8c9dd-9614-4e95-8ad2-1ddb16043e99
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
