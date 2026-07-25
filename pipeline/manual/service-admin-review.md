@@ -360,6 +360,12 @@ job_id: 58cebb71-ca4f-4009-a45e-ab8f18ae3f0f
 ---
 
 ---
+action: select
+SELECTED | London | London | £16 - £18 per hour | School Administrator
+job_id: a15a8b40-34b3-4fc2-9cd1-a834834d0017
+---
+
+---
 action:
 SELECTED | London | Ilford | £106.56 per daily | Business Support Administrator
 job_id: fde75564-077e-43bf-95db-8ac20a22def2
@@ -624,12 +630,6 @@ job_id: b801c68f-5b19-482e-988a-f1d7c5338961
 ---
 
 ## LONDON — POSSIBLES
-
----
-action: select
-POSS - LONDON | London | London | £16 - £18 per hour | School Administrator
-job_id: a15a8b40-34b3-4fc2-9cd1-a834834d0017
----
 
 ---
 action:

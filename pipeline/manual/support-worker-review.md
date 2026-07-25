@@ -59,6 +59,12 @@ SELECTED | Yorkshire - West | Holmfirth | £27394 per year | Complex care assist
 job_id: 107651994
 ---
 
+---
+action: select
+SELECTED | Yorkshire - West | Huddersfield | £13.38 - £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -71,12 +77,6 @@ job_id: 107616819
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £13.38 - £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728806
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
