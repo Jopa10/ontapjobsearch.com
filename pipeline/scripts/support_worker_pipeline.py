@@ -227,6 +227,21 @@ NORTH_EAST_DETAILED_REGIONS = [
     "North East - County Durham & Darlington/Hartlepool",
 ]
 
+POSS_REVIEW_REGION_LABELS = {
+    "North East - Tyneside, Wearside & Northumberland": "NE - Tyneside/Wearside/N'land",
+    "North East - County Durham & Darlington/Hartlepool": "NE - Co Durham & Dar/Htlpl",
+}
+
+
+def possible_review_label(region: str) -> str:
+    """Return a compact display label for possible manual-review rows."""
+    region_label = POSS_REVIEW_REGION_LABELS.get(
+        region,
+        region.upper() if region else "UNKNOWN REGION",
+    )
+    return f"POSS - {region_label}"
+
+
 PUBLISH_REGION_BY_DETAIL_REGION = {
     **{region: region for region in ("Yorkshire - West", "Yorkshire - South", "Sussex", "Cumbria - South")},
     **{region: "North East" for region in NORTH_EAST_DETAILED_REGIONS},
@@ -1936,8 +1951,7 @@ def anchor_sort_and_select(
         elif job_id in possible_selection_ids:
             row["selection_status"] = "POSSIBLE_SELECTION"
             row["possible_selection_rank"] = possible_selection_ids[job_id]
-            region_label = region.upper() if region else "UNKNOWN REGION"
-            row["decision"] = f"POSS - {region_label}"
+            row["decision"] = possible_review_label(region)
             if row.get("salary_review_status") == "review" or row.get("context_status") == "review":
                 row["reason"] = "manual review required: " + str(row.get("reason", ""))
             else:
@@ -2216,7 +2230,7 @@ def write_manual_review_markdown(
             action = preserved_actions.get(job_id, "")
             review_label = decision_label
             if decision_label == "POSS":
-                review_label = f"POSS - {region.upper()}"
+                review_label = possible_review_label(region)
             summary = " | ".join([
                 review_label,
                 _markdown_value(row.get("region")),
