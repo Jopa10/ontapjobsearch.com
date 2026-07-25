@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 import math
@@ -140,11 +141,24 @@ class ManualReviewFeedDateTests(unittest.TestCase):
     def test_support_worker_actions_are_feed_scoped(self) -> None:
         self.assert_date_scoped_actions(support)
 
-    def test_live_workbook_date_is_stable(self) -> None:
-        self.assertEqual(
-            "2026-07-24",
-            policy.resolve_feed_date(ROOT / "pipeline" / "input" / "jobg8.xlsx"),
-        )
+    def test_workbook_modified_date_is_stable(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            workbook_path = Path(temp_dir) / "jobg8.xlsx"
+            core_properties = """\
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cp:coreProperties
+    xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dcterms:created xsi:type="dcterms:W3CDTF">2026-07-24T23:59:00Z</dcterms:created>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-07-25T00:01:00Z</dcterms:modified>
+</cp:coreProperties>
+"""
+            with zipfile.ZipFile(workbook_path, "w") as workbook:
+                workbook.writestr("docProps/core.xml", core_properties)
+
+            self.assertEqual("2026-07-25", policy.resolve_feed_date(workbook_path))
+            self.assertEqual("2026-07-25", policy.resolve_feed_date(workbook_path))
 
 
 class AgreedTitleRuleTests(unittest.TestCase):

@@ -80,6 +80,24 @@ class PossibleSelectionReviewTests(unittest.TestCase):
         self.assertEqual(priority, support_worker.CLASSIFICATION_PRIORITY["HARD_PASS"])
         self.assertIn("driver", reason.lower())
 
+    def test_support_worker_uses_compact_north_east_possible_labels(self):
+        self.assertEqual(
+            "POSS - NE - Tyneside/Wearside/N'land",
+            support_worker.possible_review_label(
+                "North East - Tyneside, Wearside & Northumberland"
+            ),
+        )
+        self.assertEqual(
+            "POSS - NE - Co Durham & Dar/Htlpl",
+            support_worker.possible_review_label(
+                "North East - County Durham & Darlington/Hartlepool"
+            ),
+        )
+        self.assertEqual(
+            "POSS - SUSSEX",
+            support_worker.possible_review_label("Sussex"),
+        )
+
     def test_review_required_row_is_possible_not_automatically_selected(self):
         for module in (support_worker, service_admin):
             with self.subTest(module=module.__name__):
