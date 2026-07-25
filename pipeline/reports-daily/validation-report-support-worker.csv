@@ -1,20 +1,20 @@
 ﻿metric,value
 total rows input,3582
-total rows included,63
+total rows included,64
 total rows dropped,3512
 title classification count - HIGH_CONFIDENCE,331
 title classification count - ELASTIC_FIT,157
 title classification count - REVIEW_CONTEXT_DEPENDENT,14
 title classification count - HARD_PASS,1922
 title classification count - OUT_OF_SCOPE,1158
-selection scenario - Yorkshire - West,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Yorkshire - West,"Yorkshire - West selection complete: 8 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Yorkshire - West,8
+selection scenario - Yorkshire - West,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Yorkshire - West,Yorkshire - West manual_select applied additively: 1 row(s) prioritised; 9 selected.
+credible total - Yorkshire - West,9
 high confidence count - Yorkshire - West,3
 anchor elastic count - Yorkshire - West,0
 other elastic count - Yorkshire - West,5
-total rows output - Yorkshire - West,8
-job_id included - Yorkshire - West,d2b6bed8-4c47-4afe-a6e7-f653868515a2; 107532972; 7b94b93e-757a-4c9c-ba1b-5a8563961cdd; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09; 1401783851
+total rows output - Yorkshire - West,9
+job_id included - Yorkshire - West,d2b6bed8-4c47-4afe-a6e7-f653868515a2; 107728806; 107532972; 7b94b93e-757a-4c9c-ba1b-5a8563961cdd; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09; 1401783851
 selection scenario - Yorkshire - South,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Yorkshire - South,"Yorkshire - South selection complete: 9 selected after HIGH_CONFIDENCE, Sheffield ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Yorkshire - South,9
