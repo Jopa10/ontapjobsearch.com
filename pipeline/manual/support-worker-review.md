@@ -312,6 +312,12 @@ job_id: 7911979f-e083-4358-946e-98879570ba1e
 ---
 
 ---
+action: select
+SELECTED | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
+job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
+---
+
+---
 action:
 SELECTED | Sussex | Brighton | £27976 per year | Domestic Abuse Support Worker
 job_id: ebc70e88-0b55-4541-9a7e-808faac32e58
@@ -421,20 +427,14 @@ POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107641522
 ---
 
----
-action: select
-POSS - SUSSEX | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
-job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
----
-
 ## CUMBRIA SOUTH — SELECTED
 
-_No jobs in this group._
+---
+action: select
+SELECTED | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
+job_id: 107572044
+---
 
 ## CUMBRIA SOUTH — POSSIBLES
 
----
-action: select
-POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
-job_id: 107572044
----
+_No jobs in this group._
