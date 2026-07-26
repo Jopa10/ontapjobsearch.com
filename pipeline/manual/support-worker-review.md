@@ -422,7 +422,7 @@ job_id: 107641522
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
 job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
 ---
@@ -434,7 +434,7 @@ _No jobs in this group._
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
