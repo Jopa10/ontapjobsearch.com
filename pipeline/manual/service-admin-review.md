@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-07-25
+feed_date: 2026-07-26
 
 Edit only the `action:` line in each block:
 
@@ -179,12 +179,6 @@ job_id: a526338b-ed95-47c7-889c-44b5c4aff404
 
 ---
 action:
-SELECTED | Yorkshire - South | Sheffield | £30000 per year | Workplace Operations Coordinator
-job_id: 107668923
----
-
----
-action:
 SELECTED | Yorkshire - South | Barnsley | £25000 - £30000 per year | Receptionist / Facilities Coordinator
 job_id: 3210a914-2c99-4b6c-870b-c2001651b931
 ---
@@ -193,6 +187,12 @@ job_id: 3210a914-2c99-4b6c-870b-c2001651b931
 action:
 SELECTED | Yorkshire - South | Rotherham |  | Client Care Coordinator
 job_id: 1582211
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £30000 per year | Workplace Operations Coordinator
+job_id: 107668923
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -357,12 +357,6 @@ job_id: 3611009d-3fea-4842-8e37-7ec4b9b40d79
 action:
 SELECTED | London | London | £15 per hour | School Receptionist Administrator - Brent
 job_id: 58cebb71-ca4f-4009-a45e-ab8f18ae3f0f
----
-
----
-action: select
-SELECTED | London | London | £16 - £18 per hour | School Administrator
-job_id: a15a8b40-34b3-4fc2-9cd1-a834834d0017
 ---
 
 ---
@@ -589,6 +583,12 @@ job_id: 887c5040-e943-4083-a032-078f4ad1afab
 
 ---
 action:
+SELECTED | London | London | £30000 - £35000 per year | Junior PA & Receptionist - Graduate
+job_id: 41ccb3b9-b591-4166-9a51-b814198b9789
+---
+
+---
+action:
 SELECTED | London | Harrow | £15.36 per hour | Extra Care Support Coordinator
 job_id: 107719639
 ---
@@ -629,7 +629,19 @@ SELECTED | London | London |  | Risk Administrator - US Law Firm (6 month FTC)
 job_id: b801c68f-5b19-482e-988a-f1d7c5338961
 ---
 
+---
+action:
+SELECTED | London | London |  | Administration Coordinator
+job_id: 09642815-6ec3-4b6b-bbeb-d4ff4e73641c
+---
+
 ## LONDON — POSSIBLES
+
+---
+action:
+POSS - LONDON | London | London | £16 - £18 per hour | School Administrator
+job_id: a15a8b40-34b3-4fc2-9cd1-a834834d0017
+---
 
 ---
 action:
@@ -725,6 +737,12 @@ job_id: 8cd581a2-e700-41e8-a134-8b21a8df9efe
 action:
 POSS - LONDON | London | London | £21.52 - £27.35 per hour | Business Support Officer - Adult Social Care
 job_id: 293cd057-2503-48af-a849-39d5c6503e49
+---
+
+---
+action:
+POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
+job_id: 107731922
 ---
 
 ---
