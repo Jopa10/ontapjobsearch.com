@@ -74,7 +74,7 @@ job_id: 107728647
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £13.38 - £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
