@@ -1,6 +1,6 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,18,18,0,0,2,,18,Leeds,SCENARIO_1_COMPLETE_HC_ONLY,Yorkshire - West selection complete: all 18 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Leeds HC roles protected in ordering.
+Yorkshire - West,17,17,0,0,2,,17,Leeds,SCENARIO_1_COMPLETE_HC_ONLY,Yorkshire - West selection complete: all 17 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Leeds HC roles protected in ordering.
 Yorkshire - South,10,9,0,1,4,,10,Sheffield,SCENARIO_3_FULL_VALID_SELECTION,"Yorkshire - South selection complete: all 10 valid selected role(s) retained after HIGH_CONFIDENCE, Sheffield ELASTIC_FIT and other ELASTIC_FIT ordering."
 North East,11,11,0,0,1,,11,Newcastle Upon Tyne,SCENARIO_1_COMPLETE_HC_ONLY,North East selection complete: all 11 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Newcastle Upon Tyne HC roles protected in ordering.
-London,56,50,4,2,23,,56,London,SCENARIO_3_FULL_VALID_SELECTION,"London selection complete: all 56 valid selected role(s) retained after HIGH_CONFIDENCE, London ELASTIC_FIT and other ELASTIC_FIT ordering."
+London,59,53,4,2,23,,59,London,SCENARIO_3_FULL_VALID_SELECTION,"London selection complete: all 59 valid selected role(s) retained after HIGH_CONFIDENCE, London ELASTIC_FIT and other ELASTIC_FIT ordering."
 Hampshire,22,22,0,0,0,,22,Southampton,SCENARIO_1_COMPLETE_HC_ONLY,Hampshire selection complete: all 22 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Southampton HC roles protected in ordering.
