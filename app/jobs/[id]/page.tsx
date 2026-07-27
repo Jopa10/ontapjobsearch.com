@@ -101,6 +101,11 @@ function formatSalary(value: string) {
   });
 }
 
+function moreJobsLabel(value: string) {
+  const label = value.replace(/\s+(?:roles|jobs)$/i, "").trim();
+  return label.toLowerCase() === "browse" ? "View more jobs" : `View more ${label} jobs`;
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
   const job = getPublishedJob(id);
@@ -132,7 +137,7 @@ export default async function JobPage({ params }: PageProps) {
         />
       ) : null}
 
-      <nav aria-label="Back to job listings" style={{ marginBottom: 18 }}>
+      <nav aria-label="More job listings" style={{ marginBottom: 18 }}>
         <Link
           href={job.slice_path}
           style={{
@@ -145,8 +150,8 @@ export default async function JobPage({ params }: PageProps) {
             textDecoration: "none",
           }}
         >
-          <span aria-hidden="true">←</span>
-          <span>Back to {job.slice_label}</span>
+          <span>{moreJobsLabel(job.slice_label)}</span>
+          <span aria-hidden="true">→</span>
         </Link>
       </nav>
 
@@ -216,8 +221,8 @@ export default async function JobPage({ params }: PageProps) {
               textDecoration: "none",
             }}
           >
-            <span aria-hidden="true">←</span>
-            <span>Back to {job.slice_label}</span>
+            <span>{moreJobsLabel(job.slice_label)}</span>
+            <span aria-hidden="true">→</span>
           </Link>
         </div>
       </article>
