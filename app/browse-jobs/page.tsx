@@ -242,7 +242,7 @@ export default function Page() {
         {jobSections.map((section) => (
           <section key={section.heading}>
             <div className="mb-3">
-              <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+              <h2 className="text-2xl font-semibold tracking-tight text-gray-900 sm:-ml-2 sm:text-3xl">
                 {section.heading}
               </h2>
               <p className="mt-1 text-sm text-gray-600">{section.intro}</p>
