@@ -1056,7 +1056,7 @@ job_id: ad194d43-a41f-4957-a029-b15348fcba4f
 ---
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Epsom | £15 - £20 per hour | Medical Secretary
 job_id: 5a4b8c85-d429-40e4-af68-57d926f38317
 ---
