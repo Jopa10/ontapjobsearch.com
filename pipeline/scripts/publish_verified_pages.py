@@ -28,11 +28,14 @@ class Mapping:
 
 MAPPINGS: tuple[Mapping, ...] = (
     Mapping("Hampshire service administrator jobs", "Hampshire", "admin_service", Path("pipeline/output-admin-service/hampshire-admin-service.json"), Path("app/hampshire/service-administrator-jobs.json")),
+    Mapping("Kent service administrator jobs", "Kent", "admin_service", Path("pipeline/output-admin-service/kent-admin-service.json"), Path("app/kent/service-administrator-jobs.json")),
     Mapping("London service administrator jobs", "London", "admin_service", Path("pipeline/output-admin-service/london-admin-service.json"), Path("app/london/service-administrator-jobs.json")),
     Mapping("North East service administrator jobs", "North East", "admin_service", Path("pipeline/output-admin-service/north-east-admin-service.json"), Path("app/north-east/service-administrator-jobs.json")),
     Mapping("South Yorkshire service administrator jobs", "Yorkshire - South", "admin_service", Path("pipeline/output-admin-service/south-yorkshire-admin-service.json"), Path("app/south-yorkshire/service-administrator-jobs.json")),
+    Mapping("Surrey service administrator jobs", "Surrey", "admin_service", Path("pipeline/output-admin-service/surrey-admin-service.json"), Path("app/surrey/service-administrator-jobs.json")),
     Mapping("West Yorkshire service administrator jobs", "Yorkshire - West", "admin_service", Path("pipeline/output-admin-service/west-yorkshire-admin-service.json"), Path("app/west-yorkshire/service-administrator-jobs.json")),
     Mapping("Cumbria South support worker jobs", "Cumbria - South", "support_worker", Path("pipeline/output-support-worker/cumbria-south-support-worker.json"), Path("app/cumbria-south/support-worker.json")),
+    Mapping("Hampshire support worker jobs", "Hampshire", "support_worker", Path("pipeline/output-support-worker/hampshire-support-worker.json"), Path("app/hampshire/support-worker.json")),
     Mapping("North East support worker jobs", "North East", "support_worker", Path("pipeline/output-support-worker/north-east-support-worker.json"), Path("app/north-east/support-worker-jobs.json")),
     Mapping("South Yorkshire support worker jobs", "Yorkshire - South", "support_worker", Path("pipeline/output-support-worker/south-yorkshire-support-worker.json"), Path("app/south-yorkshire/support-worker.json")),
     Mapping("Sussex support worker jobs", "Sussex", "support_worker", Path("pipeline/output-support-worker/sussex-support-worker.json"), Path("app/sussex/support-worker.json")),

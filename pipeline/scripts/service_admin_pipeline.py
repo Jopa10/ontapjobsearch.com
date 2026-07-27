@@ -218,6 +218,8 @@ REGION_MAP = {
     "north east": "North East",
     "london": "London",
     "hampshire": "Hampshire",
+    "surrey": "Surrey",
+    "kent": "Kent",
 }
 
 # Detailed clusters that roll up into the combined public North East page.
@@ -233,6 +235,8 @@ OUTPUT_FILES = {
     "North East": "north-east-admin-service.json",
     "London": "london-admin-service.json",
     "Hampshire": "hampshire-admin-service.json",
+    "Surrey": "surrey-admin-service.json",
+    "Kent": "kent-admin-service.json",
 }
 # Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
 # No hard-coded fallback: missing or invalid configuration stops the pipeline.
@@ -243,6 +247,8 @@ PUBLISH_THRESHOLDS = {
     "North East": 6,
     "London": 6,
     "Hampshire": 6,
+    "Surrey": 6,
+    "Kent": 6,
 }
 
 CLASSIFICATION_PRIORITY = {
@@ -2154,6 +2160,10 @@ def _manual_review_preview_rows(
         ("London", "POSSIBLE_SELECTION"),
         ("Hampshire", "SELECTED"),
         ("Hampshire", "POSSIBLE_SELECTION"),
+        ("Surrey", "SELECTED"),
+        ("Surrey", "POSSIBLE_SELECTION"),
+        ("Kent", "SELECTED"),
+        ("Kent", "POSSIBLE_SELECTION"),
     ]
     for region, status in groups:
         for row in _markdown_review_rows(rows, region, status):
@@ -2216,6 +2226,10 @@ def write_manual_review_markdown(
         ("LONDON — POSSIBLES", "London", "POSSIBLE_SELECTION", "POSS"),
         ("HAMPSHIRE — SELECTED", "Hampshire", "SELECTED", "SELECTED"),
         ("HAMPSHIRE — POSSIBLES", "Hampshire", "POSSIBLE_SELECTION", "POSS"),
+        ("SURREY — SELECTED", "Surrey", "SELECTED", "SELECTED"),
+        ("SURREY — POSSIBLES", "Surrey", "POSSIBLE_SELECTION", "POSS"),
+        ("KENT — SELECTED", "Kent", "SELECTED", "SELECTED"),
+        ("KENT — POSSIBLES", "Kent", "POSSIBLE_SELECTION", "POSS"),
     ]
 
     emitted_job_ids: set[str] = set()
