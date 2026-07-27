@@ -369,18 +369,18 @@ export default function Page() {
 
       <main data-homepage className="mx-auto max-w-6xl px-6 py-5">
         <h1 className="mb-2 max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl">
-          Admin, office support and customer-service jobs
+          Current jobs by role and region
         </h1>
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
-          Current service administrator, office support and customer-service roles across Hampshire,
+          Curated admin, office support, customer service and support worker roles across Hampshire,
           Surrey, Kent, London, Yorkshire and the North East. Updated daily; apply directly on
           employer sites.
         </p>
 
         <section className="mb-5">
           <h2 className="mb-2 text-2xl font-semibold tracking-tight">
-            Active service administrator jobs
+            Admin, office support and customer service jobs
           </h2>
           <div>
             <SliceCardGrid cards={serviceAdministratorSlices} />
