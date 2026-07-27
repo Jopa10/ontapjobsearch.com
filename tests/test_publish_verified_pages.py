@@ -27,7 +27,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
     def active(self):
         return {("Test Region", "admin_service")}
 
-    def test_candidate_slice_mappings_are_ready_but_not_live(self):
+    def test_activated_slice_mappings_are_live(self):
         expected = {
             ("Hampshire", "support_worker"): (
                 Path("pipeline/output-support-worker/hampshire-support-worker.json"),
@@ -50,7 +50,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
         for slice_key, paths in expected.items():
             with self.subTest(slice_key=slice_key):
                 self.assertEqual(paths, mappings[slice_key])
-                self.assertNotIn(slice_key, publish.live_slices())
+                self.assertIn(slice_key, publish.live_slices())
 
     def test_non_live_slice_is_skipped_before_reading_source(self):
         with tempfile.TemporaryDirectory() as tmp:

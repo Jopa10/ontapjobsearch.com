@@ -3,6 +3,7 @@ import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.j
 import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
 import sussexSupportWorkerJobs from '../sussex/support-worker.json';
 import cumbriaSouthSupportWorkerJobs from '../cumbria-south/support-worker.json';
+import hampshireSupportWorkerJobs from '../hampshire/support-worker.json';
 
 type BrowseCard = {
   title: string;
@@ -64,6 +65,10 @@ const southCumbriaSupportWorkerStatus = getSupportWorkerStatus(
   cumbriaSouthSupportWorkerJobs,
   'South Cumbria'
 );
+const hampshireSupportWorkerStatus = getSupportWorkerStatus(
+  hampshireSupportWorkerJobs,
+  'Hampshire'
+);
 
 const jobSections: BrowseSection[] = [
   {
@@ -88,6 +93,27 @@ const jobSections: BrowseSection[] = [
       },
     ],
     groups: [
+      {
+        label: 'South East admin & customer-service jobs',
+        cards: [
+          {
+            title: 'Surrey Admin & Customer Service Jobs',
+            href: '/surrey/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Surrey.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+          {
+            title: 'Kent Admin & Customer Service Jobs',
+            href: '/kent/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Kent.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+        ],
+      },
       {
         label: 'Yorkshire admin & customer-service jobs',
         cards: [
@@ -166,6 +192,11 @@ const jobSections: BrowseSection[] = [
       },
     ],
     trailingCards: [
+      {
+        title: 'Hampshire Support Worker Jobs',
+        href: '/hampshire/support-worker',
+        ...hampshireSupportWorkerStatus,
+      },
       {
         title: 'South Cumbria Support Worker Jobs',
         href: '/cumbria-south/support-worker',

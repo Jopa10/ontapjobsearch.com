@@ -13,7 +13,7 @@ import service_admin_pipeline as admin  # noqa: E402
 import support_worker_pipeline as support  # noqa: E402
 
 
-class CandidateSliceScaffoldTests(unittest.TestCase):
+class SliceActivationTests(unittest.TestCase):
     def test_compilers_emit_all_three_candidate_outputs(self) -> None:
         self.assertEqual("hampshire-support-worker.json", support.OUTPUT_FILES["Hampshire"])
         self.assertEqual("surrey-admin-service.json", admin.OUTPUT_FILES["Surrey"])
@@ -28,8 +28,8 @@ class CandidateSliceScaffoldTests(unittest.TestCase):
         self.assertEqual("Guildford", admin_anchors["Surrey"])
         self.assertEqual("Maidstone", admin_anchors["Kent"])
 
-    def test_candidate_pages_are_hidden_from_live_discovery(self) -> None:
-        candidate_routes = (
+    def test_activated_pages_are_in_live_discovery(self) -> None:
+        activated_routes = (
             "hampshire/support-worker",
             "surrey/service-administrator-jobs",
             "kent/service-administrator-jobs",
@@ -42,15 +42,15 @@ class CandidateSliceScaffoldTests(unittest.TestCase):
 
         for surface in live_surfaces:
             content = surface.read_text(encoding="utf-8")
-            for route in candidate_routes:
+            for route in activated_routes:
                 with self.subTest(surface=surface, route=route):
-                    self.assertNotIn(route, content)
+                    self.assertIn(route, content)
 
-        for route in candidate_routes:
+        for route in activated_routes:
             page = ROOT / "app" / route / "page.tsx"
             content = page.read_text(encoding="utf-8")
             with self.subTest(page=page):
-                self.assertIn("robots: { index: false, follow: false }", content)
+                self.assertNotIn("robots: { index: false, follow: false }", content)
 
 
 if __name__ == "__main__":
