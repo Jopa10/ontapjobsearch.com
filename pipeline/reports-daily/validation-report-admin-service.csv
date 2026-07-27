@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,3555
-total rows included,119
-total rows dropped,3406
+total rows included,168
+total rows dropped,3352
 title classification count - HIGH_CONFIDENCE,567
 title classification count - ELASTIC_FIT,51
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -47,3 +47,19 @@ anchor elastic count - Hampshire,0
 other elastic count - Hampshire,0
 total rows output - Hampshire,22
 job_id included - Hampshire,fa75674d-1b48-48d4-8d92-e2ec4084632f; f5457490-a133-4a7b-a4b0-1ff3cd22900b; f3b51feb-04d9-403f-80b7-38552368205e; f12a7b58-f6fc-4e7b-9eb0-4e9952ab7667; 96d9cb94-c4f0-448e-a4fa-eaf14a84333b; f75f699e-a0b4-495f-ab6a-c3b639ae73e4; 8f49a549-d633-4be4-8902-6fe0e11ff19b; d54fc5b5-0ff3-4926-9190-c12703e95a9a; 845217fa-30ee-4c6e-b460-dac805d0d4f6; a9c15466-186d-4005-8df2-193e0bf96bf0; e4433988-1a56-41f5-ac8f-c910dd080a57; e13ab105-51ca-4a23-a205-c2aa94b9d8b7; d3df7f7d-fd80-4797-8a7e-a56bfcec46c0; b0ad5266-b453-4cd9-9191-c276762c03c0; ee1062b8-52b1-4cdb-b9bf-b57ace7d6958; 4e153964-a053-4ed8-aea2-1904770ff29d; d25416ff-09ab-42d3-8662-3db2a9d1411d; cda0ce28-ad2b-4d63-9ba9-cb4ebcfbefb2; bd70f859-d69b-4b0e-9483-665fe78b005e; 81f392f7-0980-46b8-aee1-f7d93979267a; fb5c8f19-92e0-46e9-bc2b-252c448c5820; b9a5ee39-5970-4459-9186-fb7f84383304
+selection scenario - Surrey,SCENARIO_1_COMPLETE_HC_ONLY
+selection message - Surrey,Surrey selection complete: all 20 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Guildford HC roles protected in ordering.
+credible total - Surrey,20
+high confidence count - Surrey,20
+anchor elastic count - Surrey,0
+other elastic count - Surrey,0
+total rows output - Surrey,20
+job_id included - Surrey,a19a141e-e484-4499-965a-1f28772a870f; fa1353e5-5ccc-4041-80fb-26c0144e6a6d; a5727342-6284-476d-a40b-ae02747e4eb9; 20db4151-49da-44f1-bf34-a11d73fbea38; 9a146065-f414-4ddd-b152-5c4322dd4e93; f504f48e-88d6-4998-a540-7eb379eee963; eec141c6-0fa2-425e-8f24-6dc10b1e3479; e2815631-da10-4ed9-af94-09a58de275a6; d95c9b7c-5e6d-47ba-99bf-667652f88961; ca2c4ad2-7010-40c9-b74d-3e1f80a02a85; dc9016ea-6329-4e4e-873d-1794714bc716; c2ee892c-8445-4fc7-b7e3-8ba9f2f4e710; ad390a5a-5000-4da8-be9c-642f84daacf0; 92b86e67-2b8e-451c-b857-bb387e37b84f; 85a56ee0-8e46-428c-a0a7-f3ebca4340a7; 71434c30-a899-4deb-a436-310af0d063ac; 7df364d7-d49d-410d-9314-fbdd29646572; d801e589-cdf4-4e7e-9b7f-cb2894fb5730; a2682067-5b13-4508-992a-d5ab422816ee; f0fd6344-22f6-45b4-8a54-4ea54f6a5603
+selection scenario - Kent,SCENARIO_3_FULL_VALID_SELECTION
+selection message - Kent,"Kent selection complete: all 29 valid selected role(s) retained after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Kent,29
+high confidence count - Kent,28
+anchor elastic count - Kent,0
+other elastic count - Kent,1
+total rows output - Kent,29
+job_id included - Kent,d0a43971-4be0-4e41-b129-0115a7ddfca8; cdcccfbb-38e1-427f-a4ac-d499cbc1b603; ce2d7ecd-9eea-46b1-b977-207c770afc35; b98da4e4-9dd1-4031-bc87-c5429087ed5f; f4da8ee8-aa46-4351-a0d5-8ae1db334e2b; affa1df7-86a5-467e-bb89-4629401d2fc1; a355520a-ec5a-41ab-8037-cdf735922a26; 838d75bc-f68c-4f84-8499-5ff69215bb50; 78eeb1a6-5aa4-4b48-842e-f64df35436de; dd0e867b-0ae1-4165-b45f-9f62394a2ea0; 6d8936ea-9b01-4ac2-a5a1-0f11fdea87ae; e40b4f14-2e49-42bc-a1ef-3582351bacb5; cc62dac9-4736-46c9-882e-db04acd86df9; cb0e964f-7ce4-4fb3-b79e-3b5385212e7c; a35bfe5c-2182-4cdd-9388-041e8071fea2; a2139f26-0270-4159-b3e0-c882aaa33875; 7faae241-2dfa-44be-abfb-dab1ac890c5b; 71de4af3-4461-45f1-b715-044654f4c52e; c0630f71-5eca-48d7-8056-8979ac3349c0; b9bbaece-e58a-4885-b5ab-85f377794b9c; a2daebb4-ae4d-48b6-b7ec-6fa01bbcef38; 705da49f-22ec-4df1-aca5-ebc75e2f7b23; 96e0339e-e7c1-43bd-9a71-099718f7b644; 627570a8-45fa-43a6-9d8d-d67bfac51f46; 62ddffa6-94cb-4225-8b76-48758c8cac3d; 5b77d48c-3e92-43b0-a8cb-84749a91d03d; 665362c2-1e23-459b-ad90-474cce8096a0; 107604686; 107698291

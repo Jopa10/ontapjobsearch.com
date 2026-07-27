@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,3555
-total rows included,57
-total rows dropped,3488
+total rows included,73
+total rows dropped,3469
 title classification count - HIGH_CONFIDENCE,327
 title classification count - ELASTIC_FIT,150
 title classification count - REVIEW_CONTEXT_DEPENDENT,14
@@ -47,3 +47,11 @@ anchor elastic count - Cumbria - South,0
 other elastic count - Cumbria - South,0
 total rows output - Cumbria - South,1
 job_id included - Cumbria - South,107572044
+selection scenario - Hampshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
+selection message - Hampshire,"Hampshire selection complete: 16 selected after HIGH_CONFIDENCE, Southampton ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Hampshire,16
+high confidence count - Hampshire,10
+anchor elastic count - Hampshire,1
+other elastic count - Hampshire,5
+total rows output - Hampshire,16
+job_id included - Hampshire,1484532; 1529738; ace9364c-e6d0-4e15-b864-bc2fa6fe6e49; e1e3015c-df07-47b4-af44-688be7864d29; da739769-02ce-426d-be7e-b34c0fa6a7f4; 1401784075; 1401783381; b11c2d21-9f19-4527-9c77-7824a95371d3; 2f532865-4803-44d2-81b4-75880c3047e5; abdb05c5-8646-4efc-883f-b581bf1c1534; 30c20a52-7bcf-41bf-9813-63230dab4fa2; c833e579-ae4d-4e7e-aabf-92e2db964f20; ed154b9e-e7c5-438d-bc97-625ed86e42f9; c67bc745-657c-48cb-be04-70b9aabad662; 1401784020; 1da42d41-7b4f-430d-b722-87c9b199ba97

@@ -4,3 +4,5 @@ Yorkshire - South,10,9,0,1,4,,10,Sheffield,SCENARIO_3_FULL_VALID_SELECTION,"York
 North East,11,11,0,0,1,,11,Newcastle Upon Tyne,SCENARIO_1_COMPLETE_HC_ONLY,North East selection complete: all 11 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Newcastle Upon Tyne HC roles protected in ordering.
 London,59,53,4,2,23,,59,London,SCENARIO_3_FULL_VALID_SELECTION,"London selection complete: all 59 valid selected role(s) retained after HIGH_CONFIDENCE, London ELASTIC_FIT and other ELASTIC_FIT ordering."
 Hampshire,22,22,0,0,0,,22,Southampton,SCENARIO_1_COMPLETE_HC_ONLY,Hampshire selection complete: all 22 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Southampton HC roles protected in ordering.
+Surrey,20,20,0,0,2,,20,Guildford,SCENARIO_1_COMPLETE_HC_ONLY,Surrey selection complete: all 20 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Guildford HC roles protected in ordering.
+Kent,29,28,0,1,3,,29,Maidstone,SCENARIO_3_FULL_VALID_SELECTION,"Kent selection complete: all 29 valid selected role(s) retained after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT and other ELASTIC_FIT ordering."
