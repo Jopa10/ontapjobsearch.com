@@ -438,3 +438,121 @@ job_id: 107572044
 ## CUMBRIA SOUTH — POSSIBLES
 
 _No jobs in this group._
+
+## HAMPSHIRE — SELECTED
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25186 - £26244 per year | Night Care Worker
+job_id: 1401783381
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
+job_id: 1484532
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker - Part time
+job_id: 1529738
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £14 - £14.25 per hour | Care Assistant / Support Worker - Domiciliary care
+job_id: ace9364c-e6d0-4e15-b864-bc2fa6fe6e49
+---
+
+---
+action:
+SELECTED | Hampshire | Hook | £15.69 per hour | Care Assistant - Bank - Care Home
+job_id: ed154b9e-e7c5-438d-bc97-625ed86e42f9
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £13.45 per hour | Day Support Worker
+job_id: e1e3015c-df07-47b4-af44-688be7864d29
+---
+
+---
+action:
+SELECTED | Hampshire | Eastleigh | £15.45 per hour | Care Assistant - Bank - Care Home
+job_id: c833e579-ae4d-4e7e-aabf-92e2db964f20
+---
+
+---
+action:
+SELECTED | Hampshire | Hayling Island | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: c67bc745-657c-48cb-be04-70b9aabad662
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £13.21 per hour | Care Assistant - Care Home
+job_id: b11c2d21-9f19-4527-9c77-7824a95371d3
+---
+
+---
+action:
+SELECTED | Hampshire | Tadley | £12.71 per hour | Support Worker
+job_id: 2f532865-4803-44d2-81b4-75880c3047e5
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £13.45 - £14 per hour | Autism Support Worker
+job_id: da739769-02ce-426d-be7e-b34c0fa6a7f4
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £25800 per year | Support Worker
+job_id: abdb05c5-8646-4efc-883f-b581bf1c1534
+---
+
+---
+action:
+SELECTED | Hampshire | Winchester | £13.38 - £13.72 per hour | Bank Domiciliary care assistant
+job_id: 30c20a52-7bcf-41bf-9813-63230dab4fa2
+---
+
+---
+action:
+SELECTED | Hampshire | Andover | £13.21 per hour | Night Care Assistant
+job_id: 1da42d41-7b4f-430d-b722-87c9b199ba97
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year () plus market supplement) | Night Care Assistant
+job_id: 1401784020
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £27780 - £30564 per year | Secure Childrens Home Support Worker (Weekends)
+job_id: 1401784075
+---
+
+## HAMPSHIRE — POSSIBLES
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401783548
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Child and Family Support Worker
+job_id: 1401783859
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
+job_id: 1401783926
+---

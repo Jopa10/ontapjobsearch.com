@@ -925,6 +925,338 @@ job_id: 4e153964-a053-4ed8-aea2-1904770ff29d
 
 _No jobs in this group._
 
+## SURREY — SELECTED
+
+---
+action:
+SELECTED | Surrey | Woking | £26000 - £28000 per year | HR Administrator
+job_id: a19a141e-e484-4499-965a-1f28772a870f
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £13.5 - £15 per hour | Administrator
+job_id: fa1353e5-5ccc-4041-80fb-26c0144e6a6d
+---
+
+---
+action:
+SELECTED | Surrey | Godalming | £25000 - £27000 per year | Administration Assistant
+job_id: f504f48e-88d6-4998-a540-7eb379eee963
+---
+
+---
+action:
+SELECTED | Surrey | Walton-on-thames | £28000 - £30000 per year | Reception & Administrator
+job_id: eec141c6-0fa2-425e-8f24-6dc10b1e3479
+---
+
+---
+action:
+SELECTED | Surrey | Camberley | £25000 - £27000 per year | Office Administrator
+job_id: e2815631-da10-4ed9-af94-09a58de275a6
+---
+
+---
+action:
+SELECTED | Surrey | Chertsey | £27000 per year | Sales Support Administrator
+job_id: d95c9b7c-5e6d-47ba-99bf-667652f88961
+---
+
+---
+action:
+SELECTED | Surrey | Redhill | £13.5 - £15.5 per hour | Customer Service Administrator - TEMP
+job_id: ca2c4ad2-7010-40c9-b74d-3e1f80a02a85
+---
+
+---
+action:
+SELECTED | Surrey | Staines | £12.82 - £14.86 per hour | Customer Service Administrator
+job_id: c2ee892c-8445-4fc7-b7e3-8ba9f2f4e710
+---
+
+---
+action:
+SELECTED | Surrey | Oxted |  | Mortgage Administrator
+job_id: ad390a5a-5000-4da8-be9c-642f84daacf0
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £25000 - £30000 per year | Sales Administrator
+job_id: a5727342-6284-476d-a40b-ae02747e4eb9
+---
+
+---
+action:
+SELECTED | Surrey | Caterham | £28000 - £30000 per year | Office Administrator - Part-time
+job_id: 92b86e67-2b8e-451c-b857-bb387e37b84f
+---
+
+---
+action:
+SELECTED | Surrey | Epsom | £28000 - £34000 per year | Mortgage Administrator
+job_id: 85a56ee0-8e46-428c-a0a7-f3ebca4340a7
+---
+
+---
+action:
+SELECTED | Surrey | Redhill | £26000 - £28000 per year | Administrator
+job_id: dc9016ea-6329-4e4e-873d-1794714bc716
+---
+
+---
+action:
+SELECTED | Surrey | Weybridge | £25508 per year | English and Maths Administrator
+job_id: 71434c30-a899-4deb-a436-310af0d063ac
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £25000 - £35000 per year | Healthcare Administrator
+job_id: 20db4151-49da-44f1-bf34-a11d73fbea38
+---
+
+---
+action:
+SELECTED | Surrey | Shepperton | £30000 - £33000 per year | Bookkeeping & Administration Assistant
+job_id: d801e589-cdf4-4e7e-9b7f-cb2894fb5730
+---
+
+---
+action:
+SELECTED | Surrey | Weybridge | £24000 - £30000 per year | Renewables Administrator
+job_id: 7df364d7-d49d-410d-9314-fbdd29646572
+---
+
+---
+action:
+SELECTED | Surrey | Horley | £13.29 - £14.04 per hour | Part-Time Administrator
+job_id: a2682067-5b13-4508-992a-d5ab422816ee
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £13 - £14 per hour | Administrator
+job_id: 9a146065-f414-4ddd-b152-5c4322dd4e93
+---
+
+---
+action:
+SELECTED | Surrey | Sunbury-on-thames | £27000 - £28000 per year | Administrator/Sales support
+job_id: f0fd6344-22f6-45b4-8a54-4ea54f6a5603
+---
+
+## SURREY — POSSIBLES
+
+---
+action:
+POSS - SURREY | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
+job_id: ad194d43-a41f-4957-a029-b15348fcba4f
+---
+
+---
+action:
+POSS - SURREY | Surrey | Epsom | £15 - £20 per hour | Medical Secretary
+job_id: 5a4b8c85-d429-40e4-af68-57d926f38317
+---
+
+## KENT — SELECTED
+
+---
+action:
+SELECTED | Kent | Canterbury | £25000 - £30000 per year | Trainee Company Secretary
+job_id: cdcccfbb-38e1-427f-a4ac-d499cbc1b603
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £28000 - £30000 per year | Office Administrator
+job_id: f4da8ee8-aa46-4351-a0d5-8ae1db334e2b
+---
+
+---
+action:
+SELECTED | Kent | Rochester | £14 per hour | Helpdesk Administrator- Rochester
+job_id: dd0e867b-0ae1-4165-b45f-9f62394a2ea0
+---
+
+---
+action:
+SELECTED | Kent | Maidstone | £14.8 per hour | Receptionist - Bank - Care Home
+job_id: d0a43971-4be0-4e41-b129-0115a7ddfca8
+---
+
+---
+action:
+SELECTED | Kent | Canterbury | £13.5 per hour | Medical Administrator Immediate start!
+job_id: ce2d7ecd-9eea-46b1-b977-207c770afc35
+---
+
+---
+action:
+SELECTED | Kent | Gravesend | £25000 - £28000 per year | BRANCH ADMINISTRATOR
+job_id: cc62dac9-4736-46c9-882e-db04acd86df9
+---
+
+---
+action:
+SELECTED | Kent | Chatham | £13.25 per hour | Branch Administrator
+job_id: cb0e964f-7ce4-4fb3-b79e-3b5385212e7c
+---
+
+---
+action:
+SELECTED | Kent | Whitstable | £14.5 - £17 per hour | School Administrator
+job_id: c0630f71-5eca-48d7-8056-8979ac3349c0
+---
+
+---
+action:
+SELECTED | Kent | Faversham | £25000 - £28000 per year | Sales Administrator
+job_id: b9bbaece-e58a-4885-b5ab-85f377794b9c
+---
+
+---
+action:
+SELECTED | Kent | Canterbury | £27000 - £33000 per year | Administrator
+job_id: b98da4e4-9dd1-4031-bc87-c5429087ed5f
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £28000 - £30000 per year | Customer Service & Sales Administrator
+job_id: affa1df7-86a5-467e-bb89-4629401d2fc1
+---
+
+---
+action:
+SELECTED | Kent | Chatham | £24500 per year | Administrator
+job_id: a35bfe5c-2182-4cdd-9388-041e8071fea2
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £27000 - £30000 per year | Business Support Administrator
+job_id: a355520a-ec5a-41ab-8037-cdf735922a26
+---
+
+---
+action:
+SELECTED | Kent | Dartford | £13 per hour | Estates Co-ordinator / Administrator
+job_id: a2daebb4-ae4d-48b6-b7ec-6fa01bbcef38
+---
+
+---
+action:
+SELECTED | Kent | Chatham | £24500 per year | HR Administrator
+job_id: a2139f26-0270-4159-b3e0-c882aaa33875
+---
+
+---
+action:
+SELECTED | Kent | Ashford | £30000 - £35000 per year | Receptionist/Secretary Ashford £35k
+job_id: 96e0339e-e7c1-43bd-9a71-099718f7b644
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £28000 - £30000 per year | Operations Administrator
+job_id: 838d75bc-f68c-4f84-8499-5ff69215bb50
+---
+
+---
+action:
+SELECTED | Kent | Chatham | £10.85 - £12.71 per hour | Office Administrator / Office Assistant
+job_id: 7faae241-2dfa-44be-abfb-dab1ac890c5b
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £27000 - £30000 per year | Administrator
+job_id: 78eeb1a6-5aa4-4b48-842e-f64df35436de
+---
+
+---
+action:
+SELECTED | Kent | Chatham |  | Office Administrator
+job_id: 71de4af3-4461-45f1-b715-044654f4c52e
+---
+
+---
+action:
+SELECTED | Kent | Rochester |  | Administrator
+job_id: 6d8936ea-9b01-4ac2-a5a1-0f11fdea87ae
+---
+
+---
+action:
+SELECTED | Kent | Aylesford | £12.85 per hour | Sales Administrator - Part Time
+job_id: 62ddffa6-94cb-4225-8b76-48758c8cac3d
+---
+
+---
+action:
+SELECTED | Kent | Ashford |  | Receptionist
+job_id: 627570a8-45fa-43a6-9d8d-d67bfac51f46
+---
+
+---
+action:
+SELECTED | Kent | Swanley | £14.36 per hour | Service Administrator Swanley Start ASAP Temp
+job_id: 5b77d48c-3e92-43b0-a8cb-84749a91d03d
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks | £30000 per year | Commercial Finance Assistant
+job_id: 107698291
+---
+
+---
+action:
+SELECTED | Kent | Dartford | £24500 - £27000 per year | Administrator - Construction Industry
+job_id: 705da49f-22ec-4df1-aca5-ebc75e2f7b23
+---
+
+---
+action:
+SELECTED | Kent | Tunbridge Wells | £30000 - £32000 per year | Sales Administrator
+job_id: 665362c2-1e23-459b-ad90-474cce8096a0
+---
+
+---
+action:
+SELECTED | Kent | Rochester | £26000 - £30000 per year | Workshop Administrator
+job_id: e40b4f14-2e49-42bc-a1ef-3582351bacb5
+---
+
+---
+action:
+SELECTED | Kent | Kent | £26000 per year | Repairs Administrator and Coordinator
+job_id: 107604686
+---
+
+## KENT — POSSIBLES
+
+---
+action:
+POSS - KENT | Kent | Maidstone | £35000 - £40000 per year | NEW VACANCY - Client Relationship Administrator - Maidstone, Kent - £40K
+job_id: 7a0c1b31-ed8b-46b6-be92-a971044854ce
+---
+
+---
+action:
+POSS - KENT | Kent | Tonbridge | £35000 - £38000 per year | Financial Administrator Tonbridge, Kent £35,000 - £38,000 Permanent
+job_id: 9cef1b88-490c-49ba-80b3-02b4b35e5210
+---
+
+---
+action:
+POSS - KENT | Kent | Chatham | £30000 - £40000 per year | PARAPLANNER/IFA ADMINISTRATOR
+job_id: 5d9b7ea6-6eb3-40d5-82f9-406f416236f4
+---
+
 ## ACTIVE MANUAL ACTIONS
 
 _No active manual actions outside the selected/possible groups._
