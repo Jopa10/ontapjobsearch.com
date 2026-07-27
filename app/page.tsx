@@ -3,11 +3,14 @@ import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.js
 import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
 import sussexSupportWorkerJobs from './sussex/support-worker.json';
 import cumbriaSouthSupportWorkerJobs from './cumbria-south/support-worker.json';
+import hampshireSupportWorkerJobs from './hampshire/support-worker.json';
 import westYorkshireServiceAdministratorJobs from './west-yorkshire/service-administrator-jobs.json';
 import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-administrator-jobs.json';
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
 import londonServiceAdministratorJobs from './london/service-administrator-jobs.json';
 import hampshireServiceAdministratorJobs from './hampshire/service-administrator-jobs.json';
+import surreyServiceAdministratorJobs from './surrey/service-administrator-jobs.json';
+import kentServiceAdministratorJobs from './kent/service-administrator-jobs.json';
 import { isCentralInnerLondonJob, isOuterLondonJob } from '@/lib/london-job-area';
 
 type Job = {
@@ -91,6 +94,14 @@ const popularSearches = [
     href: '/hampshire/service-administrator-jobs',
   },
   {
+    label: 'Surrey service administrator jobs',
+    href: '/surrey/service-administrator-jobs',
+  },
+  {
+    label: 'Kent service administrator jobs',
+    href: '/kent/service-administrator-jobs',
+  },
+  {
     label: 'West Yorkshire support worker jobs',
     href: '/west-yorkshire/support-worker',
   },
@@ -109,6 +120,10 @@ const popularSearches = [
   {
     label: 'South Cumbria support worker jobs',
     href: '/cumbria-south/support-worker',
+  },
+  {
+    label: 'Hampshire support worker jobs',
+    href: '/hampshire/support-worker',
   },
   {
     label: 'Browse all jobs',
@@ -172,6 +187,12 @@ const yorkshireSupportWorkerSlices: SliceCard[] = [
 
 const trailingSupportWorkerSlices: SliceCard[] = [
   createSupportWorkerSlice({
+    region: 'Hampshire',
+    title: 'Hampshire Support Worker Jobs',
+    sliceUrl: '/hampshire/support-worker',
+    jobs: hampshireSupportWorkerJobs,
+  }),
+  createSupportWorkerSlice({
     region: 'South Cumbria',
     title: 'South Cumbria Support Worker Jobs',
     sliceUrl: '/cumbria-south/support-worker',
@@ -193,6 +214,23 @@ const yorkshireServiceAdministratorSlices: SliceCard[] = [
     ctaText: 'View South Yorkshire jobs →',
     sliceUrl: '/south-yorkshire/service-administrator-jobs',
     jobs: southYorkshireServiceAdministratorJobs,
+  },
+];
+
+const southEastServiceAdministratorSlices: SliceCard[] = [
+  {
+    title: 'Surrey Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across Surrey.',
+    ctaText: 'View Surrey jobs →',
+    sliceUrl: '/surrey/service-administrator-jobs',
+    jobs: surreyServiceAdministratorJobs,
+  },
+  {
+    title: 'Kent Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across Kent.',
+    ctaText: 'View Kent jobs →',
+    sliceUrl: '/kent/service-administrator-jobs',
+    jobs: kentServiceAdministratorJobs,
   },
 ];
 
@@ -336,7 +374,8 @@ export default function Page() {
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
           Current service administrator, office support and customer-service roles across Hampshire,
-          London, Yorkshire and the North East. Updated daily; apply directly on employer sites.
+          Surrey, Kent, London, Yorkshire and the North East. Updated daily; apply directly on
+          employer sites.
         </p>
 
         <section className="mb-5">
@@ -345,6 +384,12 @@ export default function Page() {
           </h2>
           <div>
             <SliceCardGrid cards={serviceAdministratorSlices} />
+          </div>
+          <div className="mt-3">
+            <RegionalSliceGroup
+              label="South East admin & customer-service jobs"
+              cards={southEastServiceAdministratorSlices}
+            />
           </div>
           <div className="mt-3">
             <RegionalSliceGroup
@@ -374,8 +419,9 @@ export default function Page() {
           </div>
 
           <p className="mt-2 text-xs text-gray-500">
-            Current support-worker roles are available in West Yorkshire, the North East, Sussex and
-            South Cumbria. South Yorkshire remains available as a retained page while current supply is limited.
+            Current support-worker roles are available in Hampshire, West Yorkshire, the North East,
+            Sussex and South Cumbria. South Yorkshire remains available as a retained page while
+            current supply is limited.
           </p>
         </section>
 

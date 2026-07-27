@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   description:
     "Browse current support worker jobs across Southampton and Hampshire, updated daily with employer-site application links.",
   alternates: { canonical: canonicalUrl },
-  robots: { index: false, follow: false },
 };
 
 export default function Page() {

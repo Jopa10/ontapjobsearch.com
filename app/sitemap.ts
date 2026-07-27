@@ -14,12 +14,15 @@ const routes = [
   '/north-east/support-worker',
   '/sussex/support-worker',
   '/cumbria-south/support-worker',
+  '/hampshire/support-worker',
   '/west-yorkshire/service-administrator-jobs',
   '/south-yorkshire/service-administrator-jobs',
   '/north-east/service-administrator-jobs',
   '/london/service-administrator-jobs',
   '/london/outer-service-administrator-jobs',
   '/hampshire/service-administrator-jobs',
+  '/surrey/service-administrator-jobs',
+  '/kent/service-administrator-jobs',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
