@@ -4,4 +4,4 @@ Yorkshire - South,,9,7,0,2,0,,9,Sheffield,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 North East,,22,11,1,10,4,,22,Newcastle Upon Tyne,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"North East selection complete: 22 selected after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT, and other ELASTIC_FIT roles."
 Sussex,,16,13,0,3,4,,16,Brighton,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Sussex selection complete: 16 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
 Cumbria - South,,1,0,0,1,0,,1,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-Hampshire,,16,10,1,5,3,,16,Southampton,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Hampshire selection complete: 16 selected after HIGH_CONFIDENCE, Southampton ELASTIC_FIT, and other ELASTIC_FIT roles."
+Hampshire,,18,12,1,5,1,,18,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 2 row(s) prioritised; 18 selected.
