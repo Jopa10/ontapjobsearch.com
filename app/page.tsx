@@ -379,7 +379,7 @@ export default function Page() {
         </p>
 
         <section className="mb-5">
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">
+          <h2 className="mb-3 mt-4 text-2xl font-semibold tracking-tight sm:-ml-2 sm:text-3xl">
             Admin, office support and customer service jobs
           </h2>
           <div>
@@ -406,7 +406,9 @@ export default function Page() {
         </section>
 
         <section className="mt-12">
-          <h2 className="mb-2 text-2xl font-semibold tracking-tight">Support worker jobs</h2>
+          <h2 className="mb-3 text-2xl font-semibold tracking-tight sm:-ml-2 sm:text-3xl">
+            Support worker jobs
+          </h2>
           <SliceCardGrid cards={leadingSupportWorkerSlices} />
           <div className="mt-3">
             <RegionalSliceGroup
