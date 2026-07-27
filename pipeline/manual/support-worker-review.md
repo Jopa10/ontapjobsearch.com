@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-07-26
+feed_date: 2026-07-27
 
 Edit only the `action:` line in each block:
 
@@ -191,12 +191,6 @@ job_id: 2cce53be-0eb7-4d38-90ef-b37163d4f101
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
-job_id: 107199266
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland | £12.85 per hour | Relief Support Worker
 job_id: ec4e95ff-f305-4f35-af5d-ffb748f961ae
 ---
@@ -217,6 +211,12 @@ job_id: efa3aa57-1e8a-4cb2-825d-5582e4cc47a2
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
 job_id: 107199250
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £26436 per year | Young People Support Worker
+job_id: 9c088ed3-d0c2-4f63-8707-d6af87a49c33
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -309,12 +309,6 @@ job_id: 8cf94350-e0e1-4c8b-b57d-afa66139d419
 action:
 SELECTED | Sussex | St. Leonards-on-sea | £30000 - £32000 per year | Healthcare Assistant
 job_id: 7911979f-e083-4358-946e-98879570ba1e
----
-
----
-action: select
-SELECTED | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
-job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
 ---
 
 ---
@@ -427,14 +421,20 @@ POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107641522
 ---
 
+---
+action:
+POSS - SUSSEX | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
+job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
+---
+
 ## CUMBRIA SOUTH — SELECTED
 
----
-action: select
-SELECTED | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
-job_id: 107572044
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
+job_id: 107572044
+---

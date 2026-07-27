@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-07-26
+feed_date: 2026-07-27
 
 Edit only the `action:` line in each block:
 
@@ -51,12 +51,6 @@ job_id: eb010ba3-32d8-4d46-a7b0-2d7cd220bba2
 action:
 SELECTED | Yorkshire - West | Bradford | £12.71 - £13 per hour | Sales Administrator
 job_id: e8f86b79-e4d1-4340-82f5-63688544a56d
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £28000 per year | Care Coordinator
-job_id: e378cd98-a660-49aa-a224-5d09b2803760
 ---
 
 ---
@@ -397,6 +391,12 @@ job_id: 107663038
 
 ---
 action:
+SELECTED | London | London | £32000 - £35000 per year | Administrator / Receptionist
+job_id: e40365a2-e455-488b-a8c0-2009bf3c231c
+---
+
+---
+action:
 SELECTED | London | Uxbridge | £25000 per year | Customer Support Administrator
 job_id: e2dfa737-ca4a-41e0-a227-f26b4d5c5b40
 ---
@@ -459,6 +459,12 @@ job_id: b3c7ca56-7031-4b79-acc4-204cd8fdfd5e
 action:
 SELECTED | London | London |  | School and Data Administrator
 job_id: af9dc98f-624b-4f28-9113-cb1f1a9f886c
+---
+
+---
+action:
+SELECTED | London | London | £26000 - £32000 per year | Receptionist - Fashion Company
+job_id: ae5f9397-aa21-4efa-b06b-aabe06a88f1e
 ---
 
 ---
@@ -537,6 +543,12 @@ job_id: 6d1a0d1e-192c-499a-b24f-73a2d1046858
 action:
 SELECTED | London | Barking | £24000 - £26000 per year | Sales Support Administrator
 job_id: 6a2ec28e-20d9-4714-9789-4a06502d54bc
+---
+
+---
+action:
+SELECTED | London | London | £16 per hour | Office Assistant 3 month Temp
+job_id: 653586cf-027d-4490-a84f-70b948514312
 ---
 
 ---
