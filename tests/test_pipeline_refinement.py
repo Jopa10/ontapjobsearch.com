@@ -34,8 +34,8 @@ class SalaryPolicyTests(unittest.TestCase):
             reviewed_ceiling_gbp=ceiling,
         )
 
-    def test_london_sussex_and_hampshire_use_higher_boundary(self) -> None:
-        for region in ("London", "Sussex", "Hampshire"):
+    def test_south_east_regions_use_higher_boundary(self) -> None:
+        for region in ("London", "Sussex", "Hampshire", "Surrey", "Kent"):
             with self.subTest(region=region):
                 self.assertEqual(35000, policy.salary_threshold_for_region(region, self.thresholds))
         self.assertEqual(30000, policy.salary_threshold_for_region("North East", self.thresholds))
