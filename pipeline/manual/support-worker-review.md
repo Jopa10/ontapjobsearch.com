@@ -454,6 +454,12 @@ job_id: 1484532
 ---
 
 ---
+action: select
+SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401783548
+---
+
+---
 action:
 SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker - Part time
 job_id: 1529738
@@ -493,6 +499,12 @@ job_id: c67bc745-657c-48cb-be04-70b9aabad662
 action:
 SELECTED | Hampshire | Basingstoke | £13.21 per hour | Care Assistant - Care Home
 job_id: b11c2d21-9f19-4527-9c77-7824a95371d3
+---
+
+---
+action: select
+SELECTED | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
+job_id: 1401783926
 ---
 
 ---
@@ -540,19 +552,7 @@ job_id: 1401784075
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action: select
-POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
-job_id: 1401783548
----
-
----
 action:
 POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Child and Family Support Worker
 job_id: 1401783859
----
-
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
-job_id: 1401783926
 ---

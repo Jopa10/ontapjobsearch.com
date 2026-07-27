@@ -1012,6 +1012,12 @@ job_id: 71434c30-a899-4deb-a436-310af0d063ac
 ---
 
 ---
+action: select
+SELECTED | Surrey | Epsom | £15 - £20 per hour | Medical Secretary
+job_id: 5a4b8c85-d429-40e4-af68-57d926f38317
+---
+
+---
 action:
 SELECTED | Surrey | Woking | £25000 - £35000 per year | Healthcare Administrator
 job_id: 20db4151-49da-44f1-bf34-a11d73fbea38
@@ -1053,12 +1059,6 @@ job_id: f0fd6344-22f6-45b4-8a54-4ea54f6a5603
 action:
 POSS - SURREY | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
 job_id: ad194d43-a41f-4957-a029-b15348fcba4f
----
-
----
-action: select
-POSS - SURREY | Surrey | Epsom | £15 - £20 per hour | Medical Secretary
-job_id: 5a4b8c85-d429-40e4-af68-57d926f38317
 ---
 
 ## KENT — SELECTED
