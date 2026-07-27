@@ -1,20 +1,20 @@
 ﻿metric,value
 total rows input,3555
-total rows included,55
+total rows included,57
 total rows dropped,3488
 title classification count - HIGH_CONFIDENCE,327
 title classification count - ELASTIC_FIT,150
 title classification count - REVIEW_CONTEXT_DEPENDENT,14
 title classification count - HARD_PASS,1914
 title classification count - OUT_OF_SCOPE,1150
-selection scenario - Yorkshire - West,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Yorkshire - West,"Yorkshire - West selection complete: 8 selected after HIGH_CONFIDENCE, Leeds ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Yorkshire - West,8
+selection scenario - Yorkshire - West,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Yorkshire - West,Yorkshire - West manual_select applied additively: 1 row(s) prioritised; 9 selected.
+credible total - Yorkshire - West,9
 high confidence count - Yorkshire - West,3
 anchor elastic count - Yorkshire - West,0
 other elastic count - Yorkshire - West,5
-total rows output - Yorkshire - West,8
-job_id included - Yorkshire - West,d2b6bed8-4c47-4afe-a6e7-f653868515a2; 107532972; 7b94b93e-757a-4c9c-ba1b-5a8563961cdd; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09; 1401783851
+total rows output - Yorkshire - West,9
+job_id included - Yorkshire - West,d2b6bed8-4c47-4afe-a6e7-f653868515a2; 107728806; 107532972; 7b94b93e-757a-4c9c-ba1b-5a8563961cdd; 1401783630; 107651994; 1401783720; 4c07aee5-7024-4cb3-b344-dfaecadb7a09; 1401783851
 selection scenario - Yorkshire - South,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Yorkshire - South,"Yorkshire - South selection complete: 9 selected after HIGH_CONFIDENCE, Sheffield ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Yorkshire - South,9
@@ -40,10 +40,10 @@ other elastic count - Sussex,3
 total rows output - Sussex,16
 job_id included - Sussex,ebc70e88-0b55-4541-9a7e-808faac32e58; 86901b4e-c38e-4356-bcdf-438123d57b3d; 754d4870-6635-4f50-b6d9-e858722ab608; 71c69d5d-63c6-4fe9-9b64-aeaf20034b29; 61783f8a-d53f-4565-8ca0-878e204ba0bf; 7911979f-e083-4358-946e-98879570ba1e; d190e506-a8f8-4d6f-a0f2-1edef5b6612f; 9b554a1e-8704-4ffe-819e-ebddfb18a9fe; 2ed3e16f-b49e-444d-be95-42cbbb537763; ea07d98d-3552-4477-805d-a42476b9f144; 5550e727-462b-46bf-9168-3eaa72487b4c; ae94e49e-f175-432c-842f-6a6ea1ec4646; a42a1600-795b-470d-b7a3-7d1af79a1fd6; d491ad80-3d80-4f29-870c-be4e4b22d42b; 1401783835; b1ea4e7d-5a13-43ff-bc09-d3106191ef2f
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Cumbria - South,Cumbria - South selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Cumbria - South,0
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,1
 high confidence count - Cumbria - South,0
 anchor elastic count - Cumbria - South,0
 other elastic count - Cumbria - South,0
-total rows output - Cumbria - South,0
-job_id included - Cumbria - South,
+total rows output - Cumbria - South,1
+job_id included - Cumbria - South,107572044
