@@ -434,7 +434,7 @@ _No jobs in this group._
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
