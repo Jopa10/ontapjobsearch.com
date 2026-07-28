@@ -4,9 +4,9 @@
 2026-07-28,SELECTED,Yorkshire - West,Children's Residential Support Worker,Huddersfield,£93 - £105 per daily,,,4c07aee5-7024-4cb3-b344-dfaecadb7a09
 2026-07-28,SELECTED,Yorkshire - West,Residential Support Worker,Huddersfield,£27976 per year (+£60 per sleep-in)),,,1401783851
 2026-07-28,SELECTED,Yorkshire - West,Complex care assistant,Holmfirth,£27394 per year,,,107651994
-2026-07-28,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Leeds,£17.93 per hour (+ INC holiday pay),,,107616819
-2026-07-28,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Halifax,£17.93 per hour (+ INC holiday pay),,,107728647
-2026-07-28,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Huddersfield,£13.38 - £17.93 per hour (+ INC holiday pay),,,107728806
+2026-07-28,SELECTED,Yorkshire - West,Complex Care Assistant,Huddersfield,£13.38 - £17.93 per hour (+ INC holiday pay),,1,107728806
+2026-07-28,SELECTED,Yorkshire - West,Complex Care Assistant,Halifax,£17.93 per hour (+ INC holiday pay),,1,107728647
+2026-07-28,SELECTED,Yorkshire - West,Complex Care Assistant,Leeds,£17.93 per hour (+ INC holiday pay),,1,107616819
 2026-07-28,SELECTED,Yorkshire - South,Support Worker - Elderly Adults,Rotherham,£13.05 per hour,,,7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c
 2026-07-28,SELECTED,Yorkshire - South,Children Residential Support Worker,Doncaster,£26400 per year,,,66e6573f-6a0d-4805-83eb-659743f86d53
 2026-07-28,SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£14.24 per hour,,,f3f8e2ad-deef-4db9-9895-23e53030230f
@@ -14,7 +14,7 @@
 2026-07-28,SELECTED,Yorkshire - South,Therapeutic Family Support Worker / Parenting Practitioner,Barnsley,£18 per hour,,,6468034e-9a40-4583-adf5-d5ba5eed0237
 2026-07-28,SELECTED,Yorkshire - South,Healthcare Assistant,Sheffield,£14.24 per hour,,,9970f2ba-5a14-44da-89b2-e5bde6c3f05d
 2026-07-28,SELECTED,Yorkshire - South,Waking Night Rehabilitation Support Worker,Barnsley,£13.45 per hour,,,616c0fbd-815e-424d-8086-ba78ca9e8d6b
-2026-07-28,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+2026-07-28,SELECTED,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,1,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 2026-07-28,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Newcastle Upon Tyne,£29350 per year,,,107616541
 2026-07-28,SELECTED,"North East - Tyneside, Wearside & Northumberland",Young People Support Worker,Whitley Bay,"£19,738.88 per annum",,,1533503
 2026-07-28,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Blaydon-on-tyne,£29350 per year,,,107617093
@@ -30,6 +30,7 @@
 2026-07-28,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Waking Night Crisis Support Worker,Sunderland,£17.50-£24.00 per hour,,,177d942c-cbf1-4954-95a9-162b93128f3d
 2026-07-28,POSS - NE - Co Durham & Dar/Htlpl,North East - County Durham & Darlington/Hartlepool,Children and Young Person's Support Worker,Durham,£15.5 - £22.5 per hour,,,9ed3947e-ae04-40a4-99b7-72e52e4abc88
 2026-07-28,SELECTED,Sussex,Healthcare Assistant,St. Leonards-on-sea,£30000 - £32000 per year,,,7911979f-e083-4358-946e-98879570ba1e
+2026-07-28,SELECTED,Sussex,Behaviour Support Worker,Bognor Regis,£90 - £95 per daily,,1,048be967-2e11-4259-b4f0-479ca2984dc7
 2026-07-28,SELECTED,Sussex,Domestic Abuse Support Worker,Brighton,£27976 per year,,,ebc70e88-0b55-4541-9a7e-808faac32e58
 2026-07-28,SELECTED,Sussex,Support Worker,Bognor Regis,£13.49 per hour,,,d190e506-a8f8-4d6f-a0f2-1edef5b6612f
 2026-07-28,SELECTED,Sussex,Residential Support Worker,Lewes,£29390.4 - £30056 per year (+ £60 per sleep-in)),,,1401783835
@@ -49,12 +50,13 @@
 2026-07-28,POSS - SUSSEX,Sussex,Female Support Worker,Chichester,£17.9 - £19 per hour,,,ba7f799b-28eb-4372-b972-0f1e14369fc8
 2026-07-28,POSS - SUSSEX,Sussex,Support Worker,Shoreham-by-sea,£16 - £18.5 per hour,,,6a927a37-77f5-4974-b092-4b95250ac3b1
 2026-07-28,POSS - SUSSEX,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,,107641522
-2026-07-28,POSS - SUSSEX,Sussex,Behaviour Support Worker,Bognor Regis,£90 - £95 per daily,,,048be967-2e11-4259-b4f0-479ca2984dc7
-2026-07-28,POSS - CUMBRIA - SOUTH,Cumbria - South,Complex Care Assistant,Kendal,£16.53 per hour ((including holiday pay)),,,107572044
+2026-07-28,SELECTED,Cumbria - South,Complex Care Assistant,Kendal,£16.53 per hour ((including holiday pay)),,1,107572044
+2026-07-28,SELECTED,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,1,1401783548
 2026-07-28,SELECTED,Hampshire,Day Support Worker,Southampton,£13.45 per hour,,,e1e3015c-df07-47b4-af44-688be7864d29
 2026-07-28,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Eastleigh,£15.45 per hour,,,c833e579-ae4d-4e7e-aabf-92e2db964f20
 2026-07-28,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Hayling Island,£14.8 per hour,,,c67bc745-657c-48cb-be04-70b9aabad662
 2026-07-28,SELECTED,Hampshire,Care Assistant - Care Home,Basingstoke,£13.21 per hour,,,b11c2d21-9f19-4527-9c77-7824a95371d3
+2026-07-28,SELECTED,Hampshire,Support Worker (Out of Hours),Havant,£33178 - £36369 per year,,1,1401783926
 2026-07-28,SELECTED,Hampshire,Support Worker,Tadley,£12.71 per hour,,,2f532865-4803-44d2-81b4-75880c3047e5
 2026-07-28,SELECTED,Hampshire,Autism Support Worker,Southampton,£13.45 - £14 per hour,,,da739769-02ce-426d-be7e-b34c0fa6a7f4
 2026-07-28,SELECTED,Hampshire,Support Worker,Hampshire,£25800 per year,,,abdb05c5-8646-4efc-883f-b581bf1c1534
@@ -68,6 +70,4 @@
 2026-07-28,SELECTED,Hampshire,Night Care Assistant,Southampton,£13.81 per hour,,,2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4
 2026-07-28,SELECTED,Hampshire,Healthcare Support Worker,Emsworth,£13 - £14.5 per hour,,,107513788
 2026-07-28,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Ringwood,£16.47 per hour,,,c4b882e9-0d0f-433e-820e-ed014114370d
-2026-07-28,POSS - HAMPSHIRE,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401783548
 2026-07-28,POSS - HAMPSHIRE,Hampshire,Child and Family Support Worker,Havant,£33178 - £36369 per year,,,1401783859
-2026-07-28,POSS - HAMPSHIRE,Hampshire,Support Worker (Out of Hours),Havant,£33178 - £36369 per year,,,1401783926
