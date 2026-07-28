@@ -44,19 +44,19 @@ job_id: 107651994
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £13.38 - £17.93 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
@@ -108,7 +108,7 @@ job_id: 616c0fbd-815e-424d-8086-ba78ca9e8d6b
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
@@ -154,19 +154,19 @@ job_id: 2cce53be-0eb7-4d38-90ef-b37163d4f101
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
-action:
+action: 
 SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
 job_id: 107615864
 ---
 
 ---
-action:
+action: 
 SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £14.85 per hour | Children's Residential Support Worker
 job_id: cd3894a1-69a8-4a34-9958-51dd5b5a95f4
 ---
 
 ---
-action:
+action: 
 SELECTED | North East - County Durham & Darlington/Hartlepool | Ferryhill | £15 per hour | Female Support Worker
 job_id: b7840ef4-1093-4ad9-8984-e88d1a01242c
 ---
@@ -330,7 +330,7 @@ job_id: 107641522
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Bognor Regis | £90 - £95 per daily | Behaviour Support Worker
 job_id: 048be967-2e11-4259-b4f0-479ca2984dc7
 ---
@@ -342,7 +342,7 @@ _No jobs in this group._
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
@@ -454,7 +454,7 @@ job_id: c4b882e9-0d0f-433e-820e-ed014114370d
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401783548
 ---
@@ -466,7 +466,7 @@ job_id: 1401783859
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
 job_id: 1401783926
 ---
