@@ -55,6 +55,11 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline_education
 
+      - name: Reattach approved NEJobs vacancies
+        if: steps.slice-register.outputs.admin_service == 'true'
+        working-directory: pipeline
+        run: python -m external_sources.compose_northeast_admin --write
+
       - name: Verify service-admin outputs
         if: steps.slice-register.outputs.admin_service == 'true'
         run: |

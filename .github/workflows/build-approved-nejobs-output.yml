@@ -1,0 +1,119 @@
+name: Build approved NEJobs output
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Type PUBLISH after reviewing today's NEJobs Markdown file
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-approved-nejobs-output:
+    name: Build reviewed NEJobs and compose North East JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Build exact reviewed external output
+        working-directory: pipeline
+        run: |
+          python -m external_sources.northeast_jobs_poc \
+            --fetch-live \
+            --acknowledge-source-terms \
+            --write-approved-json \
+            --confirm-approved PUBLISH
+
+      - name: Compose with current JobG8 North East output
+        working-directory: pipeline
+        run: python -m external_sources.compose_northeast_admin --write
+
+      - name: Run controlled-output tests
+        run: |
+          python -m unittest pipeline.tests.test_nejobs_approved_publish -v
+          python -m unittest tests.test_publish_verified_pages -v
+
+      - name: Verify approved output
+        run: |
+          test -s pipeline/output-external/northeast-jobs-admin-service.json
+          test -s pipeline/output-admin-service/north-east-admin-service.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          external = json.loads(
+              Path("pipeline/output-external/northeast-jobs-admin-service.json").read_text()
+          )
+          combined = json.loads(
+              Path("pipeline/output-admin-service/north-east-admin-service.json").read_text()
+          )
+          external_ids = {row["job_id"] for row in external}
+          combined_ids = {row["job_id"] for row in combined}
+          if not external_ids <= combined_ids:
+              raise SystemExit("STOP: combined output is missing approved NEJobs IDs")
+          print(f"Approved NEJobs: {len(external)}")
+          print(f"Combined North East jobs: {len(combined)}")
+          PY
+
+      - name: Commit approved output for final publisher review
+        run: |
+          set -euo pipefail
+          approved_paths=(
+            "pipeline/reviews/external/northeast-jobs-review.csv"
+            "pipeline/reviews/external/northeast-jobs-summary.md"
+            "pipeline/output-external/northeast-jobs-admin-service.json"
+            "pipeline/output-admin-service/north-east-admin-service.json"
+          )
+
+          git add -- "${approved_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No approved NEJobs output changes to commit"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/external/northeast-jobs-review.csv" && $0 != "pipeline/reviews/external/northeast-jobs-summary.md" && $0 != "pipeline/output-external/northeast-jobs-admin-service.json" && $0 != "pipeline/output-admin-service/north-east-admin-service.json"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside approved NEJobs outputs:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build approved NEJobs output"
+          git push origin main
+
+      - name: Next step
+        run: |
+          {
+            echo "## Approved NEJobs output built"
+            echo
+            echo "The combined pipeline JSON has been committed."
+            echo "Run **Publish verified pages** only after checking the combined count."
+          } >> "$GITHUB_STEP_SUMMARY"

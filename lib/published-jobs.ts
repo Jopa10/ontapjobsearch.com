@@ -16,6 +16,7 @@ export type PublishedJob = {
   salary_text: string;
   posted_date: string;
   closing_date: string;
+  closing_datetime: string;
   description: string;
   full_description: string;
   apply_url: string;
@@ -124,6 +125,7 @@ function normaliseJob(row: Record<string, unknown>, filePath: string): Published
     salary_text: text(row.salary_text),
     posted_date: text(row.posted_date),
     closing_date: text(row.closing_date),
+    closing_datetime: text(row.closing_datetime),
     description,
     full_description: description,
     apply_url: text(row.apply_url),
