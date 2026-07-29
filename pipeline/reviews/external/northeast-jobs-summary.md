@@ -11,14 +11,14 @@ Edit only the `action:` line in each editable block:
 - Commit the edit, then rerun the NEJobs process for the same review date.
 - Decisions are matched by `source_job_id` and expire when the review date changes.
 
-Run generated: 2026-07-29T14:11:09+01:00
+Run generated: 2026-07-29T14:17:49+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
 JobG8 comparison rows in target geographies: 110
 
 ## Funnel
 
-- RSS vacancies read: 649
-- Hard-pass title/teaser screen before detail requests: 581
+- RSS vacancies read: 647
+- Hard-pass title/teaser screen before detail requests: 579
 - Detail candidates: 68
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 2
