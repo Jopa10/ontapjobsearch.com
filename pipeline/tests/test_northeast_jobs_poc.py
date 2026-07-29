@@ -1,5 +1,8 @@
 from pathlib import Path
+import ssl
 import sys
+import urllib.error
+from unittest.mock import patch
 
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +21,7 @@ from external_sources.northeast_jobs_poc import (  # noqa: E402
     deduplicate_within_source,
     employer_from_page_title,
     extract_job_id,
+    fetch_text,
     infer_location_from_detail,
     parse_detail,
     parse_args,
@@ -32,6 +36,70 @@ from external_sources.northeast_jobs_poc import (  # noqa: E402
     cluster_for_location,
     write_summary,
 )
+
+
+class FakeHeaders:
+    @staticmethod
+    def get_content_charset():
+        return "utf-8"
+
+
+class FakeResponse:
+    headers = FakeHeaders()
+
+    def __init__(self, text):
+        self.text = text
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_args):
+        return False
+
+    def read(self):
+        return self.text.encode("utf-8")
+
+
+def test_fetch_uses_verified_renderer_only_for_nejobs_certificate_error():
+    certificate_error = ssl.SSLCertVerificationError(
+        1,
+        "certificate verify failed: unable to get local issuer certificate",
+    )
+    url = "https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62"
+
+    with patch(
+        "external_sources.northeast_jobs_poc.urllib.request.urlopen",
+        side_effect=[
+            urllib.error.URLError(certificate_error),
+            FakeResponse("rendered feed"),
+        ],
+    ) as urlopen:
+        assert fetch_text(url) == "rendered feed"
+
+    assert urlopen.call_count == 2
+    assert urlopen.call_args_list[0].args[0].full_url == url
+    assert urlopen.call_args_list[1].args[0].full_url == (
+        "https://r.jina.ai/" + url
+    )
+    for call in urlopen.call_args_list:
+        context = call.kwargs["context"]
+        assert context.verify_mode == ssl.CERT_REQUIRED
+        assert context.check_hostname is True
+
+
+def test_fetch_does_not_hide_non_certificate_network_errors():
+    with patch(
+        "external_sources.northeast_jobs_poc.urllib.request.urlopen",
+        side_effect=urllib.error.URLError("temporary DNS failure"),
+    ) as urlopen:
+        try:
+            fetch_text("https://www.northeastjobs.org.uk/test")
+        except urllib.error.URLError as exc:
+            assert "temporary DNS failure" in str(exc)
+        else:
+            raise AssertionError("expected the original network failure")
+
+    assert urlopen.call_count == 1
 
 
 def test_parse_rss_xml_extracts_factual_fields():
