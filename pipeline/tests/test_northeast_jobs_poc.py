@@ -21,6 +21,7 @@ from external_sources.northeast_jobs_poc import (  # noqa: E402
     deduplicate_within_source,
     employer_from_page_title,
     extract_job_id,
+    _fetch_renderer_text,
     fetch_text,
     infer_location_from_detail,
     parse_detail,
@@ -67,13 +68,18 @@ def test_fetch_uses_verified_renderer_only_for_nejobs_certificate_error():
     )
     url = "https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62"
 
-    with patch(
-        "external_sources.northeast_jobs_poc.urllib.request.urlopen",
-        side_effect=[
-            urllib.error.URLError(certificate_error),
-            FakeResponse("rendered feed"),
-        ],
-    ) as urlopen:
+    with (
+        patch(
+            "external_sources.northeast_jobs_poc.urllib.request.urlopen",
+            side_effect=[
+                urllib.error.URLError(certificate_error),
+                FakeResponse("rendered feed"),
+            ],
+        ) as urlopen,
+        patch(
+            "external_sources.northeast_jobs_poc._wait_for_renderer_slot"
+        ),
+    ):
         assert fetch_text(url) == "rendered feed"
 
     assert urlopen.call_count == 2
@@ -100,6 +106,33 @@ def test_fetch_does_not_hide_non_certificate_network_errors():
             raise AssertionError("expected the original network failure")
 
     assert urlopen.call_count == 1
+
+
+def test_renderer_retries_rate_limit_using_retry_after():
+    url = "https://r.jina.ai/https://www.northeastjobs.org.uk/test"
+    rate_limit_error = urllib.error.HTTPError(
+        url,
+        429,
+        "Too Many Requests",
+        {"Retry-After": "4"},
+        None,
+    )
+
+    with (
+        patch(
+            "external_sources.northeast_jobs_poc.urllib.request.urlopen",
+            side_effect=[rate_limit_error, FakeResponse("rendered detail")],
+        ) as urlopen,
+        patch(
+            "external_sources.northeast_jobs_poc._wait_for_renderer_slot"
+        ) as wait_for_slot,
+        patch("external_sources.northeast_jobs_poc.time.sleep") as sleep,
+    ):
+        assert _fetch_renderer_text(url, 30) == "rendered detail"
+
+    assert urlopen.call_count == 2
+    assert wait_for_slot.call_count == 2
+    sleep.assert_called_once_with(4.0)
 
 
 def test_parse_rss_xml_extracts_factual_fields():
