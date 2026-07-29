@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
 review_date: 2026-07-29
-review_fingerprint: 7cfdf9de38277b762e3f267917c70b702aa4a353b654345c2b3b7ca93b49d2da
+review_fingerprint: 41c6907fdea8ffe469778e8c3e816fb109ba6ad22692fce5784ec73f6e7d2af7
 
 Edit only the `action:` line in each editable block:
 
@@ -11,7 +11,7 @@ Edit only the `action:` line in each editable block:
 - Commit the edit, then rerun the NEJobs process for the same review date.
 - Decisions are matched by `source_job_id` and expire when the review date changes.
 
-Run generated: 2026-07-29T13:37:22+01:00
+Run generated: 2026-07-29T13:52:57+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
 JobG8 comparison rows in target geographies: 110
 
@@ -20,26 +20,28 @@ JobG8 comparison rows in target geographies: 110
 - RSS vacancies read: 649
 - Hard-pass title/teaser screen before detail requests: 581
 - Detail candidates: 68
-- Detail failures or unavailable snapshots: 22
-- Outside the two target geographies: 1
-- Tees Valley explicitly excluded: 7
-- Target-geography candidates reviewed: 38
+- Detail failures or unavailable snapshots: 25
+- Outside the two target geographies: 0
+- Tees Valley explicitly excluded: 8
+- Target-geography candidates reviewed: 35
 
 ## Detail diagnostics
 
-- 299845 — PMO Secretariat: HTTPError
+- 299841 — PMO Support Officer: HTTPError
+- 299843 — PMO Support Officer: HTTPError
 - 299778 — Early Help Administrator: HTTPError
-- 299795 — Community Engagement Officer (Part Time): HTTPError
+- 299780 — Virtual School Education Support Officer: HTTPError
 - 299809 — Application Support Officer (INTERNAL ONLY): HTTPError
-- 299761 — DBS01116/26 - Admin Assistant - Hazlewood Community Primary School: HTTPError
+- 299726 — Clerical Officer Receptionist: HTTPError
 - 299764 — 0.4 Lecturer Coordinator in Counselling & Psychotherapy Studies: HTTPError
-- 299680 — Attendance Officer (Primary): HTTPError
+- 299744 — Receptionist/Student Services: HTTPError
+- 299686 — Business Support - Springwater Academy: HTTPError
 - 299693 — Administration Assistant: HTTPError
-- 299718 — Receptionist and Events Co-ordinator at the Sjovoll Centre: HTTPError
+- 299650 — Attendance Officer: HTTPError
 - 299563 — Administration Assistant - Conyers School (SPARK Education Trust): HTTPError
-- 299556 — Fundraising & Partnerships Coordinator: HTTPError
+- 299570 — Information Management and Data Services Officer: HTTPError
 - 299508 — Clerical Officer Receptionist: HTTPError
-- 299480 — Administration Assistant: HTTPError
+- 299489 — Finance & Office Administrator (Maternity Cover) – Office based, Newcastle City Centre: HTTPError
 - 299408 — Tenant Engagement Officer: HTTPError
 - 299411 — SEND Review Coordinator: HTTPError
 - 299397 — Level 3 Academy Administrator Apprentice: HTTPError
@@ -47,23 +49,34 @@ JobG8 comparison rows in target geographies: 110
 - 299075 — Attendance Administration Support Assistant: HTTPError
 - 256120 — School Administrator: HTTPError
 - 256122 — School Administrator: HTTPError
-- 256125 — School Administrator: HTTPError
+- 256124 — School Administrator: HTTPError
 - 256126 — School Administrator: HTTPError
+- 256127 — School Administrator: HTTPError
 
 ## Review outcomes
 
-- HC: 11
-- POSS: 27
+- HC: 12
+- POSS: 23
 - Hard pass: 0
-- Final selected after manual actions: 11
-- Final POSS awaiting decision: 27
+- Final selected after manual actions: 13
+- Final POSS awaiting decision: 22
 - Manually excluded: 0
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 0
-- Likely unique to North East Jobs: 38
-- Rows in possible within-source duplicate groups: 2
+- Likely unique to North East Jobs: 35
+- Rows in possible within-source duplicate groups: 0
 
 ## SELECTED
+
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | Meadowfield Depot, Durham (hybrid working options available) | Grade 4 £25,583 - £26,824 (Pay award pending) | Administration Assistant
+employer: Durham County Council
+closing_date: 09/08/2026
+reason: clear transferable title: administration assistant
+source_job_id: 299480
+source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/299480
+---
 
 ---
 action:
@@ -77,22 +90,32 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer_Level_
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Annfield Plain, Greencroft | Grade 3 £25,185 - £25,989 (Pay award pending) | Clerical Officer Receptionist
-employer: Durham County Council
-closing_date: 29/07/2026
-reason: clear transferable title: receptionist, clerical
-source_job_id: 299726
-source_url: https://www.northeastjobs.org.uk/job/Clerical_Officer_Receptionist/299726
----
-
----
-action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Highlight Active Wellbeing Hub | £13.47 per hour | Customer Service Advisor
 employer: Hartlepool Borough Council
 closing_date: 31/08/2026
 reason: clear transferable title: customer service advisor
 source_job_id: 299796
 source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/299796
+---
+
+---
+action: select
+SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington Borough Council (derived for filtering) | £25,989 per annum (pay award pending) | Events Assistant
+employer: Darlington Borough Council
+closing_date: 11/08/2026
+reason: provisional transferable-office review
+source_job_id: 300044
+source_url: https://www.northeastjobs.org.uk/job/Events_Assistant/300044
+---
+
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | Framwellgate School Durham (derived for filtering) | £23,218 (FTE £25,583) | Receptionist and Events Co-ordinator at the Sjovoll Centre
+employer: Framwellgate School Durham
+closing_date: 10/08/2026 09:00
+reason: clear transferable title: receptionist
+source_job_id: 299718
+source_url: https://www.northeastjobs.org.uk/job/Receptionist_and_Events_Co_ordinator_at_the_Sjovoll_Centre/299718
 ---
 
 ---
@@ -157,22 +180,22 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer_32hpw/
 
 ---
 action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Hazlewood Community Primary School, Canterbury Way, Wideopen, Newcastle upon Tyne | £21,683 - £22,421 | DBS01116/26 - Admin Assistant - Hazlewood Community Primary School
+employer: North Tyneside Council
+closing_date: 21/08/2026 12:00
+reason: clear transferable title: admin assistant
+source_job_id: 299761
+source_url: https://www.northeastjobs.org.uk/job/DBS01116_26_Admin_Assistant_Hazlewood_Community_Primary_School/299761
+---
+
+---
+action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | Salary from: £21,547.50 per annum | Receptionist & Administrator (HR / School)
 employer: Talbot House Children's Charity
 closing_date: 09/08/2026
 reason: clear transferable title: administrator, receptionist
 source_job_id: 299953
 source_url: https://www.northeastjobs.org.uk/job/Receptionist_Administrator_HR_School/299953
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Studio West, West Denton Way, Newcastle upon Tyne, NE5 2SZ | £26,403 - £27,254 per annum. Actual Salary £19,324 - £19,947 per annum | Receptionist/Student Services
-employer: Northern Leaders Trust
-closing_date: 30/07/2026 09:00
-reason: clear transferable title: receptionist
-source_job_id: 299744
-source_url: https://www.northeastjobs.org.uk/job/Receptionist_Student_Services/299744
 ---
 
 
@@ -189,13 +212,13 @@ source_url: https://www.northeastjobs.org.uk/job/Attendance_Support_Officer/2998
 ---
 
 ---
-action: select
-POSS | North East - County Durham & Darlington/Hartlepool | Darlington Borough Council (derived for filtering) | £25,989 per annum (pay award pending) | Events Assistant
-employer: Darlington Borough Council
-closing_date: 11/08/2026
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Peterlee | £26,403 - £28,142 per annum, pro rata (actual salary approx. £16,056 - £17,112) | Community Engagement Officer (Part Time)
+employer: Peterlee Town Council
+closing_date: 14/08/2026
 reason: provisional transferable-office review
-source_job_id: 300044
-source_url: https://www.northeastjobs.org.uk/job/Events_Assistant/300044
+source_job_id: 299795
+source_url: https://www.northeastjobs.org.uk/job/Community_Engagement_Officer_Part_Time/299795
 ---
 
 ---
@@ -210,32 +233,12 @@ source_url: https://www.northeastjobs.org.uk/job/Facilities_Coordinator/300105
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Green Lane Council Offices, Spennymoor (Plus Hybrid Working) | Grade 9 £35,412 - £39,152 | Information Management and Data Services Officer
-employer: Durham County Council
-closing_date: 02/08/2026
-reason: annualised upper salary £39,152 exceeds North East review point £30,000
-source_job_id: 299570
-source_url: https://www.northeastjobs.org.uk/job/Information_Management_and_Data_Services_Officer/299570
----
-
----
-action:
 POSS | North East - County Durham & Darlington/Hartlepool | Spectrum Business Park, Seaham (hybrid working options available) | Grade 7 £30,024 to £33,699 per annum (pay award pending) | Review Officer
 employer: Durham County Council
 closing_date: 09/08/2026
 reason: annualised upper salary £33,699 exceeds North East review point £30,000
 source_job_id: 298685
 source_url: https://www.northeastjobs.org.uk/job/Review_Officer/298685
----
-
----
-action:
-POSS | North East - County Durham & Darlington/Hartlepool | Durham (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
-employer: First Class Supply & Training
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_job_id: 256127
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256127
 ---
 
 ---
@@ -256,16 +259,6 @@ closing_date: 09/08/2026 22:59
 reason: transferable office/service title with specialist or borderline wording: hr
 source_job_id: 300042
 source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_HR/300042
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Alnwick (derived for filtering) | Band 5 - £22,850 - £24,787 (being pro-rata of £28,598 - £31,022) | Attendance Officer
-employer: The Duchess's Community High School
-closing_date: 31/07/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: attendance
-source_job_id: 299650
-source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/299650
 ---
 
 ---
@@ -300,12 +293,12 @@ source_url: https://www.northeastjobs.org.uk/job/Data_and_Exams_Officer/300012
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | £29,064 | Finance & Office Administrator (Maternity Cover) – Office based, Newcastle City Centre
-employer: Rape Crisis Tyneside & Northumberland
-closing_date: 30/07/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: finance
-source_job_id: 299489
-source_url: https://www.northeastjobs.org.uk/job/Finance_Office_Administrator_Maternity_Cover_Office_based_Newcastle_City_Centre/299489
+POSS | North East - Tyneside, Wearside & Northumberland | North Tyneside | £13.45 per hour | Fundraising & Partnerships Coordinator
+employer: YMCA North Tyneside
+closing_date: 03/08/2026
+reason: transferable office/service title with specialist or borderline wording: fundraising
+source_job_id: 299556
+source_url: https://www.northeastjobs.org.uk/job/Fundraising_Partnerships_Coordinator/299556
 ---
 
 ---
@@ -370,22 +363,12 @@ source_url: https://www.northeastjobs.org.uk/job/Participation_and_Engagement_Of
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £39,152 - £41,771 | PMO Support Officer
+POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £25,989 - £26,403 | PMO Secretariat
 employer: Gateshead Council
 closing_date: 02/08/2026
-reason: possible duplicate within North East Jobs
-source_job_id: 299841
-source_url: https://www.northeastjobs.org.uk/job/PMO_Support_Officer/299841
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £39,152 - £41,771 | PMO Support Officer
-employer: Gateshead Council
-closing_date: 02/08/2026
-reason: possible duplicate within North East Jobs
-source_job_id: 299843
-source_url: https://www.northeastjobs.org.uk/job/PMO_Support_Officer/299843
+reason: provisional transferable-office review
+source_job_id: 299845
+source_url: https://www.northeastjobs.org.uk/job/PMO_Secretariat/299845
 ---
 
 ---
@@ -400,12 +383,12 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256121
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout Gateshead (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout South Tyneside (derived for filtering) | From £14.54 - £15.20per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
-source_job_id: 256124
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
+source_job_id: 256125
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
 ---
 
 ---
@@ -436,16 +419,6 @@ closing_date: 09/08/2026
 reason: annualised upper salary £32,061 exceeds North East review point £30,000
 source_job_id: 299906
 source_url: https://www.northeastjobs.org.uk/job/Street_Works_Permit_Support_Officer/299906
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | County Hall MORPETH, United Kingdom | £28598 -31022 | Virtual School Education Support Officer
-employer: Northumberland County Council
-closing_date: 06/08/2026
-reason: annualised upper salary £31,022 exceeds North East review point £30,000
-source_job_id: 299780
-source_url: https://www.northeastjobs.org.uk/job/Virtual_School_Education_Support_Officer/299780
 ---
 
 
