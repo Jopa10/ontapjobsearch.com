@@ -11,7 +11,8 @@
 5. keeps only Ontap's two agreed North East geographies and excludes Tees Valley;
 6. compares candidates with the current JobG8 workbook;
 7. labels target candidates `HC`, `POSS`, or `HARD_PASS`; and
-8. writes CSV and Markdown review reports only.
+8. applies same-day manual `select`/`exclude` actions from the Markdown review;
+9. writes CSV and Markdown review reports only.
 
 It does not write to `output-admin-service`, `app`, or any other live publishing
 location. It does not retain full North East Jobs descriptions.
@@ -57,6 +58,20 @@ The POC uses the repository's current:
 External-source review outputs are kept under `pipeline/reviews/external/`;
 the existing JobG8 review files are kept separately under
 `pipeline/reviews/jobg8/`.
+
+### Manual review
+
+The Markdown report uses the same review pattern as the JobG8 pipeline. Edit
+only the `action:` line in a vacancy block:
+
+- `action: select` promotes a `POSS` vacancy into the selected set;
+- `action: exclude` removes a selected vacancy or rejects a `POSS` vacancy;
+- a blank `action:` leaves the automated decision unchanged.
+
+Commit the edit and rerun the NEJobs process for the same `review_date`.
+Decisions are matched by the stable North East Jobs `source_job_id`. Actions
+from an older review date are ignored so stale decisions cannot carry into a
+new vacancy run.
 
 The screening rules are provisional and do not amend Ontap's permanent
 selection rules.

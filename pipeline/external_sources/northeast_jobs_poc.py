@@ -188,6 +188,8 @@ REPORT_FIELDS = [
     "ontap_geography",
     "source_job_id",
     "source_url",
+    "manual_action",
+    "final_decision",
 ]
 
 
@@ -231,6 +233,23 @@ class Vacancy:
     jobg8_match_score: str = ""
     source_duplicate_status: str = ""
     source_duplicate_reason: str = ""
+
+
+@dataclass
+class ManualDecisionState:
+    selections: set[str]
+    exclusions: set[str]
+    review_date: str = ""
+    rerun_mode: bool = False
+    load_warning: str = ""
+
+
+def empty_manual_decisions(load_warning: str = "") -> ManualDecisionState:
+    return ManualDecisionState(
+        selections=set(),
+        exclusions=set(),
+        load_warning=load_warning,
+    )
 
 
 def clean_text(value: object) -> str:
@@ -969,7 +988,109 @@ def compact_review_text(value: str, max_characters: int) -> str:
     return text[: max_characters - 1].rstrip() + "…"
 
 
-def review_row(vacancy: Vacancy) -> dict[str, str]:
+def load_manual_decisions_from_markdown(
+    path: Path,
+    current_review_date: str,
+) -> ManualDecisionState:
+    """Load same-day ``action:`` edits from the NEJobs Markdown review.
+
+    This mirrors the JobG8 review mechanism: the reviewer changes only an
+    ``action:`` line, while the stable North East Jobs vacancy ID carries the
+    decision into a same-day rerun. Decisions from older review dates are
+    deliberately ignored so expired choices cannot leak into a new feed.
+    """
+    if not path.exists():
+        return empty_manual_decisions()
+    try:
+        text = path.read_text(encoding="utf-8-sig")
+    except OSError as exc:
+        return empty_manual_decisions(f"manual review could not be read: {exc}")
+
+    date_match = re.search(
+        r"(?mi)^review_date:\s*(\d{4}-\d{2}-\d{2})\s*$",
+        text,
+    )
+    review_date = date_match.group(1) if date_match else ""
+    if not review_date:
+        return empty_manual_decisions(
+            "manual review has no review_date; actions ignored"
+        )
+    if review_date != current_review_date:
+        return empty_manual_decisions(
+            f"manual review date {review_date} is not {current_review_date}; "
+            "old actions ignored"
+        )
+
+    selections: set[str] = set()
+    exclusions: set[str] = set()
+    for block in re.findall(r"(?ms)^---\s*$\n(.*?)^---\s*$", text):
+        action_match = re.search(
+            r"(?mi)^action:\s*(select|exclude)?\s*$",
+            block,
+        )
+        id_match = re.search(
+            r"(?mi)^source_job_id:\s*([^\s]+)\s*$",
+            block,
+        )
+        if not action_match or not id_match:
+            continue
+        action = clean_text(action_match.group(1)).casefold()
+        source_job_id = clean_text(id_match.group(1))
+        if action == "select":
+            selections.add(source_job_id)
+        elif action == "exclude":
+            exclusions.add(source_job_id)
+
+    selections.difference_update(exclusions)
+    return ManualDecisionState(
+        selections=selections,
+        exclusions=exclusions,
+        review_date=review_date,
+        rerun_mode=bool(selections or exclusions),
+    )
+
+
+def manual_action_for(
+    vacancy: Vacancy,
+    decisions: ManualDecisionState,
+) -> str:
+    if vacancy.source_job_id in decisions.exclusions:
+        return "exclude"
+    if vacancy.source_job_id in decisions.selections:
+        return "select"
+    return ""
+
+
+def final_decision_for(
+    vacancy: Vacancy,
+    decisions: ManualDecisionState,
+) -> str:
+    if vacancy.classification == "HARD_PASS":
+        return "HARD_PASS"
+    if vacancy.source_job_id in decisions.exclusions:
+        return "EXCLUDED"
+    if vacancy.source_job_id in decisions.selections:
+        return "SELECTED"
+    if vacancy.classification == "HC":
+        return "SELECTED"
+    return "POSS"
+
+
+def selected_vacancies(
+    vacancies: Iterable[Vacancy],
+    decisions: ManualDecisionState,
+) -> list[Vacancy]:
+    return [
+        vacancy
+        for vacancy in vacancies
+        if final_decision_for(vacancy, decisions) == "SELECTED"
+    ]
+
+
+def review_row(
+    vacancy: Vacancy,
+    decisions: ManualDecisionState | None = None,
+) -> dict[str, str]:
     """Return the compact, human-facing review record.
 
     The ETL still calculates its nearest JobG8 candidate for deduplication, but
@@ -990,6 +1111,7 @@ def review_row(vacancy: Vacancy) -> dict[str, str]:
         if vacancy.source_duplicate_status == "POSSIBLE_SOURCE_DUPLICATE"
         else "No"
     )
+    decisions = decisions or empty_manual_decisions()
     return {
         "title": compact_review_text(vacancy.title, 38),
         "salary_text": compact_review_text(vacancy.salary_text, 30),
@@ -1015,10 +1137,17 @@ def review_row(vacancy: Vacancy) -> dict[str, str]:
         "ontap_geography": vacancy.ontap_geography,
         "source_job_id": vacancy.source_job_id,
         "source_url": vacancy.source_url,
+        "manual_action": manual_action_for(vacancy, decisions),
+        "final_decision": final_decision_for(vacancy, decisions),
     }
 
 
-def write_csv(path: Path, vacancies: list[Vacancy]) -> None:
+def write_csv(
+    path: Path,
+    vacancies: list[Vacancy],
+    decisions: ManualDecisionState | None = None,
+) -> None:
+    decisions = decisions or empty_manual_decisions()
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(
@@ -1030,12 +1159,17 @@ def write_csv(path: Path, vacancies: list[Vacancy]) -> None:
         for vacancy in sorted(
             vacancies,
             key=lambda item: (
-                {"HC": 0, "POSS": 1, "HARD_PASS": 2}.get(item.classification, 9),
+                {
+                    "SELECTED": 0,
+                    "POSS": 1,
+                    "EXCLUDED": 2,
+                    "HARD_PASS": 3,
+                }.get(final_decision_for(item, decisions), 9),
                 item.ontap_geography,
                 item.title.casefold(),
             ),
         ):
-            writer.writerow(review_row(vacancy))
+            writer.writerow(review_row(vacancy, decisions))
 
 
 def write_summary(
@@ -1043,6 +1177,8 @@ def write_summary(
     *,
     counts: dict[str, int],
     vacancies: list[Vacancy],
+    decisions: ManualDecisionState,
+    review_date: str,
     jobg8_count: int,
     rss_source: str,
     failures: list[str],
@@ -1059,8 +1195,22 @@ def write_summary(
         v.source_duplicate_status == "POSSIBLE_SOURCE_DUPLICATE"
         for v in vacancies
     )
+    final_counts = {
+        label: sum(final_decision_for(v, decisions) == label for v in vacancies)
+        for label in ("SELECTED", "POSS", "EXCLUDED", "HARD_PASS")
+    }
     lines = [
         "# North East Jobs ETL proof-of-concept review",
+        "",
+        f"review_date: {review_date}",
+        "",
+        "Edit only the `action:` line in each editable block:",
+        "",
+        "- For a POSS job, use `action: select` to add it or `action: exclude` to reject it.",
+        "- For a selected HC job, use `action: exclude` to remove it.",
+        "- Leave `action:` blank for no change.",
+        "- Commit the edit, then rerun the NEJobs process for the same review date.",
+        "- Decisions are matched by `source_job_id` and expire when the review date changes.",
         "",
         f"Run generated: {datetime.now(ZoneInfo('Europe/London')).isoformat(timespec='seconds')}",
         f"RSS input: {rss_source}",
@@ -1091,41 +1241,67 @@ def write_summary(
         f"- HC: {classification_counts['HC']}",
         f"- POSS: {classification_counts['POSS']}",
         f"- Hard pass: {classification_counts['HARD_PASS']}",
+        f"- Final selected after manual actions: {final_counts['SELECTED']}",
+        f"- Final POSS awaiting decision: {final_counts['POSS']}",
+        f"- Manually excluded: {final_counts['EXCLUDED']}",
         f"- Confirmed JobG8 duplicates: {duplicate_counts['DUPLICATE']}",
         f"- Possible JobG8 duplicates: {duplicate_counts['POSSIBLE_DUPLICATE']}",
         f"- Likely unique to North East Jobs: {duplicate_counts['UNIQUE']}",
         f"- Rows in possible within-source duplicate groups: {source_duplicate_count}",
-        "",
-        "## HC and POSS roles",
-        "",
-        "| Decision | Vacancy | Employer | Location | Closing | JobG8 | Source duplicate |",
-        "|---|---|---|---|---|---|---|",
         ]
     )
-    for vacancy in sorted(
-        (v for v in vacancies if v.classification in {"HC", "POSS"}),
-        key=lambda item: (item.classification != "HC", item.title.casefold()),
-    ):
-        lines.append(
-            "| "
-            + " | ".join(
-                [
-                    vacancy.classification,
-                    f"[{vacancy.title}]({vacancy.source_url})",
-                    vacancy.employer or "Not parsed",
-                    vacancy.location,
-                    review_closing_date(vacancy.closing_date),
-                    (
-                        vacancy.duplicate_status
-                        if vacancy.duplicate_status
-                        in {"DUPLICATE", "POSSIBLE_DUPLICATE"}
-                        else "No plausible match"
-                    ),
-                    vacancy.source_duplicate_status or "NO",
-                ]
-            )
-            + " |"
+    if decisions.load_warning:
+        lines.extend(["", f"- Manual review warning: {decisions.load_warning}"])
+
+    def safe_markdown(value: str) -> str:
+        return clean_text(value).replace("|", "/")
+
+    def append_editable_block(vacancy: Vacancy) -> None:
+        action = manual_action_for(vacancy, decisions)
+        final_decision = final_decision_for(vacancy, decisions)
+        lines.extend(
+            [
+                "---",
+                f"action: {action}" if action else "action:",
+                " | ".join(
+                    [
+                        final_decision,
+                        safe_markdown(vacancy.ontap_geography),
+                        safe_markdown(vacancy.location),
+                        safe_markdown(vacancy.salary_text),
+                        safe_markdown(vacancy.title),
+                    ]
+                ),
+                f"employer: {safe_markdown(vacancy.employer or 'Not parsed')}",
+                f"closing_date: {review_closing_date(vacancy.closing_date)}",
+                f"reason: {safe_markdown(vacancy.classification_reason)}",
+                f"source_job_id: {vacancy.source_job_id}",
+                f"source_url: {vacancy.source_url}",
+                "---",
+                "",
+            ]
         )
+
+    for heading, status in (
+        ("SELECTED", "SELECTED"),
+        ("POSS — choose SELECT or EXCLUDE", "POSS"),
+        ("EXCLUDED BY REVIEW", "EXCLUDED"),
+    ):
+        matching = sorted(
+            (
+                vacancy
+                for vacancy in vacancies
+                if final_decision_for(vacancy, decisions) == status
+            ),
+            key=lambda item: (item.ontap_geography, item.title.casefold()),
+        )
+        lines.extend(["", f"## {heading}", ""])
+        if matching:
+            for vacancy in matching:
+                append_editable_block(vacancy)
+        else:
+            lines.append("- None.")
+
     hard_passes = [v for v in vacancies if v.classification == "HARD_PASS"]
     lines.extend(["", "## Hard passes", ""])
     if hard_passes:
@@ -1180,6 +1356,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    review_date = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
+    manual_decisions = load_manual_decisions_from_markdown(
+        args.summary_md,
+        review_date,
+    )
     if args.fetch_live and not args.acknowledge_research_only:
         raise SystemExit(
             "STOP: live fetching is research-only. Re-run with "
@@ -1216,18 +1397,21 @@ def main(argv: list[str] | None = None) -> int:
     for vacancy in vacancies:
         classify(vacancy, args.salary_review_threshold)
 
-    write_csv(args.report_csv, vacancies)
+    write_csv(args.report_csv, vacancies, manual_decisions)
     write_summary(
         args.summary_md,
         counts=counts,
         vacancies=vacancies,
+        decisions=manual_decisions,
+        review_date=review_date,
         jobg8_count=len(jobg8_jobs),
         rss_source=rss_source,
         failures=failures,
     )
+    selected_count = len(selected_vacancies(vacancies, manual_decisions))
     print(
         f"North East Jobs POC: {counts['feed_total']} feed rows -> "
-        f"{len(vacancies)} target candidates. "
+        f"{len(vacancies)} target candidates -> {selected_count} selected. "
         f"Reports: {args.report_csv}, {args.summary_md}"
     )
     return 0
