@@ -35,6 +35,30 @@ function validPostedDate(value: string) {
   return /^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(value);
 }
 
+function formatClosingDate(value: string) {
+  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) return value;
+
+  const date = new Date(
+    Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 12)
+  );
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
+function externalSourceLabel(source: string) {
+  if (source.toLowerCase() === "nejobs") return "North East Jobs";
+  return source;
+}
+
+function isExternalSource(source: string) {
+  return Boolean(source && source.toLowerCase() !== "jobg8");
+}
+
 function hasCompleteDescription(value: string) {
   const normalised = value.replace(/\s+/g, " ").trim();
   return (
@@ -61,7 +85,7 @@ function descriptionHtml(value: string) {
 function jobPostingSchema(job: PublishedJob, canonicalUrl: string) {
   if (!validPostedDate(job.posted_date) || !hasCompleteDescription(job.description)) return null;
 
-  return {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "JobPosting",
     title: job.title,
@@ -82,6 +106,12 @@ function jobPostingSchema(job: PublishedJob, canonicalUrl: string) {
     },
     url: canonicalUrl,
   };
+
+  if (validPostedDate(job.closing_date)) {
+    schema.validThrough = `${job.closing_date.slice(0, 10)}T23:59:59+01:00`;
+  }
+
+  return schema;
 }
 
 function metaDescription(job: PublishedJob) {
@@ -181,29 +211,65 @@ export default async function JobPage({ params }: PageProps) {
           </div>
         ) : null}
 
+        {job.closing_date ? (
+          <div style={{ color: "#555", marginTop: -10, marginBottom: 12 }}>
+            Closes {formatClosingDate(job.closing_date)}
+          </div>
+        ) : null}
+
+        {isExternalSource(job.source) ? (
+          <div style={{ color: "#6b7280", fontSize: 14, marginBottom: 18 }}>
+            Source: {externalSourceLabel(job.source)}
+          </div>
+        ) : null}
+
         <div style={{ marginBottom: 22 }}>
           <ApplyButton
             apply_url={job.apply_url}
             job_id={job.job_id}
             title={job.title}
+            employer={job.company}
             location={job.location}
             region={job.region}
+            source={job.source}
             slice_path={job.slice_path}
           />
         </div>
 
-        <h2 style={{ fontSize: 21, fontWeight: 800, marginBottom: 12 }}>Job description</h2>
+        <h2 style={{ fontSize: 21, fontWeight: 800, marginBottom: 12 }}>
+          {isExternalSource(job.source) ? "Role overview" : "Job description"}
+        </h2>
         <div style={{ whiteSpace: "pre-line", lineHeight: 1.6, color: "#374151" }}>
           {job.description}
         </div>
+
+        {isExternalSource(job.source) ? (
+          <div
+            style={{
+              marginTop: 18,
+              padding: "10px 12px",
+              borderRadius: 8,
+              background: "#f3f4f6",
+              color: "#4b5563",
+              fontSize: 13,
+              lineHeight: 1.5,
+            }}
+          >
+            This is an Ontap-written summary of the vacancy’s factual details.
+            Check the original advert for the complete role information and
+            application requirements.
+          </div>
+        ) : null}
 
         <div style={{ marginTop: 24 }}>
           <ApplyButton
             apply_url={job.apply_url}
             job_id={job.job_id}
             title={job.title}
+            employer={job.company}
             location={job.location}
             region={job.region}
+            source={job.source}
             slice_path={job.slice_path}
           />
         </div>

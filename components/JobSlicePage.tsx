@@ -100,7 +100,7 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
     full_description:
       r.full_description || r.description || r["/Job/Description"] || "",
     apply_url: r.apply_url || r["/Job/ApplicationURL"] || "",
-    source: "JobG8",
+    source: r.source || "JobG8",
   }));
 }
 
@@ -200,6 +200,30 @@ function getSummary(job: JobRow) {
   }
 
   return truncateAtWord(collapsed, 220);
+}
+
+function formatClosingDate(value: string) {
+  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) return value;
+
+  const date = new Date(
+    Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 12)
+  );
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
+function externalSourceLabel(source: string) {
+  if (source.toLowerCase() === "nejobs") return "North East Jobs";
+  return source;
+}
+
+function isExternalSource(source: string) {
+  return Boolean(source && source.toLowerCase() !== "jobg8");
 }
 
 const careTraining: TrainingItem[] = [
@@ -392,6 +416,12 @@ export default function JobSlicePage({
                     {formatSalary(j)}
                   </div>
 
+                  {j.closing_date ? (
+                    <div style={{ fontSize: 13, color: "#555", marginBottom: 6 }}>
+                      Closes {formatClosingDate(j.closing_date)}
+                    </div>
+                  ) : null}
+
                   {summary ? (
                     <div
                       style={{
@@ -402,6 +432,12 @@ export default function JobSlicePage({
                       }}
                     >
                       {summary}
+                    </div>
+                  ) : null}
+
+                  {isExternalSource(j.source) ? (
+                    <div style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
+                      Source: {externalSourceLabel(j.source)}
                     </div>
                   ) : null}
 
@@ -421,8 +457,10 @@ export default function JobSlicePage({
                       apply_url={j.apply_url}
                       job_id={j.job_id}
                       title={j.title}
+                      employer={j.company}
                       location={j.location}
                       region={j.region}
+                      source={j.source}
                     />
                   </div>
                 </div>

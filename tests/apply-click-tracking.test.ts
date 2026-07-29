@@ -10,8 +10,10 @@ test("builds job-level apply click parameters for GA4", () => {
         apply_url: "https://example.com/apply/3130572494",
         job_id: "3130572494",
         title: "Accounts Administrator",
+        employer: "Example Employer",
         location: "Hebburn",
         region: "Tyneside, Wearside & Northumberland",
+        source: "NEJobs",
         slice_path: "/north-east/service-administrator-jobs",
       },
       "/jobs/3130572494"
@@ -19,11 +21,14 @@ test("builds job-level apply click parameters for GA4", () => {
     {
       job_id: "3130572494",
       job_title: "Accounts Administrator",
+      job_employer: "Example Employer",
       job_location: "Hebburn",
       job_region: "Tyneside, Wearside & Northumberland",
+      job_source: "NEJobs",
       slice_path: "/north-east/service-administrator-jobs",
       page_path: "/jobs/3130572494",
       link_url: "https://example.com/apply/3130572494",
+      destination_url: "https://example.com/apply/3130572494",
     }
   );
 });
@@ -34,8 +39,10 @@ test("uses the current slice page when no separate slice path is supplied", () =
       apply_url: "https://example.com/apply/1",
       job_id: "1",
       title: "Administrator",
+      employer: "Example Employer",
       location: "Leeds",
       region: "West Yorkshire",
+      source: "JobG8",
     },
     "/west-yorkshire/service-administrator-jobs"
   );
