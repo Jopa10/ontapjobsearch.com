@@ -189,7 +189,7 @@ source_url: https://www.northeastjobs.org.uk/job/Attendance_Support_Officer/2998
 ---
 
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Darlington Borough Council (derived for filtering) | £25,989 per annum (pay award pending) | Events Assistant
 employer: Darlington Borough Council
 closing_date: 11/08/2026
