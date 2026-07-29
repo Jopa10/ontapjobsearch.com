@@ -1,29 +1,34 @@
-"""North East Jobs review-only ETL proof of concept.
+"""North East Jobs controlled review and approved-output ETL.
 
-This module deliberately does not write to Ontap's publishable JSON folders.
-It reads North East Jobs' public RSS feed, title-screens the feed before making
-detail-page requests, keeps only factual vacancy fields, compares candidates
-with the current JobG8 workbook, and writes review reports.
+The default mode is review-only. It reads North East Jobs' public RSS feed,
+title-screens the feed before making detail-page requests, keeps only factual
+vacancy fields, compares candidates with the current JobG8 workbook, and writes
+review reports.
 
-Live fetching is opt-in and requires an explicit research-only acknowledgement.
-North East Jobs' terms do not authorise commercial republication without
-written permission.  This proof of concept therefore never stores or republishes
-full vacancy descriptions.
+Approved JSON output is a separate explicit mode. It succeeds only when the
+current vacancy set exactly matches a same-day Markdown review and the caller
+supplies the required approval confirmation. Published descriptions are short,
+original Ontap summaries assembled from factual fields; source descriptions are
+never stored or republished.
 """
 from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import html
+import json
+import os
 import re
 import ssl
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from dataclasses import dataclass
-from datetime import datetime
+from dataclasses import dataclass, field
+from datetime import datetime, time as datetime_time
 from difflib import SequenceMatcher
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -35,10 +40,15 @@ import pandas as pd
 
 
 SOURCE_NAME = "North East Jobs"
+SOURCE_CODE = "NEJobs"
 RSS_URL = "https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62"
 TERMS_URL = "https://www.northeastjobs.org.uk/termsandconditions"
 ROBOTS_URL = "https://www.northeastjobs.org.uk/robots.txt"
 USER_AGENT = "Ontap external-jobs research POC/1.0 (+https://www.ontapjobsearch.com/contact)"
+APPROVAL_CONFIRMATION = "PUBLISH"
+DEFAULT_APPROVED_JSON = Path(
+    "output-external/northeast-jobs-admin-service.json"
+)
 
 TARGET_CLUSTERS = {
     "North East - Tyneside, Wearside & Northumberland",
@@ -188,6 +198,8 @@ REPORT_FIELDS = [
     "ontap_geography",
     "source_job_id",
     "source_url",
+    "manual_action",
+    "final_decision",
 ]
 
 
@@ -231,6 +243,94 @@ class Vacancy:
     jobg8_match_score: str = ""
     source_duplicate_status: str = ""
     source_duplicate_reason: str = ""
+
+
+@dataclass
+class ManualDecisionState:
+    selections: set[str]
+    exclusions: set[str]
+    reviewed_ids: set[str] = field(default_factory=set)
+    review_date: str = ""
+    review_fingerprint: str = ""
+    rerun_mode: bool = False
+    load_warning: str = ""
+
+
+def empty_manual_decisions(load_warning: str = "") -> ManualDecisionState:
+    return ManualDecisionState(
+        selections=set(),
+        exclusions=set(),
+        load_warning=load_warning,
+    )
+
+
+def parse_source_datetime(
+    value: str,
+    *,
+    end_of_day_when_date_only: bool = False,
+) -> datetime | None:
+    """Parse the factual source dates without guessing an unknown format."""
+    text = clean_text(value)
+    if not text:
+        return None
+
+    london = ZoneInfo("Europe/London")
+    for date_format in (
+        "%d/%m/%Y %H:%M:%S",
+        "%d/%m/%Y %H:%M",
+        "%d/%m/%Y",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%d",
+    ):
+        try:
+            parsed = datetime.strptime(text, date_format)
+        except ValueError:
+            continue
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=london)
+        if end_of_day_when_date_only and date_format in ("%d/%m/%Y", "%Y-%m-%d"):
+            parsed = datetime.combine(
+                parsed.date(),
+                datetime_time(23, 59, 59),
+                tzinfo=london,
+            )
+        return parsed
+
+    try:
+        parsed = parsedate_to_datetime(text)
+    except (TypeError, ValueError, OverflowError):
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=london)
+    return parsed.astimezone(london)
+
+
+def source_date_iso(value: str) -> str:
+    parsed = parse_source_datetime(value)
+    return parsed.date().isoformat() if parsed else ""
+
+
+def source_deadline_iso(value: str) -> str:
+    parsed = parse_source_datetime(value, end_of_day_when_date_only=True)
+    return parsed.isoformat(timespec="seconds") if parsed else ""
+
+
+def vacancy_is_open(
+    vacancy: Vacancy,
+    *,
+    now: datetime | None = None,
+) -> bool:
+    """Require a parseable deadline and exclude a vacancy once it has closed."""
+    deadline = parse_source_datetime(
+        vacancy.closing_date,
+        end_of_day_when_date_only=True,
+    )
+    if deadline is None:
+        return False
+    current = now or datetime.now(ZoneInfo("Europe/London"))
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=ZoneInfo("Europe/London"))
+    return deadline >= current.astimezone(ZoneInfo("Europe/London"))
 
 
 def clean_text(value: object) -> str:
@@ -969,7 +1069,361 @@ def compact_review_text(value: str, max_characters: int) -> str:
     return text[: max_characters - 1].rstrip() + "…"
 
 
-def review_row(vacancy: Vacancy) -> dict[str, str]:
+def load_manual_decisions_from_markdown(
+    path: Path,
+    current_review_date: str,
+) -> ManualDecisionState:
+    """Load same-day ``action:`` edits from the NEJobs Markdown review.
+
+    This mirrors the JobG8 review mechanism: the reviewer changes only an
+    ``action:`` line, while the stable North East Jobs vacancy ID carries the
+    decision into a same-day rerun. Decisions from older review dates are
+    deliberately ignored so expired choices cannot leak into a new feed.
+    """
+    if not path.exists():
+        return empty_manual_decisions()
+    try:
+        text = path.read_text(encoding="utf-8-sig")
+    except OSError as exc:
+        return empty_manual_decisions(f"manual review could not be read: {exc}")
+
+    date_match = re.search(
+        r"(?mi)^review_date:\s*(\d{4}-\d{2}-\d{2})\s*$",
+        text,
+    )
+    review_date = date_match.group(1) if date_match else ""
+    if not review_date:
+        return empty_manual_decisions(
+            "manual review has no review_date; actions ignored"
+        )
+    if review_date != current_review_date:
+        return empty_manual_decisions(
+            f"manual review date {review_date} is not {current_review_date}; "
+            "old actions ignored"
+        )
+    fingerprint_match = re.search(
+        r"(?mi)^review_fingerprint:\s*([a-f0-9]{64})\s*$",
+        text,
+    )
+    fingerprint = fingerprint_match.group(1) if fingerprint_match else ""
+
+    selections: set[str] = set()
+    exclusions: set[str] = set()
+    reviewed_ids: set[str] = set()
+    for block in re.findall(r"(?ms)^---\s*$\n(.*?)^---\s*$", text):
+        action_match = re.search(
+            r"(?mi)^action:\s*(select|exclude)?\s*$",
+            block,
+        )
+        id_match = re.search(
+            r"(?mi)^source_job_id:\s*([^\s]+)\s*$",
+            block,
+        )
+        if not action_match or not id_match:
+            continue
+        action = clean_text(action_match.group(1)).casefold()
+        source_job_id = clean_text(id_match.group(1))
+        reviewed_ids.add(source_job_id)
+        if action == "select":
+            selections.add(source_job_id)
+        elif action == "exclude":
+            exclusions.add(source_job_id)
+
+    selections.difference_update(exclusions)
+    return ManualDecisionState(
+        selections=selections,
+        exclusions=exclusions,
+        reviewed_ids=reviewed_ids,
+        review_date=review_date,
+        review_fingerprint=fingerprint,
+        rerun_mode=bool(selections or exclusions),
+    )
+
+
+def manual_action_for(
+    vacancy: Vacancy,
+    decisions: ManualDecisionState,
+) -> str:
+    if vacancy.source_job_id in decisions.exclusions:
+        return "exclude"
+    if vacancy.source_job_id in decisions.selections:
+        return "select"
+    return ""
+
+
+def final_decision_for(
+    vacancy: Vacancy,
+    decisions: ManualDecisionState,
+) -> str:
+    if vacancy.classification == "HARD_PASS":
+        return "HARD_PASS"
+    if vacancy.source_job_id in decisions.exclusions:
+        return "EXCLUDED"
+    if vacancy.source_job_id in decisions.selections:
+        return "SELECTED"
+    if vacancy.classification == "HC":
+        return "SELECTED"
+    return "POSS"
+
+
+def selected_vacancies(
+    vacancies: Iterable[Vacancy],
+    decisions: ManualDecisionState,
+) -> list[Vacancy]:
+    return [
+        vacancy
+        for vacancy in vacancies
+        if final_decision_for(vacancy, decisions) == "SELECTED"
+    ]
+
+
+def review_fingerprint(vacancies: Iterable[Vacancy]) -> str:
+    """Fingerprint every factual/classification field shown to the reviewer."""
+    rows = [
+        {
+            "source_job_id": vacancy.source_job_id,
+            "title": clean_text(vacancy.title),
+            "employer": clean_text(vacancy.employer),
+            "location": clean_text(vacancy.location),
+            "ontap_geography": vacancy.ontap_geography,
+            "contract_type": clean_text(vacancy.contract_type),
+            "working_pattern": clean_text(vacancy.working_pattern),
+            "salary_text": clean_text(vacancy.salary_text),
+            "posted_date": review_posted_date(vacancy.posted_date),
+            "closing_date": review_closing_date(vacancy.closing_date),
+            "classification": vacancy.classification,
+            "duplicate_status": vacancy.duplicate_status,
+            "source_duplicate_status": vacancy.source_duplicate_status,
+        }
+        for vacancy in vacancies
+        if vacancy.classification != "HARD_PASS"
+    ]
+    rows.sort(key=lambda row: row["source_job_id"])
+    payload = json.dumps(
+        rows,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def append_referral_parameters(url: str) -> str:
+    """Add Ontap referral identifiers without discarding source parameters."""
+    parsed = urllib.parse.urlsplit(clean_text(url))
+    query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+    retained = [
+        (key, value)
+        for key, value in query
+        if key.casefold() not in {"utm_source", "utm_medium", "utm_campaign"}
+    ]
+    retained.extend(
+        [
+            ("utm_source", "ontap"),
+            ("utm_medium", "referral"),
+            ("utm_campaign", "nejobs_pilot"),
+        ]
+    )
+    return urllib.parse.urlunsplit(
+        (
+            parsed.scheme,
+            parsed.netloc,
+            parsed.path,
+            urllib.parse.urlencode(retained),
+            parsed.fragment,
+        )
+    )
+
+
+def public_location(value: str) -> str:
+    return re.sub(
+        r"\s*\(derived for filtering\)\s*$",
+        "",
+        clean_text(value),
+        flags=re.I,
+    )
+
+
+def vacancy_summary(vacancy: Vacancy) -> str:
+    """Create a short Ontap-written summary from factual vacancy fields."""
+    location = public_location(vacancy.location)
+    opening = f"{vacancy.title} with {vacancy.employer}"
+    if location:
+        opening += f" in {location}"
+    facts = [
+        clean_text(vacancy.contract_type),
+        clean_text(vacancy.working_pattern),
+        clean_text(vacancy.salary_text),
+    ]
+    fact_text = "; ".join(value for value in facts if value)
+    return f"{opening}. {fact_text}." if fact_text else f"{opening}."
+
+
+def vacancy_description(vacancy: Vacancy) -> str:
+    """Create a cautious original overview; never copy source prose."""
+    location = public_location(vacancy.location)
+    employer = clean_text(vacancy.employer) or "The named employer"
+    contract = clean_text(vacancy.contract_type)
+    pattern = clean_text(vacancy.working_pattern)
+    salary = clean_text(vacancy.salary_text)
+    closing = review_closing_date(vacancy.closing_date)
+
+    intro = f"{employer} is recruiting for this vacancy"
+    if location:
+        intro += f" in {location}"
+    intro += "."
+
+    facts = [value for value in (contract, pattern) if value]
+    role = f"The advertised position is {vacancy.title}"
+    if facts:
+        role += f", with the working terms listed as {'; '.join(facts)}"
+    role += "."
+
+    lines = [intro, role]
+    if salary:
+        lines.append(f"The advertised salary is {salary}.")
+    if closing:
+        lines.append(f"The stated closing date is {closing}.")
+    lines.append(
+        "Use the original North East Jobs advert to check the complete duties, "
+        "person specification and application requirements."
+    )
+    return "\n\n".join(lines)
+
+
+def vacancy_to_published_job(vacancy: Vacancy) -> dict[str, str]:
+    location = public_location(vacancy.location)
+    hybrid_text = " ".join(
+        (
+            clean_text(vacancy.location),
+            clean_text(vacancy.working_pattern),
+        )
+    )
+    hybrid = "hybrid" in hybrid_text.casefold()
+    return {
+        "job_id": f"nejobs-{vacancy.source_job_id}",
+        "title": clean_text(vacancy.title),
+        "company": clean_text(vacancy.employer),
+        "location": location,
+        "region": COMBINED_TARGET_REGION,
+        "country": "UK",
+        "category": "Admin/Service – Office Support",
+        "employment_type": clean_text(vacancy.contract_type),
+        "salary_min": "",
+        "salary_max": "",
+        "salary_text": clean_text(vacancy.salary_text),
+        "work_pattern": clean_text(vacancy.working_pattern),
+        "posted_date": source_date_iso(vacancy.posted_date),
+        "closing_date": source_date_iso(vacancy.closing_date),
+        "closing_datetime": source_deadline_iso(vacancy.closing_date),
+        "summary": vacancy_summary(vacancy),
+        "description": vacancy_description(vacancy),
+        "apply_url": append_referral_parameters(vacancy.source_url),
+        "source": SOURCE_CODE,
+        "working_arrangement": "hybrid" if hybrid else "onsite_or_not_stated",
+        "working_arrangement_text": "Hybrid working indicated" if hybrid else "",
+        "working_arrangement_evidence": (
+            "The source vacancy's factual location or working-pattern field "
+            "indicates hybrid working."
+            if hybrid
+            else ""
+        ),
+    }
+
+
+def approval_errors(
+    vacancies: Iterable[Vacancy],
+    decisions: ManualDecisionState,
+    *,
+    review_date: str,
+    failures: Iterable[str],
+) -> list[str]:
+    """Confirm that approval applies to this exact successful review set."""
+    errors: list[str] = []
+    if decisions.review_date != review_date:
+        errors.append("the Markdown review is not dated today")
+    if decisions.load_warning:
+        errors.append(decisions.load_warning)
+
+    current_review_ids = {
+        vacancy.source_job_id
+        for vacancy in vacancies
+        if vacancy.classification != "HARD_PASS"
+    }
+    if decisions.reviewed_ids != current_review_ids:
+        added = sorted(current_review_ids - decisions.reviewed_ids)
+        removed = sorted(decisions.reviewed_ids - current_review_ids)
+        detail: list[str] = []
+        if added:
+            detail.append("new IDs: " + ", ".join(added))
+        if removed:
+            detail.append("missing IDs: " + ", ".join(removed))
+        errors.append(
+            "the live reviewable vacancy set differs from the reviewed set"
+            + (f" ({'; '.join(detail)})" if detail else "")
+        )
+    current_fingerprint = review_fingerprint(vacancies)
+    if not decisions.review_fingerprint:
+        errors.append("the Markdown review has no vacancy-set fingerprint")
+    elif decisions.review_fingerprint != current_fingerprint:
+        errors.append(
+            "the live vacancy facts or classifications differ from the "
+            "reviewed vacancy-set fingerprint"
+        )
+
+    failure_rows = list(failures)
+    if failure_rows:
+        errors.append(
+            f"{len(failure_rows)} detail page(s) failed; approved output is blocked"
+        )
+    return errors
+
+
+def approved_output_rows(
+    vacancies: Iterable[Vacancy],
+    decisions: ManualDecisionState,
+    *,
+    now: datetime | None = None,
+) -> list[dict[str, str]]:
+    selected = [
+        vacancy
+        for vacancy in selected_vacancies(vacancies, decisions)
+        if vacancy_is_open(vacancy, now=now)
+    ]
+    rows = [vacancy_to_published_job(vacancy) for vacancy in selected]
+    return sorted(
+        rows,
+        key=lambda row: (
+            row["closing_date"],
+            row["title"].casefold(),
+            row["job_id"],
+        ),
+    )
+
+
+def write_json_atomic(path: Path, rows: list[dict[str, str]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    content = json.dumps(rows, ensure_ascii=False, indent=2) + "\n"
+    handle, temp_name = tempfile.mkstemp(
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+        dir=path.parent,
+    )
+    try:
+        with os.fdopen(handle, "w", encoding="utf-8") as temp:
+            temp.write(content)
+            temp.flush()
+            os.fsync(temp.fileno())
+        os.replace(temp_name, path)
+    finally:
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
+
+
+def review_row(
+    vacancy: Vacancy,
+    decisions: ManualDecisionState | None = None,
+) -> dict[str, str]:
     """Return the compact, human-facing review record.
 
     The ETL still calculates its nearest JobG8 candidate for deduplication, but
@@ -990,6 +1444,7 @@ def review_row(vacancy: Vacancy) -> dict[str, str]:
         if vacancy.source_duplicate_status == "POSSIBLE_SOURCE_DUPLICATE"
         else "No"
     )
+    decisions = decisions or empty_manual_decisions()
     return {
         "title": compact_review_text(vacancy.title, 38),
         "salary_text": compact_review_text(vacancy.salary_text, 30),
@@ -1015,10 +1470,17 @@ def review_row(vacancy: Vacancy) -> dict[str, str]:
         "ontap_geography": vacancy.ontap_geography,
         "source_job_id": vacancy.source_job_id,
         "source_url": vacancy.source_url,
+        "manual_action": manual_action_for(vacancy, decisions),
+        "final_decision": final_decision_for(vacancy, decisions),
     }
 
 
-def write_csv(path: Path, vacancies: list[Vacancy]) -> None:
+def write_csv(
+    path: Path,
+    vacancies: list[Vacancy],
+    decisions: ManualDecisionState | None = None,
+) -> None:
+    decisions = decisions or empty_manual_decisions()
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(
@@ -1030,12 +1492,17 @@ def write_csv(path: Path, vacancies: list[Vacancy]) -> None:
         for vacancy in sorted(
             vacancies,
             key=lambda item: (
-                {"HC": 0, "POSS": 1, "HARD_PASS": 2}.get(item.classification, 9),
+                {
+                    "SELECTED": 0,
+                    "POSS": 1,
+                    "EXCLUDED": 2,
+                    "HARD_PASS": 3,
+                }.get(final_decision_for(item, decisions), 9),
                 item.ontap_geography,
                 item.title.casefold(),
             ),
         ):
-            writer.writerow(review_row(vacancy))
+            writer.writerow(review_row(vacancy, decisions))
 
 
 def write_summary(
@@ -1043,6 +1510,8 @@ def write_summary(
     *,
     counts: dict[str, int],
     vacancies: list[Vacancy],
+    decisions: ManualDecisionState,
+    review_date: str,
     jobg8_count: int,
     rss_source: str,
     failures: list[str],
@@ -1059,8 +1528,23 @@ def write_summary(
         v.source_duplicate_status == "POSSIBLE_SOURCE_DUPLICATE"
         for v in vacancies
     )
+    final_counts = {
+        label: sum(final_decision_for(v, decisions) == label for v in vacancies)
+        for label in ("SELECTED", "POSS", "EXCLUDED", "HARD_PASS")
+    }
     lines = [
         "# North East Jobs ETL proof-of-concept review",
+        "",
+        f"review_date: {review_date}",
+        f"review_fingerprint: {review_fingerprint(vacancies)}",
+        "",
+        "Edit only the `action:` line in each editable block:",
+        "",
+        "- For a POSS job, use `action: select` to add it or `action: exclude` to reject it.",
+        "- For a selected HC job, use `action: exclude` to remove it.",
+        "- Leave `action:` blank for no change.",
+        "- Commit the edit, then rerun the NEJobs process for the same review date.",
+        "- Decisions are matched by `source_job_id` and expire when the review date changes.",
         "",
         f"Run generated: {datetime.now(ZoneInfo('Europe/London')).isoformat(timespec='seconds')}",
         f"RSS input: {rss_source}",
@@ -1091,41 +1575,67 @@ def write_summary(
         f"- HC: {classification_counts['HC']}",
         f"- POSS: {classification_counts['POSS']}",
         f"- Hard pass: {classification_counts['HARD_PASS']}",
+        f"- Final selected after manual actions: {final_counts['SELECTED']}",
+        f"- Final POSS awaiting decision: {final_counts['POSS']}",
+        f"- Manually excluded: {final_counts['EXCLUDED']}",
         f"- Confirmed JobG8 duplicates: {duplicate_counts['DUPLICATE']}",
         f"- Possible JobG8 duplicates: {duplicate_counts['POSSIBLE_DUPLICATE']}",
         f"- Likely unique to North East Jobs: {duplicate_counts['UNIQUE']}",
         f"- Rows in possible within-source duplicate groups: {source_duplicate_count}",
-        "",
-        "## HC and POSS roles",
-        "",
-        "| Decision | Vacancy | Employer | Location | Closing | JobG8 | Source duplicate |",
-        "|---|---|---|---|---|---|---|",
         ]
     )
-    for vacancy in sorted(
-        (v for v in vacancies if v.classification in {"HC", "POSS"}),
-        key=lambda item: (item.classification != "HC", item.title.casefold()),
-    ):
-        lines.append(
-            "| "
-            + " | ".join(
-                [
-                    vacancy.classification,
-                    f"[{vacancy.title}]({vacancy.source_url})",
-                    vacancy.employer or "Not parsed",
-                    vacancy.location,
-                    review_closing_date(vacancy.closing_date),
-                    (
-                        vacancy.duplicate_status
-                        if vacancy.duplicate_status
-                        in {"DUPLICATE", "POSSIBLE_DUPLICATE"}
-                        else "No plausible match"
-                    ),
-                    vacancy.source_duplicate_status or "NO",
-                ]
-            )
-            + " |"
+    if decisions.load_warning:
+        lines.extend(["", f"- Manual review warning: {decisions.load_warning}"])
+
+    def safe_markdown(value: str) -> str:
+        return clean_text(value).replace("|", "/")
+
+    def append_editable_block(vacancy: Vacancy) -> None:
+        action = manual_action_for(vacancy, decisions)
+        final_decision = final_decision_for(vacancy, decisions)
+        lines.extend(
+            [
+                "---",
+                f"action: {action}" if action else "action:",
+                " | ".join(
+                    [
+                        final_decision,
+                        safe_markdown(vacancy.ontap_geography),
+                        safe_markdown(vacancy.location),
+                        safe_markdown(vacancy.salary_text),
+                        safe_markdown(vacancy.title),
+                    ]
+                ),
+                f"employer: {safe_markdown(vacancy.employer or 'Not parsed')}",
+                f"closing_date: {review_closing_date(vacancy.closing_date)}",
+                f"reason: {safe_markdown(vacancy.classification_reason)}",
+                f"source_job_id: {vacancy.source_job_id}",
+                f"source_url: {vacancy.source_url}",
+                "---",
+                "",
+            ]
         )
+
+    for heading, status in (
+        ("SELECTED", "SELECTED"),
+        ("POSS — choose SELECT or EXCLUDE", "POSS"),
+        ("EXCLUDED BY REVIEW", "EXCLUDED"),
+    ):
+        matching = sorted(
+            (
+                vacancy
+                for vacancy in vacancies
+                if final_decision_for(vacancy, decisions) == status
+            ),
+            key=lambda item: (item.ontap_geography, item.title.casefold()),
+        )
+        lines.extend(["", f"## {heading}", ""])
+        if matching:
+            for vacancy in matching:
+                append_editable_block(vacancy)
+        else:
+            lines.append("- None.")
+
     hard_passes = [v for v in vacancies if v.classification == "HARD_PASS"]
     lines.extend(["", "## Hard passes", ""])
     if hard_passes:
@@ -1141,8 +1651,10 @@ def write_summary(
             "",
             "## Safety boundary",
             "",
-            "- Review-only output; no Ontap publishable JSON is written.",
+            "- A normal run is review-only and writes no publishable JSON.",
+            "- Approved JSON requires an explicit PUBLISH confirmation and an exact same-day review-set match.",
             "- Only factual vacancy fields are retained; full descriptions are not stored.",
+            "- Public role overviews are original Ontap text assembled from those factual fields.",
             "- Detail pages are fetched only after a provisional title/teaser screen.",
             "- North East Jobs terms require written permission for commercial reuse of site material.",
             "- The source had no retrievable robots.txt (404) when the POC was designed.",
@@ -1162,6 +1674,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--details-dir", type=Path)
     parser.add_argument("--fetch-live", action="store_true")
     parser.add_argument("--acknowledge-research-only", action="store_true")
+    parser.add_argument("--acknowledge-source-terms", action="store_true")
     parser.add_argument("--request-interval", type=float, default=0.5)
     parser.add_argument("--max-detail-requests", type=int, default=80)
     parser.add_argument(
@@ -1174,16 +1687,57 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=Path,
         default=Path("reviews/external/northeast-jobs-summary.md"),
     )
+    parser.add_argument(
+        "--write-approved-json",
+        action="store_true",
+        help=(
+            "write the selected external-source JSON only after exact review "
+            "validation and explicit confirmation"
+        ),
+    )
+    parser.add_argument(
+        "--approved-json",
+        type=Path,
+        default=DEFAULT_APPROVED_JSON,
+    )
+    parser.add_argument(
+        "--confirm-approved",
+        default="",
+        help=f"type {APPROVAL_CONFIRMATION} to enable --write-approved-json",
+    )
     parser.add_argument("--salary-review-threshold", type=float, default=30_000)
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    if args.fetch_live and not args.acknowledge_research_only:
+    review_date = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
+    manual_decisions = load_manual_decisions_from_markdown(
+        args.summary_md,
+        review_date,
+    )
+    if args.write_approved_json:
+        if args.confirm_approved != APPROVAL_CONFIRMATION:
+            raise SystemExit(
+                f"STOP: approved JSON requires --confirm-approved "
+                f"{APPROVAL_CONFIRMATION}."
+            )
+        if manual_decisions.review_date != review_date:
+            raise SystemExit(
+                "STOP: approved JSON requires a committed Markdown review "
+                f"dated {review_date}. Run the review stage first."
+            )
+        if manual_decisions.load_warning:
+            raise SystemExit(
+                "STOP: approved JSON review could not be loaded safely: "
+                + manual_decisions.load_warning
+            )
+    if args.fetch_live and not (
+        args.acknowledge_research_only or args.acknowledge_source_terms
+    ):
         raise SystemExit(
-            "STOP: live fetching is research-only. Re-run with "
-            "--acknowledge-research-only after reviewing the source terms."
+            "STOP: live fetching requires explicit acknowledgement that the "
+            "source terms have been reviewed."
         )
     if not args.fetch_live and args.rss_file is None:
         raise SystemExit("STOP: provide --rss-file or explicitly opt into --fetch-live.")
@@ -1216,20 +1770,45 @@ def main(argv: list[str] | None = None) -> int:
     for vacancy in vacancies:
         classify(vacancy, args.salary_review_threshold)
 
-    write_csv(args.report_csv, vacancies)
+    errors = approval_errors(
+        vacancies,
+        manual_decisions,
+        review_date=review_date,
+        failures=failures,
+    ) if args.write_approved_json else []
+
+    write_csv(args.report_csv, vacancies, manual_decisions)
     write_summary(
         args.summary_md,
         counts=counts,
         vacancies=vacancies,
+        decisions=manual_decisions,
+        review_date=review_date,
         jobg8_count=len(jobg8_jobs),
         rss_source=rss_source,
         failures=failures,
     )
+    selected_count = len(selected_vacancies(vacancies, manual_decisions))
+    approved_count: int | None = None
+    if args.write_approved_json:
+        if errors:
+            raise SystemExit(
+                "STOP: approved JSON was not written: " + " | ".join(errors)
+            )
+        approved_rows = approved_output_rows(vacancies, manual_decisions)
+        write_json_atomic(args.approved_json, approved_rows)
+        approved_count = len(approved_rows)
+
     print(
         f"North East Jobs POC: {counts['feed_total']} feed rows -> "
-        f"{len(vacancies)} target candidates. "
+        f"{len(vacancies)} target candidates -> {selected_count} selected. "
         f"Reports: {args.report_csv}, {args.summary_md}"
     )
+    if approved_count is not None:
+        print(
+            f"Approved North East Jobs JSON: {approved_count} open vacancies -> "
+            f"{args.approved_json}"
+        )
     return 0
 
 

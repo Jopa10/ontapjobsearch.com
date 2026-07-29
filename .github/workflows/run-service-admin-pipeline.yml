@@ -40,6 +40,10 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline_education
 
+      - name: Reattach approved NEJobs vacancies
+        working-directory: pipeline
+        run: python -m external_sources.compose_northeast_admin --write
+
       - name: Verify North East service-admin output
         run: test -s pipeline/output-admin-service/north-east-admin-service.json
 

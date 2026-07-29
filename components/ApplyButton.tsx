@@ -9,8 +9,10 @@ export default function ApplyButton({
   apply_url,
   job_id,
   title,
+  employer,
   location,
   region,
+  source,
   slice_path,
 }: ApplyClickDetails) {
   const handleClick = () => {
@@ -23,7 +25,16 @@ export default function ApplyButton({
         "event",
         "apply_click",
         buildApplyClickParameters(
-          { apply_url, job_id, title, location, region, slice_path },
+          {
+            apply_url,
+            job_id,
+            title,
+            employer,
+            location,
+            region,
+            source,
+            slice_path,
+          },
           window.location.pathname
         )
       );

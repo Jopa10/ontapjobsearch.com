@@ -8,6 +8,7 @@ if str(PIPELINE_ROOT) not in sys.path:
 
 from external_sources.northeast_jobs_poc import (  # noqa: E402
     FeedItem,
+    ManualDecisionState,
     REPORT_FIELDS,
     Vacancy,
     annual_salary_upper,
@@ -21,11 +22,15 @@ from external_sources.northeast_jobs_poc import (  # noqa: E402
     parse_detail,
     parse_args,
     parse_rss_xml,
+    final_decision_for,
+    load_manual_decisions_from_markdown,
     review_closing_date,
     review_posted_date,
     review_row,
     screen_item,
+    selected_vacancies,
     cluster_for_location,
+    write_summary,
 )
 
 
@@ -385,3 +390,123 @@ def test_default_review_outputs_are_separated_from_jobg8_reviews():
 
     assert args.report_csv == Path("reviews/external/northeast-jobs-review.csv")
     assert args.summary_md == Path("reviews/external/northeast-jobs-summary.md")
+
+
+def review_vacancy(
+    source_job_id: str,
+    classification: str,
+    title: str = "Example Administrator",
+) -> Vacancy:
+    return Vacancy(
+        source="North East Jobs",
+        source_job_id=source_job_id,
+        title=title,
+        employer="Example Council",
+        location="Durham",
+        ontap_geography="North East - County Durham & Darlington/Hartlepool",
+        contract_type="Permanent",
+        working_pattern="Full time",
+        salary_text="£25,000",
+        posted_date="29/07/2026",
+        closing_date="09/08/2026 23:59",
+        source_url=f"https://example.test/{source_job_id}",
+        screening_basis="test",
+        detail_status="snapshot",
+        classification=classification,
+        classification_reason="test classification",
+        duplicate_status="UNIQUE",
+    )
+
+
+def test_manual_review_actions_are_same_day_and_source_id_scoped(tmp_path):
+    path = tmp_path / "review.md"
+    path.write_text(
+        "\n".join(
+            [
+                "# Review",
+                "",
+                "review_date: 2026-07-29",
+                "",
+                "---",
+                "action: select",
+                "POSS | Durham | Example role",
+                "source_job_id: 300001",
+                "---",
+                "",
+                "---",
+                "action: exclude",
+                "SELECTED | Newcastle | Another role",
+                "source_job_id: 300002",
+                "---",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    decisions = load_manual_decisions_from_markdown(path, "2026-07-29")
+    old_decisions = load_manual_decisions_from_markdown(path, "2026-07-30")
+
+    assert decisions.selections == {"300001"}
+    assert decisions.exclusions == {"300002"}
+    assert decisions.rerun_mode
+    assert old_decisions.selections == set()
+    assert old_decisions.exclusions == set()
+    assert "old actions ignored" in old_decisions.load_warning
+
+
+def test_manual_actions_change_the_final_selection():
+    clear = review_vacancy("hc-1", "HC", "Administration Assistant")
+    possible_selected = review_vacancy("poss-1", "POSS", "Attendance Officer")
+    possible_excluded = review_vacancy("poss-2", "POSS", "Facilities Coordinator")
+    decisions = ManualDecisionState(
+        selections={"poss-1"},
+        exclusions={"hc-1", "poss-2"},
+        review_date="2026-07-29",
+        rerun_mode=True,
+    )
+
+    assert final_decision_for(clear, decisions) == "EXCLUDED"
+    assert final_decision_for(possible_selected, decisions) == "SELECTED"
+    assert final_decision_for(possible_excluded, decisions) == "EXCLUDED"
+    assert selected_vacancies(
+        [clear, possible_selected, possible_excluded],
+        decisions,
+    ) == [possible_selected]
+
+
+def test_summary_generates_jobg8_style_editable_action_blocks(tmp_path):
+    path = tmp_path / "summary.md"
+    clear = review_vacancy("hc-1", "HC", "Administration Assistant")
+    possible = review_vacancy("poss-1", "POSS", "Attendance Officer")
+    decisions = ManualDecisionState(
+        selections=set(),
+        exclusions=set(),
+        review_date="2026-07-29",
+    )
+    counts = {
+        "feed_total": 2,
+        "hard_pass_before_detail": 0,
+        "detail_candidates": 2,
+        "detail_failures": 0,
+        "outside_target_geography": 0,
+        "tees_valley_excluded": 0,
+        "target_geography_candidates": 2,
+    }
+
+    write_summary(
+        path,
+        counts=counts,
+        vacancies=[clear, possible],
+        decisions=decisions,
+        review_date="2026-07-29",
+        jobg8_count=10,
+        rss_source="fixture.xml",
+        failures=[],
+    )
+    text = path.read_text(encoding="utf-8")
+
+    assert "Edit only the `action:` line" in text
+    assert "## POSS — choose SELECT or EXCLUDE" in text
+    assert "action:\nPOSS |" in text
+    assert "source_job_id: poss-1" in text
+    assert "Final selected after manual actions: 1" in text
