@@ -46,8 +46,8 @@ Output folder:
   reports-daily/decision-report-admin-service.csv  generated decision report artifact
 
 Manual rerun edits:
-  manual/service-admin-review.md   compact GitHub-editable action source
-  manual/service-admin-review.csv  preview table; manual_override/manual_select mirror Markdown actions
+  reviews/jobg8/service-admin-review.md   compact GitHub-editable action source
+  reviews/jobg8/service-admin-review.csv  preview table; manual_override/manual_select mirror Markdown actions
   manual_override accepts FORCE_INCLUDE, FORCE_EXCLUDE, or exclude (alias for FORCE_EXCLUDE)
 
 Run:
@@ -90,7 +90,7 @@ INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-admin-service")
 REPORTS_DAILY_DIR = Path("reports-daily")
 DECISION_REPORT_PATH = REPORTS_DAILY_DIR / "decision-report-admin-service.csv"
-MANUAL_DIR = Path("manual")
+MANUAL_DIR = Path("reviews") / "jobg8"
 MANUAL_REVIEW_CSV_PATH = MANUAL_DIR / "service-admin-review.csv"
 MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "service-admin-review.md"
 # Backwards-compatible alias for older helper code.
@@ -1220,7 +1220,7 @@ def _markdown_review_action_rows(text: str) -> list[dict[str, str]]:
 
 def load_manual_decisions_from_markdown(current_feed_date: str = "") -> ManualDecisionState:
     """
-    Read manual rerun decisions from manual/service-admin-review.md.
+    Read manual rerun decisions from reviews/jobg8/service-admin-review.md.
 
     Markdown blocks are intentionally GitHub-editable. Only the action field is
     treated as a human decision: action: exclude becomes FORCE_EXCLUDE and
@@ -1298,7 +1298,7 @@ def load_manual_decisions_from_markdown(current_feed_date: str = "") -> ManualDe
 
 def load_manual_decisions_from_csv(current_feed_date: str = "") -> ManualDecisionState:
     """
-    Read manual rerun decisions from manual/service-admin-review.csv.
+    Read manual rerun decisions from reviews/jobg8/service-admin-review.csv.
 
     When the compact human review CSV is present and readable, the run is
     treated as an editorial/manual rerun: only explicit manual_select rows are
@@ -2386,7 +2386,7 @@ def write_outputs(
     # reports-daily as the audit/detail artifact.
     markdown_review_created = False
     csv_review_created = False
-    MANUAL_DIR.mkdir(exist_ok=True)
+    MANUAL_DIR.mkdir(parents=True, exist_ok=True)
     preserved_markdown_actions: dict[str, str] = {}
     preserved_markdown_action_rows: list[dict[str, str]] = []
     markdown_review_existed = MANUAL_REVIEW_MD_PATH.exists()

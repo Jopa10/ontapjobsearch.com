@@ -117,10 +117,10 @@ jobs:
         run: |
           set -euo pipefail
           manual_review_paths=(
-            "pipeline/manual/service-admin-review.csv"
-            "pipeline/manual/service-admin-review.md"
-            "pipeline/manual/support-worker-review.csv"
-            "pipeline/manual/support-worker-review.md"
+            "pipeline/reviews/jobg8/service-admin-review.csv"
+            "pipeline/reviews/jobg8/service-admin-review.md"
+            "pipeline/reviews/jobg8/support-worker-review.csv"
+            "pipeline/reviews/jobg8/support-worker-review.md"
           )
 
           if [ -z "$(git status --porcelain -- "${manual_review_paths[@]}")" ]; then
@@ -138,7 +138,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/manual/service-admin-review.csv" && $0 != "pipeline/manual/service-admin-review.md" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/jobg8/service-admin-review.csv" && $0 != "pipeline/reviews/jobg8/service-admin-review.md" && $0 != "pipeline/reviews/jobg8/support-worker-review.csv" && $0 != "pipeline/reviews/jobg8/support-worker-review.md"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 manual review files. Staged files:"
             printf '%s\n' "$unexpected_files"

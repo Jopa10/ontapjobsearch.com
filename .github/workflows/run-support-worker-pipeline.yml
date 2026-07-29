@@ -27,8 +27,8 @@ jobs:
         id: support-worker-review
         run: |
           set -euo pipefail
-          csv_review_path="pipeline/manual/support-worker-review.csv"
-          markdown_review_path="pipeline/manual/support-worker-review.md"
+          csv_review_path="pipeline/reviews/jobg8/support-worker-review.csv"
+          markdown_review_path="pipeline/reviews/jobg8/support-worker-review.md"
 
           if [ -f "$csv_review_path" ]; then
             echo "Support-worker CSV review file exists: yes"
@@ -56,8 +56,8 @@ jobs:
           MARKDOWN_REVIEW_EXISTS_BEFORE: ${{ steps.support-worker-review.outputs.markdown_exists_before }}
         run: |
           set -euo pipefail
-          csv_review_path="pipeline/manual/support-worker-review.csv"
-          markdown_review_path="pipeline/manual/support-worker-review.md"
+          csv_review_path="pipeline/reviews/jobg8/support-worker-review.csv"
+          markdown_review_path="pipeline/reviews/jobg8/support-worker-review.md"
           paths_to_commit=()
 
           if [ "$CSV_REVIEW_EXISTS_BEFORE" = "no" ] && [ -f "$csv_review_path" ] && [ -n "$(git status --porcelain -- "$csv_review_path")" ]; then
@@ -110,8 +110,8 @@ jobs:
             "pipeline/reports-daily/decision-report-support-worker.csv"
             "pipeline/reports-daily/validation-report-support-worker.csv"
             "pipeline/reports-daily/selection-summary-report-support-worker.csv"
-            "pipeline/manual/support-worker-review.csv"
-            "pipeline/manual/support-worker-review.md"
+            "pipeline/reviews/jobg8/support-worker-review.csv"
+            "pipeline/reviews/jobg8/support-worker-review.md"
           )
 
           if [ -z "$(git status --porcelain -- "${support_worker_paths[@]}")" ]; then
@@ -129,7 +129,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$(printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-support-worker\// && $0 != "pipeline/reports-daily/decision-report-support-worker.csv" && $0 != "pipeline/reports-daily/validation-report-support-worker.csv" && $0 != "pipeline/reports-daily/selection-summary-report-support-worker.csv" && $0 != "pipeline/manual/support-worker-review.csv" && $0 != "pipeline/manual/support-worker-review.md"')"
+          unexpected_files="$(printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-support-worker\// && $0 != "pipeline/reports-daily/decision-report-support-worker.csv" && $0 != "pipeline/reports-daily/validation-report-support-worker.csv" && $0 != "pipeline/reports-daily/selection-summary-report-support-worker.csv" && $0 != "pipeline/reviews/jobg8/support-worker-review.csv" && $0 != "pipeline/reviews/jobg8/support-worker-review.md"')"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside support-worker output/review/report paths. Staged files:"
             printf '%s\n' "$staged_files"
@@ -150,6 +150,6 @@ jobs:
             pipeline/reports-daily/decision-report-support-worker.csv
             pipeline/reports-daily/validation-report-support-worker.csv
             pipeline/reports-daily/selection-summary-report-support-worker.csv
-            pipeline/manual/support-worker-review.csv
-            pipeline/manual/support-worker-review.md
+            pipeline/reviews/jobg8/support-worker-review.csv
+            pipeline/reviews/jobg8/support-worker-review.md
           if-no-files-found: warn

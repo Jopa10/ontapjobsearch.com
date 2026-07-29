@@ -27,7 +27,7 @@ jobs:
         id: markdown-review
         run: |
           set -euo pipefail
-          review_path="pipeline/manual/service-admin-review.md"
+          review_path="pipeline/reviews/jobg8/service-admin-review.md"
           if [ -f "$review_path" ]; then
             echo "Markdown review file exists: yes"
             echo "exists_before=yes" >> "$GITHUB_OUTPUT"
@@ -48,7 +48,7 @@ jobs:
           MARKDOWN_REVIEW_EXISTS_BEFORE: ${{ steps.markdown-review.outputs.exists_before }}
         run: |
           set -euo pipefail
-          review_path="pipeline/manual/service-admin-review.md"
+          review_path="pipeline/reviews/jobg8/service-admin-review.md"
 
           if [ "$MARKDOWN_REVIEW_EXISTS_BEFORE" = "yes" ]; then
             echo "Existing Markdown review file preserved: yes"
