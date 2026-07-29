@@ -98,5 +98,5 @@ jobs:
             hybrid-working-audit.txt
             pipeline/output-admin-service/*.json
             pipeline/reports-daily/decision-report-admin-service.csv
-            pipeline/manual/service-admin-review.csv
+            pipeline/reviews/jobg8/service-admin-review.csv
           if-no-files-found: warn

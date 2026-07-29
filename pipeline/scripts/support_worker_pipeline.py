@@ -85,7 +85,7 @@ INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output-support-worker")
 REPORTS_DAILY_DIR = Path("reports-daily")
 DECISION_REPORT_PATH = REPORTS_DAILY_DIR / "decision-report-support-worker.csv"
-MANUAL_DIR = Path("manual")
+MANUAL_DIR = Path("reviews") / "jobg8"
 MANUAL_REVIEW_CSV_PATH = MANUAL_DIR / "support-worker-review.csv"
 MANUAL_REVIEW_MD_PATH = MANUAL_DIR / "support-worker-review.md"
 # Backwards-compatible alias for older helper code.
@@ -1245,7 +1245,7 @@ def _markdown_review_action_rows(text: str) -> list[dict[str, str]]:
 
 
 def load_manual_decisions_from_markdown(current_feed_date: str = "") -> ManualDecisionState:
-    """Read manual rerun decisions from manual/support-worker-review.md."""
+    """Read manual rerun decisions from reviews/jobg8/support-worker-review.md."""
     try:
         text = MANUAL_REVIEW_MD_PATH.read_text(encoding="utf-8-sig")
     except Exception as exc:
@@ -1314,7 +1314,7 @@ def load_manual_decisions_from_markdown(current_feed_date: str = "") -> ManualDe
 
 
 def load_manual_decisions_from_csv(current_feed_date: str = "") -> ManualDecisionState:
-    """Read manual rerun decisions from manual/support-worker-review.csv."""
+    """Read manual rerun decisions from reviews/jobg8/support-worker-review.csv."""
     try:
         df = pd.read_csv(MANUAL_REVIEW_CSV_PATH, dtype=str).fillna("")
     except Exception as exc:
@@ -2342,7 +2342,7 @@ def write_outputs(
     # reports-daily as the audit/detail artifact.
     markdown_review_created = False
     csv_review_created = False
-    MANUAL_DIR.mkdir(exist_ok=True)
+    MANUAL_DIR.mkdir(parents=True, exist_ok=True)
     preserved_markdown_actions: dict[str, str] = {}
     preserved_markdown_action_rows: list[dict[str, str]] = []
     markdown_review_existed = MANUAL_REVIEW_MD_PATH.exists()
