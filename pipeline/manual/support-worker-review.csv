@@ -6,9 +6,9 @@
 2026-07-29,SELECTED,Yorkshire - West,Complex Needs Support Worker,Leeds,£90 - £95 per daily,,,d2b6bed8-4c47-4afe-a6e7-f653868515a2
 2026-07-29,SELECTED,Yorkshire - West,Complex Needs Support Worker,Pontefract,£90 - £95 per daily,,,7b94b93e-757a-4c9c-ba1b-5a8563961cdd
 2026-07-29,SELECTED,Yorkshire - West,Complex care assistant,Holmfirth,£27394 per year,,,107651994
-2026-07-29,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Leeds,£14.24 - £16 per hour (+ INC holiday pay),,,107616819
-2026-07-29,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,,107728647
-2026-07-29,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Huddersfield,£14.24 - £16 per hour (+ INC holiday pay),,,107728806
+2026-07-29,SELECTED,Yorkshire - West,Complex Care Assistant,Huddersfield,£14.24 - £16 per hour (+ INC holiday pay),,1,107728806
+2026-07-29,SELECTED,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,1,107728647
+2026-07-29,SELECTED,Yorkshire - West,Complex Care Assistant,Leeds,£14.24 - £16 per hour (+ INC holiday pay),,1,107616819
 2026-07-29,SELECTED,Yorkshire - South,Support Worker - Elderly Adults,Rotherham,£13.05 per hour,,,7f3a31c5-7137-4cb5-bd7b-0a32cf045c2c
 2026-07-29,SELECTED,Yorkshire - South,Children Residential Support Worker,Doncaster,£26400 per year,,,66e6573f-6a0d-4805-83eb-659743f86d53
 2026-07-29,SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£14.24 per hour,,,f3f8e2ad-deef-4db9-9895-23e53030230f
@@ -16,7 +16,7 @@
 2026-07-29,SELECTED,Yorkshire - South,Therapeutic Family Support Worker / Parenting Practitioner,Barnsley,£18 per hour,,,6468034e-9a40-4583-adf5-d5ba5eed0237
 2026-07-29,SELECTED,Yorkshire - South,Healthcare Assistant,Sheffield,£14.24 per hour,,,9970f2ba-5a14-44da-89b2-e5bde6c3f05d
 2026-07-29,SELECTED,Yorkshire - South,Waking Night Rehabilitation Support Worker,Barnsley,£13.45 per hour,,,616c0fbd-815e-424d-8086-ba78ca9e8d6b
-2026-07-29,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+2026-07-29,SELECTED,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,1,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 2026-07-29,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Newcastle Upon Tyne,£29350 per year,,,107616541
 2026-07-29,SELECTED,"North East - Tyneside, Wearside & Northumberland",Young People Support Worker,Whitley Bay,"£19,738.88 per annum",,,1533503
 2026-07-29,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Blaydon-on-tyne,£29350 per year,,,107617093
@@ -56,7 +56,7 @@
 2026-07-29,POSS - SUSSEX,Sussex,Support Worker,Shoreham-by-sea,£16 - £18.5 per hour,,,6a927a37-77f5-4974-b092-4b95250ac3b1
 2026-07-29,POSS - SUSSEX,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,,107641522
 2026-07-29,POSS - SUSSEX,Sussex,Behaviour Support Worker,Bognor Regis,£90 - £95 per daily,,,048be967-2e11-4259-b4f0-479ca2984dc7
-2026-07-29,POSS - CUMBRIA - SOUTH,Cumbria - South,Complex Care Assistant,Kendal,£16.53 per hour ((including holiday pay)),,,107572044
+2026-07-29,SELECTED,Cumbria - South,Complex Care Assistant,Kendal,£16.53 per hour ((including holiday pay)),,1,107572044
 2026-07-29,SELECTED,Hampshire,Day Support Worker,Southampton,£13.45 per hour,,,e1e3015c-df07-47b4-af44-688be7864d29
 2026-07-29,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Eastleigh,£15.45 per hour,,,c833e579-ae4d-4e7e-aabf-92e2db964f20
 2026-07-29,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Hayling Island,£14.8 per hour,,,c67bc745-657c-48cb-be04-70b9aabad662
