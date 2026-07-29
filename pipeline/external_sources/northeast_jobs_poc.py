@@ -45,11 +45,16 @@ RSS_URL = "https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62"
 TERMS_URL = "https://www.northeastjobs.org.uk/termsandconditions"
 ROBOTS_URL = "https://www.northeastjobs.org.uk/robots.txt"
 TEXT_RENDERER_PREFIX = "https://r.jina.ai/"
+TEXT_RENDERER_MIN_INTERVAL_SECONDS = 3.1
+TEXT_RENDERER_MAX_ATTEMPTS = 3
+TEXT_RENDERER_RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 USER_AGENT = "Ontap external-jobs research POC/1.0 (+https://www.ontapjobsearch.com/contact)"
 APPROVAL_CONFIRMATION = "PUBLISH"
 DEFAULT_APPROVED_JSON = Path(
     "output-external/northeast-jobs-admin-service.json"
 )
+_last_renderer_request_started: float | None = None
+_renderer_warning_emitted = False
 
 TARGET_CLUSTERS = {
     "North East - Tyneside, Wearside & Northumberland",
@@ -490,6 +495,55 @@ def _renderer_url(url: str) -> str | None:
     return TEXT_RENDERER_PREFIX + url
 
 
+def _wait_for_renderer_slot() -> None:
+    """Keep unauthenticated renderer traffic below its 20-request/minute limit."""
+    global _last_renderer_request_started
+    now = time.monotonic()
+    if _last_renderer_request_started is not None:
+        wait_seconds = (
+            TEXT_RENDERER_MIN_INTERVAL_SECONDS
+            - (now - _last_renderer_request_started)
+        )
+        if wait_seconds > 0:
+            time.sleep(wait_seconds)
+    _last_renderer_request_started = time.monotonic()
+
+
+def _renderer_retry_delay(exc: urllib.error.HTTPError, attempt: int) -> float:
+    retry_after = exc.headers.get("Retry-After") if exc.headers else None
+    try:
+        return min(max(float(retry_after), 1.0), 60.0)
+    except (TypeError, ValueError):
+        return min(5.0 * (2**attempt), 30.0)
+
+
+def _fetch_renderer_text(url: str, timeout: int) -> str:
+    for attempt in range(TEXT_RENDERER_MAX_ATTEMPTS):
+        _wait_for_renderer_slot()
+        try:
+            return _fetch_text_once(url, timeout, "text/plain,*/*;q=0.1")
+        except urllib.error.HTTPError as exc:
+            if (
+                exc.code not in TEXT_RENDERER_RETRYABLE_STATUS
+                or attempt == TEXT_RENDERER_MAX_ATTEMPTS - 1
+            ):
+                raise
+            time.sleep(_renderer_retry_delay(exc, attempt))
+    raise AssertionError("unreachable renderer retry state")
+
+
+def _warn_renderer_fallback() -> None:
+    global _renderer_warning_emitted
+    if _renderer_warning_emitted:
+        return
+    print(
+        "WARNING: North East Jobs' TLS certificate chain was not accepted; "
+        "using the rate-limited verified HTTPS text renderer.",
+        file=sys.stderr,
+    )
+    _renderer_warning_emitted = True
+
+
 def fetch_text(url: str, timeout: int = 30) -> str:
     """Fetch NEJobs over verified TLS, with a verified renderer fallback.
 
@@ -511,12 +565,8 @@ def fetch_text(url: str, timeout: int = 30) -> str:
         )
         if renderer_url is None:
             raise
-        print(
-            "WARNING: North East Jobs' TLS certificate chain was not accepted; "
-            "retrying through the verified HTTPS text renderer.",
-            file=sys.stderr,
-        )
-        return _fetch_text_once(renderer_url, timeout, "text/plain,*/*;q=0.1")
+        _warn_renderer_fallback()
+        return _fetch_renderer_text(renderer_url, timeout)
 
 
 def label_value(text: str, label: str) -> str:
