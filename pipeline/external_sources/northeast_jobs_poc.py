@@ -44,6 +44,7 @@ SOURCE_CODE = "NEJobs"
 RSS_URL = "https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62"
 TERMS_URL = "https://www.northeastjobs.org.uk/termsandconditions"
 ROBOTS_URL = "https://www.northeastjobs.org.uk/robots.txt"
+TEXT_RENDERER_PREFIX = "https://r.jina.ai/"
 USER_AGENT = "Ontap external-jobs research POC/1.0 (+https://www.ontapjobsearch.com/contact)"
 APPROVAL_CONFIRMATION = "PUBLISH"
 DEFAULT_APPROVED_JSON = Path(
@@ -465,15 +466,57 @@ def screen_item(item: FeedItem) -> tuple[str, str]:
     )
 
 
-def fetch_text(url: str, timeout: int = 30) -> str:
+def _fetch_text_once(url: str, timeout: int, accept: str) -> str:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml,text/html;q=0.9,*/*;q=0.1"},
+        headers={"User-Agent": USER_AGENT, "Accept": accept},
     )
-    # Normal runs verify TLS.  There is intentionally no insecure fallback.
     context = ssl.create_default_context()
     with urllib.request.urlopen(request, timeout=timeout, context=context) as response:
         return response.read().decode(response.headers.get_content_charset() or "utf-8", "replace")
+
+
+def _is_certificate_verification_error(exc: urllib.error.URLError) -> bool:
+    return isinstance(exc.reason, ssl.SSLCertVerificationError)
+
+
+def _renderer_url(url: str) -> str | None:
+    parsed = urllib.parse.urlsplit(url)
+    if (
+        parsed.scheme != "https"
+        or parsed.hostname not in {"northeastjobs.org.uk", "www.northeastjobs.org.uk"}
+    ):
+        return None
+    return TEXT_RENDERER_PREFIX + url
+
+
+def fetch_text(url: str, timeout: int = 30) -> str:
+    """Fetch NEJobs over verified TLS, with a verified renderer fallback.
+
+    North East Jobs currently omits a certificate-chain link required by
+    Python/OpenSSL on GitHub's hosted runners.  Browsers can repair that chain,
+    but ``urllib`` cannot.  We keep direct HTTPS as the primary route and use
+    the renderer only for that precise certificate-verification failure.
+    Certificate verification is never disabled.
+    """
+    try:
+        return _fetch_text_once(
+            url,
+            timeout,
+            "application/rss+xml,text/html;q=0.9,*/*;q=0.1",
+        )
+    except urllib.error.URLError as exc:
+        renderer_url = (
+            _renderer_url(url) if _is_certificate_verification_error(exc) else None
+        )
+        if renderer_url is None:
+            raise
+        print(
+            "WARNING: North East Jobs' TLS certificate chain was not accepted; "
+            "retrying through the verified HTTPS text renderer.",
+            file=sys.stderr,
+        )
+        return _fetch_text_once(renderer_url, timeout, "text/plain,*/*;q=0.1")
 
 
 def label_value(text: str, label: str) -> str:
