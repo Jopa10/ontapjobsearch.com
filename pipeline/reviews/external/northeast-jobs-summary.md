@@ -1,6 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
 review_date: 2026-07-29
+review_fingerprint: 9338e9f357eb66210e54bf7240d33f81792a51d786259dae5fb635197f39c7f8
 
 Edit only the `action:` line in each editable block:
 
@@ -10,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit, then rerun the NEJobs process for the same review date.
 - Decisions are matched by `source_job_id` and expire when the review date changes.
 
-Run generated: 2026-07-29T11:31:08+01:00
-RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62 (retrieved through text renderer because local proxy rejected source TLS chain)
-JobG8 comparison rows in target geographies: 103
+Run generated: 2026-07-29T13:26:03+01:00
+RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
+JobG8 comparison rows in target geographies: 110
 
 ## Funnel
 
-- RSS vacancies read: 656
-- Hard-pass title/teaser screen before detail requests: 589
-- Detail candidates: 67
+- RSS vacancies read: 649
+- Hard-pass title/teaser screen before detail requests: 581
+- Detail candidates: 68
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 2
 - Tees Valley explicitly excluded: 11
-- Target-geography candidates reviewed: 54
+- Target-geography candidates reviewed: 55
 
 ## Detail diagnostics
 
@@ -31,21 +32,21 @@ JobG8 comparison rows in target geographies: 103
 ## Review outcomes
 
 - HC: 17
-- POSS: 36
+- POSS: 37
 - Hard pass: 1
 - Final selected after manual actions: 17
-- Final POSS awaiting decision: 36
+- Final POSS awaiting decision: 37
 - Manually excluded: 0
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 0
-- Likely unique to North East Jobs: 54
+- Likely unique to North East Jobs: 55
 - Rows in possible within-source duplicate groups: 2
 
 ## SELECTED
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Meadowfield Depot, Durham (hybrid working options available) | Grade 4 £25,583 - £26,824 (Pa… | Administration Assistant
+SELECTED | North East - County Durham & Darlington/Hartlepool | Meadowfield Depot, Durham (hybrid working options available) | Grade 4 £25,583 - £26,824 (Pay award pending) | Administration Assistant
 employer: Durham County Council
 closing_date: 09/08/2026
 reason: clear transferable title: administration assistant
@@ -75,7 +76,7 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer_Level_
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Annfield Plain, Greencroft | Grade 3 £25,185 - £25,989 (Pa… | Clerical Officer Receptionist
+SELECTED | North East - County Durham & Darlington/Hartlepool | Annfield Plain, Greencroft | Grade 3 £25,185 - £25,989 (Pay award pending) | Clerical Officer Receptionist
 employer: Durham County Council
 closing_date: 29/07/2026
 reason: clear transferable title: receptionist, clerical
@@ -85,7 +86,7 @@ source_url: https://www.northeastjobs.org.uk/job/Clerical_Officer_Receptionist/2
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Wheatley Hill | Grade 3 £25,185 - £25,989 pro… | Clerical Officer Receptionist
+SELECTED | North East - County Durham & Darlington/Hartlepool | Wheatley Hill | Grade 3 £25,185 - £25,989 pro rata (Pay award pending) | Clerical Officer Receptionist
 employer: Durham County Council
 closing_date: 02/08/2026
 reason: clear transferable title: receptionist, clerical
@@ -105,7 +106,7 @@ source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/299796
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham (derived for filtering) | £23,218 (FTE £25,583) | Receptionist and Events Co-ordinator at the Sjovoll Centre
+SELECTED | North East - County Durham & Darlington/Hartlepool | Framwellgate School Durham (derived for filtering) | £23,218 (FTE £25,583) | Receptionist and Events Co-ordinator at the Sjovoll Centre
 employer: Framwellgate School Durham
 closing_date: 10/08/2026 09:00
 reason: clear transferable title: receptionist
@@ -115,7 +116,7 @@ source_url: https://www.northeastjobs.org.uk/job/Receptionist_and_Events_Co_ordi
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for filtering) | £25,583 - 25,989 | Administration Assistant
+SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland County Council (derived for filtering) | £25,583 - 25,989 | Administration Assistant
 employer: Northumberland County Council
 closing_date: 31/07/2026 00:00
 reason: clear transferable title: administration assistant
@@ -125,7 +126,7 @@ source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/300074
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED | £25,583 per annum pro rata, a… | Administration Assistant
+SELECTED | North East - Tyneside, Wearside & Northumberland | St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED | £25,583 per annum pro rata, actual £22,533 per annum | Administration Assistant
 employer: Bishop Bewick Catholic Education Trust
 closing_date: 17/08/2026 12:00
 reason: clear transferable title: administration assistant
@@ -145,7 +146,7 @@ source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/299693
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £26,403 - £27,254 per annum,… | Administrative Assistant
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £26,403 - £27,254 per annum, pay award pending; (actual salary £14,271 - £14,731) | Administrative Assistant
 employer: Newcastle City Council
 closing_date: 05/08/2026 22:59
 reason: clear transferable title: administrative assistant
@@ -155,7 +156,7 @@ source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/300057
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 5 £26403 to £27254 per… | Business Support Assistant
+SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 5 £26403 to £27254 per annum | Business Support Assistant
 employer: North Tyneside Council
 closing_date: 07/08/2026 00:00
 reason: clear transferable title: business support assistant
@@ -165,7 +166,7 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant/2975
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland | £25948 - £25989 per annum pro… | Business Support Assistant - Children's Social Care
+SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland | £25948 - £25989 per annum pro rata | Business Support Assistant - Children's Social Care
 employer: Together for Children - Sunderland
 closing_date: 10/08/2026
 reason: clear transferable title: business support assistant
@@ -175,7 +176,7 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_Chil
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside (derived for filtering) | £28,598 pa pro rata | Business Support Officer, 32hpw
+SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £28,598 pa pro rata | Business Support Officer, 32hpw
 employer: South Tyneside Council
 closing_date: 17/08/2026 12:00
 reason: clear transferable title: business support officer
@@ -195,7 +196,7 @@ source_url: https://www.northeastjobs.org.uk/job/DBS01116_26_Admin_Assistant_Haz
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | Salary from: £21,547.50 per a… | Receptionist & Administrator (HR / School)
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | Salary from: £21,547.50 per annum | Receptionist & Administrator (HR / School)
 employer: Talbot House Children's Charity
 closing_date: 09/08/2026
 reason: clear transferable title: administrator, receptionist
@@ -205,7 +206,7 @@ source_url: https://www.northeastjobs.org.uk/job/Receptionist_Administrator_HR_S
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Studio West, West Denton Way, Newcastle upon Tyne, NE5 2SZ | £26,403 - £27,254 per annum.… | Receptionist/Student Services
+SELECTED | North East - Tyneside, Wearside & Northumberland | Studio West, West Denton Way, Newcastle upon Tyne, NE5 2SZ | £26,403 - £27,254 per annum. Actual Salary £19,324 - £19,947 per annum | Receptionist/Student Services
 employer: Northern Leaders Trust
 closing_date: 30/07/2026 09:00
 reason: clear transferable title: receptionist
@@ -218,7 +219,7 @@ source_url: https://www.northeastjobs.org.uk/job/Receptionist_Student_Services/2
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Bishop Auckland (derived for filtering) | Harmonised pay scale points 2… | 0.4 Lecturer Coordinator in Counselling & Psychotherapy Studies
+POSS | North East - County Durham & Darlington/Hartlepool | Bishop Auckland College (derived for filtering) | Harmonised pay scale points 23-35 (£28,571.40 - £37,659.47 pro rata) | 0.4 Lecturer Coordinator in Counselling & Psychotherapy Studies
 employer: Bishop Auckland College
 closing_date: 18/08/2026
 reason: annualised upper salary £37,659 exceeds North East review point £30,000
@@ -238,7 +239,7 @@ source_url: https://www.northeastjobs.org.uk/job/Attendance_Support_Officer/2998
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Peterlee | £26,403 - £28,142 per annum,… | Community Engagement Officer (Part Time)
+POSS | North East - County Durham & Darlington/Hartlepool | Peterlee | £26,403 - £28,142 per annum, pro rata (actual salary approx. £16,056 - £17,112) | Community Engagement Officer (Part Time)
 employer: Peterlee Town Council
 closing_date: 14/08/2026
 reason: provisional transferable-office review
@@ -248,7 +249,7 @@ source_url: https://www.northeastjobs.org.uk/job/Community_Engagement_Officer_Pa
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Darlington (derived for filtering) | £25,989 per annum (pay award… | Events Assistant
+POSS | North East - County Durham & Darlington/Hartlepool | Darlington Borough Council (derived for filtering) | £25,989 per annum (pay award pending) | Events Assistant
 employer: Darlington Borough Council
 closing_date: 11/08/2026
 reason: provisional transferable-office review
@@ -278,7 +279,7 @@ source_url: https://www.northeastjobs.org.uk/job/Information_Management_and_Data
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Spectrum Business Park, Seaham (hybrid working options available) | Grade 7 £30,024 to £33,699 pe… | Review Officer
+POSS | North East - County Durham & Darlington/Hartlepool | Spectrum Business Park, Seaham (hybrid working options available) | Grade 7 £30,024 to £33,699 per annum (pay award pending) | Review Officer
 employer: Durham County Council
 closing_date: 09/08/2026
 reason: annualised upper salary £33,699 exceeds North East review point £30,000
@@ -288,7 +289,7 @@ source_url: https://www.northeastjobs.org.uk/job/Review_Officer/298685
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - County Durham & Darlington/Hartlepool | Durham (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
@@ -298,7 +299,7 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256127
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Bowlees Visitor Centre, Newbiggin | Grade 9 £35,412 - £39,152 (pr… | Visitor Services Officer
+POSS | North East - County Durham & Darlington/Hartlepool | Bowlees Visitor Centre, Newbiggin | Grade 9 £35,412 - £39,152 (pro rata) | Visitor Services Officer
 employer: Durham County Council
 closing_date: 10/08/2026
 reason: annualised upper salary £39,152 exceeds North East review point £30,000
@@ -308,7 +309,7 @@ source_url: https://www.northeastjobs.org.uk/job/Visitor_Services_Officer/299897
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | £26,403 - £27,254 per annum,… | Administrative Assistant (HR)
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle City Council (derived for filtering) | £26,403 - £27,254 per annum, pro rata (pay award pending) actual salary £14,271 - £14,731 | Administrative Assistant (HR)
 employer: Newcastle City Council
 closing_date: 09/08/2026 22:59
 reason: transferable office/service title with specialist or borderline wording: hr
@@ -318,7 +319,7 @@ source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_HR/300
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Alnwick | Band 5 - £22,850 - £24,787 (b… | Attendance Officer
+POSS | North East - Tyneside, Wearside & Northumberland | Alnwick (derived for filtering) | Band 5 - £22,850 - £24,787 (being pro-rata of £28,598 - £31,022) | Attendance Officer
 employer: The Duchess's Community High School
 closing_date: 31/07/2026 12:00
 reason: transferable office/service title with specialist or borderline wording: attendance
@@ -328,9 +329,9 @@ source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/299650
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filtering) | Grade 2 (SCP 5 - 6) £25,949 -… | Customer Enabling Services Support Assistant (Payroll)
+POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 2 (SCP 5 - 6) £25,949 - £25,989 | Customer Enabling Services Support Assistant (Payroll)
 employer: Sunderland City Council
-closing_date: 02/08/2026
+closing_date: 06/09/2026
 reason: transferable office/service title with specialist or borderline wording: payroll
 source_job_id: 299864
 source_url: https://www.northeastjobs.org.uk/job/Customer_Enabling_Services_Support_Assistant_Payroll/299864
@@ -338,7 +339,7 @@ source_url: https://www.northeastjobs.org.uk/job/Customer_Enabling_Services_Supp
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filtering) | Grade 2 (SCP 5 - 6) £25,949 -… | Customer Enabling Services Support Assistant/Courier
+POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 2 (SCP 5 - 6) £25,949 - £25,989 | Customer Enabling Services Support Assistant/Courier
 employer: Sunderland City Council
 closing_date: 02/08/2026
 reason: provisional transferable-office review
@@ -348,7 +349,7 @@ source_url: https://www.northeastjobs.org.uk/job/Customer_Enabling_Services_Supp
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | SCP 23-25, FTE salary (£34,43… | Data and Exams Officer
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | SCP 23-25, FTE salary (£34,434.00 - £36,363.00) | Data and Exams Officer
 employer: Walbottle Academy
 closing_date: 24/08/2026 09:00
 reason: annualised upper salary £36,363 exceeds North East review point £30,000
@@ -378,7 +379,7 @@ source_url: https://www.northeastjobs.org.uk/job/Fundraising_Partnerships_Coordi
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 6 £28,598.00 - £30,024.… | Homeless Support Officer
+POSS | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 6 £28,598.00 - £30,024.00 | Homeless Support Officer
 employer: North Tyneside Council
 closing_date: 06/08/2026 00:00
 reason: annualised upper salary £30,024 exceeds North East review point £30,000
@@ -388,7 +389,7 @@ source_url: https://www.northeastjobs.org.uk/job/Homeless_Support_Officer/300070
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | £29,064 - £31,022 per annum (… | Housing Assistant
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle City Council (derived for filtering) | £29,064 - £31,022 per annum (Pay Award Pending) | Housing Assistant
 employer: Newcastle City Council
 closing_date: 04/08/2026 22:59
 reason: transferable office/service title with specialist or borderline wording: housing
@@ -408,7 +409,7 @@ source_url: https://www.northeastjobs.org.uk/job/Local_Area_Coordinator_Primrose
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Callerton Academy, Bedeburn Road, Newcastle upon Tyne NE5 4JQ | £26,403 - £27,254 per annum.… | MCR Pathways Programme Coordinator
+POSS | North East - Tyneside, Wearside & Northumberland | Callerton Academy, Bedeburn Road, Newcastle upon Tyne NE5 4JQ | £26,403 - £27,254 per annum. Actual salary £24,676.65 - £25,472.00 per annum | MCR Pathways Programme Coordinator
 employer: Gosforth Group
 closing_date: 05/08/2026 09:00
 reason: provisional transferable-office review
@@ -418,7 +419,17 @@ source_url: https://www.northeastjobs.org.uk/job/MCR_Pathways_Programme_Coordina
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside (derived for filtering) | £33,699 pa pro rata | Participation and Engagement Officer (SEND), 29.6 hpw
+POSS | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 5 £26,403 - £27,254 pa | Neighbourhood Housing Assistant
+employer: North Tyneside Council
+closing_date: 12/08/2026 00:00
+reason: transferable office/service title with specialist or borderline wording: housing
+source_job_id: 295153
+source_url: https://www.northeastjobs.org.uk/job/Neighbourhood_Housing_Assistant/295153
+---
+
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £33,699 pa pro rata | Participation and Engagement Officer (SEND), 29.6 hpw
 employer: South Tyneside Council
 closing_date: 10/08/2026 12:00
 reason: transferable office/service title with specialist or borderline wording: send
@@ -458,27 +469,7 @@ source_url: https://www.northeastjobs.org.uk/job/PMO_Support_Officer/299843
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
-employer: First Class Supply & Training
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_job_id: 256124
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside (derived for filtering) | From £14.54 - £15.20per hour | School Administrator
-employer: First Class Supply & Training
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_job_id: 256125
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
@@ -488,7 +479,7 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256120
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | North Tyneside | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | North Tyneside (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
@@ -498,7 +489,7 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256121
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
@@ -508,7 +499,27 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256122
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Sunderland | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout Gateshead (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
+employer: First Class Supply & Training
+closing_date: 31/08/2026
+reason: agency-style advert with no structured employment location
+source_job_id: 256124
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
+---
+
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout South Tyneside (derived for filtering) | From £14.54 - £15.20per hour | School Administrator
+employer: First Class Supply & Training
+closing_date: 31/08/2026
+reason: agency-style advert with no structured employment location
+source_job_id: 256125
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
+---
+
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
@@ -518,7 +529,7 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256126
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside (derived for filtering) | £28,598 pa | SEND Review Coordinator
+POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £28,598 pa | SEND Review Coordinator
 employer: South Tyneside Council
 closing_date: 30/07/2026 12:00
 reason: transferable office/service title with specialist or borderline wording: send
@@ -528,7 +539,7 @@ source_url: https://www.northeastjobs.org.uk/job/SEND_Review_Coordinator/299411
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside (derived for filtering) | £28,598 pa | SEND Travel Needs Assessment Officer
+POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £28,598 pa | SEND Travel Needs Assessment Officer
 employer: South Tyneside Council
 closing_date: 14/08/2026 12:00
 reason: transferable office/service title with specialist or borderline wording: send
@@ -538,7 +549,7 @@ source_url: https://www.northeastjobs.org.uk/job/SEND_Travel_Needs_Assessment_Of
 
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | £32,597 - £35,412 per annum (… | Social Care Assessment Officer
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | £32,597 - £35,412 per annum (pay award pending) | Social Care Assessment Officer
 employer: Newcastle City Council
 closing_date: 11/08/2026 22:59
 reason: annualised upper salary £35,412 exceeds North East review point £30,000
@@ -583,12 +594,14 @@ source_url: https://www.northeastjobs.org.uk/job/Virtual_School_Education_Suppor
 
 ## Hard passes
 
-- [Application Support Officer (INTERNAL…](https://www.northeastjobs.org.uk/job/Application_Support_Officer_INTERNAL_ONLY/299809) — not open to external applicants.
+- [Application Support Officer (INTERNAL ONLY)](https://www.northeastjobs.org.uk/job/Application_Support_Officer_INTERNAL_ONLY/299809) — not open to external applicants.
 
 ## Safety boundary
 
-- Review-only output; no Ontap publishable JSON is written.
+- A normal run is review-only and writes no publishable JSON.
+- Approved JSON requires an explicit PUBLISH confirmation and an exact same-day review-set match.
 - Only factual vacancy fields are retained; full descriptions are not stored.
+- Public role overviews are original Ontap text assembled from those factual fields.
 - Detail pages are fetched only after a provisional title/teaser screen.
 - North East Jobs terms require written permission for commercial reuse of site material.
 - The source had no retrievable robots.txt (404) when the POC was designed.
