@@ -26,19 +26,19 @@ job_id: 107651994
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
 ---
@@ -84,7 +84,7 @@ job_id: 616c0fbd-815e-424d-8086-ba78ca9e8d6b
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
@@ -288,13 +288,13 @@ job_id: 107214761
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
 job_id: ba7f799b-28eb-4372-b972-0f1e14369fc8
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Shoreham-by-sea | £16 - £18.5 per hour | Support Worker
 job_id: 6a927a37-77f5-4974-b092-4b95250ac3b1
 ---
@@ -312,7 +312,7 @@ _No jobs in this group._
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
