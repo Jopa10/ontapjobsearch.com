@@ -23,25 +23,27 @@ SELECTED | Yorkshire - West | Holmfirth | £27394 per year | Complex care assist
 job_id: 107651994
 ---
 
-## WEST YORKSHIRE — POSSIBLES
-
 ---
 action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107616819
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+SELECTED | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
 
 ---
 action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
 ---
+
+---
+action: select
+SELECTED | Yorkshire - West | Leeds | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107616819
+---
+
+## WEST YORKSHIRE — POSSIBLES
+
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -81,13 +83,15 @@ SELECTED | Yorkshire - South | Barnsley | £13.45 per hour | Waking Night Rehabi
 job_id: 616c0fbd-815e-424d-8086-ba78ca9e8d6b
 ---
 
-## SOUTH YORKSHIRE — POSSIBLES
-
 ---
 action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
+
+## SOUTH YORKSHIRE — POSSIBLES
+
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -208,6 +212,12 @@ job_id: d190e506-a8f8-4d6f-a0f2-1edef5b6612f
 ---
 
 ---
+action: select
+SELECTED | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
+job_id: ba7f799b-28eb-4372-b972-0f1e14369fc8
+---
+
+---
 action:
 SELECTED | Sussex | Wadhurst | £15.12 per hour | Care Assistant - Bank - Care Home
 job_id: b1ea4e7d-5a13-43ff-bc09-d3106191ef2f
@@ -229,6 +239,12 @@ job_id: 754d4870-6635-4f50-b6d9-e858722ab608
 action:
 SELECTED | Sussex | Brighton | £13.82 per hour | Support Worker
 job_id: 71c69d5d-63c6-4fe9-9b64-aeaf20034b29
+---
+
+---
+action: select
+SELECTED | Sussex | Shoreham-by-sea | £16 - £18.5 per hour | Support Worker
+job_id: 6a927a37-77f5-4974-b092-4b95250ac3b1
 ---
 
 ---
@@ -288,18 +304,6 @@ job_id: 107214761
 ## SUSSEX — POSSIBLES
 
 ---
-action: select
-POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
-job_id: ba7f799b-28eb-4372-b972-0f1e14369fc8
----
-
----
-action: select
-POSS - SUSSEX | Sussex | Shoreham-by-sea | £16 - £18.5 per hour | Support Worker
-job_id: 6a927a37-77f5-4974-b092-4b95250ac3b1
----
-
----
 action:
 POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107641522
@@ -307,15 +311,15 @@ job_id: 107641522
 
 ## CUMBRIA SOUTH — SELECTED
 
-_No jobs in this group._
+---
+action: select
+SELECTED | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
+job_id: 107572044
+---
 
 ## CUMBRIA SOUTH — POSSIBLES
 
----
-action: select
-POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
-job_id: 107572044
----
+_No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
 
