@@ -15,9 +15,44 @@ const inter = Inter({
   display: 'swap',
 });
 
+const siteUrl = 'https://www.ontapjobsearch.com';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'Ontap Job Search – Find Your Perfect Job',
   description: 'Discover job opportunities tailored to your skills and ambitions on Ontap Job Search.',
+};
+
+const organizationStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${siteUrl}/#organization`,
+  name: 'Ontap Job Search',
+  legalName: 'Ontap Learning Ltd',
+  url: siteUrl,
+  logo: {
+    '@type': 'ImageObject',
+    url: `${siteUrl}/assets/ontap-icon.svg`,
+  },
+  email: 'john@ontapcreative.co.uk',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'general enquiries',
+    email: 'john@ontapcreative.co.uk',
+    availableLanguage: 'English',
+  },
+};
+
+const websiteStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${siteUrl}/#website`,
+  name: 'Ontap Job Search',
+  url: siteUrl,
+  publisher: {
+    '@id': `${siteUrl}/#organization`,
+  },
+  inLanguage: 'en-GB',
 };
 
 export default async function RootLayout({
@@ -30,6 +65,18 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationStructuredData),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteStructuredData),
+          }}
+        />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-XLJL0PXJ0V"
