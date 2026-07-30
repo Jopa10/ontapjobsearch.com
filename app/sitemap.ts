@@ -6,6 +6,7 @@ const siteUrl = 'https://www.ontapjobsearch.com'
 const routes = [
   '/',
   '/browse-jobs',
+  '/about',
   '/contact',
   '/privacy-policy',
   '/terms-of-service',
