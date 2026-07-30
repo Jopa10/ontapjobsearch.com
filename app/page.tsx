@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import westYorkshireSupportWorkerJobs from './west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from './south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from './north-east/support-worker-jobs.json';
@@ -12,6 +13,15 @@ import hampshireServiceAdministratorJobs from './hampshire/service-administrator
 import surreyServiceAdministratorJobs from './surrey/service-administrator-jobs.json';
 import kentServiceAdministratorJobs from './kent/service-administrator-jobs.json';
 import { isCentralInnerLondonJob, isOuterLondonJob } from '@/lib/london-job-area';
+
+const canonicalUrl = 'https://www.ontapjobsearch.com/';
+
+export const metadata: Metadata = {
+  title: 'UK Jobs by Role and Region | Ontap Job Search',
+  description:
+    'Browse current UK admin, office support, customer service and support worker jobs, curated by role and region and updated daily.',
+  alternates: { canonical: canonicalUrl },
+};
 
 type Job = {
   title?: string;
