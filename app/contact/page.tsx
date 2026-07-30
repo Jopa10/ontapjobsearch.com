@@ -20,7 +20,9 @@ export default function Contact() {
       </p>
 
       <p className="mb-4 font-medium">
-        enquiries@ontapjobsearch.com
+        <a href="mailto:john@ontapcreative.co.uk" className="underline">
+          john@ontapcreative.co.uk
+        </a>
       </p>
 
       <p>
