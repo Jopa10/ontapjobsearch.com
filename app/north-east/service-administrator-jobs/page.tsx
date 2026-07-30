@@ -39,12 +39,15 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
+
   return (
     <JobSlicePage
       jsonPath={["app", "north-east", "service-administrator-jobs.json"]}
       region="North East"
       title="North East Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
+      latestUpdate={latestUpdate}
+      introText={`Current admin, office-support and customer-service jobs across the North East. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Newcastle"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
