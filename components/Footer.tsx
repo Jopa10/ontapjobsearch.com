@@ -21,8 +21,7 @@ export default function Footer() {
                     <div className="col-span-1 md:col-span-2">
                         <h3 className="text-white text-lg font-bold mb-4">Ontap Job Search</h3>
                         <p className="text-sm mb-4">
-                            Your trusted platform for matching the perfect job opportunities with talented
-                            professionals.
+                            Curated UK jobs by role and region, checked regularly and available without signup.
                         </p>
                     </div>
 
@@ -40,6 +39,11 @@ export default function Footer() {
                             <li>
                                 <Link href="/browse-jobs" className="text-sm hover:text-white transition-colors">
                                     Browse Jobs
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/about" className="text-sm hover:text-white transition-colors">
+                                    About Ontap
                                 </Link>
                             </li>
                         </ul>
