@@ -26,16 +26,47 @@ const routes = [
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date()
+  const jobs = getPublishedJobs()
+  const dates = jobs
+    .map((job) => dateFrom(job.posted_date))
+    .filter((date): date is Date => Boolean(date))
+  const latestJobDate = dates.length
+    ? new Date(Math.max(...dates.map((date) => date.getTime())))
+    : undefined
 
-  const staticPages = routes.map((route) => ({
-    url: `${siteUrl}${route}`,
-    lastModified,
-  }))
+  const staticPages = routes.map((route) => {
+    const routeDates =
+      route === '/' || route === '/browse-jobs'
+        ? dates
+        : jobs
+            .filter((job) => job.slice_path === route)
+            .map((job) => dateFrom(job.posted_date))
+            .filter((date): date is Date => Boolean(date))
+    const lastModified = routeDates.length
+      ? new Date(Math.max(...routeDates.map((date) => date.getTime())))
+      : route === '/' || route === '/browse-jobs'
+        ? latestJobDate
+        : undefined
 
-  const jobPages = getPublishedJobs().map((job) => ({
-    url: `${siteUrl}${getJobPath(job.job_id)}`,
-  }))
+    return {
+      url: `${siteUrl}${route}`,
+      ...(lastModified ? { lastModified } : {}),
+    }
+  })
+
+  const jobPages = jobs.map((job) => {
+    const lastModified = dateFrom(job.posted_date)
+    return {
+      url: `${siteUrl}${getJobPath(job.job_id)}`,
+      ...(lastModified ? { lastModified } : {}),
+    }
+  })
 
   return [...staticPages, ...jobPages]
+}
+
+function dateFrom(value: string): Date | undefined {
+  if (!/^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(value)) return undefined
+  const date = new Date(value)
+  return Number.isNaN(date.getTime()) ? undefined : date
 }
