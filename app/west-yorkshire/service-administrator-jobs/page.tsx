@@ -39,12 +39,15 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
+
   return (
     <JobSlicePage
       jsonPath={["app", "west-yorkshire", "service-administrator-jobs.json"]}
       region="West Yorkshire"
       title="West Yorkshire Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
+      latestUpdate={latestUpdate}
+      introText={`Current admin, office-support and customer-service jobs across West Yorkshire. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Leeds"
       relatedPage={{
         href: "/south-yorkshire/service-administrator-jobs",
@@ -57,4 +60,3 @@ export default function Page() {
     />
   );
 }
-
