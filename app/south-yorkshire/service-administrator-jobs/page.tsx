@@ -40,23 +40,24 @@ const adminTraining = [
 const routeKey = "south-yorkshire/service-administrator-jobs";
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
+
   return (
     <JobSlicePage
       jsonPath={["app", "south-yorkshire", "service-administrator-jobs.json"]}
       region="South Yorkshire"
       title="Service administrator jobs in South Yorkshire"
-      latestUpdate={getJobPageStatus(routeKey)}
+      latestUpdate={latestUpdate}
       anchorTown="Sheffield"
       relatedPage={{
         href: "/west-yorkshire/service-administrator-jobs",
         prompt: "Also searching around West Yorkshire?",
         label: "View West Yorkshire admin & customer-service jobs",
       }}
-      introText={`Updated daily • Latest update: ${getJobPageStatus(routeKey)} • Service administrator, customer service administrator, office support and admin roles across South Yorkshire • Apply on employer sites`}
+      introText={`Current admin, office-support and customer-service jobs across South Yorkshire. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
     />
   );
 }
-
