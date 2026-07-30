@@ -1,0 +1,33 @@
+name: Submit changed URLs to IndexNow
+
+on:
+  deployment_status:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit-indexnow:
+    name: Submit changed URLs to IndexNow
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.deployment_status.state == 'success' &&
+       github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out deployed revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha || 'main' }}
+          fetch-depth: 2
+
+      - name: Submit public URL changes
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python pipeline/scripts/submit_indexnow.py --all
+          else
+            python pipeline/scripts/submit_indexnow.py --before HEAD^ --after HEAD
+          fi
