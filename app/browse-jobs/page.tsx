@@ -1,9 +1,19 @@
+import type { Metadata } from 'next';
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
 import sussexSupportWorkerJobs from '../sussex/support-worker.json';
 import cumbriaSouthSupportWorkerJobs from '../cumbria-south/support-worker.json';
 import hampshireSupportWorkerJobs from '../hampshire/support-worker.json';
+
+const canonicalUrl = 'https://www.ontapjobsearch.com/browse-jobs';
+
+export const metadata: Metadata = {
+  title: 'Browse UK Jobs by Role and Region | Ontap Job Search',
+  description:
+    'Browse current UK admin, office support, customer service and support worker job pages by role and region.',
+  alternates: { canonical: canonicalUrl },
+};
 
 type BrowseCard = {
   title: string;
