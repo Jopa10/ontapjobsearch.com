@@ -4,6 +4,7 @@ import Link from "next/link";
 import TrainingLink from "@/components/traininglink";
 import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
+import { sourceLabel } from "@/lib/job-facts";
 import { getJobPath } from "@/lib/published-jobs";
 import styles from "@/components/JobSlicePage.module.css";
 
@@ -188,6 +189,12 @@ function getSummary(job: JobRow) {
   return truncateAtWord(collapsed, 220);
 }
 
+function externalApplicationSource(source: string) {
+  const normalised = source.trim();
+  if (!normalised || normalised.toLowerCase() === "jobg8") return "";
+  return sourceLabel(normalised);
+}
+
 const careTraining: TrainingItem[] = [
   {
     title: "Care Certificate Online Course",
@@ -339,6 +346,7 @@ export default function JobSlicePage({
 
             {jobs.map((j, idx) => {
               const summary = getSummary(j);
+              const applicationSource = externalApplicationSource(j.source);
 
               return (
                 <div
@@ -378,7 +386,20 @@ export default function JobSlicePage({
                     View full job description →
                   </Link>
 
-                  <div style={{ marginTop: 12 }}>
+                  {applicationSource ? (
+                    <div
+                      style={{
+                        marginTop: 8,
+                        color: "#6b7280",
+                        fontSize: 12,
+                        lineHeight: 1.4,
+                      }}
+                    >
+                      Original vacancy on {applicationSource}
+                    </div>
+                  ) : null}
+
+                  <div style={{ marginTop: applicationSource ? 6 : 12 }}>
                     <ApplyButton
                       apply_url={j.apply_url}
                       job_id={j.job_id}
