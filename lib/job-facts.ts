@@ -23,8 +23,7 @@ export type JobFact = {
     | "work_pattern"
     | "working_arrangement"
     | "posted"
-    | "closing"
-    | "source";
+    | "closing";
   label: string;
   value: string;
 };
@@ -148,7 +147,6 @@ export function buildJobFacts(job: JobFactsInput): JobFact[] {
   const posted = formatJobDate(text(job.posted_date));
   const postedBasis = text(job.posted_date_basis).toLowerCase();
   const closing = formatJobDate(text(job.closing_date));
-  const source = sourceLabel(text(job.source));
 
   if (employer) facts.push({ key: "employer", label: employerFactLabel(job), value: employer });
   if (location) facts.push({ key: "location", label: "Location", value: location });
@@ -172,7 +170,6 @@ export function buildJobFacts(job: JobFactsInput): JobFact[] {
     facts.push({ key: "posted", label: "Posted", value: posted });
   }
   if (closing) facts.push({ key: "closing", label: "Closing date", value: closing });
-  if (source) facts.push({ key: "source", label: "Source", value: source });
 
   return facts;
 }
