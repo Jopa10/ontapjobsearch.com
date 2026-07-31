@@ -62,14 +62,13 @@ function descriptionHtml(value: string) {
 }
 
 function jobPostingSchema(job: PublishedJob, canonicalUrl: string) {
-  if (!validPostedDate(job.posted_date) || !hasCompleteDescription(job.description)) return null;
+  if (!hasCompleteDescription(job.description)) return null;
 
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "JobPosting",
     title: job.title,
     description: descriptionHtml(job.description),
-    datePosted: job.posted_date,
     hiringOrganization: {
       "@type": "Organization",
       name: cleanEmployerName(job) || "Confidential",
@@ -85,6 +84,13 @@ function jobPostingSchema(job: PublishedJob, canonicalUrl: string) {
     },
     url: canonicalUrl,
   };
+
+  const sourceDateIsReliable =
+    job.posted_date_basis === "source" ||
+    (job.source.toLowerCase() === "nejobs" && !job.posted_date_basis);
+  if (sourceDateIsReliable && validPostedDate(job.posted_date)) {
+    schema.datePosted = job.posted_date;
+  }
 
   if (validClosingDateTime(job.closing_datetime)) {
     schema.validThrough = job.closing_datetime;
