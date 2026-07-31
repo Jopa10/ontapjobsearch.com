@@ -1,25 +1,25 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
-2026-07-31,POSS - YORKSHIRE - WEST,Yorkshire - West,Live-in Personal Care Assistant - History and Sociology Student,Leeds,£170 per daily,,,107751768
-2026-07-31,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Leeds,£14.24 - £16 per hour (+ INC holiday pay),,,107616819
-2026-07-31,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+2026-07-31,SELECTED,Yorkshire - West,Complex Care Assistant,Leeds,£14.24 - £16 per hour (+ INC holiday pay),,1,107616819
+2026-07-31,SELECTED,Yorkshire - West,Live-in Personal Care Assistant - History and Sociology Student,Leeds,£170 per daily,,1,107751768
+2026-07-31,SELECTED,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,1,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 2026-07-31,SELECTED,"North East - Tyneside, Wearside & Northumberland",Young People Support Worker,Whitley Bay,"£19,738.88 per annum",,,1533503
 2026-07-31,SELECTED,"North East - Tyneside, Wearside & Northumberland",Male Support Worker,Whitley Bay,£15 per hour,,,35ef02dd-6e8a-4d5a-a1af-bacca950305f
 2026-07-31,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Newcastle Upon Tyne,£29350 per year,,,107616541
 2026-07-31,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Ashington,£13.21 per hour,,,9b0995dd-b5e5-433f-b113-8a55acf6d8cd
-2026-07-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Bishop Auckland,£13.15 per hour,,,6b804bc2-d778-42ed-bf1b-d3ec78422d8a
-2026-07-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Young People Support Worker,Bishop Auckland,£26436 per year,,,73c0f5e3-00b5-42fb-a99e-821f1f643a81
-2026-07-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Darlington,£13.15 per hour,,,cc359452-7885-406f-b982-9931f062cd19
+2026-07-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Bishop Auckland,£13.15 per hour,,1,6b804bc2-d778-42ed-bf1b-d3ec78422d8a
+2026-07-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Young People Support Worker,Bishop Auckland,£26436 per year,,1,73c0f5e3-00b5-42fb-a99e-821f1f643a81
+2026-07-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Darlington,£13.15 per hour,,1,cc359452-7885-406f-b982-9931f062cd19
 2026-07-31,SELECTED,Sussex,Care Assistant - Care Home,Chichester,£13.21 per hour,,,b045cd0a-82e7-4208-8161-9940e9e8f7c7
 2026-07-31,SELECTED,Sussex,Night Care Assistant,Chichester,£13.21 per hour,,,99725da6-35b1-4d29-9426-1b7224ab3269
 2026-07-31,SELECTED,Sussex,Night Care Assistant,Crawley,£14.5 per hour,,,44c04919-b68b-4946-9565-88687eb782e2
 2026-07-31,SELECTED,Sussex,Domestic Abuse Support Worker,Brighton,"£27,976 per annum",,,1595772
 2026-07-31,SELECTED,Sussex,Care Assistant - Care Home,Seaford,£14 per hour,,,900c1729-603f-4f3f-9b4c-ef2083d35828
 2026-07-31,SELECTED,Sussex,Personal Assistant to a recent Graduate,Chichester,£15 per hour,,,107617907
-2026-07-31,POSS - CUMBRIA - SOUTH,Cumbria - South,Complex Care Assistant,Kendal,£16.53 per hour ((including holiday pay)),,,107572044
+2026-07-31,SELECTED,Cumbria - South,Complex Care Assistant,Kendal,£16.53 per hour ((including holiday pay)),,1,107572044
 2026-07-31,SELECTED,Hampshire,Care Assistant - Care Home,Hook,£14 per hour,,,77b95346-e87e-49a2-ba72-135448bf136e
 2026-07-31,SELECTED,Hampshire,Domiciliary Care Assistant,Andover,£13 - £15 per hour (Salary Dependent on experience),,,107404020
 2026-07-31,SELECTED,Hampshire,Night Care Assistant,Southampton,£13.81 per hour,,,2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4
 2026-07-31,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Ringwood,£16.47 per hour,,,c4b882e9-0d0f-433e-820e-ed014114370d
+2026-07-31,SELECTED,Hampshire,Child Support Worker,Portsmouth,£16 - £18 per hour,,1,62ac8011-cb52-461e-bd72-7273b61cb640
+2026-07-31,SELECTED,Hampshire,Support Worker - Children & Young People,Southampton,£16 - £18 per hour,,1,58c3e926-cf9b-4aae-a931-e1c867a7b221
 2026-07-31,SELECTED,Hampshire,Female Waking Night Support Worker,Tadley,£13.2 per hour (plus benefits),,,107656217
-2026-07-31,POSS - HAMPSHIRE,Hampshire,Support Worker - Children & Young People,Southampton,£16 - £18 per hour,,,58c3e926-cf9b-4aae-a931-e1c867a7b221
-2026-07-31,POSS - HAMPSHIRE,Hampshire,Child Support Worker,Portsmouth,£16 - £18 per hour,,,62ac8011-cb52-461e-bd72-7273b61cb640
