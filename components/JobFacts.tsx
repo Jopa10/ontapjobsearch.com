@@ -21,24 +21,17 @@ export default function JobFacts({
         variant === "detail" ? styles.detail : styles.card
       }`}
     >
-      {facts.map((fact) => {
-        const compactSource = variant === "card" && fact.key === "source";
-
-        return (
-          <div
-            className={`${styles.fact} ${compactSource ? styles.compactSource : ""}`}
-            key={fact.key}
-          >
-            <dt className={styles.label}>{fact.label}</dt>
-            <dd className={styles.value}>
-              {fact.value}
-              {fact.key === "location" && anchorTown && fact.value === anchorTown ? (
-                <span className={styles.anchorTown}>{anchorTown}</span>
-              ) : null}
-            </dd>
-          </div>
-        );
-      })}
+      {facts.map((fact) => (
+        <div className={styles.fact} key={fact.key}>
+          <dt className={styles.label}>{fact.label}</dt>
+          <dd className={styles.value}>
+            {fact.value}
+            {fact.key === "location" && anchorTown && fact.value === anchorTown ? (
+              <span className={styles.anchorTown}>{anchorTown}</span>
+            ) : null}
+          </dd>
+        </div>
+      ))}
     </dl>
   );
 }
