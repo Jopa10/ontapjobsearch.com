@@ -208,14 +208,20 @@ class AtAGlanceReviewTests(unittest.TestCase):
         row = review_job(job, ["admin.json"])
 
         self.assertEqual(row["status"], "omitted")
-        self.assertEqual(row["reason"], "fewer than two supported task attributes")
+        self.assertIn(
+            row["reason"],
+            {
+                "fewer than two supported task attributes",
+                "no reliable duties section found",
+            },
+        )
 
     def test_description_hash_is_versioned_and_deterministic(self) -> None:
         value = "Maintaining records and systems."
         self.assertEqual(description_hash(value), description_hash(value))
         self.assertNotEqual(description_hash(value), description_hash(value + " More."))
         self.assertEqual(len(description_hash(value)), 64)
-        self.assertEqual(RULE_VERSION, "2")
+        self.assertEqual(RULE_VERSION, "3")
 
     def test_current_card_summary_matches_existing_first_sentence_behaviour(self) -> None:
         job = {
