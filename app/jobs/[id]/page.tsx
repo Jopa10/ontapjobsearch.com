@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
-import WorkingArrangementBadge from "@/components/WorkingArrangementBadge";
+import JobFacts from "@/components/JobFacts";
+import { cleanEmployerName } from "@/lib/job-facts";
 import {
   getJobPath,
   getPublishedJob,
@@ -22,15 +23,6 @@ export function generateStaticParams() {
   return getPublishedJobs().map((job) => ({ id: job.job_id }));
 }
 
-function cleanCompanyName(job: PublishedJob) {
-  const parts = job.company.split(" - ").map((part) => part.trim()).filter(Boolean);
-  if (parts.length > 1 && parts.at(-1) === job.employment_type) parts.pop();
-  if (parts.length > 1 && /^(agency|direct employer|employer)$/i.test(parts.at(-1) || "")) {
-    parts.pop();
-  }
-  return parts.join(" - ") || job.company || "confidential";
-}
-
 function validPostedDate(value: string) {
   return /^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(value);
 }
@@ -40,26 +32,6 @@ function validClosingDateTime(value: string) {
     /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})$/.test(value) &&
     !Number.isNaN(Date.parse(value))
   );
-}
-
-function formatClosingDate(value: string) {
-  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
-  if (!match) return value;
-
-  const date = new Date(
-    Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 12)
-  );
-  return new Intl.DateTimeFormat("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC",
-  }).format(date);
-}
-
-function externalSourceLabel(source: string) {
-  if (source.toLowerCase() === "nejobs") return "North East Jobs";
-  return source;
 }
 
 function isExternalSource(source: string) {
@@ -100,7 +72,7 @@ function jobPostingSchema(job: PublishedJob, canonicalUrl: string) {
     datePosted: job.posted_date,
     hiringOrganization: {
       "@type": "Organization",
-      name: cleanCompanyName(job),
+      name: cleanEmployerName(job) || "Confidential",
     },
     jobLocation: {
       "@type": "Place",
@@ -128,16 +100,6 @@ function metaDescription(job: PublishedJob) {
   const prefix = `${job.title} in ${job.location}. `;
   if (!summary) return `${job.title} in ${job.location}. View the full job description and apply.`;
   return `${prefix}${summary}`.slice(0, 160).trimEnd();
-}
-
-function formatSalary(value: string) {
-  if (!value) return "";
-  if (!/\bper year\b|\bper annum\b/i.test(value)) return value;
-
-  return value.replace(/£\s*(\d[\d,]*(?:\.\d+)?)/g, (match, amount: string) => {
-    const numeric = Number(amount.replace(/,/g, ""));
-    return Number.isFinite(numeric) ? `£${Math.round(numeric).toLocaleString("en-GB")}` : match;
-  });
 }
 
 function moreJobsLabel(value: string) {
@@ -206,31 +168,7 @@ export default async function JobPage({ params }: PageProps) {
           {job.title}
         </h1>
 
-        <div style={{ color: "#555", marginBottom: 10 }}>
-          {job.company} • {job.location}
-          <WorkingArrangementBadge
-            workingArrangement={job.working_arrangement}
-            workingArrangementText={job.working_arrangement_text}
-          />
-        </div>
-
-        {job.salary_text ? (
-          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 18 }}>
-            {formatSalary(job.salary_text)}
-          </div>
-        ) : null}
-
-        {job.closing_date ? (
-          <div style={{ color: "#555", marginTop: -10, marginBottom: 12 }}>
-            Closes {formatClosingDate(job.closing_date)}
-          </div>
-        ) : null}
-
-        {isExternalSource(job.source) ? (
-          <div style={{ color: "#6b7280", fontSize: 14, marginBottom: 18 }}>
-            Source: {externalSourceLabel(job.source)}
-          </div>
-        ) : null}
+        <JobFacts job={job} variant="detail" />
 
         <div style={{ marginBottom: 22 }}>
           <ApplyButton
