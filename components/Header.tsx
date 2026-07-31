@@ -26,7 +26,7 @@ export default function Header() {
                     {/* Logo */}
                     <Link href={homeLink} className="flex items-center gap-2">
                         <Image
-                            src="/assets/ontap-icon.svg"
+                            src="/assets/ontap-icon-v2.svg"
                             alt="Ontap"
                             width={32}
                             height={32}

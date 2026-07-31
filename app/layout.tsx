@@ -32,7 +32,7 @@ const organizationStructuredData = {
   url: siteUrl,
   logo: {
     '@type': 'ImageObject',
-    url: `${siteUrl}/assets/ontap-icon.svg`,
+    url: `${siteUrl}/assets/ontap-icon-v2.svg`,
   },
   email: 'john@ontapcreative.co.uk',
   contactPoint: {
