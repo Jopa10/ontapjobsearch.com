@@ -14,8 +14,8 @@ class AtAGlanceReviewV3Tests(unittest.TestCase):
             "category": "Admin/Service – Office Support",
             "description": (
                 "About the Role\n"
-                "Processing new starters and leavers.\n"
-                "Maintaining the HR system and running HR reports.\n"
+                "Processing new starters, carrying out pre-employment checks, and "
+                "processing leavers.\n"
                 "To be successful in this role\n"
                 "Experience of producing accurate written correspondence, including "
                 "employment contracts and offer letters."
@@ -25,6 +25,8 @@ class AtAGlanceReviewV3Tests(unittest.TestCase):
         row = review_job(job, ["hr.json"])
 
         self.assertEqual(row["status"], "generated")
+        self.assertIn("pre-employment checks", row["proposed_at_a_glance"])
+        self.assertIn("starter and leaver processing", row["proposed_at_a_glance"])
         self.assertNotIn("correspondence", row["proposed_at_a_glance"].casefold())
         self.assertNotIn("Correspondence", row["attributes"])
 
