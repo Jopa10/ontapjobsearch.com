@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import AtAGlance from "@/components/AtAGlance";
-import JobFacts from "@/components/JobFacts";
+import { cleanEmployerName } from "@/lib/job-facts";
 import { getAtAGlanceAttributes } from "@/lib/at-a-glance-preview";
 import { getJobPath, getPublishedJobs } from "@/lib/published-jobs";
+import styles from "@/app/at-a-glance-preview/preview.module.css";
 
 export const metadata: Metadata = {
-  title: "At a glance preview | Ontap Job Search",
+  title: "Compact job-list preview | Ontap Job Search",
   robots: { index: false, follow: false },
 };
 
@@ -25,79 +25,131 @@ export default function AtAGlancePreviewPage() {
       return left.job.title.localeCompare(right.job.title);
     });
 
+  const sampleJobs = jobs.filter((_, index) => index % 3 === 0).slice(0, 15);
+
   return (
-    <main style={{ maxWidth: 820, margin: "36px auto", padding: "0 16px" }}>
-      <div style={{ marginBottom: 18 }}>
-        <div
-          style={{
-            display: "inline-block",
-            padding: "3px 8px",
-            borderRadius: 999,
-            background: "#f3f4f6",
-            color: "#4b5563",
-            fontSize: 12,
-            fontWeight: 700,
-            marginBottom: 8,
-          }}
-        >
-          Review preview — not live
-        </div>
-        <h1 style={{ fontSize: 28, fontWeight: 800, marginBottom: 6 }}>
-          Compact “At a glance” job cards
-        </h1>
-        <p style={{ color: "#6b7280", fontSize: 14, lineHeight: 1.5 }}>
-          {jobs.length} current vacancies have enough direct duty evidence to
-          show this line. Other vacancies would simply omit it.
+    <main className={styles.page}>
+      <div className={styles.intro}>
+        <div className={styles.reviewBadge}>Review preview — not live</div>
+        <h1 className={styles.heading}>Rapid job-list comparison</h1>
+        <p className={styles.introText}>
+          The same {sampleJobs.length} current vacancies are shown twice. Click any
+          row to open the normal full job page. The purpose here is simply to see
+          which compact layout makes jobs fastest to scan.
         </p>
+        <div className={styles.jumpLinks}>
+          <a className={styles.jumpLink} href="#one-line">
+            A — single line
+          </a>
+          <a className={styles.jumpLink} href="#two-line">
+            B — two lines
+          </a>
+        </div>
       </div>
 
-      <div style={{ display: "grid", gap: 10 }}>
-        {jobs.map(({ job, attributes }) => (
-          <article
-            key={job.job_id}
-            style={{
-              border: "1px solid #dbe3ee",
-              borderRadius: 12,
-              padding: "14px 16px",
-              background: "#fff",
-            }}
-          >
-            <div style={{ fontWeight: 800, fontSize: 16 }}>{job.title}</div>
+      <section id="one-line" className={styles.section}>
+        <h2 className={styles.sectionHeading}>A — single-line list</h2>
+        <p className={styles.sectionNote}>
+          Maximum density: role, employer/location, pay/contract and three key
+          duties in one clickable row.
+        </p>
 
-            <JobFacts job={job} />
+        <div className={styles.listShell}>
+          <div className={styles.oneLineHeader} aria-hidden="true">
+            <span>Role</span>
+            <span>Employer · location</span>
+            <span>Pay · contract</span>
+            <span>Quick duties</span>
+            <span />
+          </div>
 
-            <AtAGlance attributes={attributes} />
+          {sampleJobs.map(({ job, attributes }) => {
+            const employerLocation = [cleanEmployerName(job), job.location]
+              .filter(Boolean)
+              .join(" · ");
+            const terms = [job.salary_text || "Salary not stated", job.employment_type]
+              .filter(Boolean)
+              .join(" · ");
+            const duties = attributes.slice(0, 3).join(" • ");
 
-            <Link
-              href={getJobPath(job.job_id)}
-              style={{
-                fontSize: 13,
-                color: "#2563eb",
-                textDecoration: "none",
-              }}
-            >
-              View full job description →
-            </Link>
-
-            <div style={{ marginTop: 12 }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  border: 0,
-                  borderRadius: 8,
-                  padding: "9px 14px",
-                  background: "#111827",
-                  color: "#fff",
-                  fontSize: 14,
-                  fontWeight: 700,
-                }}
+            return (
+              <Link
+                key={`one-${job.job_id}`}
+                href={getJobPath(job.job_id)}
+                className={styles.oneLineRow}
               >
-                Apply for this job
-              </span>
-            </div>
-          </article>
-        ))}
-      </div>
+                <span className={styles.oneLineRole} title={job.title}>
+                  {job.title}
+                </span>
+                <span className={styles.oneLineEmployer} title={employerLocation}>
+                  {employerLocation}
+                </span>
+                <span className={styles.oneLineTerms} title={terms}>
+                  {terms}
+                </span>
+                <span className={styles.oneLineDuties} title={attributes.join(" • ")}>
+                  {duties}
+                </span>
+                <span className={styles.arrow} aria-hidden="true">
+                  →
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <section id="two-line" className={styles.section}>
+        <h2 className={styles.sectionHeading}>B — two-line list</h2>
+        <p className={styles.sectionNote}>
+          Slightly more breathing room: the first line carries the decision facts;
+          the second uses compact duty tags.
+        </p>
+
+        <div className={styles.listShell}>
+          {sampleJobs.map(({ job, attributes }) => {
+            const employerLocation = [cleanEmployerName(job), job.location]
+              .filter(Boolean)
+              .join(" · ");
+            const terms = [job.salary_text || "Salary not stated", job.employment_type]
+              .filter(Boolean)
+              .join(" · ");
+
+            return (
+              <Link
+                key={`two-${job.job_id}`}
+                href={getJobPath(job.job_id)}
+                className={styles.twoLineRow}
+              >
+                <span className={styles.twoLineTop}>
+                  <span className={styles.twoLineRole} title={job.title}>
+                    {job.title}
+                  </span>
+                  <span className={styles.twoLineTerms} title={terms}>
+                    {terms}
+                  </span>
+                  <span className={styles.arrow} aria-hidden="true">
+                    →
+                  </span>
+                </span>
+
+                <span className={styles.twoLineBottom}>
+                  <span className={styles.twoLineMeta} title={employerLocation}>
+                    {employerLocation}
+                  </span>
+                  <span className={styles.tags}>
+                    {attributes.slice(0, 4).map((attribute) => (
+                      <span key={attribute} className={styles.tag}>
+                        {attribute}
+                      </span>
+                    ))}
+                  </span>
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
     </main>
   );
 }
