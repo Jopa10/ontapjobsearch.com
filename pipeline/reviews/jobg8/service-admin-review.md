@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-07-30
+feed_date: 2026-07-31
 
 Edit only the `action:` line in each block:
 
@@ -10,72 +10,6 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £27000 - £30000 per year | Administrator/PA
-job_id: fdbb2948-fc07-4b1f-9d12-2c22fbf7026c
----
-
----
-action:
-SELECTED | Yorkshire - West | Wetherby | £25000 - £30000 per year | Administrator
-job_id: ee65174c-e42b-4e39-a9db-247484fc9d98
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £26000 - £27000 per year | Team Administrator - 6 months FTC
-job_id: eb010ba3-32d8-4d46-a7b0-2d7cd220bba2
----
-
----
-action:
-SELECTED | Yorkshire - West | Wakefield | £13.69 per hour | Business Support Officer
-job_id: ae8b96b9-a0e7-47a7-ba6e-d75116aa2d0c
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £12.71 - £13.33 per hour | Receptionist
-job_id: 9ebe9748-c187-4b4c-bf1f-906d0c47f5fc
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £29000 per year | Team Administrator - School Hours
-job_id: 93e46441-7a59-41a4-aa83-5e8fa103f15f
----
-
----
-action:
-SELECTED | Yorkshire - West | Wakefield | £12.7 - £13 per hour | Junior Office Administrator
-job_id: 6415e3f2-97a6-4926-89a2-49e1a07dd954
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds |  | Insurance Broking Accounts Administrator (I-REC)
-job_id: 5f121748-e727-4979-aa7a-0b9415ecac70
----
-
----
-action:
-SELECTED | Yorkshire - West | Wetherby | £28000 - £30000 per year | Team Administrator - Wetherby
-job_id: 59c568c5-9505-4496-9dac-1f4ae2686b6a
----
-
----
-action:
-SELECTED | Yorkshire - West | Bradford | £13.5 per hour | Temporary Finance Administrator - Education
-job_id: ec237c2a-3320-4238-a950-1ee708174fdc
----
-
----
-action:
-SELECTED | Yorkshire - West | Shipley | £26000 - £30000 per year | Sales Administrator
-job_id: 92947bbe-5ad0-443d-9145-e950a49ec9b2
----
 
 ---
 action:
@@ -105,18 +39,6 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 
 ---
 action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £200 - £220 per daily | Data Protection Administrator
-job_id: ffb0d3a3-4804-45f1-8764-5943838d9003
----
-
----
-action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £30000 - £35000 per year | Sales Administrator
-job_id: 923ff7b8-d100-40e6-9225-40ec500144b4
----
-
----
-action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
 job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 ---
@@ -125,32 +47,8 @@ job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster | £27000 - £32000 per year | Care Coordinator
-job_id: e6f22f9e-863e-47ab-a1eb-3daa4dac192a
----
-
----
-action:
-SELECTED | Yorkshire - South | Rotherham | £26000 - £29000 per year | Customer Service Admin
-job_id: b6d59678-9609-4c19-acf3-5559db81c9e9
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £28000 - £30000 per year | Import / Export Administrator
-job_id: a526338b-ed95-47c7-889c-44b5c4aff404
----
-
----
-action:
 SELECTED | Yorkshire - South | Barnsley | £25000 - £30000 per year | Receptionist / Facilities Coordinator
 job_id: 3210a914-2c99-4b6c-870b-c2001651b931
----
-
----
-action:
-SELECTED | Yorkshire - South | Barnsley | £26000 per year | Recruitment Onsite Operations Coordinator
-job_id: 107606837
 ---
 
 ---
@@ -165,69 +63,17 @@ SELECTED | Yorkshire - South | Doncaster | £25000 - £30000 per year | Project 
 job_id: 9d793cd4-ff2a-4749-9512-a7407298f539
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £13.45 per hour | Business Support Officer - Local Authority Library
+job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £22000 - £35000 per year | Financial Services Administrator
-job_id: 61874f47-6de5-49db-beac-564013ba9a95
----
-
----
-action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £15 - £16 per hour | Site Administrator
-job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
----
-
----
-action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £40000 per year | Health Hub Coordinator
-job_id: 107667796
----
+_No jobs in this group._
 
 ## NORTH EAST — SELECTED
-
----
-action:
-SELECTED | North East | Newcastle Upon Tyne | £13.5 per hour | Temporary Corporate Receptionist (Ad hoc) - Newcastle
-job_id: e3bdd7d7-6c0c-4560-b09b-d1a92c08dad9
----
-
----
-action:
-SELECTED | North East | Newcastle Upon Tyne | £13 per hour | Temporary Part-Time Administrator Gosforth
-job_id: b4f34caf-8e57-4de7-b837-f8ab75aebf4a
----
-
----
-action:
-SELECTED | North East | Spennymoor |  | Internal Sales Administrator
-job_id: 9965df1d-32cb-4cf0-a560-90fa51eaf71a
----
-
----
-action:
-SELECTED | North East | Hartlepool | £12.71 per hour | Temporary Administrator - Immediate start
-job_id: 706dc61c-8f20-469d-bd69-d82307430cf1
----
-
----
-action:
-SELECTED | North East | Bishop Auckland | £26000 - £28000 per year | Customer Service Administrator
-job_id: 5b8db6c3-53b1-40ed-a126-ba66f16e0993
----
-
----
-action:
-SELECTED | North East | Hartlepool | £19196 per year | Clerical Officer
-job_id: 16501b8c-5a8e-47e1-8cf5-81f01f8565d4
----
-
----
-action:
-SELECTED | North East | Cramlington |  | Purchasing Administrator
-job_id: e7a9b51c-2698-4fde-9c96-5700106868e5
----
 
 ---
 action:
@@ -273,67 +119,9 @@ job_id: 74b2edbd-f145-42de-bca5-93f37ec0bca2
 
 ## NORTH EAST — POSSIBLES
 
----
-action:
-POSS - NORTH EAST | North East | Newcastle | £50000 - £65000 per year | Administrator
-job_id: ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
----
+_No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £28000 - £35000 per year | Patient Coordinator
-job_id: ae8f6386-56f4-4fe2-b1dd-c734c98e586a
----
-
----
-action:
-SELECTED | London | London | £30000 - £35000 per year | Shipping Administration Coordinator
-job_id: 4b95051a-1afd-4f79-8df6-17d52006246e
----
-
----
-action:
-SELECTED | London | London | £15 - £20 per hour | Part-Time Admissions & Attendance Administrator
-job_id: 2cde9d2c-e5a1-48b3-a74e-db97f135c4b7
----
-
----
-action:
-SELECTED | London | Romford | £100 - £120 per daily | School Administrator
-job_id: bc188a0d-61e8-4f3a-af5c-6dc45fc8784e
----
-
----
-action:
-SELECTED | London | London | £115 - £120 per daily | School Administrator - Waltham Forest
-job_id: 3611009d-3fea-4842-8e37-7ec4b9b40d79
----
-
----
-action:
-SELECTED | London | Ilford | £106.56 per daily | Business Support Administrator
-job_id: fde75564-077e-43bf-95db-8ac20a22def2
----
-
----
-action:
-SELECTED | London | Feltham | £28000 per year | Administrator
-job_id: fa86a8ff-8d90-4867-9253-90c87a724dd7
----
-
----
-action:
-SELECTED | London | London | £28000 - £35000 per year | Care Coordinator
-job_id: f9f87ff6-84cf-43ac-bd6b-70599a386639
----
-
----
-action:
-SELECTED | London | London | £28000 per year | Receptionist Administrator
-job_id: f023e0ee-2973-4539-a1f2-8a244e002010
----
 
 ---
 action:
@@ -343,140 +131,8 @@ job_id: 107663038
 
 ---
 action:
-SELECTED | London | London | £32000 - £35000 per year | Administrator / Receptionist
-job_id: e40365a2-e455-488b-a8c0-2009bf3c231c
----
-
----
-action:
-SELECTED | London | Uxbridge | £25000 per year | Customer Support Administrator
-job_id: e2dfa737-ca4a-41e0-a227-f26b4d5c5b40
----
-
----
-action:
-SELECTED | London | London | £12.71 - £13.71 per hour | Administrator Bank and Part time Canary Wharf 32 hours per week
-job_id: e2b840d1-3c78-4ab9-aae7-f5337f647327
----
-
----
-action:
-SELECTED | London | Barking | £25500 per year | Trainee Office administrator
-job_id: db4a4325-f547-40fe-ad60-7060b5e64e79
----
-
----
-action:
-SELECTED | London | London | £35000 per year | Secretary
-job_id: d301bdd5-5c16-4b18-aab4-0b62c66574b6
----
-
----
-action:
-SELECTED | London | Barking | £24000 - £25500 per year | Entry Level Administrator
-job_id: c38592d7-5e7b-43dc-b88d-5b69f5edbe29
----
-
----
-action:
-SELECTED | London | London | £28000 - £30000 per year | Sales and Operations Administrator
-job_id: bcf39daa-2626-4711-a2b0-d49204af6df7
----
-
----
-action:
-SELECTED | London | London | £30000 - £35000 per year | Secretary/Receptionist
-job_id: b8e6203a-6935-4c48-aad1-a9db5326b5aa
----
-
----
-action:
-SELECTED | London | London |  | School and Data Administrator
-job_id: af9dc98f-624b-4f28-9113-cb1f1a9f886c
----
-
----
-action:
-SELECTED | London | London | £26000 - £30000 per year | Office Assistant
-job_id: a9bf0396-642b-4570-8e33-c4d4a1203521
----
-
----
-action:
-SELECTED | London | London |  | Team Administrator
-job_id: a78be04d-cc6c-4440-9aea-d0de82bd17cb
----
-
----
-action:
-SELECTED | London | London | £28000 - £33000 per year | Private Medical Receptionist
-job_id: a3933ff5-36a0-445a-bf43-3d8c00c53cac
----
-
----
-action:
-SELECTED | London | London | £25000 - £35000 per year | School Administrator and Receptionist
-job_id: 960e6b29-af29-4a8a-9bc1-7e0f0a51a9a5
----
-
----
-action:
-SELECTED | London | London | £35000 per year | Office Coordinator
-job_id: 920deff1-36d0-49c9-96cd-973bcdc16115
----
-
----
-action:
-SELECTED | London | London | £28000 - £32000 per year | Mortgage Administrator
-job_id: 853a077e-e7dc-4fa7-b361-e6630e7e4788
----
-
----
-action:
 SELECTED | London | City |  | Corporate Services Operations Coordinator
 job_id: 107699141
----
-
----
-action:
-SELECTED | London | London | £28000 - £30000 per year | Account Coordinator
-job_id: 5b696a5a-a2a2-48f6-98c0-1e7422504062
----
-
----
-action:
-SELECTED | London | Sidcup | £25000 - £28000 per year | Operations Administrator
-job_id: 76dc46f9-a6e8-4c12-91a5-424019cb5e58
----
-
----
-action:
-SELECTED | London | London | £15 per hour | Business Support Officer
-job_id: 760911ff-d185-49ba-bee4-150d1b924aae
----
-
----
-action:
-SELECTED | London | London | £28000 per year | SSAS Administrator
-job_id: 6d1a0d1e-192c-499a-b24f-73a2d1046858
----
-
----
-action:
-SELECTED | London | Barking | £24000 - £26000 per year | Sales Support Administrator
-job_id: 6a2ec28e-20d9-4714-9789-4a06502d54bc
----
-
----
-action:
-SELECTED | London | London | £16 per hour | Office Assistant 3 month Temp
-job_id: 653586cf-027d-4490-a84f-70b948514312
----
-
----
-action:
-SELECTED | London | London | £30000 - £35000 per year | FA Administrator North West London Up to £35,000 Hybrid Working
-job_id: 5ee069a3-5c92-41c7-b10c-b34f4efe1819
 ---
 
 ---
@@ -493,56 +149,8 @@ job_id: d80effd1-f790-46d0-942e-27c2de0d6305
 
 ---
 action:
-SELECTED | London | Harrow | £13.5 per hour | Clinical Administrator
-job_id: 2e0f17ce-eacf-4dfd-b33f-6b3dfc640c41
----
-
----
-action:
-SELECTED | London | London | £28000 - £32000 per year | Operations Administrator in Financial Advisory
-job_id: 887c5040-e943-4083-a032-078f4ad1afab
----
-
----
-action:
 SELECTED | London | Harrow | £15.36 per hour | Extra Care Support Coordinator
 job_id: 107719639
----
-
----
-action:
-SELECTED | London | London | £27000 - £28000 per year | ESG Administrator
-job_id: c95dcc3a-aebc-4fba-850a-1e423f93872d
----
-
----
-action:
-SELECTED | London | London | £32000 - £35000 per year | Financial Administrator route to Paraplanning - City of London - £32-35k plus full study support
-job_id: 3089d153-b3c0-41e1-bbaa-b8cca9114a3d
----
-
----
-action:
-SELECTED | London | London | £28000 - £32000 per year | Office Administrator
-job_id: 50305aa1-cd45-4fbf-9d3c-0396d942139e
----
-
----
-action:
-SELECTED | London | Chessington | £26000 - £28000 per year | Service Administrator
-job_id: 365a170b-e62e-49f9-b465-6fa223da75bd
----
-
----
-action:
-SELECTED | London | Teddington | £30000 per year | Sales Administrator (Part Time)
-job_id: 9b48a7b1-48d9-48c8-8cae-115c132bd6d9
----
-
----
-action:
-SELECTED | London | London |  | Risk Administrator - US Law Firm (6 month FTC)
-job_id: b801c68f-5b19-482e-988a-f1d7c5338961
 ---
 
 ---
@@ -595,7 +203,7 @@ job_id: 1599080
 
 ---
 action:
-SELECTED | London | London | £24000 per year | Corporate Administrator (6 months FTC)
+SELECTED | London | London | £24000 per year | Corporate Administrator 6 months FTC
 job_id: 107758806
 ---
 
@@ -635,67 +243,37 @@ SELECTED | London | London | £16.99 per hour | Global Experiences Administrator
 job_id: 1616032
 ---
 
+---
+action:
+SELECTED | London | London | £34000 per year | Corporate Receptionist - Multiple Sites
+job_id: 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30
+---
+
+---
+action:
+SELECTED | London | Wallington | £28000 - £30000 per year | Administrator Team Leader
+job_id: f2ecb257-e92d-466a-bc1a-9ba3f035fc23
+---
+
+---
+action:
+SELECTED | London | Broxbourne | £28000 - £30000 per year | Sales Administrator
+job_id: a87ee9f1-8fd6-4986-b737-551aac654bc6
+---
+
+---
+action:
+SELECTED | London | London | £30000 per year | HR Administrator
+job_id: a70e79c2-8d85-4835-9ffb-ec6d2d70d149
+---
+
+---
+action:
+SELECTED | London | Sutton | £20000 - £28000 per year | Assistant Estimator Administrator
+job_id: a65fdabc-6bc9-40ee-9a53-499a14c95c4a
+---
+
 ## LONDON — POSSIBLES
-
----
-action:
-POSS - LONDON | London | London | £35000 - £42000 per year | Project + Office Administrator! Interior Design! 40k
-job_id: c96b01e7-3db3-44b6-a468-a20c1c93cccb
----
-
----
-action:
-POSS - LONDON | London | London | £32000 - £36000 per year | Mortgage Administrator
-job_id: 9b1ee074-8e6f-47e5-ad15-e9ab674ee4e1
----
-
----
-action:
-POSS - LONDON | London | London | £16 - £19 per hour | Insurance Administrator - Temp!
-job_id: 90ad5564-468d-4f24-af83-e6583ea3582c
----
-
----
-action:
-POSS - LONDON | London | London | £19 - £21 per hour | Part-Time Secretary & Accounts Administrator
-job_id: 81074d84-ca84-4834-98ea-857a6a7427bc
----
-
----
-action:
-POSS - LONDON | London | London | £35000 - £40000 per year | Mortgage and Protection Administrator
-job_id: 7da72e42-2515-4769-87a4-c8d13df150b2
----
-
----
-action:
-POSS - LONDON | London | London | £40000 per year | Part-time Club Administrator
-job_id: 6936a447-91d5-468e-a376-d02a60440fc7
----
-
----
-action:
-POSS - LONDON | London | London | £43000 - £45000 per year | Patent Secretary
-job_id: e1b01dca-5cc3-4f77-8db5-01e4c3798511
----
-
----
-action:
-POSS - LONDON | London | London | £45000 per year | Patent Secretary
-job_id: 02ced342-fa13-4e80-9ec2-3d369c2c6c2d
----
-
----
-action:
-POSS - LONDON | London | London | £20.96 - £27.33 per hour | Business Support Officer (Housing Benefit)
-job_id: 01da6c94-2e35-4cdf-8f32-4961c5046ffd
----
-
----
-action:
-POSS - LONDON | London | London | £19.16 per hour | HR Administrator
-job_id: 8cd581a2-e700-41e8-a134-8b21a8df9efe
----
 
 ---
 action:
@@ -711,106 +289,16 @@ job_id: 107731922
 
 ---
 action:
-POSS - LONDON | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
-job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
----
-
----
-action:
-POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
-job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
----
-
----
-action:
 POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
 job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
----
-
----
-action:
-POSS - LONDON | London | London | £30000 - £40000 per year | TEMP COORDINATOR FOR LUXURY CLIENT SERVICES TEAM
-job_id: 93b52fa5-a49e-4152-8cf7-b95706117e4f
----
-
----
-action:
-POSS - LONDON | London | London | £50000 - £63000 per year | Executive Assistant / Project Coordinator
-job_id: 5830ab37-b5ac-4fb9-84e0-149effe844c6
 ---
 
 ## HAMPSHIRE — SELECTED
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £24000 per year | Administrative Assistant
-job_id: f5457490-a133-4a7b-a4b0-1ff3cd22900b
----
-
----
-action:
-SELECTED | Hampshire | Hook | £28000 - £31000 per year | Service Administrator
-job_id: e4433988-1a56-41f5-ac8f-c910dd080a57
----
-
----
-action:
-SELECTED | Hampshire | Farnborough | £13 - £13.5 per hour | Administrator - IMMEDIATE START
-job_id: e13ab105-51ca-4a23-a205-c2aa94b9d8b7
----
-
----
-action:
-SELECTED | Hampshire | Basingstoke | £28000 per year | Operations Coordinator
-job_id: cda0ce28-ad2b-4d63-9ba9-cb4ebcfbefb2
----
-
----
-action:
-SELECTED | Hampshire | Fleet | £25000 - £32000 per year | Sales Administrator
-job_id: bd70f859-d69b-4b0e-9483-665fe78b005e
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £26000 - £27000 per year | Administrator - Perfect for recent graduates
-job_id: 96d9cb94-c4f0-448e-a4fa-eaf14a84333b
----
-
----
-action:
-SELECTED | Hampshire | Fareham |  | Post Room & Administration Assistant
-job_id: 81f392f7-0980-46b8-aee1-f7d93979267a
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £13.03 per hour | Operations Administrator
-job_id: f75f699e-a0b4-495f-ab6a-c3b639ae73e4
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £29500 per year | Sales Administrator
-job_id: 8f49a549-d633-4be4-8902-6fe0e11ff19b
----
-
----
-action:
-SELECTED | Hampshire | Winchester | £13 - £15 per hour | Temporary administrators/receptionists
-job_id: a9c15466-186d-4005-8df2-193e0bf96bf0
----
-
----
-action:
 SELECTED | Hampshire | Petersfield | £25000 - £30000 per year | Sales Administrator
 job_id: b9a5ee39-5970-4459-9186-fb7f84383304
----
-
----
-action:
-SELECTED | Hampshire | Eastleigh | £26000 - £30000 per year | Customer Service Administrator
-job_id: 4e153964-a053-4ed8-aea2-1904770ff29d
 ---
 
 ---
@@ -869,102 +357,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Surrey | Woking | £26000 - £28000 per year | HR Administrator
-job_id: a19a141e-e484-4499-965a-1f28772a870f
----
-
----
-action:
-SELECTED | Surrey | Woking | £13.5 - £15 per hour | Administrator
-job_id: fa1353e5-5ccc-4041-80fb-26c0144e6a6d
----
-
----
-action:
-SELECTED | Surrey | Walton-on-thames | £28000 - £30000 per year | Reception & Administrator
-job_id: eec141c6-0fa2-425e-8f24-6dc10b1e3479
----
-
----
-action:
-SELECTED | Surrey | Chertsey | £27000 per year | Sales Support Administrator
-job_id: d95c9b7c-5e6d-47ba-99bf-667652f88961
----
-
----
-action:
-SELECTED | Surrey | Redhill | £13.5 - £15.5 per hour | Customer Service Administrator - TEMP
-job_id: ca2c4ad2-7010-40c9-b74d-3e1f80a02a85
----
-
----
-action:
-SELECTED | Surrey | Staines | £12.82 - £14.86 per hour | Customer Service Administrator
-job_id: c2ee892c-8445-4fc7-b7e3-8ba9f2f4e710
----
-
----
-action:
-SELECTED | Surrey | Oxted |  | Mortgage Administrator
-job_id: ad390a5a-5000-4da8-be9c-642f84daacf0
----
-
----
-action:
-SELECTED | Surrey | Woking | £25000 - £30000 per year | Sales Administrator
-job_id: a5727342-6284-476d-a40b-ae02747e4eb9
----
-
----
-action:
-SELECTED | Surrey | Epsom | £28000 - £34000 per year | Mortgage Administrator
-job_id: 85a56ee0-8e46-428c-a0a7-f3ebca4340a7
----
-
----
-action:
-SELECTED | Surrey | Redhill | £26000 - £28000 per year | Administrator
-job_id: dc9016ea-6329-4e4e-873d-1794714bc716
----
-
----
-action:
-SELECTED | Surrey | Weybridge | £25508 per year | English and Maths Administrator
-job_id: 71434c30-a899-4deb-a436-310af0d063ac
----
-
----
-action:
-SELECTED | Surrey | Woking | £25000 - £35000 per year | Healthcare Administrator
-job_id: 20db4151-49da-44f1-bf34-a11d73fbea38
----
-
----
-action:
-SELECTED | Surrey | Shepperton | £30000 - £33000 per year | Bookkeeping & Administration Assistant
-job_id: d801e589-cdf4-4e7e-9b7f-cb2894fb5730
----
-
----
-action:
-SELECTED | Surrey | Horley | £13.29 - £14.04 per hour | Part-Time Administrator
-job_id: a2682067-5b13-4508-992a-d5ab422816ee
----
-
----
-action:
-SELECTED | Surrey | Woking | £13 - £14 per hour | Administrator
-job_id: 9a146065-f414-4ddd-b152-5c4322dd4e93
----
-
----
-action:
-SELECTED | Surrey | Sunbury-on-thames | £27000 - £28000 per year | Administrator/Sales support
-job_id: f0fd6344-22f6-45b4-8a54-4ea54f6a5603
----
-
----
-action:
 SELECTED | Surrey | Weybridge | £28000 - £32500 per year | Office Administrator
 job_id: b3c542f7-b4d2-4602-ba47-60d4f270b39a
 ---
@@ -987,129 +379,17 @@ SELECTED | Surrey | Tadworth | £28000 - £32000 per year | Customer Services Ad
 job_id: c155d86b-2df2-4768-a926-9b15f14aae23
 ---
 
+---
+action:
+SELECTED | Surrey | Leatherhead | £20000 - £28000 per year | Assistant Estimator Administrator
+job_id: f545a2c8-eeed-4001-aafd-8e0b48332e01
+---
+
 ## SURREY — POSSIBLES
 
----
-action:
-POSS - SURREY | Surrey | Epsom | £15 - £20 per hour | Medical Secretary
-job_id: 5a4b8c85-d429-40e4-af68-57d926f38317
----
-
----
-action:
-POSS - SURREY | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
-job_id: ad194d43-a41f-4957-a029-b15348fcba4f
----
+_No jobs in this group._
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Tonbridge | £28000 - £30000 per year | Office Administrator
-job_id: f4da8ee8-aa46-4351-a0d5-8ae1db334e2b
----
-
----
-action:
-SELECTED | Kent | Canterbury | £13.5 per hour | Medical Administrator Immediate start!
-job_id: ce2d7ecd-9eea-46b1-b977-207c770afc35
----
-
----
-action:
-SELECTED | Kent | Gravesend | £25000 - £28000 per year | BRANCH ADMINISTRATOR
-job_id: cc62dac9-4736-46c9-882e-db04acd86df9
----
-
----
-action:
-SELECTED | Kent | Chatham | £13.25 per hour | Branch Administrator
-job_id: cb0e964f-7ce4-4fb3-b79e-3b5385212e7c
----
-
----
-action:
-SELECTED | Kent | Whitstable | £14.5 - £17 per hour | School Administrator
-job_id: c0630f71-5eca-48d7-8056-8979ac3349c0
----
-
----
-action:
-SELECTED | Kent | Faversham | £25000 - £28000 per year | Sales Administrator
-job_id: b9bbaece-e58a-4885-b5ab-85f377794b9c
----
-
----
-action:
-SELECTED | Kent | Canterbury | £27000 - £33000 per year | Administrator
-job_id: b98da4e4-9dd1-4031-bc87-c5429087ed5f
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £28000 - £30000 per year | Customer Service & Sales Administrator
-job_id: affa1df7-86a5-467e-bb89-4629401d2fc1
----
-
----
-action:
-SELECTED | Kent | Dartford |  | Office Administrator / Sales Support Assistant
-job_id: a96312cc-ce50-40fd-92e0-dc4f98a76ccd
----
-
----
-action:
-SELECTED | Kent | Chatham | £24500 per year | Administrator
-job_id: a35bfe5c-2182-4cdd-9388-041e8071fea2
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £27000 - £30000 per year | Business Support Administrator
-job_id: a355520a-ec5a-41ab-8037-cdf735922a26
----
-
----
-action:
-SELECTED | Kent | Dartford | £13 per hour | Estates Co-ordinator / Administrator
-job_id: a2daebb4-ae4d-48b6-b7ec-6fa01bbcef38
----
-
----
-action:
-SELECTED | Kent | Chatham | £24500 per year | HR Administrator
-job_id: a2139f26-0270-4159-b3e0-c882aaa33875
----
-
----
-action:
-SELECTED | Kent | Ashford | £30000 - £35000 per year | Receptionist/Secretary Ashford £35k
-job_id: 96e0339e-e7c1-43bd-9a71-099718f7b644
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £28000 - £30000 per year | Operations Administrator
-job_id: 838d75bc-f68c-4f84-8499-5ff69215bb50
----
-
----
-action:
-SELECTED | Kent | Chatham | £10.85 - £12.71 per hour | Office Administrator / Office Assistant
-job_id: 7faae241-2dfa-44be-abfb-dab1ac890c5b
----
-
----
-action:
-SELECTED | Kent | Rochester |  | Administrator
-job_id: 6d8936ea-9b01-4ac2-a5a1-0f11fdea87ae
----
-
----
-action:
-SELECTED | Kent | Swanley | £14.36 per hour | Service Administrator Swanley Start ASAP Temp
-job_id: 5b77d48c-3e92-43b0-a8cb-84749a91d03d
----
 
 ---
 action:
@@ -1121,12 +401,6 @@ job_id: 107698291
 action:
 SELECTED | Kent | Dartford | £24500 - £27000 per year | Administrator - Construction Industry
 job_id: 705da49f-22ec-4df1-aca5-ebc75e2f7b23
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £30000 - £32000 per year | Sales Administrator
-job_id: 665362c2-1e23-459b-ad90-474cce8096a0
 ---
 
 ---
@@ -1159,13 +433,13 @@ SELECTED | Kent | Maidstone | £13.5 per hour | Office Administrator
 job_id: 9c50e7f5-c080-4543-adc5-a91353592d22
 ---
 
-## KENT — POSSIBLES
-
 ---
 action:
-POSS - KENT | Kent | Chatham | £30000 - £40000 per year | PARAPLANNER/IFA ADMINISTRATOR
-job_id: 5d9b7ea6-6eb3-40d5-82f9-406f416236f4
+SELECTED | Kent | Maidstone | £14.4 per hour | Accounts Administrator
+job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
+
+## KENT — POSSIBLES
 
 ---
 action:
