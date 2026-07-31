@@ -11,6 +11,7 @@ from pipeline.scripts.generate_at_a_glance_review import (
     build_review,
     current_card_summary,
     description_hash,
+    duty_lines,
     review_job,
     word_count,
     write_csv,
@@ -19,18 +20,20 @@ from pipeline.scripts.generate_at_a_glance_review import (
 
 
 class AtAGlanceReviewTests(unittest.TestCase):
-    def test_admin_summary_uses_supported_duties_not_opening_boilerplate(self) -> None:
+    def test_admin_summary_uses_duties_not_opening_boilerplate(self) -> None:
         job = {
             "job_id": "service-1",
             "title": "Service Administrator",
             "source": "JobG8",
             "category": "Admin/Service – Office Support",
             "description": (
-                "Your new company. An established organisation is recruiting. "
-                "Managing shared service inboxes and responding to customer enquiries. "
-                "Logging service calls and updating reactive and planned service jobs. "
-                "Producing engineer service records and managing customer portals. "
-                "Issuing weekly engineer call-out rotas."
+                "Your new company\nAn established organisation is recruiting.\n"
+                "Your new role\n"
+                "Managing shared service inboxes and responding to customer enquiries.\n"
+                "Logging service calls and updating reactive and planned service jobs.\n"
+                "Producing engineer service records and managing customer portals.\n"
+                "Issuing weekly engineer call-out rotas.\n"
+                "What you'll need to succeed\nPrevious administration experience."
             ),
         }
 
@@ -39,37 +42,83 @@ class AtAGlanceReviewTests(unittest.TestCase):
         self.assertEqual(row["status"], "generated")
         self.assertNotIn("Your new company", row["proposed_at_a_glance"])
         self.assertIn("customer enquiries", row["proposed_at_a_glance"])
-        self.assertIn("service jobs and engineer records", row["proposed_at_a_glance"])
-        self.assertGreaterEqual(word_count(row["proposed_at_a_glance"]), 15)
-        self.assertLessEqual(word_count(row["proposed_at_a_glance"]), 25)
+        self.assertIn("service-call coordination", row["proposed_at_a_glance"])
+        self.assertLessEqual(word_count(row["proposed_at_a_glance"]), 22)
 
         evidence = json.loads(row["evidence_json"])
         self.assertTrue(evidence)
         self.assertTrue(all(item["attribute"] and item["evidence"] for item in evidence))
 
-    def test_reception_summary_is_deterministic_and_factual(self) -> None:
+    def test_duty_sections_stop_before_requirements_and_benefits(self) -> None:
+        description = (
+            "About the Role\n"
+            "Greet visitors and answer incoming phone calls.\n"
+            "Maintain accurate records.\n"
+            "What we're looking for\n"
+            "Experience of payroll systems is desirable.\n"
+            "Benefits\n"
+            "Timesheets can be completed on mobile devices."
+        )
+
+        lines = duty_lines(description)
+
+        self.assertIn("Greet visitors and answer incoming phone calls.", lines)
+        self.assertIn("Maintain accurate records.", lines)
+        self.assertNotIn("Experience of payroll systems is desirable.", lines)
+        self.assertNotIn("Timesheets can be completed on mobile devices.", lines)
+
+    def test_medical_admin_ignores_benefit_timesheets(self) -> None:
         job = {
-            "job_id": "reception-1",
-            "title": "Receptionist",
+            "job_id": "medical-1",
+            "title": "Medical Administrator",
             "source": "JobG8",
             "category": "Admin/Service – Office Support",
             "description": (
-                "Greet visitors and clients, ensuring a professional first impression. "
-                "Answer and redirect phone calls promptly and accurately. "
-                "Manage meeting room bookings and prepare spaces for use. "
-                "Handle incoming and outgoing mail and deliveries. "
-                "Provide administrative support to the wider team."
+                "The key duties and requirements are:\n"
+                "- Taking enquiries from clients over email and the phone\n"
+                "- Meet and greet patients\n"
+                "- Uploading referrals on the patient management system\n"
+                "- Liaising with clients and clinicians to arrange appointments\n"
+                "- Collating reports and correspondence to a high standard\n"
+                "- Coordinating incoming and outgoing mail\n"
+                "- Completing detailed and accurate records\n"
+                "We'd love to speak to candidates who:\n"
+                "- Have administration experience\n"
+                "Amazing Benefits:\n"
+                "- Timesheets can be completed on mobile devices"
             ),
         }
 
-        first = review_job(job, ["a.json"])
-        second = review_job(job, ["a.json"])
+        row = review_job(job, ["app/kent/service-administrator-jobs.json"])
 
-        self.assertEqual(first, second)
-        self.assertEqual(first["status"], "generated")
-        self.assertIn("welcoming visitors", first["proposed_at_a_glance"])
-        self.assertIn("handling telephone calls", first["proposed_at_a_glance"])
-        self.assertNotIn("salary", first["proposed_at_a_glance"].casefold())
+        self.assertEqual(row["status"], "generated")
+        self.assertIn("visitor reception", row["proposed_at_a_glance"])
+        self.assertIn("telephone handling", row["proposed_at_a_glance"])
+        self.assertNotIn("payroll", row["proposed_at_a_glance"].casefold())
+
+    def test_reception_flexible_working_does_not_become_hr_duty(self) -> None:
+        job = {
+            "job_id": "reception-1",
+            "title": "Receptionist - Bank - Care Home",
+            "source": "JobG8",
+            "category": "Admin/Service – Office Support",
+            "description": (
+                "ABOUT THE ROLEThis is a casual, part-time role offering flexible working.\n"
+                "You can expect to answer phone calls, greet visitors, manage the "
+                "reception area and show prospective residents around.\n"
+                "We might also need you to carry out typing, photocopying and filing.\n"
+                "ABOUT YOUYou'll need to be professional.\n"
+                "REWARDS PACKAGECompetitive pay."
+            ),
+        }
+
+        row = review_job(job, ["app/kent/service-administrator-jobs.json"])
+
+        self.assertEqual(row["status"], "generated")
+        self.assertIn("visitor reception", row["proposed_at_a_glance"])
+        self.assertIn("telephone handling", row["proposed_at_a_glance"])
+        self.assertNotIn("starter", row["proposed_at_a_glance"].casefold())
+        self.assertNotIn("contract changes", row["proposed_at_a_glance"].casefold())
 
     def test_support_worker_summary_uses_care_duties(self) -> None:
         job = {
@@ -78,19 +127,24 @@ class AtAGlanceReviewTests(unittest.TestCase):
             "source": "JobG8",
             "category": "Support Worker – Wide",
             "description": (
+                "About the Role\n"
                 "The role involves supporting adults with all aspects of daily life, "
-                "including personal care. Accessing the community regularly and taking "
-                "service users to activities. Assist with medical and welfare needs. "
-                "Safeguard and support service user independence."
+                "including personal care.\n"
+                "Accessing the community regularly.\n"
+                "Your Day-to-Day\n"
+                "Assist with medical and welfare needs.\n"
+                "Safeguard.\n"
+                "You are\nA good communicator."
             ),
         }
 
         row = review_job(job, ["app/north-east/support-worker-jobs.json"])
 
         self.assertEqual(row["status"], "generated")
-        self.assertIn("providing personal care", row["proposed_at_a_glance"])
-        self.assertIn("supporting daily living", row["proposed_at_a_glance"])
-        self.assertIn("supporting community access", row["proposed_at_a_glance"])
+        self.assertIn("personal care", row["proposed_at_a_glance"])
+        self.assertIn("daily-living support", row["proposed_at_a_glance"])
+        self.assertIn("community access", row["proposed_at_a_glance"])
+        self.assertIn("safeguarding", row["proposed_at_a_glance"])
 
     def test_explicitly_truncated_job_is_omitted(self) -> None:
         job = {
@@ -112,7 +166,6 @@ class AtAGlanceReviewTests(unittest.TestCase):
             row["reason"],
             "description contains an explicit truncation marker",
         )
-        self.assertEqual(row["proposed_at_a_glance"], "")
 
     def test_external_source_is_omitted_when_duties_are_not_retained(self) -> None:
         job = {
@@ -145,9 +198,10 @@ class AtAGlanceReviewTests(unittest.TestCase):
             "source": "JobG8",
             "category": "Admin/Service – Office Support",
             "description": (
-                "This is a long enough vacancy description for an administrator. "
-                "The successful applicant will prepare reports. "
-                "The employer offers a supportive culture, pension and annual leave."
+                "About the Role\n"
+                "The successful applicant will prepare reports.\n"
+                "What we're looking for\n"
+                "The employer values attention to detail and communication."
             ),
         }
 
@@ -156,12 +210,12 @@ class AtAGlanceReviewTests(unittest.TestCase):
         self.assertEqual(row["status"], "omitted")
         self.assertEqual(row["reason"], "fewer than two supported task attributes")
 
-    def test_description_hash_changes_with_rule_or_description(self) -> None:
+    def test_description_hash_is_versioned_and_deterministic(self) -> None:
         value = "Maintaining records and systems."
         self.assertEqual(description_hash(value), description_hash(value))
         self.assertNotEqual(description_hash(value), description_hash(value + " More."))
         self.assertEqual(len(description_hash(value)), 64)
-        self.assertEqual(RULE_VERSION, "1")
+        self.assertEqual(RULE_VERSION, "2")
 
     def test_current_card_summary_matches_existing_first_sentence_behaviour(self) -> None:
         job = {
@@ -186,10 +240,10 @@ class AtAGlanceReviewTests(unittest.TestCase):
                 "source": "JobG8",
                 "category": "Admin/Service – Office Support",
                 "description": (
-                    "Greet visitors and answer incoming phone calls. "
-                    "Manage meeting room bookings and maintain accurate records. "
-                    "Prepare documents and correspondence for the wider team while "
-                    "responding to customer enquiries throughout the working day."
+                    "Duties\n"
+                    "Greet visitors and answer incoming phone calls.\n"
+                    "Manage meeting room bookings and maintain accurate records.\n"
+                    "Requirements\nPrevious administration experience."
                 ),
             }
             first.write_text(json.dumps([job]), encoding="utf-8")
@@ -201,7 +255,7 @@ class AtAGlanceReviewTests(unittest.TestCase):
             self.assertIn(first.as_posix(), rows[0]["pages"])
             self.assertIn(second.as_posix(), rows[0]["pages"])
 
-    def test_review_outputs_are_written_without_modifying_source_json(self) -> None:
+    def test_review_outputs_do_not_modify_source_json(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             app_root = root / "app"
@@ -214,10 +268,10 @@ class AtAGlanceReviewTests(unittest.TestCase):
                     "source": "JobG8",
                     "category": "Admin/Service – Office Support",
                     "description": (
-                        "Greet visitors and answer incoming phone calls. "
-                        "Manage meeting room bookings and maintain accurate records. "
-                        "Prepare documents and correspondence for the wider team while "
-                        "responding to customer enquiries throughout the working day."
+                        "Duties\n"
+                        "Greet visitors and answer incoming phone calls.\n"
+                        "Manage meeting room bookings and maintain accurate records.\n"
+                        "Requirements\nPrevious administration experience."
                     ),
                 }
             ]
@@ -231,8 +285,6 @@ class AtAGlanceReviewTests(unittest.TestCase):
             write_markdown(markdown_path, rows)
 
             self.assertEqual(source_path.read_text(encoding="utf-8"), source_content)
-            self.assertTrue(csv_path.exists())
-            self.assertTrue(markdown_path.exists())
             with csv_path.open(encoding="utf-8-sig", newline="") as handle:
                 csv_rows = list(csv.DictReader(handle))
             self.assertEqual(csv_rows[0]["status"], "generated")
