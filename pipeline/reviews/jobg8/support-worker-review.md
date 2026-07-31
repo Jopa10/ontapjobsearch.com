@@ -16,13 +16,13 @@ _No jobs in this group._
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
 job_id: 107751768
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107616819
 ---
@@ -34,7 +34,7 @@ _No jobs in this group._
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
@@ -68,19 +68,19 @@ job_id: 9b0995dd-b5e5-433f-b113-8a55acf6d8cd
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
-action:
+action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £13.15 per hour | Support Worker
 job_id: 6b804bc2-d778-42ed-bf1b-d3ec78422d8a
 ---
 
 ---
-action:
+action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £26436 per year | Young People Support Worker
 job_id: 73c0f5e3-00b5-42fb-a99e-821f1f643a81
 ---
 
 ---
-action:
+action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £13.15 per hour | Support Worker
 job_id: cc359452-7885-406f-b982-9931f062cd19
 ---
@@ -142,7 +142,7 @@ _No jobs in this group._
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
@@ -182,13 +182,13 @@ job_id: 107656217
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
 job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
 job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
 ---
