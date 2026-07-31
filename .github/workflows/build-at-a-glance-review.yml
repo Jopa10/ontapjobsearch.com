@@ -6,12 +6,14 @@ on:
       - agent/at-a-glance-review
     paths:
       - "pipeline/scripts/generate_at_a_glance_review.py"
+      - "pipeline/scripts/at_a_glance_*.py"
       - "tests/test_at_a_glance_review.py"
       - "app/**/*.json"
       - ".github/workflows/build-at-a-glance-review.yml"
   pull_request:
     paths:
       - "pipeline/scripts/generate_at_a_glance_review.py"
+      - "pipeline/scripts/at_a_glance_*.py"
       - "tests/test_at_a_glance_review.py"
       - "app/**/*.json"
       - ".github/workflows/build-at-a-glance-review.yml"
