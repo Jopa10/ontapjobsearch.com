@@ -1,0 +1,51 @@
+name: Validate at-a-glance v3
+
+on:
+  push:
+    branches:
+      - agent/at-a-glance-review
+    paths:
+      - "pipeline/scripts/generate_at_a_glance_review.py"
+      - "pipeline/scripts/at_a_glance_*.py"
+      - "tests/test_at_a_glance_review*.py"
+      - "app/**/*.json"
+      - ".github/workflows/validate-at-a-glance-v3.yml"
+  pull_request:
+    paths:
+      - "pipeline/scripts/generate_at_a_glance_review.py"
+      - "pipeline/scripts/at_a_glance_*.py"
+      - "tests/test_at_a_glance_review*.py"
+      - "app/**/*.json"
+      - ".github/workflows/validate-at-a-glance-v3.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run all at-a-glance safeguards
+        run: python -m unittest discover -s tests -p "test_at_a_glance_review*.py"
+
+      - name: Generate full review artifact
+        run: python -m pipeline.scripts.generate_at_a_glance_review
+
+      - name: Upload validated review
+        uses: actions/upload-artifact@v4
+        with:
+          name: at-a-glance-v3-${{ github.run_id }}
+          path: |
+            reviews/at-a-glance/at-a-glance-review.csv
+            reviews/at-a-glance/at-a-glance-review.md
+          if-no-files-found: error
+          retention-days: 14
