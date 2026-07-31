@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
-import { cleanEmployerName } from "@/lib/job-facts";
+import { cleanEmployerName, sourceLabel } from "@/lib/job-facts";
 import {
   getJobPath,
   getPublishedJob,
@@ -134,6 +134,7 @@ export default async function JobPage({ params }: PageProps) {
 
   const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
   const schema = jobPostingSchema(job, canonicalUrl);
+  const applicationSource = isExternalSource(job.source) ? sourceLabel(job.source) : "";
 
   return (
     <div style={{ maxWidth: 920, margin: "36px auto", padding: "0 16px" }}>
@@ -175,6 +176,20 @@ export default async function JobPage({ params }: PageProps) {
         </h1>
 
         <JobFacts job={job} variant="detail" />
+
+        {applicationSource ? (
+          <div
+            style={{
+              color: "#6b7280",
+              fontSize: 13,
+              lineHeight: 1.4,
+              marginTop: -8,
+              marginBottom: 7,
+            }}
+          >
+            Original vacancy on {applicationSource}
+          </div>
+        ) : null}
 
         <div style={{ marginBottom: 22 }}>
           <ApplyButton
