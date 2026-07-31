@@ -90,15 +90,30 @@ def validate_destination_path(path: Path) -> None:
         raise ValueError("destination file does not exist")
 
 
+def normalise_posted_date(value: str) -> str:
+    normalised = value.strip()
+    for date_format in ("%d/%m/%Y", "%d-%m-%Y"):
+        try:
+            return datetime.strptime(normalised, date_format).date().isoformat()
+        except ValueError:
+            pass
+    return normalised
+
+
 def add_stable_posted_dates(
     source_data: list[dict[str, Any]],
     destination_data: list[dict[str, Any]],
     *,
     publication_date: str,
 ) -> list[dict[str, Any]]:
-    """Use the feed date when present, otherwise preserve Ontap's first publication date."""
+    """Keep genuine source dates distinct from Ontap's first publication date."""
     previous_dates = {
-        row["job_id"].strip(): row["posted_date"].strip()
+        row["job_id"].strip(): (
+            row["posted_date"].strip(),
+            row.get("posted_date_basis", "").strip()
+            if isinstance(row.get("posted_date_basis"), str)
+            else "",
+        )
         for row in destination_data
         if isinstance(row, dict)
         and usable_text(row.get("job_id"))
@@ -108,18 +123,35 @@ def add_stable_posted_dates(
     result: list[dict[str, Any]] = []
     for source_row in source_data:
         row = dict(source_row)
+        source_code = row.get("source", "JobG8")
+        source_code = source_code.strip() if isinstance(source_code, str) else "JobG8"
+        basis = row.get("posted_date_basis", "")
+        basis = basis.strip() if isinstance(basis, str) else ""
+
         if usable_text(row.get("posted_date")):
-            value = row["posted_date"].strip()
-            for date_format in ("%d/%m/%Y", "%d-%m-%Y"):
-                try:
-                    value = datetime.strptime(value, date_format).date().isoformat()
-                    break
-                except ValueError:
-                    pass
-            row["posted_date"] = value
+            row["posted_date"] = normalise_posted_date(row["posted_date"])
+            if basis:
+                row["posted_date_basis"] = basis
+            elif source_code.lower() != "jobg8":
+                # Approved external-source dates are extracted directly from the
+                # provider record and are therefore safe to identify as source dates.
+                row["posted_date_basis"] = "source"
+            else:
+                # Legacy JobG8 output may contain either a provider date or an
+                # Ontap fallback. Do not guess which one it is.
+                row.pop("posted_date_basis", None)
         else:
             job_id = row["job_id"].strip()
-            row["posted_date"] = previous_dates.get(job_id, publication_date)
+            previous_date, previous_basis = previous_dates.get(job_id, ("", ""))
+            if previous_date:
+                row["posted_date"] = previous_date
+                if previous_basis:
+                    row["posted_date_basis"] = previous_basis
+                else:
+                    row.pop("posted_date_basis", None)
+            else:
+                row["posted_date"] = publication_date
+                row["posted_date_basis"] = "ontap_first_published"
         result.append(row)
     return result
 
@@ -130,7 +162,7 @@ def atomic_write(path: Path, content: str) -> None:
         with os.fdopen(fd, "w", encoding="utf-8") as handle:
             handle.write(content)
             handle.flush()
-            os.fsync(handle.fileno())
+            os.fsync(fd)
         os.replace(temp_name, path)
     finally:
         if os.path.exists(temp_name):
