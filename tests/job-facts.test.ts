@@ -5,6 +5,7 @@ import {
   cleanEmployerName,
   formatJobDate,
   formatSalary,
+  sourceLabel,
 } from "../lib/job-facts";
 
 test("separates a JobG8 agency advertiser from duplicated contract text", () => {
@@ -25,9 +26,15 @@ test("separates a JobG8 agency advertiser from duplicated contract text", () => 
       ["Location", "Leeds"],
       ["Salary", "£12,710 per year"],
       ["Contract", "Temporary"],
-      ["Source", "JobG8"],
     ]
   );
+});
+
+test("keeps source available for contextual application cues but not public facts", () => {
+  const facts = buildJobFacts({ company: "Example", source: "JobG8" });
+
+  assert.equal(facts.some((fact) => fact.label === "Source"), false);
+  assert.equal(sourceLabel("NEJobs"), "North East Jobs");
 });
 
 test("omits uncertain work and on-site labels", () => {
@@ -64,7 +71,6 @@ test("uses genuine work pattern, hybrid and dates when supplied", () => {
   assert.equal(values.working_arrangement, "Up to 2 days from home");
   assert.equal(values.posted, "10 July 2026");
   assert.equal(values.closing, "9 August 2026");
-  assert.equal(values.source, "North East Jobs");
 });
 
 test("distinguishes source and Ontap publication dates", () => {
