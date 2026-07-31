@@ -129,9 +129,33 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             )
 
             self.assertEqual(result["status"], "published")
-            self.assertEqual(json.loads((root / dest).read_text())[0]["posted_date"], "2026-07-17")
+            row = json.loads((root / dest).read_text())[0]
+            self.assertEqual(row["posted_date"], "2026-07-17")
+            self.assertEqual(row["posted_date_basis"], "ontap_first_published")
 
     def test_first_ontap_publication_date_is_preserved_on_later_uploads(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = Path("source.json")
+            dest = Path("live.json")
+            row = {"job_id": "1", "title": "Role", "apply_url": "https://example.com/apply", "posted_date": ""}
+            self.write_json(root / source, [row])
+            self.write_json(root / dest, [{**row, "posted_date": "2026-07-15", "posted_date_basis": "ontap_first_published"}])
+
+            result = publish.publish_one(
+                self.mapping(source, dest),
+                write=True,
+                active_slices=self.active(),
+                root=root,
+                publication_date="2026-07-17",
+            )
+
+            self.assertEqual(result["status"], "unchanged")
+            preserved = json.loads((root / dest).read_text())[0]
+            self.assertEqual(preserved["posted_date"], "2026-07-15")
+            self.assertEqual(preserved["posted_date_basis"], "ontap_first_published")
+
+    def test_legacy_first_publication_date_is_preserved_without_guessing_basis(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             source = Path("source.json")
@@ -149,15 +173,15 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             )
 
             self.assertEqual(result["status"], "unchanged")
-            self.assertEqual(json.loads((root / dest).read_text())[0]["posted_date"], "2026-07-15")
+            self.assertNotIn("posted_date_basis", json.loads((root / dest).read_text())[0])
 
     def test_real_feed_posted_date_takes_precedence(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             source = Path("source.json")
             dest = Path("live.json")
-            self.write_json(root / source, [{"job_id": "1", "title": "Role", "apply_url": "https://example.com/apply", "posted_date": "2026-07-10"}])
-            self.write_json(root / dest, [{"job_id": "1", "title": "Role", "apply_url": "https://example.com/apply", "posted_date": "2026-07-15"}])
+            self.write_json(root / source, [{"job_id": "1", "title": "Role", "apply_url": "https://example.com/apply", "posted_date": "2026-07-10", "posted_date_basis": "source"}])
+            self.write_json(root / dest, [{"job_id": "1", "title": "Role", "apply_url": "https://example.com/apply", "posted_date": "2026-07-15", "posted_date_basis": "ontap_first_published"}])
 
             result = publish.publish_one(
                 self.mapping(source, dest),
@@ -168,7 +192,29 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             )
 
             self.assertEqual(result["status"], "published")
-            self.assertEqual(json.loads((root / dest).read_text())[0]["posted_date"], "2026-07-10")
+            row = json.loads((root / dest).read_text())[0]
+            self.assertEqual(row["posted_date"], "2026-07-10")
+            self.assertEqual(row["posted_date_basis"], "source")
+
+    def test_external_source_date_is_marked_as_source(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = Path("source.json")
+            dest = Path("live.json")
+            self.write_json(root / source, [{"job_id": "nejobs-1", "title": "Role", "apply_url": "https://example.com/apply", "posted_date": "10/07/2026", "source": "NEJobs"}])
+            self.write_json(root / dest, [])
+
+            result = publish.publish_one(
+                self.mapping(source, dest),
+                write=True,
+                active_slices=self.active(),
+                root=root,
+            )
+
+            self.assertEqual(result["status"], "published")
+            row = json.loads((root / dest).read_text())[0]
+            self.assertEqual(row["posted_date"], "2026-07-10")
+            self.assertEqual(row["posted_date_basis"], "source")
 
     def test_post_write_mismatch_restores_previous_destination_and_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
