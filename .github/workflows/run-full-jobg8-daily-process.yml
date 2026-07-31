@@ -60,6 +60,11 @@ jobs:
         working-directory: pipeline
         run: python -m external_sources.compose_northeast_admin --write
 
+      - name: Enrich service-admin job metadata
+        if: steps.slice-register.outputs.admin_service == 'true'
+        working-directory: pipeline
+        run: python -m scripts.enrich_job_metadata --category admin-service
+
       - name: Verify service-admin outputs
         if: steps.slice-register.outputs.admin_service == 'true'
         run: |
@@ -73,6 +78,11 @@ jobs:
         if: steps.slice-register.outputs.support_worker == 'true'
         working-directory: pipeline
         run: python -m scripts.support_worker_pipeline
+
+      - name: Enrich support-worker job metadata
+        if: steps.slice-register.outputs.support_worker == 'true'
+        working-directory: pipeline
+        run: python -m scripts.enrich_job_metadata --category support-worker
 
       - name: Verify support-worker outputs
         if: steps.slice-register.outputs.support_worker == 'true'

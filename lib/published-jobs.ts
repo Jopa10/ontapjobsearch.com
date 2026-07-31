@@ -6,6 +6,8 @@ export type PublishedJob = {
   job_id: string;
   title: string;
   company: string;
+  advertiser_name: string;
+  advertiser_type: string;
   location: string;
   region: string;
   country: string;
@@ -13,8 +15,11 @@ export type PublishedJob = {
   employment_type: string;
   salary_min: string;
   salary_max: string;
+  salary_period: string;
   salary_text: string;
+  work_pattern: string;
   posted_date: string;
+  posted_date_basis: string;
   closing_date: string;
   closing_datetime: string;
   description: string;
@@ -23,6 +28,7 @@ export type PublishedJob = {
   source: string;
   working_arrangement: string;
   working_arrangement_text: string;
+  working_arrangement_evidence: string;
   slice_path: string;
   slice_label: string;
 };
@@ -115,6 +121,8 @@ function normaliseJob(row: Record<string, unknown>, filePath: string): Published
     job_id: text(row.job_id),
     title: text(row.title),
     company: text(row.company),
+    advertiser_name: text(row.advertiser_name),
+    advertiser_type: text(row.advertiser_type),
     location: text(row.location),
     region: text(row.region),
     country: text(row.country) || "UK",
@@ -122,8 +130,11 @@ function normaliseJob(row: Record<string, unknown>, filePath: string): Published
     employment_type: text(row.employment_type),
     salary_min: text(row.salary_min),
     salary_max: text(row.salary_max),
+    salary_period: text(row.salary_period),
     salary_text: text(row.salary_text),
+    work_pattern: text(row.work_pattern),
     posted_date: text(row.posted_date),
+    posted_date_basis: text(row.posted_date_basis),
     closing_date: text(row.closing_date),
     closing_datetime: text(row.closing_datetime),
     description,
@@ -132,6 +143,7 @@ function normaliseJob(row: Record<string, unknown>, filePath: string): Published
     source: text(row.source) || "JobG8",
     working_arrangement: text(row.working_arrangement),
     working_arrangement_text: text(row.working_arrangement_text),
+    working_arrangement_evidence: text(row.working_arrangement_evidence),
     slice_path: slice.path,
     slice_label: slice.label,
   };

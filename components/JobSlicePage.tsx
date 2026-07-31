@@ -3,7 +3,8 @@ import path from "node:path";
 import Link from "next/link";
 import TrainingLink from "@/components/traininglink";
 import ApplyButton from "@/components/ApplyButton";
-import WorkingArrangementBadge from "@/components/WorkingArrangementBadge";
+import JobFacts from "@/components/JobFacts";
+import { sourceLabel } from "@/lib/job-facts";
 import { getJobPath } from "@/lib/published-jobs";
 import styles from "@/components/JobSlicePage.module.css";
 
@@ -11,12 +12,13 @@ type JobRow = {
   job_id: string;
   title: string;
   company: string;
+  advertiser_name: string;
+  advertiser_type: string;
   location: string;
   region: string;
   country: string;
   category: string;
   employment_type: string;
-  advertiser_type: string;
   salary_min: string;
   salary_max: string;
   salary_period: string;
@@ -26,6 +28,7 @@ type JobRow = {
   working_arrangement_text: string;
   working_arrangement_evidence: string;
   posted_date: string;
+  posted_date_basis: string;
   closing_date: string;
   summary: string;
   description: string;
@@ -79,21 +82,23 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
     job_id: r.job_id || r["/Job/DisplayReference"] || "",
     title: r.title || r["/Job/Position"] || "",
     company: r.company || r["/Job/AdvertiserName"] || "",
+    advertiser_name: r.advertiser_name || r["/Job/AdvertiserName"] || "",
+    advertiser_type: r.advertiser_type || r["/Job/AdvertiserType"] || "",
     location: r.location || r["/Job/Area"] || "",
     region: r.region || region,
     country: "UK",
     category: r.category || "",
     employment_type: r.employment_type || r["/Job/EmploymentType"] || "",
-    advertiser_type: r.advertiser_type || r["/Job/AdvertiserType"] || "",
     salary_min: r.salary_min || r["/Job/SalaryMinimum"] || "",
     salary_max: r.salary_max || r["/Job/SalaryMaximum"] || "",
     salary_period: r.salary_period || r["/Job/SalaryPeriod"] || "",
     salary_text: r.salary_text || r["/Job/SalaryAdditional"] || "",
-    work_pattern: r.work_pattern || r["/Job/EmploymentType"] || "",
+    work_pattern: r.work_pattern || r["/Job/WorkHours"] || "",
     working_arrangement: r.working_arrangement || "",
     working_arrangement_text: r.working_arrangement_text || "",
     working_arrangement_evidence: r.working_arrangement_evidence || "",
     posted_date: r.posted_date || "",
+    posted_date_basis: r.posted_date_basis || "",
     closing_date: r.closing_date || "",
     summary: r.summary || "",
     description: r.description || "",
@@ -134,24 +139,6 @@ function cleanText(value: string) {
     .replace(/[ \t]{2,}/g, " ")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
-}
-
-function formatSalary(job: JobRow) {
-  let salary = job.salary_text ? cleanText(job.salary_text) : "";
-
-  if (/\bper year\b|\bper annum\b/i.test(salary)) {
-    salary = salary.replace(/£\s*(\d[\d,]*(?:\.\d+)?)/g, (match, amount) => {
-      const numeric = Number(amount.replace(/,/g, ""));
-      if (!Number.isFinite(numeric)) return match;
-      return "£" + Math.round(numeric).toLocaleString("en-GB");
-    });
-  } else {
-    salary = salary.replace(/£(\d{4,})(?=\s|$)/g, (_, amount) => {
-      return "£" + Number(amount).toLocaleString("en-GB");
-    });
-  }
-
-  return salary.replace(/\){2,}$/g, ")");
 }
 
 function stripHtml(html: string) {
@@ -202,28 +189,10 @@ function getSummary(job: JobRow) {
   return truncateAtWord(collapsed, 220);
 }
 
-function formatClosingDate(value: string) {
-  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
-  if (!match) return value;
-
-  const date = new Date(
-    Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 12)
-  );
-  return new Intl.DateTimeFormat("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC",
-  }).format(date);
-}
-
-function externalSourceLabel(source: string) {
-  if (source.toLowerCase() === "nejobs") return "North East Jobs";
-  return source;
-}
-
-function isExternalSource(source: string) {
-  return Boolean(source && source.toLowerCase() !== "jobg8");
+function externalApplicationSource(source: string) {
+  const normalised = source.trim();
+  if (!normalised || normalised.toLowerCase() === "jobg8") return "";
+  return sourceLabel(normalised);
 }
 
 const careTraining: TrainingItem[] = [
@@ -377,6 +346,7 @@ export default function JobSlicePage({
 
             {jobs.map((j, idx) => {
               const summary = getSummary(j);
+              const applicationSource = externalApplicationSource(j.source);
 
               return (
                 <div
@@ -390,37 +360,7 @@ export default function JobSlicePage({
                 >
                   <div style={{ fontWeight: 800, fontSize: 16 }}>{j.title}</div>
 
-                  <div style={{ fontSize: 13, color: "#555", marginBottom: 4 }}>
-                    {j.company} • {j.location}
-                    {anchorTown && j.location === anchorTown && (
-                      <span
-                        style={{
-                          marginLeft: 6,
-                          padding: "2px 6px",
-                          fontSize: 11,
-                          borderRadius: 6,
-                          background: "#e0f2fe",
-                          color: "#0369a1",
-                        }}
-                      >
-                        {anchorTown}
-                      </span>
-                    )}
-                    <WorkingArrangementBadge
-                      workingArrangement={j.working_arrangement}
-                      workingArrangementText={j.working_arrangement_text}
-                    />
-                  </div>
-
-                  <div style={{ fontWeight: 600, marginBottom: 6 }}>
-                    {formatSalary(j)}
-                  </div>
-
-                  {j.closing_date ? (
-                    <div style={{ fontSize: 13, color: "#555", marginBottom: 6 }}>
-                      Closes {formatClosingDate(j.closing_date)}
-                    </div>
-                  ) : null}
+                  <JobFacts job={j} anchorTown={anchorTown} />
 
                   {summary ? (
                     <div
@@ -435,12 +375,6 @@ export default function JobSlicePage({
                     </div>
                   ) : null}
 
-                  {isExternalSource(j.source) ? (
-                    <div style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
-                      Source: {externalSourceLabel(j.source)}
-                    </div>
-                  ) : null}
-
                   <Link
                     href={getJobPath(j.job_id)}
                     style={{
@@ -452,7 +386,20 @@ export default function JobSlicePage({
                     View full job description →
                   </Link>
 
-                  <div style={{ marginTop: 12 }}>
+                  {applicationSource ? (
+                    <div
+                      style={{
+                        marginTop: 8,
+                        color: "#6b7280",
+                        fontSize: 12,
+                        lineHeight: 1.4,
+                      }}
+                    >
+                      Original vacancy on {applicationSource}
+                    </div>
+                  ) : null}
+
+                  <div style={{ marginTop: applicationSource ? 6 : 12 }}>
                     <ApplyButton
                       apply_url={j.apply_url}
                       job_id={j.job_id}
