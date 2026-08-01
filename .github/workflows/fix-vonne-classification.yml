@@ -35,15 +35,25 @@ jobs:
 
           module = Path("pipeline/external_sources/vonne_poc.py")
           text = module.read_text(encoding="utf-8")
+          classify_start = text.index("\ndef classify(\n")
+          prefix = text[:classify_start]
+          classify_and_rest = text[classify_start:]
           needle = "    if vacancy.geography_status in {\n"
           insertion = base64.b64decode(
               os.environ["INSERTION_B64"]
           ).decode("utf-8")
-          if needle not in text:
+          if needle not in classify_and_rest:
               raise SystemExit("classification insertion point not found")
-          if "hard_title_hits = [" not in text:
-              text = text.replace(needle, insertion + needle, 1)
-          module.write_text(text, encoding="utf-8")
+          if "hard_title_hits = [" not in classify_and_rest:
+              classify_and_rest = classify_and_rest.replace(
+                  needle,
+                  insertion + needle,
+                  1,
+              )
+          module.write_text(
+              prefix + classify_and_rest,
+              encoding="utf-8",
+          )
 
           tests = Path("pipeline/tests/test_vonne_poc.py")
           test_text = tests.read_text(encoding="utf-8")
