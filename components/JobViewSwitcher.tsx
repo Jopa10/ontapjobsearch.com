@@ -16,7 +16,7 @@ export default function JobViewSwitcher({
   quickView,
   detailedView,
 }: JobViewSwitcherProps) {
-  const [view, setView] = useState<ViewMode>("quick");
+  const [view, setView] = useState<ViewMode>("detailed");
 
   useEffect(() => {
     try {
@@ -25,7 +25,7 @@ export default function JobViewSwitcher({
         setView(stored);
       }
     } catch {
-      // Storage can be unavailable in strict privacy modes. Quick View remains default.
+      // Storage can be unavailable in strict privacy modes. Detailed View remains default.
     }
   }, []);
 
