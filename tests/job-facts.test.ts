@@ -8,7 +8,7 @@ import {
   sourceLabel,
 } from "../lib/job-facts";
 
-test("separates a JobG8 agency advertiser from duplicated contract text", () => {
+test("separates a JobG8 recruiter from duplicated contract text", () => {
   const job = {
     company: "Huntress - Agency - Temporary",
     advertiser_type: "Agency",
@@ -22,7 +22,7 @@ test("separates a JobG8 agency advertiser from duplicated contract text", () => 
   assert.deepEqual(
     buildJobFacts(job).map(({ label, value }) => [label, value]),
     [
-      ["Advertiser", "Huntress"],
+      ["Recruiter", "Huntress"],
       ["Location", "Leeds"],
       ["Salary", "£12,710 per year"],
       ["Contract", "Temporary"],
