@@ -26,62 +26,38 @@ jobs:
           python-version: "3.12"
 
       - name: Apply classification-order correction
+        env:
+          INSERTION_B64: "ICAgIGhhcmRfdGl0bGVfaGl0cyA9IFsKICAgICAgICBwYXR0ZXJuCiAgICAgICAgZm9yIHBhdHRlcm4gaW4gVk9OTkVfSEFSRF9QQVNTX1RJVExFX1BBVFRFUk5TCiAgICAgICAgaWYgcGF0dGVybiBpbiB0aXRsZQogICAgXQogICAgY2xlYXJfdGl0bGVfaGl0cyA9IFsKICAgICAgICBwYXR0ZXJuCiAgICAgICAgZm9yIHBhdHRlcm4gaW4gQ0xFQVJfVElUTEVfUEFUVEVSTlMKICAgICAgICBpZiBwYXR0ZXJuIGluIHRpdGxlCiAgICBdCiAgICBpZiBoYXJkX3RpdGxlX2hpdHMgYW5kIG5vdCBjbGVhcl90aXRsZV9oaXRzOgogICAgICAgIHZhY2FuY3kuY2xhc3NpZmljYXRpb24gPSAiSEFSRF9QQVNTIgogICAgICAgIHZhY2FuY3kuY2xhc3NpZmljYXRpb25fcmVhc29uID0gKAogICAgICAgICAgICAib3V0LW9mLXNjb3BlIFZPTk5FIG9jY3VwYXRpb24iCiAgICAgICAgKQogICAgICAgIHJldHVybgo="
+          TEST_B64: "CgpkZWYgdGVzdF9oYXJkX3RpdGxlX2lzX25vdF9zb2Z0ZW5lZF9ieV9kZXJpdmVkX2dlb2dyYXBoeSgpOgogICAgdmFjYW5jeSA9IHNhbXBsZV92YWNhbmN5KAogICAgICAgIHRpdGxlPSJDaGFpciBvZiBUcnVzdGVlcyIsCiAgICAgICAgbG9jYXRpb249Ik5vdCBzdGF0ZWQiLAogICAgICAgIGdlb2dyYXBoeV9zdGF0dXM9IkRFUklWRURfUkVWSUVXIiwKICAgICAgICBnZW9ncmFwaHlfcmVhc29uPSJlbXBsb3llci1kZXJpdmVkIGdlb2dyYXBoeSIsCiAgICApCgogICAgY2xhc3NpZnkodmFjYW5jeSwgMzBfMDAwKQoKICAgIGFzc2VydCB2YWNhbmN5LmNsYXNzaWZpY2F0aW9uID09ICJIQVJEX1BBU1MiCg=="
         run: |
           python - <<'PY'
+          import base64
+          import os
           from pathlib import Path
 
           module = Path("pipeline/external_sources/vonne_poc.py")
           text = module.read_text(encoding="utf-8")
-          needle = '''    if vacancy.geography_status in {
-          '''
-          insertion = '''    hard_title_hits = [
-              pattern
-              for pattern in VONNE_HARD_PASS_TITLE_PATTERNS
-              if pattern in title
-          ]
-              clear_title_hits = [
-              pattern
-              for pattern in CLEAR_TITLE_PATTERNS
-              if pattern in title
-          ]
-              if hard_title_hits and not clear_title_hits:
-              vacancy.classification = "HARD_PASS"
-              vacancy.classification_reason = (
-                  "out-of-scope VONNE occupation"
-              )
-              return
-          '''
+          needle = "    if vacancy.geography_status in {\n"
+          insertion = base64.b64decode(
+              os.environ["INSERTION_B64"]
+          ).decode("utf-8")
           if needle not in text:
               raise SystemExit("classification insertion point not found")
-          module.write_text(
-              text.replace(needle, insertion + needle, 1),
-              encoding="utf-8",
-          )
+          if "hard_title_hits = [" not in text:
+              text = text.replace(needle, insertion + needle, 1)
+          module.write_text(text, encoding="utf-8")
 
           tests = Path("pipeline/tests/test_vonne_poc.py")
           test_text = tests.read_text(encoding="utf-8")
-          addition = '''
-          
-          def test_hard_title_is_not_softened_by_derived_geography():
-              vacancy = sample_vacancy(
-                  title="Chair of Trustees",
-                  location="Not stated",
-                  geography_status="DERIVED_REVIEW",
-                  geography_reason="employer-derived geography",
-              )
-          
-              classify(vacancy, 30_000)
-          
-              assert vacancy.classification == "HARD_PASS"
-          
-          '''
+          addition = base64.b64decode(
+              os.environ["TEST_B64"]
+          ).decode("utf-8")
           marker = "\ndef test_cli_has_no_publishing_option():\n"
           if marker not in test_text:
               raise SystemExit("test insertion point not found")
-          tests.write_text(
-              test_text.replace(marker, addition + marker, 1),
-              encoding="utf-8",
-          )
+          if "test_hard_title_is_not_softened_by_derived_geography" not in test_text:
+              test_text = test_text.replace(marker, addition + marker, 1)
+          tests.write_text(test_text, encoding="utf-8")
           PY
 
       - name: Install and test
