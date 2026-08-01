@@ -1,0 +1,78 @@
+name: Refresh Quick View duties
+
+on:
+  workflow_run:
+    workflows:
+      - Run full JobG8 daily process
+    types:
+      - completed
+  pull_request:
+    paths:
+      - "pipeline/scripts/at_a_glance_*.py"
+      - "pipeline/scripts/attach_at_a_glance_attributes.py"
+      - "tests/test_at_a_glance_review*.py"
+      - "tests/test_attach_at_a_glance_attributes.py"
+      - ".github/workflows/refresh-quick-view-duties.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || '' }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Quick View safeguards
+        run: |
+          python -m unittest discover -s tests -p "test_at_a_glance_review*.py"
+          python -m pytest tests/test_attach_at_a_glance_attributes.py -q
+
+      - name: Attach admin-service Quick View duties
+        run: python -m pipeline.scripts.attach_at_a_glance_attributes --category admin-service
+
+      - name: Attach support-worker Quick View duties
+        run: python -m pipeline.scripts.attach_at_a_glance_attributes --category support-worker
+
+      - name: Commit refreshed pipeline output
+        if: github.event_name == 'workflow_run' || github.event_name == 'workflow_dispatch'
+        run: |
+          set -euo pipefail
+          output_paths=(
+            "pipeline/output-admin-service/*.json"
+            "pipeline/output-support-worker/*.json"
+          )
+
+          if [ -z "$(git status --porcelain -- "${output_paths[@]}")" ]; then
+            echo "No Quick View duty changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${output_paths[@]}"
+
+          staged_files="$(git diff --cached --name-only)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit unexpected paths:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git commit -m "Refresh Quick View duties"
+          git push origin main
