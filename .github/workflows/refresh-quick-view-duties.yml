@@ -36,6 +36,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install test dependency
+        run: python -m pip install pytest
+
       - name: Run Quick View safeguards
         run: |
           python -m unittest discover -s tests -p "test_at_a_glance_review*.py"
