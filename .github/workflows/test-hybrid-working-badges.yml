@@ -13,7 +13,13 @@ on:
       - "pipeline/tests/test_service_admin_hybrid_integration.py"
       - "components/WorkingArrangementBadge.tsx"
       - "components/JobSlicePage.tsx"
+      - "components/MoreJobsNearby.tsx"
+      - "components/MoreJobsNearby.module.css"
+      - "app/jobs/[id]/page.tsx"
+      - "app/jobs/[id]/job-page.module.css"
+      - "lib/related-jobs.ts"
       - "tests/hybrid-working-badge.test.tsx"
+      - "tests/related-jobs.test.ts"
       - "package.json"
       - ".github/workflows/test-hybrid-working-badges.yml"
 
@@ -80,14 +86,21 @@ jobs:
       - name: Generate Prisma client
         run: npx prisma generate
 
-      - name: Run hybrid badge component tests
+      - name: Run frontend component tests
         run: npm run test:frontend
 
       - name: Type-check frontend
         run: npx tsc --noEmit
 
-      - name: Lint new hybrid badge frontend files
-        run: npx eslint components/WorkingArrangementBadge.tsx tests/hybrid-working-badge.test.tsx
+      - name: Lint frontend files
+        run: |
+          npx eslint \
+            components/WorkingArrangementBadge.tsx \
+            components/MoreJobsNearby.tsx \
+            lib/related-jobs.ts \
+            tests/hybrid-working-badge.test.tsx \
+            tests/related-jobs.test.ts \
+            "app/jobs/[id]/page.tsx"
 
       - name: Upload real-feed audit and generated review outputs
         if: always()

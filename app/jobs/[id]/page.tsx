@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
+import MoreJobsNearby from "@/components/MoreJobsNearby";
 import { cleanEmployerName, sourceLabel } from "@/lib/job-facts";
 import {
   getJobPath,
@@ -10,6 +11,8 @@ import {
   getPublishedJobs,
   type PublishedJob,
 } from "@/lib/published-jobs";
+import { getRelatedJobs } from "@/lib/related-jobs";
+import styles from "./job-page.module.css";
 
 const siteUrl = "https://www.ontapjobsearch.com";
 
@@ -135,9 +138,11 @@ export default async function JobPage({ params }: PageProps) {
   const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
   const schema = jobPostingSchema(job, canonicalUrl);
   const applicationSource = isExternalSource(job.source) ? sourceLabel(job.source) : "";
+  const relatedJobs = getRelatedJobs(job, getPublishedJobs());
+  const allJobsLabel = moreJobsLabel(job.slice_label);
 
   return (
-    <div style={{ maxWidth: 920, margin: "36px auto", padding: "0 16px" }}>
+    <div className={styles.page}>
       {schema ? (
         <script
           type="application/ld+json"
@@ -158,108 +163,117 @@ export default async function JobPage({ params }: PageProps) {
             textDecoration: "none",
           }}
         >
-          <span>{moreJobsLabel(job.slice_label)}</span>
+          <span>{allJobsLabel}</span>
           <span aria-hidden="true">→</span>
         </Link>
       </nav>
 
-      <article
-        style={{
-          border: "1px solid #dbe3ee",
-          borderRadius: 12,
-          padding: "22px 24px",
-          background: "#fff",
-        }}
+      <div
+        className={`${styles.contentGrid} ${
+          relatedJobs.length ? "" : styles.singleColumn
+        }`}
       >
-        <h1 style={{ fontSize: 28, fontWeight: 800, lineHeight: 1.2, marginBottom: 8 }}>
-          {job.title}
-        </h1>
+        <article className={styles.article}>
+          <h1 style={{ fontSize: 28, fontWeight: 800, lineHeight: 1.2, marginBottom: 8 }}>
+            {job.title}
+          </h1>
 
-        <JobFacts job={job} variant="detail" />
+          <JobFacts job={job} variant="detail" />
 
-        {applicationSource ? (
-          <div
-            style={{
-              color: "#6b7280",
-              fontSize: 13,
-              lineHeight: 1.4,
-              marginTop: -8,
-              marginBottom: 7,
-            }}
-          >
-            Original vacancy on {applicationSource}
+          {applicationSource ? (
+            <div
+              style={{
+                color: "#6b7280",
+                fontSize: 13,
+                lineHeight: 1.4,
+                marginTop: -8,
+                marginBottom: 7,
+              }}
+            >
+              Original vacancy on {applicationSource}
+            </div>
+          ) : null}
+
+          <div style={{ marginBottom: 22 }}>
+            <ApplyButton
+              apply_url={job.apply_url}
+              job_id={job.job_id}
+              title={job.title}
+              employer={job.company}
+              location={job.location}
+              region={job.region}
+              source={job.source}
+              slice_path={job.slice_path}
+            />
           </div>
-        ) : null}
 
-        <div style={{ marginBottom: 22 }}>
-          <ApplyButton
-            apply_url={job.apply_url}
-            job_id={job.job_id}
-            title={job.title}
-            employer={job.company}
-            location={job.location}
-            region={job.region}
-            source={job.source}
-            slice_path={job.slice_path}
-          />
-        </div>
-
-        <h2 style={{ fontSize: 21, fontWeight: 800, marginBottom: 12 }}>
-          {isExternalSource(job.source) ? "Role overview" : "Job description"}
-        </h2>
-        <div style={{ whiteSpace: "pre-line", lineHeight: 1.6, color: "#374151" }}>
-          {job.description}
-        </div>
-
-        {isExternalSource(job.source) ? (
-          <div
-            style={{
-              marginTop: 18,
-              padding: "10px 12px",
-              borderRadius: 8,
-              background: "#f3f4f6",
-              color: "#4b5563",
-              fontSize: 13,
-              lineHeight: 1.5,
-            }}
-          >
-            This is an Ontap-written summary of the vacancy’s factual details.
-            Check the original advert for the complete role information and
-            application requirements.
+          <h2 style={{ fontSize: 21, fontWeight: 800, marginBottom: 12 }}>
+            {isExternalSource(job.source) ? "Role overview" : "Job description"}
+          </h2>
+          <div style={{ whiteSpace: "pre-line", lineHeight: 1.6, color: "#374151" }}>
+            {job.description}
           </div>
+
+          {isExternalSource(job.source) ? (
+            <div
+              style={{
+                marginTop: 18,
+                padding: "10px 12px",
+                borderRadius: 8,
+                background: "#f3f4f6",
+                color: "#4b5563",
+                fontSize: 13,
+                lineHeight: 1.5,
+              }}
+            >
+              This is an Ontap-written summary of the vacancy’s factual details.
+              Check the original advert for the complete role information and
+              application requirements.
+            </div>
+          ) : null}
+
+          <div style={{ marginTop: 24 }}>
+            <ApplyButton
+              apply_url={job.apply_url}
+              job_id={job.job_id}
+              title={job.title}
+              employer={job.company}
+              location={job.location}
+              region={job.region}
+              source={job.source}
+              slice_path={job.slice_path}
+            />
+          </div>
+
+          <div style={{ marginTop: 20, paddingTop: 18, borderTop: "1px solid #e5e7eb" }}>
+            <Link
+              href={job.slice_path}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 7,
+                color: "#1d4ed8",
+                fontSize: 16,
+                fontWeight: 700,
+                textDecoration: "none",
+              }}
+            >
+              <span>{allJobsLabel}</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+        </article>
+
+        {relatedJobs.length ? (
+          <aside className={styles.sidebar} aria-label="More jobs nearby">
+            <MoreJobsNearby
+              jobs={relatedJobs}
+              allJobsPath={job.slice_path}
+              allJobsLabel={allJobsLabel}
+            />
+          </aside>
         ) : null}
-
-        <div style={{ marginTop: 24 }}>
-          <ApplyButton
-            apply_url={job.apply_url}
-            job_id={job.job_id}
-            title={job.title}
-            employer={job.company}
-            location={job.location}
-            region={job.region}
-            source={job.source}
-            slice_path={job.slice_path}
-          />
-        </div>
-
-        <div style={{ marginTop: 20, paddingTop: 18, borderTop: "1px solid #e5e7eb" }}>
-          <Link
-            href={job.slice_path}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 7,
-              color: "#1d4ed8",
-              fontSize: 16,
-              fontWeight: 700,
-              textDecoration: "none",
-            }}
-          >
-            <span>{moreJobsLabel(job.slice_label)}</span>
-            <span aria-hidden="true">→</span>
-          </Link>
-        </div>
-      </article>
+      </div>
     </div>
   );
 }
