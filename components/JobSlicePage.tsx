@@ -1,11 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
+import DetailedJobList from "@/components/DetailedJobList";
+import JobViewSwitcher from "@/components/JobViewSwitcher";
+import QuickJobList from "@/components/QuickJobList";
 import TrainingLink from "@/components/traininglink";
-import ApplyButton from "@/components/ApplyButton";
-import JobFacts from "@/components/JobFacts";
-import { sourceLabel } from "@/lib/job-facts";
-import { getJobPath } from "@/lib/published-jobs";
 import styles from "@/components/JobSlicePage.module.css";
 
 type JobRow = {
@@ -35,6 +34,7 @@ type JobRow = {
   full_description: string;
   apply_url: string;
   source: string;
+  at_a_glance_attributes: string[];
 };
 
 type TrainingItem = {
@@ -64,12 +64,19 @@ type JobSlicePageProps = {
   relatedPage?: RelatedPage;
 };
 
+function stringList(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value
+    .filter((item): item is string => typeof item === "string")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
 function readJobsJson(jsonPath: string[], region: string): JobRow[] {
   const filePath = path.join(process.cwd(), ...jsonPath);
-
   if (!fs.existsSync(filePath)) return [];
 
-  let parsed: any;
+  let parsed: unknown;
   try {
     parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
   } catch {
@@ -78,121 +85,54 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
 
   if (!Array.isArray(parsed) || parsed.length === 0) return [];
 
-  return parsed.map((r: any) => ({
-    job_id: r.job_id || r["/Job/DisplayReference"] || "",
-    title: r.title || r["/Job/Position"] || "",
-    company: r.company || r["/Job/AdvertiserName"] || "",
-    advertiser_name: r.advertiser_name || r["/Job/AdvertiserName"] || "",
-    advertiser_type: r.advertiser_type || r["/Job/AdvertiserType"] || "",
-    location: r.location || r["/Job/Area"] || "",
-    region: r.region || region,
-    country: "UK",
-    category: r.category || "",
-    employment_type: r.employment_type || r["/Job/EmploymentType"] || "",
-    salary_min: r.salary_min || r["/Job/SalaryMinimum"] || "",
-    salary_max: r.salary_max || r["/Job/SalaryMaximum"] || "",
-    salary_period: r.salary_period || r["/Job/SalaryPeriod"] || "",
-    salary_text: r.salary_text || r["/Job/SalaryAdditional"] || "",
-    work_pattern: r.work_pattern || r["/Job/WorkHours"] || "",
-    working_arrangement: r.working_arrangement || "",
-    working_arrangement_text: r.working_arrangement_text || "",
-    working_arrangement_evidence: r.working_arrangement_evidence || "",
-    posted_date: r.posted_date || "",
-    posted_date_basis: r.posted_date_basis || "",
-    closing_date: r.closing_date || "",
-    summary: r.summary || "",
-    description: r.description || "",
-    full_description:
-      r.full_description || r.description || r["/Job/Description"] || "",
-    apply_url: r.apply_url || r["/Job/ApplicationURL"] || "",
-    source: r.source || "JobG8",
-  }));
+  return parsed
+    .filter((row): row is Record<string, unknown> => Boolean(row && typeof row === "object"))
+    .map((row) => ({
+      job_id: String(row.job_id || row["/Job/DisplayReference"] || ""),
+      title: String(row.title || row["/Job/Position"] || ""),
+      company: String(row.company || row["/Job/AdvertiserName"] || ""),
+      advertiser_name: String(row.advertiser_name || row["/Job/AdvertiserName"] || ""),
+      advertiser_type: String(row.advertiser_type || row["/Job/AdvertiserType"] || ""),
+      location: String(row.location || row["/Job/Area"] || ""),
+      region: String(row.region || region),
+      country: String(row.country || "UK"),
+      category: String(row.category || ""),
+      employment_type: String(row.employment_type || row["/Job/EmploymentType"] || ""),
+      salary_min: String(row.salary_min || row["/Job/SalaryMinimum"] || ""),
+      salary_max: String(row.salary_max || row["/Job/SalaryMaximum"] || ""),
+      salary_period: String(row.salary_period || row["/Job/SalaryPeriod"] || ""),
+      salary_text: String(row.salary_text || row["/Job/SalaryAdditional"] || ""),
+      work_pattern: String(row.work_pattern || row["/Job/WorkHours"] || ""),
+      working_arrangement: String(row.working_arrangement || ""),
+      working_arrangement_text: String(row.working_arrangement_text || ""),
+      working_arrangement_evidence: String(row.working_arrangement_evidence || ""),
+      posted_date: String(row.posted_date || ""),
+      posted_date_basis: String(row.posted_date_basis || ""),
+      closing_date: String(row.closing_date || ""),
+      summary: String(row.summary || ""),
+      description: String(row.description || ""),
+      full_description: String(
+        row.full_description || row.description || row["/Job/Description"] || ""
+      ),
+      apply_url: String(row.apply_url || row["/Job/ApplicationURL"] || ""),
+      source: String(row.source || "JobG8"),
+      at_a_glance_attributes: stringList(row.at_a_glance_attributes),
+    }));
 }
 
-function decodeMojibake(value: string) {
-  return (value || "")
-    .replace(/Â£/g, "£")
-    .replace(/Â/g, "")
-    .replace(/â€“/g, "–")
-    .replace(/â€”/g, "—")
-    .replace(/â€˜/g, "‘")
-    .replace(/â€™/g, "’")
-    .replace(/â€œ/g, "“")
-    .replace(/â€/g, "”")
-    .replace(/â€¢/g, "•")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/&pound;/gi, "£")
-    .replace(/&ndash;/gi, "–")
-    .replace(/&mdash;/gi, "—")
-    .replace(/&bull;/gi, "•")
-    .replace(/&nbsp;/gi, " ");
-}
-
-function cleanText(value: string) {
-  return decodeMojibake(value)
-    .replace(/^\s*[\?\uFFFD]\s+(?=[A-Z])/g, "")
-    .replace(/\n\s*[\?\uFFFD]\s+(?=[A-Z])/g, "\n")
-    .replace(/[ \t]+\n/g, "\n")
-    .replace(/\n[ \t]+/g, "\n")
-    .replace(/[ \t]{2,}/g, " ")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
-}
-
-function stripHtml(html: string) {
-  if (!html) return "";
-
-  return cleanText(
-    decodeMojibake(html)
-      .replace(/\r\n/g, "\n")
-      .replace(/\r/g, "\n")
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<\/p>/gi, "\n\n")
-      .replace(/<\/div>/gi, "\n")
-      .replace(/<\/h[1-6]>/gi, "\n\n")
-      .replace(/<\/ul>/gi, "\n")
-      .replace(/<\/ol>/gi, "\n")
-      .replace(/<\/li>/gi, "\n")
-      .replace(/<li[^>]*>/gi, "• ")
-      .replace(/<[^>]+>/g, "")
-      .replace(/\n{2,}/g, "\n\n")
-  );
-}
-
-function truncateAtWord(value: string, maxChars: number) {
-  if (value.length <= maxChars) return value;
-
-  const clipped = value.slice(0, maxChars);
-  const wordBoundary = clipped.lastIndexOf(" ");
-  const safeClip = (wordBoundary > 0 ? clipped.slice(0, wordBoundary) : clipped).trim();
-  return `${safeClip}…`;
-}
-
-function getSummary(job: JobRow) {
-  const summarySource = cleanText(job.summary);
-  const fallbackSource = stripHtml(job.full_description || job.description || "");
-  const baseSource = summarySource || fallbackSource;
-  if (!baseSource) return "";
-
-  const collapsed = baseSource.replace(/\s+/g, " ").trim();
-  if (!collapsed) return "";
-
-  const sentenceParts = collapsed.split(/(?<=[.!?])\s+/);
-  const firstSentence = sentenceParts[0]?.trim() || "";
-
-  if (firstSentence && firstSentence.length <= 220) {
-    return firstSentence;
-  }
-
-  return truncateAtWord(collapsed, 220);
-}
-
-function externalApplicationSource(source: string) {
-  const normalised = source.trim();
-  if (!normalised || normalised.toLowerCase() === "jobg8") return "";
-  return sourceLabel(normalised);
+function locationFirst(jobs: JobRow[]) {
+  return [...jobs].sort((left, right) => {
+    const locationOrder = (left.location || "ZZZ").localeCompare(
+      right.location || "ZZZ",
+      "en-GB",
+      { sensitivity: "base", numeric: true }
+    );
+    if (locationOrder) return locationOrder;
+    return left.title.localeCompare(right.title, "en-GB", {
+      sensitivity: "base",
+      numeric: true,
+    });
+  });
 }
 
 const careTraining: TrainingItem[] = [
@@ -249,6 +189,26 @@ function RelatedPageLink({ relatedPage }: { relatedPage: RelatedPage }) {
   );
 }
 
+function EmptyJobs() {
+  return (
+    <div
+      style={{
+        border: "1px solid #dbe3ee",
+        borderRadius: 12,
+        padding: "14px 16px",
+        background: "#fff",
+        color: "#555",
+      }}
+    >
+      <div style={{ fontWeight: 700, marginBottom: 6 }}>No current suitable jobs</div>
+      <div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
+        We’ve paused this page while suitable roles are limited. Please check back soon,
+        or browse current admin, service and customer-service roles.
+      </div>
+    </div>
+  );
+}
+
 export default function JobSlicePage({
   jsonPath,
   region,
@@ -263,7 +223,8 @@ export default function JobSlicePage({
   relatedPage,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
-  const jobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
+  const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
+  const jobs = locationFirst(filteredJobs);
   const sidebarItems = trainingItems || careTraining;
 
   return (
@@ -273,16 +234,15 @@ export default function JobSlicePage({
           <div style={{ fontWeight: 800, marginBottom: 6 }}>
             {trainingHeading || "Get started faster"}
           </div>
-
           <p style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
             {trainingSubheading ||
               "Useful online courses commonly requested in care and support roles"}
           </p>
 
           <div style={{ display: "grid", gap: 8 }}>
-            {sidebarItems.map((item, idx) => (
+            {sidebarItems.map((item) => (
               <div
-                key={idx}
+                key={`${item.provider}-${item.title}`}
                 style={{
                   border: "1px solid #e5e7eb",
                   borderRadius: 10,
@@ -307,10 +267,7 @@ export default function JobSlicePage({
 
         <div className={styles.content}>
           <div style={{ marginBottom: 14 }}>
-            <h1 style={{ fontSize: 28, fontWeight: 800, marginBottom: 6 }}>
-              {title}
-            </h1>
-
+            <h1 style={{ fontSize: 28, fontWeight: 800, marginBottom: 6 }}>{title}</h1>
             <p style={{ color: "#6b7280", fontSize: 14 }}>
               {introText ||
                 `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
@@ -318,102 +275,19 @@ export default function JobSlicePage({
           </div>
 
           {relatedPage ? (
-            <div style={{ marginBottom: 14 }}>
+            <div style={{ marginBottom: 12 }}>
               <RelatedPageLink relatedPage={relatedPage} />
             </div>
           ) : null}
 
-          <div style={{ display: "grid", gap: 10 }}>
-            {jobs.length === 0 ? (
-              <div
-                style={{
-                  border: "1px solid #dbe3ee",
-                  borderRadius: 12,
-                  padding: "14px 16px",
-                  background: "#fff",
-                  color: "#555",
-                }}
-              >
-                <div style={{ fontWeight: 700, marginBottom: 6 }}>
-                  No current suitable jobs
-                </div>
-
-                <div style={{ fontSize: 14, color: "#666", lineHeight: 1.5 }}>
-                  We’ve paused this page while suitable roles are limited. Please check back soon, or browse current admin, service and customer-service roles.
-                </div>
-              </div>
-            ) : null}
-
-            {jobs.map((j, idx) => {
-              const summary = getSummary(j);
-              const applicationSource = externalApplicationSource(j.source);
-
-              return (
-                <div
-                  key={j.job_id || idx}
-                  style={{
-                    border: "1px solid #dbe3ee",
-                    borderRadius: 12,
-                    padding: "14px 16px",
-                    background: "#fff",
-                  }}
-                >
-                  <div style={{ fontWeight: 800, fontSize: 16 }}>{j.title}</div>
-
-                  <JobFacts job={j} anchorTown={anchorTown} />
-
-                  {summary ? (
-                    <div
-                      style={{
-                        fontSize: 13,
-                        color: "#666",
-                        marginBottom: 8,
-                        lineHeight: 1.5,
-                      }}
-                    >
-                      {summary}
-                    </div>
-                  ) : null}
-
-                  <Link
-                    href={getJobPath(j.job_id)}
-                    style={{
-                      fontSize: 13,
-                      color: "#2563eb",
-                      textDecoration: "none",
-                    }}
-                  >
-                    View full job description →
-                  </Link>
-
-                  {applicationSource ? (
-                    <div
-                      style={{
-                        marginTop: 8,
-                        color: "#6b7280",
-                        fontSize: 12,
-                        lineHeight: 1.4,
-                      }}
-                    >
-                      Original vacancy on {applicationSource}
-                    </div>
-                  ) : null}
-
-                  <div style={{ marginTop: applicationSource ? 6 : 12 }}>
-                    <ApplyButton
-                      apply_url={j.apply_url}
-                      job_id={j.job_id}
-                      title={j.title}
-                      employer={j.company}
-                      location={j.location}
-                      region={j.region}
-                      source={j.source}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          {jobs.length ? (
+            <JobViewSwitcher
+              quickView={<QuickJobList jobs={jobs} />}
+              detailedView={<DetailedJobList jobs={jobs} anchorTown={anchorTown} />}
+            />
+          ) : (
+            <EmptyJobs />
+          )}
 
           {relatedPage ? (
             <div style={{ marginTop: 14 }}>

@@ -1,0 +1,155 @@
+name: Build at-a-glance review
+
+on:
+  push:
+    branches:
+      - agent/at-a-glance-review
+    paths:
+      - "pipeline/scripts/generate_at_a_glance_review.py"
+      - "pipeline/scripts/at_a_glance_*.py"
+      - "tests/test_at_a_glance_review.py"
+      - "app/**/*.json"
+      - ".github/workflows/build-at-a-glance-review.yml"
+  pull_request:
+    paths:
+      - "pipeline/scripts/generate_at_a_glance_review.py"
+      - "pipeline/scripts/at_a_glance_*.py"
+      - "tests/test_at_a_glance_review.py"
+      - "app/**/*.json"
+      - ".github/workflows/build-at-a-glance-review.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run extraction safeguards
+        run: python -m unittest tests/test_at_a_glance_review.py
+
+      - name: Generate review-only outputs
+        run: python -m pipeline.scripts.generate_at_a_glance_review
+
+      - name: Upload full review outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: at-a-glance-review-${{ github.run_id }}
+          path: |
+            reviews/at-a-glance/at-a-glance-review.csv
+            reviews/at-a-glance/at-a-glance-review.md
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Post PR review sample
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- at-a-glance-review -->';
+            const review = fs.readFileSync(
+              'reviews/at-a-glance/at-a-glance-review.md',
+              'utf8'
+            );
+
+            const header = review.split('## Generated')[0].trim();
+            const generatedSection = (
+              review.split('## Generated')[1] || ''
+            ).split('## Omitted')[0];
+            const blocks = generatedSection
+              .split(/^---$/m)
+              .map((block) => block.trim())
+              .filter((block) => block.includes('proposed:'));
+
+            const field = (block, name) => {
+              const match = block.match(new RegExp(`^${name}:\\s*(.*)$`, 'm'));
+              return match ? match[1].trim() : '';
+            };
+
+            const examples = blocks.slice(0, 12).map((block) => {
+              const title = field(block, 'title');
+              const current = field(block, 'current');
+              const proposed = field(block, 'proposed');
+              const attributes = field(block, 'attributes');
+              return [
+                `**${title}**`,
+                `- Current: ${current || '(none)'}`,
+                `- Proposed: ${proposed}`,
+                `- Attributes: ${attributes}`,
+              ].join('\n');
+            });
+
+            const omittedSection = review.split('## Omitted')[1] || '';
+            const omitted = omittedSection
+              .split('\n')
+              .map((line) => line.trim())
+              .filter((line) => line.startsWith('- '))
+              .slice(0, 10);
+
+            const runUrl = [
+              context.serverUrl,
+              context.repo.owner,
+              context.repo.repo,
+              'actions',
+              'runs',
+              context.runId,
+            ].join('/');
+
+            const body = [
+              marker,
+              '## At-a-glance dry-run review',
+              '',
+              header,
+              '',
+              '### Sample generated comparisons',
+              '',
+              examples.length ? examples.join('\n\n') : 'No summaries generated.',
+              '',
+              '### Sample omissions',
+              '',
+              omitted.length ? omitted.join('\n') : 'No omissions.',
+              '',
+              `[Download the full CSV and Markdown artifact from this workflow run](${runUrl})`,
+              '',
+              '**Nothing in this run changes published job JSON or the live site.**',
+            ].join('\n');
+
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                per_page: 100,
+              }
+            );
+            const existing = comments.find(
+              (comment) => comment.user?.type === 'Bot' && comment.body?.includes(marker)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
