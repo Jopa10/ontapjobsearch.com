@@ -1,0 +1,74 @@
+name: Run VONNE review
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-vonne-review:
+    name: Refresh VONNE review only
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Test VONNE proof of concept
+        working-directory: pipeline
+        run: python -m pytest tests/test_vonne_poc.py -q
+
+      - name: Refresh VONNE review
+        working-directory: pipeline
+        run: |
+          python -m external_sources.vonne_poc \
+            --fetch-live \
+            --acknowledge-source-terms
+
+      - name: Verify review outputs and live-site isolation
+        run: |
+          test -s pipeline/reviews/external/vonne-review.csv
+          test -s pipeline/reviews/external/vonne-summary.md
+          git diff --exit-code -- \
+            pipeline/output-external \
+            pipeline/output-admin-service \
+            app
+
+      - name: Commit review only
+        run: |
+          set -euo pipefail
+          review_paths=(
+            "pipeline/reviews/external/vonne-review.csv"
+            "pipeline/reviews/external/vonne-summary.md"
+          )
+
+          git add -- "${review_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No VONNE review changes to commit"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/external/vonne-review.csv" && $0 != "pipeline/reviews/external/vonne-summary.md"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside the VONNE review:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh VONNE review"
+          git push origin main
