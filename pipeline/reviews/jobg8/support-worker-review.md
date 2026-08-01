@@ -50,13 +50,13 @@ job_id: 107751768
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Mirfield | £12.71 - £16.6 per hour | Experienced Childrens Residential Support Workers
 job_id: 107660790
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
@@ -72,7 +72,7 @@ job_id: 107728670
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
@@ -214,7 +214,7 @@ job_id: 107744273
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
 job_id: 107658496
 ---
@@ -254,7 +254,7 @@ job_id: 107746227
 ## CUMBRIA SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
 job_id: 107572044
 ---
@@ -330,25 +330,25 @@ job_id: 107739683
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
 job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Child and Family Support Worker
 job_id: 1401783859
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
 job_id: 1401783926
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
 job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
 ---
