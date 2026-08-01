@@ -1059,6 +1059,22 @@ def classify(
             "possible duplicate within VONNE"
         )
         return
+    hard_title_hits = [
+        pattern
+        for pattern in VONNE_HARD_PASS_TITLE_PATTERNS
+        if pattern in title
+    ]
+    clear_title_hits = [
+        pattern
+        for pattern in CLEAR_TITLE_PATTERNS
+        if pattern in title
+    ]
+    if hard_title_hits and not clear_title_hits:
+        vacancy.classification = "HARD_PASS"
+        vacancy.classification_reason = (
+            "out-of-scope VONNE occupation"
+        )
+        return
     if vacancy.geography_status in {
         "GENERIC_REVIEW",
         "DERIVED_REVIEW",

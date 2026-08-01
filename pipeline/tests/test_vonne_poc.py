@@ -222,6 +222,19 @@ def test_review_row_keeps_vonne_source_identity():
     assert row["source_url"].endswith("cid=173001")
 
 
+
+def test_hard_title_is_not_softened_by_derived_geography():
+    vacancy = sample_vacancy(
+        title="Chair of Trustees",
+        location="Not stated",
+        geography_status="DERIVED_REVIEW",
+        geography_reason="employer-derived geography",
+    )
+
+    classify(vacancy, 30_000)
+
+    assert vacancy.classification == "HARD_PASS"
+
 def test_cli_has_no_publishing_option():
     try:
         parse_args(["--write-approved-json"])
