@@ -1,5 +1,6 @@
 name: Test VONNE proof of concept
 
+# Validates the exact PR branch, including a non-publishing live review preview.
 on:
   pull_request:
     paths:
