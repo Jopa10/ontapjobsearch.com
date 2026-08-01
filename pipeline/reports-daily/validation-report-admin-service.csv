@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,1984
-total rows included,44
+total rows included,46
 total rows dropped,1934
 title classification count - HIGH_CONFIDENCE,177
 title classification count - ELASTIC_FIT,43
@@ -8,21 +8,21 @@ title classification count - REVIEW_CONTEXT_DEPENDENT,0
 title classification count - HARD_PASS,1181
 title classification count - OUT_OF_SCOPE,583
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - West,2
+selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - West,3
 high confidence count - Yorkshire - West,2
 anchor elastic count - Yorkshire - West,0
 other elastic count - Yorkshire - West,0
-total rows output - Yorkshire - West,2
-job_id included - Yorkshire - West,fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
+total rows output - Yorkshire - West,3
+job_id included - Yorkshire - West,00f003e0-65d1-48b6-86b7-36a6c34dfcb5; fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - South,4
+selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - South,5
 high confidence count - Yorkshire - South,4
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,0
-total rows output - Yorkshire - South,4
-job_id included - Yorkshire - South,52198d55-9fac-4d35-8505-b9a814bc54dc; 3210a914-2c99-4b6c-870b-c2001651b931; 107606837; 9d793cd4-ff2a-4749-9512-a7407298f539
+total rows output - Yorkshire - South,5
+job_id included - Yorkshire - South,8ab72ad1-ff72-4ee5-9737-c67201f3c0fd; 52198d55-9fac-4d35-8505-b9a814bc54dc; 3210a914-2c99-4b6c-870b-c2001651b931; 107606837; 9d793cd4-ff2a-4749-9512-a7407298f539
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - North East,4
