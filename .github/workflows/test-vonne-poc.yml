@@ -34,3 +34,31 @@ jobs:
       - name: Run VONNE tests
         working-directory: pipeline
         run: python -m pytest tests/test_vonne_poc.py -q
+
+      - name: Run live review-only smoke test
+        working-directory: pipeline
+        run: |
+          python -m external_sources.vonne_poc \
+            --fetch-live \
+            --acknowledge-source-terms \
+            --report-csv /tmp/vonne-review.csv \
+            --summary-md /tmp/vonne-summary.md
+
+      - name: Verify live-site isolation
+        run: |
+          test -s /tmp/vonne-review.csv
+          test -s /tmp/vonne-summary.md
+          git diff --exit-code -- \
+            pipeline/output-external \
+            pipeline/output-admin-service \
+            app
+
+      - name: Upload review preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: vonne-review-preview
+          path: |
+            /tmp/vonne-review.csv
+            /tmp/vonne-summary.md
+          if-no-files-found: error
+          retention-days: 7
