@@ -26,7 +26,7 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
 job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 ---
@@ -60,7 +60,7 @@ job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £15 - £16 per hour | Site Administrator
 job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
 ---
