@@ -30,7 +30,20 @@ jobs:
           python pipeline/scripts/publish_verified_pages.py --write | tee "$report_file"
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Commit approved live JSON changes
+      - name: Build private live-job source report
+        id: live-count
+        run: |
+          set -euo pipefail
+          report_date="$(date -u +%F)"
+          report_file="$(mktemp)"
+          python pipeline/scripts/live_job_source_counter.py \
+            --app-dir app \
+            --reports-dir pipeline/reports-daily \
+            --date "$report_date" | tee "$report_file"
+          cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
+          echo "report_date=$report_date" >> "$GITHUB_OUTPUT"
+
+      - name: Commit approved live JSON changes and private count reports
         id: commit
         run: |
           set -euo pipefail
@@ -46,16 +59,32 @@ jobs:
             "app/sussex/support-worker.json"
             "app/west-yorkshire/support-worker.json"
           )
+          daily_report="pipeline/reports-daily/live-job-source-count-${{ steps.live-count.outputs.report_date }}.csv"
+          history_report="pipeline/reports-daily/live-job-source-history.csv"
 
-          git add -- "${approved_paths[@]}"
+          git add -- "${approved_paths[@]}" "$daily_report" "$history_report"
           staged_files="$(git diff --cached --name-only)"
           if [ -z "$staged_files" ]; then
             echo "created=false" >> "$GITHUB_OUTPUT"
-            echo "No approved live JSON changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "No approved live JSON or live-job count changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "app/hampshire/service-administrator-jobs.json" && $0 != "app/london/service-administrator-jobs.json" && $0 != "app/north-east/service-administrator-jobs.json" && $0 != "app/south-yorkshire/service-administrator-jobs.json" && $0 != "app/west-yorkshire/service-administrator-jobs.json" && $0 != "app/cumbria-south/support-worker.json" && $0 != "app/north-east/support-worker-jobs.json" && $0 != "app/south-yorkshire/support-worker.json" && $0 != "app/sussex/support-worker.json" && $0 != "app/west-yorkshire/support-worker.json"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
+            -v daily="$daily_report" \
+            -v history="$history_report" \
+            '$0 != "app/hampshire/service-administrator-jobs.json" &&
+             $0 != "app/london/service-administrator-jobs.json" &&
+             $0 != "app/north-east/service-administrator-jobs.json" &&
+             $0 != "app/south-yorkshire/service-administrator-jobs.json" &&
+             $0 != "app/west-yorkshire/service-administrator-jobs.json" &&
+             $0 != "app/cumbria-south/support-worker.json" &&
+             $0 != "app/north-east/support-worker-jobs.json" &&
+             $0 != "app/south-yorkshire/support-worker.json" &&
+             $0 != "app/sussex/support-worker.json" &&
+             $0 != "app/west-yorkshire/support-worker.json" &&
+             $0 != daily &&
+             $0 != history'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit unexpected staged paths:"
             printf '%s\n' "$unexpected_files"
@@ -69,3 +98,14 @@ jobs:
           git push origin main
           echo "created=true" >> "$GITHUB_OUTPUT"
           echo "Published verified pages commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload downloadable live-job source report
+        if: steps.live-count.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-job-source-report-${{ steps.live-count.outputs.report_date }}
+          path: |
+            pipeline/reports-daily/live-job-source-count-${{ steps.live-count.outputs.report_date }}.csv
+            pipeline/reports-daily/live-job-source-history.csv
+          if-no-files-found: error
+          retention-days: 30
