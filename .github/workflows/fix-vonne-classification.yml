@@ -1,9 +1,7 @@
 name: Correct VONNE hard-pass precedence
 
 on:
-  push:
-    branches:
-      - agent/vonne-review-only-poc
+  pull_request:
     paths:
       - ".github/workflows/fix-vonne-classification.yml"
 
