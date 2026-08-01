@@ -1,0 +1,101 @@
+name: Correct VONNE hard-pass precedence
+
+on:
+  push:
+    branches:
+      - agent/vonne-review-only-poc
+    paths:
+      - ".github/workflows/fix-vonne-classification.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/vonne-review-only-poc
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply classification-order correction
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          module = Path("pipeline/external_sources/vonne_poc.py")
+          text = module.read_text(encoding="utf-8")
+          needle = '''    if vacancy.geography_status in {
+          '''
+          insertion = '''    hard_title_hits = [
+              pattern
+              for pattern in VONNE_HARD_PASS_TITLE_PATTERNS
+              if pattern in title
+          ]
+              clear_title_hits = [
+              pattern
+              for pattern in CLEAR_TITLE_PATTERNS
+              if pattern in title
+          ]
+              if hard_title_hits and not clear_title_hits:
+              vacancy.classification = "HARD_PASS"
+              vacancy.classification_reason = (
+                  "out-of-scope VONNE occupation"
+              )
+              return
+          '''
+          if needle not in text:
+              raise SystemExit("classification insertion point not found")
+          module.write_text(
+              text.replace(needle, insertion + needle, 1),
+              encoding="utf-8",
+          )
+
+          tests = Path("pipeline/tests/test_vonne_poc.py")
+          test_text = tests.read_text(encoding="utf-8")
+          addition = '''
+          
+          def test_hard_title_is_not_softened_by_derived_geography():
+              vacancy = sample_vacancy(
+                  title="Chair of Trustees",
+                  location="Not stated",
+                  geography_status="DERIVED_REVIEW",
+                  geography_reason="employer-derived geography",
+              )
+          
+              classify(vacancy, 30_000)
+          
+              assert vacancy.classification == "HARD_PASS"
+          
+          '''
+          marker = "\ndef test_cli_has_no_publishing_option():\n"
+          if marker not in test_text:
+              raise SystemExit("test insertion point not found")
+          tests.write_text(
+              test_text.replace(marker, addition + marker, 1),
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Install and test
+        run: |
+          python -m pip install --upgrade pip pandas openpyxl pytest
+          cd pipeline
+          python -m py_compile external_sources/vonne_poc.py
+          python -m pytest tests/test_vonne_poc.py -q
+
+      - name: Remove one-off workflow and push correction
+        run: |
+          rm .github/workflows/fix-vonne-classification.yml
+          git add pipeline/external_sources/vonne_poc.py pipeline/tests/test_vonne_poc.py .github/workflows/fix-vonne-classification.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Fix VONNE hard-pass precedence"
+          git push origin agent/vonne-review-only-poc
