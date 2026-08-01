@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,1348
-total rows included,62
-total rows dropped,1281
-title classification count - HIGH_CONFIDENCE,206
-title classification count - ELASTIC_FIT,33
+total rows input,1984
+total rows included,44
+total rows dropped,1934
+title classification count - HIGH_CONFIDENCE,177
+title classification count - ELASTIC_FIT,43
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,659
-title classification count - OUT_OF_SCOPE,450
+title classification count - HARD_PASS,1181
+title classification count - OUT_OF_SCOPE,583
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - West,4
-high confidence count - Yorkshire - West,4
+selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - West,2
+high confidence count - Yorkshire - West,2
 anchor elastic count - Yorkshire - West,0
 other elastic count - Yorkshire - West,0
-total rows output - Yorkshire - West,4
-job_id included - Yorkshire - West,ea7b8167-e326-4990-b4be-25a564037ae6; a16c651f-9130-4ce3-ac9d-34ca82f1c9ae; fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
+total rows output - Yorkshire - West,2
+job_id included - Yorkshire - West,fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - South,4
@@ -22,31 +22,31 @@ high confidence count - Yorkshire - South,4
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,0
 total rows output - Yorkshire - South,4
-job_id included - Yorkshire - South,107668923; 52198d55-9fac-4d35-8505-b9a814bc54dc; 3210a914-2c99-4b6c-870b-c2001651b931; 9d793cd4-ff2a-4749-9512-a7407298f539
-selection scenario - North East,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
-selection message - North East,North East selection complete: all 7 selected role(s) are HIGH_CONFIDENCE plus Newcastle Upon Tyne ELASTIC_FIT roles.
-credible total - North East,7
-high confidence count - North East,5
+job_id included - Yorkshire - South,52198d55-9fac-4d35-8505-b9a814bc54dc; 3210a914-2c99-4b6c-870b-c2001651b931; 107606837; 9d793cd4-ff2a-4749-9512-a7407298f539
+selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - North East,4
+high confidence count - North East,1
 anchor elastic count - North East,2
-other elastic count - North East,0
-total rows output - North East,7
-job_id included - North East,74b2edbd-f145-42de-bca5-93f37ec0bca2; fc295d6b-6c54-413b-8ca1-0bef809a8273; eafa8287-56b3-4ecd-a9bc-8fb95aa554c4; e12fcfe3-076c-47be-a30c-227026a13277; 646b596c-525f-4641-9329-03f131b59e32; da318476-2716-4dc4-96fa-7984b2a0a789; ce8acedc-578a-43b6-8458-482944e0ad7e
-selection scenario - London,SCENARIO_3_FULL_VALID_SELECTION
-selection message - London,"London selection complete: all 25 valid selected role(s) retained after HIGH_CONFIDENCE, London ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - London,25
-high confidence count - London,21
-anchor elastic count - London,2
-other elastic count - London,2
-total rows output - London,25
-job_id included - London,107657111; 8a0de7c0-a4cc-4781-a44b-9c6f74460d73; 0392588c-ea46-438c-a4a1-6f2b08a7f12a; 5a534179-7cff-416a-b14c-b5f1f11b907c; 01257d43-ab3d-4a80-a4b6-86892e362251; 107758806; e0a800a7-bcbd-4cad-8a96-decf3e7a07ba; d4000791-6f57-45b5-b179-616cd9975d10; cb213c52-3054-4831-b72e-231906077e8c; e9f8f0b3-dd75-4d84-babb-80db551a23ff; 1616032; 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30; a70e79c2-8d85-4835-9ffb-ec6d2d70d149; 107663038; 1599080; bac0d04f-c5fa-465d-b8f0-10f45f8f85cb; d80effd1-f790-46d0-942e-27c2de0d6305; ecd7cb68-9c4a-44a2-9289-7f0e5dcd4bdc; d69e19ea-b3b2-4f7a-82d4-8951559590c8; a65fdabc-6bc9-40ee-9a53-499a14c95c4a; 9c0c3f0a-26d6-4bc3-a84e-17e102e59614; f2ecb257-e92d-466a-bc1a-9ba3f035fc23; a87ee9f1-8fd6-4986-b737-551aac654bc6; 107699141; 107719639
+other elastic count - North East,1
+total rows output - North East,4
+job_id included - North East,74b2edbd-f145-42de-bca5-93f37ec0bca2; fc295d6b-6c54-413b-8ca1-0bef809a8273; eafa8287-56b3-4ecd-a9bc-8fb95aa554c4; 107759868
+selection scenario - London,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
+selection message - London,London selection complete: all 17 selected role(s) are HIGH_CONFIDENCE plus London ELASTIC_FIT roles.
+credible total - London,17
+high confidence count - London,16
+anchor elastic count - London,1
+other elastic count - London,0
+total rows output - London,17
+job_id included - London,8a0de7c0-a4cc-4781-a44b-9c6f74460d73; 0392588c-ea46-438c-a4a1-6f2b08a7f12a; 5a534179-7cff-416a-b14c-b5f1f11b907c; 01257d43-ab3d-4a80-a4b6-86892e362251; e0a800a7-bcbd-4cad-8a96-decf3e7a07ba; d4000791-6f57-45b5-b179-616cd9975d10; e9f8f0b3-dd75-4d84-babb-80db551a23ff; 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30; a70e79c2-8d85-4835-9ffb-ec6d2d70d149; 1621458; 1599080; d80effd1-f790-46d0-942e-27c2de0d6305; d69e19ea-b3b2-4f7a-82d4-8951559590c8; a65fdabc-6bc9-40ee-9a53-499a14c95c4a; 9c0c3f0a-26d6-4bc3-a84e-17e102e59614; f2ecb257-e92d-466a-bc1a-9ba3f035fc23; a87ee9f1-8fd6-4986-b737-551aac654bc6
 selection scenario - Hampshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Hampshire,"Hampshire selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Hampshire,9
-high confidence count - Hampshire,8
+selection message - Hampshire,"Hampshire selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Hampshire,7
+high confidence count - Hampshire,5
 anchor elastic count - Hampshire,0
-other elastic count - Hampshire,1
-total rows output - Hampshire,9
-job_id included - Hampshire,a7a64a54-10df-48f9-9f5e-be6e42042698; bc8e6b66-d67e-4f4c-9392-7285e25de89b; b9a5ee39-5970-4459-9186-fb7f84383304; 71c14263-f694-438a-8eb2-9fc40e26b6d2; 8ce5f464-05a9-43e0-8f2f-af12d6230bfd; cdc8a0d6-75db-4ccc-9814-96012a552c48; e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1; d085c5f2-2439-4e83-81a8-b5d43af25dff; 1595701
+other elastic count - Hampshire,2
+total rows output - Hampshire,7
+job_id included - Hampshire,bc8e6b66-d67e-4f4c-9392-7285e25de89b; 71c14263-f694-438a-8eb2-9fc40e26b6d2; 8ce5f464-05a9-43e0-8f2f-af12d6230bfd; cdc8a0d6-75db-4ccc-9814-96012a552c48; e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1; 1595701; 107755942
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Surrey,Surrey selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Surrey,5
@@ -55,11 +55,11 @@ anchor elastic count - Surrey,0
 other elastic count - Surrey,0
 total rows output - Surrey,5
 job_id included - Surrey,b3c542f7-b4d2-4602-ba47-60d4f270b39a; 76d94ffe-2e8d-4b22-b2e9-e95bcf67d117; 53608d8d-0110-469e-a64a-88aff23946a4; c155d86b-2df2-4768-a926-9b15f14aae23; f545a2c8-eeed-4001-aafd-8e0b48332e01
-selection scenario - Kent,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Kent,"Kent selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Kent,8
-high confidence count - Kent,6
+selection scenario - Kent,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - Kent,Kent selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Kent,5
+high confidence count - Kent,4
 anchor elastic count - Kent,0
-other elastic count - Kent,2
-total rows output - Kent,8
-job_id included - Kent,9c50e7f5-c080-4543-adc5-a91353592d22; 1eeca110-4bfa-4f50-b7e3-a83fe57a3242; 705da49f-22ec-4df1-aca5-ebc75e2f7b23; 107604686; 6b598b1d-4b4d-4cb8-8645-64c446a8ae26; cf57b5c9-1ba9-42b2-abfe-093bc469040f; 107698291; 900e2fad-e172-4801-908f-64a7b0d2064e
+other elastic count - Kent,1
+total rows output - Kent,5
+job_id included - Kent,9c50e7f5-c080-4543-adc5-a91353592d22; 1eeca110-4bfa-4f50-b7e3-a83fe57a3242; 705da49f-22ec-4df1-aca5-ebc75e2f7b23; 6b598b1d-4b4d-4cb8-8645-64c446a8ae26; 900e2fad-e172-4801-908f-64a7b0d2064e

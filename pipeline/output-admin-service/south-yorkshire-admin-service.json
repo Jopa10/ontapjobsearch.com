@@ -1,25 +1,5 @@
 [
   {
-    "job_id": "107668923",
-    "title": "Workplace Operations Coordinator",
-    "company": "Premier Jobs UK Limited - Agency - Permanent",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "?Are you an organised, delivery-minded operator who thrives on turning plans into action? This Workplace Operations Coordinator role offers the opportunity to support workplace strategy across a UK-wide financial services organisation, ensuring colleagues and clients benefit from safe, professional, and fully operational office environments click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNhaOlNikWf3yTpExAGZ%2fSNr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "52198d55-9fac-4d35-8505-b9a814bc54dc",
     "title": "Business Support Officer - Local Authority Library",
     "company": "Reed - Agency - Temporary",
@@ -37,7 +17,12 @@
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "3210a914-2c99-4b6c-870b-c2001651b931",
@@ -57,7 +42,37 @@
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Catch 22",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107606837",
+    "title": "Recruitment Onsite Operations Coordinator",
+    "company": "Winner Recruitment - Agency - Permanent",
+    "location": "Barnsley",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Onsite Operations Coordinator\n\nLocation: Multi-site (Barnsley)\n\nSalary: £27,000 (DOE) + Bonus\n\nJob Type: Full-Time (37.5 hours per week)\n\nShift : Afternoon (any 8 hrs between 12:00 and 00:00)\n\nJoin Our Growing Onsite Operations Team\n\nAre you highly organised, people-focused, and thrive in a fast-paced environment? We are looking for an Onsite Operations Coordinator to support the day-to-day delivery of re click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4cPETsj77NwLOw1gEHUq9uq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Winner Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "9d793cd4-ff2a-4749-9512-a7407298f539",
@@ -77,6 +92,11 @@
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "BMC Recruitment Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   }
 ]
