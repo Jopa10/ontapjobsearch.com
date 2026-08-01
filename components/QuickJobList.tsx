@@ -4,6 +4,7 @@ import {
   employerFactLabel,
   formatSalary,
 } from "@/lib/job-facts";
+import { getAtAGlanceAttributes } from "@/lib/at-a-glance-preview";
 import { getJobPath } from "@/lib/published-jobs";
 import styles from "@/components/QuickJobList.module.css";
 
@@ -31,7 +32,11 @@ export default function QuickJobList({ jobs }: QuickJobListProps) {
         const employerLabel = employerFactLabel(job);
         const salary = formatSalary(job.salary_text) || "Salary not stated";
         const terms = [salary, job.employment_type].filter(Boolean).join(" · ");
-        const attributes = job.at_a_glance_attributes.slice(0, 4);
+        const attributes = (
+          job.at_a_glance_attributes.length
+            ? job.at_a_glance_attributes
+            : getAtAGlanceAttributes(job.job_id)
+        ).slice(0, 4);
 
         return (
           <Link
