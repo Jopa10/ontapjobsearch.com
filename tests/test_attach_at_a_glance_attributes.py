@@ -19,9 +19,9 @@ def admin_job() -> dict[str, str]:
         "category": "Admin/Service – Office Support",
         "description": (
             "About the Role\n"
-            "Responding to customer enquiries by telephone and email.\n"
-            "Maintain accurate customer records and update internal systems.\n"
-            "Prepare service documents for the operations team.\n"
+            "Answer incoming telephone calls and respond to customer enquiries.\n"
+            "Respond to customer emails and maintain accurate customer records.\n"
+            "Update internal systems and prepare service documents for the operations team.\n"
             "Requirements\n"
             "Previous administration experience is preferred."
         ),
