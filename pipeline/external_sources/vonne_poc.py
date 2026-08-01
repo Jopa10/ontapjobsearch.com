@@ -51,6 +51,7 @@ from external_sources.northeast_jobs_poc import (
     load_jobg8_candidates,
     normalise,
     normalise_title,
+    parse_source_datetime,
     similarity,
     token_jaccard,
 )
@@ -102,6 +103,7 @@ VONNE_HARD_PASS_TITLE_PATTERNS = HARD_PASS_TITLE_PATTERNS + (
     "consultancy",
     "consultant",
     "youth worker",
+    "worker",
     "project worker",
     "family worker",
     "practitioner",
@@ -876,7 +878,11 @@ def deduplicate_jobg8(
         )
 
 
-def load_nejobs_candidates(path: Path) -> list[dict[str, str]]:
+def load_nejobs_candidates(
+    path: Path,
+    *,
+    now: datetime | None = None,
+) -> list[dict[str, str]]:
     if not path.exists():
         return []
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -885,8 +891,24 @@ def load_nejobs_candidates(path: Path) -> list[dict[str, str]]:
             "approved NEJobs JSON must contain a list"
         )
     candidates: list[dict[str, str]] = []
+    current = now or datetime.now(ZoneInfo("Europe/London"))
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=ZoneInfo("Europe/London"))
     for row in data:
         if not isinstance(row, dict):
+            continue
+        closing_value = (
+            clean_text(row.get("closing_datetime"))
+            or clean_text(row.get("closing_date"))
+        )
+        closing_deadline = parse_source_datetime(
+            closing_value,
+            end_of_day_when_date_only=True,
+        )
+        if (
+            closing_deadline is not None
+            and closing_deadline < current
+        ):
             continue
         candidates.append(
             {

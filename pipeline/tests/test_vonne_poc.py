@@ -1,4 +1,6 @@
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 import json
 import sys
 
@@ -16,6 +18,7 @@ from external_sources.vonne_poc import (  # noqa: E402
     classify,
     deduplicate_nejobs,
     geography_for_item,
+    load_nejobs_candidates,
     parse_args,
     parse_detail,
     parse_listing_html,
@@ -234,6 +237,60 @@ def test_hard_title_is_not_softened_by_derived_geography():
     classify(vacancy, 30_000)
 
     assert vacancy.classification == "HARD_PASS"
+
+
+def test_generic_worker_title_is_hard_pass():
+    vacancy = sample_vacancy(
+        title="Senior Young Dads Worker (Neurodiverse)",
+        location="Hybrid",
+        geography_status="GENERIC_REVIEW",
+        geography_reason="generic location",
+    )
+
+    classify(vacancy, 30_000)
+
+    assert vacancy.classification == "HARD_PASS"
+
+
+def test_expired_nejobs_candidates_are_ignored(tmp_path):
+    source = tmp_path / "nejobs.json"
+    source.write_text(
+        json.dumps(
+            [
+                {
+                    "job_id": "nejobs-expired",
+                    "title": "Administrator",
+                    "company": "Expired Trust",
+                    "location": "Newcastle",
+                    "salary_text": "£25,000",
+                    "closing_datetime": "2026-07-31T23:59:00+01:00",
+                },
+                {
+                    "job_id": "nejobs-open",
+                    "title": "Administrator",
+                    "company": "Open Trust",
+                    "location": "Newcastle",
+                    "salary_text": "£25,000",
+                    "closing_datetime": "2026-08-03T23:59:00+01:00",
+                },
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    candidates = load_nejobs_candidates(
+        source,
+        now=datetime(
+            2026,
+            8,
+            1,
+            12,
+            0,
+            tzinfo=ZoneInfo("Europe/London"),
+        ),
+    )
+
+    assert [row["job_id"] for row in candidates] == ["nejobs-open"]
 
 def test_cli_has_no_publishing_option():
     try:
