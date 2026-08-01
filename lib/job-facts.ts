@@ -69,7 +69,7 @@ export function employerFactLabel(job: JobFactsInput): string {
   const advertiserType = text(job.advertiser_type);
   const combinedCompany = text(job.company);
   if (/agency/i.test(advertiserType) || /\s-\sagency(?:\s-|$)/i.test(combinedCompany)) {
-    return "Advertiser";
+    return "Recruiter";
   }
   return "Employer";
 }
@@ -165,8 +165,6 @@ export function buildJobFacts(job: JobFactsInput): JobFact[] {
   } else if (posted && postedBasis === "ontap_first_published") {
     facts.push({ key: "posted", label: "First listed by Ontap", value: posted });
   } else if (posted && text(job.source).toLowerCase() === "nejobs") {
-    // Backwards-compatible safety for approved external records published before
-    // the explicit date-basis marker was introduced.
     facts.push({ key: "posted", label: "Posted", value: posted });
   }
   if (closing) facts.push({ key: "closing", label: "Closing date", value: closing });
