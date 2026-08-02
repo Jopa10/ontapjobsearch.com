@@ -35,6 +35,24 @@ SELECTED | Yorkshire - West | Holmfirth | £29350 per year | Complex care assist
 job_id: 107651994
 ---
 
+---
+action: select
+SELECTED | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Mirfield | £12.71 - £16.6 per hour | Experienced Childrens Residential Support Workers
+job_id: 107660790
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -43,35 +61,17 @@ POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in P
 job_id: 107751768
 ---
 
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Mirfield | £12.71 - £16.6 per hour | Experienced Childrens Residential Support Workers
-job_id: 107660790
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728806
----
-
 ## SOUTH YORKSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action: select
+SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+---
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -248,6 +248,12 @@ job_id: 107641522
 ## CUMBRIA SOUTH — SELECTED
 
 ---
+action: select
+SELECTED | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
+job_id: 107572044
+---
+
+---
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107719634
@@ -267,11 +273,7 @@ job_id: 107746227
 
 ## CUMBRIA SOUTH — POSSIBLES
 
----
-action: select
-POSS - CUMBRIA - SOUTH | Cumbria - South | Kendal | £16.53 per hour ((including holiday pay)) | Complex Care Assistant
-job_id: 107572044
----
+_No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
 
