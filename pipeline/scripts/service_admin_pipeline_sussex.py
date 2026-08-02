@@ -7,12 +7,33 @@ from typing import Any
 from . import service_admin_pipeline as core
 from . import service_admin_pipeline_education as education
 
+SUSSEX_ANCHOR_TOWN = "Brighton"
+
 core.REGION_MAP["sussex"] = "Sussex"
 core.OUTPUT_FILES["Sussex"] = "sussex-admin-service.json"
 core.PUBLISH_THRESHOLDS["Sussex"] = 6
 
+_ORIGINAL_LOAD_ANCHOR_TOWNS = core.load_anchor_towns
 _ORIGINAL_MANUAL_REVIEW_PREVIEW = core._manual_review_preview_rows
 _ORIGINAL_WRITE_MANUAL_REVIEW_MARKDOWN = core.write_manual_review_markdown
+
+
+def load_anchor_towns(path: Path, category: str) -> dict[str, str]:
+    """Extend the established anchor configuration with Brighton for Sussex.
+
+    The shared workbook predates the Sussex admin slice. Keep its strict checks
+    for every established region, then add the approved Sussex anchor locally so
+    the new slice does not require an unrelated binary-workbook rewrite.
+    """
+    sussex_output = core.OUTPUT_FILES.pop("Sussex", None)
+    try:
+        anchors = _ORIGINAL_LOAD_ANCHOR_TOWNS(path, category)
+    finally:
+        if sussex_output is not None:
+            core.OUTPUT_FILES["Sussex"] = sussex_output
+
+    anchors["Sussex"] = SUSSEX_ANCHOR_TOWN
+    return anchors
 
 
 def _manual_review_preview_rows(
@@ -118,6 +139,7 @@ def write_manual_review_markdown(
     )
 
 
+core.load_anchor_towns = load_anchor_towns
 core._manual_review_preview_rows = _manual_review_preview_rows
 core.write_manual_review_markdown = write_manual_review_markdown
 
