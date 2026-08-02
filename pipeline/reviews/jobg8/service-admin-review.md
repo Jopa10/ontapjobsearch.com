@@ -343,12 +343,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Sussex | Horsham |  | Co-ordinator - Carer Financial Wellbeing
-job_id: 1548564
----
-
----
-action:
 SELECTED | Sussex | Chichester |  | Marine Commercial Administrator
 job_id: 107683890
 ---
