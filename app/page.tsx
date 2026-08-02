@@ -10,6 +10,7 @@ import southYorkshireServiceAdministratorJobs from './south-yorkshire/service-ad
 import northEastServiceAdministratorJobs from './north-east/service-administrator-jobs.json';
 import londonServiceAdministratorJobs from './london/service-administrator-jobs.json';
 import hampshireServiceAdministratorJobs from './hampshire/service-administrator-jobs.json';
+import sussexServiceAdministratorJobs from './sussex/service-administrator-jobs.json';
 import surreyServiceAdministratorJobs from './surrey/service-administrator-jobs.json';
 import kentServiceAdministratorJobs from './kent/service-administrator-jobs.json';
 import { isCentralInnerLondonJob, isOuterLondonJob } from '@/lib/london-job-area';
@@ -102,6 +103,10 @@ const popularSearches = [
   {
     label: 'Hampshire service administrator jobs',
     href: '/hampshire/service-administrator-jobs',
+  },
+  {
+    label: 'Sussex service administrator jobs',
+    href: '/sussex/service-administrator-jobs',
   },
   {
     label: 'Surrey service administrator jobs',
@@ -228,6 +233,13 @@ const yorkshireServiceAdministratorSlices: SliceCard[] = [
 ];
 
 const southEastServiceAdministratorSlices: SliceCard[] = [
+  {
+    title: 'Sussex Admin & Customer Service Jobs',
+    intro: 'Current admin, office and service roles across Brighton and Sussex.',
+    ctaText: 'View Sussex jobs →',
+    sliceUrl: '/sussex/service-administrator-jobs',
+    jobs: sussexServiceAdministratorJobs,
+  },
   {
     title: 'Surrey Admin & Customer Service Jobs',
     intro: 'Current admin, office and service roles across Surrey.',
@@ -384,8 +396,8 @@ export default function Page() {
 
         <p className="mb-2 max-w-3xl text-lg text-gray-700">
           Curated admin, office support, customer service and support worker roles across Hampshire,
-          Surrey, Kent, London, Yorkshire and the North East. Updated daily; apply directly on
-          employer sites.
+          Sussex, Surrey, Kent, London, Yorkshire and the North East. Updated daily; apply directly
+          on employer sites.
         </p>
 
         <section className="mb-5">
