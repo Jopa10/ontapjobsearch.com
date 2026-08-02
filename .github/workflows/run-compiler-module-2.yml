@@ -108,17 +108,20 @@ jobs:
           PY
 
       - name: Check operational script syntax
-        run: python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
+        run: |
+          python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
+          python -m py_compile pipeline/scripts/jobg8_module_2_live_slices.py
 
       - name: Run Compiler Module 2
+        working-directory: pipeline
         run: |
           set -euo pipefail
-          python pipeline/scripts/jobg8_module_2_monthly_category_profiler.py \
+          python -m scripts.jobg8_module_2_live_slices \
             --month '${{ inputs.month }}' \
-            --input-dir 'pipeline/input-jobg8-archive/${{ inputs.month }}' \
-            --output-dir 'pipeline/reports-module2' \
-            --geo-lookup 'pipeline/geo/geo_lookup.xlsx' \
-            --registers-dir 'pipeline/registers'
+            --input-dir 'input-jobg8-archive/${{ inputs.month }}' \
+            --output-dir 'reports-module2' \
+            --geo-lookup 'geo/geo_lookup.xlsx' \
+            --registers-dir 'registers'
 
       - name: Verify Compiler Module 2 outputs
         run: |
