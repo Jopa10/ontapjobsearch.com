@@ -21,6 +21,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'Ontap Job Search – Find Your Perfect Job',
   description: 'Discover job opportunities tailored to your skills and ambitions on Ontap Job Search.',
+  icons: {
+    icon: [
+      {
+        url: '/assets/ontap-icon-v2.svg',
+        type: 'image/svg+xml',
+      },
+    ],
+    shortcut: '/assets/ontap-icon-v2.svg',
+    apple: '/assets/ontap-icon-v2.svg',
+  },
 };
 
 const organizationStructuredData = {
