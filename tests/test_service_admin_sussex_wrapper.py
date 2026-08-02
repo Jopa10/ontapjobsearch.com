@@ -2,6 +2,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 PIPELINE_DIR = Path(__file__).resolve().parents[1] / "pipeline"
 if str(PIPELINE_DIR) not in sys.path:
@@ -18,6 +19,21 @@ class SussexServiceAdminWrapperTests(unittest.TestCase):
             "sussex-admin-service.json",
         )
         self.assertEqual(sussex.core.PUBLISH_THRESHOLDS["Sussex"], 6)
+
+    def test_sussex_anchor_is_added_without_weakening_existing_validation(self):
+        with mock.patch.object(
+            sussex,
+            "_ORIGINAL_LOAD_ANCHOR_TOWNS",
+            return_value={"Hampshire": "Southampton"},
+        ):
+            anchors = sussex.load_anchor_towns(Path("unused.xlsx"), "admin_service")
+
+        self.assertEqual(anchors["Sussex"], "Brighton")
+        self.assertEqual(anchors["Hampshire"], "Southampton")
+        self.assertEqual(
+            sussex.core.OUTPUT_FILES["Sussex"],
+            "sussex-admin-service.json",
+        )
 
     def test_sussex_review_sections_are_generated(self):
         rows = [
