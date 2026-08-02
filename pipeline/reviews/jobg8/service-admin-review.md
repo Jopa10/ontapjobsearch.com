@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-01
+feed_date: 2026-08-02
 
 Edit only the `action:` line in each block:
 
@@ -10,12 +10,6 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
-
----
-action: select
-SELECTED | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
-job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
----
 
 ---
 action:
@@ -31,7 +25,11 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
+job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -39,12 +37,6 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Barnsley | £25000 - £30000 per year | Receptionist / Facilities Coordinator
 job_id: 3210a914-2c99-4b6c-870b-c2001651b931
----
-
----
-action: select
-SELECTED | Yorkshire - South | Sheffield | £15 - £16 per hour | Site Administrator
-job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
 ---
 
 ---
@@ -66,6 +58,12 @@ job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
+
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £15 - £16 per hour | Site Administrator
+job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
+---
 
 ---
 action:
@@ -185,12 +183,6 @@ job_id: 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30
 action:
 SELECTED | London | Wallington | £28000 - £30000 per year | Administrator Team Leader
 job_id: f2ecb257-e92d-466a-bc1a-9ba3f035fc23
----
-
----
-action:
-SELECTED | London | Broxbourne | £28000 - £30000 per year | Sales Administrator
-job_id: a87ee9f1-8fd6-4986-b737-551aac654bc6
 ---
 
 ---
