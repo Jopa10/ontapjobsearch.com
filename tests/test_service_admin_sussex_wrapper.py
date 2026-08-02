@@ -35,6 +35,13 @@ class SussexServiceAdminWrapperTests(unittest.TestCase):
             "sussex-admin-service.json",
         )
 
+    def test_financial_wellbeing_specialist_is_a_hard_pass(self):
+        classification, reason, _, _ = sussex.core.classify_title(
+            "Co-ordinator - Carer Financial Wellbeing"
+        )
+        self.assertEqual(classification, "HARD_PASS")
+        self.assertIn("financial wellbeing", reason)
+
     def test_sussex_review_sections_are_generated(self):
         rows = [
             {
