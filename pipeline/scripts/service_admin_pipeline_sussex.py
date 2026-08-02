@@ -8,10 +8,14 @@ from . import service_admin_pipeline as core
 from . import service_admin_pipeline_education as education
 
 SUSSEX_ANCHOR_TOWN = "Brighton"
+SPECIALIST_HARD_PASS_PATTERNS = ("financial wellbeing",)
 
 core.REGION_MAP["sussex"] = "Sussex"
 core.OUTPUT_FILES["Sussex"] = "sussex-admin-service.json"
 core.PUBLISH_THRESHOLDS["Sussex"] = 6
+for pattern in SPECIALIST_HARD_PASS_PATTERNS:
+    if pattern not in core.HARD_PASS_PATTERNS:
+        core.HARD_PASS_PATTERNS.append(pattern)
 
 _ORIGINAL_LOAD_ANCHOR_TOWNS = core.load_anchor_towns
 _ORIGINAL_MANUAL_REVIEW_PREVIEW = core._manual_review_preview_rows
