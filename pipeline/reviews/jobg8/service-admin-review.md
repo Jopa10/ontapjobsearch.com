@@ -26,7 +26,7 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
 job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 ---
@@ -212,7 +212,7 @@ job_id: 107731922
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
 job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
