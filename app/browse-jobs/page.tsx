@@ -107,6 +107,14 @@ const jobSections: BrowseSection[] = [
         label: 'South East admin & customer-service jobs',
         cards: [
           {
+            title: 'Sussex Admin & Customer Service Jobs',
+            href: '/sussex/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across Brighton and Sussex.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
+          {
             title: 'Surrey Admin & Customer Service Jobs',
             href: '/surrey/service-administrator-jobs',
             description:
