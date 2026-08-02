@@ -1,8 +1,10 @@
+import json
 import sys
 import unittest
 from pathlib import Path
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1] / "pipeline"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+PIPELINE_DIR = REPO_ROOT / "pipeline"
 if str(PIPELINE_DIR) not in sys.path:
     sys.path.insert(0, str(PIPELINE_DIR))
 
@@ -25,6 +27,16 @@ class SussexAdminLaunchTests(unittest.TestCase):
                 Path("pipeline/output-admin-service/sussex-admin-service.json"),
                 Path("app/sussex/service-administrator-jobs.json"),
             ),
+        )
+
+    def test_initial_sussex_launch_data_meets_the_publish_threshold(self):
+        path = REPO_ROOT / "app" / "sussex" / "service-administrator-jobs.json"
+        jobs = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertGreaterEqual(len(jobs), 6)
+        self.assertTrue(all(job.get("region") == "Sussex" for job in jobs))
+        self.assertFalse(
+            any("financial wellbeing" in job.get("title", "").lower() for job in jobs)
         )
 
 
