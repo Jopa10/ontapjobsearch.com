@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,2016
-total rows included,45
-total rows dropped,1967
+total rows included,52
+total rows dropped,1960
 title classification count - HIGH_CONFIDENCE,168
 title classification count - ELASTIC_FIT,44
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -63,3 +63,11 @@ anchor elastic count - Kent,0
 other elastic count - Kent,1
 total rows output - Kent,5
 job_id included - Kent,9c50e7f5-c080-4543-adc5-a91353592d22; 1eeca110-4bfa-4f50-b7e3-a83fe57a3242; 705da49f-22ec-4df1-aca5-ebc75e2f7b23; 6b598b1d-4b4d-4cb8-8645-64c446a8ae26; 900e2fad-e172-4801-908f-64a7b0d2064e
+selection scenario - Sussex,SCENARIO_3_FULL_VALID_SELECTION
+selection message - Sussex,"Sussex selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Brighton ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Sussex,7
+high confidence count - Sussex,5
+anchor elastic count - Sussex,0
+other elastic count - Sussex,2
+total rows output - Sussex,7
+job_id included - Sussex,e3cd26dd-55b6-44b7-82f9-8c7da7bcea58; 8dfd4428-944d-4205-9e14-933991d5c6b1; 107683890; 02105912-ef82-4655-8db1-021718e86c92; 18ff30b5-3cdf-40e4-891b-cbed54aee5aa; 1548564; deebf7d4-f859-450f-8762-ca06bf59a65d

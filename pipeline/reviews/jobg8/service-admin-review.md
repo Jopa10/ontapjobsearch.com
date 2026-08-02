@@ -339,6 +339,53 @@ job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 
 _No jobs in this group._
 
+## SUSSEX — SELECTED
+
+---
+action:
+SELECTED | Sussex | Horsham |  | Co-ordinator - Carer Financial Wellbeing
+job_id: 1548564
+---
+
+---
+action:
+SELECTED | Sussex | Chichester |  | Marine Commercial Administrator
+job_id: 107683890
+---
+
+---
+action:
+SELECTED | Sussex | Crawley | £34000 per year | Care Home Administrator
+job_id: 02105912-ef82-4655-8db1-021718e86c92
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £25500 per year | French Customer Service Administrator
+job_id: e3cd26dd-55b6-44b7-82f9-8c7da7bcea58
+---
+
+---
+action:
+SELECTED | Sussex | Crawley | £30000 - £35000 per year | Dispatch Administrator
+job_id: 18ff30b5-3cdf-40e4-891b-cbed54aee5aa
+---
+
+---
+action:
+SELECTED | Sussex | Horsham | £13.95 per hour | Office Coordinator
+job_id: deebf7d4-f859-450f-8762-ca06bf59a65d
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £13.75 per hour | Higher Education Administrator 3 days a week M/T/W
+job_id: 8dfd4428-944d-4205-9e14-933991d5c6b1
+---
+
+## SUSSEX — POSSIBLES
+
+_No jobs in this group._
 ## ACTIVE MANUAL ACTIONS
 
 _No active manual actions outside the selected/possible groups._
