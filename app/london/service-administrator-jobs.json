@@ -45,7 +45,11 @@
     "advertiser_name": "Ocean Network Express (Europe) Ltd",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "5a534179-7cff-416a-b14c-b5f1f11b907c",
@@ -117,7 +121,11 @@
     "advertiser_name": "Sterling Williams LTD",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -213,7 +221,12 @@
     "advertiser_name": "2i Recruit Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Correspondence"
+    ]
   },
   {
     "job_id": "1621458",
@@ -265,6 +278,35 @@
     "salary_period": "Annual"
   },
   {
+    "job_id": "2f01765c-5705-43c3-8e7b-12bf4fdd75d5",
+    "title": "Administrator",
+    "company": "ORP Recruitment - Agency - Permanent",
+    "location": "Orpington",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "40000",
+    "salary_text": "£35000 - £40000 per year",
+    "posted_date": "2026-08-02",
+    "description": "An exciting new opening for a Sales Administrator has arisen to provide proactive administrative and commercial support to the lead Account Manager. The Sales Administrator role involvesensuring excellent customer service, efficient sales processes, and the effective management of customer accounts.\n- Competitive basic salary of £35,000 with an uncapped commission structure, rewarding high performance\n- Office based\n- Parking on site\n\nSales Administrator responsibilities:\n- Providing comprehensive administrative and sales support to the lead Account Manager\n- Setting up and maintaining pricing on the in-house system in line with approved agreements\n- Preparing accurate customer quotations and issuing within agreed service levels\n- Following up sales enquiries in accordance with agreed action plans to maximise conversion rates and improve customer satisfaction\n- Contacting existing and prospective customers to arrange appointments and support development initiatives\n- Identifying and qualifying new business opportunities, undertaking set activities to generate sales leads and revenue growth\n- Reviewing and managing outstanding customer orders, ensuring prompt resolution of any issues\n- Liaising with the wider team and suppliers to obtain pricing, product availability, and lead times\n- Working closely with customers and the lead Account Manager to resolve pricing queries accurately and in a timely manner\n- Monitoring customer purchasing trends, identify reductions in spending, and supporting the implementation of customer retention and account management\n\nSales Administrator skills/competencies:\n- Previous experience in a sales support, sales administration, customer service, or account support role\n- Excellent organisational skills\n\nApply today!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsQ9oFsd%2fi%2bR6NHQHNmG2nalm",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "ORP Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
+  },
+  {
     "job_id": "d80effd1-f790-46d0-942e-27c2de0d6305",
     "title": "Contracts Administrator Assistant",
     "company": "Reed - Agency - Permanent",
@@ -286,7 +328,11 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
@@ -310,7 +356,14 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Email handling",
+      "Scheduling and bookings",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -334,7 +387,13 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "9c0c3f0a-26d6-4bc3-a84e-17e102e59614",
@@ -382,30 +441,10 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
-  },
-  {
-    "job_id": "a87ee9f1-8fd6-4986-b737-551aac654bc6",
-    "title": "Sales Administrator",
-    "company": "Adecco - Agency - Permanent",
-    "location": "Broxbourne",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "30000",
-    "salary_text": "£28000 - £30000 per year",
-    "posted_date": "2026-07-31",
-    "description": "Sales Coordinator\n\nSalary £28-30,000\n\nMonday - Thursday & Sunday. flexibility. 08:00-17:30\n\nFriday & Saturday - days off.\n\nBenefits.\n- Bike to Work Scheme\n- 33 Days Holiday\n- Birthday Off\n- Employee of the Month\n- Recognition Awards\n- End of Year Company Holiday\n- Potential 1 day WFH in future.\n\nTravel to Hernhill office in Kent for the first few months for Training.\n\nYour part of the job:\n\nAs a Sales coordinator you will be responsible for processing customer orders accurately and efficiently, managing customer enquiries, and supporting the smooth operation of our order fulfilment processes. Working closely with teams across the business, you will help deliver an excellent customer experience while supporting the continued growth of our e-commerce operations.\n- In putting customer orders.\n- Answering calls from Clients/ suppliers/ customers.\n- Checking stock availability with warehouse.\n- Setting up new client accounts.\n- Attention to detail is a must!\n- Resolve any issues that may arise.\n- Liaise & work with other departments.\n\nDo you have sales admin/ order processing experience & looking for the next step?\n\nApply now to be considered!\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0Kc0J5doir0GbrHtbxU3MGRs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Reporting"
+    ]
   }
 ]

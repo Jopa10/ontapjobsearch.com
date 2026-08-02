@@ -18,28 +18,11 @@
     "advertiser_name": "Ashberry Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Hourly"
-  },
-  {
-    "job_id": "107728670",
-    "title": "Residential Support Worker",
-    "company": "Dove Adolescent Services - Agency - Permanent",
-    "location": "Barnsley",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Permanent",
-    "salary_min": "16000",
-    "salary_max": "16000",
-    "salary_text": "£16000 per year",
-    "posted_date": "2026-08-01",
-    "description": "Residential Support Worker\n\nCompany: Dove Adolescent Services\n\nLocation: Barnsley\n\nBase Location: With services in Pontefract, Wakefield, Eggborough and Barnsley we currently have vacancies throughout\n\nContract Type: Part time, permanent\n\nSpecific Hours: 20 hours per week\n\nSalary:\n- Unqualified: Base salary of £13,734 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX6ok0K1cDbRrt5s8NwjB8OHz",
-    "source": "JobG8",
-    "advertiser_name": "Dove Adolescent Services",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "salary_period": "Hourly",
+    "at_a_glance_attributes": [
+      "Support plans",
+      "Risk and needs assessments",
+      "Accommodation support"
+    ]
   }
 ]

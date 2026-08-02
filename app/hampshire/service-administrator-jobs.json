@@ -21,7 +21,14 @@
     "advertiser_name": "Michael Page Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Mail handling"
+    ]
   },
   {
     "job_id": "71c14263-f694-438a-8eb2-9fc40e26b6d2",
@@ -45,7 +52,14 @@
     "advertiser_name": "Hays Specialist Recruitment Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Systems administration",
+      "Customer portals",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "8ce5f464-05a9-43e0-8f2f-af12d6230bfd",
@@ -69,7 +83,14 @@
     "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly"
+    "salary_period": "Hourly",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "cdc8a0d6-75db-4ccc-9814-96012a552c48",
@@ -93,7 +114,11 @@
     "advertiser_name": "The Brendoncare Foundation",
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Correspondence"
+    ]
   },
   {
     "job_id": "e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1",
@@ -117,7 +142,11 @@
     "advertiser_name": "Tate Southampton",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1595701",
@@ -157,7 +186,7 @@
     "salary_text": "£22000 per year",
     "posted_date": "2026-08-01",
     "description": "Young Carers Support Coordinator (Volunteering Lead)\n\nWinchester, Hampshire (Hybrid)\n\n£22,042 per annum (£27,185 FTE)\n\nPart-Time (30 hours per week to include a Wednesday and Thursday)\n\nOur client is a small independent charity that supports young people who take on caring responsibilities for an unwell or disabled family member click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4CACfngXSL31IIrdHn%2feVQg",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNo2%2brxisxqU7eewcaVpIQgr",
     "source": "JobG8",
     "working_arrangement": "hybrid",
     "working_arrangement_text": "Hybrid working",
