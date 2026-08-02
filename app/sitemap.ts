@@ -24,6 +24,7 @@ const routes = [
   '/hampshire/service-administrator-jobs',
   '/surrey/service-administrator-jobs',
   '/kent/service-administrator-jobs',
+  '/sussex/service-administrator-jobs',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
