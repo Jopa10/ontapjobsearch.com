@@ -24,10 +24,11 @@ jobs:
 
       - name: Publish verified pages
         id: publish
+        working-directory: pipeline
         run: |
           set -euo pipefail
           report_file="$(mktemp)"
-          python pipeline/scripts/publish_verified_pages.py --write | tee "$report_file"
+          python -m scripts.publish_verified_pages_sussex --write | tee "$report_file"
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Build private live-job source report
@@ -52,6 +53,7 @@ jobs:
             "app/london/service-administrator-jobs.json"
             "app/north-east/service-administrator-jobs.json"
             "app/south-yorkshire/service-administrator-jobs.json"
+            "app/sussex/service-administrator-jobs.json"
             "app/west-yorkshire/service-administrator-jobs.json"
             "app/cumbria-south/support-worker.json"
             "app/north-east/support-worker-jobs.json"
@@ -77,6 +79,7 @@ jobs:
              $0 != "app/london/service-administrator-jobs.json" &&
              $0 != "app/north-east/service-administrator-jobs.json" &&
              $0 != "app/south-yorkshire/service-administrator-jobs.json" &&
+             $0 != "app/sussex/service-administrator-jobs.json" &&
              $0 != "app/west-yorkshire/service-administrator-jobs.json" &&
              $0 != "app/cumbria-south/support-worker.json" &&
              $0 != "app/north-east/support-worker-jobs.json" &&
