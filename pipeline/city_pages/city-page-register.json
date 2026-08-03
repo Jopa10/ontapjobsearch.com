@@ -2,12 +2,14 @@
   {
     "city_key": "newcastle-service-administrator",
     "display_name": "Newcastle",
-    "category_label": "service-administrator jobs",
+    "category_label": "admin and customer-service jobs",
     "parent_page": "app/north-east/service-administrator-jobs.json",
     "review_csv": "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv",
     "summary_md": "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md",
+    "output_json": "app/_city-pages/newcastle/service-administrator-jobs.json",
+    "route": "/newcastle/service-administrator-jobs",
     "minimum_live_jobs": 8,
-    "mode": "review_only",
+    "mode": "publish",
     "include_rules": [
       {
         "pattern": "newcastle",
