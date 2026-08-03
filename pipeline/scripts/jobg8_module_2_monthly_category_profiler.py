@@ -9,7 +9,7 @@ Analyse every region × registered category across a folder of daily JobG8 feeds
 Inputs
 ------
 - Daily JobG8 Excel files for one month.
-- geo_lookup.xlsx with columns: Area, Cluster.
+- geo_lookup.xlsx with Area/Cluster plus the controlled LocationFallback sheet.
 - Six external title-classification registers.
 
 Outputs
@@ -130,6 +130,7 @@ COL_TITLE = "/Job/Position"
 COL_COMPANY = "/Job/AdvertiserName"
 COL_AREA = "/Job/Area"
 COL_LOCATION = "/Job/Location"
+AREA_UNUSABLE_VALUES = {"", "not specified", "unknown"}
 
 
 # ---------------------------------------------------------------------------
@@ -196,23 +197,55 @@ def discover_registers(base_dir: Path, registers_dir: Optional[Path]) -> Dict[st
 # Geography and register loading
 # ---------------------------------------------------------------------------
 
-def load_geo_lookup(path: Path) -> Dict[str, str]:
-    df = pd.read_excel(path, dtype=str).fillna("")
+def load_geo_lookups(path: Path) -> tuple[Dict[str, str], Dict[str, str]]:
+    area_df = pd.read_excel(path, dtype=str).fillna("")
     required = {"Area", "Cluster"}
-    missing = required.difference(df.columns)
+    missing = required.difference(area_df.columns)
     if missing:
         raise ValueError(f"Geo lookup missing columns: {sorted(missing)}")
 
-    lookup: Dict[str, str] = {}
-    for _, row in df.iterrows():
+    area_lookup: Dict[str, str] = {}
+    for _, row in area_df.iterrows():
         area = norm_key(row["Area"])
         cluster = norm_text(row["Cluster"])
         if area and cluster:
-            lookup[area] = cluster
+            area_lookup[area] = cluster
 
-    if not lookup:
+    if not area_lookup:
         raise ValueError("Geo lookup contains no usable Area → Cluster mappings.")
-    return lookup
+
+    try:
+        fallback_df = pd.read_excel(
+            path,
+            sheet_name="LocationFallback",
+            dtype=str,
+        ).fillna("")
+    except ValueError as exc:
+        raise ValueError(
+            "Geo lookup is missing the required LocationFallback sheet."
+        ) from exc
+
+    fallback_required = {"Status", "Location", "Cluster"}
+    fallback_missing = fallback_required.difference(fallback_df.columns)
+    if fallback_missing:
+        raise ValueError(
+            "LocationFallback missing columns: " + str(sorted(fallback_missing))
+        )
+
+    location_fallback_lookup: Dict[str, str] = {}
+    for _, row in fallback_df.iterrows():
+        if norm_key(row["Status"]) != "auto":
+            continue
+        location = norm_key(row["Location"])
+        cluster = norm_text(row["Cluster"])
+        if location and cluster:
+            location_fallback_lookup[location] = cluster
+
+    return area_lookup, location_fallback_lookup
+
+
+def area_is_unusable(area: object) -> bool:
+    return norm_key(area) in AREA_UNUSABLE_VALUES
 
 
 def load_register(path: Path) -> Dict[str, str]:
@@ -238,6 +271,7 @@ def load_register(path: Path) -> Dict[str, str]:
 def load_daily_feeds(
     input_dir: Path,
     geo_lookup: Dict[str, str],
+    location_fallback_lookup: Dict[str, str],
     registers: Dict[str, Dict[str, str]],
 ) -> tuple[pd.DataFrame, List[str], List[str]]:
     files = sorted(
@@ -252,7 +286,7 @@ def load_daily_feeds(
     errors: List[str] = []
     valid_dates: List[str] = []
 
-    required_cols = {COL_TITLE, COL_COMPANY, COL_AREA}
+    required_cols = {COL_TITLE, COL_COMPANY, COL_AREA, COL_LOCATION}
 
     for path in files:
         date = extract_date(path)
@@ -283,15 +317,35 @@ def load_daily_feeds(
                 else ""
             )
             area_key = norm_key(area)
-            region = geo_lookup.get(area_key, "Other / Unknown")
-            if region == "Other / Unknown":
-                unknown_reason = (
-                    "blank_or_missing_area"
-                    if not area_key
-                    else "area_not_found_in_geo_lookup"
+            location_key = norm_key(raw_location)
+            if area_is_unusable(area):
+                region = location_fallback_lookup.get(
+                    location_key,
+                    "Other / Unknown",
                 )
+                report_location = raw_location
+                geo_source = (
+                    "location_fallback"
+                    if region != "Other / Unknown"
+                    else "unknown"
+                )
+                if region == "Other / Unknown":
+                    unknown_reason = (
+                        "area_unusable_and_blank_location"
+                        if not location_key
+                        else "area_unusable_and_location_not_auto_fallback"
+                    )
+                else:
+                    unknown_reason = ""
             else:
-                unknown_reason = ""
+                region = geo_lookup.get(area_key, "Other / Unknown")
+                report_location = area
+                geo_source = "area" if region != "Other / Unknown" else "unknown"
+                unknown_reason = (
+                    "area_not_found_in_geo_lookup"
+                    if region == "Other / Unknown"
+                    else ""
+                )
             company = norm_text(row.get(COL_COMPANY)) or "Unknown company"
             job_id = norm_text(row.get(COL_JOB_ID)) if COL_JOB_ID in df.columns else ""
             if not job_id:
@@ -310,9 +364,11 @@ def load_daily_feeds(
                     "title": title,
                     "title_key": title_key,
                     "company": company,
-                    "location": area,
+                    "location": report_location,
+                    "raw_area": area,
                     "raw_location": raw_location,
                     "lookup_region": region,
+                    "geo_source": geo_source,
                     "unknown_reason": unknown_reason,
                     "category": category,
                     "source_file": path.name,
@@ -607,7 +663,7 @@ def run(
 ) -> None:
     base_dir = Path.cwd()
     register_paths = discover_registers(base_dir, registers_dir)
-    geo_lookup = load_geo_lookup(geo_lookup_path)
+    geo_lookup, location_fallback_lookup = load_geo_lookups(geo_lookup_path)
     registers = {
         category: load_register(path)
         for category, path in register_paths.items()
@@ -616,6 +672,7 @@ def run(
     expanded, valid_dates, errors = load_daily_feeds(
         input_dir=input_dir,
         geo_lookup=geo_lookup,
+        location_fallback_lookup=location_fallback_lookup,
         registers=registers,
     )
 
@@ -637,14 +694,14 @@ def run(
             "job_id",
             "title",
             "company",
-            "location",
+            "raw_area",
             "raw_location",
+            "geo_source",
             "category",
             "source_file",
             "unknown_reason",
         ],
     ].copy()
-    unknown_detail = unknown_detail.rename(columns={"location": "raw_area"})
     unknown_detail = unknown_detail.sort_values(
         ["category", "date", "raw_area", "title", "job_id"]
     )
@@ -659,6 +716,9 @@ def run(
         f"Selected register-expanded job rows: {len(expanded)}",
         f"Geo lookup: {geo_lookup_path}",
         f"Geo areas loaded: {len(geo_lookup)}",
+        f"AUTO location fallbacks loaded: {len(location_fallback_lookup)}",
+        f"Rows assigned by location fallback: "
+        f"{int(expanded['geo_source'].eq('location_fallback').sum())}",
         "Classification mode: register-only",
         "Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT",
         "North East published page: aggregated from three geo_lookup regions",
