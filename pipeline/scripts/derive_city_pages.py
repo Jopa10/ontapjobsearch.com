@@ -16,7 +16,7 @@ from typing import Any, Iterable
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
 VALID_DECISIONS = {"include", "review", "exclude"}
-VALID_REVIEW_CHOICES = {"", "include", "exclude"}
+VALID_MANUAL_CHOICES = {"include", "exclude"}
 
 
 @dataclass(frozen=True)
@@ -193,32 +193,47 @@ def classify_job(job: dict[str, Any], config: CityConfig) -> tuple[str, str, str
     return config.fallback_decision, "fallback", config.fallback_reason
 
 
+def review_job_id(job: dict[str, Any]) -> str:
+    """Return a source-identifiable ID for the review sheet only."""
+    job_id = str(job.get("job_id", "")).strip()
+    source = normalise(job.get("source", "JobG8"))
+    if source == "jobg8" and not job_id.casefold().startswith("jobg8-"):
+        return f"jobg8-{job_id}"
+    return job_id
+
+
 def load_review_decisions(path: Path) -> dict[str, str]:
-    """Load the editable first-column decision, with legacy column support."""
+    """Load only genuine manual overrides from the previous review sheet."""
     if not path.is_file():
         return {}
 
-    decisions: dict[str, str] = {}
+    overrides: dict[str, str] = {}
     with path.open("r", encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle):
             job_id = (row.get("job_id") or "").strip()
-            choice = (
+            decision = (
                 row.get("decision")
                 or row.get("reviewer_action")
                 or ""
             ).strip().casefold()
-            if job_id and choice in VALID_REVIEW_CHOICES:
-                decisions[job_id] = choice
-    return decisions
+            previous_automatic = (
+                row.get("automatic_decision") or ""
+            ).strip().casefold()
+
+            # A pre-filled decision that still equals the previous automatic
+            # result is not a manual override. Only a changed include/exclude
+            # choice is carried into the next run.
+            if (
+                job_id
+                and decision in VALID_MANUAL_CHOICES
+                and decision != previous_automatic
+            ):
+                overrides[job_id] = decision
+    return overrides
 
 
+# Backwards-compatible import name used by older tests/callers.
 load_review_actions = load_review_decisions
-
-
-def effective_decision(automatic_decision: str, reviewer_decision: str) -> str:
-    if reviewer_decision in {"include", "exclude"}:
-        return reviewer_decision
-    return automatic_decision
 
 
 def derive_rows(
@@ -226,23 +241,25 @@ def derive_rows(
     config: CityConfig,
     prior_actions: dict[str, str] | None = None,
 ) -> list[dict[str, str]]:
-    decisions = prior_actions or {}
+    overrides = prior_actions or {}
     rows: list[dict[str, str]] = []
     for job in jobs:
         automatic, rule, reason = classify_job(job, config)
-        reviewer_decision = decisions.get(job["job_id"].strip(), "")
+        sheet_job_id = review_job_id(job)
+        raw_job_id = str(job.get("job_id", "")).strip()
+        decision = overrides.get(
+            sheet_job_id, overrides.get(raw_job_id, automatic)
+        )
         rows.append(
             {
-                "decision": reviewer_decision,
-                "job_id": job["job_id"].strip(),
+                "decision": decision,
+                "job_id": sheet_job_id,
                 "title": str(job.get("title", "")).strip(),
                 "company": str(job.get("company", "")).strip(),
                 "location": str(job.get("location", "")).strip(),
                 "source": str(job.get("source", "JobG8")).strip() or "JobG8",
                 "automatic_decision": automatic,
-                "effective_decision": effective_decision(
-                    automatic, reviewer_decision
-                ),
+                "effective_decision": decision,
                 "reason": reason,
                 "matched_rule": rule,
                 "city_key": config.city_key,
@@ -292,9 +309,10 @@ def summary_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
         f"- Threshold currently met: {'yes' if threshold_met else 'no'}",
         "",
         "## How to review",
-        "The first left-hand CSV column is `decision`.",
-        "Enter `include` or `exclude` only where you want to override the automatic decision; otherwise leave it blank.",
-        "Saved decisions are preserved by `job_id`; this stage still publishes nothing.",
+        "The first left-hand CSV column is `decision` and is pre-filled with the current include, review or exclude result.",
+        "Change it to `include` or `exclude` where required. Unchanged automatic decisions are refreshed normally; genuine overrides are preserved by `job_id`.",
+        "JobG8 identifiers are prefixed `jobg8-` in this review sheet only; live job IDs are unchanged.",
+        "This stage still publishes nothing.",
         "",
         "## Automatic decisions",
         f"- include: {automatic['include']}",
