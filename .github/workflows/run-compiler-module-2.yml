@@ -80,6 +80,26 @@ jobs:
                   + ", ".join(missing_geo_columns)
               )
 
+          try:
+              fallback_df = pd.read_excel(
+                  geo_lookup_path,
+                  sheet_name="LocationFallback",
+                  dtype=str,
+              ).fillna("")
+          except ValueError as exc:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} is missing the LocationFallback sheet"
+              ) from exc
+          required_fallback_columns = {"Status", "Location", "Cluster"}
+          missing_fallback_columns = sorted(
+              required_fallback_columns - set(fallback_df.columns)
+          )
+          if missing_fallback_columns:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} LocationFallback is missing required column(s): "
+                  + ", ".join(missing_fallback_columns)
+              )
+
           usable_geo_rows = geo_df[["Area", "Cluster"]].dropna(how="any")
           usable_geo_rows = usable_geo_rows[
               usable_geo_rows["Area"].astype(str).str.strip().ne("")
