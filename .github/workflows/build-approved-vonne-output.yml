@@ -1,0 +1,130 @@
+name: Build approved VONNE output
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Type PUBLISH after reviewing today's VONNE Markdown file
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-approved-vonne-output:
+    name: Build reviewed VONNE and compose North East JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Build exact reviewed VONNE output
+        working-directory: pipeline
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          python -m external_sources.vonne_approved \
+            --fetch-live \
+            --acknowledge-source-terms \
+            --write-approved-json \
+            --confirm-approved "$APPROVAL"
+
+      - name: Compose with current JobG8 and approved NEJobs output
+        working-directory: pipeline
+        run: python -m external_sources.compose_northeast_admin --write
+
+      - name: Run controlled-output tests
+        run: |
+          python -m pytest \
+            pipeline/tests/test_vonne_approved_publish.py \
+            pipeline/tests/test_vonne_poc.py \
+            pipeline/tests/test_nejobs_approved_publish.py -q
+          python -m unittest tests.test_publish_verified_pages -v
+
+      - name: Verify approved output
+        run: |
+          test -s pipeline/output-external/vonne-admin-service.json
+          test -s pipeline/output-admin-service/north-east-admin-service.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          external = json.loads(
+              Path("pipeline/output-external/vonne-admin-service.json").read_text()
+          )
+          combined = json.loads(
+              Path("pipeline/output-admin-service/north-east-admin-service.json").read_text()
+          )
+          if not external:
+              raise SystemExit("STOP: approved VONNE output contains no open selected jobs")
+          if any(row.get("source") != "VONNE" for row in external):
+              raise SystemExit("STOP: approved VONNE output contains another source")
+          if any(not str(row.get("job_id", "")).startswith("vonne-") for row in external):
+              raise SystemExit("STOP: approved VONNE output contains an invalid job ID")
+          external_ids = {row["job_id"] for row in external}
+          combined_ids = {row["job_id"] for row in combined}
+          if not external_ids <= combined_ids:
+              raise SystemExit("STOP: combined output is missing approved VONNE IDs")
+          print(f"Approved VONNE: {len(external)}")
+          print(f"Combined North East jobs: {len(combined)}")
+          PY
+
+      - name: Commit approved output for final publisher review
+        run: |
+          set -euo pipefail
+          approved_paths=(
+            "pipeline/reviews/external/vonne-review.csv"
+            "pipeline/reviews/external/vonne-summary.md"
+            "pipeline/output-external/vonne-admin-service.json"
+            "pipeline/output-admin-service/north-east-admin-service.json"
+          )
+
+          git add -- "${approved_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No approved VONNE output changes to commit"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/external/vonne-review.csv" && $0 != "pipeline/reviews/external/vonne-summary.md" && $0 != "pipeline/output-external/vonne-admin-service.json" && $0 != "pipeline/output-admin-service/north-east-admin-service.json"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside approved VONNE outputs:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build approved VONNE output"
+          git push origin main
+
+      - name: Next step
+        run: |
+          {
+            echo "## Approved VONNE output built"
+            echo
+            echo "The combined pipeline JSON has been committed."
+            echo "Run **Publish verified pages** only after checking the combined count."
+          } >> "$GITHUB_STEP_SUMMARY"
