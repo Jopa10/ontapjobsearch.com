@@ -139,7 +139,8 @@ def public_location(vacancy: VonneVacancy) -> str:
     location = clean_text(vacancy.location)
     based = clean_text(vacancy.based)
     location_key = location.casefold()
-    if based and location_key in {
+    based_key = based.casefold()
+    generic_based = {
         "regionwide",
         "region wide",
         "hybrid",
@@ -147,7 +148,13 @@ def public_location(vacancy: VonneVacancy) -> str:
         "home based",
         "remote",
         "not stated",
-    }:
+    }
+    broad_locations = generic_based | {
+        "tyne and wear",
+        "north east",
+        "north-east",
+    }
+    if based and based_key not in generic_based and location_key in broad_locations:
         suffix = ""
         if location_key == "hybrid":
             suffix = " (hybrid)"
@@ -354,16 +361,13 @@ def approval_errors(
             errors.append(
                 f"selected VONNE ID {source_job_id} has an unparseable closing date"
             )
-        if vacancy.duplicate_status in {"DUPLICATE", "POSSIBLE_DUPLICATE"}:
+        if vacancy.duplicate_status == "DUPLICATE":
             errors.append(
-                f"selected VONNE ID {source_job_id} still has a JobG8 duplicate flag"
+                f"selected VONNE ID {source_job_id} is a confirmed JobG8 duplicate"
             )
-        if vacancy.nejobs_duplicate_status in {
-            "DUPLICATE",
-            "POSSIBLE_DUPLICATE",
-        }:
+        if vacancy.nejobs_duplicate_status == "DUPLICATE":
             errors.append(
-                f"selected VONNE ID {source_job_id} still has an NEJobs duplicate flag"
+                f"selected VONNE ID {source_job_id} is a confirmed NEJobs duplicate"
             )
     return errors
 
