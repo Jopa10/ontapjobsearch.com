@@ -13,6 +13,10 @@ import hampshireServiceAdministratorJobs from './hampshire/service-administrator
 import sussexServiceAdministratorJobs from './sussex/service-administrator-jobs.json';
 import surreyServiceAdministratorJobs from './surrey/service-administrator-jobs.json';
 import kentServiceAdministratorJobs from './kent/service-administrator-jobs.json';
+import {
+  isCityPageActive,
+  newcastleServiceAdministratorPage,
+} from '@/lib/city-page-data';
 import { isCentralInnerLondonJob, isOuterLondonJob } from '@/lib/london-job-area';
 
 const canonicalUrl = 'https://www.ontapjobsearch.com/';
@@ -40,6 +44,10 @@ type SliceCard = {
   ctaText: string;
   sliceUrl: string;
   jobs: Job[];
+  secondaryCta?: {
+    text: string;
+    url: string;
+  };
 };
 
 function cleanMojibakeCurrency(text: string) {
@@ -78,6 +86,7 @@ const centralInnerLondonServiceAdministratorJobs =
   londonServiceAdministratorJobs.filter(isCentralInnerLondonJob);
 const outerLondonServiceAdministratorJobs =
   londonServiceAdministratorJobs.filter(isOuterLondonJob);
+const newcastleCityPageActive = isCityPageActive(newcastleServiceAdministratorPage);
 
 const popularSearches = [
   {
@@ -287,6 +296,12 @@ const serviceAdministratorSlices: SliceCard[] = [
     ctaText: 'View North East jobs →',
     sliceUrl: '/north-east/service-administrator-jobs',
     jobs: northEastServiceAdministratorJobs,
+    secondaryCta: newcastleCityPageActive
+      ? {
+          text: 'View Newcastle jobs →',
+          url: newcastleServiceAdministratorPage.route,
+        }
+      : undefined,
   },
 ];
 
@@ -306,12 +321,23 @@ function SliceCardGrid({ cards }: { cards: SliceCard[] }) {
 
           <p className="mb-2 text-sm leading-snug text-gray-600">{card.intro}</p>
 
-          <a
-            href={card.sliceUrl}
-            className="inline-block rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-medium text-white"
-          >
-            {card.ctaText}
-          </a>
+          <div className="flex flex-wrap gap-2">
+            <a
+              href={card.sliceUrl}
+              className="inline-block rounded-lg bg-blue-600 px-3 py-1.5 text-sm font-medium text-white"
+            >
+              {card.ctaText}
+            </a>
+
+            {card.secondaryCta ? (
+              <a
+                href={card.secondaryCta.url}
+                className="inline-block rounded-lg border border-blue-600 bg-white px-3 py-1.5 text-sm font-medium text-blue-700 hover:bg-blue-50"
+              >
+                {card.secondaryCta.text}
+              </a>
+            ) : null}
+          </div>
 
           <div className="mt-2 grid gap-1.5">
             {card.jobs.slice(0, 1).map((job) => (
