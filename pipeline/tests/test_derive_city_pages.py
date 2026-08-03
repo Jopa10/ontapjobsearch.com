@@ -17,7 +17,10 @@ from scripts.derive_city_pages import (  # noqa: E402
     Rule,
     classify_job,
     derive_rows,
+    load_markdown_actions,
     load_review_decisions,
+    markdown_review_text,
+    merge_review_overrides,
     process_config,
     review_job_id,
 )
@@ -80,6 +83,7 @@ class CityPageDerivationTests(unittest.TestCase):
         self.assertEqual(rows[0]["automatic_decision"], "include")
         self.assertEqual(rows[0]["decision"], "include")
         self.assertEqual(rows[0]["effective_decision"], "include")
+        self.assertEqual(rows[0]["action"], "")
 
     def test_rows_are_sorted_include_review_exclude_then_title(self) -> None:
         jobs = [
@@ -164,8 +168,9 @@ class CityPageDerivationTests(unittest.TestCase):
         self.assertEqual(rows[0]["automatic_decision"], "review")
         self.assertEqual(rows[0]["decision"], "include")
         self.assertEqual(rows[0]["effective_decision"], "include")
+        self.assertEqual(rows[0]["action"], "select")
 
-    def test_loader_ignores_untouched_prefilled_decisions(self) -> None:
+    def test_csv_loader_ignores_untouched_prefilled_decisions(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "review.csv"
             with path.open("w", encoding="utf-8", newline="") as handle:
@@ -190,37 +195,76 @@ class CityPageDerivationTests(unittest.TestCase):
                 )
             self.assertEqual(load_review_decisions(path), {"2": "exclude"})
 
-    def test_process_writes_prefilled_review_but_no_live_city_page(self) -> None:
+    def test_markdown_loader_reads_select_and_exclude(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "review.md"
+            path.write_text(
+                "---\naction: select\njob_id: jobg8-1\n---\n\n"
+                "---\naction: exclude\njob_id: nejobs-2\n---\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(
+                load_markdown_actions(path),
+                {"jobg8-1": "include", "nejobs-2": "exclude"},
+            )
+
+    def test_markdown_loader_rejects_invalid_action(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "review.md"
+            path.write_text("action: maybe\njob_id: 1\n", encoding="utf-8")
+            with self.assertRaises(ValueError):
+                load_markdown_actions(path)
+
+    def test_conflicting_csv_and_markdown_overrides_are_rejected(self) -> None:
+        with self.assertRaises(ValueError):
+            merge_review_overrides({"1": "include"}, {"1": "exclude"})
+
+    def test_markdown_review_lists_every_job_with_action_line(self) -> None:
+        rows = derive_rows(
+            [
+                job("1", "Newcastle"),
+                job("2", "Tyne and Wear, home-based"),
+                job("3", "Bedlington"),
+            ],
+            config(),
+        )
+        text = markdown_review_text(config(), rows)
+        self.assertEqual(
+            sum(line.startswith("action:") for line in text.splitlines()), 3
+        )
+        self.assertIn("## INCLUDE (1)", text)
+        self.assertIn("## REVIEW (1)", text)
+        self.assertIn("## EXCLUDE (1)", text)
+        for job_id in ("1", "2", "3"):
+            self.assertIn(f"job_id: {job_id}", text)
+
+    def test_process_reads_markdown_action_and_writes_all_jobs(self) -> None:
         cfg = config()
         jobs = [
             job("1", "Newcastle"),
-            job("2", "Shiremoor"),
-            job("3", "North Tyneside"),
-            job("4", "Tyne and Wear, home-based"),
-            job("5", "Bedlington"),
+            job("2", "Tyne and Wear, home-based"),
         ]
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             parent = root / cfg.parent_page
             parent.parent.mkdir(parents=True)
             parent.write_text(json.dumps(jobs), encoding="utf-8")
+            markdown = root / cfg.summary_md
+            markdown.parent.mkdir(parents=True)
+            markdown.write_text(
+                "---\naction: select\njob_id: 2\n---\n",
+                encoding="utf-8",
+            )
 
             result = process_config(cfg, root, True)
 
-            self.assertTrue((root / cfg.review_csv).is_file())
-            self.assertTrue((root / cfg.summary_md).is_file())
+            self.assertEqual(result["include_count"], 2)
+            text = markdown.read_text(encoding="utf-8")
+            self.assertIn("action: select", text)
+            self.assertEqual(text.count("job_id:"), 2)
             self.assertFalse(
                 (root / "app/newcastle/service-administrator-jobs.json").exists()
             )
-            with (root / cfg.review_csv).open(
-                "r", encoding="utf-8", newline=""
-            ) as handle:
-                rows = list(csv.DictReader(handle))
-            self.assertEqual(rows[0]["decision"], "include")
-            self.assertEqual(result["include_count"], 3)
-            self.assertEqual(result["review_count"], 1)
-            self.assertEqual(result["exclude_count"], 1)
-            self.assertTrue(result["threshold_met"])
 
 
 if __name__ == "__main__":
