@@ -35,7 +35,7 @@ jobs:
       - name: Validate code and regression tests
         run: |
           python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
-          pytest -q tests/test_module2_location_fallback.py
+          PYTHONPATH=. pytest -q tests/test_module2_location_fallback.py
 
       - name: Run July Module 2
         working-directory: pipeline
