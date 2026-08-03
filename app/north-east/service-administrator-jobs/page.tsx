@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import JobSlicePage from "@/components/JobSlicePage";
 import { getJobPageStatus } from "@/config/job-page-status";
+import {
+  isCityPageActive,
+  newcastleServiceAdministratorPage,
+} from "@/lib/city-page-data";
 
 const routeKey = "north-east/service-administrator-jobs";
 const canonicalUrl = "https://www.ontapjobsearch.com/north-east/service-administrator-jobs";
@@ -40,6 +44,13 @@ const adminTraining = [
 
 export default function Page() {
   const latestUpdate = getJobPageStatus(routeKey);
+  const relatedPage = isCityPageActive(newcastleServiceAdministratorPage)
+    ? {
+        href: newcastleServiceAdministratorPage.route,
+        prompt: "Looking specifically around Newcastle?",
+        label: "View Newcastle jobs",
+      }
+    : undefined;
 
   return (
     <JobSlicePage
@@ -52,6 +63,7 @@ export default function Page() {
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
+      relatedPage={relatedPage}
     />
   );
 }
