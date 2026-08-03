@@ -30,7 +30,7 @@
 
 .topLine {
   display: grid;
-  grid-template-columns: fit-content(36ch) max-content minmax(0, 1fr) max-content max-content;
+  grid-template-columns: fit-content(24ch) max-content minmax(12ch, 1fr) fit-content(34ch) max-content;
   align-items: baseline;
   gap: 6px;
   min-width: 0;
@@ -51,6 +51,7 @@
 }
 
 .title {
+  min-width: 0;
   overflow: hidden;
   color: #111827;
   font-size: 15px;
@@ -60,9 +61,12 @@
 }
 
 .terms {
+  min-width: 0;
+  overflow: hidden;
   color: #475569;
   font-size: 13px;
   font-weight: 700;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -112,7 +116,7 @@
 
 @media (max-width: 860px) {
   .topLine {
-    grid-template-columns: fit-content(28ch) max-content minmax(0, 1fr) max-content;
+    grid-template-columns: fit-content(20ch) max-content minmax(0, 1fr) max-content;
   }
 
   .terms {
@@ -144,7 +148,7 @@
   }
 
   .topLine {
-    grid-template-columns: fit-content(16ch) max-content minmax(0, 1fr) max-content;
+    grid-template-columns: fit-content(13ch) max-content minmax(0, 1fr) max-content;
   }
 
   .location {
