@@ -16,6 +16,7 @@ on:
       - 'app/_city-pages/**'
       - 'app/newcastle/**'
       - 'app/north-east/service-administrator-jobs/page.tsx'
+      - 'app/browse-jobs/page.tsx'
       - 'app/sitemap.ts'
       - 'lib/city-page-data.ts'
       - 'lib/published-jobs.ts'
@@ -44,6 +45,7 @@ on:
       - 'app/_city-pages/**'
       - 'app/newcastle/**'
       - 'app/north-east/service-administrator-jobs/page.tsx'
+      - 'app/browse-jobs/page.tsx'
       - 'app/sitemap.ts'
       - 'lib/city-page-data.ts'
       - 'lib/published-jobs.ts'
@@ -91,6 +93,9 @@ jobs:
       - name: Confirm current LIVE slices are publishable
         working-directory: pipeline
         run: python -m scripts.publish_verified_pages_sussex --dry-run
+      - name: Regenerate Newcastle city output
+        working-directory: pipeline
+        run: python -m scripts.derive_city_pages --publish
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
