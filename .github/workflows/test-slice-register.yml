@@ -9,12 +9,23 @@ on:
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/service_admin_pipeline_sussex.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
+      - 'pipeline/scripts/derive_city_pages.py'
+      - 'pipeline/city_pages/**'
+      - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_derive_city_pages.py'
+      - 'app/_city-pages/**'
+      - 'app/newcastle/**'
+      - 'app/north-east/service-administrator-jobs/page.tsx'
+      - 'app/sitemap.ts'
+      - 'lib/city-page-data.ts'
+      - 'lib/published-jobs.ts'
       - '.github/workflows/run-full-jobg8-daily-process.yml'
       - '.github/workflows/run-compiler-module-2.yml'
       - '.github/workflows/publish-verified-pages.yml'
       - 'tests/test_slice_registry.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
+      - 'tests/test_newcastle_city_launch.py'
       - 'tests/test_service_admin_sussex_wrapper.py'
       - 'tests/test_module2_live_slices.py'
   push:
@@ -26,12 +37,23 @@ on:
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/service_admin_pipeline_sussex.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
+      - 'pipeline/scripts/derive_city_pages.py'
+      - 'pipeline/city_pages/**'
+      - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_derive_city_pages.py'
+      - 'app/_city-pages/**'
+      - 'app/newcastle/**'
+      - 'app/north-east/service-administrator-jobs/page.tsx'
+      - 'app/sitemap.ts'
+      - 'lib/city-page-data.ts'
+      - 'lib/published-jobs.ts'
       - '.github/workflows/run-full-jobg8-daily-process.yml'
       - '.github/workflows/run-compiler-module-2.yml'
       - '.github/workflows/publish-verified-pages.yml'
       - 'tests/test_slice_registry.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
+      - 'tests/test_newcastle_city_launch.py'
       - 'tests/test_service_admin_sussex_wrapper.py'
       - 'tests/test_module2_live_slices.py'
 
@@ -52,14 +74,28 @@ jobs:
             pipeline/scripts/publish_verified_pages.py \
             pipeline/scripts/publish_verified_pages_sussex.py \
             pipeline/scripts/service_admin_pipeline_sussex.py \
-            pipeline/scripts/jobg8_module_2_live_slices.py
+            pipeline/scripts/jobg8_module_2_live_slices.py \
+            pipeline/scripts/derive_city_pages.py
           python -m unittest \
             tests.test_slice_registry \
             tests.test_publish_verified_pages \
             tests.test_sussex_admin_launch \
+            tests.test_newcastle_city_launch \
             tests.test_service_admin_sussex_wrapper \
             tests.test_module2_live_slices \
+            -v
+          python -m unittest discover \
+            -s pipeline/tests \
+            -p 'test_derive_city_pages.py' \
             -v
       - name: Confirm current LIVE slices are publishable
         working-directory: pipeline
         run: python -m scripts.publish_verified_pages_sussex --dry-run
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Build Next.js site
+        run: |
+          npm ci
+          npm run build
