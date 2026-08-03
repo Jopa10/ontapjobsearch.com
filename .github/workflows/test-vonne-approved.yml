@@ -1,0 +1,51 @@
+name: Test VONNE approved output
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/external_sources/vonne_approved.py"
+      - "pipeline/external_sources/compose_northeast_admin.py"
+      - "pipeline/tests/test_vonne_approved_publish.py"
+      - ".github/workflows/build-approved-vonne-output.yml"
+      - ".github/workflows/test-vonne-approved.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-vonne-approved:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out proposed changes
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Compile approval and composition modules
+        working-directory: pipeline
+        run: |
+          python -m py_compile external_sources/vonne_approved.py
+          python -m py_compile external_sources/compose_northeast_admin.py
+
+      - name: Run VONNE and NEJobs safeguards
+        run: |
+          python -m pytest \
+            pipeline/tests/test_vonne_approved_publish.py \
+            pipeline/tests/test_vonne_poc.py \
+            pipeline/tests/test_nejobs_approved_publish.py -q
+          python -m unittest tests.test_publish_verified_pages -v
+
+      - name: Dry-run current external composition
+        working-directory: pipeline
+        run: python -m external_sources.compose_northeast_admin
+
+      - name: Confirm no live files changed
+        run: git diff --exit-code -- pipeline/output-admin-service app
