@@ -17,6 +17,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
 VALID_DECISIONS = {"include", "review", "exclude"}
 VALID_MANUAL_CHOICES = {"include", "exclude"}
+VALID_MARKDOWN_ACTIONS = {"select", "exclude"}
 DECISION_ORDER = {"include": 0, "review": 1, "exclude": 2}
 
 
@@ -204,7 +205,7 @@ def review_job_id(job: dict[str, Any]) -> str:
 
 
 def load_review_decisions(path: Path) -> dict[str, str]:
-    """Load only genuine manual overrides from the previous review sheet."""
+    """Load only genuine manual overrides from the previous CSV review sheet."""
     if not path.is_file():
         return {}
 
@@ -221,9 +222,6 @@ def load_review_decisions(path: Path) -> dict[str, str]:
                 row.get("automatic_decision") or ""
             ).strip().casefold()
 
-            # A pre-filled decision that still equals the previous automatic
-            # result is not a manual override. Only a changed include/exclude
-            # choice is carried into the next run.
             if (
                 job_id
                 and decision in VALID_MANUAL_CHOICES
@@ -233,7 +231,52 @@ def load_review_decisions(path: Path) -> dict[str, str]:
     return overrides
 
 
-# Backwards-compatible import name used by older tests/callers.
+def load_markdown_actions(path: Path) -> dict[str, str]:
+    """Load `action: select|exclude` overrides from full Markdown job blocks."""
+    if not path.is_file():
+        return {}
+
+    overrides: dict[str, str] = {}
+    pending_action = ""
+    with path.open("r", encoding="utf-8") as handle:
+        for line_number, line in enumerate(handle, start=1):
+            stripped = line.strip()
+            if stripped.casefold().startswith("action:"):
+                pending_action = stripped.split(":", 1)[1].strip().casefold()
+                if pending_action and pending_action not in VALID_MARKDOWN_ACTIONS:
+                    raise ValueError(
+                        f"invalid Markdown action {pending_action!r} on line {line_number}"
+                    )
+            elif stripped.casefold().startswith("job_id:"):
+                job_id = stripped.split(":", 1)[1].strip().strip("`")
+                if pending_action and job_id:
+                    decision = "include" if pending_action == "select" else "exclude"
+                    previous = overrides.get(job_id)
+                    if previous and previous != decision:
+                        raise ValueError(f"conflicting Markdown actions for {job_id}")
+                    overrides[job_id] = decision
+                pending_action = ""
+    return overrides
+
+
+def merge_review_overrides(
+    csv_overrides: dict[str, str],
+    markdown_overrides: dict[str, str],
+) -> dict[str, str]:
+    """Combine both editable review formats and reject conflicting choices."""
+    conflicts = {
+        job_id
+        for job_id in csv_overrides.keys() & markdown_overrides.keys()
+        if csv_overrides[job_id] != markdown_overrides[job_id]
+    }
+    if conflicts:
+        raise ValueError(
+            "conflicting CSV and Markdown decisions for: "
+            + ", ".join(sorted(conflicts))
+        )
+    return {**csv_overrides, **markdown_overrides}
+
+
 load_review_actions = load_review_decisions
 
 
@@ -248,12 +291,13 @@ def derive_rows(
         automatic, rule, reason = classify_job(job, config)
         sheet_job_id = review_job_id(job)
         raw_job_id = str(job.get("job_id", "")).strip()
-        decision = overrides.get(
-            sheet_job_id, overrides.get(raw_job_id, automatic)
-        )
+        override = overrides.get(sheet_job_id, overrides.get(raw_job_id, ""))
+        decision = override or automatic
+        action = "select" if override == "include" else override
         rows.append(
             {
                 "decision": decision,
+                "action": action,
                 "job_id": sheet_job_id,
                 "title": str(job.get("title", "")).strip(),
                 "company": str(job.get("company", "")).strip(),
@@ -294,13 +338,18 @@ FIELDNAMES = (
 
 def csv_text(rows: list[dict[str, str]]) -> str:
     output = StringIO(newline="")
-    writer = csv.DictWriter(output, fieldnames=FIELDNAMES, lineterminator="\n")
+    writer = csv.DictWriter(
+        output,
+        fieldnames=FIELDNAMES,
+        lineterminator="\n",
+        extrasaction="ignore",
+    )
     writer.writeheader()
     writer.writerows(rows)
     return output.getvalue()
 
 
-def summary_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
+def markdown_review_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
     automatic = {decision: 0 for decision in VALID_DECISIONS}
     effective = {decision: 0 for decision in VALID_DECISIONS}
     for row in rows:
@@ -318,48 +367,68 @@ def summary_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
         f"- Threshold currently met: {'yes' if threshold_met else 'no'}",
         "",
         "## How to review",
-        "The first left-hand CSV column is `decision` and is pre-filled with the current include, review or exclude result.",
-        "Change it to `include` or `exclude` where required. Unchanged automatic decisions are refreshed normally; genuine overrides are preserved by `job_id`.",
-        "Rows are sorted include first, review second and exclude last, then alphabetically by title within each group.",
-        "JobG8 identifiers are prefixed `jobg8-` in this review sheet only; live job IDs are unchanged.",
+        "Edit only the `action:` line inside a job block.",
+        "Use `action: exclude` to remove a current include, or `action: select` to include a review/exclude job.",
+        "Leave `action:` blank to accept the automatic decision.",
+        "Jobs are grouped include first, review second and exclude last, then alphabetically by title.",
+        "JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.",
         "This stage still publishes nothing.",
         "",
-        "## Automatic decisions",
-        f"- include: {automatic['include']}",
-        f"- review: {automatic['review']}",
-        f"- exclude: {automatic['exclude']}",
+        "## Counts",
+        f"- automatic include: {automatic['include']}",
+        f"- automatic review: {automatic['review']}",
+        f"- automatic exclude: {automatic['exclude']}",
+        f"- effective include: {effective['include']}",
+        f"- effective review: {effective['review']}",
+        f"- effective exclude: {effective['exclude']}",
         "",
-        "## Effective decisions after saved reviewer decisions",
-        f"- include: {effective['include']}",
-        f"- review: {effective['review']}",
-        f"- exclude: {effective['exclude']}",
-        "",
-        "## Review reasons",
     ]
 
-    review_rows = [
-        row for row in rows if row["effective_decision"] == "review"
-    ]
-    if not review_rows:
-        lines.append("- None")
-    else:
-        for row in review_rows:
-            lines.append(
-                f"- `{row['job_id']}` — {row['title']} — "
-                f"{row['location']}: {row['reason']}"
+    headings = {
+        "include": "INCLUDE",
+        "review": "REVIEW",
+        "exclude": "EXCLUDE",
+    }
+    for decision in ("include", "review", "exclude"):
+        group = [row for row in rows if row["effective_decision"] == decision]
+        lines.extend([f"## {headings[decision]} ({len(group)})", ""])
+        for row in group:
+            lines.extend(
+                [
+                    "---",
+                    f"action: {row['action']}",
+                    f"decision: {row['effective_decision']}",
+                    f"automatic_decision: {row['automatic_decision']}",
+                    f"title: {row['title']}",
+                    f"company: {row['company']}",
+                    f"location: {row['location']}",
+                    f"source: {row['source']}",
+                    f"job_id: {row['job_id']}",
+                    f"reason: {row['reason']}",
+                    "---",
+                    "",
+                ]
             )
-    return "\n".join(lines) + "\n"
+    return "\n".join(lines).rstrip() + "\n"
+
+
+summary_text = markdown_review_text
 
 
 def process_config(
     config: CityConfig, root: Path, write_review: bool
 ) -> dict[str, Any]:
     review_path = root / config.review_csv
+    markdown_path = root / config.summary_md
     jobs = load_parent_jobs(root / config.parent_page)
-    rows = derive_rows(jobs, config, load_review_decisions(review_path))
+    overrides = merge_review_overrides(
+        load_review_decisions(review_path),
+        load_markdown_actions(markdown_path),
+    )
+    rows = derive_rows(jobs, config, overrides)
     if write_review:
         atomic_write(review_path, csv_text(rows))
-        atomic_write(root / config.summary_md, summary_text(config, rows))
+        atomic_write(markdown_path, markdown_review_text(config, rows))
 
     include_count = sum(
         row["effective_decision"] == "include" for row in rows
