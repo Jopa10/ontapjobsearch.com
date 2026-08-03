@@ -7,9 +7,10 @@
 - Threshold currently met: yes
 
 ## How to review
-The first left-hand CSV column is `decision`.
-
-Enter `include` or `exclude` only where you want to override the automatic decision; otherwise leave it blank. Saved decisions are preserved by `job_id`. This stage still publishes nothing.
+The first left-hand CSV column is `decision` and is pre-filled with the current `include`, `review` or `exclude` result.
+Change it to `include` or `exclude` where required. Unchanged automatic decisions are refreshed normally; genuine overrides are preserved by `job_id`.
+JobG8 identifiers are prefixed `jobg8-` in this review sheet only; live job IDs are unchanged.
+This stage still publishes nothing.
 
 ## Automatic decisions
 - include: 10
