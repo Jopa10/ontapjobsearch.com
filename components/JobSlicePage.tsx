@@ -168,21 +168,12 @@ const careTraining: TrainingItem[] = [
 
 function RelatedPageLink({ relatedPage }: { relatedPage: RelatedPage }) {
   return (
-    <div
-      style={{
-        border: "1px solid #bfdbfe",
-        borderRadius: 10,
-        padding: "10px 12px",
-        background: "#eff6ff",
-        color: "#374151",
-        fontSize: 14,
-      }}
-    >
-      <span>{relatedPage.prompt}</span>{" "}
-      <Link
-        href={relatedPage.href}
-        style={{ color: "#1d4ed8", fontWeight: 700, textDecoration: "none" }}
-      >
+    <div className={styles.relatedPanel}>
+      <div className={styles.relatedCopy}>
+        <div className={styles.relatedEyebrow}>More jobs nearby</div>
+        <p className={styles.relatedPrompt}>{relatedPage.prompt}</p>
+      </div>
+      <Link href={relatedPage.href} className={styles.relatedLink}>
         {relatedPage.label} →
       </Link>
     </div>
