@@ -8,6 +8,10 @@ on:
         required: true
         default: '2026-07'
         type: string
+  pull_request:
+    paths:
+      - pipeline/scripts/jobg8_west_midlands_diagnostic.py
+      - .github/workflows/run-west-midlands-diagnostic.yml
   push:
     branches:
       - agent/west-midlands-diagnostic
@@ -86,6 +90,7 @@ jobs:
             pipeline/reports-module2/${{ steps.month.outputs.value }}-west-midlands-diagnostic-log.txt
 
       - name: Commit diagnostic outputs
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           set -euo pipefail
