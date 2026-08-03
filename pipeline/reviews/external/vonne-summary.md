@@ -10,7 +10,7 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are same-day only and do not publish anything.
 
-Run generated: 2026-08-03T10:28:21+01:00
+Run generated: 2026-08-03T10:41:50+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
 JobG8 comparison rows: 70
 Approved NEJobs comparison rows: 13
@@ -30,8 +30,8 @@ Approved NEJobs comparison rows: 13
 - HC: 0
 - POSS: 5
 - HARD_PASS: 10
-- Final selected after same-day actions: 0
-- Final POSS awaiting decision: 5
+- Final selected after same-day actions: 5
+- Final POSS awaiting decision: 0
 - Manually excluded: 0
 
 ## Detail diagnostics
@@ -39,13 +39,9 @@ Approved NEJobs comparison rows: 13
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: select
-POSS | North East | Hybrid | £30,000 Per Annum | Project Lead
+SELECTED | North East | Hybrid | £30,000 Per Annum | Project Lead
 employer: People's Powerhouse
 closing_date: 16 August 2026
 geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
@@ -58,7 +54,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173270
 
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Regionwide | £113 Per Day | Accreditation and Outreach Officer
+SELECTED | North East - Tyneside, Wearside & Northumberland | Regionwide | £113 Per Day | Accreditation and Outreach Officer
 employer: The Young Women's Film Academy
 closing_date: Friday, August 21, 2026 - 17:00
 geography: CONFIRMED — based: exact area
@@ -71,7 +67,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173252
 
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | Family Learning Coordinator (9 Months Fixed Term)
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | Family Learning Coordinator (9 Months Fixed Term)
 employer: Children North East
 closing_date: Tuesday, August 11, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
@@ -84,7 +80,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173262
 
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | School Family Coordinator
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | School Family Coordinator
 employer: Children North East
 closing_date: Tuesday, August 11, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
@@ -97,7 +93,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173267
 
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
 employer: VONNE
 closing_date: Sunday, August 23, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
@@ -108,6 +104,10 @@ source_job_id: 173253
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
 ---
 
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 
