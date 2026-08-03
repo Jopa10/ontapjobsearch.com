@@ -10,7 +10,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
-    "test:frontend": "tsx --test tests/hybrid-working-badge.test.tsx tests/job-facts.test.ts tests/related-jobs.test.ts"
+    "test:frontend": "tsx --test tests/hybrid-working-badge.test.tsx tests/job-facts.test.ts tests/related-jobs.test.ts tests/city-page-data.test.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
