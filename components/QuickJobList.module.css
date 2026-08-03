@@ -30,16 +30,20 @@
 
 .topLine {
   display: grid;
-  grid-template-columns: max-content max-content minmax(0, 1fr) max-content max-content;
+  grid-template-columns: fit-content(36ch) max-content minmax(0, 1fr) max-content max-content;
   align-items: baseline;
   gap: 6px;
   min-width: 0;
 }
 
 .location {
+  min-width: 0;
+  overflow: hidden;
   color: #1d4ed8;
   font-size: 14px;
   font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dash {
@@ -108,7 +112,7 @@
 
 @media (max-width: 860px) {
   .topLine {
-    grid-template-columns: max-content max-content minmax(0, 1fr) max-content;
+    grid-template-columns: fit-content(28ch) max-content minmax(0, 1fr) max-content;
   }
 
   .terms {
@@ -140,7 +144,7 @@
   }
 
   .topLine {
-    grid-template-columns: max-content max-content minmax(0, 1fr) max-content;
+    grid-template-columns: fit-content(16ch) max-content minmax(0, 1fr) max-content;
   }
 
   .location {
