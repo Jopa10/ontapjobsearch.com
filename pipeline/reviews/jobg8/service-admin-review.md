@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-02
+feed_date: 2026-08-03
 
 Edit only the `action:` line in each block:
 
@@ -10,12 +10,6 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
-
----
-action: select
-SELECTED | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
-job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
----
 
 ---
 action:
@@ -31,7 +25,11 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
+job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -152,12 +150,6 @@ job_id: 1599080
 ---
 
 ---
-action: select
-SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
----
-
----
 action:
 SELECTED | London | London | £35000 per year | Sipp Administrator
 job_id: e0a800a7-bcbd-4cad-8a96-decf3e7a07ba
@@ -217,6 +209,12 @@ job_id: 1621458
 action:
 POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
 job_id: 107731922
+---
+
+---
+action:
+POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ## HAMPSHIRE — SELECTED
