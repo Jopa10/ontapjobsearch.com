@@ -108,6 +108,52 @@ jobs:
           echo "created=true" >> "$GITHUB_OUTPUT"
           echo "Published verified pages commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
 
+      - name: Test city-page derivation
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_derive_city_pages.py' -v
+
+      - name: Derive and publish city pages
+        id: city-publish
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          report_file="$(mktemp)"
+          python -m scripts.derive_city_pages --publish | tee "$report_file"
+          cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit city-page outputs
+        run: |
+          set -euo pipefail
+          city_paths=(
+            "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv"
+            "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md"
+            "app/_city-pages/newcastle/service-administrator-jobs.json"
+          )
+
+          if [ -z "$(git status --porcelain -- "${city_paths[@]}")" ]; then
+            echo "No city-page changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          git add -A -- "${city_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
+            '$0 != "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv" &&
+             $0 != "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md" &&
+             $0 != "app/_city-pages/newcastle/service-administrator-jobs.json"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit unexpected city-page paths:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh city-page outputs"
+          git push origin main
+          echo "City-page output commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Upload downloadable live-job source report
         if: steps.live-count.outcome == 'success'
         uses: actions/upload-artifact@v4
@@ -117,4 +163,16 @@ jobs:
             pipeline/reports-daily/live-job-source-count-${{ steps.live-count.outputs.report_date }}.csv
             pipeline/reports-daily/live-job-source-history.csv
           if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload Newcastle city-page outputs
+        if: steps.city-publish.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: newcastle-city-page-output
+          path: |
+            pipeline/reviews/city-pages/newcastle-service-administrator-review.csv
+            pipeline/reviews/city-pages/newcastle-service-administrator-summary.md
+            app/_city-pages/newcastle/service-administrator-jobs.json
+          if-no-files-found: warn
           retention-days: 30

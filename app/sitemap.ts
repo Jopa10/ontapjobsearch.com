@@ -1,9 +1,13 @@
 import { MetadataRoute } from 'next'
+import {
+  getCityPageJobs,
+  newcastleServiceAdministratorPage,
+} from '@/lib/city-page-data'
 import { getJobPath, getPublishedJobs } from '@/lib/published-jobs'
 
 const siteUrl = 'https://www.ontapjobsearch.com'
 
-const routes = [
+const baseRoutes = [
   '/',
   '/browse-jobs',
   '/about',
@@ -29,8 +33,17 @@ const routes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const jobs = getPublishedJobs()
+  const cityJobs = getCityPageJobs(newcastleServiceAdministratorPage)
+  const cityIsActive = cityJobs.length >= newcastleServiceAdministratorPage.minimumJobs
+  const routes = cityIsActive
+    ? [...baseRoutes, newcastleServiceAdministratorPage.route]
+    : baseRoutes
+
   const dates = jobs
     .map((job) => dateFrom(job.posted_date))
+    .filter((date): date is Date => Boolean(date))
+  const cityDates = cityJobs
+    .map((job) => dateFrom(typeof job.posted_date === 'string' ? job.posted_date : ''))
     .filter((date): date is Date => Boolean(date))
   const latestJobDate = dates.length
     ? new Date(Math.max(...dates.map((date) => date.getTime())))
@@ -38,12 +51,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = routes.map((route) => {
     const routeDates =
-      route === '/' || route === '/browse-jobs'
-        ? dates
-        : jobs
-            .filter((job) => job.slice_path === route)
-            .map((job) => dateFrom(job.posted_date))
-            .filter((date): date is Date => Boolean(date))
+      route === newcastleServiceAdministratorPage.route
+        ? cityDates
+        : route === '/' || route === '/browse-jobs'
+          ? [...dates, ...cityDates]
+          : jobs
+              .filter((job) => job.slice_path === route)
+              .map((job) => dateFrom(job.posted_date))
+              .filter((date): date is Date => Boolean(date))
     const lastModified = routeDates.length
       ? new Date(Math.max(...routeDates.map((date) => date.getTime())))
       : route === '/' || route === '/browse-jobs'

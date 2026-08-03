@@ -1,4 +1,8 @@
 import type { Metadata } from 'next';
+import {
+  getCityPageJobs,
+  newcastleServiceAdministratorPage,
+} from '@/lib/city-page-data';
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
@@ -38,6 +42,9 @@ type BrowseSection = {
 
 const activeStatusClassName = 'border-green-200 bg-green-50 text-green-700';
 const pausedStatusClassName = 'border-amber-200 bg-amber-50 text-amber-700';
+const newcastleCityJobs = getCityPageJobs(newcastleServiceAdministratorPage);
+const newcastleCityIsActive =
+  newcastleCityJobs.length >= newcastleServiceAdministratorPage.minimumJobs;
 
 const getSupportWorkerStatus = (
   jobs: unknown[],
@@ -85,6 +92,18 @@ const jobSections: BrowseSection[] = [
     heading: 'Active admin, service administrator and customer-service jobs',
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
     cards: [
+      ...(newcastleCityIsActive
+        ? [
+            {
+              title: 'Newcastle Admin & Customer Service Jobs',
+              href: newcastleServiceAdministratorPage.route,
+              description:
+                'Admin, office support and customer-service roles across Newcastle and its normal commuting catchment.',
+              status: `${newcastleCityJobs.length} current jobs`,
+              statusClassName: activeStatusClassName,
+            },
+          ]
+        : []),
       {
         title: 'Hampshire Admin & Customer Service Jobs',
         href: '/hampshire/service-administrator-jobs',

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import JobSlicePage from "@/components/JobSlicePage";
 import { getJobPageStatus } from "@/config/job-page-status";
 import {
@@ -6,13 +7,14 @@ import {
   newcastleServiceAdministratorPage,
 } from "@/lib/city-page-data";
 
-const routeKey = "north-east/service-administrator-jobs";
-const canonicalUrl = "https://www.ontapjobsearch.com/north-east/service-administrator-jobs";
+const routeKey = "newcastle/service-administrator-jobs";
+const canonicalUrl =
+  "https://www.ontapjobsearch.com/newcastle/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "North East Service Administrator Jobs | Ontap Job Search",
+  title: "Newcastle Admin & Customer Service Jobs | Ontap Job Search",
   description:
-    "Browse service administrator, customer service administrator and office support jobs across Newcastle and the North East.",
+    "Browse current admin, office support and customer-service jobs across Newcastle and its normal commuting catchment.",
   alternates: {
     canonical: canonicalUrl,
   },
@@ -43,27 +45,26 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  if (!isCityPageActive(newcastleServiceAdministratorPage)) notFound();
+
   const latestUpdate = getJobPageStatus(routeKey);
-  const relatedPage = isCityPageActive(newcastleServiceAdministratorPage)
-    ? {
-        href: newcastleServiceAdministratorPage.route,
-        prompt: "Looking specifically around Newcastle?",
-        label: "View Newcastle jobs",
-      }
-    : undefined;
 
   return (
     <JobSlicePage
-      jsonPath={["app", "north-east", "service-administrator-jobs.json"]}
-      region="North East"
-      title="North East Service Administrator Jobs"
+      jsonPath={[...newcastleServiceAdministratorPage.jsonPath]}
+      region="Newcastle"
+      title="Newcastle Admin & Customer Service Jobs"
       latestUpdate={latestUpdate}
-      introText={`Current admin, office-support and customer-service jobs across the North East. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
+      introText={`Current admin, office-support and customer-service jobs across Newcastle and its normal commuting catchment. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Newcastle"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
-      relatedPage={relatedPage}
+      relatedPage={{
+        href: "/north-east/service-administrator-jobs",
+        prompt: "Looking across the wider region?",
+        label: "View all North East jobs",
+      }}
     />
   );
 }

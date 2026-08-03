@@ -34,6 +34,7 @@ export type PublishedJob = {
 };
 
 const APP_DIRECTORY = path.join(process.cwd(), "app");
+const DERIVED_CITY_DATA_DIRECTORY = "_city-pages";
 
 function text(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
@@ -43,6 +44,8 @@ function jsonFiles(directory: string): string[] {
   if (!fs.existsSync(directory)) return [];
 
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    if (entry.isDirectory() && entry.name === DERIVED_CITY_DATA_DIRECTORY) return [];
+
     const entryPath = path.join(directory, entry.name);
     if (entry.isDirectory()) return jsonFiles(entryPath);
     return entry.isFile() && entry.name.endsWith(".json") ? [entryPath] : [];
