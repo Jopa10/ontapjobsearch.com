@@ -9,6 +9,7 @@
 ## How to review
 The first left-hand CSV column is `decision` and is pre-filled with the current `include`, `review` or `exclude` result.
 Change it to `include` or `exclude` where required. Unchanged automatic decisions are refreshed normally; genuine overrides are preserved by `job_id`.
+Rows are sorted `include` first, `review` second and `exclude` last, then alphabetically by title within each group.
 JobG8 identifiers are prefixed `jobg8-` in this review sheet only; live job IDs are unchanged.
 This stage still publishes nothing.
 
@@ -23,6 +24,6 @@ This stage still publishes nothing.
 - exclude: 9
 
 ## Review reasons
-- `vonne-173270` — Project Lead — North East (hybrid): The broad North East location needs evidence that Newcastle residents are within the intended workplace area.
 - `nejobs-300058` — Business Support Officer, 32hpw — South Tyneside Council: No Newcastle catchment rule matched the stated location; local geographic review is required.
+- `vonne-173270` — Project Lead — North East (hybrid): The broad North East location needs evidence that Newcastle residents are within the intended workplace area.
 - `vonne-173253` — VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover) — Tyne and Wear: The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located.
