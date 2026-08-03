@@ -13,10 +13,11 @@ if str(PIPELINE_ROOT) not in sys.path:
 
 from scripts.derive_city_pages import (  # noqa: E402
     CityConfig,
+    FIELDNAMES,
     Rule,
     classify_job,
     derive_rows,
-    load_review_actions,
+    load_review_decisions,
     process_config,
 )
 
@@ -51,7 +52,13 @@ def config() -> CityConfig:
     )
 
 
-def job(job_id: str, location: str, *, company: str = "Employer", summary: str = "") -> dict[str, str]:
+def job(
+    job_id: str,
+    location: str,
+    *,
+    company: str = "Employer",
+    summary: str = "",
+) -> dict[str, str]:
     return {
         "job_id": job_id,
         "title": f"Job {job_id}",
@@ -63,6 +70,9 @@ def job(job_id: str, location: str, *, company: str = "Employer", summary: str =
 
 
 class CityPageDerivationTests(unittest.TestCase):
+    def test_decision_is_first_csv_column(self) -> None:
+        self.assertEqual(FIELDNAMES[0], "decision")
+
     def test_agreed_newcastle_locations_are_included(self) -> None:
         cfg = config()
         for location in (
@@ -77,7 +87,9 @@ class CityPageDerivationTests(unittest.TestCase):
                 self.assertEqual(decision, "include")
 
     def test_tynewear_home_based_is_review(self) -> None:
-        decision, rule, reason = classify_job(job("1", "Tyne and Wear, home-based"), config())
+        decision, rule, reason = classify_job(
+            job("1", "Tyne and Wear, home-based"), config()
+        )
         self.assertEqual(decision, "review")
         self.assertEqual(rule, "tyne and wear")
         self.assertIn("Broad", reason)
@@ -101,14 +113,14 @@ class CityPageDerivationTests(unittest.TestCase):
         )
         self.assertEqual((decision, rule), ("review", "fallback"))
 
-    def test_saved_reviewer_action_is_retained_and_effective(self) -> None:
+    def test_saved_decision_is_retained_and_effective(self) -> None:
         rows = derive_rows(
             [job("1", "Tyne and Wear, home-based")],
             config(),
             prior_actions={"1": "include"},
         )
         self.assertEqual(rows[0]["automatic_decision"], "review")
-        self.assertEqual(rows[0]["reviewer_action"], "include")
+        self.assertEqual(rows[0]["decision"], "include")
         self.assertEqual(rows[0]["effective_decision"], "include")
 
     def test_process_writes_review_outputs_but_no_live_city_page(self) -> None:
@@ -130,21 +142,42 @@ class CityPageDerivationTests(unittest.TestCase):
 
             self.assertTrue((root / cfg.review_csv).is_file())
             self.assertTrue((root / cfg.summary_md).is_file())
-            self.assertFalse((root / "app/newcastle/service-administrator-jobs.json").exists())
+            self.assertFalse(
+                (root / "app/newcastle/service-administrator-jobs.json").exists()
+            )
+            with (root / cfg.review_csv).open(
+                "r", encoding="utf-8", newline=""
+            ) as handle:
+                self.assertEqual(next(csv.reader(handle))[0], "decision")
             self.assertEqual(result["include_count"], 3)
             self.assertEqual(result["review_count"], 1)
             self.assertEqual(result["exclude_count"], 1)
             self.assertTrue(result["threshold_met"])
 
-    def test_review_action_loader_ignores_invalid_values(self) -> None:
+    def test_review_decision_loader_ignores_invalid_values(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "review.csv"
             with path.open("w", encoding="utf-8", newline="") as handle:
-                writer = csv.DictWriter(handle, fieldnames=["job_id", "reviewer_action"])
+                writer = csv.DictWriter(
+                    handle, fieldnames=["decision", "job_id"]
+                )
                 writer.writeheader()
-                writer.writerow({"job_id": "1", "reviewer_action": "include"})
-                writer.writerow({"job_id": "2", "reviewer_action": "maybe"})
-            self.assertEqual(load_review_actions(path), {"1": "include"})
+                writer.writerow({"job_id": "1", "decision": "include"})
+                writer.writerow({"job_id": "2", "decision": "maybe"})
+            self.assertEqual(load_review_decisions(path), {"1": "include"})
+
+    def test_legacy_reviewer_action_column_is_still_read(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "review.csv"
+            with path.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(
+                    handle, fieldnames=["job_id", "reviewer_action"]
+                )
+                writer.writeheader()
+                writer.writerow(
+                    {"job_id": "1", "reviewer_action": "exclude"}
+                )
+            self.assertEqual(load_review_decisions(path), {"1": "exclude"})
 
 
 if __name__ == "__main__":
