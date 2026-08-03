@@ -16,7 +16,7 @@ from typing import Any, Iterable
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
 VALID_DECISIONS = {"include", "review", "exclude"}
-VALID_ACTIONS = {"", "include", "exclude"}
+VALID_REVIEW_CHOICES = {"", "include", "exclude"}
 
 
 @dataclass(frozen=True)
@@ -54,7 +54,9 @@ def usable_text(value: Any) -> bool:
 
 def atomic_write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    fd, temp_name = tempfile.mkstemp(
+        prefix=f".{path.name}.", suffix=".tmp", dir=path.parent
+    )
     try:
         with os.fdopen(fd, "w", encoding="utf-8", newline="") as handle:
             handle.write(content)
@@ -76,7 +78,9 @@ def parse_rules(raw_rules: Any, field_name: str) -> tuple[Rule, ...]:
         pattern = raw.get("pattern")
         reason = raw.get("reason")
         if not usable_text(pattern) or not usable_text(reason):
-            raise ValueError(f"{field_name}[{index}] needs usable pattern and reason")
+            raise ValueError(
+                f"{field_name}[{index}] needs usable pattern and reason"
+            )
         parsed.append(Rule(normalise(pattern), reason.strip()))
     return tuple(parsed)
 
@@ -96,6 +100,7 @@ def parse_config(raw: dict[str, Any]) -> CityConfig:
     for field in required:
         if not usable_text(raw.get(field)):
             raise ValueError(f"city config needs usable {field}")
+
     minimum = raw.get("minimum_live_jobs")
     if not isinstance(minimum, int) or minimum < 1:
         raise ValueError("minimum_live_jobs must be a positive integer")
@@ -103,6 +108,7 @@ def parse_config(raw: dict[str, Any]) -> CityConfig:
         raise ValueError("only review_only city configs are supported")
     if raw["fallback_decision"] not in VALID_DECISIONS:
         raise ValueError("fallback_decision must be include, review, or exclude")
+
     return CityConfig(
         city_key=raw["city_key"].strip(),
         display_name=raw["display_name"].strip(),
@@ -125,6 +131,7 @@ def load_register(path: Path) -> tuple[CityConfig, ...]:
         raw = json.load(handle)
     if not isinstance(raw, list) or not all(isinstance(item, dict) for item in raw):
         raise ValueError("city-page register must be an array of objects")
+
     configs = tuple(parse_config(item) for item in raw)
     keys = [config.city_key for config in configs]
     if len(keys) != len(set(keys)):
@@ -139,6 +146,7 @@ def load_parent_jobs(path: Path) -> list[dict[str, Any]]:
         raw = json.load(handle)
     if not isinstance(raw, list):
         raise ValueError(f"parent page must be an array: {path}")
+
     jobs: list[dict[str, Any]] = []
     seen: set[str] = set()
     for index, item in enumerate(raw):
@@ -162,7 +170,9 @@ def first_match(text: str, rules: Iterable[Rule]) -> Rule | None:
 def classify_job(job: dict[str, Any], config: CityConfig) -> tuple[str, str, str]:
     """Classify using stated location; context may exclude/review, never include."""
     location = normalise(job.get("location"))
-    context = normalise(" ".join(str(job.get(field, "")) for field in ("company", "summary")))
+    context = normalise(
+        " ".join(str(job.get(field, "")) for field in ("company", "summary"))
+    )
 
     matched = first_match(location, config.exclude_rules)
     if matched:
@@ -183,21 +193,32 @@ def classify_job(job: dict[str, Any], config: CityConfig) -> tuple[str, str, str
     return config.fallback_decision, "fallback", config.fallback_reason
 
 
-def load_review_actions(path: Path) -> dict[str, str]:
+def load_review_decisions(path: Path) -> dict[str, str]:
+    """Load the editable first-column decision, with legacy column support."""
     if not path.is_file():
         return {}
-    actions: dict[str, str] = {}
+
+    decisions: dict[str, str] = {}
     with path.open("r", encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle):
             job_id = (row.get("job_id") or "").strip()
-            action = (row.get("reviewer_action") or "").strip().casefold()
-            if job_id and action in VALID_ACTIONS:
-                actions[job_id] = action
-    return actions
+            choice = (
+                row.get("decision")
+                or row.get("reviewer_action")
+                or ""
+            ).strip().casefold()
+            if job_id and choice in VALID_REVIEW_CHOICES:
+                decisions[job_id] = choice
+    return decisions
 
 
-def effective_decision(decision: str, action: str) -> str:
-    return action if action in {"include", "exclude"} else decision
+load_review_actions = load_review_decisions
+
+
+def effective_decision(automatic_decision: str, reviewer_decision: str) -> str:
+    if reviewer_decision in {"include", "exclude"}:
+        return reviewer_decision
+    return automatic_decision
 
 
 def derive_rows(
@@ -205,41 +226,43 @@ def derive_rows(
     config: CityConfig,
     prior_actions: dict[str, str] | None = None,
 ) -> list[dict[str, str]]:
-    actions = prior_actions or {}
+    decisions = prior_actions or {}
     rows: list[dict[str, str]] = []
     for job in jobs:
-        decision, rule, reason = classify_job(job, config)
-        action = actions.get(job["job_id"].strip(), "")
+        automatic, rule, reason = classify_job(job, config)
+        reviewer_decision = decisions.get(job["job_id"].strip(), "")
         rows.append(
             {
-                "city_key": config.city_key,
+                "decision": reviewer_decision,
                 "job_id": job["job_id"].strip(),
                 "title": str(job.get("title", "")).strip(),
                 "company": str(job.get("company", "")).strip(),
                 "location": str(job.get("location", "")).strip(),
                 "source": str(job.get("source", "JobG8")).strip() or "JobG8",
-                "automatic_decision": decision,
-                "matched_rule": rule,
+                "automatic_decision": automatic,
+                "effective_decision": effective_decision(
+                    automatic, reviewer_decision
+                ),
                 "reason": reason,
-                "reviewer_action": action,
-                "effective_decision": effective_decision(decision, action),
+                "matched_rule": rule,
+                "city_key": config.city_key,
             }
         )
     return rows
 
 
 FIELDNAMES = (
-    "city_key",
+    "decision",
     "job_id",
     "title",
     "company",
     "location",
     "source",
     "automatic_decision",
-    "matched_rule",
-    "reason",
-    "reviewer_action",
     "effective_decision",
+    "reason",
+    "matched_rule",
+    "city_key",
 )
 
 
@@ -257,6 +280,7 @@ def summary_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
     for row in rows:
         automatic[row["automatic_decision"]] += 1
         effective[row["effective_decision"]] += 1
+
     threshold_met = effective["include"] >= config.minimum_live_jobs
     lines = [
         f"# {config.display_name} {config.category_label} city-page review",
@@ -267,43 +291,61 @@ def summary_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
         f"- Effective included jobs: {effective['include']}",
         f"- Threshold currently met: {'yes' if threshold_met else 'no'}",
         "",
+        "## How to review",
+        "The first left-hand CSV column is `decision`.",
+        "Enter `include` or `exclude` only where you want to override the automatic decision; otherwise leave it blank.",
+        "Saved decisions are preserved by `job_id`; this stage still publishes nothing.",
+        "",
         "## Automatic decisions",
         f"- include: {automatic['include']}",
         f"- review: {automatic['review']}",
         f"- exclude: {automatic['exclude']}",
         "",
-        "## Effective decisions after saved reviewer actions",
+        "## Effective decisions after saved reviewer decisions",
         f"- include: {effective['include']}",
         f"- review: {effective['review']}",
         f"- exclude: {effective['exclude']}",
         "",
-        "Edit only `reviewer_action` in the CSV, using `include`, `exclude`, or blank. Saved actions are preserved by `job_id`; this stage still publishes nothing.",
-        "",
         "## Review reasons",
     ]
-    review_rows = [row for row in rows if row["effective_decision"] == "review"]
+
+    review_rows = [
+        row for row in rows if row["effective_decision"] == "review"
+    ]
     if not review_rows:
         lines.append("- None")
     else:
         for row in review_rows:
-            lines.append(f"- `{row['job_id']}` — {row['title']} — {row['location']}: {row['reason']}")
+            lines.append(
+                f"- `{row['job_id']}` — {row['title']} — "
+                f"{row['location']}: {row['reason']}"
+            )
     return "\n".join(lines) + "\n"
 
 
-def process_config(config: CityConfig, root: Path, write_review: bool) -> dict[str, Any]:
+def process_config(
+    config: CityConfig, root: Path, write_review: bool
+) -> dict[str, Any]:
     review_path = root / config.review_csv
     jobs = load_parent_jobs(root / config.parent_page)
-    rows = derive_rows(jobs, config, load_review_actions(review_path))
+    rows = derive_rows(jobs, config, load_review_decisions(review_path))
     if write_review:
         atomic_write(review_path, csv_text(rows))
         atomic_write(root / config.summary_md, summary_text(config, rows))
-    include_count = sum(row["effective_decision"] == "include" for row in rows)
+
+    include_count = sum(
+        row["effective_decision"] == "include" for row in rows
+    )
     return {
         "city_key": config.city_key,
         "parent_count": len(jobs),
         "include_count": include_count,
-        "review_count": sum(row["effective_decision"] == "review" for row in rows),
-        "exclude_count": sum(row["effective_decision"] == "exclude" for row in rows),
+        "review_count": sum(
+            row["effective_decision"] == "review" for row in rows
+        ),
+        "exclude_count": sum(
+            row["effective_decision"] == "exclude" for row in rows
+        ),
         "threshold": config.minimum_live_jobs,
         "threshold_met": include_count >= config.minimum_live_jobs,
         "status": "written" if write_review else "dry-run",
@@ -319,9 +361,17 @@ def report_text(results: list[dict[str, Any]]) -> str:
     ]
     for row in results:
         lines.append(
-            f"| {row['city_key']} | {row['parent_count']} | {row['include_count']} | {row['review_count']} | {row['exclude_count']} | {row['threshold']} | {'yes' if row['threshold_met'] else 'no'} | {row['status']} |"
+            f"| {row['city_key']} | {row['parent_count']} | "
+            f"{row['include_count']} | {row['review_count']} | "
+            f"{row['exclude_count']} | {row['threshold']} | "
+            f"{'yes' if row['threshold_met'] else 'no'} | {row['status']} |"
         )
-    lines.extend(["", "This stage is review-only. It does not create, replace, or remove any live city page."])
+    lines.extend(
+        [
+            "",
+            "This stage is review-only. It does not create, replace, or remove any live city page.",
+        ]
+    )
     return "\n".join(lines) + "\n"
 
 
@@ -334,16 +384,25 @@ def main() -> int:
     mode.add_argument("--write-review", action="store_true")
     args = parser.parse_args()
 
-    register_path = args.register if args.register.is_absolute() else REPO_ROOT / args.register
+    register_path = (
+        args.register
+        if args.register.is_absolute()
+        else REPO_ROOT / args.register
+    )
     configs = load_register(register_path)
     requested = set(args.city)
     if requested:
-        configs = tuple(config for config in configs if config.city_key in requested)
+        configs = tuple(
+            config for config in configs if config.city_key in requested
+        )
         missing = requested - {config.city_key for config in configs}
         if missing:
             parser.error(f"unknown city_key: {', '.join(sorted(missing))}")
 
-    results = [process_config(config, REPO_ROOT, args.write_review) for config in configs]
+    results = [
+        process_config(config, REPO_ROOT, args.write_review)
+        for config in configs
+    ]
     print(report_text(results), end="")
     return 0
 
