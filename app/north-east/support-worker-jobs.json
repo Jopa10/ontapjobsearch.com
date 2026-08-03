@@ -39,13 +39,7 @@
     "advertiser_name": "Priority Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support",
-      "Community access",
-      "Promoting independence"
-    ]
+    "salary_period": "Hourly"
   },
   {
     "job_id": "6b804bc2-d778-42ed-bf1b-d3ec78422d8a",
@@ -66,14 +60,7 @@
     "advertiser_name": "Cygnet",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support",
-      "Community access",
-      "Medical and welfare support",
-      "Safeguarding"
-    ]
+    "salary_period": "Hourly"
   },
   {
     "job_id": "9b0995dd-b5e5-433f-b113-8a55acf6d8cd",
@@ -159,58 +146,7 @@
     "advertiser_name": "Depaul UK",
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Support plans",
-      "Promoting independence",
-      "Accommodation support",
-      "Education and employment goals"
-    ]
-  },
-  {
-    "job_id": "107772681",
-    "title": "Relief Support Worker",
-    "company": "Creative Support - Agency - Contract",
-    "location": "Newton Aycliffe",
-    "region": "North East",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Contract",
-    "salary_min": "12.85",
-    "salary_max": "12.85",
-    "salary_text": "£12.85 per hour (plus rolled up holiday pay)",
-    "posted_date": "2026-08-02",
-    "description": "We are looking for a Relief Support Worker to join our friendly staff team. Our vibrant supported living service in Newton Aycliffe, County Durham, supports individuals with learning disabilities, complex needs, mental health needs and autism. We are committed to providing quality person-centred care and ensuring that our service users live valued and fulfilling lives click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX66RJJ9ynIHcCNJhkKpRfnWz",
-    "source": "JobG8",
-    "advertiser_name": "Creative Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107781117",
-    "title": "Complex Care Assistant",
-    "company": "Routes Healthcare (North) - Agency - Contract",
-    "location": "Crook",
-    "region": "North East",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Contract",
-    "salary_min": "14.24",
-    "salary_max": "14.24",
-    "salary_text": "£14.24 per hour (+ Including holiday pay)",
-    "posted_date": "2026-08-02",
-    "description": "Routes Healthcare does not offer sponsorship\n\nFemale Complex Care Assistant\n\nLocation: Willington\n\nFemale Complex Care Assistant\n\nLocation: Willington\n\nPay Rate: £14.24 per hour (including holiday pay) +Fully funded Enhanced DBS and guaranteed hours available after successful probation\n\nShift pattern 8:00 AM - 15:00 PM and nights 10 PM -8 AM\n\nAbout the Role\n\nRoutes Healthcare is seeking a Female Complex Care click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6obaOZzQlo3OVFz9RR9D0Dq",
-    "source": "JobG8",
-    "advertiser_name": "Routes Healthcare (North)",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "salary_period": "Annual"
   },
   {
     "job_id": "107615864",
@@ -254,6 +190,28 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107781117",
+    "title": "Complex Care Assistant",
+    "company": "Routes Healthcare (North) - Agency - Contract",
+    "location": "Crook",
+    "region": "North East",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Contract",
+    "salary_min": "14.24",
+    "salary_max": "14.24",
+    "salary_text": "£14.24 per hour (+ Including holiday pay)",
+    "posted_date": "2026-08-02",
+    "description": "Routes Healthcare does not offer sponsorship\n\nFemale Complex Care Assistant\n\nLocation: Willington\n\nFemale Complex Care Assistant\n\nLocation: Willington\n\nPay Rate: £14.24 per hour (including holiday pay) +Fully funded Enhanced DBS and guaranteed hours available after successful probation\n\nShift pattern 8:00 AM - 15:00 PM and nights 10 PM -8 AM\n\nAbout the Role\n\nRoutes Healthcare is seeking a Female Complex Care click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5Li8dm%2bHG4eiUCsdUCb8BDq",
+    "source": "JobG8",
+    "advertiser_name": "Routes Healthcare (North)",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   }
 ]

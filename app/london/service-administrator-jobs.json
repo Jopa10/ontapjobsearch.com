@@ -45,11 +45,7 @@
     "advertiser_name": "Ocean Network Express (Europe) Ltd",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "5a534179-7cff-416a-b14c-b5f1f11b907c",
@@ -121,11 +117,7 @@
     "advertiser_name": "Sterling Williams LTD",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -221,12 +213,7 @@
     "advertiser_name": "2i Recruit Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Correspondence"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "1621458",
@@ -300,11 +287,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "d80effd1-f790-46d0-942e-27c2de0d6305",
@@ -328,11 +311,7 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
@@ -356,14 +335,7 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -387,13 +359,7 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "9c0c3f0a-26d6-4bc3-a84e-17e102e59614",
@@ -441,10 +407,6 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting"
-    ]
+    "salary_period": "Annual"
   }
 ]
