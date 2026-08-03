@@ -101,6 +101,8 @@ jobs:
           node-version: '20'
           cache: npm
       - name: Build Next.js site
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/ontap_ci
         run: |
           npm ci
           npm run build
