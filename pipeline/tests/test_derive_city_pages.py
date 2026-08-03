@@ -81,6 +81,24 @@ class CityPageDerivationTests(unittest.TestCase):
         self.assertEqual(rows[0]["decision"], "include")
         self.assertEqual(rows[0]["effective_decision"], "include")
 
+    def test_rows_are_sorted_include_review_exclude_then_title(self) -> None:
+        jobs = [
+            job("4", "Bedlington"),
+            job("2", "Tyne and Wear, home-based"),
+            job("3", "Newcastle"),
+            job("1", "Newcastle"),
+        ]
+        rows = derive_rows(jobs, config())
+        self.assertEqual(
+            [(row["decision"], row["title"]) for row in rows],
+            [
+                ("include", "Job 1"),
+                ("include", "Job 3"),
+                ("review", "Job 2"),
+                ("exclude", "Job 4"),
+            ],
+        )
+
     def test_jobg8_review_id_is_source_prefixed(self) -> None:
         row = job("abc-123", "Newcastle", source="JobG8")
         self.assertEqual(review_job_id(row), "jobg8-abc-123")
