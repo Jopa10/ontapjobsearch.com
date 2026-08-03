@@ -50,12 +50,15 @@ jobs:
           set -euo pipefail
           approved_paths=(
             "app/hampshire/service-administrator-jobs.json"
+            "app/kent/service-administrator-jobs.json"
             "app/london/service-administrator-jobs.json"
             "app/north-east/service-administrator-jobs.json"
             "app/south-yorkshire/service-administrator-jobs.json"
+            "app/surrey/service-administrator-jobs.json"
             "app/sussex/service-administrator-jobs.json"
             "app/west-yorkshire/service-administrator-jobs.json"
             "app/cumbria-south/support-worker.json"
+            "app/hampshire/support-worker.json"
             "app/north-east/support-worker-jobs.json"
             "app/south-yorkshire/support-worker.json"
             "app/sussex/support-worker.json"
@@ -76,12 +79,15 @@ jobs:
             -v daily="$daily_report" \
             -v history="$history_report" \
             '$0 != "app/hampshire/service-administrator-jobs.json" &&
+             $0 != "app/kent/service-administrator-jobs.json" &&
              $0 != "app/london/service-administrator-jobs.json" &&
              $0 != "app/north-east/service-administrator-jobs.json" &&
              $0 != "app/south-yorkshire/service-administrator-jobs.json" &&
+             $0 != "app/surrey/service-administrator-jobs.json" &&
              $0 != "app/sussex/service-administrator-jobs.json" &&
              $0 != "app/west-yorkshire/service-administrator-jobs.json" &&
              $0 != "app/cumbria-south/support-worker.json" &&
+             $0 != "app/hampshire/support-worker.json" &&
              $0 != "app/north-east/support-worker-jobs.json" &&
              $0 != "app/south-yorkshire/support-worker.json" &&
              $0 != "app/sussex/support-worker.json" &&
