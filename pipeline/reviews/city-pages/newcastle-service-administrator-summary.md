@@ -6,17 +6,20 @@
 - Effective included jobs: 10
 - Threshold currently met: yes
 
+## How to review
+The first left-hand CSV column is `decision`.
+
+Enter `include` or `exclude` only where you want to override the automatic decision; otherwise leave it blank. Saved decisions are preserved by `job_id`. This stage still publishes nothing.
+
 ## Automatic decisions
 - include: 10
 - review: 3
 - exclude: 9
 
-## Effective decisions after saved reviewer actions
+## Effective decisions after saved reviewer decisions
 - include: 10
 - review: 3
 - exclude: 9
-
-Edit only `reviewer_action` in the CSV, using `include`, `exclude`, or blank. Saved actions are preserved by `job_id`; this stage still publishes nothing.
 
 ## Review reasons
 - `vonne-173270` — Project Lead — North East (hybrid): The broad North East location needs evidence that Newcastle residents are within the intended workplace area.
