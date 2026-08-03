@@ -1,0 +1,84 @@
+[
+  {
+    "city_key": "newcastle-service-administrator",
+    "display_name": "Newcastle",
+    "category_label": "service-administrator jobs",
+    "parent_page": "app/north-east/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md",
+    "minimum_live_jobs": 8,
+    "mode": "review_only",
+    "include_rules": [
+      {
+        "pattern": "newcastle",
+        "reason": "The stated workplace is Newcastle or explicitly includes Newcastle."
+      },
+      {
+        "pattern": "north tyneside",
+        "reason": "North Tyneside is within the normal Newcastle employment and commuting catchment."
+      },
+      {
+        "pattern": "shiremoor",
+        "reason": "Shiremoor is within the normal Newcastle catchment and directly connected by Metro."
+      },
+      {
+        "pattern": "wideopen",
+        "reason": "Wideopen is immediately north of Newcastle and within the normal Newcastle commuting catchment."
+      },
+      {
+        "pattern": "gateshead",
+        "reason": "Gateshead forms part of the continuous Newcastle urban employment area."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "tyne and wear",
+        "reason": "The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The role may be suitable for Newcastle residents, but city eligibility should be confirmed before inclusion."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The role may be suitable for Newcastle residents, but city eligibility should be confirmed before inclusion."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The broad regional location needs review unless Newcastle is explicitly named in the stated workplace."
+      },
+      {
+        "pattern": "north east",
+        "reason": "The broad North East location needs evidence that Newcastle residents are within the intended workplace area."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "Hybrid wording alone does not establish the physical workplace within the Newcastle catchment."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "bedlington",
+        "reason": "Bedlington is outside the agreed Newcastle city-page catchment."
+      },
+      {
+        "pattern": "durham",
+        "reason": "Durham belongs to a separate employment area from the Newcastle city page."
+      },
+      {
+        "pattern": "darlington",
+        "reason": "Darlington belongs to a separate employment area from the Newcastle city page."
+      },
+      {
+        "pattern": "sunderland",
+        "reason": "Sunderland belongs to a separate employment area from the Newcastle city page."
+      },
+      {
+        "pattern": "hartlepool",
+        "reason": "Hartlepool is outside the Newcastle city-page catchment."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No Newcastle catchment rule matched the stated location; local geographic review is required."
+  }
+]
