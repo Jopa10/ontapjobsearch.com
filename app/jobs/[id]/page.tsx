@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
 import MoreJobsNearby from "@/components/MoreJobsNearby";
+import { getActiveCityPageForJob } from "@/lib/city-page-data";
 import { cleanEmployerName, sourceLabel } from "@/lib/job-facts";
 import {
   getJobPath,
@@ -18,6 +19,11 @@ const siteUrl = "https://www.ontapjobsearch.com";
 
 type PageProps = {
   params: Promise<{ id: string }>;
+};
+
+type ListingLink = {
+  href: string;
+  label: string;
 };
 
 export const dynamicParams = false;
@@ -116,6 +122,39 @@ function moreJobsLabel(value: string) {
   return label.toLowerCase() === "browse" ? "View more jobs" : `View more ${label} jobs`;
 }
 
+function ListingLinks({
+  primary,
+  secondary,
+}: {
+  primary: ListingLink;
+  secondary?: ListingLink;
+}) {
+  const links = [primary, secondary].filter((link): link is ListingLink => Boolean(link));
+
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "10px 20px" }}>
+      {links.map((link, index) => (
+        <Link
+          key={link.href}
+          href={link.href}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 7,
+            color: index === 0 ? "#1d4ed8" : "#475569",
+            fontSize: index === 0 ? 16 : 14,
+            fontWeight: index === 0 ? 700 : 600,
+            textDecoration: "none",
+          }}
+        >
+          <span>{link.label}</span>
+          <span aria-hidden="true">→</span>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
   const job = getPublishedJob(id);
@@ -138,8 +177,27 @@ export default async function JobPage({ params }: PageProps) {
   const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
   const schema = jobPostingSchema(job, canonicalUrl);
   const applicationSource = isExternalSource(job.source) ? sourceLabel(job.source) : "";
-  const relatedJobs = getRelatedJobs(job, getPublishedJobs());
-  const allJobsLabel = moreJobsLabel(job.slice_label);
+  const publishedJobs = getPublishedJobs();
+  const cityPage = getActiveCityPageForJob(job.job_id);
+  const cityJobIds = new Set(
+    cityPage?.jobs.flatMap((cityJob) =>
+      typeof cityJob.job_id === "string" ? [cityJob.job_id] : []
+    ) ?? []
+  );
+  const relatedPool = cityPage
+    ? publishedJobs.filter((candidate) => cityJobIds.has(candidate.job_id))
+    : publishedJobs;
+  const relatedJobs = getRelatedJobs(job, relatedPool);
+  const regionalJobsLabel = moreJobsLabel(job.slice_label);
+  const cityJobsLabel = cityPage
+    ? moreJobsLabel(cityPage.definition.listingLabel)
+    : "";
+  const primaryListing: ListingLink = cityPage
+    ? { href: cityPage.definition.route, label: cityJobsLabel }
+    : { href: job.slice_path, label: regionalJobsLabel };
+  const secondaryListing: ListingLink | undefined = cityPage
+    ? { href: job.slice_path, label: regionalJobsLabel }
+    : undefined;
 
   return (
     <div className={styles.page}>
@@ -151,21 +209,7 @@ export default async function JobPage({ params }: PageProps) {
       ) : null}
 
       <nav aria-label="More job listings" style={{ marginBottom: 18 }}>
-        <Link
-          href={job.slice_path}
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 7,
-            color: "#1d4ed8",
-            fontSize: 16,
-            fontWeight: 700,
-            textDecoration: "none",
-          }}
-        >
-          <span>{allJobsLabel}</span>
-          <span aria-hidden="true">→</span>
-        </Link>
+        <ListingLinks primary={primaryListing} secondary={secondaryListing} />
       </nav>
 
       <div
@@ -246,21 +290,7 @@ export default async function JobPage({ params }: PageProps) {
           </div>
 
           <div style={{ marginTop: 20, paddingTop: 18, borderTop: "1px solid #e5e7eb" }}>
-            <Link
-              href={job.slice_path}
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 7,
-                color: "#1d4ed8",
-                fontSize: 16,
-                fontWeight: 700,
-                textDecoration: "none",
-              }}
-            >
-              <span>{allJobsLabel}</span>
-              <span aria-hidden="true">→</span>
-            </Link>
+            <ListingLinks primary={primaryListing} secondary={secondaryListing} />
           </div>
         </article>
 
@@ -268,8 +298,15 @@ export default async function JobPage({ params }: PageProps) {
           <aside className={styles.sidebar} aria-label="More jobs nearby">
             <MoreJobsNearby
               jobs={relatedJobs}
-              allJobsPath={job.slice_path}
-              allJobsLabel={allJobsLabel}
+              allJobsPath={primaryListing.href}
+              allJobsLabel={primaryListing.label}
+              intro={
+                cityPage
+                  ? `Other current roles on the ${cityPage.definition.listingLabel} page.`
+                  : undefined
+              }
+              secondaryAllJobsPath={secondaryListing?.href}
+              secondaryAllJobsLabel={secondaryListing?.label}
             />
           </aside>
         ) : null}
