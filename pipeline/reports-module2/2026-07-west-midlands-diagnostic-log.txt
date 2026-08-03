@@ -1,0 +1,7 @@
+Month: 2026-07
+Valid feed days: 31
+First feed day: 2026-07-01
+Last feed day: 2026-07-31
+Target daily rows: 1683
+Unique target jobs: 199
+Input errors: 0
