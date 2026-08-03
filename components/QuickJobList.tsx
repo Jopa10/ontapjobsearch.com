@@ -24,6 +24,19 @@ type QuickJobListProps = {
   jobs: QuickJob[];
 };
 
+function displayLocation(location: string) {
+  const value = location.trim();
+  if (/\bwideopen\b/i.test(value)) return "Wideopen";
+  if (/^south tyneside council$/i.test(value)) return "South Tyneside";
+  return value || "Location not stated";
+}
+
+function displayTitle(title: string) {
+  return title
+    .replace(/^[A-Z]{2,}\d+(?:\/\d+)?\s*-\s*/i, "")
+    .trim();
+}
+
 export default function QuickJobList({ jobs }: QuickJobListProps) {
   return (
     <div className={styles.shell}>
@@ -32,6 +45,8 @@ export default function QuickJobList({ jobs }: QuickJobListProps) {
         const employerLabel = employerFactLabel(job);
         const salary = formatSalary(job.salary_text) || "Salary not stated";
         const terms = [salary, job.employment_type].filter(Boolean).join(" · ");
+        const location = displayLocation(job.location);
+        const title = displayTitle(job.title);
         const attributes = (
           job.at_a_glance_attributes.length
             ? job.at_a_glance_attributes
@@ -43,13 +58,19 @@ export default function QuickJobList({ jobs }: QuickJobListProps) {
             key={job.job_id}
             href={getJobPath(job.job_id)}
             className={styles.row}
-            aria-label={`${job.location}: ${job.title}. View full job details`}
+            aria-label={`${location}: ${title}. View full job details`}
           >
             <span className={styles.topLine}>
-              <span className={styles.location}>{job.location || "Location not stated"}</span>
+              <span className={styles.location} title={job.location}>
+                {location}
+              </span>
               <span className={styles.dash} aria-hidden="true">—</span>
-              <span className={styles.title}>{job.title}</span>
-              <span className={styles.terms}>{terms}</span>
+              <span className={styles.title} title={job.title}>
+                {title}
+              </span>
+              <span className={styles.terms} title={terms}>
+                {terms}
+              </span>
               <span className={styles.arrow} aria-hidden="true">→</span>
             </span>
 
