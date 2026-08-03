@@ -116,3 +116,72 @@ position, not a legal guarantee or a substitute for permission.
 
 The screening rules are provisional and do not amend Ontap's permanent
 selection rules.
+
+## VONNE
+
+`vonne_poc.py` is a separate, bounded review-only proof of concept. It reuses
+the established NEJobs geography and review conventions where appropriate, but
+has its own VONNE listing/detail parsers and makes no assumption that the two
+source sites behave alike.
+
+It:
+
+1. reads the public VONNE Job Finder listing page;
+2. extracts the stable `cid`, title, employer, salary, location, closing date
+   and source URL from each listing;
+3. fetches detail pages for plausible office/service candidates and retains
+   only factual fields such as contract type, role type, hours, based location
+   and VONNE role-description label;
+4. excludes explicit Tees Valley roles using Ontap's existing North East rules;
+5. retains explicit target-geography roles and forces generic `Hybrid`,
+   `Home-based` or `Regionwide` roles to `POSS` for manual geography review;
+6. compares retained vacancies with both the current JobG8 workbook and the
+   currently approved NEJobs JSON;
+7. flags same-source factual duplicates rather than silently discarding them;
+8. classifies retained vacancies as `HC`, `POSS` or `HARD_PASS`; and
+9. writes only CSV and Markdown review outputs.
+
+There is deliberately no VONNE approved-JSON option, composition step, live
+page path or publishing workflow in this first implementation.
+
+### Run the review
+
+Run the **Run VONNE review** workflow. It is manually dispatched and updates
+only:
+
+- `pipeline/reviews/external/vonne-review.csv`
+- `pipeline/reviews/external/vonne-summary.md`
+
+The equivalent local command, run from `pipeline/`, is:
+
+```bash
+python -m external_sources.vonne_poc \
+  --fetch-live \
+  --acknowledge-source-terms
+```
+
+A reproducible snapshot run can use:
+
+```bash
+python -m external_sources.vonne_poc \
+  --listing-file /path/to/vonne-listing.html \
+  --details-dir /path/to/detail-snapshots
+```
+
+Detail snapshots are named `<cid>.html`, `.txt`, or `.md`. Raw pages are not
+committed. The standardised vacancy and reports do not contain the full source
+description.
+
+The Markdown report supports same-day `action: select` and `action: exclude`
+edits for review continuity, but those actions cannot publish anything.
+
+Source identity remains explicit in every review row through:
+
+- `source: VONNE`
+- stable `tracking_key: vonne-<cid>`
+- the original VONNE source URL
+
+A Monday/Thursday operating routine would align cleanly with NEJobs and
+LinkedIn, but this POC intentionally creates no schedule. Frequency should be
+agreed only after the first live review demonstrates that parsing, geography,
+deduplication and closing-date quality are reliable.

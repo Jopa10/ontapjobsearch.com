@@ -1,0 +1,65 @@
+name: Test VONNE proof of concept
+
+# Final exact-branch validation, including a non-publishing live review preview.
+on:
+  pull_request:
+    paths:
+      - "pipeline/external_sources/vonne_poc.py"
+      - "pipeline/tests/test_vonne_poc.py"
+      - ".github/workflows/test-vonne-poc.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-vonne-poc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out proposed changes
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Compile VONNE module
+        working-directory: pipeline
+        run: python -m py_compile external_sources/vonne_poc.py
+
+      - name: Run VONNE tests
+        working-directory: pipeline
+        run: python -m pytest tests/test_vonne_poc.py -q
+
+      - name: Run live review-only smoke test
+        working-directory: pipeline
+        run: |
+          python -m external_sources.vonne_poc \
+            --fetch-live \
+            --acknowledge-source-terms \
+            --report-csv /tmp/vonne-review.csv \
+            --summary-md /tmp/vonne-summary.md
+
+      - name: Verify live-site isolation
+        run: |
+          test -s /tmp/vonne-review.csv
+          test -s /tmp/vonne-summary.md
+          git diff --exit-code -- \
+            pipeline/output-external \
+            pipeline/output-admin-service \
+            app
+
+      - name: Upload review preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: vonne-review-preview
+          path: |
+            /tmp/vonne-review.csv
+            /tmp/vonne-summary.md
+          if-no-files-found: error
+          retention-days: 7
