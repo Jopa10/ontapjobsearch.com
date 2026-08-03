@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Derive review-only city candidates from final published regional pages."""
+"""Derive, review and optionally publish city pages from final regional pages."""
 
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
 VALID_DECISIONS = {"include", "review", "exclude"}
 VALID_MANUAL_CHOICES = {"include", "exclude"}
 VALID_MARKDOWN_ACTIONS = {"select", "exclude"}
+VALID_MODES = {"review_only", "publish"}
 DECISION_ORDER = {"include": 0, "review": 1, "exclude": 2}
 
 
@@ -35,6 +36,8 @@ class CityConfig:
     parent_page: Path
     review_csv: Path
     summary_md: Path
+    output_json: Path | None
+    route: str
     minimum_live_jobs: int
     mode: str
     include_rules: tuple[Rule, ...]
@@ -95,6 +98,7 @@ def parse_config(raw: dict[str, Any]) -> CityConfig:
         "parent_page",
         "review_csv",
         "summary_md",
+        "route",
         "mode",
         "fallback_decision",
         "fallback_reason",
@@ -106,10 +110,21 @@ def parse_config(raw: dict[str, Any]) -> CityConfig:
     minimum = raw.get("minimum_live_jobs")
     if not isinstance(minimum, int) or minimum < 1:
         raise ValueError("minimum_live_jobs must be a positive integer")
-    if raw["mode"] != "review_only":
-        raise ValueError("only review_only city configs are supported")
+
+    mode = raw["mode"].strip()
+    if mode not in VALID_MODES:
+        raise ValueError("mode must be review_only or publish")
     if raw["fallback_decision"] not in VALID_DECISIONS:
         raise ValueError("fallback_decision must be include, review, or exclude")
+
+    output_value = raw.get("output_json")
+    output_json = Path(output_value) if usable_text(output_value) else None
+    if mode == "publish" and output_json is None:
+        raise ValueError("publish city config needs usable output_json")
+
+    route = raw["route"].strip()
+    if not route.startswith("/") or route.endswith("/"):
+        raise ValueError("route must start with / and have no trailing slash")
 
     return CityConfig(
         city_key=raw["city_key"].strip(),
@@ -118,8 +133,10 @@ def parse_config(raw: dict[str, Any]) -> CityConfig:
         parent_page=Path(raw["parent_page"]),
         review_csv=Path(raw["review_csv"]),
         summary_md=Path(raw["summary_md"]),
+        output_json=output_json,
+        route=route,
         minimum_live_jobs=minimum,
-        mode=raw["mode"],
+        mode=mode,
         include_rules=parse_rules(raw.get("include_rules", []), "include_rules"),
         review_rules=parse_rules(raw.get("review_rules", []), "review_rules"),
         exclude_rules=parse_rules(raw.get("exclude_rules", []), "exclude_rules"),
@@ -136,8 +153,14 @@ def load_register(path: Path) -> tuple[CityConfig, ...]:
 
     configs = tuple(parse_config(item) for item in raw)
     keys = [config.city_key for config in configs]
+    routes = [config.route for config in configs]
+    outputs = [str(config.output_json) for config in configs if config.output_json]
     if len(keys) != len(set(keys)):
         raise ValueError("city_key values must be unique")
+    if len(routes) != len(set(routes)):
+        raise ValueError("city routes must be unique")
+    if len(outputs) != len(set(outputs)):
+        raise ValueError("city output_json values must be unique")
     return configs
 
 
@@ -196,7 +219,7 @@ def classify_job(job: dict[str, Any], config: CityConfig) -> tuple[str, str, str
 
 
 def review_job_id(job: dict[str, Any]) -> str:
-    """Return a source-identifiable ID for the review sheet only."""
+    """Return a source-identifiable ID for review files only."""
     job_id = str(job.get("job_id", "")).strip()
     source = normalise(job.get("source", "JobG8"))
     if source == "jobg8" and not job_id.casefold().startswith("jobg8-"):
@@ -205,7 +228,7 @@ def review_job_id(job: dict[str, Any]) -> str:
 
 
 def load_review_decisions(path: Path) -> dict[str, str]:
-    """Load only genuine manual overrides from the previous CSV review sheet."""
+    """Load genuine manual overrides from the previous CSV review sheet."""
     if not path.is_file():
         return {}
 
@@ -221,7 +244,6 @@ def load_review_decisions(path: Path) -> dict[str, str]:
             previous_automatic = (
                 row.get("automatic_decision") or ""
             ).strip().casefold()
-
             if (
                 job_id
                 and decision in VALID_MANUAL_CHOICES
@@ -232,7 +254,7 @@ def load_review_decisions(path: Path) -> dict[str, str]:
 
 
 def load_markdown_actions(path: Path) -> dict[str, str]:
-    """Load `action: select|exclude` overrides from full Markdown job blocks."""
+    """Load `action: select|exclude` overrides from Markdown job blocks."""
     if not path.is_file():
         return {}
 
@@ -263,7 +285,6 @@ def merge_review_overrides(
     csv_overrides: dict[str, str],
     markdown_overrides: dict[str, str],
 ) -> dict[str, str]:
-    """Combine both editable review formats and reject conflicting choices."""
     conflicts = {
         job_id
         for job_id in csv_overrides.keys() & markdown_overrides.keys()
@@ -361,7 +382,8 @@ def markdown_review_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
         f"# {config.display_name} {config.category_label} city-page review",
         "",
         f"- Parent regional page: `{config.parent_page}`",
-        f"- Mode: `{config.mode}` (no live city JSON is written)",
+        f"- Live route: `{config.route}`",
+        f"- Mode: `{config.mode}`",
         f"- Minimum live-job threshold: {config.minimum_live_jobs}",
         f"- Effective included jobs: {effective['include']}",
         f"- Threshold currently met: {'yes' if threshold_met else 'no'}",
@@ -369,10 +391,9 @@ def markdown_review_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
         "## How to review",
         "Edit only the `action:` line inside a job block.",
         "Use `action: exclude` to remove a current include, or `action: select` to include a review/exclude job.",
-        "Leave `action:` blank to accept the automatic decision.",
+        "Leave `action:` blank to accept the automatic decision. A blank review remains omitted from the live page.",
         "Jobs are grouped include first, review second and exclude last, then alphabetically by title.",
         "JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.",
-        "This stage still publishes nothing.",
         "",
         "## Counts",
         f"- automatic include: {automatic['include']}",
@@ -415,8 +436,57 @@ def markdown_review_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
 summary_text = markdown_review_text
 
 
+def selected_live_jobs(
+    jobs: list[dict[str, Any]], rows: list[dict[str, str]]
+) -> list[dict[str, Any]]:
+    decisions = {row["job_id"]: row["effective_decision"] for row in rows}
+    selected = [
+        dict(job)
+        for job in jobs
+        if decisions.get(review_job_id(job)) == "include"
+    ]
+    return sorted(
+        selected,
+        key=lambda job: (
+            normalise(job.get("location")),
+            normalise(job.get("title")),
+            normalise(job.get("company")),
+            str(job.get("job_id", "")),
+        ),
+    )
+
+
+def live_json_text(jobs: list[dict[str, Any]]) -> str:
+    return json.dumps(jobs, ensure_ascii=False, indent=2) + "\n"
+
+
+def publish_live_output(
+    config: CityConfig,
+    root: Path,
+    jobs: list[dict[str, Any]],
+    rows: list[dict[str, str]],
+) -> str:
+    if config.mode != "publish":
+        return "review-only"
+    if config.output_json is None:
+        raise ValueError(f"{config.city_key} has no output_json")
+
+    output_path = root / config.output_json
+    selected = selected_live_jobs(jobs, rows)
+    if len(selected) < config.minimum_live_jobs:
+        if output_path.exists():
+            output_path.unlink()
+        return "withheld-below-threshold"
+
+    atomic_write(output_path, live_json_text(selected))
+    return "published"
+
+
 def process_config(
-    config: CityConfig, root: Path, write_review: bool
+    config: CityConfig,
+    root: Path,
+    write_review: bool,
+    write_live: bool = False,
 ) -> dict[str, Any]:
     review_path = root / config.review_csv
     markdown_path = root / config.summary_md
@@ -426,15 +496,21 @@ def process_config(
         load_markdown_actions(markdown_path),
     )
     rows = derive_rows(jobs, config, overrides)
+
     if write_review:
         atomic_write(review_path, csv_text(rows))
         atomic_write(markdown_path, markdown_review_text(config, rows))
+
+    live_status = "not-requested"
+    if write_live:
+        live_status = publish_live_output(config, root, jobs, rows)
 
     include_count = sum(
         row["effective_decision"] == "include" for row in rows
     )
     return {
         "city_key": config.city_key,
+        "route": config.route,
         "parent_count": len(jobs),
         "include_count": include_count,
         "review_count": sum(
@@ -445,7 +521,7 @@ def process_config(
         ),
         "threshold": config.minimum_live_jobs,
         "threshold_met": include_count >= config.minimum_live_jobs,
-        "status": "written" if write_review else "dry-run",
+        "live_status": live_status,
     }
 
 
@@ -453,20 +529,20 @@ def report_text(results: list[dict[str, Any]]) -> str:
     lines = [
         "# City-page derivation report",
         "",
-        "| City | Parent jobs | Include | Review | Exclude | Threshold | Met | Status |",
-        "| --- | ---: | ---: | ---: | ---: | ---: | --- | --- |",
+        "| City | Route | Parent | Include | Review | Exclude | Threshold | Met | Live status |",
+        "| --- | --- | ---: | ---: | ---: | ---: | ---: | --- | --- |",
     ]
     for row in results:
         lines.append(
-            f"| {row['city_key']} | {row['parent_count']} | "
+            f"| {row['city_key']} | {row['route']} | {row['parent_count']} | "
             f"{row['include_count']} | {row['review_count']} | "
             f"{row['exclude_count']} | {row['threshold']} | "
-            f"{'yes' if row['threshold_met'] else 'no'} | {row['status']} |"
+            f"{'yes' if row['threshold_met'] else 'no'} | {row['live_status']} |"
         )
     lines.extend(
         [
             "",
-            "This stage is review-only. It does not create, replace, or remove any live city page.",
+            "Only effective include jobs are published. Review and exclude jobs are omitted.",
         ]
     )
     return "\n".join(lines) + "\n"
@@ -479,6 +555,7 @@ def main() -> int:
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true")
     mode.add_argument("--write-review", action="store_true")
+    mode.add_argument("--publish", action="store_true")
     args = parser.parse_args()
 
     register_path = (
@@ -497,7 +574,12 @@ def main() -> int:
             parser.error(f"unknown city_key: {', '.join(sorted(missing))}")
 
     results = [
-        process_config(config, REPO_ROOT, args.write_review)
+        process_config(
+            config,
+            REPO_ROOT,
+            write_review=args.write_review or args.publish,
+            write_live=args.publish,
+        )
         for config in configs
     ]
     print(report_text(results), end="")
