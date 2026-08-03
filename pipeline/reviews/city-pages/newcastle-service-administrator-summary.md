@@ -147,7 +147,7 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ## REVIEW (3)
 
 ---
-action: 
+action: select
 decision: review
 automatic_decision: review
 title: Business Support Officer, 32hpw
@@ -159,7 +159,7 @@ reason: No Newcastle catchment rule matched the stated location; local geographi
 ---
 
 ---
-action: 
+action: select
 decision: review
 automatic_decision: review
 title: Project Lead
@@ -171,7 +171,7 @@ reason: The broad North East location needs evidence that Newcastle residents ar
 ---
 
 ---
-action: 
+action: exclude
 decision: review
 automatic_decision: review
 title: VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
