@@ -17,6 +17,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
 VALID_DECISIONS = {"include", "review", "exclude"}
 VALID_MANUAL_CHOICES = {"include", "exclude"}
+DECISION_ORDER = {"include": 0, "review": 1, "exclude": 2}
 
 
 @dataclass(frozen=True)
@@ -265,7 +266,15 @@ def derive_rows(
                 "city_key": config.city_key,
             }
         )
-    return rows
+    return sorted(
+        rows,
+        key=lambda row: (
+            DECISION_ORDER.get(row["effective_decision"], 99),
+            normalise(row["title"]),
+            normalise(row["company"]),
+            row["job_id"],
+        ),
+    )
 
 
 FIELDNAMES = (
@@ -311,6 +320,7 @@ def summary_text(config: CityConfig, rows: list[dict[str, str]]) -> str:
         "## How to review",
         "The first left-hand CSV column is `decision` and is pre-filled with the current include, review or exclude result.",
         "Change it to `include` or `exclude` where required. Unchanged automatic decisions are refreshed normally; genuine overrides are preserved by `job_id`.",
+        "Rows are sorted include first, review second and exclude last, then alphabetically by title within each group.",
         "JobG8 identifiers are prefixed `jobg8-` in this review sheet only; live job IDs are unchanged.",
         "This stage still publishes nothing.",
         "",
