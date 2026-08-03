@@ -60,12 +60,13 @@ jobs:
 
       - name: Commit validated fix
         run: |
-          cp /tmp/run-compiler-module-2.yml .github/workflows/run-compiler-module-2.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add pipeline/scripts/jobg8_module_2_monthly_category_profiler.py \
                   tests/test_module2_location_fallback.py
           git commit -m "Align Module 2 geography with live pipeline"
+          git restore --source=HEAD --staged --worktree .github/workflows/run-compiler-module-2.yml
+          test -z "$(git status --porcelain)" || { git status --short; exit 1; }
           git fetch origin agent/module2-location-fallback
           git rebase origin/agent/module2-location-fallback
           git push origin HEAD:agent/module2-location-fallback
