@@ -18,16 +18,27 @@ export type CityPageJob = {
 export type CityPageDefinition = {
   key: string;
   route: string;
+  listingLabel: string;
   jsonPath: readonly string[];
   minimumJobs: number;
+};
+
+export type ActiveCityPage = {
+  definition: CityPageDefinition;
+  jobs: CityPageJob[];
 };
 
 export const newcastleServiceAdministratorPage: CityPageDefinition = {
   key: "newcastle-service-administrator",
   route: "/newcastle/service-administrator-jobs",
+  listingLabel: "Newcastle Admin & Customer Service jobs",
   jsonPath: ["app", "_city-pages", "newcastle", "service-administrator-jobs.json"],
   minimumJobs: 8,
 };
+
+export const cityPageDefinitions: readonly CityPageDefinition[] = [
+  newcastleServiceAdministratorPage,
+];
 
 function usableJob(value: unknown): value is CityPageJob {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
@@ -53,6 +64,25 @@ export function getCityPageJobs(
   } catch {
     return [];
   }
+}
+
+export function cityPageContainsJob(
+  definition: CityPageDefinition,
+  jobs: CityPageJob[],
+  jobId: string
+): boolean {
+  if (jobs.length < definition.minimumJobs) return false;
+  return jobs.some((job) => job.job_id === jobId);
+}
+
+export function getActiveCityPageForJob(jobId: string): ActiveCityPage | null {
+  for (const definition of cityPageDefinitions) {
+    const jobs = getCityPageJobs(definition);
+    if (cityPageContainsJob(definition, jobs, jobId)) {
+      return { definition, jobs };
+    }
+  }
+  return null;
 }
 
 export function isCityPageActive(

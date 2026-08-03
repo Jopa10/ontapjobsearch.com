@@ -113,6 +113,18 @@
   outline-offset: -3px;
 }
 
+.secondaryAllJobsLink {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.secondaryAllJobsLink:hover {
+  background: #f1f5f9;
+  color: #1d4ed8;
+}
+
 @media (max-width: 900px) {
   .title {
     white-space: normal;
