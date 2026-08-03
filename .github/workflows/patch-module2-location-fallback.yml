@@ -1,0 +1,326 @@
+name: Patch Module 2 Location Fallback
+
+on:
+  push:
+    branches:
+      - agent/module2-location-fallback
+    paths:
+      - .github/workflows/patch-module2-location-fallback.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/module2-location-fallback
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Patch Module 2 and workflow validation
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          module = Path('pipeline/scripts/jobg8_module_2_monthly_category_profiler.py')
+          text = module.read_text(encoding='utf-8')
+
+          text = text.replace(
+              '- geo_lookup.xlsx with columns: Area, Cluster.\n',
+              '- geo_lookup.xlsx with Area/Cluster plus the controlled LocationFallback sheet.\n',
+          )
+
+          text = text.replace(
+              'COL_LOCATION = "/Job/Location"\n',
+              'COL_LOCATION = "/Job/Location"\nAREA_UNUSABLE_VALUES = {"", "not specified", "unknown"}\n',
+          )
+
+          old_geo = '''def load_geo_lookup(path: Path) -> Dict[str, str]:
+    df = pd.read_excel(path, dtype=str).fillna("")
+    required = {"Area", "Cluster"}
+    missing = required.difference(df.columns)
+    if missing:
+        raise ValueError(f"Geo lookup missing columns: {sorted(missing)}")
+
+    lookup: Dict[str, str] = {}
+    for _, row in df.iterrows():
+        area = norm_key(row["Area"])
+        cluster = norm_text(row["Cluster"])
+        if area and cluster:
+            lookup[area] = cluster
+
+    if not lookup:
+        raise ValueError("Geo lookup contains no usable Area → Cluster mappings.")
+    return lookup
+'''
+          new_geo = '''def load_geo_lookups(path: Path) -> tuple[Dict[str, str], Dict[str, str]]:
+    area_df = pd.read_excel(path, dtype=str).fillna("")
+    required = {"Area", "Cluster"}
+    missing = required.difference(area_df.columns)
+    if missing:
+        raise ValueError(f"Geo lookup missing columns: {sorted(missing)}")
+
+    area_lookup: Dict[str, str] = {}
+    for _, row in area_df.iterrows():
+        area = norm_key(row["Area"])
+        cluster = norm_text(row["Cluster"])
+        if area and cluster:
+            area_lookup[area] = cluster
+
+    if not area_lookup:
+        raise ValueError("Geo lookup contains no usable Area → Cluster mappings.")
+
+    try:
+        fallback_df = pd.read_excel(
+            path,
+            sheet_name="LocationFallback",
+            dtype=str,
+        ).fillna("")
+    except ValueError as exc:
+        raise ValueError(
+            "Geo lookup is missing the required LocationFallback sheet."
+        ) from exc
+
+    fallback_required = {"Status", "Location", "Cluster"}
+    fallback_missing = fallback_required.difference(fallback_df.columns)
+    if fallback_missing:
+        raise ValueError(
+            "LocationFallback missing columns: " + str(sorted(fallback_missing))
+        )
+
+    location_fallback_lookup: Dict[str, str] = {}
+    for _, row in fallback_df.iterrows():
+        if norm_key(row["Status"]) != "auto":
+            continue
+        location = norm_key(row["Location"])
+        cluster = norm_text(row["Cluster"])
+        if location and cluster:
+            location_fallback_lookup[location] = cluster
+
+    return area_lookup, location_fallback_lookup
+
+
+def area_is_unusable(area: object) -> bool:
+    return norm_key(area) in AREA_UNUSABLE_VALUES
+'''
+          if old_geo not in text:
+              raise SystemExit('Expected load_geo_lookup block not found')
+          text = text.replace(old_geo, new_geo)
+
+          text = text.replace(
+              '''def load_daily_feeds(
+    input_dir: Path,
+    geo_lookup: Dict[str, str],
+    registers: Dict[str, Dict[str, str]],
+) -> tuple[pd.DataFrame, List[str], List[str]]:
+''',
+              '''def load_daily_feeds(
+    input_dir: Path,
+    geo_lookup: Dict[str, str],
+    location_fallback_lookup: Dict[str, str],
+    registers: Dict[str, Dict[str, str]],
+) -> tuple[pd.DataFrame, List[str], List[str]]:
+''',
+          )
+
+          text = text.replace(
+              '    required_cols = {COL_TITLE, COL_COMPANY, COL_AREA}\n',
+              '    required_cols = {COL_TITLE, COL_COMPANY, COL_AREA, COL_LOCATION}\n',
+          )
+
+          old_mapping = '''            area_key = norm_key(area)
+            region = geo_lookup.get(area_key, "Other / Unknown")
+            if region == "Other / Unknown":
+                unknown_reason = (
+                    "blank_or_missing_area"
+                    if not area_key
+                    else "area_not_found_in_geo_lookup"
+                )
+            else:
+                unknown_reason = ""
+'''
+          new_mapping = '''            area_key = norm_key(area)
+            location_key = norm_key(raw_location)
+            if area_is_unusable(area):
+                region = location_fallback_lookup.get(
+                    location_key,
+                    "Other / Unknown",
+                )
+                report_location = raw_location
+                geo_source = "location_fallback" if region != "Other / Unknown" else "unknown"
+                if region == "Other / Unknown":
+                    unknown_reason = (
+                        "area_unusable_and_blank_location"
+                        if not location_key
+                        else "area_unusable_and_location_not_auto_fallback"
+                    )
+                else:
+                    unknown_reason = ""
+            else:
+                region = geo_lookup.get(area_key, "Other / Unknown")
+                report_location = area
+                geo_source = "area" if region != "Other / Unknown" else "unknown"
+                unknown_reason = (
+                    "area_not_found_in_geo_lookup"
+                    if region == "Other / Unknown"
+                    else ""
+                )
+'''
+          if old_mapping not in text:
+              raise SystemExit('Expected area-only mapping block not found')
+          text = text.replace(old_mapping, new_mapping)
+
+          text = text.replace(
+              '''                    "location": area,
+                    "raw_location": raw_location,
+                    "lookup_region": region,
+                    "unknown_reason": unknown_reason,
+''',
+              '''                    "location": report_location,
+                    "raw_area": area,
+                    "raw_location": raw_location,
+                    "lookup_region": region,
+                    "geo_source": geo_source,
+                    "unknown_reason": unknown_reason,
+''',
+          )
+
+          text = text.replace(
+              '    geo_lookup = load_geo_lookup(geo_lookup_path)\n',
+              '    geo_lookup, location_fallback_lookup = load_geo_lookups(geo_lookup_path)\n',
+          )
+          text = text.replace(
+              '''        input_dir=input_dir,
+        geo_lookup=geo_lookup,
+        registers=registers,
+''',
+              '''        input_dir=input_dir,
+        geo_lookup=geo_lookup,
+        location_fallback_lookup=location_fallback_lookup,
+        registers=registers,
+''',
+          )
+
+          old_unknown = '''            "location",
+            "raw_location",
+            "category",
+            "source_file",
+            "unknown_reason",
+        ],
+    ].copy()
+    unknown_detail = unknown_detail.rename(columns={"location": "raw_area"})
+'''
+          new_unknown = '''            "raw_area",
+            "raw_location",
+            "geo_source",
+            "category",
+            "source_file",
+            "unknown_reason",
+        ],
+    ].copy()
+'''
+          if old_unknown not in text:
+              raise SystemExit('Expected unknown-detail block not found')
+          text = text.replace(old_unknown, new_unknown)
+
+          text = text.replace(
+              '        f"Geo areas loaded: {len(geo_lookup)}",\n',
+              '        f"Geo areas loaded: {len(geo_lookup)}",\n        f"AUTO location fallbacks loaded: {len(location_fallback_lookup)}",\n        f"Rows assigned by location fallback: {int(expanded[\'geo_source\'].eq(\'location_fallback\').sum())}",\n',
+          )
+
+          module.write_text(text, encoding='utf-8')
+
+          workflow = Path('.github/workflows/run-compiler-module-2.yml')
+          wf = workflow.read_text(encoding='utf-8')
+          old_validation = '''          geo_df = pd.read_excel(geo_lookup_path)
+          missing_geo_columns = sorted(required_geo_columns - set(geo_df.columns))
+          if missing_geo_columns:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} is missing required column(s): "
+                  + ", ".join(missing_geo_columns)
+              )
+
+          usable_geo_rows = geo_df[["Area", "Cluster"]].dropna(how="any")
+'''
+          new_validation = '''          geo_df = pd.read_excel(geo_lookup_path)
+          missing_geo_columns = sorted(required_geo_columns - set(geo_df.columns))
+          if missing_geo_columns:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} is missing required column(s): "
+                  + ", ".join(missing_geo_columns)
+              )
+
+          try:
+              fallback_df = pd.read_excel(
+                  geo_lookup_path,
+                  sheet_name="LocationFallback",
+                  dtype=str,
+              ).fillna("")
+          except ValueError as exc:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} is missing the LocationFallback sheet"
+              ) from exc
+          required_fallback_columns = {"Status", "Location", "Cluster"}
+          missing_fallback_columns = sorted(
+              required_fallback_columns - set(fallback_df.columns)
+          )
+          if missing_fallback_columns:
+              raise SystemExit(
+                  f"::error::{geo_lookup_path} LocationFallback is missing required column(s): "
+                  + ", ".join(missing_fallback_columns)
+              )
+
+          usable_geo_rows = geo_df[["Area", "Cluster"]].dropna(how="any")
+'''
+          if old_validation not in wf:
+              raise SystemExit('Expected workflow geo validation block not found')
+          wf = wf.replace(old_validation, new_validation)
+          workflow.write_text(wf, encoding='utf-8')
+
+          test_path = Path('tests/test_module2_location_fallback.py')
+          test_path.write_text('''from pathlib import Path\n\nimport pandas as pd\n\nfrom pipeline.scripts.jobg8_module_2_monthly_category_profiler import (\n    load_daily_feeds,\n    load_geo_lookups,\n)\n\n\ndef test_location_fallback_is_auto_only(tmp_path: Path) -> None:\n    geo_path = tmp_path / "geo.xlsx"\n    with pd.ExcelWriter(geo_path) as writer:\n        pd.DataFrame([{"Area": "Solihull", "Cluster": "Birmingham"}]).to_excel(\n            writer, index=False\n        )\n        pd.DataFrame([\n            {"Status": "AUTO", "Location": "Birmingham", "Cluster": "Birmingham"},\n            {"Status": "REVIEW", "Location": "Coventry", "Cluster": "Coventry"},\n        ]).to_excel(writer, sheet_name="LocationFallback", index=False)\n\n    area_lookup, fallback_lookup = load_geo_lookups(geo_path)\n    assert area_lookup == {"solihull": "Birmingham"}\n    assert fallback_lookup == {"birmingham": "Birmingham"}\n\n\ndef test_daily_feed_uses_area_then_controlled_location_fallback(tmp_path: Path) -> None:\n    input_dir = tmp_path / "feeds"\n    input_dir.mkdir()\n    pd.DataFrame([\n        {\n            "/Job/DisplayReference": "1",\n            "/Job/Position": "Administrator",\n            "/Job/AdvertiserName": "A",\n            "/Job/Area": "Solihull",\n            "/Job/Location": "Wrong fallback",\n        },\n        {\n            "/Job/DisplayReference": "2",\n            "/Job/Position": "Administrator",\n            "/Job/AdvertiserName": "B",\n            "/Job/Area": "Not Specified",\n            "/Job/Location": "Birmingham",\n        },\n        {\n            "/Job/DisplayReference": "3",\n            "/Job/Position": "Administrator",\n            "/Job/AdvertiserName": "C",\n            "/Job/Area": "Not Specified",\n            "/Job/Location": "Coventry",\n        },\n    ]).to_excel(input_dir / "jobg8-2026-07-01.xlsx", index=False)\n\n    expanded, dates, errors = load_daily_feeds(\n        input_dir=input_dir,\n        geo_lookup={"solihull": "Birmingham cluster"},\n        location_fallback_lookup={"birmingham": "Birmingham cluster"},\n        registers={"admin_service": {"administrator": "HIGH_CONFIDENCE"}},\n    )\n\n    assert dates == ["2026-07-01"]\n    assert errors == []\n    rows = expanded.set_index("job_id")\n    assert rows.loc["1", "lookup_region"] == "Birmingham cluster"\n    assert rows.loc["1", "geo_source"] == "area"\n    assert rows.loc["1", "location"] == "Solihull"\n    assert rows.loc["2", "lookup_region"] == "Birmingham cluster"\n    assert rows.loc["2", "geo_source"] == "location_fallback"\n    assert rows.loc["2", "location"] == "Birmingham"\n    assert rows.loc["3", "lookup_region"] == "Other / Unknown"\n    assert rows.loc["3", "unknown_reason"] == "area_unusable_and_location_not_auto_fallback"\n''', encoding='utf-8')
+          PY
+
+      - name: Validate code and tests
+        run: |
+          python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
+          pytest -q tests/test_module2_location_fallback.py
+
+      - name: Run July Module 2 validation
+        working-directory: pipeline
+        run: |
+          python -m scripts.jobg8_module_2_live_slices \
+            --month 2026-07 \
+            --input-dir input-jobg8-archive/2026-07 \
+            --output-dir /tmp/module2-location-fallback \
+            --geo-lookup geo/geo_lookup.xlsx \
+            --registers-dir registers
+          python - <<'PY'
+          import pandas as pd
+          summary = pd.read_csv('/tmp/module2-location-fallback/2026-07-module2-category-validation.csv')
+          rows = summary[(summary['region'] == 'West Midlands - Birmingham & Solihull') & (summary['category'] == 'admin_service')]
+          print(rows.to_string(index=False))
+          log = open('/tmp/module2-location-fallback/2026-07-module2-run-log.txt', encoding='utf-8').read()
+          print(log)
+          PY
+
+      - name: Commit fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/scripts/jobg8_module_2_monthly_category_profiler.py \
+                  .github/workflows/run-compiler-module-2.yml \
+                  tests/test_module2_location_fallback.py
+          git commit -m "Align Module 2 geography with live pipeline"
+          git push
