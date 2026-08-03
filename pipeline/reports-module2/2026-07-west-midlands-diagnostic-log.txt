@@ -1,7 +1,8 @@
 Month: 2026-07
 Valid feed days: 31
-First feed day: 2026-07-01
-Last feed day: 2026-07-31
 Target daily rows: 1683
 Unique target jobs: 199
+Birmingham-match daily rows: 1546
+Unique Birmingham-match jobs: 160
+Birmingham mapped regions: London; Other / Unknown; unknown
 Input errors: 0
