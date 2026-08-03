@@ -44,7 +44,7 @@ Approved NEJobs comparison rows: 13
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: select
 POSS | North East | Hybrid | £30,000 Per Annum | Project Lead
 employer: People's Powerhouse
 closing_date: 16 August 2026
@@ -57,7 +57,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173270
 ---
 
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Regionwide | £113 Per Day | Accreditation and Outreach Officer
 employer: The Young Women's Film Academy
 closing_date: Friday, August 21, 2026 - 17:00
@@ -70,7 +70,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173252
 ---
 
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | Family Learning Coordinator (9 Months Fixed Term)
 employer: Children North East
 closing_date: Tuesday, August 11, 2026 - 12:00
@@ -83,7 +83,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173262
 ---
 
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | School Family Coordinator
 employer: Children North East
 closing_date: Tuesday, August 11, 2026 - 12:00
@@ -96,7 +96,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173267
 ---
 
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
 employer: VONNE
 closing_date: Sunday, August 23, 2026 - 00:00
