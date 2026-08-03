@@ -7,17 +7,23 @@ type MoreJobsNearbyProps = {
   jobs: PublishedJob[];
   allJobsPath: string;
   allJobsLabel: string;
+  intro?: string;
+  secondaryAllJobsPath?: string;
+  secondaryAllJobsLabel?: string;
 };
 
 export default function MoreJobsNearby({
   jobs,
   allJobsPath,
   allJobsLabel,
+  intro = "Other current roles in this area and category.",
+  secondaryAllJobsPath,
+  secondaryAllJobsLabel,
 }: MoreJobsNearbyProps) {
   return (
     <section className={styles.panel}>
       <h2 className={styles.heading}>More jobs nearby</h2>
-      <p className={styles.intro}>Other current roles in this area and category.</p>
+      <p className={styles.intro}>{intro}</p>
 
       <ul className={styles.list}>
         {jobs.map((job) => {
@@ -52,6 +58,16 @@ export default function MoreJobsNearby({
         <span>{allJobsLabel}</span>
         <span aria-hidden="true">→</span>
       </Link>
+
+      {secondaryAllJobsPath && secondaryAllJobsLabel ? (
+        <Link
+          href={secondaryAllJobsPath}
+          className={`${styles.allJobsLink} ${styles.secondaryAllJobsLink}`}
+        >
+          <span>{secondaryAllJobsLabel}</span>
+          <span aria-hidden="true">→</span>
+        </Link>
+      ) : null}
     </section>
   );
 }
