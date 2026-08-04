@@ -22,7 +22,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Mail handling"
+    ]
   },
   {
     "job_id": "71c14263-f694-438a-8eb2-9fc40e26b6d2",
@@ -47,7 +54,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Systems administration",
+      "Customer portals",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "8ce5f464-05a9-43e0-8f2f-af12d6230bfd",
@@ -72,7 +86,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "cdc8a0d6-75db-4ccc-9814-96012a552c48",
@@ -97,7 +118,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Correspondence"
+    ]
   },
   {
     "job_id": "e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1",
@@ -122,7 +147,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1629916",
