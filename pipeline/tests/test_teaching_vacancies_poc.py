@@ -1,6 +1,13 @@
 import csv
 from pathlib import Path
 
+import pytest
+
+from external_sources.teaching_vacancies_etl import (
+    parse_jobposting,
+    validate_core_fields,
+    visible_label_value,
+)
 from external_sources.teaching_vacancies_poc import (
     Vacancy,
     classify,
@@ -9,7 +16,6 @@ from external_sources.teaching_vacancies_poc import (
     final_decision_for,
     geography,
     load_manual_decisions_from_markdown,
-    parse_jobposting,
     process,
     review_fingerprint,
     write_csv,
@@ -48,7 +54,53 @@ def test_parse_jobposting_json_ld():
     assert vacancy.title == "Administrative Assistant"
     assert vacancy.employer == "Example Academy"
     assert "Leeds" in vacancy.location
+    assert vacancy.salary_text == "£24000–£26000 YEAR"
     assert vacancy.closing_date == "2026-08-12"
+
+
+def test_visible_salary_fallback_when_json_ld_omits_base_salary():
+    document = """
+    <script type="application/ld+json">{
+      "@context":"https://schema.org","@type":"JobPosting",
+      "identifier":{"value":"TV-456"},"title":"Exams Officer",
+      "hiringOrganization":{"name":"Newsome Academy"},
+      "jobLocation":{"address":{"addressLocality":"Huddersfield","addressRegion":"West Yorkshire","postalCode":"HD4 6JN"}},
+      "datePosted":"2026-07-14","validThrough":"2026-08-10T09:00:00+01:00",
+      "employmentType":"FULL_TIME","description":"Administer examinations."
+    }</script>
+    <h3>Full time equivalent salary</h3>
+    <div>£28,262.00 - £30,199.00 Annually (Actual) Scale 6, SCP 18-22 (FTE £31,537 - £33,699)</div>
+    """
+    vacancy = parse_jobposting(
+        document,
+        "https://teaching-vacancies.service.gov.uk/jobs/exams-officer-example",
+    )
+    assert vacancy.salary_text == (
+        "£28,262.00 - £30,199.00 Annually (Actual) Scale 6, SCP 18-22 "
+        "(FTE £31,537 - £33,699)"
+    )
+
+
+def test_visible_label_value_ignores_json_ld_and_scripts():
+    document = """
+    <script>Full time equivalent salary fake</script>
+    <h3>Full time equivalent salary</h3>
+    <p>£25,000 - £27,000</p>
+    """
+    assert visible_label_value(document, "Full time equivalent salary") == (
+        "£25,000 - £27,000"
+    )
+
+
+def test_field_audit_blocks_in_scope_blank_salary():
+    vacancy = Vacancy(
+        source_job_id="missing-salary",
+        title="Administrator",
+        location="Leeds, West Yorkshire, LS1 1AA",
+        geography_status="IN_SCOPE",
+    )
+    with pytest.raises(ValueError, match="field audit failed"):
+        validate_core_fields([vacancy])
 
 
 def test_geography_and_classification():
@@ -126,8 +178,8 @@ def test_review_csv_and_markdown_match_existing_external_source_format(
         ],
         [],
     )
-    csv_path = tmp_path / "teaching-vacancies-review.csv"
-    md_path = tmp_path / "teaching-vacancies-summary.md"
+    csv_path = tmp_path / "west-yorkshire-teaching-vacancies-review.csv"
+    md_path = tmp_path / "west-yorkshire-teaching-vacancies-summary.md"
     decisions = empty_manual_decisions()
 
     write_csv(csv_path, vacancies, decisions)
