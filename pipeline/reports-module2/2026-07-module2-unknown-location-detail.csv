@@ -1,234 +1,526 @@
-﻿date,job_id,title,company,raw_area,raw_location,category,source_file,unknown_reason
-2026-07-02,2044240,Clerical Officer,Apple Recruitment,Altnagelvin,County Londonderry,admin_service,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-02,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-03,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-04,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-04.xlsx,area_not_found_in_geo_lookup
-2026-07-05,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-06,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-06.xlsx,area_not_found_in_geo_lookup
-2026-07-07,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,admin_service,2026-07-07.xlsx,area_not_found_in_geo_lookup
-2026-07-10,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,admin_service,2026-07-10.xlsx,area_not_found_in_geo_lookup
-2026-07-11,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,admin_service,2026-07-11.xlsx,area_not_found_in_geo_lookup
-2026-07-12,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,admin_service,2026-07-12.xlsx,area_not_found_in_geo_lookup
-2026-07-13,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,admin_service,2026-07-13.xlsx,area_not_found_in_geo_lookup
-2026-07-14,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,admin_service,2026-07-14.xlsx,area_not_found_in_geo_lookup
-2026-07-16,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-17,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-17,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-18,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-19,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-20,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-21,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-22,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-23,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-24,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-25,639288c3-22b4-4a2f-a718-686b1e45db84,Sales Support Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-25,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-25,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-25,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-25,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-26,639288c3-22b4-4a2f-a718-686b1e45db84,Sales Support Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-26,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-26,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-26,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-26,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-27,639288c3-22b4-4a2f-a718-686b1e45db84,Sales Support Administrator,YourRecruit,Coulsdon,Surrey,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-27,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-27,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-27,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-27,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-27,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-28,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-28,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-28,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-28,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-28,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-28,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-29,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,6996d07d-dfa8-4872-ab3c-d675c2a4932e,Financial Services Administrator,AWD online,Yateley,Hampshire,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-30,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,6996d07d-dfa8-4872-ab3c-d675c2a4932e,Financial Services Administrator,AWD online,Yateley,Hampshire,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-31,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-31,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-31,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-31,6996d07d-dfa8-4872-ab3c-d675c2a4932e,Financial Services Administrator,AWD online,Yateley,Hampshire,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-16,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-17,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-18,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-19,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-20,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-21,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-22,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-23,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-24,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-25,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-26,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-27,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-28,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-29,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-30,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,customer_service_contact_centre,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-01,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
-2026-07-01,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
-2026-07-01,21f6799e-3b33-4611-a828-950b83bf3e96,Part Time Support Worker,Cygnet Healthcare,Newnham,Gloucestershire,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
-2026-07-02,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-02,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-02,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-02,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-02,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-02,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
-2026-07-03,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-03,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-03,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-03,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-03,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-03,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
-2026-07-04,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
-2026-07-04,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
-2026-07-04,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
-2026-07-04,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
-2026-07-04,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
-2026-07-05,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-05,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-05,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-05,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-05,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-05,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
-2026-07-06,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
-2026-07-06,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
-2026-07-06,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
-2026-07-06,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
-2026-07-06,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
-2026-07-07,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-07.xlsx,area_not_found_in_geo_lookup
-2026-07-08,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-08.xlsx,area_not_found_in_geo_lookup
-2026-07-08,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-08.xlsx,area_not_found_in_geo_lookup
-2026-07-09,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-09.xlsx,area_not_found_in_geo_lookup
-2026-07-09,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-09.xlsx,area_not_found_in_geo_lookup
-2026-07-09,107645720,Support Worker,B Independent Support Limited,Walton On The Naze,Essex,support_worker,2026-07-09.xlsx,area_not_found_in_geo_lookup
-2026-07-10,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
-2026-07-10,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
-2026-07-10,107656486,Support Worker,Active Care Group,Kilbirnie,Ayrshire,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
-2026-07-10,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
-2026-07-10,107645720,Support Worker,B Independent Support Limited,Walton On The Naze,Essex,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
-2026-07-11,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
-2026-07-11,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
-2026-07-11,107656486,Support Worker,Active Care Group,Kilbirnie,Ayrshire,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
-2026-07-11,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
-2026-07-12,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-12.xlsx,area_not_found_in_geo_lookup
-2026-07-12,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-12.xlsx,area_not_found_in_geo_lookup
-2026-07-12,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-12.xlsx,area_not_found_in_geo_lookup
-2026-07-13,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-13.xlsx,area_not_found_in_geo_lookup
-2026-07-13,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-13.xlsx,area_not_found_in_geo_lookup
-2026-07-13,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-13.xlsx,area_not_found_in_geo_lookup
-2026-07-14,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-14.xlsx,area_not_found_in_geo_lookup
-2026-07-14,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-14.xlsx,area_not_found_in_geo_lookup
-2026-07-14,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-14.xlsx,area_not_found_in_geo_lookup
-2026-07-15,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-15.xlsx,area_not_found_in_geo_lookup
-2026-07-15,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-15.xlsx,area_not_found_in_geo_lookup
-2026-07-15,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-15.xlsx,area_not_found_in_geo_lookup
-2026-07-16,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-16,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-16,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-16,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-16,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-16,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
-2026-07-17,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-17,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-17,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-17,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-17,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-17,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
-2026-07-18,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-18,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
-2026-07-19,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-19,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
-2026-07-20,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-20,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
-2026-07-21,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-21,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
-2026-07-22,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-22,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
-2026-07-23,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-23,366340914608d308,Children's Residential Support Worker,Nurturing Nests,Wye,Kent,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
-2026-07-24,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-24,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
-2026-07-25,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-25,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-25.xlsx,area_not_found_in_geo_lookup
-2026-07-26,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-26,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-26.xlsx,area_not_found_in_geo_lookup
-2026-07-27,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-27,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-07-27.xlsx,area_not_found_in_geo_lookup
-2026-07-28,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-28,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,support_worker,2026-07-28.xlsx,area_not_found_in_geo_lookup
-2026-07-29,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,cb36b1de-7bf0-4fa1-a9ae-71be5623eaa7,Care Assistant - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-29,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,support_worker,2026-07-29.xlsx,area_not_found_in_geo_lookup
-2026-07-30,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,support_worker,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,cb36b1de-7bf0-4fa1-a9ae-71be5623eaa7,Care Assistant - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-30,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,support_worker,2026-07-30.xlsx,area_not_found_in_geo_lookup
-2026-07-31,cb36b1de-7bf0-4fa1-a9ae-71be5623eaa7,Care Assistant - Care Home,Barchester Healthcare,Etchingham,Sussex,support_worker,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-31,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,support_worker,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-31,107586326,Care Assistant,Northbrooke House,Shanklin,Isle of Wight,support_worker,2026-07-31.xlsx,area_not_found_in_geo_lookup
-2026-07-01,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-07-01.xlsx,area_not_found_in_geo_lookup
-2026-07-02,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-07-02.xlsx,area_not_found_in_geo_lookup
+﻿date,job_id,title,company,raw_area,raw_location,geo_source,category,source_file,unknown_reason
+2026-07-01,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,2044240,Clerical Officer,Apple Recruitment,Altnagelvin,County Londonderry,unknown,admin_service,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,unknown,admin_service,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,2042764,Administration Support Officer - Finance Newry,First Choice Selection Services,Not Specified,Not Specified,unknown,admin_service,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,unknown,admin_service,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,2042764,Administration Support Officer - Finance Newry,First Choice Selection Services,Not Specified,Not Specified,unknown,admin_service,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,unknown,admin_service,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,unknown,admin_service,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,unknown,admin_service,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,107632873,Technical Administrator,The Collective Network,Not Specified,Cambridgeshire,unknown,admin_service,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,2044549,Business Support Officer,Platinum Recruitment,Bessbrook,County Down,unknown,admin_service,2026-07-07.xlsx,area_not_found_in_geo_lookup
+2026-07-07,7b792fc6-20c1-461e-8925-051b82b6fbd2,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,66a5df92-610a-4804-9925-80033c3451f5,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-08,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-10,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-07-10.xlsx,area_not_found_in_geo_lookup
+2026-07-10,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-10,107632873,Technical Administrator,The Collective Network,Not Specified,Cambridgeshire,unknown,admin_service,2026-07-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-11,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-07-11.xlsx,area_not_found_in_geo_lookup
+2026-07-11,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-12,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-07-12.xlsx,area_not_found_in_geo_lookup
+2026-07-12,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-13,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-07-13.xlsx,area_not_found_in_geo_lookup
+2026-07-13,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-13,107632873,Technical Administrator,The Collective Network,Not Specified,Cambridgeshire,unknown,admin_service,2026-07-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-14,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-07-14.xlsx,area_not_found_in_geo_lookup
+2026-07-14,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-07-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-14,107632873,Technical Administrator,The Collective Network,Not Specified,Cambridgeshire,unknown,admin_service,2026-07-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-17,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-17,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-18,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-19,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-20,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,b2b53db0-d99e-45e6-8029-10bd318fcd8f,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-21,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,3b944583-ade2-4f67-9f55-d2facbe00066,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,b2b53db0-d99e-45e6-8029-10bd318fcd8f,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-22,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,3b944583-ade2-4f67-9f55-d2facbe00066,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,b2b53db0-d99e-45e6-8029-10bd318fcd8f,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-23,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,3b944583-ade2-4f67-9f55-d2facbe00066,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,b2b53db0-d99e-45e6-8029-10bd318fcd8f,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-24,69fb8ebd-a87b-4da4-ad0f-52bf333ea3b6,Sales Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,3b944583-ade2-4f67-9f55-d2facbe00066,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,b2b53db0-d99e-45e6-8029-10bd318fcd8f,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-25,639288c3-22b4-4a2f-a718-686b1e45db84,Sales Support Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-25,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,unknown,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-25,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-25,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-25,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,b2b53db0-d99e-45e6-8029-10bd318fcd8f,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-26,639288c3-22b4-4a2f-a718-686b1e45db84,Sales Support Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-26,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,unknown,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-26,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-26,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-26,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-27,639288c3-22b4-4a2f-a718-686b1e45db84,Sales Support Administrator,YourRecruit,Coulsdon,Surrey,unknown,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,unknown,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,unknown,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,6b682222-60bb-42a2-8c5d-c6ca49d0735e,Administration Assistant,Future Engineering Recruitment Ltd,Not Specified,Lanarkshire,unknown,admin_service,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-28,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-28,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,unknown,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-28,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-28,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-28,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,unknown,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-28,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-29,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,1599044,Senior Administrator,Victim Support,Not Specified,Not Specified,unknown,admin_service,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,6996d07d-dfa8-4872-ab3c-d675c2a4932e,Financial Services Administrator,AWD online,Yateley,Hampshire,unknown,admin_service,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-30,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,616fb005-f528-40c1-9b4b-693762fe0eda,Senior Administrator,Reed,Dartmouth,Devon,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,84512d69-5110-4dec-9338-14657e8e0806,Temporary Administrator,Office Angels,Denny,Stirlingshire,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,b27fd815-a1db-4017-980d-d1e2c04c05d5,Sales Administrator,Edwards & Pearce - Doncaster,Knottingley,Yorkshire,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,b7b72e3f-ead2-46e6-9c12-96f0eaa37203,Receptionist,Adecco,Not Specified,Lancashire,unknown,admin_service,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,1599044,Senior Administrator,Victim Support,Not Specified,Not Specified,unknown,admin_service,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,6996d07d-dfa8-4872-ab3c-d675c2a4932e,Financial Services Administrator,AWD online,Yateley,Hampshire,unknown,admin_service,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-31,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-31,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,unknown,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-31,a8194cdb-67de-467f-a91e-2d11796cc06c,Administrator,Pertemps Plymouth Commercial,Looe,Cornwall,unknown,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-31,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,1551368,Receptionist,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,1599044,Senior Administrator,Victim Support,Not Specified,Not Specified,unknown,admin_service,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,6996d07d-dfa8-4872-ab3c-d675c2a4932e,Financial Services Administrator,AWD online,Yateley,Hampshire,unknown,admin_service,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-02,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-17,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-18,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-19,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-20,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-21,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-22,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-23,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-24,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-25,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-26,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-27,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-28,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-29,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-30,d7e748b4-b368-4cf0-a8b4-cb3e5b600466,Customer Service Administrator,March Recruitment,West Molesey,Surrey,unknown,customer_service_contact_centre,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-02,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,unknown,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-01,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,unknown,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-01,21f6799e-3b33-4611-a828-950b83bf3e96,Part Time Support Worker,Cygnet Healthcare,Newnham,Gloucestershire,unknown,support_worker,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-01,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,328127,Family Support Worker,Barnardos,Not Specified,Gwent,unknown,support_worker,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-01,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,unknown,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,unknown,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,26035_20800_REF12971L,Care Assistant,Comfort Call Limited,Not Specified,Sunderland,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,328127,Family Support Worker,Barnardos,Not Specified,Gwent,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-02,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,unknown,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-02,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,unknown,support_worker,2026-07-02.xlsx,area_not_found_in_geo_lookup
+2026-07-03,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,unknown,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,26035_20800_REF12971L,Care Assistant,Comfort Call Limited,Not Specified,Sunderland,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,328127,Family Support Worker,Barnardos,Not Specified,Gwent,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,107609702,Support Worker,HRC Recruitment,Not Specified,Lanarkshire,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-03,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,unknown,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-03,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,unknown,support_worker,2026-07-03.xlsx,area_not_found_in_geo_lookup
+2026-07-04,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,unknown,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,107616939,Care Assistant,City & County Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,26035_20800_REF12971L,Care Assistant,Comfort Call Limited,Not Specified,Sunderland,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,328127,Family Support Worker,Barnardos,Not Specified,Gwent,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-04,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,unknown,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-04,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,unknown,support_worker,2026-07-04.xlsx,area_not_found_in_geo_lookup
+2026-07-05,328115,Residential Support Worker,Compass Community,Eastwood,Nottinghamshire,unknown,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,26035_20800_REF12971L,Care Assistant,Comfort Call Limited,Not Specified,Sunderland,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,328127,Family Support Worker,Barnardos,Not Specified,Gwent,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-05,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,unknown,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-05,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,unknown,support_worker,2026-07-05.xlsx,area_not_found_in_geo_lookup
+2026-07-06,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,107617202,Care Assistant,City & County Healthcare,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,26035_20800_REF12939L,Care Assistant,MiHomecare Limited,Newcastle Emlyn,Cardiganshire,unknown,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,26035_20800_REF12971L,Care Assistant,Comfort Call Limited,Not Specified,Sunderland,unknown,support_worker,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-06,26035_20800_REF12977O,Care Assistant,North East Community Care Limited,Turriff,Aberdeenshire,unknown,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-06,26035_20800_REF4480E,Care Assistant,Advance Healthcare Limited,Willenhall,West Midlands,unknown,support_worker,2026-07-06.xlsx,area_not_found_in_geo_lookup
+2026-07-07,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-07.xlsx,area_not_found_in_geo_lookup
+2026-07-07,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-07,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-08,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-08.xlsx,area_not_found_in_geo_lookup
+2026-07-08,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-08.xlsx,area_not_found_in_geo_lookup
+2026-07-08,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-08,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-08,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-08,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-08,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-09.xlsx,area_not_found_in_geo_lookup
+2026-07-09,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-09.xlsx,area_not_found_in_geo_lookup
+2026-07-09,2044855,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,2044857,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-07-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-09,107645720,Support Worker,B Independent Support Limited,Walton On The Naze,Essex,unknown,support_worker,2026-07-09.xlsx,area_not_found_in_geo_lookup
+2026-07-10,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
+2026-07-10,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
+2026-07-10,107656486,Support Worker,Active Care Group,Kilbirnie,Ayrshire,unknown,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
+2026-07-10,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
+2026-07-10,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-10,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-10,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-10,107645720,Support Worker,B Independent Support Limited,Walton On The Naze,Essex,unknown,support_worker,2026-07-10.xlsx,area_not_found_in_geo_lookup
+2026-07-11,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
+2026-07-11,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
+2026-07-11,107656486,Support Worker,Active Care Group,Kilbirnie,Ayrshire,unknown,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
+2026-07-11,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-11.xlsx,area_not_found_in_geo_lookup
+2026-07-11,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-11,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-11,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-12,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-12.xlsx,area_not_found_in_geo_lookup
+2026-07-12,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-12.xlsx,area_not_found_in_geo_lookup
+2026-07-12,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-12.xlsx,area_not_found_in_geo_lookup
+2026-07-12,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-12,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-13,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-13.xlsx,area_not_found_in_geo_lookup
+2026-07-13,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-13.xlsx,area_not_found_in_geo_lookup
+2026-07-13,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-13.xlsx,area_not_found_in_geo_lookup
+2026-07-13,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-13,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-13,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-13,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-14,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-14.xlsx,area_not_found_in_geo_lookup
+2026-07-14,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-14.xlsx,area_not_found_in_geo_lookup
+2026-07-14,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-14.xlsx,area_not_found_in_geo_lookup
+2026-07-14,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-14,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-14,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-14,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-15,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-15.xlsx,area_not_found_in_geo_lookup
+2026-07-15,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-15.xlsx,area_not_found_in_geo_lookup
+2026-07-15,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-15.xlsx,area_not_found_in_geo_lookup
+2026-07-15,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-15,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-15,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-15,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-07-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-16,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-16,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-16,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-16,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-16,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,e4f948c2-eb49-4ec1-899b-74283aaaca42,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-07-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-16,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-16.xlsx,area_not_found_in_geo_lookup
+2026-07-17,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-17,107643776,Autism Practitioners (Support Workers),Scottish Autism,Biggar,Lanarkshire,unknown,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-17,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-17,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-17,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-17,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,e4f948c2-eb49-4ec1-899b-74283aaaca42,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-17,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-17.xlsx,area_not_found_in_geo_lookup
+2026-07-18,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,8e432c07-4627-45c7-b080-e13974f8aa98,Care Assistant - Bank - Care Home,Barchester Healthcare,Heckmondwike,Yorkshire,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,e4f948c2-eb49-4ec1-899b-74283aaaca42,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-18,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-18,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-18.xlsx,area_not_found_in_geo_lookup
+2026-07-19,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,e4f948c2-eb49-4ec1-899b-74283aaaca42,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-19,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-19,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,unknown,support_worker,2026-07-19.xlsx,area_not_found_in_geo_lookup
+2026-07-20,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,107655603,Behaviour Support Assistant,Ribbons and Reeves Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,e4f948c2-eb49-4ec1-899b-74283aaaca42,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-20,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-20,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,unknown,support_worker,2026-07-20.xlsx,area_not_found_in_geo_lookup
+2026-07-21,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,107608901,Recovery Worker,Waythrough,Middlewich,Cheshire,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-21,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-21,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,unknown,support_worker,2026-07-21.xlsx,area_not_found_in_geo_lookup
+2026-07-22,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,107700014,Waking Night Support Worker,Bright Futures Care Limited,Not Specified,Not Specified,unknown,support_worker,2026-07-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-22,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-22,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-22.xlsx,area_not_found_in_geo_lookup
+2026-07-23,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,d7275659-7ca6-4d3a-a1ee-1a6ad0b9684e,Children Residential Support Worker,Reed,Not Specified,Cumbria,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,dba9cd30-53dc-49c9-912b-5e950c00fc2e,Children Residential Support Worker,OUTREACH STAFFING SOLUTIONS LTD,Not Specified,Yorkshire,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-23,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-23,366340914608d308,Children's Residential Support Worker,Nurturing Nests,Wye,Kent,unknown,support_worker,2026-07-23.xlsx,area_not_found_in_geo_lookup
+2026-07-24,b3644000-5d12-4c7b-841c-fa1e134ec9ff,Community Care Assistant,Avon Search & Selection Ltd,Abergele,Clwyd,unknown,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,5ea9f70c-5450-4d00-97a9-bdfcba44a0c6,Care Assistant - Bank - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-24,8bc733c3-6209-4d65-a972-1b579e4834e4,Care Assistant,Hallmark Care Homes LTD,Porth,Mid Glamorgan,unknown,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-24,d064f5f8-7023-4b11-9f33-1c804b1a2d68,Care Assistant,Hallmark Care Homes LTD,Ty Croes,Gwynedd,unknown,support_worker,2026-07-24.xlsx,area_not_found_in_geo_lookup
+2026-07-25,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-25,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-25.xlsx,area_not_found_in_geo_lookup
+2026-07-25,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1564717,Family Support Worker,Rainbow Trust Children's Charity,Not Specified,Sunderland,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-25,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-26,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-26.xlsx,area_not_found_in_geo_lookup
+2026-07-26,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1564717,Family Support Worker,Rainbow Trust Children's Charity,Not Specified,Sunderland,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-26,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,d141ce73-5c57-44b9-bd5d-80eef01b1f70,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-07-27.xlsx,area_not_found_in_geo_lookup
+2026-07-27,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1564717,Family Support Worker,Rainbow Trust Children's Charity,Not Specified,Sunderland,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-27,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-28,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,1564717,Family Support Worker,Rainbow Trust Children's Charity,Not Specified,Sunderland,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,9f522d96-cfed-4c48-9f8a-44fc553bab0c,Wake Night Support Worker,YourRecruit,Not Specified,South East,unknown,support_worker,2026-07-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-28,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-07-28.xlsx,area_not_found_in_geo_lookup
+2026-07-29,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,cb36b1de-7bf0-4fa1-a9ae-71be5623eaa7,Care Assistant - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-29,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,cbf26628-d883-47de-8d7e-5d9d1004f08a,Mental Health Support Worker,Zentar Group,Not Specified,Cornwall,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-29,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-07-29.xlsx,area_not_found_in_geo_lookup
+2026-07-30,d30c581b-2249-4615-a5ae-97392fc0c427,Support Worker,Cygnet Healthcare,Blakeney,Gloucestershire,unknown,support_worker,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,cb36b1de-7bf0-4fa1-a9ae-71be5623eaa7,Care Assistant - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-30,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,0bfd032a-32e9-4fc2-a37d-729b7b24c3b2,Healthcare Assistant,Seven Resourcing,Not Specified,Yorkshire,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,cbf26628-d883-47de-8d7e-5d9d1004f08a,Mental Health Support Worker,Zentar Group,Not Specified,Cornwall,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-30,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-07-30.xlsx,area_not_found_in_geo_lookup
+2026-07-31,cb36b1de-7bf0-4fa1-a9ae-71be5623eaa7,Care Assistant - Care Home,Barchester Healthcare,Etchingham,Sussex,unknown,support_worker,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-31,1573029,Family Support Worker,Barnardos,Not Specified,Not Specified,unknown,support_worker,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,1402261963,"Hearing Care Assistant, Cumbria",Leightons Opticians & Hearing Care,Not Specified,Cumbria,unknown,support_worker,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,cbf26628-d883-47de-8d7e-5d9d1004f08a,Mental Health Support Worker,Zentar Group,Not Specified,Cornwall,unknown,support_worker,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-07-31.xlsx,area_unusable_and_location_not_auto_fallback
+2026-07-31,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-31,107586326,Care Assistant,Northbrooke House,Shanklin,Isle of Wight,unknown,support_worker,2026-07-31.xlsx,area_not_found_in_geo_lookup
+2026-07-01,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-07-01.xlsx,area_not_found_in_geo_lookup
+2026-07-02,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-07-02.xlsx,area_not_found_in_geo_lookup

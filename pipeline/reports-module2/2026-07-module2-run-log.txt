@@ -1,22 +1,24 @@
 Month: 2026-07
-Input directory: pipeline/input-jobg8-archive/2026-07
+Input directory: input-jobg8-archive/2026-07
 Valid feed days: 31
 First feed day: 2026-07-01
 Last feed day: 2026-07-31
 Selected register-expanded job rows: 17775
-Geo lookup: pipeline/geo/geo_lookup.xlsx
+Geo lookup: geo/geo_lookup.xlsx
 Geo areas loaded: 1198
+AUTO location fallbacks loaded: 41
+Rows assigned by location fallback: 1839
 Classification mode: register-only
 Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT
 North East published page: aggregated from three geo_lookup regions
 
 Registers:
-- support_worker: pipeline/registers/support_worker_title_classification_register.csv (565 titles)
-- admin_service: pipeline/registers/admin_service_title_classification_register.csv (1292 titles)
-- finance_accounts: pipeline/registers/finance_accounts_title_classification_register.csv (124 titles)
-- customer_service_contact_centre: pipeline/registers/customer_service_contact_centre_title_classification_register.csv (196 titles)
-- warehouse_logistics: pipeline/registers/warehouse_logistics_title_classification_register.csv (25 titles)
-- hr_recruitment: pipeline/registers/hr_recruitment_title_classification_register.csv (331 titles)
+- support_worker: registers/support_worker_title_classification_register.csv (565 titles)
+- admin_service: registers/admin_service_title_classification_register.csv (1292 titles)
+- finance_accounts: registers/finance_accounts_title_classification_register.csv (124 titles)
+- customer_service_contact_centre: registers/customer_service_contact_centre_title_classification_register.csv (196 titles)
+- warehouse_logistics: registers/warehouse_logistics_title_classification_register.csv (25 titles)
+- hr_recruitment: registers/hr_recruitment_title_classification_register.csv (331 titles)
 
 Recommendation configuration:
 - minimum_seen_ratio: 0.8
@@ -33,6 +35,6 @@ Recommendation configuration:
 - campaign_driven_decline_share: 0.6
 
 Outputs:
-- pipeline/reports-module2/2026-07-module2-category-validation.csv
-- pipeline/reports-module2/2026-07-module2-daily-counts.csv
-- pipeline/reports-module2/2026-07-module2-unknown-location-detail.csv
+- reports-module2/2026-07-module2-category-validation.csv
+- reports-module2/2026-07-module2-daily-counts.csv
+- reports-module2/2026-07-module2-unknown-location-detail.csv
