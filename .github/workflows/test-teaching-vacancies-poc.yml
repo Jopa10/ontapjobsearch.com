@@ -7,6 +7,7 @@ on:
       - "pipeline/external_sources/teaching_vacancies_etl.py"
       - "pipeline/external_sources/REVIEW_STANDARD.md"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
+      - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-review.csv"
       - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-summary.md"
       - ".github/workflows/test-teaching-vacancies-poc.yml"
@@ -37,7 +38,11 @@ jobs:
 
       - name: Test
         working-directory: pipeline
-        run: python -m pytest tests/test_teaching_vacancies_poc.py -q
+        run: |
+          python -m pytest \
+            tests/test_teaching_vacancies_poc.py \
+            tests/test_teaching_vacancies_pay_fallback.py \
+            -q
 
       - name: Run live review-only preview
         working-directory: pipeline
@@ -76,14 +81,14 @@ jobs:
 
           in_scope = [row for row in rows if row["geography_status"] == "IN_SCOPE"]
           assert in_scope, "No West Yorkshire rows were retained"
-          missing_salary = [
+          missing_pay = [
               row["source_job_id"]
               for row in in_scope
               if not row["salary_text"].strip()
           ]
-          assert not missing_salary, (
-              "In-scope Teaching Vacancies rows have blank salary: "
-              + ", ".join(missing_salary)
+          assert not missing_pay, (
+              "In-scope Teaching Vacancies rows have blank salary/pay scale: "
+              + ", ".join(missing_pay)
           )
 
           summary = Path(
