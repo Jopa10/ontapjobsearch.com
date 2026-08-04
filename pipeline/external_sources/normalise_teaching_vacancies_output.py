@@ -34,11 +34,11 @@ def normalise_contract_value(value: object) -> str:
     labels: list[str] = []
     for item in items:
         normalised = clean_text(item).replace("_", " ").casefold()
-        if not normalised:
-            continue
-        label = normalised[:1].upper() + normalised[1:]
-        if label not in labels:
-            labels.append(label)
+        if normalised and normalised not in labels:
+            labels.append(normalised)
+    if not labels:
+        return ""
+    labels[0] = labels[0][:1].upper() + labels[0][1:]
     return ", ".join(labels)
 
 
