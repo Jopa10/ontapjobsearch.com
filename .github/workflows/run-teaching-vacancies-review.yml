@@ -32,7 +32,7 @@ jobs:
       - name: Refresh West Yorkshire Teaching Vacancies review
         working-directory: pipeline
         run: |
-          python -m external_sources.teaching_vacancies_poc \
+          python -m external_sources.teaching_vacancies_etl \
             --fetch-live \
             --max-pages 2 \
             --report-csv reviews/external/west-yorkshire-teaching-vacancies-review.csv \
