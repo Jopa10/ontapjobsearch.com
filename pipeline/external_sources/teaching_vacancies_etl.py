@@ -3,22 +3,31 @@
 Teaching Vacancies' JobPosting JSON-LD does not always contain pay information,
 even when the public advert displays either a Full time equivalent salary or a
 Pay scale. This runner keeps the existing bounded POC behaviour, adds those
-visible-page fallbacks, and blocks a review when an in-scope vacancy still has
-no pay information.
+visible-page fallbacks, retries transient source errors, and blocks incomplete
+or core-field-deficient reviews.
 """
 from __future__ import annotations
 
+import re
 import sys
+import time
+import urllib.error
 from html.parser import HTMLParser
+from pathlib import Path
 
 from external_sources import teaching_vacancies_poc as poc
 
 _BASE_PARSE_JOBPOSTING = poc.parse_jobposting
 _BASE_PROCESS = poc.process
+_BASE_REQUEST_TEXT = poc.request_text
 PAY_LABELS = (
     "Full time equivalent salary",
     "Pay scale",
 )
+RETRYABLE_HTTP_STATUS = {429, 500, 502, 503, 504}
+MAX_REQUEST_ATTEMPTS = 4
+MIN_REQUEST_INTERVAL_SECONDS = 0.25
+_last_request_started: float | None = None
 
 
 class VisibleTextParser(HTMLParser):
@@ -83,6 +92,42 @@ def parse_jobposting(document: str, url: str) -> poc.Vacancy:
     return vacancy
 
 
+def _wait_for_request_slot() -> None:
+    global _last_request_started
+    now = time.monotonic()
+    if _last_request_started is not None:
+        remaining = MIN_REQUEST_INTERVAL_SECONDS - (
+            now - _last_request_started
+        )
+        if remaining > 0:
+            time.sleep(remaining)
+    _last_request_started = time.monotonic()
+
+
+def _retry_delay(exc: urllib.error.HTTPError, attempt: int) -> float:
+    retry_after = exc.headers.get("Retry-After") if exc.headers else None
+    try:
+        return min(max(float(retry_after), 1.0), 30.0)
+    except (TypeError, ValueError):
+        return min(1.5 * (2**attempt), 12.0)
+
+
+def request_text(url: str, timeout: int = 30) -> str:
+    """Fetch politely and retry only transient HTTP failures."""
+    for attempt in range(MAX_REQUEST_ATTEMPTS):
+        _wait_for_request_slot()
+        try:
+            return _BASE_REQUEST_TEXT(url, timeout)
+        except urllib.error.HTTPError as exc:
+            if (
+                exc.code not in RETRYABLE_HTTP_STATUS
+                or attempt == MAX_REQUEST_ATTEMPTS - 1
+            ):
+                raise
+            time.sleep(_retry_delay(exc, attempt))
+    raise AssertionError("unreachable request retry state")
+
+
 def validate_core_fields(vacancies: list[poc.Vacancy]) -> None:
     """Block an accepted regional review when core pay information is blank."""
     missing_pay = [
@@ -111,6 +156,24 @@ def process(
 def install_patches() -> None:
     poc.parse_jobposting = parse_jobposting
     poc.process = process
+    poc.request_text = request_text
+
+
+def _argument_path(args: list[str], option: str) -> Path:
+    return Path(args[args.index(option) + 1])
+
+
+def validate_complete_review(summary_path: Path) -> None:
+    summary = summary_path.read_text(encoding="utf-8")
+    match = re.search(r"(?m)^- Detail failures: (\d+)\s*$", summary)
+    if not match:
+        raise ValueError("Teaching Vacancies review has no detail-failure audit")
+    if int(match.group(1)):
+        raise ValueError(
+            "Teaching Vacancies review is incomplete: "
+            + match.group(1)
+            + " detail page(s) failed after retries"
+        )
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -130,7 +193,9 @@ def main(argv: list[str] | None = None) -> int:
             ]
         )
     install_patches()
-    return poc.main(args)
+    result = poc.main(args)
+    validate_complete_review(_argument_path(args, "--summary-md"))
+    return result
 
 
 if __name__ == "__main__":
