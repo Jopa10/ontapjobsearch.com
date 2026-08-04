@@ -4,9 +4,11 @@ on:
   pull_request:
     paths:
       - "pipeline/external_sources/teaching_vacancies_poc.py"
+      - "pipeline/external_sources/teaching_vacancies_etl.py"
+      - "pipeline/external_sources/REVIEW_STANDARD.md"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
-      - "pipeline/reviews/external/teaching-vacancies-review.csv"
-      - "pipeline/reviews/external/teaching-vacancies-summary.md"
+      - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-review.csv"
+      - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-summary.md"
       - ".github/workflows/test-teaching-vacancies-poc.yml"
       - ".github/workflows/run-teaching-vacancies-review.yml"
   workflow_dispatch:
@@ -29,7 +31,9 @@ jobs:
 
       - name: Compile
         working-directory: pipeline
-        run: python -m py_compile external_sources/teaching_vacancies_poc.py
+        run: |
+          python -m py_compile external_sources/teaching_vacancies_poc.py
+          python -m py_compile external_sources/teaching_vacancies_etl.py
 
       - name: Test
         working-directory: pipeline
@@ -38,26 +42,27 @@ jobs:
       - name: Run live review-only preview
         working-directory: pipeline
         run: |
-          python -m external_sources.teaching_vacancies_poc \
+          python -m external_sources.teaching_vacancies_etl \
             --fetch-live \
             --max-pages 2 \
-            --report-csv /tmp/teaching-vacancies-review.csv \
-            --summary-md /tmp/teaching-vacancies-summary.md
+            --report-csv /tmp/west-yorkshire-teaching-vacancies-review.csv \
+            --summary-md /tmp/west-yorkshire-teaching-vacancies-summary.md
 
-      - name: Verify standard review format and live-site isolation
+      - name: Verify standard review format, field coverage and live-site isolation
         run: |
-          test -s /tmp/teaching-vacancies-review.csv
-          test -s /tmp/teaching-vacancies-summary.md
+          test -s /tmp/west-yorkshire-teaching-vacancies-review.csv
+          test -s /tmp/west-yorkshire-teaching-vacancies-summary.md
           python - <<'PY'
           import csv
           from pathlib import Path
 
-          csv_path = "/tmp/teaching-vacancies-review.csv"
+          csv_path = "/tmp/west-yorkshire-teaching-vacancies-review.csv"
           with open(csv_path, newline="", encoding="utf-8-sig") as handle:
               reader = csv.DictReader(handle)
               assert reader.fieldnames[0] == "final_decision", reader.fieldnames
-              decisions = [row["final_decision"] for row in reader]
+              rows = list(reader)
 
+          decisions = [row["final_decision"] for row in rows]
           order = {
               "SELECTED": 0,
               "POSS": 1,
@@ -69,8 +74,20 @@ jobs:
               key=lambda value: order.get(value, 99),
           ), decisions
 
+          in_scope = [row for row in rows if row["geography_status"] == "IN_SCOPE"]
+          assert in_scope, "No West Yorkshire rows were retained"
+          missing_salary = [
+              row["source_job_id"]
+              for row in in_scope
+              if not row["salary_text"].strip()
+          ]
+          assert not missing_salary, (
+              "In-scope Teaching Vacancies rows have blank salary: "
+              + ", ".join(missing_salary)
+          )
+
           summary = Path(
-              "/tmp/teaching-vacancies-summary.md"
+              "/tmp/west-yorkshire-teaching-vacancies-summary.md"
           ).read_text(encoding="utf-8")
           assert "Edit only the `action:` line" in summary
           assert "## SELECTED" in summary
@@ -83,12 +100,12 @@ jobs:
             pipeline/output-admin-service \
             app
 
-      - name: Upload Teaching Vacancies review preview
+      - name: Upload West Yorkshire Teaching Vacancies review preview
         uses: actions/upload-artifact@v4
         with:
-          name: teaching-vacancies-review-preview
+          name: west-yorkshire-teaching-vacancies-review-preview
           path: |
-            /tmp/teaching-vacancies-review.csv
-            /tmp/teaching-vacancies-summary.md
+            /tmp/west-yorkshire-teaching-vacancies-review.csv
+            /tmp/west-yorkshire-teaching-vacancies-summary.md
           if-no-files-found: error
           retention-days: 7
