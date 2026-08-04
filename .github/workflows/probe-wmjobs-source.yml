@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "pipeline/external_sources/wmjobs_source_probe.py"
+      - "pipeline/external_sources/wmjobs_rss_sample.py"
       - "pipeline/tests/test_wmjobs_source_probe.py"
       - ".github/workflows/probe-wmjobs-source.yml"
   workflow_dispatch:
@@ -21,9 +22,11 @@ jobs:
           python-version: "3.12"
       - name: Install test package
         run: python -m pip install --upgrade pip pytest
-      - name: Compile probe
+      - name: Compile diagnostics
         working-directory: pipeline
-        run: python -m py_compile external_sources/wmjobs_source_probe.py
+        run: |
+          python -m py_compile external_sources/wmjobs_source_probe.py
+          python -m py_compile external_sources/wmjobs_rss_sample.py
       - name: Test bounded behaviour
         working-directory: pipeline
         run: python -m pytest tests/test_wmjobs_source_probe.py -q
@@ -32,9 +35,15 @@ jobs:
         run: |
           python -m external_sources.wmjobs_source_probe \
             --output /tmp/wmjobs-source-probe.json
+      - name: Inspect public RSS structure
+        working-directory: pipeline
+        run: |
+          python -m external_sources.wmjobs_rss_sample \
+            --output /tmp/wmjobs-rss-sample.json
       - name: Verify Ontap live-site isolation
         run: |
           test -s /tmp/wmjobs-source-probe.json
+          test -s /tmp/wmjobs-rss-sample.json
           git diff --exit-code -- \
             pipeline/output-external \
             pipeline/output-admin-service \
@@ -43,6 +52,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: wmjobs-source-probe
-          path: /tmp/wmjobs-source-probe.json
+          path: |
+            /tmp/wmjobs-source-probe.json
+            /tmp/wmjobs-rss-sample.json
           if-no-files-found: error
           retention-days: 7
