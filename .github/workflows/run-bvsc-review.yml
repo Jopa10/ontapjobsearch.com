@@ -2,6 +2,13 @@ name: Run BVSC review
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "agent/bvsc-review-poc"
+    paths:
+      - ".github/workflows/run-bvsc-review.yml"
+      - "pipeline/external_sources/bvsc_poc.py"
+      - "pipeline/tests/test_bvsc_poc.py"
 
 permissions:
   contents: write
