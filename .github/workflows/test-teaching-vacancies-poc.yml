@@ -45,7 +45,7 @@ jobs:
             --summary-md /tmp/west-yorkshire-teaching-vacancies-summary.md
           python -m external_sources.format_teaching_vacancies_review \
             /tmp/west-yorkshire-teaching-vacancies-review.csv
-      - name: Verify preview order and live-site isolation
+      - name: Verify preview layout, order and live-site isolation
         run: |
           test -s /tmp/west-yorkshire-teaching-vacancies-review.csv
           test -s /tmp/west-yorkshire-teaching-vacancies-summary.md
@@ -53,7 +53,9 @@ jobs:
           import csv
           path = "/tmp/west-yorkshire-teaching-vacancies-review.csv"
           with open(path, newline="", encoding="utf-8-sig") as handle:
-              values = [row["classification"] for row in csv.DictReader(handle)]
+              reader = csv.DictReader(handle)
+              values = [row["final_decision"] for row in reader]
+              assert reader.fieldnames[0] == "final_decision", reader.fieldnames
           order = {"HC": 0, "POSS": 1, "DUPLICATE": 2, "HARD_PASS": 3}
           assert values == sorted(values, key=lambda value: order.get(value, 99)), values
           PY
