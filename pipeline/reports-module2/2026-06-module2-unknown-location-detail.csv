@@ -1,14 +1,291 @@
-﻿date,job_id,title,company,raw_area,raw_location,category,source_file,unknown_reason
-2026-06-01,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,support_worker,2026-06-01.xlsx,area_not_found_in_geo_lookup
-2026-06-07,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,support_worker,2026-06-07.xlsx,area_not_found_in_geo_lookup
-2026-06-08,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,support_worker,2026-06-08.xlsx,area_not_found_in_geo_lookup
-2026-06-27,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-06-27.xlsx,area_not_found_in_geo_lookup
-2026-06-28,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-06-28.xlsx,area_not_found_in_geo_lookup
-2026-06-29,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-06-29.xlsx,area_not_found_in_geo_lookup
-2026-06-30,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,support_worker,2026-06-30.xlsx,area_not_found_in_geo_lookup
-2026-06-25,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-06-25.xlsx,area_not_found_in_geo_lookup
-2026-06-26,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-06-26.xlsx,area_not_found_in_geo_lookup
-2026-06-27,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-06-27.xlsx,area_not_found_in_geo_lookup
-2026-06-28,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-06-28.xlsx,area_not_found_in_geo_lookup
-2026-06-29,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-06-29.xlsx,area_not_found_in_geo_lookup
-2026-06-30,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,warehouse_logistics,2026-06-30.xlsx,area_not_found_in_geo_lookup
+﻿date,job_id,title,company,raw_area,raw_location,geo_source,category,source_file,unknown_reason
+2026-06-01,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-01,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-01,6f51bb53-6a79-488b-a28b-bd51a86b4ddc,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-02,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-02,6f51bb53-6a79-488b-a28b-bd51a86b4ddc,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-03,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041928,Customer Service Administrator,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041322,Helpdesk Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041929,Part Time Customer Service Administrator,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041928,Customer Service Administrator,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041322,Helpdesk Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041929,Part Time Customer Service Administrator,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,2040851,Sales Support Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,2040851,Sales Support Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,2040851,Sales Support Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,2040851,Sales Support Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,2040851,Sales Support Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,57cfaeb3-a33f-47d6-9832-1daf4bb3b746,Administrator,Platinum Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,50e5cfd8-34a6-465e-84b8-f4b99d3d5b4a,Employee Benefits Administrator,Alexander Lloyd,Not Specified,South East,unknown,admin_service,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,2040851,Sales Support Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,107522638,Administration Assistant,Riverside Recruitment,Not Specified,Dunbartonshire,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,2042764,Administration Support Officer - Finance Newry,First Choice Selection Services,Not Specified,Not Specified,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,2043380,Administrative Assistant,Platinum Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,2043558,Receptionist,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,2043587,Sales Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,107517112,Administration Assistant,Riverside Recruitment,Not Specified,Cumbria,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,2042764,Administration Support Officer - Finance Newry,First Choice Selection Services,Not Specified,Not Specified,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,2043380,Administrative Assistant,Platinum Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,2043558,Receptionist,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,2043587,Sales Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,2042764,Administration Support Officer - Finance Newry,First Choice Selection Services,Not Specified,Not Specified,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,2043380,Administrative Assistant,Platinum Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,2043558,Receptionist,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,2043587,Sales Administrator,Hays,Not Specified,Not Specified,unknown,admin_service,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,107533085,Administration Assistant,Riverside Recruitment,Not Specified,Dunbartonshire,unknown,admin_service,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,107533118,Administration Assistant,Riverside Recruitment,Not Specified,Cumbria,unknown,admin_service,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,107533085,Administration Assistant,Riverside Recruitment,Not Specified,Dunbartonshire,unknown,admin_service,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,f71d75ab-f3e3-4888-bea7-46913aa3e16c,Financial Planning Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,93930d14-701c-480f-83fa-a24ea72da9ef,Financial Services Administrator,Reed,Not Specified,Ayrshire,unknown,admin_service,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-20,107533085,Administration Assistant,Riverside Recruitment,Not Specified,Dunbartonshire,unknown,admin_service,2026-06-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-20,107533118,Administration Assistant,Riverside Recruitment,Not Specified,Cumbria,unknown,admin_service,2026-06-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-20,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-20,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-21,107533085,Administration Assistant,Riverside Recruitment,Not Specified,Dunbartonshire,unknown,admin_service,2026-06-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-21,107533118,Administration Assistant,Riverside Recruitment,Not Specified,Cumbria,unknown,admin_service,2026-06-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-21,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-21,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-22,107533085,Administration Assistant,Riverside Recruitment,Not Specified,Dunbartonshire,unknown,admin_service,2026-06-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-22,107533118,Administration Assistant,Riverside Recruitment,Not Specified,Cumbria,unknown,admin_service,2026-06-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-22,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-22,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-23,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-23,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-23,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-24,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-24,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-24,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,c27f4517-1422-4c0e-bb1e-60fb455442ab,Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Not Specified,unknown,admin_service,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,4bd1edf3-7dd6-4922-a033-b8a1b809079a,IFA Administrator,Burton Recruitment,Not Specified,Cheshire,unknown,admin_service,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,56381f2e-2636-4b80-b969-174b7dbbd215,Remote Admin Assistant,SmartPA,Not Specified,Not Specified,unknown,admin_service,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041928,Customer Service Administrator,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041322,Helpdesk Administrator,Hays,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041928,Customer Service Administrator,Reed Specialist Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041322,Helpdesk Administrator,Hays,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,2043175,Member Services Officer,Apple Recruitment,Not Specified,Not Specified,unknown,customer_service_contact_centre,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,2041321,Accounts Administrator,Hays,Not Specified,Not Specified,unknown,finance_accounts,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,2042875,Finance Administrator (Newry),Honeycomb Jobs Ltd,Not Specified,Not Specified,unknown,finance_accounts,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-01,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-01,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-01,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-01,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,unknown,support_worker,2026-06-01.xlsx,area_not_found_in_geo_lookup
+2026-06-02,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-02,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-02,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-03,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-03,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-03,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-04,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-05,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-05-.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-06,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,unknown,support_worker,2026-06-07.xlsx,area_not_found_in_geo_lookup
+2026-06-08,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,327938,Residential Support Worker Outside IR35,Leaders In Care,Not Specified,Not Specified,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,21618_20293_13105,Support Worker,Turning Point,Thornton,Yorkshire,unknown,support_worker,2026-06-08.xlsx,area_not_found_in_geo_lookup
+2026-06-09,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-10,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-10.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,2042181,Care Assistant,MPA Recruitment,Not Specified,County Fermanagh,unknown,support_worker,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,2041347,Healthcare Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-11,2041664,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-06-11.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-12,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-12.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-13,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-13.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-14,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-14.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,1401782159,Bank Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-15,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-15.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,dd46cf98-89d9-482a-bcec-253ea2785481,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-16,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-16.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,dd46cf98-89d9-482a-bcec-253ea2785481,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-17,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-17.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,26035_20800_REF12374Z,Care Assistant,London Care Limited,Not Specified,England,unknown,support_worker,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-18,dd46cf98-89d9-482a-bcec-253ea2785481,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-18.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-19,107255983,Locum Support Worker,21HSC LIMITED,Not Specified,Midlothian,unknown,support_worker,2026-06-19.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-20,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-20,107549058,Support Worker,Creative Support,Not Specified,Yorkshire,unknown,support_worker,2026-06-20.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-21,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-21,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-21.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-22,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-22,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-22.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-23,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-23,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-23.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-24,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-24,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-24,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-24.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-25.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-26,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-26.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-06-27.xlsx,area_not_found_in_geo_lookup
+2026-06-27,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-06-28.xlsx,area_not_found_in_geo_lookup
+2026-06-28,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-06-29.xlsx,area_not_found_in_geo_lookup
+2026-06-29,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,400a73e9-e713-4dee-92f1-0d986b103067,Care Assistant - Days,Hallmark Care Homes LTD,Keith,Banffshire,unknown,support_worker,2026-06-30.xlsx,area_not_found_in_geo_lookup
+2026-06-30,107499616,Children's Residential Support Worker,SCR Recruitment Services,Not Specified,Cambridgeshire,unknown,support_worker,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,107446132,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,54b5d627-ac87-402c-9503-aacb9a08abc6,Female Extra Care Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,3d4b6f93-5a64-4a3a-9e2c-82b8866932db,Female Relief Support Worker,Creative Support Ltd,Not Specified,Lancashire,unknown,support_worker,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,f329ad46-ee18-4a3c-8fc5-ae9ab486bed8,Residential Children's Support Worker,Randstad Care,Not Specified,Lanarkshire,unknown,support_worker,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-07,27408_225211324,Warehouse Administrator,Kinaxia Transport & Warehousing,Not Specified,Not Specified,unknown,warehouse_logistics,2026-06-07.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-08,27408_225211324,Warehouse Administrator,Kinaxia Transport & Warehousing,Not Specified,Not Specified,unknown,warehouse_logistics,2026-06-08.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-09,27408_225211324,Warehouse Administrator,Kinaxia Transport & Warehousing,Not Specified,Not Specified,unknown,warehouse_logistics,2026-06-09.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-25,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-06-25.xlsx,area_not_found_in_geo_lookup
+2026-06-26,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-06-26.xlsx,area_not_found_in_geo_lookup
+2026-06-27,22ed77cc-c645-4945-83bd-38b437e8f33d,Transport Administrator,Cast UK Limited,Not Specified,Cheshire,unknown,warehouse_logistics,2026-06-27.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-27,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-06-27.xlsx,area_not_found_in_geo_lookup
+2026-06-28,22ed77cc-c645-4945-83bd-38b437e8f33d,Transport Administrator,Cast UK Limited,Not Specified,Cheshire,unknown,warehouse_logistics,2026-06-28.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-28,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-06-28.xlsx,area_not_found_in_geo_lookup
+2026-06-29,22ed77cc-c645-4945-83bd-38b437e8f33d,Transport Administrator,Cast UK Limited,Not Specified,Cheshire,unknown,warehouse_logistics,2026-06-29.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-29,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-06-29.xlsx,area_not_found_in_geo_lookup
+2026-06-30,22ed77cc-c645-4945-83bd-38b437e8f33d,Transport Administrator,Cast UK Limited,Not Specified,Cheshire,unknown,warehouse_logistics,2026-06-30.xlsx,area_unusable_and_location_not_auto_fallback
+2026-06-30,25e92e83-e687-4f0f-87fe-c014255dc524,Transport Administrator,Reed,Purfleet,Essex,unknown,warehouse_logistics,2026-06-30.xlsx,area_not_found_in_geo_lookup

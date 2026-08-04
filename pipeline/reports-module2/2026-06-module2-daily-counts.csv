@@ -1,4 +1,34 @@
 ﻿month,date,region,region_scope,category,daily_job_count
+2026-06,2026-06-01,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-02,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-03,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-04,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-05,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-06,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-07,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-08,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-09,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-10,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-11,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-12,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-13,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-14,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-15,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-16,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-17,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-18,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-19,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-20,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-21,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-22,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-23,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-24,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-25,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-26,Aberdeenshire,lookup_region,admin_service,1
+2026-06,2026-06-27,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-28,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-29,Aberdeenshire,lookup_region,admin_service,0
+2026-06,2026-06-30,Aberdeenshire,lookup_region,admin_service,0
 2026-06,2026-06-01,Bedfordshire,lookup_region,admin_service,4
 2026-06,2026-06-02,Bedfordshire,lookup_region,admin_service,0
 2026-06,2026-06-03,Bedfordshire,lookup_region,admin_service,0
@@ -7,9 +37,9 @@
 2026-06,2026-06-06,Bedfordshire,lookup_region,admin_service,4
 2026-06,2026-06-07,Bedfordshire,lookup_region,admin_service,4
 2026-06,2026-06-08,Bedfordshire,lookup_region,admin_service,4
-2026-06,2026-06-09,Bedfordshire,lookup_region,admin_service,3
-2026-06,2026-06-10,Bedfordshire,lookup_region,admin_service,3
-2026-06,2026-06-11,Bedfordshire,lookup_region,admin_service,3
+2026-06,2026-06-09,Bedfordshire,lookup_region,admin_service,4
+2026-06,2026-06-10,Bedfordshire,lookup_region,admin_service,4
+2026-06,2026-06-11,Bedfordshire,lookup_region,admin_service,4
 2026-06,2026-06-12,Bedfordshire,lookup_region,admin_service,0
 2026-06,2026-06-13,Bedfordshire,lookup_region,admin_service,1
 2026-06,2026-06-14,Bedfordshire,lookup_region,admin_service,1
@@ -29,17 +59,17 @@
 2026-06,2026-06-28,Bedfordshire,lookup_region,admin_service,0
 2026-06,2026-06-29,Bedfordshire,lookup_region,admin_service,0
 2026-06,2026-06-30,Bedfordshire,lookup_region,admin_service,0
-2026-06,2026-06-01,Berkshire,lookup_region,admin_service,20
-2026-06,2026-06-02,Berkshire,lookup_region,admin_service,9
-2026-06,2026-06-03,Berkshire,lookup_region,admin_service,9
-2026-06,2026-06-04,Berkshire,lookup_region,admin_service,9
-2026-06,2026-06-05,Berkshire,lookup_region,admin_service,11
-2026-06,2026-06-06,Berkshire,lookup_region,admin_service,15
-2026-06,2026-06-07,Berkshire,lookup_region,admin_service,15
-2026-06,2026-06-08,Berkshire,lookup_region,admin_service,15
-2026-06,2026-06-09,Berkshire,lookup_region,admin_service,13
-2026-06,2026-06-10,Berkshire,lookup_region,admin_service,13
-2026-06,2026-06-11,Berkshire,lookup_region,admin_service,11
+2026-06,2026-06-01,Berkshire,lookup_region,admin_service,21
+2026-06,2026-06-02,Berkshire,lookup_region,admin_service,10
+2026-06,2026-06-03,Berkshire,lookup_region,admin_service,10
+2026-06,2026-06-04,Berkshire,lookup_region,admin_service,10
+2026-06,2026-06-05,Berkshire,lookup_region,admin_service,12
+2026-06,2026-06-06,Berkshire,lookup_region,admin_service,16
+2026-06,2026-06-07,Berkshire,lookup_region,admin_service,16
+2026-06,2026-06-08,Berkshire,lookup_region,admin_service,16
+2026-06,2026-06-09,Berkshire,lookup_region,admin_service,14
+2026-06,2026-06-10,Berkshire,lookup_region,admin_service,14
+2026-06,2026-06-11,Berkshire,lookup_region,admin_service,12
 2026-06,2026-06-12,Berkshire,lookup_region,admin_service,5
 2026-06,2026-06-13,Berkshire,lookup_region,admin_service,5
 2026-06,2026-06-14,Berkshire,lookup_region,admin_service,4
@@ -389,17 +419,17 @@
 2026-06,2026-06-28,Cumbria - West,lookup_region,admin_service,1
 2026-06,2026-06-29,Cumbria - West,lookup_region,admin_service,1
 2026-06,2026-06-30,Cumbria - West,lookup_region,admin_service,1
-2026-06,2026-06-01,Derbyshire,lookup_region,admin_service,7
-2026-06,2026-06-02,Derbyshire,lookup_region,admin_service,6
-2026-06,2026-06-03,Derbyshire,lookup_region,admin_service,6
-2026-06,2026-06-04,Derbyshire,lookup_region,admin_service,6
-2026-06,2026-06-05,Derbyshire,lookup_region,admin_service,5
-2026-06,2026-06-06,Derbyshire,lookup_region,admin_service,6
-2026-06,2026-06-07,Derbyshire,lookup_region,admin_service,6
-2026-06,2026-06-08,Derbyshire,lookup_region,admin_service,6
-2026-06,2026-06-09,Derbyshire,lookup_region,admin_service,4
-2026-06,2026-06-10,Derbyshire,lookup_region,admin_service,4
-2026-06,2026-06-11,Derbyshire,lookup_region,admin_service,4
+2026-06,2026-06-01,Derbyshire,lookup_region,admin_service,8
+2026-06,2026-06-02,Derbyshire,lookup_region,admin_service,7
+2026-06,2026-06-03,Derbyshire,lookup_region,admin_service,7
+2026-06,2026-06-04,Derbyshire,lookup_region,admin_service,7
+2026-06,2026-06-05,Derbyshire,lookup_region,admin_service,6
+2026-06,2026-06-06,Derbyshire,lookup_region,admin_service,7
+2026-06,2026-06-07,Derbyshire,lookup_region,admin_service,7
+2026-06,2026-06-08,Derbyshire,lookup_region,admin_service,7
+2026-06,2026-06-09,Derbyshire,lookup_region,admin_service,5
+2026-06,2026-06-10,Derbyshire,lookup_region,admin_service,5
+2026-06,2026-06-11,Derbyshire,lookup_region,admin_service,5
 2026-06,2026-06-12,Derbyshire,lookup_region,admin_service,0
 2026-06,2026-06-13,Derbyshire,lookup_region,admin_service,0
 2026-06,2026-06-14,Derbyshire,lookup_region,admin_service,0
@@ -413,42 +443,42 @@
 2026-06,2026-06-22,Derbyshire,lookup_region,admin_service,1
 2026-06,2026-06-23,Derbyshire,lookup_region,admin_service,1
 2026-06,2026-06-24,Derbyshire,lookup_region,admin_service,0
-2026-06,2026-06-25,Derbyshire,lookup_region,admin_service,1
-2026-06,2026-06-26,Derbyshire,lookup_region,admin_service,1
-2026-06,2026-06-27,Derbyshire,lookup_region,admin_service,1
-2026-06,2026-06-28,Derbyshire,lookup_region,admin_service,1
-2026-06,2026-06-29,Derbyshire,lookup_region,admin_service,1
-2026-06,2026-06-30,Derbyshire,lookup_region,admin_service,1
-2026-06,2026-06-01,Devon,lookup_region,admin_service,2
+2026-06,2026-06-25,Derbyshire,lookup_region,admin_service,2
+2026-06,2026-06-26,Derbyshire,lookup_region,admin_service,2
+2026-06,2026-06-27,Derbyshire,lookup_region,admin_service,3
+2026-06,2026-06-28,Derbyshire,lookup_region,admin_service,3
+2026-06,2026-06-29,Derbyshire,lookup_region,admin_service,3
+2026-06,2026-06-30,Derbyshire,lookup_region,admin_service,3
+2026-06,2026-06-01,Devon,lookup_region,admin_service,3
 2026-06,2026-06-02,Devon,lookup_region,admin_service,2
 2026-06,2026-06-03,Devon,lookup_region,admin_service,2
 2026-06,2026-06-04,Devon,lookup_region,admin_service,2
 2026-06,2026-06-05,Devon,lookup_region,admin_service,2
-2026-06,2026-06-06,Devon,lookup_region,admin_service,1
-2026-06,2026-06-07,Devon,lookup_region,admin_service,1
-2026-06,2026-06-08,Devon,lookup_region,admin_service,1
-2026-06,2026-06-09,Devon,lookup_region,admin_service,2
-2026-06,2026-06-10,Devon,lookup_region,admin_service,3
+2026-06,2026-06-06,Devon,lookup_region,admin_service,2
+2026-06,2026-06-07,Devon,lookup_region,admin_service,2
+2026-06,2026-06-08,Devon,lookup_region,admin_service,2
+2026-06,2026-06-09,Devon,lookup_region,admin_service,3
+2026-06,2026-06-10,Devon,lookup_region,admin_service,4
 2026-06,2026-06-11,Devon,lookup_region,admin_service,3
-2026-06,2026-06-12,Devon,lookup_region,admin_service,1
-2026-06,2026-06-13,Devon,lookup_region,admin_service,1
-2026-06,2026-06-14,Devon,lookup_region,admin_service,1
-2026-06,2026-06-15,Devon,lookup_region,admin_service,1
-2026-06,2026-06-16,Devon,lookup_region,admin_service,2
-2026-06,2026-06-17,Devon,lookup_region,admin_service,2
-2026-06,2026-06-18,Devon,lookup_region,admin_service,1
-2026-06,2026-06-19,Devon,lookup_region,admin_service,2
-2026-06,2026-06-20,Devon,lookup_region,admin_service,2
-2026-06,2026-06-21,Devon,lookup_region,admin_service,2
-2026-06,2026-06-22,Devon,lookup_region,admin_service,2
-2026-06,2026-06-23,Devon,lookup_region,admin_service,2
-2026-06,2026-06-24,Devon,lookup_region,admin_service,1
-2026-06,2026-06-25,Devon,lookup_region,admin_service,1
-2026-06,2026-06-26,Devon,lookup_region,admin_service,1
-2026-06,2026-06-27,Devon,lookup_region,admin_service,4
-2026-06,2026-06-28,Devon,lookup_region,admin_service,4
-2026-06,2026-06-29,Devon,lookup_region,admin_service,4
-2026-06,2026-06-30,Devon,lookup_region,admin_service,4
+2026-06,2026-06-12,Devon,lookup_region,admin_service,2
+2026-06,2026-06-13,Devon,lookup_region,admin_service,2
+2026-06,2026-06-14,Devon,lookup_region,admin_service,2
+2026-06,2026-06-15,Devon,lookup_region,admin_service,2
+2026-06,2026-06-16,Devon,lookup_region,admin_service,3
+2026-06,2026-06-17,Devon,lookup_region,admin_service,3
+2026-06,2026-06-18,Devon,lookup_region,admin_service,2
+2026-06,2026-06-19,Devon,lookup_region,admin_service,3
+2026-06,2026-06-20,Devon,lookup_region,admin_service,3
+2026-06,2026-06-21,Devon,lookup_region,admin_service,3
+2026-06,2026-06-22,Devon,lookup_region,admin_service,3
+2026-06,2026-06-23,Devon,lookup_region,admin_service,3
+2026-06,2026-06-24,Devon,lookup_region,admin_service,2
+2026-06,2026-06-25,Devon,lookup_region,admin_service,2
+2026-06,2026-06-26,Devon,lookup_region,admin_service,2
+2026-06,2026-06-27,Devon,lookup_region,admin_service,5
+2026-06,2026-06-28,Devon,lookup_region,admin_service,5
+2026-06,2026-06-29,Devon,lookup_region,admin_service,5
+2026-06,2026-06-30,Devon,lookup_region,admin_service,5
 2026-06,2026-06-01,Dorset,lookup_region,admin_service,4
 2026-06,2026-06-02,Dorset,lookup_region,admin_service,1
 2026-06,2026-06-03,Dorset,lookup_region,admin_service,2
@@ -569,11 +599,11 @@
 2026-06,2026-06-28,Flintshire,lookup_region,admin_service,1
 2026-06,2026-06-29,Flintshire,lookup_region,admin_service,1
 2026-06,2026-06-30,Flintshire,lookup_region,admin_service,1
-2026-06,2026-06-01,Gloucestershire,lookup_region,admin_service,13
+2026-06,2026-06-01,Gloucestershire,lookup_region,admin_service,15
 2026-06,2026-06-02,Gloucestershire,lookup_region,admin_service,7
-2026-06,2026-06-03,Gloucestershire,lookup_region,admin_service,7
-2026-06,2026-06-04,Gloucestershire,lookup_region,admin_service,5
-2026-06,2026-06-05,Gloucestershire,lookup_region,admin_service,4
+2026-06,2026-06-03,Gloucestershire,lookup_region,admin_service,8
+2026-06,2026-06-04,Gloucestershire,lookup_region,admin_service,6
+2026-06,2026-06-05,Gloucestershire,lookup_region,admin_service,5
 2026-06,2026-06-06,Gloucestershire,lookup_region,admin_service,9
 2026-06,2026-06-07,Gloucestershire,lookup_region,admin_service,9
 2026-06,2026-06-08,Gloucestershire,lookup_region,admin_service,9
@@ -599,36 +629,36 @@
 2026-06,2026-06-28,Gloucestershire,lookup_region,admin_service,2
 2026-06,2026-06-29,Gloucestershire,lookup_region,admin_service,2
 2026-06,2026-06-30,Gloucestershire,lookup_region,admin_service,2
-2026-06,2026-06-01,Greater Manchester - Manchester & Salford,lookup_region,admin_service,10
-2026-06,2026-06-02,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
-2026-06,2026-06-03,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
-2026-06,2026-06-04,Greater Manchester - Manchester & Salford,lookup_region,admin_service,5
-2026-06,2026-06-05,Greater Manchester - Manchester & Salford,lookup_region,admin_service,5
-2026-06,2026-06-06,Greater Manchester - Manchester & Salford,lookup_region,admin_service,10
-2026-06,2026-06-07,Greater Manchester - Manchester & Salford,lookup_region,admin_service,9
-2026-06,2026-06-08,Greater Manchester - Manchester & Salford,lookup_region,admin_service,9
-2026-06,2026-06-09,Greater Manchester - Manchester & Salford,lookup_region,admin_service,7
-2026-06,2026-06-10,Greater Manchester - Manchester & Salford,lookup_region,admin_service,7
-2026-06,2026-06-11,Greater Manchester - Manchester & Salford,lookup_region,admin_service,6
-2026-06,2026-06-12,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
-2026-06,2026-06-13,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
-2026-06,2026-06-14,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
-2026-06,2026-06-15,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
-2026-06,2026-06-16,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
-2026-06,2026-06-17,Greater Manchester - Manchester & Salford,lookup_region,admin_service,1
-2026-06,2026-06-18,Greater Manchester - Manchester & Salford,lookup_region,admin_service,1
-2026-06,2026-06-19,Greater Manchester - Manchester & Salford,lookup_region,admin_service,1
-2026-06,2026-06-20,Greater Manchester - Manchester & Salford,lookup_region,admin_service,0
-2026-06,2026-06-21,Greater Manchester - Manchester & Salford,lookup_region,admin_service,0
-2026-06,2026-06-22,Greater Manchester - Manchester & Salford,lookup_region,admin_service,0
-2026-06,2026-06-23,Greater Manchester - Manchester & Salford,lookup_region,admin_service,0
-2026-06,2026-06-24,Greater Manchester - Manchester & Salford,lookup_region,admin_service,0
-2026-06,2026-06-25,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
-2026-06,2026-06-26,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
-2026-06,2026-06-27,Greater Manchester - Manchester & Salford,lookup_region,admin_service,9
-2026-06,2026-06-28,Greater Manchester - Manchester & Salford,lookup_region,admin_service,9
-2026-06,2026-06-29,Greater Manchester - Manchester & Salford,lookup_region,admin_service,9
-2026-06,2026-06-30,Greater Manchester - Manchester & Salford,lookup_region,admin_service,9
+2026-06,2026-06-01,Greater Manchester - Manchester & Salford,lookup_region,admin_service,16
+2026-06,2026-06-02,Greater Manchester - Manchester & Salford,lookup_region,admin_service,7
+2026-06,2026-06-03,Greater Manchester - Manchester & Salford,lookup_region,admin_service,7
+2026-06,2026-06-04,Greater Manchester - Manchester & Salford,lookup_region,admin_service,8
+2026-06,2026-06-05,Greater Manchester - Manchester & Salford,lookup_region,admin_service,8
+2026-06,2026-06-06,Greater Manchester - Manchester & Salford,lookup_region,admin_service,13
+2026-06,2026-06-07,Greater Manchester - Manchester & Salford,lookup_region,admin_service,12
+2026-06,2026-06-08,Greater Manchester - Manchester & Salford,lookup_region,admin_service,13
+2026-06,2026-06-09,Greater Manchester - Manchester & Salford,lookup_region,admin_service,11
+2026-06,2026-06-10,Greater Manchester - Manchester & Salford,lookup_region,admin_service,11
+2026-06,2026-06-11,Greater Manchester - Manchester & Salford,lookup_region,admin_service,8
+2026-06,2026-06-12,Greater Manchester - Manchester & Salford,lookup_region,admin_service,3
+2026-06,2026-06-13,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
+2026-06,2026-06-14,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
+2026-06,2026-06-15,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
+2026-06,2026-06-16,Greater Manchester - Manchester & Salford,lookup_region,admin_service,4
+2026-06,2026-06-17,Greater Manchester - Manchester & Salford,lookup_region,admin_service,3
+2026-06,2026-06-18,Greater Manchester - Manchester & Salford,lookup_region,admin_service,3
+2026-06,2026-06-19,Greater Manchester - Manchester & Salford,lookup_region,admin_service,3
+2026-06,2026-06-20,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
+2026-06,2026-06-21,Greater Manchester - Manchester & Salford,lookup_region,admin_service,2
+2026-06,2026-06-22,Greater Manchester - Manchester & Salford,lookup_region,admin_service,1
+2026-06,2026-06-23,Greater Manchester - Manchester & Salford,lookup_region,admin_service,1
+2026-06,2026-06-24,Greater Manchester - Manchester & Salford,lookup_region,admin_service,1
+2026-06,2026-06-25,Greater Manchester - Manchester & Salford,lookup_region,admin_service,5
+2026-06,2026-06-26,Greater Manchester - Manchester & Salford,lookup_region,admin_service,5
+2026-06,2026-06-27,Greater Manchester - Manchester & Salford,lookup_region,admin_service,10
+2026-06,2026-06-28,Greater Manchester - Manchester & Salford,lookup_region,admin_service,10
+2026-06,2026-06-29,Greater Manchester - Manchester & Salford,lookup_region,admin_service,10
+2026-06,2026-06-30,Greater Manchester - Manchester & Salford,lookup_region,admin_service,10
 2026-06,2026-06-01,Greater Manchester - North,lookup_region,admin_service,2
 2026-06,2026-06-02,Greater Manchester - North,lookup_region,admin_service,0
 2026-06,2026-06-03,Greater Manchester - North,lookup_region,admin_service,0
@@ -719,17 +749,17 @@
 2026-06,2026-06-28,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,0
 2026-06,2026-06-29,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,0
 2026-06,2026-06-30,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,0
-2026-06,2026-06-01,Hampshire,lookup_region,admin_service,15
+2026-06,2026-06-01,Hampshire,lookup_region,admin_service,16
 2026-06,2026-06-02,Hampshire,lookup_region,admin_service,7
 2026-06,2026-06-03,Hampshire,lookup_region,admin_service,7
-2026-06,2026-06-04,Hampshire,lookup_region,admin_service,8
-2026-06,2026-06-05,Hampshire,lookup_region,admin_service,5
-2026-06,2026-06-06,Hampshire,lookup_region,admin_service,12
-2026-06,2026-06-07,Hampshire,lookup_region,admin_service,13
-2026-06,2026-06-08,Hampshire,lookup_region,admin_service,14
-2026-06,2026-06-09,Hampshire,lookup_region,admin_service,12
-2026-06,2026-06-10,Hampshire,lookup_region,admin_service,11
-2026-06,2026-06-11,Hampshire,lookup_region,admin_service,10
+2026-06,2026-06-04,Hampshire,lookup_region,admin_service,9
+2026-06,2026-06-05,Hampshire,lookup_region,admin_service,6
+2026-06,2026-06-06,Hampshire,lookup_region,admin_service,13
+2026-06,2026-06-07,Hampshire,lookup_region,admin_service,14
+2026-06,2026-06-08,Hampshire,lookup_region,admin_service,15
+2026-06,2026-06-09,Hampshire,lookup_region,admin_service,13
+2026-06,2026-06-10,Hampshire,lookup_region,admin_service,12
+2026-06,2026-06-11,Hampshire,lookup_region,admin_service,11
 2026-06,2026-06-12,Hampshire,lookup_region,admin_service,6
 2026-06,2026-06-13,Hampshire,lookup_region,admin_service,6
 2026-06,2026-06-14,Hampshire,lookup_region,admin_service,6
@@ -839,6 +869,36 @@
 2026-06,2026-06-28,Highland,lookup_region,admin_service,1
 2026-06,2026-06-29,Highland,lookup_region,admin_service,1
 2026-06,2026-06-30,Highland,lookup_region,admin_service,1
+2026-06,2026-06-01,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-02,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-03,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-04,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-05,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-06,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-07,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-08,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-09,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-10,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-11,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-12,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-13,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-14,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-15,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-16,Highlands & Islands,lookup_region,admin_service,0
+2026-06,2026-06-17,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-18,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-19,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-20,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-21,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-22,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-23,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-24,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-25,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-26,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-27,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-28,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-29,Highlands & Islands,lookup_region,admin_service,1
+2026-06,2026-06-30,Highlands & Islands,lookup_region,admin_service,1
 2026-06,2026-06-01,Isle of Anglesey,lookup_region,admin_service,1
 2026-06,2026-06-02,Isle of Anglesey,lookup_region,admin_service,1
 2026-06,2026-06-03,Isle of Anglesey,lookup_region,admin_service,1
@@ -869,14 +929,14 @@
 2026-06,2026-06-28,Isle of Anglesey,lookup_region,admin_service,0
 2026-06,2026-06-29,Isle of Anglesey,lookup_region,admin_service,0
 2026-06,2026-06-30,Isle of Anglesey,lookup_region,admin_service,0
-2026-06,2026-06-01,Kent,lookup_region,admin_service,11
+2026-06,2026-06-01,Kent,lookup_region,admin_service,12
 2026-06,2026-06-02,Kent,lookup_region,admin_service,6
 2026-06,2026-06-03,Kent,lookup_region,admin_service,5
 2026-06,2026-06-04,Kent,lookup_region,admin_service,4
 2026-06,2026-06-05,Kent,lookup_region,admin_service,4
-2026-06,2026-06-06,Kent,lookup_region,admin_service,7
-2026-06,2026-06-07,Kent,lookup_region,admin_service,7
-2026-06,2026-06-08,Kent,lookup_region,admin_service,7
+2026-06,2026-06-06,Kent,lookup_region,admin_service,8
+2026-06,2026-06-07,Kent,lookup_region,admin_service,8
+2026-06,2026-06-08,Kent,lookup_region,admin_service,8
 2026-06,2026-06-09,Kent,lookup_region,admin_service,11
 2026-06,2026-06-10,Kent,lookup_region,admin_service,10
 2026-06,2026-06-11,Kent,lookup_region,admin_service,10
@@ -895,10 +955,10 @@
 2026-06,2026-06-24,Kent,lookup_region,admin_service,3
 2026-06,2026-06-25,Kent,lookup_region,admin_service,4
 2026-06,2026-06-26,Kent,lookup_region,admin_service,4
-2026-06,2026-06-27,Kent,lookup_region,admin_service,6
-2026-06,2026-06-28,Kent,lookup_region,admin_service,6
-2026-06,2026-06-29,Kent,lookup_region,admin_service,6
-2026-06,2026-06-30,Kent,lookup_region,admin_service,6
+2026-06,2026-06-27,Kent,lookup_region,admin_service,7
+2026-06,2026-06-28,Kent,lookup_region,admin_service,7
+2026-06,2026-06-29,Kent,lookup_region,admin_service,7
+2026-06,2026-06-30,Kent,lookup_region,admin_service,7
 2026-06,2026-06-01,Lancashire - Blackpool & Fylde,lookup_region,admin_service,0
 2026-06,2026-06-02,Lancashire - Blackpool & Fylde,lookup_region,admin_service,0
 2026-06,2026-06-03,Lancashire - Blackpool & Fylde,lookup_region,admin_service,0
@@ -1049,37 +1109,37 @@
 2026-06,2026-06-28,Lancashire - West,lookup_region,admin_service,1
 2026-06,2026-06-29,Lancashire - West,lookup_region,admin_service,1
 2026-06,2026-06-30,Lancashire - West,lookup_region,admin_service,1
-2026-06,2026-06-01,Leicestershire,lookup_region,admin_service,7
-2026-06,2026-06-02,Leicestershire,lookup_region,admin_service,3
-2026-06,2026-06-03,Leicestershire,lookup_region,admin_service,1
-2026-06,2026-06-04,Leicestershire,lookup_region,admin_service,1
-2026-06,2026-06-05,Leicestershire,lookup_region,admin_service,1
-2026-06,2026-06-06,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-07,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-08,Leicestershire,lookup_region,admin_service,8
-2026-06,2026-06-09,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-10,Leicestershire,lookup_region,admin_service,6
+2026-06,2026-06-01,Leicestershire,lookup_region,admin_service,10
+2026-06,2026-06-02,Leicestershire,lookup_region,admin_service,4
+2026-06,2026-06-03,Leicestershire,lookup_region,admin_service,2
+2026-06,2026-06-04,Leicestershire,lookup_region,admin_service,2
+2026-06,2026-06-05,Leicestershire,lookup_region,admin_service,2
+2026-06,2026-06-06,Leicestershire,lookup_region,admin_service,8
+2026-06,2026-06-07,Leicestershire,lookup_region,admin_service,8
+2026-06,2026-06-08,Leicestershire,lookup_region,admin_service,10
+2026-06,2026-06-09,Leicestershire,lookup_region,admin_service,7
+2026-06,2026-06-10,Leicestershire,lookup_region,admin_service,7
 2026-06,2026-06-11,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-12,Leicestershire,lookup_region,admin_service,3
-2026-06,2026-06-13,Leicestershire,lookup_region,admin_service,3
-2026-06,2026-06-14,Leicestershire,lookup_region,admin_service,4
-2026-06,2026-06-15,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-16,Leicestershire,lookup_region,admin_service,5
-2026-06,2026-06-17,Leicestershire,lookup_region,admin_service,4
-2026-06,2026-06-18,Leicestershire,lookup_region,admin_service,5
-2026-06,2026-06-19,Leicestershire,lookup_region,admin_service,5
-2026-06,2026-06-20,Leicestershire,lookup_region,admin_service,4
-2026-06,2026-06-21,Leicestershire,lookup_region,admin_service,4
-2026-06,2026-06-22,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-23,Leicestershire,lookup_region,admin_service,6
-2026-06,2026-06-24,Leicestershire,lookup_region,admin_service,4
-2026-06,2026-06-25,Leicestershire,lookup_region,admin_service,5
-2026-06,2026-06-26,Leicestershire,lookup_region,admin_service,5
-2026-06,2026-06-27,Leicestershire,lookup_region,admin_service,8
-2026-06,2026-06-28,Leicestershire,lookup_region,admin_service,8
-2026-06,2026-06-29,Leicestershire,lookup_region,admin_service,7
-2026-06,2026-06-30,Leicestershire,lookup_region,admin_service,7
-2026-06,2026-06-01,Lincolnshire,lookup_region,admin_service,3
+2026-06,2026-06-12,Leicestershire,lookup_region,admin_service,4
+2026-06,2026-06-13,Leicestershire,lookup_region,admin_service,4
+2026-06,2026-06-14,Leicestershire,lookup_region,admin_service,5
+2026-06,2026-06-15,Leicestershire,lookup_region,admin_service,7
+2026-06,2026-06-16,Leicestershire,lookup_region,admin_service,6
+2026-06,2026-06-17,Leicestershire,lookup_region,admin_service,5
+2026-06,2026-06-18,Leicestershire,lookup_region,admin_service,6
+2026-06,2026-06-19,Leicestershire,lookup_region,admin_service,6
+2026-06,2026-06-20,Leicestershire,lookup_region,admin_service,5
+2026-06,2026-06-21,Leicestershire,lookup_region,admin_service,5
+2026-06,2026-06-22,Leicestershire,lookup_region,admin_service,7
+2026-06,2026-06-23,Leicestershire,lookup_region,admin_service,7
+2026-06,2026-06-24,Leicestershire,lookup_region,admin_service,5
+2026-06,2026-06-25,Leicestershire,lookup_region,admin_service,6
+2026-06,2026-06-26,Leicestershire,lookup_region,admin_service,6
+2026-06,2026-06-27,Leicestershire,lookup_region,admin_service,9
+2026-06,2026-06-28,Leicestershire,lookup_region,admin_service,9
+2026-06,2026-06-29,Leicestershire,lookup_region,admin_service,8
+2026-06,2026-06-30,Leicestershire,lookup_region,admin_service,8
+2026-06,2026-06-01,Lincolnshire,lookup_region,admin_service,4
 2026-06,2026-06-02,Lincolnshire,lookup_region,admin_service,2
 2026-06,2026-06-03,Lincolnshire,lookup_region,admin_service,2
 2026-06,2026-06-04,Lincolnshire,lookup_region,admin_service,2
@@ -1109,36 +1169,36 @@
 2026-06,2026-06-28,Lincolnshire,lookup_region,admin_service,4
 2026-06,2026-06-29,Lincolnshire,lookup_region,admin_service,4
 2026-06,2026-06-30,Lincolnshire,lookup_region,admin_service,4
-2026-06,2026-06-01,London,lookup_region,admin_service,24
-2026-06,2026-06-02,London,lookup_region,admin_service,11
-2026-06,2026-06-03,London,lookup_region,admin_service,12
-2026-06,2026-06-04,London,lookup_region,admin_service,19
-2026-06,2026-06-05,London,lookup_region,admin_service,20
-2026-06,2026-06-06,London,lookup_region,admin_service,29
-2026-06,2026-06-07,London,lookup_region,admin_service,29
-2026-06,2026-06-08,London,lookup_region,admin_service,28
-2026-06,2026-06-09,London,lookup_region,admin_service,28
-2026-06,2026-06-10,London,lookup_region,admin_service,30
-2026-06,2026-06-11,London,lookup_region,admin_service,29
-2026-06,2026-06-12,London,lookup_region,admin_service,11
-2026-06,2026-06-13,London,lookup_region,admin_service,10
-2026-06,2026-06-14,London,lookup_region,admin_service,10
-2026-06,2026-06-15,London,lookup_region,admin_service,15
-2026-06,2026-06-16,London,lookup_region,admin_service,16
-2026-06,2026-06-17,London,lookup_region,admin_service,13
-2026-06,2026-06-18,London,lookup_region,admin_service,7
-2026-06,2026-06-19,London,lookup_region,admin_service,6
-2026-06,2026-06-20,London,lookup_region,admin_service,8
-2026-06,2026-06-21,London,lookup_region,admin_service,7
-2026-06,2026-06-22,London,lookup_region,admin_service,7
-2026-06,2026-06-23,London,lookup_region,admin_service,7
-2026-06,2026-06-24,London,lookup_region,admin_service,7
-2026-06,2026-06-25,London,lookup_region,admin_service,9
-2026-06,2026-06-26,London,lookup_region,admin_service,10
-2026-06,2026-06-27,London,lookup_region,admin_service,13
-2026-06,2026-06-28,London,lookup_region,admin_service,13
-2026-06,2026-06-29,London,lookup_region,admin_service,13
-2026-06,2026-06-30,London,lookup_region,admin_service,13
+2026-06,2026-06-01,London,lookup_region,admin_service,61
+2026-06,2026-06-02,London,lookup_region,admin_service,23
+2026-06,2026-06-03,London,lookup_region,admin_service,25
+2026-06,2026-06-04,London,lookup_region,admin_service,32
+2026-06,2026-06-05,London,lookup_region,admin_service,34
+2026-06,2026-06-06,London,lookup_region,admin_service,54
+2026-06,2026-06-07,London,lookup_region,admin_service,52
+2026-06,2026-06-08,London,lookup_region,admin_service,52
+2026-06,2026-06-09,London,lookup_region,admin_service,51
+2026-06,2026-06-10,London,lookup_region,admin_service,52
+2026-06,2026-06-11,London,lookup_region,admin_service,51
+2026-06,2026-06-12,London,lookup_region,admin_service,24
+2026-06,2026-06-13,London,lookup_region,admin_service,21
+2026-06,2026-06-14,London,lookup_region,admin_service,20
+2026-06,2026-06-15,London,lookup_region,admin_service,24
+2026-06,2026-06-16,London,lookup_region,admin_service,27
+2026-06,2026-06-17,London,lookup_region,admin_service,23
+2026-06,2026-06-18,London,lookup_region,admin_service,18
+2026-06,2026-06-19,London,lookup_region,admin_service,16
+2026-06,2026-06-20,London,lookup_region,admin_service,17
+2026-06,2026-06-21,London,lookup_region,admin_service,16
+2026-06,2026-06-22,London,lookup_region,admin_service,16
+2026-06,2026-06-23,London,lookup_region,admin_service,17
+2026-06,2026-06-24,London,lookup_region,admin_service,15
+2026-06,2026-06-25,London,lookup_region,admin_service,24
+2026-06,2026-06-26,London,lookup_region,admin_service,24
+2026-06,2026-06-27,London,lookup_region,admin_service,31
+2026-06,2026-06-28,London,lookup_region,admin_service,31
+2026-06,2026-06-29,London,lookup_region,admin_service,31
+2026-06,2026-06-30,London,lookup_region,admin_service,31
 2026-06,2026-06-01,Merseyside - Liverpool,lookup_region,admin_service,3
 2026-06,2026-06-02,Merseyside - Liverpool,lookup_region,admin_service,3
 2026-06,2026-06-03,Merseyside - Liverpool,lookup_region,admin_service,3
@@ -1229,14 +1289,14 @@
 2026-06,2026-06-28,Merseyside - St Helens & Knowsley,lookup_region,admin_service,0
 2026-06,2026-06-29,Merseyside - St Helens & Knowsley,lookup_region,admin_service,0
 2026-06,2026-06-30,Merseyside - St Helens & Knowsley,lookup_region,admin_service,0
-2026-06,2026-06-01,Norfolk,lookup_region,admin_service,11
-2026-06,2026-06-02,Norfolk,lookup_region,admin_service,6
-2026-06,2026-06-03,Norfolk,lookup_region,admin_service,6
-2026-06,2026-06-04,Norfolk,lookup_region,admin_service,6
-2026-06,2026-06-05,Norfolk,lookup_region,admin_service,6
-2026-06,2026-06-06,Norfolk,lookup_region,admin_service,8
-2026-06,2026-06-07,Norfolk,lookup_region,admin_service,6
-2026-06,2026-06-08,Norfolk,lookup_region,admin_service,7
+2026-06,2026-06-01,Norfolk,lookup_region,admin_service,13
+2026-06,2026-06-02,Norfolk,lookup_region,admin_service,7
+2026-06,2026-06-03,Norfolk,lookup_region,admin_service,7
+2026-06,2026-06-04,Norfolk,lookup_region,admin_service,7
+2026-06,2026-06-05,Norfolk,lookup_region,admin_service,7
+2026-06,2026-06-06,Norfolk,lookup_region,admin_service,9
+2026-06,2026-06-07,Norfolk,lookup_region,admin_service,7
+2026-06,2026-06-08,Norfolk,lookup_region,admin_service,8
 2026-06,2026-06-09,Norfolk,lookup_region,admin_service,7
 2026-06,2026-06-10,Norfolk,lookup_region,admin_service,7
 2026-06,2026-06-11,Norfolk,lookup_region,admin_service,7
@@ -1559,19 +1619,19 @@
 2026-06,2026-06-28,Northern Ireland - West,lookup_region,admin_service,1
 2026-06,2026-06-29,Northern Ireland - West,lookup_region,admin_service,1
 2026-06,2026-06-30,Northern Ireland - West,lookup_region,admin_service,1
-2026-06,2026-06-01,Nottinghamshire,lookup_region,admin_service,4
+2026-06,2026-06-01,Nottinghamshire,lookup_region,admin_service,5
 2026-06,2026-06-02,Nottinghamshire,lookup_region,admin_service,3
 2026-06,2026-06-03,Nottinghamshire,lookup_region,admin_service,1
 2026-06,2026-06-04,Nottinghamshire,lookup_region,admin_service,1
 2026-06,2026-06-05,Nottinghamshire,lookup_region,admin_service,1
-2026-06,2026-06-06,Nottinghamshire,lookup_region,admin_service,3
-2026-06,2026-06-07,Nottinghamshire,lookup_region,admin_service,3
-2026-06,2026-06-08,Nottinghamshire,lookup_region,admin_service,5
-2026-06,2026-06-09,Nottinghamshire,lookup_region,admin_service,3
-2026-06,2026-06-10,Nottinghamshire,lookup_region,admin_service,2
-2026-06,2026-06-11,Nottinghamshire,lookup_region,admin_service,1
+2026-06,2026-06-06,Nottinghamshire,lookup_region,admin_service,4
+2026-06,2026-06-07,Nottinghamshire,lookup_region,admin_service,4
+2026-06,2026-06-08,Nottinghamshire,lookup_region,admin_service,6
+2026-06,2026-06-09,Nottinghamshire,lookup_region,admin_service,5
+2026-06,2026-06-10,Nottinghamshire,lookup_region,admin_service,4
+2026-06,2026-06-11,Nottinghamshire,lookup_region,admin_service,2
 2026-06,2026-06-12,Nottinghamshire,lookup_region,admin_service,1
-2026-06,2026-06-13,Nottinghamshire,lookup_region,admin_service,2
+2026-06,2026-06-13,Nottinghamshire,lookup_region,admin_service,3
 2026-06,2026-06-14,Nottinghamshire,lookup_region,admin_service,2
 2026-06,2026-06-15,Nottinghamshire,lookup_region,admin_service,4
 2026-06,2026-06-16,Nottinghamshire,lookup_region,admin_service,2
@@ -1580,7 +1640,7 @@
 2026-06,2026-06-19,Nottinghamshire,lookup_region,admin_service,0
 2026-06,2026-06-20,Nottinghamshire,lookup_region,admin_service,0
 2026-06,2026-06-21,Nottinghamshire,lookup_region,admin_service,0
-2026-06,2026-06-22,Nottinghamshire,lookup_region,admin_service,2
+2026-06,2026-06-22,Nottinghamshire,lookup_region,admin_service,3
 2026-06,2026-06-23,Nottinghamshire,lookup_region,admin_service,3
 2026-06,2026-06-24,Nottinghamshire,lookup_region,admin_service,1
 2026-06,2026-06-25,Nottinghamshire,lookup_region,admin_service,2
@@ -1589,16 +1649,46 @@
 2026-06,2026-06-28,Nottinghamshire,lookup_region,admin_service,3
 2026-06,2026-06-29,Nottinghamshire,lookup_region,admin_service,3
 2026-06,2026-06-30,Nottinghamshire,lookup_region,admin_service,3
-2026-06,2026-06-01,Oxfordshire,lookup_region,admin_service,4
+2026-06,2026-06-01,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-02,Other / Unknown,lookup_region,admin_service,2
+2026-06,2026-06-03,Other / Unknown,lookup_region,admin_service,1
+2026-06,2026-06-04,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-05,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-06,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-07,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-08,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-09,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-10,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-11,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-12,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-13,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-14,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-15,Other / Unknown,lookup_region,admin_service,9
+2026-06,2026-06-16,Other / Unknown,lookup_region,admin_service,9
+2026-06,2026-06-17,Other / Unknown,lookup_region,admin_service,7
+2026-06,2026-06-18,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-19,Other / Unknown,lookup_region,admin_service,5
+2026-06,2026-06-20,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-21,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-22,Other / Unknown,lookup_region,admin_service,4
+2026-06,2026-06-23,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-24,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-25,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-26,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-27,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-28,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-29,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-30,Other / Unknown,lookup_region,admin_service,3
+2026-06,2026-06-01,Oxfordshire,lookup_region,admin_service,5
 2026-06,2026-06-02,Oxfordshire,lookup_region,admin_service,1
 2026-06,2026-06-03,Oxfordshire,lookup_region,admin_service,1
 2026-06,2026-06-04,Oxfordshire,lookup_region,admin_service,1
 2026-06,2026-06-05,Oxfordshire,lookup_region,admin_service,1
-2026-06,2026-06-06,Oxfordshire,lookup_region,admin_service,5
-2026-06,2026-06-07,Oxfordshire,lookup_region,admin_service,5
-2026-06,2026-06-08,Oxfordshire,lookup_region,admin_service,4
-2026-06,2026-06-09,Oxfordshire,lookup_region,admin_service,3
-2026-06,2026-06-10,Oxfordshire,lookup_region,admin_service,3
+2026-06,2026-06-06,Oxfordshire,lookup_region,admin_service,6
+2026-06,2026-06-07,Oxfordshire,lookup_region,admin_service,6
+2026-06,2026-06-08,Oxfordshire,lookup_region,admin_service,5
+2026-06,2026-06-09,Oxfordshire,lookup_region,admin_service,4
+2026-06,2026-06-10,Oxfordshire,lookup_region,admin_service,4
 2026-06,2026-06-11,Oxfordshire,lookup_region,admin_service,1
 2026-06,2026-06-12,Oxfordshire,lookup_region,admin_service,1
 2026-06,2026-06-13,Oxfordshire,lookup_region,admin_service,1
@@ -1877,18 +1967,48 @@
 2026-06,2026-06-16,Somerset,lookup_region,admin_service,3
 2026-06,2026-06-17,Somerset,lookup_region,admin_service,3
 2026-06,2026-06-18,Somerset,lookup_region,admin_service,3
-2026-06,2026-06-19,Somerset,lookup_region,admin_service,3
-2026-06,2026-06-20,Somerset,lookup_region,admin_service,3
+2026-06,2026-06-19,Somerset,lookup_region,admin_service,4
+2026-06,2026-06-20,Somerset,lookup_region,admin_service,4
 2026-06,2026-06-21,Somerset,lookup_region,admin_service,3
 2026-06,2026-06-22,Somerset,lookup_region,admin_service,3
 2026-06,2026-06-23,Somerset,lookup_region,admin_service,2
 2026-06,2026-06-24,Somerset,lookup_region,admin_service,2
-2026-06,2026-06-25,Somerset,lookup_region,admin_service,4
+2026-06,2026-06-25,Somerset,lookup_region,admin_service,5
 2026-06,2026-06-26,Somerset,lookup_region,admin_service,3
 2026-06,2026-06-27,Somerset,lookup_region,admin_service,6
-2026-06,2026-06-28,Somerset,lookup_region,admin_service,6
-2026-06,2026-06-29,Somerset,lookup_region,admin_service,6
-2026-06,2026-06-30,Somerset,lookup_region,admin_service,6
+2026-06,2026-06-28,Somerset,lookup_region,admin_service,7
+2026-06,2026-06-29,Somerset,lookup_region,admin_service,7
+2026-06,2026-06-30,Somerset,lookup_region,admin_service,7
+2026-06,2026-06-01,South West,lookup_region,admin_service,1
+2026-06,2026-06-02,South West,lookup_region,admin_service,0
+2026-06,2026-06-03,South West,lookup_region,admin_service,0
+2026-06,2026-06-04,South West,lookup_region,admin_service,0
+2026-06,2026-06-05,South West,lookup_region,admin_service,0
+2026-06,2026-06-06,South West,lookup_region,admin_service,0
+2026-06,2026-06-07,South West,lookup_region,admin_service,0
+2026-06,2026-06-08,South West,lookup_region,admin_service,0
+2026-06,2026-06-09,South West,lookup_region,admin_service,0
+2026-06,2026-06-10,South West,lookup_region,admin_service,0
+2026-06,2026-06-11,South West,lookup_region,admin_service,0
+2026-06,2026-06-12,South West,lookup_region,admin_service,0
+2026-06,2026-06-13,South West,lookup_region,admin_service,0
+2026-06,2026-06-14,South West,lookup_region,admin_service,0
+2026-06,2026-06-15,South West,lookup_region,admin_service,0
+2026-06,2026-06-16,South West,lookup_region,admin_service,0
+2026-06,2026-06-17,South West,lookup_region,admin_service,0
+2026-06,2026-06-18,South West,lookup_region,admin_service,0
+2026-06,2026-06-19,South West,lookup_region,admin_service,0
+2026-06,2026-06-20,South West,lookup_region,admin_service,0
+2026-06,2026-06-21,South West,lookup_region,admin_service,0
+2026-06,2026-06-22,South West,lookup_region,admin_service,0
+2026-06,2026-06-23,South West,lookup_region,admin_service,0
+2026-06,2026-06-24,South West,lookup_region,admin_service,0
+2026-06,2026-06-25,South West,lookup_region,admin_service,0
+2026-06,2026-06-26,South West,lookup_region,admin_service,0
+2026-06,2026-06-27,South West,lookup_region,admin_service,0
+2026-06,2026-06-28,South West,lookup_region,admin_service,0
+2026-06,2026-06-29,South West,lookup_region,admin_service,0
+2026-06,2026-06-30,South West,lookup_region,admin_service,0
 2026-06,2026-06-01,Staffordshire,lookup_region,admin_service,9
 2026-06,2026-06-02,Staffordshire,lookup_region,admin_service,4
 2026-06,2026-06-03,Staffordshire,lookup_region,admin_service,5
@@ -1961,36 +2081,36 @@
 2026-06,2026-06-10,Surrey,lookup_region,admin_service,15
 2026-06,2026-06-11,Surrey,lookup_region,admin_service,13
 2026-06,2026-06-12,Surrey,lookup_region,admin_service,7
-2026-06,2026-06-13,Surrey,lookup_region,admin_service,7
-2026-06,2026-06-14,Surrey,lookup_region,admin_service,7
-2026-06,2026-06-15,Surrey,lookup_region,admin_service,8
-2026-06,2026-06-16,Surrey,lookup_region,admin_service,9
+2026-06,2026-06-13,Surrey,lookup_region,admin_service,8
+2026-06,2026-06-14,Surrey,lookup_region,admin_service,8
+2026-06,2026-06-15,Surrey,lookup_region,admin_service,9
+2026-06,2026-06-16,Surrey,lookup_region,admin_service,10
 2026-06,2026-06-17,Surrey,lookup_region,admin_service,6
 2026-06,2026-06-18,Surrey,lookup_region,admin_service,6
 2026-06,2026-06-19,Surrey,lookup_region,admin_service,8
 2026-06,2026-06-20,Surrey,lookup_region,admin_service,7
 2026-06,2026-06-21,Surrey,lookup_region,admin_service,7
-2026-06,2026-06-22,Surrey,lookup_region,admin_service,8
-2026-06,2026-06-23,Surrey,lookup_region,admin_service,8
-2026-06,2026-06-24,Surrey,lookup_region,admin_service,8
-2026-06,2026-06-25,Surrey,lookup_region,admin_service,10
-2026-06,2026-06-26,Surrey,lookup_region,admin_service,10
+2026-06,2026-06-22,Surrey,lookup_region,admin_service,9
+2026-06,2026-06-23,Surrey,lookup_region,admin_service,9
+2026-06,2026-06-24,Surrey,lookup_region,admin_service,9
+2026-06,2026-06-25,Surrey,lookup_region,admin_service,11
+2026-06,2026-06-26,Surrey,lookup_region,admin_service,11
 2026-06,2026-06-27,Surrey,lookup_region,admin_service,18
 2026-06,2026-06-28,Surrey,lookup_region,admin_service,19
 2026-06,2026-06-29,Surrey,lookup_region,admin_service,19
 2026-06,2026-06-30,Surrey,lookup_region,admin_service,19
-2026-06,2026-06-01,Sussex,lookup_region,admin_service,12
-2026-06,2026-06-02,Sussex,lookup_region,admin_service,8
-2026-06,2026-06-03,Sussex,lookup_region,admin_service,7
-2026-06,2026-06-04,Sussex,lookup_region,admin_service,7
-2026-06,2026-06-05,Sussex,lookup_region,admin_service,7
-2026-06,2026-06-06,Sussex,lookup_region,admin_service,9
-2026-06,2026-06-07,Sussex,lookup_region,admin_service,9
-2026-06,2026-06-08,Sussex,lookup_region,admin_service,9
-2026-06,2026-06-09,Sussex,lookup_region,admin_service,9
-2026-06,2026-06-10,Sussex,lookup_region,admin_service,9
-2026-06,2026-06-11,Sussex,lookup_region,admin_service,10
-2026-06,2026-06-12,Sussex,lookup_region,admin_service,5
+2026-06,2026-06-01,Sussex,lookup_region,admin_service,13
+2026-06,2026-06-02,Sussex,lookup_region,admin_service,9
+2026-06,2026-06-03,Sussex,lookup_region,admin_service,8
+2026-06,2026-06-04,Sussex,lookup_region,admin_service,8
+2026-06,2026-06-05,Sussex,lookup_region,admin_service,8
+2026-06,2026-06-06,Sussex,lookup_region,admin_service,10
+2026-06,2026-06-07,Sussex,lookup_region,admin_service,10
+2026-06,2026-06-08,Sussex,lookup_region,admin_service,10
+2026-06,2026-06-09,Sussex,lookup_region,admin_service,10
+2026-06,2026-06-10,Sussex,lookup_region,admin_service,10
+2026-06,2026-06-11,Sussex,lookup_region,admin_service,12
+2026-06,2026-06-12,Sussex,lookup_region,admin_service,6
 2026-06,2026-06-13,Sussex,lookup_region,admin_service,4
 2026-06,2026-06-14,Sussex,lookup_region,admin_service,4
 2026-06,2026-06-15,Sussex,lookup_region,admin_service,4
@@ -2189,37 +2309,67 @@
 2026-06,2026-06-28,Wales South -gwent,lookup_region,admin_service,0
 2026-06,2026-06-29,Wales South -gwent,lookup_region,admin_service,0
 2026-06,2026-06-30,Wales South -gwent,lookup_region,admin_service,0
-2026-06,2026-06-01,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-02,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-03,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-04,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-05,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-06,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-07,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-08,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-09,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-10,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-11,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-12,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-13,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-14,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-15,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-16,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-17,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-18,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-19,West Midlands - Birmingham & Solihull,lookup_region,admin_service,0
-2026-06,2026-06-20,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-21,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-22,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-23,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-24,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-25,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-26,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
-2026-06,2026-06-27,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
-2026-06,2026-06-28,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
-2026-06,2026-06-29,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
-2026-06,2026-06-30,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
-2026-06,2026-06-01,West Midlands - Black Country,lookup_region,admin_service,2
+2026-06,2026-06-01,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-02,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-03,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-04,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-05,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-06,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-07,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-08,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-09,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-10,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-11,West Midlands,lookup_region,admin_service,0
+2026-06,2026-06-12,West Midlands,lookup_region,admin_service,1
+2026-06,2026-06-13,West Midlands,lookup_region,admin_service,1
+2026-06,2026-06-14,West Midlands,lookup_region,admin_service,1
+2026-06,2026-06-15,West Midlands,lookup_region,admin_service,1
+2026-06,2026-06-16,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-17,West Midlands,lookup_region,admin_service,3
+2026-06,2026-06-18,West Midlands,lookup_region,admin_service,3
+2026-06,2026-06-19,West Midlands,lookup_region,admin_service,3
+2026-06,2026-06-20,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-21,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-22,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-23,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-24,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-25,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-26,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-27,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-28,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-29,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-30,West Midlands,lookup_region,admin_service,2
+2026-06,2026-06-01,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-02,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-03,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-04,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-05,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
+2026-06,2026-06-06,West Midlands - Birmingham & Solihull,lookup_region,admin_service,4
+2026-06,2026-06-07,West Midlands - Birmingham & Solihull,lookup_region,admin_service,4
+2026-06,2026-06-08,West Midlands - Birmingham & Solihull,lookup_region,admin_service,4
+2026-06,2026-06-09,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-10,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-11,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
+2026-06,2026-06-12,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-13,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
+2026-06,2026-06-14,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
+2026-06,2026-06-15,West Midlands - Birmingham & Solihull,lookup_region,admin_service,2
+2026-06,2026-06-16,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-17,West Midlands - Birmingham & Solihull,lookup_region,admin_service,1
+2026-06,2026-06-18,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-06,2026-06-19,West Midlands - Birmingham & Solihull,lookup_region,admin_service,4
+2026-06,2026-06-20,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-21,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-22,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-23,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-24,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-25,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-26,West Midlands - Birmingham & Solihull,lookup_region,admin_service,5
+2026-06,2026-06-27,West Midlands - Birmingham & Solihull,lookup_region,admin_service,9
+2026-06,2026-06-28,West Midlands - Birmingham & Solihull,lookup_region,admin_service,9
+2026-06,2026-06-29,West Midlands - Birmingham & Solihull,lookup_region,admin_service,9
+2026-06,2026-06-30,West Midlands - Birmingham & Solihull,lookup_region,admin_service,9
+2026-06,2026-06-01,West Midlands - Black Country,lookup_region,admin_service,3
 2026-06,2026-06-02,West Midlands - Black Country,lookup_region,admin_service,1
 2026-06,2026-06-03,West Midlands - Black Country,lookup_region,admin_service,1
 2026-06,2026-06-04,West Midlands - Black Country,lookup_region,admin_service,1
@@ -2227,9 +2377,9 @@
 2026-06,2026-06-06,West Midlands - Black Country,lookup_region,admin_service,2
 2026-06,2026-06-07,West Midlands - Black Country,lookup_region,admin_service,2
 2026-06,2026-06-08,West Midlands - Black Country,lookup_region,admin_service,2
-2026-06,2026-06-09,West Midlands - Black Country,lookup_region,admin_service,2
-2026-06,2026-06-10,West Midlands - Black Country,lookup_region,admin_service,1
-2026-06,2026-06-11,West Midlands - Black Country,lookup_region,admin_service,1
+2026-06,2026-06-09,West Midlands - Black Country,lookup_region,admin_service,3
+2026-06,2026-06-10,West Midlands - Black Country,lookup_region,admin_service,2
+2026-06,2026-06-11,West Midlands - Black Country,lookup_region,admin_service,3
 2026-06,2026-06-12,West Midlands - Black Country,lookup_region,admin_service,0
 2026-06,2026-06-13,West Midlands - Black Country,lookup_region,admin_service,0
 2026-06,2026-06-14,West Midlands - Black Country,lookup_region,admin_service,0
@@ -2244,11 +2394,11 @@
 2026-06,2026-06-23,West Midlands - Black Country,lookup_region,admin_service,0
 2026-06,2026-06-24,West Midlands - Black Country,lookup_region,admin_service,0
 2026-06,2026-06-25,West Midlands - Black Country,lookup_region,admin_service,0
-2026-06,2026-06-26,West Midlands - Black Country,lookup_region,admin_service,0
-2026-06,2026-06-27,West Midlands - Black Country,lookup_region,admin_service,0
-2026-06,2026-06-28,West Midlands - Black Country,lookup_region,admin_service,0
-2026-06,2026-06-29,West Midlands - Black Country,lookup_region,admin_service,0
-2026-06,2026-06-30,West Midlands - Black Country,lookup_region,admin_service,0
+2026-06,2026-06-26,West Midlands - Black Country,lookup_region,admin_service,1
+2026-06,2026-06-27,West Midlands - Black Country,lookup_region,admin_service,1
+2026-06,2026-06-28,West Midlands - Black Country,lookup_region,admin_service,1
+2026-06,2026-06-29,West Midlands - Black Country,lookup_region,admin_service,1
+2026-06,2026-06-30,West Midlands - Black Country,lookup_region,admin_service,1
 2026-06,2026-06-01,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,9
 2026-06,2026-06-02,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
 2026-06,2026-06-03,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
@@ -2261,10 +2411,10 @@
 2026-06,2026-06-10,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,6
 2026-06,2026-06-11,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,7
 2026-06,2026-06-12,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-13,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-14,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-15,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-16,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
+2026-06,2026-06-13,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-06,2026-06-14,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-06,2026-06-15,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-06,2026-06-16,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
 2026-06,2026-06-17,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,2
 2026-06,2026-06-18,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,2
 2026-06,2026-06-19,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,2
@@ -2272,9 +2422,9 @@
 2026-06,2026-06-21,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,3
 2026-06,2026-06-22,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,3
 2026-06,2026-06-23,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-24,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-25,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
-2026-06,2026-06-26,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,4
+2026-06,2026-06-24,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-06,2026-06-25,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-06,2026-06-26,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
 2026-06,2026-06-27,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,7
 2026-06,2026-06-28,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,7
 2026-06,2026-06-29,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,7
@@ -2489,36 +2639,6 @@
 2026-06,2026-06-28,Yorkshire - West,lookup_region,admin_service,11
 2026-06,2026-06-29,Yorkshire - West,lookup_region,admin_service,11
 2026-06,2026-06-30,Yorkshire - West,lookup_region,admin_service,11
-2026-06,2026-06-01,unknown,lookup_region,admin_service,71
-2026-06,2026-06-02,unknown,lookup_region,admin_service,25
-2026-06,2026-06-03,unknown,lookup_region,admin_service,26
-2026-06,2026-06-04,unknown,lookup_region,admin_service,31
-2026-06,2026-06-05,unknown,lookup_region,admin_service,31
-2026-06,2026-06-06,unknown,lookup_region,admin_service,47
-2026-06,2026-06-07,unknown,lookup_region,admin_service,45
-2026-06,2026-06-08,unknown,lookup_region,admin_service,47
-2026-06,2026-06-09,unknown,lookup_region,admin_service,46
-2026-06,2026-06-10,unknown,lookup_region,admin_service,45
-2026-06,2026-06-11,unknown,lookup_region,admin_service,40
-2026-06,2026-06-12,unknown,lookup_region,admin_service,25
-2026-06,2026-06-13,unknown,lookup_region,admin_service,26
-2026-06,2026-06-14,unknown,lookup_region,admin_service,23
-2026-06,2026-06-15,unknown,lookup_region,admin_service,27
-2026-06,2026-06-16,unknown,lookup_region,admin_service,31
-2026-06,2026-06-17,unknown,lookup_region,admin_service,26
-2026-06,2026-06-18,unknown,lookup_region,admin_service,27
-2026-06,2026-06-19,unknown,lookup_region,admin_service,28
-2026-06,2026-06-20,unknown,lookup_region,admin_service,26
-2026-06,2026-06-21,unknown,lookup_region,admin_service,25
-2026-06,2026-06-22,unknown,lookup_region,admin_service,26
-2026-06,2026-06-23,unknown,lookup_region,admin_service,25
-2026-06,2026-06-24,unknown,lookup_region,admin_service,24
-2026-06,2026-06-25,unknown,lookup_region,admin_service,33
-2026-06,2026-06-26,unknown,lookup_region,admin_service,32
-2026-06,2026-06-27,unknown,lookup_region,admin_service,38
-2026-06,2026-06-28,unknown,lookup_region,admin_service,39
-2026-06,2026-06-29,unknown,lookup_region,admin_service,39
-2026-06,2026-06-30,unknown,lookup_region,admin_service,39
 2026-06,2026-06-01,Aberdeenshire,lookup_region,customer_service_contact_centre,0
 2026-06,2026-06-02,Aberdeenshire,lookup_region,customer_service_contact_centre,0
 2026-06,2026-06-03,Aberdeenshire,lookup_region,customer_service_contact_centre,0
@@ -3025,10 +3145,10 @@
 2026-06,2026-06-24,London,lookup_region,customer_service_contact_centre,2
 2026-06,2026-06-25,London,lookup_region,customer_service_contact_centre,3
 2026-06,2026-06-26,London,lookup_region,customer_service_contact_centre,3
-2026-06,2026-06-27,London,lookup_region,customer_service_contact_centre,3
-2026-06,2026-06-28,London,lookup_region,customer_service_contact_centre,3
-2026-06,2026-06-29,London,lookup_region,customer_service_contact_centre,3
-2026-06,2026-06-30,London,lookup_region,customer_service_contact_centre,3
+2026-06,2026-06-27,London,lookup_region,customer_service_contact_centre,5
+2026-06,2026-06-28,London,lookup_region,customer_service_contact_centre,5
+2026-06,2026-06-29,London,lookup_region,customer_service_contact_centre,5
+2026-06,2026-06-30,London,lookup_region,customer_service_contact_centre,5
 2026-06,2026-06-01,North East,published_aggregate,customer_service_contact_centre,0
 2026-06,2026-06-02,North East,published_aggregate,customer_service_contact_centre,0
 2026-06,2026-06-03,North East,published_aggregate,customer_service_contact_centre,0
@@ -3209,6 +3329,36 @@
 2026-06,2026-06-28,Nottinghamshire,lookup_region,customer_service_contact_centre,1
 2026-06,2026-06-29,Nottinghamshire,lookup_region,customer_service_contact_centre,1
 2026-06,2026-06-30,Nottinghamshire,lookup_region,customer_service_contact_centre,1
+2026-06,2026-06-01,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-02,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-03,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-04,Other / Unknown,lookup_region,customer_service_contact_centre,2
+2026-06,2026-06-05,Other / Unknown,lookup_region,customer_service_contact_centre,2
+2026-06,2026-06-06,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-07,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-08,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-09,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-10,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-11,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-12,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-13,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-14,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-15,Other / Unknown,lookup_region,customer_service_contact_centre,1
+2026-06,2026-06-16,Other / Unknown,lookup_region,customer_service_contact_centre,1
+2026-06,2026-06-17,Other / Unknown,lookup_region,customer_service_contact_centre,1
+2026-06,2026-06-18,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-19,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-20,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-21,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-22,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-23,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-24,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-25,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-26,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-27,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-28,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-29,Other / Unknown,lookup_region,customer_service_contact_centre,0
+2026-06,2026-06-30,Other / Unknown,lookup_region,customer_service_contact_centre,0
 2026-06,2026-06-01,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,0
 2026-06,2026-06-02,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,0
 2026-06,2026-06-03,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,0
@@ -3539,36 +3689,36 @@
 2026-06,2026-06-28,Yorkshire - West,lookup_region,customer_service_contact_centre,1
 2026-06,2026-06-29,Yorkshire - West,lookup_region,customer_service_contact_centre,1
 2026-06,2026-06-30,Yorkshire - West,lookup_region,customer_service_contact_centre,1
-2026-06,2026-06-01,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-02,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-03,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-04,unknown,lookup_region,customer_service_contact_centre,2
-2026-06,2026-06-05,unknown,lookup_region,customer_service_contact_centre,2
-2026-06,2026-06-06,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-07,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-08,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-09,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-10,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-11,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-12,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-13,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-14,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-15,unknown,lookup_region,customer_service_contact_centre,1
-2026-06,2026-06-16,unknown,lookup_region,customer_service_contact_centre,1
-2026-06,2026-06-17,unknown,lookup_region,customer_service_contact_centre,1
-2026-06,2026-06-18,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-19,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-20,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-21,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-22,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-23,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-24,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-25,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-26,unknown,lookup_region,customer_service_contact_centre,0
-2026-06,2026-06-27,unknown,lookup_region,customer_service_contact_centre,2
-2026-06,2026-06-28,unknown,lookup_region,customer_service_contact_centre,2
-2026-06,2026-06-29,unknown,lookup_region,customer_service_contact_centre,2
-2026-06,2026-06-30,unknown,lookup_region,customer_service_contact_centre,2
+2026-06,2026-06-01,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-02,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-03,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-04,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-05,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-06,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-07,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-08,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-09,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-10,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-11,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-12,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-13,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-14,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-15,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-16,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-17,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-18,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-19,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-20,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-21,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-22,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-23,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-24,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-25,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-26,Aberdeenshire,lookup_region,finance_accounts,1
+2026-06,2026-06-27,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-28,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-29,Aberdeenshire,lookup_region,finance_accounts,0
+2026-06,2026-06-30,Aberdeenshire,lookup_region,finance_accounts,0
 2026-06,2026-06-01,Berkshire,lookup_region,finance_accounts,1
 2026-06,2026-06-02,Berkshire,lookup_region,finance_accounts,1
 2026-06,2026-06-03,Berkshire,lookup_region,finance_accounts,1
@@ -3773,12 +3923,42 @@
 2026-06,2026-06-22,Derbyshire,lookup_region,finance_accounts,0
 2026-06,2026-06-23,Derbyshire,lookup_region,finance_accounts,0
 2026-06,2026-06-24,Derbyshire,lookup_region,finance_accounts,0
-2026-06,2026-06-25,Derbyshire,lookup_region,finance_accounts,1
-2026-06,2026-06-26,Derbyshire,lookup_region,finance_accounts,1
-2026-06,2026-06-27,Derbyshire,lookup_region,finance_accounts,1
-2026-06,2026-06-28,Derbyshire,lookup_region,finance_accounts,1
-2026-06,2026-06-29,Derbyshire,lookup_region,finance_accounts,1
-2026-06,2026-06-30,Derbyshire,lookup_region,finance_accounts,1
+2026-06,2026-06-25,Derbyshire,lookup_region,finance_accounts,2
+2026-06,2026-06-26,Derbyshire,lookup_region,finance_accounts,2
+2026-06,2026-06-27,Derbyshire,lookup_region,finance_accounts,2
+2026-06,2026-06-28,Derbyshire,lookup_region,finance_accounts,2
+2026-06,2026-06-29,Derbyshire,lookup_region,finance_accounts,2
+2026-06,2026-06-30,Derbyshire,lookup_region,finance_accounts,2
+2026-06,2026-06-01,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-02,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-03,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-04,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-05,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-06,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-07,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-08,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-09,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-10,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-11,Devon,lookup_region,finance_accounts,0
+2026-06,2026-06-12,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-13,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-14,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-15,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-16,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-17,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-18,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-19,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-20,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-21,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-22,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-23,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-24,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-25,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-26,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-27,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-28,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-29,Devon,lookup_region,finance_accounts,1
+2026-06,2026-06-30,Devon,lookup_region,finance_accounts,1
 2026-06,2026-06-01,East Midlands,lookup_region,finance_accounts,0
 2026-06,2026-06-02,East Midlands,lookup_region,finance_accounts,0
 2026-06,2026-06-03,East Midlands,lookup_region,finance_accounts,0
@@ -4049,6 +4229,36 @@
 2026-06,2026-06-28,Hertfordshire,lookup_region,finance_accounts,3
 2026-06,2026-06-29,Hertfordshire,lookup_region,finance_accounts,3
 2026-06,2026-06-30,Hertfordshire,lookup_region,finance_accounts,3
+2026-06,2026-06-01,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-02,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-03,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-04,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-05,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-06,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-07,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-08,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-09,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-10,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-11,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-12,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-13,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-14,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-15,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-16,Highlands & Islands,lookup_region,finance_accounts,0
+2026-06,2026-06-17,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-18,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-19,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-20,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-21,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-22,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-23,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-24,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-25,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-26,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-27,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-28,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-29,Highlands & Islands,lookup_region,finance_accounts,1
+2026-06,2026-06-30,Highlands & Islands,lookup_region,finance_accounts,1
 2026-06,2026-06-01,Kent,lookup_region,finance_accounts,0
 2026-06,2026-06-02,Kent,lookup_region,finance_accounts,1
 2026-06,2026-06-03,Kent,lookup_region,finance_accounts,0
@@ -4075,10 +4285,10 @@
 2026-06,2026-06-24,Kent,lookup_region,finance_accounts,0
 2026-06,2026-06-25,Kent,lookup_region,finance_accounts,0
 2026-06,2026-06-26,Kent,lookup_region,finance_accounts,0
-2026-06,2026-06-27,Kent,lookup_region,finance_accounts,1
-2026-06,2026-06-28,Kent,lookup_region,finance_accounts,1
-2026-06,2026-06-29,Kent,lookup_region,finance_accounts,1
-2026-06,2026-06-30,Kent,lookup_region,finance_accounts,1
+2026-06,2026-06-27,Kent,lookup_region,finance_accounts,2
+2026-06,2026-06-28,Kent,lookup_region,finance_accounts,2
+2026-06,2026-06-29,Kent,lookup_region,finance_accounts,2
+2026-06,2026-06-30,Kent,lookup_region,finance_accounts,2
 2026-06,2026-06-01,Lancashire - West,lookup_region,finance_accounts,0
 2026-06,2026-06-02,Lancashire - West,lookup_region,finance_accounts,0
 2026-06,2026-06-03,Lancashire - West,lookup_region,finance_accounts,0
@@ -4169,36 +4379,36 @@
 2026-06,2026-06-28,Lincolnshire,lookup_region,finance_accounts,1
 2026-06,2026-06-29,Lincolnshire,lookup_region,finance_accounts,1
 2026-06,2026-06-30,Lincolnshire,lookup_region,finance_accounts,1
-2026-06,2026-06-01,London,lookup_region,finance_accounts,1
+2026-06,2026-06-01,London,lookup_region,finance_accounts,3
 2026-06,2026-06-02,London,lookup_region,finance_accounts,1
 2026-06,2026-06-03,London,lookup_region,finance_accounts,1
 2026-06,2026-06-04,London,lookup_region,finance_accounts,2
 2026-06,2026-06-05,London,lookup_region,finance_accounts,2
-2026-06,2026-06-06,London,lookup_region,finance_accounts,2
-2026-06,2026-06-07,London,lookup_region,finance_accounts,2
-2026-06,2026-06-08,London,lookup_region,finance_accounts,2
-2026-06,2026-06-09,London,lookup_region,finance_accounts,2
-2026-06,2026-06-10,London,lookup_region,finance_accounts,2
-2026-06,2026-06-11,London,lookup_region,finance_accounts,2
-2026-06,2026-06-12,London,lookup_region,finance_accounts,4
-2026-06,2026-06-13,London,lookup_region,finance_accounts,3
-2026-06,2026-06-14,London,lookup_region,finance_accounts,3
-2026-06,2026-06-15,London,lookup_region,finance_accounts,3
-2026-06,2026-06-16,London,lookup_region,finance_accounts,3
-2026-06,2026-06-17,London,lookup_region,finance_accounts,2
-2026-06,2026-06-18,London,lookup_region,finance_accounts,2
-2026-06,2026-06-19,London,lookup_region,finance_accounts,1
-2026-06,2026-06-20,London,lookup_region,finance_accounts,2
-2026-06,2026-06-21,London,lookup_region,finance_accounts,2
-2026-06,2026-06-22,London,lookup_region,finance_accounts,2
-2026-06,2026-06-23,London,lookup_region,finance_accounts,2
-2026-06,2026-06-24,London,lookup_region,finance_accounts,2
-2026-06,2026-06-25,London,lookup_region,finance_accounts,3
-2026-06,2026-06-26,London,lookup_region,finance_accounts,4
-2026-06,2026-06-27,London,lookup_region,finance_accounts,4
-2026-06,2026-06-28,London,lookup_region,finance_accounts,4
-2026-06,2026-06-29,London,lookup_region,finance_accounts,4
-2026-06,2026-06-30,London,lookup_region,finance_accounts,4
+2026-06,2026-06-06,London,lookup_region,finance_accounts,5
+2026-06,2026-06-07,London,lookup_region,finance_accounts,4
+2026-06,2026-06-08,London,lookup_region,finance_accounts,4
+2026-06,2026-06-09,London,lookup_region,finance_accounts,5
+2026-06,2026-06-10,London,lookup_region,finance_accounts,4
+2026-06,2026-06-11,London,lookup_region,finance_accounts,4
+2026-06,2026-06-12,London,lookup_region,finance_accounts,8
+2026-06,2026-06-13,London,lookup_region,finance_accounts,7
+2026-06,2026-06-14,London,lookup_region,finance_accounts,7
+2026-06,2026-06-15,London,lookup_region,finance_accounts,7
+2026-06,2026-06-16,London,lookup_region,finance_accounts,7
+2026-06,2026-06-17,London,lookup_region,finance_accounts,5
+2026-06,2026-06-18,London,lookup_region,finance_accounts,6
+2026-06,2026-06-19,London,lookup_region,finance_accounts,4
+2026-06,2026-06-20,London,lookup_region,finance_accounts,4
+2026-06,2026-06-21,London,lookup_region,finance_accounts,4
+2026-06,2026-06-22,London,lookup_region,finance_accounts,4
+2026-06,2026-06-23,London,lookup_region,finance_accounts,4
+2026-06,2026-06-24,London,lookup_region,finance_accounts,4
+2026-06,2026-06-25,London,lookup_region,finance_accounts,8
+2026-06,2026-06-26,London,lookup_region,finance_accounts,9
+2026-06,2026-06-27,London,lookup_region,finance_accounts,9
+2026-06,2026-06-28,London,lookup_region,finance_accounts,9
+2026-06,2026-06-29,London,lookup_region,finance_accounts,9
+2026-06,2026-06-30,London,lookup_region,finance_accounts,9
 2026-06,2026-06-01,Merseyside - Liverpool,lookup_region,finance_accounts,0
 2026-06,2026-06-02,Merseyside - Liverpool,lookup_region,finance_accounts,0
 2026-06,2026-06-03,Merseyside - Liverpool,lookup_region,finance_accounts,0
@@ -4499,6 +4709,36 @@
 2026-06,2026-06-28,Northern Ireland - West,lookup_region,finance_accounts,0
 2026-06,2026-06-29,Northern Ireland - West,lookup_region,finance_accounts,0
 2026-06,2026-06-30,Northern Ireland - West,lookup_region,finance_accounts,0
+2026-06,2026-06-01,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-02,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-03,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-04,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-05,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-06,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-07,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-08,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-09,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-10,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-11,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-12,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-13,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-14,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-15,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-16,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-17,Other / Unknown,lookup_region,finance_accounts,1
+2026-06,2026-06-18,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-19,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-20,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-21,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-22,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-23,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-24,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-25,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-26,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-27,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-28,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-29,Other / Unknown,lookup_region,finance_accounts,0
+2026-06,2026-06-30,Other / Unknown,lookup_region,finance_accounts,0
 2026-06,2026-06-01,Oxfordshire,lookup_region,finance_accounts,1
 2026-06,2026-06-02,Oxfordshire,lookup_region,finance_accounts,1
 2026-06,2026-06-03,Oxfordshire,lookup_region,finance_accounts,1
@@ -4825,10 +5065,10 @@
 2026-06,2026-06-24,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
 2026-06,2026-06-25,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
 2026-06,2026-06-26,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
-2026-06,2026-06-27,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
-2026-06,2026-06-28,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
-2026-06,2026-06-29,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
-2026-06,2026-06-30,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
+2026-06,2026-06-27,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,2
+2026-06,2026-06-28,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,2
+2026-06,2026-06-29,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,2
+2026-06,2026-06-30,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,2
 2026-06,2026-06-01,West Sussex,lookup_region,finance_accounts,0
 2026-06,2026-06-02,West Sussex,lookup_region,finance_accounts,0
 2026-06,2026-06-03,West Sussex,lookup_region,finance_accounts,0
@@ -4979,36 +5219,36 @@
 2026-06,2026-06-28,Yorkshire - West,lookup_region,finance_accounts,3
 2026-06,2026-06-29,Yorkshire - West,lookup_region,finance_accounts,3
 2026-06,2026-06-30,Yorkshire - West,lookup_region,finance_accounts,3
-2026-06,2026-06-01,unknown,lookup_region,finance_accounts,2
-2026-06,2026-06-02,unknown,lookup_region,finance_accounts,0
-2026-06,2026-06-03,unknown,lookup_region,finance_accounts,0
-2026-06,2026-06-04,unknown,lookup_region,finance_accounts,1
-2026-06,2026-06-05,unknown,lookup_region,finance_accounts,1
-2026-06,2026-06-06,unknown,lookup_region,finance_accounts,4
-2026-06,2026-06-07,unknown,lookup_region,finance_accounts,3
-2026-06,2026-06-08,unknown,lookup_region,finance_accounts,3
-2026-06,2026-06-09,unknown,lookup_region,finance_accounts,4
-2026-06,2026-06-10,unknown,lookup_region,finance_accounts,3
-2026-06,2026-06-11,unknown,lookup_region,finance_accounts,3
-2026-06,2026-06-12,unknown,lookup_region,finance_accounts,6
-2026-06,2026-06-13,unknown,lookup_region,finance_accounts,6
-2026-06,2026-06-14,unknown,lookup_region,finance_accounts,6
-2026-06,2026-06-15,unknown,lookup_region,finance_accounts,7
-2026-06,2026-06-16,unknown,lookup_region,finance_accounts,7
-2026-06,2026-06-17,unknown,lookup_region,finance_accounts,6
-2026-06,2026-06-18,unknown,lookup_region,finance_accounts,6
-2026-06,2026-06-19,unknown,lookup_region,finance_accounts,5
-2026-06,2026-06-20,unknown,lookup_region,finance_accounts,5
-2026-06,2026-06-21,unknown,lookup_region,finance_accounts,5
-2026-06,2026-06-22,unknown,lookup_region,finance_accounts,5
-2026-06,2026-06-23,unknown,lookup_region,finance_accounts,5
-2026-06,2026-06-24,unknown,lookup_region,finance_accounts,5
-2026-06,2026-06-25,unknown,lookup_region,finance_accounts,9
-2026-06,2026-06-26,unknown,lookup_region,finance_accounts,9
-2026-06,2026-06-27,unknown,lookup_region,finance_accounts,10
-2026-06,2026-06-28,unknown,lookup_region,finance_accounts,10
-2026-06,2026-06-29,unknown,lookup_region,finance_accounts,10
-2026-06,2026-06-30,unknown,lookup_region,finance_accounts,10
+2026-06,2026-06-01,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-02,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-03,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-04,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-05,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-06,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-07,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-08,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-09,Bedfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-10,Bedfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-11,Bedfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-12,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,Bedfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,Bedfordshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-01,Berkshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-02,Berkshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-03,Berkshire,lookup_region,hr_recruitment,0
@@ -5129,6 +5369,66 @@
 2026-06,2026-06-28,Cheshire - West,lookup_region,hr_recruitment,0
 2026-06,2026-06-29,Cheshire - West,lookup_region,hr_recruitment,0
 2026-06,2026-06-30,Cheshire - West,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-02,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-03,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-04,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-05,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-06,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-07,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-08,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-09,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-10,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-11,Derbyshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-12,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,Derbyshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,Devon,lookup_region,hr_recruitment,1
+2026-06,2026-06-02,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-03,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-04,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-05,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-06,Devon,lookup_region,hr_recruitment,1
+2026-06,2026-06-07,Devon,lookup_region,hr_recruitment,1
+2026-06,2026-06-08,Devon,lookup_region,hr_recruitment,1
+2026-06,2026-06-09,Devon,lookup_region,hr_recruitment,1
+2026-06,2026-06-10,Devon,lookup_region,hr_recruitment,1
+2026-06,2026-06-11,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-12,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,Devon,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,Devon,lookup_region,hr_recruitment,0
 2026-06,2026-06-01,Dorset,lookup_region,hr_recruitment,1
 2026-06,2026-06-02,Dorset,lookup_region,hr_recruitment,0
 2026-06,2026-06-03,Dorset,lookup_region,hr_recruitment,0
@@ -5219,6 +5519,36 @@
 2026-06,2026-06-28,Gloucestershire,lookup_region,hr_recruitment,0
 2026-06,2026-06-29,Gloucestershire,lookup_region,hr_recruitment,0
 2026-06,2026-06-30,Gloucestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,1
+2026-06,2026-06-02,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-03,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-04,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-05,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-06,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,1
+2026-06,2026-06-07,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,1
+2026-06,2026-06-08,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,1
+2026-06,2026-06-09,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,1
+2026-06,2026-06-10,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,1
+2026-06,2026-06-11,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-12,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
 2026-06,2026-06-01,Isle of Anglesey,lookup_region,hr_recruitment,1
 2026-06,2026-06-02,Isle of Anglesey,lookup_region,hr_recruitment,1
 2026-06,2026-06-03,Isle of Anglesey,lookup_region,hr_recruitment,1
@@ -5309,19 +5639,49 @@
 2026-06,2026-06-28,Lancashire - East,lookup_region,hr_recruitment,0
 2026-06,2026-06-29,Lancashire - East,lookup_region,hr_recruitment,0
 2026-06,2026-06-30,Lancashire - East,lookup_region,hr_recruitment,0
-2026-06,2026-06-01,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-02,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-03,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-04,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-05,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-06,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-07,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-08,London,lookup_region,hr_recruitment,0
-2026-06,2026-06-09,London,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,Leicestershire,lookup_region,hr_recruitment,1
+2026-06,2026-06-02,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-03,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-04,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-05,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-06,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-07,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-08,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-09,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-10,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-11,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-12,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,Leicestershire,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-02,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-03,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-04,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-05,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-06,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-07,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-08,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-09,London,lookup_region,hr_recruitment,1
 2026-06,2026-06-10,London,lookup_region,hr_recruitment,0
 2026-06,2026-06-11,London,lookup_region,hr_recruitment,0
 2026-06,2026-06-12,London,lookup_region,hr_recruitment,1
-2026-06,2026-06-13,London,lookup_region,hr_recruitment,1
+2026-06,2026-06-13,London,lookup_region,hr_recruitment,2
 2026-06,2026-06-14,London,lookup_region,hr_recruitment,1
 2026-06,2026-06-15,London,lookup_region,hr_recruitment,2
 2026-06,2026-06-16,London,lookup_region,hr_recruitment,2
@@ -5489,6 +5849,36 @@
 2026-06,2026-06-28,Nottinghamshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-29,Nottinghamshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-30,Nottinghamshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,Oxfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-02,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-03,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-04,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-05,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-06,Oxfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-07,Oxfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-08,Oxfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-09,Oxfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-10,Oxfordshire,lookup_region,hr_recruitment,1
+2026-06,2026-06-11,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-12,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,Oxfordshire,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,Oxfordshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-01,Surrey,lookup_region,hr_recruitment,0
 2026-06,2026-06-02,Surrey,lookup_region,hr_recruitment,0
 2026-06,2026-06-03,Surrey,lookup_region,hr_recruitment,0
@@ -5549,6 +5939,36 @@
 2026-06,2026-06-28,Sussex,lookup_region,hr_recruitment,0
 2026-06,2026-06-29,Sussex,lookup_region,hr_recruitment,0
 2026-06,2026-06-30,Sussex,lookup_region,hr_recruitment,0
+2026-06,2026-06-01,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-02,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-03,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-04,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-05,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-06,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-07,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-08,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-09,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-10,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-11,West Midlands - Black Country,lookup_region,hr_recruitment,1
+2026-06,2026-06-12,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-13,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-14,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-15,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-16,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-17,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-18,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-19,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-20,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-21,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-22,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-23,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-24,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-25,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-26,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-27,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-28,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-29,West Midlands - Black Country,lookup_region,hr_recruitment,0
+2026-06,2026-06-30,West Midlands - Black Country,lookup_region,hr_recruitment,0
 2026-06,2026-06-01,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,1
 2026-06,2026-06-02,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,0
 2026-06,2026-06-03,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,0
@@ -5669,36 +6089,6 @@
 2026-06,2026-06-28,Yorkshire - West,lookup_region,hr_recruitment,0
 2026-06,2026-06-29,Yorkshire - West,lookup_region,hr_recruitment,0
 2026-06,2026-06-30,Yorkshire - West,lookup_region,hr_recruitment,0
-2026-06,2026-06-01,unknown,lookup_region,hr_recruitment,6
-2026-06,2026-06-02,unknown,lookup_region,hr_recruitment,2
-2026-06,2026-06-03,unknown,lookup_region,hr_recruitment,2
-2026-06,2026-06-04,unknown,lookup_region,hr_recruitment,2
-2026-06,2026-06-05,unknown,lookup_region,hr_recruitment,2
-2026-06,2026-06-06,unknown,lookup_region,hr_recruitment,5
-2026-06,2026-06-07,unknown,lookup_region,hr_recruitment,5
-2026-06,2026-06-08,unknown,lookup_region,hr_recruitment,5
-2026-06,2026-06-09,unknown,lookup_region,hr_recruitment,6
-2026-06,2026-06-10,unknown,lookup_region,hr_recruitment,5
-2026-06,2026-06-11,unknown,lookup_region,hr_recruitment,3
-2026-06,2026-06-12,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-13,unknown,lookup_region,hr_recruitment,1
-2026-06,2026-06-14,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-15,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-16,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-17,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-18,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-19,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-20,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-21,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-22,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-23,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-24,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-25,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-26,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-27,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-28,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-29,unknown,lookup_region,hr_recruitment,0
-2026-06,2026-06-30,unknown,lookup_region,hr_recruitment,0
 2026-06,2026-06-01,Aberdeenshire,lookup_region,support_worker,0
 2026-06,2026-06-02,Aberdeenshire,lookup_region,support_worker,0
 2026-06,2026-06-03,Aberdeenshire,lookup_region,support_worker,0
@@ -6209,7 +6599,7 @@
 2026-06,2026-06-28,Derbyshire,lookup_region,support_worker,0
 2026-06,2026-06-29,Derbyshire,lookup_region,support_worker,0
 2026-06,2026-06-30,Derbyshire,lookup_region,support_worker,0
-2026-06,2026-06-01,Devon,lookup_region,support_worker,3
+2026-06,2026-06-01,Devon,lookup_region,support_worker,4
 2026-06,2026-06-02,Devon,lookup_region,support_worker,1
 2026-06,2026-06-03,Devon,lookup_region,support_worker,2
 2026-06,2026-06-04,Devon,lookup_region,support_worker,2
@@ -6344,21 +6734,21 @@
 2026-06,2026-06-13,Essex,lookup_region,support_worker,3
 2026-06,2026-06-14,Essex,lookup_region,support_worker,3
 2026-06,2026-06-15,Essex,lookup_region,support_worker,3
-2026-06,2026-06-16,Essex,lookup_region,support_worker,5
-2026-06,2026-06-17,Essex,lookup_region,support_worker,8
-2026-06,2026-06-18,Essex,lookup_region,support_worker,8
-2026-06,2026-06-19,Essex,lookup_region,support_worker,8
-2026-06,2026-06-20,Essex,lookup_region,support_worker,9
-2026-06,2026-06-21,Essex,lookup_region,support_worker,9
-2026-06,2026-06-22,Essex,lookup_region,support_worker,9
-2026-06,2026-06-23,Essex,lookup_region,support_worker,7
-2026-06,2026-06-24,Essex,lookup_region,support_worker,6
-2026-06,2026-06-25,Essex,lookup_region,support_worker,6
-2026-06,2026-06-26,Essex,lookup_region,support_worker,8
-2026-06,2026-06-27,Essex,lookup_region,support_worker,10
-2026-06,2026-06-28,Essex,lookup_region,support_worker,9
-2026-06,2026-06-29,Essex,lookup_region,support_worker,9
-2026-06,2026-06-30,Essex,lookup_region,support_worker,9
+2026-06,2026-06-16,Essex,lookup_region,support_worker,6
+2026-06,2026-06-17,Essex,lookup_region,support_worker,9
+2026-06,2026-06-18,Essex,lookup_region,support_worker,9
+2026-06,2026-06-19,Essex,lookup_region,support_worker,9
+2026-06,2026-06-20,Essex,lookup_region,support_worker,10
+2026-06,2026-06-21,Essex,lookup_region,support_worker,10
+2026-06,2026-06-22,Essex,lookup_region,support_worker,10
+2026-06,2026-06-23,Essex,lookup_region,support_worker,8
+2026-06,2026-06-24,Essex,lookup_region,support_worker,7
+2026-06,2026-06-25,Essex,lookup_region,support_worker,7
+2026-06,2026-06-26,Essex,lookup_region,support_worker,9
+2026-06,2026-06-27,Essex,lookup_region,support_worker,11
+2026-06,2026-06-28,Essex,lookup_region,support_worker,10
+2026-06,2026-06-29,Essex,lookup_region,support_worker,10
+2026-06,2026-06-30,Essex,lookup_region,support_worker,10
 2026-06,2026-06-01,Gloucestershire,lookup_region,support_worker,1
 2026-06,2026-06-02,Gloucestershire,lookup_region,support_worker,1
 2026-06,2026-06-03,Gloucestershire,lookup_region,support_worker,1
@@ -6389,36 +6779,36 @@
 2026-06,2026-06-28,Gloucestershire,lookup_region,support_worker,4
 2026-06,2026-06-29,Gloucestershire,lookup_region,support_worker,4
 2026-06,2026-06-30,Gloucestershire,lookup_region,support_worker,4
-2026-06,2026-06-01,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-02,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-03,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-04,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-05,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
+2026-06,2026-06-01,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-06,2026-06-02,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-06,2026-06-03,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-06,2026-06-04,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-05,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
 2026-06,2026-06-06,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-07,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-08,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-09,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-10,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-11,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-12,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-07,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-08,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-09,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-10,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-11,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-06,2026-06-12,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
 2026-06,2026-06-13,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
 2026-06,2026-06-14,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
 2026-06,2026-06-15,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-16,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
-2026-06,2026-06-17,Greater Manchester - Manchester & Salford,lookup_region,support_worker,5
-2026-06,2026-06-18,Greater Manchester - Manchester & Salford,lookup_region,support_worker,4
-2026-06,2026-06-19,Greater Manchester - Manchester & Salford,lookup_region,support_worker,4
-2026-06,2026-06-20,Greater Manchester - Manchester & Salford,lookup_region,support_worker,4
-2026-06,2026-06-21,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
-2026-06,2026-06-22,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
-2026-06,2026-06-23,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
-2026-06,2026-06-24,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
-2026-06,2026-06-25,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
-2026-06,2026-06-26,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
-2026-06,2026-06-27,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-28,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-29,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
-2026-06,2026-06-30,Greater Manchester - Manchester & Salford,lookup_region,support_worker,0
+2026-06,2026-06-16,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-06,2026-06-17,Greater Manchester - Manchester & Salford,lookup_region,support_worker,9
+2026-06,2026-06-18,Greater Manchester - Manchester & Salford,lookup_region,support_worker,8
+2026-06,2026-06-19,Greater Manchester - Manchester & Salford,lookup_region,support_worker,7
+2026-06,2026-06-20,Greater Manchester - Manchester & Salford,lookup_region,support_worker,7
+2026-06,2026-06-21,Greater Manchester - Manchester & Salford,lookup_region,support_worker,6
+2026-06,2026-06-22,Greater Manchester - Manchester & Salford,lookup_region,support_worker,6
+2026-06,2026-06-23,Greater Manchester - Manchester & Salford,lookup_region,support_worker,4
+2026-06,2026-06-24,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
+2026-06,2026-06-25,Greater Manchester - Manchester & Salford,lookup_region,support_worker,5
+2026-06,2026-06-26,Greater Manchester - Manchester & Salford,lookup_region,support_worker,4
+2026-06,2026-06-27,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
+2026-06,2026-06-28,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
+2026-06,2026-06-29,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
+2026-06,2026-06-30,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
 2026-06,2026-06-01,Greater Manchester - North,lookup_region,support_worker,1
 2026-06,2026-06-02,Greater Manchester - North,lookup_region,support_worker,1
 2026-06,2026-06-03,Greater Manchester - North,lookup_region,support_worker,1
@@ -6509,14 +6899,14 @@
 2026-06,2026-06-28,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,0
 2026-06,2026-06-29,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,0
 2026-06,2026-06-30,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,0
-2026-06,2026-06-01,Hampshire,lookup_region,support_worker,7
+2026-06,2026-06-01,Hampshire,lookup_region,support_worker,8
 2026-06,2026-06-02,Hampshire,lookup_region,support_worker,7
 2026-06,2026-06-03,Hampshire,lookup_region,support_worker,6
 2026-06,2026-06-04,Hampshire,lookup_region,support_worker,5
 2026-06,2026-06-05,Hampshire,lookup_region,support_worker,6
-2026-06,2026-06-06,Hampshire,lookup_region,support_worker,4
-2026-06,2026-06-07,Hampshire,lookup_region,support_worker,6
-2026-06,2026-06-08,Hampshire,lookup_region,support_worker,5
+2026-06,2026-06-06,Hampshire,lookup_region,support_worker,5
+2026-06,2026-06-07,Hampshire,lookup_region,support_worker,7
+2026-06,2026-06-08,Hampshire,lookup_region,support_worker,6
 2026-06,2026-06-09,Hampshire,lookup_region,support_worker,5
 2026-06,2026-06-10,Hampshire,lookup_region,support_worker,7
 2026-06,2026-06-11,Hampshire,lookup_region,support_worker,7
@@ -6629,6 +7019,36 @@
 2026-06,2026-06-28,Highland,lookup_region,support_worker,3
 2026-06,2026-06-29,Highland,lookup_region,support_worker,2
 2026-06,2026-06-30,Highland,lookup_region,support_worker,2
+2026-06,2026-06-01,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-02,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-03,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-04,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-05,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-06,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-07,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-08,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-09,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-10,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-11,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-12,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-13,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-14,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-15,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-16,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-17,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-18,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-19,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-20,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-21,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-22,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-23,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-24,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-25,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-26,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-27,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-28,Highlands & Islands,lookup_region,support_worker,1
+2026-06,2026-06-29,Highlands & Islands,lookup_region,support_worker,0
+2026-06,2026-06-30,Highlands & Islands,lookup_region,support_worker,0
 2026-06,2026-06-01,Kent,lookup_region,support_worker,13
 2026-06,2026-06-02,Kent,lookup_region,support_worker,11
 2026-06,2026-06-03,Kent,lookup_region,support_worker,10
@@ -6833,12 +7253,12 @@
 2026-06,2026-06-22,Leicestershire,lookup_region,support_worker,3
 2026-06,2026-06-23,Leicestershire,lookup_region,support_worker,2
 2026-06,2026-06-24,Leicestershire,lookup_region,support_worker,2
-2026-06,2026-06-25,Leicestershire,lookup_region,support_worker,4
-2026-06,2026-06-26,Leicestershire,lookup_region,support_worker,4
-2026-06,2026-06-27,Leicestershire,lookup_region,support_worker,7
-2026-06,2026-06-28,Leicestershire,lookup_region,support_worker,6
-2026-06,2026-06-29,Leicestershire,lookup_region,support_worker,5
-2026-06,2026-06-30,Leicestershire,lookup_region,support_worker,5
+2026-06,2026-06-25,Leicestershire,lookup_region,support_worker,5
+2026-06,2026-06-26,Leicestershire,lookup_region,support_worker,5
+2026-06,2026-06-27,Leicestershire,lookup_region,support_worker,8
+2026-06,2026-06-28,Leicestershire,lookup_region,support_worker,7
+2026-06,2026-06-29,Leicestershire,lookup_region,support_worker,6
+2026-06,2026-06-30,Leicestershire,lookup_region,support_worker,6
 2026-06,2026-06-01,Lincolnshire,lookup_region,support_worker,2
 2026-06,2026-06-02,Lincolnshire,lookup_region,support_worker,3
 2026-06,2026-06-03,Lincolnshire,lookup_region,support_worker,2
@@ -6869,36 +7289,36 @@
 2026-06,2026-06-28,Lincolnshire,lookup_region,support_worker,9
 2026-06,2026-06-29,Lincolnshire,lookup_region,support_worker,6
 2026-06,2026-06-30,Lincolnshire,lookup_region,support_worker,6
-2026-06,2026-06-01,London,lookup_region,support_worker,4
-2026-06,2026-06-02,London,lookup_region,support_worker,4
-2026-06,2026-06-03,London,lookup_region,support_worker,5
-2026-06,2026-06-04,London,lookup_region,support_worker,5
-2026-06,2026-06-05,London,lookup_region,support_worker,5
-2026-06,2026-06-06,London,lookup_region,support_worker,5
-2026-06,2026-06-07,London,lookup_region,support_worker,5
-2026-06,2026-06-08,London,lookup_region,support_worker,6
-2026-06,2026-06-09,London,lookup_region,support_worker,5
-2026-06,2026-06-10,London,lookup_region,support_worker,3
-2026-06,2026-06-11,London,lookup_region,support_worker,2
-2026-06,2026-06-12,London,lookup_region,support_worker,3
-2026-06,2026-06-13,London,lookup_region,support_worker,4
-2026-06,2026-06-14,London,lookup_region,support_worker,5
-2026-06,2026-06-15,London,lookup_region,support_worker,5
-2026-06,2026-06-16,London,lookup_region,support_worker,5
-2026-06,2026-06-17,London,lookup_region,support_worker,9
-2026-06,2026-06-18,London,lookup_region,support_worker,7
-2026-06,2026-06-19,London,lookup_region,support_worker,6
-2026-06,2026-06-20,London,lookup_region,support_worker,6
-2026-06,2026-06-21,London,lookup_region,support_worker,6
-2026-06,2026-06-22,London,lookup_region,support_worker,7
-2026-06,2026-06-23,London,lookup_region,support_worker,8
-2026-06,2026-06-24,London,lookup_region,support_worker,7
-2026-06,2026-06-25,London,lookup_region,support_worker,4
-2026-06,2026-06-26,London,lookup_region,support_worker,4
-2026-06,2026-06-27,London,lookup_region,support_worker,6
-2026-06,2026-06-28,London,lookup_region,support_worker,5
-2026-06,2026-06-29,London,lookup_region,support_worker,5
-2026-06,2026-06-30,London,lookup_region,support_worker,5
+2026-06,2026-06-01,London,lookup_region,support_worker,7
+2026-06,2026-06-02,London,lookup_region,support_worker,7
+2026-06,2026-06-03,London,lookup_region,support_worker,7
+2026-06,2026-06-04,London,lookup_region,support_worker,7
+2026-06,2026-06-05,London,lookup_region,support_worker,7
+2026-06,2026-06-06,London,lookup_region,support_worker,6
+2026-06,2026-06-07,London,lookup_region,support_worker,7
+2026-06,2026-06-08,London,lookup_region,support_worker,9
+2026-06,2026-06-09,London,lookup_region,support_worker,6
+2026-06,2026-06-10,London,lookup_region,support_worker,4
+2026-06,2026-06-11,London,lookup_region,support_worker,3
+2026-06,2026-06-12,London,lookup_region,support_worker,4
+2026-06,2026-06-13,London,lookup_region,support_worker,5
+2026-06,2026-06-14,London,lookup_region,support_worker,6
+2026-06,2026-06-15,London,lookup_region,support_worker,7
+2026-06,2026-06-16,London,lookup_region,support_worker,8
+2026-06,2026-06-17,London,lookup_region,support_worker,14
+2026-06,2026-06-18,London,lookup_region,support_worker,13
+2026-06,2026-06-19,London,lookup_region,support_worker,12
+2026-06,2026-06-20,London,lookup_region,support_worker,13
+2026-06,2026-06-21,London,lookup_region,support_worker,13
+2026-06,2026-06-22,London,lookup_region,support_worker,13
+2026-06,2026-06-23,London,lookup_region,support_worker,13
+2026-06,2026-06-24,London,lookup_region,support_worker,11
+2026-06,2026-06-25,London,lookup_region,support_worker,8
+2026-06,2026-06-26,London,lookup_region,support_worker,7
+2026-06,2026-06-27,London,lookup_region,support_worker,12
+2026-06,2026-06-28,London,lookup_region,support_worker,11
+2026-06,2026-06-29,London,lookup_region,support_worker,12
+2026-06,2026-06-30,London,lookup_region,support_worker,12
 2026-06,2026-06-01,Merseyside - Liverpool,lookup_region,support_worker,2
 2026-06,2026-06-02,Merseyside - Liverpool,lookup_region,support_worker,2
 2026-06,2026-06-03,Merseyside - Liverpool,lookup_region,support_worker,2
@@ -6910,19 +7330,19 @@
 2026-06,2026-06-09,Merseyside - Liverpool,lookup_region,support_worker,1
 2026-06,2026-06-10,Merseyside - Liverpool,lookup_region,support_worker,1
 2026-06,2026-06-11,Merseyside - Liverpool,lookup_region,support_worker,1
-2026-06,2026-06-12,Merseyside - Liverpool,lookup_region,support_worker,1
+2026-06,2026-06-12,Merseyside - Liverpool,lookup_region,support_worker,2
 2026-06,2026-06-13,Merseyside - Liverpool,lookup_region,support_worker,1
 2026-06,2026-06-14,Merseyside - Liverpool,lookup_region,support_worker,1
 2026-06,2026-06-15,Merseyside - Liverpool,lookup_region,support_worker,2
 2026-06,2026-06-16,Merseyside - Liverpool,lookup_region,support_worker,2
-2026-06,2026-06-17,Merseyside - Liverpool,lookup_region,support_worker,2
-2026-06,2026-06-18,Merseyside - Liverpool,lookup_region,support_worker,3
-2026-06,2026-06-19,Merseyside - Liverpool,lookup_region,support_worker,3
-2026-06,2026-06-20,Merseyside - Liverpool,lookup_region,support_worker,3
-2026-06,2026-06-21,Merseyside - Liverpool,lookup_region,support_worker,3
-2026-06,2026-06-22,Merseyside - Liverpool,lookup_region,support_worker,3
+2026-06,2026-06-17,Merseyside - Liverpool,lookup_region,support_worker,3
+2026-06,2026-06-18,Merseyside - Liverpool,lookup_region,support_worker,4
+2026-06,2026-06-19,Merseyside - Liverpool,lookup_region,support_worker,4
+2026-06,2026-06-20,Merseyside - Liverpool,lookup_region,support_worker,4
+2026-06,2026-06-21,Merseyside - Liverpool,lookup_region,support_worker,4
+2026-06,2026-06-22,Merseyside - Liverpool,lookup_region,support_worker,4
 2026-06,2026-06-23,Merseyside - Liverpool,lookup_region,support_worker,3
-2026-06,2026-06-24,Merseyside - Liverpool,lookup_region,support_worker,3
+2026-06,2026-06-24,Merseyside - Liverpool,lookup_region,support_worker,4
 2026-06,2026-06-25,Merseyside - Liverpool,lookup_region,support_worker,3
 2026-06,2026-06-26,Merseyside - Liverpool,lookup_region,support_worker,3
 2026-06,2026-06-27,Merseyside - Liverpool,lookup_region,support_worker,3
@@ -7049,66 +7469,66 @@
 2026-06,2026-06-28,Norfolk,lookup_region,support_worker,2
 2026-06,2026-06-29,Norfolk,lookup_region,support_worker,0
 2026-06,2026-06-30,Norfolk,lookup_region,support_worker,0
-2026-06,2026-06-01,North East,published_aggregate,support_worker,13
-2026-06,2026-06-02,North East,published_aggregate,support_worker,14
-2026-06,2026-06-03,North East,published_aggregate,support_worker,12
-2026-06,2026-06-04,North East,published_aggregate,support_worker,12
-2026-06,2026-06-05,North East,published_aggregate,support_worker,12
+2026-06,2026-06-01,North East,published_aggregate,support_worker,15
+2026-06,2026-06-02,North East,published_aggregate,support_worker,16
+2026-06,2026-06-03,North East,published_aggregate,support_worker,14
+2026-06,2026-06-04,North East,published_aggregate,support_worker,14
+2026-06,2026-06-05,North East,published_aggregate,support_worker,14
 2026-06,2026-06-06,North East,published_aggregate,support_worker,7
-2026-06,2026-06-07,North East,published_aggregate,support_worker,10
-2026-06,2026-06-08,North East,published_aggregate,support_worker,9
-2026-06,2026-06-09,North East,published_aggregate,support_worker,7
-2026-06,2026-06-10,North East,published_aggregate,support_worker,8
-2026-06,2026-06-11,North East,published_aggregate,support_worker,9
-2026-06,2026-06-12,North East,published_aggregate,support_worker,9
-2026-06,2026-06-13,North East,published_aggregate,support_worker,13
-2026-06,2026-06-14,North East,published_aggregate,support_worker,13
-2026-06,2026-06-15,North East,published_aggregate,support_worker,12
-2026-06,2026-06-16,North East,published_aggregate,support_worker,13
-2026-06,2026-06-17,North East,published_aggregate,support_worker,16
-2026-06,2026-06-18,North East,published_aggregate,support_worker,16
-2026-06,2026-06-19,North East,published_aggregate,support_worker,17
-2026-06,2026-06-20,North East,published_aggregate,support_worker,21
-2026-06,2026-06-21,North East,published_aggregate,support_worker,20
-2026-06,2026-06-22,North East,published_aggregate,support_worker,17
-2026-06,2026-06-23,North East,published_aggregate,support_worker,20
-2026-06,2026-06-24,North East,published_aggregate,support_worker,25
-2026-06,2026-06-25,North East,published_aggregate,support_worker,23
-2026-06,2026-06-26,North East,published_aggregate,support_worker,21
-2026-06,2026-06-27,North East,published_aggregate,support_worker,24
-2026-06,2026-06-28,North East,published_aggregate,support_worker,24
-2026-06,2026-06-29,North East,published_aggregate,support_worker,23
-2026-06,2026-06-30,North East,published_aggregate,support_worker,23
-2026-06,2026-06-01,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
-2026-06,2026-06-02,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-03,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
-2026-06,2026-06-04,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
-2026-06,2026-06-05,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
+2026-06,2026-06-07,North East,published_aggregate,support_worker,12
+2026-06,2026-06-08,North East,published_aggregate,support_worker,11
+2026-06,2026-06-09,North East,published_aggregate,support_worker,9
+2026-06,2026-06-10,North East,published_aggregate,support_worker,10
+2026-06,2026-06-11,North East,published_aggregate,support_worker,11
+2026-06,2026-06-12,North East,published_aggregate,support_worker,11
+2026-06,2026-06-13,North East,published_aggregate,support_worker,15
+2026-06,2026-06-14,North East,published_aggregate,support_worker,15
+2026-06,2026-06-15,North East,published_aggregate,support_worker,14
+2026-06,2026-06-16,North East,published_aggregate,support_worker,15
+2026-06,2026-06-17,North East,published_aggregate,support_worker,18
+2026-06,2026-06-18,North East,published_aggregate,support_worker,19
+2026-06,2026-06-19,North East,published_aggregate,support_worker,20
+2026-06,2026-06-20,North East,published_aggregate,support_worker,24
+2026-06,2026-06-21,North East,published_aggregate,support_worker,22
+2026-06,2026-06-22,North East,published_aggregate,support_worker,19
+2026-06,2026-06-23,North East,published_aggregate,support_worker,22
+2026-06,2026-06-24,North East,published_aggregate,support_worker,28
+2026-06,2026-06-25,North East,published_aggregate,support_worker,26
+2026-06,2026-06-26,North East,published_aggregate,support_worker,23
+2026-06,2026-06-27,North East,published_aggregate,support_worker,27
+2026-06,2026-06-28,North East,published_aggregate,support_worker,27
+2026-06,2026-06-29,North East,published_aggregate,support_worker,26
+2026-06,2026-06-30,North East,published_aggregate,support_worker,26
+2026-06,2026-06-01,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
+2026-06,2026-06-02,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-03,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
+2026-06,2026-06-04,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
+2026-06,2026-06-05,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
 2026-06,2026-06-06,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,2
-2026-06,2026-06-07,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
-2026-06,2026-06-08,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
-2026-06,2026-06-09,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,2
-2026-06,2026-06-10,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,2
-2026-06,2026-06-11,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,2
-2026-06,2026-06-12,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,2
-2026-06,2026-06-13,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-14,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-15,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-16,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
-2026-06,2026-06-17,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-18,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
-2026-06,2026-06-19,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-20,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
-2026-06,2026-06-21,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-22,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
-2026-06,2026-06-23,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
-2026-06,2026-06-24,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
-2026-06,2026-06-25,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,9
-2026-06,2026-06-26,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
-2026-06,2026-06-27,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,9
-2026-06,2026-06-28,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,9
-2026-06,2026-06-29,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,9
-2026-06,2026-06-30,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,9
+2026-06,2026-06-07,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
+2026-06,2026-06-08,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,4
+2026-06,2026-06-09,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
+2026-06,2026-06-10,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
+2026-06,2026-06-11,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
+2026-06,2026-06-12,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,3
+2026-06,2026-06-13,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-14,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-15,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-16,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
+2026-06,2026-06-17,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-18,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,8
+2026-06,2026-06-19,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
+2026-06,2026-06-20,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,8
+2026-06,2026-06-21,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-22,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,5
+2026-06,2026-06-23,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,6
+2026-06,2026-06-24,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,9
+2026-06,2026-06-25,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,11
+2026-06,2026-06-26,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,8
+2026-06,2026-06-27,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,11
+2026-06,2026-06-28,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,11
+2026-06,2026-06-29,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,11
+2026-06,2026-06-30,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,11
 2026-06,2026-06-01,North East - Tees Valley,lookup_region,support_worker,2
 2026-06,2026-06-02,North East - Tees Valley,lookup_region,support_worker,2
 2026-06,2026-06-03,North East - Tees Valley,lookup_region,support_worker,2
@@ -7139,36 +7559,36 @@
 2026-06,2026-06-28,North East - Tees Valley,lookup_region,support_worker,3
 2026-06,2026-06-29,North East - Tees Valley,lookup_region,support_worker,3
 2026-06,2026-06-30,North East - Tees Valley,lookup_region,support_worker,3
-2026-06,2026-06-01,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
-2026-06,2026-06-02,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
-2026-06,2026-06-03,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
-2026-06,2026-06-04,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
-2026-06,2026-06-05,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
+2026-06,2026-06-01,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
+2026-06,2026-06-02,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
+2026-06,2026-06-03,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
+2026-06,2026-06-04,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
+2026-06,2026-06-05,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
 2026-06,2026-06-06,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,4
-2026-06,2026-06-07,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
-2026-06,2026-06-08,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,5
-2026-06,2026-06-09,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,5
-2026-06,2026-06-10,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,5
-2026-06,2026-06-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,5
-2026-06,2026-06-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
-2026-06,2026-06-13,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
-2026-06,2026-06-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
-2026-06,2026-06-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
-2026-06,2026-06-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,9
-2026-06,2026-06-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
-2026-06,2026-06-18,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,9
-2026-06,2026-06-19,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,10
-2026-06,2026-06-20,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
-2026-06,2026-06-21,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
-2026-06,2026-06-22,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,10
-2026-06,2026-06-23,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
-2026-06,2026-06-24,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,14
-2026-06,2026-06-25,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
-2026-06,2026-06-26,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
-2026-06,2026-06-27,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
-2026-06,2026-06-28,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
-2026-06,2026-06-29,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
-2026-06,2026-06-30,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
+2026-06,2026-06-07,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,7
+2026-06,2026-06-08,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
+2026-06,2026-06-09,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
+2026-06,2026-06-10,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
+2026-06,2026-06-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
+2026-06,2026-06-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
+2026-06,2026-06-13,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,9
+2026-06,2026-06-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,9
+2026-06,2026-06-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,8
+2026-06,2026-06-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,10
+2026-06,2026-06-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
+2026-06,2026-06-18,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,10
+2026-06,2026-06-19,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
+2026-06,2026-06-20,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,13
+2026-06,2026-06-21,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,13
+2026-06,2026-06-22,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,11
+2026-06,2026-06-23,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,13
+2026-06,2026-06-24,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,15
+2026-06,2026-06-25,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
+2026-06,2026-06-26,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
+2026-06,2026-06-27,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,13
+2026-06,2026-06-28,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,13
+2026-06,2026-06-29,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
+2026-06,2026-06-30,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,12
 2026-06,2026-06-01,North Scotland,lookup_region,support_worker,0
 2026-06,2026-06-02,North Scotland,lookup_region,support_worker,0
 2026-06,2026-06-03,North Scotland,lookup_region,support_worker,0
@@ -7349,17 +7769,17 @@
 2026-06,2026-06-28,Northern Ireland - West,lookup_region,support_worker,0
 2026-06,2026-06-29,Northern Ireland - West,lookup_region,support_worker,0
 2026-06,2026-06-30,Northern Ireland - West,lookup_region,support_worker,0
-2026-06,2026-06-01,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-02,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-03,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-04,Nottinghamshire,lookup_region,support_worker,5
-2026-06,2026-06-05,Nottinghamshire,lookup_region,support_worker,5
-2026-06,2026-06-06,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-07,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-08,Nottinghamshire,lookup_region,support_worker,5
-2026-06,2026-06-09,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-10,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-11,Nottinghamshire,lookup_region,support_worker,4
+2026-06,2026-06-01,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-02,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-03,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-04,Nottinghamshire,lookup_region,support_worker,6
+2026-06,2026-06-05,Nottinghamshire,lookup_region,support_worker,6
+2026-06,2026-06-06,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-07,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-08,Nottinghamshire,lookup_region,support_worker,6
+2026-06,2026-06-09,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-10,Nottinghamshire,lookup_region,support_worker,5
+2026-06,2026-06-11,Nottinghamshire,lookup_region,support_worker,5
 2026-06,2026-06-12,Nottinghamshire,lookup_region,support_worker,2
 2026-06,2026-06-13,Nottinghamshire,lookup_region,support_worker,3
 2026-06,2026-06-14,Nottinghamshire,lookup_region,support_worker,2
@@ -7379,36 +7799,36 @@
 2026-06,2026-06-28,Nottinghamshire,lookup_region,support_worker,5
 2026-06,2026-06-29,Nottinghamshire,lookup_region,support_worker,4
 2026-06,2026-06-30,Nottinghamshire,lookup_region,support_worker,4
-2026-06,2026-06-01,Other / Unknown,lookup_region,support_worker,1
-2026-06,2026-06-02,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-03,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-04,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-05,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-06,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-07,Other / Unknown,lookup_region,support_worker,1
-2026-06,2026-06-08,Other / Unknown,lookup_region,support_worker,1
-2026-06,2026-06-09,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-10,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-11,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-12,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-13,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-14,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-15,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-16,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-17,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-18,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-19,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-20,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-21,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-22,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-23,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-24,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-25,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-26,Other / Unknown,lookup_region,support_worker,0
-2026-06,2026-06-27,Other / Unknown,lookup_region,support_worker,1
-2026-06,2026-06-28,Other / Unknown,lookup_region,support_worker,1
-2026-06,2026-06-29,Other / Unknown,lookup_region,support_worker,1
-2026-06,2026-06-30,Other / Unknown,lookup_region,support_worker,1
+2026-06,2026-06-01,Other / Unknown,lookup_region,support_worker,4
+2026-06,2026-06-02,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-03,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-04,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-05,Other / Unknown,lookup_region,support_worker,7
+2026-06,2026-06-06,Other / Unknown,lookup_region,support_worker,7
+2026-06,2026-06-07,Other / Unknown,lookup_region,support_worker,8
+2026-06,2026-06-08,Other / Unknown,lookup_region,support_worker,8
+2026-06,2026-06-09,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-10,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-11,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-12,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-13,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-14,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-15,Other / Unknown,lookup_region,support_worker,4
+2026-06,2026-06-16,Other / Unknown,lookup_region,support_worker,4
+2026-06,2026-06-17,Other / Unknown,lookup_region,support_worker,4
+2026-06,2026-06-18,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-19,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-20,Other / Unknown,lookup_region,support_worker,2
+2026-06,2026-06-21,Other / Unknown,lookup_region,support_worker,2
+2026-06,2026-06-22,Other / Unknown,lookup_region,support_worker,2
+2026-06,2026-06-23,Other / Unknown,lookup_region,support_worker,2
+2026-06,2026-06-24,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-25,Other / Unknown,lookup_region,support_worker,3
+2026-06,2026-06-26,Other / Unknown,lookup_region,support_worker,4
+2026-06,2026-06-27,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-28,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-29,Other / Unknown,lookup_region,support_worker,6
+2026-06,2026-06-30,Other / Unknown,lookup_region,support_worker,6
 2026-06,2026-06-01,Oxfordshire,lookup_region,support_worker,6
 2026-06,2026-06-02,Oxfordshire,lookup_region,support_worker,5
 2026-06,2026-06-03,Oxfordshire,lookup_region,support_worker,4
@@ -7764,11 +8184,11 @@
 2026-06,2026-06-23,Staffordshire,lookup_region,support_worker,2
 2026-06,2026-06-24,Staffordshire,lookup_region,support_worker,4
 2026-06,2026-06-25,Staffordshire,lookup_region,support_worker,4
-2026-06,2026-06-26,Staffordshire,lookup_region,support_worker,4
-2026-06,2026-06-27,Staffordshire,lookup_region,support_worker,4
-2026-06,2026-06-28,Staffordshire,lookup_region,support_worker,4
-2026-06,2026-06-29,Staffordshire,lookup_region,support_worker,4
-2026-06,2026-06-30,Staffordshire,lookup_region,support_worker,4
+2026-06,2026-06-26,Staffordshire,lookup_region,support_worker,5
+2026-06,2026-06-27,Staffordshire,lookup_region,support_worker,5
+2026-06,2026-06-28,Staffordshire,lookup_region,support_worker,5
+2026-06,2026-06-29,Staffordshire,lookup_region,support_worker,5
+2026-06,2026-06-30,Staffordshire,lookup_region,support_worker,5
 2026-06,2026-06-01,Suffolk,lookup_region,support_worker,6
 2026-06,2026-06-02,Suffolk,lookup_region,support_worker,6
 2026-06,2026-06-03,Suffolk,lookup_region,support_worker,4
@@ -7847,18 +8267,18 @@
 2026-06,2026-06-16,Sussex,lookup_region,support_worker,15
 2026-06,2026-06-17,Sussex,lookup_region,support_worker,16
 2026-06,2026-06-18,Sussex,lookup_region,support_worker,11
-2026-06,2026-06-19,Sussex,lookup_region,support_worker,15
-2026-06,2026-06-20,Sussex,lookup_region,support_worker,16
-2026-06,2026-06-21,Sussex,lookup_region,support_worker,16
-2026-06,2026-06-22,Sussex,lookup_region,support_worker,16
-2026-06,2026-06-23,Sussex,lookup_region,support_worker,15
-2026-06,2026-06-24,Sussex,lookup_region,support_worker,15
-2026-06,2026-06-25,Sussex,lookup_region,support_worker,15
-2026-06,2026-06-26,Sussex,lookup_region,support_worker,15
-2026-06,2026-06-27,Sussex,lookup_region,support_worker,18
-2026-06,2026-06-28,Sussex,lookup_region,support_worker,20
-2026-06,2026-06-29,Sussex,lookup_region,support_worker,18
-2026-06,2026-06-30,Sussex,lookup_region,support_worker,18
+2026-06,2026-06-19,Sussex,lookup_region,support_worker,16
+2026-06,2026-06-20,Sussex,lookup_region,support_worker,17
+2026-06,2026-06-21,Sussex,lookup_region,support_worker,17
+2026-06,2026-06-22,Sussex,lookup_region,support_worker,17
+2026-06,2026-06-23,Sussex,lookup_region,support_worker,16
+2026-06,2026-06-24,Sussex,lookup_region,support_worker,16
+2026-06,2026-06-25,Sussex,lookup_region,support_worker,16
+2026-06,2026-06-26,Sussex,lookup_region,support_worker,16
+2026-06,2026-06-27,Sussex,lookup_region,support_worker,19
+2026-06,2026-06-28,Sussex,lookup_region,support_worker,21
+2026-06,2026-06-29,Sussex,lookup_region,support_worker,19
+2026-06,2026-06-30,Sussex,lookup_region,support_worker,19
 2026-06,2026-06-01,Wales - Mid,lookup_region,support_worker,0
 2026-06,2026-06-02,Wales - Mid,lookup_region,support_worker,0
 2026-06,2026-06-03,Wales - Mid,lookup_region,support_worker,0
@@ -8069,6 +8489,66 @@
 2026-06,2026-06-28,Wales South -gwent,lookup_region,support_worker,2
 2026-06,2026-06-29,Wales South -gwent,lookup_region,support_worker,2
 2026-06,2026-06-30,Wales South -gwent,lookup_region,support_worker,2
+2026-06,2026-06-01,West Midlands,lookup_region,support_worker,2
+2026-06,2026-06-02,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-03,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-04,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-05,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-06,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-07,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-08,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-09,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-10,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-11,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-12,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-13,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-14,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-15,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-16,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-17,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-18,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-19,West Midlands,lookup_region,support_worker,1
+2026-06,2026-06-20,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-21,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-22,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-23,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-24,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-25,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-26,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-27,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-28,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-29,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-30,West Midlands,lookup_region,support_worker,0
+2026-06,2026-06-01,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-02,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-03,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-04,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-05,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-06,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-07,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-08,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-09,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-10,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-11,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-12,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-13,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-14,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-15,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-16,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-17,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-18,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-19,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-20,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-21,West Midlands - Birmingham & Solihull,lookup_region,support_worker,0
+2026-06,2026-06-22,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-23,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-24,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-25,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-26,West Midlands - Birmingham & Solihull,lookup_region,support_worker,1
+2026-06,2026-06-27,West Midlands - Birmingham & Solihull,lookup_region,support_worker,2
+2026-06,2026-06-28,West Midlands - Birmingham & Solihull,lookup_region,support_worker,2
+2026-06,2026-06-29,West Midlands - Birmingham & Solihull,lookup_region,support_worker,2
+2026-06,2026-06-30,West Midlands - Birmingham & Solihull,lookup_region,support_worker,2
 2026-06,2026-06-01,West Midlands - Black Country,lookup_region,support_worker,0
 2026-06,2026-06-02,West Midlands - Black Country,lookup_region,support_worker,0
 2026-06,2026-06-03,West Midlands - Black Country,lookup_region,support_worker,0
@@ -8087,18 +8567,18 @@
 2026-06,2026-06-16,West Midlands - Black Country,lookup_region,support_worker,1
 2026-06,2026-06-17,West Midlands - Black Country,lookup_region,support_worker,3
 2026-06,2026-06-18,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-19,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-20,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-21,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-22,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-23,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-24,West Midlands - Black Country,lookup_region,support_worker,1
-2026-06,2026-06-25,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-26,West Midlands - Black Country,lookup_region,support_worker,2
-2026-06,2026-06-27,West Midlands - Black Country,lookup_region,support_worker,4
-2026-06,2026-06-28,West Midlands - Black Country,lookup_region,support_worker,4
-2026-06,2026-06-29,West Midlands - Black Country,lookup_region,support_worker,3
-2026-06,2026-06-30,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-19,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-20,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-21,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-22,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-23,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-24,West Midlands - Black Country,lookup_region,support_worker,2
+2026-06,2026-06-25,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-26,West Midlands - Black Country,lookup_region,support_worker,3
+2026-06,2026-06-27,West Midlands - Black Country,lookup_region,support_worker,5
+2026-06,2026-06-28,West Midlands - Black Country,lookup_region,support_worker,5
+2026-06,2026-06-29,West Midlands - Black Country,lookup_region,support_worker,4
+2026-06,2026-06-30,West Midlands - Black Country,lookup_region,support_worker,4
 2026-06,2026-06-01,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,4
 2026-06,2026-06-02,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,3
 2026-06,2026-06-03,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,3
@@ -8204,21 +8684,21 @@
 2026-06,2026-06-13,Worcestershire,lookup_region,support_worker,5
 2026-06,2026-06-14,Worcestershire,lookup_region,support_worker,5
 2026-06,2026-06-15,Worcestershire,lookup_region,support_worker,5
-2026-06,2026-06-16,Worcestershire,lookup_region,support_worker,6
-2026-06,2026-06-17,Worcestershire,lookup_region,support_worker,6
-2026-06,2026-06-18,Worcestershire,lookup_region,support_worker,8
-2026-06,2026-06-19,Worcestershire,lookup_region,support_worker,6
-2026-06,2026-06-20,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-21,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-22,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-23,Worcestershire,lookup_region,support_worker,7
-2026-06,2026-06-24,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-25,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-26,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-27,Worcestershire,lookup_region,support_worker,11
-2026-06,2026-06-28,Worcestershire,lookup_region,support_worker,11
-2026-06,2026-06-29,Worcestershire,lookup_region,support_worker,9
-2026-06,2026-06-30,Worcestershire,lookup_region,support_worker,9
+2026-06,2026-06-16,Worcestershire,lookup_region,support_worker,7
+2026-06,2026-06-17,Worcestershire,lookup_region,support_worker,7
+2026-06,2026-06-18,Worcestershire,lookup_region,support_worker,9
+2026-06,2026-06-19,Worcestershire,lookup_region,support_worker,7
+2026-06,2026-06-20,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-21,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-22,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-23,Worcestershire,lookup_region,support_worker,8
+2026-06,2026-06-24,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-25,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-26,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-27,Worcestershire,lookup_region,support_worker,12
+2026-06,2026-06-28,Worcestershire,lookup_region,support_worker,12
+2026-06,2026-06-29,Worcestershire,lookup_region,support_worker,10
+2026-06,2026-06-30,Worcestershire,lookup_region,support_worker,10
 2026-06,2026-06-01,Yorkshire - East,lookup_region,support_worker,1
 2026-06,2026-06-02,Yorkshire - East,lookup_region,support_worker,2
 2026-06,2026-06-03,Yorkshire - East,lookup_region,support_worker,1
@@ -8339,36 +8819,6 @@
 2026-06,2026-06-28,Yorkshire - West,lookup_region,support_worker,13
 2026-06,2026-06-29,Yorkshire - West,lookup_region,support_worker,11
 2026-06,2026-06-30,Yorkshire - West,lookup_region,support_worker,11
-2026-06,2026-06-01,unknown,lookup_region,support_worker,15
-2026-06,2026-06-02,unknown,lookup_region,support_worker,12
-2026-06,2026-06-03,unknown,lookup_region,support_worker,11
-2026-06,2026-06-04,unknown,lookup_region,support_worker,13
-2026-06,2026-06-05,unknown,lookup_region,support_worker,14
-2026-06,2026-06-06,unknown,lookup_region,support_worker,11
-2026-06,2026-06-07,unknown,lookup_region,support_worker,15
-2026-06,2026-06-08,unknown,lookup_region,support_worker,16
-2026-06,2026-06-09,unknown,lookup_region,support_worker,12
-2026-06,2026-06-10,unknown,lookup_region,support_worker,12
-2026-06,2026-06-11,unknown,lookup_region,support_worker,12
-2026-06,2026-06-12,unknown,lookup_region,support_worker,9
-2026-06,2026-06-13,unknown,lookup_region,support_worker,8
-2026-06,2026-06-14,unknown,lookup_region,support_worker,8
-2026-06,2026-06-15,unknown,lookup_region,support_worker,10
-2026-06,2026-06-16,unknown,lookup_region,support_worker,14
-2026-06,2026-06-17,unknown,lookup_region,support_worker,21
-2026-06,2026-06-18,unknown,lookup_region,support_worker,21
-2026-06,2026-06-19,unknown,lookup_region,support_worker,23
-2026-06,2026-06-20,unknown,lookup_region,support_worker,21
-2026-06,2026-06-21,unknown,lookup_region,support_worker,20
-2026-06,2026-06-22,unknown,lookup_region,support_worker,20
-2026-06,2026-06-23,unknown,lookup_region,support_worker,17
-2026-06,2026-06-24,unknown,lookup_region,support_worker,18
-2026-06,2026-06-25,unknown,lookup_region,support_worker,20
-2026-06,2026-06-26,unknown,lookup_region,support_worker,20
-2026-06,2026-06-27,unknown,lookup_region,support_worker,26
-2026-06,2026-06-28,unknown,lookup_region,support_worker,26
-2026-06,2026-06-29,unknown,lookup_region,support_worker,26
-2026-06,2026-06-30,unknown,lookup_region,support_worker,26
 2026-06,2026-06-01,Berkshire,lookup_region,warehouse_logistics,2
 2026-06,2026-06-02,Berkshire,lookup_region,warehouse_logistics,1
 2026-06,2026-06-03,Berkshire,lookup_region,warehouse_logistics,1
@@ -8665,10 +9115,10 @@
 2026-06,2026-06-24,London,lookup_region,warehouse_logistics,0
 2026-06,2026-06-25,London,lookup_region,warehouse_logistics,1
 2026-06,2026-06-26,London,lookup_region,warehouse_logistics,1
-2026-06,2026-06-27,London,lookup_region,warehouse_logistics,1
-2026-06,2026-06-28,London,lookup_region,warehouse_logistics,1
-2026-06,2026-06-29,London,lookup_region,warehouse_logistics,1
-2026-06,2026-06-30,London,lookup_region,warehouse_logistics,1
+2026-06,2026-06-27,London,lookup_region,warehouse_logistics,2
+2026-06,2026-06-28,London,lookup_region,warehouse_logistics,2
+2026-06,2026-06-29,London,lookup_region,warehouse_logistics,2
+2026-06,2026-06-30,London,lookup_region,warehouse_logistics,2
 2026-06,2026-06-01,North East,published_aggregate,warehouse_logistics,1
 2026-06,2026-06-02,North East,published_aggregate,warehouse_logistics,0
 2026-06,2026-06-03,North East,published_aggregate,warehouse_logistics,0
@@ -8767,9 +9217,9 @@
 2026-06,2026-06-06,Nottinghamshire,lookup_region,warehouse_logistics,0
 2026-06,2026-06-07,Nottinghamshire,lookup_region,warehouse_logistics,0
 2026-06,2026-06-08,Nottinghamshire,lookup_region,warehouse_logistics,0
-2026-06,2026-06-09,Nottinghamshire,lookup_region,warehouse_logistics,0
-2026-06,2026-06-10,Nottinghamshire,lookup_region,warehouse_logistics,0
-2026-06,2026-06-11,Nottinghamshire,lookup_region,warehouse_logistics,0
+2026-06,2026-06-09,Nottinghamshire,lookup_region,warehouse_logistics,1
+2026-06,2026-06-10,Nottinghamshire,lookup_region,warehouse_logistics,1
+2026-06,2026-06-11,Nottinghamshire,lookup_region,warehouse_logistics,1
 2026-06,2026-06-12,Nottinghamshire,lookup_region,warehouse_logistics,0
 2026-06,2026-06-13,Nottinghamshire,lookup_region,warehouse_logistics,0
 2026-06,2026-06-14,Nottinghamshire,lookup_region,warehouse_logistics,0
@@ -8795,9 +9245,9 @@
 2026-06,2026-06-04,Other / Unknown,lookup_region,warehouse_logistics,0
 2026-06,2026-06-05,Other / Unknown,lookup_region,warehouse_logistics,0
 2026-06,2026-06-06,Other / Unknown,lookup_region,warehouse_logistics,0
-2026-06,2026-06-07,Other / Unknown,lookup_region,warehouse_logistics,0
-2026-06,2026-06-08,Other / Unknown,lookup_region,warehouse_logistics,0
-2026-06,2026-06-09,Other / Unknown,lookup_region,warehouse_logistics,0
+2026-06,2026-06-07,Other / Unknown,lookup_region,warehouse_logistics,1
+2026-06,2026-06-08,Other / Unknown,lookup_region,warehouse_logistics,1
+2026-06,2026-06-09,Other / Unknown,lookup_region,warehouse_logistics,1
 2026-06,2026-06-10,Other / Unknown,lookup_region,warehouse_logistics,0
 2026-06,2026-06-11,Other / Unknown,lookup_region,warehouse_logistics,0
 2026-06,2026-06-12,Other / Unknown,lookup_region,warehouse_logistics,0
@@ -8815,10 +9265,10 @@
 2026-06,2026-06-24,Other / Unknown,lookup_region,warehouse_logistics,0
 2026-06,2026-06-25,Other / Unknown,lookup_region,warehouse_logistics,1
 2026-06,2026-06-26,Other / Unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-27,Other / Unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-28,Other / Unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-29,Other / Unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-30,Other / Unknown,lookup_region,warehouse_logistics,1
+2026-06,2026-06-27,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-06,2026-06-28,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-06,2026-06-29,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-06,2026-06-30,Other / Unknown,lookup_region,warehouse_logistics,2
 2026-06,2026-06-01,Oxfordshire,lookup_region,warehouse_logistics,0
 2026-06,2026-06-02,Oxfordshire,lookup_region,warehouse_logistics,0
 2026-06,2026-06-03,Oxfordshire,lookup_region,warehouse_logistics,0
@@ -8879,6 +9329,36 @@
 2026-06,2026-06-28,Scotland West - Renfrewshire & Inverclyde,lookup_region,warehouse_logistics,0
 2026-06,2026-06-29,Scotland West - Renfrewshire & Inverclyde,lookup_region,warehouse_logistics,0
 2026-06,2026-06-30,Scotland West - Renfrewshire & Inverclyde,lookup_region,warehouse_logistics,0
+2026-06,2026-06-01,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-02,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-03,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-04,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-05,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-06,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-07,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-08,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-09,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-10,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-11,South West,lookup_region,warehouse_logistics,0
+2026-06,2026-06-12,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-13,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-14,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-15,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-16,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-17,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-18,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-19,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-20,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-21,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-22,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-23,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-24,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-25,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-26,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-27,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-28,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-29,South West,lookup_region,warehouse_logistics,1
+2026-06,2026-06-30,South West,lookup_region,warehouse_logistics,1
 2026-06,2026-06-01,Surrey,lookup_region,warehouse_logistics,0
 2026-06,2026-06-02,Surrey,lookup_region,warehouse_logistics,0
 2026-06,2026-06-03,Surrey,lookup_region,warehouse_logistics,0
@@ -8909,6 +9389,36 @@
 2026-06,2026-06-28,Surrey,lookup_region,warehouse_logistics,2
 2026-06,2026-06-29,Surrey,lookup_region,warehouse_logistics,2
 2026-06,2026-06-30,Surrey,lookup_region,warehouse_logistics,2
+2026-06,2026-06-01,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,2
+2026-06,2026-06-02,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-03,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-04,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-05,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-06,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,2
+2026-06,2026-06-07,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,2
+2026-06,2026-06-08,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-09,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-10,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-11,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-12,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-13,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-14,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-15,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-16,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-17,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-18,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-19,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-20,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-21,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-22,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-23,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-24,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,0
+2026-06,2026-06-25,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-26,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-27,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-28,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-29,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
+2026-06,2026-06-30,West Midlands - Birmingham & Solihull,lookup_region,warehouse_logistics,1
 2026-06,2026-06-01,West Midlands - Coventry & Warwickshire,lookup_region,warehouse_logistics,1
 2026-06,2026-06-02,West Midlands - Coventry & Warwickshire,lookup_region,warehouse_logistics,1
 2026-06,2026-06-03,West Midlands - Coventry & Warwickshire,lookup_region,warehouse_logistics,1
@@ -9119,33 +9629,3 @@
 2026-06,2026-06-28,Yorkshire - West,lookup_region,warehouse_logistics,0
 2026-06,2026-06-29,Yorkshire - West,lookup_region,warehouse_logistics,0
 2026-06,2026-06-30,Yorkshire - West,lookup_region,warehouse_logistics,0
-2026-06,2026-06-01,unknown,lookup_region,warehouse_logistics,2
-2026-06,2026-06-02,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-03,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-04,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-05,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-06,unknown,lookup_region,warehouse_logistics,2
-2026-06,2026-06-07,unknown,lookup_region,warehouse_logistics,3
-2026-06,2026-06-08,unknown,lookup_region,warehouse_logistics,2
-2026-06,2026-06-09,unknown,lookup_region,warehouse_logistics,3
-2026-06,2026-06-10,unknown,lookup_region,warehouse_logistics,2
-2026-06,2026-06-11,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-12,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-13,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-14,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-15,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-16,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-17,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-18,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-19,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-20,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-21,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-22,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-23,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-24,unknown,lookup_region,warehouse_logistics,1
-2026-06,2026-06-25,unknown,lookup_region,warehouse_logistics,2
-2026-06,2026-06-26,unknown,lookup_region,warehouse_logistics,2
-2026-06,2026-06-27,unknown,lookup_region,warehouse_logistics,4
-2026-06,2026-06-28,unknown,lookup_region,warehouse_logistics,4
-2026-06,2026-06-29,unknown,lookup_region,warehouse_logistics,4
-2026-06,2026-06-30,unknown,lookup_region,warehouse_logistics,4
