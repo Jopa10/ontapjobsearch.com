@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-03
+feed_date: 2026-08-04
 
 Edit only the `action:` line in each block:
 
@@ -10,12 +10,6 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
-
----
-action: select
-SELECTED | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
-job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
----
 
 ---
 action:
@@ -31,7 +25,11 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
+job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -39,12 +37,6 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Barnsley | £25000 - £30000 per year | Receptionist / Facilities Coordinator
 job_id: 3210a914-2c99-4b6c-870b-c2001651b931
----
-
----
-action: select
-SELECTED | Yorkshire - South | Sheffield | £15 - £16 per hour | Site Administrator
-job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
 ---
 
 ---
@@ -69,8 +61,8 @@ job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
 
 ---
 action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £40000 per year | Health Hub Coordinator
-job_id: 107667796
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £15 - £16 per hour | Site Administrator
+job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
 ---
 
 ## NORTH EAST — SELECTED
@@ -152,12 +144,6 @@ job_id: 1599080
 ---
 
 ---
-action: select
-SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
----
-
----
 action:
 SELECTED | London | London | £35000 per year | Sipp Administrator
 job_id: e0a800a7-bcbd-4cad-8a96-decf3e7a07ba
@@ -167,6 +153,12 @@ job_id: e0a800a7-bcbd-4cad-8a96-decf3e7a07ba
 action:
 SELECTED | London | London | £25000 - £35000 per year | French and Japanese speaking Sales Administrator / Account Management
 job_id: d4000791-6f57-45b5-b179-616cd9975d10
+---
+
+---
+action:
+SELECTED | London | London | £29000 per year | Helpdesk Administrator
+job_id: cb213c52-3054-4831-b72e-231906077e8c
 ---
 
 ---
@@ -207,8 +199,182 @@ job_id: a65fdabc-6bc9-40ee-9a53-499a14c95c4a
 
 ---
 action:
-SELECTED | London | London |  | Salesforce Administrator (Mid-Level)
-job_id: 1621458
+SELECTED | London | City |  | Accounts Administrator (P/T)
+job_id: 2047782
+---
+
+---
+action:
+SELECTED | London | City |  | Site Administrator
+job_id: 2047697
+---
+
+---
+action:
+SELECTED | London | City | £15.83 - £16.16 per hour | Clerical Supervisor
+job_id: 2047695
+---
+
+---
+action:
+SELECTED | London | City | £12.75 per hour | Medical Receptionist (Full-Time)
+job_id: 2047648
+---
+
+---
+action:
+SELECTED | London | City | £14.35 per hour | Cemeteries Administrator - Belfast City Council
+job_id: 2047634
+---
+
+---
+action:
+SELECTED | London | City | £26200 per year | Project Administrator
+job_id: 2047633
+---
+
+---
+action:
+SELECTED | London | City | £12.71 - £13 per hour | Administrator (Part time 12-15 hours)
+job_id: 2047524
+---
+
+---
+action:
+SELECTED | London | City | £13.5 per hour | Customer Service and Operations Administrator
+job_id: 2047517
+---
+
+---
+action:
+SELECTED | London | City |  | Customer Support Administrator
+job_id: 2047491
+---
+
+---
+action:
+SELECTED | London | City |  | Clerical Officer (Maternity Cover)
+job_id: 2047118
+---
+
+---
+action:
+SELECTED | London | City |  | Office Administrator - Part Time (4 days per week)
+job_id: 2047059
+---
+
+---
+action:
+SELECTED | London | City |  | Administrator (Excellent Opportunity)
+job_id: 2047054
+---
+
+---
+action:
+SELECTED | London | City |  | Financial Services Administrator
+job_id: 2047045
+---
+
+---
+action:
+SELECTED | London | City |  | Receptionist (Temporary)
+job_id: 2046939
+---
+
+---
+action:
+SELECTED | London | City | £13.49 per hour | Medical Receptionist (28-33 hrs pw)
+job_id: 2046770
+---
+
+---
+action:
+SELECTED | London | City |  | Receptionist
+job_id: 2046811
+---
+
+---
+action:
+SELECTED | London | City | £13.31 per hour | Medical Receptionist (17.5 hrs pw)
+job_id: 2046467
+---
+
+---
+action:
+SELECTED | London | City |  | Claims Handler / Litigation Assistant, Belfast City Centre, £Neg
+job_id: 2046397
+---
+
+---
+action:
+SELECTED | London | City | £12.71 per hour | Receptionist - Derriaghy Day Centre
+job_id: 2046260
+---
+
+---
+action:
+SELECTED | London | City |  | Facilities Coordinator
+job_id: 2046256
+---
+
+---
+action:
+SELECTED | London | City | £14.1 per hour | Office Administrator (Part-Time)
+job_id: 2046255
+---
+
+---
+action:
+SELECTED | London | Londonderry |  | HR & Recruitment Administrator
+job_id: 2045915
+---
+
+---
+action:
+SELECTED | London | City |  | Business Support Officer (Funding)
+job_id: 2045863
+---
+
+---
+action:
+SELECTED | London | City | £12.5 - £13 per hour | Front of House / Reception Administrator
+job_id: 2045841
+---
+
+---
+action:
+SELECTED | London | Londonderry | £12.75 per hour | Band 3 Secretary- Derry
+job_id: 2045743
+---
+
+---
+action:
+SELECTED | London | City | £14.25 per hour | Clerical Officer
+job_id: 2045711
+---
+
+---
+action:
+SELECTED | London | City | £13 - £14 per hour | Receptionist
+job_id: 2045625
+---
+
+---
+action:
+SELECTED | London | City |  | Financial Services Administrator (Graduate)
+job_id: 2045581
+---
+
+---
+action:
+SELECTED | London | City | £16.68 per hour | Service Delivery Administrator
+job_id: 2045554
+---
+
+---
+action:
+SELECTED | London | London |  | Administrator - Domestic Abuse Service
+job_id: 1629901
 ---
 
 ## LONDON — POSSIBLES
@@ -217,6 +383,18 @@ job_id: 1621458
 action:
 POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
 job_id: 107731922
+---
+
+---
+action:
+POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
+---
+
+---
+action:
+POSS - LONDON | London | City | £23.37 per hour | Business Coordinator HR and Administration
+job_id: 2047141
 ---
 
 ## HAMPSHIRE — SELECTED
@@ -263,6 +441,12 @@ SELECTED | Hampshire | Winchester | £22000 per year | Young Carers Support Coor
 job_id: 107755942
 ---
 
+---
+action:
+SELECTED | Hampshire | Fleet |  | IT Administrator
+job_id: 1629916
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -299,17 +483,17 @@ SELECTED | Surrey | Leatherhead | £20000 - £28000 per year | Assistant Estimat
 job_id: f545a2c8-eeed-4001-aafd-8e0b48332e01
 ---
 
+---
+action:
+SELECTED | Surrey | Redhill | £26000 per year | Administrator (Progression to Finance & Operations)
+job_id: 107789631
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Dartford | £24500 - £27000 per year | Administrator - Construction Industry
-job_id: 705da49f-22ec-4df1-aca5-ebc75e2f7b23
----
 
 ---
 action:
@@ -337,15 +521,13 @@ job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 
 ## KENT — POSSIBLES
 
-_No jobs in this group._
-
-## SUSSEX — SELECTED
-
 ---
 action:
-SELECTED | Sussex | Chichester |  | Marine Commercial Administrator
-job_id: 107683890
+POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
 ---
+
+## SUSSEX — SELECTED
 
 ---
 action:
@@ -377,9 +559,19 @@ SELECTED | Sussex | Brighton | £13.75 per hour | Higher Education Administrator
 job_id: 8dfd4428-944d-4205-9e14-933991d5c6b1
 ---
 
+---
+action:
+SELECTED | Sussex | Chichester |  | Marine Commercial Administrator
+job_id: 107683890
+---
+
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Horsham | £38000 - £42000 per year | Financial Administrator
+job_id: 73c27096-8e4a-4bbb-8a13-773dcdd66a6c
+---
 ## ACTIVE MANUAL ACTIONS
 
 _No active manual actions outside the selected/possible groups._
