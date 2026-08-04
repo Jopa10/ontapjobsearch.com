@@ -1,7 +1,11 @@
 """Format the West Yorkshire Teaching Vacancies review output.
 
-Keeps review rows in the same practical order as Ontap's other external-source
-reviews: selected (HC) first, manual review (POSS) second, and hard passes last.
+Standard external-review layout:
+- final_decision is the first (left-most) column
+- HC rows first
+- POSS rows second
+- DUPLICATE rows third
+- HARD_PASS rows last
 """
 from __future__ import annotations
 
@@ -9,7 +13,7 @@ import argparse
 import csv
 from pathlib import Path
 
-CLASSIFICATION_ORDER = {
+DECISION_ORDER = {
     "HC": 0,
     "POSS": 1,
     "DUPLICATE": 2,
@@ -18,13 +22,19 @@ CLASSIFICATION_ORDER = {
 
 
 def sort_key(row: dict[str, str]) -> tuple[int, str, str, str]:
-    classification = (row.get("classification") or "").strip().upper()
+    decision = (row.get("final_decision") or row.get("classification") or "").strip().upper()
     return (
-        CLASSIFICATION_ORDER.get(classification, 99),
+        DECISION_ORDER.get(decision, 99),
         (row.get("title") or "").casefold(),
         (row.get("employer") or "").casefold(),
         (row.get("location") or "").casefold(),
     )
+
+
+def ordered_fieldnames(fieldnames: list[str]) -> list[str]:
+    if "final_decision" not in fieldnames:
+        raise ValueError("Review CSV is missing required final_decision column")
+    return ["final_decision", *[name for name in fieldnames if name != "final_decision"]]
 
 
 def sort_review_csv(path: Path) -> None:
@@ -34,9 +44,12 @@ def sort_review_csv(path: Path) -> None:
         rows = list(reader)
     if not fieldnames:
         raise ValueError(f"Review CSV has no header: {path}")
+
+    output_fields = ordered_fieldnames(fieldnames)
     rows.sort(key=sort_key)
+
     with path.open("w", newline="", encoding="utf-8-sig") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=output_fields)
         writer.writeheader()
         writer.writerows(rows)
 
