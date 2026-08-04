@@ -27,12 +27,16 @@ jobs:
 
       - name: Test Teaching Vacancies proof of concept
         working-directory: pipeline
-        run: python -m pytest tests/test_teaching_vacancies_poc.py -q
+        run: |
+          python -m pytest \
+            tests/test_teaching_vacancies_poc.py \
+            tests/test_teaching_vacancies_pay_fallback.py \
+            -q
 
       - name: Refresh West Yorkshire Teaching Vacancies review
         working-directory: pipeline
         run: |
-          python -m external_sources.teaching_vacancies_poc \
+          python -m external_sources.teaching_vacancies_etl \
             --fetch-live \
             --max-pages 2 \
             --report-csv reviews/external/west-yorkshire-teaching-vacancies-review.csv \
