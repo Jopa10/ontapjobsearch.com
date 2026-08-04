@@ -5,13 +5,19 @@ on:
     paths:
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
+      - "pipeline/external_sources/teaching_vacancies_approved.py"
+      - "pipeline/external_sources/compose_west_yorkshire_admin.py"
       - "pipeline/external_sources/REVIEW_STANDARD.md"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
+      - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
       - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-review.csv"
       - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-summary.md"
       - ".github/workflows/test-teaching-vacancies-poc.yml"
       - ".github/workflows/run-teaching-vacancies-review.yml"
+      - ".github/workflows/build-approved-teaching-vacancies-output.yml"
+      - ".github/workflows/run-service-admin-pipeline.yml"
+      - ".github/workflows/run-full-jobg8-daily-process.yml"
   workflow_dispatch:
 
 permissions:
@@ -35,13 +41,16 @@ jobs:
         run: |
           python -m py_compile external_sources/teaching_vacancies_poc.py
           python -m py_compile external_sources/teaching_vacancies_etl.py
+          python -m py_compile external_sources/teaching_vacancies_approved.py
+          python -m py_compile external_sources/compose_west_yorkshire_admin.py
 
-      - name: Test
+      - name: Test review, approval and retention
         working-directory: pipeline
         run: |
           python -m pytest \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
+            tests/test_teaching_vacancies_approved_publish.py \
             -q
 
       - name: Run live review-only preview
