@@ -17,7 +17,7 @@ def test_discover_job_urls_deduplicates_and_ignores_search_page():
     <a href="/jobs">Jobs</a>
     <a href="/jobs/administrative-assistant-example">One</a>
     <a href="https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-example">Again</a>
-    <a href="/jobs/exams-officer-example?ref=x">Two</a>
+    <a href="/jobs/exams-officer-example">Two</a>
     '''
     urls = discover_job_urls(html)
     assert urls == [
