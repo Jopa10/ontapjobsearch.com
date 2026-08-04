@@ -5,8 +5,10 @@ on:
     paths:
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/format_teaching_vacancies_review.py"
+      - "pipeline/external_sources/teaching_vacancies_review.py"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_review_format.py"
+      - "pipeline/tests/test_teaching_vacancies_review.py"
       - ".github/workflows/test-teaching-vacancies-poc.yml"
   workflow_dispatch:
 
@@ -28,12 +30,14 @@ jobs:
         run: |
           python -m py_compile external_sources/teaching_vacancies_poc.py
           python -m py_compile external_sources/format_teaching_vacancies_review.py
+          python -m py_compile external_sources/teaching_vacancies_review.py
       - name: Test
         working-directory: pipeline
         run: |
           python -m pytest \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_review_format.py \
+            tests/test_teaching_vacancies_review.py \
             -q
       - name: Run live review-only preview
         working-directory: pipeline
@@ -45,17 +49,21 @@ jobs:
             --summary-md /tmp/west-yorkshire-teaching-vacancies-summary.md
           python -m external_sources.format_teaching_vacancies_review \
             /tmp/west-yorkshire-teaching-vacancies-review.csv
-      - name: Verify preview layout, order and live-site isolation
+          python -m external_sources.teaching_vacancies_review \
+            /tmp/west-yorkshire-teaching-vacancies-review.csv \
+            /tmp/west-yorkshire-teaching-vacancies-decisions.md
+      - name: Verify review format and live-site isolation
         run: |
           test -s /tmp/west-yorkshire-teaching-vacancies-review.csv
           test -s /tmp/west-yorkshire-teaching-vacancies-summary.md
+          test -s /tmp/west-yorkshire-teaching-vacancies-decisions.md
           python - <<'PY'
           import csv
           path = "/tmp/west-yorkshire-teaching-vacancies-review.csv"
           with open(path, newline="", encoding="utf-8-sig") as handle:
               reader = csv.DictReader(handle)
-              values = [row["final_decision"] for row in reader]
               assert reader.fieldnames[0] == "final_decision", reader.fieldnames
+              values = [row["final_decision"] for row in reader]
           order = {"HC": 0, "POSS": 1, "DUPLICATE": 2, "HARD_PASS": 3}
           assert values == sorted(values, key=lambda value: order.get(value, 99)), values
           PY
@@ -70,5 +78,6 @@ jobs:
           path: |
             /tmp/west-yorkshire-teaching-vacancies-review.csv
             /tmp/west-yorkshire-teaching-vacancies-summary.md
+            /tmp/west-yorkshire-teaching-vacancies-decisions.md
           if-no-files-found: error
           retention-days: 7
