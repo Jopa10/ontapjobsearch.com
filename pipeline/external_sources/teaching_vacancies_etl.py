@@ -1,9 +1,10 @@
 """Canonical Teaching Vacancies review runner with visible-field fallbacks.
 
-Teaching Vacancies' JobPosting JSON-LD does not always contain salary, even
-when the public advert displays a Full time equivalent salary.  This runner
-keeps the existing bounded POC behaviour, adds a visible-page salary fallback,
-and blocks a review when an in-scope vacancy still has no salary.
+Teaching Vacancies' JobPosting JSON-LD does not always contain pay information,
+even when the public advert displays either a Full time equivalent salary or a
+Pay scale. This runner keeps the existing bounded POC behaviour, adds those
+visible-page fallbacks, and blocks a review when an in-scope vacancy still has
+no pay information.
 """
 from __future__ import annotations
 
@@ -14,6 +15,10 @@ from external_sources import teaching_vacancies_poc as poc
 
 _BASE_PARSE_JOBPOSTING = poc.parse_jobposting
 _BASE_PROCESS = poc.process
+PAY_LABELS = (
+    "Full time equivalent salary",
+    "Pay scale",
+)
 
 
 class VisibleTextParser(HTMLParser):
@@ -62,30 +67,35 @@ def visible_label_value(document: str, label: str) -> str:
     return ""
 
 
+def visible_pay_value(document: str) -> str:
+    for label in PAY_LABELS:
+        value = visible_label_value(document, label)
+        if value:
+            return value
+    return ""
+
+
 def parse_jobposting(document: str, url: str) -> poc.Vacancy:
-    """Parse JSON-LD, then recover salary from the visible advert if needed."""
+    """Parse JSON-LD, then recover visible salary or pay scale if needed."""
     vacancy = _BASE_PARSE_JOBPOSTING(document, url)
     if not vacancy.salary_text:
-        vacancy.salary_text = visible_label_value(
-            document,
-            "Full time equivalent salary",
-        )
+        vacancy.salary_text = visible_pay_value(document)
     return vacancy
 
 
 def validate_core_fields(vacancies: list[poc.Vacancy]) -> None:
-    """Block an accepted regional review when a core visible field is blank."""
-    missing_salary = [
+    """Block an accepted regional review when core pay information is blank."""
+    missing_pay = [
         vacancy.source_job_id or vacancy.title
         for vacancy in vacancies
         if vacancy.geography_status == "IN_SCOPE"
         and not poc.clean(vacancy.salary_text)
     ]
-    if missing_salary:
+    if missing_pay:
         raise ValueError(
             "Teaching Vacancies field audit failed: in-scope adverts have no "
-            "salary after structured and visible-page extraction: "
-            + ", ".join(sorted(missing_salary))
+            "salary or pay scale after structured and visible-page extraction: "
+            + ", ".join(sorted(missing_pay))
         )
 
 
