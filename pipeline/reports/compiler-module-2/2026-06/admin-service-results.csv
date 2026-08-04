@@ -1,0 +1,89 @@
+month,region,region_scope,existing_live_page,recommendation,total_jobs,feed_days,days_seen,average_daily_count,maximum_daily_count,days_with_6_plus,unique_title_count,unique_company_count,unique_location_count,concentration_risk
+2026-06,Bristol & Bath,lookup_region,no,BUILD,35,30,30,7.67,17,23,28,30,3,LOW
+2026-06,Berkshire,lookup_region,no,BUILD,29,30,30,7.6,21,15,20,19,7,LOW
+2026-06,Hertfordshire,lookup_region,no,BUILD,28,30,30,7.43,15,22,17,19,11,LOW
+2026-06,Essex,lookup_region,no,BUILD,31,30,30,6.53,15,11,21,20,11,LOW
+2026-06,Leicestershire,lookup_region,no,BUILD,31,30,30,6.13,10,19,20,13,5,LOW
+2026-06,Yorkshire - North,lookup_region,no,BUILD,22,30,30,6.03,10,20,19,13,9,LOW
+2026-06,London,lookup_region,yes,MAINTAIN,144,30,30,30.43,61,30,90,83,23,LOW
+2026-06,Surrey,lookup_region,yes,MAINTAIN,51,30,30,10.97,21,30,31,29,20,LOW
+2026-06,Yorkshire - West,lookup_region,yes,MAINTAIN,44,30,30,9.87,25,22,26,25,9,LOW
+2026-06,Hampshire,lookup_region,yes,MAINTAIN,30,30,30,8.17,16,23,18,20,18,LOW
+2026-06,Yorkshire - South,lookup_region,yes,MAINTAIN,21,30,30,7.07,13,26,18,14,4,LOW
+2026-06,North East,published_aggregate,yes,MAINTAIN,28,30,30,6.63,13,22,18,16,13,LOW
+2026-06,Greater Manchester - Manchester & Salford,lookup_region,no,WATCH,28,30,30,6.63,16,15,24,22,1,LOW
+2026-06,Buckinghamshire,lookup_region,no,WATCH,26,30,30,5.93,11,16,19,21,6,LOW
+2026-06,Sussex,lookup_region,yes,WATCH,24,30,30,5.7,13,16,20,17,12,LOW
+2026-06,Kent,lookup_region,yes,WATCH,25,30,30,5.53,12,12,19,15,13,LOW
+2026-06,Norfolk,lookup_region,no,WATCH,22,30,30,5.37,13,17,17,15,5,LOW
+2026-06,West Midlands - Coventry & Warwickshire,lookup_region,no,WATCH,23,30,30,4.9,9,8,13,18,6,LOW
+2026-06,Wiltshire,lookup_region,no,WATCH,19,30,30,4.9,10,10,15,15,9,LOW
+2026-06,Northern Ireland - East,lookup_region,no,WATCH,23,30,24,4.87,17,8,21,10,10,LOW
+2026-06,Gloucestershire,lookup_region,no,WATCH,26,30,30,4.3,15,10,20,15,9,LOW
+2026-06,Other / Unknown,lookup_region,no,WATCH,21,30,30,4.2,9,3,16,10,6,LOW
+2026-06,Somerset,lookup_region,no,WATCH,17,30,30,4.2,7,7,11,16,11,LOW
+2026-06,West Midlands - Birmingham & Solihull,lookup_region,no,WATCH,17,30,30,4.2,9,4,12,15,3,LOW
+2026-06,Staffordshire,lookup_region,no,WATCH,16,30,30,4.13,10,9,14,11,7,LOW
+2026-06,Scotland Central - Edinburgh & Lothians,lookup_region,no,WATCH,14,30,30,3.9,8,9,12,11,2,LOW
+2026-06,Merseyside - Liverpool,lookup_region,no,WATCH,8,30,30,3.6,5,0,6,8,1,LOW
+2026-06,"North East - Tyneside, Wearside & Northumberland",lookup_region,no,WATCH,15,30,30,3.3,8,3,12,12,6,LOW
+2026-06,Suffolk,lookup_region,no,WATCH,14,30,25,3.17,8,5,12,12,7,LOW
+2026-06,Derbyshire,lookup_region,no,WATCH,15,30,20,3.0,8,8,10,10,7,LOW
+2026-06,Worcestershire,lookup_region,no,WATCH,11,30,30,2.93,6,4,8,9,6,LOW
+2026-06,Cheshire - Warrington & Halton,lookup_region,no,WATCH,10,30,30,2.8,5,0,9,8,3,LOW
+2026-06,Devon,lookup_region,no,WATCH,10,30,30,2.8,5,0,8,10,4,LOW
+2026-06,Northamptonshire,lookup_region,no,WATCH,12,30,30,2.77,6,1,11,12,4,LOW
+2026-06,Cheshire - West,lookup_region,no,WATCH,7,30,29,2.6,4,0,7,7,4,LOW
+2026-06,Dorset,lookup_region,no,WATCH,9,30,30,2.6,5,0,8,8,6,LOW
+2026-06,North Scotland,lookup_region,no,WATCH,9,30,29,2.5,4,0,6,7,4,LOW
+2026-06,North East - Tees Valley,lookup_region,no,WATCH,8,30,26,2.47,4,0,7,5,3,HIGH
+2026-06,Nottinghamshire,lookup_region,no,WATCH,21,30,27,2.43,6,1,11,12,4,LOW
+2026-06,Northern Ireland - West,lookup_region,no,WATCH,14,30,16,2.4,8,6,12,10,7,LOW
+2026-06,Lincolnshire,lookup_region,no,WATCH,11,30,30,2.33,4,0,10,10,7,LOW
+2026-06,Greater Manchester - South,lookup_region,no,WATCH,8,30,28,2.1,5,0,7,5,3,MEDIUM
+2026-06,East Midlands,lookup_region,no,WATCH,8,30,28,2.03,5,0,8,7,4,MEDIUM
+2026-06,Lancashire - East,lookup_region,no,WATCH,5,30,30,1.97,3,0,3,4,3,HIGH
+2026-06,Scotland West - Glasgow,lookup_region,no,WATCH,13,30,17,1.9,6,1,11,8,1,MEDIUM
+2026-06,Scotland West - Renfrewshire & Inverclyde,lookup_region,no,WATCH,5,30,30,1.5,4,0,4,3,3,HIGH
+2026-06,Merseyside - Sefton,lookup_region,no,WATCH,3,30,19,1.47,3,0,3,3,2,HIGH
+2026-06,Oxfordshire,lookup_region,no,WATCH,7,30,20,1.47,6,2,7,6,6,MEDIUM
+2026-06,West Midlands,lookup_region,no,WATCH,5,30,20,1.3,3,0,4,4,1,HIGH
+2026-06,Wales South - Cardiff & Vale,lookup_region,no,WATCH,6,30,15,1.27,4,0,6,4,1,HIGH
+2026-06,Shropshire,lookup_region,no,WATCH,5,30,30,1.23,3,0,5,5,3,HIGH
+2026-06,Lancashire - North,lookup_region,no,WATCH,3,30,30,1.03,2,0,3,3,2,HIGH
+2026-06,Greater Manchester - North,lookup_region,no,WATCH,6,30,24,0.9,3,0,5,5,2,HIGH
+2026-06,Highland,lookup_region,no,WATCH,2,30,20,0.9,2,0,2,2,2,HIGH
+2026-06,West Midlands - Black Country,lookup_region,no,WATCH,7,30,16,0.87,3,0,6,6,4,MEDIUM
+2026-06,Yorkshire - East,lookup_region,no,WATCH,3,30,18,0.73,2,0,3,3,2,HIGH
+2026-06,Scotland Central - Falkirk & Stirling,lookup_region,no,WATCH,1,30,19,0.63,1,0,1,1,1,HIGH
+2026-06,Cumbria - North,lookup_region,no,WATCH,1,30,17,0.57,1,0,1,1,1,HIGH
+2026-06,Merseyside - St Helens & Knowsley,lookup_region,no,WATCH,2,30,16,0.53,1,0,2,2,2,HIGH
+2026-06,Bedfordshire,lookup_region,no,REJECT,7,30,14,1.17,4,0,6,5,4,LOW
+2026-06,Lancashire - Central,lookup_region,no,REJECT,6,30,11,1.1,3,0,3,5,2,MEDIUM
+2026-06,Cambridgeshire,lookup_region,no,REJECT,5,30,11,1.03,4,0,5,5,2,HIGH
+2026-06,North East - County Durham & Darlington/Hartlepool,lookup_region,no,REJECT,5,30,13,0.87,3,0,4,3,4,HIGH
+2026-06,Highlands & Islands,lookup_region,no,REJECT,2,30,14,0.47,1,0,1,1,1,HIGH
+2026-06,Scotland Central - Fife,lookup_region,no,REJECT,2,30,11,0.47,2,0,1,1,2,HIGH
+2026-06,Wales South -gwent,lookup_region,no,REJECT,2,30,13,0.47,2,0,2,2,1,HIGH
+2026-06,Aberdeenshire,lookup_region,no,REJECT,1,30,12,0.4,1,0,1,1,1,HIGH
+2026-06,Wales South - Swansea Bay,lookup_region,no,REJECT,2,30,6,0.4,2,0,2,2,1,HIGH
+2026-06,Carmarthenshire,lookup_region,no,REJECT,1,30,11,0.37,1,0,1,1,1,HIGH
+2026-06,Cumbria - West,lookup_region,no,REJECT,2,30,11,0.37,1,0,2,2,2,HIGH
+2026-06,Isle of Anglesey,lookup_region,no,REJECT,1,30,11,0.37,1,0,1,1,1,HIGH
+2026-06,North Wales - West,lookup_region,no,REJECT,1,30,11,0.37,1,0,1,1,1,HIGH
+2026-06,Cheshire - East,lookup_region,no,REJECT,3,30,9,0.3,1,0,3,3,3,HIGH
+2026-06,Scotland West - Lanarkshire,lookup_region,no,REJECT,2,30,9,0.3,1,0,1,1,1,HIGH
+2026-06,Lancashire - Blackpool & Fylde,lookup_region,no,REJECT,2,30,4,0.27,2,0,2,2,1,HIGH
+2026-06,West Sussex,lookup_region,no,REJECT,2,30,4,0.27,2,0,2,2,1,HIGH
+2026-06,Cumbria - South,lookup_region,no,REJECT,1,30,6,0.2,1,0,1,1,1,HIGH
+2026-06,Flintshire,lookup_region,no,REJECT,1,30,6,0.2,1,0,1,1,1,HIGH
+2026-06,Lancashire - West,lookup_region,no,REJECT,1,30,4,0.13,1,0,1,1,1,HIGH
+2026-06,North Wales - East,lookup_region,no,REJECT,1,30,4,0.13,1,0,1,1,1,HIGH
+2026-06,Wales South - Gwent,lookup_region,no,REJECT,1,30,4,0.13,1,0,1,1,1,HIGH
+2026-06,Greater Manchester - Wigan & Bolton,lookup_region,no,REJECT,2,30,3,0.1,1,0,2,2,2,HIGH
+2026-06,Wales - West,lookup_region,no,REJECT,1,30,3,0.1,1,0,1,1,1,HIGH
+2026-06,Cornwall,lookup_region,no,REJECT,1,30,2,0.07,1,0,1,1,1,HIGH
+2026-06,Scotland Central - Tayside,lookup_region,no,REJECT,2,30,1,0.07,2,0,1,1,1,HIGH
+2026-06,Herefordshire,lookup_region,no,REJECT,1,30,1,0.03,1,0,1,1,1,HIGH
+2026-06,South West,lookup_region,no,REJECT,1,30,1,0.03,1,0,1,1,1,HIGH
+2026-06,Wales South - Valleys,lookup_region,no,REJECT,1,30,1,0.03,1,0,1,1,1,HIGH
