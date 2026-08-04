@@ -41,7 +41,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support",
+      "Community access",
+      "Promoting independence"
+    ]
   },
   {
     "job_id": "6b804bc2-d778-42ed-bf1b-d3ec78422d8a",
@@ -63,7 +69,14 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support",
+      "Community access",
+      "Medical and welfare support",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "9b0995dd-b5e5-433f-b113-8a55acf6d8cd",
@@ -151,7 +164,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Daily living support",
+      "Support plans",
+      "Promoting independence",
+      "Accommodation support",
+      "Education and employment goals"
+    ]
   },
   {
     "job_id": "107615864",
