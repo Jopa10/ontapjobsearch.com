@@ -1,0 +1,133 @@
+name: Build approved Teaching Vacancies output
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Type PUBLISH after reviewing today's Teaching Vacancies file
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-approved-teaching-vacancies-output:
+    name: Build reviewed Teaching Vacancies and compose West Yorkshire JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test package
+        run: python -m pip install --upgrade pip pytest
+
+      - name: Run controlled approval and retention tests
+        working-directory: pipeline
+        run: |
+          python -m pytest \
+            tests/test_teaching_vacancies_poc.py \
+            tests/test_teaching_vacancies_pay_fallback.py \
+            tests/test_teaching_vacancies_approved_publish.py \
+            -q
+
+      - name: Build exact reviewed external output
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_approved \
+            --fetch-live \
+            --max-pages 2 \
+            --write-approved-json \
+            --confirm-approved PUBLISH
+
+      - name: Compose with current JobG8 West Yorkshire output
+        working-directory: pipeline
+        run: python -m external_sources.compose_west_yorkshire_admin --write
+
+      - name: Verify approved output and live-site isolation
+        run: |
+          test -s pipeline/output-external/west-yorkshire-teaching-vacancies-admin-service.json
+          test -s pipeline/output-admin-service/west-yorkshire-admin-service.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          external = json.loads(
+              Path(
+                  "pipeline/output-external/"
+                  "west-yorkshire-teaching-vacancies-admin-service.json"
+              ).read_text()
+          )
+          combined = json.loads(
+              Path(
+                  "pipeline/output-admin-service/"
+                  "west-yorkshire-admin-service.json"
+              ).read_text()
+          )
+          external_ids = {row["job_id"] for row in external}
+          combined_ids = {row["job_id"] for row in combined}
+          if not external_ids <= combined_ids:
+              raise SystemExit(
+                  "STOP: combined output is missing approved Teaching Vacancies IDs"
+              )
+          if any(row.get("source") != "Teaching Vacancies" for row in external):
+              raise SystemExit("STOP: approved output has an unexpected source")
+          print(f"Approved Teaching Vacancies: {len(external)}")
+          print(f"Combined West Yorkshire jobs: {len(combined)}")
+          PY
+          git diff --exit-code -- app
+
+      - name: Commit approved output for final publisher review
+        run: |
+          set -euo pipefail
+          approved_paths=(
+            "pipeline/output-external/west-yorkshire-teaching-vacancies-admin-service.json"
+            "pipeline/output-admin-service/west-yorkshire-admin-service.json"
+          )
+
+          git add -- "${approved_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No approved Teaching Vacancies output changes to commit"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/output-external/west-yorkshire-teaching-vacancies-admin-service.json" && $0 != "pipeline/output-admin-service/west-yorkshire-admin-service.json"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside approved Teaching Vacancies outputs:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build approved Teaching Vacancies output"
+          git push origin main
+
+      - name: Next step
+        run: |
+          {
+            echo "## Approved Teaching Vacancies output built"
+            echo
+            echo "The approved snapshot and combined pipeline JSON have been committed."
+            echo "Run the normal JobG8 daily workflow to confirm the snapshot is retained."
+            echo "Run **Publish verified pages** only after checking the combined count."
+          } >> "$GITHUB_STEP_SUMMARY"
