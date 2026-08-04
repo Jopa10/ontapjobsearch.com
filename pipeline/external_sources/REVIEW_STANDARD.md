@@ -5,6 +5,26 @@ external vacancy source. Before implementing a new source, inspect the current
 NEJobs and VONNE review files and copy their established pattern. Do not invent
 a source-specific review interface.
 
+## Initial sweep to ETL acceptance gate
+
+A source does not pass merely because vacancies were discovered and classified.
+Before an initial sweep is accepted as an ETL source:
+
+- compare the generated review with several live source adverts;
+- verify title, employer, location, salary, posted date and closing date;
+- include examples where a field is populated visibly but absent from structured
+  metadata;
+- add a source-specific visible-page fallback and automated fixture test for any
+  such discrepancy;
+- block the live review when a required core field is visible on the source but
+  blank in Ontap's output; and
+- record clearly whether a blank means `not stated by source` or `extraction
+  failure`.
+
+The source must not move to routine review or approved-output development until
+this field audit passes. A successful fetch, geography filter or HC/POSS split
+alone is not sufficient.
+
 ## Required repository outputs
 
 Each source review writes exactly two files under `pipeline/reviews/external/`:
