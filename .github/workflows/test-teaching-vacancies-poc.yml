@@ -15,15 +15,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   test-teaching-vacancies-poc:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref || github.ref }}
 
       - uses: actions/setup-python@v5
         with:
@@ -106,26 +104,6 @@ jobs:
             pipeline/output-external \
             pipeline/output-admin-service \
             app
-
-      - name: Refresh review files on this branch
-        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
-        run: |
-          set -euo pipefail
-          cp /tmp/west-yorkshire-teaching-vacancies-review.csv \
-            pipeline/reviews/external/west-yorkshire-teaching-vacancies-review.csv
-          cp /tmp/west-yorkshire-teaching-vacancies-summary.md \
-            pipeline/reviews/external/west-yorkshire-teaching-vacancies-summary.md
-          git add -- \
-            pipeline/reviews/external/west-yorkshire-teaching-vacancies-review.csv \
-            pipeline/reviews/external/west-yorkshire-teaching-vacancies-summary.md
-          if git diff --cached --quiet; then
-            echo "Review files already match the audited live preview"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Refresh West Yorkshire Teaching Vacancies review salaries"
-          git push origin HEAD:${{ github.head_ref }}
 
       - name: Upload West Yorkshire Teaching Vacancies review preview
         uses: actions/upload-artifact@v4
