@@ -11,7 +11,7 @@ Edit only the `action:` line in each editable block:
 - Commit the edit, then rerun the Teaching Vacancies process for the same review date.
 - Decisions are matched by `source_job_id` and expire when the review date changes.
 
-Run generated: 2026-08-04T15:14:25+01:00
+Run generated: 2026-08-04T17:14:26+01:00
 Search input: https://teaching-vacancies.service.gov.uk/jobs — West Yorkshire, 20-mile radius
 JobG8 comparison rows: 2
 
@@ -32,9 +32,9 @@ JobG8 comparison rows: 2
 - HC: 11
 - POSS: 1
 - Hard pass: 21
-- Final selected after manual actions: 11
+- Final selected after manual actions: 6
 - Final POSS awaiting decision: 1
-- Manually excluded: 0
+- Manually excluded: 5
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 0
 
@@ -60,28 +60,6 @@ reason: Clear admin/service title: administrative assistant
 source: Teaching Vacancies
 source_job_id: administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Huddersfield, Yorkshire and the Humber, HD4 6JN | £28,262.00 - £30,199.00 Annually (Actual) Scale 6, SCP 18-22 (FTE £31,537 - £33,699), 37 Hours Per Week, Term Time Plus 10 Days | Exams Officer
-employer: Newsome Academy
-closing_date: 2026-08-10T09:00:00+01:00
-reason: Clear admin/service title: exams officer
-source: Teaching Vacancies
-source_job_id: exams-officer-newsome-academy-huddersfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-newsome-academy-huddersfield-west-yorkshire
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Castleford, Yorkshire and the Humber, WF10 3JU | £27,915.00 - £30,377.00 Annually (Actual) Grade 7 SCP 19-23 Term Time + 5 Days | Personal Assistant to Headteacher
-employer: Airedale Academy
-closing_date: 2026-08-06T08:00:00+01:00
-reason: Clear admin/service title: personal assistant
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-headteacher-airedale-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-airedale-academy
 ---
 
 ---
@@ -118,28 +96,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 ---
 
 ---
-action: exclude
-SELECTED | West Yorkshire | Leeds, Yorkshire and the Humber, LS15 7NB | Grade: Level 1 A1/B1 | School Receptionist
-employer: Cross Gates Primary School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-source: Teaching Vacancies
-source_job_id: school-receptionist-cross-gates-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-cross-gates-primary-school
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Halifax, Yorkshire and the Humber, HX2 9SU | £24,939.00 - £29,387.00 Annually (Actual) Term time plus 5 days | SEND & Exam Access Arrangements Administrator
-employer: The North Halifax Grammar School
-closing_date: 2026-09-03T12:00:00+01:00
-reason: Clear admin/service title: administrator
-source: Teaching Vacancies
-source_job_id: send-exam-access-arrangements-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-exam-access-arrangements-administrator
----
-
----
 action: select
 SELECTED | West Yorkshire | Leeds, Yorkshire and the Humber, LS27 0AW | £21,043.00 - £22,429.00 Annually (Actual) | Senior Administrator
 employer: Fountain Primary School
@@ -148,17 +104,6 @@ reason: Clear admin/service title: administrator
 source: Teaching Vacancies
 source_job_id: senior-administrator-fountain-primary-school-leeds-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fountain-primary-school-leeds-west-yorkshire
----
-
----
-action: exclude
-SELECTED | West Yorkshire | Bradford, Yorkshire and the Humber, BD13 5AD | £28,142.00 Annually (FTE) Band 7 – Point 11–17, 37 hours per week, term-time only + 5 days (39 weeks). £28,142 FTE (£24,314.688 actual) | Specialist Administrator (SEND, Medical, Lead First Aid)
-employer: Parkside School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-source: Teaching Vacancies
-source_job_id: specialist-administrator-send-medical-lead-first-aid
-source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-send-medical-lead-first-aid
 ---
 
 
@@ -178,7 +123,61 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/accomplish-hubs-busin
 
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | West Yorkshire | Huddersfield, Yorkshire and the Humber, HD4 6JN | £28,262.00 - £30,199.00 Annually (Actual) Scale 6, SCP 18-22 (FTE £31,537 - £33,699), 37 Hours Per Week, Term Time Plus 10 Days | Exams Officer
+employer: Newsome Academy
+closing_date: 2026-08-10T09:00:00+01:00
+reason: Clear admin/service title: exams officer
+source: Teaching Vacancies
+source_job_id: exams-officer-newsome-academy-huddersfield-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-newsome-academy-huddersfield-west-yorkshire
+---
+
+---
+action: exclude
+EXCLUDED | West Yorkshire | Castleford, Yorkshire and the Humber, WF10 3JU | £27,915.00 - £30,377.00 Annually (Actual) Grade 7 SCP 19-23 Term Time + 5 Days | Personal Assistant to Headteacher
+employer: Airedale Academy
+closing_date: 2026-08-06T08:00:00+01:00
+reason: Clear admin/service title: personal assistant
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-headteacher-airedale-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-airedale-academy
+---
+
+---
+action: exclude
+EXCLUDED | West Yorkshire | Leeds, Yorkshire and the Humber, LS15 7NB | Grade: Level 1 A1/B1 | School Receptionist
+employer: Cross Gates Primary School
+closing_date: 2026-08-24T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+source: Teaching Vacancies
+source_job_id: school-receptionist-cross-gates-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-cross-gates-primary-school
+---
+
+---
+action: exclude
+EXCLUDED | West Yorkshire | Halifax, Yorkshire and the Humber, HX2 9SU | £24,939.00 - £29,387.00 Annually (Actual) Term time plus 5 days | SEND & Exam Access Arrangements Administrator
+employer: The North Halifax Grammar School
+closing_date: 2026-09-03T12:00:00+01:00
+reason: Clear admin/service title: administrator
+source: Teaching Vacancies
+source_job_id: send-exam-access-arrangements-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-exam-access-arrangements-administrator
+---
+
+---
+action: exclude
+EXCLUDED | West Yorkshire | Bradford, Yorkshire and the Humber, BD13 5AD | £28,142.00 Annually (FTE) Band 7 – Point 11–17, 37 hours per week, term-time only + 5 days (39 weeks). £28,142 FTE (£24,314.688 actual) | Specialist Administrator (SEND, Medical, Lead First Aid)
+employer: Parkside School
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: administrator
+source: Teaching Vacancies
+source_job_id: specialist-administrator-send-medical-lead-first-aid
+source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-send-medical-lead-first-aid
+---
+
 
 ## HARD_PASS
 
