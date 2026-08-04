@@ -27,9 +27,27 @@ jobs:
       - name: Test
         working-directory: pipeline
         run: python -m pytest tests/test_bvsc_poc.py -q
-      - name: Verify no publishing files changed
+      - name: Run live review-only preview
+        working-directory: pipeline
         run: |
+          python -m external_sources.bvsc_poc \
+            --fetch-live \
+            --report-csv /tmp/bvsc-review.csv \
+            --summary-md /tmp/bvsc-summary.md
+      - name: Verify preview and no publishing files changed
+        run: |
+          test -s /tmp/bvsc-review.csv
+          test -s /tmp/bvsc-summary.md
           git diff --exit-code -- \
             pipeline/output-external \
             pipeline/output-admin-service \
             app
+      - name: Upload BVSC review preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: bvsc-review-preview
+          path: |
+            /tmp/bvsc-review.csv
+            /tmp/bvsc-summary.md
+          if-no-files-found: error
+          retention-days: 7
