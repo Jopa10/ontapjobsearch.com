@@ -46,6 +46,7 @@ jobs:
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
+            tests/test_teaching_vacancies_contract_format.py \
             -q
 
       - name: Build exact reviewed external output
@@ -56,6 +57,7 @@ jobs:
             --max-pages 2 \
             --write-approved-json \
             --confirm-approved PUBLISH
+          python -m external_sources.normalise_teaching_vacancies_output
 
       - name: Compose with current JobG8 West Yorkshire output
         working-directory: pipeline
@@ -89,6 +91,19 @@ jobs:
               )
           if any(row.get("source") != "Teaching Vacancies" for row in external):
               raise SystemExit("STOP: approved output has an unexpected source")
+          malformed = [
+              row.get("job_id", "<unknown>")
+              for row in external
+              if "[" in str(row.get("employment_type", ""))
+              or "]" in str(row.get("employment_type", ""))
+              or "['" in str(row.get("summary", ""))
+              or "['" in str(row.get("description", ""))
+          ]
+          if malformed:
+              raise SystemExit(
+                  "STOP: approved output contains malformed contract text: "
+                  + ", ".join(malformed)
+              )
           print(f"Approved Teaching Vacancies: {len(external)}")
           print(f"Combined West Yorkshire jobs: {len(combined)}")
           PY

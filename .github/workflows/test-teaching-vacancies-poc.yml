@@ -6,11 +6,13 @@ on:
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
       - "pipeline/external_sources/teaching_vacancies_approved.py"
+      - "pipeline/external_sources/normalise_teaching_vacancies_output.py"
       - "pipeline/external_sources/compose_west_yorkshire_admin.py"
       - "pipeline/external_sources/REVIEW_STANDARD.md"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
+      - "pipeline/tests/test_teaching_vacancies_contract_format.py"
       - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-review.csv"
       - "pipeline/reviews/external/west-yorkshire-teaching-vacancies-summary.md"
       - ".github/workflows/test-teaching-vacancies-poc.yml"
@@ -42,6 +44,7 @@ jobs:
           python -m py_compile external_sources/teaching_vacancies_poc.py
           python -m py_compile external_sources/teaching_vacancies_etl.py
           python -m py_compile external_sources/teaching_vacancies_approved.py
+          python -m py_compile external_sources/normalise_teaching_vacancies_output.py
           python -m py_compile external_sources/compose_west_yorkshire_admin.py
 
       - name: Test review, approval and retention
@@ -51,6 +54,7 @@ jobs:
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
+            tests/test_teaching_vacancies_contract_format.py \
             -q
 
       - name: Run live review-only preview
