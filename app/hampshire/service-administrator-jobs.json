@@ -21,7 +21,14 @@
     "advertiser_name": "Michael Page Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Mail handling"
+    ]
   },
   {
     "job_id": "71c14263-f694-438a-8eb2-9fc40e26b6d2",
@@ -45,7 +52,14 @@
     "advertiser_name": "Hays Specialist Recruitment Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Systems administration",
+      "Customer portals",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "8ce5f464-05a9-43e0-8f2f-af12d6230bfd",
@@ -69,7 +83,14 @@
     "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly"
+    "salary_period": "Hourly",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "cdc8a0d6-75db-4ccc-9814-96012a552c48",
@@ -93,7 +114,11 @@
     "advertiser_name": "The Brendoncare Foundation",
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Correspondence"
+    ]
   },
   {
     "job_id": "e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1",
@@ -117,7 +142,36 @@
     "advertiser_name": "Tate Southampton",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
+  },
+  {
+    "job_id": "1629916",
+    "title": "IT Administrator",
+    "company": "The Brain Tumour Charity - Agency - Permanent",
+    "location": "Fleet",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-04",
+    "description": "We're looking for a proactive and technically minded IT Administrator to join our small but mighty IT team. In this varied and hands-on role, you'll play a vital part in keeping The Charity's systems, devices, and digital infrastructure running smoothly - so that everyone across the organisation can do their best work in support of our mission. The role is 4 days in the office, with Friday working from home. Please note that our office is currently based in Fleet; however, we will be relocating to Woking from 2027. Candidates should be comfortable with this future change in location.\n\nWorking closely with the IT Manager you'll be the first point of contact for in-office IT support requests, managing and resolving tickets efficiently, maintaining our hardware and asset register, keeping documentation up-to-date, and assisting with the onboarding and offboarding of staff and volunteers.\n\nYou'll also collaborate with our external IT Services provider to ensure that requests are being progressed and with the wider internal teams on a broad range of projects - from maintaining our Microsoft 365 environment to scoping new digital solutions that help The Charity operate at its best. If you're passionate about IT and want your work to make a real difference, this could be the perfect next step in your career.\n\nWHO WE'RE LOOKING FOR:\n\nYou're a confident and curious IT professional who thrives in a busy, fast-paced environment. Organised and solutions-focused, you're comfortable balancing day-to-day support requests with longer-term project work. You'll bring strong communication skills, a collaborative spirit, and a genuine desire to help people - making sure everyone at The Charity has the tools and technology they need to deliver life-changing work.\n\nKEY ACCOUNTABILITITES:\n- Serve as a key point of contact for IT support, triaging and resolving helpdesk tickets through our ticketing system in a timely and effective manner\n- Work closely with the IT Manager to deliver IT services across the organisation, supporting strategic priorities and day-to-day operations\n- Participate in daily IT team Scrums to share updates, discuss solutions and coordinate workload\n- Manage the onboarding and offboarding of IT systems and accounts for staff, volunteers and contractors, ensuring a smooth and efficient experience\n- Maintain and update the Asset Register, ensuring accurate records of all hardware and software\n- Provision, configure and maintain The Charity's hardware, including laptops, peripherals and mobile devices\n- Administer and support our Microsoft 365 environment, including user accounts, licences and core applications\n- Collaborate with our external IT Services provider to resolve escalated issues and deliver improvements\n- Contribute to IT projects across the organisation, from initial scoping through to implementation\n- Produce clear system documentation, project briefs and progress reports\n- Provide IT guidance and training to staff at all levels, promoting confident and effective use of our tools and systems\n- Take an active role in IT training delivery - designing, scheduling and running sessions (both group and one-to-one) and proactively identifying skills gaps across the business\n- Identify opportunities to improve IT processes, systems and the overall user experience across The Charity\n- Support, monitor and maintain the office infrastructure, including firewalls, switches, access points, and Wi-Fi / network security",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaz5r1QhqxL87EVU8b8rIFi%2fb",
+    "source": "JobG8",
+    "working_arrangement": "partly_remote",
+    "working_arrangement_text": "4 days in office",
+    "working_arrangement_evidence": "The role is 4 days in the office, with Friday working from home.",
+    "advertiser_name": "The Brain Tumour Charity",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1595701",

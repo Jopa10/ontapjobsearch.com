@@ -50,31 +50,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107683890",
-    "title": "Marine Commercial Administrator",
-    "company": "Tarmac Trading Limited - Company - Permanent",
-    "location": "Chichester",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-02",
-    "description": "Marine Commercial Administrator\n\nChichester (Hybrid)\n\nAre you a highly organised administrator with a flair for data, reporting and coordination? Do you enjoy working across multiple teams, ensuring everything runs smoothly behind the scenes? If so, we have an excellent opportunity to join Tarmac as a Marine Commercial Administrator based at our Chichester office click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhxrgH4UfzgJ7yIjAI%2fJtJni",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Marine Commercial Administrator Marine Commercial Administrator Chichester (Hybrid) Are you a highly organised administrator with a flair for data, reporting and coordination?",
-    "advertiser_name": "Tarmac Trading Limited",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "02105912-ef82-4655-8db1-021718e86c92",
     "title": "Care Home Administrator",
     "company": "Barchester Healthcare - Company - Permanent",
@@ -125,6 +100,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107683890",
+    "title": "Marine Commercial Administrator",
+    "company": "Tarmac Trading Limited - Company - Permanent",
+    "location": "Chichester",
+    "region": "Sussex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-02",
+    "description": "Marine Commercial Administrator\n\nChichester (Hybrid)\n\nAre you a highly organised administrator with a flair for data, reporting and coordination? Do you enjoy working across multiple teams, ensuring everything runs smoothly behind the scenes? If so, we have an excellent opportunity to join Tarmac as a Marine Commercial Administrator based at our Chichester office click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttr3c1IMyCPshYjXIGuLOcs5a",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Marine Commercial Administrator Marine Commercial Administrator Chichester (Hybrid) Are you a highly organised administrator with a flair for data, reporting and coordination?",
+    "advertiser_name": "Tarmac Trading Limited",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "deebf7d4-f859-450f-8762-ca06bf59a65d",
     "title": "Office Coordinator",
     "company": "Premier Work Support - Agency - Temporary",
@@ -147,6 +147,10 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   }
 ]
