@@ -30,10 +30,27 @@ jobs:
       - name: Run live review-only preview
         working-directory: pipeline
         run: |
-          python -m external_sources.bvsc_poc \
-            --fetch-live \
-            --report-csv /tmp/bvsc-review.csv \
-            --summary-md /tmp/bvsc-summary.md
+          python - <<'PY'
+          from pathlib import Path
+          from external_sources import bvsc_poc
+          from external_sources.northeast_jobs_poc import (
+              load_geo_lookup,
+              load_jobg8_candidates as shared_load_jobg8_candidates,
+          )
+
+          area_map, fallback_map = load_geo_lookup(Path("geo/geo_lookup.xlsx"))
+          bvsc_poc.load_jobg8_candidates = lambda path: shared_load_jobg8_candidates(
+              path,
+              area_map,
+              fallback_map,
+          )
+          args = bvsc_poc.build_parser().parse_args([
+              "--fetch-live",
+              "--report-csv", "/tmp/bvsc-review.csv",
+              "--summary-md", "/tmp/bvsc-summary.md",
+          ])
+          bvsc_poc.run(args)
+          PY
       - name: Verify preview and no publishing files changed
         run: |
           test -s /tmp/bvsc-review.csv
