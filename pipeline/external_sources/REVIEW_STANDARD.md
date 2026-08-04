@@ -9,8 +9,14 @@ a source-specific review interface.
 
 Each source review writes exactly two files under `pipeline/reviews/external/`:
 
-- `<source>-review.csv`
-- `<source>-summary.md`
+- `<region>-<source>-review.csv`
+- `<region>-<source>-summary.md`
+
+The regional slice must come first so reviews remain identifiable when the same
+source is later used in more than one region. For example:
+
+- `west-yorkshire-teaching-vacancies-review.csv`
+- `west-yorkshire-teaching-vacancies-summary.md`
 
 A normal review run must not write approved JSON, combined output, `app/`
 content, or any live-site file.
