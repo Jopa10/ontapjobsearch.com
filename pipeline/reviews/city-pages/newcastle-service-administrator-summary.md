@@ -1,28 +1,28 @@
-# Newcastle service-administrator jobs city-page review
+# Newcastle admin and customer-service jobs city-page review
 
 - Parent regional page: `app/north-east/service-administrator-jobs.json`
-- Mode: `review_only` (no live city JSON is written)
+- Live route: `/newcastle/service-administrator-jobs`
+- Mode: `publish`
 - Minimum live-job threshold: 8
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
 Use `action: exclude` to remove a current include, or `action: select` to include a review/exclude job.
-Leave `action:` blank to accept the automatic decision.
+Leave `action:` blank to accept the automatic decision. A blank review remains omitted from the live page.
 Jobs are grouped include first, review second and exclude last, then alphabetically by title.
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
-This stage still publishes nothing.
 
 ## Counts
 - automatic include: 10
 - automatic review: 3
 - automatic exclude: 9
-- effective include: 10
-- effective review: 3
-- effective exclude: 9
+- effective include: 12
+- effective review: 0
+- effective exclude: 10
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -61,6 +61,18 @@ reason: North Tyneside is within the normal Newcastle employment and commuting c
 ---
 
 ---
+action: select
+decision: include
+automatic_decision: review
+title: Business Support Officer, 32hpw
+company: South Tyneside Council
+location: South Tyneside Council
+source: NEJobs
+job_id: nejobs-300058
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
 action: 
 decision: include
 automatic_decision: include
@@ -89,11 +101,23 @@ action:
 decision: include
 automatic_decision: include
 title: Office Coordinator
-company: FRP Group
+company: FRP Group - Company - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-eafa8287-56b3-4ecd-a9bc-8fb95aa554c4
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: select
+decision: include
+automatic_decision: review
+title: Project Lead
+company: People's Powerhouse
+location: North East (hybrid)
+source: VONNE
+job_id: vonne-173270
+reason: The broad North East location needs evidence that Newcastle residents are within the intended workplace area.
 ---
 
 ---
@@ -113,7 +137,7 @@ action:
 decision: include
 automatic_decision: include
 title: Recruitment Administrator
-company: Pertemps Scotland Temps
+company: Pertemps Scotland Temps - Agency - Temporary
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-74b2edbd-f145-42de-bca5-93f37ec0bca2
@@ -137,52 +161,16 @@ action:
 decision: include
 automatic_decision: include
 title: Trainee Office Coordinator
-company: FRP Group
+company: FRP Group - Company - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
-## REVIEW (3)
+## REVIEW (0)
 
----
-action: select
-decision: review
-automatic_decision: review
-title: Business Support Officer, 32hpw
-company: South Tyneside Council
-location: South Tyneside Council
-source: NEJobs
-job_id: nejobs-300058
-reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
----
-
----
-action: select
-decision: review
-automatic_decision: review
-title: Project Lead
-company: People's Powerhouse
-location: North East (hybrid)
-source: VONNE
-job_id: vonne-173270
-reason: The broad North East location needs evidence that Newcastle residents are within the intended workplace area.
----
-
----
-action: exclude
-decision: review
-automatic_decision: review
-title: VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
-company: VONNE
-location: Tyne and Wear
-source: VONNE
-job_id: vonne-173253
-reason: The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located.
----
-
-## EXCLUDE (9)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -273,7 +261,7 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Housing Management Coordinator
-company: Home Group Limited
+company: Home Group Limited - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-107759868
@@ -290,4 +278,16 @@ location: Framwellgate School Durham
 source: NEJobs
 job_id: nejobs-299718
 reason: Durham belongs to a separate employment area from the Newcastle city page.
+---
+
+---
+action: exclude
+decision: exclude
+automatic_decision: review
+title: VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
+company: VONNE
+location: Tyne and Wear
+source: VONNE
+job_id: vonne-173253
+reason: The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located.
 ---
