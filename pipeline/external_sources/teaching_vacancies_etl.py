@@ -1,10 +1,10 @@
-"""Canonical Teaching Vacancies review runner with visible-field fallbacks.
+"""Canonical Teaching Vacancies review runner with audited fallbacks.
 
 Teaching Vacancies' JobPosting JSON-LD does not always contain pay information,
 even when the public advert displays either a Full time equivalent salary or a
-Pay scale. This runner keeps the existing bounded POC behaviour, adds those
-visible-page fallbacks, retries transient source errors, and blocks incomplete
-or core-field-deficient reviews.
+Pay scale. This runner keeps the bounded POC behaviour, adds visible-page
+fallbacks, retries transient source errors, requires two matching discovery
+sweeps, and blocks incomplete or core-field-deficient reviews.
 """
 from __future__ import annotations
 
@@ -20,6 +20,8 @@ from external_sources import teaching_vacancies_poc as poc
 _BASE_PARSE_JOBPOSTING = poc.parse_jobposting
 _BASE_PROCESS = poc.process
 _BASE_REQUEST_TEXT = poc.request_text
+_BASE_LIVE_URLS = poc.live_urls
+_BASE_LOAD_JOBG8 = poc.load_jobg8
 PAY_LABELS = (
     "Full time equivalent salary",
     "Pay scale",
@@ -128,6 +130,38 @@ def request_text(url: str, timeout: int = 30) -> str:
     raise AssertionError("unreachable request retry state")
 
 
+def stable_live_urls(max_pages: int = 2) -> list[str]:
+    """Require two consecutive discovery sweeps to return the same URL set."""
+    first = _BASE_LIVE_URLS(max_pages)
+    second = _BASE_LIVE_URLS(max_pages)
+    first_set = set(first)
+    second_set = set(second)
+    if first_set != second_set:
+        added = sorted(second_set - first_set)
+        missing = sorted(first_set - second_set)
+        detail: list[str] = []
+        if added:
+            detail.append("second-sweep additions: " + ", ".join(added))
+        if missing:
+            detail.append("second-sweep omissions: " + ", ".join(missing))
+        raise ValueError(
+            "Teaching Vacancies discovery was not stable across two sweeps"
+            + (f" ({'; '.join(detail)})" if detail else "")
+        )
+    return first
+
+
+def load_jobg8(path: Path) -> list[dict]:
+    """Load only JobG8 rows so retained Teaching vacancies do not self-match."""
+    rows = _BASE_LOAD_JOBG8(path)
+    return [
+        row
+        for row in rows
+        if not poc.clean(row.get("source"))
+        or poc.clean(row.get("source")).casefold() == "jobg8"
+    ]
+
+
 def validate_core_fields(vacancies: list[poc.Vacancy]) -> None:
     """Block an accepted regional review when core pay information is blank."""
     missing_pay = [
@@ -157,6 +191,8 @@ def install_patches() -> None:
     poc.parse_jobposting = parse_jobposting
     poc.process = process
     poc.request_text = request_text
+    poc.live_urls = stable_live_urls
+    poc.load_jobg8 = load_jobg8
 
 
 def _argument_path(args: list[str], option: str) -> Path:

@@ -55,10 +55,12 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline_sussex
 
-      - name: Reattach approved NEJobs vacancies
+      - name: Reattach approved external-source vacancies
         if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
-        run: python -m external_sources.compose_northeast_admin --write
+        run: |
+          python -m external_sources.compose_northeast_admin --write
+          python -m external_sources.compose_west_yorkshire_admin --write
 
       - name: Enrich service-admin job metadata
         if: steps.slice-register.outputs.admin_service == 'true'
