@@ -1,0 +1,54 @@
+name: Test Teaching Vacancies proof of concept
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/external_sources/teaching_vacancies_poc.py"
+      - "pipeline/tests/test_teaching_vacancies_poc.py"
+      - ".github/workflows/test-teaching-vacancies-poc.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-teaching-vacancies-poc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test package
+        run: python -m pip install --upgrade pip pytest
+      - name: Compile
+        working-directory: pipeline
+        run: python -m py_compile external_sources/teaching_vacancies_poc.py
+      - name: Test
+        working-directory: pipeline
+        run: python -m pytest tests/test_teaching_vacancies_poc.py -q
+      - name: Run live review-only preview
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_poc \
+            --fetch-live \
+            --max-pages 2 \
+            --report-csv /tmp/teaching-vacancies-review.csv \
+            --summary-md /tmp/teaching-vacancies-summary.md
+      - name: Verify preview and live-site isolation
+        run: |
+          test -s /tmp/teaching-vacancies-review.csv
+          test -s /tmp/teaching-vacancies-summary.md
+          git diff --exit-code -- \
+            pipeline/output-external \
+            pipeline/output-admin-service \
+            app
+      - name: Upload Teaching Vacancies review preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: teaching-vacancies-review-preview
+          path: |
+            /tmp/teaching-vacancies-review.csv
+            /tmp/teaching-vacancies-summary.md
+          if-no-files-found: error
+          retention-days: 7
