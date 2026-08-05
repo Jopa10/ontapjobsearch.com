@@ -422,7 +422,7 @@ job_id: 107731922
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £19.18 per hour | Administrator (Giving Team)
 job_id: 1632660
 ---
@@ -564,7 +564,7 @@ job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
 job_id: 9313f8d8-798c-47d4-b862-63cec763953a
 ---
