@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-04
+feed_date: 2026-08-05
 
 Edit only the `action:` line in each block:
 
@@ -10,6 +10,12 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £27000 - £29000 per year | Sales Ledger Administrator
+job_id: ea7b8167-e326-4990-b4be-25a564037ae6
+---
 
 ---
 action:
@@ -57,6 +63,12 @@ SELECTED | Yorkshire - South | Sheffield | £13.45 per hour | Business Support O
 job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £22000 per year | Apprentice Training Administrator
+job_id: 107785847
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -85,12 +97,6 @@ SELECTED | North East | Newcastle Upon Tyne |  | Recruitment Administrator
 job_id: 74b2edbd-f145-42de-bca5-93f37ec0bca2
 ---
 
----
-action:
-SELECTED | North East | Sunderland | £26000 per year | Housing Management Coordinator
-job_id: 107759868
----
-
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -100,6 +106,12 @@ job_id: 6d09509e-78ca-4bf5-a359-ec3cc317db83
 ---
 
 ## LONDON — SELECTED
+
+---
+action:
+SELECTED | London | London |  | Assistant Company Secretary
+job_id: 558054731
+---
 
 ---
 action:
@@ -135,12 +147,6 @@ job_id: 5a534179-7cff-416a-b14c-b5f1f11b907c
 action:
 SELECTED | London | London | £28000 - £31000 per year | Clinic Administrator - 12 month FTC
 job_id: 01257d43-ab3d-4a80-a4b6-86892e362251
----
-
----
-action:
-SELECTED | London | London |  | Exams Coordinator
-job_id: 1599080
 ---
 
 ---
@@ -331,12 +337,6 @@ job_id: 2045915
 
 ---
 action:
-SELECTED | London | City |  | Business Support Officer (Funding)
-job_id: 2045863
----
-
----
-action:
 SELECTED | London | City | £12.5 - £13 per hour | Front of House / Reception Administrator
 job_id: 2045841
 ---
@@ -355,34 +355,82 @@ job_id: 2045711
 
 ---
 action:
-SELECTED | London | City | £13 - £14 per hour | Receptionist
-job_id: 2045625
----
-
----
-action:
-SELECTED | London | City |  | Financial Services Administrator (Graduate)
-job_id: 2045581
----
-
----
-action:
 SELECTED | London | City | £16.68 per hour | Service Delivery Administrator
 job_id: 2045554
 ---
 
 ---
 action:
-SELECTED | London | London |  | Administrator - Domestic Abuse Service
-job_id: 1629901
+SELECTED | London | City | £12.71 - £14.08 per hour | Administrators
+job_id: 2047973
+---
+
+---
+action:
+SELECTED | London | City | £13 per hour | Medical Receptionist (25 hrs pw)
+job_id: 2047919
+---
+
+---
+action:
+SELECTED | London | City | £14.63 per hour | Officer Administrator Part-time opportunity
+job_id: 2047851
+---
+
+---
+action:
+SELECTED | London | City Of Westminster | £27,675 - £28,550 per annum | Front of House Receptionist
+job_id: 1632615
+---
+
+---
+action:
+SELECTED | London | City |  | Sales Administrator
+job_id: 2048066
+---
+
+---
+action:
+SELECTED | London | City | £13.45 per hour | Hot Sauce Pictures - Trainee Office Assistant
+job_id: 2047998
+---
+
+---
+action:
+SELECTED | London | Londonderry | £12.75 per hour | Band 3 Secretary - Derry/L'Derry
+job_id: 2047988
+---
+
+---
+action:
+SELECTED | London | London | £28000 per year | Extra Care Coordinator
+job_id: 107789338
 ---
 
 ## LONDON — POSSIBLES
 
 ---
 action:
+POSS - LONDON | London | London | £350 - £410 per daily | SMR Corporate Secretary
+job_id: db1cfbc9-8cb7-4e91-b1f5-99dc83f06e69
+---
+
+---
+action:
 POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
 job_id: 107731922
+---
+
+---
+action:
+POSS - LONDON | London | London | £19.18 per hour | Administrator (Giving Team)
+job_id: 1632660
+---
+
+---
+action:
+POSS - LONDON | London | London | £19.18 per hour | Administrator (Principle Giving Team)
+job_id: 1632659
 ---
 
 ---
@@ -437,6 +485,12 @@ job_id: bc8e6b66-d67e-4f4c-9392-7285e25de89b
 
 ---
 action:
+SELECTED | Hampshire | Fareham | £15862.08 per year | Receptionist
+job_id: 20091_318985
+---
+
+---
+action:
 SELECTED | Hampshire | Winchester | £22000 per year | Young Carers Support Coordinator
 job_id: 107755942
 ---
@@ -483,12 +537,6 @@ SELECTED | Surrey | Leatherhead | £20000 - £28000 per year | Assistant Estimat
 job_id: f545a2c8-eeed-4001-aafd-8e0b48332e01
 ---
 
----
-action:
-SELECTED | Surrey | Redhill | £26000 per year | Administrator (Progression to Finance & Operations)
-job_id: 107789631
----
-
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -509,12 +557,6 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 
 ---
 action:
-SELECTED | Kent | Maidstone | £13.5 per hour | Office Administrator
-job_id: 9c50e7f5-c080-4543-adc5-a91353592d22
----
-
----
-action:
 SELECTED | Kent | Maidstone | £14.4 per hour | Accounts Administrator
 job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
@@ -525,6 +567,12 @@ job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 action:
 POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
 job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
+
+---
+action:
+POSS - KENT | Kent | Canterbury | £80000 per year | Chartered Secretary Corporate Governance
+job_id: 107787034
 ---
 
 ## SUSSEX — SELECTED
