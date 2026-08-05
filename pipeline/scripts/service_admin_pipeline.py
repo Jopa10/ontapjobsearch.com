@@ -12,6 +12,8 @@ The established implementation remains unchanged in
 from __future__ import annotations
 
 import re
+import sys
+import types
 from typing import Any
 
 try:
@@ -134,13 +136,30 @@ def process(
 
 
 # Patch the implementation module so its existing main() and internal call sites
-# use the guarded functions, then re-export its public API for compatibility.
+# use the guarded functions, then re-export its API for compatibility.
 _core.area_is_unusable = area_is_unusable
 _core.process = process
 
 for _name in dir(_core):
     if not _name.startswith("__"):
         globals().setdefault(_name, getattr(_core, _name))
+
+
+class _PipelineModule(types.ModuleType):
+    """Forward later test/caller assignments to the implementation module."""
+
+    def __getattr__(self, name: str) -> Any:
+        return getattr(_core, name)
+
+    def __setattr__(self, name: str, value: Any) -> None:
+        if name != "_core" and hasattr(_core, name):
+            setattr(_core, name, value)
+        super().__setattr__(name, value)
+
+
+_module = sys.modules.get(__name__)
+if _module is not None and not isinstance(_module, _PipelineModule):
+    _module.__class__ = _PipelineModule
 
 
 if __name__ == "__main__":
