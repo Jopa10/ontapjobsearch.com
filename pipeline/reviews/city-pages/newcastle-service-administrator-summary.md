@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 3
-- automatic exclude: 9
+- automatic exclude: 8
 - effective include: 12
 - effective review: 0
-- effective exclude: 10
+- effective exclude: 9
 
 ## INCLUDE (12)
 
@@ -170,7 +170,7 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 
 ## REVIEW (0)
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -254,18 +254,6 @@ location: Darlington Borough Council
 source: NEJobs
 job_id: nejobs-300044
 reason: Darlington belongs to a separate employment area from the Newcastle city page.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Housing Management Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Sunderland
-source: JobG8
-job_id: jobg8-107759868
-reason: Sunderland belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
