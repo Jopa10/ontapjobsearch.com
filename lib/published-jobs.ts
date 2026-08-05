@@ -76,6 +76,13 @@ function sourceSlice(
       description: text(row.full_description) || text(row.description),
     });
 
+    if (londonArea === "outside-london") {
+      return {
+        path: "/browse-jobs",
+        label: "Browse jobs",
+      };
+    }
+
     if (londonArea === "outer") {
       return {
         path: "/london/outer-service-administrator-jobs",
@@ -171,6 +178,12 @@ export function getPublishedJobs(): PublishedJob[] {
     for (const row of parsed) {
       if (!isPublishedJob(row)) continue;
       const job = normaliseJob(row, filePath);
+      if (
+        job.region.toLowerCase() === "london" &&
+        getLondonJobArea(job) === "outside-london"
+      ) {
+        continue;
+      }
       if (!byId.has(job.job_id)) byId.set(job.job_id, job);
     }
   }
