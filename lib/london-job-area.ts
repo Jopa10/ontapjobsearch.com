@@ -1,4 +1,4 @@
-export type LondonJobArea = "central-inner" | "outer";
+export type LondonJobArea = "central-inner" | "outer" | "outside-london";
 
 export type LondonJobLocationInput = {
   title?: string;
@@ -68,9 +68,29 @@ const outerLondonLocations = [
 const outerLondonPostcode =
   /\b(?:BR|CR|DA|EN|HA|IG|KT|RM|SM|TW|UB|WD)\d{1,2}[A-Z]?\b|\bNW(?:7|9|10|11)\b|\bSE(?:2|6|7|9|12|18|20|25|28)\b|\bSW(?:19|20)\b/i;
 
+const northernIrelandHeadline =
+  /\b(?:belfast|londonderry|derriaghy|northern ireland|l['’]?derry|derry)\b/i;
+
+const northernIrelandDescription =
+  /\b(?:belfast|londonderry|derriaghy|l['’]?derry|derry)(?:\s+city\s+centre)?(?:-based|\s+based)?\b|\bbased\s+(?:in|at)\s+(?:belfast|londonderry|derriaghy|l['’]?derry|derry)\b|\bnorthern\s+ireland\b/i;
+
 function containsLocation(text: string, location: string) {
   const escaped = location.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return new RegExp(`\\b${escaped}\\b`, "i").test(text);
+}
+
+export function hasNorthernIrelandLocationEvidence(
+  job: LondonJobLocationInput
+) {
+  const headline = [job.title, job.location].filter(Boolean).join(" ");
+  const description = [job.description, job.full_description]
+    .filter(Boolean)
+    .join(" ");
+
+  return (
+    northernIrelandHeadline.test(headline) ||
+    northernIrelandDescription.test(description)
+  );
 }
 
 export function getLondonJobArea(job: LondonJobLocationInput): LondonJobArea {
@@ -83,6 +103,10 @@ export function getLondonJobArea(job: LondonJobLocationInput): LondonJobArea {
     .filter(Boolean)
     .join(" ");
 
+  if (hasNorthernIrelandLocationEvidence(job)) {
+    return "outside-london";
+  }
+
   if (
     outerLondonPostcode.test(searchableText) ||
     outerLondonLocations.some((location) => containsLocation(searchableText, location))
@@ -91,7 +115,7 @@ export function getLondonJobArea(job: LondonJobLocationInput): LondonJobArea {
   }
 
   // Generic "London" jobs remain on the established page unless the advert
-  // provides reliable outer-London evidence.
+  // provides reliable outer-London or contradictory non-London evidence.
   return "central-inner";
 }
 
@@ -101,4 +125,8 @@ export function isCentralInnerLondonJob(job: LondonJobLocationInput) {
 
 export function isOuterLondonJob(job: LondonJobLocationInput) {
   return getLondonJobArea(job) === "outer";
+}
+
+export function isLondonJob(job: LondonJobLocationInput) {
+  return getLondonJobArea(job) !== "outside-london";
 }
