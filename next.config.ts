@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/jobs/all",
+        destination: "https://www.ontapjobsearch.com/browse-jobs",
+        permanent: true,
+      },
+      {
         source: "/:path*",
         has: [{ type: "host", value: "ontapjobsearch.com" }],
         destination: "https://www.ontapjobsearch.com/:path*",
