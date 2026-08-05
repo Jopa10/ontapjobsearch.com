@@ -1,8 +1,8 @@
 report_date,level,source,region,category,count
-2026-08-05,total,All,,,155
-2026-08-05,source_summary,JobG8,,,131
+2026-08-05,total,All,,,123
+2026-08-05,source_summary,JobG8,,,99
 2026-08-05,source_summary,External,,,24
-2026-08-05,provider,JobG8,,,131
+2026-08-05,provider,JobG8,,,99
 2026-08-05,provider,NEJobs,,,13
 2026-08-05,provider,Teaching Vacancies,,,6
 2026-08-05,provider,VONNE,,,5
@@ -10,7 +10,7 @@ report_date,level,source,region,category,count
 2026-08-05,region_category,JobG8,Hampshire,Admin/Service – Office Support,9
 2026-08-05,region_category,JobG8,Hampshire,Support Worker – Wide,15
 2026-08-05,region_category,JobG8,Kent,Admin/Service – Office Support,4
-2026-08-05,region_category,JobG8,London,Admin/Service – Office Support,51
+2026-08-05,region_category,JobG8,London,Admin/Service – Office Support,19
 2026-08-05,region_category,JobG8,North East,Admin/Service – Office Support,3
 2026-08-05,region_category,JobG8,North East,Support Worker – Wide,9
 2026-08-05,region_category,JobG8,Surrey,Admin/Service – Office Support,5
