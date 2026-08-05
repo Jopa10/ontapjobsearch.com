@@ -378,6 +378,12 @@ job_id: 2047851
 ---
 
 ---
+action: select
+SELECTED | London | London | £19.18 per hour | Administrator (Giving Team)
+job_id: 1632660
+---
+
+---
 action:
 SELECTED | London | City Of Westminster | £27,675 - £28,550 per annum | Front of House Receptionist
 job_id: 1632615
@@ -419,12 +425,6 @@ job_id: db1cfbc9-8cb7-4e91-b1f5-99dc83f06e69
 action:
 POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
 job_id: 107731922
----
-
----
-action: select
-POSS - LONDON | London | London | £19.18 per hour | Administrator (Giving Team)
-job_id: 1632660
 ---
 
 ---
@@ -556,18 +556,18 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 ---
 
 ---
+action: select
+SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
+
+---
 action:
 SELECTED | Kent | Maidstone | £14.4 per hour | Accounts Administrator
 job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
 
 ## KENT — POSSIBLES
-
----
-action: select
-POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
----
 
 ---
 action:
