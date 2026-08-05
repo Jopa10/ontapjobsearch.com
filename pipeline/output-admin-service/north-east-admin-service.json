@@ -526,11 +526,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fc295d6b-6c54-413b-8ca1-0bef809a8273",
@@ -579,31 +575,6 @@
     "advertiser_name": "FRP Group",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107759868",
-    "title": "Housing Management Coordinator",
-    "company": "Home Group Limited - Agency - Permanent",
-    "location": "Sunderland",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "About the role\nPay £27,500 per annum pro rata, plus great benefits including Health Cash Plan\nHome, a place where you belong\nThis is a great opportunity to join our team. As our Housing and Property Lead, youll focus on tenancy support for our customers, ensuring their homes are safe and well maintained click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsRee7qXMX7J34u0S6pkDP2um",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Home Group Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   }

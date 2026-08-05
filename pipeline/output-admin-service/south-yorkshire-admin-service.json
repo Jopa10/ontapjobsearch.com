@@ -47,11 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107606837",
@@ -100,6 +96,31 @@
     "advertiser_name": "BMC Recruitment Group",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107785847",
+    "title": "Apprentice Training Administrator",
+    "company": "FCC Environment - Agency - Contract",
+    "location": "Doncaster",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "22000",
+    "salary_max": "22000",
+    "salary_text": "£22000 per year",
+    "posted_date": "",
+    "description": "Are you looking for the right role for you? Then look no further.\nApprentice Training Administrator\nSalary £17,722.50 - £23,809.50 per annum (rising throughout the apprenticeship)\nHours 37.5 hours per week\nLocation & Postcode Doncaster, DN4 5 NU\nAs a Training Administrator Apprentice at FCC Environment, you will provide administrative support to the FCC Trainers and Learning & Development Manager click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctwp9xSXRG3GfbGbnVjFwE1%2bp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "FCC Environment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   }
