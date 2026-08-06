@@ -178,6 +178,14 @@ const jobSections: BrowseSection[] = [
             status: 'Active current supply',
             statusClassName: activeStatusClassName,
           },
+          {
+            title: 'North Yorkshire Admin & Customer Service Jobs',
+            href: '/north-yorkshire/service-administrator-jobs',
+            description:
+              'Service administrator, customer service administrator and office support roles across York and North Yorkshire.',
+            status: 'Active current supply',
+            statusClassName: activeStatusClassName,
+          },
         ],
       },
       {

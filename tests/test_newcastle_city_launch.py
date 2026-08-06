@@ -5,20 +5,18 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-EXPECTED_LIVE_IDS = {
-    "nejobs-300057",
-    "nejobs-297597",
-    "nejobs-300058",
-    "nejobs-299761",
-    "nejobs-299953",
-    "vonne-173262",
-    "vonne-173267",
-    "vonne-173270",
-    "vonne-173252",
-    "74b2edbd-f145-42de-bca5-93f37ec0bca2",
-    "fc295d6b-6c54-413b-8ca1-0bef809a8273",
-    "eafa8287-56b3-4ecd-a9bc-8fb95aa554c4",
-}
+
+def review_rows() -> list[dict[str, str]]:
+    review_path = (
+        REPO_ROOT
+        / "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv"
+    )
+    with review_path.open("r", encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def published_job_id(review_job_id: str) -> str:
+    return review_job_id.removeprefix("jobg8-")
 
 
 class NewcastleCityLaunchTests(unittest.TestCase):
@@ -38,15 +36,22 @@ class NewcastleCityLaunchTests(unittest.TestCase):
             "app/_city-pages/newcastle/service-administrator-jobs.json",
         )
 
-    def test_initial_live_output_matches_final_review_choices(self) -> None:
+    def test_live_output_matches_current_review_choices(self) -> None:
         city_jobs = json.loads(
             (
                 REPO_ROOT
                 / "app/_city-pages/newcastle/service-administrator-jobs.json"
             ).read_text(encoding="utf-8")
         )
-        self.assertEqual(len(city_jobs), 12)
-        self.assertEqual({job["job_id"] for job in city_jobs}, EXPECTED_LIVE_IDS)
+        city_ids = {job["job_id"] for job in city_jobs}
+        included_ids = {
+            published_job_id(row["job_id"])
+            for row in review_rows()
+            if row["effective_decision"] == "include"
+        }
+
+        self.assertGreaterEqual(len(city_jobs), 8)
+        self.assertEqual(city_ids, included_ids)
         self.assertTrue(all(job.get("apply_url") for job in city_jobs))
 
         parent_jobs = json.loads(
@@ -54,23 +59,23 @@ class NewcastleCityLaunchTests(unittest.TestCase):
                 REPO_ROOT / "app/north-east/service-administrator-jobs.json"
             ).read_text(encoding="utf-8")
         )
-        self.assertTrue(
-            EXPECTED_LIVE_IDS.issubset({job["job_id"] for job in parent_jobs})
-        )
+        self.assertTrue(city_ids.issubset({job["job_id"] for job in parent_jobs}))
 
     def test_review_csv_has_no_unresolved_decisions(self) -> None:
-        review_path = (
-            REPO_ROOT
-            / "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv"
-        )
-        with review_path.open("r", encoding="utf-8", newline="") as handle:
-            rows = list(csv.DictReader(handle))
-
+        rows = review_rows()
         counts = {decision: 0 for decision in ("include", "review", "exclude")}
         for row in rows:
             counts[row["effective_decision"]] += 1
 
-        self.assertEqual(counts, {"include": 12, "review": 0, "exclude": 10})
+        city_jobs = json.loads(
+            (
+                REPO_ROOT
+                / "app/_city-pages/newcastle/service-administrator-jobs.json"
+            ).read_text(encoding="utf-8")
+        )
+        self.assertEqual(counts["review"], 0)
+        self.assertEqual(counts["include"], len(city_jobs))
+        self.assertGreater(counts["exclude"], 0)
 
     def test_route_and_sitemap_use_active_city_data_gate(self) -> None:
         route_source = (

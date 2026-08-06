@@ -22,6 +22,7 @@ const baseRoutes = [
   '/hampshire/support-worker',
   '/west-yorkshire/service-administrator-jobs',
   '/south-yorkshire/service-administrator-jobs',
+  '/north-yorkshire/service-administrator-jobs',
   '/north-east/service-administrator-jobs',
   '/london/service-administrator-jobs',
   '/london/outer-service-administrator-jobs',
