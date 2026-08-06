@@ -97,7 +97,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "f545a2c8-eeed-4001-aafd-8e0b48332e01",
@@ -122,7 +127,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107801100",
