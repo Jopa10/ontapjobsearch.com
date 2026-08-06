@@ -2,11 +2,6 @@ name: Run Teaching Vacancies regional review
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/run-teaching-vacancies-regional-review.yml"
 
 permissions:
   contents: write
@@ -125,5 +120,3 @@ jobs:
             pipeline/reviews/external/teaching-vacancies/
           if-no-files-found: error
           retention-days: 14
-
-# one-time retry trigger after PR #175
