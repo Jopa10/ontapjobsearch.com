@@ -1,0 +1,56 @@
+# Teaching Vacancies regional review — Shropshire
+
+review_date: 2026-08-06
+review_fingerprint: 546a4afdb6839b3556966592698fe915d76f95dec184317ffdad02cacf6796be
+routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+ontap_region: Shropshire
+slice_category: admin_service
+slice_status: UNREGISTERED
+
+Edit only the `action:` line in each editable block.
+Blank POSS decisions remain unpublished.
+CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
+
+## Counts
+
+- Records: 2
+- Selected: 0
+- POSS awaiting decision: 1
+- Excluded: 0
+- Hard pass: 1
+
+## SELECTED
+
+- None.
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Shropshire | Bridgnorth, WV15 5EQ | £13.69 - £13.69 Hourly | Clerk to Governors
+employer: Shropshire Church Of England Academies Trust
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Borderline school administration title: clerk to governors
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 8b750c07215556b6445d529594383056bc403763a77f7ed91218299951663d6d
+source: Teaching Vacancies
+source_job_id: clerk-to-governors-1d324093-5397-42e1-b835-18ab44a4bceb
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-1d324093-5397-42e1-b835-18ab44a4bceb
+---
+
+## EXCLUDED BY REVIEW
+
+- None.
+
+## HARD_PASS
+
+- [Operational Facilities Supervisor Apprentice](https://teaching-vacancies.service.gov.uk/jobs/operational-facilities-supervisor-apprentice) — Insufficient admin/service evidence.
+
+## Safety boundary
+
+- This file is a review artifact only.
+- It does not write approved snapshots, combined outputs or app JSON.
+- LIVE/CANDIDATE status comes only from the existing slice register.
+- Geography comes only from the existing geographic lookup contract.
