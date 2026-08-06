@@ -8,6 +8,7 @@ on:
       - "pipeline/external_sources/teaching_vacancies_routing.py"
       - "pipeline/external_sources/teaching_vacancies_regional_review.py"
       - "pipeline/external_sources/teaching_vacancies_regional_approved.py"
+      - "pipeline/external_sources/compose_teaching_vacancies_regional.py"
       - "pipeline/external_sources/TEACHING_VACANCIES_UK_WIDE_DECISIONS.md"
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
@@ -21,6 +22,7 @@ on:
       - "pipeline/tests/test_teaching_vacancies_routing.py"
       - "pipeline/tests/test_teaching_vacancies_regional_review.py"
       - "pipeline/tests/test_teaching_vacancies_regional_approved.py"
+      - "pipeline/tests/test_compose_teaching_vacancies_regional.py"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
@@ -58,6 +60,7 @@ jobs:
           python -m py_compile external_sources/teaching_vacancies_routing.py
           python -m py_compile external_sources/teaching_vacancies_regional_review.py
           python -m py_compile external_sources/teaching_vacancies_regional_approved.py
+          python -m py_compile external_sources/compose_teaching_vacancies_regional.py
           python -m py_compile external_sources/teaching_vacancies_poc.py
           python -m py_compile external_sources/teaching_vacancies_etl.py
           python -m py_compile external_sources/teaching_vacancies_approved.py
@@ -73,6 +76,7 @@ jobs:
             tests/test_teaching_vacancies_routing.py \
             tests/test_teaching_vacancies_regional_review.py \
             tests/test_teaching_vacancies_regional_approved.py \
+            tests/test_compose_teaching_vacancies_regional.py \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
