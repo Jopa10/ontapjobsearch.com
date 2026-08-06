@@ -1,13 +1,17 @@
 from __future__ import annotations
 
 import json
+import sys
 from datetime import date
 from pathlib import Path
 
 from external_sources import compose_northeast_admin as northeast
 from external_sources import compose_teaching_vacancies_regional as generic
 from external_sources import compose_west_yorkshire_admin as legacy_west
-from scripts.publish_verified_pages import Mapping, publish_one
+
+SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "scripts"
+sys.path.insert(0, str(SCRIPTS_DIR))
+from publish_verified_pages import Mapping, publish_one
 
 TODAY = date(2026, 8, 6)
 
