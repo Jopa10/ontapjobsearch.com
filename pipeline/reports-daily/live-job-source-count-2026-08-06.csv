@@ -1,0 +1,25 @@
+report_date,level,source,region,category,count
+2026-08-06,total,All,,,124
+2026-08-06,source_summary,JobG8,,,100
+2026-08-06,source_summary,External,,,24
+2026-08-06,provider,JobG8,,,100
+2026-08-06,provider,NEJobs,,,13
+2026-08-06,provider,Teaching Vacancies,,,6
+2026-08-06,provider,VONNE,,,5
+2026-08-06,region_category,JobG8,Cumbria - South,Support Worker – Wide,3
+2026-08-06,region_category,JobG8,Hampshire,Admin/Service – Office Support,10
+2026-08-06,region_category,JobG8,Hampshire,Support Worker – Wide,17
+2026-08-06,region_category,JobG8,Kent,Admin/Service – Office Support,3
+2026-08-06,region_category,JobG8,London,Admin/Service – Office Support,15
+2026-08-06,region_category,JobG8,North East,Admin/Service – Office Support,4
+2026-08-06,region_category,JobG8,North East,Support Worker – Wide,9
+2026-08-06,region_category,JobG8,Surrey,Admin/Service – Office Support,6
+2026-08-06,region_category,JobG8,Sussex,Admin/Service – Office Support,6
+2026-08-06,region_category,JobG8,Sussex,Support Worker – Wide,11
+2026-08-06,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,4
+2026-08-06,region_category,JobG8,Yorkshire - South,Support Worker – Wide,3
+2026-08-06,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,3
+2026-08-06,region_category,JobG8,Yorkshire - West,Support Worker – Wide,6
+2026-08-06,region_category,NEJobs,North East,Admin/Service – Office Support,13
+2026-08-06,region_category,Teaching Vacancies,Yorkshire - West,Admin/Service – Office Support,6
+2026-08-06,region_category,VONNE,North East,Admin/Service – Office Support,5
