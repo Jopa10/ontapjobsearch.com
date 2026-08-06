@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "nejobs-300057",
-    "title": "Administrative Assistant",
-    "company": "Newcastle City Council",
-    "location": "Newcastle Upon Tyne",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,403 - £27,254 per annum, pay award pending; (actual salary £14,271 - £14,731)",
-    "work_pattern": "Part time",
-    "posted_date": "2026-07-23",
-    "closing_date": "2026-08-05",
-    "closing_datetime": "2026-08-05T22:59:00+01:00",
-    "summary": "Administrative Assistant with Newcastle City Council in Newcastle Upon Tyne. Permanent; Part time; £26,403 - £27,254 per annum, pay award pending; (actual salary £14,271 - £14,731).",
-    "description": "Newcastle City Council is recruiting for this vacancy in Newcastle Upon Tyne.\n\nThe advertised position is Administrative Assistant, with the working terms listed as Permanent; Part time.\n\nThe advertised salary is £26,403 - £27,254 per annum, pay award pending; (actual salary £14,271 - £14,731).\n\nThe stated closing date is 05/08/2026 22:59.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/Administrative_Assistant/300057?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Newcastle City Council",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nejobs-297597",
     "title": "Business Support Assistant",
     "company": "North Tyneside Council",
@@ -526,11 +498,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fc295d6b-6c54-413b-8ca1-0bef809a8273",
@@ -580,6 +548,31 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "e12fcfe3-076c-47be-a30c-227026a13277",
+    "title": "Temporary Administrator",
+    "company": "IMPRESSION RECRUITMENT LIMITED - Agency - Temporary",
+    "location": "Darlington",
+    "region": "North East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14",
+    "salary_max": "14",
+    "salary_text": "£14 per hour",
+    "posted_date": "",
+    "description": "Job Title: Temporary Administrator Location: Darlington Salary: £14.28 per hour Hours: Monday to Friday, 9:00am - 5:00pm A fantastic opportunity has arisen for a Temporary Administrator to join a successful business based in Darlington. Supporting day to day operations, you'll provide essential administrative support across orders, documentation, enquiries and internal processes. Key Responsibilities of Temporary Administrator:\n- Manage general administration and business support tasks\n- Process orders and maintain accurate records\n- Handle enquiries and liaise with internal teams and suppliers\n- Update systems and documentation\n- Support wider office operations\n\nSkills & Experience Required:\n- Previous administration experience\n- Strong organisation and attention to detail\n- Confident communication skills\n- Good Microsoft 365 knowledge\n- Ability to manage multiple priorities\n\nIf you're organised, reliable and available for a temporary opportunity, we'd love to hear from you. APPLY TODAY!Our GuaranteeThank you for your initial expression of interest in our available vacancy. If we have not contacted you within 5 working days of your application, please understand that the CV received, and the information provided does not meet the requirements of the current vacancy. However, we will consider all applications for any available opportunity, present or future, and proactively contact you should we deem there to be a suitable match.Here at Impression we are committed to supporting the principles of equal opportunities and prohibit discrimination/ harassment of any kind based on race, colour, sex, religion, sexual orientation, national origin, disability, genetic information, pregnancy, or any other protected characteristic.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpyRul8UVn0zh1vlpA9zn4IRe",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "IMPRESSION RECRUITMENT LIMITED",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   }
 ]

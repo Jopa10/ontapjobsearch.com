@@ -1,11 +1,11 @@
 ﻿metric,value
-total rows input,2144
-total rows included,54
-total rows dropped,2081
-title classification count - HIGH_CONFIDENCE,257
-title classification count - ELASTIC_FIT,41
+total rows input,2185
+total rows included,51
+total rows dropped,2125
+title classification count - HIGH_CONFIDENCE,244
+title classification count - ELASTIC_FIT,44
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,1208
+title classification count - HARD_PASS,1259
 title classification count - OUT_OF_SCOPE,638
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
@@ -16,53 +16,53 @@ other elastic count - Yorkshire - West,0
 total rows output - Yorkshire - West,3
 job_id included - Yorkshire - West,ea7b8167-e326-4990-b4be-25a564037ae6; fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - South,5
-high confidence count - Yorkshire - South,5
+selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - South,4
+high confidence count - Yorkshire - South,4
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,0
-total rows output - Yorkshire - South,5
-job_id included - Yorkshire - South,52198d55-9fac-4d35-8505-b9a814bc54dc; 3210a914-2c99-4b6c-870b-c2001651b931; 107606837; 9d793cd4-ff2a-4749-9512-a7407298f539; 107785847
+total rows output - Yorkshire - South,4
+job_id included - Yorkshire - South,52198d55-9fac-4d35-8505-b9a814bc54dc; 107606837; 9d793cd4-ff2a-4749-9512-a7407298f539; 107790842
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - North East,North East selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - North East,3
-high confidence count - North East,1
+selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - North East,4
+high confidence count - North East,2
 anchor elastic count - North East,2
 other elastic count - North East,0
-total rows output - North East,3
-job_id included - North East,74b2edbd-f145-42de-bca5-93f37ec0bca2; fc295d6b-6c54-413b-8ca1-0bef809a8273; eafa8287-56b3-4ecd-a9bc-8fb95aa554c4
-selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 1 row(s) prioritised; 19 selected.
-credible total - London,19
-high confidence count - London,17
-anchor elastic count - London,1
+total rows output - North East,4
+job_id included - North East,74b2edbd-f145-42de-bca5-93f37ec0bca2; fc295d6b-6c54-413b-8ca1-0bef809a8273; eafa8287-56b3-4ecd-a9bc-8fb95aa554c4; e12fcfe3-076c-47be-a30c-227026a13277
+selection scenario - London,SCENARIO_1_COMPLETE_HC_ONLY
+selection message - London,London selection complete: all 15 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; London HC roles protected in ordering.
+credible total - London,15
+high confidence count - London,15
+anchor elastic count - London,0
 other elastic count - London,0
-total rows output - London,19
-job_id included - London,1632660; 558054731; 8a0de7c0-a4cc-4781-a44b-9c6f74460d73; 0392588c-ea46-438c-a4a1-6f2b08a7f12a; 5a534179-7cff-416a-b14c-b5f1f11b907c; 01257d43-ab3d-4a80-a4b6-86892e362251; e0a800a7-bcbd-4cad-8a96-decf3e7a07ba; d4000791-6f57-45b5-b179-616cd9975d10; cb213c52-3054-4831-b72e-231906077e8c; e9f8f0b3-dd75-4d84-babb-80db551a23ff; 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30; a70e79c2-8d85-4835-9ffb-ec6d2d70d149; 107789338; d80effd1-f790-46d0-942e-27c2de0d6305; d69e19ea-b3b2-4f7a-82d4-8951559590c8; a65fdabc-6bc9-40ee-9a53-499a14c95c4a; 9c0c3f0a-26d6-4bc3-a84e-17e102e59614; f2ecb257-e92d-466a-bc1a-9ba3f035fc23; 1632615
+total rows output - London,15
+job_id included - London,8a0de7c0-a4cc-4781-a44b-9c6f74460d73; 0392588c-ea46-438c-a4a1-6f2b08a7f12a; 5a534179-7cff-416a-b14c-b5f1f11b907c; 01257d43-ab3d-4a80-a4b6-86892e362251; e0a800a7-bcbd-4cad-8a96-decf3e7a07ba; d4000791-6f57-45b5-b179-616cd9975d10; cb213c52-3054-4831-b72e-231906077e8c; e9f8f0b3-dd75-4d84-babb-80db551a23ff; 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30; a70e79c2-8d85-4835-9ffb-ec6d2d70d149; d80effd1-f790-46d0-942e-27c2de0d6305; d69e19ea-b3b2-4f7a-82d4-8951559590c8; a65fdabc-6bc9-40ee-9a53-499a14c95c4a; 9c0c3f0a-26d6-4bc3-a84e-17e102e59614; f2ecb257-e92d-466a-bc1a-9ba3f035fc23
 selection scenario - Hampshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Hampshire,"Hampshire selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Hampshire,9
+selection message - Hampshire,"Hampshire selection complete: all 10 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Hampshire,10
 high confidence count - Hampshire,7
-anchor elastic count - Hampshire,0
+anchor elastic count - Hampshire,1
 other elastic count - Hampshire,2
-total rows output - Hampshire,9
-job_id included - Hampshire,bc8e6b66-d67e-4f4c-9392-7285e25de89b; 71c14263-f694-438a-8eb2-9fc40e26b6d2; 8ce5f464-05a9-43e0-8f2f-af12d6230bfd; cdc8a0d6-75db-4ccc-9814-96012a552c48; e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1; 20091_318985; 1629916; 1595701; 107755942
-selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Surrey,Surrey selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Surrey,5
+total rows output - Hampshire,10
+job_id included - Hampshire,bc8e6b66-d67e-4f4c-9392-7285e25de89b; 107605314; 71c14263-f694-438a-8eb2-9fc40e26b6d2; 8ce5f464-05a9-43e0-8f2f-af12d6230bfd; cdc8a0d6-75db-4ccc-9814-96012a552c48; e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1; 20091_318985; 1629916; 1595701; 107755942
+selection scenario - Surrey,SCENARIO_3_FULL_VALID_SELECTION
+selection message - Surrey,"Surrey selection complete: all 6 valid selected role(s) retained after HIGH_CONFIDENCE, Guildford ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Surrey,6
 high confidence count - Surrey,5
 anchor elastic count - Surrey,0
-other elastic count - Surrey,0
-total rows output - Surrey,5
-job_id included - Surrey,b3c542f7-b4d2-4602-ba47-60d4f270b39a; 76d94ffe-2e8d-4b22-b2e9-e95bcf67d117; 53608d8d-0110-469e-a64a-88aff23946a4; c155d86b-2df2-4768-a926-9b15f14aae23; f545a2c8-eeed-4001-aafd-8e0b48332e01
+other elastic count - Surrey,1
+total rows output - Surrey,6
+job_id included - Surrey,b3c542f7-b4d2-4602-ba47-60d4f270b39a; 76d94ffe-2e8d-4b22-b2e9-e95bcf67d117; 53608d8d-0110-469e-a64a-88aff23946a4; c155d86b-2df2-4768-a926-9b15f14aae23; f545a2c8-eeed-4001-aafd-8e0b48332e01; 107801100
 selection scenario - Kent,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Kent,Kent selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Kent,4
+selection message - Kent,Kent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Kent,3
 high confidence count - Kent,2
 anchor elastic count - Kent,0
 other elastic count - Kent,1
-total rows output - Kent,4
-job_id included - Kent,1eeca110-4bfa-4f50-b7e3-a83fe57a3242; 9313f8d8-798c-47d4-b862-63cec763953a; 6b598b1d-4b4d-4cb8-8645-64c446a8ae26; 900e2fad-e172-4801-908f-64a7b0d2064e
+total rows output - Kent,3
+job_id included - Kent,1eeca110-4bfa-4f50-b7e3-a83fe57a3242; 6b598b1d-4b4d-4cb8-8645-64c446a8ae26; 900e2fad-e172-4801-908f-64a7b0d2064e
 selection scenario - Sussex,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Sussex,"Sussex selection complete: all 6 valid selected role(s) retained after HIGH_CONFIDENCE, Brighton ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Sussex,6
