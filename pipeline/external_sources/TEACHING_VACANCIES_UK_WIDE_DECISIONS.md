@@ -83,4 +83,4 @@ GitHub Actions validate:
 - the existing live West Yorkshire review preview and live-site isolation; and
 - the complete slice-register suite, including Yorkshire East as CANDIDATE.
 
-The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup. CI also exposed and fixed a blank-action parser that could otherwise absorb the next review line. Both cases now have regression coverage.
+The final CI run passed 80 tests. The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup. CI also exposed and fixed a blank-action parser that could otherwise absorb the next review line. Both cases now have regression coverage.
