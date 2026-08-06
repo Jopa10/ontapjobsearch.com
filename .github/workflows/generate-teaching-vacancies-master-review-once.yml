@@ -47,3 +47,5 @@ jobs:
             .github/workflows/generate-teaching-vacancies-master-review-once.yml
           git commit -m "Generate England-wide Teaching Vacancies master review"
           git push origin main
+
+# trigger
