@@ -1,0 +1,49 @@
+name: Generate Teaching Vacancies master review once
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/generate-teaching-vacancies-master-review-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-master-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test package
+        run: python -m pip install --upgrade pip pytest
+
+      - name: Test master review builder
+        working-directory: pipeline
+        run: python -m pytest tests/test_teaching_vacancies_master_review.py -q
+
+      - name: Generate master review from current regional evidence
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_master_review --write-master-review
+          test -s reviews/external/teaching-vacancies/england-wide-admin-service-review.csv
+
+      - name: Commit master review and remove one-time workflow
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/workflows/generate-teaching-vacancies-master-review-once.yml
+          git add \
+            pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-review.csv \
+            .github/workflows/generate-teaching-vacancies-master-review-once.yml
+          git commit -m "Generate England-wide Teaching Vacancies master review"
+          git push origin main
