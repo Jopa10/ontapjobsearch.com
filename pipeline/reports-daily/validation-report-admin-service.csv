@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,2185
-total rows included,56
-total rows dropped,2119
+total rows included,58
+total rows dropped,2116
 title classification count - HIGH_CONFIDENCE,244
 title classification count - ELASTIC_FIT,44
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -79,3 +79,11 @@ anchor elastic count - West Midlands - Coventry & Warwickshire,0
 other elastic count - West Midlands - Coventry & Warwickshire,0
 total rows output - West Midlands - Coventry & Warwickshire,5
 job_id included - West Midlands - Coventry & Warwickshire,dfd7d156-9a1c-4512-9b81-e6446c2d5571; 107608137; 9bccef77-3de5-4082-92cc-aefc7bf20d50; 298c6500-8008-4a5a-aff7-1c4e84c95e8f; a64c366b-f7e8-4089-8aae-a1796f1ef747
+selection scenario - Yorkshire - North,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - Yorkshire - North,Yorkshire - North selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - North,2
+high confidence count - Yorkshire - North,2
+anchor elastic count - Yorkshire - North,0
+other elastic count - Yorkshire - North,0
+total rows output - Yorkshire - North,2
+job_id included - Yorkshire - North,5fbb0bde-7104-4279-a41d-0302a4f9ce2a; 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
