@@ -13,7 +13,12 @@ from external_sources.regional_contracts import DiscoveryRecord
 
 def listing_document(start: int, end: int, total: int, slugs: list[str]) -> str:
     links = "\n".join(f'<a href="/jobs/{slug}">{slug}</a>' for slug in slugs)
-    return f"<html><body>{links}<p>Showing {start} to {end} of {total} results</p></body></html>"
+    return (
+        "<html><body>"
+        + links
+        + f"<p>Showing <strong>{start}</strong> to <strong>{end}</strong> "
+        + f"of <strong>{total}</strong> results</p></body></html>"
+    )
 
 
 def test_default_routes_are_national_and_include_primary_category() -> None:
