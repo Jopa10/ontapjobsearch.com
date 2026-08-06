@@ -25,6 +25,7 @@ import math
 import os
 import re
 import tempfile
+import time
 import urllib.parse
 from dataclasses import dataclass
 from datetime import datetime
@@ -47,6 +48,9 @@ SOURCE_CODE = "Teaching Vacancies"
 LONDON = ZoneInfo("Europe/London")
 DISCOVERY_CONTRACT_VERSION = "teaching-vacancies-national-v1"
 RESULTS_PER_PAGE = 10
+LIVE_REQUEST_DELAY_SECONDS = 0.4
+LIVE_REQUEST_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)
+LISTING_AUDIT_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)
 
 PRIMARY_ROUTE = (
     "administration-category",
@@ -196,6 +200,31 @@ def parse_listing_page(document: str, *, page: int) -> ListingPage:
     return ListingPage(page=page, start=start, end=end, total=total, urls=urls)
 
 
+def request_listing_page(
+    route: SearchRoute,
+    *,
+    page: int,
+    request_text: RequestText,
+    retry_delays: tuple[float, ...] = LISTING_AUDIT_RETRY_DELAYS_SECONDS,
+    sleep_fn: Callable[[float], None] = time.sleep,
+) -> tuple[str, ListingPage]:
+    url = page_url(route.url, page)
+    last_error: Exception | None = None
+    attempts = len(retry_delays) + 1
+    for attempt in range(attempts):
+        if attempt:
+            sleep_fn(retry_delays[attempt - 1])
+        try:
+            document = request_text(url)
+            return document, parse_listing_page(document, page=page)
+        except (OSError, ValueError) as exc:
+            last_error = exc
+    raise ValueError(
+        f"{route.name} page {page} failed its result-range audit after "
+        f"{attempts} attempts at {url}: {clean(last_error)}"
+    )
+
+
 def expected_page_range(*, page: int, total: int) -> tuple[int, int]:
     if total == 0:
         return 0, 0
@@ -209,19 +238,24 @@ def discover_route(
     *,
     request_text: RequestText,
 ) -> RouteSweep:
-    first_document = request_text(page_url(route.url, 1))
-    first = parse_listing_page(first_document, page=1)
+    first_document, first = request_listing_page(
+        route,
+        page=1,
+        request_text=request_text,
+    )
     pages = max(1, math.ceil(first.total / RESULTS_PER_PAGE))
     records: list[DiscoveryRecord] = []
     occurrences = 0
 
     for page in range(1, pages + 1):
-        document = (
-            first_document
-            if page == 1
-            else request_text(page_url(route.url, page))
-        )
-        listing = parse_listing_page(document, page=page)
+        if page == 1:
+            document, listing = first_document, first
+        else:
+            document, listing = request_listing_page(
+                route,
+                page=page,
+                request_text=request_text,
+            )
         if listing.total != first.total:
             raise ValueError(
                 f"{route.name} total changed during sweep: "
@@ -531,13 +565,30 @@ def main(argv: list[str] | None = None) -> int:
 
     etl.install_patches()
     routes = default_routes()
+
+    def live_request_text(url: str) -> str:
+        last_error: OSError | None = None
+        attempts = len(LIVE_REQUEST_RETRY_DELAYS_SECONDS) + 1
+        for attempt in range(attempts):
+            if attempt:
+                time.sleep(LIVE_REQUEST_RETRY_DELAYS_SECONDS[attempt - 1])
+            time.sleep(LIVE_REQUEST_DELAY_SECONDS)
+            try:
+                return poc.request_text(url)
+            except OSError as exc:
+                last_error = exc
+        raise OSError(
+            f"Teaching Vacancies request failed after {attempts} attempts: "
+            f"{url} — {clean(last_error)}"
+        )
+
     discovered, route_sweeps = stable_discovery(
         routes,
-        request_text=poc.request_text,
+        request_text=live_request_text,
     )
     records = detail_records(
         discovered,
-        request_text=poc.request_text,
+        request_text=live_request_text,
         parse_detail=poc.parse_jobposting,
     )
     rows = manifest_rows(records, run_date=run_date)

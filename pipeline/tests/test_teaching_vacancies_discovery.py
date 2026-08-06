@@ -76,6 +76,36 @@ def test_discover_route_exhausts_every_advertised_page() -> None:
     ]
 
 
+def test_listing_audit_retries_a_transient_non_results_page() -> None:
+    route = discovery.SearchRoute(
+        "keyword:administrator",
+        "administrator",
+        "https://teaching-vacancies.service.gov.uk/jobs?keyword=administrator",
+    )
+    calls = 0
+    sleeps: list[float] = []
+
+    def request_text(_url: str) -> str:
+        nonlocal calls
+        calls += 1
+        if calls == 1:
+            return "<html><title>Temporary response</title><body>Try again</body></html>"
+        return listing_document(1, 1, 1, ["administrator-role"])
+
+    _document, listing = discovery.request_listing_page(
+        route,
+        page=1,
+        request_text=request_text,
+        retry_delays=(0.25,),
+        sleep_fn=sleeps.append,
+    )
+
+    assert calls == 2
+    assert sleeps == [0.25]
+    assert listing.total == 1
+    assert listing.urls[0].endswith("/administrator-role")
+
+
 def test_discover_route_blocks_changed_total() -> None:
     route = discovery.SearchRoute("route", "query", "https://example.test/jobs")
     documents = {
