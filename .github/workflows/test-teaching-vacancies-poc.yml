@@ -67,6 +67,29 @@ jobs:
             tests/test_teaching_vacancies_contract_format.py \
             -q
 
+      - name: Verify live national discovery route contract
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          from external_sources import teaching_vacancies_discovery as discovery
+          from external_sources import teaching_vacancies_etl as etl
+          from external_sources import teaching_vacancies_poc as poc
+
+          etl.install_patches()
+          route = discovery.default_routes()[0]
+          assert "location=" not in route.url
+          assert "radius=" not in route.url
+          document = poc.request_text(route.url)
+          listing = discovery.parse_listing_page(document, page=1)
+          assert listing.total > 0
+          assert listing.urls
+          assert listing.end <= discovery.RESULTS_PER_PAGE
+          print(
+              f"National administration route reports {listing.total} jobs; "
+              f"first page exposes {len(listing.urls)} stable detail URLs."
+          )
+          PY
+
       - name: Run live review-only preview
         working-directory: pipeline
         run: |
