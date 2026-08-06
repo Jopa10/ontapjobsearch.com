@@ -113,6 +113,14 @@ const jobSections: BrowseSection[] = [
         statusClassName: activeStatusClassName,
       },
       {
+        title: 'Coventry & Warwickshire Admin & Customer Service Jobs',
+        href: '/coventry-warwickshire/service-administrator-jobs',
+        description:
+          'Service administrator, customer service administrator and office support roles across Coventry and Warwickshire.',
+        status: 'Active current supply',
+        statusClassName: activeStatusClassName,
+      },
+      {
         title: 'North East Admin & Customer Service Jobs',
         href: '/north-east/service-administrator-jobs',
         description:
