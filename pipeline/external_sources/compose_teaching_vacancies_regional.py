@@ -287,6 +287,7 @@ def compose_directory(
     today: date,
     now: datetime | None = None,
     write: bool = False,
+    regions: set[str] | None = None,
 ) -> list[CompositionResult]:
     authorities = load_slice_authorities(slice_register)
     snapshots = load_approved_snapshots(
@@ -311,6 +312,19 @@ def compose_directory(
             )
             continue
         region, base_rows, old_teaching = current_base_contract(current)
+        if regions is not None and region not in regions:
+            results.append(
+                CompositionResult(
+                    path=path,
+                    region=region,
+                    status="SKIPPED",
+                    reason="region was not requested for this composition run",
+                    base_rows=len(base_rows),
+                    teaching_rows=len(old_teaching),
+                    total=len(current),
+                )
+            )
+            continue
         if not base_rows:
             results.append(
                 CompositionResult(
@@ -384,6 +398,8 @@ def compose_directory(
         )
 
     for region, snapshot in sorted(snapshots.items()):
+        if regions is not None and region not in regions:
+            continue
         if region in matched_regions:
             continue
         results.append(
@@ -429,6 +445,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=Path,
         default=DEFAULT_SLICE_REGISTER,
     )
+    parser.add_argument(
+        "--region",
+        action="append",
+        default=[],
+        help="Compose only this exact Ontap region; may be repeated.",
+    )
     parser.add_argument("--today", type=date.fromisoformat, default=date.today())
     parser.add_argument("--write", action="store_true")
     return parser.parse_args(argv)
@@ -444,6 +466,7 @@ def main(argv: list[str] | None = None) -> int:
             slice_register=args.slice_register,
             today=args.today,
             write=args.write,
+            regions=set(args.region) if args.region else None,
         )
     except ValueError as exc:
         raise SystemExit(f"STOP: {exc}") from exc
