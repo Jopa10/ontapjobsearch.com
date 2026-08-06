@@ -38,19 +38,19 @@ job_id: 107751768
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Mirfield | £12.71 - £16.6 per hour | Experienced Childrens Residential Support Workers
 job_id: 107660790
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
@@ -58,13 +58,13 @@ job_id: 107728806
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
-action:
+action: select
 SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
 job_id: 107798506
 ---
 
 ---
-action:
+action: select
 SELECTED | Yorkshire - South | Sheffield | £15 per hour | Part-time Care Assistant to Journalism Uni student
 job_id: 107798539
 ---
@@ -72,7 +72,7 @@ job_id: 107798539
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
@@ -202,13 +202,13 @@ job_id: 107800692
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Chichester | £12.85 - £18.4 per hour | Healthcare Assistant
 job_id: 107775338
 ---
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107641522
 ---
@@ -326,19 +326,19 @@ job_id: 107793198
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
 job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
 job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
 ---
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401784261
 ---
