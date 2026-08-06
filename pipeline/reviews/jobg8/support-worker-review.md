@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-05
+feed_date: 2026-08-06
 
 Edit only the `action:` line in each block:
 
@@ -29,24 +29,6 @@ SELECTED | Yorkshire - West | Holmfirth | £29350 per year | Complex care assist
 job_id: 107651994
 ---
 
----
-action: select
-SELECTED | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728806
----
-
----
-action: select
-SELECTED | Yorkshire - West | Mirfield | £12.71 - £16.6 per hour | Experienced Childrens Residential Support Workers
-job_id: 107660790
----
-
----
-action: select
-SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -55,25 +37,47 @@ POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in P
 job_id: 107751768
 ---
 
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Mirfield | £12.71 - £16.6 per hour | Experienced Childrens Residential Support Workers
+job_id: 107660790
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
+---
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
-action: select
-SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+action:
+SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
+job_id: 107798506
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £15 per hour | Part-time Care Assistant to Journalism Uni student
+job_id: 107798539
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
-
-## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
-
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £19,738.88 per annum | Young People Support Worker
-job_id: 1533503
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 ---
+
+## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
 ---
 action:
@@ -103,6 +107,12 @@ job_id: 107199252
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
 job_id: 107617093
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £19,738.88 per annum | Young People Support Worker
+job_id: 1533503
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -179,23 +189,23 @@ job_id: 107693840
 
 ---
 action:
-SELECTED | Sussex | Hove | £13.49 per hour | Support Worker
-job_id: 107769775
+SELECTED | Sussex | Littlehampton | £13.45 per hour | Care Assistant
+job_id: 107605050
 ---
 
 ---
-action: select
-SELECTED | Sussex | Bognor Regis | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 107775329
----
-
----
-action: select
-SELECTED | Sussex | Chichester | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 107775338
+action:
+SELECTED | Sussex | Burgess Hill | £13.45 per hour | Support Worker
+job_id: 107800692
 ---
 
 ## SUSSEX — POSSIBLES
+
+---
+action:
+POSS - SUSSEX | Sussex | Chichester | £12.85 - £18.4 per hour | Healthcare Assistant
+job_id: 107775338
+---
 
 ---
 action:
@@ -209,12 +219,6 @@ job_id: 107641522
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107719634
----
-
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 107732007
 ---
 
 ---
@@ -234,12 +238,6 @@ job_id: 107789321
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year () plus market supplement) | Night Care Assistant
-job_id: 1401784020
----
 
 ---
 action:
@@ -273,12 +271,6 @@ job_id: c4b882e9-0d0f-433e-820e-ed014114370d
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £13.2 per hour (plus benefits) | Female Waking Night Support Worker
-job_id: 107656217
----
-
----
-action:
 SELECTED | Hampshire | Ryde | £12.8 per hour | Care Assistant
 job_id: 107586326
 ---
@@ -297,20 +289,8 @@ job_id: 107739683
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £14.31 per hour | Night Care Assistant
-job_id: 107776250
----
-
----
-action:
 SELECTED | Hampshire | Ryde | £12.8 per hour | Care Assistant
 job_id: 107586313
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £15 per hour | Complex Care Assistant
-job_id: 107791554
 ---
 
 ---
@@ -321,8 +301,26 @@ job_id: 1401784321
 
 ---
 action:
+SELECTED | Hampshire | Southampton | £13.56 per hour | Care Assistant Nights
+job_id: 107605224
+---
+
+---
+action:
 SELECTED | Hampshire | Southampton | £14 - £15 per hour | Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
 job_id: 107794548
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £14 - £14.5 per hour | Care Assistant
+job_id: 107788128
+---
+
+---
+action:
+SELECTED | Hampshire | Havant | £13 per hour | Care Worker
+job_id: 107793198
 ---
 
 ## HAMPSHIRE — POSSIBLES

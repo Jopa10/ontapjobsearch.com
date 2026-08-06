@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-05
+feed_date: 2026-08-06
 
 Edit only the `action:` line in each block:
 
@@ -41,12 +41,6 @@ job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 
 ---
 action:
-SELECTED | Yorkshire - South | Barnsley | £25000 - £30000 per year | Receptionist / Facilities Coordinator
-job_id: 3210a914-2c99-4b6c-870b-c2001651b931
----
-
----
-action:
 SELECTED | Yorkshire - South | Barnsley | £26000 per year | Recruitment Onsite Operations Coordinator
 job_id: 107606837
 ---
@@ -65,8 +59,8 @@ job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster | £22000 per year | Apprentice Training Administrator
-job_id: 107785847
+SELECTED | Yorkshire - South | Doncaster | £14 per hour | Care Coordinator
+job_id: 107790842
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -78,6 +72,12 @@ job_id: 8ab72ad1-ff72-4ee5-9737-c67201f3c0fd
 ---
 
 ## NORTH EAST — SELECTED
+
+---
+action:
+SELECTED | North East | Darlington | £14 per hour | Temporary Administrator
+job_id: e12fcfe3-076c-47be-a30c-227026a13277
+---
 
 ---
 action:
@@ -106,12 +106,6 @@ job_id: 6d09509e-78ca-4bf5-a359-ec3cc317db83
 ---
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London |  | Assistant Company Secretary
-job_id: 558054731
----
 
 ---
 action:
@@ -203,24 +197,6 @@ SELECTED | London | Sutton | £20000 - £28000 per year | Assistant Estimator Ad
 job_id: a65fdabc-6bc9-40ee-9a53-499a14c95c4a
 ---
 
----
-action: select
-SELECTED | London | London | £19.18 per hour | Administrator (Giving Team)
-job_id: 1632660
----
-
----
-action:
-SELECTED | London | City Of Westminster | £27,675 - £28,550 per annum | Front of House Receptionist
-job_id: 1632615
----
-
----
-action:
-SELECTED | London | London | £28000 per year | Extra Care Coordinator
-job_id: 107789338
----
-
 ## LONDON — POSSIBLES
 
 ---
@@ -233,12 +209,6 @@ job_id: db1cfbc9-8cb7-4e91-b1f5-99dc83f06e69
 action:
 POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
 job_id: 107731922
----
-
----
-action:
-POSS - LONDON | London | London | £19.18 per hour | Administrator (Principle Giving Team)
-job_id: 1632659
 ---
 
 ---
@@ -303,6 +273,12 @@ SELECTED | Hampshire | Fleet |  | IT Administrator
 job_id: 1629916
 ---
 
+---
+action:
+SELECTED | Hampshire | Southampton | £12.9 per hour | Lifestyle Coordinator
+job_id: 107605314
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -339,6 +315,12 @@ SELECTED | Surrey | Leatherhead | £20000 - £28000 per year | Assistant Estimat
 job_id: f545a2c8-eeed-4001-aafd-8e0b48332e01
 ---
 
+---
+action:
+SELECTED | Surrey | Redhill | £30000 per year | Operations & Finance Coordinator (Hybrid)
+job_id: 107801100
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -358,18 +340,18 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 ---
 
 ---
-action: select
-SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
----
-
----
 action:
 SELECTED | Kent | Maidstone | £14.4 per hour | Accounts Administrator
 job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
 
 ## KENT — POSSIBLES
+
+---
+action:
+POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
 
 ---
 action:
