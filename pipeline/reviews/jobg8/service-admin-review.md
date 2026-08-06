@@ -404,6 +404,45 @@ action:
 POSS - SUSSEX | Sussex | Horsham | £38000 - £42000 per year | Financial Administrator
 job_id: 73c27096-8e4a-4bbb-8a13-773dcdd66a6c
 ---
+## COVENTRY & WARWICKSHIRE — SELECTED
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £12.71 per hour | Registry Administrator
+job_id: dfd7d156-9a1c-4512-9b81-e6446c2d5571
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby | £12.77 per hour | Receptionist
+job_id: 9bccef77-3de5-4082-92cc-aefc7bf20d50
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Kenilworth | £16500 - £17500 per year | Board & Secretarial Administrator
+job_id: 298c6500-8008-4a5a-aff7-1c4e84c95e8f
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton |  | HR Administrator
+job_id: a64c366b-f7e8-4089-8aae-a1796f1ef747
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £13.5 - £14 per hour | Care Coordinator
+job_id: 107608137
+---
+
+## COVENTRY & WARWICKSHIRE — POSSIBLES
+
+---
+action:
+POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwick | £35000 - £38000 per year | HR Administrator (People Operations)
+job_id: be1214d8-345c-4c73-a076-9fa1ba0f5c8a
+---
 ## ACTIVE MANUAL ACTIONS
 
 _No active manual actions outside the selected/possible groups._
