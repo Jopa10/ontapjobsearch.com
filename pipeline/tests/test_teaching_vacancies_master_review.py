@@ -7,8 +7,14 @@ from pathlib import Path
 from external_sources import teaching_vacancies_master_review as master
 
 
-def write_review(path: Path, *, region: str, source_job_id: str) -> None:
-    fields = [field for field in master.MASTER_FIELDS if field != "regional_slice"]
+def write_review(
+    path: Path, *, region: str, source_job_id: str, slice_status: str
+) -> None:
+    fields = [
+        field
+        for field in master.MASTER_FIELDS
+        if field not in {"regional_slice", "review_scope"}
+    ]
     row = {field: "" for field in fields}
     row.update(
         {
@@ -17,7 +23,9 @@ def write_review(path: Path, *, region: str, source_job_id: str) -> None:
             "salary_text": "£25,000",
             "classification_reason": "Clear admin/service title: administrator",
             "ontap_region": region,
+            "slice_status": slice_status,
             "source_job_id": source_job_id,
+            "source_url": f"https://example.test/{source_job_id}",
         }
     )
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -26,33 +34,40 @@ def write_review(path: Path, *, region: str, source_job_id: str) -> None:
         writer.writerow(row)
 
 
-def test_master_review_combines_regions_and_orders_requested_columns(
-    tmp_path: Path,
-) -> None:
+def test_master_review_marks_live_regions_and_writes_summary(tmp_path: Path) -> None:
     write_review(
         tmp_path / "west-yorkshire-admin-service-review.csv",
         region="Yorkshire - West",
         source_job_id="west",
+        slice_status="LIVE",
     )
     write_review(
-        tmp_path / "north-east-admin-service-review.csv",
-        region="North East",
-        source_job_id="north-east",
+        tmp_path / "bedfordshire-admin-service-review.csv",
+        region="Bedfordshire",
+        source_job_id="beds",
+        slice_status="UNREGISTERED",
     )
 
     rows = master.build_master_rows(tmp_path)
     content = master.master_csv_bytes(rows).decode("utf-8")
     parsed = list(csv.DictReader(io.StringIO(content)))
 
-    assert tuple(parsed[0])[:5] == (
+    assert tuple(parsed[0])[:6] == (
         "final_decision",
         "title",
         "salary_text",
         "regional_slice",
         "classification_reason",
+        "review_scope",
     )
-    assert [row["regional_slice"] for row in parsed] == [
-        "North East / admin_service",
-        "Yorkshire - West / admin_service",
+    assert [row["review_scope"] for row in parsed] == [
+        master.REVIEW_NOW,
+        master.DEFERRED,
     ]
-    assert {row["source_job_id"] for row in parsed} == {"north-east", "west"}
+    assert [row["source_job_id"] for row in parsed] == ["west", "beds"]
+
+    summary = master.master_summary_text(rows)
+    assert "REVIEW NOW (LIVE regions): **1**" in summary
+    assert "DEFERRED - REGION NOT LIVE: **1**" in summary
+    assert "Yorkshire - West / admin_service" in summary
+    assert "Bedfordshire / admin_service" in summary
