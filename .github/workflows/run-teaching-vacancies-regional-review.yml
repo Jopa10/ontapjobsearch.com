@@ -33,6 +33,7 @@ jobs:
             tests/test_teaching_vacancies_discovery.py \
             tests/test_teaching_vacancies_routing.py \
             tests/test_teaching_vacancies_regional_review.py \
+            tests/test_teaching_vacancies_master_review.py \
             -q
 
       - name: Resolve London review date
@@ -86,6 +87,7 @@ jobs:
           test -s "pipeline/manifests/external/teaching-vacancies/teaching-vacancies-routing-${REVIEW_DATE}-summary.json"
           test -d pipeline/reviews/external/teaching-vacancies
           test -s pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-review.csv
+          test -s pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md
           find pipeline/reviews/external/teaching-vacancies -name '*-summary.md' -type f -size +0c | grep -q .
           git diff --exit-code -- \
             pipeline/output-external \
