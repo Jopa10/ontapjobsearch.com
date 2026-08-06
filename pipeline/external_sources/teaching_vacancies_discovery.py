@@ -177,12 +177,16 @@ def listing_job_urls(document: str) -> tuple[str, ...]:
 
 def parse_listing_page(document: str, *, page: int) -> ListingPage:
     visible_text = poc.clean(document)
+    urls = listing_job_urls(document)
     match = re.search(
         r"Showing\s+([\d,]+)\s+to\s+([\d,]+)\s+of\s+([\d,]+)\s+results",
         visible_text,
         flags=re.I,
     )
     if not match:
+        explicit_zero = re.search(r"\bJobs\s*\(\s*0\s*\)", visible_text, flags=re.I)
+        if explicit_zero and page == 1 and not urls:
+            return ListingPage(page=page, start=0, end=0, total=0, urls=())
         raise ValueError(f"listing page {page} has no result-range audit")
     start, end, total = (
         int(value.replace(",", "")) for value in match.groups()
@@ -190,11 +194,10 @@ def parse_listing_page(document: str, *, page: int) -> ListingPage:
     if total < 0 or start < 0 or end < 0:
         raise ValueError(f"listing page {page} has invalid result counts")
     if total == 0:
-        if start or end:
+        if start or end or urls:
             raise ValueError(f"listing page {page} has inconsistent zero results")
     elif not (1 <= start <= end <= total):
         raise ValueError(f"listing page {page} has invalid result range")
-    urls = listing_job_urls(document)
     if total and not urls:
         raise ValueError(f"listing page {page} exposes no vacancy URLs")
     return ListingPage(page=page, start=start, end=end, total=total, urls=urls)

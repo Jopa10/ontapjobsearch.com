@@ -106,6 +106,36 @@ def test_listing_audit_retries_a_transient_non_results_page() -> None:
     assert listing.urls[0].endswith("/administrator-role")
 
 
+def test_explicit_zero_result_page_is_audited_without_range_text() -> None:
+    route = discovery.SearchRoute(
+        "keyword:business support",
+        "business support",
+        "https://teaching-vacancies.service.gov.uk/jobs?keyword=business+support",
+    )
+    document = (
+        "<html><head><title>Jobs (0) sorted by newest - Teaching Vacancies</title></head>"
+        "<body><h1>Jobs (0)</h1></body></html>"
+    )
+
+    listing = discovery.parse_listing_page(document, page=1)
+    sweep = discovery.discover_route(route, request_text=lambda _url: document)
+
+    assert listing == discovery.ListingPage(page=1, start=0, end=0, total=0, urls=())
+    assert sweep.total == 0
+    assert sweep.pages == 1
+    assert sweep.records == ()
+
+
+def test_zero_result_heading_cannot_hide_a_vacancy_link() -> None:
+    document = (
+        "<html><head><title>Jobs (0) - Teaching Vacancies</title></head>"
+        "<body><h1>Jobs (0)</h1><a href='/jobs/unexpected'>Unexpected</a></body></html>"
+    )
+
+    with pytest.raises(ValueError, match="no result-range audit"):
+        discovery.parse_listing_page(document, page=1)
+
+
 def test_discover_route_blocks_changed_total() -> None:
     route = discovery.SearchRoute("route", "query", "https://example.test/jobs")
     documents = {
