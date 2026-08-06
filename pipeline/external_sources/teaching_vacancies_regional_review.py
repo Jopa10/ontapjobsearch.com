@@ -289,7 +289,8 @@ def review_fingerprint(records: Iterable[ReviewRecord]) -> str:
 
 
 def _block_value(block: str, key: str) -> str:
-    match = re.search(rf"(?mi)^{re.escape(key)}:\s*(.*?)\s*$", block)
+    # Horizontal whitespace only: a blank value must never absorb the next line.
+    match = re.search(rf"(?mi)^{re.escape(key)}:[ \t]*(.*?)[ \t]*$", block)
     return clean(match.group(1)) if match else ""
 
 
