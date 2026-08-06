@@ -22,6 +22,13 @@ from openpyxl import load_workbook
 CATEGORY_ADMIN_SERVICE = "admin_service"
 PUBLISHABLE_STATUS = "LIVE"
 KNOWN_SLICE_STATUSES = {"LIVE", "CANDIDATE", "RETIRED"}
+UNUSABLE_GEO_CLUSTERS = {"", "unknown", "not specified"}
+
+# Existing public-page roll-up already used by the daily admin/service pipeline.
+_PUBLIC_REGION_ROLLUPS = {
+    "north east county durham darlington hartlepool": "North East",
+    "north east tyneside wearside northumberland": "North East",
+}
 
 
 @dataclass(frozen=True)
@@ -39,6 +46,7 @@ class SliceAuthority:
 class GeographyResult:
     status: str
     region: str = ""
+    cluster: str = ""
     evidence: str = ""
     lookup_key: str = ""
 
@@ -88,6 +96,19 @@ def normalise(value: object) -> str:
 def canonical_url(value: object) -> str:
     text = clean(value)
     return text.split("#", 1)[0].rstrip("/")
+
+
+def canonical_public_region(cluster: object) -> str:
+    """Return the existing public slice region for one lookup cluster."""
+    value = clean(cluster)
+    key = normalise(value)
+    if key in UNUSABLE_GEO_CLUSTERS:
+        return ""
+    if key in _PUBLIC_REGION_ROLLUPS:
+        return _PUBLIC_REGION_ROLLUPS[key]
+    if key == "devon":
+        return "Devon"
+    return value
 
 
 def load_slice_authorities(path: Path) -> dict[tuple[str, str], SliceAuthority]:
@@ -207,38 +228,119 @@ def _column_index(headers: list[str], aliases: tuple[str, ...]) -> int | None:
     return None
 
 
-def load_geo_lookup(path: Path) -> dict[str, str]:
-    """Load the existing workbook without assuming one historical column name."""
-    if not path.is_file():
-        raise ValueError(f"geographic lookup not found: {path}")
-    workbook = load_workbook(path, read_only=True, data_only=True)
-    worksheet = workbook.active
+def _add_geo_mapping(
+    output: dict[str, str],
+    *,
+    lookup_value: object,
+    cluster: object,
+    source: str,
+) -> None:
+    key = normalise(lookup_value)
+    region_cluster = clean(cluster)
+    if not key or not canonical_public_region(region_cluster):
+        return
+    existing = output.get(key)
+    if existing and normalise(existing) != normalise(region_cluster):
+        raise ValueError(
+            f"ambiguous geographic lookup value {key!r}: "
+            f"{existing!r} versus {region_cluster!r} ({source})"
+        )
+    if not existing:
+        output[key] = region_cluster
+
+
+def _load_geo_sheet(
+    worksheet: object,
+    *,
+    output: dict[str, str],
+    source: str,
+    require_auto_status: bool = False,
+) -> None:
     rows = worksheet.iter_rows(values_only=True)
     try:
         headers = [clean(value) for value in next(rows)]
     except StopIteration as exc:
-        raise ValueError("geographic lookup is empty") from exc
+        raise ValueError(f"geographic lookup sheet is empty: {source}") from exc
     lookup_index = _column_index(headers, _GEO_COLUMN_ALIASES["lookup"])
     region_index = _column_index(headers, _GEO_COLUMN_ALIASES["region"])
+    status_index = _column_index(headers, ("status",))
     if lookup_index is None or region_index is None:
         raise ValueError(
-            "geographic lookup must expose a recognised location and Ontap region column"
+            f"geographic lookup sheet {source} must expose a recognised "
+            "location and cluster column"
         )
-    output: dict[str, str] = {}
+    if require_auto_status and status_index is None:
+        raise ValueError(
+            f"geographic lookup sheet {source} must expose a Status column"
+        )
     for row_number, row in enumerate(rows, start=2):
-        lookup_value = normalise(row[lookup_index] if lookup_index < len(row) else "")
-        region = clean(row[region_index] if region_index < len(row) else "")
-        if not lookup_value or not region:
-            continue
-        existing = output.get(lookup_value)
-        if existing and existing != region:
-            raise ValueError(
-                f"ambiguous geographic lookup value at row {row_number}: {lookup_value}"
+        if require_auto_status:
+            status = clean(
+                row[status_index] if status_index is not None and status_index < len(row) else ""
             )
-        output[lookup_value] = region
+            if normalise(status) != "auto":
+                continue
+        lookup_value = row[lookup_index] if lookup_index < len(row) else ""
+        cluster = row[region_index] if region_index < len(row) else ""
+        _add_geo_mapping(
+            output,
+            lookup_value=lookup_value,
+            cluster=cluster,
+            source=f"{source} row {row_number}",
+        )
+
+
+def load_geo_lookup(path: Path) -> dict[str, str]:
+    """Load Ontap's Area/Cluster and approved location-fallback contracts."""
+    if not path.is_file():
+        raise ValueError(f"geographic lookup not found: {path}")
+    workbook = load_workbook(path, read_only=True, data_only=True)
+    output: dict[str, str] = {}
+    _load_geo_sheet(
+        workbook.active,
+        output=output,
+        source=workbook.active.title,
+    )
+    if "LocationFallback" in workbook.sheetnames:
+        _load_geo_sheet(
+            workbook["LocationFallback"],
+            output=output,
+            source="LocationFallback",
+            require_auto_status=True,
+        )
     if not output:
         raise ValueError("geographic lookup contains no usable mappings")
     return output
+
+
+def _postcode_tiers(postcode: str) -> list[tuple[str, tuple[str, ...]]]:
+    key = normalise(postcode)
+    if not key:
+        return []
+    tiers: list[tuple[str, tuple[str, ...]]] = [("postcode", (key,))]
+    outward = re.match(r"^([a-z]{1,2}\d[a-z\d]?)\b", key)
+    if outward:
+        tiers.append(("postcode outward", (outward.group(1),)))
+    area = re.match(r"^([a-z]{1,2})\d", key)
+    if area:
+        tiers.append(("postcode area", (area.group(1),)))
+    return tiers
+
+
+def _location_tiers(location: str) -> list[tuple[str, tuple[str, ...]]]:
+    raw = clean(location)
+    if not raw:
+        return []
+    full = normalise(raw)
+    parts = [normalise(part) for part in raw.split(",") if normalise(part)]
+    tiers: list[tuple[str, tuple[str, ...]]] = []
+    if full:
+        tiers.append(("full location", (full,)))
+    if parts:
+        tiers.append(("locality", (parts[0],)))
+    for index, part in enumerate(parts[1:], start=2):
+        tiers.append((f"location component {index}", (part,)))
+    return tiers
 
 
 def route_geography(
@@ -247,37 +349,44 @@ def route_geography(
     postcode: str,
     lookup: dict[str, str],
 ) -> GeographyResult:
-    """Route factual location evidence only; uncertain geography remains visible."""
-    candidates: list[tuple[str, str]] = []
-    for label, raw in (("postcode", postcode), ("location", location)):
-        key = normalise(raw)
-        if key:
-            candidates.append((label, key))
-            postcode_outward = re.match(r"^([a-z]{1,2}\d[a-z\d]?)\b", key)
-            if postcode_outward:
-                candidates.append(("postcode outward", postcode_outward.group(1)))
-            postcode_area = re.match(r"^([a-z]{1,2})\d", key)
-            if postcode_area:
-                candidates.append(("postcode area", postcode_area.group(1)))
-    matches: dict[str, tuple[str, str]] = {}
-    for evidence_type, key in candidates:
-        region = lookup.get(key)
-        if region:
-            matches[region] = (evidence_type, key)
-    if not matches:
+    """Route factual location evidence only; uncertain geography remains visible.
+
+    Evidence is evaluated from most to least specific. A factual locality match
+    therefore wins before a broader county component, while conflicting matches
+    at the same evidence tier remain unresolved.
+    """
+    tiers = _postcode_tiers(postcode) + _location_tiers(location)
+    seen_keys: set[str] = set()
+    for evidence_type, raw_keys in tiers:
+        keys = tuple(key for key in raw_keys if key and key not in seen_keys)
+        seen_keys.update(keys)
+        matches: dict[str, list[tuple[str, str]]] = {}
+        for key in keys:
+            cluster = lookup.get(key)
+            region = canonical_public_region(cluster)
+            if not region:
+                continue
+            matches.setdefault(region, []).append((clean(cluster), key))
+        if not matches:
+            continue
+        if len(matches) > 1:
+            return GeographyResult(
+                status="UNRESOLVED",
+                evidence=(
+                    f"Conflicting exact {evidence_type} matches in geo_lookup.xlsx: "
+                    + ", ".join(sorted(matches))
+                ),
+            )
+        region, evidence_rows = next(iter(matches.items()))
+        cluster, key = evidence_rows[0]
         return GeographyResult(
-            status="UNRESOLVED",
-            evidence="No exact factual location match in geo_lookup.xlsx",
+            status="ROUTED",
+            region=region,
+            cluster=cluster,
+            evidence=f"Exact {evidence_type} match in geo_lookup.xlsx",
+            lookup_key=key,
         )
-    if len(matches) > 1:
-        return GeographyResult(
-            status="UNRESOLVED",
-            evidence="Conflicting factual location matches in geo_lookup.xlsx",
-        )
-    region, (evidence_type, key) = next(iter(matches.items()))
     return GeographyResult(
-        status="ROUTED",
-        region=region,
-        evidence=f"Exact {evidence_type} match",
-        lookup_key=key,
+        status="UNRESOLVED",
+        evidence="No exact factual location match in geo_lookup.xlsx",
     )
