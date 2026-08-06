@@ -1,0 +1,122 @@
+name: Run Teaching Vacancies regional review
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-regional-review:
+    name: Discover, route and review Teaching Vacancies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test packages
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Run controlled discovery and review tests
+        working-directory: pipeline
+        run: |
+          python -m pytest \
+            tests/test_external_regional_contracts.py \
+            tests/test_teaching_vacancies_discovery.py \
+            tests/test_teaching_vacancies_routing.py \
+            tests/test_teaching_vacancies_regional_review.py \
+            -q
+
+      - name: Resolve London review date
+        id: review-date
+        run: echo "date=$(TZ=Europe/London date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Run complete England-wide discovery
+        env:
+          REVIEW_DATE: ${{ steps.review-date.outputs.date }}
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_discovery \
+            --fetch-live \
+            --manifest-csv "manifests/external/teaching-vacancies/teaching-vacancies-discovery-${REVIEW_DATE}.csv" \
+            --summary-json "manifests/external/teaching-vacancies/teaching-vacancies-discovery-${REVIEW_DATE}-summary.json"
+
+      - name: Route factual manifest through existing Ontap geography
+        env:
+          REVIEW_DATE: ${{ steps.review-date.outputs.date }}
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_routing \
+            --manifest-csv "manifests/external/teaching-vacancies/teaching-vacancies-discovery-${REVIEW_DATE}.csv" \
+            --discovery-summary-json "manifests/external/teaching-vacancies/teaching-vacancies-discovery-${REVIEW_DATE}-summary.json" \
+            --routed-csv "manifests/external/teaching-vacancies/teaching-vacancies-routed-${REVIEW_DATE}.csv" \
+            --unresolved-csv "manifests/external/teaching-vacancies/teaching-vacancies-unresolved-${REVIEW_DATE}.csv" \
+            --routing-summary-json "manifests/external/teaching-vacancies/teaching-vacancies-routing-${REVIEW_DATE}-summary.json" \
+            --write-routing
+
+      - name: Generate separate regional reviews
+        env:
+          REVIEW_DATE: ${{ steps.review-date.outputs.date }}
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_regional_review \
+            --routed-csv "manifests/external/teaching-vacancies/teaching-vacancies-routed-${REVIEW_DATE}.csv" \
+            --routing-summary-json "manifests/external/teaching-vacancies/teaching-vacancies-routing-${REVIEW_DATE}-summary.json" \
+            --write-reviews
+
+      - name: Verify review-only isolation and evidence
+        env:
+          REVIEW_DATE: ${{ steps.review-date.outputs.date }}
+        run: |
+          test -s "pipeline/manifests/external/teaching-vacancies/teaching-vacancies-discovery-${REVIEW_DATE}.csv"
+          test -s "pipeline/manifests/external/teaching-vacancies/teaching-vacancies-routing-${REVIEW_DATE}-summary.json"
+          test -d pipeline/reviews/external/teaching-vacancies
+          find pipeline/reviews/external/teaching-vacancies -name '*-summary.md' -type f -size +0c | grep -q .
+          git diff --exit-code -- \
+            pipeline/output-external \
+            pipeline/output-admin-service \
+            app
+
+      - name: Commit manifests and regional reviews only
+        run: |
+          set -euo pipefail
+          allowed_paths=(
+            "pipeline/manifests/external/teaching-vacancies"
+            "pipeline/reviews/external/teaching-vacancies"
+          )
+          git add -- "${allowed_paths[@]}"
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No Teaching Vacancies regional review changes to commit"
+            exit 0
+          fi
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/manifests\/external\/teaching-vacancies\// && $0 !~ /^pipeline\/reviews\/external\/teaching-vacancies\//'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside regional review evidence:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh Teaching Vacancies regional reviews"
+          git push origin main
+
+      - name: Upload regional review evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: teaching-vacancies-regional-review
+          path: |
+            pipeline/manifests/external/teaching-vacancies/
+            pipeline/reviews/external/teaching-vacancies/
+          if-no-files-found: error
+          retention-days: 14
