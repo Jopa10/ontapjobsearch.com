@@ -2,6 +2,7 @@ region,category,status
 Yorkshire - West,admin_service,LIVE
 Yorkshire - South,admin_service,LIVE
 Yorkshire - North,admin_service,LIVE
+Yorkshire - East,admin_service,CANDIDATE
 North East,admin_service,LIVE
 Yorkshire - West,support_worker,LIVE
 Yorkshire - South,support_worker,LIVE
