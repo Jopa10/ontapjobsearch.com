@@ -7,3 +7,4 @@ Hampshire,10,7,1,2,0,,10,Southampton,SCENARIO_3_FULL_VALID_SELECTION,"Hampshire 
 Surrey,6,5,0,1,0,,6,Guildford,SCENARIO_3_FULL_VALID_SELECTION,"Surrey selection complete: all 6 valid selected role(s) retained after HIGH_CONFIDENCE, Guildford ELASTIC_FIT and other ELASTIC_FIT ordering."
 Kent,3,2,0,1,2,,3,Maidstone,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Kent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 Sussex,6,5,0,1,1,,6,Brighton,SCENARIO_3_FULL_VALID_SELECTION,"Sussex selection complete: all 6 valid selected role(s) retained after HIGH_CONFIDENCE, Brighton ELASTIC_FIT and other ELASTIC_FIT ordering."
+West Midlands - Coventry & Warwickshire,5,5,0,0,1,,5,Coventry,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,West Midlands - Coventry & Warwickshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
