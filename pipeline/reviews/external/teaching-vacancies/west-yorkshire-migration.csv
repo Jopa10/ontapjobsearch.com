@@ -1,25 +1,24 @@
 source_job_id,old_action,migration_status,detail
 accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited,,BLANK_POSS_PRESERVED,No decision migrated
-administrative-assistant-74b028fb-5ae2-473b-9dd0-4cfe3d33f1dc,select,NOT_CURRENT,"Expired, closed, no longer discovered or routed elsewhere"
-administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire,select,REVIEW_REQUIRED,Material fields changed: region
-exams-officer-newsome-academy-huddersfield-west-yorkshire,exclude,REVIEW_REQUIRED,Material fields changed: region
-personal-assistant-to-headteacher-airedale-academy,exclude,NOT_CURRENT,"Expired, closed, no longer discovered or routed elsewhere"
-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05,select,REVIEW_REQUIRED,Material fields changed: region
-receptionist-the-king-s-school-pontefract-west-yorkshire,select,REVIEW_REQUIRED,Material fields changed: region
-school-office-administrator-askwith-primary-school,select,NOT_CURRENT,"Expired, closed, no longer discovered or routed elsewhere"
-school-receptionist-cross-gates-primary-school,exclude,REVIEW_REQUIRED,Material fields changed: region
-send-exam-access-arrangements-administrator,exclude,REVIEW_REQUIRED,Material fields changed: region
-senior-administrator-fountain-primary-school-leeds-west-yorkshire,select,REVIEW_REQUIRED,Material fields changed: region
-specialist-administrator-send-medical-lead-first-aid,exclude,REVIEW_REQUIRED,Material fields changed: region
+administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire,,BLANK_POSS_PRESERVED,No decision migrated
+exams-officer-newsome-academy-huddersfield-west-yorkshire,,BLANK_POSS_PRESERVED,No decision migrated
+receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05,,BLANK_POSS_PRESERVED,No decision migrated
+receptionist-the-king-s-school-pontefract-west-yorkshire,,BLANK_POSS_PRESERVED,No decision migrated
+school-office-administrator-askwith-primary-school,,NOT_CURRENT,"Expired, closed, no longer discovered or routed elsewhere"
+school-receptionist-cross-gates-primary-school,,BLANK_POSS_PRESERVED,No decision migrated
+send-exam-access-arrangements-administrator,,BLANK_POSS_PRESERVED,No decision migrated
+senior-administrator-fountain-primary-school-leeds-west-yorkshire,,BLANK_POSS_PRESERVED,No decision migrated
+specialist-administrator-send-medical-lead-first-aid,,BLANK_POSS_PRESERVED,No decision migrated
 administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795,,NEW_REVIEW,New regional vacancy or newly reviewable record
+assistant-management-accountant-abbey-multi-academy-trust,,NEW_REVIEW,New regional vacancy or newly reviewable record
 business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49,,NEW_REVIEW,New regional vacancy or newly reviewable record
-business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636,,NEW_REVIEW,New regional vacancy or newly reviewable record
 business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62,,NEW_REVIEW,New regional vacancy or newly reviewable record
 business-support-officer-tong-leadership-academy-bradford-west-yorkshire,,NEW_REVIEW,New regional vacancy or newly reviewable record
 exam-invigilator-leeds-city-academy-leeds-west-yorkshire,,NEW_REVIEW,New regional vacancy or newly reviewable record
 exams-and-admissions-manager-leeds-city-academy,,NEW_REVIEW,New regional vacancy or newly reviewable record
 exams-manager-woodkirk-academy,,NEW_REVIEW,New regional vacancy or newly reviewable record
 finance-assistant-waterton-academy-trust-wakefield-not-recorded,,NEW_REVIEW,New regional vacancy or newly reviewable record
+finance-officer-the-gorse-academies-trust,,NEW_REVIEW,New regional vacancy or newly reviewable record
 human-resources-business-partner-central-hr-team-the-gorse-academies-trust,,NEW_REVIEW,New regional vacancy or newly reviewable record
 pastoral-administration-assistant-the-mirfield-free-grammar,,NEW_REVIEW,New regional vacancy or newly reviewable record
 people-partner-abbey-multi-academy-trust-leeds-not-recorded,,NEW_REVIEW,New regional vacancy or newly reviewable record

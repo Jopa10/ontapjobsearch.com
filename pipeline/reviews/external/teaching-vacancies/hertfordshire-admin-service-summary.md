@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
 review_date: 2026-08-06
-review_fingerprint: 3a4851272129acb136975da084d52826abfd5d1213bbe470c7afc9b33de07788
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: eca27c1f41f9b7d97083366e8ee9efe8eaf51feada191c31c6bdb7f6a60d30b8
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 5
-- POSS awaiting decision: 0
+- Records: 7
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-onslow-s
 
 ---
 action: 
+SELECTED | Hertfordshire | Stevenage, East of England, SG2 8UT | £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days | Receptionist/Admin Assistant and Student Support Coordinator
+employer: Marriotts School
+closing_date: 2026-09-01T10:00:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 680b4aa239a5571fa2ea4b335621bc5bb1b76eec2bc3b9d56bb5cb830385fd19
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c
+---
+
+---
+action: 
 SELECTED | Hertfordshire | Hertford, East of England, SG13 8EN | £29,540.00 - £32,061.00 Annually (FTE) Actual salary based on 22.5 hours p/w plus outer fringe £15744 | School Administrator and Communications Officer
 employer: Richard Hale School
 closing_date: 2026-08-12T09:00:00+01:00
@@ -98,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hertfordshire | Welwyn Garden City, East of England, AL7 3RP | £42,839 - £47,181 | School Business Manager
+employer: Holwell Primary School
+closing_date: 2026-08-20T09:00:00+01:00
+reason: Borderline school administration title: business manager
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: f6385672e806e2b6d235eda36f0e1fb2181c140fd409337756e1e26aa318cf2b
+source: Teaching Vacancies
+source_job_id: school-business-manager-holwell-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-holwell-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 

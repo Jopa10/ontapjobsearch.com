@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
 review_date: 2026-08-06
-review_fingerprint: 874bbaa3118ccf5a86bc7b23a00595f5da113c10b947a0261269085427e03b17
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: d6a8e232f7ccb6b9448c73159c909c4151f676107ef95a86c0a7111f9a7ad34c
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 11
+- Records: 16
+- Selected: 9
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -109,36 +109,6 @@ factual_fingerprint: 8f48f6caea683aef1c7254308b065f2a0303c402dbebefe104fbf7c0479
 source: Teaching Vacancies
 source_job_id: office-assistant-churchend-primary-academy-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-churchend-primary-academy-reading-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG10 9AX | £22,077.00 - £23,531.00 Annually (Actual) Pay range: Grade 4 SCP 7-11 | School Secretary
-employer: Polehampton Church of England Junior School
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 49c580f2bac0b779310505634bced7d63be343b37b7457f91a456e19381726aa
-source: Teaching Vacancies
-source_job_id: school-secretary-polehampton-church-of-england-junior-school-reading-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-polehampton-church-of-england-junior-school-reading-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG10 9AX | £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11 | School Secretary (part time)
-employer: Polehampton Church of England Junior School
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 50b7de5b190c1c166b60222edef2db654a4bfbbd8f0b1e869176b260f7c69833
-source: Teaching Vacancies
-source_job_id: school-secretary-part-time-polehampton-church-of-england-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school
 ---
 
 ---
@@ -254,10 +224,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 
 ## HARD_PASS
 
-- [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-polehampton-church-of-england-junior-school-reading-berkshire) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Insufficient admin/service evidence.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

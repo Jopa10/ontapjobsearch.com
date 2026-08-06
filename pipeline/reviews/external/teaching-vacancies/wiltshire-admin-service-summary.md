@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: 30a9333584f9c639d6997b2bc69f93466239691caad9c7079f312e720eccd654
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -136,6 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Insufficient admin/service evidence.
+- [School Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-officer-westwood-with-iford-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

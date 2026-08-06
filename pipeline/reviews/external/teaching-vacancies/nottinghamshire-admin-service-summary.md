@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
 review_date: 2026-08-06
-review_fingerprint: f65c097523950da4d174848e70ff7448e8934d3b88aee600026a20969696161a
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: fbb62f25cd195cc2dc090ff1c21269e021b191691fb44430cd4aeba996e921cb
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 5
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 9
 
@@ -111,6 +111,21 @@ factual_fingerprint: 2059b5f28707065dcde8e6a20e0d67d79efdcb20998b8680d0c65534749
 source: Teaching Vacancies
 source_job_id: exams-assistant-south-nottinghamshire-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
+---
+
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
+employer: South Nottinghamshire Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
+source: Teaching Vacancies
+source_job_id: house-support-asisstant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
 ---
 
 ---

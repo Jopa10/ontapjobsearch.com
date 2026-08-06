@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
 review_date: 2026-08-06
-review_fingerprint: d56ff982f5a782059c608b9d688f6d08ce55bf71a0b098ebe93580e5ea16abd7
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: eeb1eb537b040560d9d34853f1e212f135742557b8819ae4d634a321a8db62b2
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 12
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -248,16 +248,29 @@ source_job_id: school-business-manager-oak-green-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school
 ---
 
+---
+action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £44,075.00 - £47,181.00 Annually (FTE) | School Business Manager
+employer: Stephenson Academy
+closing_date: 2026-08-28T23:59:00+01:00
+reason: Borderline school administration title: business manager
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 95f0c50b6f8add5628be30227b47d89c20d94e40490fafd7fdccd7898d99e961
+source: Teaching Vacancies
+source_job_id: school-business-manager-stephenson-academy-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Estates Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-programme-manager-chiltern-way-academy-trust) — Insufficient admin/service evidence.
 - [Exams and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-macintyre-academies) — Missing salary or pay scale.
-- [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

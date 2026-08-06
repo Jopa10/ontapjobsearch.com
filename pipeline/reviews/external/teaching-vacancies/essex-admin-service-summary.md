@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: a21863e813281c471167f72430c3247c589c802421002e0f965c395594069362
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Essex
 slice_category: admin_service
 slice_status: UNREGISTERED

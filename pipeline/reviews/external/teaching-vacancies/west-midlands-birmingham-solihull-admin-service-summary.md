@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: 619226226baead472a337fcb7a5dd57d2037548256d25d0680320e590cf39eef
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -194,7 +194,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-mos
 
 ## HARD_PASS
 
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-98ed03e2-e16a-4121-a2bd-61b4561faef8) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice) — Insufficient admin/service evidence.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy) — Insufficient admin/service evidence.

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: ae2638b49ee7b5a4b7801efac6f373382e46d468795f64aa3dd10ed868ad7094
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Devon
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -254,11 +254,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Attendance Mentor](https://teaching-vacancies.service.gov.uk/jobs/attendance-mentor-bideford-college-bideford-devon) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust) — Insufficient admin/service evidence.
+- [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover) — Insufficient admin/service evidence.
+- [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 - [Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-9bce2eb3-1f2d-4471-843a-cfe649b37c9b) — Out-of-scope occupation: teaching assistant.
 - [Weekend Events and Lettings Officer](https://teaching-vacancies.service.gov.uk/jobs/weekend-events-and-lettings-officer) — Insufficient admin/service evidence.
 

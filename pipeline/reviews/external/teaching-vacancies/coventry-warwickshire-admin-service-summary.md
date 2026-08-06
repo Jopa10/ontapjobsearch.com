@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: 5d27a63e2e534a010295dff51c4d642e4527e896da7d773dc473c3de3798db45
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -64,6 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-welle
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-benedict-s-catholic-high-school) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust) — Insufficient admin/service evidence.
+- [Trust Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/trust-cover-supervisor-blue-coat-church-of-england-school-and-music-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

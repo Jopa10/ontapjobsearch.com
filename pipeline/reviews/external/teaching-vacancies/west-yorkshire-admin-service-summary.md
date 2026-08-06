@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
 review_date: 2026-08-06
-review_fingerprint: ba0e586f17b6ec1fca51eb8a328da926df9d4697178bcabb271e91c789f61b1b
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: ec2b3922af5030595022a9831566d30531b2b484d633589134dfa2c7bae35d4c
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 12
+- Records: 25
+- Selected: 11
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -29,7 +29,7 @@ closing_date: 2026-08-14T08:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: a573eedf7858e0b1bc494e36228d5ca3716406142133d0812f01e4aa660dca66
 source: Teaching Vacancies
 source_job_id: administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £20,663.00 - £20,991.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Attendance
-employer: All Saints Catholic College
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 092d86b32fdc738d9cecf5792fb7428abc901c2cf7aa7358fc1e1af4f5690356
-source: Teaching Vacancies
-source_job_id: business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
----
-
----
-action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £21,843.00 - £22,190.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Student Services
 employer: All Saints Catholic College
 closing_date: 2026-09-01T09:00:00+01:00
@@ -104,7 +89,7 @@ closing_date: 2026-08-10T09:00:00+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: cf98bab6a2d592f3632b108f991d9c373b37d2e4b6abe45e1fbc5efd3eb977ae
 source: Teaching Vacancies
 source_job_id: exams-officer-newsome-academy-huddersfield-west-yorkshire
@@ -119,7 +104,7 @@ closing_date: 2026-08-31T10:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: 2e34b0eae77924169f27dbbf1c35db41200b802c77f8be036b4d8d08c85bc848
 source: Teaching Vacancies
 source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
@@ -134,7 +119,7 @@ closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: 3dfbd7e005f745b816479a1a76daa0d7edd0bcc60d552bfa31e004393bb55c95
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05
@@ -149,7 +134,7 @@ closing_date: 2026-08-24T09:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: 62b9e4eed9519c06f9dfac500c01d010dcf5d37a08755cafb98a10618a450ffb
 source: Teaching Vacancies
 source_job_id: school-receptionist-cross-gates-primary-school
@@ -164,7 +149,7 @@ closing_date: 2026-09-03T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: 4ae1baec6f4ee87986d1180a30b3337b49c7a1652bfdc0175829f0de71695fae
 source: Teaching Vacancies
 source_job_id: send-exam-access-arrangements-administrator
@@ -179,7 +164,7 @@ closing_date: 2026-09-14T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: 1e56d05f0d338e4df164a61bd7dc0754c115116ef65565baa84fd343c3b8fc6d
 source: Teaching Vacancies
 source_job_id: senior-administrator-fountain-primary-school-leeds-west-yorkshire
@@ -194,7 +179,7 @@ closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED
+migration_status: BLANK_POSS_PRESERVED
 factual_fingerprint: 6713379b92a1b0eecab2fb3ef20270da4b3ce9774676c86797d87b18c9be7071
 source: Teaching Vacancies
 source_job_id: specialist-administrator-send-medical-lead-first-aid
@@ -269,9 +254,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 
 ## HARD_PASS
 
+- [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-abbey-multi-academy-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-woodkirk-academy) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-waterton-academy-trust-wakefield-not-recorded) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-mirfield-free-grammar) — Insufficient admin/service evidence.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-abbey-multi-academy-trust-leeds-not-recorded) — Insufficient admin/service evidence.

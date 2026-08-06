@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: e94924ae0043471310af2f8dc57cdd1041eae0de787c97e9f51bd26f067aec48
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: CANDIDATE

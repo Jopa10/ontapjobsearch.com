@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: c7fb6c50cfde00fbe486627fa727b6659319f7e24f4239a697938ea7494fcaad
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 20
 - Selected: 10
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -227,6 +227,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administrat
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-fisher-catholic-high-school-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-long-road-sixth-form-college) — Insufficient admin/service evidence.
+- [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-44e22d46-dbb9-44c7-92b2-3f1c26141a6e) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-trumpington-park-primary-school) — Insufficient admin/service evidence.
 

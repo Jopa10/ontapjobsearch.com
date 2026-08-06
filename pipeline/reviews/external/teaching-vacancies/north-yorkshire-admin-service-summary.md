@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
 review_date: 2026-08-06
-review_fingerprint: b06cdcc68b504dcfa18226815fe70e3ecd2dcd61008cfbec7b36142f7b10b9a6
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: 1755240bd01db5425690f7a89600bb2695f869ef2855b75569c496f1f95622d8
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -83,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-supervisor
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 1HS | £25,989.00 - £26,824.00 Annually (FTE) Grade D Points 6 to 8 (£25,989 to £26,824 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £22,452.66. | Attendance and Administration Officer
-employer: Friarage Community Academy
-closing_date: 2026-08-06T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: af13f30c5eb13d5d9f8687aca38fcade152c3fec0286461bdbf1326ce541f239
-source: Teaching Vacancies
-source_job_id: attendance-and-administration-officer-friarage-community-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-administration-officer-friarage-community-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

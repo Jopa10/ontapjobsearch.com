@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: 869d60624530ade74ae326bf51ebb7551ec04b1ecd591dafc293d0c85e270bdd
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -90,6 +90,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager
 ## HARD_PASS
 
 - [EHCP Co-ordinator, Consultations & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-consultations-admin-officer) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-ce-academy) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Insufficient admin/service evidence.
 

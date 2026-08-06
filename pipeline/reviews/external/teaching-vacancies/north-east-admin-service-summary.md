@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
 review_date: 2026-08-06
-review_fingerprint: db8c3c26f61cdc742d350274205246982874f8386d9b27165c36210f9fbdfa77
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+review_fingerprint: cf9926e363d1b751828b973b54510acde602f0ab3a94bf863c8f3253fecb957d
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 0
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,21 +38,6 @@ factual_fingerprint: 0834009ecf25403b5ee17ac34066f91693f4b38a601e0a57d37c77032e4
 source: Teaching Vacancies
 source_job_id: administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e
----
-
----
-action: 
-POSS | North East | Sunderland, North East, SR2 7JN | £37,280.00 - £40,777.00 Annually (Actual) | Business Manager
-employer: St Anthony's Girls' Catholic Academy
-closing_date: 2026-09-07T12:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f3190bafb10425ccdeb4bcfbd2ec67e7eccac189d20b0143d58d50af53679da0
-source: Teaching Vacancies
-source_job_id: business-manager-st-anthony-s-girls-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy
 ---
 
 ## EXCLUDED BY REVIEW

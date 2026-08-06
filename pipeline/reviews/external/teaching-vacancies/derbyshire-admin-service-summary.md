@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: fb58a91c3a6de334b5ca7cd7e183b322dcb8847161833ba74f445205b027759b
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: UNREGISTERED

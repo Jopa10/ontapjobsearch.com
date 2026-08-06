@@ -2,7 +2,7 @@
 
 review_date: 2026-08-06
 review_fingerprint: b2095f8b3d1e8f08df5f1e7e511bcde751a8313ec61e91d6f34836c5ec4c4591
-routing_manifest_sha256: 6ac5b7af92349dbdd235694e78879aa126a69926c75de4f510cdc62ae2d2eca6
+routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -61,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-st-joseph-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
