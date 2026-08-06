@@ -3,12 +3,17 @@ name: Test Teaching Vacancies proof of concept
 on:
   pull_request:
     paths:
+      - "pipeline/external_sources/regional_contracts.py"
+      - "pipeline/external_sources/teaching_vacancies_discovery.py"
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
       - "pipeline/external_sources/teaching_vacancies_approved.py"
       - "pipeline/external_sources/normalise_teaching_vacancies_output.py"
       - "pipeline/external_sources/compose_west_yorkshire_admin.py"
       - "pipeline/external_sources/REVIEW_STANDARD.md"
+      - "pipeline/registers/region_category_slice_register.csv"
+      - "pipeline/tests/test_external_regional_contracts.py"
+      - "pipeline/tests/test_teaching_vacancies_discovery.py"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
@@ -35,22 +40,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install test package
-        run: python -m pip install --upgrade pip pytest
+      - name: Install test packages
+        run: python -m pip install --upgrade pip pytest openpyxl
 
       - name: Compile
         working-directory: pipeline
         run: |
+          python -m py_compile external_sources/regional_contracts.py
+          python -m py_compile external_sources/teaching_vacancies_discovery.py
           python -m py_compile external_sources/teaching_vacancies_poc.py
           python -m py_compile external_sources/teaching_vacancies_etl.py
           python -m py_compile external_sources/teaching_vacancies_approved.py
           python -m py_compile external_sources/normalise_teaching_vacancies_output.py
           python -m py_compile external_sources/compose_west_yorkshire_admin.py
 
-      - name: Test review, approval and retention
+      - name: Test discovery, review, approval and retention
         working-directory: pipeline
         run: |
           python -m pytest \
+            tests/test_external_regional_contracts.py \
+            tests/test_teaching_vacancies_discovery.py \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
