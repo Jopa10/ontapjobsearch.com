@@ -1,8 +1,8 @@
 report_date,level,source,region,category,count
-2026-08-06,total,All,,,128
-2026-08-06,source_summary,JobG8,,,105
+2026-08-06,total,All,,,130
+2026-08-06,source_summary,JobG8,,,107
 2026-08-06,source_summary,External,,,23
-2026-08-06,provider,JobG8,,,105
+2026-08-06,provider,JobG8,,,107
 2026-08-06,provider,NEJobs,,,12
 2026-08-06,provider,Teaching Vacancies,,,6
 2026-08-06,provider,VONNE,,,5
@@ -17,6 +17,7 @@ report_date,level,source,region,category,count
 2026-08-06,region_category,JobG8,Sussex,Admin/Service – Office Support,6
 2026-08-06,region_category,JobG8,Sussex,Support Worker – Wide,11
 2026-08-06,region_category,JobG8,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,5
+2026-08-06,region_category,JobG8,Yorkshire - North,Admin/Service – Office Support,2
 2026-08-06,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,4
 2026-08-06,region_category,JobG8,Yorkshire - South,Support Worker – Wide,3
 2026-08-06,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,3
