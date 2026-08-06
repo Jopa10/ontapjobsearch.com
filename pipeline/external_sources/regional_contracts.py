@@ -159,6 +159,9 @@ def merge_discovery_records(records: Iterable[DiscoveryRecord]) -> list[Discover
         for field_name in factual_fields:
             old = clean(getattr(current, field_name))
             new = clean(getattr(record, field_name))
+            if field_name == "canonical_url":
+                old = canonical_url(old)
+                new = canonical_url(new)
             if old and new and old != new:
                 raise ValueError(
                     f"conflicting factual discovery values for {key}: {field_name}"
