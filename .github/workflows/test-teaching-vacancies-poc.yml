@@ -24,6 +24,7 @@ on:
       - "pipeline/tests/test_teaching_vacancies_regional_approved.py"
       - "pipeline/tests/test_compose_teaching_vacancies_regional.py"
       - "pipeline/tests/test_teaching_vacancies_regional_integration.py"
+      - "pipeline/tests/test_teaching_vacancies_workflow_switch.py"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
@@ -79,6 +80,7 @@ jobs:
             tests/test_teaching_vacancies_regional_approved.py \
             tests/test_compose_teaching_vacancies_regional.py \
             tests/test_teaching_vacancies_regional_integration.py \
+            tests/test_teaching_vacancies_workflow_switch.py \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
