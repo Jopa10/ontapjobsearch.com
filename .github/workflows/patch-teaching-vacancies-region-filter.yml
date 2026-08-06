@@ -1,0 +1,82 @@
+name: Add Teaching Vacancies region filter
+
+on:
+  push:
+    branches:
+      - agent/teaching-vacancies-uk-wide
+    paths:
+      - ".github/workflows/patch-teaching-vacancies-region-filter.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test packages
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Apply exact region-filter patch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("pipeline/external_sources/compose_teaching_vacancies_regional.py")
+          text = path.read_text(encoding="utf-8")
+          replacements = [
+              (
+                  '''    now: datetime | None = None,\n    write: bool = False,\n) -> list[CompositionResult]:''',
+                  '''    now: datetime | None = None,\n    write: bool = False,\n    regions: set[str] | None = None,\n) -> list[CompositionResult]:''',
+              ),
+              (
+                  '''        region, base_rows, old_teaching = current_base_contract(current)\n        if not base_rows:''',
+                  '''        region, base_rows, old_teaching = current_base_contract(current)\n        if regions is not None and region not in regions:\n            results.append(\n                CompositionResult(\n                    path=path,\n                    region=region,\n                    status="SKIPPED",\n                    reason="region was not requested for this composition run",\n                    base_rows=len(base_rows),\n                    teaching_rows=len(old_teaching),\n                    total=len(current),\n                )\n            )\n            continue\n        if not base_rows:''',
+              ),
+              (
+                  '''    for region, snapshot in sorted(snapshots.items()):\n        if region in matched_regions:''',
+                  '''    for region, snapshot in sorted(snapshots.items()):\n        if regions is not None and region not in regions:\n            continue\n        if region in matched_regions:''',
+              ),
+              (
+                  '''    parser.add_argument("--today", type=date.fromisoformat, default=date.today())\n    parser.add_argument("--write", action="store_true")''',
+                  '''    parser.add_argument(\n        "--region",\n        action="append",\n        default=[],\n        help="Compose only this exact Ontap region; may be repeated.",\n    )\n    parser.add_argument("--today", type=date.fromisoformat, default=date.today())\n    parser.add_argument("--write", action="store_true")''',
+              ),
+              (
+                  '''            today=args.today,\n            write=args.write,\n        )''',
+                  '''            today=args.today,\n            write=args.write,\n            regions=set(args.region) if args.region else None,\n        )''',
+              ),
+          ]
+          for old, new in replacements:
+              if old not in text:
+                  raise SystemExit("Expected composer block was not found; refusing to patch")
+              text = text.replace(old, new, 1)
+          path.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Verify composer suite
+        working-directory: pipeline
+        run: |
+          python -m py_compile external_sources/compose_teaching_vacancies_regional.py
+          python -m pytest \
+            tests/test_compose_teaching_vacancies_regional.py \
+            tests/test_teaching_vacancies_regional_integration.py \
+            tests/test_teaching_vacancies_workflow_switch.py \
+            -q
+
+      - name: Commit verified patch
+        run: |
+          git diff --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/external_sources/compose_teaching_vacancies_regional.py
+          git commit -m "Add region filter to Teaching Vacancies composer"
+          git push origin HEAD:${{ github.ref_name }}
