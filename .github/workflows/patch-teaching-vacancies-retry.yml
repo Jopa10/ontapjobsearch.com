@@ -1,0 +1,179 @@
+name: Patch Teaching Vacancies live retry
+
+on:
+  push:
+    branches:
+      - agent/teaching-vacancies-retry
+    paths:
+      - ".github/workflows/patch-teaching-vacancies-retry.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/teaching-vacancies-retry
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install tests
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Apply bounded retry and pacing patch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          source_path = Path("pipeline/external_sources/teaching_vacancies_discovery.py")
+          text = source_path.read_text(encoding="utf-8")
+
+          replacements = [
+              (
+                  "import tempfile\nimport urllib.parse\n",
+                  "import tempfile\nimport time\nimport urllib.parse\n",
+              ),
+              (
+                  "RESULTS_PER_PAGE = 10\n",
+                  "RESULTS_PER_PAGE = 10\n"
+                  "LIVE_REQUEST_DELAY_SECONDS = 0.4\n"
+                  "LIVE_REQUEST_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)\n"
+                  "LISTING_AUDIT_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)\n",
+              ),
+              (
+                  "    return ListingPage(page=page, start=start, end=end, total=total, urls=urls)\n\n\ndef expected_page_range",
+                  "    return ListingPage(page=page, start=start, end=end, total=total, urls=urls)\n\n\n"
+                  "def request_listing_page(\n"
+                  "    route: SearchRoute,\n"
+                  "    *,\n"
+                  "    page: int,\n"
+                  "    request_text: RequestText,\n"
+                  "    retry_delays: tuple[float, ...] = LISTING_AUDIT_RETRY_DELAYS_SECONDS,\n"
+                  "    sleep_fn: Callable[[float], None] = time.sleep,\n"
+                  ") -> tuple[str, ListingPage]:\n"
+                  "    url = page_url(route.url, page)\n"
+                  "    last_error: Exception | None = None\n"
+                  "    attempts = len(retry_delays) + 1\n"
+                  "    for attempt in range(attempts):\n"
+                  "        if attempt:\n"
+                  "            sleep_fn(retry_delays[attempt - 1])\n"
+                  "        try:\n"
+                  "            document = request_text(url)\n"
+                  "            return document, parse_listing_page(document, page=page)\n"
+                  "        except (OSError, ValueError) as exc:\n"
+                  "            last_error = exc\n"
+                  "    raise ValueError(\n"
+                  "        f\"{route.name} page {page} failed its result-range audit after \"\n"
+                  "        f\"{attempts} attempts at {url}: {clean(last_error)}\"\n"
+                  "    )\n\n\n"
+                  "def expected_page_range",
+              ),
+              (
+                  "    first_document = request_text(page_url(route.url, 1))\n"
+                  "    first = parse_listing_page(first_document, page=1)\n",
+                  "    first_document, first = request_listing_page(\n"
+                  "        route,\n"
+                  "        page=1,\n"
+                  "        request_text=request_text,\n"
+                  "    )\n",
+              ),
+              (
+                  "        document = (\n"
+                  "            first_document\n"
+                  "            if page == 1\n"
+                  "            else request_text(page_url(route.url, page))\n"
+                  "        )\n"
+                  "        listing = parse_listing_page(document, page=page)\n",
+                  "        if page == 1:\n"
+                  "            document, listing = first_document, first\n"
+                  "        else:\n"
+                  "            document, listing = request_listing_page(\n"
+                  "                route,\n"
+                  "                page=page,\n"
+                  "                request_text=request_text,\n"
+                  "            )\n",
+              ),
+              (
+                  "    etl.install_patches()\n"
+                  "    routes = default_routes()\n"
+                  "    discovered, route_sweeps = stable_discovery(\n"
+                  "        routes,\n"
+                  "        request_text=poc.request_text,\n"
+                  "    )\n"
+                  "    records = detail_records(\n"
+                  "        discovered,\n"
+                  "        request_text=poc.request_text,\n"
+                  "        parse_detail=poc.parse_jobposting,\n"
+                  "    )\n",
+                  "    etl.install_patches()\n"
+                  "    routes = default_routes()\n\n"
+                  "    def live_request_text(url: str) -> str:\n"
+                  "        last_error: OSError | None = None\n"
+                  "        attempts = len(LIVE_REQUEST_RETRY_DELAYS_SECONDS) + 1\n"
+                  "        for attempt in range(attempts):\n"
+                  "            if attempt:\n"
+                  "                time.sleep(LIVE_REQUEST_RETRY_DELAYS_SECONDS[attempt - 1])\n"
+                  "            time.sleep(LIVE_REQUEST_DELAY_SECONDS)\n"
+                  "            try:\n"
+                  "                return poc.request_text(url)\n"
+                  "            except OSError as exc:\n"
+                  "                last_error = exc\n"
+                  "        raise OSError(\n"
+                  "            f\"Teaching Vacancies request failed after {attempts} attempts: \"\n"
+                  "            f\"{url} — {clean(last_error)}\"\n"
+                  "        )\n\n"
+                  "    discovered, route_sweeps = stable_discovery(\n"
+                  "        routes,\n"
+                  "        request_text=live_request_text,\n"
+                  "    )\n"
+                  "    records = detail_records(\n"
+                  "        discovered,\n"
+                  "        request_text=live_request_text,\n"
+                  "        parse_detail=poc.parse_jobposting,\n"
+                  "    )\n",
+              ),
+          ]
+
+          for old, new in replacements:
+              if text.count(old) != 1:
+                  raise SystemExit(f"STOP: expected one source match, found {text.count(old)}")
+              text = text.replace(old, new)
+          source_path.write_text(text, encoding="utf-8")
+
+          test_path = Path("pipeline/tests/test_teaching_vacancies_discovery.py")
+          tests = test_path.read_text(encoding="utf-8")
+          anchor = "\n\ndef test_discover_route_blocks_changed_total() -> None:\n"
+          addition = '''\n\ndef test_listing_audit_retries_a_transient_non_results_page() -> None:\n    route = discovery.SearchRoute(\n        "keyword:administrator",\n        "administrator",\n        "https://teaching-vacancies.service.gov.uk/jobs?keyword=administrator",\n    )\n    calls = 0\n    sleeps: list[float] = []\n\n    def request_text(_url: str) -> str:\n        nonlocal calls\n        calls += 1\n        if calls == 1:\n            return "<html><title>Temporary response</title><body>Try again</body></html>"\n        return listing_document(1, 1, 1, ["administrator-role"])\n\n    _document, listing = discovery.request_listing_page(\n        route,\n        page=1,\n        request_text=request_text,\n        retry_delays=(0.25,),\n        sleep_fn=sleeps.append,\n    )\n\n    assert calls == 2\n    assert sleeps == [0.25]\n    assert listing.total == 1\n    assert listing.urls[0].endswith("/administrator-role")\n'''
+          if tests.count(anchor) != 1:
+              raise SystemExit("STOP: test insertion anchor mismatch")
+          tests = tests.replace(anchor, addition + anchor)
+          test_path.write_text(tests, encoding="utf-8")
+          PY
+
+      - name: Run discovery and integration tests
+        working-directory: pipeline
+        run: |
+          python -m py_compile external_sources/teaching_vacancies_discovery.py
+          python -m pytest \
+            tests/test_teaching_vacancies_discovery.py \
+            tests/test_teaching_vacancies_routing.py \
+            tests/test_teaching_vacancies_regional_review.py \
+            tests/test_teaching_vacancies_regional_integration.py \
+            -q
+
+      - name: Commit verified patch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            pipeline/external_sources/teaching_vacancies_discovery.py \
+            pipeline/tests/test_teaching_vacancies_discovery.py
+          git commit -m "Retry transient Teaching Vacancies listing responses"
+          git push origin agent/teaching-vacancies-retry
