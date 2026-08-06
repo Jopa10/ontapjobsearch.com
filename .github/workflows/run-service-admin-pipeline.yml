@@ -38,7 +38,7 @@ jobs:
 
       - name: Run service-admin pipeline
         working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline_education
+        run: python -m scripts.service_admin_pipeline_coventry
 
       - name: Reattach approved external-source vacancies
         working-directory: pipeline
@@ -46,10 +46,11 @@ jobs:
           python -m external_sources.compose_northeast_admin --write
           python -m external_sources.compose_west_yorkshire_admin --write
 
-      - name: Verify North East and West Yorkshire service-admin outputs
+      - name: Verify service-admin outputs
         run: |
           test -s pipeline/output-admin-service/north-east-admin-service.json
           test -s pipeline/output-admin-service/west-yorkshire-admin-service.json
+          test -s pipeline/output-admin-service/coventry-warwickshire-admin-service.json
 
       - name: Commit starter Markdown review file
         env:
