@@ -1,0 +1,27 @@
+name: Retry Teaching Vacancies master review patch
+
+on:
+  push:
+    branches:
+      - agent/teaching-vacancies-master-review
+    paths:
+      - ".github/workflows/patch-teaching-vacancies-master-review-v2.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  trigger-primary-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/teaching-vacancies-master-review
+      - name: Touch primary workflow to retrigger
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          printf '\n# retry trigger\n' >> .github/workflows/patch-teaching-vacancies-master-review.yml
+          git add .github/workflows/patch-teaching-vacancies-master-review.yml
+          git commit -m "Retry master review patch verification"
+          git push origin agent/teaching-vacancies-master-review
