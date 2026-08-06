@@ -232,10 +232,8 @@ def classify_routed_rows(
             vacancy.classification = "HARD_PASS"
             vacancy.classification_reason = "Expired, closed or invalid deadline"
         if vacancy.classification != "HARD_PASS" and not clean(vacancy.salary_text):
-            raise ValueError(
-                f"reviewable Teaching Vacancies ID {vacancy.source_job_id} "
-                "has no salary or pay scale"
-            )
+            vacancy.classification = "HARD_PASS"
+            vacancy.classification_reason = "Missing salary or pay scale"
         output.append(
             ReviewRecord(
                 vacancy=vacancy,
