@@ -5,6 +5,7 @@ on:
     paths:
       - "pipeline/external_sources/regional_contracts.py"
       - "pipeline/external_sources/teaching_vacancies_discovery.py"
+      - "pipeline/external_sources/teaching_vacancies_routing.py"
       - "pipeline/external_sources/TEACHING_VACANCIES_UK_WIDE_DECISIONS.md"
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
@@ -15,6 +16,7 @@ on:
       - "pipeline/registers/region_category_slice_register.csv"
       - "pipeline/tests/test_external_regional_contracts.py"
       - "pipeline/tests/test_teaching_vacancies_discovery.py"
+      - "pipeline/tests/test_teaching_vacancies_routing.py"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
@@ -49,18 +51,20 @@ jobs:
         run: |
           python -m py_compile external_sources/regional_contracts.py
           python -m py_compile external_sources/teaching_vacancies_discovery.py
+          python -m py_compile external_sources/teaching_vacancies_routing.py
           python -m py_compile external_sources/teaching_vacancies_poc.py
           python -m py_compile external_sources/teaching_vacancies_etl.py
           python -m py_compile external_sources/teaching_vacancies_approved.py
           python -m py_compile external_sources/normalise_teaching_vacancies_output.py
           python -m py_compile external_sources/compose_west_yorkshire_admin.py
 
-      - name: Test discovery, review, approval and retention
+      - name: Test discovery, routing, review, approval and retention
         working-directory: pipeline
         run: |
           python -m pytest \
             tests/test_external_regional_contracts.py \
             tests/test_teaching_vacancies_discovery.py \
+            tests/test_teaching_vacancies_routing.py \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
@@ -78,7 +82,7 @@ jobs:
           regions = sorted(set(lookup.values()))
           assert lookup
           assert "Yorkshire - West" in regions
-          print(f"geo_lookup.xlsx exposes {len(lookup)} exact area mappings")
+          print(f"geo_lookup.xlsx exposes {len(lookup)} exact factual mappings")
           print("Geo clusters: " + " | ".join(regions))
           PY
 
