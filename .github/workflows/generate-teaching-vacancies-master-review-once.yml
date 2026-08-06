@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install test package
-        run: python -m pip install --upgrade pip pytest
+        run: python -m pip install --upgrade pip pytest openpyxl
 
       - name: Test master review builder
         working-directory: pipeline
