@@ -1,0 +1,91 @@
+﻿date,job_id,title,company,raw_area,raw_location,geo_source,category,source_file,unknown_reason
+2026-08-01,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-08-01.xlsx,area_not_found_in_geo_lookup
+2026-08-01,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,unknown,admin_service,2026-08-01.xlsx,area_not_found_in_geo_lookup
+2026-08-01,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-08-01.xlsx,area_not_found_in_geo_lookup
+2026-08-01,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,1599044,Senior Administrator,Victim Support,Not Specified,Not Specified,unknown,admin_service,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-08-02.xlsx,area_not_found_in_geo_lookup
+2026-08-02,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,unknown,admin_service,2026-08-02.xlsx,area_not_found_in_geo_lookup
+2026-08-02,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-08-02.xlsx,area_not_found_in_geo_lookup
+2026-08-02,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,1599044,Senior Administrator,Victim Support,Not Specified,Not Specified,unknown,admin_service,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-03,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-08-03.xlsx,area_not_found_in_geo_lookup
+2026-08-03,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,unknown,admin_service,2026-08-03.xlsx,area_not_found_in_geo_lookup
+2026-08-03,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-08-03.xlsx,area_not_found_in_geo_lookup
+2026-08-03,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-08-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-04,4a28c277-bce9-4aa1-9ac1-6953f248f19c,Recruitment Administrator,Pertemps Scotland Temps,Gourock,Renfrewshire,unknown,admin_service,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-04,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-04,2047434,Clerical Officer,Apple Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,2047369,Conveyancing Legal Secretary,Pathway Legal,Not Specified,Not Specified,unknown,admin_service,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-08-05.xlsx,area_not_found_in_geo_lookup
+2026-08-05,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-08-05.xlsx,area_not_found_in_geo_lookup
+2026-08-05,2047434,Clerical Officer,Apple Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,2047369,Conveyancing Legal Secretary,Pathway Legal,Not Specified,Not Specified,unknown,admin_service,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,5147b38b-5c8c-4ae3-b9e9-0ca76544741b,Site Administrator,Pontoon,Aberfeldy,Perthshire,unknown,admin_service,2026-08-06.xlsx,area_not_found_in_geo_lookup
+2026-08-06,107648872,Administration Assistant,Brightwork Ltd,Keith,Banffshire,unknown,admin_service,2026-08-06.xlsx,area_not_found_in_geo_lookup
+2026-08-06,2047434,Clerical Officer,Apple Recruitment,Not Specified,Not Specified,unknown,admin_service,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,2047369,Conveyancing Legal Secretary,Pathway Legal,Not Specified,Not Specified,unknown,admin_service,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,admin_service,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-03,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-08-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,1573016,Finance Administrator,Not For Profit People,Not Specified,Not Specified,unknown,finance_accounts,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,1621510,Family Support Worker,Rainbow Trust Children's Charity,Cowes,Isle of Wight,unknown,support_worker,2026-08-01.xlsx,area_not_found_in_geo_lookup
+2026-08-01,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,328167,Residential Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-08-01.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-01,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-08-01.xlsx,area_not_found_in_geo_lookup
+2026-08-02,1621510,Family Support Worker,Rainbow Trust Children's Charity,Cowes,Isle of Wight,unknown,support_worker,2026-08-02.xlsx,area_not_found_in_geo_lookup
+2026-08-02,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,328167,Residential Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-08-02.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-02,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-08-02.xlsx,area_not_found_in_geo_lookup
+2026-08-02,21618_20293_13367,Support Worker,Turning Point,Woodmancote,Gloucestershire,unknown,support_worker,2026-08-02.xlsx,area_not_found_in_geo_lookup
+2026-08-03,1621510,Family Support Worker,Rainbow Trust Children's Charity,Cowes,Isle of Wight,unknown,support_worker,2026-08-03.xlsx,area_not_found_in_geo_lookup
+2026-08-03,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-08-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-03,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-08-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-03,328167,Residential Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-08-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-03,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-08-03.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-03,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-08-03.xlsx,area_not_found_in_geo_lookup
+2026-08-04,1621510,Family Support Worker,Rainbow Trust Children's Charity,Cowes,Isle of Wight,unknown,support_worker,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-04,9970e22205555223,Children's Support Worker,Staffright Group,Framlingham,Suffolk,unknown,support_worker,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-04,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,09b103d0220ddefb,Children's Residential Support Worker,Halliwell Homes,Not Specified,Not Specified,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,328167,Residential Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,1629913,Support Worker,Providence Row HA,Not Specified,Not Specified,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,8542e9cb71c7a4f9,Support Worker,Camphill Communities,Not Specified,Not Specified,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-08-04.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-04,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-04,7e6f1e107fd4e00e,Support Worker,Hightown Housing Association,Tingewick,Buckinghamshire,unknown,support_worker,2026-08-04.xlsx,area_not_found_in_geo_lookup
+2026-08-05,1621510,Family Support Worker,Rainbow Trust Children's Charity,Cowes,Isle of Wight,unknown,support_worker,2026-08-05.xlsx,area_not_found_in_geo_lookup
+2026-08-05,2047868,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,09b103d0220ddefb,Children's Residential Support Worker,Halliwell Homes,Not Specified,Not Specified,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,1632631,Children's Support Worker,Refuge,Not Specified,Not Specified,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,328167,Residential Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,2047869,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-08-05.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-05,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-08-05.xlsx,area_not_found_in_geo_lookup
+2026-08-06,1621510,Family Support Worker,Rainbow Trust Children's Charity,Cowes,Isle of Wight,unknown,support_worker,2026-08-06.xlsx,area_not_found_in_geo_lookup
+2026-08-06,9970e22205555223,Children's Support Worker,Staffright Group,Framlingham,Suffolk,unknown,support_worker,2026-08-06.xlsx,area_not_found_in_geo_lookup
+2026-08-06,2047868,Care Assistant,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,107717948,Children's Health Care Assistant,Nurse Plus,Not Specified,Cornwall,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,09b103d0220ddefb,Children's Residential Support Worker,Halliwell Homes,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,1632631,Children's Support Worker,Refuge,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,107677136,Complex Care Assistant,Superior Healthcare,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,1e908b61c46f3b83,Night Support Worker,YMCA Thames Gateway,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,328167,Residential Support Worker,Compass Community,Not Specified,Swindon,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,2047869,Support Worker,MPA Recruitment,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,8542e9cb71c7a4f9,Support Worker,Camphill Communities,Not Specified,Not Specified,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,1402262668,"Trainee Hearing Care Assistant, Lancashire",Leightons Opticians & Hearing Care,Not Specified,Lancashire,unknown,support_worker,2026-08-06.xlsx,area_unusable_and_location_not_auto_fallback
+2026-08-06,8ee6657b-a10f-480c-b41a-83ed81975cbb,Support Worker,Building Recruitment Company,Penryn,Cornwall,unknown,support_worker,2026-08-06.xlsx,area_not_found_in_geo_lookup
+2026-08-06,7e6f1e107fd4e00e,Support Worker,Hightown Housing Association,Tingewick,Buckinghamshire,unknown,support_worker,2026-08-06.xlsx,area_not_found_in_geo_lookup
