@@ -56,4 +56,4 @@ GitHub Actions passed:
 - the existing live West Yorkshire review-only preview and live-site isolation checks;
 - the complete slice-register test suite, including the new East Yorkshire CANDIDATE row.
 
-The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup, and the full checks then passed.
+The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup, and the full checks then passed. A regression fixture now includes marked-up result counts so the issue cannot silently return.
