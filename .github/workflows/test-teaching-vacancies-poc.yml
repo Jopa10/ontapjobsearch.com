@@ -67,6 +67,21 @@ jobs:
             tests/test_teaching_vacancies_contract_format.py \
             -q
 
+      - name: Verify real geographic lookup contract
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from external_sources.regional_contracts import load_geo_lookup
+
+          lookup = load_geo_lookup(Path("geo/geo_lookup.xlsx"))
+          regions = sorted(set(lookup.values()))
+          assert lookup
+          assert "Yorkshire - West" in regions
+          print(f"geo_lookup.xlsx exposes {len(lookup)} exact area mappings")
+          print("Geo clusters: " + " | ".join(regions))
+          PY
+
       - name: Verify live national discovery route contract
         working-directory: pipeline
         run: |
