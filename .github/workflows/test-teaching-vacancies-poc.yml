@@ -5,6 +5,7 @@ on:
     paths:
       - "pipeline/external_sources/regional_contracts.py"
       - "pipeline/external_sources/teaching_vacancies_discovery.py"
+      - "pipeline/external_sources/TEACHING_VACANCIES_UK_WIDE_DECISIONS.md"
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
       - "pipeline/external_sources/teaching_vacancies_approved.py"
