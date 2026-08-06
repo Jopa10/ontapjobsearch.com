@@ -2,6 +2,11 @@ name: Run Teaching Vacancies regional review
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/run-teaching-vacancies-regional-review.yml"
 
 permissions:
   contents: write
