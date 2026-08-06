@@ -1,0 +1,52 @@
+month,region,region_scope,existing_live_page,recommendation,total_jobs,feed_days,days_seen,average_daily_count,maximum_daily_count,days_with_6_plus,unique_title_count,unique_company_count,unique_location_count,concentration_risk
+2026-08,London,lookup_region,yes,MAINTAIN,14,6,6,7.67,12,3,12,10,4,LOW
+2026-08,Hampshire,lookup_region,yes,WATCH,7,6,6,5.5,7,2,6,7,6,LOW
+2026-08,Other / Unknown,lookup_region,no,WATCH,7,6,6,5.0,6,1,7,7,4,LOW
+2026-08,Northern Ireland - West,lookup_region,no,WATCH,10,6,3,4.5,10,3,8,6,8,LOW
+2026-08,Gloucestershire,lookup_region,no,WATCH,4,6,6,4.0,4,0,4,3,4,HIGH
+2026-08,Surrey,lookup_region,yes,WATCH,4,6,6,3.83,4,0,4,3,2,HIGH
+2026-08,Staffordshire,lookup_region,no,WATCH,4,6,6,3.5,4,0,4,4,2,MEDIUM
+2026-08,West Midlands - Coventry & Warwickshire,lookup_region,no,WATCH,4,6,6,3.5,4,0,4,4,3,MEDIUM
+2026-08,Yorkshire - West,lookup_region,yes,WATCH,4,6,6,2.83,4,0,3,4,3,HIGH
+2026-08,Kent,lookup_region,yes,WATCH,4,6,6,2.67,3,0,4,4,3,MEDIUM
+2026-08,Scotland Central - Edinburgh & Lothians,lookup_region,no,WATCH,3,6,6,2.67,3,0,2,3,1,HIGH
+2026-08,Northern Ireland - East,lookup_region,no,WATCH,6,6,3,2.5,6,1,6,6,5,LOW
+2026-08,Cheshire - Warrington & Halton,lookup_region,no,WATCH,3,6,6,2.33,3,0,3,3,2,HIGH
+2026-08,Cornwall,lookup_region,no,WATCH,3,6,6,2.17,3,0,3,3,3,HIGH
+2026-08,North East,published_aggregate,yes,WATCH,3,6,6,2.17,3,0,3,3,2,HIGH
+2026-08,Yorkshire - North,lookup_region,no,WATCH,3,6,6,2.17,3,0,3,2,2,HIGH
+2026-08,Yorkshire - South,lookup_region,yes,WATCH,3,6,6,2.17,3,0,3,3,2,HIGH
+2026-08,Cheshire - West,lookup_region,no,WATCH,2,6,6,2.0,2,0,2,2,2,HIGH
+2026-08,Devon,lookup_region,no,WATCH,2,6,6,2.0,2,0,2,2,1,HIGH
+2026-08,Dorset,lookup_region,no,WATCH,2,6,6,2.0,2,0,1,2,1,HIGH
+2026-08,Greater Manchester - North,lookup_region,no,WATCH,2,6,6,2.0,2,0,2,2,2,HIGH
+2026-08,Norfolk,lookup_region,no,WATCH,3,6,6,2.0,3,0,3,3,3,HIGH
+2026-08,"North East - Tyneside, Wearside & Northumberland",lookup_region,no,WATCH,2,6,6,2.0,2,0,2,2,1,HIGH
+2026-08,Oxfordshire,lookup_region,no,WATCH,2,6,6,2.0,2,0,2,2,2,HIGH
+2026-08,Shropshire,lookup_region,no,WATCH,2,6,6,2.0,2,0,1,2,1,HIGH
+2026-08,Greater Manchester - Manchester & Salford,lookup_region,no,WATCH,3,6,6,1.67,3,0,3,3,2,HIGH
+2026-08,Lincolnshire,lookup_region,no,WATCH,3,6,6,1.67,2,0,2,2,2,HIGH
+2026-08,Worcestershire,lookup_region,no,WATCH,2,6,6,1.67,2,0,2,2,2,HIGH
+2026-08,Berkshire,lookup_region,no,WATCH,2,6,6,1.5,2,0,2,2,1,HIGH
+2026-08,Buckinghamshire,lookup_region,no,WATCH,2,6,6,1.33,2,0,2,2,2,HIGH
+2026-08,Caerphilly,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,East Midlands,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,Greater Manchester - South,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,Lancashire - Central,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,Lancashire - East,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,Merseyside - Liverpool,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,Sussex,lookup_region,yes,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,Wales South - Swansea Bay,lookup_region,no,WATCH,1,6,6,1.0,1,0,1,1,1,HIGH
+2026-08,West Midlands - Birmingham & Solihull,lookup_region,no,WATCH,2,6,3,1.0,2,0,2,1,1,HIGH
+2026-08,Nottinghamshire,lookup_region,no,WATCH,1,6,5,0.83,1,0,1,1,1,HIGH
+2026-08,Bedfordshire,lookup_region,no,WATCH,1,6,4,0.67,1,0,1,1,1,HIGH
+2026-08,Herefordshire,lookup_region,no,WATCH,1,6,4,0.67,1,0,1,1,1,HIGH
+2026-08,North Scotland,lookup_region,no,WATCH,1,6,4,0.67,1,0,1,1,1,HIGH
+2026-08,North Wales - West,lookup_region,no,WATCH,1,6,3,0.5,1,0,1,1,1,HIGH
+2026-08,Somerset,lookup_region,no,WATCH,2,6,3,0.5,1,0,2,2,1,HIGH
+2026-08,South West,lookup_region,no,WATCH,1,6,3,0.5,1,0,1,1,1,HIGH
+2026-08,Yorkshire - East,lookup_region,no,WATCH,1,6,3,0.5,1,0,1,1,1,HIGH
+2026-08,Bristol & Bath,lookup_region,no,REJECT,1,6,2,0.33,1,0,1,1,1,HIGH
+2026-08,Cumbria - North,lookup_region,no,REJECT,1,6,1,0.17,1,0,1,1,1,HIGH
+2026-08,North East - County Durham & Darlington/Hartlepool,lookup_region,no,REJECT,1,6,1,0.17,1,0,1,1,1,HIGH
+2026-08,Scotland Central - Tayside,lookup_region,no,REJECT,1,6,1,0.17,1,0,1,1,1,HIGH
