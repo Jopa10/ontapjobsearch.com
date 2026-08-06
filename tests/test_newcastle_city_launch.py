@@ -15,6 +15,10 @@ def review_rows() -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def published_job_id(review_job_id: str) -> str:
+    return review_job_id.removeprefix("jobg8-")
+
+
 class NewcastleCityLaunchTests(unittest.TestCase):
     def test_register_enables_gated_live_page(self) -> None:
         register = json.loads(
@@ -41,7 +45,7 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         )
         city_ids = {job["job_id"] for job in city_jobs}
         included_ids = {
-            row["job_id"]
+            published_job_id(row["job_id"])
             for row in review_rows()
             if row["effective_decision"] == "include"
         }
