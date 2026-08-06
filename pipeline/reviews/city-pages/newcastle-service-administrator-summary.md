@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 8
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 3
-- automatic exclude: 8
-- effective include: 12
+- automatic exclude: 9
+- effective include: 11
 - effective review: 0
-- effective exclude: 9
+- effective exclude: 10
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: The Young Women's Film Academy
 location: Newcastle / Regionwide
 source: VONNE
 job_id: vonne-173252
-reason: The stated workplace is Newcastle or explicitly includes Newcastle.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Newcastle City Council
-location: Newcastle Upon Tyne
-source: NEJobs
-job_id: nejobs-300057
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
@@ -170,7 +158,7 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 
 ## REVIEW (0)
 
-## EXCLUDE (9)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -266,6 +254,18 @@ location: Framwellgate School Durham
 source: NEJobs
 job_id: nejobs-299718
 reason: Durham belongs to a separate employment area from the Newcastle city page.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Administrator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Temporary
+location: Darlington
+source: JobG8
+job_id: jobg8-e12fcfe3-076c-47be-a30c-227026a13277
+reason: Darlington belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
