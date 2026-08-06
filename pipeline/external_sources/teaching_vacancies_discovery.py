@@ -172,9 +172,10 @@ def listing_job_urls(document: str) -> tuple[str, ...]:
 
 
 def parse_listing_page(document: str, *, page: int) -> ListingPage:
+    visible_text = poc.clean(document)
     match = re.search(
         r"Showing\s+([\d,]+)\s+to\s+([\d,]+)\s+of\s+([\d,]+)\s+results",
-        document,
+        visible_text,
         flags=re.I,
     )
     if not match:
