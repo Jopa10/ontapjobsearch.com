@@ -26,6 +26,7 @@ const baseRoutes = [
   '/london/service-administrator-jobs',
   '/london/outer-service-administrator-jobs',
   '/hampshire/service-administrator-jobs',
+  '/coventry-warwickshire/service-administrator-jobs',
   '/surrey/service-administrator-jobs',
   '/kent/service-administrator-jobs',
   '/sussex/service-administrator-jobs',

@@ -28,7 +28,7 @@ jobs:
         run: |
           set -euo pipefail
           report_file="$(mktemp)"
-          python -m scripts.publish_verified_pages_sussex --write | tee "$report_file"
+          python -m scripts.publish_verified_pages_coventry --write | tee "$report_file"
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Build private live-job source report
@@ -49,6 +49,7 @@ jobs:
         run: |
           set -euo pipefail
           approved_paths=(
+            "app/coventry-warwickshire/service-administrator-jobs.json"
             "app/hampshire/service-administrator-jobs.json"
             "app/kent/service-administrator-jobs.json"
             "app/london/service-administrator-jobs.json"
@@ -78,7 +79,8 @@ jobs:
           unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
             -v daily="$daily_report" \
             -v history="$history_report" \
-            '$0 != "app/hampshire/service-administrator-jobs.json" &&
+            '$0 != "app/coventry-warwickshire/service-administrator-jobs.json" &&
+             $0 != "app/hampshire/service-administrator-jobs.json" &&
              $0 != "app/kent/service-administrator-jobs.json" &&
              $0 != "app/london/service-administrator-jobs.json" &&
              $0 != "app/north-east/service-administrator-jobs.json" &&

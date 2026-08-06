@@ -53,7 +53,7 @@ jobs:
       - name: Run service-admin pipeline
         if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline_sussex
+        run: python -m scripts.service_admin_pipeline_coventry
 
       - name: Reattach approved external-source vacancies
         if: steps.slice-register.outputs.admin_service == 'true'
@@ -76,6 +76,7 @@ jobs:
           test -s pipeline/output-admin-service/london-admin-service.json
           test -s pipeline/output-admin-service/hampshire-admin-service.json
           test -s pipeline/output-admin-service/sussex-admin-service.json
+          test -s pipeline/output-admin-service/coventry-warwickshire-admin-service.json
 
       - name: Run support-worker pipeline
         if: steps.slice-register.outputs.support_worker == 'true'
