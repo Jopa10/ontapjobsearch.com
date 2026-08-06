@@ -46,3 +46,14 @@ Unresolved geography remains visible and unpublished. A missing slice-register e
 ## 2026-08-06 — publication safety
 
 The source-wide discovery module is non-publishing. It does not alter reviews, approved snapshots, JobG8 outputs, external-source composition or application JSON. Regional review, approval migration and generic daily composition remain later controlled stages on the same draft branch.
+
+## 2026-08-06 — validation outcome
+
+GitHub Actions passed:
+
+- 35 Teaching Vacancies discovery, review, approval, contract and retention tests;
+- a live smoke test of the national administration route, including its reported total and stable detail links;
+- the existing live West Yorkshire review-only preview and live-site isolation checks;
+- the complete slice-register test suite, including the new East Yorkshire CANDIDATE row.
+
+The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup, and the full checks then passed.
