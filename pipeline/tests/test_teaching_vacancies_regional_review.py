@@ -124,9 +124,22 @@ def test_expired_vacancy_drops_to_hard_pass() -> None:
     assert records[0].vacancy.classification_reason == "Expired, closed or invalid deadline"
 
 
-def test_reviewable_missing_salary_blocks_region() -> None:
-    with pytest.raises(ValueError, match="no salary or pay scale"):
-        classify([routed_row("missing-pay", salary="")])
+def test_reviewable_missing_salary_hard_passes_only_that_vacancy() -> None:
+    records = classify(
+        [
+            routed_row("missing-pay", salary=""),
+            routed_row("normal-pay", salary="£25,000"),
+        ]
+    )
+    by_id = {row.vacancy.source_job_id: row for row in records}
+
+    assert len(records) == 2
+    assert review.decision_for(by_id["missing-pay"]) == "HARD_PASS"
+    assert (
+        by_id["missing-pay"].vacancy.classification_reason
+        == "Missing salary or pay scale"
+    )
+    assert review.decision_for(by_id["normal-pay"]) == "SELECTED"
 
 
 def legacy_summary_block(
