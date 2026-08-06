@@ -10,6 +10,7 @@ on:
       - "pipeline/external_sources/teaching_vacancies_regional_approved.py"
       - "pipeline/external_sources/compose_teaching_vacancies_regional.py"
       - "pipeline/external_sources/TEACHING_VACANCIES_UK_WIDE_DECISIONS.md"
+      - "pipeline/external_sources/TEACHING_VACANCIES_REGIONAL_PLAYBOOK.md"
       - "pipeline/external_sources/teaching_vacancies_poc.py"
       - "pipeline/external_sources/teaching_vacancies_etl.py"
       - "pipeline/external_sources/teaching_vacancies_approved.py"
