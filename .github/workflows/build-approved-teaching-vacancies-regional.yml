@@ -1,0 +1,213 @@
+name: Build approved Teaching Vacancies regional snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Exact Ontap region from the slice register
+        required: true
+        type: string
+      approval:
+        description: Type PUBLISH after reviewing that region's current summary
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-regional-snapshot:
+    name: Approve one Teaching Vacancies region
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check explicit approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test packages
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Resolve and validate requested LIVE region
+        id: region
+        env:
+          REGION: ${{ inputs.region }}
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+
+          from external_sources.regional_contracts import (
+              CATEGORY_ADMIN_SERVICE,
+              load_slice_authorities,
+              publishable_region,
+          )
+          from external_sources.teaching_vacancies_regional_review import region_slug
+
+          region = os.environ["REGION"].strip()
+          authorities = load_slice_authorities(
+              Path("registers/region_category_slice_register.csv")
+          )
+          if not publishable_region(
+              authorities,
+              region=region,
+              category=CATEGORY_ADMIN_SERVICE,
+          ):
+              raise SystemExit(
+                  f"STOP: {region!r} is not a LIVE admin_service slice."
+              )
+          slug = region_slug(region)
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"slug={slug}\n")
+          print(f"Approved workflow target: {region} ({slug})")
+          PY
+
+      - name: Run controlled regional approval and composition tests
+        working-directory: pipeline
+        run: |
+          python -m pytest \
+            tests/test_teaching_vacancies_regional_approved.py \
+            tests/test_compose_teaching_vacancies_regional.py \
+            tests/test_teaching_vacancies_regional_integration.py \
+            tests/test_teaching_vacancies_workflow_switch.py \
+            -q
+
+      - name: Verify exact regional review exists
+        env:
+          SLUG: ${{ steps.region.outputs.slug }}
+        run: |
+          test -s "pipeline/reviews/external/teaching-vacancies/${SLUG}-admin-service-review.csv"
+          test -s "pipeline/reviews/external/teaching-vacancies/${SLUG}-admin-service-summary.md"
+
+      - name: Build verified regional approved snapshot
+        env:
+          SLUG: ${{ steps.region.outputs.slug }}
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_regional_approved \
+            --review-csv "reviews/external/teaching-vacancies/${SLUG}-admin-service-review.csv" \
+            --summary-md "reviews/external/teaching-vacancies/${SLUG}-admin-service-summary.md" \
+            --write-approved-json \
+            --confirm-approved PUBLISH
+
+      - name: Compose only the approved region
+        env:
+          REGION: ${{ inputs.region }}
+        working-directory: pipeline
+        run: |
+          python -m external_sources.compose_teaching_vacancies_regional \
+            --region "$REGION" \
+            --write
+
+      - name: Verify snapshot, evidence, composition and live-site isolation
+        env:
+          REGION: ${{ inputs.region }}
+          SLUG: ${{ steps.region.outputs.slug }}
+        run: |
+          test -s "pipeline/output-external/teaching-vacancies-regional/${SLUG}-admin-service.json"
+          test -s "pipeline/manifests/external/teaching-vacancies/approved/${SLUG}-admin-service-evidence.json"
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          region = os.environ["REGION"].strip()
+          slug = os.environ["SLUG"].strip()
+          snapshot_path = Path(
+              "pipeline/output-external/teaching-vacancies-regional"
+          ) / f"{slug}-admin-service.json"
+          evidence_path = Path(
+              "pipeline/manifests/external/teaching-vacancies/approved"
+          ) / f"{slug}-admin-service-evidence.json"
+          snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+          evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+          if evidence.get("region") != region or evidence.get("slice_status") != "LIVE":
+              raise SystemExit("STOP: regional approval evidence has wrong authority")
+          approved_ids = {row["job_id"] for row in snapshot}
+
+          matching = []
+          for path in Path("pipeline/output-admin-service").glob("*.json"):
+              rows = json.loads(path.read_text(encoding="utf-8"))
+              base_regions = {
+                  str(row.get("region", "")).strip()
+                  for row in rows
+                  if str(row.get("source", "")).strip().casefold()
+                  != "teaching vacancies"
+                  and str(row.get("region", "")).strip()
+              }
+              if base_regions == {region}:
+                  matching.append((path, rows))
+          if len(matching) != 1:
+              raise SystemExit(
+                  f"STOP: expected one current base output for {region}; found {len(matching)}"
+              )
+          output_path, combined = matching[0]
+          combined_ids = {row["job_id"] for row in combined}
+          if not approved_ids <= combined_ids:
+              raise SystemExit(
+                  "STOP: combined regional output is missing approved Teaching Vacancies IDs"
+              )
+          if not any(
+              str(row.get("source", "")).strip().casefold()
+              != "teaching vacancies"
+              for row in combined
+          ):
+              raise SystemExit("STOP: combined regional output is external-only")
+          print(f"Approved Teaching Vacancies rows: {len(snapshot)}")
+          print(f"Combined output: {output_path} ({len(combined)} rows)")
+          PY
+          git diff --exit-code -- app
+
+      - name: Commit approved evidence and combined regional output only
+        env:
+          SLUG: ${{ steps.region.outputs.slug }}
+        run: |
+          set -euo pipefail
+          approved_snapshot="pipeline/output-external/teaching-vacancies-regional/${SLUG}-admin-service.json"
+          approved_evidence="pipeline/manifests/external/teaching-vacancies/approved/${SLUG}-admin-service-evidence.json"
+          git add -- \
+            "$approved_snapshot" \
+            "$approved_evidence" \
+            pipeline/output-admin-service/*.json
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No approved regional Teaching Vacancies changes to commit"
+            exit 0
+          fi
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk -v snapshot="$approved_snapshot" -v evidence="$approved_evidence" '$0 != snapshot && $0 != evidence && $0 !~ /^pipeline\/output-admin-service\/.*\.json$/'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside approved regional outputs:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build approved Teaching Vacancies snapshot for ${{ inputs.region }}"
+          git push origin main
+
+      - name: Next step
+        run: |
+          {
+            echo "## Regional Teaching Vacancies snapshot built"
+            echo
+            echo "Region: ${{ inputs.region }}"
+            echo "The approved snapshot, evidence and combined pipeline output were committed."
+            echo "Run the normal verified publisher only after checking the combined count."
+          } >> "$GITHUB_STEP_SUMMARY"

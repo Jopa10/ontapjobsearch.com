@@ -45,6 +45,7 @@ jobs:
         run: |
           python -m external_sources.compose_northeast_admin --write
           python -m external_sources.compose_west_yorkshire_admin --write
+          python -m external_sources.compose_teaching_vacancies_regional --write
 
       - name: Verify service-admin outputs
         run: |
