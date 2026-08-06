@@ -25,6 +25,8 @@ on:
       - "pipeline/tests/test_compose_teaching_vacancies_regional.py"
       - "pipeline/tests/test_teaching_vacancies_regional_integration.py"
       - "pipeline/tests/test_teaching_vacancies_workflow_switch.py"
+      - "pipeline/tests/test_teaching_vacancies_region_filter.py"
+      - "pipeline/tests/test_teaching_vacancies_operator_workflows.py"
       - "pipeline/tests/test_teaching_vacancies_poc.py"
       - "pipeline/tests/test_teaching_vacancies_pay_fallback.py"
       - "pipeline/tests/test_teaching_vacancies_approved_publish.py"
@@ -34,6 +36,8 @@ on:
       - ".github/workflows/test-teaching-vacancies-poc.yml"
       - ".github/workflows/run-teaching-vacancies-review.yml"
       - ".github/workflows/build-approved-teaching-vacancies-output.yml"
+      - ".github/workflows/run-teaching-vacancies-regional-review.yml"
+      - ".github/workflows/build-approved-teaching-vacancies-regional.yml"
       - ".github/workflows/run-service-admin-pipeline.yml"
       - ".github/workflows/run-full-jobg8-daily-process.yml"
   workflow_dispatch:
@@ -81,6 +85,8 @@ jobs:
             tests/test_compose_teaching_vacancies_regional.py \
             tests/test_teaching_vacancies_regional_integration.py \
             tests/test_teaching_vacancies_workflow_switch.py \
+            tests/test_teaching_vacancies_region_filter.py \
+            tests/test_teaching_vacancies_operator_workflows.py \
             tests/test_teaching_vacancies_poc.py \
             tests/test_teaching_vacancies_pay_fallback.py \
             tests/test_teaching_vacancies_approved_publish.py \
