@@ -443,6 +443,27 @@ action:
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwick | £35000 - £38000 per year | HR Administrator (People Operations)
 job_id: be1214d8-345c-4c73-a076-9fa1ba0f5c8a
 ---
+## NORTH YORKSHIRE — SELECTED
+
+---
+action:
+SELECTED | Yorkshire - North | York | £25974 per year | Temporary Administrator Part time
+job_id: 5fbb0bde-7104-4279-a41d-0302a4f9ce2a
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Scarborough | £28000 - £29500 per year | Recruitment Administrator
+job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
+---
+
+## NORTH YORKSHIRE — POSSIBLES
+
+---
+action:
+POSS - NORTH YORKSHIRE | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
+job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
+---
 ## ACTIVE MANUAL ACTIONS
 
 _No active manual actions outside the selected/possible groups._
