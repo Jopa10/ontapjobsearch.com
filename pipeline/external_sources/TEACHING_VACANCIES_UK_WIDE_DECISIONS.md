@@ -1,6 +1,6 @@
 # Teaching Vacancies source-wide design decisions
 
-This record captures decisions made while converting the completed West Yorkshire Teaching Vacancies implementation into a reusable Ontap external-source process. It is a development record for the eventual cradle-to-grave playbook.
+This record captures decisions made while converting the completed West Yorkshire Teaching Vacancies implementation into a reusable Ontap external-source process. The operating instructions are in `TEACHING_VACANCIES_REGIONAL_PLAYBOOK.md`.
 
 ## 2026-08-06 — source scope
 
@@ -43,17 +43,44 @@ No replacement central registry is introduced.
 
 Unresolved geography remains visible and unpublished. A missing slice-register entry never implies LIVE.
 
-## 2026-08-06 — publication safety
+## 2026-08-06 — review and migration
 
-The source-wide discovery module is non-publishing. It does not alter reviews, approved snapshots, JobG8 outputs, external-source composition or application JSON. Regional review, approval migration and generic daily composition remain later controlled stages on the same draft branch.
+The factual manifest is routed before classification. Separate reviews are generated for every encountered Ontap region and compare vacancies only with current JobG8 rows from that region.
+
+The completed West Yorkshire decisions are migrated only when stable source ID and all material review facts match. A selected legacy ID must also exist in the legacy approved snapshot. Blank legacy POSS decisions remain blank; changed records require a new review.
+
+## 2026-08-06 — approval and composition
+
+Approved snapshots are separate by region and may be created only for an explicitly LIVE admin/service slice. The approved CSV/Markdown set, actions, fingerprints, deadlines and evidence hashes must reconcile.
+
+The generic composer is region-neutral and identifies regions from current output rows. It replaces only Teaching Vacancies rows, preserves JobG8 and other external sources, blocks empty or external-only overwrites, and supports a one-region filter for approval runs.
+
+The established North East and West Yorkshire compositors remain first in the daily workflow. The generic composer runs afterwards and is dormant unless a verified regional snapshot exists. This preserves an immediate rollback path.
+
+## 2026-08-06 — operator workflows
+
+Two new controlled workflows implement the operating process:
+
+- **Run Teaching Vacancies regional review** performs complete England-wide discovery, routing and separate regional reviews, and commits review evidence only.
+- **Build approved Teaching Vacancies regional snapshot** approves one exact LIVE region after `PUBLISH` confirmation, writes its snapshot/evidence, and composes only that region.
+
+The legacy West Yorkshire review and approval workflows remain available during the compatibility period.
 
 ## 2026-08-06 — validation outcome
 
-GitHub Actions passed:
+GitHub Actions validate:
 
-- 35 Teaching Vacancies discovery, review, approval, contract and retention tests;
-- a live smoke test of the national administration route, including its reported total and stable detail links;
-- the existing live West Yorkshire review-only preview and live-site isolation checks;
-- the complete slice-register test suite, including the new East Yorkshire CANDIDATE row.
+- complete source-wide discovery and live national-route parsing;
+- 1,230 factual mappings from the real geographic workbook, including LocationFallback;
+- routing, unresolved handling and LIVE/CANDIDATE controls;
+- strict West Yorkshire decision migration and blank-POSS preservation;
+- separate regional approval snapshots and tamper evidence;
+- generic multi-region composition, one-region isolation and expiry/deduplication;
+- exact West Yorkshire old/new output equivalence and rollback;
+- coexistence with NEJobs and VONNE;
+- compatibility with the existing verified publisher;
+- workflow ordering, fallback retention and dormant behavior without snapshots;
+- the existing live West Yorkshire review preview and live-site isolation; and
+- the complete slice-register suite, including Yorkshire East as CANDIDATE.
 
-The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup, and the full checks then passed. A regression fixture now includes marked-up result counts so the issue cannot silently return.
+The live-route test initially exposed HTML markup around the result-range text. The parser was corrected to validate visible page text rather than brittle raw markup. CI also exposed and fixed a blank-action parser that could otherwise absorb the next review line. Both cases now have regression coverage.
