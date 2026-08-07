@@ -128,7 +128,7 @@ def test_live_snapshot_includes_selected_and_excludes_blank_poss(
             now=NOW,
         )
     )
-    rows = approval.approved_output_rows(loaded, region=metadata.region)
+    rows = approval.approved_output_rows(loaded, region=metadata.region, now=NOW)
 
     assert metadata.slice_status == "LIVE"
     assert {row["job_id"] for row in rows} == {
@@ -212,19 +212,19 @@ def test_changed_migrated_job_requires_explicit_action(tmp_path: Path) -> None:
         summary_md,
         now=NOW,
     )
-    assert approval.approved_output_rows(loaded, region=metadata.region)
+    assert approval.approved_output_rows(loaded, region=metadata.region, now=NOW)
 
 
-def test_expired_selected_job_is_blocked(tmp_path: Path) -> None:
+def test_expired_selected_job_is_omitted_from_approved_snapshot(tmp_path: Path) -> None:
     records = [make_record("expired", closing_date="2026-08-05T17:00:00+01:00")]
     review_csv, summary_md = write_review(tmp_path, records)
 
-    with pytest.raises(ValueError, match="expired or closed"):
-        approval.validate_review_for_approval(
-            review_csv,
-            summary_md,
-            now=NOW,
-        )
+    metadata, loaded, _, _ = approval.validate_review_for_approval(
+        review_csv,
+        summary_md,
+        now=NOW,
+    )
+    assert approval.approved_output_rows(loaded, region=metadata.region, now=NOW) == []
 
 
 def test_region_specific_paths_do_not_replace_legacy_snapshot() -> None:
@@ -250,7 +250,7 @@ def test_evidence_binds_review_summary_and_snapshot(tmp_path: Path) -> None:
             now=NOW,
         )
     )
-    rows = approval.approved_output_rows(loaded, region=metadata.region)
+    rows = approval.approved_output_rows(loaded, region=metadata.region, now=NOW)
     snapshot = approval.snapshot_bytes(rows)
     evidence = json.loads(
         approval.evidence_bytes(
@@ -290,7 +290,7 @@ def test_review_from_yesterday_is_still_approvable(tmp_path: Path) -> None:
         now=NOW,
     )
     assert metadata.review_date == "2026-08-05"
-    assert approval.approved_output_rows(loaded, region=metadata.region)
+    assert approval.approved_output_rows(loaded, region=metadata.region, now=NOW)
 
 
 def test_review_older_than_two_days_is_blocked(tmp_path: Path) -> None:
