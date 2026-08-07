@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
 review_date: 2026-08-07
-review_fingerprint: de6a1aec19b95e5be27305f4a9355e398eb146922048d4c54f810378c2342951
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: a22bda1b1c35a7f59be7710a998c2855db3b133911b22f633ec5e11b088981b3
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Ash Vale, South East, GU12 5PX | £7,244 - £7,898 actual (£23,859 - £26, 014 FTE ) | Admin Assistant
+employer: Holly Lodge Primary Academy
+closing_date: 2026-08-21T23:59:59+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0eb60d863cb6729e7056a13b963af7ece68fa536dee5e3cd0f3fe82c64cd7ecd
+source: Teaching Vacancies
+source_job_id: admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
+---
 
 ---
 action: 
@@ -48,6 +63,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-assista
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-matthew-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-three-rivers-academy) — Insufficient admin/service evidence.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-kite-academy-trust) — Manager title salary ceiling £55,473 is not below £28,000.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-kite-academy-trust-ash-vale-not-recorded) — Manager title salary ceiling £55,473 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-matthew-s-cofe-primary-school) — Manager title salary ceiling £29,725 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-greensand-multi-academy-trust) — Manager title salary ceiling £32,867 is not below £28,000.

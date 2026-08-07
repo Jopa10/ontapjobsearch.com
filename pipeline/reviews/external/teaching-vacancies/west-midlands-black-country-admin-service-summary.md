@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 31850e38685cf17823b96c54ea6e4930850ad603e7ffe4744332bde351caf115
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: UNREGISTERED

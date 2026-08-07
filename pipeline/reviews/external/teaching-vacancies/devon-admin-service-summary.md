@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: cfb35df6e88f98bc432565d27a43c7ff6ddf78263efd532df675894f97e64f46
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Devon
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 23
 - Selected: 10
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -242,6 +242,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Attendance Mentor](https://teaching-vacancies.service.gov.uk/jobs/attendance-mentor-bideford-college-bideford-devon) — Insufficient admin/service evidence.
+- [First Aider](https://teaching-vacancies.service.gov.uk/jobs/first-aider-bideford-college-bideford-devon) — Insufficient admin/service evidence.
+- [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover) — Insufficient admin/service evidence.
 - [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 - [Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-9bce2eb3-1f2d-4471-843a-cfe649b37c9b) — Out-of-scope occupation: teaching assistant.

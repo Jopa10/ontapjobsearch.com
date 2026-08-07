@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: b0c7569ebfa759ba0c8f00359b094f6e9bcefb718f058796d6c677a3d2caf8b3
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 3
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 1
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -59,8 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
-- [HR Manager, Communications and Marketing Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-communications-and-marketing-lead-the-westgate-school) — Manager title salary ceiling £36,269 is not below £28,000.
 - [People Partner (Central, Portsmouth and Sussex)](https://teaching-vacancies.service.gov.uk/jobs/people-partner-central-portsmouth-and-sussex) — Insufficient admin/service evidence.
 
 ## Safety boundary

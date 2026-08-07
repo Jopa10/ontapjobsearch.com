@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
 review_date: 2026-08-07
-review_fingerprint: 58c7086ac2e34f1e9608e7b4c48aa3db0725fde7b3c1d370c2074c2d037143d9
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 7176ef4d530d91b13df901a072299948a82754d7b93c24f2d2f7d4f495a9378a
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 15
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: digital-marketing-administrator-filton-avenue-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
 ---
 
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £36,363.00 - £39,152.00 Annually (FTE) Actual salary £33,683 to £36,266 per year, term time only plus 20 additional days | PA to Principal/HR Lead
+employer: Fairfield High School
+closing_date: 2026-08-30T23:59:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e9f2593884ab273dc5fda56b23d3f20e59611b92e241aad7c1bb708e93ce5f64
+source: Teaching Vacancies
+source_job_id: pa-to-principal-hr-lead-fairfield-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-lead-fairfield-high-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -86,6 +101,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-adm
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-joseph-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-nicholas-of-tolentine-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-patrick-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-teresa-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 
 ## Safety boundary
 

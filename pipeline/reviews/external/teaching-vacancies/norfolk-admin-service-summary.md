@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: b546ec8dd58dfaadc65d49857b55779b0a5ff12706743b80f162bebbf3b7a73e
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -106,7 +106,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 
 ## HARD_PASS
 
-- [Maths Hub Support Lead](https://teaching-vacancies.service.gov.uk/jobs/maths-hub-support-lead-inspiration-trust-norwich-not-recorded) — Insufficient admin/service evidence.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

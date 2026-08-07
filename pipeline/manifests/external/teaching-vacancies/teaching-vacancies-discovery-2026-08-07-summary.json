@@ -1,21 +1,21 @@
 {
   "contract_version": "teaching-vacancies-national-v1",
-  "generated_at": "2026-08-07T09:57:42+01:00",
+  "generated_at": "2026-08-07T11:05:43+01:00",
   "run_date": "2026-08-07",
   "source": "Teaching Vacancies",
   "source_scope": "England-wide; no Ontap regional restriction",
   "stable_sweeps": 2,
-  "records": 508,
-  "manifest_sha256": "5a5f83621d2997667cafb90cb6958b620afb123b3390f15378b32fabc8bdb88b",
+  "records": 511,
+  "manifest_sha256": "1297ec9417ecda3b1b1782fe6ca559ca15fc74f41ef74cb68d57abfb4c797187",
   "routes": [
     {
       "name": "administration-category",
       "query": "Administration, HR, data and finance",
       "url": "https://teaching-vacancies.service.gov.uk/administration-hr-data-finance-jobs",
-      "reported_total": 529,
-      "pages_fetched_per_sweep": 53,
-      "listing_occurrences_per_sweep": 529,
-      "unique_urls_per_sweep": 468
+      "reported_total": 532,
+      "pages_fetched_per_sweep": 54,
+      "listing_occurrences_per_sweep": 532,
+      "unique_urls_per_sweep": 473
     },
     {
       "name": "keyword:administrator",

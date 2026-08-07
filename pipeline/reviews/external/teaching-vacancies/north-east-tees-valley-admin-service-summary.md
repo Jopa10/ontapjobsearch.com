@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: f15341515aec1d3b0ae274aa6fb7256cdd1994988a2e525624feec1b61f35efe
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -62,6 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-t
 - [MAT HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/mat-hr-business-partner) — Insufficient admin/service evidence.
 - [People Development and Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/people-development-and-engagement-lead-river-tees-multi-academy-trust) — Insufficient admin/service evidence.
 - [School Business Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside) — Manager title salary ceiling £32,359 is not below £28,000.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-legacy-learning-trust) — Insufficient admin/service evidence.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-river-tees-multi-academy-trust-middlesbrough-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 
 ## Safety boundary

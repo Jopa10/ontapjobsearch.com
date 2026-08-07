@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 7c4217bc00f9f82db16ea896f0e659dcc0f5cb026583551e2b0fceac14157197
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -78,8 +78,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-
 
 - [EHCP Co-ordinator, Consultations & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-consultations-admin-officer) — Insufficient admin/service evidence.
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-ce-academy) — Manager title salary ceiling £33,142 is not below £28,000.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

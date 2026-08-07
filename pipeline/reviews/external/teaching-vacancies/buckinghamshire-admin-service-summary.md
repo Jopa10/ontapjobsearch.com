@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
 review_date: 2026-08-07
-review_fingerprint: f2b997ec909c860f9db2b61a59a60a652c0d3b602379e71593f8fdd76be891fc
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: e8ca503a46a4e656755aaf4da71090ced4082b44367b8ee9bf9978ca18ec2be6
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 19
 - Selected: 11
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -190,6 +190,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 
 ---
 action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK11 4BA | £25,989.00 Annually (FTE) C1 £25,989 full time equivalent | Business Support
+employer: Fairfields Primary School
+closing_date: 2026-08-10T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: d88979f62505c26698f0632887dc3c61bf9ad2ba1e4b107436f43833807a393c
+source: Teaching Vacancies
+source_job_id: business-support-2996edd1-fa9e-4a32-bebb-c3cc93edbca4
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-2996edd1-fa9e-4a32-bebb-c3cc93edbca4
+---
+
+---
+action: 
 POSS | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £26,923.00 Annually (Actual) | Office Administrator: EVC and Cover Manager
 employer: Kents Hill Park all-through school
 closing_date: 2026-09-08T12:00:00+01:00
@@ -212,7 +227,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Estates Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-programme-manager-chiltern-way-academy-trust) — Manager title salary ceiling £46,650 is not below £28,000.
 - [Exams and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-macintyre-academies) — Missing salary or pay scale.
+- [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire) — Manager title salary ceiling £47,181 is not below £28,000.
 
 ## Safety boundary
 

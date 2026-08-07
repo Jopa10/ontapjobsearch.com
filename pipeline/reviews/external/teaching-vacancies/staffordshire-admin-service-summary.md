@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
 review_date: 2026-08-07
-review_fingerprint: a9a22a48e6a1e3761021365e233e42c469396814eac861531602c6efd83e88c4
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 311a96bdb95eaf7abf8cdb0cc842689d7b708c6f9a724b2a2f3e1d58e6c72e43
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 2cb410dfa298e2cc638ba20c2c7dd9caa99838ff6d160d87907fc344c1a
 source: Teaching Vacancies
 source_job_id: administration-assistant-maple-court-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maple-court-academy
----
-
----
-action: 
-SELECTED | Staffordshire | Stoke on Trent, West Midlands, ST6 6JZ | £28,038.34 - £31,277.68 Annually (Actual) | Attendance Officer
-employer: Ormiston Horizon Academy
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 5f8de5584d8df53232d3a9f2935ecd0b8eae6babd9d1c311d58f01595c476054
-source: Teaching Vacancies
-source_job_id: attendance-officer-ormiston-horizon-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ormiston-horizon-academy
 ---
 
 ---
@@ -124,6 +109,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Administration and Finance Assistant - Level 3](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-level-3-abbey-hill-academy-college) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-greenhall) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-ad8e5dde-4e1b-465c-bf65-4f9e50e4d838) — Insufficient admin/service evidence.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
 review_date: 2026-08-07
-review_fingerprint: 61ff2896ccf72090976b45f9a70e4b918a45db0d548e907fe6e248bff6749032
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 0827a8fac017962b0a0b04ab7841040b48d5b3f8f11de0f23d19b85a6c994ddc
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Essex
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Essex | Brentwood, East of England, CM13 2HG | £20,080.00 Annually (Actual) | Admin Assistant/Reception cover
-employer: St Martin's School Brentwood
-closing_date: 2026-08-14T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 6382b65e0cea88078aacb808dc5bd7a092daf7aa29f1f3b3ffc2e3d4b079a721
-source: Teaching Vacancies
-source_job_id: admin-assistant-reception-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-reception-cover
----
 
 ---
 action: 
@@ -126,6 +111,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-bea
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-southend-east-community-academy-trust) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-the-chelmsford-learning-partnership) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-the-basildon-upper-academy) — Insufficient admin/service evidence.
+- [Pupil Services](https://teaching-vacancies.service.gov.uk/jobs/pupil-services-the-cornelius-vermuyden-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-the-sigma-trust) — Insufficient admin/service evidence.
 

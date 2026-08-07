@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
 review_date: 2026-08-07
-review_fingerprint: 16a479024df89cabd48035e63bc431454d5f0584e35bf7d9931238f623e66f17
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: fe22291028ad8de4cb448db1540f518e72300414cf4f6835d5872d5eebfb1bfa
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -49,6 +49,21 @@ factual_fingerprint: a655379499a2c939350bd7a6dd1df624f4e919ff6e00823e5fee762de87
 source: Teaching Vacancies
 source_job_id: apprentice-administrator-braeburn-primary-and-nursery-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-braeburn-primary-and-nursery-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | Otley, Yorkshire and the Humber, LS21 2HX | £21,196 | School Office Administrator
+employer: Askwith Primary School
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab48dc847905d321e04c26024101218f0bc9297b0434c4f12d90efd9976fdfba
+source: Teaching Vacancies
+source_job_id: school-office-administrator-askwith-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-askwith-primary-school
 ---
 
 ---

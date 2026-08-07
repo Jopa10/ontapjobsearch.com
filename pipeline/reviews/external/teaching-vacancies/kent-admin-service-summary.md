@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
 review_date: 2026-08-07
-review_fingerprint: 42db948ecc667ae98ec93c71035f39255c5ae22e2cffa8d82edc088332ae8b5c
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 0009bc145789246045b909edde86dd210e3b2109aa7529776495284b97ecb5ac
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-adminis
 
 ---
 action: 
+SELECTED | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
+employer: Nore Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f90ddb2cacb224471acb87fe2628722be9a0f71024b7d52ad28de66b62b3f7e6
+source: Teaching Vacancies
+source_job_id: receptionist-nore-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
+---
+
+---
+action: 
 SELECTED | Kent | Dartford, South East, DA2 7BB | £24,361.00 - £25,750.00 Annually (Actual) FTE £26,300-£27,800 | WG6 Administrator
 employer: Wilmington Grammar School for Girls
 closing_date: 2026-08-12T23:59:00+01:00
@@ -78,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/wg6-administrator-wil
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-626d3ca3-9b34-4aca-bf67-4e9202816d3f) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-the-howard-academy-trust) — Insufficient admin/service evidence.
+- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-5e7c23e7-9011-422c-8af6-459ace63c7f0) — Insufficient admin/service evidence.
 - [Medway Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/medway-attendance-lead-barnsole-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

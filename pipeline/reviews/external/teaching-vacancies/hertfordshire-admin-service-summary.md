@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
 review_date: 2026-08-07
-review_fingerprint: 0b7647b2e21f469aa0e318d6a559e2fbd3820164885a949810e923d7259b07c6
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: d10bb99c15f400a55d3ac498dadc6daf2ee35f816ba5b6d0ab60adca9385bd61
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 7
-- POSS awaiting decision: 0
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -34,21 +34,6 @@ factual_fingerprint: 152c6578821bb1e17789081f16afb1f6dd8c70c7254ff2e15ab1798868d
 source: Teaching Vacancies
 source_job_id: administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
----
-
----
-action: 
-SELECTED | Hertfordshire | Hertford, East of England, SG14 2DG | £25,144.61 Annually (Actual) H 5 | Attendance Officer
-employer: The Sele School
-closing_date: 2026-08-11T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2659e86384fdda34f025943d2dfcfdc2479683ce5950839951a8257616ddd386
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-sele-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-sele-school
 ---
 
 ---
@@ -128,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
+employer: Danes Educational Trust
+closing_date: 2026-08-24T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: fd0eee79ace1c4f2b0b324116a0ca7502c7ad4db921ae881113ed5e75564dfeb
+source: Teaching Vacancies
+source_job_id: hr-advisor-danes-educational-trust-chorleywood-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-danes-educational-trust-chorleywood-not-recorded
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -136,7 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-holwell-primary-school) — Manager title salary ceiling £47,181 is not below £28,000.
+- [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

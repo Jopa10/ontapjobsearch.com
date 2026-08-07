@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
 review_date: 2026-08-07
-review_fingerprint: 6578e31e1dba6b58eb50968a8d0e28abefa46fe1a578e09fae4a8fadefe5bae7
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: dd6277b4a7b955bb398ffbb8daa56757792fbb717c32c2d40e347e14d539ecd8
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 20
+- Selected: 10
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: b075c6ce9b741c3a8cbb92cd3d5bdf1ee09bccb5d8dd36e9d47d4f897f1
 source: Teaching Vacancies
 source_job_id: academy-administrator-havelock-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-havelock-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Spilsby, East Midlands, PE23 5HU | £25,185.00 - £25,815.00 Annually (FTE) NJC04 : £25185pa FTE (£22,121pa pro rata) - pay review pending | Academy Administrator
+employer: The Eresby School, Spilsby
+closing_date: 2026-08-10T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 5e20c34f86de18c0a93ca4a46921bc342a01c0aa8b801f2ab181dbf6cb0ed5c4
+source: Teaching Vacancies
+source_job_id: academy-administrator-the-eresby-school-spilsby
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-the-eresby-school-spilsby
 ---
 
 ---
@@ -212,7 +227,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 - [Attendance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-lincoln-castle-academy) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-william-lovell-church-of-england-academy) — Insufficient admin/service evidence.
+- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambridge-park-academy-grimsby-north-east-lincolnshire) — Manager title salary ceiling £32,061 is not below £28,000.
+- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-lincoln-anglican-academy-trust) — Insufficient admin/service evidence.
 - [Senior Administrative Officer (15 hours) - Ulceby CofE Primary School](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-15-hours-ulceby-cofe-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

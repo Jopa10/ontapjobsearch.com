@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: e1831b06e12c0e72d404b979868abb62fbb236ba9d85b9560369476cce0a421a
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: UNREGISTERED

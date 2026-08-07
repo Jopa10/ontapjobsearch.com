@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
 review_date: 2026-08-07
-review_fingerprint: e51163ad3c487a7f776b0f6d1e3c1fec2806a52c6ad3c5a4a2afe4b8b353cc5f
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 021b46ad5a7d734b3d48528b2e05f6d38481ce523425e680c81df5dc3c19df67
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 10
-- POSS awaiting decision: 2
+- Records: 21
+- Selected: 12
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
 
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-pole
 
 ---
 action: 
+SELECTED | Berkshire | Reading, South East, RG10 9AX | £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11 | School Secretary (part time)
+employer: Polehampton Church of England Junior School
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Clear admin/service title: school secretary, secretary
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 50b7de5b190c1c166b60222edef2db654a4bfbbd8f0b1e869176b260f7c69833
+source: Teaching Vacancies
+source_job_id: school-secretary-part-time-polehampton-church-of-england-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school
+---
+
+---
+action: 
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
 employer: The Windsor Boys' School
 closing_date: 2026-08-31T23:59:00+01:00
@@ -139,6 +154,21 @@ factual_fingerprint: d67290fae0c54aca400277bea0bdcd9874c77a5c85fcccfa832304aede9
 source: Teaching Vacancies
 source_job_id: sixth-form-administrator-the-windsor-boys-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-windsor-boys-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Sandhurst, South East, GU47 0SD | £10,672.00 Annually (Actual) Monday – Friday (18.5 hours per week, daily hours to be agreed, e.g. morning focus to support peak school hours) | Supported Learning Admin Assistant
+employer: Sandhurst School
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 8426a621d9ba518c5fefa434726bac286ac3c1db1f0290df28d4eb615ba1078a
+source: Teaching Vacancies
+source_job_id: supported-learning-admin-assistant-sandhurst-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/supported-learning-admin-assistant-sandhurst-school
 ---
 
 ---
@@ -186,6 +216,21 @@ factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e000
 source: Teaching Vacancies
 source_job_id: hr-level-3-apprenticeship
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship
+---
+
+---
+action: 
+POSS | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
+employer: The Keys Academy Trust
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
+source: Teaching Vacancies
+source_job_id: tkat-hr-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
 ---
 
 ---

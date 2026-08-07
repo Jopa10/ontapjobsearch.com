@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: efdbb6a6929b71bf2d52fc5d4afbe7beeda8e0b43079de3cc231e8a0953eb77c
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: UNREGISTERED

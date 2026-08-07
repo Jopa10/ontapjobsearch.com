@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 94f577c57e073fd8a6dd1441c218b06b850452299a6a490a1a12b89508f24a47
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -48,7 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 - [Assistant Management Accountant based at Ram Mill, Oldham, OL9 9RH](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-based-at-ram-mill-oldham-ol9-9rh) — Insufficient admin/service evidence.
 - [Finance Apprentice based with Central Team at Ram Mill, Oldham, OL9 9RH](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-based-with-central-team-at-ram-mill-oldham-ol9-9rh) — Insufficient admin/service evidence.
-- [Senior Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/senior-human-resources-advisor-kingfisher-learning-trust) — Insufficient admin/service evidence.
+- [School Business Manager (SBM2)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sbm2) — Manager title salary ceiling £39,862 is not below £28,000.
 
 ## Safety boundary
 

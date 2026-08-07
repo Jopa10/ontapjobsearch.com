@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: fb58a91c3a6de334b5ca7cd7e183b322dcb8847161833ba74f445205b027759b
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assis
 
 ## HARD_PASS
 
+- [PA to Senior Leadership Team & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-cover-manager) — Manager title salary ceiling £37,280 is not below £28,000.
 - [Premises Officer (Glossop Region)](https://teaching-vacancies.service.gov.uk/jobs/premises-officer-glossop-region-436f7435-0d87-4e74-9c4d-8d32e61230f9) — Insufficient admin/service evidence.
 - [School Business Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-heath-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hollingwood-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.

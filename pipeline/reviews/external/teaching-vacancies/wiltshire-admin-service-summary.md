@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
 review_date: 2026-08-07
-review_fingerprint: 5bbfd0d0ebfe2c0ce58276c62fdb94fda6ee519d8d7d75b58a3a704f3996d870
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 76a98f872406bed3a1ebef016b8c6e326d464db8a46cab0a572df5919cb2d7af
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
@@ -96,6 +96,21 @@ factual_fingerprint: bae439fa258dd730bf3e81ecd3380d311521bf06699190ddf06e5a2503f
 source: Teaching Vacancies
 source_job_id: admin-officer-queen-s-crescent-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
+---
+
+---
+action: 
+POSS | Wiltshire | Swindon, SN1 2LB | £31,525.09 - £35,570.32 Annually (Actual) | HR Operations Officer
+employer: The White Horse Federation
+closing_date: 2026-08-17T23:59:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 9e72f356122fe54daad9398dc94a45ea1039a316e533326b495b5a922c1d7822
+source: Teaching Vacancies
+source_job_id: hr-operations-officer-the-white-horse-federation-swindon-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer-the-white-horse-federation-swindon-not-recorded
 ---
 
 ## EXCLUDED BY REVIEW

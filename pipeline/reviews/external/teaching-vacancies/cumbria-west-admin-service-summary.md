@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - West
 
 review_date: 2026-08-07
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 175b5a0f446b8ee3148693311742e31be4b8eaabedcf6c1c8b65db1455a1ece2
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 1
 - Selected: 0
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -25,7 +25,20 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Cumbria - West | Workington, North West, CA14 3EE | £32,061.00 - £32,597.00 Annually (FTE) Pro rata salary for term time plus working [Pay Award pending] | Executive Assistant & SLT Operations Officer
+employer: St Josephs Catholic High School, Workington
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e3af3644cbe5facaa99c31162baecc42315ba140bef3c4f8391cc36c8fca7ff2
+source: Teaching Vacancies
+source_job_id: executive-assistant-slt-operations-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-slt-operations-officer
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -33,7 +46,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-st-josephs-catholic-high-school-workington) — Manager title salary ceiling £32,597 is not below £28,000.
+- None.
 
 ## Safety boundary
 

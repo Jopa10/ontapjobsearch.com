@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 1d994864911c56961c65bf52b902410dde014a9978d63d31326b8f2620a62e15
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -77,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ## HARD_PASS
 
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-st-joseph-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Governance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/governance-business-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

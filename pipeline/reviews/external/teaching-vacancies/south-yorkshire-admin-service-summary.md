@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
 review_date: 2026-08-07
-review_fingerprint: d2ef423eb325cf4c8d5cc0c6851ef1862b2aac1b66c7a39c087fdab85ab324b8
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+review_fingerprint: 034bc40403e9a6f4ff3406f8da08c52ee8ca972514d3c8477a4afa237679c315
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 34
-- Selected: 12
+- Records: 31
+- Selected: 11
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 22
+- Hard pass: 20
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
-employer: The Rowan School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: admin clerical officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a11851681c25b233b9f9725a6d0ab9dc5dd163a371597d66bbdc33febc9dce5b
-source: Teaching Vacancies
-source_job_id: admin-clerical-officer-level-2-rowan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
 
 ---
 action: 
@@ -219,10 +204,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-as
 - [Communications, Marketing & Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-engagement-lead) — Insufficient admin/service evidence.
 - [Compliance and Complaints Manager](https://teaching-vacancies.service.gov.uk/jobs/compliance-and-complaints-manager-chorus-education-trust) — Manager title salary ceiling £51,356 is not below £28,000.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
-- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
-- [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Exams & Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-officer-e-act-parkwood-academy) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-isle-education-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-isle-education-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust) — Manager title salary ceiling £53,052 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school) — Insufficient admin/service evidence.
@@ -231,6 +213,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-as
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Learning & Development Coordinator](https://teaching-vacancies.service.gov.uk/jobs/learning-development-coordinator) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncaster-utc-doncaster) — Manager title salary ceiling £39,153 is not below £28,000.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Manager title salary ceiling £38,502 is not below £28,000.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [Temporary Family Support Worker](https://teaching-vacancies.service.gov.uk/jobs/temporary-family-support-worker) — Insufficient admin/service evidence.
 

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: e36d0508f9b184904e97eab6a6a488ed570ee9cee5136b46cbac1ff5e76bd637
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -92,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-the-lowry-academy) — Manager title salary ceiling £46,398 is not below £28,000.
 - [Payroll and Pensions Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-officer-bright-futures-educational-trust) — Insufficient admin/service evidence.
 - [School Trips & Administrative Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-trips-administrative-support-assistant) — Insufficient admin/service evidence.
+- [Year Coordinator](https://teaching-vacancies.service.gov.uk/jobs/year-coordinator-whalley-range-11-18-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

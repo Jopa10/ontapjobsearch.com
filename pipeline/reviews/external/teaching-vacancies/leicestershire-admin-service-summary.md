@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 017d0d2ea8170041561ec20a6609109e4f90e70be232ba61023b1b508af57dcd
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -71,7 +71,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 - [Music Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/music-support-assistant) — Insufficient admin/service evidence.
 - [Pre - School Deputy Manager (PAR219BC)](https://teaching-vacancies.service.gov.uk/jobs/pre-school-deputy-manager-par219bc) — Manager title salary ceiling £28,146 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
-- [Trust Data Analyst and Insights Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-data-analyst-and-insights-lead) — Insufficient admin/service evidence.
+- [School Office Lead](https://teaching-vacancies.service.gov.uk/jobs/school-office-lead) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

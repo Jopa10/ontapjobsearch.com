@@ -11,12 +11,12 @@ Edit only the `action:` line in each block:
 
 ## TOTALS
 
-- All routed roles: **487**
-- REVIEW NOW (LIVE regions): **156**
-- DEFERRED - REGION NOT LIVE: **331**
-- SELECTED: **64**
+- All routed roles: **511**
+- REVIEW NOW (LIVE regions): **163**
+- DEFERRED - REGION NOT LIVE: **348**
+- SELECTED: **67**
 - POSS: **7**
-- HARD PASS / EXCLUDED: **85**
+- HARD PASS / EXCLUDED: **89**
 
 ## HAMPSHIRE — SELECTED
 
@@ -70,6 +70,17 @@ reason: Clear admin/service title: administrator
 factual_fingerprint: 64f2cc14a637151ca76929681b797bdb64435551fb59bb9b5a25dc52e474139d
 source_job_id: pupil-records-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-administrator
+---
+
+---
+action:
+SELECTED | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
+employer: Nore Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+factual_fingerprint: f90ddb2cacb224471acb87fe2628722be9a0f71024b7d52ad28de66b62b3f7e6
+source_job_id: receptionist-nore-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
 ---
 
 ---
@@ -315,6 +326,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-c
 
 ---
 action:
+SELECTED | London | London, London, SE4 1DF | Scale 3 | School Admin Assistant
+employer: Myatt Garden Primary School
+closing_date: 2026-08-24T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+factual_fingerprint: 6a4fe6bb386bc5ea740a3b6c6414880539ff88e675f6d89ed42c3fd81b6a6267
+source_job_id: school-admin-assistant-myatt-garden-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-myatt-garden-primary-school-london
+---
+
+---
+action:
 SELECTED | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | School Administrator
 employer: Beecholme Primary School
 closing_date: 2026-08-30T23:59:59+01:00
@@ -369,17 +391,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trainee-compliance-an
 ---
 
 ## LONDON — POSSIBLES
-
----
-action:
-POSS | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
-employer: Chaffinch Brook School
-closing_date: 2026-08-14T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
-source_job_id: admin-assistant-chaffinch-brook-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
----
 
 ---
 action:
@@ -462,6 +473,17 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## SURREY — SELECTED
+
+---
+action:
+SELECTED | Surrey | Ash Vale, South East, GU12 5PX | £7,244 - £7,898 actual (£23,859 - £26, 014 FTE ) | Admin Assistant
+employer: Holly Lodge Primary Academy
+closing_date: 2026-08-21T23:59:59+01:00
+reason: Clear admin/service title: admin assistant
+factual_fingerprint: 0eb60d863cb6729e7056a13b963af7ece68fa536dee5e3cd0f3fe82c64cd7ecd
+source_job_id: admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
+---
 
 ---
 action:
@@ -605,6 +627,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administra
 
 ---
 action:
+SELECTED | Yorkshire - North | Otley, Yorkshire and the Humber, LS21 2HX | £21,196 | School Office Administrator
+employer: Askwith Primary School
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+factual_fingerprint: ab48dc847905d321e04c26024101218f0bc9297b0434c4f12d90efd9976fdfba
+source_job_id: school-office-administrator-askwith-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-askwith-primary-school
+---
+
+---
+action:
 SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO10 5ZA | £32,536-£34,840 | Sixth Form Supervisor and Administrator
 employer: Archbishop Holgate's School, A Church of England Academy
 closing_date: 2026-08-18T08:00:00+01:00
@@ -623,17 +656,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## YORKSHIRE - SOUTH — SELECTED
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
-employer: The Rowan School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: admin clerical officer
-factual_fingerprint: a11851681c25b233b9f9725a6d0ab9dc5dd163a371597d66bbdc33febc9dce5b
-source_job_id: admin-clerical-officer-level-2-rowan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
 
 ---
 action:
@@ -812,13 +834,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action:
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £20,663.00 - £20,991.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Attendance
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £21,843.00 - £22,190.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Student Services
 employer: All Saints Catholic College
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: business support officer
-factual_fingerprint: 092d86b32fdc738d9cecf5792fb7428abc901c2cf7aa7358fc1e1af4f5690356
-source_job_id: business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
+factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2ee495b
+source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 ---
 
 ---
@@ -900,7 +922,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 ## YORKSHIRE - WEST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
+employer: De Lacy Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Borderline school administration title: data officer
+factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
+source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+---
 
 ## YORKSHIRE - WEST — EXCLUDED BY REVIEW
 
@@ -913,49 +944,49 @@ These roles remain visible in the CSV but are not individually marked until the 
 | Region | Total | Selected | POSS | Hard pass / excluded |
 |---|---:|---:|---:|---:|
 | Bedfordshire / admin_service | 7 | 5 | 0 | 2 |
-| Berkshire / admin_service | 18 | 10 | 2 | 6 |
-| Bristol & Bath / admin_service | 13 | 3 | 0 | 10 |
-| Buckinghamshire / admin_service | 16 | 11 | 1 | 4 |
+| Berkshire / admin_service | 21 | 12 | 3 | 6 |
+| Bristol & Bath / admin_service | 15 | 4 | 0 | 11 |
+| Buckinghamshire / admin_service | 19 | 11 | 2 | 6 |
 | Cambridgeshire / admin_service | 19 | 11 | 2 | 6 |
 | Cheshire - East / admin_service | 1 | 0 | 0 | 1 |
 | Cheshire - Warrington & Halton / admin_service | 2 | 1 | 0 | 1 |
 | Cheshire - West / admin_service | 2 | 1 | 0 | 1 |
-| Cornwall / admin_service | 9 | 2 | 0 | 7 |
+| Cornwall / admin_service | 8 | 2 | 0 | 6 |
 | Cumbria - North / admin_service | 2 | 1 | 0 | 1 |
-| Cumbria - West / admin_service | 1 | 0 | 0 | 1 |
-| Derbyshire / admin_service | 7 | 3 | 0 | 4 |
-| Devon / admin_service | 21 | 10 | 4 | 7 |
+| Cumbria - West / admin_service | 1 | 0 | 1 | 0 |
+| Derbyshire / admin_service | 8 | 3 | 0 | 5 |
+| Devon / admin_service | 23 | 10 | 4 | 9 |
 | Dorset / admin_service | 5 | 3 | 1 | 1 |
 | East Midlands / admin_service | 6 | 3 | 0 | 3 |
-| Essex / admin_service | 15 | 5 | 1 | 9 |
-| Gloucestershire / admin_service | 1 | 0 | 0 | 1 |
-| Greater Manchester - Manchester & Salford / admin_service | 7 | 3 | 1 | 3 |
+| Essex / admin_service | 15 | 4 | 1 | 10 |
+| Gloucestershire / admin_service | 2 | 0 | 0 | 2 |
+| Greater Manchester - Manchester & Salford / admin_service | 8 | 3 | 1 | 4 |
 | Greater Manchester - North / admin_service | 4 | 1 | 0 | 3 |
 | Greater Manchester - South / admin_service | 2 | 1 | 0 | 1 |
 | Greater Manchester - Wigan & Bolton / admin_service | 3 | 0 | 0 | 3 |
-| Hertfordshire / admin_service | 8 | 7 | 0 | 1 |
+| Hertfordshire / admin_service | 8 | 6 | 1 | 1 |
 | Lancashire - Blackpool & Fylde / admin_service | 4 | 2 | 0 | 2 |
 | Lancashire - Central / admin_service | 1 | 0 | 0 | 1 |
 | Lancashire - East / admin_service | 3 | 1 | 0 | 2 |
 | Leicestershire / admin_service | 13 | 2 | 0 | 11 |
-| Lincolnshire / admin_service | 17 | 9 | 3 | 5 |
-| Merseyside - Liverpool / admin_service | 5 | 3 | 0 | 2 |
+| Lincolnshire / admin_service | 20 | 10 | 3 | 7 |
+| Merseyside - Liverpool / admin_service | 4 | 3 | 0 | 1 |
 | Merseyside - St Helens & Knowsley / admin_service | 1 | 1 | 0 | 0 |
 | Merseyside - Wirral / admin_service | 2 | 2 | 0 | 0 |
-| Norfolk / admin_service | 7 | 5 | 0 | 2 |
-| North East - Tees Valley / admin_service | 6 | 1 | 1 | 4 |
+| Norfolk / admin_service | 6 | 5 | 0 | 1 |
+| North East - Tees Valley / admin_service | 7 | 1 | 1 | 5 |
 | Northamptonshire / admin_service | 7 | 3 | 0 | 4 |
-| Nottinghamshire / admin_service | 16 | 5 | 1 | 10 |
-| Oxfordshire / admin_service | 15 | 3 | 0 | 12 |
+| Nottinghamshire / admin_service | 17 | 5 | 2 | 10 |
+| Oxfordshire / admin_service | 18 | 7 | 0 | 11 |
 | Rutland / admin_service | 1 | 0 | 0 | 1 |
 | Shropshire / admin_service | 2 | 0 | 1 | 1 |
 | Somerset / admin_service | 7 | 3 | 0 | 4 |
-| South West / admin_service | 2 | 0 | 0 | 2 |
-| Staffordshire / admin_service | 9 | 6 | 0 | 3 |
+| South West / admin_service | 1 | 0 | 0 | 1 |
+| Staffordshire / admin_service | 9 | 5 | 0 | 4 |
 | Suffolk / admin_service | 3 | 1 | 1 | 1 |
 | West Midlands - Birmingham & Solihull / admin_service | 15 | 8 | 1 | 6 |
 | West Midlands - Black Country / admin_service | 6 | 4 | 0 | 2 |
 | West Midlands / admin_service | 2 | 1 | 0 | 1 |
-| Wiltshire / admin_service | 9 | 4 | 1 | 4 |
-| Worcestershire / admin_service | 6 | 2 | 1 | 3 |
+| Wiltshire / admin_service | 10 | 4 | 2 | 4 |
+| Worcestershire / admin_service | 5 | 2 | 1 | 2 |
 | Yorkshire - East / admin_service | 3 | 2 | 0 | 1 |

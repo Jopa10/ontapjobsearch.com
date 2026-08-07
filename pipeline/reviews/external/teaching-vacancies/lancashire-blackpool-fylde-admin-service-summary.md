@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: d9bc7b9f2b5a1c4898f49195c949d8b40f7187252d4dc4c499eaac915886e7b2
-routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
+routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
 ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED
