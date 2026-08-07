@@ -88,6 +88,25 @@ def set_action(text: str, source_job_id: str, action: str) -> str:
     return pattern.sub(replace, text)
 
 
+def remove_block(text: str, source_job_id: str) -> str:
+    """Remove exactly one review block without spanning adjacent blocks."""
+    pattern = re.compile(r"(?ms)(^---\s*$\n)(.*?)(^---\s*$\n?)")
+    removed = False
+
+    def replace(match: re.Match[str]) -> str:
+        nonlocal removed
+        block = match.group(2)
+        if removed or f"source_job_id: {source_job_id}" not in block:
+            return match.group(0)
+        removed = True
+        return ""
+
+    result = pattern.sub(replace, text)
+    if not removed:
+        raise AssertionError(f"review block not found: {source_job_id}")
+    return result
+
+
 def read_csv(path: Path) -> dict[str, dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as handle:
         return {row["source_job_id"]: row for row in csv.DictReader(handle)}
@@ -189,12 +208,9 @@ def test_master_actions_require_every_live_review_block(tmp_path: Path) -> None:
     master_md = tmp_path / "england-wide-admin-service-summary.md"
     master_csv.write_bytes(master.master_csv_bytes(master_rows))
     text = master.master_summary_text(master_rows)
-    text = re.sub(
-        r"(?ms)^---\s*$\n.*?source_job_id: two\n.*?^---\s*$\n?",
-        "",
-        text,
-        count=1,
-    )
+    text = remove_block(text, "two")
+    assert "source_job_id: one" in text
+    assert "source_job_id: two" not in text
     master_md.write_text(text, encoding="utf-8")
 
     with pytest.raises(ValueError, match="missing 1 LIVE review block"):
