@@ -34,6 +34,7 @@ jobs:
             tests/test_teaching_vacancies_routing.py \
             tests/test_teaching_vacancies_regional_review.py \
             tests/test_teaching_vacancies_master_review.py \
+            tests/test_teaching_vacancies_master_actions.py \
             -q
 
       - name: Resolve London review date
