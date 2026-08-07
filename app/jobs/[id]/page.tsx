@@ -265,6 +265,7 @@ export default async function JobPage({ params }: PageProps) {
                 region={job.region}
                 source={job.source}
                 slicePath={job.slice_path}
+                placement="mobile"
               />
             </div>
           ) : null}
@@ -343,6 +344,7 @@ export default async function JobPage({ params }: PageProps) {
                   region={job.region}
                   source={job.source}
                   slicePath={job.slice_path}
+                  placement="desktop"
                 />
               </div>
             ) : null}
