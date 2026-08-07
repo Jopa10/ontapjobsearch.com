@@ -71,10 +71,10 @@ def build_master_rows(review_dir: Path) -> list[dict[str, str]]:
     return sorted(
         rows,
         key=lambda row: (
-            0 if row["review_scope"] == REVIEW_NOW else 1,
             {"SELECTED": 0, "POSS": 1, "EXCLUDED": 2, "HARD_PASS": 3}.get(
                 row["final_decision"], 9
             ),
+            0 if row["review_scope"] == REVIEW_NOW else 1,
             row["regional_slice"].casefold(),
             row["title"].casefold(),
             row["source_job_id"],
