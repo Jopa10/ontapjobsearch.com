@@ -345,10 +345,6 @@ def validate_review_for_approval(
             errors.append(
                 f"selected regional review ID {source_job_id} is a JobG8 duplicate"
             )
-        if not legacy_approved.vacancy_is_open(vacancy, now=now):
-            errors.append(
-                f"selected regional review ID {source_job_id} is expired or closed"
-            )
 
     if errors:
         raise ValueError(
@@ -362,10 +358,13 @@ def approved_output_rows(
     loaded: Iterable[LoadedReviewRow],
     *,
     region: str,
+    now: datetime | None = None,
 ) -> list[dict[str, str]]:
     output: list[dict[str, str]] = []
     for item in loaded:
         if item.declared_decision != "SELECTED":
+            continue
+        if not legacy_approved.vacancy_is_open(item.record.vacancy, now=now):
             continue
         row = legacy_approved.vacancy_to_published_job(item.record.vacancy)
         row["region"] = clean(region)
