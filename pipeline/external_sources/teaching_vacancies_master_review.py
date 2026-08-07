@@ -94,6 +94,31 @@ def _md(value: str) -> str:
     return value.replace("|", "\\|").replace("\n", " ").strip()
 
 
+def _review_block(row: dict[str, str]) -> list[str]:
+    action = row.get("manual_action", "").strip().casefold()
+    headline = " | ".join(
+        [
+            _md(row["final_decision"]),
+            _md(row["ontap_region"]),
+            _md(row["location"]),
+            _md(row["salary_text"]),
+            _md(row["title"]),
+        ]
+    )
+    return [
+        "---",
+        f"action: {action}" if action else "action:",
+        headline,
+        f"employer: {_md(row['employer'])}",
+        f"closing_date: {_md(row['closing_date'])}",
+        f"reason: {_md(row['classification_reason'])}",
+        f"source_job_id: {_md(row['source_job_id'])}",
+        f"source_url: {_md(row['source_url'])}",
+        "---",
+        "",
+    ]
+
+
 def master_summary_text(rows: list[dict[str, str]]) -> str:
     live_rows = [row for row in rows if row["review_scope"] == REVIEW_NOW]
     deferred_rows = [row for row in rows if row["review_scope"] == DEFERRED]
@@ -105,48 +130,48 @@ def master_summary_text(rows: list[dict[str, str]]) -> str:
         ] += 1
 
     lines = [
-        "# England-wide Teaching Vacancies admin/service review",
+        "# England-wide Teaching Vacancies admin/service manual review",
         "",
-        "This is an editable review summary. Only roles in LIVE Ontap regions are marked for manual review. Roles in other regions remain visible in the CSV but are deferred until that regional slice goes live.",
+        "Edit only the `action:` line in each block:",
         "",
-        "## Totals",
+        "- For a selected job, use `action: exclude` to remove it.",
+        "- For a possible job, use `action: select` to add it.",
+        "- Leave `action:` blank for no change.",
+        "- Manual edits are matched by `source_job_id`.",
+        "- Only LIVE Ontap regions appear as individual review blocks.",
+        "- This England-wide file is the review surface; regional files remain the approval boundaries.",
+        "",
+        "## TOTALS",
         "",
         f"- All routed roles: **{len(rows)}**",
         f"- REVIEW NOW (LIVE regions): **{len(live_rows)}**",
         f"- DEFERRED - REGION NOT LIVE: **{len(deferred_rows)}**",
-        "",
-        "## LIVE regions - review now",
-        "",
         f"- SELECTED: **{live_decisions['SELECTED']}**",
         f"- POSS: **{live_decisions['POSS']}**",
         f"- HARD PASS / EXCLUDED: **{live_decisions['HARD_PASS'] + live_decisions['EXCLUDED']}**",
         "",
-        "| Decision | Title | Salary | Region | Reason | Source |",
-        "|---|---|---|---|---|---|",
     ]
-    for row in live_rows:
-        source = f"[Open role]({row['source_url']})" if row["source_url"] else ""
-        lines.append(
-            "| "
-            + " | ".join(
-                [
-                    _md(row["final_decision"]),
-                    _md(row["title"]),
-                    _md(row["salary_text"]),
-                    _md(row["regional_slice"]),
-                    _md(row["classification_reason"]),
-                    source,
-                ]
-            )
-            + " |"
-        )
+
+    regions = sorted(
+        {row["ontap_region"] for row in live_rows if row["ontap_region"]},
+        key=str.casefold,
+    )
+    for region in regions:
+        region_rows = [row for row in live_rows if row["ontap_region"] == region]
+        for decision, heading in (("SELECTED", "SELECTED"), ("POSS", "POSSIBLES")):
+            grouped = [row for row in region_rows if row["final_decision"] == decision]
+            lines.extend([f"## {region.upper()} — {heading}", ""])
+            if not grouped:
+                lines.extend(["_No jobs in this group._", ""])
+                continue
+            for row in grouped:
+                lines.extend(_review_block(row))
 
     lines.extend(
         [
+            "## DEFERRED REGIONS — NOT FOR MANUAL REVIEW",
             "",
-            "## Deferred regions",
-            "",
-            "These roles are not for manual marking yet. They become review candidates when the corresponding Ontap regional slice is activated.",
+            "These roles remain visible in the CSV but are not individually marked until the corresponding Ontap regional slice goes LIVE.",
             "",
             "| Region | Total | Selected | POSS | Hard pass / excluded |",
             "|---|---:|---:|---:|---:|",
