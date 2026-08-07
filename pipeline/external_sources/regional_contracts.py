@@ -23,6 +23,7 @@ CATEGORY_ADMIN_SERVICE = "admin_service"
 PUBLISHABLE_STATUS = "LIVE"
 KNOWN_SLICE_STATUSES = {"LIVE", "CANDIDATE", "RETIRED"}
 UNUSABLE_GEO_CLUSTERS = {"", "unknown", "not specified"}
+GEO_FALLBACK_FILENAME = "location_fallbacks.csv"
 
 # Existing public-page roll-up already used by the daily admin/service pipeline.
 _PUBLIC_REGION_ROLLUPS = {
@@ -290,6 +291,39 @@ def _load_geo_sheet(
         )
 
 
+def _load_geo_fallback_csv(
+    path: Path,
+    *,
+    output: dict[str, str],
+) -> None:
+    """Load shared factual fallbacks without embedding source-specific rules."""
+    if not path.is_file():
+        return
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        reader = csv.DictReader(handle)
+        expected = ["lookup_value", "region", "status"]
+        if reader.fieldnames != expected:
+            raise ValueError(
+                f"geographic fallback columns must be exactly {','.join(expected)}"
+            )
+        for line_number, row in enumerate(reader, start=2):
+            status = clean(row.get("status"))
+            if normalise(status) != "auto":
+                continue
+            lookup_value = clean(row.get("lookup_value"))
+            region = clean(row.get("region"))
+            if not lookup_value or not region:
+                raise ValueError(
+                    f"invalid geographic fallback row at line {line_number}"
+                )
+            _add_geo_mapping(
+                output,
+                lookup_value=lookup_value,
+                cluster=region,
+                source=f"{path.name} row {line_number}",
+            )
+
+
 def load_geo_lookup(path: Path) -> dict[str, str]:
     """Load Ontap's Area/Cluster and approved location-fallback contracts."""
     if not path.is_file():
@@ -308,6 +342,10 @@ def load_geo_lookup(path: Path) -> dict[str, str]:
             source="LocationFallback",
             require_auto_status=True,
         )
+    _load_geo_fallback_csv(
+        path.with_name(GEO_FALLBACK_FILENAME),
+        output=output,
+    )
     if not output:
         raise ValueError("geographic lookup contains no usable mappings")
     return output

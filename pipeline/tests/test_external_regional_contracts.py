@@ -134,3 +134,36 @@ def test_uncertain_geography_is_retained_not_guessed(tmp_path: Path) -> None:
     assert result.status == "UNRESOLVED"
     assert result.region == ""
     assert "No exact factual location match" in result.evidence
+
+def test_shared_geo_fallback_csv_routes_missing_factual_locations(tmp_path: Path) -> None:
+    path = tmp_path / "geo_lookup.xlsx"
+    _write_geo_lookup(path)
+    fallback = tmp_path / "location_fallbacks.csv"
+    fallback.write_text(
+        "lookup_value,region,status\n"
+        "GU12 5PX,Surrey,AUTO\n"
+        "Ash Vale,Surrey,AUTO\n"
+        "LS21 2HX,Yorkshire - North,AUTO\n",
+        encoding="utf-8",
+    )
+
+    lookup = load_geo_lookup(path)
+
+    ash_vale = route_geography(
+        location="Ash Vale, South East, GU12 5PX",
+        postcode="GU12 5PX",
+        lookup=lookup,
+    )
+    assert ash_vale.status == "ROUTED"
+    assert ash_vale.region == "Surrey"
+    assert ash_vale.lookup_key == "gu12 5px"
+
+    askwith = route_geography(
+        location="Otley, Yorkshire and the Humber, LS21 2HX",
+        postcode="LS21 2HX",
+        lookup=lookup,
+    )
+    assert askwith.status == "ROUTED"
+    assert askwith.region == "Yorkshire - North"
+    assert askwith.lookup_key == "ls21 2hx"
+
