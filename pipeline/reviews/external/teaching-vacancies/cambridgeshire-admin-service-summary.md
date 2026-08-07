@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 2e2621fd7a55f9c54971466656ff69b5cf914c364a8cceba9ee2485ae17f96da
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 10
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -212,7 +212,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-manager-jack-hu
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-fisher-catholic-high-school-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-long-road-sixth-form-college) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-44e22d46-dbb9-44c7-92b2-3f1c26141a6e) — Insufficient admin/service evidence.
+- [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-d95189ca-d706-4555-a4e3-e244e3b079b2) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-trumpington-park-primary-school) — Insufficient admin/service evidence.
 

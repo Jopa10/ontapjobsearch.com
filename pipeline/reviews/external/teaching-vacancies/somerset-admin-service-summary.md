@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 76f9ce1eb13e31e9bab851e5fb60d2af30e00fac3194d867079a44e609801d8b
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -80,7 +80,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-castle-school-education-trust) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
-- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-7adf438b-fd55-4e21-8bef-eccad94efdcb) — Missing salary or pay scale.
 
 ## Safety boundary
 

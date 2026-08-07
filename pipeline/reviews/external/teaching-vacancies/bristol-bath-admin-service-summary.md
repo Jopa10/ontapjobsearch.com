@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
 review_date: 2026-08-07
-review_fingerprint: 7176ef4d530d91b13df901a072299948a82754d7b93c24f2d2f7d4f495a9378a
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: 58c7086ac2e34f1e9608e7b4c48aa3db0725fde7b3c1d370c2074c2d037143d9
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -66,21 +66,6 @@ source_job_id: digital-marketing-administrator-filton-avenue-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
 ---
 
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £36,363.00 - £39,152.00 Annually (FTE) Actual salary £33,683 to £36,266 per year, term time only plus 20 additional days | PA to Principal/HR Lead
-employer: Fairfield High School
-closing_date: 2026-08-30T23:59:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: e9f2593884ab273dc5fda56b23d3f20e59611b92e241aad7c1bb708e93ce5f64
-source: Teaching Vacancies
-source_job_id: pa-to-principal-hr-lead-fairfield-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-lead-fairfield-high-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -94,13 +79,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-le
 - [AI & Digital Communications and Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/ai-digital-communications-and-marketing-apprentice) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-cabot-learning-federation-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-lyde-green-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-joseph-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-nicholas-of-tolentine-catholic-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-patrick-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-teresa-s-catholic-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

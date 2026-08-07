@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
 review_date: 2026-08-07
-review_fingerprint: bb4d0d9d7d787abc58aa816178d4ae9145fa055cface2c266746dd2ee6fc3bab
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: fac60255a16761d6d6dbe20836afa0cf9d365a9eba03c3228537d9f5c15ec3d5
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,15 +15,30 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 5
 - Selected: 0
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
 - None.
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | North East - Tees Valley | Yarm, North East, TS15 9ET | £32,061 to £33,699, pending job evaluation | Executive Assistant to Head of School
+employer: Conyers School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: b5181d942440617f0f8c36aeed8375efed53cb7b66f98500507d8280f536705d
+source: Teaching Vacancies
+source_job_id: executive-assistant-to-head-of-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-head-of-school
+---
 
 ---
 action: 
@@ -61,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-business-manage
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-conyers-school-yarm-cleveland) — Insufficient admin/service evidence.
 - [MAT HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/mat-hr-business-partner) — Insufficient admin/service evidence.
 - [People Development and Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/people-development-and-engagement-lead-river-tees-multi-academy-trust) — Insufficient admin/service evidence.
 

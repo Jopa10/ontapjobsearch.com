@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 0d9c1f5e87befe2f0558e1e061fadf516f4131bf47e61abd6ef76fc8a8a1c76d
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 31
+- Records: 34
 - Selected: 9
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 21
 
 ## SELECTED
 
@@ -227,20 +227,23 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncas
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire) — Insufficient admin/service evidence.
 - [Administration Assistant and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-receptionist-king-edward-vii-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Insufficient admin/service evidence.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-mossbrook-school) — Insufficient admin/service evidence.
 - [Communications, Marketing & Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-engagement-lead) — Insufficient admin/service evidence.
 - [Compliance and Complaints Manager](https://teaching-vacancies.service.gov.uk/jobs/compliance-and-complaints-manager-chorus-education-trust) — Insufficient admin/service evidence.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
 - [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Insufficient admin/service evidence.
 - [Exams & Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-officer-e-act-parkwood-academy) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-isle-education-trust) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-isle-education-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school) — Insufficient admin/service evidence.
 - [Governance & Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-executive-support-officer) — Insufficient admin/service evidence.
 - [Governance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administration-officer-mercia-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Insufficient admin/service evidence.
 - [Learning & Development Coordinator](https://teaching-vacancies.service.gov.uk/jobs/learning-development-coordinator) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Insufficient admin/service evidence.
+- [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [Temporary Family Support Worker](https://teaching-vacancies.service.gov.uk/jobs/temporary-family-support-worker) — Insufficient admin/service evidence.
 
 ## Safety boundary

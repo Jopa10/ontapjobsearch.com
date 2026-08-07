@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
 review_date: 2026-08-07
-review_fingerprint: f65c097523950da4d174848e70ff7448e8934d3b88aee600026a20969696161a
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: 16d2ccef8617c9c4f75023c889634e5088ae6d5fec7c090f07fc15fb6012035c
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 14
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-man
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
-employer: Park Vale Academy
-closing_date: 2026-08-25T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 769395cebb2f4e1bba222b8f01396233948877fa228a3a8c81cf47caf2ec065f
-source: Teaching Vacancies
-source_job_id: healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
----
-
----
-action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 4BB | £13,322.40 - £13,749.42 Annually (Actual) NJC Grade 3, £25,583 - £26,403 FTE | Office Administrator
 employer: The Lanes Primary School
 closing_date: 2026-08-10T09:00:00+01:00
@@ -97,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-executive-p
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Exams Assistant
-employer: South Nottinghamshire Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2059b5f28707065dcde8e6a20e0d67d79efdcb20998b8680d0c65534749909e0
-source: Teaching Vacancies
-source_job_id: exams-assistant-south-nottinghamshire-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
----
 
 ---
 action: 

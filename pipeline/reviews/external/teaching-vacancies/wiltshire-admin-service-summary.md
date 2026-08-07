@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
 review_date: 2026-08-07
-review_fingerprint: d47529cf869aacdce8f4a9d22b99b2cc09dacf73fb2653a239e21574e26b0717
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: 613b46b05db90bc182695f8e794377cac3f2f3e7ca9eafc57f3871b75161ab58
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 9
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: progression-administrator-bradon-forest-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/progression-administrator-bradon-forest-school
 ---
 
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN25 2PP | £20,046.00 - £20,691.00 Annually (Actual) NJC Scale 4-6 £13.05 - £13.47 per hour (pay rise pending) | Reception and Admin Assistant
+employer: Great Western Academy
+closing_date: 2026-08-26T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a986939204e34db908599a8a93c77da791c81ed95a0ca7c469ede09868710a40
+source: Teaching Vacancies
+source_job_id: reception-and-admin-assistant-great-western-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-admin-assistant-great-western-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -98,21 +113,6 @@ source_job_id: admin-officer-queen-s-crescent-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
 ---
 
----
-action: 
-POSS | Wiltshire | Swindon, SN1 2LB | £31,525.09 - £35,570.32 Annually (Actual) | HR Operations Officer
-employer: The White Horse Federation
-closing_date: 2026-08-17T23:59:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 9e72f356122fe54daad9398dc94a45ea1039a316e533326b495b5a922c1d7822
-source: Teaching Vacancies
-source_job_id: hr-operations-officer-the-white-horse-federation-swindon-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer-the-white-horse-federation-swindon-not-recorded
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -121,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Insufficient admin/service evidence.
+- [School Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-officer-westwood-with-iford-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
 review_date: 2026-08-07
-review_fingerprint: 2a6e8697b4a11a137b9e3d253fcbe30d71c4c95b49fa95903ac0978b634730dc
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: cfb35df6e88f98bc432565d27a43c7ff6ddf78263efd532df675894f97e64f46
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Devon
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 23
 - Selected: 10
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ok
 
 ---
 action: 
-SELECTED | Devon | Crediton, South West, EX17 3LU | Grade D starting from £24,006 | Attendance Officer
-employer: Queen Elizabeth's
-closing_date: 2026-08-07T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b6564470b432825c94b8f40b4401c15a3110a59c378f5faa13132837bf668ebb
-source: Teaching Vacancies
-source_job_id: attendance-officer-queen-elizabeth-s
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-queen-elizabeth-s
----
-
----
-action: 
 SELECTED | Devon | Torquay, South West, TQ1 4RN | £22,889.00 - £24,396.00 Annually (Actual) | Finance & Data Protection Administrator
 employer: St Cuthbert Mayne School
 closing_date: 2026-09-01T09:00:00+01:00
@@ -124,6 +109,21 @@ factual_fingerprint: 211aa822b561a4afacad5d6dbea8d4eba8f57aed8a8bf1c5c716fad1943
 source: Teaching Vacancies
 source_job_id: finance-data-protection-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-data-protection-administrator
+---
+
+---
+action: 
+SELECTED | Devon | Exeter, EX5 3JG | FTE £25660 | Hub Administrator
+employer: Cornerstone Academy Trust
+closing_date: 2026-08-23T23:59:59+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 39ca36d0cf4bdcbd91590074e1ac03b2d04512ffd1f8396c991cb7dd4d7453ed
+source: Teaching Vacancies
+source_job_id: hub-administrator-cornerstone-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cornerstone-academy-trust
 ---
 
 ---
@@ -239,11 +239,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
+- [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Attendance Mentor](https://teaching-vacancies.service.gov.uk/jobs/attendance-mentor-bideford-college-bideford-devon) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust) — Insufficient admin/service evidence.
+- [First Aider](https://teaching-vacancies.service.gov.uk/jobs/first-aider-bideford-college-bideford-devon) — Insufficient admin/service evidence.
 - [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
-- [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover) — Insufficient admin/service evidence.
 - [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 - [Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-9bce2eb3-1f2d-4471-843a-cfe649b37c9b) — Out-of-scope occupation: teaching assistant.
 - [Weekend Events and Lettings Officer](https://teaching-vacancies.service.gov.uk/jobs/weekend-events-and-lettings-officer) — Insufficient admin/service evidence.

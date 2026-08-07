@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
 review_date: 2026-08-07
-review_fingerprint: eeb1eb537b040560d9d34853f1e212f135742557b8819ae4d634a321a8db62b2
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: a3541f7b5f4076950a847405a6d876e436436bfa78aa0b0c6c9da5879e280313
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 19
 - Selected: 12
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -220,17 +220,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-2996
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £32,061.00 Annually (FTE) Grade F, £32, 061 full time equivalent | Executive Assistant to the Senior Leadership Team
+POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
 employer: Glebe Farm School
 closing_date: 2026-09-07T12:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 1a1016e6b6cb5039308bf2157b9ff5de96f0877f853545ac58425f61e512267e
+factual_fingerprint: 9121eb4b3d52299570d0fdc8e37e96fb4b4c2f9fcc6541df4df09a8fa67ead85
 source: Teaching Vacancies
-source_job_id: executive-assistant-to-the-senior-leadership-team-glebe-farm-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-senior-leadership-team-glebe-farm-school
+source_job_id: business-support-glebe-farm-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school
 ---
 
 ---
@@ -272,7 +272,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Estates Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-programme-manager-chiltern-way-academy-trust) — Insufficient admin/service evidence.
 - [Exams and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-macintyre-academies) — Missing salary or pay scale.
-- [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

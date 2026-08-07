@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: ead9201c65917d6ad1a159a19642f07620f1c3ade2311bb5cea22f73eac1d2a6
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED

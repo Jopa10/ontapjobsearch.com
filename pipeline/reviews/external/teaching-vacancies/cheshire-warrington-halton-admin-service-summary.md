@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 218e2555b8a626eda094f5d5cd6bc9b07ce813b10e3ac896e8649a60bf41a582
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: UNREGISTERED

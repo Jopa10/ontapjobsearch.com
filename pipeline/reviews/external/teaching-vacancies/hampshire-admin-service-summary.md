@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: b0c7569ebfa759ba0c8f00359b094f6e9bcefb718f058796d6c677a3d2caf8b3
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -50,7 +50,7 @@ closing_date: 2026-09-01T01:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: 
+migration_status: SAME_DAY_ACTION
 factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
 source: Teaching Vacancies
 source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
@@ -59,7 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
+- [HR Manager, Communications and Marketing Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-communications-and-marketing-lead-the-westgate-school) — Insufficient admin/service evidence.
 - [People Partner (Central, Portsmouth and Sussex)](https://teaching-vacancies.service.gov.uk/jobs/people-partner-central-portsmouth-and-sussex) — Insufficient admin/service evidence.
 
 ## Safety boundary

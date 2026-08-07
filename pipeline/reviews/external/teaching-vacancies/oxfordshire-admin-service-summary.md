@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 6430bea748521a4e288c738dcb3a8e8b9fbb513fb8b451c9803af9c225d51f83
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED

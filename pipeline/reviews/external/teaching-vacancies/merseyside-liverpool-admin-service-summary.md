@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: b2095f8b3d1e8f08df5f1e7e511bcde751a8313ec61e91d6f34836c5ec4c4591
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: UNREGISTERED

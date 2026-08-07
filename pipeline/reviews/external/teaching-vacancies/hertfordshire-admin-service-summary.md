@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
 review_date: 2026-08-07
-review_fingerprint: b80dc225c48b91065cde6aee26e4a290567c135c7aa74e0758814202a8895bc7
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: eca27c1f41f9b7d97083366e8ee9efe8eaf51feada191c31c6bdb7f6a60d30b8
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 7
+- Records: 7
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: 152c6578821bb1e17789081f16afb1f6dd8c70c7254ff2e15ab1798868d
 source: Teaching Vacancies
 source_job_id: administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
----
-
----
-action: 
-SELECTED | Hertfordshire | Hertford, East of England, SG14 2DG | £25,144.61 Annually (Actual) H 5 | Attendance Officer
-employer: The Sele School
-closing_date: 2026-08-11T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2659e86384fdda34f025943d2dfcfdc2479683ce5950839951a8257616ddd386
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-sele-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-sele-school
 ---
 
 ---

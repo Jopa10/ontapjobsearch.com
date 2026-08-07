@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
 review_date: 2026-08-07
-review_fingerprint: 2b2250d59c655d8e72da4113c79e29f389597dc38fbad587e6edc15fe4af0c5f
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+review_fingerprint: 9d9ec1beec7387ad1b6a072b92fb7ac31184384e7caa8801d3ca5630ba59bcba
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 11
-- POSS awaiting decision: 4
+- Records: 24
+- Selected: 12
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -79,6 +79,21 @@ factual_fingerprint: 092d86b32fdc738d9cecf5792fb7428abc901c2cf7aa7358fc1e1af4f56
 source: Teaching Vacancies
 source_job_id: business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £21,843.00 - £22,190.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Student Services
+employer: All Saints Catholic College
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2ee495b
+source: Teaching Vacancies
+source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 ---
 
 ---
@@ -220,21 +235,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS6 2LG | £31,273.00 - £35,558.00 Annually (Actual) | Exams and Admissions Manager
-employer: Leeds City Academy
-closing_date: 2026-08-07T09:00:00+01:00
-reason: Borderline school administration title: admissions manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 377d3d4186bcabbd76cb1859bbbc173530d41241a6aa6b5e4d0f6d4ad5a7706d
-source: Teaching Vacancies
-source_job_id: exams-and-admissions-manager-leeds-city-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy
----
-
----
-action: 
 POSS | Yorkshire - West | Pudsey, Yorkshire and the Humber, LS28 8AT | £38,331.00 - £42,964.00 Annually (FTE) | School Business Manager
 employer: Southroyd Primary and Nursery School
 closing_date: 2026-09-04T23:59:00+01:00
@@ -254,7 +254,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 
 ## HARD_PASS
 
-- [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-abbey-multi-academy-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-woodkirk-academy) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-waterton-academy-trust-wakefield-not-recorded) — Insufficient admin/service evidence.

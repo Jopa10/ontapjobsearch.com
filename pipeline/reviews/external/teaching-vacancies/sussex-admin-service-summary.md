@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: d43351ca421960b7aee5db9fe0aea8d82a526a84525c5f11fb92c1f4718da03a
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE

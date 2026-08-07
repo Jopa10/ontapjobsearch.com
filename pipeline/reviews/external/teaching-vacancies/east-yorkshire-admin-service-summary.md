@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: e94924ae0043471310af2f8dc57cdd1041eae0de787c97e9f51bd26f067aec48
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -47,7 +47,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 ## HARD_PASS
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-kingswood-parks-primary-school) — Insufficient admin/service evidence.
-- [Exams Access Arrangements (EAA) Assessor](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-eaa-assessor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

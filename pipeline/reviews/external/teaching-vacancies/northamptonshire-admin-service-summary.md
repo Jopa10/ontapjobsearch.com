@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 869d60624530ade74ae326bf51ebb7551ec04b1ecd591dafc293d0c85e270bdd
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -90,9 +90,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager
 ## HARD_PASS
 
 - [EHCP Co-ordinator, Consultations & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-consultations-admin-officer) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-ce-academy) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Insufficient admin/service evidence.
+- [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 3939c913bbc63dc0764605be22b8be0af2ea23e78f0596c4044cfe2f5d24ed9f
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -64,7 +64,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ri
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-crowan-primary-school) — Missing salary or pay scale.
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cubert-primary-school) — Missing salary or pay scale.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-newquay-tretherras) — Insufficient admin/service evidence.
-- [Trust Learning & Development (L&D) Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-learning-development-l-d-coordinator) — Insufficient admin/service evidence.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-special-partnership-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 94f577c57e073fd8a6dd1441c218b06b850452299a6a490a1a12b89508f24a47
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ## HARD_PASS
 
+- [Finance Apprentice based with Central Team at Ram Mill, Oldham, OL9 9RH](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-based-with-central-team-at-ram-mill-oldham-ol9-9rh) — Insufficient admin/service evidence.
 - [Senior Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/senior-human-resources-advisor-kingfisher-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

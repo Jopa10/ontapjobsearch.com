@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 42db948ecc667ae98ec93c71035f39255c5ae22e2cffa8d82edc088332ae8b5c
-routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
+routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -78,8 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/wg6-administrator-wil
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-626d3ca3-9b34-4aca-bf67-4e9202816d3f) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-the-howard-academy-trust) — Insufficient admin/service evidence.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-5e7c23e7-9011-422c-8af6-459ace63c7f0) — Insufficient admin/service evidence.
-- [Medway Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/medway-attendance-lead-barnsole-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

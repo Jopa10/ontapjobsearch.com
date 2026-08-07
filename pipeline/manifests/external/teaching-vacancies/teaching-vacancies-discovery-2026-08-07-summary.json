@@ -1,29 +1,29 @@
 {
   "contract_version": "teaching-vacancies-national-v1",
-  "generated_at": "2026-08-07T06:42:41+01:00",
+  "generated_at": "2026-08-07T09:05:17+01:00",
   "run_date": "2026-08-07",
   "source": "Teaching Vacancies",
   "source_scope": "England-wide; no Ontap regional restriction",
   "stable_sweeps": 2,
-  "records": 505,
-  "manifest_sha256": "c189cd63cf1558416be405fb5a08bbb80a5fd3d9cf36c478a1d561afba7bc296",
+  "records": 503,
+  "manifest_sha256": "4e1c5bb368c1313982b4e666547d15ba851782f1eb3655b694b5082816090d5a",
   "routes": [
     {
       "name": "administration-category",
       "query": "Administration, HR, data and finance",
       "url": "https://teaching-vacancies.service.gov.uk/administration-hr-data-finance-jobs",
-      "reported_total": 534,
-      "pages_fetched_per_sweep": 54,
-      "listing_occurrences_per_sweep": 534,
-      "unique_urls_per_sweep": 466
+      "reported_total": 527,
+      "pages_fetched_per_sweep": 53,
+      "listing_occurrences_per_sweep": 527,
+      "unique_urls_per_sweep": 465
     },
     {
       "name": "keyword:administrator",
       "query": "administrator",
       "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=administrator",
-      "reported_total": 119,
+      "reported_total": 118,
       "pages_fetched_per_sweep": 12,
-      "listing_occurrences_per_sweep": 119,
+      "listing_occurrences_per_sweep": 118,
       "unique_urls_per_sweep": 111
     },
     {
@@ -39,10 +39,10 @@
       "name": "keyword:receptionist",
       "query": "receptionist",
       "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=receptionist",
-      "reported_total": 45,
+      "reported_total": 44,
       "pages_fetched_per_sweep": 5,
-      "listing_occurrences_per_sweep": 45,
-      "unique_urls_per_sweep": 45
+      "listing_occurrences_per_sweep": 44,
+      "unique_urls_per_sweep": 44
     },
     {
       "name": "keyword:office",
