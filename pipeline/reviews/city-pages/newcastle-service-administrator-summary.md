@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 8
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 10
 - automatic review: 3
-- automatic exclude: 9
-- effective include: 11
+- automatic exclude: 11
+- effective include: 12
 - effective review: 0
-- effective exclude: 10
+- effective exclude: 12
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -37,18 +37,6 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
 ---
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Assistant
-company: North Tyneside Council
-location: North Tyneside
-source: NEJobs
-job_id: nejobs-297597
-reason: North Tyneside is within the normal Newcastle employment and commuting catchment.
----
-
----
 action: select
 decision: include
 automatic_decision: review
@@ -58,6 +46,18 @@ location: South Tyneside Council
 source: NEJobs
 job_id: nejobs-300058
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Account Administrator - Temp to Perm - Gateshead
+company: Office Angels - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-da318476-2716-4dc4-96fa-7984b2a0a789
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
 ---
 
 ---
@@ -94,6 +94,18 @@ location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-eafa8287-56b3-4ecd-a9bc-8fb95aa554c4
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Order Processing Administrator - Temp to Perm
+company: Office Angels - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-ce8acedc-578a-43b6-8458-482944e0ad7e
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
 ---
 
 ---
@@ -158,7 +170,7 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 
 ## REVIEW (0)
 
-## EXCLUDE (10)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -182,6 +194,18 @@ location: Meadowfield Depot, Durham (hybrid working options available)
 source: NEJobs
 job_id: nejobs-299480
 reason: Durham belongs to a separate employment area from the Newcastle city page.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: St Benet Biscop Catholic Academy
+location: Bedlington
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e
+reason: Bedlington is outside the agreed Newcastle city-page catchment.
 ---
 
 ---
@@ -254,6 +278,18 @@ location: Framwellgate School Durham
 source: NEJobs
 job_id: nejobs-299718
 reason: Durham belongs to a separate employment area from the Newcastle city page.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Support Administrator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Darlington
+source: JobG8
+job_id: jobg8-646b596c-525f-4641-9329-03f131b59e32
+reason: Darlington belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
