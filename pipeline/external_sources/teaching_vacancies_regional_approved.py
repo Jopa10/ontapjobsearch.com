@@ -18,7 +18,7 @@ import io
 import json
 import re
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Iterable
 
@@ -35,6 +35,7 @@ LIVE_STATUS = "LIVE"
 SOURCE_CODE = discovery.SOURCE_CODE
 DEFAULT_OUTPUT_DIR = Path("output-external/teaching-vacancies-regional")
 DEFAULT_EVIDENCE_DIR = Path("manifests/external/teaching-vacancies/approved")
+MAX_REVIEW_AGE_DAYS = 2
 
 
 @dataclass(frozen=True)
@@ -209,11 +210,16 @@ def load_review_csv(path: Path) -> tuple[list[LoadedReviewRow], bytes]:
     return output, content
 
 
-def _today_iso(now: datetime | None) -> str:
+def _review_age_days(value: str, now: datetime | None) -> int | None:
     current = now or datetime.now(legacy_approved.LONDON)
     if current.tzinfo is None:
         current = current.replace(tzinfo=legacy_approved.LONDON)
-    return current.astimezone(legacy_approved.LONDON).date().isoformat()
+    try:
+        reviewed = date.fromisoformat(value)
+    except ValueError:
+        return None
+    today = current.astimezone(legacy_approved.LONDON).date()
+    return (today - reviewed).days
 
 
 def validate_review_for_approval(
@@ -227,8 +233,15 @@ def validate_review_for_approval(
     summary_content = summary_md.read_bytes()
     errors: list[str] = []
 
-    if metadata.review_date != _today_iso(now):
-        errors.append("the regional review is not dated today")
+    review_age = _review_age_days(metadata.review_date, now)
+    if review_age is None:
+        errors.append("the regional review date is invalid")
+    elif review_age < 0:
+        errors.append("the regional review date is in the future")
+    elif review_age > MAX_REVIEW_AGE_DAYS:
+        errors.append(
+            f"the regional review is older than {MAX_REVIEW_AGE_DAYS} days"
+        )
     if metadata.category != CATEGORY:
         errors.append("the regional review category is not admin_service")
     if metadata.slice_status != LIVE_STATUS:
