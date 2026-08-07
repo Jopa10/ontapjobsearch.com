@@ -138,6 +138,39 @@ def _final_decision(row: dict[str, str], action: str) -> str:
     return "POSS"
 
 
+def carry_existing_actions(
+    current_rows: list[dict[str, str]],
+    *,
+    old_master_csv: Path,
+    old_master_summary: Path,
+) -> int:
+    """Carry non-blank actions only when the exact factual vacancy is unchanged."""
+    if not old_master_csv.is_file() or not old_master_summary.is_file():
+        return 0
+    old_rows = load_master_csv(old_master_csv)
+    old_actions = parse_master_actions(old_rows, old_master_summary)
+    old_by_id = {clean(row["source_job_id"]): row for row in old_rows}
+    current_by_id = {clean(row["source_job_id"]): row for row in current_rows}
+    carried = 0
+    for source_job_id, action in old_actions.items():
+        if not action:
+            continue
+        old = old_by_id[source_job_id]
+        current = current_by_id.get(source_job_id)
+        if current is None or current.get("review_scope") != master.REVIEW_NOW:
+            continue
+        if clean(current.get("final_decision")).upper() == "HARD_PASS":
+            continue
+        old_fingerprint = clean(old.get("factual_fingerprint"))
+        current_fingerprint = clean(current.get("factual_fingerprint"))
+        if not old_fingerprint or old_fingerprint != current_fingerprint:
+            continue
+        current["manual_action"] = action
+        current["final_decision"] = _final_decision(current, action)
+        carried += 1
+    return carried
+
+
 def _regional_rows(path: Path) -> tuple[list[dict[str, str]], bytes]:
     content = path.read_bytes()
     with io.StringIO(content.decode("utf-8-sig"), newline="") as handle:
