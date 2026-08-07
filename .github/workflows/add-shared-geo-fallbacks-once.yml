@@ -1,0 +1,93 @@
+name: Add shared geo fallbacks once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/add-shared-geo-fallbacks-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip pytest openpyxl
+      - name: Patch shared geography contract and tests
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          contract = Path('pipeline/external_sources/regional_contracts.py')
+          text = contract.read_text(encoding='utf-8')
+
+          old = 'UNUSABLE_GEO_CLUSTERS = {"", "unknown", "not specified"}\n'
+          new = old + 'GEO_FALLBACK_FILENAME = "location_fallbacks.csv"\n'
+          if old not in text:
+              raise SystemExit('STOP: geography constant anchor not found')
+          text = text.replace(old, new, 1)
+
+          anchor = '''def load_geo_lookup(path: Path) -> dict[str, str]:\n    """Load Ontap\'s Area/Cluster and approved location-fallback contracts."""\n'''
+          helper = '''def _load_geo_fallback_csv(\n    path: Path,\n    *,\n    output: dict[str, str],\n) -> None:\n    """Load shared factual fallbacks without embedding source-specific rules."""\n    if not path.is_file():\n        return\n    with path.open(newline="", encoding="utf-8-sig") as handle:\n        reader = csv.DictReader(handle)\n        expected = ["lookup_value", "region", "status"]\n        if reader.fieldnames != expected:\n            raise ValueError(\n                f"geographic fallback columns must be exactly {','.join(expected)}"\n            )\n        for line_number, row in enumerate(reader, start=2):\n            status = clean(row.get("status"))\n            if normalise(status) != "auto":\n                continue\n            lookup_value = clean(row.get("lookup_value"))\n            region = clean(row.get("region"))\n            if not lookup_value or not region:\n                raise ValueError(\n                    f"invalid geographic fallback row at line {line_number}"\n                )\n            _add_geo_mapping(\n                output,\n                lookup_value=lookup_value,\n                cluster=region,\n                source=f"{path.name} row {line_number}",\n            )\n\n\n'''
+          if anchor not in text:
+              raise SystemExit('STOP: load_geo_lookup anchor not found')
+          text = text.replace(anchor, helper + anchor, 1)
+
+          old_block = '''    if "LocationFallback" in workbook.sheetnames:\n        _load_geo_sheet(\n            workbook["LocationFallback"],\n            output=output,\n            source="LocationFallback",\n            require_auto_status=True,\n        )\n    if not output:\n'''
+          new_block = '''    if "LocationFallback" in workbook.sheetnames:\n        _load_geo_sheet(\n            workbook["LocationFallback"],\n            output=output,\n            source="LocationFallback",\n            require_auto_status=True,\n        )\n    _load_geo_fallback_csv(\n        path.with_name(GEO_FALLBACK_FILENAME),\n        output=output,\n    )\n    if not output:\n'''
+          if old_block not in text:
+              raise SystemExit('STOP: geo load block anchor not found')
+          text = text.replace(old_block, new_block, 1)
+          contract.write_text(text, encoding='utf-8')
+
+          tests = Path('pipeline/tests/test_external_regional_contracts.py')
+          test_text = tests.read_text(encoding='utf-8')
+          addition = '''\n\ndef test_shared_geo_fallback_csv_routes_missing_factual_locations(tmp_path: Path) -> None:\n    path = tmp_path / "geo_lookup.xlsx"\n    _write_geo_lookup(path)\n    fallback = tmp_path / "location_fallbacks.csv"\n    fallback.write_text(\n        "lookup_value,region,status\\n"\n        "GU12 5PX,Surrey,AUTO\\n"\n        "Ash Vale,Surrey,AUTO\\n"\n        "LS21 2HX,Yorkshire - North,AUTO\\n",\n        encoding="utf-8",\n    )\n\n    lookup = load_geo_lookup(path)\n\n    ash_vale = route_geography(\n        location="Ash Vale, South East, GU12 5PX",\n        postcode="GU12 5PX",\n        lookup=lookup,\n    )\n    assert ash_vale.status == "ROUTED"\n    assert ash_vale.region == "Surrey"\n    assert ash_vale.lookup_key == "gu12 5px"\n\n    askwith = route_geography(\n        location="Otley, Yorkshire and the Humber, LS21 2HX",\n        postcode="LS21 2HX",\n        lookup=lookup,\n    )\n    assert askwith.status == "ROUTED"\n    assert askwith.region == "Yorkshire - North"\n    assert askwith.lookup_key == "ls21 2hx"\n'''
+          if 'def test_shared_geo_fallback_csv_routes_missing_factual_locations' not in test_text:
+              tests.write_text(test_text.rstrip() + addition + '\n', encoding='utf-8')
+          PY
+      - name: Run shared and Teaching Vacancies routing tests
+        working-directory: pipeline
+        run: |
+          python -m pytest \
+            tests/test_external_regional_contracts.py \
+            tests/test_teaching_vacancies_routing.py \
+            tests/test_teaching_vacancies_regional_review.py \
+            -q
+      - name: Verify current unresolved postcodes now route
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          from external_sources.regional_contracts import load_geo_lookup, route_geography
+
+          lookup = load_geo_lookup(Path('geo/geo_lookup.xlsx'))
+          path = Path('manifests/external/teaching-vacancies/teaching-vacancies-unresolved-2026-08-07.csv')
+          with path.open(encoding='utf-8-sig', newline='') as f:
+              rows = list(csv.DictReader(f))
+          still = []
+          for row in rows:
+              result = route_geography(location=row['location'], postcode=row['postcode'], lookup=lookup)
+              if result.status != 'ROUTED':
+                  still.append((row['title'], row['location'], row['postcode']))
+              else:
+                  print(f"ROUTED|{row['title']}|{row['postcode']}|{result.region}|{result.lookup_key}")
+          if still:
+              raise SystemExit(f'STOP: unresolved rows remain after shared fallback patch: {still!r}')
+          print(f'All {len(rows)} previously unresolved rows now route factually.')
+          PY
+      - name: Commit patch and remove one-time workflow
+        run: |
+          git rm .github/workflows/add-shared-geo-fallbacks-once.yml
+          git add pipeline/external_sources/regional_contracts.py pipeline/tests/test_external_regional_contracts.py pipeline/geo/location_fallbacks.csv
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add shared geography fallbacks for external sources"
+          git push origin main
