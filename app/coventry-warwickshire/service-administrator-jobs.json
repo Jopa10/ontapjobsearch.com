@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Queen Elizabeth Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Wellesbourne CofE Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Meadow Park School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -179,27 +188,27 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "a64c366b-f7e8-4089-8aae-a1796f1ef747",
-    "title": "HR Administrator",
-    "company": "Owen Daniels - Agency - Permanent",
-    "location": "Nuneaton",
+    "job_id": "107807876",
+    "title": "Group Accounts Assistant (Purchase Ledger)",
+    "company": "NFU - Agency - Permanent",
+    "location": "Warwickshire",
     "region": "West Midlands - Coventry & Warwickshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-06",
-    "description": "We are seeking an HR Administrator to provide efficient, professional support to our client's HR function, supporting all aspects of HR administration across the employee lifecycle and ensuring an excellent employee experience.You will play a key role in ensuring HR processes run smoothly, employee records are accurately maintained, HR systems are effectively managed, and HR support is delivered in a professional and timely manner.HR AdministratorPermanentCompetitive SalaryMonday to Thursday, 8:00am - 4:45pm, Friday, 8:00am - 12:00pmMarket BosworthHR AdministratorJob Description\n- Provide comprehensive HR administration support across the employee lifecycle\n- Coordinate recruitment administration, onboarding activities and pre-employment checks\n- Maintain accurate HR records, personnel files and HR systems\n- Produce HR reports and support payroll, benefits and pension administration\n- Support Employee Relations processes and respond to HR queries in a professional and timely manner\n\nHR AdministratorEssential Experience/Skills/Qualifications\n- Previous experience in an HR Administration role\n\nHR AdministratorBenefits\n- 25 days holiday plus Bank Holidays, increasing with long service\n- Pension scheme\n- EAP Scheme, money back for dental and optical appointments\n- Free onsite parking\n\nIf you feel you're a good fit for this position, please click 'apply', email or call",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP6dBdrHEPADYWd8vN0CK7euy",
+    "salary_min": "24000",
+    "salary_max": "24000",
+    "salary_text": "£24000 per year",
+    "posted_date": "2026-08-07",
+    "description": "Job Title: Group Accounts Assistant (Purchase Ledger)\nSalary: c.£25,134 (dependent on skills and experience)\nLocation: Stoneleigh, Warwickshire\nWorking Hours: 35 hours per week\nContract Type: Permanent\nThe National Farmers Union (NFU) is the biggest farming organisation in the UK click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4CgrENx8nPxHFySM6IOwfKz",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Owen Daniels",
+    "advertiser_name": "NFU",
     "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   }
