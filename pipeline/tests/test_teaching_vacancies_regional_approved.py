@@ -276,7 +276,7 @@ def test_evidence_binds_review_summary_and_snapshot(tmp_path: Path) -> None:
     ).hexdigest()
 
 
-def test_review_must_be_same_day(tmp_path: Path) -> None:
+def test_review_from_yesterday_is_still_approvable(tmp_path: Path) -> None:
     records = [make_record("admin")]
     review_csv, summary_md = write_review(
         tmp_path,
@@ -284,7 +284,24 @@ def test_review_must_be_same_day(tmp_path: Path) -> None:
         review_date="2026-08-05",
     )
 
-    with pytest.raises(ValueError, match="not dated today"):
+    metadata, loaded, _, _ = approval.validate_review_for_approval(
+        review_csv,
+        summary_md,
+        now=NOW,
+    )
+    assert metadata.review_date == "2026-08-05"
+    assert approval.approved_output_rows(loaded, region=metadata.region)
+
+
+def test_review_older_than_two_days_is_blocked(tmp_path: Path) -> None:
+    records = [make_record("admin")]
+    review_csv, summary_md = write_review(
+        tmp_path,
+        records,
+        review_date="2026-08-03",
+    )
+
+    with pytest.raises(ValueError, match="older than 2 days"):
         approval.validate_review_for_approval(
             review_csv,
             summary_md,
