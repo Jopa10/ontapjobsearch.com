@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-06
+review_date: 2026-08-07
 review_fingerprint: cf39de78137219be6fc477cee580e84ccecd19798284338bb95de19d644817cb
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -134,7 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administ
 
 ## HARD_PASS
 
-- None.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-06
-review_fingerprint: 619226226baead472a337fcb7a5dd57d2037548256d25d0680320e590cf39eef
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 84c160fdfbe410d7976ed3f59a67fdbaea6e094d49025cd601d88fa1030aaf0e
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -94,21 +94,6 @@ factual_fingerprint: 70e8f75cf996df3aa4f72b7393258498627c3c0068c3e2b886138cd31a9
 source: Teaching Vacancies
 source_job_id: hr-administrator-st-john-paul-ii-multi-academy-company
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-st-john-paul-ii-multi-academy-company
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B32 1RJ | £21906.70 - £22969.37 per annum | Receptionist
-employer: Lift Four Dwellings Secondary
-closing_date: 2026-08-06T21:13:25+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 7ee5b5ae64b28f4c4501585354a1e3a893bf0276953dd4384531fd9c239b8b66
-source: Teaching Vacancies
-source_job_id: receptionist-6a0dbbff-ac8d-4dd6-b90a-513912cbfbff
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-6a0dbbff-ac8d-4dd6-b90a-513912cbfbff
 ---
 
 ---
@@ -194,6 +179,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-mos
 
 ## HARD_PASS
 
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-98ed03e2-e16a-4121-a2bd-61b4561faef8) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice) — Insufficient admin/service evidence.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-06
-review_fingerprint: f5df1e5435040820c0052e4c747c481d095fa18479820d26c990c29a66398228
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 0d9c1f5e87befe2f0558e1e061fadf516f4131bf47e61abd6ef76fc8a8a1c76d
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 30
+- Records: 31
 - Selected: 9
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 18
 
@@ -175,6 +175,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-office
 
 ---
 action: 
+POSS | Yorkshire - South | Rotherham, S60 2XJ | Scale Point 5-6, Grade D - £25,583 - £25,989. (Pay Award Pending) | Business Administration & Operations Assistant
+employer: White Woods Primary Academy Trust
+closing_date: 2026-08-14T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa47a2d30e5fc345dfb830fc415cc684e8c5a014c268a30fc7ef06915f3f21fe
+source: Teaching Vacancies
+source_job_id: business-administration-operations-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-operations-assistant
+---
+
+---
+action: 
 POSS | Yorkshire - South | Barnsley, Yorkshire and the Humber, S74 9HX | Grade 8, SCP 37-SCP 39 | Business Manager
 employer: Kirk Balk Academy
 closing_date: 2026-08-10T12:00:00+01:00
@@ -212,11 +227,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncas
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire) — Insufficient admin/service evidence.
 - [Administration Assistant and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-receptionist-king-edward-vii-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Insufficient admin/service evidence.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-mossbrook-school) — Insufficient admin/service evidence.
 - [Communications, Marketing & Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-engagement-lead) — Insufficient admin/service evidence.
 - [Compliance and Complaints Manager](https://teaching-vacancies.service.gov.uk/jobs/compliance-and-complaints-manager-chorus-education-trust) — Insufficient admin/service evidence.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
 - [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Insufficient admin/service evidence.
 - [Exams & Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-officer-e-act-parkwood-academy) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-isle-education-trust) — Insufficient admin/service evidence.
@@ -225,7 +240,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncas
 - [Governance & Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-executive-support-officer) — Insufficient admin/service evidence.
 - [Governance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administration-officer-mercia-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Insufficient admin/service evidence.
-- [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
+- [Learning & Development Coordinator](https://teaching-vacancies.service.gov.uk/jobs/learning-development-coordinator) — Insufficient admin/service evidence.
 - [Temporary Family Support Worker](https://teaching-vacancies.service.gov.uk/jobs/temporary-family-support-worker) — Insufficient admin/service evidence.
 
 ## Safety boundary

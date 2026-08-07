@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-06
+review_date: 2026-08-07
 review_fingerprint: 017d0d2ea8170041561ec20a6609109e4f90e70be232ba61023b1b508af57dcd
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -66,6 +66,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-lancaster-academy) — Insufficient admin/service evidence.
+- [Finance Systems and Controls Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-systems-and-controls-manager) — Insufficient admin/service evidence.
 - [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-south-charnwood-high-school) — Insufficient admin/service evidence.
 - [Music Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/music-support-assistant) — Insufficient admin/service evidence.
 - [Pre - School Deputy Manager (PAR219BC)](https://teaching-vacancies.service.gov.uk/jobs/pre-school-deputy-manager-par219bc) — Insufficient admin/service evidence.

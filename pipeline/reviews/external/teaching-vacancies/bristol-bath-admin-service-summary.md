@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-08-06
+review_date: 2026-08-07
 review_fingerprint: 7176ef4d530d91b13df901a072299948a82754d7b93c24f2d2f7d4f495a9378a
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 14
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 10
 
 ## SELECTED
 
@@ -94,15 +94,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-le
 - [AI & Digital Communications and Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/ai-digital-communications-and-marketing-apprentice) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-cabot-learning-federation-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-castle-school-education-trust) — Insufficient admin/service evidence.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-lyde-green-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-joseph-s-catholic-primary-school) — Insufficient admin/service evidence.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-nicholas-of-tolentine-catholic-primary-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-patrick-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst) — Insufficient admin/service evidence.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-teresa-s-catholic-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

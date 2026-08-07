@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-06
-review_fingerprint: ae2638b49ee7b5a4b7801efac6f373382e46d468795f64aa3dd10ed868ad7094
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 2a6e8697b4a11a137b9e3d253fcbe30d71c4c95b49fa95903ac0978b634730dc
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Devon
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 22
-- Selected: 11
+- Selected: 10
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -124,21 +124,6 @@ factual_fingerprint: 211aa822b561a4afacad5d6dbea8d4eba8f57aed8a8bf1c5c716fad1943
 source: Teaching Vacancies
 source_job_id: finance-data-protection-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-data-protection-administrator
----
-
----
-action: 
-SELECTED | Devon | Exeter, EX5 3JG | FTE £25660 | Hub Administrator
-employer: Cornerstone Academy Trust
-closing_date: 2026-08-23T23:59:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 39ca36d0cf4bdcbd91590074e1ac03b2d04512ffd1f8396c991cb7dd4d7453ed
-source: Teaching Vacancies
-source_job_id: hub-administrator-cornerstone-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cornerstone-academy-trust
 ---
 
 ---
@@ -256,6 +241,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Attendance Mentor](https://teaching-vacancies.service.gov.uk/jobs/attendance-mentor-bideford-college-bideford-devon) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust) — Insufficient admin/service evidence.
 - [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover) — Insufficient admin/service evidence.
 - [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.

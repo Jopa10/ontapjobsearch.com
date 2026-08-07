@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-06
-review_fingerprint: c7fb6c50cfde00fbe486627fa727b6659319f7e24f4239a697938ea7494fcaad
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 2e2621fd7a55f9c54971466656ff69b5cf914c364a8cceba9ee2485ae17f96da
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 18
 - Selected: 10
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -203,21 +203,6 @@ source_job_id: cover-manager-jack-hunt-academy-peterborough-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-manager-jack-hunt-academy-peterborough-cambridgeshire
 ---
 
----
-action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
-employer: Cambourne Village College
-closing_date: 2026-08-20T09:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: cdd6d08475ebd4fee8b8e31c1043cdcc3744243cfcc9dff13d67e9de262a8d05
-source: Teaching Vacancies
-source_job_id: maths-hub-administration-communications-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administration-communications-officer
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -227,7 +212,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administrat
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-fisher-catholic-high-school-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-long-road-sixth-form-college) — Insufficient admin/service evidence.
-- [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-44e22d46-dbb9-44c7-92b2-3f1c26141a6e) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-trumpington-park-primary-school) — Insufficient admin/service evidence.

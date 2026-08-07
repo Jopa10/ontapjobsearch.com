@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-08-06
-review_fingerprint: b107697c2958f0dfba51c2d0bff27b11b8ef3e419929a3fda97074b98d8656d2
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 94f577c57e073fd8a6dd1441c218b06b850452299a6a490a1a12b89508f24a47
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - North | Heywood, North West, OL10 2HN | Between £36,363 and £39,862 | School Business Manager (SBM2)
-employer: Hopwood Community Primary School
-closing_date: 2026-08-16T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: fb6ad7a62594b323e1340522a35e9949681588350afcb964024b22f7d3b4dfeb
-source: Teaching Vacancies
-source_job_id: school-business-manager-sbm2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sbm2
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

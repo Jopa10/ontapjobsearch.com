@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-08-06
-review_fingerprint: 1755240bd01db5425690f7a89600bb2695f869ef2855b75569c496f1f95622d8
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 16a479024df89cabd48035e63bc431454d5f0584e35bf7d9931238f623e66f17
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -49,21 +49,6 @@ factual_fingerprint: a655379499a2c939350bd7a6dd1df624f4e919ff6e00823e5fee762de87
 source: Teaching Vacancies
 source_job_id: apprentice-administrator-braeburn-primary-and-nursery-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-braeburn-primary-and-nursery-academy
----
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO12 5JA | £25,989.00 - £26,824.00 Annually (FTE) Grade D Points 6 to 8 (£25,989 to £26,824 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £12,136.57. | Attendance Officer
-employer: Newby and Scalby Academy
-closing_date: 2026-08-06T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f7b42c90924fa122038b8e29d6f2bd583585ff11b947139a814aba755a8c5f75
-source: Teaching Vacancies
-source_job_id: attendance-officer-newby-and-scalby-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-newby-and-scalby-academy
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-08-06
-review_fingerprint: 42abe3a94607383ec1e9cf10931e58e39fbb0fd90ef77d5ec81f405286aaa021
-routing_manifest_sha256: 60fa4e01574c3c9c60e3f48362b9c129835630cfd5af04f06075926494443c71
+review_date: 2026-08-07
+review_fingerprint: 64c95a315321ff234f8ca1e7c3364defdc61a2ab8d8dcd5b619e2fe98f95033e
+routing_manifest_sha256: e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 57
-- Selected: 24
+- Selected: 21
 - POSS awaiting decision: 12
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 24
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | London | London, London, E15 4LP | £30,770.00 - £31,693.00 Annually (Actual) | Administrator and Cover Coordinator
-employer: Sarah Bonnell School
-closing_date: 2026-08-14T14:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c31a10b13a418b336bc27b0f610c8db9d9b1dfa0384fc02826c6160ced3da162
-source: Teaching Vacancies
-source_job_id: administrator-and-cover-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-cover-coordinator
----
-
----
-action: 
 SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
 employer: Harlington School
 closing_date: 2026-08-26T23:59:00+01:00
@@ -124,21 +109,6 @@ factual_fingerprint: 1ca0db19fc3c43e9e4cc41bb0682f9e50231436fe5d808f061be42e81ba
 source: Teaching Vacancies
 source_job_id: attendance-officer-coombe-girls-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school
----
-
----
-action: 
-SELECTED | London | London, SE1 7HS | £31,980 - £33,870 | Contracts Administrator
-employer: Oasis Community Learning
-closing_date: 2026-09-14T23:59:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c751e74e513bb8a32468f963d499b02ff8fc14935be42de1992ab50da8b61cd5
-source: Teaching Vacancies
-source_job_id: contracts-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/contracts-administrator
 ---
 
 ---
@@ -289,21 +259,6 @@ factual_fingerprint: d33c6476ba91e25b92d9af564e75cc526646e7290f806428edca49eb102
 source: Teaching Vacancies
 source_job_id: receptionist-office-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-co-ordinator
----
-
----
-action: 
-SELECTED | London | London, London, SE4 1DF | Scale 3 | School Admin Assistant
-employer: Myatt Garden Primary School
-closing_date: 2026-08-24T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a4fe6bb386bc5ea740a3b6c6414880539ff88e675f6d89ed42c3fd81b6a6267
-source: Teaching Vacancies
-source_job_id: school-admin-assistant-myatt-garden-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-myatt-garden-primary-school-london
 ---
 
 ---
@@ -573,8 +528,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horn-park-primary-school-london) — Insufficient admin/service evidence.
 - [Administration Assistant and First Aider](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-first-aider-carshalton-high-school-for-girls) — Insufficient admin/service evidence.
 - [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Insufficient admin/service evidence.
+- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
+- [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Communications Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/communications-admin-officer) — Insufficient admin/service evidence.
-- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Insufficient admin/service evidence.
+- [Director of Marketing and Communications](https://teaching-vacancies.service.gov.uk/jobs/director-of-marketing-and-communications) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-sarah-bonnell-school) — Insufficient admin/service evidence.
 - [Facilities Business Partner](https://teaching-vacancies.service.gov.uk/jobs/facilities-business-partner-orchard-hill-college-academy-trust) — Insufficient admin/service evidence.
 - [Finance Assistant / Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-finance-apprentice) — Insufficient admin/service evidence.
@@ -583,6 +540,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 - [HLTA Nursery Admin](https://teaching-vacancies.service.gov.uk/jobs/hlta-nursery-admin) — Out-of-scope occupation: nurse.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school) — Insufficient admin/service evidence.
 - [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-wren-academy-finchley) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-haberdashers-borough-academy) — Insufficient admin/service evidence.
 - [Part Time Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/part-time-administration-assistant-mill-hill-county-high-school) — Insufficient admin/service evidence.
 - [Purchase Ledger](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-nower-hill-high-school) — Insufficient admin/service evidence.
 - [Receptionist & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy) — Missing salary or pay scale.
