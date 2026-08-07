@@ -1,0 +1,261 @@
+name: Publish reviewed Teaching Vacancies England-wide
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Type PUBLISH after completing the England-wide Teaching Vacancies review
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publish-reviewed-teaching-vacancies:
+    name: Apply England-wide review and publish LIVE slices
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check explicit approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test packages
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Run Teaching Vacancies approval and composition tests
+        working-directory: pipeline
+        run: |
+          python -m pytest \
+            tests/test_teaching_vacancies_master_review.py \
+            tests/test_teaching_vacancies_master_actions.py \
+            tests/test_teaching_vacancies_regional_approved.py \
+            tests/test_compose_teaching_vacancies_regional.py \
+            tests/test_teaching_vacancies_regional_integration.py \
+            tests/test_teaching_vacancies_workflow_switch.py \
+            -q
+
+      - name: Verify England-wide reviewed files exist
+        run: |
+          test -s pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-review.csv
+          test -s pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md
+
+      - name: Apply England-wide actions to regional approval boundaries
+        working-directory: pipeline
+        run: |
+          python -m external_sources.teaching_vacancies_master_actions \
+            --write-regional-actions
+
+      - name: Build approved snapshot for every LIVE reviewed region
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import csv
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          from external_sources.teaching_vacancies_master_review import REVIEW_NOW
+          from external_sources.teaching_vacancies_regional_review import region_slug
+
+          master_path = Path(
+              "reviews/external/teaching-vacancies/england-wide-admin-service-review.csv"
+          )
+          with master_path.open("r", encoding="utf-8-sig", newline="") as handle:
+              rows = list(csv.DictReader(handle))
+          regions = sorted(
+              {
+                  row["ontap_region"].strip()
+                  for row in rows
+                  if row.get("review_scope") == REVIEW_NOW
+                  and row.get("ontap_region", "").strip()
+              },
+              key=str.casefold,
+          )
+          if not regions:
+              raise SystemExit("STOP: England-wide review contains no LIVE regions.")
+
+          for region in regions:
+              slug = region_slug(region)
+              print(f"Approving Teaching Vacancies for {region} ({slug})")
+              subprocess.run(
+                  [
+                      sys.executable,
+                      "-m",
+                      "external_sources.teaching_vacancies_regional_approved",
+                      "--review-csv",
+                      f"reviews/external/teaching-vacancies/{slug}-admin-service-review.csv",
+                      "--summary-md",
+                      f"reviews/external/teaching-vacancies/{slug}-admin-service-summary.md",
+                      "--write-approved-json",
+                      "--confirm-approved",
+                      "PUBLISH",
+                  ],
+                  check=True,
+              )
+          print(f"Built approved snapshots for {len(regions)} LIVE region(s).")
+          PY
+
+      - name: Compose Teaching Vacancies with JobG8 and other approved sources
+        working-directory: pipeline
+        run: |
+          python -m external_sources.compose_teaching_vacancies_regional --write
+
+      - name: Verify every LIVE reviewed region composed safely
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          from external_sources.teaching_vacancies_master_review import REVIEW_NOW
+          from external_sources.teaching_vacancies_regional_review import region_slug
+
+          master_path = Path(
+              "reviews/external/teaching-vacancies/england-wide-admin-service-review.csv"
+          )
+          with master_path.open("r", encoding="utf-8-sig", newline="") as handle:
+              rows = list(csv.DictReader(handle))
+          regions = sorted(
+              {
+                  row["ontap_region"].strip()
+                  for row in rows
+                  if row.get("review_scope") == REVIEW_NOW
+                  and row.get("ontap_region", "").strip()
+              },
+              key=str.casefold,
+          )
+
+          output_files = list(Path("output-admin-service").glob("*.json"))
+          for region in regions:
+              slug = region_slug(region)
+              snapshot_path = Path(
+                  "output-external/teaching-vacancies-regional"
+              ) / f"{slug}-admin-service.json"
+              evidence_path = Path(
+                  "manifests/external/teaching-vacancies/approved"
+              ) / f"{slug}-admin-service-evidence.json"
+              if not snapshot_path.is_file() or not evidence_path.is_file():
+                  raise SystemExit(
+                      f"STOP: missing approved Teaching Vacancies evidence for {region}."
+                  )
+              snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+              approved_ids = {row["job_id"] for row in snapshot}
+
+              matching = []
+              for path in output_files:
+                  combined = json.loads(path.read_text(encoding="utf-8"))
+                  base_regions = {
+                      str(row.get("region", "")).strip()
+                      for row in combined
+                      if str(row.get("source", "")).strip().casefold()
+                      != "teaching vacancies"
+                      and str(row.get("region", "")).strip()
+                  }
+                  if base_regions == {region}:
+                      matching.append((path, combined))
+              if len(matching) != 1:
+                  raise SystemExit(
+                      f"STOP: expected one current base output for {region}; "
+                      f"found {len(matching)}."
+                  )
+              output_path, combined = matching[0]
+              combined_ids = {row["job_id"] for row in combined}
+              if not approved_ids <= combined_ids:
+                  raise SystemExit(
+                      f"STOP: {output_path} is missing approved Teaching Vacancies IDs."
+                  )
+              if not any(
+                  str(row.get("source", "")).strip().casefold()
+                  != "teaching vacancies"
+                  for row in combined
+              ):
+                  raise SystemExit(
+                      f"STOP: external-only overwrite detected for {region}."
+                  )
+              print(
+                  f"{region}: {len(approved_ids)} Teaching Vacancies in "
+                  f"{len(combined)} combined jobs ({output_path})"
+              )
+          PY
+          git diff --exit-code -- ../app
+
+      - name: Publish verified service-admin pages
+        working-directory: pipeline
+        run: |
+          python -m scripts.publish_verified_pages_north_yorkshire --write
+
+      - name: Commit reviewed boundaries, approved snapshots, combined outputs and live pages
+        run: |
+          set -euo pipefail
+          git add -- \
+            pipeline/reviews/external/teaching-vacancies/*-admin-service-review.csv \
+            pipeline/reviews/external/teaching-vacancies/*-admin-service-summary.md \
+            pipeline/output-external/teaching-vacancies-regional/*.json \
+            pipeline/manifests/external/teaching-vacancies/approved/*.json \
+            pipeline/output-admin-service/*.json \
+            app/*/service-administrator-jobs.json
+
+          staged_files="$(git diff --cached --name-only)"
+          if [ -z "$staged_files" ]; then
+            echo "No Teaching Vacancies publishing changes to commit"
+            exit 0
+          fi
+
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '
+            $0 !~ /^pipeline\/reviews\/external\/teaching-vacancies\/.*-admin-service-(review\.csv|summary\.md)$/ &&
+            $0 !~ /^pipeline\/output-external\/teaching-vacancies-regional\/.*\.json$/ &&
+            $0 !~ /^pipeline\/manifests\/external\/teaching-vacancies\/approved\/.*\.json$/ &&
+            $0 !~ /^pipeline\/output-admin-service\/.*\.json$/ &&
+            $0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit unexpected Teaching Vacancies publishing paths:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish reviewed Teaching Vacancies England-wide"
+          git push origin main
+
+      - name: Publish summary
+        run: |
+          {
+            echo "## England-wide Teaching Vacancies published"
+            echo
+            echo "The England-wide review actions were verified and copied to regional approval boundaries."
+            echo "Approved Teaching Vacancies were composed with existing JobG8 and other approved sources."
+            echo "Expired Teaching Vacancies were omitted automatically."
+            echo "Verified service-admin pages were written and committed."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload Teaching Vacancies publishing evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: teaching-vacancies-england-publish
+          path: |
+            pipeline/reviews/external/teaching-vacancies/
+            pipeline/output-external/teaching-vacancies-regional/
+            pipeline/manifests/external/teaching-vacancies/approved/
+          if-no-files-found: error
+          retention-days: 14
