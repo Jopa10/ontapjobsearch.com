@@ -204,7 +204,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-co
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | London, SE1 7HS | £31,980 - £33,870 | Contracts Administrator
 employer: Oasis Community Learning
 closing_date: 2026-09-14T23:59:59+01:00
@@ -248,7 +248,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-li
 ---
 
 ---
-action:
+action: exclude
 SELECTED | London | Wembley, London, HA0 4JE | £38,689.00 - £41,134.00 Annually (Actual) | Exams Officer
 employer: Alperton Community School
 closing_date: 2026-08-23T23:59:00+01:00
@@ -393,7 +393,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trainee-compliance-an
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
 employer: Northwood School
 closing_date: 2026-09-04T23:59:00+01:00
@@ -923,7 +923,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 ## YORKSHIRE - WEST — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
 employer: De Lacy Academy
 closing_date: 2026-09-01T23:59:00+01:00
