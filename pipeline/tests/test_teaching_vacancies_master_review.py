@@ -21,6 +21,7 @@ def write_review(
             "final_decision": "SELECTED",
             "title": "Administrator",
             "salary_text": "£25,000",
+            "classification": "HC",
             "classification_reason": "Clear admin/service title: administrator",
             "employer": "Example School",
             "location": "Leeds",
@@ -29,6 +30,7 @@ def write_review(
             "slice_status": slice_status,
             "source_job_id": source_job_id,
             "source_url": f"https://example.test/{source_job_id}",
+            "factual_fingerprint": f"fp-{source_job_id}",
         }
     )
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -73,10 +75,12 @@ def test_master_review_marks_live_regions_and_writes_summary(tmp_path: Path) -> 
     assert "REVIEW NOW (LIVE regions): **1**" in summary
     assert "DEFERRED - REGION NOT LIVE: **1**" in summary
     assert "## YORKSHIRE - WEST — SELECTED" in summary
+    assert "## YORKSHIRE - WEST — EXCLUDED BY REVIEW" in summary
     assert "action:" in summary
     assert "SELECTED | Yorkshire - West | Leeds | £25,000 | Administrator" in summary
     assert "employer: Example School" in summary
     assert "closing_date: 2026-08-31" in summary
+    assert "factual_fingerprint: fp-west" in summary
     assert "source_job_id: west" in summary
     assert "source_url: https://example.test/west" in summary
     assert "## DEFERRED REGIONS — NOT FOR MANUAL REVIEW" in summary
