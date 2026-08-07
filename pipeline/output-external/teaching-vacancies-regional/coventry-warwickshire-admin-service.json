@@ -46,5 +46,29 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-administration-assistant-meadow-park-school",
+    "title": "Administration Assistant",
+    "company": "Meadow Park School",
+    "location": "Coventry",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911",
+    "work_pattern": "",
+    "posted_date": "2026-07-29",
+    "closing_date": "2026-09-01",
+    "closing_datetime": "2026-09-01T09:00:00+01:00",
+    "summary": "Administration Assistant with Meadow Park School in Coventry. ['full time']; £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911.",
+    "description": "Meadow Park School is recruiting for this vacancy in Coventry.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911.\n\nThe stated application deadline is 2026-09-01T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   }
 ]

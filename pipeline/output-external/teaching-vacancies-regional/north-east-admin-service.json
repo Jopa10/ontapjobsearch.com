@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "job_id": "teaching-vacancies-administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e",
+    "title": "Administration Assistant",
+    "company": "St Benet Biscop Catholic Academy",
+    "location": "Bedlington",
+    "region": "North East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Actual Salary",
+    "work_pattern": "",
+    "posted_date": "2026-07-23",
+    "closing_date": "2026-08-17",
+    "closing_datetime": "2026-08-17T12:00:59+01:00",
+    "summary": "Administration Assistant with St Benet Biscop Catholic Academy in Bedlington. ['full time']; Actual Salary.",
+    "description": "St Benet Biscop Catholic Academy is recruiting for this vacancy in Bedlington.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Actual Salary.\n\nThe stated application deadline is 2026-08-17T12:00:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
+  }
+]
