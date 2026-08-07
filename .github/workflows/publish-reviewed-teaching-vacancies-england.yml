@@ -195,12 +195,24 @@ jobs:
                   f"{len(combined)} combined jobs ({output_path})"
               )
           PY
-          git diff --exit-code -- ../app
+
+      - name: Verify approval stages did not touch live app files
+        run: git diff --exit-code -- app
 
       - name: Publish verified service-admin pages
         working-directory: pipeline
         run: |
           python -m scripts.publish_verified_pages_north_yorkshire --write
+
+      - name: Verify publisher changed only service-admin live files
+        run: |
+          set -euo pipefail
+          unexpected_app="$({ git diff --name-only -- app | awk '$0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
+          if [ -n "$unexpected_app" ]; then
+            echo "::error::Teaching Vacancies publisher changed unexpected app files:"
+            printf '%s\n' "$unexpected_app"
+            exit 1
+          fi
 
       - name: Commit reviewed boundaries, approved snapshots, combined outputs and live pages
         run: |
