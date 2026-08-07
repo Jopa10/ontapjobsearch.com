@@ -134,11 +134,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "9313f8d8-798c-47d4-b862-63cec763953a",
+    "title": "Procurement Administrator",
+    "company": "Reed - Agency - Temporary",
+    "location": "Tunbridge Wells",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "15.38",
+    "salary_text": "£13 - £15.38 per hour",
+    "posted_date": "",
+    "description": "Procurement Administrator (3 Month Contract)\n\nLooking for Your Next Procurement Opportunity?\n\nAre you a highly organised administrator with a keen eye for detail and experience supporting procurement or purchasing functions? Reed Business Support are seeking a Procurement Administrator to join a busy and collaborative team on a 3-month temporary contract, providing essential support to ensure the smooth running of procurement operations.\n\nThis is an excellent opportunity to gain valuable experience within a fast-paced environment and make an immediate impact.\n\nDay-to-Day of the role:\n- Raising and processing purchase orders accurately and efficiently.\n- Maintaining supplier records and procurement databases.\n- Monitoring and tracking orders to ensure timely delivery.\n- Liaising with suppliers and internal stakeholders regarding orders and queries.\n- Managing procurement documentation and contract records.\n- Supporting invoice reconciliation and resolving discrepancies.\n- Producing reports and assisting with procurement-related administration.\n- Ensuring compliance with company procurement policies and procedures.\n\nReady to take the next step in your career and enjoy:\n- Valuable experience within a professional procurement function.\n- Supportive and collaborative team environment.\n- Opportunity to develop procurement and supply chain knowledge.\n- Gain exposure to supplier management and purchasing processes.\n\nWe're looking for someone who is:\n- Previous experience in administration, purchasing, procurement, or supply chain support\n- Highly organised with excellent attention to detail\n- Confident using Microsoft Office, particularly Excel\n- Strong communication and stakeholder management skills\n- Able to prioritise workload and work independently\n- Experience with ERP or procurement systems would be advantageous\n\nApply Today!\n\nIf you're looking for a rewarding temporary opportunity within procurement, we'd love to hear from you.\n\nApply now or contact us for more information",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctwZAqGJas8GKAor9zSNRkA6p",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "6b598b1d-4b4d-4cb8-8645-64c446a8ae26",
@@ -163,12 +184,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "cf57b5c9-1ba9-42b2-abfe-093bc469040f",
@@ -193,11 +209,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "900e2fad-e172-4801-908f-64a7b0d2064e",
@@ -222,10 +234,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   }
 ]

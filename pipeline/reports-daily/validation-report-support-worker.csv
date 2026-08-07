@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,2225
-total rows included,51
+total rows included,53
 total rows dropped,2164
 title classification count - HIGH_CONFIDENCE,205
 title classification count - ELASTIC_FIT,130
@@ -16,13 +16,13 @@ other elastic count - Yorkshire - West,2
 total rows output - Yorkshire - West,3
 job_id included - Yorkshire - West,107800770; 1401783851; 107651994
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - South,2
+selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - South,3
 high confidence count - Yorkshire - South,2
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,0
-total rows output - Yorkshire - South,2
-job_id included - Yorkshire - South,107798506; 107798539
+total rows output - Yorkshire - South,3
+job_id included - Yorkshire - South,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7; 107798506; 107798539
 selection scenario - North East,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - North East,"North East selection complete: 12 selected after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - North East,12
@@ -31,14 +31,14 @@ anchor elastic count - North East,1
 other elastic count - North East,5
 total rows output - North East,12
 job_id included - North East,107616541; 6b804bc2-d778-42ed-bf1b-d3ec78422d8a; 35ef02dd-6e8a-4d5a-a1af-bacca950305f; cc359452-7885-406f-b982-9931f062cd19; 9b0995dd-b5e5-433f-b113-8a55acf6d8cd; 107199247; 107199252; 107800900; 107615864; 107617093; 107781117; 107800903
-selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Sussex,"Sussex selection complete: 9 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Sussex,9
+selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 10 selected.
+credible total - Sussex,10
 high confidence count - Sussex,6
 anchor elastic count - Sussex,0
 other elastic count - Sussex,3
-total rows output - Sussex,9
-job_id included - Sussex,1595772; 107693840; 2ed3e16f-b49e-444d-be95-42cbbb537763; b045cd0a-82e7-4208-8161-9940e9e8f7c7; 107681556; 107605050; 1401783835; 99725da6-35b1-4d29-9426-1b7224ab3269; 44c04919-b68b-4946-9565-88687eb782e2
+total rows output - Sussex,10
+job_id included - Sussex,1595772; 107693840; 107775338; 2ed3e16f-b49e-444d-be95-42cbbb537763; b045cd0a-82e7-4208-8161-9940e9e8f7c7; 107681556; 107605050; 1401783835; 99725da6-35b1-4d29-9426-1b7224ab3269; 44c04919-b68b-4946-9565-88687eb782e2
 selection scenario - Cumbria - South,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Cumbria - South,"Cumbria - South selection complete: 6 selected after HIGH_CONFIDENCE, Barrow-in-Furness ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Cumbria - South,6
