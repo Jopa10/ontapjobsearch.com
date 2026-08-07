@@ -49,6 +49,7 @@ jobs:
             tests/test_compose_teaching_vacancies_regional.py \
             tests/test_teaching_vacancies_regional_integration.py \
             tests/test_teaching_vacancies_workflow_switch.py \
+            tests/test_publish_verified_service_admin_pages.py \
             -q
 
       - name: Verify England-wide reviewed files exist
@@ -202,7 +203,7 @@ jobs:
       - name: Publish verified service-admin pages
         working-directory: pipeline
         run: |
-          python -m scripts.publish_verified_pages_north_yorkshire --write
+          python -m scripts.publish_verified_service_admin_pages --write
 
       - name: Verify publisher changed only service-admin live files
         run: |
