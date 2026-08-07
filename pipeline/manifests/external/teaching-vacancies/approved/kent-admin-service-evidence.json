@@ -1,0 +1,20 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:12+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Kent",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "42db948ecc667ae98ec93c71035f39255c5ae22e2cffa8d82edc088332ae8b5c",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "17f46b0e3c79af3ba9ab677b6bf8c20be8fc38d6031a543753bf6cb33093e514",
+  "summary_md_sha256": "0d6366019837b52739b273cae8cd8a9906a7682f9bc7a8c261eb34842f7ad8f7",
+  "approved_snapshot_sha256": "faf7fa4ddd21fb2e4de01fb5bf2f4f11ebfef99bb6e4924331db3df92edb5e08",
+  "approved_rows": 3,
+  "approved_job_ids": [
+    "teaching-vacancies-wg6-administrator-wilmington-grammar-school-for-girls",
+    "teaching-vacancies-pupil-records-administrator",
+    "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust"
+  ]
+}

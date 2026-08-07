@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 57
-- Selected: 21
-- POSS awaiting decision: 12
+- Selected: 22
+- POSS awaiting decision: 11
 - Excluded: 0
 - Hard pass: 24
 
 ## SELECTED
+
+---
+action: select
+SELECTED | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
+employer: Chaffinch Brook School
+closing_date: 2026-08-14T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
+source: Teaching Vacancies
+source_job_id: admin-assistant-chaffinch-brook-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
+---
 
 ---
 action: 
@@ -337,21 +352,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trainee-compliance-an
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
-employer: Chaffinch Brook School
-closing_date: 2026-08-14T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
-source: Teaching Vacancies
-source_job_id: admin-assistant-chaffinch-brook-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
----
 
 ---
 action: 

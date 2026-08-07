@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 1
-- Excluded: 0
+- Excluded: 1
 - Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
-employer: Ark Charter Academy
-closing_date: 2026-09-01T01:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
-source: Teaching Vacancies
-source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -55,7 +42,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
+employer: Ark Charter Academy
+closing_date: 2026-09-01T01:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
+source: Teaching Vacancies
+source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
+---
 
 ## HARD_PASS
 

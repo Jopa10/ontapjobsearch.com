@@ -1,0 +1,21 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:12+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Sussex",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "d43351ca421960b7aee5db9fe0aea8d82a526a84525c5f11fb92c1f4718da03a",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "7981b9284995f3e7babda3887fac5e287790a3279c2daa5572a6a7540f53c187",
+  "summary_md_sha256": "4b1fc74d9986f8fb86140665085f16c0d6a6a01cc7351c95f35422700ed25bf8",
+  "approved_snapshot_sha256": "bbdad7cff5377c7e1c50c2a5c1c879fee75ce1dbf8f2c4b413febae929db5407",
+  "approved_rows": 4,
+  "approved_job_ids": [
+    "teaching-vacancies-office-admin-assistant-greenway-junior-school",
+    "teaching-vacancies-hr-admin-assistant-robsack-wood-primary-school",
+    "teaching-vacancies-administrative-assistants-cardinal-newman-catholic-school",
+    "teaching-vacancies-admissions-and-attendance-officer-oakwood-primary-academy"
+  ]
+}

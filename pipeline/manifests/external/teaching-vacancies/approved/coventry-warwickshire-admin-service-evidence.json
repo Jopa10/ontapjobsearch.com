@@ -1,0 +1,19 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:13+01:00",
+  "source": "Teaching Vacancies",
+  "region": "West Midlands - Coventry & Warwickshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "a88179b405638c05066a3c97c4ae0a169e9aea68651d43ef99353e01d9d3fb94",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "103144c6aabcff966f83d06ff999345e7409b91926def21373358b28953ff0ef",
+  "summary_md_sha256": "46af841002cc5695299b789925830dd00966d8737c6956198685053171668f57",
+  "approved_snapshot_sha256": "d6e3c8e4561ad122c9f749c0e8347f3f6476729711076c7e6caaeec2454bea0b",
+  "approved_rows": 2,
+  "approved_job_ids": [
+    "teaching-vacancies-academy-receptionist-administrator-the-queen-elizabeth-academy",
+    "teaching-vacancies-admin-assistant-wellesbourne-cofe-primary-school"
+  ]
+}

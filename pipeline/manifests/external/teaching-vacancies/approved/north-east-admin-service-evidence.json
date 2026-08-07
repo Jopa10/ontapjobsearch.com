@@ -1,0 +1,16 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:12+01:00",
+  "source": "Teaching Vacancies",
+  "region": "North East",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "cf9926e363d1b751828b973b54510acde602f0ab3a94bf863c8f3253fecb957d",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "2b8b4419186b238f7b8767a2ac857b9d82469bfb3076ea508c89b28a93cb2e92",
+  "summary_md_sha256": "5160f601c6654a1555400233601f92e54358b8c61d887b7067b516f09eba4e73",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
+}

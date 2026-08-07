@@ -1,0 +1,18 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:12+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Surrey",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "67e3cb03a526ef05df5dea300d260eb2669fe4be47d10773eff34662a6b3ca1f",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "aa9a255e48671f9c0fecccc3600341fdecf24fd91a5cda41f8be7e711b0bf732",
+  "summary_md_sha256": "8e1a427d53d984948894f2090ba01a26a261e84d63cb7c1cdbf06996c2476287",
+  "approved_snapshot_sha256": "e7ca6143f6d3b57fdab282277673d9e83646491bf7060ef3aee3d0d31e73281c",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-school-office-assistant-wray-common-primary-school"
+  ]
+}

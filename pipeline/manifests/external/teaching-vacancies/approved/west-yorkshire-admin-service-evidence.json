@@ -1,0 +1,28 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:13+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Yorkshire - West",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "2b2250d59c655d8e72da4113c79e29f389597dc38fbad587e6edc15fe4af0c5f",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "8aeee8a23fd37df94bd0e67b8d7071cad054dcb41d797ae4de1f41f3d7b1c955",
+  "summary_md_sha256": "3e30d285c6c69675a51af4ada0edb1bdbb3a1afcd8802cf38d9cf3f03d8c5129",
+  "approved_snapshot_sha256": "631af77ac7a1beb1a8b611afdf0b6b8dcca09b4cc41542c56150fe7ee4213a7b",
+  "approved_rows": 11,
+  "approved_job_ids": [
+    "teaching-vacancies-exams-officer-newsome-academy-huddersfield-west-yorkshire",
+    "teaching-vacancies-administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire",
+    "teaching-vacancies-business-support-officer-tong-leadership-academy-bradford-west-yorkshire",
+    "teaching-vacancies-school-receptionist-cross-gates-primary-school",
+    "teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire",
+    "teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05",
+    "teaching-vacancies-specialist-administrator-send-medical-lead-first-aid",
+    "teaching-vacancies-business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49",
+    "teaching-vacancies-business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636",
+    "teaching-vacancies-send-exam-access-arrangements-administrator",
+    "teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire"
+  ]
+}

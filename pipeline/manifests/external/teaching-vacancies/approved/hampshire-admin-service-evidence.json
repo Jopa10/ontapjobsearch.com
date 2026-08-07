@@ -1,0 +1,16 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-07T07:57:12+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Hampshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-07",
+  "review_fingerprint": "b0c7569ebfa759ba0c8f00359b094f6e9bcefb718f058796d6c677a3d2caf8b3",
+  "routing_manifest_sha256": "e3485a21b73eeade92cdd94b8614ca3de6433e8118123a90a2597339da4a4eec",
+  "review_csv_sha256": "915a5a277c390342b5e55ba56bf6505040477df9c9e8f7ae8160c32404199e4e",
+  "summary_md_sha256": "78b4c50e4e9dc0c573d45367b31b5f523f098e81382cdb3ab7a7eab59f7cdc92",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
+}
