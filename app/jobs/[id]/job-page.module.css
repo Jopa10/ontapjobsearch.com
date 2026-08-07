@@ -29,6 +29,14 @@
   top: 92px;
 }
 
+.mobileTransferableFit {
+  display: none;
+}
+
+.desktopTransferableFit {
+  display: block;
+}
+
 @media (max-width: 900px) {
   .page {
     margin-top: 24px;
@@ -42,6 +50,15 @@
   .sidebar {
     position: static;
     margin-top: 20px;
+  }
+
+  .mobileTransferableFit {
+    display: block;
+    margin-bottom: 22px;
+  }
+
+  .desktopTransferableFit {
+    display: none;
   }
 }
 
