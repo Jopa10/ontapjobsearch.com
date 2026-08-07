@@ -45,144 +45,137 @@ jobs:
           regional = Path("pipeline/external_sources/teaching_vacancies_regional_review.py")
           replace_once(
               regional,
-              '''    for source_job_id, action in actions.items():
-                  current_by_id[source_job_id].manual_action = action
-                  if not current_by_id[source_job_id].migration_status:
-                      current_by_id[source_job_id].migration_status = "SAME_DAY_ACTION"
-          ''',
-              '''    for source_job_id, action in actions.items():
-                  record = current_by_id[source_job_id]
-                  if (
-                      action == "select"
-                      and record.vacancy.jobg8_check == "POSSIBLE_DUPLICATE"
-                  ):
-                      if not record.migration_status:
-                          record.migration_status = "REVIEW_REQUIRED_DUPLICATE"
-                      continue
-                  record.manual_action = action
-                  if not record.migration_status:
-                      record.migration_status = "SAME_DAY_ACTION"
-          ''',
+              "    for source_job_id, action in actions.items():\n"
+              "        current_by_id[source_job_id].manual_action = action\n"
+              "        if not current_by_id[source_job_id].migration_status:\n"
+              "            current_by_id[source_job_id].migration_status = \"SAME_DAY_ACTION\"\n",
+              "    for source_job_id, action in actions.items():\n"
+              "        record = current_by_id[source_job_id]\n"
+              "        if (\n"
+              "            action == \"select\"\n"
+              "            and record.vacancy.jobg8_check == \"POSSIBLE_DUPLICATE\"\n"
+              "        ):\n"
+              "            if not record.migration_status:\n"
+              "                record.migration_status = \"REVIEW_REQUIRED_DUPLICATE\"\n"
+              "            continue\n"
+              "        record.manual_action = action\n"
+              "        if not record.migration_status:\n"
+              "            record.migration_status = \"SAME_DAY_ACTION\"\n",
           )
 
           master_actions = Path("pipeline/external_sources/teaching_vacancies_master_actions.py")
           replace_once(
               master_actions,
-              '''        if clean(current.get("final_decision")).upper() == "HARD_PASS":
-                      continue
-                  old_fingerprint = clean(old.get("factual_fingerprint"))
-          ''',
-              '''        if clean(current.get("final_decision")).upper() == "HARD_PASS":
-                      continue
-                  if (
-                      action == "select"
-                      and clean(current.get("jobg8_check")).upper()
-                      == "POSSIBLE_DUPLICATE"
-                  ):
-                      current["manual_action"] = ""
-                      current["final_decision"] = _final_decision(current, "")
-                      continue
-                  old_fingerprint = clean(old.get("factual_fingerprint"))
-          ''',
+              "        if clean(current.get(\"final_decision\")).upper() == \"HARD_PASS\":\n"
+              "            continue\n"
+              "        old_fingerprint = clean(old.get(\"factual_fingerprint\"))\n",
+              "        if clean(current.get(\"final_decision\")).upper() == \"HARD_PASS\":\n"
+              "            continue\n"
+              "        if (\n"
+              "            action == \"select\"\n"
+              "            and clean(current.get(\"jobg8_check\")).upper()\n"
+              "            == \"POSSIBLE_DUPLICATE\"\n"
+              "        ):\n"
+              "            current[\"manual_action\"] = \"\"\n"
+              "            current[\"final_decision\"] = _final_decision(current, \"\")\n"
+              "            continue\n"
+              "        old_fingerprint = clean(old.get(\"factual_fingerprint\"))\n",
           )
 
           regional_tests = Path("pipeline/tests/test_teaching_vacancies_regional_review.py")
           regional_text = regional_tests.read_text(encoding="utf-8")
-          regional_test = r'''
-
-
-def test_possible_jobg8_duplicate_requires_fresh_review_before_select_carries(
-    tmp_path: Path,
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    monkeypatch.setattr(
-        review.poc,
-        "compare_jobg8",
-        lambda vacancy, rows: (
-            "POSSIBLE_DUPLICATE",
-            "Admin Assistant",
-            "Example Employer",
-            "0.695",
-        ),
-    )
-    records = classify([routed_row("possible-duplicate")])
-    record = records[0]
-
-    assert record.vacancy.classification == "POSS"
-    assert record.vacancy.jobg8_check == "POSSIBLE_DUPLICATE"
-    assert review.decision_for(record) == "POSS"
-
-    summary_path = tmp_path / "summary.md"
-    summary_path.write_text(
-        """review_date: 2026-08-06
----
-action: select
-factual_fingerprint: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-source_job_id: possible-duplicate
----
-""",
-        encoding="utf-8",
-    )
-
-    review.apply_existing_actions(
-        records,
-        summary_path=summary_path,
-        review_date="2026-08-06",
-    )
-
-    assert record.manual_action == ""
-    assert record.migration_status == "REVIEW_REQUIRED_DUPLICATE"
-    assert review.decision_for(record) == "POSS"
-'''
+          regional_test = (
+              "\n\n"
+              "def test_possible_jobg8_duplicate_requires_fresh_review_before_select_carries(\n"
+              "    tmp_path: Path,\n"
+              "    monkeypatch: pytest.MonkeyPatch,\n"
+              ") -> None:\n"
+              "    monkeypatch.setattr(\n"
+              "        review.poc,\n"
+              "        \"compare_jobg8\",\n"
+              "        lambda vacancy, rows: (\n"
+              "            \"POSSIBLE_DUPLICATE\",\n"
+              "            \"Admin Assistant\",\n"
+              "            \"Example Employer\",\n"
+              "            \"0.695\",\n"
+              "        ),\n"
+              "    )\n"
+              "    records = classify([routed_row(\"possible-duplicate\")])\n"
+              "    record = records[0]\n"
+              "\n"
+              "    assert record.vacancy.classification == \"POSS\"\n"
+              "    assert record.vacancy.jobg8_check == \"POSSIBLE_DUPLICATE\"\n"
+              "    assert review.decision_for(record) == \"POSS\"\n"
+              "\n"
+              "    summary_path = tmp_path / \"summary.md\"\n"
+              "    summary_path.write_text(\n"
+              "        \"review_date: 2026-08-06\\n\"\n"
+              "        \"---\\n\"\n"
+              "        \"action: select\\n\"\n"
+              "        \"factual_fingerprint: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\\n\"\n"
+              "        \"source_job_id: possible-duplicate\\n\"\n"
+              "        \"---\\n\",\n"
+              "        encoding=\"utf-8\",\n"
+              "    )\n"
+              "\n"
+              "    review.apply_existing_actions(\n"
+              "        records,\n"
+              "        summary_path=summary_path,\n"
+              "        review_date=\"2026-08-06\",\n"
+              "    )\n"
+              "\n"
+              "    assert record.manual_action == \"\"\n"
+              "    assert record.migration_status == \"REVIEW_REQUIRED_DUPLICATE\"\n"
+              "    assert review.decision_for(record) == \"POSS\"\n"
+          )
           if "test_possible_jobg8_duplicate_requires_fresh_review_before_select_carries" not in regional_text:
               regional_tests.write_text(regional_text.rstrip() + regional_test + "\n", encoding="utf-8")
 
           master_tests = Path("pipeline/tests/test_teaching_vacancies_master_actions.py")
           master_text = master_tests.read_text(encoding="utf-8")
-          master_test = r'''
-
-
-def test_master_carry_does_not_reselect_possible_jobg8_duplicate(
-    tmp_path: Path,
-) -> None:
-    old_dir = tmp_path / "old"
-    old_dir.mkdir()
-    old_record = make_record(
-        "possible-duplicate",
-        classification="POSS",
-        title="Admin Assistant",
-    )
-    old_record.vacancy.jobg8_check = "POSSIBLE_DUPLICATE"
-    old_record.manual_action = "select"
-    write_region(old_dir, [old_record])
-    old_rows = master.build_master_rows(old_dir)
-
-    old_csv = tmp_path / "old-master.csv"
-    old_md = tmp_path / "old-master.md"
-    old_csv.write_bytes(master.master_csv_bytes(old_rows))
-    old_md.write_text(master.master_summary_text(old_rows), encoding="utf-8")
-
-    current_dir = tmp_path / "current"
-    current_dir.mkdir()
-    current_record = make_record(
-        "possible-duplicate",
-        classification="POSS",
-        title="Admin Assistant",
-    )
-    current_record.vacancy.jobg8_check = "POSSIBLE_DUPLICATE"
-    write_region(current_dir, [current_record])
-    current_rows = master.build_master_rows(current_dir)
-
-    carried = actions.carry_existing_actions(
-        current_rows,
-        old_master_csv=old_csv,
-        old_master_summary=old_md,
-    )
-
-    assert carried == 0
-    assert current_rows[0]["manual_action"] == ""
-    assert current_rows[0]["final_decision"] == "POSS"
-'''
+          master_test = (
+              "\n\n"
+              "def test_master_carry_does_not_reselect_possible_jobg8_duplicate(\n"
+              "    tmp_path: Path,\n"
+              ") -> None:\n"
+              "    old_dir = tmp_path / \"old\"\n"
+              "    old_dir.mkdir()\n"
+              "    old_record = make_record(\n"
+              "        \"possible-duplicate\",\n"
+              "        classification=\"POSS\",\n"
+              "        title=\"Admin Assistant\",\n"
+              "    )\n"
+              "    old_record.vacancy.jobg8_check = \"POSSIBLE_DUPLICATE\"\n"
+              "    old_record.manual_action = \"select\"\n"
+              "    write_region(old_dir, [old_record])\n"
+              "    old_rows = master.build_master_rows(old_dir)\n"
+              "\n"
+              "    old_csv = tmp_path / \"old-master.csv\"\n"
+              "    old_md = tmp_path / \"old-master.md\"\n"
+              "    old_csv.write_bytes(master.master_csv_bytes(old_rows))\n"
+              "    old_md.write_text(master.master_summary_text(old_rows), encoding=\"utf-8\")\n"
+              "\n"
+              "    current_dir = tmp_path / \"current\"\n"
+              "    current_dir.mkdir()\n"
+              "    current_record = make_record(\n"
+              "        \"possible-duplicate\",\n"
+              "        classification=\"POSS\",\n"
+              "        title=\"Admin Assistant\",\n"
+              "    )\n"
+              "    current_record.vacancy.jobg8_check = \"POSSIBLE_DUPLICATE\"\n"
+              "    write_region(current_dir, [current_record])\n"
+              "    current_rows = master.build_master_rows(current_dir)\n"
+              "\n"
+              "    carried = actions.carry_existing_actions(\n"
+              "        current_rows,\n"
+              "        old_master_csv=old_csv,\n"
+              "        old_master_summary=old_md,\n"
+              "    )\n"
+              "\n"
+              "    assert carried == 0\n"
+              "    assert current_rows[0][\"manual_action\"] == \"\"\n"
+              "    assert current_rows[0][\"final_decision\"] == \"POSS\"\n"
+          )
           if "test_master_carry_does_not_reselect_possible_jobg8_duplicate" not in master_text:
               master_tests.write_text(master_text.rstrip() + master_test + "\n", encoding="utf-8")
           PY
