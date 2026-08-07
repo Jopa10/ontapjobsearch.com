@@ -13,6 +13,7 @@ type TransferableFitCardProps = {
   region: string;
   source: string;
   slicePath: string;
+  placement: "desktop" | "mobile";
 };
 
 type TrackingWindow = Window & {
@@ -29,8 +30,10 @@ export default function TransferableFitCard({
   region,
   source,
   slicePath,
+  placement,
 }: TransferableFitCardProps) {
   const cardRef = useRef<HTMLElement>(null);
+  const headingId = `transferable-fit-${placement}-${jobId}`;
 
   useEffect(() => {
     const element = cardRef.current;
@@ -57,6 +60,7 @@ export default function TransferableFitCard({
               region,
               source,
               slice_path: slicePath,
+              placement,
               page_path: window.location.pathname,
             });
           }
@@ -69,11 +73,11 @@ export default function TransferableFitCard({
 
     observer.observe(element);
     return () => observer.disconnect();
-  }, [employer, jobId, location, region, slicePath, source, title]);
+  }, [employer, jobId, location, placement, region, slicePath, source, title]);
 
   return (
-    <section ref={cardRef} className={styles.card} aria-labelledby={`transferable-fit-${jobId}`}>
-      <h2 id={`transferable-fit-${jobId}`} className={styles.heading}>
+    <section ref={cardRef} className={styles.card} aria-labelledby={headingId}>
+      <h2 id={headingId} className={styles.heading}>
         Why your experience may fit
       </h2>
 
