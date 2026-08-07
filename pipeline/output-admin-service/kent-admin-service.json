@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Wilmington Grammar School for Girls",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-pupil-records-administrator",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parkwood Hall Co-Operative Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-nore-academy",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Nore Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Diocese Of Canterbury Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1eeca110-4bfa-4f50-b7e3-a83fe57a3242",
@@ -118,11 +134,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "6b598b1d-4b4d-4cb8-8645-64c446a8ae26",
@@ -147,12 +159,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "cf57b5c9-1ba9-42b2-abfe-093bc469040f",
+    "title": "Receptionist / Administrator",
+    "company": "Kelly Parrish Recruitment Limited - Agency - Permanent",
+    "location": "Canterbury",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "24000",
+    "salary_max": "26000",
+    "salary_text": "£24000 - £26000 per year",
+    "posted_date": "",
+    "description": "Receptionist / Administrator - £24,000 - £26,000pa - Canterbury, Kent\n\nOur client, a thriving professional Law firm based in Canterbury, are looking for a Receptionist / Administrator to join their team on a full-time permanent basis. For this office-based role we are looking for someone with previous experience within a professional client facing environment (ideally a Law firm), excellent communication and organisational skills and a strong attention to detail.\n\nDuties for the Receptionist / Administrator will involve: -\n- Answering incoming calls in a professional, timely manner and directing to the correct department / person and dealing with the overflow of calls from the main switchboard.\n- Taking accurate messages and ensuring they are promptly passed to relevant person.\n- Greeting visitors and staff, maintaining the visitor and staff signing in/out register and ensuring compliance with office security policies.\n- Monitoring the meeting room diary daily to anticipate visitor arrivals and manage room bookings effectively.\n- Responding effectively and promptly to enquiries from internal/external contacts.\n- Ensuring the post is prepared, franked and ready for end of day posting.\n- Maintaining a tidy, organised and professional appearance across the reception area and meeting rooms at all times.\n- Monitoring and ensuring adequate office supplies and stationery are maintained.\n- Overseeing the archiving process, accurately recording archive reference numbers.\n- Scanning and copying documents as required.\n- Assisting the Practice Manager with delegated administration tasks and ad hoc projects to support the smooth running of the office.\n\nWhat you will need for the Receptionist / Administrator role: -\n- Good level of academic achievement\n- Minimum of one year in a professional or client facing environment managing enquiries\n- Good IT skills (experience of a Legal Practice Management system preferred).\n- Strong administration support and organisational skills with attention to detail.\n- Excellent written and verbal communication skills and professional telephone manner.\n- A strong team player who's also able to work on own initiative and knows when to ask for assistance.\n- A proactive and flexible attitude with a desire to learn new skills.\n- A strong understanding of strict confidentiality and data protection.\n\nWhat's in it for you: -\n\nOur client is offering a salary of £24,000 - £26,000pa, 24 days holiday which rises with service and a host of other great company benefits.\n\nThe working hours for this role are 9.00am - 5.00pm Monday to Friday.\n\nIf you have the relevant skills and experience for this role, we would like to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbx7sIhFRll6g7JgpZlNyL4tt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kelly Parrish Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "900e2fad-e172-4801-908f-64a7b0d2064e",
@@ -177,10 +209,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   }
 ]
