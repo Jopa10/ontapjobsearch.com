@@ -8,7 +8,12 @@ from external_sources import teaching_vacancies_master_review as master
 
 
 def write_review(
-    path: Path, *, region: str, source_job_id: str, slice_status: str
+    path: Path,
+    *,
+    region: str,
+    source_job_id: str,
+    slice_status: str,
+    final_decision: str = "SELECTED",
 ) -> None:
     fields = [
         field
@@ -18,10 +23,12 @@ def write_review(
     row = {field: "" for field in fields}
     row.update(
         {
-            "final_decision": "SELECTED",
+            "final_decision": final_decision,
             "title": "Administrator",
             "salary_text": "£25,000",
-            "classification": "HC",
+            "classification": (
+                "HC" if final_decision == "SELECTED" else final_decision
+            ),
             "classification_reason": "Clear admin/service title: administrator",
             "employer": "Example School",
             "location": "Leeds",
@@ -86,3 +93,49 @@ def test_master_review_marks_live_regions_and_writes_summary(tmp_path: Path) -> 
     assert "## DEFERRED REGIONS — NOT FOR MANUAL REVIEW" in summary
     assert "Bedfordshire / admin_service" in summary
     assert "source_job_id: beds" not in summary
+
+
+def test_master_csv_orders_all_decisions_before_review_scope(tmp_path: Path) -> None:
+    write_review(
+        tmp_path / "a-live-hard-admin-service-review.csv",
+        region="Hampshire",
+        source_job_id="live-hard",
+        slice_status="LIVE",
+        final_decision="HARD_PASS",
+    )
+    write_review(
+        tmp_path / "b-deferred-selected-admin-service-review.csv",
+        region="Bedfordshire",
+        source_job_id="deferred-selected",
+        slice_status="UNREGISTERED",
+        final_decision="SELECTED",
+    )
+    write_review(
+        tmp_path / "c-live-poss-admin-service-review.csv",
+        region="London",
+        source_job_id="live-poss",
+        slice_status="LIVE",
+        final_decision="POSS",
+    )
+    write_review(
+        tmp_path / "d-live-selected-admin-service-review.csv",
+        region="Yorkshire - West",
+        source_job_id="live-selected",
+        slice_status="LIVE",
+        final_decision="SELECTED",
+    )
+
+    rows = master.build_master_rows(tmp_path)
+
+    assert [row["source_job_id"] for row in rows] == [
+        "live-selected",
+        "deferred-selected",
+        "live-poss",
+        "live-hard",
+    ]
+    assert [row["final_decision"] for row in rows] == [
+        "SELECTED",
+        "SELECTED",
+        "POSS",
+        "HARD_PASS",
+    ]
