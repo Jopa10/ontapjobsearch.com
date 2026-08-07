@@ -1,0 +1,102 @@
+name: Check TV POSS coverage once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/check-tv-poss-coverage-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Compare LIVE regional POSS with master CSV and MD
+        run: |
+          python - <<'PY'
+          import csv
+          import re
+          from pathlib import Path
+
+          root = Path('pipeline/reviews/external/teaching-vacancies')
+          master_csv = root / 'england-wide-admin-service-review.csv'
+          master_md = root / 'england-wide-admin-service-summary.md'
+
+          def read_csv(path):
+              with path.open(encoding='utf-8-sig', newline='') as f:
+                  return list(csv.DictReader(f))
+
+          master_rows = read_csv(master_csv)
+          master_poss = {
+              r['source_job_id']: r
+              for r in master_rows
+              if r.get('review_scope') == 'REVIEW NOW' and r.get('final_decision') == 'POSS'
+          }
+
+          regional_poss = {}
+          regional_files = []
+          for path in sorted(root.glob('*-admin-service-review.csv')):
+              if path.name == master_csv.name:
+                  continue
+              rows = read_csv(path)
+              live_rows = [r for r in rows if r.get('slice_status') == 'LIVE' or r.get('publish_eligible') == 'YES']
+              if not live_rows:
+                  continue
+              regional_files.append(path.name)
+              for r in live_rows:
+                  # Regional review decision may be held in final_decision; classification POSS is the underlying classifier.
+                  if r.get('final_decision') == 'POSS':
+                      regional_poss[r['source_job_id']] = (path.name, r)
+
+          text = master_md.read_text(encoding='utf-8')
+          md_poss = {}
+          blocks = re.split(r'\n---\n', text)
+          for block in blocks:
+              if not re.search(r'(?m)^POSS \|', block):
+                  continue
+              m = re.search(r'(?m)^source_job_id:\s*(.+?)\s*$', block)
+              if m:
+                  md_poss[m.group(1).strip()] = block
+
+          print(f'LIVE_REGIONAL_FILES={len(regional_files)}')
+          print(f'LIVE_REGIONAL_POSS={len(regional_poss)}')
+          print(f'MASTER_CSV_POSS={len(master_poss)}')
+          print(f'MD_POSS_BLOCKS={len(md_poss)}')
+
+          print('\nREGIONAL POSS:')
+          for job_id, (fname, r) in sorted(regional_poss.items(), key=lambda x: (x[1][1].get('ontap_region',''), x[1][1].get('title',''))):
+              print(f"REGIONAL|{r.get('ontap_region')}|{r.get('title')}|{job_id}|{fname}|{r.get('classification_reason')}")
+
+          print('\nMASTER POSS:')
+          for job_id, r in sorted(master_poss.items(), key=lambda x: (x[1].get('ontap_region',''), x[1].get('title',''))):
+              print(f"MASTER|{r.get('ontap_region')}|{r.get('title')}|{job_id}|{r.get('classification_reason')}")
+
+          missing_master = set(regional_poss) - set(master_poss)
+          extra_master = set(master_poss) - set(regional_poss)
+          missing_md = set(master_poss) - set(md_poss)
+          extra_md = set(md_poss) - set(master_poss)
+          print('\nDIFFS:')
+          print('REGIONAL_NOT_MASTER=' + repr(sorted(missing_master)))
+          print('MASTER_NOT_REGIONAL=' + repr(sorted(extra_master)))
+          print('MASTER_NOT_MD=' + repr(sorted(missing_md)))
+          print('MD_NOT_MASTER=' + repr(sorted(extra_md)))
+
+          if missing_master or extra_master or missing_md or extra_md:
+              raise SystemExit('STOP: POSS coverage mismatch detected')
+          print('POSS coverage reconciles exactly across LIVE regional CSVs, master CSV, and MD.')
+          PY
+
+      - name: Remove one-time workflow
+        if: always()
+        run: |
+          git rm .github/workflows/check-tv-poss-coverage-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Remove one-time TV POSS coverage check"
+          git push origin main
