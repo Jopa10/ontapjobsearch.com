@@ -1,0 +1,53 @@
+name: Inspect geo lookup once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/inspect-geo-lookup-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install openpyxl
+      - name: Inspect shared geography lookup
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from external_sources.regional_contracts import load_geo_lookup, normalise
+
+          lookup = load_geo_lookup(Path('geo/geo_lookup.xlsx'))
+          probes = [
+              'Ash Vale', 'GU12 5PX', 'GU12', 'GU',
+              'Sheerness', 'ME12 3AP', 'ME12', 'ME',
+              'Askwith', 'Otley', 'LS21 2HX', 'LS21', 'LS',
+              'Knottingley', 'WF11 0BZ', 'WF11', 'WF',
+              'Faringdon', 'SN7 7LB', 'SN7', 'SN',
+              'Carterton', 'OX18 3AD', 'OX18', 'OX',
+              'Sandhurst', 'GU47 0SD', 'GU47',
+          ]
+          for probe in probes:
+              key = normalise(probe)
+              print(f'PROBE {probe!r} -> {key!r}: {lookup.get(key)!r}')
+
+          for prefix in ('ash', 'sheerness', 'ask', 'otl', 'knot', 'gu12', 'me12', 'ls21', 'wf11', 'faring', 'sn7', 'carter', 'ox18', 'sand', 'gu47'):
+              hits = sorted((k, v) for k, v in lookup.items() if k.startswith(prefix))[:25]
+              print(f'PREFIX {prefix!r}: {hits!r}')
+          PY
+      - name: Remove one-time diagnostic workflow
+        run: |
+          git rm .github/workflows/inspect-geo-lookup-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Remove one-time geo lookup diagnostic"
+          git push origin main
