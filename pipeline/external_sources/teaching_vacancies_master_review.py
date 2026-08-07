@@ -1,8 +1,8 @@
 """Build England-wide Teaching Vacancies review outputs from regional CSVs.
 
 Regional review files remain the authoritative regional evidence and approval
-boundaries. The master CSV and Markdown summary are convenience views only and
-do not publish jobs.
+boundaries. The England-wide Markdown file is the single human review surface;
+the master CSV is the quick overview. Neither output publishes jobs.
 """
 from __future__ import annotations
 
@@ -94,9 +94,8 @@ def _md(value: str) -> str:
     return value.replace("|", "\\|").replace("\n", " ").strip()
 
 
-def _review_block(row: dict[str, str]) -> list[str]:
-    action = row.get("manual_action", "").strip().casefold()
-    headline = " | ".join(
+def review_headline(row: dict[str, str]) -> str:
+    return " | ".join(
         [
             _md(row["final_decision"]),
             _md(row["ontap_region"]),
@@ -105,13 +104,18 @@ def _review_block(row: dict[str, str]) -> list[str]:
             _md(row["title"]),
         ]
     )
+
+
+def _review_block(row: dict[str, str]) -> list[str]:
+    action = row.get("manual_action", "").strip().casefold()
     return [
         "---",
         f"action: {action}" if action else "action:",
-        headline,
+        review_headline(row),
         f"employer: {_md(row['employer'])}",
         f"closing_date: {_md(row['closing_date'])}",
         f"reason: {_md(row['classification_reason'])}",
+        f"factual_fingerprint: {_md(row['factual_fingerprint'])}",
         f"source_job_id: {_md(row['source_job_id'])}",
         f"source_url: {_md(row['source_url'])}",
         "---",
@@ -137,7 +141,7 @@ def master_summary_text(rows: list[dict[str, str]]) -> str:
         "- For a selected job, use `action: exclude` to remove it.",
         "- For a possible job, use `action: select` to add it.",
         "- Leave `action:` blank for no change.",
-        "- Manual edits are matched by `source_job_id`.",
+        "- Manual edits are matched by `source_job_id` and checked against the vacancy facts.",
         "- Only LIVE Ontap regions appear as individual review blocks.",
         "- This England-wide file is the review surface; regional files remain the approval boundaries.",
         "",
@@ -156,9 +160,14 @@ def master_summary_text(rows: list[dict[str, str]]) -> str:
         {row["ontap_region"] for row in live_rows if row["ontap_region"]},
         key=str.casefold,
     )
+    sections = (
+        ("SELECTED", "SELECTED"),
+        ("POSS", "POSSIBLES"),
+        ("EXCLUDED", "EXCLUDED BY REVIEW"),
+    )
     for region in regions:
         region_rows = [row for row in live_rows if row["ontap_region"] == region]
-        for decision, heading in (("SELECTED", "SELECTED"), ("POSS", "POSSIBLES")):
+        for decision, heading in sections:
             grouped = [row for row in region_rows if row["final_decision"] == decision]
             lines.extend([f"## {region.upper()} — {heading}", ""])
             if not grouped:
