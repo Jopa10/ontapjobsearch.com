@@ -22,6 +22,9 @@ def write_review(
             "title": "Administrator",
             "salary_text": "£25,000",
             "classification_reason": "Clear admin/service title: administrator",
+            "employer": "Example School",
+            "location": "Leeds",
+            "closing_date": "2026-08-31",
             "ontap_region": region,
             "slice_status": slice_status,
             "source_job_id": source_job_id,
@@ -69,5 +72,13 @@ def test_master_review_marks_live_regions_and_writes_summary(tmp_path: Path) -> 
     summary = master.master_summary_text(rows)
     assert "REVIEW NOW (LIVE regions): **1**" in summary
     assert "DEFERRED - REGION NOT LIVE: **1**" in summary
-    assert "Yorkshire - West / admin_service" in summary
+    assert "## YORKSHIRE - WEST — SELECTED" in summary
+    assert "action:" in summary
+    assert "SELECTED | Yorkshire - West | Leeds | £25,000 | Administrator" in summary
+    assert "employer: Example School" in summary
+    assert "closing_date: 2026-08-31" in summary
+    assert "source_job_id: west" in summary
+    assert "source_url: https://example.test/west" in summary
+    assert "## DEFERRED REGIONS — NOT FOR MANUAL REVIEW" in summary
     assert "Bedfordshire / admin_service" in summary
+    assert "source_job_id: beds" not in summary
