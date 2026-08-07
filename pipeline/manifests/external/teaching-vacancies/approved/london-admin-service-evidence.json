@@ -1,16 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-07T10:22:58+01:00",
+  "generated_at": "2026-08-07T11:36:51+01:00",
   "source": "Teaching Vacancies",
   "region": "London",
   "category": "admin_service",
   "slice_status": "LIVE",
   "review_date": "2026-08-07",
-  "review_fingerprint": "57f7e7ad4f1009d1ff2540328011965de9f452ccea63b370eed7776991f54be1",
-  "routing_manifest_sha256": "665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673",
-  "review_csv_sha256": "72defb85e94733acdee9e849e000f45619119bfe91ff3ef73eca616f9d41ea81",
-  "summary_md_sha256": "6bb87c7274cab35727f872833c1da1fdc37bff2ef180cd778c91a9331d59080e",
-  "approved_snapshot_sha256": "a1012ccf98373d753fba7f90fdf7e1a574932937b29d1d2ff20ec789f9f93547",
+  "review_fingerprint": "eec1858d75849834967af5d0bae3def9d40b18fbbd240ca17959c6eed5b54f6a",
+  "routing_manifest_sha256": "e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730",
+  "review_csv_sha256": "354b8b5c966dfd65ea5c2ac07e92f31736df998296b90a76c752c141a3ca95a6",
+  "summary_md_sha256": "52d4cb524136ca27249049edba48a408807915f2d3f9f4508a0833a2556af5c2",
+  "approved_snapshot_sha256": "c4d418da76351dd89f79e3396724c844e0567d720c2acc34ad3283af89ae016a",
   "approved_rows": 25,
   "approved_job_ids": [
     "teaching-vacancies-administration-assistant-horn-park-primary-school-london",
@@ -22,9 +22,9 @@
     "teaching-vacancies-data-and-exams-officer-park-high-school-stanmore",
     "teaching-vacancies-maths-hub-executive-administrator-the-st-marylebone-cofe-school",
     "teaching-vacancies-personal-assistant-pa-to-senior-leadership-team-slt",
-    "teaching-vacancies-exams-officer-alperton-community-school-wembley-middlesex",
     "teaching-vacancies-senior-administrator-bobby-moore-academy-london",
     "teaching-vacancies-receptionist-administrative-assistant-68fdbe69-d591-4204-a119-22911245a99a",
+    "teaching-vacancies-school-admin-assistant-myatt-garden-primary-school-london",
     "teaching-vacancies-administration-assistant-and-first-aider-carshalton-high-school-for-girls",
     "teaching-vacancies-attendance-officer-1cc7b9ae-114c-4858-8cb8-4caae38307df",
     "teaching-vacancies-school-administrator-beecholme-primary-school",
@@ -34,9 +34,9 @@
     "teaching-vacancies-attendance-officer-coombe-girls-school",
     "teaching-vacancies-ehcp-administrator-lime-academy-ravensbourne",
     "teaching-vacancies-administrative-assistant-ranelagh-primary-school",
+    "teaching-vacancies-attendance-and-pastoral-support-worker-northwood-school",
     "teaching-vacancies-receptionist-office-co-ordinator",
     "teaching-vacancies-receptionist-administrator-belleville-wix-academy-london",
-    "teaching-vacancies-administrative-assistant-pathways-school",
-    "teaching-vacancies-contracts-administrator"
+    "teaching-vacancies-administrative-assistant-pathways-school"
   ]
 }

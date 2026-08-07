@@ -70,5 +70,29 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-school-office-administrator-askwith-primary-school",
+    "title": "School Office Administrator",
+    "company": "Askwith Primary School",
+    "location": "Otley",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'temporary']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£21,196",
+    "work_pattern": "",
+    "posted_date": "2026-07-28",
+    "closing_date": "2026-09-17",
+    "closing_datetime": "2026-09-17T09:00:00+01:00",
+    "summary": "School Office Administrator with Askwith Primary School in Otley. ['full time', 'temporary']; £21,196.",
+    "description": "Askwith Primary School is recruiting for this vacancy in Otley.\n\nThe advertised position is School Office Administrator.\n\nThe source lists the employment type as ['full time', 'temporary'].\n\nThe advertised salary or pay scale is £21,196.\n\nThe stated application deadline is 2026-09-17T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-askwith-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   }
 ]

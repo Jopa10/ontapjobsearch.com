@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-07T10:22:58+01:00",
+  "generated_at": "2026-08-07T11:36:51+01:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
   "review_date": "2026-08-07",
-  "review_fingerprint": "42db948ecc667ae98ec93c71035f39255c5ae22e2cffa8d82edc088332ae8b5c",
-  "routing_manifest_sha256": "665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673",
-  "review_csv_sha256": "9917c145ce2d01555702ad0160e2f4fb030890933ddae82fff23a349b394fe9c",
-  "summary_md_sha256": "bc3ce1bdb5981084e2b8b64abb5c24cee254fd88deef8d3fd8fdb2826622cba2",
-  "approved_snapshot_sha256": "faf7fa4ddd21fb2e4de01fb5bf2f4f11ebfef99bb6e4924331db3df92edb5e08",
-  "approved_rows": 3,
+  "review_fingerprint": "0009bc145789246045b909edde86dd210e3b2109aa7529776495284b97ecb5ac",
+  "routing_manifest_sha256": "e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730",
+  "review_csv_sha256": "4620e0ea2c851ff53dd3d9402fef913853811fbbd0fabb3e21163ccee3484c5d",
+  "summary_md_sha256": "f0666a67a2137d1008ff507db9a2d207f8673b76641a5661761bb65e2e18348b",
+  "approved_snapshot_sha256": "418014865e73ca47af3d88d4c0e5da4cc19707b2417810fb2fdb34557d17d168",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-wg6-administrator-wilmington-grammar-school-for-girls",
     "teaching-vacancies-pupil-records-administrator",
+    "teaching-vacancies-receptionist-nore-academy",
     "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust"
   ]
 }

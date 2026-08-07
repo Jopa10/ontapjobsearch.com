@@ -14,9 +14,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 61
-- Selected: 26
-- POSS awaiting decision: 5
-- Excluded: 0
+- Selected: 25
+- POSS awaiting decision: 4
+- Excluded: 2
 - Hard pass: 30
 
 ## SELECTED
@@ -127,6 +127,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-cov
 ---
 
 ---
+action: select
+SELECTED | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
+employer: Northwood School
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89ac119
+source: Teaching Vacancies
+source_job_id: attendance-and-pastoral-support-worker-northwood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
+---
+
+---
 action: 
 SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
 employer: Harlington School
@@ -154,21 +169,6 @@ factual_fingerprint: 1ca0db19fc3c43e9e4cc41bb0682f9e50231436fe5d808f061be42e81ba
 source: Teaching Vacancies
 source_job_id: attendance-officer-coombe-girls-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school
----
-
----
-action: 
-SELECTED | London | London, SE1 7HS | £31,980 - £33,870 | Contracts Administrator
-employer: Oasis Community Learning
-closing_date: 2026-09-14T23:59:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c751e74e513bb8a32468f963d499b02ff8fc14935be42de1992ab50da8b61cd5
-source: Teaching Vacancies
-source_job_id: contracts-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/contracts-administrator
 ---
 
 ---
@@ -214,21 +214,6 @@ factual_fingerprint: a4e7cdeb4f8ce5a492b63770719423f2959941890b42d2ee348de6d9eb6
 source: Teaching Vacancies
 source_job_id: ehcp-administrator-lime-academy-ravensbourne
 source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne
----
-
----
-action: 
-SELECTED | London | Wembley, London, HA0 4JE | £38,689.00 - £41,134.00 Annually (Actual) | Exams Officer
-employer: Alperton Community School
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc4edc51b8a535d7190c051abe113178b8b35ea451aced09e31614c0dda80f4a
-source: Teaching Vacancies
-source_job_id: exams-officer-alperton-community-school-wembley-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-alperton-community-school-wembley-middlesex
 ---
 
 ---
@@ -415,21 +400,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trainee-compliance-an
 
 ---
 action: 
-POSS | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
-employer: Northwood School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89ac119
-source: Teaching Vacancies
-source_job_id: attendance-and-pastoral-support-worker-northwood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
----
-
----
-action: 
 POSS | London | Barking, London, IG11 9AG | £31,337.00 - £32,276.00 Annually (Actual) Scale 6 (Point 18 – £35,520 to Point 20 – £36,585 Full time) Prorated salary range is likely to be approx: £31,337 – £32,276, (dependant on experience, week per year and continuous service). Based on working 35 hours per week, Term time plus 10 days. | Exams and Data Officer
 employer: Barking Abbey School, A Specialist Sports and Humanities College
 closing_date: 2026-08-10T09:00:00+01:00
@@ -490,7 +460,35 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-0b54e05b-3
 
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | London | London, SE1 7HS | £31,980 - £33,870 | Contracts Administrator
+employer: Oasis Community Learning
+closing_date: 2026-09-14T23:59:59+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c751e74e513bb8a32468f963d499b02ff8fc14935be42de1992ab50da8b61cd5
+source: Teaching Vacancies
+source_job_id: contracts-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/contracts-administrator
+---
+
+---
+action: exclude
+EXCLUDED | London | Wembley, London, HA0 4JE | £38,689.00 - £41,134.00 Annually (Actual) | Exams Officer
+employer: Alperton Community School
+closing_date: 2026-08-23T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fc4edc51b8a535d7190c051abe113178b8b35ea451aced09e31614c0dda80f4a
+source: Teaching Vacancies
+source_job_id: exams-officer-alperton-community-school-wembley-middlesex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-alperton-community-school-wembley-middlesex
+---
 
 ## HARD_PASS
 

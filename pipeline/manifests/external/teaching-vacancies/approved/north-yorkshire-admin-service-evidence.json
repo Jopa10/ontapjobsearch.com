@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-07T10:22:59+01:00",
+  "generated_at": "2026-08-07T11:36:52+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - North",
   "category": "admin_service",
   "slice_status": "LIVE",
   "review_date": "2026-08-07",
-  "review_fingerprint": "16a479024df89cabd48035e63bc431454d5f0584e35bf7d9931238f623e66f17",
-  "routing_manifest_sha256": "665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673",
-  "review_csv_sha256": "56de6de763a61ff58cda005d47a8f95be20cf98a65556b3a062c1665e4eb06f6",
-  "summary_md_sha256": "842b425655d5d95beab1a1dcb4399d8357e6af233271842ebdf606313ced2322",
-  "approved_snapshot_sha256": "1ee7b613f35a612f3797af098bea1979766fadcbad0380ac420b12563cd5209c",
-  "approved_rows": 3,
+  "review_fingerprint": "fe22291028ad8de4cb448db1540f518e72300414cf4f6835d5872d5eebfb1bfa",
+  "routing_manifest_sha256": "e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730",
+  "review_csv_sha256": "a970f9475b5545089448a21f104bc54ce3c1287a76471f4ac91b4f2d2cef6313",
+  "summary_md_sha256": "55aaae9bda2b5c652ce5b566e68a77c6096159b00541ec644e6e42913a4d6a40",
+  "approved_snapshot_sha256": "c4a01862248b0b856be65dfdffd57f476212c57e2dc408ad5b062651b7a32fd5",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-administrative-assistant-harrogate-grove-road-community-primary-school-harrogate-north-yorkshire",
     "teaching-vacancies-sixth-form-supervisor-and-administrator",
-    "teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy"
+    "teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy",
+    "teaching-vacancies-school-office-administrator-askwith-primary-school"
   ]
 }

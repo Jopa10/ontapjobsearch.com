@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-07T10:22:59+01:00",
+  "generated_at": "2026-08-07T11:36:52+01:00",
   "source": "Teaching Vacancies",
   "region": "Surrey",
   "category": "admin_service",
   "slice_status": "LIVE",
   "review_date": "2026-08-07",
-  "review_fingerprint": "de6a1aec19b95e5be27305f4a9355e398eb146922048d4c54f810378c2342951",
-  "routing_manifest_sha256": "665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673",
-  "review_csv_sha256": "fee84437a799213cb1ba65c9bb5a35eec97843497ba544e84b870941e7b3c6e8",
-  "summary_md_sha256": "cc1b9c300185635f38837dee0b5b1b9c3b5deb77bf253ed25bb609b68033f4f6",
-  "approved_snapshot_sha256": "e7ca6143f6d3b57fdab282277673d9e83646491bf7060ef3aee3d0d31e73281c",
-  "approved_rows": 1,
+  "review_fingerprint": "a22bda1b1c35a7f59be7710a998c2855db3b133911b22f633ec5e11b088981b3",
+  "routing_manifest_sha256": "e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730",
+  "review_csv_sha256": "d8b7297913a76bcbd2f73fc1e996762ec30482a6af38f853f8f16155252c8420",
+  "summary_md_sha256": "dae32a2e1344c97f18e2c2ca61f7f184909d40a29cc15359b4f48bd4f3f357fa",
+  "approved_snapshot_sha256": "948a8275cd46e024842ce074d118193d8520b73b94694dcdebf90df520b865bc",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-school-office-assistant-wray-common-primary-school"
+    "teaching-vacancies-school-office-assistant-wray-common-primary-school",
+    "teaching-vacancies-admin-assistant-holly-lodge-primary-academy-ash-vale-surrey"
   ]
 }
