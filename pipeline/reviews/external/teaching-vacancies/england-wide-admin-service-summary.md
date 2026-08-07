@@ -21,7 +21,7 @@ Edit only the `action:` line in each block:
 ## HAMPSHIRE — SELECTED
 
 ---
-action:
+action: exclude
 SELECTED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
 employer: Ark Charter Academy
 closing_date: 2026-09-01T01:00:00+01:00
@@ -293,7 +293,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trainee-compliance-an
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
 employer: Chaffinch Brook School
 closing_date: 2026-08-14T00:00:00+01:00
