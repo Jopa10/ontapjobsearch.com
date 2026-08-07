@@ -200,6 +200,12 @@ job_id: 01257d43-ab3d-4a80-a4b6-86892e362251
 ---
 
 ---
+action: select
+SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
+---
+
+---
 action:
 SELECTED | London | London | £35000 per year | Sipp Administrator
 job_id: e0a800a7-bcbd-4cad-8a96-decf3e7a07ba
@@ -289,12 +295,6 @@ job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
 action:
 POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
 job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
----
-
----
-action: select
-POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -450,6 +450,12 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 ---
 
 ---
+action: select
+SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
+
+---
 action:
 SELECTED | Kent | Canterbury | £24000 - £26000 per year | Receptionist / Administrator
 job_id: cf57b5c9-1ba9-42b2-abfe-093bc469040f
@@ -462,12 +468,6 @@ job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
 
 ## KENT — POSSIBLES
-
----
-action: select
-POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
----
 
 ---
 action:

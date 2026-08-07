@@ -58,6 +58,12 @@ job_id: 107728647
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
+action: select
+SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+---
+
+---
 action:
 SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
 job_id: 107798506
@@ -71,11 +77,7 @@ job_id: 107798539
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -212,18 +214,18 @@ job_id: 107693840
 ---
 
 ---
+action: select
+SELECTED | Sussex | Chichester | £12.85 - £18.4 per hour | Healthcare Assistant
+job_id: 107775338
+---
+
+---
 action:
 SELECTED | Sussex | Littlehampton | £13.45 per hour | Care Assistant
 job_id: 107605050
 ---
 
 ## SUSSEX — POSSIBLES
-
----
-action: select
-POSS - SUSSEX | Sussex | Chichester | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 107775338
----
 
 ---
 action:
