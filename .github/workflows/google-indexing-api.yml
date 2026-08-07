@@ -1,0 +1,104 @@
+name: Google Indexing API
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview notifications without calling Google"
+        required: true
+        default: true
+        type: boolean
+  schedule:
+    - cron: "30 19 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  submit-job-urls:
+    name: Submit eligible job URLs to Google
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve run mode
+        id: mode
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON }}
+          MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "$MANUAL_DRY_RUN" = "true" ]; then
+            echo "mode=dry-run" >> "$GITHUB_OUTPUT"
+            echo "should_auth=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ -z "$GOOGLE_CREDENTIALS" ]; then
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "::error::Live submission requires repository secret GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON"
+              exit 1
+            fi
+
+            echo "Google Indexing credentials are not configured; scheduled submission skipped." | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "mode=skip" >> "$GITHUB_OUTPUT"
+            echo "should_auth=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "mode=live" >> "$GITHUB_OUTPUT"
+          echo "should_auth=true" >> "$GITHUB_OUTPUT"
+
+      - name: Authenticate to Google Cloud
+        id: auth
+        if: steps.mode.outputs.should_auth == 'true'
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/indexing
+
+      - name: Submit Indexing API notifications
+        if: steps.mode.outputs.mode != 'skip'
+        env:
+          GOOGLE_INDEXING_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          GOOGLE_INDEXING_MAX_NOTIFICATIONS: "200"
+        run: |
+          set -euo pipefail
+          if [ "${{ steps.mode.outputs.mode }}" = "dry-run" ]; then
+            npx tsx scripts/google-indexing-submit.ts --dry-run
+          else
+            npx tsx scripts/google-indexing-submit.ts
+          fi
+
+      - name: Commit successful submission state
+        if: steps.mode.outputs.mode == 'live'
+        run: |
+          set -euo pipefail
+          state_file="pipeline/manifests/google-indexing-state.json"
+
+          if [ ! -f "$state_file" ] || [ -z "$(git status --porcelain -- "$state_file")" ]; then
+            echo "No Indexing API state changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          git add -- "$state_file"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Google Indexing API state"
+          git push origin main
+          echo "Google Indexing API state committed: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
