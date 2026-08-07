@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
 import MoreJobsNearby from "@/components/MoreJobsNearby";
+import TransferableFitCard from "@/components/TransferableFitCard";
 import { getActiveCityPageForJob } from "@/lib/city-page-data";
 import { cleanEmployerName, sourceLabel } from "@/lib/job-facts";
 import {
@@ -13,6 +14,7 @@ import {
   type PublishedJob,
 } from "@/lib/published-jobs";
 import { getRelatedJobs } from "@/lib/related-jobs";
+import { getTransferableFit } from "@/lib/transferable-fit";
 import styles from "./job-page.module.css";
 
 const siteUrl = "https://www.ontapjobsearch.com";
@@ -177,6 +179,7 @@ export default async function JobPage({ params }: PageProps) {
   const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
   const schema = jobPostingSchema(job, canonicalUrl);
   const applicationSource = isExternalSource(job.source) ? sourceLabel(job.source) : "";
+  const transferableFit = getTransferableFit(job.job_id);
   const publishedJobs = getPublishedJobs();
   const cityPage = getActiveCityPageForJob(job.job_id);
   const cityJobIds = new Set(
@@ -214,7 +217,7 @@ export default async function JobPage({ params }: PageProps) {
 
       <div
         className={`${styles.contentGrid} ${
-          relatedJobs.length ? "" : styles.singleColumn
+          relatedJobs.length || transferableFit ? "" : styles.singleColumn
         }`}
       >
         <article className={styles.article}>
@@ -250,6 +253,21 @@ export default async function JobPage({ params }: PageProps) {
               slice_path={job.slice_path}
             />
           </div>
+
+          {transferableFit ? (
+            <div className={styles.mobileTransferableFit}>
+              <TransferableFitCard
+                fit={transferableFit}
+                jobId={job.job_id}
+                title={job.title}
+                employer={job.company}
+                location={job.location}
+                region={job.region}
+                source={job.source}
+                slicePath={job.slice_path}
+              />
+            </div>
+          ) : null}
 
           <h2 style={{ fontSize: 21, fontWeight: 800, marginBottom: 12 }}>
             {isExternalSource(job.source) ? "Role overview" : "Job description"}
@@ -294,20 +312,40 @@ export default async function JobPage({ params }: PageProps) {
           </div>
         </article>
 
-        {relatedJobs.length ? (
-          <aside className={styles.sidebar} aria-label="More jobs nearby">
-            <MoreJobsNearby
-              jobs={relatedJobs}
-              allJobsPath={primaryListing.href}
-              allJobsLabel={primaryListing.label}
-              intro={
-                cityPage
-                  ? `Other current roles on the ${cityPage.definition.listingLabel} page.`
-                  : undefined
-              }
-              secondaryAllJobsPath={secondaryListing?.href}
-              secondaryAllJobsLabel={secondaryListing?.label}
-            />
+        {relatedJobs.length || transferableFit ? (
+          <aside className={styles.sidebar} aria-label="Related job information">
+            {relatedJobs.length ? (
+              <MoreJobsNearby
+                jobs={relatedJobs}
+                allJobsPath={primaryListing.href}
+                allJobsLabel={primaryListing.label}
+                intro={
+                  cityPage
+                    ? `Other current roles on the ${cityPage.definition.listingLabel} page.`
+                    : undefined
+                }
+                secondaryAllJobsPath={secondaryListing?.href}
+                secondaryAllJobsLabel={secondaryListing?.label}
+              />
+            ) : null}
+
+            {transferableFit ? (
+              <div
+                className={styles.desktopTransferableFit}
+                style={{ marginTop: relatedJobs.length ? 16 : 0 }}
+              >
+                <TransferableFitCard
+                  fit={transferableFit}
+                  jobId={job.job_id}
+                  title={job.title}
+                  employer={job.company}
+                  location={job.location}
+                  region={job.region}
+                  source={job.source}
+                  slicePath={job.slice_path}
+                />
+              </div>
+            ) : null}
           </aside>
         ) : null}
       </div>
