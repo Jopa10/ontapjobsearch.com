@@ -307,3 +307,46 @@ def test_verified_routing_hash_blocks_review_on_tampering(tmp_path: Path) -> Non
 
     with pytest.raises(ValueError, match="SHA256"):
         review.load_verified_routing(path, summary)
+
+def test_possible_jobg8_duplicate_requires_fresh_review_before_select_carries(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setattr(
+        review.poc,
+        "compare_jobg8",
+        lambda vacancy, rows: (
+            "POSSIBLE_DUPLICATE",
+            "Admin Assistant",
+            "Example Employer",
+            "0.695",
+        ),
+    )
+    records = classify([routed_row("possible-duplicate")])
+    record = records[0]
+
+    assert record.vacancy.classification == "POSS"
+    assert record.vacancy.jobg8_check == "POSSIBLE_DUPLICATE"
+    assert review.decision_for(record) == "POSS"
+
+    summary_path = tmp_path / "summary.md"
+    summary_path.write_text(
+        "review_date: 2026-08-06\n"
+        "---\n"
+        "action: select\n"
+        "factual_fingerprint: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n"
+        "source_job_id: possible-duplicate\n"
+        "---\n",
+        encoding="utf-8",
+    )
+
+    review.apply_existing_actions(
+        records,
+        summary_path=summary_path,
+        review_date="2026-08-06",
+    )
+
+    assert record.manual_action == ""
+    assert record.migration_status == "REVIEW_REQUIRED_DUPLICATE"
+    assert review.decision_for(record) == "POSS"
+

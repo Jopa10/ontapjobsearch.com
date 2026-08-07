@@ -491,9 +491,17 @@ def apply_existing_actions(
         current_by_id=current_by_id,
     )
     for source_job_id, action in actions.items():
-        current_by_id[source_job_id].manual_action = action
-        if not current_by_id[source_job_id].migration_status:
-            current_by_id[source_job_id].migration_status = "SAME_DAY_ACTION"
+        record = current_by_id[source_job_id]
+        if (
+            action == "select"
+            and record.vacancy.jobg8_check == "POSSIBLE_DUPLICATE"
+        ):
+            if not record.migration_status:
+                record.migration_status = "REVIEW_REQUIRED_DUPLICATE"
+            continue
+        record.manual_action = action
+        if not record.migration_status:
+            record.migration_status = "SAME_DAY_ACTION"
 
 
 def review_row(record: ReviewRecord) -> dict[str, str]:

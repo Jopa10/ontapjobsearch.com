@@ -161,6 +161,14 @@ def carry_existing_actions(
             continue
         if clean(current.get("final_decision")).upper() == "HARD_PASS":
             continue
+        if (
+            action == "select"
+            and clean(current.get("jobg8_check")).upper()
+            == "POSSIBLE_DUPLICATE"
+        ):
+            current["manual_action"] = ""
+            current["final_decision"] = _final_decision(current, "")
+            continue
         old_fingerprint = clean(old.get("factual_fingerprint"))
         current_fingerprint = clean(current.get("factual_fingerprint"))
         if not old_fingerprint or old_fingerprint != current_fingerprint:

@@ -220,3 +220,45 @@ def test_master_actions_require_every_live_review_block(tmp_path: Path) -> None:
             review_dir=tmp_path,
             write=False,
         )
+
+def test_master_carry_does_not_reselect_possible_jobg8_duplicate(
+    tmp_path: Path,
+) -> None:
+    old_dir = tmp_path / "old"
+    old_dir.mkdir()
+    old_record = make_record(
+        "possible-duplicate",
+        classification="POSS",
+        title="Admin Assistant",
+    )
+    old_record.vacancy.jobg8_check = "POSSIBLE_DUPLICATE"
+    old_record.manual_action = "select"
+    write_region(old_dir, [old_record])
+    old_rows = master.build_master_rows(old_dir)
+
+    old_csv = tmp_path / "old-master.csv"
+    old_md = tmp_path / "old-master.md"
+    old_csv.write_bytes(master.master_csv_bytes(old_rows))
+    old_md.write_text(master.master_summary_text(old_rows), encoding="utf-8")
+
+    current_dir = tmp_path / "current"
+    current_dir.mkdir()
+    current_record = make_record(
+        "possible-duplicate",
+        classification="POSS",
+        title="Admin Assistant",
+    )
+    current_record.vacancy.jobg8_check = "POSSIBLE_DUPLICATE"
+    write_region(current_dir, [current_record])
+    current_rows = master.build_master_rows(current_dir)
+
+    carried = actions.carry_existing_actions(
+        current_rows,
+        old_master_csv=old_csv,
+        old_master_summary=old_md,
+    )
+
+    assert carried == 0
+    assert current_rows[0]["manual_action"] == ""
+    assert current_rows[0]["final_decision"] == "POSS"
+
