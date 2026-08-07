@@ -65,6 +65,12 @@ HARD = (
     "technician", "therapist", "nurse", "counsellor", "coach", "site manager",
     "premises manager", "midday supervisor",
 )
+HC_TITLE_PREFIXES = (
+    "administration assistant",
+    "admin clerical officer",
+    "business administration operations assistant",
+)
+MANAGER_POSS_MAX_SALARY = 28_000
 REPORT_FIELDS = (
     "final_decision",
     "title",
@@ -283,6 +289,23 @@ def geography(vacancy: Vacancy) -> tuple[str, str]:
     return "HARD_PASS", "No West Yorkshire location evidence"
 
 
+def annual_salary_ceiling(salary_text: str) -> float | None:
+    """Return the highest plausible annual £ amount stated in salary text."""
+    amounts: list[float] = []
+    for match in re.finditer(
+        r"£\s*([0-9][0-9,]*(?:\.[0-9]+)?)",
+        clean(salary_text),
+    ):
+        try:
+            amount = float(match.group(1).replace(",", ""))
+        except ValueError:
+            continue
+        # Ignore hourly rates and other small £ figures.
+        if amount >= 1_000:
+            amounts.append(amount)
+    return max(amounts) if amounts else None
+
+
 def classify(vacancy: Vacancy) -> tuple[str, str]:
     title = normalise(vacancy.title)
     if vacancy.geography_status != "IN_SCOPE":
@@ -290,12 +313,34 @@ def classify(vacancy: Vacancy) -> tuple[str, str]:
 
     hard_hits = [pattern for pattern in HARD if normalise(pattern) in title]
     clear_hits = [pattern for pattern in HC if normalise(pattern) in title]
+    clear_prefix_hits = [
+        pattern for pattern in HC_TITLE_PREFIXES if title.startswith(pattern)
+    ]
     possible_hits = [pattern for pattern in POSS if normalise(pattern) in title]
 
-    if hard_hits and not clear_hits:
+    if hard_hits and not clear_hits and not clear_prefix_hits:
         return "HARD_PASS", "Out-of-scope occupation: " + ", ".join(hard_hits)
-    if clear_hits:
-        return "HC", "Clear admin/service title: " + ", ".join(clear_hits)
+
+    if re.search(r"\bmanager\b", title):
+        ceiling = annual_salary_ceiling(vacancy.salary_text)
+        if ceiling is not None and ceiling < MANAGER_POSS_MAX_SALARY:
+            return (
+                "POSS",
+                "Manager title below £28,000 salary ceiling requires review",
+            )
+        if ceiling is None:
+            return (
+                "HARD_PASS",
+                "Manager title without salary evidence below £28,000",
+            )
+        return (
+            "HARD_PASS",
+            f"Manager title salary ceiling £{ceiling:,.0f} is not below £28,000",
+        )
+
+    if clear_hits or clear_prefix_hits:
+        hits = clear_hits + clear_prefix_hits
+        return "HC", "Clear admin/service title: " + ", ".join(hits)
     if possible_hits:
         return (
             "POSS",

@@ -350,3 +350,64 @@ def test_possible_jobg8_duplicate_requires_fresh_review_before_select_carries(
     assert record.migration_status == "REVIEW_REQUIRED_DUPLICATE"
     assert review.decision_for(record) == "POSS"
 
+
+def test_tv_refined_title_and_manager_salary_rules() -> None:
+    records = classify(
+        [
+            routed_row(
+                "admin-assistant",
+                title="Administration Assistant",
+                salary="£25,185 - £26,403",
+            ),
+            routed_row(
+                "senior-admin-assistant",
+                title="Senior Administration Assistant",
+                salary="£23,701 - £27,506",
+            ),
+            routed_row(
+                "clerical-officer",
+                title="Admin & Clerical Officer Level 2 Rowan School",
+                salary="£26,403 - £28,598 pro rata",
+            ),
+            routed_row(
+                "business-admin-ops",
+                title="Business Administration & Operations Assistant",
+                salary="£25,583 - £25,989",
+            ),
+            routed_row(
+                "low-manager",
+                title="Cover Manager",
+                salary="£18,867 - £21,152 Annually (Actual)",
+            ),
+            routed_row(
+                "high-manager",
+                title="Office Manager",
+                salary="£33,699 - £39,153 Annually (FTE)",
+            ),
+            routed_row(
+                "crossing-manager",
+                title="Office Manager",
+                salary="£27,521 - £29,362 Annually (Actual)",
+            ),
+            routed_row(
+                "grade-only-manager",
+                title="Business Manager",
+                salary="Grade 8, SCP 37-SCP 39",
+            ),
+        ]
+    )
+    by_id = {row.vacancy.source_job_id: row for row in records}
+
+    assert review.decision_for(by_id["admin-assistant"]) == "SELECTED"
+    assert review.decision_for(by_id["senior-admin-assistant"]) == "POSS"
+    assert review.decision_for(by_id["clerical-officer"]) == "SELECTED"
+    assert review.decision_for(by_id["business-admin-ops"]) == "SELECTED"
+    assert review.decision_for(by_id["low-manager"]) == "POSS"
+    assert review.decision_for(by_id["high-manager"]) == "HARD_PASS"
+    assert review.decision_for(by_id["crossing-manager"]) == "HARD_PASS"
+    assert review.decision_for(by_id["grade-only-manager"]) == "HARD_PASS"
+    assert (
+        by_id["high-manager"].vacancy.classification_reason
+        == "Manager title salary ceiling £39,153 is not below £28,000"
+    )
+
