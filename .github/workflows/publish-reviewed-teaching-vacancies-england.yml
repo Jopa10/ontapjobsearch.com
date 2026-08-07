@@ -116,7 +116,38 @@ jobs:
       - name: Compose Teaching Vacancies with JobG8 and other approved sources
         working-directory: pipeline
         run: |
-          python -m external_sources.compose_teaching_vacancies_regional --write
+          python - <<'PY'
+          import csv
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          from external_sources.teaching_vacancies_master_review import REVIEW_NOW
+
+          master_path = Path(
+              "reviews/external/teaching-vacancies/england-wide-admin-service-review.csv"
+          )
+          with master_path.open("r", encoding="utf-8-sig", newline="") as handle:
+              rows = list(csv.DictReader(handle))
+          regions = sorted(
+              {
+                  row["ontap_region"].strip()
+                  for row in rows
+                  if row.get("review_scope") == REVIEW_NOW
+                  and row.get("ontap_region", "").strip()
+              },
+              key=str.casefold,
+          )
+          command = [
+              sys.executable,
+              "-m",
+              "external_sources.compose_teaching_vacancies_regional",
+              "--write",
+          ]
+          for region in regions:
+              command.extend(["--region", region])
+          subprocess.run(command, check=True)
+          PY
 
       - name: Verify every LIVE reviewed region composed safely
         working-directory: pipeline
