@@ -1,0 +1,55 @@
+name: Count TV deferred POSS once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/count-tv-deferred-poss-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  count:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Count POSS by review scope
+        run: |
+          python - <<'PY'
+          import csv
+          from collections import Counter
+          from pathlib import Path
+          path = Path('pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-review.csv')
+          with path.open(encoding='utf-8-sig', newline='') as f:
+              rows = list(csv.DictReader(f))
+          c = Counter()
+          deferred_poss=[]
+          for r in rows:
+              scope=r.get('review_scope','')
+              cls=r.get('classification','')
+              decision=r.get('final_decision','')
+              c[(scope,cls,decision)] += 1
+              if scope != 'REVIEW NOW' and cls == 'POSS':
+                  deferred_poss.append(r)
+          print('TOTAL_ROWS', len(rows))
+          print('UNDERLYING_CLASSIFICATION_POSS_ALL', sum(1 for r in rows if r.get('classification')=='POSS'))
+          print('LIVE_CLASSIFICATION_POSS', sum(1 for r in rows if r.get('review_scope')=='REVIEW NOW' and r.get('classification')=='POSS'))
+          print('DEFERRED_CLASSIFICATION_POSS', len(deferred_poss))
+          print('LIVE_FINAL_POSS', sum(1 for r in rows if r.get('review_scope')=='REVIEW NOW' and r.get('final_decision')=='POSS'))
+          print('DEFERRED POSS BY REGION')
+          for region,n in Counter(r.get('ontap_region','') for r in deferred_poss).most_common():
+              print(f'{region}|{n}')
+          print('SAMPLE DEFERRED POSS')
+          for r in deferred_poss[:30]:
+              print(f"{r.get('ontap_region')}|{r.get('title')}|{r.get('classification_reason')}|{r.get('source_job_id')}")
+          PY
+      - name: Remove one-time workflow
+        if: always()
+        run: |
+          git rm .github/workflows/count-tv-deferred-poss-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Remove one-time TV deferred POSS count"
+          git push origin main
