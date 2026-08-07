@@ -1,6 +1,9 @@
 name: Google Indexing API
 
 on:
+  push:
+    branches:
+      - agent/google-indexing-api
   workflow_dispatch:
     inputs:
       dry_run:
@@ -20,10 +23,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out main
+      - name: Check out target ref
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event_name == 'push' && github.ref_name || 'main' }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -41,6 +44,12 @@ jobs:
           MANUAL_DRY_RUN: ${{ inputs.dry_run }}
         run: |
           set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "mode=dry-run" >> "$GITHUB_OUTPUT"
+            echo "should_auth=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "$MANUAL_DRY_RUN" = "true" ]; then
             echo "mode=dry-run" >> "$GITHUB_OUTPUT"
