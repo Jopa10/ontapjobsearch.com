@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
 review_date: 2026-08-07
-review_fingerprint: b2095f8b3d1e8f08df5f1e7e511bcde751a8313ec61e91d6f34836c5ec4c4591
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 1d994864911c56961c65bf52b902410dde014a9978d63d31326b8f2620a62e15
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L5 3QG | £25,583.00 Annually (FTE) | Administration Assistant
+employer: The Beacon Church of England Primary School
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 54413cf712ace5c00e8995fd5a654e609b1949c8e7962ad24fd09439785a3f4f
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-beacon-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school
+---
 
 ---
 action: 
@@ -61,8 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-st-joseph-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Governance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/governance-business-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

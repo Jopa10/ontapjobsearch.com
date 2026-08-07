@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: d43682da96e8d93fd1a98d20f7c2c943709fd69f1aebbec58865e23192eaba18
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-upton-by
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-whitby-high-school-ellesmere-port-cheshire) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-whitby-high-school-ellesmere-port-cheshire) — Manager title salary ceiling £39,152 is not below £28,000.
 
 ## Safety boundary
 

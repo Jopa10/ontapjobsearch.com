@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
 review_date: 2026-08-07
-review_fingerprint: 0d9c1f5e87befe2f0558e1e061fadf516f4131bf47e61abd6ef76fc8a8a1c76d
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: d2ef423eb325cf4c8d5cc0c6851ef1862b2aac1b66c7a39c087fdab85ab324b8
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 34
-- Selected: 9
-- POSS awaiting decision: 4
+- Selected: 12
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 22
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
+employer: The Rowan School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Clear admin/service title: admin clerical officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a11851681c25b233b9f9725a6d0ab9dc5dd163a371597d66bbdc33febc9dce5b
+source: Teaching Vacancies
+source_job_id: admin-clerical-officer-level-2-rowan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5QS | £12,019.00 - £12,288.00 Annually (Actual) pay award pending | Administration Assistant
+employer: Treeton Church of England Primary School
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
+source: Teaching Vacancies
+source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+---
 
 ---
 action: 
@@ -34,6 +64,21 @@ factual_fingerprint: 1c03ae3d69eaf9967881653ea67aa06f269681ee6bf4fb14b5b2b6b0047
 source: Teaching Vacancies
 source_job_id: administrative-assistant-de44776f-dcb5-4d81-aa5e-7a81c54602f7
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-de44776f-dcb5-4d81-aa5e-7a81c54602f7
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, S60 2XJ | Scale Point 5-6, Grade D - £25,583 - £25,989. (Pay Award Pending) | Business Administration & Operations Assistant
+employer: White Woods Primary Academy Trust
+closing_date: 2026-08-14T23:59:00+01:00
+reason: Clear admin/service title: business administration operations assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa47a2d30e5fc345dfb830fc415cc684e8c5a014c268a30fc7ef06915f3f21fe
+source: Teaching Vacancies
+source_job_id: business-administration-operations-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-operations-assistant
 ---
 
 ---
@@ -158,65 +203,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-as
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
-employer: The Rowan School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a11851681c25b233b9f9725a6d0ab9dc5dd163a371597d66bbdc33febc9dce5b
-source: Teaching Vacancies
-source_job_id: admin-clerical-officer-level-2-rowan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
-
----
-action: 
-POSS | Yorkshire - South | Rotherham, S60 2XJ | Scale Point 5-6, Grade D - £25,583 - £25,989. (Pay Award Pending) | Business Administration & Operations Assistant
-employer: White Woods Primary Academy Trust
-closing_date: 2026-08-14T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fa47a2d30e5fc345dfb830fc415cc684e8c5a014c268a30fc7ef06915f3f21fe
-source: Teaching Vacancies
-source_job_id: business-administration-operations-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-operations-assistant
----
-
----
-action: 
-POSS | Yorkshire - South | Barnsley, Yorkshire and the Humber, S74 9HX | Grade 8, SCP 37-SCP 39 | Business Manager
-employer: Kirk Balk Academy
-closing_date: 2026-08-10T12:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f061c25c51ea1a77539b9680a68d89dffd8123530942d7dba35df68e202c7c59
-source: Teaching Vacancies
-source_job_id: business-manager-kirk-balk-academy-barnsley-south-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-manager-kirk-balk-academy-barnsley-south-yorkshire
----
-
----
-action: 
-POSS | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN1 3BF | £33,699.00 - £39,153.00 Annually (FTE) | Office Manager
-employer: Doncaster UTC
-closing_date: 2026-08-10T09:00:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 778cec43ee7cc43b371f12ef942223869ce5f35e8b1e0dcc1fb66cfdba7aaf46
-source: Teaching Vacancies
-source_job_id: office-manager-doncaster-utc-doncaster
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncaster-utc-doncaster
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -224,25 +211,26 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncas
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire) — Insufficient admin/service evidence.
 - [Administration Assistant and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-receptionist-king-edward-vii-school-sheffield-south-yorkshire) — Missing salary or pay scale.
-- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Insufficient admin/service evidence.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-kirk-balk-academy-barnsley-south-yorkshire) — Manager title without salary evidence below £28,000.
+- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-mossbrook-school) — Insufficient admin/service evidence.
 - [Communications, Marketing & Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-engagement-lead) — Insufficient admin/service evidence.
-- [Compliance and Complaints Manager](https://teaching-vacancies.service.gov.uk/jobs/compliance-and-complaints-manager-chorus-education-trust) — Insufficient admin/service evidence.
-- [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Compliance and Complaints Manager](https://teaching-vacancies.service.gov.uk/jobs/compliance-and-complaints-manager-chorus-education-trust) — Manager title salary ceiling £51,356 is not below £28,000.
+- [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
-- [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Insufficient admin/service evidence.
+- [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Exams & Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-officer-e-act-parkwood-academy) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-isle-education-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-isle-education-trust) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust) — Manager title salary ceiling £53,052 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school) — Insufficient admin/service evidence.
 - [Governance & Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-executive-support-officer) — Insufficient admin/service evidence.
 - [Governance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administration-officer-mercia-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Insufficient admin/service evidence.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Learning & Development Coordinator](https://teaching-vacancies.service.gov.uk/jobs/learning-development-coordinator) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-doncaster-utc-doncaster) — Manager title salary ceiling £39,153 is not below £28,000.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [Temporary Family Support Worker](https://teaching-vacancies.service.gov.uk/jobs/temporary-family-support-worker) — Insufficient admin/service evidence.
 

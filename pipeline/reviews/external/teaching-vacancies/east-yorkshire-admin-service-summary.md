@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
 review_date: 2026-08-07
-review_fingerprint: e94924ae0043471310af2f8dc57cdd1041eae0de787c97e9f51bd26f067aec48
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 014cafe0c8afd25b607e3f7331ef4d10c3ef9784f7db4fd79f24cf76add6a1c7
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU7 3JQ | £25,185 - £25,583 FTE, £21,682 - £22,025 Actual | Administration Assistant
+employer: Kingswood Parks Primary School
+closing_date: 2026-08-28T08:00:59+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: CANDIDATE
+migration_status: 
+factual_fingerprint: 3bf4d52060418259f565058683b7707de2f46556a419a90fb41fac5e7bda0e9f
+source: Teaching Vacancies
+source_job_id: administration-assistant-kingswood-parks-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-kingswood-parks-primary-school
+---
 
 ---
 action: 
@@ -46,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-kingswood-parks-primary-school) — Insufficient admin/service evidence.
+- [Exams Access Arrangements (EAA) Assessor](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-eaa-assessor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

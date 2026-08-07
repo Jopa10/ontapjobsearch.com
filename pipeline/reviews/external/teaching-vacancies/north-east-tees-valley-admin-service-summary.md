@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
 review_date: 2026-08-07
-review_fingerprint: fac60255a16761d6d6dbe20836afa0cf9d365a9eba03c3228537d9f5c15ec3d5
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: f15341515aec1d3b0ae274aa6fb7256cdd1994988a2e525624feec1b61f35efe
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
-- POSS awaiting decision: 3
+- Records: 6
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | North East - Tees Valley | Yarm, North East, TS15 9ET | Grade F, SCP 7 to 8, pending job evaluation | Administration Assistant
+employer: Conyers School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: f0c7d988ab42bc7dc694d98ec1966cdcd0721360c14b037c9ed05ec81b92b813
+source: Teaching Vacancies
+source_job_id: administration-assistant-conyers-school-yarm-cleveland
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-conyers-school-yarm-cleveland
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -40,36 +53,6 @@ source_job_id: executive-assistant-to-head-of-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-head-of-school
 ---
 
----
-action: 
-POSS | North East - Tees Valley | Stockton-on-Tees, North East, TS19 0DW | £30,128.55 - £32,358.52 Annually (Actual) Band 8 (spinal point 19 to spinal point 23) term time only, plus 15 days | School Business Manager (Primary)
-employer: St Bede's Catholic Academy
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 6ddabbb7106421a3a3cad63a108d1a54b53568da5027e63f2a69682e43d8e411
-source: Teaching Vacancies
-source_job_id: school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside
----
-
----
-action: 
-POSS | North East - Tees Valley | Middlesbrough, TS3 8RD | £50,269.00 - £54,495.00 Annually (FTE) Actual | Trust Business Manager
-employer: River Tees Multi Academy Trust
-closing_date: 2026-08-21T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 0904f5f3c9b40218b10d980630aca69d2b8b3247d0d1c4565ed1278bb01de1bf
-source: Teaching Vacancies
-source_job_id: trust-business-manager-river-tees-multi-academy-trust-middlesbrough-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-river-tees-multi-academy-trust-middlesbrough-not-recorded
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -78,6 +61,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-business-manage
 
 - [MAT HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/mat-hr-business-partner) — Insufficient admin/service evidence.
 - [People Development and Engagement Lead](https://teaching-vacancies.service.gov.uk/jobs/people-development-and-engagement-lead-river-tees-multi-academy-trust) — Insufficient admin/service evidence.
+- [School Business Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside) — Manager title salary ceiling £32,359 is not below £28,000.
+- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-river-tees-multi-academy-trust-middlesbrough-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 
 ## Safety boundary
 

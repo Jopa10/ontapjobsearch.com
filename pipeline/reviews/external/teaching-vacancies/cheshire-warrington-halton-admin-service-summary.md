@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 218e2555b8a626eda094f5d5cd6bc9b07ce813b10e3ac896e8649a60bf41a582
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-enrichment-da
 
 ## HARD_PASS
 
-- [Finance Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-operations-manager-the-great-schools-trust) — Insufficient admin/service evidence.
+- [Finance Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-operations-manager-the-great-schools-trust) — Manager title salary ceiling £40,777 is not below £28,000.
 
 ## Safety boundary
 

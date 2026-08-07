@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
 review_date: 2026-08-07
-review_fingerprint: a88179b405638c05066a3c97c4ae0a169e9aea68651d43ef99353e01d9d3fb94
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 84953dfa6938e39a4833c54902521ea87b207c7bbdad9bcc4b9dee77d3206538
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 7
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -51,14 +51,12 @@ source_job_id: admin-assistant-wellesbourne-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-wellesbourne-cofe-primary-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
 employer: Meadow Park School
 closing_date: 2026-09-01T09:00:00+01:00
-reason: Administrative duties evidenced in description
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
@@ -67,6 +65,10 @@ source: Teaching Vacancies
 source_job_id: administration-assistant-meadow-park-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -77,6 +79,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-benedict-s-catholic-high-school) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust) — Insufficient admin/service evidence.
+- [Trust Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/trust-cover-supervisor-blue-coat-church-of-england-school-and-music-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

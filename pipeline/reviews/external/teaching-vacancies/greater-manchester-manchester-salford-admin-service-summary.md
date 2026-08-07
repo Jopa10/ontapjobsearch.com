@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
 review_date: 2026-08-07
-review_fingerprint: 7a4440d9f309a549941a364e1d284036fac3f41c0328a8a2156ce03916b89bb5
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: e36d0508f9b184904e97eab6a6a488ed570ee9cee5136b46cbac1ff5e76bd637
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -83,28 +83,15 @@ source_job_id: marketing-and-communications-officer-whalley-range-11-18-high-sch
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-whalley-range-11-18-high-school
 ---
 
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M28 0SY | £39,794.00 - £46,398.00 Annually (Actual) | Operations Manager
-employer: The Lowry Academy
-closing_date: 2026-08-10T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 28c08f16cec4a24d101d19df7afa2f9b56b065e7cd70de26e0fbec14ccf88523
-source: Teaching Vacancies
-source_job_id: operations-manager-the-lowry-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-manager-the-lowry-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-the-lowry-academy) — Manager title salary ceiling £46,398 is not below £28,000.
 - [Payroll and Pensions Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-officer-bright-futures-educational-trust) — Insufficient admin/service evidence.
+- [School Trips & Administrative Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-trips-administrative-support-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

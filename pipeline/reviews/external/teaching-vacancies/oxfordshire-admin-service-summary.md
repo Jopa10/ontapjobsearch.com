@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
 review_date: 2026-08-07
-review_fingerprint: 6430bea748521a4e288c738dcb3a8e8b9fbb513fb8b451c9803af9c225d51f83
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 48d226b478db9001de2b8fa9f498c03677f593219ec6867b1f0def4adaedd574
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 15
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 12
 
 ## SELECTED
 
@@ -68,35 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-recepti
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Oxfordshire | Thame, South East, OX9 2AQ | £31,537.00 - £34,434.00 Annually (FTE) Actual Starting Salary £22,816 based on 30 hrs per week, term time plus 2 weeks | Admissions Manager
-employer: Lord Williams's School
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Borderline school administration title: admissions manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 30d264d9342f2bdd742e2c1384d6a207ce237cf3e96cc91d3e7b560bcdb1b8ea
-source: Teaching Vacancies
-source_job_id: admissions-manager-lord-williams-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school
----
-
----
-action: 
-POSS | Oxfordshire | Wallingford, South East, OX10 9AG | £38,220.00 - £40,777.00 Annually (FTE) | School Business Manager
-employer: St John's Primary School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: fa452fb5a87fd6e506af25b41eadb1304a33063c1f0c50239c66ee1ba9863c03
-source: Teaching Vacancies
-source_job_id: school-business-manager-2dc35396-b77a-41b8-a703-575c9daf92f9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2dc35396-b77a-41b8-a703-575c9daf92f9
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -105,14 +77,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 ## HARD_PASS
 
 - [Admin and Premises Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-premises-assistant-9d6fefc7-aa4d-4843-a7f1-fb8860efc481) — Insufficient admin/service evidence.
+- [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
-- [Curriculum Data Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-data-manager) — Insufficient admin/service evidence.
+- [Curriculum Data Manager](https://teaching-vacancies.service.gov.uk/jobs/curriculum-data-manager) — Manager title salary ceiling £37,280 is not below £28,000.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
-- [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Insufficient admin/service evidence.
+- [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-swan-school) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
-- [School Estate Manager](https://teaching-vacancies.service.gov.uk/jobs/school-estate-manager-1bd2efee-7c43-4b8a-9822-59d12f5fbaf5) — Insufficient admin/service evidence.
-- [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-oxford-spires-academy-oxford) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2dc35396-b77a-41b8-a703-575c9daf92f9) — Manager title salary ceiling £40,777 is not below £28,000.
+- [School Estate Manager](https://teaching-vacancies.service.gov.uk/jobs/school-estate-manager-1bd2efee-7c43-4b8a-9822-59d12f5fbaf5) — Manager title salary ceiling £37,280 is not below £28,000.
+- [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-oxford-spires-academy-oxford) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-76738c62-3e95-470b-8d64-19dbb1d8f69e) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
 review_date: 2026-08-07
-review_fingerprint: a21863e813281c471167f72430c3247c589c802421002e0f965c395594069362
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 61ff2896ccf72090976b45f9a70e4b918a45db0d548e907fe6e248bff6749032
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Essex
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 4
-- POSS awaiting decision: 2
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -34,6 +34,21 @@ factual_fingerprint: 6382b65e0cea88078aacb808dc5bd7a092daf7aa29f1f3b3ffc2e3d4b07
 source: Teaching Vacancies
 source_job_id: admin-assistant-reception-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-reception-cover
+---
+
+---
+action: 
+SELECTED | Essex | Grays, East of England, RM16 2ST | £11,916.00 - £12,910.00 Annually (Actual) | Administration Assistant - Responsibility for Attendance
+employer: Stifford Clays Primary School
+closing_date: 2026-09-03T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b41be28
+source: Teaching Vacancies
+source_job_id: administration-assistant-responsibility-for-attendance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance
 ---
 
 ---
@@ -98,28 +113,12 @@ source_job_id: finance-assistant-beauchamps-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-beauchamps-high-school
 ---
 
----
-action: 
-POSS | Essex | Grays, East of England, RM16 6PL | Thurrock Pay Grade E - F (Point 24 - 36) | School Business Manager
-employer: Tudor Court Primary School
-closing_date: 2026-08-28T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a2a1814ca9e619d4c42e67048b07e2828411f192539485c9464093f107ed8955
-source: Teaching Vacancies
-source_job_id: school-business-manager-tudor-court-primary-school-grays-essex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Administration Assistant - Responsibility for Attendance](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-greenwell-academy) — Insufficient admin/service evidence.
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-st-martin-s-school-brentwood) — Insufficient admin/service evidence.
@@ -127,6 +126,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-southend-east-community-academy-trust) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-the-chelmsford-learning-partnership) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-the-basildon-upper-academy) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-the-sigma-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

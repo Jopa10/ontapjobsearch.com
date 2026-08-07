@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
 review_date: 2026-08-07
-review_fingerprint: ad656675a5cdebc5ac4585a85d2eb824025efe787e636915541ad317b3ed63ab
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: e1831b06e12c0e72d404b979868abb62fbb236ba9d85b9560369476cce0a421a
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -43,7 +43,7 @@ action:
 POSS | Suffolk | HAVERHILL, East of England, CB9 9DE | £14,481.00 - £16,154.00 Annually (Actual) | Office Manager
 employer: St Felix Roman Catholic Primary School, Haverhill
 closing_date: 2026-08-31T12:00:00+01:00
-reason: Borderline school administration title: office manager
+reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 

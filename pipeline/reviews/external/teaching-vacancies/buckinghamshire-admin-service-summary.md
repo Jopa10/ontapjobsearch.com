@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
 review_date: 2026-08-07
-review_fingerprint: a3541f7b5f4076950a847405a6d876e436436bfa78aa0b0c6c9da5879e280313
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: f2b997ec909c860f9db2b61a59a60a652c0d3b602379e71593f8fdd76be891fc
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 12
-- POSS awaiting decision: 4
+- Records: 16
+- Selected: 11
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £26,923.00 Annually (Actual) | Office Administrator: EVC and Cover Manager
-employer: Kents Hill Park all-through school
-closing_date: 2026-09-08T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 96533601fbd00c95d1ad3b5aa56aa59886649ac976ce2ea9ab59648dbc51f905
-source: Teaching Vacancies
-source_job_id: office-administrator-evc-and-cover-manager-kents-hill-park-all-through-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-evc-and-cover-manager-kents-hill-park-all-through-school
----
-
----
-action: 
 SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
 employer: Holmer Green Senior School
 closing_date: 2026-09-01T09:00:00+01:00
@@ -205,62 +190,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-pr
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK11 4BA | £25,989.00 Annually (FTE) C1 £25,989 full time equivalent | Business Support
-employer: Fairfields Primary School
-closing_date: 2026-08-10T12:00:00+01:00
-reason: Administrative duties evidenced in description
+POSS | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £26,923.00 Annually (Actual) | Office Administrator: EVC and Cover Manager
+employer: Kents Hill Park all-through school
+closing_date: 2026-09-08T12:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: d88979f62505c26698f0632887dc3c61bf9ad2ba1e4b107436f43833807a393c
+factual_fingerprint: 96533601fbd00c95d1ad3b5aa56aa59886649ac976ce2ea9ab59648dbc51f905
 source: Teaching Vacancies
-source_job_id: business-support-2996edd1-fa9e-4a32-bebb-c3cc93edbca4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-2996edd1-fa9e-4a32-bebb-c3cc93edbca4
----
-
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
-employer: Glebe Farm School
-closing_date: 2026-09-07T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 9121eb4b3d52299570d0fdc8e37e96fb4b4c2f9fcc6541df4df09a8fa67ead85
-source: Teaching Vacancies
-source_job_id: business-support-glebe-farm-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school
----
-
----
-action: 
-POSS | Buckinghamshire | Aylesbury, South East, HP21 8LJ | £37,772.00 - £41,272.00 Annually (FTE) Bucks Pay Range 6: £34,939 - £38,177 (Actual salary) | School Business Manager
-employer: Oak Green School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2387ef2c7ec24ba11fcdc9fea597836f06e1d40cf120f5c2edf9ba939c63934b
-source: Teaching Vacancies
-source_job_id: school-business-manager-oak-green-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school
----
-
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £44,075.00 - £47,181.00 Annually (FTE) | School Business Manager
-employer: Stephenson Academy
-closing_date: 2026-08-28T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 95f0c50b6f8add5628be30227b47d89c20d94e40490fafd7fdccd7898d99e961
-source: Teaching Vacancies
-source_job_id: school-business-manager-stephenson-academy-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire
+source_job_id: office-administrator-evc-and-cover-manager-kents-hill-park-all-through-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-evc-and-cover-manager-kents-hill-park-all-through-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -270,8 +210,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 ## HARD_PASS
 
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
-- [Estates Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-programme-manager-chiltern-way-academy-trust) — Insufficient admin/service evidence.
+- [Estates Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-programme-manager-chiltern-way-academy-trust) — Manager title salary ceiling £46,650 is not below £28,000.
 - [Exams and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-macintyre-academies) — Missing salary or pay scale.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
 
 ## Safety boundary
 

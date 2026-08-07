@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
 review_date: 2026-08-07
-review_fingerprint: 9d445f153ad9b5eb214b48278cb74598736fb3ad135d109489ea8d26895b4102
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 6578e31e1dba6b58eb50968a8d0e28abefa46fe1a578e09fae4a8fadefe5bae7
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 9
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
@@ -41,7 +41,7 @@ action:
 SELECTED | Lincolnshire | Grantham, East Midlands, NG31 9AX | £8,621.00 Annually (Actual) G3.6 £24,796 FTE | Administration Assistant/Receptionist
 employer: Newton Bridge Academy
 closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+reason: Clear admin/service title: receptionist, administration assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -178,7 +178,7 @@ action:
 POSS | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN15 8BU | £24,272.00 - £26,756.00 Annually (Actual) | Office Manager
 employer: Saint Augustine Webster Catholic Voluntary Academy
 closing_date: 2026-09-15T23:59:00+01:00
-reason: Borderline school administration title: office manager
+reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -190,25 +190,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 
 ---
 action: 
-POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5EB | £29,540 - £32,061 FTE, £25,488 - £27,663 Actual | Office Manager
-employer: Cambridge Park Academy
-closing_date: 2026-08-31T08:00:59+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: ef384ab5633c52dcb36606c780a8388d08dc1b1b65a89c403da2eac2b7ad07c4
-source: Teaching Vacancies
-source_job_id: office-manager-cambridge-park-academy-grimsby-north-east-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambridge-park-academy-grimsby-north-east-lincolnshire
----
-
----
-action: 
 POSS | Lincolnshire | Sleaford, East Midlands, NG34 7AT | £24,272.00 - £26,756.00 Annually (Actual) Band 4, Scale points 11 - 17 | Office Manager
 employer: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
 closing_date: 2026-08-31T09:00:00+01:00
-reason: Borderline school administration title: office manager
+reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -227,7 +212,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 - [Attendance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-lincoln-castle-academy) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-william-lovell-church-of-england-academy) — Insufficient admin/service evidence.
-- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambridge-park-academy-grimsby-north-east-lincolnshire) — Manager title salary ceiling £32,061 is not below £28,000.
 - [Senior Administrative Officer (15 hours) - Ulceby CofE Primary School](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-15-hours-ulceby-cofe-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

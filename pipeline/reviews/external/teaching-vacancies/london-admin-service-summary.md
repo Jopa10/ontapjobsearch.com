@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
 review_date: 2026-08-07
-review_fingerprint: 0d5e1484cf34697c73450d82e4337e375c8bfecd0413800dc8c93424f1555791
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 57f7e7ad4f1009d1ff2540328011965de9f452ccea63b370eed7776991f54be1
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 60
-- Selected: 24
-- POSS awaiting decision: 11
+- Records: 57
+- Selected: 25
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 25
+- Hard pass: 26
 
 ## SELECTED
 
 ---
-action: select
-SELECTED | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
-employer: Chaffinch Brook School
-closing_date: 2026-08-14T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+action: 
+SELECTED | London | London, London, SE12 9BT | £26,971.15 - £27,356.92 Annually (Actual) | Administration Assistant
+employer: Horn Park Primary School
+closing_date: 2026-08-09T17:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: SAME_DAY_ACTION
-factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
+migration_status: 
+factual_fingerprint: e4cfad0d84508040168066fb2020a47485fd2a25a5fe6e917dc85211e0676a0d
 source: Teaching Vacancies
-source_job_id: admin-assistant-chaffinch-brook-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
+source_job_id: administration-assistant-horn-park-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horn-park-primary-school-london
+---
+
+---
+action: 
+SELECTED | London | Carshalton, London, SM5 2QX | £31,288.00 - £32,655.00 Annually (FTE) Actual salary - £14,567 - £15,203 | Administration Assistant and First Aider
+employer: Carshalton High School for Girls
+closing_date: 2026-08-26T10:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9ec1924eb8fac0f7f28e9a3cd39f5fbeeb1344084b34faf84da3890c773eee86
+source: Teaching Vacancies
+source_job_id: administration-assistant-and-first-aider-carshalton-high-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-first-aider-carshalton-high-school-for-girls
 ---
 
 ---
@@ -94,6 +109,21 @@ factual_fingerprint: 1d13767369049905a0bdbc0fb7c0af46586e328f5327736aadd0af6879c
 source: Teaching Vacancies
 source_job_id: administrative-assistant-welfare-reception-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-welfare-reception-attendance
+---
+
+---
+action: 
+SELECTED | London | London, London, E15 4LP | £30,770.00 - £31,693.00 Annually (Actual) | Administrator and Cover Coordinator
+employer: Sarah Bonnell School
+closing_date: 2026-08-14T14:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c31a10b13a418b336bc27b0f610c8db9d9b1dfa0384fc02826c6160ced3da162
+source: Teaching Vacancies
+source_job_id: administrator-and-cover-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-cover-coordinator
 ---
 
 ---
@@ -293,21 +323,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-c
 
 ---
 action: 
-SELECTED | London | London, London, SE4 1DF | Scale 3 | School Admin Assistant
-employer: Myatt Garden Primary School
-closing_date: 2026-08-24T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a4fe6bb386bc5ea740a3b6c6414880539ff88e675f6d89ed42c3fd81b6a6267
-source: Teaching Vacancies
-source_job_id: school-admin-assistant-myatt-garden-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-myatt-garden-primary-school-london
----
-
----
-action: 
 SELECTED | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | School Administrator
 employer: Beecholme Primary School
 closing_date: 2026-08-30T23:59:59+01:00
@@ -385,17 +400,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trainee-compliance-an
 
 ---
 action: 
-POSS | London | Barking, London, IG11 7AR | £38,752 - £40,681 FTE | Assistant Business Manager (Part Time)
-employer: St Joseph's Catholic Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
+POSS | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
+employer: Chaffinch Brook School
+closing_date: 2026-08-14T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b5f553587bbc30309dc177678152c8964169c2b01b2be162ec08c97eae07958
+migration_status: REVIEW_REQUIRED_DUPLICATE
+factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
 source: Teaching Vacancies
-source_job_id: assistant-business-manager-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-business-manager-part-time
+source_job_id: admin-assistant-chaffinch-brook-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
 ---
 
 ---
@@ -411,21 +426,6 @@ factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89
 source: Teaching Vacancies
 source_job_id: attendance-and-pastoral-support-worker-northwood-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
----
-
----
-action: 
-POSS | London | Bromley, London, BR2 7DB | £27,823.00 - £29,486.00 Annually (Actual) | Cover Manager and Sixth Form Assistant
-employer: Hayes School
-closing_date: 2026-08-31T09:00:00+01:00
-reason: Borderline school administration title: cover manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 45592fef007436398ca6e353d25f5e6789d81b23cb24956ca9777b90aec1cda0
-source: Teaching Vacancies
-source_job_id: cover-manager-and-sixth-form-assistant-hayes-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-manager-and-sixth-form-assistant-hayes-school
 ---
 
 ---
@@ -488,66 +488,6 @@ source_job_id: hr-officer-0b54e05b-33a0-44fc-bb21-148b5f610bb7
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-0b54e05b-33a0-44fc-bb21-148b5f610bb7
 ---
 
----
-action: 
-POSS | London | Dagenham, London, RM9 6PH | £34,817.00 Annually (Actual) | Office Manager
-employer: Pathways School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cb4870264fe44d1683942779cbf4084d45c992efd916946c5df23fd6b9db2491
-source: Teaching Vacancies
-source_job_id: office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c
----
-
----
-action: 
-POSS | London | Barnet, London, EN5 5HT | £46,512 pro rata | School Business Manager
-employer: Cromer Road Primary School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: db530878d4c226414bc5da9f2b3ca63fdad76bb4f622bf7672a1a598ee21d0d8
-source: Teaching Vacancies
-source_job_id: school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de
----
-
----
-action: 
-POSS | London | Pinner, London, HA5 4QE | £46,563.00 - £54,843.00 Annually (FTE) | School Business Manager
-employer: Grimsdyke School
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2caa2579125e3da3a23c123a424aa47f057272e11b0680628b3a9d9b50154a03
-source: Teaching Vacancies
-source_job_id: school-business-manager-grimsdyke-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grimsdyke-school
----
-
----
-action: 
-POSS | London | Chislehurst, London, BR7 5PQ | £35,407.00 - £38,009.00 p.a. | School Office Manager
-employer: St Nicholas Church of England Primary
-closing_date: 2026-08-30T08:00:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: db1c91b4bf33f30e1a74a3698eaacd717241e9e54e54a9928972abeb52dd1742
-source: Teaching Vacancies
-source_job_id: school-office-manager-st-nicholas-church-of-england-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-nicholas-church-of-england-primary
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -555,28 +495,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 ## HARD_PASS
 
 - [Admin and Reprographics Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-officer-b4fcc8c7-2a12-4494-bebd-e40569928970) — Insufficient admin/service evidence.
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horn-park-primary-school-london) — Insufficient admin/service evidence.
-- [Administration Assistant and First Aider](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-first-aider-carshalton-high-school-for-girls) — Insufficient admin/service evidence.
-- [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Insufficient admin/service evidence.
+- [Assistant Business Manager (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/assistant-business-manager-part-time) — Manager title salary ceiling £40,681 is not below £28,000.
+- [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Manager title salary ceiling £45,157 is not below £28,000.
+- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
 - [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Communications Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/communications-admin-officer) — Insufficient admin/service evidence.
-- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Insufficient admin/service evidence.
-- [Director of Marketing and Communications](https://teaching-vacancies.service.gov.uk/jobs/director-of-marketing-and-communications) — Insufficient admin/service evidence.
+- [Cover Manager and Sixth Form Assistant](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-and-sixth-form-assistant-hayes-school) — Manager title salary ceiling £29,486 is not below £28,000.
+- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-sarah-bonnell-school) — Insufficient admin/service evidence.
 - [Facilities Business Partner](https://teaching-vacancies.service.gov.uk/jobs/facilities-business-partner-orchard-hill-college-academy-trust) — Insufficient admin/service evidence.
-- [Finance Assistant / Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-finance-apprentice) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-walthamstow-academy) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-walthamstow-academy) — Manager title salary ceiling £52,500 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-limes-college) — Insufficient admin/service evidence.
 - [Head of Finance Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-business-partnering-orchard-hill-college-academy-trust) — Insufficient admin/service evidence.
 - [HLTA Nursery Admin](https://teaching-vacancies.service.gov.uk/jobs/hlta-nursery-admin) — Out-of-scope occupation: nurse.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-haberdashers-borough-academy) — Insufficient admin/service evidence.
-- [Part Time Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/part-time-administration-assistant-mill-hill-county-high-school) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
 - [People/HR Shared Service Desk Lead](https://teaching-vacancies.service.gov.uk/jobs/people-hr-shared-service-desk-lead) — Insufficient admin/service evidence.
 - [Purchase Ledger](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-nower-hill-high-school) — Insufficient admin/service evidence.
 - [Receptionist & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy) — Missing salary or pay scale.
 - [School Accountant](https://teaching-vacancies.service.gov.uk/jobs/school-accountant) — Insufficient admin/service evidence.
-- [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-gladstone-park-primary-school) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de) — Manager title salary ceiling £46,512 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grimsdyke-school) — Manager title salary ceiling £54,843 is not below £28,000.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-nicholas-church-of-england-primary) — Manager title salary ceiling £38,009 is not below £28,000.
+- [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-gladstone-park-primary-school) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-blanche-nevile-school-london) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
 

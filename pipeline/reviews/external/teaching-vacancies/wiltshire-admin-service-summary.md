@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
 review_date: 2026-08-07
-review_fingerprint: 613b46b05db90bc182695f8e794377cac3f2f3e7ca9eafc57f3871b75161ab58
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 5bbfd0d0ebfe2c0ce58276c62fdb94fda6ee519d8d7d75b58a3a704f3996d870
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 9
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -85,21 +85,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-admin-a
 
 ---
 action: 
-POSS | Wiltshire | Salisbury, South West, SP2 7EU | £31,537.00 - £33,699.00 Annually (FTE) NJC Grade H pt 15 - 17 | [260720A] Office Manager
-employer: SAIL (Salisbury Academy for Inspirational Learning)
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b173706373dcb1583f06b3e64bb8a03b1972034ab23c30b51992b29b5d836fa2
-source: Teaching Vacancies
-source_job_id: 260720a-office-manager
-source_url: https://teaching-vacancies.service.gov.uk/jobs/260720a-office-manager
----
-
----
-action: 
 POSS | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
 employer: Queen's Crescent School
 closing_date: 2026-09-01T12:00:00+01:00
@@ -119,9 +104,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s
 
 ## HARD_PASS
 
+- [[260720A] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260720a-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
-- [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Insufficient admin/service evidence.
-- [School Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-officer-westwood-with-iford-primary-school) — Insufficient admin/service evidence.
+- [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

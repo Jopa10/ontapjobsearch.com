@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
 review_date: 2026-08-07
-review_fingerprint: ead9201c65917d6ad1a159a19642f07620f1c3ade2311bb5cea22f73eac1d2a6
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 316c26d37f2b8285a608a0896fe12f464a81f6621a80b4fc4f433d63b8bac52c
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,12 +14,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 3
-- POSS awaiting decision: 2
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK45 4NS | £4,366.00 Annually (Actual) Level 2A point 4 | Administration Assistant
+employer: Ramsey Manor Lower School
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: c118d74ab318bfdce3db4f3a81f0859f9c33b271947f91a2baa1efae81f5843c
+source: Teaching Vacancies
+source_job_id: administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Henlow, East of England, SG16 6BA | £25,540.00 - £25,540.00 Annually (FTE) | Administration Assistant
+employer: Derwent Primary School
+closing_date: 2026-08-14T16:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: b11cdcaafacfa361747f03ce5cd91e6dc485714a971e96d6219beaa8a5f0d537
+source: Teaching Vacancies
+source_job_id: administration-assistant-fd26739e-4749-4e16-a01b-2d7fc14cf8eb
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fd26739e-4749-4e16-a01b-2d7fc14cf8eb
+---
 
 ---
 action: 
@@ -68,35 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-cler
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Bedfordshire | Bedford, East of England, MK45 4NS | £4,366.00 Annually (Actual) Level 2A point 4 | Administration Assistant
-employer: Ramsey Manor Lower School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c118d74ab318bfdce3db4f3a81f0859f9c33b271947f91a2baa1efae81f5843c
-source: Teaching Vacancies
-source_job_id: administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
----
-
----
-action: 
-POSS | Bedfordshire | Luton, East of England, LU4 0NE | £40,172.00 - £45,401.00 Annually (Actual) AS 29-34 £40,172-£45,401 dependent on experience | Business Manager
-employer: The Chalk Hills Academy
-closing_date: 2026-08-13T08:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: fb7a3705c482d7eab0cc179f6deca829a220a059b942413b11a2d935bba6f39d
-source: Teaching Vacancies
-source_job_id: business-manager-the-chalk-hills-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -104,7 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fd26739e-4749-4e16-a01b-2d7fc14cf8eb) — Insufficient admin/service evidence.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy) — Manager title salary ceiling £45,401 is not below £28,000.
 - [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

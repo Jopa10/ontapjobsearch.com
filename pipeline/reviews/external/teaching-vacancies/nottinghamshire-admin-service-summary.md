@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
 review_date: 2026-08-07
-review_fingerprint: 16d2ccef8617c9c4f75023c889634e5088ae6d5fec7c090f07fc15fb6012035c
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: bbe9a76a738f54f0ada6ffd570cba4f1e792d9501c95ea23ffa6f153183d2445
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 05915432475d9bc79430f6b190ace09d073a19e550176ebc3a99acdae0d
 source: Teaching Vacancies
 source_job_id: administrator-the-manor-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-manor-academy
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
+employer: Park Vale Academy
+closing_date: 2026-08-25T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 769395cebb2f4e1bba222b8f01396233948877fa228a3a8c81cf47caf2ec065f
+source: Teaching Vacancies
+source_job_id: healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
 ---
 
 ---
@@ -85,17 +100,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-executive-p
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG3 4QP | SCP 23 (£35,571) - SCP 28 (£40,446) | Office Manager
-employer: Sycamore Academy
-closing_date: 2026-09-11T13:00:00+01:00
-reason: Borderline school administration title: office manager
+POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Exams Assistant
+employer: South Nottinghamshire Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: a4fcaad3714f7ba9d31ca55592bd1ad82dc07b4c90cf5de0247d0c979945bb58
+factual_fingerprint: 2059b5f28707065dcde8e6a20e0d67d79efdcb20998b8680d0c65534749909e0
 source: Teaching Vacancies
-source_job_id: office-manager-sycamore-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy
+source_job_id: exams-assistant-south-nottinghamshire-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
 ---
 
 ## EXCLUDED BY REVIEW
@@ -109,6 +124,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamo
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-portland) — Missing salary or pay scale.
 - [Maternity Cover – Fixed Term Receptionist/Administrator Ref: ADM26](https://teaching-vacancies.service.gov.uk/jobs/maternity-cover-fixed-term-receptionist-administrator-ref-adm26) — Missing salary or pay scale.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-diverse-academies-trust) — Insufficient admin/service evidence.
 - [Personal Care and Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-teaching-assistant-colonel-frank-seely-academy) — Out-of-scope occupation: teaching assistant.

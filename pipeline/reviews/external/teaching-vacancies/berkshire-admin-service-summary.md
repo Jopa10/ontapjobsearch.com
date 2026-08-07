@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
 review_date: 2026-08-07
-review_fingerprint: 874bbaa3118ccf5a86bc7b23a00595f5da113c10b947a0261269085427e03b17
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: e51163ad3c487a7f776b0f6d1e3c1fec2806a52c6ad3c5a4a2afe4b8b353cc5f
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 11
-- POSS awaiting decision: 4
+- Records: 18
+- Selected: 10
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -128,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-pole
 
 ---
 action: 
-SELECTED | Berkshire | Reading, South East, RG10 9AX | £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11 | School Secretary (part time)
-employer: Polehampton Church of England Junior School
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 50b7de5b190c1c166b60222edef2db654a4bfbbd8f0b1e869176b260f7c69833
-source: Teaching Vacancies
-source_job_id: school-secretary-part-time-polehampton-church-of-england-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school
----
-
----
-action: 
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
 employer: The Windsor Boys' School
 closing_date: 2026-08-31T23:59:00+01:00
@@ -205,36 +190,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprentice
 
 ---
 action: 
-POSS | Berkshire | Bracknell, South East, RG42 1SY | £25,209.00 - £28,592.00 Annually (Actual) KGA Support Staff Pay Scale Band 7, Points 13-17, £32,061–£36,363 per annum (FTE) | Office Manager
-employer: King's Academy Meadow Vale
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 3b2420c0e2b53bc2e4fcbd0a9851eb545d3a054721e2466e43e563b2f4af940a
-source: Teaching Vacancies
-source_job_id: office-manager-king-s-academy-meadow-vale
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale
----
-
----
-action: 
-POSS | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
-source: Teaching Vacancies
-source_job_id: tkat-hr-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
----
-
----
-action: 
 POSS | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
 employer: The Keys Academy Trust
 closing_date: 2026-09-07T09:00:00+01:00
@@ -254,10 +209,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 
 ## HARD_PASS
 
-- [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Insufficient admin/service evidence.
+- [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-polehampton-church-of-england-junior-school-reading-berkshire) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

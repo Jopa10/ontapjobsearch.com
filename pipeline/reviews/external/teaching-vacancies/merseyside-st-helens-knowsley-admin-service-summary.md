@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
 review_date: 2026-08-07
-review_fingerprint: 5017efb4b276675ea6dbd3e40c99e934ee8a697b6a1a813b185ee0c9021fb6b6
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: f8537461b33220822201e5d1de22f76773f2fe09fad3c5c3ec1e32996020ee1f
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,23 +14,19 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 1
-- Selected: 0
-- POSS awaiting decision: 1
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Merseyside - St Helens & Knowsley | St Helens, North West, WA10 2HS | £24,796-£25,185 | Administration Assistant
+SELECTED | Merseyside - St Helens & Knowsley | St Helens, North West, WA10 2HS | £24,796-£25,185 | Administration Assistant
 employer: St Mary & St Thomas CofE Primary School
 closing_date: 2026-08-21T12:00:00+01:00
-reason: Administrative duties evidenced in description
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
@@ -39,6 +35,10 @@ source: Teaching Vacancies
 source_job_id: administration-assistant-st-mary-st-thomas-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-mary-st-thomas-cofe-primary-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

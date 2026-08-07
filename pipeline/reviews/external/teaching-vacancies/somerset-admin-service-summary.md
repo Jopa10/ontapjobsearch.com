@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 76f9ce1eb13e31e9bab851e5fb60d2af30e00fac3194d867079a44e609801d8b
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -78,8 +78,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 - [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-castle-school-education-trust) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
+- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-7adf438b-fd55-4e21-8bef-eccad94efdcb) — Missing salary or pay scale.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
 review_date: 2026-08-07
-review_fingerprint: eca27c1f41f9b7d97083366e8ee9efe8eaf51feada191c31c6bdb7f6a60d30b8
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 0b7647b2e21f469aa0e318d6a559e2fbd3820164885a949810e923d7259b07c6
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 6
-- POSS awaiting decision: 1
+- Records: 8
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 152c6578821bb1e17789081f16afb1f6dd8c70c7254ff2e15ab1798868d
 source: Teaching Vacancies
 source_job_id: administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hertford, East of England, SG14 2DG | £25,144.61 Annually (Actual) H 5 | Attendance Officer
+employer: The Sele School
+closing_date: 2026-08-11T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 2659e86384fdda34f025943d2dfcfdc2479683ce5950839951a8257616ddd386
+source: Teaching Vacancies
+source_job_id: attendance-officer-the-sele-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-sele-school
 ---
 
 ---
@@ -113,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hertfordshire | Welwyn Garden City, East of England, AL7 3RP | £42,839 - £47,181 | School Business Manager
-employer: Holwell Primary School
-closing_date: 2026-08-20T09:00:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: f6385672e806e2b6d235eda36f0e1fb2181c140fd409337756e1e26aa318cf2b
-source: Teaching Vacancies
-source_job_id: school-business-manager-holwell-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-holwell-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -134,7 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 
 ## HARD_PASS
 
-- None.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-holwell-primary-school) — Manager title salary ceiling £47,181 is not below £28,000.
 
 ## Safety boundary
 

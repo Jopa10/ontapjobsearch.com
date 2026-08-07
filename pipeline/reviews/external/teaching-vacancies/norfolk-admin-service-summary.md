@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: b546ec8dd58dfaadc65d49857b55779b0a5ff12706743b80f162bebbf3b7a73e
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: UNREGISTERED

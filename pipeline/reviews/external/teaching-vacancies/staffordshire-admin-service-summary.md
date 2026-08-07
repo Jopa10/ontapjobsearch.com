@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
 review_date: 2026-08-07
-review_fingerprint: b737624c0c443984cad8cf6e5c72a4a8fe91024fe9f1f7d75d335bedf1f12efd
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: a9a22a48e6a1e3761021365e233e42c469396814eac861531602c6efd83e88c4
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 9
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST2 0QD | £17,861 - £18,725 | Administration Assistant
+employer: Maple Court Academy
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 2cb410dfa298e2cc638ba20c2c7dd9caa99838ff6d160d87907fc344c1ae9b35
+source: Teaching Vacancies
+source_job_id: administration-assistant-maple-court-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maple-court-academy
+---
 
 ---
 action: 
@@ -107,11 +122,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Administration and Finance Assistant - Level 3](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-level-3-abbey-hill-academy-college) — Insufficient admin/service evidence.
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maple-court-academy) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-greenhall) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-ad8e5dde-4e1b-465c-bf65-4f9e50e4d838) — Insufficient admin/service evidence.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy) — Insufficient admin/service evidence.
-- [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-a8f45de3-8ece-41fc-909e-9dacae971fa0) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

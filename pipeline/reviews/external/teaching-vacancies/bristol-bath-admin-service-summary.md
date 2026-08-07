@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 58c7086ac2e34f1e9608e7b4c48aa3db0725fde7b3c1d370c2074c2d037143d9
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 13
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -79,11 +79,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-adm
 - [AI & Digital Communications and Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/ai-digital-communications-and-marketing-apprentice) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-cabot-learning-federation-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-lyde-green-primary-school) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-patrick-s-catholic-primary-school) — Insufficient admin/service evidence.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-lyde-green-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-joseph-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-nicholas-of-tolentine-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-patrick-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 
 ## Safety boundary
 

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 31850e38685cf17823b96c54ea6e4930850ad603e7ffe4744332bde351caf115
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -92,7 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 ## HARD_PASS
 
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-st-regis-church-of-england-academy-wolverhampton-west-midlands) — Insufficient admin/service evidence.
-- [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Insufficient admin/service evidence.
+- [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Manager title salary ceiling £32,079 is not below £28,000.
 
 ## Safety boundary
 

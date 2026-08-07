@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
 review_date: 2026-08-07
-review_fingerprint: 68f590b16d4eb770e55d2f596baba5286c165d89afe0836dc3aa6a66463d8072
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 3
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -25,20 +25,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - Wigan & Bolton | Bolton, North West, BL6 7RU | £30,866.00 - £34,260.00 Annually (Actual) Salary Grade G SCP23 - SCP27 on the NJC pay scale for support staff | Office Manager
-employer: Rivington and Blackrod High School
-closing_date: 2026-08-13T23:59:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 0d66a8adf75b485176ae1315874434a4348e395cab0e2a7c5bf0d0d62c15f81c
-source: Teaching Vacancies
-source_job_id: office-manager-rivington-and-blackrod-high-school-bolton-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-rivington-and-blackrod-high-school-bolton-lancashire
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -46,6 +33,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-riving
 
 ## HARD_PASS
 
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-rivington-and-blackrod-high-school-bolton-lancashire) — Manager title salary ceiling £34,260 is not below £28,000.
 - [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-598f1f7d-7f62-4080-ba2f-598a194bcbae) — Insufficient admin/service evidence.
 - [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-st-mary-s-cofe-primary-school-deane) — Insufficient admin/service evidence.
 

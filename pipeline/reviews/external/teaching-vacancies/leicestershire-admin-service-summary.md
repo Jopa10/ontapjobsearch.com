@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 017d0d2ea8170041561ec20a6609109e4f90e70be232ba61023b1b508af57dcd
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -64,12 +64,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 - [Attendance Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-the-robert-smyth-academy) — Insufficient admin/service evidence.
 - [Business Administration Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprenticeship-heath-lane-academy) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
-- [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-lancaster-academy) — Insufficient admin/service evidence.
-- [Finance Systems and Controls Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-systems-and-controls-manager) — Insufficient admin/service evidence.
-- [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-south-charnwood-high-school) — Insufficient admin/service evidence.
+- [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-lancaster-academy) — Manager title salary ceiling £50,269 is not below £28,000.
+- [Finance Systems and Controls Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-systems-and-controls-manager) — Manager title salary ceiling £33,293 is not below £28,000.
+- [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-south-charnwood-high-school) — Manager title without salary evidence below £28,000.
 - [Music Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/music-support-assistant) — Insufficient admin/service evidence.
-- [Pre - School Deputy Manager (PAR219BC)](https://teaching-vacancies.service.gov.uk/jobs/pre-school-deputy-manager-par219bc) — Insufficient admin/service evidence.
+- [Pre - School Deputy Manager (PAR219BC)](https://teaching-vacancies.service.gov.uk/jobs/pre-school-deputy-manager-par219bc) — Manager title salary ceiling £28,146 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
 - [Trust Data Analyst and Insights Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-data-analyst-and-insights-lead) — Insufficient admin/service evidence.
 

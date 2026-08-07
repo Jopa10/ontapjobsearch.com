@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
 review_date: 2026-08-07
-review_fingerprint: 84c160fdfbe410d7976ed3f59a67fdbaea6e094d49025cd601d88fa1030aaf0e
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 627f8db166fe1a5cf91f705d9d645aabf7c083a473e00d87857e2092f6425060
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 7
-- POSS awaiting decision: 3
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0SZ | £22,684 - £24,981 (actual pro-rata salary) | Administration Assistant
+employer: Smith's Wood Primary Academy
+closing_date: 2026-08-21T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: cadbe50095ea7473c2c652f95589d25d3030df7f04ac526f6489d9c5615b5996
+source: Teaching Vacancies
+source_job_id: administration-assistant-7ce9f85e-0055-4b49-b2d9-0a5cfbe7437a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7ce9f85e-0055-4b49-b2d9-0a5cfbe7437a
+---
 
 ---
 action: 
@@ -130,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-f
 
 ---
 action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0SZ | £22,684 - £24,981 (actual pro-rata salary) | Administration Assistant
-employer: Smith's Wood Primary Academy
-closing_date: 2026-08-21T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: cadbe50095ea7473c2c652f95589d25d3030df7f04ac526f6489d9c5615b5996
-source: Teaching Vacancies
-source_job_id: administration-assistant-7ce9f85e-0055-4b49-b2d9-0a5cfbe7437a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7ce9f85e-0055-4b49-b2d9-0a5cfbe7437a
----
-
----
-action: 
 POSS | West Midlands - Birmingham & Solihull | Birmingham, B11 3ND | Circa £ 85,000.00 -negotiable dependent on candidate experience and qualifications. | Chief Finance and Operations Officer (CFOO)
 employer: Create Partnership Trust
 closing_date: 2026-09-07T09:00:00+01:00
@@ -158,21 +158,6 @@ source_job_id: chief-finance-and-operations-officer-cfoo-create-partnership-trus
 source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-cfoo-create-partnership-trust
 ---
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B13 9UU | £34,434.00 - £41,771.00 Annually (FTE) | PA & Office Manager
-employer: Moseley School and Sixth Form
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 875051ec5239e1956077a23fc3f0d2527bc9be56e22aaafbcf253e75011e987b
-source: Teaching Vacancies
-source_job_id: pa-office-manager-moseley-school-and-sixth-form
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-moseley-school-and-sixth-form
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -183,7 +168,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-mos
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice) — Insufficient admin/service evidence.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy) — Insufficient admin/service evidence.
-- [Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/programme-manager-ormiston-academies-trust) — Insufficient admin/service evidence.
+- [PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-moseley-school-and-sixth-form) — Manager title salary ceiling £41,771 is not below £28,000.
+- [Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/programme-manager-ormiston-academies-trust) — Manager title salary ceiling £43,694 is not below £28,000.
 
 ## Safety boundary
 

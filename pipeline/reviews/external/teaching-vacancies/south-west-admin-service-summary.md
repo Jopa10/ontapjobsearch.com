@@ -2,7 +2,7 @@
 
 review_date: 2026-08-07
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -34,6 +34,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-the-new-forest-church-of-england-primary-school) — Insufficient admin/service evidence.
+- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-francis-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 
 ## Safety boundary
 

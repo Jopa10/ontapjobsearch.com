@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
 review_date: 2026-08-07
-review_fingerprint: 5d0c05960f79aab7927e2f212e1bacbabe16598b3407275cc6e4755814c50912
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: fb91f1c690e9db4a8befd5cce8bb2cae24f63d5c931feecc851eb7fb5f5113aa
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 6
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-swanwick
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | East Midlands | Derby, East Midlands, DE24 5AX | £27,521.00 - £29,362.00 Annually (Actual) NJC 11-15 - Full Time - 43 weeks per year | Office Manager
-employer: Clover Leys Spencer Academy
-closing_date: 2026-08-10T12:00:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 9c4eea5e062af408016824852c2cc76fa13867b7eed58a88ecbb8bfca3f94b65
-source: Teaching Vacancies
-source_job_id: office-manager-clover-leys-spencer-academy-derby
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-clover-leys-spencer-academy-derby
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -89,8 +76,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-clover
 
 ## HARD_PASS
 
-- [School Business Officer (H&S and Admin Manager)](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-h-s-and-admin-manager) — Insufficient admin/service evidence.
-- [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-clover-leys-spencer-academy-derby) — Manager title salary ceiling £29,362 is not below £28,000.
+- [School Business Officer (H&S and Admin Manager)](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-h-s-and-admin-manager) — Manager title salary ceiling £31,410 is not below £28,000.
+- [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
 
 ## Safety boundary
 

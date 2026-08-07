@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
 review_date: 2026-08-07
-review_fingerprint: 869d60624530ade74ae326bf51ebb7551ec04b1ecd591dafc293d0c85e270bdd
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 7c4217bc00f9f82db16ea896f0e659dcc0f5cb026583551e2b0fceac14157197
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Northamptonshire | Kettering, East Midlands, NN15 6BJ | £31,537.00 - £33,699.00 Annually (FTE) | Exams Office Manager
-employer: Bishop Stopford School
-closing_date: 2026-09-07T12:00:00+01:00
-reason: Borderline school administration title: office manager
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: cd95e01f62429af29aac0f44347dbf2a20e8d6a542e556c57bc9fe9c4cd83e54
-source: Teaching Vacancies
-source_job_id: exams-office-manager
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -90,9 +77,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager
 ## HARD_PASS
 
 - [EHCP Co-ordinator, Consultations & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-consultations-admin-officer) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-ce-academy) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Insufficient admin/service evidence.
-- [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner) — Insufficient admin/service evidence.
+- [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-ce-academy) — Manager title salary ceiling £33,142 is not below £28,000.
 
 ## Safety boundary
 

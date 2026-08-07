@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
 review_date: 2026-08-07
-review_fingerprint: 9d9ec1beec7387ad1b6a072b92fb7ac31184384e7caa8801d3ca5630ba59bcba
-routing_manifest_sha256: e2fa0c2ca8fdd40a2808adb99f4e2ae91f80d1eecb0cde669cfcac9178f6b950
+review_fingerprint: 0f2b934df6a53099d2bd7fa9f49a7522c4aad2c46a8de2a3899fcb422e26f475
+routing_manifest_sha256: 665273cf4aac4b47f32fe40054ee5346db2aa4091e4fbb81be4b0a0538631673
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -15,11 +15,26 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 24
 - Selected: 12
-- POSS awaiting decision: 3
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 12
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF3 1JQ | £22,418.00 - £23,133.00 Annually (Actual) | Administration Assistant
+employer: Woodkirk Academy
+closing_date: 2026-08-21T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 5a02ee43ef0a46166f1071b7714ce23c4c4ea888c1a91333ebc65a7e004fa96e
+source: Teaching Vacancies
+source_job_id: administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
+---
 
 ---
 action: 
@@ -79,21 +94,6 @@ factual_fingerprint: 092d86b32fdc738d9cecf5792fb7428abc901c2cf7aa7358fc1e1af4f56
 source: Teaching Vacancies
 source_job_id: business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £21,843.00 - £22,190.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Student Services
-employer: All Saints Catholic College
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2ee495b
-source: Teaching Vacancies
-source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 ---
 
 ---
@@ -203,50 +203,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - West | Wakefield, WF2 0NP | £35,412.00 - £38,220.00 Annually (FTE) | Accomplish Hubs Business Manager, Castleford Office
-employer: Accomplish Multi Academy Trust Limited
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: b6c2047a7efefc9a5d44b54d27744298ca9204b579caf120f86e6007609743d1
-source: Teaching Vacancies
-source_job_id: accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited
-source_url: https://teaching-vacancies.service.gov.uk/jobs/accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited
----
-
----
-action: 
-POSS | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF3 1JQ | £22,418.00 - £23,133.00 Annually (Actual) | Administration Assistant
-employer: Woodkirk Academy
-closing_date: 2026-08-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 5a02ee43ef0a46166f1071b7714ce23c4c4ea888c1a91333ebc65a7e004fa96e
-source: Teaching Vacancies
-source_job_id: administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
----
-
----
-action: 
-POSS | Yorkshire - West | Pudsey, Yorkshire and the Humber, LS28 8AT | £38,331.00 - £42,964.00 Annually (FTE) | School Business Manager
-employer: Southroyd Primary and Nursery School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Borderline school administration title: business manager
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: b66df7d4cb9a6ece1d73a8204e1f61f16b36936cead9ebf846b6f78a7165d709
-source: Teaching Vacancies
-source_job_id: school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -254,13 +211,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 
 ## HARD_PASS
 
+- [Accomplish Hubs Business Manager, Castleford Office](https://teaching-vacancies.service.gov.uk/jobs/accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited) — Manager title salary ceiling £38,220 is not below £28,000.
+- [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-abbey-multi-academy-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
-- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-woodkirk-academy) — Insufficient admin/service evidence.
+- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-woodkirk-academy) — Manager title salary ceiling £36,735 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-waterton-academy-trust-wakefield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-mirfield-free-grammar) — Insufficient admin/service evidence.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-abbey-multi-academy-trust-leeds-not-recorded) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.
 - [TRUST ATTENDANCE IMPROVEMENT OFFICER](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-improvement-officer) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-f1cbc046-b59f-467c-960b-8fc5c55604ba) — Insufficient admin/service evidence.
 
