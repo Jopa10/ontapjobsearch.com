@@ -232,14 +232,26 @@ def main(argv: list[str] | None = None) -> int:
     rows = build_master_rows(args.review_dir)
     if not rows:
         raise SystemExit("STOP: no regional review rows found for the master outputs.")
+
+    carried = 0
+    if args.output_csv.is_file() and args.output_summary.is_file():
+        # Import only at runtime: the actions module imports this module's contract.
+        from external_sources import teaching_vacancies_master_actions as master_actions
+
+        carried = master_actions.carry_existing_actions(
+            rows,
+            old_master_csv=args.output_csv,
+            old_master_summary=args.output_summary,
+        )
+
     discovery.write_bytes_atomic(args.output_csv, master_csv_bytes(rows))
     discovery.write_bytes_atomic(
         args.output_summary, master_summary_text(rows).encode("utf-8")
     )
     print(
         f"Teaching Vacancies master review wrote {len(rows)} rows plus the "
-        "England-wide summary; regional controls remain unchanged and no jobs "
-        "were published."
+        f"England-wide summary; {carried} unchanged manual action(s) carried "
+        "forward; regional controls remain unchanged and no jobs were published."
     )
     return 0
 
