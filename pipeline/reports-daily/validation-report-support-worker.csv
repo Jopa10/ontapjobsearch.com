@@ -1,44 +1,44 @@
 ﻿metric,value
-total rows input,2225
+total rows input,2249
 total rows included,53
-total rows dropped,2164
-title classification count - HIGH_CONFIDENCE,205
-title classification count - ELASTIC_FIT,130
+total rows dropped,2186
+title classification count - HIGH_CONFIDENCE,191
+title classification count - ELASTIC_FIT,141
 title classification count - REVIEW_CONTEXT_DEPENDENT,3
-title classification count - HARD_PASS,1224
-title classification count - OUT_OF_SCOPE,663
+title classification count - HARD_PASS,1240
+title classification count - OUT_OF_SCOPE,674
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - West,3
+selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - West,5
 high confidence count - Yorkshire - West,1
 anchor elastic count - Yorkshire - West,0
-other elastic count - Yorkshire - West,2
-total rows output - Yorkshire - West,3
-job_id included - Yorkshire - West,107800770; 1401783851; 107651994
+other elastic count - Yorkshire - West,4
+total rows output - Yorkshire - West,5
+job_id included - Yorkshire - West,107800770; 1401783851; 107651994; 25362_JR104910; 25362_JR104865
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - South,3
-high confidence count - Yorkshire - South,2
+selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - South,1
+high confidence count - Yorkshire - South,1
 anchor elastic count - Yorkshire - South,0
 other elastic count - Yorkshire - South,0
-total rows output - Yorkshire - South,3
-job_id included - Yorkshire - South,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7; 107798506; 107798539
+total rows output - Yorkshire - South,1
+job_id included - Yorkshire - South,107798506
 selection scenario - North East,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - North East,"North East selection complete: 12 selected after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - North East,12
+selection message - North East,"North East selection complete: 13 selected after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - North East,13
 high confidence count - North East,6
 anchor elastic count - North East,1
-other elastic count - North East,5
-total rows output - North East,12
-job_id included - North East,107616541; 6b804bc2-d778-42ed-bf1b-d3ec78422d8a; 35ef02dd-6e8a-4d5a-a1af-bacca950305f; cc359452-7885-406f-b982-9931f062cd19; 9b0995dd-b5e5-433f-b113-8a55acf6d8cd; 107199247; 107199252; 107800900; 107615864; 107617093; 107781117; 107800903
-selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 10 selected.
+other elastic count - North East,6
+total rows output - North East,13
+job_id included - North East,107616541; 6b804bc2-d778-42ed-bf1b-d3ec78422d8a; 35ef02dd-6e8a-4d5a-a1af-bacca950305f; cc359452-7885-406f-b982-9931f062cd19; 9b0995dd-b5e5-433f-b113-8a55acf6d8cd; 107199247; 107199252; 107615864; 107617093; 25362_JR104883-1; 25362_JR104883-1-1908a03149bfe006218cbce2dd812797; 107810260; 107781117
+selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
+selection message - Sussex,"Sussex selection complete: 10 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Sussex,10
 high confidence count - Sussex,6
 anchor elastic count - Sussex,0
-other elastic count - Sussex,3
+other elastic count - Sussex,4
 total rows output - Sussex,10
-job_id included - Sussex,1595772; 107693840; 107775338; 2ed3e16f-b49e-444d-be95-42cbbb537763; b045cd0a-82e7-4208-8161-9940e9e8f7c7; 107681556; 107605050; 1401783835; 99725da6-35b1-4d29-9426-1b7224ab3269; 44c04919-b68b-4946-9565-88687eb782e2
+job_id included - Sussex,1595772; 107693840; 2ed3e16f-b49e-444d-be95-42cbbb537763; b045cd0a-82e7-4208-8161-9940e9e8f7c7; 107681556; 107605050; 1401783835; 99725da6-35b1-4d29-9426-1b7224ab3269; 107812909; 44c04919-b68b-4946-9565-88687eb782e2
 selection scenario - Cumbria - South,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Cumbria - South,"Cumbria - South selection complete: 6 selected after HIGH_CONFIDENCE, Barrow-in-Furness ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Cumbria - South,6
@@ -46,12 +46,12 @@ high confidence count - Cumbria - South,2
 anchor elastic count - Cumbria - South,1
 other elastic count - Cumbria - South,3
 total rows output - Cumbria - South,6
-job_id included - Cumbria - South,107789321; 107800894; 107800914; 107746227; 107800984; 107800988
+job_id included - Cumbria - South,107789321; 107800894; 107800914; 107746227; 107800988; 25362_JR104893
 selection scenario - Hampshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Hampshire,"Hampshire selection complete: 19 selected after HIGH_CONFIDENCE, Southampton ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Hampshire,19
-high confidence count - Hampshire,13
-anchor elastic count - Hampshire,3
-other elastic count - Hampshire,3
-total rows output - Hampshire,19
-job_id included - Hampshire,1401784075; 107794548; 1642086; 2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4; 107605224; 1642087; 30c20a52-7bcf-41bf-9813-63230dab4fa2; 107404020; 77b95346-e87e-49a2-ba72-135448bf136e; 107586326; 107586313; 107739683; 1401784321; 107793198; 107332363; 107796981; 1da42d41-7b4f-430d-b722-87c9b199ba97; c4b882e9-0d0f-433e-820e-ed014114370d; 107318709
+selection message - Hampshire,"Hampshire selection complete: 18 selected after HIGH_CONFIDENCE, Southampton ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Hampshire,18
+high confidence count - Hampshire,12
+anchor elastic count - Hampshire,4
+other elastic count - Hampshire,2
+total rows output - Hampshire,18
+job_id included - Hampshire,1401784075; 1642086; 107794548; 2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4; 107605224; 1642087; 107791554; 30c20a52-7bcf-41bf-9813-63230dab4fa2; 107404020; 77b95346-e87e-49a2-ba72-135448bf136e; 107586326; 107586313; 107739683; 1401784321; 107332363; 107796981; 1da42d41-7b4f-430d-b722-87c9b199ba97; c4b882e9-0d0f-433e-820e-ed014114370d
