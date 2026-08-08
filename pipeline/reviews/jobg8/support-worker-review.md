@@ -24,6 +24,18 @@ job_id: 107651994
 ---
 
 ---
+action: select
+SELECTED | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
+---
+
+---
 action:
 SELECTED | Yorkshire - West | Huddersfield | £12.71 per hour | Health Care Assistant - Weekend Days
 job_id: 107800770
@@ -49,19 +61,13 @@ POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in P
 job_id: 107751768
 ---
 
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728806
----
-
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
-
 ## SOUTH YORKSHIRE — SELECTED
+
+---
+action: select
+SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+---
 
 ---
 action:
@@ -71,13 +77,15 @@ job_id: 107798506
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
+
+---
+action: select
+SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £17.50-£24.00 per hour | Children Crisis Support Worker - Waking Nights
+job_id: 05843b40-34ac-40a5-8f4c-e146dd6988e1
+---
 
 ---
 action:
@@ -161,11 +169,7 @@ job_id: 107781117
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
----
-action: select
-POSS - NE - Tyneside/Wearside/N'land | North East - Tyneside, Wearside & Northumberland | Gateshead | £17.50-£24.00 per hour | Children Crisis Support Worker - Waking Nights
-job_id: 05843b40-34ac-40a5-8f4c-e146dd6988e1
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
@@ -334,6 +338,18 @@ job_id: c4b882e9-0d0f-433e-820e-ed014114370d
 ---
 
 ---
+action: select
+SELECTED | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
+job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
+---
+
+---
+action: select
+SELECTED | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
+job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
+---
+
+---
 action:
 SELECTED | Hampshire | Ryde | £12.8 per hour | Care Assistant
 job_id: 107586326
@@ -400,18 +416,6 @@ job_id: 107794548
 ---
 
 ## HAMPSHIRE — POSSIBLES
-
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
-job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
----
-
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
-job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
----
 
 ---
 action:
