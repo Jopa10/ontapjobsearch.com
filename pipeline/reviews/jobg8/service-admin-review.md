@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-07
+feed_date: 2026-08-08
 
 Edit only the `action:` line in each block:
 
@@ -61,12 +61,6 @@ job_id: 9d793cd4-ff2a-4749-9512-a7407298f539
 action:
 SELECTED | Yorkshire - South | Sheffield | £13.45 per hour | Business Support Officer - Local Authority Library
 job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
----
-
----
-action:
-SELECTED | Yorkshire - South | Doncaster | £14 per hour | Care Coordinator
-job_id: 107790842
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -200,12 +194,6 @@ job_id: 01257d43-ab3d-4a80-a4b6-86892e362251
 ---
 
 ---
-action: select
-SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
----
-
----
 action:
 SELECTED | London | London | £35000 per year | Sipp Administrator
 job_id: e0a800a7-bcbd-4cad-8a96-decf3e7a07ba
@@ -265,6 +253,24 @@ SELECTED | London | London |  | Safeguarding Department Administrator
 job_id: 1642103
 ---
 
+---
+action:
+SELECTED | London | London |  | Receptionist
+job_id: 1643112
+---
+
+---
+action:
+SELECTED | London | London |  | Group Activites Coordinator
+job_id: 1645274
+---
+
+---
+action:
+SELECTED | London | Croydon |  | HR and Business Support Administrator
+job_id: 1645224
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -281,8 +287,8 @@ job_id: 107731922
 
 ---
 action:
-POSS - LONDON | London | London | £19.18 per hour | Administrator (Giving Team)
-job_id: bd7a5b5d-f64e-4baa-b667-dceebbc9a692
+POSS - LONDON | London | London | £75000 - £100000 per year | Global NetSuite Owner/ Administrator
+job_id: b83c05fc-a498-4d8a-80b5-1e32c317f50b
 ---
 
 ---
@@ -295,6 +301,12 @@ job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
 action:
 POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
 job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
+---
+
+---
+action:
+POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -315,12 +327,6 @@ job_id: 8f49a549-d633-4be4-8902-6fe0e11ff19b
 action:
 SELECTED | Hampshire | Eastleigh | £26000 - £30000 per year | Customer Service Administrator
 job_id: 4e153964-a053-4ed8-aea2-1904770ff29d
----
-
----
-action:
-SELECTED | Hampshire | Farnborough | £27000 - £30000 per year | Service Administrator
-job_id: 71c14263-f694-438a-8eb2-9fc40e26b6d2
 ---
 
 ---
@@ -382,6 +388,12 @@ job_id: 107605314
 _No jobs in this group._
 
 ## SURREY — SELECTED
+
+---
+action:
+SELECTED | Surrey | Shepperton | £30000 - £33000 per year | Bookkeeping & Administration Assistant
+job_id: d801e589-cdf4-4e7e-9b7f-cb2894fb5730
+---
 
 ---
 action:
@@ -450,24 +462,18 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 ---
 
 ---
-action: select
-SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
----
-
----
-action:
-SELECTED | Kent | Canterbury | £24000 - £26000 per year | Receptionist / Administrator
-job_id: cf57b5c9-1ba9-42b2-abfe-093bc469040f
----
-
----
 action:
 SELECTED | Kent | Maidstone | £14.4 per hour | Accounts Administrator
 job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
 
 ## KENT — POSSIBLES
+
+---
+action:
+POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
 
 ---
 action:
@@ -580,7 +586,13 @@ job_id: 26c4e84f-e3ee-4d79-97f9-4105c719d965
 ## NORTH YORKSHIRE — SELECTED
 
 ---
-action: select
+action:
+SELECTED | Yorkshire - North | Harrogate | £25000 - £26000 per year | Conveyancing Administrator/Assistant
+job_id: f88af6c0-26e6-4934-a4f2-b3be470d8edf
+---
+
+---
+action:
 SELECTED | Yorkshire - North | Scarborough | £28000 - £29500 per year | Recruitment Administrator
 job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
 ---
