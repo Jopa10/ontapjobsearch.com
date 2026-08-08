@@ -1,0 +1,161 @@
+﻿lookup_region,job_id,title,company,raw_area,raw_location,diagnostic_status,selected_categories,register_matches,first_seen,last_seen,days_seen
+London,21618_19319_79611-8943dbd9a16f7c24763d0a153dba127e,British Sign Language (BSL) Interpreter - Work from home,Teleperformance,City,Birmingham,unregistered_title,,,2026-07-23,2026-07-29,7
+Other / Unknown,1582210,Nurse Manager,MSI Reproductive Choices UK,Birmingham,Staffordshire,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-25,2026-07-31,7
+Other / Unknown,1582207,Registered Nurse,MSI Reproductive Choices UK,Birmingham,Staffordshire,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-25,2026-07-31,7
+Other / Unknown,1537434,Key Worker,Cranstoun,Birmingham,Staffordshire,unregistered_title,,,2026-07-25,2026-07-31,7
+Other / Unknown,1564741,Solihull Early Help Autism Worker,Barnardos,Birmingham,Staffordshire,unregistered_title,,,2026-07-25,2026-07-31,7
+Other / Unknown,1595764,Peer Mentor - Intensive Community Rehabilitation Team,IRIS Recruitment,Birmingham,Staffordshire,unregistered_title,,,2026-07-28,2026-07-31,4
+Other / Unknown,1539403,SENIOR YOUTH SUPPORT WORKER (OASIS MIDLANDS),Oasis Trust,Birmingham,Staffordshire,unregistered_title,,,2026-07-25,2026-07-26,2
+Other / Unknown,1618696,Registry Administrator,National Institute of Teaching,Birmingham,Staffordshire,unregistered_title,,,2026-07-31,2026-07-31,1
+unknown,918f3c1b-aa35-4e1d-8ad5-021fb8668c0a,Commercial Administrator,Hays Specialist Recruitment Limited,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE,2026-07-11,2026-07-29,19
+unknown,d60817e1-969f-4fc8-9caf-9a70f34c36cd,Customer Service Administrator,Equals One,Not Specified,Birmingham,admin_service_selected,admin_service; customer_service_contact_centre,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:ELASTIC_FIT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-16,2026-07-30,15
+unknown,ad05189b-c1cf-4240-bfad-2d6535784a9b,Business Support Officer,Michael Page Business Support,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-17,2026-07-29,13
+unknown,7f120cfd-c883-443b-a695-204b75bbcdbb,Senior Pensions Administrator,Alexander Lloyd,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:HARD_PASS; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-18,2026-07-30,13
+unknown,e4c3320d-152e-4141-819d-859f3db3bf51,IFA Administrator,Premier Jobs UK Limited,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-16,2026-07-27,12
+unknown,73c8bb5b-659e-4ea8-92c2-d82ee15db3a1,IFA Administrator,Recruit UK,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-21,2026-07-30,10
+unknown,7e4feb48-87bf-4e38-a6c2-37747171d936,IFA Administrator,TEMPLEGATE RECRUITMENT,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-01,2026-07-20,10
+unknown,18f440e1-ef1f-4bb8-9fab-f6828d1171e6,Ifa Administrator,Reed,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-01,2026-07-07,7
+unknown,b318dc6b-73f7-4107-bf9b-218927ce2a69,Customer Service Administrator,Morgan McKinley,Not Specified,Birmingham,admin_service_selected,admin_service; customer_service_contact_centre,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:ELASTIC_FIT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-17,2026-07-20,4
+unknown,8e2d4771-8b2c-4eaa-82c5-07287e90fe10,Accounts Administrator,Reed,Not Specified,Birmingham,admin_service_selected,admin_service; finance_accounts,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-24,2026-07-30,3
+unknown,56bed046-170b-4fdc-956b-a46318ade8a7,Finance Administrator,Mitchell Adam,Not Specified,Birmingham,admin_service_selected,admin_service; finance_accounts,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-29,2026-07-31,3
+unknown,496ecf39-8280-4364-a72c-81d6372d6770,Sales Administrator,TMR Group Ltd,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-25,2026-07-27,3
+unknown,aed2c3a2-d759-4b2b-b1d8-bc416287e8ff,IFA Administrator,Recruit UK,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-01,2026-07-02,2
+unknown,ed036577-e7a1-46f3-9cda-7efb45754199,IFA Administrator,Artemis Recruitment Consultants Ltd,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; finance_accounts:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-02,2026-07-02,1
+unknown,f69e8959-5a46-4abf-ac9c-3f4dc3f09627,Project Administrator,GIS Jobs Ltd,Not Specified,Birmingham,admin_service_selected,admin_service,admin_service:HIGH_CONFIDENCE,2026-07-15,2026-07-15,1
+unknown,107553004,Family Support Worker,BLACK AND GOLD SERVICES LTD t/a Autumn Leaves Healthcare,Not Specified,Birmingham,other_registered_category_selected,support_worker,support_worker:ELASTIC_FIT,2026-07-01,2026-07-30,29
+unknown,c305614a-3110-448a-8a7c-740b1d650c05,Domestic Abuse Support Worker,AWD online,Not Specified,Birmingham,other_registered_category_selected,support_worker,support_worker:HIGH_CONFIDENCE,2026-07-16,2026-07-30,15
+unknown,8aee411b-5119-4208-b851-38718aee3c61,Family Support Worker,Hays Specialist Recruitment Limited,Not Specified,Birmingham,other_registered_category_selected,support_worker,support_worker:ELASTIC_FIT,2026-07-18,2026-07-30,13
+unknown,328121,Residential Support Worker,Compass Community,Not Specified,Birmingham,other_registered_category_selected,support_worker,admin_service:HARD_PASS; support_worker:ELASTIC_FIT,2026-07-01,2026-07-11,11
+unknown,76e9b451-0c61-4081-954d-c8622965467e,Support Worker,Consula Group LTD,Not Specified,Birmingham,other_registered_category_selected,support_worker,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE,2026-07-21,2026-07-29,9
+unknown,64444862-1750-4bce-b741-ccf709641bbc,Transport Administrator,GXO Logistics,Not Specified,Birmingham,other_registered_category_selected,warehouse_logistics,admin_service:HARD_PASS; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT; warehouse_logistics:ELASTIC_FIT,2026-07-01,2026-07-07,7
+unknown,a2153993-410a-4e5a-95f5-807da9736091,Relief Support Worker,Creative Support Ltd,Not Specified,Birmingham,other_registered_category_selected,support_worker,support_worker:ELASTIC_FIT,2026-07-17,2026-07-19,3
+unknown,d7469acd-e8dd-4e29-9864-9a5e074f62e3,Female Support Worker,Creative Support Ltd,Not Specified,Birmingham,other_registered_category_selected,support_worker,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE,2026-07-16,2026-07-17,2
+unknown,107627046,Registered Manager,Right Match Recruitment Group,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-03,2026-07-30,28
+unknown,107610123,111 Clinical Advisor - Homeworking,Connaught Resourcing,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-31,27
+unknown,107633366,Environmental Health Officer,Athena Expert Surveyors,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-04,2026-07-30,27
+unknown,107531505,Clinical Assessor,Donard Recruitment Ltd,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-26,23
+unknown,107508517,Clinical Assessor,Capita Shared Services Limited,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-22,22
+unknown,107508277,Occupational Health Advisor,Greys Specialist Recruitment Ltd,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-22,22
+unknown,9b488958-d06a-465f-a30b-c81fac2715f3,Environmental Health Officer,Athena Expert Surveyors,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-09,2026-07-29,21
+unknown,9ba81fc6-614d-4e6b-90d3-e03e9b7e01fc,Clinical Negligence Solicitor,Robert Walters,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-11,2026-07-29,19
+unknown,4b770208-e39b-4e73-b265-470b48b2de40,Psychology Graduate,The Graduate Network,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-03,2026-07-19,17
+unknown,107681577,Clinical Assessor,CAPITA PLC,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-15,2026-07-30,16
+unknown,2bd481e4-7410-4f65-b42d-a2a755665186,Executive Assistant,Bell Cornwall Recruitment,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-15,2026-07-30,16
+unknown,107472877,Registered Manager,Oceanway ChildCare Ltd,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-16,16
+unknown,d03fd239-6c3e-43ee-bcfa-e2a100ec6ed1,Registered Manager,RIGHT MATCH RECRUITMENT GROUP LIMITED,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-16,2026-07-30,15
+unknown,f946b9b0-b122-4810-a07b-f296e8a61d79,Transperineal Prostate Biopsy Specialist,Ernest Gordon Recruitment Limited,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-09,2026-07-23,15
+unknown,b9cb52f1-612e-40e9-b13d-6eba669b301a,Clinical Negligence Solicitor,Oculus Legal Group,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-10,2026-07-22,13
+unknown,cff7ac95-2acf-4eda-bdbc-d6a19261fbc0,Clinical Negligence Solicitor,eNL Legal Recruitment,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-10,2026-07-22,13
+unknown,cb5f8fac-ffe7-4247-87d0-793c893948e9,Clinical Negligence Solicitor,G2 Legal Limited,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-21,2026-07-30,10
+unknown,107648824,Community Engagement Officer,Total Spectrum,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-10,2026-07-31,10
+unknown,107706078,Functional Assessor,GAIA RECRUITMENT LIMITED,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-21,2026-07-30,10
+unknown,107718404,Occupational Therapist,Leaders In Care Recruitment Ltd,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-21,2026-07-30,10
+unknown,6510824b-847c-42c3-978c-786357d82414,Office Manager,Bell Cornwall Recruitment,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-21,2026-07-30,10
+unknown,6218cdb4-fe6f-4342-b4c5-382d5ca5ad9e,Personal Assistant,Bell Cornwall Recruitment,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-21,2026-07-30,10
+unknown,fd38c258-04e0-46e6-934f-417356a22652,Production Administrator,Cooksongold,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-22,2026-07-30,9
+unknown,107425285,Quality Auditor / Data Analysis Technician,Cleone Foods Ltd,Not Specified,Birmingham,registered_but_not_selected,,finance_accounts:HARD_PASS,2026-07-01,2026-07-09,9
+unknown,d63f361e-8e6b-42f7-a6c6-4ff1bee239f9,Tenancy Support Worker,ROCASA Consulting,Not Specified,Birmingham,registered_but_not_selected,,support_worker:HARD_PASS,2026-07-01,2026-07-22,9
+unknown,107652390,Community Engagement Officer,Niyaa People,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-08,2026-07-14,7
+unknown,280e014e-e8d5-4e3e-92dd-d48453600ee6,Optical branch Manager - Birmingham,Lunaria Recruitment,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-07,7
+unknown,107430661,Principal Psychologist,Birmingham Children's Trust,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-01,2026-07-07,7
+unknown,acc5b497-2841-4ed7-9aae-2b89b52f9896,Trainee Dental Nurse Required - Aston,Harriet Ellis Recruitment Group,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-10,2026-07-16,7
+unknown,b7880e04-990d-41dd-8644-ec83fac3bd53,Optical Assistant,Specsavers,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,2026-07-17,2026-07-22,6
+unknown,107498163,Social Worker,Leaders In Care Recruitment Ltd,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-01,2026-07-06,6
+unknown,1ad880da-1581-4e6a-aed7-430f7c0786b6,Executive Assistant,Paragon Personnel,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-29,2026-07-31,3
+unknown,f529b9c3-bf5f-4e13-8c8a-f5da7e54d53c,Registered Manager,CONNECT EXEC LIMITED,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-15,2026-07-17,3
+unknown,e13c3e0d-2cdc-4766-8115-c3144a8e00dc,Registered Nurse,Healthcare Clinical Recruitment Ltd,Not Specified,Birmingham,registered_but_not_selected,,admin_service:HARD_PASS,2026-07-29,2026-07-31,3
+unknown,107379682,Clerk of Works,Right Recruitment,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-01,1
+unknown,107367417,Non-Medical Prescriber Substance Misuse,Hays,Not Specified,Birmingham,registered_but_not_selected,,admin_service:OUT_OF_SCOPE,2026-07-01,2026-07-01,1
+unknown,107586832,Paramedic Assessor,Capita Shared Services Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-31,31
+unknown,107581780,Part Time Office Manager,ALDWYCH CONSULTING LTD,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-30,30
+unknown,107568401,Registered Manager Supported Accommodation,CDS Labour (Group UK) Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-30,30
+unknown,107591314,Sme Cleaning & Ass. Services Healthcare,Compass UK & Ireland,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-31,30
+unknown,107612508,Machine Shop Shift Supervisor (Heavy Engineering),Ernest Gordon Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-30,28
+unknown,107635630,Deputy Chef,MY Trust,Not Specified,Birmingham,unregistered_title,,,2026-07-04,2026-07-31,26
+unknown,107650039,Community Partnership and Engagement Officer Temporary role,Groomfield Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-08,2026-07-30,23
+unknown,4c233489-acc4-41e8-aa5f-b653dc98317a,Immediate Finance Administrator,Mitchell Adam,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-21,21
+unknown,d255de6a-af9f-4d45-927d-7f40976fd8df,Post-Completion Administrator,Reed,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-30,21
+unknown,107609227,Dual Registered Manager,Right Match Recruitment Group,Not Specified,Birmingham,unregistered_title,,,2026-07-02,2026-07-21,20
+unknown,107655004,Radiology Imaging Specialist,TRS Consulting,Not Specified,Birmingham,unregistered_title,,,2026-07-09,2026-07-30,20
+unknown,aa7339cd-5d2d-4155-9e21-498769cf9c65,Defendant Clinical Negligence Associate/Senior Associate,Hays Specialist Recruitment Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-27,18
+unknown,f5a96e40-f1f9-4118-9228-16e281259345,Executive Assistant/Business Support Co-Ordinator,Anna Maher Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-30,16
+unknown,964293be-6a09-458b-a4bd-75bd3ec488aa,Extended Workforce Adviser/ Administrator- Interim -Hybrid,Reed,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-30,16
+unknown,107684202,Occupational Health Manager,Bryan & Armstrong,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-30,16
+unknown,107466139,"Account Manager (Healthcare Technology) - Hybrid Working - £47,000pa",Ashdown Group,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-15,15
+unknown,de603dad-0ef4-452a-87e1-b9a732f7a3dc,Administrator / Health and Safety Team,McDermotts,Not Specified,Birmingham,unregistered_title,,,2026-07-16,2026-07-30,15
+unknown,107462679,Deputy Manager Learning Disabilities,Precious Homes Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-15,15
+unknown,ca69dd5d-6117-4a6a-8206-84d5d6df1230,Social Work job - Adult Community Teams,Hays Specialist Recruitment Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-16,2026-07-30,15
+unknown,c77d5ec4-b1df-4c99-9738-5ccbe365b1d7,Social Worker - Separated Children and Young People Service (UASC) - Solihull Council,Reed,Not Specified,Birmingham,unregistered_title,,,2026-07-16,2026-07-30,15
+unknown,d65b2feb-9bfa-4f3d-9e7a-15e16170cf9d,Glazing Technician,Acorn by Synergie,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-23,14
+unknown,ebb778ca-cb88-4e9a-9942-ff764f9adf0a,Locum Band 6 Occupational Therapist - Acute Inpatient - Birmingham,Vivid Healthcare Search Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-09,2026-07-22,14
+unknown,f8c0b8cb-db56-480a-991d-e768d5884f81,Medical Sales Representative - Surgical,Progress Sales Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-09,2026-07-22,14
+unknown,107532556,Neurodevelopmental Service CQC Registered Manager,Leaders In Care Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-14,14
+unknown,ca7110af-758a-4f91-bf1d-f8e2ceb8da65,Part time Senior Administrator,Morgan Parkes Recruitment Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-16,2026-07-29,14
+unknown,9ae696ab-d36e-4cf0-b393-dcd63bd51265,CQC Registered Manager,Reed,Not Specified,Birmingham,unregistered_title,,,2026-07-18,2026-07-30,13
+unknown,9a63676a-5307-47eb-a610-39aa2d4a5ca3,Legal Secretary,Bell Cornwall Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-18,2026-07-30,13
+unknown,9384334c-01cc-410a-9481-24b8aebb3355,Senior Practitioner - Family Help,Remedy Recruitment Group,Not Specified,Birmingham,unregistered_title,,,2026-07-18,2026-07-30,13
+unknown,107482915,Account Manager Hybrid Working (2 days per week in office) - £47kpa plus benefits,Ashdown Group,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-12,12
+unknown,1401783382,Deputy Regional Director,Ofsted,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-12,12
+unknown,bd72d5c7-1dd1-45e8-aa77-5143f7969425,Dual Registered Manager,RIGHT MATCH RECRUITMENT GROUP LIMITED,Not Specified,Birmingham,unregistered_title,,,2026-07-17,2026-07-28,12
+unknown,81f93073-d78d-4322-b044-188536924e0a,Senior IFA Administrator - Financial Planning,NJR Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-21,11
+unknown,6c51584f-39b4-471e-b18b-5ea3cdb87280,Executive Assistant / Personal Assistant to Directors,Office Angels,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-30,10
+unknown,6bc03dc0-04e4-4b96-9a62-0c7debb6c2f0,Modern Slavery Support Worker,AWD online,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-30,10
+unknown,6dcebe32-127d-4ff1-89cb-c71ca3dbba6c,Social Worker / Advanced Practitioner - Family Help - Solihull Council,Reed,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-30,10
+unknown,16a71d6e-289c-46df-9a6f-ce2c8f1b7739,Hearing Aid Dispenser,Specsavers,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-29,9
+unknown,107721571,Senior Family Independent Domestic Violence Advocate (IDVA),Victim Support,Not Specified,Birmingham,unregistered_title,,,2026-07-22,2026-07-30,9
+unknown,62ddcaec-2513-4e93-8905-207a1a8450d0,Senior Financial Planning Administrator,IDEX Consulting Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-29,9
+unknown,72c8d630-1c93-4adc-9051-e5f061ec278f,Social Worker - Transitions Team,Sanctuary Personnel,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-29,9
+unknown,1107688732,Trainee Medical Technician - no experience required,Army,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-23,9
+unknown,107663762,Administrator / Health and Safety Team,McDermotts,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-28,8
+unknown,430ce8e5-a299-4f3b-bfa6-0e05d77f22a3,Legal Office Manager,The Eventus Recruitment Group,Not Specified,Birmingham,unregistered_title,,,2026-07-23,2026-07-30,8
+unknown,ee22f479-2d56-4afc-99ec-c6d603ad61c0,Business Administrator Apprentice,INSIDE TALENT LIMITED,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-21,7
+unknown,8fda8f46-03c0-44e4-aac7-77747bb036a9,Client Relationship Executive,Centrick Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-24,2026-07-30,7
+unknown,107727993,Head of Compliance,Goodman Masson,Not Specified,Birmingham,unregistered_title,,,2026-07-24,2026-07-30,7
+unknown,81ad6363-d084-4344-b5bd-b336702de04a,IFA Client Administrator,Ortus PSR,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-07,7
+unknown,107743343,Income & Financial Inclusion Officer,Trident Housing Association Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-25,2026-07-31,7
+unknown,107699193,Senior Occupational Health & Wellbeing Manager,Public Sector Resourcing CWS,Not Specified,Birmingham,unregistered_title,,,2026-07-17,2026-07-23,7
+unknown,107672322,Speech & Language Therapist - Children & Young People (ASD),Leaders In Care Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-11,2026-07-17,7
+unknown,b89c0317-c8b3-4577-ae36-9304235a9d32,Tender Administrator - Property & Construction,Katie Bard & Angela Mortimer Plc,Not Specified,Birmingham,unregistered_title,,,2026-07-09,2026-07-15,7
+unknown,58af077a-9989-4a55-a735-903df238dd9d,Academic and Vocational Support Worker,University College Birmingham,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-06,6
+unknown,107475143,Assessment Nurse,Donard Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-14,6
+unknown,9d3886b6-4057-4652-bdee-0ae752967868,QA Administrator,Smart4Sciences,Not Specified,Birmingham,unregistered_title,,,2026-07-11,2026-07-16,6
+unknown,107669910,Senior Principal Educational Psychologist,Leaders In Care Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-12,2026-07-17,6
+unknown,107746733,Regional Account Manager (Medical Equipment),Ernest Gordon Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-26,2026-07-30,5
+unknown,a7517c20-ca66-44f7-8f78-16a099daf553,Remote CBT Therapist,Day Webster,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-14,5
+unknown,107746640,Senior Child Care Officer,Birmingham Children's Trust,Not Specified,Birmingham,unregistered_title,,,2026-07-26,2026-07-30,5
+unknown,b2c4cbed-a85c-4fc5-8382-ff1f163fbe23,Support Work in the Scottish Isles,Randstad Care,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-14,5
+unknown,cec900ab-1b0e-454f-9ee6-b431af734c99,"Temporary Administrative Assistant, Global Investment firm",ISE Partners,Not Specified,Birmingham,unregistered_title,,,2026-07-20,2026-07-24,5
+unknown,107735688,Adult Clinical Lead,Leaders In Care Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-26,2026-07-29,4
+unknown,1402262887,"Experienced Optical Assistant - Monday to Friday, Birmingham, West Midlands",Network Open Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-28,2026-07-31,4
+unknown,f0e01877-a1f2-4149-b03c-2a91b80e3f49,Financial Planning Administrator - Opportunity to Develop & Progress,Katie Bard & Angela Mortimer Plc,Not Specified,Birmingham,unregistered_title,,,2026-07-28,2026-07-31,4
+unknown,9cf9708f-ee9a-4e05-9793-ced826fde749,Legal Personal Assistant in Investments,Katie Bard (Angela Mortimer Plc),Not Specified,Birmingham,unregistered_title,,,2026-07-18,2026-07-21,4
+unknown,9f438df7-ebaf-41c6-9ef0-da68a5cc8616,Receptionist (Part-time),Katie Bard (Angela Mortimer Plc),Not Specified,Birmingham,unregistered_title,,,2026-07-17,2026-07-20,4
+unknown,4fcd1176-53f0-4814-9b8f-ba882ae09ad2,Registered Care Manager (CQC),ROCASA Consulting,Not Specified,Birmingham,unregistered_title,,,2026-07-28,2026-07-31,4
+unknown,107672634,ASB Officer,Niyaa People,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-17,3
+unknown,1401783648,Advanced Practitioner - Panel & Assessment - Hybrid,Compass Community,Not Specified,Birmingham,unregistered_title,,,2026-07-13,2026-07-15,3
+unknown,bc41cc8b-1bff-4c50-a40d-3fddb3365c8c,Pharmacy Team Leader,Superdrug,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-07,3
+unknown,6a18327d-4197-4543-9a32-ab4dfe43c19b,Qualified Social Worker Family Court Adviser CAFCASS,Randstad Care,Not Specified,Birmingham,unregistered_title,,,2026-07-29,2026-07-31,3
+unknown,10ecf59f-6ca4-4a20-b3fb-b4e16f6b498d,Quality Administrator,University College Birmingham,Not Specified,Birmingham,unregistered_title,,,2026-07-29,2026-07-31,3
+unknown,9ce71430-2d4b-4957-bb9c-3c241427253b,SRC Administrator,Wesleyan,Not Specified,Birmingham,unregistered_title,,,2026-07-18,2026-07-20,3
+unknown,1b21af24-fc88-44a9-80f9-b4eccc7fd5af,Senior IFA Administrator (Remote),Eden Rose,Not Specified,Birmingham,unregistered_title,,,2026-07-29,2026-07-31,3
+unknown,1401782749,Senior Practitioner - Kinship Fostering Team,Sanctuary Personnel,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-03,3
+unknown,107672167,Children's Occupational Therapist - Locum Opportunity,Leaders In Care Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-11,2026-07-12,2
+unknown,107672390,Children's Speech & Language Therapist (ADHD),Leaders In Care Recruitment Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-11,2026-07-12,2
+unknown,c510de6b-51a6-41f1-ab30-e73220db56e3,Corporate Receptionist - City Centre,Katie Bard & Angela Mortimer Plc,Not Specified,Birmingham,unregistered_title,,,2026-07-16,2026-07-17,2
+unknown,d44db366-b335-47d6-b818-8fb8b75c8730,Criminal Justice Support Worker (Women's Services),AWD online,Not Specified,Birmingham,unregistered_title,,,2026-07-30,2026-07-31,2
+unknown,8a7eae26-11a0-4fa1-8eda-8d55b007f62c,Interim Deputy Academic Registrar,Morgan Hunt Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-09,2026-07-10,2
+unknown,c97c5c27-86cc-4ee5-9aea-b0dafbd46a7e,Legal Admin,Reed,Not Specified,Birmingham,unregistered_title,,,2026-07-30,2026-07-31,2
+unknown,107604296,Optical Lab Technician,Acorn by Synergie,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-02,2
+unknown,5d48a8b6-38b5-4648-9f71-0ce2020beaac,Personal Assistant and Office Manager - Part Time,Macildowie Recruitment and Retention,Not Specified,Birmingham,unregistered_title,,,2026-07-30,2026-07-31,2
+unknown,55d0731f-f80e-41ee-b0b2-6f278f40062c,Residential Support Worker - Children's Home,Candidate Source Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-02,2
+unknown,107513650,Sales Design Administrator,Warner Consultancy Ltd,Not Specified,Birmingham,unregistered_title,,,2026-07-08,2026-07-09,2
+unknown,bc059b4a-8c1b-44b0-b179-27f5d6cb5259,CBT Therapists with CAMHS,Day Webster,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-10,1
+unknown,eec8643b-eb95-4e05-a640-52218cf6beca,HR Shared Services Administrator Immediate Start,Katie Bard & Angela Mortimer Plc,Not Specified,Birmingham,unregistered_title,,,2026-07-21,2026-07-21,1
+unknown,c04aa666-9e6d-458f-bf66-ad02c30f1396,Legal Secretary,Talk Staff,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-10,1
+unknown,c4830136-3fff-484c-80a1-fedba964af82,MSK Physiotherapist,Greys Specialist Recruitment,Not Specified,Birmingham,unregistered_title,,,2026-07-10,2026-07-10,1
+unknown,107586816,Occupational Therapist Assessor,Capita Shared Services Limited,Not Specified,Birmingham,unregistered_title,,,2026-07-30,2026-07-30,1
+unknown,107765404,Part Time SEN Children's Family Practitioner,Hays,Not Specified,Birmingham,unregistered_title,,,2026-07-30,2026-07-30,1
+unknown,54210d1d-277c-4d93-b56b-9669014c358d,Qualified social worker - Children with disabilities,Remedy Recruitment Group,Not Specified,Birmingham,unregistered_title,,,2026-07-01,2026-07-01,1
+unknown,107763811,Senior Occupational Health & Wellbeing Manager,Public Sector Resourcing CWS,Not Specified,Birmingham,unregistered_title,,,2026-07-30,2026-07-30,1
+unknown,107730174,Student Records and Finance Assistant,University College Birmingham,Not Specified,Birmingham,unregistered_title,,,2026-07-23,2026-07-23,1
+unknown,1107688753,Trainee Dental Nurse - no experience required,Army,Not Specified,Birmingham,unregistered_title,,,2026-07-15,2026-07-15,1
