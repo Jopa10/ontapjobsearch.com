@@ -25,7 +25,6 @@
 | BUILDING | sussex | service-administrator-jobs | Crawley | 3 | — | regional-market |
 | BUILDING | sussex | support-worker | Chichester | 3 | — | regional-market |
 | BUILDING | west-yorkshire | service-administrator-jobs | Bradford | 3 | — | regional-market |
-| BUILDING | coventry-warwickshire | service-administrator-jobs | Warwick & Leamington | 2 | — | regional-market |
 | BUILDING | cumbria-south | support-worker | Barrow-in-Furness | 2 | — | regional-market |
 | BUILDING | hampshire | service-administrator-jobs | Eastleigh | 2 | — | regional-market |
 | BUILDING | hampshire | support-worker | Andover | 2 | — | regional-market |
@@ -44,6 +43,7 @@
 | BUILDING | sussex | support-worker | Crawley | 2 | — | regional-market |
 | BUILDING | west-yorkshire | support-worker | Huddersfield | 2 | — | regional-market |
 | BUILDING | coventry-warwickshire | service-administrator-jobs | Rugby | 1 | — | regional-market |
+| BUILDING | coventry-warwickshire | service-administrator-jobs | Warwick & Leamington | 1 | — | regional-market |
 | BUILDING | cumbria-south | support-worker | Kendal | 1 | — | regional-market |
 | BUILDING | cumbria-south | support-worker | Ulverston | 1 | — | regional-market |
 | BUILDING | hampshire | service-administrator-jobs | Farnborough | 1 | — | regional-market |

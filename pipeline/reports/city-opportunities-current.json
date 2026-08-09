@@ -189,19 +189,6 @@
       "registered_market": true
     },
     {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Warwick & Leamington",
-      "jobs": 2,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
       "region": "cumbria-south",
       "slice": "support-worker",
       "locality": "Barrow-in-Furness",
@@ -426,6 +413,19 @@
       "region": "coventry-warwickshire",
       "slice": "service-administrator-jobs",
       "locality": "Rugby",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Warwick & Leamington",
       "jobs": 1,
       "threshold": 6,
       "status": "BUILDING",
