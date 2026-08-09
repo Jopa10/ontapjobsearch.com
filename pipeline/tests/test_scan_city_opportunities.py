@@ -166,6 +166,22 @@ class CityOpportunityScanTests(unittest.TestCase):
                 )
             )
 
+    def test_parent_region_name_is_not_reported_as_a_city_opportunity(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_slice(
+                root,
+                "london",
+                "service-administrator-jobs",
+                [job(str(i), "London", "London - Central") for i in range(6)],
+            )
+
+            result = scan_repository(root)
+
+            self.assertFalse(
+                any(row["locality"] == "London" for row in result["opportunities"])
+            )
+
     def test_scanner_is_read_only_for_live_page_data(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
