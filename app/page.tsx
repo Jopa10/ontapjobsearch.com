@@ -69,13 +69,13 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
   return (
     <section
       aria-labelledby="homepage-search-heading"
-      className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6"
+      className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm"
     >
       <h2 id="homepage-search-heading" className="text-lg font-semibold text-gray-900">
         Search jobs by role, keyword or location
       </h2>
 
-      <form method="get" action="/jobs/search" className="mt-4 grid gap-3">
+      <form method="get" action="/jobs/search" className="mt-3 grid gap-2.5">
         <label className="sr-only" htmlFor="homepage-job-query">
           Role or keyword
         </label>
@@ -99,7 +99,7 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
             name="q"
             type="search"
             placeholder="e.g. Administrator, Customer Service, PA"
-            className="w-full rounded-lg border border-gray-300 bg-white py-3 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
           />
         </div>
 
@@ -127,19 +127,19 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
             name="location"
             type="search"
             placeholder="e.g. Newcastle, Surrey, Leeds"
-            className="w-full rounded-lg border border-gray-300 bg-white py-3 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
           />
         </div>
 
         <button
           type="submit"
-          className="rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
+          className="rounded-lg bg-blue-600 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-700"
         >
           Search jobs →
         </button>
       </form>
 
-      <p className="mt-3 text-center text-xs text-gray-500">
+      <p className="mt-2 text-center text-xs text-gray-500">
         {totalJobs.toLocaleString('en-GB')} current jobs • No account needed
       </p>
     </section>
@@ -153,10 +153,10 @@ function RegionGrid({ regions }: { regions: RegionLink[] }) {
         <Link
           key={region.href}
           href={region.href}
-          className="group flex items-center justify-between gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3 transition hover:border-blue-300 hover:bg-blue-50"
+          className="group flex min-h-16 items-center justify-between gap-3 rounded-lg border border-gray-200 bg-white px-3 py-2 transition hover:border-blue-300 hover:bg-blue-50"
         >
           <span>
-            <span className="block text-sm font-semibold text-gray-900 group-hover:text-blue-800">
+            <span className="block text-sm font-semibold leading-snug text-gray-900 group-hover:text-blue-800">
               {region.label}
             </span>
             <span className="mt-0.5 block text-xs text-gray-500">
@@ -176,18 +176,18 @@ function CurrentJobCard({ job }: { job: PublishedJob }) {
   const company = job.company || job.advertiser_name;
 
   return (
-    <article className="border-b border-gray-200 py-3 last:border-b-0">
+    <article className="border-b border-gray-200 py-2.5 last:border-b-0">
       <Link href={getJobPath(job.job_id)} className="group block">
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
             <h3 className="font-semibold leading-snug text-gray-900 group-hover:text-blue-700">
               {job.title}
             </h3>
-            <p className="mt-0.5 text-sm text-gray-600">
+            <p className="mt-0.5 text-sm leading-snug text-gray-600">
               {[company, job.location].filter(Boolean).join(' • ')}
             </p>
             {job.salary_text ? (
-              <p className="mt-1 text-sm font-medium text-gray-800">{cleanSalary(job.salary_text)}</p>
+              <p className="mt-0.5 text-sm font-medium text-gray-800">{cleanSalary(job.salary_text)}</p>
             ) : null}
           </div>
           <span aria-hidden="true" className="mt-1 shrink-0 text-blue-600">
@@ -216,110 +216,133 @@ export default function Page() {
   const currentJobs = jobs.slice(0, 4);
 
   return (
-    <main data-homepage>
-      <section className="border-b border-gray-100 bg-gradient-to-b from-white to-gray-50">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-12">
-          <div>
-            <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-gray-950 sm:text-5xl">
-              Find admin, office support and customer service jobs across the UK
-            </h1>
-            <p className="mt-4 max-w-2xl text-lg leading-8 text-gray-600">
-              Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
-            </p>
-            <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium text-gray-600">
-              <span>Apply direct</span>
-              <span>No signup</span>
-              <span>Updated daily</span>
-            </div>
-          </div>
+    <>
+      <style>{`
+        body:has(main[data-homepage]) footer > div {
+          padding-top: 1.75rem;
+          padding-bottom: 1.75rem;
+        }
 
-          <SearchPanel totalJobs={jobs.length} />
-        </div>
-      </section>
+        body:has(main[data-homepage]) footer > div > div:first-child {
+          gap: 1rem;
+        }
 
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <section aria-labelledby="browse-role-heading">
-          <div className="flex flex-wrap items-end justify-between gap-3">
+        body:has(main[data-homepage]) footer h3,
+        body:has(main[data-homepage]) footer h4 {
+          margin-bottom: 0.5rem;
+        }
+
+        body:has(main[data-homepage]) footer > div > div:last-child {
+          margin-top: 1.25rem;
+          padding-top: 1rem;
+        }
+      `}</style>
+
+      <main data-homepage>
+        <section className="border-b border-gray-100 bg-gradient-to-b from-white to-gray-50">
+          <div className="mx-auto grid max-w-7xl gap-6 px-4 py-7 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-8">
             <div>
-              <h2 id="browse-role-heading" className="text-2xl font-bold tracking-tight text-gray-900">
-                Browse by role and region
-              </h2>
-              <p className="mt-1 text-sm text-gray-600">
-                Regional pages stay compact here as Ontap adds more coverage.
+              <h1 className="max-w-3xl text-4xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-[2.8rem]">
+                Find admin, office support and customer service jobs across the UK
+              </h1>
+              <p className="mt-3 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
+                Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
               </p>
-            </div>
-            <Link href="/browse-jobs" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
-              View all job pages →
-            </Link>
-          </div>
-
-          <div className="mt-5 grid gap-4 lg:grid-cols-[1fr_280px]">
-            <div id="admin-regions" className="rounded-2xl border border-gray-200 bg-gray-50 p-4 sm:p-5">
-              <div className="mb-4">
-                <h3 className="text-lg font-semibold text-gray-900">
-                  Admin, office support & customer service
-                </h3>
-                <p className="mt-1 text-sm text-gray-600">Current regional job pages</p>
+              <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm font-medium text-gray-600">
+                <span>Apply direct</span>
+                <span>No signup</span>
+                <span>Updated daily</span>
               </div>
-              {adminRegions.length > 0 ? <RegionGrid regions={adminRegions} /> : null}
             </div>
 
-            <div id="support-worker-regions" className="rounded-2xl border border-gray-200 bg-white p-4 sm:p-5">
-              <h3 className="text-lg font-semibold text-gray-900">Support worker jobs</h3>
-              <p className="mt-1 text-sm text-gray-600">Current regional supply</p>
-              <div className="mt-4 grid gap-2">
-                {supportWorkerRegions.map((region) => (
-                  <Link
-                    key={region.href}
-                    href={region.href}
-                    className="flex items-center justify-between rounded-lg border border-gray-200 px-3 py-2.5 text-sm transition hover:border-blue-300 hover:bg-blue-50"
-                  >
-                    <span>
-                      <span className="font-semibold text-gray-900">{region.label}</span>
-                      <span className="ml-2 text-xs text-gray-500">{region.count}</span>
-                    </span>
-                    <span aria-hidden="true" className="text-blue-600">→</span>
-                  </Link>
+            <SearchPanel totalJobs={jobs.length} />
+          </div>
+        </section>
+
+        <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
+          <section aria-labelledby="browse-role-heading">
+            <div className="flex flex-wrap items-end justify-between gap-2">
+              <div>
+                <h2 id="browse-role-heading" className="text-2xl font-bold tracking-tight text-gray-900">
+                  Browse by role and region
+                </h2>
+                <p className="mt-0.5 text-sm text-gray-600">
+                  Regional pages stay compact here as Ontap adds more coverage.
+                </p>
+              </div>
+              <Link href="/browse-jobs" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
+                View all job pages →
+              </Link>
+            </div>
+
+            <div className="mt-3 grid gap-3 lg:grid-cols-[1fr_270px]">
+              <div id="admin-regions" className="rounded-xl border border-gray-200 bg-gray-50 p-3.5 sm:p-4">
+                <div className="mb-3">
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Admin, office support & customer service
+                  </h3>
+                  <p className="mt-0.5 text-sm text-gray-600">Current regional job pages</p>
+                </div>
+                {adminRegions.length > 0 ? <RegionGrid regions={adminRegions} /> : null}
+              </div>
+
+              <div id="support-worker-regions" className="rounded-xl border border-gray-200 bg-white p-3.5 sm:p-4">
+                <h3 className="text-lg font-semibold text-gray-900">Support worker jobs</h3>
+                <p className="mt-0.5 text-sm text-gray-600">Current regional supply</p>
+                <div className="mt-3 grid gap-1.5">
+                  {supportWorkerRegions.map((region) => (
+                    <Link
+                      key={region.href}
+                      href={region.href}
+                      className="flex items-center justify-between rounded-lg border border-gray-200 px-3 py-2 text-sm transition hover:border-blue-300 hover:bg-blue-50"
+                    >
+                      <span>
+                        <span className="font-semibold text-gray-900">{region.label}</span>
+                        <span className="ml-2 text-xs text-gray-500">{region.count}</span>
+                      </span>
+                      <span aria-hidden="true" className="text-blue-600">→</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-5 grid gap-3 lg:grid-cols-[1fr_300px]" aria-labelledby="current-jobs-heading">
+            <div className="rounded-xl border border-gray-200 bg-white p-4">
+              <div className="flex items-center justify-between gap-3">
+                <h2 id="current-jobs-heading" className="text-xl font-bold text-gray-900">Current jobs</h2>
+                <Link href="/jobs/search?q=&location=" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
+                  Search jobs →
+                </Link>
+              </div>
+              <div className="mt-1">
+                {currentJobs.map((job) => (
+                  <CurrentJobCard key={job.job_id} job={job} />
                 ))}
               </div>
             </div>
-          </div>
-        </section>
 
-        <section className="mt-8 grid gap-5 lg:grid-cols-[1fr_320px]" aria-labelledby="current-jobs-heading">
-          <div className="rounded-2xl border border-gray-200 bg-white p-5">
-            <div className="flex items-center justify-between gap-3">
-              <h2 id="current-jobs-heading" className="text-xl font-bold text-gray-900">Current jobs</h2>
-              <Link href="/jobs/search?q=&location=" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
-                Search jobs →
-              </Link>
-            </div>
-            <div className="mt-2">
-              {currentJobs.map((job) => (
-                <CurrentJobCard key={job.job_id} job={job} />
-              ))}
-            </div>
-          </div>
-
-          <aside className="rounded-2xl border border-blue-100 bg-blue-50 p-5">
-            <h2 className="text-lg font-semibold text-gray-900">Built for a quicker job search</h2>
-            <div className="mt-4 grid gap-4 text-sm text-gray-700">
-              <div>
-                <div className="font-semibold text-gray-900">Apply direct</div>
-                <p className="mt-1">Ontap sends you towards the employer application route.</p>
+            <aside className="rounded-xl border border-blue-100 bg-blue-50 p-4">
+              <h2 className="text-lg font-semibold text-gray-900">Built for a quicker job search</h2>
+              <div className="mt-3 grid gap-3 text-sm leading-snug text-gray-700">
+                <div>
+                  <div className="font-semibold text-gray-900">Apply direct</div>
+                  <p className="mt-0.5">Ontap sends you towards the employer application route.</p>
+                </div>
+                <div>
+                  <div className="font-semibold text-gray-900">No signup</div>
+                  <p className="mt-0.5">Browse and search without creating an account.</p>
+                </div>
+                <div>
+                  <div className="font-semibold text-gray-900">Fresh regional pages</div>
+                  <p className="mt-0.5">Current job supply is refreshed as new roles are published.</p>
+                </div>
               </div>
-              <div>
-                <div className="font-semibold text-gray-900">No signup</div>
-                <p className="mt-1">Browse and search without creating an account.</p>
-              </div>
-              <div>
-                <div className="font-semibold text-gray-900">Fresh regional pages</div>
-                <p className="mt-1">Current job supply is refreshed as new roles are published.</p>
-              </div>
-            </div>
-          </aside>
-        </section>
-      </div>
-    </main>
+            </aside>
+          </section>
+        </div>
+      </main>
+    </>
   );
 }
