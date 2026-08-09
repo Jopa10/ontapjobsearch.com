@@ -63,12 +63,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Community access",
-      "Support plans"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "b045cd0a-82e7-4208-8161-9940e9e8f7c7",
@@ -137,6 +132,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107805162",
+    "title": "Support Worker",
+    "company": "Southdown - Agency - Permanent",
+    "location": "Worthing",
+    "region": "Sussex",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "13.49",
+    "salary_max": "13.49",
+    "salary_text": "£13.49 per hour (plus shift allowances)",
+    "posted_date": "",
+    "description": "Description Support people with learning disabilities to live full, happy lives.\nLocation: Worthing\nSalary: £13.49 per hour\nHours: Part time and full time - 21 to 37 hours per week\nAllowances (dependent on working times):\n- Unsociable hours uplift: £4 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6d%2fYabVqP1fQYUHZ2PSpFKg",
+    "source": "JobG8",
+    "advertiser_name": "Southdown",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1401783835",
     "title": "Residential Support Worker",
     "company": "Compass Community - Agency - Permanent",
@@ -194,7 +211,7 @@
     "salary_text": "£15.4 - £17.6 per hour",
     "posted_date": "",
     "description": "At Superior Healthcare, we support children, young people, and adults with complex health needs to live safely and happily at home.\nWe're looking for a Children's Complex Care Assistant to support a 15-year-old young man with cerebral palsy in his family home in Chichester click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fjZ2bfMesl4JtS%2bgkpP%2f9ZSi",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIO9uGlSdjNLfSckrGLKu82vo",
     "source": "JobG8",
     "advertiser_name": "Superior Healthcare",
     "advertiser_type": "Agency",
