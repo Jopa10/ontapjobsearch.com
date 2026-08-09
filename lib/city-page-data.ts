@@ -20,7 +20,8 @@ export type CityPageDefinition = {
   route: string;
   listingLabel: string;
   jsonPath: readonly string[];
-  minimumJobs: number;
+  launchMinimumJobs: number;
+  active: boolean;
 };
 
 export type ActiveCityPage = {
@@ -33,7 +34,8 @@ export const newcastleServiceAdministratorPage: CityPageDefinition = {
   route: "/newcastle/service-administrator-jobs",
   listingLabel: "Newcastle Admin & Customer Service jobs",
   jsonPath: ["app", "_city-pages", "newcastle", "service-administrator-jobs.json"],
-  minimumJobs: 8,
+  launchMinimumJobs: 6,
+  active: true,
 };
 
 export const cityPageDefinitions: readonly CityPageDefinition[] = [
@@ -71,7 +73,7 @@ export function cityPageContainsJob(
   jobs: CityPageJob[],
   jobId: string
 ): boolean {
-  if (jobs.length < definition.minimumJobs) return false;
+  if (!definition.active) return false;
   return jobs.some((job) => job.job_id === jobId);
 }
 
@@ -88,5 +90,5 @@ export function getActiveCityPageForJob(jobId: string): ActiveCityPage | null {
 export function isCityPageActive(
   definition: CityPageDefinition = newcastleServiceAdministratorPage
 ): boolean {
-  return getCityPageJobs(definition).length >= definition.minimumJobs;
+  return definition.active;
 }
