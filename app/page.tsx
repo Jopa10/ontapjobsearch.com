@@ -242,7 +242,7 @@ export default function Page() {
         <section className="border-b border-gray-100 bg-gradient-to-b from-white to-gray-50">
           <div className="mx-auto grid max-w-7xl gap-6 px-4 py-7 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-8">
             <div>
-              <h1 className="max-w-3xl text-4xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-[2.8rem]">
+              <h1 className="max-w-3xl text-3xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-4xl">
                 Find admin, office support and customer service jobs across the UK
               </h1>
               <p className="mt-3 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
