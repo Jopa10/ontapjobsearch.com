@@ -240,15 +240,15 @@ export default function Page() {
 
       <main data-homepage>
         <section className="border-b border-gray-100 bg-gradient-to-b from-white to-gray-50">
-          <div className="mx-auto grid max-w-7xl gap-6 px-4 py-7 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-8">
+          <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-5">
             <div>
               <h1 className="max-w-3xl text-3xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-4xl">
                 Find admin, office support and customer service jobs across the UK
               </h1>
-              <p className="mt-3 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
+              <p className="mt-2 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
                 Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
               </p>
-              <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm font-medium text-gray-600">
+              <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm font-medium text-gray-600">
                 <span>Apply direct</span>
                 <span>No signup</span>
                 <span>Updated daily</span>
@@ -259,7 +259,7 @@ export default function Page() {
           </div>
         </section>
 
-        <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
           <section aria-labelledby="browse-role-heading">
             <div className="flex flex-wrap items-end justify-between gap-2">
               <div>
