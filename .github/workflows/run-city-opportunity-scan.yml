@@ -23,17 +23,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run scanner tests
-        run: python pipeline/tests/test_scan_city_opportunities.py
+      - name: Run scanner lifecycle tests
+        working-directory: pipeline
+        run: |
+          python -m unittest discover -s tests -p 'test_scan_city_opportunities.py' -v
+          python -m unittest discover -s tests -p 'test_city_opportunity_history.py' -v
 
       - name: Scan all published slices
         run: |
+          set -euo pipefail
           mkdir -p pipeline/reports
           python pipeline/scripts/scan_city_opportunities.py \
             --threshold 6 \
             --near-threshold 4 \
             --output-json pipeline/reports/city-opportunities-current.json \
-            > pipeline/reports/city-opportunities-current.md
+            > /tmp/city-opportunity-base.md
+          python pipeline/scripts/update_city_opportunity_history.py \
+            --current-json pipeline/reports/city-opportunities-current.json \
+            --history-json pipeline/reports/city-opportunity-history.json \
+            --output-md pipeline/reports/city-opportunities-current.md
 
       - name: Publish current report to repository
         run: |
@@ -54,3 +62,5 @@ jobs:
           path: |
             pipeline/reports/city-opportunities-current.json
             pipeline/reports/city-opportunities-current.md
+            pipeline/reports/city-opportunity-history.json
+          if-no-files-found: warn
