@@ -8,7 +8,10 @@
     "summary_md": "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md",
     "output_json": "app/_city-pages/newcastle/service-administrator-jobs.json",
     "route": "/newcastle/service-administrator-jobs",
-    "minimum_live_jobs": 8,
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
     "mode": "publish",
     "include_rules": [
       {
