@@ -118,22 +118,22 @@ jobs:
           python -m unittest discover -s tests -p 'test_city_opportunity_history.py' -v
 
       - name: Record city opportunity pipeline history
+        working-directory: pipeline
         run: |
           set -euo pipefail
-          mkdir -p pipeline/reports
-          python pipeline/scripts/scan_city_opportunities.py \
+          python -m scripts.scan_city_opportunities \
             --threshold 6 \
             --near-threshold 4 \
             --output-json pipeline/reports/city-opportunities-current.json \
             > /tmp/city-opportunity-base.md
-          python pipeline/scripts/update_city_opportunity_history.py \
+          python -m scripts.update_city_opportunity_history \
             --current-json pipeline/reports/city-opportunities-current.json \
             --history-json pipeline/reports/city-opportunity-history.json \
             --output-md pipeline/reports/city-opportunities-current.md \
             --record-snapshot \
             --run-id "${GITHUB_RUN_ID}" \
             --run-at "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          cat pipeline/reports/city-opportunities-current.md >> "$GITHUB_STEP_SUMMARY"
+          cat ../pipeline/reports/city-opportunities-current.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit city opportunity history
         run: |
