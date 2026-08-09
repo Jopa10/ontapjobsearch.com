@@ -30,15 +30,15 @@ jobs:
           python -m unittest discover -s tests -p 'test_city_opportunity_history.py' -v
 
       - name: Scan all published slices
+        working-directory: pipeline
         run: |
           set -euo pipefail
-          mkdir -p pipeline/reports
-          python pipeline/scripts/scan_city_opportunities.py \
+          python -m scripts.scan_city_opportunities \
             --threshold 6 \
             --near-threshold 4 \
             --output-json pipeline/reports/city-opportunities-current.json \
             > /tmp/city-opportunity-base.md
-          python pipeline/scripts/update_city_opportunity_history.py \
+          python -m scripts.update_city_opportunity_history \
             --current-json pipeline/reports/city-opportunities-current.json \
             --history-json pipeline/reports/city-opportunity-history.json \
             --output-md pipeline/reports/city-opportunities-current.md
