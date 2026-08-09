@@ -2,9 +2,14 @@ name: Run city opportunity scan
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "pipeline/reports/.city-opportunity-trigger"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   scan:
@@ -27,13 +32,25 @@ jobs:
           python pipeline/scripts/scan_city_opportunities.py \
             --threshold 6 \
             --near-threshold 4 \
-            --output-json pipeline/reports/city-opportunities.json \
-            | tee pipeline/reports/city-opportunities.md
+            --output-json pipeline/reports/city-opportunities-current.json \
+            > pipeline/reports/city-opportunities-current.md
+
+      - name: Publish current report to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/reports/city-opportunities-current.md pipeline/reports/city-opportunities-current.json
+          if git diff --cached --quiet; then
+            echo "City opportunity report unchanged"
+          else
+            git commit -m "Update city opportunity report"
+            git push
+          fi
 
       - name: Upload city opportunity report
         uses: actions/upload-artifact@v4
         with:
           name: city-opportunity-report
           path: |
-            pipeline/reports/city-opportunities.json
-            pipeline/reports/city-opportunities.md
+            pipeline/reports/city-opportunities-current.json
+            pipeline/reports/city-opportunities-current.md
