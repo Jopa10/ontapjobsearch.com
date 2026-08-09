@@ -1,0 +1,74 @@
+{
+  "threshold": 6,
+  "near_threshold": 4,
+  "published_slices_scanned": 15,
+  "jobs_scanned": 215,
+  "opportunities": [
+    {
+      "region": "hampshire",
+      "slice": "support-worker",
+      "locality": "Southampton",
+      "jobs": 7,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "exact-location",
+      "parent_json": "app/hampshire/support-worker.json",
+      "existing_route": ""
+    },
+    {
+      "region": "south-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Sheffield",
+      "jobs": 7,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "exact-location",
+      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
+      "existing_route": ""
+    },
+    {
+      "region": "west-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Leeds",
+      "jobs": 5,
+      "threshold": 6,
+      "status": "NEAR",
+      "basis": "exact-location",
+      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
+      "existing_route": ""
+    },
+    {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Coventry",
+      "jobs": 4,
+      "threshold": 6,
+      "status": "NEAR",
+      "basis": "exact-location",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": ""
+    },
+    {
+      "region": "west-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Huddersfield",
+      "jobs": 4,
+      "threshold": 6,
+      "status": "NEAR",
+      "basis": "exact-location",
+      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
+      "existing_route": ""
+    },
+    {
+      "region": "north-east",
+      "slice": "service-administrator-jobs",
+      "locality": "Newcastle",
+      "jobs": 10,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/north-east/service-administrator-jobs.json",
+      "existing_route": "/newcastle/service-administrator-jobs"
+    }
+  ]
+}
