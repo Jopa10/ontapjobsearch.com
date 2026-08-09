@@ -20,7 +20,7 @@ def published_job_id(review_job_id: str) -> str:
 
 
 class NewcastleCityLaunchTests(unittest.TestCase):
-    def test_register_enables_gated_live_page(self) -> None:
+    def test_register_marks_newcastle_as_explicitly_active(self) -> None:
         register = json.loads(
             (REPO_ROOT / "pipeline/city_pages/city-page-register.json").read_text(
                 encoding="utf-8"
@@ -29,7 +29,10 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         self.assertEqual(len(register), 1)
         city = register[0]
         self.assertEqual(city["mode"], "publish")
-        self.assertEqual(city["minimum_live_jobs"], 8)
+        self.assertEqual(city["minimum_live_jobs"], 6)
+        self.assertEqual(city["launch_minimum_live_jobs"], 6)
+        self.assertEqual(city["lifecycle_state"], "active")
+        self.assertEqual(city["retention_policy"], "permanent")
         self.assertEqual(city["route"], "/newcastle/service-administrator-jobs")
         self.assertEqual(
             city["output_json"],
@@ -50,7 +53,7 @@ class NewcastleCityLaunchTests(unittest.TestCase):
             if row["effective_decision"] == "include"
         }
 
-        self.assertGreaterEqual(len(city_jobs), 8)
+        self.assertGreaterEqual(len(city_jobs), 6)
         self.assertEqual(city_ids, included_ids)
         self.assertTrue(all(job.get("apply_url") for job in city_jobs))
 
@@ -77,13 +80,20 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         self.assertEqual(counts["include"], len(city_jobs))
         self.assertGreater(counts["exclude"], 0)
 
-    def test_route_and_sitemap_use_active_city_data_gate(self) -> None:
+    def test_route_and_sitemap_use_persistent_active_city_data_gate(self) -> None:
         route_source = (
             REPO_ROOT / "app/newcastle/service-administrator-jobs/page.tsx"
         ).read_text(encoding="utf-8")
         self.assertIn("isCityPageActive", route_source)
         self.assertIn("notFound()", route_source)
         self.assertIn("newcastleServiceAdministratorPage", route_source)
+
+        city_data_source = (REPO_ROOT / "lib/city-page-data.ts").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("launchMinimumJobs: 6", city_data_source)
+        self.assertIn("minimumJobs: 0", city_data_source)
+        self.assertIn("active: true", city_data_source)
 
         sitemap_source = (REPO_ROOT / "app/sitemap.ts").read_text(encoding="utf-8")
         self.assertIn("newcastleServiceAdministratorPage.route", sitemap_source)
