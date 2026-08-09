@@ -273,6 +273,22 @@ def load_regional_markets(register_path: Path) -> list[RegionalMarket]:
     return markets
 
 
+def location_has_pattern(location: str, pattern: str) -> bool:
+    """Match a place phrase without letting it bleed into a larger word.
+
+    This keeps `Warwick` distinct from a broad `Warwickshire` location while
+    still matching forms such as `Warwick, Warwickshire` and
+    `Newcastle upon Tyne`.
+    """
+    return bool(
+        re.search(
+            rf"(?<![\w]){re.escape(pattern)}(?![\w])",
+            location,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
 def patterns_include(
     job: dict[str, Any],
     include_patterns: tuple[str, ...],
@@ -281,9 +297,9 @@ def patterns_include(
     location = normalise(job.get("location"))
     if not location:
         return False
-    if any(pattern in location for pattern in exclude_patterns):
+    if any(location_has_pattern(location, pattern) for pattern in exclude_patterns):
         return False
-    return any(pattern in location for pattern in include_patterns)
+    return any(location_has_pattern(location, pattern) for pattern in include_patterns)
 
 
 def catchment_includes(job: dict[str, Any], catchment: CityCatchment) -> bool:
