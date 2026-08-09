@@ -38,7 +38,7 @@ job_id: 9334c81f-29de-4db5-8094-52bdf13c7291
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
 job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 ---
@@ -286,31 +286,31 @@ job_id: b83c05fc-a498-4d8a-80b5-1e32c317f50b
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £20.51 per hour | Team Administrator
 job_id: 489fe9d6-c699-4877-b1fd-b9d34f0548e0
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
 job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
 job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
 job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £40000 per year | TEMP COORDINATOR FOR LUXURY CLIENT SERVICES TEAM
 job_id: 93b52fa5-a49e-4152-8cf7-b95706117e4f
 ---
@@ -464,7 +464,7 @@ job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
 job_id: 9313f8d8-798c-47d4-b862-63cec763953a
 ---
@@ -541,13 +541,13 @@ job_id: 73c27096-8e4a-4bbb-8a13-773dcdd66a6c
 ## COVENTRY & WARWICKSHIRE — SELECTED
 
 ---
-action:
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £12.71 per hour | Registry Administrator
 job_id: dfd7d156-9a1c-4512-9b81-e6446c2d5571
 ---
 
 ---
-action:
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Rugby | £12.77 per hour | Receptionist
 job_id: 9bccef77-3de5-4082-92cc-aefc7bf20d50
 ---
@@ -573,7 +573,7 @@ job_id: 107807876
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £38000 per year | Programme Coordinator
 job_id: 26c4e84f-e3ee-4d79-97f9-4105c719d965
 ---
@@ -594,13 +594,13 @@ job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
 ## NORTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH YORKSHIRE | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
 job_id: c73aa678-7d7d-4684-8b42-f95464109197
 ---
 
 ---
-action:
+action: select
 POSS - NORTH YORKSHIRE | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
 job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
 ---
