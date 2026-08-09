@@ -13,6 +13,7 @@ if str(PIPELINE_ROOT) not in sys.path:
 from scripts.scan_city_opportunities import (  # noqa: E402
     DEFAULT_THRESHOLD,
     discover_published_slices,
+    location_has_pattern,
     scan_repository,
     simple_locality,
 )
@@ -53,6 +54,12 @@ class CityOpportunityScanTests(unittest.TestCase):
 
     def test_default_threshold_is_historical_six(self) -> None:
         self.assertEqual(DEFAULT_THRESHOLD, 6)
+
+    def test_market_place_names_do_not_bleed_into_county_names(self) -> None:
+        self.assertTrue(location_has_pattern("warwick", "warwick"))
+        self.assertTrue(location_has_pattern("warwick, warwickshire", "warwick"))
+        self.assertFalse(location_has_pattern("warwickshire", "warwick"))
+        self.assertTrue(location_has_pattern("newcastle upon tyne", "newcastle"))
 
     def test_discovers_only_json_with_matching_public_route(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
