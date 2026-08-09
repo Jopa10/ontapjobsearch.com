@@ -8,7 +8,7 @@ PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 if str(PIPELINE_ROOT) not in sys.path:
     sys.path.insert(0, str(PIPELINE_ROOT))
 
-from scripts.update_city_opportunity_history import (
+from scripts.update_city_opportunity_history import (  # noqa: E402
     REQUIRED_QUALIFYING_RUNS,
     WINDOW_RUNS,
     append_snapshot,
@@ -36,9 +36,31 @@ class CityOpportunityHistoryTests(unittest.TestCase):
             "LIVE",
         )
 
+    def test_registered_market_with_one_to_three_jobs_is_building(self) -> None:
+        for count in (1, 2, 3):
+            with self.subTest(count=count):
+                self.assertEqual(
+                    lifecycle_status(
+                        current=count,
+                        qualifying_runs=0,
+                        active=False,
+                        registered_market=True,
+                    ),
+                    "BUILDING",
+                )
+        self.assertEqual(
+            lifecycle_status(
+                current=0,
+                qualifying_runs=0,
+                active=False,
+                registered_market=True,
+            ),
+            "BELOW",
+        )
+
     def test_history_keeps_only_last_seven_runs(self) -> None:
         history = {"candidates": {}, "snapshots": []}
-        key = "region|slice|exact-location|city"
+        key = "region|slice|regional-market|city"
         for index in range(1, 10):
             append_snapshot(
                 history,
@@ -47,10 +69,11 @@ class CityOpportunityHistoryTests(unittest.TestCase):
                         "region": "region",
                         "slice": "slice",
                         "locality": "City",
-                        "basis": "exact-location",
+                        "basis": "regional-market",
                         "jobs": index,
                         "route": "",
                         "active": False,
+                        "registered_market": True,
                     }
                 },
                 run_id=str(index),
@@ -60,16 +83,17 @@ class CityOpportunityHistoryTests(unittest.TestCase):
 
     def test_rerun_same_pipeline_run_replaces_snapshot(self) -> None:
         history = {"candidates": {}, "snapshots": []}
-        key = "region|slice|exact-location|city"
+        key = "region|slice|regional-market|city"
         base = {
             key: {
                 "region": "region",
                 "slice": "slice",
                 "locality": "City",
-                "basis": "exact-location",
+                "basis": "regional-market",
                 "jobs": 6,
                 "route": "",
                 "active": False,
+                "registered_market": True,
             }
         }
         append_snapshot(history, base, run_id="123", run_at="one")

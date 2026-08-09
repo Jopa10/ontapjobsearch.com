@@ -16,6 +16,16 @@ The common derivation engine is `pipeline/scripts/derive_city_pages.py`. Each ap
 - explicit `lifecycle_state: active` approval; and
 - review-output paths.
 
+## Regional opportunity markets
+
+`opportunity-market-register.json` defines the local employment markets to monitor underneath each broad regional slice. A region can have several independent markets: for example North East can monitor Newcastle, Sunderland, Durham and Darlington at the same time; Sussex can monitor Brighton & Hove, Crawley, Horsham, Eastbourne and other local markets independently.
+
+The same regional market definitions are applied to every published category slice in that region. This means a Sunderland admin/service opportunity and a Sunderland support-worker opportunity build separate counts and histories from the same local-market definition.
+
+A market may combine location labels only where they genuinely belong to the same employment market. For example Brighton and Hove are one monitored market, while Crawley and Horsham remain separate. Active city-page rules in `city-page-register.json` take precedence for an already launched page such as Newcastle.
+
+Registered markets with one to three current jobs appear as **BUILDING**. Four or five jobs are **NEAR**. Six or more jobs enter the qualification-history process. Exact locations not yet in the register are still surfaced when they reach four jobs, so the monitor can reveal a market we forgot to define.
+
 ## Candidate and approval lifecycle
 
 `pipeline/scripts/scan_city_opportunities.py` discovers possible city/locality splits across all published regional/category slices. `pipeline/scripts/update_city_opportunity_history.py` records the last seven verified-publish pipeline runs. A candidate becomes **READY FOR APPROVAL** only when it has at least six qualifying live jobs on at least three of those seven runs and still has at least six jobs now.

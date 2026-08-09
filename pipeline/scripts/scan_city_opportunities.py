@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Scan published Ontap slices for city/locality page opportunities.
+"""Scan published Ontap slices for local employment-market page opportunities.
 
 This is deliberately a reporting tool only. It never publishes, removes, or
-rewrites live page JSON. The default qualification threshold is the established
-Ontap baseline of six live jobs.
+rewrites live page JSON. Registered regional markets are monitored independently
+under every published slice in their parent region.
 """
 
 from __future__ import annotations
@@ -19,6 +19,7 @@ from typing import Any, Iterable
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER = Path("pipeline/city_pages/city-page-register.json")
+DEFAULT_MARKET_REGISTER = Path("pipeline/city_pages/opportunity-market-register.json")
 DEFAULT_THRESHOLD = 6
 DEFAULT_NEAR_THRESHOLD = 4
 
@@ -75,6 +76,8 @@ class Opportunity:
     basis: str
     parent_json: str
     existing_route: str = ""
+    active: bool = False
+    registered_market: bool = False
 
 
 @dataclass(frozen=True)
@@ -84,12 +87,39 @@ class CityCatchment:
     route: str
     include_patterns: tuple[str, ...]
     exclude_patterns: tuple[str, ...]
+    active: bool = False
+
+
+@dataclass(frozen=True)
+class RegionalMarket:
+    region_key: str
+    market_key: str
+    display_name: str
+    include_patterns: tuple[str, ...]
+    exclude_patterns: tuple[str, ...]
 
 
 def normalise(value: Any) -> str:
     if not isinstance(value, str):
         return ""
     return " ".join(value.casefold().split())
+
+
+def public_route_page(json_path: Path) -> Path | None:
+    """Resolve the public page for a top-level slice JSON.
+
+    Most routes match the JSON stem. A few legacy files retain a `-jobs`
+    suffix while the public route does not (for example North East support
+    worker), so try the suffix-stripped route as a compatibility fallback.
+    """
+    exact = json_path.with_suffix("") / "page.tsx"
+    if exact.is_file():
+        return exact
+    if json_path.stem.endswith("-jobs"):
+        legacy = json_path.parent / json_path.stem.removesuffix("-jobs") / "page.tsx"
+        if legacy.is_file():
+            return legacy
+    return None
 
 
 def discover_published_slices(repo_root: Path) -> list[PublishedSlice]:
@@ -102,8 +132,7 @@ def discover_published_slices(repo_root: Path) -> list[PublishedSlice]:
     for json_path in sorted(app_root.glob("*/*.json")):
         if json_path.parent.name.startswith("_"):
             continue
-        route_page = json_path.with_suffix("") / "page.tsx"
-        if not route_page.is_file():
+        if public_route_page(json_path) is None:
             continue
         found.append(
             PublishedSlice(
@@ -120,20 +149,11 @@ def load_jobs(path: Path) -> list[dict[str, Any]]:
         raw = json.load(handle)
     if not isinstance(raw, list):
         raise ValueError(f"published slice must be a JSON array: {path}")
-    jobs: list[dict[str, Any]] = []
-    for item in raw:
-        if isinstance(item, dict):
-            jobs.append(item)
-    return jobs
+    return [item for item in raw if isinstance(item, dict)]
 
 
 def simple_locality(location: Any, region: Any = "") -> str:
-    """Conservatively turn a stated location into an exact locality candidate.
-
-    We intentionally do not geocode or infer a city from employer/description
-    text. This keeps discovery aligned with the Newcastle rule: stated location
-    can qualify a page; contextual text cannot.
-    """
+    """Conservatively turn a stated location into an exact locality candidate."""
     if not isinstance(location, str):
         return ""
     value = " ".join(location.strip().split())
@@ -142,10 +162,7 @@ def simple_locality(location: Any, region: Any = "") -> str:
 
     value = WORKING_ARRANGEMENT_PARENS.sub("", value).strip()
     if "," in value:
-        first = value.split(",", 1)[0].strip()
-        # A clean first component such as "Southampton, Hampshire" is useful;
-        # an institution/address component such as "Town Hall, ..." is not.
-        value = first
+        value = value.split(",", 1)[0].strip()
 
     key = normalise(value)
     if not key or key in GENERIC_LOCATIONS:
@@ -174,8 +191,7 @@ def canonical_display(values: Iterable[str]) -> str:
 def load_city_catchments(register_path: Path) -> list[CityCatchment]:
     if not register_path.is_file():
         return []
-    with register_path.open("r", encoding="utf-8") as handle:
-        raw = json.load(handle)
+    raw = json.loads(register_path.read_text(encoding="utf-8"))
     if not isinstance(raw, list):
         raise ValueError("city-page register must be an array")
 
@@ -205,22 +221,77 @@ def load_city_catchments(register_path: Path) -> list[CityCatchment]:
                 route=route,
                 include_patterns=patterns("include_rules"),
                 exclude_patterns=patterns("exclude_rules"),
+                active=normalise(item.get("lifecycle_state")) == "active",
             )
         )
     return catchments
 
 
-def catchment_includes(job: dict[str, Any], catchment: CityCatchment) -> bool:
-    """Mirror the location priority used by the live city derivation.
+def load_regional_markets(register_path: Path) -> list[RegionalMarket]:
+    if not register_path.is_file():
+        return []
+    raw = json.loads(register_path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        raise ValueError("opportunity-market register must be an array")
 
-    Excludes win, then includes. We do not use company/summary to include a job.
-    """
+    markets: list[RegionalMarket] = []
+    seen: set[tuple[str, str]] = set()
+    for index, item in enumerate(raw):
+        if not isinstance(item, dict):
+            raise ValueError(f"opportunity-market row {index} must be an object")
+        region_key = normalise(item.get("region_key")).replace(" ", "-")
+        market_key = normalise(item.get("market_key")).replace(" ", "-")
+        display_name = str(item.get("display_name", "")).strip()
+        include = tuple(
+            normalise(value)
+            for value in item.get("include_patterns", [])
+            if normalise(value)
+        )
+        exclude = tuple(
+            normalise(value)
+            for value in item.get("exclude_patterns", [])
+            if normalise(value)
+        )
+        if not region_key or not market_key or not display_name or not include:
+            raise ValueError(
+                f"opportunity-market row {index} needs region_key, market_key, "
+                "display_name and include_patterns"
+            )
+        key = (region_key, market_key)
+        if key in seen:
+            raise ValueError(f"duplicate opportunity market: {region_key}/{market_key}")
+        seen.add(key)
+        markets.append(
+            RegionalMarket(
+                region_key=region_key,
+                market_key=market_key,
+                display_name=display_name,
+                include_patterns=include,
+                exclude_patterns=exclude,
+            )
+        )
+    return markets
+
+
+def patterns_include(
+    job: dict[str, Any],
+    include_patterns: tuple[str, ...],
+    exclude_patterns: tuple[str, ...] = (),
+) -> bool:
     location = normalise(job.get("location"))
     if not location:
         return False
-    if any(pattern in location for pattern in catchment.exclude_patterns):
+    if any(pattern in location for pattern in exclude_patterns):
         return False
-    return any(pattern in location for pattern in catchment.include_patterns)
+    return any(pattern in location for pattern in include_patterns)
+
+
+def catchment_includes(job: dict[str, Any], catchment: CityCatchment) -> bool:
+    return patterns_include(job, catchment.include_patterns, catchment.exclude_patterns)
+
+
+def market_includes(job: dict[str, Any], market: RegionalMarket) -> bool:
+    return patterns_include(job, market.include_patterns, market.exclude_patterns)
 
 
 def route_exists(repo_root: Path, route: str) -> bool:
@@ -228,59 +299,32 @@ def route_exists(repo_root: Path, route: str) -> bool:
     return bool(parts) and (repo_root / "app" / Path(*parts) / "page.tsx").is_file()
 
 
-def status_for(count: int, threshold: int, near_threshold: int, *, live: bool = False) -> str:
+def status_for(
+    count: int,
+    threshold: int,
+    near_threshold: int,
+    *,
+    live: bool = False,
+    registered_market: bool = False,
+) -> str:
     if live:
         return "LIVE"
     if count >= threshold:
         return "QUALIFIES"
     if count >= near_threshold:
         return "NEAR"
+    if registered_market and count > 0:
+        return "BUILDING"
     return "BELOW"
 
 
-def scan_slice_exact_locations(
-    repo_root: Path,
-    published_slice: PublishedSlice,
-    *,
-    threshold: int,
-    near_threshold: int,
-    claimed_job_ids: set[str] | None = None,
-) -> tuple[list[Opportunity], int]:
-    jobs = load_jobs(repo_root / published_slice.json_path)
-    claimed = claimed_job_ids or set()
-    grouped: dict[str, list[tuple[str, dict[str, Any]]]] = defaultdict(list)
-
-    for job in jobs:
-        job_id = str(job.get("job_id", "")).strip()
-        if job_id and job_id in claimed:
-            continue
-        locality = simple_locality(job.get("location"), job.get("region"))
-        if not locality:
-            continue
-        if normalise(locality) == normalise(published_slice.region_key.replace("-", " ")):
-            continue
-        grouped[normalise(locality)].append((locality, job))
-
-    opportunities: list[Opportunity] = []
-    for members in grouped.values():
-        count = len(members)
-        status = status_for(count, threshold, near_threshold)
-        if status == "BELOW":
-            continue
-        display = canonical_display(member[0] for member in members)
-        opportunities.append(
-            Opportunity(
-                region=published_slice.region_key,
-                slice=published_slice.slice_key,
-                locality=display,
-                jobs=count,
-                threshold=threshold,
-                status=status,
-                basis="exact-location",
-                parent_json=str(published_slice.json_path),
-            )
-        )
-    return opportunities, len(jobs)
+def configured_by_parent(
+    catchments: Iterable[CityCatchment],
+) -> dict[Path, dict[str, CityCatchment]]:
+    result: dict[Path, dict[str, CityCatchment]] = defaultdict(dict)
+    for catchment in catchments:
+        result[catchment.parent_page][normalise(catchment.display_name)] = catchment
+    return result
 
 
 def scan_repository(
@@ -289,6 +333,7 @@ def scan_repository(
     threshold: int = DEFAULT_THRESHOLD,
     near_threshold: int = DEFAULT_NEAR_THRESHOLD,
     register_path: Path = DEFAULT_REGISTER,
+    market_register_path: Path = DEFAULT_MARKET_REGISTER,
 ) -> dict[str, Any]:
     if threshold < 1:
         raise ValueError("threshold must be at least 1")
@@ -296,32 +341,83 @@ def scan_repository(
         raise ValueError("near_threshold must be between 1 and threshold")
 
     slices = discover_published_slices(repo_root)
-    slice_by_path = {item.json_path: item for item in slices}
     catchments = load_city_catchments(repo_root / register_path)
+    markets = load_regional_markets(repo_root / market_register_path)
+    catchment_map = configured_by_parent(catchments)
+    markets_by_region: dict[str, list[RegionalMarket]] = defaultdict(list)
+    for market in markets:
+        markets_by_region[market.region_key].append(market)
 
     opportunities: list[Opportunity] = []
-    claimed_by_parent: dict[Path, set[str]] = defaultdict(set)
-    jobs_cache: dict[Path, list[dict[str, Any]]] = {}
+    total_jobs = 0
 
-    # Configured city catchments are counted first and take precedence over
-    # exact-location discovery for the same jobs, preventing duplicate
-    # Newcastle/Newcastle-upon-Tyne candidate rows.
-    for catchment in catchments:
-        parent = catchment.parent_page
-        published_slice = slice_by_path.get(parent)
-        if published_slice is None:
-            continue
-        jobs = jobs_cache.setdefault(parent, load_jobs(repo_root / parent))
-        included = [job for job in jobs if catchment_includes(job, catchment)]
-        for job in included:
-            job_id = str(job.get("job_id", "")).strip()
-            if job_id:
-                claimed_by_parent[parent].add(job_id)
+    for published_slice in slices:
+        parent = published_slice.json_path
+        jobs = load_jobs(repo_root / parent)
+        total_jobs += len(jobs)
+        claimed: set[str] = set()
+        configured = catchment_map.get(parent, {})
+        used_configured: set[str] = set()
 
-        live = route_exists(repo_root, catchment.route)
-        count = len(included)
-        status = status_for(count, threshold, near_threshold, live=live)
-        if status != "BELOW":
+        # Every registered local market is monitored independently under each
+        # published category slice in its region.
+        for market in markets_by_region.get(published_slice.region_key, []):
+            configured_match = configured.get(normalise(market.display_name))
+            if configured_match is not None:
+                included = [job for job in jobs if catchment_includes(job, configured_match)]
+                active = configured_match.active and route_exists(
+                    repo_root, configured_match.route
+                )
+                basis = "configured-catchment"
+                route = configured_match.route if active else ""
+                used_configured.add(normalise(configured_match.display_name))
+            else:
+                included = [job for job in jobs if market_includes(job, market)]
+                active = False
+                basis = "regional-market"
+                route = ""
+
+            for job in included:
+                job_id = str(job.get("job_id", "")).strip()
+                if job_id:
+                    claimed.add(job_id)
+
+            count = len(included)
+            status = status_for(
+                count,
+                threshold,
+                near_threshold,
+                live=active,
+                registered_market=True,
+            )
+            opportunities.append(
+                Opportunity(
+                    region=published_slice.region_key,
+                    slice=published_slice.slice_key,
+                    locality=market.display_name,
+                    jobs=count,
+                    threshold=threshold,
+                    status=status,
+                    basis=basis,
+                    parent_json=str(parent),
+                    existing_route=route,
+                    active=active,
+                    registered_market=True,
+                )
+            )
+
+        # Preserve configured live/review city pages even if a future active
+        # city has not yet been added to the opportunity-market register.
+        for name_key, catchment in configured.items():
+            if name_key in used_configured:
+                continue
+            included = [job for job in jobs if catchment_includes(job, catchment)]
+            for job in included:
+                job_id = str(job.get("job_id", "")).strip()
+                if job_id:
+                    claimed.add(job_id)
+            active = catchment.active and route_exists(repo_root, catchment.route)
+            count = len(included)
             opportunities.append(
                 Opportunity(
                     region=published_slice.region_key,
@@ -329,27 +425,62 @@ def scan_repository(
                     locality=catchment.display_name,
                     jobs=count,
                     threshold=threshold,
-                    status=status,
+                    status=status_for(
+                        count,
+                        threshold,
+                        near_threshold,
+                        live=active,
+                        registered_market=True,
+                    ),
                     basis="configured-catchment",
                     parent_json=str(parent),
-                    existing_route=catchment.route if live else "",
+                    existing_route=catchment.route if active else "",
+                    active=active,
+                    registered_market=True,
                 )
             )
 
-    total_jobs = 0
-    for published_slice in slices:
-        parent = published_slice.json_path
-        exact, count = scan_slice_exact_locations(
-            repo_root,
-            published_slice,
-            threshold=threshold,
-            near_threshold=near_threshold,
-            claimed_job_ids=claimed_by_parent.get(parent, set()),
-        )
-        total_jobs += count
-        opportunities.extend(exact)
+        # Exact-location fallback remains useful for spotting a concentration
+        # we forgot to register, but low-volume one-offs stay out of the report.
+        grouped: dict[str, list[str]] = defaultdict(list)
+        for job in jobs:
+            job_id = str(job.get("job_id", "")).strip()
+            if job_id and job_id in claimed:
+                continue
+            locality = simple_locality(job.get("location"), job.get("region"))
+            if not locality:
+                continue
+            if normalise(locality) == normalise(
+                published_slice.region_key.replace("-", " ")
+            ):
+                continue
+            grouped[normalise(locality)].append(locality)
 
-    status_order = {"QUALIFIES": 0, "NEAR": 1, "LIVE": 2}
+        for values in grouped.values():
+            count = len(values)
+            status = status_for(count, threshold, near_threshold)
+            if status == "BELOW":
+                continue
+            opportunities.append(
+                Opportunity(
+                    region=published_slice.region_key,
+                    slice=published_slice.slice_key,
+                    locality=canonical_display(values),
+                    jobs=count,
+                    threshold=threshold,
+                    status=status,
+                    basis="exact-location-unregistered",
+                    parent_json=str(parent),
+                )
+            )
+
+    status_order = {
+        "LIVE": 0,
+        "QUALIFIES": 1,
+        "NEAR": 2,
+        "BUILDING": 3,
+        "BELOW": 4,
+    }
     opportunities.sort(
         key=lambda item: (
             status_order.get(item.status, 9),
@@ -365,6 +496,10 @@ def scan_repository(
         "near_threshold": near_threshold,
         "published_slices_scanned": len(slices),
         "jobs_scanned": total_jobs,
+        "regional_markets_defined": len(markets),
+        "market_rows_monitored": sum(
+            1 for item in opportunities if item.registered_market
+        ),
         "opportunities": [asdict(item) for item in opportunities],
     }
 
@@ -377,18 +512,20 @@ def markdown_report(result: dict[str, Any]) -> str:
         f"- Near threshold: {result['near_threshold']} live jobs",
         f"- Published slices scanned: {result['published_slices_scanned']}",
         f"- Jobs scanned: {result['jobs_scanned']}",
+        f"- Registered local markets: {result.get('regional_markets_defined', 0)}",
         "",
         "| Status | Region | Slice | City/locality | Jobs | Basis |",
         "|---|---|---|---|---:|---|",
     ]
-    for item in result["opportunities"]:
+    visible = [item for item in result["opportunities"] if item["status"] != "BELOW"]
+    for item in visible:
         lines.append(
             "| {status} | {region} | {slice} | {locality} | {jobs} | {basis} |".format(
                 **item
             )
         )
-    if not result["opportunities"]:
-        lines.append("| — | — | — | No qualifying/near candidates | 0 | — |")
+    if not visible:
+        lines.append("| — | — | — | No current local-market jobs | 0 | — |")
     return "\n".join(lines) + "\n"
 
 
@@ -403,6 +540,7 @@ def main() -> int:
     parser.add_argument("--threshold", type=int, default=DEFAULT_THRESHOLD)
     parser.add_argument("--near-threshold", type=int, default=DEFAULT_NEAR_THRESHOLD)
     parser.add_argument("--register", type=Path, default=DEFAULT_REGISTER)
+    parser.add_argument("--market-register", type=Path, default=DEFAULT_MARKET_REGISTER)
     parser.add_argument(
         "--output-json",
         type=Path,
@@ -416,6 +554,7 @@ def main() -> int:
             threshold=args.threshold,
             near_threshold=args.near_threshold,
             register_path=args.register,
+            market_register_path=args.market_register,
         )
     except (OSError, ValueError, json.JSONDecodeError) as exc:
         print(f"city opportunity scan failed: {exc}", file=sys.stderr)
