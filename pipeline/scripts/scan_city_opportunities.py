@@ -257,6 +257,8 @@ def scan_slice_exact_locations(
         locality = simple_locality(job.get("location"), job.get("region"))
         if not locality:
             continue
+        if normalise(locality) == normalise(published_slice.region_key.replace("-", " ")):
+            continue
         grouped[normalise(locality)].append((locality, job))
 
     opportunities: list[Opportunity] = []
