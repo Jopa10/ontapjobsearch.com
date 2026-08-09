@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-08
+feed_date: 2026-08-09
 
 Edit only the `action:` line in each block:
 
@@ -24,24 +24,6 @@ job_id: 107651994
 ---
 
 ---
-action: select
-SELECTED | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728806
----
-
----
-action: select
-SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
-
----
-action:
-SELECTED | Yorkshire - West | Huddersfield | £12.71 per hour | Health Care Assistant - Weekend Days
-job_id: 107800770
----
-
----
 action:
 SELECTED | Yorkshire - West | Wakefield | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104910
@@ -61,13 +43,19 @@ POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in P
 job_id: 107751768
 ---
 
-## SOUTH YORKSHIRE — SELECTED
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
+---
 
 ---
-action: select
-SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
 ---
+
+## SOUTH YORKSHIRE — SELECTED
 
 ---
 action:
@@ -77,15 +65,13 @@ job_id: 107798506
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
-
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £17.50-£24.00 per hour | Children Crisis Support Worker - Waking Nights
-job_id: 05843b40-34ac-40a5-8f4c-e146dd6988e1
----
 
 ---
 action:
@@ -169,11 +155,19 @@ job_id: 107781117
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NE - Tyneside/Wearside/N'land | North East - Tyneside, Wearside & Northumberland | Gateshead | £17.50-£24.00 per hour | Children Crisis Support Worker - Waking Nights
+job_id: 05843b40-34ac-40a5-8f4c-e146dd6988e1
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Darlington | £13 - £26.4 per hour | Residential Childcare Worker
+job_id: 107807433
+---
 
 ## SUSSEX — SELECTED
 
@@ -233,6 +227,12 @@ job_id: 107605050
 
 ---
 action:
+SELECTED | Sussex | Worthing | £13.49 per hour (plus shift allowances) | Support Worker
+job_id: 107805162
+---
+
+---
+action:
 SELECTED | Sussex | Chichester | £15.4 - £17.6 per hour | Complex Care Assistant
 job_id: 107812909
 ---
@@ -241,23 +241,11 @@ job_id: 107812909
 
 ---
 action:
-POSS - SUSSEX | Sussex | Chichester | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 107775338
----
-
----
-action:
 POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107641522
 ---
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Relief Support Worker
-job_id: 107746227
----
 
 ---
 action:
@@ -287,6 +275,12 @@ job_id: 107800988
 action:
 SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104893
+---
+
+---
+action:
+SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
+job_id: 107800989
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -335,18 +329,6 @@ job_id: 2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4
 action:
 SELECTED | Hampshire | Ringwood | £16.47 per hour | Care Assistant - Bank - Care Home
 job_id: c4b882e9-0d0f-433e-820e-ed014114370d
----
-
----
-action: select
-SELECTED | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
-job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
----
-
----
-action: select
-SELECTED | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
-job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
 ---
 
 ---
@@ -405,17 +387,29 @@ job_id: 107796981
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £15 per hour | Complex Care Assistant
-job_id: 107791554
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £14 - £15 per hour | Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
 job_id: 107794548
 ---
 
+---
+action:
+SELECTED | Hampshire | Aldershot | £13.05 per hour | Residential Childcare Support Worker
+job_id: 107776124
+---
+
 ## HAMPSHIRE — POSSIBLES
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
+job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
+job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
+---
 
 ---
 action:

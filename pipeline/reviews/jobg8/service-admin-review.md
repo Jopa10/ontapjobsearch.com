@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-08
+feed_date: 2026-08-09
 
 Edit only the `action:` line in each block:
 
@@ -134,12 +134,6 @@ job_id: 887c5040-e943-4083-a032-078f4ad1afab
 ---
 
 ---
-action: select
-SELECTED | London | London | £30000 - £40000 per year | TEMP COORDINATOR FOR LUXURY CLIENT SERVICES TEAM
-job_id: 93b52fa5-a49e-4152-8cf7-b95706117e4f
----
-
----
 action:
 SELECTED | London | London | £30000 - £35000 per year | Junior PA & Receptionist - Graduate
 job_id: 41ccb3b9-b591-4166-9a51-b814198b9789
@@ -170,18 +164,6 @@ job_id: 50305aa1-cd45-4fbf-9d3c-0396d942139e
 ---
 
 ---
-action: select
-SELECTED | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
-job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
----
-
----
-action: select
-SELECTED | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
-job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
----
-
----
 action:
 SELECTED | London | London |  | Risk Administrator - US Law Firm (6 month FTC)
 job_id: b801c68f-5b19-482e-988a-f1d7c5338961
@@ -209,12 +191,6 @@ job_id: 5a534179-7cff-416a-b14c-b5f1f11b907c
 action:
 SELECTED | London | London | £28000 - £31000 per year | Clinic Administrator - 12 month FTC
 job_id: 01257d43-ab3d-4a80-a4b6-86892e362251
----
-
----
-action: select
-SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -273,18 +249,6 @@ job_id: a65fdabc-6bc9-40ee-9a53-499a14c95c4a
 
 ---
 action:
-SELECTED | London | London |  | Safeguarding Department Administrator
-job_id: 1642103
----
-
----
-action:
-SELECTED | London | London |  | Receptionist
-job_id: 1643112
----
-
----
-action:
 SELECTED | London | London |  | Group Activites Coordinator
 job_id: 1645274
 ---
@@ -293,6 +257,12 @@ job_id: 1645274
 action:
 SELECTED | London | Croydon |  | HR and Business Support Administrator
 job_id: 1645224
+---
+
+---
+action:
+SELECTED | London | Kensington And Chelsea |  | Group Activites Coordinator - Oremi
+job_id: 21618_20364_2854
 ---
 
 ## LONDON — POSSIBLES
@@ -313,6 +283,36 @@ job_id: 107731922
 action:
 POSS - LONDON | London | London | £75000 - £100000 per year | Global NetSuite Owner/ Administrator
 job_id: b83c05fc-a498-4d8a-80b5-1e32c317f50b
+---
+
+---
+action:
+POSS - LONDON | London | London | £20.51 per hour | Team Administrator
+job_id: 489fe9d6-c699-4877-b1fd-b9d34f0548e0
+---
+
+---
+action:
+POSS - LONDON | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
+job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
+---
+
+---
+action:
+POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
+job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
+---
+
+---
+action:
+POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
+---
+
+---
+action:
+POSS - LONDON | London | London | £30000 - £40000 per year | TEMP COORDINATOR FOR LUXURY CLIENT SERVICES TEAM
+job_id: 93b52fa5-a49e-4152-8cf7-b95706117e4f
 ---
 
 ## HAMPSHIRE — SELECTED
@@ -363,12 +363,6 @@ job_id: d085c5f2-2439-4e83-81a8-b5d43af25dff
 action:
 SELECTED | Hampshire | Southampton | £27000 - £29000 per year | Receptionist
 job_id: bc8e6b66-d67e-4f4c-9392-7285e25de89b
----
-
----
-action:
-SELECTED | Hampshire | Fareham | £15862.08 per year | Receptionist
-job_id: 20091_318985
 ---
 
 ---
@@ -462,26 +456,24 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 ---
 
 ---
-action: select
-SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
----
-
----
 action:
 SELECTED | Kent | Maidstone | £14.4 per hour | Accounts Administrator
 job_id: 1eeca110-4bfa-4f50-b7e3-a83fe57a3242
 ---
 
----
-action: select
-SELECTED | Kent | Canterbury | £80000 per year | Chartered Secretary Corporate Governance
-job_id: 107787034
----
-
 ## KENT — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
+
+---
+action:
+POSS - KENT | Kent | Canterbury | £80000 per year | Chartered Secretary Corporate Governance
+job_id: 107787034
+---
 
 ## SUSSEX — SELECTED
 
@@ -594,26 +586,24 @@ job_id: f88af6c0-26e6-4934-a4f2-b3be470d8edf
 ---
 
 ---
-action: select
-SELECTED | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
-job_id: c73aa678-7d7d-4684-8b42-f95464109197
----
-
----
 action:
 SELECTED | Yorkshire - North | Scarborough | £28000 - £29500 per year | Recruitment Administrator
 job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
 ---
 
----
-action: select
-SELECTED | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
-job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
----
-
 ## NORTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH YORKSHIRE | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
+job_id: c73aa678-7d7d-4684-8b42-f95464109197
+---
+
+---
+action:
+POSS - NORTH YORKSHIRE | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
+job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
+---
 ## ACTIVE MANUAL ACTIONS
 
 _No active manual actions outside the selected/possible groups._
