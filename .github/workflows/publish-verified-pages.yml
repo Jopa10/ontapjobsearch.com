@@ -74,47 +74,89 @@ jobs:
           if [ -z "$staged_files" ]; then
             echo "created=false" >> "$GITHUB_OUTPUT"
             echo "No approved live JSON or live-job count changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
-            exit 0
+          else
+            unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
+              -v daily="$daily_report" \
+              -v history="$history_report" \
+              '$0 != "app/coventry-warwickshire/service-administrator-jobs.json" &&
+               $0 != "app/hampshire/service-administrator-jobs.json" &&
+               $0 != "app/kent/service-administrator-jobs.json" &&
+               $0 != "app/london/service-administrator-jobs.json" &&
+               $0 != "app/north-east/service-administrator-jobs.json" &&
+               $0 != "app/north-yorkshire/service-administrator-jobs.json" &&
+               $0 != "app/south-yorkshire/service-administrator-jobs.json" &&
+               $0 != "app/surrey/service-administrator-jobs.json" &&
+               $0 != "app/sussex/service-administrator-jobs.json" &&
+               $0 != "app/west-yorkshire/service-administrator-jobs.json" &&
+               $0 != "app/cumbria-south/support-worker.json" &&
+               $0 != "app/hampshire/support-worker.json" &&
+               $0 != "app/north-east/support-worker-jobs.json" &&
+               $0 != "app/south-yorkshire/support-worker.json" &&
+               $0 != "app/sussex/support-worker.json" &&
+               $0 != "app/west-yorkshire/support-worker.json" &&
+               $0 != daily &&
+               $0 != history'; } || true)"
+            if [ -n "$unexpected_files" ]; then
+              echo "::error::Refusing to commit unexpected staged paths:"
+              printf '%s\n' "$unexpected_files"
+              git reset --mixed
+              exit 1
+            fi
+
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Publish verified job pages"
+            git push origin main
+            echo "created=true" >> "$GITHUB_OUTPUT"
+            echo "Published verified pages commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
-            -v daily="$daily_report" \
-            -v history="$history_report" \
-            '$0 != "app/coventry-warwickshire/service-administrator-jobs.json" &&
-             $0 != "app/hampshire/service-administrator-jobs.json" &&
-             $0 != "app/kent/service-administrator-jobs.json" &&
-             $0 != "app/london/service-administrator-jobs.json" &&
-             $0 != "app/north-east/service-administrator-jobs.json" &&
-             $0 != "app/north-yorkshire/service-administrator-jobs.json" &&
-             $0 != "app/south-yorkshire/service-administrator-jobs.json" &&
-             $0 != "app/surrey/service-administrator-jobs.json" &&
-             $0 != "app/sussex/service-administrator-jobs.json" &&
-             $0 != "app/west-yorkshire/service-administrator-jobs.json" &&
-             $0 != "app/cumbria-south/support-worker.json" &&
-             $0 != "app/hampshire/support-worker.json" &&
-             $0 != "app/north-east/support-worker-jobs.json" &&
-             $0 != "app/south-yorkshire/support-worker.json" &&
-             $0 != "app/sussex/support-worker.json" &&
-             $0 != "app/west-yorkshire/support-worker.json" &&
-             $0 != daily &&
-             $0 != history'; } || true)"
-          if [ -n "$unexpected_files" ]; then
-            echo "::error::Refusing to commit unexpected staged paths:"
-            printf '%s\n' "$unexpected_files"
-            git reset --mixed
-            exit 1
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Publish verified job pages"
-          git push origin main
-          echo "created=true" >> "$GITHUB_OUTPUT"
-          echo "Published verified pages commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
-
-      - name: Test city-page derivation
+      - name: Test city opportunity lifecycle
         working-directory: pipeline
-        run: python -m unittest discover -s tests -p 'test_derive_city_pages.py' -v
+        run: |
+          python -m unittest discover -s tests -p 'test_scan_city_opportunities.py' -v
+          python -m unittest discover -s tests -p 'test_city_opportunity_history.py' -v
+
+      - name: Record city opportunity pipeline history
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          python -m scripts.scan_city_opportunities \
+            --threshold 6 \
+            --near-threshold 4 \
+            --output-json pipeline/reports/city-opportunities-current.json \
+            > /tmp/city-opportunity-base.md
+          python -m scripts.update_city_opportunity_history \
+            --current-json pipeline/reports/city-opportunities-current.json \
+            --history-json pipeline/reports/city-opportunity-history.json \
+            --output-md pipeline/reports/city-opportunities-current.md \
+            --record-snapshot \
+            --run-id "${GITHUB_RUN_ID}" \
+            --run-at "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          cat ../pipeline/reports/city-opportunities-current.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit city opportunity history
+        run: |
+          set -euo pipefail
+          git add -- \
+            pipeline/reports/city-opportunities-current.md \
+            pipeline/reports/city-opportunities-current.json \
+            pipeline/reports/city-opportunity-history.json
+          if git diff --cached --quiet; then
+            echo "City opportunity history unchanged" | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Record city opportunity history"
+            git push origin main
+            echo "City opportunity history commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Test city-page derivation and persistence
+        working-directory: pipeline
+        run: |
+          python -m unittest discover -s tests -p 'test_derive_city_pages.py' -v
+          python -m unittest discover -s tests -p 'test_active_city_page_persistence.py' -v
 
       - name: Derive and publish city pages
         id: city-publish
@@ -125,26 +167,26 @@ jobs:
           python -m scripts.derive_city_pages --publish | tee "$report_file"
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Enforce permanent active city pages
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          report_file="$(mktemp)"
+          python -m scripts.maintain_active_city_pages | tee "$report_file"
+          cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit city-page outputs
         run: |
           set -euo pipefail
-          city_paths=(
-            "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv"
-            "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md"
-            "app/_city-pages/newcastle/service-administrator-jobs.json"
-          )
-
-          if [ -z "$(git status --porcelain -- "${city_paths[@]}")" ]; then
+          if [ -z "$(git status --porcelain -- pipeline/reviews/city-pages app/_city-pages)" ]; then
             echo "No city-page changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
-          git add -A -- "${city_paths[@]}"
+          git add -A -- pipeline/reviews/city-pages app/_city-pages
           staged_files="$(git diff --cached --name-only)"
           unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
-            '$0 != "pipeline/reviews/city-pages/newcastle-service-administrator-review.csv" &&
-             $0 != "pipeline/reviews/city-pages/newcastle-service-administrator-summary.md" &&
-             $0 != "app/_city-pages/newcastle/service-administrator-jobs.json"'; } || true)"
+            '$0 !~ /^pipeline\/reviews\/city-pages\// && $0 !~ /^app\/_city-pages\//'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit unexpected city-page paths:"
             printf '%s\n' "$unexpected_files"
@@ -154,7 +196,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Refresh city-page outputs"
+          git commit -m "Refresh active city-page outputs"
           git push origin main
           echo "City-page output commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
 
@@ -169,14 +211,24 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Upload Newcastle city-page outputs
+      - name: Upload city opportunity report
+        uses: actions/upload-artifact@v4
+        with:
+          name: city-opportunity-report
+          path: |
+            pipeline/reports/city-opportunities-current.json
+            pipeline/reports/city-opportunities-current.md
+            pipeline/reports/city-opportunity-history.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Upload active city-page outputs
         if: steps.city-publish.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
-          name: newcastle-city-page-output
+          name: active-city-page-output
           path: |
-            pipeline/reviews/city-pages/newcastle-service-administrator-review.csv
-            pipeline/reviews/city-pages/newcastle-service-administrator-summary.md
-            app/_city-pages/newcastle/service-administrator-jobs.json
+            pipeline/reviews/city-pages/
+            app/_city-pages/
           if-no-files-found: warn
           retention-days: 30

@@ -14,9 +14,15 @@ on:
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
       - 'pipeline/scripts/derive_city_pages.py'
+      - 'pipeline/scripts/scan_city_opportunities.py'
+      - 'pipeline/scripts/update_city_opportunity_history.py'
+      - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
       - 'pipeline/tests/test_derive_city_pages.py'
+      - 'pipeline/tests/test_scan_city_opportunities.py'
+      - 'pipeline/tests/test_city_opportunity_history.py'
+      - 'pipeline/tests/test_active_city_page_persistence.py'
       - 'app/_city-pages/**'
       - 'app/newcastle/**'
       - 'app/north-east/service-administrator-jobs/page.tsx'
@@ -28,6 +34,7 @@ on:
       - '.github/workflows/run-full-jobg8-daily-process.yml'
       - '.github/workflows/run-service-admin-pipeline.yml'
       - '.github/workflows/run-compiler-module-2.yml'
+      - '.github/workflows/run-city-opportunity-scan.yml'
       - '.github/workflows/publish-verified-pages.yml'
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
@@ -51,9 +58,15 @@ on:
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
       - 'pipeline/scripts/derive_city_pages.py'
+      - 'pipeline/scripts/scan_city_opportunities.py'
+      - 'pipeline/scripts/update_city_opportunity_history.py'
+      - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
       - 'pipeline/tests/test_derive_city_pages.py'
+      - 'pipeline/tests/test_scan_city_opportunities.py'
+      - 'pipeline/tests/test_city_opportunity_history.py'
+      - 'pipeline/tests/test_active_city_page_persistence.py'
       - 'app/_city-pages/**'
       - 'app/newcastle/**'
       - 'app/north-east/service-administrator-jobs/page.tsx'
@@ -65,6 +78,7 @@ on:
       - '.github/workflows/run-full-jobg8-daily-process.yml'
       - '.github/workflows/run-service-admin-pipeline.yml'
       - '.github/workflows/run-compiler-module-2.yml'
+      - '.github/workflows/run-city-opportunity-scan.yml'
       - '.github/workflows/publish-verified-pages.yml'
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
@@ -97,7 +111,10 @@ jobs:
             pipeline/scripts/service_admin_pipeline_coventry.py \
             pipeline/scripts/service_admin_pipeline_north_yorkshire.py \
             pipeline/scripts/jobg8_module_2_live_slices.py \
-            pipeline/scripts/derive_city_pages.py
+            pipeline/scripts/derive_city_pages.py \
+            pipeline/scripts/scan_city_opportunities.py \
+            pipeline/scripts/update_city_opportunity_history.py \
+            pipeline/scripts/maintain_active_city_pages.py
           python -m unittest \
             tests.test_slice_registry \
             tests.test_publish_verified_pages \
@@ -107,16 +124,18 @@ jobs:
             tests.test_module2_live_slices \
             tests.test_north_yorkshire_slice \
             -v
-          python -m unittest discover \
-            -s pipeline/tests \
-            -p 'test_derive_city_pages.py' \
-            -v
+          python -m unittest discover -s pipeline/tests -p 'test_derive_city_pages.py' -v
+          python -m unittest discover -s pipeline/tests -p 'test_scan_city_opportunities.py' -v
+          python -m unittest discover -s pipeline/tests -p 'test_city_opportunity_history.py' -v
+          python -m unittest discover -s pipeline/tests -p 'test_active_city_page_persistence.py' -v
       - name: Confirm current LIVE slices are publishable
         working-directory: pipeline
         run: python -m scripts.publish_verified_pages_north_yorkshire --dry-run
-      - name: Regenerate Newcastle city output
+      - name: Regenerate and persist active city output
         working-directory: pipeline
-        run: python -m scripts.derive_city_pages --publish
+        run: |
+          python -m scripts.derive_city_pages --publish
+          python -m scripts.maintain_active_city_pages
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
