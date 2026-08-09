@@ -1,0 +1,39 @@
+name: Run city opportunity scan
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scanner tests
+        run: python pipeline/tests/test_scan_city_opportunities.py
+
+      - name: Scan all published slices
+        run: |
+          mkdir -p pipeline/reports
+          python pipeline/scripts/scan_city_opportunities.py \
+            --threshold 6 \
+            --near-threshold 4 \
+            --output-json pipeline/reports/city-opportunities.json \
+            | tee pipeline/reports/city-opportunities.md
+
+      - name: Upload city opportunity report
+        uses: actions/upload-artifact@v4
+        with:
+          name: city-opportunity-report
+          path: |
+            pipeline/reports/city-opportunities.json
+            pipeline/reports/city-opportunities.md
