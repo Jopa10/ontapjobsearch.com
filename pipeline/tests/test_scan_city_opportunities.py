@@ -10,7 +10,7 @@ PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 if str(PIPELINE_ROOT) not in sys.path:
     sys.path.insert(0, str(PIPELINE_ROOT))
 
-from scripts.scan_city_opportunities import (
+from scripts.scan_city_opportunities import (  # noqa: E402
     DEFAULT_THRESHOLD,
     discover_published_slices,
     scan_repository,
@@ -34,13 +34,22 @@ class CityOpportunityScanTests(unittest.TestCase):
         region_key: str,
         slice_key: str,
         jobs: list[dict[str, str]],
+        *,
+        route_key: str | None = None,
     ) -> None:
         region = root / "app" / region_key
         region.mkdir(parents=True, exist_ok=True)
         (region / f"{slice_key}.json").write_text(json.dumps(jobs), encoding="utf-8")
-        route = region / slice_key
+        route = region / (route_key or slice_key)
         route.mkdir(parents=True, exist_ok=True)
         (route / "page.tsx").write_text("export default function Page() {}", encoding="utf-8")
+
+    def write_markets(self, root: Path, rows: list[dict[str, object]]) -> None:
+        register = root / "pipeline" / "city_pages"
+        register.mkdir(parents=True, exist_ok=True)
+        (register / "opportunity-market-register.json").write_text(
+            json.dumps(rows), encoding="utf-8"
+        )
 
     def test_default_threshold_is_historical_six(self) -> None:
         self.assertEqual(DEFAULT_THRESHOLD, 6)
@@ -66,6 +75,22 @@ class CityOpportunityScanTests(unittest.TestCase):
                 [("south-yorkshire", "service-administrator-jobs")],
             )
 
+    def test_legacy_jobs_json_can_map_to_suffix_stripped_public_route(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_slice(
+                root,
+                "north-east",
+                "support-worker-jobs",
+                [job("1", "Sunderland", "North East")],
+                route_key="support-worker",
+            )
+            slices = discover_published_slices(root)
+            self.assertEqual(
+                [(item.region_key, item.slice_key) for item in slices],
+                [("north-east", "support-worker-jobs")],
+            )
+
     def test_sheffield_six_qualifies_and_five_is_near(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -80,6 +105,95 @@ class CityOpportunityScanTests(unittest.TestCase):
             }
             self.assertIn(("Sheffield", "QUALIFIES", 6), rows)
             self.assertIn(("Rotherham", "NEAR", 5), rows)
+
+    def test_registered_sussex_markets_are_independent_and_visible_while_building(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_slice(
+                root,
+                "sussex",
+                "service-administrator-jobs",
+                [
+                    job("1", "Brighton", "Sussex"),
+                    job("2", "Hove", "Sussex"),
+                    job("3", "Crawley", "Sussex"),
+                    job("4", "Horsham", "Sussex"),
+                ],
+            )
+            self.write_markets(
+                root,
+                [
+                    {
+                        "region_key": "sussex",
+                        "market_key": "brighton-hove",
+                        "display_name": "Brighton & Hove",
+                        "include_patterns": ["brighton", "hove"],
+                    },
+                    {
+                        "region_key": "sussex",
+                        "market_key": "crawley",
+                        "display_name": "Crawley",
+                        "include_patterns": ["crawley"],
+                    },
+                    {
+                        "region_key": "sussex",
+                        "market_key": "horsham",
+                        "display_name": "Horsham",
+                        "include_patterns": ["horsham"],
+                    },
+                ],
+            )
+
+            result = scan_repository(root)
+            rows = {
+                (row["locality"], row["jobs"], row["status"], row["basis"])
+                for row in result["opportunities"]
+                if row["registered_market"]
+            }
+            self.assertIn(("Brighton & Hove", 2, "BUILDING", "regional-market"), rows)
+            self.assertIn(("Crawley", 1, "BUILDING", "regional-market"), rows)
+            self.assertIn(("Horsham", 1, "BUILDING", "regional-market"), rows)
+
+    def test_same_regional_markets_are_monitored_across_categories(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_slice(
+                root,
+                "north-east",
+                "service-administrator-jobs",
+                [job("a", "Sunderland", "North East")],
+            )
+            self.make_slice(
+                root,
+                "north-east",
+                "support-worker-jobs",
+                [job("b", "Sunderland", "North East")],
+                route_key="support-worker",
+            )
+            self.write_markets(
+                root,
+                [
+                    {
+                        "region_key": "north-east",
+                        "market_key": "sunderland",
+                        "display_name": "Sunderland",
+                        "include_patterns": ["sunderland"],
+                    }
+                ],
+            )
+
+            result = scan_repository(root)
+            sunderland = [
+                row
+                for row in result["opportunities"]
+                if row["locality"] == "Sunderland" and row["registered_market"]
+            ]
+            self.assertEqual(len(sunderland), 2)
+            self.assertEqual({row["slice"] for row in sunderland}, {
+                "service-administrator-jobs",
+                "support-worker-jobs",
+            })
+            self.assertEqual(result["published_slices_scanned"], 2)
 
     def test_scans_multiple_regions_and_categories(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -136,6 +250,7 @@ class CityOpportunityScanTests(unittest.TestCase):
                             "display_name": "Newcastle",
                             "parent_page": "app/north-east/service-administrator-jobs.json",
                             "route": "/newcastle/service-administrator-jobs",
+                            "lifecycle_state": "active",
                             "include_rules": [
                                 {"pattern": "newcastle"},
                                 {"pattern": "gateshead"},
@@ -159,7 +274,7 @@ class CityOpportunityScanTests(unittest.TestCase):
             self.assertEqual(newcastle[0]["basis"], "configured-catchment")
             self.assertFalse(
                 any(
-                    row["basis"] == "exact-location"
+                    row["basis"] == "exact-location-unregistered"
                     and row["locality"]
                     in {"Newcastle", "Newcastle upon Tyne", "Gateshead"}
                     for row in rows
