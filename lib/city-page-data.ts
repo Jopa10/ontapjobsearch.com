@@ -20,8 +20,12 @@ export type CityPageDefinition = {
   route: string;
   listingLabel: string;
   jsonPath: readonly string[];
-  launchMinimumJobs: number;
-  active: boolean;
+  /** Retention gate used by existing navigation/sitemap code. Active pages use 0. */
+  minimumJobs: number;
+  /** Human-approval launch threshold; this does not delist an active page. */
+  launchMinimumJobs?: number;
+  /** Explicit activation is the permanent-page switch. */
+  active?: boolean;
 };
 
 export type ActiveCityPage = {
@@ -34,6 +38,7 @@ export const newcastleServiceAdministratorPage: CityPageDefinition = {
   route: "/newcastle/service-administrator-jobs",
   listingLabel: "Newcastle Admin & Customer Service jobs",
   jsonPath: ["app", "_city-pages", "newcastle", "service-administrator-jobs.json"],
+  minimumJobs: 0,
   launchMinimumJobs: 6,
   active: true,
 };
@@ -73,7 +78,8 @@ export function cityPageContainsJob(
   jobs: CityPageJob[],
   jobId: string
 ): boolean {
-  if (!definition.active) return false;
+  if (definition.active === false) return false;
+  if (definition.active !== true && jobs.length < definition.minimumJobs) return false;
   return jobs.some((job) => job.job_id === jobId);
 }
 
@@ -90,5 +96,7 @@ export function getActiveCityPageForJob(jobId: string): ActiveCityPage | null {
 export function isCityPageActive(
   definition: CityPageDefinition = newcastleServiceAdministratorPage
 ): boolean {
-  return definition.active;
+  if (definition.active === true) return true;
+  if (definition.active === false) return false;
+  return getCityPageJobs(definition).length >= definition.minimumJobs;
 }
