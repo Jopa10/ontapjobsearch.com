@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,2427
-total rows included,77
+total rows included,84
 total rows dropped,2334
 title classification count - HIGH_CONFIDENCE,235
 title classification count - ELASTIC_FIT,42
@@ -8,13 +8,13 @@ title classification count - REVIEW_CONTEXT_DEPENDENT,0
 title classification count - HARD_PASS,1431
 title classification count - OUT_OF_SCOPE,719
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - West,4
+selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - West,5
 high confidence count - Yorkshire - West,4
 anchor elastic count - Yorkshire - West,0
 other elastic count - Yorkshire - West,0
-total rows output - Yorkshire - West,4
-job_id included - Yorkshire - West,ea7b8167-e326-4990-b4be-25a564037ae6; a16c651f-9130-4ce3-ac9d-34ca82f1c9ae; fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
+total rows output - Yorkshire - West,5
+job_id included - Yorkshire - West,00f003e0-65d1-48b6-86b7-36a6c34dfcb5; ea7b8167-e326-4990-b4be-25a564037ae6; a16c651f-9130-4ce3-ac9d-34ca82f1c9ae; fd387b6d-bd12-42df-b80e-63b0c3763922; 9334c81f-29de-4db5-8094-52bdf13c7291
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - South,3
@@ -31,14 +31,14 @@ anchor elastic count - North East,2
 other elastic count - North East,0
 total rows output - North East,7
 job_id included - North East,74b2edbd-f145-42de-bca5-93f37ec0bca2; fc295d6b-6c54-413b-8ca1-0bef809a8273; eafa8287-56b3-4ecd-a9bc-8fb95aa554c4; e12fcfe3-076c-47be-a30c-227026a13277; 646b596c-525f-4641-9329-03f131b59e32; da318476-2716-4dc4-96fa-7984b2a0a789; ce8acedc-578a-43b6-8458-482944e0ad7e
-selection scenario - London,SCENARIO_3_FULL_VALID_SELECTION
-selection message - London,"London selection complete: all 25 valid selected role(s) retained after HIGH_CONFIDENCE, London ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - London,25
+selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - London,London manual_select applied additively: 3 row(s) prioritised; 28 selected.
+credible total - London,28
 high confidence count - London,23
 anchor elastic count - London,1
 other elastic count - London,1
-total rows output - London,25
-job_id included - London,887c5040-e943-4083-a032-078f4ad1afab; 41ccb3b9-b591-4166-9a51-b814198b9789; c95dcc3a-aebc-4fba-850a-1e423f93872d; 3089d153-b3c0-41e1-bbaa-b8cca9114a3d; 9cdf12fd-28b1-40b5-a215-7aad372778b1; 50305aa1-cd45-4fbf-9d3c-0396d942139e; b801c68f-5b19-482e-988a-f1d7c5338961; 8a0de7c0-a4cc-4781-a44b-9c6f74460d73; 5a534179-7cff-416a-b14c-b5f1f11b907c; 01257d43-ab3d-4a80-a4b6-86892e362251; e0a800a7-bcbd-4cad-8a96-decf3e7a07ba; d4000791-6f57-45b5-b179-616cd9975d10; cb213c52-3054-4831-b72e-231906077e8c; e9f8f0b3-dd75-4d84-babb-80db551a23ff; 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30; a70e79c2-8d85-4835-9ffb-ec6d2d70d149; 21618_20364_2845; 1645274; d80effd1-f790-46d0-942e-27c2de0d6305; d69e19ea-b3b2-4f7a-82d4-8951559590c8; a65fdabc-6bc9-40ee-9a53-499a14c95c4a; 9c0c3f0a-26d6-4bc3-a84e-17e102e59614; f2ecb257-e92d-466a-bc1a-9ba3f035fc23; 1645224; 21618_20364_2854
+total rows output - London,28
+job_id included - London,93b52fa5-a49e-4152-8cf7-b95706117e4f; 887c5040-e943-4083-a032-078f4ad1afab; 41ccb3b9-b591-4166-9a51-b814198b9789; c95dcc3a-aebc-4fba-850a-1e423f93872d; 3089d153-b3c0-41e1-bbaa-b8cca9114a3d; 9cdf12fd-28b1-40b5-a215-7aad372778b1; 50305aa1-cd45-4fbf-9d3c-0396d942139e; b801c68f-5b19-482e-988a-f1d7c5338961; 8a0de7c0-a4cc-4781-a44b-9c6f74460d73; 5a534179-7cff-416a-b14c-b5f1f11b907c; 01257d43-ab3d-4a80-a4b6-86892e362251; e0a800a7-bcbd-4cad-8a96-decf3e7a07ba; d4000791-6f57-45b5-b179-616cd9975d10; cb213c52-3054-4831-b72e-231906077e8c; e9f8f0b3-dd75-4d84-babb-80db551a23ff; 0dc6499b-e4fa-4f41-8bb5-2276ba6f9e30; a70e79c2-8d85-4835-9ffb-ec6d2d70d149; 21618_20364_2845; 1645274; c17b478b-b263-4cf0-bc94-62e97f51f46e; 2f01765c-5705-43c3-8e7b-12bf4fdd75d5; d80effd1-f790-46d0-942e-27c2de0d6305; d69e19ea-b3b2-4f7a-82d4-8951559590c8; a65fdabc-6bc9-40ee-9a53-499a14c95c4a; 9c0c3f0a-26d6-4bc3-a84e-17e102e59614; f2ecb257-e92d-466a-bc1a-9ba3f035fc23; 1645224; 21618_20364_2854
 selection scenario - Hampshire,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Hampshire,"Hampshire selection complete: all 10 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Hampshire,10
@@ -63,14 +63,14 @@ anchor elastic count - Kent,0
 other elastic count - Kent,1
 total rows output - Kent,3
 job_id included - Kent,1eeca110-4bfa-4f50-b7e3-a83fe57a3242; 6b598b1d-4b4d-4cb8-8645-64c446a8ae26; 900e2fad-e172-4801-908f-64a7b0d2064e
-selection scenario - Sussex,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Sussex,"Sussex selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Brighton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Sussex,9
+selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 10 selected.
+credible total - Sussex,10
 high confidence count - Sussex,8
 anchor elastic count - Sussex,0
 other elastic count - Sussex,1
-total rows output - Sussex,9
-job_id included - Sussex,8dfd4428-944d-4205-9e14-933991d5c6b1; 4ad5e9da-41c3-491f-b09c-d514f4ec0572; 107683890; 82bb3321-7a87-4132-a724-6675c900740a; 5acdf7ea-d9f5-44a4-80fa-9921c8d713d1; 02105912-ef82-4655-8db1-021718e86c92; 18ff30b5-3cdf-40e4-891b-cbed54aee5aa; 54562293-eac1-4a4a-9ade-2cf6dc8f2819; deebf7d4-f859-450f-8762-ca06bf59a65d
+total rows output - Sussex,10
+job_id included - Sussex,8dfd4428-944d-4205-9e14-933991d5c6b1; 73c27096-8e4a-4bbb-8a13-773dcdd66a6c; 4ad5e9da-41c3-491f-b09c-d514f4ec0572; 107683890; 82bb3321-7a87-4132-a724-6675c900740a; 5acdf7ea-d9f5-44a4-80fa-9921c8d713d1; 02105912-ef82-4655-8db1-021718e86c92; 18ff30b5-3cdf-40e4-891b-cbed54aee5aa; 54562293-eac1-4a4a-9ade-2cf6dc8f2819; deebf7d4-f859-450f-8762-ca06bf59a65d
 selection scenario - West Midlands - Coventry & Warwickshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - West Midlands - Coventry & Warwickshire,West Midlands - Coventry & Warwickshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - West Midlands - Coventry & Warwickshire,5
@@ -80,10 +80,10 @@ other elastic count - West Midlands - Coventry & Warwickshire,1
 total rows output - West Midlands - Coventry & Warwickshire,5
 job_id included - West Midlands - Coventry & Warwickshire,dfd7d156-9a1c-4512-9b81-e6446c2d5571; 107608137; 9bccef77-3de5-4082-92cc-aefc7bf20d50; 298c6500-8008-4a5a-aff7-1c4e84c95e8f; 107807876
 selection scenario - Yorkshire - North,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - North,Yorkshire - North selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - North,2
+selection message - Yorkshire - North,Yorkshire - North selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - North,4
 high confidence count - Yorkshire - North,2
 anchor elastic count - Yorkshire - North,0
 other elastic count - Yorkshire - North,0
-total rows output - Yorkshire - North,2
-job_id included - Yorkshire - North,f88af6c0-26e6-4934-a4f2-b3be470d8edf; 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
+total rows output - Yorkshire - North,4
+job_id included - Yorkshire - North,c73aa678-7d7d-4684-8b42-f95464109197; 0a779989-1a72-441c-81a0-9d7c9963e287; f88af6c0-26e6-4934-a4f2-b3be470d8edf; 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
