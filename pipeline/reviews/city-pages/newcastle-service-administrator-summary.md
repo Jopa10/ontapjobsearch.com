@@ -3,8 +3,8 @@
 - Parent regional page: `app/north-east/service-administrator-jobs.json`
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
-- Minimum live-job threshold: 8
-- Effective included jobs: 12
+- Minimum live-job threshold: 6
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 3
-- automatic exclude: 11
-- effective include: 12
+- automatic exclude: 8
+- effective include: 11
 - effective review: 0
-- effective exclude: 12
+- effective exclude: 9
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: The broad North East location needs evidence that Newcastle residents ar
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist & Administrator (HR / School)
-company: Talbot House Children's Charity
-location: Newcastle upon Tyne
-source: NEJobs
-job_id: nejobs-299953
-reason: The stated workplace is Newcastle or explicitly includes Newcastle.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Administrator
 company: Pertemps Scotland Temps - Agency - Temporary
 location: Newcastle Upon Tyne
@@ -170,7 +158,7 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 
 ## REVIEW (0)
 
-## EXCLUDE (12)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -182,18 +170,6 @@ location: St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED
 source: NEJobs
 job_id: nejobs-300098
 reason: Bedlington is outside the agreed Newcastle city-page catchment.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Durham County Council
-location: Meadowfield Depot, Durham (hybrid working options available)
-source: NEJobs
-job_id: nejobs-299480
-reason: Durham belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
@@ -236,18 +212,6 @@ reason: Sunderland belongs to a separate employment area from the Newcastle city
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer (Level 1)
-company: Darlington Borough Council
-location: Town Hall
-source: NEJobs
-job_id: nejobs-299898
-reason: Darlington belongs to a separate employment area from the Newcastle city page.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: Hartlepool Borough Council
 location: Highlight Active Wellbeing Hub
@@ -266,18 +230,6 @@ location: Darlington Borough Council
 source: NEJobs
 job_id: nejobs-300044
 reason: Darlington belongs to a separate employment area from the Newcastle city page.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist and Events Co-ordinator at the Sjovoll Centre
-company: Framwellgate School Durham
-location: Framwellgate School Durham
-source: NEJobs
-job_id: nejobs-299718
-reason: Durham belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
