@@ -1,13 +1,14 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-08-10,SELECTED,Yorkshire - West,Residential Support Worker,Huddersfield,£27976 per year (+£60 per sleep-in)),,,1401783851
 2026-08-10,SELECTED,Yorkshire - West,Complex care assistant,Holmfirth,£29350 per year,,,107651994
+2026-08-10,SELECTED,Yorkshire - West,Complex Care Assistant,Huddersfield,£14.24 - £16 per hour (+ INC holiday pay),,1,107728806
+2026-08-10,SELECTED,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,1,107728647
 2026-08-10,SELECTED,Yorkshire - West,Children's Residential Support Worker,Wakefield,"£3,840 per year",,,25362_JR104910
 2026-08-10,SELECTED,Yorkshire - West,Children's Residential Support Worker,Bradford,"£3,840 per year",,,25362_JR104865
 2026-08-10,POSS - YORKSHIRE - WEST,Yorkshire - West,Live-in Personal Care Assistant - History and Sociology Student,Leeds,£170 per daily,,,107751768
-2026-08-10,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Huddersfield,£14.24 - £16 per hour (+ INC holiday pay),,,107728806
-2026-08-10,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,,107728647
+2026-08-10,SELECTED,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,1,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
 2026-08-10,SELECTED,Yorkshire - South,Hourly Care Assistant to Journalism Studies Uni student,Sheffield,£15 per hour,,,107798506
-2026-08-10,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Support Worker ( Female Only ),Sheffield,£14.16 - £16.22 per hour,,,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+2026-08-10,SELECTED,"North East - Tyneside, Wearside & Northumberland",Children Crisis Support Worker - Waking Nights,Gateshead,£17.50-£24.00 per hour,,1,05843b40-34ac-40a5-8f4c-e146dd6988e1
 2026-08-10,SELECTED,"North East - Tyneside, Wearside & Northumberland",Male Support Worker,Whitley Bay,£15 per hour,,,35ef02dd-6e8a-4d5a-a1af-bacca950305f
 2026-08-10,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex care assistant,Newcastle Upon Tyne,£29350 per year,,,107616541
 2026-08-10,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Ashington,£13.21 per hour,,,9b0995dd-b5e5-433f-b113-8a55acf6d8cd
@@ -20,7 +21,6 @@
 2026-08-10,SELECTED,North East - County Durham & Darlington/Hartlepool,Children's Residential Support Worker,Hartlepool,"£3,840 per year",,,25362_JR104883-1
 2026-08-10,SELECTED,North East - County Durham & Darlington/Hartlepool,Children's Residential Support Worker,Durham,"£3,840 per year",,,25362_JR104883-1-1908a03149bfe006218cbce2dd812797
 2026-08-10,SELECTED,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Crook,£14.24 per hour (+ Including holiday pay),,,107781117
-2026-08-10,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Children Crisis Support Worker - Waking Nights,Gateshead,£17.50-£24.00 per hour,,,05843b40-34ac-40a5-8f4c-e146dd6988e1
 2026-08-10,SELECTED,Sussex,Residential Support Worker,Lewes,£29390.4 - £30056 per year (+ £60 per sleep-in)),,,1401783835
 2026-08-10,SELECTED,Sussex,Support Worker,Bognor Regis,£12.71 - £13.57 per hour,,,2ed3e16f-b49e-444d-be95-42cbbb537763
 2026-08-10,SELECTED,Sussex,Care Assistant - Care Home,Chichester,£13.21 per hour,,,b045cd0a-82e7-4208-8161-9940e9e8f7c7
@@ -30,8 +30,8 @@
 2026-08-10,SELECTED,Sussex,Female Support Worker,Peacehaven,£16.5 per hour (Benefits + holiday pay),,,107681556
 2026-08-10,SELECTED,Sussex,Female Support Worker,Brighton,£14.4 per hour,,,107693840
 2026-08-10,SELECTED,Sussex,Care Assistant,Littlehampton,£13.45 per hour,,,107605050
+2026-08-10,SELECTED,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,1,107641522
 2026-08-10,SELECTED,Sussex,Complex Care Assistant,Chichester,£15.4 - £17.6 per hour,,,107812909
-2026-08-10,POSS - SUSSEX,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,,107641522
 2026-08-10,SELECTED,Cumbria - South,Waking Night Support Worker (Part Time),Barrow-in-furness,£12.85 per hour,,,107789321
 2026-08-10,SELECTED,Cumbria - South,Relief Support Worker,Barrow-in-furness,£12.85 per hour (plus rolled up holiday pay),,,107800894
 2026-08-10,SELECTED,Cumbria - South,Support Worker,Ulverston,£12.85 per hour,,,107800914
@@ -45,6 +45,8 @@
 2026-08-10,SELECTED,Hampshire,Domiciliary Care Assistant,Andover,£13 - £15 per hour (Salary Dependent on experience),,,107404020
 2026-08-10,SELECTED,Hampshire,Night Care Assistant,Southampton,£13.81 per hour,,,2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4
 2026-08-10,SELECTED,Hampshire,Care Assistant - Bank - Care Home,Ringwood,£16.47 per hour,,,c4b882e9-0d0f-433e-820e-ed014114370d
+2026-08-10,SELECTED,Hampshire,Child Support Worker,Portsmouth,£16 - £18 per hour,,1,62ac8011-cb52-461e-bd72-7273b61cb640
+2026-08-10,SELECTED,Hampshire,Support Worker - Children & Young People,Southampton,£16 - £18 per hour,,1,58c3e926-cf9b-4aae-a931-e1c867a7b221
 2026-08-10,SELECTED,Hampshire,Care Assistant,Ryde,£12.8 per hour,,,107586326
 2026-08-10,SELECTED,Hampshire,Female Support Worker,Tadley,£24000 per year,,,107739683
 2026-08-10,SELECTED,Hampshire,Care Assistant,Ryde,£12.8 per hour,,,107586313
@@ -60,6 +62,4 @@
 2026-08-10,SELECTED,Hampshire,Female Waking Night Support Worker,Tadley,£13.2 per hour,,,107812604
 2026-08-10,SELECTED,Hampshire,Children's Home Support Worker,Fareham,£27780 - £30564 per year,,,1401784414
 2026-08-10,SELECTED,Hampshire,Care Assistant (Older Adults),Emsworth,£25186 - £26244 per year,,,1401784339
-2026-08-10,POSS - HAMPSHIRE,Hampshire,Support Worker - Children & Young People,Southampton,£16 - £18 per hour,,,58c3e926-cf9b-4aae-a931-e1c867a7b221
-2026-08-10,POSS - HAMPSHIRE,Hampshire,Child Support Worker,Portsmouth,£16 - £18 per hour,,,62ac8011-cb52-461e-bd72-7273b61cb640
 2026-08-10,POSS - HAMPSHIRE,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401784261
