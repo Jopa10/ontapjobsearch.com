@@ -17,9 +17,12 @@ export type CityPageJob = {
 
 export type CityPageDefinition = {
   key: string;
+  displayName: string;
+  categoryLabel: string;
   route: string;
   listingLabel: string;
   jsonPath: readonly string[];
+  parentRoute: string;
   /** Retention gate used by existing navigation/sitemap code. Active pages use 0. */
   minimumJobs: number;
   /** Human-approval launch threshold; this does not delist an active page. */
@@ -33,19 +36,109 @@ export type ActiveCityPage = {
   jobs: CityPageJob[];
 };
 
-export const newcastleServiceAdministratorPage: CityPageDefinition = {
+type TechnicalCityPage = {
+  city_key?: unknown;
+  display_name?: unknown;
+  category_label?: unknown;
+  parent_page?: unknown;
+  output_json?: unknown;
+  route?: unknown;
+  minimum_live_jobs?: unknown;
+  launch_minimum_live_jobs?: unknown;
+  lifecycle_state?: unknown;
+};
+
+function usableText(value: unknown): value is string {
+  return typeof value === "string" && Boolean(value.trim());
+}
+
+function parentRouteFromPage(value: string): string {
+  let route = `/${value.replace(/^app\//, "").replace(/\.json$/, "")}`;
+  if (route.endsWith("/support-worker-jobs")) route = route.replace(/-jobs$/, "");
+  return route;
+}
+
+function definitionFromTechnical(row: TechnicalCityPage): CityPageDefinition | null {
+  if (
+    !usableText(row.city_key) ||
+    !usableText(row.display_name) ||
+    !usableText(row.category_label) ||
+    !usableText(row.parent_page) ||
+    !usableText(row.output_json) ||
+    !usableText(row.route)
+  ) {
+    return null;
+  }
+
+  const active = row.lifecycle_state === "active";
+  const launchMinimumJobs =
+    typeof row.launch_minimum_live_jobs === "number"
+      ? row.launch_minimum_live_jobs
+      : typeof row.minimum_live_jobs === "number"
+        ? row.minimum_live_jobs
+        : 6;
+
+  return {
+    key: row.city_key,
+    displayName: row.display_name,
+    categoryLabel: row.category_label,
+    route: row.route,
+    listingLabel: `${row.display_name} ${row.category_label}`,
+    jsonPath: row.output_json.split("/").filter(Boolean),
+    parentRoute: parentRouteFromPage(row.parent_page),
+    minimumJobs: active ? 0 : launchMinimumJobs,
+    launchMinimumJobs,
+    active,
+  };
+}
+
+function loadCityPageDefinitions(): CityPageDefinition[] {
+  const registerPath = path.join(
+    process.cwd(),
+    "pipeline",
+    "city_pages",
+    "city-page-register.json"
+  );
+  if (!fs.existsSync(registerPath)) return [];
+
+  try {
+    const parsed: unknown = JSON.parse(fs.readFileSync(registerPath, "utf8"));
+    if (!Array.isArray(parsed)) return [];
+    return parsed
+      .filter((row): row is TechnicalCityPage => Boolean(row && typeof row === "object"))
+      .map(definitionFromTechnical)
+      .filter((row): row is CityPageDefinition => Boolean(row));
+  } catch {
+    return [];
+  }
+}
+
+const legacyNewcastleFallback: CityPageDefinition = {
   key: "newcastle-service-administrator",
+  displayName: "Newcastle",
+  categoryLabel: "admin and customer-service jobs",
   route: "/newcastle/service-administrator-jobs",
   listingLabel: "Newcastle Admin & Customer Service jobs",
   jsonPath: ["app", "_city-pages", "newcastle", "service-administrator-jobs.json"],
+  parentRoute: "/north-east/service-administrator-jobs",
   minimumJobs: 0,
   launchMinimumJobs: 6,
   active: true,
 };
 
-export const cityPageDefinitions: readonly CityPageDefinition[] = [
-  newcastleServiceAdministratorPage,
-];
+const loadedDefinitions = loadCityPageDefinitions();
+
+export const cityPageDefinitions: readonly CityPageDefinition[] = loadedDefinitions.length
+  ? loadedDefinitions
+  : [legacyNewcastleFallback];
+
+export const newcastleServiceAdministratorPage: CityPageDefinition =
+  cityPageDefinitions.find((row) => row.key === "newcastle-service-administrator") ||
+  legacyNewcastleFallback;
+
+export function getCityPageDefinitionByRoute(route: string): CityPageDefinition | null {
+  return cityPageDefinitions.find((definition) => definition.route === route) || null;
+}
 
 function usableJob(value: unknown): value is CityPageJob {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
