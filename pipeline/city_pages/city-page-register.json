@@ -85,5 +85,238 @@
     ],
     "fallback_decision": "review",
     "fallback_reason": "No Newcastle catchment rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "southampton-support-worker",
+    "display_name": "Southampton",
+    "category_label": "support worker jobs",
+    "parent_page": "app/hampshire/support-worker.json",
+    "review_csv": "pipeline/reviews/city-pages/southampton-support-worker-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/southampton-support-worker-summary.md",
+    "output_json": "app/_city-pages/southampton/support-worker.json",
+    "route": "/southampton/support-worker",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "include_rules": [
+      {
+        "pattern": "southampton",
+        "reason": "The stated workplace matches the approved Southampton employment-market pattern `southampton`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "hampshire",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "portsmouth",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "basingstoke",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "winchester",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "eastleigh",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "farnborough",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "aldershot",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "andover",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "fareham",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Southampton employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "sheffield-service-administrator-jobs",
+    "display_name": "Sheffield",
+    "category_label": "admin and customer-service jobs",
+    "parent_page": "app/south-yorkshire/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/sheffield-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/sheffield-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/sheffield/service-administrator-jobs.json",
+    "route": "/sheffield/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "include_rules": [
+      {
+        "pattern": "sheffield",
+        "reason": "The stated workplace matches the approved Sheffield employment-market pattern `sheffield`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "south yorkshire",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Sheffield employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "rotherham",
+        "reason": "The stated workplace belongs outside the approved Sheffield employment market."
+      },
+      {
+        "pattern": "barnsley",
+        "reason": "The stated workplace belongs outside the approved Sheffield employment market."
+      },
+      {
+        "pattern": "doncaster",
+        "reason": "The stated workplace belongs outside the approved Sheffield employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Sheffield employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "leeds-service-administrator-jobs",
+    "display_name": "Leeds",
+    "category_label": "admin and customer-service jobs",
+    "parent_page": "app/west-yorkshire/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/leeds-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/leeds-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/leeds/service-administrator-jobs.json",
+    "route": "/leeds/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "include_rules": [
+      {
+        "pattern": "leeds",
+        "reason": "The stated workplace matches the approved Leeds employment-market pattern `leeds`."
+      },
+      {
+        "pattern": "pudsey",
+        "reason": "The stated workplace matches the approved Leeds employment-market pattern `pudsey`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "west yorkshire",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Leeds employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "bradford",
+        "reason": "The stated workplace belongs outside the approved Leeds employment market."
+      },
+      {
+        "pattern": "huddersfield",
+        "reason": "The stated workplace belongs outside the approved Leeds employment market."
+      },
+      {
+        "pattern": "wakefield",
+        "reason": "The stated workplace belongs outside the approved Leeds employment market."
+      },
+      {
+        "pattern": "halifax",
+        "reason": "The stated workplace belongs outside the approved Leeds employment market."
+      },
+      {
+        "pattern": "dewsbury",
+        "reason": "The stated workplace belongs outside the approved Leeds employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Leeds employment-market rule matched the stated location; local geographic review is required."
   }
 ]
