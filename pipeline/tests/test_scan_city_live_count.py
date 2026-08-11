@@ -101,7 +101,7 @@ class ActiveCityCountTests(unittest.TestCase):
 
             self.assertEqual(newcastle["jobs"], 8)
             self.assertEqual(newcastle["status"], "LIVE")
-            self.assertEqual(newcastle["basis"], "active-city-json")
+            self.assertEqual(newcastle["basis"], "configured-catchment")
 
 
 if __name__ == "__main__":

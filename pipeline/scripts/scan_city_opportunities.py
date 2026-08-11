@@ -408,9 +408,9 @@ def scan_repository(
                     active_city_jobs(repo_root, configured_match) if active else None
                 )
                 included = live_included if live_included is not None else automatic_included
-                basis = (
-                    "active-city-json" if live_included is not None else "configured-catchment"
-                )
+                # `basis` is the stable candidate identity used by history. The
+                # live city JSON can supply the count without changing that identity.
+                basis = "configured-catchment"
                 route = configured_match.route if active else ""
                 used_configured.add(normalise(configured_match.display_name))
                 claim_sources = automatic_included + included
@@ -479,11 +479,7 @@ def scan_repository(
                         live=active,
                         registered_market=True,
                     ),
-                    basis=(
-                        "active-city-json"
-                        if live_included is not None
-                        else "configured-catchment"
-                    ),
+                    basis="configured-catchment",
                     parent_json=str(parent),
                     existing_route=catchment.route if active else "",
                     active=active,

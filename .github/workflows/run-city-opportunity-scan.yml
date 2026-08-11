@@ -27,6 +27,7 @@ jobs:
         working-directory: pipeline
         run: |
           python -m unittest discover -s tests -p 'test_scan_city_opportunities.py' -v
+          python -m unittest discover -s tests -p 'test_scan_city_live_count.py' -v
           python -m unittest discover -s tests -p 'test_city_opportunity_history.py' -v
 
       - name: Scan all published slices
