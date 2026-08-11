@@ -1,13 +1,13 @@
 Month: 2026-08
 Input directory: input-jobg8-archive/2026-08
-Valid feed days: 6
+Valid feed days: 11
 First feed day: 2026-08-01
-Last feed day: 2026-08-06
-Selected register-expanded job rows: 1887
+Last feed day: 2026-08-11
+Selected register-expanded job rows: 4486
 Geo lookup: geo/geo_lookup.xlsx
 Geo areas loaded: 1198
 AUTO location fallbacks loaded: 41
-Rows assigned by location fallback: 89
+Rows assigned by location fallback: 288
 Classification mode: register-only
 Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT
 North East published page: aggregated from three geo_lookup regions
