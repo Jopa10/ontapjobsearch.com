@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
+  cityPageDefinitions,
   getCityPageJobs,
-  newcastleServiceAdministratorPage,
+  isCityPageActive,
 } from '@/lib/city-page-data';
 import {
   getJobPath,
@@ -63,6 +64,22 @@ function withCounts(
   return routes
     .map((route) => ({ ...route, count: countBySlice(jobs, route.href) }))
     .filter((route) => route.count > 0);
+}
+
+function activeCityLinks(kind: 'admin' | 'support'): RegionLink[] {
+  return cityPageDefinitions
+    .filter((definition) => isCityPageActive(definition))
+    .filter((definition) =>
+      kind === 'admin'
+        ? definition.parentRoute.endsWith('/service-administrator-jobs')
+        : definition.parentRoute.endsWith('/support-worker')
+    )
+    .map((definition) => ({
+      label: definition.displayName,
+      href: definition.route,
+      count: getCityPageJobs(definition).length,
+    }))
+    .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
 function SearchPanel({ totalJobs }: { totalJobs: number }) {
@@ -201,18 +218,11 @@ function CurrentJobCard({ job }: { job: PublishedJob }) {
 
 export default function Page() {
   const jobs = getPublishedJobs();
-  const adminRegions = withCounts(jobs, adminRegionRoutes);
-  const supportWorkerRegions = withCounts(jobs, supportWorkerRoutes);
-  const newcastleJobs = getCityPageJobs(newcastleServiceAdministratorPage);
-
-  if (newcastleJobs.length >= newcastleServiceAdministratorPage.minimumJobs) {
-    adminRegions.splice(1, 0, {
-      label: 'Newcastle',
-      href: newcastleServiceAdministratorPage.route,
-      count: newcastleJobs.length,
-    });
-  }
-
+  const adminRegions = [...activeCityLinks('admin'), ...withCounts(jobs, adminRegionRoutes)];
+  const supportWorkerRegions = [
+    ...activeCityLinks('support'),
+    ...withCounts(jobs, supportWorkerRoutes),
+  ];
   const currentJobs = jobs.slice(0, 4);
 
   return (
@@ -281,14 +291,14 @@ export default function Page() {
                   <h3 className="text-lg font-semibold text-gray-900">
                     Admin, office support & customer service
                   </h3>
-                  <p className="mt-0.5 text-sm text-gray-600">Current regional job pages</p>
+                  <p className="mt-0.5 text-sm text-gray-600">Current city and regional job pages</p>
                 </div>
                 {adminRegions.length > 0 ? <RegionGrid regions={adminRegions} /> : null}
               </div>
 
               <div id="support-worker-regions" className="rounded-xl border border-gray-200 bg-white p-3.5 sm:p-4">
                 <h3 className="text-lg font-semibold text-gray-900">Support worker jobs</h3>
-                <p className="mt-0.5 text-sm text-gray-600">Current regional supply</p>
+                <p className="mt-0.5 text-sm text-gray-600">Current city and regional supply</p>
                 <div className="mt-3 grid gap-1.5">
                   {supportWorkerRegions.map((region) => (
                     <Link

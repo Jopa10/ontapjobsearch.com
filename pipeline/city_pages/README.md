@@ -4,9 +4,9 @@ City pages are derived geographic views of final approved regional pages. They a
 
 The flow is:
 
-`source feeds -> regional selection/composition -> verified regional app JSON -> city opportunity history -> explicit approval -> active city page`
+`source feeds -> regional selection/composition -> verified regional app JSON -> city opportunity history -> human approval review -> active city page`
 
-The common derivation engine is `pipeline/scripts/derive_city_pages.py`. Each approved city has its own configuration in `city-page-register.json`, including:
+The common derivation engine is `pipeline/scripts/derive_city_pages.py`. Each approved city has its own technical configuration in `city-page-register.json`, including:
 
 - the parent regional page;
 - city-specific include, review and exclude location rules;
@@ -15,6 +15,8 @@ The common derivation engine is `pipeline/scripts/derive_city_pages.py`. Each ap
 - the six-job launch threshold;
 - explicit `lifecycle_state: active` approval; and
 - review-output paths.
+
+The technical register is generated for new approvals and is not the normal human editing surface.
 
 ## Regional opportunity markets
 
@@ -30,7 +32,16 @@ Registered markets with one to three current jobs appear as **BUILDING**. Four o
 
 `pipeline/scripts/scan_city_opportunities.py` discovers possible city/locality splits across all published regional/category slices. `pipeline/scripts/update_city_opportunity_history.py` records the last seven verified-publish pipeline runs. A candidate becomes **READY FOR APPROVAL** only when it has at least six qualifying live jobs on at least three of those seven runs and still has at least six jobs now.
 
-READY FOR APPROVAL never publishes automatically. A city becomes live only after an explicit human decision to promote it: add the approved configuration/route and mark the register entry `lifecycle_state: active`.
+READY FOR APPROVAL never publishes automatically. READY cities are written to:
+
+`pipeline/reviews/city-pages/city-page-approval-review.md`
+
+For the human approval step, edit only the `action:` line in the relevant city block:
+
+- `action: approve` = launch the city page;
+- blank `action:` = hold it.
+
+When that approval file is committed, `pipeline/scripts/manage_city_page_approvals.py` validates the candidate against the current registered market, generates the technical city configuration and route, and the city derivation pipeline writes the live city JSON. Future approved cities use the same generic process; they do not require city-specific code wiring.
 
 Newcastle admin and customer-service jobs is the first active city page. Its launch threshold is six jobs.
 

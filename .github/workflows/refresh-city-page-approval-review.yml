@@ -1,0 +1,48 @@
+name: Refresh city page approval review
+
+on:
+  workflow_run:
+    workflows:
+      - Publish verified pages
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test approval review manager
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_manage_city_page_approvals.py' -v
+
+      - name: Refresh READY city approval review
+        working-directory: pipeline
+        run: python -m scripts.manage_city_page_approvals --refresh
+
+      - name: Commit approval review when changed
+        run: |
+          set -euo pipefail
+          git add pipeline/reviews/city-pages/city-page-approval-review.md
+          if git diff --cached --quiet; then
+            echo "City page approval review unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh city page approval review"
+          git push origin main

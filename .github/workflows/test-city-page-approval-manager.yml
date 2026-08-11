@@ -1,0 +1,48 @@
+name: Test city page approval manager
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/scripts/manage_city_page_approvals.py"
+      - "pipeline/tests/test_manage_city_page_approvals.py"
+      - "pipeline/reviews/city-pages/city-page-approval-review.md"
+      - "pipeline/city_pages/README.md"
+      - "lib/city-page-data.ts"
+      - "app/page.tsx"
+      - "app/browse-jobs/page.tsx"
+      - "app/sitemap.ts"
+      - ".github/workflows/apply-city-page-approvals.yml"
+      - ".github/workflows/refresh-city-page-approval-review.yml"
+      - ".github/workflows/test-city-page-approval-manager.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile approval manager
+        run: python -m py_compile pipeline/scripts/manage_city_page_approvals.py
+      - name: Run approval manager tests
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_manage_city_page_approvals.py' -v
+      - name: Exercise current READY approvals without committing them
+        run: |
+          sed -i 's/^action: *$/action: approve/' pipeline/reviews/city-pages/city-page-approval-review.md
+          cd pipeline
+          python -m scripts.manage_city_page_approvals --apply
+          python -m scripts.derive_city_pages --publish
+          python -m scripts.maintain_active_city_pages
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install frontend dependencies
+        run: npm ci
+      - name: Build Next.js site with generated city routes
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/ontap_ci
+        run: npm run build

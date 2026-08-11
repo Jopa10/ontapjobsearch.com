@@ -1,0 +1,64 @@
+name: Apply city page approvals
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "pipeline/reviews/city-pages/city-page-approval-review.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test city approval and derivation lifecycle
+        working-directory: pipeline
+        run: |
+          python -m unittest discover -s tests -p 'test_manage_city_page_approvals.py' -v
+          python -m unittest discover -s tests -p 'test_derive_city_pages.py' -v
+          python -m unittest discover -s tests -p 'test_active_city_page_persistence.py' -v
+
+      - name: Apply explicit city approvals
+        working-directory: pipeline
+        run: python -m scripts.manage_city_page_approvals --apply
+
+      - name: Derive approved city pages
+        working-directory: pipeline
+        run: python -m scripts.derive_city_pages --publish
+
+      - name: Enforce permanent active city pages
+        working-directory: pipeline
+        run: python -m scripts.maintain_active_city_pages
+
+      - name: Commit promoted city pages
+        run: |
+          set -euo pipefail
+          git add -A -- \
+            pipeline/city_pages/city-page-register.json \
+            pipeline/reviews/city-pages \
+            app/_city-pages \
+            app/*/*/page.tsx
+
+          if git diff --cached --quiet; then
+            echo "No new city page approvals to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Promote approved city pages"
+          git push origin main

@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next'
 import {
+  cityPageDefinitions,
   getCityPageJobs,
-  newcastleServiceAdministratorPage,
+  isCityPageActive,
 } from '@/lib/city-page-data'
 import { getJobPath, getPublishedJobs } from '@/lib/published-jobs'
 
@@ -35,32 +36,36 @@ const baseRoutes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const jobs = getPublishedJobs()
-  const cityJobs = getCityPageJobs(newcastleServiceAdministratorPage)
-  const cityIsActive = cityJobs.length >= newcastleServiceAdministratorPage.minimumJobs
-  const routes = cityIsActive
-    ? [...baseRoutes, newcastleServiceAdministratorPage.route]
-    : baseRoutes
+  const activeCities = cityPageDefinitions
+    .filter((definition) => isCityPageActive(definition))
+    .map((definition) => ({ definition, jobs: getCityPageJobs(definition) }))
+  const cityRoutes = activeCities.map(({ definition }) => definition.route)
+  const routes = [...baseRoutes, ...cityRoutes.filter((route) => !baseRoutes.includes(route))]
 
   const dates = jobs
     .map((job) => dateFrom(job.posted_date))
     .filter((date): date is Date => Boolean(date))
-  const cityDates = cityJobs
-    .map((job) => dateFrom(typeof job.posted_date === 'string' ? job.posted_date : ''))
-    .filter((date): date is Date => Boolean(date))
+  const allCityDates = activeCities.flatMap(({ jobs: cityJobs }) =>
+    cityJobs
+      .map((job) => dateFrom(typeof job.posted_date === 'string' ? job.posted_date : ''))
+      .filter((date): date is Date => Boolean(date))
+  )
   const latestJobDate = dates.length
     ? new Date(Math.max(...dates.map((date) => date.getTime())))
     : undefined
 
   const staticPages = routes.map((route) => {
-    const routeDates =
-      route === newcastleServiceAdministratorPage.route
-        ? cityDates
-        : route === '/' || route === '/browse-jobs'
-          ? [...dates, ...cityDates]
-          : jobs
-              .filter((job) => job.slice_path === route)
-              .map((job) => dateFrom(job.posted_date))
-              .filter((date): date is Date => Boolean(date))
+    const city = activeCities.find(({ definition }) => definition.route === route)
+    const routeDates = city
+      ? city.jobs
+          .map((job) => dateFrom(typeof job.posted_date === 'string' ? job.posted_date : ''))
+          .filter((date): date is Date => Boolean(date))
+      : route === '/' || route === '/browse-jobs'
+        ? [...dates, ...allCityDates]
+        : jobs
+            .filter((job) => job.slice_path === route)
+            .map((job) => dateFrom(job.posted_date))
+            .filter((date): date is Date => Boolean(date))
     const lastModified = routeDates.length
       ? new Date(Math.max(...routeDates.map((date) => date.getTime())))
       : route === '/' || route === '/browse-jobs'
