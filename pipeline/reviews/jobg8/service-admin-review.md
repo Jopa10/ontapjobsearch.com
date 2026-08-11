@@ -24,6 +24,12 @@ job_id: 92947bbe-5ad0-443d-9145-e950a49ec9b2
 ---
 
 ---
+action: select
+SELECTED | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
+job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+---
+
+---
 action:
 SELECTED | Yorkshire - West | Leeds | £27000 - £29000 per year | Sales Ledger Administrator
 job_id: ea7b8167-e326-4990-b4be-25a564037ae6
@@ -55,11 +61,7 @@ job_id: 5110038c-a060-4262-aea7-ed7352f22d3d
 
 ## WEST YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
-job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -91,6 +93,12 @@ _No jobs in this group._
 action:
 SELECTED | North East | Cramlington |  | Purchasing Administrator
 job_id: e7a9b51c-2698-4fde-9c96-5700106868e5
+---
+
+---
+action: select
+SELECTED | North East | Newcastle | £50000 - £65000 per year | Administrator
+job_id: ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
 ---
 
 ---
@@ -136,6 +144,12 @@ job_id: f6d1d055-8d92-44b3-b35c-4d2999b309ab
 ---
 
 ---
+action: select
+SELECTED | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Client Administrator
+job_id: 37de4be2-0a53-41c1-9b2c-dca52159ab6e
+---
+
+---
 action:
 SELECTED | North East | Tyne And Wear | £13 - £14 per hour | Temporary Administrator - South Tyneside
 job_id: 40e191c1-6a98-48eb-91b0-6d618aad7c84
@@ -147,18 +161,6 @@ job_id: 40e191c1-6a98-48eb-91b0-6d618aad7c84
 action:
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 - £40000 per year | Project Administrator (Power / Transmission / Electrical)
 job_id: 6d09509e-78ca-4bf5-a359-ec3cc317db83
----
-
----
-action: select
-POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Client Administrator
-job_id: 37de4be2-0a53-41c1-9b2c-dca52159ab6e
----
-
----
-action: select
-POSS - NORTH EAST | North East | Newcastle | £50000 - £65000 per year | Administrator
-job_id: ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
 ---
 
 ## LONDON — SELECTED
@@ -212,6 +214,12 @@ job_id: 50305aa1-cd45-4fbf-9d3c-0396d942139e
 ---
 
 ---
+action: select
+SELECTED | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
+job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
+---
+
+---
 action:
 SELECTED | London | Chessington | £26000 - £28000 per year | Service Administrator
 job_id: 365a170b-e62e-49f9-b465-6fa223da75bd
@@ -221,6 +229,12 @@ job_id: 365a170b-e62e-49f9-b465-6fa223da75bd
 action:
 SELECTED | London | Teddington | £30000 per year | Sales Administrator (Part Time)
 job_id: 9b48a7b1-48d9-48c8-8cae-115c132bd6d9
+---
+
+---
+action: select
+SELECTED | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
+job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
 ---
 
 ---
@@ -251,6 +265,12 @@ job_id: 5a534179-7cff-416a-b14c-b5f1f11b907c
 action:
 SELECTED | London | London | £28000 - £31000 per year | Clinic Administrator - 12 month FTC
 job_id: 01257d43-ab3d-4a80-a4b6-86892e362251
+---
+
+---
+action: select
+SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -349,6 +369,12 @@ SELECTED | London | London | £30784 per year | Hotel Receptionist
 job_id: 3d2f35d7-304f-43ec-ab7a-50a01ee54e4b
 ---
 
+---
+action: select
+SELECTED | London | Harrow | £18 - £21 per hour | Administrator - Charity
+job_id: 316f2ae5-fd75-409f-9b68-3ef8adc7fb89
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -391,30 +417,6 @@ job_id: b83c05fc-a498-4d8a-80b5-1e32c317f50b
 action:
 POSS - LONDON | London | Harrow | £35000 - £40000 per year | Company Secretary Administrator
 job_id: 6575def5-b4f8-4d8f-ab32-b96037939524
----
-
----
-action: select
-POSS - LONDON | London | Harrow | £18 - £21 per hour | Administrator - Charity
-job_id: 316f2ae5-fd75-409f-9b68-3ef8adc7fb89
----
-
----
-action: select
-POSS - LONDON | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
-job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
----
-
----
-action: select
-POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
-job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
----
-
----
-action: select
-POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -534,6 +536,12 @@ job_id: 9a146065-f414-4ddd-b152-5c4322dd4e93
 ---
 
 ---
+action: select
+SELECTED | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
+job_id: ad194d43-a41f-4957-a029-b15348fcba4f
+---
+
+---
 action:
 SELECTED | Surrey | Sunbury-on-thames | £27000 - £28000 per year | Administrator/Sales support
 job_id: f0fd6344-22f6-45b4-8a54-4ea54f6a5603
@@ -589,11 +597,7 @@ job_id: d33ae84b-3d04-499d-aa6d-57d9112cce12
 
 ## SURREY — POSSIBLES
 
----
-action: select
-POSS - SURREY | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
-job_id: ad194d43-a41f-4957-a029-b15348fcba4f
----
+_No jobs in this group._
 
 ## KENT — SELECTED
 
@@ -622,6 +626,12 @@ job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
 ---
 
 ---
+action: select
+SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
+
+---
 action:
 SELECTED | Kent | Canterbury | £24000 - £26000 per year | Receptionist / Administrator
 job_id: cf57b5c9-1ba9-42b2-abfe-093bc469040f
@@ -640,12 +650,6 @@ job_id: d09c0c8b-fb55-4580-9f94-38d12bb9f5c8
 ---
 
 ## KENT — POSSIBLES
-
----
-action: select
-POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
----
 
 ---
 action:
@@ -749,6 +753,12 @@ job_id: 73c27096-8e4a-4bbb-8a13-773dcdd66a6c
 ## COVENTRY & WARWICKSHIRE — SELECTED
 
 ---
+action: select
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £27000 - £33150 per year | Finance and Administration Assistant
+job_id: 519db7dc-6478-4bd4-81a3-4382a632bb62
+---
+
+---
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £12.71 per hour | Registry Administrator
 job_id: dfd7d156-9a1c-4512-9b81-e6446c2d5571
@@ -781,12 +791,6 @@ job_id: 107807876
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action: select
-POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £27000 - £33150 per year | Finance and Administration Assistant
-job_id: 519db7dc-6478-4bd4-81a3-4382a632bb62
----
-
----
 action:
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £38000 per year | Programme Coordinator
 job_id: 26c4e84f-e3ee-4d79-97f9-4105c719d965
@@ -812,24 +816,24 @@ job_id: f88af6c0-26e6-4934-a4f2-b3be470d8edf
 ---
 
 ---
+action: select
+SELECTED | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
+job_id: c73aa678-7d7d-4684-8b42-f95464109197
+---
+
+---
 action:
 SELECTED | Yorkshire - North | Scarborough | £28000 - £29500 per year | Recruitment Administrator
 job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
 ---
 
-## NORTH YORKSHIRE — POSSIBLES
-
 ---
 action: select
-POSS - NORTH YORKSHIRE | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
-job_id: c73aa678-7d7d-4684-8b42-f95464109197
----
-
----
-action: select
-POSS - NORTH YORKSHIRE | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
+SELECTED | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
 job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
 ---
+
+## NORTH YORKSHIRE — POSSIBLES
 
 ---
 action:
