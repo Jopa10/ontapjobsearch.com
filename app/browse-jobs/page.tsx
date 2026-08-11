@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import {
+  cityPageDefinitions,
   getCityPageJobs,
-  newcastleServiceAdministratorPage,
+  isCityPageActive,
 } from '@/lib/city-page-data';
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
@@ -42,9 +43,34 @@ type BrowseSection = {
 
 const activeStatusClassName = 'border-green-200 bg-green-50 text-green-700';
 const pausedStatusClassName = 'border-amber-200 bg-amber-50 text-amber-700';
-const newcastleCityJobs = getCityPageJobs(newcastleServiceAdministratorPage);
-const newcastleCityIsActive =
-  newcastleCityJobs.length >= newcastleServiceAdministratorPage.minimumJobs;
+
+const activeCityCards = (kind: 'admin' | 'support'): BrowseCard[] =>
+  cityPageDefinitions
+    .filter((definition) => isCityPageActive(definition))
+    .filter((definition) =>
+      kind === 'admin'
+        ? definition.parentRoute.endsWith('/service-administrator-jobs')
+        : definition.parentRoute.endsWith('/support-worker')
+    )
+    .map((definition) => {
+      const jobs = getCityPageJobs(definition);
+      const roleLabel = kind === 'admin' ? 'Admin & Customer Service Jobs' : 'Support Worker Jobs';
+      const roleDescription =
+        kind === 'admin'
+          ? 'admin, office support and customer-service roles'
+          : 'support-worker roles';
+      return {
+        title: `${definition.displayName} ${roleLabel}`,
+        href: definition.route,
+        description: `Current ${roleDescription} across ${definition.displayName} and its approved local employment market.`,
+        status: `${jobs.length} current job${jobs.length === 1 ? '' : 's'}`,
+        statusClassName: jobs.length > 0 ? activeStatusClassName : pausedStatusClassName,
+      };
+    })
+    .sort((left, right) => left.title.localeCompare(right.title, 'en-GB'));
+
+const adminCityCards = activeCityCards('admin');
+const supportCityCards = activeCityCards('support');
 
 const getSupportWorkerStatus = (
   jobs: unknown[],
@@ -92,18 +118,7 @@ const jobSections: BrowseSection[] = [
     heading: 'Active admin, service administrator and customer-service jobs',
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
     cards: [
-      ...(newcastleCityIsActive
-        ? [
-            {
-              title: 'Newcastle Admin & Customer Service Jobs',
-              href: newcastleServiceAdministratorPage.route,
-              description:
-                'Admin, office support and customer-service roles across Newcastle and its normal commuting catchment.',
-              status: `${newcastleCityJobs.length} current jobs`,
-              statusClassName: activeStatusClassName,
-            },
-          ]
-        : []),
+      ...adminCityCards,
       {
         title: 'Hampshire Admin & Customer Service Jobs',
         href: '/hampshire/service-administrator-jobs',
@@ -216,6 +231,7 @@ const jobSections: BrowseSection[] = [
     intro:
       'Current support-worker pages are listed below. Individual pages show whether supply is active or temporarily limited.',
     cards: [
+      ...supportCityCards,
       {
         title: 'North East Support Worker Jobs',
         href: '/north-east/support-worker',
