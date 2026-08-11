@@ -59,6 +59,12 @@ SELECTED | Yorkshire - West | Bradford | £13 per hour | Bank Support Worker
 job_id: 466dc4dd-84eb-409d-8343-113870860501
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including holiday pay, flexible hours) | Healthcare Assistant
+job_id: 23643_225476096
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -165,6 +171,18 @@ job_id: 8f7a6b8c-ba2a-4359-bd59-869ba3fbafdb
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Ryton | £12.75 per hour | Female Enabling Support Worker
 job_id: 297c50e3-fd32-4f29-9de1-936c53932177
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225477168
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.45 per hour | Enabling Support Worker
+job_id: 0d92fe0d-a663-4737-8a15-e07bad60e5fe
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -281,6 +299,18 @@ job_id: 1595772
 
 ---
 action:
+SELECTED | Sussex | Brighton | £25000 - £28000 per year | Personal Assistant - education sector
+job_id: 23643_225427103
+---
+
+---
+action:
+SELECTED | Sussex | Bognor Regis | £30000 - £35000 per year ((DOE)) | Personal Assistant to the Directors
+job_id: 23643_225445462
+---
+
+---
+action:
 SELECTED | Sussex | Littlehampton | £13.45 per hour | Care Assistant
 job_id: 107605050
 ---
@@ -325,6 +355,12 @@ job_id: 8c9c482c-941c-4dc4-8474-e83dd310005b
 action:
 SELECTED | Sussex | Horsham | £13.21 per hour | Night Care Assistant
 job_id: a3620f3e-f4b9-466e-b8e5-a5627a5b2fce
+---
+
+---
+action:
+SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
+job_id: 23643_222307132
 ---
 
 ---
