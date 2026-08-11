@@ -13,7 +13,7 @@
       "jobs": 12,
       "threshold": 6,
       "status": "LIVE",
-      "basis": "active-city-json",
+      "basis": "configured-catchment",
       "parent_json": "app/north-east/service-administrator-jobs.json",
       "existing_route": "/newcastle/service-administrator-jobs",
       "active": true,
