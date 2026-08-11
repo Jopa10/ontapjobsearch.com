@@ -37,7 +37,12 @@ class CityPageApprovalTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "review.md"
-            path.write_text(text.replace("action: ", "action: approve", 1), encoding="utf-8")
+            edited = text.replace(
+                "\naction: \nstatus: READY FOR APPROVAL",
+                "\naction: approve\nstatus: READY FOR APPROVAL",
+                1,
+            )
+            path.write_text(edited, encoding="utf-8")
             blocks = parse_review(path)
         self.assertEqual(blocks[0]["action"], "approve")
 
