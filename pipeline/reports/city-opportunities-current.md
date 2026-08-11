@@ -11,7 +11,8 @@
 
 | Status | Region | Slice | City/locality | Today | Last pipeline runs | Basis |
 |---|---|---|---|---:|---|---|
-| LIVE | north-east | service-administrator-jobs | Newcastle | 10 | 9, 10 | configured-catchment |
+| LIVE | north-east | service-administrator-jobs | Newcastle | 12 | 0, 0 | active-city-json |
+| LIVE | north-east | service-administrator-jobs | Newcastle | 0 | 9, 10 | configured-catchment |
 | QUALIFIES 2/3 | hampshire | support-worker | Southampton | 8 | 7, 8 | regional-market |
 | QUALIFIES 2/3 | south-yorkshire | service-administrator-jobs | Sheffield | 6 | 6, 6 | regional-market |
 | QUALIFIES 2/3 | west-yorkshire | service-administrator-jobs | Leeds | 6 | 6, 6 | regional-market |
