@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 3
-- automatic exclude: 8
-- effective include: 11
-- effective review: 0
-- effective exclude: 9
+- automatic include: 10
+- automatic review: 6
+- automatic exclude: 7
+- effective include: 12
+- effective review: 3
+- effective exclude: 8
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -37,6 +37,18 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
 ---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Consula Group LTD - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
 action: select
 decision: include
 automatic_decision: review
@@ -46,6 +58,18 @@ location: South Tyneside Council
 source: NEJobs
 job_id: nejobs-300058
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Client Administrator
+company: IDEX Consulting Ltd - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-37de4be2-0a53-41c1-9b2c-dca52159ab6e
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
 ---
@@ -124,18 +148,6 @@ reason: The broad North East location needs evidence that Newcastle residents ar
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Administrator
-company: Pertemps Scotland Temps - Agency - Temporary
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-74b2edbd-f145-42de-bca5-93f37ec0bca2
-reason: The stated workplace is Newcastle or explicitly includes Newcastle.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Family Coordinator
 company: Children North East
 location: Newcastle
@@ -156,9 +168,45 @@ job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
-## REVIEW (0)
+## REVIEW (3)
 
-## EXCLUDE (9)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre/Admin Assistant
+company: Specsavers - Company - Permanent
+location: Alnwick
+source: JobG8
+job_id: jobg8-f6d1d055-8d92-44b3-b35c-4d2999b309ab
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Administrator
+company: MTrec Recruitment - Agency - Temporary
+location: Cramlington
+source: JobG8
+job_id: jobg8-e7a9b51c-2698-4fde-9c96-5700106868e5
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator - South Tyneside
+company: Office Angels - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-40e191c1-6a98-48eb-91b0-6d618aad7c84
+reason: The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located.
+---
+
+## EXCLUDE (8)
 
 ---
 action: 
@@ -194,18 +242,6 @@ location: Sacriston
 source: NEJobs
 job_id: nejobs-299277
 reason: Durham belongs to a separate employment area from the Newcastle city page.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Assistant - Children's Social Care
-company: Together for Children - Sunderland
-location: Sunderland
-source: NEJobs
-job_id: nejobs-300179
-reason: Sunderland belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
