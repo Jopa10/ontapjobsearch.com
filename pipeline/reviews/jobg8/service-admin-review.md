@@ -56,7 +56,7 @@ job_id: 5110038c-a060-4262-aea7-ed7352f22d3d
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
 job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 ---
@@ -150,13 +150,13 @@ job_id: 6d09509e-78ca-4bf5-a359-ec3cc317db83
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Client Administrator
 job_id: 37de4be2-0a53-41c1-9b2c-dca52159ab6e
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Newcastle | £50000 - £65000 per year | Administrator
 job_id: ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
 ---
@@ -394,25 +394,25 @@ job_id: 6575def5-b4f8-4d8f-ab32-b96037939524
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Harrow | £18 - £21 per hour | Administrator - Charity
 job_id: 316f2ae5-fd75-409f-9b68-3ef8adc7fb89
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
 job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
 job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
 job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
@@ -590,7 +590,7 @@ job_id: d33ae84b-3d04-499d-aa6d-57d9112cce12
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
 job_id: ad194d43-a41f-4957-a029-b15348fcba4f
 ---
@@ -642,7 +642,7 @@ job_id: d09c0c8b-fb55-4580-9f94-38d12bb9f5c8
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
 job_id: 9313f8d8-798c-47d4-b862-63cec763953a
 ---
@@ -781,7 +781,7 @@ job_id: 107807876
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £27000 - £33150 per year | Finance and Administration Assistant
 job_id: 519db7dc-6478-4bd4-81a3-4382a632bb62
 ---
@@ -820,13 +820,13 @@ job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
 ## NORTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH YORKSHIRE | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
 job_id: c73aa678-7d7d-4684-8b42-f95464109197
 ---
 
 ---
-action:
+action: select
 POSS - NORTH YORKSHIRE | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
 job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
 ---
