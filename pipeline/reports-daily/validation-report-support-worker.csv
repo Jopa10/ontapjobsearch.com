@@ -1,20 +1,20 @@
 ﻿metric,value
-total rows input,2769
-total rows included,81
-total rows dropped,2687
-title classification count - HIGH_CONFIDENCE,246
-title classification count - ELASTIC_FIT,150
-title classification count - REVIEW_CONTEXT_DEPENDENT,4
-title classification count - HARD_PASS,1588
-title classification count - OUT_OF_SCOPE,781
+total rows input,10000
+total rows included,87
+total rows dropped,9912
+title classification count - HIGH_CONFIDENCE,262
+title classification count - ELASTIC_FIT,153
+title classification count - REVIEW_CONTEXT_DEPENDENT,14
+title classification count - HARD_PASS,4904
+title classification count - OUT_OF_SCOPE,4667
 selection scenario - Yorkshire - West,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Yorkshire - West,Yorkshire - West manual_select applied additively: 3 row(s) prioritised; 8 selected.
-credible total - Yorkshire - West,8
-high confidence count - Yorkshire - West,0
+selection message - Yorkshire - West,Yorkshire - West manual_select applied additively: 3 row(s) prioritised; 9 selected.
+credible total - Yorkshire - West,9
+high confidence count - Yorkshire - West,1
 anchor elastic count - Yorkshire - West,0
 other elastic count - Yorkshire - West,5
-total rows output - Yorkshire - West,8
-job_id included - Yorkshire - West,107751768; 107728806; 107728647; 1401783851; 25362_JR104910; 25362_JR104865; 466dc4dd-84eb-409d-8343-113870860501; 107651994
+total rows output - Yorkshire - West,9
+job_id included - Yorkshire - West,107751768; 107728806; 107728647; 23643_225476096; 1401783851; 25362_JR104910; 25362_JR104865; 466dc4dd-84eb-409d-8343-113870860501; 107651994
 selection scenario - Yorkshire - South,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Yorkshire - South,Yorkshire - South manual_select applied additively: 1 row(s) prioritised; 6 selected.
 credible total - Yorkshire - South,6
@@ -24,21 +24,21 @@ other elastic count - Yorkshire - South,0
 total rows output - Yorkshire - South,6
 job_id included - Yorkshire - South,dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7; 9970f2ba-5a14-44da-89b2-e5bde6c3f05d; 107798506; f3f8e2ad-deef-4db9-9895-23e53030230f; 6468034e-9a40-4583-adf5-d5ba5eed0237; 616c0fbd-815e-424d-8086-ba78ca9e8d6b
 selection scenario - North East,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - North East,North East manual_select applied additively: 1 row(s) prioritised; 18 selected.
-credible total - North East,18
-high confidence count - North East,9
+selection message - North East,North East manual_select applied additively: 1 row(s) prioritised; 20 selected.
+credible total - North East,20
+high confidence count - North East,10
 anchor elastic count - North East,1
-other elastic count - North East,7
-total rows output - North East,18
-job_id included - North East,107616541; 107807433; 2cce53be-0eb7-4d38-90ef-b37163d4f101; 6b804bc2-d778-42ed-bf1b-d3ec78422d8a; 35ef02dd-6e8a-4d5a-a1af-bacca950305f; cc359452-7885-406f-b982-9931f062cd19; 9b0995dd-b5e5-433f-b113-8a55acf6d8cd; 107199247; 107199252; f6fec1d6-1fe7-4f2f-895c-76cd05933697; 297c50e3-fd32-4f29-9de1-936c53932177; 107615864; 107617093; 25362_JR104883-1; 25362_JR104883-1-1908a03149bfe006218cbce2dd812797; 107810260; 8f7a6b8c-ba2a-4359-bd59-869ba3fbafdb; 107781117
+other elastic count - North East,8
+total rows output - North East,20
+job_id included - North East,0d92fe0d-a663-4737-8a15-e07bad60e5fe; 107616541; 107807433; 2cce53be-0eb7-4d38-90ef-b37163d4f101; 6b804bc2-d778-42ed-bf1b-d3ec78422d8a; 35ef02dd-6e8a-4d5a-a1af-bacca950305f; cc359452-7885-406f-b982-9931f062cd19; 9b0995dd-b5e5-433f-b113-8a55acf6d8cd; 107199247; 107199252; f6fec1d6-1fe7-4f2f-895c-76cd05933697; 297c50e3-fd32-4f29-9de1-936c53932177; 107615864; 107617093; 25362_JR104883-1; 25362_JR104883-1-1908a03149bfe006218cbce2dd812797; 107810260; 8f7a6b8c-ba2a-4359-bd59-869ba3fbafdb; 107781117; 23643_225477168
 selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 17 selected.
-credible total - Sussex,17
-high confidence count - Sussex,9
+selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 20 selected.
+credible total - Sussex,20
+high confidence count - Sussex,12
 anchor elastic count - Sussex,0
 other elastic count - Sussex,7
-total rows output - Sussex,17
-job_id included - Sussex,1595772; 107641522; 5550e727-462b-46bf-9168-3eaa72487b4c; ae94e49e-f175-432c-842f-6a6ea1ec4646; b045cd0a-82e7-4208-8161-9940e9e8f7c7; 2ed3e16f-b49e-444d-be95-42cbbb537763; 107605050; 107769775; 8c9c482c-941c-4dc4-8474-e83dd310005b; 107818601; 1401783835; 99725da6-35b1-4d29-9426-1b7224ab3269; 107812909; 44c04919-b68b-4946-9565-88687eb782e2; ee439ae1-b4a3-44d3-97aa-11662721c09c; e95b23da-96d7-4c92-b8a9-dc4a1c3c19c0; a3620f3e-f4b9-466e-b8e5-a5627a5b2fce
+total rows output - Sussex,20
+job_id included - Sussex,1595772; 23643_225427103; 23643_222307132; 107641522; 5550e727-462b-46bf-9168-3eaa72487b4c; ae94e49e-f175-432c-842f-6a6ea1ec4646; b045cd0a-82e7-4208-8161-9940e9e8f7c7; 2ed3e16f-b49e-444d-be95-42cbbb537763; 23643_225445462; 107605050; 107769775; 8c9c482c-941c-4dc4-8474-e83dd310005b; 107818601; 1401783835; 99725da6-35b1-4d29-9426-1b7224ab3269; 107812909; 44c04919-b68b-4946-9565-88687eb782e2; ee439ae1-b4a3-44d3-97aa-11662721c09c; e95b23da-96d7-4c92-b8a9-dc4a1c3c19c0; a3620f3e-f4b9-466e-b8e5-a5627a5b2fce
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,4
