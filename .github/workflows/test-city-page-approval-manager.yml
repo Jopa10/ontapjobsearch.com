@@ -10,6 +10,7 @@ on:
       - "app/sitemap.ts"
       - ".github/workflows/apply-city-page-approvals.yml"
       - ".github/workflows/refresh-city-page-approval-review.yml"
+      - ".github/workflows/test-city-page-approval-manager.yml"
   workflow_dispatch:
 
 jobs:
@@ -25,3 +26,11 @@ jobs:
       - name: Run approval manager tests
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_manage_city_page_approvals.py' -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install frontend dependencies
+        run: npm ci
+      - name: Build Next.js site
+        run: npm run build
