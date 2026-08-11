@@ -11,7 +11,7 @@ A city appears here only after the opportunity process marks it READY FOR APPROV
 ## READY FOR APPROVAL (3)
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Southampton
 region: hampshire
@@ -22,7 +22,7 @@ last_pipeline_runs: 7, 7, 8
 ---
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Sheffield
 region: south-yorkshire
@@ -33,7 +33,7 @@ last_pipeline_runs: 7, 6, 6
 ---
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Leeds
 region: west-yorkshire
