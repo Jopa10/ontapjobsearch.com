@@ -87,6 +87,7 @@ class CityCatchment:
     route: str
     include_patterns: tuple[str, ...]
     exclude_patterns: tuple[str, ...]
+    output_json: Path | None = None
     active: bool = False
 
 
@@ -214,6 +215,7 @@ def load_city_catchments(register_path: Path) -> list[CityCatchment]:
                         values.append(pattern)
             return tuple(values)
 
+        output_value = str(item.get("output_json", "")).strip()
         catchments.append(
             CityCatchment(
                 display_name=display_name,
@@ -221,6 +223,7 @@ def load_city_catchments(register_path: Path) -> list[CityCatchment]:
                 route=route,
                 include_patterns=patterns("include_rules"),
                 exclude_patterns=patterns("exclude_rules"),
+                output_json=Path(output_value) if output_value else None,
                 active=normalise(item.get("lifecycle_state")) == "active",
             )
         )
@@ -315,6 +318,21 @@ def route_exists(repo_root: Path, route: str) -> bool:
     return bool(parts) and (repo_root / "app" / Path(*parts) / "page.tsx").is_file()
 
 
+def active_city_jobs(repo_root: Path, catchment: CityCatchment) -> list[dict[str, Any]] | None:
+    """Return the derived jobs used by an active live city page when configured.
+
+    Active city routes read from their derived output JSON after review overrides
+    have been applied. Using the same file here keeps the opportunity report in
+    lock-step with the number of jobs the live page actually displays.
+    """
+    if not catchment.active or catchment.output_json is None:
+        return None
+    output_path = repo_root / catchment.output_json
+    if not output_path.is_file():
+        return []
+    return load_jobs(output_path)
+
+
 def status_for(
     count: int,
     threshold: int,
@@ -380,20 +398,30 @@ def scan_repository(
         for market in markets_by_region.get(published_slice.region_key, []):
             configured_match = configured.get(normalise(market.display_name))
             if configured_match is not None:
-                included = [job for job in jobs if catchment_includes(job, configured_match)]
+                automatic_included = [
+                    job for job in jobs if catchment_includes(job, configured_match)
+                ]
                 active = configured_match.active and route_exists(
                     repo_root, configured_match.route
                 )
-                basis = "configured-catchment"
+                live_included = (
+                    active_city_jobs(repo_root, configured_match) if active else None
+                )
+                included = live_included if live_included is not None else automatic_included
+                basis = (
+                    "active-city-json" if live_included is not None else "configured-catchment"
+                )
                 route = configured_match.route if active else ""
                 used_configured.add(normalise(configured_match.display_name))
+                claim_sources = automatic_included + included
             else:
                 included = [job for job in jobs if market_includes(job, market)]
                 active = False
                 basis = "regional-market"
                 route = ""
+                claim_sources = included
 
-            for job in included:
+            for job in claim_sources:
                 job_id = str(job.get("job_id", "")).strip()
                 if job_id:
                     claimed.add(job_id)
@@ -427,12 +455,15 @@ def scan_repository(
         for name_key, catchment in configured.items():
             if name_key in used_configured:
                 continue
-            included = [job for job in jobs if catchment_includes(job, catchment)]
-            for job in included:
+            automatic_included = [job for job in jobs if catchment_includes(job, catchment)]
+            active = catchment.active and route_exists(repo_root, catchment.route)
+            live_included = active_city_jobs(repo_root, catchment) if active else None
+            included = live_included if live_included is not None else automatic_included
+            claim_sources = automatic_included + included
+            for job in claim_sources:
                 job_id = str(job.get("job_id", "")).strip()
                 if job_id:
                     claimed.add(job_id)
-            active = catchment.active and route_exists(repo_root, catchment.route)
             count = len(included)
             opportunities.append(
                 Opportunity(
@@ -448,7 +479,11 @@ def scan_repository(
                         live=active,
                         registered_market=True,
                     ),
-                    basis="configured-catchment",
+                    basis=(
+                        "active-city-json"
+                        if live_included is not None
+                        else "configured-catchment"
+                    ),
                     parent_json=str(parent),
                     existing_route=catchment.route if active else "",
                     active=active,
