@@ -1,0 +1,27 @@
+name: Test city page approval manager
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/scripts/manage_city_page_approvals.py"
+      - "pipeline/tests/test_manage_city_page_approvals.py"
+      - "pipeline/reviews/city-pages/city-page-approval-review.md"
+      - "lib/city-page-data.ts"
+      - "app/sitemap.ts"
+      - ".github/workflows/apply-city-page-approvals.yml"
+      - ".github/workflows/refresh-city-page-approval-review.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile approval manager
+        run: python -m py_compile pipeline/scripts/manage_city_page_approvals.py
+      - name: Run approval manager tests
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_manage_city_page_approvals.py' -v
