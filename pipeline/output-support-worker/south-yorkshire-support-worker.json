@@ -19,7 +19,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Support plans",
+      "Risk and needs assessments",
+      "Accommodation support"
+    ]
   },
   {
     "job_id": "9970f2ba-5a14-44da-89b2-e5bde6c3f05d",
