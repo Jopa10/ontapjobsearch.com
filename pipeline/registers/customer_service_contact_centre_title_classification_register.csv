@@ -195,3 +195,14 @@ Wealth Planning Administrator,REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-
 Wealth Planning Administrator (SJP Practice),REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-06-17,Adjacent service/admin wording: administrator,1,,Rochester (1)
 Wealth Planning Administrator - 12% bonus and 2 days from home,REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-06-17,Adjacent service/admin wording: administrator,1,,Not Specified (1)
 Weighbridge Administrator,REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-06-17,Adjacent service/admin wording: administrator,1,,City (1)
+Customer Service Advisor,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Core frontline customer-service title in expanded JobG8 feed,38,,
+Customer Service Representative,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Core frontline customer-service title in expanded JobG8 feed,30,,
+Call Centre Operator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Core call-centre customer-service title in expanded JobG8 feed,28,,
+Call Centre Agent,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Core call-centre customer-service title in expanded JobG8 feed,28,,
+Contact Centre Agent,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Core contact-centre customer-service title in expanded JobG8 feed,14,,
+Customer Support Advisor,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear frontline customer-support title,3,,
+Customer Service Coordinator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear customer-service coordination title,4,,
+Customer Advisor,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Reviewed as genuine frontline phone/email customer-service work,2,,
+Customer Service,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Generic but clear customer-service title in JobG8 customer-service classification,2,,
+Customer Service Executive,ELASTIC_FIT,REGISTER_EXPANSION_2026-08-11,Reviewed as enquiries/order/customer-support work; title can vary by employer,2,,
+Customer Experience Coordinator,ELASTIC_FIT,REGISTER_EXPANSION_2026-08-11,Reviewed as genuine customer-journey/booking support work,1,,
