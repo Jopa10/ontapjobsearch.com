@@ -94,10 +94,12 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         self.assertIn("launchMinimumJobs: 6", city_data_source)
         self.assertIn("minimumJobs: 0", city_data_source)
         self.assertIn("active: true", city_data_source)
+        self.assertIn("cityPageDefinitions", city_data_source)
 
         sitemap_source = (REPO_ROOT / "app/sitemap.ts").read_text(encoding="utf-8")
-        self.assertIn("newcastleServiceAdministratorPage.route", sitemap_source)
-        self.assertIn("minimumJobs", sitemap_source)
+        self.assertIn("cityPageDefinitions", sitemap_source)
+        self.assertIn("isCityPageActive", sitemap_source)
+        self.assertIn("definition.route", sitemap_source)
 
     def test_derived_city_json_is_not_added_to_job_detail_catalogue(self) -> None:
         source = (REPO_ROOT / "lib/published-jobs.ts").read_text(encoding="utf-8")
