@@ -1,0 +1,35 @@
+report_date,level,source,region,category,count
+2026-08-11,total,All,,,269
+2026-08-11,source_summary,JobG8,,,199
+2026-08-11,source_summary,External,,,70
+2026-08-11,provider,JobG8,,,199
+2026-08-11,provider,NEJobs,,,6
+2026-08-11,provider,Teaching Vacancies,,,59
+2026-08-11,provider,VONNE,,,5
+2026-08-11,region_category,JobG8,Cumbria - South,Support Worker – Wide,4
+2026-08-11,region_category,JobG8,Hampshire,Admin/Service – Office Support,13
+2026-08-11,region_category,JobG8,Hampshire,Support Worker – Wide,28
+2026-08-11,region_category,JobG8,Kent,Admin/Service – Office Support,8
+2026-08-11,region_category,JobG8,London,Admin/Service – Office Support,35
+2026-08-11,region_category,JobG8,North East,Admin/Service – Office Support,12
+2026-08-11,region_category,JobG8,North East,Support Worker – Wide,18
+2026-08-11,region_category,JobG8,Surrey,Admin/Service – Office Support,13
+2026-08-11,region_category,JobG8,Sussex,Admin/Service – Office Support,14
+2026-08-11,region_category,JobG8,Sussex,Support Worker – Wide,17
+2026-08-11,region_category,JobG8,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,6
+2026-08-11,region_category,JobG8,Yorkshire - North,Admin/Service – Office Support,6
+2026-08-11,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,3
+2026-08-11,region_category,JobG8,Yorkshire - South,Support Worker – Wide,6
+2026-08-11,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,8
+2026-08-11,region_category,JobG8,Yorkshire - West,Support Worker – Wide,8
+2026-08-11,region_category,NEJobs,North East,Admin/Service – Office Support,6
+2026-08-11,region_category,Teaching Vacancies,Kent,Admin/Service – Office Support,4
+2026-08-11,region_category,Teaching Vacancies,London,Admin/Service – Office Support,22
+2026-08-11,region_category,Teaching Vacancies,North East,Admin/Service – Office Support,1
+2026-08-11,region_category,Teaching Vacancies,Surrey,Admin/Service – Office Support,2
+2026-08-11,region_category,Teaching Vacancies,Sussex,Admin/Service – Office Support,4
+2026-08-11,region_category,Teaching Vacancies,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,3
+2026-08-11,region_category,Teaching Vacancies,Yorkshire - North,Admin/Service – Office Support,4
+2026-08-11,region_category,Teaching Vacancies,Yorkshire - South,Admin/Service – Office Support,7
+2026-08-11,region_category,Teaching Vacancies,Yorkshire - West,Admin/Service – Office Support,12
+2026-08-11,region_category,VONNE,North East,Admin/Service – Office Support,5
