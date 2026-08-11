@@ -330,3 +330,15 @@ Wealth Planning Administrator,REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-
 Wealth Planning Administrator (SJP Practice),REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-06-17,Adjacent admin/support wording requiring HR/recruitment context check: administrator,1,,Rochester (1)
 Wealth Planning Administrator - 12% bonus and 2 days from home,REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-06-17,Adjacent admin/support wording requiring HR/recruitment context check: administrator,1,,Not Specified (1)
 Weighbridge Administrator,REVIEW_CONTEXT_DEPENDENT,INCLUDED_FOR_REVIEW_2026-06-17,Adjacent admin/support wording requiring HR/recruitment context check: administrator,1,,City (1)
+HR Assistant,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear entry/intermediate HR support title,18,,
+Recruitment Coordinator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear recruitment coordination/support title,6,,
+Recruitment Administrator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear recruitment administration title,6,,
+Recruitment Resourcer,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear recruitment resourcing/support title,4,,
+HR Coordinator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear entry/intermediate HR coordination title,4,,
+HR Officer,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear operational HR support title,3,,
+HR Recruitment Assistant,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear HR/recruitment assistant title,3,,
+Training Administrator,ELASTIC_FIT,REGISTER_EXPANSION_2026-08-11,Credible people-development/training administration crossover,3,,
+Learning & Development Coordinator,ELASTIC_FIT,REGISTER_EXPANSION_2026-08-11,Credible learning-and-development coordination role,2,,
+Learning and Development Coordinator,ELASTIC_FIT,REGISTER_EXPANSION_2026-08-11,Credible learning-and-development coordination role,2,,
+Recruitment Operations Coordinator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear recruitment operations/support title,2,,
+Temporary HR Administrator,HIGH_CONFIDENCE,REGISTER_EXPANSION_2026-08-11,Clear HR administration title,2,,
