@@ -7,55 +7,62 @@ SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "pipeline" / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
-from slice_registry import load_slice_register, live_slices
+from slice_catalog import dynamic_data_path, dynamic_route, output_filename
+from slice_registry import candidate_slices, load_slice_register, live_slices
 
 
 class SliceRegistryTests(unittest.TestCase):
-    def test_register_has_sixteen_live_and_four_candidate_rows(self):
+    def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
         records = load_slice_register()
-        self.assertEqual(len(records), 20)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 16)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 4)
+        self.assertEqual(len(records), 63)
+        self.assertEqual(sum(row.status == "LIVE" for row in records), 36)
+        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 27)
         self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
 
-    def test_live_rows_include_expansion_slices(self):
-        self.assertEqual(
-            live_slices(),
-            {
-                ("Yorkshire - West", "admin_service"),
-                ("Yorkshire - South", "admin_service"),
-                ("Yorkshire - North", "admin_service"),
-                ("North East", "admin_service"),
-                ("London", "admin_service"),
-                ("Hampshire", "admin_service"),
-                ("Surrey", "admin_service"),
-                ("Kent", "admin_service"),
-                ("Sussex", "admin_service"),
-                ("West Midlands - Coventry & Warwickshire", "admin_service"),
-                ("Yorkshire - West", "support_worker"),
-                ("Yorkshire - South", "support_worker"),
-                ("North East", "support_worker"),
-                ("Sussex", "support_worker"),
-                ("Cumbria - South", "support_worker"),
-                ("Hampshire", "support_worker"),
-            },
-        )
-
-    def test_candidate_rows_only_include_unactivated_scaffolds(self):
-        records = load_slice_register()
-        candidates = {
-            (row.region, row.category)
-            for row in records
-            if row.status == "CANDIDATE"
+    def test_live_rows_include_new_white_collar_and_admin_slices(self):
+        live = live_slices()
+        expected = {
+            ("London", "finance_accounts"),
+            ("London", "customer_service_contact_centre"),
+            ("London", "hr_recruitment"),
+            ("Hampshire", "customer_service_contact_centre"),
+            ("Greater Manchester - Manchester & Salford", "admin_service"),
+            ("Bristol & Bath", "admin_service"),
+            ("Devon", "finance_accounts"),
         }
+        self.assertTrue(expected.issubset(live))
+        self.assertIn(("Yorkshire - North", "admin_service"), live)
+
+    def test_close_and_deferred_support_slices_are_candidates_not_live(self):
+        candidates = candidate_slices()
+        expected = {
+            ("Greater Manchester - Manchester & Salford", "customer_service_contact_centre"),
+            ("Hampshire", "hr_recruitment"),
+            ("Yorkshire - West", "finance_accounts"),
+            ("North East", "finance_accounts"),
+            ("Somerset", "support_worker"),
+            ("London", "support_worker"),
+            ("Surrey", "support_worker"),
+        }
+        self.assertTrue(expected.issubset(candidates))
+        self.assertTrue(expected.isdisjoint(live_slices()))
+
+    def test_catalog_generates_stable_paths(self):
         self.assertEqual(
-            candidates,
-            {
-                ("Yorkshire - East", "admin_service"),
-                ("Northern Ireland - East", "admin_service"),
-                ("Lancashire - North", "support_worker"),
-                ("Cumbria - North", "support_worker"),
-            },
+            output_filename("Greater Manchester - Manchester & Salford", "admin_service"),
+            "manchester-salford-admin-service.json",
+        )
+        self.assertEqual(
+            output_filename("London", "finance_accounts"),
+            "london-finance-accounts.json",
+        )
+        self.assertEqual(
+            dynamic_route("London", "finance_accounts"),
+            "/job-search/london/finance-accounts-jobs",
+        )
+        self.assertEqual(
+            dynamic_data_path("London", "finance_accounts"),
+            Path("app/_city-pages/configured-slices/london/finance-accounts-jobs.json"),
         )
 
     def test_invalid_status_stops(self):
@@ -63,6 +70,16 @@ class SliceRegistryTests(unittest.TestCase):
             path = Path(tmp) / "register.csv"
             path.write_text(
                 "region,category,status\nNorth East,admin_service,MAYBE\n",
+                encoding="utf-8",
+            )
+            with self.assertRaises(SystemExit):
+                load_slice_register(path)
+
+    def test_unknown_region_stops(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "register.csv"
+            path.write_text(
+                "region,category,status\nAtlantis,admin_service,LIVE\n",
                 encoding="utf-8",
             )
             with self.assertRaises(SystemExit):

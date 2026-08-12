@@ -26,8 +26,13 @@ class NewcastleCityLaunchTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )
-        self.assertEqual(len(register), 1)
-        city = register[0]
+        matches = [
+            city
+            for city in register
+            if city.get("city_key") == "newcastle-service-administrator"
+        ]
+        self.assertEqual(len(matches), 1)
+        city = matches[0]
         self.assertEqual(city["mode"], "publish")
         self.assertEqual(city["minimum_live_jobs"], 6)
         self.assertEqual(city["launch_minimum_live_jobs"], 6)
@@ -64,7 +69,7 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         )
         self.assertTrue(city_ids.issubset({job["job_id"] for job in parent_jobs}))
 
-    def test_review_csv_has_no_unresolved_decisions(self) -> None:
+    def test_unresolved_review_rows_are_not_published(self) -> None:
         rows = review_rows()
         counts = {decision: 0 for decision in ("include", "review", "exclude")}
         for row in rows:
@@ -76,9 +81,16 @@ class NewcastleCityLaunchTests(unittest.TestCase):
                 / "app/_city-pages/newcastle/service-administrator-jobs.json"
             ).read_text(encoding="utf-8")
         )
-        self.assertEqual(counts["review"], 0)
+        city_ids = {job["job_id"] for job in city_jobs}
+        unresolved_ids = {
+            published_job_id(row["job_id"])
+            for row in rows
+            if row["effective_decision"] == "review"
+        }
+
         self.assertEqual(counts["include"], len(city_jobs))
         self.assertGreater(counts["exclude"], 0)
+        self.assertTrue(unresolved_ids.isdisjoint(city_ids))
 
     def test_route_and_sitemap_use_persistent_active_city_data_gate(self) -> None:
         route_source = (

@@ -5,6 +5,7 @@ import {
   isCityPageActive,
 } from '@/lib/city-page-data'
 import { getJobPath, getPublishedJobs } from '@/lib/published-jobs'
+import { getPublishedDynamicSlices } from '@/lib/configured-job-slices'
 
 const siteUrl = 'https://www.ontapjobsearch.com'
 
@@ -40,7 +41,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((definition) => isCityPageActive(definition))
     .map((definition) => ({ definition, jobs: getCityPageJobs(definition) }))
   const cityRoutes = activeCities.map(({ definition }) => definition.route)
-  const routes = [...baseRoutes, ...cityRoutes.filter((route) => !baseRoutes.includes(route))]
+  const configuredRoutes = getPublishedDynamicSlices().map((slice) => slice.route)
+  const routes = [
+    ...baseRoutes,
+    ...cityRoutes.filter((route) => !baseRoutes.includes(route)),
+    ...configuredRoutes.filter(
+      (route) => !baseRoutes.includes(route) && !cityRoutes.includes(route)
+    ),
+  ]
 
   const dates = jobs
     .map((job) => dateFrom(job.posted_date))

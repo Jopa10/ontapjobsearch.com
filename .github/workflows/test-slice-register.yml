@@ -3,14 +3,19 @@ name: Test slice register
 on:
   pull_request:
     paths:
+      - 'pipeline/config/job_slice_catalog.json'
       - 'pipeline/registers/region_category_slice_register.csv'
+      - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
+      - 'pipeline/scripts/registered_category_pipeline.py'
       - 'pipeline/scripts/publish_verified_pages.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
+      - 'pipeline/scripts/publish_verified_pages_live_config.py'
       - 'pipeline/scripts/publish_verified_pages_north_yorkshire.py'
       - 'pipeline/scripts/service_admin_pipeline_sussex.py'
       - 'pipeline/scripts/service_admin_pipeline_coventry.py'
+      - 'pipeline/scripts/service_admin_pipeline_live_config.py'
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
       - 'pipeline/scripts/derive_city_pages.py'
@@ -24,11 +29,13 @@ on:
       - 'pipeline/tests/test_city_opportunity_history.py'
       - 'pipeline/tests/test_active_city_page_persistence.py'
       - 'app/_city-pages/**'
+      - 'app/job-search/**'
       - 'app/newcastle/**'
       - 'app/north-east/service-administrator-jobs/page.tsx'
       - 'app/north-yorkshire/**'
       - 'app/browse-jobs/page.tsx'
       - 'app/sitemap.ts'
+      - 'lib/configured-job-slices.ts'
       - 'lib/city-page-data.ts'
       - 'lib/published-jobs.ts'
       - '.github/workflows/run-full-jobg8-daily-process.yml'
@@ -47,14 +54,19 @@ on:
   push:
     branches: [main]
     paths:
+      - 'pipeline/config/job_slice_catalog.json'
       - 'pipeline/registers/region_category_slice_register.csv'
+      - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
+      - 'pipeline/scripts/registered_category_pipeline.py'
       - 'pipeline/scripts/publish_verified_pages.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
+      - 'pipeline/scripts/publish_verified_pages_live_config.py'
       - 'pipeline/scripts/publish_verified_pages_north_yorkshire.py'
       - 'pipeline/scripts/service_admin_pipeline_sussex.py'
       - 'pipeline/scripts/service_admin_pipeline_coventry.py'
+      - 'pipeline/scripts/service_admin_pipeline_live_config.py'
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
       - 'pipeline/scripts/derive_city_pages.py'
@@ -68,11 +80,13 @@ on:
       - 'pipeline/tests/test_city_opportunity_history.py'
       - 'pipeline/tests/test_active_city_page_persistence.py'
       - 'app/_city-pages/**'
+      - 'app/job-search/**'
       - 'app/newcastle/**'
       - 'app/north-east/service-administrator-jobs/page.tsx'
       - 'app/north-yorkshire/**'
       - 'app/browse-jobs/page.tsx'
       - 'app/sitemap.ts'
+      - 'lib/configured-job-slices.ts'
       - 'lib/city-page-data.ts'
       - 'lib/published-jobs.ts'
       - '.github/workflows/run-full-jobg8-daily-process.yml'
@@ -102,13 +116,17 @@ jobs:
       - name: Validate Python and register tests
         run: |
           python -m py_compile \
+            pipeline/scripts/slice_catalog.py \
             pipeline/scripts/slice_registry.py \
+            pipeline/scripts/registered_category_pipeline.py \
             pipeline/scripts/publish_verified_pages.py \
             pipeline/scripts/publish_verified_pages_sussex.py \
             pipeline/scripts/publish_verified_pages_coventry.py \
+            pipeline/scripts/publish_verified_pages_live_config.py \
             pipeline/scripts/publish_verified_pages_north_yorkshire.py \
             pipeline/scripts/service_admin_pipeline_sussex.py \
             pipeline/scripts/service_admin_pipeline_coventry.py \
+            pipeline/scripts/service_admin_pipeline_live_config.py \
             pipeline/scripts/service_admin_pipeline_north_yorkshire.py \
             pipeline/scripts/jobg8_module_2_live_slices.py \
             pipeline/scripts/derive_city_pages.py \
@@ -128,6 +146,9 @@ jobs:
           python -m unittest discover -s pipeline/tests -p 'test_scan_city_opportunities.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_city_opportunity_history.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_active_city_page_persistence.py' -v
+      - name: Generate current config-driven outputs for verification
+        working-directory: pipeline
+        run: python -m scripts.service_admin_pipeline_north_yorkshire
       - name: Confirm current LIVE slices are publishable
         working-directory: pipeline
         run: python -m scripts.publish_verified_pages_north_yorkshire --dry-run

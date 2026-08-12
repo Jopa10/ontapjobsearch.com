@@ -4,10 +4,16 @@ import csv
 from dataclasses import dataclass
 from pathlib import Path
 
+try:
+    from .slice_catalog import category_names, region_names
+except ImportError:  # direct script/test loading
+    from slice_catalog import category_names, region_names
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_REGISTER_PATH = REPO_ROOT / "pipeline" / "registers" / "region_category_slice_register.csv"
 ALLOWED_STATUSES = {"LIVE", "CANDIDATE", "RETIRED"}
-ALLOWED_CATEGORIES = {"admin_service", "support_worker"}
+ALLOWED_CATEGORIES = category_names()
+ALLOWED_REGIONS = region_names()
 
 
 @dataclass(frozen=True)
@@ -36,6 +42,10 @@ def load_slice_register(path: Path = DEFAULT_REGISTER_PATH) -> list[SliceRecord]
             status = (row.get("status") or "").strip().upper()
             if not region or not category or not status:
                 raise SystemExit(f"STOP: incomplete slice-register row at line {line_number}")
+            if region not in ALLOWED_REGIONS:
+                raise SystemExit(
+                    f"STOP: unsupported region {region!r} at line {line_number}; add it to job_slice_catalog.json first"
+                )
             if category not in ALLOWED_CATEGORIES:
                 raise SystemExit(
                     f"STOP: unsupported category {category!r} at line {line_number}"
@@ -57,12 +67,23 @@ def load_slice_register(path: Path = DEFAULT_REGISTER_PATH) -> list[SliceRecord]
     return records
 
 
-def live_slices(path: Path = DEFAULT_REGISTER_PATH) -> set[tuple[str, str]]:
+def slices_with_status(status: str, path: Path = DEFAULT_REGISTER_PATH) -> set[tuple[str, str]]:
+    wanted = status.strip().upper()
+    if wanted not in ALLOWED_STATUSES:
+        raise SystemExit(f"STOP: unsupported slice status {status!r}")
     return {
         (record.region, record.category)
         for record in load_slice_register(path)
-        if record.status == "LIVE"
+        if record.status == wanted
     }
+
+
+def live_slices(path: Path = DEFAULT_REGISTER_PATH) -> set[tuple[str, str]]:
+    return slices_with_status("LIVE", path)
+
+
+def candidate_slices(path: Path = DEFAULT_REGISTER_PATH) -> set[tuple[str, str]]:
+    return slices_with_status("CANDIDATE", path)
 
 
 def is_live(region: str, category: str, path: Path = DEFAULT_REGISTER_PATH) -> bool:

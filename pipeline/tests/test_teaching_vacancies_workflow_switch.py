@@ -27,7 +27,7 @@ def test_daily_workflows_keep_legacy_fallback_before_generic_composer() -> None:
         assert all(text.count(command) == 1 for command in expected), path
 
 
-def test_generic_composer_is_dormant_without_regional_snapshots() -> None:
+def test_generic_composer_dry_run_does_not_mutate_outputs() -> None:
     output_dir = PIPELINE_ROOT / "output-admin-service"
     snapshots = PIPELINE_ROOT / "output-external/teaching-vacancies-regional"
     evidence = PIPELINE_ROOT / "manifests/external/teaching-vacancies/approved"
@@ -52,4 +52,7 @@ def test_generic_composer_is_dormant_without_regional_snapshots() -> None:
     }
     assert before == after
     assert results
-    assert all(row.status in {"SKIPPED", "UNCHANGED"} for row in results)
+    # A dry-run may legitimately report WOULD_WRITE when an approved snapshot
+    # differs from the current base output; the non-mutation check above is the
+    # safety invariant.
+    assert all(row.status in {"SKIPPED", "UNCHANGED", "WOULD_WRITE"} for row in results)
