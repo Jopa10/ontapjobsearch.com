@@ -51,6 +51,15 @@ type RelatedPage = {
   label: string;
 };
 
+type BrowseLinks = {
+  heading: string;
+  intro?: string;
+  links: Array<{
+    href: string;
+    label: string;
+  }>;
+};
+
 type JobSlicePageProps = {
   jsonPath: string[];
   region: string;
@@ -63,6 +72,7 @@ type JobSlicePageProps = {
   trainingItems?: TrainingItem[];
   jobFilter?: (job: JobRow) => boolean;
   relatedPage?: RelatedPage;
+  browseLinks?: BrowseLinks;
 };
 
 function stringList(value: unknown): string[] {
@@ -181,6 +191,28 @@ function RelatedPageLink({ relatedPage }: { relatedPage: RelatedPage }) {
   );
 }
 
+function BrowseLinksPanel({ browseLinks }: { browseLinks: BrowseLinks }) {
+  if (!browseLinks.links.length) return null;
+
+  return (
+    <nav className={styles.browsePanel} aria-label={browseLinks.heading}>
+      <div>
+        <div className={styles.relatedEyebrow}>{browseLinks.heading}</div>
+        {browseLinks.intro ? (
+          <p className={styles.relatedPrompt}>{browseLinks.intro}</p>
+        ) : null}
+      </div>
+      <div className={styles.browseLinkList}>
+        {browseLinks.links.map((link) => (
+          <Link key={link.href} href={link.href} className={styles.relatedLink}>
+            {link.label} →
+          </Link>
+        ))}
+      </div>
+    </nav>
+  );
+}
+
 function EmptyJobs() {
   return (
     <div
@@ -213,6 +245,7 @@ export default function JobSlicePage({
   trainingItems,
   jobFilter,
   relatedPage,
+  browseLinks,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
@@ -265,6 +298,12 @@ export default function JobSlicePage({
                 `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
             </p>
           </div>
+
+          {browseLinks ? (
+            <div style={{ marginBottom: 12 }}>
+              <BrowseLinksPanel browseLinks={browseLinks} />
+            </div>
+          ) : null}
 
           {relatedPage ? (
             <div style={{ marginBottom: 12 }}>
