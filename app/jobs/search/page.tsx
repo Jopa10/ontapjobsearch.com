@@ -121,9 +121,10 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
         <p className="mt-2 max-w-3xl text-gray-600">
           Search Ontap's current published jobs by role, keyword and location. No account required.
         </p>
-        <div className="mt-5">
-          <SearchForm query={query} location={location} />
-        </div>
+      </div>
+
+      <div className="sticky top-2 z-20 mt-3 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-md backdrop-blur">
+        <SearchForm query={query} location={location} />
       </div>
 
       {!searched ? (
