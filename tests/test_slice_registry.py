@@ -15,8 +15,8 @@ class SliceRegistryTests(unittest.TestCase):
     def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
         records = load_slice_register()
         self.assertEqual(len(records), 63)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 36)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 27)
+        self.assertEqual(sum(row.status == "LIVE" for row in records), 35)
+        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 28)
         self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
 
     def test_live_rows_include_new_white_collar_and_admin_slices(self):
@@ -33,7 +33,7 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertTrue(expected.issubset(live))
         self.assertIn(("Yorkshire - North", "admin_service"), live)
 
-    def test_close_and_deferred_support_slices_are_candidates_not_live(self):
+    def test_close_and_deferred_slices_are_candidates_not_live(self):
         candidates = candidate_slices()
         expected = {
             ("Greater Manchester - Manchester & Salford", "customer_service_contact_centre"),
@@ -43,6 +43,7 @@ class SliceRegistryTests(unittest.TestCase):
             ("Somerset", "support_worker"),
             ("London", "support_worker"),
             ("Surrey", "support_worker"),
+            ("Buckinghamshire", "admin_service"),
         }
         self.assertTrue(expected.issubset(candidates))
         self.assertTrue(expected.isdisjoint(live_slices()))
