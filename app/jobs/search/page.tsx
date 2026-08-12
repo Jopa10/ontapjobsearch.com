@@ -38,6 +38,9 @@ function keywordText(job: PublishedJob): string {
     job.category,
     job.employment_type,
     job.work_pattern,
+    job.location,
+    job.region,
+    job.country,
     job.description.slice(0, 1800),
   ]
     .join(' ')
