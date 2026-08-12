@@ -145,7 +145,7 @@ function normaliseJob(row: Record<string, unknown>, filePath: string): Published
 
   return {
     job_id: text(row.job_id),
-    title: text(row.title),
+    title: normaliseJobTitle(text(row.title)),
     company: text(row.company),
     advertiser_name: text(row.advertiser_name),
     advertiser_type: text(row.advertiser_type),
