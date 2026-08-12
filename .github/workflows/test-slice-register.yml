@@ -17,7 +17,6 @@ on:
       - 'pipeline/scripts/service_admin_pipeline_coventry.py'
       - 'pipeline/scripts/service_admin_pipeline_live_config.py'
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
-      - 'pipeline/scripts/support_worker_pipeline_live_config.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
       - 'pipeline/scripts/derive_city_pages.py'
       - 'pipeline/scripts/scan_city_opportunities.py'
@@ -69,7 +68,6 @@ on:
       - 'pipeline/scripts/service_admin_pipeline_coventry.py'
       - 'pipeline/scripts/service_admin_pipeline_live_config.py'
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
-      - 'pipeline/scripts/support_worker_pipeline_live_config.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
       - 'pipeline/scripts/derive_city_pages.py'
       - 'pipeline/scripts/scan_city_opportunities.py'
@@ -130,7 +128,6 @@ jobs:
             pipeline/scripts/service_admin_pipeline_coventry.py \
             pipeline/scripts/service_admin_pipeline_live_config.py \
             pipeline/scripts/service_admin_pipeline_north_yorkshire.py \
-            pipeline/scripts/support_worker_pipeline_live_config.py \
             pipeline/scripts/jobg8_module_2_live_slices.py \
             pipeline/scripts/derive_city_pages.py \
             pipeline/scripts/scan_city_opportunities.py \
