@@ -993,17 +993,51 @@ def extract_salary_from_description(raw_description: Any) -> str:
     """
     Secondary salary fallback for JobG8 rows where structured salary columns are blank.
 
-    Safety rule:
-    - extract only explicit £ amounts with a nearby pay period from /Job/Description
-    - never infer from similar roles, title, employer, or location
-    - return blank if no clear explicit salary phrase is present
+    Safety rules:
+    - prefer explicit £ amounts with a nearby pay period from /Job/Description;
+    - also accept a tightly-scoped annual line such as "Up to 28,000" or
+      "Salary: 32,500" when the whole line is only a salary statement;
+    - never infer from similar roles, title, employer, or location;
+    - return blank if no clear explicit salary phrase is present.
     """
     raw = norm(raw_description)
     if not raw:
         return ""
 
-    text = clean_description(raw)
-    text = re.sub(r"\s+", " ", text).strip()
+    cleaned = clean_description(raw)
+    if not cleaned:
+        return ""
+
+    # Some JobG8 advertisers omit both the pound sign and pay-period field but
+    # put a standalone annual salary statement in the advert body. Keep this
+    # deliberately strict: the whole line must be salary-shaped, and values
+    # without an explicit period need an "Up to" or "Salary" cue.
+    annual_line = re.compile(
+        r"^\s*(?:(?P<salary>salary)\s*:?\s*)?"
+        r"(?:(?P<prefix>up\s+to|from)\s+)?"
+        r"(?P<amount>\d{2,3}(?:,\d{3})+)"
+        r"(?:\s*(?P<period>per\s+annum|per\s+year|a\s+year|annually|annual|p\.?a\.?))?"
+        r"\s*$",
+        flags=re.IGNORECASE,
+    )
+    for line in cleaned.splitlines():
+        match = annual_line.match(line)
+        if not match:
+            continue
+        if not match.group('period') and not (match.group('salary') or match.group('prefix')):
+            continue
+        amount_text = match.group('amount')
+        amount_value = int(amount_text.replace(',', ''))
+        if not 10_000 <= amount_value <= 250_000:
+            continue
+        prefix = (match.group('prefix') or '').lower()
+        if prefix.startswith('up'):
+            return f"Up to £{amount_text} per year"
+        if prefix == 'from':
+            return f"From £{amount_text} per year"
+        return f"£{amount_text} per year"
+
+    text = re.sub(r"\s+", " ", cleaned).strip()
     if not text or "£" not in text:
         return ""
 
@@ -1034,7 +1068,6 @@ def extract_salary_from_description(raw_description: Any) -> str:
     extracted = re.sub(r"\ba year\b", "per year", extracted, flags=re.IGNORECASE)
     extracted = re.sub(r"sleep[ -]in", "sleep-in", extracted, flags=re.IGNORECASE)
 
-    # Final safety check: require a currency symbol and a pay-period word in the final result.
     if "£" not in extracted:
         return ""
     if not re.search(r"\b(per hour|per hr|per annum|per year|per sleep-in|per shift|per week|per month|per day|hourly)\b", extracted, flags=re.IGNORECASE):
