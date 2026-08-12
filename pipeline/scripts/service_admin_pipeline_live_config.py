@@ -1,20 +1,20 @@
 """Run service-admin using every LIVE admin slice from the slice register.
 
-This wraps the established Sussex/Coventry/North-Yorkshire chain rather than
-replacing its selection logic. New regions only add geography/output/anchor
-configuration and generic review sections.
+This wraps the established Sussex/Coventry chain rather than replacing its
+selection logic. North Yorkshire and all later regions are added from the
+central slice register/catalog.
 """
 from __future__ import annotations
 
 from pathlib import Path
 from typing import Any
 
-from . import service_admin_pipeline_north_yorkshire as established
+from . import service_admin_pipeline_coventry as established
 from .slice_catalog import anchor_town, output_filename
 from .slice_registry import live_slices
 
-# North-Yorkshire -> Coventry -> Sussex -> guarded service_admin_pipeline proxy.
-core = established.live.live.core
+# Coventry -> Sussex -> guarded service_admin_pipeline proxy.
+core = established.live.core
 CATEGORY = "admin_service"
 
 LIVE_REGIONS = sorted(region for region, category in live_slices() if category == CATEGORY)
@@ -25,13 +25,22 @@ for region in EXTRA_REGIONS:
     core.OUTPUT_FILES[region] = output_filename(region, CATEGORY)
     core.PUBLISH_THRESHOLDS[region] = 6
 
+# Retain the common North Yorkshire aliases previously supplied by the dedicated wrapper.
+if "Yorkshire - North" in LIVE_REGIONS:
+    core.REGION_MAP.update(
+        {
+            "yorkshire - north": "Yorkshire - North",
+            "yorkshire north": "Yorkshire - North",
+            "north yorkshire": "Yorkshire - North",
+        }
+    )
+
 _ORIGINAL_LOAD_ANCHOR_TOWNS = core.load_anchor_towns
 _ORIGINAL_MANUAL_REVIEW_PREVIEW = core._manual_review_preview_rows
 _ORIGINAL_WRITE_MANUAL_REVIEW_MARKDOWN = core.write_manual_review_markdown
 
 
 def load_anchor_towns(path: Path, category: str) -> dict[str, str]:
-    """Keep established strict anchor checks, then add config-driven regions."""
     removed: dict[str, str] = {}
     for region in EXTRA_REGIONS:
         value = core.OUTPUT_FILES.pop(region, None)
@@ -152,13 +161,7 @@ def main() -> int:
     result = established.main()
     if result:
         return result
-
-    # The expanded Finance/Customer-Service/HR categories share the same current
-    # JobG8 input and are generated after the established admin selector. Their
-    # JSON files use distinct suffixes inside output-admin-service, so the current
-    # enrichment/commit workflow can carry them without changing admin semantics.
     from .registered_category_pipeline import run_live_registered_categories
-
     return run_live_registered_categories()
 
 
