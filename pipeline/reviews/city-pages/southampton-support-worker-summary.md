@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 10
-- automatic exclude: 10
-- effective include: 8
-- effective review: 10
-- effective exclude: 10
+- automatic include: 6
+- automatic review: 9
+- automatic exclude: 7
+- effective include: 6
+- effective review: 9
+- effective exclude: 7
 
-## INCLUDE (8)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,35 +76,11 @@ reason: The stated workplace matches the approved Southampton employment-market 
 action: 
 decision: include
 automatic_decision: include
-title: Night Care Assistant
-company: Barchester Healthcare - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2e1fc4f7-99a9-4a54-958d-1d82ba6e44a4
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Secure Childrens Home Support Worker (Weekends)
 company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1401784075
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker - Children & Young People
-company: Randstad Care - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-58c3e926-cf9b-4aae-a931-e1c867a7b221
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
@@ -120,7 +96,7 @@ job_id: jobg8-1642087
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -210,18 +186,6 @@ reason: No approved Southampton employment-market rule matched the stated locati
 action: 
 decision: review
 automatic_decision: review
-title: Female Waking Night Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-107656217
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Havant
@@ -242,7 +206,7 @@ job_id: jobg8-abdb05c5-8646-4efc-883f-b581bf1c1534
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -265,30 +229,6 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61
-reason: The stated workplace belongs outside the approved Southampton employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-b42a7fae-ccd3-4b95-ad90-dbf9e351a68a
-reason: The stated workplace belongs outside the approved Southampton employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Child Support Worker
-company: Randstad Care - Agency - Temporary
-location: Portsmouth
-source: JobG8
-job_id: jobg8-62ac8011-cb52-461e-bd72-7273b61cb640
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 
@@ -349,17 +289,5 @@ company: Apple Orchard - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-107776124
-reason: The stated workplace belongs outside the approved Southampton employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Secure Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1401784261
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---

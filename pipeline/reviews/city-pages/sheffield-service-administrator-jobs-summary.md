@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 0
-- automatic exclude: 4
-- effective include: 6
-- effective review: 0
-- effective exclude: 4
+- automatic include: 7
+- automatic review: 1
+- automatic exclude: 8
+- effective include: 7
+- effective review: 1
+- effective exclude: 8
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: The stated workplace matches the approved Sheffield employment-market pa
 action: 
 decision: include
 automatic_decision: include
+title: Recruitment Resourcer / Administrator
+company: Lynx Employment Services Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-107809801
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: SEND Administrative Assistant
 company: Westfield School
 location: Sheffield
@@ -96,9 +108,33 @@ job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-york
 reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
 ---
 
-## REVIEW (0)
+## REVIEW (1)
 
-## EXCLUDE (4)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: V-Recruit - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225459485
+reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
+---
+
+## EXCLUDE (8)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-2bf13223-ed72-4ed5-9d5b-283407b8c28e
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
 
 ---
 action: 
@@ -133,6 +169,42 @@ company: Springwell Special Academy
 location: Barnsley
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor - Dearne
+company: Angard Staffing - Agency - Contract
+location: Barnsley
+source: JobG8
+job_id: jobg8-ddcb07a8-84c1-4f7f-80ce-31bd938e8831
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Coordinator
+company: Gi Group - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225475228
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: NTD Coordinator
+company: TRC Yorkshire - Agency - Temporary
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225423861
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 

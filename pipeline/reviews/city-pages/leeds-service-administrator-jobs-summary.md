@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 4
-- automatic exclude: 10
-- effective include: 6
-- effective review: 4
-- effective exclude: 10
+- automatic include: 12
+- automatic review: 10
+- automatic exclude: 19
+- effective include: 12
+- effective review: 10
+- effective exclude: 19
 
-## INCLUDE (6)
+## INCLUDE (12)
 
 ---
 action: 
@@ -40,11 +40,83 @@ reason: The stated workplace matches the approved Leeds employment-market patter
 action: 
 decision: include
 automatic_decision: include
-title: Administrator (Financial Services)
-company: FindCore - Agency - Permanent
+title: Claims Handler
+company: Michael Page Business Support - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+job_id: jobg8-2df4c2d2-f97a-4e25-8255-8ace6845a95b
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Claims Handler - Industrial Disease
+company: IPS Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-180c56f1-188b-4257-b36d-f49bf2420346
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Complaints Handler
+company: Candidate Source Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-0964d2e1-424c-4a06-84b3-e1fa26bfa2a0
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Support Advisor
+company: InfoTrack UK - Company - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Development Planner
+company: Yorkshire Water - Company - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107798827
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Emerging Talent and Careers Coordinator
+company: Hackajob Ltd - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-107752534
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Customer Service Advisor
+company: Michael Page Business Support - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-8bf1c33a-6c01-4241-bb0e-c2c5019b19b9
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -96,7 +168,19 @@ job_id: jobg8-a16c651f-9130-4ce3-ac9d-34ca82f1c9ae
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
-## REVIEW (4)
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Connections Support Administrator
+company: Pertemps Leeds - Agency - Temporary
+location: Castleford
+source: JobG8
+job_id: jobg8-23643_225403696
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -107,6 +191,42 @@ company: De Lacy Academy
 location: Knottingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: HR 180 - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-23643_225427668
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Coordinator
+company: Sayjo Recruitment Ltd - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-23643_225476804
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Coordinator
+company: Huntress - Leeds - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-23643_225445220
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -127,6 +247,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: Hays Business Support - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-23643_225412849
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wetherby
 source: JobG8
@@ -138,15 +270,27 @@ reason: No approved Leeds employment-market rule matched the stated location; lo
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: Shipley
+title: Sales Office Administrator
+company: Office Angels - Agency - Permanent
+location: Wetherby
 source: JobG8
-job_id: jobg8-92947bbe-5ad0-443d-9145-e950a49ec9b2
+job_id: jobg8-23643_225458454
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (10)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Administration Assistant
+company: Pyramid8 - Agency - Permanent
+location: Castleford
+source: JobG8
+job_id: jobg8-23643_225422964
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+## EXCLUDE (19)
 
 ---
 action: 
@@ -157,6 +301,18 @@ company: Woodkirk Academy
 location: Wakefield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Proactive Global - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225404256
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---
 
@@ -200,6 +356,18 @@ reason: The stated workplace belongs outside the approved Leeds employment marke
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Claims Handler
+company: HARKAYE CORE TALENT LIMITED - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-6a55e736-5510-42ab-be96-7fd29e0f09b7
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Commercial Administrator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Wakefield
@@ -212,11 +380,59 @@ reason: The stated workplace belongs outside the approved Leeds employment marke
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Office / Purchasing Administrator
+company: Pertemps Bristol Commercial - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225420186
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchasing Administrator
+company: Manpower UK Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225463852
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Dental
+company: Edgerton Dental Clinic - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225463726
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist/Administrator
 company: Oastlers School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: Kingdom People - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225413268
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---
 
@@ -265,5 +481,41 @@ company: Office Angels - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-ec237c2a-3320-4238-a950-1ee708174fdc
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Office Support/Sales Administrator
+company: Office Angels - Agency - Temporary
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225436825
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Receptionist
+company: Tailored Recruitment Partners Limited - Agency - Temporary
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225476845
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Training Administrator
+company: Shorterm Group - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225465858
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---

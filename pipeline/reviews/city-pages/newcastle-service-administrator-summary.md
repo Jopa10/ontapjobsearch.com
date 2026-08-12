@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 6
-- automatic exclude: 7
-- effective include: 12
-- effective review: 3
-- effective exclude: 8
+- automatic include: 16
+- automatic review: 8
+- automatic exclude: 9
+- effective include: 18
+- effective review: 5
+- effective exclude: 10
 
-## INCLUDE (12)
+## INCLUDE (18)
 
 ---
 action: 
@@ -40,12 +40,48 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Consula Group LTD - Agency - Permanent
-location: Newcastle
+title: Ad hoc Receptionist - Newcastle City Centre
+company: Office Angels - Agency - Temporary
+location: Newcastle Upon Tyne
 source: JobG8
-job_id: jobg8-ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
+job_id: jobg8-23643_225433780
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Supply Care Solutions - Agency - Temporary
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225456443
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Temporary to Permanent - Team Valley
+company: Office Angels - Agency - Temporary
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225468085
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator Gateshead - Temp to Perm
+company: Office Angels - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225444106
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
 ---
 
 ---
@@ -64,24 +100,36 @@ reason: No Newcastle catchment rule matched the stated location; local geographi
 action: 
 decision: include
 automatic_decision: include
-title: Client Administrator
-company: IDEX Consulting Ltd - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-37de4be2-0a53-41c1-9b2c-dca52159ab6e
-reason: The stated workplace is Newcastle or explicitly includes Newcastle.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Account Administrator - Temp to Perm - Gateshead
 company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-da318476-2716-4dc4-96fa-7984b2a0a789
 reason: Gateshead forms part of the continuous Newcastle urban employment area.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service & Complaints Administrator - Team Valley
+company: Office Angels - Agency - Temporary
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225474293
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Anderson Wright Consulting Ltd - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-e1120589-2a2f-429d-8309-d8b4b0cf90ca
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
 ---
@@ -100,11 +148,11 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 action: 
 decision: include
 automatic_decision: include
-title: Family Learning Coordinator (9 Months Fixed Term)
-company: Children North East
-location: Newcastle
-source: VONNE
-job_id: vonne-173262
+title: Office Coordinator
+company: FRP Group - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-eafa8287-56b3-4ecd-a9bc-8fb95aa554c4
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
@@ -112,12 +160,12 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 action: 
 decision: include
 automatic_decision: include
-title: Office Coordinator
-company: FRP Group - Company - Permanent
-location: Newcastle Upon Tyne
+title: Order & Delivery Administrator - Temp to Perm - Team Valley
+company: Office Angels - Agency - Temporary
+location: Gateshead
 source: JobG8
-job_id: jobg8-eafa8287-56b3-4ecd-a9bc-8fb95aa554c4
-reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+job_id: jobg8-23643_225474615
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
 ---
 
 ---
@@ -148,11 +196,35 @@ reason: The broad North East location needs evidence that Newcastle residents ar
 action: 
 decision: include
 automatic_decision: include
-title: School Family Coordinator
-company: Children North East
-location: Newcastle
-source: VONNE
-job_id: vonne-173267
+title: Receptionist
+company: CCA Recruitment Group - Agency - Temporary
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225447571
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Miller Homes - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225404441
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist - Newcastle
+company: Office Angels - Agency - Temporary
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225423298
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
@@ -168,17 +240,41 @@ job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
-## REVIEW (3)
+## REVIEW (5)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Call Centre/Admin Assistant
-company: Specsavers - Company - Permanent
-location: Alnwick
+title: Business Administrator
+company: Spire Healthcare - Company - Permanent
+location: Washington
 source: JobG8
-job_id: jobg8-f6d1d055-8d92-44b3-b35c-4d2999b309ab
+job_id: jobg8-23643_225445993
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Coordinator
+company: Nigel Wright Group - Agency - Permanent
+location: North Shields
+source: JobG8
+job_id: jobg8-e79648bf-bd6c-4a2d-af24-e64c3b96758b
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Staff Partners Business - Agency - Temporary
+location: South Shields
+source: JobG8
+job_id: jobg8-23643_225449718
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
 ---
 
@@ -206,7 +302,19 @@ job_id: jobg8-40e191c1-6a98-48eb-91b0-6d618aad7c84
 reason: The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (10)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ad Hoc Receptionist - Sunderland
+company: Office Angels - Agency - Temporary
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225461787
+reason: Sunderland belongs to a separate employment area from the Newcastle city page.
+---
 
 ---
 action: 
@@ -237,6 +345,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrative Assistant
+company: Blu Tech consulting - Agency - Contract
+location: Durham
+source: JobG8
+job_id: jobg8-23643_225427868
+reason: Durham belongs to a separate employment area from the Newcastle city page.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
 company: Durham County Council
 location: Sacriston
 source: NEJobs
@@ -260,12 +380,12 @@ reason: Hartlepool is outside the Newcastle city-page catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Events Assistant
-company: Darlington Borough Council
-location: Darlington Borough Council
-source: NEJobs
-job_id: nejobs-300044
-reason: Darlington belongs to a separate employment area from the Newcastle city page.
+title: Part-Time Accounts Assistant
+company: Reed - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-eb882a3e-7edf-4fe0-8fe1-cf24c12bf16f
+reason: Durham belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---
