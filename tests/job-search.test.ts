@@ -54,7 +54,29 @@ const jobs = [
   job({ job_id: "hr", title: "Human Resources Administrator", location: "London", region: "London", category: "HR / Recruitment" }),
   job({ job_id: "newcastle-admin", title: "Administrator", location: "Newcastle upon Tyne", region: "North East" }),
   job({ job_id: "newcastle-customer", title: "Customer Service Advisor", location: "Newcastle upon Tyne", region: "North East" }),
+  job({
+    job_id: "newcastle-reception",
+    title: "Receptionist",
+    location: "Newcastle upon Tyne",
+    region: "North East",
+    description: "Front desk role with customer service responsibilities.",
+  }),
   job({ job_id: "leeds-admin", title: "Administrator", location: "Leeds", region: "West Yorkshire" }),
+  job({
+    job_id: "leeds-ledger-admin",
+    title: "Sales Ledger Administrator",
+    location: "Leeds",
+    region: "West Yorkshire",
+    category: "Finance / Accounts",
+  }),
+  job({
+    job_id: "leeds-complaints",
+    title: "Complaints Handler",
+    location: "Leeds",
+    region: "West Yorkshire",
+    category: "Finance / Accounts",
+    description: "Handles finance complaints and related administration.",
+  }),
   job({ job_id: "lewes-admin", title: "Administrator", location: "Lewes", region: "Sussex" }),
   job({ job_id: "bristol-admin", title: "Administrator", location: "Bristol", region: "Bristol & Bath", description: "General admin role including employee fees and records." }),
   job({ job_id: "support-worker", title: "Support Worker", location: "Southampton", region: "Hampshire" }),
@@ -71,6 +93,13 @@ const jobs = [
     location: "Leeds",
     region: "West Yorkshire",
     description: "Works closely with the purchasing coordinator and wider team in London.",
+  }),
+  job({
+    job_id: "broad-office",
+    title: "Client Service Advisor",
+    location: "London",
+    region: "London",
+    description: "An office job supporting clients and colleagues.",
   }),
 ];
 
@@ -116,13 +145,20 @@ test("common abbreviated role phrases are canonicalised before matching", () => 
 
 test("location abbreviations and truncations stay geographic", () => {
   assert.deepEqual(
-    searchJobs(jobs, "", "ncl").map(({ job_id }) => job_id),
-    ["newcastle-admin", "newcastle-customer"]
+    searchJobs(jobs, "", "ncl").map(({ job_id }) => job_id).sort(),
+    ["newcastle-admin", "newcastle-customer", "newcastle-reception"].sort()
   );
   assert.deepEqual(
-    searchJobs(jobs, "", "newcl").map(({ job_id }) => job_id),
-    ["newcastle-admin", "newcastle-customer"]
+    searchJobs(jobs, "", "newcl").map(({ job_id }) => job_id).sort(),
+    ["newcastle-admin", "newcastle-customer", "newcastle-reception"].sort()
   );
+});
+
+test("ambiguous short location typos resolve to the strongest geographic candidate", () => {
+  const ids = searchJobs(jobs, "admin", "lees").map(({ job_id }) => job_id);
+  assert.ok(ids.includes("leeds-admin"));
+  assert.ok(ids.includes("leeds-ledger-admin"));
+  assert.ok(!ids.includes("lewes-admin"));
 });
 
 test("London prefixes do not broaden into descriptions or other fields", () => {
@@ -139,8 +175,34 @@ test("mixed one-box searches infer geography instead of leaking nationally", () 
 
   const adminIds = searchJobs(jobs, "ardmin lees", "").map(({ job_id }) => job_id);
   assert.ok(adminIds.includes("leeds-admin"));
-  assert.ok(adminIds.includes("lewes-admin"));
+  assert.ok(adminIds.includes("leeds-ledger-admin"));
+  assert.ok(!adminIds.includes("lewes-admin"));
   assert.ok(!adminIds.includes("bristol-admin"));
+});
+
+test("narrow role searches require title support instead of inheriting the whole curated slice", () => {
+  const customerIds = searchJobs(jobs, "customer service", "newcastle").map(({ job_id }) => job_id);
+  assert.deepEqual(customerIds, ["newcastle-customer"]);
+
+  const adminIds = searchJobs(jobs, "admin", "leeds").map(({ job_id }) => job_id);
+  assert.ok(adminIds.includes("leeds-admin"));
+  assert.ok(adminIds.includes("leeds-ledger-admin"));
+  assert.ok(!adminIds.includes("description-only"));
+  assert.ok(!adminIds.includes("leeds-complaints"));
+
+  const receptionIds = searchJobs(jobs, "reception", "newcastle").map(({ job_id }) => job_id);
+  assert.deepEqual(receptionIds, ["newcastle-reception"]);
+});
+
+test("compound role searches can use category context but still need the narrow title anchor", () => {
+  const ids = searchJobs(jobs, "finance admin", "leeds").map(({ job_id }) => job_id);
+  assert.ok(ids.includes("leeds-ledger-admin"));
+  assert.ok(!ids.includes("leeds-complaints"));
+});
+
+test("broad generic searches remain broad", () => {
+  const ids = searchJobs(jobs, "office job", "london").map(({ job_id }) => job_id);
+  assert.ok(ids.includes("broad-office"));
 });
 
 test("two boxes can be used normally and both constraints are respected", () => {
