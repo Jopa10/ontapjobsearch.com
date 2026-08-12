@@ -2,6 +2,8 @@ name: Run VONNE review
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "35 6 * * 1,4"
 
 permissions:
   contents: write
