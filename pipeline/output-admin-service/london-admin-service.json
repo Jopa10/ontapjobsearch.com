@@ -663,12 +663,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c95dcc3a-aebc-4fba-850a-1e423f93872d",
@@ -743,14 +738,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225403370",
@@ -825,11 +813,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225406496",
@@ -854,11 +838,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225407744",
@@ -1158,11 +1138,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430273",
@@ -1212,11 +1188,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -1366,12 +1338,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225196977",
@@ -1421,12 +1388,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444722",
@@ -1501,12 +1463,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452426",
@@ -1556,12 +1513,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225454170",
@@ -1686,12 +1638,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464987",
@@ -1741,11 +1688,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466886",
@@ -1845,11 +1788,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3d2f35d7-304f-43ec-ab7a-50a01ee54e4b",
@@ -1878,7 +1817,7 @@
   },
   {
     "job_id": "23643_225476856",
-    "title": "Office Administrator",
+    "title": "Office Administrator (Construction)",
     "company": "React Site Solutions - Agency - Contract",
     "location": "London",
     "region": "London",
@@ -1886,10 +1825,10 @@
     "category": "Admin/Service – Office Support",
     "employment_type": "Contract",
     "salary_min": "24000",
-    "salary_max": "25000",
-    "salary_text": "£24000 - £25000 per year",
+    "salary_max": "28000",
+    "salary_text": "£24000 - £28000 per year",
     "posted_date": "",
-    "description": "Office Administrator required to join the team within the head office of an interior fit-out company based in Gloucester Road, West London.\n\nThe role will entail general office duties such as placing and chasing up material orders, raising and issuing invoices and generally supporting the Project Administration Team.\n\nYou will be working within a friendly team who will offer training and guidance.\n\nThis role has the potential to lead to permanent employment for the right candidate, following a succesful period on a contract basis.",
+    "description": "Office Administrator required to join the team within the head office of an interior fit-out company based in South Kensigton, West London.\n\nThe role will entail general office duties such as placing and chasing up material orders, raising and issuing invoices and generally supporting the Project Administration Team.\n\nPrevious experience or basic knowledge of construction would be useful as the role will invole some preparation of building manuals for which training and guidane will be provided.\n\nYou will be working within a friendly team who will offer training and guidance.\n\nThis role has the potential to lead to permanent employment for the right candidate, following a succesful period on a contract basis.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3%2f7rNgOgBePZFClEvOaTp2u",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
@@ -1949,13 +1888,82 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Scheduling and bookings",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225480041",
+    "title": "Receptionist/Facilitates Assistant",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14.5",
+    "salary_max": "14.65",
+    "salary_text": "£14.5 - £14.65 per hour",
+    "posted_date": "",
+    "description": "The West End team at Office Angels are recruiting for a Temporary Reception / Facilities Assistant to join a award winning medical governing body client, on a Temporary to permanent basis.\n\nSupporting facilities / Reception services at the large corporate offices in Euston.\n\nThis is a fantastic opportunity for the right candidate to get their foot in the door of a highly respected, established charity organisation!\n\nThe candidate must be available to start immediately and fully commit ongoing.\n\nA valid DBS Certificate is desired but not essential. Office Angels will apply for one on your behalf before you start.\n\nJOB ROLE: Facilities / Reception Assistant\n\nCOMPANY: Medical Governing Body / Medical Charity - that regulates Doctors in the UK\n\nHOURS: Full time, Monday to Friday 08:00 to 16.00 - This is a fully office-based role - 5 days per week.\n\nSALARY: 14.65 per hour\n\nLOCATION: Euston, London\n\nCULTURE: Luxury office, working within a professional and busy environment\n\nKey Responsibilities and Outcomes:\n- Answering calls and forwarding to the correct contact\n- Effectively resolving queries and escalating any issues\n- Meeting and greeting visitors in a professional manner\n- Booking and scheduling meeting rooms\n- Supporting the facilities help desk, responding to tickets\n- Maintaining security systems\n- Assisting with organising catering\n- Organising meetings, providing support with video and audio equipment\n- Providing access badges and maintaining records of visitors\n- Managing rotas when required\n- Maintaining records of all equipment, updating risk assessments\n- Completing health and safety checks when necessary\n- Assisting with ad- hoc duties when necessary\n\nKnowledge, Skills and Experience:\n\nTo be successful in this role you should have a combination of the below knowledge, skills, and experience:\n- Experience of working in a Facilities / help desk environment is essential\n- Experience of working in a customer facing role is essential\n- Excellent customer service skills\n- Experienced in writing reports in a clear and concise manner\n- Good IT skills- Word and Outlook, knowledge of Excel\n- Provide excellent written and verbal communication\n- The ability to build strong working relationships\n- Thrives when working within a team environment\n- ability to effectively multitask\n- Highly organised and enthusiastic nature\n\nOffice Angels Benefits:\n- Weekly pay every Friday\n- Easy time-sheet accessibility with mobile support\n- Up to 28 days annual leave\n- Perks at work and discount schemes for all major retailers and over 150 high street stores\n- Access to free eye-care vouchers and discounts towards glasses for VDU purposes\n- Access to well-being platforms\n\nIf this company and position appeals to you then please apply by sending your CV on-line or if applying via the OA website please send to me directly on (url removed)\n\nThis opportunity is being advertised by the Office Angels West End team.\n\nThank you for your interest in this role. All successful applications will be contacted within 5 working days. Due to the high volume of applications we receive we do ask for your patience to wait to hear from the consultant rather than to call us directly.\n\nIf you have not heard after 5 working days then unfortunately we were unable to consider your application on this occasion.\n\nOffice Angels West End branch look after roles in the following locations and all areas in between: Oxford Circus, Oxford Street, Covent Garden, Tottenham Court Road, Euston, Regent Street, Piccadilly, Leicester Square, Camden, Bond Street, Marble Arch, Marylebone, Mayfair, Baker Street, Edgware Road, Regents Park, St Johns Wood, Primrose Hill, Paddington, Hampstead.\n\nOur Retail team looks after Fashion and beauty roles nationally.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5ImQHFq8x94%2bCxdZ%2byztXRy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225367275",
+    "title": "Medical Receptionist",
+    "company": "Hamilton Mayday - Agency - Temporary",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "13",
+    "salary_text": "£13 per hour",
+    "posted_date": "",
+    "description": "Lifeline Recruitment Services are currently looking for experienced Medical Receptionists to cover at NHS GP Surgeries in various locations including North, Central and East London.\nYou will be working on the surgery's front desk, providing an excellent reception service for patients using Emis Web.\nThe ideal Medical Receptionist will:\nHave at least 6 months recent experience working in NHS GP surgery as a Medical Receptionist.\nBe able to book/cancel patient appointments, input patient data on the system, general administration duties and dealing with prescriptions.\nBe happy to undergo a DBS check or have a DBS certificate dated within a year\nBe flexible, reliable and professional.\nLifeline Recruitment Services is a specialist NHS approved health care agency, who are the preferred supplier to a variety of GP Practices and Private Clinics all over the UK.\nHere at Lifeline, we pride ourselves on our dedicated service for both candidates and clients. Our friendly staff ensure that you experience a smooth registration process, are committed to finding you the right shifts and can be easily contacted.\nJoin us and start your new locum career today!\nRegistering with Lifeline guarantees you:\nExcellent pay rates\nSuitable locations\nQuick and easy registration\nWeekly email job alerts\nIf you are interested please apply for the role now",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7rrdJp0VKvO7vZgTPv0KFRy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hamilton Mayday",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225480304",
+    "title": "Helpdesk Administrator",
+    "company": "SEE Services - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "23000",
+    "salary_max": "27000",
+    "salary_text": "£23000 - £27000 per year (Benefits)",
+    "posted_date": "",
+    "description": "About Us: SEE Services, established over 30 years ago, is a trusted name in the maintenance industry. We specialize in delivering top-notch services primarily in the leisure and retail sectors. Currently, we handle approximately 250 reactive electrical, building, and fabric jobs. Our busy Maintenance Helpdesk is at the heart of our operations, offering a dynamic and fast-paced work environment that will suit energetic and proactive individuals.\n\nAbout the Role: We are seeking a highly organized and proactive Helpdesk Administrator to join our dynamic team. Working on a busy maintenance helpdesk, you will play a crucial role in ensuring smooth operations and excellent client service. If you thrive in a fast-paced environment and have a knack for multitasking, this role is for you.\n\nKey Responsibilities:\n- Helpdesk Administrating: Monitor the helpdesk email inbox to ensure timely responses and actions.\n- Job Coordination: Raise jobs on our in-house CAFM (Computer-Aided Facility Management) system.\n- Client Communication: Send quotes to client portals and respond to general queries via email.\n- Call Handling: Answer incoming calls from clients, addressing general queries and logging emergency jobs.\n- Timekeeping: Process engineer timesheets with accuracy and efficiency.\n- Client Portals: Update and maintain client web portals to ensure data accuracy and transparency.\n\nKey Skills and Requirements:\n- Previous experience in a helpdesk or administrative role is preferred.\n- Strong organizational skills and the ability to prioritize tasks effectively.\n- Excellent communication skills, both written and verbal.\n- Proficient in using CAFM systems and other office software (e.g., Microsoft Office Suite).\n- Ability to work under pressure in a fast-paced environment.\n- A customer-focused approach with a commitment to delivering high-quality service.\n\nWhat We Offer:\n- Competitive salary and benefits package.\n- Opportunities for professional growth and development.\n- A supportive and collaborative work environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJl1W8M7I6AG2P2Wy6%2brT98l",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "SEE Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "781d50bb-b677-4fd8-9101-ba5aa0285257",
@@ -2052,6 +2060,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Euro Car Parks Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "41ee99c4-73ba-4adc-b7a3-84fb1910f0bb",
+    "title": "Junior Service Desk Analyst",
+    "company": "Context Recruitment Limited - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "30000",
+    "salary_text": "£27000 - £30000 per year",
+    "posted_date": "",
+    "description": "Junior Service Desk Analyst London £27,000 - £30,000 PAA well-established and highly regarded IT Managed Service Provider is looking to recruit a Junior Service Desk Analyst to join its friendly and supportive Service Desk team. This is an excellent opportunity for an IT graduate, college leaver with relevant qualifications, or someone with basic IT knowledge or exposure looking to begin a career in IT support. Equally, candidates from a strong customer service background with a genuine passion for technology are encouraged to apply. Working within a close-knit MSP environment, you'll receive hands-on training and mentorship while acting as the first point of contact for customers, helping to log, triage and coordinate IT support requests. This role provides an excellent foundation for progressing into 1st Line Support and beyond. As the first point of contact for customers, you'll play a vital role in delivering an excellent support experience. You'll be responsible for accurately logging incidents and service requests, ensuring tickets contain the right information and are assigned to the appropriate engineers for resolution. You'll also keep customers updated throughout the support process whilst working closely with the wider Service Desk team to ensure service levels are maintained. Responsibilities: Answer incoming telephone calls, emails and support requests in a professional and friendly manner Accurately log incidents and service requests within the service desk ticketing system Gather relevant information from customers to ensure engineers have everything needed to investigate issues Categorise and prioritise tickets in line with Service Level Agreements Assign tickets to the appropriate engineers or technical teams Provide customers with ticket reference numbers and regular progress updates Monitor ticket queues to ensure requests are progressing within agreed timescales Escalate urgent or high-priority incidents where appropriate Maintain accurate ticket documentation and service records Assist with general service desk administration and reporting Requirements: A genuine interest in technology and IT Excellent customer service and communication skills Strong attention to detail and organisational skills The ability to remain calm and organised in a busy environment A positive attitude and willingness to learn Good knowledge of Microsoft Office applications An IT-related degree, college qualification or apprenticeship will be highly beneficial Previous experience in a customer service, helpdesk or service desk environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLddmj7hu%2bHkmd%2bBrr6Byg8w",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Context Recruitment Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -2205,11 +2238,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107786275",
@@ -2237,146 +2266,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1fe790a9-3fdc-4868-9f4a-0fdbb501a4ae",
-    "title": "Finance Assistant",
-    "company": "Office Angels - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Finance Assistant\n\nLocation: London Bridge\n\nSalary: £28,000\n\nHours: Monday - Friday, 9:00 am - 5:30 pm\n\nFull time office based and after probation they can offer 2 days a week from home\n\nWe're recruiting a Finance Assistant to join an ambitious and growing company in the heart of London Bridge. This role offers hands-on finance experience within a lively, supportive team.\n\nWhy You'll Love Working Here:\n\nEmployee Assistance Programme\n\nPension Scheme\n\nSocial Events\n\nEye Care & Cancer Screening\n\nBirthday Perk: An extra paid day off on your special day!\n\nKey Responsibilities:\n\nAs a Finance Assistant, you will play a crucial role in ensuring the smooth operation of the finance department.\n\nLoading supplier invoices and sending for approval\n\nProcessing monthly payment runs\n\nUpdating the cashbook on their accounting system.\n\nBuilding and maintaining relationships with suppliers.\n\nHandling general enquiries\n\nPreparing commission statements efficiently.\n\nLoading sale invoices\n\nAssist with debt collecting\n\nOverseeing the sales statement process\n\nWhat We're Looking For:\n\nPrevious experience in Purchase Ledger\n\nProficiency in using Sage software is beneficial\n\nAn accounting qualification, preferably AAT Level 3 or equivalent is beneficial\n\nExceptional communication skills\n\nStrong organisational skills and effective time management\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6dLZEt2Jlt%2fXu0QU6cFAZ0Kh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "316f2ae5-fd75-409f-9b68-3ef8adc7fb89",
-    "title": "Administrator - Charity",
-    "company": "Ashdown Group - Agency - Contract",
-    "location": "Harrow",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "18",
-    "salary_max": "21",
-    "salary_text": "£18 - £21 per hour",
-    "posted_date": "",
-    "description": "Administrator / Executive Assistant\n- Initial 2 month contract with possible option of permanent thereafter\n- Based in the Stanmore/Harrow area of North West London\n- Hourly rate of £21\n- 35 hour week (Monday to Friday office based and Fridays from home)\n- Planned start date: 1st September\n\nAn established and successful charity are looking for an experienced Administrator to join their inhouse team. This is a varied role that will be supporting a senior team within the charity sector so someone professional and reliable is required. Duties will include:\n- General office administration\n- Managing building supplies and cleaning\n- Managing meeting rooms and bookings\n- Greeting visitors\n- Liaising with regulatory bodies\n- Database management and reporting\n- Maintaining records\n- Managing events calendar\n- Supporting event management and arranging meetings\n- Taking minutes during meetings\n\nTo be considered suitable you will need the following skills and experience:\n- Strong administration or EA support background\n- Excellent verbal and written communication skills\n- Good knowledge of MS Office, including Excel databases\n- Previous experience of organising meetings and events\n- Ability to produce reports\n- Knowledge of SharePoint\n- Ideally a good understanding of AI technology",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0K3TEMStSK03EBVAEzIUrBHs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ashdown Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
-  },
-  {
-    "job_id": "c17b478b-b263-4cf0-bc94-62e97f51f46e",
-    "title": "Financial Services Administrator",
-    "company": "Capio Recruitment Financial Planning - Agency - Permanent",
-    "location": "Uxbridge",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "33000",
-    "salary_max": "36000",
-    "salary_text": "£33000 - £36000 per year",
-    "posted_date": "",
-    "description": "Hybrid Working Annual Bonus Excellent Benefits Career Development Opportunities\n\nLocation: Uxbridge, West London (Hybrid Working inc every Friday at home)\n\nSalary: £33,000-£36,000 DOE + Annual Bonus\n\nHours: Full-time (37.5 hours per week)\n\nAbout the Company\n\nOur client is a well-established independent financial planning practice with an outstanding reputation for delivering personalised, long-term financial advice. Built on professionalism, trust and strong client relationships, the business has created a collaborative working environment where quality always comes before volume. As the firm continues to grow, they're looking to welcome an experienced Financial Services Administrator to their close-knit team.\n\nThe Opportunity\n\nThis is an excellent opportunity for an experienced Financial Services Administrator looking to join a supportive, relationship-led business where your contribution is genuinely valued.\n\nWorking alongside Financial Advisers and Paraplanners, you'll play a key role in delivering a seamless client experience by managing the administration of pensions, investments and protection business from start to finish. Whether you're looking to continue building your career as a specialist administrator or progress into Paraplanning in the future, you'll be joining a firm that actively supports professional development and long-term career growth.\n\nKey Responsibilities\n- Provide comprehensive administrative support to Financial Advisers and Paraplanners throughout the financial planning process.\n- Process new business across pensions, investments and protection accurately and efficiently.\n- Manage Letters of Authority (LOAs), tracking requests and liaising with providers to obtain information promptly.\n- Support the firm's Annual Review Service by preparing review packs, obtaining valuations and scheduling client reviews.\n- Prepare client documentation and meeting packs.\n- Liaise with providers, investment platforms and third parties to progress cases and resolve queries.\n- Maintain accurate client records and workflows within Intelligent Office (iO).\n- Support Paraplanners with report preparation and technical administration.\n- Provide proactive updates to clients, ensuring an exceptional level of customer service.\n- Identify opportunities to improve processes and contribute to the continued efficiency of the business.\n\nAbout You\n\nYou'll already have experience working within a Financial Services Administration role and enjoy providing high-quality support within an Independent Financial Advice or Wealth Management environment.\n\nYou'll also have:\n- Experience supporting Financial Advisers throughout the advice process.\n- A good understanding of pensions, investments and protection products.\n- Experience managing Letters of Authority and new business administration.\n- Excellent organisational skills with strong attention to detail.\n- The ability to prioritise multiple cases effectively.\n- Strong written and verbal communication skills.\n- A professional, personable and client-focused approach.\n- Experience using Intelligent Office (iO) would be advantageous.\n- Experience using FE Analytics or industry platforms would be beneficial.\n\nWhy Join?\n\nThis is a business where people genuinely enjoy working together. You'll become part of a small, supportive team where initiative is encouraged, achievements are recognised and long-term relationships matter.\n\nWhether your ambition is to build a long-term career as a Financial Services Administrator or develop into Paraplanning in the future, you'll receive the support and opportunities to achieve your goals.\n\nBenefits\n- Business Performance Bonus Scheme\n- Hybrid working.\n- 25 days annual leave plus Bank Holidays.\n- Auto-enrolment pension scheme.\n- Ongoing professional development and technical training.\n- Support towards further professional qualifications.\n- Clear career progression opportunities, including a structured pathway into Paraplanning for those who wish to develop.\n- Free on-site parking.\n- Join a growing independent financial planning practice where your contribution is recognised and valued.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N40N6THounuZTRE2T1JZLXpq",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Financial Services Administrator Hybrid Working Annual Bonus Excellent Benefits Career Development Opportunities Location: Uxbridge, West London (Hybrid Working inc every Friday at home) Salary: £33,000-£36,000 DOE + Annual Bonus Hours: Full-time (37.5 hours per week) About the Company Our client is a well-established independent financial planning practice with an outstanding reputation for delivering personalised, long-term financial advice.",
-    "advertiser_name": "Capio Recruitment Financial Planning",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "ce1a4d3a-01bd-4318-9879-9012ad1a1d1b",
-    "title": "Practice Administrator/Secretary",
-    "company": "SKILLFRAME - Agency - Permanent",
-    "location": "Twickenham",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "36000",
-    "salary_text": "£30000 - £36000 per year",
-    "posted_date": "",
-    "description": "Practice Administrator & Secretary\n\nLocation: Twickenham\n\nHours: Full-time, permanent, Monday to Friday, 9.00am to 5.30pm.\n\nSalary: Competitive\n\nAdditional: A three-month probationary period applies. References will be required.\n\nThe Role\n\nAn exciting opportunity has arisen for a Practice Administrator & Secretary to join our clients friendly and professional team within a busy firm of Chartered Accountants and Auditors.\n\nThis is a varied and interesting role, providing administrative and secretarial support to the Directors and wider team. The successful candidate will be an organised, professional, and proactive individual who enjoys working in a small practice environment where they can build strong working relationships with colleagues and clients.\n\nThe role is ideal for someone with previous secretarial or administrative experience who enjoys variety, takes pride in delivering a high standard of service, and is comfortable managing competing priorities in a professional environment.\n\nKey Responsibilities\n\nReception & Client Support:\n\nActing as the first point of contact for visitors, clients, telephone calls, and emails.\n\nProviding a professional and welcoming front-of-house service, with a smile.\n\nGreeting clients and ensuring meeting room is prepared.\n\nManaging incoming post, outgoing correspondence, and recorded deliveries.\n\nLiaising professionally with clients and suppliers.\n\nSecretarial & Administrative Support:\n\nProviding secretarial support to the Director and team.\n\nPreparing letters, documents, and general correspondence with a high typing speed.\n\nDiary management and arranging meetings using Outlook.\n\nTaking meeting notes/minutes when required.\n\nMaintaining accurate electronic and paper filing systems.\n\nScanning, filing, and organising client documentation.\n\nUpdating internal records, databases, and administrative systems.\n\nSetting up and maintaining spreadsheets and databases.\n\nSupporting the smooth day-to-day running of the office.\n\nMaintenance of office equipment and general office upkeep and tidiness.\n\nSecretarial cover and working with other Secretaries/Admin staff and Office Manager to achieve goals.\n\nClient Administration:\n\nAssisting with the administration of limited company client affairs.\n\nMaintaining client records and ensuring information is accurately updated in real time.\n\nAssisting with the receipt and organisation of client records and documentation in real time.\n\nSupporting administrative requirements relating to Companies House and HM Revenue & Customs in real time.\n\nAbout You\n\nOur client is looking for someone who:\n\nHas previous experience in a secretarial or administrative role (ideally within a professional services environment).\n\nHas excellent written and verbal communication skills.\n\nHas a professional and friendly telephone and front-of-house manner.\n\nIs highly organised with strong attention to detail.\n\nCan prioritise workloads and manage multiple tasks effectively.\n\nIs confident working independently while also contributing positively to a small team.\n\nHas excellent IT skills, including Microsoft Word, Excel, Outlook, and databases.\n\nIs numerate and comfortable working with spreadsheets and systems.\n\nUnderstands the importance of confidentiality, data protection, and handling sensitive information.\n\nIs reliable, punctual, trustworthy, and professional.\n\nPossess a strong work ethic and enjoy working to tight deadlines using own initiative with the ability to work on your own.\n\nA professional attitude with the ability to adapt to different situations, being calm under pressure.\n\nTo be flexible and open to change.\n\nWork well with others, excellent team player.\n\nExperience of managing a high volume of work, providing full secretarial support to the team.\n\nProfessional appearance.\n\nAn awareness of the importance of risk management and compliance.\n\nExperience & Qualifications\n\nMinimum of 3 years' experience in a secretarial / administrative role and demanding services environment, with 5 years plus experience preferred.\n\nExperience within accountancy, finance, legal, or another professional services environment would be advantageous/preferable.\n\nEducated to GCSE level (or equivalent) minimum, with grades A-C to include English and Maths, strong IT / written and verbal communication skills at all levels, with an aptitude towards spreadsheets, databases and word processing (Microsoft office). Further qualifications or relevant professional experience would be advantageous.\n\nWorking Environment\n\nYou will be joining a small, friendly practice where you will work closely with the Director, and wider administration team. The role offers variety, responsibility, and the opportunity to become a valued member of the team.\n\nTelephone support is shared within the administration team, providing a collaborative working environment.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP54maOnyzJrqJZFm5eyoNyUy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "SKILLFRAME",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "2f01765c-5705-43c3-8e7b-12bf4fdd75d5",
-    "title": "Administrator",
-    "company": "ORP Recruitment - Agency - Permanent",
-    "location": "Orpington",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "40000",
-    "salary_text": "£35000 - £40000 per year",
-    "posted_date": "",
-    "description": "An exciting new opening for a Sales Administrator has arisen to provide proactive administrative and commercial support to the lead Account Manager. The Sales Administrator role involvesensuring excellent customer service, efficient sales processes, and the effective management of customer accounts.\n- Competitive basic salary of £35,000 with an uncapped commission structure, rewarding high performance\n- Office based\n- Parking on site\n\nSales Administrator responsibilities:\n- Providing comprehensive administrative and sales support to the lead Account Manager\n- Setting up and maintaining pricing on the in-house system in line with approved agreements\n- Preparing accurate customer quotations and issuing within agreed service levels\n- Following up sales enquiries in accordance with agreed action plans to maximise conversion rates and improve customer satisfaction\n- Contacting existing and prospective customers to arrange appointments and support development initiatives\n- Identifying and qualifying new business opportunities, undertaking set activities to generate sales leads and revenue growth\n- Reviewing and managing outstanding customer orders, ensuring prompt resolution of any issues\n- Liaising with the wider team and suppliers to obtain pricing, product availability, and lead times\n- Working closely with customers and the lead Account Manager to resolve pricing queries accurately and in a timely manner\n- Monitoring customer purchasing trends, identify reductions in spending, and supporting the implementation of customer retention and account management\n\nSales Administrator skills/competencies:\n- Previous experience in a sales support, sales administration, customer service, or account support role\n- Excellent organisational skills\n\nApply today!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsQ9oFsd%2fi%2bR6NHQHNmG2nalm",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "ORP Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
-  },
-  {
     "job_id": "2e0f17ce-eacf-4dfd-b33f-6b3dfc640c41",
     "title": "Clinical Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -2399,13 +2288,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428094",
@@ -2430,11 +2313,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "365a170b-e62e-49f9-b465-6fa223da75bd",
+    "title": "Service Administrator",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "Chessington",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year",
+    "posted_date": "",
+    "description": "Service Administrator\n\nLocation: Chessington (Office-Based) Free On-Site ParkingSalary: £26,000 - £28,000kWorking Hours: Monday to Thursday, 7:30am - 4:30pm Friday, 7:30am - 3:00pmBenefits: Generous benefits package, early finish every Friday, free parking, supportive family-feel team environment, office dogs, career development opportunities\n\nJoin a Friendly Team in Chessington!\n\nAre you a highly organised administrator with excellent customer service skills? Do you enjoy working in a busy, varied role where no two days are the same? If so, we'd love to hear from you.\n\nWe are looking for a Service Administrator to join a welcoming and supportive team based in Chessington. This is a fantastic opportunity for someone who enjoys being at the heart of a business, providing vital administrative support and ensuring the smooth running of service operations.\n\nThe Role\n\nAs a Service Administrator, you will play a key role in supporting the Service Team, acting as a central point of contact for clients, suppliers, and engineers. You'll be responsible for a wide range of administrative tasks, helping to ensure the department operates efficiently while delivering an excellent customer experience.\n\nKey Responsibilities:\n- Managing incoming calls and providing excellent customer service\n- Completing service RAMS documentation\n- Processing and issuing invoices\n- Completing supplier forms and maintaining accurate records\n- Arranging permits for site visits\n- Assisting with service quotations\n- Managing accreditations and certification documentation\n- Maintaining accurate service and customer records\n- Monitoring fleet administration, including vehicle servicing, MOTs, lease renewals and associated costs\n- Providing general office and administrative support to the wider team\n\nRequirements:\n- Excellent customer service and telephone communication skills\n- A positive, proactive and professional approach\n- Strong organisational skills and attention to detail\n- The ability to manage multiple priorities and meet deadlines\n- A willingness to learn and develop new skills\n- Good knowledge of Microsoft Office and standard business systems\n- Previous administration experience, ideally within a service, engineering or facilities environment\n\nIf you're looking for a busy and rewarding administrative position within a welcoming team, apply today!\n\nOffice Angels acts as an employment agency for permanent recruitment and is an equal opportunities employer. We are committed to creating an inclusive workplace and welcome applications from all suitably qualified candidates. Should you require any reasonable adjustments during the recruitment process, please let us know.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPbW8fyrcAUjmzHYW0VqOPBo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225424406",
@@ -2462,35 +2366,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "365a170b-e62e-49f9-b465-6fa223da75bd",
-    "title": "Service Administrator",
-    "company": "Office Angels - Agency - Permanent",
-    "location": "Chessington",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "28000",
-    "salary_text": "£26000 - £28000 per year",
-    "posted_date": "",
-    "description": "Service Administrator\n\nLocation: Chessington (Office-Based) Free On-Site ParkingSalary: £26,000 - £28,000kWorking Hours: Monday to Thursday, 7:30am - 4:30pm Friday, 7:30am - 3:00pmBenefits: Generous benefits package, early finish every Friday, free parking, supportive family-feel team environment, office dogs, career development opportunities\n\nJoin a Friendly Team in Chessington!\n\nAre you a highly organised administrator with excellent customer service skills? Do you enjoy working in a busy, varied role where no two days are the same? If so, we'd love to hear from you.\n\nWe are looking for a Service Administrator to join a welcoming and supportive team based in Chessington. This is a fantastic opportunity for someone who enjoys being at the heart of a business, providing vital administrative support and ensuring the smooth running of service operations.\n\nThe Role\n\nAs a Service Administrator, you will play a key role in supporting the Service Team, acting as a central point of contact for clients, suppliers, and engineers. You'll be responsible for a wide range of administrative tasks, helping to ensure the department operates efficiently while delivering an excellent customer experience.\n\nKey Responsibilities:\n- Managing incoming calls and providing excellent customer service\n- Completing service RAMS documentation\n- Processing and issuing invoices\n- Completing supplier forms and maintaining accurate records\n- Arranging permits for site visits\n- Assisting with service quotations\n- Managing accreditations and certification documentation\n- Maintaining accurate service and customer records\n- Monitoring fleet administration, including vehicle servicing, MOTs, lease renewals and associated costs\n- Providing general office and administrative support to the wider team\n\nRequirements:\n- Excellent customer service and telephone communication skills\n- A positive, proactive and professional approach\n- Strong organisational skills and attention to detail\n- The ability to manage multiple priorities and meet deadlines\n- A willingness to learn and develop new skills\n- Good knowledge of Microsoft Office and standard business systems\n- Previous administration experience, ideally within a service, engineering or facilities environment\n\nIf you're looking for a busy and rewarding administrative position within a welcoming team, apply today!\n\nOffice Angels acts as an employment agency for permanent recruitment and is an equal opportunities employer. We are committed to creating an inclusive workplace and welcome applications from all suitably qualified candidates. Should you require any reasonable adjustments during the recruitment process, please let us know.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPbW8fyrcAUjmzHYW0VqOPBo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
-  },
-  {
     "job_id": "9b48a7b1-48d9-48c8-8cae-115c132bd6d9",
     "title": "Sales Administrator (Part Time)",
     "company": "Job Box Recruitment Limited - Agency - Permanent",
@@ -2513,11 +2388,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225406162",
@@ -2542,11 +2413,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "6e0e1ceb-64e6-4082-b2ae-1be73f02bf86",
@@ -2649,6 +2516,56 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "fc3deac6-60ad-4c42-bdf3-0475b7c31498",
+    "title": "Call Centre Sales Advisor",
+    "company": "Zachary Daniels - Agency - Permanent",
+    "location": "Brentford",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year",
+    "posted_date": "",
+    "description": "Call Centre Sales Advisor\n\nWest London Circa £27,000 basic + Uncapped Commission + Benefits\n\nWe're working with a well-established and growing business within a customer-focused, service-led sector, looking to recruit a Call Centre Sales Advisor to join their team in West London.\n\nThis is a fantastic opportunity for someone who enjoys a fast-paced, sales-driven environment, with a strong focus on inbound enquiries (around 95%), meaning you'll be dealing with warm, engaged customers rather than heavy outbound calling.\n\nThe Role\n\nYou'll be responsible for managing a high volume of inbound enquiries, supporting customers through their journey and converting opportunities into sales, with only a small element of outbound follow-up.\n\nKey responsibilities include:\n- Handling predominantly inbound sales calls (circa 95%)\n- Responding to customer enquiries via phone and email\n- Building strong relationships with new and existing customers\n- Understanding customer needs and tailoring solutions accordingly\n- Maximising opportunities through upselling additional services\n- Maintaining accurate records on the CRM system\n- Supporting with reporting and general team performance\n- Escalating any issues or complaints where required\n\nAbout You\n- Experience within a call centre or contact centre environment prefferred but not essential\n- Customer service sales experience is a must\n- Strong communication and interpersonal skills\n- A confident, proactive approach to sales\n- Comfortable working to targets in a performance-driven environment\n- Organised, self-motivated and able to manage multiple tasks\n- A team player who thrives in a collaborative setting\n\nWhat's on Offer\n- Circa £27,000 basic salary\n- Uncapped commission structure\n- Only 1 weekend per month sometimes less, supporting a strong work life balance\n- Supportive team environment\n- Ongoing training and development\n- Opportunity to grow within a stable and expanding business\n\nBBH36070",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fjIklQnqTsVLUl3zQYGK6wli",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Zachary Daniels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
+    "title": "Mercedes-Benz Service Advisor",
+    "company": "Sytner Group - Company - Permanent",
+    "location": "Brentford",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "About the role\n\nWe have an excellent opportunity available for a motivated Service Advisor to join our team at Mercedes Benz of West London. As a Sytner Service Advisor, you will provide outstanding customer care and be the vital link between our customers and the workshop. You will inform and consult on vehicle servicing, and keep the customer up to date at every stage whilst answering any questions or queries they may have. You will also liaise with technicians/workshop control about vehicle statuses and ensure that vehicles will be ready on time. You will also have the ability to give the best advice on our products and services to our customers. This is a challenging role where customer care always comes first, you'll take the time to talk to people, build a genuine rapport and identify exactly what our customers want and need. Sytner Service Advisors work a variety of flexible patterns which can typically include weekends to ensure we provide our customers with the highest possible levels of service.\n\nAbout you\n\nDon't worry if you do not have previous experience, we want applications from individuals with a willingness to learn and progress. Training is provided through our dedicated in-house Learning & Development team and outstanding manufacturer courses run by Mercedes to support your career. Ideally, you will have excellent organisational and administrative skills along with good attention to detail. A strong customer service background would be beneficial as you will be delivering high levels of customer satisfaction in a very busy and demanding environment. Working knowledge of Kerridge would be advantageous, but not essential.\n\nWhy Sytner?\n\nSytner Group are delighted to provide an industry-leading benefits package.\n\nWe are passionate about continuous improvement and building an environment where everyone feels valued, appreciated and able to reach their full potential.\n- Enhanced Holiday Entitlement - 33 days inc. bank holidays\n- Industry-leading Maternity, Paternity and Adoption Pay\n- Career Development\n- Recognition of Long Service every 5 years\n- Discounted Car Schemes\n- High Street Discounts\n- Discounted Gym memberships\n- Cycle to work scheme\n- One day a year paid voluntary / community work\n\nAt Sytner, our values and the way we behave are important to us. We are committed to creating an equitable working environment where we value and respect every individual's unique contribution, supporting our colleagues to thrive and achieve their full potential.\n\nAs part of our commitment to Diversity and Inclusion, you have the right to ask for changes / adjustments to job interviews and the recruitment process. For more information around reasonable adjustments and the recruitment process please .\n\nUnsure? Read on\n\nWe represent over 23 of the world's most prestige vehicle brands, across our 140 UK dealerships.\n\nWe pride ourselves on 'Developing Talent and 'Building Careers' and our colleagues recently scored Sytner Group an outstanding 89% on our colleague engagement survey.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVab%2biOJZqvvoZo0Mp8lDDn1j",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sytner Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
     "title": "Administrator Receptionist",
     "company": "Reed - Agency - Permanent",
@@ -2671,14 +2588,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -2703,13 +2613,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428764",
@@ -2759,11 +2663,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463028",
@@ -2813,11 +2713,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434211",
@@ -2892,11 +2788,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434826",
@@ -2921,11 +2813,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d2495526-4867-4327-8cf4-c09c0908fbc3",
@@ -2953,31 +2841,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
-    "title": "Mercedes-Benz Service Advisor",
-    "company": "Sytner Group - Company - Permanent",
-    "location": "Brentford",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "About the role\n\nWe have an excellent opportunity available for a motivated Service Advisor to join our team at Mercedes Benz of West London. As a Sytner Service Advisor, you will provide outstanding customer care and be the vital link between our customers and the workshop. You will inform and consult on vehicle servicing, and keep the customer up to date at every stage whilst answering any questions or queries they may have. You will also liaise with technicians/workshop control about vehicle statuses and ensure that vehicles will be ready on time. You will also have the ability to give the best advice on our products and services to our customers. This is a challenging role where customer care always comes first, you'll take the time to talk to people, build a genuine rapport and identify exactly what our customers want and need. Sytner Service Advisors work a variety of flexible patterns which can typically include weekends to ensure we provide our customers with the highest possible levels of service.\n\nAbout you\n\nDon't worry if you do not have previous experience, we want applications from individuals with a willingness to learn and progress. Training is provided through our dedicated in-house Learning & Development team and outstanding manufacturer courses run by Mercedes to support your career. Ideally, you will have excellent organisational and administrative skills along with good attention to detail. A strong customer service background would be beneficial as you will be delivering high levels of customer satisfaction in a very busy and demanding environment. Working knowledge of Kerridge would be advantageous, but not essential.\n\nWhy Sytner?\n\nSytner Group are delighted to provide an industry-leading benefits package.\n\nWe are passionate about continuous improvement and building an environment where everyone feels valued, appreciated and able to reach their full potential.\n- Enhanced Holiday Entitlement - 33 days inc. bank holidays\n- Industry-leading Maternity, Paternity and Adoption Pay\n- Career Development\n- Recognition of Long Service every 5 years\n- Discounted Car Schemes\n- High Street Discounts\n- Discounted Gym memberships\n- Cycle to work scheme\n- One day a year paid voluntary / community work\n\nAt Sytner, our values and the way we behave are important to us. We are committed to creating an equitable working environment where we value and respect every individual's unique contribution, supporting our colleagues to thrive and achieve their full potential.\n\nAs part of our commitment to Diversity and Inclusion, you have the right to ask for changes / adjustments to job interviews and the recruitment process. For more information around reasonable adjustments and the recruitment process please .\n\nUnsure? Read on\n\nWe represent over 23 of the world's most prestige vehicle brands, across our 140 UK dealerships.\n\nWe pride ourselves on 'Developing Talent and 'Building Careers' and our colleagues recently scored Sytner Group an outstanding 89% on our colleague engagement survey.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVab%2biOJZqvvoZo0Mp8lDDn1j",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Sytner Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225417672",
     "title": "Customer Service Operations Coordinator",
     "company": "Bridge Recruitment UK Ltd - Agency - Permanent",
@@ -2997,6 +2860,31 @@
     "working_arrangement_text": "Hybrid working",
     "working_arrangement_evidence": "You will be expected to be on call which will be 1 in 4 weeks (details to be explained) The role has the potential to go to hybrid - mainly 3 office / 2 home - this will be after a qualifying period Exciting opportunity for the right candidate to join an exceptional company that will be experiencing high growth over the next 12/24 months - there will be plenty of room for progression and career development Harrow London",
     "advertiser_name": "Bridge Recruitment UK Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225399146",
+    "title": "Sales Coordinator",
+    "company": "Michael Page - Agency - Permanent",
+    "location": "Chessington",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "30000",
+    "salary_text": "£27000 - £30000 per year",
+    "posted_date": "",
+    "description": "As a Sales Consultant in the Media & Agency sector, you'll play a key role in driving growth by building relationships with clients and identifying new opportunities. Your day-to-day will include engaging with customers, understanding their needs, and delivering tailored solutions to help them achieve their goals.\n\nClient Details\n\nA company operating in the Media & Agency industry, dedicated to delivering effective solutions for its clients.\n\nDescription\n- Engage with clients to understand their needs and provide tailored recommendations.\n- Develop and maintain strong relationships with existing and potential customers.\n- Identify new sales opportunities and create strategies to pursue them effectively.\n- Collaborate with internal teams to ensure seamless delivery of services to clients.\n- Achieve and exceed sales targets within the Media & Agency sector.\n- Prepare and present proposals to prospective clients.\n- Maintain up-to-date knowledge of the industry and market trends.\n- Track and report on sales performance and client feedback to improve results.\n\nProfile\n\nA successful Sales Consultant should have:\n- Proven ability to build and manage client relationships effectively.\n- Experience in sales within the Media & Agency industry.\n- Strong communication and negotiation skills.\n- Ability to work independently and as part of a team.\n- A proactive and results-driven approach to achieving targets.\n- Good understanding of current market trends and customer needs.\n- Confidence in presenting ideas and solutions to clients.\n\nJob Offer\n- Competitive salary ranging from 25,200 to 30,800, dependent on the level of experience.\n- Permanent position offering job security and growth potential.\n- Additional company benefits to support your professional journey.\n\nIf you're interested in this role, apply now.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyRb7XO0qMAUg4hzXkrl3xdf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -3128,6 +3016,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225479282",
+    "title": "Planner",
+    "company": "Daniel Owen Ltd - Agency - Permanent",
+    "location": "Croydon",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "17.84",
+    "salary_max": "17.84",
+    "salary_text": "£17.84 per hour",
+    "posted_date": "",
+    "description": "X2 Planners\nBased in Croydon\nTemp to perm\noffice based\n\nKey Responsibilities\nRepairs Planning & Coordination\n- Plan and schedule damp and mould inspections, remedial works and follow-on repairs.\n- Allocate work to appropriate operatives and specialist contractors based on skills, availability and location.\n- Ensure appointments are arranged within required service timescales.\n- Monitor outstanding jobs and proactively identify potential delays.\n- Coordinate follow-on works where further repairs or treatment are identified.\n- Ensure work orders contain accurate and relevant information for operatives.\n- Update repairs management systems with appointment, job and completion information.\n- Liaise with surveyors and operational teams to ensure appropriate works are planned.\n\nDamp & Mould Case Management\n- Monitor damp and mould cases from initial instruction through to completion.\n- Ensure jobs are appropriately categorised and prioritised.\n- Track inspections, treatment, remedial works and any required follow-up visits.\n- Escalate urgent or complex cases to the appropriate manager or surveyor.\n- Ensure outstanding actions are followed up within agreed timescales.\n- Support the team in maintaining accurate records and case histories.\n\nResident & Customer Service\n- Contact residents to arrange and confirm appointments.\n- Provide clear and professional information regarding planned works and appointment arrangements.\n- Respond to resident queries and ensure issues are passed to the appropriate team where necessary.\n- Maintain a customer-focused approach, particularly when dealing with residents experiencing damp and mould issues.\n- Record relevant communication and actions accurately on the repairs system.\n- Identify vulnerable residents or concerns requiring escalation in line with company procedures.\n\nContractor & Operative Liaison\n- Communicate daily with operatives, surveyors and subcontractors regarding planned works.\n- Check that operatives have the necessary job information before attending properties.\n- Monitor operative attendance, job progress and completion.\n- Follow up incomplete or aborted appointments.\n- Assist with resolving scheduling and access issues.\n- Escalate recurring contractor or performance issues to the relevant manager.\n\nAdministration & Compliance\n- Maintain accurate and up-to-date repairs records.\n- Ensure all relevant documentation, photographs, reports and completion information are recorded appropriately.\n- Produce basic reports and updates on outstanding damp and mould works.\n- Support the team in meeting contractual, operational and regulatory timescales.\n- Follow company policies relating to health and safety, safeguarding, data protection and customer service.\n- Maintain confidentiality and handle resident information appropriately.\n\nKey Skills & Experience\nEssential\n- Excellent organisational and time-management skills.\n- Strong attention to detail.\n- Good verbal and written communication skills.\n- Confident using IT systems, including Microsoft Office.\n- Ability to manage multiple tasks and changing priorities.\n- Ability to work effectively as part of a team.\n- Customer-focused approach with a professional and empathetic manner.\n- Ability to remain calm and professional when dealing with challenging situations.\n- Willingness to learn about damp, mould, housing repairs and property maintenance.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp5YIePP3z3Kq9YWPgxbiVUPg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Daniel Owen Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225438749",
     "title": "Repairs Planner",
     "company": "Howells Solutions Limited - Agency - Temporary",
@@ -3175,31 +3088,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1651419",
-    "title": "Policy and Communications Coordinator",
-    "company": "National Children's Bureau - Agency - Permanent",
-    "location": "Hackney",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£31,000 per annum",
-    "posted_date": "",
-    "description": "For over 60 years the National Children's Bureau (NCB) has been building a better childhood for all.\n\nWe are currently recruiting a Policy and Communications Coordinator to join our Policy and Communications team on a two-year fixed-term contract.\n\nPolicy and Communications Coordinator\nContract: 2-year fixed term\nWork Pattern: 35 hours per week. (1 FTE). We are open to flexible hours and working patterns, including accommodating part-time and compressed hours where possible.\nSalary: £31,000 per annum\nLocation: London Fields, London E8 3 PN. NCB promotes a hybrid, flexible way of working with 1 day working in the office if based in London\n\nAbout the Role\n\nThe Policy and Communications Coordinator plays a key role in helping NCB drive positive change for children and young people across the UK, by supporting the delivery key elements of policy, public affairs, and communications work. This role supports the development and delivery of high-quality and impactful policy outputs, communications and campaigns, to enhance our visibility and impact, bringing lived and learned experiences to the heart of our influencing work.\n\nSupporting cross-NCB coordination by working across teams and Specialist Membership Groups, the Coordinator will grow and maintain vibrant, diverse and engaged memberships, and help ensure NCB's voice is clear, timely, and influential across the policy arena and public conversation.\n\nWe are particularly interested to hear from candidates with an interest in wellbeing, belonging and anti-bullying, as these will be key areas that the post-holder will focus on. NCB's Policy and Communications team also works across a range of other issues such as SEND, health, social care, poverty and justice.\n\nWhat you'll be doing:\n\nCommunications and digital engagement:\n- Support the delivery of integrated communications and campaigns that amplify the voices of children, young people and families.\n- Draft, design, and schedule engaging, accessible content across a range of digital channels, including social media, website, sector-facing briefings, newsletters and e-marketing content.\n- Monitor news coverage, maintain a media contact database, and draft media statements and press releases to secure national and regional coverage.\n- Work closely with our networks and advisory groups to ethically gather, produce, and share powerful case studies and testimonials that highlight lived experiences of our areas of work.\n- Maintain digital assets, ensuring all case studies and images are ethically sourced with informed consent and stored securely.\n- Monitor, analyse and report on monthly digital analytics to optimise website traffic, social media performance and sector newsletter open rates.\n- Develop and maintain membership processes for external networks and groups.\n- Coordinate logistics for cross-sector membership groups, campaign launches, sector webinars, and network-wide stakeholder events.\n\nPolicy and public affairs:\n- Monitor UK policy and parliamentary activity, announcements and sector trends to flag advocacy opportunities or policy risks for our networks.\n- Summarise complex policy documents, legislation, and research reports into clear and concise briefings for internal teams, sector partners and member, and to support engagement of lived experience groups.\n- Contribute to the development of high-quality consultation responses, position statements, and briefings for civil servants, MPs, and other stakeholders.\n- Coordinate policy activities across NCB projects and networks, including our work involving members, children and young people.\n- Support the organisation of parliamentary events, roundtables and stakeholder meetings.\n- Support the development of positive relationships including Parliamentarians, politicians and officials in central and local government, and other key stakeholders.\n- Support secretariat work and parliamentary engagement for All-Party Parliamentary Groups.\n- Maintain up-to-date records of key stakeholders including policymakers, parliamentarians, officials, and sector contacts.\n\nWe are looking for someone who brings:\n- A genuine interest in policy, public affairs and communications.\n- An understanding of issues affecting children and young people in the UK.\n- Knowledge of UK government, policymaking and parliamentary structures and processes.\n- A personal commitment to diversity, equity and inclusion and anti-discriminatory practice, particularly in anti-racism and anti-ableism.\n- Excellent interpersonal and verbal communication skills, with the ability to engage effectively with people from a range of backgrounds and build collaborative working relationships.\n- Strong organisational, administrative and project coordination skills, with the ability to manage competing priorities and meet deadlines.\n- Excellent written communication skills, with experience of producing high-quality content for different audiences and purposes, including briefings, reports, digital content or stakeholder communications.\n- Experience of creating content for digital channels, including websites, newsletters and social media in a professional context.\n- Strong research and analytical skills, with the ability to identify, interpret and synthesise information from a range of sources accurately and clearly.\n- Commitment to involving children, young people and adults with lived experience, in effective, ethical and evidence-based ways.\n- Excellent IT skills, including Microsoft Office applications and experience using databases, websites and digital systems.\n\nAbout NCB\n\nFor more than 60 years, the National Children's Bureau has championed the rights and amplified the voice of children and young people in the UK. We interrogate policy and uncover evidence, blending in lived and learnt experience to shape future legislation and develop more effective ways of supporting children and families.\n\nBringing people and organisations together is fundamental to how we improve the systems that babies, children, young people and their families rely on to thrive. We push boundaries, even looking beyond childhood itself to consider transitions into adulthood and the impact of childhood issues on an entire lifespan. We are united for better childhoods and brighter futures.\n\nThe Benefits\n- 30 Days Annual Leave\n- Generous Pension Scheme\n- Cycle to work scheme\n- Flexible Working\n- Winter Holiday Closure & Break\n- Employee Assistance Programme\n\nApplications close at 08:00am on Tuesday 1st September 2026.\nAssessments and interviews to be conducted during the week commencing 7th September 2026.\nPlease note that we reserve the right to close this vacancy early should we receive a high volume of applications. We encourage interested candidates to submit their applications as soon as possible.\n\nInterested?\n\nIf you would like to find out more, please click the apply button. You will be directed to our website to complete your application for this position.\n\nWe are actively seeking to broaden the diversity of our staff group and warmly welcome applications from candidates underrepresented in the charity sector, including those from Black and Global Majority communities, disabled people, LGBTQ+ individuals, and people with lived experience of the issues NCB works on.\n\nNo agencies please.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0J8o0Fl7aBuvq95YSQU%2bKDis",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "NCB promotes a hybrid, flexible way of working with 1 day working in the office if based in London About the Role The Policy and Communications Coordinator plays a key role in helping NCB drive positive change for children and young people across the UK, by supporting the delivery key elements of policy, public affairs, and communications work.",
-    "advertiser_name": "National Children's Bureau",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   }
 ]
