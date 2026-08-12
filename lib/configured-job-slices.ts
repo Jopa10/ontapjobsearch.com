@@ -112,7 +112,8 @@ function buildSlice(region: string, category: string): ConfiguredSlice | undefin
     dataFilePath: path.join(
       ROOT,
       "app",
-      "_slice-data",
+      "_city-pages",
+      "configured-slices",
       regionSlug,
       `${categorySlug}.json`
     ),
