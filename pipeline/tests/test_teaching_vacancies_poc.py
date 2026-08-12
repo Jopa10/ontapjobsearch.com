@@ -163,7 +163,7 @@ def test_review_csv_and_markdown_match_existing_external_source_format(
                 title="Office Manager",
                 employer="B Academy",
                 location="Bradford, West Yorkshire, BD1 1AA",
-                salary_text="£30,000",
+                salary_text="£27,000",
                 closing_date="2026-08-21",
                 source_url="https://example.test/poss-1",
             ),
@@ -232,6 +232,7 @@ def test_same_day_action_edits_are_loaded_and_applied(tmp_path: Path):
                 title="Office Manager",
                 employer="B Academy",
                 location="Bradford, West Yorkshire, BD1 1AA",
+                salary_text="£27,000",
                 source_url="https://example.test/poss-1",
             ),
         ],
@@ -253,7 +254,7 @@ source_job_id: hc-1
 
 ---
 action: select
-POSS | West Yorkshire | Bradford | £30,000 | Office Manager
+POSS | West Yorkshire | Bradford | £27,000 | Office Manager
 source_job_id: poss-1
 ---
 """,
