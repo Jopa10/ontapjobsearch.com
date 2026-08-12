@@ -27,8 +27,6 @@ const TOKEN_ALIASES: Record<string, string> = {
   adviser: "advisor",
   advisors: "advisor",
   assistants: "assistant",
-  receptionist: "reception",
-  receptionists: "reception",
   temporary: "temp",
   warehousing: "warehouse",
 };
