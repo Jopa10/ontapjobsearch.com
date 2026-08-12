@@ -24,7 +24,6 @@ jobs:
           import pandas as pd
           import re
           from pathlib import Path
-          from collections import Counter, defaultdict
 
           DAYS = ['2026-08-11','2026-08-12']
           BASE = Path('pipeline')
@@ -59,12 +58,12 @@ jobs:
             return re.sub(r'\s+',' ',str(v).strip()).lower()
           registers={}
           for cat,fn in specs.items():
-            r=pd.read_csv(REGS/fn,dtype=str).fillna('')
-            registers[cat]={norm(x.title) for _,x in r.iterrows() if x.classification.strip().upper() in selected and norm(x.title)}
+            rr=pd.read_csv(REGS/fn,dtype=str).fillna('')
+            registers[cat]={norm(x.title) for _,x in rr.iterrows() if x.classification.strip().upper() in selected and norm(x.title)}
           area_df=pd.read_excel(GEO,dtype=str).fillna('')
-          area_map={norm(r.Area):str(r.Cluster).strip() for _,r in area_df.iterrows() if norm(r.Area) and str(r.Cluster).strip()}
+          area_map={norm(x.Area):str(x.Cluster).strip() for _,x in area_df.iterrows() if norm(x.Area) and str(x.Cluster).strip()}
           fb=pd.read_excel(GEO,sheet_name='LocationFallback',dtype=str).fillna('')
-          fallback={norm(r.Location):str(r.Cluster).strip() for _,r in fb.iterrows() if norm(r.Status)=='auto' and norm(r.Location) and str(r.Cluster).strip()}
+          fallback={norm(x.Location):str(x.Cluster).strip() for _,x in fb.iterrows() if norm(x.Status)=='auto' and norm(x.Location) and str(x.Cluster).strip()}
 
           rows=[]
           for day in DAYS:
@@ -103,9 +102,8 @@ jobs:
           m=pd.DataFrame(metrics).sort_values(['live','day12','companies','titles'],ascending=[True,False,False,False])
           print('CANDIDATES_CURRENT_DAY_4PLUS')
           for _,r in m.iterrows():
-            print(f"{r.region}|{r.cat}|live={str(r.live).lower()}|d11={r.day11}|d12={r.day12}|titles={r.titles}|companies={r.companies}|locations={r.places}|top1={r.top1:.1%}|top2={r.top2:.1%}|topcos={r.topcos}")
+            print(f"{r['region']}|{r['cat']}|live={str(r['live']).lower()}|d11={r['day11']}|d12={r['day12']}|titles={r['titles']}|companies={r['companies']}|locations={r['places']}|top1={r['top1']:.1%}|top2={r['top2']:.1%}|topcos={r['topcos']}")
 
-          # Mechanical quality buckets for assistance only; final judgement remains manual.
           def bucket(r):
             if r['live']: return 'EXISTING'
             stable = r['day11'] >= max(4, int(r['day12']*0.5))
@@ -116,16 +114,15 @@ jobs:
             return 'WEAK'
           m['bucket']=m.apply(bucket,axis=1)
           print('\nSTRONG_AND_CLOSE_NONLIVE')
-          for _,r in m[m.bucket.isin(['STRONG','CLOSE'])].iterrows():
-            print(f"{r.bucket}|{r.region}|{r.cat}|d11={r.day11}|d12={r.day12}|titles={r.titles}|companies={r.companies}|locations={r.places}|top1={r.top1:.1%}|top2={r.top2:.1%}")
+          for _,r in m[m['bucket'].isin(['STRONG','CLOSE'])].iterrows():
+            print(f"{r['bucket']}|{r['region']}|{r['cat']}|d11={r['day11']}|d12={r['day12']}|titles={r['titles']}|companies={r['companies']}|locations={r['places']}|top1={r['top1']:.1%}|top2={r['top2']:.1%}")
 
-          # Deduped incremental current-day job contribution for mechanical STRONG candidates, largest first.
-          strong=m[m.bucket=='STRONG'].sort_values('day12',ascending=False)
-          chosen=set(); cumulative=set()
+          strong=m[m['bucket']=='STRONG'].sort_values('day12',ascending=False)
+          cumulative=set()
           print('\nSTRONG_INCREMENTAL_UNION')
           for _,r in strong.iterrows():
-            ids=set(data[(data.day==DAYS[1])&(data.region==r.region)&(data.cat==r.cat)].jid)
+            ids=set(data[(data.day==DAYS[1])&(data.region==r['region'])&(data['cat']==r['cat'])].jid)
             inc=len(ids-cumulative); cumulative |= ids
-            print(f"{r.region}|{r.cat}|slice={len(ids)}|incremental={inc}|cumulative={len(cumulative)}")
+            print(f"{r['region']}|{r['cat']}|slice={len(ids)}|incremental={inc}|cumulative={len(cumulative)}")
           print('STRONG_DEDUPED_TOTAL',len(cumulative))
           PY
