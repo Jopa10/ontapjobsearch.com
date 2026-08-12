@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { searchJobs } from '@/lib/job-search';
 import {
   getJobPath,
   getPublishedJobs,
@@ -20,52 +21,6 @@ type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
 function firstValue(value: string | string[] | undefined): string {
   return Array.isArray(value) ? value[0] || '' : value || '';
-}
-
-function clean(value: string): string {
-  return value.trim().toLowerCase();
-}
-
-function tokens(value: string): string[] {
-  return clean(value).split(/\s+/).filter(Boolean);
-}
-
-function keywordText(job: PublishedJob): string {
-  return [
-    job.title,
-    job.company,
-    job.advertiser_name,
-    job.category,
-    job.employment_type,
-    job.work_pattern,
-    job.location,
-    job.region,
-    job.country,
-    job.description.slice(0, 1800),
-  ]
-    .join(' ')
-    .toLowerCase();
-}
-
-function locationText(job: PublishedJob): string {
-  return [job.location, job.region, job.country].join(' ').toLowerCase();
-}
-
-function searchJobs(jobs: PublishedJob[], query: string, location: string): PublishedJob[] {
-  const queryTokens = tokens(query);
-  const locationTokens = tokens(location);
-
-  if (queryTokens.length === 0 && locationTokens.length === 0) return [];
-
-  return jobs.filter((job) => {
-    const searchableJobText = keywordText(job);
-    const searchableLocationText = locationText(job);
-
-    return (
-      queryTokens.every((token) => searchableJobText.includes(token)) &&
-      locationTokens.every((token) => searchableLocationText.includes(token))
-    );
-  });
 }
 
 function cleanSalary(value: string): string {
