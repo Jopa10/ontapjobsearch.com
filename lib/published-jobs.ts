@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { getLondonJobArea } from "@/lib/london-job-area";
+import { isLondonJob } from "@/lib/london-job-area";
 import { normaliseJobTitle } from "@/lib/job-title";
 import {
   getConfiguredSliceBySlugs,
@@ -86,29 +86,24 @@ function sourceSlice(
   }
 
   if (jsonRoute === "london/service-administrator-jobs") {
-    const londonArea = getLondonJobArea({
+    const londonJob = {
       title: normaliseJobTitle(text(row.title)),
       location: text(row.location),
       description: text(row.full_description) || text(row.description),
-    });
+    };
 
-    if (londonArea === "outside-london") {
+    if (!isLondonJob(londonJob)) {
       return {
         path: "/browse-jobs",
         label: "Browse jobs",
       };
     }
 
-    if (londonArea === "outer") {
-      return {
-        path: "/london/outer-service-administrator-jobs",
-        label: "Outer London Admin & Customer Service Jobs",
-      };
-    }
-
+    // Keep the job-detail backlink stable on the London-wide parent. The
+    // London sub-area pages are filtered views of the same underlying feed.
     return {
       path: "/london/service-administrator-jobs",
-      label: "Central & Inner London Admin & Customer Service Jobs",
+      label: "London Admin & Customer Service Jobs",
     };
   }
 
@@ -187,10 +182,7 @@ function addPublishedFile(filePath: string, byId: Map<string, PublishedJob>) {
   for (const row of parsed) {
     if (!isPublishedJob(row)) continue;
     const job = normaliseJob(row, filePath);
-    if (
-      job.region.toLowerCase() === "london" &&
-      getLondonJobArea(job) === "outside-london"
-    ) {
+    if (job.region.toLowerCase() === "london" && !isLondonJob(job)) {
       continue;
     }
     if (!byId.has(job.job_id)) byId.set(job.job_id, job);
