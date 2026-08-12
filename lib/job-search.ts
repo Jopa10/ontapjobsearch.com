@@ -12,6 +12,11 @@ const TOKEN_ALIASES: Record<string, string> = {
   administrator: "admin",
   administrative: "admin",
   admins: "admin",
+  admn: "admin",
+  cust: "customer",
+  srv: "service",
+  supp: "support",
+  wrkr: "worker",
   services: "service",
   accounts: "account",
   accounting: "account",
@@ -31,6 +36,10 @@ const TOKEN_ALIASES: Record<string, string> = {
   warehousing: "warehouse",
 };
 
+const LOCATION_TOKEN_ALIASES: Record<string, string> = {
+  ncl: "newcastle",
+};
+
 function normalise(value: string): string {
   return value
     .normalize("NFKD")
@@ -44,14 +53,82 @@ function normalise(value: string): string {
     .trim();
 }
 
+function cleanToken(token: string): string {
+  return token.replace(/^\.+|\.+$/g, "");
+}
+
 function canonicalToken(token: string): string {
-  const clean = token.replace(/^\.+|\.+$/g, "");
+  const clean = cleanToken(token);
   return TOKEN_ALIASES[clean] || clean;
 }
 
-function queryTokens(value: string): string[] {
-  let text = normalise(value);
-  text = text
+function damerauLevenshtein(a: string, b: string): number {
+  if (a === b) return 0;
+  if (!a.length) return b.length;
+  if (!b.length) return a.length;
+
+  const matrix = Array.from({ length: a.length + 1 }, () => new Array<number>(b.length + 1).fill(0));
+  for (let i = 0; i <= a.length; i += 1) matrix[i][0] = i;
+  for (let j = 0; j <= b.length; j += 1) matrix[0][j] = j;
+
+  for (let i = 1; i <= a.length; i += 1) {
+    for (let j = 1; j <= b.length; j += 1) {
+      const substitution = a[i - 1] === b[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + substitution
+      );
+
+      if (
+        i > 1 &&
+        j > 1 &&
+        a[i - 1] === b[j - 2] &&
+        a[i - 2] === b[j - 1]
+      ) {
+        matrix[i][j] = Math.min(matrix[i][j], matrix[i - 2][j - 2] + 1);
+      }
+    }
+  }
+
+  return matrix[a.length][b.length];
+}
+
+const KNOWN_ROLE_TOKENS = [...new Set([...Object.keys(TOKEN_ALIASES), ...Object.values(TOKEN_ALIASES)])];
+
+function canonicalQueryToken(token: string): string {
+  const clean = cleanToken(token);
+  const exact = TOKEN_ALIASES[clean];
+  if (exact) return exact;
+  const locationAlias = LOCATION_TOKEN_ALIASES[clean];
+  if (locationAlias) return locationAlias;
+  if (clean.length < 4) return clean;
+
+  let bestToken = clean;
+  let bestDistance = Number.POSITIVE_INFINITY;
+
+  for (const known of KNOWN_ROLE_TOKENS) {
+    const distance = damerauLevenshtein(clean, known);
+    const maxLength = Math.max(clean.length, known.length);
+    let allowedDistance = maxLength >= 10 ? 3 : maxLength >= 7 ? 2 : 1;
+
+    // Long, recognisably same-stem words can survive several omitted letters
+    // (e.g. "admistrtr" -> "administrator") without making short tokens loose.
+    if (maxLength >= 10 && clean.slice(0, 4) === known.slice(0, 4)) {
+      allowedDistance = 4;
+    }
+
+    if (distance <= allowedDistance && distance < bestDistance) {
+      bestDistance = distance;
+      bestToken = TOKEN_ALIASES[known] || known;
+    }
+  }
+
+  return bestToken;
+}
+
+function applyPhraseAliases(text: string): string {
+  return text
     .replace(/\bcustomer services?\b/g, " customerservice ")
     .replace(/\bcustomer support\b/g, " customerservice ")
     .replace(/\bhuman resources?\b/g, " hr ")
@@ -59,9 +136,19 @@ function queryTokens(value: string): string[] {
     .replace(/\bexecutive assistant\b/g, " ea ")
     .replace(/\bcontact cent(?:re|er)\b/g, " contactcentre ")
     .replace(/\bfront of house\b/g, " reception ")
-    .replace(/\bsupport worker\b/g, " supportworker ");
+    .replace(/\bsupport worker\b/g, " supportworker ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-  return text.split(/\s+/).filter(Boolean).map(canonicalToken);
+function queryTokens(value: string): string[] {
+  const canonicalText = normalise(value)
+    .split(/\s+/)
+    .filter(Boolean)
+    .map(canonicalQueryToken)
+    .join(" ");
+
+  return applyPhraseAliases(canonicalText).split(/\s+/).filter(Boolean);
 }
 
 function candidateTokens(value: string): string[] {
@@ -117,11 +204,57 @@ function tokenMatches(query: string, candidate: string): boolean {
   return levenshtein(query, candidate) <= maxDistance;
 }
 
+function isOrderedSubsequence(query: string, candidate: string): boolean {
+  let queryIndex = 0;
+  for (const char of candidate) {
+    if (char === query[queryIndex]) queryIndex += 1;
+    if (queryIndex === query.length) return true;
+  }
+  return false;
+}
+
+function geoTokenMatches(query: string, candidate: string): boolean {
+  const cleanQuery = LOCATION_TOKEN_ALIASES[query] || query;
+  if (tokenMatches(cleanQuery, candidate)) return true;
+
+  if (cleanQuery.length >= 3 && candidate.startsWith(cleanQuery)) return true;
+
+  // Handles natural truncations such as "newcl" -> "newcastle" and
+  // "soton" -> "southampton" while keeping very short fragments strict.
+  if (
+    cleanQuery.length >= 5 &&
+    candidate.length > cleanQuery.length &&
+    cleanQuery.slice(0, 2) === candidate.slice(0, 2) &&
+    isOrderedSubsequence(cleanQuery, candidate)
+  ) {
+    return true;
+  }
+
+  if (cleanQuery.length >= 4 && candidate.length >= 4) {
+    const maxDistance = Math.max(cleanQuery.length, candidate.length) >= 8 ? 2 : 1;
+    if (
+      Math.abs(cleanQuery.length - candidate.length) <= maxDistance &&
+      damerauLevenshtein(cleanQuery, candidate) <= maxDistance
+    ) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 function allTokensMatch(query: string, candidate: string): boolean {
   const wanted = queryTokens(query);
   if (!wanted.length) return false;
   const available = candidateTokens(candidate);
   return wanted.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
+}
+
+function allGeoTokensMatch(query: string, candidate: string): boolean {
+  const wanted = normalise(query).split(/\s+/).filter(Boolean);
+  if (!wanted.length) return false;
+  const available = normalise(candidate).split(/\s+/).filter(Boolean);
+  return wanted.every((token) => available.some((candidateToken) => geoTokenMatches(token, candidateToken)));
 }
 
 function scoreField(query: string, value: string, scores: [number, number, number, number]): number {
@@ -135,6 +268,33 @@ function scoreField(query: string, value: string, scores: [number, number, numbe
   if (field.includes(q)) return contains;
   if (allTokensMatch(query, value)) return token;
   return 0;
+}
+
+function scoreGeoField(query: string, value: string, scores: [number, number, number, number]): number {
+  if (!query.trim() || !value.trim()) return 0;
+  const q = normalise(query);
+  const field = normalise(value);
+  const [exact, starts, contains, token] = scores;
+
+  if (field === q) return exact;
+  if (field.startsWith(`${q} `) || q.startsWith(`${field} `)) return starts;
+  if (field.includes(q) && q.length >= 4) return contains;
+  if (allGeoTokensMatch(query, value)) return token;
+  return 0;
+}
+
+function bestGeoMatch(job: PublishedJob, input: string): FieldMatch {
+  const fields: Array<[MatchKind, string, [number, number, number, number]]> = [
+    ["location", job.location, [230, 205, 180, 160]],
+    ["region", job.region, [225, 200, 175, 155]],
+  ];
+
+  let best: FieldMatch = { score: 0, kind: "location" };
+  for (const [kind, value, scores] of fields) {
+    const score = scoreGeoField(input, value, scores);
+    if (score > best.score) best = { score, kind };
+  }
+  return best;
 }
 
 function bestMatch(job: PublishedJob, input: string): FieldMatch {
@@ -168,9 +328,33 @@ function preferredBonus(kind: MatchKind, preferred: "role" | "location"): number
 }
 
 export function searchJobs(jobs: PublishedJob[], query: string, location: string): PublishedJob[] {
+  let roleQuery = query.trim();
+  let effectiveLocation = location.trim();
+
+  // A rushed one-box search such as "cust srv ncl" or "west york admin"
+  // should still separate a recognisable place from the role terms. Only infer
+  // geography when the dedicated location box is empty.
+  if (roleQuery && !effectiveLocation) {
+    const rawTokens = normalise(roleQuery).split(/\s+/).filter(Boolean);
+    const geoTokenIndexes = new Set<number>();
+
+    rawTokens.forEach((token, index) => {
+      if (jobs.some((job) => bestGeoMatch(job, token).score >= 30)) {
+        geoTokenIndexes.add(index);
+      }
+    });
+
+    if (geoTokenIndexes.size > 0) {
+      effectiveLocation = rawTokens.filter((_, index) => geoTokenIndexes.has(index)).join(" ");
+      roleQuery = rawTokens.filter((_, index) => !geoTokenIndexes.has(index)).join(" ");
+    }
+  }
+
+  const locationActsAsGeo = Boolean(effectiveLocation) && jobs.some((job) => bestGeoMatch(job, effectiveLocation).score >= 30);
+
   const inputs = [
-    { value: query.trim(), preferred: "role" as const },
-    { value: location.trim(), preferred: "location" as const },
+    { value: roleQuery, preferred: "role" as const },
+    { value: effectiveLocation, preferred: "location" as const },
   ].filter(({ value }) => Boolean(value));
 
   if (!inputs.length) return [];
@@ -180,7 +364,10 @@ export function searchJobs(jobs: PublishedJob[], query: string, location: string
     const kinds: MatchKind[] = [];
 
     for (const input of inputs) {
-      const match = bestMatch(job, input.value);
+      const match =
+        input.preferred === "location" && locationActsAsGeo
+          ? bestGeoMatch(job, input.value)
+          : bestMatch(job, input.value);
       if (match.score < 30) return [];
       score += match.score + preferredBonus(match.kind, input.preferred);
       kinds.push(match.kind);

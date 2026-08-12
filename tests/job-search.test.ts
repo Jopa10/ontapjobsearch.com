@@ -52,12 +52,25 @@ const jobs = [
   job({ job_id: "customer-support", title: "Customer Support Advisor", location: "Guildford", region: "Surrey" }),
   job({ job_id: "accounts", title: "Accounts Assistant", location: "London", region: "London", category: "Finance / Accounts" }),
   job({ job_id: "hr", title: "Human Resources Administrator", location: "London", region: "London", category: "HR / Recruitment" }),
+  job({ job_id: "newcastle-admin", title: "Administrator", location: "Newcastle upon Tyne", region: "North East" }),
+  job({ job_id: "newcastle-customer", title: "Customer Service Advisor", location: "Newcastle upon Tyne", region: "North East" }),
+  job({ job_id: "leeds-admin", title: "Administrator", location: "Leeds", region: "West Yorkshire" }),
+  job({ job_id: "lewes-admin", title: "Administrator", location: "Lewes", region: "Sussex" }),
+  job({ job_id: "bristol-admin", title: "Administrator", location: "Bristol", region: "Bristol & Bath", description: "General admin role including employee fees and records." }),
+  job({ job_id: "support-worker", title: "Support Worker", location: "Southampton", region: "Hampshire" }),
+  job({
+    job_id: "support-description-only",
+    title: "Care Assistant",
+    location: "Southampton",
+    region: "Hampshire",
+    description: "Provides support to residents while each key worker completes care records.",
+  }),
   job({
     job_id: "description-only",
     title: "Office Coordinator",
     location: "Leeds",
     region: "West Yorkshire",
-    description: "Works closely with the purchasing coordinator and wider team.",
+    description: "Works closely with the purchasing coordinator and wider team in London.",
   }),
 ];
 
@@ -84,6 +97,50 @@ test("common role variants and aliases are understood", () => {
 test("minor job-title and location typos are tolerated", () => {
   assert.equal(searchJobs(jobs, "recepitonist", "")[0]?.job_id, "reception");
   assert.ok(searchJobs(jobs, "oxforrd", "").some(({ job_id }) => job_id === "reception"));
+});
+
+test("messy admin spellings resolve to the admin concept", () => {
+  assert.ok(searchJobs(jobs, "amdin", "").some(({ job_id }) => job_id === "admin"));
+  assert.ok(searchJobs(jobs, "adminstrtor", "").some(({ job_id }) => job_id === "admin"));
+  assert.ok(searchJobs(jobs, "admistrtr", "").some(({ job_id }) => job_id === "admin"));
+});
+
+test("common abbreviated role phrases are canonicalised before matching", () => {
+  assert.equal(searchJobs(jobs, "cust srv", "")[0]?.job_id, "customer-service");
+  const full = searchJobs(jobs, "support worker", "southamton").map(({ job_id }) => job_id);
+  const abbreviated = searchJobs(jobs, "supp worker", "southamton").map(({ job_id }) => job_id);
+  assert.deepEqual(abbreviated, full);
+  assert.ok(full.includes("support-worker"));
+  assert.ok(!full.includes("support-description-only"));
+});
+
+test("location abbreviations and truncations stay geographic", () => {
+  assert.deepEqual(
+    searchJobs(jobs, "", "ncl").map(({ job_id }) => job_id),
+    ["newcastle-admin", "newcastle-customer"]
+  );
+  assert.deepEqual(
+    searchJobs(jobs, "", "newcl").map(({ job_id }) => job_id),
+    ["newcastle-admin", "newcastle-customer"]
+  );
+});
+
+test("London prefixes do not broaden into descriptions or other fields", () => {
+  const expected = searchJobs(jobs, "", "london").map(({ job_id }) => job_id).sort();
+  for (const input of ["lon", "lond", "londo"]) {
+    assert.deepEqual(searchJobs(jobs, "", input).map(({ job_id }) => job_id).sort(), expected);
+  }
+  assert.ok(!expected.includes("description-only"));
+});
+
+test("mixed one-box searches infer geography instead of leaking nationally", () => {
+  const customerIds = searchJobs(jobs, "cust srv ncl", "").map(({ job_id }) => job_id);
+  assert.deepEqual(customerIds, ["newcastle-customer"]);
+
+  const adminIds = searchJobs(jobs, "ardmin lees", "").map(({ job_id }) => job_id);
+  assert.ok(adminIds.includes("leeds-admin"));
+  assert.ok(adminIds.includes("lewes-admin"));
+  assert.ok(!adminIds.includes("bristol-admin"));
 });
 
 test("two boxes can be used normally and both constraints are respected", () => {
