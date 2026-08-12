@@ -1,0 +1,74 @@
+{
+  "categories": {
+    "admin_service": {
+      "route_slug": "service-administrator-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "admin-service",
+      "display_label": "Admin & Customer Service",
+      "category_label": "Admin/Service – Office Support"
+    },
+    "support_worker": {
+      "route_slug": "support-worker",
+      "output_dir": "output-support-worker",
+      "file_suffix": "support-worker",
+      "display_label": "Support Worker",
+      "category_label": "Support Worker"
+    },
+    "finance_accounts": {
+      "route_slug": "finance-accounts-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "finance-accounts",
+      "display_label": "Finance & Accounts",
+      "category_label": "Finance / Accounts"
+    },
+    "customer_service_contact_centre": {
+      "route_slug": "customer-service-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "customer-service",
+      "display_label": "Customer Service & Contact Centre",
+      "category_label": "Customer Service / Contact Centre"
+    },
+    "hr_recruitment": {
+      "route_slug": "hr-recruitment-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "hr-recruitment",
+      "display_label": "HR & Recruitment",
+      "category_label": "HR / Recruitment"
+    }
+  },
+  "regions": {
+    "Yorkshire - West": { "slug": "west-yorkshire", "anchor_town": "Leeds" },
+    "Yorkshire - South": { "slug": "south-yorkshire", "anchor_town": "Sheffield" },
+    "Yorkshire - North": { "slug": "north-yorkshire", "anchor_town": "York" },
+    "Yorkshire - East": { "slug": "east-yorkshire", "anchor_town": "Hull" },
+    "North East": { "slug": "north-east", "anchor_town": "Newcastle" },
+    "London": { "slug": "london", "anchor_town": "London" },
+    "Northern Ireland - East": { "slug": "northern-ireland-east", "anchor_town": "Belfast" },
+    "Hampshire": { "slug": "hampshire", "anchor_town": "Southampton" },
+    "Surrey": { "slug": "surrey", "anchor_town": "Guildford" },
+    "Kent": { "slug": "kent", "anchor_town": "Maidstone" },
+    "Sussex": { "slug": "sussex", "anchor_town": "Brighton" },
+    "West Midlands - Coventry & Warwickshire": { "slug": "coventry-warwickshire", "anchor_town": "Coventry" },
+    "Cumbria - South": { "slug": "cumbria-south", "anchor_town": "Kendal" },
+    "Cumbria - North": { "slug": "cumbria-north", "anchor_town": "Carlisle" },
+    "Lancashire - North": { "slug": "lancashire-north", "anchor_town": "Lancaster" },
+    "Greater Manchester - Manchester & Salford": { "slug": "manchester-salford", "anchor_town": "Manchester" },
+    "Greater Manchester - South": { "slug": "greater-manchester-south", "anchor_town": "Stockport" },
+    "Oxfordshire": { "slug": "oxfordshire", "anchor_town": "Oxford" },
+    "Bristol & Bath": { "slug": "bristol-bath", "anchor_town": "Bristol" },
+    "Essex": { "slug": "essex", "anchor_town": "Chelmsford" },
+    "Cambridgeshire": { "slug": "cambridgeshire", "anchor_town": "Cambridge" },
+    "Gloucestershire": { "slug": "gloucestershire", "anchor_town": "Gloucester" },
+    "Devon": { "slug": "devon", "anchor_town": "Exeter" },
+    "Dorset": { "slug": "dorset", "anchor_town": "Bournemouth" },
+    "Staffordshire": { "slug": "staffordshire", "anchor_town": "Stafford" },
+    "Wiltshire": { "slug": "wiltshire", "anchor_town": "Swindon" },
+    "Northamptonshire": { "slug": "northamptonshire", "anchor_town": "Northampton" },
+    "Berkshire": { "slug": "berkshire", "anchor_town": "Reading" },
+    "Nottinghamshire": { "slug": "nottinghamshire", "anchor_town": "Nottingham" },
+    "Buckinghamshire": { "slug": "buckinghamshire", "anchor_town": "Milton Keynes" },
+    "Hertfordshire": { "slug": "hertfordshire", "anchor_town": "Watford" },
+    "West Midlands - Birmingham & Solihull": { "slug": "birmingham-solihull", "anchor_town": "Birmingham" },
+    "Somerset": { "slug": "somerset", "anchor_town": "Taunton" }
+  }
+}
