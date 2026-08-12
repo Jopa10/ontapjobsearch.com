@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { getLondonJobArea } from "@/lib/london-job-area";
+import {
+  getConfiguredSliceBySlugs,
+  getPublishedDynamicSlices,
+} from "@/lib/configured-job-slices";
 
 export type PublishedJob = {
   job_id: string;
@@ -68,6 +72,14 @@ function sourceSlice(
     .replace(/\\/g, "/")
     .replace(/\.json$/, "");
   const candidates = [jsonRoute];
+
+  if (jsonRoute.startsWith("_slice-data/")) {
+    const [, regionSlug, categorySlug] = jsonRoute.split("/");
+    const configured = getConfiguredSliceBySlugs(regionSlug, categorySlug);
+    if (configured) {
+      return { path: configured.route, label: configured.title };
+    }
+  }
 
   if (jsonRoute === "london/service-administrator-jobs") {
     const londonArea = getLondonJobArea({
@@ -165,8 +177,17 @@ export function getPublishedJobs(): PublishedJob[] {
   if (cachedJobs) return cachedJobs;
 
   const byId = new Map<string, PublishedJob>();
+  const liveConfiguredDataPaths = new Set(
+    getPublishedDynamicSlices().map((slice) => path.resolve(slice.dataFilePath))
+  );
 
   for (const filePath of jsonFiles(APP_DIRECTORY).sort()) {
+    if (
+      filePath.includes(`${path.sep}_slice-data${path.sep}`) &&
+      !liveConfiguredDataPaths.has(path.resolve(filePath))
+    ) {
+      continue;
+    }
     let parsed: unknown;
     try {
       parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));

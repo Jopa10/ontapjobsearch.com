@@ -4,6 +4,7 @@ import {
   getCityPageJobs,
   isCityPageActive,
 } from '@/lib/city-page-data';
+import { getPublishedDynamicSlices } from '@/lib/configured-job-slices';
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
@@ -43,6 +44,14 @@ type BrowseSection = {
 
 const activeStatusClassName = 'border-green-200 bg-green-50 text-green-700';
 const pausedStatusClassName = 'border-amber-200 bg-amber-50 text-amber-700';
+
+const configuredSliceCards: BrowseCard[] = getPublishedDynamicSlices().map((slice) => ({
+  title: slice.title,
+  href: slice.route,
+  description: `Current ${slice.displayLabel.toLowerCase()} roles across ${slice.region}, with employer-site application links.`,
+  status: 'Active current supply',
+  statusClassName: activeStatusClassName,
+}));
 
 const activeCityCards = (kind: 'admin' | 'support'): BrowseCard[] =>
   cityPageDefinitions
@@ -226,6 +235,16 @@ const jobSections: BrowseSection[] = [
       },
     ],
   },
+  ...(configuredSliceCards.length
+    ? [
+        {
+          heading: 'More live job pages',
+          intro:
+            'Additional region and role pages activated from current JobG8 supply and the Ontap slice register.',
+          cards: configuredSliceCards,
+        },
+      ]
+    : []),
   {
     heading: 'Support worker jobs',
     intro:
