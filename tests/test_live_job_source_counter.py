@@ -22,8 +22,10 @@ def _job(
     region: str = "West Yorkshire",
     category: str = "Admin/Service",
     apply_url: str | None = None,
+    closing_date: str | None = None,
+    closing_datetime: str | None = None,
 ) -> dict[str, str]:
-    return {
+    row = {
         "job_id": job_id,
         "title": title,
         "location": location,
@@ -32,6 +34,11 @@ def _job(
         "apply_url": apply_url or f"https://example.com/jobs/{job_id}",
         "source": source,
     }
+    if closing_date is not None:
+        row["closing_date"] = closing_date
+    if closing_datetime is not None:
+        row["closing_datetime"] = closing_datetime
+    return row
 
 
 class LiveJobSourceCounterTests(unittest.TestCase):
@@ -99,6 +106,32 @@ class LiveJobSourceCounterTests(unittest.TestCase):
             self.assertEqual(result.duplicate_rows_ignored, 2)
             self.assertTrue(result.daily_report_path.exists())
             self.assertTrue(result.history_path.exists())
+
+    def test_expired_rows_are_not_counted_as_live(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            app = root / "app"
+            reports = root / "pipeline" / "reports-daily"
+            app.mkdir(parents=True)
+            (app / "jobs.json").write_text(
+                json.dumps(
+                    [
+                        _job("jobg8-1"),
+                        _job("vonne-expired", source="VONNE", closing_date="2026-08-11"),
+                        _job("vonne-live", source="VONNE", closing_date="2026-08-16"),
+                        _job("nejobs-bad-date", source="NEJobs", closing_date="not-a-date"),
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            result = build_reports(app, reports, "2026-08-12")
+
+            self.assertEqual(result.total_live_jobs, 3)
+            self.assertEqual(result.jobg8_jobs, 1)
+            self.assertEqual(result.external_jobs, 2)
+            self.assertEqual(result.source_counts["VONNE"], 1)
+            self.assertEqual(result.source_counts["NEJobs"], 1)
 
     def test_history_has_one_row_per_day_and_replaces_same_day(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
