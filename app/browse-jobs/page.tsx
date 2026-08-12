@@ -216,18 +216,10 @@ const jobSections: BrowseSection[] = [
         label: 'London admin & customer-service jobs',
         cards: [
           {
-            title: 'Central & Inner London Admin & Cust. Service Jobs',
+            title: 'London Admin & Customer Service Jobs',
             href: '/london/service-administrator-jobs',
             description:
-              'Service administrator, customer service administrator and office support roles across Central and Inner London.',
-            status: 'Active current supply',
-            statusClassName: activeStatusClassName,
-          },
-          {
-            title: 'Outer London Admin & Cust. Service Jobs',
-            href: '/london/outer-service-administrator-jobs',
-            description:
-              'Service administrator, customer service administrator and office support roles across Outer London.',
+              'Service administrator, customer service administrator and office support roles across London, with area filters for Central, North, East, South and West London.',
             status: 'Active current supply',
             statusClassName: activeStatusClassName,
           },
