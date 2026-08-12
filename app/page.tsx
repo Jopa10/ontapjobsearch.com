@@ -36,8 +36,7 @@ const adminRegionRoutes = [
   { label: 'West Yorkshire', href: '/west-yorkshire/service-administrator-jobs' },
   { label: 'South Yorkshire', href: '/south-yorkshire/service-administrator-jobs' },
   { label: 'North Yorkshire', href: '/north-yorkshire/service-administrator-jobs' },
-  { label: 'Central & Inner London', href: '/london/service-administrator-jobs' },
-  { label: 'Outer London', href: '/london/outer-service-administrator-jobs' },
+  { label: 'London', href: '/london/service-administrator-jobs' },
 ];
 
 const supportWorkerRoutes = [
