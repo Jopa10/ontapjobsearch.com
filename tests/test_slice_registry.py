@@ -7,7 +7,7 @@ SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "pipeline" / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
-from slice_catalog import dynamic_route, output_filename
+from slice_catalog import dynamic_data_path, dynamic_route, output_filename
 from slice_registry import candidate_slices, load_slice_register, live_slices
 
 
@@ -15,8 +15,8 @@ class SliceRegistryTests(unittest.TestCase):
     def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
         records = load_slice_register()
         self.assertEqual(len(records), 63)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 38)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 25)
+        self.assertEqual(sum(row.status == "LIVE" for row in records), 36)
+        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 27)
         self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
 
     def test_live_rows_include_new_white_collar_and_admin_slices(self):
@@ -29,13 +29,11 @@ class SliceRegistryTests(unittest.TestCase):
             ("Greater Manchester - Manchester & Salford", "admin_service"),
             ("Bristol & Bath", "admin_service"),
             ("Devon", "finance_accounts"),
-            ("Surrey", "support_worker"),
-            ("London", "support_worker"),
         }
         self.assertTrue(expected.issubset(live))
         self.assertIn(("Yorkshire - North", "admin_service"), live)
 
-    def test_close_slices_are_candidates_not_live(self):
+    def test_close_and_deferred_support_slices_are_candidates_not_live(self):
         candidates = candidate_slices()
         expected = {
             ("Greater Manchester - Manchester & Salford", "customer_service_contact_centre"),
@@ -43,6 +41,8 @@ class SliceRegistryTests(unittest.TestCase):
             ("Yorkshire - West", "finance_accounts"),
             ("North East", "finance_accounts"),
             ("Somerset", "support_worker"),
+            ("London", "support_worker"),
+            ("Surrey", "support_worker"),
         }
         self.assertTrue(expected.issubset(candidates))
         self.assertTrue(expected.isdisjoint(live_slices()))
@@ -59,6 +59,10 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             dynamic_route("London", "finance_accounts"),
             "/job-search/london/finance-accounts-jobs",
+        )
+        self.assertEqual(
+            dynamic_data_path("London", "finance_accounts"),
+            Path("app/_city-pages/configured-slices/london/finance-accounts-jobs.json"),
         )
 
     def test_invalid_status_stops(self):
