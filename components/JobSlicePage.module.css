@@ -11,7 +11,8 @@
   top: 24px;
 }
 
-.relatedPanel {
+.relatedPanel,
+.browsePanel {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,6 +42,13 @@
   color: #374151;
   font-size: 14px;
   line-height: 1.4;
+}
+
+.browseLinkList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 7px;
 }
 
 .relatedLink {
@@ -86,6 +94,18 @@
   }
 }
 
+@media (max-width: 700px) {
+  .browsePanel {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .browseLinkList {
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 600px) {
   .relatedPanel {
     align-items: stretch;
@@ -95,5 +115,10 @@
 
   .relatedLink {
     width: 100%;
+  }
+
+  .browseLinkList {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
