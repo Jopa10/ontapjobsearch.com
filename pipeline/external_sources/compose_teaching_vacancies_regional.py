@@ -26,6 +26,7 @@ from external_sources.compose_northeast_admin import (
     closing_date_is_live,
     factual_fingerprint,
     load_rows,
+    normalise,
     text,
     write_json_atomic,
 )
@@ -44,6 +45,18 @@ SOURCE = "Teaching Vacancies"
 JOB_ID_PREFIX = "teaching-vacancies-"
 DEFAULT_CURRENT_OUTPUT_DIR = Path("output-admin-service")
 DEFAULT_SLICE_REGISTER = Path("registers/region_category_slice_register.csv")
+_GENERIC_EMPLOYER_TOKENS = {
+    "academy",
+    "college",
+    "company",
+    "council",
+    "limited",
+    "ltd",
+    "school",
+    "the",
+    "trust",
+    "university",
+}
 
 
 @dataclass(frozen=True)
@@ -200,6 +213,49 @@ def current_base_contract(
     return next(iter(regions)), base, teaching
 
 
+def _distinctive_employer(value: object) -> str:
+    """Return a company label only when it is specific enough for dedupe."""
+    normalised = normalise(value)
+    tokens = [
+        token
+        for token in normalised.split()
+        if len(token) > 2 and token not in _GENERIC_EMPLOYER_TOKENS
+    ]
+    return normalised if len(tokens) >= 3 else ""
+
+
+def likely_same_cross_source_vacancy(
+    left: dict[str, Any],
+    right: dict[str, Any],
+) -> bool:
+    """Conservatively catch provider naming differences for the same vacancy.
+
+    This intentionally requires the same title and closing day plus a distinctive
+    employer from one source appearing explicitly in the other source's company
+    or location text. It handles school-vs-academy-trust attribution without
+    broadly fuzzy-matching ordinary same-title jobs in the same town.
+    """
+    if normalise(left.get("title")) != normalise(right.get("title")):
+        return False
+    left_close = text(left.get("closing_date"))
+    right_close = text(right.get("closing_date"))
+    if not left_close or left_close != right_close:
+        return False
+
+    left_company = _distinctive_employer(left.get("company"))
+    right_company = _distinctive_employer(right.get("company"))
+    left_context = normalise(
+        f"{text(left.get('company'))} {text(left.get('location'))}"
+    )
+    right_context = normalise(
+        f"{text(right.get('company'))} {text(right.get('location'))}"
+    )
+    return bool(
+        (left_company and left_company in right_context)
+        or (right_company and right_company in left_context)
+    )
+
+
 def compose_rows(
     current_output: list[dict[str, Any]],
     approved_teaching: list[dict[str, Any]],
@@ -236,7 +292,14 @@ def compose_rows(
             expired += 1
             continue
         fingerprint = factual_fingerprint(row)
-        if job_id in occupied_ids or fingerprint in occupied_fingerprints:
+        if (
+            job_id in occupied_ids
+            or fingerprint in occupied_fingerprints
+            or any(
+                likely_same_cross_source_vacancy(row, base_row)
+                for base_row in base_rows
+            )
+        ):
             duplicates += 1
             continue
         accepted.append(row)
