@@ -40,6 +40,12 @@ const LOCATION_TOKEN_ALIASES: Record<string, string> = {
   ncl: "newcastle",
 };
 
+// These concepts are narrow enough that a role search should be supported by
+// the job title itself, rather than merely by the wider curated slice/category.
+// Support-worker searches deliberately stay broader because Ontap's curated
+// support supply includes equivalent care-assistant titles.
+const TITLE_REQUIRED_ROLE_TOKENS = new Set(["admin", "customerservice", "reception"]);
+
 function normalise(value: string): string {
   return value
     .normalize("NFKD")
@@ -213,34 +219,85 @@ function isOrderedSubsequence(query: string, candidate: string): boolean {
   return false;
 }
 
-function geoTokenMatches(query: string, candidate: string): boolean {
+function commonPrefixLength(a: string, b: string): number {
+  let index = 0;
+  while (index < a.length && index < b.length && a[index] === b[index]) index += 1;
+  return index;
+}
+
+function geoTokenMatchQuality(query: string, candidate: string): number {
   const cleanQuery = LOCATION_TOKEN_ALIASES[query] || query;
-  if (tokenMatches(cleanQuery, candidate)) return true;
+  if (!cleanQuery || !candidate) return 0;
+  if (cleanQuery === candidate) return 1000;
 
-  if (cleanQuery.length >= 3 && candidate.startsWith(cleanQuery)) return true;
+  const prefix = commonPrefixLength(cleanQuery, candidate);
 
-  // Handles natural truncations such as "newcl" -> "newcastle" and
-  // "soton" -> "southampton" while keeping very short fragments strict.
+  if (cleanQuery.length >= 3 && candidate.startsWith(cleanQuery)) {
+    return 900 + Math.min(cleanQuery.length, 20);
+  }
+
+  if (
+    candidate.length >= 4 &&
+    cleanQuery.startsWith(candidate) &&
+    candidate.length >= cleanQuery.length - 2
+  ) {
+    return 875 + Math.min(candidate.length, 20);
+  }
+
   if (
     cleanQuery.length >= 5 &&
     candidate.length > cleanQuery.length &&
-    cleanQuery.slice(0, 2) === candidate.slice(0, 2) &&
+    prefix >= 2 &&
     isOrderedSubsequence(cleanQuery, candidate)
   ) {
-    return true;
+    return 800 + Math.min(prefix, 20);
   }
 
-  if (cleanQuery.length >= 4 && candidate.length >= 4) {
+  if (cleanQuery.length >= 4 && candidate.length >= 4 && prefix >= 2) {
     const maxDistance = Math.max(cleanQuery.length, candidate.length) >= 8 ? 2 : 1;
-    if (
-      Math.abs(cleanQuery.length - candidate.length) <= maxDistance &&
-      damerauLevenshtein(cleanQuery, candidate) <= maxDistance
-    ) {
-      return true;
+    const distance = damerauLevenshtein(cleanQuery, candidate);
+    if (Math.abs(cleanQuery.length - candidate.length) <= maxDistance && distance <= maxDistance) {
+      return 700 - distance * 20 + Math.min(prefix * 5, 50);
     }
   }
 
-  return false;
+  return 0;
+}
+
+function geoTokenMatches(query: string, candidate: string): boolean {
+  return geoTokenMatchQuality(query, candidate) > 0;
+}
+
+function resolveGeoQuery(jobs: PublishedJob[], input: string): string {
+  const wanted = normalise(input).split(/\s+/).filter(Boolean);
+  if (!wanted.length) return input;
+
+  const available = new Set<string>();
+  for (const job of jobs) {
+    for (const value of [job.location, job.region]) {
+      normalise(value).split(/\s+/).filter(Boolean).forEach((token) => available.add(token));
+    }
+  }
+
+  const resolved = wanted.map((queryToken) => {
+    const alias = LOCATION_TOKEN_ALIASES[queryToken];
+    if (alias) return alias;
+
+    let bestToken = queryToken;
+    let bestQuality = 0;
+
+    for (const candidate of available) {
+      const quality = geoTokenMatchQuality(queryToken, candidate);
+      if (quality > bestQuality) {
+        bestQuality = quality;
+        bestToken = candidate;
+      }
+    }
+
+    return bestQuality >= 650 ? bestToken : queryToken;
+  });
+
+  return resolved.join(" ");
 }
 
 function allTokensMatch(query: string, candidate: string): boolean {
@@ -248,6 +305,14 @@ function allTokensMatch(query: string, candidate: string): boolean {
   if (!wanted.length) return false;
   const available = candidateTokens(candidate);
   return wanted.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
+}
+
+function titleSupportsRequiredRoleTokens(query: string, title: string): boolean {
+  const required = queryTokens(query).filter((token) => TITLE_REQUIRED_ROLE_TOKENS.has(token));
+  if (!required.length) return true;
+
+  const available = candidateTokens(title);
+  return required.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
 }
 
 function allGeoTokensMatch(query: string, candidate: string): boolean {
@@ -350,6 +415,10 @@ export function searchJobs(jobs: PublishedJob[], query: string, location: string
     }
   }
 
+  if (effectiveLocation) {
+    effectiveLocation = resolveGeoQuery(jobs, effectiveLocation);
+  }
+
   const locationActsAsGeo = Boolean(effectiveLocation) && jobs.some((job) => bestGeoMatch(job, effectiveLocation).score >= 30);
 
   const inputs = [
@@ -364,6 +433,9 @@ export function searchJobs(jobs: PublishedJob[], query: string, location: string
     const kinds: MatchKind[] = [];
 
     for (const input of inputs) {
+      const inputActsAsRole = input.preferred === "role" || (input.preferred === "location" && !locationActsAsGeo);
+      if (inputActsAsRole && !titleSupportsRequiredRoleTokens(input.value, job.title)) return [];
+
       const match =
         input.preferred === "location" && locationActsAsGeo
           ? bestGeoMatch(job, input.value)
