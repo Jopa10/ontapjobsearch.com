@@ -57,7 +57,8 @@ export default async function Page({ params }: PageProps) {
     <JobSlicePage
       jsonPath={[
         "app",
-        "_slice-data",
+        "_city-pages",
+        "configured-slices",
         slice.regionSlug,
         `${slice.categorySlug}.json`,
       ]}
