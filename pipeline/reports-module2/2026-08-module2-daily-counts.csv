@@ -2385,8 +2385,8 @@
 2026-08,2026-08-08,Bedfordshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Bedfordshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Bedfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Bedfordshire,lookup_region,hr_recruitment,2
-2026-08,2026-08-12,Bedfordshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Bedfordshire,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Bedfordshire,lookup_region,hr_recruitment,3
 2026-08,2026-08-01,Berkshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Berkshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Berkshire,lookup_region,hr_recruitment,0
@@ -2397,8 +2397,8 @@
 2026-08,2026-08-08,Berkshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Berkshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Berkshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Berkshire,lookup_region,hr_recruitment,2
-2026-08,2026-08-12,Berkshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Berkshire,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Berkshire,lookup_region,hr_recruitment,3
 2026-08,2026-08-01,Bristol & Bath,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Bristol & Bath,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Bristol & Bath,lookup_region,hr_recruitment,0
@@ -2409,8 +2409,8 @@
 2026-08,2026-08-08,Bristol & Bath,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Bristol & Bath,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Bristol & Bath,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Bristol & Bath,lookup_region,hr_recruitment,3
-2026-08,2026-08-12,Bristol & Bath,lookup_region,hr_recruitment,3
+2026-08,2026-08-11,Bristol & Bath,lookup_region,hr_recruitment,4
+2026-08,2026-08-12,Bristol & Bath,lookup_region,hr_recruitment,4
 2026-08,2026-08-01,Buckinghamshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Buckinghamshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Buckinghamshire,lookup_region,hr_recruitment,0
@@ -2481,8 +2481,8 @@
 2026-08,2026-08-08,Essex,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Essex,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Essex,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Essex,lookup_region,hr_recruitment,3
-2026-08,2026-08-12,Essex,lookup_region,hr_recruitment,3
+2026-08,2026-08-11,Essex,lookup_region,hr_recruitment,4
+2026-08,2026-08-12,Essex,lookup_region,hr_recruitment,4
 2026-08,2026-08-01,Gloucestershire,lookup_region,hr_recruitment,1
 2026-08,2026-08-02,Gloucestershire,lookup_region,hr_recruitment,1
 2026-08,2026-08-03,Gloucestershire,lookup_region,hr_recruitment,1
@@ -2505,20 +2505,32 @@
 2026-08,2026-08-08,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,3
-2026-08,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,3
+2026-08,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,4
+2026-08,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,4
+2026-08,2026-08-01,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,Greater Manchester - North,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08,2026-08-12,Greater Manchester - North,lookup_region,hr_recruitment,1
 2026-08,2026-08-01,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,0
 2026-08,2026-08-04,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,0
 2026-08,2026-08-05,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,0
 2026-08,2026-08-06,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,0
-2026-08,2026-08-07,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,1
-2026-08,2026-08-08,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,1
-2026-08,2026-08-09,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,1
-2026-08,2026-08-10,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,1
-2026-08,2026-08-11,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,1
-2026-08,2026-08-12,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,1
+2026-08,2026-08-07,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,2
+2026-08,2026-08-08,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,2
+2026-08,2026-08-09,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,2
+2026-08,2026-08-10,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
 2026-08,2026-08-01,Hampshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Hampshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Hampshire,lookup_region,hr_recruitment,0
@@ -2529,20 +2541,20 @@
 2026-08,2026-08-08,Hampshire,lookup_region,hr_recruitment,1
 2026-08,2026-08-09,Hampshire,lookup_region,hr_recruitment,1
 2026-08,2026-08-10,Hampshire,lookup_region,hr_recruitment,1
-2026-08,2026-08-11,Hampshire,lookup_region,hr_recruitment,4
-2026-08,2026-08-12,Hampshire,lookup_region,hr_recruitment,4
-2026-08,2026-08-01,Hertfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-02,Hertfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-03,Hertfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-04,Hertfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-05,Hertfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-06,Hertfordshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-07,Hertfordshire,lookup_region,hr_recruitment,1
-2026-08,2026-08-08,Hertfordshire,lookup_region,hr_recruitment,1
-2026-08,2026-08-09,Hertfordshire,lookup_region,hr_recruitment,1
-2026-08,2026-08-10,Hertfordshire,lookup_region,hr_recruitment,1
-2026-08,2026-08-11,Hertfordshire,lookup_region,hr_recruitment,2
-2026-08,2026-08-12,Hertfordshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Hampshire,lookup_region,hr_recruitment,6
+2026-08,2026-08-12,Hampshire,lookup_region,hr_recruitment,7
+2026-08,2026-08-01,Hertfordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-02,Hertfordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-03,Hertfordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-04,Hertfordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-05,Hertfordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-06,Hertfordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-07,Hertfordshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-08,Hertfordshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-09,Hertfordshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-10,Hertfordshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Hertfordshire,lookup_region,hr_recruitment,4
+2026-08,2026-08-12,Hertfordshire,lookup_region,hr_recruitment,4
 2026-08,2026-08-01,Kent,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Kent,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Kent,lookup_region,hr_recruitment,0
@@ -2553,20 +2565,20 @@
 2026-08,2026-08-08,Kent,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Kent,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Kent,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Kent,lookup_region,hr_recruitment,5
-2026-08,2026-08-12,Kent,lookup_region,hr_recruitment,5
+2026-08,2026-08-11,Kent,lookup_region,hr_recruitment,6
+2026-08,2026-08-12,Kent,lookup_region,hr_recruitment,6
 2026-08,2026-08-01,Lancashire - Central,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Lancashire - Central,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Lancashire - Central,lookup_region,hr_recruitment,0
 2026-08,2026-08-04,Lancashire - Central,lookup_region,hr_recruitment,0
 2026-08,2026-08-05,Lancashire - Central,lookup_region,hr_recruitment,0
 2026-08,2026-08-06,Lancashire - Central,lookup_region,hr_recruitment,0
-2026-08,2026-08-07,Lancashire - Central,lookup_region,hr_recruitment,0
-2026-08,2026-08-08,Lancashire - Central,lookup_region,hr_recruitment,0
-2026-08,2026-08-09,Lancashire - Central,lookup_region,hr_recruitment,0
-2026-08,2026-08-10,Lancashire - Central,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Lancashire - Central,lookup_region,hr_recruitment,1
-2026-08,2026-08-12,Lancashire - Central,lookup_region,hr_recruitment,1
+2026-08,2026-08-07,Lancashire - Central,lookup_region,hr_recruitment,1
+2026-08,2026-08-08,Lancashire - Central,lookup_region,hr_recruitment,1
+2026-08,2026-08-09,Lancashire - Central,lookup_region,hr_recruitment,1
+2026-08,2026-08-10,Lancashire - Central,lookup_region,hr_recruitment,1
+2026-08,2026-08-11,Lancashire - Central,lookup_region,hr_recruitment,2
+2026-08,2026-08-12,Lancashire - Central,lookup_region,hr_recruitment,2
 2026-08,2026-08-01,Lancashire - East,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Lancashire - East,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Lancashire - East,lookup_region,hr_recruitment,0
@@ -2603,6 +2615,18 @@
 2026-08,2026-08-10,Leicestershire,lookup_region,hr_recruitment,0
 2026-08,2026-08-11,Leicestershire,lookup_region,hr_recruitment,1
 2026-08,2026-08-12,Leicestershire,lookup_region,hr_recruitment,1
+2026-08,2026-08-01,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-02,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-03,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-04,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-05,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-06,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-07,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-08,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-09,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-10,Lincolnshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-11,Lincolnshire,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Lincolnshire,lookup_region,hr_recruitment,3
 2026-08,2026-08-01,London,lookup_region,hr_recruitment,1
 2026-08,2026-08-02,London,lookup_region,hr_recruitment,1
 2026-08,2026-08-03,London,lookup_region,hr_recruitment,1
@@ -2613,8 +2637,8 @@
 2026-08,2026-08-08,London,lookup_region,hr_recruitment,1
 2026-08,2026-08-09,London,lookup_region,hr_recruitment,1
 2026-08,2026-08-10,London,lookup_region,hr_recruitment,1
-2026-08,2026-08-11,London,lookup_region,hr_recruitment,12
-2026-08,2026-08-12,London,lookup_region,hr_recruitment,14
+2026-08,2026-08-11,London,lookup_region,hr_recruitment,25
+2026-08,2026-08-12,London,lookup_region,hr_recruitment,27
 2026-08,2026-08-01,Merseyside - Liverpool,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Merseyside - Liverpool,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Merseyside - Liverpool,lookup_region,hr_recruitment,0
@@ -2650,7 +2674,19 @@
 2026-08,2026-08-09,North East,published_aggregate,hr_recruitment,1
 2026-08,2026-08-10,North East,published_aggregate,hr_recruitment,1
 2026-08,2026-08-11,North East,published_aggregate,hr_recruitment,1
-2026-08,2026-08-12,North East,published_aggregate,hr_recruitment,1
+2026-08,2026-08-12,North East,published_aggregate,hr_recruitment,2
+2026-08,2026-08-01,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,1
 2026-08,2026-08-01,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
 2026-08,2026-08-02,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
 2026-08,2026-08-03,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
@@ -2681,12 +2717,12 @@
 2026-08,2026-08-04,Northamptonshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-05,Northamptonshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-06,Northamptonshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-07,Northamptonshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-08,Northamptonshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-09,Northamptonshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-10,Northamptonshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Northamptonshire,lookup_region,hr_recruitment,2
-2026-08,2026-08-12,Northamptonshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-07,Northamptonshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-08,Northamptonshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-09,Northamptonshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-10,Northamptonshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-11,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Northamptonshire,lookup_region,hr_recruitment,3
 2026-08,2026-08-01,Nottinghamshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Nottinghamshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Nottinghamshire,lookup_region,hr_recruitment,0
@@ -2697,8 +2733,8 @@
 2026-08,2026-08-08,Nottinghamshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Nottinghamshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Nottinghamshire,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Nottinghamshire,lookup_region,hr_recruitment,1
-2026-08,2026-08-12,Nottinghamshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-11,Nottinghamshire,lookup_region,hr_recruitment,4
+2026-08,2026-08-12,Nottinghamshire,lookup_region,hr_recruitment,4
 2026-08,2026-08-01,Other / Unknown,lookup_region,hr_recruitment,1
 2026-08,2026-08-02,Other / Unknown,lookup_region,hr_recruitment,1
 2026-08,2026-08-03,Other / Unknown,lookup_region,hr_recruitment,1
@@ -2709,8 +2745,8 @@
 2026-08,2026-08-08,Other / Unknown,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Other / Unknown,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Other / Unknown,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Other / Unknown,lookup_region,hr_recruitment,13
-2026-08,2026-08-12,Other / Unknown,lookup_region,hr_recruitment,12
+2026-08,2026-08-11,Other / Unknown,lookup_region,hr_recruitment,20
+2026-08,2026-08-12,Other / Unknown,lookup_region,hr_recruitment,20
 2026-08,2026-08-01,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,0
@@ -2735,6 +2771,30 @@
 2026-08,2026-08-10,Shropshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-11,Shropshire,lookup_region,hr_recruitment,3
 2026-08,2026-08-12,Shropshire,lookup_region,hr_recruitment,3
+2026-08,2026-08-01,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,Staffordshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,Staffordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-12,Staffordshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-01,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,Suffolk,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,Suffolk,lookup_region,hr_recruitment,1
+2026-08,2026-08-12,Suffolk,lookup_region,hr_recruitment,1
 2026-08,2026-08-01,Surrey,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Surrey,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Surrey,lookup_region,hr_recruitment,0
@@ -2757,8 +2817,20 @@
 2026-08,2026-08-08,Sussex,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Sussex,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Sussex,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Sussex,lookup_region,hr_recruitment,1
-2026-08,2026-08-12,Sussex,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Sussex,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Sussex,lookup_region,hr_recruitment,4
+2026-08,2026-08-01,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,Wales South -gwent,lookup_region,hr_recruitment,1
+2026-08,2026-08-12,Wales South -gwent,lookup_region,hr_recruitment,1
 2026-08,2026-08-01,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,0
@@ -2769,8 +2841,8 @@
 2026-08,2026-08-08,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,1
-2026-08,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,1
+2026-08,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
 2026-08,2026-08-01,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,1
 2026-08,2026-08-02,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,1
 2026-08,2026-08-03,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,1
@@ -2783,6 +2855,18 @@
 2026-08,2026-08-10,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,2
 2026-08,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,2
+2026-08,2026-08-01,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,Wiltshire,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,Wiltshire,lookup_region,hr_recruitment,1
+2026-08,2026-08-12,Wiltshire,lookup_region,hr_recruitment,1
 2026-08,2026-08-01,Yorkshire - East,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Yorkshire - East,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Yorkshire - East,lookup_region,hr_recruitment,0
@@ -2793,8 +2877,8 @@
 2026-08,2026-08-08,Yorkshire - East,lookup_region,hr_recruitment,1
 2026-08,2026-08-09,Yorkshire - East,lookup_region,hr_recruitment,1
 2026-08,2026-08-10,Yorkshire - East,lookup_region,hr_recruitment,1
-2026-08,2026-08-11,Yorkshire - East,lookup_region,hr_recruitment,2
-2026-08,2026-08-12,Yorkshire - East,lookup_region,hr_recruitment,2
+2026-08,2026-08-11,Yorkshire - East,lookup_region,hr_recruitment,3
+2026-08,2026-08-12,Yorkshire - East,lookup_region,hr_recruitment,3
 2026-08,2026-08-01,Yorkshire - North,lookup_region,hr_recruitment,1
 2026-08,2026-08-02,Yorkshire - North,lookup_region,hr_recruitment,1
 2026-08,2026-08-03,Yorkshire - North,lookup_region,hr_recruitment,1
@@ -2807,6 +2891,18 @@
 2026-08,2026-08-10,Yorkshire - North,lookup_region,hr_recruitment,1
 2026-08,2026-08-11,Yorkshire - North,lookup_region,hr_recruitment,1
 2026-08,2026-08-12,Yorkshire - North,lookup_region,hr_recruitment,1
+2026-08,2026-08-01,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-02,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-03,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-04,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-05,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-06,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-07,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-08,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-09,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-10,Yorkshire - South,lookup_region,hr_recruitment,0
+2026-08,2026-08-11,Yorkshire - South,lookup_region,hr_recruitment,2
+2026-08,2026-08-12,Yorkshire - South,lookup_region,hr_recruitment,2
 2026-08,2026-08-01,Yorkshire - West,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Yorkshire - West,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Yorkshire - West,lookup_region,hr_recruitment,0
@@ -2817,8 +2913,8 @@
 2026-08,2026-08-08,Yorkshire - West,lookup_region,hr_recruitment,0
 2026-08,2026-08-09,Yorkshire - West,lookup_region,hr_recruitment,0
 2026-08,2026-08-10,Yorkshire - West,lookup_region,hr_recruitment,0
-2026-08,2026-08-11,Yorkshire - West,lookup_region,hr_recruitment,3
-2026-08,2026-08-12,Yorkshire - West,lookup_region,hr_recruitment,3
+2026-08,2026-08-11,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08,2026-08-12,Yorkshire - West,lookup_region,hr_recruitment,6
 2026-08,2026-08-01,Bedfordshire,lookup_region,support_worker,1
 2026-08,2026-08-02,Bedfordshire,lookup_region,support_worker,1
 2026-08,2026-08-03,Bedfordshire,lookup_region,support_worker,1

@@ -3,11 +3,11 @@ Input directory: input-jobg8-archive/2026-08
 Valid feed days: 12
 First feed day: 2026-08-01
 Last feed day: 2026-08-12
-Selected register-expanded job rows: 6676
+Selected register-expanded job rows: 6819
 Geo lookup: geo/geo_lookup.xlsx
 Geo areas loaded: 1198
 AUTO location fallbacks loaded: 41
-Rows assigned by location fallback: 466
+Rows assigned by location fallback: 490
 Classification mode: register-only
 Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT
 North East published page: aggregated from three geo_lookup regions
@@ -18,7 +18,7 @@ Registers:
 - finance_accounts: registers/finance_accounts_title_classification_register.csv (208 titles)
 - customer_service_contact_centre: registers/customer_service_contact_centre_title_classification_register.csv (305 titles)
 - warehouse_logistics: registers/warehouse_logistics_title_classification_register.csv (25 titles)
-- hr_recruitment: registers/hr_recruitment_title_classification_register.csv (343 titles)
+- hr_recruitment: registers/hr_recruitment_title_classification_register.csv (395 titles)
 
 Recommendation configuration:
 - minimum_seen_ratio: 0.8
