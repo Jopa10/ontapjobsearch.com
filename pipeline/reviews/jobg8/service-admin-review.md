@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-08-11
+feed_date: 2026-08-12
 
 Edit only the `action:` line in each block:
 
@@ -42,15 +42,15 @@ job_id: 23643_225413268
 ---
 
 ---
-action: select
-SELECTED | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
-job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+action:
+SELECTED | Yorkshire - West | Wakefield | £27000 - £27500 per year | Office / Purchasing Administrator
+job_id: 23643_225420186
 ---
 
 ---
 action:
-SELECTED | Yorkshire - West | Wakefield | £27000 - £27500 per year | Office / Purchasing Administrator
-job_id: 23643_225420186
+SELECTED | Yorkshire - West | Leeds | £26300 per year | Customer Support Advisor
+job_id: 4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64
 ---
 
 ---
@@ -151,12 +151,6 @@ job_id: 23643_225465858
 
 ---
 action:
-SELECTED | Yorkshire - West | Bradford | £12.71 per hour | Chinese Speaking Customer Service Adviser
-job_id: 107743287
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds | £24785 - £25785 per year | Property Customer Service Advisor
 job_id: 8bf1c33a-6c01-4241-bb0e-c2c5019b19b9
 ---
@@ -185,12 +179,30 @@ SELECTED | Yorkshire - West | Brighouse | £25350 per year (Dependant on experie
 job_id: 23643_225476804
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £27000 per year | Complaints Handler
+job_id: 0964d2e1-424c-4a06-84b3-e1fa26bfa2a0
+---
+
 ## WEST YORKSHIRE — POSSIBLES
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £38000 per year | Administrator (Financial Services)
+job_id: 00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+---
 
 ---
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wetherby | £28000 - £32000 per year | Administrator
 job_id: 23643_225458763
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £60000 per year | Technical Paraplanner
+job_id: 107709539
 ---
 
 ---
@@ -296,9 +308,9 @@ job_id: 23643_225404441
 ---
 
 ---
-action: select
-SELECTED | North East | Newcastle | £50000 - £65000 per year | Administrator
-job_id: ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
+action:
+SELECTED | North East | Newcastle | £26500 - £30000 per year | Customer Service Advisor
+job_id: e1120589-2a2f-429d-8309-d8b4b0cf90ca
 ---
 
 ---
@@ -410,12 +422,6 @@ job_id: e79648bf-bd6c-4a2d-af24-e64c3b96758b
 ---
 
 ---
-action: select
-SELECTED | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Client Administrator
-job_id: 37de4be2-0a53-41c1-9b2c-dca52159ab6e
----
-
----
 action:
 SELECTED | North East | Gateshead | £25350 - £26810 per year | Customer Service & Complaints Administrator - Team Valley
 job_id: 23643_225474293
@@ -449,8 +455,26 @@ job_id: 6d09509e-78ca-4bf5-a359-ec3cc317db83
 
 ---
 action:
+POSS - NORTH EAST | North East | Newcastle Upon Tyne | £28000 - £32000 per year | Client Administrator
+job_id: 37de4be2-0a53-41c1-9b2c-dca52159ab6e
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Newcastle | £50000 - £65000 per year | Administrator
+job_id: ee7d7ed3-ca3e-4a0b-b7b1-dee607fdb33a
+---
+
+---
+action:
 POSS - NORTH EAST | North East | Durham | £13.45 - £18.9 per hour | Customer service advisor
 job_id: 23643_225416961
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Wallsend | £15 - £16 per hour | Project Administrator
+job_id: 23643_225482217
 ---
 
 ---
@@ -463,6 +487,12 @@ job_id: 107682969
 action:
 POSS - NORTH EAST | North East | County Durham | £30,000 - £35,000 per annum | Paraplanner
 job_id: 107798281
+---
+
+---
+action:
+POSS - NORTH EAST | North East | Hartlepool | £25 - £35 per hour | Document Controller
+job_id: 23643_225480861
 ---
 
 ## LONDON — SELECTED
@@ -489,6 +519,12 @@ job_id: 41ccb3b9-b591-4166-9a51-b814198b9789
 action:
 SELECTED | London | London | £27000 - £28000 per year | ESG Administrator
 job_id: c95dcc3a-aebc-4fba-850a-1e423f93872d
+---
+
+---
+action:
+SELECTED | London | Chessington | £27000 - £30000 per year | Sales Coordinator
+job_id: 23643_225399146
 ---
 
 ---
@@ -540,12 +576,6 @@ job_id: 50305aa1-cd45-4fbf-9d3c-0396d942139e
 ---
 
 ---
-action: select
-SELECTED | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
-job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
----
-
----
 action:
 SELECTED | London | Chessington | £26000 - £28000 per year | Service Administrator
 job_id: 365a170b-e62e-49f9-b465-6fa223da75bd
@@ -582,12 +612,6 @@ job_id: 23643_225406162
 ---
 
 ---
-action: select
-SELECTED | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
-job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
----
-
----
 action:
 SELECTED | London | London |  | Risk Administrator - US Law Firm (6 month FTC)
 job_id: b801c68f-5b19-482e-988a-f1d7c5338961
@@ -603,6 +627,12 @@ job_id: 23643_225411938
 action:
 SELECTED | London | Romford | £13.5 - £14 per hour | Temporary Administrator Romford
 job_id: 23643_225411504
+---
+
+---
+action:
+SELECTED | London | Brentford | £26000 - £28000 per year | Call Centre Sales Advisor
+job_id: fc3deac6-60ad-4c42-bdf3-0475b7c31498
 ---
 
 ---
@@ -663,12 +693,6 @@ job_id: 23643_225424406
 action:
 SELECTED | London | London | £12.71 - £13 per hour (PLUS holiday accrual) | Branch Administrator
 job_id: 23643_225425229
----
-
----
-action: select
-SELECTED | London | Orpington | £35000 - £40000 per year | Administrator
-job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -883,6 +907,12 @@ job_id: 23643_225458182
 
 ---
 action:
+SELECTED | London | London | £27000 - £30000 per year | Junior Service Desk Analyst
+job_id: 41ee99c4-73ba-4adc-b7a3-84fb1910f0bb
+---
+
+---
+action:
 SELECTED | London | Orpington | £30000 - £35000 per year | Operations & Sales Coordinator
 job_id: d9bf0c68-a590-4e12-855c-fa254f106a33
 ---
@@ -1009,7 +1039,7 @@ job_id: 3d2f35d7-304f-43ec-ab7a-50a01ee54e4b
 
 ---
 action:
-SELECTED | London | London | £24000 - £25000 per year | Office Administrator
+SELECTED | London | London | £24000 - £28000 per year | Office Administrator (Construction)
 job_id: 23643_225476856
 ---
 
@@ -1026,24 +1056,6 @@ job_id: 107786275
 ---
 
 ---
-action: select
-SELECTED | London | Harrow | £18 - £21 per hour | Administrator - Charity
-job_id: 316f2ae5-fd75-409f-9b68-3ef8adc7fb89
----
-
----
-action:
-SELECTED | London | London | £28000 per year | Finance Assistant
-job_id: 1fe790a9-3fdc-4868-9f4a-0fdbb501a4ae
----
-
----
-action:
-SELECTED | London | Hackney | £31,000 per annum | Policy and Communications Coordinator
-job_id: 1651419
----
-
----
 action:
 SELECTED | London | London | £26000 - £28000 per year | Receptionist
 job_id: f5a2a805-e4b2-49d5-a54e-23e15ddc4349
@@ -1053,6 +1065,30 @@ job_id: f5a2a805-e4b2-49d5-a54e-23e15ddc4349
 action:
 SELECTED | London | Brentford |  | Mercedes-Benz Service Advisor
 job_id: 0705fd9d-3def-44db-b723-acd98806cf5f
+---
+
+---
+action:
+SELECTED | London | Croydon | £17.84 per hour | Planner
+job_id: 23643_225479282
+---
+
+---
+action:
+SELECTED | London | London | £14.5 - £14.65 per hour | Receptionist/Facilitates Assistant
+job_id: 23643_225480041
+---
+
+---
+action:
+SELECTED | London | London | £13 per hour | Medical Receptionist
+job_id: 23643_225367275
+---
+
+---
+action:
+SELECTED | London | London | £23000 - £27000 per year (Benefits) | Helpdesk Administrator
+job_id: 23643_225480304
 ---
 
 ## LONDON — POSSIBLES
@@ -1067,12 +1103,6 @@ job_id: e1b01dca-5cc3-4f77-8db5-01e4c3798511
 action:
 POSS - LONDON | London | London | £45000 per year | Patent Secretary
 job_id: 02ced342-fa13-4e80-9ec2-3d369c2c6c2d
----
-
----
-action:
-POSS - LONDON | London | London | £20.96 - £27.33 per hour | Business Support Officer (Housing Benefit)
-job_id: 01da6c94-2e35-4cdf-8f32-4961c5046ffd
 ---
 
 ---
@@ -1143,20 +1173,20 @@ job_id: 23643_225474593
 
 ---
 action:
-POSS - LONDON | London | London | £32000 - £40000 per year (Up to £40k) | PA to Partners
-job_id: 23643_225365936
----
-
----
-action:
-POSS - LONDON | London | London | £18.65 - £24.65 per hour | Business Support Officer
-job_id: 07488a95-63e3-40c9-890b-00e052c43a49
+POSS - LONDON | London | London | £47862 - £55514 per year | Hearings Committee Secretary
+job_id: 23643_225478097
 ---
 
 ---
 action:
 POSS - LONDON | London | Harrow | £35000 - £40000 per year | Company Secretary Administrator
 job_id: 6575def5-b4f8-4d8f-ab32-b96037939524
+---
+
+---
+action:
+POSS - LONDON | London | Harrow | £18 - £21 per hour | Administrator - Charity
+job_id: 316f2ae5-fd75-409f-9b68-3ef8adc7fb89
 ---
 
 ---
@@ -1173,8 +1203,26 @@ job_id: 23643_225440089
 
 ---
 action:
+POSS - LONDON | London | Uxbridge | £33000 - £36000 per year | Financial Services Administrator
+job_id: c17b478b-b263-4cf0-bc94-62e97f51f46e
+---
+
+---
+action:
+POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Practice Administrator/Secretary
+job_id: ce1a4d3a-01bd-4318-9879-9012ad1a1d1b
+---
+
+---
+action:
 POSS - LONDON | London | Twickenham | £16 - £25 per hour | Temporary Executive Assistant / Administrator
 job_id: 23643_225465331
+---
+
+---
+action:
+POSS - LONDON | London | Orpington | £35000 - £40000 per year | Administrator
+job_id: 2f01765c-5705-43c3-8e7b-12bf4fdd75d5
 ---
 
 ---
@@ -1287,6 +1335,18 @@ job_id: 23643_225472925
 
 ---
 action:
+POSS - LONDON | London | London | £19 - £19.23 per hour | HR Coordinator
+job_id: 23643_225479821
+---
+
+---
+action:
+POSS - LONDON | London | London | £40000 - £45000 per year | Office Coordinator
+job_id: 23643_225480630
+---
+
+---
+action:
 POSS - LONDON | London | Croydon | £50000 per year | Paraplanner
 job_id: 107762743
 ---
@@ -1367,6 +1427,12 @@ job_id: e39f7ded-b4e3-45d8-857e-ee8f2ac9b0b1
 
 ---
 action:
+SELECTED | Hampshire | Southampton | £27000 - £32000 per year | Service Advisor
+job_id: 1aa94c42-328c-47ba-9a97-4bceadd1d212
+---
+
+---
+action:
 SELECTED | Hampshire | Hampshire | £28300 - £28500 per year | Customer Service Administrator
 job_id: d085c5f2-2439-4e83-81a8-b5d43af25dff
 ---
@@ -1435,18 +1501,6 @@ job_id: 23643_225436745
 action:
 SELECTED | Hampshire | Basingstoke |  | Service Advisor
 job_id: 107670232
----
-
----
-action:
-SELECTED | Hampshire | Winchester | £22000 per year | Young Carers Support Coordinator
-job_id: 107755942
----
-
----
-action:
-SELECTED | Hampshire | Cosham | £16 - £16.5 per hour | Part-Time Administrator
-job_id: 23643_225446784
 ---
 
 ---
@@ -1557,6 +1611,30 @@ SELECTED | Hampshire | Southampton | £23000 - £25000 per year | Receptionist A
 job_id: 7be5680e-a507-4691-9047-c6a09a1f9220
 ---
 
+---
+action:
+SELECTED | Hampshire | Andover | £12.71 per hour | Administrator
+job_id: 23643_225480542
+---
+
+---
+action:
+SELECTED | Hampshire | Lyndhurst | £26365 - £27380 per year | HR Administrator - Permanent Position
+job_id: 23643_225477911
+---
+
+---
+action:
+SELECTED | Hampshire | New Milton |  | Sales Administrator / Sales Coordinator
+job_id: 23643_225367820
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £24000 per year | Attendance Coordinator
+job_id: 107825061
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 ---
@@ -1623,6 +1701,12 @@ job_id: 20db4151-49da-44f1-bf34-a11d73fbea38
 
 ---
 action:
+SELECTED | Surrey | Godalming | £13 per hour | Graduate Administrator
+job_id: 23643_225398850
+---
+
+---
+action:
 SELECTED | Surrey | Shepperton | £30000 - £33000 per year | Bookkeeping & Administration Assistant
 job_id: d801e589-cdf4-4e7e-9b7f-cb2894fb5730
 ---
@@ -1631,12 +1715,6 @@ job_id: d801e589-cdf4-4e7e-9b7f-cb2894fb5730
 action:
 SELECTED | Surrey | Woking | £13 - £14 per hour | Administrator
 job_id: 9a146065-f414-4ddd-b152-5c4322dd4e93
----
-
----
-action: select
-SELECTED | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
-job_id: ad194d43-a41f-4957-a029-b15348fcba4f
 ---
 
 ---
@@ -1871,6 +1949,12 @@ job_id: d33ae84b-3d04-499d-aa6d-57d9112cce12
 
 ---
 action:
+POSS - SURREY | Surrey | Godalming | £35000 - £38000 per year | Client Services Administrator
+job_id: ad194d43-a41f-4957-a029-b15348fcba4f
+---
+
+---
+action:
 POSS - SURREY | Surrey | Knaphill | £35000 - £42000 per year | Operations Coordinator
 job_id: 23643_225444976
 ---
@@ -1941,18 +2025,6 @@ job_id: 23643_225412905
 action:
 SELECTED | Kent | Sevenoaks | £30000 - £35000 per year | Project Coordinator
 job_id: 900e2fad-e172-4801-908f-64a7b0d2064e
----
-
----
-action:
-SELECTED | Kent | Kent | £27000 - £30000 per year | Part-time Operations & Procurement Administrator
-job_id: 6b598b1d-4b4d-4cb8-8645-64c446a8ae26
----
-
----
-action: select
-SELECTED | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
-job_id: 9313f8d8-798c-47d4-b862-63cec763953a
 ---
 
 ---
@@ -2053,12 +2125,6 @@ job_id: 23643_225470613
 
 ---
 action:
-SELECTED | Kent | Ashford | £20592 per year | Part Time Administrator
-job_id: d09c0c8b-fb55-4580-9f94-38d12bb9f5c8
----
-
----
-action:
 SELECTED | Kent | Dartford | £31500 per year | Finance Assistant
 job_id: ab5caf94-95c5-4710-820d-2aa70cbcee69
 ---
@@ -2093,7 +2159,31 @@ SELECTED | Kent | Rochester | £29000 - £31000 per year | Home Administrator
 job_id: 23643_225477097
 ---
 
+---
+action:
+SELECTED | Kent | Northfleet | £28000 - £29000 per year | Operations Administrator
+job_id: 23643_225477990
+---
+
+---
+action:
+SELECTED | Kent | Maidstone | £30000 - £32000 per year | Administrator
+job_id: 23643_225368310
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks |  | Customer Service & Operations Coordinator
+job_id: 107825539
+---
+
 ## KENT — POSSIBLES
+
+---
+action:
+POSS - KENT | Kent | Tunbridge Wells | £13 - £15.38 per hour | Procurement Administrator
+job_id: 9313f8d8-798c-47d4-b862-63cec763953a
+---
 
 ---
 action:
@@ -2155,6 +2245,12 @@ job_id: ba8c8942-7a60-4821-959a-b7b2fe1b7c20
 action:
 SELECTED | Sussex | Lewes | £26,199 per annum | Customer Experience Coordinator
 job_id: 1570714
+---
+
+---
+action:
+SELECTED | Sussex | Haywards Heath | £12.71 per hour | Part Time Receptionist
+job_id: 23643_225283461
 ---
 
 ---
@@ -2333,12 +2429,6 @@ job_id: 107805697
 
 ---
 action:
-SELECTED | Sussex | Lewes |  | People Services Administrator
-job_id: 107806176
----
-
----
-action:
 SELECTED | Sussex | Brighton | £26000 - £29000 per year | Financial Administrator
 job_id: fb3fe47d-5d59-4623-9913-6e6cc881ded7
 ---
@@ -2397,6 +2487,24 @@ SELECTED | Sussex | Chichester |  | Marine Commercial Administrator
 job_id: 107683890
 ---
 
+---
+action:
+SELECTED | Sussex | Battle | £32300 per year | Project Support Coordinator
+job_id: 23643_225368914
+---
+
+---
+action:
+SELECTED | Sussex | Battle | £32300 per year | Drainage Data Coordinator
+job_id: 23643_225368986
+---
+
+---
+action:
+SELECTED | Sussex | Battle | £32300 per year | Commercial Administrator
+job_id: 23643_225368887
+---
+
 ## SUSSEX — POSSIBLES
 
 ---
@@ -2407,22 +2515,16 @@ job_id: 73c27096-8e4a-4bbb-8a13-773dcdd66a6c
 
 ---
 action:
-POSS - SUSSEX | Sussex | Worthing | £45000 per year | Paraplanner
-job_id: 107756513
+POSS - SUSSEX | Sussex | Haywards Heath | £15 - £18 per hour | Temporary Project Support/ Project Coordinator
+job_id: 23643_225468462
 ---
 
 ---
 action:
-POSS - SUSSEX | Sussex | Haywards Heath | £15 - £18 per hour | Temporary Project Support/ Project Coordinator
-job_id: 23643_225468462
+POSS - SUSSEX | Sussex | Worthing | £45000 per year | Paraplanner
+job_id: 107756513
 ---
 ## COVENTRY & WARWICKSHIRE — SELECTED
-
----
-action: select
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £27000 - £33150 per year | Finance and Administration Assistant
-job_id: 519db7dc-6478-4bd4-81a3-4382a632bb62
----
 
 ---
 action:
@@ -2470,12 +2572,6 @@ job_id: 23643_225431898
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Bidford-on-avon | £13 - £15 per hour | Service Desk Co-ordinator
 job_id: 23643_225430942
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Kenilworth | £16500 - £17500 per year | Board & Secretarial Administrator
-job_id: 298c6500-8008-4a5a-aff7-1c4e84c95e8f
 ---
 
 ---
@@ -2530,6 +2626,18 @@ job_id: 23643_225473970
 
 ---
 action:
+POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £27000 - £33150 per year | Finance and Administration Assistant
+job_id: 519db7dc-6478-4bd4-81a3-4382a632bb62
+---
+
+---
+action:
+POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £32000 - £38000 per year | Audi Service Advisor
+job_id: e382f2be-4948-4739-ba50-58bf45106685
+---
+
+---
+action:
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Rugby | £30000 - £33000 per year | Logistics & Customer Service Administrator
 job_id: 23643_225467522
 ---
@@ -2578,12 +2686,6 @@ job_id: 23643_225409226
 ---
 
 ---
-action: select
-SELECTED | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
-job_id: c73aa678-7d7d-4684-8b42-f95464109197
----
-
----
 action:
 SELECTED | Yorkshire - North | Scarborough | £28000 - £29500 per year | Recruitment Administrator
 job_id: 9b15b052-ee03-4bba-8d2e-fafc74d60cc4
@@ -2599,12 +2701,6 @@ job_id: 23643_225420830
 action:
 SELECTED | Yorkshire - North | York | £26300 - £27300 per year | Contact Centre Claims Advisor
 job_id: f5b72259-1b25-4076-9a2d-968b31c64d5d
----
-
----
-action: select
-SELECTED | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
-job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
 ---
 
 ---
@@ -2633,17 +2729,29 @@ job_id: 23643_225475578
 
 ---
 action:
-SELECTED | Yorkshire - North | Skipton | £24700 per year | Customer Service Advisor
-job_id: 23643_225366044
----
-
----
-action:
 SELECTED | Yorkshire - North | York | £26000 per year | Sales Administration Assistant
 job_id: 107787537
 ---
 
+---
+action:
+SELECTED | Yorkshire - North | Pickering | £26000 - £27500 per year | Office Administrator
+job_id: 23643_225480415
+---
+
 ## NORTH YORKSHIRE — POSSIBLES
+
+---
+action:
+POSS - NORTH YORKSHIRE | Yorkshire - North | York | £29000 - £31000 per year | Investment Administrator
+job_id: c73aa678-7d7d-4684-8b42-f95464109197
+---
+
+---
+action:
+POSS - NORTH YORKSHIRE | Yorkshire - North | Harrogate | £29000 - £31000 per year | Administrator
+job_id: 0a779989-1a72-441c-81a0-9d7c9963e287
+---
 
 ---
 action:
