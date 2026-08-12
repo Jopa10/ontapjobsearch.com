@@ -152,6 +152,51 @@ def test_compose_preserves_base_and_filters_expired_and_duplicate() -> None:
     assert counts["duplicate_teaching_vacancies_skipped"] == 1
 
 
+def test_cross_source_school_employer_alias_is_deduplicated_conservatively() -> None:
+    region = "North East"
+    nejobs = base_job("nejobs-300098", region, source="NEJobs")
+    nejobs.update(
+        {
+            "title": "Administration Assistant",
+            "company": "Bishop Bewick Catholic Education Trust",
+            "location": (
+                "St Benet Biscop Catholic Academy, Ridge Terrace, "
+                "Bedlington, NE22 6ED"
+            ),
+            "closing_date": "2026-08-17",
+        }
+    )
+    teaching = teaching_job(
+        "administration-assistant-st-benet",
+        region,
+        title="Administration Assistant",
+        company="St Benet Biscop Catholic Academy",
+        location="Bedlington",
+        closing_date="2026-08-17",
+    )
+    unrelated = teaching_job(
+        "administration-assistant-other-school",
+        region,
+        title="Administration Assistant",
+        company="Northumberland Learning Partnership",
+        location="Bedlington",
+        closing_date="2026-08-17",
+    )
+
+    rows, counts = generic.compose_rows(
+        [nejobs],
+        [teaching, unrelated],
+        region=region,
+        today=TODAY,
+    )
+
+    assert [row["job_id"] for row in rows] == [
+        "teaching-vacancies-administration-assistant-other-school",
+        "nejobs-300098",
+    ]
+    assert counts["duplicate_teaching_vacancies_skipped"] == 1
+
+
 def test_external_only_overwrite_is_blocked() -> None:
     region = "Yorkshire - West"
     with pytest.raises(ValueError, match="external-only overwrite blocked"):

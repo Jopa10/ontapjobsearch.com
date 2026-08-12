@@ -13,6 +13,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Iterable
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from zoneinfo import ZoneInfo
 
 
 BASE_HISTORY_FIELDS = [
@@ -99,6 +100,48 @@ def _canonical_apply_url(value: str) -> str:
     )
 
 
+def _row_is_live(
+    row: dict[str, object],
+    *,
+    as_of: date,
+    now: datetime | None = None,
+) -> bool:
+    """Filter rows only when a provider supplied a parseable closing deadline.
+
+    JobG8 rows commonly have no closing date, so missing or malformed deadlines
+    remain countable rather than being guessed expired. For today's report an
+    explicit closing time is respected; historical reports use the calendar day.
+    """
+    deadline_text = _text(row.get("closing_datetime"))
+    if deadline_text:
+        try:
+            deadline = datetime.fromisoformat(deadline_text)
+        except ValueError:
+            return True
+        if deadline.tzinfo is None:
+            deadline = deadline.replace(tzinfo=ZoneInfo("Europe/London"))
+        london_deadline = deadline.astimezone(ZoneInfo("Europe/London"))
+        if london_deadline.date() < as_of:
+            return False
+        if london_deadline.date() > as_of:
+            return True
+        if now is None:
+            return True
+        current = now
+        if current.tzinfo is None:
+            current = current.replace(tzinfo=ZoneInfo("Europe/London"))
+        return london_deadline >= current.astimezone(ZoneInfo("Europe/London"))
+
+    closing_text = _text(row.get("closing_date"))
+    if not closing_text:
+        return True
+    try:
+        closing_day = date.fromisoformat(closing_text)
+    except ValueError:
+        return True
+    return closing_day >= as_of
+
+
 def _iter_job_rows(app_dir: Path) -> Iterable[tuple[Path, dict[str, object]]]:
     for json_path in sorted(app_dir.rglob("*.json")):
         try:
@@ -119,7 +162,12 @@ def _iter_job_rows(app_dir: Path) -> Iterable[tuple[Path, dict[str, object]]]:
             yield json_path, row
 
 
-def collect_live_jobs(app_dir: Path) -> tuple[list[LiveJob], int, int]:
+def collect_live_jobs(
+    app_dir: Path,
+    *,
+    as_of: date | None = None,
+    now: datetime | None = None,
+) -> tuple[list[LiveJob], int, int]:
     """Return unique live jobs, job JSON file count and ignored duplicate row count."""
     if not app_dir.is_dir():
         raise FileNotFoundError(f"Published app directory not found: {app_dir}")
@@ -132,6 +180,8 @@ def collect_live_jobs(app_dir: Path) -> tuple[list[LiveJob], int, int]:
 
     for json_path, row in _iter_job_rows(app_dir):
         job_files.add(json_path)
+        if as_of is not None and not _row_is_live(row, as_of=as_of, now=now):
+            continue
         job = LiveJob(
             job_id=_text(row.get("job_id")),
             title=_text(row.get("title")),
@@ -315,11 +365,17 @@ def _write_history(
 
 def build_reports(app_dir: Path, reports_dir: Path, report_date: str) -> CountResult:
     try:
-        date.fromisoformat(report_date)
+        report_day = date.fromisoformat(report_date)
     except ValueError as exc:
         raise ValueError(f"Report date must be YYYY-MM-DD: {report_date!r}") from exc
 
-    jobs, job_file_count, duplicate_rows_ignored = collect_live_jobs(app_dir)
+    london_now = datetime.now(ZoneInfo("Europe/London"))
+    report_now = london_now if report_day == london_now.date() else None
+    jobs, job_file_count, duplicate_rows_ignored = collect_live_jobs(
+        app_dir,
+        as_of=report_day,
+        now=report_now,
+    )
     source_counts: Counter[str] = Counter(job.source for job in jobs)
     region_category_counts: Counter[tuple[str, str, str]] = Counter(
         (job.source, job.region, job.category) for job in jobs
