@@ -39,6 +39,7 @@ export type PublishedJob = {
 
 const APP_DIRECTORY = path.join(process.cwd(), "app");
 const DERIVED_CITY_DATA_DIRECTORY = "_city-pages";
+const CONFIGURED_CITY_DATA_PREFIX = "_city-pages/configured-slices/";
 
 function text(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
@@ -73,8 +74,10 @@ function sourceSlice(
     .replace(/\.json$/, "");
   const candidates = [jsonRoute];
 
-  if (jsonRoute.startsWith("_slice-data/")) {
-    const [, regionSlug, categorySlug] = jsonRoute.split("/");
+  if (jsonRoute.startsWith(CONFIGURED_CITY_DATA_PREFIX)) {
+    const parts = jsonRoute.split("/");
+    const regionSlug = parts[2];
+    const categorySlug = parts[3];
     const configured = getConfiguredSliceBySlugs(regionSlug, categorySlug);
     if (configured) {
       return { path: configured.route, label: configured.title };
@@ -171,42 +174,46 @@ function normaliseJob(row: Record<string, unknown>, filePath: string): Published
   };
 }
 
+function addPublishedFile(filePath: string, byId: Map<string, PublishedJob>) {
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return;
+  }
+
+  if (!Array.isArray(parsed)) return;
+  for (const row of parsed) {
+    if (!isPublishedJob(row)) continue;
+    const job = normaliseJob(row, filePath);
+    if (
+      job.region.toLowerCase() === "london" &&
+      getLondonJobArea(job) === "outside-london"
+    ) {
+      continue;
+    }
+    if (!byId.has(job.job_id)) byId.set(job.job_id, job);
+  }
+}
+
 let cachedJobs: PublishedJob[] | undefined;
 
 export function getPublishedJobs(): PublishedJob[] {
   if (cachedJobs) return cachedJobs;
 
   const byId = new Map<string, PublishedJob>();
-  const liveConfiguredDataPaths = new Set(
-    getPublishedDynamicSlices().map((slice) => path.resolve(slice.dataFilePath))
-  );
 
+  // Established static slice JSON. Derived city data is intentionally skipped by
+  // jsonFiles(), as before.
   for (const filePath of jsonFiles(APP_DIRECTORY).sort()) {
-    if (
-      filePath.includes(`${path.sep}_slice-data${path.sep}`) &&
-      !liveConfiguredDataPaths.has(path.resolve(filePath))
-    ) {
-      continue;
-    }
-    let parsed: unknown;
-    try {
-      parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    } catch {
-      continue;
-    }
+    addPublishedFile(filePath, byId);
+  }
 
-    if (!Array.isArray(parsed)) continue;
-    for (const row of parsed) {
-      if (!isPublishedJob(row)) continue;
-      const job = normaliseJob(row, filePath);
-      if (
-        job.region.toLowerCase() === "london" &&
-        getLondonJobArea(job) === "outside-london"
-      ) {
-        continue;
-      }
-      if (!byId.has(job.job_id)) byId.set(job.job_id, job);
-    }
+  // Configured slice data lives under the otherwise-skipped _city-pages tree so
+  // the existing city-data commit stage can carry it safely. Only LIVE,
+  // non-empty configured slices are admitted here.
+  for (const slice of getPublishedDynamicSlices()) {
+    addPublishedFile(slice.dataFilePath, byId);
   }
 
   cachedJobs = [...byId.values()].sort((a, b) => a.job_id.localeCompare(b.job_id));
