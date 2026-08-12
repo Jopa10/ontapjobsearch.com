@@ -33,7 +33,7 @@ function parseCsv(csvText: string): Record<string, string>[] {
 
     if (c === '"') {
       if (inQuotes && next === '"') {
-        field += '"'; // escaped quote
+        field += '"';
         i++;
       } else {
         inQuotes = !inQuotes;
@@ -48,7 +48,6 @@ function parseCsv(csvText: string): Record<string, string>[] {
     }
 
     if (!inQuotes && (c === "\n" || c === "\r")) {
-      // handle CRLF
       if (c === "\r" && next === "\n") i++;
       row.push(field);
       field = "";
@@ -60,7 +59,6 @@ function parseCsv(csvText: string): Record<string, string>[] {
     field += c;
   }
 
-  // last field
   if (field.length || row.length) {
     row.push(field);
     rows.push(row);
@@ -82,28 +80,31 @@ function parseCsv(csvText: string): Record<string, string>[] {
 }
 
 function readJobsCsv(): JobRow[] {
-const filePath = path.join(process.cwd(), "app", "yorkshire", "support-worker.json");
+  const filePath = path.join(process.cwd(), "app", "yorkshire", "support-worker.json");
+  if (!fs.existsSync(filePath)) return [];
+
   const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
-  
+
   return parsed.map((r: any) => ({
-  job_id: r.job_id || r.jobapplicationurl || "",
-  title: r.title || r.jobtitle || "",
-  company: r.company || r.companyname || "",
-  location: r.location || r.joblocation || "",
-  region: r.region || "",
-  country: r.country || "",
-  category: r.category || r.jobcategory || "",
-  employment_type: r.employment_type || r.jobtype || "",
-  salary_min: r.salary_min || "",
-  salary_max: r.salary_max || "",
-  salary_text: r.salary_text || r.otherdetails || "",
-  posted_date: r.posted_date || "",
-  closing_date: r.closing_date || "",
-  description: r.description || r.jobdescription || "",
-  apply_url: r.apply_url || r.jobapplicationurl || "",
-  source: r.source || ""
-}));
+    job_id: r.job_id || r.jobapplicationurl || "",
+    title: r.title || r.jobtitle || "",
+    company: r.company || r.companyname || "",
+    location: r.location || r.joblocation || "",
+    region: r.region || "",
+    country: r.country || "",
+    category: r.category || r.jobcategory || "",
+    employment_type: r.employment_type || r.jobtype || "",
+    salary_min: r.salary_min || "",
+    salary_max: r.salary_max || "",
+    salary_text: r.salary_text || r.otherdetails || "",
+    posted_date: r.posted_date || "",
+    closing_date: r.closing_date || "",
+    description: r.description || r.jobdescription || "",
+    apply_url: r.apply_url || r.jobapplicationurl || "",
+    source: r.source || "",
+  }));
 }
+
 function getEmployerType(name: string) {
   if (/NHS|Hospital|Trust/i.test(name)) return "NHS";
   if (/Surgery|Medical Centre|GP/i.test(name)) return "GP Practice";
@@ -111,36 +112,39 @@ function getEmployerType(name: string) {
   if (/Council|City Council/i.test(name)) return "Council";
   return "Private";
 }
+
 export default function TestJobsPage() {
   const jobs = readJobsCsv();
 
   return (
     <main style={{ maxWidth: 980, margin: "40px auto", padding: "0 16px" }}>
       <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      name: "Leeds NHS Admin Jobs",
-      url: "https://www.ontapjobsearch.com/leeds/nhs-admin-jobs",
-    }),
-  }}
-/>
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Leeds NHS Admin Jobs",
+            url: "https://www.ontapjobsearch.com/leeds/nhs-admin-jobs",
+          }),
+        }}
+      />
       <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 6 }}>
-  Leeds NHS Admin Jobs
-</h1>
- <p style={{ 
-  fontSize: 14, 
-  fontWeight: 600, 
-  color: "#334155", 
-  marginBottom: 8 
-}}>
-  Last updated: 10th March 2026
-</p>
-<p style={{ color: "#555", marginBottom: 20 }}>
-  Updated daily • Roles across Leeds hospitals and NHS services • Apply on employer sites
-</p>
+        Leeds NHS Admin Jobs
+      </h1>
+      <p
+        style={{
+          fontSize: 14,
+          fontWeight: 600,
+          color: "#334155",
+          marginBottom: 8,
+        }}
+      >
+        Last updated: 10th March 2026
+      </p>
+      <p style={{ color: "#555", marginBottom: 20 }}>
+        Updated daily • Roles across Leeds hospitals and NHS services • Apply on employer sites
+      </p>
       <div style={{ display: "grid", gap: 12 }}>
         {jobs.map((j) => (
           <div
@@ -151,87 +155,95 @@ export default function TestJobsPage() {
               padding: 14,
             }}
           >
-        <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
-  {j.title}
-</div>
-<div style={{ marginBottom: 4 }}>
-  <span style={{
-    fontSize: 12,
-    fontWeight: 600,
-    color: "#475569"
-  }}>
-    {getEmployerType(j.company)}
-  </span>
-</div>
-<div style={{ fontSize: 14, color: "#555", marginBottom: 6 }}>
-{j.company} • {j.location}
- </div>
- <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
-   {j.salary_min && j.salary_max
-     ? `£${Number(j.salary_min).toLocaleString()}–£${Number(j.salary_max).toLocaleString()}`
-     : j.salary_text
-     ? `${j.salary_text}`
-     : ""}
- </div>
-<div style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
-  {j.closing_date ? `Closing: ${new Date(j.closing_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : ""}
-</div>
-<div
-  style={{
-    fontSize: 14,
-    color: "#555",
-    marginBottom: 8,
-    overflow: "hidden",
-    textOverflow: "ellipsis",
-    whiteSpace: "nowrap",
-  }}
-  title={j.description || ""}
->
-  {j.description ? j.description.replace(/\s+/g, " ").trim() : ""}
-</div>
+            <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
+              {j.title}
+            </div>
+            <div style={{ marginBottom: 4 }}>
+              <span
+                style={{
+                  fontSize: 12,
+                  fontWeight: 600,
+                  color: "#475569",
+                }}
+              >
+                {getEmployerType(j.company)}
+              </span>
+            </div>
+            <div style={{ fontSize: 14, color: "#555", marginBottom: 6 }}>
+              {j.company} • {j.location}
+            </div>
+            <div style={{ fontSize: 14, color: "#555", marginBottom: 8 }}>
+              {j.salary_min && j.salary_max
+                ? `£${Number(j.salary_min).toLocaleString()}–£${Number(j.salary_max).toLocaleString()}`
+                : j.salary_text
+                  ? `${j.salary_text}`
+                  : ""}
+            </div>
+            <div style={{ fontSize: 13, color: "#666", marginBottom: 10 }}>
+              {j.closing_date
+                ? `Closing: ${new Date(j.closing_date).toLocaleDateString("en-GB", {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric",
+                  })}`
+                : ""}
+            </div>
+            <div
+              style={{
+                fontSize: 14,
+                color: "#555",
+                marginBottom: 8,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+              title={j.description || ""}
+            >
+              {j.description ? j.description.replace(/\s+/g, " ").trim() : ""}
+            </div>
 
-{j.description && (
-  <details style={{ marginBottom: 12 }}>
-    <summary
-      style={{
-        fontSize: 13,
-        color: "#2563eb",
-        cursor: "pointer",
-        marginBottom: 8,
-      }}
-    >
-      View full job description
-    </summary>
-    <div
-      style={{
-        fontSize: 14,
-        color: "#555",
-        lineHeight: 1.6,
-        whiteSpace: "pre-wrap",
-      }}
-    >
-      {j.description}
-    </div>
-  </details>
-)}
-<div style={{ marginTop: 8 }}>
-  <a
-    href={j.apply_url}
-    target="_blank"
-    rel="noreferrer"
-    style={{
-      display: "inline-block",
-      background: "#2563eb",
-      color: "white",
-      padding: "6px 12px",
-      borderRadius: 6,
-      fontSize: 14,
-      textDecoration: "none"
-    }}
-  >
-    Apply Now
-  </a>
-</div>
+            {j.description && (
+              <details style={{ marginBottom: 12 }}>
+                <summary
+                  style={{
+                    fontSize: 13,
+                    color: "#2563eb",
+                    cursor: "pointer",
+                    marginBottom: 8,
+                  }}
+                >
+                  View full job description
+                </summary>
+                <div
+                  style={{
+                    fontSize: 14,
+                    color: "#555",
+                    lineHeight: 1.6,
+                    whiteSpace: "pre-wrap",
+                  }}
+                >
+                  {j.description}
+                </div>
+              </details>
+            )}
+            <div style={{ marginTop: 8 }}>
+              <a
+                href={j.apply_url}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "inline-block",
+                  background: "#2563eb",
+                  color: "white",
+                  padding: "6px 12px",
+                  borderRadius: 6,
+                  fontSize: 14,
+                  textDecoration: "none",
+                }}
+              >
+                Apply Now
+              </a>
+            </div>
           </div>
         ))}
       </div>
