@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { getLondonJobArea } from "@/lib/london-job-area";
+import { normaliseJobTitle } from "@/lib/job-title";
 import {
   getConfiguredSliceBySlugs,
   getPublishedDynamicSlices,
@@ -86,7 +87,7 @@ function sourceSlice(
 
   if (jsonRoute === "london/service-administrator-jobs") {
     const londonArea = getLondonJobArea({
-      title: text(row.title),
+      title: normaliseJobTitle(text(row.title)),
       location: text(row.location),
       description: text(row.full_description) || text(row.description),
     });

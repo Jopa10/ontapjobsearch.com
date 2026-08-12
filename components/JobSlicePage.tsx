@@ -4,6 +4,7 @@ import Link from "next/link";
 import DetailedJobList from "@/components/DetailedJobList";
 import JobViewSwitcher from "@/components/JobViewSwitcher";
 import QuickJobList from "@/components/QuickJobList";
+import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
 
@@ -89,7 +90,7 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
     .filter((row): row is Record<string, unknown> => Boolean(row && typeof row === "object"))
     .map((row) => ({
       job_id: String(row.job_id || row["/Job/DisplayReference"] || ""),
-      title: String(row.title || row["/Job/Position"] || ""),
+      title: normaliseJobTitle(String(row.title || row["/Job/Position"] || "")),
       company: String(row.company || row["/Job/AdvertiserName"] || ""),
       advertiser_name: String(row.advertiser_name || row["/Job/AdvertiserName"] || ""),
       advertiser_type: String(row.advertiser_type || row["/Job/AdvertiserType"] || ""),
