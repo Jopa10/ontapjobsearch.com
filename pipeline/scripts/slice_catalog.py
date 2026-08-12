@@ -94,7 +94,13 @@ def output_source_path(region: str, category: str) -> Path:
 
 
 def dynamic_data_path(region: str, category: str) -> Path:
-    return Path("app") / "_slice-data" / region_slug(region) / f"{route_slug(category)}.json"
+    return (
+        Path("app")
+        / "_city-pages"
+        / "configured-slices"
+        / region_slug(region)
+        / f"{route_slug(category)}.json"
+    )
 
 
 def dynamic_route(region: str, category: str) -> str:
