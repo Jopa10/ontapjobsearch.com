@@ -1401,8 +1401,8 @@
 2026-08,2026-08-08,Berkshire,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Berkshire,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Berkshire,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Berkshire,lookup_region,finance_accounts,3
-2026-08,2026-08-12,Berkshire,lookup_region,finance_accounts,3
+2026-08,2026-08-11,Berkshire,lookup_region,finance_accounts,4
+2026-08,2026-08-12,Berkshire,lookup_region,finance_accounts,4
 2026-08,2026-08-01,Bristol & Bath,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Bristol & Bath,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Bristol & Bath,lookup_region,finance_accounts,0
@@ -1413,8 +1413,8 @@
 2026-08,2026-08-08,Bristol & Bath,lookup_region,finance_accounts,1
 2026-08,2026-08-09,Bristol & Bath,lookup_region,finance_accounts,1
 2026-08,2026-08-10,Bristol & Bath,lookup_region,finance_accounts,1
-2026-08,2026-08-11,Bristol & Bath,lookup_region,finance_accounts,6
-2026-08,2026-08-12,Bristol & Bath,lookup_region,finance_accounts,5
+2026-08,2026-08-11,Bristol & Bath,lookup_region,finance_accounts,7
+2026-08,2026-08-12,Bristol & Bath,lookup_region,finance_accounts,6
 2026-08,2026-08-01,Buckinghamshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Buckinghamshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Buckinghamshire,lookup_region,finance_accounts,0
@@ -1425,8 +1425,8 @@
 2026-08,2026-08-08,Buckinghamshire,lookup_region,finance_accounts,2
 2026-08,2026-08-09,Buckinghamshire,lookup_region,finance_accounts,2
 2026-08,2026-08-10,Buckinghamshire,lookup_region,finance_accounts,2
-2026-08,2026-08-11,Buckinghamshire,lookup_region,finance_accounts,3
-2026-08,2026-08-12,Buckinghamshire,lookup_region,finance_accounts,3
+2026-08,2026-08-11,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08,2026-08-12,Buckinghamshire,lookup_region,finance_accounts,4
 2026-08,2026-08-01,Cambridgeshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Cambridgeshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Cambridgeshire,lookup_region,finance_accounts,0
@@ -1437,8 +1437,20 @@
 2026-08,2026-08-08,Cambridgeshire,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Cambridgeshire,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Cambridgeshire,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Cambridgeshire,lookup_region,finance_accounts,2
-2026-08,2026-08-12,Cambridgeshire,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Cambridgeshire,lookup_region,finance_accounts,5
+2026-08,2026-08-12,Cambridgeshire,lookup_region,finance_accounts,4
+2026-08,2026-08-01,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-02,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-03,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-04,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-05,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-06,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-07,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-08,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-09,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-10,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Cheshire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-12,Cheshire - East,lookup_region,finance_accounts,1
 2026-08,2026-08-01,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
 2026-08,2026-08-02,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
 2026-08,2026-08-03,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
@@ -1446,11 +1458,11 @@
 2026-08,2026-08-05,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
 2026-08,2026-08-06,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
 2026-08,2026-08-07,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
-2026-08,2026-08-08,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
-2026-08,2026-08-09,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
-2026-08,2026-08-10,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
-2026-08,2026-08-11,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
-2026-08,2026-08-12,Cheshire - Warrington & Halton,lookup_region,finance_accounts,2
+2026-08,2026-08-08,Cheshire - Warrington & Halton,lookup_region,finance_accounts,3
+2026-08,2026-08-09,Cheshire - Warrington & Halton,lookup_region,finance_accounts,3
+2026-08,2026-08-10,Cheshire - Warrington & Halton,lookup_region,finance_accounts,3
+2026-08,2026-08-11,Cheshire - Warrington & Halton,lookup_region,finance_accounts,4
+2026-08,2026-08-12,Cheshire - Warrington & Halton,lookup_region,finance_accounts,5
 2026-08,2026-08-01,Cheshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Cheshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Cheshire - West,lookup_region,finance_accounts,0
@@ -1461,8 +1473,20 @@
 2026-08,2026-08-08,Cheshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Cheshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Cheshire - West,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Cheshire - West,lookup_region,finance_accounts,1
-2026-08,2026-08-12,Cheshire - West,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Cheshire - West,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Cheshire - West,lookup_region,finance_accounts,2
+2026-08,2026-08-01,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-02,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-03,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-04,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-05,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-06,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-07,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-08,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-09,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-10,Cumbria - West,lookup_region,finance_accounts,0
+2026-08,2026-08-11,Cumbria - West,lookup_region,finance_accounts,1
+2026-08,2026-08-12,Cumbria - West,lookup_region,finance_accounts,1
 2026-08,2026-08-01,Derbyshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Derbyshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Derbyshire,lookup_region,finance_accounts,0
@@ -1485,8 +1509,8 @@
 2026-08,2026-08-08,Devon,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Devon,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Devon,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Devon,lookup_region,finance_accounts,6
-2026-08,2026-08-12,Devon,lookup_region,finance_accounts,7
+2026-08,2026-08-11,Devon,lookup_region,finance_accounts,9
+2026-08,2026-08-12,Devon,lookup_region,finance_accounts,10
 2026-08,2026-08-01,Dorset,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Dorset,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Dorset,lookup_region,finance_accounts,0
@@ -1522,7 +1546,7 @@
 2026-08,2026-08-09,Essex,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Essex,lookup_region,finance_accounts,0
 2026-08,2026-08-11,Essex,lookup_region,finance_accounts,2
-2026-08,2026-08-12,Essex,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Essex,lookup_region,finance_accounts,3
 2026-08,2026-08-01,Gloucestershire,lookup_region,finance_accounts,1
 2026-08,2026-08-02,Gloucestershire,lookup_region,finance_accounts,1
 2026-08,2026-08-03,Gloucestershire,lookup_region,finance_accounts,1
@@ -1533,8 +1557,8 @@
 2026-08,2026-08-08,Gloucestershire,lookup_region,finance_accounts,1
 2026-08,2026-08-09,Gloucestershire,lookup_region,finance_accounts,1
 2026-08,2026-08-10,Gloucestershire,lookup_region,finance_accounts,1
-2026-08,2026-08-11,Gloucestershire,lookup_region,finance_accounts,4
-2026-08,2026-08-12,Gloucestershire,lookup_region,finance_accounts,5
+2026-08,2026-08-11,Gloucestershire,lookup_region,finance_accounts,6
+2026-08,2026-08-12,Gloucestershire,lookup_region,finance_accounts,7
 2026-08,2026-08-01,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,0
@@ -1545,8 +1569,8 @@
 2026-08,2026-08-08,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,3
-2026-08,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,3
+2026-08,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,4
+2026-08,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,4
 2026-08,2026-08-01,Greater Manchester - South,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Greater Manchester - South,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Greater Manchester - South,lookup_region,finance_accounts,0
@@ -1569,8 +1593,20 @@
 2026-08,2026-08-08,Hampshire,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Hampshire,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Hampshire,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Hampshire,lookup_region,finance_accounts,4
-2026-08,2026-08-12,Hampshire,lookup_region,finance_accounts,4
+2026-08,2026-08-11,Hampshire,lookup_region,finance_accounts,6
+2026-08,2026-08-12,Hampshire,lookup_region,finance_accounts,6
+2026-08,2026-08-01,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-02,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-03,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-04,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-05,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-06,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-07,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-08,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-09,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-10,Herefordshire,lookup_region,finance_accounts,0
+2026-08,2026-08-11,Herefordshire,lookup_region,finance_accounts,1
+2026-08,2026-08-12,Herefordshire,lookup_region,finance_accounts,1
 2026-08,2026-08-01,Kent,lookup_region,finance_accounts,1
 2026-08,2026-08-02,Kent,lookup_region,finance_accounts,1
 2026-08,2026-08-03,Kent,lookup_region,finance_accounts,1
@@ -1582,7 +1618,7 @@
 2026-08,2026-08-09,Kent,lookup_region,finance_accounts,1
 2026-08,2026-08-10,Kent,lookup_region,finance_accounts,1
 2026-08,2026-08-11,Kent,lookup_region,finance_accounts,2
-2026-08,2026-08-12,Kent,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Kent,lookup_region,finance_accounts,3
 2026-08,2026-08-01,Lancashire - Central,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Lancashire - Central,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Lancashire - Central,lookup_region,finance_accounts,0
@@ -1605,8 +1641,8 @@
 2026-08,2026-08-08,Lancashire - East,lookup_region,finance_accounts,1
 2026-08,2026-08-09,Lancashire - East,lookup_region,finance_accounts,1
 2026-08,2026-08-10,Lancashire - East,lookup_region,finance_accounts,1
-2026-08,2026-08-11,Lancashire - East,lookup_region,finance_accounts,1
-2026-08,2026-08-12,Lancashire - East,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Lancashire - East,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Lancashire - East,lookup_region,finance_accounts,2
 2026-08,2026-08-01,Lancashire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Lancashire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Lancashire - West,lookup_region,finance_accounts,0
@@ -1629,20 +1665,20 @@
 2026-08,2026-08-08,Leicestershire,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Leicestershire,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Leicestershire,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Leicestershire,lookup_region,finance_accounts,3
-2026-08,2026-08-12,Leicestershire,lookup_region,finance_accounts,3
+2026-08,2026-08-11,Leicestershire,lookup_region,finance_accounts,4
+2026-08,2026-08-12,Leicestershire,lookup_region,finance_accounts,4
 2026-08,2026-08-01,London,lookup_region,finance_accounts,1
 2026-08,2026-08-02,London,lookup_region,finance_accounts,1
 2026-08,2026-08-03,London,lookup_region,finance_accounts,1
-2026-08,2026-08-04,London,lookup_region,finance_accounts,1
-2026-08,2026-08-05,London,lookup_region,finance_accounts,1
-2026-08,2026-08-06,London,lookup_region,finance_accounts,1
-2026-08,2026-08-07,London,lookup_region,finance_accounts,1
-2026-08,2026-08-08,London,lookup_region,finance_accounts,1
-2026-08,2026-08-09,London,lookup_region,finance_accounts,1
-2026-08,2026-08-10,London,lookup_region,finance_accounts,1
-2026-08,2026-08-11,London,lookup_region,finance_accounts,12
-2026-08,2026-08-12,London,lookup_region,finance_accounts,10
+2026-08,2026-08-04,London,lookup_region,finance_accounts,2
+2026-08,2026-08-05,London,lookup_region,finance_accounts,2
+2026-08,2026-08-06,London,lookup_region,finance_accounts,2
+2026-08,2026-08-07,London,lookup_region,finance_accounts,3
+2026-08,2026-08-08,London,lookup_region,finance_accounts,3
+2026-08,2026-08-09,London,lookup_region,finance_accounts,3
+2026-08,2026-08-10,London,lookup_region,finance_accounts,3
+2026-08,2026-08-11,London,lookup_region,finance_accounts,19
+2026-08,2026-08-12,London,lookup_region,finance_accounts,17
 2026-08,2026-08-01,Merseyside - Liverpool,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Merseyside - Liverpool,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Merseyside - Liverpool,lookup_region,finance_accounts,0
@@ -1655,6 +1691,18 @@
 2026-08,2026-08-10,Merseyside - Liverpool,lookup_region,finance_accounts,0
 2026-08,2026-08-11,Merseyside - Liverpool,lookup_region,finance_accounts,0
 2026-08,2026-08-12,Merseyside - Liverpool,lookup_region,finance_accounts,1
+2026-08,2026-08-01,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-02,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-03,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-04,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-05,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-06,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-07,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-08,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-09,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-10,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,2
 2026-08,2026-08-01,Norfolk,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Norfolk,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Norfolk,lookup_region,finance_accounts,0
@@ -1665,20 +1713,20 @@
 2026-08,2026-08-08,Norfolk,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Norfolk,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Norfolk,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Norfolk,lookup_region,finance_accounts,1
-2026-08,2026-08-12,Norfolk,lookup_region,finance_accounts,0
+2026-08,2026-08-11,Norfolk,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Norfolk,lookup_region,finance_accounts,1
 2026-08,2026-08-01,North East,published_aggregate,finance_accounts,0
 2026-08,2026-08-02,North East,published_aggregate,finance_accounts,0
 2026-08,2026-08-03,North East,published_aggregate,finance_accounts,0
 2026-08,2026-08-04,North East,published_aggregate,finance_accounts,0
 2026-08,2026-08-05,North East,published_aggregate,finance_accounts,0
 2026-08,2026-08-06,North East,published_aggregate,finance_accounts,0
-2026-08,2026-08-07,North East,published_aggregate,finance_accounts,0
-2026-08,2026-08-08,North East,published_aggregate,finance_accounts,0
-2026-08,2026-08-09,North East,published_aggregate,finance_accounts,0
-2026-08,2026-08-10,North East,published_aggregate,finance_accounts,0
-2026-08,2026-08-11,North East,published_aggregate,finance_accounts,3
-2026-08,2026-08-12,North East,published_aggregate,finance_accounts,3
+2026-08,2026-08-07,North East,published_aggregate,finance_accounts,1
+2026-08,2026-08-08,North East,published_aggregate,finance_accounts,1
+2026-08,2026-08-09,North East,published_aggregate,finance_accounts,1
+2026-08,2026-08-10,North East,published_aggregate,finance_accounts,1
+2026-08,2026-08-11,North East,published_aggregate,finance_accounts,6
+2026-08,2026-08-12,North East,published_aggregate,finance_accounts,6
 2026-08,2026-08-01,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,0
 2026-08,2026-08-02,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,0
 2026-08,2026-08-03,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,0
@@ -1689,20 +1737,20 @@
 2026-08,2026-08-08,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,0
 2026-08,2026-08-09,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,0
 2026-08,2026-08-10,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,0
-2026-08,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,1
-2026-08,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,1
+2026-08,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,2
+2026-08,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,2
 2026-08,2026-08-01,North East - Tees Valley,lookup_region,finance_accounts,0
 2026-08,2026-08-02,North East - Tees Valley,lookup_region,finance_accounts,0
 2026-08,2026-08-03,North East - Tees Valley,lookup_region,finance_accounts,0
 2026-08,2026-08-04,North East - Tees Valley,lookup_region,finance_accounts,0
 2026-08,2026-08-05,North East - Tees Valley,lookup_region,finance_accounts,0
 2026-08,2026-08-06,North East - Tees Valley,lookup_region,finance_accounts,0
-2026-08,2026-08-07,North East - Tees Valley,lookup_region,finance_accounts,0
-2026-08,2026-08-08,North East - Tees Valley,lookup_region,finance_accounts,0
-2026-08,2026-08-09,North East - Tees Valley,lookup_region,finance_accounts,0
-2026-08,2026-08-10,North East - Tees Valley,lookup_region,finance_accounts,0
-2026-08,2026-08-11,North East - Tees Valley,lookup_region,finance_accounts,1
-2026-08,2026-08-12,North East - Tees Valley,lookup_region,finance_accounts,1
+2026-08,2026-08-07,North East - Tees Valley,lookup_region,finance_accounts,1
+2026-08,2026-08-08,North East - Tees Valley,lookup_region,finance_accounts,1
+2026-08,2026-08-09,North East - Tees Valley,lookup_region,finance_accounts,1
+2026-08,2026-08-10,North East - Tees Valley,lookup_region,finance_accounts,1
+2026-08,2026-08-11,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08,2026-08-12,North East - Tees Valley,lookup_region,finance_accounts,2
 2026-08,2026-08-01,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,0
 2026-08,2026-08-02,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,0
 2026-08,2026-08-03,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,0
@@ -1713,8 +1761,32 @@
 2026-08,2026-08-08,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,0
 2026-08,2026-08-09,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,0
 2026-08,2026-08-10,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,0
-2026-08,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,1
-2026-08,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,1
+2026-08,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,2
+2026-08,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,2
+2026-08,2026-08-01,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-02,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-03,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-04,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-05,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-06,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-07,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-08,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-09,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-10,North Wales - East,lookup_region,finance_accounts,0
+2026-08,2026-08-11,North Wales - East,lookup_region,finance_accounts,1
+2026-08,2026-08-12,North Wales - East,lookup_region,finance_accounts,1
+2026-08,2026-08-01,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-02,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-03,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-04,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-05,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-06,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-07,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-08,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-09,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-10,North Wales - West,lookup_region,finance_accounts,0
+2026-08,2026-08-11,North Wales - West,lookup_region,finance_accounts,1
+2026-08,2026-08-12,North Wales - West,lookup_region,finance_accounts,1
 2026-08,2026-08-01,Northamptonshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Northamptonshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Northamptonshire,lookup_region,finance_accounts,0
@@ -1725,8 +1797,8 @@
 2026-08,2026-08-08,Northamptonshire,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Northamptonshire,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Northamptonshire,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Northamptonshire,lookup_region,finance_accounts,4
-2026-08,2026-08-12,Northamptonshire,lookup_region,finance_accounts,4
+2026-08,2026-08-11,Northamptonshire,lookup_region,finance_accounts,5
+2026-08,2026-08-12,Northamptonshire,lookup_region,finance_accounts,5
 2026-08,2026-08-01,Northern Ireland - East,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Northern Ireland - East,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Northern Ireland - East,lookup_region,finance_accounts,0
@@ -1737,14 +1809,14 @@
 2026-08,2026-08-08,Northern Ireland - East,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Northern Ireland - East,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Northern Ireland - East,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Northern Ireland - East,lookup_region,finance_accounts,1
-2026-08,2026-08-12,Northern Ireland - East,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Northern Ireland - East,lookup_region,finance_accounts,2
 2026-08,2026-08-01,Northern Ireland - West,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Northern Ireland - West,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Northern Ireland - West,lookup_region,finance_accounts,0
-2026-08,2026-08-04,Northern Ireland - West,lookup_region,finance_accounts,0
-2026-08,2026-08-05,Northern Ireland - West,lookup_region,finance_accounts,0
-2026-08,2026-08-06,Northern Ireland - West,lookup_region,finance_accounts,0
+2026-08,2026-08-04,Northern Ireland - West,lookup_region,finance_accounts,1
+2026-08,2026-08-05,Northern Ireland - West,lookup_region,finance_accounts,1
+2026-08,2026-08-06,Northern Ireland - West,lookup_region,finance_accounts,1
 2026-08,2026-08-07,Northern Ireland - West,lookup_region,finance_accounts,0
 2026-08,2026-08-08,Northern Ireland - West,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Northern Ireland - West,lookup_region,finance_accounts,0
@@ -1761,8 +1833,8 @@
 2026-08,2026-08-08,Other / Unknown,lookup_region,finance_accounts,1
 2026-08,2026-08-09,Other / Unknown,lookup_region,finance_accounts,1
 2026-08,2026-08-10,Other / Unknown,lookup_region,finance_accounts,1
-2026-08,2026-08-11,Other / Unknown,lookup_region,finance_accounts,10
-2026-08,2026-08-12,Other / Unknown,lookup_region,finance_accounts,11
+2026-08,2026-08-11,Other / Unknown,lookup_region,finance_accounts,22
+2026-08,2026-08-12,Other / Unknown,lookup_region,finance_accounts,23
 2026-08,2026-08-01,Oxfordshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Oxfordshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Oxfordshire,lookup_region,finance_accounts,0
@@ -1775,18 +1847,18 @@
 2026-08,2026-08-10,Oxfordshire,lookup_region,finance_accounts,1
 2026-08,2026-08-11,Oxfordshire,lookup_region,finance_accounts,3
 2026-08,2026-08-12,Oxfordshire,lookup_region,finance_accounts,3
-2026-08,2026-08-01,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
-2026-08,2026-08-02,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
-2026-08,2026-08-03,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
-2026-08,2026-08-04,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
-2026-08,2026-08-05,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,0
-2026-08,2026-08-06,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,0
-2026-08,2026-08-07,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,0
-2026-08,2026-08-08,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,0
-2026-08,2026-08-09,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,0
-2026-08,2026-08-10,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,2
-2026-08,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,2
+2026-08,2026-08-01,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,2
+2026-08,2026-08-02,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,2
+2026-08,2026-08-03,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,2
+2026-08,2026-08-04,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,2
+2026-08,2026-08-05,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
+2026-08,2026-08-06,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
+2026-08,2026-08-07,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
+2026-08,2026-08-08,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
+2026-08,2026-08-09,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
+2026-08,2026-08-10,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
 2026-08,2026-08-01,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,0
@@ -1797,8 +1869,8 @@
 2026-08,2026-08-08,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,1
-2026-08,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
 2026-08,2026-08-01,Scotland West - Ayrshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Scotland West - Ayrshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Scotland West - Ayrshire,lookup_region,finance_accounts,0
@@ -1835,6 +1907,30 @@
 2026-08,2026-08-10,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,0
 2026-08,2026-08-11,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,1
 2026-08,2026-08-12,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,1
+2026-08,2026-08-01,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-02,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-03,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-04,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-05,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-06,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-07,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-08,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-09,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-10,Shropshire,lookup_region,finance_accounts,0
+2026-08,2026-08-11,Shropshire,lookup_region,finance_accounts,1
+2026-08,2026-08-12,Shropshire,lookup_region,finance_accounts,1
+2026-08,2026-08-01,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-02,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-03,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-04,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-05,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-06,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-07,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-08,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-09,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-10,Somerset,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Somerset,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Somerset,lookup_region,finance_accounts,2
 2026-08,2026-08-01,Staffordshire,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Staffordshire,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Staffordshire,lookup_region,finance_accounts,0
@@ -1864,13 +1960,13 @@
 2026-08,2026-08-03,Surrey,lookup_region,finance_accounts,0
 2026-08,2026-08-04,Surrey,lookup_region,finance_accounts,0
 2026-08,2026-08-05,Surrey,lookup_region,finance_accounts,0
-2026-08,2026-08-06,Surrey,lookup_region,finance_accounts,0
+2026-08,2026-08-06,Surrey,lookup_region,finance_accounts,1
 2026-08,2026-08-07,Surrey,lookup_region,finance_accounts,0
-2026-08,2026-08-08,Surrey,lookup_region,finance_accounts,0
-2026-08,2026-08-09,Surrey,lookup_region,finance_accounts,0
-2026-08,2026-08-10,Surrey,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Surrey,lookup_region,finance_accounts,0
-2026-08,2026-08-12,Surrey,lookup_region,finance_accounts,1
+2026-08,2026-08-08,Surrey,lookup_region,finance_accounts,1
+2026-08,2026-08-09,Surrey,lookup_region,finance_accounts,1
+2026-08,2026-08-10,Surrey,lookup_region,finance_accounts,1
+2026-08,2026-08-11,Surrey,lookup_region,finance_accounts,2
+2026-08,2026-08-12,Surrey,lookup_region,finance_accounts,4
 2026-08,2026-08-01,Sussex,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Sussex,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Sussex,lookup_region,finance_accounts,0
@@ -1881,8 +1977,8 @@
 2026-08,2026-08-08,Sussex,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Sussex,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Sussex,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Sussex,lookup_region,finance_accounts,6
-2026-08,2026-08-12,Sussex,lookup_region,finance_accounts,6
+2026-08,2026-08-11,Sussex,lookup_region,finance_accounts,7
+2026-08,2026-08-12,Sussex,lookup_region,finance_accounts,7
 2026-08,2026-08-01,Wales - West,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Wales - West,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Wales - West,lookup_region,finance_accounts,0
@@ -1929,8 +2025,8 @@
 2026-08,2026-08-08,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
 2026-08,2026-08-09,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
 2026-08,2026-08-10,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,1
-2026-08,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,4
-2026-08,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,4
+2026-08,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,6
+2026-08,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,6
 2026-08,2026-08-01,West Midlands - Black Country,lookup_region,finance_accounts,0
 2026-08,2026-08-02,West Midlands - Black Country,lookup_region,finance_accounts,0
 2026-08,2026-08-03,West Midlands - Black Country,lookup_region,finance_accounts,0
@@ -1943,6 +2039,30 @@
 2026-08,2026-08-10,West Midlands - Black Country,lookup_region,finance_accounts,0
 2026-08,2026-08-11,West Midlands - Black Country,lookup_region,finance_accounts,1
 2026-08,2026-08-12,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08,2026-08-01,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,0
+2026-08,2026-08-02,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,0
+2026-08,2026-08-03,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,0
+2026-08,2026-08-04,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,0
+2026-08,2026-08-05,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,0
+2026-08,2026-08-06,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,0
+2026-08,2026-08-07,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,1
+2026-08,2026-08-08,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,1
+2026-08,2026-08-09,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,1
+2026-08,2026-08-10,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,1
+2026-08,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,3
+2026-08,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,3
+2026-08,2026-08-01,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-02,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-03,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-04,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-05,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-06,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-07,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-08,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-09,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-10,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-11,Wiltshire,lookup_region,finance_accounts,0
+2026-08,2026-08-12,Wiltshire,lookup_region,finance_accounts,1
 2026-08,2026-08-01,Yorkshire - East,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Yorkshire - East,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Yorkshire - East,lookup_region,finance_accounts,0
@@ -1966,7 +2086,7 @@
 2026-08,2026-08-09,Yorkshire - North,lookup_region,finance_accounts,1
 2026-08,2026-08-10,Yorkshire - North,lookup_region,finance_accounts,1
 2026-08,2026-08-11,Yorkshire - North,lookup_region,finance_accounts,2
-2026-08,2026-08-12,Yorkshire - North,lookup_region,finance_accounts,3
+2026-08,2026-08-12,Yorkshire - North,lookup_region,finance_accounts,5
 2026-08,2026-08-01,Yorkshire - South,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Yorkshire - South,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Yorkshire - South,lookup_region,finance_accounts,0
@@ -1977,20 +2097,20 @@
 2026-08,2026-08-08,Yorkshire - South,lookup_region,finance_accounts,0
 2026-08,2026-08-09,Yorkshire - South,lookup_region,finance_accounts,0
 2026-08,2026-08-10,Yorkshire - South,lookup_region,finance_accounts,0
-2026-08,2026-08-11,Yorkshire - South,lookup_region,finance_accounts,3
-2026-08,2026-08-12,Yorkshire - South,lookup_region,finance_accounts,2
+2026-08,2026-08-11,Yorkshire - South,lookup_region,finance_accounts,4
+2026-08,2026-08-12,Yorkshire - South,lookup_region,finance_accounts,3
 2026-08,2026-08-01,Yorkshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-02,Yorkshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-03,Yorkshire - West,lookup_region,finance_accounts,0
 2026-08,2026-08-04,Yorkshire - West,lookup_region,finance_accounts,0
-2026-08,2026-08-05,Yorkshire - West,lookup_region,finance_accounts,0
-2026-08,2026-08-06,Yorkshire - West,lookup_region,finance_accounts,0
-2026-08,2026-08-07,Yorkshire - West,lookup_region,finance_accounts,1
-2026-08,2026-08-08,Yorkshire - West,lookup_region,finance_accounts,1
-2026-08,2026-08-09,Yorkshire - West,lookup_region,finance_accounts,1
-2026-08,2026-08-10,Yorkshire - West,lookup_region,finance_accounts,1
-2026-08,2026-08-11,Yorkshire - West,lookup_region,finance_accounts,4
-2026-08,2026-08-12,Yorkshire - West,lookup_region,finance_accounts,4
+2026-08,2026-08-05,Yorkshire - West,lookup_region,finance_accounts,1
+2026-08,2026-08-06,Yorkshire - West,lookup_region,finance_accounts,1
+2026-08,2026-08-07,Yorkshire - West,lookup_region,finance_accounts,2
+2026-08,2026-08-08,Yorkshire - West,lookup_region,finance_accounts,2
+2026-08,2026-08-09,Yorkshire - West,lookup_region,finance_accounts,2
+2026-08,2026-08-10,Yorkshire - West,lookup_region,finance_accounts,2
+2026-08,2026-08-11,Yorkshire - West,lookup_region,finance_accounts,7
+2026-08,2026-08-12,Yorkshire - West,lookup_region,finance_accounts,7
 2026-08,2026-08-01,Bedfordshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-02,Bedfordshire,lookup_region,hr_recruitment,0
 2026-08,2026-08-03,Bedfordshire,lookup_region,hr_recruitment,0
