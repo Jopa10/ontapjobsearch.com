@@ -5,7 +5,8 @@ Selection is deliberately narrow:
 - only HIGH_CONFIDENCE / ELASTIC_FIT register rows;
 - no JobG8 Classification gate;
 - existing geography and salary credibility rules remain in force;
-- salary/context review rows are reported but not auto-published.
+- salary review rows are reported but not auto-published;
+- a LIVE slice needs at least six selected current-day jobs to publish/refresh.
 
 The JSON files sit in output-admin-service with distinct category suffixes so the
 existing enrichment and commit steps can carry them without changing the
@@ -33,6 +34,7 @@ REGISTER_DIR = Path(__file__).resolve().parents[1] / "registers"
 OUTPUT_DIR = Path("output-admin-service")
 REPORT_PATH = OUTPUT_DIR / "registered-category-decision-report.csv"
 SUMMARY_PATH = OUTPUT_DIR / "registered-category-selection-summary.csv"
+PUBLISH_THRESHOLD = 6
 
 CATEGORIES = {
     "finance_accounts": "finance_accounts_title_classification_register.csv",
@@ -135,7 +137,10 @@ def posted_date(row: pd.Series, columns: set[str]) -> str:
 
 
 def clean_json_row(row: dict[str, Any]) -> dict[str, Any]:
-    return {key_name: admin.fix_encoding(norm(value)) if isinstance(value, str) else value for key_name, value in row.items()}
+    return {
+        field: admin.fix_encoding(norm(value)) if isinstance(value, str) else value
+        for field, value in row.items()
+    }
 
 
 def run_live_registered_categories() -> int:
@@ -172,7 +177,7 @@ def run_live_registered_categories() -> int:
     seen: dict[tuple[str, str], set[str]] = defaultdict(set)
     decisions: list[dict[str, Any]] = []
 
-    for excel_index, row in feed.iterrows():
+    for _, row in feed.iterrows():
         title = norm(row.get(admin.COL["title"]))
         title_key = key(title)
         matched = {
@@ -188,11 +193,9 @@ def run_live_registered_categories() -> int:
         if admin.area_is_unusable(area):
             raw_region = fallback.get(key(location), "")
             town = location
-            geo_source = "location_fallback" if raw_region else "unknown"
         else:
             raw_region = area_map.get(key(area), "")
             town = area
-            geo_source = "area" if raw_region else "unknown"
         regions = candidate_regions(raw_region)
         if not regions:
             continue
@@ -203,12 +206,13 @@ def run_live_registered_categories() -> int:
         if not job_id or not apply_url.lower().startswith("http") or not raw_description:
             continue
 
-        salary_text, salary_source = admin.build_salary_details(row)
+        salary_text, _salary_source = admin.build_salary_details(row)
         salary_period = admin.normalise_salary_period(row)
         employment_type = norm(row.get(admin.COL["employment_type"]))
         description = admin.clean_description(raw_description)
         if not description:
             continue
+        source_posted_date = posted_date(row, columns)
 
         for category, classification in matched.items():
             for region in sorted(regions):
@@ -270,8 +274,8 @@ def run_live_registered_categories() -> int:
                         "salary_period": salary_period,
                         "salary_text": salary_text,
                         "work_pattern": norm(row.get("/Job/WorkHours")),
-                        "posted_date": posted_date(row, columns),
-                        "posted_date_basis": "source" if posted_date(row, columns) else "",
+                        "posted_date": source_posted_date,
+                        "posted_date_basis": "source" if source_posted_date else "",
                         "description": description,
                         "apply_url": apply_url,
                         "source": "JobG8",
@@ -293,27 +297,67 @@ def run_live_registered_categories() -> int:
                 )
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    publishable: dict[tuple[str, str], list[dict[str, Any]]] = {}
     for (region, category), rows in sorted(outputs.items()):
-        rows.sort(key=lambda item: (key(item.get("location")), key(item.get("title")), key(item.get("job_id"))))
+        rows.sort(
+            key=lambda item: (
+                key(item.get("location")),
+                key(item.get("title")),
+                key(item.get("job_id")),
+            )
+        )
+        current_rows = rows if len(rows) >= PUBLISH_THRESHOLD else []
+        publishable[(region, category)] = current_rows
         path = OUTPUT_DIR / output_filename(region, category)
-        path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"{region} / {category}: {len(rows)} selected -> {path}")
+        path.write_text(
+            json.dumps(current_rows, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        if current_rows:
+            print(f"{region} / {category}: {len(rows)} selected -> {path}")
+        else:
+            print(
+                f"{region} / {category}: {len(rows)}/{PUBLISH_THRESHOLD} selected; "
+                "refresh withheld"
+            )
 
-    fieldnames = ["decision", "region", "category", "title", "job_id", "classification", "salary_text", "reason"]
+    fieldnames = [
+        "decision",
+        "region",
+        "category",
+        "title",
+        "job_id",
+        "classification",
+        "salary_text",
+        "reason",
+    ]
     with REPORT_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(decisions)
 
     with SUMMARY_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["region", "category", "selected_count"])
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["region", "category", "eligible_count", "published_count", "status"],
+        )
         writer.writeheader()
         for pair, rows in sorted(outputs.items()):
-            writer.writerow({"region": pair[0], "category": pair[1], "selected_count": len(rows)})
+            published_count = len(publishable[pair])
+            writer.writerow(
+                {
+                    "region": pair[0],
+                    "category": pair[1],
+                    "eligible_count": len(rows),
+                    "published_count": published_count,
+                    "status": "PUBLISHABLE" if published_count else "BELOW_THRESHOLD",
+                }
+            )
 
     print(
         f"Registered category pipeline complete for {resolve_feed_date(feed_path)}: "
-        f"{sum(len(rows) for rows in outputs.values())} slice memberships across {len(outputs)} LIVE slices"
+        f"{sum(len(rows) for rows in publishable.values())} publishable slice memberships "
+        f"across {sum(bool(rows) for rows in publishable.values())}/{len(outputs)} LIVE slices"
     )
     return 0
 
