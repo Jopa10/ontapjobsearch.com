@@ -5,8 +5,6 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
 import SessionProvider from '@/components/SessionProvider';
 import { Toaster } from 'react-hot-toast';
 
@@ -65,13 +63,11 @@ const websiteStructuredData = {
   inLanguage: 'en-GB',
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const session = await getServerSession(authOptions);
-
   return (
     <html lang="en">
       <head>
@@ -104,7 +100,7 @@ export default async function RootLayout({
       </head>
       <body className={`${inter.className} antialiased flex flex-col min-h-screen`} suppressHydrationWarning>
         <Toaster position="top-right" />
-        <SessionProvider session={session}>
+        <SessionProvider>
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
