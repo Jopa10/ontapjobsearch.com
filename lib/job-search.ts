@@ -40,10 +40,11 @@ const LOCATION_TOKEN_ALIASES: Record<string, string> = {
   ncl: "newcastle",
 };
 
-// These concepts are narrow enough that a role search should be supported by
-// the job title itself, rather than merely by the wider curated slice/category.
-// Support-worker searches deliberately stay broader because Ontap's curated
-// support supply includes equivalent care-assistant titles.
+// These concepts need a strong role anchor rather than matching incidental
+// wording in a description. Admin may also be supported by Ontap's curated
+// admin/service category, so searches such as "Newcastle admin" can surface
+// the wider curated office/admin family while literal admin titles still rank
+// highest. Customer-service and reception searches remain title-anchored.
 const TITLE_REQUIRED_ROLE_TOKENS = new Set(["admin", "customerservice", "reception"]);
 
 function normalise(value: string): string {
@@ -307,12 +308,17 @@ function allTokensMatch(query: string, candidate: string): boolean {
   return wanted.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
 }
 
-function titleSupportsRequiredRoleTokens(query: string, title: string): boolean {
+function titleSupportsRequiredRoleTokens(query: string, title: string, category = ""): boolean {
   const required = queryTokens(query).filter((token) => TITLE_REQUIRED_ROLE_TOKENS.has(token));
   if (!required.length) return true;
 
-  const available = candidateTokens(title);
-  return required.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
+  const titleTokens = candidateTokens(title);
+  const categoryTokens = candidateTokens(category);
+  return required.every((token) => {
+    if (titleTokens.some((candidateToken) => tokenMatches(token, candidateToken))) return true;
+    if (token !== "admin") return false;
+    return categoryTokens.some((candidateToken) => tokenMatches(token, candidateToken));
+  });
 }
 
 function allGeoTokensMatch(query: string, candidate: string): boolean {
@@ -434,7 +440,7 @@ export function searchJobs(jobs: PublishedJob[], query: string, location: string
 
     for (const input of inputs) {
       const inputActsAsRole = input.preferred === "role" || (input.preferred === "location" && !locationActsAsGeo);
-      if (inputActsAsRole && !titleSupportsRequiredRoleTokens(input.value, job.title)) return [];
+      if (inputActsAsRole && !titleSupportsRequiredRoleTokens(input.value, job.title, job.category)) return [];
 
       const match =
         input.preferred === "location" && locationActsAsGeo
