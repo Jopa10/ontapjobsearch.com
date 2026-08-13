@@ -1,0 +1,177 @@
+name: Test JobG8 direct fetch
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fetch-only:
+    name: Fetch and inspect JobG8 feed only
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install inspection package
+        run: python -m pip install --upgrade pip openpyxl
+
+      - name: Fetch JobG8 feed to temporary runner storage
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "$JOBG8_FEED_URL" ]; then
+            echo "::error::Missing repository secret JOBG8_FEED_URL"
+            exit 1
+          fi
+
+          target="$RUNNER_TEMP/jobg8-feed.bin"
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --location \
+            --retry 3 \
+            --retry-delay 5 \
+            --connect-timeout 30 \
+            --max-time 180 \
+            "$JOBG8_FEED_URL" \
+            --output "$target"
+
+          test -s "$target"
+          echo "Downloaded JobG8 feed to temporary runner storage."
+          echo "Bytes: $(stat -c%s "$target")"
+          echo "SHA256: $(sha256sum "$target" | awk '{print $1}')"
+          echo "File type: $(file -b "$target")"
+
+      - name: Inspect feed structure without publishing or retaining raw feed
+        run: |
+          python - <<'PY'
+          import csv
+          import os
+          import shutil
+          import zipfile
+          from pathlib import Path
+          from xml.etree import ElementTree
+
+          from openpyxl import load_workbook
+
+          feed = Path(os.environ["RUNNER_TEMP"]) / "jobg8-feed.bin"
+          work = Path(os.environ["RUNNER_TEMP"]) / "jobg8-inspect"
+          work.mkdir(parents=True, exist_ok=True)
+          report_path = Path("jobg8-fetch-report.txt")
+          lines = []
+
+          def add(text=""):
+              text = str(text)
+              lines.append(text)
+              print(text)
+
+          def inspect_xlsx(path: Path, label: str):
+              wb = load_workbook(path, read_only=True, data_only=True)
+              ws = wb.active
+              headers = [str(value or "").strip() for value in next(ws.iter_rows(min_row=1, max_row=1, values_only=True))]
+              row_count = max((ws.max_row or 1) - 1, 0)
+              add(f"XLSX: {label}")
+              add(f"  sheet: {ws.title}")
+              add(f"  data rows: {row_count}")
+              add(f"  columns: {len(headers)}")
+              add("  headers: " + " | ".join(headers))
+              wb.close()
+
+          def inspect_csv(path: Path, label: str):
+              with path.open("r", encoding="utf-8-sig", errors="replace", newline="") as handle:
+                  reader = csv.reader(handle)
+                  try:
+                      headers = next(reader)
+                  except StopIteration:
+                      headers = []
+                      count = 0
+                  else:
+                      count = sum(1 for _ in reader)
+              add(f"CSV: {label}")
+              add(f"  data rows: {count}")
+              add(f"  columns: {len(headers)}")
+              add("  headers: " + " | ".join(headers))
+
+          def inspect_xml(path: Path, label: str):
+              count = 0
+              try:
+                  for _, elem in ElementTree.iterparse(path, events=("end",)):
+                      if elem.tag.rsplit("}", 1)[-1].casefold() == "job":
+                          count += 1
+                      elem.clear()
+              except ElementTree.ParseError as exc:
+                  add(f"XML: {label}")
+                  add(f"  parse error: {exc}")
+                  return
+              add(f"XML: {label}")
+              add(f"  Job elements: {count}")
+
+          add("JobG8 direct-fetch inspection")
+          add(f"downloaded bytes: {feed.stat().st_size}")
+          add()
+
+          if zipfile.is_zipfile(feed):
+              with zipfile.ZipFile(feed) as archive:
+                  names = [info for info in archive.infolist() if not info.is_dir()]
+                  is_direct_xlsx = "xl/workbook.xml" in archive.namelist()
+
+                  if is_direct_xlsx:
+                      direct = work / "direct.xlsx"
+                      shutil.copyfile(feed, direct)
+                      add("Downloaded object is an XLSX workbook.")
+                      inspect_xlsx(direct, "downloaded object")
+                  else:
+                      add(f"Downloaded object is a ZIP archive with {len(names)} file(s):")
+                      for info in names:
+                          add(f"  - {info.filename} ({info.file_size} bytes)")
+                      add()
+
+                      candidates = [
+                          info for info in names
+                          if Path(info.filename).suffix.casefold() in {".xlsx", ".csv", ".xml"}
+                      ]
+                      if not candidates:
+                          raise SystemExit("STOP: ZIP contains no .xlsx, .csv or .xml candidate feed file.")
+
+                      for index, info in enumerate(candidates, start=1):
+                          suffix = Path(info.filename).suffix.casefold()
+                          extracted = work / f"candidate-{index}{suffix}"
+                          with archive.open(info) as source, extracted.open("wb") as dest:
+                              shutil.copyfileobj(source, dest)
+
+                          if suffix == ".xlsx":
+                              inspect_xlsx(extracted, info.filename)
+                          elif suffix == ".csv":
+                              inspect_csv(extracted, info.filename)
+                          elif suffix == ".xml":
+                              inspect_xml(extracted, info.filename)
+                          add()
+          else:
+              raise SystemExit("STOP: downloaded object is not a ZIP/XLSX container as expected.")
+
+          report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+          summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          with summary.open("a", encoding="utf-8") as handle:
+              handle.write("## JobG8 direct fetch test\n\n")
+              handle.write("The feed was downloaded to temporary runner storage only. Nothing was published or committed.\n\n")
+              handle.write("```text\n")
+              handle.write("\n".join(lines))
+              handle.write("\n```\n")
+          PY
+
+      - name: Upload inspection report only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-direct-fetch-report
+          path: jobg8-fetch-report.txt
+          if-no-files-found: warn
+          retention-days: 7
