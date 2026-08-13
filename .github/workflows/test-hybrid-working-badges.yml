@@ -113,3 +113,4 @@ jobs:
             pipeline/reports-daily/decision-report-admin-service.csv
             pipeline/reviews/jobg8/service-admin-review.csv
           if-no-files-found: warn
+          retention-days: 7
