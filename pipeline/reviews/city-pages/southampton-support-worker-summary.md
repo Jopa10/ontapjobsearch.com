@@ -114,6 +114,18 @@ reason: No approved Southampton employment-market rule matched the stated locati
 action: 
 decision: review
 automatic_decision: review
+title: Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-1401784493
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Assistant (Older Adults)
 company: Hampshire County Council - Company - Permanent
 location: Emsworth
@@ -167,18 +179,6 @@ company: ECS Recruitment Consultants Ltd - Agency - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-107332363
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-107739683
 reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
 ---
 

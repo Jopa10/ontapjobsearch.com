@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 8
+- automatic include: 17
+- automatic review: 9
 - automatic exclude: 9
-- effective include: 18
-- effective review: 5
+- effective include: 19
+- effective review: 6
 - effective exclude: 10
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -220,6 +220,18 @@ reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 action: 
 decision: include
 automatic_decision: include
+title: Student Engagement and Student Finance Assistant
+company: Newcastle and Stafford Colleges Group - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-107717507
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist - Newcastle
 company: Office Angels - Agency - Temporary
 location: Newcastle Upon Tyne
@@ -240,7 +252,19 @@ job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Peterlee
+source: JobG8
+job_id: jobg8-23643_225483895
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -332,18 +356,6 @@ reason: Bedlington is outside the agreed Newcastle city-page catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: St Benet Biscop Catholic Academy
-location: Bedlington
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e
-reason: Bedlington is outside the agreed Newcastle city-page catchment.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrative Assistant
 company: Blu Tech consulting - Agency - Contract
 location: Durham
@@ -362,6 +374,18 @@ location: Sacriston
 source: NEJobs
 job_id: nejobs-299277
 reason: Durham belongs to a separate employment area from the Newcastle city page.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Advisor
+company: Reed - Agency - Temporary
+location: Darlington
+source: JobG8
+job_id: jobg8-11e35c50-d8c7-4b38-a89e-393aa2842b05
+reason: Darlington belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---

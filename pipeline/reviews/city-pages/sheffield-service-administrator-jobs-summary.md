@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 8
 - automatic review: 1
-- automatic exclude: 8
-- effective include: 7
+- automatic exclude: 9
+- effective include: 8
 - effective review: 1
-- effective exclude: 8
+- effective exclude: 9
 
-## INCLUDE (7)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin & Clerical Officer Level 2 Rowan School
+company: The Rowan School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
 
 ---
 action: 
@@ -122,7 +134,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -145,6 +157,18 @@ company: Treeton Church of England Primary School
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Attendance Officer
+company: Trinity Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-trinity-academy
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 10
-- automatic exclude: 19
-- effective include: 12
-- effective review: 10
-- effective exclude: 19
+- automatic include: 13
+- automatic review: 12
+- automatic exclude: 20
+- effective include: 13
+- effective review: 12
+- effective exclude: 20
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Candidate Source Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-0964d2e1-424c-4a06-84b3-e1fa26bfa2a0
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Pontoon - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-183c1c84-18b4-4e84-9a39-1c158058796b
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -149,10 +161,10 @@ action:
 decision: include
 automatic_decision: include
 title: Senior Administrator
-company: Fountain Primary School
+company: Colton Primary School
 location: Leeds
 source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
+job_id: teaching-vacancies-senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -160,15 +172,27 @@ reason: The stated workplace matches the approved Leeds employment-market patter
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Customer Service Administrator
-company: Huntress - Agency - Temporary
+title: Senior Administrator
+company: Fountain Primary School
 location: Leeds
-source: JobG8
-job_id: jobg8-a16c651f-9130-4ce3-ac9d-34ca82f1c9ae
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
-## REVIEW (10)
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator L3
+company: Dixons Cottingley Academy
+location: Bingley
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -191,6 +215,18 @@ company: De Lacy Academy
 location: Knottingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer
+company: Bingley Grammar School
+location: Bingley
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-bingley-grammar-school
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -290,7 +326,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -337,6 +373,18 @@ company: Tong Leadership Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-tong-leadership-academy-bradford-west-yorkshire
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer - Attendance
+company: All Saints Catholic College
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---
 
