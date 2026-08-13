@@ -10,9 +10,20 @@ on:
         type: boolean
   schedule:
     - cron: "30 19 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/google-indexing-api.yml"
+      - "scripts/google-indexing-submit.ts"
 
 permissions:
   contents: write
+  issues: write
+
+concurrency:
+  group: google-indexing-api
+  cancel-in-progress: false
 
 jobs:
   submit-job-urls:
@@ -42,25 +53,26 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Temporary push trigger is dry-run only and exists solely for controlled verification.
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "mode=dry-run" >> "$GITHUB_OUTPUT"
+            echo "should_auth=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "$MANUAL_DRY_RUN" = "true" ]; then
             echo "mode=dry-run" >> "$GITHUB_OUTPUT"
             echo "should_auth=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
+          echo "mode=live" >> "$GITHUB_OUTPUT"
           if [ -z "$GOOGLE_CREDENTIALS" ]; then
-            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-              echo "::error::Live submission requires repository secret GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON"
-              exit 1
-            fi
-
-            echo "Google Indexing credentials are not configured; scheduled submission skipped." | tee -a "$GITHUB_STEP_SUMMARY"
-            echo "mode=skip" >> "$GITHUB_OUTPUT"
             echo "should_auth=false" >> "$GITHUB_OUTPUT"
-            exit 0
+            echo "::error::Live Google Indexing submission requires repository secret GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON"
+            exit 1
           fi
 
-          echo "mode=live" >> "$GITHUB_OUTPUT"
           echo "should_auth=true" >> "$GITHUB_OUTPUT"
 
       - name: Authenticate to Google Cloud
@@ -73,10 +85,12 @@ jobs:
           access_token_scopes: https://www.googleapis.com/auth/indexing
 
       - name: Submit Indexing API notifications
-        if: steps.mode.outputs.mode != 'skip'
+        id: submit
+        if: steps.mode.outputs.mode != ''
         env:
           GOOGLE_INDEXING_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           GOOGLE_INDEXING_MAX_NOTIFICATIONS: "200"
+          GOOGLE_INDEXING_RUN_REPORT: ${{ runner.temp }}/google-indexing-run.json
         run: |
           set -euo pipefail
           if [ "${{ steps.mode.outputs.mode }}" = "dry-run" ]; then
@@ -85,8 +99,9 @@ jobs:
             npx tsx scripts/google-indexing-submit.ts
           fi
 
-      - name: Commit successful submission state
-        if: steps.mode.outputs.mode == 'live'
+      - name: Commit confirmed submission state
+        id: commit-state
+        if: always() && steps.mode.outputs.mode == 'live'
         run: |
           set -euo pipefail
           state_file="pipeline/manifests/google-indexing-state.json"
@@ -100,5 +115,143 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Update Google Indexing API state"
-          git push origin main
+
+          # Other Ontap workflows may have moved main while API calls were running.
+          # Rebase the state-only commit so confirmed submissions are not lost to a push race.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
           echo "Google Indexing API state committed: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Surface Indexing API operational status
+        if: always()
+        uses: actions/github-script@v7
+        env:
+          RUN_REPORT_PATH: ${{ runner.temp }}/google-indexing-run.json
+          MODE: ${{ steps.mode.outputs.mode }}
+          MODE_OUTCOME: ${{ steps.mode.outcome }}
+          AUTH_OUTCOME: ${{ steps.auth.outcome }}
+          SUBMIT_OUTCOME: ${{ steps.submit.outcome }}
+          COMMIT_OUTCOME: ${{ steps.commit-state.outcome }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const fs = require('fs');
+
+            const issueTitle = 'Google Indexing API operational alert';
+            const reportPath = process.env.RUN_REPORT_PATH;
+            let report = null;
+
+            if (reportPath && fs.existsSync(reportPath)) {
+              try {
+                report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+              } catch (error) {
+                core.warning(`Unable to parse Indexing API run report: ${error}`);
+              }
+            }
+
+            const outcomes = {
+              mode: process.env.MODE_OUTCOME || '',
+              auth: process.env.AUTH_OUTCOME || '',
+              submit: process.env.SUBMIT_OUTCOME || '',
+              commit: process.env.COMMIT_OUTCOME || '',
+            };
+            const infrastructureFailure = Object.values(outcomes).includes('failure');
+            const mode = report?.mode || process.env.MODE || '';
+            const live = mode === 'live';
+            const reportAlert = Boolean(
+              live && report && (
+                report.status === 'failure' ||
+                report.limitReached ||
+                report.remaining > 0 ||
+                report.zeroSubmittedWithPending
+              )
+            );
+            const shouldAlert = infrastructureFailure || reportAlert;
+
+            await core.summary.addHeading('Google Indexing API').addTable([
+              [{data: 'Mode', header: true}, mode || 'unknown'],
+              [{data: 'Eligible live URLs', header: true}, String(report?.eligibleLive ?? 'unknown')],
+              [{data: 'Pending before run', header: true}, String(report?.pendingTotal ?? 'unknown')],
+              [{data: 'Submitted', header: true}, String(report?.submitted ?? 'unknown')],
+              [{data: 'Remaining', header: true}, String(report?.remaining ?? 'unknown')],
+              [{data: 'Run status', header: true}, String(report?.status ?? 'unknown')],
+            ]).addLink('Open this workflow run', process.env.RUN_URL).write();
+
+            const details = [
+              `Workflow run: ${process.env.RUN_URL}`,
+              `Mode: ${mode || 'unknown'}`,
+              `Step outcomes: mode=${outcomes.mode || 'n/a'}, auth=${outcomes.auth || 'n/a'}, submit=${outcomes.submit || 'n/a'}, commit=${outcomes.commit || 'n/a'}`,
+              report ? `Eligible live URLs: ${report.eligibleLive}` : 'Eligible live URLs: unavailable',
+              report ? `Pending before run: ${report.pendingTotal} (${report.pendingUpdates} updates, ${report.pendingDeletions} deletions)` : 'Pending before run: unavailable',
+              report ? `Submitted this run: ${report.submitted}` : 'Submitted this run: unavailable',
+              report ? `Remaining after run: ${report.remaining}` : 'Remaining after run: unavailable',
+              report ? `Safety limit reached: ${report.limitReached ? 'yes' : 'no'}` : 'Safety limit reached: unavailable',
+              report ? `Status: ${report.status}` : 'Status: unavailable',
+              report?.message ? `Message: ${report.message}` : '',
+            ].filter(Boolean);
+
+            const openIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100,
+            });
+            const existing = openIssues.find((issue) => !issue.pull_request && issue.title === issueTitle);
+
+            if (shouldAlert) {
+              const body = [
+                'The Google Indexing API needs attention.',
+                '',
+                ...details.map((line) => `- ${line}`),
+                '',
+                'This issue is maintained automatically and will close after a healthy live run clears the alert condition.',
+              ].join('\n');
+
+              if (existing) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: existing.number,
+                  body,
+                  assignees: [context.repo.owner],
+                });
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: existing.number,
+                  body: `Indexing alert repeated on run ${process.env.RUN_URL}. Current status: ${report?.status || 'workflow failure'}.`,
+                });
+              } else {
+                await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: issueTitle,
+                  body,
+                  assignees: [context.repo.owner],
+                });
+              }
+
+              if (infrastructureFailure || report?.status === 'failure') {
+                core.error('Google Indexing API operational alert raised.');
+              } else {
+                core.warning('Google Indexing API safety limit/backlog alert raised.');
+              }
+              return;
+            }
+
+            // A dry-run never closes a real operational alert. Only a healthy live run can do that.
+            if (live && existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: `Recovered on run ${process.env.RUN_URL}. No backlog or failure condition remains.`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                state: 'closed',
+              });
+            }
