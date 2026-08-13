@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-08-07
+review_date: 2026-08-13
 review_fingerprint: d43351ca421960b7aee5db9fe0aea8d82a526a84525c5f11fb92c1f4718da03a
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -92,7 +92,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistan
 ## HARD_PASS
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-littlehampton-academy-littlehampton-west-sussex) — Insufficient admin/service evidence.
-- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-170dc70e-7f98-48bc-b92d-85dd6ce8b33d) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

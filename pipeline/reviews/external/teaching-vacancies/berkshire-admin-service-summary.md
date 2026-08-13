@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-07
-review_fingerprint: 021b46ad5a7d734b3d48528b2e05f6d38481ce523425e680c81df5dc3c19df67
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: dc5837d7127e1a32261232b7d6062218f06c783d04afd7869c2a03dc218cbb3f
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Berkshire
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 12
+- Records: 18
+- Selected: 9
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
@@ -23,27 +23,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Berkshire | Newbury, South East, RG14 6JP | £28142.00 - £30024.00 starting salary £24124.95 gross pa (for term-time only) | Administrative Assistant: Personalised Learning
-employer: St Bartholomew's School
-closing_date: 2026-08-07T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a0d122b229714598c5688150c897c6a96e212a29f617868a995a1e4780462946
-source: Teaching Vacancies
-source_job_id: administrative-assistant-personalised-learning
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-personalised-learning
----
-
----
-action: 
 SELECTED | Berkshire | Wokingham, South East, RG41 5LP | £21,360.00 Annually (Actual) Grade 4 ( SCP 7-11) Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,538.71. Must be able to commence work at 7.30 am at the very latest | Cover Administrator
 employer: Oak Tree School
 closing_date: 2026-09-04T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 334b7296ee08ecba7af39fcb66712cf36991cbbdf7672aa3ce3ab6176f8f255e
 source: Teaching Vacancies
@@ -58,7 +43,7 @@ employer: Waingels
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 1e316ac589c612b8eb9c9c3f02c695289bf5df3503ebe6f1f634e6d10ae3bcc3
 source: Teaching Vacancies
@@ -73,7 +58,7 @@ employer: Waingels
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: fbfa259eeba745314df1c2250a6db33d9fbc8dc1851473ed9a63f1a2e978845f
 source: Teaching Vacancies
@@ -88,7 +73,7 @@ employer: Maiden Erlegh School
 closing_date: 2026-09-04T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 29771f0f5f04ee1e39585cca8d0dfa342155dbb762f8d32abe36fe8dda21e420
 source: Teaching Vacancies
@@ -103,7 +88,7 @@ employer: Churchend Primary Academy
 closing_date: 2026-08-20T23:59:00+01:00
 reason: Clear admin/service title: office assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 8f48f6caea683aef1c7254308b065f2a0303c402dbebefe104fbf7c0479fbe9c
 source: Teaching Vacancies
@@ -118,7 +103,7 @@ employer: Polehampton Church of England Junior School
 closing_date: 2026-08-20T23:59:00+01:00
 reason: Clear admin/service title: school secretary, secretary
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 49c580f2bac0b779310505634bced7d63be343b37b7457f91a456e19381726aa
 source: Teaching Vacancies
@@ -128,27 +113,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-pole
 
 ---
 action: 
-SELECTED | Berkshire | Reading, South East, RG10 9AX | £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11 | School Secretary (part time)
-employer: Polehampton Church of England Junior School
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 50b7de5b190c1c166b60222edef2db654a4bfbbd8f0b1e869176b260f7c69833
-source: Teaching Vacancies
-source_job_id: school-secretary-part-time-polehampton-church-of-england-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school
----
-
----
-action: 
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
 employer: The Windsor Boys' School
 closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: d67290fae0c54aca400277bea0bdcd9874c77a5c85fcccfa832304aede9026a2
 source: Teaching Vacancies
@@ -158,27 +128,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ---
 action: 
-SELECTED | Berkshire | Sandhurst, South East, GU47 0SD | £10,672.00 Annually (Actual) Monday – Friday (18.5 hours per week, daily hours to be agreed, e.g. morning focus to support peak school hours) | Supported Learning Admin Assistant
-employer: Sandhurst School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8426a621d9ba518c5fefa434726bac286ac3c1db1f0290df28d4eb615ba1078a
-source: Teaching Vacancies
-source_job_id: supported-learning-admin-assistant-sandhurst-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/supported-learning-admin-assistant-sandhurst-school
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274 - £22,957 - | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 210d56db4d638bcc27eb26d2d1c35447d61d6e778645825437167ea12568e576
 source: Teaching Vacancies
@@ -193,7 +148,7 @@ employer: James Elliman Academy
 closing_date: 2026-09-30T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 6404079a30d8438bad9c65b1638355e59eeacaff44b2fbe26d8eeb7ce0630a28
 source: Teaching Vacancies
@@ -210,7 +165,7 @@ employer: The Keys Academy Trust
 closing_date: 2026-08-20T23:59:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e0008954a
 source: Teaching Vacancies
@@ -225,7 +180,7 @@ employer: The Keys Academy Trust
 closing_date: 2026-08-20T23:59:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
 source: Teaching Vacancies
@@ -240,7 +195,7 @@ employer: The Keys Academy Trust
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Borderline school administration title: governance professional
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: de3ed1f296bb446a719dbbee6da7605933e1df202fc518a8f9bca3e541fcc4f7
 source: Teaching Vacancies
@@ -259,7 +214,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-polehampton-church-of-england-junior-school-reading-berkshire) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
-- [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-07
-review_fingerprint: 316c26d37f2b8285a608a0896fe12f464a81f6621a80b4fc4f433d63b8bac52c
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: f7e84904a075a574686b04a65f82319348345ef5f22adea32976a355e93e506f
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 5
+- Records: 8
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -83,17 +83,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-at
 
 ---
 action: 
-SELECTED | Bedfordshire | Luton, East of England, LU4 0NE | £25,495.00 - £25,893.00 Annually (FTE) AS 4-5 FTE £25,495 - £25,893 pro rata £24,393-£24,774 | Receptionist and Clerical Assistant
+SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
+employer: Chiltern Learning Trust
+closing_date: 2026-09-04T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 85f0264700aecd0c51b3098c63a44b54cada2a60ead2b7a68f239186eb418b7d
+source: Teaching Vacancies
+source_job_id: hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Luton, East of England, LU4 0NE | £25,495.00 - £25,893.00 Annually (FTE) AS 4-5 FTE £25,495-£25,893 pro rata £24,393-£24,774 | Receptionist and Clerical Assistant
 employer: The Chalk Hills Academy
 closing_date: 2026-08-26T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: bc8f3e93f054cf289dbca3c44606be8abc879b6039c1027705ce72ec59093679
+factual_fingerprint: a626972e15d62b62507a9770cf0a6738703221e9f9ff09b87e85f72bced4d95a
 source: Teaching Vacancies
-source_job_id: receptionist-and-clerical-assistant-86b2aac5-a2d4-48ac-aee8-ddb783d72be4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-clerical-assistant-86b2aac5-a2d4-48ac-aee8-ddb783d72be4
+source_job_id: receptionist-and-clerical-assistant-f4aa5b8d-19ad-4632-aca7-54f965791d27
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-clerical-assistant-f4aa5b8d-19ad-4632-aca7-54f965791d27
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -106,8 +121,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-cler
 
 ## HARD_PASS
 
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy) — Manager title salary ceiling £45,401 is not below £28,000.
-- [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-6f5cafa2-4f5b-47d7-8fa1-ebd48d98391c) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

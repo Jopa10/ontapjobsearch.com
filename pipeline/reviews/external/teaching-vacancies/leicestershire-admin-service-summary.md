@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-07
-review_fingerprint: 017d0d2ea8170041561ec20a6609109e4f90e70be232ba61023b1b508af57dcd
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 6a9ff09fe79c791e29fbb61a41a7ae9c6a06c5811ec61244b4eb976edbbd0d09
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 2
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: receptionist-and-admin-assistant-avanti-fields-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-avanti-fields-school
 ---
 
+---
+action: 
+SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BY | £20,395.00 - £20,718.00 Annually (Actual) LCC Pay Award Pending | School Administrator
+employer: Loughborough Church of England Primary School
+closing_date: 2026-08-24T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 83ed0bb2148507808087b18c5ed37669731f74afa261ca4df0e310b983606dd4
+source: Teaching Vacancies
+source_job_id: school-administrator-loughborough-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-loughborough-church-of-england-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,17 +76,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## HARD_PASS
 
-- [Attendance Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-the-robert-smyth-academy) — Insufficient admin/service evidence.
-- [Business Administration Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprenticeship-heath-lane-academy) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-lancaster-academy) — Manager title salary ceiling £50,269 is not below £28,000.
-- [Finance Systems and Controls Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-systems-and-controls-manager) — Manager title salary ceiling £33,293 is not below £28,000.
-- [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-south-charnwood-high-school) — Manager title without salary evidence below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-discovery-schools-academies-trust-ltd) — Manager title salary ceiling £33,293 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-discovery-schools-academies-trust-ltd-leicester-not-recorded) — Manager title salary ceiling £39,165 is not below £28,000.
 - [Music Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/music-support-assistant) — Insufficient admin/service evidence.
 - [Pre - School Deputy Manager (PAR219BC)](https://teaching-vacancies.service.gov.uk/jobs/pre-school-deputy-manager-par219bc) — Manager title salary ceiling £28,146 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
 - [School Office Lead](https://teaching-vacancies.service.gov.uk/jobs/school-office-lead) — Insufficient admin/service evidence.
+- [Trust Data Analyst and Insights Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-data-analyst-and-insights-lead) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

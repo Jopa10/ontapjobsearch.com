@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-07
-review_fingerprint: 627f8db166fe1a5cf91f705d9d645aabf7c083a473e00d87857e2092f6425060
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: e47fc682feaa5eddea3c9ae11e2b98e34ea231366f6fd98a97a710cab27a2d58
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -28,7 +28,7 @@ employer: Smith's Wood Primary Academy
 closing_date: 2026-08-21T12:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: cadbe50095ea7473c2c652f95589d25d3030df7f04ac526f6489d9c5615b5996
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Yorkswood Primary School
 closing_date: 2026-09-18T12:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 24fc53290ed60d6573fa863747c2b7aaf7f99cc64e87ba56dbd9e23acb6c9f28
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: E-ACT Shenley Academy
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 0b8ed5dd4f77a486471a06427a7083b2e4c7ff2cd7b0eef92c54d7df7f717afb
 source: Teaching Vacancies
@@ -73,7 +73,7 @@ employer: John Henry Newman Catholic College
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: f08c85e658c8ebd109837f38dfa3aeb6c829253ea7afe93ce4f57a23650c59a3
 source: Teaching Vacancies
@@ -88,7 +88,7 @@ employer: Eden Boys' School, Birmingham
 closing_date: 2026-08-27T23:59:00+01:00
 reason: Clear admin/service title: receptionist, business support officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: f677e893c935dd9284410ebc02d518a47051bdbea43dd8aa86c108b783eccfd2
 source: Teaching Vacancies
@@ -98,27 +98,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B44 9AG | £24,413.00 - £26,824.00 Annually (FTE) | HR Administrator
-employer: St. John Paul Ii Multi Academy Company
-closing_date: 2026-08-21T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 70e8f75cf996df3aa4f72b7393258498627c3c0068c3e2b886138cd31a92f2a2
-source: Teaching Vacancies
-source_job_id: hr-administrator-st-john-paul-ii-multi-academy-company
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-st-john-paul-ii-multi-academy-company
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B11 2QG | £25,583 - £28,598 per year | School Administrator/Receptionist
 employer: Ark Boulton Academy
 closing_date: 2026-08-31T01:00:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: e2419f2dc2104fcdade8c4fa62f2e7471009f0fa07ac18112dac7e42c6cf6039
 source: Teaching Vacancies
@@ -133,7 +118,7 @@ employer: St Laurence Church Junior School
 closing_date: 2026-08-24T09:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: db05d97bcbedb3bd2a5f98b0e813e322b8cdc38e195a82dd892254284e7c2c1f
 source: Teaching Vacancies
@@ -150,7 +135,7 @@ employer: Create Partnership Trust
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Borderline school administration title: operations officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 2f51774e9a6ca79c52bc5cd52f7f754dfbc83d36c5dd77e029014ba57f682258
 source: Teaching Vacancies
@@ -166,7 +151,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-ope
 
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-98ed03e2-e16a-4121-a2bd-61b4561faef8) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
-- [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice) — Insufficient admin/service evidence.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-sutton-coldfield-grammar-school-for-girls-sutton-coldfield-west-midlands) — Manager title salary ceiling £49,282 is not below £28,000.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company) — Insufficient admin/service evidence.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy) — Insufficient admin/service evidence.
 - [PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-moseley-school-and-sixth-form) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/programme-manager-ormiston-academies-trust) — Manager title salary ceiling £43,694 is not below £28,000.

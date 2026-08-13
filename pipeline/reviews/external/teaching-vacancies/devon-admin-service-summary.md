@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-07
-review_fingerprint: cfb35df6e88f98bc432565d27a43c7ff6ddf78263efd532df675894f97e64f46
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 3edc236202b8fe496bb9ec6e6654fe738ce693724a1ecdcf05bf4741bdc8ecf3
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Devon
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 10
-- POSS awaiting decision: 4
+- Records: 15
+- Selected: 9
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Newton Abbot, South West, TQ12 6JB | £25,185.00 FTE | Administrative Assistant
-employer: Blackpool Church of England Primary School
-closing_date: 2026-08-13T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2e6eaafcdd056e67e2e188d64fd737b70d22c0cdecd2482cb731bdd806d3e724
-source: Teaching Vacancies
-source_job_id: administrative-assistant-blackpool-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-blackpool-church-of-england-primary-school
----
 
 ---
 action: 
@@ -43,7 +28,7 @@ employer: Sir John Hunt Community Sports College
 closing_date: 2026-09-03T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 9274255198beff82066953e7c05d39524f5b5f3f7d286bdcb5be2794d6705d2a
 source: Teaching Vacancies
@@ -58,7 +43,7 @@ employer: Sir John Hunt Community Sports College
 closing_date: 2026-09-03T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 9494f7b60d2da66a0947caa74256a0b71e5b87a872415fdb7b4b4c6176deb68e
 source: Teaching Vacancies
@@ -73,7 +58,7 @@ employer: St Joseph's Catholic Primary School
 closing_date: 2026-08-24T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 4cea7f1f9eab10a6cf4a5a83730f89d3095f9cdeb7aa062440398e7895413c16
 source: Teaching Vacancies
@@ -83,27 +68,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
-employer: Okehampton College
-closing_date: 2026-09-09T12:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 1d1911698055c7b815976a7bcebfacce22076b5e63e0d1a6aa4fc8fadd94b9aa
-source: Teaching Vacancies
-source_job_id: attendance-officer-okehampton-college-okehampton-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon
----
-
----
-action: 
 SELECTED | Devon | Torquay, South West, TQ1 4RN | £22,889.00 - £24,396.00 Annually (Actual) | Finance & Data Protection Administrator
 employer: St Cuthbert Mayne School
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 211aa822b561a4afacad5d6dbea8d4eba8f57aed8a8bf1c5c716fad1943cb071
 source: Teaching Vacancies
@@ -118,7 +88,7 @@ employer: Cornerstone Academy Trust
 closing_date: 2026-08-23T23:59:59+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 39ca36d0cf4bdcbd91590074e1ac03b2d04512ffd1f8396c991cb7dd4d7453ed
 source: Teaching Vacancies
@@ -128,12 +98,27 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cor
 
 ---
 action: 
+SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
+employer: Dartmoor Multi Academy Trust
+closing_date: 2026-08-28T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4d45811540900ef7dfe9b2b0e5872f32b6fa24723fe6d84c8ffe434b39371981
+source: Teaching Vacancies
+source_job_id: people-administrator-dartmoor-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust
+---
+
+---
+action: 
 SELECTED | Devon | Plymouth, South West, PL9 9AZ | £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 | Receptionist / Administrator / First Aid
 employer: Plymstock School
 closing_date: 2026-08-31T09:00:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: a1533a5ebb1edbbed5b7e3321ac6ae4d493ca7c541a8f95eed6e2d1d83e2da99
 source: Teaching Vacancies
@@ -148,7 +133,7 @@ employer: St Budeaux CofE Primary Academy
 closing_date: 2026-08-28T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: bc8203e2aaa643b7511abefe2bae56756f36b93f36bd9354ab96e1be9de56e60
 source: Teaching Vacancies
@@ -163,7 +148,7 @@ employer: Mayfield School
 closing_date: 2026-08-30T09:00:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 981893ab7a2dcf3323de98404567875ade352b762df113268516eebc00237107
 source: Teaching Vacancies
@@ -175,12 +160,42 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+POSS | Devon | Newton Abbot, South West, TQ12 6JB | £25,185.00 FTE | Administrative Assistant
+employer: Blackpool Church of England Primary School
+closing_date: 2026-08-13T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e6eaafcdd056e67e2e188d64fd737b70d22c0cdecd2482cb731bdd806d3e724
+source: Teaching Vacancies
+source_job_id: administrative-assistant-blackpool-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-blackpool-church-of-england-primary-school
+---
+
+---
+action: 
+POSS | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
+employer: The King's School
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
+---
+
+---
+action: 
 POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
 employer: St Marychurch Church of England Primary and Nursery School
 closing_date: 2026-09-03T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
 source: Teaching Vacancies
@@ -190,27 +205,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 
 ---
 action: 
-POSS | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
-employer: Ladysmith Infant & Nursery School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 95cb9cfb9952136fbcc7e690b10a22b2cc9aeca6ae35760b272b7ae733c628ef
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
----
-
----
-action: 
 POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: dbb05765c8fafaa95708d2e85b930424e9bee60136f15e07d7287cb953b0b840
 source: Teaching Vacancies
@@ -225,7 +225,7 @@ employer: St Michael's Church of England Primary Academy
 closing_date: 2026-09-03T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: c1ce5984367c49534946d71c2d79909f11ee4429564ef706a6c8dd619ad43ff9
 source: Teaching Vacancies
@@ -239,15 +239,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
-- [Attendance Mentor](https://teaching-vacancies.service.gov.uk/jobs/attendance-mentor-bideford-college-bideford-devon) — Insufficient admin/service evidence.
-- [First Aider](https://teaching-vacancies.service.gov.uk/jobs/first-aider-bideford-college-bideford-devon) — Insufficient admin/service evidence.
-- [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
-- [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover) — Insufficient admin/service evidence.
-- [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
-- [Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-9bce2eb3-1f2d-4471-843a-cfe649b37c9b) — Out-of-scope occupation: teaching assistant.
-- [Weekend Events and Lettings Officer](https://teaching-vacancies.service.gov.uk/jobs/weekend-events-and-lettings-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-08-07
-review_fingerprint: fe22291028ad8de4cb448db1540f518e72300414cf4f6835d5872d5eebfb1bfa
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 8cc41ab6cece8b1bbe7e5803fd899e6eac468a49a23e4ddfdcacecf3e62f89a1
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ---
 action: 
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked | Senior Administrator
+employer: Braeburn Primary and Nursery Academy
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8134c48e78db27ccd363ae63323db1283c21a40938981f2ce24da1b0d47c42bd
+source: Teaching Vacancies
+source_job_id: senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO10 5ZA | £32,536-£34,840 | Sixth Form Supervisor and Administrator
 employer: Archbishop Holgate's School, A Church of England Academy
 closing_date: 2026-08-18T08:00:00+01:00
@@ -91,9 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-supervisor
 
 ## HARD_PASS
 
-- [Careers Administrator](https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-whitby-school) — Missing salary or pay scale.
 - [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-ebor-academy-trust) — Insufficient admin/service evidence.
-- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-manor-church-of-england-academy) — Insufficient admin/service evidence.
+- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5aeab0ad-6293-4dca-a4da-08493a5af26e) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

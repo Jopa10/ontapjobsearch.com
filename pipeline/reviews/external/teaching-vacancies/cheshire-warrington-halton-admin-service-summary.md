@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-08-07
-review_fingerprint: 218e2555b8a626eda094f5d5cd6bc9b07ce813b10e3ac896e8649a60bf41a582
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 0130cb63d7820238938ae006ca7f3c937ffdea4f1afe14dc20cec3d2341967a1
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Cheshire - Warrington & Halton | Warrington, North West, WA5 2BY | £20,281.00 - £21,741.00 Annually (Actual) TCAT Grade 4 NJC SCP 6 to 7 (FT salary: £25,989 to £26,403) | Careers, Enrichment & Data Administrator
-employer: Penketh High School
-closing_date: 2026-08-12T12:00:00+01:00
-reason: Clear admin/service title: administrator, data administrator
+SELECTED | Cheshire - Warrington & Halton | Daresbury, WA4 4GE | SCP 18-23 | PA to the CEO
+employer: Chester Diocesan Learning Trust
+closing_date: 2026-08-20T12:00:00+01:00
+reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: cf90324777a41ec737e218ec335a619d6a1f349a5742df4bfe8fab929d10021f
+factual_fingerprint: a1cbe6e188a0ba1bf04583eda43391a8aa8b97a0ec75d520bcb91b683cdeccc4
 source: Teaching Vacancies
-source_job_id: careers-enrichment-data-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-enrichment-data-administrator
+source_job_id: pa-to-the-ceo-chester-diocesan-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-ceo-chester-diocesan-learning-trust
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-enrichment-da
 
 ## HARD_PASS
 
-- [Finance Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-operations-manager-the-great-schools-trust) — Manager title salary ceiling £40,777 is not below £28,000.
+- None.
 
 ## Safety boundary
 

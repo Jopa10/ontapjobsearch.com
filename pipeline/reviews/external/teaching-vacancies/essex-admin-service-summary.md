@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-08-07
-review_fingerprint: 0827a8fac017962b0a0b04ab7841040b48d5b3f8f11de0f23d19b85a6c994ddc
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: e8b95bc57603bc92fdf16bce16c67ee4668c926e1805f29bfed0dac23cddc9a1
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Essex
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Essex | Brentwood, East of England, CM13 2HG | £20,080.00 Annually (Actual) | Admin Assistant/Reception cover
+employer: St Martin's School Brentwood
+closing_date: 2026-08-14T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6382b65e0cea88078aacb808dc5bd7a092daf7aa29f1f3b3ffc2e3d4b079a721
+source: Teaching Vacancies
+source_job_id: admin-assistant-reception-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-reception-cover
+---
 
 ---
 action: 
@@ -28,7 +43,7 @@ employer: Stifford Clays Primary School
 closing_date: 2026-09-03T12:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b41be28
 source: Teaching Vacancies
@@ -43,7 +58,7 @@ employer: Unity Primary Academy
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: c7be68ff481e3d927e89aeaf9debff1f84063b20eb96164201e6520039628992
 source: Teaching Vacancies
@@ -58,44 +73,29 @@ employer: Limebrook Primary School and Nursery
 closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
-factual_fingerprint: dd9a022d934f9dca681a230c50fc172c4bcd2446cb9fb9f0afbda1b241277a14
+factual_fingerprint: 37c5b4fbc4a4053158f7544c1d79ed4791b1b08c8105caa5af3ec50beff4872c
 source: Teaching Vacancies
 source_job_id: lead-administrator-limebrook-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery
----
-
----
-action: 
-SELECTED | Essex | Canvey Island, East of England, SS8 9QS | £26,847.00 - £27,274.00 Annually (FTE) Term-time plus 5 additional days (£23016 to £23382 actual) | Receptionist
-employer: The Cornelius Vermuyden School
-closing_date: 2026-08-16T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: ed6f7610f7a6c431310550c78919cbeef051ce97ec853f8651462a9d4eb79df6
-source: Teaching Vacancies
-source_job_id: receptionist-the-cornelius-vermuyden-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-cornelius-vermuyden-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Essex | Wickford, East of England, SS11 8LY | £23,346.00 - £24,467.00 Annually (Actual) | Finance Assistant
-employer: Beauchamps High School
-closing_date: 2026-08-09T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+POSS | Essex | Canvey Island, East of England, SS8 9QS | £26,847.00 - £27,274.00 Annually (FTE) Term-time plus 5 additional days (£23016 to £23382 actual) | Receptionist
+employer: The Cornelius Vermuyden School
+closing_date: 2026-08-16T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
 migration_status: 
-factual_fingerprint: c55138e6d855e9f69eeb0f492a0db6043a6e1b13c191068999d5370112f15cd2
+factual_fingerprint: ed6f7610f7a6c431310550c78919cbeef051ce97ec853f8651462a9d4eb79df6
 source: Teaching Vacancies
-source_job_id: finance-assistant-beauchamps-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-beauchamps-high-school
+source_job_id: receptionist-the-cornelius-vermuyden-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-cornelius-vermuyden-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -107,10 +107,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-bea
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-greenwell-academy) — Insufficient admin/service evidence.
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-st-martin-s-school-brentwood) — Insufficient admin/service evidence.
-- [Deputy SENCO](https://teaching-vacancies.service.gov.uk/jobs/deputy-senco-the-basildon-upper-academy) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-southend-east-community-academy-trust) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-the-chelmsford-learning-partnership) — Insufficient admin/service evidence.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-the-basildon-upper-academy) — Insufficient admin/service evidence.
+- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-the-basildon-upper-academy-basildon-essex) — Insufficient admin/service evidence.
 - [Pupil Services](https://teaching-vacancies.service.gov.uk/jobs/pupil-services-the-cornelius-vermuyden-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-the-sigma-trust) — Insufficient admin/service evidence.

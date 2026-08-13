@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - West
 
-review_date: 2026-08-07
+review_date: 2026-08-13
 review_fingerprint: 175b5a0f446b8ee3148693311742e31be4b8eaabedcf6c1c8b65db1455a1ece2
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-s
 
 ## HARD_PASS
 
-- None.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-st-josephs-catholic-high-school-workington) — Manager title salary ceiling £32,597 is not below £28,000.
 
 ## Safety boundary
 

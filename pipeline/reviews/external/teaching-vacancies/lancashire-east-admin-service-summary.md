@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-08-07
-review_fingerprint: 6ff451a89eac4e657565139657a1f8c4ddaa5355b5e971fa3532ad767f8c45dc
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Lancashire - East | Blackburn, North West, BB1 4ED | £24,978.00 Annually (FTE) | Business Support Officer
-employer: The Hyndburn Academy
-closing_date: 2026-08-10T23:59:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 411cd88d786942f6390d5ac46b26e566cd4f66a078218cbedbef8f37af84cf24
-source: Teaching Vacancies
-source_job_id: business-support-officer-the-hyndburn-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-the-hyndburn-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,7 +33,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ## HARD_PASS
 
-- [HR Officer/Apprentice HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-apprentice-hr-officer) — Insufficient admin/service evidence.
 - [Local Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/local-governance-support-officer-star-academies) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-08-07
+review_date: 2026-08-13
 review_fingerprint: e1831b06e12c0e72d404b979868abb62fbb236ba9d85b9560369476cce0a421a
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -59,6 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-fel
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-f37ef22b-1633-4cb2-88b2-50a15505e865) — Insufficient admin/service evidence.
 - [Compliance Senior Lead](https://teaching-vacancies.service.gov.uk/jobs/compliance-senior-lead-eastern-education-group-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-08-07
-review_fingerprint: 83da7b3f2dce3f270cce5ea3ab70ebce74e5ffe327565f9d00650406d9b6cde3
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 0e4221fb4e05a84fb253c8afee161967723fb8a2c247e08482b45acbab73709e
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 4
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -36,37 +36,9 @@ source_job_id: personal-assistant-to-ceo
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-ceo
 ---
 
----
-action: 
-SELECTED | Worcestershire | Worcester, West Midlands, WR2 5QH | £28,598.00 - £31,022.00 Annually (FTE) Term Time Only + TEDS | Senior School Administrator
-employer: Honeywell Primary School
-closing_date: 2026-08-07T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a20f0de27d197be79a41ba7ecc6945678d558e75d51533ad4a7d08ad0d669e24
-source: Teaching Vacancies
-source_job_id: senior-school-administrator-honeywell-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-school-administrator-honeywell-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Worcestershire | Malvern, West Midlands, WR14 1WD | £28,598.00 - £31,022.00 Annually (FTE) | Examinations and Data Officer
-employer: Dyson Perrins CofE Academy
-closing_date: 2026-08-17T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a2a71c79442bb7dac85a887b336e08a563d374c9eb7f0bd0548b30dd96842279
-source: Teaching Vacancies
-source_job_id: examinations-and-data-officer-dyson-perrins-cofe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data-officer-dyson-perrins-cofe-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -74,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data
 
 ## HARD_PASS
 
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bca8d2ce-d3de-4803-b468-990dee53ef44) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-wolverley-cofe-secondary-school) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-the-diocese-of-worcester-multi-academy-trust-pershore-not-recorded) — Manager title salary ceiling £36,363 is not below £28,000.
 

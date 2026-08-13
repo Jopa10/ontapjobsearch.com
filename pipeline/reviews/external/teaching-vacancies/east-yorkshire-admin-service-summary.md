@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-08-07
-review_fingerprint: 014cafe0c8afd25b607e3f7331ef4d10c3ef9784f7db4fd79f24cf76add6a1c7
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: d1b208c29b009b38a91ad49c36d5523b013c65f2f0017cfe5bb23f169d38b7e9
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 1
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -36,21 +36,6 @@ source_job_id: administration-assistant-kingswood-parks-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-kingswood-parks-primary-school
 ---
 
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU6 7LS | £22,970.00 - £24,888.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £26,824 to £29,064 (Grade F, Scale Points 08-13) | Senior Administrator (with Finance Responsibilities)
-employer: Newland St John's Church of England Academy
-closing_date: 2026-08-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: CANDIDATE
-migration_status: 
-factual_fingerprint: dfd0e19d126f2ec49b4a79fb8bb66d9aef9ed4cdc29347360055688465819f79
-source: Teaching Vacancies
-source_job_id: senior-administrator-with-finance-responsibilities-newland-st-john-s-church-of-england-academy-hull-east-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-with-finance-responsibilities-newland-st-john-s-church-of-england-academy-hull-east-yorkshire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Exams Access Arrangements (EAA) Assessor](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-eaa-assessor) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

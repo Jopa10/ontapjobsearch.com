@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-08-07
+review_date: 2026-08-13
 review_fingerprint: b0c7569ebfa759ba0c8f00359b094f6e9bcefb718f058796d6c677a3d2caf8b3
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 1
-- Excluded: 1
+- Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
+employer: Ark Charter Academy
+closing_date: 2026-09-01T01:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
+source: Teaching Vacancies
+source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -42,20 +55,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 
 ## EXCLUDED BY REVIEW
 
----
-action: exclude
-EXCLUDED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
-employer: Ark Charter Academy
-closing_date: 2026-09-01T01:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: SAME_DAY_ACTION
-factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
-source: Teaching Vacancies
-source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
----
+- None.
 
 ## HARD_PASS
 

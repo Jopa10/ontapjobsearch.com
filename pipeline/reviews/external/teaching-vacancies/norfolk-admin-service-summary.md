@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-07
+review_date: 2026-08-13
 review_fingerprint: b546ec8dd58dfaadc65d49857b55779b0a5ff12706743b80f162bebbf3b7a73e
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 11
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 6
 
 ## SELECTED
 
@@ -106,6 +106,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 
 ## HARD_PASS
 
+- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
+- [Maths Hub Support Lead](https://teaching-vacancies.service.gov.uk/jobs/maths-hub-support-lead-inspiration-trust-norwich-not-recorded) — Insufficient admin/service evidence.
+- [Operations Assistant - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-sixth-form-thorpe-st-andrew-school-and-sixth-form-norwich-norfolk) — Insufficient admin/service evidence.
+- [People Coordinator](https://teaching-vacancies.service.gov.uk/jobs/people-coordinator-b7713544-28b3-4630-9649-073eb48ff48e) — Insufficient admin/service evidence.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-sheringham-woodfields-school-sheringham-norfolk) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

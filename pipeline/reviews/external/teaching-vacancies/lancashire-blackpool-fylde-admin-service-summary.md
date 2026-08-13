@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Blackpool & Fylde
 
-review_date: 2026-08-07
-review_fingerprint: d9bc7b9f2b5a1c4898f49195c949d8b40f7187252d4dc4c499eaac915886e7b2
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 12f783513913ee5ca812dc19da1be979680261d957782afb8f2d2c6169af193a
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -36,21 +36,6 @@ source_job_id: business-support-assistant-reception-da0fcfb8-6b98-47f2-a156-f71d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-reception-da0fcfb8-6b98-47f2-a156-f71d5ecc497e
 ---
 
----
-action: 
-SELECTED | Lancashire - Blackpool & Fylde | Blackpool, North West, FY3 7EQ | £24,796.00 - £25,185.00 Annually (FTE) | Receptionist
-employer: St Mary's Catholic Academy
-closing_date: 2026-08-10T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c5abe92b1584545104458268405c2f869293adb1f3f78dcbc492981eb5cb8461
-source: Teaching Vacancies
-source_job_id: receptionist-4a4761a2-ac7a-4744-98b4-49ede4abaa8d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-4a4761a2-ac7a-4744-98b4-49ede4abaa8d
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-4a4761a2
 
 ## HARD_PASS
 
-- [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-st-mary-s-catholic-academy) — Insufficient admin/service evidence.
 - [Business Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-baines-endowed-church-of-england-primary-academy-blackpool-lancashire) — Manager title salary ceiling £39,152 is not below £28,000.
 
 ## Safety boundary

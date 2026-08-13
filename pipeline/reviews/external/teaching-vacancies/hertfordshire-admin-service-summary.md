@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-07
-review_fingerprint: d10bb99c15f400a55d3ac498dadc6daf2ee35f816ba5b6d0ab60adca9385bd61
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 1ab15e0535b1965f106b3c3f865b8c91c963cf3a1ca167519707fa99d8ad41b9
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Hertfordshire
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £23,939.00 - £25,947.00 Annually (Actual) Term time plus two weeks | Academy Administrator
+employer: The Adeyfield Academy
+closing_date: 2026-08-23T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: CANDIDATE
+migration_status: 
+factual_fingerprint: 3b93587acd81ca49c9bd5df2efbb03d2df55f660cb5a62b23611a06fbb5b88fc
+source: Teaching Vacancies
+source_job_id: academy-administrator-2decb1eb-10bf-41ec-b839-97ff2b75324b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-2decb1eb-10bf-41ec-b839-97ff2b75324b
+---
 
 ---
 action: 
@@ -28,7 +43,7 @@ employer: Onslow St Audrey's School
 closing_date: 2026-08-24T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 152c6578821bb1e17789081f16afb1f6dd8c70c7254ff2e15ab1798868d209c6
 source: Teaching Vacancies
@@ -43,7 +58,7 @@ employer: Aspire Academies Trust
 closing_date: 2026-09-09T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 44748651089c3bebf60e44da73b523e118490de8b4c457fe5fe3323685aedf93
 source: Teaching Vacancies
@@ -58,7 +73,7 @@ employer: Bassingbourn Village College
 closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
 source: Teaching Vacancies
@@ -68,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL10 8AB | £25,583.00 Annually (FTE) Actual salary £22,506.14 incl. fringe allowance | Receptionist
-employer: Onslow St Audrey's School
-closing_date: 2026-08-10T09:00:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Hertfordshire | Hitchin, East of England, SG5 2UR | £25,989.00 - £25,989.00 Annually (FTE) | Receptionist & General Administrator
+employer: The Priory School
+closing_date: 2026-08-24T09:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
-factual_fingerprint: 21e064da1b4468b48689a7cb51ff4b6d935383cb97ec4a0bfdc1e65e166608cd
+factual_fingerprint: 785d4f60c0eebe662f6d6357068f731bc77af296d9080f474a348b28c53b6bba
 source: Teaching Vacancies
-source_job_id: receptionist-onslow-st-audrey-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-onslow-st-audrey-s-school
+source_job_id: receptionist-general-administrator-the-priory-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-general-administrator-the-priory-school
 ---
 
 ---
@@ -88,27 +103,12 @@ employer: Marriotts School
 closing_date: 2026-09-01T10:00:00+01:00
 reason: Clear admin/service title: admin assistant, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 680b4aa239a5571fa2ea4b335621bc5bb1b76eec2bc3b9d56bb5cb830385fd19
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c
----
-
----
-action: 
-SELECTED | Hertfordshire | Hertford, East of England, SG13 8EN | £29,540.00 - £32,061.00 Annually (FTE) Actual salary based on 22.5 hours p/w plus outer fringe £15744 | School Administrator and Communications Officer
-employer: Richard Hale School
-closing_date: 2026-08-12T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 75fc088924c93a2d51c738764a64514c0cd8b9bec24d2f8f3692356a337f871d
-source: Teaching Vacancies
-source_job_id: school-administrator-and-communications-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-and-communications-officer
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -120,7 +120,7 @@ employer: Danes Educational Trust
 closing_date: 2026-08-24T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: fd0eee79ace1c4f2b0b324116a0ca7502c7ad4db921ae881113ed5e75564dfeb
 source: Teaching Vacancies
@@ -134,7 +134,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-danes-educ
 
 ## HARD_PASS
 
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-hitchin-boys-school-hitchin-hertfordshire) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-holwell-primary-school) — Manager title salary ceiling £47,181 is not below £28,000.
 
 ## Safety boundary
 

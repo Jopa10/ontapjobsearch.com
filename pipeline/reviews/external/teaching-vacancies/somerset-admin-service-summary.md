@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-07
-review_fingerprint: 76f9ce1eb13e31e9bab851e5fb60d2af30e00fac3194d867079a44e609801d8b
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: b265d0443012230bcb3d2d4699315af239dcf0b1428a692ab566c6939abc498c
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Somerset | Weston-super-Mare, South West, BS22 7FN | PATH 4 £19,328 - £19,635 (actual salary) | Business Support Administrator
-employer: Castle Batch Primary School Academy
-closing_date: 2026-08-09T23:59:59+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Somerset | Taunton, South West, TA4 2NE | £22,947 - £25,010 (Based on hours/working weeks) | Administration Assistant – Attendance (Level 1)
+employer: Kingsmead Academy
+closing_date: 2026-08-30T23:59:59+01:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 1e12f0c9b39f8d522fd055fb08aa8842a724d01c939b5e2974dd9359ab212a5d
+factual_fingerprint: 06441a592219c2370fb60da94f5a6ed1225e4852a41a033acfe4fdcf31f40b3c
 source: Teaching Vacancies
-source_job_id: business-support-administrator-castle-batch-primary-school-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-castle-batch-primary-school-academy
+source_job_id: administration-assistant-attendance-level-1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-level-1
 ---
 
 ---
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Somerset | Taunton, South West, TA4 2NE | £26,837 - £28,931 (CLF Grade C) | Senior Administration Assistant (SEND)
+employer: Kingsmead Academy
+closing_date: 2026-09-21T23:59:59+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e2ef416884654f5754753dc6d133c310ea638adad699077b63c0b33e367c6f95
+source: Teaching Vacancies
+source_job_id: senior-administration-assistant-send
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-send
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -78,8 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 - [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-castle-school-education-trust) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
+- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-7adf438b-fd55-4e21-8bef-eccad94efdcb) — Missing salary or pay scale.
 
 ## Safety boundary
 

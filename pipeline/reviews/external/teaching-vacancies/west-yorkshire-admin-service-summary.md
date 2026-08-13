@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-07
-review_fingerprint: 02675d08a589723d8019bb768dae9fce1bbe9c8a5c6b6d6cad13d8f101d7460b
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 211001c1a041825c8c48ae241e3b5ee0246ba2805f897cbf7f684c42cc21198e
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 13
-- POSS awaiting decision: 0
+- Records: 25
+- Selected: 15
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 1TZ | DAT Level 3, SCP 18 - 25 (Actual Salary £24,422.78 - £28,695.35) | Academy Administrator L3
+employer: Dixons Cottingley Academy
+closing_date: 2026-09-14T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: BLANK_POSS_PRESERVED
+factual_fingerprint: 62ddf1c60bc77af3e8a2087e03ac48d1b6b265d251b75839b65bd7f52c4795ca
+source: Teaching Vacancies
+source_job_id: academy-administrator-l3-dixons-cottingley-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-cottingley-academy
+---
 
 ---
 action: 
@@ -83,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £20,663.00 - £20,991.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Attendance
+employer: All Saints Catholic College
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 092d86b32fdc738d9cecf5792fb7428abc901c2cf7aa7358fc1e1af4f5690356
+source: Teaching Vacancies
+source_job_id: business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £21,843.00 - £22,190.00 Annually (Actual) Kirklees Grade 5 | Business Support Officer - Student Services
 employer: All Saints Catholic College
 closing_date: 2026-09-01T09:00:00+01:00
@@ -97,33 +127,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 ---
 
 ---
-action: select
-SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
-employer: De Lacy Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
-source: Teaching Vacancies
-source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
----
-
----
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 6JN | £28,262.00 - £30,199.00 Annually (Actual) Scale 6, SCP 18-22 (FTE £31,537 - £33,699), 37 Hours Per Week, Term Time Plus 10 Days | Exams Officer
-employer: Newsome Academy
-closing_date: 2026-08-10T09:00:00+01:00
+SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 2RS | £31,537-£33,699 | Exams Officer
+employer: Bingley Grammar School
+closing_date: 2026-08-28T09:00:00+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: cf98bab6a2d592f3632b108f991d9c373b37d2e4b6abe45e1fbc5efd3eb977ae
+factual_fingerprint: bc966ff7bd226288b38e3bbcf6b96cdb528138252df1856946d03346f993e0e0
 source: Teaching Vacancies
-source_job_id: exams-officer-newsome-academy-huddersfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-newsome-academy-huddersfield-west-yorkshire
+source_job_id: exams-officer-bingley-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bingley-grammar-school
 ---
 
 ---
@@ -188,6 +203,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-exam-access-arra
 
 ---
 action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS15 9AL | £13,752.00 - £14,658.00 Annually (Actual) B3 point SCP 7-11 FTE £26,403 - £28,142 | Senior Administrator
+employer: Colton Primary School
+closing_date: 2026-08-18T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: BLANK_POSS_PRESERVED
+factual_fingerprint: 0a79d378fcd1bf9153615d9943619d20e548b35a72c96ef53f573fc49149a38a
+source: Teaching Vacancies
+source_job_id: senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS27 0AW | £21,043.00 - £22,429.00 Annually (Actual) | Senior Administrator
 employer: Fountain Primary School
 closing_date: 2026-09-14T09:00:00+01:00
@@ -218,7 +248,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
+employer: De Lacy Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
+source: Teaching Vacancies
+source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -227,13 +270,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 ## HARD_PASS
 
 - [Accomplish Hubs Business Manager, Castleford Office](https://teaching-vacancies.service.gov.uk/jobs/accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited) — Manager title salary ceiling £38,220 is not below £28,000.
-- [Assistant Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-abbey-multi-academy-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
-- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-woodkirk-academy) — Manager title salary ceiling £36,735 is not below £28,000.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-waterton-academy-trust-wakefield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust) — Insufficient admin/service evidence.
-- [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-mirfield-free-grammar) — Insufficient admin/service evidence.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-abbey-multi-academy-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Reprographics and Digital Resource Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-digital-resource-technician) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.

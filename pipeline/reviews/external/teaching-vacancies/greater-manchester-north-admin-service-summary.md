@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-08-07
-review_fingerprint: 94f577c57e073fd8a6dd1441c218b06b850452299a6a490a1a12b89508f24a47
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 407763d127dd4852b30562b795f3eae3ea27b21841ede7feeaa16241dbedd32f
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Greater Manchester - North | Rochdale, North West, OL16 4XA | £22,812.00 - £24,315.00 Annually (Actual) | Attendance Administrator
-employer: Kingsway Park High School
-closing_date: 2026-08-09T23:59:00+01:00
+SELECTED | Greater Manchester - North | Bury, North West, BL9 8LP | £12.71 p/h (National Living Wage) | Apprentice Administrator
+employer: Brookhaven School
+closing_date: 2026-08-24T09:00:59+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: a715ae7a8a3275b7a0659d99ae0b0b70e9921739f5ea33482b902be26165436f
+factual_fingerprint: 40662adfc5adf9f5f4b5094e9a9345f42c1c86dae1d45a2a9dde23130295a0dc
 source: Teaching Vacancies
-source_job_id: attendance-administrator-kingsway-park-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-kingsway-park-high-school
+source_job_id: apprentice-administrator-brookhaven-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-brookhaven-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

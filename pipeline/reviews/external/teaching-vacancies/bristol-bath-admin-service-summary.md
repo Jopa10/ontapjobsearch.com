@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-08-07
-review_fingerprint: 7176ef4d530d91b13df901a072299948a82754d7b93c24f2d2f7d4f495a9378a
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 2423d22b6a301e3821bd1a7fdb2e17177d1a8698854a560811feef457b6064ce
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Bristol & Bath
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Twerton Infant School
 closing_date: 2026-08-13T12:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 46775ef464b62dcc4d82ddb5145f88514501f09948d967d9149deaf4c4d1d8fb
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Marlwood School
 closing_date: 2026-09-01T09:00:59+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: f3a4bf4abd173dfb4d8cc2797977d1885a92bc7d6e8c2dbfea1fc2d08ec8ee06
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: Filton Avenue Primary School
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 70c29abe8caf12fd84911969c88a07acaf02b5adfa868d4eea9992311b4a74d6
 source: Teaching Vacancies
@@ -73,7 +73,7 @@ employer: Fairfield High School
 closing_date: 2026-08-30T23:59:00+01:00
 reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: e9f2593884ab273dc5fda56b23d3f20e59611b92e241aad7c1bb708e93ce5f64
 source: Teaching Vacancies
@@ -93,8 +93,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-le
 
 - [AI & Digital Communications and Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/ai-digital-communications-and-marketing-apprentice) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-cabot-learning-federation-bristol-not-recorded) — Insufficient admin/service evidence.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-9097ffb6-9d63-4285-9dd2-537e38cf05ad) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-lyde-green-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.

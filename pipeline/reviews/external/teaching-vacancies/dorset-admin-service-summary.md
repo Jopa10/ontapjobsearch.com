@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-07
-review_fingerprint: ac034f20da4ef3971e47da98c973c6b6b09fbfbbbe8d4589bc79cc31be239790
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: a97cf87cf358c1e2ca10b906ec18331aa262c1ae5158da7cd8c50d65012c0f60
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Dorset
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -28,7 +28,7 @@ employer: Hill View Primary Academy
 closing_date: 2026-08-23T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: f72bf258a0002b822edcfbc421fe30725fec6747668fab2028bee7c89f6d8325
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Cranborne Church of England First School
 closing_date: 2026-08-27T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: cd33c06cd70221cfb10166fa57f0b8631b9cfa7aabcb3ffa4712c982c0bb554a
 source: Teaching Vacancies
@@ -53,12 +53,27 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-admini
 
 ---
 action: 
+SELECTED | Dorset | Bournemouth, South West, BH8 9PW | £26,466.48 Annually (Actual) Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078). | PA to Leadership Team
+employer: The Bishop of Winchester Academy
+closing_date: 2026-08-21T08:00:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c77f091fe93bc23a54ee632144e91407e6f1e77c3df86613a3cc1f232b3dfd1e
+source: Teaching Vacancies
+source_job_id: pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2
+---
+
+---
+action: 
 SELECTED | Dorset | Shaftesbury, South West, SP7 8ER | £8,923.00 - £9,357.00 Annually (Actual) Grade 6, Point 6 - 9 (subject to experience) | School Administrator
 employer: Shaftesbury School
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 7ccd4d26bc3ce3b8f8a1b73e0043f6367f0c56b7a8e3a334e703c4eb694dda26
 source: Teaching Vacancies
@@ -75,7 +90,7 @@ employer: Glenmoor Academy
 closing_date: 2026-08-31T23:59:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: c9bafd0c46b726ea184b41cbdb29ec00a259b1ed3800d08ed0d77ec8d8c90d94
 source: Teaching Vacancies

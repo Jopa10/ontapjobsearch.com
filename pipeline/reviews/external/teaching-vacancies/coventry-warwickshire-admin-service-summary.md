@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-08-07
-review_fingerprint: 84953dfa6938e39a4833c54902521ea87b207c7bbdad9bcc4b9dee77d3206538
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: 790bb3f82edd3f3addc75e40642288b837817011637f5fee96dfe11a6e3e8e7a
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,21 +20,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Atherstone, West Midlands, CV9 1LZ | £21,545.00 - £22,004.00 Annually (Actual) FTE Salary: £24,795 - £25,583 per annum | Academy Receptionist / Administrator
-employer: The Queen Elizabeth Academy
-closing_date: 2026-08-12T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5bb077724acf9c51eea5f5ae0d2ef09bf5bc68a061beec7f3ab99a7b901d90f6
-source: Teaching Vacancies
-source_job_id: academy-receptionist-administrator-the-queen-elizabeth-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-administrator-the-queen-elizabeth-academy
----
 
 ---
 action: 
@@ -66,6 +51,21 @@ source_job_id: administration-assistant-meadow-park-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
 ---
 
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV6 4GL | Grade 3 - £23,764 - £24,915 pro rata | School Administrator
+employer: President Kennedy School Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b3de123b28dbbff7cc190312bf6e55bd25ae048bc6b9a888e0c7b66bf26a7cd
+source: Teaching Vacancies
+source_job_id: school-administrator-president-kennedy-school-academy-coventry-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-president-kennedy-school-academy-coventry-west-midlands
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -78,8 +78,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-benedict-s-catholic-high-school) — Insufficient admin/service evidence.
-- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust) — Insufficient admin/service evidence.
-- [Trust Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/trust-cover-supervisor-blue-coat-church-of-england-school-and-music-college) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-raphael-the-archangel-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-harris-church-of-england-academy-rugby-warwickshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

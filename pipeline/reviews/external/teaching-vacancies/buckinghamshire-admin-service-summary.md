@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-07
-review_fingerprint: e8ca503a46a4e656755aaf4da71090ced4082b44367b8ee9bf9978ca18ec2be6
-routing_manifest_sha256: e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730
+review_date: 2026-08-13
+review_fingerprint: ff4e3b2266734f8272e29373ed56e8b1525d555edacd32569bda00b772725e53
+routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
 ontap_region: Buckinghamshire
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 11
-- POSS awaiting decision: 2
+- Records: 15
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
 
@@ -28,7 +28,7 @@ employer: Chepping View Primary Academy
 closing_date: 2026-08-28T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: f7e66b255404cd81fe7ac61d43817525cae45c48cab4c64443a0fb381e4110ff
 source: Teaching Vacancies
@@ -38,57 +38,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Buckinghamshire | Beaconsfield, South East, HP9 1SJ | H7 19 to 23 - Actual starting salary - £2,410.81 per year including fringe | Administrator (Clerk) to the School Board
-employer: The Beaconsfield School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 1ddff6aff8595beb33c9846fdced1c1aff34f063bcd638f6d282d66cd0a803b8
-source: Teaching Vacancies
-source_job_id: administrator-clerk-to-the-school-board-the-beaconsfield-school-beaconsfield-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-the-beaconsfield-school-beaconsfield-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 7WH | £27,693.00 - £31,021.00 Annually (FTE) | Attendance Officer
-employer: Walton High
-closing_date: 2026-08-13T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2c279893983422358938a6825948dc74e3668e54b5da9ed42466661fc167073d
-source: Teaching Vacancies
-source_job_id: attendance-officer-walton-high-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-walton-high-milton-keynes-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
-employer: Glebe Farm School
-closing_date: 2026-09-07T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: ea13501373bb0037ba64882866c3cd512a43dd7b3e9660acbc876131caddf88a
-source: Teaching Vacancies
-source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
----
-
----
-action: 
 SELECTED | Buckinghamshire | High Wycombe, South East, HP15 7UB | £21,628.00 - £23,200.00 Annually (Actual) Salary – Bucks Pay Range 3 £21,628 - £23,200 (full time equivalent £29,114 - £31,230) | Office Administrator
 employer: Sir William Ramsay School
 closing_date: 2026-09-04T12:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b312a17e
 source: Teaching Vacancies
@@ -103,7 +58,7 @@ employer: Moorland Primary School
 closing_date: 2026-08-14T12:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: a16e4511c0a467e320dbc829dc583ef6e6de97b61e9d6c1d3d08d04f6dae5317
 source: Teaching Vacancies
@@ -118,7 +73,7 @@ employer: Holmer Green Senior School
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
 source: Teaching Vacancies
@@ -133,7 +88,7 @@ employer: Holmer Green Senior School
 closing_date: 2026-09-04T09:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: bbde664a6775f872bae59e72c87edddbaa522405e3cf4b2363b82eececc74e33
 source: Teaching Vacancies
@@ -143,27 +98,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-facu
 
 ---
 action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP18 9RY | Bucks Pay Range 2 Point 14 – Range 3 Point 16 (pro rata, dependent on experience) | School Administrator
-employer: Brill Church of England School
-closing_date: 2026-08-12T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 244813b4d66ff996ca9e13ddd6d2105ce5a73690ca61742ce896b4b1ee6361a4
-source: Teaching Vacancies
-source_job_id: school-administrator-brill-church-of-england-school-aylesbury-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-brill-church-of-england-school-aylesbury-buckinghamshire
----
-
----
-action: 
 SELECTED | Buckinghamshire | Chesham, South East, HP5 2RG | £24,695.00 Annually (Actual) | SEN Administrator
 employer: Chiltern Hills Academy
 closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 1f36b5ec23f27baa80648549dacb13ed068384b0512e796e8706c04299a1753f
 source: Teaching Vacancies
@@ -171,36 +111,36 @@ source_job_id: sen-administrator-chiltern-hills-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chiltern-hills-academy
 ---
 
----
-action: 
-SELECTED | Buckinghamshire | Princes Risborough, South East, HP27 0DR | £32,842.00 - £35,384.00 Annually (Actual) Salary: Bucks Pay Range 5 £32,842 - £35,384 (Full time equivalent £34, 319 - £36,975) | SEND Administrator
-employer: Princes Risborough School
-closing_date: 2026-08-07T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 3f393f0368ee319e385a88eddb2c69e23cb4015cbc73bd01a1882b381439ffcf
-source: Teaching Vacancies
-source_job_id: send-administrator-princes-risborough-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-princes-risborough-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK11 4BA | £25,989.00 Annually (FTE) C1 £25,989 full time equivalent | Business Support
-employer: Fairfields Primary School
-closing_date: 2026-08-10T12:00:00+01:00
+POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £32,061.00 Annually (FTE) Grade F, £32, 061 full time equivalent | Executive Assistant to the Senior Leadership Team
+employer: Glebe Farm School
+closing_date: 2026-09-07T12:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
-factual_fingerprint: d88979f62505c26698f0632887dc3c61bf9ad2ba1e4b107436f43833807a393c
+factual_fingerprint: 1a1016e6b6cb5039308bf2157b9ff5de96f0877f853545ac58425f61e512267e
 source: Teaching Vacancies
-source_job_id: business-support-2996edd1-fa9e-4a32-bebb-c3cc93edbca4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-2996edd1-fa9e-4a32-bebb-c3cc93edbca4
+source_job_id: executive-assistant-to-the-senior-leadership-team-glebe-farm-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-senior-leadership-team-glebe-farm-school
+---
+
+---
+action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
+employer: Glebe Farm School
+closing_date: 2026-09-07T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: CANDIDATE
+migration_status: 
+factual_fingerprint: ea13501373bb0037ba64882866c3cd512a43dd7b3e9660acbc876131caddf88a
+source: Teaching Vacancies
+source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
 ---
 
 ---
@@ -210,7 +150,7 @@ employer: Kents Hill Park all-through school
 closing_date: 2026-09-08T12:00:00+01:00
 reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: CANDIDATE
 migration_status: 
 factual_fingerprint: 96533601fbd00c95d1ad3b5aa56aa59886649ac976ce2ea9ab59648dbc51f905
 source: Teaching Vacancies
