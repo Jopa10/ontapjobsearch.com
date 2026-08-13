@@ -10,12 +10,6 @@ on:
         type: boolean
   schedule:
     - cron: "30 19 * * *"
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/google-indexing-api.yml"
-      - "scripts/google-indexing-submit.ts"
 
 permissions:
   contents: write
