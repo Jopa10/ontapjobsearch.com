@@ -262,7 +262,7 @@ jobs:
       - name: Verify publisher changed only service-admin live files
         run: |
           set -euo pipefail
-          unexpected_app="$({ git diff --name-only -- app | awk '$0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
+          unexpected_app="$({ git diff --name-only -- app | awk '$0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/ && $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
           if [ -n "$unexpected_app" ]; then
             echo "::error::Teaching Vacancies publisher changed unexpected app files:"
             printf '%s\n' "$unexpected_app"
@@ -378,7 +378,7 @@ jobs:
             $0 !~ /^pipeline\/manifests\/external\/teaching-vacancies\/approved\/.*\.json$/ &&
             $0 !~ /^pipeline\/output-admin-service\/.*-(admin-service|customer-service|finance-accounts|hr-recruitment)\.json$/ &&
             $0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/ &&
-            $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/(customer-service-jobs|finance-accounts-jobs|hr-recruitment-jobs)\.json$/'; } || true)"
+            $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/(service-administrator-jobs|customer-service-jobs|finance-accounts-jobs|hr-recruitment-jobs)\.json$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit unexpected Teaching Vacancies publishing paths:"
             printf '%s\n' "$unexpected_files"
