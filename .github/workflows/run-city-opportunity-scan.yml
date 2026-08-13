@@ -65,3 +65,4 @@ jobs:
             pipeline/reports/city-opportunities-current.md
             pipeline/reports/city-opportunity-history.json
           if-no-files-found: warn
+          retention-days: 30
