@@ -149,14 +149,29 @@ jobs:
           subprocess.run(command, check=True)
           PY
 
+      - name: Verify composition changed only admin-service outputs
+        run: |
+          set -euo pipefail
+          unexpected_outputs="$({ git diff --name-only -- pipeline/output-admin-service | awk '$0 !~ /-admin-service\.json$/'; } || true)"
+          if [ -n "$unexpected_outputs" ]; then
+            echo "::error::Teaching Vacancies composition changed non-admin-service outputs:"
+            printf '%s\n' "$unexpected_outputs"
+            exit 1
+          fi
+
       - name: Verify every LIVE reviewed region composed safely
         working-directory: pipeline
         run: |
           python - <<'PY'
           import csv
           import json
+          from datetime import date
           from pathlib import Path
 
+          from external_sources.compose_teaching_vacancies_regional import (
+              canonical_rows,
+              compose_rows,
+          )
           from external_sources.teaching_vacancies_master_review import REVIEW_NOW
           from external_sources.teaching_vacancies_regional_review import region_slug
 
@@ -175,7 +190,7 @@ jobs:
               key=str.casefold,
           )
 
-          output_files = list(Path("output-admin-service").glob("*.json"))
+          output_files = list(Path("output-admin-service").glob("*-admin-service.json"))
           for region in regions:
               slug = region_slug(region)
               snapshot_path = Path(
@@ -189,7 +204,6 @@ jobs:
                       f"STOP: missing approved Teaching Vacancies evidence for {region}."
                   )
               snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
-              approved_ids = {row["job_id"] for row in snapshot}
 
               matching = []
               for path in output_files:
@@ -205,14 +219,20 @@ jobs:
                       matching.append((path, combined))
               if len(matching) != 1:
                   raise SystemExit(
-                      f"STOP: expected one current base output for {region}; "
+                      f"STOP: expected one current admin-service base output for {region}; "
                       f"found {len(matching)}."
                   )
               output_path, combined = matching[0]
-              combined_ids = {row["job_id"] for row in combined}
-              if not approved_ids <= combined_ids:
+              expected, counts = compose_rows(
+                  combined,
+                  snapshot,
+                  region=region,
+                  today=date.today(),
+              )
+              if canonical_rows(expected) != canonical_rows(combined):
                   raise SystemExit(
-                      f"STOP: {output_path} is missing approved Teaching Vacancies IDs."
+                      f"STOP: {output_path} does not exactly match safe recomposition "
+                      f"for {region}."
                   )
               if not any(
                   str(row.get("source", "")).strip().casefold()
@@ -223,8 +243,11 @@ jobs:
                       f"STOP: external-only overwrite detected for {region}."
                   )
               print(
-                  f"{region}: {len(approved_ids)} Teaching Vacancies in "
-                  f"{len(combined)} combined jobs ({output_path})"
+                  f"{region}: {counts['teaching_vacancies']} Teaching Vacancies in "
+                  f"{len(combined)} combined jobs; "
+                  f"{counts['duplicate_teaching_vacancies_skipped']} duplicate(s) and "
+                  f"{counts['expired_teaching_vacancies_skipped']} expired role(s) "
+                  f"safely omitted ({output_path})"
               )
           PY
 
@@ -254,7 +277,7 @@ jobs:
             pipeline/reviews/external/teaching-vacancies/*-admin-service-summary.md \
             pipeline/output-external/teaching-vacancies-regional/*.json \
             pipeline/manifests/external/teaching-vacancies/approved/*.json \
-            pipeline/output-admin-service/*.json \
+            pipeline/output-admin-service/*-admin-service.json \
             app/*/service-administrator-jobs.json
 
           staged_files="$(git diff --cached --name-only)"
@@ -267,7 +290,7 @@ jobs:
             $0 !~ /^pipeline\/reviews\/external\/teaching-vacancies\/.*-admin-service-(review\.csv|summary\.md)$/ &&
             $0 !~ /^pipeline\/output-external\/teaching-vacancies-regional\/.*\.json$/ &&
             $0 !~ /^pipeline\/manifests\/external\/teaching-vacancies\/approved\/.*\.json$/ &&
-            $0 !~ /^pipeline\/output-admin-service\/.*\.json$/ &&
+            $0 !~ /^pipeline\/output-admin-service\/.*-admin-service\.json$/ &&
             $0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit unexpected Teaching Vacancies publishing paths:"
@@ -288,7 +311,7 @@ jobs:
             echo
             echo "The England-wide review actions were verified and copied to regional approval boundaries."
             echo "Approved Teaching Vacancies were composed with existing JobG8 and other approved sources."
-            echo "Expired Teaching Vacancies were omitted automatically."
+            echo "Expired and cross-source duplicate Teaching Vacancies were omitted automatically."
             echo "Verified service-admin pages were written and committed."
           } >> "$GITHUB_STEP_SUMMARY"
 
