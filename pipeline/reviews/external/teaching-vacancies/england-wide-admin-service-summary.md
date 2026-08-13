@@ -122,7 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Berkshire | Reading, RG6 1EY | £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age. | HR Level 3 Apprenticeship
 employer: The Keys Academy Trust
 closing_date: 2026-08-20T23:59:00+01:00
@@ -133,7 +133,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprentice
 ---
 
 ---
-action:
+action: select
 POSS | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
 employer: The Keys Academy Trust
 closing_date: 2026-08-20T23:59:00+01:00
@@ -349,7 +349,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
 employer: Burrowmoor Primary Academy
 closing_date: 2026-09-01T23:59:00+01:00
@@ -478,7 +478,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Devon | Newton Abbot, South West, TQ12 6JB | £25,185.00 FTE | Administrative Assistant
 employer: Blackpool Church of England Primary School
 closing_date: 2026-08-13T12:00:00+01:00
@@ -489,7 +489,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action:
+action: select
 POSS | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
 employer: The King's School
 closing_date: 2026-09-07T09:00:00+01:00
@@ -500,7 +500,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action:
+action: select
 POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
 employer: St Marychurch Church of England Primary and Nursery School
 closing_date: 2026-09-03T09:00:00+01:00
@@ -511,7 +511,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 ---
 
 ---
-action:
+action: select
 POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-09-07T09:00:00+01:00
@@ -585,7 +585,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Dorset | Bournemouth, South West, BH10 4EX | £13,461.00 - £18,054.00 Annually (Actual) Term time only | Business and Administration Apprentice
 employer: Glenmoor Academy
 closing_date: 2026-08-31T23:59:00+01:00
@@ -648,7 +648,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-li
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Essex | Canvey Island, East of England, SS8 9QS | £26,847.00 - £27,274.00 Annually (FTE) Term-time plus 5 additional days (£23016 to £23382 actual) | Receptionist
 employer: The Cornelius Vermuyden School
 closing_date: 2026-08-16T23:59:00+01:00
@@ -681,7 +681,7 @@ _No jobs in this group._
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £26,282.00 - £28,993.00 Annually (Actual) NJC Grade 5, Points 13 - 19 | Marketing and Communications Officer
 employer: Whalley Range 11-18 High School
 closing_date: 2026-08-17T23:59:00+01:00
@@ -702,7 +702,7 @@ _No jobs in this group._
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
 employer: The Portsmouth Academy
 closing_date: 2026-09-01T23:59:00+01:00
@@ -752,7 +752,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-adminis
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
 employer: Nore Academy
 closing_date: 2026-09-04T12:00:00+01:00
@@ -969,7 +969,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastor
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
 employer: Chaffinch Brook School
 closing_date: 2026-08-14T00:00:00+01:00
@@ -980,7 +980,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaff
 ---
 
 ---
-action:
+action: select
 POSS | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
 employer: Pathways School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -991,7 +991,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action:
+action: select
 POSS | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
 employer: Ranelagh Primary School
 closing_date: 2026-09-04T12:00:00+01:00
@@ -1002,7 +1002,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action:
+action: select
 POSS | London | Beckenham, London, BR3 3AL | £8,807.09 Annually (Actual) Bromley Localised Pay Scale Grade BR5 | Administrative Assistant
 employer: Unicorn Primary School
 closing_date: 2026-08-16T23:59:00+01:00
@@ -1013,7 +1013,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action:
+action: select
 POSS | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
 employer: Beecholme Primary School
 closing_date: 2026-08-30T23:59:59+01:00
@@ -1024,7 +1024,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 ---
 
 ---
-action:
+action: select
 POSS | London | New Malden, KT3 6NU | £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings. | Governance and Compliance Officer
 employer: Coombe Academy Trust
 closing_date: 2026-08-18T23:59:00+01:00
@@ -1035,7 +1035,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-and-compli
 ---
 
 ---
-action:
+action: select
 POSS | London | London, London, NW5 1RL | Scale 4,point 7-10 (pro-rata £27,761-£28,980) | HR & Finance Assistant
 employer: Parliament Hill School
 closing_date: 2026-08-16T23:59:59+01:00
@@ -1046,7 +1046,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-finance-assistant-
 ---
 
 ---
-action:
+action: select
 POSS | London | Sutton, SM3 8AB | £13,395.00 Annually (Actual) £33,129 (FTE) | HR Admin Assistant
 employer: Girls' Learning Trust
 closing_date: 2026-08-23T22:00:00+01:00
@@ -1068,7 +1068,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-0b54e05b-3
 ---
 
 ---
-action:
+action: select
 POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 employer: Nishkam School West London
 closing_date: 2026-08-14T00:00:00+01:00
@@ -1139,7 +1139,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Northamptonshire | Northampton, East Midlands, NN6 8PT | £26,846.00 Annually (FTE) £ 8217.92 actual salary | Administrator
 employer: Guilsborough Church of England Primary School
 closing_date: 2026-08-24T23:59:00+01:00
@@ -1150,7 +1150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsbo
 ---
 
 ---
-action:
+action: select
 POSS | Northamptonshire | Wellingborough, East Midlands, NN9 6PA | £26,016.00 - £26,427.00 Annually (FTE) | Assessment and Data Admin Officer
 employer: Manor School
 closing_date: 2026-08-21T23:59:00+01:00
@@ -1213,7 +1213,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-executive-p
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Nottinghamshire | Mansfield, East Midlands, NG19 8QA | £22,673.00 - £23,769.00 Annually (Actual) Grade 2: £22,673 - £23,769 actual per annum (£25,185 - £26,403 FTE) | Administrator
 employer: The Manor Academy
 closing_date: 2026-08-14T23:59:00+01:00
@@ -1309,7 +1309,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-recepti
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
 employer: Faringdon Community College
 closing_date: 2026-08-28T12:00:00+01:00
