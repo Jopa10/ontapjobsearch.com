@@ -45,6 +45,7 @@ SOURCE = "Teaching Vacancies"
 JOB_ID_PREFIX = "teaching-vacancies-"
 DEFAULT_CURRENT_OUTPUT_DIR = Path("output-admin-service")
 DEFAULT_SLICE_REGISTER = Path("registers/region_category_slice_register.csv")
+ADMIN_SERVICE_OUTPUT_GLOB = "*-admin-service.json"
 _GENERIC_EMPLOYER_TOKENS = {
     "academy",
     "college",
@@ -362,7 +363,7 @@ def compose_directory(
 
     if not current_output_dir.is_dir():
         raise ValueError(f"current output directory does not exist: {current_output_dir}")
-    for path in sorted(current_output_dir.glob("*.json")):
+    for path in sorted(current_output_dir.glob(ADMIN_SERVICE_OUTPUT_GLOB)):
         current = load_rows(path, required=True)
         if not current:
             results.append(
