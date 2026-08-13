@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-12
+feed_date: 2026-08-13
 
 Edit only the `action:` line in each block:
 
@@ -117,12 +117,6 @@ job_id: 35ef02dd-6e8a-4d5a-a1af-bacca950305f
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £29350 per year | Complex care assistant
-job_id: 107616541
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Ashington | £13.21 per hour | Care Assistant - Care Home
 job_id: 9b0995dd-b5e5-433f-b113-8a55acf6d8cd
 ---
@@ -131,12 +125,6 @@ job_id: 9b0995dd-b5e5-433f-b113-8a55acf6d8cd
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland | £15 - £18 per hour (CONTRACT) | Children and Young Persons Support Worker
 job_id: 107199252
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Blaydon-on-tyne | £29350 per year | Complex care assistant
-job_id: 107617093
 ---
 
 ---
@@ -197,12 +185,6 @@ job_id: 107199247
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Chester Le Street | £14.24 per hour | Complex Care Assistant
-job_id: 107615864
----
-
----
-action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Hartlepool | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104883-1
 ---
@@ -215,8 +197,8 @@ job_id: 25362_JR104883-1-1908a03149bfe006218cbce2dd812797
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
-job_id: 107781117
+SELECTED | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.8 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225483894
 ---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
@@ -271,12 +253,6 @@ job_id: 44c04919-b68b-4946-9565-88687eb782e2
 
 ---
 action:
-SELECTED | Sussex | Brighton | £27,976 per annum | Domestic Abuse Support Worker
-job_id: 1595772
----
-
----
-action:
 SELECTED | Sussex | Brighton | £25000 - £28000 per year | Personal Assistant - education sector
 job_id: 23643_225427103
 ---
@@ -291,12 +267,6 @@ job_id: 23643_225445462
 action:
 SELECTED | Sussex | Littlehampton | £13.45 per hour | Care Assistant
 job_id: 107605050
----
-
----
-action:
-SELECTED | Sussex | Chichester | £15.4 - £17.6 per hour | Complex Care Assistant
-job_id: 107812909
 ---
 
 ---
@@ -359,8 +329,14 @@ job_id: 25362_JR104893
 
 ---
 action:
-SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
-job_id: 107800989
+SELECTED | Cumbria - South | Kendal | £13.11 per hour ((Plus a 12.07% Holiday Allowance Uplift)) | Bank Healthcare Assistant
+job_id: 107817609
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Relief Support Worker
+job_id: 107812778
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -415,12 +391,6 @@ job_id: 107404020
 action:
 SELECTED | Hampshire | Ringwood | £16.47 per hour | Care Assistant - Bank - Care Home
 job_id: c4b882e9-0d0f-433e-820e-ed014114370d
----
-
----
-action:
-SELECTED | Hampshire | Tadley | £24000 per year | Female Support Worker
-job_id: 107739683
 ---
 
 ---
@@ -499,6 +469,12 @@ job_id: 202c4b49-5e6c-46f1-879f-8421db894a5b
 action:
 SELECTED | Hampshire | Fareham | £15.35 per hour | Care Assistant - Bank - Care Home
 job_id: 4a74d1e7-f86f-4dad-965a-206ba0f5fa61
+---
+
+---
+action:
+SELECTED | Hampshire | Alton | £25186 - £26244 per year (plus Market Supplement) | Care Assistant
+job_id: 1401784493
 ---
 
 ## HAMPSHIRE — POSSIBLES
