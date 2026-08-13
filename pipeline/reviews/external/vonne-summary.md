@@ -82,7 +82,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
 ---
 
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,761 to 28,966 Pro Rata | Therapeutic Coordinator
 employer: Rape and Sexual Abuse Counselling Centre (Darlington and County Durham)
 closing_date: Monday, August 24, 2026 - 12:00
@@ -121,7 +121,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
 ---
 
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
