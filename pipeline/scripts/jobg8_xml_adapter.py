@@ -5,7 +5,7 @@ import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-import pandas as pd
+from openpyxl import Workbook
 
 REQUIRED = {
     "/Job/DisplayReference",
@@ -71,7 +71,13 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
         raise RuntimeError("Missing required JobG8 fields: " + ", ".join(missing))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(rows, columns=columns).to_excel(output_path, index=False)
+    workbook = Workbook(write_only=True)
+    sheet = workbook.create_sheet(title="Jobs")
+    sheet.append(columns)
+    for row in rows:
+        sheet.append([row.get(column, "") for column in columns])
+    workbook.save(output_path)
+
     print(f"Converted {count} JobG8 jobs into {output_path}")
     print(f"Columns: {len(columns)}")
     return count
