@@ -53,13 +53,6 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Temporary push trigger is dry-run only and exists solely for controlled verification.
-          if [ "${{ github.event_name }}" = "push" ]; then
-            echo "mode=dry-run" >> "$GITHUB_OUTPUT"
-            echo "should_auth=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "$MANUAL_DRY_RUN" = "true" ]; then
             echo "mode=dry-run" >> "$GITHUB_OUTPUT"
             echo "should_auth=false" >> "$GITHUB_OUTPUT"
