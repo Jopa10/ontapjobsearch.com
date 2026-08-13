@@ -68,6 +68,7 @@ jobs:
           name: compiler-module-1-reports-${{ inputs.month }}
           path: pipeline/reports-module1/
           if-no-files-found: warn
+          retention-days: 14
 
       - name: Commit Compiler Module 1 outputs
         run: |
