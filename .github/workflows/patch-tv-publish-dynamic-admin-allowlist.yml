@@ -1,0 +1,58 @@
+name: Patch TV publish dynamic admin allowlist
+
+on:
+  push:
+    paths:
+      - .github/workflows/patch-tv-publish-dynamic-admin-allowlist.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Patch Teaching Vacancies publish guards
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('.github/workflows/publish-reviewed-teaching-vacancies-england.yml')
+          text = path.read_text(encoding='utf-8')
+
+          old_guard = r'''          unexpected_app="$({ git diff --name-only -- app | awk '$0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"'''
+          new_guard = r'''          unexpected_app="$({ git diff --name-only -- app | awk '$0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/ && $0 !~ /^app\/_city_pages\/configured-slices\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"'''
+          # Correct repository path is _city-pages, not _city_pages.
+          new_guard = new_guard.replace('_city_pages', '_city-pages')
+
+          old_commit_rule = r'''            $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/(customer-service-jobs|finance-accounts-jobs|hr-recruitment-jobs)\.json$/'; } || true)"'''
+          new_commit_rule = r'''            $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/(service-administrator-jobs|customer-service-jobs|finance-accounts-jobs|hr-recruitment-jobs)\.json$/'; } || true)"'''
+
+          if text.count(old_guard) != 1:
+              raise SystemExit(f'STOP: expected one publisher guard to patch, found {text.count(old_guard)}')
+          if text.count(old_commit_rule) != 1:
+              raise SystemExit(f'STOP: expected one commit allowlist rule to patch, found {text.count(old_commit_rule)}')
+
+          text = text.replace(old_guard, new_guard)
+          text = text.replace(old_commit_rule, new_commit_rule)
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Verify patch
+        run: |
+          grep -F 'configured-slices\/[^/]+\/service-administrator-jobs' .github/workflows/publish-reviewed-teaching-vacancies-england.yml
+          grep -F '(service-administrator-jobs|customer-service-jobs|finance-accounts-jobs|hr-recruitment-jobs)' .github/workflows/publish-reviewed-teaching-vacancies-england.yml
+
+      - name: Commit patch and remove one-off workflow
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/patch-tv-publish-dynamic-admin-allowlist.yml
+          git add .github/workflows/publish-reviewed-teaching-vacancies-england.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Allow dynamic admin pages in Teaching Vacancies publish guard"
+          git push origin main
