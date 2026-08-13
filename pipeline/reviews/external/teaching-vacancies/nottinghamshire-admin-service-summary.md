@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 4
-- POSS awaiting decision: 2
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 11
 
@@ -52,6 +52,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 ---
 
 ---
+action: select
+SELECTED | Nottinghamshire | Mansfield, East Midlands, NG19 8QA | £22,673.00 - £23,769.00 Annually (Actual) Grade 2: £22,673 - £23,769 actual per annum (£25,185 - £26,403 FTE) | Administrator
+employer: The Manor Academy
+closing_date: 2026-08-14T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 27e7f61d0e48cb41e419aae417a2190c12e3a2d06a7c89484183a1dc27b57099
+source: Teaching Vacancies
+source_job_id: administrator-the-manor-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-manor-academy
+---
+
+---
 action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
 employer: Park Vale Academy
@@ -82,21 +97,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-executive-p
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Nottinghamshire | Mansfield, East Midlands, NG19 8QA | £22,673.00 - £23,769.00 Annually (Actual) Grade 2: £22,673 - £23,769 actual per annum (£25,185 - £26,403 FTE) | Administrator
-employer: The Manor Academy
-closing_date: 2026-08-14T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 27e7f61d0e48cb41e419aae417a2190c12e3a2d06a7c89484183a1dc27b57099
-source: Teaching Vacancies
-source_job_id: administrator-the-manor-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-manor-academy
----
 
 ---
 action: 

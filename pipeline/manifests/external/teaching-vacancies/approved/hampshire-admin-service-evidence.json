@@ -1,16 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-07T11:36:51+01:00",
+  "generated_at": "2026-08-13T11:47:48+01:00",
   "source": "Teaching Vacancies",
   "region": "Hampshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-07",
+  "review_date": "2026-08-13",
   "review_fingerprint": "b0c7569ebfa759ba0c8f00359b094f6e9bcefb718f058796d6c677a3d2caf8b3",
-  "routing_manifest_sha256": "e01ce019790584d1a149abb1e0685ebbd26e219232027f90385cb500adf0f730",
-  "review_csv_sha256": "8846f097512941284e02525be79b061f492ac475265e77efa7be3f6b5e3dec52",
-  "summary_md_sha256": "87c664f35a328fee4a1601174278fc5e9fb8ec5a8744e2b14c42fc40663a81b3",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "857352bd6fd7dc648638f6154cbb80b6fa27f8834d79853ed474d2830f8f45f8",
+  "summary_md_sha256": "d1db1463ad648d06163703097699b2933028c586655c98c5e14b2e2512a261d2",
+  "approved_snapshot_sha256": "30819f5fddbf25c2164210926f91dae17c296fd16831a8efea5a1722148aad60",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-senior-administration-assistant-the-portsmouth-academy"
+  ]
 }

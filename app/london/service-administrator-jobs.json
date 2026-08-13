@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-admin-assistant-chaffinch-brook-school",
+    "title": "Admin Assistant",
+    "company": "Chaffinch Brook School",
+    "location": "Croydon",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London)",
+    "work_pattern": "",
+    "posted_date": "2026-07-27",
+    "closing_date": "2026-08-14",
+    "closing_datetime": "2026-08-14T00:00:00+01:00",
+    "summary": "Admin Assistant with Chaffinch Brook School in Croydon. ['part time']; 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London).",
+    "description": "Chaffinch Brook School is recruiting for this vacancy in Croydon.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London).\n\nThe stated application deadline is 2026-08-14T00:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-administrator-and-cover-coordinator",
     "title": "Administrator and Cover Coordinator",
     "company": "Sarah Bonnell School",
@@ -22,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Sarah Bonnell School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nishkam School West London",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +97,81 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Unicorn Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-hr-finance-assistant-parliament-hill-school",
+    "title": "HR & Finance Assistant",
+    "company": "Parliament Hill School",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Scale 4,point 7-10 (pro-rata £27,761-£28,980)",
+    "work_pattern": "",
+    "posted_date": "2026-07-14",
+    "closing_date": "2026-08-16",
+    "closing_datetime": "2026-08-16T23:59:59+01:00",
+    "summary": "HR & Finance Assistant with Parliament Hill School in London. ['full time']; Scale 4,point 7-10 (pro-rata £27,761-£28,980).",
+    "description": "Parliament Hill School is recruiting for this vacancy in London.\n\nThe advertised position is HR & Finance Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Scale 4,point 7-10 (pro-rata £27,761-£28,980).\n\nThe stated application deadline is 2026-08-16T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-finance-assistant-parliament-hill-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-contracts-administrator",
+    "title": "Contracts Administrator",
+    "company": "Oasis Community Learning",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£31,980 - £33,870",
+    "work_pattern": "",
+    "posted_date": "2026-08-03",
+    "closing_date": "2026-08-18",
+    "closing_datetime": "2026-08-18T23:59:59+01:00",
+    "summary": "Contracts Administrator with Oasis Community Learning in London. ['full time']; £31,980 - £33,870.",
+    "description": "Oasis Community Learning is recruiting for this vacancy in London.\n\nThe advertised position is Contracts Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £31,980 - £33,870.\n\nThe stated application deadline is 2026-08-18T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/contracts-administrator?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded",
+    "title": "Governance and Compliance Officer",
+    "company": "Coombe Academy Trust",
+    "location": "New Malden",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings.",
+    "work_pattern": "",
+    "posted_date": "2026-07-07",
+    "closing_date": "2026-08-18",
+    "closing_datetime": "2026-08-18T23:59:00+01:00",
+    "summary": "Governance and Compliance Officer with Coombe Academy Trust in New Malden. ['full time', 'part time']; £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings..",
+    "description": "Coombe Academy Trust is recruiting for this vacancy in New Malden.\n\nThe advertised position is Governance and Compliance Officer.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings..\n\nThe stated application deadline is 2026-08-18T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +197,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Park High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +222,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The St Marylebone CofE School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +247,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Oaks Park High School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-hr-admin-assistant-girls-learning-trust",
+    "title": "HR Admin Assistant",
+    "company": "Girls' Learning Trust",
+    "location": "Sutton",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£13,395.00 Annually (Actual) £33,129 (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-08-07",
+    "closing_date": "2026-08-23",
+    "closing_datetime": "2026-08-23T22:00:00+01:00",
+    "summary": "HR Admin Assistant with Girls' Learning Trust in Sutton. ['part time']; £13,395.00 Annually (Actual) £33,129 (FTE).",
+    "description": "Girls' Learning Trust is recruiting for this vacancy in Sutton.\n\nThe advertised position is HR Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13,395.00 Annually (Actual) £33,129 (FTE).\n\nThe stated application deadline is 2026-08-23T22:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-girls-learning-trust?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -190,9 +297,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Bobby Moore Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -218,9 +322,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "St. Thomas More Language College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -246,9 +347,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Myatt Garden Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -274,9 +372,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Carshalton High School for Girls",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -302,14 +397,11 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Harlington School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
-    "job_id": "teaching-vacancies-school-administrator-beecholme-primary-school",
-    "title": "School Administrator",
+    "job_id": "teaching-vacancies-finance-administrator-beecholme-primary-school",
+    "title": "Finance Administrator",
     "company": "Beecholme Primary School",
     "location": "Mitcham",
     "region": "London",
@@ -323,16 +415,13 @@
     "posted_date": "2026-07-31",
     "closing_date": "2026-08-30",
     "closing_datetime": "2026-08-30T23:59:59+01:00",
-    "summary": "School Administrator with Beecholme Primary School in Mitcham. ['part time']; £13,007 (FTE Salary is £29,436).",
-    "description": "Beecholme Primary School is recruiting for this vacancy in Mitcham.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13,007 (FTE Salary is £29,436).\n\nThe stated application deadline is 2026-08-30T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-beecholme-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "summary": "Finance Administrator with Beecholme Primary School in Mitcham. ['part time']; £13,007 (FTE Salary is £29,436).",
+    "description": "Beecholme Primary School is recruiting for this vacancy in Mitcham.\n\nThe advertised position is Finance Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13,007 (FTE Salary is £29,436).\n\nThe stated application deadline is 2026-08-30T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-beecholme-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Beecholme Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -358,9 +447,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Letta Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -386,37 +472,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Cuddington Community Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrative-assistant-welfare-reception-attendance",
-    "title": "Administrative Assistant – Welfare, Reception & Attendance",
-    "company": "Mount Stewart Infant School",
-    "location": "Harrow",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£24,796.00 - £25,185.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-07-06",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T09:00:00+01:00",
-    "summary": "Administrative Assistant – Welfare, Reception & Attendance with Mount Stewart Infant School in Harrow. ['part time']; £24,796.00 - £25,185.00 Annually (FTE).",
-    "description": "Mount Stewart Infant School is recruiting for this vacancy in Harrow.\n\nThe advertised position is Administrative Assistant – Welfare, Reception & Attendance.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £24,796.00 - £25,185.00 Annually (FTE).\n\nThe stated application deadline is 2026-09-01T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-welfare-reception-attendance?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Mount Stewart Infant School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -442,9 +497,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Coombe Girls' School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -458,21 +510,18 @@
     "employment_type": "['full time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£25,121.25 - £27,036.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset)",
+    "salary_text": "£28,939.00 - £31,144.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset)",
     "work_pattern": "",
     "posted_date": "2026-08-06",
     "closing_date": "2026-09-03",
     "closing_datetime": "2026-09-03T23:59:00+01:00",
-    "summary": "EHCP Administrator with Lime Academy Ravensbourne in Romford. ['full time']; £25,121.25 - £27,036.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset).",
-    "description": "Lime Academy Ravensbourne is recruiting for this vacancy in Romford.\n\nThe advertised position is EHCP Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,121.25 - £27,036.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset).\n\nThe stated application deadline is 2026-09-03T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "summary": "EHCP Administrator with Lime Academy Ravensbourne in Romford. ['full time']; £28,939.00 - £31,144.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset).",
+    "description": "Lime Academy Ravensbourne is recruiting for this vacancy in Romford.\n\nThe advertised position is EHCP Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £28,939.00 - £31,144.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset).\n\nThe stated application deadline is 2026-09-03T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
     "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Lime Academy Ravensbourne",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -498,9 +547,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Ranelagh Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -526,9 +572,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Northwood School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -554,9 +597,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Valentines High School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-and-administration-assistant-hackbridge-primary-school",
+    "title": "Receptionist and Administration Assistant",
+    "company": "Hackbridge Primary School",
+    "location": "Wallington",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,720.00 - £29,983.00 Annually (Actual) Plus First Aid allowance",
+    "work_pattern": "",
+    "posted_date": "2026-08-11",
+    "closing_date": "2026-09-08",
+    "closing_datetime": "2026-09-08T12:00:00+01:00",
+    "summary": "Receptionist and Administration Assistant with Hackbridge Primary School in Wallington. ['full time']; £26,720.00 - £29,983.00 Annually (Actual) Plus First Aid allowance.",
+    "description": "Hackbridge Primary School is recruiting for this vacancy in Wallington.\n\nThe advertised position is Receptionist and Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,720.00 - £29,983.00 Annually (Actual) Plus First Aid allowance.\n\nThe stated application deadline is 2026-09-08T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-hackbridge-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -582,9 +647,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Belleville Wix Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -610,9 +672,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Pathways School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -663,7 +722,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "c95dcc3a-aebc-4fba-850a-1e423f93872d",
@@ -738,7 +802,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Data entry",
+      "Filing and document handling",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225403370",
@@ -813,7 +884,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225406496",
@@ -838,7 +913,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225407744",
@@ -1063,31 +1142,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225428223",
-    "title": "Reporting Administrator",
-    "company": "Talent Guardian - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "32000",
-    "salary_text": "£28000 - £32000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Reporting Administrator\n£28,000-£32,000\nWembley (onsite)\nTalent Guardian is recruiting on behalf of a growing food business for a data-savvy Reporting Administrator to own the daily reporting that keeps the board informed and the commercial team on track.\nThis is a great role for a confident, numbers-minded administrator who enjoys turning raw system data into clear, accurate reports, and who takes pride in getting the detail right against a daily deadline.\nThe role\n- Produce accurate daily reports for the board, pulling data from multiple systems into a clear, consistent format\n- Measure forecast against actual orders across major retail customers such as Tesco and Sainsbury's\n- Extract, clean and consolidate data using Excel, Navision and SAP\n- Build and maintain reports and dashboards in Power BI to make the numbers easy to read at a glance\n- Handle ad-hoc reporting and data requests from across the business\n- Provide general administrative support to the wider commercial team\n- Spot and flag discrepancies or trends in the data early\n\nWhat we're looking for\n- Strong administrative experience with a genuine head for data and reporting\n- Advanced Excel skills (pivot tables, lookups, data manipulation)\n- Experience with Power BI for building reports and dashboards\n- Familiarity with Navision and/or SAP (or similar ERP systems)\n- Confident pulling data from multiple sources and turning it into a clear, board-ready report\n- Highly accurate, well-organised, and comfortable working to daily deadlines\n- Experience in food, FMCG or a retail-supply environment is an advantage\n- An understanding of forecast vs actual / order data would be beneficial",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNK9G1JFWJRDEH44Lmk9mHSr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Talent Guardian",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225428646",
     "title": "Sales Administrator",
     "company": "Adecco - Agency - Permanent",
@@ -1135,7 +1189,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225430273",
@@ -1184,7 +1242,11 @@
     "advertiser_name": "Sterling Williams LTD",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -1330,7 +1392,12 @@
     "advertiser_name": "2i Recruit Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Correspondence"
+    ]
   },
   {
     "job_id": "23643_225196977",
@@ -1380,7 +1447,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Filing and document handling"
+    ]
   },
   {
     "job_id": "23643_225444722",
@@ -1455,7 +1527,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225452426",
@@ -1505,7 +1582,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225454170",
@@ -1630,7 +1712,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225464987",
@@ -1680,6 +1767,35 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling"
+    ]
+  },
+  {
+    "job_id": "23643_225467286",
+    "title": "Billing & Data Administrator",
+    "company": "Box Recruitment Group - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year (DOE plus bonus)",
+    "posted_date": "2026-08-13",
+    "description": "£30,000 - £35,000 DOE\nBilling Administrator Location: Stamford Hill Hours: Fully office-based role\nMonday - Thursday: 9:30am - 6:00pm\nFriday: Early finish (in winter months)\n\nAre you good with data and MS Excel? If you answered yes, we want to hear from you!\nBox Recruitment Solutions are exclusively recruiting for a growing telecoms business in Stamford Hill. Reporting directly to the Billing Manager, this is an excellent opportunity for a proactive and detail-oriented administrator with strong data handling and customer service skills to join a busy and supportive finance and operations team.\n\nThe successful candidate will be responsible for carrying out billing administration for both B2 B and B2 C customers across telecoms services including landline, broadband, leased lines and mobile services.\n\nKey Responsibilities\n- Billing & Data Administration\n- Monthly billing administration for B2 B and B2 C customers\n- Dealing with customer billing queries over the phone and resolving\n- Add and organise data within the billing system\n- Monitor and report billing data using internal systems\n- Reconcile and validate discrepancies across platforms including Zoho, Salesstar, My Accounts and Abillity\n- Import, match and verify data from multiple sources\n- Customer Communications\n- Generate and send end-of-contract letters to customers\n- Handle customer and internal queries via email and telephone professionally\n- Produce and dispatch billing and account-related correspondence\n- Systems & Reporting\n- Work with the Abillity billing platform\n- Produce internal reports and compile team data for review\n- Support the transition from manual to system-led billing processes\n- Team Support\n- Work closely within a collaborative team environment\n- Support colleagues with ad hoc administrative and operational tasks\n- Participate in cross-functional communication across the business\n\nPreferred Skills & Experience\n- Confident Excel skills including formulas and pivot tables\n- Previous billing administration or data-driven administration experience (preferred)\n- Strong attention to detail and organisational skills\n- Professional and confident telephone manner\n- Able to commute to Stamford Hill North London on a daily basis\n- Exposure to billing and CRM systems such as Abillity, Zoho, Salesstar or similar billing platforms would be advantageous\n\nBenefits\n- 28 days holiday\n- Private healthcare\n- Discretionary yearly bonus\n- KPI bonus scheme\n- Discounted rewards scheme\n- Early finish on Fridays\n\nINDD",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RYLSU6FPV7KLi6v3r83RuIx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Box Recruitment Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -1780,7 +1896,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "3d2f35d7-304f-43ec-ab7a-50a01ee54e4b",
@@ -1880,7 +2000,13 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Scheduling and bookings",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "23643_225480041",
@@ -1905,32 +2031,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225367275",
-    "title": "Medical Receptionist",
-    "company": "Hamilton Mayday - Agency - Temporary",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "13",
-    "salary_text": "£13 per hour",
-    "posted_date": "2026-08-12",
-    "description": "Lifeline Recruitment Services are currently looking for experienced Medical Receptionists to cover at NHS GP Surgeries in various locations including North, Central and East London.\nYou will be working on the surgery's front desk, providing an excellent reception service for patients using Emis Web.\nThe ideal Medical Receptionist will:\nHave at least 6 months recent experience working in NHS GP surgery as a Medical Receptionist.\nBe able to book/cancel patient appointments, input patient data on the system, general administration duties and dealing with prescriptions.\nBe happy to undergo a DBS check or have a DBS certificate dated within a year\nBe flexible, reliable and professional.\nLifeline Recruitment Services is a specialist NHS approved health care agency, who are the preferred supplier to a variety of GP Practices and Private Clinics all over the UK.\nHere at Lifeline, we pride ourselves on our dedicated service for both candidates and clients. Our friendly staff ensure that you experience a smooth registration process, are committed to finding you the right shifts and can be easily contacted.\nJoin us and start your new locum career today!\nRegistering with Lifeline guarantees you:\nExcellent pay rates\nSuitable locations\nQuick and easy registration\nWeekly email job alerts\nIf you are interested please apply for the role now",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7rrdJp0VKvO7vZgTPv0KFRy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hamilton Mayday",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225480304",
@@ -1954,6 +2059,31 @@
     "advertiser_name": "SEE Services",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1660445",
+    "title": "EA to the Archbishops' Secretary for Appointments",
+    "company": "Church of England - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-13",
+    "description": "The Archbishops' Advisers for Appointments and Vocations (AAAV) team is a key team within the Office of the Archbishops of Canterbury and York, supporting and advising the Archbishops and the wider Church on the nomination process for senior clergy. The team supportsthework of the Crown Nominations Commission (CNC) on the nomination of Archbishops and Diocesan Bishops, those involved in nominating Suffragan Bishops and the selection panels who nominate new cathedral Deans, as well as any other appointments involving the Archbishops.\n\nThe team supports senior clergy in their vocation and discernment, working to develop and equip a diverse pipeline of candidates for senior ministry roles. The team also works in partnership with others to ensure that senior clergy are equipped for leadership in the Church and the vital role it plays in the life of the nation. This role provides an excellent opportunity of working in a small, friendly, committed, professional and busy team supporting a complex, detailed and fast-paced portfolio of senior appointments, vocational discernment and associated projects. We work as a close-knit team in beautiful surroundings, part of the Lambeth Palace community and Office of the Archbishops of Canterbury and York, supporting each other with care, flexibility and good humour.\n\nThe post-holder will be required to work from Lambeth Palace (on-site) 4 days per week.\n\nThis role closes for applications on 26 August 2026.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QRl%2bDXLsmmWMPmgP0tsW2ox",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Church of England",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -2158,31 +2288,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107809800",
-    "title": "Planner",
-    "company": "FM Conway - Company - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-12",
-    "description": "FM Conway are looking for an experienced Planner to join our team, supporting the delivery of the Croydon Flyover and Lewisham High Street projects, alongside any further projects allocated to the team. Working closely with Project Managers, site teams, commercial teams and client planners, you'll play a key role in developing, managing and maintaining accurate project programmes that support succ click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0KinjOY3NbdR78DM1h1HuEns",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "FM Conway",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225474190",
     "title": "HR and People Coordinator",
     "company": "Cavendish Professionals - Agency - Permanent",
@@ -2230,7 +2335,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Filing and document handling"
+    ]
   },
   {
     "job_id": "107786275",
@@ -2280,7 +2389,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Shared inboxes",
+      "Scheduling and bookings",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225428094",
@@ -2305,7 +2420,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "365a170b-e62e-49f9-b465-6fa223da75bd",
@@ -2330,7 +2449,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225424406",
@@ -2380,7 +2503,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225406162",
@@ -2405,7 +2532,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "6e0e1ceb-64e6-4082-b2ae-1be73f02bf86",
@@ -2529,7 +2660,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
@@ -2578,7 +2714,14 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Email handling",
+      "Scheduling and bookings",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -2602,7 +2745,13 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225428764",
@@ -2624,31 +2773,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Anchor Fire Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225453887",
-    "title": "Service Coordinator - Friendly Team Environment",
-    "company": "Office Angels - Agency - Permanent",
-    "location": "Loughton",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "32000",
-    "salary_text": "£28000 - £32000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Service Coordinator\n\n28,000 - 32,000\n\nLoughton, Essex\n\nMonday - Friday, 9am - 5pm / 8am - 4pm\n\nBenefits include 20 days annual leave + Bank Holidays (increasing with service), pension scheme, on site gym, employee of the month prizes and on site parking\n\nJoin a successful and reputable company in Loughton, known for its friendly and supportive team environment. We are looking for a dedicated Service Coordinator to become a key player in our client's dynamic team on a permanent basis. The perfect candidate will have experience in a similar role within the facilities or construction industry, bringing a proactive and organised approach to the team.\n\nResponsibilities:\n- Coordinate and dispatch reactive and proactive works to engineers and contractors across various locations, ensuring SLAs are met.\n- Assist in product purchasing and order fulfilment activities, including taking orders and determining appropriate shipping methods.\n- Monitor product order shipments to ensure on-time delivery and liaise with customers regarding ETAs and related issues.\n- Provide quotations and proposals in response to customer requests.\n- Produce RAMs and maintain a database of customer sales and invoicing records.\n- Contact customers regarding contract/visit cancellations to determine cause and possible corrective measures.\n- Manage the fulfilment cycle from enquiry through to job completion.\n- Handle incoming phone calls related to clients, engineers, sales, and customers, managing and resolving customer enquiries and complaints.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazxEd7OJc7rajp%2fUuEo1XvFb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -2701,7 +2825,11 @@
     "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225434211",
@@ -2776,7 +2904,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225434826",
@@ -2801,7 +2933,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "d2495526-4867-4327-8cf4-c09c0908fbc3",
@@ -3076,6 +3212,81 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1658488",
+    "title": "Finance Assistant",
+    "company": "TPP Recruitment - Agency - Permanent",
+    "location": "City Of Westminster",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£17.58 per hour",
+    "posted_date": "2026-08-13",
+    "description": "Job role: Finance Assistant\nLocation:Central London\nPay Rate: £17.58 per hour plus holiday pay\nHours: 35 hours per week\nContract: Temporary Ongoing\nWorking pattern: 2 days onsite initially, reducing to 1 day a week\n\nWe are recruiting two Finance Assistants to join a national charity during a period of increased workload and to support the clearance of an existing backlog.\n\nThese are hands-on finance roles offering broad exposure across transactional finance. One position will have a stronger focus on Accounts Payable, while the other will focus more on Accounts Receivable. Both roles require individuals who are organised, proactive and confident managing processes from start to finish.\n\nWhat you will be doing:\n- Processing purchase invoices and maintaining purchase ledgers\n- Raising sales invoices and supporting credit control activities\n- Carrying out bank reconciliations and ledger allocations\n- Managing shared finance inboxes and responding to queries\n- Chasing outstanding information from internal and external stakeholders\n- Scanning, filing and maintaining finance records\n- Handling finance post and document distribution\n- Supporting month-end processes and reconciliations\n- Assisting with general finance administration and enquiry resolution\n- Ensuring financial records remain accurate, up to date and well organised\n\nWhat we are looking for:\n- Previous experience in a Finance Assistant, Accounts Assistantwithin the charity sector or similar\n- Strong bookkeeping and purchase ledger experience\n- Experience processing invoices from receipt through to payment\n- Confidence managing accounts receivable activities and credit control\n- Experience completing bank reconciliations\n- Excellent organisational skills and attention to detail\n- Strong verbal and written communication skills\n- A proactive approach to resolving queries and obtaining information\n- Ability to work independently and manage competing priorities\n\nWe want you to have every opportunity to demonstrate your skills, ability and potential; please contact us if you require any assistance or adjustment so that we can help with making the application process work for you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgWRkVX9RqclqEXBn3yNVL8i",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "TPP Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1656262",
+    "title": "Cat Intake & Foster Coordinator and Cattery Carer (1 x Permanent and 1 x 6 months FTC with a possibility of becoming permenant)",
+    "company": "Mayhew - Agency - Permanent",
+    "location": "Brent",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-13",
+    "description": "Contract length:1 x 6-month Fixed Term Contract with a possibility of becoming permanent\n\n1x Full-Time Permanent\n\nLocation: North West London\n\nHours per week: 35 (Sunday - Thursday or Tuesday - Saturday, 9am - 5pm)\n\nSalary: £28,773.00 pa\n\nClosing date for applications: Rolling, candidates are advised to apply early\n\nFirst interview date: First interviews are held over Microsoft Teams\n\nSecond interview date: Candidates successful at the first interview will be offered a trial shift at the Home as part of the selection process\n\nEvery dog and cat in need deserves expert, personalised care and support, and to be loved. When you work for Mayhew, you understand that better than ever.\n\nWe're a passionate, committed and diverse team of c 60 staff and c 220 volunteers, here for dogs, cats and communities in the UK and Georgia. We offer expert veterinary care, rescue and rehoming services, programmes in the community and guidance and support to improve the lives of dogs and cats in need.\n\nWe do our best for dogs and cats in need every day, working with colleague across the sector to improve their lives and to give them the care, support and love they deserve. But it's our warmth, creativity and care that touch lives. Here, we take the time to really get to know the dogs and cats we care for and those who love them.\n\nWe are recruiting a Cat Foster & Intake Coordinator and Cattery Carer who shares our compassion and commitment to animal welfare. This is a fixed-term position working alongside our permanent full-time Cat Foster & Intake Coordinator, with the goal of increasing our capacity to help and rehome more cats.\n\nWorking with staff and volunteers across the Home, you will have a hand in helping all the cats in our care, from feeding, cleaning, behaviourally assessing and socialising to rehoming. You will be responsible for organising the intake of our cats coming into our shelter and organising cats in our care going into temporary foster homes. This can be physically and emotionally demanding but is also hugely rewarding; you can view some of our amazing rescue stories here.\n\nWe offer a caring and supportive team, lots of variety and the opportunity to make a lasting difference to the lives of cats who rely on us.\n\nMayhew offers a variety of employee benefits, from enhanced annual leave from day one to Health Cash Plans.\n\nGenerally, you will:\n- Organise the cat intake list, providing owners with advice and where appropriate and admitting cats into the Cattery.\n- Organise the cat foster programme, matching suitable cats with cat foster volunteers and advise on cat behaviour.\n- Assist the Cat Adoption Officer with rehoming the cats under our care\n- Work flexibly in a team environment, often independently, to meet the specific needs of the cats in our care by helping with their feeding, cleaning, enrichment and grooming\n- Assist in the provision of treatment to cats as advised by our veterinary staff.\n\nTo be successful in this role, you need:\n- A strong understanding of cat behaviour and welfare\n- Excellent customer service skills\n- Experience in handling cats and caring for them\n- A calm, compassionate, resilient and friendly manner",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxoC1rEhiy3XaDePkEP68bap",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Mayhew",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1660452",
+    "title": "CEO Office Coordinator",
+    "company": "Marie Curie - Agency - Permanent",
+    "location": "Lambeth",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-13",
+    "description": "Marie Curie is the UK's leading end-of-life charity. We are the largest non-NHS provider of end-of-life care in the UK, the only provider across all 4 nations, delivering community nursing and hospice care across the country, while providing information and support on all aspects of dying, death, and bereavement. Our leading research pushes the boundaries of what we know about good end-of-life, and our campaigns fight for a world where everyone gets to have the best possible quality of life while living with an illness, they're likely to die from.\n\nWe are looking for a highly organised executive support professional who can manage complex administration, coordinate senior stakeholders, handle confidential information and ensure the smooth running of the CEO Office.\n\nThe CEO Office sits at the heart of Marie Curie, supporting the Chief Executive Officer, Chief Operating Officer and Chairman. Working closely with senior leaders, trustees and key stakeholders, the team plays a vital role in ensuring the smooth running of the organisation's leadership activity and helping the Executive team focus on delivering Marie Curie's strategic priorities.\n\nAs CEO Office Coordinator (Project Coordinator), you'll be a trusted partner within the CEO Office, helping to keep our Executive team organised, connected and operating effectively. From managing complex schedules and coordinating high-profile meetings to supporting leadership programmes and handling sensitive information with discretion, your work will have a direct impact on the efficiency and effectiveness of the organisation's most senior leaders.\n\nYour Impact:\n- Provide high-quality administrative and executive support to the Head of CEO Office, CEO, COO and Chairman.\n- Manage complex diaries, meeting schedules and executive priorities, proactively resolving conflicts and coordinating commitments.\n- Organise meetings, events, travel and accommodation arrangements for senior leaders and leadership teams.\n- Prepare and coordinate correspondence, reports, presentations, agendas, minutes and other business documents.\n- Build strong relationships with internal and external stakeholders, acting as a professional and confidential point of contact.\n- Support Executive Leadership Team and Board activities, including logistics and meeting coordination.\n- Maintain effective filing and information management systems, ensuring records are accurate, organised and accessible.\n- Work collaboratively with colleagues across the organisation to support leadership initiatives, engagement activities and cross-functional meetings.\n\nKey Requirements:\n- Previous experience in an administrative, Executive Assistant, Personal Assistant or similar coordination role within a busy, complex and highly regulated environment.\n- Proven experience managing diaries, meetings and priorities for senior stakeholders.\n- Strong organisational skills with the ability to manage multiple tasks, competing deadlines and changing priorities.\n- Excellent communication and interpersonal skills, with the confidence to engage professionally with stakeholders at all levels, including senior leadership.\n- Demonstrated ability to handle confidential and sensitive information with discretion and sound judgement.\n- Strong problem-solving skills and a proactive approach to identifying and resolving issues.\n- A collaborative, customer-focused approach and a commitment to providing outstanding support.\n- Proficiency in Microsoft Office applications, including Outlook, Word, Excel, PowerPoint and Teams.\n\nPlease see the full job description (attached).\n\nApplication & Interview Process\n- As part of your online application, you will be asked for a CV and supplementary details. Please review both the advert and job description and outline your most relevant skills, experience and knowledge for the role.\n- Close date for applications: 23 August 2026. We encourage early applications as we may close the job advert sooner after receiving a sufficient number of applications.\n\nSalary: £29,000 (+ £3,500 London Weighting Allowance if applicable)\n\nContract: Permanent, full-time (35h per week)\n\nLocation: Hybrid. You will work from home and from our Embassy Gardens office in London (3 days a week)\n\nBenefits you'll LOVE:\n- Flexible working. We're happy to discuss flexible working at the interview stage.\n- 25 days annual leave (exclusive of Bank Holidays)\n- Marie Curie Group Personal Pension Scheme (we will match your contribution up to 7.5%)\n- Loan schemes for bikes; computers and season tickets\n- Continuous professional development opportunities.\n- Industry-leading training programmes\n- Wellbeing and Employee Assistance Programmes\n- Enhanced bereavement, family friendly and sickness benefits\n- Access to Blue Light Card membership\n- Subsidised Eye Care\n- 15% discount in-store at our Marie Curie Shops (Terms & Conditions apply)\n\nAt Marie Curie, our values are central to everything we do. They guide how we care for people, how we work together, and how we make decisions every day. We are committed to creating a workplace that is safe for everyone - staff and volunteers alike - supportive, inclusive and rewarding. We take stringent steps to ensure that anyone who joins our organisation are suitable for their roles and are committed to safeguarding all our people from harm. We actively consider our impact on the planet, embedding sustainability into everyday decisions to create a lasting, positive difference for the individuals we care for and the world we share.\n\nWe believe everyone should have the opportunity to thrive and fulfil their potential. Marie Curie is deeply committed to diversity, equity and inclusion, recognising both the social justice imperative and the strength a diverse workforce brings. We actively encourage applications from people of all cultures, perspectives and lived experiences.\n\nWe are happy to make reasonable adjustments throughout the recruitment process.\n\nEvery application we receive is personally reviewed by a member of our Talent Acquisition team, and in return, we ask that your application authentically reflects you - your experience, perspective and voice.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYQkUqZ59Lg8XIQYLVH24DMk",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Salary: £29,000 (+ £3,500 London Weighting Allowance if applicable) Contract: Permanent, full-time (35h per week) Location: Hybrid.",
+    "advertiser_name": "Marie Curie",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   }
 ]

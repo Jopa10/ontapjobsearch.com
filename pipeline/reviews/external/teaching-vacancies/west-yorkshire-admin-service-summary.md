@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 25
-- Selected: 15
-- POSS awaiting decision: 1
+- Selected: 16
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
 
@@ -124,6 +124,21 @@ factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2e
 source: Teaching Vacancies
 source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
+employer: De Lacy Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
+source: Teaching Vacancies
+source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 ---
 
 ---
@@ -248,20 +263,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
-employer: De Lacy Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
-source: Teaching Vacancies
-source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

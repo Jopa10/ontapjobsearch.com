@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "White Woods Primary Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Chapeltown Academy",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-attendance-officer-trinity-academy",
+    "title": "Attendance Officer",
+    "company": "Trinity Academy",
+    "location": "Doncaster",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,230.00 Annually (Actual) Scale point 11, Actual Annual Salary £25,230.38 (0.87% FTE, Full Time Equivalent)",
+    "work_pattern": "",
+    "posted_date": "2026-08-10",
+    "closing_date": "2026-08-24",
+    "closing_datetime": "2026-08-24T09:00:00+01:00",
+    "summary": "Attendance Officer with Trinity Academy in Doncaster. ['full time']; £25,230.00 Annually (Actual) Scale point 11, Actual Annual Salary £25,230.38 (0.87% FTE, Full Time Equivalent).",
+    "description": "Trinity Academy is recruiting for this vacancy in Doncaster.\n\nThe advertised position is Attendance Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,230.00 Annually (Actual) Scale point 11, Actual Annual Salary £25,230.38 (0.87% FTE, Full Time Equivalent).\n\nThe stated application deadline is 2026-08-24T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-trinity-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Springwell Special Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +122,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Westfield School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-admin-clerical-officer-level-2-rowan-school",
+    "title": "Admin & Clerical Officer Level 2 Rowan School",
+    "company": "The Rowan School",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Grade 4 (£26403 - £28598 pro rata)",
+    "work_pattern": "",
+    "posted_date": "2026-07-24",
+    "closing_date": "2026-09-01",
+    "closing_datetime": "2026-09-01T12:00:00+01:00",
+    "summary": "Admin & Clerical Officer Level 2 Rowan School with The Rowan School in Sheffield. ['full time']; Grade 4 (£26403 - £28598 pro rata).",
+    "description": "The Rowan School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Admin & Clerical Officer Level 2 Rowan School.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Grade 4 (£26403 - £28598 pro rata).\n\nThe stated application deadline is 2026-09-01T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +172,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Treeton Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +197,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "King Edward VII School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -190,9 +222,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Aston Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -366,7 +395,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225423861",

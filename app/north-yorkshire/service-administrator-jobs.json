@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Harrogate, Grove Road Community Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Archbishop Holgate's School, A Church of England Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Braeburn Primary and Nursery Academy",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire",
+    "title": "Senior Administrator",
+    "company": "Braeburn Primary and Nursery Academy",
+    "location": "Scarborough",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked",
+    "work_pattern": "",
+    "posted_date": "2026-08-11",
+    "closing_date": "2026-09-11",
+    "closing_datetime": "2026-09-11T23:59:00+01:00",
+    "summary": "Senior Administrator with Braeburn Primary and Nursery Academy in Scarborough. ['full time']; £27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked.",
+    "description": "Braeburn Primary and Nursery Academy is recruiting for this vacancy in Scarborough.\n\nThe advertised position is Senior Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked.\n\nThe stated application deadline is 2026-09-11T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Askwith Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -237,6 +250,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107743190",
+    "title": "Accounts Administrator",
+    "company": "Invigorate Recruitment - Agency - Permanent",
+    "location": "York",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-13",
+    "description": "Accounts Administrator\n\n£28,000\n\nYork (YO26)\n\nLooking to buildyour career infinance with asupportive employer?\n\nWe're working witha well-establishedandsuccessful business onthe outskirts ofYork to recruitaAccounts Administrator. This is anexcellent opportunity tojoin a friendlyfinance team whereyou'll gain exposureto a variedrole and havethe chance todevelop your skillswithin a stableand growing organisa click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAxQCIoZy0F8Y%2bL5EDpQQ%2b0pv",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Invigorate Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "f88af6c0-26e6-4934-a4f2-b3be470d8edf",
     "title": "Conveyancing Administrator/Assistant",
     "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
@@ -259,7 +297,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225409226",
@@ -334,7 +376,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "9b15b052-ee03-4bba-8d2e-fafc74d60cc4",
@@ -359,7 +405,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225439444",
@@ -384,7 +435,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "107669843",

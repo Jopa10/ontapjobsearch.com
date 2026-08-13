@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 9
-- POSS awaiting decision: 5
+- Selected: 13
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -67,6 +67,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
+action: select
+SELECTED | Devon | Newton Abbot, South West, TQ12 6JB | £25,185.00 FTE | Administrative Assistant
+employer: Blackpool Church of England Primary School
+closing_date: 2026-08-13T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e6eaafcdd056e67e2e188d64fd737b70d22c0cdecd2482cb731bdd806d3e724
+source: Teaching Vacancies
+source_job_id: administrative-assistant-blackpool-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-blackpool-church-of-england-primary-school
+---
+
+---
+action: select
+SELECTED | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
+employer: The King's School
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
+---
+
+---
 action: 
 SELECTED | Devon | Torquay, South West, TQ1 4RN | £22,889.00 - £24,396.00 Annually (Actual) | Finance & Data Protection Administrator
 employer: St Cuthbert Mayne School
@@ -109,6 +139,21 @@ factual_fingerprint: 4d45811540900ef7dfe9b2b0e5872f32b6fa24723fe6d84c8ffe434b393
 source: Teaching Vacancies
 source_job_id: people-administrator-dartmoor-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust
+---
+
+---
+action: select
+SELECTED | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
+employer: St Marychurch Church of England Primary and Nursery School
+closing_date: 2026-09-03T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
+source: Teaching Vacancies
+source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
 ---
 
 ---
@@ -156,56 +201,9 @@ source_job_id: school-administrator-receptionist-mayfield-chestnut
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-mayfield-chestnut
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Devon | Newton Abbot, South West, TQ12 6JB | £25,185.00 FTE | Administrative Assistant
-employer: Blackpool Church of England Primary School
-closing_date: 2026-08-13T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2e6eaafcdd056e67e2e188d64fd737b70d22c0cdecd2482cb731bdd806d3e724
-source: Teaching Vacancies
-source_job_id: administrative-assistant-blackpool-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-blackpool-church-of-england-primary-school
----
-
----
-action: 
-POSS | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
-employer: The King's School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
----
-
----
-action: 
-POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
-employer: St Marychurch Church of England Primary and Nursery School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
-source: Teaching Vacancies
-source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
----
-
----
-action: 
-POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
+action: select
+SELECTED | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Administrative duties evidenced in description
@@ -217,6 +215,8 @@ source: Teaching Vacancies
 source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

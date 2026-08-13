@@ -1,0 +1,28 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:46+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Berkshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "dc5837d7127e1a32261232b7d6062218f06c783d04afd7869c2a03dc218cbb3f",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "30b7e7a656436fa26749b3d1b1ef2b895f27d2267bca588e85c6024fb5179b23",
+  "summary_md_sha256": "ff8f4620e94abe0b5968d7a71d4473987e3e3b29e0a9de6f4b0fb22715d4ffce",
+  "approved_snapshot_sha256": "d4a0815c6aba96eb4a9385ababffd652275dc9fe253e86780da4912d86a20b5c",
+  "approved_rows": 11,
+  "approved_job_ids": [
+    "teaching-vacancies-hr-level-3-apprenticeship",
+    "teaching-vacancies-office-assistant-churchend-primary-academy-reading-berkshire",
+    "teaching-vacancies-school-secretary-polehampton-church-of-england-junior-school-reading-berkshire",
+    "teaching-vacancies-tkat-hr-assistant",
+    "teaching-vacancies-general-administrator-waingels",
+    "teaching-vacancies-general-administrator-with-silent-study-supervisor",
+    "teaching-vacancies-sixth-form-administrator-the-windsor-boys-school",
+    "teaching-vacancies-welfare-assistant-administrator",
+    "teaching-vacancies-cover-administrator-oak-tree-school-wokingham-berkshire",
+    "teaching-vacancies-inclusion-administrator-maiden-erlegh-school-reading-berkshire",
+    "teaching-vacancies-welfare-assistant-administrator-james-elliman-academy"
+  ]
+}

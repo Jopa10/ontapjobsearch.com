@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 4
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
 
@@ -81,11 +81,9 @@ source_job_id: lead-administrator-limebrook-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Essex | Canvey Island, East of England, SS8 9QS | £26,847.00 - £27,274.00 Annually (FTE) Term-time plus 5 additional days (£23016 to £23382 actual) | Receptionist
+action: select
+SELECTED | Essex | Canvey Island, East of England, SS8 9QS | £26,847.00 - £27,274.00 Annually (FTE) Term-time plus 5 additional days (£23016 to £23382 actual) | Receptionist
 employer: The Cornelius Vermuyden School
 closing_date: 2026-08-16T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -97,6 +95,10 @@ source: Teaching Vacancies
 source_job_id: receptionist-the-cornelius-vermuyden-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-cornelius-vermuyden-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

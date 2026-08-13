@@ -1,0 +1,30 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:47+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Devon",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "3edc236202b8fe496bb9ec6e6654fe738ce693724a1ecdcf05bf4741bdc8ecf3",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "1962ec723d8a4a9f456a71cafd9d42caad7837638ab181c2a4d7514237077958",
+  "summary_md_sha256": "d38ab7b75782c34d625b0c2c732e690745bec27d376341d65b49a62c183393e9",
+  "approved_snapshot_sha256": "498f402bc7264845000267f1b85a7e43f2fb74f5a172d29b5578ccbed42cb21c",
+  "approved_rows": 13,
+  "approved_job_ids": [
+    "teaching-vacancies-administrative-assistant-blackpool-church-of-england-primary-school",
+    "teaching-vacancies-hub-administrator-cornerstone-academy-trust",
+    "teaching-vacancies-administrative-assistant-st-joseph-s-catholic-primary-school",
+    "teaching-vacancies-people-administrator-dartmoor-multi-academy-trust",
+    "teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy",
+    "teaching-vacancies-school-administrator-receptionist-mayfield-chestnut",
+    "teaching-vacancies-receptionist-administrator-first-aid-plymstock-school",
+    "teaching-vacancies-finance-data-protection-administrator",
+    "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college",
+    "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon",
+    "teaching-vacancies-pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school",
+    "teaching-vacancies-administrative-assistant-the-king-s-school-ottery-st-mary-devon",
+    "teaching-vacancies-senior-pupil-services-officer-st-leonard-s-cofe-primary-school"
+  ]
+}

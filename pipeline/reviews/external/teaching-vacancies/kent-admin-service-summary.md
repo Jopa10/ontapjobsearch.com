@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
@@ -51,11 +51,9 @@ source_job_id: pupil-records-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-administrator
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
+action: select
+SELECTED | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
 employer: Nore Academy
 closing_date: 2026-09-04T12:00:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -67,6 +65,10 @@ source: Teaching Vacancies
 source_job_id: receptionist-nore-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

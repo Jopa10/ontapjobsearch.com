@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 13
 
@@ -67,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 ---
 
 ---
+action: select
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
+employer: Faringdon Community College
+closing_date: 2026-08-28T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1112f08ada89de3e9857115888156174abb216efedb056c660f0368be2cd12bb
+source: Teaching Vacancies
+source_job_id: receptionist-faringdon-community-college-faringdon-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdon-community-college-faringdon-oxfordshire
+---
+
+---
 action: 
 SELECTED | Oxfordshire | Kidlington, South East, OX5 2NT | £23,620.60 - £25,593.97 Annually (Actual) Grade 6 term time + 2 weeks £23620.20 - 25593.97 (FTE £26824 - £29065) | Receptionist - part time considered
 employer: Gosford Hill School
@@ -113,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-recepti
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
-employer: Faringdon Community College
-closing_date: 2026-08-28T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1112f08ada89de3e9857115888156174abb216efedb056c660f0368be2cd12bb
-source: Teaching Vacancies
-source_job_id: receptionist-faringdon-community-college-faringdon-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdon-community-college-faringdon-oxfordshire
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

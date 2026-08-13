@@ -1,0 +1,22 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:47+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Dorset",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "a97cf87cf358c1e2ca10b906ec18331aa262c1ae5158da7cd8c50d65012c0f60",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "44c90865a2cfd9ee831547ec7e7a0deeb52d65f9b22dc6bcea0819660f092da1",
+  "summary_md_sha256": "d054bd1e15d53ffd17c93c0106efb873679eb972cd17347e24e38f64b3d580a5",
+  "approved_snapshot_sha256": "bcd9b6d0e3fda372cd62c6edb8ba82fe3eb0a5985a273e8049faa2dc44f2fabe",
+  "approved_rows": 5,
+  "approved_job_ids": [
+    "teaching-vacancies-pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2",
+    "teaching-vacancies-260720b-administrator",
+    "teaching-vacancies-finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset",
+    "teaching-vacancies-business-and-administration-apprentice",
+    "teaching-vacancies-school-administrator-shaftesbury-school"
+  ]
+}

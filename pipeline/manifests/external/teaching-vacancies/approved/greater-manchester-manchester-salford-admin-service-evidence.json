@@ -1,0 +1,18 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:47+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Greater Manchester - Manchester & Salford",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "16c663554a8b5e0a8fa4f19d6c66380496088724260d462fc2e54100f72f9edf",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "0c902929a49bb352568358b3b4625936ea525fdca49c348ecac5e0a608c02833",
+  "summary_md_sha256": "614ae34787fc95cf606200abbe74d33e88c74fe5ef9c51f053dfa1521f409d74",
+  "approved_snapshot_sha256": "018eebc59080024f9baf4d9e00c18aed80fc2fa1dbb8d884ae4b88b0f9d1a3f6",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-marketing-and-communications-officer-whalley-range-11-18-high-school"
+  ]
+}

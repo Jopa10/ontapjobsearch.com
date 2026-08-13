@@ -14,12 +14,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 2
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: select
+SELECTED | Northamptonshire | Northampton, East Midlands, NN6 8PT | £26,846.00 Annually (FTE) £ 8217.92 actual salary | Administrator
+employer: Guilsborough Church of England Primary School
+closing_date: 2026-08-24T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eda4a9a4cbf4d70eed8f84ede52861ba447d70f7514790924e009f1f647df4c9
+source: Teaching Vacancies
+source_job_id: administrator-guilsborough-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsborough-church-of-england-primary-school
+---
+
+---
+action: select
+SELECTED | Northamptonshire | Wellingborough, East Midlands, NN9 6PA | £26,016.00 - £26,427.00 Annually (FTE) | Assessment and Data Admin Officer
+employer: Manor School
+closing_date: 2026-08-21T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38f12a801fc0be1855191627b502843a87c0e8e0a77457e91a4ae0d96c3c9887
+source: Teaching Vacancies
+source_job_id: assessment-and-data-admin-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/assessment-and-data-admin-officer
+---
 
 ---
 action: 
@@ -53,35 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Northamptonshire | Northampton, East Midlands, NN6 8PT | £26,846.00 Annually (FTE) £ 8217.92 actual salary | Administrator
-employer: Guilsborough Church of England Primary School
-closing_date: 2026-08-24T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eda4a9a4cbf4d70eed8f84ede52861ba447d70f7514790924e009f1f647df4c9
-source: Teaching Vacancies
-source_job_id: administrator-guilsborough-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsborough-church-of-england-primary-school
----
-
----
-action: 
-POSS | Northamptonshire | Wellingborough, East Midlands, NN9 6PA | £26,016.00 - £26,427.00 Annually (FTE) | Assessment and Data Admin Officer
-employer: Manor School
-closing_date: 2026-08-21T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38f12a801fc0be1855191627b502843a87c0e8e0a77457e91a4ae0d96c3c9887
-source: Teaching Vacancies
-source_job_id: assessment-and-data-admin-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/assessment-and-data-admin-officer
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

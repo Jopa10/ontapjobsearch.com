@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 12
-- POSS awaiting decision: 2
+- Selected: 13
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -112,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-qu
 ---
 
 ---
+action: select
+SELECTED | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
+employer: Burrowmoor Primary Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
+source: Teaching Vacancies
+source_job_id: clerk-to-the-local-governing-boards
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
+---
+
+---
 action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 8UA | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
 employer: Cottenham Village College
@@ -202,21 +217,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
-employer: Burrowmoor Primary Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
-source: Teaching Vacancies
-source_job_id: clerk-to-the-local-governing-boards
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
----
 
 ---
 action: 

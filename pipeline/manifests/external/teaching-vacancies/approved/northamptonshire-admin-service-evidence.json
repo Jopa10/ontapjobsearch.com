@@ -1,0 +1,21 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:48+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Northamptonshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "aa2e6ce42fb2200ff9b1876a2bd4da4c9897d7da7ec5c5fdb0eb188bba3b64eb",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "8161b8c2631c687be639d0d942862c0a67da1bb8e817cb168c9e0e490e322052",
+  "summary_md_sha256": "0f625a7d9197ccabbbbe8c335bfbef89b2b4e512eef6a9ad8ef3c0fa01900027",
+  "approved_snapshot_sha256": "d8155bd44faaf8aad2a37099cc710108401cc9b3a0b1267dd3cdebe2a6507a2b",
+  "approved_rows": 4,
+  "approved_job_ids": [
+    "teaching-vacancies-assessment-and-data-admin-officer",
+    "teaching-vacancies-administrator-guilsborough-church-of-england-primary-school",
+    "teaching-vacancies-receptionist-olympic-primary-wellingborough",
+    "teaching-vacancies-attendance-officer-studfall-infant-academy"
+  ]
+}

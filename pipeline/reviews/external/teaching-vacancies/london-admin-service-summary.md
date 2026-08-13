@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 57
-- Selected: 18
-- POSS awaiting decision: 11
-- Excluded: 0
+- Selected: 27
+- POSS awaiting decision: 1
+- Excluded: 1
 - Hard pass: 28
 
 ## SELECTED
+
+---
+action: select
+SELECTED | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
+employer: Chaffinch Brook School
+closing_date: 2026-08-14T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
+source: Teaching Vacancies
+source_job_id: admin-assistant-chaffinch-brook-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
+---
 
 ---
 action: 
@@ -37,6 +52,51 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 ---
 
 ---
+action: select
+SELECTED | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
+employer: Pathways School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
+source: Teaching Vacancies
+source_job_id: administrative-assistant-pathways-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+---
+
+---
+action: select
+SELECTED | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
+employer: Ranelagh Primary School
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
+source: Teaching Vacancies
+source_job_id: administrative-assistant-ranelagh-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
+---
+
+---
+action: select
+SELECTED | London | Beckenham, London, BR3 3AL | £8,807.09 Annually (Actual) Bromley Localised Pay Scale Grade BR5 | Administrative Assistant
+employer: Unicorn Primary School
+closing_date: 2026-08-16T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6716517c3ee3e27686fe23fbdf3451e46b65b5516a8a381cb71e48558e91f05a
+source: Teaching Vacancies
+source_job_id: administrative-assistant-unicorn-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-unicorn-primary-school
+---
+
+---
 action: 
 SELECTED | London | London, London, E15 4LP | £30,770.00 - £31,693.00 Annually (Actual) | Administrator and Cover Coordinator
 employer: Sarah Bonnell School
@@ -49,6 +109,21 @@ factual_fingerprint: c31a10b13a418b336bc27b0f610c8db9d9b1dfa0384fc02826c6160ced3
 source: Teaching Vacancies
 source_job_id: administrator-and-cover-coordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-cover-coordinator
+---
+
+---
+action: select
+SELECTED | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
+employer: Northwood School
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89ac119
+source: Teaching Vacancies
+source_job_id: attendance-and-pastoral-support-worker-northwood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
 ---
 
 ---
@@ -142,18 +217,63 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-li
 ---
 
 ---
-action: 
-SELECTED | London | Wembley, London, HA0 4JE | £38,689.00 - £41,134.00 Annually (Actual) | Exams Officer
-employer: Alperton Community School
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: exams officer
+action: select
+SELECTED | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
+employer: Beecholme Primary School
+closing_date: 2026-08-30T23:59:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6a0603ac9d36f3f4025fcbef57d39258a7ac3358fd536e145d7e0ae8e43991c7
+source: Teaching Vacancies
+source_job_id: finance-administrator-beecholme-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-beecholme-primary-school
+---
+
+---
+action: select
+SELECTED | London | New Malden, KT3 6NU | £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings. | Governance and Compliance Officer
+employer: Coombe Academy Trust
+closing_date: 2026-08-18T23:59:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fc4edc51b8a535d7190c051abe113178b8b35ea451aced09e31614c0dda80f4a
+factual_fingerprint: 04d0d4de585d22b425419f42719760e587a37bc1fac65d77c2bee1740225e815
 source: Teaching Vacancies
-source_job_id: exams-officer-alperton-community-school-wembley-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-alperton-community-school-wembley-middlesex
+source_job_id: governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded
+---
+
+---
+action: select
+SELECTED | London | London, London, NW5 1RL | Scale 4,point 7-10 (pro-rata £27,761-£28,980) | HR & Finance Assistant
+employer: Parliament Hill School
+closing_date: 2026-08-16T23:59:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3302b2c01cd1666b96c3ed3de7b157d22ecb5194f639b001b16f56f60694f2d3
+source: Teaching Vacancies
+source_job_id: hr-finance-assistant-parliament-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-finance-assistant-parliament-hill-school
+---
+
+---
+action: select
+SELECTED | London | Sutton, SM3 8AB | £13,395.00 Annually (Actual) £33,129 (FTE) | HR Admin Assistant
+employer: Girls' Learning Trust
+closing_date: 2026-08-23T22:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9aeecc9d451919899b8222c1402015efa5e454b4b4df20f9fba65d4cdfd34133
+source: Teaching Vacancies
+source_job_id: hr-admin-assistant-girls-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-girls-learning-trust
 ---
 
 ---
@@ -262,6 +382,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistan
 ---
 
 ---
+action: select
+SELECTED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+employer: Nishkam School West London
+closing_date: 2026-08-14T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 09640833af90a818bbbe75015b57b98cea1afd9995df5259306d303f1a970fb8
+source: Teaching Vacancies
+source_job_id: school-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
+---
+
+---
 action: 
 SELECTED | London | Worcester Park, South East, KT4 7DD | £13,891.00 - £15,113.00 Annually (FTE) Partnership Grade 5 (£27,782pa - £30,226pa FTE) | SEN Administrative Assistant
 employer: Cuddington Community Primary School
@@ -295,141 +430,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
-POSS | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
-employer: Chaffinch Brook School
-closing_date: 2026-08-14T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 84f7099942dd9631ac8a47db1b22bc453fa63082314202a7d3f4bc6565a12a01
-source: Teaching Vacancies
-source_job_id: admin-assistant-chaffinch-brook-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
----
-
----
-action: 
-POSS | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-employer: Pathways School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
-source: Teaching Vacancies
-source_job_id: administrative-assistant-pathways-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
----
-
----
-action: 
-POSS | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
-employer: Ranelagh Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
-source: Teaching Vacancies
-source_job_id: administrative-assistant-ranelagh-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
----
-
----
-action: 
-POSS | London | Beckenham, London, BR3 3AL | £8,807.09 Annually (Actual) Bromley Localised Pay Scale Grade BR5 | Administrative Assistant
-employer: Unicorn Primary School
-closing_date: 2026-08-16T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6716517c3ee3e27686fe23fbdf3451e46b65b5516a8a381cb71e48558e91f05a
-source: Teaching Vacancies
-source_job_id: administrative-assistant-unicorn-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-unicorn-primary-school
----
-
----
-action: 
-POSS | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
-employer: Northwood School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89ac119
-source: Teaching Vacancies
-source_job_id: attendance-and-pastoral-support-worker-northwood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
----
-
----
-action: 
-POSS | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
-employer: Beecholme Primary School
-closing_date: 2026-08-30T23:59:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a0603ac9d36f3f4025fcbef57d39258a7ac3358fd536e145d7e0ae8e43991c7
-source: Teaching Vacancies
-source_job_id: finance-administrator-beecholme-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-beecholme-primary-school
----
-
----
-action: 
-POSS | London | New Malden, KT3 6NU | £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings. | Governance and Compliance Officer
-employer: Coombe Academy Trust
-closing_date: 2026-08-18T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 04d0d4de585d22b425419f42719760e587a37bc1fac65d77c2bee1740225e815
-source: Teaching Vacancies
-source_job_id: governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded
----
-
----
-action: 
-POSS | London | London, London, NW5 1RL | Scale 4,point 7-10 (pro-rata £27,761-£28,980) | HR & Finance Assistant
-employer: Parliament Hill School
-closing_date: 2026-08-16T23:59:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3302b2c01cd1666b96c3ed3de7b157d22ecb5194f639b001b16f56f60694f2d3
-source: Teaching Vacancies
-source_job_id: hr-finance-assistant-parliament-hill-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-finance-assistant-parliament-hill-school
----
-
----
-action: 
-POSS | London | Sutton, SM3 8AB | £13,395.00 Annually (Actual) £33,129 (FTE) | HR Admin Assistant
-employer: Girls' Learning Trust
-closing_date: 2026-08-23T22:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9aeecc9d451919899b8222c1402015efa5e454b4b4df20f9fba65d4cdfd34133
-source: Teaching Vacancies
-source_job_id: hr-admin-assistant-girls-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-girls-learning-trust
----
-
----
-action: 
 POSS | London | Wallington, London, SM6 7NP | £32,070 - £33,987 | HR Officer
 employer: Sherwood Foundation School
 closing_date: 2026-08-21T12:00:00+01:00
@@ -443,24 +443,22 @@ source_job_id: hr-officer-0b54e05b-33a0-44fc-bb21-148b5f610bb7
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-0b54e05b-33a0-44fc-bb21-148b5f610bb7
 ---
 
----
-action: 
-POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-employer: Nishkam School West London
-closing_date: 2026-08-14T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 09640833af90a818bbbe75015b57b98cea1afd9995df5259306d303f1a970fb8
-source: Teaching Vacancies
-source_job_id: school-administrator-nishkam-school-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
----
-
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | London | Wembley, London, HA0 4JE | £38,689.00 - £41,134.00 Annually (Actual) | Exams Officer
+employer: Alperton Community School
+closing_date: 2026-08-23T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fc4edc51b8a535d7190c051abe113178b8b35ea451aced09e31614c0dda80f4a
+source: Teaching Vacancies
+source_job_id: exams-officer-alperton-community-school-wembley-middlesex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-alperton-community-school-wembley-middlesex
+---
 
 ## HARD_PASS
 

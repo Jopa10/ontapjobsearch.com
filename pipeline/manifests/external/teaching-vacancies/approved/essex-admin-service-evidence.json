@@ -1,0 +1,22 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:47+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Essex",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "e8b95bc57603bc92fdf16bce16c67ee4668c926e1805f29bfed0dac23cddc9a1",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "636fc24571ac2eb53f305d4acc10a5484fb8f51ff251ff8e337b2b15784e15c2",
+  "summary_md_sha256": "b810d830a3f0ac52fb40dd66852ee020624047d7b951ebba83e42979ef82b83f",
+  "approved_snapshot_sha256": "931749bf2c8b00332b005827d0cda9762f042b7e9cc70c1c1df80c5b9c1e2cf3",
+  "approved_rows": 5,
+  "approved_job_ids": [
+    "teaching-vacancies-admin-assistant-reception-cover",
+    "teaching-vacancies-receptionist-the-cornelius-vermuyden-school",
+    "teaching-vacancies-attendance-and-send-administrator-unity-primary-academy",
+    "teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery",
+    "teaching-vacancies-administration-assistant-responsibility-for-attendance"
+  ]
+}

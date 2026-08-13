@@ -1,0 +1,20 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:49+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Wiltshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "635271f36f0e710d24e461d2a2fd2e1d10eadb9c8f2b65ea0ea7774be2dbe69f",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "d6c20b02e7c478cdc1c807bbd06eeaefa74e239959ed502790103aba61b57bf7",
+  "summary_md_sha256": "ccbe830500fadfb5dafb42515700e55930540c585c5bdafa4a9f4b101b1a8158",
+  "approved_snapshot_sha256": "5fa0b941734bf4ad848b57483d5f97c6b6760c62db562ecc4f676f82e92cf24e",
+  "approved_rows": 3,
+  "approved_job_ids": [
+    "teaching-vacancies-progression-administrator-bradon-forest-school",
+    "teaching-vacancies-exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b",
+    "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded"
+  ]
+}

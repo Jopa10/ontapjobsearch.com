@@ -1,0 +1,30 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-13T11:47:46+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Cambridgeshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-13",
+  "review_fingerprint": "175c596b47bfdbec4ff9a3c7bd0cca1d4b15101e71290b422c6880df2f7800aa",
+  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
+  "review_csv_sha256": "81c5cab5bf76986c069971c0756dcd1d22312dabe8df33f74fccfb6d08210c4e",
+  "summary_md_sha256": "f55616f947f837589108e26a4245176e24659af813c013fe25794bb318c16b9d",
+  "approved_snapshot_sha256": "29cd4c07774c99d66e334c45c8b945353d537a6e603fd4478cd2425037e712c2",
+  "approved_rows": 13,
+  "approved_job_ids": [
+    "teaching-vacancies-administration-assistant-st-john-fisher-catholic-high-school-peterborough-cambridgeshire",
+    "teaching-vacancies-attendance-officer-queen-katharine-academy",
+    "teaching-vacancies-pastoral-services-administrator-queen-katharine-academy",
+    "teaching-vacancies-office-administrator-university-of-cambridge-primary-school-cambridge-cambridgeshire",
+    "teaching-vacancies-exams-officer-cottenham-village-college-cambridge-cambridgeshire",
+    "teaching-vacancies-administrative-assistant-dogsthorpe-academy",
+    "teaching-vacancies-administrator-sen-and-careers",
+    "teaching-vacancies-administrative-assistant-nene-park-academy",
+    "teaching-vacancies-clerk-to-the-local-governing-boards",
+    "teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire",
+    "teaching-vacancies-attendance-administrator-d9c8d521-d886-4881-ad29-ebd6ebb9ffa5",
+    "teaching-vacancies-office-administrator-st-peter-s-school",
+    "teaching-vacancies-send-administrator-swavesey-village-college"
+  ]
+}

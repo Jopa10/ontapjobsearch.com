@@ -15,32 +15,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 3
 - Selected: 1
-- POSS awaiting decision: 1
-- Excluded: 0
+- POSS awaiting decision: 0
+- Excluded: 1
 - Hard pass: 1
 
 ## SELECTED
 
 ---
-action: 
-SELECTED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
-employer: Ark Charter Academy
-closing_date: 2026-09-01T01:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
-source: Teaching Vacancies
-source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
----
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
+action: select
+SELECTED | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
 employer: The Portsmouth Academy
 closing_date: 2026-09-01T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -53,9 +36,26 @@ source_job_id: senior-administration-assistant-the-portsmouth-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
 ---
 
-## EXCLUDED BY REVIEW
+## POSS — choose SELECT or EXCLUDE
 
 - None.
+
+## EXCLUDED BY REVIEW
+
+---
+action: exclude
+EXCLUDED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
+employer: Ark Charter Academy
+closing_date: 2026-09-01T01:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
+source: Teaching Vacancies
+source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
+---
 
 ## HARD_PASS
 

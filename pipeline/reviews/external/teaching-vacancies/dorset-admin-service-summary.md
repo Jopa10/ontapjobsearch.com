@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 4
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -34,6 +34,21 @@ factual_fingerprint: f72bf258a0002b822edcfbc421fe30725fec6747668fab2028bee7c89f6
 source: Teaching Vacancies
 source_job_id: 260720b-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/260720b-administrator
+---
+
+---
+action: select
+SELECTED | Dorset | Bournemouth, South West, BH10 4EX | £13,461.00 - £18,054.00 Annually (Actual) Term time only | Business and Administration Apprentice
+employer: Glenmoor Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9bafd0c46b726ea184b41cbdb29ec00a259b1ed3800d08ed0d77ec8d8c90d94
+source: Teaching Vacancies
+source_job_id: business-and-administration-apprentice
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administration-apprentice
 ---
 
 ---
@@ -83,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Dorset | Bournemouth, South West, BH10 4EX | £13,461.00 - £18,054.00 Annually (Actual) Term time only | Business and Administration Apprentice
-employer: Glenmoor Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c9bafd0c46b726ea184b41cbdb29ec00a259b1ed3800d08ed0d77ec8d8c90d94
-source: Teaching Vacancies
-source_job_id: business-and-administration-apprentice
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administration-apprentice
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
