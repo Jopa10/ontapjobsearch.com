@@ -135,3 +135,4 @@ jobs:
           name: service-admin-output
           path: pipeline/output-admin-service/
           if-no-files-found: warn
+          retention-days: 7
