@@ -176,19 +176,25 @@ test("mixed one-box searches infer geography instead of leaking nationally", () 
   const adminIds = searchJobs(jobs, "ardmin lees", "").map(({ job_id }) => job_id);
   assert.ok(adminIds.includes("leeds-admin"));
   assert.ok(adminIds.includes("leeds-ledger-admin"));
+  assert.ok(adminIds.includes("description-only"));
   assert.ok(!adminIds.includes("lewes-admin"));
   assert.ok(!adminIds.includes("bristol-admin"));
 });
 
-test("narrow role searches require title support instead of inheriting the whole curated slice", () => {
+test("narrow role searches stay anchored, while admin can use the curated admin/service family", () => {
   const customerIds = searchJobs(jobs, "customer service", "newcastle").map(({ job_id }) => job_id);
   assert.deepEqual(customerIds, ["newcastle-customer"]);
 
   const adminIds = searchJobs(jobs, "admin", "leeds").map(({ job_id }) => job_id);
   assert.ok(adminIds.includes("leeds-admin"));
   assert.ok(adminIds.includes("leeds-ledger-admin"));
-  assert.ok(!adminIds.includes("description-only"));
+  assert.ok(adminIds.includes("description-only"));
   assert.ok(!adminIds.includes("leeds-complaints"));
+
+  const newcastleAdminIds = searchJobs(jobs, "newcastle admin", "").map(({ job_id }) => job_id);
+  assert.ok(newcastleAdminIds.includes("newcastle-admin"));
+  assert.ok(newcastleAdminIds.includes("newcastle-customer"));
+  assert.ok(newcastleAdminIds.includes("newcastle-reception"));
 
   const receptionIds = searchJobs(jobs, "reception", "newcastle").map(({ job_id }) => job_id);
   assert.deepEqual(receptionIds, ["newcastle-reception"]);
