@@ -123,6 +123,7 @@ jobs:
           name: compiler-module-3-wfh-results-${{ env.START_DATE }}-to-${{ env.END_DATE }}
           path: pipeline/reports-module3/
           if-no-files-found: warn
+          retention-days: 14
 
       - name: Commit Compiler Module 3 outputs
         if: github.event_name == 'workflow_dispatch'
