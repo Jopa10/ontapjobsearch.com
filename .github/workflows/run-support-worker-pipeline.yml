@@ -153,3 +153,4 @@ jobs:
             pipeline/reviews/jobg8/support-worker-review.csv
             pipeline/reviews/jobg8/support-worker-review.md
           if-no-files-found: warn
+          retention-days: 7
