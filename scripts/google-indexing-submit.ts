@@ -12,6 +12,7 @@ const STATE_PATH = path.join(
   "google-indexing-state.json"
 );
 const MAX_NOTIFICATIONS = Number(process.env.GOOGLE_INDEXING_MAX_NOTIFICATIONS || "200");
+const RUN_REPORT_PATH = process.env.GOOGLE_INDEXING_RUN_REPORT?.trim();
 
 type NotificationType = "URL_UPDATED" | "URL_DELETED";
 
@@ -25,6 +26,26 @@ type IndexingState = {
   version: 1;
   updatedAt: string;
   urls: Record<string, string>;
+};
+
+type RunStatus = "noop" | "dry-run" | "success" | "backlog" | "failure";
+
+type RunReport = {
+  status: RunStatus;
+  mode: "live" | "dry-run";
+  eligibleLive: number;
+  previouslySubmitted: number;
+  pendingTotal: number;
+  pendingUpdates: number;
+  pendingDeletions: number;
+  batchLimit: number;
+  plannedThisRun: number;
+  attempted: number;
+  submitted: number;
+  remaining: number;
+  limitReached: boolean;
+  zeroSubmittedWithPending: boolean;
+  message: string;
 };
 
 function hasCompleteDescription(value: string) {
@@ -90,6 +111,12 @@ function writeState(urls: Record<string, string>) {
   fs.writeFileSync(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`, "utf8");
 }
 
+function writeRunReport(report: RunReport) {
+  if (!RUN_REPORT_PATH) return;
+  fs.mkdirSync(path.dirname(RUN_REPORT_PATH), { recursive: true });
+  fs.writeFileSync(RUN_REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+}
+
 function buildNotifications(state: IndexingState) {
   const current = new Map<string, string>();
 
@@ -100,12 +127,12 @@ function buildNotifications(state: IndexingState) {
 
   const notifications: Notification[] = [];
 
-  // Remove URLs that were previously eligible JobPosting pages but are no longer live/eligible.
+  // Deletions always go first so expired/removed jobs cannot be stranded behind updates.
   for (const url of Object.keys(state.urls).sort()) {
     if (!current.has(url)) notifications.push({ url, type: "URL_DELETED" });
   }
 
-  // Submit only new or materially changed eligible JobPosting pages.
+  // Then submit only new or materially changed eligible JobPosting pages.
   for (const [url, hash] of [...current.entries()].sort(([a], [b]) => a.localeCompare(b))) {
     if (state.urls[url] !== hash) {
       notifications.push({ url, type: "URL_UPDATED", fingerprint: hash });
@@ -133,19 +160,43 @@ async function submit(notification: Notification, token: string) {
   }
 }
 
-async function main() {
-  const dryRun = process.argv.includes("--dry-run");
-  const state = loadState();
-  const { notifications, currentCount } = buildNotifications(state);
-
-  console.log(`Eligible live JobPosting URLs: ${currentCount}`);
-  console.log(`Previously submitted URLs: ${Object.keys(state.urls).length}`);
-  console.log(`Notifications required: ${notifications.length}`);
-
+function createReportBase(
+  dryRun: boolean,
+  currentCount: number,
+  previousCount: number,
+  notifications: Notification[]
+) {
   const updates = notifications.filter((item) => item.type === "URL_UPDATED").length;
   const deletions = notifications.length - updates;
-  console.log(`  URL_UPDATED: ${updates}`);
-  console.log(`  URL_DELETED: ${deletions}`);
+  const plannedThisRun = Math.min(notifications.length, MAX_NOTIFICATIONS);
+
+  return {
+    mode: dryRun ? ("dry-run" as const) : ("live" as const),
+    eligibleLive: currentCount,
+    previouslySubmitted: previousCount,
+    pendingTotal: notifications.length,
+    pendingUpdates: updates,
+    pendingDeletions: deletions,
+    batchLimit: MAX_NOTIFICATIONS,
+    plannedThisRun,
+    limitReached: notifications.length >= MAX_NOTIFICATIONS,
+  };
+}
+
+function reportAndLog(report: RunReport) {
+  writeRunReport(report);
+  console.log(`Run status: ${report.status}`);
+  console.log(`Planned this run: ${report.plannedThisRun}`);
+  console.log(`Submitted this run: ${report.submitted}`);
+  console.log(`Remaining after run: ${report.remaining}`);
+  if (report.limitReached) {
+    console.log(`Safety limit reached: ${report.batchLimit}`);
+  }
+  console.log(report.message);
+}
+
+async function main() {
+  const dryRun = process.argv.includes("--dry-run");
 
   if (!Number.isInteger(MAX_NOTIFICATIONS) || MAX_NOTIFICATIONS < 1 || MAX_NOTIFICATIONS > 200) {
     throw new Error(
@@ -153,33 +204,79 @@ async function main() {
     );
   }
 
-  if (notifications.length > MAX_NOTIFICATIONS) {
-    throw new Error(
-      `Refusing to submit ${notifications.length} notifications: run limit is ${MAX_NOTIFICATIONS}. ` +
-        "No API calls were made. Reduce the eligible set or handle the backlog across quota windows."
-    );
-  }
+  const state = loadState();
+  const { notifications, currentCount } = buildNotifications(state);
+  const previousCount = Object.keys(state.urls).length;
+  const base = createReportBase(dryRun, currentCount, previousCount, notifications);
+
+  console.log(`Eligible live JobPosting URLs: ${currentCount}`);
+  console.log(`Previously submitted URLs: ${previousCount}`);
+  console.log(`Notifications required: ${notifications.length}`);
+  console.log(`  URL_UPDATED: ${base.pendingUpdates}`);
+  console.log(`  URL_DELETED: ${base.pendingDeletions}`);
 
   if (notifications.length === 0) {
-    console.log("Nothing to submit.");
+    const report: RunReport = {
+      ...base,
+      status: "noop",
+      attempted: 0,
+      submitted: 0,
+      remaining: 0,
+      zeroSubmittedWithPending: false,
+      message: "Nothing to submit.",
+    };
+    reportAndLog(report);
     return;
   }
 
+  const batch = notifications.slice(0, MAX_NOTIFICATIONS);
+
   if (dryRun) {
-    for (const notification of notifications) {
+    console.log(
+      `[dry-run] Would submit ${batch.length} of ${notifications.length} pending notifications this run.`
+    );
+    for (const notification of batch) {
       console.log(`[dry-run] ${notification.type} ${notification.url}`);
     }
+
+    const report: RunReport = {
+      ...base,
+      status: "dry-run",
+      attempted: 0,
+      submitted: 0,
+      remaining: notifications.length,
+      zeroSubmittedWithPending: true,
+      message:
+        notifications.length > MAX_NOTIFICATIONS
+          ? `[dry-run] ${notifications.length - MAX_NOTIFICATIONS} notifications would remain for later quota windows.`
+          : "[dry-run] All pending notifications fit within one quota window.",
+    };
+    reportAndLog(report);
     return;
   }
 
   const token = process.env.GOOGLE_INDEXING_ACCESS_TOKEN?.trim();
-  if (!token) throw new Error("GOOGLE_INDEXING_ACCESS_TOKEN is required for a live submission");
+  if (!token) {
+    const report: RunReport = {
+      ...base,
+      status: "failure",
+      attempted: 0,
+      submitted: 0,
+      remaining: notifications.length,
+      zeroSubmittedWithPending: true,
+      message: "GOOGLE_INDEXING_ACCESS_TOKEN is required for a live submission.",
+    };
+    reportAndLog(report);
+    throw new Error(report.message);
+  }
 
   const nextState = { ...state.urls };
   let submitted = 0;
+  let attempted = 0;
 
   try {
-    for (const notification of notifications) {
+    for (const notification of batch) {
+      attempted += 1;
       await submit(notification, token);
       submitted += 1;
 
@@ -189,16 +286,40 @@ async function main() {
         nextState[notification.url] = notification.fingerprint;
       }
 
+      // Checkpoint every confirmed success. If a later request fails, the workflow
+      // can still commit all successful progress instead of resubmitting it tomorrow.
+      writeState(nextState);
       console.log(`${notification.type} ${notification.url}`);
     }
   } catch (error) {
-    // Preserve successful notifications so a retry does not needlessly consume quota again.
-    if (submitted > 0) writeState(nextState);
+    const message = error instanceof Error ? error.message : String(error);
+    const report: RunReport = {
+      ...base,
+      status: "failure",
+      attempted,
+      submitted,
+      remaining: notifications.length - submitted,
+      zeroSubmittedWithPending: notifications.length > 0 && submitted === 0,
+      message,
+    };
+    reportAndLog(report);
     throw error;
   }
 
-  writeState(nextState);
-  console.log(`Successfully submitted ${submitted} notifications.`);
+  const remaining = notifications.length - submitted;
+  const report: RunReport = {
+    ...base,
+    status: remaining > 0 ? "backlog" : "success",
+    attempted,
+    submitted,
+    remaining,
+    zeroSubmittedWithPending: notifications.length > 0 && submitted === 0,
+    message:
+      remaining > 0
+        ? `Successfully submitted ${submitted} notifications; ${remaining} remain for future quota windows.`
+        : `Successfully submitted ${submitted} notifications; backlog cleared.`,
+  };
+  reportAndLog(report);
 }
 
 main().catch((error) => {
