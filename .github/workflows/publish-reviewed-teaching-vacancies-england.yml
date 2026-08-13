@@ -269,6 +269,91 @@ jobs:
             exit 1
           fi
 
+      - name: Remove stale Teaching Vacancies from non-admin slices
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          SOURCE = "teaching vacancies"
+
+          def clean(path: Path) -> int:
+              try:
+                  rows = json.loads(path.read_text(encoding="utf-8"))
+              except json.JSONDecodeError as exc:
+                  raise SystemExit(f"STOP: invalid JSON while cleaning {path}: {exc}") from exc
+              if not isinstance(rows, list):
+                  raise SystemExit(f"STOP: expected JSON list while cleaning {path}")
+              kept = [
+                  row
+                  for row in rows
+                  if not (
+                      isinstance(row, dict)
+                      and str(row.get("source", "")).strip().casefold() == SOURCE
+                  )
+              ]
+              removed = len(rows) - len(kept)
+              if removed:
+                  path.write_text(
+                      json.dumps(kept, ensure_ascii=False, indent=2) + "\n",
+                      encoding="utf-8",
+                  )
+                  print(f"Removed {removed} stale Teaching Vacancies row(s) from {path}")
+              return removed
+
+          removed = 0
+          for path in sorted(Path("pipeline/output-admin-service").glob("*.json")):
+              if path.name.endswith("-admin-service.json"):
+                  continue
+              removed += clean(path)
+
+          configured = Path("app/_city-pages/configured-slices")
+          if configured.is_dir():
+              for path in sorted(configured.rglob("*.json")):
+                  if path.name == "service-administrator-jobs.json":
+                      continue
+                  removed += clean(path)
+
+          print(f"Removed {removed} stale Teaching Vacancies row(s) from non-admin slices.")
+          PY
+
+      - name: Verify non-admin slices contain no Teaching Vacancies
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          SOURCE = "teaching vacancies"
+          bad = []
+          paths = [
+              path
+              for path in sorted(Path("pipeline/output-admin-service").glob("*.json"))
+              if not path.name.endswith("-admin-service.json")
+          ]
+          configured = Path("app/_city-pages/configured-slices")
+          if configured.is_dir():
+              paths.extend(
+                  path
+                  for path in sorted(configured.rglob("*.json"))
+                  if path.name != "service-administrator-jobs.json"
+              )
+
+          for path in paths:
+              rows = json.loads(path.read_text(encoding="utf-8"))
+              if any(
+                  isinstance(row, dict)
+                  and str(row.get("source", "")).strip().casefold() == SOURCE
+                  for row in rows
+              ):
+                  bad.append(str(path))
+          if bad:
+              raise SystemExit(
+                  "STOP: Teaching Vacancies remain in non-admin slices: "
+                  + ", ".join(bad)
+              )
+          print("Verified: no Teaching Vacancies remain in non-admin slices.")
+          PY
+
       - name: Commit reviewed boundaries, approved snapshots, combined outputs and live pages
         run: |
           set -euo pipefail
@@ -277,8 +362,9 @@ jobs:
             pipeline/reviews/external/teaching-vacancies/*-admin-service-summary.md \
             pipeline/output-external/teaching-vacancies-regional/*.json \
             pipeline/manifests/external/teaching-vacancies/approved/*.json \
-            pipeline/output-admin-service/*-admin-service.json \
-            app/*/service-administrator-jobs.json
+            pipeline/output-admin-service/*.json \
+            app/*/service-administrator-jobs.json \
+            app/_city-pages/configured-slices
 
           staged_files="$(git diff --cached --name-only)"
           if [ -z "$staged_files" ]; then
@@ -290,8 +376,9 @@ jobs:
             $0 !~ /^pipeline\/reviews\/external\/teaching-vacancies\/.*-admin-service-(review\.csv|summary\.md)$/ &&
             $0 !~ /^pipeline\/output-external\/teaching-vacancies-regional\/.*\.json$/ &&
             $0 !~ /^pipeline\/manifests\/external\/teaching-vacancies\/approved\/.*\.json$/ &&
-            $0 !~ /^pipeline\/output-admin-service\/.*-admin-service\.json$/ &&
-            $0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
+            $0 !~ /^pipeline\/output-admin-service\/.*-(admin-service|customer-service|finance-accounts|hr-recruitment)\.json$/ &&
+            $0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/ &&
+            $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/(customer-service-jobs|finance-accounts-jobs|hr-recruitment-jobs)\.json$/'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit unexpected Teaching Vacancies publishing paths:"
             printf '%s\n' "$unexpected_files"
@@ -312,6 +399,7 @@ jobs:
             echo "The England-wide review actions were verified and copied to regional approval boundaries."
             echo "Approved Teaching Vacancies were composed with existing JobG8 and other approved sources."
             echo "Expired and cross-source duplicate Teaching Vacancies were omitted automatically."
+            echo "Stale Teaching Vacancies were removed from non-admin slices."
             echo "Verified service-admin pages were written and committed."
           } >> "$GITHUB_STEP_SUMMARY"
 
