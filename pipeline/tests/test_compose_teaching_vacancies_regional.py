@@ -213,7 +213,7 @@ def test_missing_snapshot_retains_current_output(tmp_path: Path) -> None:
     snapshot_dir = tmp_path / "snapshots"
     evidence_dir = tmp_path / "evidence"
     register = tmp_path / "register.csv"
-    current_path = current_dir / "any-name.json"
+    current_path = current_dir / "sussex-admin-service.json"
     original = [base_job("jobg8-1", "Sussex")]
     write_json(current_path, original)
     snapshot_dir.mkdir()
@@ -239,7 +239,7 @@ def test_candidate_register_blocks_even_valid_live_evidence(tmp_path: Path) -> N
     snapshot_dir = tmp_path / "snapshots"
     evidence_dir = tmp_path / "evidence"
     register = tmp_path / "register.csv"
-    current_path = current_dir / "east.json"
+    current_path = current_dir / "east-yorkshire-admin-service.json"
     original = [base_job("jobg8-1", "Yorkshire - East")]
     write_json(current_path, original)
     write_snapshot(
@@ -298,10 +298,13 @@ def test_region_neutral_directory_composition_writes_two_live_slices(
     snapshot_dir = tmp_path / "snapshots"
     evidence_dir = tmp_path / "evidence"
     register = tmp_path / "register.csv"
-    west_path = current_dir / "west-output.json"
-    south_path = current_dir / "south-output.json"
+    west_path = current_dir / "west-yorkshire-admin-service.json"
+    south_path = current_dir / "south-yorkshire-admin-service.json"
+    customer_path = current_dir / "west-yorkshire-customer-service.json"
     write_json(west_path, [base_job("west-base", "Yorkshire - West")])
     write_json(south_path, [base_job("south-base", "Yorkshire - South")])
+    customer_original = [base_job("west-customer-base", "Yorkshire - West")]
+    write_json(customer_path, customer_original)
     write_snapshot(
         snapshot_dir,
         evidence_dir,
@@ -334,6 +337,7 @@ def test_region_neutral_directory_composition_writes_two_live_slices(
     )
 
     assert {row.status for row in results} == {"WRITTEN"}
+    assert {row.path for row in results} == {west_path, south_path}
     assert [row["job_id"] for row in json.loads(west_path.read_text())] == [
         "teaching-vacancies-west-external",
         "west-base",
@@ -342,6 +346,7 @@ def test_region_neutral_directory_composition_writes_two_live_slices(
         "teaching-vacancies-south-external",
         "south-base",
     ]
+    assert json.loads(customer_path.read_text()) == customer_original
 
 
 def test_empty_current_output_is_left_unchanged(tmp_path: Path) -> None:
@@ -349,7 +354,7 @@ def test_empty_current_output_is_left_unchanged(tmp_path: Path) -> None:
     snapshot_dir = tmp_path / "snapshots"
     evidence_dir = tmp_path / "evidence"
     register = tmp_path / "register.csv"
-    current_path = current_dir / "empty.json"
+    current_path = current_dir / "west-yorkshire-admin-service.json"
     write_json(current_path, [])
     snapshot_dir.mkdir()
     evidence_dir.mkdir()
