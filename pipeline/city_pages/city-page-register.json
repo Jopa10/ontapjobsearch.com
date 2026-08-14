@@ -318,5 +318,270 @@
     ],
     "fallback_decision": "review",
     "fallback_reason": "No approved Leeds employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "coventry-service-administrator-jobs",
+    "display_name": "Coventry",
+    "category_label": "admin and customer-service jobs",
+    "parent_page": "app/coventry-warwickshire/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/coventry-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/coventry-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/coventry/service-administrator-jobs.json",
+    "route": "/coventry/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "include_rules": [
+      {
+        "pattern": "coventry",
+        "reason": "The stated workplace matches the approved Coventry employment-market pattern `coventry`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "coventry warwickshire",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Coventry employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "warwick",
+        "reason": "The stated workplace belongs outside the approved Coventry employment market."
+      },
+      {
+        "pattern": "leamington",
+        "reason": "The stated workplace belongs outside the approved Coventry employment market."
+      },
+      {
+        "pattern": "rugby",
+        "reason": "The stated workplace belongs outside the approved Coventry employment market."
+      },
+      {
+        "pattern": "nuneaton",
+        "reason": "The stated workplace belongs outside the approved Coventry employment market."
+      },
+      {
+        "pattern": "stratford-upon-avon",
+        "reason": "The stated workplace belongs outside the approved Coventry employment market."
+      },
+      {
+        "pattern": "stratford upon avon",
+        "reason": "The stated workplace belongs outside the approved Coventry employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Coventry employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "southampton-service-administrator-jobs",
+    "display_name": "Southampton",
+    "category_label": "admin and customer-service jobs",
+    "parent_page": "app/hampshire/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/southampton-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/southampton-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/southampton/service-administrator-jobs.json",
+    "route": "/southampton/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "include_rules": [
+      {
+        "pattern": "southampton",
+        "reason": "The stated workplace matches the approved Southampton employment-market pattern `southampton`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "hampshire",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Southampton employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "portsmouth",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "basingstoke",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "winchester",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "eastleigh",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "farnborough",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "aldershot",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "andover",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      },
+      {
+        "pattern": "fareham",
+        "reason": "The stated workplace belongs outside the approved Southampton employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Southampton employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "brighton-hove-service-administrator-jobs",
+    "display_name": "Brighton & Hove",
+    "category_label": "admin and customer-service jobs",
+    "parent_page": "app/sussex/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/brighton-hove-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/brighton-hove-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/brighton-hove/service-administrator-jobs.json",
+    "route": "/brighton-hove/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "include_rules": [
+      {
+        "pattern": "brighton",
+        "reason": "The stated workplace matches the approved Brighton & Hove employment-market pattern `brighton`."
+      },
+      {
+        "pattern": "hove",
+        "reason": "The stated workplace matches the approved Brighton & Hove employment-market pattern `hove`."
+      },
+      {
+        "pattern": "portslade",
+        "reason": "The stated workplace matches the approved Brighton & Hove employment-market pattern `portslade`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "sussex",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Brighton & Hove employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "crawley",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "horsham",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "eastbourne",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "hastings",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "st leonards",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "worthing",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "chichester",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "bognor regis",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      },
+      {
+        "pattern": "littlehampton",
+        "reason": "The stated workplace belongs outside the approved Brighton & Hove employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required."
   }
 ]
