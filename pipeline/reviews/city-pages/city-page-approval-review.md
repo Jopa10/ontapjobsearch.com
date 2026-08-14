@@ -11,7 +11,7 @@ A city appears here only after the opportunity process marks it READY FOR APPROV
 ## READY FOR APPROVAL (12)
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Coventry
 region: coventry-warwickshire
@@ -22,7 +22,7 @@ last_pipeline_runs: 3, 4, 10, 10, 11, 13
 ---
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Southampton
 region: hampshire
@@ -77,7 +77,7 @@ last_pipeline_runs: 0, 0, 5, 6, 6, 6
 ---
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Brighton & Hove
 region: sussex
