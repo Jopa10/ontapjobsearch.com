@@ -146,13 +146,26 @@ jobs:
           python -m unittest discover -s pipeline/tests -p 'test_scan_city_opportunities.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_city_opportunity_history.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_active_city_page_persistence.py' -v
+      - name: Detect optional repository JobG8 fixture
+        id: jobg8-fixture
+        run: |
+          if find pipeline/input -maxdepth 1 -type f \( -iname '*jobg8*.xlsx' -o -iname '*jobg8*.xls' -o -iname '*jobg8*.csv' \) -print -quit | grep -q .; then
+            echo 'available=true' >> "$GITHUB_OUTPUT"
+            echo 'Repository JobG8 fixture found; running optional feed-backed integration checks.'
+          else
+            echo 'available=false' >> "$GITHUB_OUTPUT"
+            echo 'No repository JobG8 fixture by design; feed-backed integration checks will be skipped.'
+          fi
       - name: Generate current config-driven outputs for verification
+        if: steps.jobg8-fixture.outputs.available == 'true'
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline_north_yorkshire
       - name: Confirm current LIVE slices are publishable
+        if: steps.jobg8-fixture.outputs.available == 'true'
         working-directory: pipeline
         run: python -m scripts.publish_verified_pages_north_yorkshire --dry-run
       - name: Regenerate and persist active city output
+        if: steps.jobg8-fixture.outputs.available == 'true'
         working-directory: pipeline
         run: |
           python -m scripts.derive_city_pages --publish
