@@ -44,6 +44,35 @@ jobs:
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
           echo "report_date=$report_date" >> "$GITHUB_OUTPUT"
 
+      - name: Update displayed publish date
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from datetime import datetime
+          from pathlib import Path
+          import re
+          from zoneinfo import ZoneInfo
+
+          now = datetime.now(ZoneInfo("Europe/London"))
+          day = now.day
+          suffix = "th" if 10 <= day % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(day % 10, "th")
+          period = "AM" if now.hour < 12 else "PM"
+          label = f"{now:%a} {day}{suffix} {now:%b}, {period}"
+
+          path = Path("config/job-page-status.ts")
+          text = path.read_text(encoding="utf-8")
+          updated, count = re.subn(
+              r'defaultDate: "[^"]+",',
+              f'defaultDate: "{label}",',
+              text,
+              count=1,
+          )
+          if count != 1:
+              raise SystemExit("Could not update exactly one defaultDate in config/job-page-status.ts")
+          path.write_text(updated, encoding="utf-8")
+          print(f"Displayed publish date: {label}")
+          PY
+
       - name: Commit approved live JSON changes and private count reports
         id: commit
         run: |
@@ -66,16 +95,18 @@ jobs:
             "app/sussex/support-worker.json"
             "app/west-yorkshire/support-worker.json"
           )
+          status_file="config/job-page-status.ts"
           daily_report="pipeline/reports-daily/live-job-source-count-${{ steps.live-count.outputs.report_date }}.csv"
           history_report="pipeline/reports-daily/live-job-source-history.csv"
 
-          git add -- "${approved_paths[@]}" "$daily_report" "$history_report"
+          git add -- "${approved_paths[@]}" "$status_file" "$daily_report" "$history_report"
           staged_files="$(git diff --cached --name-only)"
           if [ -z "$staged_files" ]; then
             echo "created=false" >> "$GITHUB_OUTPUT"
-            echo "No approved live JSON or live-job count changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "No approved live JSON, display-date or live-job count changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
           else
             unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
+              -v status="$status_file" \
               -v daily="$daily_report" \
               -v history="$history_report" \
               '$0 != "app/coventry-warwickshire/service-administrator-jobs.json" &&
@@ -94,6 +125,7 @@ jobs:
                $0 != "app/south-yorkshire/support-worker.json" &&
                $0 != "app/sussex/support-worker.json" &&
                $0 != "app/west-yorkshire/support-worker.json" &&
+               $0 != status &&
                $0 != daily &&
                $0 != history'; } || true)"
             if [ -n "$unexpected_files" ]; then
