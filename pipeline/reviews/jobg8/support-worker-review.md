@@ -12,6 +12,12 @@ Edit only the `action:` line in each block:
 ## WEST YORKSHIRE — SELECTED
 
 ---
+action: select
+SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
+job_id: 107751768
+---
+
+---
 action:
 SELECTED | Yorkshire - West | Dewsbury | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104910
@@ -37,13 +43,15 @@ job_id: 23643_225476096
 
 ## WEST YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
-job_id: 107751768
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
+
+---
+action: select
+SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+---
 
 ---
 action:
@@ -53,11 +61,7 @@ job_id: 107798506
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -147,21 +151,25 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.
 job_id: 23643_225483894
 ---
 
-## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
-
 ---
 action: select
-POSS - NE - Tyneside/Wearside/N'land | North East - Tyneside, Wearside & Northumberland | Gateshead | £17.50-£24.00 per hour | Children Crisis Support Worker - Waking Nights
-job_id: 05843b40-34ac-40a5-8f4c-e146dd6988e1
+SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
+job_id: 23643_225493355
 ---
+
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £12000 per year | Bank Healthcare Assistant
+job_id: 107836581
+---
+
+## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
+
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
----
-action: select
-POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
-job_id: 23643_225493355
----
+_No jobs in this group._
 
 ## SUSSEX — SELECTED
 
@@ -269,12 +277,6 @@ job_id: 25362_JR104952
 
 ---
 action:
-SELECTED | Cumbria - South | Kendal | £13.11 per hour ((Plus a 12.07% Holiday Allowance Uplift)) | Bank Healthcare Assistant
-job_id: 107817609
----
-
----
-action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Relief Support Worker
 job_id: 107812778
 ---
@@ -319,6 +321,24 @@ job_id: 77b95346-e87e-49a2-ba72-135448bf136e
 action:
 SELECTED | Hampshire | Andover | £13 - £15 per hour (Salary Dependent on experience) | Domiciliary Care Assistant
 job_id: 107404020
+---
+
+---
+action: select
+SELECTED | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
+job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
+---
+
+---
+action: select
+SELECTED | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
+job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
+---
+
+---
+action: select
+SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401784261
 ---
 
 ---
@@ -401,20 +421,4 @@ job_id: 1401784594
 
 ## HAMPSHIRE — POSSIBLES
 
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
-job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
----
-
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
-job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
----
-
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
-job_id: 1401784261
----
+_No jobs in this group._
