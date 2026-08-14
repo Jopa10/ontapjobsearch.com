@@ -55,6 +55,15 @@ jobs:
             --expected-max 20000
           test -s pipeline/input/jobg8.xlsx
 
+      - name: Test JobG8 feed health guard
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_validate_jobg8_feed_health.py' -v
+
+      - name: Validate JobG8 feed health
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/validate_jobg8_feed_health.py --input pipeline/input/jobg8.xlsx
+
       - name: Test JobG8 raw archive rules
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_jobg8_s3_archive.py' -v
