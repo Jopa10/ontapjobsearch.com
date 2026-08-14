@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "pipeline/registers/region_category_slice_register.csv"
+      - ".github/workflows/launch-london-support-worker.yml"
 
 concurrency:
   group: london-support-worker-launch
@@ -93,6 +94,7 @@ jobs:
             pipeline/output-support-worker \
             pipeline/reports-daily \
             pipeline/reviews/jobg8
+          rm -f pipeline/input/jobg8.xlsx
 
       - name: Publish London configured slice
         working-directory: pipeline
