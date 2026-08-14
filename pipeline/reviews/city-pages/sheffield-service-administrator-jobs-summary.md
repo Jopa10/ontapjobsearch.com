@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 1
-- automatic exclude: 11
-- effective include: 6
-- effective review: 1
-- effective exclude: 11
+- automatic include: 7
+- automatic review: 2
+- automatic exclude: 13
+- effective include: 7
+- effective review: 2
+- effective exclude: 13
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: The stated workplace matches the approved Sheffield employment-market pa
 action: 
 decision: include
 automatic_decision: include
+title: Customer Support Advisor
+company: Kyocera Unimerco Tooling Ltd - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-6cc0e9b1-daae-4776-87dd-7198afbef061
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Regeneration and Property Service Support Help Desk Officer
 company: Reed - Agency - Temporary
 location: Sheffield
@@ -96,7 +108,19 @@ job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-york
 reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
 ---
 
-## REVIEW (1)
+## REVIEW (2)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Facilities Helpdesk Coordinator
+company: Andy File Associates Ltd - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225380179
+reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -110,7 +134,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -200,6 +224,18 @@ reason: The stated workplace belongs outside the approved Sheffield employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Assistant
+company: Elevation Recruitment Group - Agency - Contract
+location: Barnsley
+source: JobG8
+job_id: jobg8-0d2eac48-d6fd-479a-9dde-4b94b2822324
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: NTD Coordinator
 company: TRC Yorkshire - Agency - Temporary
 location: Barnsley
@@ -241,5 +277,17 @@ company: Staffline Recruitment Limited - Agency - Contract
 location: Doncaster
 source: JobG8
 job_id: jobg8-78f4c04c-6e64-45dd-b8b3-2ba440f0f9f1
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales & Marketing Coordinator
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225433915
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---

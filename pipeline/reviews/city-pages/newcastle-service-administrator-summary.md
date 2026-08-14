@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 20
+- automatic include: 22
+- automatic review: 23
 - automatic exclude: 9
-- effective include: 21
-- effective review: 17
+- effective include: 24
+- effective review: 20
 - effective exclude: 10
 
-## INCLUDE (21)
+## INCLUDE (24)
 
 ---
 action: 
@@ -112,11 +112,47 @@ reason: No Newcastle catchment rule matched the stated location; local geographi
 action: 
 decision: include
 automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-20279_61775-deab967b99c6e63d0dd459a12179664a
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-89740a075c6163b74ea2c52702062e5d
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Call Centre Operator
 company: EE - Company - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-73862c8b83139033e4e4a8b6efca9a33
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Client Administrator
+company: IDEX Consulting Ltd - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-37de4be2-0a53-41c1-9b2c-dca52159ab6e
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
@@ -276,7 +312,7 @@ job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
-## REVIEW (17)
+## REVIEW (20)
 
 ---
 action: 
@@ -335,6 +371,18 @@ company: EE - Company - Permanent
 location: South Shields
 source: JobG8
 job_id: jobg8-20279_61775-33210dbc92626a35bffe42114b330ff3
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Whitley Bay
+source: JobG8
+job_id: jobg8-21618_20279_61775-14ed80d091f0fb71e92c86010d5a3182
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
 ---
 
@@ -416,6 +464,18 @@ decision: review
 automatic_decision: review
 title: Customer Service Advisor
 company: EE - Company - Permanent
+location: Cramlington
+source: JobG8
+job_id: jobg8-20279_61775-dc0a27dec7f9767a517f1bdee6e96749
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
 location: North Shields
 source: JobG8
 job_id: jobg8-21618_20279_61775-18920c4c3acd80a428cbeccf0253ec33
@@ -467,6 +527,18 @@ company: Staff Partners Business - Agency - Temporary
 location: South Shields
 source: JobG8
 job_id: jobg8-23643_225449718
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator
+company: Pin Point Recruitment - Agency - Temporary
+location: Wallsend
+source: JobG8
+job_id: jobg8-23643_225482217
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
 ---
 
@@ -536,12 +608,12 @@ reason: Durham belongs to a separate employment area from the Newcastle city pag
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Centre Advisor
-company: Reed - Agency - Temporary
-location: Darlington
+title: Customer service advisor
+company: Berry Recruitment - Agency - Temporary
+location: Durham
 source: JobG8
-job_id: jobg8-11e35c50-d8c7-4b38-a89e-393aa2842b05
-reason: Darlington belongs to a separate employment area from the Newcastle city page.
+job_id: jobg8-23643_225416961
+reason: Durham belongs to a separate employment area from the Newcastle city page.
 ---
 
 ---

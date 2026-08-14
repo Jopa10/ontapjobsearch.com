@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 14
+- automatic include: 14
+- automatic review: 18
 - automatic exclude: 19
-- effective include: 13
-- effective review: 14
+- effective include: 14
+- effective review: 18
 - effective exclude: 19
 
-## INCLUDE (13)
+## INCLUDE (14)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Financial Services)
+company: FindCore - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Michael Page Business Support - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2df4c2d2-f97a-4e25-8255-8ace6845a95b
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Claims Handler - Defendant Personal Injury (EL/PL)
+company: CRA Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-e9a0f883-6061-4956-a196-6dcd989271ae
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -57,18 +81,6 @@ company: Candidate Source Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-0964d2e1-424c-4a06-84b3-e1fa26bfa2a0
-reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Pontoon - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-183c1c84-18b4-4e84-9a39-1c158058796b
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -180,7 +192,7 @@ job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-we
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
-## REVIEW (14)
+## REVIEW (18)
 
 ---
 action: 
@@ -191,6 +203,30 @@ company: Dixons Cottingley Academy
 location: Bingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Hays Senior Finance - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-23643_225472240
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Moulds Accountants & Advisory Services - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-23643_225458763
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -246,6 +282,18 @@ reason: No approved Leeds employment-market rule matched the stated location; lo
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-6aca5c9a-a87a-46e1-a01d-07f478618bad
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -275,6 +323,18 @@ company: The King's School
 location: Pontefract
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales / Admin Coordinator
+company: Pertemps Bristol Commercial - Agency - Permanent
+location: Castleford
+source: JobG8
+job_id: jobg8-23643_225414242
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 

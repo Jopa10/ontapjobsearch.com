@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 8
-- automatic exclude: 7
-- effective include: 3
+- automatic exclude: 9
+- effective include: 4
 - effective review: 8
-- effective exclude: 7
+- effective exclude: 9
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1401784075
+reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker - Children & Young People
+company: Randstad Care - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-58c3e926-cf9b-4aae-a931-e1c867a7b221
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
@@ -158,7 +170,7 @@ job_id: jobg8-1401784321
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -181,6 +193,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Child Support Worker
+company: Randstad Care - Agency - Temporary
+location: Portsmouth
+source: JobG8
+job_id: jobg8-62ac8011-cb52-461e-bd72-7273b61cb640
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 
@@ -241,5 +265,17 @@ company: Apple Orchard - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-107776124
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secure Children's Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1401784261
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
