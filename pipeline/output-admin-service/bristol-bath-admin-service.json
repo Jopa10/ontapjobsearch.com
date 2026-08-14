@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-and-business-support-receptionist",
-    "title": "Admin and Business Support & Receptionist",
-    "company": "Twerton Infant School",
-    "location": "Bath",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time', 'temporary']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,583 to £25,989 FTE",
-    "work_pattern": "",
-    "posted_date": "2026-07-24",
-    "closing_date": "2026-08-13",
-    "closing_datetime": "2026-08-13T12:00:00+01:00",
-    "summary": "Admin and Business Support & Receptionist with Twerton Infant School in Bath. ['part time', 'temporary']; £25,583 to £25,989 FTE.",
-    "description": "Twerton Infant School is recruiting for this vacancy in Bath.\n\nThe advertised position is Admin and Business Support & Receptionist.\n\nThe source lists the employment type as ['part time', 'temporary'].\n\nThe advertised salary or pay scale is £25,583 to £25,989 FTE.\n\nThe stated application deadline is 2026-08-13T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-and-business-support-receptionist?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-pa-to-principal-hr-lead-fairfield-high-school",
     "title": "PA to Principal/HR Lead",
     "company": "Fairfield High School",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fairfield High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-marlwood-school",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Marlwood School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-digital-marketing-administrator-filton-avenue-primary-school",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Filton Avenue Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_222234812",
@@ -243,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476860",
@@ -300,6 +284,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "6a3c4b7c-b1b0-441d-97bd-b7474fbc29f9",
+    "title": "Marketing Administrator",
+    "company": "Marstep Resourcing Solutions - Agency - Permanent",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year",
+    "posted_date": "",
+    "description": "The client, a long established and growing engineering distributorship are seeking a Sales and Marketing Administrator to work from their offices in Avonmouth.\n\nYou will join a friendly team in this organisation which is also part of larger group of companies.\n\nYou will ideally have good administration skills and also an interest in marketing/social media/e-commerce and would like to use your skills in a multi-faceted role.\n\nDay to day activities will be broadly as follows:-\n- Assisting the Commercial Manager with company administration\n- Data Inputting\n- Updating Web Pages and the E-Shopping Site\n- Manage Online Sales\n- Creating Mail Shots and Marketing Literature\n- Sales reach out and follow ups\n- Updating Social Media sites with regular content and engaging with visitors\n- Promoting the business via suitable marketing activities\n- Bringing new innovative marketing ideas to help generate interest and grow engagement\n- Occasional support on the Trade Counter\n\nThere may be opportunities to develop your career within the business and receive training in areas that will benefit you and the organisation.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpwk6wWNIg%2f4XSfdfe1FscgHe",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Marstep Resourcing Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1660443",
     "title": "Engagement Team Administrator",
     "company": "ReMind UK - Agency - Permanent",
@@ -322,35 +331,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "0278b647-2f76-470a-a79e-a193c1ffd5a4",
-    "title": "Administrative Coordinator",
-    "company": "Reed - Agency - Temporary",
-    "location": "Bath",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "13",
-    "salary_text": "£13 per hour",
-    "posted_date": "",
-    "description": "Administrative Coordinator\n- Location: Basingstoke\n- Salary: £13.00 per hour\n- Job Type: Full-time, Temporary (Approx. 8 weeks)\n- Immediate Start Available\n\nWe are seeking a reliable and proactive Administrative Coordinator to join a busy team in Basingstoke on a temporary basis. This role is essential for providing support during a period of staff absence. It offers a unique opportunity to contribute significantly to the smooth operation of our services, ensuring a positive impact on the community we support.\n\nDay-to-day of the role:\n- Provide administrative support to the Service Manager and the wider team.\n- Attend meetings and one-to-one sessions to take accurate minutes and notes.\n- Maintain records and support general office administration.\n- Assist with the coordination of daily activities and team requirements.\n- Run errands and support with practical tasks for clients, including collecting essential items such as food, clothing, or sleeping bags.\n- Act as a flexible support resource across the service as needs arise.\n\nRequired Skills & Qualifications:\n- Previous experience in an administrative or coordination role.\n- Strong organisational skills and attention to detail.\n- Excellent written and verbal communication skills.\n- Ability to work independently and use initiative.\n- A flexible and positive approach to supporting a busy team.\n- Confidence working within a client-focused environment.\n- A valid DBS certificate issued within the last 12 months is preferred.\n- Full UK driving licence and access to your own vehicle is preferred.\n\nBenefits:\n- Competitive hourly rate of £13.00.\n- Full-time hours for approximately 8 weeks, this maybe extended.\n- Immediate start available.\n- A varied and rewarding role where no two days are the same.\n- Opportunity to support a dedicated team delivering valuable services within the community.\n\nIf you're an organised administrator who can hit the ground running and enjoys supporting both teams and clients, we'd love to hear from you. Apply today to be considered for this immediate-start opportunity in Basingstoke. Please submit your CV and cover letter detailing your relevant experience and why you are interested in this position.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5vmvUW6xE8VJaGdckBx0Nbz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {

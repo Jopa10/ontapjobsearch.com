@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-chaffinch-brook-school",
-    "title": "Admin Assistant",
-    "company": "Chaffinch Brook School",
-    "location": "Croydon",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London)",
-    "work_pattern": "",
-    "posted_date": "2026-07-27",
-    "closing_date": "2026-08-14",
-    "closing_datetime": "2026-08-14T00:00:00+01:00",
-    "summary": "Admin Assistant with Chaffinch Brook School in Croydon. ['part time']; 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London).",
-    "description": "Chaffinch Brook School is recruiting for this vacancy in Croydon.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London).\n\nThe stated application deadline is 2026-08-14T00:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-administrator-and-cover-coordinator",
     "title": "Administrator and Cover Coordinator",
     "company": "Sarah Bonnell School",
@@ -45,31 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "teaching-vacancies-school-administrator-nishkam-school-west-london",
-    "title": "School Administrator",
-    "company": "Nishkam School West London",
-    "location": "Osterley",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "28,195.00 - 29,852.00",
-    "work_pattern": "",
-    "posted_date": "2026-08-03",
-    "closing_date": "2026-08-14",
-    "closing_datetime": "2026-08-14T00:00:00+01:00",
-    "summary": "School Administrator with Nishkam School West London in Osterley. ['full time']; 28,195.00 - 29,852.00.",
-    "description": "Nishkam School West London is recruiting for this vacancy in Osterley.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is 28,195.00 - 29,852.00.\n\nThe stated application deadline is 2026-08-14T00:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sarah Bonnell School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-unicorn-primary-school",
@@ -93,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Unicorn Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-hr-finance-assistant-parliament-hill-school",
@@ -117,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parliament Hill School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-contracts-administrator",
@@ -141,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oasis Community Learning",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded",
@@ -165,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Coombe Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-data-and-exams-officer-park-high-school-stanmore",
@@ -189,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Park High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-maths-hub-executive-administrator-the-st-marylebone-cofe-school",
@@ -213,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The St Marylebone CofE School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-personal-assistant-pa-to-senior-leadership-team-slt",
@@ -237,7 +217,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oaks Park High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-hr-admin-assistant-girls-learning-trust",
@@ -261,7 +245,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Girls' Learning Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-administrator-bobby-moore-academy-london",
@@ -285,7 +273,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bobby Moore Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-administrative-assistant-68fdbe69-d591-4204-a119-22911245a99a",
@@ -309,7 +301,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St. Thomas More Language College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-admin-assistant-myatt-garden-primary-school-london",
@@ -333,7 +329,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Myatt Garden Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-and-first-aider-carshalton-high-school-for-girls",
@@ -357,7 +357,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Carshalton High School for Girls",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-1cc7b9ae-114c-4858-8cb8-4caae38307df",
@@ -381,7 +385,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Harlington School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-administrator-beecholme-primary-school",
@@ -405,7 +413,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Beecholme Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-course-administrator",
@@ -429,7 +441,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Letta Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-sen-administrative-assistant-9f0c4fa6-782a-4d62-be80-5a33930422aa",
@@ -453,7 +469,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cuddington Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-coombe-girls-school",
@@ -477,7 +497,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Coombe Girls' School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-ehcp-administrator-lime-academy-ravensbourne",
@@ -501,7 +525,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Lime Academy Ravensbourne",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-ranelagh-primary-school",
@@ -525,7 +553,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ranelagh Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-and-pastoral-support-worker-northwood-school",
@@ -549,7 +581,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Northwood School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-office-co-ordinator",
@@ -573,7 +609,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Valentines High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-and-administration-assistant-hackbridge-primary-school",
@@ -597,7 +637,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hackbridge Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-administrator-belleville-wix-academy-london",
@@ -621,7 +665,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Belleville Wix Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-pathways-school",
@@ -645,7 +693,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pathways School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "887c5040-e943-4083-a032-078f4ad1afab",
@@ -695,12 +747,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c95dcc3a-aebc-4fba-850a-1e423f93872d",
@@ -775,14 +822,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225403370",
@@ -857,11 +897,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225406496",
@@ -886,11 +922,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225407744",
@@ -1165,11 +1197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430273",
@@ -1219,11 +1247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -1373,12 +1397,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225196977",
@@ -1428,12 +1447,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444722",
@@ -1461,31 +1475,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225452491",
-    "title": "Patent Administrator",
-    "company": "Matchtech - Agency - Contract",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Our client, a prominent entity in the FMCG industry, is currently seeking a Contract Patent Operations Coordinator to join their team in Westminster, London. This position is central to ensuring the smooth operation and management of patent-related processes within the company.\n\nKey Responsibilities:\n- Coordinating and overseeing patent operations and related administrative tasks\n- Utilising SQL to manage and maintain patent databases and ensure data integrity\n- Liaising with internal teams and external stakeholders to facilitate patent processes\n- Providing support in the drafting and submission of patent applications\n- Tracking patent status and managing timelines to ensure compliance with deadlines\n- Preparing reports and documentation for patent portfolios\n- Assisting with patent-related inquiries and providing necessary information\n- Supporting the Line Manager in various operational tasks and projects\n\nJob Requirements:\n- Experience in coordinating patent operations or related administrative roles\n- Proficiency in SQL for database management and reporting\n- Strong organisational and time-management skills\n- Excellent communication and interpersonal abilities\n- Detail-oriented with a high level of accuracy in task execution\n- Ability to work effectively both independently and within a team\n- Understanding of patent processes and relevant legal requirements\n- Relevant qualifications or equivalent experience in patent coordination or a related field\n\nBenefits:\n- Competitive daily rate\n- Opportunity to work within a leading FMCG company\n- Engagement in dynamic and impactful projects\n- Option to extend the contract based on performance and project needs",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RwI0pKPEova%2fLE6BV%2fcpjwx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Matchtech",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225451063",
     "title": "Workplace Services & Business Administrator",
     "company": "Office Angels - Agency - Temporary",
@@ -1508,12 +1497,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452426",
@@ -1563,12 +1547,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225454170",
@@ -1693,12 +1672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464987",
@@ -1748,11 +1722,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225467286",
@@ -1877,11 +1847,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3d2f35d7-304f-43ec-ab7a-50a01ee54e4b",
@@ -1981,13 +1947,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Scheduling and bookings",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480041",
@@ -2012,11 +1972,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480304",
@@ -2044,27 +2000,77 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1660445",
-    "title": "EA to the Archbishops' Secretary for Appointments",
-    "company": "Church of England - Agency - Permanent",
+    "job_id": "23643_225489159",
+    "title": "Receptionist",
+    "company": "Huntress - Agency - Temporary",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14",
+    "salary_max": "14",
+    "salary_text": "£14 per hour",
+    "posted_date": "",
+    "description": "Receptionist\n\n14.00ph\n\nTemp 4-6 weeks ASAP Start\n\nLondon-City\n\nOffice based-Mon-Fri\n\n8.00am-5.30pm\n\nA Global IT firm with an office in London require a dynamic, outgoing and professional Receptionist to join their reception team on temp basis. This role is an ASAP start.\n\nThe role:\n- Welcoming and assisting clients, visitors, and guests in a professional manner\n- Handling incoming calls efficiently and directing them to the appropriate team or individual\n- Liaising daily with the postroom to ensure timely distribution of mail and packages throughout the office\n- Supporting office events, including arranging catering and providing refreshments for guests on arrival\n- Managing meeting rooms and maintaining accurate meeting room diaries\n- Carrying out filing, scanning, and archiving duties\n\nAbout you:\n- Available to start immediately\n- Previous reception experience is desirable, not essential\n- Proactive and confident, with the ability to thrive in a fast-paced, ever-changing environment\n- Highly organised with strong time management skills and excellent attention to detail\n- A collaborative team player with a positive, can-do attitude\n- Strong communication skills, both written and verbal\n\nIf you are Receptionist available immediately looking for temp work please send your CV forward ASAP.\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RPoUy56yIiTnhARVxqg3crx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Huntress",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "f3a7dc5b-c771-4e05-8f18-ebae03d305e4",
+    "title": "Administrator",
+    "company": "Royal College of Physicians - Company - Temporary",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "26417",
+    "salary_max": "26417",
+    "salary_text": "£26417 per year",
+    "posted_date": "",
+    "description": "Administrator\n\n£26,417 per annum\n\nLondon, hybrid homeworking (minimum 6 days a month in office).\n\nTemporary Contract - 12 month fixed term contract\n\nWorking hours - Full time (35 hours per week). Standard working hours between 9am - 5pm.\n\nThe Federation of Royal Colleges of Physicians based in the UK and with an international reach is a collaboration between the Royal College of Edinburgh, Royal College of Physicians and Glasgow and Royal College of Physicians. Collectively the colleges represent 50,000 physicians worldwide. For physicians in the UK and globally, the colleges provide an invaluable professional network, opportunities to share best practice and ongoing educational opportunities.\n\nThe Federation develops and delivers services to support doctors at every stage of their careers, including:\n- Examinations (Membership of the Royal Colleges of Physicians of the UK - MRCP(UK)\n- Training (Joint Royal Colleges of Physicians Training Board - JRCPTB)\n- Continuing Professional Development (CPD)\n\nThe Joint Royal Colleges of Physicians Training Board (JRCPTB) is looking to recruit an Administrator in its Specialist Registrations Team. This is an exciting opportunity providing support to medical trainees from recruitment to completion of training and entry onto the GMC Specialist Register. You'll be working as part of a team with the full support of the Head of JRCPTB.\n\nPurpose and scope\n\nKey responsibilities\n- Working with doctors in training, Specialty Advisory Committees, Medical Directors and Associate Medical Directors to coordinate and pro-actively deliver support services across the team including:\n- Recommendations for entry onto the GMC Specialist Register on successful completion of specialty training and general trainee enquiries\n- Providing excellent customer service dealing with enquiries by telephone, email and correspondence\n- Actively contributing to wider team communication / FAQs / website updates\n\nAbout you\n- Exceptional interpersonal and networking skills\n- Ability to provide clear and confident telephone, face to face and written correspondence in a customer-trainee service delivery environment\n- Proficient in the use of features of a range of software products relevant to work including Microsoft Word, Excel and Outlook\n- Demonstrates excellent planning and organisational skills\n- Identifying service improvements, offering suggestions for implementation and translating ideas into action\n- Demonstrates the ability to work autonomously\n- Prior experience in an office administrative role\n- Knowledge of UK Postgraduate Medical Education is desirable\n\nFor more information about the role please view the job description downloadable at the bottom of this page.\n\nHow to apply\n\nPlease click \"Apply Now\" to submit your CV and a supporting statement (no more than 2 pages) explaining, with clear examples, how your skills and experience match the job description and person specification. Applicants who do not submit a relevant supporting statement as requested will not be shortlisted.\n\nClosing date: 17 August 2026\n\nInterviewing date: ongoing\n\nPlease note, we will be reviewing applications as they are received. Interviews may be arranged, and the role may be filled before the advertised closing date. Early applications are therefore encouraged.\n\nThe RCP positively encourages applications from suitably qualified and eligible candidates regardless of sex, race, disability, age, sexual orientation, transgender status, religion or belief, marital status or pregnancy and maternity.\n\nThe RCP is all about our people - our members, staff, volunteers and leaders. We educate, influence and collaborate to improve health and healthcare for everyone and know we can only do this by being inclusive, encouraging and celebrating diverse perspectives. Welcoming into our community people who represent the 21st-century medical workforce and the diverse population of patients we serve is a priority for us.\n\nWho we are\n\nThe Royal College of Physicians (RCP) is a rewarding and friendly place to work with an incredible history, dating back to our foundation in 1518 by King Henry VIII. We are a professional membership body for physicians - doctors who work in hospitals - with over 40,000 members in the UK and around the world working to improve patient care and reduce illness. Our activities focus on educating, improving and influencing for better health and care.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fj3b2oV%2f7Vg7b%2b9iHwmo0Pbi",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Administrator Administrator £26,417 per annum London, hybrid homeworking (minimum 6 days a month in office).",
+    "advertiser_name": "Royal College of Physicians",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "b46452d4-7f5b-4a4e-9034-56140c0e8368",
+    "title": "Billing & Data Administrator",
+    "company": "Box Recruitment Group Limited - Agency - Permanent",
     "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year",
     "posted_date": "",
-    "description": "The Archbishops' Advisers for Appointments and Vocations (AAAV) team is a key team within the Office of the Archbishops of Canterbury and York, supporting and advising the Archbishops and the wider Church on the nomination process for senior clergy. The team supportsthework of the Crown Nominations Commission (CNC) on the nomination of Archbishops and Diocesan Bishops, those involved in nominating Suffragan Bishops and the selection panels who nominate new cathedral Deans, as well as any other appointments involving the Archbishops.\n\nThe team supports senior clergy in their vocation and discernment, working to develop and equip a diverse pipeline of candidates for senior ministry roles. The team also works in partnership with others to ensure that senior clergy are equipped for leadership in the Church and the vital role it plays in the life of the nation. This role provides an excellent opportunity of working in a small, friendly, committed, professional and busy team supporting a complex, detailed and fast-paced portfolio of senior appointments, vocational discernment and associated projects. We work as a close-knit team in beautiful surroundings, part of the Lambeth Palace community and Office of the Archbishops of Canterbury and York, supporting each other with care, flexibility and good humour.\n\nThe post-holder will be required to work from Lambeth Palace (on-site) 4 days per week.\n\nThis role closes for applications on 26 August 2026.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QRl%2bDXLsmmWMPmgP0tsW2ox",
+    "description": "- Must be confident in MS Excel\n- Must be able to get to Stamford Hill North London\n\n£30,000 - £35,000 DOE Billing Administrator Location: Stamford Hill Hours: Fully office-based role Monday - Thursday: 9:30am - 6:00pm Friday: Early finish (in winter months)Are you good with data and MS Excel? If you answered yes, we want to hear from you! Box Recruitment Solutions are exclusively recruiting for a growing telecoms business in Stamford Hill. Reporting directly to the Billing Manager, this is an excellent opportunity for a proactive and detail-oriented administrator with strong data handling and customer service skills to join a busy and supportive finance and operations team. The successful candidate will be responsible for carrying out billing administration for both B2 B and B2 C customers across telecoms services including landline, broadband, leased lines and mobile services. Key Responsibilities\n- Billing & Data Administration\n- Monthly billing administration for B2 B and B2 C customers\n- Dealing with customer billing queries over the phone and resolving\n- Add and organise data within the billing system\n- Monitor and report billing data using internal systems\n- Reconcile and validate discrepancies across platforms including Zoho, Salesstar, My Accounts and Abillity\n- Import, match and verify data from multiple sources\n- Customer Communications\n- Generate and send end-of-contract letters to customers\n- Handle customer and internal queries via email and telephone professionally\n- Produce and dispatch billing and account-related correspondence\n- Systems & Reporting\n- Work with the Abillity billing platform\n- Produce internal reports and compile team data for review\n- Support the transition from manual to system-led billing processes\n- Team Support\n- Work closely within a collaborative team environment\n- Support colleagues with ad hoc administrative and operational tasks\n- Participate in cross-functional communication across the business\n\nPreferred Skills & Experience\n- Confident Excel skills including formulas and pivot tables\n- Previous billing administration or data-driven administration experience (preferred)\n- Strong attention to detail and organisational skills\n- Professional and confident telephone manner\n- Able to commute to Stamford Hill North London on a daily basis\n- Exposure to billing and CRM systems such as Abillity, Zoho, Salesstar or similar billing platforms would be advantageous\n\nBenefits\n- 28 days holiday\n- Private healthcare\n- Discretionary yearly bonus\n- KPI bonus scheme\n- Discounted rewards scheme\n- Early finish on Fridays\n\nINDD",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5XIGF4I9Xledne812JCtFsq",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Church of England",
+    "advertiser_name": "Box Recruitment Group Limited",
     "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -2316,11 +2322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107786275",
@@ -2348,64 +2350,54 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2e0f17ce-eacf-4dfd-b33f-6b3dfc640c41",
-    "title": "Clinical Administrator",
-    "company": "Adecco - Agency - Temporary",
-    "location": "Harrow",
+    "job_id": "23643_225487816",
+    "title": "Networking and Events Coordinator",
+    "company": "Hire Ground - Agency - Temporary",
+    "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "13.5",
-    "salary_text": "£13.5 per hour",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£17 - £17.50/hour £17.00 to £17.50 p/h",
     "posted_date": "",
-    "description": "Temporary Administrator (3-Month Assignment)\n\nLocation: Harrow, HA1 Pay Rate: £13.50 per hourHours: Monday to Friday, 8:30am to 5:00pmDuration: 3 Months (Temporary Assignment)Sector: Charity / Healthcare Support\n\nAbout the Role\n\nOur client, a well-established charity based in Harrow, is looking for an experienced and organised Administrator to join their team on a temporary 3-month assignment.\n\nThis is a busy, varied role providing comprehensive administrative support to patient, family support, wellbeing and education services. The successful candidate will be confident working independently, handling sensitive information, and managing multiple priorities in a professional environment.\n\nKey Responsibilities\n- Act as a first point of contact for enquiries and provide professional administrative support.\n- Manage incoming calls, emails and messages, including confidential and sensitive information.\n- Maintain accurate electronic and manual records in line with data protection requirements.\n- Process referrals and coordinate appointments for service users.\n- Update and maintain internal databases, spreadsheets and reporting systems.\n- Produce reports, presentations, correspondence and other documentation using Microsoft Office.\n- Organise meetings, prepare agendas, book rooms and take meeting minutes.\n- Monitor shared inboxes and service telephone lines.\n- Support events, training sessions and activities, including room setup and administration.\n- Liaise with internal teams, volunteers and external stakeholders to ensure effective communication.\n- Order office supplies and maintain administrative resources.\n- Provide general administrative support across departments when required.\n\nCandidate Requirements\n- Previous administration experience within a busy office environment.\n- Strong Microsoft Office skills, including Word, Excel and PowerPoint.\n- Excellent organisational and communication skills.\n- Ability to work independently and use initiative.\n- Experience handling confidential information with discretion.\n- Strong attention to detail and accuracy.\n- Comfortable managing multiple tasks and meeting deadlines.\n- Experience within the charity, healthcare, hospice or not-for-profit sector would be advantageous but is not essential.\n\nWhat's on Offer?\n- £13.50 per hour\n- Full-time hours, Monday to Friday\n- On-site role based in Harrow\n- Opportunity to support a meaningful charitable organisation\n- Immediate start available\n- 3-month temporary assignment\n\nTo apply, please submit your CV today.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65Qm6n2i0xqUkzFnZn2i4O0gx",
+    "description": "My client, a busy and dynamic City based media company, seeks an Events and Networking Coordinator to join a fast-paced Events & Marketing team. This role is Temp to Perm.\n\nResponsibilities include:\n\nSource, create and utilise data\n\nCreating & scheduling marketing emails\n\nDesign and implement marketing copy and use with data pulls.\n\nAnalysis of campaigns to find optimum solutions\n\nBooking venues and managing catering and delegate requests for roundtables (small lunches and dinners).\n\nDelegate support management for conferences\n\nOrdering supplies for the events.\n\nManaging the AV, booking in-house photographers, setting up websites and helping update these for roundtables and conferences.\n\nAttending all conferences and roundtables\n\nIt would be useful, but not essential, to have a knowledge of MS Dynamics along with basic MS Office products.\n\nThe right candidates for this role will have high attention to detail, be IT savvy, be a fast learner and have excellent communication skills.\n\nThis is a hybrid role, with a minimum of 2 days a week based in their London office. Occasionally some work will take place outside of usual office hours such as earlier in the morning or in the evening.\n\nThis is a temp to perm role, with an immediate start.\n\nApply now for immediate consideration.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRELloGgze%2b81dxVV0L3RXE7d",
     "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "This is a hybrid role, with a minimum of 2 days a week based in their London office.",
+    "advertiser_name": "Hire Ground",
     "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225428094",
-    "title": "Office Administrator",
-    "company": "Talent-ID Recruitment Limited - Agency - Permanent",
-    "location": "Harrow",
+    "job_id": "107822213",
+    "title": "Occupancy Planner",
+    "company": "Integral UK Ltd - Company - Permanent",
+    "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "26500",
-    "salary_max": "26500",
-    "salary_text": "£26500 per year (Salary review after 12 moths)",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
     "posted_date": "",
-    "description": "Office Junior\n\nLocation: Insert Location\nJob Type: Full-time, Permanent\nSalary: Competitive, dependent on experience\n\nAbout the Role\n\nWe are looking for a motivated and organised Office Junior to join our growing team. This is an excellent opportunity for someone looking to start or develop a career in administration within the roofing and construction industry.\n\nYou'll play an important role in supporting the day-to-day running of the office, ensuring customers receive excellent service while helping our surveyors and roofing teams stay organised.\n\nThis is a position with genuine career progression. Following a successful 12-month probationary period, there will be the opportunity for a salary review and the potential to progress onto a fully supported Business Degree Apprenticeship for the right candidate.\n\nKey Responsibilities\n- Answer and respond to roofing enquiries via telephone and email.\n- Book surveyor appointments with customers.\n- Manage and organise the company inbox.\n- Complete daily labour sheets by contacting roofing teams to confirm:\n- Hours worked\n- Start and finish times\n- Days worked\n- Job information\n- Carry out courtesy calls to customers following quotations to answer questions and follow up on outstanding quotes.\n- Update customer records and job information within the CRM system.\n- Assist with general office administration and filing.\n- Liaise with surveyors, roofers and customers to ensure smooth communication.\n- Support the wider team with ad hoc administrative duties.\n\nSkills & Experience\n\nEssential\n- Excellent communication and telephone manner.\n- Strong organisational skills and attention to detail.\n- Good IT skills, including Microsoft Office.\n- Friendly, professional and confident dealing with customers.\n- Ability to prioritise workload and work independently.\n- Willingness to learn and develop.\n\nDesirable\n- Experience using Pipedrive CRM is preferred but not essential, as full training will be provided.\n- Previous administration or customer service experience is advantageous.\n\nWhat We Offer\n- Competitive salary.\n- Full training and ongoing support.\n- Clear career progression opportunities.\n- Salary review after 12 months, based on performance.\n- Opportunity to enrol on a Business Degree Apprenticeship after 12 months for the right candidate.\n- Friendly, supportive working environment.\n- Long-term career prospects within a growing business.\n\nIf you're enthusiastic, organised and looking for a role where you can build a long-term career, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbz69e2YG2y4qEDxuP2%2bo56Tt",
+    "description": "JLL empowers you to shape a brighter way.\nOur people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to thrive, grow meaningful careers and to find a place where they belong click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fGgqJqKi6s%2bvYCEpmYPVgfc",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Talent-ID Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
+    "advertiser_name": "Integral UK Ltd",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "365a170b-e62e-49f9-b465-6fa223da75bd",
@@ -2430,11 +2422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225424406",
@@ -2462,35 +2450,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "9b48a7b1-48d9-48c8-8cae-115c132bd6d9",
-    "title": "Sales Administrator (Part Time)",
-    "company": "Job Box Recruitment Limited - Agency - Permanent",
-    "location": "Teddington",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Part-Time Sales Administrator\n\nMonday to Friday 5 Hours Per Day (25 Hours Per Week)\n\n£30,000 Pro Rata\n\nAre you an organised, detail-focused administrator who enjoys working in a fast-paced environment? We're recruiting for a fantastic part-time opportunity with an established and growing business looking to strengthen its sales support team.\n\nThis is a varied role where you'll play a key part in ensuring orders and customer documentation are processed accurately and efficiently. Working closely with an experienced team, you'll support day-to-day sales administration, coordinate information across departments, manage customer documentation and portals, process orders, and help keep everything running smoothly behind the scenes.\n\nWhat you'll be doing:\n- Providing administrative support to the sales team\n- Managing customer documentation and online portals\n- Processing and updating customer orders\n- Coordinating information with internal departments\n- Preparing samples and documentation for customer meetings\n- Maintaining accurate records and resolving order queries\n- Supporting continuous improvements to processes\n\nWe're looking for someone who:\n- Has previous administration experience, ideally within a sales or customer support environment\n- Is highly organised with excellent attention to detail\n- Can manage multiple tasks and prioritise effectively\n- Is confident using Microsoft Office, particularly Excel\n- Has strong communication skills and enjoys working as part of a team\n- Takes a proactive approach and enjoys problem-solving\n\nWhat's on offer:\n- Part-time hours: Monday to Friday, 5 hours per day (25 hours per week)\n- Salary: £30,000 pro rata\n- A friendly and supportive team environment\n- A varied role with plenty of responsibility\n- Long-term opportunity with a well-established business\n\nIf you're looking for a flexible part-time position where your organisational skills will make a real impact, we'd love to hear from you. Apply today!\n\nPlease note:\n\nAs you can appreciate we are currently overwhelmed with applications of individuals looking for both short term and permanent work and we can therefore only contact those applications that have relevant skills for positions that we currently have available. Should you not hear from us within a week, please assume you have been unsuccessful on this occasion.\n\nIn line with the GDPR Regulations, we are making you aware that in order to proceed with your application, we will need to contact you via email, telephone and/or text message. By submitting your CV to this vacancy, you are agreeing to Job Box Recruitment Limited holding your details in order to enable us to contact you with suitable positions. Details of our Privacy Notice and GDPR Policy can be found on our website or emailed across to you if requested.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttpg%2fcLmQ7RMcaK5Qt0Nx%2bvja",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Job Box Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
-  },
-  {
     "job_id": "23643_225406162",
     "title": "Administrator",
     "company": "Unico Recruitment London - Agency - Permanent",
@@ -2513,11 +2472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "6e0e1ceb-64e6-4082-b2ae-1be73f02bf86",
@@ -2642,12 +2597,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
@@ -2675,6 +2625,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225428094",
+    "title": "Office Administrator",
+    "company": "Talent-ID Recruitment Limited - Agency - Permanent",
+    "location": "Harrow",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26500",
+    "salary_max": "26500",
+    "salary_text": "£26500 per year (Salary review after 12 moths)",
+    "posted_date": "",
+    "description": "Office Junior\n\nLocation: Insert Location\nJob Type: Full-time, Permanent\nSalary: Competitive, dependent on experience\n\nAbout the Role\n\nWe are looking for a motivated and organised Office Junior to join our growing team. This is an excellent opportunity for someone looking to start or develop a career in administration within the roofing and construction industry.\n\nYou'll play an important role in supporting the day-to-day running of the office, ensuring customers receive excellent service while helping our surveyors and roofing teams stay organised.\n\nThis is a position with genuine career progression. Following a successful 12-month probationary period, there will be the opportunity for a salary review and the potential to progress onto a fully supported Business Degree Apprenticeship for the right candidate.\n\nKey Responsibilities\n- Answer and respond to roofing enquiries via telephone and email.\n- Book surveyor appointments with customers.\n- Manage and organise the company inbox.\n- Complete daily labour sheets by contacting roofing teams to confirm:\n- Hours worked\n- Start and finish times\n- Days worked\n- Job information\n- Carry out courtesy calls to customers following quotations to answer questions and follow up on outstanding quotes.\n- Update customer records and job information within the CRM system.\n- Assist with general office administration and filing.\n- Liaise with surveyors, roofers and customers to ensure smooth communication.\n- Support the wider team with ad hoc administrative duties.\n\nSkills & Experience\n\nEssential\n- Excellent communication and telephone manner.\n- Strong organisational skills and attention to detail.\n- Good IT skills, including Microsoft Office.\n- Friendly, professional and confident dealing with customers.\n- Ability to prioritise workload and work independently.\n- Willingness to learn and develop.\n\nDesirable\n- Experience using Pipedrive CRM is preferred but not essential, as full training will be provided.\n- Previous administration or customer service experience is advantageous.\n\nWhat We Offer\n- Competitive salary.\n- Full training and ongoing support.\n- Clear career progression opportunities.\n- Salary review after 12 months, based on performance.\n- Opportunity to enrol on a Business Degree Apprenticeship after 12 months for the right candidate.\n- Friendly, supportive working environment.\n- Long-term career prospects within a growing business.\n\nIf you're enthusiastic, organised and looking for a role where you can build a long-term career, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbz69e2YG2y4qEDxuP2%2bo56Tt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Talent-ID Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
     "title": "Administrator Receptionist",
     "company": "Reed - Agency - Permanent",
@@ -2697,14 +2672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -2729,13 +2697,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428764",
@@ -2810,11 +2772,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434211",
@@ -2889,40 +2847,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "23643_225434826",
-    "title": "Call Centre Advisor",
-    "company": "BBS Recruitment - Agency - Contract",
-    "location": "Islington",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "20.55",
-    "salary_max": "20.55",
-    "salary_text": "£20.55 per daily",
-    "posted_date": "",
-    "description": "BBS Recruitment is an independent recruitment agency specialising in Transport & Logistics, Social Care, Public Sector, and Commercial recruitment.\n\nWe are currently recruiting for an experienced Customer Service Agent to join our client s team based in Islington. The ideal candidate will have at least one year s experience working within a local authority environment and be confident providing high-quality customer service to residents and service users\n\nThis is an excellent opportunity to join a busy and supportive Contact Centre, providing a high-quality customer service to residents across the borough. As the first point of contact, you will play a vital role in delivering an efficient, professional, and compassionate service to members of the public.\n\nKey Responsibilities of the Call Centre Advisor:\n- Answer incoming telephone calls from residents, providing a professional, friendly, and efficient service.\n- Respond to enquiries relating to council services, housing, repairs, and other local authority services.\n- Provide practical advice, guidance, and solutions in line with council policies and procedures.\n- Support vulnerable or distressed residents with empathy, patience, and professionalism.\n- Accurately record customer enquiries and update information on the council's CRM and case management systems.\n- Ensure all customer interactions are documented clearly and accurately.\n- Escalate complex enquiries to the appropriate department where necessary.\n- Work collaboratively with internal teams to resolve customer issues promptly.\n- Meet individual and team performance targets while maintaining excellent customer service standards.\n- Handle confidential information in accordance with GDPR and council policies.\n- Maintain a positive and professional approach in a fast-paced contact centre environment.\n\nRequirements for the Call Centre Advisor:\n- Previous experience working in a call centre, customer service, or contact centre environment.\n- Excellent communication and active listening skills.\n- Ability to remain calm and professional when dealing with challenging or vulnerable customers.\n- Strong problem-solving and decision-making abilities.\n- Good IT skills, including experience using CRM or case management systems.\n- Excellent organisational skills and attention to detail.\n- Ability to work effectively as part of a team and manage a busy workload.\n\nWhat We Offer for the Call Centre Advisor:\n- Monday to Friday shift patterns between 8:00am and 8:00pm, with occasional Saturday shifts (8:00am 12:00pm).\n- Opportunity to gain valuable experience with one of London's leading local authorities.\n- Training will be given\n- Support from a dedicated recruitment consultant throughout your assignment.\n\nIf you have previous call centre or customer service experience and are passionate about delivering excellent customer service, we'd love to hear from you.\n\nApply today with your up-to-date CV, and one of our consultants will be in touch.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMtdJKP0zYAIQpNiLmFGKKXr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "BBS Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d2495526-4867-4327-8cf4-c09c0908fbc3",
@@ -2950,26 +2875,26 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225417672",
-    "title": "Customer Service Operations Coordinator",
-    "company": "Bridge Recruitment UK Ltd - Agency - Permanent",
-    "location": "Harrow",
+    "job_id": "386c381b-b253-4e98-ab7f-f435ce040325",
+    "title": "Customer Services Administrator",
+    "company": "Foresters Financial - Company - Contract",
+    "location": "Bromley",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "29000",
-    "salary_max": "30000",
-    "salary_text": "£29000 - £30000 per year",
+    "employment_type": "Contract",
+    "salary_min": "23842",
+    "salary_max": "23842",
+    "salary_text": "£23842 per year",
     "posted_date": "",
-    "description": "Job - Customer Service Operations Coordinator\nSalary -30k plus call out (1 in 4 weeks) bonus\nLocation - Harrow location\n\nMy well-established client looking for someone who has experience in one or more of the following areas:\n\nCustomer service or helpdesk environments\nRepairs administration or scheduling\nPlumbing and heating, building services, M&E (Mechanical & Electrical), or facilities management\nContract support or maintenance coordination\n\nThe ideal candidate will be highly organised, with strong Excel and reporting skills and the ability to analyse operational data to support service performance. You will be confident monitoring expenditure, identifying trends, gaps and opportunities for improvement, producing accurate reports, and supporting process improvements to help deliver an efficient, high-quality service.\n\nYou will also have excellent communication skills, be able to manage multiple priorities, work effectively with internal teams, contractors and customers, and demonstrate a proactive approach to problem-solving and continuous improvement.\n\nYou will be expected to be on call which will be 1 in 4 weeks (details to be explained)\n\nThe role has the potential to go to hybrid - mainly 3 office / 2 home - this will be after a qualifying period\n\nExciting opportunity for the right candidate to join an exceptional company that will be experiencing high growth over the next 12/24 months - there will be plenty of room for progression and career development",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzYQWtY9d9Q%2b6y3Fmjb%2bs%2ftt",
+    "description": "Customer Services Administrator\n\nBromley\n\n£23,842 per annum\n\n5 Months Fixed Term Contract, Full Time (35 hours per week)\n\nJoin a team that puts people first.\n\nAt Foresters Financial UK, we're proud to deliver exceptional service to our members. As a Customer Service Administrator on a 5 month fixed term contract you will be joining our vibrant, supportive, customer service team. You'll play a key role in supporting our customers and Financial Advisers from initial contact through to the end of their contract terms.\n\nThis is a great opportunity for someone who enjoys speaking to customers, solving problems, working collaboratively, and delivering high-quality service in a fast-paced environment.\n\nWhat you'll be doing:\n- Handling a high volume of inbound calls and enquiries with professionalism and care\n- Responding to customer correspondence via email and letter\n- Liaising with customers, Financial Advisers, and third parties to process instructions and resolve queries\n- Working closely with your team to meet service standards and deliver a seamless customer experience.\n\nWhat we're looking for:\n- A confident communicator with a strong telephone manner\n- Excellent written and verbal communication skills\n- Good computer literacy and attention to detail\n- A team player with strong organisational skills and the ability to prioritise effectively\n- Someone who enjoys investigating and resolving issues\n- If you have financial services experience this is of benefit but it is not essential.\n\nWhat we offer:\n- £23,842 annual salary\n- Annual holiday allowance of 25 days holiday plus bank holidays\n- Contributory pension scheme. Company matches up to 5%\n- Life cover\n- Hybrid working after training (1 days/week from home)\n- Supportive team culture and opportunities to grow\n- 1 days paid charitable workday\n- Wellbeing support Programme\n\nWorking hours:\n\n35 hours per week, Monday to Friday. Start times rotate weekly between 8:30-16:15 or 9:15-17:00.\n\nReady to make a difference?\n\nApply now and be part of a team that values service, integrity, and community.\n\nAbout us\n\nForesters Financial is not your typical financial services provider. Those who join our purpose-driven organisation enjoy a culture of collaboration, creativity, and mutual respect and are challenged to do their best to make a difference every day. We help everyday families achieve their financial goals and make a lasting difference in their lives and communities.\n\nWhat we do\n\nWe help everyday families achieve their financial goals and make a lasting difference in their lives and communities. We will continue to do this by employing enthusiastic and talented Financial Advisers working across the country and equally talented people to be based at our Head Office in Bromley.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgomeLZI3alXtjqJzxY%2fDVFGn",
     "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "You will be expected to be on call which will be 1 in 4 weeks (details to be explained) The role has the potential to go to hybrid - mainly 3 office / 2 home - this will be after a qualifying period Exciting opportunity for the right candidate to join an exceptional company that will be experiencing high growth over the next 12/24 months - there will be plenty of room for progression and career development Harrow London",
-    "advertiser_name": "Bridge Recruitment UK Ltd",
-    "advertiser_type": "Agency",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Foresters Financial",
+    "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
@@ -3100,25 +3025,25 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "d9bf0c68-a590-4e12-855c-fa254f106a33",
-    "title": "Operations & Sales Coordinator",
-    "company": "BRIGHT SIDE RECRUITMENT LTD - Agency - Permanent",
-    "location": "Orpington",
+    "job_id": "23643_225417672",
+    "title": "Customer Service Operations Coordinator",
+    "company": "Bridge Recruitment UK Ltd - Agency - Permanent",
+    "location": "Harrow",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
+    "salary_min": "29000",
+    "salary_max": "30000",
+    "salary_text": "£29000 - £30000 per year",
     "posted_date": "",
-    "description": "Are you an ambitious, commercially minded individual; ready to make a real impact in a growing construction business, based in Orpington, Kent?\n\nAre you seeking an exciting 360 role that requires energy and input within a multi-faceted, fast-paced construction business, where no two days are ever the same?\n\nThis rare opportunity is so much more than a standard office position. The Operations & Sales Coordinator is a varied, and hands-on role sat at the heart of the business. You will be supporting operational administration, customer service, project coordination and business development.\n\nYou will be expected, and trusted to take ownership, bringing ideas, and spotting opportunities to help drive growth. One day you may be coordinating project information and improving processes; the next, you may be following up enquiries, building customer relationships or supporting new business activity.\n\n37.5 hours per week - Monday to Friday (some flexibility re start / finish times)\n\nAn outline of what you'll be doing as the Operations & Sales Coordinator\n- Supporting day-to-day operations, administration and project coordination\n- Acting as a key contact for customers, suppliers and internal teams\n- Managing enquiries, follow-ups, quotations, records and project information\n- Identifying ways to improve systems, processes and service levels\n- Supporting business development, lead generation and follow-ups\n- Building strong customer and supplier relationships\n- Helping generate new business and contribute directly to company growth\n- Attending occasional site visits and business networking events\n- Designing content and managing the social media platforms\n\nAbout You\n\nWe are looking for someone who is energetic, proactive and commercially aware. An unflappable individual with an entrepreneurial mindset- ready and confident to get things done.\n\nIdeally, you are a car driver with a positive attitude and the confidence to get involved across the business. You will be organised, reliable and comfortable managing a varied workload in a fast-paced environment.\n\nYou will be a great fit if you are motivated, ambitious, confident with people, keen to learn and willing to go the extra mile. Most importantly, you will enjoy taking ownership rather than waiting to be told what to do.\n\nWhat's on Offer\n- Full-time, permanent role based in Orpington, Kent\n- A highly competitive basic salary, depending on experience\n- A friendly working environment where your efforts are genuinely valued and rewarded\n- Performance-related bonus/commission with OTE of £40,000+\n- A varied, high-impact role in a growing construction company\n- Real scope to develop, take on responsibility and grow with the business\n- Free on-site parking\n\nReady to Help Build Something?\n\nIf you want a role where your ambition, ideas and commercial drive can make a genuine difference, we would love to hear from you.\n\nApply now and take the next step in your career.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgoMhhjldk1VCDtlB9BDpFjBn",
+    "description": "Job - Customer Service Operations Coordinator\nSalary -30k plus call out (1 in 4 weeks) bonus\nLocation - Harrow location\n\nMy well-established client looking for someone who has experience in one or more of the following areas:\n\nCustomer service or helpdesk environments\nRepairs administration or scheduling\nPlumbing and heating, building services, M&E (Mechanical & Electrical), or facilities management\nContract support or maintenance coordination\n\nThe ideal candidate will be highly organised, with strong Excel and reporting skills and the ability to analyse operational data to support service performance. You will be confident monitoring expenditure, identifying trends, gaps and opportunities for improvement, producing accurate reports, and supporting process improvements to help deliver an efficient, high-quality service.\n\nYou will also have excellent communication skills, be able to manage multiple priorities, work effectively with internal teams, contractors and customers, and demonstrate a proactive approach to problem-solving and continuous improvement.\n\nYou will be expected to be on call which will be 1 in 4 weeks (details to be explained)\n\nThe role has the potential to go to hybrid - mainly 3 office / 2 home - this will be after a qualifying period\n\nExciting opportunity for the right candidate to join an exceptional company that will be experiencing high growth over the next 12/24 months - there will be plenty of room for progression and career development",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzYQWtY9d9Q%2b6y3Fmjb%2bs%2ftt",
     "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "BRIGHT SIDE RECRUITMENT LTD",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "You will be expected to be on call which will be 1 in 4 weeks (details to be explained) The role has the potential to go to hybrid - mainly 3 office / 2 home - this will be after a qualifying period Exciting opportunity for the right candidate to join an exceptional company that will be experiencing high growth over the next 12/24 months - there will be plenty of room for progression and career development Harrow London",
+    "advertiser_name": "Bridge Recruitment UK Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -3200,56 +3125,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1658488",
-    "title": "Finance Assistant",
-    "company": "TPP Recruitment - Agency - Permanent",
-    "location": "City Of Westminster",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£17.58 per hour",
-    "posted_date": "",
-    "description": "Job role: Finance Assistant\nLocation:Central London\nPay Rate: £17.58 per hour plus holiday pay\nHours: 35 hours per week\nContract: Temporary Ongoing\nWorking pattern: 2 days onsite initially, reducing to 1 day a week\n\nWe are recruiting two Finance Assistants to join a national charity during a period of increased workload and to support the clearance of an existing backlog.\n\nThese are hands-on finance roles offering broad exposure across transactional finance. One position will have a stronger focus on Accounts Payable, while the other will focus more on Accounts Receivable. Both roles require individuals who are organised, proactive and confident managing processes from start to finish.\n\nWhat you will be doing:\n- Processing purchase invoices and maintaining purchase ledgers\n- Raising sales invoices and supporting credit control activities\n- Carrying out bank reconciliations and ledger allocations\n- Managing shared finance inboxes and responding to queries\n- Chasing outstanding information from internal and external stakeholders\n- Scanning, filing and maintaining finance records\n- Handling finance post and document distribution\n- Supporting month-end processes and reconciliations\n- Assisting with general finance administration and enquiry resolution\n- Ensuring financial records remain accurate, up to date and well organised\n\nWhat we are looking for:\n- Previous experience in a Finance Assistant, Accounts Assistantwithin the charity sector or similar\n- Strong bookkeeping and purchase ledger experience\n- Experience processing invoices from receipt through to payment\n- Confidence managing accounts receivable activities and credit control\n- Experience completing bank reconciliations\n- Excellent organisational skills and attention to detail\n- Strong verbal and written communication skills\n- A proactive approach to resolving queries and obtaining information\n- Ability to work independently and manage competing priorities\n\nWe want you to have every opportunity to demonstrate your skills, ability and potential; please contact us if you require any assistance or adjustment so that we can help with making the application process work for you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgWRkVX9RqclqEXBn3yNVL8i",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TPP Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1656262",
-    "title": "Cat Intake & Foster Coordinator and Cattery Carer (1 x Permanent and 1 x 6 months FTC with a possibility of becoming permenant)",
-    "company": "Mayhew - Agency - Permanent",
-    "location": "Brent",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Contract length:1 x 6-month Fixed Term Contract with a possibility of becoming permanent\n\n1x Full-Time Permanent\n\nLocation: North West London\n\nHours per week: 35 (Sunday - Thursday or Tuesday - Saturday, 9am - 5pm)\n\nSalary: £28,773.00 pa\n\nClosing date for applications: Rolling, candidates are advised to apply early\n\nFirst interview date: First interviews are held over Microsoft Teams\n\nSecond interview date: Candidates successful at the first interview will be offered a trial shift at the Home as part of the selection process\n\nEvery dog and cat in need deserves expert, personalised care and support, and to be loved. When you work for Mayhew, you understand that better than ever.\n\nWe're a passionate, committed and diverse team of c 60 staff and c 220 volunteers, here for dogs, cats and communities in the UK and Georgia. We offer expert veterinary care, rescue and rehoming services, programmes in the community and guidance and support to improve the lives of dogs and cats in need.\n\nWe do our best for dogs and cats in need every day, working with colleague across the sector to improve their lives and to give them the care, support and love they deserve. But it's our warmth, creativity and care that touch lives. Here, we take the time to really get to know the dogs and cats we care for and those who love them.\n\nWe are recruiting a Cat Foster & Intake Coordinator and Cattery Carer who shares our compassion and commitment to animal welfare. This is a fixed-term position working alongside our permanent full-time Cat Foster & Intake Coordinator, with the goal of increasing our capacity to help and rehome more cats.\n\nWorking with staff and volunteers across the Home, you will have a hand in helping all the cats in our care, from feeding, cleaning, behaviourally assessing and socialising to rehoming. You will be responsible for organising the intake of our cats coming into our shelter and organising cats in our care going into temporary foster homes. This can be physically and emotionally demanding but is also hugely rewarding; you can view some of our amazing rescue stories here.\n\nWe offer a caring and supportive team, lots of variety and the opportunity to make a lasting difference to the lives of cats who rely on us.\n\nMayhew offers a variety of employee benefits, from enhanced annual leave from day one to Health Cash Plans.\n\nGenerally, you will:\n- Organise the cat intake list, providing owners with advice and where appropriate and admitting cats into the Cattery.\n- Organise the cat foster programme, matching suitable cats with cat foster volunteers and advise on cat behaviour.\n- Assist the Cat Adoption Officer with rehoming the cats under our care\n- Work flexibly in a team environment, often independently, to meet the specific needs of the cats in our care by helping with their feeding, cleaning, enrichment and grooming\n- Assist in the provision of treatment to cats as advised by our veterinary staff.\n\nTo be successful in this role, you need:\n- A strong understanding of cat behaviour and welfare\n- Excellent customer service skills\n- Experience in handling cats and caring for them\n- A calm, compassionate, resilient and friendly manner",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxoC1rEhiy3XaDePkEP68bap",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Mayhew",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1660452",
     "title": "CEO Office Coordinator",
     "company": "Marie Curie - Agency - Permanent",
@@ -3269,6 +3144,31 @@
     "working_arrangement_text": "Hybrid working",
     "working_arrangement_evidence": "Salary: £29,000 (+ £3,500 London Weighting Allowance if applicable) Contract: Permanent, full-time (35h per week) Location: Hybrid.",
     "advertiser_name": "Marie Curie",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "eacb9087-a57f-4b1a-937c-d91ab969cc8c",
+    "title": "Accounts Assistant",
+    "company": "K-People Europe Limited - Agency - Permanent",
+    "location": "Enfield",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "",
+    "description": "K-People Europe is a London based recruitment consultancy and we've been recruiting top talents for our clients in UK & Europe since 2007.\n\nOur client is looking for an Accounts Assistant.\n\nKey Responsabilities\n\n(1) Handle day-to-day accounting activities (AR, AP, GL, month-end close and cash flow) for a business operation.\n\n(2) Prepare VAT returns and support corporation tax compliance by coordinating with external tax advisers for a business operation.\n\n(3) Process and maintain accounts payable for Head Office.\n\n(4) Perform balance sheet reconciliations and investigate and resolve accounting discrepancies.\n\n(5) Assist with statutory audits by preparing schedules and supporting documentation.\n\n(6) Prepare financial reports and support month-end and year-end closing processes.\n\n(7) Maintain accurate accounting records and ensure compliance with company policies and accounting procedures.\n\nRequirements\n\n(1) Minimum 5 years' relevant accounting experience in UK\n\n(2) Must have accounting degree or relevant accounting qualification such as AAT, CIMA, ACCA (part-qualified accepted)\n\n(3) Excellent numerical skills with attention to details\n\n(4) Flexible, team-oriented mind & excellent communication skills\n\n(5) Proficient in MS Office\n\n(6) Must be able to commute to Enfield Lock(postcode: EN3) regularly (on-site car park, 25 min from Liverpool Street station)\n\n(7) Any East Asian language (such as Korean or Japanese or Mandarin or Cantonese) skill preferred but not essential\n\nConditions\n\n(1) Job location: Enfield Lock(25 min from Liverpool Street station)\n\n(2) Job type: full-time & permanent & hybrid(2 days work from home AFTER probation)\n\n(3) Hours of work: Mon Fri & 9am 5:30pm\n\n(4) Annual basic salary: 35 K (depending on experience)\n\n(5) Annual leave: 28 days (20 holidays + 8 bank holidays)\n\nBefore you apply\n\n(1) The right candidate must be eligible to work full-time in UK immediately without any restriction. If you're on any visa permitting full-time work in UK, please indicate your visa status in your CV and when it expires.\n\n(2) Please send your CV in MS Word format\n\n(3) Any East Asian language (such as Korean or Japanese or Mandarin or Cantonese) skill preferred but not essential\n\n(4) ONLY right candidates will be contacted, and if your application is successful, we'll contact you within 5 working days. We're sorry but we do NOT respond to individual approach.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0K%2b36Afjl%2f8OOqSSWPX8AdFs",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Requirements (1) Minimum 5 years' relevant accounting experience in UK (2) Must have accounting degree or relevant accounting qualification such as AAT, CIMA, ACCA (part-qualified accepted) (3) Excellent numerical skills with attention to details (4) Flexible, team-oriented mind & excellent communication skills (5) Proficient in MS Office (6) Must be able to commute to Enfield Lock(postcode: EN3) regularly (on-site car park, 25 min from Liverpool Street station) (7) Any East Asian language (such as Korean or Japanese or Mandarin or Cantonese) skill preferred but not essential Conditions (1) Job location: Enfield Lock(25 min from Liverpool Street station) (2) Job type: full-time & permanent & hybrid(2 days work from home AFTER probation) (3) Hours of work: Mon Fri & 9am 5:30pm (4) Annual basic salary: 35 K (depending on experience) (5) Annual leave: 28 days (20 holidays + 8 bank holidays) Before you apply (1) The right candidate must be eligible to work full-time in UK immediately without any restriction.",
+    "advertiser_name": "K-People Europe Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",

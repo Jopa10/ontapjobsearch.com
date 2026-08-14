@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire",
-    "title": "Administrative Assistant",
-    "company": "Pudsey Grammar School",
-    "location": "Pudsey",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met.",
-    "work_pattern": "",
-    "posted_date": "2026-07-16",
-    "closing_date": "2026-08-14",
-    "closing_datetime": "2026-08-14T08:00:00+01:00",
-    "summary": "Administrative Assistant with Pudsey Grammar School in Pudsey. ['full time']; £22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met..",
-    "description": "Pudsey Grammar School is recruiting for this vacancy in Pudsey.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met..\n\nThe stated application deadline is 2026-08-14T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b",
     "title": "Senior Administrator",
     "company": "Colton Primary School",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Colton Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Woodkirk Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-tong-leadership-academy-bradford-west-yorkshire",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tong Leadership Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-cross-gates-primary-school",
@@ -117,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cross Gates Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-exams-officer-bingley-grammar-school",
@@ -141,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bingley Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire",
@@ -165,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The King's School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05",
@@ -189,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oastlers School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-specialist-administrator-send-medical-lead-first-aid",
@@ -213,7 +217,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parkside School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49",
@@ -237,7 +245,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "All Saints Catholic College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636",
@@ -261,7 +273,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "All Saints Catholic College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62",
@@ -285,7 +301,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "All Saints Catholic College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45",
@@ -309,7 +329,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "De Lacy Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-send-exam-access-arrangements-administrator",
@@ -333,7 +357,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The North Halifax Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy",
@@ -357,7 +385,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons Cottingley Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire",
@@ -381,7 +413,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fountain Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "183c1c84-18b4-4e84-9a39-1c158058796b",
@@ -606,146 +642,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Correspondence"
-    ]
-  },
-  {
-    "job_id": "ec237c2a-3320-4238-a950-1ee708174fdc",
-    "title": "Temporary Finance Administrator - Education",
-    "company": "Office Angels - Agency - Temporary",
-    "location": "Bradford",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "13.5",
-    "salary_text": "£13.5 per hour",
-    "posted_date": "",
-    "description": "Temporary Finance Administrator - Education establishment!\n\nHours: Monday - Friday - 35 hours per week 8:00am- 4:00pmStart: ASAPDuration: End of August 2026 Location: Bradford BD5- Free onsite parkingPay rate: £13.50 per hour\n\nWe are partnering with an academy based in Bradford for are looking for a candidate to come and join their small, friendly finance team. This role is to support in the interim of a busy period.\n\nIf you have got experience with the below, then please apply today! Please note we will need to obtain an Enhanced DBS before you start. If you have one already in place this is a bonus!\n\nMain duties:\n- Raising PO numbers/ Processing invoices\n- Processing staff expenses following policy\n- Processing credit card transactions\n- Liaising with other academies and suppliers\n- General Administration\n- Data entry using the internal CRM systems\n\nIdeal candidate will have:\n- Previous experience in an Accounts role would be ideal\n- Excellent communication skills to all levels of the business\n- Highly organised and high level of attention to detail\n- IT literate- Microsoft, Excel, Internal systems\n\nBenefits of becoming an Office Angels Temp (THE BEST BENEFITS IN THE MARKET):\n- Weekly Pay - Pay day is a Friday!\n- 28 days annual leave minimum\n- Dedicated consultant to support your job search.\n- First opportunity to see permanent positions.\n- Access to free eyecare vouchers\n- Temp of the Month awards\n- Timesheets can be completed on mobile devices\n- Perks at work and discount schemes\n\nApply today!\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOJsFHtpUN%2f%2f6MPetgxitwVr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry"
-    ]
-  },
-  {
-    "job_id": "23643_225404256",
-    "title": "Administrator",
-    "company": "Proactive Global - Agency - Permanent",
-    "location": "Bradford",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.83",
-    "salary_max": "14.38",
-    "salary_text": "£12.83 - £14.38 per hour",
-    "posted_date": "",
-    "description": "Administrator Required ASAP Bradford BR2. Immediate Start Available. 12.83 - 14.38ph\n\nRole: Administrator\n\nLocation: Shipley, Bradford (BR2)\n\nDuration: 3 Months initially with potential for extension/permanent contract\n\nRate: 12.83 - 14.38ph\n\nOur ideal candidate should be competent and accurate with data entry, have good numerical skills, and will be fully conversant with Microsoft office (and possibly business systems such as Epicor although full training will be given.)\n\nThe standard hours are Monday-Friday 8:30 - 5:00pm with a 1-hour lunch, but for the right candidate we could be flexible around this.\n\nBased on site in Shipley.\n\nFurther information is available on request.\n\nIf you have the above skills and wish to be considered for this position or find out more details then please contact Max Cannon on (phone number removed) or submit your CV to (url removed) alternatively, apply to this advert!\nProactive also offer a referral scheme for successful applicants - if you know anyone that could be suited to this position then please contact Proactive with there details and if they are placed by Proactive you will receive 250. T&Cs apply\n\nProactive Global is committed to equality in the workplace and is an equal opportunity employer.\nProactive Global is acting as an Employment Business in relation to this vacancy.\n\nProactive Global t is committed to equality in the workplace and is an equal opportunity employer.\nProactive Global is acting as an Employment Business in relation to this vacancy.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fqBdExMaMCztEmEMPH%2fvhuc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Proactive Global",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225436825",
-    "title": "Temporary Office Support/Sales Administrator",
-    "company": "Office Angels - Agency - Temporary",
-    "location": "Bradford",
+    "job_id": "107680320",
+    "title": "Facilities Coordinator",
+    "company": "Baker Harding Limited - Agency - Contract",
+    "location": "Leeds",
     "region": "Yorkshire - West",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "14.42",
-    "salary_text": "£13 - £14.42 per hour",
+    "employment_type": "Contract",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
     "posted_date": "",
-    "description": "Temporary Office Support/Sales Administrator\n\nLocation: Bradford BD2 (On-site)\nHourly Rate: 13.00 - 14.42 per hour ( 27,000 - 30,000 equivalent salary)\nJob Type: Full-time, Temporary with the potential to become permanent for the right candidate\nHours: Monday to Friday, 8:30am - 5:00pm (30-minute lunch break, flexibility available)\nParking: Free on-site parking\n\nThe Opportunity\n\nOffice Angels are working with a company based in Bradford BD2 who are looking to recruit an organised and proactive Office Support & Sales Administrator on a temporary basis.\n\nThis is a varied position supporting multiple areas of the business, including sales administration, order processing, customer service, and general office support. This opportunity would suit someone with excellent organisational skills who enjoys working in a fast-paced environment and building positive relationships with customers and colleagues.\n\nPlease note that the role is fully office-based whilst temporary. Should the position become permanent, there may be the opportunity for hybrid working.\n\nKey Duties\n- Processing customer orders accurately and efficiently.\n- Preparing quotations, sales orders, and customer documentation.\n- Updating and maintaining customer records, orders and databases.\n- Liaising with customers regarding order status and delivery updates.\n- Supporting the sales team with administrative tasks and reporting.\n- Monitoring order progress and resolving any discrepancies.\n- Coordinating with warehouse, purchasing, and logistics teams.\n- Ensuring customer orders are fulfilled accurately and on time.\n- Providing general administrative support across the business.\n- Answering incoming telephone calls and directing enquiries appropriately.\n- Managing emails and correspondence.\n- Assisting with meeting preparation and office organisation.\n- Handling routine customer enquiries and requests.\n- Escalating issues where appropriate.\n\nKey Attributes\n- Previous experience as a Sales Administrator\n- Strong organisational skills and excellent attention to detail.\n- Confident using Microsoft Office, particularly Outlook, Word, and Excel.\n- Experience using SAP is essential\n- Ability to prioritise workload and meet deadlines.\n- Excellent written and verbal communication skills.\n\nNext Steps\n\nIf you have the experience we are looking and looking for a varied and rewarding opportunity with the potential to secure a permanent position, we'd love to hear from you.\n\nTo apply, please submit your CV today or contact the Office Angels team for further information. Interviews will be arranged as suitable applications are received.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX6iPZ2GBroYWjrRHffPQQXkz",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Should the position become permanent, there may be the opportunity for hybrid working.",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "23643_225463852",
-    "title": "Purchasing Administrator",
-    "company": "Manpower UK Ltd - Agency - Permanent",
-    "location": "Bradford",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "30000",
-    "salary_text": "£28000 - £30000 per year",
-    "posted_date": "",
-    "description": "Brook Street Recruitment is excited to be supporting a well-established and growing business in Bradford with the recruitment of a Purchasing Administrator.\nThis is an excellent opportunity for an organised and detail-focused individual who enjoys working with suppliers, managing information and ensuring products are delivered on time. You'll join a supportive team environment where you'll have the opportunity to develop your skills and build a long-term career within purchasing and supply chain.\n\nCandidates must have experience in a purchasing role.\n\nThe Role\n- Full time Perm position\n- Monday to Friday\n- Hours: 8:30am- 5:00pm\n- Salary on offer: 28,000 - 30,000 per annum\n- 25 days holiday plus bank holidays\n- Company pension scheme\n- Employee Assistance Programme (EAP)\n- Life assurance\n- On-site parking\n- Long service awards\n- Supportive and friendly working environment\n- Career development opportunities within a leading engineering and industrial business\n\nAs a Purchasing Administrator, you will support the Purchasing Team in managing supplier communications, maintaining accurate purchase order information, and ensuring products more efficiently through the supply chain.\nYou will be responsible for:\n- Raising, updating and maintaining purchase orders on the internal system\n- Checking supplier order confirmations and accurately updating expected delivery dates\n- Monitoring open purchase orders and ensuring information remains up to date\n- Chasing suppliers for order updates, delivery schedules and outstanding confirmations\n- Liaising with UK and international suppliers via email and telephone\n- Maintaining accurate records of supplier updates and order status\n- Supporting the wider team with stock availability information and delivery schedules\n- Highlighting any risks, delays or supply issues and escalating where necessary\n- Building and maintaining positive working relationships with suppliers\n\nAbout You\nWe are looking for someone who is highly organised, proactive and keen to learn.\nThe successful candidate will have:\n- Previous administration experience within purchasing, procurement, supply chain or a related environment\n- Strong attention to detail and accuracy\n- Experience managing purchase orders and supplier communications\n- Confidence working with data, systems and Microsoft Office applications\n- Excellent communication skills, both written and verbal\n- A positive and team-focused approach\n- The ability to prioritise workloads and remain organised in a fast-paced environment\n\nIf you're looking to take the next step in your purchasing career and join a business that invests in its people, we'd love to hear from you.\nApply today through Brook Street Recruitment. Apply today or contact Arsalan Mohammed, send across your CV to: alternatively call (phone number removed) Mobile: (phone number removed)\n\nIf you receive suspicious outreach claiming to be from us, please contact us via the ManpowerGroup website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMnbA0oO5n6ikAOY%2fPRyJISo",
+    "description": "We are working with a brilliant company based in Leeds, they are a leader in the technology world. They are looking for a Property & Facilities Co-ordinator to support the day to day management of the organisations property portfolio and facilities services across the UK. The role ensure the buildings are safe, compliant and well maintained click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPRVRyN6z7HfDswhoq%2f3gFVr",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Manpower UK Ltd",
+    "advertiser_name": "Baker Harding Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225476845",
-    "title": "Temporary Receptionist",
-    "company": "Tailored Recruitment Partners Limited - Agency - Temporary",
-    "location": "Bradford",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.75",
-    "salary_max": "13",
-    "salary_text": "£12.75 - £13 per hour",
-    "posted_date": "",
-    "description": "We are currently recruiting for a temporary Receptionist to cover holiday on the 28th August to the 18th September 2026.\n\nThis is a great opportunity for a confident, professional and friendly individual who enjoys working in a busy front of house environment.\n\nYou will be first point of contact for visitors and callers, providing a welcome professioanl service.\n\nKey responsibilities\n- Meeting and greeting visitors in a friendly manner\n- Answering and transferring incoming calls\n- Taking and passing on messages accurately\n- Managing incoming and outgoing post\n- Receiving deliveries and distributing correspondence\n\nApply Now!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbxnbwPAkJMoxfvojpuY6bT0t",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Tailored Recruitment Partners Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -799,6 +720,106 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225404256",
+    "title": "Administrator",
+    "company": "Proactive Global - Agency - Permanent",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.83",
+    "salary_max": "14.38",
+    "salary_text": "£12.83 - £14.38 per hour",
+    "posted_date": "",
+    "description": "Administrator Required ASAP Bradford BR2. Immediate Start Available. 12.83 - 14.38ph\n\nRole: Administrator\n\nLocation: Shipley, Bradford (BR2)\n\nDuration: 3 Months initially with potential for extension/permanent contract\n\nRate: 12.83 - 14.38ph\n\nOur ideal candidate should be competent and accurate with data entry, have good numerical skills, and will be fully conversant with Microsoft office (and possibly business systems such as Epicor although full training will be given.)\n\nThe standard hours are Monday-Friday 8:30 - 5:00pm with a 1-hour lunch, but for the right candidate we could be flexible around this.\n\nBased on site in Shipley.\n\nFurther information is available on request.\n\nIf you have the above skills and wish to be considered for this position or find out more details then please contact Max Cannon on (phone number removed) or submit your CV to (url removed) alternatively, apply to this advert!\nProactive also offer a referral scheme for successful applicants - if you know anyone that could be suited to this position then please contact Proactive with there details and if they are placed by Proactive you will receive 250. T&Cs apply\n\nProactive Global is committed to equality in the workplace and is an equal opportunity employer.\nProactive Global is acting as an Employment Business in relation to this vacancy.\n\nProactive Global t is committed to equality in the workplace and is an equal opportunity employer.\nProactive Global is acting as an Employment Business in relation to this vacancy.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fqBdExMaMCztEmEMPH%2fvhuc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Proactive Global",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225436825",
+    "title": "Temporary Office Support/Sales Administrator",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "14.42",
+    "salary_text": "£13 - £14.42 per hour",
+    "posted_date": "",
+    "description": "Temporary Office Support/Sales Administrator\n\nLocation: Bradford BD2 (On-site)\nHourly Rate: 13.00 - 14.42 per hour ( 27,000 - 30,000 equivalent salary)\nJob Type: Full-time, Temporary with the potential to become permanent for the right candidate\nHours: Monday to Friday, 8:30am - 5:00pm (30-minute lunch break, flexibility available)\nParking: Free on-site parking\n\nThe Opportunity\n\nOffice Angels are working with a company based in Bradford BD2 who are looking to recruit an organised and proactive Office Support & Sales Administrator on a temporary basis.\n\nThis is a varied position supporting multiple areas of the business, including sales administration, order processing, customer service, and general office support. This opportunity would suit someone with excellent organisational skills who enjoys working in a fast-paced environment and building positive relationships with customers and colleagues.\n\nPlease note that the role is fully office-based whilst temporary. Should the position become permanent, there may be the opportunity for hybrid working.\n\nKey Duties\n- Processing customer orders accurately and efficiently.\n- Preparing quotations, sales orders, and customer documentation.\n- Updating and maintaining customer records, orders and databases.\n- Liaising with customers regarding order status and delivery updates.\n- Supporting the sales team with administrative tasks and reporting.\n- Monitoring order progress and resolving any discrepancies.\n- Coordinating with warehouse, purchasing, and logistics teams.\n- Ensuring customer orders are fulfilled accurately and on time.\n- Providing general administrative support across the business.\n- Answering incoming telephone calls and directing enquiries appropriately.\n- Managing emails and correspondence.\n- Assisting with meeting preparation and office organisation.\n- Handling routine customer enquiries and requests.\n- Escalating issues where appropriate.\n\nKey Attributes\n- Previous experience as a Sales Administrator\n- Strong organisational skills and excellent attention to detail.\n- Confident using Microsoft Office, particularly Outlook, Word, and Excel.\n- Experience using SAP is essential\n- Ability to prioritise workload and meet deadlines.\n- Excellent written and verbal communication skills.\n\nNext Steps\n\nIf you have the experience we are looking and looking for a varied and rewarding opportunity with the potential to secure a permanent position, we'd love to hear from you.\n\nTo apply, please submit your CV today or contact the Office Angels team for further information. Interviews will be arranged as suitable applications are received.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX6iPZ2GBroYWjrRHffPQQXkz",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Should the position become permanent, there may be the opportunity for hybrid working.",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225463852",
+    "title": "Purchasing Administrator",
+    "company": "Manpower UK Ltd - Agency - Permanent",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "30000",
+    "salary_text": "£28000 - £30000 per year",
+    "posted_date": "",
+    "description": "Brook Street Recruitment is excited to be supporting a well-established and growing business in Bradford with the recruitment of a Purchasing Administrator.\nThis is an excellent opportunity for an organised and detail-focused individual who enjoys working with suppliers, managing information and ensuring products are delivered on time. You'll join a supportive team environment where you'll have the opportunity to develop your skills and build a long-term career within purchasing and supply chain.\n\nCandidates must have experience in a purchasing role.\n\nThe Role\n- Full time Perm position\n- Monday to Friday\n- Hours: 8:30am- 5:00pm\n- Salary on offer: 28,000 - 30,000 per annum\n- 25 days holiday plus bank holidays\n- Company pension scheme\n- Employee Assistance Programme (EAP)\n- Life assurance\n- On-site parking\n- Long service awards\n- Supportive and friendly working environment\n- Career development opportunities within a leading engineering and industrial business\n\nAs a Purchasing Administrator, you will support the Purchasing Team in managing supplier communications, maintaining accurate purchase order information, and ensuring products more efficiently through the supply chain.\nYou will be responsible for:\n- Raising, updating and maintaining purchase orders on the internal system\n- Checking supplier order confirmations and accurately updating expected delivery dates\n- Monitoring open purchase orders and ensuring information remains up to date\n- Chasing suppliers for order updates, delivery schedules and outstanding confirmations\n- Liaising with UK and international suppliers via email and telephone\n- Maintaining accurate records of supplier updates and order status\n- Supporting the wider team with stock availability information and delivery schedules\n- Highlighting any risks, delays or supply issues and escalating where necessary\n- Building and maintaining positive working relationships with suppliers\n\nAbout You\nWe are looking for someone who is highly organised, proactive and keen to learn.\nThe successful candidate will have:\n- Previous administration experience within purchasing, procurement, supply chain or a related environment\n- Strong attention to detail and accuracy\n- Experience managing purchase orders and supplier communications\n- Confidence working with data, systems and Microsoft Office applications\n- Excellent communication skills, both written and verbal\n- A positive and team-focused approach\n- The ability to prioritise workloads and remain organised in a fast-paced environment\n\nIf you're looking to take the next step in your purchasing career and join a business that invests in its people, we'd love to hear from you.\nApply today through Brook Street Recruitment. Apply today or contact Arsalan Mohammed, send across your CV to: alternatively call (phone number removed) Mobile: (phone number removed)\n\nIf you receive suspicious outreach claiming to be from us, please contact us via the ManpowerGroup website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMnbA0oO5n6ikAOY%2fPRyJISo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Manpower UK Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225476845",
+    "title": "Temporary Receptionist",
+    "company": "Tailored Recruitment Partners Limited - Agency - Temporary",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.75",
+    "salary_max": "13",
+    "salary_text": "£12.75 - £13 per hour",
+    "posted_date": "",
+    "description": "We are currently recruiting for a temporary Receptionist to cover holiday on the 28th August to the 18th September 2026.\n\nThis is a great opportunity for a confident, professional and friendly individual who enjoys working in a busy front of house environment.\n\nYou will be first point of contact for visitors and callers, providing a welcome professioanl service.\n\nKey responsibilities\n- Meeting and greeting visitors in a friendly manner\n- Answering and transferring incoming calls\n- Taking and passing on messages accurately\n- Managing incoming and outgoing post\n- Receiving deliveries and distributing correspondence\n\nApply Now!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbxnbwPAkJMoxfvojpuY6bT0t",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tailored Recruitment Partners Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225412849",
     "title": "Sales Administrator",
     "company": "Hays Business Support - Agency - Permanent",
@@ -821,14 +842,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225427668",
@@ -878,14 +892,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225445220",
@@ -910,12 +917,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225458454",
@@ -1090,12 +1092,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "5ccea683-f379-4de2-ae85-b4bb35d83e2c",
+    "title": "Sales Administrator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Shipley",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "30000",
+    "salary_text": "£26000 - £30000 per year",
+    "posted_date": "",
+    "description": "Sales Administrator\n\nShipley, West Yorkshire Full-Time Permanent\n\n£26,000 - £30,000 + Career Progression + Training\n\nOverview\n\nReed is delighted to be recruiting on behalf of an established and growing manufacturing business for a Customer Service Advisor / Account Coordinator. We are looking for an ambitious, personable and organised individual with a minimum of 2 years' experience in a customer service, sales support, account management, order processing or similar office-based customer-facing role.\n\nThe Opportunity\n- Customer Service\n- Account Management\n- Project Coordination\n- Sales Support\n- Commercial Operations\n\nWhat You Will Be Doing\n- Managing a portfolio of customer accounts\n- Processing customer orders and coordinating projects\n- Building and maintaining strong customer relationships\n- Providing quotations, order updates and delivery information\n- Working closely with internal teams\n- Resolving customer queries\n- Supporting account development initiatives\n\nWhat We Are Looking For\n- Minimum 2 years experience in a similar role\n- Excellent communication skills\n- Strong organisational skills and attention to detail\n- Ability to manage multiple priorities\n- Positive and proactive attitude\n- Strong IT skills\n- Passion for customer service\n\nWhat Is In It For You\n- Competitive salary\n- Training and development\n- Career progression\n- Exposure to key customer accounts\n- Supportive team environment\n\nIf interested apply now or email your current CV to",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJma5Qb7kmTWaPyJBTBfBKsl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "6a55e736-5510-42ab-be96-7fd29e0f09b7",
@@ -1142,6 +1164,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Sayjo Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "de6b9bdd-58fb-408f-bede-6bc82fbefbd9",
+    "title": "Sales Account Coordinator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Shipley",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "30000",
+    "salary_text": "£26000 - £30000 per year",
+    "posted_date": "",
+    "description": "Customer Service Advisor / Account Coordinator\n\nShipley, West Yorkshire Full-Time Permanent\n\n£26,000 - £30,000 + Career Progression + Training\n\nOverview\n\nReed is delighted to be recruiting on behalf of an established and growing manufacturing business for a Customer Service Advisor / Account Coordinator. We are looking for an ambitious, personable and organised individual with a minimum of 2 years' experience in a customer service, sales support, account management, order processing or similar office-based customer-facing role.\n\nThe Opportunity\n- Customer Service\n- Account Management\n- Project Coordination\n- Sales Support\n- Commercial Operations\n\nWhat You Will Be Doing\n- Managing a portfolio of customer accounts\n- Processing customer orders and coordinating projects\n- Building and maintaining strong customer relationships\n- Providing quotations, order updates and delivery information\n- Working closely with internal teams\n- Resolving customer queries\n- Supporting account development initiatives\n\nWhat We Are Looking For\n- Minimum 2 years experience in a similar role\n- Excellent communication skills\n- Strong organisational skills and attention to detail\n- Ability to manage multiple priorities\n- Positive and proactive attitude\n- Strong IT skills\n- Passion for customer service\n\nWhat Is In It For You\n- Competitive salary\n- Training and development\n- Career progression\n- Exposure to key customer accounts\n- Supportive team environment\n\nIf interested apply now or email your current CV to",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawaBfz9NJqXo1F2TcfRAJ3Gb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",

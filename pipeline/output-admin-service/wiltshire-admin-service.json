@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bradon Forest School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Lavington School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Diocese Of Salisbury Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "f681071c-0bb0-44d6-93f9-69def4367131",
@@ -119,12 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "29b0b742-430e-494d-8635-4fa14c5bf587",
@@ -149,41 +156,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Data entry"
-    ]
-  },
-  {
-    "job_id": "0c3123d1-471e-434c-870f-1e8626691d28",
-    "title": "Materials Administrator",
-    "company": "Reading Industrial Pertemps - Agency - Permanent",
-    "location": "Devizes",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25000",
-    "salary_max": "28000",
-    "salary_text": "£25000 - £28000 per year",
-    "posted_date": "",
-    "description": "Materials AdministratorLocation: SwindonSalary: £25,000 - £28,000 per annumHours: Monday to Friday, 8:30am - 5:00pm (37.5 hours per week)We are recruiting for a Materials Administrator to join a well-established engineering business in Swindon. This is a varied and hands-on role that combines office administration with practical workshop support, making it ideal for someone who enjoys both desk-based and operational responsibilities.Approximately 50% of the role will be office-based, with the remaining 50% spent in the workshop working alongside technicians to pick materials, prepare works orders, and ensure components are correctly allocated for engineering assemblies.Key Responsibilities\n- Processing and administering works orders and material requirements.\n- Picking components and parts for engineering assemblies in line with production schedules.\n- Cross-checking picked items against engineering paperwork, works orders, and bills of materials to ensure complete accuracy.\n- Reading and interpreting engineering drawings to identify the correct components.\n- Maintaining accurate records using Microsoft Office, particularly Excel.\n- Liaising with customers and clients over the phone, providing updates and responding to enquiries in a professional manner.\n- Working closely with the workshop team to support production deadlines.\n- Monitoring stock levels and reporting any shortages or discrepancies.\n- Ensuring all documentation is accurate, organised, and up to date.\n- Supporting the wider team with general administrative duties as required.\n\nAbout YouThe successful candidate will be highly organised, methodical, and possess exceptional attention to detail. You will be comfortable working in a fast-paced engineering environment where accuracy is critical and deadlines are important.You will have:\n- Strong Microsoft Office skills, particularly Microsoft Excel.\n- Excellent administrative and organisational skills.\n- Exceptional attention to detail and a methodical approach.\n- The ability to read and understand engineering drawings.\n- Strong communication skills with a confident and professional telephone manner.\n- Experience within an engineering, manufacturing, production or technical environment is highly desirable.\n- The ability to work under pressure and manage multiple priorities.\n- A proactive, flexible and positive attitude.\n- The ability to work effectively as part of a small, close-knit team.\n- Good problem-solving skills and the confidence to take ownership of your workload.\n- A good level of physical fitness, as the role involves regular movement around the workshop and manual picking of materials and components.\n\nIf you are interested, please apply directly or call",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7xizpmUCE0FXbQnhd5suSlz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reading Industrial Pertemps",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434482",
@@ -236,6 +209,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "cac4b13c-1d7f-419f-9112-dc0652d868ff",
+    "title": "Accounts Administrator",
+    "company": "360 Recruitment - Agency - Permanent",
+    "location": "Devizes",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Accounts Administrator\n\nLocation: Devizes\n\nJob Type: Full-time, permanent\n\nSalary: Competitive\n\nMy client, a leading law firm, are looking for someone to join our busy accounts team, providing accounts support to all departments. If you have experience of working in a busy accounts environment, are organised and enjoy taking ownership of your own workload, we would love to hear from you. To be considered for this role you will need to have experience working as an Accounts Administrator or in a similar role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgwxApRFDWgxlbe3SZoqfDei",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "360 Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225454207",
     "title": "Office Administrator",
     "company": "Manucomm Recruitment Ltd - Agency - Permanent",
@@ -257,35 +255,6 @@
     "advertiser_name": "Manucomm Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "107811469",
-    "title": "Financial Services Administrator",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Trowbridge",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Thrive Trowbridge are delighted to be working with a growing financial planning practice who are looking to recruit a Financial Services Administrator to support to join their vibrant team on a permanent basis.\nWhat you will be doing:\nSupporting the Paraplanners and Advisors, you will collate and organise client policy information click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbz%2fUofhqDPxGnX0w6InBeJvt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -312,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "9733c0f8-fa32-48a1-bacb-f551007188c2",
@@ -340,36 +305,6 @@
     "advertiser_name": "Muller UK & Ireland",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry",
-      "Payroll administration"
-    ]
-  },
-  {
-    "job_id": "107706604",
-    "title": "Learning and Development Coordinator (Hybrid / Remote)",
-    "company": "Essential Employment - Agency - Permanent",
-    "location": "Devizes",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Learning and Development Coordinator (Hybrid / Remote) needed, £28,077 per annum - Reference:\n\nWe are looking for a candidate to support the delivery of effective learning, providing support and assistance to colleagues on a daily basis.\n\nYou will ideallyhave strong organisation and admin skills and have an understanding of learning and development and the employee lifecycle click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVY6CABCRN0k6doRUVype8w6j",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Learning and Development Coordinator (Hybrid / Remote) Learning and Development Coordinator (Hybrid / Remote) needed, £28,077 per annum - Reference: We are looking for a candidate to support the delivery of effective learning, providing support and assistance to colleagues on a daily basis.",
-    "advertiser_name": "Essential Employment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -424,25 +359,25 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107811466",
-    "title": "Technical Sales Support",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Chippenham",
+    "job_id": "107706604",
+    "title": "Learning and Development Coordinator (Hybrid / Remote)",
+    "company": "Essential Employment - Agency - Permanent",
+    "location": "Devizes",
     "region": "Wiltshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
     "posted_date": "",
-    "description": "Thrive Trowbridge are delighted to be working with our established and market leading client near Chippenham who urgently require a Technical Sales Advisor to join their busy team.\nIn this key role, you will be responsible for generating sales revenue for the business, duties will include the following :\n- First point of contact for both new and existing customers\n- Dealing with enquiries, gaining an click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VKLq0XAy4oajWNXghpqGAcvw",
+    "description": "Learning and Development Coordinator (Hybrid / Remote) needed, £28,077 per annum - Reference:\n\nWe are looking for a candidate to support the delivery of effective learning, providing support and assistance to colleagues on a daily basis.\n\nYou will ideallyhave strong organisation and admin skills and have an understanding of learning and development and the employee lifecycle click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVY6CABCRN0k6doRUVype8w6j",
     "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Learning and Development Coordinator (Hybrid / Remote) Learning and Development Coordinator (Hybrid / Remote) needed, £28,077 per annum - Reference: We are looking for a candidate to support the delivery of effective learning, providing support and assistance to colleagues on a daily basis.",
+    "advertiser_name": "Essential Employment",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
