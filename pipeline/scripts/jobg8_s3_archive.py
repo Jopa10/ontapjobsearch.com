@@ -52,6 +52,7 @@ def archive_and_prune(
     archive_date: date,
     keep_days: int,
     endpoint_url: str | None = None,
+    prune: bool = True,
 ) -> tuple[str, list[str]]:
     if not zip_path.is_file() or zip_path.stat().st_size <= 0:
         raise SystemExit(f"Archive source is missing or empty: {zip_path}")
@@ -91,17 +92,18 @@ def archive_and_prune(
             f"source={source_size} bytes, stored={uploaded_size} bytes"
         )
 
-    cutoff = retention_cutoff(archive_date, keep_days)
     deleted: list[str] = []
-    paginator = client.get_paginator("list_objects_v2")
-    list_prefix = f"{prefix.strip('/')}/" if prefix.strip("/") else ""
-    for page in paginator.paginate(Bucket=bucket, Prefix=list_prefix):
-        for item in page.get("Contents", []):
-            old_key = str(item.get("Key", ""))
-            old_day = dated_key_day(old_key, prefix)
-            if old_day is not None and old_day < cutoff:
-                client.delete_object(Bucket=bucket, Key=old_key)
-                deleted.append(old_key)
+    if prune:
+        cutoff = retention_cutoff(archive_date, keep_days)
+        paginator = client.get_paginator("list_objects_v2")
+        list_prefix = f"{prefix.strip('/')}/" if prefix.strip("/") else ""
+        for page in paginator.paginate(Bucket=bucket, Prefix=list_prefix):
+            for item in page.get("Contents", []):
+                old_key = str(item.get("Key", ""))
+                old_day = dated_key_day(old_key, prefix)
+                if old_day is not None and old_day < cutoff:
+                    client.delete_object(Bucket=bucket, Key=old_key)
+                    deleted.append(old_key)
 
     return key, deleted
 
@@ -115,6 +117,11 @@ def main() -> int:
     parser.add_argument("--region", required=True)
     parser.add_argument("--prefix", default="jobg8/raw")
     parser.add_argument("--keep-days", type=int, default=90)
+    parser.add_argument(
+        "--skip-prune",
+        action="store_true",
+        help="Upload and verify only; let the S3 bucket lifecycle rule expire old objects.",
+    )
     parser.add_argument("--date", dest="archive_date")
     parser.add_argument("--endpoint-url")
     args = parser.parse_args()
@@ -132,16 +139,20 @@ def main() -> int:
         archive_date=archive_date,
         keep_days=args.keep_days,
         endpoint_url=args.endpoint_url or None,
+        prune=not args.skip_prune,
     )
 
     print(f"Archived validated JobG8 raw feed: s3://{args.bucket}/{key}")
-    print(f"Retention: one canonical object per day, {args.keep_days} calendar days")
-    if deleted:
-        print(f"Deleted {len(deleted)} expired raw archive object(s)")
-        for old_key in deleted:
-            print(f"- {old_key}")
+    if args.skip_prune:
+        print("Retention: managed by the S3 bucket lifecycle rule")
     else:
-        print("Deleted 0 expired raw archive objects")
+        print(f"Retention: one canonical object per day, {args.keep_days} calendar days")
+        if deleted:
+            print(f"Deleted {len(deleted)} expired raw archive object(s)")
+            for old_key in deleted:
+                print(f"- {old_key}")
+        else:
+            print("Deleted 0 expired raw archive objects")
     return 0
 
 
