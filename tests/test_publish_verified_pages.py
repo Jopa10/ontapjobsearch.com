@@ -85,7 +85,7 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             self.assertIn("duplicate job_id", result["reason"])
             self.assertEqual(json.loads((root / dest).read_text()), [])
 
-    def test_zero_job_source_is_skipped_without_changing_destination(self):
+    def test_zero_job_source_clears_stale_destination(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             source = Path("source.json")
@@ -96,8 +96,22 @@ class PublishVerifiedPagesTests(unittest.TestCase):
 
             result = publish.publish_one(self.mapping(source, dest), write=True, active_slices=self.active(), root=root)
 
-            self.assertEqual(result["status"], "skipped")
-            self.assertEqual(json.loads((root / dest).read_text()), live)
+            self.assertEqual(result["status"], "published")
+            self.assertIn("validated zero", result["reason"])
+            self.assertEqual(json.loads((root / dest).read_text()), [])
+
+    def test_zero_job_source_is_unchanged_when_destination_already_empty(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = Path("source.json")
+            dest = Path("live.json")
+            self.write_json(root / source, [])
+            self.write_json(root / dest, [])
+
+            result = publish.publish_one(self.mapping(source, dest), write=True, active_slices=self.active(), root=root)
+
+            self.assertEqual(result["status"], "unchanged")
+            self.assertEqual(json.loads((root / dest).read_text()), [])
 
     def test_destination_file_must_already_exist(self):
         with tempfile.TemporaryDirectory() as tmp:
