@@ -64,6 +64,17 @@ jobs:
           set -euo pipefail
           python pipeline/scripts/validate_jobg8_feed_health.py --input pipeline/input/jobg8.xlsx
 
+      - name: Test JobG8 potential duplicate detector
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_report_jobg8_potential_duplicates.py' -v
+
+      - name: Report potential JobG8 duplicates
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/report_jobg8_potential_duplicates.py \
+            --input pipeline/input/jobg8.xlsx \
+            --output pipeline/reports-daily/potential-jobg8-duplicates.csv
+
       - name: Test JobG8 raw archive rules
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_jobg8_s3_archive.py' -v
@@ -187,7 +198,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$unexpected_files"
