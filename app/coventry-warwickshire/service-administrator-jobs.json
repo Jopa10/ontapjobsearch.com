@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Wellesbourne CofE Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Meadow Park School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "President Kennedy School Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -279,6 +288,35 @@
     ]
   },
   {
+    "job_id": "9106c63f-aedd-42f5-8dd5-93e28a33c690",
+    "title": "HR Assistant",
+    "company": "Bell Cornwall Recruitment - Agency - Permanent",
+    "location": "Coventry",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25000",
+    "salary_max": "27000",
+    "salary_text": "£25000 - £27000 per year",
+    "posted_date": "2026-08-14",
+    "description": "HR Assistant\n\nCoventry Full-time £26,376 - £27,000\n\nBell Cornwall Recruitment are hiring on behalf of a values-led organisation seeking a proactive and detail-driven HR Assistant to join their busy team.\n\nThis is a fast-paced role where you'll take ownership of end-to-end recruitment support, from coordinating interviews and managing candidate journeys to ensuring compliance with safer recruitment standards. You'll also play a key role in maintaining accurate HR records and supporting wider HR administration.\n\nAs HR Assistant you'll be doing:\n- Managing high-volume recruitment processes from advert to onboarding\n- Coordinating interviews, offers, and pre-employment checks\n- Maintaining HR systems, personnel files, and compliance records\n- Supporting wider HR admin and occasional front-of-house duties\n\nWhat we're looking for:\n- Strong admin skills with excellent attention to detail\n- Confident communicator with a proactive, can-do attitude\n- Ability to manage multiple priorities in a busy environment\n- Experience in HR or recruitment admin (CIPD level 3 is desirable)\n\nIf you live in Coventry and are organised, reliable, and thrive under pressure, this is a great opportunity to grow your HR Assistant career in a supportive and purpose-driven environment.\n\nINDLP\n\nInterested? Please click the 'APPLY' button now!\n\nBCR aim to get back to all successful applicants within 24 hours however if you have not received a response within this period then it may be that your application has been unsuccessful.\n\nBELL CORNWALL RECRUITMENT\n\nWe want to make finding a job that you will love as effortless as possible and can offer evening appointments to fit around your working life.\n\nLove Work Be Happy\n\nFollow BCR on to view all of the latest jobs.\n\n(For the purposes of recruiting for this vacancy Bell Cornwall Recruitment is acting as a recruitment agency. Bell Cornwall Recruitment is an equal opportunities employer who welcomes applications from all age groups)\n\nPA/Executive Assistants, Secretarial, Reception, Administration, Marketing, IT, HR, Law, Finance, Customer Services, Sales",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREh9S%2fIh2ex6s%2bU7E68y84Gd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bell Cornwall Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Pre-employment administration"
+    ]
+  },
+  {
     "job_id": "9bccef77-3de5-4082-92cc-aefc7bf20d50",
     "title": "Receptionist",
     "company": "Macildowie Recruitment and Retention - Agency - Temporary",
@@ -440,31 +478,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107807876",
-    "title": "Group Accounts Assistant (Purchase Ledger)",
-    "company": "NFU - Agency - Permanent",
-    "location": "Warwickshire",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "2026-08-07",
-    "description": "Job Title: Group Accounts Assistant (Purchase Ledger)\nSalary: c.£25,134 (dependent on skills and experience)\nLocation: Stoneleigh, Warwickshire\nWorking Hours: 35 hours per week\nContract Type: Permanent\nThe National Farmers Union (NFU) is the biggest farming organisation in the UK click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbBjFowzqBnZzpHPhAv%2fqRSk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "NFU",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   }
 ]
