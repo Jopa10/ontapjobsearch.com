@@ -18,12 +18,14 @@ on:
       - 'pipeline/scripts/service_admin_pipeline_live_config.py'
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
+      - 'pipeline/scripts/report_jobg8_potential_duplicates.py'
       - 'pipeline/scripts/derive_city_pages.py'
       - 'pipeline/scripts/scan_city_opportunities.py'
       - 'pipeline/scripts/update_city_opportunity_history.py'
       - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_report_jobg8_potential_duplicates.py'
       - 'pipeline/tests/test_derive_city_pages.py'
       - 'pipeline/tests/test_scan_city_opportunities.py'
       - 'pipeline/tests/test_city_opportunity_history.py'
@@ -69,12 +71,14 @@ on:
       - 'pipeline/scripts/service_admin_pipeline_live_config.py'
       - 'pipeline/scripts/service_admin_pipeline_north_yorkshire.py'
       - 'pipeline/scripts/jobg8_module_2_live_slices.py'
+      - 'pipeline/scripts/report_jobg8_potential_duplicates.py'
       - 'pipeline/scripts/derive_city_pages.py'
       - 'pipeline/scripts/scan_city_opportunities.py'
       - 'pipeline/scripts/update_city_opportunity_history.py'
       - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_report_jobg8_potential_duplicates.py'
       - 'pipeline/tests/test_derive_city_pages.py'
       - 'pipeline/tests/test_scan_city_opportunities.py'
       - 'pipeline/tests/test_city_opportunity_history.py'
@@ -129,6 +133,7 @@ jobs:
             pipeline/scripts/service_admin_pipeline_live_config.py \
             pipeline/scripts/service_admin_pipeline_north_yorkshire.py \
             pipeline/scripts/jobg8_module_2_live_slices.py \
+            pipeline/scripts/report_jobg8_potential_duplicates.py \
             pipeline/scripts/derive_city_pages.py \
             pipeline/scripts/scan_city_opportunities.py \
             pipeline/scripts/update_city_opportunity_history.py \
@@ -142,6 +147,7 @@ jobs:
             tests.test_module2_live_slices \
             tests.test_north_yorkshire_slice \
             -v
+          python -m unittest discover -s pipeline/tests -p 'test_report_jobg8_potential_duplicates.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_derive_city_pages.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_scan_city_opportunities.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_city_opportunity_history.py' -v
