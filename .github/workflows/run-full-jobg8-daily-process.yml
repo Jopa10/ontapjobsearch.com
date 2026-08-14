@@ -2,6 +2,12 @@ name: Run full JobG8 daily process
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '30 6,14 * * *'
+
+concurrency:
+  group: jobg8-daily
+  cancel-in-progress: false
 
 permissions:
   contents: write
