@@ -3965,6 +3965,12 @@ SELECTED | Gloucestershire | Cirencester | £24215 per year | Customer and Event
 job_id: cdcf4b05-d03a-4cf4-8318-b74a372ba212
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £13 per hour | Receptionist/ Office Administrator
+job_id: 48c94cb9-206a-4dda-9cae-a48329b95133
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
