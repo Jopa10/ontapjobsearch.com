@@ -3,7 +3,10 @@ import tempfile
 import unittest
 from pathlib import Path
 
-SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "pipeline" / "scripts"
+PIPELINE_DIR = Path(__file__).resolve().parents[1] / "pipeline"
+SCRIPTS_DIR = PIPELINE_DIR / "scripts"
+if str(PIPELINE_DIR) not in sys.path:
+    sys.path.insert(0, str(PIPELINE_DIR))
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
@@ -15,20 +18,17 @@ class SliceRegistryTests(unittest.TestCase):
     def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
         records = load_slice_register()
         self.assertEqual(len(records), 63)
-        live_count = sum(row.status == "LIVE" for row in records)
-        candidate_count = sum(row.status == "CANDIDATE" for row in records)
-        retired_count = sum(row.status == "RETIRED" for row in records)
-        self.assertEqual(live_count + candidate_count + retired_count, 63)
-        self.assertEqual(retired_count, 0)
-        self.assertGreaterEqual(live_count, 35)
-        self.assertGreaterEqual(candidate_count, 27)
+        self.assertEqual(sum(row.status == "LIVE" for row in records), 36)
+        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 27)
+        self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
 
-    def test_live_rows_include_new_white_collar_and_admin_slices(self):
+    def test_live_rows_include_new_white_collar_admin_and_support_slices(self):
         live = live_slices()
         expected = {
             ("London", "finance_accounts"),
             ("London", "customer_service_contact_centre"),
             ("London", "hr_recruitment"),
+            ("London", "support_worker"),
             ("Hampshire", "customer_service_contact_centre"),
             ("Greater Manchester - Manchester & Salford", "admin_service"),
             ("Bristol & Bath", "admin_service"),
@@ -50,15 +50,10 @@ class SliceRegistryTests(unittest.TestCase):
         }
         self.assertTrue(expected.issubset(candidates))
         self.assertTrue(expected.isdisjoint(live_slices()))
-        self.assertIn(
-            ("London", "support_worker"),
-            candidates | live_slices(),
-        )
+        self.assertNotIn(("London", "support_worker"), candidates)
 
-    def test_london_support_worker_live_config_when_promoted(self):
-        if ("London", "support_worker") not in live_slices():
-            self.skipTest("London support worker is still a candidate")
-        import support_worker_pipeline_live_config as support_config
+    def test_london_support_worker_live_config(self):
+        from scripts import support_worker_pipeline_live_config as support_config
 
         self.assertIn("London", support_config.core.OUTPUT_FILES)
         self.assertEqual(
