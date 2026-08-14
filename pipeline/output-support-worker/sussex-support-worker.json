@@ -63,7 +63,12 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Community access",
+      "Support plans"
+    ]
   },
   {
     "job_id": "23643_225445462",
@@ -151,7 +156,14 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support",
+      "Community access",
+      "Safeguarding",
+      "Emotional support"
+    ]
   },
   {
     "job_id": "107818601",
