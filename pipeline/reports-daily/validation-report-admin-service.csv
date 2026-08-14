@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,737
-total rows dropped,9187
-title classification count - HIGH_CONFIDENCE,1198
+total rows included,738
+total rows dropped,9186
+title classification count - HIGH_CONFIDENCE,1199
 title classification count - ELASTIC_FIT,438
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,4331
-title classification count - OUT_OF_SCOPE,4033
+title classification count - HARD_PASS,4333
+title classification count - OUT_OF_SCOPE,4030
 selection scenario - Yorkshire - West,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Yorkshire - West,Yorkshire - West manual_select applied additively: 6 row(s) prioritised; 36 selected.
 credible total - Yorkshire - West,36
@@ -128,13 +128,13 @@ other elastic count - Essex,3
 total rows output - Essex,34
 job_id included - Essex,0eace40b-439a-4085-9b58-765d6a80a231; fa72b8f1-84f7-4af8-8567-d3253780c253; 23643_225405536; 23643_225417899; 23643_225416119; 23643_225464133; 23643_225444938; 23643_225473460; 23643_225462925; 23643_225473828; 23643_225420216; 23643_225446746; 23643_225462773; 23643_225464120; b8007791-0aaf-4a94-aedd-eb58a0f9a603; 23643_225401845; 23643_225406099; 23643_225476500; 23643_225415987; 23643_225424582; 23643_225467195; 23643_225426201; 23643_225442904; 23643_225443057; 23643_225444703; 23643_225469202; 23643_225461819; fc888ab0-1af2-4cbf-95a4-38d8060b0dae; 23643_225474041; 23643_225473584; 23643_225472719; 107655916; 23643_219418271; 23643_225464097
 selection scenario - Gloucestershire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Gloucestershire,Gloucestershire manual_select applied additively: 5 row(s) prioritised; 19 selected.
-credible total - Gloucestershire,19
-high confidence count - Gloucestershire,11
+selection message - Gloucestershire,Gloucestershire manual_select applied additively: 5 row(s) prioritised; 20 selected.
+credible total - Gloucestershire,20
+high confidence count - Gloucestershire,12
 anchor elastic count - Gloucestershire,1
 other elastic count - Gloucestershire,2
-total rows output - Gloucestershire,19
-job_id included - Gloucestershire,4b638464-9de4-4c80-a07f-1201c9251f5c; 23643_225452737; 107706767; f686614d-8a99-4e03-8d15-ffc001842105; 23643_225477107; 0ec8b843-e3ce-433f-9980-409156d7b4ac; 107746735; 23643_225469323; 8c0e899e-9aa1-4a88-80c9-cde9752af04e; 23643_225465867; fee2253b-6b74-4863-ac47-9db48c50b7f6; c2507df0-d7e5-4ace-a308-86ae71b3d6de; 4e7c5858-940f-4e16-9b8b-18d3b503158b; 23643_225438939; 107794610; cdcf4b05-d03a-4cf4-8318-b74a372ba212; 23643_225476234; 23643_225453895; a629b325-4de9-4e14-afdf-80855038b1e8
+total rows output - Gloucestershire,20
+job_id included - Gloucestershire,4b638464-9de4-4c80-a07f-1201c9251f5c; 23643_225452737; 107706767; f686614d-8a99-4e03-8d15-ffc001842105; 23643_225477107; 0ec8b843-e3ce-433f-9980-409156d7b4ac; 107746735; 23643_225469323; 8c0e899e-9aa1-4a88-80c9-cde9752af04e; 23643_225465867; fee2253b-6b74-4863-ac47-9db48c50b7f6; c2507df0-d7e5-4ace-a308-86ae71b3d6de; 4e7c5858-940f-4e16-9b8b-18d3b503158b; 23643_225438939; 107794610; cdcf4b05-d03a-4cf4-8318-b74a372ba212; 23643_225476234; 48c94cb9-206a-4dda-9cae-a48329b95133; 23643_225453895; a629b325-4de9-4e14-afdf-80855038b1e8
 selection scenario - Greater Manchester - Manchester & Salford,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Greater Manchester - Manchester & Salford,Greater Manchester - Manchester & Salford manual_select applied additively: 6 row(s) prioritised; 47 selected.
 credible total - Greater Manchester - Manchester & Salford,47
