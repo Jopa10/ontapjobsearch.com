@@ -27,7 +27,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install Python packages
-        run: python -m pip install --upgrade pip pandas openpyxl
+        run: python -m pip install --upgrade pip pandas openpyxl boto3
 
       - name: Download JobG8 feed
         env:
@@ -53,6 +53,41 @@ jobs:
             --expected-min 5000 \
             --expected-max 20000
           test -s pipeline/input/jobg8.xlsx
+
+      - name: Test JobG8 raw archive rules
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_jobg8_s3_archive.py' -v
+
+      - name: Archive validated JobG8 raw feed
+        env:
+          JOBG8_ARCHIVE_BUCKET: ${{ secrets.JOBG8_ARCHIVE_BUCKET }}
+          JOBG8_ARCHIVE_REGION: ${{ secrets.JOBG8_ARCHIVE_REGION }}
+          JOBG8_ARCHIVE_ENDPOINT_URL: ${{ secrets.JOBG8_ARCHIVE_ENDPOINT_URL }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.JOBG8_ARCHIVE_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.JOBG8_ARCHIVE_AWS_SECRET_ACCESS_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${JOBG8_ARCHIVE_BUCKET:-}" ]; then
+            echo "JobG8 private archive is not configured yet; skipping archive upload"
+            exit 0
+          fi
+
+          : "${JOBG8_ARCHIVE_REGION:?JOBG8_ARCHIVE_REGION secret is not configured}"
+          : "${AWS_ACCESS_KEY_ID:?JOBG8_ARCHIVE_AWS_ACCESS_KEY_ID secret is not configured}"
+          : "${AWS_SECRET_ACCESS_KEY:?JOBG8_ARCHIVE_AWS_SECRET_ACCESS_KEY secret is not configured}"
+
+          archive_args=(
+            --zip "$RUNNER_TEMP/jobg8.zip"
+            --bucket "$JOBG8_ARCHIVE_BUCKET"
+            --region "$JOBG8_ARCHIVE_REGION"
+            --prefix "jobg8/raw"
+            --keep-days 90
+          )
+          if [ -n "${JOBG8_ARCHIVE_ENDPOINT_URL:-}" ]; then
+            archive_args+=(--endpoint-url "$JOBG8_ARCHIVE_ENDPOINT_URL")
+          fi
+
+          python pipeline/scripts/jobg8_s3_archive.py "${archive_args[@]}"
 
       - name: Read LIVE slices from register
         id: slice-register
