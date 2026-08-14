@@ -1,0 +1,161 @@
+name: Launch London support worker
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "pipeline/registers/region_category_slice_register.csv"
+
+concurrency:
+  group: london-support-worker-launch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out triggering main
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Download current JobG8 feed
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
+        run: |
+          set -euo pipefail
+          : "${JOBG8_FEED_URL:?JOBG8_FEED_URL secret is not configured}"
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 5 \
+            --connect-timeout 30 --max-time 180 \
+            "$JOBG8_FEED_URL" \
+            --output "$RUNNER_TEMP/jobg8.zip"
+          test -s "$RUNNER_TEMP/jobg8.zip"
+
+      - name: Convert and validate current feed
+        run: |
+          set -euo pipefail
+          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
+          python pipeline/scripts/jobg8_xml_adapter.py \
+            --zip "$RUNNER_TEMP/jobg8.zip" \
+            --output pipeline/input/jobg8.xlsx \
+            --expected-min 5000 \
+            --expected-max 20000
+          python pipeline/scripts/validate_jobg8_feed_health.py --input pipeline/input/jobg8.xlsx
+
+      - name: Generate LIVE support-worker slices
+        working-directory: pipeline
+        run: python -m scripts.support_worker_pipeline_live_config
+
+      - name: Guard London selection
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("pipeline/output-support-worker/london-support-worker.json")
+          if not path.is_file():
+              raise SystemExit("London support-worker output was not generated")
+          jobs = json.loads(path.read_text(encoding="utf-8"))
+          if not isinstance(jobs, list):
+              raise SystemExit("London support-worker output is not a JSON array")
+          if len(jobs) < 6:
+              raise SystemExit(f"London support-worker launch blocked: only {len(jobs)} selected jobs")
+          ids = [str(job.get("job_id", "")).strip() for job in jobs]
+          if any(not job_id for job_id in ids) or len(ids) != len(set(ids)):
+              raise SystemExit("London support-worker output has missing or duplicate job IDs")
+          print(f"London support-worker selected jobs: {len(jobs)}")
+          PY
+
+      - name: Commit London pipeline output only
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- pipeline/output-support-worker/london-support-worker.json
+          if git diff --cached --quiet; then
+            echo "London pipeline output already current"
+          else
+            git commit -m "Generate London support worker slice"
+          fi
+          git restore --worktree -- \
+            pipeline/output-support-worker \
+            pipeline/reports-daily \
+            pipeline/reviews/jobg8
+
+      - name: Publish London configured slice
+        working-directory: pipeline
+        run: python -m scripts.publish_verified_pages_north_yorkshire --write
+
+      - name: Guard published London slice
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          source = Path("pipeline/output-support-worker/london-support-worker.json")
+          destination = Path("app/_city-pages/configured-slices/london/support-worker.json")
+          source_jobs = json.loads(source.read_text(encoding="utf-8"))
+          published_jobs = json.loads(destination.read_text(encoding="utf-8"))
+          if len(source_jobs) < 6:
+              raise SystemExit("London source fell below the publish threshold")
+          if len(source_jobs) != len(published_jobs):
+              raise SystemExit(
+                  f"London publish mismatch: source {len(source_jobs)} vs destination {len(published_jobs)}"
+              )
+          if {job["job_id"] for job in source_jobs} != {job["job_id"] for job in published_jobs}:
+              raise SystemExit("London published job IDs do not match the selected source")
+          print(f"London support-worker published jobs: {len(published_jobs)}")
+          PY
+
+          allowed="app/_city-pages/configured-slices/london/support-worker.json"
+          unexpected="$({ git status --porcelain --untracked-files=all | cut -c4- | grep -v -F -x "$allowed"; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Unexpected files changed during guarded London publish:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+
+      - name: Build site with London slice
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Run Next.js build
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/ontap_ci
+        run: |
+          npm ci
+          npm run build
+
+      - name: Commit and push London live page
+        run: |
+          set -euo pipefail
+          git add -- app/_city-pages/configured-slices/london/support-worker.json
+          if git diff --cached --quiet; then
+            echo "London published data already current"
+          else
+            git commit -m "Publish London support worker jobs"
+          fi
+
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "::error::Working tree is not clean before push"
+            git status --short
+            exit 1
+          fi
+
+          git pull --rebase origin main
+          git push origin HEAD:main
