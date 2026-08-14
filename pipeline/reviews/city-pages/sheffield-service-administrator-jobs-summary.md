@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 6
 - automatic review: 1
-- automatic exclude: 9
-- effective include: 8
+- automatic exclude: 11
+- effective include: 6
 - effective review: 1
-- effective exclude: 9
+- effective exclude: 11
 
-## INCLUDE (8)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,35 +64,11 @@ reason: The stated workplace matches the approved Sheffield employment-market pa
 action: 
 decision: include
 automatic_decision: include
-title: Import / Export Administrator
-company: Reed - Agency - Permanent
+title: Regeneration and Property Service Support Help Desk Officer
+company: Reed - Agency - Temporary
 location: Sheffield
 source: JobG8
-job_id: jobg8-a526338b-ed95-47c7-889c-44b5c4aff404
-reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist Administrator
-company: Chapeltown Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-aacf2c27-b21f-4e85-9276-550afc946a66
-reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Resourcer / Administrator
-company: Lynx Employment Services Ltd - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-107809801
+job_id: jobg8-2cd38f87-cca5-45fb-886a-f1a14694c677
 reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
 ---
 
@@ -134,7 +110,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -241,5 +217,29 @@ company: BMC Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-9d793cd4-ff2a-4749-9512-a7407298f539
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist - AM shift - DN1
+company: Ideal Recruit Ltd - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225488492
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Account Coordinator
+company: Staffline Recruitment Limited - Agency - Contract
+location: Doncaster
+source: JobG8
+job_id: jobg8-78f4c04c-6e64-45dd-b8b3-2ba440f0f9f1
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---

@@ -179,6 +179,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107680320",
+    "title": "Facilities Coordinator",
+    "company": "Baker Harding Limited - Agency - Contract",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "2026-08-14",
+    "description": "We are working with a brilliant company based in Leeds, they are a leader in the technology world. They are looking for a Property & Facilities Co-ordinator to support the day to day management of the organisations property portfolio and facilities services across the UK. The role ensure the buildings are safe, compliant and well maintained click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPRVRyN6z7HfDswhoq%2f3gFVr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Baker Harding Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "8bf1c33a-6c01-4241-bb0e-c2c5019b19b9",
     "title": "Property Customer Service Advisor",
     "company": "Michael Page Business Support - Agency - Permanent",
@@ -251,6 +276,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Cross Gates Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -276,6 +304,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Colton Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -301,31 +332,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire",
-    "title": "Administrative Assistant",
-    "company": "Pudsey Grammar School",
-    "location": "Pudsey",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met.",
-    "work_pattern": "",
-    "posted_date": "2026-07-16",
-    "closing_date": "2026-08-14",
-    "closing_datetime": "2026-08-14T08:00:00+01:00",
-    "summary": "Administrative Assistant with Pudsey Grammar School in Pudsey. ['full time']; £22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met..",
-    "description": "Pudsey Grammar School is recruiting for this vacancy in Pudsey.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met..\n\nThe stated application deadline is 2026-08-14T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
+    "advertiser_name": "Fountain Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

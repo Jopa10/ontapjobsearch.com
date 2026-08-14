@@ -4,8 +4,8 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 9
+- automatic include: 3
+- automatic review: 8
 - automatic exclude: 7
-- effective include: 6
-- effective review: 9
+- effective include: 3
+- effective review: 8
 - effective exclude: 7
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Autism Support Worker
-company: Cygnet - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-da739769-02ce-426d-be7e-b34c0fa6a7f4
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -45,30 +33,6 @@ company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1642086
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Assistant Nights
-company: Care UK - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-107605224
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Hourly Lifestyle / Care Assistant for a Female Chemistry Uni Student
-company: Ask Jules - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-107794548
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
@@ -96,7 +60,7 @@ job_id: jobg8-1642087
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -138,18 +102,6 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
-title: Care Assistant - Bank - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Ringwood
-source: JobG8
-job_id: jobg8-c4b882e9-0d0f-433e-820e-ed014114370d
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Assistant - Care Home
 company: Barchester Healthcare - Company - Permanent
 location: Hook
@@ -174,6 +126,18 @@ reason: No approved Southampton employment-market rule matched the stated locati
 action: 
 decision: review
 automatic_decision: review
+title: Day Opportunities Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-1401784594
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Domiciliary Care Assistant
 company: ECS Recruitment Consultants Ltd - Agency - Permanent
 location: Alton
@@ -191,18 +155,6 @@ company: Hampshire County Council - Company - Permanent
 location: Havant
 source: JobG8
 job_id: jobg8-1401784321
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: OakGar Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-abdb05c5-8646-4efc-883f-b581bf1c1534
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 

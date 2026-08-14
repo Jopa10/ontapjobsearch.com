@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 9
+- automatic include: 19
+- automatic review: 20
 - automatic exclude: 9
-- effective include: 19
-- effective review: 6
+- effective include: 21
+- effective review: 17
 - effective exclude: 10
 
-## INCLUDE (19)
+## INCLUDE (21)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Gateshead forms part of the continuous Newcastle urban employment area.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator - Temporary to Permanent - Team Valley
+company: Office Angels - Agency - Temporary
+location: Gateshead
+source: JobG8
+job_id: jobg8-3f80b0ca-14b3-48bf-add3-29c3133d4940
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator Gateshead - Temp to Perm
 company: Office Angels - Agency - Permanent
 location: Gateshead
@@ -94,6 +106,18 @@ location: South Tyneside Council
 source: NEJobs
 job_id: nejobs-300058
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-73862c8b83139033e4e4a8b6efca9a33
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
 ---
@@ -129,6 +153,18 @@ company: Anderson Wright Consulting Ltd - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-e1120589-2a2f-429d-8309-d8b4b0cf90ca
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-153faf593eb64b88272f45adeaa28d87
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
@@ -197,18 +233,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: CCA Recruitment Group - Agency - Temporary
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225447571
-reason: The stated workplace is Newcastle or explicitly includes Newcastle.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Miller Homes - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
@@ -252,7 +276,7 @@ job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
-## REVIEW (6)
+## REVIEW (17)
 
 ---
 action: 
@@ -282,6 +306,150 @@ reason: No Newcastle catchment rule matched the stated location; local geographi
 action: 
 decision: review
 automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Whitley Bay
+source: JobG8
+job_id: jobg8-20279_61775-14ed80d091f0fb71e92c86010d5a3182
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: North Shields
+source: JobG8
+job_id: jobg8-20279_61775-20fc350b6789c39cd18ccac91ac57148
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: South Shields
+source: JobG8
+job_id: jobg8-20279_61775-33210dbc92626a35bffe42114b330ff3
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Cramlington
+source: JobG8
+job_id: jobg8-21618_20279_61775-698a92f99cf89eb23ba18f264114428f
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Washington
+source: JobG8
+job_id: jobg8-20279_61775-bbd8f3ecb6935e720a2d5c3d16688989
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: South Shields
+source: JobG8
+job_id: jobg8-21618_20279_61775-73862c8b83139033e4e4a8b6efca9a33-41cdf25d056349db306149492f169b31
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: North Shields
+source: JobG8
+job_id: jobg8-20279_61775-33ae573bb155210411f372c9d91f6158
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Washington
+source: JobG8
+job_id: jobg8-20279_61775-405f06a99b99d692d3dbd58aa6f29272
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Whitley Bay
+source: JobG8
+job_id: jobg8-20279_61775-bc07315b5e693bf3b4ea520e30fc6b93
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: North Shields
+source: JobG8
+job_id: jobg8-21618_20279_61775-18920c4c3acd80a428cbeccf0253ec33
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Wallsend
+source: JobG8
+job_id: jobg8-21618_20279_61775-c006dec11647ffbbe286bd267ef449f0
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Cramlington
+source: JobG8
+job_id: jobg8-21618_20279_61775-dc0a27dec7f9767a517f1bdee6e96749
+reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Coordinator
 company: Nigel Wright Group - Agency - Permanent
 location: North Shields
@@ -299,18 +467,6 @@ company: Staff Partners Business - Agency - Temporary
 location: South Shields
 source: JobG8
 job_id: jobg8-23643_225449718
-reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Administrator
-company: MTrec Recruitment - Agency - Temporary
-location: Cramlington
-source: JobG8
-job_id: jobg8-e7a9b51c-2698-4fde-9c96-5700106868e5
 reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
 ---
 

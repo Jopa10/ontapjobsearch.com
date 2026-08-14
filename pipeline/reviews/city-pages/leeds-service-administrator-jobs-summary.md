@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 12
-- automatic exclude: 20
+- automatic review: 14
+- automatic exclude: 19
 - effective include: 13
-- effective review: 12
-- effective exclude: 20
+- effective review: 14
+- effective exclude: 19
 
 ## INCLUDE (13)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Pudsey Grammar School
-location: Pudsey
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire
-reason: The stated workplace matches the approved Leeds employment-market pattern `pudsey`.
----
 
 ---
 action: 
@@ -124,6 +112,18 @@ reason: The stated workplace matches the approved Leeds employment-market patter
 action: 
 decision: include
 automatic_decision: include
+title: Facilities Coordinator
+company: Baker Harding Limited - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-107680320
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Property Customer Service Advisor
 company: Michael Page Business Support - Agency - Permanent
 location: Leeds
@@ -180,7 +180,7 @@ job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-we
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -282,6 +282,18 @@ reason: No approved Leeds employment-market rule matched the stated location; lo
 action: 
 decision: review
 automatic_decision: review
+title: Sales Account Coordinator
+company: Reed - Agency - Permanent
+location: Shipley
+source: JobG8
+job_id: jobg8-de6b9bdd-58fb-408f-bede-6bc82fbefbd9
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Hays Business Support - Agency - Permanent
 location: Wetherby
@@ -299,6 +311,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wetherby
 source: JobG8
 job_id: jobg8-9334c81f-29de-4db5-8094-52bdf13c7291
+reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Reed - Agency - Permanent
+location: Shipley
+source: JobG8
+job_id: jobg8-5ccea683-f379-4de2-ae85-b4bb35d83e2c
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -326,7 +350,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -517,18 +541,6 @@ company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
-reason: The stated workplace belongs outside the approved Leeds employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Finance Administrator - Education
-company: Office Angels - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-ec237c2a-3320-4238-a950-1ee708174fdc
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---
 
