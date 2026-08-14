@@ -201,8 +201,22 @@ def publish_one(
         if not isinstance(destination_data, list):
             raise ValueError("destination JSON must be an array")
 
+        # A successfully generated empty source is a validated zero. Keeping the
+        # previous destination here would leave stale jobs live indefinitely.
         if not source_data:
-            result.update(status="skipped", reason="source selected zero jobs; live destination left unchanged")
+            if not destination_data:
+                result.update(status="unchanged", reason="validated zero source and live destination is already empty")
+                return result
+            if not write:
+                result.update(status="published", reason="dry-run: validated zero source would clear live destination")
+                return result
+
+            previous_text = destination_before_text
+            atomic_write(destination, display_json([]))
+            reopened_data = load_json(destination)
+            if reopened_data != []:
+                raise RuntimeError("post-write validated-zero destination is not an empty array")
+            result.update(status="published", reason="validated zero source cleared stale live destination")
             return result
 
         source_data = add_stable_posted_dates(
