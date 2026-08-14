@@ -8,7 +8,7 @@ Use `action: approve` to launch that city page, or leave `action:` blank to hold
 Do not edit the technical city-page register; it is generated from this approval.
 A city appears here only after the opportunity process marks it READY FOR APPROVAL.
 
-## READY FOR APPROVAL (10)
+## READY FOR APPROVAL (12)
 
 ---
 action: 
@@ -16,9 +16,9 @@ status: READY FOR APPROVAL
 city: Coventry
 region: coventry-warwickshire
 slice: service-administrator-jobs
-current_jobs: 11
-qualifying_runs: 3/3
-last_pipeline_runs: 3, 4, 10, 10, 11
+current_jobs: 13
+qualifying_runs: 4/3
+last_pipeline_runs: 3, 4, 10, 10, 11, 13
 ---
 
 ---
@@ -27,9 +27,9 @@ status: READY FOR APPROVAL
 city: Southampton
 region: hampshire
 slice: service-administrator-jobs
-current_jobs: 11
-qualifying_runs: 3/3
-last_pipeline_runs: 3, 3, 11, 11, 11
+current_jobs: 14
+qualifying_runs: 4/3
+last_pipeline_runs: 3, 3, 11, 11, 11, 14
 ---
 
 ---
@@ -39,8 +39,19 @@ city: Ashford
 region: kent
 slice: service-administrator-jobs
 current_jobs: 6
+qualifying_runs: 4/3
+last_pipeline_runs: 0, 1, 6, 7, 6, 6
+---
+
+---
+action: 
+status: READY FOR APPROVAL
+city: York
+region: north-yorkshire
+slice: service-administrator-jobs
+current_jobs: 6
 qualifying_runs: 3/3
-last_pipeline_runs: 0, 1, 6, 7, 6
+last_pipeline_runs: 2, 4, 6, 7, 5, 6
 ---
 
 ---
@@ -50,8 +61,19 @@ city: Fetcham
 region: surrey
 slice: service-administrator-jobs
 current_jobs: 6
+qualifying_runs: 4/3
+last_pipeline_runs: 0, 0, 6, 6, 6, 6
+---
+
+---
+action: 
+status: READY FOR APPROVAL
+city: Guildford
+region: surrey
+slice: service-administrator-jobs
+current_jobs: 6
 qualifying_runs: 3/3
-last_pipeline_runs: 0, 0, 6, 6, 6
+last_pipeline_runs: 0, 0, 5, 6, 6, 6
 ---
 
 ---
@@ -61,8 +83,8 @@ city: Brighton & Hove
 region: sussex
 slice: service-administrator-jobs
 current_jobs: 9
-qualifying_runs: 3/3
-last_pipeline_runs: 2, 4, 8, 8, 9
+qualifying_runs: 4/3
+last_pipeline_runs: 2, 4, 8, 8, 9, 9
 ---
 
 ---
@@ -72,8 +94,8 @@ city: Burgess Hill
 region: sussex
 slice: service-administrator-jobs
 current_jobs: 7
-qualifying_runs: 3/3
-last_pipeline_runs: 0, 0, 6, 6, 7
+qualifying_runs: 4/3
+last_pipeline_runs: 0, 0, 6, 6, 7, 7
 ---
 
 ---
@@ -83,8 +105,8 @@ city: Crawley
 region: sussex
 slice: service-administrator-jobs
 current_jobs: 6
-qualifying_runs: 3/3
-last_pipeline_runs: 3, 3, 6, 6, 6
+qualifying_runs: 4/3
+last_pipeline_runs: 3, 3, 6, 6, 6, 6
 ---
 
 ---
@@ -94,8 +116,8 @@ city: Horsham
 region: sussex
 slice: service-administrator-jobs
 current_jobs: 7
-qualifying_runs: 3/3
-last_pipeline_runs: 3, 2, 7, 7, 7
+qualifying_runs: 4/3
+last_pipeline_runs: 3, 2, 7, 7, 7, 7
 ---
 
 ---
@@ -105,8 +127,8 @@ city: Bradford
 region: west-yorkshire
 slice: service-administrator-jobs
 current_jobs: 7
-qualifying_runs: 3/3
-last_pipeline_runs: 3, 4, 8, 8, 7
+qualifying_runs: 4/3
+last_pipeline_runs: 3, 4, 8, 8, 7, 7
 ---
 
 ---
@@ -116,6 +138,6 @@ city: Huddersfield
 region: west-yorkshire
 slice: service-administrator-jobs
 current_jobs: 7
-qualifying_runs: 3/3
-last_pipeline_runs: 3, 3, 6, 7, 7
+qualifying_runs: 4/3
+last_pipeline_runs: 3, 3, 6, 7, 7, 7
 ---
