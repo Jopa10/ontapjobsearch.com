@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   run-compiler-module-2:
@@ -26,7 +27,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install Python packages
-        run: python -m pip install --upgrade pip pandas openpyxl
+        run: python -m pip install --upgrade pip pandas openpyxl boto3
 
       - name: Validate month input
         run: |
@@ -37,20 +38,47 @@ jobs:
             exit 1
           fi
 
-      - name: Validate monthly archive, geo lookup, and registers
+      - name: Test monthly JobG8 archive staging rules
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_materialize_jobg8_archive_month.py' -v
+
+      - name: Configure AWS credentials for JobG8 archive
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+
+      - name: Materialize Compiler Module 2 input from private archive
+        env:
+          JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
+          JOBG8_ARCHIVE_REGION: eu-west-2
         run: |
           set -euo pipefail
           month='${{ inputs.month }}'
-          archive_dir="pipeline/input-jobg8-archive/${month}"
+          staging_dir="$RUNNER_TEMP/jobg8-compiler-input/${month}"
+          python pipeline/scripts/materialize_jobg8_archive_month.py \
+            --month "$month" \
+            --bucket "$JOBG8_ARCHIVE_BUCKET" \
+            --region "$JOBG8_ARCHIVE_REGION" \
+            --prefix "jobg8/raw" \
+            --s3-start-date "2026-08-14" \
+            --legacy-dir "pipeline/input-jobg8-archive/${month}" \
+            --output-dir "$staging_dir"
+          echo "JOBG8_COMPILER_INPUT_DIR=$staging_dir" >> "$GITHUB_ENV"
+
+      - name: Validate materialized archive, geo lookup, and registers
+        run: |
+          set -euo pipefail
+          archive_dir="$JOBG8_COMPILER_INPUT_DIR"
 
           if [ ! -d "$archive_dir" ]; then
-            echo "::error::Monthly archive folder '$archive_dir' is missing."
+            echo "::error::Materialized monthly archive folder '$archive_dir' is missing."
             exit 1
           fi
 
           excel_file="$(find "$archive_dir" -maxdepth 1 -type f \( -iname '*.xlsx' -o -iname '*.xls' -o -iname '*.xlsm' \) -print -quit)"
           if [ -z "$excel_file" ]; then
-            echo "::error::Monthly archive folder '$archive_dir' contains no Excel files."
+            echo "::error::Materialized monthly archive folder '$archive_dir' contains no Excel files."
             exit 1
           fi
 
@@ -138,7 +166,7 @@ jobs:
           set -euo pipefail
           python -m scripts.jobg8_module_2_live_slices \
             --month '${{ inputs.month }}' \
-            --input-dir 'input-jobg8-archive/${{ inputs.month }}' \
+            --input-dir "$JOBG8_COMPILER_INPUT_DIR" \
             --output-dir 'reports-module2' \
             --geo-lookup 'geo/geo_lookup.xlsx' \
             --registers-dir 'registers'
