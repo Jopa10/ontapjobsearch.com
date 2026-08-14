@@ -3,7 +3,8 @@ name: Run full JobG8 daily process
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 6,14 * * *'
+    - cron: '30 7,15 * * *'
+      timezone: 'Europe/London'
 
 concurrency:
   group: jobg8-daily
@@ -207,7 +208,6 @@ jobs:
           fi
 
           git commit -m "Run full JobG8 daily process"
-          git push
 
       - name: Commit JobG8 manual review files
         run: |
@@ -243,7 +243,38 @@ jobs:
           fi
 
           git commit -m "Refresh JobG8 manual review files"
-          git push
+
+      - name: Push JobG8 commits safely
+        run: |
+          set -euo pipefail
+
+          tracked_changes="$(git status --porcelain --untracked-files=no)"
+          if [ -n "$tracked_changes" ]; then
+            echo "::error::Tracked changes remain after the JobG8 commit steps; refusing to rebase or push."
+            printf '%s\n' "$tracked_changes"
+            exit 1
+          fi
+
+          for attempt in 1 2 3; do
+            echo "JobG8 push attempt $attempt of 3"
+            if ! git pull --rebase --autostash origin main; then
+              echo "::error::Could not safely rebase JobG8 commits onto the latest main branch."
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "JobG8 commits pushed successfully"
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              echo "main moved during push; retrying after 5 seconds"
+              sleep 5
+            fi
+          done
+
+          echo "::error::JobG8 push was rejected after 3 safe rebase attempts."
+          exit 1
 
       - name: Upload service-admin output
         if: always()
