@@ -8,6 +8,7 @@ on:
     paths:
       - .github/workflows/run-nhs-jobs-inventory-review.yml
       - pipeline/external_sources/nhs_jobs_poc.py
+      - pipeline/external_sources/nhs_jobs_etl.py
       - pipeline/tests/test_nhs_jobs_poc.py
 
 permissions:
@@ -17,6 +18,7 @@ jobs:
   nhs-inventory-review:
     name: Test and measure NHS admin inventory
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out triggering branch
@@ -37,7 +39,7 @@ jobs:
       - name: Fetch bounded NHS Administrative and Clerical sample
         working-directory: pipeline
         run: |
-          python -m external_sources.nhs_jobs_poc \
+          python -m external_sources.nhs_jobs_etl \
             --fetch-live \
             --acknowledge-source-terms \
             --max-pages 2
