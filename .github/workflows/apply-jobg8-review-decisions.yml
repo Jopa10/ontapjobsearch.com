@@ -1,0 +1,310 @@
+name: Apply JobG8 review decisions
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: jobg8-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  apply-jobg8-review-decisions:
+    name: Apply JobG8 review decisions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl boto3
+
+      - name: Resolve reviewed JobG8 feed date
+        id: review-date
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          paths = [
+              Path("pipeline/reviews/jobg8/service-admin-review.md"),
+              Path("pipeline/reviews/jobg8/support-worker-review.md"),
+          ]
+          dates = {}
+          for path in paths:
+              text = path.read_text(encoding="utf-8-sig")
+              match = re.search(r"(?m)^feed_date:\s*(\d{4}-\d{2}-\d{2})\s*$", text)
+              if not match:
+                  raise SystemExit(f"Missing feed_date in {path}")
+              dates[path.name] = match.group(1)
+
+          unique_dates = set(dates.values())
+          if len(unique_dates) != 1:
+              raise SystemExit(f"Review files do not share one feed date: {dates}")
+
+          review_date = unique_dates.pop()
+          print(f"Reviewed JobG8 feed date: {review_date}")
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"date={review_date}\n")
+          PY
+
+      - name: Configure AWS credentials for JobG8 archive
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+
+      - name: Restore reviewed validated JobG8 feed
+        env:
+          JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
+          JOBG8_ARCHIVE_REGION: eu-west-2
+          REVIEW_DATE: ${{ steps.review-date.outputs.date }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import boto3
+
+          bucket = os.environ["JOBG8_ARCHIVE_BUCKET"]
+          region = os.environ["JOBG8_ARCHIVE_REGION"]
+          review_date = os.environ["REVIEW_DATE"]
+          key = f"jobg8/raw/{review_date}.zip"
+          target = Path("/tmp/jobg8-reviewed.zip")
+
+          boto3.client("s3", region_name=region).download_file(bucket, key, str(target))
+          if not target.is_file() or target.stat().st_size <= 0:
+              raise SystemExit(f"Restored archive is missing or empty: s3://{bucket}/{key}")
+          print(f"Restored validated JobG8 feed: s3://{bucket}/{key}")
+          PY
+
+      - name: Convert archived JobG8 feed into pipeline input
+        run: |
+          set -euo pipefail
+          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
+          python pipeline/scripts/jobg8_xml_adapter.py \
+            --zip /tmp/jobg8-reviewed.zip \
+            --output pipeline/input/jobg8.xlsx \
+            --expected-min 5000 \
+            --expected-max 20000
+          test -s pipeline/input/jobg8.xlsx
+
+      - name: Confirm restored feed matches reviewed date
+        env:
+          REVIEW_DATE: ${{ steps.review-date.outputs.date }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          import sys
+          from pathlib import Path
+
+          sys.path.insert(0, str(Path("pipeline/scripts").resolve()))
+          from pipeline_refinement import resolve_feed_date
+
+          restored_date = resolve_feed_date(Path("pipeline/input/jobg8.xlsx"))
+          review_date = os.environ["REVIEW_DATE"]
+          print(f"Restored feed date: {restored_date}")
+          if restored_date != review_date:
+              raise SystemExit(
+                  f"Refusing to apply review: review date {review_date} does not match restored feed date {restored_date}"
+              )
+          PY
+
+      - name: Read LIVE slices from register
+        id: slice-register
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          from pathlib import Path
+
+          scripts = Path("pipeline/scripts").resolve()
+          sys.path.insert(0, str(scripts))
+          from slice_registry import live_slices
+
+          active = sorted(live_slices())
+          categories = {category for _, category in active}
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
+              handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
+          PY
+
+      - name: Run service-admin pipeline
+        if: steps.slice-register.outputs.admin_service == 'true'
+        working-directory: pipeline
+        run: python -m scripts.service_admin_pipeline_north_yorkshire
+
+      - name: Reattach approved external-source vacancies
+        if: steps.slice-register.outputs.admin_service == 'true'
+        working-directory: pipeline
+        run: |
+          python -m external_sources.compose_northeast_admin --write
+          python -m external_sources.compose_west_yorkshire_admin --write
+          python -m external_sources.compose_teaching_vacancies_regional --write
+
+      - name: Enrich service-admin job metadata
+        if: steps.slice-register.outputs.admin_service == 'true'
+        working-directory: pipeline
+        run: python -m scripts.enrich_job_metadata --category admin-service
+
+      - name: Verify service-admin outputs
+        if: steps.slice-register.outputs.admin_service == 'true'
+        run: |
+          test -s pipeline/output-admin-service/west-yorkshire-admin-service.json
+          test -s pipeline/output-admin-service/south-yorkshire-admin-service.json
+          test -s pipeline/output-admin-service/north-yorkshire-admin-service.json
+          test -s pipeline/output-admin-service/north-east-admin-service.json
+          test -s pipeline/output-admin-service/london-admin-service.json
+          test -s pipeline/output-admin-service/hampshire-admin-service.json
+          test -s pipeline/output-admin-service/sussex-admin-service.json
+          test -s pipeline/output-admin-service/coventry-warwickshire-admin-service.json
+
+      - name: Run support-worker pipeline
+        if: steps.slice-register.outputs.support_worker == 'true'
+        working-directory: pipeline
+        run: python -m scripts.support_worker_pipeline_live_config
+
+      - name: Enrich support-worker job metadata
+        if: steps.slice-register.outputs.support_worker == 'true'
+        working-directory: pipeline
+        run: python -m scripts.enrich_job_metadata --category support-worker
+
+      - name: Verify support-worker outputs
+        if: steps.slice-register.outputs.support_worker == 'true'
+        run: |
+          test -s pipeline/output-support-worker/west-yorkshire-support-worker.json
+          test -s pipeline/output-support-worker/south-yorkshire-support-worker.json
+          test -s pipeline/output-support-worker/north-east-support-worker.json
+          test -s pipeline/output-support-worker/sussex-support-worker.json
+          test -s pipeline/output-support-worker/cumbria-south-support-worker.json
+          test -s pipeline/output-support-worker/hampshire-support-worker.json
+          test -s pipeline/output-support-worker/london-support-worker.json
+
+      - name: Test persistent review and exclusion behavior
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_persistent_jobg8_review.py' -v
+
+      - name: Refresh JobG8 exclusion list
+        working-directory: pipeline
+        run: python -m scripts.persistent_jobg8_review --refresh-exclusion-report
+
+      - name: Commit applied review decisions
+        run: |
+          set -euo pipefail
+          allowed_paths=(
+            "pipeline/output-admin-service/*.json"
+            "pipeline/output-support-worker/*.json"
+            "pipeline/reports-daily/decision-report-admin-service.csv"
+            "pipeline/reports-daily/validation-report-admin-service.csv"
+            "pipeline/reports-daily/selection-summary-report-admin-service.csv"
+            "pipeline/reports-daily/decision-report-support-worker.csv"
+            "pipeline/reports-daily/validation-report-support-worker.csv"
+            "pipeline/reports-daily/selection-summary-report-support-worker.csv"
+            "pipeline/reviews/jobg8/service-admin-review.csv"
+            "pipeline/reviews/jobg8/service-admin-review.md"
+            "pipeline/reviews/jobg8/support-worker-review.csv"
+            "pipeline/reviews/jobg8/support-worker-review.md"
+            "pipeline/reviews/jobg8/jobg8-exclusion-list.md"
+          )
+
+          if [ -z "$(git status --porcelain -- ${allowed_paths[@]})" ]; then
+            echo "No JobG8 review-decision changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- ${allowed_paths[@]}
+
+          staged_files="$(git diff --cached --name-only)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '
+            $0 !~ /^pipeline\/output-admin-service\/.*\.json$/ &&
+            $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ &&
+            $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ &&
+            $0 != "pipeline/reviews/jobg8/service-admin-review.csv" &&
+            $0 != "pipeline/reviews/jobg8/service-admin-review.md" &&
+            $0 != "pipeline/reviews/jobg8/support-worker-review.csv" &&
+            $0 != "pipeline/reviews/jobg8/support-worker-review.md" &&
+            $0 != "pipeline/reviews/jobg8/jobg8-exclusion-list.md"'; } || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error::Refusing to commit files outside the JobG8 review-apply allow-list:"
+            printf '%s\n' "$unexpected_files"
+            git reset --mixed
+            exit 1
+          fi
+
+          if [ -z "$staged_files" ]; then
+            echo "No JobG8 review-decision changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Apply JobG8 review decisions"
+
+      - name: Push applied review decisions safely
+        run: |
+          set -euo pipefail
+
+          tracked_changes="$(git status --porcelain --untracked-files=no)"
+          if [ -n "$tracked_changes" ]; then
+            echo "::error::Tracked changes remain after review-apply commit; refusing to rebase or push."
+            printf '%s\n' "$tracked_changes"
+            exit 1
+          fi
+
+          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
+            echo "No review-apply commit to push"
+            exit 0
+          fi
+
+          for attempt in 1 2 3; do
+            echo "Review-apply push attempt $attempt of 3"
+            if ! git pull --rebase --autostash origin main; then
+              echo "::error::Could not safely rebase review-apply commit onto latest main."
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "JobG8 review decisions pushed successfully"
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              sleep 5
+            fi
+          done
+
+          echo "::error::Review-apply push was rejected after 3 attempts."
+          exit 1
+
+      - name: Upload applied service-admin output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: applied-service-admin-output
+          path: pipeline/output-admin-service/
+          if-no-files-found: warn
+          retention-days: 3
+
+      - name: Upload applied support-worker output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: applied-support-worker-output
+          path: pipeline/output-support-worker/
+          if-no-files-found: warn
+          retention-days: 3
