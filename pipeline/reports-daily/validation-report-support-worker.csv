@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,68
-total rows dropped,9929
+total rows included,70
+total rows dropped,9930
 title classification count - HIGH_CONFIDENCE,174
 title classification count - ELASTIC_FIT,105
 title classification count - REVIEW_CONTEXT_DEPENDENT,19
@@ -55,11 +55,11 @@ anchor elastic count - Hampshire,1
 other elastic count - Hampshire,3
 total rows output - Hampshire,19
 job_id included - Hampshire,58c3e926-cf9b-4aae-a931-e1c867a7b221; 1401784075; 1642086; 1642087; 62ac8011-cb52-461e-bd72-7273b61cb640; 1401784261; 77b95346-e87e-49a2-ba72-135448bf136e; 107404020; 1401784321; 107332363; 1401784493; 1401784594; 107796981; 107807442; 1401784414; 1401784339; 107776124; 202c4b49-5e6c-46f1-879f-8421db894a5b; 4a74d1e7-f86f-4dad-965a-206ba0f5fa61
-selection scenario - London,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - London,"London selection complete: 11 selected after HIGH_CONFIDENCE, London ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - London,11
+selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - London,London manual_select applied additively: 2 row(s) prioritised; 13 selected.
+credible total - London,13
 high confidence count - London,9
 anchor elastic count - London,1
 other elastic count - London,1
-total rows output - London,11
-job_id included - London,848d12d1-73ad-460f-89ef-48c6e24b3f6b; 1621461; 1629837; 23643_223283749; ac5d5840-151a-4857-9bcc-dcb8c776c918; 281f76c8-4bbe-4cc0-8651-945559a163d4; 23643_225476071; 3b6a79fe-bdd8-45a4-977b-61888453872c; feafdbff-feab-46b2-9f5e-426a6897dd2e; 573ad49a-e43f-4fe5-b86d-66e9514e3b01; 25362_JR104883-1-714afb01ebf3664bdb0febe6b0f96c3d
+total rows output - London,13
+job_id included - London,848d12d1-73ad-460f-89ef-48c6e24b3f6b; 1621461; 1629837; 23643_223283749; ac5d5840-151a-4857-9bcc-dcb8c776c918; 107751975; 107769225; 281f76c8-4bbe-4cc0-8651-945559a163d4; 23643_225476071; 3b6a79fe-bdd8-45a4-977b-61888453872c; feafdbff-feab-46b2-9f5e-426a6897dd2e; 573ad49a-e43f-4fe5-b86d-66e9514e3b01; 25362_JR104883-1-714afb01ebf3664bdb0febe6b0f96c3d
