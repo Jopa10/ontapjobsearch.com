@@ -26,7 +26,6 @@ jobs:
           python - <<'PY'
           import csv
           import re
-          import time
           from concurrent.futures import ThreadPoolExecutor, as_completed
           from pathlib import Path
           import requests
@@ -68,17 +67,11 @@ jobs:
                   resp = requests.get(url, headers=HEADERS, timeout=25)
                   resp.raise_for_status()
                   soup = BeautifulSoup(resp.text, 'html.parser')
-                  # NHS Jobs pages expose person-spec headings and bullet items in server-rendered HTML.
                   main = soup.find('main') or soup
                   headings = main.find_all(['h2','h3','h4','h5'])
-                  ps_start = None
-                  for h in headings:
-                      if 'person specification' in norm(h.get_text(' ', strip=True)):
-                          ps_start = h
-                          break
+                  ps_start = next((h for h in headings if 'person specification' in norm(h.get_text(' ', strip=True))), None)
                   if not ps_start:
-                      text = clean_text(main.get_text(' ', strip=True))
-                      return {'fetch_status':'NO_PERSON_SPEC_HEADING','essential':'','desirable':'','page_excerpt':text[:1200]}
+                      return {'fetch_status':'NO_PERSON_SPEC_HEADING','essential':'','desirable':''}
 
                   essential, desirable = [], []
                   mode = None
@@ -86,7 +79,7 @@ jobs:
                   steps = 0
                   while node and steps < 700:
                       steps += 1
-                      if getattr(node, 'name', None) in ['h2'] and node is not ps_start:
+                      if getattr(node, 'name', None) == 'h2' and node is not ps_start:
                           txt = norm(node.get_text(' ', strip=True))
                           if txt and 'person specification' not in txt:
                               break
@@ -100,7 +93,6 @@ jobs:
                               (essential if mode == 'essential' else desirable).append(txt)
                       node = node.find_next()
 
-                  # De-duplicate repeated person-spec blocks on some NHS pages.
                   def dedupe(items):
                       seen, result = set(), []
                       for x in items:
@@ -110,43 +102,39 @@ jobs:
                       return result
                   essential = dedupe(essential)
                   desirable = dedupe(desirable)
-                  return {
-                      'fetch_status':'OK',
-                      'essential':' | '.join(essential),
-                      'desirable':' | '.join(desirable),
-                      'page_excerpt':'',
-                  }
+                  return {'fetch_status':'OK','essential':' | '.join(essential),'desirable':' | '.join(desirable)}
               except Exception as e:
-                  return {'fetch_status':f'ERROR: {type(e).__name__}','essential':'','desirable':'','page_excerpt':''}
+                  return {'fetch_status':f'ERROR: {type(e).__name__}','essential':'','desirable':''}
 
           results = [None] * len(selected)
           with ThreadPoolExecutor(max_workers=8) as ex:
               futures = {ex.submit(fetch_person_spec, r): i for i,r in enumerate(selected)}
               for fut in as_completed(futures):
-                  i = futures[fut]
-                  results[i] = fut.result()
+                  results[futures[fut]] = fut.result()
 
           sector_terms = (
-              'nhs experience','experience within the nhs','working in the nhs','nhs environment',
-              'healthcare experience','health care experience','healthcare setting','health care setting',
-              'clinical environment','clinical setting','general practice experience','gp practice experience',
-              'primary care experience','primary care setting','hospital experience','acute trust experience',
-              'previous nhs','previous healthcare','working within healthcare','working in healthcare'
+              'nhs experience','experience within the nhs','experience in the nhs','experience working in the nhs',
+              'working in the nhs','nhs environment','previous nhs','nhs administrative experience',
+              'healthcare experience','health care experience','experience in healthcare','experience within healthcare',
+              'healthcare setting','health care setting','clinical environment','clinical setting',
+              'general practice experience','gp practice experience','primary care experience','primary care setting',
+              'hospital experience','acute trust experience','previous healthcare','working within healthcare','working in healthcare'
           )
           system_terms = (
               'emis','systmone','system one','rio','cerner','epic','epr','electronic patient record',
-              'patient administration system','pas system','nhs spine','choose and book','ers','e-referral'
+              'patient administration system','pas system','nhs spine','choose and book','e referral','e referral service'
           )
           specialist_terms = (
               'medical terminology','clinical terminology','audio typing','medical transcription',
-              'amspAR'.casefold(),'medical secretary qualification'
+              'amspar','medical secretary qualification'
           )
 
           def hits(text, terms):
-              t = norm(text)
+              padded = f' {norm(text)} '
               found = []
               for term in terms:
-                  if norm(term) in t:
+                  phrase = f' {norm(term)} '
+                  if phrase in padded:
                       found.append(term)
               return found
 
