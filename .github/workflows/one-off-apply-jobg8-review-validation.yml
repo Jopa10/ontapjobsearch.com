@@ -1,0 +1,24 @@
+name: One-off JobG8 review apply validation
+
+on:
+  push:
+    paths:
+      - .github/workflows/one-off-apply-jobg8-review-validation.yml
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch lightweight JobG8 review apply workflow
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'apply-jobg8-review-decisions.yml',
+              ref: 'main'
+            })
