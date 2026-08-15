@@ -5,6 +5,7 @@ while moving region activation into the central slice register/catalog.
 """
 from __future__ import annotations
 
+from . import persistent_jobg8_review as persistence
 from . import service_admin_pipeline_live_config as configured
 
 # Compatibility exports retained for existing tests/callers.
@@ -18,7 +19,11 @@ write_manual_review_markdown = configured.write_manual_review_markdown
 
 
 def main() -> int:
-    return configured.main()
+    run = persistence.prepare("service_admin")
+    try:
+        return configured.main()
+    finally:
+        persistence.finalize(run)
 
 
 if __name__ == "__main__":

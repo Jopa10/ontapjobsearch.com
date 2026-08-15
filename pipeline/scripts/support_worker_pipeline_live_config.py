@@ -154,7 +154,13 @@ core.decision_report_sort_key = decision_report_sort_key
 
 
 def main() -> int:
-    return core.main()
+    from . import persistent_jobg8_review as persistence
+
+    run = persistence.prepare("support_worker")
+    try:
+        return core.main()
+    finally:
+        persistence.finalize(run)
 
 
 if __name__ == "__main__":
