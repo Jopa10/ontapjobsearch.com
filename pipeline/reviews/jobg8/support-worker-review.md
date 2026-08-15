@@ -409,6 +409,12 @@ job_id: 281f76c8-4bbe-4cc0-8651-945559a163d4
 
 ---
 action:
+SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
+job_id: 107751975
+---
+
+---
+action:
 SELECTED | London | London | £31,116.80 per annum | Specialist Behavioural Support Worker
 job_id: 1621461
 ---
@@ -423,6 +429,12 @@ job_id: 1629837
 action:
 SELECTED | London | City | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104883-1-714afb01ebf3664bdb0febe6b0f96c3d
+---
+
+---
+action:
+SELECTED | London | Surbiton | £246 per daily | Live-in Care Assistant for a Business and Management Graduate
+job_id: 107769225
 ---
 
 ---
@@ -463,24 +475,8 @@ job_id: 573ad49a-e43f-4fe5-b86d-66e9514e3b01
 
 ## LONDON — POSSIBLES
 
----
-action: exclude
-POSS - LONDON | London | London | £30 - £40 per hour | Communication Support Worker
-job_id: b0026c42-2444-46d8-8c8d-840b9df2e664
----
-
----
-action: select
-POSS - LONDON | London | City | £260 per daily | Care Assistant to a Psychology University Student
-job_id: 107751975
----
-
----
-action: select
-POSS - LONDON | London | Surbiton | £246 per daily | Live-in Care Assistant for a Business and Management Graduate
-job_id: 107769225
----
+_No jobs in this group._
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
-{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107751768":{"action":"select","decided_on":"2026-08-14"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
+{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
 -->
