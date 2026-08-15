@@ -1,16 +1,18 @@
 """Persist explicit JobG8 manual review decisions across daily feed dates.
 
-The existing selectors intentionally scope review actions to one feed date.  This
+The existing selectors intentionally scope review actions to one feed date. This
 wrapper layer preserves only explicit human ``action: select`` / ``exclude``
 choices by JobG8 ``job_id`` and replays them temporarily before each run.
 
-The persisted store lives in a hidden HTML comment at the bottom of the existing
-Markdown review file, so the current GitHub Actions commit allow-list does not
-need to change.  After the selector runs, visible ``action:`` fields are cleared
-again; the hidden store remains the durable source of truth.
+The persisted store lives in a hidden HTML comment at the bottom of each existing
+Markdown review file. A combined human-facing ``jobg8-exclusion-list.md`` is
+generated from those stores so exclusions can be reviewed, dated, and reversed.
+After the selector runs, visible ``action:`` fields are cleared again; the hidden
+stores remain the durable source of truth.
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import re
@@ -19,12 +21,15 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+import pandas as pd
+
 from .pipeline_refinement import resolve_feed_date
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 REPO_ROOT = PIPELINE_ROOT.parent
 REVIEW_DIR = PIPELINE_ROOT / "reviews" / "jobg8"
 INPUT_DIR = PIPELINE_ROOT / "input"
+EXCLUSION_REPORT_PATH = REVIEW_DIR / "jobg8-exclusion-list.md"
 
 STORE_MARKER = "ONTAP_PERSISTENT_DECISIONS_V1"
 STORE_RE = re.compile(
@@ -41,6 +46,18 @@ CATEGORY_FILES = {
         REVIEW_DIR / "support-worker-review.md",
         REVIEW_DIR / "support-worker-review.csv",
     ),
+}
+
+CATEGORY_LABELS = {
+    "service_admin": "SERVICE / ADMIN",
+    "support_worker": "SUPPORT WORKER",
+}
+
+FEED_COLUMNS = {
+    "job_id": "/Job/DisplayReference",
+    "employer": "/Job/AdvertiserName",
+    "title": "/Job/Position",
+    "location": "/Job/Location",
 }
 
 # One-time bootstrap from the user's explicit review-edit commits immediately
@@ -70,6 +87,11 @@ def _normalise_action(value: Any) -> str:
     return action if action in {"select", "exclude"} else ""
 
 
+def _clean(value: Any) -> str:
+    text = str(value or "").strip()
+    return "" if text.lower() == "nan" else text
+
+
 def _strip_store(text: str) -> str:
     return STORE_RE.sub("", text).rstrip() + "\n"
 
@@ -92,10 +114,15 @@ def _load_store(text: str) -> dict[str, dict[str, str]]:
         action = _normalise_action(value.get("action"))
         if not job_id or not action:
             continue
-        decisions[str(job_id)] = {
+        record = {
             "action": action,
-            "decided_on": str(value.get("decided_on") or ""),
+            "decided_on": _clean(value.get("decided_on")),
         }
+        for field in ("title", "employer", "region", "town", "salary"):
+            cleaned = _clean(value.get(field))
+            if cleaned:
+                record[field] = cleaned
+        decisions[str(job_id)] = record
     return decisions
 
 
@@ -133,14 +160,46 @@ def _review_blocks(text: str) -> list[str]:
     return re.findall(r"(?ms)^---\s*\n(.*?)^---\s*$", text)
 
 
-def _explicit_actions(text: str) -> dict[str, str]:
-    actions: dict[str, str] = {}
+def _review_block_metadata(block: str) -> dict[str, str]:
+    metadata: dict[str, str] = {}
+    for line in block.splitlines():
+        match = re.match(
+            r"^(?:SELECTED|POSS)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*)$",
+            line,
+        )
+        if not match:
+            continue
+        region, town, salary, title = match.groups()
+        metadata.update(
+            {
+                "region": region.strip(),
+                "town": town.strip(),
+                "salary": salary.strip(),
+                "title": title.strip(),
+            }
+        )
+        break
+    return {key: value for key, value in metadata.items() if value}
+
+
+def _explicit_action_records(text: str) -> dict[str, dict[str, str]]:
+    actions: dict[str, dict[str, str]] = {}
     for block in _review_blocks(text):
         action_match = re.search(r"(?m)^action:\s*(select|exclude)\s*$", block, re.I)
         job_match = re.search(r"(?m)^job_id:\s*(\S+)\s*$", block)
         if action_match and job_match:
-            actions[job_match.group(1)] = action_match.group(1).lower()
+            actions[job_match.group(1)] = {
+                "action": action_match.group(1).lower(),
+                **_review_block_metadata(block),
+            }
     return actions
+
+
+def _explicit_actions(text: str) -> dict[str, str]:
+    return {
+        job_id: value["action"]
+        for job_id, value in _explicit_action_records(text).items()
+    }
 
 
 def _apply_actions(text: str, decisions: dict[str, dict[str, str]]) -> str:
@@ -217,6 +276,31 @@ def _find_jobg8_file() -> Path:
     )
 
 
+def _feed_metadata(path: Path) -> dict[str, dict[str, str]]:
+    if path.suffix.lower() == ".csv":
+        frame = pd.read_csv(path, dtype=str, keep_default_na=False)
+    else:
+        frame = pd.read_excel(path, dtype=str, keep_default_na=False)
+    job_column = FEED_COLUMNS["job_id"]
+    if job_column not in frame.columns:
+        return {}
+
+    metadata: dict[str, dict[str, str]] = {}
+    for _, row in frame.iterrows():
+        job_id = _clean(row.get(job_column))
+        if not job_id:
+            continue
+        record: dict[str, str] = {}
+        for key in ("employer", "title", "location"):
+            column = FEED_COLUMNS[key]
+            if column in frame.columns:
+                value = _clean(row.get(column))
+                if value:
+                    record[key] = value
+        metadata[job_id] = record
+    return metadata
+
+
 def _ensure_commit_available(sha: str) -> None:
     present = subprocess.run(
         ["git", "cat-file", "-e", f"{sha}^{{commit}}"],
@@ -280,28 +364,91 @@ def _bootstrap_decisions(category: str) -> dict[str, dict[str, str]]:
     return decisions
 
 
+def _exclusion_recovery_actions(text: str, category: str) -> dict[str, dict[str, str]]:
+    actions: dict[str, dict[str, str]] = {}
+    for block in _review_blocks(text):
+        category_match = re.search(r"(?m)^category:\s*(\S+)\s*$", block)
+        action_match = re.search(r"(?m)^action:\s*select\s*$", block, re.I)
+        job_match = re.search(r"(?m)^job_id:\s*(\S+)\s*$", block)
+        if not (category_match and action_match and job_match):
+            continue
+        if category_match.group(1) != category:
+            continue
+        metadata: dict[str, str] = {"action": "select"}
+        for field in ("title", "employer", "region", "town", "salary"):
+            field_match = re.search(rf"(?m)^{field}:\s*(.*?)\s*$", block)
+            if field_match and field_match.group(1).strip():
+                metadata[field] = field_match.group(1).strip()
+        actions[job_match.group(1)] = metadata
+    return actions
+
+
+def _merge_decision(
+    existing: dict[str, str] | None,
+    action_record: dict[str, str],
+    decided_on: str,
+    feed_record: dict[str, str] | None = None,
+) -> dict[str, str]:
+    merged = dict(existing or {})
+    merged["action"] = action_record["action"]
+    merged["decided_on"] = decided_on
+
+    if feed_record:
+        if feed_record.get("employer"):
+            merged["employer"] = feed_record["employer"]
+        if feed_record.get("title") and not action_record.get("title"):
+            merged["title"] = feed_record["title"]
+        if feed_record.get("location") and not action_record.get("town"):
+            merged["town"] = feed_record["location"]
+
+    for field in ("title", "employer", "region", "town", "salary"):
+        value = _clean(action_record.get(field))
+        if value:
+            merged[field] = value
+    return merged
+
+
 def prepare(category: str) -> PersistenceRun:
     """Capture new human actions, then seed all persisted actions for this run."""
     if category not in CATEGORY_FILES:
         raise ValueError(f"Unsupported JobG8 review category: {category}")
 
     review_md, review_csv = CATEGORY_FILES[category]
-    current_feed_date = resolve_feed_date(_find_jobg8_file())
+    feed_path = _find_jobg8_file()
+    current_feed_date = resolve_feed_date(feed_path)
     text = review_md.read_text(encoding="utf-8-sig") if review_md.exists() else ""
 
     decisions = _load_store(text)
     if not decisions:
         decisions = _bootstrap_decisions(category)
 
+    # A remembered exclusion can be reversed from the combined exclusion list.
+    # The reversal is captured before the normal review edits; if the same ID
+    # somehow has edits in both places, the normal current review wins.
+    if EXCLUSION_REPORT_PATH.exists():
+        exclusion_text = EXCLUSION_REPORT_PATH.read_text(encoding="utf-8-sig")
+        for job_id, action_record in _exclusion_recovery_actions(
+            exclusion_text, category
+        ).items():
+            decisions[job_id] = _merge_decision(
+                decisions.get(job_id),
+                action_record,
+                current_feed_date,
+            )
+
     # Only capture visible edits if the review itself belongs to this feed date.
     # This prevents stale generated actions from an older daily file being
     # mistaken for a fresh human judgement.
     if _review_feed_date(text) == current_feed_date:
-        for job_id, action in _explicit_actions(text).items():
-            decisions[job_id] = {
-                "action": action,
-                "decided_on": current_feed_date,
-            }
+        action_records = _explicit_action_records(text)
+        feed_records = _feed_metadata(feed_path) if action_records else {}
+        for job_id, action_record in action_records.items():
+            decisions[job_id] = _merge_decision(
+                decisions.get(job_id),
+                action_record,
+                current_feed_date,
+                feed_records.get(job_id),
+            )
 
     runtime_text = _strip_store(text)
     runtime_text = _set_review_feed_date(runtime_text, current_feed_date)
@@ -349,3 +496,107 @@ def finalize(run: PersistenceRun) -> None:
         text = _append_store(text, run.decisions)
         run.review_md.write_text(text, encoding="utf-8")
     _clear_csv_actions(run.review_csv)
+
+
+def _load_category_store(category: str) -> dict[str, dict[str, str]]:
+    review_md, _ = CATEGORY_FILES[category]
+    if not review_md.exists():
+        return {}
+    return _load_store(review_md.read_text(encoding="utf-8-sig"))
+
+
+def _report_value(value: Any) -> str:
+    return _clean(value).replace("\n", " ").replace("\r", " ")
+
+
+def render_exclusion_report(
+    category_decisions: dict[str, dict[str, dict[str, str]]],
+) -> str:
+    total = sum(
+        1
+        for decisions in category_decisions.values()
+        for record in decisions.values()
+        if record.get("action") == "exclude"
+    )
+    lines = [
+        "# JobG8 exclusion list",
+        "",
+        "This is the durable list of jobs explicitly excluded during manual review.",
+        "The `excluded_on` date is the day the exclusion decision was made.",
+        "",
+        "To restore a job, edit only its `action:` line to `action: select`.",
+        "On the next JobG8 run that exact job ID will be restored and removed from this list.",
+        "",
+        f"remembered_exclusions: {total}",
+        "",
+    ]
+
+    for category in ("service_admin", "support_worker"):
+        label = CATEGORY_LABELS[category]
+        excluded = [
+            (job_id, record)
+            for job_id, record in category_decisions.get(category, {}).items()
+            if record.get("action") == "exclude"
+        ]
+        excluded.sort(
+            key=lambda item: (
+                item[1].get("decided_on", ""),
+                item[1].get("title", ""),
+                item[0],
+            ),
+            reverse=True,
+        )
+        lines.extend([f"## {label} — EXCLUDED", ""])
+        if not excluded:
+            lines.extend(["No remembered exclusions.", ""])
+            continue
+        for job_id, record in excluded:
+            lines.extend(
+                [
+                    "---",
+                    "action:",
+                    f"category: {category}",
+                    f"excluded_on: {_report_value(record.get('decided_on'))}",
+                    f"title: {_report_value(record.get('title'))}",
+                    f"employer: {_report_value(record.get('employer'))}",
+                    f"region: {_report_value(record.get('region'))}",
+                    f"town: {_report_value(record.get('town'))}",
+                    f"salary: {_report_value(record.get('salary'))}",
+                    f"job_id: {job_id}",
+                    "---",
+                    "",
+                ]
+            )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def refresh_exclusion_report() -> None:
+    REVIEW_DIR.mkdir(parents=True, exist_ok=True)
+    category_decisions = {
+        category: _load_category_store(category)
+        for category in CATEGORY_FILES
+    }
+    EXCLUSION_REPORT_PATH.write_text(
+        render_exclusion_report(category_decisions),
+        encoding="utf-8",
+    )
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description="Refresh the combined persistent JobG8 exclusion list."
+    )
+    parser.add_argument(
+        "--refresh-exclusion-report",
+        action="store_true",
+        help="Regenerate jobg8-exclusion-list.md from the persistent decision stores.",
+    )
+    args = parser.parse_args(argv)
+    if not args.refresh_exclusion_report:
+        parser.error("--refresh-exclusion-report is required")
+    refresh_exclusion_report()
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
