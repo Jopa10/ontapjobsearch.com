@@ -13,6 +13,12 @@ Edit only the `action:` line in each block:
 
 ---
 action:
+SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
+job_id: 107751768
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Dewsbury | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104910
 ---
@@ -37,13 +43,15 @@ job_id: 23643_225476096
 
 ## WEST YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
-job_id: 107751768
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
+job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
+---
 
 ---
 action:
@@ -59,11 +67,7 @@ job_id: 644ad7a6-f985-4576-807e-d5dbedad1b4c
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -147,17 +151,19 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.
 job_id: 23643_225483894
 ---
 
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
+job_id: 23643_225493355
+---
+
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 _No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
----
-action:
-POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
-job_id: 23643_225493355
----
+_No jobs in this group._
 
 ## SUSSEX — SELECTED
 
@@ -289,6 +295,24 @@ job_id: 107404020
 
 ---
 action:
+SELECTED | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
+job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
+job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
+---
+
+---
+action:
+SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401784261
+---
+
+---
+action:
 SELECTED | Hampshire | Havant | £27780 - £30564 per year | Support Worker
 job_id: 1401784321
 ---
@@ -367,23 +391,7 @@ job_id: 1401784594
 
 ## HAMPSHIRE — POSSIBLES
 
----
-action:
-POSS - HAMPSHIRE | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
-job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
----
-
----
-action:
-POSS - HAMPSHIRE | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
-job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
----
-
----
-action:
-POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
-job_id: 1401784261
----
+_No jobs in this group._
 
 ## LONDON — SELECTED
 
@@ -472,3 +480,7 @@ action:
 POSS - LONDON | London | Surbiton | £246 per daily | Live-in Care Assistant for a Business and Management Graduate
 job_id: 107769225
 ---
+
+<!-- ONTAP_PERSISTENT_DECISIONS_V1
+{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107751768":{"action":"select","decided_on":"2026-08-14"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
+-->
