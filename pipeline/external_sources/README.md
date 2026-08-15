@@ -185,3 +185,49 @@ A Monday/Thursday operating routine would align cleanly with NEJobs and
 LinkedIn, but this POC intentionally creates no schedule. Frequency should be
 agreed only after the first live review demonstrates that parsing, geography,
 deduplication and closing-date quality are reliable.
+
+## NHS Jobs
+
+`nhs_jobs_poc.py` and `nhs_jobs_etl.py` implement a UK-wide, review-only NHS
+Jobs inventory assessment focused initially on the NHS `Administrative &
+Clerical` staff group.
+
+The process:
+
+1. reads the public NHS Jobs XML search feed;
+2. requests up to 100 listings per page and sorts newest first;
+3. retains stable NHS vacancy IDs plus factual title, employer, location,
+   salary, contract, posted/closing dates, reference and source URL;
+4. removes closed vacancies;
+5. applies an Ontap title screen because the NHS staff group includes both
+   clear office roles and out-of-scope roles;
+6. compares every retained vacancy with current selected JobG8 inventory using
+   the existing 65% title / 35% employer similarity convention;
+7. labels candidates `HC`, `POSS`, or `HARD_PASS`; and
+8. writes only an inventory CSV and Markdown summary.
+
+Run the **Run NHS Jobs inventory review** workflow on the isolated NHS branch.
+The equivalent command, run from `pipeline/`, is:
+
+```bash
+python -m external_sources.nhs_jobs_etl \
+  --fetch-live \
+  --acknowledge-source-terms \
+  --max-pages 30
+```
+
+The workflow explicitly checks that these paths have not changed:
+
+- `pipeline/output-external`
+- `pipeline/output-admin-service`
+- `app`
+
+It then commits only:
+
+- `pipeline/reviews/external/nhs-jobs-admin-clerical-review.csv`
+- `pipeline/reviews/external/nhs-jobs-admin-clerical-summary.md`
+
+There is deliberately no NHS approved-output, composition, schedule or live
+publishing path yet. Production remains gated on confirming the correct NHS
+Jobs External Job Board API/feed, operational requirements and attribution
+boundary. See `NHS_JOBS_SOURCE_AUDIT.md`.
