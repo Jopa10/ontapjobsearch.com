@@ -1,10 +1,10 @@
 # NHS Jobs Administrative & Clerical inventory review
 
 - Review date: 2026-08-15
-- NHS API reported Administrative & Clerical vacancies: 2393
-- Open vacancies parsed for review: 2393
+- NHS API reported Administrative & Clerical vacancies: 2392
+- Open vacancies parsed for review: 2392
 - HC: 580
-- POSS: 1248
+- POSS: 1247
 - HARD_PASS: 565
 - Current JobG8 comparison rows: 836
 - Confirmed JobG8 duplicates: 30
