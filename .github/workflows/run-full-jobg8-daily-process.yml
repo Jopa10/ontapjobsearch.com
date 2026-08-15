@@ -177,6 +177,14 @@ jobs:
           test -s pipeline/output-support-worker/hampshire-support-worker.json
           test -s pipeline/output-support-worker/london-support-worker.json
 
+      - name: Test persistent review and exclusion behavior
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_persistent_jobg8_review.py' -v
+
+      - name: Refresh JobG8 exclusion list
+        working-directory: pipeline
+        run: python -m scripts.persistent_jobg8_review --refresh-exclusion-report
+
       - name: Commit JobG8 daily output
         run: |
           set -euo pipefail
@@ -219,6 +227,7 @@ jobs:
             "pipeline/reviews/jobg8/service-admin-review.md"
             "pipeline/reviews/jobg8/support-worker-review.csv"
             "pipeline/reviews/jobg8/support-worker-review.md"
+            "pipeline/reviews/jobg8/jobg8-exclusion-list.md"
           )
 
           if [ -z "$(git status --porcelain -- "${manual_review_paths[@]}")" ]; then
@@ -236,7 +245,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/jobg8/service-admin-review.csv" && $0 != "pipeline/reviews/jobg8/service-admin-review.md" && $0 != "pipeline/reviews/jobg8/support-worker-review.csv" && $0 != "pipeline/reviews/jobg8/support-worker-review.md"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/jobg8/service-admin-review.csv" && $0 != "pipeline/reviews/jobg8/service-admin-review.md" && $0 != "pipeline/reviews/jobg8/support-worker-review.csv" && $0 != "pipeline/reviews/jobg8/support-worker-review.md" && $0 != "pipeline/reviews/jobg8/jobg8-exclusion-list.md"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 manual review files. Staged files:"
             printf '%s\n' "$unexpected_files"
