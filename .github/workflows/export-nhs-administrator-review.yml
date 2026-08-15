@@ -1,0 +1,98 @@
+name: Export NHS Administrator review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/nhs-inventory-poc
+    paths:
+      - .github/workflows/export-nhs-administrator-review.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Administrator review CSV
+        run: |
+          python - <<'PY'
+          import csv
+          import re
+          from pathlib import Path
+
+          src = Path('pipeline/reviews/external/nhs-jobs-admin-clerical-review.csv')
+          out = Path('nhs-administrator-review.csv')
+          with src.open(encoding='utf-8', newline='') as f:
+              rows = list(csv.DictReader(f))
+
+          def norm(v):
+              return re.sub(r'[^a-z0-9]+', ' ', (v or '').casefold()).strip()
+
+          # Mirror the family rule used in the earlier HC composition analysis:
+          # specific families are removed before generic "administrator".
+          def is_generic_administrator(title):
+              t = norm(title)
+              if 'administrator' not in t:
+                  return False
+              earlier = (
+                  'medical secretary','ward clerk','patient pathway','booking clerk',
+                  'appointments clerk','appointment clerk','medical records','records clerk',
+                  'receptionist','reception assistant','business support','team secretary',
+                  'personal assistant','clerical officer','clerical assistant','support officer',
+                  'data administrator','office administrator','office assistant',
+                  'administrative assistant','admin assistant','administration assistant'
+              )
+              return not any(term in t for term in earlier)
+
+          selected = [r for r in rows if r.get('final_decision') == 'HC' and is_generic_administrator(r.get('title',''))]
+
+          def provisional(r):
+              t = norm(r.get('title',''))
+              # Title/feed-only triage; detailed person-spec review is deliberately still pending.
+              if any(x in t for x in ('manager','head of','director','team leader')):
+                  return ('HARD_PASS_REVIEW','Title indicates management/seniority despite Administrator match')
+              if any(x in t for x in ('senior','lead','specialist')):
+                  return ('POSS | SECTOR_EXPERIENCED','Seniority/specialism suggests advert-level experience check')
+              if any(x in t for x in ('clinical','patient','medical','health','safeguarding','school nursing','adhd','neighbourhood','care navigator')):
+                  return ('POSS | BRIDGEABLE','NHS/clinical context in title; check whether sector experience is essential or merely desirable')
+              return ('HC | OPEN_SWITCH','Generic administrator title; no NHS-specific barrier visible in feed fields')
+
+          fields = [
+              'review_no','title','employer','locations','salary_text','employment_type',
+              'provisional_classification','provisional_reason','current_decision',
+              'job_reference','closing_date','source_url','person_spec_review'
+          ]
+          with out.open('w', encoding='utf-8-sig', newline='') as f:
+              w = csv.DictWriter(f, fieldnames=fields)
+              w.writeheader()
+              for i,r in enumerate(selected,1):
+                  label, reason = provisional(r)
+                  w.writerow({
+                      'review_no': i,
+                      'title': r.get('title',''),
+                      'employer': r.get('employer',''),
+                      'locations': r.get('locations',''),
+                      'salary_text': r.get('salary_text',''),
+                      'employment_type': r.get('employment_type',''),
+                      'provisional_classification': label,
+                      'provisional_reason': reason,
+                      'current_decision': r.get('final_decision',''),
+                      'job_reference': r.get('job_reference',''),
+                      'closing_date': r.get('closing_date',''),
+                      'source_url': r.get('source_url',''),
+                      'person_spec_review': 'PENDING',
+                  })
+          print(f'Exported {len(selected)} Administrator-family HC rows to {out}')
+          assert len(selected) == 185, f'Expected 185 rows, got {len(selected)}'
+          PY
+
+      - name: Upload review CSV
+        uses: actions/upload-artifact@v4
+        with:
+          name: nhs-administrator-review
+          path: nhs-administrator-review.csv
+          if-no-files-found: error
