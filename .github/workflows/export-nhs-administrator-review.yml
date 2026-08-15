@@ -14,26 +14,32 @@ permissions:
 jobs:
   export:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build Administrator review CSV
+      - name: Install parser dependencies
+        run: python -m pip install requests beautifulsoup4
+
+      - name: Build deep Administrator review CSV
         run: |
           python - <<'PY'
           import csv
           import re
+          import time
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           from pathlib import Path
+          import requests
+          from bs4 import BeautifulSoup
 
           src = Path('pipeline/reviews/external/nhs-jobs-admin-clerical-review.csv')
-          out = Path('nhs-administrator-review.csv')
+          out = Path('nhs-administrator-review-deep.csv')
           with src.open(encoding='utf-8', newline='') as f:
               rows = list(csv.DictReader(f))
 
           def norm(v):
               return re.sub(r'[^a-z0-9]+', ' ', (v or '').casefold()).strip()
 
-          # Mirror the family rule used in the earlier HC composition analysis:
-          # specific families are removed before generic "administrator".
           def is_generic_administrator(title):
               t = norm(title)
               if 'administrator' not in t:
@@ -49,28 +55,141 @@ jobs:
               return not any(term in t for term in earlier)
 
           selected = [r for r in rows if r.get('final_decision') == 'HC' and is_generic_administrator(r.get('title',''))]
+          assert len(selected) == 185, f'Expected 185 rows, got {len(selected)}'
 
-          def provisional(r):
-              t = norm(r.get('title',''))
-              # Title/feed-only triage; detailed person-spec review is deliberately still pending.
-              if any(x in t for x in ('manager','head of','director','team leader')):
-                  return ('HARD_PASS_REVIEW','Title indicates management/seniority despite Administrator match')
-              if any(x in t for x in ('senior','lead','specialist')):
-                  return ('POSS | SECTOR_EXPERIENCED','Seniority/specialism suggests advert-level experience check')
-              if any(x in t for x in ('clinical','patient','medical','health','safeguarding','school nursing','adhd','neighbourhood','care navigator')):
-                  return ('POSS | BRIDGEABLE','NHS/clinical context in title; check whether sector experience is essential or merely desirable')
-              return ('HC | OPEN_SWITCH','Generic administrator title; no NHS-specific barrier visible in feed fields')
+          HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; OntapJobSearchReview/1.0)'}
+
+          def clean_text(s):
+              return re.sub(r'\s+', ' ', s or '').strip()
+
+          def fetch_person_spec(row):
+              url = row.get('source_url','')
+              try:
+                  resp = requests.get(url, headers=HEADERS, timeout=25)
+                  resp.raise_for_status()
+                  soup = BeautifulSoup(resp.text, 'html.parser')
+                  # NHS Jobs pages expose person-spec headings and bullet items in server-rendered HTML.
+                  main = soup.find('main') or soup
+                  headings = main.find_all(['h2','h3','h4','h5'])
+                  ps_start = None
+                  for h in headings:
+                      if 'person specification' in norm(h.get_text(' ', strip=True)):
+                          ps_start = h
+                          break
+                  if not ps_start:
+                      text = clean_text(main.get_text(' ', strip=True))
+                      return {'fetch_status':'NO_PERSON_SPEC_HEADING','essential':'','desirable':'','page_excerpt':text[:1200]}
+
+                  essential, desirable = [], []
+                  mode = None
+                  node = ps_start.find_next()
+                  steps = 0
+                  while node and steps < 700:
+                      steps += 1
+                      if getattr(node, 'name', None) in ['h2'] and node is not ps_start:
+                          txt = norm(node.get_text(' ', strip=True))
+                          if txt and 'person specification' not in txt:
+                              break
+                      if getattr(node, 'name', None) in ['h3','h4','h5']:
+                          txt = norm(node.get_text(' ', strip=True))
+                          if txt == 'essential': mode = 'essential'
+                          elif txt == 'desirable': mode = 'desirable'
+                      elif getattr(node, 'name', None) == 'li' and mode:
+                          txt = clean_text(node.get_text(' ', strip=True))
+                          if txt:
+                              (essential if mode == 'essential' else desirable).append(txt)
+                      node = node.find_next()
+
+                  # De-duplicate repeated person-spec blocks on some NHS pages.
+                  def dedupe(items):
+                      seen, result = set(), []
+                      for x in items:
+                          k = norm(x)
+                          if k and k not in seen:
+                              seen.add(k); result.append(x)
+                      return result
+                  essential = dedupe(essential)
+                  desirable = dedupe(desirable)
+                  return {
+                      'fetch_status':'OK',
+                      'essential':' | '.join(essential),
+                      'desirable':' | '.join(desirable),
+                      'page_excerpt':'',
+                  }
+              except Exception as e:
+                  return {'fetch_status':f'ERROR: {type(e).__name__}','essential':'','desirable':'','page_excerpt':''}
+
+          results = [None] * len(selected)
+          with ThreadPoolExecutor(max_workers=8) as ex:
+              futures = {ex.submit(fetch_person_spec, r): i for i,r in enumerate(selected)}
+              for fut in as_completed(futures):
+                  i = futures[fut]
+                  results[i] = fut.result()
+
+          sector_terms = (
+              'nhs experience','experience within the nhs','working in the nhs','nhs environment',
+              'healthcare experience','health care experience','healthcare setting','health care setting',
+              'clinical environment','clinical setting','general practice experience','gp practice experience',
+              'primary care experience','primary care setting','hospital experience','acute trust experience',
+              'previous nhs','previous healthcare','working within healthcare','working in healthcare'
+          )
+          system_terms = (
+              'emis','systmone','system one','rio','cerner','epic','epr','electronic patient record',
+              'patient administration system','pas system','nhs spine','choose and book','ers','e-referral'
+          )
+          specialist_terms = (
+              'medical terminology','clinical terminology','audio typing','medical transcription',
+              'amspAR'.casefold(),'medical secretary qualification'
+          )
+
+          def hits(text, terms):
+              t = norm(text)
+              found = []
+              for term in terms:
+                  if norm(term) in t:
+                      found.append(term)
+              return found
+
+          def classify(row, ps):
+              t = norm(row.get('title',''))
+              ess = ps.get('essential','')
+              des = ps.get('desirable','')
+              if any(x in t for x in (' manager','manager ','head of','director','team leader')) or t.startswith('manager'):
+                  return 'HARD_PASS', 'Managerial/senior wording in title despite Administrator match'
+              if ps.get('fetch_status') != 'OK':
+                  return 'POSS | MANUAL_CHECK', 'Person specification could not be reliably extracted'
+
+              ess_sector = hits(ess, sector_terms)
+              ess_system = hits(ess, system_terms)
+              ess_special = hits(ess, specialist_terms)
+              des_sector = hits(des, sector_terms)
+              des_system = hits(des, system_terms)
+              des_special = hits(des, specialist_terms)
+
+              if ess_sector or ess_system:
+                  evidence = ', '.join((ess_sector + ess_system)[:4])
+                  return 'POSS | SECTOR_EXPERIENCED', f'Essential NHS/healthcare/system requirement detected: {evidence}'
+              if ess_special:
+                  evidence = ', '.join(ess_special[:4])
+                  return 'POSS | BRIDGEABLE', f'Essential specialist skill but not prior NHS/healthcare experience: {evidence}'
+              if des_sector or des_system or des_special:
+                  evidence = ', '.join((des_sector + des_system + des_special)[:4])
+                  return 'HC | OPEN_SWITCH', f'NHS/healthcare/specialist experience appears desirable rather than essential: {evidence}'
+              return 'HC | OPEN_SWITCH', 'No explicit essential NHS/healthcare/system barrier found in extracted person specification'
 
           fields = [
               'review_no','title','employer','locations','salary_text','employment_type',
-              'provisional_classification','provisional_reason','current_decision',
-              'job_reference','closing_date','source_url','person_spec_review'
+              'deep_classification','deep_reason','fetch_status',
+              'essential_requirements','desirable_requirements',
+              'current_decision','job_reference','closing_date','source_url','manual_review'
           ]
+          counts = {}
           with out.open('w', encoding='utf-8-sig', newline='') as f:
               w = csv.DictWriter(f, fieldnames=fields)
               w.writeheader()
-              for i,r in enumerate(selected,1):
-                  label, reason = provisional(r)
+              for i,(r,ps) in enumerate(zip(selected, results),1):
+                  label, reason = classify(r, ps)
+                  counts[label] = counts.get(label,0)+1
                   w.writerow({
                       'review_no': i,
                       'title': r.get('title',''),
@@ -78,21 +197,32 @@ jobs:
                       'locations': r.get('locations',''),
                       'salary_text': r.get('salary_text',''),
                       'employment_type': r.get('employment_type',''),
-                      'provisional_classification': label,
-                      'provisional_reason': reason,
+                      'deep_classification': label,
+                      'deep_reason': reason,
+                      'fetch_status': ps.get('fetch_status',''),
+                      'essential_requirements': ps.get('essential',''),
+                      'desirable_requirements': ps.get('desirable',''),
                       'current_decision': r.get('final_decision',''),
                       'job_reference': r.get('job_reference',''),
                       'closing_date': r.get('closing_date',''),
                       'source_url': r.get('source_url',''),
-                      'person_spec_review': 'PENDING',
+                      'manual_review': 'PENDING',
                   })
-          print(f'Exported {len(selected)} Administrator-family HC rows to {out}')
-          assert len(selected) == 185, f'Expected 185 rows, got {len(selected)}'
+          print(f'Exported {len(selected)} deep-reviewed Administrator-family rows to {out}')
+          print('Classification counts:')
+          for k,v in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0])):
+              print(f'{v}\t{k}')
+          print('Fetch status counts:')
+          fs = {}
+          for ps in results:
+              fs[ps.get('fetch_status','')] = fs.get(ps.get('fetch_status',''),0)+1
+          for k,v in sorted(fs.items(), key=lambda kv: (-kv[1], kv[0])):
+              print(f'{v}\t{k}')
           PY
 
-      - name: Upload review CSV
+      - name: Upload deep review CSV
         uses: actions/upload-artifact@v4
         with:
-          name: nhs-administrator-review
-          path: nhs-administrator-review.csv
+          name: nhs-administrator-review-deep
+          path: nhs-administrator-review-deep.csv
           if-no-files-found: error
