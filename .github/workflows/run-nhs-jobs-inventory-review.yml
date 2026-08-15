@@ -44,6 +44,28 @@ jobs:
             --acknowledge-source-terms \
             --max-pages 30
 
+      - name: Print HC title composition
+        run: |
+          python - <<'PY'
+          import csv
+          from collections import Counter
+          from pathlib import Path
+
+          path = Path("pipeline/reviews/external/nhs-jobs-admin-clerical-review.csv")
+          with path.open(encoding="utf-8", newline="") as handle:
+              rows = list(csv.DictReader(handle))
+          hc = [row for row in rows if row.get("final_decision") == "HC"]
+          counts = Counter(row.get("title", "").strip() for row in hc)
+          print(f"HC total: {len(hc)}")
+          print(f"Distinct exact HC titles: {len(counts)}")
+          print("Top 10 exact HC titles:")
+          running = 0
+          for title, count in counts.most_common(10):
+              running += count
+              print(f"{count}\t{title}")
+          print(f"Top 10 exact titles account for: {running}/{len(hc)} ({running / len(hc):.1%})")
+          PY
+
       - name: Verify review-only boundary
         run: |
           test -s pipeline/reviews/external/nhs-jobs-admin-clerical-review.csv
