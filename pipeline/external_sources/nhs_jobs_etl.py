@@ -1,9 +1,9 @@
 """Canonical NHS Jobs inventory runner.
 
 The underlying review-only POC owns parsing, classification, JobG8 comparison and
-output safety. This runner tightens live HTTP behaviour and pre-normalises the current
-JobG8 comparison corpus. Scoring and thresholds remain identical to the POC; the
-optimisation simply avoids repeating the same string normalisation millions of times.
+output safety. This runner tightens live HTTP behaviour, fetches the small set of NHS
+listing pages with modest concurrency, and pre-normalises the current JobG8 comparison
+corpus. Scoring and thresholds remain identical to the POC.
 """
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -20,6 +21,7 @@ from external_sources import nhs_jobs_poc as poc
 API_PAGE_LIMIT = 100
 REQUEST_TIMEOUT_SECONDS = 20
 MAX_REQUEST_ATTEMPTS = 3
+LISTING_WORKERS = 4
 _ORIGINAL_LOAD_CURRENT_JOBG8 = poc.load_current_jobg8
 
 
@@ -53,6 +55,41 @@ def request_page(page: int, timeout: int = REQUEST_TIMEOUT_SECONDS) -> bytes:
             if attempt == MAX_REQUEST_ATTEMPTS - 1:
                 raise
     raise AssertionError("unreachable")
+
+
+def fetch_live(max_pages: int | None = None) -> tuple[list[poc.Vacancy], int]:
+    first_document = request_page(1)
+    first_rows, reported_pages, reported_total = poc.parse_xml(first_document)
+    total_pages = reported_pages
+    if max_pages is not None:
+        total_pages = min(total_pages, max_pages)
+
+    pages: dict[int, list[poc.Vacancy]] = {1: first_rows}
+    if total_pages > 1:
+        with ThreadPoolExecutor(max_workers=min(LISTING_WORKERS, total_pages - 1)) as pool:
+            futures = {pool.submit(request_page, page): page for page in range(2, total_pages + 1)}
+            for future in as_completed(futures):
+                page = futures[future]
+                document = future.result()
+                rows, _pages, page_total = poc.parse_xml(document)
+                if page_total and page_total != reported_total:
+                    raise RuntimeError(
+                        f"NHS totalResults changed during fetch: {reported_total} -> {page_total}"
+                    )
+                pages[page] = rows
+
+    output: list[poc.Vacancy] = []
+    seen_ids: set[str] = set()
+    for page in range(1, total_pages + 1):
+        for row in pages.get(page, []):
+            key = row.source_job_id or poc.normalise(
+                f"{row.title}|{row.employer}|{row.locations}|{row.closing_date}"
+            )
+            if key in seen_ids:
+                continue
+            seen_ids.add(key)
+            output.append(row)
+    return output, reported_total
 
 
 def load_current_jobg8(output_dir: Path) -> list[dict]:
@@ -103,6 +140,7 @@ def compare_jobg8(vacancy: poc.Vacancy, jobs: list[dict]) -> tuple[str, str, str
 
 def main() -> int:
     poc.request_page = request_page
+    poc.fetch_live = fetch_live
     poc.load_current_jobg8 = load_current_jobg8
     poc.compare_jobg8 = compare_jobg8
     return poc.main()
