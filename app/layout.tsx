@@ -6,6 +6,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SessionProvider from '@/components/SessionProvider';
+import DeploymentRefresh from '@/components/DeploymentRefresh';
 import { Toaster } from 'react-hot-toast';
 
 const inter = Inter({
@@ -63,6 +64,14 @@ const websiteStructuredData = {
   inLanguage: 'en-GB',
 };
 
+function deploymentVersion() {
+  return (
+    process.env.VERCEL_GIT_COMMIT_SHA ||
+    process.env.VERCEL_URL ||
+    null
+  );
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -100,6 +109,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} antialiased flex flex-col min-h-screen`} suppressHydrationWarning>
         <Toaster position="top-right" />
+        <DeploymentRefresh deploymentVersion={deploymentVersion()} />
         <SessionProvider>
           <Header />
           <main className="flex-1">{children}</main>
