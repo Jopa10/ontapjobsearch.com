@@ -181,12 +181,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Reporting",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "db261fce-bc72-4699-8504-ee766ecc1449",
@@ -211,11 +206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225423837",
@@ -240,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473807",
@@ -269,11 +256,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "9313f8d8-798c-47d4-b862-63cec763953a",
@@ -298,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225461884",
@@ -352,11 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225400133",
@@ -378,31 +353,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Tailor Made Resources",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225412905",
-    "title": "Sales Administrator - Supply Chain & Operations",
-    "company": "Henderson Brown Recruitment - Agency - Permanent",
-    "location": "Sittingbourne",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28914",
-    "salary_max": "28914",
-    "salary_text": "£28914 per year",
-    "posted_date": "2026-08-12",
-    "description": "Looking for a role where you'll genuinely influence the smooth running of a busy FMCG produce operation? This is a fantastic opportunity to join a well-established business supplying major UK retailers, playing a key role across customer orders, stock allocation and operational planning.\n\nSales Administrator - Supply Chain & Operations\nThe Opportunity\n\nWe're recruiting for a Sales Administrator to join a busy and fast-paced FMCG business based in Sittingbourne, Kent.\n\nWorking closely with planning, operations and logistics teams, you'll be responsible for ensuring customer orders are processed accurately, stock is allocated efficiently and deliveries are made on time. This role would particularly suit someone with experience within production, operations, supply chain or a similar FMCG environment.\n\nThis is a full-time, office-based role working a 4 on 4 off shift pattern (06:30-18:30).\n\nKey Responsibilities\n- Manage customer sales orders and stock allocation for retailer and non-retailer accounts.\n- Coordinate transport bookings to ensure on-time deliveries.\n- Work closely with planning and operations teams to manage stock requirements.\n- Communicate with customers regarding orders, availability and delivery schedules.\n- Utilise ERP systems to manage order processing and inventory information.\n- Monitor stock movements and ensure data accuracy across systems.\n\nWhat We're Looking For\n- Previous experience within production, operations, supply chain or sales administration.\n- Strong organisational skills with excellent attention to detail.\n- Comfortable managing multiple priorities within a fast-moving environment.\n- Experience working with ERP systems would be advantageous.\n- Fresh produce or FMCG experience would be highly beneficial.\n- A proactive and collaborative approach to problem solving and customer service.\n\nWhy Join?\n- Competitive salary of 28,914.\n- Join a supportive and collaborative team environment.\n- Gain exposure across operations, planning and supply chain functions.\n- Opportunity to develop your experience within a leading FMCG business supplying major UK retailers.\n\nIf you'd like to find out more, please get in touch for a confidential conversation.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctx5Bn8G4oEKCH3ktayW3UcJp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Henderson Brown Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -431,11 +381,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "96572460-cb6b-4213-999e-95d0413b799c",
@@ -663,68 +609,29 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225448926",
-    "title": "Sales Administrator",
-    "company": "Netbox Recruitment - Agency - Permanent",
-    "location": "Edenbridge",
+    "job_id": "d6fb1a1d-6c4e-4eab-bb26-8d3d50425d7a",
+    "title": "Training Administrator Hybrid £34k",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "Ashford",
     "region": "Kent",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Sales Administrator\n\nSalary: 30,000 - 35,000 per annum\n\nAbout the Company\n\nWe are a well-established UK engineering and manufacturing business with over 40 years of experience in designing and producing specialist electronic components and thermal management solutions. Serving customers across a diverse range of industries, we are recognised for delivering high-quality, bespoke products backed by exceptional technical expertise and customer service.\n\nAs a close-knit business, we have a team of 17 employees, including an office team of five. This allows everyone to work collaboratively, take ownership of their role and make a real contribution to the success of the company.\nDue to continued growth, we are looking for an organised and proactive Sales Administrator to join our team.\n\nThe Role\n\nThis is a key administrative position supporting the Sales & Engineering Director and the Design Engineer. You will play an important role in ensuring the smooth running of the sales process, from managing customer enquiries and processing orders to following up quotations and maintaining strong customer relationships.\nThe ideal candidate will be highly organised, customer-focused and confident communicating with customers in a busy engineering and manufacturing environment.\n\nKey Responsibilities\n- Provide administrative support to the Sales & Engineering Director and Design Engineer.\n- Process customer orders accurately and efficiently.\n- Prepare, update and maintain sales documentation and customer records.\n- Follow up customer quotations to secure orders and obtain feedback.\n- Liaise with customers regarding enquiries, quotations, orders and delivery schedules.\n- Coordinate with internal departments to ensure timely order fulfilment.\n- Maintain accurate customer and order information within company systems.\n- Assist with preparing quotations, reports and general sales correspondence.\n- Support the wider sales and engineering teams with administrative tasks as required.\n- Handle incoming telephone calls and email enquiries professionally.\n\nSkills & Experience\n- Previous experience in a Sales Administrator, Commercial Administrator or Customer Service role.\n- Previous experience preparing, managing and following up customer quotations, with the confidence to proactively contact customers to convert quotations into orders.\n- Experience within an engineering or manufacturing environment is advantageous but not essential.\n- Excellent organisational skills with strong attention to detail.\n- Confident communicator with a professional and friendly telephone manner.\n- Proficient in Microsoft Office, including Excel, Word and Outlook.\n- Ability to manage multiple priorities and work to deadlines.\n- Strong customer service skills and a proactive approach to problem solving.\n- Experience using ERP or CRM systems would be beneficial.\n\nPersonal Attributes\n- Positive and professional attitude.\n- Highly organised and methodical.\n- Self-motivated with the ability to work independently and as part of a team.\n- Excellent attention to detail.\n- Eager to learn and develop within a technical business.\n\nWhat We Offer\n- Competitive salary of 30,000- 35,000 depending on experience.\n- The opportunity to join a stable and growing engineering and manufacturing business.\n- A supportive, friendly and collaborative working environment where every team member makes a difference.\n- Ongoing training and development opportunities.\n- Company pension and generous holiday entitlement.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDwoJwQwqye1o%2fIvPdhKUhpPf",
+    "salary_min": "34000",
+    "salary_max": "34000",
+    "salary_text": "£34000 per year",
+    "posted_date": "2026-08-15",
+    "description": "Are you an experienced Training Administrator? Are you super organised and passionate about compliance as well as having the desire to supporting people's development? If so, we have the perfect Permanent opportunity for you.\n\nWe're recruiting a Training Administrator to join our client - a hugely successful Construction company in Ashford. You'll play a key role in supporting their HR team by coordinating the training programmes across the business.\n\nPlease find all the details below:\n- Role: Training Administrator\n- Duration: Permanent\n- Location: Ashford, Kent\n- Hybrid: Yes\n- Salary: £34,000\n- Hours: Monday - Friday, 9am - 5pm\n- Holiday: 24 days + Bank Holidays\n- Pension: 9% matched contribution scheme\n\nYour key responsibilities would be:\n- Organise and schedule training sessions, workshops, inductions, and refresher training.\n- Liaise with trainers, employees, and managers to ensure attendance and completion.\n- Maintain accurate employee training records and competency matrices.\n- Update Learning Management Systems such as SABA and track completion status.\n- Track mandatory and regulatory training requirements.\n- Produce training reports, KPIs, and completion metrics for management and audit purposes.\n- Provide training documentation and evidence for internal and external audits.\n- Ensure training activities meet company, industry, and regulatory standards.\n- Assist with creating, updating, and distributing training materials, procedures, and work instructions.\n- Identify training gaps and recommend improvements to training programmes and processes.\n\nOur client would like to recruit a candidate who has:\n- Previous experience in a Training Administrative role\n- Excellent organisational skills\n- Intermediate Excel skills\n- A keen eye for detail with strong analytical skills\n- The ability to communicate effectively at all levels\n\nNext steps:\n\nIf you're excited about the opportunity to make a significant impact and drive continuous improvement, we encourage you to apply!\n\nAlternatively, if you know someone who may be suitable for this role please share the details. If you successfully refer a friend for the above role, you will receive a £100 voucher of your choice! Terms apply\n\nPlease note if your skills match the requirements for the job then you will receive an e-mail from us (remember to check your junk mail). If you do please call us on ASAP or within 24 hours to discuss the position in further detail with Pippy (Candidate Consultant) or Nicola (Elite Consultant).\n\nWe look forward to your application.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttqRCQfZhiJEVLAN6C2Up4U3a",
     "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Netbox Recruitment",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Training Administrator Hybrid £34k Are you an experienced Training Administrator?",
+    "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "23643_225472655",
-    "title": "Sales Administrator",
-    "company": "New Appointments Group - Agency - Permanent",
-    "location": "Edenbridge",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "32000",
-    "salary_text": "£28000 - £32000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Job title: Sales Administrator\n\nLocation: Edenbridge\n\nSalary: 28,000 - 32,000\n\nHours: Monday to Friday, with an early finish on Friday! (part-time hours also available)\n\nThe role:\n\nYou will play a key role in supporting the team by ensuring the timely processing of customer enquiries, quotations, orders and invoices. Working closely with customers, suppliers and internal departments, you will deliver excellent customer service while ensuring the efficient administration of sales and purchasing activities.\n\nBenefits:\n- 21 days annual leave, increasing with service up to 25 days + bank holidays\n- Standard Pension Contributions\n- Annual profit related bonus\n- Annual pay reviews\n\nKey responsibilities would be:\n- Prepare and issue customer quotations accurately and promptly.\n- Prepare sales invoices and ensure documentation is completed accurately.\n- Process customer orders efficiently using the company's ERP system.\n- Support order processing from receipt through to delivery.\n- Provide customers with timely updates on delivery schedules and component availability.\n- Assist with purchasing administration, including raising purchase orders and maintaining purchasing records.\n- Liaise with suppliers to obtain pricing, lead times and product availability.\n- Handle customer and supplier enquiries, resolving issues and escalating complex matters when necessary.\n- Work closely with internal teams to ensure customer requirements and delivery commitments are achieved.\n- Maintain accurate customer records, pricing information and sales documentation.\n- Support the team with administrative tasks, customer follow-up and preparation of sales documentation.\n- Coordinate sample requests, technical literature and product documentation.\n- Produce sales reports and administrative information as required by management.\n- Maintain accurate CRM and ERP data to support effective sales and customer service.\n- Provide general administrative support to the commercial team as required.\n\nExperience and skills required:\n- Previous experience as a Sales Administrator within a manufacturing or engineering environment.\n- Excellent written and verbal communication skills.\n- Strong organisational skills with the ability to manage multiple tasks and priorities.\n- High level of accuracy and attention to detail.\n- Good working knowledge of Microsoft Office, particularly Excel, Word and Outlook.\n- Experience using ERP, MRP or CRM systems.\n- A proactive approach with excellent customer service skills.\n- Understanding of sales order processing and production scheduling.\n\nNext steps:\n\nIf this sounds like the ideal position for you and you have the experience outlined above, then please apply and you will be contacted by a member of our team if your CV matches our requirements.\nIf you would like any further information before applying, then please call Ellie - Permanent Consultant on (phone number removed) or email\nNew Appointments Group, Expertly Matching Employers and Jobseekers since 1975.\nWe are committed to fostering a diverse and inclusive environment in line with the Equality Act 2010. All qualified applicants will be considered regardless of age, disability, gender reassignment, marriage or civil partnership, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. New Appointments Group acts as an Employment Agency for permanent roles and as an Employment Business for temporary roles.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0IvtyhFaTcSOudePa3U%2fPNns",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "New Appointments Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225454705",
@@ -827,31 +734,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225435545",
-    "title": "Administrator",
-    "company": "ISP School - Agency - Permanent",
-    "location": "Whitstable",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-12",
-    "description": "Integrated Services Programme (ISP) School - Whitstable\nPart-Time Administrator\nBasic Salary: 14,565.47 actual pro-rated salary ( 20,391.65 FTE)\nHours: 25 hours per week\nWorking Pattern: 8:30 am - 1:30 pm, Term Time Only\nLocation: Whitstable, Kent\n\nBenefits\n- Company pension\n- Life assurance\n- Employee Discount Scheme\n\nAbout Our School\n\nISP School is an independent specialist provision serving children and young people in Kent and Medway who live with their families, foster carers or in residential children's homes.\n\nOur school supports children and young people with social, emotional and mental health needs (SEMH).\n\nWe provide high-quality education, adopting a holistic and tailored approach complemented by a full range of support services for each and every one of our pupils.\n\nRole Responsibilities\n- Promote the safeguarding and welfare of all pupils and visitors\n- Promote and act on initiatives to improve quality of life and wellbeing for pupils and staff\n\nKey Tasks and Activities\n- Communicate with ISP staff and other professionals within the school, ISP centres and local authorities from Kent, Medway, Thanet and London\n- Communicate with parents and carers by phone, text and email\n- Receive and host visitors, maintenance staff, contractors and guests at the school\n- Manage school correspondence, emails and phone calls\n- Arrange and attend meetings, taking minutes as required\n- Produce minutes for network meetings, staff meetings, briefings and inclusion meetings\n- Manage the delegated budgets for the Whitstable site\n- Manage petty cash for the Whitstable site\n- Maintain school and associated documents using SIMS & BehaviourWatch\n- Support the school's mission by carrying out other associated duties and tasks as directed by the Headteacher from time to time\n\nRequirements\n- Excellent written and verbal interpersonal and communication skills\n- Excellent organisational skills, with a systematic approach to workload management\n- Excellent time-management, planning and work-prioritisation skills\n- Experience of developing systems and processes\n- Excellent understanding of SIMS\n- Ability to work within allocated budgets and monitor expenditure and costs\n- Full working knowledge of relevant policies, codes of practice and legislation\n- Ability to plan and develop systems\n- Ability to relate well to children and adults\n- Ability to work constructively as part of a team, understand school roles and responsibilities, and recognise your own position within these\n- Ability to evaluate your own learning needs and actively seek learning opportunities\n- Ability to maintain the confidentiality of information where appropriate\n- Ability to work under pressure\n- Ability to work on your own initiative\n\nWe are initially looking to appoint a candidate on a part-time basis. The position is expected to develop into a full-time, term-time role as pupil numbers grow within the school.\n\nThe successful candidate will be required to complete an enhanced DBS check, the cost of which will be met by ISP School.\n\nISP is an equal opportunities employer and positively encourages applications from suitably qualified and eligible candidates.\n\nISP is committed to safeguarding and promoting the welfare of children, young people and vulnerable adults and expects all staff to share this commitment.\n\nPandoLogic. Category:Administrative,",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VIE41palalU%2bog7EVnYhyS7w",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "ISP School",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107699135",
     "title": "Utility Service Coordinator",
     "company": "M Group - Company - Permanent",
@@ -873,6 +755,56 @@
     "advertiser_name": "M Group",
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225472655",
+    "title": "Sales Administrator",
+    "company": "New Appointments Group - Agency - Permanent",
+    "location": "Edenbridge",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "32000",
+    "salary_text": "£28000 - £32000 per year",
+    "posted_date": "2026-08-12",
+    "description": "Job title: Sales Administrator\n\nLocation: Edenbridge\n\nSalary: 28,000 - 32,000\n\nHours: Monday to Friday, with an early finish on Friday! (part-time hours also available)\n\nThe role:\n\nYou will play a key role in supporting the team by ensuring the timely processing of customer enquiries, quotations, orders and invoices. Working closely with customers, suppliers and internal departments, you will deliver excellent customer service while ensuring the efficient administration of sales and purchasing activities.\n\nBenefits:\n- 21 days annual leave, increasing with service up to 25 days + bank holidays\n- Standard Pension Contributions\n- Annual profit related bonus\n- Annual pay reviews\n\nKey responsibilities would be:\n- Prepare and issue customer quotations accurately and promptly.\n- Prepare sales invoices and ensure documentation is completed accurately.\n- Process customer orders efficiently using the company's ERP system.\n- Support order processing from receipt through to delivery.\n- Provide customers with timely updates on delivery schedules and component availability.\n- Assist with purchasing administration, including raising purchase orders and maintaining purchasing records.\n- Liaise with suppliers to obtain pricing, lead times and product availability.\n- Handle customer and supplier enquiries, resolving issues and escalating complex matters when necessary.\n- Work closely with internal teams to ensure customer requirements and delivery commitments are achieved.\n- Maintain accurate customer records, pricing information and sales documentation.\n- Support the team with administrative tasks, customer follow-up and preparation of sales documentation.\n- Coordinate sample requests, technical literature and product documentation.\n- Produce sales reports and administrative information as required by management.\n- Maintain accurate CRM and ERP data to support effective sales and customer service.\n- Provide general administrative support to the commercial team as required.\n\nExperience and skills required:\n- Previous experience as a Sales Administrator within a manufacturing or engineering environment.\n- Excellent written and verbal communication skills.\n- Strong organisational skills with the ability to manage multiple tasks and priorities.\n- High level of accuracy and attention to detail.\n- Good working knowledge of Microsoft Office, particularly Excel, Word and Outlook.\n- Experience using ERP, MRP or CRM systems.\n- A proactive approach with excellent customer service skills.\n- Understanding of sales order processing and production scheduling.\n\nNext steps:\n\nIf this sounds like the ideal position for you and you have the experience outlined above, then please apply and you will be contacted by a member of our team if your CV matches our requirements.\nIf you would like any further information before applying, then please call Ellie - Permanent Consultant on (phone number removed) or email\nNew Appointments Group, Expertly Matching Employers and Jobseekers since 1975.\nWe are committed to fostering a diverse and inclusive environment in line with the Equality Act 2010. All qualified applicants will be considered regardless of age, disability, gender reassignment, marriage or civil partnership, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. New Appointments Group acts as an Employment Agency for permanent roles and as an Employment Business for temporary roles.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0IvtyhFaTcSOudePa3U%2fPNns",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "New Appointments Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225385708",
+    "title": "Service Coordinator",
+    "company": "Bennett and Game Recruitment LTD - Agency - Permanent",
+    "location": "Edenbridge",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "32000",
+    "salary_text": "£28000 - £32000 per year (Profit Share + Free Parking)",
+    "posted_date": "2026-08-15",
+    "description": "Position: Service Coordinator\n\nLocation: Edenbridge, Kent\n\nSalary: 28,000 - 32,000\n\nService Coordinator - Job Overview\n\nService Coordinator required for our client, a leading HVAC company that has 6 regional offices and has been expanding since it formed over 20 years ago. They offer their customers a complete turnkey solution for the installation, service, maintenance, fault finding and repair on a range of HVAC equipment throughout the UK. The Service Coordinator will be tasked with the following duties:\n- Schedule PPM visits for the Engineering division\n- Answer inbound calls from clients\n- Raising and scheduling jobs\n- Arranging engineers and subcontractors to attend works\n- Raising purchase orders\n\nService Coordinator - Salary & Benefits\n- Basic Salary 28,000 - 32,000 DOE\n- 09:00-17:00 Monday to Friday working hours\n- 22 Days Holiday + Bank Holidays (Increases with time served)\n- Profit share scheme applicable after 12 months' service\n- Free parking\n- Company events\n\nService Coordinator - Job Requirements\n- Live within a commutable distance of Edenbridge\n- Previous Service Coordinator/PPM Coordinator experience\n- Experience & Knowledge of Engineer booking software\n- Computer literate & proficient in all MS packages\n- Customer service focused\n\nBennett and Game Recruitment are a multi-disciplined technical recruitment agency based in Chichester, West Sussex operating across the UK with specialist teams covering a range of industries.\nWe are acting as a Recruitment Agency in relation to this vacancy, and in accordance with GDPR by applying you are granting us consent to process your data, contact you about the services we offer, and submit your CV for the role you have applied for.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZS0i1h3MJvIF%2flbvrliw8Dk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bennett and Game Recruitment LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -899,11 +831,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "11eb2a41-8583-4d40-8d7e-11042de70dda",
@@ -928,11 +856,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225405481",
@@ -957,11 +881,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "900e2fad-e172-4801-908f-64a7b0d2064e",
@@ -986,11 +906,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472227",
@@ -1014,6 +930,31 @@
     "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107842009",
+    "title": "Quality, Information, Safety and Governance (QISG) Co-ordinator",
+    "company": "INTEGRATED CARE 24 - Agency - Permanent",
+    "location": "Ashford",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "2026-08-15",
+    "description": "Package Description:\n\nQuality, Information, Safety and Governance Coordinator\n\nThe Role\n\nBehind every safe, high-quality patient service is accurate information, strong governance, and well-managed processes.\n\nAt IC24, our Quality, Information, Safety and Governance (QISG) team plays a vital role in ensuring we meet our statutory, regulatory and safety responsibilities across all services - and were look click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgr3WgNfkbge5Ii%2bAykpph2kn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "INTEGRATED CARE 24",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },

@@ -106,11 +106,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "00f1e237-afc8-489f-9ca4-42b6e740606a",
@@ -263,31 +259,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "d3de97e9-22df-4b57-9d55-932962d62c07",
-    "title": "Network Administrator",
-    "company": "Optima UK Inc Ltd - Agency - Permanent",
-    "location": "Coventry",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£30,000 per annum",
-    "posted_date": "2026-08-12",
-    "description": "Network Administrator\n\nLocation: CoventrySalary: Up to £30,000 per annum, depending on experienceHours: Monday to Thursday, 8:00am-4:30pm; Friday, 8:00am-1:30pmJob Type: Full-time, permanent\n\nThe Opportunity\n\nAn excellent opportunity has arisen for a motivated Network Administrator to join the IT team of an established manufacturing business in Coventry.\n\nThis role would suit someone in the early stages of their IT career who has a strong interest in networking and cybersecurity. Working alongside experienced IT and security professionals, you will help maintain a secure and reliable network infrastructure while developing practical experience across cybersecurity, cloud infrastructure and security operations.\n\nThe Role\n\nYour responsibilities will include:\n- Supporting the administration and maintenance of LAN, WAN, wireless and VPN infrastructure.\n- Configuring, monitoring and troubleshooting switches, routers, firewalls and wireless access points.\n- Monitoring network performance and resolving connectivity issues.\n- Assisting with network upgrades, installations and hardware deployments.\n- Administering user accounts, permissions and network access controls.\n- Maintaining network documentation, diagrams and asset inventories.\n- Monitoring security alerts and investigating suspicious activity.\n- Supporting endpoint protection, anti-malware and security monitoring systems.\n- Conducting vulnerability scans and assisting with remediation activities.\n- Ensuring systems are patched and updated in line with security standards.\n- Supporting incident response, backups, disaster recovery and business continuity processes.\n- Providing second-line support for network and infrastructure issues.\n- Assisting with server administration, cloud services and infrastructure improvement projects.\n\nCandidate Requirements\n\nYou will need:\n- An understanding of TCP/IP networking principles.\n- Knowledge of DNS, DHCP, VLANs, VPNs, routing and switching.\n- Experience with Windows Server and Active Directory.\n- Familiarity with Microsoft 365 administration.\n- An understanding of common cybersecurity threats, vulnerabilities and mitigation techniques.\n- Strong troubleshooting and analytical skills.\n- Good written and verbal communication skills.\n- The ability to work independently and as part of a team.\n- A relevant IT, networking or cybersecurity qualification, or equivalent experience.\n- Experience with firewalls, Microsoft Azure, SIEM platforms, vulnerability management tools or backup and disaster recovery technologies would be advantageous. Certifications such as CCNA, CompTIA Network+ or CompTIA Security+ are desirable but not essential.\n\nCareer Development\n\nThe position offers the opportunity to develop your knowledge across:\n- Enterprise networking and network security.\n- Cloud infrastructure.\n- Security Operations Centres.\n- Identity and Access Management.\n- Vulnerability management.\n- Firewall administration.\n- Cybersecurity incident response.\n\nBenefits\n- Five weeks' annual leave plus bank holidays.\n- Company pension.\n- On-site parking.\n- Early finish every Friday.\n\nApply\n\nTo apply for the Network Administrator position, click Apply Now and upload your CV. A member of our recruitment team will be in touch to discuss your application and the next steps.\n\nINDPROF",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCI70umCyNZReQyJY%2fukkMkhl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Optima UK Inc Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "cb8ddb07-5b0c-41f6-8cde-41758bcae9a7",
     "title": "HR Assistant",
     "company": "Dudley Lodge - Company - Permanent",
@@ -335,11 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "9106c63f-aedd-42f5-8dd5-93e28a33c690",
@@ -364,11 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225467522",
@@ -468,11 +431,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225431898",
@@ -497,13 +456,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225437355",
@@ -553,11 +506,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225417883",
