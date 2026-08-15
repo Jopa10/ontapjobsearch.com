@@ -464,19 +464,19 @@ job_id: 573ad49a-e43f-4fe5-b86d-66e9514e3b01
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £30 - £40 per hour | Communication Support Worker
 job_id: b0026c42-2444-46d8-8c8d-840b9df2e664
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | City | £260 per daily | Care Assistant to a Psychology University Student
 job_id: 107751975
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Surbiton | £246 per daily | Live-in Care Assistant for a Business and Management Graduate
 job_id: 107769225
 ---
