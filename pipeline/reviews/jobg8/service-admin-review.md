@@ -224,25 +224,25 @@ job_id: 5ccea683-f379-4de2-ae85-b4bb35d83e2c
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £14.35 - £18.52 per hour | Investigatory data administrator
 job_id: 23643_225499042
 ---
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £60000 per year | Technical Paraplanner
 job_id: 107709539
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £29000 - £32000 per year | Property Claims Handler
 job_id: ec23d80f-e4c3-4e50-8995-98eabb2874b2
 ---
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £29000 - £32000 per year | Property Claims Handler
 job_id: d1a77c0c-41aa-4cb8-b28f-d3ce829dcf81
 ---
@@ -366,13 +366,13 @@ job_id: 21618_20279_59837-89740a075c6163b74ea2c52702062e5d
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £55000 per year | Financial Planner
 job_id: 66ad4f96-29f2-4230-9031-c1231955c1e5
 ---
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £55000 per year | Financial Planner
 job_id: 107732042
 ---
@@ -802,25 +802,25 @@ job_id: 1666375
 ## NORTH EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 - £40000 per year (Company Benefits) | Project Administrator (Power / Transmission / Electrical)
 job_id: 23643_225408133
 ---
 
 ---
-action:
+action: exclude
 POSS - NORTH EAST | North East | Newcastle Upon Tyne | £30000 - £40000 per year | Project Administrator (Power / Transmission / Electrical)
 job_id: 6d09509e-78ca-4bf5-a359-ec3cc317db83
 ---
 
 ---
-action:
+action: select
 POSS - NORTH EAST | North East | Gateshead | £30000 - £35000 per year | Office Coordinator
 job_id: b4eae84d-a884-4356-95b6-25bfd89c63c4
 ---
 
 ---
-action:
+action: exclude
 POSS - NORTH EAST | North East | Hartlepool | £25 - £35 per hour | Document Controller
 job_id: 23643_225480861
 ---
@@ -1604,133 +1604,133 @@ job_id: efa17907-e1e2-4941-b338-b1143ca68648
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 - £50000 per year | Facilities Administrator
 job_id: 23643_225416698
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £350 - £410 per daily | SMR Corporate Secretary
 job_id: db1cfbc9-8cb7-4e91-b1f5-99dc83f06e69
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £85000 per year | Enterprise Services Principal Administrator, Cloud
 job_id: 107731922
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32149 - £35113 per year | Assistant Private Secretary
 job_id: 23643_225443454
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £75000 - £100000 per year | Global NetSuite Owner/ Administrator
 job_id: b83c05fc-a498-4d8a-80b5-1e32c317f50b
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £47862 - £55514 per year | Hearings Committee Secretary
 job_id: 23643_225478097
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16 - £18 per hour | PA to COO
 job_id: 23643_225487328
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £47862 - £55514 per year | Hearings Committee Secretary
 job_id: 3d23e61e-04ce-4692-a7dc-cd1faf36f502
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | Harrow | £35000 - £40000 per year | Company Secretary Administrator
 job_id: 6575def5-b4f8-4d8f-ab32-b96037939524
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Islington | £20.55 per hour | Call Centre Advisor
 job_id: 23643_225434826
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £40000 per year | Operations & Sales Coordinator
 job_id: 23643_225413953
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year | Early Careers & Development Coordinator
 job_id: de193a1c-f471-48e2-a2f5-cc7478cefd32
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £55000 - £65000 per year | Technical Paraplanner
 job_id: 49cc3b70-6add-41fd-a179-270e1d51aaa8
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 per year | Remote Paraplanner
 job_id: d515110e-8714-44d1-b3cb-fd45d96a8f8c
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £75000 per year | Financial Planner
 job_id: 107787731
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £300 - £350 per daily | Services Sales Coordinator
 job_id: 075c3120-a5b0-4a0a-b33a-3a16d2c2216a
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £55000 per year | Paraplanner
 job_id: 107698631
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year | Property Sales Support & Office Coordinator
 job_id: a92b6fa1-1726-4a3b-b0c3-94dbe9106220
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £19.23 per hour | Temporary Complaints Handler - 3 months
 job_id: 23643_225498178
 ---
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | Croydon | £50000 per year | Paraplanner
 job_id: 107762743
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | City Of Westminster | £18 - £20 per hour | Temporary Complaints Handler Immediate Start
 job_id: 23643_225498172
 ---
 
 ---
-action:
+action: select
 POSS - LONDON | London | Sidcup | £16 - £20 per hour | Accounts Assistant
 job_id: 4483b792-2906-4de2-851c-f7f74385363e
 ---
@@ -2034,31 +2034,31 @@ job_id: 107835605
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | £18 per hour | Office Administrator
 job_id: 23643_225451240
 ---
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Southampton | £45000 - £55000 per year | Associate Town Planner
 job_id: 23643_225460911
 ---
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Fareham | £45000 per year | Paraplanner
 job_id: 107810460
 ---
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Fareham | £45000 per year | Paraplanner
 job_id: 107693534
 ---
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Fareham | £30000 - £45000 per year | Paraplanner
 job_id: 02697e6a-9b0c-4ab5-91cc-9990a77a8008
 ---
@@ -2338,19 +2338,19 @@ job_id: 7f7ced15-edcd-4b56-942f-656cbd4ef8c6
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Leatherhead | £32000 - £36000 per year | PA TO DIRECTOR
 job_id: 0fed4582-c688-49a7-a784-49c558219477
 ---
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Walton-on-thames | £35000 - £40000 per year | PA to Director
 job_id: 23643_225488847
 ---
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Esher | £35000 - £45000 per year | Finance Coordinator
 job_id: fe8f47ca-f00a-4fef-87e1-5577d1ac0b71
 ---
@@ -2582,25 +2582,25 @@ job_id: 107842009
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Canterbury | £80000 per year | Chartered Secretary Corporate Governance
 job_id: 107787034
 ---
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Tonbridge | £50000 per year | Paraplanner
 job_id: 107763731
 ---
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Tonbridge | £50000 per year | Paraplanner
 job_id: 107698624
 ---
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £50000 - £65000 per year | Junior Financial Planner
 job_id: ba8c8942-7a60-4821-959a-b7b2fe1b7c20
 ---
@@ -2826,7 +2826,7 @@ job_id: 5688078e-d798-4bcd-84d6-62baed25a773
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Worthing | £45000 per year | Paraplanner
 job_id: 107756513
 ---
@@ -2949,13 +2949,13 @@ job_id: 9106c63f-aedd-42f5-8dd5-93e28a33c690
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £32000 - £38000 per year | Audi Service Advisor
 job_id: e382f2be-4948-4739-ba50-58bf45106685
 ---
 
 ---
-action:
+action: exclude
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwick | £28.42 per hour | Procurement Project Coordinator / Project Support Specialist
 job_id: 107830358
 ---
@@ -3150,19 +3150,19 @@ job_id: 17bc160d-ee2b-4a39-b768-3f7f19afe16b
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Maidenhead | £40000 per year | Paraplanner
 job_id: 107707703
 ---
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Bracknell | £40000 - £45000 per year | Paraplanner
 job_id: f3c6c938-0c04-4bf8-a1a7-fdeabb4638e6
 ---
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Bracknell | £45000 - £50000 per year | Paraplanner (route to advisor) Hybrid £50k + Bonus Bracknell
 job_id: a7264c1a-af8c-4f22-bc52-0dde833814c3
 ---
@@ -3280,19 +3280,19 @@ job_id: b6910623-60e6-48ec-8808-a3af05e67a6f
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £50000 per year | HR Administrator Placement Programme No Experience Needed
 job_id: 107796387
 ---
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £35000 - £40000 per year | Paraplanner
 job_id: 7462e2e4-9ae5-4def-a806-28d45a4c80cd
 ---
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £60000 per year | Technical Paraplanner
 job_id: 107709574
 ---
@@ -3470,37 +3470,37 @@ job_id: d7feae10-0ad2-4ec0-ab02-a93837122f34
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £27000 - £35000 per year (training, progression, healthcare) | Administrator (Renewable Energy)
 job_id: 23643_225498733
 ---
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £40000 per year | Paraplanner
 job_id: 107803516
 ---
 
 ---
-action:
+action: excldue
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £40000 - £50000 per year | Paraplanner
 job_id: d5251221-2477-4fea-af12-262a5bdfc568
 ---
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £50000 - £80000 per year | Financial Planner
 job_id: 760aa9f7-1694-40f5-a9cc-cff389ba7c5f
 ---
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £22.31 per hour | Recovery Coordinator
 job_id: 4c07739c-8565-4df6-acba-161ba2bc40c6
 ---
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £50000 - £80000 per year | Financial Planner
 job_id: 383aa9e1-6a3d-4d51-b4cb-96e98dbdcdf5
 ---
@@ -3666,7 +3666,7 @@ job_id: 107831087
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DEVON | Devon | Barnstaple | £45000 per year | Paraplanner
 job_id: 107717366
 ---
@@ -3778,19 +3778,19 @@ job_id: 23643_225497856
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Bournemouth | £14 - £17 per hour | Property Transfer Administrator
 job_id: 38b3ed66-693a-4892-8270-c0358f021570
 ---
 
 ---
-action:
+action: exclude
 POSS - DORSET | Dorset | Poole | £65,000 per annum | Company Secretary & Data Protection Officer
 job_id: 1632658
 ---
 
 ---
-action:
+action: excldue
 POSS - DORSET | Dorset | Dorset | £50000 - £60000 per year | Chartered Paraplanner
 job_id: 12880f03-eef0-4876-b938-5335f079207f
 ---
@@ -4004,13 +4004,13 @@ job_id: 107837697
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Harlow | £156.19 per daily | Governance Administrator
 job_id: 96b761f8-bd64-4d5e-816b-dcccf5c1d103
 ---
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Chelmsford | £55000 - £85000 per year | Financial Planner
 job_id: 3ab66fdf-d7bf-4498-a35a-7e8d7c2e5ffa
 ---
@@ -4594,7 +4594,7 @@ job_id: 19395e3a-8b28-47e5-ac00-4be60d9d2577
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northampton | £50000 - £80000 per year | Financial Planner
 job_id: 4517014c-d0a8-42fb-bb08-d36c6364a7be
 ---
@@ -4754,13 +4754,13 @@ job_id: 23643_225494401
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottingham | £40000 per year | Paraplanner
 job_id: 107787385
 ---
 
 ---
-action:
+action: exclude
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £37000 per year (31 days holiday) | Document Controller - MUST HAVE EXPERIENCE
 job_id: 23643_225448181
 ---
@@ -4950,25 +4950,25 @@ job_id: ab9be747-b9c9-409c-9ff5-ea77490b011d
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Oxford | £40900 - £41939 per year | Technical Business Support Officer
 job_id: 23643_225476663
 ---
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £170 - £190 per daily | Temporary Administrator
 job_id: 23643_225417469
 ---
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Didcot | £40000 - £55000 per year | Operations and Office Coordinator
 job_id: 3366a882-3f91-4d08-a293-4c57d4bba334
 ---
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Abingdon | £27000 - £33000 per year | HR Coordinator
 job_id: a443ff02-bebe-452b-a749-6b190d41b6d7
 ---
@@ -5156,13 +5156,13 @@ job_id: 107841026
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York | £25 per hour (+ Bank Hol) | Trusts and Tax Accounts Administrator
 job_id: 107830353
 ---
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York | £40000 - £45000 per year (30 days holiday, hybrid working, 4 x death in serv) | Paraplanner
 job_id: 107756313
 ---
