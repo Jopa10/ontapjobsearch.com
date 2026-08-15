@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {
   cleanEmployerName,
   employerFactLabel,
@@ -54,7 +53,7 @@ export default function QuickJobList({ jobs }: QuickJobListProps) {
         ).slice(0, 4);
 
         return (
-          <Link
+          <a
             key={job.job_id}
             href={getJobPath(job.job_id)}
             className={styles.row}
@@ -88,7 +87,7 @@ export default function QuickJobList({ jobs }: QuickJobListProps) {
                 </span>
               ) : null}
             </span>
-          </Link>
+          </a>
         );
       })}
     </div>
