@@ -239,6 +239,12 @@ SELECTED | Yorkshire - West | Bradford | £14.35 - £18.52 per hour | Investigat
 job_id: 23643_225499042
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £12.71 per hour | Part time Receptionist
+job_id: e8be6b4a-3c51-4aaa-95e5-513bc3de6296
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -1611,6 +1617,12 @@ job_id: 1666373
 action:
 SELECTED | London | Croydon | £30000 - £32000 per year | Mortgage Administrators required top London Brokerage HYBRID
 job_id: efa17907-e1e2-4941-b338-b1143ca68648
+---
+
+---
+action:
+SELECTED | London | Kingston Upon Thames | £30000 - £35000 per year | HR Administrator
+job_id: eaafc996-1476-4fa7-9b70-2a299cba12f6
 ---
 
 ## LONDON — POSSIBLES
@@ -4663,12 +4675,6 @@ job_id: 23643_225493985
 action:
 SELECTED | Oxfordshire | Wallingford | £30000 per year | People Coordinator
 job_id: 107832515
----
-
----
-action:
-SELECTED | Oxfordshire | Banbury | £26000 per year | Cash Management Administrator
-job_id: 107819254
 ---
 
 ---
