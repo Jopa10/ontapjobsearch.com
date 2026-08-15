@@ -57,60 +57,25 @@ jobs:
               rows = list(csv.DictReader(handle))
           hc = [row for row in rows if row.get("final_decision") == "HC"]
 
-          exact = Counter(row.get("title", "").strip() for row in hc)
-
           def norm(value):
               return re.sub(r"[^a-z0-9]+", " ", (value or "").casefold()).strip()
 
-          def family(title):
-              t = norm(title)
-              # Specific NHS-flavoured families first so generic words such as
-              # administrator/secretary do not swallow them.
-              rules = [
-                  ("Medical Secretary", ("medical secretary",)),
-                  ("Ward Clerk", ("ward clerk",)),
-                  ("Patient Pathway", ("patient pathway",)),
-                  ("Booking / Appointments", ("booking clerk", "appointments clerk", "appointment clerk")),
-                  ("Medical Records", ("medical records", "records clerk")),
-                  ("Reception", ("receptionist", "reception assistant")),
-                  ("Business Support", ("business support",)),
-                  ("Team Secretary", ("team secretary",)),
-                  ("Personal Assistant / PA", ("personal assistant",)),
-                  ("Clerical", ("clerical officer", "clerical assistant")),
-                  ("Support Officer", ("support officer",)),
-                  ("Data Administration", ("data administrator",)),
-                  ("Office Administration", ("office administrator", "office assistant")),
-                  ("Admin Assistant", ("administrative assistant", "admin assistant", "administration assistant")),
-                  ("Generic Administrator", ("administrator",)),
-                  ("Secretary - other", ("secretary",)),
-              ]
-              for label, terms in rules:
-                  if any(term in t for term in terms):
-                      return label
-              return "Other HC"
+          medsec = [row for row in hc if "medical secretary" in norm(row.get("title", ""))]
+          print(f"Medical Secretary family HC total: {len(medsec)}")
+          salary_counts = Counter(row.get("salary_text", "").strip() or "(blank)" for row in medsec)
+          print("\nTop salary strings:")
+          for salary, count in salary_counts.most_common(20):
+              print(f"{count}\t{salary}")
 
-          fam = Counter()
-          samples = defaultdict(list)
-          for row in hc:
-              f = family(row.get("title", ""))
-              fam[f] += 1
-              title = row.get("title", "").strip()
-              if title not in samples[f] and len(samples[f]) < 8:
-                  samples[f].append(title)
-
-          print(f"HC total: {len(hc)}")
-          print(f"Distinct exact HC titles: {len(exact)}")
-          print("\nHC title families:")
-          for label, count in fam.most_common():
-              print(f"{count}\t{count/len(hc):.1%}\t{label}")
-              print("  examples: " + " | ".join(samples[label]))
-
-          print("\nTop 10 exact HC titles:")
-          running = 0
-          for title, count in exact.most_common(10):
-              running += count
-              print(f"{count}\t{title}")
-          print(f"Top 10 exact titles account for: {running}/{len(hc)} ({running / len(hc):.1%})")
+          print("\nCurrent Medical Secretary family rows:")
+          for row in medsec:
+              print("\t".join([
+                  row.get("title", "").replace("\t", " "),
+                  row.get("salary_text", "").replace("\t", " "),
+                  row.get("employer", "").replace("\t", " "),
+                  row.get("locations", "").replace("\t", " "),
+                  row.get("source_url", ""),
+              ]))
           PY
 
       - name: Verify review-only boundary
