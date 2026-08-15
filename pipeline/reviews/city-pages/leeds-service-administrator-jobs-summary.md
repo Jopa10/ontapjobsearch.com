@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 18
-- automatic exclude: 19
+- automatic exclude: 21
 - effective include: 14
 - effective review: 18
-- effective exclude: 19
+- effective exclude: 21
 
 ## INCLUDE (14)
 
@@ -100,18 +100,6 @@ reason: The stated workplace matches the approved Leeds employment-market patter
 action: 
 decision: include
 automatic_decision: include
-title: Development Planner
-company: Yorkshire Water - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107798827
-reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Emerging Talent and Careers Coordinator
 company: Hackajob Ltd - Agency - Contract
 location: Leeds
@@ -129,6 +117,18 @@ company: Baker Harding Limited - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-107680320
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-ec23d80f-e4c3-4e50-8995-98eabb2874b2
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -410,7 +410,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -512,11 +512,35 @@ reason: The stated workplace belongs outside the approved Leeds employment marke
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Investigatory data administrator
+company: BDS (Northern) Limited - Agency - Temporary
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225499042
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office / Purchasing Administrator
 company: Pertemps Bristol Commercial - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225420186
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Property Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-d1a77c0c-41aa-4cb8-b28f-d3ce829dcf81
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---
 

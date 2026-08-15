@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 2
-- automatic exclude: 13
-- effective include: 7
-- effective review: 2
-- effective exclude: 13
+- automatic include: 6
+- automatic review: 1
+- automatic exclude: 19
+- effective include: 6
+- effective review: 1
+- effective exclude: 19
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: The stated workplace matches the approved Sheffield employment-market pa
 action: 
 decision: include
 automatic_decision: include
-title: Customer Support Advisor
-company: Kyocera Unimerco Tooling Ltd - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-6cc0e9b1-daae-4776-87dd-7198afbef061
-reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Regeneration and Property Service Support Help Desk Officer
 company: Reed - Agency - Temporary
 location: Sheffield
@@ -108,19 +96,7 @@ job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-york
 reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
 ---
 
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities Helpdesk Coordinator
-company: Andy File Associates Ltd - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225380179
-reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -134,7 +110,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -176,11 +152,11 @@ reason: The stated workplace belongs outside the approved Sheffield employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Administration & Operations Assistant
-company: White Woods Primary Academy Trust
-location: Rotherham
+title: Business Support Officer
+company: Springwell Special Academy
+location: Barnsley
 source: Teaching Vacancies
-job_id: teaching-vacancies-business-administration-operations-assistant
+job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 
@@ -188,11 +164,83 @@ reason: The stated workplace belongs outside the approved Sheffield employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer
-company: Springwell Special Academy
-location: Barnsley
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-21618_20279_59837-89740a075c6163b74ea2c52702062e5d
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-73862c8b83139033e4e4a8b6efca9a33
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-21618_20279_59837-73862c8b83139033e4e4a8b6efca9a33
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-21618_20279_59837-153faf593eb64b88272f45adeaa28d87
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 

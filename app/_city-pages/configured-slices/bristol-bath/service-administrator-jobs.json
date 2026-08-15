@@ -106,11 +106,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "2cb3ac11-5022-46e9-b4dc-2fbc15d22788",
@@ -135,11 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225104066",
@@ -214,11 +206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "4ccc09e9-cbe7-47d7-b96e-bdb3c56b9a8c",
@@ -243,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_222234812",
@@ -397,11 +381,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476860",
@@ -504,35 +484,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "1660443",
-    "title": "Engagement Team Administrator",
-    "company": "ReMind UK - Agency - Permanent",
-    "location": "Bath",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-13",
-    "description": "Job Summary\n\nThis varied role supports ReMind UK's multi-functional Engagement Team, providing administrative and co-ordination support across Fundraising, Communications and Volunteering as well as our expanding post diagnosis support programme. The role will support stewardship of supporters and beneficiaries through managing enquiries, liaising with people affected by dementia, inputting and monitoring data capture for the team and supporting the Post Diagnosis Programme through co-ordinating our regular events and courses out in the community. The post holder will work with Head of Engagement and the Post Diagnosis Support Programme Manager providing high level administration and customer service, ensuring the team deliver efficient communications and an excellent supporter and beneficiary experience.\n\nReMind UK overview\n\nReMind UK is an independent charity and internationally renowned centre for research, diagnosis and treatment of neurodegenerative diseases. Our research aims to improve life for people with dementia and their families and carers, and to find drug and non-drug treatments for people with conditions such as Alzheimer's disease and other diseases predominantly affecting older people. Our contracted NHS Memory Clinic service, private memory assessments and allied activities provide support to people affected. We are currently in an ambitious phase of development looking to increase our clinical and academic research programme. We work closely with the Universities of Bath, Bristol and other research Institutions, both nationally and internationally and with the Royal United Hospital, Bath.\n\nKEY RESPONSIBILITIES\n\n1. Support the Engagement Team through undertaking regular and ad hoc administrative tasks for colleagues as requested and as agreed by Head of Engagement and Post Diagnosis Support Programme Manager.\n\n2. Support the setup of post diagnosis support interventions as required through confirming room bookings, supporting development of weekly session scheduling, including liaising with external and internal Facilitators, monitoring and purchasing refreshments, creative materials and session sundries.\n\n3. Ensure that registers taken to events and course sessions are confirmed and communicated to the team on time and include the information required to safeguard attendees and maintain accurate reporting.\n\n4. Ensure the effective collection, management and reporting of supporter and beneficiary data, including enquiries and expressions of interest in events and courses. Maintain accurate, secure and well-structured records to support reporting, analysis and engagement activities.\n\n5. Liaise with Post Diagnosis Support Facilitators to collate beneficiary feedback and project evaluation data, ensuring accurate and up-to-date information is maintained for regular monitoring and reporting.\n\n6. Maintain supporter and payment data on CRM, sending thank you and retention communications as required.\n\n7. Work with Communications colleagues to ensure that data preferences are accurately captured across digital platforms and maintained on CRM.\n\n8. Support the team through co-ordinating the processing of any actionable feedback or complaints received from supporters or beneficiaries in accordance with ReMind UK's complaints procedure.\n\n9. Speak to beneficiaries expressing an interest or being referred to the Post Diagnosis Support programme, ensuring they are signposted or appropriately allocated a suitable event or course and that any modifications necessary are communicated to the team to ensure participant safety.\n\n10. Gather stories, testimonials and images from Facilitators and beneficiaries maintaining accurate records of permissions for use.\n\nThis job description is intended to provide a broad outline of the main responsibilities only.\n\nInterviews: W/C 7th September 2026",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zay7yqlkTweczqpMuFK9DpeUb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "ReMind UK",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
-  },
-  {
     "job_id": "107793815",
     "title": "Recruitment Coordinator",
     "company": "Alexander Mae (HR) Ltd - Agency - Permanent",
@@ -554,6 +505,31 @@
     "advertiser_name": "Alexander Mae (HR) Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "b6910623-60e6-48ec-8808-a3af05e67a6f",
+    "title": "Recruitment Coordinator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Bath",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-15",
+    "description": "Recruitment Co-ordinator\n\nBath (Hybrid) 37.5 hours per week £28k\n\nWe're currently recruiting for a Recruitment Co-ordinator to join a busy and supportive team based in Bath. This is a great opportunity for someone with strong admin skills looking to build on experience within recruitment.\n\nKey responsibilities:\n- Posting job adverts across multiple platforms\n- Screening and shortlisting applications\n- Presenting suitable candidates to hiring managers\n- Arranging and coordinating interviews\n- Updating and tracking candidates on the internal system\n\nAbout you:\n- Previous recruitment coordination experience\n- Highly organised with strong attention to detail\n- Confident communicator with good IT skills\n- Able to manage multiple tasks in a fast-paced environment\n\nWhat's on offer:\n- Hybrid working\n- Friendly team environment\n- Central Bath Location (5 mins from train station)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4kZMnQUekYcKQ%2fAfvcDAGNq",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Recruitment Coordinator Recruitment Co-ordinator Bath (Hybrid) 37.5 hours per week £28k We're currently recruiting for a Recruitment Co-ordinator to join a busy and supportive team based in Bath.",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   }

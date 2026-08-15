@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 16
+- automatic include: 10
+- automatic review: 19
 - automatic exclude: 22
-- effective include: 14
-- effective review: 16
+- effective include: 10
+- effective review: 19
 - effective exclude: 22
 
-## INCLUDE (14)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Radcliffe & Co (Life & Pensions) Ltd - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-83d45f3d-8451-4284-ae13-04615ce5df99
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: The Work Shop - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-ca846af0-3cac-4ac2-9310-5293d00fa0d7
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
@@ -124,30 +112,6 @@ reason: The stated workplace matches the approved Southampton employment-market 
 action: 
 decision: include
 automatic_decision: include
-title: Returns Administrator
-company: Tate - Agency - Contract
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225407938
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Silcom Recruitment Limited - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-8f49a549-d633-4be4-8902-6fe0e11ff19b
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor
 company: Silcom Recruitment Limited - Agency - Permanent
 location: Southampton
@@ -180,19 +144,7 @@ job_id: jobg8-23643_225419560
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Up to £30,000!! HR Assistant - Southampton
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-8f1fb203-823c-44e1-9daf-e51ba9ba7077
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
----
-
-## REVIEW (16)
+## REVIEW (19)
 
 ---
 action: 
@@ -282,6 +234,18 @@ reason: No approved Southampton employment-market rule matched the stated locati
 action: 
 decision: review
 automatic_decision: review
+title: Financial Services Administrator, Up to £35k (+ strong benefits)
+company: Thompson & Terry - Agency - Permanent
+location: Waterlooville
+source: JobG8
+job_id: jobg8-284c57ae-5f1f-4c21-a984-10a5d3cbeed6
+reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Hire Coordinator
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Ringwood
@@ -311,6 +275,18 @@ company: Entrust Resource Solutions - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225474596
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Matchtech - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225451240
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -383,6 +359,18 @@ company: Percival Aviation - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225476353
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Scheduler
+company: BRC - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225498334
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -560,6 +548,18 @@ reason: The stated workplace belongs outside the approved Southampton employment
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Project Administrator / PMO Support Analyst
+company: Experis - Agency - Contract
+location: Winchester
+source: JobG8
+job_id: jobg8-107843564
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Project Support Administrator
 company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Portsmouth
@@ -577,18 +577,6 @@ company: Pertemps Basingstoke - Agency - Temporary
 location: Basingstoke
 source: JobG8
 job_id: jobg8-1bfe3b5c-5008-4795-b4dc-b2f51ff1befe
-reason: The stated workplace belongs outside the approved Southampton employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Tate - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225406177
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 

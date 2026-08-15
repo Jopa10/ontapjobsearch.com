@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 1
 - automatic exclude: 9
-- effective include: 13
+- effective include: 12
 - effective review: 1
 - effective exclude: 9
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Sytner Group - Company - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-d070e819-a64d-47e5-b136-912fb4cad434
-reason: The stated workplace matches the approved Coventry employment-market pattern `coventry`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Network Administrator
-company: Optima UK Inc Ltd - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-d3de97e9-22df-4b57-9d55-932962d62c07
 reason: The stated workplace matches the approved Coventry employment-market pattern `coventry`.
 ---
 

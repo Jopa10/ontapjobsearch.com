@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 12
-- automatic exclude: 23
-- effective include: 9
-- effective review: 12
-- effective exclude: 23
+- automatic include: 8
+- automatic review: 8
+- automatic exclude: 24
+- effective include: 8
+- effective review: 8
+- effective exclude: 24
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Hays Business Support - Agency - Temporary
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225428472
-reason: The stated workplace matches the approved Brighton & Hove employment-market pattern `brighton`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - Patient Care Advisor
-company: Care Unbound Limited t/a Here - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-1661447
 reason: The stated workplace matches the approved Brighton & Hove employment-market pattern `brighton`.
 ---
 
@@ -132,31 +120,7 @@ job_id: jobg8-3b53cb0f-6ff5-487a-a44c-2f2e6f60719a
 reason: The stated workplace matches the approved Brighton & Hove employment-market pattern `brighton`.
 ---
 
-## REVIEW (12)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hays Specialist Recruitment Limited - Agency - Temporary
-location: Lewes
-source: JobG8
-job_id: jobg8-66bc5297-b88c-4329-b51d-b90973ed4dd1
-reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Estates Coordinator
-company: Rother District Council - Company - Permanent
-location: Bexhill-on-sea
-source: JobG8
-job_id: jobg8-d2581334-50f9-4a0b-b8a0-40f25da294b3
-reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (8)
 
 ---
 action: 
@@ -179,30 +143,6 @@ company: Office Angels - Agency - Contract
 location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225454060
-reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Receptionist
-company: First Recruitment Services - Agency - Permanent
-location: Haywards Heath
-source: JobG8
-job_id: jobg8-23643_225283461
-reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: People Services Administrator
-company: Southdown - Agency - Permanent
-location: Lewes
-source: JobG8
-job_id: jobg8-107806176
 reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -278,7 +218,7 @@ job_id: jobg8-23643_225462263
 reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -373,6 +313,18 @@ company: Reed - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-18ff30b5-3cdf-40e4-891b-cbed54aee5aa
+reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Financial Administrator
+company: Financial Divisions - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-73c27096-8e4a-4bbb-8a13-773dcdd66a6c
 reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
 ---
 
@@ -476,18 +428,6 @@ reason: The stated workplace belongs outside the approved Brighton & Hove employ
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Administrator
-company: Additional Resources Ltd - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-4ad5e9da-41c3-491f-b09c-d514f4ec0572
-reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Recruitment Administrator P/T
 company: Pertemps Crawley - Agency - Permanent
 location: Crawley
@@ -529,6 +469,18 @@ company: Huntress - Crawley - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-23643_225424968
+reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Project Support/ Project Coordinator
+company: Huntress - Crawley - Agency - Temporary
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225468462
 reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
 ---
 
