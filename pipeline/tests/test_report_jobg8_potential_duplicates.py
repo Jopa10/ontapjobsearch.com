@@ -1,6 +1,10 @@
+import tempfile
 import unittest
+from pathlib import Path
 
-from scripts.report_jobg8_potential_duplicates import Vacancy, find_likely_duplicates
+import pandas as pd
+
+from scripts.report_jobg8_potential_duplicates import Vacancy, _load_vacancies, find_likely_duplicates
 
 
 def vacancy(
@@ -31,6 +35,30 @@ def vacancy(
 
 
 class JobG8PotentialDuplicateTests(unittest.TestCase):
+    def test_xlsx_loader_handles_blank_cells(self):
+        frame = pd.DataFrame(
+            [
+                {
+                    "/Job/DisplayReference": "test-1",
+                    "/Job/Position": "Administrator",
+                    "/Job/AdvertiserName": "Example Recruiter",
+                    "/Job/Area": "North East",
+                    "/Job/Location": "",
+                    "/Job/Description": "",
+                }
+            ]
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "jobg8.xlsx"
+            frame.to_excel(path, index=False)
+            vacancies = _load_vacancies(path)
+
+        self.assertEqual(len(vacancies), 1)
+        self.assertEqual(vacancies[0].job_id, "test-1")
+        self.assertEqual(vacancies[0].location, "")
+        self.assertEqual(vacancies[0].description, "")
+        self.assertEqual(vacancies[0].salary_min, "")
+
     def test_gloucestershire_style_duplicate_with_company_suffix_is_flagged(self):
         first = vacancy("23643_225476234")
         second = vacancy(
