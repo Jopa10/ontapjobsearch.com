@@ -36,13 +36,13 @@ jobs:
         working-directory: pipeline
         run: python -m pytest tests/test_nhs_jobs_poc.py -q
 
-      - name: Fetch bounded NHS Administrative and Clerical sample
+      - name: Fetch full NHS Administrative and Clerical inventory
         working-directory: pipeline
         run: |
           python -m external_sources.nhs_jobs_etl \
             --fetch-live \
             --acknowledge-source-terms \
-            --max-pages 2
+            --max-pages 30
 
       - name: Verify review-only boundary
         run: |
