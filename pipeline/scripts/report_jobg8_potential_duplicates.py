@@ -137,7 +137,7 @@ def _description_similarity(left: Vacancy, right: Vacancy) -> float:
 
 
 def _load_vacancies(path: Path) -> list[Vacancy]:
-    frame = pd.read_excel(path, dtype=str, keep_default_na=False)
+    frame = pd.read_excel(path, dtype=str)
     missing = [column for column in REQUIRED_COLUMNS if column not in frame.columns]
     if missing:
         raise ValueError(f"Missing required JobG8 columns: {', '.join(missing)}")
