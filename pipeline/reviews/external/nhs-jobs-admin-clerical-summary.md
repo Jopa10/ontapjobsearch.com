@@ -2,13 +2,13 @@
 
 - Review date: 2026-08-15
 - NHS API reported Administrative & Clerical vacancies: 2393
-- Open vacancies parsed for review: 19
-- HC: 5
-- POSS: 6
-- HARD_PASS: 8
+- Open vacancies parsed for review: 200
+- HC: 50
+- POSS: 113
+- HARD_PASS: 37
 - Current JobG8 comparison rows: 836
-- Confirmed JobG8 duplicates: 0
-- Possible JobG8 duplicates: 3
+- Confirmed JobG8 duplicates: 3
+- Possible JobG8 duplicates: 27
 
 ## Safety boundary
 
