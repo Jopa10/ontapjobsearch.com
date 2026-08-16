@@ -1,4 +1,4 @@
-name: Export NHS Administrator review
+name: Export NHS three-family review
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
       - name: Install parser dependencies
         run: python -m pip install requests beautifulsoup4
 
-      - name: Build deep Administrator review CSV
+      - name: Build deep review CSVs
         run: |
           python - <<'PY'
           import csv
@@ -32,29 +32,37 @@ jobs:
           from bs4 import BeautifulSoup
 
           src = Path('pipeline/reviews/external/nhs-jobs-admin-clerical-review.csv')
-          out = Path('nhs-administrator-review-deep.csv')
           with src.open(encoding='utf-8', newline='') as f:
               rows = list(csv.DictReader(f))
 
           def norm(v):
               return re.sub(r'[^a-z0-9]+', ' ', (v or '').casefold()).strip()
 
-          def is_generic_administrator(title):
+          def family(title):
               t = norm(title)
-              if 'administrator' not in t:
-                  return False
-              earlier = (
-                  'medical secretary','ward clerk','patient pathway','booking clerk',
-                  'appointments clerk','appointment clerk','medical records','records clerk',
-                  'receptionist','reception assistant','business support','team secretary',
-                  'personal assistant','clerical officer','clerical assistant','support officer',
-                  'data administrator','office administrator','office assistant',
-                  'administrative assistant','admin assistant','administration assistant'
-              )
-              return not any(term in t for term in earlier)
+              if 'medical secretary' in t:
+                  return 'Medical Secretary'
+              if 'receptionist' in t or 'reception assistant' in t:
+                  return 'Reception'
+              if 'administrator' in t:
+                  earlier = (
+                      'medical secretary','ward clerk','patient pathway','booking clerk',
+                      'appointments clerk','appointment clerk','medical records','records clerk',
+                      'receptionist','reception assistant','business support','team secretary',
+                      'personal assistant','clerical officer','clerical assistant','support officer',
+                      'data administrator','office administrator','office assistant',
+                      'administrative assistant','admin assistant','administration assistant'
+                  )
+                  if not any(term in t for term in earlier):
+                      return 'Administrator'
+              return None
 
-          selected = [r for r in rows if r.get('final_decision') == 'HC' and is_generic_administrator(r.get('title',''))]
-          assert len(selected) == 185, f'Expected 185 rows, got {len(selected)}'
+          selected = [(r, family(r.get('title',''))) for r in rows if r.get('final_decision') == 'HC']
+          selected = [(r,f) for r,f in selected if f]
+          counts = {}
+          for _,f in selected:
+              counts[f] = counts.get(f,0)+1
+          assert counts == {'Administrator':185,'Reception':134,'Medical Secretary':94}, counts
 
           HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; OntapJobSearchReview/1.0)'}
 
@@ -72,7 +80,6 @@ jobs:
                   ps_start = next((h for h in headings if 'person specification' in norm(h.get_text(' ', strip=True))), None)
                   if not ps_start:
                       return {'fetch_status':'NO_PERSON_SPEC_HEADING','essential':'','desirable':''}
-
                   essential, desirable = [], []
                   mode = None
                   node = ps_start.find_next()
@@ -92,7 +99,6 @@ jobs:
                           if txt:
                               (essential if mode == 'essential' else desirable).append(txt)
                       node = node.find_next()
-
                   def dedupe(items):
                       seen, result = set(), []
                       for x in items:
@@ -100,15 +106,13 @@ jobs:
                           if k and k not in seen:
                               seen.add(k); result.append(x)
                       return result
-                  essential = dedupe(essential)
-                  desirable = dedupe(desirable)
-                  return {'fetch_status':'OK','essential':' | '.join(essential),'desirable':' | '.join(desirable)}
+                  return {'fetch_status':'OK','essential':' | '.join(dedupe(essential)),'desirable':' | '.join(dedupe(desirable))}
               except Exception as e:
                   return {'fetch_status':f'ERROR: {type(e).__name__}','essential':'','desirable':''}
 
           results = [None] * len(selected)
-          with ThreadPoolExecutor(max_workers=8) as ex:
-              futures = {ex.submit(fetch_person_spec, r): i for i,r in enumerate(selected)}
+          with ThreadPoolExecutor(max_workers=10) as ex:
+              futures = {ex.submit(fetch_person_spec, r): i for i,(r,_) in enumerate(selected)}
               for fut in as_completed(futures):
                   results[futures[fut]] = fut.result()
 
@@ -128,6 +132,10 @@ jobs:
               'medical terminology','clinical terminology','audio typing','medical transcription',
               'amspar','medical secretary qualification'
           )
+          medsec_experience_terms = (
+              'medical secretary experience','experience as a medical secretary','previous medical secretary',
+              'medical secretarial experience','experience in a medical secretarial role','medical secretary role'
+          )
 
           def hits(text, terms):
               padded = f' {norm(text)} '
@@ -138,12 +146,12 @@ jobs:
                       found.append(term)
               return found
 
-          def classify(row, ps):
+          def classify(row, fam, ps):
               t = norm(row.get('title',''))
               ess = ps.get('essential','')
               des = ps.get('desirable','')
-              if any(x in t for x in (' manager','manager ','head of','director','team leader')) or t.startswith('manager'):
-                  return 'HARD_PASS', 'Managerial/senior wording in title despite Administrator match'
+              if any(x in t for x in (' manager','manager ','head of','director','team leader','supervisor')) or t.startswith('manager'):
+                  return 'HARD_PASS', 'Managerial/senior wording in title despite family match'
               if ps.get('fetch_status') != 'OK':
                   return 'POSS | MANUAL_CHECK', 'Person specification could not be reliably extracted'
 
@@ -153,64 +161,68 @@ jobs:
               des_sector = hits(des, sector_terms)
               des_system = hits(des, system_terms)
               des_special = hits(des, specialist_terms)
+              ess_medsec = hits(ess, medsec_experience_terms) if fam == 'Medical Secretary' else []
+              des_medsec = hits(des, medsec_experience_terms) if fam == 'Medical Secretary' else []
 
-              if ess_sector or ess_system:
-                  evidence = ', '.join((ess_sector + ess_system)[:4])
-                  return 'POSS | SECTOR_EXPERIENCED', f'Essential NHS/healthcare/system requirement detected: {evidence}'
+              if ess_sector or ess_system or ess_medsec:
+                  evidence = ', '.join((ess_sector + ess_system + ess_medsec)[:4])
+                  return 'POSS | SECTOR_EXPERIENCED', f'Essential sector/prior-role/system requirement detected: {evidence}'
               if ess_special:
                   evidence = ', '.join(ess_special[:4])
                   return 'POSS | BRIDGEABLE', f'Essential specialist skill but not prior NHS/healthcare experience: {evidence}'
-              if des_sector or des_system or des_special:
-                  evidence = ', '.join((des_sector + des_system + des_special)[:4])
+              if des_sector or des_system or des_special or des_medsec:
+                  evidence = ', '.join((des_sector + des_system + des_special + des_medsec)[:4])
                   return 'HC | OPEN_SWITCH', f'NHS/healthcare/specialist experience appears desirable rather than essential: {evidence}'
-              return 'HC | OPEN_SWITCH', 'No explicit essential NHS/healthcare/system barrier found in extracted person specification'
+              return 'HC | OPEN_SWITCH', 'No explicit essential NHS/healthcare/prior-role/system barrier found in extracted person specification'
 
           fields = [
-              'review_no','title','employer','locations','salary_text','employment_type',
-              'deep_classification','deep_reason','fetch_status',
-              'essential_requirements','desirable_requirements',
+              'review_no','family','title','employer','locations','salary_text','employment_type',
+              'deep_classification','deep_reason','fetch_status','essential_requirements','desirable_requirements',
               'current_decision','job_reference','closing_date','source_url','manual_review'
           ]
-          counts = {}
-          with out.open('w', encoding='utf-8-sig', newline='') as f:
-              w = csv.DictWriter(f, fieldnames=fields)
-              w.writeheader()
-              for i,(r,ps) in enumerate(zip(selected, results),1):
-                  label, reason = classify(r, ps)
-                  counts[label] = counts.get(label,0)+1
-                  w.writerow({
-                      'review_no': i,
-                      'title': r.get('title',''),
-                      'employer': r.get('employer',''),
-                      'locations': r.get('locations',''),
-                      'salary_text': r.get('salary_text',''),
-                      'employment_type': r.get('employment_type',''),
-                      'deep_classification': label,
-                      'deep_reason': reason,
-                      'fetch_status': ps.get('fetch_status',''),
-                      'essential_requirements': ps.get('essential',''),
-                      'desirable_requirements': ps.get('desirable',''),
-                      'current_decision': r.get('final_decision',''),
-                      'job_reference': r.get('job_reference',''),
-                      'closing_date': r.get('closing_date',''),
-                      'source_url': r.get('source_url',''),
-                      'manual_review': 'PENDING',
-                  })
-          print(f'Exported {len(selected)} deep-reviewed Administrator-family rows to {out}')
-          print('Classification counts:')
-          for k,v in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0])):
-              print(f'{v}\t{k}')
-          print('Fetch status counts:')
-          fs = {}
+
+          by_family = {'Administrator':[], 'Reception':[], 'Medical Secretary':[]}
+          family_counts = {k:{} for k in by_family}
+          for (r,fam),ps in zip(selected,results):
+              label, reason = classify(r,fam,ps)
+              family_counts[fam][label] = family_counts[fam].get(label,0)+1
+              by_family[fam].append((r,ps,label,reason))
+
+          files = {
+              'Administrator':'nhs-administrator-review-deep.csv',
+              'Reception':'nhs-reception-review-deep.csv',
+              'Medical Secretary':'nhs-medical-secretary-review-deep.csv',
+          }
+          for fam, items in by_family.items():
+              with Path(files[fam]).open('w', encoding='utf-8-sig', newline='') as f:
+                  w = csv.DictWriter(f, fieldnames=fields)
+                  w.writeheader()
+                  for i,(r,ps,label,reason) in enumerate(items,1):
+                      w.writerow({
+                          'review_no':i,'family':fam,'title':r.get('title',''),'employer':r.get('employer',''),
+                          'locations':r.get('locations',''),'salary_text':r.get('salary_text',''),'employment_type':r.get('employment_type',''),
+                          'deep_classification':label,'deep_reason':reason,'fetch_status':ps.get('fetch_status',''),
+                          'essential_requirements':ps.get('essential',''),'desirable_requirements':ps.get('desirable',''),
+                          'current_decision':r.get('final_decision',''),'job_reference':r.get('job_reference',''),
+                          'closing_date':r.get('closing_date',''),'source_url':r.get('source_url',''),'manual_review':'PENDING'
+                      })
+              print(f'{fam}: {len(items)} rows')
+              for k,v in sorted(family_counts[fam].items(), key=lambda kv:(-kv[1],kv[0])):
+                  print(f'  {v}\t{k}')
+          print('Fetch statuses:')
+          fs={}
           for ps in results:
               fs[ps.get('fetch_status','')] = fs.get(ps.get('fetch_status',''),0)+1
-          for k,v in sorted(fs.items(), key=lambda kv: (-kv[1], kv[0])):
-              print(f'{v}\t{k}')
+          for k,v in sorted(fs.items(), key=lambda kv:(-kv[1],kv[0])):
+              print(f'  {v}\t{k}')
           PY
 
-      - name: Upload deep review CSV
+      - name: Upload three-family review
         uses: actions/upload-artifact@v4
         with:
-          name: nhs-administrator-review-deep
-          path: nhs-administrator-review-deep.csv
+          name: nhs-three-family-deep-review
+          path: |
+            nhs-administrator-review-deep.csv
+            nhs-reception-review-deep.csv
+            nhs-medical-secretary-review-deep.csv
           if-no-files-found: error
