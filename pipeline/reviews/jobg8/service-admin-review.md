@@ -1670,7 +1670,7 @@ job_id: 1151e415-f581-4edf-9b74-8162153b907a
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | Hounslow | £35000 - £45000 per year | Technical Sales Administrator
 job_id: 0a8f9eff-a0c8-4927-aa27-b73f64ae9d6a
 ---
