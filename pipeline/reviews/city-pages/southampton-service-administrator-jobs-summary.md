@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 19
+- automatic review: 17
 - automatic exclude: 22
 - effective include: 10
-- effective review: 19
+- effective review: 17
 - effective exclude: 22
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225419560
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (19)
+## REVIEW (17)
 
 ---
 action: 
@@ -282,18 +282,6 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Matchtech - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225451240
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Onsite Recruitment Coordinator / Consultant
 company: Adecco - Agency - Temporary
 location: Petersfield
@@ -347,18 +335,6 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Percival Aviation - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225476353
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -548,11 +524,11 @@ reason: The stated workplace belongs outside the approved Southampton employment
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Administrator / PMO Support Analyst
-company: Experis - Agency - Contract
-location: Winchester
+title: Project Support Administrator
+company: Lloyd Recruitment - Epsom - Agency - Permanent
+location: Portsmouth
 source: JobG8
-job_id: jobg8-107843564
+job_id: jobg8-23643_225448844
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 
@@ -560,11 +536,11 @@ reason: The stated workplace belongs outside the approved Southampton employment
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Support Administrator
-company: Lloyd Recruitment - Epsom - Agency - Permanent
-location: Portsmouth
+title: Purchasing Administrator
+company: Reed - Agency - Temporary
+location: Eastleigh
 source: JobG8
-job_id: jobg8-23643_225448844
+job_id: jobg8-747793e6-2c9c-46d5-9c4b-62900bf60893
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 

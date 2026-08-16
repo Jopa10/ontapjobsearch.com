@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 15
 - automatic review: 18
 - automatic exclude: 21
-- effective include: 14
+- effective include: 15
 - effective review: 18
 - effective exclude: 21
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Baker Harding Limited - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-107680320
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part time Receptionist
+company: Huntress - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-e8be6b4a-3c51-4aaa-95e5-513bc3de6296
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
