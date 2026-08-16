@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-15
+feed_date: 2026-08-16
 
 Edit only the `action:` line in each block:
 
@@ -75,12 +75,6 @@ _No jobs in this group._
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £15 per hour | Male Support Worker
 job_id: 35ef02dd-6e8a-4d5a-a1af-bacca950305f
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Houghton Le Spring | £14.24 per hour | Complex Care Assistant
-job_id: 107810260
 ---
 
 ---
@@ -227,12 +221,6 @@ SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
 
----
-action:
-SELECTED | Sussex | Midhurst | rate of up to £13.11 (plus a 12.07% holiday allowance uplift | Bank Healthcare Assistant
-job_id: 107831119
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -267,6 +255,12 @@ job_id: 107812778
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
 job_id: 107827128
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £13.45 per hour (and 45p per mile fuel allowance) | Care Assistant
+job_id: 107785592
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
