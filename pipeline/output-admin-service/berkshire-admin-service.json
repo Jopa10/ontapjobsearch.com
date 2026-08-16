@@ -552,7 +552,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Reporting",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "5f397ecd-f573-477c-bd12-80c082b2389b",
@@ -577,7 +584,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225433817",
@@ -677,7 +688,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations",
+      "Mail handling"
+    ]
   },
   {
     "job_id": "107681369",
@@ -727,7 +743,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling"
+    ]
   },
   {
     "job_id": "23643_225411716",
@@ -827,7 +847,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225451460",
@@ -927,7 +951,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225416106",
@@ -952,7 +980,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "9e7581fb-2c3c-43c0-98dc-013b2eb692e5",

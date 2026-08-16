@@ -181,7 +181,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Reporting",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "db261fce-bc72-4699-8504-ee766ecc1449",
@@ -206,7 +211,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225423837",
@@ -231,7 +240,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225473807",
@@ -256,7 +269,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "9313f8d8-798c-47d4-b862-63cec763953a",
@@ -281,7 +298,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225461884",
@@ -331,7 +352,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225400133",
@@ -381,7 +406,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "96572460-cb6b-4213-999e-95d0413b799c",
@@ -756,7 +785,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225385708",
@@ -831,7 +867,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "11eb2a41-8583-4d40-8d7e-11042de70dda",
@@ -856,7 +896,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225498937",
@@ -906,7 +950,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "900e2fad-e172-4801-908f-64a7b0d2064e",
@@ -931,7 +979,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225472227",
