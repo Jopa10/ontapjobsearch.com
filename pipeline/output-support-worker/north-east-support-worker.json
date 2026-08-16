@@ -41,12 +41,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Support plans",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "6b804bc2-d778-42ed-bf1b-d3ec78422d8a",
@@ -68,14 +63,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support",
-      "Community access",
-      "Medical and welfare support",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "35ef02dd-6e8a-4d5a-a1af-bacca950305f",
@@ -97,13 +85,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support",
-      "Community access",
-      "Promoting independence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "cc359452-7885-406f-b982-9931f062cd19",
@@ -125,12 +107,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Medical and welfare support",
-      "Safeguarding",
-      "Emotional support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "f6fec1d6-1fe7-4f2f-895c-76cd05933697",
@@ -240,28 +217,6 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107810260",
-    "title": "Complex Care Assistant",
-    "company": "Routes Healthcare (North) - Agency - Contract",
-    "location": "Houghton Le Spring",
-    "region": "North East",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Contract",
-    "salary_min": "14.24",
-    "salary_max": "14.24",
-    "salary_text": "£14.24 per hour",
-    "posted_date": "",
-    "description": "Routes Healthcare does not offer sponsorship Female Complex Care Assistant\n\nChester-le-Street\n\n£14.24 per hour (including holiday pay)+Fully funded Enhanced DBS and guaranteed hours available after successful probation\n\nShifts :Part-time - 5h evening shifts 4 PM -9 PM + 6h Saturday day shift\n\nAbout the Role\n\nRoutes Healthcare is seeking a Female Complex Care Assistant to provide 1-to-1 care in a client' click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAylmfnFGKts8Pp8uM0N3JBRv",
-    "source": "JobG8",
-    "advertiser_name": "Routes Healthcare (North)",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {

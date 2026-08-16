@@ -200,11 +200,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225406686",
@@ -229,11 +225,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225409112",
@@ -258,13 +250,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225412013",
@@ -289,11 +275,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225412646",
@@ -318,12 +300,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Customer portals"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225414625",
@@ -373,11 +350,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225420282",
@@ -402,11 +375,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3b84e166-f59c-4a66-ae7a-4582b484e733",
@@ -431,11 +400,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225422206",
@@ -460,12 +425,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "989559d5-cac2-4421-909f-4e1b2e0c2dbd",
@@ -515,13 +475,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Document preparation",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225445466",
@@ -571,11 +525,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107694241",
@@ -775,11 +725,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476867",
@@ -1054,11 +1000,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4a3240a4-7ac5-4829-9657-42b832f0e002",
@@ -1133,12 +1075,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "58d8d671-be15-4ec0-82bd-3ac53a37c782",
+    "title": "Finance Assistant",
+    "company": "Michael Page Finance - Agency - Temporary",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "29000",
+    "salary_max": "30000",
+    "salary_text": "£29000 - £30000 per year",
+    "posted_date": "",
+    "description": "This Finance Assistant role in Salford will see you supporting the day-to-day financial operations of a busy team. You will play a key part in keeping things running smoothly by managing important tasks like processing invoices and maintaining accurate financial records.\n\nClient Details\n\nA company based in Salford operating who are going through an exciting change.\n\nDescription\n- Process invoices and ensure timely payments to suppliers.\n- Reconcile bank statements and monitor financial transactions.\n- Assist with preparing financial reports and documentation.\n- Maintain accurate and organised financial records.\n- Process expenses.\n- Support the team with general accounting tasks and administrative duties.\n- Handle queries related to accounts payable and receivable.\n- Collaborate with team members to ensure compliance with financial procedures.\n- Contribute to month-end and year-end financial processes.\n\nProfile\n\nA successful Finance Assistant should have:\n- Previous experience in a similar finance or accounting role.\n- Strong numeracy skills and attention to detail.\n- Proficiency with financial software and Microsoft Excel.\n- An organised approach and the ability to meet deadlines.\n- Good communication skills for liaising with internal teams and external partners.\n\nJob Offer\n- Salary between £29,000 and £32,000 dependent on the level of experience.\n- 3 month interim position with opportunity for longer term.\n- An opportunity to work in the technology and telecoms industry.\n\nIf you are interested in this role, apply now.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDzfQSeyOhpdkZ5de%2fSydwq4f",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page Finance",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225477091",
