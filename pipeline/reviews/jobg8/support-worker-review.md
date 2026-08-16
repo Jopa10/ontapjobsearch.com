@@ -107,12 +107,6 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyn
 job_id: 0d92fe0d-a663-4737-8a15-e07bad60e5fe
 ---
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
-job_id: 107800900
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -255,12 +249,6 @@ job_id: 107812778
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
 job_id: 107827128
----
-
----
-action:
-SELECTED | Cumbria - South | Ulverston | £13.45 per hour (and 45p per mile fuel allowance) | Care Assistant
-job_id: 107785592
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -465,6 +453,12 @@ job_id: feafdbff-feab-46b2-9f5e-426a6897dd2e
 action:
 SELECTED | London | Barking | £15 per hour | Childrens Support Worker / Clacton / GBP15 ph - GBP16 ph
 job_id: 573ad49a-e43f-4fe5-b86d-66e9514e3b01
+---
+
+---
+action:
+SELECTED | London | London | £30784 per year | Support Worker
+job_id: 197faf69-e78e-4a9a-affd-80959ed23008
 ---
 
 ## LONDON — POSSIBLES

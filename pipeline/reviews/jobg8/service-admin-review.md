@@ -247,7 +247,11 @@ job_id: e8be6b4a-3c51-4aaa-95e5-513bc3de6296
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £26000 - £28000 per year | Accounts Administrator
+job_id: e6adc526-6a11-4aca-a85b-f18a9cd311ee
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -547,6 +551,24 @@ job_id: 107717507
 
 ---
 action:
+SELECTED | North East | North Shields |  | Customer Service Advisor
+job_id: 20279_61775-18920c4c3acd80a428cbeccf0253ec33
+---
+
+---
+action:
+SELECTED | North East | Wallsend |  | Contact Centre Agent
+job_id: 20279_61775-b63960d4b5dd52aa15bb6dd10e1e6082
+---
+
+---
+action:
+SELECTED | North East | Jarrow |  | Call Centre Agent
+job_id: 20279_61775-3c79e0d2d8b9dc829f1439ebfbd69827
+---
+
+---
+action:
 SELECTED | North East | Washington |  | Call Centre Agent
 job_id: 20279_61775-5e8fd437c2acaed207d238cf1b10801c
 ---
@@ -675,6 +697,18 @@ job_id: 20279_61775-153faf593eb64b88272f45adeaa28d87
 action:
 SELECTED | North East | Gateshead | £13 per hour | Administrator - Temporary to Permanent - Team Valley
 job_id: 3f80b0ca-14b3-48bf-add3-29c3133d4940
+---
+
+---
+action:
+SELECTED | North East | South Shields |  | Customer Service Advisor
+job_id: 21618_20279_61775-153faf593eb64b88272f45adeaa28d87-41cdf25d056349db306149492f169b31
+---
+
+---
+action:
+SELECTED | North East | North Shields |  | Call Centre Agent
+job_id: 21618_20279_61775-20fc350b6789c39cd18ccac91ac57148
 ---
 
 ---
@@ -831,6 +865,12 @@ job_id: 107836549
 action:
 SELECTED | North East | Durham |  | Executive Support Coordinator
 job_id: 1666375
+---
+
+---
+action:
+SELECTED | North East | Newcastle Upon Tyne | £28000 per year | ELPL Claims Handler
+job_id: 107820080
 ---
 
 ## NORTH EAST — POSSIBLES
@@ -1879,6 +1919,12 @@ job_id: 23643_225472675
 
 ---
 action:
+SELECTED | Hampshire | Hampshire |  | Sales Coordinator
+job_id: 23643_225476353
+---
+
+---
+action:
 SELECTED | Hampshire | Hampshire |  | Medical Affairs Coordinator (IIR)
 job_id: 23643_225474596
 ---
@@ -2842,6 +2888,18 @@ SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £25000 - £2700
 job_id: 9106c63f-aedd-42f5-8dd5-93e28a33c690
 ---
 
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton | £24000 per year | My Way Facilitator (Transitions Co-ordinator)
+job_id: 107841442
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby | £30000 per year | Operations Administrator
+job_id: 107843114
+---
+
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2921,7 +2979,7 @@ job_id: 23643_225433564
 
 ---
 action:
-SELECTED | Berkshire | Bracknell | £17 per hour | Part Time Receptionist/Concierge
+SELECTED | Berkshire | Berkshire | £17 per hour | Part Time Receptionist/Concierge
 job_id: 23643_225433817
 ---
 
@@ -2993,6 +3051,12 @@ job_id: 905aecba-664e-4365-936e-f55d19eeef48
 
 ---
 action:
+SELECTED | Berkshire | Berkshire | £13.47 - £14.43 per hour | Workplace Coordinator
+job_id: 23643_225472204
+---
+
+---
+action:
 SELECTED | Berkshire | Reading | £14.23 per hour | Case Disposals Administrator CJ
 job_id: 23643_225474975
 ---
@@ -3029,7 +3093,11 @@ job_id: 17bc160d-ee2b-4a39-b768-3f7f19afe16b
 
 ## BERKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BERKSHIRE | Berkshire | Newbury | £25 per hour (Days holiday) | Cabling Designer and Planner
+job_id: 107829723
+---
 
 ## BRISTOL & BATH — SELECTED
 
@@ -3369,12 +3437,6 @@ job_id: f6a9d116-33f3-41b0-bb10-29c6f514487f
 action:
 SELECTED | Devon | Tiverton | £12.71 - £14.4 per hour | Construction Administrator
 job_id: 23643_225423108
----
-
----
-action:
-SELECTED | Devon | Devon | £25000 per year | Hire Administrator
-job_id: 23643_225422547
 ---
 
 ---
@@ -3825,7 +3887,25 @@ SELECTED | Essex | Colchester | £13500 - £14000 per year | Administrator (Part
 job_id: 00000259-1 [JSP51644]
 ---
 
+---
+action:
+SELECTED | Essex | Colchester | £24000 - £25000 per year | Accounts Assistant
+job_id: e043b8b1-fee3-4a2f-bad2-3120fda0e58a
+---
+
+---
+action:
+SELECTED | Essex | Southend-on-sea | £28000 per year | Housing Community Safety Administrator
+job_id: 107837697
+---
+
 ## ESSEX — POSSIBLES
+
+---
+action:
+POSS - ESSEX | Essex | Essex | £26208 - £31820 per year | Customer Service Advisor
+job_id: 23643_225499225
+---
 
 ---
 action:
@@ -3959,6 +4039,12 @@ job_id: b590e556-04da-4220-80af-02840252f6e8
 action:
 SELECTED | Gloucestershire | Tewkesbury | £12.71 per hour | Administrator
 job_id: 89b0a38f-8f7a-4d9f-9e79-5c15716fec7b
+---
+
+---
+action:
+SELECTED | Gloucestershire | Cheltenham | £30000 per year | Fleet Development Coordinator
+job_id: 107836423
 ---
 
 ## GLOUCESTERSHIRE — POSSIBLES
@@ -4333,7 +4419,7 @@ job_id: 23643_225433800
 
 ---
 action:
-SELECTED | Northamptonshire | Northamptonshire | £13 - £15 per hour | Business Administrator - Part Time
+SELECTED | Northamptonshire | Rushden | £13 - £15 per hour | Business Administrator - Part Time
 job_id: 23643_225432903
 ---
 
@@ -4363,6 +4449,12 @@ job_id: 23643_225452802
 
 ---
 action:
+SELECTED | Northamptonshire | Northamptonshire | £28000 per year (office based, free parking) | Scheduling Administrator
+job_id: 23643_225451400
+---
+
+---
+action:
 SELECTED | Northamptonshire | Northampton |  | Office Administrator
 job_id: 23643_225451122
 ---
@@ -4377,12 +4469,6 @@ job_id: 23643_225346183
 action:
 SELECTED | Northamptonshire | Kettering | £16 per hour | Recruitment Operations Coordinator
 job_id: 107786406
----
-
----
-action:
-SELECTED | Northamptonshire | Northamptonshire | £29000 - £29500 per year (25days holiday + bank hols + 6% pen) | PURCHASING COORDINATOR
-job_id: 23643_225462965
 ---
 
 ---
@@ -4663,8 +4749,8 @@ job_id: 23643_225450095
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £28000 per year (office based, free parking) | Scheduling Administrator
-job_id: 23643_225451400
+SELECTED | Oxfordshire | Oxfordshire | £29000 - £29500 per year (25days holiday + bank hols + 6% pen) | PURCHASING COORDINATOR
+job_id: 23643_225462965
 ---
 
 ---
@@ -4755,6 +4841,12 @@ job_id: a443ff02-bebe-452b-a749-6b190d41b6d7
 action:
 SELECTED | Oxfordshire | Didcot | £13.5 per hour | Accounts Administrator
 job_id: e1de4ec3-ecc2-4440-868b-dd72f6a4e398
+---
+
+---
+action:
+SELECTED | Oxfordshire | Banbury | £26000 per year | Cash Management Administrator
+job_id: 107819254
 ---
 
 ## OXFORDSHIRE — POSSIBLES
