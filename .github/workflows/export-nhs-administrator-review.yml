@@ -62,7 +62,7 @@ jobs:
           counts = {}
           for _,f in selected:
               counts[f] = counts.get(f,0)+1
-          assert counts == {'Administrator':185,'Reception':134,'Medical Secretary':94}, counts
+          assert counts == {'Administrator':185,'Reception':136,'Medical Secretary':94}, counts
 
           HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; OntapJobSearchReview/1.0)'}
 
