@@ -719,12 +719,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225431204",
@@ -799,12 +794,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465230",
@@ -829,12 +819,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474593",
@@ -1034,12 +1019,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "30dd270a-bc10-438a-91aa-350d9861e84e",
@@ -1189,14 +1169,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225403370",
@@ -1246,11 +1219,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225407744",
@@ -1525,11 +1494,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430273",
@@ -1579,11 +1544,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -1733,12 +1694,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225196977",
@@ -1788,12 +1744,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444722",
@@ -1843,12 +1794,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452426",
@@ -1898,12 +1844,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225454170",
@@ -2028,12 +1969,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464987",
@@ -2083,11 +2019,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225467286",
@@ -2212,11 +2144,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3d2f35d7-304f-43ec-ab7a-50a01ee54e4b",
@@ -2316,11 +2244,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480304",
@@ -2470,12 +2394,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0906ca90-a036-407c-83ed-23f7911adcfc",
@@ -2500,11 +2419,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "ada47eb5-cc52-4738-b6f2-4f788f18c0cb",
@@ -2529,12 +2444,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4dd8d513-8ffd-4e38-846c-a67afb0e54c2",
@@ -2584,12 +2494,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2fe712f6-4d2b-4c9d-ad41-ff4fc1a1b318",
@@ -2614,11 +2519,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1d0c335b-3ed3-4338-b59f-58aa9e9d5ce6",
@@ -2818,11 +2719,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107786275",
@@ -2922,11 +2819,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "8020e878-1422-4caf-9587-c94da50bc145",
@@ -2951,11 +2844,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "06d9ecc2-8f55-4bf3-ad8b-835c375815fc",
@@ -2977,6 +2866,31 @@
     "working_arrangement_text": "Hybrid working",
     "working_arrangement_evidence": "The role is working hybrid, salary up to £28k depending on experience and the benefits are fantastic. - Competitive salary & pension scheme - 25 days annual leave plus ability to purchase 5 additional days - Private Medical cover, Employee Share Purchase Plan, Life Assurance YOU MUST ALREADY LIVE IN SCOTLAND WITH FULL RIGHT TO WORK STATUSDo you love helping customers?",
     "advertiser_name": "Pertemps Scotland Perms",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "0a8f9eff-a0c8-4927-aa27-b73f64ae9d6a",
+    "title": "Technical Sales Administrator",
+    "company": "TalentTech Recruitment - Agency - Permanent",
+    "location": "Hounslow",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "45000",
+    "salary_text": "£35000 - £45000 per year",
+    "posted_date": "",
+    "description": "Technical Sales Administrator\n\nConstruction Products - Manufacturer\n\n5 days a week in the Heathrow Head Office - 37.5 hours per week\n\nOffice Accessible from Hounslow, Twickenham, Staines, Southall\n\n£35,000 - £45,000 Basic Salary + Training, Benefits & Pension\n- Are you looking to offer best in class customer service and sales coordination?\n- Do you enjoy getting into the technical detail of how a product is actually made, not just how it's sold?\n\nIf you've answered yes to both, this could be a brilliant opportunity for you. A role for an organised, detail-focused Technical Sales Administrator to join a small, close-knit team at the heart of the sales and production process, converting customer orders into accurate, production-ready information for the factory, while keeping customers and suppliers informed every step of the way.\n\nYour Role as a Technical Sales Administrator:\n- Processing customer orders end-to-end, from initial enquiry through to dispatch, ensuring accuracy at every stage.\n- Converting order details into materials, sizes and components, and generating the production documentation (bills of materials) the factory team relies on to manufacture each order correctly.\n- Call handling and sales order processing, providing an excellent level of service to customers and addressing any concerns promptly.\n- Communicating lead times and order progress clearly to customers and internal colleagues.\n- Liaising with hauliers and suppliers to keep orders, deliveries and collections running smoothly.\n- Supporting stock control, including monitoring stock levels and helping to manage timely replenishment.\n- Maintaining accurate price lists, purchase orders and invoices.\n- Keeping the sales order system and records accurate, organised and up to date.\n- Working pattern: Monday to Thursday 8am - 4:30pm, Friday 8am - 3:30pm.\n\nIdeal background for the Technical Sales Administrator:\n- Previous experience in a sales administration role, ideally within a technical, mechanical, fabrication or manufacturing environment (essential).\n- Comfortable working with measurements, quantities and material calculations - thinking in materials, cut lengths, components or bills of materials rather than just quantities on a screen.\n- Experience generating technical or production documentation, such as bills of materials, cutting lists or works orders, is a strong advantage.\n- Excellent working knowledge of Microsoft Office, particularly Word, Excel and Outlook.\n- Experience with a sales ordering or ERP system.\n- Able to prioritise day-to-day tasks and manage your own workload with minimum supervision, while collaborating well within a small, close-knit team.\n- Excellent verbal and written communication skills, confident liaising with customers and suppliers.\n- Highly organised, with excellent attention to detail and the ability to multi-task.\n- Commercially astute with a friendly, non-starchy customer service focus.\n- Must have the right to work in the UK without sponsorship.\n\nThe Company recruiting for the Technical Sales Administrator:\n- This well-respected manufacturer of construction products works with a wide portfolio of clients across the construction, automotive and furniture industries.\n- Part of a premium worldwide brand for polymer-based innovations and systems, with more than 20,000 employees across 170 locations worldwide.\n- Having a truly international footprint, they are looking to strengthen a small, close-knit in-house team based at their Heathrow office.\n- A well-established, privately held group offering the stability and career development of a global brand alongside the hands-on variety of a smaller operation.\n\nThe Package for the Technical Sales Administrator:\n- £35,000 - £45,000 basic salary, depending on experience.\n- Ongoing training and career development.\n- Competitive benefits package\n- 20 days holiday + stats.\n\nPlease apply for this job online if you are interested and feel you fit the above criteria. John is the main point of contact for the role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6HXqZmR868QwFLMDhS3gZPq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "TalentTech Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -3005,11 +2919,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "ce1a4d3a-01bd-4318-9879-9012ad1a1d1b",
@@ -3034,12 +2944,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465331",
@@ -3064,13 +2969,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "316f2ae5-fd75-409f-9b68-3ef8adc7fb89",
@@ -3095,13 +2994,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2f01765c-5705-43c3-8e7b-12bf4fdd75d5",
@@ -3126,11 +3019,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430631",
@@ -3180,12 +3069,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225334055",
@@ -3210,13 +3094,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461934",
@@ -3266,11 +3144,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "48820166-2b23-444d-9954-cfff6c033111",
@@ -3295,13 +3169,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225498172",
@@ -3401,12 +3269,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Customer portals",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225424406",
@@ -3456,11 +3319,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225411504",
@@ -3560,12 +3419,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
@@ -3615,11 +3469,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
@@ -3644,14 +3494,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -3676,13 +3519,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428764",
@@ -3757,11 +3594,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434211",
@@ -3886,11 +3719,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497881",
@@ -4015,12 +3844,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225399146",
