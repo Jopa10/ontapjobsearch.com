@@ -38,8 +38,8 @@ const jobs: PreviewJob[] = [
     employmentType: "Permanent",
     source: "NHS Jobs",
     href: "https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0646",
-    switcherText: "Open to switchers",
-    switcherDetail: "No essential NHS, healthcare or named-system experience found in the person specification.",
+    switcherText: "Open to applicants from outside the NHS",
+    switcherDetail: "No essential NHS, healthcare or named-system experience is required — relevant experience from other sectors can count.",
   },
   {
     id: "20279_61775-deab967b99c6e63d0dd459a12179664a",
@@ -60,8 +60,8 @@ const jobs: PreviewJob[] = [
     employmentType: "Permanent",
     source: "NHS Jobs",
     href: "https://beta.jobs.nhs.uk/candidate/jobadvert/A4389-26-0007",
-    switcherText: "Open to switchers",
-    switcherDetail: "Previous NHS employment is not listed as essential; general reception, customer-service and admin experience may transfer.",
+    switcherText: "Open to applicants from outside the NHS",
+    switcherDetail: "No essential NHS, healthcare or named-system experience is required — relevant experience from other sectors can count.",
   },
   {
     id: "23643_225444106",
@@ -82,8 +82,8 @@ const jobs: PreviewJob[] = [
     employmentType: "Permanent",
     source: "NHS Jobs",
     href: "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0682",
-    switcherText: "Open to switchers",
-    switcherDetail: "No essential NHS, healthcare or named-system barrier found in the person specification.",
+    switcherText: "Open to applicants from outside the NHS",
+    switcherDetail: "No essential NHS, healthcare or named-system experience is required — relevant experience from other sectors can count.",
   },
   {
     id: "B0170-26-0034",
@@ -94,8 +94,8 @@ const jobs: PreviewJob[] = [
     employmentType: "Permanent",
     source: "NHS Jobs",
     href: "https://beta.jobs.nhs.uk/candidate/jobadvert/B0170-26-0034",
-    switcherText: "Open to switchers",
-    switcherDetail: "No essential NHS, healthcare or named-system experience found in the person specification.",
+    switcherText: "Open to applicants from outside the NHS",
+    switcherDetail: "No essential NHS, healthcare or named-system experience is required — relevant experience from other sectors can count.",
   },
 ];
 
