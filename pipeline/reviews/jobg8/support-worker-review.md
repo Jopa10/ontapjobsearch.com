@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-16
+feed_date: 2026-08-17
 
 Edit only the `action:` line in each block:
 
@@ -271,12 +271,6 @@ job_id: 77b95346-e87e-49a2-ba72-135448bf136e
 
 ---
 action:
-SELECTED | Hampshire | Andover | £13 - £15 per hour (Salary Dependent on experience) | Domiciliary Care Assistant
-job_id: 107404020
----
-
----
-action:
 SELECTED | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
 job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
 ---
@@ -403,20 +397,8 @@ job_id: 1621461
 
 ---
 action:
-SELECTED | London | London | £30,784.00 per annum | Support Worker
-job_id: 1629837
----
-
----
-action:
 SELECTED | London | City | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104883-1-714afb01ebf3664bdb0febe6b0f96c3d
----
-
----
-action:
-SELECTED | London | Surbiton | £246 per daily | Live-in Care Assistant for a Business and Management Graduate
-job_id: 107769225
 ---
 
 ---
@@ -453,6 +435,12 @@ job_id: feafdbff-feab-46b2-9f5e-426a6897dd2e
 action:
 SELECTED | London | Barking | £15 per hour | Childrens Support Worker / Clacton / GBP15 ph - GBP16 ph
 job_id: 573ad49a-e43f-4fe5-b86d-66e9514e3b01
+---
+
+---
+action:
+SELECTED | London | London | £27706 per year | Refuge Support Worker
+job_id: 45bae37e-0b67-4df4-ae16-6dd3348fcfeb
 ---
 
 ---
