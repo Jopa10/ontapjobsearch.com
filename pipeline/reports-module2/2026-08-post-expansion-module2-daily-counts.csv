@@ -1,0 +1,1933 @@
+﻿month,date,region,region_scope,category,daily_job_count
+2026-08-post-expansion,2026-08-11,Berkshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-12,Berkshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-14,Berkshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-15,Berkshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-16,Berkshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-17,Berkshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-11,Bristol & Bath,lookup_region,admin_service,11
+2026-08-post-expansion,2026-08-12,Bristol & Bath,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-14,Bristol & Bath,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-15,Bristol & Bath,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-16,Bristol & Bath,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-17,Bristol & Bath,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-11,Buckinghamshire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,Buckinghamshire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Buckinghamshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-15,Buckinghamshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-16,Buckinghamshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-17,Buckinghamshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-11,Caerphilly,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Caerphilly,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Caerphilly,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-15,Caerphilly,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-16,Caerphilly,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-17,Caerphilly,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-11,Cambridgeshire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-12,Cambridgeshire,lookup_region,admin_service,11
+2026-08-post-expansion,2026-08-14,Cambridgeshire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-15,Cambridgeshire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-16,Cambridgeshire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-17,Cambridgeshire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-11,Cheshire - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Cheshire - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Cheshire - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,Cheshire - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Cheshire - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-17,Cheshire - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Cheshire - Warrington & Halton,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,Cheshire - Warrington & Halton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Cheshire - Warrington & Halton,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-15,Cheshire - Warrington & Halton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Cheshire - Warrington & Halton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,Cheshire - Warrington & Halton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Cheshire - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Cheshire - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Cheshire - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-15,Cheshire - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-16,Cheshire - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-17,Cheshire - West,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Cornwall,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Cornwall,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Cornwall,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Cornwall,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Cornwall,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Cornwall,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Cumbria - North,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Cumbria - North,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Cumbria - North,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Cumbria - North,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Cumbria - North,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Cumbria - North,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Cumbria - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Cumbria - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Cumbria - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Cumbria - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Cumbria - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Cumbria - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Derbyshire,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Derbyshire,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Derbyshire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,Derbyshire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Derbyshire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,Derbyshire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Devon,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-12,Devon,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-14,Devon,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-15,Devon,lookup_region,admin_service,11
+2026-08-post-expansion,2026-08-16,Devon,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-17,Devon,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-11,Dorset,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-12,Dorset,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-14,Dorset,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-15,Dorset,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-16,Dorset,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-17,Dorset,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-11,East Midlands,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,East Midlands,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,East Midlands,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,East Midlands,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,East Midlands,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,East Midlands,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-11,Essex,lookup_region,admin_service,12
+2026-08-post-expansion,2026-08-12,Essex,lookup_region,admin_service,13
+2026-08-post-expansion,2026-08-14,Essex,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-15,Essex,lookup_region,admin_service,15
+2026-08-post-expansion,2026-08-16,Essex,lookup_region,admin_service,15
+2026-08-post-expansion,2026-08-17,Essex,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-11,Gloucestershire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-12,Gloucestershire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-14,Gloucestershire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-15,Gloucestershire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-16,Gloucestershire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-17,Gloucestershire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-14,Greater Manchester - Manchester & Salford,lookup_region,admin_service,17
+2026-08-post-expansion,2026-08-15,Greater Manchester - Manchester & Salford,lookup_region,admin_service,17
+2026-08-post-expansion,2026-08-16,Greater Manchester - Manchester & Salford,lookup_region,admin_service,18
+2026-08-post-expansion,2026-08-17,Greater Manchester - Manchester & Salford,lookup_region,admin_service,18
+2026-08-post-expansion,2026-08-11,Greater Manchester - North,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,Greater Manchester - North,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-14,Greater Manchester - North,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-15,Greater Manchester - North,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-16,Greater Manchester - North,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-17,Greater Manchester - North,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-11,Greater Manchester - South,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-12,Greater Manchester - South,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-14,Greater Manchester - South,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,Greater Manchester - South,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Greater Manchester - South,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,Greater Manchester - South,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-14,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-15,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,Greater Manchester - Wigan & Bolton,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Hampshire,lookup_region,admin_service,22
+2026-08-post-expansion,2026-08-12,Hampshire,lookup_region,admin_service,22
+2026-08-post-expansion,2026-08-14,Hampshire,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-15,Hampshire,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-16,Hampshire,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-17,Hampshire,lookup_region,admin_service,22
+2026-08-post-expansion,2026-08-11,Herefordshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Herefordshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Herefordshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Herefordshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Herefordshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Herefordshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Hertfordshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-12,Hertfordshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-14,Hertfordshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-15,Hertfordshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-16,Hertfordshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-17,Hertfordshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-11,Kent,lookup_region,admin_service,18
+2026-08-post-expansion,2026-08-12,Kent,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-14,Kent,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-15,Kent,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-16,Kent,lookup_region,admin_service,15
+2026-08-post-expansion,2026-08-17,Kent,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-11,Lancashire - Blackpool & Fylde,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Lancashire - Blackpool & Fylde,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Lancashire - Blackpool & Fylde,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Lancashire - Blackpool & Fylde,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-16,Lancashire - Blackpool & Fylde,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-17,Lancashire - Blackpool & Fylde,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-11,Lancashire - Central,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Lancashire - Central,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Lancashire - Central,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Lancashire - Central,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Lancashire - Central,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Lancashire - Central,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Lancashire - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Lancashire - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Lancashire - East,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Lancashire - East,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Lancashire - East,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Lancashire - East,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Leicestershire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-12,Leicestershire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-14,Leicestershire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-15,Leicestershire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-16,Leicestershire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-17,Leicestershire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-11,Lincolnshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,Lincolnshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-14,Lincolnshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Lincolnshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Lincolnshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Lincolnshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,London,lookup_region,admin_service,65
+2026-08-post-expansion,2026-08-12,London,lookup_region,admin_service,70
+2026-08-post-expansion,2026-08-14,London,lookup_region,admin_service,68
+2026-08-post-expansion,2026-08-15,London,lookup_region,admin_service,69
+2026-08-post-expansion,2026-08-16,London,lookup_region,admin_service,71
+2026-08-post-expansion,2026-08-17,London,lookup_region,admin_service,75
+2026-08-post-expansion,2026-08-11,Merseyside - Liverpool,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Merseyside - Liverpool,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Merseyside - Liverpool,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Merseyside - Liverpool,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Merseyside - Liverpool,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Merseyside - Liverpool,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Merseyside - Wirral,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-12,Merseyside - Wirral,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-14,Merseyside - Wirral,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-15,Merseyside - Wirral,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Merseyside - Wirral,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Merseyside - Wirral,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Norfolk,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-12,Norfolk,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-14,Norfolk,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-15,Norfolk,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-16,Norfolk,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-17,Norfolk,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-11,North East,published_aggregate,admin_service,12
+2026-08-post-expansion,2026-08-12,North East,published_aggregate,admin_service,14
+2026-08-post-expansion,2026-08-14,North East,published_aggregate,admin_service,12
+2026-08-post-expansion,2026-08-15,North East,published_aggregate,admin_service,14
+2026-08-post-expansion,2026-08-16,North East,published_aggregate,admin_service,14
+2026-08-post-expansion,2026-08-17,North East,published_aggregate,admin_service,14
+2026-08-post-expansion,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-14,North East - County Durham & Darlington/Hartlepool,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-15,North East - County Durham & Darlington/Hartlepool,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-16,North East - County Durham & Darlington/Hartlepool,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-17,North East - County Durham & Darlington/Hartlepool,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-11,North Scotland,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-12,North Scotland,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,North Scotland,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,North Scotland,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,North Scotland,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,North Scotland,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,North Wales - East,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,North Wales - East,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-14,North Wales - East,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-15,North Wales - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,North Wales - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,North Wales - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Northamptonshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-12,Northamptonshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-14,Northamptonshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-15,Northamptonshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-16,Northamptonshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-17,Northamptonshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-11,Northern Ireland - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Northern Ireland - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Northern Ireland - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-15,Northern Ireland - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-16,Northern Ireland - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-17,Northern Ireland - East,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-11,Northern Ireland - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Northern Ireland - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,Northern Ireland - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-15,Northern Ireland - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-16,Northern Ireland - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-17,Northern Ireland - West,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-11,Nottinghamshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-12,Nottinghamshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-14,Nottinghamshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-15,Nottinghamshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-16,Nottinghamshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-17,Nottinghamshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-11,Other / Unknown,lookup_region,admin_service,96
+2026-08-post-expansion,2026-08-12,Other / Unknown,lookup_region,admin_service,101
+2026-08-post-expansion,2026-08-14,Other / Unknown,lookup_region,admin_service,105
+2026-08-post-expansion,2026-08-15,Other / Unknown,lookup_region,admin_service,105
+2026-08-post-expansion,2026-08-16,Other / Unknown,lookup_region,admin_service,109
+2026-08-post-expansion,2026-08-17,Other / Unknown,lookup_region,admin_service,107
+2026-08-post-expansion,2026-08-11,Oxfordshire,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-12,Oxfordshire,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-14,Oxfordshire,lookup_region,admin_service,17
+2026-08-post-expansion,2026-08-15,Oxfordshire,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-16,Oxfordshire,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-17,Oxfordshire,lookup_region,admin_service,17
+2026-08-post-expansion,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Scotland Central - Edinburgh & Lothians,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,Scotland Central - Edinburgh & Lothians,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Scotland Central - Edinburgh & Lothians,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,Scotland Central - Edinburgh & Lothians,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Scotland Central - Falkirk & Stirling,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Scotland Central - Falkirk & Stirling,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Scotland Central - Falkirk & Stirling,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Scotland Central - Falkirk & Stirling,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Tayside,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,Scotland Central - Tayside,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Scotland Central - Tayside,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-15,Scotland Central - Tayside,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-16,Scotland Central - Tayside,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-17,Scotland Central - Tayside,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-11,Scotland West - Glasgow,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Scotland West - Glasgow,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Scotland West - Glasgow,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-15,Scotland West - Glasgow,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-16,Scotland West - Glasgow,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-17,Scotland West - Glasgow,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-11,Scotland West - Lanarkshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Scotland West - Lanarkshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Scotland West - Lanarkshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Scotland West - Lanarkshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Scotland West - Lanarkshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Scotland West - Lanarkshire,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Shropshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,Shropshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-14,Shropshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-15,Shropshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-16,Shropshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-17,Shropshire,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-11,Somerset,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Somerset,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Somerset,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Somerset,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Somerset,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Somerset,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Staffordshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-12,Staffordshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-14,Staffordshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-15,Staffordshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-16,Staffordshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-17,Staffordshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-11,Suffolk,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,Suffolk,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Suffolk,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-15,Suffolk,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-16,Suffolk,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-17,Suffolk,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-11,Surrey,lookup_region,admin_service,21
+2026-08-post-expansion,2026-08-12,Surrey,lookup_region,admin_service,22
+2026-08-post-expansion,2026-08-14,Surrey,lookup_region,admin_service,21
+2026-08-post-expansion,2026-08-15,Surrey,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-16,Surrey,lookup_region,admin_service,21
+2026-08-post-expansion,2026-08-17,Surrey,lookup_region,admin_service,22
+2026-08-post-expansion,2026-08-11,Sussex,lookup_region,admin_service,20
+2026-08-post-expansion,2026-08-12,Sussex,lookup_region,admin_service,23
+2026-08-post-expansion,2026-08-14,Sussex,lookup_region,admin_service,17
+2026-08-post-expansion,2026-08-15,Sussex,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-16,Sussex,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-17,Sussex,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-11,Wales - West,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Wales - West,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Wales - West,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Wales - West,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Wales - West,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Wales - West,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Wales South - Cardiff & Vale,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,Wales South - Cardiff & Vale,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Wales South - Cardiff & Vale,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Wales South - Cardiff & Vale,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Wales South - Cardiff & Vale,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Wales South - Cardiff & Vale,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Wales South - Swansea Bay,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,Wales South - Swansea Bay,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Wales South - Swansea Bay,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Wales South - Swansea Bay,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Wales South - Swansea Bay,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Wales South - Swansea Bay,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Wales South -gwent,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Wales South -gwent,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Wales South -gwent,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-15,Wales South -gwent,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-16,Wales South -gwent,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-17,Wales South -gwent,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-11,West Midlands,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,West Midlands,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,West Midlands,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-15,West Midlands,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-16,West Midlands,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-17,West Midlands,lookup_region,admin_service,0
+2026-08-post-expansion,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-14,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,West Midlands - Birmingham & Solihull,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,West Midlands - Black Country,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,West Midlands - Black Country,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,West Midlands - Black Country,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,West Midlands - Black Country,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,West Midlands - Black Country,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,West Midlands - Black Country,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-14,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-15,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-16,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-17,West Midlands - Coventry & Warwickshire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-11,West Sussex,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-12,West Sussex,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-14,West Sussex,lookup_region,admin_service,2
+2026-08-post-expansion,2026-08-15,West Sussex,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,West Sussex,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,West Sussex,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Wiltshire,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-12,Wiltshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-14,Wiltshire,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-15,Wiltshire,lookup_region,admin_service,9
+2026-08-post-expansion,2026-08-16,Wiltshire,lookup_region,admin_service,8
+2026-08-post-expansion,2026-08-17,Wiltshire,lookup_region,admin_service,10
+2026-08-post-expansion,2026-08-11,Worcestershire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-12,Worcestershire,lookup_region,admin_service,5
+2026-08-post-expansion,2026-08-14,Worcestershire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,Worcestershire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-16,Worcestershire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-17,Worcestershire,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-11,Yorkshire - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-12,Yorkshire - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-14,Yorkshire - East,lookup_region,admin_service,3
+2026-08-post-expansion,2026-08-15,Yorkshire - East,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-16,Yorkshire - East,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-17,Yorkshire - East,lookup_region,admin_service,4
+2026-08-post-expansion,2026-08-11,Yorkshire - North,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-12,Yorkshire - North,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-14,Yorkshire - North,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-15,Yorkshire - North,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-16,Yorkshire - North,lookup_region,admin_service,6
+2026-08-post-expansion,2026-08-17,Yorkshire - North,lookup_region,admin_service,7
+2026-08-post-expansion,2026-08-11,Yorkshire - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,Yorkshire - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,Yorkshire - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,Yorkshire - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,Yorkshire - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,Yorkshire - South,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Yorkshire - West,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-12,Yorkshire - West,lookup_region,admin_service,14
+2026-08-post-expansion,2026-08-14,Yorkshire - West,lookup_region,admin_service,15
+2026-08-post-expansion,2026-08-15,Yorkshire - West,lookup_region,admin_service,16
+2026-08-post-expansion,2026-08-16,Yorkshire - West,lookup_region,admin_service,17
+2026-08-post-expansion,2026-08-17,Yorkshire - West,lookup_region,admin_service,18
+2026-08-post-expansion,2026-08-11,devon,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-12,devon,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-14,devon,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-15,devon,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-16,devon,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-17,devon,lookup_region,admin_service,1
+2026-08-post-expansion,2026-08-11,Bedfordshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Bedfordshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Bedfordshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Bedfordshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Bedfordshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Bedfordshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Berkshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-12,Berkshire,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-14,Berkshire,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-15,Berkshire,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-16,Berkshire,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-17,Berkshire,lookup_region,customer_service_contact_centre,7
+2026-08-post-expansion,2026-08-11,Bristol & Bath,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Bristol & Bath,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Bristol & Bath,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Bristol & Bath,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Bristol & Bath,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Bristol & Bath,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Buckinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-12,Buckinghamshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,Buckinghamshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-15,Buckinghamshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-16,Buckinghamshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Buckinghamshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-11,Cambridgeshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Cambridgeshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Cambridgeshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Cambridgeshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Cambridgeshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Cambridgeshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Cheshire - East,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Cheshire - East,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Cheshire - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Cheshire - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Cheshire - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Cheshire - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Cheshire - Warrington & Halton,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-12,Cheshire - Warrington & Halton,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Cheshire - Warrington & Halton,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Cheshire - Warrington & Halton,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Cheshire - Warrington & Halton,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Cheshire - Warrington & Halton,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Cheshire - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Cheshire - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Cheshire - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Cheshire - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Cheshire - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Cheshire - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Cornwall,lookup_region,customer_service_contact_centre,55
+2026-08-post-expansion,2026-08-12,Cornwall,lookup_region,customer_service_contact_centre,55
+2026-08-post-expansion,2026-08-14,Cornwall,lookup_region,customer_service_contact_centre,55
+2026-08-post-expansion,2026-08-15,Cornwall,lookup_region,customer_service_contact_centre,55
+2026-08-post-expansion,2026-08-16,Cornwall,lookup_region,customer_service_contact_centre,55
+2026-08-post-expansion,2026-08-17,Cornwall,lookup_region,customer_service_contact_centre,55
+2026-08-post-expansion,2026-08-11,Cumbria - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Cumbria - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Cumbria - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Cumbria - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Cumbria - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Cumbria - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Derbyshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Derbyshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Derbyshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Derbyshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Derbyshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Derbyshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Dorset,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-12,Dorset,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,Dorset,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-15,Dorset,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-16,Dorset,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-17,Dorset,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-11,East Midlands,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,East Midlands,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,East Midlands,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,East Midlands,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,East Midlands,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,East Midlands,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Essex,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-12,Essex,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-14,Essex,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-15,Essex,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Essex,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-17,Essex,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,customer_service_contact_centre,7
+2026-08-post-expansion,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,customer_service_contact_centre,7
+2026-08-post-expansion,2026-08-14,Greater Manchester - Manchester & Salford,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-15,Greater Manchester - Manchester & Salford,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-16,Greater Manchester - Manchester & Salford,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-17,Greater Manchester - Manchester & Salford,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-11,Greater Manchester - North,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-12,Greater Manchester - North,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,Greater Manchester - North,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-15,Greater Manchester - North,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-16,Greater Manchester - North,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Greater Manchester - North,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-11,Greater Manchester - South,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Greater Manchester - South,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,Greater Manchester - South,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-15,Greater Manchester - South,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-16,Greater Manchester - South,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-17,Greater Manchester - South,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-11,Greater Manchester - Wigan & Bolton,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Greater Manchester - Wigan & Bolton,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Greater Manchester - Wigan & Bolton,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Greater Manchester - Wigan & Bolton,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Greater Manchester - Wigan & Bolton,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Greater Manchester - Wigan & Bolton,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Hampshire,lookup_region,customer_service_contact_centre,13
+2026-08-post-expansion,2026-08-12,Hampshire,lookup_region,customer_service_contact_centre,13
+2026-08-post-expansion,2026-08-14,Hampshire,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-15,Hampshire,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-16,Hampshire,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-17,Hampshire,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-11,Hertfordshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-12,Hertfordshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-14,Hertfordshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-15,Hertfordshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-16,Hertfordshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-17,Hertfordshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-11,Kent,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Kent,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-14,Kent,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-15,Kent,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-16,Kent,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Kent,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-11,Lancashire - Central,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Lancashire - Central,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Lancashire - Central,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Lancashire - Central,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Lancashire - Central,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Lancashire - Central,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Leicestershire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-12,Leicestershire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-14,Leicestershire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-15,Leicestershire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-16,Leicestershire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-17,Leicestershire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-11,Lincolnshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Lincolnshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Lincolnshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Lincolnshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Lincolnshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Lincolnshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,London,lookup_region,customer_service_contact_centre,27
+2026-08-post-expansion,2026-08-12,London,lookup_region,customer_service_contact_centre,32
+2026-08-post-expansion,2026-08-14,London,lookup_region,customer_service_contact_centre,35
+2026-08-post-expansion,2026-08-15,London,lookup_region,customer_service_contact_centre,36
+2026-08-post-expansion,2026-08-16,London,lookup_region,customer_service_contact_centre,37
+2026-08-post-expansion,2026-08-17,London,lookup_region,customer_service_contact_centre,39
+2026-08-post-expansion,2026-08-11,Merseyside - Liverpool,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-12,Merseyside - Liverpool,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-14,Merseyside - Liverpool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Merseyside - Liverpool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Merseyside - Liverpool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Merseyside - Liverpool,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Merseyside - Wirral,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Merseyside - Wirral,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Merseyside - Wirral,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Merseyside - Wirral,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Merseyside - Wirral,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Merseyside - Wirral,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Norfolk,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Norfolk,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-14,Norfolk,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-15,Norfolk,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-16,Norfolk,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-17,Norfolk,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-11,North East,published_aggregate,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-12,North East,published_aggregate,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-14,North East,published_aggregate,customer_service_contact_centre,28
+2026-08-post-expansion,2026-08-15,North East,published_aggregate,customer_service_contact_centre,50
+2026-08-post-expansion,2026-08-16,North East,published_aggregate,customer_service_contact_centre,64
+2026-08-post-expansion,2026-08-17,North East,published_aggregate,customer_service_contact_centre,75
+2026-08-post-expansion,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,North East - County Durham & Darlington/Hartlepool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,North East - County Durham & Darlington/Hartlepool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,North East - County Durham & Darlington/Hartlepool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,North East - County Durham & Darlington/Hartlepool,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,customer_service_contact_centre,27
+2026-08-post-expansion,2026-08-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,customer_service_contact_centre,49
+2026-08-post-expansion,2026-08-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,customer_service_contact_centre,63
+2026-08-post-expansion,2026-08-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,customer_service_contact_centre,74
+2026-08-post-expansion,2026-08-11,North Wales - East,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-12,North Wales - East,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-14,North Wales - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,North Wales - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,North Wales - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,North Wales - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,North Wales - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,North Wales - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,North Wales - West,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,North Wales - West,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,North Wales - West,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,North Wales - West,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Northamptonshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-12,Northamptonshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-14,Northamptonshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-15,Northamptonshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-16,Northamptonshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Northamptonshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-11,Northern Ireland - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Northern Ireland - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Northern Ireland - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Northern Ireland - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Northern Ireland - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Northern Ireland - West,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Nottinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-12,Nottinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-14,Nottinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-15,Nottinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-16,Nottinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-17,Nottinghamshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-11,Other / Unknown,lookup_region,customer_service_contact_centre,67
+2026-08-post-expansion,2026-08-12,Other / Unknown,lookup_region,customer_service_contact_centre,69
+2026-08-post-expansion,2026-08-14,Other / Unknown,lookup_region,customer_service_contact_centre,76
+2026-08-post-expansion,2026-08-15,Other / Unknown,lookup_region,customer_service_contact_centre,78
+2026-08-post-expansion,2026-08-16,Other / Unknown,lookup_region,customer_service_contact_centre,77
+2026-08-post-expansion,2026-08-17,Other / Unknown,lookup_region,customer_service_contact_centre,77
+2026-08-post-expansion,2026-08-11,Oxfordshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Oxfordshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Oxfordshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Oxfordshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Oxfordshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Oxfordshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Scotland Central - Edinburgh & Lothians,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Scotland Central - Falkirk & Stirling,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,Scotland Central - Falkirk & Stirling,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,Scotland Central - Falkirk & Stirling,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,Scotland Central - Falkirk & Stirling,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Scotland West - Ayrshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Scotland West - Ayrshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Scotland West - Ayrshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,Scotland West - Ayrshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,Scotland West - Ayrshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,Scotland West - Ayrshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Scotland West - Glasgow,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Scotland West - Glasgow,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Scotland West - Glasgow,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,Scotland West - Glasgow,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,Scotland West - Glasgow,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,Scotland West - Glasgow,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Scotland West - Lanarkshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-12,Scotland West - Lanarkshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,Scotland West - Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,Scotland West - Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,Scotland West - Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,Scotland West - Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Scotland West - Renfrewshire & Inverclyde,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Scotland West - Renfrewshire & Inverclyde,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Scotland West - Renfrewshire & Inverclyde,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,Scotland West - Renfrewshire & Inverclyde,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,Scotland West - Renfrewshire & Inverclyde,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,Scotland West - Renfrewshire & Inverclyde,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Somerset,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Somerset,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Somerset,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Somerset,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,Somerset,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,Somerset,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,South Lanarkshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,South Lanarkshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,South Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-15,South Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-16,South Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-17,South Lanarkshire,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Staffordshire,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-12,Staffordshire,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-14,Staffordshire,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-15,Staffordshire,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-16,Staffordshire,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-17,Staffordshire,lookup_region,customer_service_contact_centre,8
+2026-08-post-expansion,2026-08-11,Surrey,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-12,Surrey,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-14,Surrey,lookup_region,customer_service_contact_centre,9
+2026-08-post-expansion,2026-08-15,Surrey,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-16,Surrey,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-17,Surrey,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-11,Sussex,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-12,Sussex,lookup_region,customer_service_contact_centre,6
+2026-08-post-expansion,2026-08-14,Sussex,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-15,Sussex,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-16,Sussex,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Sussex,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-11,Wales - Mid,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,Wales - Mid,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,Wales - Mid,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Wales - Mid,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Wales - Mid,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Wales - Mid,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Wales South - Swansea Bay,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-12,Wales South - Swansea Bay,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-14,Wales South - Swansea Bay,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-15,Wales South - Swansea Bay,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-16,Wales South - Swansea Bay,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-17,Wales South - Swansea Bay,lookup_region,customer_service_contact_centre,10
+2026-08-post-expansion,2026-08-11,Wales South - Valleys,lookup_region,customer_service_contact_centre,17
+2026-08-post-expansion,2026-08-12,Wales South - Valleys,lookup_region,customer_service_contact_centre,18
+2026-08-post-expansion,2026-08-14,Wales South - Valleys,lookup_region,customer_service_contact_centre,18
+2026-08-post-expansion,2026-08-15,Wales South - Valleys,lookup_region,customer_service_contact_centre,19
+2026-08-post-expansion,2026-08-16,Wales South - Valleys,lookup_region,customer_service_contact_centre,19
+2026-08-post-expansion,2026-08-17,Wales South - Valleys,lookup_region,customer_service_contact_centre,19
+2026-08-post-expansion,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,West Midlands - Birmingham & Solihull,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,West Midlands - Birmingham & Solihull,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,West Midlands - Birmingham & Solihull,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,West Midlands - Birmingham & Solihull,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,West Midlands - Coventry & Warwickshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,West Midlands - Coventry & Warwickshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,West Midlands - Coventry & Warwickshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,West Midlands - Coventry & Warwickshire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Wiltshire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Wiltshire,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-14,Wiltshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-15,Wiltshire,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-16,Wiltshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Wiltshire,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-11,Worcestershire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Worcestershire,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Worcestershire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,Worcestershire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,Worcestershire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,Worcestershire,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-11,Yorkshire - East,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Yorkshire - East,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-14,Yorkshire - East,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-15,Yorkshire - East,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-16,Yorkshire - East,lookup_region,customer_service_contact_centre,4
+2026-08-post-expansion,2026-08-17,Yorkshire - East,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-11,Yorkshire - North,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-12,Yorkshire - North,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Yorkshire - North,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-15,Yorkshire - North,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-16,Yorkshire - North,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-17,Yorkshire - North,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-11,Yorkshire - South,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Yorkshire - South,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-14,Yorkshire - South,lookup_region,customer_service_contact_centre,3
+2026-08-post-expansion,2026-08-15,Yorkshire - South,lookup_region,customer_service_contact_centre,11
+2026-08-post-expansion,2026-08-16,Yorkshire - South,lookup_region,customer_service_contact_centre,11
+2026-08-post-expansion,2026-08-17,Yorkshire - South,lookup_region,customer_service_contact_centre,11
+2026-08-post-expansion,2026-08-11,Yorkshire - West,lookup_region,customer_service_contact_centre,2
+2026-08-post-expansion,2026-08-12,Yorkshire - West,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-14,Yorkshire - West,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-15,Yorkshire - West,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-16,Yorkshire - West,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-17,Yorkshire - West,lookup_region,customer_service_contact_centre,5
+2026-08-post-expansion,2026-08-11,devon,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-12,devon,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-14,devon,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-15,devon,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-16,devon,lookup_region,customer_service_contact_centre,1
+2026-08-post-expansion,2026-08-17,devon,lookup_region,customer_service_contact_centre,0
+2026-08-post-expansion,2026-08-11,Berkshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Berkshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,Berkshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Berkshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Berkshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Berkshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Bristol & Bath,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-12,Bristol & Bath,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-14,Bristol & Bath,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-15,Bristol & Bath,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-16,Bristol & Bath,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-17,Bristol & Bath,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-11,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Buckinghamshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-11,Cambridgeshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-12,Cambridgeshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,Cambridgeshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-15,Cambridgeshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,Cambridgeshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Cambridgeshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Cheshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Cheshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Cheshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Cheshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Cheshire - East,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,Cheshire - East,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Cheshire - Warrington & Halton,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Cheshire - Warrington & Halton,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-14,Cheshire - Warrington & Halton,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-15,Cheshire - Warrington & Halton,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-16,Cheshire - Warrington & Halton,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-17,Cheshire - Warrington & Halton,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-11,Cheshire - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Cheshire - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Cheshire - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Cheshire - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Cheshire - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Cheshire - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Cumbria - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Cumbria - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Cumbria - West,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-15,Cumbria - West,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-16,Cumbria - West,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-17,Cumbria - West,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-11,Derbyshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Derbyshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Derbyshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Derbyshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Derbyshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Derbyshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Devon,lookup_region,finance_accounts,9
+2026-08-post-expansion,2026-08-12,Devon,lookup_region,finance_accounts,10
+2026-08-post-expansion,2026-08-14,Devon,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-15,Devon,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-16,Devon,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-17,Devon,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-11,Dorset,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Dorset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Dorset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Dorset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Dorset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Dorset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,East Midlands,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,East Midlands,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,East Midlands,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-15,East Midlands,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,East Midlands,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,East Midlands,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,East of England,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,East of England,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-14,East of England,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,East of England,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,East of England,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,East of England,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Essex,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Essex,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-14,Essex,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Essex,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Essex,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-17,Essex,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-11,Gloucestershire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-12,Gloucestershire,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-14,Gloucestershire,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-15,Gloucestershire,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-16,Gloucestershire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-17,Gloucestershire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-15,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-16,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-17,Greater Manchester - Manchester & Salford,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-11,Greater Manchester - North,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,Greater Manchester - North,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-14,Greater Manchester - North,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Greater Manchester - North,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Greater Manchester - North,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Greater Manchester - North,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Greater Manchester - South,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,Greater Manchester - South,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Greater Manchester - South,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Greater Manchester - South,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Greater Manchester - South,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Greater Manchester - South,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Hampshire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-12,Hampshire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-14,Hampshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Hampshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Hampshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Hampshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-11,Herefordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Herefordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Herefordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Herefordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Herefordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Herefordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Kent,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Kent,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-14,Kent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Kent,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Kent,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Kent,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Lancashire - Central,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Lancashire - Central,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Lancashire - Central,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Lancashire - Central,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Lancashire - Central,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Lancashire - Central,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Lancashire - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Lancashire - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Lancashire - East,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Lancashire - East,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,Lancashire - East,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,Lancashire - East,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Lancashire - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Lancashire - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Lancashire - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Lancashire - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Lancashire - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Lancashire - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Leicestershire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Leicestershire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,Leicestershire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-15,Leicestershire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-16,Leicestershire,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-17,Leicestershire,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-11,London,lookup_region,finance_accounts,19
+2026-08-post-expansion,2026-08-12,London,lookup_region,finance_accounts,17
+2026-08-post-expansion,2026-08-14,London,lookup_region,finance_accounts,19
+2026-08-post-expansion,2026-08-15,London,lookup_region,finance_accounts,18
+2026-08-post-expansion,2026-08-16,London,lookup_region,finance_accounts,19
+2026-08-post-expansion,2026-08-17,London,lookup_region,finance_accounts,17
+2026-08-post-expansion,2026-08-11,Merseyside - Liverpool,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,Merseyside - Liverpool,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Merseyside - Liverpool,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Merseyside - Liverpool,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Merseyside - Liverpool,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Merseyside - Liverpool,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-15,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,Merseyside - St Helens & Knowsley,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Norfolk,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Norfolk,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Norfolk,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Norfolk,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Norfolk,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Norfolk,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,North East,published_aggregate,finance_accounts,6
+2026-08-post-expansion,2026-08-12,North East,published_aggregate,finance_accounts,6
+2026-08-post-expansion,2026-08-14,North East,published_aggregate,finance_accounts,7
+2026-08-post-expansion,2026-08-15,North East,published_aggregate,finance_accounts,8
+2026-08-post-expansion,2026-08-16,North East,published_aggregate,finance_accounts,8
+2026-08-post-expansion,2026-08-17,North East,published_aggregate,finance_accounts,8
+2026-08-post-expansion,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-15,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,North East - County Durham & Darlington/Hartlepool,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,North East - Tees Valley,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,North Scotland,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,North Scotland,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-14,North Scotland,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,North Scotland,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,North Scotland,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,North Scotland,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,North Wales - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,North Wales - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,North Wales - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,North Wales - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,North Wales - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,North Wales - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,North Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,North Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,North Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,North Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,North Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,North Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Northamptonshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-12,Northamptonshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-14,Northamptonshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-15,Northamptonshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-16,Northamptonshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-17,Northamptonshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-11,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Northern Ireland - East,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Northern Ireland - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Northern Ireland - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Northern Ireland - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Northern Ireland - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Northern Ireland - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Northern Ireland - West,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Other / Unknown,lookup_region,finance_accounts,22
+2026-08-post-expansion,2026-08-12,Other / Unknown,lookup_region,finance_accounts,23
+2026-08-post-expansion,2026-08-14,Other / Unknown,lookup_region,finance_accounts,24
+2026-08-post-expansion,2026-08-15,Other / Unknown,lookup_region,finance_accounts,25
+2026-08-post-expansion,2026-08-16,Other / Unknown,lookup_region,finance_accounts,24
+2026-08-post-expansion,2026-08-17,Other / Unknown,lookup_region,finance_accounts,25
+2026-08-post-expansion,2026-08-11,Oxfordshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-12,Oxfordshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-14,Oxfordshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Oxfordshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Oxfordshire,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-17,Oxfordshire,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-14,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-15,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,Scotland Central - Edinburgh & Lothians,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Scotland Central - Falkirk & Stirling,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Scotland West - Ayrshire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,Scotland West - Ayrshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Scotland West - Ayrshire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-15,Scotland West - Ayrshire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-16,Scotland West - Ayrshire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-17,Scotland West - Ayrshire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-11,Scotland West - Glasgow,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Scotland West - Glasgow,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Scotland West - Glasgow,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Scotland West - Glasgow,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Scotland West - Glasgow,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Scotland West - Glasgow,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-11,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-16,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-17,Scotland West - Renfrewshire & Inverclyde,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-11,Shropshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Shropshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Shropshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Shropshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Shropshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Shropshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Somerset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Somerset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-14,Somerset,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-15,Somerset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Somerset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Somerset,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Staffordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Staffordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Staffordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Staffordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Staffordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Staffordshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Suffolk,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Suffolk,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-14,Suffolk,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Suffolk,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Suffolk,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Suffolk,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Surrey,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Surrey,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-14,Surrey,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Surrey,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-16,Surrey,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-17,Surrey,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Sussex,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-12,Sussex,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-14,Sussex,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-15,Sussex,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-16,Sussex,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-17,Sussex,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-11,Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Wales - West,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Wales South - Gwent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Wales South - Gwent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Wales South - Gwent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Wales South - Gwent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Wales South - Gwent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Wales South - Gwent,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Wales South - Swansea Bay,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Wales South - Swansea Bay,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-14,Wales South - Swansea Bay,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-15,Wales South - Swansea Bay,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-16,Wales South - Swansea Bay,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-17,Wales South - Swansea Bay,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,6
+2026-08-post-expansion,2026-08-14,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-15,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-16,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-17,West Midlands - Birmingham & Solihull,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-11,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,West Midlands - Black Country,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-14,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,West Midlands - Coventry & Warwickshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-11,Wiltshire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,Wiltshire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Wiltshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-15,Wiltshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-16,Wiltshire,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-17,Wiltshire,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Worcestershire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,Worcestershire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-14,Worcestershire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Worcestershire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Worcestershire,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Worcestershire,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-11,Yorkshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-12,Yorkshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-14,Yorkshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-15,Yorkshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,Yorkshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,Yorkshire - East,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Yorkshire - North,lookup_region,finance_accounts,2
+2026-08-post-expansion,2026-08-12,Yorkshire - North,lookup_region,finance_accounts,5
+2026-08-post-expansion,2026-08-14,Yorkshire - North,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Yorkshire - North,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Yorkshire - North,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Yorkshire - North,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-11,Yorkshire - South,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-12,Yorkshire - South,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-14,Yorkshire - South,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-15,Yorkshire - South,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-16,Yorkshire - South,lookup_region,finance_accounts,4
+2026-08-post-expansion,2026-08-17,Yorkshire - South,lookup_region,finance_accounts,3
+2026-08-post-expansion,2026-08-11,Yorkshire - West,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-12,Yorkshire - West,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-14,Yorkshire - West,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-15,Yorkshire - West,lookup_region,finance_accounts,7
+2026-08-post-expansion,2026-08-16,Yorkshire - West,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-17,Yorkshire - West,lookup_region,finance_accounts,8
+2026-08-post-expansion,2026-08-11,devon,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-12,devon,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-14,devon,lookup_region,finance_accounts,0
+2026-08-post-expansion,2026-08-15,devon,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-16,devon,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-17,devon,lookup_region,finance_accounts,1
+2026-08-post-expansion,2026-08-11,Bedfordshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Bedfordshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Bedfordshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,Bedfordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Bedfordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Bedfordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Berkshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Berkshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Berkshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,Berkshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,Berkshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,Berkshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,Bristol & Bath,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-12,Bristol & Bath,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-14,Bristol & Bath,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-15,Bristol & Bath,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-16,Bristol & Bath,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-17,Bristol & Bath,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-11,Buckinghamshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Buckinghamshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Buckinghamshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Buckinghamshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Buckinghamshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Buckinghamshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Caerphilly,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Caerphilly,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Caerphilly,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Caerphilly,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Caerphilly,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Caerphilly,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Cheshire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Cheshire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Cheshire - East,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Cheshire - East,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Cheshire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Cheshire - East,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Cheshire - Warrington & Halton,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Cheshire - Warrington & Halton,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Cheshire - Warrington & Halton,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Cheshire - Warrington & Halton,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Cheshire - Warrington & Halton,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Cheshire - Warrington & Halton,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Cumbria - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Cumbria - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Cumbria - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Cumbria - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Cumbria - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Cumbria - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Devon,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Devon,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Devon,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Devon,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Devon,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Devon,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Essex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-12,Essex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-14,Essex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-15,Essex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-16,Essex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-17,Essex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-11,Gloucestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Gloucestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Gloucestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Gloucestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Gloucestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Gloucestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-14,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-16,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-17,Greater Manchester - Manchester & Salford,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-11,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Greater Manchester - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-16,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-17,Greater Manchester - Wigan & Bolton,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-11,Hampshire,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-12,Hampshire,lookup_region,hr_recruitment,7
+2026-08-post-expansion,2026-08-14,Hampshire,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-15,Hampshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-16,Hampshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-17,Hampshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-11,Hertfordshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-12,Hertfordshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-14,Hertfordshire,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-15,Hertfordshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-16,Hertfordshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-17,Hertfordshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-11,Kent,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-12,Kent,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-14,Kent,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-15,Kent,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-16,Kent,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-17,Kent,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-11,Lancashire - Central,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-12,Lancashire - Central,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-14,Lancashire - Central,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,Lancashire - Central,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,Lancashire - Central,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,Lancashire - Central,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Lancashire - East,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Lancashire - East,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Lancashire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Lancashire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Lancashire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Lancashire - East,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Lancashire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Lancashire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Lancashire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Lancashire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Lancashire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Lancashire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Leicestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Leicestershire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Leicestershire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,Leicestershire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,Leicestershire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,Leicestershire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,Lincolnshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Lincolnshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Lincolnshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-15,Lincolnshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-16,Lincolnshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-17,Lincolnshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-11,London,lookup_region,hr_recruitment,25
+2026-08-post-expansion,2026-08-12,London,lookup_region,hr_recruitment,27
+2026-08-post-expansion,2026-08-14,London,lookup_region,hr_recruitment,24
+2026-08-post-expansion,2026-08-15,London,lookup_region,hr_recruitment,24
+2026-08-post-expansion,2026-08-16,London,lookup_region,hr_recruitment,23
+2026-08-post-expansion,2026-08-17,London,lookup_region,hr_recruitment,23
+2026-08-post-expansion,2026-08-11,Merseyside - Liverpool,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Merseyside - Liverpool,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Merseyside - Liverpool,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Merseyside - Liverpool,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Merseyside - Liverpool,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Merseyside - Liverpool,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Merseyside - Wirral,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Merseyside - Wirral,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Merseyside - Wirral,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Merseyside - Wirral,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Merseyside - Wirral,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Merseyside - Wirral,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Norfolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-12,Norfolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-14,Norfolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,Norfolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,Norfolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,Norfolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,North East,published_aggregate,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,North East,published_aggregate,hr_recruitment,2
+2026-08-post-expansion,2026-08-14,North East,published_aggregate,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,North East,published_aggregate,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,North East,published_aggregate,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,North East,published_aggregate,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,North East - County Durham & Darlington/Hartlepool,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,North Scotland,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,North Scotland,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,North Scotland,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,North Scotland,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,North Scotland,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,North Scotland,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-16,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-17,Northamptonshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-11,Nottinghamshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-12,Nottinghamshire,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-14,Nottinghamshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-15,Nottinghamshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-16,Nottinghamshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-17,Nottinghamshire,lookup_region,hr_recruitment,5
+2026-08-post-expansion,2026-08-11,Other / Unknown,lookup_region,hr_recruitment,20
+2026-08-post-expansion,2026-08-12,Other / Unknown,lookup_region,hr_recruitment,20
+2026-08-post-expansion,2026-08-14,Other / Unknown,lookup_region,hr_recruitment,21
+2026-08-post-expansion,2026-08-15,Other / Unknown,lookup_region,hr_recruitment,19
+2026-08-post-expansion,2026-08-16,Other / Unknown,lookup_region,hr_recruitment,20
+2026-08-post-expansion,2026-08-17,Other / Unknown,lookup_region,hr_recruitment,19
+2026-08-post-expansion,2026-08-11,Oxfordshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Oxfordshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Oxfordshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Oxfordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Oxfordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Oxfordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Scotland Central - Edinburgh & Lothians,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Scotland Central - Edinburgh & Lothians,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Scotland Central - Edinburgh & Lothians,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Scotland Central - Edinburgh & Lothians,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Scotland Central - Falkirk & Stirling,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Tayside,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Scotland Central - Tayside,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Scotland Central - Tayside,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Scotland Central - Tayside,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Scotland Central - Tayside,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Scotland Central - Tayside,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Shropshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Shropshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Shropshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,Shropshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-16,Shropshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-17,Shropshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-11,Somerset,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-12,Somerset,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-14,Somerset,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Somerset,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Somerset,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Somerset,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Staffordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Staffordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Staffordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Staffordshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Staffordshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,Staffordshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,Suffolk,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Suffolk,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Suffolk,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,Suffolk,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Suffolk,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Suffolk,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Surrey,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Surrey,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Surrey,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Surrey,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Surrey,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Surrey,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Sussex,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Sussex,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-14,Sussex,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,Sussex,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-16,Sussex,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-17,Sussex,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-11,Wales South -gwent,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Wales South -gwent,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-15,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Wales South -gwent,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-12,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-14,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-15,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-17,West Midlands - Birmingham & Solihull,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-14,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-16,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-17,West Midlands - Coventry & Warwickshire,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-11,Wiltshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Wiltshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Wiltshire,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Wiltshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-16,Wiltshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-17,Wiltshire,lookup_region,hr_recruitment,0
+2026-08-post-expansion,2026-08-11,Yorkshire - East,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-12,Yorkshire - East,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-14,Yorkshire - East,lookup_region,hr_recruitment,3
+2026-08-post-expansion,2026-08-15,Yorkshire - East,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-16,Yorkshire - East,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-17,Yorkshire - East,lookup_region,hr_recruitment,4
+2026-08-post-expansion,2026-08-11,Yorkshire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-12,Yorkshire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-14,Yorkshire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Yorkshire - North,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-16,Yorkshire - North,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Yorkshire - North,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-11,Yorkshire - South,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-12,Yorkshire - South,lookup_region,hr_recruitment,2
+2026-08-post-expansion,2026-08-14,Yorkshire - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-15,Yorkshire - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-16,Yorkshire - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-17,Yorkshire - South,lookup_region,hr_recruitment,1
+2026-08-post-expansion,2026-08-11,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-12,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-14,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-15,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-16,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-17,Yorkshire - West,lookup_region,hr_recruitment,6
+2026-08-post-expansion,2026-08-11,Berkshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Berkshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Berkshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Berkshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Berkshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Berkshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Bristol & Bath,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-12,Bristol & Bath,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-14,Bristol & Bath,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Bristol & Bath,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Bristol & Bath,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Bristol & Bath,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Buckinghamshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Buckinghamshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Buckinghamshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Buckinghamshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Buckinghamshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Buckinghamshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Cambridgeshire,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-12,Cambridgeshire,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-14,Cambridgeshire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Cambridgeshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Cambridgeshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Cambridgeshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Cheshire - East,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Cheshire - East,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Cheshire - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,Cheshire - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Cheshire - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Cheshire - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Cheshire - West,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Cheshire - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Cheshire - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Cheshire - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Cheshire - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Cheshire - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Cornwall,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-12,Cornwall,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-14,Cornwall,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-15,Cornwall,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Cornwall,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Cornwall,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Cumbria - North,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-12,Cumbria - North,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-14,Cumbria - North,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Cumbria - North,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Cumbria - North,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Cumbria - North,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Cumbria - South,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-12,Cumbria - South,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-14,Cumbria - South,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-15,Cumbria - South,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-16,Cumbria - South,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-17,Cumbria - South,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-11,Cumbria - West,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-12,Cumbria - West,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Cumbria - West,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Cumbria - West,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Cumbria - West,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Cumbria - West,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Derbyshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Derbyshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Derbyshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Derbyshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Derbyshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Derbyshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Devon,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-12,Devon,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-14,Devon,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Devon,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Devon,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Devon,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Dorset,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-12,Dorset,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-14,Dorset,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Dorset,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Dorset,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Dorset,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,East Midlands,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,East Midlands,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,East Midlands,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,East Midlands,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,East Midlands,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,East Midlands,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,East of England,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,East of England,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,East of England,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,East of England,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,East of England,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,East of England,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Flintshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Flintshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Flintshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Flintshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Flintshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Flintshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Gloucestershire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-12,Gloucestershire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-14,Gloucestershire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Gloucestershire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-16,Gloucestershire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-17,Gloucestershire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-11,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Greater Manchester - Manchester & Salford,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Greater Manchester - Manchester & Salford,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Greater Manchester - Manchester & Salford,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Greater Manchester - South,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Greater Manchester - South,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Greater Manchester - South,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Greater Manchester - South,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Greater Manchester - South,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Greater Manchester - South,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Greater Manchester - Wigan & Bolton,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Hampshire,lookup_region,support_worker,21
+2026-08-post-expansion,2026-08-12,Hampshire,lookup_region,support_worker,18
+2026-08-post-expansion,2026-08-14,Hampshire,lookup_region,support_worker,14
+2026-08-post-expansion,2026-08-15,Hampshire,lookup_region,support_worker,13
+2026-08-post-expansion,2026-08-16,Hampshire,lookup_region,support_worker,15
+2026-08-post-expansion,2026-08-17,Hampshire,lookup_region,support_worker,12
+2026-08-post-expansion,2026-08-11,Hertfordshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Hertfordshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Hertfordshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Hertfordshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Hertfordshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Hertfordshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Kent,lookup_region,support_worker,13
+2026-08-post-expansion,2026-08-12,Kent,lookup_region,support_worker,13
+2026-08-post-expansion,2026-08-14,Kent,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-15,Kent,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-16,Kent,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Kent,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Lancashire - Central,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Lancashire - Central,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Lancashire - Central,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Lancashire - Central,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Lancashire - Central,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Lancashire - Central,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Lancashire - East,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-12,Lancashire - East,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-14,Lancashire - East,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Lancashire - East,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-16,Lancashire - East,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Lancashire - East,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Lancashire - North,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-12,Lancashire - North,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-14,Lancashire - North,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Lancashire - North,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Lancashire - North,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Lancashire - North,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Leicestershire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-12,Leicestershire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-14,Leicestershire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,Leicestershire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Leicestershire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Leicestershire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Lincolnshire,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-12,Lincolnshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-14,Lincolnshire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Lincolnshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Lincolnshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Lincolnshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,London,lookup_region,support_worker,12
+2026-08-post-expansion,2026-08-12,London,lookup_region,support_worker,10
+2026-08-post-expansion,2026-08-14,London,lookup_region,support_worker,10
+2026-08-post-expansion,2026-08-15,London,lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-16,London,lookup_region,support_worker,10
+2026-08-post-expansion,2026-08-17,London,lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-11,Merseyside - Liverpool,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Merseyside - Liverpool,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Merseyside - Liverpool,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Merseyside - Liverpool,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Merseyside - Liverpool,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Merseyside - Liverpool,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Merseyside - Sefton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Merseyside - Sefton,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Merseyside - Sefton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Merseyside - Sefton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Merseyside - Sefton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Merseyside - Sefton,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Merseyside - Wirral,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Merseyside - Wirral,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Merseyside - Wirral,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Merseyside - Wirral,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Merseyside - Wirral,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Merseyside - Wirral,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Norfolk,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Norfolk,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Norfolk,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Norfolk,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Norfolk,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Norfolk,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,North East,published_aggregate,support_worker,21
+2026-08-post-expansion,2026-08-12,North East,published_aggregate,support_worker,20
+2026-08-post-expansion,2026-08-14,North East,published_aggregate,support_worker,15
+2026-08-post-expansion,2026-08-15,North East,published_aggregate,support_worker,15
+2026-08-post-expansion,2026-08-16,North East,published_aggregate,support_worker,13
+2026-08-post-expansion,2026-08-17,North East,published_aggregate,support_worker,13
+2026-08-post-expansion,2026-08-11,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,8
+2026-08-post-expansion,2026-08-12,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,8
+2026-08-post-expansion,2026-08-14,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-15,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-16,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-17,North East - County Durham & Darlington/Hartlepool,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-11,North East - Tees Valley,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-12,North East - Tees Valley,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,North East - Tees Valley,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,North East - Tees Valley,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,North East - Tees Valley,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,North East - Tees Valley,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-12,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-14,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-15,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-16,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,"North East - Tyneside, Wearside & Northumberland",lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,North Scotland,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-12,North Scotland,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-14,North Scotland,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,North Scotland,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,North Scotland,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,North Scotland,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,North Wales - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,North Wales - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,North Wales - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,North Wales - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,North Wales - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,North Wales - East,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,North Wales - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,North Wales - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,North Wales - West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,North Wales - West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,North Wales - West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,North Wales - West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Northamptonshire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-12,Northamptonshire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-14,Northamptonshire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,Northamptonshire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Northamptonshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Northamptonshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Northern Ireland - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Northern Ireland - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Northern Ireland - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Northern Ireland - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Northern Ireland - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Northern Ireland - East,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Nottinghamshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Nottinghamshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Nottinghamshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Nottinghamshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Nottinghamshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Nottinghamshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Other / Unknown,lookup_region,support_worker,22
+2026-08-post-expansion,2026-08-12,Other / Unknown,lookup_region,support_worker,22
+2026-08-post-expansion,2026-08-14,Other / Unknown,lookup_region,support_worker,23
+2026-08-post-expansion,2026-08-15,Other / Unknown,lookup_region,support_worker,23
+2026-08-post-expansion,2026-08-16,Other / Unknown,lookup_region,support_worker,24
+2026-08-post-expansion,2026-08-17,Other / Unknown,lookup_region,support_worker,23
+2026-08-post-expansion,2026-08-11,Oxfordshire,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-12,Oxfordshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-14,Oxfordshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-15,Oxfordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Oxfordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Oxfordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Scotland Central - Edinburgh & Lothians,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Scotland Central - Edinburgh & Lothians,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Scotland Central - Edinburgh & Lothians,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Scotland Central - Edinburgh & Lothians,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Scotland Central - Edinburgh & Lothians,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Scotland Central - Edinburgh & Lothians,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Falkirk & Stirling,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Scotland Central - Falkirk & Stirling,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Scotland Central - Falkirk & Stirling,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Scotland Central - Falkirk & Stirling,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Scotland Central - Falkirk & Stirling,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Scotland Central - Falkirk & Stirling,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Scotland Central - Fife,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Scotland Central - Fife,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Scotland Central - Fife,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Scotland Central - Fife,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Scotland Central - Fife,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Scotland Central - Fife,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Scotland West - Glasgow,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Scotland West - Glasgow,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Scotland West - Glasgow,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Scotland West - Glasgow,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,Scotland West - Glasgow,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-17,Scotland West - Glasgow,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Scotland West - Renfrewshire & Inverclyde,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Scotland West - Renfrewshire & Inverclyde,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-14,Scotland West - Renfrewshire & Inverclyde,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,Scotland West - Renfrewshire & Inverclyde,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Scotland West - Renfrewshire & Inverclyde,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Scotland West - Renfrewshire & Inverclyde,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Shropshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-12,Shropshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-14,Shropshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Shropshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Shropshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Shropshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Somerset,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-12,Somerset,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-14,Somerset,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-15,Somerset,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-16,Somerset,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-17,Somerset,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-11,South West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,South West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,South West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,South West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,South West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,South West,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Staffordshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-12,Staffordshire,lookup_region,support_worker,5
+2026-08-post-expansion,2026-08-14,Staffordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Staffordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Staffordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Staffordshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Suffolk,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Suffolk,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Suffolk,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Suffolk,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Suffolk,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Suffolk,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Surrey,lookup_region,support_worker,8
+2026-08-post-expansion,2026-08-12,Surrey,lookup_region,support_worker,8
+2026-08-post-expansion,2026-08-14,Surrey,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-15,Surrey,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-16,Surrey,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-17,Surrey,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-11,Sussex,lookup_region,support_worker,18
+2026-08-post-expansion,2026-08-12,Sussex,lookup_region,support_worker,16
+2026-08-post-expansion,2026-08-14,Sussex,lookup_region,support_worker,13
+2026-08-post-expansion,2026-08-15,Sussex,lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-16,Sussex,lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-17,Sussex,lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-11,Wales - West,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Wales - West,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Wales - West,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Wales - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Wales - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Wales - West,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Wales South - Cardiff & Vale,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Wales South - Cardiff & Vale,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Wales South - Cardiff & Vale,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Wales South - Cardiff & Vale,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Wales South - Cardiff & Vale,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Wales South - Cardiff & Vale,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Wales South - Swansea Bay,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Wales South - Swansea Bay,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Wales South - Swansea Bay,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Wales South - Swansea Bay,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Wales South - Swansea Bay,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Wales South - Swansea Bay,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Wales South - Valleys,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,Wales South - Valleys,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Wales South - Valleys,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,Wales South - Valleys,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Wales South - Valleys,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Wales South - Valleys,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,Wales South -gwent,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Wales South -gwent,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Wales South -gwent,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,Wales South -gwent,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-16,Wales South -gwent,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-17,Wales South -gwent,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-11,West Midlands - Black Country,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-12,West Midlands - Black Country,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,West Midlands - Black Country,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-15,West Midlands - Black Country,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,West Midlands - Black Country,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,West Midlands - Black Country,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-16,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-17,West Midlands - Coventry & Warwickshire,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-11,Wiltshire,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-12,Wiltshire,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-14,Wiltshire,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-15,Wiltshire,lookup_region,support_worker,7
+2026-08-post-expansion,2026-08-16,Wiltshire,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-17,Wiltshire,lookup_region,support_worker,6
+2026-08-post-expansion,2026-08-11,Worcestershire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Worcestershire,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-14,Worcestershire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Worcestershire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Worcestershire,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-17,Worcestershire,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-11,Yorkshire - East,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Yorkshire - East,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Yorkshire - East,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-15,Yorkshire - East,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-16,Yorkshire - East,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-17,Yorkshire - East,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Yorkshire - North,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-12,Yorkshire - North,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-14,Yorkshire - North,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-15,Yorkshire - North,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-16,Yorkshire - North,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-17,Yorkshire - North,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-11,Yorkshire - South,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-12,Yorkshire - South,lookup_region,support_worker,2
+2026-08-post-expansion,2026-08-14,Yorkshire - South,lookup_region,support_worker,0
+2026-08-post-expansion,2026-08-15,Yorkshire - South,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-16,Yorkshire - South,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-17,Yorkshire - South,lookup_region,support_worker,1
+2026-08-post-expansion,2026-08-11,Yorkshire - West,lookup_region,support_worker,9
+2026-08-post-expansion,2026-08-12,Yorkshire - West,lookup_region,support_worker,8
+2026-08-post-expansion,2026-08-14,Yorkshire - West,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-15,Yorkshire - West,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-16,Yorkshire - West,lookup_region,support_worker,4
+2026-08-post-expansion,2026-08-17,Yorkshire - West,lookup_region,support_worker,3
+2026-08-post-expansion,2026-08-11,Cumbria - South,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-12,Cumbria - South,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-14,Cumbria - South,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-15,Cumbria - South,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-16,Cumbria - South,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-17,Cumbria - South,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-11,Northamptonshire,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-12,Northamptonshire,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-14,Northamptonshire,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-15,Northamptonshire,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-16,Northamptonshire,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-17,Northamptonshire,lookup_region,warehouse_logistics,1
+2026-08-post-expansion,2026-08-11,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-08-post-expansion,2026-08-12,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-08-post-expansion,2026-08-14,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-08-post-expansion,2026-08-15,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-08-post-expansion,2026-08-16,Other / Unknown,lookup_region,warehouse_logistics,2
+2026-08-post-expansion,2026-08-17,Other / Unknown,lookup_region,warehouse_logistics,2
