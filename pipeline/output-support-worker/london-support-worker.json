@@ -63,7 +63,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   },
   {
     "job_id": "45bae37e-0b67-4df4-ae16-6dd3348fcfeb",
@@ -239,7 +243,13 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Support plans",
+      "Risk and needs assessments",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "573ad49a-e43f-4fe5-b86d-66e9514e3b01",
