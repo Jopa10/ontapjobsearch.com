@@ -44,6 +44,23 @@ jobs:
           cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
           echo "report_date=$report_date" >> "$GITHUB_OUTPUT"
 
+      - name: Test daily published job ledger
+        working-directory: pipeline
+        run: |
+          python -m unittest discover -s tests -p 'test_published_job_daily_ledger.py' -v
+
+      - name: Build daily newly-published job ledger
+        id: new-jobs
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          report_file="$(mktemp)"
+          python -m scripts.published_job_daily_ledger \
+            --app-dir ../app \
+            --reports-dir reports-daily \
+            --date "${{ steps.live-count.outputs.report_date }}" | tee "$report_file"
+          cat "$report_file" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Update displayed publish date
         run: |
           set -euo pipefail
@@ -98,17 +115,27 @@ jobs:
           status_file="config/job-page-status.ts"
           daily_report="pipeline/reports-daily/live-job-source-count-${{ steps.live-count.outputs.report_date }}.csv"
           history_report="pipeline/reports-daily/live-job-source-history.csv"
+          new_jobs_report="pipeline/reports-daily/newly-published-jobs-${{ steps.live-count.outputs.report_date }}.csv"
+          first_seen_report="pipeline/reports-daily/published-job-first-seen-history.csv"
 
-          git add -- "${approved_paths[@]}" "$status_file" "$daily_report" "$history_report"
+          git add -- \
+            "${approved_paths[@]}" \
+            "$status_file" \
+            "$daily_report" \
+            "$history_report" \
+            "$new_jobs_report" \
+            "$first_seen_report"
           staged_files="$(git diff --cached --name-only)"
           if [ -z "$staged_files" ]; then
             echo "created=false" >> "$GITHUB_OUTPUT"
-            echo "No approved live JSON, display-date or live-job count changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "No approved live JSON, display-date or live-job report changes to commit" | tee -a "$GITHUB_STEP_SUMMARY"
           else
             unexpected_files="$({ printf '%s\n' "$staged_files" | awk \
               -v status="$status_file" \
               -v daily="$daily_report" \
               -v history="$history_report" \
+              -v newjobs="$new_jobs_report" \
+              -v firstseen="$first_seen_report" \
               '$0 != "app/coventry-warwickshire/service-administrator-jobs.json" &&
                $0 != "app/hampshire/service-administrator-jobs.json" &&
                $0 != "app/kent/service-administrator-jobs.json" &&
@@ -127,7 +154,9 @@ jobs:
                $0 != "app/west-yorkshire/support-worker.json" &&
                $0 != status &&
                $0 != daily &&
-               $0 != history'; } || true)"
+               $0 != history &&
+               $0 != newjobs &&
+               $0 != firstseen'; } || true)"
             if [ -n "$unexpected_files" ]; then
               echo "::error::Refusing to commit unexpected staged paths:"
               printf '%s\n' "$unexpected_files"
@@ -240,6 +269,8 @@ jobs:
           path: |
             pipeline/reports-daily/live-job-source-count-${{ steps.live-count.outputs.report_date }}.csv
             pipeline/reports-daily/live-job-source-history.csv
+            pipeline/reports-daily/newly-published-jobs-${{ steps.live-count.outputs.report_date }}.csv
+            pipeline/reports-daily/published-job-first-seen-history.csv
           if-no-files-found: error
           retention-days: 30
 
