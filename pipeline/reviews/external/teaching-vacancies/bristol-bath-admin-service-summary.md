@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-08-13
-review_fingerprint: 2423d22b6a301e3821bd1a7fdb2e17177d1a8698854a560811feef457b6064ce
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 13fefdbb2a85610e11ae25116aabb8e97fa43116c40a4a455f7db9ebe3fb2192
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Bristol & Bath | Bath, South West, BA2 1QR | £25,583 to £25,989 FTE | Admin and Business Support & Receptionist
-employer: Twerton Infant School
-closing_date: 2026-08-13T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 46775ef464b62dcc4d82ddb5145f88514501f09948d967d9149deaf4c4d1d8fb
-source: Teaching Vacancies
-source_job_id: admin-and-business-support-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-and-business-support-receptionist
----
 
 ---
 action: 
@@ -91,15 +76,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-le
 
 ## HARD_PASS
 
-- [AI & Digital Communications and Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/ai-digital-communications-and-marketing-apprentice) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-cabot-learning-federation-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-9097ffb6-9d63-4285-9dd2-537e38cf05ad) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-joseph-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
-- [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-nicholas-of-tolentine-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-patrick-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-teresa-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 

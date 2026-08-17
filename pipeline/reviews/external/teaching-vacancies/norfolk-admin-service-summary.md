@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-13
-review_fingerprint: b546ec8dd58dfaadc65d49857b55779b0a5ff12706743b80f162bebbf3b7a73e
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: b41a5c244bab47f330c3d87d826e5c71d29d2baea018560a3b4ffdda5e89f256
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -23,32 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE30 4AW | Scale D – Point 6 - 7, £13.47 – £13.68/hour (£25,989 - £26,403/year FTE based on a 37 hour week -please note that salary will be pro-rata) | Attendance Administrator
-employer: Springwood High School
-closing_date: 2026-08-17T01:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Norfolk | Norwich, East of England, NR3 1DD | Salary: Support Staff Pay Scale D: £22,374 to £22,729 pro-rata per annum (Actual) (£25,583 - £25,989 full time/full year equivalent) | Administration Assistant
+employer: Jane Austen College
+closing_date: 2026-09-10T01:00:00+01:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 574e86295dbb7dbb54a03a666e7fab9a2adb50a775ff5714c38f2243cd7daf70
+factual_fingerprint: 724efa9fa5ba790ea57c3e92f0bbaf91fa0cdd1a7fee7fcfe7787789684efa59
 source: Teaching Vacancies
-source_job_id: attendance-administrator-springwood-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-springwood-high-school
----
-
----
-action: 
-SELECTED | Norfolk | Great Yarmouth, NR31 7BQ | £25,951 - £27,733 (pro rata 195 days actual salary - £22,125 – £23,644) | Educational Visits & Facilities Administrator
-employer: East Norfolk Multi Academy Trust
-closing_date: 2026-08-16T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c86a7422bcf06f97989b588fd49a5bc32e88815f8731037ad6f70665868ea1e1
-source: Teaching Vacancies
-source_job_id: educational-visits-facilities-administrator-east-norfolk-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/educational-visits-facilities-administrator-east-norfolk-multi-academy-trust
+source_job_id: administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
 ---
 
 ---
@@ -107,9 +92,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 ## HARD_PASS
 
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
+- [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Maths Hub Support Lead](https://teaching-vacancies.service.gov.uk/jobs/maths-hub-support-lead-inspiration-trust-norwich-not-recorded) — Insufficient admin/service evidence.
 - [Operations Assistant - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-sixth-form-thorpe-st-andrew-school-and-sixth-form-norwich-norfolk) — Insufficient admin/service evidence.
-- [People Coordinator](https://teaching-vacancies.service.gov.uk/jobs/people-coordinator-b7713544-28b3-4630-9649-073eb48ff48e) — Insufficient admin/service evidence.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-sheringham-woodfields-school-sheringham-norfolk) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 

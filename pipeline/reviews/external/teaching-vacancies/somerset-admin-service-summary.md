@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-13
-review_fingerprint: b265d0443012230bcb3d2d4699315af239dcf0b1428a692ab566c6939abc498c
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 35bf62eee12bdbdf11f9f512a3ca939584a8f3692ad1da52e5ff285fecd06cd5
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
@@ -70,6 +70,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 ---
 action: 
+POSS | Somerset | Taunton, South West, TA4 2NE | £12,046 – 13,138 | Data Manager
+employer: Kingsmead Academy
+closing_date: 2026-09-06T23:59:59+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 75a8f2e94a4b9e6fcb6ece1f0cf10c4892803a75b04b96fe99f6daf1eb697699
+source: Teaching Vacancies
+source_job_id: data-manager-kingsmead-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmead-academy
+---
+
+---
+action: 
 POSS | Somerset | Taunton, South West, TA4 2NE | £26,837 - £28,931 (CLF Grade C) | Senior Administration Assistant (SEND)
 employer: Kingsmead Academy
 closing_date: 2026-09-21T23:59:59+01:00
@@ -91,8 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 
 - [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
+- [Office Manager and Work Placement Coordinator - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-work-placement-coordinator-sixth-form-norton-hill-academy) — Manager title without salary evidence below £28,000.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
-- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-7adf438b-fd55-4e21-8bef-eccad94efdcb) — Missing salary or pay scale.
 
 ## Safety boundary
 

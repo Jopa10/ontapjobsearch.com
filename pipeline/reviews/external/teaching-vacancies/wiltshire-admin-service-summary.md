@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-08-13
+review_date: 2026-08-17
 review_fingerprint: 635271f36f0e710d24e461d2a2fd2e1d10eadb9c8f2b65ea0ea7774be2dbe69f
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -108,6 +108,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-lions-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [School Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-officer-westwood-with-iford-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

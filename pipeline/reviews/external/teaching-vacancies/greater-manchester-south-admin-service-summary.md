@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-08-13
+review_date: 2026-08-17
 review_fingerprint: 355f373303f2a8220a4ad4ebdacf06f5cbdb7f531ef84d19d7da879637be73f3
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -47,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Senior Finance Partner FP&A, Innovation, Procurement & Projects](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-partner-fp-a-innovation-procurement-projects) — Insufficient admin/service evidence.
+- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-altrincham-college-altrincham-cheshire) — Manager title salary ceiling £39,681 is not below £28,000.
 
 ## Safety boundary
 

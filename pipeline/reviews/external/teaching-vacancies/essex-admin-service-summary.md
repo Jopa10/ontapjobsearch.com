@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-08-13
-review_fingerprint: e8b95bc57603bc92fdf16bce16c67ee4668c926e1805f29bfed0dac23cddc9a1
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 409e2699afe869d254b7ddfbeebd1fcc2d6f42db624b1d9b4b235192458ec43d
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
-- POSS awaiting decision: 0
+- Records: 8
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Essex | Brentwood, East of England, CM13 2HG | £20,080.00 Annually (Actual) | Admin Assistant/Reception cover
-employer: St Martin's School Brentwood
-closing_date: 2026-08-14T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6382b65e0cea88078aacb808dc5bd7a092daf7aa29f1f3b3ffc2e3d4b079a721
-source: Teaching Vacancies
-source_job_id: admin-assistant-reception-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-reception-cover
----
 
 ---
 action: 
@@ -81,24 +66,22 @@ source_job_id: lead-administrator-limebrook-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
-action: select
-SELECTED | Essex | Canvey Island, East of England, SS8 9QS | £26,847.00 - £27,274.00 Annually (FTE) Term-time plus 5 additional days (£23016 to £23382 actual) | Receptionist
-employer: The Cornelius Vermuyden School
-closing_date: 2026-08-16T23:59:00+01:00
+action: 
+POSS | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
+employer: Notley High School and Braintree Sixth Form
+closing_date: 2026-08-30T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ed6f7610f7a6c431310550c78919cbeef051ce97ec853f8651462a9d4eb79df6
+factual_fingerprint: 027d840408b93a5de6fdfd2ad3a45ffbf462287282d2a8a0a6d2bd681b556a34
 source: Teaching Vacancies
-source_job_id: receptionist-the-cornelius-vermuyden-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-cornelius-vermuyden-school
+source_job_id: receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -108,12 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-corn
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-greenwell-academy) — Insufficient admin/service evidence.
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-st-martin-s-school-brentwood) — Insufficient admin/service evidence.
-- [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-the-chelmsford-learning-partnership) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-the-basildon-upper-academy-basildon-essex) — Insufficient admin/service evidence.
-- [Pupil Services](https://teaching-vacancies.service.gov.uk/jobs/pupil-services-the-cornelius-vermuyden-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
-- [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-the-sigma-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

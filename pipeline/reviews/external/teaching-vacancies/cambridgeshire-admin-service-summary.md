@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-13
-review_fingerprint: 175c596b47bfdbec4ff9a3c7bd0cca1d4b15101e71290b422c6880df2f7800aa
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 1b2893c5b2bd364c4ef51e511e1af80843648fb353bb5dea1ec88eed3c6934b5
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 13
-- POSS awaiting decision: 1
+- Records: 17
+- Selected: 10
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE1 5JN | £24,796.00 - £25,185.00 Annually (FTE) | Administration Assistant
-employer: St John Fisher Catholic High School
-closing_date: 2026-08-13T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a854c6d8312f5502077169f6be1042e736a8136886e9a7535d31f6b7b31329cd
-source: Teaching Vacancies
-source_job_id: administration-assistant-st-john-fisher-catholic-high-school-peterborough-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-fisher-catholic-high-school-peterborough-cambridgeshire
----
 
 ---
 action: 
@@ -98,36 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £25,296 - £27,006 per year (FTE £29,540 - £31,537) | Attendance Officer
-employer: Queen Katharine Academy
-closing_date: 2026-08-13T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 610c42a4fd8f9187956c0784ff9e34e9cff9fbf74aecda032e0fdd689f12ce89
-source: Teaching Vacancies
-source_job_id: attendance-officer-queen-katharine-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-queen-katharine-academy
----
-
----
-action: select
-SELECTED | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
-employer: Burrowmoor Primary Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
-source: Teaching Vacancies
-source_job_id: clerk-to-the-local-governing-boards
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 8UA | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
 employer: Cottenham Village College
 closing_date: 2026-08-28T23:59:00+01:00
@@ -139,6 +94,21 @@ factual_fingerprint: fe1b0769334cd8efdb0418b15efced8d9c1544ac5ee62b402c683e95049
 source: Teaching Vacancies
 source_job_id: exams-officer-cottenham-village-college-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cottenham-village-college-cambridge-cambridgeshire
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
+employer: Ernulf Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c80439bcbbfd2aff0f1641ff51d771a7b8449e27815fce5af53b1c1ce51fca3f
+source: Teaching Vacancies
+source_job_id: exams-officer-ernulf-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ernulf-academy
 ---
 
 ---
@@ -158,17 +128,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
-employer: St Peter's School
-closing_date: 2026-09-04T09:00:00+01:00
+SELECTED | Cambridgeshire | Huntingdon, East of England, PE28 0TH | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6 . Actual salary £11,408.64 per annum on point 5. | Office Administrator
+employer: Spaldwick Primary School
+closing_date: 2026-08-21T09:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
+factual_fingerprint: 2c86e389f4bd9e5461f8e35f9532aefe507d875faaa22c7f1dcca0918b5475fd
 source: Teaching Vacancies
-source_job_id: office-administrator-st-peter-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
+source_job_id: office-administrator-spaldwick-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-spaldwick-primary-school
 ---
 
 ---
@@ -184,21 +154,6 @@ factual_fingerprint: 246551fa86662e3f8f630dbaadb4200ca0a14326960aed5600d12ee029c
 source: Teaching Vacancies
 source_job_id: office-administrator-university-of-cambridge-primary-school-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-university-of-cambridge-primary-school-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £23,339 – £24,889 per year (FTE £27,254 - £29,064) | Pastoral Services Administrator
-employer: Queen Katharine Academy
-closing_date: 2026-08-13T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a03099d25ed007c3354f775353525b188642275198ee220216e96b515c949fed
-source: Teaching Vacancies
-source_job_id: pastoral-services-administrator-queen-katharine-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-services-administrator-queen-katharine-academy
 ---
 
 ---
@@ -220,6 +175,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 
 ---
 action: 
+POSS | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
+employer: Burrowmoor Primary Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
+source: Teaching Vacancies
+source_job_id: clerk-to-the-local-governing-boards
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
+---
+
+---
+action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
 employer: Cambourne Village College
 closing_date: 2026-08-20T09:00:00+01:00
@@ -233,14 +203,31 @@ source_job_id: maths-hub-administration-communications-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administration-communications-officer
 ---
 
+---
+action: 
+POSS | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
+employer: St Peter's School
+closing_date: 2026-09-04T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
+source: Teaching Vacancies
+source_job_id: office-administrator-st-peter-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Data, Assessment & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-cover-manager) — Manager title salary ceiling £35,412 is not below £28,000.
 - [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-d95189ca-d706-4555-a4e3-e244e3b079b2) — Insufficient admin/service evidence.
+- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
+- [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

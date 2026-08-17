@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-08-13
+review_date: 2026-08-17
 review_fingerprint: 0130cb63d7820238938ae006ca7f3c937ffdea4f1afe14dc20cec3d2341967a1
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-ceo-chester
 
 ## HARD_PASS
 
-- None.
+- [Trust HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-the-heath-family-north-west) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

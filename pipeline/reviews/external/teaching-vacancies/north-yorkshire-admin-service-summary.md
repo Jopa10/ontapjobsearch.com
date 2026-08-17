@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-08-13
-review_fingerprint: 8cc41ab6cece8b1bbe7e5803fd899e6eac468a49a23e4ddfdcacecf3e62f89a1
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: f9ff57389cbe81bd9cea4b8eb4cb24216b3fa649ad73f370e70c8459247f1d44
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG1 5EP | £25,621 per annum, Actual salary £22,800.43 | Administrative Assistant
-employer: Harrogate, Grove Road Community Primary School
-closing_date: 2026-08-14T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c3ce52e5214a73e01ca5c739bf179ef2e5ea0e968aedd21e8398132a79d564fa
-source: Teaching Vacancies
-source_job_id: administrative-assistant-harrogate-grove-road-community-primary-school-harrogate-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-harrogate-grove-road-community-primary-school-harrogate-north-yorkshire
----
 
 ---
 action: 
@@ -106,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-supervisor
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school) — Insufficient admin/service evidence.
 - [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-ebor-academy-trust) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5aeab0ad-6293-4dca-a4da-08493a5af26e) — Insufficient admin/service evidence.
 

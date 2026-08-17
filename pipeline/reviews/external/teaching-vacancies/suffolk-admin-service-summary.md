@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-08-13
-review_fingerprint: e1831b06e12c0e72d404b979868abb62fbb236ba9d85b9560369476cce0a421a
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: b13db6d8078ce71185740f26fb6f4b7300623bf8e57803775f203f29393a2ae2
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
----
-action: 
-SELECTED | Suffolk | Bury St. Edmunds, IP33 3RL | £24,570 - £25,401 per annum (Dependent on qualifications and experience) | HR Administrator (Recruitment & Transactional)
-employer: Eastern Education Group Trust
-closing_date: 2026-08-17T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b22a522ea29c6cee24831350f97a9c4a7776aa554ded4b84b656b410163f3f9c
-source: Teaching Vacancies
-source_job_id: hr-administrator-recruitment-transactional-eastern-education-group-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-recruitment-transactional-eastern-education-group-trust
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -61,6 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-fel
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-f37ef22b-1633-4cb2-88b2-50a15505e865) — Insufficient admin/service evidence.
 - [Compliance Senior Lead](https://teaching-vacancies.service.gov.uk/jobs/compliance-senior-lead-eastern-education-group-trust) — Insufficient admin/service evidence.
+- [FOHR Admin](https://teaching-vacancies.service.gov.uk/jobs/fohr-admin-raedwald-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

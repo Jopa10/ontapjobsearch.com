@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-08-13
-review_fingerprint: e79ab7bfe798feda1fa574021ee73dde4cb54b35d0ce7beec17972855b9a37f7
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: b955904b8d5ca38b3540cc4710be7cb08c8258922b9f8490ce977a9d2d67b37b
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,21 +34,6 @@ factual_fingerprint: fea74c2bd744f6c8e20a68c10d5a8e822e1a3b4113f7f42768e8b63945f
 source: Teaching Vacancies
 source_job_id: school-administrator-tortworth-primary-school-wotton-under-edge-gloucestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-tortworth-primary-school-wotton-under-edge-gloucestershire
----
-
----
-action: 
-SELECTED | South West | Ludgershall, South West, SP11 9RR | £25,989.00 - £26,824.00 Annually (FTE) | SENDCo Administrator
-employer: The Wellington Academy
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 62c3e444379747373c21955bbea5aaa20259613d2af3b3e4cdafa04d2319ab09
-source: Teaching Vacancies
-source_job_id: sendco-administrator-the-wellington-academy-ludgershall-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-administrator-the-wellington-academy-ludgershall-wiltshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

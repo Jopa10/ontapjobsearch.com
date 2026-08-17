@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-08-13
-review_fingerprint: 0c8d446da7bb8785b0bf7004efa7f0f96a8776923ec36c2a03baccc3317e2def
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 5f02eeda2d0261e12bb673dc9b733925d8bcb28379e5c65828357597704d8649
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | North East | Bedlington, North East, NE22 6ED | Actual Salary | Administration Assistant
-employer: St Benet Biscop Catholic Academy
-closing_date: 2026-08-17T12:00:59+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE4 9YH | BB04 £26,403 - £27,254 per annum pro rata | Administrative Assistant Level 3
+employer: Sacred Heart Catholic High School
+closing_date: 2026-09-03T09:00:59+01:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0834009ecf25403b5ee17ac34066f91693f4b38a601e0a57d37c77032e4dcae0
+factual_fingerprint: efba484b296e0dc97829bab00fec8c13f328160365ba19a84a3dd7320934a011
 source: Teaching Vacancies
-source_job_id: administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-4f59cafb-d423-4db3-83d0-1ade9b792f9e
+source_job_id: administrative-assistant-level-3-sacred-heart-catholic-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-sacred-heart-catholic-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -49,7 +49,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy) — Manager title salary ceiling £40,777 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-connect-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-cramlington-learning-village) — Insufficient admin/service evidence.
-- [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-north-gosforth-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

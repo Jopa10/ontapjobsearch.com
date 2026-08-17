@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-08-13
-review_fingerprint: b2206196beec558a5195402d4a34746e74fb1638333b97ef10364f42ce258495
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: ed3d9d140317fab7b10bd514109582e4a412c1dd5f45ab4a2ef23bfcfbb44ce9
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L5 3QG | £25,583.00 Annually (FTE) | Administration Assistant
+employer: The Beacon Church of England Primary School
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 54413cf712ace5c00e8995fd5a654e609b1949c8e7962ad24fd09439785a3f4f
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-beacon-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school
+---
 
 ---
 action: 
@@ -61,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-s-l
 
 ## HARD_PASS
 
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-st-joseph-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Governance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/governance-business-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary

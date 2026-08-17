@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-13
-review_fingerprint: 6a9ff09fe79c791e29fbb61a41a7ae9c6a06c5811ec61244b4eb976edbbd0d09
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: b48ea0bcafe17dfa38528317e10c886869f010a85d46f115cb734da820e73851
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE2 6DW | £25,191.00 - £25,590.00 Annually (FTE) Approximate starting salary of £21,552.62 | Administration Assistant (MIL138BC)
+employer: Millgate School
+closing_date: 2026-08-31T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: af002fb46e563adb7c9ee3cdeebf9a4a849a5f65284d2dc6a0a16819fe1c1468
+source: Teaching Vacancies
+source_job_id: administration-assistant-mil138bc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-mil138bc
+---
 
 ---
 action: 
@@ -77,8 +92,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
-- [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-discovery-schools-academies-trust-ltd) — Manager title salary ceiling £33,293 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-discovery-schools-academies-trust-ltd-leicester-not-recorded) — Manager title salary ceiling £39,165 is not below £28,000.
 - [Music Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/music-support-assistant) — Insufficient admin/service evidence.
 - [Pre - School Deputy Manager (PAR219BC)](https://teaching-vacancies.service.gov.uk/jobs/pre-school-deputy-manager-par219bc) — Manager title salary ceiling £28,146 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-13
-review_fingerprint: e47fc682feaa5eddea3c9ae11e2b98e34ea231366f6fd98a97a710cab27a2d58
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 607a7ab8e026858ca95cc763408da391a0f88c66475feb98dbc536fd2d6b03c7
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-recepti
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 5NH | £10,887.00 - £12,048.00 Annually (Actual) | Attendance Officer
+employer: Prince Albert Junior and Infant School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: CANDIDATE
+migration_status: 
+factual_fingerprint: eaad972636101473ea20c68fefdda4dc644a5aa3dc4c3a5fede74521be5f7ab1
+source: Teaching Vacancies
+source_job_id: attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2SY | £26,824.00 to £28,142.00 per annum (pro rata £24,847.04 to £26,067.90 per annum) | Business Support Officer - Receptionist & Admissions
 employer: Eden Boys' School, Birmingham
 closing_date: 2026-08-27T23:59:00+01:00
@@ -94,6 +109,21 @@ factual_fingerprint: f677e893c935dd9284410ebc02d518a47051bdbea43dd8aa86c108b783e
 source: Teaching Vacancies
 source_job_id: business-support-officer-receptionist-admissions-eden-boys-school-birmingham-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-receptionist-admissions-eden-boys-school-birmingham-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B8 3QF | £13,422.00 - £14,753.00 Annually (Actual) | School Administrator
+employer: Highfield Junior and Infant School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: CANDIDATE
+migration_status: 
+factual_fingerprint: 25fa9c29ded8f64ef11c392fa7a323d512b3a8ab6822462cc71cbbd2a017aebc
+source: Teaching Vacancies
+source_job_id: school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
 ---
 
 ---

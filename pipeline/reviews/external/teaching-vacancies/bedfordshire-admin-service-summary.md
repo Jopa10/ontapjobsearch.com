@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-13
-review_fingerprint: f7e84904a075a574686b04a65f82319348345ef5f22adea32976a355e93e506f
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: a75e6eff0d4c5c35bfdcc4288218e4ccf90864e9fc047b95705f04944ea3b160
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: c118d74ab318bfdce3db4f3a81f0859f9c33b271947f91a2baa1efae81f
 source: Teaching Vacancies
 source_job_id: administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
----
-
----
-action: 
-SELECTED | Bedfordshire | Henlow, East of England, SG16 6BA | £25,540.00 - £25,540.00 Annually (FTE) | Administration Assistant
-employer: Derwent Primary School
-closing_date: 2026-08-14T16:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b11cdcaafacfa361747f03ce5cd91e6dc485714a971e96d6219beaa8a5f0d537
-source: Teaching Vacancies
-source_job_id: administration-assistant-fd26739e-4749-4e16-a01b-2d7fc14cf8eb
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fd26739e-4749-4e16-a01b-2d7fc14cf8eb
 ---
 
 ---
@@ -79,6 +64,21 @@ factual_fingerprint: b87df8eb56b1c558f241443c4304f406868998194760bc77a41c423b33c
 source: Teaching Vacancies
 source_job_id: clerical-assistant-attendance-administrator-arnold-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-attendance-administrator-arnold-academy
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £21,971.86 Annually (Actual) | Finance & Trips Admin Assistant
+employer: Sharnbrook Academy
+closing_date: 2026-08-31T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: b7a6a8f61f991c40680f0796ce1b6e220681dbffbceeab353402865031d0893c
+source: Teaching Vacancies
+source_job_id: finance-trips-admin-assistant-sharnbrook-academy-bedford-bedfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-sharnbrook-academy-bedford-bedfordshire
 ---
 
 ---
@@ -123,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-cler
 
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-6f5cafa2-4f5b-47d7-8fa1-ebd48d98391c) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
+- [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

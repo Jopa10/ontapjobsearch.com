@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-13
-review_fingerprint: 211001c1a041825c8c48ae241e3b5ee0246ba2805f897cbf7f684c42cc21198e
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: ef3d1568866f1ca96275622d93c5d49bcef13bdc01aac12f8805d307f38fdaf5
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 16
-- POSS awaiting decision: 0
+- Records: 24
+- Selected: 14
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -49,21 +49,6 @@ factual_fingerprint: 5a02ee43ef0a46166f1071b7714ce23c4c4ea888c1a91333ebc65a7e004
 source: Teaching Vacancies
 source_job_id: administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
----
-
----
-action: 
-SELECTED | Yorkshire - West | Pudsey, Yorkshire and the Humber, LS28 7ND | £22,218.00 - £22,927.00 Annually (Actual) Term tiume plus 10 days. Your individual working pattern will be agreed with your line manager to ensure the operational needs of the school are met. | Administrative Assistant
-employer: Pudsey Grammar School
-closing_date: 2026-08-14T08:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: a573eedf7858e0b1bc494e36228d5ca3716406142133d0812f01e4aa660dca66
-source: Teaching Vacancies
-source_job_id: administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pudsey-grammar-school-pudsey-west-yorkshire
 ---
 
 ---
@@ -124,21 +109,6 @@ factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2e
 source: Teaching Vacancies
 source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
----
-
----
-action: select
-SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
-employer: De Lacy Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
-source: Teaching Vacancies
-source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 ---
 
 ---
@@ -263,7 +233,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
+employer: De Lacy Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
+source: Teaching Vacancies
+source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -272,13 +255,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 ## HARD_PASS
 
 - [Accomplish Hubs Business Manager, Castleford Office](https://teaching-vacancies.service.gov.uk/jobs/accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited) — Manager title salary ceiling £38,220 is not below £28,000.
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
+- [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
-- [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-abbey-multi-academy-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Reprographics and Digital Resource Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-digital-resource-technician) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.
-- [TRUST ATTENDANCE IMPROVEMENT OFFICER](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-improvement-officer) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-f1cbc046-b59f-467c-960b-8fc5c55604ba) — Insufficient admin/service evidence.
 
 ## Safety boundary

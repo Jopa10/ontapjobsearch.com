@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-08-13
-review_fingerprint: 790bb3f82edd3f3addc75e40642288b837817011637f5fee96dfe11a6e3e8e7a
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 9e199c6e3e29a1f81d724b32b5a9bb6f60d5ec6cdab501fc259d17b022b85ae7
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -64,6 +64,21 @@ factual_fingerprint: 6b3de123b28dbbff7cc190312bf6e55bd25ae048bc6b9a888e0c7b66bf2
 source: Teaching Vacancies
 source_job_id: school-administrator-president-kennedy-school-academy-coventry-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-president-kennedy-school-academy-coventry-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | RUGBY, West Midlands, CV23 1ED | NJC07 £24,294.00 – NJC11 £25,979.00 FTE Actual Salary: £20,779.00 to £22,220.00 | SEND Administrator
+employer: Houlton School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 28fd004090aec611ed970833df36ac874ca2986db2f3c58858321c32f03f6835
+source: Teaching Vacancies
+source_job_id: send-administrator-houlton-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-houlton-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

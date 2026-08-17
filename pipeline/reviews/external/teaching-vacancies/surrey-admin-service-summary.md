@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-08-13
-review_fingerprint: 0d60580ac32977167711f4237772fc6d8170908a9229edb24c37bd8f5a51fd7e
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: b32cca569dbdab7845c5340ef6df0fde47979c4bf0dbc8e6ac730c277b95a4bf
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -51,21 +51,6 @@ source_job_id: receptionist-office-administrator-bramley-cofe-infant-school-and-
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-administrator-bramley-cofe-infant-school-and-nursery
 ---
 
----
-action: 
-SELECTED | Surrey | Reigate, South East, RH2 0LR | £24,330.00 - £25,480.00 Annually (FTE) £15,988 to £16,744 Pro Rata | School Office Assistant
-employer: Wray Common Primary School
-closing_date: 2026-08-14T09:00:00+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ba0bd7bd6eb8a0528f98e704ba5966c2d6f13c27d895dd93e3776513dd9c6ab
-source: Teaching Vacancies
-source_job_id: school-office-assistant-wray-common-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-assistant-wray-common-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -78,12 +63,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-assista
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-matthew-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Director of Learning and Development](https://teaching-vacancies.service.gov.uk/jobs/director-of-learning-and-development) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-kite-academy-trust) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-three-rivers-academy) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-kite-academy-trust) — Manager title salary ceiling £55,473 is not below £28,000.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-kite-academy-trust-ash-vale-not-recorded) — Manager title salary ceiling £55,473 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-matthew-s-cofe-primary-school) — Manager title salary ceiling £29,725 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
-- [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-greensand-multi-academy-trust) — Manager title salary ceiling £32,867 is not below £28,000.
 
 ## Safety boundary
 

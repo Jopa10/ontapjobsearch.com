@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-08-13
-review_fingerprint: a6edc30f5591fb2c5eea684d8e6cd3885aa3471df0f7f8ae0d84ca5a22a65c2a
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 7cac9216120874c38e829ee671188e2a212e418bd2304223bf49d35813571040
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 5
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -64,21 +64,6 @@ factual_fingerprint: f4455e989e4688917fb04cf60d807f41123d5838dd0489c9c68ac8053e6
 source: Teaching Vacancies
 source_job_id: attendance-officer-level-4-longford-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy
----
-
----
-action: 
-SELECTED | Staffordshire | Tamworth, West Midlands, B77 4FF | Competitive | Receptionist/Administrative Assistant
-employer: Landau Forte Academy, Amington
-closing_date: 2026-08-13T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: CANDIDATE
-migration_status: 
-factual_fingerprint: 3684f881c3148be05b5b10d049298e649d8651a0ffecc5c00d76a2d512fa2dbc
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-landau-forte-academy-amington-tamworth-staffordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-landau-forte-academy-amington-tamworth-staffordshire
 ---
 
 ---

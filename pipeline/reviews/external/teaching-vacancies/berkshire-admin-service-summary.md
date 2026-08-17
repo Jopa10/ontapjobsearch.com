@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-13
-review_fingerprint: dc5837d7127e1a32261232b7d6062218f06c783d04afd7869c2a03dc218cbb3f
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 241f3d7bb9ff8befd198736703dff397e0e3f7f4f343b5123b9b26d22f2df7a6
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 11
-- POSS awaiting decision: 1
+- Records: 22
+- Selected: 9
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Berkshire | Wokingham, South East, RG41 5LP | £21,360.00 Annually (Actual) Grade 4 ( SCP 7-11) Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,538.71. Must be able to commence work at 7.30 am at the very latest | Cover Administrator
-employer: Oak Tree School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 334b7296ee08ecba7af39fcb66712cf36991cbbdf7672aa3ce3ab6176f8f255e
-source: Teaching Vacancies
-source_job_id: cover-administrator-oak-tree-school-wokingham-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-oak-tree-school-wokingham-berkshire
----
 
 ---
 action: 
@@ -64,21 +49,6 @@ factual_fingerprint: fbfa259eeba745314df1c2250a6db33d9fbc8dc1851473ed9a63f1a2e97
 source: Teaching Vacancies
 source_job_id: general-administrator-with-silent-study-supervisor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-with-silent-study-supervisor
----
-
----
-action: select
-SELECTED | Berkshire | Reading, RG6 1EY | £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age. | HR Level 3 Apprenticeship
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e0008954a
-source: Teaching Vacancies
-source_job_id: hr-level-3-apprenticeship
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship
 ---
 
 ---
@@ -128,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-pole
 
 ---
 action: 
+SELECTED | Berkshire | Reading, South East, RG10 9AX | £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11 | School Secretary (part time)
+employer: Polehampton Church of England Junior School
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Clear admin/service title: school secretary, secretary
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 50b7de5b190c1c166b60222edef2db654a4bfbbd8f0b1e869176b260f7c69833
+source: Teaching Vacancies
+source_job_id: school-secretary-part-time-polehampton-church-of-england-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school
+---
+
+---
+action: 
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
 employer: The Windsor Boys' School
 closing_date: 2026-08-31T23:59:00+01:00
@@ -139,21 +124,6 @@ factual_fingerprint: d67290fae0c54aca400277bea0bdcd9874c77a5c85fcccfa832304aede9
 source: Teaching Vacancies
 source_job_id: sixth-form-administrator-the-windsor-boys-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-windsor-boys-school
----
-
----
-action: select
-SELECTED | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
-source: Teaching Vacancies
-source_job_id: tkat-hr-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
 ---
 
 ---
@@ -190,6 +160,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
+POSS | Berkshire | Reading, RG6 1EY | £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age. | HR Level 3 Apprenticeship
+employer: The Keys Academy Trust
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e0008954a
+source: Teaching Vacancies
+source_job_id: hr-level-3-apprenticeship
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship
+---
+
+---
+action: 
+POSS | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
+employer: The Keys Academy Trust
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
+source: Teaching Vacancies
+source_job_id: tkat-hr-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
+---
+
+---
+action: 
 POSS | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
 employer: The Keys Academy Trust
 closing_date: 2026-09-07T09:00:00+01:00
@@ -209,11 +209,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 
 ## HARD_PASS
 
+- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
 - [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Manager title salary ceiling £44,075 is not below £28,000.
+- [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
+- [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school) — Manager title salary ceiling £34,386 is not below £28,000.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-polehampton-church-of-england-junior-school-reading-berkshire) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
+- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary

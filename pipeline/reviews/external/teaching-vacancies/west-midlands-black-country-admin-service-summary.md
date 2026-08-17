@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-08-13
-review_fingerprint: 31850e38685cf17823b96c54ea6e4930850ad603e7ffe4744332bde351caf115
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 408ecd9fa52e6dfdb683247c6745ce074bca8ee0cf18d5a3fe5c60f5de639b8c
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Black Country | Wednesbury, West Midlands, WS10 8QJ | £25,989 - £29,064 (actual £22,353 - £24,999) | Data and Assessment Administrator
-employer: Grace Academy Darlaston
-closing_date: 2026-08-13T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 80723d31b4b53b40068fa27e21899d6ca30c6aaa0f42f3c2b262029656c478ca
-source: Teaching Vacancies
-source_job_id: data-and-assessment-administrator-grace-academy-darlaston
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-assessment-administrator-grace-academy-darlaston
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS1 2PG | £13,510.00 - £13,942.00 Annually (Actual) Grade 3 SCP 4-6: FTE £25,185 - £25,989, Term Time Only plus 1 week | Reception Secretary
-employer: Queen Mary's Grammar School
-closing_date: 2026-08-16T23:59:00+01:00
-reason: Clear admin/service title: secretary
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b00ac477b9edec3e05552c05490d6a3a525dedafed465ab29ec061cca279e41b
-source: Teaching Vacancies
-source_job_id: reception-secretary-abe1bc1b-9cea-494e-8f9a-3ae86a2c33e3
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-secretary-abe1bc1b-9cea-494e-8f9a-3ae86a2c33e3
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-08-13
-review_fingerprint: 38e011bfd566bad47e924796aa41258171bfcfba7f0196b648ada6cc74731f65
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 4d55a01728d09582c85ba7f4423dade11ffd73faf05018f41507743e1351fbb9
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | East Midlands | Alfreton, East Midlands, DE55 1AE | £21,567.00 - £22,610.00 Annually (Actual) Grade 2: £21,567– £22,610 actual salary per annum (£25,185 -£26,403 FTE) | Receptionist
-employer: Swanwick Hall School
-closing_date: 2026-08-14T12:00:00+01:00
+SELECTED | East Midlands | Ashby-De-La-Zouch, East Midlands, LE65 1DT | Actual Salary £21,931 - £22,281 | Receptionist
+employer: Ashby School
+closing_date: 2026-09-04T09:00:59+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: f346583d67029f6d33bfb4decb1095a8f16e700b150aa580a73942565c6798e5
+factual_fingerprint: c3b48f4319cdab74a5d4d0eacfbb6be52ed21a49a2412ad73a9cb9429bdf612d
 source: Teaching Vacancies
-source_job_id: receptionist-swanwick-hall-school-alfreton-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-swanwick-hall-school-alfreton-derbyshire
+source_job_id: receptionist-0873411c-0cfb-4f4d-945d-32e57ea5344f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0873411c-0cfb-4f4d-945d-32e57ea5344f
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -76,8 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-swanwick
 
 ## HARD_PASS
 
-- [School Business Officer (H&S and Admin Manager)](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-h-s-and-admin-manager) — Manager title salary ceiling £31,410 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
+- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-mowbray-education-trust-limited-melton-mowbray-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

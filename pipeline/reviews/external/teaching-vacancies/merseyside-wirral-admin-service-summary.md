@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-08-13
-review_fingerprint: efdbb6a6929b71bf2d52fc5d4afbe7beeda8e0b43079de3cc231e8a0953eb77c
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 5f70c2e58b821cf38c04ef2973bd692cf968a168178734bc29ad9d396dbe3838
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 1
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: 2c0fa854cd591e1dc4f30edd16f36cfb3957e8c5fdcbcaf16b33be769bf
 source: Teaching Vacancies
 source_job_id: office-administrator-stanton-road-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-stanton-road-primary-school
----
-
----
-action: 
-SELECTED | Merseyside - Wirral | Wirral, North West, CH48 6EQ | £21,974.20 - £22,324.24 Annually (Actual) Band D SCP 6-7 | Receptionist
-employer: Hilbre High School
-closing_date: 2026-08-17T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 9a6eb2a960dbee3773002f7311051808ea316b81ee3d5653558f0ecae41ef741
-source: Teaching Vacancies
-source_job_id: receptionist-hilbre-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hilbre-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

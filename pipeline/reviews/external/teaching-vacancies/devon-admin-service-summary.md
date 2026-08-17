@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-13
-review_fingerprint: 3edc236202b8fe496bb9ec6e6654fe738ce693724a1ecdcf05bf4741bdc8ecf3
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+review_date: 2026-08-17
+review_fingerprint: 4cd5bb9b06ab30db23d51ef00b8c59632cb36ef32bc13c222517377c0c3d6bc7
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 13
-- POSS awaiting decision: 1
+- Records: 24
+- Selected: 10
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 9
 
 ## SELECTED
 
@@ -67,33 +67,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action: select
-SELECTED | Devon | Newton Abbot, South West, TQ12 6JB | £25,185.00 FTE | Administrative Assistant
-employer: Blackpool Church of England Primary School
-closing_date: 2026-08-13T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+action: 
+SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
+employer: Okehampton College
+closing_date: 2026-09-09T12:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2e6eaafcdd056e67e2e188d64fd737b70d22c0cdecd2482cb731bdd806d3e724
+factual_fingerprint: 1d1911698055c7b815976a7bcebfacce22076b5e63e0d1a6aa4fc8fadd94b9aa
 source: Teaching Vacancies
-source_job_id: administrative-assistant-blackpool-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-blackpool-church-of-england-primary-school
----
-
----
-action: select
-SELECTED | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
-employer: The King's School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
+source_job_id: attendance-officer-okehampton-college-okehampton-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon
 ---
 
 ---
@@ -142,21 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-
 ---
 
 ---
-action: select
-SELECTED | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
-employer: St Marychurch Church of England Primary and Nursery School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
-source: Teaching Vacancies
-source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
----
-
----
 action: 
 SELECTED | Devon | Plymouth, South West, PL9 9AZ | £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 | Receptionist / Administrator / First Aid
 employer: Plymstock School
@@ -201,9 +171,56 @@ source_job_id: school-administrator-receptionist-mayfield-chestnut
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-mayfield-chestnut
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
-action: select
-SELECTED | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
+action: 
+POSS | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
+employer: The King's School
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
+---
+
+---
+action: 
+POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
+employer: St Marychurch Church of England Primary and Nursery School
+closing_date: 2026-09-03T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
+source: Teaching Vacancies
+source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
+---
+
+---
+action: 
+POSS | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
+employer: Ladysmith Infant & Nursery School
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 95cb9cfb9952136fbcc7e690b10a22b2cc9aeca6ae35760b272b7ae733c628ef
+source: Teaching Vacancies
+source_job_id: senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
+---
+
+---
+action: 
+POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Administrative duties evidenced in description
@@ -215,8 +232,6 @@ source: Teaching Vacancies
 source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school
 ---
-
-## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -239,7 +254,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
+- [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
+- [HR Policy and Projects Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-policy-and-projects-officer) — Insufficient admin/service evidence.
+- [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
+- [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover-bideford-college) — Insufficient admin/service evidence.
+- [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

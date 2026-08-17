@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-08-13
+review_date: 2026-08-17
 review_fingerprint: 407763d127dd4852b30562b795f3eae3ea27b21841ede7feeaa16241dbedd32f
-routing_manifest_sha256: 5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351
+routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -46,9 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administra
 
 ## HARD_PASS
 
-- [Assistant Management Accountant based at Ram Mill, Oldham, OL9 9RH](https://teaching-vacancies.service.gov.uk/jobs/assistant-management-accountant-based-at-ram-mill-oldham-ol9-9rh) — Insufficient admin/service evidence.
-- [Finance Apprentice based with Central Team at Ram Mill, Oldham, OL9 9RH](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-based-with-central-team-at-ram-mill-oldham-ol9-9rh) — Insufficient admin/service evidence.
-- [School Business Manager (SBM2)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sbm2) — Manager title salary ceiling £39,862 is not below £28,000.
+- [Accounts Payable Officer](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-officer) — Insufficient admin/service evidence.
+- [Senior Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/senior-human-resources-advisor-kingfisher-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
