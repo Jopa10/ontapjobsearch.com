@@ -38,3 +38,14 @@ jobs:
       - name: Run Review Hub tests
         working-directory: pipeline
         run: python -m pytest tests/test_review_hub.py -q
+      - name: Smoke-test current source adapters and dry-run apply plan
+        working-directory: pipeline
+        run: |
+          python -m review_hub.master_review build --output /tmp/ontap-daily-review.md
+          test -s /tmp/ontap-daily-review.md
+          sed -n '1,35p' /tmp/ontap-daily-review.md
+          python -m review_hub.master_review apply \
+            --input /tmp/ontap-daily-review.md \
+            --plan /tmp/ontap-review-plan.json
+          test -s /tmp/ontap-review-plan.json
+          cat /tmp/ontap-review-plan.json
