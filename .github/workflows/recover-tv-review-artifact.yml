@@ -32,7 +32,8 @@ jobs:
           gh run download 32025480121 \
             --name teaching-vacancies-regional-review \
             --dir /tmp/tv-review
-          find /tmp/tv-review -maxdepth 4 -type f | head -40
+          find /tmp/tv-review -maxdepth 4 -type f -print >/tmp/tv-review-files.txt
+          sed -n '1,40p' /tmp/tv-review-files.txt
           test -d /tmp/tv-review/manifests/external/teaching-vacancies
           test -d /tmp/tv-review/reviews/external/teaching-vacancies
 
