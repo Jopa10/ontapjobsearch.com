@@ -3,8 +3,15 @@ from __future__ import annotations
 import argparse
 import csv
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+# This repo contains pipeline/scripts/pandas.py as a compatibility shim. Remove
+# the script directory while importing so this audit, like Module 2, gets the
+# installed pandas package rather than the local shim.
+sys.path = [entry for entry in sys.path if Path(entry or ".").resolve() != SCRIPT_DIR]
 
 import pandas as pd
 
