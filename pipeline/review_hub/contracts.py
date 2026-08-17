@@ -41,7 +41,12 @@ class ReviewItem:
             "reason": clean(self.reason),
             "source_url": clean(self.source_url),
         }
-        encoded = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+        encoded = json.dumps(
+            payload,
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+        ).encode("utf-8")
         return hashlib.sha256(encoded).hexdigest()
 
 
@@ -54,6 +59,8 @@ class SourceResult:
     items: tuple[ReviewItem, ...] = ()
     note: str = ""
     publish_workflow: str = ""
+    publish_requires_approval: bool = False
+    shared_publish_after: bool = False
 
     @property
     def needs_attention(self) -> bool:
@@ -63,6 +70,7 @@ class SourceResult:
 @dataclass(frozen=True)
 class ParsedDecision:
     action: str
+    source_key: str
     item: ReviewItem
     fingerprint: str
 
