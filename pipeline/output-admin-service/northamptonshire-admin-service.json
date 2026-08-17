@@ -184,12 +184,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1618712",
@@ -214,12 +209,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225438039",
@@ -294,12 +284,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107795596",
@@ -424,11 +409,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "7b14365e-23bd-4e26-8c6b-d14607bb3f25",
@@ -578,13 +559,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Correspondence",
-      "Reporting",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "08ccaad7-d01f-4a76-92af-c72fada971c7",
@@ -634,11 +609,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "df3f4d87-0b4f-40b2-aa5d-833d277f98f8",
@@ -691,31 +662,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225451400",
-    "title": "Scheduling Administrator",
-    "company": "Cameo Consultancy - Agency - Permanent",
-    "location": "Northamptonshire",
-    "region": "Northamptonshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year (office based, free parking)",
-    "posted_date": "",
-    "description": "We are working with a successful SME logistics business in Banbury that is looking for a Scheduling Administrator to take ownership of the day-to-day scheduling administration, ensuring consignments are planned, tracked and delivered efficiently and on time.\n\nThis is a hands-on coordination role where you'll be responsible for planning local deliveries, coordinating driver routes and schedules, monitoring consignments and keeping customers and internal teams updated throughout the process.\n\nYou'll be the person making sure the detail is right, issues are picked up quickly and the operation keeps moving. This position would suit someone who enjoys a busy, fast-paced environment, as well as working independently.\n\nAs Scheduling Administrator, you will be responsible for:\n- Planning and coordinating daily deliveries and driver routes\n- Monitoring consignments from collection through to delivery\n- Liaising with Customer Services and providing regular ETA updates\n- Managing delivery discrepancies, failed deliveries and held consignments\n- Preparing information and data for daily operational meetings\n- Uploading paperwork, labels, manifests and relevant consignment information\n- Managing changes to collection dates, pallet types and charges\n- Keeping the Transport Management System and depot network information up to date\n- Monitoring scanning performance and operational KPIs\n- Managing driver communications and second-run schedules\n- Dealing with internal and external queries and customer complaints\n- Arranging couriers when required and tracking associated costs\n- Supporting weekly invoicing, self-bill amendments and credit queries\n- Ensuring all consignments are correctly uploaded and transferred as required\n- Helping to train colleagues on the process\n- Ensuring processes comply with relevant safety and operational requirements\n\nAs Scheduling Administrator, you must be/have:\n- Experience of logistics planning or coordination\n- Experience using a Transport Management System (TMS)\n- Excellent organisation and attention to detail\n- The ability to manage multiple priorities in a busy environment\n- A proactive approach and the confidence to react quickly when plans change\n- Strong written and verbal communication skills\n- The ability to work independently and take ownership of your workload\n- A practical, problem-solving approach\n\nThis is a great opportunity to join an established and busy logistics operation where you'll play a key role in keeping the day-to-day transport function running smoothly. If you're someone who enjoys being at the heart of the operation, solving problems and making sure everything gets where it needs to be, we'd love to hear from you.\n\nSalary: 28,000, full time 9.00am - 5.00pm Monday to Friday, office based, free onsite parking.\n\nApply today to find out more.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp5Ux45O%2bWi00OW57h0b7Bnng",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Cameo Consultancy",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225452802",
     "title": "Administrator",
     "company": "Pertemps Northampton - Agency - Temporary",
@@ -738,11 +684,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "9849d54f-1599-487d-a37d-202bed6f8a6f",
+    "title": "Part-Time Financial Administrator",
+    "company": "Aaron Wallis Sales Recruitment - Agency - Permanent",
+    "location": "Daventry",
+    "region": "Northamptonshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "14000",
+    "salary_max": "14000",
+    "salary_text": "£14000 per year",
+    "posted_date": "",
+    "description": "Part-Time Bookkeeper / Financial Administrator, £14,000 Basic Salary per annum. Permanent hybrid role, based on 2 days per week (typically 1 day per week from home) - equivalent to £35,000 full-time. Our client is an established, highly reputable professional services firm based in Daventry. Known for providing exceptional, methodical service, they are now seeking an experienced, highly organised, and versatile Bookkeeper/Financial Administrator to join their close-knit team.\n\nTo an extent, this role can be moulded to suit the successful applicant. This is a fantastic opportunity for a self-motivated finance professional seeking a role that offers genuine flexibility, private healthcare, and a brilliant work-life balance.\n\nThe Role of Finance Administrator\n\nThis is a comprehensive, varied role that requires exceptional time management and organisational skills. Working both independently and collaboratively, the successful candidate will manage day-to-day financial administration, maintain precise accounting records across multiple bank accounts, and handle monthly payroll processing.\n\nKey Responsibilities of the Finance Administrator\n- Bookkeeping & Core Finance - managing financial records, transactional processing, VAT returns, and assisting with tax and VAT compliance.\n- Reconciliations & Reporting - conducting thorough account and payment platform reconciliations. Completing profit & loss, nominal activity, and fund balance reports for partners.\n- Payroll Administration - accurately processing and managing approximately 25 monthly payrolls.\n- Financial Oversight - monitoring cash flow, assisting with budgeting/forecasting, debt management, and assisting with audits and internal control reviews.\n- Administration & Relations - handling general administration and dealing directly with suppliers to establish and maintain strong working relationships.\n- Compliance - proactively staying up to date with changes in Sage software, HMRC regulations, and general accounting standards relevant to the role.\n\nThe Ideal Candidate for the Role of Finance Administrator\n- Previous experience in a similar Bookkeeping or Financial Administrator role is essential.\n- Strong, demonstrable knowledge of Sage Line 50 and Microsoft Office is required.\n- A high level of accuracy and attention to detail. Must be organised, methodical, and comfortable working both independently and as part of a team.\n- Strong organisational and time management skills, with a proven ability to manage multiple shifting responsibilities.\n\nIn Return, You Will Receive\n- £14,000 for 2 days per week (dependent on experience), which equates to £35,000 p.a. if full-time.\n- Flexible working hours and hybrid working (typically 1 day from home, 1 day in the office).\n- Generous holiday allowance plus your birthday off as an extra day.\n- Private healthcare.\n- Free on-site parking.\n\nTo Apply to the Role of Finance Administrator\n\nIf you are an experienced finance professional looking for a rewarding, flexible part-time role with a fantastic local employer, please forward your CV to\n\nThis vacancy is being advertised by Aaron Wallis Recruitment and Training Limited operating as an Employment Agency, registered in England No View our and",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsQ%2bMGNhlUMiEhgwPc9%2bGnd7m",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "1 day from home / 1 day in office",
+    "working_arrangement_evidence": "Permanent hybrid role, based on 2 days per week (typically 1 day per week from home) - equivalent to £35,000 full-time.",
+    "advertiser_name": "Aaron Wallis Sales Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "0a9e1d7f-a3c9-430f-9944-20551e04f0bf",
@@ -764,6 +731,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "ACS Recruitment Solutions Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225462965",
+    "title": "PURCHASING COORDINATOR",
+    "company": "Euro-Projects Recruitment Ltd - Agency - Permanent",
+    "location": "Northamptonshire",
+    "region": "Northamptonshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "29000",
+    "salary_max": "29500",
+    "salary_text": "£29000 - £29500 per year (25days holiday + bank hols + 6% pen)",
+    "posted_date": "",
+    "description": "PURCHASING COORDINATOR\n\nBanbury Hybrid 29,500\n\nPurchasing Coordinator\n\nA fantastic opportunity has arisen for a Purchasing Coordinator to join a well-established organisation in Banbury.\n\nThis role would suit someone with experience in administration, customer service, logistics, supply chain or purchasing who is looking to take the next step in their career as a Purchasing Coordinator.\n\nWorking as part of a friendly and supportive team, the Purchasing Coordinator will be responsible for raising purchase orders, monitoring supplier deliveries, expediting orders and maintaining strong supplier relationships.\n\nResponsibilities as a Purchasing Coordinator.\n- Raise and manage purchase orders.\n- Monitor supplier deliveries and order status.\n- Expedite urgent and overdue orders.\n- Liaise with suppliers regarding deliveries, returns and quality issues.\n- Track supplier performance and service levels.\n- Work closely with internal departments to ensure product availability.\n- Support reporting and administrative activities.\n\nRequirements for this Purchasing Coordinator role\n- Previous office-based administration experience.\n- Strong communication and relationship-building skills.\n- Good organisational skills and attention to detail.\n- Ability to manage multiple priorities.\n- Confident user of Microsoft Office.\n- Purchasing, logistics, customer service or supply chain experience beneficial.\n\nBenefits\n- 29,500 salary\n- Hybrid working\n- 25 days holiday plus bank holidays\n- Employer pension contribution\n- Salary sacrifice car scheme\n- Life assurance\n- Employee wellbeing support\n- Retail discounts\n- Career development opportunities\n- Study support\n\nIdeal Backgrounds for a Purchasing Coordinator\n\nPurchasing Administrator, Procurement Assistant, Supply Chain Assistant, Logistics Administrator, Operations Administrator, Stock Controller, Customer Service Administrator or Sales Support Administrator.\n\nApply today to learn more about this exciting Purchasing Coordinator opportunity in Banbury.\n\nReference: PR/(phone number removed) Purchasing Coordinator.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJ3YVojQs4bGYz6p3HYpPAAl",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "PURCHASING COORDINATOR PURCHASING COORDINATOR Banbury Hybrid 29,500 Purchasing Coordinator A fantastic opportunity has arisen for a Purchasing Coordinator to join a well-established organisation in Banbury.",
+    "advertiser_name": "Euro-Projects Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",

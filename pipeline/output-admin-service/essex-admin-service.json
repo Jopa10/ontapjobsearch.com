@@ -131,11 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225405536",
@@ -235,12 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444938",
@@ -290,13 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462925",
@@ -321,11 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473828",
@@ -450,11 +431,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225401845",
@@ -554,40 +531,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "23643_225424582",
-    "title": "Order Process Administrator",
-    "company": "Just Recruitment Group - Agency - Permanent",
-    "location": "Witham",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Just Recruitment is proud to be supporting a well-established and growing business in Witham in their search for an Order Process Administrator.\nYou will be responsible for processing and orders, confidently reading dimensions from drawings with a keen eye for detail to ensure the product is produced with a right first time approach.\nWorking in a customer service orientated industry with a positive 'can do' attitude. To assist and help the customer service team with general administrative duties.\nDuties include:\nProcessing customer orders and quotations received via email using the bespoke software.\nLiaising with customers to ensure their requirements are achievable.\nLiaising closely with internal departments to schedule planning, production and transport in line with customer installation programmes.\nProactive response to answering the telephone within 3 rings.\nEnthusiastic attitude to deal with and resolve customers' queries or issues promptly.\nKey skills required:\nPositive, can-do attitude\nMust have a friendly and positive manner\nEnergetic, self-driven and motivated\nExcellent attention to detail\nAbility to continually multitask\nFlexibility of working hours in order to meet the needs of the business",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPSYmrZPBZ%2bplPe3DzIuk7gr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Just Recruitment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225467195",
@@ -612,12 +556,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225426201",
@@ -692,13 +631,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Data entry",
-      "Document preparation",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444703",
@@ -723,11 +656,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469202",
@@ -752,12 +681,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "00000259-1 [JSP51644]",
@@ -785,6 +709,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "fdf4ce6a-ca7e-4ffe-8a01-451d877ac55d",
+    "title": "General Administrator / Weighbridge - Harvest Season admin",
+    "company": "Peter Knight Recruitment Ltd - Agency - Temporary",
+    "location": "Colchester",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "15",
+    "salary_max": "15",
+    "salary_text": "£15 per hour",
+    "posted_date": "",
+    "description": "General Administrator / Weighbridge - Harvest Season admin\n\nMy client is one of the largest independent food waste processing operators in the UK. It has expanded its food waste recycling network through acquisition, located across England, Scotland and Wales that provide cost-effective, low carbon, food, and organic waste management solutions. Working with supermarkets, the hospitality industry, food manufacturers and local authorities across the UK, the sites recycle over half a million tonnes of food waste each year.\n\nFull training provided. This is a temporary role to provide general administrative support during the harvest season. Taking and making phone calls, data entry into spreadsheets, general admin. Common sense and a positive attitude to problem solving would be helpful. And a good sense of humour.\n\nNo previous experience required but Weighbridge Operator experience is desired but your willingness to learn and be committed is more important.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6bnx2R5NO5tL1N1wbBb1%2fZg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Peter Knight Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225461819",
     "title": "Tenancy Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -807,11 +756,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fc888ab0-1af2-4cbf-95a4-38d8060b0dae",
@@ -836,11 +781,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107837697",
@@ -915,11 +856,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472719",
@@ -944,11 +881,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_219418271",
