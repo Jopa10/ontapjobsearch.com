@@ -26,7 +26,7 @@ Edit only each `action:` line:
 ## JobG8 — 13 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £15 - £18.5 per hour | Interim Finance & Procurement Administrator
 source_key: jobg8
 source: JobG8
@@ -44,7 +44,7 @@ hub_fingerprint: 44f9fe9cb9a37a91e7409b49dbde9635a66e202319c87a5706040d7eb662831
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Cambridge | £40000 - £50000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -62,7 +62,7 @@ hub_fingerprint: 32c81bdc223e38437653f7fe159a4fcb31bea07a6daae451006fdc2d8baed58
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Dorset | Dorset | £50000 - £60000 per year | Chartered Paraplanner
 source_key: jobg8
 source: JobG8
@@ -80,7 +80,7 @@ hub_fingerprint: b285f1f19d989163d0d1ee220591b03c9984d300ac82d65cd8cb2cc23dabf37
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Braintree | £55000 - £85000 per year | Financial Planner
 source_key: jobg8
 source: JobG8
@@ -98,7 +98,7 @@ hub_fingerprint: 47be208b86ddc3ca3019cf829217de196ab98d56881834efa47df7834b9f3ff
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Colchester | £30000 - £50000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -116,7 +116,7 @@ hub_fingerprint: 43375b380daa5a4171bd0651746095a68c3d299c8e78306d5853e820aaa767f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £26208 - £31820 per year | Customer Service Advisor
 source_key: jobg8
 source: JobG8
@@ -134,7 +134,7 @@ hub_fingerprint: 7c92c0fc760c05f0cee75918c9f626578fc9e3f99e7e8f5aa7fb1ff1337fefd
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £40000 - £50000 per year | Administrator
 source_key: jobg8
 source: JobG8
@@ -152,7 +152,7 @@ hub_fingerprint: 48ec9b1e50fc3775de95813b94b5eb51211f25ee4bd5c45204850469f3f1a83
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £19 - £20 per hour | Assistant Board Secretary
 source_key: jobg8
 source: JobG8
@@ -170,7 +170,7 @@ hub_fingerprint: 97e84fc881331190444e9230b6d13859de2012535a7770beec73ea724e9ef3d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £29000 - £35000 per year (Pension, Private Health Ins., Birthd) | HR and Facilities Coordinator
 source_key: jobg8
 source: JobG8
@@ -188,7 +188,7 @@ hub_fingerprint: f90dcf0dcec6ae8508b9d8be32b322eb72b1a76485fc1735ed4b77270ae7c1f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £32000 - £36000 per year | HR Administrator 3m FTC - Creative Agency
 source_key: jobg8
 source: JobG8
@@ -206,7 +206,7 @@ hub_fingerprint: a41ef400967168678c3295fb8656364b276f9d46f07b4a4de17b1ead30a3ce6
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Surrey | Caterham | £40000 per year | Bid Coordinator
 source_key: jobg8
 source: JobG8
@@ -224,7 +224,7 @@ hub_fingerprint: 769cf494e6a6418ef9c1093b844b328822ceb7a72151a6f7b5a7162c7cfbfa6
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Wiltshire | Marlborough | £40000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -242,7 +242,7 @@ hub_fingerprint: 91c896db1592b3086bf4628055498e90b750dd1bff2cf0c042f729f79751a10
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wiltshire | Swindon | £30000 - £42000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -262,7 +262,7 @@ hub_fingerprint: 38d64d8c94e7f36cd7844f5f4cb6d00732352ee54bf87e376eb0b31e55fc5e0
 ## NEJobs — 31 to review
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Annand House, Meadowfield | Grade 6 - £28,142- £31,022 (P… | Business Services Co-ordination and I…
 source_key: nejobs
 source: NEJobs
@@ -280,7 +280,7 @@ hub_fingerprint: 57031c36163bbea8de1cc1b3ef6fee2255cd8f1260eb272b724d28bc72ff4d8
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Barnard Castle | £27,128.40 | Facilities Coordinator
 source_key: nejobs
 source: NEJobs
@@ -298,7 +298,7 @@ hub_fingerprint: 5ccd80ff51911bda40b594a84329224191047cac266dbf68a04c60d8a5f2381
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £26,403 to £28,598 pro rata (… | Admin Assistant – Finance/HR
 source_key: nejobs
 source: NEJobs
@@ -316,7 +316,7 @@ hub_fingerprint: dba511da9ce0a66ad36d236c4c37d0a12fda1122838901a38a2941f51477b40
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Bishop Auckland College (deri… | Harmonised pay scale points 2… | 0.4 Lecturer Coordinator in Counselli…
 source_key: nejobs
 source: NEJobs
@@ -334,7 +334,7 @@ hub_fingerprint: 8c7c7d0762600f32eae4cbc4ff481c700a7f04e2c9756f6c3e0128706cba531
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | CETL | £25,989 - £26,403 per annum | Administration Assistant
 source_key: nejobs
 source: NEJobs
@@ -352,7 +352,7 @@ hub_fingerprint: d010cec42d27d56ca11d6fb9668a3a1fed8478918567cb9c07f2d15bd98d719
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Council Offices, Green Lane,… | £30,024 to £33,699 p.a. (Grad… | Technical and Support Officers
 source_key: nejobs
 source: NEJobs
@@ -370,7 +370,7 @@ hub_fingerprint: eee80ded68deccabc9904c3950b658f649d16130add7c703fff67ea4a06ecf1
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Durham (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -388,7 +388,7 @@ hub_fingerprint: 139f88888f229f5f9fe6e833add7d0adfc85b206b13ad36b111560f988bf26d
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor | Support Grade B; £26,970 per… | Administrator
 source_key: nejobs
 source: NEJobs
@@ -406,7 +406,7 @@ hub_fingerprint: ca71aea76861b3d701fe3bb4d76203062384b1130a6702ccae29294baf0b621
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor Campus, Dur… | Support Grade D; £28,980 per… | Apprenticeship Support Officer
 source_key: nejobs
 source: NEJobs
@@ -424,7 +424,7 @@ hub_fingerprint: 19931492d927be2626336468f487886f615cf935747254a0f3c21b938d60830
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Highlight Active Wellbeing Hub | £13.47 per hour | Customer Service Advisor
 source_key: nejobs
 source: NEJobs
@@ -442,7 +442,7 @@ hub_fingerprint: 62687a0e5e789f643870f58153466f6daa3011f7bb3e0c1c4b66de04d10cf63
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Sacriston | £24,796 - £25,185 (Pro Rata) | Administrative Assistant
 source_key: nejobs
 source: NEJobs
@@ -460,7 +460,7 @@ hub_fingerprint: 94805941d7a10ad14f713b0c206264388ad818ea6cc142f7302544bedbd0644
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | St Joseph’s Catholic Junior S… | Grade D, SCP 5 - 7 (£25,583 -… | Administration Assistant
 source_key: nejobs
 source: NEJobs
@@ -478,7 +478,7 @@ hub_fingerprint: 7507f9968b5aad504475ee2825a92cce314a9cda8efe0f8e9f7e5b597309d48
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | The Horizon School, CETL, Bri… | Band 7 £23,175 - £24,314 pa | Attendance & Support Officer
 source_key: nejobs
 source: NEJobs
@@ -496,7 +496,7 @@ hub_fingerprint: 64dd0294ca52611e04248d7c953952d623f4b24a9348d0814837cd01c127c64
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award… | PA Support Officer
 source_key: nejobs
 source: NEJobs
@@ -514,7 +514,7 @@ hub_fingerprint: b229398fb577b31bbbfa2ca527ce6b9d13f2a21d8c7630d3be0c5c41f56f67c
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £39,152 - £41,771 per annum | Systems Administrator (Housing Servic…
 source_key: nejobs
 source: NEJobs
@@ -532,7 +532,7 @@ hub_fingerprint: 9971e838c41c20c9ff3ed696a4f2ed403408fb684147e1c2ffcf74a26c9b723
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Adult Social Care, South Tyne… | £41,771 pa | Local Area Coordinator – Primrose
 source_key: nejobs
 source: NEJobs
@@ -550,7 +550,7 @@ hub_fingerprint: 4e069413f5c5595c38b4ce96217cddd173d849e17bd0896288cc7abfa9c4d1a
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | County Hall MORPETH, United K… | £21,122.40 - 22,513.60 per an… | Statutory SEND Coordinator
 source_key: nejobs
 source: NEJobs
@@ -568,7 +568,7 @@ hub_fingerprint: 2c874683a17cf692c339f1744ec3a60532335c080b21144b20edbe581c7d282
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £41,771 - £45,091 | Simpler Recycling Projects Coordinator
 source_key: nejobs
 source: NEJobs
@@ -586,7 +586,7 @@ hub_fingerprint: 3b0e8f02f087726d987144547de3ff381588621c231dc1e24c1968dffd8ed89
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filter… | Actual pro-rata salary is £27… | Attendance Officer
 source_key: nejobs
 source: NEJobs
@@ -604,7 +604,7 @@ hub_fingerprint: 614ea5da9d66370f342345b47a43ccb8146e9f4c54dcef6013668f3fc04990c
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filter… | From £14.54 - £15.20 per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -622,7 +622,7 @@ hub_fingerprint: e70cf53d96b40fc74e58a55f0a36a9a7838a31849808de5f6d00088414576f5
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | SCP 23-25, FTE salary (£34,43… | Data and Exams Officer
 source_key: nejobs
 source: NEJobs
@@ -640,7 +640,7 @@ hub_fingerprint: eb0366a45bdd4fbdf0dd4e52dcfaac59e0552a5d93ef84dd5ee623809c6934d
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | North Tyneside | GRADE 5 SCP 7 (£26,403) - SCP… | Claims Support Officer
 source_key: nejobs
 source: NEJobs
@@ -658,7 +658,7 @@ hub_fingerprint: aa5acd45a0ce00ad6b2e3663d6a09ab0e09e42de2c895a94a3deab5e0b6e5ba
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | North Tyneside (derived for f… | From £14.54 - £15.20 per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -676,7 +676,7 @@ hub_fingerprint: 64bf0662804a1f6ed315871ea1d4ce11e7aacdd049ac8ec55ad88e3c67117a4
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for f… | From £14.54 - £15.20 per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -694,7 +694,7 @@ hub_fingerprint: 303bf9f5e0bb813a0bb69248336680f74ed5baa708e107d7762d6d31ee88851
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | School Administrators require… | From £14.54 - £15.20 per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -712,7 +712,7 @@ hub_fingerprint: f22353b963b4f536e7f992fcd3ce2c5461f7a7ae5e9350d7d0d21455594f6e4
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | School Administrators require… | From £14.54 - £15.20per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -730,7 +730,7 @@ hub_fingerprint: 17b768df59f421ca753265c3eee2fed39ecc23e733cf54fd8e194c81bfc9261
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filte… | From £14.54 - £15.20 per hour | School Administrator
 source_key: nejobs
 source: NEJobs
@@ -748,7 +748,7 @@ hub_fingerprint: a896d83b7150e69eb42b4787c8922946e4bf5bb8b838bd8287e7a10b042972f
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 3 (SCP 7- 11) £26,403-£… | Customer Enabling Services Advocate
 source_key: nejobs
 source: NEJobs
@@ -766,7 +766,7 @@ hub_fingerprint: 1a38ced7cf228332d0f1507ad5c2fa9d998e86c95f70cde9342d21a147a4738
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 5 (SCP 17-22) £31,022.0… | Driving Assessment Officer
 source_key: nejobs
 source: NEJobs
@@ -784,7 +784,7 @@ hub_fingerprint: 6122af7333158f7201953a88505add667e6f6a7d78710f71abd4b536559342f
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Town Hall, South Shields | £28,598 pa | Technical Support Officer – Licensing
 source_key: nejobs
 source: NEJobs
@@ -802,7 +802,7 @@ hub_fingerprint: ee00a56705f08b61ea5e6c8425a2c83adb88a3db917cb814c35602b690799a8
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Various Locations | £25,989 pa pro rata (£13.47 p… | Receptionist – Various Posts
 source_key: nejobs
 source: NEJobs
@@ -822,7 +822,7 @@ hub_fingerprint: 7f77de41b53823e21c258fa36bf7ff49ad73fd49a062cc90a101d8241d7a496
 ## VONNE — 8 to review
 
 ---
-action:
+action: select
 POSS | VONNE | North East | Hybrid | £ Per Annum | Bid Writer
 source_key: vonne
 source: VONNE
@@ -840,7 +840,7 @@ hub_fingerprint: 1f4b0795750f0576597fe877d02af5c277080cbb46a2fed3195b9c528eeabbb
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £26,761 to 28,966 Pro Rata | Therapeutic Coordinator
 source_key: vonne
 source: VONNE
@@ -858,7 +858,7 @@ hub_fingerprint: b069f84826b38ecaeab9b11d4f35cdf92f333b49b13e38429303efbadfe4183
 ---
 
 ---
-action:
+action: exclude
 POSS | VONNE | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Bereavement Counsellor
 source_key: vonne
 source: VONNE
@@ -876,7 +876,7 @@ hub_fingerprint: c4a9dbb21e5b693e8fc2bdd4cbccbb74bed01d14bab957632a4287f64620322
 ---
 
 ---
-action:
+action: exclude
 POSS | VONNE | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Counsellor/Psychotherapist
 source_key: vonne
 source: VONNE
@@ -894,7 +894,7 @@ hub_fingerprint: 2d3f27098c39263ffe06dbd1550eee2ff535e3953443276c8ebddd37391d8e2
 ---
 
 ---
-action:
+action: exclude
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
 source_key: vonne
 source: VONNE
@@ -912,7 +912,7 @@ hub_fingerprint: f6f17cc9bf6c31abb2a5c23accddf0548bd4fe1242a63815a784fbfe5e049dc
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Offic…
 source_key: vonne
 source: VONNE
@@ -930,7 +930,7 @@ hub_fingerprint: a483b67d9ab0d611dd1367a2adbffad4be02ef2039eb70bbee4686299b507f6
 ---
 
 ---
-action:
+action: exclude
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partners…
 source_key: vonne
 source: VONNE
@@ -948,7 +948,7 @@ hub_fingerprint: 88d36239cf2d77cc244d2084d9bacfa811eb601f50c8374bbf4e444efa145f9
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,790 to 27,000 Per Annum | Youth Engagement Officer
 source_key: vonne
 source: VONNE
@@ -968,7 +968,7 @@ hub_fingerprint: 74a2010d372e60b3c46392cc82fce9cc798cb9dd5844e3cc6382bceee66c700
 ## Teaching Vacancies — 26 to review
 
 ---
-action:
+action: exclude
 POSS | Teaching Vacancies | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -986,7 +986,7 @@ hub_fingerprint: 436756c5b3326d04c2b7c1a38597c052f1eb9e8b93eea95126d2e1a4797af96
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1004,7 +1004,7 @@ hub_fingerprint: c743b8c06986077c9e94012ac9c523a8b7985c00beea775aeebd8b6244eb572
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1022,7 +1022,7 @@ hub_fingerprint: 98903f09aba0182997e8e97d60fa4a83200bb1dccdaa254e5b9084f29a95350
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1040,7 +1040,7 @@ hub_fingerprint: 44d148bb4914d1dd9c607c6fadcaaccd012f3acaa1b1ba1a0985b9bd7b71e01
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Devon | Exeter, South West, EX1 2SN | £9,058.00 Annually (Actual) | Senior Pupil Services officer - 2 days/week
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1058,7 +1058,7 @@ hub_fingerprint: 177e5eccaa0e18ac3aec9d71f25b53a42e752328b4907d824e4cf602de02778
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1076,7 +1076,7 @@ hub_fingerprint: f57e507c4a6cd740654cd9d41b34a3b1c5b993b07f4588e38404ddc0b2c8c10
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1094,7 +1094,7 @@ hub_fingerprint: f6b5a99b3a8eabb860c3eabbe8fa23a486f48b7931c13df53e8d146981ad93a
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hampshire | Southampton, South East, SO30 4EJ | £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1112,7 +1112,7 @@ hub_fingerprint: a757fc700d90cb9c8b7c01ff5b089946f031589e2df57323dae78f573e37907
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1130,7 +1130,7 @@ hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa43
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1148,7 +1148,7 @@ hub_fingerprint: 1bc4d13ea6c2ee61d760d55cbded78b35311c5e01857d2d620f75de6e289be0
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1166,7 +1166,7 @@ hub_fingerprint: 1f010a519f80bac9ba99219721c8700348f43fb1a5ace5688a367e9649cd60e
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1184,7 +1184,7 @@ hub_fingerprint: 2151d7e740021a7a3c2637680e853e574a844c73d52bf6f992dca5ece18de54
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1202,7 +1202,7 @@ hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586caf
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1220,7 +1220,7 @@ hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1238,7 +1238,7 @@ hub_fingerprint: db9c5ea983ebe8fce144fa268013c83ef7bdc700ae4cce7040a8730837afb91
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | New Malden, KT3 6NU | £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings. | Governance and Compliance Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1256,7 +1256,7 @@ hub_fingerprint: 75819c902b36c50aa5175fd2e0a7925b10e84b1ec296895650bb41689fb28d1
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Sutton, SM3 8AB | £13,395.00 Annually (Actual) £33,129 (FTE) | HR Admin Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1274,7 +1274,7 @@ hub_fingerprint: 6de58d7f4564e60c00d239b014a71503e131ba7e65cb43111c8f90ca2e6d3ab
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Wallington, London, SM6 7NP | £32,070 - £33,987 | HR Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1292,7 +1292,7 @@ hub_fingerprint: 112f2963c07456a304a810d4225a0fc9cdd9f01709ee45d787f248a9c2cfea3
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Northamptonshire | Northampton, East Midlands, NN6 8PT | £26,846.00 Annually (FTE) £ 8217.92 actual salary | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1310,7 +1310,7 @@ hub_fingerprint: 22b1e8be9c881daaaa578ae19feadbfb3c5b984dcf69d9788454c15371e3da6
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Exams Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1328,7 +1328,7 @@ hub_fingerprint: 4f407e60141111e365be7320c452fffd199c75547049272fc67517cee8a0e23
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1346,7 +1346,7 @@ hub_fingerprint: e629769cd2c378af8217300b0df7063f6a9c15f605d6349ecf35c8a4fdde03f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1364,7 +1364,7 @@ hub_fingerprint: 792a44b1355bb882826eef20df22d3f839aa2537b64125da61f3107956d549c
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1382,7 +1382,7 @@ hub_fingerprint: 08f6053263c1a6101e06492181ee0bd18df9b610e3d2b6475d560f92c2a2c99
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1400,7 +1400,7 @@ hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa93020631
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1418,7 +1418,7 @@ hub_fingerprint: b26a1f91da9bd30669a73843202f0f910517397544fd38db19cc8ca785f62af
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Wiltshire | Swindon, SN1 2LB | £31,525.09 - £35,570.32 Annually (Actual) | HR Operations Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
