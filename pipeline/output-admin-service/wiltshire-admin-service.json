@@ -131,12 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434482",
@@ -236,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107843004",
@@ -290,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "9733c0f8-fa32-48a1-bacb-f551007188c2",
@@ -319,12 +306,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "cac4b13c-1d7f-419f-9112-dc0652d868ff",
@@ -346,6 +328,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "360 Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2e108e98-a7de-4a5d-87c1-b82190063317",
+    "title": "Accounts Administrator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Devizes",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25000",
+    "salary_max": "30000",
+    "salary_text": "£25000 - £30000 per year",
+    "posted_date": "",
+    "description": "Location: Devizes (with occasional travel to other sites)Job Type: Full Time, PermanentSalary: Competitive IRO £25-£30 K p/a DOE\n\nAbout the Company\n\nAn established, award-winning organisation with a long-standing history is seeking an Accounts Administrator to join its team. Operating across multiple locations, the business delivers high-quality professional services to a broad client base across the UK.\n\nThe company is recognised for its commitment to excellent service, innovation, and a supportive working culture. Employees benefit from a collaborative environment, clear values, and genuine opportunities for professional development and progression.\n\nThe Role\n\nThis is a key position within the finance function, supporting the organisation's day-to-day financial operations and ensuring the accurate processing of client transactions.\n\nThe Accounts Administrator will work closely with multiple departments, playing an important role in maintaining efficient and compliant financial processes.\n\nKey Responsibilities\n- Managing day-to-day online client banking activities\n- Processing transactions from initial checks through to completion\n- Posting financial transactions to client ledgers, including fees, disbursements and payments\n- Handling payments via card, cheque and cash\n- Maintaining accurate and up-to-date client ledger records\n- Assisting with month-end reporting processes\n- Supporting wider finance operations, including payment runs and invoice processing\n\nSkills and Experience Required\n\nEssential\n- Experience within a fast-paced accounts or finance environment\n- High level of accuracy and attention to detail, with strong data entry skills\n- Ability to manage workload effectively and meet deadlines\n- Strong communication skills and a professional, client-focused approach\n- Team player with the ability to support multiple departments\n- Good IT skills, including Microsoft Office packages\n\nDesirable\n- Experience within a professional services environment\n- Knowledge of accounting systems such as Sage or similar\n- Bookkeeping experience\n\nBenefits\n- Competitive salary\n- Supportive and collaborative working environment\n- Opportunities for training and career development\n- Varied and responsible role within a growing organisation\n- Positive company culture with team engagement activities\n\nApply\n\nIf you are a detail-oriented accounts professional looking to develop your career within a well-established and supportive organisation, we would welcome your application.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX6wDfGrYhhkXfWpnyJBWAlMz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",

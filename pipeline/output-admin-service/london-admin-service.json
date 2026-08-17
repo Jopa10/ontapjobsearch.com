@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-unicorn-primary-school",
-    "title": "Administrative Assistant",
-    "company": "Unicorn Primary School",
-    "location": "Beckenham",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£8,807.09 Annually (Actual) Bromley Localised Pay Scale Grade BR5",
-    "work_pattern": "",
-    "posted_date": "2026-07-22",
-    "closing_date": "2026-08-16",
-    "closing_datetime": "2026-08-16T23:59:00+01:00",
-    "summary": "Administrative Assistant with Unicorn Primary School in Beckenham. ['part time']; £8,807.09 Annually (Actual) Bromley Localised Pay Scale Grade BR5.",
-    "description": "Unicorn Primary School is recruiting for this vacancy in Beckenham.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,807.09 Annually (Actual) Bromley Localised Pay Scale Grade BR5.\n\nThe stated application deadline is 2026-08-16T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-unicorn-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Unicorn Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-hr-finance-assistant-parliament-hill-school",
-    "title": "HR & Finance Assistant",
-    "company": "Parliament Hill School",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Scale 4,point 7-10 (pro-rata £27,761-£28,980)",
-    "work_pattern": "",
-    "posted_date": "2026-07-14",
-    "closing_date": "2026-08-16",
-    "closing_datetime": "2026-08-16T23:59:59+01:00",
-    "summary": "HR & Finance Assistant with Parliament Hill School in London. ['full time']; Scale 4,point 7-10 (pro-rata £27,761-£28,980).",
-    "description": "Parliament Hill School is recruiting for this vacancy in London.\n\nThe advertised position is HR & Finance Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Scale 4,point 7-10 (pro-rata £27,761-£28,980).\n\nThe stated application deadline is 2026-08-16T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-finance-assistant-parliament-hill-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Parliament Hill School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-contracts-administrator",
     "title": "Contracts Administrator",
     "company": "Oasis Community Learning",
@@ -719,12 +663,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225431204",
@@ -799,12 +738,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465230",
@@ -829,12 +763,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474593",
@@ -1034,12 +963,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "30dd270a-bc10-438a-91aa-350d9861e84e",
@@ -1189,14 +1113,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225403370",
@@ -1246,11 +1163,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225407744",
@@ -1403,6 +1316,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "dc4811cd-1599-4e2d-ae8a-97454e284be1",
+    "title": "Office Assistant",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year",
+    "posted_date": "",
+    "description": "Office Assistant\n\nSalary: £30-35k depending on experience\n\nLocation: London Bridge\n\nHours: 40 hours a week - Monday - Friday. Core hours are between 10am-4pm.\n\nThis role will be full time office based\n\nOur client in the renewable energy sector is seeking a highly organised and professional Office Assistant to ensure the smooth day-to-day operation of their London office while providing executive support to a senior leader. This is a varied role requiring excellent organisational skills, discretion, and the ability to manage multiple priorities in a fast-paced environment.\n\nKey Responsibilities\n\nOffice Management\n- Manage the daily running of the London office, ensuring a professional and efficient working environment.\n- Coordinate with building management, contractors, and suppliers.\n- Oversee office supplies, refreshments, post, deliveries, and facilities.\n- Prepare meeting rooms and provide a welcoming experience for visitors.\n\nExecutive Support\n- Manage a senior leader's diary, appointments, and scheduling priorities.\n- Arrange domestic and international travel, accommodation, and related logistics.\n- Process expenses accurately and within agreed timescales.\n\nEvents & Administration\n- Coordinate internal events, team activities, and company gatherings.\n- Provide general administrative support, including HR onboarding activities and record management.\n- Assist with internal and external communications.\n- Handle sensitive information with professionalism and confidentiality.\n\nCandidate Profile\n- Previous experience in an Office Assistant, Office Coordinator, Team Assistant, or similar role is beneficial\n- Strong Microsoft Office skills (Word, Excel, PowerPoint, Outlook).\n- Excellent communication and organisational abilities.\n- High attention to detail with a proactive approach.\n- Strong understanding of confidentiality and data protection.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKkVQ8tRUSayqOXpTk%2fVskZl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "5a534179-7cff-416a-b14c-b5f1f11b907c",
     "title": "Administrator Intern - 9 Months FTC",
     "company": "General Optical Council - Company - Contract",
@@ -1525,11 +1463,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430273",
@@ -1579,11 +1513,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -1733,12 +1663,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225196977",
@@ -1788,12 +1713,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444722",
@@ -1843,12 +1763,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452426",
@@ -1898,12 +1813,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225454170",
@@ -2028,12 +1938,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464987",
@@ -2083,35 +1988,6 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
-  },
-  {
-    "job_id": "23643_225467286",
-    "title": "Billing & Data Administrator",
-    "company": "Box Recruitment Group - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year (DOE plus bonus)",
-    "posted_date": "",
-    "description": "£30,000 - £35,000 DOE\nBilling Administrator Location: Stamford Hill Hours: Fully office-based role\nMonday - Thursday: 9:30am - 6:00pm\nFriday: Early finish (in winter months)\n\nAre you good with data and MS Excel? If you answered yes, we want to hear from you!\nBox Recruitment Solutions are exclusively recruiting for a growing telecoms business in Stamford Hill. Reporting directly to the Billing Manager, this is an excellent opportunity for a proactive and detail-oriented administrator with strong data handling and customer service skills to join a busy and supportive finance and operations team.\n\nThe successful candidate will be responsible for carrying out billing administration for both B2 B and B2 C customers across telecoms services including landline, broadband, leased lines and mobile services.\n\nKey Responsibilities\n- Billing & Data Administration\n- Monthly billing administration for B2 B and B2 C customers\n- Dealing with customer billing queries over the phone and resolving\n- Add and organise data within the billing system\n- Monitor and report billing data using internal systems\n- Reconcile and validate discrepancies across platforms including Zoho, Salesstar, My Accounts and Abillity\n- Import, match and verify data from multiple sources\n- Customer Communications\n- Generate and send end-of-contract letters to customers\n- Handle customer and internal queries via email and telephone professionally\n- Produce and dispatch billing and account-related correspondence\n- Systems & Reporting\n- Work with the Abillity billing platform\n- Produce internal reports and compile team data for review\n- Support the transition from manual to system-led billing processes\n- Team Support\n- Work closely within a collaborative team environment\n- Support colleagues with ad hoc administrative and operational tasks\n- Participate in cross-functional communication across the business\n\nPreferred Skills & Experience\n- Confident Excel skills including formulas and pivot tables\n- Previous billing administration or data-driven administration experience (preferred)\n- Strong attention to detail and organisational skills\n- Professional and confident telephone manner\n- Able to commute to Stamford Hill North London on a daily basis\n- Exposure to billing and CRM systems such as Abillity, Zoho, Salesstar or similar billing platforms would be advantageous\n\nBenefits\n- 28 days holiday\n- Private healthcare\n- Discretionary yearly bonus\n- KPI bonus scheme\n- Discounted rewards scheme\n- Early finish on Fridays\n\nINDD",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RYLSU6FPV7KLi6v3r83RuIx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Box Recruitment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -2212,11 +2088,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3d2f35d7-304f-43ec-ab7a-50a01ee54e4b",
@@ -2316,11 +2188,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480304",
@@ -2448,36 +2316,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "6abbe353-471c-494b-af84-6d4c94434358",
-    "title": "Administrator",
-    "company": "Axis CLC - Company - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Axis, part of Axis CLC, is a trusted property services specialist delivering responsive repairs, planned works, refurbishments and voids services across the UK. Backed by over 110 years of combined experience and the wider strength of Axis CLC, operating from 23 UK offices and employing more than 2,500 people nationwide, we support housing providers and public sector clients with high-quality maintenance and compliance services that help keep residents safe, properties well maintained and communities supported.\n\nWe are looking for an organised and customer-focused Administrator to join our Repairs & Maintenance team, supporting the delivery of services to housing association and local authority residents.\n\nWorking on our long-term partnership with Newham, you will help coordinate reactive, planned and disrepair works across a large housing portfolio. This role plays a key part in ensuring repairs are processed efficiently, residents are kept informed and records are maintained accurately.\n\nWhat You'll Do\n\nHandle incoming calls from residents, providing clear and professional updates on repair works.\n\nRaise, process and schedule repair orders using company systems, ensuring accuracy for invoicing and reporting.\n\nMaintain accurate records, job notes and audit trails.\n\nReview supervisor and operative reports and take appropriate follow-up action.\n\nResolve queries and minor complaints at first point of contact.\n\nMonitor shared inboxes, logs and variation requests.\n\nLiaise with operatives, planners, subcontractors and residents to coordinate works and provide progress updates.\n\nOrder materials and equipment as required.\n\nEnsure all activity is updated accurately and in line with KPIs and service targets.\n\nWhat You'll Bring\n\nAdministrative experience within social housing, with a strong preference for candidates who have supported repairs and maintenance delivery.\n\nIT literate with strong system and data-entry skills\n\nUnderstanding of maintenance and repairs terminology\n\nAwareness of KPIs and performance targets\n\nKnowledge of housing sector processes (desirable)\n\nKey Skills:\n\nExcellent telephone manner and customer service skills\n\nStrong communication and problem-solving abilities\n\nAbility to prioritise and manage workload under pressure\n\nHigh attention to detail and accuracy\n\nAbility to meet tight deadlines\n\nTeam player with a positive, flexible approach\n\nWhat We Offer\n\nSalary of up to £28,000 depending on experience, plus performance-related bonus\n\nPension, medical scheme options and life assurance\n\n25 days' holiday + bank holidays\n\nPerkbox benefits worth up to £350 per year, including discounts, perks and wellbeing support\n\n24/7 GP referral and wellbeing support service\n\n1 paid volunteer day\n\n£2,000 refer-a-friend bonus after the referee passes probation\n\nOpportunities for development and progression across Axis CLC\n\nWhy Axis CLC\n\nJoining Axis CLC means being part of a national team delivering essential services across housing, education, healthcare, defence and commercial property. We value reliability, quality and social impact, and offer meaningful work with real opportunities to grow.\n\nOur Commitment to Inclusion\n\nMany faces, one Axis CLC. We value diversity and are proud to be an equal-opportunity employer. If you need any adjustments during the hiring process, please let us know.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxW5%2foqnhdMTNJnoGoqpTuWp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Axis CLC",
-    "advertiser_type": "Company",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Shared inboxes",
-      "Records administration"
-    ]
-  },
-  {
     "job_id": "0906ca90-a036-407c-83ed-23f7911adcfc",
     "title": "PA & Team Administrator",
     "company": "Sagacity - Company - Permanent",
@@ -2500,11 +2338,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "ada47eb5-cc52-4738-b6f2-4f788f18c0cb",
@@ -2529,12 +2363,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4dd8d513-8ffd-4e38-846c-a67afb0e54c2",
@@ -2584,12 +2413,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2fe712f6-4d2b-4c9d-ad41-ff4fc1a1b318",
@@ -2614,11 +2438,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1d0c335b-3ed3-4338-b59f-58aa9e9d5ce6",
@@ -2668,6 +2488,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "d0235093-4932-491a-afaf-8729f1784a15",
+    "title": "Customer Administrator",
+    "company": "PMR - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "31000",
+    "salary_max": "31000",
+    "salary_text": "£31000 per year",
+    "posted_date": "",
+    "description": "Job title: Customer Administrator\n\nLocation: East London\n\nSalary: £31,000\n\nType: Permanent, full time\n\nA well-established Build to Rent operator is looking for a Customer Administrator to join its central administration team in East London. Working alongside a small team of administrators, you'll manage the tenancy process from application through to move-in, making sure every stage is accurate, compliant and delivered within service standards.\n\nIt's a fast-paced, high-volume environment. You'll often be one of the first points of contact for residents, working closely with on-site teams, Finance and Leasing.\n\nKey responsibilities\n- Handle incoming enquiries across the portfolio, taking ownership through to resolution\n- Manage new tenancy administration from application to move-in - qualifying applications, ID and Right to Rent checks, referencing, fraud checks, tenancy agreements and prescribed information\n- Manage ongoing contracting activity including renewals, transfers, extensions, surrenders, parking and storage licences, pet applications, utility agreements and payment plans\n- Maintain accurate tenant accounts and tenancy records across all business systems, keeping documentation complete, compliant and audit ready\n- Process payments, raise charges, account amendments and rent splits\n- Administer Direct Debit instructions and issue tenant statements\n- Register, release and deregister tenancy deposits\n- Chase rent arrears and other debt in line with agreed processes, liaising with site teams and Finance\n- Support statutory notices and legal proceedings including section notices, evictions and bailiff appointments, liaising with solicitors where required\n- Maintain up-to-date knowledge of Right to Rent, GDPR and residential tenancy legislation\n- Identify opportunities to improve processes and ways of working\n\nEssential experience\n- Previous experience in Build to Rent, residential lettings or residential property administration\n- Strong track record of delivering high-quality customer service in a fast-paced environment\n- Experience managing the end-to-end tenancy administration process, including residential contracts\n- Experience using tenancy referencing platforms\n- Good understanding of Right to Rent requirements\n- Good working knowledge of Microsoft Office\n\nDesirable\n- Experience using a property management system such as Yardi, MRI or similar\n- CRM experience\n- Knowledge of tenancy deposit administration\n- Experience supporting arrears or debt management processes\n- Knowledge of current residential lettings legislation\n\nSkills\n\nStrong communicator, well organised, excellent attention to detail, comfortable prioritising competing workloads, and a genuine team player.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzLM3gRovF74Vax556L%2btE%2bp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "PMR",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -2818,11 +2663,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107786275",
@@ -2922,11 +2763,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "8020e878-1422-4caf-9587-c94da50bc145",
@@ -2951,11 +2788,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "06d9ecc2-8f55-4bf3-ad8b-835c375815fc",
@@ -3005,12 +2838,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225440089",
@@ -3035,72 +2863,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
-  },
-  {
-    "job_id": "ce1a4d3a-01bd-4318-9879-9012ad1a1d1b",
-    "title": "Practice Administrator/Secretary",
-    "company": "SKILLFRAME - Agency - Permanent",
-    "location": "Twickenham",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "36000",
-    "salary_text": "£30000 - £36000 per year",
-    "posted_date": "",
-    "description": "Practice Administrator & Secretary\n\nLocation: Twickenham\n\nHours: Full-time, permanent, Monday to Friday, 9.00am to 5.30pm.\n\nSalary: Competitive\n\nAdditional: A three-month probationary period applies. References will be required.\n\nThe Role\n\nAn exciting opportunity has arisen for a Practice Administrator & Secretary to join our clients friendly and professional team within a busy firm of Chartered Accountants and Auditors.\n\nThis is a varied and interesting role, providing administrative and secretarial support to the Directors and wider team. The successful candidate will be an organised, professional, and proactive individual who enjoys working in a small practice environment where they can build strong working relationships with colleagues and clients.\n\nThe role is ideal for someone with previous secretarial or administrative experience who enjoys variety, takes pride in delivering a high standard of service, and is comfortable managing competing priorities in a professional environment.\n\nKey Responsibilities\n\nReception & Client Support:\n\nActing as the first point of contact for visitors, clients, telephone calls, and emails.\n\nProviding a professional and welcoming front-of-house service, with a smile.\n\nGreeting clients and ensuring meeting room is prepared.\n\nManaging incoming post, outgoing correspondence, and recorded deliveries.\n\nLiaising professionally with clients and suppliers.\n\nSecretarial & Administrative Support:\n\nProviding secretarial support to the Director and team.\n\nPreparing letters, documents, and general correspondence with a high typing speed.\n\nDiary management and arranging meetings using Outlook.\n\nTaking meeting notes/minutes when required.\n\nMaintaining accurate electronic and paper filing systems.\n\nScanning, filing, and organising client documentation.\n\nUpdating internal records, databases, and administrative systems.\n\nSetting up and maintaining spreadsheets and databases.\n\nSupporting the smooth day-to-day running of the office.\n\nMaintenance of office equipment and general office upkeep and tidiness.\n\nSecretarial cover and working with other Secretaries/Admin staff and Office Manager to achieve goals.\n\nClient Administration:\n\nAssisting with the administration of limited company client affairs.\n\nMaintaining client records and ensuring information is accurately updated in real time.\n\nAssisting with the receipt and organisation of client records and documentation in real time.\n\nSupporting administrative requirements relating to Companies House and HM Revenue & Customs in real time.\n\nAbout You\n\nOur client is looking for someone who:\n\nHas previous experience in a secretarial or administrative role (ideally within a professional services environment).\n\nHas excellent written and verbal communication skills.\n\nHas a professional and friendly telephone and front-of-house manner.\n\nIs highly organised with strong attention to detail.\n\nCan prioritise workloads and manage multiple tasks effectively.\n\nIs confident working independently while also contributing positively to a small team.\n\nHas excellent IT skills, including Microsoft Word, Excel, Outlook, and databases.\n\nIs numerate and comfortable working with spreadsheets and systems.\n\nUnderstands the importance of confidentiality, data protection, and handling sensitive information.\n\nIs reliable, punctual, trustworthy, and professional.\n\nPossess a strong work ethic and enjoy working to tight deadlines using own initiative with the ability to work on your own.\n\nA professional attitude with the ability to adapt to different situations, being calm under pressure.\n\nTo be flexible and open to change.\n\nWork well with others, excellent team player.\n\nExperience of managing a high volume of work, providing full secretarial support to the team.\n\nProfessional appearance.\n\nAn awareness of the importance of risk management and compliance.\n\nExperience & Qualifications\n\nMinimum of 3 years' experience in a secretarial / administrative role and demanding services environment, with 5 years plus experience preferred.\n\nExperience within accountancy, finance, legal, or another professional services environment would be advantageous/preferable.\n\nEducated to GCSE level (or equivalent) minimum, with grades A-C to include English and Maths, strong IT / written and verbal communication skills at all levels, with an aptitude towards spreadsheets, databases and word processing (Microsoft office). Further qualifications or relevant professional experience would be advantageous.\n\nWorking Environment\n\nYou will be joining a small, friendly practice where you will work closely with the Director, and wider administration team. The role offers variety, responsibility, and the opportunity to become a valued member of the team.\n\nTelephone support is shared within the administration team, providing a collaborative working environment.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP54maOnyzJrqJZFm5eyoNyUy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "SKILLFRAME",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "23643_225465331",
-    "title": "Temporary Executive Assistant / Administrator",
-    "company": "Office Angels - Agency - Temporary",
-    "location": "Twickenham",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "16",
-    "salary_max": "25",
-    "salary_text": "£16 - £25 per hour",
-    "posted_date": "",
-    "description": "Temporary Executive Assistant / Administrator\n\nLocation: Twickenham\nDuration: 4-8 Weeks\nStart Date: ASAP\nContract Type: Temporary\n\nOverview\n\nOur client is seeking an experienced and highly organised Temporary Executive Assistant / Administrator to provide a blend of executive support and office administration. This is an excellent opportunity for someone who enjoys working in a fast-paced environment and can quickly adapt to new systems and processes.\n\nThe role is split approximately 50/50 between supporting the Manager and providing general office administration support.\n\nKey Responsibilities\nExecutive Assistant Support\n- Manage the Manager's diary and calendar, ensuring schedules are effectively coordinated.\n- Arrange and coordinate meetings, including sending invitations and managing meeting logistics.\n- Monitor and manage email inboxes, prioritising correspondence and responding where appropriate.\n- Act as a key point of contact for internal and external stakeholders.\n- Provide general administrative support to the Manager as required.\n\nAdministration & Office Support\n- Manage incoming emails through a ticketing system, ensuring requests are allocated to the appropriate teams for action.\n- Monitor ticket progress and assist with follow-up where necessary.\n- Maintain accurate records and update internal systems.\n- Support day-to-day office administration activities.\n- Assist with document management, filing and general business support tasks.\n- Collaborate with colleagues to ensure smooth operational processes.\n\nSkills & Experience Required\n- Previous experience in an Executive Assistant, Personal Assistant, Office Administrator or similar support role.\n- Strong organisational and time management skills.\n- Experience managing busy calendars and coordinating meetings.\n- Confident handling multiple priorities in a fast-paced environment.\n- Excellent written and verbal communication skills.\n- High attention to detail and ability to work independently.\n\nSystems Experience\n- HubSpot (essential)\n- Microsoft Outlook (essential)\n- Experience working with ticketing or workflow management systems would be advantageous.\n\nPerson Specification\n- Proactive and self-sufficient approach to work.\n- Strong problem-solving abilities.\n- Professional and approachable manner.\n- Able to hit the ground running with minimal supervision.\n- Flexible and adaptable to changing priorities.\n\nWhat's on Offer\n- Immediate start available.\n- Short-term temporary assignment (4-8 weeks).\n- Varied role combining EA and administrative responsibilities.\n- Opportunity to gain experience within a dynamic business environment.\n\nInterested candidates should be available to start immediately and commit to the duration of the assignment.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJ0iJ%2ff1a3eyAWustArIk8vl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "316f2ae5-fd75-409f-9b68-3ef8adc7fb89",
@@ -3125,13 +2888,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2f01765c-5705-43c3-8e7b-12bf4fdd75d5",
@@ -3156,11 +2913,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430631",
@@ -3210,12 +2963,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225334055",
@@ -3240,13 +2988,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461934",
@@ -3268,6 +3010,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Daniel Owen Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225465331",
+    "title": "Temporary Executive Assistant / Administrator",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "Twickenham",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "16",
+    "salary_max": "25",
+    "salary_text": "£16 - £25 per hour",
+    "posted_date": "",
+    "description": "Temporary Executive Assistant / Administrator\n\nLocation: Twickenham\nDuration: 4-8 Weeks\nStart Date: ASAP\nContract Type: Temporary\n\nOverview\n\nOur client is seeking an experienced and highly organised Temporary Executive Assistant / Administrator to provide a blend of executive support and office administration. This is an excellent opportunity for someone who enjoys working in a fast-paced environment and can quickly adapt to new systems and processes.\n\nThe role is split approximately 50/50 between supporting the Manager and providing general office administration support.\n\nKey Responsibilities\nExecutive Assistant Support\n- Manage the Manager's diary and calendar, ensuring schedules are effectively coordinated.\n- Arrange and coordinate meetings, including sending invitations and managing meeting logistics.\n- Monitor and manage email inboxes, prioritising correspondence and responding where appropriate.\n- Act as a key point of contact for internal and external stakeholders.\n- Provide general administrative support to the Manager as required.\n\nAdministration & Office Support\n- Manage incoming emails through a ticketing system, ensuring requests are allocated to the appropriate teams for action.\n- Monitor ticket progress and assist with follow-up where necessary.\n- Maintain accurate records and update internal systems.\n- Support day-to-day office administration activities.\n- Assist with document management, filing and general business support tasks.\n- Collaborate with colleagues to ensure smooth operational processes.\n\nSkills & Experience Required\n- Previous experience in an Executive Assistant, Personal Assistant, Office Administrator or similar support role.\n- Strong organisational and time management skills.\n- Experience managing busy calendars and coordinating meetings.\n- Confident handling multiple priorities in a fast-paced environment.\n- Excellent written and verbal communication skills.\n- High attention to detail and ability to work independently.\n\nSystems Experience\n- HubSpot (essential)\n- Microsoft Outlook (essential)\n- Experience working with ticketing or workflow management systems would be advantageous.\n\nPerson Specification\n- Proactive and self-sufficient approach to work.\n- Strong problem-solving abilities.\n- Professional and approachable manner.\n- Able to hit the ground running with minimal supervision.\n- Flexible and adaptable to changing priorities.\n\nWhat's on Offer\n- Immediate start available.\n- Short-term temporary assignment (4-8 weeks).\n- Varied role combining EA and administrative responsibilities.\n- Opportunity to gain experience within a dynamic business environment.\n\nInterested candidates should be available to start immediately and commit to the duration of the assignment.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJ0iJ%2ff1a3eyAWustArIk8vl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
@@ -3296,11 +3063,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "48820166-2b23-444d-9954-cfff6c033111",
@@ -3325,13 +3088,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225498172",
@@ -3431,12 +3188,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Customer portals",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225424406",
@@ -3486,11 +3238,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225411504",
@@ -3590,12 +3338,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
@@ -3645,11 +3388,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
@@ -3674,14 +3413,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -3706,13 +3438,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428764",
@@ -3787,11 +3513,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434211",
@@ -3916,11 +3638,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497881",
@@ -4045,12 +3763,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225399146",
@@ -4300,31 +4013,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1660452",
-    "title": "CEO Office Coordinator",
-    "company": "Marie Curie - Agency - Permanent",
-    "location": "Lambeth",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Marie Curie is the UK's leading end-of-life charity. We are the largest non-NHS provider of end-of-life care in the UK, the only provider across all 4 nations, delivering community nursing and hospice care across the country, while providing information and support on all aspects of dying, death, and bereavement. Our leading research pushes the boundaries of what we know about good end-of-life, and our campaigns fight for a world where everyone gets to have the best possible quality of life while living with an illness, they're likely to die from.\n\nWe are looking for a highly organised executive support professional who can manage complex administration, coordinate senior stakeholders, handle confidential information and ensure the smooth running of the CEO Office.\n\nThe CEO Office sits at the heart of Marie Curie, supporting the Chief Executive Officer, Chief Operating Officer and Chairman. Working closely with senior leaders, trustees and key stakeholders, the team plays a vital role in ensuring the smooth running of the organisation's leadership activity and helping the Executive team focus on delivering Marie Curie's strategic priorities.\n\nAs CEO Office Coordinator (Project Coordinator), you'll be a trusted partner within the CEO Office, helping to keep our Executive team organised, connected and operating effectively. From managing complex schedules and coordinating high-profile meetings to supporting leadership programmes and handling sensitive information with discretion, your work will have a direct impact on the efficiency and effectiveness of the organisation's most senior leaders.\n\nYour Impact:\n- Provide high-quality administrative and executive support to the Head of CEO Office, CEO, COO and Chairman.\n- Manage complex diaries, meeting schedules and executive priorities, proactively resolving conflicts and coordinating commitments.\n- Organise meetings, events, travel and accommodation arrangements for senior leaders and leadership teams.\n- Prepare and coordinate correspondence, reports, presentations, agendas, minutes and other business documents.\n- Build strong relationships with internal and external stakeholders, acting as a professional and confidential point of contact.\n- Support Executive Leadership Team and Board activities, including logistics and meeting coordination.\n- Maintain effective filing and information management systems, ensuring records are accurate, organised and accessible.\n- Work collaboratively with colleagues across the organisation to support leadership initiatives, engagement activities and cross-functional meetings.\n\nKey Requirements:\n- Previous experience in an administrative, Executive Assistant, Personal Assistant or similar coordination role within a busy, complex and highly regulated environment.\n- Proven experience managing diaries, meetings and priorities for senior stakeholders.\n- Strong organisational skills with the ability to manage multiple tasks, competing deadlines and changing priorities.\n- Excellent communication and interpersonal skills, with the confidence to engage professionally with stakeholders at all levels, including senior leadership.\n- Demonstrated ability to handle confidential and sensitive information with discretion and sound judgement.\n- Strong problem-solving skills and a proactive approach to identifying and resolving issues.\n- A collaborative, customer-focused approach and a commitment to providing outstanding support.\n- Proficiency in Microsoft Office applications, including Outlook, Word, Excel, PowerPoint and Teams.\n\nPlease see the full job description (attached).\n\nApplication & Interview Process\n- As part of your online application, you will be asked for a CV and supplementary details. Please review both the advert and job description and outline your most relevant skills, experience and knowledge for the role.\n- Close date for applications: 23 August 2026. We encourage early applications as we may close the job advert sooner after receiving a sufficient number of applications.\n\nSalary: £29,000 (+ £3,500 London Weighting Allowance if applicable)\n\nContract: Permanent, full-time (35h per week)\n\nLocation: Hybrid. You will work from home and from our Embassy Gardens office in London (3 days a week)\n\nBenefits you'll LOVE:\n- Flexible working. We're happy to discuss flexible working at the interview stage.\n- 25 days annual leave (exclusive of Bank Holidays)\n- Marie Curie Group Personal Pension Scheme (we will match your contribution up to 7.5%)\n- Loan schemes for bikes; computers and season tickets\n- Continuous professional development opportunities.\n- Industry-leading training programmes\n- Wellbeing and Employee Assistance Programmes\n- Enhanced bereavement, family friendly and sickness benefits\n- Access to Blue Light Card membership\n- Subsidised Eye Care\n- 15% discount in-store at our Marie Curie Shops (Terms & Conditions apply)\n\nAt Marie Curie, our values are central to everything we do. They guide how we care for people, how we work together, and how we make decisions every day. We are committed to creating a workplace that is safe for everyone - staff and volunteers alike - supportive, inclusive and rewarding. We take stringent steps to ensure that anyone who joins our organisation are suitable for their roles and are committed to safeguarding all our people from harm. We actively consider our impact on the planet, embedding sustainability into everyday decisions to create a lasting, positive difference for the individuals we care for and the world we share.\n\nWe believe everyone should have the opportunity to thrive and fulfil their potential. Marie Curie is deeply committed to diversity, equity and inclusion, recognising both the social justice imperative and the strength a diverse workforce brings. We actively encourage applications from people of all cultures, perspectives and lived experiences.\n\nWe are happy to make reasonable adjustments throughout the recruitment process.\n\nEvery application we receive is personally reviewed by a member of our Talent Acquisition team, and in return, we ask that your application authentically reflects you - your experience, perspective and voice.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYQkUqZ59Lg8XIQYLVH24DMk",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Salary: £29,000 (+ £3,500 London Weighting Allowance if applicable) Contract: Permanent, full-time (35h per week) Location: Hybrid.",
-    "advertiser_name": "Marie Curie",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
