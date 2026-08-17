@@ -1,9 +1,9 @@
 # Ontap daily job review
 
 review_date: 2026-08-17
-generated_at: 2026-08-17T11:49:07+00:00
+generated_at: 2026-08-17T17:08:52+00:00
 
-**78 job(s) need a human decision.**
+**86 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -17,13 +17,31 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-17 | 13 | — |
+| JobG8 | OK | 2026-08-17 | 21 | — |
 | NEJobs | OK | 2026-08-17 | 31 | — |
 | VONNE | OK | 2026-08-17 | 8 | — |
 | Teaching Vacancies | OK | 2026-08-17 | 26 | — |
 | NHS Jobs | FUTURE | — | 0 | adapter reserved; enable when NHS ingestion/review output is live |
 
-## JobG8 — 13 to review
+## JobG8 — 21 to review
+
+---
+action:
+POSS | JobG8 | Berkshire | Slough | £28000 - £32000 per year | HR & Operations Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 57c09aa3-10d6-4ef7-94bb-9e2981c9f002
+title: HR & Operations Administrator
+employer: 
+location: Slough
+region: Berkshire
+salary: £28000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e9d2b295557e49aee767afaa22d653d8987e29ed772fbe509062578c9a4cea28
+---
 
 ---
 action: select
@@ -59,6 +77,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 32c81bdc223e38437653f7fe159a4fcb31bea07a6daae451006fdc2d8baed58a
+---
+
+---
+action:
+POSS | JobG8 | Cambridgeshire | Peterborough | £28000 - £40000 per year | Paraplanner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 6e92762b-5ca2-4563-a525-f086197bdaab
+title: Paraplanner
+employer: 
+location: Peterborough
+region: Cambridgeshire
+salary: £28000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 89bae6e86c6c50335497eb4df41eee80931f585adb5f58e1c40c636689e7cfe5
 ---
 
 ---
@@ -116,21 +152,21 @@ hub_fingerprint: 43375b380daa5a4171bd0651746095a68c3d299c8e78306d5853e820aaa767f
 ---
 
 ---
-action: select
-POSS | JobG8 | Essex | Essex | £26208 - £31820 per year | Customer Service Advisor
+action:
+POSS | JobG8 | Essex | Grays | £28000 - £32000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225499225
-title: Customer Service Advisor
+source_job_id: 93baa206-491b-430c-a77e-ba07b8e9564e
+title: Accounts Assistant
 employer: 
-location: Essex
+location: Grays
 region: Essex
-salary: £26208 - £31820 per year
+salary: £28000 - £32000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 7c92c0fc760c05f0cee75918c9f626578fc9e3f99e7e8f5aa7fb1ff1337fefd0
+hub_fingerprint: 48693e5d27e3830f7c0fcd132329e7b0f3859fe1862ec0ba44351b28ec6380bb
 ---
 
 ---
@@ -188,6 +224,42 @@ hub_fingerprint: f90dcf0dcec6ae8508b9d8be32b322eb72b1a76485fc1735ed4b77270ae7c1f
 ---
 
 ---
+action:
+POSS | JobG8 | London | London | £30000 - £37000 per year | Brand Coordinator & Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 98db520e-fecc-42d4-979f-9f11eec9c785
+title: Brand Coordinator & Administrator
+employer: 
+location: London
+region: London
+salary: £30000 - £37000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d93efbe1e14314305a3b4faf08976c35f8aebd92f4afb18360ac4de30111916e
+---
+
+---
+action:
+POSS | JobG8 | London | London | £20 per hour | Examinations Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225500892
+title: Examinations Coordinator
+employer: 
+location: London
+region: London
+salary: £20 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 02bd4380b3341e553ec904f6acb2b8aa29e8e52b4708c701a7d36a3de8054699
+---
+
+---
 action: select
 POSS | JobG8 | London | London | £32000 - £36000 per year | HR Administrator 3m FTC - Creative Agency
 source_key: jobg8
@@ -206,6 +278,24 @@ hub_fingerprint: a41ef400967168678c3295fb8656364b276f9d46f07b4a4de17b1ead30a3ce6
 ---
 
 ---
+action:
+POSS | JobG8 | London | London | £35000 - £40000 per year | Permanent: Operations Co-ordinator to £40,000 ( Chiswick)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: a4658548-cea5-400a-aea0-5db656f46bf4
+title: Permanent: Operations Co-ordinator to £40,000 ( Chiswick)
+employer: 
+location: London
+region: London
+salary: £35000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 214c113c41144659ff126d272f6a02c19f093059a6991ae2345bd2d527d7ddee
+---
+
+---
 action: select
 POSS | JobG8 | Surrey | Caterham | £40000 per year | Bid Coordinator
 source_key: jobg8
@@ -221,6 +311,60 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 769cf494e6a6418ef9c1093b844b328822ceb7a72151a6f7b5a7162c7cfbfa6d
+---
+
+---
+action:
+POSS | JobG8 | Surrey | Caterham | £30000 - £40000 per year | Tender Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 19e67123-787d-40eb-bc54-4e10e57a7295
+title: Tender Administrator
+employer: 
+location: Caterham
+region: Surrey
+salary: £30000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6f1795b3b9d57290cdab28035d7a10629265f988d20c54176f4716c03d92bcc9
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Atherstone | £15 - £20 per hour | Part Time Secretary
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: f2b1b885-1e89-40a2-9927-0632554cbc43
+title: Part Time Secretary
+employer: 
+location: Atherstone
+region: West Midlands - Coventry & Warwickshire
+salary: £15 - £20 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 15bcaec8bbfeba44baf12dc621ec4d86de4ba7aa95dcbd2563bcc408be93c360
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Coventry | £31500 per year | SOL Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2b0f08ad-fe9d-4637-8766-17a7c353b0cd
+title: SOL Administrator
+employer: 
+location: Coventry
+region: West Midlands - Coventry & Warwickshire
+salary: £31500 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 338fdad9757970bff192a5c4bbbb075166662a3c4185ce23cfb5a184144c8a0b
 ---
 
 ---
