@@ -1,17 +1,17 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-13T11:47:49+01:00",
+  "generated_at": "2026-08-17T19:32:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-13",
-  "review_fingerprint": "c4a72e4db3cfc43d50ee9d29fab8491fc44f95e09b81b7522d676b9ac4a314e2",
-  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
-  "review_csv_sha256": "5ea003e43adc611345ecafc729bbcda36e208e868f1f01fa9ead42be6ef6eaf9",
-  "summary_md_sha256": "c848abcdb992cae3aa4813cbaab915bb2bb48cf53f5707191ef160984b39013d",
-  "approved_snapshot_sha256": "b69664b6dcfb91151bc4a8453fa8282c0dfc13dc3b43d3452236b44cd7202567",
-  "approved_rows": 7,
+  "review_date": "2026-08-17",
+  "review_fingerprint": "19bfa16305de0ea20ff8d9ad5631bacbe267a95e469bfed027d8631e7983d745",
+  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
+  "review_csv_sha256": "ca793ad7223c95409cbb358fdf929345ee021f2116e5eaf64178b8459dd19566",
+  "summary_md_sha256": "5427e0229b89246f56525ca6778de86872215473a3613b1d7bd74c11db8a02ef",
+  "approved_snapshot_sha256": "55c17400ae8d2650194e061d62c111bc7a90eb627311bdac9ba90d93f2d70d10",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-receptionist-faringdon-community-college-faringdon-oxfordshire",
     "teaching-vacancies-receptionist-part-time-considered",
@@ -19,6 +19,7 @@
     "teaching-vacancies-school-office-receptionist-administrative-assistant",
     "teaching-vacancies-educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire",
     "teaching-vacancies-inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990",
-    "teaching-vacancies-school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946"
+    "teaching-vacancies-school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946",
+    "teaching-vacancies-office-administrator-barton-park-primary-school"
   ]
 }

@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 3
-- POSS awaiting decision: 2
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: select
+SELECTED | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
+employer: Queen's Crescent School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bae439fa258dd730bf3e81ecd3380d311521bf06699190ddf06e5a2503fc0955
+source: Teaching Vacancies
+source_job_id: admin-officer-queen-s-crescent-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
+---
 
 ---
 action: 
@@ -52,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administra
 ---
 
 ---
+action: select
+SELECTED | Wiltshire | Swindon, SN1 2LB | £31,525.09 - £35,570.32 Annually (Actual) | HR Operations Officer
+employer: The White Horse Federation
+closing_date: 2026-08-17T23:59:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9e72f356122fe54daad9398dc94a45ea1039a316e533326b495b5a922c1d7822
+source: Teaching Vacancies
+source_job_id: hr-operations-officer-the-white-horse-federation-swindon-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer-the-white-horse-federation-swindon-not-recorded
+---
+
+---
 action: 
 SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £3,865.19 Annually (Actual) Actual salary will be determined depending on hours agreed | Progression Administrator
 employer: Bradon Forest School
@@ -68,35 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/progression-administr
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
-employer: Queen's Crescent School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bae439fa258dd730bf3e81ecd3380d311521bf06699190ddf06e5a2503fc0955
-source: Teaching Vacancies
-source_job_id: admin-officer-queen-s-crescent-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
----
-
----
-action: 
-POSS | Wiltshire | Swindon, SN1 2LB | £31,525.09 - £35,570.32 Annually (Actual) | HR Operations Officer
-employer: The White Horse Federation
-closing_date: 2026-08-17T23:59:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e72f356122fe54daad9398dc94a45ea1039a316e533326b495b5a922c1d7822
-source: Teaching Vacancies
-source_job_id: hr-operations-officer-the-white-horse-federation-swindon-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer-the-white-horse-federation-swindon-not-recorded
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

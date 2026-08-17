@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Parkwood Hall Co-Operative Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nore Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Diocese Of Canterbury Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -181,12 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Reporting",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "db261fce-bc72-4699-8504-ee766ecc1449",
@@ -211,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225423837",
@@ -240,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473807",
@@ -269,11 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "9313f8d8-798c-47d4-b862-63cec763953a",
@@ -298,11 +272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225461884",
@@ -352,11 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225400133",
@@ -431,11 +397,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "96572460-cb6b-4213-999e-95d0413b799c",
@@ -763,31 +725,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107699135",
-    "title": "Utility Service Coordinator",
-    "company": "M Group - Company - Permanent",
-    "location": "Dartford",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-12",
-    "description": "About The Role\nRight across infrastructure, theres a requirement to not only maintain, but also renew and reimagine. Whatever stage youre at in your career, with us youll have an opportunity to grow and develop. Delivering essential infrastructure services for life, while being safety first and client and customer centric in a friendly, fun and respectful environment where you are encouraged to thr click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0K5myoZH26kUNxNRWjTuuDNs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "M Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225472655",
     "title": "Sales Administrator",
     "company": "New Appointments Group - Agency - Permanent",
@@ -810,14 +747,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225385708",
@@ -892,11 +822,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "11eb2a41-8583-4d40-8d7e-11042de70dda",
@@ -921,11 +847,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107699135",
+    "title": "Utility Service Coordinator",
+    "company": "M Group - Company - Permanent",
+    "location": "Dartford",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-12",
+    "description": "About The Role\nRight across infrastructure, theres a requirement to not only maintain, but also renew and reimagine. Whatever stage youre at in your career, with us youll have an opportunity to grow and develop. Delivering essential infrastructure services for life, while being safety first and client and customer centric in a friendly, fun and respectful environment where you are encouraged to thr click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0K5myoZH26kUNxNRWjTuuDNs",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "M Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225498937",
@@ -953,6 +900,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "9d7f3187-0404-475b-840d-386f3c479dd4",
+    "title": "Administrator",
+    "company": "Michael Page Finance - Agency - Temporary",
+    "location": "Westerham",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-17",
+    "description": "As a Administrator you'll handle customer service enquiries, manage orders, and ensure smooth communication between teams. Based in Westerham, this temporary role plays a key part in keeping operations running efficiently.\n\nClient Details\n\nThis role is within a rapidly growing business in Westerham, they are trusted specialists in their field. The provide a professional, unobtrusive service with effective long-term solutions for residential and commercial properties.\n\nDescription\n- Respond to customer enquiries promptly and professionally.\n- Process and manage sales orders accurately.\n- Coordinate between departments to ensure timely delivery of goods or services.\n- Maintain clear and organised records of customer interactions and orders.\n- Provide regular updates to customers regarding their orders or queries.\n- Assist with administrative tasks related to sales and customer service.\n- Support the sales team with any additional tasks as required.\n\nProfile\n\nA successful Administrator should have:\n- Strong organisational and communication skills.\n- Attention to detail and accuracy in processing orders.\n- Confidence in using computer systems and managing data.\n- Ability to multitask and prioritise workload effectively.\n- Previous experience in customer service or Administrator roles.\n\nJob Offer\n- Hourly pay dependent on the level of experience.\n- Temporary position offering flexibility.\n- Opportunity to work in Westerham for a market leading business\n\nIf you're interested in this role, apply now.\n\nPeople are at the heart of Michael Page. We are committed to creating an inclusive environment. As an inclusive recruiter we welcome applications from people of all backgrounds, identities and experiences. If you require any adjustments or accommodations during the recruitment process, we'll work with you to ensure you can perform at your best.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBa0yh4m%2fXYlj8TfngRFVmRFk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page Finance",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225405481",
     "title": "Project Coordinator",
     "company": "Office Angels - Agency - Permanent",
@@ -975,11 +947,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "900e2fad-e172-4801-908f-64a7b0d2064e",
@@ -1004,11 +972,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472227",
@@ -1057,56 +1021,6 @@
     "advertiser_name": "INTEGRATED CARE 24",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225466245",
-    "title": "Project Coordinator",
-    "company": "Pearson Whiffin Recruitment Ltd - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "2026-08-13",
-    "description": "Scheduler / Project Coordinator\n£28,000 - £35,000 DOE\nMid Kent\nMonday - Friday 8:00am - 4:00pm or 9:00am - 5:00pm\n\nAre you looking to join an established and growing business where you can play a key role in delivering successful projects?\n\nMy client is seeking a proactive and organised Scheduler / Project Coordinator to join their Project Delivery team. This is an exciting opportunity for someone who enjoys planning, coordinating and managing multiple tasks in a fast-paced environment.\n\nDuties:\n- Plan and organise engineer schedules, subcontractor activities and material deliveries to meet project deadlines.\n- Oversee the coordination of multiple projects from initial handover through to successful completion\n- Produce and maintain project documentation, including RAMS, O&M manuals\n- Provide day-to-day administrative and operational support to the Operations and Project Managers across a range of contracts.\n- Participate in project meetings, reporting on progress, highlighting any issues and contributing to the successful delivery of projects.\n- Manager Purchase orders and documents.\n\nTo be considered for this role you with have/be:\n- A background within construction, mechanical services, M&E, engineering or facilities management would be advantageous\n- Confident communicator, capable of building effective relationships with colleagues, clients and suppliers.\n- Proficient in Microsoft Office, particularly Excel, Word and Outlook, with good general IT skills.\n- Background in a coordination, scheduling, administration or project support position, with experience managing tasks, timelines and project-related activities.\n\nThis role is being handled by Chloe Wadhams & Holly Ensoll, Business Support Consultant for Pearson Whiffin Recruitment.\n\nNot quite the right role but still looking?\n\nWhether you are entry or Executive level, our team of experienced Recruitment specialists can help you with your career. We are Kent s leading independent consultancy and pride ourselves on delivering an exceptional service to both candidates and clients.\n\nFind us on and\n\nBy working with us, you will be helping support charities across",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6e9IHBSSbVdh9EYyoWvzhQ%2fh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Pearson Whiffin Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "ab5caf94-95c5-4710-820d-2aa70cbcee69",
-    "title": "Finance Assistant",
-    "company": "GXO Logistics - Company - Permanent",
-    "location": "Dartford",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "31500",
-    "salary_max": "31500",
-    "salary_text": "£31500 per year",
-    "posted_date": "2026-08-12",
-    "description": "Are you a finance professional who enjoys working with data, improving processes and supporting business performance? Do you thrive in a fast-paced environment where attention to detail and analytical thinking are key?Are you looking for an opportunity to develop your finance career within a leading logistics organisation?\n\nHere at GXO, we're recruiting for a Finance Assistant to join our IKEA operation in Dartford on a fixed-term contract until end of May 2027. Working closely with the Finance Analyst, you'll play a key role in supporting management accounting activities, financial reporting and maintaining robust financial controls across the contract.\n\nThis is a full-time position, working Monday to Friday, from 09:00 to 17:00 offering an excellent opportunity for someone looking to further develop their finance experience within a dynamic operational environment.\n\nPay, benefits and more:\n\nWe're offering a salary of up to £31,000 per annum, plus 25 days annual leave (plus bank holidays). Your benefits package includes a company sponsored pension scheme, life assurance and access to our benefits platform, including retail discounts\n\nWhat you'll do on a typical day:\n- Support the production of weekly profit and loss reporting, providing accurate financial information and insight to support operational and commercial decision-making\n- Prepare and post journals, including inter-departmental recharges and financial adjustments, ensuring all transactions are accurately recorded\n- Raise and process customer invoices while maintaining strong financial controls and ensuring compliance with agreed processes\n- Reconcile balance sheet accounts, investigating discrepancies and resolving issues to maintain financial accuracy and integrity\n- Create and maintain spreadsheets, reports and financial data models while supporting month-end activities and ad hoc projects across the finance function\n\nWhat you need to succeed at GXO:\n- Previous experience within a finance, accounting or financial administration role, with a solid understanding of financial processes and controls\n- Strong analytical skills and attention to detail, with the ability to work accurately under pressure and meet deadlines\n- Excellent Microsoft Excel and spreadsheet skills, with confidence working with financial data and reporting tools\n- Strong communication and stakeholder management skills, with the ability to build effective working relationships across departments\n- Ideally AAT qualified, studying towards ACA, ACCA or CIMA, or qualified through relevant experience\n\nWe engineer faster, smarter, leaner supply chains\n\nGXO is a leading provider of cutting-edge supply chain solutions to the most successful companies in the world. We help our customers manage their goods most efficiently using our technology and services. Our greatest strength is our global team - energetic, innovative people of all experience levels and talents who make GXO a great place to work.\n\nThe above statements are intended to describe the general nature and level of work being performed by people assigned to this classification. They are not intended to be construed as an exhaustive list of all responsibilities, duties, and skills required of personnel so classified. All employees may be required to perform duties outside of their normal responsibilities from time to time, as needed.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOooYOUGmSbKC8AjsGQVat8r",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "GXO Logistics",
-    "advertiser_type": "Company",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   }

@@ -166,5 +166,29 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-office-administrator-barton-park-primary-school",
+    "title": "Office Administrator",
+    "company": "Barton Park Primary School",
+    "location": "Oxford",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days",
+    "work_pattern": "",
+    "posted_date": "2026-08-14",
+    "closing_date": "2026-09-04",
+    "closing_datetime": "2026-09-04T12:00:00+01:00",
+    "summary": "Office Administrator with Barton Park Primary School in Oxford. ['part time']; £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days.",
+    "description": "Barton Park Primary School is recruiting for this vacancy in Oxford.\n\nThe advertised position is Office Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days.\n\nThe stated application deadline is 2026-09-04T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   }
 ]

@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-13T11:47:49+01:00",
+  "generated_at": "2026-08-17T19:32:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Surrey",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-13",
-  "review_fingerprint": "0d60580ac32977167711f4237772fc6d8170908a9229edb24c37bd8f5a51fd7e",
-  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
-  "review_csv_sha256": "be8ffb5944d68f69f35dfe610a2bcdbe1b2d16da4e2acee002e77752e9fa90e4",
-  "summary_md_sha256": "11223c0c2ebd07efafdea4966d0bb5622105ed9e28900f732b24ba2c1a41a95a",
-  "approved_snapshot_sha256": "11ef8f94a7e0bc8d4735c875a4c1fdaeae8b03a5dbfde9f27f79e3bcd45ee8c3",
-  "approved_rows": 3,
+  "review_date": "2026-08-17",
+  "review_fingerprint": "b32cca569dbdab7845c5340ef6df0fde47979c4bf0dbc8e6ac730c277b95a4bf",
+  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
+  "review_csv_sha256": "dac7eb470265ed3eb141bbdcab3ab94a7968e77911c6a75d3925b8259439dd66",
+  "summary_md_sha256": "f768bf803d6af52c8640a1bb0b6aa88f8c0b18568b727376a7fa096d08ecef02",
+  "approved_snapshot_sha256": "5978d6dc66cbc008bec60db27ea9fcc75d9ab036711ef44dae7002593bf90556",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-school-office-assistant-wray-common-primary-school",
     "teaching-vacancies-admin-assistant-holly-lodge-primary-academy-ash-vale-surrey",
     "teaching-vacancies-receptionist-office-administrator-bramley-cofe-infant-school-and-nursery"
   ]

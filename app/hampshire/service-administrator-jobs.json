@@ -22,9 +22,56 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Portsmouth Academy",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-send-administrator-access-arrangements-support-assistant",
+    "title": "SEND Administrator & Access Arrangements Support Assistant",
+    "company": "Perins School",
+    "location": "Alresford",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,126.00 - £26,244.00 Annually (FTE) Actual salary £17,020 - £17,735 per annum",
+    "work_pattern": "",
+    "posted_date": "2026-08-14",
+    "closing_date": "2026-09-09",
+    "closing_datetime": "2026-09-09T23:59:00+01:00",
+    "summary": "SEND Administrator & Access Arrangements Support Assistant with Perins School in Alresford. ['part time']; £25,126.00 - £26,244.00 Annually (FTE) Actual salary £17,020 - £17,735 per annum.",
+    "description": "Perins School is recruiting for this vacancy in Alresford.\n\nThe advertised position is SEND Administrator & Access Arrangements Support Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,126.00 - £26,244.00 Annually (FTE) Actual salary £17,020 - £17,735 per annum.\n\nThe stated application deadline is 2026-09-09T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/send-administrator-access-arrangements-support-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e",
+    "title": "Receptionist",
+    "company": "Wildern School",
+    "location": "Southampton",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796)",
+    "work_pattern": "",
+    "posted_date": "2026-08-15",
+    "closing_date": "2026-09-14",
+    "closing_datetime": "2026-09-14T12:00:00+01:00",
+    "summary": "Receptionist with Wildern School in Southampton. ['full time']; £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796).",
+    "description": "Wildern School is recruiting for this vacancy in Southampton.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796).\n\nThe stated application deadline is 2026-09-14T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-ff80cc91-b028-4603-910d-80547a4ad86e?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -174,14 +221,7 @@
     "advertiser_name": "Michael Page Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "salary_period": "Annual"
   },
   {
     "job_id": "23643_225452299",
@@ -206,66 +246,57 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "83d45f3d-8451-4284-ae13-04615ce5df99",
-    "title": "Corporate Administrator",
-    "company": "Radcliffe & Co (Life & Pensions) Ltd - Company - Permanent",
+    "job_id": "1671017",
+    "title": "Receptionist Administrator",
+    "company": "Radcliffe & Co (Life & Pensions) Ltd - Agency - Permanent",
     "location": "Southampton",
     "region": "Hampshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "30000",
-    "salary_text": "£28000 - £30000 per year",
-    "posted_date": "2026-08-12",
-    "description": "About the Role\n\nWe are looking for an organised and detail-focused Corporate Administrator to join our corporate department on a full time, office-based basis. You will provide essential administrative support to advisers and the wider team, helping to ensure client files, correspondence and processes run smoothly and accurately.\n\nKey Responsibilities\n\nClient & File Administration\n- Prepare, process and maintain client files and records, ensuring accuracy and compliance with company procedures.\n- Support advisers with the preparation of client documentation, reports and correspondence.\n- Input and update client data across internal systems and databases.\n- Ensure documentation is filed, tracked and retrievable in line with regulatory requirements.\n\nGroup Schemes Administration\n- Provide ongoing administration of group pension schemes, including member updates, contributions and renewals.\n- Administer other group risk schemes (e.g. group life, income protection, private medical insurance), liaising with providers as required.\n- Keep scheme records accurate and up to date, and respond to member and employer queries relating to group schemes.\n\nCorrespondence & Communication\n- Handle incoming and outgoing correspondence relating to client and corporate matters.\n- Liaise with clients, providers and third parties by phone and email in a professional manner.\n- Draft routine letters, emails and administrative communications.\n\nProcess & Compliance Support\n- Support the corporate department with day-to-day administrative processes and workflows.\n- Assist with the preparation of reports, valuations and meeting packs.\n- Help ensure processes meet internal compliance and regulatory standards.\n- Provide diary management and scheduling support for advisers and meetings.\n\nSkills & Experience\n- Previous experience in an administrative role, ideally within financial services or a corporate environment (essential).\n- Strong attention to detail and high level of accuracy.\n- Excellent written and verbal communication skills.\n- Well organised, with the ability to manage multiple tasks and deadlines.\n- Confident using Microsoft Office (Word, Outlook, Excel) and client database systems.\n- Understanding of confidentiality and data protection requirements.\n- Experience with financial services processes or terminology is desirable.\n\nPersonal Attributes\n- Methodical, accurate and detail-oriented.\n- Reliable, professional and trustworthy with sensitive information.\n- Proactive, with a willingness to take ownership of tasks.\n- A strong team player who works well under guidance and independently.\n\nWhat We Offer\n- Competitive salary, dependent on experience.\n- Full time, office-based role within a supportive team, one day work from home per week will be offered after successfully completing probation\n- Opportunity to develop within the financial services sector.\n- Group Pension Scheme\n- 20 days holiday (rising to 25 according to length of service)\n- Christmas shut-down\n- Group Medical Benefits\n- Group Life\n- Group PHI\n\nCompany Culture\n\nAt Radcliffe IFA, we're a close-knit team built on trust, integrity and genuinely caring about the people we work with - both our clients and each other. We take pride in our professional, polished environment while keeping things approachable and friendly day to day. We support one another, value initiative, and believe good work deserves recognition. If you're looking for a workplace where your contribution is noticed and your career can grow, you'll feel at home here.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAy5uOTPF2XfTEZiyp%2bfevgqv",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-17",
+    "description": "Radcliffe & Co is seeking a professional and personable Receptionist to join our team on a full time, office-based basis. As first point of contact for clients and visitors, you will play a key role in creating a polished, welcoming front of house environment that reflects the professionalism of our business. Alongside front of house duties, you will provide administrative support to our Corporate Department\n\nDuties and responsibilities\n\nWelcome clients, visitors and external contacts in a professional manner, ensuring a positive and efficient front-of-house experience at all times.\n\nManage incoming telephone calls, emails and correspondence, directing enquiries accurately and maintaining clear communication across departments.\n\nCoordinate meeting room bookings, visitor arrangements and office schedules to support the smooth running of daily operations.\n\nProvide day-to-day support to our Corporate Department, including document preparation and data entry.\n\nMaintain accurate client and office records in line with company procedures.\n\nExperience and qualifications\n\nPrevious experience in a receptionist, front of house or administrative role (essential).\n\nExcellent telephone manner and interpersonal skills.\n\nStrong written communication skills, with a professional approach to email correspondence.\n\nWell organised, with the ability to prioritise and multitask.\n\nConfident using Microsoft Office (Word, Outlook, Excel).\n\nA smart, professional appearance and manner at all times.\n\nExperience within a corporate, professional services or financial services environment is desirable.\n\nBenefits\n\nCompetitive salary, dependent on experience.\n\nCompany pension scheme\n\n20 days holiday plus Christmas shut down and bank holidays (this rises to 25 days according to length of service)\n\nGroup Medical Benefits\n\nGroup Life and PHI\n\nCompany culture\n\nRadcliffe & Co is a close-knit team, built on trust and integrity and genuinely caring about the period we work with, both our clients and each other. We take pride in our professional, polished environment while keeping things friendly day to day. We support one another, value initiative and believe good work deserves recognition.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAw7L3qMn%2bRnkAag9JDtInRBv",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Radcliffe & Co (Life & Pensions) Ltd",
-    "advertiser_type": "Company",
+    "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "7be5680e-a507-4691-9047-c6a09a1f9220",
-    "title": "Receptionist Administrator",
-    "company": "Radcliffe & Co (Life & Pensions) Ltd - Company - Permanent",
+    "job_id": "1671015",
+    "title": "Corporate Administrator",
+    "company": "Radcliffe & Co (Life & Pensions) Ltd - Agency - Permanent",
     "location": "Southampton",
     "region": "Hampshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "23000",
-    "salary_max": "25000",
-    "salary_text": "£23000 - £25000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Radcliffe & Co is seeking a professional and personable Receptionist to join our team on a full time, office-based basis. As first point of contact for clients and visitors, you will play a key role in creating a polished, welcoming front of house environment that reflects the professionalism of our business. Alongside front of house duties, you will provide administrative support to our Corporate Department\n\nDuties and responsibilities\n\nWelcome clients, visitors and external contacts in a professional manner, ensuring a positive and efficient front-of-house experience at all times.\n\nManage incoming telephone calls, emails and correspondence, directing enquiries accurately and maintaining clear communication across departments.\n\nCoordinate meeting room bookings, visitor arrangements and office schedules to support the smooth running of daily operations.\n\nProvide day-to-day support to our Corporate Department, including document preparation and data entry.\n\nMaintain accurate client and office records in line with company procedures.\n\nExperience and qualifications\n\nPrevious experience in a receptionist, front of house or administrative role (essential).\n\nExcellent telephone manner and interpersonal skills.\n\nStrong written communication skills, with a professional approach to email correspondence.\n\nWell organised, with the ability to prioritise and multitask.\n\nConfident using Microsoft Office (Word, Outlook, Excel).\n\nA smart, professional appearance and manner at all times.\n\nExperience within a corporate, professional services or financial services environment is desirable.\n\nBenefits\n\nCompetitive salary, dependent on experience.\n\nCompany pension scheme\n\n20 days holiday plus Christmas shut down and bank holidays (this rises to 25 days according to length of service)\n\nGroup Medical Benefits\n\nGroup Life and PHI\n\nCompany culture\n\nRadcliffe & Co is a close-knit team, built on trust and integrity and genuinely caring about the period we work with, both our clients and each other. We take pride in our professional, polished environment while keeping things friendly day to day. We support one another, value initiative and believe good work deserves recognition.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttp17x0FOJ3NPkSx34kAfIG2a",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-17",
+    "description": "About the Role\n\nWe are looking for an organised and detail-focused Corporate Administrator to join our corporate department on a full time, office-based basis. You will provide essential administrative support to advisers and the wider team, helping to ensure client files, correspondence and processes run smoothly and accurately.\n\nKey Responsibilities\n\nClient & File Administration\n- Prepare, process and maintain client files and records, ensuring accuracy and compliance with company procedures.\n- Support advisers with the preparation of client documentation, reports and correspondence.\n- Input and update client data across internal systems and databases.\n- Ensure documentation is filed, tracked and retrievable in line with regulatory requirements.\n\nGroup Schemes Administration\n- Provide ongoing administration of group pension schemes, including member updates, contributions and renewals.\n- Administer other group risk schemes (e.g. group life, income protection, private medical insurance), liaising with providers as required.\n- Keep scheme records accurate and up to date, and respond to member and employer queries relating to group schemes.\n\nCorrespondence & Communication\n- Handle incoming and outgoing correspondence relating to client and corporate matters.\n- Liaise with clients, providers and third parties by phone and email in a professional manner.\n- Draft routine letters, emails and administrative communications.\n\nProcess & Compliance Support\n- Support the corporate department with day-to-day administrative processes and workflows.\n- Assist with the preparation of reports, valuations and meeting packs.\n- Help ensure processes meet internal compliance and regulatory standards.\n- Provide diary management and scheduling support for advisers and meetings.\n\nSkills & Experience\n- Previous experience in an administrative role, ideally within financial services or a corporate environment (essential).\n- Strong attention to detail and high level of accuracy.\n- Excellent written and verbal communication skills.\n- Well organised, with the ability to manage multiple tasks and deadlines.\n- Confident using Microsoft Office (Word, Outlook, Excel) and client database systems.\n- Understanding of confidentiality and data protection requirements.\n- Experience with financial services processes or terminology is desirable.\n\nPersonal Attributes\n- Methodical, accurate and detail-oriented.\n- Reliable, professional and trustworthy with sensitive information.\n- Proactive, with a willingness to take ownership of tasks.\n- A strong team player who works well under guidance and independently.\n\nWhat We Offer\n- Competitive salary, dependent on experience.\n- Full time, office-based role within a supportive team, one day work from home per week will be offered after successfully completing probation\n- Opportunity to develop within the financial services sector.\n- Group Pension Scheme\n- 20 days holiday (rising to 25 according to length of service)\n- Christmas shut-down\n- Group Medical Benefits\n- Group Life\n- Group PHI\n\nCompany Culture\n\nAt Radcliffe IFA, we're a close-knit team built on trust, integrity and genuinely caring about the people we work with - both our clients and each other. We take pride in our professional, polished environment while keeping things approachable and friendly day to day. We support one another, value initiative, and believe good work deserves recognition. If you're looking for a workplace where your contribution is noticed and your career can grow, you'll feel at home here.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbH6DIxnOsK6dL1664IAO8Ik",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Radcliffe & Co (Life & Pensions) Ltd",
-    "advertiser_type": "Company",
+    "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107605314",
@@ -343,6 +374,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225451240",
+    "title": "Office Administrator",
+    "company": "Matchtech - Agency - Contract",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "18",
+    "salary_max": "18",
+    "salary_text": "£18 per hour",
+    "posted_date": "2026-08-17",
+    "description": "Our client, a principal contractor delivering mechanical maintenance works during an integrated event / turnaround at Fawley, Southampton (SO45 1 TX), is seeking two Office Administrators on a contract basis to support the site team.\n\nResponsibilities\n- Providing day-to-day administrative support to a busy site team, including scheduling meetings, reconciling timesheets and ordering office supplies.\n- Maintaining accurate records and document control systems, both digital and hard copy.\n- Managing data entry, reports and spreadsheets.\n- Handling incoming calls and emails, and directing queries to the appropriate team members.\n- Managing mail and supporting the general organisation of the site office.\n- Assisting with small procurement activities and petty cash administration where required.\n\nSkills and Experience\n- Previous experience in an office administration or clerical role.\n- Proficiency in Microsoft 365 applications.\n- Strong attention to detail and the ability to prioritise workloads effectively.\n- Excellent verbal and written communication skills.\n- A reliable, team-oriented approach and the ability to work in a fast-paced site environment.\n\nAdditional Information\n- 100% office based\n- Driving license required for commute and travelling across site\n- Fixed start date: 01/09/26\n- Contract duration: 12 weeks\n- Rates advertised are PAYE",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZ2J84CsqJiqaQNv3CqstwKk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Matchtech",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225407249",
     "title": "Customer Service Administrator",
     "company": "Office Angels - Agency - Temporary",
@@ -365,14 +421,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225420218",
@@ -421,14 +470,7 @@
     "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "salary_period": "Hourly"
   },
   {
     "job_id": "23643_225458449",
@@ -453,6 +495,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "b984089c-968f-424c-81de-219bbe2b22b1",
+    "title": "New Business Administrator",
+    "company": "Premier Jobs UK Limited - Agency - Permanent",
+    "location": "Farnborough",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "32000",
+    "salary_text": "£27000 - £32000 per year",
+    "posted_date": "2026-08-17",
+    "description": "Are you an experienced administrator seeking a New Business Administrator job where your financial services expertise will be truly valued? This is an excellent opportunity to join a professional financial services business supporting private clients.\n\nAs a New Business Administrator, you'll be at the heart of the client journey, processing new business across investments, pensions and protection products from application through to completion. You'll manage your pipeline effectively, pre-populate application forms, and ensure cases progress smoothly to \"In Force\" status. Working closely with advisers, paraplanners and product providers, you'll build strong relationships whilst maintaining fully compliant client records on back office systems.\n\nThis New Business Administrator position offers:\n- Variety across ISAs, bonds, investment accounts, pensions and protection\n- Autonomy in managing your workload to agreed service levels\n- The chance to spot opportunities and contribute to business growth\n- A collaborative team environment where you'll support colleagues\n\nNew Business Administrator Requirements:Essential:\n- Financial services administration experience in life, pensions or investment products\n- Experience processing new business or working within an IFA, provider or similar environment\n- Experience liaising with advisers, paraplanners or product providers\n\nDesirable:\n- Strong understanding of maintaining compliant client records\n- Confident working with back office systems and Microsoft Office\n\nThe Company\n\nYou'll be joining a highly professional financial services business providing personalised advice to private clients. Their central support teams ensure advisers and clients receive an efficient, compliant and friendly service throughout the advice process, with a supportive culture offering long-term progression potential.\n\nNew Business Administrator Benefits:\n- Salary: £27,000 - £32,000\n- Company pension\n- Life assurance\n- Holiday entitlement\n- Additional employee benefits package\n- Hybrid working: 4 days office, 1 day home\n\nLocation\n\nThis role is based in Farnborough, Hampshire.\n\nReady to take the next step in your career? Apply today to become our New Business Administrator!\n\nLiability and Disclaimer\n\nWhilst Premier Jobs UK uses all reasonable efforts to ensure the information contained in our adverts including any salary, benefits or on target earnings are accurate, we give no representation or warranty in respect of such information. No liability is accepted by Premier Jobs UK for any loss or damage which may arise out of any person relying on or using any information.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS8OH%2bTGsbHt%2f9TYwDoeO%2fh3c",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "New Business Administrator Benefits: - Salary: £27,000 - £32,000 - Company pension - Life assurance - Holiday entitlement - Additional employee benefits package - Hybrid working: 4 days office, 1 day home Location This role is based in Farnborough, Hampshire.",
+    "advertiser_name": "Premier Jobs UK Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -603,12 +670,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225448844",
@@ -758,14 +820,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107816328",
@@ -815,11 +870,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107824141",
@@ -947,6 +998,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225497761",
+    "title": "Planner",
+    "company": "Dynamite Recruitment - Agency - Permanent",
+    "location": "Eastleigh",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "31607",
+    "salary_text": "£30000 - £31607 per year (Up to £31,600 DOE)",
+    "posted_date": "2026-08-17",
+    "description": "Planner\n\nLocation: Eastleigh\nSalary: Up to £31,600 per annum DOE\nWorking Hours: Monday to Friday, full-time\n\nWe are currently recruiting for a Planner to join a busy and established organisation based in Eastleigh.\n\nThis is a key coordination role, responsible for planning and scheduling workloads, ensuring jobs are allocated efficiently and progressed through to completion. You will work closely with internal teams, customers and external contractors to ensure work is delivered within agreed timescales and service standards.\n\nThe successful candidate will be highly organised, confident managing competing priorities and comfortable working in a fast-paced environment.\n\nKey Responsibilities\n- Plan and coordinate daily workloads, ensuring tasks are allocated efficiently.\n- Schedule appointments and works in line with agreed service levels and deadlines.\n- Monitor the progress of jobs and follow up on outstanding works.\n- Liaise with internal teams, contractors and other stakeholders to ensure work progresses smoothly.\n- Keep databases and records accurate and up to date.\n- Coordinate materials, appointments and resources where required.\n- Identify and escalate any delays, compliance issues or potential problems.\n- Provide clear and professional communication to customers and stakeholders.\n- Support reporting and monitoring of workloads, performance and KPIs.\n- Ensure all work is carried out in accordance with relevant procedures, policies and health and safety requirements.\n\nWe are looking for someone who:\n- Has previous experience in a planning, scheduling, coordination or administration role.\n- Is highly organised with excellent attention to detail.\n- Can manage a busy workload and prioritise competing demands.\n- Has strong written and verbal communication skills.\n- Is confident liaising with a range of internal and external stakeholders.\n- Can work effectively as part of a team while also using their own initiative.\n- Is comfortable working to deadlines, targets and KPIs.\n- Has good IT skills, particularly Microsoft Office including Word, Excel, Outlook and Teams.\n- Is professional, reliable and customer-focused.\n\nExperience within housing, repairs, maintenance, construction or a similar environment would be advantageous, although relevant planning and coordination experience will also be considered.\n\nIf you're an organised and proactive Planner looking for a new permanent opportunity in Eastleigh, we'd be keen to hear from you. Please contact (url removed) with any queries.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVac5jvQTntsyKm98SjFIfbGj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dynamite Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "1595701",
     "title": "Young Carers Support Coordinator",
     "company": "Get Staffed Online Recruitment - Agency - Permanent",
@@ -1021,31 +1097,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225476353",
-    "title": "Sales Coordinator",
-    "company": "Percival Aviation - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-17",
-    "description": "Percival Aviation is a privately-owned organisation in Fareham, specialising in aircraft interiors and equipment. As a leading supplier, the company is expanding globally to provide innovative and cost-effective solutions for clients. With in-house design capabilities and production competencies, Percival Aviation is dedicated to delivering high-quality, certified products.\n\nRole Description\n\nThis is a full-time on-site role for a Sales Coordinator at Percival Aviation in Fareham.\n\nThe Sales Coordinator will be responsible for customer quotations, order loading, working with internal stakeholders and supporting leadership with timely sales data.\n\nRequirements:\n- Sales coordination and sales operations skills.\n- Customer service and communication skills.\n- Strong sales acumen and ability to build customer relationships.\n- Experience in the aviation industry is a plus.\n- Excellent organizational and multitasking abilities.\n- Proficiency in CRM software and Microsoft Office suite.\n\nBenefits:\n- Competitive salary depending on experience\n- Pension\n- Private Health Insurance\n- 28 days annual leave inclusive of public holidays\n- Full training provided\n\nAdditional Information:\n- Onsite position: Fareham\n- Must be eligible to work in UK without sponsorship\n- Monday Friday (08 00)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QOaRFOlVp1cV20IzYlgDXAx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Percival Aviation",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225474596",
     "title": "Medical Affairs Coordinator (IIR)",
     "company": "Entrust Resource Solutions - Agency - Temporary",
@@ -1093,11 +1144,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225432762",
@@ -1172,13 +1219,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Document preparation",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "4274e7f2-0812-4082-81f0-791e07dff1cd",
@@ -1228,11 +1269,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107835605",

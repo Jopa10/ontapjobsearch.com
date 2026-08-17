@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-13T11:47:49+01:00",
+  "generated_at": "2026-08-17T19:32:06+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Coventry & Warwickshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-13",
-  "review_fingerprint": "790bb3f82edd3f3addc75e40642288b837817011637f5fee96dfe11a6e3e8e7a",
-  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
-  "review_csv_sha256": "d1f501b23543d5de4704b67bc0c88c3b69b793e11125483eab124ac9af4d3a8a",
-  "summary_md_sha256": "d53b6154ceb978dfe057a672c361254de6dec0f5efbca5a9a6f7b960689ac738",
-  "approved_snapshot_sha256": "54a4b712665a32af830da50663a47279c9280f64577408ab01484e5c17138224",
-  "approved_rows": 3,
+  "review_date": "2026-08-17",
+  "review_fingerprint": "9e199c6e3e29a1f81d724b32b5a9bb6f60d5ec6cdab501fc259d17b022b85ae7",
+  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
+  "review_csv_sha256": "b21f2a9de1a664597aa545c3e2b1553343ab8868837f132e0ae2dadab752f6cd",
+  "summary_md_sha256": "2db4e69e4e79f42b22b4ac1f661502ade1bfd678d4f3228e97447215efdd6824",
+  "approved_snapshot_sha256": "727a6686e2473c08ea53b5a2e86077688ba5c9eeaf531e565c2e7c37fee0a0ca",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-admin-assistant-wellesbourne-cofe-primary-school",
     "teaching-vacancies-administration-assistant-meadow-park-school",
-    "teaching-vacancies-school-administrator-president-kennedy-school-academy-coventry-west-midlands"
+    "teaching-vacancies-school-administrator-president-kennedy-school-academy-coventry-west-midlands",
+    "teaching-vacancies-send-administrator-houlton-school"
   ]
 }

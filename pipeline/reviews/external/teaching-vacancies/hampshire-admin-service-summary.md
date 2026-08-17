@@ -14,26 +14,26 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 2
-- POSS awaiting decision: 2
-- Excluded: 0
+- Selected: 3
+- POSS awaiting decision: 0
+- Excluded: 1
 - Hard pass: 4
 
 ## SELECTED
 
 ---
-action: 
-SELECTED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
-employer: Ark Charter Academy
-closing_date: 2026-09-01T01:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+action: select
+SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796) | Receptionist
+employer: Wildern School
+closing_date: 2026-09-14T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
+factual_fingerprint: e6ca797ae27acb4e150765256233c1786959a8fae6403218e1b43c9a1d0a5a43
 source: Teaching Vacancies
-source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
+source_job_id: receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 ---
 
 ---
@@ -51,26 +51,9 @@ source_job_id: send-administrator-access-arrangements-support-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-access-arrangements-support-assistant
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Hampshire | Southampton, South East, SO30 4EJ | £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796) | Receptionist
-employer: Wildern School
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e6ca797ae27acb4e150765256233c1786959a8fae6403218e1b43c9a1d0a5a43
-source: Teaching Vacancies
-source_job_id: receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
----
-
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
+action: select
+SELECTED | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
 employer: The Portsmouth Academy
 closing_date: 2026-09-01T23:59:00+01:00
 reason: Administrative duties evidenced in description
@@ -83,9 +66,26 @@ source_job_id: senior-administration-assistant-the-portsmouth-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
 ---
 
-## EXCLUDED BY REVIEW
+## POSS — choose SELECT or EXCLUDE
 
 - None.
+
+## EXCLUDED BY REVIEW
+
+---
+action: exclude
+EXCLUDED | Hampshire | Southsea, South East, PO5 4HL | See job description | School Administrator Apprentice (Level 3)
+employer: Ark Charter Academy
+closing_date: 2026-09-01T01:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 430a60ed0beb31924088a52440ec0b54a71407052a1c7fd4c8387ac5c8a9485f
+source: Teaching Vacancies
+source_job_id: school-administrator-apprentice-level-3-ark-charter-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-apprentice-level-3-ark-charter-academy
+---
 
 ## HARD_PASS
 

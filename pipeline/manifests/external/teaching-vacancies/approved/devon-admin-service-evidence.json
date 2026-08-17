@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-13T11:47:47+01:00",
+  "generated_at": "2026-08-17T19:32:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Devon",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-13",
-  "review_fingerprint": "3edc236202b8fe496bb9ec6e6654fe738ce693724a1ecdcf05bf4741bdc8ecf3",
-  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
-  "review_csv_sha256": "1962ec723d8a4a9f456a71cafd9d42caad7837638ab181c2a4d7514237077958",
-  "summary_md_sha256": "d38ab7b75782c34d625b0c2c732e690745bec27d376341d65b49a62c183393e9",
-  "approved_snapshot_sha256": "498f402bc7264845000267f1b85a7e43f2fb74f5a172d29b5578ccbed42cb21c",
-  "approved_rows": 13,
+  "review_date": "2026-08-17",
+  "review_fingerprint": "4cd5bb9b06ab30db23d51ef00b8c59632cb36ef32bc13c222517377c0c3d6bc7",
+  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
+  "review_csv_sha256": "f54dc773fbc5799b0e2631869d09d611003d506cf0b6fddaaaff8d83f8f8b010",
+  "summary_md_sha256": "dd353635cb8e35744de86a6153196348ccf17a3171478ecb37fe4ccef87d0c0e",
+  "approved_snapshot_sha256": "d05e47bb839815c09972dc28f1a71dcb8fe0c0ad779b9f4eca09ff2546dc3e4c",
+  "approved_rows": 15,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-blackpool-church-of-england-primary-school",
     "teaching-vacancies-hub-administrator-cornerstone-academy-trust",
     "teaching-vacancies-administrative-assistant-st-joseph-s-catholic-primary-school",
     "teaching-vacancies-people-administrator-dartmoor-multi-academy-trust",
@@ -24,7 +23,10 @@
     "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college",
     "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon",
     "teaching-vacancies-pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school",
+    "teaching-vacancies-senior-pupil-services-officer-2-days-week",
     "teaching-vacancies-administrative-assistant-the-king-s-school-ottery-st-mary-devon",
-    "teaching-vacancies-senior-pupil-services-officer-st-leonard-s-cofe-primary-school"
+    "teaching-vacancies-senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon",
+    "teaching-vacancies-senior-pupil-services-officer-st-leonard-s-cofe-primary-school",
+    "teaching-vacancies-attendance-officer-okehampton-college-okehampton-devon"
   ]
 }

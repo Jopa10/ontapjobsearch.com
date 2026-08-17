@@ -1,58 +1,27 @@
 [
   {
-    "job_id": "nejobs-300098",
-    "title": "Administration Assistant",
-    "company": "Bishop Bewick Catholic Education Trust",
-    "location": "St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED",
+    "job_id": "teaching-vacancies-administrative-assistant-level-3-sacred-heart-catholic-high-school",
+    "title": "Administrative Assistant Level 3",
+    "company": "Sacred Heart Catholic High School",
+    "location": "Newcastle-upon-Tyne",
     "region": "North East",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Term-time only (Permanent)",
+    "employment_type": "['full time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£25,583 per annum pro rata, actual £22,533 per annum",
-    "work_pattern": "Full time - term time plus specified days",
-    "posted_date": "2026-07-24",
-    "closing_date": "2026-08-17",
-    "closing_datetime": "2026-08-17T12:00:00+01:00",
-    "summary": "Administration Assistant with Bishop Bewick Catholic Education Trust in St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED. Term-time only (Permanent); Full time - term time plus specified days; £25,583 per annum pro rata, actual £22,533 per annum.",
-    "description": "Bishop Bewick Catholic Education Trust is recruiting for this vacancy in St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED.\n\nThe advertised position is Administration Assistant, with the working terms listed as Term-time only (Permanent); Full time - term time plus specified days.\n\nThe advertised salary is £25,583 per annum pro rata, actual £22,533 per annum.\n\nThe stated closing date is 17/08/2026 12:00.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/Administration_Assistant/300098?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
+    "salary_text": "BB04 £26,403 - £27,254 per annum pro rata",
+    "work_pattern": "",
+    "posted_date": "2026-08-13",
+    "closing_date": "2026-09-03",
+    "closing_datetime": "2026-09-03T09:00:59+01:00",
+    "summary": "Administrative Assistant Level 3 with Sacred Heart Catholic High School in Newcastle-upon-Tyne. ['full time']; BB04 £26,403 - £27,254 per annum pro rata.",
+    "description": "Sacred Heart Catholic High School is recruiting for this vacancy in Newcastle-upon-Tyne.\n\nThe advertised position is Administrative Assistant Level 3.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is BB04 £26,403 - £27,254 per annum pro rata.\n\nThe stated application deadline is 2026-09-03T09:00:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-sacred-heart-catholic-high-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Bishop Bewick Catholic Education Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nejobs-300058",
-    "title": "Business Support Officer, 32hpw",
-    "company": "South Tyneside Council",
-    "location": "South Tyneside Council",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,598 pa pro rata",
-    "work_pattern": "Part time",
-    "posted_date": "2026-07-23",
-    "closing_date": "2026-08-17",
-    "closing_datetime": "2026-08-17T12:00:00+01:00",
-    "summary": "Business Support Officer, 32hpw with South Tyneside Council in South Tyneside Council. Permanent; Part time; £28,598 pa pro rata.",
-    "description": "South Tyneside Council is recruiting for this vacancy in South Tyneside Council.\n\nThe advertised position is Business Support Officer, 32hpw, with the working terms listed as Permanent; Part time.\n\nThe advertised salary is £28,598 pa pro rata.\n\nThe stated closing date is 17/08/2026 12:00.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/Business_Support_Officer_32hpw/300058?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "South Tyneside Council",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -293,13 +262,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225433780",
@@ -697,13 +660,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "646b596c-525f-4641-9329-03f131b59e32",
@@ -728,14 +685,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "da318476-2716-4dc4-96fa-7984b2a0a789",
@@ -760,13 +710,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "ce8acedc-578a-43b6-8458-482944e0ad7e",
@@ -816,12 +760,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225468085",
@@ -846,11 +785,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225474293",
@@ -900,13 +835,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "20279_61775-f8d5be08cfc7a3399ff87aa3de9e4a4a",
@@ -1006,11 +935,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "21618_20279_61775-5eabb6aaa6c5dac84023535f868d0408",
+    "title": "Call Centre Operator",
+    "company": "EE - Company - Permanent",
+    "location": "Gateshead",
+    "region": "North East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-17",
+    "description": "Where: EE Tyneisde (Silver Fox Way, Newcastle upon Tyne NE27 0 QJ)\n\nFull time: Permanent\n\nSalary: £26,116 rising to £26.738 after 8 months of being here, plus incentives and bonuses\n\nStart date: October 2026 onwards\n\nIf you're outgoing, full of energy and love talking to people, you'd be better off in sales with EE.\n\nMaybe you've worked in retail, or hospitality before. You know how to deal with customers but you're looking for something more exciting - a job that's going to challenge you. And, of course, you want to earn a bit more cash.\n\nOur team's in Newcastle and North Tyneside are full of people like you - so you'll be in great company here.\n\nWhat does being a sales advisor involve?\n\nYou'll join a lively sales team in our contact centre. We'll train you to take incoming calls from existing EE customers and help them find the best deals on their phones and broadband. You'll also help them to navigate the different tech products we sell.\n\nYou need to be a great listener as well as a fluent talker. A lot of the time, you'll pick up on something that someone has said, then use that to match them with the perfect product.\n\nForget what you've heard about sales\n\nDon't let what you've heard about sales put you off. Let's smash a few myths\n- Yes, there are targets to hit. But the kind of people who like sales, love that. You're probably naturally competitive. You get a buzz out of beating the person next to you. You hate being bored at work.\n- It's not \"cold calling\". The calls come in to you and you decide how best you can help the customer. That's why we value resourceful people who like fixing problems.\n- People say it's \"hard selling\". It's really not! You're basically talking to people about fun tech stuff that they already want. Who doesn't love a better phone, faster broadband or a new console?\n\nWhy you'll be better off at EE\n\nGREAT MONEY - you start on £26,116 which goes up to £26,738 after 8 months.\n\nUNCAPPED COMMISSION - the more you sell, the more you can earn.\n\nBRILLIANT BENEFITS - including 24/7 GP appointments for you and your family, free parking and discounts on EE products like phones and broadband that could save you £100s every year.\n\nGROWTH - we're passionate about developing our people. There are plenty of career paths across EE and BT.\n\nFLEXIBILITY - you can bank hours then take time off when you need. Plus, generous leave for carers and anyone starting a family.\n\nGREAT PEOPLE - you're working with people like you. It's a sociable, supportive environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRG4Gm0I8WhYzOucNhuU0Ohad",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "EE",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "21618_20279_61775-f8d5be08cfc7a3399ff87aa3de9e4a4a",
@@ -1310,11 +1260,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "20279_61775-0dc834e990c9af3799011e2ebb0fc687",
@@ -1639,11 +1585,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "20279_61775-b63960d4b5dd52aa15bb6dd10e1e6082",

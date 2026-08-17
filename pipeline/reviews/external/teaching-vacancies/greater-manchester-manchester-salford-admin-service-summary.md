@@ -14,20 +14,16 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 0
-- POSS awaiting decision: 1
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £26,282.00 - £28,993.00 Annually (Actual) NJC Grade 5, Points 13 - 19 | Marketing and Communications Officer
+action: select
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £26,282.00 - £28,993.00 Annually (Actual) NJC Grade 5, Points 13 - 19 | Marketing and Communications Officer
 employer: Whalley Range 11-18 High School
 closing_date: 2026-08-17T23:59:00+01:00
 reason: Borderline school administration title: communications officer
@@ -39,6 +35,10 @@ source: Teaching Vacancies
 source_job_id: marketing-and-communications-officer-whalley-range-11-18-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-whalley-range-11-18-high-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

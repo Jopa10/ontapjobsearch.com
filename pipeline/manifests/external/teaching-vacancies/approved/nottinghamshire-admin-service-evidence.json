@@ -1,22 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-13T11:47:48+01:00",
+  "generated_at": "2026-08-17T19:32:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-13",
-  "review_fingerprint": "2d5c4ec3a807fc277d01cfa08cce06596cb4741847b4ba0ace482aa8a0c23951",
-  "routing_manifest_sha256": "5b096d5561e166330362b640b6c1d626e3b4ead0f5ec240e4f9808a90a108351",
-  "review_csv_sha256": "7aa7811f3413a94d3bbad59f7ef21ce935217e5df42953a286586d84cbe15fe7",
-  "summary_md_sha256": "3fbfc0d627b403c11fab48b7c0195155df7f43dbb5cf9f8632385b1a0323f300",
-  "approved_snapshot_sha256": "a8d85b158497929a9255936e8f15aac1e696bdf0c4dce54224d2ee6bb8e73d14",
-  "approved_rows": 5,
+  "review_date": "2026-08-17",
+  "review_fingerprint": "b04a30bf1f7d4d19540631dd501a4eb5cb0daae8deae8e4595e08359b7b8cbd3",
+  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
+  "review_csv_sha256": "4eb421f02a3c4cbf5dae82db3faeb902e74f5dffe9cd3bf5bfd43abc33e973b2",
+  "summary_md_sha256": "dd90d5cde87b10667e1b1a85f6463432af403e62eadea894eb165fd0b3c9c189",
+  "approved_snapshot_sha256": "abf7f1e42ae64e8f233b9b36d372efd84efaadf222fac627affc305f39b7d79b",
+  "approved_rows": 7,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-the-manor-academy",
     "teaching-vacancies-admin-assistant-receptionist-blidworth-oaks-primary-school",
     "teaching-vacancies-pa-to-the-executive-principal-secondary-site",
     "teaching-vacancies-healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire",
+    "teaching-vacancies-hr-administrator-the-spencer-academies-trust",
+    "teaching-vacancies-exams-assistant-south-nottinghamshire-academy",
+    "teaching-vacancies-house-support-asisstant",
     "teaching-vacancies-administration-assistant-horizons-academy"
   ]
 }
