@@ -69,6 +69,7 @@
     "Buckinghamshire": { "slug": "buckinghamshire", "anchor_town": "Milton Keynes" },
     "Hertfordshire": { "slug": "hertfordshire", "anchor_town": "Watford" },
     "West Midlands - Birmingham & Solihull": { "slug": "birmingham-solihull", "anchor_town": "Birmingham" },
-    "Somerset": { "slug": "somerset", "anchor_town": "Taunton" }
+    "Somerset": { "slug": "somerset", "anchor_town": "Taunton" },
+    "Norfolk": { "slug": "norfolk", "anchor_town": "Norwich" }
   }
 }
