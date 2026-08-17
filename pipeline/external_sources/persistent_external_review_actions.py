@@ -234,7 +234,7 @@ def patch_summary_counts(text: str, rows: list[dict[str, str]]) -> str:
         "EXCLUDED": sum(clean(row.get("final_decision")).upper() == "EXCLUDED" for row in rows),
     }
     text = re.sub(
-        r"(?m)^- Final selected after (?:same-day |remembered/)?manual actions: \d+\s*$",
+        r"(?m)^- Final selected after (?:(?:same-day|remembered/manual|manual) actions): \d+\s*$",
         f"- Final selected after remembered/manual actions: {counts['SELECTED']}",
         text,
     )
