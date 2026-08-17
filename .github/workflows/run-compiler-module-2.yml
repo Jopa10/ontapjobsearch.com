@@ -159,6 +159,17 @@ jobs:
         run: |
           python -m py_compile pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
           python -m py_compile pipeline/scripts/jobg8_module_2_live_slices.py
+          python -m py_compile pipeline/scripts/materialize_reconciled_category_registers.py
+
+      - name: Materialize reconciled category registers
+        run: |
+          set -euo pipefail
+          reconciled_dir="$RUNNER_TEMP/jobg8-reconciled-registers"
+          python pipeline/scripts/materialize_reconciled_category_registers.py \
+            --registers-dir pipeline/registers \
+            --refinements pipeline/registers/pipeline_refinement_rules.csv \
+            --output-dir "$reconciled_dir"
+          echo "JOBG8_RECONCILED_REGISTERS_DIR=$reconciled_dir" >> "$GITHUB_ENV"
 
       - name: Run Compiler Module 2
         working-directory: pipeline
@@ -169,7 +180,7 @@ jobs:
             --input-dir "$JOBG8_COMPILER_INPUT_DIR" \
             --output-dir 'reports-module2' \
             --geo-lookup 'geo/geo_lookup.xlsx' \
-            --registers-dir 'registers'
+            --registers-dir "$JOBG8_RECONCILED_REGISTERS_DIR"
 
       - name: Verify Compiler Module 2 outputs
         run: |
