@@ -2,9 +2,6 @@ name: Run NEJobs review
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/run-nejobs-review.yml"
   schedule:
     - cron: "15 6 * * 1,4"
 
