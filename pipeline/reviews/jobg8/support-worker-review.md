@@ -31,12 +31,6 @@ job_id: 107651994
 
 ---
 action:
-SELECTED | Yorkshire - West | Bradford | £13 per hour | Bank Support Worker
-job_id: 466dc4dd-84eb-409d-8343-113870860501
----
-
----
-action:
 SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including holiday pay, flexible hours) | Healthcare Assistant
 job_id: 23643_225476096
 ---
