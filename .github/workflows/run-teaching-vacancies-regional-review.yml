@@ -2,6 +2,8 @@ name: Run Teaching Vacancies regional review
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "55 6 * * *"
 
 permissions:
   contents: write
