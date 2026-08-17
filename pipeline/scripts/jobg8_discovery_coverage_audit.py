@@ -39,15 +39,20 @@ def norm(value: object) -> str:
     return re.sub(r"\s+", " ", str(value).strip()).casefold()
 
 
+def read_utf8_csv(path: Path) -> pd.DataFrame:
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return pd.read_csv(handle, dtype=str).fillna("")
+
+
 def load_register(path: Path) -> dict[str, str]:
-    df = pd.read_csv(path, dtype=str, encoding="utf-8-sig").fillna("")
+    df = read_utf8_csv(path)
     return {norm(row["title"]): str(row["classification"]).strip().upper() for _, row in df.iterrows() if norm(row["title"])}
 
 
 def load_refinements(path: Path) -> dict[tuple[str, str], str]:
     if not path.is_file():
         return {}
-    df = pd.read_csv(path, dtype=str, encoding="utf-8-sig").fillna("")
+    df = read_utf8_csv(path)
     out: dict[tuple[str, str], str] = {}
     for _, row in df.iterrows():
         category = str(row.get("category", "")).strip()
