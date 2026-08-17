@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-08-13
-review_fingerprint: 370e08a10facbfbb81e2733059d90780fbf249a79a582b395bec418e40f22243
+review_date: 2026-08-17
+review_fingerprint: 9006adac320a913e072f715c646f26289f13e351fcc2a1066e45b8b84a557861
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,20 +10,20 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are same-day only and do not publish anything.
 
-Run generated: 2026-08-13T09:03:14+01:00
+Run generated: 2026-08-17T11:37:57+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 296
+JobG8 comparison rows: 417
 Approved NEJobs comparison rows: 5
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 5
-- Detail pages fetched successfully: 5
+- Detail-page candidates: 6
+- Detail pages fetched successfully: 6
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 10
+- Obvious hard passes not detail-fetched: 9
 - Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 0
-- Generic/derived geography rows requiring review: 0
+- Generic/derived geography rows requiring review: 2
 - Retained target candidates: 14
 
 ## Outcomes
@@ -57,6 +57,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173321
 
 ---
 action:
+POSS | North East | Hybrid | £ Per Annum | Bid Writer
+employer: People First Independent Advocacy
+closing_date: 01 September 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173334
+source_job_id: 173334
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
+---
+
+---
+action:
 POSS | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Bereavement Counsellor
 employer: Age UK County Durham
 closing_date: 04 September 2026
@@ -82,7 +95,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
 ---
 
 ---
-action: select
+action:
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,761 to 28,966 Pro Rata | Therapeutic Coordinator
 employer: Rape and Sexual Abuse Counselling Centre (Darlington and County Durham)
 closing_date: Monday, August 24, 2026 - 12:00
@@ -92,19 +105,6 @@ source: VONNE
 tracking_key: vonne-173311
 source_job_id: 173311
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173311
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £ Per Annum | Finance Officer
-employer: National Energy Action
-closing_date: 17 August 2026
-geography: CONFIRMED — location: exact area
-reason: transferable title with specialist or borderline wording: finance
-source: VONNE
-tracking_key: vonne-173303
-source_job_id: 173303
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173303
 ---
 
 ---
@@ -121,7 +121,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
 ---
 
 ---
-action: select
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
@@ -131,19 +131,6 @@ source: VONNE
 tracking_key: vonne-173310
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
----
-
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £32,126 Per Annum | Project Team Leader - Domestic Abuse Service Gateshead (Female*)
-employer: Oasis Community Housing
-closing_date: 20 August 2026
-geography: CONFIRMED — location: exact area
-reason: annualised upper salary £32,126 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-171327
-source_job_id: 171327
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=171327
 ---
 
 ---
@@ -159,6 +146,19 @@ source_job_id: 173253
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
 ---
 
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,790 to 27,000 Per Annum | Youth Engagement Officer
+employer: Foundation of Light
+closing_date: Friday, August 28, 2026 - 00:00
+geography: CONFIRMED — location: approved location fallback
+reason: provisional transferable-office review
+source: VONNE
+tracking_key: vonne-173331
+source_job_id: 173331
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173331
+---
+
 
 ## EXCLUDED BY REVIEW
 
@@ -168,9 +168,9 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
 
 - [Community Café Cook](https://www.vonne.org.uk/vonne-jobs-details?cid=173318) — out-of-scope VONNE occupation.
 - [Deputy Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173324) — out-of-scope VONNE occupation.
-- [Health Improvement Practitioner - Physical Activity Specialist](https://www.vonne.org.uk/vonne-jobs-details?cid=173287) — out-of-scope VONNE occupation.
-- [Retail & Online Sales Assistant](https://www.vonne.org.uk/vonne-jobs-details?cid=173300) — insufficient service-admin evidence.
-- [Workplace Health Development Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173308) — out-of-scope VONNE occupation.
+- [Energy and Retrofit Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173328) — insufficient service-admin evidence.
+- [Positive Behaviour Support Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173327) — out-of-scope VONNE occupation.
+- [Project Worker (Days) - Houghton Le Spring](https://www.vonne.org.uk/vonne-jobs-details?cid=171328) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
