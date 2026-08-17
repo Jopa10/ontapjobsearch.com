@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 1
+- automatic include: 13
+- automatic review: 2
 - automatic exclude: 9
-- effective include: 12
-- effective review: 1
+- effective include: 13
+- effective review: 2
 - effective exclude: 9
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -168,7 +168,31 @@ job_id: teaching-vacancies-school-administrator-president-kennedy-school-academy
 reason: The stated workplace matches the approved Coventry employment-market pattern `coventry`.
 ---
 
-## REVIEW (1)
+---
+action: 
+decision: include
+automatic_decision: include
+title: SOL Administrator
+company: Bis Henderson - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2b0f08ad-fe9d-4637-8766-17a7c353b0cd
+reason: The stated workplace matches the approved Coventry employment-market pattern `coventry`.
+---
+
+## REVIEW (2)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Secretary
+company: Provit Recruitment - Agency - Permanent
+location: Atherstone
+source: JobG8
+job_id: jobg8-f2b1b885-1e89-40a2-9927-0632554cbc43
+reason: No approved Coventry employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -248,18 +272,6 @@ reason: The stated workplace belongs outside the approved Coventry employment ma
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Planner / Scheduler
-company: Progroup Recruitment Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225462949
-reason: The stated workplace belongs outside the approved Coventry employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Reception & Administration Assistant
 company: Pertemps Contracts - Agency - Temporary
 location: Nuneaton
@@ -277,6 +289,18 @@ company: Macildowie Recruitment and Retention - Agency - Temporary
 location: Rugby
 source: JobG8
 job_id: jobg8-9bccef77-3de5-4082-92cc-aefc7bf20d50
+reason: The stated workplace belongs outside the approved Coventry employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: SEND Administrator
+company: Houlton School
+location: RUGBY
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-houlton-school
 reason: The stated workplace belongs outside the approved Coventry employment market.
 ---
 

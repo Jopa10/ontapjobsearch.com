@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 18
-- automatic exclude: 22
-- effective include: 10
-- effective review: 18
-- effective exclude: 22
+- automatic include: 11
+- automatic review: 19
+- automatic exclude: 24
+- effective include: 11
+- effective review: 19
+- effective exclude: 24
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Corporate Administrator
-company: Radcliffe & Co (Life & Pensions) Ltd - Company - Permanent
+company: Radcliffe & Co (Life & Pensions) Ltd - Agency - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-83d45f3d-8451-4284-ae13-04615ce5df99
+job_id: jobg8-1671015
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
@@ -100,11 +100,23 @@ reason: The stated workplace matches the approved Southampton employment-market 
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Wildern School
+location: Southampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
+reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist Administrator
-company: Radcliffe & Co (Life & Pensions) Ltd - Company - Permanent
+company: Radcliffe & Co (Life & Pensions) Ltd - Agency - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-7be5680e-a507-4691-9047-c6a09a1f9220
+job_id: jobg8-1671017
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
@@ -144,7 +156,7 @@ job_id: jobg8-23643_225419560
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -282,6 +294,18 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Matchtech - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225451240
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Onsite Recruitment Coordinator / Consultant
 company: Adecco - Agency - Temporary
 location: Petersfield
@@ -342,18 +366,6 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: Percival Aviation - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225476353
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Scheduler
 company: BRC - Agency - Permanent
 location: Hampshire
@@ -362,7 +374,19 @@ job_id: jobg8-23643_225498334
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
-## EXCLUDE (22)
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEND Administrator & Access Arrangements Support Assistant
+company: Perins School
+location: Alresford
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-access-arrangements-support-assistant
+reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
+---
+
+## EXCLUDE (24)
 
 ---
 action: 
@@ -524,11 +548,35 @@ reason: The stated workplace belongs outside the approved Southampton employment
 action: 
 decision: exclude
 automatic_decision: exclude
+title: New Business Administrator
+company: Premier Jobs UK Limited - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-b984089c-968f-424c-81de-219bbe2b22b1
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Onboarding Administrator
 company: Matchtech - Agency - Contract
 location: Fareham
 source: JobG8
 job_id: jobg8-e74c7499-1c4c-431a-ad2c-1e4975040487
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Planner
+company: Dynamite Recruitment - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-23643_225497761
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 

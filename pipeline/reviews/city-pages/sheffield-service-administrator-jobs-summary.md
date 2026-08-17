@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 1
-- automatic exclude: 19
+- automatic exclude: 18
 - effective include: 6
 - effective review: 1
-- effective exclude: 19
+- effective exclude: 18
 
 ## INCLUDE (6)
 
@@ -110,19 +110,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (19)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-2bf13223-ed72-4ed5-9d5b-283407b8c28e
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
+## EXCLUDE (18)
 
 ---
 action: 

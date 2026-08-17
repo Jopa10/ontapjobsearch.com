@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Meadow Park School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -75,11 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "9106c63f-aedd-42f5-8dd5-93e28a33c690",
@@ -104,11 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "cb8ddb07-5b0c-41f6-8cde-41758bcae9a7",
@@ -208,11 +197,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225406898",
@@ -312,9 +297,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "President Kennedy School Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
+  },
+  {
+    "job_id": "2b0f08ad-fe9d-4637-8766-17a7c353b0cd",
+    "title": "SOL Administrator",
+    "company": "Bis Henderson - Agency - Permanent",
+    "location": "Coventry",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "31500",
+    "salary_max": "31500",
+    "salary_text": "£31500 per year",
+    "posted_date": "2026-08-17",
+    "description": "SOL Administrator\n\nMonday to Friday - 2:00 pm to 10:30 pm\n\n£31,500\n\nCoventry\n\nOur client are continuing to expand, and we are currently seeking an experienced SOL Administrator Service Office Leader with the management of FLT/PPT drivers, as well as activities relating to goods in and goods out. The role also includes responsibility for completing essential administrative duties.\n\nRole Responsibilities:\n- Excellent communication skills, both verbal and written\n- Skilled administrator\n- Have a sincere bias for action and be passionate about achieving results\n- Possesses the ability to manage detail, and must be able to demonstrate effective problem- solving\n- Thrive on change, inclined to operate with flexibility and commit the time required to get the job done\n- PC / IT Skills - Able to complete all duties requiring use of application such as SharePoint, Excel, Word, Emails and Teams. Complete hourly trackers, shift reports and site management information systems\n- Have people management skills and be able to complete basic HR duties eg return to work, holiday booking\n- Conscientious - Reliable, honest and treats people with respect. Always willing to do their best and drive performance\n- Personal Development - Is actively trying to improve their own performance, seeking out development opportunities and fully participating in any courses/training/coaching provided. Collaborates with others to develop both themselves and the business\n- Open Minded & Adaptable - Is approachable and open minded to other people's ideas, being prepared to try new ways of working. Adapts to different situations with a flexible approach to operational changes and people's views\n- Team Building and Motivation - Leads by example, taking time to listen to people and work with them. Never discounts someone's ideas, encourages progression and learning. Is quickly able to assess the strengths and capabilities of new staff, understanding how best to motivate, utilise and develop them, ensuring we minimise the chances of losing good people. Key Skills\n- Previous Transport Planning experience\n- Experience in the FMCG sector - preferred\n- Excellent attention to detail\n- You will have excellent communication skills, spoken and written\n- Proven ability to work effectively as part of a team\n- A methodical and structured approach to problem solving\n- An approachable attitude and a flexible approach to work\n- Strong PC Literacy including Word & Excel in a business capacity\n- Knowledge of driver's hours is beneficial but not essential\n- Level 2 English and Maths or equivalent\n\nProcessing Your Data\n\nBis Henderson Recruitment is a leading provider of recruitment, interim management and consultancy services to the supply chain and logistics industry. Should you respond to this advertisement we may store your CV and contact details and will process this data for recruitment purposes only. Should we process your data, then we will always tell you that we are doing so.\n\nPlease visit our website to read our Privacy Policy in full, in this Policy you will find information about our compliance with the UK General Data Protection Regulations.\n\nAll applicants must have an unrestricted right to work in the UK as our client will not support visa sponsorship for this role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsRG9QP02dcqJy4aQWUW13VGm",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bis Henderson",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   }
 ]

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
-- automatic review: 53
-- automatic exclude: 11
-- effective include: 32
+- automatic include: 33
+- automatic review: 52
+- automatic exclude: 10
+- effective include: 33
 - effective review: 51
-- effective exclude: 12
+- effective exclude: 11
 
-## INCLUDE (32)
+## INCLUDE (33)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Office Angels - Agency - Temporary
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-23643_225433780
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant Level 3
+company: Sacred Heart Catholic High School
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-level-3-sacred-heart-catholic-high-school
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
@@ -94,18 +106,6 @@ location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225444106
 reason: Gateshead forms part of the continuous Newcastle urban employment area.
----
-
----
-action: select
-decision: include
-automatic_decision: review
-title: Business Support Officer, 32hpw
-company: South Tyneside Council
-location: South Tyneside Council
-source: NEJobs
-job_id: nejobs-300058
-reason: No Newcastle catchment rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -166,6 +166,18 @@ location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-73862c8b83139033e4e4a8b6efca9a33
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-21618_20279_61775-5eabb6aaa6c5dac84023535f868d0408
+reason: Gateshead forms part of the continuous Newcastle urban employment area.
 ---
 
 ---
@@ -1022,7 +1034,7 @@ job_id: jobg8-40e191c1-6a98-48eb-91b0-6d618aad7c84
 reason: The broad Tyne and Wear location includes Newcastle, but the vacancy is not specifically Newcastle-located.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -1034,18 +1046,6 @@ location: Sunderland
 source: JobG8
 job_id: jobg8-23643_225461787
 reason: Sunderland belongs to a separate employment area from the Newcastle city page.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Bishop Bewick Catholic Education Trust
-location: St Benet Biscop Catholic Academy, Ridge Terrace, Bedlington, NE22 6ED
-source: NEJobs
-job_id: nejobs-300098
-reason: Bedlington is outside the agreed Newcastle city-page catchment.
 ---
 
 ---

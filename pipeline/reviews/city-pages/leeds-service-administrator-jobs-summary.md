@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 18
-- automatic exclude: 21
-- effective include: 15
+- automatic exclude: 22
+- effective include: 16
 - effective review: 18
-- effective exclude: 21
+- effective exclude: 22
 
-## INCLUDE (15)
+## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: IPS Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-e6adc526-6a11-4aca-a85b-f18a9cd311ee
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
 
 ---
 action: 
@@ -422,7 +434,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -541,6 +553,18 @@ company: Pertemps Bristol Commercial - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225420186
+reason: The stated workplace belongs outside the approved Leeds employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: Hays Business Support - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225500836
 reason: The stated workplace belongs outside the approved Leeds employment market.
 ---
 

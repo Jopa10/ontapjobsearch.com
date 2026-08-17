@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 9
-- automatic exclude: 24
+- automatic exclude: 22
 - effective include: 8
 - effective review: 9
-- effective exclude: 24
+- effective exclude: 22
 
 ## INCLUDE (8)
 
@@ -126,18 +126,6 @@ reason: The stated workplace matches the approved Brighton & Hove employment-mar
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-23643_225476551
-reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Office Angels - Agency - Contract
 location: Burgess Hill
@@ -210,6 +198,18 @@ reason: No approved Brighton & Hove employment-market rule matched the stated lo
 action: 
 decision: review
 automatic_decision: review
+title: School HR Administrator
+company: Office Angels - Agency - Permanent
+location: Burgess Hill
+source: JobG8
+job_id: jobg8-23643_225498357
+reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Travail Employment Group - Agency - Permanent
 location: Burgess Hill
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225462263
 reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -289,18 +289,6 @@ company: Oakwood Primary Academy
 location: Eastbourne
 source: Teaching Vacancies
 job_id: teaching-vacancies-admissions-and-attendance-officer-oakwood-primary-academy
-reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Coordinator
-company: Bright Selection - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-54562293-eac1-4a4a-9ade-2cf6dc8f2819
 reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
 ---
 
@@ -505,17 +493,5 @@ company: Huntress - Crawley - Agency - Temporary
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225452492
-reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Works Coordinator/Planner - Stock Condition Surveys
-company: Yolk Recruitment - Agency - Contract
-location: Horsham
-source: JobG8
-job_id: jobg8-23643_225460151
 reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
 ---
