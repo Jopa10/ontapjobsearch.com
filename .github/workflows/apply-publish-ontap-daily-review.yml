@@ -232,27 +232,38 @@ jobs:
             return 1
           }
 
-          is_nonmaterial_nejobs_drift() {
-            run_id="$1"
+          is_nonmaterial_external_drift() {
+            source="$1"
+            run_id="$2"
             [ -n "$run_id" ] || return 1
+
+            case "$source" in
+              nejobs)
+                expected_drift="the live reviewable vacancy set differs from the reviewed set"
+                ;;
+              vonne)
+                expected_drift="the live reviewable VONNE set differs from the reviewed set"
+                ;;
+              *)
+                return 1
+                ;;
+            esac
+
             run_logs="$(gh run view "$run_id" --log 2>/dev/null || true)"
-            RUN_LOGS="$run_logs" python - <<'PY'
+            RUN_LOGS="$run_logs" EXPECTED_DRIFT="$expected_drift" SOURCE_KEY="$source" python - <<'PY'
           import os
           import re
 
           text = os.environ.get("RUN_LOGS", "")
-          stop_lines = [
-              line
-              for line in text.splitlines()
-              if "STOP: approved JSON was not written:" in line
-          ]
-          if not stop_lines:
+          expected = os.environ["EXPECTED_DRIFT"]
+          source = os.environ["SOURCE_KEY"]
+          drift_lines = [line for line in text.splitlines() if expected in line]
+          if not drift_lines:
               raise SystemExit(1)
-          line = stop_lines[-1]
-          if "the live reviewable vacancy set differs from the reviewed set" not in line:
+          if "detail page(s) failed" in text:
               raise SystemExit(1)
-          if "detail page(s) failed" in line:
-              raise SystemExit(1)
+
+          line = drift_lines[-1]
 
           def ids_after(label: str) -> list[str]:
               match = re.search(rf"{re.escape(label)}:\s*([^;|)]+)", line)
@@ -264,13 +275,14 @@ jobs:
           missing_ids = ids_after("missing IDs")
           total_drift = len(new_ids) + len(missing_ids)
 
-          # Operational materiality boundary: keep NEJobs on the last approved
-          # snapshot and let the rest of Ontap publish when at most two newly
-          # reviewable jobs and four total added/removed IDs have changed.
+          # Operational materiality boundary for small live-refetch sources:
+          # keep that source on its last approved snapshot and let the rest of
+          # Ontap publish when at most two newly reviewable jobs and four total
+          # added/removed IDs have changed. Larger drift remains blocking.
           if total_drift and len(new_ids) <= 2 and total_drift <= 4:
               print(
-                  "Non-material NEJobs drift: "
-                  f"{len(new_ids)} new, {len(missing_ids)} missing; safe to isolate NEJobs."
+                  f"Non-material {source} drift: "
+                  f"{len(new_ids)} new, {len(missing_ids)} missing; source can be isolated."
               )
               raise SystemExit(0)
           raise SystemExit(1)
@@ -304,12 +316,12 @@ jobs:
               continue
             fi
 
-            if [ "$source" = "nejobs" ] && is_nonmaterial_nejobs_drift "$LAST_RUN_ID"; then
-              echo "::warning::NEJobs changed only slightly after review. Keeping the last approved NEJobs snapshot and continuing with the other clean sources."
+            if is_nonmaterial_external_drift "$source" "$LAST_RUN_ID"; then
+              echo "::warning::$source changed only slightly after review. Keeping its last approved snapshot and continuing with the other clean sources."
               {
                 echo
-                echo "- NEJobs was skipped because live review drift was non-material (maximum 2 new review items / 4 total added-or-removed IDs)."
-                echo "- The previously approved NEJobs snapshot remains in place; other clean sources continue publishing."
+                echo "- $source was skipped because live review drift was non-material (maximum 2 new review items / 4 total added-or-removed IDs)."
+                echo "- Its previously approved snapshot remains in place; other clean sources continue publishing."
               } >> "$GITHUB_STEP_SUMMARY"
               continue
             fi
@@ -333,5 +345,5 @@ jobs:
             echo "If genuinely new or changed jobs appeared before validation, publishing stopped until those new blank actions were reviewed."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
-            echo "A small NEJobs-only live drift can be isolated without blocking JobG8, VONNE, Teaching Vacancies or the final verified-page publish; material NEJobs drift still blocks."
+            echo "Small live drift in NEJobs or VONNE can be isolated without blocking JobG8, the other clean external sources, or the final verified-page publish; material drift still blocks."
           } >> "$GITHUB_STEP_SUMMARY"
