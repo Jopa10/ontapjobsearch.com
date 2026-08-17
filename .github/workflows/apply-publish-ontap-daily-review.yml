@@ -130,18 +130,19 @@ jobs:
         run: |
           set -euo pipefail
 
-          wait_for_dispatched_run() {
+          recent_dispatched_run_id() {
             workflow="$1"
             started_epoch="$2"
-            run_id=""
-            for attempt in $(seq 1 30); do
-              runs_json="$(gh run list \
-                --workflow "$workflow" \
-                --branch main \
-                --event workflow_dispatch \
-                --limit 10 \
-                --json databaseId,createdAt,status,conclusion)"
-              run_id="$(RUNS_JSON="$runs_json" STARTED_EPOCH="$started_epoch" python - <<'PY'
+            runs_json=""
+            if ! runs_json="$(gh run list \
+              --workflow "$workflow" \
+              --branch main \
+              --event workflow_dispatch \
+              --limit 10 \
+              --json databaseId,createdAt,status,conclusion)"; then
+              return 1
+            fi
+            RUNS_JSON="$runs_json" STARTED_EPOCH="$started_epoch" python - <<'PY'
           import datetime as dt
           import json
           import os
@@ -156,7 +157,14 @@ jobs:
           if candidates:
               print(max(candidates)[1])
           PY
-              )"
+          }
+
+          wait_for_dispatched_run() {
+            workflow="$1"
+            started_epoch="$2"
+            run_id=""
+            for attempt in $(seq 1 30); do
+              run_id="$(recent_dispatched_run_id "$workflow" "$started_epoch" || true)"
               if [ -n "$run_id" ]; then
                 echo "Found $workflow run $run_id"
                 gh run watch "$run_id" --exit-status
@@ -174,12 +182,43 @@ jobs:
             approval="$3"
             echo "Dispatching $source via $workflow"
             started_epoch="$(date -u +%s)"
-            if [ "$approval" = "true" ]; then
-              gh workflow run "$workflow" --ref main -f approval=PUBLISH
-            else
-              gh workflow run "$workflow" --ref main
-            fi
-            wait_for_dispatched_run "$workflow" "$started_epoch"
+
+            for attempt in $(seq 1 10); do
+              echo "Dispatch attempt $attempt/10 for $source"
+              dispatched=false
+              if [ "$approval" = "true" ]; then
+                if gh workflow run "$workflow" --ref main -f approval=PUBLISH; then
+                  dispatched=true
+                fi
+              else
+                if gh workflow run "$workflow" --ref main; then
+                  dispatched=true
+                fi
+              fi
+
+              if [ "$dispatched" = "true" ]; then
+                wait_for_dispatched_run "$workflow" "$started_epoch"
+                return 0
+              fi
+
+              # A failed HTTP response can occasionally be ambiguous. Before retrying,
+              # check whether GitHub nevertheless created the workflow run so that we
+              # never deliberately dispatch a duplicate publisher.
+              run_id="$(recent_dispatched_run_id "$workflow" "$started_epoch" || true)"
+              if [ -n "$run_id" ]; then
+                echo "Dispatch command failed, but GitHub created run $run_id; watching that run instead of retrying."
+                gh run watch "$run_id" --exit-status
+                return 0
+              fi
+
+              if [ "$attempt" -lt 10 ]; then
+                echo "::warning::GitHub dispatch failed for $source; retrying in 30 seconds."
+                sleep 30
+              fi
+            done
+
+            echo "::error::GitHub could not dispatch $source after 10 attempts."
+            return 1
           }
 
           python - "$PLAN" > "$RUNNER_TEMP/publish-queue.tsv" <<'PY'
@@ -221,5 +260,5 @@ jobs:
             echo "Unchanged manual decisions were retained; jobs no longer requiring review were removed."
             echo "If genuinely new or changed jobs appeared, publishing stopped until those new blank actions are reviewed."
             echo "Manual actions were fanned out to the owning source review files."
-            echo "Only current source publishers were dispatched, sequentially."
+            echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
           } >> "$GITHUB_STEP_SUMMARY"
