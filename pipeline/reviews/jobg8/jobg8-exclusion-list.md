@@ -6,9 +6,117 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 55
+remembered_exclusions: 64
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Permanent: Operations Co-ordinator to £40,000 ( Chiswick)
+employer: Love Success Recruitment
+region: 
+town: London
+salary: 
+job_id: a4658548-cea5-400a-aea0-5db656f46bf4
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Paraplanner
+employer: Service Service Employment Agency Limited
+region: 
+town: Essex
+salary: 
+job_id: daac0fcc-07b5-4688-8b21-2d5b66178e57
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Paraplanner
+employer: Synchronicity Group
+region: 
+town: Cambridgeshire
+salary: 
+job_id: d5251221-2477-4fea-af12-262a5bdfc568
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Paraplanner
+employer: Commercial Recruitment
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 6e92762b-5ca2-4563-a525-f086197bdaab
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Paraplanner
+employer: GROVE TALENT SOLUTIONS LTD
+region: 
+town: Wiltshire
+salary: 
+job_id: 107803495
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Financial Planner
+employer: Resource Matters Ltd
+region: 
+town: Essex
+salary: 
+job_id: aefb6f88-42de-4bf9-a62e-b7d63260e543
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Examinations Coordinator
+employer: Red Personnel
+region: 
+town: London
+salary: 
+job_id: 23643_225500892
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Chartered Paraplanner
+employer: Jobshop UK Limited
+region: 
+town: Dorset
+salary: 
+job_id: 12880f03-eef0-4876-b938-5335f079207f
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-17
+title: Assistant Board Secretary
+employer: Hays Specialist Recruitment Limited
+region: 
+town: Lancashire
+salary: 
+job_id: 2b79d856-aaf2-45e4-b963-935a96f9e96f
+---
 
 ---
 action:
