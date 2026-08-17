@@ -42,6 +42,34 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Reconcile master review with latest source state
+        working-directory: pipeline
+        run: |
+          python -m review_hub.master_review build
+
+      - name: Commit reconciled master review
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/reviews/daily/ontap-daily-review.md
+          if git diff --cached --quiet; then
+            echo "Master review already matches current source state"
+            exit 0
+          fi
+          git commit -m "Reconcile Ontap daily review before publish"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Reconciled master review committed"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep 5
+            fi
+          done
+          echo "::error::Could not safely push reconciled master review after 3 attempts."
+          exit 1
+
       - name: Validate complete master review and fan out decisions
         working-directory: pipeline
         run: |
@@ -189,8 +217,9 @@ jobs:
           {
             echo "## Ontap Review Hub apply/publish"
             echo
-            echo "The complete master review was validated against current vacancy fingerprints."
+            echo "The master review was reconciled against the latest committed source state before validation."
+            echo "Unchanged manual decisions were retained; jobs no longer requiring review were removed."
+            echo "If genuinely new or changed jobs appeared, publishing stopped until those new blank actions are reviewed."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Only current source publishers were dispatched, sequentially."
-            echo "Sources marked stale/missing in the master review were not published."
           } >> "$GITHUB_STEP_SUMMARY"
