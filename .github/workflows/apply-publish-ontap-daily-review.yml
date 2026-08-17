@@ -42,10 +42,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate master review and fan out decisions
+      - name: Validate complete master review and fan out decisions
         working-directory: pipeline
         run: |
           python -m review_hub.master_review apply \
+            --require-complete \
             --write \
             --plan "$RUNNER_TEMP/ontap-review-publish-plan.json"
           cat "$RUNNER_TEMP/ontap-review-publish-plan.json"
@@ -188,7 +189,7 @@ jobs:
           {
             echo "## Ontap Review Hub apply/publish"
             echo
-            echo "One master review was validated against current vacancy fingerprints."
+            echo "The complete master review was validated against current vacancy fingerprints."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Only current source publishers were dispatched, sequentially."
             echo "Sources marked stale/missing in the master review were not published."
