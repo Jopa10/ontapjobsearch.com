@@ -181,7 +181,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Reporting",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "db261fce-bc72-4699-8504-ee766ecc1449",
@@ -206,7 +211,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225423837",
@@ -231,7 +240,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225473807",
@@ -256,7 +269,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "9313f8d8-798c-47d4-b862-63cec763953a",
@@ -281,7 +298,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225461884",
@@ -331,7 +352,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225400133",
@@ -359,6 +384,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225499803",
+    "title": "Housing Administrator",
+    "company": "RG Setsquare - Agency - Temporary",
+    "location": "Sittingbourne",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "132",
+    "salary_max": "132",
+    "salary_text": "£132 per daily",
+    "posted_date": "2026-08-17",
+    "description": "Are you in search of a temporary yet fulfilling role? Look no further! We're thrilled to offer an exciting position for our client based in Sittingbourne who are looking to appoint a Housing Administrator for the 6 months ongoing, at the rate of 132.86 per day umbrella\n\nThis is a Hybrid role 3 days remote, 2 days in office\n\nJob responsibilities\n\nProviding a full range of administrative and support services to facilitate the effective and efficient operation of the team and department. Completing daily, weekly, and monthly tasks to ensure the organisation meets its legal and regulatory compliance requirements.\n\nDuties will include, but are not limited to:\n- Booking appointments and co-ordinating these with residents, contractors, and other stakeholders\n- Raising jobs across a wide range of systems including MRI, Proactis, etc.\n- Providing meeting administrative support. Booking rooms, sending out invites, producing agendas, taking minutes, producing action trackers, etc.\n- Assisting with HHSRS and Decent Homes queries. Arranging works and following up to ensure there is completion evidence.\n- Monitoring compliance email inboxes and respond with prompt and accurate information.\n- Providing general administrative support to the team.\n- Taking responsibility for respond to Customer Contact through various mechanisms, phone, e-mail, CRM, etc.\n- Accurately processing incoming data and certification\n- Following procedures that describe how to process compliance documentation.\n- Ensuring all warranty and guarantee information is captured and stored for the use of the business.\n- Ensuring the accuracy of Apex, True Compliance, Swordfish and other databases\n- Executing your duties as prescribed in the relevant management plans, procedures, capping requests, etc.\n- Producing when necessary large mail merge databases and processing accordingly\n- Executing quality assurance activity and data sets and other processes.\n- Liaising with our Service Charge Team to ensure all our Leaseholder Consultation processes are fully compliant.\n- Processing as necessary any new product installation packs to ensure they are captured by all necessary stakeholders.\n\nShould your skills match the above please send through your updated CV.\n\nEden Brown is acting as an Employment Business in relation to this vacancy.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3dxLawsWPbeoEmBoMIPLBwu",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "2 days in office",
+    "working_arrangement_evidence": "We're thrilled to offer an exciting position for our client based in Sittingbourne who are looking to appoint a Housing Administrator for the 6 months ongoing, at the rate of 132.86 per day umbrella This is a Hybrid role 3 days remote, 2 days in office Job responsibilities Providing a full range of administrative and support services to facilitate the effective and efficient operation of the team and department.",
+    "advertiser_name": "RG Setsquare",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Daily",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "cf57b5c9-1ba9-42b2-abfe-093bc469040f",
     "title": "Receptionist / Administrator",
     "company": "Kelly Parrish Recruitment Limited - Agency - Permanent",
@@ -381,7 +431,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "96572460-cb6b-4213-999e-95d0413b799c",
@@ -756,7 +810,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225385708",
@@ -831,7 +892,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "11eb2a41-8583-4d40-8d7e-11042de70dda",
@@ -856,7 +921,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225498937",
@@ -906,7 +975,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "900e2fad-e172-4801-908f-64a7b0d2064e",
@@ -931,7 +1004,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225472227",
@@ -972,7 +1049,7 @@
     "salary_text": "£26000 per year",
     "posted_date": "2026-08-15",
     "description": "Package Description:\n\nQuality, Information, Safety and Governance Coordinator\n\nThe Role\n\nBehind every safe, high-quality patient service is accurate information, strong governance, and well-managed processes.\n\nAt IC24, our Quality, Information, Safety and Governance (QISG) team plays a vital role in ensuring we meet our statutory, regulatory and safety responsibilities across all services - and were look click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgr3WgNfkbge5Ii%2bAykpph2kn",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpyap5zSV5lxgGmLEGUoZ77Le",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",

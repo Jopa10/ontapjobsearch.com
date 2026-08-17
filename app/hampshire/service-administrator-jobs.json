@@ -174,7 +174,14 @@
     "advertiser_name": "Michael Page Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual"
+    "salary_period": "Annual",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Mail handling"
+    ]
   },
   {
     "job_id": "23643_225452299",
@@ -199,7 +206,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "83d45f3d-8451-4284-ae13-04615ce5df99",
@@ -249,7 +260,12 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "107605314",
@@ -349,7 +365,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225420218",
@@ -398,7 +421,14 @@
     "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly"
+    "salary_period": "Hourly",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225458449",
@@ -573,7 +603,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Filing and document handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225448844",
@@ -723,7 +758,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings",
+      "Records administration",
+      "Order processing",
+      "Starters and leavers"
+    ]
   },
   {
     "job_id": "107816328",
@@ -773,7 +815,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "107824141",
@@ -975,6 +1021,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225476353",
+    "title": "Sales Coordinator",
+    "company": "Percival Aviation - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-17",
+    "description": "Percival Aviation is a privately-owned organisation in Fareham, specialising in aircraft interiors and equipment. As a leading supplier, the company is expanding globally to provide innovative and cost-effective solutions for clients. With in-house design capabilities and production competencies, Percival Aviation is dedicated to delivering high-quality, certified products.\n\nRole Description\n\nThis is a full-time on-site role for a Sales Coordinator at Percival Aviation in Fareham.\n\nThe Sales Coordinator will be responsible for customer quotations, order loading, working with internal stakeholders and supporting leadership with timely sales data.\n\nRequirements:\n- Sales coordination and sales operations skills.\n- Customer service and communication skills.\n- Strong sales acumen and ability to build customer relationships.\n- Experience in the aviation industry is a plus.\n- Excellent organizational and multitasking abilities.\n- Proficiency in CRM software and Microsoft Office suite.\n\nBenefits:\n- Competitive salary depending on experience\n- Pension\n- Private Health Insurance\n- 28 days annual leave inclusive of public holidays\n- Full training provided\n\nAdditional Information:\n- Onsite position: Fareham\n- Must be eligible to work in UK without sponsorship\n- Monday Friday (08 00)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QOaRFOlVp1cV20IzYlgDXAx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Percival Aviation",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225474596",
     "title": "Medical Affairs Coordinator (IIR)",
     "company": "Entrust Resource Solutions - Agency - Temporary",
@@ -1022,7 +1093,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225432762",
@@ -1097,7 +1172,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Document preparation",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "4274e7f2-0812-4082-81f0-791e07dff1cd",
@@ -1147,7 +1228,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "107835605",
