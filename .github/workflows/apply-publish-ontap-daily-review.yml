@@ -130,6 +130,8 @@ jobs:
         run: |
           set -euo pipefail
 
+          LAST_RUN_ID=""
+
           recent_dispatched_run_id() {
             workflow="$1"
             started_epoch="$2"
@@ -166,9 +168,12 @@ jobs:
             for attempt in $(seq 1 30); do
               run_id="$(recent_dispatched_run_id "$workflow" "$started_epoch" || true)"
               if [ -n "$run_id" ]; then
+                LAST_RUN_ID="$run_id"
                 echo "Found $workflow run $run_id"
-                gh run watch "$run_id" --exit-status
-                return 0
+                if gh run watch "$run_id" --exit-status; then
+                  return 0
+                fi
+                return 1
               fi
               sleep 2
             done
@@ -182,6 +187,7 @@ jobs:
             approval="$3"
             echo "Dispatching $source via $workflow"
             started_epoch="$(date -u +%s)"
+            LAST_RUN_ID=""
 
             for attempt in $(seq 1 10); do
               echo "Dispatch attempt $attempt/10 for $source"
@@ -197,8 +203,10 @@ jobs:
               fi
 
               if [ "$dispatched" = "true" ]; then
-                wait_for_dispatched_run "$workflow" "$started_epoch"
-                return 0
+                if wait_for_dispatched_run "$workflow" "$started_epoch"; then
+                  return 0
+                fi
+                return 1
               fi
 
               # A failed HTTP response can occasionally be ambiguous. Before retrying,
@@ -206,9 +214,12 @@ jobs:
               # never deliberately dispatch a duplicate publisher.
               run_id="$(recent_dispatched_run_id "$workflow" "$started_epoch" || true)"
               if [ -n "$run_id" ]; then
+                LAST_RUN_ID="$run_id"
                 echo "Dispatch command failed, but GitHub created run $run_id; watching that run instead of retrying."
-                gh run watch "$run_id" --exit-status
-                return 0
+                if gh run watch "$run_id" --exit-status; then
+                  return 0
+                fi
+                return 1
               fi
 
               if [ "$attempt" -lt 10 ]; then
@@ -219,6 +230,51 @@ jobs:
 
             echo "::error::GitHub could not dispatch $source after 10 attempts."
             return 1
+          }
+
+          is_nonmaterial_nejobs_drift() {
+            run_id="$1"
+            [ -n "$run_id" ] || return 1
+            run_logs="$(gh run view "$run_id" --log 2>/dev/null || true)"
+            RUN_LOGS="$run_logs" python - <<'PY'
+          import os
+          import re
+
+          text = os.environ.get("RUN_LOGS", "")
+          stop_lines = [
+              line
+              for line in text.splitlines()
+              if "STOP: approved JSON was not written:" in line
+          ]
+          if not stop_lines:
+              raise SystemExit(1)
+          line = stop_lines[-1]
+          if "the live reviewable vacancy set differs from the reviewed set" not in line:
+              raise SystemExit(1)
+          if "detail page(s) failed" in line:
+              raise SystemExit(1)
+
+          def ids_after(label: str) -> list[str]:
+              match = re.search(rf"{re.escape(label)}:\s*([^;|)]+)", line)
+              if not match:
+                  return []
+              return [value.strip() for value in match.group(1).split(",") if value.strip()]
+
+          new_ids = ids_after("new IDs")
+          missing_ids = ids_after("missing IDs")
+          total_drift = len(new_ids) + len(missing_ids)
+
+          # Operational materiality boundary: keep NEJobs on the last approved
+          # snapshot and let the rest of Ontap publish when at most two newly
+          # reviewable jobs and four total added/removed IDs have changed.
+          if total_drift and len(new_ids) <= 2 and total_drift <= 4:
+              print(
+                  "Non-material NEJobs drift: "
+                  f"{len(new_ids)} new, {len(missing_ids)} missing; safe to isolate NEJobs."
+              )
+              raise SystemExit(0)
+          raise SystemExit(1)
+          PY
           }
 
           python - "$PLAN" > "$RUNNER_TEMP/publish-queue.tsv" <<'PY'
@@ -232,8 +288,9 @@ jobs:
           shared_publish=false
           while IFS=$'\t' read -r source workflow approval; do
             [ -n "$workflow" ] || continue
-            dispatch_one "$source" "$workflow" "$approval"
-            if python - "$PLAN" "$source" <<'PY'
+
+            if dispatch_one "$source" "$workflow" "$approval"; then
+              if python - "$PLAN" "$source" <<'PY'
           import json
           import sys
           plan = json.load(open(sys.argv[1], encoding="utf-8"))
@@ -241,9 +298,24 @@ jobs:
           row = next(item for item in plan["publish"] if item["source"] == source)
           raise SystemExit(0 if row["shared_publish_after"] else 1)
           PY
-            then
-              shared_publish=true
+              then
+                shared_publish=true
+              fi
+              continue
             fi
+
+            if [ "$source" = "nejobs" ] && is_nonmaterial_nejobs_drift "$LAST_RUN_ID"; then
+              echo "::warning::NEJobs changed only slightly after review. Keeping the last approved NEJobs snapshot and continuing with the other clean sources."
+              {
+                echo
+                echo "- NEJobs was skipped because live review drift was non-material (maximum 2 new review items / 4 total added-or-removed IDs)."
+                echo "- The previously approved NEJobs snapshot remains in place; other clean sources continue publishing."
+              } >> "$GITHUB_STEP_SUMMARY"
+              continue
+            fi
+
+            echo "::error::$source publisher failed and was not eligible for the non-material-drift exception."
+            exit 1
           done < "$RUNNER_TEMP/publish-queue.tsv"
 
           if [ "$shared_publish" = "true" ]; then
@@ -258,7 +330,8 @@ jobs:
             echo
             echo "The master review was reconciled against the latest committed source state before validation."
             echo "Unchanged manual decisions were retained; jobs no longer requiring review were removed."
-            echo "If genuinely new or changed jobs appeared, publishing stopped until those new blank actions are reviewed."
+            echo "If genuinely new or changed jobs appeared before validation, publishing stopped until those new blank actions were reviewed."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
+            echo "A small NEJobs-only live drift can be isolated without blocking JobG8, VONNE, Teaching Vacancies or the final verified-page publish; material NEJobs drift still blocks."
           } >> "$GITHUB_STEP_SUMMARY"
