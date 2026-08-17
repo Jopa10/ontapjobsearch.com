@@ -1,14 +1,15 @@
 # Ontap daily job review
 
 review_date: 2026-08-17
-generated_at: 2026-08-17T11:45:13+00:00
+generated_at: 2026-08-17T11:49:07+00:00
 
 **78 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
 - `action: exclude` = reject the vacancy.
-- Leave `action:` blank if you are not deciding it yet.
+- Leave `action:` blank while you are still deciding it.
+- The apply/publish workflow stops if any review item is still blank.
 - Unchanged decisions are remembered by the source pipelines; they should not keep returning here.
 - If the vacancy facts change, its fingerprint changes and it must be reviewed again.
 
