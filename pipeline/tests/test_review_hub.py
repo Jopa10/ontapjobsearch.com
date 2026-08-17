@@ -63,6 +63,7 @@ def test_master_is_single_editable_surface_with_source_status(tmp_path: Path) ->
     assert "| Stale Source | STALE |" in text
     assert "| NHS Jobs | FUTURE |" in text
     assert "must not be treated as zero inventory" in text
+    assert "stops if any review item is still blank" in text
 
 
 def test_master_carries_decision_only_when_fingerprint_unchanged(tmp_path: Path) -> None:
@@ -94,10 +95,16 @@ def test_apply_validates_current_fingerprint_and_builds_publish_plan(
     monkeypatch.setattr(master_review, "load_all_sources", lambda today: [result(item())])
     monkeypatch.setattr(master_review, "_route_action", routed.append)
 
-    plan = master_review.apply_master(path, today=TODAY, write=True)
+    plan = master_review.apply_master(
+        path,
+        today=TODAY,
+        write=True,
+        require_complete=True,
+    )
     assert len(routed) == 1
     assert routed[0].action == "select"
     assert plan["actions"] == 1
+    assert plan["complete"] is True
     assert plan["publish"] == [
         {
             "source": "test",
@@ -106,6 +113,26 @@ def test_apply_validates_current_fingerprint_and_builds_publish_plan(
             "shared_publish_after": True,
         }
     ]
+
+
+def test_publish_gate_refuses_any_blank_review_item(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    path = tmp_path / "ontap-daily-review.md"
+    path.write_text(
+        master_review.master_text([result(item())], today=TODAY, previous=path),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [result(item())])
+
+    with pytest.raises(ValueError, match="1 review item.*blank action"):
+        master_review.apply_master(
+            path,
+            today=TODAY,
+            write=False,
+            require_complete=True,
+        )
 
 
 def test_apply_refuses_changed_vacancy(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
