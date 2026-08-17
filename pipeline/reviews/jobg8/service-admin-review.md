@@ -1784,29 +1784,25 @@ job_id: 578647630
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £36000 per year | HR Administrator 3m FTC - Creative Agency
 job_id: f81aac2b-8606-43b8-9f23-24f40868c2ec
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £37000 per year | Brand Coordinator & Administrator
 job_id: 98db520e-fecc-42d4-979f-9f11eec9c785
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £20 per hour | Examinations Coordinator
 job_id: 23643_225500892
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £40000 per year | Permanent: Operations Co-ordinator to £40,000 ( Chiswick)
 job_id: a4658548-cea5-400a-aea0-5db656f46bf4
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2424,17 +2420,15 @@ job_id: 49e9b205-b4a5-43f8-bf98-22e6dd9c1202
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Caterham | £30000 - £40000 per year | Tender Administrator
 job_id: 19e67123-787d-40eb-bc54-4e10e57a7295
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Caterham | £40000 per year | Bid Coordinator
 job_id: 107649152
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -2997,13 +2991,12 @@ job_id: 9106c63f-aedd-42f5-8dd5-93e28a33c690
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £31500 per year | SOL Administrator
 job_id: 2b0f08ad-fe9d-4637-8766-17a7c353b0cd
 ---
-
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Atherstone | £15 - £20 per hour | Part Time Secretary
 job_id: f2b1b885-1e89-40a2-9927-0632554cbc43
 ---
@@ -3192,11 +3185,10 @@ job_id: 4fdbf2c6-e0d2-4e84-80e4-fcbe0929eba3
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Slough | £28000 - £32000 per year | HR & Operations Administrator
 job_id: 57c09aa3-10d6-4ef7-94bb-9e2981c9f002
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3304,11 +3296,10 @@ job_id: f41faabb-d30e-45e9-92c2-7108caf061a1
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £15 - £18.5 per hour | Interim Finance & Procurement Administrator
 job_id: f808eb78-0ba8-45ef-87f9-115fc9d8628b
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3482,17 +3473,15 @@ job_id: 23643_225498733
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £40000 - £50000 per year | Paraplanner
 job_id: d5251221-2477-4fea-af12-262a5bdfc568
 ---
-
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £28000 - £40000 per year | Paraplanner
 job_id: 6e92762b-5ca2-4563-a525-f086197bdaab
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3750,11 +3739,10 @@ job_id: fd7b404d-5ab4-401b-aaba-501823cbae1c
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DORSET | Dorset | Dorset | £50000 - £60000 per year | Chartered Paraplanner
 job_id: 12880f03-eef0-4876-b938-5335f079207f
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -3976,23 +3964,20 @@ job_id: fdf4ce6a-ca7e-4ffe-8a01-451d877ac55d
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Braintree | £55000 - £85000 per year | Financial Planner
 job_id: aefb6f88-42de-4bf9-a62e-b7d63260e543
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Grays | £28000 - £32000 per year | Accounts Assistant
 job_id: 93baa206-491b-430c-a77e-ba07b8e9564e
 ---
-
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Colchester | £30000 - £50000 per year | Paraplanner
 job_id: daac0fcc-07b5-4688-8b21-2d5b66178e57
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4400,23 +4385,20 @@ job_id: 58d8d671-be15-4ec0-82bd-3ac53a37c782
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £19 - £20 per hour | Assistant Board Secretary
 job_id: 2b79d856-aaf2-45e4-b963-935a96f9e96f
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £40000 - £50000 per year | Administrator
 job_id: e7ffbcbb-ffc2-4f5b-9fa2-94bf92b8967f
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £29000 - £35000 per year (Pension, Private Health Ins., Birthd) | HR and Facilities Coordinator
 job_id: 23643_225494042
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -5016,17 +4998,15 @@ job_id: da82df20-e44f-4e3f-a027-bdc1d194218d
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Swindon | £30000 - £42000 per year | Service Advisor
 job_id: 3403525b-043f-484a-8ba1-b8f4d8deca36
 ---
-
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Marlborough | £40000 per year | Paraplanner
 job_id: 107803495
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---

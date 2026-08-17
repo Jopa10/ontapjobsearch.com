@@ -56,7 +56,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173321
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: select
 POSS | North East | Hybrid | £ Per Annum | Bid Writer
 employer: People First Independent Advocacy
 closing_date: 01 September 2026
@@ -67,9 +67,8 @@ tracking_key: vonne-173334
 source_job_id: 173334
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
 ---
-
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Bereavement Counsellor
 employer: Age UK County Durham
 closing_date: 04 September 2026
@@ -80,9 +79,8 @@ tracking_key: vonne-173322
 source_job_id: 173322
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173322
 ---
-
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Counsellor/Psychotherapist
 employer: Age UK County Durham
 closing_date: 04 September 2026
@@ -93,9 +91,8 @@ tracking_key: vonne-173323
 source_job_id: 173323
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
 ---
-
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,761 to 28,966 Pro Rata | Therapeutic Coordinator
 employer: Rape and Sexual Abuse Counselling Centre (Darlington and County Durham)
 closing_date: Monday, August 24, 2026 - 12:00
@@ -106,9 +103,8 @@ tracking_key: vonne-173311
 source_job_id: 173311
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173311
 ---
-
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
@@ -119,9 +115,8 @@ tracking_key: vonne-173309
 source_job_id: 173309
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
 ---
-
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
@@ -132,9 +127,8 @@ tracking_key: vonne-173310
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
-
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
 employer: VONNE
 closing_date: Sunday, August 23, 2026 - 00:00
@@ -145,9 +139,8 @@ tracking_key: vonne-173253
 source_job_id: 173253
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
 ---
-
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,790 to 27,000 Per Annum | Youth Engagement Officer
 employer: Foundation of Light
 closing_date: Friday, August 28, 2026 - 00:00
@@ -158,8 +151,6 @@ tracking_key: vonne-173331
 source_job_id: 173331
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173331
 ---
-
-
 ## EXCLUDED BY REVIEW
 
 - None.
