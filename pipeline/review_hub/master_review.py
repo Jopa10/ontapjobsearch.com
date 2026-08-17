@@ -62,27 +62,48 @@ def master_text(
     carried = _existing_actions(previous) if previous else {}
     total = sum(len(result.items) for result in results if result.state == "OK")
     attention = [result for result in results if result.needs_attention]
+    waiting_for = ", ".join(result.label for result in attention)
     lines = [
         "# Ontap daily job review",
         "",
-        f"review_date: {today.isoformat()}",
-        f"generated_at: {datetime.now().astimezone().isoformat(timespec='seconds')}",
-        "",
-        f"**{total} job(s) need a human decision.**",
-        "",
-        "Edit only each `action:` line:",
-        "- `action: select` = include the vacancy.",
-        "- `action: exclude` = reject the vacancy.",
-        "- Leave `action:` blank while you are still deciding it.",
-        "- The apply/publish workflow stops if any review item is still blank.",
-        "- Unchanged decisions are remembered by the source pipelines; they should not keep returning here.",
-        "- If the vacancy facts change, its fingerprint changes and it must be reviewed again.",
-        "",
-        "## Source status",
-        "",
-        "| Source | Status | Review date | Needs review | Note |",
-        "|---|---|---|---:|---|",
     ]
+    if attention:
+        lines.extend(
+            [
+                f"> **NOT READY TO REVIEW — waiting for: {waiting_for}**",
+                "> Do not start reviewing yet. Rebuild this review after those source refreshes complete.",
+                "",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "> **READY TO REVIEW**",
+                f"> All active sources are current for {today.isoformat()}. You can start reviewing.",
+                "",
+            ]
+        )
+    lines.extend(
+        [
+            f"review_date: {today.isoformat()}",
+            f"generated_at: {datetime.now().astimezone().isoformat(timespec='seconds')}",
+            "",
+            f"**{total} job(s) need a human decision.**",
+            "",
+            "Edit only each `action:` line:",
+            "- `action: select` = include the vacancy.",
+            "- `action: exclude` = reject the vacancy.",
+            "- Leave `action:` blank while you are still deciding it.",
+            "- The apply/publish workflow stops if any review item is still blank.",
+            "- Unchanged decisions are remembered by the source pipelines; they should not keep returning here.",
+            "- If the vacancy facts change, its fingerprint changes and it must be reviewed again.",
+            "",
+            "## Source status",
+            "",
+            "| Source | Status | Review date | Needs review | Note |",
+            "|---|---|---|---:|---|",
+        ]
+    )
     for result in results:
         lines.append(
             f"| {_md(result.label)} | {result.state} | {result.review_date or '—'} | "
@@ -157,6 +178,7 @@ def build_master(
 ) -> dict[str, object]:
     today = today or date.today()
     results = load_all_sources(today)
+    attention = [result for result in results if result.needs_attention]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         master_text(results, today=today, previous=path),
@@ -167,9 +189,9 @@ def build_master(
         "review_count": sum(
             len(result.items) for result in results if result.state == "OK"
         ),
-        "attention_sources": [
-            result.key for result in results if result.needs_attention
-        ],
+        "ready_to_review": not attention,
+        "waiting_for": [result.label for result in attention],
+        "attention_sources": [result.key for result in attention],
         "sources": [
             {
                 "key": result.key,

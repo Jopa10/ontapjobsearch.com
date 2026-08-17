@@ -60,10 +60,28 @@ def test_master_is_single_editable_surface_with_source_status(tmp_path: Path) ->
     assert decisions[0].source_key == "test"
     assert decisions[0].item.title == "Borderline Administrator"
     assert decisions[0].fingerprint == item().fingerprint()
+    assert "NOT READY TO REVIEW — waiting for: Stale Source" in text
+    assert "Do not start reviewing yet" in text
     assert "| Stale Source | STALE |" in text
     assert "| NHS Jobs | FUTURE |" in text
     assert "must not be treated as zero inventory" in text
     assert "stops if any review item is still blank" in text
+
+
+def test_master_ready_banner_ignores_future_sources(tmp_path: Path) -> None:
+    path = tmp_path / "ontap-daily-review.md"
+    text = master_review.master_text(
+        [
+            result(item()),
+            SourceResult("nhs", "NHS Jobs", "FUTURE", "", note="reserved"),
+        ],
+        today=TODAY,
+        previous=path,
+    )
+
+    assert "> **READY TO REVIEW**" in text
+    assert f"All active sources are current for {TODAY.isoformat()}" in text
+    assert "NOT READY TO REVIEW" not in text
 
 
 def test_master_carries_decision_only_when_fingerprint_unchanged(tmp_path: Path) -> None:
