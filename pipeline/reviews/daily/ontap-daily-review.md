@@ -26,7 +26,7 @@ Edit only each `action:` line:
 ## JobG8 — 21 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Slough | £28000 - £32000 per year | HR & Operations Administrator
 source_key: jobg8
 source: JobG8
@@ -80,7 +80,7 @@ hub_fingerprint: 32c81bdc223e38437653f7fe159a4fcb31bea07a6daae451006fdc2d8baed58
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Peterborough | £28000 - £40000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -152,7 +152,7 @@ hub_fingerprint: 43375b380daa5a4171bd0651746095a68c3d299c8e78306d5853e820aaa767f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Grays | £28000 - £32000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -224,7 +224,7 @@ hub_fingerprint: f90dcf0dcec6ae8508b9d8be32b322eb72b1a76485fc1735ed4b77270ae7c1f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £30000 - £37000 per year | Brand Coordinator & Administrator
 source_key: jobg8
 source: JobG8
@@ -242,7 +242,7 @@ hub_fingerprint: d93efbe1e14314305a3b4faf08976c35f8aebd92f4afb18360ac4de30111916
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £20 per hour | Examinations Coordinator
 source_key: jobg8
 source: JobG8
@@ -278,7 +278,7 @@ hub_fingerprint: a41ef400967168678c3295fb8656364b276f9d46f07b4a4de17b1ead30a3ce6
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £35000 - £40000 per year | Permanent: Operations Co-ordinator to £40,000 ( Chiswick)
 source_key: jobg8
 source: JobG8
@@ -314,7 +314,7 @@ hub_fingerprint: 769cf494e6a6418ef9c1093b844b328822ceb7a72151a6f7b5a7162c7cfbfa6
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Surrey | Caterham | £30000 - £40000 per year | Tender Administrator
 source_key: jobg8
 source: JobG8
@@ -332,7 +332,7 @@ hub_fingerprint: 6f1795b3b9d57290cdab28035d7a10629265f988d20c54176f4716c03d92bcc
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Atherstone | £15 - £20 per hour | Part Time Secretary
 source_key: jobg8
 source: JobG8
@@ -350,7 +350,7 @@ hub_fingerprint: 15bcaec8bbfeba44baf12dc621ec4d86de4ba7aa95dcbd2563bcc408be93c36
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Coventry | £31500 per year | SOL Administrator
 source_key: jobg8
 source: JobG8
