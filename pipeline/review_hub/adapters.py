@@ -66,8 +66,11 @@ def load_jobg8(today: date) -> SourceResult:
         for category, csv_path, md_path in specs:
             rows = _csv_rows(csv_path)
             actions = _visible_actions(md_path, "job_id")
-            file_dates = {clean(row.get("feed_date")) for row in rows if clean(row.get("feed_date"))}
-            dates.update(file_dates)
+            dates.update(
+                clean(row.get("feed_date"))
+                for row in rows
+                if clean(row.get("feed_date"))
+            )
             for row in rows:
                 decision = clean(row.get("decision")).upper()
                 job_id = clean(row.get("job_id"))
@@ -83,12 +86,28 @@ def load_jobg8(today: date) -> SourceResult:
                     )
                 )
     except FileNotFoundError as exc:
-        return SourceResult("jobg8", "JobG8", "MISSING", "", note=f"missing {exc.args[0]}", publish_workflow="apply-jobg8-review-decisions.yml")
-    review_date = dates.pop() if len(dates) == 1 else ""
+        return SourceResult(
+            "jobg8",
+            "JobG8",
+            "MISSING",
+            "",
+            note=f"missing {exc.args[0]}",
+            publish_workflow="apply-jobg8-review-decisions.yml",
+            shared_publish_after=True,
+        )
+    review_date = next(iter(dates)) if len(dates) == 1 else ""
     state = _state(review_date, today) if len(dates) <= 1 else "STALE"
     if state != "OK":
         items = []
-    return SourceResult("jobg8", "JobG8", state, review_date, tuple(items), publish_workflow="apply-jobg8-review-decisions.yml")
+    return SourceResult(
+        "jobg8",
+        "JobG8",
+        state,
+        review_date,
+        tuple(items),
+        publish_workflow="apply-jobg8-review-decisions.yml",
+        shared_publish_after=True,
+    )
 
 
 def load_nejobs(today: date) -> SourceResult:
@@ -99,14 +118,31 @@ def load_nejobs(today: date) -> SourceResult:
     try:
         rows = _csv_rows(csv_path)
     except FileNotFoundError:
-        return SourceResult("nejobs", "NEJobs", "MISSING", review_date, publish_workflow="build-approved-nejobs-output.yml")
+        return SourceResult(
+            "nejobs",
+            "NEJobs",
+            "MISSING",
+            review_date,
+            publish_workflow="build-approved-nejobs-output.yml",
+            publish_requires_approval=True,
+            shared_publish_after=True,
+        )
     items = []
     if state == "OK":
         for row in rows:
             if clean(row.get("final_decision")).upper() != "POSS" or clean(row.get("manual_action")):
                 continue
             items.append(item_from_mapping("NEJobs", row, category="admin_service"))
-    return SourceResult("nejobs", "NEJobs", state, review_date, tuple(items), publish_workflow="build-approved-nejobs-output.yml")
+    return SourceResult(
+        "nejobs",
+        "NEJobs",
+        state,
+        review_date,
+        tuple(items),
+        publish_workflow="build-approved-nejobs-output.yml",
+        publish_requires_approval=True,
+        shared_publish_after=True,
+    )
 
 
 def load_vonne(today: date) -> SourceResult:
@@ -117,14 +153,31 @@ def load_vonne(today: date) -> SourceResult:
     try:
         rows = _csv_rows(csv_path)
     except FileNotFoundError:
-        return SourceResult("vonne", "VONNE", "MISSING", review_date, publish_workflow="build-approved-vonne-output.yml")
+        return SourceResult(
+            "vonne",
+            "VONNE",
+            "MISSING",
+            review_date,
+            publish_workflow="build-approved-vonne-output.yml",
+            publish_requires_approval=True,
+            shared_publish_after=True,
+        )
     items = []
     if state == "OK":
         for row in rows:
             if clean(row.get("final_decision")).upper() != "POSS" or clean(row.get("manual_action")):
                 continue
             items.append(item_from_mapping("VONNE", row, category="admin_service"))
-    return SourceResult("vonne", "VONNE", state, review_date, tuple(items), publish_workflow="build-approved-vonne-output.yml")
+    return SourceResult(
+        "vonne",
+        "VONNE",
+        state,
+        review_date,
+        tuple(items),
+        publish_workflow="build-approved-vonne-output.yml",
+        publish_requires_approval=True,
+        shared_publish_after=True,
+    )
 
 
 def _latest_tv_review_date() -> str:
@@ -135,9 +188,7 @@ def _latest_tv_review_date() -> str:
         if path.name != "england-wide-admin-service-summary.md"
     }
     dates.discard("")
-    if not dates:
-        return ""
-    return max(dates)
+    return max(dates) if dates else ""
 
 
 def load_teaching_vacancies(today: date) -> SourceResult:
@@ -147,7 +198,14 @@ def load_teaching_vacancies(today: date) -> SourceResult:
     try:
         rows = _csv_rows(csv_path)
     except FileNotFoundError:
-        return SourceResult("teaching_vacancies", "Teaching Vacancies", "MISSING", review_date, publish_workflow="publish-reviewed-teaching-vacancies-england.yml")
+        return SourceResult(
+            "teaching_vacancies",
+            "Teaching Vacancies",
+            "MISSING",
+            review_date,
+            publish_workflow="publish-reviewed-teaching-vacancies-england.yml",
+            publish_requires_approval=True,
+        )
     items = []
     if state == "OK":
         for row in rows:
@@ -156,7 +214,15 @@ def load_teaching_vacancies(today: date) -> SourceResult:
             if clean(row.get("final_decision")).upper() != "POSS" or clean(row.get("manual_action")):
                 continue
             items.append(item_from_mapping("Teaching Vacancies", row, category="admin_service"))
-    return SourceResult("teaching_vacancies", "Teaching Vacancies", state, review_date, tuple(items), publish_workflow="publish-reviewed-teaching-vacancies-england.yml")
+    return SourceResult(
+        "teaching_vacancies",
+        "Teaching Vacancies",
+        state,
+        review_date,
+        tuple(items),
+        publish_workflow="publish-reviewed-teaching-vacancies-england.yml",
+        publish_requires_approval=True,
+    )
 
 
 def load_nhs_future(today: date) -> SourceResult:
