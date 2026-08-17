@@ -18,7 +18,10 @@ def _md(value: object) -> str:
 
 
 def _field(block: str, key: str) -> str:
-    match = re.search(rf"(?mi)^{re.escape(key)}:\s*(.*?)\s*$", block)
+    match = re.search(
+        rf"(?mi)^{re.escape(key)}:[ \t]*(.*?)[ \t]*$",
+        block,
+    )
     return clean(match.group(1)) if match else ""
 
 
@@ -101,16 +104,15 @@ def master_text(
         if not result.items:
             lines.extend(["_No new or changed human decisions required._", ""])
             continue
-        ordered = sorted(
+        for item in sorted(
             result.items,
-            key=lambda item: (
-                item.region.casefold(),
-                item.location.casefold(),
-                item.title.casefold(),
-                item.source_job_id,
+            key=lambda x: (
+                x.region.casefold(),
+                x.location.casefold(),
+                x.title.casefold(),
+                x.source_job_id,
             ),
-        )
-        for item in ordered:
+        ):
             action = carried.get(_item_key(result.key, item), "")
             headline = " | ".join(
                 (
@@ -154,15 +156,19 @@ def build_master(
 ) -> dict[str, object]:
     today = today or date.today()
     results = load_all_sources(today)
-    text = master_text(results, today=today, previous=path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    path.write_text(
+        master_text(results, today=today, previous=path),
+        encoding="utf-8",
+    )
     return {
         "review_date": today.isoformat(),
         "review_count": sum(
             len(result.items) for result in results if result.state == "OK"
         ),
-        "attention_sources": [result.key for result in results if result.needs_attention],
+        "attention_sources": [
+            result.key for result in results if result.needs_attention
+        ],
         "sources": [
             {
                 "key": result.key,
@@ -181,7 +187,7 @@ def parse_master(path: Path = DEFAULT_MASTER) -> tuple[str, list[ParsedDecision]
         raise ValueError(f"master review not found: {path}")
     text = path.read_text(encoding="utf-8-sig")
     date_match = re.search(
-        r"(?m)^review_date:\s*(\d{4}-\d{2}-\d{2})\s*$",
+        r"(?m)^review_date:[ \t]*(\d{4}-\d{2}-\d{2})[ \t]*$",
         text,
     )
     if not date_match:
@@ -239,13 +245,13 @@ def _patch_action(
         nonlocal matched
         block = match.group(1)
         id_match = re.search(
-            rf"(?mi)^{re.escape(id_field)}:\s*(\S+)\s*$",
+            rf"(?mi)^{re.escape(id_field)}:[ \t]*(\S+)[ \t]*$",
             block,
         )
         if not id_match or clean(id_match.group(1)) != source_job_id:
             return match.group(0)
         if not re.search(
-            r"(?mi)^action:\s*(?:select|exclude)?\s*$",
+            r"(?mi)^action:[ \t]*(?:select|exclude)?[ \t]*$",
             block,
         ):
             raise ValueError(
@@ -253,7 +259,7 @@ def _patch_action(
             )
         matched += 1
         block = re.sub(
-            r"(?mi)^action:\s*(?:select|exclude)?\s*$",
+            r"(?mi)^action:[ \t]*(?:select|exclude)?[ \t]*$",
             f"action: {action}",
             block,
             count=1,
@@ -282,38 +288,29 @@ def _route_action(decision: ParsedDecision) -> None:
             raise ValueError(
                 f"unsupported JobG8 category: {decision.item.category}"
             )
-        _patch_action(
-            path,
-            "job_id",
-            decision.item.source_job_id,
-            decision.action,
-        )
-    elif decision.source_key == "nejobs":
-        _patch_action(
+        _patch_action(path, "job_id", decision.item.source_job_id, decision.action)
+        return
+    routes = {
+        "nejobs": (
             PIPELINE_ROOT / "reviews/external/northeast-jobs-summary.md",
             "source_job_id",
-            decision.item.source_job_id,
-            decision.action,
-        )
-    elif decision.source_key == "vonne":
-        _patch_action(
+        ),
+        "vonne": (
             PIPELINE_ROOT / "reviews/external/vonne-summary.md",
             "source_job_id",
-            decision.item.source_job_id,
-            decision.action,
-        )
-    elif decision.source_key == "teaching_vacancies":
-        _patch_action(
+        ),
+        "teaching_vacancies": (
             PIPELINE_ROOT
             / "reviews/external/teaching-vacancies/england-wide-admin-service-summary.md",
             "source_job_id",
-            decision.item.source_job_id,
-            decision.action,
-        )
-    else:
+        ),
+    }
+    if decision.source_key not in routes:
         raise ValueError(
             f"source {decision.source_key!r} has no enabled decision adapter"
         )
+    path, id_field = routes[decision.source_key]
+    _patch_action(path, id_field, decision.item.source_job_id, decision.action)
 
 
 def apply_master(
@@ -332,13 +329,12 @@ def apply_master(
 
     results = load_all_sources(today)
     by_key = {result.key: result for result in results}
-    current: dict[tuple[str, str, str], ReviewItem] = {}
-    for result in results:
-        if result.state != "OK":
-            continue
-        for item in result.items:
-            current[(result.key, item.category, item.source_job_id)] = item
-
+    current = {
+        (result.key, item.category, item.source_job_id): item
+        for result in results
+        if result.state == "OK"
+        for item in result.items
+    }
     acted = [decision for decision in decisions if decision.action]
     for decision in acted:
         result = by_key.get(decision.source_key)
@@ -356,10 +352,7 @@ def apply_master(
             raise ValueError(
                 f"review item is no longer unresolved/current: {key}"
             )
-        if (
-            not decision.fingerprint
-            or decision.fingerprint != live_item.fingerprint()
-        ):
+        if decision.fingerprint != live_item.fingerprint():
             raise ValueError(
                 "vacancy facts changed since review for "
                 f"{decision.source_key}/{decision.item.source_job_id}"
@@ -377,12 +370,8 @@ def apply_master(
     plan = {
         "review_date": review_date,
         "actions": len(acted),
-        "selected": sum(
-            decision.action == "select" for decision in acted
-        ),
-        "excluded": sum(
-            decision.action == "exclude" for decision in acted
-        ),
+        "selected": sum(d.action == "select" for d in acted),
+        "excluded": sum(d.action == "exclude" for d in acted),
         "publish": [
             {
                 "source": result.key,
