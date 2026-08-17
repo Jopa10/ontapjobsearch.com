@@ -248,7 +248,7 @@ job_id: e8be6b4a-3c51-4aaa-95e5-513bc3de6296
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £26000 - £28000 per year | Accounts Administrator
 job_id: e6adc526-6a11-4aca-a85b-f18a9cd311ee
 ---
