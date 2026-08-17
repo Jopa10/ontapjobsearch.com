@@ -1,0 +1,80 @@
+name: Run post-expansion Module 2 now
+
+on:
+  push:
+    paths:
+      - '.github/workflows/run-module2-post-expansion-now.yml'
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip pandas openpyxl boto3
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+      - name: Materialize August feed and keep post-expansion days
+        env:
+          JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
+          JOBG8_ARCHIVE_REGION: eu-west-2
+        run: |
+          set -euo pipefail
+          input_dir="$RUNNER_TEMP/jobg8-post-expansion/2026-08"
+          python pipeline/scripts/materialize_jobg8_archive_month.py \
+            --month '2026-08' \
+            --bucket "$JOBG8_ARCHIVE_BUCKET" \
+            --region "$JOBG8_ARCHIVE_REGION" \
+            --prefix 'jobg8/raw' \
+            --s3-start-date '2026-08-14' \
+            --legacy-dir 'pipeline/input-jobg8-archive/2026-08' \
+            --output-dir "$input_dir"
+          find "$input_dir" -maxdepth 1 -type f -name '2026-08-0*.xlsx' -delete
+          find "$input_dir" -maxdepth 1 -type f -name '2026-08-10.xlsx' -delete
+          echo "JOBG8_COMPILER_INPUT_DIR=$input_dir" >> "$GITHUB_ENV"
+      - name: Reconcile registers
+        run: |
+          set -euo pipefail
+          reconciled_dir="$RUNNER_TEMP/jobg8-post-expansion/registers"
+          python pipeline/scripts/materialize_reconciled_category_registers.py \
+            --registers-dir pipeline/registers \
+            --refinements pipeline/registers/pipeline_refinement_rules.csv \
+            --output-dir "$reconciled_dir"
+          echo "JOBG8_RECONCILED_REGISTERS_DIR=$reconciled_dir" >> "$GITHUB_ENV"
+      - name: Run Module 2 for post-expansion window
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          python -m scripts.jobg8_module_2_live_slices \
+            --month '2026-08-post-expansion' \
+            --input-dir "$JOBG8_COMPILER_INPUT_DIR" \
+            --output-dir 'reports-module2' \
+            --geo-lookup 'geo/geo_lookup.xlsx' \
+            --registers-dir "$JOBG8_RECONCILED_REGISTERS_DIR"
+      - name: Commit post-expansion reports only
+        run: |
+          set -euo pipefail
+          files=(
+            pipeline/reports-module2/2026-08-post-expansion-module2-category-validation.csv
+            pipeline/reports-module2/2026-08-post-expansion-module2-daily-counts.csv
+            pipeline/reports-module2/2026-08-post-expansion-module2-unknown-location-detail.csv
+            pipeline/reports-module2/2026-08-post-expansion-module2-run-log.txt
+          )
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "${files[@]}"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Run post-expansion Compiler Module 2 discovery'
+          git push
