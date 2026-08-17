@@ -73,7 +73,9 @@ def send(path: Path = DEFAULT_MASTER) -> bool:
         "",
         f"Open the one review file: {review_url}",
         "",
-        "Edit only action: lines (select / exclude), commit the file, then run "
+        "The same review file is attached to this email for reference.",
+        "",
+        "Edit only action: lines (select / exclude), commit the GitHub file, then run "
         "Apply and publish Ontap daily review.",
     ]
     if attention:
@@ -87,6 +89,12 @@ def send(path: Path = DEFAULT_MASTER) -> bool:
             ]
         )
     msg.set_content("\n".join(body) + "\n")
+    msg.add_attachment(
+        path.read_bytes(),
+        maintype="text",
+        subtype="markdown",
+        filename=path.name,
+    )
 
     port = int(os.getenv("ONTAP_SMTP_PORT", "").strip() or "587")
     use_ssl = os.getenv("ONTAP_SMTP_SSL", "").strip().lower() in {
