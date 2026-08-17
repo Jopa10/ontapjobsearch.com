@@ -76,8 +76,8 @@ def test_region_filter_writes_only_requested_region(tmp_path: Path) -> None:
     snapshot_dir = tmp_path / "snapshots"
     evidence_dir = tmp_path / "evidence"
     register = tmp_path / "register.csv"
-    west = current_dir / "west.json"
-    south = current_dir / "south.json"
+    west = current_dir / "west-admin-service.json"
+    south = current_dir / "south-admin-service.json"
     write_json(west, [base_job("west-base", "Yorkshire - West")])
     write_json(south, [base_job("south-base", "Yorkshire - South")])
     write_snapshot(
