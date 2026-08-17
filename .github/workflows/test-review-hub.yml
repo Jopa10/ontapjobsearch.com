@@ -1,0 +1,51 @@
+name: Test Ontap Review Hub
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/review_hub/**"
+      - "pipeline/tests/test_review_hub.py"
+      - ".github/workflows/ontap-daily-review.yml"
+      - ".github/workflows/apply-publish-ontap-daily-review.yml"
+      - ".github/workflows/test-review-hub.yml"
+  push:
+    branches:
+      - feature/ontap-review-hub-impl
+    paths:
+      - "pipeline/review_hub/**"
+      - "pipeline/tests/test_review_hub.py"
+      - ".github/workflows/ontap-daily-review.yml"
+      - ".github/workflows/apply-publish-ontap-daily-review.yml"
+      - ".github/workflows/test-review-hub.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-review-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test package
+        run: python -m pip install --upgrade pip pytest
+      - name: Compile Review Hub
+        working-directory: pipeline
+        run: python -m compileall -q review_hub
+      - name: Run Review Hub tests
+        working-directory: pipeline
+        run: python -m pytest tests/test_review_hub.py -q
+      - name: Smoke-test current source adapters and dry-run apply plan
+        working-directory: pipeline
+        run: |
+          python -m review_hub.master_review build --output /tmp/ontap-daily-review.md
+          test -s /tmp/ontap-daily-review.md
+          sed -n '1,35p' /tmp/ontap-daily-review.md
+          python -m review_hub.master_review apply \
+            --input /tmp/ontap-daily-review.md \
+            --plan /tmp/ontap-review-plan.json
+          test -s /tmp/ontap-review-plan.json
+          cat /tmp/ontap-review-plan.json

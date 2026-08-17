@@ -1,0 +1,90 @@
+name: Ontap daily review
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 8 * * *"
+      timezone: "Europe/London"
+
+concurrency:
+  group: ontap-daily-review
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-review:
+    name: Build one daily review file and email it
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build unified review
+        working-directory: pipeline
+        run: python -m review_hub.master_review build
+
+      - name: Verify review-only isolation
+        run: |
+          set -euo pipefail
+          test -s pipeline/reviews/daily/ontap-daily-review.md
+          unexpected="$(git diff --name-only | awk '$0 != "pipeline/reviews/daily/ontap-daily-review.md"')"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Daily review builder changed unexpected files:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+
+      - name: Commit one daily review file
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/reviews/daily/ontap-daily-review.md
+          if git diff --cached --quiet; then
+            echo "No daily review change to commit"
+            exit 0
+          fi
+          git commit -m "Refresh Ontap daily review"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Daily review committed"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep 5
+            fi
+          done
+          echo "::error::Could not safely push daily review after 3 attempts."
+          exit 1
+
+      - name: Email daily review
+        working-directory: pipeline
+        env:
+          ONTAP_REVIEW_EMAIL_TO: ${{ secrets.ONTAP_REVIEW_EMAIL_TO }}
+          ONTAP_REVIEW_EMAIL_FROM: ${{ secrets.ONTAP_REVIEW_EMAIL_FROM }}
+          ONTAP_SMTP_HOST: ${{ secrets.ONTAP_SMTP_HOST }}
+          ONTAP_SMTP_PORT: ${{ secrets.ONTAP_SMTP_PORT }}
+          ONTAP_SMTP_USERNAME: ${{ secrets.ONTAP_SMTP_USERNAME }}
+          ONTAP_SMTP_PASSWORD: ${{ secrets.ONTAP_SMTP_PASSWORD }}
+          ONTAP_SMTP_SSL: ${{ secrets.ONTAP_SMTP_SSL }}
+          ONTAP_REVIEW_URL: https://github.com/Jopa10/ontapjobsearch.com/blob/main/pipeline/reviews/daily/ontap-daily-review.md
+        run: python -m review_hub.email_review
+
+      - name: Workflow summary
+        run: |
+          {
+            echo "## Ontap daily review ready"
+            echo
+            sed -n '1,35p' pipeline/reviews/daily/ontap-daily-review.md
+          } >> "$GITHUB_STEP_SUMMARY"

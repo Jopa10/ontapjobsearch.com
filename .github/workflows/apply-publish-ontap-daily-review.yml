@@ -1,0 +1,195 @@
+name: Apply and publish Ontap daily review
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Type PUBLISH after completing the one Ontap daily review file
+        required: true
+        type: string
+
+concurrency:
+  group: ontap-review-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  apply-and-publish:
+    name: Fan out reviewed decisions and run guarded source publishers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check explicit approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate master review and fan out decisions
+        working-directory: pipeline
+        run: |
+          python -m review_hub.master_review apply \
+            --write \
+            --plan "$RUNNER_TEMP/ontap-review-publish-plan.json"
+          cat "$RUNNER_TEMP/ontap-review-publish-plan.json"
+
+      - name: Verify fanout changed only source review surfaces
+        run: |
+          set -euo pipefail
+          unexpected="$({ git diff --name-only | awk '
+            $0 != "pipeline/reviews/jobg8/service-admin-review.md" &&
+            $0 != "pipeline/reviews/jobg8/support-worker-review.md" &&
+            $0 != "pipeline/reviews/external/northeast-jobs-summary.md" &&
+            $0 != "pipeline/reviews/external/vonne-summary.md" &&
+            $0 != "pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md"'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Review Hub fanout changed unexpected files:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+
+      - name: Commit fanned-out review decisions
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            pipeline/reviews/jobg8/service-admin-review.md \
+            pipeline/reviews/jobg8/support-worker-review.md \
+            pipeline/reviews/external/northeast-jobs-summary.md \
+            pipeline/reviews/external/vonne-summary.md \
+            pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md
+          if git diff --cached --quiet; then
+            echo "No manual action fanout changes to commit"
+            exit 0
+          fi
+          git commit -m "Apply Ontap daily review decisions"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Review decisions committed"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep 5
+            fi
+          done
+          echo "::error::Could not safely push review decisions after 3 attempts."
+          exit 1
+
+      - name: Dispatch current source publishers sequentially
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PLAN: ${{ runner.temp }}/ontap-review-publish-plan.json
+        run: |
+          set -euo pipefail
+
+          wait_for_dispatched_run() {
+            workflow="$1"
+            started_epoch="$2"
+            run_id=""
+            for attempt in $(seq 1 30); do
+              runs_json="$(gh run list \
+                --workflow "$workflow" \
+                --branch main \
+                --event workflow_dispatch \
+                --limit 10 \
+                --json databaseId,createdAt,status,conclusion)"
+              run_id="$(RUNS_JSON="$runs_json" STARTED_EPOCH="$started_epoch" python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+
+          started = int(os.environ["STARTED_EPOCH"])
+          rows = json.loads(os.environ["RUNS_JSON"])
+          candidates = []
+          for row in rows:
+              created = dt.datetime.fromisoformat(row["createdAt"].replace("Z", "+00:00"))
+              if int(created.timestamp()) >= started - 3:
+                  candidates.append((created, row["databaseId"]))
+          if candidates:
+              print(max(candidates)[1])
+          PY
+              )"
+              if [ -n "$run_id" ]; then
+                echo "Found $workflow run $run_id"
+                gh run watch "$run_id" --exit-status
+                return 0
+              fi
+              sleep 2
+            done
+            echo "::error::Could not locate dispatched run for $workflow"
+            return 1
+          }
+
+          dispatch_one() {
+            source="$1"
+            workflow="$2"
+            approval="$3"
+            echo "Dispatching $source via $workflow"
+            started_epoch="$(date -u +%s)"
+            if [ "$approval" = "true" ]; then
+              gh workflow run "$workflow" --ref main -f approval=PUBLISH
+            else
+              gh workflow run "$workflow" --ref main
+            fi
+            wait_for_dispatched_run "$workflow" "$started_epoch"
+          }
+
+          python - "$PLAN" > "$RUNNER_TEMP/publish-queue.tsv" <<'PY'
+          import json
+          import sys
+          plan = json.load(open(sys.argv[1], encoding="utf-8"))
+          for row in plan["publish"]:
+              print(f"{row['source']}\t{row['workflow']}\t{str(row['approval']).lower()}")
+          PY
+
+          shared_publish=false
+          while IFS=$'\t' read -r source workflow approval; do
+            [ -n "$workflow" ] || continue
+            dispatch_one "$source" "$workflow" "$approval"
+            if python - "$PLAN" "$source" <<'PY'
+          import json
+          import sys
+          plan = json.load(open(sys.argv[1], encoding="utf-8"))
+          source = sys.argv[2]
+          row = next(item for item in plan["publish"] if item["source"] == source)
+          raise SystemExit(0 if row["shared_publish_after"] else 1)
+          PY
+            then
+              shared_publish=true
+            fi
+          done < "$RUNNER_TEMP/publish-queue.tsv"
+
+          if [ "$shared_publish" = "true" ]; then
+            dispatch_one "shared verified pages" "publish-verified-pages.yml" "false"
+          fi
+
+      - name: Publish summary
+        if: always()
+        run: |
+          {
+            echo "## Ontap Review Hub apply/publish"
+            echo
+            echo "One master review was validated against current vacancy fingerprints."
+            echo "Manual actions were fanned out to the owning source review files."
+            echo "Only current source publishers were dispatched, sequentially."
+            echo "Sources marked stale/missing in the master review were not published."
+          } >> "$GITHUB_STEP_SUMMARY"
