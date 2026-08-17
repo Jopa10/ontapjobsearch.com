@@ -1,0 +1,102 @@
+name: Run JobG8 discovery coverage audit
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/run-jobg8-discovery-coverage-audit.yml'
+      - 'pipeline/scripts/jobg8_discovery_coverage_audit.py'
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: jobg8-discovery-coverage-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pandas openpyxl boto3
+
+      - name: Configure AWS credentials for JobG8 archive
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+
+      - name: Materialize current August JobG8 archive
+        env:
+          JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
+          JOBG8_ARCHIVE_REGION: eu-west-2
+        run: |
+          set -euo pipefail
+          staging_dir="$RUNNER_TEMP/jobg8-discovery-audit/2026-08"
+          python pipeline/scripts/materialize_jobg8_archive_month.py \
+            --month '2026-08' \
+            --bucket "$JOBG8_ARCHIVE_BUCKET" \
+            --region "$JOBG8_ARCHIVE_REGION" \
+            --prefix 'jobg8/raw' \
+            --s3-start-date '2026-08-14' \
+            --legacy-dir 'pipeline/input-jobg8-archive/2026-08' \
+            --output-dir "$staging_dir"
+          echo "JOBG8_AUDIT_INPUT_DIR=$staging_dir" >> "$GITHUB_ENV"
+
+      - name: Run discovery coverage audit
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/jobg8_discovery_coverage_audit.py \
+            --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
+            --registers-dir pipeline/registers \
+            --refinements pipeline/registers/pipeline_refinement_rules.csv \
+            --output-dir pipeline/reports-discovery-audit
+          cat pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit diagnostic outputs only
+        run: |
+          set -euo pipefail
+          files=(
+            pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.csv
+            pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.md
+          )
+          git add -- "${files[@]}"
+          if git diff --cached --quiet; then
+            echo 'Discovery audit unchanged'
+            exit 0
+          fi
+          staged="$(git diff --cached --name-only)"
+          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/jobg8-discovery-coverage-current\.(csv|md)$' || true)"
+          if [ -n "$unexpected" ]; then
+            echo '::error::Unexpected staged path(s):'
+            printf '%s\n' "$unexpected"
+            git reset --mixed
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Run JobG8 discovery coverage audit'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Upload audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-discovery-coverage-audit
+          path: pipeline/reports-discovery-audit/
+          if-no-files-found: warn
+          retention-days: 30
