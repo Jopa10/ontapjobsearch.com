@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 24
 - effective include: 8
-- effective review: 8
+- effective review: 9
 - effective exclude: 24
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-3b53cb0f-6ff5-487a-a44c-2f2e6f60719a
 reason: The stated workplace matches the approved Brighton & Hove employment-market pattern `brighton`.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Office Angels - Agency - Contract
 location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225454060
+reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Receptionist
+company: First Recruitment Services - Agency - Permanent
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225283461
 reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
 ---
 

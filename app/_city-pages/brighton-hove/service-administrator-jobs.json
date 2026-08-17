@@ -22,7 +22,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "f87870ad-8f06-4bfa-9d7b-2d83b9b6f0b8",
@@ -72,7 +77,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Document preparation",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225411917",
@@ -147,7 +156,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "3b53cb0f-6ff5-487a-a44c-2f2e6f60719a",
@@ -172,7 +185,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "teaching-vacancies-administrative-assistants-cardinal-newman-catholic-school",

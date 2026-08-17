@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 17
+- automatic review: 18
 - automatic exclude: 22
 - effective include: 10
-- effective review: 17
+- effective review: 18
 - effective exclude: 22
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225419560
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -335,6 +335,18 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Percival Aviation - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225476353
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 

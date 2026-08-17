@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 8
-- automatic exclude: 7
+- automatic exclude: 6
 - effective include: 4
 - effective review: 8
-- effective exclude: 7
+- effective exclude: 6
 
 ## INCLUDE (4)
 
@@ -170,7 +170,7 @@ job_id: jobg8-1401784321
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -205,18 +205,6 @@ company: Hampshire County Council - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-1401784414
-reason: The stated workplace belongs outside the approved Southampton employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Domiciliary Care Assistant
-company: ECS Recruitment Consultants Ltd - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-107404020
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 
