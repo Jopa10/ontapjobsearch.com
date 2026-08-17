@@ -106,14 +106,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support",
-      "Community access",
-      "Safeguarding",
-      "Emotional support"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "99725da6-35b1-4d29-9426-1b7224ab3269",
