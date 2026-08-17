@@ -31,7 +31,7 @@ def _summary(path: Path) -> tuple[int, list[str], list[str]]:
         cells = [cell.strip() for cell in line.strip("|").split("|")]
         if len(cells) < 5:
             continue
-        source, state, review_date, needs, note = cells[:5]
+        source, state, review_date, needs, _note = cells[:5]
         rows.append(f"{source}: {needs} to review — {state} ({review_date})")
         if state not in {"OK", "FUTURE"}:
             attention.append(source)
@@ -52,14 +52,19 @@ def send(path: Path = DEFAULT_MASTER) -> bool:
         return False
 
     count, rows, attention = _summary(path)
-    suffix = f" — ATTENTION: {len(attention)} source(s) stale/missing" if attention else ""
+    suffix = (
+        f" — ATTENTION: {len(attention)} source(s) stale/missing"
+        if attention
+        else ""
+    )
     msg = EmailMessage()
     msg["Subject"] = f"Ontap daily review — {count} jobs need review{suffix}"
     msg["From"] = from_addr
     msg["To"] = to_addr
     review_url = os.getenv(
         "ONTAP_REVIEW_URL",
-        "https://github.com/Jopa10/ontapjobsearch.com/blob/main/pipeline/reviews/daily/ontap-daily-review.md",
+        "https://github.com/Jopa10/ontapjobsearch.com/blob/main/"
+        "pipeline/reviews/daily/ontap-daily-review.md",
     )
     body = [
         f"{count} jobs need your decision today.",
@@ -68,19 +73,27 @@ def send(path: Path = DEFAULT_MASTER) -> bool:
         "",
         f"Open the one review file: {review_url}",
         "",
-        "Edit only action: lines (select / exclude), commit the file, then run Apply and publish Ontap daily review.",
+        "Edit only action: lines (select / exclude), commit the file, then run "
+        "Apply and publish Ontap daily review.",
     ]
     if attention:
         body.extend(
             [
                 "",
-                "Attention: " + ", ".join(attention) + " did not provide a current review and must not be treated as zero inventory.",
+                "Attention: "
+                + ", ".join(attention)
+                + " did not provide a current review and must not be treated "
+                "as zero inventory.",
             ]
         )
     msg.set_content("\n".join(body) + "\n")
 
-    port = int(os.getenv("ONTAP_SMTP_PORT", "587"))
-    use_ssl = os.getenv("ONTAP_SMTP_SSL", "").strip().lower() in {"1", "true", "yes"}
+    port = int(os.getenv("ONTAP_SMTP_PORT", "").strip() or "587")
+    use_ssl = os.getenv("ONTAP_SMTP_SSL", "").strip().lower() in {
+        "1",
+        "true",
+        "yes",
+    }
     smtp_cls = smtplib.SMTP_SSL if use_ssl else smtplib.SMTP
     with smtp_cls(host, port, timeout=30) as client:
         if not use_ssl:
