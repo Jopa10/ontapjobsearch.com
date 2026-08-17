@@ -7,6 +7,7 @@ import re
 from typing import Callable
 
 from .contracts import ReviewItem, SourceResult, clean, item_from_mapping
+from .nhs_decisions import load_decisions
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 
@@ -278,6 +279,7 @@ def load_nhs(today: date) -> SourceResult:
     """
     csv_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-review.csv"
     md_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-summary.md"
+    decisions_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-decisions.csv"
     if not csv_path.exists() and not md_path.exists():
         return SourceResult(
             "nhs",
@@ -300,6 +302,7 @@ def load_nhs(today: date) -> SourceResult:
             note="NHS review CSV missing",
         )
 
+    remembered = load_decisions(decisions_path)
     items: list[ReviewItem] = []
     if state == "OK":
         for row in rows:
@@ -317,14 +320,16 @@ def load_nhs(today: date) -> SourceResult:
             reason = clean(row.get("classification_reason") or row.get("reason"))
             if switchability:
                 reason = f"{switchability}: {reason}" if reason else switchability
-            items.append(
-                item_from_mapping(
-                    "NHS Jobs",
-                    row,
-                    category=category,
-                    reason=reason,
-                )
+            item = item_from_mapping(
+                "NHS Jobs",
+                row,
+                category=category,
+                reason=reason,
             )
+            decision_key = (category, item.source_job_id, item.fingerprint())
+            if remembered.get(decision_key) in {"select", "exclude"}:
+                continue
+            items.append(item)
 
     return SourceResult(
         "nhs",
