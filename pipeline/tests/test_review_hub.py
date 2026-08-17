@@ -71,14 +71,15 @@ def test_master_carries_decision_only_when_fingerprint_unchanged(tmp_path: Path)
     path.write_text(first.replace("action:\n", "action: select\n", 1), encoding="utf-8")
 
     second = master_review.master_text([result(item())], today=TODAY, previous=path)
-    assert "action: select" in second
+    assert "---\naction: select\nPOSS |" in second
 
     changed = master_review.master_text(
         [result(item(title="Changed title"))],
         today=TODAY,
         previous=path,
     )
-    assert "action: select" not in changed
+    assert "---\naction: select\nPOSS |" not in changed
+    assert "---\naction:\nPOSS |" in changed
 
 
 def test_apply_validates_current_fingerprint_and_builds_publish_plan(
