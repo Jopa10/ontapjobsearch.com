@@ -3,7 +3,7 @@ name: Run VONNE review
 on:
   workflow_dispatch:
   schedule:
-    - cron: "35 6 * * 1,4"
+    - cron: "35 6 * * *"
 
 permissions:
   contents: write
@@ -26,6 +26,21 @@ jobs:
 
       - name: Install Python packages
         run: python -m pip install --upgrade pip pandas openpyxl pytest
+
+      - name: Test persistent review decisions
+        working-directory: pipeline
+        run: python -m unittest tests.test_persistent_external_review_actions -v
+
+      - name: Capture committed VONNE decisions
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          if test -s reviews/external/vonne-summary.md && test -s reviews/external/vonne-review.csv; then
+            python -m external_sources.persistent_external_review_actions capture \
+              --summary reviews/external/vonne-summary.md \
+              --csv reviews/external/vonne-review.csv \
+              --ledger reviews/external/decisions/vonne.csv
+          fi
 
       - name: Download current JobG8 feed for dedupe
         env:
@@ -62,10 +77,20 @@ jobs:
             --fetch-live \
             --acknowledge-source-terms
 
+      - name: Reapply unchanged remembered VONNE decisions
+        working-directory: pipeline
+        run: |
+          python -m external_sources.persistent_external_review_actions apply \
+            --summary reviews/external/vonne-summary.md \
+            --csv reviews/external/vonne-review.csv \
+            --ledger reviews/external/decisions/vonne.csv \
+            --source vonne
+
       - name: Verify review outputs and live-site isolation
         run: |
           test -s pipeline/reviews/external/vonne-review.csv
           test -s pipeline/reviews/external/vonne-summary.md
+          test -s pipeline/reviews/external/decisions/vonne.csv
           git diff --exit-code -- \
             pipeline/output-external \
             pipeline/output-admin-service \
@@ -77,6 +102,7 @@ jobs:
           review_paths=(
             "pipeline/reviews/external/vonne-review.csv"
             "pipeline/reviews/external/vonne-summary.md"
+            "pipeline/reviews/external/decisions/vonne.csv"
           )
 
           git add -- "${review_paths[@]}"
@@ -86,7 +112,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/external/vonne-review.csv" && $0 != "pipeline/reviews/external/vonne-summary.md"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/external/vonne-review.csv" && $0 != "pipeline/reviews/external/vonne-summary.md" && $0 != "pipeline/reviews/external/decisions/vonne.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside the VONNE review:"
             printf '%s\n' "$unexpected_files"
