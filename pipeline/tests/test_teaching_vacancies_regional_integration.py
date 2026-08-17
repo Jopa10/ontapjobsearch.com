@@ -237,7 +237,7 @@ def test_composed_output_passes_existing_publisher_contract(tmp_path: Path) -> N
     }
 
 
-def test_existing_publisher_leaves_destination_when_composed_source_empty(
+def test_existing_publisher_clears_destination_when_composed_source_is_validated_zero(
     tmp_path: Path,
 ) -> None:
     region = "Yorkshire - West"
@@ -273,5 +273,6 @@ def test_existing_publisher_leaves_destination_when_composed_source_empty(
         publication_date="2026-08-06",
     )
 
-    assert result["status"] == "skipped"
-    assert json.loads(destination_path.read_text(encoding="utf-8")) == previous
+    assert result["status"] == "published"
+    assert "validated zero" in result["reason"]
+    assert json.loads(destination_path.read_text(encoding="utf-8")) == []
