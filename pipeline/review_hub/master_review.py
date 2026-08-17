@@ -73,7 +73,8 @@ def master_text(
         "Edit only each `action:` line:",
         "- `action: select` = include the vacancy.",
         "- `action: exclude` = reject the vacancy.",
-        "- Leave `action:` blank if you are not deciding it yet.",
+        "- Leave `action:` blank while you are still deciding it.",
+        "- The apply/publish workflow stops if any review item is still blank.",
         "- Unchanged decisions are remembered by the source pipelines; they should not keep returning here.",
         "- If the vacancy facts change, its fingerprint changes and it must be reviewed again.",
         "",
@@ -319,6 +320,7 @@ def apply_master(
     today: date | None = None,
     write: bool = False,
     plan_path: Path | None = None,
+    require_complete: bool = False,
 ) -> dict[str, object]:
     today = today or date.today()
     review_date, decisions = parse_master(path)
@@ -326,6 +328,19 @@ def apply_master(
         raise ValueError(
             f"master review is stale: {review_date}; expected {today.isoformat()}"
         )
+
+    if require_complete:
+        blank = [decision for decision in decisions if not decision.action]
+        if blank:
+            examples = ", ".join(
+                f"{decision.source_key}/{decision.item.source_job_id}"
+                for decision in blank[:6]
+            )
+            suffix = " ..." if len(blank) > 6 else ""
+            raise ValueError(
+                f"{len(blank)} review item(s) still have blank action lines: "
+                f"{examples}{suffix}"
+            )
 
     results = load_all_sources(today)
     by_key = {result.key: result for result in results}
@@ -369,9 +384,11 @@ def apply_master(
     ]
     plan = {
         "review_date": review_date,
+        "review_items": len(decisions),
         "actions": len(acted),
         "selected": sum(d.action == "select" for d in acted),
         "excluded": sum(d.action == "exclude" for d in acted),
+        "complete": len(acted) == len(decisions),
         "publish": [
             {
                 "source": result.key,
@@ -403,6 +420,7 @@ def main(argv: list[str] | None = None) -> int:
     apply.add_argument("--input", type=Path, default=DEFAULT_MASTER)
     apply.add_argument("--write", action="store_true")
     apply.add_argument("--plan", type=Path)
+    apply.add_argument("--require-complete", action="store_true")
     args = parser.parse_args(argv)
     try:
         if args.command == "build":
@@ -412,6 +430,7 @@ def main(argv: list[str] | None = None) -> int:
                 args.input,
                 write=args.write,
                 plan_path=args.plan,
+                require_complete=args.require_complete,
             )
     except ValueError as exc:
         raise SystemExit(f"STOP: {exc}") from exc
