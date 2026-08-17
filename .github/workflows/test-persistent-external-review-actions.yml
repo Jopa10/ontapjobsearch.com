@@ -1,0 +1,26 @@
+name: Test persistent external review actions
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/external_sources/persistent_external_review_actions.py"
+      - "pipeline/tests/test_persistent_external_review_actions.py"
+      - ".github/workflows/run-nejobs-review.yml"
+      - ".github/workflows/run-vonne-review.yml"
+      - ".github/workflows/test-persistent-external-review-actions.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-persistent-review-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run persistent decision regression tests
+        working-directory: pipeline
+        run: python -m unittest tests.test_persistent_external_review_actions -v
