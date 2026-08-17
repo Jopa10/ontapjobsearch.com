@@ -268,14 +268,71 @@ def load_teaching_vacancies(today: date) -> SourceResult:
     )
 
 
-def load_nhs_future(today: date) -> SourceResult:
-    del today
+def load_nhs(today: date) -> SourceResult:
+    """Expose unresolved NHS decisions through the one daily Review Hub.
+
+    Until the NHS ETL has produced its first review files, NHS remains FUTURE and
+    therefore does not block the existing daily routine. Once either NHS review
+    artifact exists, NHS becomes an active source and stale/missing output is a
+    normal readiness failure just like the other sources.
+    """
+    csv_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-review.csv"
+    md_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-summary.md"
+    if not csv_path.exists() and not md_path.exists():
+        return SourceResult(
+            "nhs",
+            "NHS Jobs",
+            "FUTURE",
+            "",
+            note="adapter reserved; activates automatically when NHS review output exists",
+        )
+
+    review_date = _metadata_date(md_path)
+    state = _state(review_date, today)
+    try:
+        rows = _csv_rows(csv_path)
+    except FileNotFoundError:
+        return SourceResult(
+            "nhs",
+            "NHS Jobs",
+            "MISSING",
+            review_date,
+            note="NHS review CSV missing",
+        )
+
+    items: list[ReviewItem] = []
+    if state == "OK":
+        for row in rows:
+            if (
+                clean(row.get("final_decision")).upper() != "POSS"
+                or clean(row.get("manual_action"))
+            ):
+                continue
+            category = clean(
+                row.get("ontap_category")
+                or row.get("category")
+                or "admin_service"
+            )
+            switchability = clean(row.get("switchability"))
+            reason = clean(row.get("classification_reason") or row.get("reason"))
+            if switchability:
+                reason = f"{switchability}: {reason}" if reason else switchability
+            items.append(
+                item_from_mapping(
+                    "NHS Jobs",
+                    row,
+                    category=category,
+                    reason=reason,
+                )
+            )
+
     return SourceResult(
         "nhs",
         "NHS Jobs",
-        "FUTURE",
-        "",
-        note="adapter reserved; enable when NHS ingestion/review output is live",
+        state,
+        review_date,
+        tuple(items),
+        note="review-only; no NHS publish workflow connected",
     )
 
 
@@ -284,7 +341,7 @@ SOURCE_LOADERS: tuple[Callable[[date], SourceResult], ...] = (
     load_nejobs,
     load_vonne,
     load_teaching_vacancies,
-    load_nhs_future,
+    load_nhs,
 )
 
 
