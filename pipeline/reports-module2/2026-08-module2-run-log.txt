@@ -1,24 +1,24 @@
 Month: 2026-08
-Input directory: /home/runner/work/_temp/jobg8-compiler-input/2026-08
-Valid feed days: 13
+Input directory: /home/runner/work/_temp/jobg8-module2-reconcile/2026-08
+Valid feed days: 16
 First feed day: 2026-08-01
-Last feed day: 2026-08-14
-Selected register-expanded job rows: 8303
+Last feed day: 2026-08-17
+Selected register-expanded job rows: 12459
 Geo lookup: geo/geo_lookup.xlsx
 Geo areas loaded: 1198
 AUTO location fallbacks loaded: 41
-Rows assigned by location fallback: 623
+Rows assigned by location fallback: 943
 Classification mode: register-only
 Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT
 North East published page: aggregated from three geo_lookup regions
 
 Registers:
-- support_worker: registers/support_worker_title_classification_register.csv (565 titles)
-- admin_service: registers/admin_service_title_classification_register.csv (1292 titles)
-- finance_accounts: registers/finance_accounts_title_classification_register.csv (208 titles)
-- customer_service_contact_centre: registers/customer_service_contact_centre_title_classification_register.csv (305 titles)
-- warehouse_logistics: registers/warehouse_logistics_title_classification_register.csv (25 titles)
-- hr_recruitment: registers/hr_recruitment_title_classification_register.csv (395 titles)
+- support_worker: /home/runner/work/_temp/jobg8-module2-reconcile/registers/support_worker_title_classification_register.csv (573 titles)
+- admin_service: /home/runner/work/_temp/jobg8-module2-reconcile/registers/admin_service_title_classification_register.csv (1340 titles)
+- finance_accounts: /home/runner/work/_temp/jobg8-module2-reconcile/registers/finance_accounts_title_classification_register.csv (208 titles)
+- customer_service_contact_centre: /home/runner/work/_temp/jobg8-module2-reconcile/registers/customer_service_contact_centre_title_classification_register.csv (305 titles)
+- warehouse_logistics: /home/runner/work/_temp/jobg8-module2-reconcile/registers/warehouse_logistics_title_classification_register.csv (25 titles)
+- hr_recruitment: /home/runner/work/_temp/jobg8-module2-reconcile/registers/hr_recruitment_title_classification_register.csv (395 titles)
 
 Recommendation configuration:
 - minimum_seen_ratio: 0.8
