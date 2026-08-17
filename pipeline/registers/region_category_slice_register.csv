@@ -40,7 +40,7 @@ Northamptonshire,admin_service,LIVE
 Berkshire,admin_service,LIVE
 Nottinghamshire,admin_service,LIVE
 Buckinghamshire,admin_service,CANDIDATE
-Surrey,support_worker,CANDIDATE
+Surrey,support_worker,LIVE
 Greater Manchester - Manchester & Salford,customer_service_contact_centre,CANDIDATE
 Hampshire,hr_recruitment,CANDIDATE
 Hertfordshire,admin_service,CANDIDATE
@@ -60,6 +60,6 @@ Greater Manchester - South,admin_service,CANDIDATE
 Hampshire,finance_accounts,CANDIDATE
 North East,finance_accounts,CANDIDATE
 West Midlands - Birmingham & Solihull,finance_accounts,CANDIDATE
-Wiltshire,support_worker,CANDIDATE
+Wiltshire,support_worker,LIVE
 Devon,support_worker,CANDIDATE
 Somerset,support_worker,CANDIDATE
