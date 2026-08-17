@@ -22,7 +22,10 @@ def _metadata_date(path: Path, field: str = "review_date") -> str:
     if not path.is_file():
         return ""
     text = path.read_text(encoding="utf-8-sig")
-    match = re.search(rf"(?m)^{re.escape(field)}:\s*(\d{{4}}-\d{{2}}-\d{{2}})\s*$", text)
+    match = re.search(
+        rf"(?m)^{re.escape(field)}:\s*(\d{{4}}-\d{{2}}-\d{{2}})\s*$",
+        text,
+    )
     return match.group(1) if match else ""
 
 
@@ -32,8 +35,14 @@ def _visible_actions(path: Path, id_field: str) -> dict[str, str]:
     text = path.read_text(encoding="utf-8-sig")
     actions: dict[str, str] = {}
     for block in re.findall(r"(?ms)^---\s*$\n(.*?)^---\s*$", text):
-        id_match = re.search(rf"(?mi)^{re.escape(id_field)}:\s*(\S+)\s*$", block)
-        action_match = re.search(r"(?mi)^action:\s*(select|exclude)?\s*$", block)
+        id_match = re.search(
+            rf"(?mi)^{re.escape(id_field)}:\s*(\S+)\s*$",
+            block,
+        )
+        action_match = re.search(
+            r"(?mi)^action:\s*(select|exclude)?\s*$",
+            block,
+        )
         if not id_match or not action_match:
             continue
         action = clean(action_match.group(1)).casefold()
@@ -130,9 +139,14 @@ def load_nejobs(today: date) -> SourceResult:
     items = []
     if state == "OK":
         for row in rows:
-            if clean(row.get("final_decision")).upper() != "POSS" or clean(row.get("manual_action")):
+            if (
+                clean(row.get("final_decision")).upper() != "POSS"
+                or clean(row.get("manual_action"))
+            ):
                 continue
-            items.append(item_from_mapping("NEJobs", row, category="admin_service"))
+            items.append(
+                item_from_mapping("NEJobs", row, category="admin_service")
+            )
     return SourceResult(
         "nejobs",
         "NEJobs",
@@ -165,9 +179,14 @@ def load_vonne(today: date) -> SourceResult:
     items = []
     if state == "OK":
         for row in rows:
-            if clean(row.get("final_decision")).upper() != "POSS" or clean(row.get("manual_action")):
+            if (
+                clean(row.get("final_decision")).upper() != "POSS"
+                or clean(row.get("manual_action"))
+            ):
                 continue
-            items.append(item_from_mapping("VONNE", row, category="admin_service"))
+            items.append(
+                item_from_mapping("VONNE", row, category="admin_service")
+            )
     return SourceResult(
         "vonne",
         "VONNE",
@@ -191,9 +210,24 @@ def _latest_tv_review_date() -> str:
     return max(dates) if dates else ""
 
 
+def _tv_review_date(today: date) -> str:
+    """Use committed routing evidence as the authority for a complete daily TV run."""
+    routing_summary = (
+        PIPELINE_ROOT
+        / "manifests/external/teaching-vacancies"
+        / f"teaching-vacancies-routing-{today.isoformat()}-summary.json"
+    )
+    if routing_summary.is_file() and routing_summary.stat().st_size > 0:
+        return today.isoformat()
+    return _latest_tv_review_date()
+
+
 def load_teaching_vacancies(today: date) -> SourceResult:
-    csv_path = PIPELINE_ROOT / "reviews/external/teaching-vacancies/england-wide-admin-service-review.csv"
-    review_date = _latest_tv_review_date()
+    csv_path = (
+        PIPELINE_ROOT
+        / "reviews/external/teaching-vacancies/england-wide-admin-service-review.csv"
+    )
+    review_date = _tv_review_date(today)
     state = _state(review_date, today)
     try:
         rows = _csv_rows(csv_path)
@@ -211,9 +245,18 @@ def load_teaching_vacancies(today: date) -> SourceResult:
         for row in rows:
             if clean(row.get("review_scope")) != "REVIEW NOW":
                 continue
-            if clean(row.get("final_decision")).upper() != "POSS" or clean(row.get("manual_action")):
+            if (
+                clean(row.get("final_decision")).upper() != "POSS"
+                or clean(row.get("manual_action"))
+            ):
                 continue
-            items.append(item_from_mapping("Teaching Vacancies", row, category="admin_service"))
+            items.append(
+                item_from_mapping(
+                    "Teaching Vacancies",
+                    row,
+                    category="admin_service",
+                )
+            )
     return SourceResult(
         "teaching_vacancies",
         "Teaching Vacancies",
