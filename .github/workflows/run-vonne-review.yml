@@ -2,9 +2,6 @@ name: Run VONNE review
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/run-vonne-review.yml"
   schedule:
     - cron: "35 6 * * 1,4"
 
