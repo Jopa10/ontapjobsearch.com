@@ -68,6 +68,22 @@ jobs:
           print('Structured PostalCode populated:', int(df['/Job/PostalCode'].fillna('').astype(str).str.strip().ne('').sum()))
           PY
 
+      - name: Show Greater Manchester geo lookup membership
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          path = 'pipeline/geo/geo_lookup.xlsx'
+          for sheet in [0, 'LocationFallback']:
+              df = pd.read_excel(path, sheet_name=sheet, dtype=str).fillna('')
+              print('\nSHEET:', sheet)
+              if 'Cluster' not in df.columns:
+                  print('No Cluster column')
+                  continue
+              subset = df[df['Cluster'].str.contains('Greater Manchester', case=False, na=False)]
+              columns = [c for c in ['Area', 'Location', 'Cluster', 'Status'] if c in subset.columns]
+              print(subset[columns].to_string(index=False, max_rows=300))
+          PY
+
       - name: Audit old versus structured geography on expanded feed
         working-directory: pipeline
         run: python -m scripts.audit_live_service_admin_structured_geo
