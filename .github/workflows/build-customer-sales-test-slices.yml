@@ -7,6 +7,8 @@ on:
       - agent/customer-sales-family
     paths:
       - '.github/workflows/build-customer-sales-test-slices.yml'
+      - 'pipeline/scripts/customer_sales_test_pipeline.py'
+      - 'pipeline/scripts/customer_sales_test_refine.py'
 
 permissions:
   contents: write
@@ -126,7 +128,14 @@ jobs:
             exit 1
           fi
           echo "OK: Customer Sales test pipeline completed" >> "$STATUS"
-          tail -20 "$LOG" >> "$STATUS"
+
+          if ! (cd pipeline && python -m scripts.customer_sales_test_refine) >> "$LOG" 2>&1; then
+            echo "FAILED: Customer Sales QA refinement" >> "$STATUS"
+            tail -100 "$LOG" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: Customer Sales QA refinement completed" >> "$STATUS"
+          tail -30 "$LOG" >> "$STATUS"
 
       - name: Commit diagnostic status and refreshed outputs
         if: always()
