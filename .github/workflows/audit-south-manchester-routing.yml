@@ -7,6 +7,12 @@ on:
     paths:
       - pipeline/scripts/audit_south_manchester_routing.py
       - .github/workflows/audit-south-manchester-routing.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - pipeline/scripts/audit_south_manchester_routing.py
+      - .github/workflows/audit-south-manchester-routing.yml
   workflow_dispatch:
 
 permissions:
@@ -40,7 +46,15 @@ jobs:
           cat pipeline/reports-audit/south-manchester-routing-workflow.log
           exit 0
 
-      - name: Commit audit outputs
+      - name: Upload audit outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: south-manchester-routing-audit
+          path: pipeline/reports-audit/
+          if-no-files-found: error
+
+      - name: Commit audit outputs on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
