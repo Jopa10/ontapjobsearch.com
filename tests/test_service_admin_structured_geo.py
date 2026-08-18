@@ -41,6 +41,7 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
             "bury": "Greater Manchester - North",
             "heywood": "Greater Manchester - North",
             "middleton": "Greater Manchester - North",
+            "oldham": "Greater Manchester - North",
             "bolton": "Greater Manchester - Wigan & Bolton",
             "trafford": "Greater Manchester - South",
         }
@@ -187,6 +188,32 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         )
         self.assertEqual("Greater Manchester - South", result.region)
         self.assertEqual("Cheadle", result.town)
+        self.assertEqual("description_place", result.source)
+
+    def test_html_wrapped_location_label_routes_oldham(self):
+        result = self.resolve(
+            {
+                self.area_col: "Not Specified",
+                self.location_col: "Manchester",
+                self.postcode_col: "",
+                self.description_col: "<p><strong>Job Title:</strong> Administrator</p><p><strong>Location:</strong> <strong>Oldham</strong></p>",
+            }
+        )
+        self.assertEqual("Greater Manchester - North", result.region)
+        self.assertEqual("Oldham", result.town)
+        self.assertEqual("description_place", result.source)
+
+    def test_html_wrapped_team_location_routes_bury(self):
+        result = self.resolve(
+            {
+                self.area_col: "Not Specified",
+                self.location_col: "Manchester",
+                self.postcode_col: "",
+                self.description_col: "<p>Could you be our missing piece?</p><p>Join our support <strong>team in Bury</strong> as a Service Coordinator.</p>",
+            }
+        )
+        self.assertEqual("Greater Manchester - North", result.region)
+        self.assertEqual("Bury", result.town)
         self.assertEqual("description_place", result.source)
 
     def test_description_place_can_route_other_greater_manchester_slices(self):
