@@ -4,17 +4,18 @@ import csv
 import re
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Callable, Mapping
+from typing import Any, Callable, Mapping, Sequence
 
 POSTAL_CODE_COLUMN = "/Job/PostalCode"
 DEFAULT_POSTCODE_OVERRIDES_PATH = (
     Path(__file__).resolve().parents[1] / "geo" / "postcode_location_overrides.csv"
 )
 DESCRIPTION_POSTCODE_WINDOW = 700
+DESCRIPTION_PLACE_WINDOW = 500
 
 # JobG8 commonly uses these as umbrella geographies. A more precise structured
-# Location may overrule one of these, but it must not overrule a populated,
-# specific Area merely because Location contains a broader county name.
+# Location or explicit advert location may overrule one of these, but must not
+# overrule a populated, specific Area merely because Location is broader.
 BROAD_AREA_KEYS = {
     "",
     "city",
@@ -71,6 +72,16 @@ class GeoResolution:
     source: str
     evidence: str = ""
     postcode_district: str = ""
+
+
+@dataclass(frozen=True)
+class DescriptionPlaceRule:
+    place_key: str
+    display_location: str
+    region: str
+    cue_pattern: re.Pattern[str]
+    postcode_pattern: re.Pattern[str]
+    dash_pattern: re.Pattern[str]
 
 
 def norm(value: Any) -> str:
@@ -144,6 +155,101 @@ def load_postcode_overrides(
         return overrides
 
 
+def _display_place(place_key: str) -> str:
+    return " ".join(part.capitalize() for part in re.split(r"[\s-]+", place_key) if part)
+
+
+def _place_regex(place_key: str) -> str:
+    parts = [re.escape(part) for part in re.split(r"[\s-]+", place_key) if part]
+    return r"[\s-]+".join(parts)
+
+
+def build_description_place_rules(
+    area_lookup: Mapping[str, str],
+) -> tuple[DescriptionPlaceRule, ...]:
+    """Build conservative rules for explicit advert-location evidence.
+
+    Only precise authoritative Area names are eligible. Generic mentions do not
+    count: the place must be tied to a location cue (``Location:``, ``based in``,
+    ``site in`` etc.), a postcode immediately after the place, or a headline-like
+    dash construction near the start of the advert.
+    """
+    rules: list[DescriptionPlaceRule] = []
+    seen: set[tuple[str, str]] = set()
+    for raw_place, raw_region in area_lookup.items():
+        place_key = norm_key(raw_place)
+        region = norm(raw_region)
+        if (
+            not place_key
+            or not region
+            or place_key in BROAD_AREA_KEYS
+            or len(place_key) < 4
+            or (place_key, region) in seen
+        ):
+            continue
+        seen.add((place_key, region))
+        place_re = _place_regex(place_key)
+        place_group = rf"(?P<place>{place_re})"
+        cue_pattern = re.compile(
+            rf"(?:"
+            rf"\blocation\s*[:\-]\s*"
+            rf"|\bbased\s+(?:in|at)\s+(?:the\s+)?"
+            rf"|\blocated\s+(?:in|at)\s+(?:the\s+)?"
+            rf"|\b(?:site|office|team|client|business|company)\s+"
+            rf"(?:is\s+)?(?:based\s+)?(?:in|at)\s+(?:the\s+)?"
+            rf"|\bjoin(?:ing)?(?:\s+us)?\s+(?:in|at)\s+(?:the\s+)?"
+            rf"|\bwork(?:ing)?\s+(?:in|at)\s+(?:the\s+)?"
+            rf")"
+            rf"{place_group}(?:\s+area\b)?",
+            re.IGNORECASE,
+        )
+        postcode_pattern = re.compile(
+            rf"\b{place_group}\b\s*,?\s*"
+            rf"[A-Z]{{1,2}}\d[A-Z\d]?(?:\s+\d(?:\s*[A-Z]{{2}})?)?\b",
+            re.IGNORECASE,
+        )
+        dash_pattern = re.compile(
+            rf"(?:^|\s[-–—]\s){place_group}(?=\s*(?:[\(\[,]|$))",
+            re.IGNORECASE,
+        )
+        rules.append(
+            DescriptionPlaceRule(
+                place_key=place_key,
+                display_location=_display_place(place_key),
+                region=region,
+                cue_pattern=cue_pattern,
+                postcode_pattern=postcode_pattern,
+                dash_pattern=dash_pattern,
+            )
+        )
+
+    # Prefer the longest place name where names overlap.
+    rules.sort(key=lambda item: (-len(item.place_key), item.place_key, item.region))
+    return tuple(rules)
+
+
+def resolve_description_place(
+    description: Any,
+    rules: Sequence[DescriptionPlaceRule],
+) -> tuple[str, str, str]:
+    head = norm(description)[:DESCRIPTION_PLACE_WINDOW]
+    if not head:
+        return "", "", ""
+
+    for rule in rules:
+        match = rule.cue_pattern.search(head)
+        if match:
+            return rule.region, rule.display_location, match.group(0)
+        match = rule.postcode_pattern.search(head)
+        if match:
+            return rule.region, rule.display_location, match.group(0)
+        # Dash/header evidence is deliberately restricted to the first 220 chars.
+        match = rule.dash_pattern.search(head[:220])
+        if match:
+            return rule.region, rule.display_location, match.group(0)
+    return "", "", ""
+
+
 def _location_can_override_area(location: str, area: str) -> bool:
     location_key = norm_key(location)
     area_key = norm_key(area)
@@ -165,27 +271,33 @@ def resolve_job_geography(
     postcode_overrides: Mapping[str, PostcodeOverride],
     area_is_unusable: Callable[[str], bool],
     postal_code_column: str = POSTAL_CODE_COLUMN,
+    description_place_rules: Sequence[DescriptionPlaceRule] | None = None,
 ) -> GeoResolution:
     """Resolve one JobG8 row using the strongest trustworthy geography first.
 
     Priority:
-      1. structured /Job/PostalCode when its district has a curated mapping;
-      2. precise structured /Job/Location when Area is absent/invalid or an
-         explicitly broad umbrella geography;
-      3. structured /Job/Area;
-      4. explicit postcode near the start of the advert, using the same curated map.
+      1. mapped structured ``/Job/PostalCode``;
+      2. precise structured ``/Job/Location`` when Area is absent/invalid/broad;
+      3. a populated specific ``/Job/Area``;
+      4. mapped postcode near the start of the advert;
+      5. explicit advert-location evidence matched to the authoritative Area map;
+      6. a broad but mapped Area/Location as the final structured fallback.
 
-    This intentionally avoids treating every Area/Location disagreement as an
-    instruction to prefer Location: JobG8 frequently supplies a specific city in
-    Area and a broader county in Location (for example Bristol / Somerset).
+    This avoids treating every Area/Location disagreement as an instruction to
+    prefer Location: JobG8 frequently supplies a specific city in Area and a
+    broader county in Location (for example Bristol / Somerset).
     """
     area = norm(row.get(area_column))
     location = norm(row.get(location_column))
     description = norm(row.get(description_column))
     structured_postcode = norm(row.get(postal_code_column))
 
-    area_region = area_lookup.get(norm_key(area), "")
-    location_region = location_lookup.get(norm_key(location), "")
+    area_key = norm_key(area)
+    location_key = norm_key(location)
+    area_region = area_lookup.get(area_key, "")
+    # LocationFallback is not a complete town list; the Area lookup is also an
+    # authoritative source for a precise structured Location such as Stockport.
+    location_region = location_lookup.get(location_key, "") or area_lookup.get(location_key, "")
 
     district = normalize_postcode_district(structured_postcode)
     postcode_match = postcode_overrides.get(district) if district else None
@@ -198,16 +310,27 @@ def resolve_job_geography(
             postcode_district=district,
         )
 
+    area_is_broad = area_is_unusable(area) or area_key in BROAD_AREA_KEYS or not area_region
+
     if location_region:
-        if area_is_unusable(area) or not area_region:
-            return GeoResolution(
-                region=location_region,
-                town=location or area,
-                source="location",
-                evidence=location,
-                postcode_district=district,
-            )
-        if location_region == area_region:
+        if area_is_broad:
+            if location_key not in BROAD_LOCATION_KEYS:
+                return GeoResolution(
+                    region=location_region,
+                    town=location or area,
+                    source="precise_location",
+                    evidence=location,
+                    postcode_district=district,
+                )
+            if not area_region:
+                return GeoResolution(
+                    region=location_region,
+                    town=location or area,
+                    source="location",
+                    evidence=location,
+                    postcode_district=district,
+                )
+        if location_region == area_region and not area_is_broad:
             return GeoResolution(
                 region=location_region,
                 town=location or area,
@@ -224,7 +347,8 @@ def resolve_job_geography(
                 postcode_district=district,
             )
 
-    if area_region:
+    # A specific Area is authoritative. Do not let free text overrule it.
+    if area_region and not area_is_broad:
         return GeoResolution(
             region=area_region,
             town=area or location,
@@ -250,10 +374,46 @@ def resolve_job_geography(
             postcode_district=description_district,
         )
 
+    place_rules = (
+        tuple(description_place_rules)
+        if description_place_rules is not None
+        else build_description_place_rules(area_lookup)
+    )
+    description_region, description_town, description_evidence = resolve_description_place(
+        description,
+        place_rules,
+    )
+    if description_region:
+        return GeoResolution(
+            region=description_region,
+            town=description_town or location or area,
+            source="description_place",
+            evidence=description_evidence,
+            postcode_district=district or description_district,
+        )
+
+    if area_region:
+        return GeoResolution(
+            region=area_region,
+            town=area or location,
+            source="broad_area",
+            evidence=area,
+            postcode_district=district,
+        )
+
+    if location_region:
+        return GeoResolution(
+            region=location_region,
+            town=location or area,
+            source="location",
+            evidence=location,
+            postcode_district=district,
+        )
+
     return GeoResolution(
         region="",
         town=location or area,
         source="unresolved",
-        evidence="no structured geography matched an authoritative lookup",
+        evidence="no structured or explicit advert geography matched an authoritative lookup",
         postcode_district=district,
     )
