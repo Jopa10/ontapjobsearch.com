@@ -88,10 +88,10 @@ jobs:
         working-directory: pipeline
         run: |
           python - <<'PY'
-          import pandas as pd
+          from pathlib import Path
           from scripts import service_admin_pipeline as pipeline
 
-          df = pipeline.read_table('input/jobg8.xlsx').fillna('')
+          df = pipeline.read_table(Path('input/jobg8.xlsx')).fillna('')
           area_lookup, location_lookup = pipeline.build_complete_geo_lookups()
           rules = pipeline._geo.description_place_rules_for_lookup(area_lookup)
           print('Bury lookup:', area_lookup.get('bury'))
