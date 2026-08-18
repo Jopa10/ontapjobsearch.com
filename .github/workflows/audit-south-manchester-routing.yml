@@ -67,3 +67,5 @@ jobs:
             git commit -m "Add South Manchester routing audit diagnostics"
             git push
           fi
+
+# PR trigger for the one-off August routing audit.
