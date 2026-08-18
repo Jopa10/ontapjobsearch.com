@@ -27,31 +27,13 @@ export type CustomerSalesTestSlice = {
 };
 
 export const CUSTOMER_SALES_TEST_SLICES: CustomerSalesTestSlice[] = [
-  {
-    slug: "hampshire",
-    label: "Hampshire",
-    sourceFile: "pipeline/output-customer-sales-test/hampshire.json",
-  },
-  {
-    slug: "manchester-salford",
-    label: "Manchester & Salford",
-    sourceFile: "pipeline/output-customer-sales-test/manchester-salford.json",
-  },
-  {
-    slug: "northern-ireland-east",
-    label: "Northern Ireland East",
-    sourceFile: "pipeline/output-customer-sales-test/northern-ireland-east.json",
-  },
-  {
-    slug: "warrington-halton",
-    label: "Warrington & Halton",
-    sourceFile: "pipeline/output-customer-sales-test/warrington-halton.json",
-  },
-  {
-    slug: "west-yorkshire",
-    label: "West Yorkshire",
-    sourceFile: "pipeline/output-customer-sales-test/west-yorkshire.json",
-  },
+  { slug: "hampshire", label: "Hampshire", sourceFile: "pipeline/output-customer-sales-test/hampshire.json" },
+  { slug: "manchester-salford", label: "Manchester & Salford", sourceFile: "pipeline/output-customer-sales-test/manchester-salford.json" },
+  { slug: "west-yorkshire", label: "West Yorkshire", sourceFile: "pipeline/output-customer-sales-test/west-yorkshire.json" },
+  { slug: "northern-ireland-east", label: "Northern Ireland East", sourceFile: "pipeline/output-customer-sales-test/northern-ireland-east.json" },
+  { slug: "warrington-halton", label: "Warrington & Halton", sourceFile: "pipeline/output-customer-sales-test/warrington-halton.json" },
+  { slug: "cornwall", label: "Cornwall", sourceFile: "pipeline/output-customer-sales-test/cornwall.json" },
+  { slug: "south-yorkshire", label: "South Yorkshire", sourceFile: "pipeline/output-customer-sales-test/south-yorkshire.json" },
 ];
 
 function clean(value: unknown): string {
@@ -61,7 +43,6 @@ function clean(value: unknown): string {
 function readJobs(relativeFile: string): CustomerSalesTestJob[] {
   const filePath = path.join(process.cwd(), relativeFile);
   if (!fs.existsSync(filePath)) return [];
-
   try {
     const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
     if (!Array.isArray(parsed)) return [];
@@ -78,13 +59,11 @@ function readJobs(relativeFile: string): CustomerSalesTestJob[] {
 export function getCustomerSalesTestSlice(slug: string) {
   const slice = CUSTOMER_SALES_TEST_SLICES.find((item) => item.slug === slug);
   if (!slice) return undefined;
-
   const jobs = readJobs(slice.sourceFile).sort((a, b) => {
     const aRank = a.customer_sales_classification === "DIRECT_SALES" ? 0 : 1;
     const bRank = b.customer_sales_classification === "DIRECT_SALES" ? 0 : 1;
     if (aRank !== bRank) return aRank - bRank;
     return a.title.localeCompare(b.title);
   });
-
   return { ...slice, jobs };
 }
