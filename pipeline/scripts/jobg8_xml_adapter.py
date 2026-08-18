@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import gzip
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -38,49 +37,13 @@ def flatten(node: ET.Element, path: list[str], out: dict[str, str]) -> None:
         flatten(child, path + [local(child.tag)], out)
 
 
-def parse_feed(source_path: Path) -> tuple[ET.ElementTree, str]:
-    """Parse JobG8 ZIP, gzip-compressed XML, or direct XML."""
-    if zipfile.is_zipfile(source_path):
-        with zipfile.ZipFile(source_path) as archive:
-            candidates = [
-                name
-                for name in archive.namelist()
-                if Path(name).name.lower() == "jobs.xml"
-            ]
-            if len(candidates) != 1:
-                raise RuntimeError(f"Expected one Jobs.xml, found {len(candidates)}")
-            with archive.open(candidates[0]) as source:
-                return ET.parse(source), "zip"
-
-    raw_prefix = source_path.read_bytes()[:256]
-    if raw_prefix.startswith(b"\x1f\x8b"):
-        try:
-            with gzip.open(source_path, "rb") as source:
-                return ET.parse(source), "gzip-xml"
-        except (OSError, ET.ParseError) as exc:
-            raise RuntimeError(
-                "Downloaded JobG8 feed is gzip data but does not contain valid Jobs XML"
-            ) from exc
-
-    # Some JobG8 endpoints return Jobs.xml directly rather than wrapping it in a
-    # ZIP. Accept that format, but reject HTML/auth/error pages with a clear stop.
-    prefix = raw_prefix.lstrip()
-    if not prefix.startswith(b"<"):
-        magic = raw_prefix[:8].hex()
-        raise RuntimeError(
-            "Downloaded JobG8 feed is neither ZIP, gzip nor XML; refusing to parse it "
-            f"(first 8 bytes: {magic})"
-        )
-    try:
-        return ET.parse(source_path), "xml"
-    except ET.ParseError as exc:
-        raise RuntimeError(
-            "Downloaded JobG8 feed looks like XML but is not valid Jobs XML"
-        ) from exc
-
-
 def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> int:
-    tree, source_format = parse_feed(zip_path)
+    with zipfile.ZipFile(zip_path) as archive:
+        candidates = [name for name in archive.namelist() if Path(name).name.lower() == "jobs.xml"]
+        if len(candidates) != 1:
+            raise RuntimeError(f"Expected one Jobs.xml, found {len(candidates)}")
+        with archive.open(candidates[0]) as source:
+            tree = ET.parse(source)
 
     rows: list[dict[str, str]] = []
     columns: list[str] = []
@@ -116,7 +79,6 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
         sheet.append([row.get(column, "") for column in columns])
     workbook.save(output_path)
 
-    print(f"JobG8 source format: {source_format}")
     print(f"Converted {count} JobG8 jobs into {output_path}")
     print(f"Columns: {len(columns)}")
     return count
@@ -124,7 +86,6 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    # Keep --zip for workflow/backwards compatibility; the input is auto-detected.
     parser.add_argument("--zip", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--expected-min", type=int, default=5000)
