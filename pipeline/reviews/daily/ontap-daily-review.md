@@ -1,9 +1,12 @@
 # Ontap daily job review
 
-review_date: 2026-08-17
-generated_at: 2026-08-17T18:22:15+00:00
+> **NOT READY TO REVIEW — waiting for: Teaching Vacancies**
+> Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
-**65 job(s) need a human decision.**
+review_date: 2026-08-18
+generated_at: 2026-08-18T08:06:13+00:00
+
+**33 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -17,1188 +20,612 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-17 | 0 | — |
-| NEJobs | OK | 2026-08-17 | 31 | — |
-| VONNE | OK | 2026-08-17 | 8 | — |
-| Teaching Vacancies | OK | 2026-08-17 | 26 | — |
+| JobG8 | OK | 2026-08-18 | 32 | — |
+| NEJobs | OK | 2026-08-18 | 0 | — |
+| VONNE | OK | 2026-08-18 | 1 | — |
+| Teaching Vacancies | STALE | 2026-08-17 | 0 | — |
 | NHS Jobs | FUTURE | — | 0 | adapter reserved; enable when NHS ingestion/review output is live |
 
-## JobG8 — 0 to review
+> **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
+
+## JobG8 — 32 to review
+
+---
+action:
+POSS | JobG8 | Berkshire | Newbury | £30000 - £30900 per year | Sales Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: e12e3556-f2a6-4520-a95f-3257ce75db72
+title: Sales Administrator
+employer: 
+location: Newbury
+region: Berkshire
+salary: £30000 - £30900 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7d6705bd297e3871352e9365654a05ae2bfc68cd54a8e5cedfa3d9040ee5afe8
+---
+
+---
+action:
+POSS | JobG8 | Devon | Exeter | £45000 - £55000 per year | PMO Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: bffae8f8-4b47-4b53-bd40-10fce4866cd9
+title: PMO Coordinator
+employer: 
+location: Exeter
+region: Devon
+salary: £45000 - £55000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 521b02a2c6a9fe5e81c41263b6e4fe77af38d40f1eee55f8423f06fa91dd7b1e
+---
+
+---
+action:
+POSS | JobG8 | Dorset | Poole | £30000 - £38000 per year | Client Services Administrator - Poole - Up to £38,000
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 5379ec46-0160-4cda-a260-a866babe490c
+title: Client Services Administrator - Poole - Up to £38,000
+employer: 
+location: Poole
+region: Dorset
+salary: £30000 - £38000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f77e19b94702931db646b63aec87ea0ef1d99a33e927465a3fe18929141cf997
+---
+
+---
+action:
+POSS | JobG8 | Essex | Grays | £28000 - £32000 per year | Accounts Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2325eb41-0a0a-46f5-b197-7b6ec492b4df
+title: Accounts Administrator
+employer: 
+location: Grays
+region: Essex
+salary: £28000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c30f481196d99b100948605850e50bc76ac73fbe0520d7bfeb08b15d6963476d
+---
+
+---
+action:
+POSS | JobG8 | Essex | Grays | £18.51 per hour | HR Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 943c8359-7d04-415e-bb88-ccbe46b78342
+title: HR Assistant
+employer: 
+location: Grays
+region: Essex
+salary: £18.51 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b576ffd927e2c22130176fa7fc3b4ece99857d51a0f1bb1a2342eaa6a4955cdd
+---
+
+---
+action:
+POSS | JobG8 | Gloucestershire | Gloucester | £38000 - £50000 per year | Paraplanner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: cabb1ecb-a960-45a4-b363-b6df17c82409
+title: Paraplanner
+employer: 
+location: Gloucester
+region: Gloucestershire
+salary: £38000 - £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 69ae56d173784109b5ea8e4159553bd202007244eab033794b8379ceb6856652
+---
+
+---
+action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £30000 - £40000 per year | Operations Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1656a805-605d-40c3-aad9-9a7c849ffb83
+title: Operations Administrator
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £30000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 28d077193c5395c9eb07a046b2e7151c29a5d219d9b58fbb558ab557d8fd0104
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Portsmouth | £40000 per year | Service Advisor
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107796844
+title: Service Advisor
+employer: 
+location: Portsmouth
+region: Hampshire
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 0685bf0cd8bb092d7a47ce468334a3b609db7163f8e5db61a1eed91e9bd03009
+---
+
+---
+action:
+POSS | JobG8 | London | London | £50000 - £65000 per year | Client Facing Paraplanner, London (hybrid), Basic to circa £60k
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 9a8a65b7-5887-40a1-a98e-de57fb95676e
+title: Client Facing Paraplanner, London (hybrid), Basic to circa £60k
+employer: 
+location: London
+region: London
+salary: £50000 - £65000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 773fc1ea78442718c392308e8069b37d67032cf4ea4316fcc9dc6128d239388e
+---
+
+---
+action:
+POSS | JobG8 | London | London | £27000 per year | HR Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: cf054858-fa00-43dc-b84f-98cacbbc668c
+title: HR Administrator
+employer: 
+location: London
+region: London
+salary: £27000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 13aa3f7e82be2e4d1c6309b73720ff006115cdd471323d2927681f4091a826fa
+---
+
+---
+action:
+POSS | JobG8 | London | London | £45000 per year | Patent Secretary
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107697649
+title: Patent Secretary
+employer: 
+location: London
+region: London
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8582b5f58e930179452e14eb6711c1015260834f3e81e151d5a8935ef8c4db79
+---
+
+---
+action:
+POSS | JobG8 | London | London | £275 - £350 per daily | Range Planner - Convenience
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107843551
+title: Range Planner - Convenience
+employer: 
+location: London
+region: London
+salary: £275 - £350 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 653a830e01f75b79f65d712c6cadbfd67ce927164c48ef40a6600914cd2212ce
+---
+
+---
+action:
+POSS | JobG8 | London | Twickenham | £30000 - £36000 per year | Secretary
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: a1a841ae-c43c-4f2d-89c0-450a6b91b1ab
+title: Secretary
+employer: 
+location: Twickenham
+region: London
+salary: £30000 - £36000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: aae6a6e369aaf36bc07ef8fd96c8890832e9b93e2673fdd9cf2c5ab6961317cf
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | Dereham | £15 - £17 per hour | Sales Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: d348ba8c-df89-4296-a528-33001fd8a87f
+title: Sales Administrator
+employer: 
+location: Dereham
+region: Norfolk
+salary: £15 - £17 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ed48ac3217a4a47a467fe64b29482eedb418e51fc80238cd881f610f77d5325c
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | King's Lynn | £30000 - £37000 per year | Service Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 6a7f7899-fda3-4afb-9af8-d430b4235d15
+title: Service Administrator
+employer: 
+location: King's Lynn
+region: Norfolk
+salary: £30000 - £37000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 48820240d3314857425b40a8b2e97ee8d478474ba4a9c7aff0ebbb71926a15d1
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | Norfolk | £29400 - £32760 per year | Site Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225475427
+title: Site Coordinator
+employer: 
+location: Norfolk
+region: Norfolk
+salary: £29400 - £32760 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 62a7335408edb59d874614b97a4687701f5c1e5f48b031a9709700250c6e9ee2
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | Thetford | £25000 - £35000 per year | Customer Service Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225442057
+title: Customer Service Administrator
+employer: 
+location: Thetford
+region: Norfolk
+salary: £25000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ec94b6493ad96da0b49d42bf00a63bfc67c2a69a9d57df8008462e12aedb2d49
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Cannock | £30000 - £32000 per year | HR Systems and Administration Co-ordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 9f960cb9-698b-4d0c-a9ab-36216637f126
+title: HR Systems and Administration Co-ordinator
+employer: 
+location: Cannock
+region: Staffordshire
+salary: £30000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6a27d8027647a8bcafd7fd2d6f44d23ceba98b2136b5a1aff5c008b74050393c
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Cannock | £35000 per year | SHEQ & Office Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225427615
+title: SHEQ & Office Coordinator
+employer: 
+location: Cannock
+region: Staffordshire
+salary: £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8c4d1790168a043e69c12a287b1685cf2e49924b0fcf261820c143fdb9ab4d8a
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Leek | £27000 - £40000 per year (£26820 - £40000) | Training Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225404128
+title: Training Coordinator
+employer: 
+location: Leek
+region: Staffordshire
+salary: £27000 - £40000 per year (£26820 - £40000)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 422832f4b45887701f223253a90caf72191dcdff8e31e9f26e23d81ebdccbad6
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Stafford | £28000 - £35000 per year (Training + Progression) | Administrator (Sales)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225439422
+title: Administrator (Sales)
+employer: 
+location: Stafford
+region: Staffordshire
+salary: £28000 - £35000 per year (Training + Progression)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 1f7057126aa281e436c41e06faa8b7e23481a673519d5963eaf00388733e4df1
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Stafford | £14.29 - £15.39 per hour | Customer Service Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: a24d4cb2-62cf-4de5-9014-51c98ed8781f
+title: Customer Service Administrator
+employer: 
+location: Stafford
+region: Staffordshire
+salary: £14.29 - £15.39 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 307348fb4cdb0f728fd0d1abcb05e7a46e56fe42f797209c9240caa425611b57
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Stafford | £13.45 - £18.9 per hour | Customer Service Advisor - Part Time
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225420458
+title: Customer Service Advisor - Part Time
+employer: 
+location: Stafford
+region: Staffordshire
+salary: £13.45 - £18.9 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 277b047a80f8cd9991452122c69c68ff25854503a2af24d24e5d58925c8d9cdf
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Stafford | £28000 - £35000 per year (Training + Progression) | Sales Administrator (Training/Progression)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225403562
+title: Sales Administrator (Training/Progression)
+employer: 
+location: Stafford
+region: Staffordshire
+salary: £28000 - £35000 per year (Training + Progression)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 00c8dbeafa0d144ec0f72f69bea5a87b1ca7486056afdd4a90eb81e82558f4f4
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Stafford | £28000 - £35000 per year | Sales Administrator (Training/Progression)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: dfd7ef13-5504-4b7d-bfe3-86a6823baa23
+title: Sales Administrator (Training/Progression)
+employer: 
+location: Stafford
+region: Staffordshire
+salary: £28000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 68870afae6d4da29f151daa5dcc79ccb217572e22111ce2a22587616ef991107
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Stoke-on-trent | £14.02 - £15.53 per hour | Depot Administrator- Noons
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225430342
+title: Depot Administrator- Noons
+employer: 
+location: Stoke-on-trent
+region: Staffordshire
+salary: £14.02 - £15.53 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: a93f2e6f4ad2bc456f4d7f6deba997a6b164def312593804dcdf0d17fc3091aa
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Tamworth | £31000 per year | Sales Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 9e442b03-56f9-41d0-8fbf-c875482827ff
+title: Sales Administrator
+employer: 
+location: Tamworth
+region: Staffordshire
+salary: £31000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 163592751a97c0da3b6e685ed0bed2fe1d93dfada3d66247ad32a33e246087c1
+---
+
+---
+action:
+POSS | JobG8 | Surrey | Camberley | £14 - £18 per hour | Support Care Workers - Camberley
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225134809
+title: Support Care Workers - Camberley
+employer: 
+location: Camberley
+region: Surrey
+salary: £14 - £18 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: df4fca7770d683fb299655b15caca3cdd70a10d0d8a4c9f207b9c3947421f011
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Coventry | £60000 per year | Showroom Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107830288
+title: Showroom Coordinator
+employer: 
+location: Coventry
+region: West Midlands - Coventry & Warwickshire
+salary: £60000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b21bfda7f9b58fcc0dcc7cf5ac0ecf09a6d84c0ce251ed227d853d5873d264e1
+---
+
+---
+action:
+POSS | JobG8 | Wiltshire | Chippenham | £50000 - £60000 per year | Permanent Part-time Private Personal Assistant - Cotswolds
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 61318ff3-8530-4604-9b2f-3445400107a3
+title: Permanent Part-time Private Personal Assistant - Cotswolds
+employer: 
+location: Chippenham
+region: Wiltshire
+salary: £50000 - £60000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 930a20a58da2451c2f03023869427ce3c9343926be532599626ced8d94e2a898
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - South | Barnsley | £30000 - £35000 per year | German Speaking Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: ac77bded-97ae-4769-9c90-e5e347e032eb
+title: German Speaking Administrator
+employer: 
+location: Barnsley
+region: Yorkshire - South
+salary: £30000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 1377181f96c5450a142a04a87e16e4e212dfaa8da4727b355f4c37d53066f357
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £28000 - £32000 per year | Accounts Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 86ccc5ec-10ec-49fa-9f00-50c5b00d39d6
+title: Accounts Assistant
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £28000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 3b81992de2fa7a450baf31c17b6778d52c6c0aa2e6b0ea43d7ce9c4ad16d7c83
+---
+
+## NEJobs — 0 to review
 
 _No new or changed human decisions required._
 
-## NEJobs — 31 to review
+## VONNE — 1 to review
 
 ---
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Annand House, Meadowfield | Grade 6 - £28,142- £31,022 (P… | Business Services Co-ordination and I…
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300776
-title: Business Services Co-ordination and I…
-employer: Durham County Council
-location: Annand House, Meadowfield
-region: North East - County Durham & Darlington/Hartlepool
-salary: Grade 6 - £28,142- £31,022 (P…
-closing_date: 06/09/2026
-reason: annualised upper salary £31,022 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Business_Services_Co_ordination_and_Improvement_Officer/300776
-hub_fingerprint: 57031c36163bbea8de1cc1b3ef6fee2255cd8f1260eb272b724d28bc72ff4d81
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Barnard Castle | £27,128.40 | Facilities Coordinator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300105
-title: Facilities Coordinator
-employer: The Bowes Museum
-location: Barnard Castle
-region: North East - County Durham & Darlington/Hartlepool
-salary: £27,128.40
-closing_date: 24/08/2026 08:00
-reason: transferable office/service title with specialist or borderline wording: facilities
-source_url: https://www.northeastjobs.org.uk/job/Facilities_Coordinator/300105
-hub_fingerprint: 5ccd80ff51911bda40b594a84329224191047cac266dbf68a04c60d8a5f23813
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £26,403 to £28,598 pro rata (… | Admin Assistant – Finance/HR
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300742
-title: Admin Assistant – Finance/HR
-employer: Durham County Council
-location: Bishop Auckland
-region: North East - County Durham & Darlington/Hartlepool
-salary: £26,403 to £28,598 pro rata (…
-closing_date: 28/08/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: finance, hr
-source_url: https://www.northeastjobs.org.uk/job/Admin_Assistant_Finance_HR/300742
-hub_fingerprint: dba511da9ce0a66ad36d236c4c37d0a12fda1122838901a38a2941f51477b40f
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Bishop Auckland College (deri… | Harmonised pay scale points 2… | 0.4 Lecturer Coordinator in Counselli…
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 299764
-title: 0.4 Lecturer Coordinator in Counselli…
-employer: Bishop Auckland College
-location: Bishop Auckland College (deri…
-region: North East - County Durham & Darlington/Hartlepool
-salary: Harmonised pay scale points 2…
-closing_date: 18/08/2026
-reason: annualised upper salary £37,659 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/0_4_Lecturer_Coordinator_in_Counselling_Psychotherapy_Studies/299764
-hub_fingerprint: 8c7c7d0762600f32eae4cbc4ff481c700a7f04e2c9756f6c3e0128706cba531b
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | CETL | £25,989 - £26,403 per annum | Administration Assistant
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300212
-title: Administration Assistant
-employer: Hartlepool Borough Council
-location: CETL
-region: North East - County Durham & Darlington/Hartlepool
-salary: £25,989 - £26,403 per annum
-closing_date: 21/08/2026
-reason: possible JobG8 duplicate requires review
-source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/300212
-hub_fingerprint: d010cec42d27d56ca11d6fb9668a3a1fed8478918567cb9c07f2d15bd98d719e
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Council Offices, Green Lane,… | £30,024 to £33,699 p.a. (Grad… | Technical and Support Officers
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300579
-title: Technical and Support Officers
-employer: Durham County Council
-location: Council Offices, Green Lane,…
-region: North East - County Durham & Darlington/Hartlepool
-salary: £30,024 to £33,699 p.a. (Grad…
-closing_date: 31/08/2026
-reason: transferable office/service title with specialist or borderline wording: technical
-source_url: https://www.northeastjobs.org.uk/job/Technical_and_Support_Officers/300579
-hub_fingerprint: eee80ded68deccabc9904c3950b658f649d16130add7c703fff67ea4a06ecf15
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Durham (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256127
-title: School Administrator
-employer: First Class Supply & Train…
-location: Durham (derived for filtering)
-region: North East - County Durham & Darlington/Hartlepool
-salary: From £14.54 - £15.20 per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256127
-hub_fingerprint: 139f88888f229f5f9fe6e833add7d0adfc85b206b13ad36b111560f988bf26d2
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor | Support Grade B; £26,970 per… | Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300512
-title: Administrator
-employer: New College Durham
-location: Framwellgate Moor
-region: North East - County Durham & Darlington/Hartlepool
-salary: Support Grade B; £26,970 per…
-closing_date: 26/08/2026
-reason: possible JobG8 duplicate requires review
-source_url: https://www.northeastjobs.org.uk/job/Administrator/300512
-hub_fingerprint: ca71aea76861b3d701fe3bb4d76203062384b1130a6702ccae29294baf0b6210
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor Campus, Dur… | Support Grade D; £28,980 per… | Apprenticeship Support Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300505
-title: Apprenticeship Support Officer
-employer: New College Durham
-location: Framwellgate Moor Campus, Dur…
-region: North East - County Durham & Darlington/Hartlepool
-salary: Support Grade D; £28,980 per…
-closing_date: 26/08/2026
-reason: provisional transferable-office review
-source_url: https://www.northeastjobs.org.uk/job/Apprenticeship_Support_Officer/300505
-hub_fingerprint: 19931492d927be2626336468f487886f615cf935747254a0f3c21b938d60830b
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Highlight Active Wellbeing Hub | £13.47 per hour | Customer Service Advisor
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 299796
-title: Customer Service Advisor
-employer: Hartlepool Borough Council
-location: Highlight Active Wellbeing Hub
-region: North East - County Durham & Darlington/Hartlepool
-salary: £13.47 per hour
-closing_date: 31/08/2026
-reason: possible JobG8 duplicate requires review
-source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/299796
-hub_fingerprint: 62687a0e5e789f643870f58153466f6daa3011f7bb3e0c1c4b66de04d10cf631
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Sacriston | £24,796 - £25,185 (Pro Rata) | Administrative Assistant
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 299277
-title: Administrative Assistant
-employer: Durham County Council
-location: Sacriston
-region: North East - County Durham & Darlington/Hartlepool
-salary: £24,796 - £25,185 (Pro Rata)
-closing_date: 31/08/2026
-reason: possible JobG8 duplicate requires review
-source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/299277
-hub_fingerprint: 94805941d7a10ad14f713b0c206264388ad818ea6cc142f7302544bedbd06441
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | St Joseph’s Catholic Junior S… | Grade D, SCP 5 - 7 (£25,583 -… | Administration Assistant
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300360
-title: Administration Assistant
-employer: Bishop Wilkinson Catholic…
-location: St Joseph’s Catholic Junior S…
-region: North East - County Durham & Darlington/Hartlepool
-salary: Grade D, SCP 5 - 7 (£25,583 -…
-closing_date: 20/08/2026
-reason: possible JobG8 duplicate requires review
-source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/300360
-hub_fingerprint: 7507f9968b5aad504475ee2825a92cce314a9cda8efe0f8e9f7e5b597309d482
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | The Horizon School, CETL, Bri… | Band 7 £23,175 - £24,314 pa | Attendance & Support Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 299877
-title: Attendance & Support Officer
-employer: Hartlepool Borough Council
-location: The Horizon School, CETL, Bri…
-region: North East - County Durham & Darlington/Hartlepool
-salary: Band 7 £23,175 - £24,314 pa
-closing_date: 04/09/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: attendance
-source_url: https://www.northeastjobs.org.uk/job/Attendance_Support_Officer/299877
-hub_fingerprint: 64dd0294ca52611e04248d7c953952d623f4b24a9348d0814837cd01c127c641
----
-
----
-action: select
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award… | PA Support Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300628
-title: PA Support Officer
-employer: Darlington Borough Council
-location: Town Hall, Darlington
-region: North East - County Durham & Darlington/Hartlepool
-salary: £25,989 per annum (pay award…
-closing_date: 30/08/2026
-reason: provisional transferable-office review
-source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300628
-hub_fingerprint: b229398fb577b31bbbfa2ca527ce6b9d13f2a21d8c7630d3be0c5c41f56f67c1
----
-
----
-action: exclude
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £39,152 - £41,771 per annum | Systems Administrator (Housing Servic…
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300336
-title: Systems Administrator (Housing Servic…
-employer: Darlington Borough Council
-location: Town Hall, Darlington
-region: North East - County Durham & Darlington/Hartlepool
-salary: £39,152 - £41,771 per annum
-closing_date: 31/08/2026
-reason: transferable office/service title with specialist or borderline wording: housing
-source_url: https://www.northeastjobs.org.uk/job/Systems_Administrator_Housing_Services/300336
-hub_fingerprint: 9971e838c41c20c9ff3ed696a4f2ed403408fb684147e1c2ffcf74a26c9b7233
----
-
----
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Adult Social Care, South Tyne… | £41,771 pa | Local Area Coordinator – Primrose
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 299943
-title: Local Area Coordinator – Primrose
-employer: South Tyneside Council
-location: Adult Social Care, South Tyne…
-region: North East - Tyneside, Wearside & Northumberland
-salary: £41,771 pa
-closing_date: 28/08/2026 12:00
-reason: annualised upper salary £41,771 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Local_Area_Coordinator_Primrose/299943
-hub_fingerprint: 4e069413f5c5595c38b4ce96217cddd173d849e17bd0896288cc7abfa9c4d1ab
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | County Hall MORPETH, United K… | £21,122.40 - 22,513.60 per an… | Statutory SEND Coordinator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300549
-title: Statutory SEND Coordinator
-employer: Northumberland County Coun…
-location: County Hall MORPETH, United K…
-region: North East - Tyneside, Wearside & Northumberland
-salary: £21,122.40 - 22,513.60 per an…
-closing_date: 20/08/2026 00:00
-reason: transferable office/service title with specialist or borderline wording: send
-source_url: https://www.northeastjobs.org.uk/job/Statutory_SEND_Coordinator/300549
-hub_fingerprint: 2c874683a17cf692c339f1744ec3a60532335c080b21144b20edbe581c7d2823
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £41,771 - £45,091 | Simpler Recycling Projects Coordinator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300777
-title: Simpler Recycling Projects Coordinator
-employer: Gateshead Council
-location: Gateshead
-region: North East - Tyneside, Wearside & Northumberland
-salary: £41,771 - £45,091
-closing_date: 06/09/2026
-reason: annualised upper salary £45,091 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coordinator/300777
-hub_fingerprint: 3b0e8f02f087726d987144547de3ff381588621c231dc1e24c1968dffd8ed890
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filter… | Actual pro-rata salary is £27… | Attendance Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300632
-title: Attendance Officer
-employer: North East Futures - UTC
-location: Newcastle (derived for filter…
-region: North East - Tyneside, Wearside & Northumberland
-salary: Actual pro-rata salary is £27…
-closing_date: 08/09/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: attendance
-source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/300632
-hub_fingerprint: 614ea5da9d66370f342345b47a43ccb8146e9f4c54dcef6013668f3fc04990c6
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filter… | From £14.54 - £15.20 per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256122
-title: School Administrator
-employer: First Class Supply & Train…
-location: Newcastle (derived for filter…
-region: North East - Tyneside, Wearside & Northumberland
-salary: From £14.54 - £15.20 per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256122
-hub_fingerprint: e70cf53d96b40fc74e58a55f0a36a9a7838a31849808de5f6d00088414576f5b
----
-
----
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | SCP 23-25, FTE salary (£34,43… | Data and Exams Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300012
-title: Data and Exams Officer
-employer: Walbottle Academy
-location: Newcastle Upon Tyne
-region: North East - Tyneside, Wearside & Northumberland
-salary: SCP 23-25, FTE salary (£34,43…
-closing_date: 24/08/2026 09:00
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Data_and_Exams_Officer/300012
-hub_fingerprint: eb0366a45bdd4fbdf0dd4e52dcfaac59e0552a5d93ef84dd5ee623809c6934de
----
-
----
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | North Tyneside | GRADE 5 SCP 7 (£26,403) - SCP… | Claims Support Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300592
-title: Claims Support Officer
-employer: North Tyneside Council
-location: North Tyneside
-region: North East - Tyneside, Wearside & Northumberland
-salary: GRADE 5 SCP 7 (£26,403) - SCP…
-closing_date: 28/08/2026 00:00
-reason: provisional transferable-office review
-source_url: https://www.northeastjobs.org.uk/job/Claims_Support_Officer/300592
-hub_fingerprint: aa5acd45a0ce00ad6b2e3663d6a09ab0e09e42de2c895a94a3deab5e0b6e5ba4
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | North Tyneside (derived for f… | From £14.54 - £15.20 per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256121
-title: School Administrator
-employer: First Class Supply & Train…
-location: North Tyneside (derived for f…
-region: North East - Tyneside, Wearside & Northumberland
-salary: From £14.54 - £15.20 per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256121
-hub_fingerprint: 64bf0662804a1f6ed315871ea1d4ce11e7aacdd049ac8ec55ad88e3c67117a46
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for f… | From £14.54 - £15.20 per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256120
-title: School Administrator
-employer: First Class Supply & Train…
-location: Northumberland (derived for f…
-region: North East - Tyneside, Wearside & Northumberland
-salary: From £14.54 - £15.20 per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256120
-hub_fingerprint: 303bf9f5e0bb813a0bb69248336680f74ed5baa708e107d7762d6d31ee888511
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | School Administrators require… | From £14.54 - £15.20 per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256124
-title: School Administrator
-employer: First Class Supply & Train…
-location: School Administrators require…
-region: North East - Tyneside, Wearside & Northumberland
-salary: From £14.54 - £15.20 per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
-hub_fingerprint: f22353b963b4f536e7f992fcd3ce2c5461f7a7ae5e9350d7d0d21455594f6e44
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | School Administrators require… | From £14.54 - £15.20per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256125
-title: School Administrator
-employer: First Class Supply & Train…
-location: School Administrators require…
-region: North East - Tyneside, Wearside & Northumberland
-salary: From £14.54 - £15.20per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
-hub_fingerprint: 17b768df59f421ca753265c3eee2fed39ecc23e733cf54fd8e194c81bfc92618
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filte… | From £14.54 - £15.20 per hour | School Administrator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 256126
-title: School Administrator
-employer: First Class Supply & Train…
-location: Sunderland (derived for filte…
-region: North East - Tyneside, Wearside & Northumberland
-salary: From £14.54 - £15.20 per hour
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256126
-hub_fingerprint: a896d83b7150e69eb42b4787c8922946e4bf5bb8b838bd8287e7a10b042972fa
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 3 (SCP 7- 11) £26,403-£… | Customer Enabling Services Advocate
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300485
-title: Customer Enabling Services Advocate
-employer: Sunderland City Council
-location: Sunderland City Council (deri…
-region: North East - Tyneside, Wearside & Northumberland
-salary: Grade 3 (SCP 7- 11) £26,403-£…
-closing_date: 20/08/2026
-reason: provisional transferable-office review
-source_url: https://www.northeastjobs.org.uk/job/Customer_Enabling_Services_Advocate/300485
-hub_fingerprint: 1a38ced7cf228332d0f1507ad5c2fa9d998e86c95f70cde9342d21a147a47387
----
-
----
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 5 (SCP 17-22) £31,022.0… | Driving Assessment Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300450
-title: Driving Assessment Officer
-employer: Sunderland City Council
-location: Sunderland City Council (deri…
-region: North East - Tyneside, Wearside & Northumberland
-salary: Grade 5 (SCP 17-22) £31,022.0…
-closing_date: 27/08/2026
-reason: annualised upper salary £33,699 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Driving_Assessment_Officer/300450
-hub_fingerprint: 6122af7333158f7201953a88505add667e6f6a7d78710f71abd4b536559342fc
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Town Hall, South Shields | £28,598 pa | Technical Support Officer – Licensing
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300614
-title: Technical Support Officer – Licensing
-employer: South Tyneside Council
-location: Town Hall, South Shields
-region: North East - Tyneside, Wearside & Northumberland
-salary: £28,598 pa
-closing_date: 24/08/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: technical
-source_url: https://www.northeastjobs.org.uk/job/Technical_Support_Officer_Licensing/300614
-hub_fingerprint: ee00a56705f08b61ea5e6c8425a2c83adb88a3db917cb814c35602b690799a80
----
-
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Various Locations | £25,989 pa pro rata (£13.47 p… | Receptionist – Various Posts
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 300662
-title: Receptionist – Various Posts
-employer: South Tyneside Council
-location: Various Locations
-region: North East - Tyneside, Wearside & Northumberland
-salary: £25,989 pa pro rata (£13.47 p…
-closing_date: 25/08/2026 12:00
-reason: annualised upper salary £50,678,550 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Receptionist_Various_Posts/300662
-hub_fingerprint: 7f77de41b53823e21c258fa36bf7ff49ad73fd49a062cc90a101d8241d7a496b
----
-
-## VONNE — 8 to review
-
----
-action: select
-POSS | VONNE | North East | Hybrid | £ Per Annum | Bid Writer
+action:
+POSS | VONNE | North East | Hybrid | £ Per Annum | Business Development Manager
 source_key: vonne
 source: VONNE
 category: admin_service
-source_job_id: 173334
-title: Bid Writer
-employer: People First Independent Advo…
+source_job_id: 173336
+title: Business Development Manager
+employer: North East Young Dads and Lads
 location: Hybrid
 region: North East
 salary: £ Per Annum
-closing_date: 01 September 2026
-reason: North East geography is generic or derived and requires review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
-hub_fingerprint: 1f4b0795750f0576597fe877d02af5c277080cbb46a2fed3195b9c528eeabbb0
----
-
----
-action: select
-POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £26,761 to 28,966 Pro Rata | Therapeutic Coordinator
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173311
-title: Therapeutic Coordinator
-employer: Rape and Sexual Abuse Counsel…
-location: County Durham
-region: North East - County Durham & Darlington/Hartlepool
-salary: £26,761 to 28,966 Pro Rata
-closing_date: Monday, August 24, 2026 - 12:00
-reason: provisional transferable-office review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173311
-hub_fingerprint: b069f84826b38ecaeab9b11d4f35cdf92f333b49b13e38429303efbadfe41830
----
-
----
-action: exclude
-POSS | VONNE | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Bereavement Counsellor
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173322
-title: Bereavement Counsellor
-employer: Age UK County Durham
-location: Durham
-region: North East - County Durham & Darlington/Hartlepool
-salary: £34,592 Per Annum
-closing_date: 04 September 2026
-reason: annualised upper salary £34,592 exceeds North East review point £30,000
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173322
-hub_fingerprint: c4a9dbb21e5b693e8fc2bdd4cbccbb74bed01d14bab957632a4287f64620322b
----
-
----
-action: exclude
-POSS | VONNE | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Counsellor/Psychotherapist
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173323
-title: Counsellor/Psychotherapist
-employer: Age UK County Durham
-location: Durham
-region: North East - County Durham & Darlington/Hartlepool
-salary: £34,592 Per Annum
-closing_date: 04 September 2026
-reason: annualised upper salary £34,592 exceeds North East review point £30,000
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
-hub_fingerprint: 2d3f27098c39263ffe06dbd1550eee2ff535e3953443276c8ebddd37391d8e28
----
-
----
-action: exclude
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173309
-title: Health & Wellbeing Coordinator
-employer: VONNE
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £34,434 to 36,363 Per Annum
-closing_date: Sunday, September 13, 2026 - 00:00
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
-hub_fingerprint: f6f17cc9bf6c31abb2a5c23accddf0548bd4fe1242a63815a784fbfe5e049dcc
----
-
----
-action: select
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Offic…
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173310
-title: Health & Wellbeing Projects Support Offic…
-employer: VONNE
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £26,402 to 28,141 Per Annum
-closing_date: Sunday, September 13, 2026 - 00:00
-reason: provisional transferable-office review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
-hub_fingerprint: a483b67d9ab0d611dd1367a2adbffad4be02ef2039eb70bbee4686299b507f65
----
-
----
-action: exclude
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partners…
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173253
-title: VCSE Health & Wellbeing Research Partners…
-employer: VONNE
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £34,434 to 36,363 Pro Rata
-closing_date: Sunday, August 23, 2026 - 00:00
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
-hub_fingerprint: 88d36239cf2d77cc244d2084d9bacfa811eb601f50c8374bbf4e444efa145f91
----
-
----
-action: select
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,790 to 27,000 Per Annum | Youth Engagement Officer
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173331
-title: Youth Engagement Officer
-employer: Foundation of Light
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £23,790 to 27,000 Per Annum
-closing_date: Friday, August 28, 2026 - 00:00
-reason: provisional transferable-office review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173331
-hub_fingerprint: 74a2010d372e60b3c46392cc82fce9cc798cb9dd5844e3cc6382bceee66c7002
----
-
-## Teaching Vacancies — 26 to review
-
----
-action: exclude
-POSS | Teaching Vacancies | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: trust-governance-professional-the-keys-academy-trust-reading-not-recorded
-title: Trust Governance Professional
-employer: The Keys Academy Trust
-location: Reading, RG6 1EY
-region: Berkshire
-salary: £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Borderline school administration title: governance professional
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-professional-the-keys-academy-trust-reading-not-recorded
-hub_fingerprint: 436756c5b3326d04c2b7c1a38597c052f1eb9e8b93eea95126d2e1a4797af969
----
-
----
-action: select
-POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: maths-hub-administration-communications-officer
-title: Maths Hub Administration & Communications Officer
-employer: Cambourne Village College
-location: Cambridge, East of England, CB23 6FR
-region: Cambridgeshire
-salary: £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum
-closing_date: 2026-08-20T09:00:00+01:00
-reason: Borderline school administration title: communications officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administration-communications-officer
-hub_fingerprint: c743b8c06986077c9e94012ac9c523a8b7985c00beea775aeebd8b6244eb5720
----
-
----
-action: select
-POSS | Teaching Vacancies | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: office-administrator-st-peter-s-school
-title: Office Administrator
-employer: St Peter's School
-location: Huntingdon, East of England, PE29 7DD
-region: Cambridgeshire
-salary: £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5.
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
-hub_fingerprint: 98903f09aba0182997e8e97d60fa4a83200bb1dccdaa254e5b9084f29a953502
----
-
----
-action: select
-POSS | Teaching Vacancies | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
-title: Senior Pupil Services Officer
-employer: Ladysmith Infant & Nursery School
-location: Exeter, South West, EX1 2PS
-region: Devon
-salary: £27,709.00 - £29,070.00 Annually (FTE)
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
-hub_fingerprint: 44d148bb4914d1dd9c607c6fadcaaccd012f3acaa1b1ba1a0985b9bd7b71e01f
----
-
----
-action: select
-POSS | Teaching Vacancies | Devon | Exeter, South West, EX1 2SN | £9,058.00 Annually (Actual) | Senior Pupil Services officer - 2 days/week
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: senior-pupil-services-officer-2-days-week
-title: Senior Pupil Services officer - 2 days/week
-employer: St Michael's Church of England Primary Academy
-location: Exeter, South West, EX1 2SN
-region: Devon
-salary: £9,058.00 Annually (Actual)
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-2-days-week
-hub_fingerprint: 177e5eccaa0e18ac3aec9d71f25b53a42e752328b4907d824e4cf602de027780
----
-
----
-action: select
-POSS | Teaching Vacancies | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
-title: Administrative Assistant
-employer: The King's School
-location: Ottery St Mary, South West, EX11 1RA
-region: Devon
-salary: Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260.
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
-hub_fingerprint: f57e507c4a6cd740654cd9d41b34a3b1c5b993b07f4588e38404ddc0b2c8c105
----
-
----
-action: select
-POSS | Teaching Vacancies | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
-title: Receptionist
-employer: Notley High School and Braintree Sixth Form
-location: Braintree, East of England, CM7 1WY
-region: Essex
-salary: Scale 3, Point 4 – 5
-closing_date: 2026-08-30T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
-hub_fingerprint: f6b5a99b3a8eabb860c3eabbe8fa23a486f48b7931c13df53e8d146981ad93a1
----
-
----
-action: select
-POSS | Teaching Vacancies | Hampshire | Southampton, South East, SO30 4EJ | £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796) | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
-title: Receptionist
-employer: Wildern School
-location: Southampton, South East, SO30 4EJ
-region: Hampshire
-salary: £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796)
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
-hub_fingerprint: a757fc700d90cb9c8b7c01ff5b089946f031589e2df57323dae78f573e37907b
----
-
----
-action: select
-POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
-title: HR administrator
-employer: The Diocese Of Canterbury Academies Trust
-location: Canterbury, CT1 1NQ
-region: Kent
-salary: £28,182.00 Annually (FTE) Actual annual salary £ 26057.39
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
-hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa430
----
-
----
-action: select
-POSS | Teaching Vacancies | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-nore-academy
-title: Receptionist
-employer: Nore Academy
-location: Sheerness, South East, ME12 3AP
-region: Kent
-salary: £8,557.00 - £8,693.00 Annually (Actual)
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
-hub_fingerprint: 1bc4d13ea6c2ee61d760d55cbded78b35311c5e01857d2d620f75de6e289be06
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Croydon, London, CR0 6NA | 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London) | Admin Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: admin-assistant-chaffinch-brook-school
-title: Admin Assistant
-employer: Chaffinch Brook School
-location: Croydon, London, CR0 6NA
-region: London
-salary: 19,807 FTE - £20,392 FTE. NJC Grade 5 SCP 13 - 15 (Outer London)
-closing_date: 2026-08-28T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-chaffinch-brook-school
-hub_fingerprint: 1f010a519f80bac9ba99219721c8700348f43fb1a5ace5688a367e9649cd60ed
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrative-assistant-pathways-school
-title: Administrative Assistant
-employer: Pathways School
-location: Dagenham, London, RM9 6PH
-region: London
-salary: £25,514.00 Annually (Actual)
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
-hub_fingerprint: 2151d7e740021a7a3c2637680e853e574a844c73d52bf6f992dca5ece18de543
----
-
----
-action: select
-POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrative-assistant-ranelagh-primary-school
-title: Administrative Assistant
-employer: Ranelagh Primary School
-location: London, London, E15 3DN
-region: London
-salary: Scaled 3 (dependent on experience) £25,524 Pro Rata
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
-hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586cafb
----
-
----
-action: select
-POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-administrator-belleville-wix-academy-london
-title: Receptionist / Administrator
-employer: Belleville Wix Academy
-location: London, London, SW4 0AJ
-region: London
-salary: £29,805.00 Annually (Actual) Inner London payscale Spine Point 2
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
-hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f5
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: finance-administrator-beecholme-primary-school
-title: Finance Administrator
-employer: Beecholme Primary School
-location: Mitcham, London, CR4 2HZ
-region: London
-salary: £13,007 (FTE Salary is £29,436)
-closing_date: 2026-08-30T23:59:59+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-beecholme-primary-school
-hub_fingerprint: db9c5ea983ebe8fce144fa268013c83ef7bdc700ae4cce7040a8730837afb91e
----
-
----
-action: select
-POSS | Teaching Vacancies | London | New Malden, KT3 6NU | £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings. | Governance and Compliance Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded
-title: Governance and Compliance Officer
-employer: Helix Learning Trust
-location: New Malden, KT3 6NU
-region: London
-salary: £21,518.00 - £22,777.00 Annually (Actual) Term time only, plus one week (40 weeks). Home working available and flexible working for evening meetings.
-closing_date: 2026-08-18T23:59:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-officer-coombe-academy-trust-new-malden-not-recorded
-hub_fingerprint: 75819c902b36c50aa5175fd2e0a7925b10e84b1ec296895650bb41689fb28d19
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Sutton, SM3 8AB | £13,395.00 Annually (Actual) £33,129 (FTE) | HR Admin Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-admin-assistant-girls-learning-trust
-title: HR Admin Assistant
-employer: Girls' Learning Trust
-location: Sutton, SM3 8AB
-region: London
-salary: £13,395.00 Annually (Actual) £33,129 (FTE)
-closing_date: 2026-08-23T22:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-girls-learning-trust
-hub_fingerprint: 6de58d7f4564e60c00d239b014a71503e131ba7e65cb43111c8f90ca2e6d3ab3
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Wallington, London, SM6 7NP | £32,070 - £33,987 | HR Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-officer-0b54e05b-33a0-44fc-bb21-148b5f610bb7
-title: HR Officer
-employer: Sherwood Foundation School
-location: Wallington, London, SM6 7NP
-region: London
-salary: £32,070 - £33,987
-closing_date: 2026-08-21T12:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-0b54e05b-33a0-44fc-bb21-148b5f610bb7
-hub_fingerprint: 112f2963c07456a304a810d4225a0fc9cdd9f01709ee45d787f248a9c2cfea3d
----
-
----
-action: select
-POSS | Teaching Vacancies | Northamptonshire | Northampton, East Midlands, NN6 8PT | £26,846.00 Annually (FTE) £ 8217.92 actual salary | Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrator-guilsborough-church-of-england-primary-school
-title: Administrator
-employer: Guilsborough Church of England Primary School
-location: Northampton, East Midlands, NN6 8PT
-region: Northamptonshire
-salary: £26,846.00 Annually (FTE) £ 8217.92 actual salary
-closing_date: 2026-08-24T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsborough-church-of-england-primary-school
-hub_fingerprint: 22b1e8be9c881daaaa578ae19feadbfb3c5b984dcf69d9788454c15371e3da67
----
-
----
-action: select
-POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Exams Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: exams-assistant-south-nottinghamshire-academy
-title: Exams Assistant
-employer: South Nottinghamshire Academy
-location: Nottingham, East Midlands, NG12 2FQ
-region: Nottinghamshire
-salary: Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
-hub_fingerprint: 4f407e60141111e365be7320c452fffd199c75547049272fc67517cee8a0e235
----
-
----
-action: select
-POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: house-support-asisstant
-title: House Support Asisstant
-employer: South Nottinghamshire Academy
-location: Nottingham, East Midlands, NG12 2FQ
-region: Nottinghamshire
-salary: Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
-hub_fingerprint: e629769cd2c378af8217300b0df7063f6a9c15f605d6349ecf35c8a4fdde03f3
----
-
----
-action: select
-POSS | Teaching Vacancies | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-administrator-the-spencer-academies-trust
-title: HR Administrator
-employer: The Spencer Academies Trust
-location: Nottingham, NG9 6RZ
-region: Nottinghamshire
-salary: £27,709.00 - £29,541.00 Annually (Actual) NJC8-12
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
-hub_fingerprint: 792a44b1355bb882826eef20df22d3f839aa2537b64125da61f3107956d549cd
----
-
----
-action: select
-POSS | Teaching Vacancies | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-faringdon-community-college-faringdon-oxfordshire
-title: Receptionist
-employer: Faringdon Community College
-location: Faringdon, South East, SN7 7LB
-region: Oxfordshire
-salary: £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20
-closing_date: 2026-08-28T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdon-community-college-faringdon-oxfordshire
-hub_fingerprint: 08f6053263c1a6101e06492181ee0bd18df9b610e3d2b6475d560f92c2a2c99d
----
-
----
-action: select
-POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: office-administrator-barton-park-primary-school
-title: Office Administrator
-employer: Barton Park Primary School
-location: Oxford, South East, OX3 9WN
-region: Oxfordshire
-salary: £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
-hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa930206311
----
-
----
-action: select
-POSS | Teaching Vacancies | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: admin-officer-queen-s-crescent-school
-title: Admin Officer
-employer: Queen's Crescent School
-location: Chippenham, South West, SN14 0QT
-region: Wiltshire
-salary: £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
-hub_fingerprint: b26a1f91da9bd30669a73843202f0f910517397544fd38db19cc8ca785f62af1
----
-
----
-action: select
-POSS | Teaching Vacancies | Wiltshire | Swindon, SN1 2LB | £31,525.09 - £35,570.32 Annually (Actual) | HR Operations Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-operations-officer-the-white-horse-federation-swindon-not-recorded
-title: HR Operations Officer
-employer: The White Horse Federation
-location: Swindon, SN1 2LB
-region: Wiltshire
-salary: £31,525.09 - £35,570.32 Annually (Actual)
-closing_date: 2026-08-17T23:59:00+01:00
-reason: Borderline school administration title: operations officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-operations-officer-the-white-horse-federation-swindon-not-recorded
-hub_fingerprint: e277588454dc618fbfd51e3b1b8ab37f92bfe888299705c7893d1541114fbdd1
+closing_date: 06 September 2026
+reason: possible cross-source duplicate requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173336
+hub_fingerprint: 73c668dcbe97d56cdd50f20e6f52b6acca9e3c512aa9e88ede249b4f2e5ba0cd
 ---
