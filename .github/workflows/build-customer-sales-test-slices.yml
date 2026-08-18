@@ -26,7 +26,7 @@ jobs:
 
       - name: Refresh JobG8 and geo from main
         run: |
-          git fetch origin main
+          git fetch origin main:refs/remotes/origin/main
           git show origin/main:pipeline/input/jobg8.xlsx > pipeline/input/jobg8.xlsx
           git show origin/main:pipeline/geo/geo_lookup.xlsx > pipeline/geo/geo_lookup.xlsx
 
