@@ -1,0 +1,2 @@
+postcode_district,display_location,region,notes
+NE27,Newcastle upon Tyne,North East,"Cobalt/Silver Fox Way and other NE27 roles use Newcastle upon Tyne as the post town; fixes JobG8 rows currently labelled Gateshead when the advert carries an NE27 postcode."
