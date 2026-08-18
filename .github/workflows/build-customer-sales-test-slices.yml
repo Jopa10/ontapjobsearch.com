@@ -2,6 +2,11 @@ name: Build Customer Sales Test Slices
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - agent/customer-sales-family
+    paths:
+      - '.github/workflows/build-customer-sales-test-slices.yml'
 
 permissions:
   contents: write
@@ -26,7 +31,7 @@ jobs:
 
       - name: Refresh JobG8 and geo from main
         run: |
-          git fetch origin main:refs/remotes/origin/main
+          git fetch origin +refs/heads/main:refs/remotes/origin/main
           git show origin/main:pipeline/input/jobg8.xlsx > pipeline/input/jobg8.xlsx
           git show origin/main:pipeline/geo/geo_lookup.xlsx > pipeline/geo/geo_lookup.xlsx
 
