@@ -1,4 +1,4 @@
-Customer Sales test run: 2026-08-18T14:27:06Z
+Customer Sales test run: 2026-08-18T14:31:59Z
 OK: JobG8 feed secret available
 OK: downloaded valid current JobG8 feed (7506823 bytes)
 OK: normalised JobG8 feed
@@ -14,9 +14,11 @@ Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
 Columns: 30
 Feed rows: 10000
 Broad possibles: 933
-In-scope rows: 225
-Campaign/dedupe-adjusted regional jobs: 181
-Ontap 33 broad/in-scope/deduped: 589/109/103
+Broad possibles in scope: 225
+Crossover additions: 208
+Total in-scope rows: 433
+Campaign/dedupe-adjusted regional jobs: 217
+Ontap 33 broad/in-scope/deduped: 589/179/125
 Wrote reports-daily/customer-sales-national-reconciliation.md
 Wrote reports-daily/customer-sales-national-region-counts.csv
 Wrote reports-daily/customer-sales-national-detail.csv
