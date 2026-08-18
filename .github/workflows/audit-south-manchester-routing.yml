@@ -3,7 +3,7 @@ name: Audit South Manchester routing
 on:
   push:
     branches:
-      - audit/south-manchester-routing
+      - main
     paths:
       - pipeline/scripts/audit_south_manchester_routing.py
       - .github/workflows/audit-south-manchester-routing.yml
