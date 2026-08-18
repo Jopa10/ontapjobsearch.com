@@ -1,18 +1,11 @@
 """National reconciliation for the branch-only Customer Sales family test.
 
-Purpose
--------
-Explain how the broad Sales / Business Development discovery universe reduces to
+Explains how the broad Sales / Business Development discovery universe reduces to
 an Ontap-style Customer Sales family and then to campaign/dedupe-adjusted regional
-inventory.
+inventory. Customer-service/account crossover roles can enter the final family even
+when they were not part of the original broad Sales/BD title universe.
 
-Outputs
--------
-- reports-daily/customer-sales-national-reconciliation.md
-- reports-daily/customer-sales-national-region-counts.csv
-- reports-daily/customer-sales-national-detail.csv
-
-This is diagnostic only. It does not publish any live slice.
+Diagnostic only: does not publish live slices.
 """
 from __future__ import annotations
 
@@ -33,58 +26,22 @@ MD_PATH = REPORT_DIR / "customer-sales-national-reconciliation.md"
 REGION_CSV_PATH = REPORT_DIR / "customer-sales-national-region-counts.csv"
 DETAIL_CSV_PATH = REPORT_DIR / "customer-sales-national-detail.csv"
 
-# The 33 regions currently used in the daily regional overview. The national
-# report also shows mapped regions outside this list separately.
 ONTAP_33 = [
-    "Berkshire",
-    "Bristol & Bath",
-    "Buckinghamshire",
-    "Cambridgeshire",
-    "Cumbria - North",
-    "Cumbria - South",
-    "Devon",
-    "Dorset",
-    "Essex",
-    "Gloucestershire",
-    "Greater Manchester - Manchester & Salford",
-    "Greater Manchester - South",
-    "Hampshire",
-    "Hertfordshire",
-    "Kent",
-    "Lancashire - North",
-    "London",
-    "Norfolk",
-    "North East",
-    "Northamptonshire",
-    "Nottinghamshire",
-    "Oxfordshire",
-    "Somerset",
-    "Staffordshire",
-    "Surrey",
-    "Sussex",
-    "West Midlands - Birmingham & Solihull",
-    "West Midlands - Coventry & Warwickshire",
-    "Wiltshire",
-    "Yorkshire - East",
-    "Yorkshire - North",
-    "Yorkshire - South",
-    "Yorkshire - West",
+    "Berkshire", "Bristol & Bath", "Buckinghamshire", "Cambridgeshire",
+    "Cumbria - North", "Cumbria - South", "Devon", "Dorset", "Essex",
+    "Gloucestershire", "Greater Manchester - Manchester & Salford",
+    "Greater Manchester - South", "Hampshire", "Hertfordshire", "Kent",
+    "Lancashire - North", "London", "Norfolk", "North East", "Northamptonshire",
+    "Nottinghamshire", "Oxfordshire", "Somerset", "Staffordshire", "Surrey",
+    "Sussex", "West Midlands - Birmingham & Solihull",
+    "West Midlands - Coventry & Warwickshire", "Wiltshire", "Yorkshire - East",
+    "Yorkshire - North", "Yorkshire - South", "Yorkshire - West",
 ]
 
-# Broad discovery doorway. This intentionally includes many things that the final
-# family will reject: managers, field sales, specialist sales, account roles, etc.
 BROAD_TITLE_TERMS = [
-    "sales",
-    "business development",
-    "account manager",
-    "account executive",
-    "customer success",
-    "telesales",
-    "telemarketing",
-    "lead generator",
-    "appointment setter",
-    "retention",
-    "renewal",
+    "sales", "business development", "account manager", "account executive",
+    "customer success", "telesales", "telemarketing", "lead generator",
+    "appointment setter", "retention", "renewal",
 ]
 
 DIRECT_TITLE_TERMS = [
@@ -107,17 +64,22 @@ CUSTOMER_TITLE_TERMS = [
 
 ACCOUNT_TITLE_TERMS = ["account manager", "account executive"]
 
-STRONG_SALES_EVIDENCE = [
-    "commission", "uncapped commission", "sales target", "sales targets", "sales kpi", "sales kpis",
-    "sales opportunity", "sales opportunities", "upsell", "up-sell", "cross-sell", "cross sell",
-    "convert enquiries", "convert inquiries", "convert leads", "convert prospects", "convert interest",
-    "conversion target", "conversion targets", "warm leads", "warm enquiries", "warm inquiries",
-    "inbound sales", "outbound sales", "outbound calls", "outbound calling", "telesales",
-    "telephone sales", "cold calling", "new business", "book appointments", "appointment setting",
-    "lead generation", "sales pipeline", "close sales", "closing sales", "close deals", "closing deals",
-    "booked and paid", "retention target", "renewal target", "renewals", "retain customers",
-    "increase membership", "sales experience", "sales role", "selling", "revenue growth",
-    "account growth", "grow accounts", "business growth",
+CUSTOMER_SALES_EVIDENCE = [
+    "commission", "uncapped commission", "sales target", "sales targets",
+    "sales opportunity", "sales opportunities", "upsell", "up-sell",
+    "cross-sell", "cross sell", "convert enquiries", "convert inquiries",
+    "convert leads", "convert prospects", "convert interest", "conversion target",
+    "conversion targets", "warm leads", "warm enquiries", "warm inquiries",
+    "inbound sales", "outbound sales", "telesales", "telephone sales",
+    "cold calling", "new business", "lead generation", "sales pipeline",
+    "close sales", "closing sales", "close deals", "closing deals",
+    "booked and paid", "retention target", "renewal target", "renewals",
+    "retain customers", "increase membership", "sales experience", "sales role",
+]
+
+ACCOUNT_SALES_EVIDENCE = CUSTOMER_SALES_EVIDENCE + [
+    "sales kpi", "sales kpis", "revenue growth", "grow revenue", "account growth",
+    "grow accounts", "business growth", "selling",
 ]
 
 OFFICE_DIGITAL_EVIDENCE = [
@@ -207,8 +169,7 @@ def resolve_region(area: Any, location: Any, area_lookup: dict[str, str], fallba
 
 
 def broad_possible(title: str) -> bool:
-    t = norm_key(title)
-    return bool(contains_any(t, BROAD_TITLE_TERMS))
+    return bool(contains_any(norm_key(title), BROAD_TITLE_TERMS))
 
 
 def scope_decision(title: str, description: str) -> tuple[bool, str, str]:
@@ -224,12 +185,11 @@ def scope_decision(title: str, description: str) -> tuple[bool, str, str]:
     if desc_ex:
         return False, "OUT_FIELD_CAMPAIGN", "field/event/self-employed signal: " + ", ".join(desc_ex[:3])
 
-    account = contains_any(t, ACCOUNT_TITLE_TERMS)
-    if account:
+    if contains_any(t, ACCOUNT_TITLE_TERMS):
         account_ex = contains_any(combined, ACCOUNT_EXCLUDES)
         if account_ex:
             return False, "OUT_ACCOUNT_SPECIALIST", "account role specialist/field signal: " + ", ".join(account_ex[:3])
-        sales = contains_any(combined, STRONG_SALES_EVIDENCE)
+        sales = contains_any(combined, ACCOUNT_SALES_EVIDENCE)
         office = contains_any(combined, OFFICE_DIGITAL_EVIDENCE)
         if sales and office:
             return True, "IN_ACCOUNT_SALES", "account role with sales + office/digital evidence"
@@ -239,9 +199,8 @@ def scope_decision(title: str, description: str) -> tuple[bool, str, str]:
     if direct:
         return True, "IN_DIRECT", "sales-led title: " + ", ".join(direct[:3])
 
-    customer = contains_any(t, CUSTOMER_TITLE_TERMS)
-    if customer:
-        sales = contains_any(combined, STRONG_SALES_EVIDENCE)
+    if contains_any(t, CUSTOMER_TITLE_TERMS):
+        sales = contains_any(combined, CUSTOMER_SALES_EVIDENCE)
         if sales:
             return True, "IN_CUSTOMER_SALES", "customer/service title with sales evidence: " + ", ".join(sales[:3])
         return False, "OUT_PURE_SERVICE", "customer/service title without strong sales/conversion evidence"
@@ -287,12 +246,16 @@ def main() -> None:
 
     for _, row in df.iterrows():
         title = norm(row.get(COL["title"]))
-        if not title or not broad_possible(title):
+        if not title:
             continue
         description = norm(row.get(COL["description"]))
+        broad = broad_possible(title)
+        in_scope, decision, reason = scope_decision(title, description)
+        if not broad and not in_scope:
+            continue
+
         employer = norm(row.get(COL["advertiser_name"])) or "Unknown company"
         region = resolve_region(row.get(COL["area"]), row.get(COL["location"]), area_lookup, fallback_lookup)
-        in_scope, decision, reason = scope_decision(title, description)
         key = campaign_key(region, employer, description, title) if in_scope else ""
         detail_rows.append({
             "job_id": norm(row.get(COL["job_id"])),
@@ -302,7 +265,7 @@ def main() -> None:
             "location": norm(row.get(COL["location"])),
             "region": region,
             "in_ontap_33": region in ONTAP_33,
-            "broad_possible": True,
+            "broad_possible": broad,
             "in_scope": in_scope,
             "decision": decision,
             "decision_reason": reason,
@@ -312,10 +275,8 @@ def main() -> None:
 
     detail = pd.DataFrame(detail_rows)
     if detail.empty:
-        raise SystemExit("STOP: broad Customer Sales discovery matched zero jobs")
+        raise SystemExit("STOP: Customer Sales reconciliation matched zero rows")
 
-    # Dedupe only within a region. If one genuine national campaign appears in two
-    # different regions it may still legitimately contribute one listing to each.
     detail["campaign_representative"] = False
     scoped = detail[detail["in_scope"]].copy()
     representative_indices = scoped.groupby("campaign_key", sort=False).head(1).index
@@ -325,16 +286,19 @@ def main() -> None:
     regions = sorted(set(ONTAP_33) | set(detail["region"].astype(str)))
     for region in regions:
         g = detail[detail["region"] == region]
+        broad_g = g[g["broad_possible"]]
         in_scope = g[g["in_scope"]]
         unique = in_scope[in_scope["campaign_representative"]]
+        crossover = in_scope[~in_scope["broad_possible"]]
         employer_counts = unique["employer"].value_counts()
         top_employer = str(employer_counts.index[0]) if len(employer_counts) else ""
         top_count = int(employer_counts.iloc[0]) if len(employer_counts) else 0
         region_rows.append({
             "region": region,
             "in_ontap_33": region in ONTAP_33,
-            "raw_broad_possibles": len(g),
+            "raw_broad_possibles": len(broad_g),
             "in_scope_rows": len(in_scope),
+            "crossover_in_scope_rows": len(crossover),
             "campaign_deduped_jobs": len(unique),
             "duplicate_campaign_rows_removed": len(in_scope) - len(unique),
             "unique_employers": int(unique["employer"].nunique()),
@@ -343,25 +307,30 @@ def main() -> None:
         })
 
     region_df = pd.DataFrame(region_rows)
-
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     detail.to_csv(DETAIL_CSV_PATH, index=False)
     region_df.to_csv(REGION_CSV_PATH, index=False)
 
     total_feed = len(df)
-    broad_total = len(detail)
+    broad_total = int(detail["broad_possible"].sum())
     scoped_total = int(detail["in_scope"].sum())
+    scoped_from_broad = int((detail["in_scope"] & detail["broad_possible"]).sum())
+    crossover_total = int((detail["in_scope"] & ~detail["broad_possible"]).sum())
     unique_total = int(detail["campaign_representative"].sum())
 
     d33 = detail[detail["in_ontap_33"]]
-    broad_33 = len(d33)
+    broad_33 = int(d33["broad_possible"].sum())
     scoped_33 = int(d33["in_scope"].sum())
+    scoped_from_broad_33 = int((d33["in_scope"] & d33["broad_possible"]).sum())
+    crossover_33 = int((d33["in_scope"] & ~d33["broad_possible"]).sum())
     unique_33 = int(d33["campaign_representative"].sum())
 
-    outside = detail[(~detail["in_ontap_33"]) & (detail["region"] != "Other / Unknown")]
-    unknown = detail[detail["region"] == "Other / Unknown"]
-
-    exclusion_counts = Counter(detail.loc[~detail["in_scope"], "decision"].astype(str))
+    broad_rows = detail[detail["broad_possible"]]
+    outside = broad_rows[(~broad_rows["in_ontap_33"]) & (broad_rows["region"] != "Other / Unknown")]
+    unknown = broad_rows[broad_rows["region"] == "Other / Unknown"]
+    exclusion_counts = Counter(
+        detail.loc[detail["broad_possible"] & ~detail["in_scope"], "decision"].astype(str)
+    )
 
     campaigns = (
         detail[detail["in_scope"]]
@@ -387,7 +356,9 @@ def main() -> None:
     lines.append("|---|---:|---:|")
     lines.append(f"| Current JobG8 feed | {total_feed:,} | — |")
     lines.append(f"| Broad Sales / Business Development possibles | {broad_total:,} | {broad_33:,} |")
-    lines.append(f"| In-scope Customer Sales rows | {scoped_total:,} ({pct(scoped_total, broad_total)} of broad) | {scoped_33:,} ({pct(scoped_33, broad_33)} of broad) |")
+    lines.append(f"| Of those broad possibles: in Customer Sales scope | {scoped_from_broad:,} ({pct(scoped_from_broad, broad_total)}) | {scoped_from_broad_33:,} ({pct(scoped_from_broad_33, broad_33)}) |")
+    lines.append(f"| Customer/service crossover additions outside broad Sales/BD titles | +{crossover_total:,} | +{crossover_33:,} |")
+    lines.append(f"| Total in-scope Customer Sales rows | {scoped_total:,} | {scoped_33:,} |")
     lines.append(f"| Campaign/dedupe-adjusted regional jobs | {unique_total:,} | {unique_33:,} |")
     lines.append("")
     lines.append(f"Broad possibles outside the current Ontap 33 but mapped to another region: **{len(outside):,}**. Broad possibles with unknown geography: **{len(unknown):,}**.")
@@ -396,15 +367,16 @@ def main() -> None:
     lines.append("")
     lines.append("## Ontap 33 — regional reconciliation")
     lines.append("")
-    lines.append("| Region | Broad possibles | In scope | After campaign/dedupe | Employers | Top employer |")
-    lines.append("|---|---:|---:|---:|---:|---|")
+    lines.append("| Region | Broad possibles | In scope | Crossover adds | After campaign/dedupe | Employers | Top employer |")
+    lines.append("|---|---:|---:|---:|---:|---:|---|")
     for _, row in r33.iterrows():
         top = str(row["top_employer"])
         if top:
             top = f"{top} ({int(row['top_employer_jobs'])})"
         lines.append(
             f"| {row['region']} | {int(row['raw_broad_possibles'])} | {int(row['in_scope_rows'])} | "
-            f"{int(row['campaign_deduped_jobs'])} | {int(row['unique_employers'])} | {top} |"
+            f"{int(row['crossover_in_scope_rows'])} | {int(row['campaign_deduped_jobs'])} | "
+            f"{int(row['unique_employers'])} | {top} |"
         )
 
     lines.append("")
@@ -436,13 +408,15 @@ def main() -> None:
     lines.append("")
     lines.append("## Interpretation")
     lines.append("")
-    lines.append("The broad headline should not be treated as publishable inventory. The decision point for a third Ontap family is the campaign/dedupe-adjusted regional column, plus employer breadth and manual QA of the largest slices.")
+    lines.append("The broad headline is a discovery universe, not publishable inventory. The decision point for a third Ontap family is the campaign/dedupe-adjusted regional column, plus employer breadth and manual QA of the largest slices.")
 
     MD_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"Feed rows: {total_feed}")
     print(f"Broad possibles: {broad_total}")
-    print(f"In-scope rows: {scoped_total}")
+    print(f"Broad possibles in scope: {scoped_from_broad}")
+    print(f"Crossover additions: {crossover_total}")
+    print(f"Total in-scope rows: {scoped_total}")
     print(f"Campaign/dedupe-adjusted regional jobs: {unique_total}")
     print(f"Ontap 33 broad/in-scope/deduped: {broad_33}/{scoped_33}/{unique_33}")
     print(f"Wrote {MD_PATH}")
