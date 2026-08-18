@@ -8,3 +8,10 @@ Northern Ireland - East: 6 jobs / 2 employers
 Cheshire - Warrington & Halton: 47 jobs / 3 employers
 Cornwall: 25 jobs / 2 employers
 Yorkshire - South: 4 jobs / 4 employers
+cornwall.json: 25 -> 25 jobs (0 removed)
+hampshire.json: 8 -> 5 jobs (3 removed)
+manchester-salford.json: 4 -> 3 jobs (1 removed)
+northern-ireland-east.json: 6 -> 6 jobs (0 removed)
+south-yorkshire.json: 4 -> 4 jobs (0 removed)
+warrington-halton.json: 47 -> 46 jobs (1 removed)
+west-yorkshire.json: 4 -> 3 jobs (1 removed)

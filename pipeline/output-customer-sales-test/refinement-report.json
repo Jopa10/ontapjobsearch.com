@@ -1,0 +1,83 @@
+{
+  "cornwall.json": {
+    "before": 25,
+    "after": 25,
+    "removed": []
+  },
+  "hampshire.json": {
+    "before": 8,
+    "after": 5,
+    "removed": [
+      {
+        "job_id": "107763586",
+        "title": "Product Sales Executive",
+        "location": "Fareham",
+        "region": "Hampshire",
+        "reason": "specialist direct-sales title: product sales executive"
+      },
+      {
+        "job_id": "5fd59761-b015-48ef-84b9-b49b71995cff",
+        "title": "Sales Representative - Immediate Start",
+        "location": "Emsworth",
+        "region": "Hampshire",
+        "reason": "field/event/self-employed sales signal: event-based campaigns, face-to-face sales environments, travel to different campaign locations"
+      },
+      {
+        "job_id": "5d4f7b7b-c368-43ba-8c4f-c62e81267875",
+        "title": "Customer Service Officer",
+        "location": "Eastleigh",
+        "region": "Hampshire",
+        "reason": "customer/service role has no strong sales/conversion evidence"
+      }
+    ]
+  },
+  "manchester-salford.json": {
+    "before": 4,
+    "after": 3,
+    "removed": [
+      {
+        "job_id": "107813958",
+        "title": "Bournemouth- Sales Executive",
+        "location": "Not Specified",
+        "region": "Greater Manchester - Manchester & Salford",
+        "reason": "title location 'bournemouth' maps to Dorset, not Greater Manchester - Manchester & Salford"
+      }
+    ]
+  },
+  "northern-ireland-east.json": {
+    "before": 6,
+    "after": 6,
+    "removed": []
+  },
+  "south-yorkshire.json": {
+    "before": 4,
+    "after": 4,
+    "removed": []
+  },
+  "warrington-halton.json": {
+    "before": 47,
+    "after": 46,
+    "removed": [
+      {
+        "job_id": "22285235-0c3d-4da4-bafc-941a2bec2ab1",
+        "title": "Outbound Sales Representative",
+        "location": "Warrington",
+        "region": "Cheshire - Warrington & Halton",
+        "reason": "field/event/self-employed sales signal: self-employed"
+      }
+    ]
+  },
+  "west-yorkshire.json": {
+    "before": 4,
+    "after": 3,
+    "removed": [
+      {
+        "job_id": "4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64",
+        "title": "Customer Support Advisor",
+        "location": "Leeds",
+        "region": "Yorkshire - West",
+        "reason": "customer/service role has no strong sales/conversion evidence"
+      }
+    ]
+  }
+}
