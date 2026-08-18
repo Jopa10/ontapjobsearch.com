@@ -1,39 +1,38 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-08-17
-review_fingerprint: 9006adac320a913e072f715c646f26289f13e351fcc2a1066e45b8b84a557861
+review_date: 2026-08-18
+review_fingerprint: ae6cdf46ce6d205877f0c16ccd58b59074115d52afd1dacbcf4b635677b5d9c5
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
 Edit only the `action:` line in editable blocks:
 - `action: select` promotes a POSS vacancy for discussion.
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
-- Actions are same-day only and do not publish anything.
+- Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-08-17T11:37:57+01:00
+Run generated: 2026-08-18T08:20:34+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 417
-Approved NEJobs comparison rows: 5
+JobG8 comparison rows: 335
+Approved NEJobs comparison rows: 3
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 6
-- Detail pages fetched successfully: 6
+- Detail-page candidates: 5
+- Detail pages fetched successfully: 5
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 9
-- Tees Valley explicitly excluded: 1
+- Obvious hard passes not detail-fetched: 10
+- Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 0
-- Generic/derived geography rows requiring review: 2
-- Retained target candidates: 14
+- Generic/derived geography rows requiring review: 5
+- Retained target candidates: 15
 
 ## Outcomes
 - HC: 1
 - POSS: 8
-- HARD_PASS: 5
-- Final selected after same-day actions: 1
-- Final POSS awaiting decision: 8
-- Manually excluded: 0
-
+- HARD_PASS: 6
+- Final selected after remembered/manual actions: 4
+- Final POSS awaiting decision: 1
+- Manually excluded: 4
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -51,8 +50,6 @@ tracking_key: vonne-173321
 source_job_id: 173321
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173321
 ---
-
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -66,6 +63,18 @@ source: VONNE
 tracking_key: vonne-173334
 source_job_id: 173334
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
+---
+---
+action:
+POSS | North East | Hybrid | £ Per Annum | Business Development Manager
+employer: North East Young Dads and Lads
+closing_date: 06 September 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173336
+source_job_id: 173336
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173336
 ---
 ---
 action: exclude
@@ -90,18 +99,6 @@ source: VONNE
 tracking_key: vonne-173323
 source_job_id: 173323
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
----
----
-action: select
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,761 to 28,966 Pro Rata | Therapeutic Coordinator
-employer: Rape and Sexual Abuse Counselling Centre (Darlington and County Durham)
-closing_date: Monday, August 24, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
-source: VONNE
-tracking_key: vonne-173311
-source_job_id: 173311
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173311
 ---
 ---
 action: exclude
@@ -157,11 +154,12 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173331
 
 ## HARD_PASS
 
-- [Community Café Cook](https://www.vonne.org.uk/vonne-jobs-details?cid=173318) — out-of-scope VONNE occupation.
+- [DadVocate Programme Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173337) — out-of-scope VONNE occupation.
 - [Deputy Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173324) — out-of-scope VONNE occupation.
 - [Energy and Retrofit Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173328) — insufficient service-admin evidence.
+- [Head of Business Development and Fundraising](https://www.vonne.org.uk/vonne-jobs-details?cid=172957) — out-of-scope VONNE occupation.
 - [Positive Behaviour Support Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173327) — out-of-scope VONNE occupation.
-- [Project Worker (Days) - Houghton Le Spring](https://www.vonne.org.uk/vonne-jobs-details?cid=171328) — out-of-scope VONNE occupation.
+- [Senior Young Dads Worker - Sunderland](https://www.vonne.org.uk/vonne-jobs-details?cid=173338) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
