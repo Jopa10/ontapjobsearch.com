@@ -29,17 +29,27 @@ jobs:
       - name: Install dependencies
         run: pip install pandas openpyxl
 
-      - name: Run audit
-        run: python pipeline/scripts/audit_south_manchester_routing.py
+      - name: Run audit and capture diagnostics
+        shell: bash
+        run: |
+          mkdir -p pipeline/reports-audit
+          set +e
+          python pipeline/scripts/audit_south_manchester_routing.py > pipeline/reports-audit/south-manchester-routing-workflow.log 2>&1
+          status=$?
+          echo "exit_code=$status" >> pipeline/reports-audit/south-manchester-routing-workflow.log
+          cat pipeline/reports-audit/south-manchester-routing-workflow.log
+          exit 0
 
-      - name: Commit audit report
+      - name: Commit audit outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/reports-audit/south-manchester-routing-audit.csv pipeline/reports-audit/south-manchester-routing-audit.md
+          git add -f pipeline/reports-audit/south-manchester-routing-workflow.log
+          if [ -f pipeline/reports-audit/south-manchester-routing-audit.csv ]; then git add -f pipeline/reports-audit/south-manchester-routing-audit.csv; fi
+          if [ -f pipeline/reports-audit/south-manchester-routing-audit.md ]; then git add -f pipeline/reports-audit/south-manchester-routing-audit.md; fi
           if git diff --cached --quiet; then
-            echo "No audit report changes to commit"
+            echo "No audit output changes to commit"
           else
-            git commit -m "Add South Manchester routing audit"
+            git commit -m "Add South Manchester routing audit diagnostics"
             git push
           fi
