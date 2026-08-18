@@ -74,6 +74,14 @@ def install(compiler: Any) -> None:
             for index, row in df.iterrows():
                 title = compiler.norm_text(row.get(compiler.COL_TITLE))
                 title_key = compiler.norm_key(title)
+                matched_categories = [
+                    category
+                    for category, register in registers.items()
+                    if register.get(title_key) in compiler.SELECTED_CLASSIFICATIONS
+                ]
+                if not matched_categories:
+                    continue
+
                 area = compiler.norm_text(row.get(compiler.COL_AREA))
                 raw_location = compiler.norm_text(row.get(compiler.COL_LOCATION))
                 raw_postal_code = compiler.norm_text(row.get(COL_POSTAL_CODE))
@@ -109,12 +117,6 @@ def install(compiler: Any) -> None:
                 )
                 if not job_id:
                     job_id = f"{path.name}:{index + 2}"
-
-                matched_categories = [
-                    category
-                    for category, register in registers.items()
-                    if register.get(title_key) in compiler.SELECTED_CLASSIFICATIONS
-                ]
 
                 for category in matched_categories:
                     rows.append({
