@@ -66,11 +66,12 @@ jobs:
             --refinements pipeline/registers/pipeline_refinement_rules.csv \
             --output-dir pipeline/reports-discovery-audit
 
-      - name: Refine Other / Unclassified into added families
+      - name: Refine unresolved families using registers, titles and descriptions
         run: |
           set -euo pipefail
           python pipeline/scripts/jobg8_refine_other_families.py \
             --input-csv pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.csv \
+            --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
             --output-dir pipeline/reports-discovery-audit
           cat pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.md >> "$GITHUB_STEP_SUMMARY"
 
