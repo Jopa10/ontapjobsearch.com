@@ -24,6 +24,11 @@ jobs:
             exit 1
           fi
 
+      - name: Fetch main source-of-truth reports
+        run: |
+          set -euo pipefail
+          git fetch origin main:refs/remotes/origin/main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
