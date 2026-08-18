@@ -6,9 +6,6 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-# This repo contains pipeline/scripts/pandas.py as a compatibility shim. Remove
-# the script directory while importing so this audit gets the installed pandas
-# package rather than the local shim.
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path = [entry for entry in sys.path if Path(entry or ".").resolve() != SCRIPT_DIR]
 
@@ -17,7 +14,6 @@ import pandas as pd
 TITLE_COL = "/Job/Position"
 DESCRIPTION_COL = "/Job/Description"
 
-# Existing Ontap selected registers take priority over broad title heuristics.
 CATEGORY_FAMILY = {
     "support_worker": "Care / Support Work",
     "finance_accounts": "Professional Finance / Accountancy",
@@ -35,43 +31,48 @@ CATEGORY_PRECEDENCE = [
     "admin_service",
 ]
 
-# Second-pass title rules only apply where there is no effective selected Ontap
-# register and the first broad-family pass left the title unclassified.
+# Diagnostic rules only. Existing selected Ontap registers take priority.
+# These title rules are intentionally conservative: specific occupational terms
+# are classified; generic manager/director/consultant titles remain unresolved.
 OTHER_RULES = [
-    ("Legal / Conveyancing", r"\b(conveyancer|conveyancing)\b"),
-    ("Professional Finance / Accountancy", r"\b(bookkeeper|bookkeeping|fp&a|fp and a|financial planning and analysis)\b"),
-    ("Healthcare / Clinical", r"\b(optometrist|optician|optical assistant|dispensing optician|pharmacist|pharmacy|psychologist|podiatrist|audiologist|audiology|physiotherapy|physiotherapist|functional assessor)\b"),
-    ("IT / Data / Software", r"\b(ai consultant|artificial intelligence consultant|ethical hacker|penetration tester|pen tester)\b"),
+    ("Legal / Conveyancing", r"\b(conveyancer|conveyancing|employment counsel|court adviser|court advisor)\b"),
+    ("Professional Finance / Accountancy", r"\b(bookkeeper|bookkeeping|fp&a|fp and a|financial planning and analysis|financial planning analyst)\b"),
+    ("Healthcare / Clinical", r"\b(optometrist|optician|optical assistant|dispensing optician|pharmacist|pharmacy|psychologist|podiatrist|audiologist|audiology|physiotherapy|physiotherapist|functional assessor|psychiatrist)\b"),
+    ("Care / Support Work", r"\b(autism practitioner|family court adviser|family court advisor|senior practitioner)\b"),
+    ("IT / Data / Software", r"\b(ai consultant|artificial intelligence consultant|ethical hacker|penetration tester|pen tester|servicenow architect|technical architect|data consultant|product owner)\b"),
     ("Market Research / Field Interviewing", r"\b(market research|field interviewer|research interviewer|survey interviewer|field researcher)\b"),
-    ("Insurance / Claims", r"\b(insurance|claims?|underwriter|underwriting|loss adjuster|adjuster|broker|actuarial|actuary|reinsurance)\b"),
-    ("Compliance / Risk / Quality", r"\b(compliance manager|compliance officer|risk assessor|risk manager|quality manager|quality assurance manager|regulatory manager)\b"),
-    ("Property / Housing / Planning", r"\b(town planner|planning officer|resident liaison officer|housing solutions officer|income officer|scheme manager|housing manager)\b"),
-    ("Manufacturing / Production", r"\b(production|manufacturing|machine operator|machine operative|assembler|assembly|factory|plant operator|process operator|production operative|production operator)\b"),
+    ("Insurance / Claims", r"\b(insurance|claims?|underwriter|underwriting|loss adjuster|adjuster|broker|actuarial|actuary|reinsurance|commercial account handler)\b"),
+    ("Compliance / Risk / Quality", r"\b(compliance manager|compliance officer|risk assessor|risk manager|quality manager|quality assurance manager|regulatory manager|ai governance consultant|governance consultant)\b"),
+    ("Property / Housing / Planning", r"\b(town planner|planning officer|resident liaison officer|housing solutions officer|income officer|scheme manager|housing manager|rental agent|asset manager|director of planning|rtpi|housing support officer)\b"),
+    ("Retail / Store", r"\b(customer team member|service colleague|store leader|online manager)\b"),
+    ("Employment Support / Careers", r"\b(employment specialist|ips employment specialist|employment adviser|employment advisor|job coach)\b"),
+    ("Manufacturing / Production", r"\b(production|manufacturing|machine operator|machine operative|assembler|assembly|factory|plant operator|process operator|production operative|production operator|print finisher)\b"),
     ("Cleaning / Domestic / Facilities", r"\b(cleaner|cleaning|domestic assistant|domestic cleaner|caretaker|janitor|facilities assistant|facilities operative|hygiene operative)\b"),
-    ("Management / Team Leadership", r"\b(registered manager|deputy manager|assistant manager|service manager|team leader|client manager|centre manager|unit manager|department manager|supervisor|practice manager|business manager|home manager)\b"),
-    ("Admin / Customer Service", r"\b(executive assistant|executive pa|ea\b|credit controller|credit control|office support|business administrator|administrative assistant|document controller|service controller|hire controller|parts advisor)\b"),
-    ("Charity / Fundraising / Community", r"\b(fundraiser|fundraising|charity|community worker|community officer|engagement officer|outreach worker|outreach officer)\b"),
+    ("Management / Team Leadership", r"\b(registered manager|deputy manager|assistant manager|service manager|team leader|client manager|centre manager|unit manager|department manager|supervisor|practice manager|business manager|home manager|duty manager|lodge manager)\b"),
+    ("Admin / Customer Service", r"\b(executive assistant|executive pa|ea\b|office support|business administrator|administrative assistant|document controller|service controller|hire controller|parts advisor|customer success manager)\b"),
+    ("Marketing / Digital / Creative", r"\b(paid media specialist|paid media executive|bid writer)\b"),
+    ("Charity / Fundraising / Community", r"\b(fundraiser|fundraising|charity|community worker|community officer|engagement officer|outreach worker|outreach officer|trustee)\b"),
     ("Security / Emergency Services", r"\b(security|door supervisor|prison officer|custody|police|firefighter|fire fighter|probation officer)\b"),
     ("Agriculture / Environment", r"\b(agriculture|agricultural|farm worker|farm operative|farmer|horticulture|horticultural|gardener|grounds maintenance|landscape|landscaping|environmental officer|ecologist)\b"),
 ]
 COMPILED = [(name, re.compile(pattern, re.IGNORECASE)) for name, pattern in OTHER_RULES]
 
-# Conservative description signals. A title is only moved on description when
-# a clear majority of its current-feed occurrences point to the same family.
 DESCRIPTION_RULES = {
     "Retail / Store": ["shop floor", "retail store", "store team", "stock shelves", "replenish stock", "checkout", "till", "supermarket", "convenience store"],
-    "Care / Support Work": ["personal care", "care home", "residential care", "learning disabilities", "autism", "support people", "supporting people", "children's home", "children’s home"],
+    "Care / Support Work": ["personal care", "care home", "residential care", "learning disabilities", "autism", "support people", "supporting people", "children's home", "children’s home", "social work"],
     "Legal / Conveyancing": ["conveyancing", "solicitor", "law firm", "legal advice", "court proceedings", "legal counsel"],
     "Professional Finance / Accountancy": ["bookkeeping", "management accounts", "purchase ledger", "sales ledger", "vat returns", "payroll", "financial planning and analysis", "insolvency"],
     "IT / Data / Software": ["software", "servicenow", "cyber", "penetration testing", "artificial intelligence", "machine learning", "data platform", "product owner", "cloud platform"],
     "Engineering / Technical": ["engineering", "technical design", "mechanical", "electrical", "water design", "maintenance engineering"],
     "Construction / Trades / Property": ["construction site", "principal designer", "cdm", "building project", "contractor management", "quantity surveying"],
-    "Property / Housing / Planning": ["housing association", "social housing", "town planning", "planning application", "resident liaison", "tenancy", "rent account"],
-    "HR / Recruitment": ["recruitment", "talent acquisition", "employee relations", "human resources", "employability", "employment support", "job coach", "ips employment"],
-    "Marketing / Digital / Creative": ["paid media", "ppc", "seo", "digital marketing", "social media campaign", "media buying"],
+    "Property / Housing / Planning": ["housing association", "social housing", "town planning", "planning application", "resident liaison", "tenancy", "rent account", "property lettings"],
+    "HR / Recruitment": ["recruitment", "talent acquisition", "employee relations", "human resources"],
+    "Employment Support / Careers": ["employability", "employment support", "job coach", "ips employment", "support people into work", "return to work"],
+    "Marketing / Digital / Creative": ["paid media", "ppc", "seo", "digital marketing", "social media campaign", "media buying", "bid writing", "tender response"],
     "Insurance / Claims": ["insurance policy", "claims handling", "claims handler", "insurer", "underwriting", "policyholder", "commercial insurance"],
     "Admin / Customer Service": ["customer enquiries", "customer queries", "administrative support", "office administration", "booking appointments", "update records", "data entry", "telephone and email"],
     "Compliance / Risk / Quality": ["regulatory compliance", "risk management", "quality assurance", "governance framework", "compliance monitoring"],
+    "Healthcare / Clinical": ["clinical care", "mental health", "psychiatry", "psychology", "patient assessment", "nhs trust"],
 }
 
 
@@ -173,10 +174,7 @@ def main() -> int:
         raise SystemExit(f"Expected discovery audit CSV columns are missing: {sorted(missing)}")
 
     df[count_col] = pd.to_numeric(df[count_col], errors="coerce").fillna(0).astype(int)
-    refined = [
-        title_refine(str(row["title"]), str(row["primary_broad_family"]), row)
-        for _, row in df.iterrows()
-    ]
+    refined = [title_refine(str(row["title"]), str(row["primary_broad_family"]), row) for _, row in df.iterrows()]
     df["refined_broad_family"] = [family for family, _ in refined]
     df["reconciliation_basis"] = [basis for _, basis in refined]
 
@@ -188,8 +186,6 @@ def main() -> int:
             continue
         family, vote_count = title_votes.most_common(1)[0]
         occurrences = int(row[count_col])
-        # Require at least 60% of all current-feed occurrences to independently
-        # point to the same family; for singleton titles one clear description is enough.
         required_votes = 1 if occurrences == 1 else max(2, int((occurrences * 0.6) + 0.999))
         second = title_votes.most_common(2)
         tied = len(second) > 1 and second[1][1] == vote_count
@@ -201,7 +197,6 @@ def main() -> int:
     family_counts: Counter[str] = Counter()
     family_titles: defaultdict[str, Counter[str]] = defaultdict(Counter)
     basis_counts: Counter[str] = Counter()
-
     for _, row in df.iterrows():
         n = int(row[count_col])
         family = str(row["refined_broad_family"])
@@ -231,7 +226,7 @@ def main() -> int:
         f"Jobs resolved by description-majority pass: **{basis_counts.get('description_majority', 0):,}**",
         f"Remaining Other / Unclassified after register-first + title + description passes: **{remaining_other:,}**",
         "",
-        "Every job is counted once and only once. Existing selected Ontap registers take priority; then title rules; descriptions are used only for unresolved titles with a clear majority signal. Diagnostic only: no publishing logic is changed.",
+        "Every job is counted once and only once. Existing selected Ontap registers take priority; then conservative title rules; descriptions are used only for unresolved titles with a clear majority signal. Diagnostic only: no publishing logic is changed.",
         "",
         "## Refined family totals",
         "",
@@ -241,24 +236,15 @@ def main() -> int:
     for family, count in family_counts.most_common():
         share = count / total * 100 if total else 0
         lines.append(f"| {family} | {count:,} | {share:.1f}% |")
-    lines += [
-        f"| **TOTAL** | **{total:,}** | **100.0%** |",
-        "",
-        "## Reconciliation basis",
-        "",
-        "| Basis | Jobs |",
-        "|---|---:|",
-    ]
+    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Reconciliation basis", "", "| Basis | Jobs |", "|---|---:|"]
     for basis, count in basis_counts.most_common():
         lines.append(f"| {basis} | {count:,} |")
-
     lines += ["", "## Largest titles still genuinely unclassified", "", "| Count | Title |", "|---:|---|"]
-    for title, count in family_titles["Other / Unclassified"].most_common(50):
-        safe_title = title.replace("|", "\\|")
-        lines.append(f"| {count} | {safe_title} |")
+    for title, count in family_titles["Other / Unclassified"].most_common(75):
+        lines.append(f"| {count} | {title.replace('|', '\\|')} |")
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print("\n".join(lines[:45]))
+    print("\n".join(lines[:50]))
     return 0
 
 
