@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-18T11:56:51+00:00
+Generated: 2026-08-18T12:13:36+00:00
 
-> LIVE counts reconcile directly to `pipeline/reports-daily/live-job-source-count-2026-08-18.csv` on `main`. LIVE status comes from the region/category slice register. `CHECK` means the register says LIVE but the source-of-truth report has no jobs for that slice. NOT LIVE counts come from current candidate/output files where available. `—` means zero or unavailable.
+> LIVE counts reconcile directly to `pipeline/reports-daily/live-job-source-count-2026-08-18.csv` on `main`. LIVE status comes from the region/category slice register. NOT LIVE Service Admin and Support Worker counts are current SELECTED jobs from the two daily decision reports on `main`; Sales Advisor remains test-branch candidate output. A numeric `0` is a confirmed zero.
 
 ## LIVE
 
@@ -46,38 +46,38 @@ Generated: 2026-08-18T11:56:51+00:00
 
 | Region | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Berkshire |  | — | — |
-| Bristol & Bath |  | — | — |
-| Buckinghamshire | 5 | — | — |
-| Cambridgeshire |  | — | — |
-| Cumbria - North | — | — | — |
-| Cumbria - South | — |  | — |
-| Devon |  | — | — |
-| Dorset |  | — | — |
-| Essex |  | — | — |
-| Gloucestershire |  | — | — |
-| Greater Manchester - Manchester & Salford |  | — | 5 |
-| Greater Manchester - South | — | — | — |
+| Berkshire |  | 0 | 0 |
+| Bristol & Bath |  | 0 | 0 |
+| Buckinghamshire | 0 | 0 | 0 |
+| Cambridgeshire |  | 0 | 0 |
+| Cumbria - North | 0 | 0 | 0 |
+| Cumbria - South | 0 |  | 0 |
+| Devon |  | 0 | 0 |
+| Dorset |  | 0 | 0 |
+| Essex |  | 0 | 0 |
+| Gloucestershire |  | 0 | 0 |
+| Greater Manchester - Manchester & Salford |  | 0 | 5 |
+| Greater Manchester - South | 0 | 0 | 0 |
 | Hampshire |  |  | 5 |
-| Hertfordshire | — | — | — |
-| Kent |  | — | — |
-| Lancashire - North | — | — | — |
-| London |  |  | — |
-| Norfolk |  | — | — |
-| North East |  |  | — |
-| Northamptonshire |  | — | — |
-| Nottinghamshire |  | — | — |
-| Oxfordshire |  | — | — |
-| Somerset | — | — | — |
-| Staffordshire |  | — | — |
-| Surrey |  |  | — |
-| Sussex |  |  | — |
-| West Midlands - Birmingham & Solihull | — | — | — |
-| West Midlands - Coventry & Warwickshire |  | — | — |
-| Wiltshire |  |  | — |
-| Yorkshire - East | — | — | — |
-| Yorkshire - North |  | — | — |
-| Yorkshire - South |  |  | — |
+| Hertfordshire | 0 | 0 | 0 |
+| Kent |  | 0 | 0 |
+| Lancashire - North | 0 | 0 | 0 |
+| London |  |  | 0 |
+| Norfolk |  | 0 | 0 |
+| North East |  |  | 0 |
+| Northamptonshire |  | 0 | 0 |
+| Nottinghamshire |  | 0 | 0 |
+| Oxfordshire |  | 0 | 0 |
+| Somerset | 0 | 0 | 0 |
+| Staffordshire |  | 0 | 0 |
+| Surrey |  |  | 0 |
+| Sussex |  |  | 0 |
+| West Midlands - Birmingham & Solihull | 0 | 0 | 0 |
+| West Midlands - Coventry & Warwickshire |  | 0 | 0 |
+| Wiltshire |  |  | 0 |
+| Yorkshire - East | 0 | 0 | 0 |
+| Yorkshire - North |  | 0 | 0 |
+| Yorkshire - South |  |  | 0 |
 | Yorkshire - West |  |  | 3 |
 
 ## HEADLINE
