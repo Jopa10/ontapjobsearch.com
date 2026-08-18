@@ -11,22 +11,23 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   dry-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Probe Additional Clinical Services and classify support-worker titles
+      - name: Probe Additional Clinical Services and classify support-worker jobs
         env:
           PYTHONPATH: pipeline
         run: |
           python - <<'PY'
+          import html
           import json
           import re
           import time
@@ -34,61 +35,129 @@ jobs:
           import urllib.request
           import xml.etree.ElementTree as ET
           from collections import Counter
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from html.parser import HTMLParser
+          from pathlib import Path
           from external_sources.nhs_support_worker_discovery import classify_rows
+          from external_sources.nhs_switchability import is_support_worker_title
 
           base = 'https://www.jobs.nhs.uk/api/v1/search_xml'
           staff_group = 'ADDITIONAL_CLINICAL_SERVICES'
-          headers = {'User-Agent': 'Ontap NHS Support Worker review/1.0 (+https://www.ontapjobsearch.com/contact)', 'Accept': 'application/xml,text/xml'}
+          headers = {
+              'User-Agent': 'Ontap NHS Support Worker review/1.0 (+https://www.ontapjobsearch.com/contact)',
+              'Accept': 'application/xml,text/xml,text/html',
+          }
 
-          def text(node, tag):
+          class TextExtractor(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.parts = []
+              def handle_data(self, data):
+                  value = ' '.join(html.unescape(data).split())
+                  if value:
+                      self.parts.append(value)
+              def text(self):
+                  return ' '.join(self.parts)
+
+          def xml_text(node, tag):
               child = node.find(tag)
               return ' '.join((child.text if child is not None and child.text else '').split())
 
-          def fetch(page):
-              url = base + '?' + urllib.parse.urlencode({'staffGroup': staff_group, 'page': page, 'limit': 100, 'sort': 'publicationDateDesc'})
-              req = urllib.request.Request(url, headers=headers)
+          def fetch_url(url, accept='application/xml,text/xml'):
+              req = urllib.request.Request(url, headers={**headers, 'Accept': accept})
               with urllib.request.urlopen(req, timeout=30) as response:
                   return response.read()
 
-          first = ET.fromstring(fetch(1))
-          total_pages = int(text(first, './/totalPages') or '1')
-          total_results = int(text(first, './/totalResults') or '0')
+          def fetch_page(page):
+              url = base + '?' + urllib.parse.urlencode({
+                  'staffGroup': staff_group,
+                  'page': page,
+                  'limit': 100,
+                  'sort': 'publicationDateDesc',
+              })
+              return fetch_url(url)
+
+          first = ET.fromstring(fetch_page(1))
+          total_pages = int(xml_text(first, './/totalPages') or '1')
+          total_results = int(xml_text(first, './/totalResults') or '0')
           if total_results <= 0:
-              raise SystemExit(f'STOP: staffGroup={staff_group} returned no results; do not treat as a valid production parameter')
+              raise SystemExit(
+                  f'STOP: staffGroup={staff_group} returned no results; '
+                  'do not treat as a valid production parameter'
+              )
 
           rows = []
           seen = set()
           for page in range(1, total_pages + 1):
-              root = first if page == 1 else ET.fromstring(fetch(page))
+              root = first if page == 1 else ET.fromstring(fetch_page(page))
               for node in root.findall('.//vacancyDetails'):
-                  source_id = text(node, 'id')
+                  source_id = xml_text(node, 'id')
                   if not source_id or source_id in seen:
                       continue
                   seen.add(source_id)
-                  locations = ', '.join(' '.join((x.text or '').split()) for x in node.findall('locations/location') if (x.text or '').strip())
-                  rows.append({
+                  locations = ', '.join(
+                      ' '.join((x.text or '').split())
+                      for x in node.findall('locations/location')
+                      if (x.text or '').strip()
+                  )
+                  row = {
                       'source_job_id': source_id,
-                      'title': text(node, 'title'),
-                      'employer': text(node, 'employer'),
+                      'title': xml_text(node, 'title'),
+                      'employer': xml_text(node, 'employer'),
                       'locations': locations,
-                      'salary_text': text(node, 'salary'),
-                      'closing_date': text(node, 'closeDate'),
-                      'source_url': text(node, 'url'),
-                  })
+                      'salary_text': xml_text(node, 'salary'),
+                      'closing_date': xml_text(node, 'closeDate'),
+                      'source_url': xml_text(node, 'url'),
+                  }
+                  if is_support_worker_title(row['title']):
+                      rows.append(row)
               if page < total_pages:
                   time.sleep(0.15)
 
-          classified = classify_rows(rows)
+          def enrich(row):
+              url = row.get('source_url', '')
+              if not url:
+                  return row
+              try:
+                  raw = fetch_url(url, 'text/html').decode('utf-8', 'ignore')
+                  parser = TextExtractor()
+                  parser.feed(raw)
+                  row = dict(row)
+                  row['description'] = parser.text()
+              except Exception as exc:
+                  row = dict(row)
+                  row['detail_fetch_error'] = type(exc).__name__
+              return row
+
+          enriched = []
+          with ThreadPoolExecutor(max_workers=6) as pool:
+              futures = [pool.submit(enrich, row) for row in rows]
+              for future in as_completed(futures):
+                  enriched.append(future.result())
+          enriched.sort(key=lambda row: row['source_job_id'])
+
+          classified = classify_rows(enriched)
+          by_id = {row['source_job_id']: row for row in enriched}
           buckets = Counter(row.switchability for row in classified)
+          decisions = Counter(row.final_decision for row in classified)
           titles = Counter(row.title for row in classified)
+          detail_failures = sum(bool(by_id.get(row.source_job_id, {}).get('detail_fetch_error')) for row in classified)
+
           report = {
               'staff_group': staff_group,
               'api_total_results': total_results,
-              'parsed_rows': len(rows),
               'support_worker_candidates': len(classified),
-              'buckets_listing_text_only': dict(sorted(buckets.items())),
-              'top_titles': titles.most_common(40),
-              'sample_candidates': [
+              'detail_fetch_failures': detail_failures,
+              'switchability_buckets': {
+                  label: buckets.get(label, 0)
+                  for label in (
+                      'OPEN_SWITCH', 'BRIDGEABLE', 'HEALTHCARE_EXPERIENCED',
+                      'NHS_EXPERIENCED', 'HARD_PASS'
+                  )
+              },
+              'final_decisions': dict(sorted(decisions.items())),
+              'top_titles': titles.most_common(50),
+              'candidates': [
                   {
                       'id': row.source_job_id,
                       'title': row.title,
@@ -99,10 +168,38 @@ jobs:
                       'reason': row.classification_reason,
                       'url': row.source_url,
                   }
-                  for row in classified[:80]
+                  for row in classified
               ],
           }
-          print('NHS_SUPPORT_WORKER_DRY_RUN_START')
+
+          output = Path('pipeline/reports/nhs-support-worker-dry-run.json')
+          output.parent.mkdir(parents=True, exist_ok=True)
+          output.write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          summary = Path('pipeline/reports/nhs-support-worker-dry-run.md')
+          summary.write_text(
+              '# NHS Support Worker dry run\n\n'
+              f"- NHS Additional Clinical Services vacancies reported: {total_results}\n"
+              f"- Ontap Support Worker title candidates: {len(classified)}\n"
+              f"- OPEN_SWITCH: {buckets.get('OPEN_SWITCH', 0)}\n"
+              f"- BRIDGEABLE: {buckets.get('BRIDGEABLE', 0)}\n"
+              f"- HEALTHCARE_EXPERIENCED: {buckets.get('HEALTHCARE_EXPERIENCED', 0)}\n"
+              f"- NHS_EXPERIENCED: {buckets.get('NHS_EXPERIENCED', 0)}\n"
+              f"- HARD_PASS: {buckets.get('HARD_PASS', 0)}\n"
+              f"- Detail fetch failures: {detail_failures}\n\n"
+              'Review-only. No live Ontap output is changed.\n',
+              encoding='utf-8',
+          )
           print(json.dumps(report, indent=2, ensure_ascii=False))
-          print('NHS_SUPPORT_WORKER_DRY_RUN_END')
           PY
+      - name: Commit dry-run evidence to branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pipeline/reports/nhs-support-worker-dry-run.json pipeline/reports/nhs-support-worker-dry-run.md
+          if git diff --cached --quiet; then
+            echo 'No dry-run changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Record NHS support worker dry-run evidence'
+          git push
