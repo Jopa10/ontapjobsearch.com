@@ -1,25 +1,5 @@
-Customer Sales test run: 2026-08-18T13:53:41Z
+Customer Sales test run: 2026-08-18T13:56:50Z
 OK: JobG8 feed secret available
-OK: downloaded current JobG8 feed (7507078 bytes)
-OK: normalised JobG8 feed
-OK: converted current JobG8 feed
-OK: refreshed geo lookup from main
-OK: Customer Sales test pipeline completed
-OK: Customer Sales QA refinement completed
-Download is a ZIP archive
-Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
-Columns: 30
-Hampshire: 8 jobs / 8 employers
-Greater Manchester - Manchester & Salford: 4 jobs / 4 employers
-Yorkshire - West: 4 jobs / 4 employers
-Northern Ireland - East: 6 jobs / 2 employers
-Cheshire - Warrington & Halton: 47 jobs / 3 employers
-Cornwall: 25 jobs / 2 employers
-Yorkshire - South: 4 jobs / 4 employers
-cornwall.json: 25 -> 25 jobs (0 removed)
-hampshire.json: 8 -> 5 jobs (3 removed)
-manchester-salford.json: 4 -> 3 jobs (1 removed)
-northern-ireland-east.json: 6 -> 6 jobs (0 removed)
-south-yorkshire.json: 4 -> 4 jobs (0 removed)
-warrington-halton.json: 47 -> 46 jobs (1 removed)
-west-yorkshire.json: 4 -> 3 jobs (1 removed)
+OK: downloaded current JobG8 feed (27 bytes)
+FAILED: normalise downloaded JobG8 feed
+Download is neither ZIP nor plausible JobG8 XML; size=27; first16=446f776e6c6f616420526563656e746c
