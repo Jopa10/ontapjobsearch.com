@@ -57,11 +57,11 @@ jobs:
             --expected-max 20000
           test -s pipeline/input/jobg8.xlsx
 
-      - name: Build Customer Sales test slices
+      - name: Build Customer Sales benchmark slices
         working-directory: pipeline
         run: python -m scripts.customer_sales_test_pipeline
 
-      - name: Show test counts
+      - name: Show benchmark counts and employer diversity
         run: |
           python - <<'PY'
           import json
@@ -69,17 +69,20 @@ jobs:
           slice_files = [
               Path('pipeline/output-customer-sales-test/hampshire.json'),
               Path('pipeline/output-customer-sales-test/manchester-salford.json'),
+              Path('pipeline/output-customer-sales-test/west-yorkshire.json'),
               Path('pipeline/output-customer-sales-test/northern-ireland-east.json'),
               Path('pipeline/output-customer-sales-test/warrington-halton.json'),
-              Path('pipeline/output-customer-sales-test/west-yorkshire.json'),
+              Path('pipeline/output-customer-sales-test/cornwall.json'),
+              Path('pipeline/output-customer-sales-test/south-yorkshire.json'),
           ]
           total = 0
           for p in slice_files:
               rows = json.loads(p.read_text(encoding='utf-8'))
+              employers = {str(r.get('advertiser_name', '')).strip().lower() for r in rows if str(r.get('advertiser_name', '')).strip()}
               total += len(rows)
-              print(f'{p.name}: {len(rows)}')
+              print(f'{p.name}: {len(rows)} jobs / {len(employers)} employers')
           if total == 0:
-              raise SystemExit('STOP: broad Customer Sales test returned zero candidates across all five slices')
+              raise SystemExit('STOP: Customer Sales benchmark returned zero candidates')
           PY
 
       - name: Commit inspection JSON to Customer Sales branch only
@@ -89,25 +92,21 @@ jobs:
             echo "::error::Refusing to commit outside agent/customer-sales-family"
             exit 1
           fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- pipeline/output-customer-sales-test/*.json
-
           staged="$(git diff --cached --name-only)"
           if [ -z "$staged" ]; then
             echo "No Customer Sales test output changes"
             exit 0
           fi
-
           unexpected="$({ printf '%s\n' "$staged" | awk '$0 !~ /^pipeline\/output-customer-sales-test\/.*\.json$/'; } || true)"
           if [ -n "$unexpected" ]; then
             echo "::error::Unexpected files staged; refusing to commit"
             printf '%s\n' "$unexpected"
             exit 1
           fi
-
-          git commit -m "Refresh broad Customer Sales test slices"
+          git commit -m "Refresh Customer Sales benchmark slices"
           git push origin HEAD:agent/customer-sales-family
 
       - name: Upload Customer Sales test output
