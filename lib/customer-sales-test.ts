@@ -11,6 +11,9 @@ export type CustomerSalesTestJob = {
   salary_text?: string;
   employment_type?: string;
   description?: string;
+  full_description?: string;
+  working_arrangement?: string;
+  working_arrangement_text?: string;
   apply_url: string;
   source?: string;
   customer_sales_classification?: string;
