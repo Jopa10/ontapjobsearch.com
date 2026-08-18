@@ -29,6 +29,106 @@ class ServiceAdminGeographyGuardTests(unittest.TestCase):
         self.assertTrue(service_admin.area_is_unusable(" city "))
         self.assertFalse(service_admin.area_is_unusable("London"))
 
+    def test_spaced_postcode_extracts_district(self):
+        self.assertEqual(
+            "NE27",
+            service_admin.extract_postcode_district(
+                "Where: EE Tyneside (Silver Fox Way, Newcastle upon Tyne NE27 0 QJ)"
+            ),
+        )
+
+    def test_postcode_override_corrects_source_display_location(self):
+        job_id_col = service_admin.COL["job_id"]
+        title_col = service_admin.COL["title"]
+        area_col = service_admin.COL["area"]
+        location_col = service_admin.COL["location"]
+        description_col = service_admin.COL["description"]
+
+        job_df = pd.DataFrame(
+            [
+                {
+                    job_id_col: "ee-ne27",
+                    title_col: "Customer Service Advisor",
+                    area_col: "North East",
+                    location_col: "Gateshead",
+                    description_col: (
+                        "Where: EE Tyneside (Silver Fox Way, Newcastle upon Tyne NE27 0 QJ)\n\n"
+                        "Full time: Permanent"
+                    ),
+                },
+                {
+                    job_id_col: "real-gateshead",
+                    title_col: "Administrator",
+                    area_col: "North East",
+                    location_col: "Gateshead",
+                    description_col: "Location: Team Valley, Gateshead.",
+                },
+            ]
+        )
+
+        def fake_original_process(*_args, **_kwargs):
+            return (
+                {
+                    "North East": [
+                        {
+                            "job_id": "ee-ne27",
+                            "title": "Customer Service Advisor",
+                            "location": "Gateshead",
+                            "region": "North East",
+                        },
+                        {
+                            "job_id": "real-gateshead",
+                            "title": "Administrator",
+                            "location": "Gateshead",
+                            "region": "North East",
+                        },
+                    ]
+                },
+                [
+                    {
+                        "job_id": "ee-ne27",
+                        "decision": "INCLUDED",
+                        "selection_status": "SELECTED",
+                        "region": "North East",
+                        "town": "Gateshead",
+                        "geo_source": "location",
+                        "reason": "included",
+                    },
+                    {
+                        "job_id": "real-gateshead",
+                        "decision": "INCLUDED",
+                        "selection_status": "SELECTED",
+                        "region": "North East",
+                        "town": "Gateshead",
+                        "geo_source": "location",
+                        "reason": "included",
+                    },
+                ],
+            )
+
+        original_process = service_admin._ORIGINAL_PROCESS
+        service_admin._ORIGINAL_PROCESS = fake_original_process
+        try:
+            outputs, report_rows = service_admin.process(
+                job_df,
+                {"north east": "North East"},
+                {"gateshead": "North East"},
+                {},
+                set(),
+                {},
+            )
+        finally:
+            service_admin._ORIGINAL_PROCESS = original_process
+
+        corrected = next(item for item in outputs["North East"] if item["job_id"] == "ee-ne27")
+        retained = next(item for item in outputs["North East"] if item["job_id"] == "real-gateshead")
+        self.assertEqual("Newcastle upon Tyne", corrected["location"])
+        self.assertEqual("Gateshead", retained["location"])
+
+        corrected_report = next(row for row in report_rows if row["job_id"] == "ee-ne27")
+        self.assertEqual("Newcastle upon Tyne", corrected_report["town"])
+        self.assertEqual("postcode_override", corrected_report["geo_source"])
+
     def test_northern_ireland_evidence_is_removed_from_london_outputs(self):
         job_id_col = service_admin.COL["job_id"]
         title_col = service_admin.COL["title"]
