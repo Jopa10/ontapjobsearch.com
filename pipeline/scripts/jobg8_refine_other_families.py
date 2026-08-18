@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import math
 import re
 import statistics
 import sys
@@ -16,6 +17,7 @@ TITLE_COL = "/Job/Position"
 DESCRIPTION_COL = "/Job/Description"
 AREA_COL = "/Job/Area"
 LOCATION_COL = "/Job/Location"
+AREA_UNUSABLE_VALUES = {"", "not specified", "unknown"}
 
 CATEGORY_FAMILY = {
     "support_worker": "Care / Support Work",
@@ -26,12 +28,8 @@ CATEGORY_FAMILY = {
     "admin_service": "Admin / Customer Service",
 }
 CATEGORY_PRECEDENCE = [
-    "support_worker",
-    "finance_accounts",
-    "hr_recruitment",
-    "warehouse_logistics",
-    "customer_service_contact_centre",
-    "admin_service",
+    "support_worker", "finance_accounts", "hr_recruitment",
+    "warehouse_logistics", "customer_service_contact_centre", "admin_service",
 ]
 
 OTHER_RULES = [
@@ -82,6 +80,12 @@ def norm(value: object) -> str:
     return re.sub(r"\s+", " ", str(value).strip()).casefold()
 
 
+def text(value: object) -> str:
+    if value is None or pd.isna(value):
+        return ""
+    return re.sub(r"\s+", " ", str(value).strip())
+
+
 def latest_feed(input_dir: Path) -> Path:
     files = sorted(p for p in input_dir.iterdir() if p.suffix.lower() in {".xlsx", ".xls", ".xlsm"})
     if not files:
@@ -124,8 +128,8 @@ def title_refine(title: str, original: str, row: pd.Series) -> tuple[str, str]:
     return original, "still_unclassified"
 
 
-def description_family(text: str) -> str | None:
-    padded = norm(text)
+def description_family(value: str) -> str | None:
+    padded = norm(value)
     if not padded:
         return None
     scores: dict[str, int] = {}
@@ -136,9 +140,7 @@ def description_family(text: str) -> str | None:
     if not scores:
         return None
     ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
-    if ranked[0][1] < 2:
-        return None
-    if len(ranked) > 1 and ranked[0][1] == ranked[1][1]:
+    if ranked[0][1] < 2 or (len(ranked) > 1 and ranked[0][1] == ranked[1][1]):
         return None
     return ranked[0][0]
 
@@ -161,28 +163,53 @@ def description_votes(raw: pd.DataFrame) -> dict[str, Counter[str]]:
     return dict(votes)
 
 
-def family_geo_metrics(raw: pd.DataFrame, title_family: dict[str, str]) -> dict[str, dict[str, object]]:
+def load_geo_lookups(path: Path) -> tuple[dict[str, str], dict[str, str]]:
+    area_df = pd.read_excel(path, dtype=str).fillna("")
+    if not {"Area", "Cluster"}.issubset(area_df.columns):
+        raise SystemExit("Geo lookup missing Area/Cluster columns")
+    area_lookup = {
+        norm(row["Area"]): text(row["Cluster"])
+        for _, row in area_df.iterrows()
+        if norm(row["Area"]) and text(row["Cluster"])
+    }
+    fallback_df = pd.read_excel(path, sheet_name="LocationFallback", dtype=str).fillna("")
+    if not {"Status", "Location", "Cluster"}.issubset(fallback_df.columns):
+        raise SystemExit("LocationFallback missing required columns")
+    fallback = {
+        norm(row["Location"]): text(row["Cluster"])
+        for _, row in fallback_df.iterrows()
+        if norm(row["Status"]) == "auto" and norm(row["Location"]) and text(row["Cluster"])
+    }
+    return area_lookup, fallback
+
+
+def ontap_region(row: pd.Series, area_lookup: dict[str, str], fallback: dict[str, str]) -> str:
+    area = norm(row.get(AREA_COL, ""))
+    location = norm(row.get(LOCATION_COL, ""))
+    if area in AREA_UNUSABLE_VALUES:
+        return fallback.get(location, "Other / Unknown")
+    return area_lookup.get(area, "Other / Unknown")
+
+
+def family_geo_metrics(raw: pd.DataFrame, title_family: dict[str, str], geo_lookup_path: Path) -> dict[str, dict[str, object]]:
+    area_lookup, fallback = load_geo_lookups(geo_lookup_path)
     counts: defaultdict[str, Counter[str]] = defaultdict(Counter)
-    if TITLE_COL not in raw.columns:
-        return {}
     for _, row in raw.iterrows():
         family = title_family.get(norm(row.get(TITLE_COL, "")))
         if not family:
             continue
-        area = str(row.get(AREA_COL, "")).strip() if AREA_COL in raw.columns else ""
-        if not area and LOCATION_COL in raw.columns:
-            area = str(row.get(LOCATION_COL, "")).strip()
-        area = area or "Unknown"
-        counts[family][area] += 1
+        counts[family][ontap_region(row, area_lookup, fallback)] += 1
     out: dict[str, dict[str, object]] = {}
-    for family, by_area in counts.items():
-        vals = list(by_area.values())
+    for family, by_region in counts.items():
+        known = Counter({r: n for r, n in by_region.items() if r != "Other / Unknown"})
+        vals = list(known.values())
         out[family] = {
-            "areas": len(by_area),
+            "regions": len(known),
             "median": statistics.median(vals) if vals else 0,
-            "areas_ge_5": sum(1 for n in vals if n >= 5),
-            "areas_ge_10": sum(1 for n in vals if n >= 10),
-            "top": "; ".join(f"{a} ({n})" for a, n in by_area.most_common(5)),
+            "regions_ge_5": sum(1 for n in vals if n >= 5),
+            "regions_ge_10": sum(1 for n in vals if n >= 10),
+            "unknown": by_region.get("Other / Unknown", 0),
+            "top": "; ".join(f"{r} ({n})" for r, n in known.most_common(5)),
         }
     return out
 
@@ -192,6 +219,7 @@ def main() -> int:
     ap.add_argument("--input-csv", required=True, type=Path)
     ap.add_argument("--input-dir", required=True, type=Path)
     ap.add_argument("--output-dir", required=True, type=Path)
+    ap.add_argument("--geo-lookup", type=Path, default=Path("pipeline/geo/geo_lookup.xlsx"))
     args = ap.parse_args()
 
     df = pd.read_csv(args.input_csv, dtype=str, encoding="utf-8-sig").fillna("")
@@ -200,8 +228,8 @@ def main() -> int:
     missing = required - set(df.columns)
     if missing:
         raise SystemExit(f"Expected discovery audit CSV columns are missing: {sorted(missing)}")
-
     df[count_col] = pd.to_numeric(df[count_col], errors="coerce").fillna(0).astype(int)
+
     refined = [title_refine(str(row["title"]), str(row["primary_broad_family"]), row) for _, row in df.iterrows()]
     df["refined_broad_family"] = [family for family, _ in refined]
     df["reconciliation_basis"] = [basis for _, basis in refined]
@@ -215,14 +243,13 @@ def main() -> int:
             continue
         family, vote_count = title_votes.most_common(1)[0]
         occurrences = int(row[count_col])
-        required_votes = 1 if occurrences == 1 else max(2, int((occurrences * 0.6) + 0.999))
+        required_votes = 1 if occurrences == 1 else max(2, math.ceil(occurrences * 0.6))
         second = title_votes.most_common(2)
         tied = len(second) > 1 and second[1][1] == vote_count
         if vote_count >= required_votes and not tied:
             df.at[idx, "refined_broad_family"] = family
             df.at[idx, "reconciliation_basis"] = "description_majority"
 
-    total = int(df[count_col].sum())
     family_counts: Counter[str] = Counter()
     family_titles: defaultdict[str, Counter[str]] = defaultdict(Counter)
     basis_counts: Counter[str] = Counter()
@@ -237,51 +264,50 @@ def main() -> int:
         if basis.startswith("existing_register:"):
             family_existing[family] += n
 
+    total = int(df[count_col].sum())
     if sum(family_counts.values()) != total:
         raise SystemExit("Refined family reconciliation failed")
 
     title_family = {norm(row["title"]): str(row["refined_broad_family"]) for _, row in df.iterrows()}
-    geo = family_geo_metrics(raw, title_family)
+    geo = family_geo_metrics(raw, title_family, args.geo_lookup)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    detail_path = args.output_dir / "jobg8-broad-family-reconciliation-current.csv"
+    df.to_csv(args.output_dir / "jobg8-broad-family-reconciliation-current.csv", index=False, encoding="utf-8-sig")
     report_path = args.output_dir / "jobg8-broad-family-reconciliation-current.md"
-    df.to_csv(detail_path, index=False, encoding="utf-8-sig")
 
     original_other = int(df.loc[df["primary_broad_family"] == "Other / Unclassified", count_col].sum())
     remaining_other = family_counts.get("Other / Unclassified", 0)
     existing_register_jobs = sum(family_existing.values())
 
     lines = [
-        "# JobG8 register-first broad-family reconciliation",
-        "",
+        "# JobG8 register-first broad-family reconciliation", "",
         f"Jobs reconciled: **{total:,}**",
         f"Jobs assigned first from an existing selected Ontap register: **{existing_register_jobs:,}**",
         f"Original title-rule Other / Unclassified: **{original_other:,}**",
         f"Jobs resolved by description-majority pass: **{basis_counts.get('description_majority', 0):,}**",
-        f"Remaining Other / Unclassified after register-first + title + description passes: **{remaining_other:,}**",
-        "",
-        "Every job is counted once and only once. Existing selected Ontap registers take priority; then conservative title rules; descriptions are used only for unresolved titles with a clear majority signal. Diagnostic only: no publishing logic is changed.",
-        "",
-        "## Refined family totals",
-        "",
-        "| Broad family | Jobs | Share |",
-        "|---|---:|---:|",
+        f"Remaining Other / Unclassified after register-first + title + description passes: **{remaining_other:,}**", "",
+        "Every job is counted once and only once. Existing selected Ontap registers take priority; then conservative title rules; descriptions are used only for unresolved titles with a clear majority signal. Diagnostic only: no publishing logic is changed.", "",
+        "## Refined family totals", "", "| Broad family | Jobs | Share |", "|---|---:|---:|",
     ]
     for family, count in family_counts.most_common():
-        share = count / total * 100 if total else 0
-        lines.append(f"| {family} | {count:,} | {share:.1f}% |")
-    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Opportunity and regional density", "", "Existing-register jobs are already selected by one of Ontap's current registers. New/uncovered is the residual diagnostic pool, not a publish recommendation.", "", "| Broad family | Total | Existing register | New / uncovered | Areas | Median / area | Areas 5+ | Areas 10+ | Top areas |", "|---|---:|---:|---:|---:|---:|---:|---:|---|"]
+        lines.append(f"| {family} | {count:,} | {(count / total * 100):.1f}% |")
+
+    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Opportunity and Ontap-region density", "",
+              "Geography uses the same geo_lookup Area→Cluster and controlled LocationFallback logic as Ontap Module 2. Existing-register jobs are already selected by a current Ontap register. New/uncovered is diagnostic only.", "",
+              "| Broad family | Total | Existing register | New / uncovered | Ontap regions | Median / region | Regions 5+ | Regions 10+ | Geo unknown | Top regions |",
+              "|---|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
     for family, count in family_counts.most_common():
         if family == "Other / Unclassified":
             continue
         existing = family_existing.get(family, 0)
-        new = count - existing
         gm = geo.get(family, {})
-        top = str(gm.get("top", "")).replace("|", "\\|")
         median = gm.get("median", 0)
         median_text = f"{median:.1f}" if isinstance(median, float) else str(median)
-        lines.append(f"| {family} | {count:,} | {existing:,} | {new:,} | {gm.get('areas', 0)} | {median_text} | {gm.get('areas_ge_5', 0)} | {gm.get('areas_ge_10', 0)} | {top} |")
+        top = str(gm.get("top", "")).replace("|", "\\|")
+        lines.append(
+            f"| {family} | {count:,} | {existing:,} | {count-existing:,} | {gm.get('regions', 0)} | {median_text} | "
+            f"{gm.get('regions_ge_5', 0)} | {gm.get('regions_ge_10', 0)} | {gm.get('unknown', 0)} | {top} |"
+        )
 
     lines += ["", "## Reconciliation basis", "", "| Basis | Jobs |", "|---|---:|"]
     for basis, count in basis_counts.most_common():
@@ -292,7 +318,7 @@ def main() -> int:
         lines.append(f"| {count} | {safe_title} |")
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print("\n".join(lines[:70]))
+    print("\n".join(lines[:75]))
     return 0
 
 
