@@ -29,10 +29,19 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         self.postcode_col = "/Job/PostalCode"
         self.area_lookup = {
             "manchester": "Greater Manchester - Manchester & Salford",
-            "stockport": "Greater Manchester - South",
             "salford": "Greater Manchester - Manchester & Salford",
+            "stockport": "Greater Manchester - South",
+            "cheadle": "Greater Manchester - South",
+            "sale": "Greater Manchester - South",
+            "ashton-under-lyne": "Greater Manchester - South",
+            "tameside": "Greater Manchester - South",
+            "bury": "Greater Manchester - North",
+            "heywood": "Greater Manchester - North",
+            "middleton": "Greater Manchester - North",
+            "bolton": "Greater Manchester - Wigan & Bolton",
+            "trafford": "Greater Manchester - South",
         }
-        self.location_lookup = dict(self.area_lookup)
+        self.location_lookup = {"manchester": "Greater Manchester - Manchester & Salford"}
         self.postcodes = geo.load_postcode_overrides(
             ROOT / "pipeline" / "geo" / "postcode_location_overrides.csv"
         )
@@ -70,7 +79,7 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         self.assertEqual("M3", geo.normalize_postcode_district("M3 5"))
         self.assertEqual("M35", geo.normalize_postcode_district("M35"))
 
-    def test_precise_location_beats_broader_area(self):
+    def test_precise_location_uses_authoritative_area_lookup(self):
         result = self.resolve(
             {
                 self.area_col: "Manchester",
@@ -81,7 +90,7 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         )
         self.assertEqual("Greater Manchester - South", result.region)
         self.assertEqual("Stockport", result.town)
-        self.assertEqual("precise_location_override", result.source)
+        self.assertEqual("precise_location", result.source)
 
     def test_broad_location_does_not_override_specific_area(self):
         result = self.resolve(
@@ -121,6 +130,69 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         self.assertEqual("Greater Manchester - South", result.region)
         self.assertEqual("Stockport", result.town)
         self.assertEqual("description_postcode", result.source)
+
+    def test_description_based_in_stockport_overrides_generic_manchester(self):
+        result = self.resolve(
+            {
+                self.area_col: "Not Specified",
+                self.location_col: "Manchester",
+                self.postcode_col: "",
+                self.description_col: "Office Administrator. This is a role with a growing business based in the Stockport area.",
+            }
+        )
+        self.assertEqual("Greater Manchester - South", result.region)
+        self.assertEqual("Stockport", result.town)
+        self.assertEqual("description_place", result.source)
+
+    def test_description_location_cheadle_routes_south(self):
+        result = self.resolve(
+            {
+                self.area_col: "Not Specified",
+                self.location_col: "Manchester",
+                self.postcode_col: "",
+                self.description_col: "Receptionist. Location: Cheadle. Immediate start.",
+            }
+        )
+        self.assertEqual("Greater Manchester - South", result.region)
+        self.assertEqual("Cheadle", result.town)
+        self.assertEqual("description_place", result.source)
+
+    def test_description_place_can_route_other_greater_manchester_slices(self):
+        cases = [
+            ("Data Entry Clerk Heywood, OL10 1AA. Long-term work.", "Greater Manchester - North", "Heywood"),
+            ("Service Coordinator. Join our team in Bury as a Service Coordinator.", "Greater Manchester - North", "Bury"),
+            ("Administrator, Bolton BL6 6AA. Six month contract.", "Greater Manchester - Wigan & Bolton", "Bolton"),
+            ("Administrator - Ashton Under Lyne (Tameside). Part time.", "Greater Manchester - South", "Ashton Under Lyne"),
+            ("Document Controller. Join us in Sale, Cheshire with flexible start times.", "Greater Manchester - South", "Sale"),
+        ]
+        for description, expected_region, expected_town in cases:
+            with self.subTest(description=description):
+                result = self.resolve(
+                    {
+                        self.area_col: "Not Specified",
+                        self.location_col: "Manchester",
+                        self.postcode_col: "",
+                        self.description_col: description,
+                    }
+                )
+                self.assertEqual(expected_region, result.region)
+                self.assertEqual(expected_town, result.town)
+                self.assertEqual("description_place", result.source)
+
+    def test_incidental_trafford_park_branch_does_not_reroute(self):
+        result = self.resolve(
+            {
+                self.area_col: "Not Specified",
+                self.location_col: "Manchester",
+                self.postcode_col: "",
+                self.description_col: "Data Entry Clerk Heywood. For more information call our Trafford Park branch on 0161 000 0000.",
+            }
+        )
+        # Heywood is explicit in the headline but has no location cue/postcode in
+        # this synthetic false-positive test, so the resolver should retain the
+        # broad structured Manchester fallback rather than jump on Trafford.
+        self.assertEqual("Greater Manchester - Manchester & Salford", result.region)
+        self.assertEqual("broad_area", result.source)
 
     def test_unmapped_structured_postcode_falls_through_safely(self):
         result = self.resolve(
