@@ -19,7 +19,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Support plans",
+      "Risk and needs assessments",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "f3025bfd-33f8-41b8-a6c4-f8541ae66355",
@@ -41,7 +46,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Daily living support",
+      "Community access",
+      "Support plans",
+      "Risk and needs assessments",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "3f4c625b-5417-4417-b340-71ab7e4ff941",
