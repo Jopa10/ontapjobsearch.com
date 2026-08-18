@@ -524,11 +524,10 @@ job_id: cbf60a64-5151-4b7d-aea4-673061351d55
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Camberley | £14 - £18 per hour | Support Care Workers - Camberley
 job_id: 23643_225134809
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---
@@ -558,11 +557,10 @@ job_id: 25362_JR104989
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Chippenham | £50000 - £60000 per year | Permanent Part-time Private Personal Assistant - Cotswolds
 job_id: 61318ff3-8530-4604-9b2f-3445400107a3
 ---
-
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
 {"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
 -->

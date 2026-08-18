@@ -272,11 +272,10 @@ job_id: b607db7b-477a-447b-82e6-a231dbfbbc12
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £28000 - £32000 per year | Accounts Assistant
 job_id: 86ccc5ec-10ec-49fa-9f00-50c5b00d39d6
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -366,11 +365,10 @@ job_id: 21618_20279_59837-89740a075c6163b74ea2c52702062e5d
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £30000 - £35000 per year | German Speaking Administrator
 job_id: ac77bded-97ae-4769-9c90-e5e347e032eb
 ---
-
 ## NORTH EAST — SELECTED
 
 ---
@@ -1684,35 +1682,30 @@ job_id: 1670904
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 per year | Patent Secretary
 job_id: 107697649
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £27000 per year | HR Administrator
 job_id: cf054858-fa00-43dc-b84f-98cacbbc668c
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Twickenham | £30000 - £36000 per year | Secretary
 job_id: a1a841ae-c43c-4f2d-89c0-450a6b91b1ab
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £275 - £350 per daily | Range Planner - Convenience
 job_id: 107843551
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 - £65000 per year | Client Facing Paraplanner, London (hybrid), Basic to circa £60k
 job_id: 9a8a65b7-5887-40a1-a98e-de57fb95676e
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2066,11 +2059,10 @@ job_id: 107835605
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Portsmouth | £40000 per year | Service Advisor
 job_id: 107796844
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2993,7 +2985,7 @@ job_id: 2b0f08ad-fe9d-4637-8766-17a7c353b0cd
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Coventry | £60000 per year | Showroom Coordinator
 job_id: 107830288
 ---
@@ -3206,11 +3198,10 @@ job_id: 20179531-accc-469d-9bc0-08788bd1a53c
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Newbury | £30000 - £30900 per year | Sales Administrator
 job_id: e12e3556-f2a6-4520-a95f-3257ce75db72
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3690,11 +3681,10 @@ job_id: 107858127
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DEVON | Devon | Exeter | £45000 - £55000 per year | PMO Coordinator
 job_id: bffae8f8-4b47-4b53-bd40-10fce4866cd9
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -3808,11 +3798,10 @@ job_id: e6491e45-1ff3-4831-b047-f34e830cb99d
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Poole | £30000 - £38000 per year | Client Services Administrator - Poole - Up to £38,000
 job_id: 5379ec46-0160-4cda-a260-a866babe490c
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -4040,17 +4029,15 @@ job_id: e0af1f96-adca-4833-ae31-2d1bbf61a3ad
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Grays | £28000 - £32000 per year | Accounts Administrator
 job_id: 2325eb41-0a0a-46f5-b197-7b6ec492b4df
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Grays | £18.51 per hour | HR Assistant
 job_id: 943c8359-7d04-415e-bb88-ccbe46b78342
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4188,11 +4175,10 @@ job_id: 04af6188-3b18-4dff-8ced-3e9ab1cdb345
 ## GLOUCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucester | £38000 - £50000 per year | Paraplanner
 job_id: cabb1ecb-a960-45a4-b363-b6df17c82409
 ---
-
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
 
 ---
@@ -4492,11 +4478,10 @@ job_id: 073015fd-8d66-4c01-bc26-6e283af66c56
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £40000 per year | Operations Administrator
 job_id: 1656a805-605d-40c3-aad9-9a7c849ffb83
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -4568,29 +4553,25 @@ job_id: ecbde9f7-87f4-4136-8f51-2f517c91af55
 ## NORFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Dereham | £15 - £17 per hour | Sales Administrator
 job_id: d348ba8c-df89-4296-a528-33001fd8a87f
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | King's Lynn | £30000 - £37000 per year | Service Administrator
 job_id: 6a7f7899-fda3-4afb-9af8-d430b4235d15
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Thetford | £25000 - £35000 per year | Customer Service Administrator
 job_id: 23643_225442057
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £29400 - £32760 per year | Site Coordinator
 job_id: 23643_225475427
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -5232,65 +5213,55 @@ job_id: 11659309-80d2-4ea9-8567-a7bdab9077cf
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Stafford | £28000 - £35000 per year (Training + Progression) | Sales Administrator (Training/Progression)
 job_id: 23643_225403562
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Stafford | £14.29 - £15.39 per hour | Customer Service Administrator
 job_id: a24d4cb2-62cf-4de5-9014-51c98ed8781f
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Stafford | £13.45 - £18.9 per hour | Customer Service Advisor - Part Time
 job_id: 23643_225420458
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Stafford | £28000 - £35000 per year | Sales Administrator (Training/Progression)
 job_id: dfd7ef13-5504-4b7d-bfe3-86a6823baa23
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Stafford | £28000 - £35000 per year (Training + Progression) | Administrator (Sales)
 job_id: 23643_225439422
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Tamworth | £31000 per year | Sales Administrator
 job_id: 9e442b03-56f9-41d0-8fbf-c875482827ff
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Stoke-on-trent | £14.02 - £15.53 per hour | Depot Administrator- Noons
 job_id: 23643_225430342
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Leek | £27000 - £40000 per year (£26820 - £40000) | Training Coordinator
 job_id: 23643_225404128
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Cannock | £35000 per year | SHEQ & Office Coordinator
 job_id: 23643_225427615
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Cannock | £30000 - £32000 per year | HR Systems and Administration Co-ordinator
 job_id: 9f960cb9-698b-4d0c-a9ab-36216637f126
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---

@@ -65,7 +65,7 @@ source_job_id: 173334
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
 ---
 ---
-action:
+action: select
 POSS | North East | Hybrid | £ Per Annum | Business Development Manager
 employer: North East Young Dads and Lads
 closing_date: 06 September 2026
