@@ -15,6 +15,7 @@ REQUIRED = {
     "/Job/EmploymentType",
     "/Job/Area",
     "/Job/Location",
+    "/Job/PostalCode",
     "/Job/ApplicationURL",
     "/Job/Description",
 }
