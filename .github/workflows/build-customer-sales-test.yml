@@ -1,0 +1,48 @@
+name: Build Customer Sales Test Slices
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out test branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/customer-sales-family
+          fetch-depth: 0
+
+      - name: Pull current JobG8 input and geo from main
+        run: |
+          git fetch origin main
+          git checkout origin/main -- pipeline/input/jobg8.xlsx pipeline/geo/geo_lookup.xlsx
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+
+      - name: Build Customer Sales test slices
+        working-directory: pipeline
+        run: python scripts/customer_sales_test_pipeline.py
+
+      - name: Commit refreshed test outputs only
+        run: |
+          git restore --staged pipeline/input/jobg8.xlsx pipeline/geo/geo_lookup.xlsx 2>/dev/null || true
+          git restore pipeline/input/jobg8.xlsx pipeline/geo/geo_lookup.xlsx
+          git add pipeline/output-customer-sales-test/
+          if git diff --cached --quiet; then
+            echo "No Customer Sales test output changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh Customer Sales test slices from current main feed"
+          git push origin HEAD:agent/customer-sales-family
