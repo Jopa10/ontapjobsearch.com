@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import re
 from dataclasses import dataclass
+from html import unescape
 from pathlib import Path
 from typing import Any, Callable, Mapping, Sequence
 
@@ -59,6 +60,7 @@ _UK_OUTCODE_SECTOR_RE = re.compile(
     r"^([A-Z]{1,2}\d[A-Z\d]?)\s+(\d)$",
     re.IGNORECASE,
 )
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 
 @dataclass(frozen=True)
@@ -100,6 +102,22 @@ def norm_key(value: Any) -> str:
     return norm(value).lower()
 
 
+def description_text(value: Any) -> str:
+    """Convert JobG8's HTML description into stable plain text for geo matching.
+
+    Location labels are often split by markup (for example
+    ``<strong>Location:</strong> Oldham``). Matching the raw HTML causes valid
+    location evidence to be missed, so tags are replaced by spaces before the
+    normal whitespace collapse. This is only for geography evidence; it does not
+    alter the description that is published.
+    """
+    if value is None:
+        return ""
+    text = unescape(str(value)).replace("\u00a0", " ")
+    text = _HTML_TAG_RE.sub(" ", text)
+    return norm(text)
+
+
 def _valid_region(value: Any) -> str:
     region = norm(value)
     return "" if norm_key(region) in INVALID_REGION_KEYS else region
@@ -122,7 +140,7 @@ def normalize_postcode_district(value: Any) -> str:
 
 
 def extract_postcode_district(text: Any) -> str:
-    match = _UK_FULL_POSTCODE_RE.search(norm(text).upper())
+    match = _UK_FULL_POSTCODE_RE.search(description_text(text).upper())
     if not match:
         return ""
     return match.group(1).upper()
@@ -233,7 +251,7 @@ def resolve_description_place(
     description: Any,
     rules: Sequence[DescriptionPlaceRule],
 ) -> tuple[str, str, str]:
-    head = norm(description)[:DESCRIPTION_PLACE_WINDOW]
+    head = description_text(description)[:DESCRIPTION_PLACE_WINDOW]
     if not head:
         return "", "", ""
     for rule in rules:
@@ -279,7 +297,7 @@ def resolve_job_geography(
     """
     area = norm(row.get(area_column))
     location = norm(row.get(location_column))
-    description = norm(row.get(description_column))
+    description = description_text(row.get(description_column))
     structured_postcode = norm(row.get(postal_code_column))
 
     area_key = norm_key(area)
@@ -361,9 +379,6 @@ def resolve_job_geography(
             district or description_district,
         )
 
-    # Explicitly unusable Area values (for example ``City`` or ``Not Specified``)
-    # must never win merely because the lookup workbook happens to map them to a
-    # placeholder/legacy cluster. A valid structured Location wins the fallback.
     if area_region and not area_unusable:
         return GeoResolution(area_region, area or location, "broad_area", area, district)
     if location_region:
