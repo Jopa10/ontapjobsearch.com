@@ -65,11 +65,11 @@ export default async function Page({ params, searchParams }: PageProps) {
           {slice.label} Customer Sales / Sales Advisor Jobs
         </h1>
         <p className="mt-3 max-w-4xl text-gray-700">
-          Trial family for genuine sales-led office, contact-centre, home and hybrid roles. A job may also fit
-          Service Admin; overlap is not an exclusion from Customer Sales.
+          Broad trial family for genuine selling, conversion, retention and renewal roles in office,
+          contact-centre, home and hybrid settings. A job may also fit Service Admin; overlap is allowed.
         </p>
         <p className="mt-3 text-sm font-semibold text-gray-900">
-          {slice.jobs.length} candidate job{slice.jobs.length === 1 ? "" : "s"} in the current test source.
+          {slice.jobs.length} candidate job{slice.jobs.length === 1 ? "" : "s"} in the current raw-feed test.
         </p>
       </section>
 
@@ -160,15 +160,15 @@ export default async function Page({ params, searchParams }: PageProps) {
           <div className="rounded-xl border border-gray-200 bg-gray-50 p-8 text-center">
             <h2 className="text-xl font-semibold text-gray-900">No matching trial jobs</h2>
             <p className="mt-2 text-gray-600">
-              This is useful test evidence: the classifier is deliberately preferring genuine sales-led roles over sales administration/support titles.
+              This page is for inspecting the broad agreed Customer Sales family, not for setting final production thresholds.
             </p>
           </div>
         )}
       </section>
 
       <aside className="mt-8 rounded-xl border border-gray-200 bg-gray-50 p-4 text-sm text-gray-600">
-        This test page reads existing regional job JSON only. It does not publish a new live family, alter daily selection,
-        add sitemap entries, or make any change to main.
+        This page reads branch-only Customer Sales output generated from the current raw JobG8 feed. It does not
+        publish a live family, alter the production daily pipeline, add sitemap entries, or change main.
       </aside>
     </main>
   );
