@@ -35,18 +35,14 @@ TARGETS = {
     "Yorkshire - West": "west-yorkshire.json",
 }
 
-# Titles that are intrinsically sales-led enough to qualify without needing the
-# advert to repeat sales language. Field/retail/management exclusions still win.
 STRONG_TITLE_TERMS = [
     "sales advisor", "sales adviser", "customer sales", "sales consultant",
-    "telesales", "inside sales", "inbound sales", "outbound sales",
+    "sales executive", "telesales", "inside sales", "inbound sales", "outbound sales",
     "sales agent", "telephone sales", "retention advisor", "retention adviser",
     "renewals advisor", "renewals adviser", "new business advisor", "new business adviser",
     "telemarketer", "telemarketing", "appointment setter", "lead generator",
 ]
 
-# Ambiguous titles which qualify only where the advert contains BOTH genuine
-# sales evidence and an office/contact-centre/home signal.
 CONTEXT_TITLE_TERMS = [
     "customer service advisor", "customer service adviser", "customer advisor", "customer adviser",
     "customer service representative", "customer representative", "customer account advisor",
@@ -54,12 +50,9 @@ CONTEXT_TITLE_TERMS = [
     "call center agent", "call centre operator", "call center operator", "contact centre agent",
     "contact center agent", "contact centre advisor", "contact centre adviser",
     "customer success advisor", "customer success adviser", "membership advisor", "membership adviser",
-    "sales executive", "business development executive", "new business executive",
-    "commercial executive", "account executive",
+    "business development executive", "new business executive", "commercial executive",
 ]
 
-# Evidence must point to an actual selling/conversion responsibility. Generic
-# performance bonuses are intentionally NOT sufficient evidence.
 SALES_EVIDENCE_TERMS = [
     "sales target", "sales targets", "sales opportunity", "sales opportunities",
     "convert enquiries", "convert inquiries", "convert leads", "convert prospects",
@@ -78,20 +71,15 @@ OFFICE_EVIDENCE_TERMS = [
     "crm", "customer relationship management",
 ]
 
-# These exclusions are about the nature of the job, not overlap with Service
-# Admin. Sales administration/support remains excluded because it supports sales
-# rather than being personally sales-led.
 HARD_EXCLUDE_TERMS = [
     "field sales", "door to door", "door-to-door", "territory sales", "area sales", "regional sales",
     "car sales", "vehicle sales", "showroom", "retail sales", "sales administrator", "sales administration",
     "sales support administrator", "sales ledger", "business development manager", "account manager", "sales manager",
-    "estate agent", "lettings negotiator", "sales negotiator",
+    "account executive", "technical sales", "sales engineer", "estate agent", "lettings negotiator", "sales negotiator",
     "service advisor - automotive", "service adviser - automotive", "automotive service advisor",
     "automotive service adviser", "aftersales advisor", "aftersales adviser",
 ]
 
-# Broad vocabulary used only for the audit. It does not select jobs; it catches
-# plausible rejected roles so we can inspect what the classifier is missing.
 AUDIT_TITLE_TERMS = [
     "sales", "customer", "client", "contact centre", "contact center", "call centre", "call center",
     "retention", "renewal", "new business", "business development", "commercial", "lead", "appointment",
