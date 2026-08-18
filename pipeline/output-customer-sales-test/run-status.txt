@@ -1,4 +1,17 @@
-Customer Sales test run: 2026-08-18T13:48:28Z
-FAILED: AWS credentials for validated JobG8 archive
-
-aws: [ERROR]: An error occurred (NoCredentials): Unable to locate credentials. You can configure credentials by running "aws login".
+Customer Sales test run: 2026-08-18T13:49:43Z
+OK: JobG8 feed secret available
+OK: downloaded current JobG8 feed (7507078 bytes)
+OK: normalised JobG8 feed
+OK: converted current JobG8 feed
+OK: refreshed geo lookup from main
+OK: Customer Sales test pipeline completed
+Download is a ZIP archive
+Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
+Columns: 30
+Hampshire: 8 jobs / 8 employers
+Greater Manchester - Manchester & Salford: 4 jobs / 4 employers
+Yorkshire - West: 4 jobs / 4 employers
+Northern Ireland - East: 6 jobs / 2 employers
+Cheshire - Warrington & Halton: 47 jobs / 3 employers
+Cornwall: 25 jobs / 2 employers
+Yorkshire - South: 4 jobs / 4 employers
