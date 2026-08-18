@@ -84,6 +84,12 @@ class DescriptionPlaceRule:
     dash_pattern: re.Pattern[str]
 
 
+# Same lookup dict is reused for every row in a feed. Cache its compiled advert
+# rules by object identity so thousands of rows do not rebuild thousands of
+# regular expressions each time.
+_DESCRIPTION_RULE_CACHE: dict[int, tuple[Mapping[str, str], tuple[DescriptionPlaceRule, ...]]] = {}
+
+
 def norm(value: Any) -> str:
     if value is None:
         return ""
@@ -226,6 +232,18 @@ def build_description_place_rules(
     # Prefer the longest place name where names overlap.
     rules.sort(key=lambda item: (-len(item.place_key), item.place_key, item.region))
     return tuple(rules)
+
+
+def description_place_rules_for_lookup(
+    area_lookup: Mapping[str, str],
+) -> tuple[DescriptionPlaceRule, ...]:
+    cache_key = id(area_lookup)
+    cached = _DESCRIPTION_RULE_CACHE.get(cache_key)
+    if cached is not None and cached[0] is area_lookup:
+        return cached[1]
+    rules = build_description_place_rules(area_lookup)
+    _DESCRIPTION_RULE_CACHE[cache_key] = (area_lookup, rules)
+    return rules
 
 
 def resolve_description_place(
@@ -377,7 +395,7 @@ def resolve_job_geography(
     place_rules = (
         tuple(description_place_rules)
         if description_place_rules is not None
-        else build_description_place_rules(area_lookup)
+        else description_place_rules_for_lookup(area_lookup)
     )
     description_region, description_town, description_evidence = resolve_description_place(
         description,
