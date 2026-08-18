@@ -28,6 +28,9 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         self.description_col = "/Job/Description"
         self.postcode_col = "/Job/PostalCode"
         self.area_lookup = {
+            "city": "London",
+            "not specified": "unknown",
+            "london": "London",
             "manchester": "Greater Manchester - Manchester & Salford",
             "salford": "Greater Manchester - Manchester & Salford",
             "stockport": "Greater Manchester - South",
@@ -41,7 +44,10 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
             "bolton": "Greater Manchester - Wigan & Bolton",
             "trafford": "Greater Manchester - South",
         }
-        self.location_lookup = {"manchester": "Greater Manchester - Manchester & Salford"}
+        self.location_lookup = {
+            "manchester": "Greater Manchester - Manchester & Salford",
+            "london": "London",
+        }
         self.postcodes = geo.load_postcode_overrides(
             ROOT / "pipeline" / "geo" / "postcode_location_overrides.csv"
         )
@@ -117,6 +123,32 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         self.assertEqual("Greater Manchester - Manchester & Salford", result.region)
         self.assertEqual("Salford", result.town)
         self.assertEqual("area", result.source)
+
+    def test_city_area_never_overrides_manchester_location(self):
+        result = self.resolve(
+            {
+                self.area_col: "City",
+                self.location_col: "Manchester",
+                self.postcode_col: "M1",
+                self.description_col: "Helpdesk role in Manchester city centre.",
+            }
+        )
+        self.assertEqual("Greater Manchester - Manchester & Salford", result.region)
+        self.assertEqual("Manchester", result.town)
+        self.assertEqual("location", result.source)
+
+    def test_unknown_cluster_never_overrides_london_location(self):
+        result = self.resolve(
+            {
+                self.area_col: "Not Specified",
+                self.location_col: "London",
+                self.postcode_col: "",
+                self.description_col: "Administrator with a London employer.",
+            }
+        )
+        self.assertEqual("London", result.region)
+        self.assertEqual("London", result.town)
+        self.assertEqual("location", result.source)
 
     def test_description_postcode_is_last_resort(self):
         result = self.resolve(
