@@ -14,9 +14,10 @@ sys.path = [entry for entry in sys.path if Path(entry or ".").resolve() != SCRIP
 
 import pandas as pd
 
+TITLE_COL = "/Job/Position"
+DESCRIPTION_COL = "/Job/Description"
+
 # Existing Ontap selected registers take priority over broad title heuristics.
-# This prevents jobs already covered by Ontap (e.g. Bookkeeper in finance,
-# Sales Administrator in admin) from being presented as a new-category gap.
 CATEGORY_FAMILY = {
     "support_worker": "Care / Support Work",
     "finance_accounts": "Professional Finance / Accountancy",
@@ -34,7 +35,7 @@ CATEGORY_PRECEDENCE = [
     "admin_service",
 ]
 
-# Second-pass rules only apply where there is no effective selected Ontap
+# Second-pass title rules only apply where there is no effective selected Ontap
 # register and the first broad-family pass left the title unclassified.
 OTHER_RULES = [
     ("Legal / Conveyancing", r"\b(conveyancer|conveyancing)\b"),
@@ -54,6 +55,39 @@ OTHER_RULES = [
     ("Agriculture / Environment", r"\b(agriculture|agricultural|farm worker|farm operative|farmer|horticulture|horticultural|gardener|grounds maintenance|landscape|landscaping|environmental officer|ecologist)\b"),
 ]
 COMPILED = [(name, re.compile(pattern, re.IGNORECASE)) for name, pattern in OTHER_RULES]
+
+# Conservative description signals. A title is only moved on description when
+# a clear majority of its current-feed occurrences point to the same family.
+DESCRIPTION_RULES = {
+    "Retail / Store": ["shop floor", "retail store", "store team", "stock shelves", "replenish stock", "checkout", "till", "supermarket", "convenience store"],
+    "Care / Support Work": ["personal care", "care home", "residential care", "learning disabilities", "autism", "support people", "supporting people", "children's home", "children’s home"],
+    "Legal / Conveyancing": ["conveyancing", "solicitor", "law firm", "legal advice", "court proceedings", "legal counsel"],
+    "Professional Finance / Accountancy": ["bookkeeping", "management accounts", "purchase ledger", "sales ledger", "vat returns", "payroll", "financial planning and analysis", "insolvency"],
+    "IT / Data / Software": ["software", "servicenow", "cyber", "penetration testing", "artificial intelligence", "machine learning", "data platform", "product owner", "cloud platform"],
+    "Engineering / Technical": ["engineering", "technical design", "mechanical", "electrical", "water design", "maintenance engineering"],
+    "Construction / Trades / Property": ["construction site", "principal designer", "cdm", "building project", "contractor management", "quantity surveying"],
+    "Property / Housing / Planning": ["housing association", "social housing", "town planning", "planning application", "resident liaison", "tenancy", "rent account"],
+    "HR / Recruitment": ["recruitment", "talent acquisition", "employee relations", "human resources", "employability", "employment support", "job coach", "ips employment"],
+    "Marketing / Digital / Creative": ["paid media", "ppc", "seo", "digital marketing", "social media campaign", "media buying"],
+    "Insurance / Claims": ["insurance policy", "claims handling", "claims handler", "insurer", "underwriting", "policyholder", "commercial insurance"],
+    "Admin / Customer Service": ["customer enquiries", "customer queries", "administrative support", "office administration", "booking appointments", "update records", "data entry", "telephone and email"],
+    "Compliance / Risk / Quality": ["regulatory compliance", "risk management", "quality assurance", "governance framework", "compliance monitoring"],
+}
+
+
+def norm(value: object) -> str:
+    if value is None or pd.isna(value):
+        return ""
+    return re.sub(r"\s+", " ", str(value).strip()).casefold()
+
+
+def latest_feed(input_dir: Path) -> Path:
+    files = sorted(p for p in input_dir.iterdir() if p.suffix.lower() in {".xlsx", ".xls", ".xlsm"})
+    if not files:
+        raise SystemExit(f"No Excel feeds found in {input_dir}")
+    dated = [(p, re.search(r"(20\d{2}-\d{2}-\d{2})", p.stem)) for p in files]
+    dated = [(p, m.group(1)) for p, m in dated if m]
+    return max(dated, key=lambda x: x[1])[0] if dated else files[-1]
 
 
 def split_categories(value: object) -> list[str]:
@@ -77,7 +111,7 @@ def existing_register_family(row: pd.Series) -> tuple[str | None, str | None]:
     return None, None
 
 
-def refine(title: str, original: str, row: pd.Series) -> tuple[str, str]:
+def title_refine(title: str, original: str, row: pd.Series) -> tuple[str, str]:
     register_family, register_category = existing_register_family(row)
     if register_family:
         return register_family, f"existing_register:{register_category}"
@@ -89,9 +123,45 @@ def refine(title: str, original: str, row: pd.Series) -> tuple[str, str]:
     return original, "still_unclassified"
 
 
+def description_family(text: str) -> str | None:
+    padded = norm(text)
+    if not padded:
+        return None
+    scores: dict[str, int] = {}
+    for family, terms in DESCRIPTION_RULES.items():
+        score = sum(1 for term in terms if term in padded)
+        if score:
+            scores[family] = score
+    if not scores:
+        return None
+    ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+    if ranked[0][1] < 2:
+        return None
+    if len(ranked) > 1 and ranked[0][1] == ranked[1][1]:
+        return None
+    return ranked[0][0]
+
+
+def description_votes(input_dir: Path) -> dict[str, Counter[str]]:
+    feed = latest_feed(input_dir)
+    raw = pd.read_excel(feed, dtype=str).fillna("")
+    if TITLE_COL not in raw.columns or DESCRIPTION_COL not in raw.columns:
+        return {}
+    votes: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    for _, row in raw.iterrows():
+        key = norm(row.get(TITLE_COL, ""))
+        if not key:
+            continue
+        family = description_family(str(row.get(DESCRIPTION_COL, "")))
+        if family:
+            votes[key][family] += 1
+    return dict(votes)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--input-csv", required=True, type=Path)
+    ap.add_argument("--input-dir", required=True, type=Path)
     ap.add_argument("--output-dir", required=True, type=Path)
     args = ap.parse_args()
 
@@ -104,11 +174,28 @@ def main() -> int:
 
     df[count_col] = pd.to_numeric(df[count_col], errors="coerce").fillna(0).astype(int)
     refined = [
-        refine(str(row["title"]), str(row["primary_broad_family"]), row)
+        title_refine(str(row["title"]), str(row["primary_broad_family"]), row)
         for _, row in df.iterrows()
     ]
     df["refined_broad_family"] = [family for family, _ in refined]
     df["reconciliation_basis"] = [basis for _, basis in refined]
+
+    votes = description_votes(args.input_dir)
+    for idx, row in df.loc[df["reconciliation_basis"] == "still_unclassified"].iterrows():
+        key = norm(row["title"])
+        title_votes = votes.get(key, Counter())
+        if not title_votes:
+            continue
+        family, vote_count = title_votes.most_common(1)[0]
+        occurrences = int(row[count_col])
+        # Require at least 60% of all current-feed occurrences to independently
+        # point to the same family; for singleton titles one clear description is enough.
+        required_votes = 1 if occurrences == 1 else max(2, int((occurrences * 0.6) + 0.999))
+        second = title_votes.most_common(2)
+        tied = len(second) > 1 and second[1][1] == vote_count
+        if vote_count >= required_votes and not tied:
+            df.at[idx, "refined_broad_family"] = family
+            df.at[idx, "reconciliation_basis"] = "description_majority"
 
     total = int(df[count_col].sum())
     family_counts: Counter[str] = Counter()
@@ -141,9 +228,10 @@ def main() -> int:
         f"Jobs reconciled: **{total:,}**",
         f"Jobs assigned first from an existing selected Ontap register: **{existing_register_jobs:,}**",
         f"Original title-rule Other / Unclassified: **{original_other:,}**",
-        f"Remaining Other / Unclassified after register-first + second pass: **{remaining_other:,}**",
+        f"Jobs resolved by description-majority pass: **{basis_counts.get('description_majority', 0):,}**",
+        f"Remaining Other / Unclassified after register-first + title + description passes: **{remaining_other:,}**",
         "",
-        "Every job is counted once and only once. Existing selected Ontap registers take priority; only then are broad title rules used. This is diagnostic only and does not change publishing logic.",
+        "Every job is counted once and only once. Existing selected Ontap registers take priority; then title rules; descriptions are used only for unresolved titles with a clear majority signal. Diagnostic only: no publishing logic is changed.",
         "",
         "## Refined family totals",
         "",
