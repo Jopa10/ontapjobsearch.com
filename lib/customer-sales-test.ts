@@ -38,6 +38,16 @@ export const CUSTOMER_SALES_TEST_SLICES: CustomerSalesTestSlice[] = [
     sourceFile: "pipeline/output-customer-sales-test/manchester-salford.json",
   },
   {
+    slug: "northern-ireland-east",
+    label: "Northern Ireland East",
+    sourceFile: "pipeline/output-customer-sales-test/northern-ireland-east.json",
+  },
+  {
+    slug: "warrington-halton",
+    label: "Warrington & Halton",
+    sourceFile: "pipeline/output-customer-sales-test/warrington-halton.json",
+  },
+  {
     slug: "west-yorkshire",
     label: "West Yorkshire",
     sourceFile: "pipeline/output-customer-sales-test/west-yorkshire.json",
@@ -70,8 +80,8 @@ export function getCustomerSalesTestSlice(slug: string) {
   if (!slice) return undefined;
 
   const jobs = readJobs(slice.sourceFile).sort((a, b) => {
-    const aRank = a.customer_sales_classification === "HIGH_CONFIDENCE" ? 0 : 1;
-    const bRank = b.customer_sales_classification === "HIGH_CONFIDENCE" ? 0 : 1;
+    const aRank = a.customer_sales_classification === "DIRECT_SALES" ? 0 : 1;
+    const bRank = b.customer_sales_classification === "DIRECT_SALES" ? 0 : 1;
     if (aRank !== bRank) return aRank - bRank;
     return a.title.localeCompare(b.title);
   });
