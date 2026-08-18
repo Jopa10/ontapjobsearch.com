@@ -53,7 +53,9 @@ def _load_json(path: Path):
         return None
 
 
-def _job_count(path: Path) -> int:
+def _job_count(path: Path) -> int | None:
+    if not path.is_file():
+        return None
     data = _load_json(path)
     if isinstance(data, list):
         return len(data)
@@ -62,7 +64,7 @@ def _job_count(path: Path) -> int:
             value = data.get(key)
             if isinstance(value, list):
                 return len(value)
-    return 0
+    return None
 
 
 def _load_statuses() -> dict[tuple[str, str], str]:
@@ -80,13 +82,14 @@ def _load_statuses() -> dict[tuple[str, str], str]:
     return statuses
 
 
-def _live_count(region_slug: str, family: dict[str, str], is_live: bool) -> int:
+def _live_count(region_slug: str, family: dict[str, str], is_live: bool) -> int | None:
     if not is_live:
-        return 0
+        return None
 
     static_path = REPO_ROOT / "app" / region_slug / f"{family['route_slug']}.json"
-    if static_path.is_file():
-        return _job_count(static_path)
+    static_count = _job_count(static_path)
+    if static_count is not None:
+        return static_count
 
     dynamic_path = (
         REPO_ROOT
@@ -105,10 +108,17 @@ def _candidate_count(region_slug: str, family: dict[str, str]) -> int:
         / family["candidate_dir"]
         / family["candidate_pattern"].format(slug=region_slug)
     )
-    return _job_count(candidate_path)
+    count = _job_count(candidate_path)
+    return 0 if count is None else count
 
 
-def _cell(count: int) -> str:
+def _live_cell(count: int | None) -> str:
+    # A LIVE register entry with no readable published JSON is a data problem,
+    # not a genuine zero. Make that visible rather than silently reporting 0.
+    return "CHECK" if count is None else str(count)
+
+
+def _candidate_cell(count: int) -> str:
     return "—" if count == 0 else str(count)
 
 
@@ -149,15 +159,12 @@ def build() -> str:
             }
         rows.append((region_name, slug, family_state))
 
-    live_rows = [r for r in rows if any(v["live"] for v in r[2].values())]
-    not_live_rows = [r for r in rows if any(not v["live"] for v in r[2].values())]
-
     lines = [
         "# Ontap daily regional overview",
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        "> LIVE status comes from the region/category slice register. LIVE counts come from the published static or configured-slice JSON. NOT LIVE counts come from current candidate/output files where available. `—` means zero or unavailable.",
+        "> LIVE status comes from the region/category slice register. LIVE counts come from the published static or configured-slice JSON. `CHECK` means the register says LIVE but no readable published JSON was found. NOT LIVE counts come from current candidate/output files where available. `—` means zero or unavailable.",
         "",
         "## LIVE",
         "",
@@ -165,13 +172,14 @@ def build() -> str:
         "|---|---:|---:|---:|",
     ]
 
-    for region_name, _slug, state in live_rows:
+    # Always show all 33 regions here so gaps are immediately visible.
+    for region_name, _slug, state in rows:
         lines.append(
             "| "
             + region_name
             + " | "
             + " | ".join(
-                _cell(state[f["key"]]["live_count"]) if state[f["key"]]["live"] else ""
+                _live_cell(state[f["key"]]["live_count"]) if state[f["key"]]["live"] else ""
                 for f in FAMILIES
             )
             + " |"
@@ -184,13 +192,15 @@ def build() -> str:
         "| Region | Service admin | Support worker | Sales advisor |",
         "|---|---:|---:|---:|",
     ])
-    for region_name, _slug, state in not_live_rows:
+    for region_name, _slug, state in rows:
+        if all(state[f["key"]]["live"] for f in FAMILIES):
+            continue
         lines.append(
             "| "
             + region_name
             + " | "
             + " | ".join(
-                "" if state[f["key"]]["live"] else _cell(state[f["key"]]["candidate_count"])
+                "" if state[f["key"]]["live"] else _candidate_cell(state[f["key"]]["candidate_count"])
                 for f in FAMILIES
             )
             + " |"
@@ -200,16 +210,26 @@ def build() -> str:
         f["key"]: sum(1 for _name, _slug, state in rows if state[f["key"]]["live"])
         for f in FAMILIES
     }
-    live_jobs = {
-        f["key"]: sum(
-            state[f["key"]]["live_count"]
+    live_jobs = {}
+    live_count_issues = {}
+    for family in FAMILIES:
+        key = family["key"]
+        counts = [
+            state[key]["live_count"]
             for _name, _slug, state in rows
-            if state[f["key"]]["live"]
-        )
-        for f in FAMILIES
-    }
+            if state[key]["live"]
+        ]
+        missing = sum(1 for count in counts if count is None)
+        live_count_issues[key] = missing
+        live_jobs[key] = sum(count for count in counts if isinstance(count, int))
+
     total_live_slices = sum(live_regions.values())
     total_possible = len(rows) * len(FAMILIES)
+
+    def headline_jobs(key: str) -> str:
+        if live_count_issues[key]:
+            return f"{live_jobs[key]} + {live_count_issues[key]} CHECK"
+        return str(live_jobs[key])
 
     lines.extend(
         [
@@ -222,7 +242,7 @@ def build() -> str:
             + " | ".join(f"{live_regions[f['key']]} / 33" for f in FAMILIES)
             + " |",
             "| Live jobs | "
-            + " | ".join(str(live_jobs[f["key"]]) for f in FAMILIES)
+            + " | ".join(headline_jobs(f["key"]) for f in FAMILIES)
             + " |",
             "",
             f"**Live slices: {total_live_slices} / {total_possible}.**",
