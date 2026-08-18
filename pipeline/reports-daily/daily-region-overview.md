@@ -1,68 +1,82 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-18T11:26:42+00:00
+Generated: 2026-08-18T11:35:08+00:00
 
-> Counts in LIVE cells are currently published jobs. Counts in NOT LIVE cells are current candidate/output jobs where available. `—` means no current candidate/output file or zero jobs.
+> LIVE status comes from the region/category slice register. LIVE counts come from the published static or configured-slice JSON. NOT LIVE counts come from current candidate/output files where available. `—` means zero or unavailable.
 
 ## LIVE
 
 | Region | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Yorkshire - West | 56 | 4 |  |
-| Yorkshire - South | 25 | 3 |  |
-| Yorkshire - North | 19 |  |  |
-| North East | 95 |  |  |
-| London | 171 |  |  |
+| Berkshire | 41 |  |  |
+| Bristol & Bath | 21 |  |  |
+| Cambridgeshire | 41 |  |  |
+| Cumbria - South |  | 5 |  |
+| Devon | 37 |  |  |
+| Dorset | 22 |  |  |
+| Essex | 41 |  |  |
+| Gloucestershire | 21 |  |  |
+| Greater Manchester - Manchester & Salford | 48 |  |  |
 | Hampshire | 54 | 18 |  |
-| Surrey | 54 |  |  |
 | Kent | 41 |  |  |
+| London | 171 | 13 |  |
+| Norfolk | — |  |  |
+| North East | 95 | — |  |
+| Northamptonshire | 31 |  |  |
+| Nottinghamshire | 32 |  |  |
+| Oxfordshire | 40 |  |  |
+| Staffordshire | — |  |  |
+| Surrey | 54 | — |  |
 | Sussex | 39 | 10 |  |
 | West Midlands - Coventry & Warwickshire | 24 |  |  |
-| Cumbria - South |  | 5 |  |
+| Wiltshire | 19 | — |  |
+| Yorkshire - North | 19 |  |  |
+| Yorkshire - South | 25 | 3 |  |
+| Yorkshire - West | 56 | 4 |  |
 
 ## NOT LIVE
 
 | Region | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Yorkshire - West |  |  | 3 |
-| Yorkshire - South |  |  | — |
-| Yorkshire - North |  | — | — |
-| Yorkshire - East | — | — | — |
-| North East |  | 12 | — |
-| London |  | 15 | — |
-| Hampshire |  |  | 5 |
-| Surrey |  | 10 | — |
-| Kent |  | — | — |
-| Sussex |  |  | — |
-| West Midlands - Coventry & Warwickshire |  | — | — |
-| Cumbria - South | — |  | — |
-| Cumbria - North | — | — | — |
-| Lancashire - North | — | — | — |
-| Greater Manchester - Manchester & Salford | 49 | — | 5 |
-| Greater Manchester - South | — | — | — |
-| Oxfordshire | 40 | — | — |
-| Bristol & Bath | 25 | — | — |
-| Essex | 41 | — | — |
-| Cambridgeshire | 41 | — | — |
-| Gloucestershire | 22 | — | — |
-| Devon | 41 | — | — |
-| Dorset | 22 | — | — |
-| Staffordshire | 21 | — | — |
-| Wiltshire | 21 | 4 | — |
-| Northamptonshire | 32 | — | — |
-| Berkshire | 44 | — | — |
-| Nottinghamshire | 30 | — | — |
+| Berkshire |  | — | — |
+| Bristol & Bath |  | — | — |
 | Buckinghamshire | 5 | — | — |
+| Cambridgeshire |  | — | — |
+| Cumbria - North | — | — | — |
+| Cumbria - South | — |  | — |
+| Devon |  | — | — |
+| Dorset |  | — | — |
+| Essex |  | — | — |
+| Gloucestershire |  | — | — |
+| Greater Manchester - Manchester & Salford |  | — | 5 |
+| Greater Manchester - South | — | — | — |
+| Hampshire |  |  | 5 |
 | Hertfordshire | — | — | — |
-| West Midlands - Birmingham & Solihull | — | — | — |
+| Kent |  | — | — |
+| Lancashire - North | — | — | — |
+| London |  |  | — |
+| Norfolk |  | — | — |
+| North East |  |  | — |
+| Northamptonshire |  | — | — |
+| Nottinghamshire |  | — | — |
+| Oxfordshire |  | — | — |
 | Somerset | — | — | — |
-| Norfolk | 11 | — | — |
+| Staffordshire |  | — | — |
+| Surrey |  |  | — |
+| Sussex |  |  | — |
+| West Midlands - Birmingham & Solihull | — | — | — |
+| West Midlands - Coventry & Warwickshire |  | — | — |
+| Wiltshire |  |  | — |
+| Yorkshire - East | — | — | — |
+| Yorkshire - North |  | — | — |
+| Yorkshire - South |  |  | — |
+| Yorkshire - West |  |  | 3 |
 
 ## HEADLINE
 
 | Measure | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Live regions | 10 / 33 | 5 / 33 | 0 / 33 |
-| Live jobs | 578 | 40 | 0 |
+| Live regions | 24 / 33 | 9 / 33 | 0 / 33 |
+| Live jobs | 972 | 53 | 0 |
 
-**Live slices: 15 / 99.**
+**Live slices: 33 / 99.**
