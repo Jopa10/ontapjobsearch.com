@@ -206,7 +206,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Records administration",
+      "Reporting",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "5a560285-330a-4930-9fbe-bd132db1297b",
@@ -281,7 +287,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "5a70e6dc-d4f6-4337-819e-1c94362f0013",
@@ -381,7 +392,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "9b15b052-ee03-4bba-8d2e-fafc74d60cc4",
@@ -406,7 +421,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225439444",
@@ -431,7 +451,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "107669843",
