@@ -455,6 +455,12 @@ SELECTED | London | City | £260 per daily | Care Assistant to a Psychology Univ
 job_id: 107751975
 ---
 
+---
+action:
+SELECTED | London | Croydon | £14 per hour | Domiciliary Care Assistant
+job_id: 86f892d4-8c90-4c6b-b4d3-a12bcd351d01
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -517,12 +523,6 @@ job_id: 768f67eb-5423-47b5-92bb-1d2d9d7a86da
 
 ---
 action:
-SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
-job_id: 71355918-bca9-47a2-b3f5-9f126a4d9a08
----
-
----
-action:
 SELECTED | Surrey | Farnham | £13 per hour | Specialist Academic Support Worker
 job_id: cbf60a64-5151-4b7d-aea4-673061351d55
 ---
@@ -547,14 +547,20 @@ job_id: 3f4c625b-5417-4417-b340-71ab7e4ff941
 
 ---
 action:
-SELECTED | Wiltshire | Chippenham | £13.81 per hour | Care Assistant - Care Home
-job_id: 0f37805a-375b-4ffe-a5b7-85f2a35c16c8
+SELECTED | Wiltshire | Devizes | £13.75 per hour | Bank Support Worker
+job_id: 328178
 ---
 
 ---
 action:
 SELECTED | Wiltshire | Westbury | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104989
+---
+
+---
+action:
+SELECTED | Wiltshire | Swindon | £26056 per year | Mental Health Support Worker
+job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
 ---
 
 ## WILTSHIRE — POSSIBLES

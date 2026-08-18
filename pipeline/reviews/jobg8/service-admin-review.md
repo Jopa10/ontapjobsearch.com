@@ -193,12 +193,6 @@ job_id: 23643_225476804
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds | £27000 per year | Complaints Handler
-job_id: 0964d2e1-424c-4a06-84b3-e1fa26bfa2a0
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds | £26000 per year | Facilities Coordinator
 job_id: 107680320
 ---
@@ -495,12 +489,6 @@ job_id: 107798281
 action:
 SELECTED | North East | Gateshead | £13 per hour | Administrator - Temporary to Permanent - Team Valley
 job_id: 23643_225468085
----
-
----
-action:
-SELECTED | North East | North Shields | £25587 - £27251 per year | Finance Coordinator
-job_id: e79648bf-bd6c-4a2d-af24-e64c3b96758b
 ---
 
 ---
@@ -1405,18 +1393,6 @@ job_id: 23643_225489159
 
 ---
 action:
-SELECTED | London | London | £30000 - £36000 per year | HR Administrator
-job_id: 613e2fd9-d4ba-4db1-9af4-ed5d78ce95ea
----
-
----
-action:
-SELECTED | London | London | £26417 per year | Administrator
-job_id: f3a7dc5b-c771-4e05-8f18-ebae03d305e4
----
-
----
-action:
 SELECTED | London | London | £21.13 per hour | Student Hub Administrator
 job_id: 425e3977-cbfd-48e6-b978-156fa3fc3cc1
 ---
@@ -1697,6 +1673,12 @@ SELECTED | London | London | £27000 per year | HR Administrator
 job_id: cf054858-fa00-43dc-b84f-98cacbbc668c
 ---
 
+---
+action:
+SELECTED | London | Kingston Upon Thames |  | Sales Administrator TEMP
+job_id: 99a59323-19a1-4313-a75b-b35ffff535af
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -1945,26 +1927,8 @@ job_id: 107824141
 
 ---
 action:
-SELECTED | Hampshire | Andover | £13.55 - £15 per hour | Administrator
-job_id: d9d504a6-8084-40b3-a954-553a174af2f1
----
-
----
-action:
-SELECTED | Hampshire | Basingstoke | £13.45 per hour | Sales Administrator
-job_id: 1bfe3b5c-5008-4795-b4dc-b2f51ff1befe
----
-
----
-action:
 SELECTED | Hampshire | Fareham |  | Onboarding Administrator
 job_id: e74c7499-1c4c-431a-ad2c-1e4975040487
----
-
----
-action:
-SELECTED | Hampshire | Waterlooville | £35000 per year | Financial Services Administrator, Up to £35k (+ strong benefits)
-job_id: 284c57ae-5f1f-4c21-a984-10a5d3cbeed6
 ---
 
 ---
@@ -2035,12 +1999,6 @@ job_id: 1671015
 
 ---
 action:
-SELECTED | Hampshire | Basingstoke | £26000 - £28000 per year | Service Delivery Coordinator (Remote)
-job_id: 23643_225390412
----
-
----
-action:
 SELECTED | Hampshire | Hook | £13 per hour | Receptionist
 job_id: b06192e9-e3c3-41de-9ddd-fc7ba0c12b70
 ---
@@ -2055,6 +2013,18 @@ job_id: 107796844
 action:
 SELECTED | Hampshire | Portsmouth | £35000 per year | Executive Assistant & Operations Coordinator
 job_id: 107835605
+---
+
+---
+action:
+SELECTED | Hampshire | Portsmouth |  | Contract Service Desk Lead
+job_id: 107843259
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £27000 - £30000 per year | Sales Coordinator
+job_id: 23643_225505424
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -2353,12 +2323,6 @@ job_id: 103076fb-cbe5-404a-824d-8714843cc3b9
 
 ---
 action:
-SELECTED | Surrey | Caterham | £40000 per year | Bid Coordinator
-job_id: 107649152
----
-
----
-action:
 SELECTED | Surrey | Sunbury-on-thames | £14 per hour | Part Time Reception / Administrator
 job_id: cafd3cc0-87b0-4442-90a4-55d2a848c072
 ---
@@ -2391,6 +2355,12 @@ job_id: 19e67123-787d-40eb-bc54-4e10e57a7295
 action:
 SELECTED | Surrey | Lingfield |  | Fundraising & Database Administrator
 job_id: 1670892
+---
+
+---
+action:
+SELECTED | Surrey | Addlestone | £13 - £15 per hour | Business Administrator
+job_id: 23643_225482771
 ---
 
 ## SURREY — POSSIBLES
@@ -2839,12 +2809,6 @@ job_id: 107683890
 
 ---
 action:
-SELECTED | Sussex | Burgess Hill | £28000 - £32000 per year | Sales Support
-job_id: 03830bfb-b994-4b84-b54a-31600c8f4f64
----
-
----
-action:
 SELECTED | Sussex | Brighton | £9.6 per hour | Medical Receptionist Apprentice
 job_id: 5688078e-d798-4bcd-84d6-62baed25a773
 ---
@@ -2859,6 +2823,12 @@ job_id: 23643_225498357
 action:
 SELECTED | Sussex | Haywards Heath | £12.71 per hour | Part Time Receptionist
 job_id: 23643_225283461
+---
+
+---
+action:
+SELECTED | Sussex | Haywards Heath | £27000 per year | Administration Assistant
+job_id: 23643_225461960
 ---
 
 ## SUSSEX — POSSIBLES
@@ -2964,12 +2934,6 @@ job_id: 00f1e237-afc8-489f-9ca4-42b6e740606a
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £25000 - £27000 per year | HR Assistant
-job_id: 9106c63f-aedd-42f5-8dd5-93e28a33c690
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Atherstone | £15 - £20 per hour | Part Time Secretary
 job_id: f2b1b885-1e89-40a2-9927-0632554cbc43
 ---
@@ -2978,6 +2942,18 @@ job_id: f2b1b885-1e89-40a2-9927-0632554cbc43
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry | £31500 per year | SOL Administrator
 job_id: 2b0f08ad-fe9d-4637-8766-17a7c353b0cd
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton | £24000 per year | My Way Facilitator (Transitions Co-ordinator)
+job_id: 107841442
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £26000 per year | Customer Service Advisor - Full Time
+job_id: 23643_225505608
 ---
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
@@ -3333,6 +3309,18 @@ SELECTED | Bristol & Bath | Bristol | £26000 - £30000 per year | Insurance Cla
 job_id: e925c689-6ead-4589-8b82-a3090b6f8f89
 ---
 
+---
+action:
+SELECTED | Bristol & Bath | Keynsham | £12.79 per hour | Admin Assistant
+job_id: 23643_225505515
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol | £13.45 per hour | Data Administrator
+job_id: 43c28539-e6a0-4522-8b66-5a97638bff0b
+---
+
 ## BRISTOL & BATH — POSSIBLES
 
 _No jobs in this group._
@@ -3647,8 +3635,8 @@ job_id: 107818981
 
 ---
 action:
-SELECTED | Devon | Exeter | £27534 per year | Planning Administrator
-job_id: e88cfa13-cf9a-4e11-91a7-38c0182ec2cf
+SELECTED | Devon | Tavistock | £13,928.53 per year | Customer Service Advisor
+job_id: 21618_20279_61828-f4ca70fb2411d9e8ac70e55d073c537d
 ---
 
 ---
@@ -3677,7 +3665,11 @@ job_id: 107858127
 
 ## DEVON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - DEVON | Devon | Torquay | £28000 - £32000 per year | Finance and Operations Administrator
+job_id: 84809d07-69f9-4987-bc95-653c367955ba
+---
 
 ## DORSET — SELECTED
 
@@ -3995,12 +3987,6 @@ job_id: 23643_225499800
 
 ---
 action:
-SELECTED | Essex | Grays | £28000 - £32000 per year | Accounts Assistant
-job_id: 93baa206-491b-430c-a77e-ba07b8e9564e
----
-
----
-action:
 SELECTED | Essex | Grays | £28000 - £32000 per year | Accounts Administrator
 job_id: 2325eb41-0a0a-46f5-b197-7b6ec492b4df
 ---
@@ -4027,12 +4013,6 @@ job_id: 943c8359-7d04-415e-bb88-ccbe46b78342
 action:
 SELECTED | Essex | Chelmsford |  | Motor Claims Handler
 job_id: 7c8eab96-4c12-4952-a0ed-9a4128564e6c
----
-
----
-action:
-SELECTED | Essex | Colchester | £14 per hour | Recruitment Administrator
-job_id: e0af1f96-adca-4833-ae31-2d1bbf61a3ad
 ---
 
 ## ESSEX — POSSIBLES
@@ -4123,24 +4103,6 @@ job_id: 23643_225477107
 action:
 SELECTED | Gloucestershire | Moreton-in-marsh | £150 per daily | Scheduling Administrator - Education Sector
 job_id: 0ec8b843-e3ce-433f-9980-409156d7b4ac
----
-
----
-action:
-SELECTED | Gloucestershire | Cheltenham | £13 - £14 per hour | Administrator- temp 6 weeks
-job_id: fee2253b-6b74-4863-ac47-9db48c50b7f6
----
-
----
-action:
-SELECTED | Gloucestershire | Cheltenham | £13 - £14 per hour | Administrator
-job_id: c2507df0-d7e5-4ace-a308-86ae71b3d6de
----
-
----
-action:
-SELECTED | Gloucestershire | Cheltenham | £13 - £14 per hour | Data Entry Administrator- temp 6 weeks
-job_id: 4e7c5858-940f-4e16-9b8b-18d3b503158b
 ---
 
 ---
@@ -4397,12 +4359,6 @@ job_id: 23643_225476366
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester | £12.8 - £13 per hour (Commission) | Administrator
-job_id: 23643_225236227
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Salford | £28000 - £32500 per year (Hybrid working) | Finance Assistant (Temp To Perm)
 job_id: 23643_225477091
 ---
@@ -4479,9 +4435,19 @@ SELECTED | Greater Manchester - Manchester & Salford | Manchester | £23500 - £
 job_id: 073015fd-8d66-4c01-bc26-6e283af66c56
 ---
 
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £13 per hour | Receptionist
+job_id: 23643_225505461
+---
+
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £32000 per year | Human Resources Administrator
+job_id: c1d57060-6bda-42f6-8d23-55cdaae93f2f
+---
 
 ## NORFOLK — SELECTED
 
@@ -4715,12 +4681,6 @@ job_id: 107765772
 
 ---
 action:
-SELECTED | Northamptonshire | Northampton | £28000 per year | Sales & Service Administrator
-job_id: 0d0480c5-1be3-42c0-a8f1-4f3ab5eaed1a
----
-
----
-action:
 SELECTED | Northamptonshire | Northampton |  | Contracts Administrator - Plumbing & Heating
 job_id: 107795596
 ---
@@ -4885,6 +4845,12 @@ job_id: 3235b01d-e4c7-444c-a44c-10095a1236cd
 action:
 SELECTED | Nottinghamshire | Nottingham | £12.72 per hour | Receptionist - Bank
 job_id: 23643_225494401
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Worksop | £24000 per year | Gatehouse Administrator
+job_id: 107837200
 ---
 
 ## NOTTINGHAMSHIRE — POSSIBLES
@@ -5277,6 +5243,12 @@ SELECTED | Staffordshire | Staffordshire | £20000 - £25000 per year | Customer
 job_id: 11659309-80d2-4ea9-8567-a7bdab9077cf
 ---
 
+---
+action:
+SELECTED | Staffordshire | Tamworth | £26500 - £27500 per year | Membership Administrator
+job_id: 57c9883d-08bc-46f5-b437-b0ca826365f3
+---
+
 ## STAFFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5385,9 +5357,19 @@ SELECTED | Wiltshire | Calne | £12.71 - £13 per hour | Administration Coordina
 job_id: b9b60abf-90c5-4196-86bc-bb3e5fff5bc7
 ---
 
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Receptionist - Part time
+job_id: 107857913
+---
+
 ## WILTSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WILTSHIRE | Wiltshire | Salisbury | £17 per hour | Contractor Administrator
+job_id: 107857834
+---
 
 ## YORKSHIRE - NORTH — SELECTED
 
@@ -5485,6 +5467,12 @@ job_id: 5a560285-330a-4930-9fbe-bd132db1297b
 action:
 SELECTED | Yorkshire - North | York | £13.47 per hour | Administration Assistant
 job_id: 107840773
+---
+
+---
+action:
+SELECTED | Yorkshire - North | York | £30000 per year | HR Administrator
+job_id: 107841026
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES
