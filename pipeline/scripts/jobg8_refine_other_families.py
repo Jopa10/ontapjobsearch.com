@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import statistics
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -13,6 +14,8 @@ import pandas as pd
 
 TITLE_COL = "/Job/Position"
 DESCRIPTION_COL = "/Job/Description"
+AREA_COL = "/Job/Area"
+LOCATION_COL = "/Job/Location"
 
 CATEGORY_FAMILY = {
     "support_worker": "Care / Support Work",
@@ -42,13 +45,13 @@ OTHER_RULES = [
     ("Compliance / Risk / Quality", r"\b(compliance manager|compliance officer|risk assessor|risk manager|quality manager|quality assurance manager|regulatory manager|ai governance consultant|governance consultant)\b"),
     ("Property / Housing / Planning", r"\b(town planner|planning officer|resident liaison officer|housing solutions officer|income officer|scheme manager|housing manager|rental agent|asset manager|director of planning|rtpi|housing support officer)\b"),
     ("Retail / Store", r"\b(customer team member|service colleague|store leader|online manager)\b"),
-    ("Employment Support / Careers", r"\b(employment specialist|ips employment specialist|employment adviser|employment advisor|job coach)\b"),
+    ("Employment Support / Careers", r"\b(employment specialist|ips employment specialist|employment adviser|employment advisor|job coach|youth employment coach)\b"),
     ("Manufacturing / Production", r"\b(production|manufacturing|machine operator|machine operative|assembler|assembly|factory|plant operator|process operator|production operative|production operator|print finisher)\b"),
     ("Cleaning / Domestic / Facilities", r"\b(cleaner|cleaning|domestic assistant|domestic cleaner|caretaker|janitor|facilities assistant|facilities operative|hygiene operative)\b"),
     ("Management / Team Leadership", r"\b(registered manager|deputy manager|assistant manager|service manager|team leader|client manager|centre manager|unit manager|department manager|supervisor|practice manager|business manager|home manager|duty manager|lodge manager)\b"),
-    ("Admin / Customer Service", r"\b(executive assistant|executive pa|ea\b|office support|business administrator|administrative assistant|document controller|service controller|hire controller|parts advisor|customer success manager)\b"),
+    ("Admin / Customer Service", r"\b(executive assistant|executive pa|ea\b|office support|business administrator|administrative assistant|document controller|service controller|hire controller|parts advisor|customer success manager|order processor|data entry assistant|registration support officer|project co-ordinator)\b"),
     ("Marketing / Digital / Creative", r"\b(paid media specialist|paid media executive|bid writer)\b"),
-    ("Charity / Fundraising / Community", r"\b(fundraiser|fundraising|charity|community worker|community officer|engagement officer|outreach worker|outreach officer|trustee)\b"),
+    ("Charity / Fundraising / Community", r"\b(fundraiser|fundraising|charity|community worker|community officer|engagement officer|outreach worker|outreach officer|trustee|grants officer)\b"),
     ("Security / Emergency Services", r"\b(security|door supervisor|prison officer|custody|police|firefighter|fire fighter|probation officer)\b"),
     ("Agriculture / Environment", r"\b(agriculture|agricultural|farm worker|farm operative|farmer|horticulture|horticultural|gardener|grounds maintenance|landscape|landscaping|environmental officer|ecologist)\b"),
 ]
@@ -140,9 +143,11 @@ def description_family(text: str) -> str | None:
     return ranked[0][0]
 
 
-def description_votes(input_dir: Path) -> dict[str, Counter[str]]:
-    feed = latest_feed(input_dir)
-    raw = pd.read_excel(feed, dtype=str).fillna("")
+def raw_feed(input_dir: Path) -> pd.DataFrame:
+    return pd.read_excel(latest_feed(input_dir), dtype=str).fillna("")
+
+
+def description_votes(raw: pd.DataFrame) -> dict[str, Counter[str]]:
     if TITLE_COL not in raw.columns or DESCRIPTION_COL not in raw.columns:
         return {}
     votes: defaultdict[str, Counter[str]] = defaultdict(Counter)
@@ -154,6 +159,32 @@ def description_votes(input_dir: Path) -> dict[str, Counter[str]]:
         if family:
             votes[key][family] += 1
     return dict(votes)
+
+
+def family_geo_metrics(raw: pd.DataFrame, title_family: dict[str, str]) -> dict[str, dict[str, object]]:
+    counts: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    if TITLE_COL not in raw.columns:
+        return {}
+    for _, row in raw.iterrows():
+        family = title_family.get(norm(row.get(TITLE_COL, "")))
+        if not family:
+            continue
+        area = str(row.get(AREA_COL, "")).strip() if AREA_COL in raw.columns else ""
+        if not area and LOCATION_COL in raw.columns:
+            area = str(row.get(LOCATION_COL, "")).strip()
+        area = area or "Unknown"
+        counts[family][area] += 1
+    out: dict[str, dict[str, object]] = {}
+    for family, by_area in counts.items():
+        vals = list(by_area.values())
+        out[family] = {
+            "areas": len(by_area),
+            "median": statistics.median(vals) if vals else 0,
+            "areas_ge_5": sum(1 for n in vals if n >= 5),
+            "areas_ge_10": sum(1 for n in vals if n >= 10),
+            "top": "; ".join(f"{a} ({n})" for a, n in by_area.most_common(5)),
+        }
+    return out
 
 
 def main() -> int:
@@ -175,7 +206,8 @@ def main() -> int:
     df["refined_broad_family"] = [family for family, _ in refined]
     df["reconciliation_basis"] = [basis for _, basis in refined]
 
-    votes = description_votes(args.input_dir)
+    raw = raw_feed(args.input_dir)
+    votes = description_votes(raw)
     for idx, row in df.loc[df["reconciliation_basis"] == "still_unclassified"].iterrows():
         key = norm(row["title"])
         title_votes = votes.get(key, Counter())
@@ -194,6 +226,7 @@ def main() -> int:
     family_counts: Counter[str] = Counter()
     family_titles: defaultdict[str, Counter[str]] = defaultdict(Counter)
     basis_counts: Counter[str] = Counter()
+    family_existing: Counter[str] = Counter()
     for _, row in df.iterrows():
         n = int(row[count_col])
         family = str(row["refined_broad_family"])
@@ -201,9 +234,14 @@ def main() -> int:
         family_counts[family] += n
         family_titles[family][str(row["title"])] += n
         basis_counts[basis] += n
+        if basis.startswith("existing_register:"):
+            family_existing[family] += n
 
     if sum(family_counts.values()) != total:
         raise SystemExit("Refined family reconciliation failed")
+
+    title_family = {norm(row["title"]): str(row["refined_broad_family"]) for _, row in df.iterrows()}
+    geo = family_geo_metrics(raw, title_family)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     detail_path = args.output_dir / "jobg8-broad-family-reconciliation-current.csv"
@@ -212,7 +250,7 @@ def main() -> int:
 
     original_other = int(df.loc[df["primary_broad_family"] == "Other / Unclassified", count_col].sum())
     remaining_other = family_counts.get("Other / Unclassified", 0)
-    existing_register_jobs = sum(count for basis, count in basis_counts.items() if basis.startswith("existing_register:"))
+    existing_register_jobs = sum(family_existing.values())
 
     lines = [
         "# JobG8 register-first broad-family reconciliation",
@@ -233,7 +271,19 @@ def main() -> int:
     for family, count in family_counts.most_common():
         share = count / total * 100 if total else 0
         lines.append(f"| {family} | {count:,} | {share:.1f}% |")
-    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Reconciliation basis", "", "| Basis | Jobs |", "|---|---:|"]
+    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Opportunity and regional density", "", "Existing-register jobs are already selected by one of Ontap's current registers. New/uncovered is the residual diagnostic pool, not a publish recommendation.", "", "| Broad family | Total | Existing register | New / uncovered | Areas | Median / area | Areas 5+ | Areas 10+ | Top areas |", "|---|---:|---:|---:|---:|---:|---:|---:|---|"]
+    for family, count in family_counts.most_common():
+        if family == "Other / Unclassified":
+            continue
+        existing = family_existing.get(family, 0)
+        new = count - existing
+        gm = geo.get(family, {})
+        top = str(gm.get("top", "")).replace("|", "\\|")
+        median = gm.get("median", 0)
+        median_text = f"{median:.1f}" if isinstance(median, float) else str(median)
+        lines.append(f"| {family} | {count:,} | {existing:,} | {new:,} | {gm.get('areas', 0)} | {median_text} | {gm.get('areas_ge_5', 0)} | {gm.get('areas_ge_10', 0)} | {top} |")
+
+    lines += ["", "## Reconciliation basis", "", "| Basis | Jobs |", "|---|---:|"]
     for basis, count in basis_counts.most_common():
         lines.append(f"| {basis} | {count:,} |")
     lines += ["", "## Largest titles still genuinely unclassified", "", "| Count | Title |", "|---:|---|"]
@@ -242,7 +292,7 @@ def main() -> int:
         lines.append(f"| {count} | {safe_title} |")
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print("\n".join(lines[:50]))
+    print("\n".join(lines[:70]))
     return 0
 
 
