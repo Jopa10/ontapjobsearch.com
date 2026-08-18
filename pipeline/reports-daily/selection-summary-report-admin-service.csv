@@ -1,25 +1,25 @@
 ﻿region,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,44,27,10,7,0,,44,Leeds,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - West manual_select applied additively: 11 row(s) prioritised; 44 selected.
+Yorkshire - West,43,27,9,7,0,,43,Leeds,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - West manual_select applied additively: 11 row(s) prioritised; 43 selected.
 Yorkshire - South,15,10,1,4,0,,15,Sheffield,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - South manual_select applied additively: 3 row(s) prioritised; 15 selected.
-North East,64,56,3,5,0,,64,Newcastle Upon Tyne,SCENARIO_3_MANUAL_SELECTION_APPLIED,North East manual_select applied additively: 5 row(s) prioritised; 64 selected.
-London,155,120,21,14,0,,155,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 37 row(s) prioritised; 155 selected.
-Hampshire,59,38,2,19,0,,59,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 7 row(s) prioritised; 59 selected.
-Surrey,55,42,2,11,0,,55,Guildford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Surrey manual_select applied additively: 8 row(s) prioritised; 55 selected.
+North East,63,56,3,4,0,,63,Newcastle Upon Tyne,SCENARIO_3_MANUAL_SELECTION_APPLIED,North East manual_select applied additively: 5 row(s) prioritised; 63 selected.
+London,154,119,21,14,0,,154,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 36 row(s) prioritised; 154 selected.
+Hampshire,57,35,2,20,0,,57,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 7 row(s) prioritised; 57 selected.
+Surrey,55,43,2,10,0,,55,Guildford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Surrey manual_select applied additively: 7 row(s) prioritised; 55 selected.
 Kent,42,33,1,8,0,,42,Maidstone,SCENARIO_3_MANUAL_SELECTION_APPLIED,Kent manual_select applied additively: 6 row(s) prioritised; 42 selected.
-Sussex,34,23,2,9,0,,34,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 2 row(s) prioritised; 34 selected.
-West Midlands - Coventry & Warwickshire,19,13,5,1,0,,19,Coventry,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Coventry & Warwickshire manual_select applied additively: 6 row(s) prioritised; 19 selected.
+Sussex,34,24,2,8,0,,34,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 2 row(s) prioritised; 34 selected.
+West Midlands - Coventry & Warwickshire,20,14,4,2,0,,20,Coventry,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Coventry & Warwickshire manual_select applied additively: 6 row(s) prioritised; 20 selected.
 Berkshire,35,30,1,4,0,,35,Reading,SCENARIO_3_MANUAL_SELECTION_APPLIED,Berkshire manual_select applied additively: 9 row(s) prioritised; 35 selected.
-Bristol & Bath,22,14,6,2,0,,22,Bristol,SCENARIO_3_MANUAL_SELECTION_APPLIED,Bristol & Bath manual_select applied additively: 7 row(s) prioritised; 22 selected.
+Bristol & Bath,24,16,6,2,0,,24,Bristol,SCENARIO_3_MANUAL_SELECTION_APPLIED,Bristol & Bath manual_select applied additively: 7 row(s) prioritised; 24 selected.
 Cambridgeshire,28,19,5,4,0,,28,Cambridge,SCENARIO_3_MANUAL_SELECTION_APPLIED,Cambridgeshire manual_select applied additively: 11 row(s) prioritised; 28 selected.
-Devon,27,22,2,3,0,,27,Exeter,SCENARIO_3_MANUAL_SELECTION_APPLIED,Devon manual_select applied additively: 7 row(s) prioritised; 27 selected.
+Devon,27,22,2,3,1,,27,Exeter,SCENARIO_3_MANUAL_SELECTION_APPLIED,Devon manual_select applied additively: 7 row(s) prioritised; 27 selected.
 Dorset,19,16,0,3,0,,19,Bournemouth,SCENARIO_3_MANUAL_SELECTION_APPLIED,Dorset manual_select applied additively: 5 row(s) prioritised; 19 selected.
-Essex,39,26,3,10,0,,39,Chelmsford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Essex manual_select applied additively: 12 row(s) prioritised; 39 selected.
-Gloucestershire,22,16,1,5,0,,22,Gloucester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Gloucestershire manual_select applied additively: 5 row(s) prioritised; 22 selected.
-Greater Manchester - Manchester & Salford,50,37,11,2,0,,50,Manchester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Greater Manchester - Manchester & Salford manual_select applied additively: 9 row(s) prioritised; 50 selected.
+Essex,37,25,3,9,0,,37,Chelmsford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Essex manual_select applied additively: 11 row(s) prioritised; 37 selected.
+Gloucestershire,19,13,1,5,0,,19,Gloucester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Gloucestershire manual_select applied additively: 5 row(s) prioritised; 19 selected.
+Greater Manchester - Manchester & Salford,50,37,11,2,1,,50,Manchester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Greater Manchester - Manchester & Salford manual_select applied additively: 9 row(s) prioritised; 50 selected.
 Norfolk,15,10,3,2,0,,15,Norwich,SCENARIO_3_MANUAL_SELECTION_APPLIED,Norfolk manual_select applied additively: 4 row(s) prioritised; 15 selected.
-Northamptonshire,27,20,3,4,0,,27,Northampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northamptonshire manual_select applied additively: 5 row(s) prioritised; 27 selected.
-Nottinghamshire,23,15,6,2,0,,23,Nottingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,Nottinghamshire manual_select applied additively: 7 row(s) prioritised; 23 selected.
+Northamptonshire,26,19,3,4,0,,26,Northampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northamptonshire manual_select applied additively: 5 row(s) prioritised; 26 selected.
+Nottinghamshire,24,16,6,2,0,,24,Nottingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,Nottinghamshire manual_select applied additively: 7 row(s) prioritised; 24 selected.
 Oxfordshire,32,25,2,5,0,,32,Oxford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Oxfordshire manual_select applied additively: 5 row(s) prioritised; 32 selected.
-Staffordshire,31,22,1,8,0,,31,Stafford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Staffordshire manual_select applied additively: 10 row(s) prioritised; 31 selected.
-Wiltshire,17,13,2,2,0,,17,Swindon,SCENARIO_3_MANUAL_SELECTION_APPLIED,Wiltshire manual_select applied additively: 1 row(s) prioritised; 17 selected.
-Yorkshire - North,16,15,0,1,0,,16,York,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - North manual_select applied additively: 2 row(s) prioritised; 16 selected.
+Staffordshire,32,23,1,8,0,,32,Stafford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Staffordshire manual_select applied additively: 10 row(s) prioritised; 32 selected.
+Wiltshire,18,14,2,2,1,,18,Swindon,SCENARIO_3_MANUAL_SELECTION_APPLIED,Wiltshire manual_select applied additively: 1 row(s) prioritised; 18 selected.
+Yorkshire - North,17,16,0,1,0,,17,York,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - North manual_select applied additively: 2 row(s) prioritised; 17 selected.
