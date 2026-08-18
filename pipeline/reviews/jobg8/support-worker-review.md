@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-17
+feed_date: 2026-08-18
 
 Edit only the `action:` line in each block:
 
@@ -10,12 +10,6 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
-job_id: 107751768
----
 
 ---
 action:
@@ -33,6 +27,18 @@ job_id: 107651994
 action:
 SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including holiday pay, flexible hours) | Healthcare Assistant
 job_id: 23643_225476096
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Bradford | £13.15 per hour | Support Worker
+job_id: d7f7304a-e0cf-4296-8ceb-6f4fb55c5a74
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
+job_id: 107751768
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -313,12 +319,6 @@ job_id: 107796981
 
 ---
 action:
-SELECTED | Hampshire | Aldershot | £13.05 per hour | Residential Childcare Support Worker
-job_id: 107776124
----
-
----
-action:
 SELECTED | Hampshire | Ryde | £24000 per year | Care & Support Worker
 job_id: 107807442
 ---
@@ -379,12 +379,6 @@ job_id: 281f76c8-4bbe-4cc0-8651-945559a163d4
 
 ---
 action:
-SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
-job_id: 107751975
----
-
----
-action:
 SELECTED | London | London | £31,116.80 per annum | Specialist Behavioural Support Worker
 job_id: 1621461
 ---
@@ -427,6 +421,18 @@ job_id: feafdbff-feab-46b2-9f5e-426a6897dd2e
 
 ---
 action:
+SELECTED | London | London | £31,593.00 per annum | Specialist Support Worker
+job_id: 1664747
+---
+
+---
+action:
+SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
+job_id: 1664745
+---
+
+---
+action:
 SELECTED | London | Barking | £15 per hour | Childrens Support Worker / Clacton / GBP15 ph - GBP16 ph
 job_id: 573ad49a-e43f-4fe5-b86d-66e9514e3b01
 ---
@@ -443,9 +449,119 @@ SELECTED | London | London | £30784 per year | Support Worker
 job_id: 197faf69-e78e-4a9a-affd-80959ed23008
 ---
 
+---
+action:
+SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
+job_id: 107751975
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
+
+## SURREY — SELECTED
+
+---
+action:
+SELECTED | Surrey | Caterham | £14.5 per hour | Female Healthcare Assistant
+job_id: 31d22526-587a-4ee0-a94d-865f483b82cc
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £13.05 per hour | Residential Childcare Support Worker (Casual)
+job_id: 107776110
+---
+
+---
+action:
+SELECTED | Surrey | Epsom | £15.12 per hour | Care Assistant - Bank - Care Home
+job_id: 3aa2ec6f-142a-49a9-8988-ebdf2fa072fd
+---
+
+---
+action:
+SELECTED | Surrey | Camberley | £13.5 per hour | Care Assistant - Bank - Care Home
+job_id: 35f1a846-e52c-4e76-b36d-6f908f04c9b9
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £14.5 per hour | Care Assistant - Care Home
+job_id: a854b6bf-3ea8-4382-ba7d-0c7ffbe7d2f0
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £28032 per year | Support Worker (Outreach)
+job_id: 070e00df-8c9a-476f-af6a-9929561460df
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £26592 per year | Learning Support Worker
+job_id: 26057c05-c4b0-4177-8fc5-572e8b895eb7
+---
+
+---
+action:
+SELECTED | Surrey | Esher | £26592 per year | Learning Support Worker
+job_id: 768f67eb-5423-47b5-92bb-1d2d9d7a86da
+---
+
+---
+action:
+SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
+job_id: 71355918-bca9-47a2-b3f5-9f126a4d9a08
+---
+
+---
+action:
+SELECTED | Surrey | Farnham | £13 per hour | Specialist Academic Support Worker
+job_id: cbf60a64-5151-4b7d-aea4-673061351d55
+---
+
+## SURREY — POSSIBLES
+
+---
+action:
+POSS - SURREY | Surrey | Camberley | £14 - £18 per hour | Support Care Workers - Camberley
+job_id: 23643_225134809
+---
+
+## WILTSHIRE — SELECTED
+
+---
+action:
+SELECTED | Wiltshire | Salisbury | £28222 per year | Young People Support Worker
+job_id: f3025bfd-33f8-41b8-a6c4-f8541ae66355
+---
+
+---
+action:
+SELECTED | Wiltshire | Chippenham | £13.81 per hour | Care Assistant - Bank - Care Home
+job_id: 3f4c625b-5417-4417-b340-71ab7e4ff941
+---
+
+---
+action:
+SELECTED | Wiltshire | Chippenham | £13.81 per hour | Care Assistant - Care Home
+job_id: 0f37805a-375b-4ffe-a5b7-85f2a35c16c8
+---
+
+---
+action:
+SELECTED | Wiltshire | Westbury | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR104989
+---
+
+## WILTSHIRE — POSSIBLES
+
+---
+action:
+POSS - WILTSHIRE | Wiltshire | Chippenham | £50000 - £60000 per year | Permanent Part-time Private Personal Assistant - Cotswolds
+job_id: 61318ff3-8530-4604-9b2f-3445400107a3
+---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
 {"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
