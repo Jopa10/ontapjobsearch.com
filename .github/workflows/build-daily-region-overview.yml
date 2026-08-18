@@ -2,12 +2,21 @@ name: Build daily regional overview
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Publish verified pages
+    types:
+      - completed
 
 permissions:
   contents: write
 
 jobs:
   build-overview:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
 
     steps:
@@ -47,6 +56,7 @@ jobs:
             exit 0
           fi
           git commit -m "Refresh daily regional overview"
+          git pull --rebase origin main
           git push origin HEAD:main
 
       - name: Workflow summary
