@@ -102,7 +102,7 @@ Bookkeeper,10,Other / Unclassified,KNOWN,finance_accounts:HIGH_CONFIDENCE,financ
 Audit Manager,10,Professional Finance / Accountancy,UNKNOWN,,,,,Haslemere (2); Shrewsbury (1); Ballymena (1); Hull (1); Glasgow (1),Professional Finance / Accountancy,title_rule_pass1
 Conveyancing Assistant,10,Other / Unclassified,UNKNOWN,,,,,City (2); Not Specified (2); Keighley (1); Chelmsford (1); Sutton Coldfield (1),Legal / Conveyancing,title_rule_pass2
 Merchandiser,10,Retail / Store,UNKNOWN,,,,,Dewsbury (2); Ipswich (1); Ayr (1); Stirling (1); Huddersfield (1),Retail / Store,title_rule_pass1
-Customer Team Member,10,Other / Unclassified,UNKNOWN,,,,,Ambleside (1); West Linton (1); Settle (1); Kinlochleven (1); Beauly (1),Retail / Store,description_majority
+Customer Team Member,10,Other / Unclassified,UNKNOWN,,,,,Ambleside (1); West Linton (1); Settle (1); Kinlochleven (1); Beauly (1),Retail / Store,title_rule_pass2
 Area Sales Manager,10,Sales / Business Development,UNKNOWN,,,,,Sittingbourne (1); Slough (1); Romford (1); Reading (1); Bicester (1),Sales / Business Development,title_rule_pass1
 Contracts Administrator,9,Admin / Customer Service,UNKNOWN,,,admin_service,,Epsom (2); Alderley Edge (1); Wilmslow (1); Maidenhead (1); Guildford (1),Admin / Customer Service,title_rule_pass1
 Temporary Receptionist,9,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Reading (2); Oxford (1); Littlemore (1); Teignmouth (1); Bradford (1),Admin / Customer Service,existing_register:admin_service
@@ -132,9 +132,9 @@ Care Assistant,8,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_work
 Personal Tax Manager,8,Professional Finance / Accountancy,UNKNOWN,,,,,St. Albans (2); Luton (1); Not Specified (1); Witney (1); Edinburgh (1),Professional Finance / Accountancy,title_rule_pass1
 Finance Director,8,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Not Specified (3); Camberley (1); Ipswich (1); Cheltenham (1); Cambridge (1),Professional Finance / Accountancy,title_rule_pass1
 Business Administrator,8,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Coleshill (1); Washington (1); Bishops Tachbrook (1); Cardiff (1); Dorking (1),Admin / Customer Service,existing_register:admin_service
-Autism Practitioner,8,Other / Unclassified,UNKNOWN,,,,,Bromley (2); Hayes (2); Beckenham (2); Chislehurst (2),Other / Unclassified,still_unclassified
+Autism Practitioner,8,Other / Unclassified,UNKNOWN,,,,,Bromley (2); Hayes (2); Beckenham (2); Chislehurst (2),Care / Support Work,title_rule_pass2
 Functional Assessor,8,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Bristol (1); Hounslow (1); Not Specified (1); Guildford (1); Bournemouth (1),Healthcare / Clinical,title_rule_pass2
-Employment Specialist,8,Other / Unclassified,UNKNOWN,,,,,Burntwood (1); Ulverston (1); Preston (1); Oxford (1); Northallerton (1),Other / Unclassified,still_unclassified
+Employment Specialist,8,Other / Unclassified,UNKNOWN,,,,,Burntwood (1); Ulverston (1); Preston (1); Oxford (1); Northallerton (1),Employment Support / Careers,title_rule_pass2
 Marketing Manager,8,Marketing / Digital / Creative,UNKNOWN,,,,,Not Specified (2); Sheffield (1); Chesterfield (1); Nottingham (1); City (1),Marketing / Digital / Creative,title_rule_pass1
 "Senior Product Marketing Manager, Veeqo",7,Marketing / Digital / Creative,UNKNOWN,,,,,Sketty (1); Waunarlwydd (1); Llansamlet (1); City (1); Morriston (1),Marketing / Digital / Creative,title_rule_pass1
 Operations Coordinator,7,Admin / Customer Service,UNKNOWN,,,admin_service,,Aberdeen (1); Crossmaglen (1); Northfleet (1); Knaphill (1); Wetherby (1),Admin / Customer Service,title_rule_pass1
@@ -143,7 +143,7 @@ Retail Optical Assistant,7,Retail / Store,KNOWN,admin_service:OUT_OF_SCOPE; hr_r
 Practice Manager,7,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Taunton (1); Dundee (1); Pudsey (1); Leeds (1); Welshpool (1),Management / Team Leadership,title_rule_pass2
 Service Administrator,7,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:ELASTIC_FIT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service; customer_service_contact_centre,admin_service,,King's Lynn (1); Not Specified (1); City (1); Burgess Hill (1); Cambridge (1),Admin / Customer Service,existing_register:customer_service_contact_centre
 Social Media Manager,7,Marketing / Digital / Creative,UNKNOWN,,,,,Manchester (2); Stockport (1); Cheadle (1); City (1); Not Specified (1),Marketing / Digital / Creative,title_rule_pass1
-Service Colleague Food Services,7,Other / Unclassified,UNKNOWN,,,,,Stirling (1); Chesterfield (1); Faringdon (1); Deeside (1); Rhyl (1),Other / Unclassified,still_unclassified
+Service Colleague Food Services,7,Other / Unclassified,UNKNOWN,,,,,Stirling (1); Chesterfield (1); Faringdon (1); Deeside (1); Rhyl (1),Retail / Store,title_rule_pass2
 WCA Nurse Assessor,7,Healthcare / Clinical,UNKNOWN,,,,,Antrim (1); City (1); Lisburn (1); Coleraine (1); Downpatrick (1),Healthcare / Clinical,title_rule_pass1
 Senior Support Worker,7,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:HARD_PASS,,support_worker,,Macclesfield (1); Hungerford (1); Hindhead (1); Warrington (1); Godalming (1),Care / Support Work,title_rule_pass1
 FP&A Manager,7,Other / Unclassified,UNKNOWN,,,,,Not Specified (3); Southampton (1); Fareham (1); Portsmouth (1); Dudley (1),Professional Finance / Accountancy,title_rule_pass2
@@ -179,7 +179,7 @@ Night Care Assistant,6,Care / Support Work,KNOWN,admin_service:HARD_PASS; suppor
 Field Care Supervisor,6,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Eastbourne (1); Not Specified (1); Worcester (1); Worthing (1); Carlisle (1),Management / Team Leadership,title_rule_pass2
 ESEL Team Leader,6,Other / Unclassified,UNKNOWN,,,,,Leeds (1); Bristol (1); Newcastle Upon Tyne (1); Derby (1); Leicester (1),Management / Team Leadership,title_rule_pass2
 FP&A Analyst,6,Other / Unclassified,UNKNOWN,,,,,Not Specified (4); Sheffield (1); Reading (1),Professional Finance / Accountancy,title_rule_pass2
-Trustee,6,Other / Unclassified,UNKNOWN,,,,,Not Specified (4); Southampton (1); Buckfastleigh (1),Other / Unclassified,still_unclassified
+Trustee,6,Other / Unclassified,UNKNOWN,,,,,Not Specified (4); Southampton (1); Buckfastleigh (1),Charity / Fundraising / Community,title_rule_pass2
 Legal Assistant,6,Legal / Conveyancing,UNKNOWN,,,,,Bedford (2); Warrington (1); Southwark (1); Exeter (1); Newbury (1),Legal / Conveyancing,title_rule_pass1
 Technical Paraplanner,6,Financial Advice / Mortgages,UNKNOWN,,,,,Not Specified (1); Bath (1); Edinburgh (1); Glasgow (1); City (1),Financial Advice / Mortgages,title_rule_pass1
 Personal Tax Senior,6,Professional Finance / Accountancy,UNKNOWN,,,,,Brierley Hill (2); Witney (1); Glasgow (1); Eastleigh (1); City (1),Professional Finance / Accountancy,title_rule_pass1
@@ -202,7 +202,7 @@ Payroll Officer,6,Professional Finance / Accountancy,KNOWN,finance_accounts:HIGH
 Graduate Sales & Business Management Trainee,6,Sales / Business Development,UNKNOWN,,,,,Alphington (1); Not Specified (1); Hellesdon (1); Ipswich (1); Exeter (1),Sales / Business Development,title_rule_pass1
 Junior AI Consultant programme - No Experience needed,6,Other / Unclassified,UNKNOWN,,,,,Edinburgh (1); York (1); Cardiff (1); Bristol (1); Tiverton (1),IT / Data / Software,title_rule_pass2
 Highly Specialist Occupational Therapist,6,Healthcare / Clinical,UNKNOWN,,,,,Ickenham (2); Wembley (1); Ruislip (1); Hillingdon (1); Harrow (1),Healthcare / Clinical,title_rule_pass1
-Family Court Advisor,6,Other / Unclassified,UNKNOWN,,,,,Chelmsford (1); Swindon (1); Middlesbrough (1); Reading (1); Coventry (1),Other / Unclassified,still_unclassified
+Family Court Advisor,6,Other / Unclassified,UNKNOWN,,,,,Chelmsford (1); Swindon (1); Middlesbrough (1); Reading (1); Coventry (1),Legal / Conveyancing,title_rule_pass2
 Property Administrator,5,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,admin_service:HIGH_CONFIDENCE->HARD_PASS,Leicester (1); Sheffield (1); Guildford (1); Bournemouth (1); South Croydon (1),Admin / Customer Service,title_rule_pass1
 Admin Assistant,5,Admin / Customer Service,KNOWN,hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,admin_service,,Not Specified (1); Neath (1); Broxburn (1); Stockton-on-tees (1); Keynsham (1),Admin / Customer Service,title_rule_pass1
 Site Administrator,5,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Alyth (1); Aberfeldy (1); Oulton (1); Innerwick (1); Lowestoft (1),Admin / Customer Service,existing_register:admin_service
@@ -229,14 +229,14 @@ Accounts Payable Assistant,5,Professional Finance / Accountancy,KNOWN,finance_ac
 Payroll Coordinator,5,Professional Finance / Accountancy,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,admin_service; finance_accounts,,Not Specified (2); Halifax (1); Leicester (1); Wallingford (1),Professional Finance / Accountancy,existing_register:finance_accounts
 Legal PA,5,Legal / Conveyancing,UNKNOWN,,,,,Nottingham (2); Exeter (1); City (1); Aberdeen (1),Legal / Conveyancing,title_rule_pass1
 Care Coordinator,5,Care / Support Work,KNOWN,admin_service:ELASTIC_FIT; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service,admin_service,,Chippenham (1); Exeter (1); Not Specified (1); New Milton (1); Andover (1),Admin / Customer Service,existing_register:admin_service
-Rental Agent,5,Other / Unclassified,UNKNOWN,,,,,Lincoln (1); Chester (1); Worcester (1); Inverness (1); Salisbury (1),Other / Unclassified,still_unclassified
+Rental Agent,5,Other / Unclassified,UNKNOWN,,,,,Lincoln (1); Chester (1); Worcester (1); Inverness (1); Salisbury (1),Property / Housing / Planning,title_rule_pass2
 Parts Advisor,5,Other / Unclassified,UNKNOWN,,,,,Retford (2); Not Specified (2); Port Talbot (1),Admin / Customer Service,title_rule_pass2
 Veterinary Surgeon,5,Healthcare / Clinical,KNOWN,admin_service:OUT_OF_SCOPE,,,,Sidmouth (1); Sheffield (1); Sudbury (1); Haverhill (1); Not Specified (1),Healthcare / Clinical,title_rule_pass1
 Educational Psychologist,5,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Kensington And Chelsea (1); Chatham (1); Northampton (1),Healthcare / Clinical,title_rule_pass2
 Aspiring Educational Psychologist,5,Other / Unclassified,KNOWN,admin_service:HARD_PASS,,,,Worthing (1); Trowbridge (1); Woking (1); Flitwick (1); Not Specified (1),Healthcare / Clinical,title_rule_pass2
 Senior Management Accountant,5,Professional Finance / Accountancy,UNKNOWN,,,,,Harrogate (1); Swindon (1); Southampton (1); Stockton-on-tees (1); Goole (1),Professional Finance / Accountancy,title_rule_pass1
 General Manager,5,Operations / General Management,UNKNOWN,,,,,Skipton (1); Tarporley (1); Aberdovey (1); Yeovil (1); Gloucester (1),Operations / General Management,title_rule_pass1
-Bid Writer,5,Other / Unclassified,UNKNOWN,,,,,City (1); Runcorn (1); Bathgate (1); Chigwell (1); Derby (1),Other / Unclassified,still_unclassified
+Bid Writer,5,Other / Unclassified,UNKNOWN,,,,,City (1); Runcorn (1); Bathgate (1); Chigwell (1); Derby (1),Marketing / Digital / Creative,title_rule_pass2
 Area Manager,5,Operations / General Management,UNKNOWN,,,,,Braintree (1); Callington (1); Bristol (1); Not Specified (1); Harlow (1),Operations / General Management,title_rule_pass1
 Contracts Manager,5,Other / Unclassified,UNKNOWN,,,,,Bury St. Edmunds (1); Yeovil (1); Barrow-in-furness (1); Andover (1); Hinckley (1),Other / Unclassified,still_unclassified
 HR Officer,5,HR / Recruitment,KNOWN,hr_recruitment:HIGH_CONFIDENCE,hr_recruitment,admin_service; hr_recruitment,,Redbridge (1); Basildon (1); Bristol (1); Leicester (1); Avonmouth (1),HR / Recruitment,existing_register:hr_recruitment
@@ -250,12 +250,12 @@ Facilities Manager,5,Construction / Trades / Property,UNKNOWN,,,,,Not Specified 
 Social Worker,5,Care / Support Work,KNOWN,admin_service:HARD_PASS,,,,Not Specified (4); Cardiff (1),Care / Support Work,title_rule_pass1
 Junior Ethical Hacker / Penetration Tester no experience needed,5,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Glasgow (1); Not Specified (1); Leeds (1); Cardiff (1),IT / Data / Software,title_rule_pass2
 Telesales Executive,5,Sales / Business Development,UNKNOWN,,,,,Lutterworth (1); Liverpool (1); Cardiff (1); Winsford (1); City (1),Sales / Business Development,title_rule_pass1
-Commercial Account Handler,5,Other / Unclassified,UNKNOWN,,,,,Chelmsford (1); Manchester (1); Not Specified (1); Maidstone (1); Mirfield (1),Insurance / Claims,description_majority
-Service Colleague Express,5,Other / Unclassified,UNKNOWN,,,,,Moreton-in-marsh (1); Salisbury (1); Hexham (1); Yarm (1); Workington (1),Retail / Store,description_majority
+Commercial Account Handler,5,Other / Unclassified,UNKNOWN,,,,,Chelmsford (1); Manchester (1); Not Specified (1); Maidstone (1); Mirfield (1),Insurance / Claims,title_rule_pass2
+Service Colleague Express,5,Other / Unclassified,UNKNOWN,,,,,Moreton-in-marsh (1); Salisbury (1); Hexham (1); Yarm (1); Workington (1),Retail / Store,title_rule_pass2
 Sales Engineer,5,Engineering / Technical,UNKNOWN,,,,,City (2); Not Specified (2); Cambridge (1),Engineering / Technical,title_rule_pass1
 Internal Account Manager,5,Sales / Business Development,UNKNOWN,,,,,Uxbridge (1); Oldbury (1); Horsforth (1); Bolton (1); Wellingborough (1),Sales / Business Development,title_rule_pass1
 Registered Nurse (RGN) - Bank - Care Home,5,Healthcare / Clinical,UNKNOWN,,,,,Not Specified (2); Shenfield (1); Greenock (1); Oxted (1),Healthcare / Clinical,title_rule_pass1
-Psychology Graduates,5,Other / Unclassified,UNKNOWN,,,,,Uxbridge (1); Ashford (1); Harrow (1); Not Specified (1); Barnet (1),HR / Recruitment,description_majority
+Psychology Graduates,5,Other / Unclassified,UNKNOWN,,,,,Uxbridge (1); Ashford (1); Harrow (1); Not Specified (1); Barnet (1),Employment Support / Careers,description_majority
 Data Engineer,5,IT / Data / Software,UNKNOWN,,,,,Not Specified (2); Blackpool (1); Sheffield (1); Birmingham (1),IT / Data / Software,title_rule_pass1
 Document Controller,4,Other / Unclassified,KNOWN,admin_service:ELASTIC_FIT,admin_service,,,Hounslow (1); Knaphill (1); Maidstone (1); Hartlepool (1),Admin / Customer Service,existing_register:admin_service
 Production Administrator,4,Admin / Customer Service,KNOWN,admin_service:HARD_PASS,,admin_service,,Doncaster (1); Halstead (1); Newcastle (1); Aldridge (1),Admin / Customer Service,title_rule_pass1
@@ -273,7 +273,7 @@ Commercial Underwriter,4,Other / Unclassified,UNKNOWN,,,,,Colchester (2); Not Sp
 Facilities Assistant,4,Other / Unclassified,UNKNOWN,,,,,York (1); Wareham (1); City (1); Witham (1),Cleaning / Domestic / Facilities,title_rule_pass2
 Customer Support Advisor,4,Admin / Customer Service,KNOWN,customer_service_contact_centre:HIGH_CONFIDENCE,customer_service_contact_centre,customer_service_contact_centre,,Leeds (1); Bletchley (1); Bournemouth (1); Mansfield (1),Admin / Customer Service,existing_register:customer_service_contact_centre
 Operations Director,4,Operations / General Management,UNKNOWN,,,,,Not Specified (2); Exeter (1); Reading (1),Operations / General Management,title_rule_pass1
-Senior Employment Counsel,4,Other / Unclassified,UNKNOWN,,,,,Not Specified (3); Southampton (1),Other / Unclassified,still_unclassified
+Senior Employment Counsel,4,Other / Unclassified,UNKNOWN,,,,,Not Specified (3); Southampton (1),Legal / Conveyancing,title_rule_pass2
 Receptionist / Administrator,4,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Weybridge (2); Canterbury (1); Impington (1),Admin / Customer Service,existing_register:admin_service
 Property Litigation Paralegal,4,Legal / Conveyancing,UNKNOWN,,,,,Ware (2); Not Specified (1); Puckeridge (1),Legal / Conveyancing,title_rule_pass1
 Qualified Social Worker Family Court Adviser CAFCASS,4,Care / Support Work,UNKNOWN,,,,,Not Specified (1); Coventry (1); Reading (1); Liverpool (1),Care / Support Work,title_rule_pass1
@@ -302,7 +302,7 @@ Customer Representative Field Based,4,Other / Unclassified,UNKNOWN,,,,,Perth (1)
 Veterinary Nurse,4,Healthcare / Clinical,UNKNOWN,,,,,Crewe (1); Glasgow (1); Not Specified (1); Eastleigh (1),Healthcare / Clinical,title_rule_pass1
 Nurse Unit Manager,4,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Rotherham (1); Sheffield (1); Newcastle Upon Tyne (1); Immingham (1),Healthcare / Clinical,title_rule_pass1
 CMM Programmer,4,IT / Data / Software,UNKNOWN,,,,,Not Specified (1); Leicester (1); Kidderminster (1); Northampton (1),IT / Data / Software,title_rule_pass1
-Paid Media Specialist,4,Other / Unclassified,UNKNOWN,,,,,Not Specified (3); Nottingham (1),Marketing / Digital / Creative,description_majority
+Paid Media Specialist,4,Other / Unclassified,UNKNOWN,,,,,Not Specified (3); Nottingham (1),Marketing / Digital / Creative,title_rule_pass2
 Hygiene Operative,4,Other / Unclassified,KNOWN,admin_service:HARD_PASS; warehouse_logistics:REVIEW_CONTEXT_DEPENDENT,,,,Northampton (2); Musselburgh (1); Corby (1),Cleaning / Domestic / Facilities,title_rule_pass2
 Product Manager,4,IT / Data / Software,UNKNOWN,,,,,City (1); Irchester (1); Manchester (1); Not Specified (1),IT / Data / Software,title_rule_pass1
 Trainee Recruitment Consultant,4,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Southampton (1); Maidstone (1); Highworth (1); Not Specified (1),HR / Recruitment,title_rule_pass1
@@ -316,7 +316,7 @@ Night Support Worker - Children's Homes,4,Care / Support Work,KNOWN,support_work
 Aspiring Occupational Therapist,4,Healthcare / Clinical,UNKNOWN,,,,,Haywards Heath (1); Worthing (1); Chichester (1); East Grinstead (1),Healthcare / Clinical,title_rule_pass1
 Psychologist,4,Other / Unclassified,UNKNOWN,,,,,Preston (2); Cottam (2),Healthcare / Clinical,title_rule_pass2
 Chef,4,Hospitality / Catering,UNKNOWN,,,,,Dursley (1); Milton Keynes (1); Lincoln (1); Not Specified (1),Hospitality / Catering,title_rule_pass1
-AI Governance Consultant,4,Other / Unclassified,UNKNOWN,,,,,City (1); Not Specified (1); Bristol (1); Edinburgh (1),Other / Unclassified,still_unclassified
+AI Governance Consultant,4,Other / Unclassified,UNKNOWN,,,,,City (1); Not Specified (1); Bristol (1); Edinburgh (1),Compliance / Risk / Quality,title_rule_pass2
 Healthcare Assistant,4,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,support_worker,support_worker,,Liverpool (1); City (1); Bradford (1); Harrogate (1),Care / Support Work,existing_register:support_worker
 Customer Service Apprentice,4,Admin / Customer Service,KNOWN,customer_service_contact_centre:HIGH_CONFIDENCE,customer_service_contact_centre,customer_service_contact_centre,,Workington (1); St. Albans (1); Peterborough (1); Reading (1),Admin / Customer Service,existing_register:customer_service_contact_centre
 Customer Account Manager,4,Sales / Business Development,UNKNOWN,,,,,Lisburn (1); King's Lynn (1); Harrogate (1); Newton Abbot (1),Sales / Business Development,title_rule_pass1
@@ -331,7 +331,7 @@ Laboratory Manager,4,Science / Laboratory,UNKNOWN,,,,,Tewkesbury (3); Middlesbro
 "Self employed Equity Release Broker, Top National Market leading firm",4,Other / Unclassified,UNKNOWN,,,,,Leeds (1); Swindon (1); Newcastle Upon Tyne (1); Croydon (1),Insurance / Claims,title_rule_pass2
 Pensions Lead,4,Other / Unclassified,UNKNOWN,,,,,Lewes (2); Jacob's Well (1); Guildford (1),Other / Unclassified,still_unclassified
 Data Analyst,4,IT / Data / Software,UNKNOWN,,,,,Not Specified (1); Dunstable (1); Portsmouth (1); Plymouth (1),IT / Data / Software,title_rule_pass1
-Store Leader,4,Other / Unclassified,UNKNOWN,,,,,Fareham (2); Horsham (2),Other / Unclassified,still_unclassified
+Store Leader,4,Other / Unclassified,UNKNOWN,,,,,Fareham (2); Horsham (2),Retail / Store,title_rule_pass2
 Area Sales Manager - Powered Access,4,Sales / Business Development,UNKNOWN,,,,,Huntingdon (1); Lightwater (1); Not Specified (1); Glasgow (1),Sales / Business Development,title_rule_pass1
 Specialist Occupational Therapist,4,Healthcare / Clinical,UNKNOWN,,,,,Stockport (2); Hythe (2),Healthcare / Clinical,title_rule_pass1
 Practitioner Psychologist,4,Other / Unclassified,UNKNOWN,,,,,Bromley (1); Beckenham (1); Hayes (1); Chislehurst (1),Healthcare / Clinical,title_rule_pass2
@@ -346,9 +346,9 @@ Part Time Administrator,3,Admin / Customer Service,KNOWN,customer_service_contac
 Office Assistant,3,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Not Specified (2); City (1),Admin / Customer Service,existing_register:admin_service
 Account Coordinator,3,Admin / Customer Service,UNKNOWN,,,admin_service,,Hull (2); Not Specified (1),Admin / Customer Service,title_rule_pass1
 Supply Chain Administrator,3,Procurement / Buying / Supply Chain,KNOWN,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT; warehouse_logistics:ELASTIC_FIT,admin_service; warehouse_logistics,admin_service,,Desborough (1); Barrow-in-furness (1); Cambourne (1),Driving / Warehouse / Logistics,existing_register:warehouse_logistics
-Asset Manager,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); City (1),Other / Unclassified,still_unclassified
+Asset Manager,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); City (1),Property / Housing / Planning,title_rule_pass2
 Trainee Property / Loss Adjuster,3,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Newcastle Upon Tyne (1); Glasgow (1),Insurance / Claims,title_rule_pass2
-Paid Media Executive,3,Other / Unclassified,UNKNOWN,,,,,Scarborough (1); Liverpool (1); Manchester (1),Marketing / Digital / Creative,description_majority
+Paid Media Executive,3,Other / Unclassified,UNKNOWN,,,,,Scarborough (1); Liverpool (1); Manchester (1),Marketing / Digital / Creative,title_rule_pass2
 Real Estate Solicitor,3,Legal / Conveyancing,UNKNOWN,,,,,Cambridge (1); Edinburgh (1); Newcastle Upon Tyne (1),Legal / Conveyancing,title_rule_pass1
 Night Senior Carer,3,Care / Support Work,UNKNOWN,,,,,Poole (1); Salisbury (1); Winchester (1),Care / Support Work,title_rule_pass1
 Senior Carer - Residential Care Home,3,Care / Support Work,UNKNOWN,,,,,Crawley (1); Bath (1); Salisbury (1),Care / Support Work,title_rule_pass1
@@ -365,7 +365,7 @@ Mortgage Administrator,3,Financial Advice / Mortgages,KNOWN,admin_service:HIGH_C
 Litigation Solicitor,3,Legal / Conveyancing,UNKNOWN,,,,,Manchester (1); Eastbourne (1); Otley (1),Legal / Conveyancing,title_rule_pass1
 Personal Injury Solicitor,3,Legal / Conveyancing,UNKNOWN,,,,,Leeds (1); Not Specified (1); Bath (1),Legal / Conveyancing,title_rule_pass1
 Financial Administrator,3,Admin / Customer Service,KNOWN,finance_accounts:REVIEW_CONTEXT_DEPENDENT; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,admin_service,,Horsham (1); Brighton (1); Welwyn Garden City (1),Admin / Customer Service,title_rule_pass1
-Customer Success Manager,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Peterborough (1); Tewkesbury (1),Other / Unclassified,still_unclassified
+Customer Success Manager,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Peterborough (1); Tewkesbury (1),Admin / Customer Service,title_rule_pass2
 Internal Sales Administrator,3,Sales / Business Development,UNKNOWN,,,admin_service,,Warrington (1); Chesterfield (1); Letchworth Garden City (1),Sales / Business Development,title_rule_pass1
 Account Director,3,Other / Unclassified,UNKNOWN,,,,,Marlborough (1); Leeds (1); Not Specified (1),Other / Unclassified,still_unclassified
 Independent Financial Advisor,3,Financial Advice / Mortgages,UNKNOWN,,,,,City (1); Grantham (1); Camberley (1),Financial Advice / Mortgages,title_rule_pass1
@@ -374,7 +374,7 @@ Audit Senior Manager,3,Professional Finance / Accountancy,UNKNOWN,,,,,Bristol (1
 Customer Service Manager,3,Admin / Customer Service,UNKNOWN,,,customer_service_contact_centre,,Stevenage (1); Weston-super-mare (1); Daventry (1),Admin / Customer Service,title_rule_pass1
 Team Administrator,3,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Horsham (1); Guildford (1); Fetcham (1),Admin / Customer Service,existing_register:admin_service
 Senior Care Assistant,3,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:HARD_PASS; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,support_worker,,St. Leonards-on-sea (1); Liverpool (1); Derby (1),Care / Support Work,title_rule_pass1
-Financial Planning Analyst,3,Other / Unclassified,UNKNOWN,,,,,Poole (2); Leeds (1),Other / Unclassified,still_unclassified
+Financial Planning Analyst,3,Other / Unclassified,UNKNOWN,,,,,Poole (2); Leeds (1),Professional Finance / Accountancy,title_rule_pass2
 Purchase Ledger Assistant,3,Professional Finance / Accountancy,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,finance_accounts,,Sutton-in-ashfield (1); Leicester (1); Not Specified (1),Professional Finance / Accountancy,existing_register:finance_accounts
 Mortgage Broker,3,Financial Advice / Mortgages,UNKNOWN,,,,,Hull (1); Middlesbrough (1); Not Specified (1),Financial Advice / Mortgages,title_rule_pass1
 Administration Manager,3,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (2); Harrow (1),Admin / Customer Service,title_rule_pass1
@@ -391,19 +391,19 @@ Commercial Management Accountant,3,Professional Finance / Accountancy,UNKNOWN,,,
 Commercial Litigation Solicitor,3,Legal / Conveyancing,UNKNOWN,,,,,Colchester (1); Reading (1); St. Albans (1),Legal / Conveyancing,title_rule_pass1
 Business Support Officer,3,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service,admin_service,,Trefnant (1); St. Asaph (1); Manchester (1),Admin / Customer Service,existing_register:admin_service
 Senior Lettings Negotiator,3,Construction / Trades / Property,UNKNOWN,,,,,Dover (1); Buckhurst Hill (1); Beaconsfield (1),Construction / Trades / Property,title_rule_pass1
-IPS Employment Specialist,3,Other / Unclassified,UNKNOWN,,,,,Preston (1); Lytham St. Annes (1); Leicester (1),Other / Unclassified,still_unclassified
+IPS Employment Specialist,3,Other / Unclassified,UNKNOWN,,,,,Preston (1); Lytham St. Annes (1); Leicester (1),Employment Support / Careers,title_rule_pass2
 Training Administrator,3,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; hr_recruitment:ELASTIC_FIT,admin_service; hr_recruitment,admin_service,,Maidstone (1); Grangemouth (1); Wakefield (1),HR / Recruitment,existing_register:hr_recruitment
 Nail Technician,3,Engineering / Technical,UNKNOWN,,,,,Not Specified (1); Edinburgh (1); Glasgow (1),Engineering / Technical,title_rule_pass1
 Psychology Graduate,3,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Oxford (1); Manchester (1); High Wycombe (1),Other / Unclassified,still_unclassified
 Senior Planner,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Dorking (1),Other / Unclassified,still_unclassified
-Lodge Manager,3,Other / Unclassified,UNKNOWN,,,,,Gillingham (1); Bristol (1); Not Specified (1),Other / Unclassified,still_unclassified
-Employment Advisor,3,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Uxbridge (1); Barnet (1),HR / Recruitment,description_majority
+Lodge Manager,3,Other / Unclassified,UNKNOWN,,,,,Gillingham (1); Bristol (1); Not Specified (1),Management / Team Leadership,title_rule_pass2
+Employment Advisor,3,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Uxbridge (1); Barnet (1),Employment Support / Careers,title_rule_pass2
 Executive Search Consultant,3,Other / Unclassified,UNKNOWN,,,,,Hull (1); Leicester (1); Not Specified (1),Other / Unclassified,still_unclassified
-Job Coach,3,Other / Unclassified,UNKNOWN,,,,,Welshpool (1); Not Specified (1); Weybridge (1),Other / Unclassified,still_unclassified
+Job Coach,3,Other / Unclassified,UNKNOWN,,,,,Welshpool (1); Not Specified (1); Weybridge (1),Employment Support / Careers,title_rule_pass2
 Nurse Functional Assessor,3,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Aylesbury (1); Southampton (1); Weymouth (1),Healthcare / Clinical,title_rule_pass1
 Night Care Team Leader,3,Other / Unclassified,UNKNOWN,,,,,Bognor Regis (1); Broadstairs (1); Southampton (1),Management / Team Leadership,title_rule_pass2
 Independent Financial Adviser,3,Financial Advice / Mortgages,UNKNOWN,,,,,Not Specified (1); Bristol (1); Nottingham (1),Financial Advice / Mortgages,title_rule_pass1
-ServiceNow Architect,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Edinburgh (1),Other / Unclassified,still_unclassified
+ServiceNow Architect,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Edinburgh (1),IT / Data / Software,title_rule_pass2
 Mobile Engineer,3,Engineering / Technical,UNKNOWN,,,,,Aberdeen (1); Milton Keynes (1); Leeds (1),Engineering / Technical,title_rule_pass1
 Senior Systems Engineer,3,IT / Data / Software,UNKNOWN,,,,,Bristol (1); Portsmouth (1); Fareham (1),IT / Data / Software,title_rule_pass1
 Security Systems Engineer,3,IT / Data / Software,UNKNOWN,,,,,Chester (1); Orpington (1); Banstead (1),IT / Data / Software,title_rule_pass1
@@ -421,12 +421,12 @@ Business Operations Manager,3,Operations / General Management,UNKNOWN,,,,,Not Sp
 Registered Branch Manager,3,Operations / General Management,UNKNOWN,,,,,Plymouth (1); Hertford (1); Liskeard (1),Operations / General Management,title_rule_pass1
 Registered Service Manager,3,Other / Unclassified,UNKNOWN,,,,,Blackpool (1); Oxford (1); Reading (1),Management / Team Leadership,title_rule_pass2
 Conservatory Design Sales Executive,3,Sales / Business Development,UNKNOWN,,,,,Bournemouth (1); Torpoint (1); Derby (1),Sales / Business Development,title_rule_pass1
-Senior Practitioner,3,Other / Unclassified,UNKNOWN,,,,,Inverness (1); Aberdeen (1); Not Specified (1),Other / Unclassified,still_unclassified
+Senior Practitioner,3,Other / Unclassified,UNKNOWN,,,,,Inverness (1); Aberdeen (1); Not Specified (1),Care / Support Work,title_rule_pass2
 Sales Representative,3,Sales / Business Development,UNKNOWN,,,,,Inverness (1); York (1); Tunbridge Wells (1),Sales / Business Development,title_rule_pass1
 Dynamics 365 Developer,3,IT / Data / Software,UNKNOWN,,,,,Lincoln (1); Maidstone (1); Coventry (1),IT / Data / Software,title_rule_pass1
 Penetration Tester,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Cardiff (1),IT / Data / Software,title_rule_pass2
 School Counsellor,3,Education / Teaching,UNKNOWN,,,,,Not Specified (1); Horsham (1); Bognor Regis (1),Education / Teaching,title_rule_pass1
-Product Owner,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Bristol (1); Newcastle Upon Tyne (1),IT / Data / Software,description_majority
+Product Owner,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Bristol (1); Newcastle Upon Tyne (1),IT / Data / Software,title_rule_pass2
 Audit Semi Senior,3,Professional Finance / Accountancy,UNKNOWN,,,,,Southampton (1); Oxford (1); Newbury (1),Professional Finance / Accountancy,title_rule_pass1
 Customer Services Administrator,3,Admin / Customer Service,KNOWN,customer_service_contact_centre:HIGH_CONFIDENCE,customer_service_contact_centre,admin_service; customer_service_contact_centre,,Matlock (1); Bromley (1); Knutsford (1),Admin / Customer Service,existing_register:customer_service_contact_centre
 Residential Property Conveyancer,3,Other / Unclassified,UNKNOWN,,,,,Diss (2); Ipswich (1),Legal / Conveyancing,title_rule_pass2
@@ -437,7 +437,7 @@ Business Development Consultant - Graduate or Graduate Calibre,3,Sales / Busines
 Waking Night Support Worker,3,Care / Support Work,KNOWN,support_worker:ELASTIC_FIT,support_worker,support_worker,,Southampton (1); Ascot (1); Not Specified (1),Care / Support Work,existing_register:support_worker
 Registered Nurse - Bank,3,Healthcare / Clinical,UNKNOWN,,,,,King's Lynn (1); Ipswich (1); March (1),Healthcare / Clinical,title_rule_pass1
 Productivity Manager,3,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Reading (1); Newcastle Upon Tyne (1),Other / Unclassified,still_unclassified
-Print Finisher,3,Other / Unclassified,UNKNOWN,,,,,Swindon (2); Guernsey (1),Other / Unclassified,still_unclassified
+Print Finisher,3,Other / Unclassified,UNKNOWN,,,,,Swindon (2); Guernsey (1),Manufacturing / Production,title_rule_pass2
 Senior Graphic Designer,3,Marketing / Digital / Creative,UNKNOWN,,,,,Stevenage (1); City (1); Peterborough (1),Marketing / Digital / Creative,title_rule_pass1
 Aspiring Speech and Language Therapist,3,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Chichester (1); Worthing (1); Haywards Heath (1),Healthcare / Clinical,title_rule_pass1
 Warranty Administrator,3,Admin / Customer Service,UNKNOWN,,,admin_service,,Ilminster (2); Thame (1),Admin / Customer Service,title_rule_pass1
@@ -449,7 +449,7 @@ Trainee Network Engineer No Experience Required,3,IT / Data / Software,UNKNOWN,,
 Framework Manager,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Watford (1); Bellshill (1),Other / Unclassified,still_unclassified
 Insolvency Manager,3,Other / Unclassified,UNKNOWN,,,,,Stoke-on-trent (1); Not Specified (1); Cambridge (1),Other / Unclassified,still_unclassified
 Network Engineer,3,IT / Data / Software,UNKNOWN,,,,,Not Specified (2); City (1),IT / Data / Software,title_rule_pass1
-Entry Level Data Consultant No Experience Required,3,Other / Unclassified,UNKNOWN,,,,,Liverpool (1); Bristol (1); Not Specified (1),Other / Unclassified,still_unclassified
+Entry Level Data Consultant No Experience Required,3,Other / Unclassified,UNKNOWN,,,,,Liverpool (1); Bristol (1); Not Specified (1),IT / Data / Software,title_rule_pass2
 Tax Accountant,3,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1); Sherborne (1); Liverpool (1),Professional Finance / Accountancy,title_rule_pass1
 Mortgage and Protection Advisor,3,Financial Advice / Mortgages,UNKNOWN,,,,,Not Specified (1); St. Helens (1); Glasgow (1),Financial Advice / Mortgages,title_rule_pass1
 Senior Financial Accountant,3,Professional Finance / Accountancy,UNKNOWN,,,,,Exeter (1); Swindon (1); Warwick (1),Professional Finance / Accountancy,title_rule_pass1
@@ -459,15 +459,15 @@ Payroll Specialist,3,Professional Finance / Accountancy,UNKNOWN,,,finance_accoun
 People Partner (Employee Relations) - South East,3,HR / Recruitment,UNKNOWN,,,,,Aldershot (1); Epsom (1); Guildford (1),HR / Recruitment,title_rule_pass1
 Trainee Financial Adviser,3,Financial Advice / Mortgages,UNKNOWN,,,,,Not Specified (1); Peterborough (1); Wilmslow (1),Financial Advice / Mortgages,title_rule_pass1
 Enabling Support Worker,3,Care / Support Work,UNKNOWN,,,support_worker,,Rowlands Gill (1); Bromley (1); Newcastle Upon Tyne (1),Care / Support Work,title_rule_pass1
-Duty Manager,3,Other / Unclassified,UNKNOWN,,,,,Leamington Spa (1); Glasgow (1); Godalming (1),Other / Unclassified,still_unclassified
+Duty Manager,3,Other / Unclassified,UNKNOWN,,,,,Leamington Spa (1); Glasgow (1); Godalming (1),Management / Team Leadership,title_rule_pass2
 Senior Assistant Merchandiser,3,Retail / Store,UNKNOWN,,,,,City (1); Stockport (1); Not Specified (1),Retail / Store,title_rule_pass1
 PRIVATE CLIENT SOLICITOR/LEGAL EXECUTIVE,3,Legal / Conveyancing,UNKNOWN,,,,,Hastings (1); Melton Mowbray (1); Fakenham (1),Legal / Conveyancing,title_rule_pass1
 Telehandler,3,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Buntingford (1); Wirral (1),Other / Unclassified,still_unclassified
-Consultant Psychiatrist- Eating Disorders,3,Other / Unclassified,UNKNOWN,,,,,Cottam (2); Preston (1),Other / Unclassified,still_unclassified
+Consultant Psychiatrist- Eating Disorders,3,Other / Unclassified,UNKNOWN,,,,,Cottam (2); Preston (1),Healthcare / Clinical,title_rule_pass2
 Registered Mental Health Nurse,3,Healthcare / Clinical,UNKNOWN,,,,,Hartley Wintney (2); Halifax (1),Healthcare / Clinical,title_rule_pass1
 Senior Mental Health Nurse,3,Healthcare / Clinical,UNKNOWN,,,,,Rednal (2); Not Specified (1),Healthcare / Clinical,title_rule_pass1
 Registered Practitioner Psychologist - CAMHS,3,Other / Unclassified,UNKNOWN,,,,,Bromley (3),Healthcare / Clinical,title_rule_pass2
-Consultant Psychiatrist - Adult Acute Ward,3,Other / Unclassified,UNKNOWN,,,,,Heald Green (2); Cheadle (1),Other / Unclassified,still_unclassified
+Consultant Psychiatrist - Adult Acute Ward,3,Other / Unclassified,UNKNOWN,,,,,Heald Green (2); Cheadle (1),Healthcare / Clinical,title_rule_pass2
 Senior Social Media Executive,3,Marketing / Digital / Creative,UNKNOWN,,,,,Hutton (1); Brentwood (1); Romford (1),Marketing / Digital / Creative,title_rule_pass1
 Regional Sales Manager,3,Sales / Business Development,UNKNOWN,,,,,City (1); Sheffield (1); Not Specified (1),Sales / Business Development,title_rule_pass1
 Marketing Executive,3,Marketing / Digital / Creative,UNKNOWN,,,,,Stamford (1); York (1); Newbury (1),Marketing / Digital / Creative,title_rule_pass1
@@ -485,14 +485,14 @@ Occupational Therapist suitable for Newly Qualified,3,Healthcare / Clinical,UNKN
 Finance Analyst,3,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Didcot (1); Chesterfield (1); Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Trainee Penetration Tester Programme No Experience Required,3,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Liverpool (1); Glasgow (1),IT / Data / Software,title_rule_pass2
 Facilities Coordinator,3,Admin / Customer Service,UNKNOWN,,,admin_service,,City (2); Leeds (1),Admin / Customer Service,title_rule_pass1
-Online Manager,3,Other / Unclassified,UNKNOWN,,,,,Kirkcaldy (1); Telford (1); West Malling (1),Other / Unclassified,still_unclassified
+Online Manager,3,Other / Unclassified,UNKNOWN,,,,,Kirkcaldy (1); Telford (1); West Malling (1),Retail / Store,title_rule_pass2
 Purchase Ledger Supervisor,3,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Derby (2); City (1),Professional Finance / Accountancy,title_rule_pass1
 IT Support Engineer,3,IT / Data / Software,UNKNOWN,,,,,Birchanger (1); Not Specified (1); Bournemouth (1),IT / Data / Software,title_rule_pass1
 Private Client Solicitor - Associate,3,Legal / Conveyancing,UNKNOWN,,,,,Chelmsford (1); Norwich (1); King's Lynn (1),Legal / Conveyancing,title_rule_pass1
 Conveyancing - Flexible Working - Fee Earner/Paralegal,3,Legal / Conveyancing,UNKNOWN,,,,,Chelmsford (1); Ipswich (1); Billericay (1),Legal / Conveyancing,title_rule_pass1
 Private Client Solicitor or Legal Executive 2+ PQE,3,Legal / Conveyancing,UNKNOWN,,,,,Royston (1); Ely (1); Cambridge (1),Legal / Conveyancing,title_rule_pass1
 Assistant Shop Manager,3,Retail / Store,UNKNOWN,,,,,Bridlington (1); St. Albans (1); Not Specified (1),Retail / Store,title_rule_pass1
-Employment Adviser,3,Other / Unclassified,UNKNOWN,,,,,Gateshead (1); Redruth (1); Spennymoor (1),Other / Unclassified,still_unclassified
+Employment Adviser,3,Other / Unclassified,UNKNOWN,,,,,Gateshead (1); Redruth (1); Spennymoor (1),Employment Support / Careers,title_rule_pass2
 .NET Developer,3,IT / Data / Software,UNKNOWN,,,,,Swanley (1); Gloucester (1); Bath (1),IT / Data / Software,title_rule_pass1
 B2B Sales Executive,3,Sales / Business Development,UNKNOWN,,,,,Not Specified (1); Derby (1); Peterborough (1),Sales / Business Development,title_rule_pass1
 Financial Planning Administrator,3,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; finance_accounts:REVIEW_CONTEXT_DEPENDENT; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service,admin_service,admin_service:HIGH_CONFIDENCE->HARD_PASS,Northwich (1); Durham (1); Marlborough (1),Admin / Customer Service,title_rule_pass1
@@ -500,7 +500,7 @@ Principal Psychologist,3,Other / Unclassified,KNOWN,admin_service:HARD_PASS,,,,R
 Children Law Paralegal,3,Legal / Conveyancing,UNKNOWN,,,,,Brighton (1); Not Specified (1); Manchester (1),Legal / Conveyancing,title_rule_pass1
 Family Law Paralegal,3,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1); Brighton (1); Luton (1),Legal / Conveyancing,title_rule_pass1
 Membership Administrator,3,Admin / Customer Service,UNKNOWN,,,admin_service,,Wigginton (1); Not Specified (1); Tamworth (1),Admin / Customer Service,title_rule_pass1
-Lead Technical Architect,3,Other / Unclassified,UNKNOWN,,,,,Swansea (1); Newcastle Upon Tyne (1); Blackpool (1),Other / Unclassified,still_unclassified
+Lead Technical Architect,3,Other / Unclassified,UNKNOWN,,,,,Swansea (1); Newcastle Upon Tyne (1); Blackpool (1),IT / Data / Software,title_rule_pass2
 Specialist Speech and Language Therapist,3,Healthcare / Clinical,UNKNOWN,,,,,Goonhavern (2); Redruth (1),Healthcare / Clinical,title_rule_pass1
 Social Media Influencer: Work From Home,3,Marketing / Digital / Creative,UNKNOWN,,,,,Bristol (1); Exeter (1); Woking (1),Marketing / Digital / Creative,title_rule_pass1
 Market Research Interviewer - Car Required - Full Time,3,Other / Unclassified,UNKNOWN,,,,,City (1); Taffs Well (1); St. Mellons (1),Market Research / Field Interviewing,title_rule_pass2
@@ -523,7 +523,7 @@ Administrator - 6-12 Month Contract - Teesside,2,Admin / Customer Service,UNKNOW
 Registry Administrator,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Coventry (2),Admin / Customer Service,title_rule_pass1
 Cost Administrator,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Peterborough (2),Admin / Customer Service,title_rule_pass1
 Temporary HR Administrator,2,HR / Recruitment,KNOWN,admin_service:HIGH_CONFIDENCE; hr_recruitment:HIGH_CONFIDENCE,admin_service; hr_recruitment,admin_service; hr_recruitment,,Not Specified (1); Gloucester (1),HR / Recruitment,existing_register:hr_recruitment
-Technical Architect,2,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Swansea (1),Engineering / Technical,description_majority
+Technical Architect,2,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Swansea (1),IT / Data / Software,title_rule_pass2
 ESG Coordinator,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Cockfosters (1); Selly Oak (1),Admin / Customer Service,title_rule_pass1
 Project Administrator (Power / Transmission / Electrical),2,Engineering / Technical,UNKNOWN,,,admin_service,,Newcastle Upon Tyne (2),Engineering / Technical,title_rule_pass1
 Customer Service Advisor - Italian,2,Admin / Customer Service,UNKNOWN,,,customer_service_contact_centre,,Not Specified (2),Admin / Customer Service,title_rule_pass1
@@ -534,7 +534,7 @@ Senior Systems Accountant,2,Professional Finance / Accountancy,UNKNOWN,,,,,Birmi
 Floating Support Worker,2,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE,support_worker,support_worker,,Bath (1); Bristol (1),Care / Support Work,existing_register:support_worker
 Document Controller - MUST HAVE EXPERIENCE,2,Other / Unclassified,UNKNOWN,,,,,Nottingham (1); Not Specified (1),Admin / Customer Service,title_rule_pass2
 Enablement Support Officer - Housing,2,Other / Unclassified,UNKNOWN,,,admin_service,,South Croydon (1); Croydon (1),Other / Unclassified,still_unclassified
-Director of Planning - RTPI,2,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Girton (1),Other / Unclassified,still_unclassified
+Director of Planning - RTPI,2,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Girton (1),Property / Housing / Planning,title_rule_pass2
 Sales Office Administrator,2,Sales / Business Development,UNKNOWN,,,admin_service,,Not Specified (1); Wetherby (1),Sales / Business Development,title_rule_pass1
 Senior Office Administrator (Construction) - 12 month Mat Cover,2,Construction / Trades / Property,UNKNOWN,,,admin_service,,Taunton (2),Construction / Trades / Property,title_rule_pass1
 Temporary Senior Business Support,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1); Glasgow (1),Admin / Customer Service,title_rule_pass1
@@ -591,7 +591,7 @@ Quality Administrator,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Brando
 Branch Administrator,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (2),Admin / Customer Service,title_rule_pass1
 Protection adviser,2,Other / Unclassified,UNKNOWN,,,,,Reading (1); Glasgow (1),Other / Unclassified,still_unclassified
 Registered Nurse RGN - Care Home,2,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Sevenoaks (1); Gerrards Cross (1),Healthcare / Clinical,title_rule_pass1
-Treasurer Trustee,2,Other / Unclassified,UNKNOWN,,,,,Leeds (1); Not Specified (1),Other / Unclassified,still_unclassified
+Treasurer Trustee,2,Other / Unclassified,UNKNOWN,,,,,Leeds (1); Not Specified (1),Charity / Fundraising / Community,title_rule_pass2
 Treasurer,2,Other / Unclassified,UNKNOWN,,,,,Southampton (1); Newport (1),Other / Unclassified,still_unclassified
 Accounts & Audit Senior,2,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Eastbourne (1); Eastleigh (1),Professional Finance / Accountancy,title_rule_pass1
 Senior ICM Modeller - Flood Risk,2,Other / Unclassified,UNKNOWN,,,,,Manchester (1); Peterborough (1),Other / Unclassified,still_unclassified
@@ -650,9 +650,9 @@ Foot Healthcare Practitioner,2,Healthcare / Clinical,UNKNOWN,,,,,Henley-on-thame
 Senior Authorised Person,2,Other / Unclassified,UNKNOWN,,,,,Not Specified (2),Other / Unclassified,still_unclassified
 Advanced Nurse Practitioner,2,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Hastings (1); Northampton (1),Healthcare / Clinical,title_rule_pass1
 Debt Advice Caseworker,2,Other / Unclassified,UNKNOWN,,,,,York (1); Filey (1),Other / Unclassified,still_unclassified
-Consultant Psychiatrist - Adult,2,Other / Unclassified,UNKNOWN,,,,,Nottingham (1); Not Specified (1),Other / Unclassified,still_unclassified
+Consultant Psychiatrist - Adult,2,Other / Unclassified,UNKNOWN,,,,,Nottingham (1); Not Specified (1),Healthcare / Clinical,title_rule_pass2
 Senior / Supervising Social Worker,2,Care / Support Work,UNKNOWN,,,,,Liverpool (1); Ivybridge (1),Care / Support Work,title_rule_pass1
-Consultant Psychiatrist,2,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Potters Bar (1); Clacton-on-sea (1),Other / Unclassified,still_unclassified
+Consultant Psychiatrist,2,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Potters Bar (1); Clacton-on-sea (1),Healthcare / Clinical,title_rule_pass2
 Head Chef,2,Hospitality / Catering,KNOWN,admin_service:HARD_PASS,,,,Chislehurst (1); Bromley (1),Hospitality / Catering,title_rule_pass1
 Portfolio Manager,2,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Swindon (1),Other / Unclassified,still_unclassified
 Vulnerability Researcher,2,Other / Unclassified,UNKNOWN,,,,,Rochester (1); Gloucester (1),Other / Unclassified,still_unclassified
@@ -687,7 +687,7 @@ Junior Airtime Administrator,2,Admin / Customer Service,UNKNOWN,,,admin_service,
 Compliance Officer,2,Other / Unclassified,UNKNOWN,,,admin_service,,City (2),Compliance / Risk / Quality,title_rule_pass2
 Sign Fitter,2,Engineering / Technical,UNKNOWN,,,,,Southampton (1); Gateshead (1),Engineering / Technical,title_rule_pass1
 Mammographer,2,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Exeter (1); Reading (1),Other / Unclassified,still_unclassified
-Senior Technical Architect,2,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1); Not Specified (1),Other / Unclassified,still_unclassified
+Senior Technical Architect,2,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1); Not Specified (1),IT / Data / Software,title_rule_pass2
 Dementia Adviser,2,Other / Unclassified,KNOWN,hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,,,Blackpool (1); Hull (1),Other / Unclassified,still_unclassified
 Property Officer,2,Other / Unclassified,UNKNOWN,,,admin_service,,Nottingham (1); Stretford (1),Other / Unclassified,still_unclassified
 Data Quality Advisor,2,Other / Unclassified,UNKNOWN,,,,,Camborne (1); Exeter (1),Other / Unclassified,still_unclassified
@@ -704,7 +704,7 @@ Accounts Receivable Specialist,2,Professional Finance / Accountancy,KNOWN,financ
 Commercial Manager - Civils,2,Sales / Business Development,UNKNOWN,,,,,Bellshill (1); Newtownabbey (1),Sales / Business Development,title_rule_pass1
 Learning & Development Specialist,2,Other / Unclassified,UNKNOWN,,,,,Street (1); Newcastle Upon Tyne (1),Other / Unclassified,still_unclassified
 "Automation Engineer, EMA5 RME",2,Engineering / Technical,UNKNOWN,,,,,Kettering (2),Engineering / Technical,title_rule_pass1
-Senior Bid Writer,2,Other / Unclassified,UNKNOWN,,,,,City (1); Sevenoaks (1),Other / Unclassified,still_unclassified
+Senior Bid Writer,2,Other / Unclassified,UNKNOWN,,,,,City (1); Sevenoaks (1),Marketing / Digital / Creative,title_rule_pass2
 HR CO-ORDINATOR,2,HR / Recruitment,KNOWN,admin_service:ELASTIC_FIT; hr_recruitment:HIGH_CONFIDENCE,admin_service; hr_recruitment,hr_recruitment,,Crewe (1); Not Specified (1),HR / Recruitment,existing_register:hr_recruitment
 Lead Contract Support and Performance Manager,2,Other / Unclassified,UNKNOWN,,,,,Hertford (2),Other / Unclassified,still_unclassified
 HR & Payroll Coordinator,2,Professional Finance / Accountancy,KNOWN,hr_recruitment:HIGH_CONFIDENCE,hr_recruitment,admin_service; finance_accounts; hr_recruitment,,Rayleigh (1); Nottingham (1),HR / Recruitment,existing_register:hr_recruitment
@@ -729,10 +729,10 @@ Property Operations Manager,2,Operations / General Management,UNKNOWN,,,,,Not Sp
 Service Desk Analyst,2,IT / Data / Software,UNKNOWN,,,,,Norwich (1); Not Specified (1),IT / Data / Software,title_rule_pass1
 2nd Line Engineer - 6-month contract,2,Engineering / Technical,UNKNOWN,,,,,Sevenoaks (1); Not Specified (1),Engineering / Technical,title_rule_pass1
 Firmware Engineer,2,Engineering / Technical,UNKNOWN,,,,,Not Specified (2),Engineering / Technical,title_rule_pass1
-Strategic Customer Success Manager,2,Other / Unclassified,UNKNOWN,,,,,Leeds (1); Basingstoke (1),Other / Unclassified,still_unclassified
+Strategic Customer Success Manager,2,Other / Unclassified,UNKNOWN,,,,,Leeds (1); Basingstoke (1),Admin / Customer Service,title_rule_pass2
 Sales Progressor,2,Sales / Business Development,UNKNOWN,,,,,Bracknell (1); Plymouth (1),Sales / Business Development,title_rule_pass1
 M&E Commercial Director,2,Other / Unclassified,UNKNOWN,,,,,Bristol (1); Cardiff (1),Other / Unclassified,still_unclassified
-Mental Health Job Coach,2,Other / Unclassified,UNKNOWN,,,,,Fareham (2),Other / Unclassified,still_unclassified
+Mental Health Job Coach,2,Other / Unclassified,UNKNOWN,,,,,Fareham (2),Employment Support / Careers,title_rule_pass2
 Assistant Town Planner,2,Other / Unclassified,UNKNOWN,,,,,Sharnbrook (1); Cambridge (1),Property / Housing / Planning,title_rule_pass2
 Administration and Customer Service Temps,2,Admin / Customer Service,KNOWN,customer_service_contact_centre:ELASTIC_FIT,customer_service_contact_centre,admin_service; customer_service_contact_centre,,Banstead (1); Epsom (1),Admin / Customer Service,existing_register:customer_service_contact_centre
 Temporary Administrator - South Tyneside,2,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (2),Admin / Customer Service,title_rule_pass1
@@ -762,7 +762,7 @@ Software Developer Placement Programme No experience needed,2,IT / Data / Softwa
 Reward Analyst,2,Other / Unclassified,UNKNOWN,,,,,Watford (1); Windsor (1),Other / Unclassified,still_unclassified
 Youth Employment Coach,2,Other / Unclassified,UNKNOWN,,,,,Wakefield (2),Other / Unclassified,still_unclassified
 Senior Compensation Analyst,2,Other / Unclassified,UNKNOWN,,,,,Northampton (1); Not Specified (1),Other / Unclassified,still_unclassified
-Psychology Graduate - Oxford,2,Other / Unclassified,UNKNOWN,,,,,Oxford (2),Other / Unclassified,still_unclassified
+Psychology Graduate - Oxford,2,Other / Unclassified,UNKNOWN,,,,,Oxford (2),Healthcare / Clinical,description_majority
 Shopping Centre Manager / Operations Manager,2,Operations / General Management,UNKNOWN,,,,,Burnley (1); Manchester (1),Operations / General Management,title_rule_pass1
 Finance Manager (Technical),2,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Bath (2),Professional Finance / Accountancy,title_rule_pass1
 Residential Property Paralegal,2,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1); Colchester (1),Legal / Conveyancing,title_rule_pass1
@@ -1031,7 +1031,7 @@ Private Jet Charter Broker,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),
 Laboratory Technician,1,Engineering / Technical,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,title_rule_pass1
 Technical Business Analyst,1,IT / Data / Software,UNKNOWN,,,,,City (1),IT / Data / Software,title_rule_pass1
 Planned Works Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Strategic Asset Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Strategic Asset Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Property / Housing / Planning,title_rule_pass2
 Principal ML Engineer Sports AI & Computer Vision,1,Engineering / Technical,UNKNOWN,,,,,Isleworth (1),Engineering / Technical,title_rule_pass1
 Accountancy Technology Consultant,1,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Director of property Services,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Property / Housing / Planning,description_majority
@@ -1174,7 +1174,7 @@ Technical Administrators,1,Other / Unclassified,UNKNOWN,,,admin_service,,Wishaw 
 Contract Support,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Shift Coordinator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Bournville (1),Admin / Customer Service,title_rule_pass1
 Business Development Manager (UK) - Agricultural Commodities Multi-national,1,Sales / Business Development,UNKNOWN,,,,,Not Specified (1),Sales / Business Development,title_rule_pass1
-Employment Specialist - Medway and Gravesham,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),HR / Recruitment,description_majority
+Employment Specialist - Medway and Gravesham,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Employment Support / Careers,title_rule_pass2
 "Oxford Optometrist Role - Up to £65,000 !",1,Other / Unclassified,UNKNOWN,,,,,Oxford (1),Healthcare / Clinical,title_rule_pass2
 "Norwich Glaucoma Specialist Optometrist - Up to £75,000 !",1,Other / Unclassified,UNKNOWN,,,,,Norwich (1),Healthcare / Clinical,title_rule_pass2
 "Maidstone Glaucoma Specialist Optometrist - Up to £65,000 !",1,Other / Unclassified,UNKNOWN,,,,,Maidstone (1),Healthcare / Clinical,title_rule_pass2
@@ -1229,12 +1229,12 @@ Audi Service Advisor,1,Admin / Customer Service,UNKNOWN,,,customer_service_conta
 Support Worker ( Female Only ),1,Care / Support Work,UNKNOWN,,,support_worker,,Sheffield (1),Care / Support Work,title_rule_pass1
 Senior HR Advisor - 12 month Fixed Term Contract,1,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Solihull (1),HR / Recruitment,title_rule_pass1
 Head of Commercial Property,1,Other / Unclassified,UNKNOWN,,,,,Tamworth (1),Other / Unclassified,still_unclassified
-Cafcass Family Court Adviser - Information & Screening Team,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Cafcass Family Court Adviser - Information & Screening Team,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass2
 Data Privacy Paralegal,1,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass1
 Support and Protect Team - Social Worker,1,Care / Support Work,UNKNOWN,,,,,Workington (1),Care / Support Work,title_rule_pass1
 Paralegal - Employment,1,Legal / Conveyancing,UNKNOWN,,,,,Stockport (1),Legal / Conveyancing,title_rule_pass1
 Partner - Residential Conveyancing,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Legal / Conveyancing,title_rule_pass2
-Cafcass Family Court Adviser - Public & Private Law,1,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1),Other / Unclassified,still_unclassified
+Cafcass Family Court Adviser - Public & Private Law,1,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1),Legal / Conveyancing,title_rule_pass2
 Senior Professional Indemnity Underwriter,1,Other / Unclassified,UNKNOWN,,,,,Manchester (1),Insurance / Claims,title_rule_pass2
 Lead X-Ray Screener,1,Other / Unclassified,UNKNOWN,,,,,Bilston (1),Other / Unclassified,still_unclassified
 Commercial Claims Handler,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Insurance / Claims,title_rule_pass2
@@ -1248,7 +1248,7 @@ Recruitment Consultant - Leeds,1,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Leed
 Research and Lead Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Kinross (1),Admin / Customer Service,title_rule_pass1
 "Legal Secretary or Paralegal - Agricultural, Commercial & Residential Property",1,Legal / Conveyancing,UNKNOWN,,,admin_service,,Winchester (1),Legal / Conveyancing,title_rule_pass1
 Day Care Manager,1,Care / Support Work,UNKNOWN,,,,,Wallingford (1),Care / Support Work,title_rule_pass1
-Autism Practitioner - Lamington,1,Other / Unclassified,UNKNOWN,,,,,Biggar (1),Other / Unclassified,still_unclassified
+Autism Practitioner - Lamington,1,Other / Unclassified,UNKNOWN,,,,,Biggar (1),Care / Support Work,title_rule_pass2
 People Services Administrator (HR),1,HR / Recruitment,KNOWN,hr_recruitment:HIGH_CONFIDENCE,hr_recruitment,admin_service,,Gainsborough (1),HR / Recruitment,existing_register:hr_recruitment
 Senior Industrial Relations Manager,1,Other / Unclassified,UNKNOWN,,,,,Farnborough (1),HR / Recruitment,description_majority
 Commercial Claims Handler / Executive,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Insurance / Claims,title_rule_pass2
@@ -1393,7 +1393,7 @@ Senior Casualty Claims Technician,1,Engineering / Technical,UNKNOWN,,,,,Manchest
 Casualty Claims Handler,1,Other / Unclassified,UNKNOWN,,,,,Manchester (1),Insurance / Claims,title_rule_pass2
 Site Director,1,Other / Unclassified,UNKNOWN,,,,,Minehead (1),Other / Unclassified,still_unclassified
 Court of Protection Solicitor,1,Legal / Conveyancing,UNKNOWN,,,,,Swindon (1),Legal / Conveyancing,title_rule_pass1
-Housing Support Specialist (Outreach and Move On Worker),1,Other / Unclassified,UNKNOWN,,,,,St. Leonards-on-sea (1),Other / Unclassified,still_unclassified
+Housing Support Specialist (Outreach and Move On Worker),1,Other / Unclassified,UNKNOWN,,,,,St. Leonards-on-sea (1),Care / Support Work,description_majority
 Employee Benefits Administrator,1,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,admin_service:HIGH_CONFIDENCE->HARD_PASS,Coventry (1),Admin / Customer Service,title_rule_pass1
 Chemotherapy Nurse - Join Amaré Health,1,Healthcare / Clinical,UNKNOWN,,,,,Not Specified (1),Healthcare / Clinical,title_rule_pass1
 Solicitor - Insurance Litigation,1,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass1
@@ -1470,7 +1470,7 @@ Conveyancing Fee Earner - Hybrid - Great Firm,1,Legal / Conveyancing,UNKNOWN,,,,
 Conveyancer - Best bonus - Best Reviews - Most Flexibility in the market,1,Other / Unclassified,UNKNOWN,,,,,Manchester (1),Legal / Conveyancing,title_rule_pass2
 Retail Merchandiser PT Killin,1,Retail / Store,UNKNOWN,,,,,Killin (1),Retail / Store,title_rule_pass1
 Office Administration Manager,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Ware (1),Admin / Customer Service,title_rule_pass1
-Adults & Communities (Promoting Independence),1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Adults & Communities (Promoting Independence),1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Care / Support Work,description_majority
 Early Careers & Development Coordinator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 SMR Corporate Secretary,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Mental Health & Reablement,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
@@ -1498,7 +1498,7 @@ New Claims Advisor,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Insuranc
 Residential Conveyancer - Bradford,1,Other / Unclassified,UNKNOWN,,,,,Bradford (1),Legal / Conveyancing,title_rule_pass2
 Private Client Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Management / Team Leadership,title_rule_pass2
 Private Client Account Handler,1,Other / Unclassified,UNKNOWN,,,,,Grays (1),Other / Unclassified,still_unclassified
-Substance Misuse Case Manager - Community Team,1,Other / Unclassified,UNKNOWN,,,,,Doncaster (1),Other / Unclassified,still_unclassified
+Substance Misuse Case Manager - Community Team,1,Other / Unclassified,UNKNOWN,,,,,Doncaster (1),Care / Support Work,description_majority
 Commercial Property Solicitor (2 PQE +),1,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass1
 Permanent Office manager / Team Assistant,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Business Finance Analyst,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Goole (1),Professional Finance / Accountancy,title_rule_pass1
@@ -1566,7 +1566,7 @@ Commercial Investment Manager,1,Other / Unclassified,UNKNOWN,,,,,Manchester (1),
 Interim Finance Manager - Hybrid - East Yorkshire,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Driffield (1),Professional Finance / Accountancy,title_rule_pass1
 Senior Financial Controller,1,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Medical Malpractice Underwriter,1,Healthcare / Clinical,UNKNOWN,,,,,Not Specified (1),Healthcare / Clinical,title_rule_pass1
-Occupational Therapy Assistant,1,Other / Unclassified,UNKNOWN,,,,,Colchester (1),Care / Support Work,description_majority
+Occupational Therapy Assistant,1,Other / Unclassified,UNKNOWN,,,,,Colchester (1),Other / Unclassified,still_unclassified
 Order Processing Administrator - Temp to Perm,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Gateshead (1),Admin / Customer Service,title_rule_pass1
 Business Support / Admin Support,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Coventry (1),Admin / Customer Service,title_rule_pass1
 Temporary Receptionist - Newcastle,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Newcastle Upon Tyne (1),Admin / Customer Service,title_rule_pass1
@@ -1614,16 +1614,16 @@ Debt Advisory Consultant - Corporate & SME Finance,1,Professional Finance / Acco
 RF Test Technician,1,Engineering / Technical,UNKNOWN,,,,,Fareham (1),Engineering / Technical,title_rule_pass1
 Lab Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Bridgwater (1),Admin / Customer Service,title_rule_pass1
 Trustee - Finance Specialist,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Dudley (1),Professional Finance / Accountancy,title_rule_pass1
-Trustee - with Property experience/expertise to join our Board.,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Other / Unclassified,still_unclassified
+Trustee - with Property experience/expertise to join our Board.,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Charity / Fundraising / Community,title_rule_pass2
 Chair,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Trustee for China Plate Theatre,1,Other / Unclassified,UNKNOWN,,,,,Birmingham (1),Other / Unclassified,still_unclassified
-Trustee/Chair Designate,1,Other / Unclassified,UNKNOWN,,,,,Oxford (1),Other / Unclassified,still_unclassified
-Welfare & Safeguarding Trustee,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Join Quartet as a Trustee,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Other / Unclassified,still_unclassified
-Treasurer (Trustee),1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Lay trustee,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Compliance / Risk / Quality,description_majority
+Trustee for China Plate Theatre,1,Other / Unclassified,UNKNOWN,,,,,Birmingham (1),Charity / Fundraising / Community,title_rule_pass2
+Trustee/Chair Designate,1,Other / Unclassified,UNKNOWN,,,,,Oxford (1),Charity / Fundraising / Community,title_rule_pass2
+Welfare & Safeguarding Trustee,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Charity / Fundraising / Community,title_rule_pass2
+Join Quartet as a Trustee,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Charity / Fundraising / Community,title_rule_pass2
+Treasurer (Trustee),1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Charity / Fundraising / Community,title_rule_pass2
+Lay trustee,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Charity / Fundraising / Community,title_rule_pass2
 Legal Trustee,1,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass1
-Chair of Trustee,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Chair of Trustee,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Charity / Fundraising / Community,title_rule_pass2
 Finance Trustee - Treasurer Role,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Weekend Hostel Support Worker,1,Care / Support Work,UNKNOWN,,,support_worker,,Bath (1),Care / Support Work,title_rule_pass1
 Out Of Hours Support Worker - Weekends (Derngate),1,Care / Support Work,UNKNOWN,,,support_worker,,Northampton (1),Care / Support Work,title_rule_pass1
@@ -1651,7 +1651,7 @@ Corporate and SME Debt Advisory Consultant,1,Other / Unclassified,UNKNOWN,,,,,Ma
 PA/Office Manager,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Telesales - Appointment Setter,1,Sales / Business Development,UNKNOWN,,,,,Sheffield (1),Sales / Business Development,title_rule_pass1
 US Property Account Handler,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Family Court Adviser (FCA) - Public & Private Law,1,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1),Other / Unclassified,still_unclassified
+Family Court Adviser (FCA) - Public & Private Law,1,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1),Legal / Conveyancing,title_rule_pass2
 Syndicate Financial Controller,1,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Contact Centre Claims Advisor,1,Admin / Customer Service,UNKNOWN,,,customer_service_contact_centre,,York (1),Admin / Customer Service,title_rule_pass1
 Pharmacist Manager - Stevenage,1,Other / Unclassified,UNKNOWN,,,,,Stevenage (1),Healthcare / Clinical,title_rule_pass2
@@ -1817,7 +1817,7 @@ Finance Assistant- Xero experience,1,Professional Finance / Accountancy,KNOWN,fi
 Supervisor - Outsourcing & Accounts - Entertainment,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Staffing Specialist,1,Other / Unclassified,UNKNOWN,,,,,Northampton (1),Other / Unclassified,still_unclassified
 Private Client Tax Manager- Reading,1,Professional Finance / Accountancy,UNKNOWN,,,,,Reading (1),Professional Finance / Accountancy,title_rule_pass1
-Credit Controller - £40-46k + Bonus & Hybrid Working,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Not Specified (1),Admin / Customer Service,title_rule_pass2
+Credit Controller - £40-46k + Bonus & Hybrid Working,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Not Specified (1),Other / Unclassified,still_unclassified
 Chief Finance Officer,1,Professional Finance / Accountancy,UNKNOWN,,,admin_service; finance_accounts,,Bristol (1),Professional Finance / Accountancy,title_rule_pass1
 Part-time Payroll Coordinator,1,Professional Finance / Accountancy,UNKNOWN,,,admin_service; finance_accounts,,Halifax (1),Professional Finance / Accountancy,title_rule_pass1
 Jaguar Land Rover Service Advisor,1,Admin / Customer Service,UNKNOWN,,,customer_service_contact_centre,,Coventry (1),Admin / Customer Service,title_rule_pass1
@@ -1999,7 +1999,7 @@ MG Vehicle Technician,1,Engineering / Technical,UNKNOWN,,,,,Solihull (1),Enginee
 Team Leader Care,1,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Bury St. Edmunds (1),Management / Team Leadership,title_rule_pass2
 Family Contact Supervisor,1,Other / Unclassified,UNKNOWN,,,,,Liverpool (1),Management / Team Leadership,title_rule_pass2
 Community Support Worker - Part time role,1,Care / Support Work,UNKNOWN,,,support_worker,,King's Lynn (1),Care / Support Work,title_rule_pass1
-Psychology Graduate - Wantage,1,Other / Unclassified,UNKNOWN,,,,,Wantage (1),Other / Unclassified,still_unclassified
+Psychology Graduate - Wantage,1,Other / Unclassified,UNKNOWN,,,,,Wantage (1),Healthcare / Clinical,description_majority
 Breakdown and Rescue Technician - North Yorkshire Area,1,Engineering / Technical,UNKNOWN,,,,,Ripon (1),Engineering / Technical,title_rule_pass1
 Asset Experience Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Offline CNC Miller Programmer,1,IT / Data / Software,UNKNOWN,,,,,Smethwick (1),IT / Data / Software,title_rule_pass1
@@ -2065,7 +2065,7 @@ Assistant Planner,1,Other / Unclassified,UNKNOWN,,,,,Telford (1),Other / Unclass
 Retail Assistant Manager,1,Retail / Store,UNKNOWN,,,,,Carlisle (1),Retail / Store,title_rule_pass1
 ?Electrical Tenant Supervisor,1,Engineering / Technical,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,title_rule_pass1
 Estates Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Scunthorpe (1),Other / Unclassified,still_unclassified
-Residential Lodge Manager,1,Other / Unclassified,UNKNOWN,,,,,Market Harborough (1),Other / Unclassified,still_unclassified
+Residential Lodge Manager,1,Other / Unclassified,UNKNOWN,,,,,Market Harborough (1),Management / Team Leadership,title_rule_pass2
 Facilities Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Tavistock (1),Other / Unclassified,still_unclassified
 Estate Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Aylesbury (1),Other / Unclassified,still_unclassified
 Systems Engineering Lead - Spartan Data Workstream,1,Engineering / Technical,UNKNOWN,,,,,Carnforth (1),Engineering / Technical,title_rule_pass1
@@ -2178,7 +2178,7 @@ Senior Technologist Artificial Intelligence R and D,1,Other / Unclassified,UNKNO
 Senior Security Assurance Engineer,1,Engineering / Technical,UNKNOWN,,,,,Bristol (1),Engineering / Technical,title_rule_pass1
 Contract Systems Engineer - Rail,1,IT / Data / Software,UNKNOWN,,,,,Gateshead (1),IT / Data / Software,title_rule_pass1
 Senior Software Service Manager,1,IT / Data / Software,UNKNOWN,,,,,City (1),IT / Data / Software,title_rule_pass1
-D365 Technical Architect,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
+D365 Technical Architect,1,Other / Unclassified,UNKNOWN,,,,,City (1),IT / Data / Software,title_rule_pass2
 D365 Solution Architect,1,IT / Data / Software,UNKNOWN,,,,,City (1),IT / Data / Software,title_rule_pass1
 Senior PLM Engineer - Electrical Systems,1,Engineering / Technical,UNKNOWN,,,,,Portsmouth (1),Engineering / Technical,title_rule_pass1
 Senior Engineer - Hydraulic Power Systems,1,Engineering / Technical,UNKNOWN,,,,,Brough (1),Engineering / Technical,title_rule_pass1
@@ -2251,7 +2251,7 @@ Temporary HR Coordinator,1,HR / Recruitment,KNOWN,hr_recruitment:HIGH_CONFIDENCE
 Service Planner,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Qualified Social Worker - Adult Social Care,1,Care / Support Work,UNKNOWN,,,,,Wokingham (1),Care / Support Work,title_rule_pass1
 Secure Children's Home Support Worker,1,Care / Support Work,KNOWN,support_worker:HIGH_CONFIDENCE,support_worker,support_worker,,Eastleigh (1),Care / Support Work,existing_register:support_worker
-Senior Case Worker (Hospitals),1,Other / Unclassified,UNKNOWN,,,,,Basingstoke (1),Other / Unclassified,still_unclassified
+Senior Case Worker (Hospitals),1,Other / Unclassified,UNKNOWN,,,,,Basingstoke (1),Care / Support Work,description_majority
 Field Manager,1,Other / Unclassified,UNKNOWN,,,,,Thatcham (1),Other / Unclassified,still_unclassified
 Sr Histology Genomics Focused Technician,1,Engineering / Technical,UNKNOWN,,,,,Cambridge (1),Engineering / Technical,title_rule_pass1
 Deputy Head Engineering & Automotive,1,Engineering / Technical,UNKNOWN,,,,,Salisbury (1),Engineering / Technical,title_rule_pass1
@@ -2290,7 +2290,7 @@ Trainee Administration Clerk,1,Admin / Customer Service,UNKNOWN,,,admin_service,
 Assistant Contract Manager,1,Other / Unclassified,UNKNOWN,,,,,Plymouth (1),Other / Unclassified,still_unclassified
 Land and Planning Director,1,Other / Unclassified,UNKNOWN,,,,,St. Albans (1),Other / Unclassified,still_unclassified
 Business Development Manager - Freight,1,Sales / Business Development,UNKNOWN,,,,,Folkestone (1),Sales / Business Development,title_rule_pass1
-Senior Financial Planning Analyst - Temporary up to 16 months,1,Other / Unclassified,UNKNOWN,,,,,Poole (1),Other / Unclassified,still_unclassified
+Senior Financial Planning Analyst - Temporary up to 16 months,1,Other / Unclassified,UNKNOWN,,,,,Poole (1),Professional Finance / Accountancy,title_rule_pass2
 Penetration Testing Specialist,1,Other / Unclassified,UNKNOWN,,,,,Newport (1),IT / Data / Software,description_majority
 Senior Reward Analyst,1,Other / Unclassified,UNKNOWN,,,,,Northampton (1),Other / Unclassified,still_unclassified
 Audit Semi-Senior,1,Professional Finance / Accountancy,UNKNOWN,,,,,Liverpool (1),Professional Finance / Accountancy,title_rule_pass1
@@ -2440,7 +2440,7 @@ Residential Worker - Complex Needs,1,Other / Unclassified,UNKNOWN,,,,,Not Specif
 Care Assistant- Daleview,1,Care / Support Work,KNOWN,admin_service:HARD_PASS,,support_worker,,Not Specified (1),Care / Support Work,title_rule_pass1
 Staff Nurse- Daleview,1,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Not Specified (1),Healthcare / Clinical,title_rule_pass1
 Finance Business Partner - Transport Programme,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Chesterfield (1),Professional Finance / Accountancy,title_rule_pass1
-Commercial Asset Manager - Interim,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Commercial Asset Manager - Interim,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Property / Housing / Planning,title_rule_pass2
 Pension Administrator,1,Admin / Customer Service,KNOWN,finance_accounts:OUT_OF_SCOPE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Bid & Tender Co-ordinator,1,Other / Unclassified,UNKNOWN,,,,,Peterborough (1),Other / Unclassified,still_unclassified
 Interim Accounts Payable,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Ilminster (1),Professional Finance / Accountancy,title_rule_pass1
@@ -2513,7 +2513,7 @@ Large Format Project Manager,1,Operations / General Management,UNKNOWN,,,,,Stans
 Tailor,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
 Registered Manager Residential Childrens Home,1,Other / Unclassified,UNKNOWN,,,,,Poulton-le-fylde (1),Management / Team Leadership,title_rule_pass2
 Childrens Social Work Deputy Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Management / Team Leadership,title_rule_pass2
-Fire Safety Asset Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Fire Safety Asset Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Property / Housing / Planning,title_rule_pass2
 Business Lead - Assets and Compliance,1,Other / Unclassified,UNKNOWN,,,,,Sevenoaks (1),Other / Unclassified,still_unclassified
 Property Strategy Manager,1,Other / Unclassified,UNKNOWN,,,,,Bedford (1),Other / Unclassified,still_unclassified
 Parts Advisor - Parts Supervisor - Commercial vehicles,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Management / Team Leadership,title_rule_pass2
@@ -2630,7 +2630,7 @@ Service Admin (Office Based),1,Admin / Customer Service,UNKNOWN,,,admin_service,
 WorkWell Reporting and Quality Assurance Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Reigate (1),Other / Unclassified,still_unclassified
 Temporary Medical Receptionist,1,Healthcare / Clinical,UNKNOWN,,,admin_service,,City (1),Healthcare / Clinical,title_rule_pass1
 Back Office Analyst,1,Other / Unclassified,UNKNOWN,,,admin_service,,Brighton (1),Other / Unclassified,still_unclassified
-WorkWell Programme Support Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Reigate (1),Other / Unclassified,still_unclassified
+WorkWell Programme Support Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Reigate (1),Employment Support / Careers,description_majority
 Interior Designer,1,Marketing / Digital / Creative,UNKNOWN,,,,,Loughborough (1),Marketing / Digital / Creative,title_rule_pass1
 Vendor Risk Management Analyst,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 ITC Manager,1,Other / Unclassified,UNKNOWN,,,,,Marlow (1),Other / Unclassified,still_unclassified
@@ -2695,7 +2695,7 @@ Senior Legacy Marketing Manager,1,Marketing / Digital / Creative,UNKNOWN,,,,,Not
 Mobile Shop Manager,1,Retail / Store,UNKNOWN,,,,,Not Specified (1),Retail / Store,title_rule_pass1
 Financial Planning & Analyst Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Professional Finance / Accountancy,description_majority
 Outreach Support Worker,1,Care / Support Work,UNKNOWN,,,support_worker,,Basildon (1),Care / Support Work,title_rule_pass1
-Trustee / Treasurer,1,Other / Unclassified,UNKNOWN,,,,,Winchester (1),Other / Unclassified,still_unclassified
+Trustee / Treasurer,1,Other / Unclassified,UNKNOWN,,,,,Winchester (1),Charity / Fundraising / Community,title_rule_pass2
 Visual Merchandiser,1,Retail / Store,UNKNOWN,,,,,Londonderry (1),Retail / Store,title_rule_pass1
 Area Manager Geotextiles & Geosynthetics,1,Operations / General Management,UNKNOWN,,,,,Bristol (1),Operations / General Management,title_rule_pass1
 Regional Dementia Lead - North,1,Other / Unclassified,UNKNOWN,,,,,Nottingham (1),Other / Unclassified,still_unclassified
@@ -2809,7 +2809,7 @@ Centre Director,1,Other / Unclassified,UNKNOWN,,,,,Llandudno (1),Other / Unclass
 SOC Manager,1,Other / Unclassified,UNKNOWN,,,,,Exeter (1),Other / Unclassified,still_unclassified
 IT Hardware Workshop Staging Manager,1,Other / Unclassified,UNKNOWN,,,,,Cardiff (1),Other / Unclassified,still_unclassified
 SailPoint Technical Consultant,1,Other / Unclassified,UNKNOWN,,,,,Knutsford (1),Other / Unclassified,still_unclassified
-Employment Advisor (Mental Health),1,Other / Unclassified,UNKNOWN,,,,,Fareham (1),HR / Recruitment,description_majority
+Employment Advisor (Mental Health),1,Other / Unclassified,UNKNOWN,,,,,Fareham (1),Employment Support / Careers,title_rule_pass2
 Behavioral Support Assistant,1,Other / Unclassified,UNKNOWN,,,,,Huddersfield (1),Other / Unclassified,still_unclassified
 "Assistant Director - Growth, Regeneration and Infrastructure",1,IT / Data / Software,UNKNOWN,,,,,Not Specified (1),IT / Data / Software,title_rule_pass1
 Dutch speaking Sales Development Associate,1,Sales / Business Development,UNKNOWN,,,,,Not Specified (1),Sales / Business Development,title_rule_pass1
@@ -2888,7 +2888,7 @@ Facilities & IT Support Officer,1,IT / Data / Software,UNKNOWN,,,admin_service,,
 Assistant Retail Manager - Part-time (maternity cover),1,Retail / Store,UNKNOWN,,,,,Bath (1),Retail / Store,title_rule_pass1
 Night Registered Nurse,1,Healthcare / Clinical,UNKNOWN,,,,,Broadstairs (1),Healthcare / Clinical,title_rule_pass1
 Casual Registered Nurse,1,Healthcare / Clinical,UNKNOWN,,,,,Cromer (1),Healthcare / Clinical,title_rule_pass1
-Trustee x 2 positions,1,Other / Unclassified,UNKNOWN,,,,,Milton Keynes (1),Other / Unclassified,still_unclassified
+Trustee x 2 positions,1,Other / Unclassified,UNKNOWN,,,,,Milton Keynes (1),Charity / Fundraising / Community,title_rule_pass2
 Care and Support Worker,1,Care / Support Work,UNKNOWN,,,support_worker,,Southampton (1),Care / Support Work,title_rule_pass1
 "Hearing Aid Audiologist, Dorset",1,Other / Unclassified,UNKNOWN,,,,,Gillingham (1),Healthcare / Clinical,title_rule_pass2
 "Locum Optometrist - Colchester, Essex - New Store Opening (September 2026)",1,Other / Unclassified,UNKNOWN,,,,,Colchester (1),Healthcare / Clinical,title_rule_pass2
@@ -2927,9 +2927,9 @@ Housing Asset Data Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),
 Archaeological Clerk of Works,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Mental Health Assistant - Aspiring Psychologist - Windsor,1,Other / Unclassified,UNKNOWN,,,,,Windsor (1),Healthcare / Clinical,title_rule_pass2
 "Mental Health Assistant - Witney, Oxfordshire",1,Other / Unclassified,UNKNOWN,,,,,Witney (1),Other / Unclassified,still_unclassified
-Mental Health Support - Bicester,1,Other / Unclassified,UNKNOWN,,,,,Bicester (1),Other / Unclassified,still_unclassified
+Mental Health Support - Bicester,1,Other / Unclassified,UNKNOWN,,,,,Bicester (1),Healthcare / Clinical,description_majority
 Property Maintenance Operative,1,Engineering / Technical,UNKNOWN,,,,,Leicester (1),Engineering / Technical,title_rule_pass1
-Mental Health Assistant - Wantage,1,Other / Unclassified,UNKNOWN,,,,,Wantage (1),Other / Unclassified,still_unclassified
+Mental Health Assistant - Wantage,1,Other / Unclassified,UNKNOWN,,,,,Wantage (1),Healthcare / Clinical,description_majority
 Housing Officer (FTC),1,Construction / Trades / Property,UNKNOWN,,,admin_service,,Luton (1),Construction / Trades / Property,title_rule_pass1
 Centre Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Didcot (1),Admin / Customer Service,title_rule_pass1
 Pharmacy Manager,1,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Hungerford (1),Healthcare / Clinical,title_rule_pass2
@@ -2975,15 +2975,15 @@ Apprentice in Enterprise Resource Planning & Data,1,Other / Unclassified,UNKNOWN
 Commercial Sales Coordinator,1,Sales / Business Development,KNOWN,customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,admin_service,,Northampton (1),Sales / Business Development,title_rule_pass1
 Temporary Enrolment Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Not Specified (1),Other / Unclassified,still_unclassified
 Trauma Support Assistant - Maidenhead,1,Other / Unclassified,UNKNOWN,,,,,Maidenhead (1),Other / Unclassified,still_unclassified
-Psychology Graduate - Witney,1,Other / Unclassified,UNKNOWN,,,,,Witney (1),Other / Unclassified,still_unclassified
+Psychology Graduate - Witney,1,Other / Unclassified,UNKNOWN,,,,,Witney (1),Healthcare / Clinical,description_majority
 Mental Health Assistant - Oxford,1,Other / Unclassified,KNOWN,support_worker:ELASTIC_FIT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,support_worker,,,Oxford (1),Care / Support Work,existing_register:support_worker
 Graduate Buyer & Estimator,1,Construction / Trades / Property,UNKNOWN,,,,,Loughborough (1),Construction / Trades / Property,title_rule_pass1
 Science Graduates Wanted - Secondary Schools,1,Other / Unclassified,UNKNOWN,,,,,Wirral (1),Other / Unclassified,still_unclassified
 Mental Health Assistant - Aspiring Therapist - Wokingham,1,Healthcare / Clinical,UNKNOWN,,,,,Wokingham (1),Healthcare / Clinical,title_rule_pass1
-Mental Health Support - Reading,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Other / Unclassified,still_unclassified
-"Youth Mental Health Support - Summertown, Oxford",1,Other / Unclassified,UNKNOWN,,,,,Oxford (1),Other / Unclassified,still_unclassified
+Mental Health Support - Reading,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Healthcare / Clinical,description_majority
+"Youth Mental Health Support - Summertown, Oxford",1,Other / Unclassified,UNKNOWN,,,,,Oxford (1),Healthcare / Clinical,description_majority
 Office Manager - Construction - Rochester,1,Construction / Trades / Property,UNKNOWN,,,admin_service,,Rochester (1),Construction / Trades / Property,title_rule_pass1
-Family Liaison Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Caddington (1),Other / Unclassified,still_unclassified
+Family Liaison Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Caddington (1),Care / Support Work,description_majority
 Dads'/Partners' Peer Support Worker,1,Care / Support Work,UNKNOWN,,,support_worker,,Birmingham (1),Care / Support Work,title_rule_pass1
 Income Recovery Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Not Specified (1),Other / Unclassified,still_unclassified
 Solicitor - Childcare,1,Legal / Conveyancing,UNKNOWN,,,,,City (1),Legal / Conveyancing,title_rule_pass1
@@ -3089,7 +3089,7 @@ Store Operative - Kirkbymoorside,1,Other / Unclassified,UNKNOWN,,,,,York (1),Oth
 Store Operative - Malton,1,Other / Unclassified,UNKNOWN,,,,,Malton (1),Other / Unclassified,still_unclassified
 Lead Systems Engineer - ISR & Sensors (International Travel),1,IT / Data / Software,UNKNOWN,,,,,Gloucester (1),IT / Data / Software,title_rule_pass1
 Junior Trade Compliance Specialist - EMEA,1,Other / Unclassified,UNKNOWN,,,,,Harrogate (1),Other / Unclassified,still_unclassified
-Part-time Lodge Manager,1,Other / Unclassified,UNKNOWN,,,,,Epsom (1),Other / Unclassified,still_unclassified
+Part-time Lodge Manager,1,Other / Unclassified,UNKNOWN,,,,,Epsom (1),Management / Team Leadership,title_rule_pass2
 Site Manager New Build Care Home Project,1,Construction / Trades / Property,UNKNOWN,,,,,Preston (1),Construction / Trades / Property,title_rule_pass1
 Assistant Shop Manager - Sutton in Ashfield,1,Retail / Store,UNKNOWN,,,,,Not Specified (1),Retail / Store,title_rule_pass1
 Human Remains Provenance Researcher,1,Other / Unclassified,UNKNOWN,,,,,Edinburgh (1),Other / Unclassified,still_unclassified
@@ -3210,7 +3210,7 @@ Senior Architectural Work Package Owner,1,Other / Unclassified,UNKNOWN,,,,,Crewe
 Group Financial Controller,1,Professional Finance / Accountancy,UNKNOWN,,,,,Liverpool (1),Professional Finance / Accountancy,title_rule_pass1
 Registered Manager ( Nursing Home),1,Healthcare / Clinical,UNKNOWN,,,,,Helston (1),Healthcare / Clinical,title_rule_pass1
 Supported/Independent Living Brokerage Officer (Hybrid),1,Other / Unclassified,UNKNOWN,,,admin_service,,Preston (1),Other / Unclassified,still_unclassified
-Psychology Graduate - SEMH Learning Partner,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Other / Unclassified,still_unclassified
+Psychology Graduate - SEMH Learning Partner,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Healthcare / Clinical,description_majority
 Team Assistant - Financial Services,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
 "Higher Education Account Manager, UK Education",1,Education / Teaching,UNKNOWN,,,,,Bonnyrigg (1),Education / Teaching,title_rule_pass1
 Head of Department - Public Law/Inquests,1,Other / Unclassified,UNKNOWN,,,,,Cardiff (1),Other / Unclassified,still_unclassified
@@ -3239,7 +3239,7 @@ Vehicle Cosmetic Technician,1,Engineering / Technical,UNKNOWN,,,,,Burton-on-tren
 Software Sales Executive (ERP),1,IT / Data / Software,UNKNOWN,,,,,Macclesfield (1),IT / Data / Software,title_rule_pass1
 Timber Contractor Team Lead (CTL) - UK,1,Other / Unclassified,UNKNOWN,,,,,Widnes (1),Other / Unclassified,still_unclassified
 Care & Support Worker,1,Care / Support Work,UNKNOWN,,,support_worker,,Ryde (1),Care / Support Work,title_rule_pass1
-Senior Autism Practitioner (Team Leader),1,Other / Unclassified,UNKNOWN,,,,,Lanark (1),Management / Team Leadership,title_rule_pass2
+Senior Autism Practitioner (Team Leader),1,Other / Unclassified,UNKNOWN,,,,,Lanark (1),Care / Support Work,title_rule_pass2
 Assistant Growing Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Senior Fm Supervisor,1,Other / Unclassified,UNKNOWN,,,,,Loughborough (1),Management / Team Leadership,title_rule_pass2
 Territory Sales Consultant,1,Sales / Business Development,UNKNOWN,,,,,Halifax (1),Sales / Business Development,title_rule_pass1
@@ -3490,7 +3490,7 @@ NFP Audit Senior Associate,1,Professional Finance / Accountancy,UNKNOWN,,,,,Chel
 Business and Data Reporting Analyst 12-month FTC,1,Other / Unclassified,UNKNOWN,,,,,Newcastle Upon Tyne (1),Other / Unclassified,still_unclassified
 Communications and Media Manager,1,Marketing / Digital / Creative,UNKNOWN,,,,,Not Specified (1),Marketing / Digital / Creative,title_rule_pass1
 Purchase Ledger Administrator,1,Professional Finance / Accountancy,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,admin_service; finance_accounts,,Blackburn (1),Professional Finance / Accountancy,existing_register:finance_accounts
-Senior Credit Controller,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Bristol (1),Admin / Customer Service,title_rule_pass2
+Senior Credit Controller,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Bristol (1),Other / Unclassified,still_unclassified
 Conveyancing Assistant / Legal Secretary,1,Legal / Conveyancing,UNKNOWN,,,admin_service,,Hastings (1),Legal / Conveyancing,title_rule_pass1
 Resourcing Advisor,1,HR / Recruitment,KNOWN,hr_recruitment:ELASTIC_FIT,hr_recruitment,,,Nottingham (1),HR / Recruitment,existing_register:hr_recruitment
 Commercial Finance Accountant,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Tunbridge Wells (1),Professional Finance / Accountancy,title_rule_pass1
@@ -3583,7 +3583,7 @@ ACA Accountant,1,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1
 Principal Housing Lawyer,1,Legal / Conveyancing,UNKNOWN,,,,,Epping (1),Legal / Conveyancing,title_rule_pass1
 General Practice Client Manager - Abingdon,1,Other / Unclassified,UNKNOWN,,,,,Abingdon (1),Management / Team Leadership,title_rule_pass2
 Hospital Pharmacy Workflow Specialist,1,Other / Unclassified,UNKNOWN,,,,,Plymouth (1),Healthcare / Clinical,title_rule_pass2
-Part Time Credit Controller,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Cheltenham (1),Admin / Customer Service,title_rule_pass2
+Part Time Credit Controller,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Cheltenham (1),Other / Unclassified,still_unclassified
 Finance Director - Worcester,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Worcester (1),Professional Finance / Accountancy,title_rule_pass1
 CNC Programmer (Mazak),1,IT / Data / Software,UNKNOWN,,,,,Stroud (1),IT / Data / Software,title_rule_pass1
 Management Accounts Associate,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Cheltenham (1),Professional Finance / Accountancy,title_rule_pass1
@@ -3666,7 +3666,7 @@ Sales Negotiator,1,Sales / Business Development,UNKNOWN,,,,,Cockermouth (1),Sale
 New Homes Sales Advisor,1,Sales / Business Development,UNKNOWN,,,,,Harrogate (1),Sales / Business Development,title_rule_pass1
 Experienced Window & Conservatory Installer,1,Other / Unclassified,UNKNOWN,,,,,Horsham (1),Other / Unclassified,still_unclassified
 Repairs Scheduler,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
-Hard FM Contract Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Hard FM Contract Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Healthcare / Clinical,description_majority
 Electrician (IM),1,Engineering / Technical,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,title_rule_pass1
 Senior Building Manager,1,Construction / Trades / Property,UNKNOWN,,,,,Salford (1),Construction / Trades / Property,title_rule_pass1
 "Health, Safety & Compliance Manager",1,Other / Unclassified,UNKNOWN,,,,,Cambridge (1),Compliance / Risk / Quality,title_rule_pass2
@@ -3828,7 +3828,7 @@ Technical Support Engineer,1,IT / Data / Software,UNKNOWN,,,,,Gloucester (1),IT 
 Care Assistant/Support worker,1,Care / Support Work,UNKNOWN,,,support_worker,,Yeovil (1),Care / Support Work,title_rule_pass1
 Registered Nurse (RMN) - Complex Care Home,1,Healthcare / Clinical,UNKNOWN,,,,,Billingham (1),Healthcare / Clinical,title_rule_pass1
 Director of Clinical Services,1,Healthcare / Clinical,UNKNOWN,,,,,Nottingham (1),Healthcare / Clinical,title_rule_pass1
-Consultant Forensic Psychiatry,1,Other / Unclassified,UNKNOWN,,,,,Craig Dunain (1),Other / Unclassified,still_unclassified
+Consultant Forensic Psychiatry,1,Other / Unclassified,UNKNOWN,,,,,Craig Dunain (1),Healthcare / Clinical,description_majority
 Activities Assistant - Care Home,1,Other / Unclassified,UNKNOWN,,,,,Romanby (1),Other / Unclassified,still_unclassified
 General Assistant - Bank,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Medical Insights Analyst,1,Healthcare / Clinical,UNKNOWN,,,,,Not Specified (1),Healthcare / Clinical,title_rule_pass1
@@ -4030,7 +4030,7 @@ Pastoral Support Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Ot
 Sales Account Manager,1,Sales / Business Development,UNKNOWN,,,,,Newtownabbey (1),Sales / Business Development,title_rule_pass1
 Specialist Speech and Language Therapist (Maternity Cover),1,Healthcare / Clinical,UNKNOWN,,,,,Stoke-on-trent (1),Healthcare / Clinical,title_rule_pass1
 Mathematician,1,Other / Unclassified,UNKNOWN,,,,,Burton-on-trent (1),Other / Unclassified,still_unclassified
-Trustee - Voluntary,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
+Trustee - Voluntary,1,Other / Unclassified,UNKNOWN,,,,,City (1),Charity / Fundraising / Community,title_rule_pass2
 Commercial Assistant / Estimator,1,Construction / Trades / Property,UNKNOWN,,,,,Bury St. Edmunds (1),Construction / Trades / Property,title_rule_pass1
 Latin America Sales Specialist,1,Sales / Business Development,UNKNOWN,,,,,Not Specified (1),Sales / Business Development,title_rule_pass1
 Principal Scientist - Analytical Chemistry,1,Science / Laboratory,UNKNOWN,,,,,Sandwich (1),Science / Laboratory,title_rule_pass1
@@ -4171,19 +4171,19 @@ Senior Screening Advisor,1,Other / Unclassified,UNKNOWN,,,,,Altrincham (1),Other
 "Consultant, Global Retirement & Financial Wellbeing",1,Other / Unclassified,UNKNOWN,,,,,Epsom (1),Other / Unclassified,still_unclassified
 Gateway Facilitator (Work Coach),1,Other / Unclassified,UNKNOWN,,,,,Oakham (1),Other / Unclassified,still_unclassified
 Field Collections Agent,1,Other / Unclassified,UNKNOWN,,,,,Gloucester (1),Other / Unclassified,still_unclassified
-CYPMHS Consultant Psychiatrist Part-Time,1,Other / Unclassified,UNKNOWN,,,,,Hatfield (1),Other / Unclassified,still_unclassified
+CYPMHS Consultant Psychiatrist Part-Time,1,Other / Unclassified,UNKNOWN,,,,,Hatfield (1),Healthcare / Clinical,title_rule_pass2
 Female Mental Health Nurse,1,Healthcare / Clinical,UNKNOWN,,,,,Horley (1),Healthcare / Clinical,title_rule_pass1
 Practitioner Psychologist (maternity leave cover),1,Other / Unclassified,UNKNOWN,,,,,Midhurst (1),Healthcare / Clinical,title_rule_pass2
 Drama Therapist,1,Healthcare / Clinical,UNKNOWN,,,,,Reading (1),Healthcare / Clinical,title_rule_pass1
-Consultant Psychiatrist - Part Time,1,Other / Unclassified,UNKNOWN,,,,,Salford (1),Other / Unclassified,still_unclassified
+Consultant Psychiatrist - Part Time,1,Other / Unclassified,UNKNOWN,,,,,Salford (1),Healthcare / Clinical,title_rule_pass2
 Registered Nurse Bank,1,Healthcare / Clinical,UNKNOWN,,,,,Weston-super-mare (1),Healthcare / Clinical,title_rule_pass1
 Partnerships Executive,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 "Vehicle Service, Diagnostic & Master Technicians",1,Other / Unclassified,UNKNOWN,,,,,Harrow (1),Other / Unclassified,still_unclassified
 Business Manager - Dacia Renault,1,Other / Unclassified,UNKNOWN,,,,,Blackburn (1),Management / Team Leadership,title_rule_pass2
 CYPMHS Consultant Psychiatrist & Medical Director - Part Time,1,Healthcare / Clinical,UNKNOWN,,,,,Potters Bar (1),Healthcare / Clinical,title_rule_pass1
-Forensic or General Adult Consultant Psychiatrist Part -Time,1,Other / Unclassified,UNKNOWN,,,,,Warrington (1),Other / Unclassified,still_unclassified
-Forensic or General Adult Consultant Psychiatrist,1,Other / Unclassified,UNKNOWN,,,,,Warrington (1),Other / Unclassified,still_unclassified
-Forensic Consultant Psychiatrist,1,Other / Unclassified,UNKNOWN,,,,,Abertillery (1),Other / Unclassified,still_unclassified
+Forensic or General Adult Consultant Psychiatrist Part -Time,1,Other / Unclassified,UNKNOWN,,,,,Warrington (1),Healthcare / Clinical,title_rule_pass2
+Forensic or General Adult Consultant Psychiatrist,1,Other / Unclassified,UNKNOWN,,,,,Warrington (1),Healthcare / Clinical,title_rule_pass2
+Forensic Consultant Psychiatrist,1,Other / Unclassified,UNKNOWN,,,,,Abertillery (1),Healthcare / Clinical,title_rule_pass2
 Business Growth Manager,1,Other / Unclassified,UNKNOWN,,,,,Workington (1),Other / Unclassified,still_unclassified
 Contract B1 - 737 NG or Classic,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Lead Technician,1,Engineering / Technical,UNKNOWN,,,,,Wakefield (1),Engineering / Technical,title_rule_pass1
@@ -4331,14 +4331,14 @@ Junior Bookkeeper,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Ashby-de-la
 Service Charge Analyst,1,Other / Unclassified,UNKNOWN,,,,,Bradford (1),Other / Unclassified,still_unclassified
 BA Euroflyer Head of Flight Crew,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Security Consultant,1,Other / Unclassified,UNKNOWN,,,,,City (1),Security / Emergency Services,title_rule_pass2
-Senior Customer Success Manager,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Other / Unclassified,still_unclassified
+Senior Customer Success Manager,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Admin / Customer Service,title_rule_pass2
 Journalist,1,Other / Unclassified,UNKNOWN,,,,,Magheralin (1),Other / Unclassified,still_unclassified
 Housing Law Director - Brighton,1,Other / Unclassified,UNKNOWN,,,,,Brighton (1),Legal / Conveyancing,description_majority
 Interim HR Shared Service Assistant,1,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Not Specified (1),HR / Recruitment,title_rule_pass1
 Customer Relationship Advisor - Value Added Services,1,Other / Unclassified,UNKNOWN,,,,,Ipswich (1),Other / Unclassified,still_unclassified
 Housing Law Director - London,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,description_majority
 Housing Law Director - Milton Keynes,1,Other / Unclassified,UNKNOWN,,,,,Milton Keynes (1),Legal / Conveyancing,description_majority
-Lead IAM Technical Architect,1,Other / Unclassified,UNKNOWN,,,,,Swindon (1),Other / Unclassified,still_unclassified
+Lead IAM Technical Architect,1,Other / Unclassified,UNKNOWN,,,,,Swindon (1),IT / Data / Software,title_rule_pass2
 ITSM Sales Executive - ServiceNow / Halo / Freshworks / Avanti,1,Sales / Business Development,UNKNOWN,,,,,Reading (1),Sales / Business Development,title_rule_pass1
 Therapeutic Team Manager - Supporting Smiles,1,Other / Unclassified,UNKNOWN,,,,,Norwich (1),Other / Unclassified,still_unclassified
 Regional Casework Administrator - South East,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
@@ -4456,7 +4456,7 @@ Food Court Assistant Manager,1,Other / Unclassified,UNKNOWN,,,,,Bognor Regis (1)
 Payroll Manager- 15 month FTC,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Salford (1),Professional Finance / Accountancy,title_rule_pass1
 Aviation Technical Training Instructor,1,Other / Unclassified,UNKNOWN,,,,,Cirencester (1),Other / Unclassified,still_unclassified
 Principal Auditor,1,Professional Finance / Accountancy,UNKNOWN,,,,,Bradford (1),Professional Finance / Accountancy,title_rule_pass1
-Asset Manager District Heating,1,Other / Unclassified,UNKNOWN,,,,,Carlisle (1),Other / Unclassified,still_unclassified
+Asset Manager District Heating,1,Other / Unclassified,UNKNOWN,,,,,Carlisle (1),Property / Housing / Planning,title_rule_pass2
 Group Tax Accountant,1,Professional Finance / Accountancy,UNKNOWN,,,,,Lisburn (1),Professional Finance / Accountancy,title_rule_pass1
 Web Performance Engineering Lead,1,Engineering / Technical,UNKNOWN,,,,,Liverpool (1),Engineering / Technical,title_rule_pass1
 Flexible Bank Support Coordinator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Launceston (1),Admin / Customer Service,title_rule_pass1
@@ -4557,7 +4557,7 @@ Infrastructure Engineer / Specialist,1,IT / Data / Software,UNKNOWN,,,,,Reading 
 IT Director,1,Other / Unclassified,UNKNOWN,,,,,Bradford (1),IT / Data / Software,description_majority
 Content Creator Coach,1,Marketing / Digital / Creative,UNKNOWN,,,,,Liverpool (1),Marketing / Digital / Creative,title_rule_pass1
 ABA Assistant- Slough,1,Other / Unclassified,UNKNOWN,,,,,Slough (1),Other / Unclassified,still_unclassified
-Psychology and Criminology Graduates,1,Other / Unclassified,UNKNOWN,,,,,Woking (1),Other / Unclassified,still_unclassified
+Psychology and Criminology Graduates,1,Other / Unclassified,UNKNOWN,,,,,Woking (1),Healthcare / Clinical,description_majority
 Behaviour Specialist,1,Other / Unclassified,UNKNOWN,,,,,Sheffield (1),Other / Unclassified,still_unclassified
 Student Hub Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Senior Biology Technician,1,Engineering / Technical,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,title_rule_pass1
@@ -4782,20 +4782,20 @@ Legal Assistant - Private Client,1,Legal / Conveyancing,UNKNOWN,,,,,Warrington (
 Band 6 CT Radiographer,1,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Haverfordwest (1),Other / Unclassified,still_unclassified
 Legal PA - Residential Property - £45k - 3 days from home!,1,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass1
 BD Specialist - M&A & Private Equity,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Technical Product Owner,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,description_majority
+Technical Product Owner,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),IT / Data / Software,title_rule_pass2
 Head of Expert Network & Sourcing,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),HR / Recruitment,description_majority
 Client Service Coordinator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Bridgend (1),Admin / Customer Service,title_rule_pass1
 Secondary School Science Technician,1,Education / Teaching,UNKNOWN,,,,,Not Specified (1),Education / Teaching,title_rule_pass1
 Risk & Compliance Analyst (GRC / ISO27001 / GDPR),1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Contract Sales Manager,1,Sales / Business Development,UNKNOWN,,,,,Durham (1),Sales / Business Development,title_rule_pass1
-Mental Health Support Assistant - Reading,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Other / Unclassified,still_unclassified
+Mental Health Support Assistant - Reading,1,Other / Unclassified,UNKNOWN,,,,,Reading (1),Healthcare / Clinical,description_majority
 Commercial Property Manager,1,Construction / Trades / Property,UNKNOWN,,,,,Not Specified (1),Construction / Trades / Property,title_rule_pass1
 Customer and Events Support Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Cirencester (1),Admin / Customer Service,title_rule_pass1
-Youth Mental Health Support - Abingdon,1,Other / Unclassified,UNKNOWN,,,,,Abingdon (1),Other / Unclassified,still_unclassified
-Psychology Graduate - Maidenhead,1,Other / Unclassified,UNKNOWN,,,,,Maidenhead (1),Other / Unclassified,still_unclassified
+Youth Mental Health Support - Abingdon,1,Other / Unclassified,UNKNOWN,,,,,Abingdon (1),Healthcare / Clinical,description_majority
+Psychology Graduate - Maidenhead,1,Other / Unclassified,UNKNOWN,,,,,Maidenhead (1),Healthcare / Clinical,description_majority
 Communication Support Worker,1,Care / Support Work,KNOWN,support_worker:HIGH_CONFIDENCE,support_worker,support_worker,,Not Specified (1),Care / Support Work,existing_register:support_worker
 Project / Cost Manager,1,Other / Unclassified,UNKNOWN,,,,,Cardiff (1),Other / Unclassified,still_unclassified
-Mental Health Support Assistant - Wheatley,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Mental Health Support Assistant - Wheatley,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Healthcare / Clinical,description_majority
 Campus Premises Manager,1,Other / Unclassified,UNKNOWN,,,,,Caterham (1),Other / Unclassified,still_unclassified
 Senior Project Manager,1,Operations / General Management,UNKNOWN,,,,,Not Specified (1),Operations / General Management,title_rule_pass1
 Head of Markets Activation,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
@@ -4841,7 +4841,7 @@ Senior Bid Executive,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other 
 Deputy Manager - Nursing Home,1,Healthcare / Clinical,UNKNOWN,,,,,Warwick (1),Healthcare / Clinical,title_rule_pass1
 Order Administrator,1,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE,admin_service,admin_service,,Lutterworth (1),Admin / Customer Service,existing_register:admin_service
 SHARIAH COUNCIL ADMINISTRATOR,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Manchester (1),Admin / Customer Service,title_rule_pass1
-Resourcer,1,Other / Unclassified,UNKNOWN,,,,,Preston (1),Other / Unclassified,still_unclassified
+Resourcer,1,Other / Unclassified,UNKNOWN,,,,,Preston (1),Admin / Customer Service,description_majority
 Specialist Support Worker,1,Care / Support Work,KNOWN,support_worker:HIGH_CONFIDENCE,support_worker,support_worker,,Not Specified (1),Care / Support Work,existing_register:support_worker
 Shop Manager - Carlisle,1,Retail / Store,UNKNOWN,,,,,Carlisle (1),Retail / Store,title_rule_pass1
 Psychology Service Lead - Young People's Memberships,1,Other / Unclassified,UNKNOWN,,,,,Guildford (1),Compliance / Risk / Quality,description_majority
@@ -4857,7 +4857,7 @@ Educational Psychologist - Daily - Outside IR35,1,Other / Unclassified,UNKNOWN,,
 Heads PA / Pastoral Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Manchester (1),Admin / Customer Service,title_rule_pass1
 Environmental Health Officer,1,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,,admin_service,,Bradford (1),Other / Unclassified,still_unclassified
 "Self-Employed Health & Wellbeing Coach - EOI (Bristol, North Somerset, South Gloucestershire)",1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Other / Unclassified,still_unclassified
-Psychology Graduate - Wokingham,1,Other / Unclassified,UNKNOWN,,,,,Wokingham (1),Other / Unclassified,still_unclassified
+Psychology Graduate - Wokingham,1,Other / Unclassified,UNKNOWN,,,,,Wokingham (1),Healthcare / Clinical,description_majority
 IT Advisor,1,Other / Unclassified,UNKNOWN,,,,,Horsham (1),Other / Unclassified,still_unclassified
 Educational Psychologist - Daily,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Healthcare / Clinical,title_rule_pass2
 Senior Data Engineer - Azure - Fabric - Remote - £90K,1,IT / Data / Software,UNKNOWN,,,,,Leeds (1),IT / Data / Software,title_rule_pass1
@@ -4939,7 +4939,7 @@ Lead Infrastructure Specialist (Security),1,IT / Data / Software,UNKNOWN,,,,,Ply
 Senior Animator,1,Other / Unclassified,UNKNOWN,,,,,Knaresborough (1),Other / Unclassified,still_unclassified
 Lead Lifestyle Coordinator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Glasgow (1),Admin / Customer Service,title_rule_pass1
 Tax Technology Manager,1,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
-Senior AI Governance Consultant,1,Other / Unclassified,UNKNOWN,,,,,Salford (1),Other / Unclassified,still_unclassified
+Senior AI Governance Consultant,1,Other / Unclassified,UNKNOWN,,,,,Salford (1),Compliance / Risk / Quality,title_rule_pass2
 National Land Disposals Manager - maternity leave,1,Other / Unclassified,UNKNOWN,,,,,Loughborough (1),Other / Unclassified,still_unclassified
 Strategy Advisory And Project Management Consultant,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Admin Officer (Court Usher duties),1,Admin / Customer Service,UNKNOWN,,,admin_service,,Hove (1),Admin / Customer Service,title_rule_pass1
@@ -4980,7 +4980,7 @@ Compliance Data Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service
 PRS Lettings Negotiator,1,Construction / Trades / Property,UNKNOWN,,,,,Not Specified (1),Construction / Trades / Property,title_rule_pass1
 IT Network Operations Support Engineer,1,Engineering / Technical,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,title_rule_pass1
 "Adult's Social Worker, Assistant Team Manager, Reablement and Mental Health Team, North Tyneside",1,Care / Support Work,UNKNOWN,,,,,Newcastle Upon Tyne (1),Care / Support Work,title_rule_pass1
-"Adult's Social Workers, Review Team, East Riding of Yorkshire",1,Other / Unclassified,UNKNOWN,,,,,Beverley (1),Other / Unclassified,still_unclassified
+"Adult's Social Workers, Review Team, East Riding of Yorkshire",1,Other / Unclassified,UNKNOWN,,,,,Beverley (1),Care / Support Work,description_majority
 Grade 4 Administrator 2026,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Glasgow (1),Admin / Customer Service,title_rule_pass1
 Deputy Director of Finance,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Huddersfield (1),Professional Finance / Accountancy,title_rule_pass1
 HR Manager - Media,1,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Not Specified (1),HR / Recruitment,title_rule_pass1
@@ -5085,7 +5085,7 @@ Senior Fundraiser,1,Other / Unclassified,UNKNOWN,,,,,Leeds (1),Charity / Fundrai
 Graduate Sales Specialist (Marlow),1,Sales / Business Development,UNKNOWN,,,,,Marlow (1),Sales / Business Development,title_rule_pass1
 Senior Electronic Hardware Engineer (ATEX Certification),1,Engineering / Technical,UNKNOWN,,,,,Not Specified (1),Engineering / Technical,title_rule_pass1
 Speech and Language Therapist Sussex,1,Healthcare / Clinical,UNKNOWN,,,,,Haywards Heath (1),Healthcare / Clinical,title_rule_pass1
-Lead Clinician SALT,1,Other / Unclassified,UNKNOWN,,,,,Papworth Everard (1),Other / Unclassified,still_unclassified
+Lead Clinician SALT,1,Other / Unclassified,UNKNOWN,,,,,Papworth Everard (1),Healthcare / Clinical,description_majority
 Occupational Therapist London,1,Healthcare / Clinical,UNKNOWN,,,,,Kensington And Chelsea (1),Healthcare / Clinical,title_rule_pass1
 Lead Clinician - Occupational Therapist,1,Healthcare / Clinical,UNKNOWN,,,,,Hythe (1),Healthcare / Clinical,title_rule_pass1
 Business Development Officer,1,Sales / Business Development,UNKNOWN,,,admin_service,,Brymbo (1),Sales / Business Development,title_rule_pass1
@@ -5400,7 +5400,7 @@ Bank Housing officer,1,Construction / Trades / Property,UNKNOWN,,,admin_service,
 Brand Coordinator & Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Air import customer service clerk,1,Admin / Customer Service,UNKNOWN,,,customer_service_contact_centre,,Hayes (1),Admin / Customer Service,title_rule_pass1
 Mixed Tax Senior,1,Professional Finance / Accountancy,UNKNOWN,,,,,Malvern (1),Professional Finance / Accountancy,title_rule_pass1
-Product Owner (Claims),1,Other / Unclassified,UNKNOWN,,,,,Milton Keynes (1),Insurance / Claims,title_rule_pass2
+Product Owner (Claims),1,Other / Unclassified,UNKNOWN,,,,,Milton Keynes (1),IT / Data / Software,title_rule_pass2
 Customer Service Delivery Representative - Cumbria,1,Admin / Customer Service,UNKNOWN,,,customer_service_contact_centre,,Carlisle (1),Admin / Customer Service,title_rule_pass1
 Pensions Administrator - SIPP,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Manchester (1),Admin / Customer Service,title_rule_pass1
 Employment Legal Director,1,Legal / Conveyancing,UNKNOWN,,,,,Newcastle Upon Tyne (1),Legal / Conveyancing,title_rule_pass1
@@ -5412,7 +5412,7 @@ Orthopaedic Product Manager,1,IT / Data / Software,UNKNOWN,,,,,Not Specified (1)
 Motor Claims Handler,1,Other / Unclassified,UNKNOWN,,,,,Chelmsford (1),Insurance / Claims,title_rule_pass2
 Marketing Analyst,1,Marketing / Digital / Creative,UNKNOWN,,,,,Northampton (1),Marketing / Digital / Creative,title_rule_pass1
 Key Account Manager - Industrial,1,Sales / Business Development,UNKNOWN,,,,,Port Talbot (1),Sales / Business Development,title_rule_pass1
-Trustee Services Advisor,1,Other / Unclassified,UNKNOWN,,,,,Ipswich (1),Other / Unclassified,still_unclassified
+Trustee Services Advisor,1,Other / Unclassified,UNKNOWN,,,,,Ipswich (1),Charity / Fundraising / Community,title_rule_pass2
 Commercial Property Solicitor/ Fee Earner,1,Legal / Conveyancing,UNKNOWN,,,,,Alfreton (1),Legal / Conveyancing,title_rule_pass1
 Housekeeping Assistant - Bank - Hospital,1,Hospitality / Catering,UNKNOWN,,,,,Stockport (1),Hospitality / Catering,title_rule_pass1
 Security Assurance Lead,1,Other / Unclassified,UNKNOWN,,,,,Cambridge (1),Security / Emergency Services,title_rule_pass2
@@ -5474,7 +5474,7 @@ Senior Business Banking Solutions Specialist,1,Other / Unclassified,UNKNOWN,,,,,
 Assistant Manager The Understudy National Theatre,1,Other / Unclassified,UNKNOWN,,,,,City (1),Management / Team Leadership,title_rule_pass2
 Transformation Principal Pricing Analyst,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
 Campus Experience and Security Supervisor,1,Other / Unclassified,UNKNOWN,,,,,Stanford-le-hope (1),Management / Team Leadership,title_rule_pass2
-Deputy Ward Manager,1,Other / Unclassified,UNKNOWN,,,,,Dewsbury (1),Other / Unclassified,still_unclassified
+Deputy Ward Manager,1,Other / Unclassified,UNKNOWN,,,,,Dewsbury (1),Healthcare / Clinical,description_majority
 Legacy Assistant,1,Other / Unclassified,UNKNOWN,,,,,Chelwood Gate (1),Other / Unclassified,still_unclassified
 Marketing & Events Officer,1,Marketing / Digital / Creative,UNKNOWN,,,admin_service,,Not Specified (1),Marketing / Digital / Creative,title_rule_pass1
 Fundraising & Database Administrator,1,IT / Data / Software,UNKNOWN,,,admin_service,,Lingfield (1),IT / Data / Software,title_rule_pass1
@@ -5546,7 +5546,7 @@ Finance Analyst- Fashion Brand,1,Professional Finance / Accountancy,UNKNOWN,,,fi
 Head of Finance - Interim,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Bournemouth (1),Professional Finance / Accountancy,title_rule_pass1
 Field Sales Manager - Bristol,1,Sales / Business Development,UNKNOWN,,,,,Lostwithiel (1),Sales / Business Development,title_rule_pass1
 Head of Finance - FP&A,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Ballymena (1),Professional Finance / Accountancy,title_rule_pass1
-Service Colleague,1,Other / Unclassified,UNKNOWN,,,,,Andover (1),Other / Unclassified,still_unclassified
+Service Colleague,1,Other / Unclassified,UNKNOWN,,,,,Andover (1),Retail / Store,title_rule_pass2
 Director of Licensing,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Property Support Officer,1,Other / Unclassified,UNKNOWN,,,admin_service,,Corby (1),Other / Unclassified,still_unclassified
 Property Claims Team Leader,1,Other / Unclassified,UNKNOWN,,,,,Leeds (1),Insurance / Claims,title_rule_pass2
@@ -5662,7 +5662,7 @@ SKODA Vehicle Technician,1,Engineering / Technical,UNKNOWN,,,,,Worcester (1),Eng
 Gynaecology Surgical Solutions EMEA Scientific Affairs Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Senior Technical Manager,1,Other / Unclassified,UNKNOWN,,,,,Bristol (1),Other / Unclassified,still_unclassified
 Senior Process Development Technologist,1,Other / Unclassified,UNKNOWN,,,,,Shepton Mallet (1),Other / Unclassified,still_unclassified
-Part time Lodge Manager,1,Other / Unclassified,UNKNOWN,,,,,Gillingham (1),Other / Unclassified,still_unclassified
+Part time Lodge Manager,1,Other / Unclassified,UNKNOWN,,,,,Gillingham (1),Management / Team Leadership,title_rule_pass2
 Continuous Improvement Analyst,1,Other / Unclassified,UNKNOWN,,,,,Uxbridge (1),Other / Unclassified,still_unclassified
 Learning and Development Coach,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Executive Researcher- International Scope,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
@@ -5677,7 +5677,7 @@ Change Analyst,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Uncl
 Procurement Project Coordinator / Project Support Specialist,1,Procurement / Buying / Supply Chain,UNKNOWN,,,admin_service,,Warwick (1),Procurement / Buying / Supply Chain,title_rule_pass1
 Research Scientist,1,Science / Laboratory,UNKNOWN,,,,,Nottingham (1),Science / Laboratory,title_rule_pass1
 Data Lead,1,Other / Unclassified,UNKNOWN,,,,,Loughborough (1),Other / Unclassified,still_unclassified
-Safeguarding Trustee,1,Other / Unclassified,UNKNOWN,,,,,Harrow (1),Other / Unclassified,still_unclassified
+Safeguarding Trustee,1,Other / Unclassified,UNKNOWN,,,,,Harrow (1),Charity / Fundraising / Community,title_rule_pass2
 Head of Payments,1,Other / Unclassified,UNKNOWN,,,,,City (1),Other / Unclassified,still_unclassified
 Customer Care Office Manager,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Norwich (1),Admin / Customer Service,title_rule_pass1
 Talent Acquisition Manager,1,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Not Specified (1),HR / Recruitment,title_rule_pass1
@@ -5718,7 +5718,7 @@ Quantitative Researcher/ Trader,1,Other / Unclassified,UNKNOWN,,,,,City (1),Othe
 Civil Litigation Lawyer,1,Legal / Conveyancing,UNKNOWN,,,,,Not Specified (1),Legal / Conveyancing,title_rule_pass1
 Senior Associate - Banking & Finance,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
 Group Internal Auditor,1,Professional Finance / Accountancy,UNKNOWN,,,,,Market Drayton (1),Professional Finance / Accountancy,title_rule_pass1
-Part-time Credit Controller,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Coventry (1),Admin / Customer Service,title_rule_pass2
+Part-time Credit Controller,1,Other / Unclassified,UNKNOWN,,,finance_accounts,,Coventry (1),Other / Unclassified,still_unclassified
 Human Resources Administrator,1,HR / Recruitment,KNOWN,customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:HIGH_CONFIDENCE,hr_recruitment,admin_service; hr_recruitment,,Manchester (1),HR / Recruitment,existing_register:hr_recruitment
 Senior Accounts / Supervisor - Finance Operations High Growth Nutrition eCom,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Colchester (1),Professional Finance / Accountancy,title_rule_pass1
 Senior Pricing Analyst - 12 month FTC,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
