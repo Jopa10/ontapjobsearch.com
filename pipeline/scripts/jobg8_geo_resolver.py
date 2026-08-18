@@ -41,6 +41,14 @@ BROAD_LOCATION_KEYS = {
     "lancashire",
     "cumbria",
 }
+INVALID_REGION_KEYS = {
+    "",
+    "unknown",
+    "not specified",
+    "unmapped",
+    "n/a",
+    "na",
+}
 
 _UK_FULL_POSTCODE_RE = re.compile(
     r"\b([A-Z]{1,2}\d[A-Z\d]?)\s*\d\s*[A-Z]{2}\b",
@@ -92,6 +100,11 @@ def norm_key(value: Any) -> str:
     return norm(value).lower()
 
 
+def _valid_region(value: Any) -> str:
+    region = norm(value)
+    return "" if norm_key(region) in INVALID_REGION_KEYS else region
+
+
 def normalize_postcode_district(value: Any) -> str:
     """Return a UK outward code from full, outward-only, or JobG8 sector data."""
     text = norm(value).upper()
@@ -132,7 +145,7 @@ def load_postcode_overrides(
         for row in reader:
             district = normalize_postcode_district(row.get("postcode_district"))
             display_location = norm(row.get("display_location"))
-            region = norm(row.get("region"))
+            region = _valid_region(row.get("region"))
             if not district or not region:
                 continue
             overrides[district] = PostcodeOverride(district, display_location, region)
@@ -156,7 +169,7 @@ def build_description_place_rules(
     seen: set[tuple[str, str]] = set()
     for raw_place, raw_region in area_lookup.items():
         place_key = norm_key(raw_place)
-        region = norm(raw_region)
+        region = _valid_region(raw_region)
         if (
             not place_key
             or not region
@@ -271,8 +284,10 @@ def resolve_job_geography(
 
     area_key = norm_key(area)
     location_key = norm_key(location)
-    area_region = area_lookup.get(area_key, "")
-    location_region = location_lookup.get(location_key, "") or area_lookup.get(location_key, "")
+    area_region = _valid_region(area_lookup.get(area_key, ""))
+    location_region = _valid_region(
+        location_lookup.get(location_key, "") or area_lookup.get(location_key, "")
+    )
 
     district = normalize_postcode_district(structured_postcode)
     postcode_match = postcode_overrides.get(district) if district else None
@@ -285,7 +300,8 @@ def resolve_job_geography(
             district,
         )
 
-    area_is_broad = area_is_unusable(area) or area_key in BROAD_AREA_KEYS or not area_region
+    area_unusable = area_is_unusable(area)
+    area_is_broad = area_unusable or area_key in BROAD_AREA_KEYS or not area_region
 
     if location_region:
         if area_is_broad and location_key not in BROAD_LOCATION_KEYS:
@@ -345,7 +361,10 @@ def resolve_job_geography(
             district or description_district,
         )
 
-    if area_region:
+    # Explicitly unusable Area values (for example ``City`` or ``Not Specified``)
+    # must never win merely because the lookup workbook happens to map them to a
+    # placeholder/legacy cluster. A valid structured Location wins the fallback.
+    if area_region and not area_unusable:
         return GeoResolution(area_region, area or location, "broad_area", area, district)
     if location_region:
         return GeoResolution(location_region, location or area, "location", location, district)
