@@ -11,6 +11,7 @@ on:
       - 'pipeline/scripts/customer_sales_test_expand.py'
       - 'pipeline/scripts/customer_sales_test_refine.py'
       - 'pipeline/scripts/customer_sales_national_reconciliation.py'
+      - 'pipeline/scripts/customer_sales_proof_mismatch_report.py'
 
 permissions:
   contents: write
@@ -179,7 +180,14 @@ jobs:
             exit 1
           fi
           echo "OK: Customer Sales QA refinement completed" >> "$STATUS"
-          tail -50 "$LOG" >> "$STATUS"
+
+          if ! (cd pipeline && python -m scripts.customer_sales_proof_mismatch_report) >> "$LOG" 2>&1; then
+            echo "FAILED: Customer Sales proof-slice reconciliation" >> "$STATUS"
+            tail -100 "$LOG" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: Customer Sales proof-slice reconciliation completed" >> "$STATUS"
+          tail -60 "$LOG" >> "$STATUS"
 
       - name: Commit diagnostic status, reconciliation and refreshed outputs
         if: always()
@@ -193,6 +201,7 @@ jobs:
           git add pipeline/reports-daily/customer-sales-national-reconciliation.md 2>/dev/null || true
           git add pipeline/reports-daily/customer-sales-national-region-counts.csv 2>/dev/null || true
           git add pipeline/reports-daily/customer-sales-national-detail.csv 2>/dev/null || true
+          git add pipeline/reports-daily/customer-sales-proof-slice-mismatches.md 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No Customer Sales test changes to commit"
           else
