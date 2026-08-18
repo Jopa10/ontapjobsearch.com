@@ -1,27 +1,29 @@
-name: Run full JobG8 daily process
+name: Customer Sales test runner (branch only)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '30 7,15 * * *'
-      timezone: 'Europe/London'
-
-concurrency:
-  group: jobg8-daily
-  cancel-in-progress: false
 
 permissions:
   contents: write
-  id-token: write
 
 jobs:
-  run-full-jobg8-daily-process:
-    name: Run full JobG8 daily process
+  customer-sales-test:
+    if: github.ref_name == 'agent/customer-sales-family'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Guard test branch
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_REF_NAME}" != "agent/customer-sales-family" ]; then
+            echo "::error::This branch copy is only for the Customer Sales test"
+            exit 1
+          fi
+
+      - name: Check out Customer Sales test branch
         uses: actions/checkout@v4
+        with:
+          ref: agent/customer-sales-family
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,9 +31,9 @@ jobs:
           python-version: '3.12'
 
       - name: Install Python packages
-        run: python -m pip install --upgrade pip pandas openpyxl boto3
+        run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Download JobG8 feed
+      - name: Download current JobG8 feed
         env:
           JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
         run: |
@@ -43,9 +45,8 @@ jobs:
             "$JOBG8_FEED_URL" \
             --output "$RUNNER_TEMP/jobg8.zip"
           test -s "$RUNNER_TEMP/jobg8.zip"
-          echo "Downloaded JobG8 feed: $(stat -c%s "$RUNNER_TEMP/jobg8.zip") bytes"
 
-      - name: Convert JobG8 XML into pipeline input
+      - name: Convert JobG8 XML to isolated test input
         run: |
           set -euo pipefail
           rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
@@ -56,251 +57,57 @@ jobs:
             --expected-max 20000
           test -s pipeline/input/jobg8.xlsx
 
-      - name: Test JobG8 feed health guard
+      - name: Build Customer Sales test slices
         working-directory: pipeline
-        run: python -m unittest discover -s tests -p 'test_validate_jobg8_feed_health.py' -v
+        run: python -m scripts.customer_sales_test_pipeline
 
-      - name: Validate JobG8 feed health
-        run: |
-          set -euo pipefail
-          python pipeline/scripts/validate_jobg8_feed_health.py --input pipeline/input/jobg8.xlsx
-
-      - name: Test JobG8 potential duplicate detector
-        working-directory: pipeline
-        run: python -m unittest discover -s tests -p 'test_report_jobg8_potential_duplicates.py' -v
-
-      - name: Report potential JobG8 duplicates
-        run: |
-          set -euo pipefail
-          python pipeline/scripts/report_jobg8_potential_duplicates.py \
-            --input pipeline/input/jobg8.xlsx \
-            --output pipeline/reports-daily/potential-jobg8-duplicates.csv
-
-      - name: Test JobG8 raw archive rules
-        working-directory: pipeline
-        run: python -m unittest discover -s tests -p 'test_jobg8_s3_archive.py' -v
-
-      - name: Configure AWS credentials for JobG8 archive
-        uses: aws-actions/configure-aws-credentials@v6
-        with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
-          aws-region: eu-west-2
-
-      - name: Archive validated JobG8 raw feed
-        env:
-          JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
-          JOBG8_ARCHIVE_REGION: eu-west-2
-        run: |
-          set -euo pipefail
-          python pipeline/scripts/jobg8_s3_archive.py \
-            --zip "$RUNNER_TEMP/jobg8.zip" \
-            --bucket "$JOBG8_ARCHIVE_BUCKET" \
-            --region "$JOBG8_ARCHIVE_REGION" \
-            --prefix "jobg8/raw" \
-            --skip-prune
-
-      - name: Read LIVE slices from register
-        id: slice-register
+      - name: Show test counts
         run: |
           python - <<'PY'
-          import os
-          import sys
+          import json
           from pathlib import Path
-
-          scripts = Path("pipeline/scripts").resolve()
-          sys.path.insert(0, str(scripts))
-          from slice_registry import live_slices
-
-          active = sorted(live_slices())
-          print("LIVE slices:")
-          for region, category in active:
-              print(f"- {region} / {category}")
-
-          categories = {category for _, category in active}
-          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
-              handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
-              handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
+          total = 0
+          for p in sorted(Path('pipeline/output-customer-sales-test').glob('*.json')):
+              rows = json.loads(p.read_text(encoding='utf-8'))
+              total += len(rows)
+              print(f'{p.name}: {len(rows)}')
+          if total == 0:
+              raise SystemExit('STOP: Customer Sales test returned zero candidates across all three slices')
           PY
 
-      - name: Resolve current JobG8 month
-        id: jobg8-month
-        run: echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
-
-      - name: Run service-admin pipeline
-        if: steps.slice-register.outputs.admin_service == 'true'
-        working-directory: pipeline
-        run: python -m scripts.service_admin_pipeline_north_yorkshire
-
-      - name: Reattach approved external-source vacancies
-        if: steps.slice-register.outputs.admin_service == 'true'
-        working-directory: pipeline
-        run: |
-          python -m external_sources.compose_northeast_admin --write
-          python -m external_sources.compose_west_yorkshire_admin --write
-          python -m external_sources.compose_teaching_vacancies_regional --write
-
-      - name: Enrich service-admin job metadata
-        if: steps.slice-register.outputs.admin_service == 'true'
-        working-directory: pipeline
-        run: python -m scripts.enrich_job_metadata --category admin-service
-
-      - name: Verify service-admin outputs
-        if: steps.slice-register.outputs.admin_service == 'true'
-        run: |
-          test -s pipeline/output-admin-service/west-yorkshire-admin-service.json
-          test -s pipeline/output-admin-service/south-yorkshire-admin-service.json
-          test -s pipeline/output-admin-service/north-yorkshire-admin-service.json
-          test -s pipeline/output-admin-service/north-east-admin-service.json
-          test -s pipeline/output-admin-service/london-admin-service.json
-          test -s pipeline/output-admin-service/hampshire-admin-service.json
-          test -s pipeline/output-admin-service/sussex-admin-service.json
-          test -s pipeline/output-admin-service/coventry-warwickshire-admin-service.json
-
-      - name: Run support-worker pipeline
-        if: steps.slice-register.outputs.support_worker == 'true'
-        working-directory: pipeline
-        run: python -m scripts.support_worker_pipeline_live_config
-
-      - name: Enrich support-worker job metadata
-        if: steps.slice-register.outputs.support_worker == 'true'
-        working-directory: pipeline
-        run: python -m scripts.enrich_job_metadata --category support-worker
-
-      - name: Verify support-worker outputs
-        if: steps.slice-register.outputs.support_worker == 'true'
-        run: |
-          test -s pipeline/output-support-worker/west-yorkshire-support-worker.json
-          test -s pipeline/output-support-worker/south-yorkshire-support-worker.json
-          test -s pipeline/output-support-worker/north-east-support-worker.json
-          test -s pipeline/output-support-worker/sussex-support-worker.json
-          test -s pipeline/output-support-worker/cumbria-south-support-worker.json
-          test -s pipeline/output-support-worker/hampshire-support-worker.json
-          test -s pipeline/output-support-worker/london-support-worker.json
-
-      - name: Test persistent review and exclusion behavior
-        working-directory: pipeline
-        run: python -m unittest discover -s tests -p 'test_persistent_jobg8_review.py' -v
-
-      - name: Refresh JobG8 exclusion list
-        working-directory: pipeline
-        run: python -m scripts.persistent_jobg8_review --refresh-exclusion-report
-
-      - name: Commit JobG8 daily output
+      - name: Commit inspection JSON to Customer Sales branch only
         run: |
           set -euo pipefail
-          output_paths=(
-            "pipeline/output-admin-service/*.json"
-            "pipeline/output-support-worker/*.json"
-            "pipeline/reports-daily"
-          )
-
-          if [ -z "$(git status --porcelain -- "${output_paths[@]}")" ]; then
-            echo "No JobG8 daily output changes to commit"
-            exit 0
+          if [ "${GITHUB_REF_NAME}" != "agent/customer-sales-family" ]; then
+            echo "::error::Refusing to commit outside agent/customer-sales-family"
+            exit 1
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- "${output_paths[@]}"
+          git add -- pipeline/output-customer-sales-test/*.json
 
-          staged_files="$(git diff --cached --name-only)"
-          if [ -z "$staged_files" ]; then
-            echo "No JobG8 daily output changes to commit"
+          staged="$(git diff --cached --name-only)"
+          if [ -z "$staged" ]; then
+            echo "No Customer Sales test output changes"
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv"'; } || true)"
-          if [ -n "$unexpected_files" ]; then
-            echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
-            printf '%s\n' "$unexpected_files"
-            git reset --mixed
+          unexpected="$({ printf '%s\n' "$staged" | awk '$0 !~ /^pipeline\/output-customer-sales-test\/.*\.json$/'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Unexpected files staged; refusing to commit"
+            printf '%s\n' "$unexpected"
             exit 1
           fi
 
-          git commit -m "Run full JobG8 daily process"
+          git commit -m "Refresh Customer Sales test slices"
+          git push origin HEAD:agent/customer-sales-family
 
-      - name: Commit JobG8 manual review files
-        run: |
-          set -euo pipefail
-          manual_review_paths=(
-            "pipeline/reviews/jobg8/service-admin-review.csv"
-            "pipeline/reviews/jobg8/service-admin-review.md"
-            "pipeline/reviews/jobg8/support-worker-review.csv"
-            "pipeline/reviews/jobg8/support-worker-review.md"
-            "pipeline/reviews/jobg8/jobg8-exclusion-list.md"
-          )
-
-          if [ -z "$(git status --porcelain -- "${manual_review_paths[@]}")" ]; then
-            echo "No JobG8 manual review changes to commit"
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- "${manual_review_paths[@]}"
-
-          staged_files="$(git diff --cached --name-only)"
-          if [ -z "$staged_files" ]; then
-            echo "No JobG8 manual review changes to commit"
-            exit 0
-          fi
-
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 != "pipeline/reviews/jobg8/service-admin-review.csv" && $0 != "pipeline/reviews/jobg8/service-admin-review.md" && $0 != "pipeline/reviews/jobg8/support-worker-review.csv" && $0 != "pipeline/reviews/jobg8/support-worker-review.md" && $0 != "pipeline/reviews/jobg8/jobg8-exclusion-list.md"'; } || true)"
-          if [ -n "$unexpected_files" ]; then
-            echo "::error::Refusing to commit files outside JobG8 manual review files. Staged files:"
-            printf '%s\n' "$unexpected_files"
-            git reset --mixed
-            exit 1
-          fi
-
-          git commit -m "Refresh JobG8 manual review files"
-
-      - name: Push JobG8 commits safely
-        run: |
-          set -euo pipefail
-
-          tracked_changes="$(git status --porcelain --untracked-files=no)"
-          if [ -n "$tracked_changes" ]; then
-            echo "::error::Tracked changes remain after the JobG8 commit steps; refusing to rebase or push."
-            printf '%s\n' "$tracked_changes"
-            exit 1
-          fi
-
-          for attempt in 1 2 3; do
-            echo "JobG8 push attempt $attempt of 3"
-            if ! git pull --rebase --autostash origin main; then
-              echo "::error::Could not safely rebase JobG8 commits onto the latest main branch."
-              exit 1
-            fi
-
-            if git push origin HEAD:main; then
-              echo "JobG8 commits pushed successfully"
-              exit 0
-            fi
-
-            if [ "$attempt" -lt 3 ]; then
-              echo "main moved during push; retrying after 5 seconds"
-              sleep 5
-            fi
-          done
-
-          echo "::error::JobG8 push was rejected after 3 safe rebase attempts."
-          exit 1
-
-      - name: Upload service-admin output
+      - name: Upload Customer Sales test output
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: service-admin-output
-          path: pipeline/output-admin-service/
-          if-no-files-found: warn
-          retention-days: 7
-
-      - name: Upload support-worker output
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: support-worker-output
-          path: pipeline/output-support-worker/
+          name: customer-sales-test-output
+          path: pipeline/output-customer-sales-test/
           if-no-files-found: warn
           retention-days: 7
