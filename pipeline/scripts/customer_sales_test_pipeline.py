@@ -1,8 +1,11 @@
-"""Branch-only Customer Sales / Sales Advisor discovery test.
+"""Branch-only Customer Sales / Sales Advisor family test.
 
-Reads the current raw JobG8 XLSX and writes three inspection-only JSON files,
-plus a near-miss audit. This module is deliberately separate from live family
-pipelines.
+This deliberately uses the broad family definition agreed during discovery:
+genuine office/contact-centre/home/hybrid selling, conversion, retention and
+renewal roles. A job may also belong to Service Admin; overlap is allowed.
+
+The purpose here is to inspect five already-promising regional slices, not to
+micro-optimise a production classifier.
 """
 from __future__ import annotations
 
@@ -32,58 +35,58 @@ OUTPUT_DIR = Path("output-customer-sales-test")
 TARGETS = {
     "Hampshire": "hampshire.json",
     "Greater Manchester - Manchester & Salford": "manchester-salford.json",
+    "Northern Ireland - East": "northern-ireland-east.json",
+    "Cheshire - Warrington & Halton": "warrington-halton.json",
     "Yorkshire - West": "west-yorkshire.json",
 }
 
-STRONG_TITLE_TERMS = [
-    "sales advisor", "sales adviser", "customer sales", "sales consultant",
-    "sales executive", "telesales", "inside sales", "inbound sales", "outbound sales",
-    "sales agent", "telephone sales", "retention advisor", "retention adviser",
-    "renewals advisor", "renewals adviser", "new business advisor", "new business adviser",
-    "telemarketer", "telemarketing", "appointment setter", "lead generator",
+# Clearly sales-led office/customer titles. These may overlap with Service Admin.
+DIRECT_TITLE_TERMS = [
+    "sales advisor", "sales adviser", "sales executive", "sales consultant",
+    "sales representative", "sales agent", "customer sales", "internal sales",
+    "inside sales", "inbound sales", "outbound sales", "telephone sales", "telesales",
+    "telemarketing", "telemarketer", "retention advisor", "retention adviser",
+    "retention executive", "renewals advisor", "renewals adviser", "renewals executive",
+    "new business advisor", "new business adviser", "new business executive",
+    "business development executive", "lead generator", "appointment setter",
+    "membership sales", "membership advisor", "membership adviser",
 ]
 
-CONTEXT_TITLE_TERMS = [
-    "customer service advisor", "customer service adviser", "customer advisor", "customer adviser",
-    "customer service representative", "customer representative", "customer account advisor",
-    "customer account adviser", "client advisor", "client adviser", "call centre agent",
-    "call center agent", "call centre operator", "call center operator", "contact centre agent",
-    "contact center agent", "contact centre advisor", "contact centre adviser",
-    "customer success advisor", "customer success adviser", "membership advisor", "membership adviser",
-    "business development executive", "new business executive", "commercial executive",
+# Customer/contact-centre titles belong where the advert shows genuine selling,
+# conversion, retention or renewal activity. They are NOT excluded merely because
+# they could also appear in Service Admin.
+CUSTOMER_TITLE_TERMS = [
+    "customer service advisor", "customer service adviser", "customer service representative",
+    "customer advisor", "customer adviser", "customer representative", "customer account advisor",
+    "customer account adviser", "customer success advisor", "customer success adviser",
+    "call centre agent", "call center agent", "call centre operator", "call center operator",
+    "contact centre agent", "contact center agent", "contact centre advisor", "contact centre adviser",
+    "client advisor", "client adviser", "membership advisor", "membership adviser",
 ]
 
 SALES_EVIDENCE_TERMS = [
-    "sales target", "sales targets", "sales opportunity", "sales opportunities",
-    "convert enquiries", "convert inquiries", "convert leads", "convert prospects",
-    "conversion target", "conversion targets", "upsell", "up-sell", "cross-sell", "cross sell",
-    "warm leads", "warm enquiries", "warm inquiries", "qualified leads", "sales leads",
-    "outbound sales", "inbound sales", "telesales", "telephone sales", "cold calling",
-    "new business", "generate revenue", "revenue target", "revenue targets",
-    "booked and paid", "close sales", "closing sales", "close deals", "closing deals",
-    "achieve sales", "meet sales", "hit sales", "sales pipeline", "sales performance",
-    "commission", "uncapped commission", "sales commission",
+    "commission", "uncapped commission", "sales target", "sales targets", "sales kpi", "sales kpis",
+    "sales opportunity", "sales opportunities", "upsell", "up-sell", "cross-sell", "cross sell",
+    "convert enquiries", "convert inquiries", "convert leads", "convert prospects", "convert interest",
+    "conversion target", "conversion targets", "warm leads", "warm enquiries", "warm inquiries",
+    "inbound sales", "outbound sales", "outbound calls", "outbound calling", "telesales",
+    "telephone sales", "cold calling", "new business", "book appointments", "appointment setting",
+    "lead generation", "sales pipeline", "close sales", "closing sales", "close deals", "closing deals",
+    "booked and paid", "retention target", "renewal target", "renewals", "retain customers",
+    "increase membership", "sales experience", "sales role", "selling",
 ]
 
-OFFICE_EVIDENCE_TERMS = [
-    "contact centre", "contact center", "call centre", "call center", "office based", "office-based",
-    "telephone", "phone", "inbound", "outbound", "hybrid", "work from home", "working from home", "remote",
-    "crm", "customer relationship management",
-]
-
+# Keep exclusions broad and obvious. This is an inspection test, not the final
+# production rulebook.
 HARD_EXCLUDE_TERMS = [
     "field sales", "door to door", "door-to-door", "territory sales", "area sales", "regional sales",
-    "car sales", "vehicle sales", "showroom", "retail sales", "sales administrator", "sales administration",
-    "sales support administrator", "sales ledger", "business development manager", "account manager", "sales manager",
-    "account executive", "technical sales", "sales engineer", "estate agent", "lettings negotiator", "sales negotiator",
+    "sales manager", "business development manager", "head of sales", "sales director",
+    "technical sales", "sales engineer", "sales engineering", "product sales engineer",
+    "car sales", "vehicle sales", "showroom", "retail sales", "estate agent", "lettings negotiator",
+    "sales negotiator", "sales administrator", "sales administration", "sales support administrator",
+    "sales ledger", "account manager", "account executive",
     "service advisor - automotive", "service adviser - automotive", "automotive service advisor",
     "automotive service adviser", "aftersales advisor", "aftersales adviser",
-]
-
-AUDIT_TITLE_TERMS = [
-    "sales", "customer", "client", "contact centre", "contact center", "call centre", "call center",
-    "retention", "renewal", "new business", "business development", "commercial", "lead", "appointment",
-    "membership", "account executive", "telemarket",
 ]
 
 REQUIRED_COLUMNS = [
@@ -96,35 +99,26 @@ def contains_any(text: str, terms: list[str]) -> list[str]:
     return [term for term in terms if term in text]
 
 
-def classify_with_reason(title: str, description: str) -> tuple[tuple[str, str] | None, str]:
+def classify(title: str, description: str) -> tuple[str, str] | None:
     t = norm_key(title)
     d = norm_key(description)
     combined = f"{t} {d}"
 
     hard = contains_any(t, HARD_EXCLUDE_TERMS)
     if hard:
-        return None, "hard exclude: " + ", ".join(hard)
+        return None
 
-    strong = contains_any(t, STRONG_TITLE_TERMS)
-    if strong:
-        return ("HIGH_CONFIDENCE", "strong sales-led title: " + ", ".join(strong)), "selected"
+    direct = contains_any(t, DIRECT_TITLE_TERMS)
+    if direct:
+        return "DIRECT_SALES", "sales-led title: " + ", ".join(direct[:3])
 
-    contextual = contains_any(t, CONTEXT_TITLE_TERMS)
-    if not contextual:
-        return None, "no Customer Sales title match"
+    customer = contains_any(t, CUSTOMER_TITLE_TERMS)
+    if customer:
+        evidence = contains_any(combined, SALES_EVIDENCE_TERMS)
+        if evidence:
+            return "CUSTOMER_SALES", "customer role with sales evidence: " + ", ".join(evidence[:3])
 
-    sales = contains_any(combined, SALES_EVIDENCE_TERMS)
-    office = contains_any(combined, OFFICE_EVIDENCE_TERMS)
-    if sales and office:
-        return (
-            "CONTEXT_SALES",
-            "customer/sales-adjacent title with sales evidence (" + ", ".join(sales[:3]) + ")",
-        ), "selected"
-    if not sales and not office:
-        return None, "context title but no sales or office/contact-centre evidence"
-    if not sales:
-        return None, "context title but no genuine sales/conversion evidence"
-    return None, "context title has sales evidence but no office/contact-centre/home evidence"
+    return None
 
 
 def load_geo() -> tuple[dict[str, str], dict[str, str]]:
@@ -147,7 +141,7 @@ def load_geo() -> tuple[dict[str, str], dict[str, str]]:
                 continue
             location = norm_key(row.get("Location"))
             cluster = norm(row.get("Cluster"))
-            if location and cluster in TARGETS:
+            if location and location not in {"not specified", "unknown"} and cluster in TARGETS:
                 fallback_lookup[location] = cluster
 
     return area_lookup, fallback_lookup
@@ -157,7 +151,11 @@ def resolve_region(area: Any, location: Any, area_lookup: dict[str, str], fallba
     area_key = norm_key(area)
     if area_key not in {"", "not specified", "unknown"}:
         return area_lookup.get(area_key, "")
-    return fallback_lookup.get(norm_key(location), "")
+
+    location_key = norm_key(location)
+    if location_key in {"", "not specified", "unknown"}:
+        return ""
+    return fallback_lookup.get(location_key, "")
 
 
 def main() -> None:
@@ -174,7 +172,6 @@ def main() -> None:
     area_lookup, fallback_lookup = load_geo()
     outputs: dict[str, list[dict[str, Any]]] = {region: [] for region in TARGETS}
     seen: dict[str, set[str]] = {region: set() for region in TARGETS}
-    audit: list[dict[str, Any]] = []
     df_columns = list(df.columns)
 
     for _, row in df.iterrows():
@@ -191,20 +188,8 @@ def main() -> None:
         if job_id in seen[region]:
             continue
 
-        result, rejection_reason = classify_with_reason(title, raw_description)
+        result = classify(title, raw_description)
         if not result:
-            title_key = norm_key(title)
-            if contains_any(title_key, AUDIT_TITLE_TERMS):
-                audit.append({
-                    "job_id": job_id,
-                    "title": title,
-                    "advertiser_name": norm(row.get(COL["advertiser_name"])),
-                    "location": norm(row.get(COL["area"])) or norm(row.get(COL["location"])),
-                    "region": region,
-                    "rejection_reason": rejection_reason,
-                    "description_preview": clean_description(raw_description)[:700],
-                    "apply_url": apply_url,
-                })
             continue
         classification, reason = result
 
@@ -239,19 +224,13 @@ def main() -> None:
         jobs = sorted(
             outputs[region],
             key=lambda job: (
-                0 if job.get("customer_sales_classification") == "HIGH_CONFIDENCE" else 1,
+                0 if job.get("customer_sales_classification") == "DIRECT_SALES" else 1,
                 str(job.get("title", "")).lower(),
                 str(job.get("location", "")).lower(),
             ),
         )
         (OUTPUT_DIR / filename).write_text(json.dumps(jobs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"{region}: {len(jobs)} Customer Sales test candidates")
-
-    audit = sorted(audit, key=lambda row: (row["region"], row["title"].lower(), row["location"].lower()))
-    (OUTPUT_DIR / "near-miss-audit.json").write_text(
-        json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
-    print(f"Near-miss audit: {len(audit)} rejected plausible titles")
+        print(f"{region}: {len(jobs)} broad Customer Sales candidates")
 
 
 if __name__ == "__main__":
