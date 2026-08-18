@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-18T12:25:40+00:00
+Generated: 2026-08-18T12:39:13+00:00
 
-> LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-18.csv` on `main`. For NOT LIVE Admin/Support, the daily decision report is used where that region was assessed; otherwise the latest all-region Module 2 profile is used (2026-08-17). Sales Advisor uses test-branch output only. `—` means not assessed / no current source; it does NOT mean zero.
+> LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-18.csv` on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile (2026-08-17). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. Sales Advisor uses test-branch output. `—` means not assessed / no current source; it does NOT mean zero.
 
 ## LIVE
 
