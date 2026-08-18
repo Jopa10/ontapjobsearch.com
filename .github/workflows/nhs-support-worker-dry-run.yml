@@ -1,0 +1,108 @@
+name: NHS Support Worker dry run
+
+on:
+  push:
+    branches:
+      - agent/nhs-unified-review-support-worker
+    paths:
+      - '.github/workflows/nhs-support-worker-dry-run.yml'
+      - 'pipeline/external_sources/nhs_support_worker_discovery.py'
+      - 'pipeline/external_sources/nhs_switchability.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Probe Additional Clinical Services and classify support-worker titles
+        env:
+          PYTHONPATH: pipeline
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import time
+          import urllib.parse
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from collections import Counter
+          from external_sources.nhs_support_worker_discovery import classify_rows
+
+          base = 'https://www.jobs.nhs.uk/api/v1/search_xml'
+          staff_group = 'ADDITIONAL_CLINICAL_SERVICES'
+          headers = {'User-Agent': 'Ontap NHS Support Worker review/1.0 (+https://www.ontapjobsearch.com/contact)', 'Accept': 'application/xml,text/xml'}
+
+          def text(node, tag):
+              child = node.find(tag)
+              return ' '.join((child.text if child is not None and child.text else '').split())
+
+          def fetch(page):
+              url = base + '?' + urllib.parse.urlencode({'staffGroup': staff_group, 'page': page, 'limit': 100, 'sort': 'publicationDateDesc'})
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return response.read()
+
+          first = ET.fromstring(fetch(1))
+          total_pages = int(text(first, './/totalPages') or '1')
+          total_results = int(text(first, './/totalResults') or '0')
+          if total_results <= 0:
+              raise SystemExit(f'STOP: staffGroup={staff_group} returned no results; do not treat as a valid production parameter')
+
+          rows = []
+          seen = set()
+          for page in range(1, total_pages + 1):
+              root = first if page == 1 else ET.fromstring(fetch(page))
+              for node in root.findall('.//vacancyDetails'):
+                  source_id = text(node, 'id')
+                  if not source_id or source_id in seen:
+                      continue
+                  seen.add(source_id)
+                  locations = ', '.join(' '.join((x.text or '').split()) for x in node.findall('locations/location') if (x.text or '').strip())
+                  rows.append({
+                      'source_job_id': source_id,
+                      'title': text(node, 'title'),
+                      'employer': text(node, 'employer'),
+                      'locations': locations,
+                      'salary_text': text(node, 'salary'),
+                      'closing_date': text(node, 'closeDate'),
+                      'source_url': text(node, 'url'),
+                  })
+              if page < total_pages:
+                  time.sleep(0.15)
+
+          classified = classify_rows(rows)
+          buckets = Counter(row.switchability for row in classified)
+          titles = Counter(row.title for row in classified)
+          report = {
+              'staff_group': staff_group,
+              'api_total_results': total_results,
+              'parsed_rows': len(rows),
+              'support_worker_candidates': len(classified),
+              'buckets_listing_text_only': dict(sorted(buckets.items())),
+              'top_titles': titles.most_common(40),
+              'sample_candidates': [
+                  {
+                      'id': row.source_job_id,
+                      'title': row.title,
+                      'employer': row.employer,
+                      'locations': row.locations,
+                      'switchability': row.switchability,
+                      'decision': row.final_decision,
+                      'reason': row.classification_reason,
+                      'url': row.source_url,
+                  }
+                  for row in classified[:80]
+              ],
+          }
+          print('NHS_SUPPORT_WORKER_DRY_RUN_START')
+          print(json.dumps(report, indent=2, ensure_ascii=False))
+          print('NHS_SUPPORT_WORKER_DRY_RUN_END')
+          PY
