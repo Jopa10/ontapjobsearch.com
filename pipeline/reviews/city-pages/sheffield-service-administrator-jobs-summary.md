@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 1
-- automatic exclude: 18
+- automatic exclude: 14
 - effective include: 6
 - effective review: 1
-- effective exclude: 18
+- effective exclude: 14
 
 ## INCLUDE (6)
 
@@ -110,7 +110,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Sheffield employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -156,18 +156,6 @@ title: Call Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
 job_id: jobg8-21618_20279_59837-89740a075c6163b74ea2c52702062e5d
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
@@ -180,43 +168,7 @@ title: Call Centre Operator
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-20279_59837-73862c8b83139033e4e4a8b6efca9a33
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
 job_id: jobg8-21618_20279_59837-73862c8b83139033e4e4a8b6efca9a33
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 

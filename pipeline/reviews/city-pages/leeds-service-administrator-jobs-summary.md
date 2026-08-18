@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 18
 - automatic review: 18
 - automatic exclude: 22
-- effective include: 16
+- effective include: 18
 - effective review: 18
 - effective exclude: 22
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-e6adc526-6a11-4aca-a85b-f18a9cd311ee
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Lucy Walker Recruitment Ltd - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-b607db7b-477a-447b-82e6-a231dbfbbc12
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -105,6 +117,18 @@ company: InfoTrack UK - Company - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: EL/PL Claims Handler
+company: Keoghs LLP - Company - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-fb796b57-2279-47a1-89ba-57ad2e8e3bd2
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 

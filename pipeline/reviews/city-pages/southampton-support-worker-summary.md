@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 8
-- automatic exclude: 6
+- automatic exclude: 5
 - effective include: 4
 - effective review: 8
-- effective exclude: 6
+- effective exclude: 5
 
 ## INCLUDE (4)
 
@@ -170,7 +170,7 @@ job_id: jobg8-1401784321
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -217,18 +217,6 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-202c4b49-5e6c-46f1-879f-8421db894a5b
-reason: The stated workplace belongs outside the approved Southampton employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Residential Childcare Support Worker
-company: Apple Orchard - Agency - Permanent
-location: Aldershot
-source: JobG8
-job_id: jobg8-107776124
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 

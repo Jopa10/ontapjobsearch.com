@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 9
-- automatic exclude: 22
+- automatic exclude: 21
 - effective include: 8
 - effective review: 9
-- effective exclude: 22
+- effective exclude: 21
 
 ## INCLUDE (8)
 
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225462263
 reason: No approved Brighton & Hove employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -397,18 +397,6 @@ company: Churchill Freight Services Ltd - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-107805697
-reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Administrator
-company: Reed - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-5acdf7ea-d9f5-44a4-80fa-9921c8d713d1
 reason: The stated workplace belongs outside the approved Brighton & Hove employment market.
 ---
 

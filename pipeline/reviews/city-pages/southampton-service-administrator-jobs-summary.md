@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 19
-- automatic exclude: 24
+- automatic review: 23
+- automatic exclude: 27
 - effective include: 11
-- effective review: 19
-- effective exclude: 24
+- effective review: 23
+- effective exclude: 27
 
 ## INCLUDE (11)
 
@@ -156,7 +156,19 @@ job_id: jobg8-23643_225419560
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (19)
+## REVIEW (23)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Boiler Installs Administrator
+company: The Hyde Group - Company - Permanent
+location: Havant
+source: JobG8
+job_id: jobg8-c9541cf7-4df0-4d84-bf49-6470ead69ade
+reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -216,6 +228,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-d085c5f2-2439-4e83-81a8-b5d43af25dff
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: JDR - Just Dynamic Recruitment - Agency - Temporary
+location: Ringwood
+source: JobG8
+job_id: jobg8-107825959
+reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -342,6 +366,18 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Reed - Agency - Temporary
+location: Hook
+source: JobG8
+job_id: jobg8-b06192e9-e3c3-41de-9ddd-fc7ba0c12b70
+reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Part Time
 company: Office Angels - Agency - Permanent
 location: Tadley
@@ -359,6 +395,18 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Percival Aviation - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225476353
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -386,7 +434,7 @@ job_id: teaching-vacancies-send-administrator-access-arrangements-support-assist
 reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -409,6 +457,18 @@ company: Pertemps Basingstoke - Agency - Temporary
 location: Andover
 source: JobG8
 job_id: jobg8-d9d504a6-8084-40b3-a954-553a174af2f1
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - IMMEDIATE START
+company: Office Angels - Agency - Temporary
+location: Andover
+source: JobG8
+job_id: jobg8-752b1773-8140-4647-aa4d-481f6707de83
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 
@@ -488,11 +548,35 @@ reason: The stated workplace belongs outside the approved Southampton employment
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Executive Assistant & Operations Coordinator
+company: Workshop Recruitment - Agency - Temporary
+location: Portsmouth
+source: JobG8
+job_id: jobg8-0a78a1e3-9c37-4454-af38-985294afc047
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant- Xero experience
 company: Office Angels - Agency - Temporary
 location: Basingstoke
 source: JobG8
 job_id: jobg8-c7513af2-74eb-4011-bb87-5b623fbf8fc4
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Governance Coordinator
+company: Reed - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-84211efd-7135-4121-abc2-ba964c41865e
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 
@@ -644,11 +728,11 @@ reason: The stated workplace belongs outside the approved Southampton employment
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Temporary Administrator
-company: Mulberry Recruitment - Agency - Temporary
-location: Farnborough
+title: Service Delivery Coordinator (Remote)
+company: Eligo Recruitment Ltd - Agency - Permanent
+location: Basingstoke
 source: JobG8
-job_id: jobg8-23643_225458449
+job_id: jobg8-23643_225390412
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 

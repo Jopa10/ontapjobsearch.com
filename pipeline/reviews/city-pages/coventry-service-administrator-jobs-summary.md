@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 13
 - automatic review: 2
-- automatic exclude: 9
+- automatic exclude: 8
 - effective include: 13
 - effective review: 2
-- effective exclude: 9
+- effective exclude: 8
 
 ## INCLUDE (13)
 
@@ -206,7 +206,7 @@ job_id: jobg8-23643_225430942
 reason: No approved Coventry employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -301,17 +301,5 @@ company: Houlton School
 location: RUGBY
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-houlton-school
-reason: The stated workplace belongs outside the approved Coventry employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Terms Administrator
-company: Elevation People Solutions - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225417883
 reason: The stated workplace belongs outside the approved Coventry employment market.
 ---
