@@ -231,14 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452299",
@@ -263,11 +256,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1671017",
@@ -292,12 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1671015",
@@ -422,12 +406,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107796844",
+    "title": "Service Advisor",
+    "company": "The Solution Automotive Limited - Agency - Permanent",
+    "location": "Portsmouth",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "40000",
+    "salary_max": "40000",
+    "salary_text": "£40000 per year",
+    "posted_date": "",
+    "description": "Service Advisor\n\nFranchised Motor Dealership - Portsmouth\n\nOur client is looking for a driven experienced Service Advisor to join their prestige aftersales department based at their site in Portsmouth.\n\nWe are looking for a Service Advisor who has the ability to work to deadlines and handle sensitive and confidential information click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOp2Z9SRnzv5FpvfMxEzCj%2fr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Solution Automotive Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225407249",
@@ -452,14 +456,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225420218",
@@ -509,14 +506,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "b984089c-968f-424c-81de-219bbe2b22b1",
@@ -691,12 +681,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c9541cf7-4df0-4d84-bf49-6470ead69ade",
@@ -896,14 +881,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107816328",
@@ -953,11 +931,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107824141",
@@ -1032,14 +1006,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225477911",
@@ -1114,11 +1081,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472675",
@@ -1318,11 +1281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225432762",
@@ -1422,13 +1381,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Document preparation",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4274e7f2-0812-4082-81f0-791e07dff1cd",
@@ -1478,11 +1431,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0a78a1e3-9c37-4454-af38-985294afc047",
@@ -1507,11 +1456,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107835605",

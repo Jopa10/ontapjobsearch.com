@@ -6,9 +6,81 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 64
+remembered_exclusions: 71
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-18
+title: Showroom Coordinator
+employer: SER (Staffing) Ltd
+region: 
+town: Warwickshire
+salary: 
+job_id: 107830288
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-18
+title: Range Planner - Convenience
+employer: Experis
+region: 
+town: London
+salary: 
+job_id: 107843551
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-18
+title: Patent Secretary
+employer: Alexander Mae (Bristol) Ltd
+region: 
+town: London
+salary: 
+job_id: 107697649
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-18
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Gloucestershire
+salary: 
+job_id: cabb1ecb-a960-45a4-b363-b6df17c82409
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-18
+title: PMO Coordinator
+employer: BOWERFORD ASSOCIATES
+region: 
+town: Devon
+salary: 
+job_id: bffae8f8-4b47-4b53-bd40-10fce4866cd9
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-18
+title: Client Facing Paraplanner, London (hybrid), Basic to circa £60k
+employer: MI Search Ltd
+region: 
+town: London
+salary: 
+job_id: 9a8a65b7-5887-40a1-a98e-de57fb95676e
+---
 
 ---
 action:
@@ -767,6 +839,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-18
+title: Permanent Part-time Private Personal Assistant - Cotswolds
+employer: Love Success Recruitment
+region: 
+town: Wiltshire
+salary: 
+job_id: 61318ff3-8530-4604-9b2f-3445400107a3
+---
 
 ---
 action:

@@ -747,12 +747,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225431204",
@@ -827,12 +822,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465230",
@@ -857,12 +847,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474593",
@@ -1015,6 +1000,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "cf054858-fa00-43dc-b84f-98cacbbc668c",
+    "title": "HR Administrator",
+    "company": "Axis CLC - Company - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "27000",
+    "salary_text": "£27000 per year",
+    "posted_date": "",
+    "description": "Axis CLC is a national property maintenance and compliance partner, backed by over 110 years of combined experience and operating from 23 offices across the UK. Together, our divisions employ more than 2,500 people and support over 400 clients nationwide, delivering essential property repairs, maintenance, refurbishment, decarbonisation and building safety services that keep homes and public buildings operating at their best. Each year we complete over 400,000 repairs, helping to keep tenants safe, properties performing and owners fully compliant.\n\nThe Role:\n\nWorking as part of a team in a fast-paced environment, providing comprehensive administrative support to Axis CLC s HR function. Responsible for delivering all aspects of HR administration in a timely, efficient, effective, and accurate manner, while maintaining a high standard of service and attention to detail.\n\nResponsibilities:\n\nEfficiently manage all HR administration matters across the full employee lifecycle, from onboarding and induction through to leaver processes.\n\nAccurately create and maintain employee records within the HR database, ensuring information is complete, accurate, and up to date.\n\nPrepare and issue offer letters and contracts of employment via Adobe Sign, ensuring all contracts are sent on time\n\nProduce and process contractual documentation, including contract changes, variation and leaver letters, employment references, and other HR-related correspondence.\n\nMaintain accurate and secure electronic employee files, ensuring all documentation is appropriately recorded and filed.\n\nDeliver a high level of customer service by efficiently managing the HR mailbox, responding to employee and manager queries, and ensuring enquiries are resolved or appropriately escalated in a timely manner.\n\nRequirements:\n\nExperience in HR administration or a similar HR support role.\n\nCIPD Level 3 or Level 5 qualification or currently working towards one.\n\nStrong prioritisation and time-management skills, with the ability to manage competing deadlines effectively.\n\nExcellent organisational and multitasking skills, with the ability to work efficiently in a fast-paced environment.\n\nStrong written and verbal communication skills, with the confidence to communicate effectively with employees and stakeholders at all levels.\n\nExcellent attention to detail, with a high level of accuracy when handling employee data and HR documentation.\n\nPassion for HR, with a commitment to providing a high-quality and customer-focused HR service.\n\nWhat We Offer:\n\nUp to £27,000 per annum, plus performance discretionary bonus\n\nPension, life assurance\n\n25 days' holiday + bank holidays\n\nPerkbox benefits worth up to £350 per year, including discounts, perks and wellbeing support\n\n24/7 GP referral and wellbeing support service\n\n1 paid volunteer day\n\n£2,000 refer-a-friend bonus after the referee passes probation\n\nWhy Axis CLC?\n\nJoining Axis CLC means being part of a national organisation delivering essential services across housing, education, healthcare, defence and commercial property. We value reliability, quality and social impact, and offer meaningful work with real opportunities to grow.\n\nOur Commitment to Inclusion:\n\nMany faces, one Axis CLC. We value diversity and are proud to be an equal opportunity employer. If you require any adjustments during the hiring process, please let us know",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bTIZcDjidOxguawnimD%2faWc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Axis CLC",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225410812",
     "title": "Workplace Office Coordinator",
     "company": "Adecco - Agency - Temporary",
@@ -1062,13 +1072,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a6a1059f-412f-4a98-9621-dd0f56adbdea",
@@ -1143,12 +1147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "30dd270a-bc10-438a-91aa-350d9861e84e",
@@ -1298,14 +1297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225403370",
@@ -1355,11 +1347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225407744",
@@ -1634,11 +1622,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430273",
@@ -1688,11 +1672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d4000791-6f57-45b5-b179-616cd9975d10",
@@ -1842,12 +1822,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225196977",
@@ -1897,12 +1872,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444722",
@@ -1952,12 +1922,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452426",
@@ -2007,12 +1972,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225454170",
@@ -2137,12 +2097,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464987",
@@ -2192,11 +2147,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466886",
@@ -2271,11 +2222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3d2f35d7-304f-43ec-ab7a-50a01ee54e4b",
@@ -2375,11 +2322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480304",
@@ -2529,11 +2472,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "ada47eb5-cc52-4738-b6f2-4f788f18c0cb",
@@ -2558,12 +2497,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4dd8d513-8ffd-4e38-846c-a67afb0e54c2",
@@ -2613,12 +2547,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2fe712f6-4d2b-4c9d-ad41-ff4fc1a1b318",
@@ -2643,11 +2572,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1d0c335b-3ed3-4338-b59f-58aa9e9d5ce6",
@@ -2922,11 +2847,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fc340085-054a-40cc-8bbb-1b489c64232b",
@@ -3151,11 +3072,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107786275",
@@ -3255,11 +3172,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "06d9ecc2-8f55-4bf3-ad8b-835c375815fc",
@@ -3309,12 +3222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225440089",
@@ -3339,11 +3247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "316f2ae5-fd75-409f-9b68-3ef8adc7fb89",
@@ -3368,13 +3272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2f01765c-5705-43c3-8e7b-12bf4fdd75d5",
@@ -3399,11 +3297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430631",
@@ -3453,12 +3347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225334055",
@@ -3483,13 +3372,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461934",
@@ -3539,13 +3422,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "a1a841ae-c43c-4f2d-89c0-450a6b91b1ab",
+    "title": "Secretary",
+    "company": "Job Box Recruitment Limited - Agency - Permanent",
+    "location": "Twickenham",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "36000",
+    "salary_text": "£30000 - £36000 per year",
+    "posted_date": "",
+    "description": "We are currently recruiting for an experienced Secretary to join a small, professional and friendly office environment.\n\nThis is a varied role offering a mixture of reception, secretarial and general administrative responsibilities, supporting senior members of the team and helping to ensure the smooth day-to-day running of the office.\n\nThe successful candidate will be organised, professional and approachable, with excellent attention to detail and the ability to manage a busy workload while maintaining a high standard of service.\n\nThe Role\n\nYour responsibilities will include:\n- Acting as a professional first point of contact for visitors, clients and telephone enquiries.\n- Providing a friendly and welcoming reception service.\n- Managing incoming and outgoing correspondence, post and deliveries.\n- Providing comprehensive secretarial and administrative support to senior team members.\n- Preparing letters, documents and general correspondence to a high standard.\n- Managing diaries and arranging meetings using Outlook.\n- Preparing meeting rooms and taking notes or minutes where required.\n- Maintaining accurate electronic and paper-based filing systems.\n- Scanning, organising and maintaining documentation and records.\n- Updating databases, spreadsheets and internal systems.\n- Assisting with the organisation and administration of client information and documentation.\n- Supporting the wider team with day-to-day administrative requirements.\n- Working collaboratively with other administrative staff to ensure the smooth running of the office.\n- Assisting with general office organisation, equipment and upkeep.\n- Providing cover and support across the administration function as required.\n\nAbout You\n\nWe are looking for someone with previous secretarial or administrative experience who is confident working in a professional environment and enjoys a role with plenty of variety.\n\nYou will ideally have:\n- At least 3 years' experience in a secretarial or administrative position; more experienced candidates are welcomed.\n- Excellent written and verbal communication skills.\n- A professional, friendly and confident telephone manner.\n- Strong organisational skills and excellent attention to detail.\n- The ability to manage competing priorities and work effectively to deadlines.\n- A high level of accuracy and good typing skills.\n- Excellent IT skills, particularly Microsoft Word, Excel and Outlook, together with confidence using databases and other office systems.\n- Good numeracy skills and confidence working with spreadsheets.\n- The ability to work independently and use your own initiative.\n- A calm and professional approach when working under pressure.\n- A flexible attitude and willingness to support colleagues across the wider team.\n- A strong work ethic and a reliable, trustworthy approach.\n- An understanding of confidentiality and the importance of handling sensitive information appropriately.\n- A professional appearance and manner.\n\nExperience within a professional services environment would be advantageous, although candidates with strong transferable secretarial or administrative experience will also be considered.\n\nWhat's on Offer?\n\nThis is an excellent opportunity for an experienced Secretary to join a small, supportive and professional team where you will play an important role in the smooth running of the office.\n\nThe position offers plenty of variety, responsibility and the opportunity to build strong working relationships with colleagues and clients.\n\nHours: Monday to Friday, 9.00am-5.30pm\n\nContract: Full-time, permanent\n\nIf you are an experienced Secretary looking for a varied position within a professional and friendly working environment, we would be pleased to hear from you.\n\nPlease note:\n\nAs you can appreciate we are currently overwhelmed with applications of individuals looking for both short term and permanent work and we can therefore only contact those applications that have relevant skills for positions that we currently have available. Should you not hear from us within a week, please assume you have been unsuccessful on this occasion.\n\nIn line with the GDPR Regulations, we are making you aware that in order to proceed with your application, we will need to contact you via email, telephone and/or text message. By submitting your CV to this vacancy, you are agreeing to Job Box Recruitment Limited holding your details in order to enable us to contact you with suitable positions. Details of our Privacy Notice and GDPR Policy can be found on our website or emailed across to you if requested.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxXMVDgQFbtRNcJKTATu59rp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Job Box Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434826",
@@ -3570,11 +3472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "48820166-2b23-444d-9954-cfff6c033111",
@@ -3599,13 +3497,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225498172",
@@ -3705,12 +3597,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Customer portals",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225424406",
@@ -3760,11 +3647,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225411504",
@@ -3864,12 +3747,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0705fd9d-3def-44db-b723-acd98806cf5f",
@@ -3919,11 +3797,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1c707cdb-196a-4801-b41b-c2e99f8a307a",
@@ -3973,13 +3847,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d69e19ea-b3b2-4f7a-82d4-8951559590c8",
@@ -4004,14 +3872,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a65fdabc-6bc9-40ee-9a53-499a14c95c4a",
@@ -4036,13 +3897,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428764",
@@ -4117,11 +3972,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434211",
@@ -4246,12 +4097,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_219511554",
@@ -4276,11 +4122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497881",
@@ -4405,12 +4247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "30ca5b46-aac9-404d-8d1b-8eb2b8941cdf",
@@ -4435,11 +4272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225399146",
