@@ -84,6 +84,42 @@ jobs:
               print(subset[columns].to_string(index=False, max_rows=300))
           PY
 
+      - name: Assert known Greater Manchester examples resolve correctly
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          from scripts import service_admin_pipeline as pipeline
+
+          df = pipeline.read_table('input/jobg8.xlsx').fillna('')
+          area_lookup, location_lookup = pipeline.build_complete_geo_lookups()
+          rules = pipeline._geo.description_place_rules_for_lookup(area_lookup)
+          print('Bury lookup:', area_lookup.get('bury'))
+          print('Oldham lookup:', area_lookup.get('oldham'))
+          print('Bury rule count:', sum(rule.place_key == 'bury' for rule in rules))
+          print('Oldham rule count:', sum(rule.place_key == 'oldham' for rule in rules))
+
+          expected = {
+              '23643_225416274': ('Greater Manchester - South', 'Stockport'),
+              '23643_225236227': ('Greater Manchester - North', 'Oldham'),
+              '107694386': ('Greater Manchester - North', 'Bury'),
+              '23643_225412646': ('Greater Manchester - Wigan & Bolton', 'Bolton'),
+          }
+          by_id = {
+              str(row.get(pipeline.COL['job_id'], '')).strip(): row
+              for _, row in df.iterrows()
+          }
+          failures = []
+          for job_id, target in expected.items():
+              row = by_id[job_id]
+              result = pipeline.resolve_job_geography(row, area_lookup, location_lookup)
+              print(job_id, '=>', result)
+              if (result.region, result.town) != target:
+                  failures.append(f'{job_id}: got {(result.region, result.town)}, expected {target}')
+          if failures:
+              raise SystemExit('Known-routing regression:\n' + '\n'.join(failures))
+          PY
+
       - name: Audit old versus structured geography on expanded feed
         working-directory: pipeline
         run: python -m scripts.audit_live_service_admin_structured_geo
