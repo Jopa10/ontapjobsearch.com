@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/build-customer-sales-test-slices.yml'
       - 'pipeline/scripts/customer_sales_test_pipeline.py'
+      - 'pipeline/scripts/customer_sales_test_expand.py'
       - 'pipeline/scripts/customer_sales_test_refine.py'
 
 permissions:
@@ -129,13 +130,20 @@ jobs:
           fi
           echo "OK: Customer Sales test pipeline completed" >> "$STATUS"
 
+          if ! (cd pipeline && python -m scripts.customer_sales_test_expand) >> "$LOG" 2>&1; then
+            echo "FAILED: Customer Sales conditional account expansion" >> "$STATUS"
+            tail -100 "$LOG" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: Customer Sales conditional account expansion completed" >> "$STATUS"
+
           if ! (cd pipeline && python -m scripts.customer_sales_test_refine) >> "$LOG" 2>&1; then
             echo "FAILED: Customer Sales QA refinement" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
           echo "OK: Customer Sales QA refinement completed" >> "$STATUS"
-          tail -30 "$LOG" >> "$STATUS"
+          tail -40 "$LOG" >> "$STATUS"
 
       - name: Commit diagnostic status and refreshed outputs
         if: always()
