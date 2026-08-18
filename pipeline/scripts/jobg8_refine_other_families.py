@@ -2,8 +2,15 @@ from __future__ import annotations
 
 import argparse
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
+
+# This repo contains pipeline/scripts/pandas.py as a compatibility shim. Remove
+# the script directory while importing so this audit gets the installed pandas
+# package rather than the local shim.
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path = [entry for entry in sys.path if Path(entry or ".").resolve() != SCRIPT_DIR]
 
 import pandas as pd
 
@@ -94,13 +101,21 @@ def main() -> int:
     for family, count in family_counts.most_common():
         share = count / total * 100 if total else 0
         lines.append(f"| {family} | {count:,} | {share:.1f}% |")
-    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Added categories from the old Other bucket", "", "| Added family | Jobs moved |", "|---|---:|"]
+    lines += [
+        f"| **TOTAL** | **{total:,}** | **100.0%** |",
+        "",
+        "## Added categories from the old Other bucket",
+        "",
+        "| Added family | Jobs moved |",
+        "|---|---:|",
+    ]
     for family, count in moved_counts.most_common():
         lines.append(f"| {family} | {count:,} |")
 
     lines += ["", "## Largest titles still unclassified", "", "| Count | Title |", "|---:|---|"]
     for title, count in family_titles["Other / Unclassified"].most_common(50):
-        lines.append(f"| {count} | {title.replace('|', '\\|')} |")
+        safe_title = title.replace("|", "\\|")
+        lines.append(f"| {count} | {safe_title} |")
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines[:35]))
