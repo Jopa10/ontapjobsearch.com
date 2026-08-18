@@ -1,0 +1,134 @@
+name: Test live Service Admin structured geography
+
+on:
+  push:
+    branches:
+      - fix/live-service-admin-structured-geo
+    paths:
+      - 'pipeline/scripts/jobg8_geo_resolver.py'
+      - 'pipeline/scripts/service_admin_pipeline.py'
+      - 'pipeline/scripts/jobg8_xml_adapter.py'
+      - 'pipeline/scripts/audit_live_service_admin_structured_geo.py'
+      - 'pipeline/geo/postcode_location_overrides.csv'
+      - 'tests/test_service_admin_structured_geo.py'
+      - 'tests/test_service_admin_geography_guard.py'
+      - '.github/workflows/test-live-service-admin-structured-geo.yml'
+  pull_request:
+    paths:
+      - 'pipeline/scripts/jobg8_geo_resolver.py'
+      - 'pipeline/scripts/service_admin_pipeline.py'
+      - 'pipeline/scripts/jobg8_xml_adapter.py'
+      - 'pipeline/scripts/audit_live_service_admin_structured_geo.py'
+      - 'pipeline/geo/postcode_location_overrides.csv'
+      - 'tests/test_service_admin_structured_geo.py'
+      - 'tests/test_service_admin_geography_guard.py'
+      - '.github/workflows/test-live-service-admin-structured-geo.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structured-geo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Run structured geography unit tests
+        run: |
+          python -m unittest tests/test_service_admin_structured_geo.py -v
+          python -m unittest tests/test_service_admin_geography_guard.py -v
+
+      - name: Download current JobG8 feed
+        if: github.event_name != 'pull_request'
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
+        run: |
+          set -euo pipefail
+          : "${JOBG8_FEED_URL:?JOBG8_FEED_URL secret is not configured}"
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 5 \
+            --connect-timeout 30 --max-time 180 \
+            "$JOBG8_FEED_URL" \
+            --output "$RUNNER_TEMP/jobg8.zip"
+          test -s "$RUNNER_TEMP/jobg8.zip"
+
+      - name: Convert current feed and require structured postcode
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
+          python pipeline/scripts/jobg8_xml_adapter.py \
+            --zip "$RUNNER_TEMP/jobg8.zip" \
+            --output pipeline/input/jobg8.xlsx \
+            --expected-min 5000 \
+            --expected-max 20000
+          test -s pipeline/input/jobg8.xlsx
+
+      - name: Audit old versus structured geography on current feed
+        if: github.event_name != 'pull_request'
+        working-directory: pipeline
+        run: python -m scripts.audit_live_service_admin_structured_geo
+
+      - name: Run full live Service Admin selector on branch
+        if: github.event_name != 'pull_request'
+        working-directory: pipeline
+        run: python -m scripts.service_admin_pipeline_north_yorkshire
+
+      - name: Assert rerouted South jobs are absent from Manchester and Salford output
+        if: github.event_name != 'pull_request'
+        run: |
+          python - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          audit = Path('pipeline/reports-audit/live-service-admin-structured-geo-branch.csv')
+          output = Path('pipeline/output-admin-service/manchester-salford-admin-service.json')
+          if not audit.is_file() or not output.is_file():
+              raise SystemExit('Missing audit or Manchester/Salford output')
+
+          moved = set()
+          with audit.open(newline='', encoding='utf-8-sig') as handle:
+              for row in csv.DictReader(handle):
+                  if (
+                      row.get('old_region') == 'Greater Manchester - Manchester & Salford'
+                      and row.get('new_region') == 'Greater Manchester - South'
+                  ):
+                      moved.add(row.get('job_id', '').strip())
+
+          payload = json.loads(output.read_text(encoding='utf-8'))
+          items = payload if isinstance(payload, list) else payload.get('jobs', [])
+          published_ids = {
+              str(item.get('job_id', '')).strip()
+              for item in items
+              if isinstance(item, dict)
+          }
+          leaked = sorted(job_id for job_id in moved if job_id and job_id in published_ids)
+          if leaked:
+              raise SystemExit('South-rerouted jobs leaked into Manchester/Salford output: ' + ', '.join(leaked))
+          print(f'PASS: {len(moved)} South-rerouted candidate job(s) absent from Manchester/Salford output')
+          PY
+
+      - name: Upload branch geography audit and output
+        if: always() && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-service-admin-structured-geo-branch
+          path: |
+            pipeline/reports-audit/live-service-admin-structured-geo-branch.csv
+            pipeline/reports-audit/live-service-admin-structured-geo-branch.md
+            pipeline/output-admin-service/manchester-salford-admin-service.json
+            pipeline/reports-daily/decision-report-admin-service.csv
+          if-no-files-found: warn
+          retention-days: 7
