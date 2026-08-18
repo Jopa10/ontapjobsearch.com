@@ -13,9 +13,8 @@ DEFAULT_POSTCODE_OVERRIDES_PATH = (
 DESCRIPTION_POSTCODE_WINDOW = 700
 
 # JobG8 commonly uses these as umbrella geographies. A more precise structured
-# Location may overrule one of these, but it must not overrule a specific Area
-# such as Bristol, Oxford, Ipswich or Cambridge merely because Location contains
-# a broader county name.
+# Location may overrule one of these, but it must not overrule a populated,
+# specific Area merely because Location contains a broader county name.
 BROAD_AREA_KEYS = {
     "",
     "city",
@@ -50,6 +49,12 @@ _UK_FULL_POSTCODE_RE = re.compile(
     re.IGNORECASE,
 )
 _UK_OUTCODE_RE = re.compile(r"^[A-Z]{1,2}\d[A-Z\d]?$", re.IGNORECASE)
+# JobG8 often supplies only outward-code + sector, e.g. ``M21 0`` or ``M3 5``.
+# The second number is the sector, not part of the outward code.
+_UK_OUTCODE_SECTOR_RE = re.compile(
+    r"^([A-Z]{1,2}\d[A-Z\d]?)\s+(\d)$",
+    re.IGNORECASE,
+)
 
 
 @dataclass(frozen=True)
@@ -79,16 +84,26 @@ def norm_key(value: Any) -> str:
 
 
 def normalize_postcode_district(value: Any) -> str:
-    """Return a normalized UK outward code such as SK3, M22 or NE27."""
+    """Return the UK outward code from full, outward-only, or sector-only data.
+
+    Examples: ``SK3 0XX`` -> ``SK3``; ``M21 0`` -> ``M21``;
+    ``M3 5`` -> ``M3``; ``M35`` -> ``M35``.
+    """
     text = norm(value).upper()
     if not text:
         return ""
-    match = _UK_FULL_POSTCODE_RE.search(text)
-    if match:
-        return re.sub(r"\s+", "", match.group(1)).upper()
-    compact = re.sub(r"\s+", "", text)
-    if _UK_OUTCODE_RE.fullmatch(compact):
-        return compact
+
+    full_match = _UK_FULL_POSTCODE_RE.search(text)
+    if full_match:
+        return full_match.group(1).upper()
+
+    sector_match = _UK_OUTCODE_SECTOR_RE.fullmatch(text)
+    if sector_match:
+        return sector_match.group(1).upper()
+
+    if _UK_OUTCODE_RE.fullmatch(text):
+        return text.upper()
+
     return ""
 
 
@@ -96,7 +111,7 @@ def extract_postcode_district(text: Any) -> str:
     match = _UK_FULL_POSTCODE_RE.search(norm(text).upper())
     if not match:
         return ""
-    return re.sub(r"\s+", "", match.group(1)).upper()
+    return match.group(1).upper()
 
 
 def load_postcode_overrides(
