@@ -33,3 +33,5 @@ northern-ireland-east.json: 6 -> 6 jobs (0 removed)
 south-yorkshire.json: 4 -> 4 jobs (0 removed)
 warrington-halton.json: 47 -> 46 jobs (1 removed)
 west-yorkshire.json: 6 -> 5 jobs (1 removed)
+Proof-slice mismatch rows: 1
+Wrote reports-daily/customer-sales-proof-slice-mismatches.md

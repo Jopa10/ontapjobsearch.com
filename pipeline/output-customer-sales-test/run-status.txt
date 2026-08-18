@@ -1,4 +1,4 @@
-Customer Sales test run: 2026-08-18T14:31:59Z
+Customer Sales test run: 2026-08-18T14:37:53Z
 OK: JobG8 feed secret available
 OK: downloaded valid current JobG8 feed (7506823 bytes)
 OK: normalised JobG8 feed
@@ -8,6 +8,7 @@ OK: Customer Sales national reconciliation completed
 OK: Customer Sales test pipeline completed
 OK: Customer Sales conditional account expansion completed
 OK: Customer Sales QA refinement completed
+OK: Customer Sales proof-slice reconciliation completed
 JobG8 download attempt 1/6
 Download is a ZIP archive
 Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
@@ -43,3 +44,5 @@ northern-ireland-east.json: 6 -> 6 jobs (0 removed)
 south-yorkshire.json: 4 -> 4 jobs (0 removed)
 warrington-halton.json: 47 -> 46 jobs (1 removed)
 west-yorkshire.json: 6 -> 5 jobs (1 removed)
+Proof-slice mismatch rows: 1
+Wrote reports-daily/customer-sales-proof-slice-mismatches.md
