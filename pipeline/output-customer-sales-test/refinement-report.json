@@ -5,7 +5,7 @@
     "removed": []
   },
   "hampshire.json": {
-    "before": 8,
+    "before": 9,
     "after": 5,
     "removed": [
       {
@@ -13,7 +13,7 @@
         "title": "Product Sales Executive",
         "location": "Fareham",
         "region": "Hampshire",
-        "reason": "specialist direct-sales title: product sales executive"
+        "reason": "specialist/senior direct-sales title: product sales executive"
       },
       {
         "job_id": "5fd59761-b015-48ef-84b9-b49b71995cff",
@@ -28,12 +28,19 @@
         "location": "Eastleigh",
         "region": "Hampshire",
         "reason": "customer/service role has no strong sales/conversion evidence"
+      },
+      {
+        "job_id": "d6098b03-d8fd-4fb1-b1c0-517420195220",
+        "title": "Strategic Customer Success Manager",
+        "location": "Basingstoke",
+        "region": "Hampshire",
+        "reason": "senior/specialist customer-success title: strategic customer success manager"
       }
     ]
   },
   "manchester-salford.json": {
-    "before": 4,
-    "after": 3,
+    "before": 5,
+    "after": 4,
     "removed": [
       {
         "job_id": "107813958",
@@ -68,8 +75,8 @@
     ]
   },
   "west-yorkshire.json": {
-    "before": 4,
-    "after": 3,
+    "before": 6,
+    "after": 5,
     "removed": [
       {
         "job_id": "4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64",

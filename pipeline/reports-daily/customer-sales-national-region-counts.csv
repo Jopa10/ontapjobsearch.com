@@ -1,0 +1,82 @@
+region,in_ontap_33,raw_broad_possibles,in_scope_rows,campaign_deduped_jobs,duplicate_campaign_rows_removed,unique_employers,top_employer,top_employer_jobs
+Bedfordshire,False,5,2,2,0,2,Universal Business Team,1
+Berkshire,True,17,3,3,0,3,Sandown Group,1
+Bristol & Bath,True,20,7,7,0,6,Ernest Gordon Recruitment,2
+Buckinghamshire,True,10,4,4,0,4,ACS Recruitment Solutions Ltd,1
+Cambridgeshire,True,19,5,5,0,5,Red Recruit Ltd,1
+Channel Islands,False,1,0,0,0,0,,0
+Cheshire - East,False,10,5,3,2,2,EE,2
+Cheshire - Warrington & Halton,False,31,17,3,14,2,EE,2
+Cheshire - West,False,18,7,5,2,4,EE,2
+Cornwall,False,2,0,0,0,0,,0
+Cumbria - North,True,5,0,0,0,0,,0
+Cumbria - South,True,0,0,0,0,0,,0
+Cumbria - West,False,1,0,0,0,0,,0
+Derbyshire,False,4,1,1,0,1,Jonathan Lee Recruitment,1
+Devon,True,13,2,2,0,2,Acorn by Synergie,1
+Dorset,True,10,2,2,0,2,Kuehne+Nagel,1
+"Dumfries & Galloway, Scotland",False,1,0,0,0,0,,0
+East Midlands,False,5,1,1,0,1,O'Loughlin Recruitment Ltd,1
+Essex,True,11,3,3,0,3,Employment Specialists Ltd,1
+Flintshire,False,1,0,0,0,0,,0
+Gloucestershire,True,16,5,5,0,5,RE Recruitment,1
+Greater Manchester - Manchester & Salford,True,26,3,3,0,3,Chapman Tate Associates,1
+Greater Manchester - North,False,2,0,0,0,0,,0
+Greater Manchester - South,True,1,0,0,0,0,,0
+Greater Manchester - Wigan & Bolton,False,9,4,2,2,1,EE,2
+Hampshire,True,34,4,4,0,4,Mulberry Recruitment,1
+Hertfordshire,True,24,3,3,0,2,Fortrade,2
+Highlands & Islands,False,2,0,0,0,0,,0
+Kent,True,30,4,4,0,3,Tony Alan Recruitment,2
+Lancashire - Blackpool & Fylde,False,2,0,0,0,0,,0
+Lancashire - Central,False,2,0,0,0,0,,0
+Lancashire - East,False,3,0,0,0,0,,0
+Lancashire - North,True,6,0,0,0,0,,0
+Lancashire - West,False,4,2,2,0,2,Coaction Recruitment Limited,1
+Leicestershire,False,6,1,1,0,1,Your Recruitment Coach Limited,1
+Lincolnshire,False,14,5,5,0,4,Stoneacre Motor Group.,2
+London,True,124,27,26,1,22,EE,3
+Merseyside - Liverpool,False,3,2,2,0,2,Spotlightjobs,1
+Merseyside - St Helens & Knowsley,False,7,4,2,2,1,EE,2
+Midlothian,False,1,0,0,0,0,,0
+Norfolk,True,7,1,1,0,1,ALH Recruitment Ltd,1
+North East,True,34,10,5,5,3,GoFibre Broadband Limited,2
+North Scotland,False,9,2,2,0,2,Everest,1
+North Wales - East,False,5,2,2,0,2,Erin Associates,1
+North Wales - West,False,1,0,0,0,0,,0
+Northamptonshire,True,12,3,3,0,3,Get Staffed Online Recruitment Limited,1
+Northern Ireland - East,False,9,6,2,4,2,EE,1
+Northern Ireland - West,False,3,2,2,0,2,Ernest Gordon Recruitment,1
+Nottinghamshire,True,6,1,1,0,1,GBR Recruitment Ltd,1
+Other / Unknown,False,86,25,19,6,13,EE,7
+Oxfordshire,True,10,1,1,0,1,Vision Personnel,1
+Scotland - Borders,False,2,0,0,0,0,,0
+Scotland Central - Edinburgh & Lothians,False,5,1,1,0,1,GoFibre Broadband Limited,1
+Scotland Central - Falkirk & Stirling,False,5,0,0,0,0,,0
+Scotland Central - Fife,False,6,2,1,1,1,EE,1
+Scotland Central - Tayside,False,10,5,1,4,1,EE,1
+Scotland West - Ayrshire,False,1,0,0,0,0,,0
+Scotland West - Glasgow,False,10,1,1,0,1,People Solutions Group Limited,1
+Scotland West - Lanarkshire,False,1,0,0,0,0,,0
+Shropshire,False,8,2,2,0,1,Hays Business Support,2
+Somerset,True,4,0,0,0,0,,0
+Staffordshire,True,12,2,2,0,2,Red Recruit Ltd,1
+Suffolk,False,9,3,3,0,3,Employment Specialists Ltd,1
+Surrey,True,18,2,2,0,2,BODYPOWER SPORTS LTD,1
+Sussex,True,16,1,1,0,1,Global 4 Communications Ltd,1
+Wales South - Cardiff & Vale,False,5,5,5,0,5,Yolk Recruitment Limited,1
+Wales South - Gwent,False,3,0,0,0,0,,0
+Wales South - Swansea Bay,False,13,3,3,0,2,EE,2
+Wales South - Valleys,False,2,2,1,1,1,EE,1
+Wales South -gwent,False,3,0,0,0,0,,0
+West Lothian,False,2,1,1,0,1,Anglian Home Improvements,1
+West Midlands,False,1,1,1,0,1,RELOcruitment,1
+West Midlands - Birmingham & Solihull,True,24,2,2,0,2,Warwick Recruit Ltd,1
+West Midlands - Black Country,False,5,1,1,0,1,Adecco,1
+West Midlands - Coventry & Warwickshire,True,5,0,0,0,0,,0
+Wiltshire,True,9,0,0,0,0,,0
+Worcestershire,False,6,1,1,0,1,Redwood Search,1
+Yorkshire - East,True,6,1,1,0,1,Consortium Professional Recruitment,1
+Yorkshire - North,True,13,4,4,0,4,CITRUS CONNECT LTD,1
+Yorkshire - South,True,15,4,4,0,4,Reed,1
+Yorkshire - West,True,32,5,5,0,5,SRG,1

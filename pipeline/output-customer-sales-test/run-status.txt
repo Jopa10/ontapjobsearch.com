@@ -1,5 +1,43 @@
-Customer Sales test run: 2026-08-18T13:56:50Z
+Customer Sales test run: 2026-08-18T14:27:06Z
 OK: JobG8 feed secret available
-OK: downloaded current JobG8 feed (27 bytes)
-FAILED: normalise downloaded JobG8 feed
-Download is neither ZIP nor plausible JobG8 XML; size=27; first16=446f776e6c6f616420526563656e746c
+OK: downloaded valid current JobG8 feed (7506823 bytes)
+OK: normalised JobG8 feed
+OK: converted current JobG8 feed
+OK: refreshed geo lookup from main
+OK: Customer Sales national reconciliation completed
+OK: Customer Sales test pipeline completed
+OK: Customer Sales conditional account expansion completed
+OK: Customer Sales QA refinement completed
+JobG8 download attempt 1/6
+Download is a ZIP archive
+Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
+Columns: 30
+Feed rows: 10000
+Broad possibles: 933
+In-scope rows: 225
+Campaign/dedupe-adjusted regional jobs: 181
+Ontap 33 broad/in-scope/deduped: 589/109/103
+Wrote reports-daily/customer-sales-national-reconciliation.md
+Wrote reports-daily/customer-sales-national-region-counts.csv
+Wrote reports-daily/customer-sales-national-detail.csv
+Hampshire: 8 jobs / 8 employers
+Greater Manchester - Manchester & Salford: 4 jobs / 4 employers
+Yorkshire - West: 4 jobs / 4 employers
+Northern Ireland - East: 6 jobs / 2 employers
+Cheshire - Warrington & Halton: 47 jobs / 3 employers
+Cornwall: 25 jobs / 2 employers
+Yorkshire - South: 4 jobs / 4 employers
+Hampshire: +1 conditional account sales; 9 total before QA refinement
+Greater Manchester - Manchester & Salford: +1 conditional account sales; 5 total before QA refinement
+Yorkshire - West: +2 conditional account sales; 6 total before QA refinement
+Northern Ireland - East: +0 conditional account sales; 6 total before QA refinement
+Cheshire - Warrington & Halton: +0 conditional account sales; 47 total before QA refinement
+Cornwall: +0 conditional account sales; 25 total before QA refinement
+Yorkshire - South: +0 conditional account sales; 4 total before QA refinement
+cornwall.json: 25 -> 25 jobs (0 removed)
+hampshire.json: 9 -> 5 jobs (4 removed)
+manchester-salford.json: 5 -> 4 jobs (1 removed)
+northern-ireland-east.json: 6 -> 6 jobs (0 removed)
+south-yorkshire.json: 4 -> 4 jobs (0 removed)
+warrington-halton.json: 47 -> 46 jobs (1 removed)
+west-yorkshire.json: 6 -> 5 jobs (1 removed)
