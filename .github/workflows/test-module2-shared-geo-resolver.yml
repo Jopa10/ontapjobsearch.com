@@ -1,0 +1,113 @@
+name: Test Module 2 shared geography
+
+on:
+  push:
+    branches:
+      - fix/module2-shared-geo-resolver-work
+    paths:
+      - 'pipeline/scripts/jobg8_module_2_geo_adapter.py'
+      - 'pipeline/scripts/jobg8_module_2_live_slices.py'
+      - 'tests/test_module2_shared_geo_adapter.py'
+      - '.github/workflows/test-module2-shared-geo-resolver.yml'
+  pull_request:
+    paths:
+      - 'pipeline/scripts/jobg8_module_2_geo_adapter.py'
+      - 'pipeline/scripts/jobg8_module_2_live_slices.py'
+      - 'tests/test_module2_shared_geo_adapter.py'
+      - '.github/workflows/test-module2-shared-geo-resolver.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  module2-shared-geo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Check syntax
+        run: |
+          python -m py_compile pipeline/scripts/jobg8_module_2_geo_adapter.py
+          python -m py_compile pipeline/scripts/jobg8_module_2_live_slices.py
+
+      - name: Run Module 2 shared geography unit test
+        run: python -m unittest tests/test_module2_shared_geo_adapter.py -v
+
+      - name: Stage expanded real JobG8 feed
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/module2-input"
+          cp pipeline/input-jobg8-archive/2026-08/2026-08-12.xlsx "$RUNNER_TEMP/module2-input/2026-08-12.xlsx"
+          echo "MODULE2_INPUT=$RUNNER_TEMP/module2-input" >> "$GITHUB_ENV"
+
+      - name: Assert real-feed Stockport correction through Module 2
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from scripts import jobg8_module_2_live_slices as module2
+
+          base = Path('.').resolve().parent
+          geo_lookup, location_lookup = module2.compiler.load_geo_lookups(Path('geo/geo_lookup.xlsx'))
+          register_paths = module2.compiler.discover_registers(base, Path('registers'))
+          registers = {
+              category: module2.compiler.load_register(path)
+              for category, path in register_paths.items()
+          }
+          expanded, dates, errors = module2.compiler.load_daily_feeds(
+              Path(__import__('os').environ['MODULE2_INPUT']),
+              geo_lookup,
+              location_lookup,
+              registers,
+          )
+          if errors:
+              raise SystemExit('Feed errors: ' + '; '.join(errors))
+          job = expanded[expanded['job_id'].astype(str) == '23643_225416274']
+          if job.empty:
+              raise SystemExit('Known Stockport Administrator was not present in Module 2 selected rows')
+          regions = set(job['lookup_region'].astype(str))
+          sources = set(job['geo_source'].astype(str))
+          print('Known Stockport job regions:', sorted(regions))
+          print('Known Stockport job geo sources:', sorted(sources))
+          if regions != {'Greater Manchester - South'}:
+              raise SystemExit(f'Known Stockport job misrouted by Module 2: {sorted(regions)}')
+          if 'description_place' not in sources:
+              raise SystemExit(f'Expected shared resolver description evidence, got: {sorted(sources)}')
+          print('PASS: real-feed Stockport job is routed to Greater Manchester - South by Module 2')
+          PY
+
+      - name: Run one-day Compiler Module 2 end to end
+        working-directory: pipeline
+        run: |
+          python -m scripts.jobg8_module_2_live_slices \
+            --month 2026-08 \
+            --input-dir "$MODULE2_INPUT" \
+            --output-dir "$RUNNER_TEMP/module2-output" \
+            --geo-lookup geo/geo_lookup.xlsx \
+            --registers-dir registers
+
+      - name: Show Greater Manchester daily counts
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import pandas as pd
+          path = Path(os.environ['RUNNER_TEMP']) / 'module2-output' / '2026-08-module2-daily-counts.csv'
+          if not path.is_file():
+              raise SystemExit(f'Missing Module 2 daily counts: {path}')
+          df = pd.read_csv(path)
+          region_col = 'report_region' if 'report_region' in df.columns else 'region'
+          subset = df[df[region_col].astype(str).str.contains('Greater Manchester', na=False)]
+          print(subset.to_string(index=False))
+          PY
