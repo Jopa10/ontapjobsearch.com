@@ -5,7 +5,7 @@
     "advertiser_name": "The People Pod",
     "location": "Not Specified",
     "region": "Greater Manchester - Manchester & Salford",
-    "rejection_reason": "context title but no genuine sales/conversion evidence",
+    "rejection_reason": "hard exclude: account executive",
     "description_preview": "ACCOUNT EXECUTIVE - CONSTRUCTION INSURANCE\n\nBenefits\n- Competitive salary and uncapped bonus structure\n- 28 days annual leave plus bank holidays\n- Holiday purchase scheme and your birthday off\n- Hybrid working environment (typically 2-3 days in the office)\n- Enhanced pension and private healthcare\n- Health and wellbeing benefits, income protection, and life assurance\n- Paid leave for volunteering and enhanced parental l click apply for full job details",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctyBrT5JqwvlxdFBEigaF0oMp"
   },
@@ -15,7 +15,7 @@
     "advertiser_name": "WR Engineering",
     "location": "Not Specified",
     "region": "Greater Manchester - Manchester & Salford",
-    "rejection_reason": "hard exclude: area sales",
+    "rejection_reason": "hard exclude: area sales, sales engineer",
     "description_preview": "Field Sales Engineer\n\nAn experienced sales engineer is required to join an innovation-led engineering solutions provider. Primarily in the areas of electro-pneumatic and pneumatic valves, sensors and controls for manufacturing & production machinery automation applications within most manufacturing environments. Sectors: food & bev, automotive, aerospace, process & industrial, FMCG, pharma.\n\nThis really is a great technical sales job, selling premium product incorporated into innovation solutions for control & automation, waste reduction, and selling to leading manufacturers.\n\nThis is a proactive sales position involving generating new business opportunities, project identification, upsellin",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh15zXBeKGlYyLT95XkmgGRVu"
   },
@@ -38,16 +38,6 @@
     "rejection_reason": "hard exclude: area sales, sales manager",
     "description_preview": "Area Sales Manager Industrial Paints & Coatings\n\nJob Title: Area Sales Manager Industrial Paints & Coatings\n\nIndustry Sector: Paints, Industrial Paints, Coatings, Lubricants, Greases, Machinery, Metal Coatings, Industrial Coatings, Powder Coatings, Wood Coatings, Painting, End Users, Aerospace, Automotive, Construction, Plastics, Steel Fabrication, Modular Buildings, Flooring, Area Sales Manager, R click apply for full job details",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbysSQwBVRxDJcKNiDvVpfwgt"
-  },
-  {
-    "job_id": "107813958",
-    "title": "Bournemouth- Sales Executive",
-    "advertiser_name": "CarFinance 247",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "rejection_reason": "context title but no sales or office/contact-centre evidence",
-    "description_preview": "Be part of something exciting as Car Finance 247 opens its first-ever office outside of Manchester.\nWe're expanding into Bournemouth, and we're looking for ambitious, experienced sales professionals to join our brand-new team from the very beginning.\nAt Car Finance 247, we're not just helping customers buy cars-we're guiding them through one of the biggest financial decisions they'll make click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5txRVqDLEM4ydECI3IdxPkq"
   },
   {
     "job_id": "328bd172-c4ef-4901-aee2-ac69099ea42a",
@@ -275,7 +265,7 @@
     "advertiser_name": "Alexander Lloyd",
     "location": "Manchester",
     "region": "Greater Manchester - Manchester & Salford",
-    "rejection_reason": "context title has sales evidence but no office/contact-centre/home evidence",
+    "rejection_reason": "hard exclude: account executive",
     "description_preview": "About The Company\n\nOur client is a progressive, high-growth advisory firm with a strong reputation for delivering expert advice across employee benefits, pensions and wider financial wellbeing solutions.\n\nThe organisation offers a supportive and collaborative culture, with a strong focus on professional development and career progression.\n\nThe Opportunity An exciting opportunity has arisen for a commercially driven Employee Benefits - Senior Account Executive to join a fast-growing, forward-thinking professional services firm within the employee benefits space. This role is ideal for a motivated individual who thrives in a business development environment and is passionate about delivering t",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaws%2f%2fslQQKK709Dq%2fBHs0Lkb"
   },
@@ -385,7 +375,7 @@
     "advertiser_name": "SRS Recruitment Solutions",
     "location": "Not Specified",
     "region": "Greater Manchester - Manchester & Salford",
-    "rejection_reason": "hard exclude: regional sales",
+    "rejection_reason": "hard exclude: regional sales, sales engineer",
     "description_preview": "Vacancy No 5510\nJob Title REGIONAL SALES ENGINEER\nLocation: NORTH WEST UK\nPLEASE NOTE:The ideal candidate will be based within the wider Greater Manchester region, with particular consideration given to those located around South Manchester, Cheshire and nearby surrounding areas. This is a hybrid role, with an expectation of 2 to 3 days per week in the Central Manchester office initially during the onboarding and development period, reducing to 1 day per week once the individual is fully established in the role.\nJob Description\nAre you a commercially strong and technically credible HVAC sales professional with a proven ability to generate new business, influence specification and convert com",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDwXWVJlW5Fx14hKqbLCaOFBf"
   },
@@ -660,6 +650,16 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpy1vTkT1oM0F7MOMx9j2idHe"
   },
   {
+    "job_id": "585ef1ff-719d-4792-835c-a5a8b943c799",
+    "title": "Commercial Insurance Account Executive",
+    "advertiser_name": "CKB Recruitment",
+    "location": "Winchester",
+    "region": "Hampshire",
+    "rejection_reason": "hard exclude: account executive",
+    "description_preview": "Commercial Insurance Account Executive\n\nWinchester £50,000-£80,000 + Car Allowance + Excellent Bonus Scheme\n\nAre your new business figures growing faster than your salary?\n\nPerhaps you feel undervalued by your current broker, your earnings no longer reflect the income you generate, or you are simply ready to join a more ambitious business where your contribution will be properly recognised.\n\nIf so, this could be the opportunity you have been waiting for.\n\nCKB Recruitment is working with a rapidly growing insurance broker, who are part of a very well known and well thought of group in the industry. The company now employs approximately 30 people at its Winchester head office and, as well as h",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREEeXgAlNUG57KVXDVAk9oMd"
+  },
+  {
     "job_id": "ff05bc6c-080d-473a-8650-428e00783890",
     "title": "Commercial Solicitor",
     "advertiser_name": "Reed",
@@ -890,16 +890,6 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0I9YcMGSYdNwXhrJPRSnm0ys"
   },
   {
-    "job_id": "23643_225435473",
-    "title": "Internal Sales Executive",
-    "advertiser_name": "TRS (Technical Recruitment Solutions)",
-    "location": "Fareham",
-    "region": "Hampshire",
-    "rejection_reason": "context title but no genuine sales/conversion evidence",
-    "description_preview": "Internal Sales Executive / Trade Counter\nFareham\n30,000 + Benefits\n\nLeading HVAC distributor looking for an Internal Sales Executive to join their Fareham branch.\n\nThis is a varied, office-based role where you'll support trade customers, process orders, coordinate deliveries, resolve any issues and provide excellent customer service. You'll also serve customers on the trade counter and work closely with the warehouse and wider branch team.\n\nYou'll ideally have experience in a trade, merchant, distribution or wholesale environment, whether that's in internal sales, customer service, trade counter or branch administration. HVAC experience isn't essential.\n\nMonday to Friday, 8:00am - 5:00pm\n\nPa",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPYQwPQiX7Nau3YYGiFbQS2r"
-  },
-  {
     "job_id": "107772588",
     "title": "Lead HR Advisor",
     "advertiser_name": "1to1 Group Limited",
@@ -1100,16 +1090,6 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMdvi1Tm39SfbUzjnc9CgWkr"
   },
   {
-    "job_id": "107763586",
-    "title": "Product Sales Executive",
-    "advertiser_name": "Saab UK",
-    "location": "Fareham",
-    "region": "Hampshire",
-    "rejection_reason": "context title but no sales or office/contact-centre evidence",
-    "description_preview": "Introduction\n\nSaab UK is part of Scandinavia's largest defence company, bringing together the best of Swedish and British innovation. Saab offers world-leading solutions and services in defence, aviation, space, and civil security to keep people and society safe. Our UK presence has been growing at pace, meaning we can offer a wide range of opportunities for personal fulfilment and career growth click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRFS3Zrebh3PGRG0COqLK5sYd"
-  },
-  {
     "job_id": "541ce089-5ff8-4cad-8b73-6bc3b076a566",
     "title": "Retail Sales Assistant",
     "advertiser_name": "Dreams Ltd",
@@ -1188,16 +1168,6 @@
     "rejection_reason": "no Customer Sales title match",
     "description_preview": "Percival Aviation is a privately-owned organisation in Fareham, specialising in aircraft interiors and equipment. As a leading supplier, the company is expanding globally to provide innovative and cost-effective solutions for clients. With in-house design capabilities and production competencies, Percival Aviation is dedicated to delivering high-quality, certified products.\n\nRole Description\n\nThis is a full-time on-site role for a Sales Coordinator at Percival Aviation in Fareham.\n\nThe Sales Coordinator will be responsible for customer quotations, order loading, working with internal stakeholders and supporting leadership with timely sales data.\n\nRequirements:\n- Sales coordination and sales ",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QOaRFOlVp1cV20IzYlgDXAx"
-  },
-  {
-    "job_id": "107759279",
-    "title": "Sales Executive",
-    "advertiser_name": "Searchability (UK) Ltd",
-    "location": "Fareham",
-    "region": "Hampshire",
-    "rejection_reason": "context title but no sales or office/contact-centre evidence",
-    "description_preview": "Sales Executive\n- Based in Whiteley, Hampshire\n- Full-time, permanent position - 40 hours per week\n- Salary of £28,371\n- Annual bonus scheme and 33 days' holiday\n- Previous sales experience is desirable but not essential\n- Ex-Military candidates encourgaed to apply\n- To find out more, call Beth on or email\n\nAre you confident speaking with customers and motivated by achieving results? We're recruiting a S click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2b1fQyTfUR7AtWmBYo34r0uc"
   },
   {
     "job_id": "107823530",
@@ -1305,7 +1275,7 @@
     "advertiser_name": "Ernest Gordon Recruitment",
     "location": "Southampton",
     "region": "Hampshire",
-    "rejection_reason": "context title has sales evidence but no office/contact-centre/home evidence",
+    "rejection_reason": "hard exclude: technical sales",
     "description_preview": "Technical Sales Executive (Marine / Controls)\n\n£45,000 - £55,000 + Company Car + Progression to Sales Leadership + Training + Company Benefits\n\nSouth of England (Field Based)\n\nAre you a Sales Engineer or Marine Engineer looking to join a growing international engineering group where you can utilise your technical expertise to win new business, manage key accounts, and progress into leading your own sale click apply for full job details",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOoz62GJhVd8m1k3hf6XnlNr"
   },
@@ -1335,7 +1305,7 @@
     "advertiser_name": "Ernest Gordon Recruitment Limited",
     "location": "Leeds",
     "region": "Yorkshire - West",
-    "rejection_reason": "hard exclude: area sales",
+    "rejection_reason": "hard exclude: area sales, sales engineer",
     "description_preview": "Area Sales Engineer (Structural Steel)\n\n£50,000 - £60,000 + Companie benefits + Training + Car Allowance + Hybrid\n\nLeeds (Northern Patch)\n\nAre you an Area Sales Manager or similar with experience within the structural steel industry looking for a varied, autonomous role with a leading manufacturer offering hybrid working, excellent earning potential and the flexibility to manage your own diary?\n\nFor over 40 years, this company has been providing structural steel design, fabrication and manufacturing solutions for a wide range of residential, commercial and industrial projects. Through continued success, they have grown to nearly 100 employees and achieved a multi-million-pound turnover.\n\nIn ",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9xYezW9mtulNr%2fymcGZwuIc"
   },
@@ -1530,16 +1500,6 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyGsWSh3nueuaR%2b7V1C4OZOt"
   },
   {
-    "job_id": "d5c74a27-8231-43bf-b5b3-075136db9f01",
-    "title": "Internal Sales Executive",
-    "advertiser_name": "Elevation Recruitment Group",
-    "location": "Castleford",
-    "region": "Yorkshire - West",
-    "rejection_reason": "context title has sales evidence but no office/contact-centre/home evidence",
-    "description_preview": "Graduate Sales ExecutiveMotor Parts Supplier - Castleford, West YorkshireSalary: £25,000 - £27,000 The RoleA structured entry point into sales for an ambitious graduate. You'll start with hands-on time in our warehouse - learning our products, stock, and how orders flow - before moving into a full sales role managing and growing customer accounts.The ProgrammePhase 1 - Warehouse- Learn stock handling, part numbers, and inventory systems- Understand lead times and the order journey from warehouse to customerPhase 2 - Sales Executive- Manage a portfolio of trade accounts- Handle enquiries, quotes, and orders; pursue new business- Build customer relationships, backed by real product knowledge- ",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIN8t8JvJbSqLskoAIJQhyS2o"
-  },
-  {
     "job_id": "107752499",
     "title": "Lead Adobe CDP Developer",
     "advertiser_name": "Hackajob Ltd",
@@ -1595,7 +1555,7 @@
     "advertiser_name": "Driver Hire Group Services Ltd",
     "location": "Bradford",
     "region": "Yorkshire - West",
-    "rejection_reason": "context title but no genuine sales/conversion evidence",
+    "rejection_reason": "hard exclude: account executive",
     "description_preview": "Start your career somewhere you'll make a difference from day one.\n\nLooking for a role where you'll gain real responsibility, work with customers, solve problems and develop skills that will set you up for your future career?\n\nAt Driver Hire, you'll be trusted from day one.\n\nYou'll join our National Accounts team, supporting some of the UK's largest organisations while working alongside experienced colleagues who will help you learn, develop and grow. You'll get involved in customer projects, business technology, account support and continuous improvement, helping us deliver an outstanding service to customers across the UK.\n\nNo experience in logistics? No problem. We're looking for potentia",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX66xSX04N3T7iaWDx1cuo6sz"
   },
@@ -1718,16 +1678,6 @@
     "rejection_reason": "hard exclude: sales administrator",
     "description_preview": "Sales Administration Assistant\n\nWetherby, West Yorkshire Full Time Permanent\n\nOur client is seeking a Sales Administration Assistant to support the Sales Team, whilst ensuring the smooth day-to-day operation of the office. This is a fantastic opportunity for an ambitious and detail-oriented professional who enjoys working across multiple business functions and taking ownership of their workload.As a key member of the team, you will provide comprehensive administrative and operational support across the business. You'll be responsible for managing customer orders, supporting marketing activities, assisting the sales team, maintaining accurate records and delivering exceptional customer servic",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyK3Euf8LDP0UG7nqWTuaqXf"
-  },
-  {
-    "job_id": "7d3debba-3dcd-4b72-b3e3-5028021f7b48",
-    "title": "Sales Executives",
-    "advertiser_name": "Red Rhino Solutions",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "rejection_reason": "context title but no sales or office/contact-centre evidence",
-    "description_preview": "Inside Sales Executive B2 B\n\nLocation: Leeds - Free Parking\n\nSalary: £26k starting - rising to £28k\n\nOTE: £55k - £60k uncapped\n\nInfo: Fantastic benefits, training, and career growth opportunities.\n\nThe Company\n\nThis business is simply the market leader and provider of technology-based communication and IT products and solutions to business clients in the UK.\n\nA people and customer orientated business offering very strong career prospects, growth opportunities and a winning environment where effort and results are rewarded properly.\n\nAbout the Role - Inside Sales Executive B2 B\n- As a Sales Executive in this exciting role, you will contact a mixture of B2 B existing clients and new clients to",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpy6AHOxCQUqN1mqxktVImAhe"
   },
   {
     "job_id": "ea7b8167-e326-4990-b4be-25a564037ae6",
