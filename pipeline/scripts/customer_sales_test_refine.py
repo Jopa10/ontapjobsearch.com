@@ -1,7 +1,7 @@
 """Second-pass QA filter for the branch-only Customer Sales test family.
 
 Keeps genuine office/contact-centre/customer-led sales while removing obvious
-non-sales customer service, field/event campaign sales, specialist product sales,
+non-sales customer service, field/event campaign sales, specialist/senior sales,
 and title/location conflicts. Overlap with Service Admin is deliberately allowed.
 """
 from __future__ import annotations
@@ -29,6 +29,11 @@ STRONG_CUSTOMER_SALES_EVIDENCE = [
     "retain customers", "increase membership", "sales experience", "sales role",
 ]
 
+CUSTOMER_TITLE_EXCLUDES = [
+    "strategic customer success manager", "enterprise customer success manager",
+    "senior customer success manager",
+]
+
 DIRECT_DESCRIPTION_EXCLUDES = [
     "door to door", "door-to-door", "event-based campaigns",
     "face-to-face sales environments", "travel to different campaign locations",
@@ -37,7 +42,7 @@ DIRECT_DESCRIPTION_EXCLUDES = [
 ]
 
 DIRECT_TITLE_EXCLUDES = [
-    "product sales executive",
+    "product sales executive", "senior sales executive", "senior sales consultant",
 ]
 
 
@@ -86,8 +91,6 @@ def title_location_conflict(title: str, region: str, lookup: list[tuple[str, str
     t = norm(title)
     region_norm = norm(region)
     for place, cluster in lookup:
-        # Only use explicit whole-place wording in the title; this catches adverts
-        # such as "Bournemouth - Sales Executive" without guessing from prose.
         if re.search(rf"(?<![a-z0-9]){re.escape(place)}(?![a-z0-9])", t):
             if norm(cluster) != region_norm:
                 return f"title location '{place}' maps to {cluster}, not {region}"
@@ -107,6 +110,9 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
         return False, conflict
 
     if classification == "CUSTOMER_SALES":
+        title_excludes = contains_any(title, CUSTOMER_TITLE_EXCLUDES)
+        if title_excludes:
+            return False, "senior/specialist customer-success title: " + ", ".join(title_excludes)
         evidence = contains_any(combined, STRONG_CUSTOMER_SALES_EVIDENCE)
         if not evidence:
             return False, "customer/service role has no strong sales/conversion evidence"
@@ -114,7 +120,7 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
     if classification == "DIRECT_SALES":
         title_excludes = contains_any(title, DIRECT_TITLE_EXCLUDES)
         if title_excludes:
-            return False, "specialist direct-sales title: " + ", ".join(title_excludes)
+            return False, "specialist/senior direct-sales title: " + ", ".join(title_excludes)
         description_excludes = contains_any(description, DIRECT_DESCRIPTION_EXCLUDES)
         if description_excludes:
             return False, "field/event/self-employed sales signal: " + ", ".join(description_excludes[:3])
