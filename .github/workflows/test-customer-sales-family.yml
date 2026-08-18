@@ -1,0 +1,109 @@
+name: Test Customer Sales family
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  customer-sales-test:
+    if: github.ref_name == 'agent/customer-sales-family'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Guard test branch
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_REF_NAME}" != "agent/customer-sales-family" ]; then
+            echo "::error::Customer Sales test may run only on agent/customer-sales-family"
+            exit 1
+          fi
+
+      - name: Check out test branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/customer-sales-family
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Download current JobG8 feed
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
+        run: |
+          set -euo pipefail
+          : "${JOBG8_FEED_URL:?JOBG8_FEED_URL secret is not configured}"
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 5 \
+            --connect-timeout 30 --max-time 180 \
+            "$JOBG8_FEED_URL" \
+            --output "$RUNNER_TEMP/jobg8.zip"
+          test -s "$RUNNER_TEMP/jobg8.zip"
+
+      - name: Convert JobG8 XML to isolated test input
+        run: |
+          set -euo pipefail
+          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
+          python pipeline/scripts/jobg8_xml_adapter.py \
+            --zip "$RUNNER_TEMP/jobg8.zip" \
+            --output pipeline/input/jobg8.xlsx \
+            --expected-min 5000 \
+            --expected-max 20000
+          test -s pipeline/input/jobg8.xlsx
+
+      - name: Build Customer Sales test slices
+        working-directory: pipeline
+        run: python -m scripts.customer_sales_test_pipeline
+
+      - name: Show test counts
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for p in sorted(Path('pipeline/output-customer-sales-test').glob('*.json')):
+              rows = json.loads(p.read_text(encoding='utf-8'))
+              print(f'{p.name}: {len(rows)}')
+          PY
+
+      - name: Commit inspection JSON to test branch only
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_REF_NAME}" != "agent/customer-sales-family" ]; then
+            echo "::error::Refusing to commit outside the Customer Sales test branch"
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- pipeline/output-customer-sales-test/*.json
+
+          staged="$(git diff --cached --name-only)"
+          if [ -z "$staged" ]; then
+            echo "No Customer Sales test output changes"
+            exit 0
+          fi
+
+          unexpected="$({ printf '%s\n' "$staged" | awk '$0 !~ /^pipeline\/output-customer-sales-test\/.*\.json$/'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Unexpected files staged; refusing to commit"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+
+          git commit -m "Refresh Customer Sales test slices"
+          git push origin HEAD:agent/customer-sales-family
+
+      - name: Upload Customer Sales test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: customer-sales-test-output
+          path: pipeline/output-customer-sales-test/
+          if-no-files-found: warn
+          retention-days: 7
