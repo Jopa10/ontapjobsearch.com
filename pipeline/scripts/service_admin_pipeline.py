@@ -265,7 +265,7 @@ def apply_postcode_location_overrides(
             "structured_postcode",
             "description_postcode",
         }:
-            report["geo_source"] = "description_postcode_display_override"
+            report["geo_source"] = "postcode_override"
 
 
 def has_northern_ireland_location_evidence(row: Any) -> bool:
