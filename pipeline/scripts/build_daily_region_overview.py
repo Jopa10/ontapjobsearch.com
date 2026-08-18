@@ -24,6 +24,7 @@ FAMILIES = (
         "label": "Service admin",
         "register_category": "admin_service",
         "source_category": "Admin/Service – Office Support",
+        "decision_report": "pipeline/reports-daily/decision-report-admin-service.csv",
         "candidate_dir": "output-admin-service",
         "candidate_pattern": "{slug}-admin-service.json",
     },
@@ -32,6 +33,7 @@ FAMILIES = (
         "label": "Support worker",
         "register_category": "support_worker",
         "source_category": "Support Worker – Wide",
+        "decision_report": "pipeline/reports-daily/decision-report-support-worker.csv",
         "candidate_dir": "output-support-worker",
         "candidate_pattern": "{slug}-support-worker.json",
     },
@@ -40,6 +42,7 @@ FAMILIES = (
         "label": "Sales advisor",
         "register_category": "customer_sales",
         "source_category": "Customer Sales / Sales Advisor",
+        "decision_report": "",
         "candidate_dir": "output-customer-sales-test",
         "candidate_pattern": "{slug}.json",
     },
@@ -82,6 +85,17 @@ def _load_statuses() -> dict[tuple[str, str], str]:
     return statuses
 
 
+def _git_show_main(repo_path: str) -> str:
+    try:
+        return subprocess.check_output(
+            ["git", "show", f"origin/main:{repo_path}"],
+            cwd=REPO_ROOT,
+            text=True,
+        )
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(f"Could not read {repo_path} from origin/main") from exc
+
+
 def _latest_live_source_report() -> tuple[str, str]:
     """Return (repo path, CSV text) from main, the source of truth for live counts."""
     try:
@@ -110,15 +124,7 @@ def _latest_live_source_report() -> tuple[str, str]:
         raise RuntimeError("No live-job-source-count report found on origin/main")
 
     report_path = candidates[-1]
-    try:
-        text = subprocess.check_output(
-            ["git", "show", f"origin/main:{report_path}"],
-            cwd=REPO_ROOT,
-            text=True,
-        )
-    except subprocess.CalledProcessError as exc:
-        raise RuntimeError(f"Could not read {report_path} from origin/main") from exc
-    return report_path, text
+    return report_path, _git_show_main(report_path)
 
 
 def _load_live_counts() -> tuple[str, dict[tuple[str, str], int]]:
@@ -145,6 +151,36 @@ def _load_live_counts() -> tuple[str, dict[tuple[str, str], int]]:
     return report_path, counts
 
 
+def _load_selected_counts(repo_path: str) -> dict[str, int]:
+    """Count unique currently SELECTED jobs by region from a main decision report."""
+    text = _git_show_main(repo_path)
+    reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")))
+    if not reader.fieldnames or "region" not in reader.fieldnames:
+        raise RuntimeError(f"Unexpected decision report header in {repo_path}")
+
+    selected_ids: dict[str, set[str]] = {}
+    anonymous_counts: dict[str, int] = {}
+    for row in reader:
+        decision = (row.get("decision") or "").strip().upper()
+        selection_status = (row.get("selection_status") or "").strip().upper()
+        if decision != "SELECTED" and selection_status != "SELECTED":
+            continue
+        region = (row.get("region") or "").strip()
+        if not region:
+            continue
+        job_id = (row.get("job_id") or "").strip()
+        if job_id:
+            selected_ids.setdefault(region, set()).add(job_id)
+        else:
+            anonymous_counts[region] = anonymous_counts.get(region, 0) + 1
+
+    regions = set(selected_ids) | set(anonymous_counts)
+    return {
+        region: len(selected_ids.get(region, set())) + anonymous_counts.get(region, 0)
+        for region in regions
+    }
+
+
 def _candidate_count(region_slug: str, family: dict[str, str]) -> int:
     candidate_path = (
         PIPELINE_ROOT
@@ -154,10 +190,6 @@ def _candidate_count(region_slug: str, family: dict[str, str]) -> int:
     return _job_count(candidate_path)
 
 
-def _cell(count: int) -> str:
-    return "—" if count == 0 else str(count)
-
-
 def build() -> str:
     catalog = _load_json(CATALOG)
     if not isinstance(catalog, dict) or not isinstance(catalog.get("regions"), dict):
@@ -165,6 +197,11 @@ def build() -> str:
 
     statuses = _load_statuses()
     source_report, live_counts = _load_live_counts()
+    decision_counts = {
+        family["key"]: _load_selected_counts(family["decision_report"])
+        for family in FAMILIES
+        if family["decision_report"]
+    }
 
     regions = sorted(
         (
@@ -191,7 +228,12 @@ def build() -> str:
                 if is_live
                 else 0
             )
-            candidate_count = 0 if is_live else _candidate_count(slug, family)
+            if is_live:
+                candidate_count = 0
+            elif family["decision_report"]:
+                candidate_count = decision_counts[family["key"]].get(region_name, 0)
+            else:
+                candidate_count = _candidate_count(slug, family)
             family_state[family["key"]] = {
                 "live": is_live,
                 "live_count": live_count,
@@ -205,7 +247,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE counts reconcile directly to `{source_report}` on `main`. LIVE status comes from the region/category slice register. `CHECK` means the register says LIVE but the source-of-truth report has no jobs for that slice. NOT LIVE counts come from current candidate/output files where available. `—` means zero or unavailable.",
+        f"> LIVE counts reconcile directly to `{source_report}` on `main`. LIVE status comes from the region/category slice register. NOT LIVE Service Admin and Support Worker counts are current SELECTED jobs from the two daily decision reports on `main`; Sales Advisor remains test-branch candidate output. A numeric `0` is a confirmed zero.",
         "",
         "## LIVE",
         "",
@@ -239,7 +281,7 @@ def build() -> str:
             + region_name
             + " | "
             + " | ".join(
-                "" if state[f["key"]]["live"] else _cell(state[f["key"]]["candidate_count"])
+                "" if state[f["key"]]["live"] else str(state[f["key"]]["candidate_count"])
                 for f in FAMILIES
             )
             + " |"
