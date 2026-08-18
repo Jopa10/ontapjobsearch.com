@@ -1,0 +1,6 @@
+Customer Sales test run: 2026-08-18T13:26:27Z
+OK: JobG8 feed secret available
+OK: downloaded current JobG8 feed
+OK: converted current JobG8 feed
+OK: refreshed geo lookup from main
+FAILED: Customer Sales test pipeline
