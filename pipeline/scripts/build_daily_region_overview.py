@@ -61,8 +61,7 @@ def _load_json(path: Path):
         return None
 
 
-def _job_count(path: Path) -> int:
-    data = _load_json(path)
+def _count_json_data(data) -> int:
     if isinstance(data, list):
         return len(data)
     if isinstance(data, dict):
@@ -71,6 +70,10 @@ def _job_count(path: Path) -> int:
             if isinstance(value, list):
                 return len(value)
     return 0
+
+
+def _job_count(path: Path) -> int:
+    return _count_json_data(_load_json(path))
 
 
 def _load_statuses() -> dict[tuple[str, str], str]:
@@ -208,8 +211,6 @@ def _load_latest_profile_counts() -> tuple[str, str, dict[tuple[str, str], int]]
     for row in rows:
         if (row.get("date") or "").strip() != latest_date:
             continue
-        # Use the ordinary lookup-region rows. Published aggregate rows can duplicate
-        # the same region/category and are not needed for NOT LIVE discovery.
         if (row.get("region_scope") or "").strip() != "lookup_region":
             continue
         region = (row.get("region") or "").strip()
@@ -222,6 +223,23 @@ def _load_latest_profile_counts() -> tuple[str, str, dict[tuple[str, str], int]]
             raise RuntimeError(f"Invalid Module 2 count in {report_path}: {row}") from exc
         counts[(region, category)] = count
     return report_path, latest_date, counts
+
+
+def _load_teaching_vacancies_counts(regions: list[tuple[str, str]]) -> dict[str, int]:
+    """Current Teaching Vacancies admin/service candidates by region from main."""
+    folder = "pipeline/output-external/teaching-vacancies-regional"
+    available = set(_main_tree_names(folder))
+    counts: dict[str, int] = {}
+    for region_name, slug in regions:
+        path = f"{folder}/{slug}-admin-service.json"
+        if path not in available:
+            continue
+        try:
+            data = json.loads(_git_show_main(path).lstrip("\ufeff"))
+        except json.JSONDecodeError as exc:
+            raise RuntimeError(f"Invalid JSON in {path}") from exc
+        counts[region_name] = _count_json_data(data)
+    return counts
 
 
 def _candidate_count_if_present(region_slug: str, family: dict[str, str]) -> int | None:
@@ -263,6 +281,8 @@ def build() -> str:
             "Update EXCLUDED_REGIONS or the catalogue deliberately."
         )
 
+    teaching_counts = _load_teaching_vacancies_counts(regions)
+
     rows = []
     for region_name, slug in regions:
         family_state = {}
@@ -284,6 +304,12 @@ def build() -> str:
                     candidate_count = _candidate_count_if_present(slug, family)
                     candidate_source = "test" if candidate_count is not None else ""
 
+                # Teaching Vacancies is a second current source of Service Admin
+                # inventory. Add its regional candidate output to the JobG8 count.
+                if family["key"] == "service_admin" and region_name in teaching_counts:
+                    candidate_count = (candidate_count or 0) + teaching_counts[region_name]
+                    candidate_source = (candidate_source + "+teaching").strip("+")
+
             family_state[family["key"]] = {
                 "live": is_live,
                 "live_count": live_count,
@@ -298,7 +324,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE counts reconcile to `{source_report}` on `main`. For NOT LIVE Admin/Support, the daily decision report is used where that region was assessed; otherwise the latest all-region Module 2 profile is used ({profile_date or 'unavailable'}). Sales Advisor uses test-branch output only. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE counts reconcile to `{source_report}` on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile ({profile_date or 'unavailable'}). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. Sales Advisor uses test-branch output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
