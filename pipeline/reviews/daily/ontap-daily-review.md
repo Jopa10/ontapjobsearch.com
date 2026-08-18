@@ -31,7 +31,7 @@ Edit only each `action:` line:
 ## JobG8 — 32 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Newbury | £30000 - £30900 per year | Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -49,7 +49,7 @@ hub_fingerprint: 7d6705bd297e3871352e9365654a05ae2bfc68cd54a8e5cedfa3d9040ee5afe
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Devon | Exeter | £45000 - £55000 per year | PMO Coordinator
 source_key: jobg8
 source: JobG8
@@ -67,7 +67,7 @@ hub_fingerprint: 521b02a2c6a9fe5e81c41263b6e4fe77af38d40f1eee55f8423f06fa91dd7b1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Poole | £30000 - £38000 per year | Client Services Administrator - Poole - Up to £38,000
 source_key: jobg8
 source: JobG8
@@ -85,7 +85,7 @@ hub_fingerprint: f77e19b94702931db646b63aec87ea0ef1d99a33e927465a3fe18929141cf99
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Grays | £28000 - £32000 per year | Accounts Administrator
 source_key: jobg8
 source: JobG8
@@ -103,7 +103,7 @@ hub_fingerprint: c30f481196d99b100948605850e50bc76ac73fbe0520d7bfeb08b15d6963476
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Grays | £18.51 per hour | HR Assistant
 source_key: jobg8
 source: JobG8
@@ -121,7 +121,7 @@ hub_fingerprint: b576ffd927e2c22130176fa7fc3b4ece99857d51a0f1bb1a2342eaa6a4955cd
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Gloucestershire | Gloucester | £38000 - £50000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -139,7 +139,7 @@ hub_fingerprint: 69ae56d173784109b5ea8e4159553bd202007244eab033794b8379ceb685665
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £30000 - £40000 per year | Operations Administrator
 source_key: jobg8
 source: JobG8
@@ -157,7 +157,7 @@ hub_fingerprint: 28d077193c5395c9eb07a046b2e7151c29a5d219d9b58fbb558ab557d8fd010
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Portsmouth | £40000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -175,7 +175,7 @@ hub_fingerprint: 0685bf0cd8bb092d7a47ce468334a3b609db7163f8e5db61a1eed91e9bd0300
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £50000 - £65000 per year | Client Facing Paraplanner, London (hybrid), Basic to circa £60k
 source_key: jobg8
 source: JobG8
@@ -193,7 +193,7 @@ hub_fingerprint: 773fc1ea78442718c392308e8069b37d67032cf4ea4316fcc9dc6128d239388
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £27000 per year | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -211,7 +211,7 @@ hub_fingerprint: 13aa3f7e82be2e4d1c6309b73720ff006115cdd471323d2927681f4091a826f
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £45000 per year | Patent Secretary
 source_key: jobg8
 source: JobG8
@@ -229,7 +229,7 @@ hub_fingerprint: 8582b5f58e930179452e14eb6711c1015260834f3e81e151d5a8935ef8c4db7
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £275 - £350 per daily | Range Planner - Convenience
 source_key: jobg8
 source: JobG8
@@ -247,7 +247,7 @@ hub_fingerprint: 653a830e01f75b79f65d712c6cadbfd67ce927164c48ef40a6600914cd2212c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Twickenham | £30000 - £36000 per year | Secretary
 source_key: jobg8
 source: JobG8
@@ -265,7 +265,7 @@ hub_fingerprint: aae6a6e369aaf36bc07ef8fd96c8890832e9b93e2673fdd9cf2c5ab6961317c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Dereham | £15 - £17 per hour | Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -283,7 +283,7 @@ hub_fingerprint: ed48ac3217a4a47a467fe64b29482eedb418e51fc80238cd881f610f77d5325
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | King's Lynn | £30000 - £37000 per year | Service Administrator
 source_key: jobg8
 source: JobG8
@@ -301,7 +301,7 @@ hub_fingerprint: 48820240d3314857425b40a8b2e97ee8d478474ba4a9c7aff0ebbb71926a15d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Norfolk | £29400 - £32760 per year | Site Coordinator
 source_key: jobg8
 source: JobG8
@@ -319,7 +319,7 @@ hub_fingerprint: 62a7335408edb59d874614b97a4687701f5c1e5f48b031a9709700250c6e9ee
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Thetford | £25000 - £35000 per year | Customer Service Administrator
 source_key: jobg8
 source: JobG8
@@ -337,7 +337,7 @@ hub_fingerprint: ec94b6493ad96da0b49d42bf00a63bfc67c2a69a9d57df8008462e12aedb2d4
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Cannock | £30000 - £32000 per year | HR Systems and Administration Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -355,7 +355,7 @@ hub_fingerprint: 6a27d8027647a8bcafd7fd2d6f44d23ceba98b2136b5a1aff5c008b74050393
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Cannock | £35000 per year | SHEQ & Office Coordinator
 source_key: jobg8
 source: JobG8
@@ -373,7 +373,7 @@ hub_fingerprint: 8c4d1790168a043e69c12a287b1685cf2e49924b0fcf261820c143fdb9ab4d8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Leek | £27000 - £40000 per year (£26820 - £40000) | Training Coordinator
 source_key: jobg8
 source: JobG8
@@ -391,7 +391,7 @@ hub_fingerprint: 422832f4b45887701f223253a90caf72191dcdff8e31e9f26e23d81ebdccbad
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Stafford | £28000 - £35000 per year (Training + Progression) | Administrator (Sales)
 source_key: jobg8
 source: JobG8
@@ -409,7 +409,7 @@ hub_fingerprint: 1f7057126aa281e436c41e06faa8b7e23481a673519d5963eaf00388733e4df
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Stafford | £14.29 - £15.39 per hour | Customer Service Administrator
 source_key: jobg8
 source: JobG8
@@ -427,7 +427,7 @@ hub_fingerprint: 307348fb4cdb0f728fd0d1abcb05e7a46e56fe42f797209c9240caa425611b5
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Stafford | £13.45 - £18.9 per hour | Customer Service Advisor - Part Time
 source_key: jobg8
 source: JobG8
@@ -445,7 +445,7 @@ hub_fingerprint: 277b047a80f8cd9991452122c69c68ff25854503a2af24d24e5d58925c8d9cd
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Stafford | £28000 - £35000 per year (Training + Progression) | Sales Administrator (Training/Progression)
 source_key: jobg8
 source: JobG8
@@ -463,7 +463,7 @@ hub_fingerprint: 00c8dbeafa0d144ec0f72f69bea5a87b1ca7486056afdd4a90eb81e82558f4f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Stafford | £28000 - £35000 per year | Sales Administrator (Training/Progression)
 source_key: jobg8
 source: JobG8
@@ -481,7 +481,7 @@ hub_fingerprint: 68870afae6d4da29f151daa5dcc79ccb217572e22111ce2a22587616ef99110
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Stoke-on-trent | £14.02 - £15.53 per hour | Depot Administrator- Noons
 source_key: jobg8
 source: JobG8
@@ -499,7 +499,7 @@ hub_fingerprint: a93f2e6f4ad2bc456f4d7f6deba997a6b164def312593804dcdf0d17fc3091a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Tamworth | £31000 per year | Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -517,7 +517,7 @@ hub_fingerprint: 163592751a97c0da3b6e685ed0bed2fe1d93dfada3d66247ad32a33e246087c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Surrey | Camberley | £14 - £18 per hour | Support Care Workers - Camberley
 source_key: jobg8
 source: JobG8
@@ -535,7 +535,7 @@ hub_fingerprint: df4fca7770d683fb299655b15caca3cdd70a10d0d8a4c9f207b9c3947421f01
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Coventry | £60000 per year | Showroom Coordinator
 source_key: jobg8
 source: JobG8
@@ -553,7 +553,7 @@ hub_fingerprint: b21bfda7f9b58fcc0dcc7cf5ac0ecf09a6d84c0ce251ed227d853d5873d264e
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Wiltshire | Chippenham | £50000 - £60000 per year | Permanent Part-time Private Personal Assistant - Cotswolds
 source_key: jobg8
 source: JobG8
@@ -571,7 +571,7 @@ hub_fingerprint: 930a20a58da2451c2f03023869427ce3c9343926be532599626ced8d94e2a89
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - South | Barnsley | £30000 - £35000 per year | German Speaking Administrator
 source_key: jobg8
 source: JobG8
@@ -589,7 +589,7 @@ hub_fingerprint: 1377181f96c5450a142a04a87e16e4e212dfaa8da4727b355f4c37d53066f35
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £28000 - £32000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -613,7 +613,7 @@ _No new or changed human decisions required._
 ## VONNE — 1 to review
 
 ---
-action:
+action: select
 POSS | VONNE | North East | Hybrid | £ Per Annum | Business Development Manager
 source_key: vonne
 source: VONNE
