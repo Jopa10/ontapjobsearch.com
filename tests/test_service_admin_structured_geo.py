@@ -65,6 +65,11 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
         self.assertEqual("structured_postcode", result.source)
         self.assertEqual("SK3", result.postcode_district)
 
+    def test_jobg8_outcode_sector_keeps_outcode(self):
+        self.assertEqual("M21", geo.normalize_postcode_district("M21 0"))
+        self.assertEqual("M3", geo.normalize_postcode_district("M3 5"))
+        self.assertEqual("M35", geo.normalize_postcode_district("M35"))
+
     def test_precise_location_beats_broader_area(self):
         result = self.resolve(
             {
