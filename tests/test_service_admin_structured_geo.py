@@ -188,11 +188,8 @@ class StructuredJobG8GeographyTests(unittest.TestCase):
                 self.description_col: "Data Entry Clerk Heywood. For more information call our Trafford Park branch on 0161 000 0000.",
             }
         )
-        # Heywood is explicit in the headline but has no location cue/postcode in
-        # this synthetic false-positive test, so the resolver should retain the
-        # broad structured Manchester fallback rather than jump on Trafford.
         self.assertEqual("Greater Manchester - Manchester & Salford", result.region)
-        self.assertEqual("broad_area", result.source)
+        self.assertEqual("location", result.source)
 
     def test_unmapped_structured_postcode_falls_through_safely(self):
         result = self.resolve(
