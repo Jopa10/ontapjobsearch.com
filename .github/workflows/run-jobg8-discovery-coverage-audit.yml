@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/run-jobg8-discovery-coverage-audit.yml'
       - 'pipeline/scripts/jobg8_discovery_coverage_audit.py'
+      - 'pipeline/scripts/jobg8_refine_other_families.py'
 
 permissions:
   contents: write
@@ -64,7 +65,14 @@ jobs:
             --registers-dir pipeline/registers \
             --refinements pipeline/registers/pipeline_refinement_rules.csv \
             --output-dir pipeline/reports-discovery-audit
-          cat pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Refine Other / Unclassified into added families
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/jobg8_refine_other_families.py \
+            --input-csv pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.csv \
+            --output-dir pipeline/reports-discovery-audit
+          cat pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit diagnostic outputs only
         run: |
@@ -72,6 +80,8 @@ jobs:
           files=(
             pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.csv
             pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.md
+            pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.csv
+            pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.md
           )
           git add -- "${files[@]}"
           if git diff --cached --quiet; then
@@ -79,7 +89,7 @@ jobs:
             exit 0
           fi
           staged="$(git diff --cached --name-only)"
-          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/jobg8-discovery-coverage-current\.(csv|md)$' || true)"
+          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current)\.(csv|md)$' || true)"
           if [ -n "$unexpected" ]; then
             echo '::error::Unexpected staged path(s):'
             printf '%s\n' "$unexpected"
@@ -88,7 +98,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Run JobG8 discovery coverage audit'
+          git commit -m 'Run refined JobG8 family reconciliation'
           git pull --rebase origin main
           git push origin HEAD:main
 
