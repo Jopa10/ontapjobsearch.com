@@ -1,11 +1,8 @@
-"""Branch-only Customer Sales / Sales Advisor family test.
+"""Branch-only Customer Sales / Sales Advisor family benchmark.
 
-This deliberately uses the broad family definition agreed during discovery:
-genuine office/contact-centre/home/hybrid selling, conversion, retention and
-renewal roles. A job may also belong to Service Admin; overlap is allowed.
-
-The purpose here is to inspect five already-promising regional slices, not to
-micro-optimise a production classifier.
+Reproduces the earlier discovery definition: genuine office/contact-centre/home/hybrid
+selling, conversion, retention and renewal roles. A job may also belong to Service
+Admin; overlap is explicitly allowed.
 """
 from __future__ import annotations
 
@@ -35,12 +32,13 @@ OUTPUT_DIR = Path("output-customer-sales-test")
 TARGETS = {
     "Hampshire": "hampshire.json",
     "Greater Manchester - Manchester & Salford": "manchester-salford.json",
+    "Yorkshire - West": "west-yorkshire.json",
     "Northern Ireland - East": "northern-ireland-east.json",
     "Cheshire - Warrington & Halton": "warrington-halton.json",
-    "Yorkshire - West": "west-yorkshire.json",
+    "Cornwall": "cornwall.json",
+    "Yorkshire - South": "south-yorkshire.json",
 }
 
-# Clearly sales-led office/customer titles. These may overlap with Service Admin.
 DIRECT_TITLE_TERMS = [
     "sales advisor", "sales adviser", "sales executive", "sales consultant",
     "sales representative", "sales agent", "customer sales", "internal sales",
@@ -52,16 +50,12 @@ DIRECT_TITLE_TERMS = [
     "membership sales", "membership advisor", "membership adviser",
 ]
 
-# Customer/contact-centre titles belong where the advert shows genuine selling,
-# conversion, retention or renewal activity. They are NOT excluded merely because
-# they could also appear in Service Admin.
+# Broad doorway used in the original discovery: do not require one exact title variant.
 CUSTOMER_TITLE_TERMS = [
-    "customer service advisor", "customer service adviser", "customer service representative",
-    "customer advisor", "customer adviser", "customer representative", "customer account advisor",
-    "customer account adviser", "customer success advisor", "customer success adviser",
-    "call centre agent", "call center agent", "call centre operator", "call center operator",
-    "contact centre agent", "contact center agent", "contact centre advisor", "contact centre adviser",
-    "client advisor", "client adviser", "membership advisor", "membership adviser",
+    "customer service", "customer care", "customer support", "customer advisor", "customer adviser",
+    "customer representative", "customer account", "customer success", "client service", "client services",
+    "client advisor", "client adviser", "call centre", "call center", "contact centre", "contact center",
+    "membership advisor", "membership adviser",
 ]
 
 SALES_EVIDENCE_TERMS = [
@@ -76,14 +70,12 @@ SALES_EVIDENCE_TERMS = [
     "increase membership", "sales experience", "sales role", "selling",
 ]
 
-# Keep exclusions broad and obvious. This is an inspection test, not the final
-# production rulebook.
 HARD_EXCLUDE_TERMS = [
     "field sales", "door to door", "door-to-door", "territory sales", "area sales", "regional sales",
     "sales manager", "business development manager", "head of sales", "sales director",
     "technical sales", "sales engineer", "sales engineering", "product sales engineer",
     "car sales", "vehicle sales", "showroom", "retail sales", "estate agent", "lettings negotiator",
-    "sales negotiator", "sales administrator", "sales administration", "sales support administrator",
+    "sales negotiator", "sales administrator", "sales administration", "sales support",
     "sales ledger", "account manager", "account executive",
     "service advisor - automotive", "service adviser - automotive", "automotive service advisor",
     "automotive service adviser", "aftersales advisor", "aftersales adviser",
@@ -116,7 +108,7 @@ def classify(title: str, description: str) -> tuple[str, str] | None:
     if customer:
         evidence = contains_any(combined, SALES_EVIDENCE_TERMS)
         if evidence:
-            return "CUSTOMER_SALES", "customer role with sales evidence: " + ", ".join(evidence[:3])
+            return "CUSTOMER_SALES", "customer/service role with sales evidence: " + ", ".join(evidence[:3])
 
     return None
 
@@ -151,7 +143,6 @@ def resolve_region(area: Any, location: Any, area_lookup: dict[str, str], fallba
     area_key = norm_key(area)
     if area_key not in {"", "not specified", "unknown"}:
         return area_lookup.get(area_key, "")
-
     location_key = norm_key(location)
     if location_key in {"", "not specified", "unknown"}:
         return ""
@@ -221,16 +212,13 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for region, filename in TARGETS.items():
-        jobs = sorted(
-            outputs[region],
-            key=lambda job: (
-                0 if job.get("customer_sales_classification") == "DIRECT_SALES" else 1,
-                str(job.get("title", "")).lower(),
-                str(job.get("location", "")).lower(),
-            ),
-        )
+        jobs = sorted(outputs[region], key=lambda job: (
+            0 if job.get("customer_sales_classification") == "DIRECT_SALES" else 1,
+            str(job.get("title", "")).lower(), str(job.get("location", "")).lower(),
+        ))
         (OUTPUT_DIR / filename).write_text(json.dumps(jobs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"{region}: {len(jobs)} broad Customer Sales candidates")
+        employers = {norm_key(job.get("advertiser_name")) for job in jobs if norm_key(job.get("advertiser_name"))}
+        print(f"{region}: {len(jobs)} jobs / {len(employers)} employers")
 
 
 if __name__ == "__main__":
