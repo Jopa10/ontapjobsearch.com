@@ -17,9 +17,9 @@ from slice_registry import candidate_slices, load_slice_register, live_slices
 class SliceRegistryTests(unittest.TestCase):
     def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
         records = load_slice_register()
-        self.assertEqual(len(records), 63)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 36)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 27)
+        self.assertEqual(len(records), 64)
+        self.assertEqual(sum(row.status == "LIVE" for row in records), 40)
+        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 24)
         self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
 
     def test_live_rows_include_new_white_collar_admin_and_support_slices(self):
@@ -33,6 +33,7 @@ class SliceRegistryTests(unittest.TestCase):
             ("Greater Manchester - Manchester & Salford", "admin_service"),
             ("Bristol & Bath", "admin_service"),
             ("Devon", "finance_accounts"),
+            ("Surrey", "support_worker"),
         }
         self.assertTrue(expected.issubset(live))
         self.assertIn(("Yorkshire - North", "admin_service"), live)
@@ -45,12 +46,12 @@ class SliceRegistryTests(unittest.TestCase):
             ("Yorkshire - West", "finance_accounts"),
             ("North East", "finance_accounts"),
             ("Somerset", "support_worker"),
-            ("Surrey", "support_worker"),
             ("Buckinghamshire", "admin_service"),
         }
         self.assertTrue(expected.issubset(candidates))
         self.assertTrue(expected.isdisjoint(live_slices()))
         self.assertNotIn(("London", "support_worker"), candidates)
+        self.assertNotIn(("Surrey", "support_worker"), candidates)
 
     def test_london_support_worker_live_config(self):
         from scripts import support_worker_pipeline_live_config as support_config
