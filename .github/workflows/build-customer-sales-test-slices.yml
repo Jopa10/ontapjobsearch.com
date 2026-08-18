@@ -29,50 +29,88 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Download current JobG8 feed
+      - name: Build Customer Sales slices with diagnostics
+        id: sales-build
+        continue-on-error: true
         env:
           JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
         run: |
-          set -euo pipefail
-          : "${JOBG8_FEED_URL:?JOBG8_FEED_URL secret is not configured}"
-          curl --fail --silent --show-error --location \
+          set -u
+          STATUS="pipeline/output-customer-sales-test/run-status.txt"
+          mkdir -p pipeline/output-customer-sales-test
+          : > "$STATUS"
+          echo "Customer Sales test run: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$STATUS"
+
+          if [ -z "${JOBG8_FEED_URL:-}" ]; then
+            echo "FAILED: JOBG8_FEED_URL secret is not configured" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: JobG8 feed secret available" >> "$STATUS"
+
+          if ! curl --fail --silent --show-error --location \
             --retry 3 --retry-delay 5 \
             --connect-timeout 30 --max-time 180 \
             "$JOBG8_FEED_URL" \
-            --output "$RUNNER_TEMP/jobg8.zip"
-          test -s "$RUNNER_TEMP/jobg8.zip"
+            --output "$RUNNER_TEMP/jobg8.zip"; then
+            echo "FAILED: download current JobG8 feed" >> "$STATUS"
+            exit 1
+          fi
+          if [ ! -s "$RUNNER_TEMP/jobg8.zip" ]; then
+            echo "FAILED: downloaded JobG8 zip is empty" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: downloaded current JobG8 feed" >> "$STATUS"
 
-      - name: Convert current JobG8 feed
-        run: |
-          set -euo pipefail
           rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
-          python pipeline/scripts/jobg8_xml_adapter.py \
+          if ! python pipeline/scripts/jobg8_xml_adapter.py \
             --zip "$RUNNER_TEMP/jobg8.zip" \
             --output pipeline/input/jobg8.xlsx \
             --expected-min 5000 \
-            --expected-max 20000
-          test -s pipeline/input/jobg8.xlsx
+            --expected-max 20000; then
+            echo "FAILED: convert current JobG8 feed" >> "$STATUS"
+            exit 1
+          fi
+          if [ ! -s pipeline/input/jobg8.xlsx ]; then
+            echo "FAILED: converted JobG8 input is empty" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: converted current JobG8 feed" >> "$STATUS"
 
-      - name: Refresh geo lookup from main
-        run: |
-          set -euo pipefail
-          git fetch origin +refs/heads/main:refs/remotes/origin/main
-          git show origin/main:pipeline/geo/geo_lookup.xlsx > pipeline/geo/geo_lookup.xlsx
-          test -s pipeline/geo/geo_lookup.xlsx
+          if ! git fetch origin +refs/heads/main:refs/remotes/origin/main; then
+            echo "FAILED: fetch main for geo lookup" >> "$STATUS"
+            exit 1
+          fi
+          if ! git show origin/main:pipeline/geo/geo_lookup.xlsx > pipeline/geo/geo_lookup.xlsx; then
+            echo "FAILED: refresh geo lookup from main" >> "$STATUS"
+            exit 1
+          fi
+          if [ ! -s pipeline/geo/geo_lookup.xlsx ]; then
+            echo "FAILED: refreshed geo lookup is empty" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: refreshed geo lookup from main" >> "$STATUS"
 
-      - name: Build Customer Sales test slices
-        working-directory: pipeline
-        run: python scripts/customer_sales_test_pipeline.py
+          if ! (cd pipeline && python scripts/customer_sales_test_pipeline.py); then
+            echo "FAILED: Customer Sales test pipeline" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: Customer Sales test pipeline completed" >> "$STATUS"
 
-      - name: Commit refreshed test outputs
+      - name: Commit diagnostic status and refreshed outputs
+        if: always()
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/output-customer-sales-test/run-status.txt
           git add pipeline/output-customer-sales-test/*.json
           if git diff --cached --quiet; then
-            echo "No output changes to commit"
+            echo "No Customer Sales test changes to commit"
           else
             git commit -m "Refresh Customer Sales test slices"
             git push origin HEAD:agent/customer-sales-family
           fi
+
+      - name: Fail if Customer Sales build failed
+        if: steps.sales-build.outcome == 'failure'
+        run: exit 1
