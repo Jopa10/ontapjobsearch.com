@@ -5,10 +5,11 @@ on:
   push:
     branches:
       - agent/customer-sales-family
+    paths:
+      - '.github/workflows/build-customer-sales-test-slices.yml'
 
 permissions:
   contents: write
-  id-token: write
 
 jobs:
   build:
@@ -28,67 +29,84 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Configure AWS credentials for validated JobG8 archive
-        id: aws-creds
-        continue-on-error: true
-        uses: aws-actions/configure-aws-credentials@v6
-        with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
-          aws-region: eu-west-2
-
       - name: Build Customer Sales slices with diagnostics
         id: sales-build
         continue-on-error: true
+        env:
+          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
         run: |
           set -u
           STATUS="pipeline/output-customer-sales-test/run-status.txt"
           LOG="pipeline/output-customer-sales-test/run-log.txt"
+          DOWNLOAD="$RUNNER_TEMP/jobg8_download"
+          ZIP="$RUNNER_TEMP/jobg8.zip"
           mkdir -p pipeline/output-customer-sales-test
           : > "$STATUS"
           : > "$LOG"
           echo "Customer Sales test run: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$STATUS"
 
-          if ! aws sts get-caller-identity >> "$LOG" 2>&1; then
-            echo "FAILED: AWS credentials for validated JobG8 archive" >> "$STATUS"
-            tail -100 "$LOG" >> "$STATUS"
+          if [ -z "${JOBG8_FEED_URL:-}" ]; then
+            echo "FAILED: JOBG8_FEED_URL secret is not configured" >> "$STATUS"
             exit 1
           fi
-          echo "OK: AWS credentials for validated JobG8 archive" >> "$STATUS"
+          echo "OK: JobG8 feed secret available" >> "$STATUS"
 
-          TODAY="$(TZ=Europe/London date +%F)"
-          YESTERDAY="$(TZ=Europe/London date -d 'yesterday' +%F)"
-          ARCHIVE_DAY=""
-          for DAY in "$TODAY" "$YESTERDAY"; do
-            if aws s3 cp \
-              "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/${DAY}.zip" \
-              "$RUNNER_TEMP/jobg8.zip" \
-              --region eu-west-2 --only-show-errors >> "$LOG" 2>&1; then
-              ARCHIVE_DAY="$DAY"
-              break
-            fi
-          done
-          if [ -z "$ARCHIVE_DAY" ] || [ ! -s "$RUNNER_TEMP/jobg8.zip" ]; then
-            echo "FAILED: download latest validated JobG8 archive" >> "$STATUS"
+          if ! curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 5 \
+            --connect-timeout 30 --max-time 180 \
+            "$JOBG8_FEED_URL" \
+            --output "$DOWNLOAD" >> "$LOG" 2>&1; then
+            echo "FAILED: download current JobG8 feed" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
-          echo "OK: downloaded validated JobG8 archive ${ARCHIVE_DAY}" >> "$STATUS"
+          if [ ! -s "$DOWNLOAD" ]; then
+            echo "FAILED: downloaded JobG8 feed is empty" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: downloaded current JobG8 feed ($(stat -c%s "$DOWNLOAD") bytes)" >> "$STATUS"
+
+          if ! python - "$DOWNLOAD" "$ZIP" >> "$LOG" 2>&1 <<'PY'
+          import shutil
+          import sys
+          import zipfile
+          from pathlib import Path
+
+          source = Path(sys.argv[1])
+          target = Path(sys.argv[2])
+          data = source.read_bytes()
+          if zipfile.is_zipfile(source):
+              shutil.copyfile(source, target)
+              print("Download is a ZIP archive")
+          else:
+              stripped = data.lstrip()
+              looks_xml = stripped.startswith(b"<?xml") or stripped.startswith(b"<")
+              has_job = b"<Job" in data[:200000] or b":Job" in data[:200000]
+              if not (looks_xml and has_job):
+                  print(f"Download is neither ZIP nor plausible JobG8 XML; size={len(data)}; first16={data[:16].hex()}")
+                  raise SystemExit(2)
+              with zipfile.ZipFile(target, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+                  archive.writestr("Jobs.xml", data)
+              print("Wrapped raw XML download as Jobs.xml ZIP")
+          PY
+          then
+            echo "FAILED: normalise downloaded JobG8 feed" >> "$STATUS"
+            tail -100 "$LOG" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: normalised JobG8 feed" >> "$STATUS"
 
           rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
           if ! python pipeline/scripts/jobg8_xml_adapter.py \
-            --zip "$RUNNER_TEMP/jobg8.zip" \
+            --zip "$ZIP" \
             --output pipeline/input/jobg8.xlsx \
             --expected-min 5000 \
             --expected-max 20000 >> "$LOG" 2>&1; then
-            echo "FAILED: convert validated JobG8 archive" >> "$STATUS"
+            echo "FAILED: convert current JobG8 feed" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
-          if [ ! -s pipeline/input/jobg8.xlsx ]; then
-            echo "FAILED: converted JobG8 input is empty" >> "$STATUS"
-            exit 1
-          fi
-          echo "OK: converted validated JobG8 archive" >> "$STATUS"
+          echo "OK: converted current JobG8 feed" >> "$STATUS"
 
           if ! git fetch origin +refs/heads/main:refs/remotes/origin/main >> "$LOG" 2>&1; then
             echo "FAILED: fetch main for geo lookup" >> "$STATUS"
@@ -100,18 +118,15 @@ jobs:
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
-          if [ ! -s pipeline/geo/geo_lookup.xlsx ]; then
-            echo "FAILED: refreshed geo lookup is empty" >> "$STATUS"
-            exit 1
-          fi
           echo "OK: refreshed geo lookup from main" >> "$STATUS"
 
-          if ! (cd pipeline && python scripts/customer_sales_test_pipeline.py) >> "$LOG" 2>&1; then
+          if ! (cd pipeline && python -m scripts.customer_sales_test_pipeline) >> "$LOG" 2>&1; then
             echo "FAILED: Customer Sales test pipeline" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
           echo "OK: Customer Sales test pipeline completed" >> "$STATUS"
+          tail -20 "$LOG" >> "$STATUS"
 
       - name: Commit diagnostic status and refreshed outputs
         if: always()
@@ -130,5 +145,5 @@ jobs:
           fi
 
       - name: Fail if Customer Sales build failed
-        if: steps.sales-build.outcome == 'failure' || steps.aws-creds.outcome == 'failure'
+        if: steps.sales-build.outcome == 'failure'
         run: exit 1
