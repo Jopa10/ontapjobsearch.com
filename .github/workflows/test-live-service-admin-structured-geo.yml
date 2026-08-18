@@ -27,14 +27,15 @@ on:
 
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   structured-geo:
     runs-on: ubuntu-latest
-    # Same-repository PRs can use the feed secret. Fork PRs still run unit tests
-    # but skip the secret-backed current-feed steps.
     env:
-      CAN_USE_FEED: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+      CAN_USE_ARCHIVE: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+      JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
+      JOBG8_ARCHIVE_REGION: eu-west-2
 
     steps:
       - name: Check out branch
@@ -46,29 +47,51 @@ jobs:
           python-version: '3.12'
 
       - name: Install Python packages
-        run: python -m pip install --upgrade pip pandas openpyxl
+        run: python -m pip install --upgrade pip pandas openpyxl boto3
 
       - name: Run structured geography unit tests
         run: |
           python -m unittest tests/test_service_admin_structured_geo.py -v
           python -m unittest tests/test_service_admin_geography_guard.py -v
 
-      - name: Download current JobG8 feed
-        if: env.CAN_USE_FEED == 'true'
-        env:
-          JOBG8_FEED_URL: ${{ secrets.JOBG8_FEED_URL }}
+      - name: Configure AWS credentials for validated JobG8 archive
+        if: env.CAN_USE_ARCHIVE == 'true'
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+
+      - name: Download latest validated JobG8 raw archive
+        if: env.CAN_USE_ARCHIVE == 'true'
         run: |
           set -euo pipefail
-          : "${JOBG8_FEED_URL:?JOBG8_FEED_URL secret is not configured}"
-          curl --fail --silent --show-error --location \
-            --retry 3 --retry-delay 5 \
-            --connect-timeout 30 --max-time 180 \
-            "$JOBG8_FEED_URL" \
-            --output "$RUNNER_TEMP/jobg8.zip"
-          test -s "$RUNNER_TEMP/jobg8.zip"
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import boto3
 
-      - name: Convert current feed and require structured postcode
-        if: env.CAN_USE_FEED == 'true'
+          bucket = os.environ['JOBG8_ARCHIVE_BUCKET']
+          region = os.environ['JOBG8_ARCHIVE_REGION']
+          prefix = 'jobg8/raw/'
+          client = boto3.client('s3', region_name=region)
+          response = client.list_objects_v2(Bucket=bucket, Prefix=prefix)
+          objects = [
+              item for item in response.get('Contents', [])
+              if item.get('Key', '').endswith('.zip')
+          ]
+          if not objects:
+              raise SystemExit('STOP: no validated JobG8 raw ZIPs found in archive')
+          latest = max(objects, key=lambda item: item['LastModified'])
+          target = Path(os.environ['RUNNER_TEMP']) / 'jobg8.zip'
+          client.download_file(bucket, latest['Key'], str(target))
+          if not target.is_file() or target.stat().st_size == 0:
+              raise SystemExit('STOP: latest validated JobG8 archive download is empty')
+          print('Using validated JobG8 archive:', Path(latest['Key']).name)
+          print('Archive bytes:', target.stat().st_size)
+          PY
+
+      - name: Convert archived feed and require structured postcode
+        if: env.CAN_USE_ARCHIVE == 'true'
         run: |
           set -euo pipefail
           rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
@@ -79,18 +102,18 @@ jobs:
             --expected-max 20000
           test -s pipeline/input/jobg8.xlsx
 
-      - name: Audit old versus structured geography on current feed
-        if: env.CAN_USE_FEED == 'true'
+      - name: Audit old versus structured geography on validated feed
+        if: env.CAN_USE_ARCHIVE == 'true'
         working-directory: pipeline
         run: python -m scripts.audit_live_service_admin_structured_geo
 
       - name: Run full live Service Admin selector on branch
-        if: env.CAN_USE_FEED == 'true'
+        if: env.CAN_USE_ARCHIVE == 'true'
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline_north_yorkshire
 
       - name: Assert rerouted South jobs are absent from Manchester and Salford output
-        if: env.CAN_USE_FEED == 'true'
+        if: env.CAN_USE_ARCHIVE == 'true'
         run: |
           python - <<'PY'
           import csv
@@ -125,7 +148,7 @@ jobs:
           PY
 
       - name: Upload branch geography audit and output
-        if: always() && env.CAN_USE_FEED == 'true'
+        if: always() && env.CAN_USE_ARCHIVE == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: live-service-admin-structured-geo-branch
