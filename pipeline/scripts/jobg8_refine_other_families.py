@@ -31,9 +31,6 @@ CATEGORY_PRECEDENCE = [
     "admin_service",
 ]
 
-# Diagnostic rules only. Existing selected Ontap registers take priority.
-# These title rules are intentionally conservative: specific occupational terms
-# are classified; generic manager/director/consultant titles remain unresolved.
 OTHER_RULES = [
     ("Legal / Conveyancing", r"\b(conveyancer|conveyancing|employment counsel|court adviser|court advisor)\b"),
     ("Professional Finance / Accountancy", r"\b(bookkeeper|bookkeeping|fp&a|fp and a|financial planning and analysis|financial planning analyst)\b"),
@@ -241,7 +238,8 @@ def main() -> int:
         lines.append(f"| {basis} | {count:,} |")
     lines += ["", "## Largest titles still genuinely unclassified", "", "| Count | Title |", "|---:|---|"]
     for title, count in family_titles["Other / Unclassified"].most_common(75):
-        lines.append(f"| {count} | {title.replace('|', '\\|')} |")
+        safe_title = title.replace("|", "\\|")
+        lines.append(f"| {count} | {safe_title} |")
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines[:50]))
