@@ -1,13 +1,2 @@
-Traceback (most recent call last):
-  File "/home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline/scripts/jobg8_xml_adapter.py", line 97, in <module>
-    main()
-  File "/home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline/scripts/jobg8_xml_adapter.py", line 93, in main
-    convert(args.zip, args.output, args.expected_min, args.expected_max)
-  File "/home/runner/work/ontapjobsearch.com/ontapjobsearch.com/pipeline/scripts/jobg8_xml_adapter.py", line 40, in convert
-    with zipfile.ZipFile(zip_path) as archive:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/zipfile/__init__.py", line 1370, in __init__
-    self._RealGetContents()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/zipfile/__init__.py", line 1437, in _RealGetContents
-    raise BadZipFile("File is not a zip file")
-zipfile.BadZipFile: File is not a zip file
+
+aws: [ERROR]: An error occurred (NoCredentials): Unable to locate credentials. You can configure credentials by running "aws login".
