@@ -12,8 +12,24 @@ DEFAULT_POSTCODE_OVERRIDES_PATH = (
 )
 DESCRIPTION_POSTCODE_WINDOW = 700
 
-# These values are useful fallbacks when the area is absent, but are not precise
-# enough to overrule a populated, more-specific Area when the two disagree.
+# JobG8 commonly uses these as umbrella geographies. A more precise structured
+# Location may overrule one of these, but it must not overrule a specific Area
+# such as Bristol, Oxford, Ipswich or Cambridge merely because Location contains
+# a broader county name.
+BROAD_AREA_KEYS = {
+    "",
+    "city",
+    "not specified",
+    "unknown",
+    "manchester",
+    "greater manchester",
+    "london",
+    "north east",
+    "west midlands",
+    "yorkshire",
+    "lancashire",
+    "cumbria",
+}
 BROAD_LOCATION_KEYS = {
     "",
     "city",
@@ -25,6 +41,8 @@ BROAD_LOCATION_KEYS = {
     "north east",
     "west midlands",
     "yorkshire",
+    "lancashire",
+    "cumbria",
 }
 
 _UK_FULL_POSTCODE_RE = re.compile(
@@ -111,13 +129,14 @@ def load_postcode_overrides(
         return overrides
 
 
-def _location_is_precise(location: str, area: str) -> bool:
+def _location_can_override_area(location: str, area: str) -> bool:
     location_key = norm_key(location)
+    area_key = norm_key(area)
     if not location_key or location_key in BROAD_LOCATION_KEYS:
         return False
-    if location_key == norm_key(area):
+    if location_key == area_key:
         return False
-    return True
+    return area_key in BROAD_AREA_KEYS
 
 
 def resolve_job_geography(
@@ -132,16 +151,18 @@ def resolve_job_geography(
     area_is_unusable: Callable[[str], bool],
     postal_code_column: str = POSTAL_CODE_COLUMN,
 ) -> GeoResolution:
-    """Resolve one JobG8 row using the strongest structured geography first.
+    """Resolve one JobG8 row using the strongest trustworthy geography first.
 
     Priority:
       1. structured /Job/PostalCode when its district has a curated mapping;
-      2. precise structured /Job/Location;
+      2. precise structured /Job/Location when Area is absent/invalid or an
+         explicitly broad umbrella geography;
       3. structured /Job/Area;
       4. explicit postcode near the start of the advert, using the same curated map.
 
-    A broad Location (for example ``Manchester``) is still useful when Area is
-    unusable, but it does not overrule a populated Area that points elsewhere.
+    This intentionally avoids treating every Area/Location disagreement as an
+    instruction to prefer Location: JobG8 frequently supplies a specific city in
+    Area and a broader county in Location (for example Bristol / Somerset).
     """
     area = norm(row.get(area_column))
     location = norm(row.get(location_column))
@@ -179,12 +200,12 @@ def resolve_job_geography(
                 evidence=location,
                 postcode_district=district,
             )
-        if _location_is_precise(location, area):
+        if _location_can_override_area(location, area):
             return GeoResolution(
                 region=location_region,
                 town=location,
                 source="precise_location_override",
-                evidence=f"{location} overrides Area={area}",
+                evidence=f"{location} overrides broad Area={area}",
                 postcode_district=district,
             )
 
