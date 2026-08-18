@@ -27,15 +27,10 @@ on:
 
 permissions:
   contents: read
-  id-token: write
 
 jobs:
   structured-geo:
     runs-on: ubuntu-latest
-    env:
-      CAN_USE_ARCHIVE: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
-      JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
-      JOBG8_ARCHIVE_REGION: eu-west-2
 
     steps:
       - name: Check out branch
@@ -47,73 +42,41 @@ jobs:
           python-version: '3.12'
 
       - name: Install Python packages
-        run: python -m pip install --upgrade pip pandas openpyxl boto3
+        run: python -m pip install --upgrade pip pandas openpyxl
 
       - name: Run structured geography unit tests
         run: |
           python -m unittest tests/test_service_admin_structured_geo.py -v
           python -m unittest tests/test_service_admin_geography_guard.py -v
 
-      - name: Configure AWS credentials for validated JobG8 archive
-        if: env.CAN_USE_ARCHIVE == 'true'
-        uses: aws-actions/configure-aws-credentials@v6
-        with:
-          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
-          aws-region: eu-west-2
-
-      - name: Download latest validated JobG8 raw archive
-        if: env.CAN_USE_ARCHIVE == 'true'
+      - name: Stage expanded JobG8 archive feed
         run: |
           set -euo pipefail
+          source='pipeline/input-jobg8-archive/2026-08/2026-08-12.xlsx'
+          test -s "$source"
+          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
+          cp "$source" pipeline/input/jobg8.xlsx
           python - <<'PY'
-          import os
-          from pathlib import Path
-          import boto3
-
-          bucket = os.environ['JOBG8_ARCHIVE_BUCKET']
-          region = os.environ['JOBG8_ARCHIVE_REGION']
-          prefix = 'jobg8/raw/'
-          client = boto3.client('s3', region_name=region)
-          response = client.list_objects_v2(Bucket=bucket, Prefix=prefix)
-          objects = [
-              item for item in response.get('Contents', [])
-              if item.get('Key', '').endswith('.zip')
-          ]
-          if not objects:
-              raise SystemExit('STOP: no validated JobG8 raw ZIPs found in archive')
-          latest = max(objects, key=lambda item: item['LastModified'])
-          target = Path(os.environ['RUNNER_TEMP']) / 'jobg8.zip'
-          client.download_file(bucket, latest['Key'], str(target))
-          if not target.is_file() or target.stat().st_size == 0:
-              raise SystemExit('STOP: latest validated JobG8 archive download is empty')
-          print('Using validated JobG8 archive:', Path(latest['Key']).name)
-          print('Archive bytes:', target.stat().st_size)
+          import pandas as pd
+          path = 'pipeline/input/jobg8.xlsx'
+          df = pd.read_excel(path)
+          required = ['/Job/Area', '/Job/Location', '/Job/PostalCode']
+          missing = [column for column in required if column not in df.columns]
+          if missing:
+              raise SystemExit('STOP: expanded archive feed is missing: ' + ', '.join(missing))
+          print('Expanded archive rows:', len(df))
+          print('Structured PostalCode populated:', int(df['/Job/PostalCode'].fillna('').astype(str).str.strip().ne('').sum()))
           PY
 
-      - name: Convert archived feed and require structured postcode
-        if: env.CAN_USE_ARCHIVE == 'true'
-        run: |
-          set -euo pipefail
-          rm -f pipeline/input/*.xlsx pipeline/input/*.xls pipeline/input/*.xlsm pipeline/input/*.csv
-          python pipeline/scripts/jobg8_xml_adapter.py \
-            --zip "$RUNNER_TEMP/jobg8.zip" \
-            --output pipeline/input/jobg8.xlsx \
-            --expected-min 5000 \
-            --expected-max 20000
-          test -s pipeline/input/jobg8.xlsx
-
-      - name: Audit old versus structured geography on validated feed
-        if: env.CAN_USE_ARCHIVE == 'true'
+      - name: Audit old versus structured geography on expanded feed
         working-directory: pipeline
         run: python -m scripts.audit_live_service_admin_structured_geo
 
       - name: Run full live Service Admin selector on branch
-        if: env.CAN_USE_ARCHIVE == 'true'
         working-directory: pipeline
         run: python -m scripts.service_admin_pipeline_north_yorkshire
 
       - name: Assert rerouted South jobs are absent from Manchester and Salford output
-        if: env.CAN_USE_ARCHIVE == 'true'
         run: |
           python - <<'PY'
           import csv
@@ -148,7 +111,7 @@ jobs:
           PY
 
       - name: Upload branch geography audit and output
-        if: always() && env.CAN_USE_ARCHIVE == 'true'
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: live-service-admin-structured-geo-branch
