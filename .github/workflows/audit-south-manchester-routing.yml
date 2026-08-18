@@ -40,7 +40,7 @@ jobs:
         run: |
           mkdir -p pipeline/reports-audit
           set +e
-          python pipeline/scripts/audit_south_manchester_routing.py > pipeline/reports-audit/south-manchester-routing-workflow.log 2>&1
+          python -m pipeline.scripts.audit_south_manchester_routing > pipeline/reports-audit/south-manchester-routing-workflow.log 2>&1
           status=$?
           echo "exit_code=$status" >> pipeline/reports-audit/south-manchester-routing-workflow.log
           cat pipeline/reports-audit/south-manchester-routing-workflow.log
