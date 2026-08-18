@@ -10,6 +10,7 @@ on:
       - 'pipeline/scripts/customer_sales_test_pipeline.py'
       - 'pipeline/scripts/customer_sales_test_expand.py'
       - 'pipeline/scripts/customer_sales_test_refine.py'
+      - 'pipeline/scripts/customer_sales_national_reconciliation.py'
 
 permissions:
   contents: write
@@ -32,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Build Customer Sales slices with diagnostics
+      - name: Build Customer Sales slices and national reconciliation
         id: sales-build
         continue-on-error: true
         env:
@@ -43,7 +44,7 @@ jobs:
           LOG="pipeline/output-customer-sales-test/run-log.txt"
           DOWNLOAD="$RUNNER_TEMP/jobg8_download"
           ZIP="$RUNNER_TEMP/jobg8.zip"
-          mkdir -p pipeline/output-customer-sales-test
+          mkdir -p pipeline/output-customer-sales-test pipeline/reports-daily
           : > "$STATUS"
           : > "$LOG"
           echo "Customer Sales test run: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$STATUS"
@@ -54,20 +55,49 @@ jobs:
           fi
           echo "OK: JobG8 feed secret available" >> "$STATUS"
 
-          if ! curl --fail --silent --show-error --location \
-            --retry 3 --retry-delay 5 \
-            --connect-timeout 30 --max-time 180 \
-            "$JOBG8_FEED_URL" \
-            --output "$DOWNLOAD" >> "$LOG" 2>&1; then
-            echo "FAILED: download current JobG8 feed" >> "$STATUS"
+          VALID_DOWNLOAD="false"
+          for attempt in 1 2 3 4 5 6; do
+            echo "JobG8 download attempt ${attempt}/6" >> "$LOG"
+            rm -f "$DOWNLOAD" "$ZIP"
+            if curl --fail --silent --show-error --location \
+              --retry 2 --retry-delay 5 \
+              --connect-timeout 30 --max-time 180 \
+              "$JOBG8_FEED_URL" \
+              --output "$DOWNLOAD" >> "$LOG" 2>&1; then
+              if python - "$DOWNLOAD" >> "$LOG" 2>&1 <<'PY'
+          import sys
+          import zipfile
+          from pathlib import Path
+
+          source = Path(sys.argv[1])
+          if not source.exists() or source.stat().st_size == 0:
+              raise SystemExit(2)
+          if zipfile.is_zipfile(source):
+              raise SystemExit(0)
+          data = source.read_bytes()
+          stripped = data.lstrip()
+          looks_xml = stripped.startswith(b"<?xml") or stripped.startswith(b"<")
+          has_job = b"<Job" in data[:200000] or b":Job" in data[:200000]
+          raise SystemExit(0 if looks_xml and has_job else 2)
+          PY
+              then
+                VALID_DOWNLOAD="true"
+                break
+              fi
+            fi
+            BYTES="$(stat -c%s "$DOWNLOAD" 2>/dev/null || echo 0)"
+            echo "Attempt ${attempt} returned unusable feed (${BYTES} bytes); waiting before retry" >> "$LOG"
+            if [ "$attempt" -lt 6 ]; then
+              sleep 60
+            fi
+          done
+
+          if [ "$VALID_DOWNLOAD" != "true" ]; then
+            echo "FAILED: could not obtain a valid current JobG8 feed after 6 attempts" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
-          if [ ! -s "$DOWNLOAD" ]; then
-            echo "FAILED: downloaded JobG8 feed is empty" >> "$STATUS"
-            exit 1
-          fi
-          echo "OK: downloaded current JobG8 feed ($(stat -c%s "$DOWNLOAD") bytes)" >> "$STATUS"
+          echo "OK: downloaded valid current JobG8 feed ($(stat -c%s "$DOWNLOAD") bytes)" >> "$STATUS"
 
           if ! python - "$DOWNLOAD" "$ZIP" >> "$LOG" 2>&1 <<'PY'
           import shutil
@@ -86,7 +116,6 @@ jobs:
               looks_xml = stripped.startswith(b"<?xml") or stripped.startswith(b"<")
               has_job = b"<Job" in data[:200000] or b":Job" in data[:200000]
               if not (looks_xml and has_job):
-                  print(f"Download is neither ZIP nor plausible JobG8 XML; size={len(data)}; first16={data[:16].hex()}")
                   raise SystemExit(2)
               with zipfile.ZipFile(target, "w", compression=zipfile.ZIP_DEFLATED) as archive:
                   archive.writestr("Jobs.xml", data)
@@ -123,6 +152,13 @@ jobs:
           fi
           echo "OK: refreshed geo lookup from main" >> "$STATUS"
 
+          if ! (cd pipeline && python -m scripts.customer_sales_national_reconciliation) >> "$LOG" 2>&1; then
+            echo "FAILED: Customer Sales national reconciliation" >> "$STATUS"
+            tail -120 "$LOG" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: Customer Sales national reconciliation completed" >> "$STATUS"
+
           if ! (cd pipeline && python -m scripts.customer_sales_test_pipeline) >> "$LOG" 2>&1; then
             echo "FAILED: Customer Sales test pipeline" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
@@ -143,9 +179,9 @@ jobs:
             exit 1
           fi
           echo "OK: Customer Sales QA refinement completed" >> "$STATUS"
-          tail -40 "$LOG" >> "$STATUS"
+          tail -50 "$LOG" >> "$STATUS"
 
-      - name: Commit diagnostic status and refreshed outputs
+      - name: Commit diagnostic status, reconciliation and refreshed outputs
         if: always()
         run: |
           set -euo pipefail
@@ -154,10 +190,13 @@ jobs:
           git add pipeline/output-customer-sales-test/run-status.txt
           git add pipeline/output-customer-sales-test/run-log.txt
           git add pipeline/output-customer-sales-test/*.json
+          git add pipeline/reports-daily/customer-sales-national-reconciliation.md 2>/dev/null || true
+          git add pipeline/reports-daily/customer-sales-national-region-counts.csv 2>/dev/null || true
+          git add pipeline/reports-daily/customer-sales-national-detail.csv 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No Customer Sales test changes to commit"
           else
-            git commit -m "Refresh Customer Sales test slices"
+            git commit -m "Refresh Customer Sales national reconciliation"
             git push origin HEAD:agent/customer-sales-family
           fi
 
