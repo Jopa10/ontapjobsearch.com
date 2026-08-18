@@ -1,16 +1,12 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-# This repo contains pipeline/scripts/pandas.py as a compatibility shim. Remove
-# the script directory while importing so this audit, like Module 2, gets the
-# installed pandas package rather than the local shim.
 sys.path = [entry for entry in sys.path if Path(entry or ".").resolve() != SCRIPT_DIR]
 
 import pandas as pd
@@ -38,6 +34,34 @@ CLUES = {
     "hr_recruitment": ["hr ", "human resources", "recruitment", "recruiter", "talent", "people administrator", "people assistant"],
     "warehouse_logistics": ["warehouse", "logistics", "stock", "picker", "packer", "forklift", "goods in", "goods out", "dispatch"],
 }
+
+# Diagnostic broad-family rules. Every titled job is assigned to the FIRST matching
+# family, once and only once. These are deliberately broad occupational buckets,
+# not Ontap publishing decisions.
+FAMILY_RULES = [
+    ("Education / Teaching", r"\b(teacher|teaching|lecturer|tutor|school|education|headteacher|head teacher|teaching assistant|learning support|cover supervisor|sen|curriculum|academic)\b"),
+    ("Healthcare / Clinical", r"\b(nurse|nursing|doctor|medical|clinical|pharmac|physio|therapist|radiograph|sonograph|paramedic|dentist|dental|optomet|veterinary|vet nurse|midwi|health visitor|occupational therapist|psycholog|healthcare)\b"),
+    ("Care / Support Work", r"\b(support worker|care assistant|care worker|carer|residential support|home care|domiciliary|support practitioner|care coordinator|care manager|social worker|youth worker)\b"),
+    ("Legal / Conveyancing", r"\b(solicitor|lawyer|legal|conveyanc|paralegal|litigation|barrister|probate|fee earner|legal secretary|legal assistant)\b"),
+    ("Financial Advice / Mortgages", r"\b(mortgage|financial adviser|financial advisor|ifa\b|wealth manager|wealth adviser|wealth advisor|pensions adviser|pensions advisor|paraplanner|financial planner)\b"),
+    ("Professional Finance / Accountancy", r"\b(accountant|accountancy|accounts|finance|financial controller|finance manager|finance director|finance analyst|bookkeep|payroll|purchase ledger|sales ledger|credit control|auditor|audit |tax |taxation|treasury|management accountant)\b"),
+    ("IT / Data / Software", r"\b(software|developer|programmer|devops|cloud|cyber|security engineer|data analyst|data engineer|data scientist|database|network engineer|systems engineer|it support|technical support|service desk|helpdesk|infrastructure|solution architect|solutions architect|business analyst|product manager|scrum|qa engineer|test engineer)\b"),
+    ("Engineering / Technical", r"\b(engineer|engineering|technician|mechanic|maintenance|electrician|electrical|mechanical|cnc|welder|fabricator|fitter|machinist|cad |draught|quality engineer|process engineer|manufacturing engineer|field service|service engineer)\b"),
+    ("Construction / Trades / Property", r"\b(construction|site manager|site supervisor|quantity surveyor|surveyor|estimator|bricklayer|plumber|carpenter|joiner|roofer|painter|decorator|labourer|groundworker|plasterer|property manager|estate agent|lettings|housing officer|facilities manager|building manager)\b"),
+    ("Driving / Warehouse / Logistics", r"\b(driver|driving|hgv|lgv|van driver|delivery driver|courier|warehouse|picker|packer|forklift|flt|logistics|transport planner|transport manager|dispatch|despatch|goods in|goods out|stock controller|distribution)\b"),
+    ("Sales / Business Development", r"\b(sales|business development|account executive|account manager|commercial manager|telesales|tele sales|sales advisor|sales adviser|sales consultant|sales representative|sales rep|bdm\b|new business|inside sales|field sales)\b"),
+    ("Retail / Store", r"\b(retail|store manager|store assistant|shop assistant|shop manager|sales assistant|merchandiser|visual merchandiser|checkout|cashier)\b"),
+    ("Marketing / Digital / Creative", r"\b(marketing|digital|seo\b|ppc\b|social media|content|copywriter|graphic designer|designer|creative|communications|pr manager|public relations|brand manager|campaign manager|ecommerce|e-commerce)\b"),
+    ("HR / Recruitment", r"\b(hr\b|human resources|recruitment|recruiter|talent acquisition|talent partner|people partner|people advisor|people adviser|employee relations|resourcing)\b"),
+    ("Procurement / Buying / Supply Chain", r"\b(procurement|buyer|buying|purchasing|supply chain|category manager|category buyer|materials planner|demand planner|supply planner)\b"),
+    ("Hospitality / Catering", r"\b(chef|cook|catering|restaurant|barista|bartender|bar staff|waiter|waitress|kitchen|hotel|housekeeper|housekeeping|front of house|food and beverage)\b"),
+    ("Operations / General Management", r"\b(operations manager|general manager|branch manager|regional manager|area manager|programme manager|program manager|project manager|project lead|head of operations|operations director|managing director|chief executive|ceo\b|coo\b)\b"),
+    ("Admin / Customer Service", r"\b(admin|administrator|administration|reception|receptionist|secretary|pa\b|personal assistant|office manager|office assistant|coordinator|scheduler|customer service|customer support|contact centre|call centre|call handler|service advisor|service adviser|complaints|business support|clerical)\b"),
+    ("Science / Laboratory", r"\b(scientist|laboratory|laboratory technician|lab technician|chemist|microbiolog|biolog|research scientist|research assistant)\b"),
+    ("Security / Emergency Services", r"\b(security officer|security guard|police|firefighter|fire fighter|prison officer|custody officer|probation officer)\b"),
+]
+
+COMPILED_FAMILY_RULES = [(name, re.compile(pattern, re.IGNORECASE)) for name, pattern in FAMILY_RULES]
 
 
 def norm(value: object) -> str:
@@ -88,6 +112,13 @@ def clue_categories(title_key: str) -> list[str]:
     return found
 
 
+def primary_family(title: str) -> str:
+    for family, rx in COMPILED_FAMILY_RULES:
+        if rx.search(title):
+            return family
+    return "Other / Unclassified"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--input-dir", required=True, type=Path)
@@ -110,15 +141,24 @@ def main() -> int:
     title_counts: Counter[str] = Counter()
     examples: dict[str, str] = {}
     geos: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    family_counts: Counter[str] = Counter()
+    family_geos: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    family_titles: defaultdict[str, Counter[str]] = defaultdict(Counter)
+
     for _, row in df.iterrows():
         raw_title = str(row.get(TITLE_COL, "")).strip()
         key = norm(raw_title)
         if not key:
             continue
+        geo = str(row.get(AREA_COL, "")).strip() or str(row.get(LOCATION_COL, "")).strip() or "Unknown"
         title_counts[key] += 1
         examples.setdefault(key, raw_title)
-        geo = str(row.get(AREA_COL, "")).strip() or str(row.get(LOCATION_COL, "")).strip() or "Unknown"
         geos[key][geo] += 1
+
+        family = primary_family(key)
+        family_counts[family] += 1
+        family_geos[family][geo] += 1
+        family_titles[family][raw_title] += 1
 
     rows = []
     unknown_relevant_jobs = 0
@@ -145,6 +185,7 @@ def main() -> int:
         rows.append({
             "title": examples[key],
             "count_in_latest_feed": count,
+            "primary_broad_family": primary_family(key),
             "status": status,
             "register_matches": "; ".join(matches),
             "selected_categories": "; ".join(selected_matches),
@@ -159,6 +200,10 @@ def main() -> int:
     pd.DataFrame(rows).to_csv(csv_path, index=False, encoding="utf-8-sig")
 
     total_jobs = sum(title_counts.values())
+    reconciled_total = sum(family_counts.values())
+    if reconciled_total != total_jobs:
+        raise SystemExit(f"Family reconciliation failed: {reconciled_total} != {total_jobs}")
+
     known_jobs = sum(r["count_in_latest_feed"] for r in rows if r["status"] == "KNOWN")
     unknown_jobs = total_jobs - known_jobs
     unknown_titles = [r for r in rows if r["status"] == "UNKNOWN"]
@@ -175,7 +220,36 @@ def main() -> int:
         f"Unknown jobs with an existing-category clue: **{unknown_relevant_jobs:,}**",
         f"Jobs in register/refinement conflicts: **{conflict_jobs:,}**",
         "",
-        "## Highest-frequency unknown titles with category clues",
+        "## Exact broad-family reconciliation",
+        "",
+        "Every titled job below is counted once and only once using first-match broad occupational rules. This is a diagnostic inventory map, not a publish recommendation.",
+        "",
+        "| Broad family | Jobs | Share | Top geographies |",
+        "|---|---:|---:|---|",
+    ]
+
+    for family, count in family_counts.most_common():
+        share = (count / total_jobs * 100) if total_jobs else 0
+        top_geo = "; ".join(f"{g} ({n})" for g, n in family_geos[family].most_common(5)).replace("|", "\\|")
+        lines.append(f"| {family} | {count:,} | {share:.1f}% | {top_geo} |")
+
+    lines += [
+        f"| **TOTAL** | **{reconciled_total:,}** | **100.0%** | |",
+        "",
+        "## Top titles inside each broad family",
+        "",
+    ]
+    for family, count in family_counts.most_common():
+        lines.append(f"### {family} — {count:,}")
+        lines.append("")
+        lines.append("| Count | Title |")
+        lines.append("|---:|---|")
+        for title, n in family_titles[family].most_common(12):
+            lines.append(f"| {n} | {title.replace('|', '\\|')} |")
+        lines.append("")
+
+    lines += [
+        "## Highest-frequency unknown titles with existing-category clues",
         "",
         "| Count | Title | Likely category clue | Top geographies |",
         "|---:|---|---|---|",
@@ -206,10 +280,11 @@ def main() -> int:
         "## Interpretation",
         "",
         "This report is diagnostic only. It does not change registers, slice status, reviews, or live job pages.",
-        "Unknown-title clues are deliberately broad prompts for human audit, not automatic classifications.",
+        "The broad-family reconciliation is intentionally exhaustive: the family total must equal the feed total.",
+        "Broad-family keyword assignment is for opportunity discovery; individual titles still need inspection before any new Ontap family is approved.",
     ]
     md_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print("\n".join(lines[:14]))
+    print("\n".join(lines[:32]))
     return 0
 
 
