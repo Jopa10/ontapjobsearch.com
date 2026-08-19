@@ -11,10 +11,14 @@ from review_hub import master_review
 TODAY = date(2026, 8, 17)
 
 
-def item(*, title: str = "Borderline Administrator") -> ReviewItem:
+def item(
+    *,
+    title: str = "Borderline Administrator",
+    source_job_id: str = "abc-123",
+) -> ReviewItem:
     return ReviewItem(
         source="Test Source",
-        source_job_id="abc-123",
+        source_job_id=source_job_id,
         title=title,
         employer="Example Employer",
         location="Leeds",
@@ -23,18 +27,22 @@ def item(*, title: str = "Borderline Administrator") -> ReviewItem:
         salary="£29,000",
         closing_date="2026-08-31",
         reason="borderline classification",
-        source_url="https://example.test/jobs/abc-123",
+        source_url=f"https://example.test/jobs/{source_job_id}",
     )
 
 
 def result(review_item: ReviewItem | None = None) -> SourceResult:
     values = (review_item,) if review_item else ()
+    return result_many(values)
+
+
+def result_many(review_items: tuple[ReviewItem, ...]) -> SourceResult:
     return SourceResult(
         "test",
         "Test Source",
         "OK",
         TODAY.isoformat(),
-        values,
+        review_items,
         publish_workflow="test-publish.yml",
         publish_requires_approval=True,
         shared_publish_after=True,
@@ -65,7 +73,7 @@ def test_master_is_single_editable_surface_with_source_status(tmp_path: Path) ->
     assert "| Stale Source | STALE |" in text
     assert "| NHS Jobs | FUTURE |" in text
     assert "must not be treated as zero inventory" in text
-    assert "stops if any review item is still blank" in text
+    assert "Up to 15 unresolved/bad action rows per source" in text
 
 
 def test_master_ready_banner_ignores_future_sources(tmp_path: Path) -> None:
@@ -123,6 +131,8 @@ def test_apply_validates_current_fingerprint_and_builds_publish_plan(
     assert routed[0].action == "select"
     assert plan["actions"] == 1
     assert plan["complete"] is True
+    assert plan["quarantined"] == 0
+    assert plan["isolated_sources"] == []
     assert plan["publish"] == [
         {
             "source": "test",
@@ -133,27 +143,85 @@ def test_apply_validates_current_fingerprint_and_builds_publish_plan(
     ]
 
 
-def test_publish_gate_refuses_any_blank_review_item(
+def test_up_to_15_blank_actions_are_quarantined_and_source_continues(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    review_items = tuple(item(source_job_id=f"job-{index}") for index in range(15))
+    source = result_many(review_items)
     path = tmp_path / "ontap-daily-review.md"
     path.write_text(
-        master_review.master_text([result(item())], today=TODAY, previous=path),
+        master_review.master_text([source], today=TODAY, previous=path),
         encoding="utf-8",
     )
-    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [result(item())])
+    routed = []
+    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [source])
+    monkeypatch.setattr(master_review, "_route_action", routed.append)
 
-    with pytest.raises(ValueError, match="1 review item.*blank action"):
-        master_review.apply_master(
-            path,
-            today=TODAY,
-            write=False,
-            require_complete=True,
-        )
+    plan = master_review.apply_master(
+        path,
+        today=TODAY,
+        write=True,
+        require_complete=True,
+    )
+
+    assert plan["quarantined"] == 15
+    assert plan["isolated_sources"] == []
+    assert len(routed) == 15
+    assert all(decision.action == "exclude" for decision in routed)
+    assert plan["publish"][0]["source"] == "test"
 
 
-def test_apply_refuses_changed_vacancy(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+def test_more_than_15_blank_actions_isolates_source_not_whole_run(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    review_items = tuple(item(source_job_id=f"job-{index}") for index in range(16))
+    source = result_many(review_items)
+    path = tmp_path / "ontap-daily-review.md"
+    path.write_text(
+        master_review.master_text([source], today=TODAY, previous=path),
+        encoding="utf-8",
+    )
+    routed = []
+    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [source])
+    monkeypatch.setattr(master_review, "_route_action", routed.append)
+
+    plan = master_review.apply_master(
+        path,
+        today=TODAY,
+        write=True,
+        require_complete=True,
+    )
+
+    assert plan["quarantined"] == 0
+    assert plan["isolated_sources"] == ["test"]
+    assert plan["publish"] == []
+    assert routed == []
+
+
+def test_invalid_action_is_treated_as_job_level_quarantine(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    source = result(item())
+    path = tmp_path / "ontap-daily-review.md"
+    text = master_review.master_text([source], today=TODAY, previous=path)
+    path.write_text(text.replace("action:\n", "action: exlcude\n", 1), encoding="utf-8")
+    routed = []
+    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [source])
+    monkeypatch.setattr(master_review, "_route_action", routed.append)
+
+    plan = master_review.apply_master(path, today=TODAY, write=True, require_complete=True)
+
+    assert plan["quarantined"] == 1
+    assert routed[0].action == "exclude"
+
+
+def test_apply_isolates_source_when_vacancy_changed(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
     path = tmp_path / "ontap-daily-review.md"
     text = master_review.master_text([result(item())], today=TODAY, previous=path)
     path.write_text(text.replace("action:\n", "action: exclude\n", 1), encoding="utf-8")
@@ -163,8 +231,9 @@ def test_apply_refuses_changed_vacancy(tmp_path: Path, monkeypatch: pytest.Monke
         lambda today: [result(item(title="Changed after review"))],
     )
 
-    with pytest.raises(ValueError, match="no longer unresolved/current|facts changed"):
-        master_review.apply_master(path, today=TODAY, write=False)
+    plan = master_review.apply_master(path, today=TODAY, write=False)
+    assert plan["isolated_sources"] == ["test"]
+    assert plan["publish"] == []
 
 
 def test_patch_action_changes_only_matching_block(tmp_path: Path) -> None:
