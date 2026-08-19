@@ -46,7 +46,7 @@ jobs:
           set -euo pipefail
           test -s pipeline/reports-daily/daily-region-overview.md
           test -s pipeline/reports-daily/daily-family-coverage.csv
-          unexpected="$(git diff --name-only | awk '$0 != \"pipeline/reports-daily/daily-region-overview.md\"')"
+          unexpected="$(git diff --name-only | grep -v '^pipeline/reports-daily/daily-region-overview.md$' || true)"
           if [ -n "$unexpected" ]; then
             echo "::error::Overview builder changed unexpected files:"
             printf '%s\n' "$unexpected"
