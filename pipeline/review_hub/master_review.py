@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 from datetime import date, datetime
 import json
 from pathlib import Path
@@ -11,6 +12,7 @@ from .adapters import PIPELINE_ROOT, load_all_sources
 from .contracts import ParsedDecision, ReviewItem, SourceResult, VALID_ACTIONS, clean
 
 DEFAULT_MASTER = PIPELINE_ROOT / "reviews/daily/ontap-daily-review.md"
+MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE = 15
 
 
 def _md(value: object) -> str:
@@ -94,7 +96,8 @@ def master_text(
             "- `action: select` = include the vacancy.",
             "- `action: exclude` = reject the vacancy.",
             "- Leave `action:` blank while you are still deciding it.",
-            "- The apply/publish workflow stops if any review item is still blank.",
+            f"- Up to {MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE} unresolved/bad action rows per source are fail-closed at job level: those jobs are withheld and flagged while the rest of that source can continue.",
+            f"- More than {MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE} unresolved/bad action rows in one source isolate that source from the run; they do not block other clean sources.",
             "- Unchanged decisions are remembered by the source pipelines; they should not keep returning here.",
             "- If the vacancy facts change, its fingerprint changes and it must be reviewed again.",
             "",
@@ -224,9 +227,9 @@ def parse_master(path: Path = DEFAULT_MASTER) -> tuple[str, list[ParsedDecision]
             continue
         action = _field(block, "action").casefold()
         if action not in VALID_ACTIONS:
-            raise ValueError(
-                f"invalid action for {source_key}/{source_job_id}: {action!r}"
-            )
+            # Fail closed at job level. A typo such as "exlcude" becomes an
+            # unresolved action and is handled by the quarantine threshold.
+            action = ""
         item = ReviewItem(
             source=_field(block, "source"),
             source_job_id=source_job_id,
@@ -351,18 +354,24 @@ def apply_master(
             f"master review is stale: {review_date}; expected {today.isoformat()}"
         )
 
-    if require_complete:
-        blank = [decision for decision in decisions if not decision.action]
-        if blank:
-            examples = ", ".join(
-                f"{decision.source_key}/{decision.item.source_job_id}"
-                for decision in blank[:6]
-            )
-            suffix = " ..." if len(blank) > 6 else ""
-            raise ValueError(
-                f"{len(blank)} review item(s) still have blank action lines: "
-                f"{examples}{suffix}"
-            )
+    unresolved = [decision for decision in decisions if not decision.action]
+    unresolved_counts = Counter(decision.source_key for decision in unresolved)
+    isolated_sources = {
+        source
+        for source, count in unresolved_counts.items()
+        if count > MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE
+    }
+    quarantined = [
+        decision
+        for decision in unresolved
+        if decision.source_key not in isolated_sources
+    ]
+
+    # `require_complete` now means complete-or-safely-isolated. Up to 15 bad or
+    # unresolved action rows per source are withheld as excludes for this
+    # publication boundary; a larger cluster isolates that source instead of
+    # blocking unrelated inventory.
+    del require_complete
 
     results = load_all_sources(today)
     by_key = {result.key: result for result in results}
@@ -372,37 +381,51 @@ def apply_master(
         if result.state == "OK"
         for item in result.items
     }
-    acted = [decision for decision in decisions if decision.action]
+    acted = [
+        decision
+        for decision in decisions
+        if decision.action and decision.source_key not in isolated_sources
+    ]
     for decision in acted:
         result = by_key.get(decision.source_key)
         if result is None or result.state != "OK":
-            raise ValueError(
-                f"source {decision.source_key} is not current and cannot be applied"
-            )
+            isolated_sources.add(decision.source_key)
+            continue
         key = (
             decision.source_key,
             decision.item.category,
             decision.item.source_job_id,
         )
         live_item = current.get(key)
-        if live_item is None:
-            raise ValueError(
-                f"review item is no longer unresolved/current: {key}"
-            )
-        if decision.fingerprint != live_item.fingerprint():
-            raise ValueError(
-                "vacancy facts changed since review for "
-                f"{decision.source_key}/{decision.item.source_job_id}"
-            )
+        if live_item is None or decision.fingerprint != live_item.fingerprint():
+            isolated_sources.add(decision.source_key)
+
+    if isolated_sources:
+        acted = [d for d in acted if d.source_key not in isolated_sources]
+        quarantined = [d for d in quarantined if d.source_key not in isolated_sources]
+
+    quarantine_excludes = [
+        ParsedDecision(
+            "exclude",
+            decision.source_key,
+            decision.item,
+            decision.fingerprint,
+        )
+        for decision in quarantined
+    ]
 
     if write:
         for decision in acted:
+            _route_action(decision)
+        for decision in quarantine_excludes:
             _route_action(decision)
 
     publish_sources = [
         result
         for result in results
-        if result.state == "OK" and result.publish_workflow
+        if result.state == "OK"
+        and result.publish_workflow
+        and result.key not in isolated_sources
     ]
     plan = {
         "review_date": review_date,
@@ -410,7 +433,18 @@ def apply_master(
         "actions": len(acted),
         "selected": sum(d.action == "select" for d in acted),
         "excluded": sum(d.action == "exclude" for d in acted),
-        "complete": len(acted) == len(decisions),
+        "quarantined": len(quarantine_excludes),
+        "quarantined_jobs": [
+            {
+                "source": decision.source_key,
+                "source_job_id": decision.item.source_job_id,
+                "title": decision.item.title,
+                "reason": "blank or invalid action; withheld fail-closed",
+            }
+            for decision in quarantined
+        ],
+        "isolated_sources": sorted(isolated_sources),
+        "complete": len(unresolved) == 0,
         "publish": [
             {
                 "source": result.key,
