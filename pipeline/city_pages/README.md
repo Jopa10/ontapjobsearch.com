@@ -18,6 +18,22 @@ The common derivation engine is `pipeline/scripts/derive_city_pages.py`. Each ap
 
 The technical register is generated for new approvals and is not the normal human editing surface.
 
+## City-page catchment principle
+
+A city page represents an **approved local employment/commuting catchment anchored on that city**, not necessarily only vacancies whose location text is the exact city name.
+
+The default launch rule is deliberately conservative: begin with the exact city/locality patterns that clearly belong to the market. The catchment may later be expanded to nearby towns, suburbs or districts only where there is a clear real-world employment/commuting relationship and the expansion does not bleed into a separate labour market.
+
+Examples already approved in production:
+
+- Leeds includes Leeds and Pudsey;
+- Newcastle includes Newcastle, Gateshead, North Tyneside, Shiremoor and Wideopen;
+- Brighton & Hove includes Brighton, Hove and Portslade.
+
+New city pages should therefore be thought of as **city-anchored labour-market pages**, not literal string filters. Catchment additions are a governance decision and must be recorded in `city-page-register.json` with include/review/exclude rules.
+
+Broad county or regional labels must never be treated as proof that a vacancy belongs to the anchor city. In particular, `Durham` must not match broad `County Durham` locations for city-page launch purposes unless the stated workplace is actually Durham city or an explicitly approved Durham-city catchment location. The August 2026 Durham candidate remains on hold until this distinction is enforced and its qualifying history is recalculated.
+
 ## Regional opportunity markets
 
 `opportunity-market-register.json` defines the local employment markets to monitor underneath each broad regional slice. A region can have several independent markets: for example North East can monitor Newcastle, Sunderland, Durham and Darlington at the same time; Sussex can monitor Brighton & Hove, Crawley, Horsham, Eastbourne and other local markets independently.
@@ -41,9 +57,9 @@ For the human approval step, edit only the `action:` line in the relevant city b
 - `action: approve` = launch the city page;
 - blank `action:` = hold it.
 
-When that approval file is committed, `pipeline/scripts/manage_city_page_approvals.py` validates the candidate against the current registered market, generates the technical city configuration and route, and the city derivation pipeline writes the live city JSON. Future approved cities use the same generic process; they do not require city-specific code wiring.
+When that approval file is committed, `pipeline/scripts/manage_city_page_approvals.py` validates the candidate against the current registered market, generates the technical city configuration and route, and the city derivation pipeline writes the live city JSON. Future approved cities use the same generic process; they do not require city-specific classification logic.
 
-Newcastle admin and customer-service jobs is the first active city page. Its launch threshold is six jobs.
+As of 19 August 2026 the newly approved Service Admin city pages are Bradford, Huddersfield, York, Barnsley and Doncaster. Their initial launch catchments are exact-city only. Durham is explicitly held pending the County Durham safeguard and a fresh qualifying-history check.
 
 ## Permanent-page rule
 
