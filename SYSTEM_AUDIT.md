@@ -1,7 +1,7 @@
 # Ontap System Audit
 
 **Audit started:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 implemented on branch `chore/architecture-cleanup-1-5` and awaiting PR validation/merge.
+**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211.
 
 The audit conclusion remains: **preserve the working core; remove historical scaffolding; consolidate duplicated mechanics; do not refactor for technical tidiness alone.**
 
@@ -33,7 +33,7 @@ Business priority wins over technical neatness. Website routes and public URLs a
 
 ## Agreed cleanup 1–5
 
-### 1. Workflow hygiene — implemented on branch
+### 1. Workflow hygiene — merged
 
 Removed confirmed one-shot/delivery-specific workflows from the working tree:
 
@@ -47,11 +47,11 @@ Removed confirmed one-shot/delivery-specific workflows from the working tree:
 
 These were explicitly dated/self-triggering/one-time mechanisms. Git history retains them if historical inspection is ever needed.
 
-### 2. Documentation fix — implemented on branch
+### 2. Documentation fix — merged
 
 `pipeline/README.md` has been rewritten around the actual current operating model and now points to the canonical governance files. It no longer describes the dated May monolithic script as the current stable pipeline.
 
-### 3. Shared current JobG8 materialisation — implemented on branch
+### 3. Shared current JobG8 materialisation — merged
 
 Added:
 
@@ -62,7 +62,7 @@ NEJobs and VONNE review/publish workflows now call that shared helper rather tha
 
 The main JobG8 production workflow remains the canonical production ingest owner. This cleanup deliberately reduces duplicated external-source materialisation without rewriting the working main ingest path.
 
-### 4. Superseded standalone paths — implemented on branch
+### 4. Superseded standalone paths — merged
 
 Removed after reference checks:
 
@@ -72,7 +72,7 @@ Removed after reference checks:
 
 The current full/reviewed JobG8 workflows remain the canonical category-processing paths. Tests that previously asserted the old standalone service-admin workflow now assert the canonical daily workflow instead.
 
-### 5. Report lifecycle cleanup — implemented conservatively on branch
+### 5. Report lifecycle cleanup — merged conservatively
 
 Removed confirmed dated one-off diagnostic files from `pipeline/reports-daily/`:
 
@@ -102,16 +102,10 @@ The verified scalable mechanism for future expansion remains:
 
 That does **not** create a business case for changing established routes by itself.
 
-## Validation gate
+## Merge state
 
-Before merge:
+Architecture cleanup 1–5 was merged into `main` via PR #211 on 19 August 2026. The audit should therefore be read against the cleaned architecture now present on `main`, not against the former feature branch state.
 
-1. inspect the branch diff for scope creep;
-2. run/inspect PR checks;
-3. confirm workflow/reference tests pass;
-4. confirm no website route or live job JSON changes are included;
-5. merge only after the branch is clean.
+## Current production repository state
 
-## Production impact before merge
-
-None. All cleanup changes above are isolated on `chore/architecture-cleanup-1-5` until the PR is reviewed and merged.
+The cleanup changes are now part of `main`. The merged PR was deliberately scoped away from website/public-route changes, live job JSON changes, selection-rule rewrites and Google Indexing API changes.
