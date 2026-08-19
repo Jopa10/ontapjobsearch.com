@@ -4,9 +4,9 @@
 > All active sources are current for 2026-08-19. You can start reviewing.
 
 review_date: 2026-08-19
-generated_at: 2026-08-19T15:26:10+00:00
+generated_at: 2026-08-19T15:52:58+00:00
 
-**29 job(s) need a human decision.**
+**25 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -20,85 +20,15 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-19 | 4 | — |
+| JobG8 | OK | 2026-08-19 | 0 | — |
 | NEJobs | OK | 2026-08-19 | 0 | — |
 | VONNE | OK | 2026-08-19 | 1 | — |
 | Teaching Vacancies | OK | 2026-08-19 | 24 | — |
 | NHS Jobs | FUTURE | — | 0 | adapter reserved; enable when NHS ingestion/review output is live |
 
-## JobG8 — 4 to review
+## JobG8 — 0 to review
 
----
-action: select
-POSS | JobG8 | Bristol & Bath | Bristol | £15.83 - £17.95 per hour ((DOE)) | Finance & P2P Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107863384
-title: Finance & P2P Coordinator
-employer: 
-location: Bristol
-region: Bristol & Bath
-salary: £15.83 - £17.95 per hour ((DOE))
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 49c8686b7e7bbab7489f642146287b85797502c6b6745f996b84fc8082da3740
----
-
----
-action: exclude
-POSS | JobG8 | London | London | £22.78 per hour | Voids Administrator £22.78ph Southwark
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225510823
-title: Voids Administrator £22.78ph Southwark
-employer: 
-location: London
-region: London
-salary: £22.78 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ac46c4870bb812621b2ce44359e95ea601ed0b57b9b5a79755bbdbd283a3db46
----
-
----
-action: exclude
-POSS | JobG8 | Sussex | Sussex | £35000 - £45000 per year | Paraplanner
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: e49388ec-f35c-47c0-9694-51d60279812f
-title: Paraplanner
-employer: 
-location: Sussex
-region: Sussex
-salary: £35000 - £45000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: af49338f4da3a2ba2b3f4aa6fd26dc39a3602d21c4ea886d5a962499270a8386
----
-
----
-action: exclude
-POSS | JobG8 | Yorkshire - North | York | £270 - £450 per daily | Interim Assistant Company Secretary/ Co-Sec Consultant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 8dda51f6-2fab-4c90-b591-83c818915198
-title: Interim Assistant Company Secretary/ Co-Sec Consultant
-employer: 
-location: York
-region: Yorkshire - North
-salary: £270 - £450 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 02b32db518fc6ac80bca76fac23a2aff01abcd5cff2882069f6adf9dc339b4a5
----
+_No new or changed human decisions required._
 
 ## NEJobs — 0 to review
 
