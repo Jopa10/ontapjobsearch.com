@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,958
-total rows dropped,9036
+total rows included,959
+total rows dropped,9039
 title classification count - HIGH_CONFIDENCE,1214
 title classification count - ELASTIC_FIT,454
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -88,13 +88,13 @@ other elastic count - Berkshire,5
 total rows output - Berkshire,37
 job_id included - Berkshire,23643_225445884; 23643_225474975; 23643_225493604; 4dc34be1-d91b-4906-a791-21d9596136a2; 5f397ecd-f573-477c-bd12-80c082b2389b; 23643_225433817; 23643_225437095; 23643_225462648; fb041691-0d31-40d1-88ad-373066bbad8d; 1bab4f68-302c-4d64-861c-37c4ec78fc63; 57c09aa3-10d6-4ef7-94bb-9e2981c9f002; e12e3556-f2a6-4520-a95f-3257ce75db72; 23643_225400384; 23643_225412809; 23643_225411716; 23643_225418084; c3b961bb-3f4e-46d7-8c99-f3b37331ae44; 50feb013-4519-4de8-9564-9c3c27b38bc4; 23643_225431869; 23643_225433564; 23643_225448055; 23643_225451460; 1b2a5d3a-abce-46d0-b6a8-62e7c646f1b2; 459e2691-127e-473d-93eb-a13b6b87a687; 1663144; 17bc160d-ee2b-4a39-b768-3f7f19afe16b; 7b25c6a2-6d09-4ca4-a7b7-806527a71924; 2a7361cc-c431-4bc7-b960-6f3946a1c3c9; 42e70a2c-0c22-4a8e-86c3-6e992dc748fb; 4fdbf2c6-e0d2-4e84-80e4-fcbe0929eba3; 20179531-accc-469d-9bc0-08788bd1a53c; 23643_225508886; 23643_225416106; 23643_225223268; 23643_225455907; da48f93a-8393-482d-bde7-d6542c6110dc; 23643_225472204
 selection scenario - Bristol & Bath,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Bristol & Bath,Bristol & Bath manual_select applied additively: 7 row(s) prioritised; 29 selected.
-credible total - Bristol & Bath,29
+selection message - Bristol & Bath,Bristol & Bath manual_select applied additively: 8 row(s) prioritised; 30 selected.
+credible total - Bristol & Bath,30
 high confidence count - Bristol & Bath,14
 anchor elastic count - Bristol & Bath,6
 other elastic count - Bristol & Bath,2
-total rows output - Bristol & Bath,29
-job_id included - Bristol & Bath,23643_225414171; 2cb3ac11-5022-46e9-b4dc-2fbc15d22788; 23643_225104066; f808eb78-0ba8-45ef-87f9-115fc9d8628b; c8cbeea8-ab73-415e-a82c-d6e53a413388; 23643_225467962; 4ccc09e9-cbe7-47d7-b96e-bdb3c56b9a8c; 23643_222234812; 23643_225419388; 9d976f21-718e-41f6-b324-b87cb036c9ae; 23643_225425172; 23643_225456677; 23643_225466068; 23643_225469737; 6a3c4b7c-b1b0-441d-97bd-b7474fbc29f9; f5285550-3e15-4dc5-8366-913418b85201; ec746fa0-3f32-402e-a228-ade32c229251; cd448628-3a6c-4228-84a6-ead526564490; 43c28539-e6a0-4522-8b66-5a97638bff0b; 23643_225510538; 23643_225408956; 23643_225436357; 23643_225475414; f41faabb-d30e-45e9-92c2-7108caf061a1; 82b3a06c-5702-4c1b-8613-cbd287b5460a; e925c689-6ead-4589-8b82-a3090b6f8f89; 23643_225505515; 107793815; b6910623-60e6-48ec-8808-a3af05e67a6f
+total rows output - Bristol & Bath,30
+job_id included - Bristol & Bath,23643_225414171; 2cb3ac11-5022-46e9-b4dc-2fbc15d22788; 23643_225104066; f808eb78-0ba8-45ef-87f9-115fc9d8628b; c8cbeea8-ab73-415e-a82c-d6e53a413388; 23643_225467962; 4ccc09e9-cbe7-47d7-b96e-bdb3c56b9a8c; 107863384; 23643_222234812; 23643_225419388; 9d976f21-718e-41f6-b324-b87cb036c9ae; 23643_225425172; 23643_225456677; 23643_225466068; 23643_225469737; 6a3c4b7c-b1b0-441d-97bd-b7474fbc29f9; f5285550-3e15-4dc5-8366-913418b85201; ec746fa0-3f32-402e-a228-ade32c229251; cd448628-3a6c-4228-84a6-ead526564490; 43c28539-e6a0-4522-8b66-5a97638bff0b; 23643_225510538; 23643_225408956; 23643_225436357; 23643_225475414; f41faabb-d30e-45e9-92c2-7108caf061a1; 82b3a06c-5702-4c1b-8613-cbd287b5460a; e925c689-6ead-4589-8b82-a3090b6f8f89; 23643_225505515; 107793815; b6910623-60e6-48ec-8808-a3af05e67a6f
 selection scenario - Cambridgeshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Cambridgeshire,Cambridgeshire manual_select applied additively: 12 row(s) prioritised; 30 selected.
 credible total - Cambridgeshire,30

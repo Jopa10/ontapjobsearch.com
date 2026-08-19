@@ -6,9 +6,21 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 79
+remembered_exclusions: 82
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Voids Administrator £22.78ph Southwark
+employer: Diamond Blaque HR Solutions
+region: 
+town: London
+salary: 
+job_id: 23643_225510823
+---
 
 ---
 action:
@@ -50,12 +62,36 @@ job_id: 23643_225401314
 action:
 category: service_admin
 excluded_on: 2026-08-19
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Sussex
+salary: 
+job_id: e49388ec-f35c-47c0-9694-51d60279812f
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
 title: PART TIME - Administrator
 employer: Select Engineering
 region: 
 town: Essex
 salary: 
 job_id: 23643_225401223
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Interim Assistant Company Secretary/ Co-Sec Consultant
+employer: Michael Page Legal
+region: 
+town: Yorkshire
+salary: 
+job_id: 8dda51f6-2fab-4c90-b591-83c818915198
 ---
 
 ---
