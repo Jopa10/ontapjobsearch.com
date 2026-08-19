@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-18
+feed_date: 2026-08-19
 
 Edit only the `action:` line in each block:
 
@@ -15,12 +15,6 @@ Edit only the `action:` line in each block:
 action:
 SELECTED | Yorkshire - West | Dewsbury | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104910
----
-
----
-action:
-SELECTED | Yorkshire - West | Holmfirth | £29350 per year | Complex care assistant
-job_id: 107651994
 ---
 
 ---
@@ -97,12 +91,6 @@ job_id: 297c50e3-fd32-4f29-9de1-936c53932177
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225477168
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.45 per hour | Enabling Support Worker
 job_id: 0d92fe0d-a663-4737-8a15-e07bad60e5fe
 ---
@@ -117,12 +105,6 @@ job_id: 6b804bc2-d778-42ed-bf1b-d3ec78422d8a
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £13.15 per hour | Support Worker
-job_id: cc359452-7885-406f-b982-9931f062cd19
----
-
----
-action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Hartlepool | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104883-1
 ---
@@ -131,12 +113,6 @@ job_id: 25362_JR104883-1
 action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR104883-1-1908a03149bfe006218cbce2dd812797
----
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Peterlee | £14.8 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225483894
 ---
 
 ---
@@ -154,12 +130,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Chichester | £13.21 per hour | Care Assistant - Care Home
-job_id: b045cd0a-82e7-4208-8161-9940e9e8f7c7
----
 
 ---
 action:
@@ -217,15 +187,13 @@ job_id: 23643_222307132
 
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
-
-## CUMBRIA SOUTH — SELECTED
-
 ---
 action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107800894
+POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
+job_id: 107658496
 ---
+
+## CUMBRIA SOUTH — SELECTED
 
 ---
 action:
@@ -243,12 +211,6 @@ job_id: 25362_JR104952
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Relief Support Worker
 job_id: 107812778
----
-
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 107827128
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -289,18 +251,6 @@ job_id: 1401784261
 
 ---
 action:
-SELECTED | Hampshire | Havant | £27780 - £30564 per year | Support Worker
-job_id: 1401784321
----
-
----
-action:
-SELECTED | Hampshire | Alton | £14 - £15 per hour (Excellent Pay) | Domiciliary Care Assistant
-job_id: 107332363
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £16,830 per annum | Waking Night Support Worker
 job_id: 1642087
 ---
@@ -309,12 +259,6 @@ job_id: 1642087
 action:
 SELECTED | Hampshire | Southampton | £25,947 per annum | Care and Support Worker
 job_id: 1642086
----
-
----
-action:
-SELECTED | Hampshire | Ventnor | £10000 per year | Care Worker
-job_id: 107796981
 ---
 
 ---
@@ -357,6 +301,12 @@ job_id: 1401784493
 action:
 SELECTED | Hampshire | Alton | £25186 - £26244 per year | Day Opportunities Support Worker
 job_id: 1401784594
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Night Care Assistant (Adults)
+job_id: 1401784687
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -411,12 +361,6 @@ job_id: 23643_225476071
 action:
 SELECTED | London | London | £12.82 per hour | Care Assistant
 job_id: 23643_223283749
----
-
----
-action:
-SELECTED | London | Hornchurch | £12.75 per hour | Support Worker
-job_id: feafdbff-feab-46b2-9f5e-426a6897dd2e
 ---
 
 ---
@@ -525,6 +469,12 @@ job_id: 768f67eb-5423-47b5-92bb-1d2d9d7a86da
 action:
 SELECTED | Surrey | Farnham | £13 per hour | Specialist Academic Support Worker
 job_id: cbf60a64-5151-4b7d-aea4-673061351d55
+---
+
+---
+action:
+SELECTED | Surrey | Addlestone | £28687 - £32786 per year ((FTE)) | Family Support Worker
+job_id: 328187
 ---
 
 ## SURREY — POSSIBLES
