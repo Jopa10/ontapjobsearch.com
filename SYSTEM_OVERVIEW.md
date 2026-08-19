@@ -7,8 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 19 August 2026 — Replaced the Vercel deploy-hook mechanism after it accepted jobs as `PENDING` without creating deployments. `Deploy Ontap production after publish` now deploys the checked-out current `main` directly with the Vercel CLI using the `VERCEL_TOKEN` repository secret, then verifies the live deployment SHA.
 - 19 August 2026 — Homepage browse ordering now shows regional slices before city pages, so the first impression reflects Ontap's broader job coverage while retaining city pages as a secondary local layer.
-- 19 August 2026 — Replaced reliance on Vercel noticing Git pushes with an explicit post-publish deploy path: successful `Publish verified pages` completion automatically runs `Deploy Ontap production after publish`, POSTs the `VERCEL_DEPLOY_HOOK_URL` secret, then verifies the live deployment SHA. A stale/failed deployment raises or updates the GitHub Issue **Ontap production deployment is stale**; a later healthy run closes it.
 - 19 August 2026 — Added a separate **4-job homepage visibility floor** for active city pages. City routes remain permanent below four jobs; only the homepage card is hidden until supply returns to 4+.
 - 19 August 2026 — Approved five further Service Admin city pages: **Bradford, Huddersfield, York, Barnsley and Doncaster**. Initial catchments are exact-city only. Active city pages are permanent once launched.
 - 19 August 2026 — Made the city-page geography rule explicit: a city page represents a **city-anchored local employment/commuting catchment**, not simply an exact city-name string. Nearby towns/suburbs may be added only when they genuinely belong to the same labour market and the decision is recorded in the city-page register.
@@ -96,12 +96,12 @@ Core controls are:
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator;
 - final verified-page publishing including city-page derivation/maintenance;
-- explicit post-publish Vercel deploy-hook execution and live SHA verification;
+- explicit post-publish Vercel CLI production deployment and live SHA verification;
 - Google indexing and operational monitoring.
 
-A successful `Publish verified pages` run automatically triggers `.github/workflows/deploy-vercel-after-publish.yml`. That workflow checks out current `main`, captures the expected SHA, POSTs the repository secret `VERCEL_DEPLOY_HOOK_URL`, and polls `https://www.ontapjobsearch.com/api/deployment-version` until production contains that commit or a newer descendant on `main`.
+A successful `Publish verified pages` run automatically triggers `.github/workflows/deploy-vercel-after-publish.yml`. That workflow checks out current `main`, captures the expected SHA, uses the repository secret `VERCEL_TOKEN` with the fixed Ontap Vercel organisation/project IDs, pulls the production project settings, builds with the Vercel CLI, deploys the prebuilt output to production, and polls `https://www.ontapjobsearch.com/api/deployment-version` until production contains that commit or a newer descendant on `main`.
 
-This deploy-hook path is canonical because normal Git→Vercel automatic deployment proved intermittently unreliable. The Git integration may still deploy normally, but production publication must not depend on it noticing a push. If the hook or live-SHA verification fails, the child workflow raises/updates the GitHub Issue **Ontap production deployment is stale**; a later healthy run closes it.
+The CLI path is canonical because both normal Git→Vercel automatic deployment and the subsequent Deploy Hook path proved unreliable: the hook could return a real `PENDING` Vercel job without ever creating a deployment. Production publication therefore no longer depends on either Git auto-detection or Deploy Hooks. If the CLI deployment or live-SHA verification fails, the workflow raises/updates the GitHub Issue **Ontap production deployment is stale**; a later healthy run closes it.
 
 The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting.
 
