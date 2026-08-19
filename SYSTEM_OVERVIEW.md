@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 19 August 2026 — Made NEJobs fail-soft in the owner publish workflow: an NEJobs publisher failure now keeps the last approved NEJobs snapshot, raises a workflow warning and lets the other clean sources continue publishing.
 - 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; the cleanup is now part of the canonical production repository state.
 - 19 August 2026 — Implemented the agreed cleanup: removed proven one-off/recovery workflows, fixed stale pipeline documentation, shared the repeated JobG8 materialisation used by NEJobs/VONNE, retired superseded standalone category workflows/old May script, and removed dated one-off diagnostics.
 - 19 August 2026 — Made the business-priority rule explicit: Ontap is not refactored for technical neatness alone.
@@ -17,6 +18,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 The working core is being preserved.
 
 The main JobG8 process remains the production ingest/process path. NEJobs, VONNE and Teaching Vacancies retain their review paths. After review, the single **Apply and publish Ontap daily review** workflow coordinates source publishers and the final verified-page publish.
+
+NEJobs is now deliberately non-blocking at this stage: if its publisher fails, Ontap retains the last approved NEJobs snapshot, flags the failure in the workflow and continues publishing the other clean sources.
 
 The cleanup removes surrounding duplication rather than redesigning selection logic. NEJobs and VONNE now share one tested current-JobG8 materialisation helper instead of carrying repeated feed-download/conversion blocks.
 
@@ -53,6 +56,8 @@ The operational controls are becoming clearer:
 - one owner-facing apply/publish orchestrator;
 - final verified-page publishing;
 - Google indexing and operational monitoring.
+
+NEJobs is a supplementary source and cannot block the wider Ontap publish. Its last approved snapshot stays live on failure while other clean sources continue.
 
 Proven one-shot/recovery workflows have been removed. Specialist analysis and genuine experiments remain where there is not enough evidence to call them obsolete.
 
