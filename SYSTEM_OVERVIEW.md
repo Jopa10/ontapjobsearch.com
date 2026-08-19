@@ -1,54 +1,71 @@
 # Ontap System Overview
 
 **Last updated:** 19 August 2026  
-**Status:** Audit in progress; main live paths now partly verified.
+**Status:** First architecture audit complete; target shape ready for owner review.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
-- 19 August 2026 — Verified the main JobG8 daily workflow, daily review, external-source review schedules and Google Indexing API path. Detailed classification is being recorded in `SYSTEM_AUDIT.md`.
+- 19 August 2026 — Completed the first architecture audit. The conclusion is to preserve the working core, simplify the surrounding workflows/reports, and make the true operational entry points obvious rather than rewrite the pipeline.
+- 19 August 2026 — Verified the main JobG8 workflow, master review/publish orchestration, external-source review/publish paths, website job-data path and Google Indexing API.
 - 19 August 2026 — Added the first repo-level governance and canonical system records.
 
 ## 1. Pipeline
 
-**What is definitely live:** there is now a clear main JobG8 workflow. It downloads the feed twice daily, validates it, runs the live category/slice processing, reattaches approved external-source jobs, enriches them and writes the daily outputs/reports.
+The working core is credible and should be preserved.
 
-**What needs fixing:** the pipeline area has accumulated many folders and older mechanisms. The existing pipeline README is already stale: it points to an old May pipeline script as the current stable version even though the scheduled production workflow uses newer modular scripts. Nothing is being deleted until references are checked.
+The main JobG8 process runs twice daily. NEJobs, VONNE and Teaching Vacancies have separate review paths. After review, one master **Apply and publish Ontap daily review** workflow coordinates the source-specific publishers and the final verified-page publish.
+
+The main cleanup opportunity is around that core: duplicated JobG8 download/materialisation logic, older standalone category workflows, stale documentation and historical scaffolding.
+
+**Recommendation:** simplify around the current working contracts; do not rewrite the selection pipeline.
 
 ## 2. Reports / diagnostics
 
-**What is definitely live:** the main JobG8 workflow produces daily reports, and a separate daily owner review is generated and emailed each morning.
+Routine operational reporting is real and useful, especially `pipeline/reports-daily/` and the single daily owner review.
 
-**What needs fixing:** reports currently live across several differently named report folders. We need to identify which are permanent, which are specialist diagnostics and which can be archived or consolidated.
+Compiler Modules 1/2/3 are also legitimate specialist analysis tools. They should simply be kept visibly separate from routine production workflows/reports.
+
+The target is three obvious lifecycles: **daily operations / specialist analysis / archive or one-off diagnostics**.
 
 ## 3. Website / UX
 
-**What is definitely present:** the live app is organised under `app/`, with shared components under `components/`. The app tree contains core job-search routes alongside many regional/city routes.
+The website already has a scalable direction.
 
-**What still needs audit:** whether those regional/city areas are cleanly template-driven or contain duplicated page logic.
+Published job JSON under `app/` feeds the job/search/detail layer. Newer region/category slices are driven by the slice register and job-slice catalog through the dynamic `/job-search/...` mechanism rather than requiring a bespoke new page every time.
+
+**Recommendation:** use that dynamic mechanism for future expansion. Existing static pages should only be rationalised later, after SEO and user-facing dependencies are checked.
 
 ## 4. Content / positioning
 
-Still to audit. Only persistent content that forms part of how the product works belongs in the canonical system record; temporary social/campaign copy does not.
+No content-architecture cleanup is recommended from this audit. Persistent product content belongs in the canonical system only where it materially affects how Ontap works.
 
 ## 5. Operations / infrastructure
 
-**Confirmed scheduled operations:**
+The important operational workflows are now identifiable:
 
-- NEJobs review — daily.
-- VONNE review — daily.
-- Teaching Vacancies regional/master review — daily.
-- Main JobG8 process — twice daily.
-- Ontap owner daily review — daily.
-- Google Indexing API — daily at 19:30.
+- source refresh/review;
+- one master daily review;
+- one owner-facing apply/publish orchestrator;
+- final verified-page publishing;
+- Google indexing and operational monitoring.
 
-**Confirmed concern:** GitHub Actions currently mixes genuine operational workflows with many test/fix/recovery/observer/one-off workflows. That is one of the clearest sources of system bloat and will be fully classified before anything is removed.
+GitHub Actions still contains dated fix/recovery/observer workflows, experiments and older standalone routes alongside these real controls. Those are the clearest cleanup candidates.
 
-The Google Indexing API workflow is confirmed live and includes the 200-notification limit plus automatic GitHub Issue alerts for backlog/failure conditions.
+The Google Indexing API remains a confirmed live path with the 200-notification safety limit and automatic GitHub Issue alerting.
 
-## Owner rule of thumb
+## Proposed cleanup order
 
-A persistent change to how Ontap works should appear in the relevant section of the canonical record. Small cosmetic/wording changes and one-off analysis should not create documentation noise.
+1. workflow hygiene — remove/archive proven one-shot repair scaffolding;
+2. fix the stale pipeline README;
+3. consolidate duplicated JobG8 materialisation/download logic;
+4. retire superseded standalone category workflows only after final coverage checks;
+5. rationalise report lifecycles;
+6. leave website/static-route cleanup until last because it carries the most SEO/user-facing risk.
+
+## Owner decision point
+
+The audit is now complete enough to move from **audit** to **agree target shape**. No production refactor has been carried out yet.
 
 The aim remains: a new agent or developer should be able to understand the current system from the repository without needing old ChatGPT or Codex conversations.
