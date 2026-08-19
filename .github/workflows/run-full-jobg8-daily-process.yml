@@ -177,6 +177,27 @@ jobs:
           test -s pipeline/output-support-worker/hampshire-support-worker.json
           test -s pipeline/output-support-worker/london-support-worker.json
 
+      - name: Assess Service Admin and Support Worker across all 33 regions
+        working-directory: pipeline
+        run: python -m scripts.assess_daily_family_coverage
+
+      - name: Verify 33-region family coverage
+        run: |
+          set -euo pipefail
+          test -s pipeline/reports-daily/daily-family-coverage.csv
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          path = Path('pipeline/reports-daily/daily-family-coverage.csv')
+          with path.open(encoding='utf-8-sig', newline='') as handle:
+              rows = list(csv.DictReader(handle))
+          assert len(rows) == 66, f'expected 66 family coverage rows, found {len(rows)}'
+          pairs = {(row['region'], row['family']) for row in rows}
+          assert len(pairs) == 66, f'expected 66 unique region/family pairs, found {len(pairs)}'
+          assert {row['family'] for row in rows} == {'service_admin', 'support_worker'}
+          print('Verified 33 regions x 2 families')
+          PY
+
       - name: Test persistent review and exclusion behavior
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_persistent_jobg8_review.py' -v
@@ -209,7 +230,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$unexpected_files"
