@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-08-17
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 5a8742afa17e761fce3bfbab521623642626468c17b849f9e69029f3c67be472
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Lancashire - East | Blackburn, North West, BB2 6LX | £25,583 to £26,828, | Office Administrator
+employer: Wensley Fold CofE Primary Academy
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 8edac9b18f3e6ddc451fa738329b881f52a412df83dcaaf73d3081cf524b07b3
+source: Teaching Vacancies
+source_job_id: office-administrator-wensley-fold-cofe-primary-academy-blackburn-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-wensley-fold-cofe-primary-academy-blackburn-lancashire
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

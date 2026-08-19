@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-08-17
+review_date: 2026-08-19
 review_fingerprint: b13db6d8078ce71185740f26fb6f4b7300623bf8e57803775f203f29393a2ae2
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -49,6 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-fel
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-f37ef22b-1633-4cb2-88b2-50a15505e865) — Insufficient admin/service evidence.
 - [Compliance Senior Lead](https://teaching-vacancies.service.gov.uk/jobs/compliance-senior-lead-eastern-education-group-trust) — Insufficient admin/service evidence.
 - [FOHR Admin](https://teaching-vacancies.service.gov.uk/jobs/fohr-admin-raedwald-trust) — Insufficient admin/service evidence.
+- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-asset-education) — Manager title salary ceiling £35,412 is not below £28,000.
 
 ## Safety boundary
 

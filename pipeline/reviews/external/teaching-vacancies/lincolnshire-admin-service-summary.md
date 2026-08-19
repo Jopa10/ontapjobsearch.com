@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-08-17
-review_fingerprint: c8fc067628ec3252bf888b8e963f842d23550b7ba5cf13776ea489cad472dd4a
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 614adf868307795f660950b08abaed46e72b9d048948d5edfa4073c391386a7f
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 2
+- Records: 15
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN32 8JH | £24,796.00 - £24,796.00 Annually (FTE) NJC3 : 7.30am-3.30pm Mon-Th : 7.30am-3.00pm Fri - Term Time Only | Academy Administrator
+employer: Havelock Academy
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 54732863d13e6ab1351bf1bc6a9ad47a7072955474805790845e44fb1fd3dd7a
+source: Teaching Vacancies
+source_job_id: academy-administrator-havelock-academy-grimsby-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-havelock-academy-grimsby-lincolnshire
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: dd6e18981374ecf61ac2e16e9ca32d47303713a4efcdb7546013004d2b6
 source: Teaching Vacancies
 source_job_id: administration-assistant-receptionist-newton-bridge-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-newton-bridge-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE21 7RZ | £21,362.70 - £22,390.52 Annually (Actual) | Assistant Administrator
+employer: St Thomas CofE Primary Academy
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 9a9c646b13ddf6ac455156904f9f5bd223fd3eb3ffac61a7ad4c6dab887eebf9
+source: Teaching Vacancies
+source_job_id: assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
+source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
 ---
 
 ---
@@ -105,6 +135,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 ## HARD_PASS
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
+- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school) — Missing salary or pay scale.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.
 - [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-ba6d2874-69fc-46df-b1a8-320f20cae17b) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambridge-park-academy-grimsby-north-east-lincolnshire) — Manager title salary ceiling £32,061 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-08-17
+review_date: 2026-08-19
 review_fingerprint: d1b208c29b009b38a91ad49c36d5523b013c65f2f0017cfe5bb23f169d38b7e9
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -47,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 ## HARD_PASS
 
 - [Exams Access Arrangements (EAA) Assessor](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-eaa-assessor) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-cuthbert-s-roman-catholic-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

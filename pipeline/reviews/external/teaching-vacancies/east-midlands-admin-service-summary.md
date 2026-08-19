@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-08-17
+review_date: 2026-08-19
 review_fingerprint: 4d55a01728d09582c85ba7f4423dade11ffd73faf05018f41507743e1351fbb9
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0873411c
 
 ## HARD_PASS
 
+- [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-mowbray-education-trust-limited-melton-mowbray-not-recorded) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Blackpool & Fylde
 
-review_date: 2026-08-17
-review_fingerprint: 12f783513913ee5ca812dc19da1be979680261d957782afb8f2d2c6169af193a
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Lancashire - Blackpool & Fylde | Blackpool, North West, FY4 3JZ | £25,989 to £26,403 per annum (Pro Rata £23,500.40 to £23,874.76 per annum) | Business Support Assistant - Reception
-employer: Highfield Leadership Academy
-closing_date: 2026-08-18T23:59:00+01:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: f27cf81c68b59b7c907746167f090f0496f9b5bccc95b5db6ac8049641107179
-source: Teaching Vacancies
-source_job_id: business-support-assistant-reception-da0fcfb8-6b98-47f2-a156-f71d5ecc497e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-reception-da0fcfb8-6b98-47f2-a156-f71d5ecc497e
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

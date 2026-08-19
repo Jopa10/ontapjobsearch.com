@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-17
+review_date: 2026-08-19
 review_fingerprint: 241f3d7bb9ff8befd198736703dff397e0e3f7f4f343b5123b9b26d22f2df7a6
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,9 +14,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 22
-- Selected: 11
-- POSS awaiting decision: 0
-- Excluded: 1
+- Selected: 9
+- POSS awaiting decision: 3
+- Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
@@ -49,21 +49,6 @@ factual_fingerprint: fbfa259eeba745314df1c2250a6db33d9fbc8dc1851473ed9a63f1a2e97
 source: Teaching Vacancies
 source_job_id: general-administrator-with-silent-study-supervisor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-with-silent-study-supervisor
----
-
----
-action: select
-SELECTED | Berkshire | Reading, RG6 1EY | £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age. | HR Level 3 Apprenticeship
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e0008954a
-source: Teaching Vacancies
-source_job_id: hr-level-3-apprenticeship
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship
 ---
 
 ---
@@ -142,21 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 ---
 
 ---
-action: select
-SELECTED | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
-source: Teaching Vacancies
-source_job_id: tkat-hr-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
----
-
----
 action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274 - £22,957 - | Welfare Assistant & Administrator
 employer: James Elliman Academy
@@ -188,13 +158,39 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
-
-## EXCLUDED BY REVIEW
+---
+action: 
+POSS | Berkshire | Reading, RG6 1EY | £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age. | HR Level 3 Apprenticeship
+employer: The Keys Academy Trust
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e0008954a
+source: Teaching Vacancies
+source_job_id: hr-level-3-apprenticeship
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship
+---
 
 ---
-action: exclude
-EXCLUDED | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
+action: 
+POSS | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
+employer: The Keys Academy Trust
+closing_date: 2026-08-20T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
+source: Teaching Vacancies
+source_job_id: tkat-hr-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
+---
+
+---
+action: 
+POSS | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
 employer: The Keys Academy Trust
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Borderline school administration title: governance professional
@@ -206,6 +202,10 @@ source: Teaching Vacancies
 source_job_id: trust-governance-professional-the-keys-academy-trust-reading-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-professional-the-keys-academy-trust-reading-not-recorded
 ---
+
+## EXCLUDED BY REVIEW
+
+- None.
 
 ## HARD_PASS
 

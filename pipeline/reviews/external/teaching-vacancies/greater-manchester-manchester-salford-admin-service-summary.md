@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-08-17
-review_fingerprint: 16c663554a8b5e0a8fa4f19d6c66380496088724260d462fc2e54100f72f9edf
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 3
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
----
-action: select
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £26,282.00 - £28,993.00 Annually (Actual) NJC Grade 5, Points 13 - 19 | Marketing and Communications Officer
-employer: Whalley Range 11-18 High School
-closing_date: 2026-08-17T23:59:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4acd058aa8984213607952385d1e5a4e93935208e5dd04095ecf5f62c3155eee
-source: Teaching Vacancies
-source_job_id: marketing-and-communications-officer-whalley-range-11-18-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-whalley-range-11-18-high-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

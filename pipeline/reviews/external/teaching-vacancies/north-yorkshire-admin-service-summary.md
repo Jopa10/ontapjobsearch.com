@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-08-17
-review_fingerprint: f9ff57389cbe81bd9cea4b8eb4cb24216b3fa649ad73f370e70c8459247f1d44
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: b0754cf116fc08fa0050061c07bf14ea9935d6c62feef44679be74398e56f411
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -64,21 +64,6 @@ factual_fingerprint: 8134c48e78db27ccd363ae63323db1283c21a40938981f2ce24da1b0d47
 source: Teaching Vacancies
 source_job_id: senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO10 5ZA | £32,536-£34,840 | Sixth Form Supervisor and Administrator
-employer: Archbishop Holgate's School, A Church of England Academy
-closing_date: 2026-08-18T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d391b2910b987217b952ff949a8b2249bbb6e70a13a890733bf8075b6501e670
-source: Teaching Vacancies
-source_job_id: sixth-form-supervisor-and-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-supervisor-and-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

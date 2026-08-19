@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-17
-review_fingerprint: 607a7ab8e026858ca95cc763408da391a0f88c66475feb98dbc536fd2d6b03c7
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 327309b85f8e0ab4ec9e86ed6c7b0830956d5f5bd767a925ccf78c739b48b76d
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 18
+- Selected: 10
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 0ED | £19,969.00 - £21,695.00 Annually (Actual) 37 hours per week Term Time only | Admin Assistant
+employer: Yenton Primary School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: CANDIDATE
+migration_status: 
+factual_fingerprint: 9469291f767751dd4868efd9892086e147f7c94c5a30aa666b50bf309833203b
+source: Teaching Vacancies
+source_job_id: admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
+---
 
 ---
 action: 

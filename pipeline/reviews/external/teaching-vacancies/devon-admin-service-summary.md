@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-17
-review_fingerprint: 4cd5bb9b06ab30db23d51ef00b8c59632cb36ef32bc13c222517377c0c3d6bc7
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: d115a357f522fab1c1965fe70d461a27a7abd838de05a3c2904aad8e88318789
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 15
-- POSS awaiting decision: 0
+- Selected: 9
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 9
 
@@ -67,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action: select
-SELECTED | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
-employer: The King's School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
----
-
----
 action: 
 SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
 employer: Okehampton College
@@ -113,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-data-protecti
 
 ---
 action: 
-SELECTED | Devon | Exeter, EX5 3JG | FTE £25660 | Hub Administrator
-employer: Cornerstone Academy Trust
-closing_date: 2026-08-23T23:59:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 39ca36d0cf4bdcbd91590074e1ac03b2d04512ffd1f8396c991cb7dd4d7453ed
-source: Teaching Vacancies
-source_job_id: hub-administrator-cornerstone-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cornerstone-academy-trust
----
-
----
-action: 
 SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
 employer: Dartmoor Multi Academy Trust
 closing_date: 2026-08-28T23:59:00+01:00
@@ -139,21 +109,6 @@ factual_fingerprint: 4d45811540900ef7dfe9b2b0e5872f32b6fa24723fe6d84c8ffe434b393
 source: Teaching Vacancies
 source_job_id: people-administrator-dartmoor-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust
----
-
----
-action: select
-SELECTED | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
-employer: St Marychurch Church of England Primary and Nursery School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
-source: Teaching Vacancies
-source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
 ---
 
 ---
@@ -201,9 +156,56 @@ source_job_id: school-administrator-receptionist-mayfield-chestnut
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-mayfield-chestnut
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
-action: select
-SELECTED | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
+action: 
+POSS | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
+employer: The King's School
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
+---
+
+---
+action: 
+POSS | Devon | Exeter, EX5 3JG | FTE £25660 | Hub Administrator
+employer: Cornerstone Academy Trust
+closing_date: 2026-08-23T23:59:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 39ca36d0cf4bdcbd91590074e1ac03b2d04512ffd1f8396c991cb7dd4d7453ed
+source: Teaching Vacancies
+source_job_id: hub-administrator-cornerstone-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cornerstone-academy-trust
+---
+
+---
+action: 
+POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
+employer: St Marychurch Church of England Primary and Nursery School
+closing_date: 2026-09-03T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
+source: Teaching Vacancies
+source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
+---
+
+---
+action: 
+POSS | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 employer: Ladysmith Infant & Nursery School
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Administrative duties evidenced in description
@@ -217,8 +219,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ---
 
 ---
-action: select
-SELECTED | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
+action: 
+POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Administrative duties evidenced in description
@@ -232,8 +234,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ---
 
 ---
-action: select
-SELECTED | Devon | Exeter, South West, EX1 2SN | £9,058.00 Annually (Actual) | Senior Pupil Services officer - 2 days/week
+action: 
+POSS | Devon | Exeter, South West, EX1 2SN | £9,058.00 Annually (Actual) | Senior Pupil Services officer - 2 days/week
 employer: St Michael's Church of England Primary Academy
 closing_date: 2026-09-03T09:00:00+01:00
 reason: Administrative duties evidenced in description
@@ -245,10 +247,6 @@ source: Teaching Vacancies
 source_job_id: senior-pupil-services-officer-2-days-week
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-2-days-week
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 

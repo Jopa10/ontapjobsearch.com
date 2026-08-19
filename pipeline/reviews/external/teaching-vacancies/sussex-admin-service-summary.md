@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-08-17
-review_fingerprint: d43351ca421960b7aee5db9fe0aea8d82a526a84525c5f11fb92c1f4718da03a
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: b24fa961cb3511bdf85f60cdcc485de2952ddd9115f0fba067d870353ca68397
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 4
-- POSS awaiting decision: 0
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Sussex | Hove, South East, BN3 6ND | £29,064 | Administrative Assistants
-employer: Cardinal Newman Catholic School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e9368c3975f07e3495e72e1a0215cdabff51122f5721a2661b44367942d3ca77
-source: Teaching Vacancies
-source_job_id: administrative-assistants-cardinal-newman-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-cardinal-newman-catholic-school
----
 
 ---
 action: 
@@ -83,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistan
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Sussex | Hove, South East, BN3 6ND | £29,064 | Administrative Assistants
+employer: Cardinal Newman Catholic School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e9368c3975f07e3495e72e1a0215cdabff51122f5721a2661b44367942d3ca77
+source: Teaching Vacancies
+source_job_id: administrative-assistants-cardinal-newman-catholic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-cardinal-newman-catholic-school
+---
 
 ## EXCLUDED BY REVIEW
 

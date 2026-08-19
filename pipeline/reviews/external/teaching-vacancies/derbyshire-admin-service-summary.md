@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-08-17
-review_fingerprint: d2f01c88dfd228445005e82561035761b63c9411d9f3c7df17e0cba2286f7ad4
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 4
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
 
----
-action: 
-SELECTED | Derbyshire | Ilkeston, East Midlands, DE7 5HS | £8,489.00 - £8,623.00 Annually (Actual) Grade 2 | Administrator
-employer: Ormiston Ilkeston Enterprise Academy
-closing_date: 2026-08-18T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 61dc5fc771f6a18a755d552fac1591c419f328831b2e9ab10c5d686e24a7e961
-source: Teaching Vacancies
-source_job_id: administrator-ormiston-ilkeston-enterprise-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ormiston-ilkeston-enterprise-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

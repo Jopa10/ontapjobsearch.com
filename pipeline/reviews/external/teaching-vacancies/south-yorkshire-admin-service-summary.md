@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-17
-review_fingerprint: b6132426d01d028c59d562bc0e117deee5f0a1ec8f11874eade64a5a15474be6
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: edf3bd9c0da1073be83c20bce5dca1f33367fc28b53b6eacfe6573b16c7558dd
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 7
-- POSS awaiting decision: 0
+- Records: 21
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 12
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £24,978.00 gross per annum | Receptionist & Administrator
+employer: Sheffield Park Academy
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 174999c1532760097a2c577c012518b040df6a6a5c7cd4c618ce6181e023190e
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £26,403.00 - £28,598.00 Annually (FTE) Grade 4 SCP 7 - 12 (Actual salary £22,709 - £24,597) | SEND Administrative Assistant
 employer: Westfield School
 closing_date: 2026-08-31T23:59:00+01:00
@@ -128,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-as
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN12 3LZ | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £19,481.25. | Administration Officer
+employer: Morley Place Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 06e87aba9bdc1357dd33c352a7b35da755a1a14103f698df6eac5aba722d170e
+source: Teaching Vacancies
+source_job_id: administration-officer-morley-place-academy-doncaster-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-morley-place-academy-doncaster-south-yorkshire
+---
 
 ## EXCLUDED BY REVIEW
 

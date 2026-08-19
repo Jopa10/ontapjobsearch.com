@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-17
-review_fingerprint: 633e70f2b4aec3d6da1e3d26e961fc24e74e186716ca1aac435b4bfea472e9d0
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: a97cf87cf358c1e2ca10b906ec18331aa262c1ae5158da7cd8c50d65012c0f60
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 5
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -83,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Dorset | Bournemouth, South West, BH10 4EX | £13,461.00 - £18,054.00 Annually (Actual) Term time only | Business and Administration Apprentice
+employer: Glenmoor Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9bafd0c46b726ea184b41cbdb29ec00a259b1ed3800d08ed0d77ec8d8c90d94
+source: Teaching Vacancies
+source_job_id: business-and-administration-apprentice
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administration-apprentice
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -91,7 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Manager title salary ceiling £35,377 is not below £28,000.
+- None.
 
 ## Safety boundary
 

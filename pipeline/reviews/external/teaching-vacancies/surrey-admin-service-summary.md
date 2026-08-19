@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-08-17
-review_fingerprint: b32cca569dbdab7845c5340ef6df0fde47979c4bf0dbc8e6ac730c277b95a4bf
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 2ef0b67a401448f6717781c604dca20651d41c6910ea11a0253f51fcaecee123
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 0eb60d863cb6729e7056a13b963af7ece68fa536dee5e3cd0f3fe82c64c
 source: Teaching Vacancies
 source_job_id: admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
+---
+
+---
+action: 
+SELECTED | Surrey | Walton-on-Thames, South East, KT12 5EJ | £25,111.00 - £27,318.00 Annually (FTE) £7,165 to £7,795 actual amount based on 12hours a week, 39 weeks a year | Careers Administrator
+employer: Three Rivers Academy
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 261161c8304145df89c9772082b01fafa85d5d0ea7746b10a6208fede5eb1c6a
+source: Teaching Vacancies
+source_job_id: careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71
+source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71
 ---
 
 ---

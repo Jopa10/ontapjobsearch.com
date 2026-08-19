@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-17
-review_fingerprint: ef3d1568866f1ca96275622d93c5d49bcef13bdc01aac12f8805d307f38fdaf5
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 75aa13cf772851cb6e5546143569fa472a7c6c17231fd7e7f5a26ed3576218e5
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 15
-- POSS awaiting decision: 0
+- Records: 25
+- Selected: 14
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 5a02ee43ef0a46166f1071b7714ce23c4c4ea888c1a91333ebc65a7e004
 source: Teaching Vacancies
 source_job_id: administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS19 6LX | £25,337.00 - £26,601.00 Annually (Actual) Term time only plus 10 days | Administrator (inc Finance)
+employer: Benton Park School
+closing_date: 2026-08-31T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 2637683a3b809a8f7e8cb6d22e2918670880d11fb710f8be7c7e91e54c39d32e
+source: Teaching Vacancies
+source_job_id: administrator-inc-finance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-inc-finance
 ---
 
 ---
@@ -109,21 +124,6 @@ factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2e
 source: Teaching Vacancies
 source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
----
-
----
-action: select
-SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
-employer: De Lacy Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
-source: Teaching Vacancies
-source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 ---
 
 ---
@@ -203,21 +203,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-exam-access-arra
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS15 9AL | £13,752.00 - £14,658.00 Annually (Actual) B3 point SCP 7-11 FTE £26,403 - £28,142 | Senior Administrator
-employer: Colton Primary School
-closing_date: 2026-08-18T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: 0a79d378fcd1bf9153615d9943619d20e548b35a72c96ef53f573fc49149a38a
-source: Teaching Vacancies
-source_job_id: senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b
----
-
----
-action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS27 0AW | £21,043.00 - £22,429.00 Annually (Actual) | Senior Administrator
 employer: Fountain Primary School
 closing_date: 2026-09-14T09:00:00+01:00
@@ -248,7 +233,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
+employer: De Lacy Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
+source: Teaching Vacancies
+source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -258,6 +256,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 
 - [Accomplish Hubs Business Manager, Castleford Office](https://teaching-vacancies.service.gov.uk/jobs/accomplish-hubs-business-manager-castleford-office-accomplish-multi-academy-trust-limited) — Manager title salary ceiling £38,220 is not below £28,000.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school) — Insufficient admin/service evidence.
+- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.

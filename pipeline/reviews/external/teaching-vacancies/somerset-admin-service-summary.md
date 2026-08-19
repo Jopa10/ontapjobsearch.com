@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-17
-review_fingerprint: 35bf62eee12bdbdf11f9f512a3ca939584a8f3692ad1da52e5ff285fecd06cd5
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 49b5a4445f717de9f8cd6b0333c461d23dc69fc89f4ddd2bd12b5f871c7d2898
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8EE | £8,062 - £8,787 | Administration Assistant (SEND)
+employer: Winterstoke Hundred Academy
+closing_date: 2026-08-31T23:59:59+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 588c894e22bc304271f29fa46890c9d5bc24802c912330c9619e2232c6d59e45
+source: Teaching Vacancies
+source_job_id: administration-assistant-send-winterstoke-hundred-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-send-winterstoke-hundred-academy
+---
 
 ---
 action: 
@@ -104,6 +119,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 
 ## HARD_PASS
 
+- [Careers Lead](https://teaching-vacancies.service.gov.uk/jobs/careers-lead-the-castle-school-taunton-somerset) — Insufficient admin/service evidence.
+- [Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-west-somerset-college-minehead-somerset) — Missing salary or pay scale.
 - [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
 - [Office Manager and Work Placement Coordinator - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-work-placement-coordinator-sixth-form-norton-hill-academy) — Manager title without salary evidence below £28,000.

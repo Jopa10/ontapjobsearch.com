@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-17
-review_fingerprint: 1b2893c5b2bd364c4ef51e511e1af80843648fb353bb5dea1ec88eed3c6934b5
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 4a90f88b49bdebd0da4213ca6bbc98dbbc6d8b3be0c00ce65d7d29da3061a23e
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 13
-- POSS awaiting decision: 0
+- Records: 22
+- Selected: 11
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Wisbech, East of England, PE13 1PJ | £24,871.00 Annually (FTE) | Admin Assistant (Maternity Cover)
+employer: Peckover Primary School
+closing_date: 2026-09-02T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc0b69d
+source: Teaching Vacancies
+source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+---
 
 ---
 action: 
@@ -82,21 +97,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 ---
 
 ---
-action: select
-SELECTED | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
-employer: Burrowmoor Primary Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
-source: Teaching Vacancies
-source_job_id: clerk-to-the-local-governing-boards
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
----
-
----
 action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 8UA | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
 employer: Cottenham Village College
@@ -142,21 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 ---
 
 ---
-action: select
-SELECTED | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
-employer: Cambourne Village College
-closing_date: 2026-08-20T09:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cdd6d08475ebd4fee8b8e31c1043cdcc3744243cfcc9dff13d67e9de262a8d05
-source: Teaching Vacancies
-source_job_id: maths-hub-administration-communications-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administration-communications-officer
----
-
----
 action: 
 SELECTED | Cambridgeshire | Huntingdon, East of England, PE28 0TH | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6 . Actual salary £11,408.64 per annum on point 5. | Office Administrator
 employer: Spaldwick Primary School
@@ -187,21 +172,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ---
 
 ---
-action: select
-SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
-employer: St Peter's School
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
-source: Teaching Vacancies
-source_job_id: office-administrator-st-peter-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
----
-
----
 action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 4RS | £12,564.75 - £13,609.32 Annually (Actual) £26,403 - £28598 FTE Grade 6, Points 7 - 12 on the Meridian Trust Support Staff Salary Scale | SEND Administrator
 employer: Swavesey Village College
@@ -218,7 +188,50 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
+employer: Burrowmoor Primary Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
+source: Teaching Vacancies
+source_job_id: clerk-to-the-local-governing-boards
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
+employer: Cambourne Village College
+closing_date: 2026-08-20T09:00:00+01:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cdd6d08475ebd4fee8b8e31c1043cdcc3744243cfcc9dff13d67e9de262a8d05
+source: Teaching Vacancies
+source_job_id: maths-hub-administration-communications-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administration-communications-officer
+---
+
+---
+action: 
+POSS | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
+employer: St Peter's School
+closing_date: 2026-09-04T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
+source: Teaching Vacancies
+source_job_id: office-administrator-st-peter-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -228,8 +241,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 
 - [Data, Assessment & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-cover-manager) — Manager title salary ceiling £35,412 is not below £28,000.
 - [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-c4d8ed09-594f-4562-a120-505c05f1230f) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-29710c09-99f0-4051-a00b-f29e45698bda) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
+- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
+- [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-08-17
+review_date: 2026-08-19
 review_fingerprint: 0130cb63d7820238938ae006ca7f3c937ffdea4f1afe14dc20cec3d2341967a1
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: UNREGISTERED

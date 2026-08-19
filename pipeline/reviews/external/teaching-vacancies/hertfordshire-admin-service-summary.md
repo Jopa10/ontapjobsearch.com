@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-17
-review_fingerprint: 7de8fa6c5597140d470947ed2299120407a8aeba8f3588743e04fa87dfcdd358
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: ceaef6983581b57d0fbb9e032db7db6a6cfcf42be2ae96708fd609a1506a4db0
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 8
+- Records: 12
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -64,21 +64,6 @@ factual_fingerprint: 152c6578821bb1e17789081f16afb1f6dd8c70c7254ff2e15ab1798868d
 source: Teaching Vacancies
 source_job_id: administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
----
-
----
-action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £28,837.00 - £30,971.00 Annually (Actual) H7.19-23 Depending on Experience | Examinations Officer
-employer: The Adeyfield Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: CANDIDATE
-migration_status: 
-factual_fingerprint: 744660dec25be90bb10ed083bcdba61b4d2c1c8c21534a3a6c23d49a36b6d083
-source: Teaching Vacancies
-source_job_id: examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e
 ---
 
 ---

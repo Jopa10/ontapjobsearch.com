@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-08-17
-review_fingerprint: 409e2699afe869d254b7ddfbeebd1fcc2d6f42db624b1d9b4b235192458ec43d
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: e6b10de7848782dab4bda9c0afbf64da8378bae5aa50e1766ce6b32937313d8d
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -67,8 +67,25 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-li
 ---
 
 ---
-action: select
-SELECTED | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
+action: 
+SELECTED | Essex | Brentwood, CM13 2HG | £25,415.00 - £25,812.00 Annually (Actual) Essex Pay Scale 4 Point 8-9 | Trust Administrator
+employer: Discovery Educational Trust
+closing_date: 2026-09-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab4e5510a4bdb126b7f7f1ffc82894574b748aa733322fa71eb23ddafdec5313
+source: Teaching Vacancies
+source_job_id: trust-administrator-discovery-educational-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-discovery-educational-trust
+---
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
 employer: Notley High School and Braintree Sixth Form
 closing_date: 2026-08-30T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -81,10 +98,6 @@ source_job_id: receptionist-notley-high-school-and-braintree-sixth-form-braintre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
-- None.
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -95,6 +108,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-h
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-the-basildon-upper-academy-basildon-essex) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-b58d31ba-7650-4ead-a619-e0a3558161e2) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

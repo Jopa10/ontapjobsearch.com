@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-17
+review_date: 2026-08-19
 review_fingerprint: 79de284615c71bef140f394caeb923e8fbbbe684f161d8808c703970df274526
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: CANDIDATE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 7
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -197,6 +197,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Estates Programme Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-programme-manager-chiltern-way-academy-trust) — Manager title salary ceiling £46,650 is not below £28,000.
 - [Exams and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-macintyre-academies) — Missing salary or pay scale.
+- [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire) — Manager title salary ceiling £47,181 is not below £28,000.
 

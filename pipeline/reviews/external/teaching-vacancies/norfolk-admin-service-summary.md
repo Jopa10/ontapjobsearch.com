@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-17
-review_fingerprint: b41a5c244bab47f330c3d87d826e5c71d29d2baea018560a3b4ffdda5e89f256
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: ea154d07f25ae487b423afc6dbd2019d6416296b6525a351794ad2234ecad614
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Norfolk
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Jane Austen College
 closing_date: 2026-09-10T01:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 724efa9fa5ba790ea57c3e92f0bbaf91fa0cdd1a7fee7fcfe7787789684efa59
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Hewett Academy
 closing_date: 2026-09-01T01:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 990179e32e820c801ce59601f0ba66b8c7f731640433c519d0f5e8ec668b6aba
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: Angel Road Infant School
 closing_date: 2026-09-11T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 9e3405af1ee7b5ba234543879c287d01b76530e31d63c1f79e5c06935cc13264
 source: Teaching Vacancies
@@ -73,7 +73,7 @@ employer: Fleggburgh CofE Primary School
 closing_date: 2026-09-07T01:00:00+01:00
 reason: Clear admin/service title: secretary
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 4b7217b81762597f8ec78d4aae594c69b35e380403c3c5975b49c8e2b4285aee
 source: Teaching Vacancies
@@ -91,10 +91,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 
 ## HARD_PASS
 
+- [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Maths Hub Support Lead](https://teaching-vacancies.service.gov.uk/jobs/maths-hub-support-lead-inspiration-trust-norwich-not-recorded) — Insufficient admin/service evidence.
-- [Operations Assistant - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-sixth-form-thorpe-st-andrew-school-and-sixth-form-norwich-norfolk) — Insufficient admin/service evidence.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-sheringham-woodfields-school-sheringham-norfolk) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 

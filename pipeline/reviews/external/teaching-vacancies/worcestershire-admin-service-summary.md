@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-08-17
-review_fingerprint: 0ebf08085a45726468e0e85a36cde1621e3301dc8cd8c7b41535c3780319869b
-routing_manifest_sha256: e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004
+review_date: 2026-08-19
+review_fingerprint: 0e4221fb4e05a84fb253c8afee161967723fb8a2c247e08482b45acbab73709e
+routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Worcestershire | Malvern, West Midlands, WR14 1WD | £28,598.00 - £31,022.00 Annually (FTE) | Examinations and Data Officer
-employer: Dyson Perrins CofE Academy
-closing_date: 2026-08-17T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a2a71c79442bb7dac85a887b336e08a563d374c9eb7f0bd0548b30dd96842279
-source: Teaching Vacancies
-source_job_id: examinations-and-data-officer-dyson-perrins-cofe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data-officer-dyson-perrins-cofe-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
