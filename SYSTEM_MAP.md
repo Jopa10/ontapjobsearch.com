@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Added publication failure isolation: up to 15 unresolved/malformed jobs per source are withheld fail-closed while clean jobs continue; larger clusters isolate that source, and source publisher failures retain the last approved state rather than blocking unrelated inventory.
 - 19 August 2026 — Made NEJobs fail-soft in the owner publish orchestrator: an NEJobs publisher failure now retains the last approved NEJobs snapshot, records a warning, and allows other clean sources plus the final verified-page publish to continue.
 - 19 August 2026 — Documented owner review timing: the 15:30 JobG8 refresh does not rebuild `ontap-daily-review.md`; an afternoon review requires a manual run of `Ontap daily review` after the PM refresh.
 - 19 August 2026 — Clarified JobG8 feed storage: `pipeline/input/jobg8.xlsx` is a transient workflow input and is not committed to GitHub; the validated raw feed is retained durably in S3 under `jobg8/raw`.
@@ -58,9 +59,16 @@ That helper centralises the repeated current-feed download, stale-input cleanup 
 
 Owner-facing orchestrator: `.github/workflows/apply-publish-ontap-daily-review.yml`.
 
-It reconciles the master review, requires complete decisions, fans those decisions back to source-owned review files, dispatches source-specific approved publishers sequentially, and invokes `publish-verified-pages.yml` when the shared final publish is required.
+It reconciles the master review, fans valid decisions back to source-owned review files, dispatches source-specific approved publishers sequentially, and invokes `publish-verified-pages.yml` when the shared final publish is required.
 
-NEJobs is deliberately **fail-soft** at this orchestration layer. If the NEJobs publisher fails for any reason, the workflow keeps the last approved NEJobs snapshot, records a warning with the failed run where available, and continues with the other clean source publishers. NEJobs must not block the wider Ontap publish. Other source failures remain blocking except where a separately documented isolation rule applies, such as small non-material VONNE drift.
+Publication isolation is hierarchical:
+
+- up to 15 unresolved or malformed review-action jobs in one source are withheld fail-closed and flagged while the clean jobs from that source continue;
+- more than 15 such jobs, or a source-level integrity mismatch, isolates that source from the current run and retains its previous approved state;
+- any source publisher failure is fail-soft at the owner orchestrator: the source keeps its last approved state and other clean sources continue;
+- only a genuine system-level integrity failure, such as failure of the final shared verified-page publication boundary, should stop the whole owner publish.
+
+A malformed action such as a misspelt `exclude` is therefore treated as a withheld job rather than a reason to abort publication of otherwise clean inventory. The review-hub publish plan records quarantined jobs and isolated sources in the workflow summary.
 
 Confirmed source publisher paths include:
 
@@ -168,7 +176,7 @@ Purpose: workflows, scheduling, deployment, alerts, indexing integrations and pe
 
 The canonical owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`; source-specific publishers are implementation details behind that orchestration where possible.
 
-NEJobs is a supplementary source and is non-blocking at the owner-facing publish gate. Its publisher failure leaves the previous approved NEJobs snapshot in place and is surfaced as a workflow warning rather than aborting the publication of clean inventory from other sources.
+The owner-facing publish gate is fail-soft by default at job and source level. Up to 15 bad/unresolved jobs in one source are withheld and flagged while clean jobs continue; larger source problems leave that source's previous approved state in place and do not abort publication of unrelated clean inventory. A final combined/publication integrity failure remains blocking.
 
 ### Google Indexing API
 
