@@ -1,0 +1,43 @@
+name: Observe 19 Aug recovery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/observe-2026-08-19-recovery.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Record current recovery workflow states
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p pipeline/reports-daily
+          {
+            echo 'JobG8:'
+            gh run list --workflow run-full-jobg8-daily-process.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
+            echo 'Teaching Vacancies:'
+            gh run list --workflow run-teaching-vacancies-regional-review.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
+            echo 'Ontap daily review:'
+            gh run list --workflow ontap-daily-review.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
+            echo 'Recovery helper:'
+            gh run list --workflow recover-2026-08-19-review.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
+          } > pipeline/reports-daily/recovery-2026-08-19-observer.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pipeline/reports-daily/recovery-2026-08-19-observer.txt
+          git commit -m 'Record 19 Aug recovery workflow status'
+          git pull --rebase origin main
+          git push origin HEAD:main
