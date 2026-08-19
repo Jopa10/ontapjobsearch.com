@@ -26,7 +26,7 @@ jobs:
           set -euo pipefail
           mkdir -p pipeline/reports-daily
           {
-            echo 'Final fix helper:'
+            echo 'Final fix helper retry:'
             gh run list --workflow fix-2026-08-19-review-pipeline.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
             echo 'JobG8:'
             gh run list --workflow run-full-jobg8-daily-process.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
