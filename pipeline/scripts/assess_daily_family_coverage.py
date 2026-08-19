@@ -1,14 +1,22 @@
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 from pathlib import Path
 from typing import Any
 
-from . import service_admin_pipeline_core as admin
-from . import support_worker_pipeline as support
+from . import persistent_jobg8_review as persistence
+from . import service_admin_pipeline_live_config as admin_config
+from . import support_worker_pipeline_live_config as support_config
 from .pipeline_refinement import resolve_feed_date
 
+
+# Import through the config-driven production wrappers, not the bare family
+# modules. This preserves the same established wrapper mutations used by the
+# live daily pipelines before we expand them in-memory to all 33 regions.
+admin = admin_config.core
+support = support_config.core
 
 CATALOG_PATH = Path("config/job_slice_catalog.json")
 REGISTER_PATH = Path("registers/region_category_slice_register.csv")
@@ -56,9 +64,8 @@ def _prepare_family_module(module: Any, regions: dict[str, dict[str, str]]) -> N
         for region, facts in regions.items()
     }
 
-    # The family process() functions resolve lookup Cluster values through
-    # REGION_MAP. Keep all existing special mappings, then add the canonical
-    # 33-region names as identity mappings for the diagnostic pass.
+    # Keep every special mapping installed by the production wrappers, then add
+    # canonical 33-region identity mappings for regions that are normally NOT LIVE.
     for region in regions:
         module.REGION_MAP[module.norm_key(region)] = region
 
@@ -67,12 +74,27 @@ def _prepare_family_module(module: Any, regions: dict[str, dict[str, str]]) -> N
         module.PUBLISH_REGION_BY_DETAIL_REGION.update({region: region for region in regions})
 
 
+def _persistent_actions(category: str) -> tuple[dict[str, str], set[str]]:
+    """Read the same durable human decisions used by production, without mutating reviews."""
+    decisions = persistence._load_category_store(category)
+    overrides: dict[str, str] = {}
+    selections: set[str] = set()
+    for job_id, record in decisions.items():
+        action = str(record.get("action") or "").strip().lower()
+        if action == "exclude":
+            overrides[job_id] = "FORCE_EXCLUDE"
+        elif action == "select":
+            selections.add(job_id)
+    return overrides, selections
+
+
 def _assess_family(
     module: Any,
     family_key: str,
+    persistence_category: str,
     regions: dict[str, dict[str, str]],
 ) -> tuple[str, dict[str, int]]:
-    """Run the existing production family selector across all canonical regions."""
+    """Run the production family selector against the already-materialized current feed."""
     _prepare_family_module(module, regions)
 
     job_file = module.find_input_file(module.JOB_FILE_KEYWORDS)
@@ -86,20 +108,20 @@ def _assess_family(
     lookup = module.build_lookup(lookup_df)
     fallback = module.build_location_fallback_lookup(fallback_df)
 
-    manual = module.load_manual_decisions(feed_date)
+    overrides, selections = _persistent_actions(persistence_category)
     title_register = module.load_title_register()
     outputs, report_rows = module.process(
         job_df,
         lookup,
         fallback,
-        manual.overrides,
-        manual.selections,
+        overrides,
+        selections,
         title_register,
     )
     selected, _status = module.anchor_sort_and_select(
         outputs,
         report_rows,
-        manual_rerun_mode=manual.rerun_mode,
+        manual_rerun_mode=bool(overrides or selections),
         previously_selected_ids=set(),
     )
 
@@ -140,14 +162,43 @@ def _write_coverage_csv(
             })
 
 
+def _load_coverage_csv() -> tuple[str, dict[str, int], dict[str, int]]:
+    if not OUTPUT_PATH.is_file():
+        raise RuntimeError(f"Missing daily family coverage: {OUTPUT_PATH}")
+    dates: set[str] = set()
+    counts: dict[str, dict[str, int]] = {"service_admin": {}, "support_worker": {}}
+    with OUTPUT_PATH.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        required = {"feed_date", "region", "family", "selected_count"}
+        if not reader.fieldnames or not required.issubset(reader.fieldnames):
+            raise RuntimeError(f"Unexpected daily family coverage header: {reader.fieldnames}")
+        for row in reader:
+            feed_date = (row.get("feed_date") or "").strip()
+            region = (row.get("region") or "").strip()
+            family = (row.get("family") or "").strip()
+            if feed_date:
+                dates.add(feed_date)
+            if family not in counts or not region:
+                continue
+            counts[family][region] = int((row.get("selected_count") or "0").strip())
+    if len(dates) != 1:
+        raise RuntimeError(f"Daily family coverage must contain one feed date, found {sorted(dates)}")
+    regions = _load_regions()
+    for family, family_counts in counts.items():
+        missing = sorted(set(regions) - set(family_counts))
+        if missing:
+            raise RuntimeError(f"Coverage missing {family} region(s): " + ", ".join(missing))
+    return next(iter(dates)), counts["service_admin"], counts["support_worker"]
+
+
 def _apply_to_overview(
     feed_date: str,
     admin_counts: dict[str, int],
     support_counts: dict[str, int],
 ) -> None:
-    """Replace NOT LIVE Admin/Support cells with same-day production-rule counts."""
+    """Replace NOT LIVE Admin/Support cells with the same-feed diagnostic counts."""
     if not OVERVIEW_PATH.is_file():
-        raise RuntimeError(f"Daily overview must be built before assessment: {OVERVIEW_PATH}")
+        raise RuntimeError(f"Daily overview must be built before coverage is applied: {OVERVIEW_PATH}")
 
     statuses = _load_statuses()
     lines = OVERVIEW_PATH.read_text(encoding="utf-8").splitlines()
@@ -159,7 +210,7 @@ def _apply_to_overview(
         if line.startswith("> LIVE counts reconcile"):
             patched.append(
                 line.split(". NOT LIVE", 1)[0]
-                + f". NOT LIVE Service Admin and Support Worker are assessed from the current JobG8 feed ({feed_date}) across all 33 canonical regions using the production family selectors and canonical geo. Sales Advisor remains test-only; `—` there means not assessed / no current source."
+                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor remains test-only; `—` there means not assessed / no current source."
             )
             continue
 
@@ -190,20 +241,39 @@ def _apply_to_overview(
     OVERVIEW_PATH.write_text("\n".join(patched) + "\n", encoding="utf-8")
 
 
-def main() -> int:
+def build_coverage() -> tuple[str, dict[str, int], dict[str, int]]:
     regions = _load_regions()
-    admin_date, admin_counts = _assess_family(admin, "service_admin", regions)
-    support_date, support_counts = _assess_family(support, "support_worker", regions)
+    admin_date, admin_counts = _assess_family(
+        admin, "service_admin", "service_admin", regions
+    )
+    support_date, support_counts = _assess_family(
+        support, "support_worker", "support_worker", regions
+    )
     if admin_date != support_date:
         raise RuntimeError(
             f"Family assessment feed-date mismatch: admin={admin_date}, support={support_date}"
         )
-
     _write_coverage_csv(admin_date, regions, admin_counts, support_counts)
-    _apply_to_overview(admin_date, admin_counts, support_counts)
+    return admin_date, admin_counts, support_counts
 
-    print(f"Wrote {OUTPUT_PATH}: 33 regions x 2 families for feed {admin_date}")
-    print(f"Updated {OVERVIEW_PATH} NOT LIVE Admin/Support counts from same-day assessment")
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--apply-existing",
+        action="store_true",
+        help="Apply the already-generated daily-family-coverage.csv to the overview without re-reading JobG8.",
+    )
+    args = parser.parse_args()
+
+    if args.apply_existing:
+        feed_date, admin_counts, support_counts = _load_coverage_csv()
+        _apply_to_overview(feed_date, admin_counts, support_counts)
+        print(f"Applied {OUTPUT_PATH} to {OVERVIEW_PATH}")
+        return 0
+
+    feed_date, _admin_counts, _support_counts = build_coverage()
+    print(f"Wrote {OUTPUT_PATH}: 33 regions x 2 families for feed {feed_date}")
     return 0
 
 
