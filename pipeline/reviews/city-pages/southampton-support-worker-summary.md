@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 8
-- automatic exclude: 5
+- automatic review: 5
+- automatic exclude: 6
 - effective include: 4
-- effective review: 8
-- effective exclude: 5
+- effective review: 5
+- effective exclude: 6
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-1642087
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (8)
+## REVIEW (5)
 
 ---
 action: 
@@ -126,18 +126,6 @@ reason: No approved Southampton employment-market rule matched the stated locati
 action: 
 decision: review
 automatic_decision: review
-title: Care Worker
-company: Southern Housing - Agency - Permanent
-location: Ventnor
-source: JobG8
-job_id: jobg8-107796981
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Day Opportunities Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Alton
@@ -146,31 +134,7 @@ job_id: jobg8-1401784594
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Domiciliary Care Assistant
-company: ECS Recruitment Consultants Ltd - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-107332363
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-1401784321
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
-## EXCLUDE (5)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -217,6 +181,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-202c4b49-5e6c-46f1-879f-8421db894a5b
+reason: The stated workplace belongs outside the approved Southampton employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Night Care Assistant (Adults)
+company: Hampshire County Council - Company - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-1401784687
 reason: The stated workplace belongs outside the approved Southampton employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 27
 - automatic review: 18
 - automatic exclude: 22
-- effective include: 18
+- effective include: 27
 - effective review: 18
 - effective exclude: 22
 
-## INCLUDE (18)
+## INCLUDE (27)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-e6adc526-6a11-4aca-a85b-f18a9cd311ee
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Fin Search Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-86ccc5ec-10ec-49fa-9f00-50c5b00d39d6
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -52,11 +64,47 @@ reason: The stated workplace matches the approved Leeds employment-market patter
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Nigel Wright Recruitment - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225434585
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Nigel Wright Recruitment - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225488843
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator (Financial Services)
 company: FindCore - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-00f003e0-65d1-48b6-86b7-36a6c34dfcb5
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Leeds Head Office
+company: T3AM Global - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225425538
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -93,18 +141,6 @@ company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-180c56f1-188b-4257-b36d-f49bf2420346
-reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Complaints Handler
-company: Candidate Source Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-0964d2e1-424c-4a06-84b3-e1fa26bfa2a0
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -153,6 +189,78 @@ company: Baker Harding Limited - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-107680320
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities Coordinator
+company: Morgan King - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225481420
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graduate Finance Assistant
+company: T3AM Global - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225425627
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graduate Office Assistant
+company: T3AM Global - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225425560
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Lucy Walker Recruitment - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225451264
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Hr Administrator (Immediate start)
+company: HVAC Recruitment - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225404359
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225476554
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -221,10 +329,10 @@ action:
 decision: include
 automatic_decision: include
 title: Senior Administrator
-company: Colton Primary School
+company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-7fec00a6-6291-458b-a988-c2f3718b159b
+job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 
@@ -232,11 +340,11 @@ reason: The stated workplace matches the approved Leeds employment-market patter
 action: 
 decision: include
 automatic_decision: include
-title: Senior Administrator
-company: Fountain Primary School
+title: Sustainable Funding Coordinator
+company: Alf Recruit Limited - Agency - Permanent
 location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
+source: JobG8
+job_id: jobg8-107863399
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 

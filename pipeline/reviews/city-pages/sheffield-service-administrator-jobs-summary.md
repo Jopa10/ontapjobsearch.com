@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 9
 - automatic review: 1
 - automatic exclude: 14
-- effective include: 6
+- effective include: 9
 - effective review: 1
 - effective exclude: 14
 
-## INCLUDE (6)
+## INCLUDE (9)
 
 ---
 action: 
@@ -64,6 +64,30 @@ reason: The stated workplace matches the approved Sheffield employment-market pa
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller & Accounts Assistant
+company: Shillito Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-7cf61604-97cb-4cf2-9394-b076d27351d1
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Resourcer / Administrator
+company: Lynx Employment Services Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225478960
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Regeneration and Property Service Support Help Desk Officer
 company: Reed - Agency - Temporary
 location: Sheffield
@@ -93,6 +117,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Talent Acquisition Coordinator
+company: B. Braun Medical Limited - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2ed67242-6482-4fe0-9cbb-7881b58f5424
 reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
 ---
 
@@ -128,6 +164,18 @@ reason: The stated workplace belongs outside the approved Sheffield employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator
+company: Anonymous - Agency - Contract
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225457187
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Attendance Officer
 company: Trinity Academy
 location: Doncaster
@@ -145,42 +193,6 @@ company: Springwell Special Academy
 location: Barnsley
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-21618_20279_59837-89740a075c6163b74ea2c52702062e5d
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-21618_20279_59837-73862c8b83139033e4e4a8b6efca9a33
-reason: The stated workplace belongs outside the approved Sheffield employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-21618_20279_59837-153faf593eb64b88272f45adeaa28d87
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 
@@ -224,6 +236,18 @@ reason: The stated workplace belongs outside the approved Sheffield employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: German Speaking Administrator
+company: ASC Connections Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-ac77bded-97ae-4769-9c90-e5e347e032eb
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: NTD Coordinator
 company: TRC Yorkshire - Agency - Temporary
 location: Barnsley
@@ -241,6 +265,18 @@ company: BMC Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-9d793cd4-ff2a-4749-9512-a7407298f539
+reason: The stated workplace belongs outside the approved Sheffield employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Support Administrator (Doncaster)
+company: BMC Recruitment Group Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225414146
 reason: The stated workplace belongs outside the approved Sheffield employment market.
 ---
 
