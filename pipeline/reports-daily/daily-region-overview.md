@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-19T17:09:04+00:00
+Generated: 2026-08-19T17:47:38+00:00
 
-> LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-19.csv` on `main`. NOT LIVE Service Admin and Support Worker are assessed from the current JobG8 feed (2026-08-19) across all 33 canonical regions using the production family selectors and canonical geo. Sales Advisor remains test-only; `—` there means not assessed / no current source.
+> LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-19.csv` on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-19) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor remains test-only; `—` there means not assessed / no current source.
 
 ## LIVE
 
@@ -48,18 +48,18 @@ Generated: 2026-08-19T17:09:04+00:00
 |---|---:|---:|---:|
 | Berkshire |  | 3 | — |
 | Bristol & Bath |  | 3 | — |
-| Buckinghamshire | 7 | 2 | — |
+| Buckinghamshire | 14 | 2 | — |
 | Cambridgeshire |  | 0 | — |
-| Cumbria - North | 2 | 2 | — |
+| Cumbria - North | 3 | 2 | — |
 | Cumbria - South | 2 |  | — |
 | Devon |  | 0 | — |
 | Dorset |  | 2 | — |
 | Essex |  | 0 | — |
 | Gloucestershire |  | 4 | — |
 | Greater Manchester - Manchester & Salford |  | 0 | — |
-| Greater Manchester - South | 7 | 1 | — |
+| Greater Manchester - South | 13 | 1 | — |
 | Hampshire |  |  | — |
-| Hertfordshire | 12 | 1 | — |
+| Hertfordshire | 13 | 1 | — |
 | Kent |  | 7 | — |
 | Lancashire - North | 0 | 1 | — |
 | London |  |  | — |
@@ -72,7 +72,7 @@ Generated: 2026-08-19T17:09:04+00:00
 | Staffordshire |  | 1 | — |
 | Surrey |  |  | — |
 | Sussex |  |  | — |
-| West Midlands - Birmingham & Solihull | 11 | 3 | — |
+| West Midlands - Birmingham & Solihull | 18 | 3 | — |
 | West Midlands - Coventry & Warwickshire |  | 0 | — |
 | Wiltshire |  |  | — |
 | Yorkshire - East | 14 | 2 | — |
