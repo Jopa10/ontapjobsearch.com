@@ -38,6 +38,37 @@ def flatten(node: ET.Element, path: list[str], out: dict[str, str]) -> None:
         flatten(child, path + [local(child.tag)], out)
 
 
+def _stamp_workbook_core_timestamp(path: Path, timestamp: datetime) -> None:
+    """Make both XLSX core timestamps match the source Jobs.xml timestamp.
+
+    openpyxl rewrites the workbook's modified timestamp at save time.  The
+    selection pipeline deliberately uses that core date as the stable feed
+    identity, so an archived raw feed restored tomorrow would otherwise look
+    like a new feed.  Rewrite only docProps/core.xml after save and preserve all
+    other workbook ZIP members unchanged.
+    """
+    replacement = path.with_name(f".{path.name}.restamp")
+    with zipfile.ZipFile(path, "r") as source, zipfile.ZipFile(replacement, "w") as target:
+        for info in source.infolist():
+            data = source.read(info.filename)
+            if info.filename == "docProps/core.xml":
+                root = ET.fromstring(data)
+                stamp = timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
+                found: set[str] = set()
+                for element in root.iter():
+                    field = local(element.tag)
+                    if field in {"created", "modified"}:
+                        element.text = stamp
+                        found.add(field)
+                if found != {"created", "modified"}:
+                    raise RuntimeError(
+                        "Generated XLSX core properties are missing created/modified timestamps"
+                    )
+                data = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+            target.writestr(info, data)
+    replacement.replace(path)
+
+
 def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> int:
     with zipfile.ZipFile(zip_path) as archive:
         candidates = [
@@ -78,9 +109,6 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     workbook = Workbook(write_only=True)
-    # The selectors use the workbook core date as the feed identity. Preserve
-    # the original Jobs.xml timestamp so restoring an archived feed tomorrow
-    # does not make yesterday's feed look like a new feed.
     workbook.properties.created = source_timestamp
     workbook.properties.modified = source_timestamp
     sheet = workbook.create_sheet(title="Jobs")
@@ -88,6 +116,7 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
     for row in rows:
         sheet.append([row.get(column, "") for column in columns])
     workbook.save(output_path)
+    _stamp_workbook_core_timestamp(output_path, source_timestamp)
 
     print(f"Converted {count} JobG8 jobs into {output_path}")
     print(f"Columns: {len(columns)}")
