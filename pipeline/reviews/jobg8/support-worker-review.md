@@ -13,12 +13,6 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | Yorkshire - West | Dewsbury | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104910
----
-
----
-action:
 SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including holiday pay, flexible hours) | Healthcare Assistant
 job_id: 23643_225476096
 ---
@@ -105,18 +99,6 @@ job_id: 6b804bc2-d778-42ed-bf1b-d3ec78422d8a
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Hartlepool | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104883-1
----
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104883-1-1908a03149bfe006218cbce2dd812797
----
-
----
-action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
 job_id: 23643_225493355
 ---
@@ -196,18 +178,6 @@ job_id: 107658496
 _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104893
----
-
----
-action:
-SELECTED | Cumbria - South | Grange-over-sands | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104952
----
 
 ---
 action:
@@ -333,12 +303,6 @@ job_id: 281f76c8-4bbe-4cc0-8651-945559a163d4
 action:
 SELECTED | London | London | £31,116.80 per annum | Specialist Behavioural Support Worker
 job_id: 1621461
----
-
----
-action:
-SELECTED | London | City | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104883-1-714afb01ebf3664bdb0febe6b0f96c3d
 ---
 
 ---
@@ -501,12 +465,6 @@ job_id: 3f4c625b-5417-4417-b340-71ab7e4ff941
 action:
 SELECTED | Wiltshire | Devizes | £13.75 per hour | Bank Support Worker
 job_id: 328178
----
-
----
-action:
-SELECTED | Wiltshire | Westbury | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR104989
 ---
 
 ---
