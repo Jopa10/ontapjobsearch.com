@@ -1,24 +1,20 @@
 # Ontap System Map
 
 **Last updated:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211.
+**Status:** Canonical production architecture after cleanup, regional expansion and city-page expansion.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
-- 19 August 2026 — Added post-publish production deployment verification to `publish-verified-pages.yml`: after the final user-facing publish commit, the workflow polls the live `/api/deployment-version` endpoint for up to about five minutes and accepts the published commit or any newer `main` commit. If production remains behind, it raises/updates a GitHub Issue; a later healthy verification auto-closes the alert.
-- 19 August 2026 — Activated six additional Service Admin slices from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. Dynamic LIVE slices flow through the existing configured-slice publisher, Browse Jobs and published-job search layers; the homepage now also consumes published dynamic Admin slices instead of relying only on its older hard-coded region list.
-- 19 August 2026 — Added same-feed 33-region family coverage: Service Admin and Support Worker are assessed diagnostically across all 33 canonical regions inside the main JobG8 daily run using the exact production feed and config-driven production wrappers; the later regional overview consumes that committed coverage without re-downloading JobG8.
-- 19 August 2026 — Added publication failure isolation: up to 15 unresolved/malformed jobs per source are withheld fail-closed while clean jobs continue; larger clusters isolate that source, and source publisher failures retain the last approved state rather than blocking unrelated inventory.
-- 19 August 2026 — Made NEJobs fail-soft in the owner publish orchestrator: an NEJobs publisher failure now retains the last approved NEJobs snapshot, records a warning, and allows other clean sources plus the final verified-page publish to continue.
-- 19 August 2026 — Documented owner review timing: the 15:30 JobG8 refresh does not rebuild `ontap-daily-review.md`; an afternoon review requires a manual run of `Ontap daily review` after the PM refresh.
-- 19 August 2026 — Clarified JobG8 feed storage: `pipeline/input/jobg8.xlsx` is a transient workflow input and is not committed to GitHub; the validated raw feed is retained durably in S3 under `jobg8/raw`.
-- 19 August 2026 — Corrected Google Indexing API schedule documentation: the workflow cron is 19:30 UTC, which is 20:30 BST in summer and 19:30 GMT in winter.
-- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; this cleaned architecture is now the canonical repository state.
-- 19 August 2026 — Implemented the agreed architecture cleanup on `chore/architecture-cleanup-1-5`: removed proven one-off workflows, replaced stale pipeline documentation, introduced a shared current-JobG8 materializer for external-source dedupe, retired superseded standalone category workflows/old monolithic script, and removed dated one-off diagnostics.
-- 19 August 2026 — Added the business-priority rule: no refactor for technical tidiness alone; website/public-route changes require a concrete business case such as discoverability, indexing, UX, reliability or expansion benefit.
-- 19 August 2026 — Completed the first architecture audit and verified the main JobG8, master review/publish, external-source and indexing paths.
+- 19 August 2026 — Approved five additional Service Admin city pages: Bradford, Huddersfield, York, Barnsley and Doncaster. Initial include rules are exact-city only; the shared city-page framework owns derivation and permanence.
+- 19 August 2026 — Added explicit city catchment governance: city pages represent city-anchored local employment/commuting markets, not literal exact-name-only filters. Catchment expansions require explicit include/review/exclude rules in `pipeline/city_pages/city-page-register.json`.
+- 19 August 2026 — Durham Service Admin remains HOLD because the registered opportunity pattern `durham` can also match broad `County Durham` locations. Durham must be separated from County Durham and requalified before activation.
+- 19 August 2026 — Added post-publish production deployment verification to `publish-verified-pages.yml`; stale Vercel production raises/updates a GitHub Issue and later healthy verification auto-closes it.
+- 19 August 2026 — Activated six additional Service Admin regional slices: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
+- 19 August 2026 — Added same-feed 33-region family coverage for Service Admin and Support Worker inside the main JobG8 daily run.
+- 19 August 2026 — Added publication failure isolation and made external-source publishing fail-soft where safe.
+- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211.
 
 ## 1. Pipeline
 
@@ -26,7 +22,7 @@ Purpose: how job data moves from source to published/indexed output.
 
 Canonical stages:
 
-`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → deploy verification → index`
+`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → city derivation → deploy verification → index`
 
 ### Main scheduled JobG8 path
 
@@ -36,53 +32,67 @@ It runs at 07:30 and 15:30 Europe/London and performs:
 
 `JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → metadata enrichment → 33-region family coverage → pipeline outputs/reports`
 
-`pipeline/input/jobg8.xlsx` is created for the workflow run after the current JobG8 ZIP is downloaded and converted. It is a transient processing input and is not committed to GitHub. The validated raw feed is archived durably in S3 under `jobg8/raw`.
+`pipeline/input/jobg8.xlsx` is transient workflow input and is not committed. The validated raw feed is retained durably in S3 under `jobg8/raw`.
 
-The main daily workflow remains the canonical production ingest owner. The diagnostic Service Admin / Support Worker coverage pass runs inside that same workflow after the production family selectors, using the same materialized JobG8 workbook. It expands the config-driven production wrappers in memory across all 33 canonical regions, reuses persistent review decisions and canonical geo/rules, and writes only `pipeline/reports-daily/daily-family-coverage.csv`; it does not alter the slice register, production JSON or publishing state.
+The daily coverage pass reuses the same materialized JobG8 workbook and production rules across all 33 canonical regions. It writes diagnostic coverage only; it does not itself activate slices.
 
-The Service Admin LIVE set now includes the six 19 August evidence-led activations: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. They use the same register-driven production selector and verified-page publishing path as other dynamic LIVE slices.
+The Service Admin LIVE set includes the six 19 August evidence-led regional activations: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
 
-### Owner review timing
-
-`ontap-daily-review.yml` builds `pipeline/reviews/daily/ontap-daily-review.md` automatically at 08:45 Europe/London. The 15:30 JobG8 refresh updates the underlying JobG8 pipeline state but does **not** rebuild the master review file.
-
-Operational rule:
-
-- if the owner reviews the 08:45 file in the morning, no second review is required after the 15:30 JobG8 refresh; the next normal review is the following morning;
-- if the owner chooses to review the freshest afternoon inventory, wait for the 15:30 JobG8 run and its automatic Quick View refresh to finish successfully, then manually run the workflow named `Ontap daily review` before editing `ontap-daily-review.md`.
-
-### Shared current-feed materialization for external dedupe
-
-External-source workflows that need a fresh JobG8 workbook for dedupe use:
-
-- `pipeline/scripts/materialize_current_jobg8.py`
-- `pipeline/tests/test_materialize_current_jobg8.py`
-
-That helper centralises the repeated current-feed download, stale-input cleanup and `jobg8_xml_adapter.py` conversion used by NEJobs and VONNE review/publish workflows.
-
-### Review / approved publication path
+### Owner review / approved publication
 
 Owner-facing orchestrator: `.github/workflows/apply-publish-ontap-daily-review.yml`.
 
-It reconciles the master review, fans valid decisions back to source-owned review files, dispatches source-specific approved publishers sequentially, and invokes `publish-verified-pages.yml` when the shared final publish is required.
+It reconciles the master review, applies valid decisions back to source-owned review files, dispatches source-specific approved publishers, and invokes `publish-verified-pages.yml` when the shared final publish is required.
 
 Publication isolation is hierarchical:
 
-- up to 15 unresolved or malformed review-action jobs in one source are withheld fail-closed and flagged while the clean jobs from that source continue;
-- more than 15 such jobs, or a source-level integrity mismatch, isolates that source from the current run and retains its previous approved state;
-- any source publisher failure is fail-soft at the owner orchestrator: the source keeps its last approved state and other clean sources continue;
-- only a genuine system-level integrity failure, such as failure of the final shared verified-page publication boundary, should stop the whole owner publish.
+- up to 15 unresolved/malformed jobs in one source are withheld fail-closed while clean jobs continue;
+- more than 15 such jobs, or a source-level integrity mismatch, isolates that source and retains its previous approved state;
+- source publisher failures are fail-soft where the prior approved state can safely be retained;
+- only a genuine combined/publication integrity failure should stop the whole publish.
 
-A malformed action such as a misspelt `exclude` is therefore treated as a withheld job rather than a reason to abort publication of otherwise clean inventory. The review-hub publish plan records quarantined jobs and isolated sources in the workflow summary.
+Confirmed source paths include JobG8, NEJobs, VONNE and Teaching Vacancies.
 
-Confirmed source publisher paths include:
+`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. It also performs production deployment verification after the final user-facing commit.
 
-- JobG8 — `apply-jobg8-review-decisions.yml`, restoring the exact reviewed archived feed before rebuilding approved outputs;
-- NEJobs — `build-approved-nejobs-output.yml`;
-- VONNE — `build-approved-vonne-output.yml`;
-- Teaching Vacancies — regional approved publisher(s), including `build-approved-teaching-vacancies-regional.yml`.
+### City-page derivation and launch governance
 
-`publish-verified-pages.yml` is the final bridge from reviewed/composed pipeline outputs into user-facing `app/**.json`, live-job reports and city-page outputs. After its final user-facing commit it also owns production deployment verification; this check is not a separate deployment pipeline.
+Canonical components:
+
+- `pipeline/city_pages/opportunity-market-register.json` — monitored local employment markets beneath published regional slices;
+- `pipeline/scripts/scan_city_opportunities.py` — current opportunity scan;
+- `pipeline/scripts/update_city_opportunity_history.py` — rolling seven-run evidence history;
+- `pipeline/reviews/city-pages/city-page-approval-review.md` — human approval surface;
+- `pipeline/city_pages/city-page-register.json` — active technical catchment configurations;
+- `pipeline/scripts/derive_city_pages.py` — derive/review/publish city JSON;
+- `pipeline/scripts/maintain_active_city_pages.py` — keep active permanent routes refreshed even below launch threshold;
+- `app/_city-pages/...` — private derived city JSON used by public city routes.
+
+Launch gate: a candidate must have **at least 6 current jobs and at least 3 qualifying runs among the last 7 verified-publish runs**, then receive explicit human approval. READY FOR APPROVAL never publishes automatically.
+
+Once `lifecycle_state: active`, the city route is permanent unless deliberately retired. Falling below six jobs does not delist or 404 the route; the active-city maintenance step rewrites the current output, including an empty array at zero jobs.
+
+#### Catchment rule
+
+A city page is an **approved local employment/commuting catchment anchored on the named city**. It is not defined solely by exact city-name text.
+
+Launch catchments should be conservative. Nearby towns, suburbs or districts may be added only where they clearly belong to the same employment market and do not bleed into a separate labour market. Every addition must be encoded in `city-page-register.json` as an include/review/exclude rule with a reason.
+
+Established examples:
+
+- Leeds: Leeds + Pudsey;
+- Newcastle: Newcastle + Gateshead + North Tyneside + Shiremoor + Wideopen;
+- Brighton & Hove: Brighton + Hove + Portslade.
+
+Broad county/region labels are not proof of city membership. **Durham is the explicit safeguard case:** a location containing `County Durham` must not count as Durham-city evidence merely because it contains the word `durham`. Durham Service Admin remains HOLD until the opportunity rule distinguishes Durham city from County Durham and its seven-run history is recalculated.
+
+Approved on 19 August 2026 with exact-city launch catchments:
+
+- Bradford Service Admin — `/bradford/service-administrator-jobs`;
+- Huddersfield Service Admin — `/huddersfield/service-administrator-jobs`;
+- York Service Admin — `/york/service-administrator-jobs`;
+- Barnsley Service Admin — `/barnsley/service-administrator-jobs`;
+- Doncaster Service Admin — `/doncaster/service-administrator-jobs`.
 
 ### External-source review paths
 
@@ -96,7 +106,6 @@ Recurring review workflows:
 
 - `pipeline/config/`
 - `pipeline/geo/`
-- `pipeline/input/`
 - `pipeline/scripts/`
 - `pipeline/tests/`
 - `pipeline/registers/`
@@ -108,38 +117,23 @@ Recurring review workflows:
 - `pipeline/manifests/`
 - `pipeline/city_pages/`
 
-### Retired from the working tree in the agreed cleanup
-
-- `pipeline/jobg8_pipeline_v7_working_2026-05-06.py`
-- `.github/workflows/run-service-admin-pipeline.yml`
-- `.github/workflows/run-support-worker-pipeline.yml`
-
-Git history retains these historical implementations.
-
 ## 2. Reports / diagnostics
 
 Purpose: persistent outputs used to reconcile, inspect or monitor Ontap.
 
-### Operational reports
+Operational reports include:
 
-- `pipeline/reviews/daily/ontap-daily-review.md` — master owner review, generated daily and emailed.
-- `pipeline/reports-daily/` — routine production/reconciliation reports and ledgers.
-- `pipeline/reports-daily/daily-family-coverage.csv` — same-feed diagnostic counts for Service Admin and Support Worker across all 33 canonical regions, generated by the main JobG8 daily workflow.
-- `build-daily-region-overview.yml` refreshes `pipeline/reports-daily/daily-region-overview.md` after a successful verified publish and applies the already committed `daily-family-coverage.csv` to NOT LIVE Service Admin / Support Worker cells. It does not download JobG8 or rerun the assessment.
+- `pipeline/reviews/daily/ontap-daily-review.md` — daily owner review;
+- `pipeline/reports-daily/daily-family-coverage.csv` — same-feed Service Admin and Support Worker coverage across all 33 canonical regions;
+- `pipeline/reports-daily/daily-region-overview.md` — regional live/not-live overview;
+- `pipeline/reports/city-opportunities-current.md` and `.json` — current city/local-market opportunity state;
+- `pipeline/reports/city-opportunity-history.json` — rolling qualification history.
 
-### Specialist analysis
+The city-opportunity scanner is diagnostic/decision support. It must not auto-activate a city page.
 
-Compiler Modules 1, 2 and 3 are legitimate manual/analytical workflows and remain conceptually separate from day-to-day production operations.
+Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflows.
 
-### Report lifecycle rule
-
-`pipeline/reports/README.md` documents three lifecycles:
-
-- recurring operational reporting;
-- deliberate specialist analysis;
-- one-off diagnostics, which should normally remain in Actions logs/artifacts or Git history.
-
-Confirmed dated recovery/failure observer reports from 19 August have been removed from the working report tree. Broad folder moves were deliberately avoided where they could break live references merely for neatness.
+Report lifecycle is recurring operational reporting / deliberate specialist analysis / one-off diagnostics in Actions artifacts or Git history.
 
 ## 3. Website / UX
 
@@ -147,80 +141,55 @@ Purpose: user-facing job search, job pages, navigation and presentation.
 
 Verified structure:
 
-- `app/` is the primary application route/data tree.
-- `components/` contains reusable UI components.
-- `lib/published-jobs.ts` reads published JSON from `app/`, normalises jobs, dedupes by `job_id`, and supplies the published job/search/detail layer.
-- `lib/configured-job-slices.ts` reads `pipeline/config/job_slice_catalog.json` and `pipeline/registers/region_category_slice_register.csv`.
-- LIVE dynamic region/category slices are register/catalog driven.
-- dynamic configured slice data lives under `app/_city-pages/configured-slices/`.
-- `app/job-search/[region]/...` is the dynamic route family.
-- `app/browse-jobs/page.tsx` already consumes `getPublishedDynamicSlices()`, so newly published LIVE configured slices appear without hard-coded Browse entries.
-- `lib/published-jobs.ts` admits non-empty published dynamic slices into the common job pool, so `/jobs/search` automatically searches them and job-detail backlinks resolve to their dynamic slice routes.
-- the homepage Admin region grid now also consumes published dynamic Admin slices, while retaining established static/city routes.
-- `app/api/deployment-version/route.ts` exposes the currently deployed Vercel Git commit SHA with no-store caching for deployment verification.
+- `app/` is the primary application route/data tree;
+- `components/` contains reusable UI components;
+- `lib/published-jobs.ts` supplies the common published job/search/detail layer;
+- `lib/configured-job-slices.ts` reads the configured regional slice catalog/register;
+- LIVE dynamic regional/category slices are register/catalog driven;
+- `app/_city-pages/configured-slices/` holds dynamic configured-slice data;
+- `app/job-search/[region]/...` is the dynamic route family;
+- Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin grid consume published dynamic slices through shared mechanisms;
+- `lib/city-page-data.ts` reads `pipeline/city_pages/city-page-register.json` and resolves active city definitions/data;
+- public city routes read private derived JSON under `app/_city-pages/...`, preventing duplicate job-detail URLs;
+- `app/api/deployment-version/route.ts` exposes the deployed Vercel Git SHA for verification.
+
+New approved city routes are Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin. Durham has no approved city route.
 
 ### Website refactor rule
 
-Website routes/public URLs are not a technical-tidiness target. They stay stable unless a specific defect or evidence shows a material benefit in indexing/discoverability, AI discoverability, user experience, reliability or inventory expansion. Existing URLs/SEO behaviour must be preserved unless changing them is itself the intended business improvement.
+Public URLs remain stable unless a concrete business benefit or defect justifies change. Existing indexing/SEO behaviour should be preserved unless the change is intentionally improving it.
 
 ## 4. Content / positioning
 
-Purpose: persistent editorial, guidance and positioning structures implemented in the product/repository.
-
-No content-architecture refactor is part of this cleanup. Persistent product content belongs here when it affects product behaviour; temporary social/campaign copy does not.
+Persistent product content belongs here when it changes product behaviour. Ontap's broad direction remains a job site for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the entire identity.
 
 ## 5. Operations / infrastructure
 
-Purpose: workflows, scheduling, deployment, alerts, indexing integrations and persistent environment/configuration mechanisms.
+Core scheduled workflows include:
 
-### Core scheduled workflows
+- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London;
+- `run-nejobs-review.yml` — 06:15 daily;
+- `run-vonne-review.yml` — 06:35 daily;
+- `run-teaching-vacancies-regional-review.yml` — 06:55 daily;
+- `ontap-daily-review.yml` — 08:45 Europe/London;
+- `google-indexing-api.yml` — 19:30 UTC daily.
 
-- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London.
-- `run-nejobs-review.yml` — 06:15 daily.
-- `run-vonne-review.yml` — 06:35 daily.
-- `run-teaching-vacancies-regional-review.yml` — 06:55 daily.
-- `ontap-daily-review.yml` — 08:45 Europe/London daily owner review; run manually after the 15:30 refresh when an afternoon review of the freshest inventory is wanted.
-- `google-indexing-api.yml` — cron 19:30 UTC daily (20:30 BST in summer; 19:30 GMT in winter).
+The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`.
 
-### Owner-triggered publication
+### Post-publish deployment verification
 
-The canonical owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`; source-specific publishers are implementation details behind that orchestration where possible.
+`publish-verified-pages.yml` polls the live `/api/deployment-version` endpoint after its final user-facing commit. A deployment is healthy when production is at the expected commit or a newer commit on the same `main` history. Persistent lag raises/updates the GitHub Issue `Ontap production deployment is stale`; a later healthy verification auto-closes the alert.
 
-The owner-facing publish gate is fail-soft by default at job and source level. Up to 15 bad/unresolved jobs in one source are withheld and flagged while clean jobs continue; larger source problems leave that source's previous approved state in place and do not abort publication of unrelated clean inventory. A final combined/publication integrity failure remains blocking.
-
-### Post-publish production deployment verification
-
-`publish-verified-pages.yml` now verifies that the live Vercel production deployment has caught up after the workflow's final user-facing commit:
-
-- checkout uses full Git history so commit ancestry can be checked;
-- the expected commit is the final local `HEAD` after verified-page and city-page publication commits;
-- the workflow polls `https://www.ontapjobsearch.com/api/deployment-version` every 30 seconds for up to 10 attempts (about five minutes);
-- a live deployment is healthy when its deployed SHA is the expected commit or a newer commit on the same `main` history;
-- if production remains stale, the workflow records a warning and raises or updates the GitHub Issue `Ontap production deployment is stale` with the expected SHA, live SHA and workflow-run link;
-- a later healthy verification auto-closes the open stale-deployment Issue.
-
-The check is observational/fail-soft: it does not roll back clean published repository state merely because Vercel is delayed, but it prevents repo/live divergence from remaining silent.
+The check is observational/fail-soft and does not roll back clean repository publication merely because Vercel is delayed.
 
 ### Google Indexing API
 
-`google-indexing-api.yml`:
-
-- submits eligible job URLs through Google's Indexing API;
-- caps each run at 200 notifications;
-- persists confirmed submission state in `pipeline/manifests/google-indexing-state.json`;
-- raises/updates a GitHub Issue when backlog/safety-limit/failure conditions require attention;
-- closes that alert after a healthy live run clears the condition.
-
-### Workflow hygiene
-
-The merged cleanup removes proven one-shot/delivery-specific workflows including dated 19 August fix/recovery/observer jobs, the self-described one-time Teaching Vacancies master-review generator and the `run-module2-post-expansion-now.yml` helper.
-
-Branch-specific experiments and specialist compiler/review tools remain separate from the canonical production controls unless there is evidence they are obsolete.
+`google-indexing-api.yml` submits eligible job URLs, caps each run at 200 notifications, persists submission state in `pipeline/manifests/google-indexing-state.json`, and uses GitHub Issues for backlog/safety/failure alerts.
 
 ## Validation state
 
-Architecture cleanup 1–5 was merged into `main` via PR #211 on 19 August 2026. It is no longer isolated on `chore/architecture-cleanup-1-5`; future repository analysis should treat the cleaned architecture as the canonical current state.
+Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are now part of the documented production state. Durham remains deliberately unapproved pending the County Durham safeguard.
 
 ## Documentation rule
 
-When a persistent system-level change alters any of these five buckets, update the affected section of this file in the same change. If live/active/user-facing state changes, update `SYSTEM_OVERVIEW.md` as well.
+When a persistent system-level change alters any canonical bucket, update this file in the same change. If live/active/user-facing state changes, update `SYSTEM_OVERVIEW.md` as well.
