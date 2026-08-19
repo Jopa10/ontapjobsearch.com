@@ -70,7 +70,7 @@ jobs:
           echo "::error::Could not safely push reconciled master review after 3 attempts."
           exit 1
 
-      - name: Validate complete master review and fan out decisions
+      - name: Validate review with job-level isolation and fan out decisions
         working-directory: pipeline
         run: |
           python -m review_hub.master_review apply \
@@ -78,6 +78,32 @@ jobs:
             --write \
             --plan "$RUNNER_TEMP/ontap-review-publish-plan.json"
           cat "$RUNNER_TEMP/ontap-review-publish-plan.json"
+          python - "$RUNNER_TEMP/ontap-review-publish-plan.json" <<'PY'
+          import json
+          import os
+          import sys
+
+          plan = json.load(open(sys.argv[1], encoding="utf-8"))
+          quarantined = plan.get("quarantined_jobs", [])
+          isolated = plan.get("isolated_sources", [])
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
+              if quarantined:
+                  handle.write("\n### Job-level quarantine\n\n")
+                  handle.write(
+                      f"{len(quarantined)} unresolved or malformed review job(s) were withheld fail-closed; clean jobs continue.\n\n"
+                  )
+                  for row in quarantined[:15]:
+                      handle.write(
+                          f"- {row['source']}/{row['source_job_id']}: {row['title']}\n"
+                      )
+              if isolated:
+                  handle.write("\n### Source isolation\n\n")
+                  handle.write(
+                      "More than 15 unresolved/problem jobs or a source-integrity mismatch isolated: "
+                      + ", ".join(isolated)
+                      + ". Other clean sources continue.\n"
+                  )
+          PY
 
       - name: Verify fanout changed only source review surfaces
         run: |
@@ -229,59 +255,6 @@ jobs:
             return 1
           }
 
-          is_nonmaterial_external_drift() {
-            source="$1"
-            run_id="$2"
-            [ -n "$run_id" ] || return 1
-
-            case "$source" in
-              nejobs)
-                expected_drift="the live reviewable vacancy set differs from the reviewed set"
-                ;;
-              vonne)
-                expected_drift="the live reviewable VONNE set differs from the reviewed set"
-                ;;
-              *)
-                return 1
-                ;;
-            esac
-
-            run_logs="$(gh run view "$run_id" --log 2>/dev/null || true)"
-            RUN_LOGS="$run_logs" EXPECTED_DRIFT="$expected_drift" SOURCE_KEY="$source" python - <<'PY'
-          import os
-          import re
-
-          text = os.environ.get("RUN_LOGS", "")
-          expected = os.environ["EXPECTED_DRIFT"]
-          source = os.environ["SOURCE_KEY"]
-          drift_lines = [line for line in text.splitlines() if expected in line]
-          if not drift_lines:
-              raise SystemExit(1)
-          if "detail page(s) failed" in text:
-              raise SystemExit(1)
-
-          line = drift_lines[-1]
-
-          def ids_after(label: str) -> list[str]:
-              match = re.search(rf"{re.escape(label)}:\s*([^;|)]+)", line)
-              if not match:
-                  return []
-              return [value.strip() for value in match.group(1).split(",") if value.strip()]
-
-          new_ids = ids_after("new IDs")
-          missing_ids = ids_after("missing IDs")
-          total_drift = len(new_ids) + len(missing_ids)
-
-          if total_drift and len(new_ids) <= 2 and total_drift <= 4:
-              print(
-                  f"Non-material {source} drift: "
-                  f"{len(new_ids)} new, {len(missing_ids)} missing; source can be isolated."
-              )
-              raise SystemExit(0)
-          raise SystemExit(1)
-          PY
-          }
-
           python - "$PLAN" > "$RUNNER_TEMP/publish-queue.tsv" <<'PY'
           import json
           import sys
@@ -309,37 +282,22 @@ jobs:
               continue
             fi
 
-            if [ "$source" = "nejobs" ] || [ "$source" = "teaching_vacancies" ]; then
-              label="$source"
-              if [ "$source" = "nejobs" ]; then
-                label="NEJobs"
-              else
-                label="Teaching Vacancies"
+            label="$source"
+            case "$source" in
+              jobg8) label="JobG8" ;;
+              nejobs) label="NEJobs" ;;
+              vonne) label="VONNE" ;;
+              teaching_vacancies) label="Teaching Vacancies" ;;
+            esac
+            echo "::warning::$label publisher failed. Keeping its last approved state and continuing with other clean sources."
+            {
+              echo
+              echo "- $label publisher failed and was isolated from the wider Ontap publish."
+              echo "- Its last approved state remains in place; other clean sources continue publishing."
+              if [ -n "$LAST_RUN_ID" ]; then
+                echo "- Failed $label workflow run: $LAST_RUN_ID."
               fi
-              echo "::warning::$label publisher failed. Keeping its last approved snapshot and continuing with all other clean sources."
-              {
-                echo
-                echo "- $label publisher failed and was isolated from the wider Ontap publish."
-                echo "- Its last approved snapshot remains in place; other clean sources continue publishing."
-                if [ -n "$LAST_RUN_ID" ]; then
-                  echo "- Failed $label workflow run: $LAST_RUN_ID."
-                fi
-              } >> "$GITHUB_STEP_SUMMARY"
-              continue
-            fi
-
-            if is_nonmaterial_external_drift "$source" "$LAST_RUN_ID"; then
-              echo "::warning::$source changed only slightly after review. Keeping its last approved snapshot and continuing with the other clean sources."
-              {
-                echo
-                echo "- $source was skipped because live review drift was non-material (maximum 2 new review items / 4 total added-or-removed IDs)."
-                echo "- Its previously approved snapshot remains in place; other clean sources continue publishing."
-              } >> "$GITHUB_STEP_SUMMARY"
-              continue
-            fi
-
-            echo "::error::$source publisher failed and was not eligible for isolation."
-            exit 1
+            } >> "$GITHUB_STEP_SUMMARY"
           done < "$RUNNER_TEMP/publish-queue.tsv"
 
           if [ "$shared_publish" = "true" ]; then
@@ -354,10 +312,10 @@ jobs:
             echo
             echo "The master review was reconciled against the latest committed source state before validation."
             echo "Unchanged manual decisions were retained; jobs no longer requiring review were removed."
-            echo "If genuinely new or changed jobs appeared before validation, publishing stopped until those new blank actions were reviewed."
+            echo "Up to 15 unresolved or malformed review actions per source are withheld fail-closed at job level and flagged; clean jobs in that source can continue."
+            echo "More than 15 unresolved/problem jobs, or a source-level integrity mismatch, isolates that source rather than blocking unrelated inventory."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
-            echo "NEJobs and Teaching Vacancies are fail-soft at the master-publish boundary: a publisher failure keeps that source's last approved snapshot and does not block other clean sources or the final verified-page publish."
-            echo "The Teaching Vacancies child workflow still retains its own composition safety checks; fail-soft here does not commit a failed TV run."
-            echo "Small live drift in VONNE can also be isolated; other material source failures remain blocking."
+            echo "Any source publisher failure is fail-soft at the master boundary: its last approved state remains in place and other clean sources continue."
+            echo "The final shared verified-page publisher remains a system-level integrity gate and is still blocking if it fails."
           } >> "$GITHUB_STEP_SUMMARY"
