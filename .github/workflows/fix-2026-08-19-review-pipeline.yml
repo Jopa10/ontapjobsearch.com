@@ -88,39 +88,39 @@ jobs:
               raise SystemExit('discovery setup target not found')
           text = text.replace(old_setup, new_setup, 1)
           old_except = '''        except (OSError, ValueError, json.JSONDecodeError) as exc:
-                  failures.append(f"{url} — {type(exc).__name__}: {clean(exc)}")
-                  continue'''
+              failures.append(f"{url} — {type(exc).__name__}: {clean(exc)}")
+              continue'''
           new_except = '''        except (OSError, ValueError, json.JSONDecodeError) as exc:
-                  message = clean(exc)
-                  if isinstance(exc, OSError) and "HTTP Error 404" in message:
-                      # A vacancy can close between the stable listing sweep and
-                      # its detail fetch. A confirmed 404 means it no longer
-                      # exists and is safe to omit; all other failures remain fatal.
-                      disappeared.append(url)
-                      continue
-                  failures.append(f"{url} — {type(exc).__name__}: {message}")
-                  continue'''
+              message = clean(exc)
+              if isinstance(exc, OSError) and "HTTP Error 404" in message:
+                  # A vacancy can close between the stable listing sweep and
+                  # its detail fetch. A confirmed 404 means it no longer
+                  # exists and is safe to omit; all other failures remain fatal.
+                  disappeared.append(url)
+                  continue
+              failures.append(f"{url} — {type(exc).__name__}: {message}")
+              continue'''
           if old_except not in text:
               raise SystemExit('discovery exception target not found')
           text = text.replace(old_except, new_except, 1)
           old_return = '''    if failures:
-                  raise ValueError(
-                      "Teaching Vacancies source-wide detail fetch was incomplete:\\n- "
-                      + "\\n- ".join(failures)
-                  )
-              return tuple(merge_discovery_records(output))'''
+              raise ValueError(
+                  "Teaching Vacancies source-wide detail fetch was incomplete:\\n- "
+                  + "\\n- ".join(failures)
+              )
+          return tuple(merge_discovery_records(output))'''
           new_return = '''    if failures:
-                  raise ValueError(
-                      "Teaching Vacancies source-wide detail fetch was incomplete:\\n- "
-                      + "\\n- ".join(failures)
-                  )
-              if disappeared:
-                  print(
-                      f"Teaching Vacancies detail pages disappeared after listing: {len(disappeared)}"
-                  )
-                  for url in disappeared[:20]:
-                      print(f"- skipped confirmed 404: {url}")
-              return tuple(merge_discovery_records(output))'''
+              raise ValueError(
+                  "Teaching Vacancies source-wide detail fetch was incomplete:\\n- "
+                  + "\\n- ".join(failures)
+              )
+          if disappeared:
+              print(
+                  f"Teaching Vacancies detail pages disappeared after listing: {len(disappeared)}"
+              )
+              for url in disappeared[:20]:
+                  print(f"- skipped confirmed 404: {url}")
+          return tuple(merge_discovery_records(output))'''
           if old_return not in text:
               raise SystemExit('discovery return target not found')
           discovery.write_text(text.replace(old_return, new_return, 1), encoding='utf-8')
@@ -137,11 +137,7 @@ jobs:
 
 
           def row(job_id: str, region: str, source: str) -> dict:
-              return {
-                  'job_id': job_id,
-                  'region': region,
-                  'source': source,
-              }
+              return {'job_id': job_id, 'region': region, 'source': source}
 
 
           def test_north_east_public_rollup_accepts_detailed_external_regions() -> None:
@@ -174,11 +170,7 @@ jobs:
 
 
           def listing(url: str) -> DiscoveryRecord:
-              row = DiscoveryRecord(
-                  source=discovery.SOURCE,
-                  source_job_id='',
-                  canonical_url=url,
-              )
+              row = DiscoveryRecord(source=discovery.SOURCE, source_job_id='', canonical_url=url)
               row.add_provenance(route='route', query='query', page=1)
               return row
 
