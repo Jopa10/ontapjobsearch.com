@@ -340,7 +340,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225403352",
@@ -465,7 +469,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225429650",
@@ -565,7 +574,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Data entry",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225474179",
@@ -665,7 +679,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling"
+    ]
   },
   {
     "job_id": "107837200",
@@ -715,7 +733,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Pre-employment administration",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "23643_225474228",
@@ -740,7 +764,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "8e19422a-40bf-4ae0-a59b-f38a372bb881",
@@ -787,31 +815,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Nottingham Community Housing Association",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107830391",
-    "title": "Support Planner",
-    "company": "Framework Housing Association - Agency - Contract",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-08-14",
-    "description": "SUPPORT PLANNER STEPPING STONES, MANSFIELD, NG19 8 BG, 6 MONTH MATERNITY COVER, 37 HRS, GRADE 3, £26,269 FTE\n\nSupport Planner (Maternity Cover) Initially 6 months with the possibility of an extension 37hrs per week.\nStepping Stones Supported Accommodation Service Ashfield and Mansfield Areas\n\nAbout the Service:\n\nStepping Stones provides low level supported accommodation for individuals who need some ass click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZXSClvvCp6Ysp%2fq7j%2f%2bCrsj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Framework Housing Association",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",

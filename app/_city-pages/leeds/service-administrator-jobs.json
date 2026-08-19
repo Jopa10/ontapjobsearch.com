@@ -122,7 +122,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "00f003e0-65d1-48b6-86b7-36a6c34dfcb5",
@@ -272,7 +278,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Order processing"
+    ]
   },
   {
     "job_id": "4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64",

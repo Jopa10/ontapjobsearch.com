@@ -85,7 +85,12 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Medical and welfare support",
+      "Safeguarding",
+      "Emotional support"
+    ]
   },
   {
     "job_id": "a854b6bf-3ea8-4382-ba7d-0c7ffbe7d2f0",

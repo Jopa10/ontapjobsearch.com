@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 5
+- automatic include: 5
+- automatic review: 4
 - automatic exclude: 6
-- effective include: 4
-- effective review: 5
+- effective include: 5
+- effective review: 4
 - effective exclude: 6
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accommodation Support Worker
+company: The Society of St James - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1674633
+reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+---
 
 ---
 action: 
@@ -72,19 +84,7 @@ job_id: jobg8-1642087
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care & Support Worker
-company: Southern Housing - Agency - Permanent
-location: Ryde
-source: JobG8
-job_id: jobg8-107807442
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (4)
 
 ---
 action: 

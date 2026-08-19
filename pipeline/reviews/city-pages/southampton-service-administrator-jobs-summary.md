@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 59
+- automatic review: 61
 - automatic exclude: 1
 - effective include: 1
-- effective review: 59
+- effective review: 61
 - effective exclude: 1
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (59)
+## REVIEW (61)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Nurse Plus - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107824141
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Reed - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-86a249ca-521e-4523-9657-9f714577b183
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -623,6 +635,18 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Regional Casework Administrator - South East
+company: SSAFA - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1660397
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 

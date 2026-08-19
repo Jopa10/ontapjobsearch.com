@@ -131,7 +131,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225475225",
@@ -306,7 +310,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225454192",
@@ -331,7 +339,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "9733c0f8-fa32-48a1-bacb-f551007188c2",
@@ -356,7 +368,12 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "f681071c-0bb0-44d6-93f9-69def4367131",
@@ -406,7 +423,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry",
+      "Filing and document handling"
+    ]
   },
   {
     "job_id": "23643_225478870",
@@ -581,7 +603,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1595753",
@@ -606,7 +632,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Document preparation",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107762896",
@@ -656,7 +687,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Filing and document handling"
+    ]
   },
   {
     "job_id": "107863674",

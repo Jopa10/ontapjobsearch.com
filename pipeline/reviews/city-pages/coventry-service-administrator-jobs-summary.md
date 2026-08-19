@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 31
+- automatic exclude: 32
 - effective include: 2
 - effective review: 0
-- effective exclude: 31
+- effective exclude: 32
 
 ## INCLUDE (2)
 
@@ -50,7 +50,7 @@ reason: The stated workplace matches the approved Coventry employment-market pat
 
 ## REVIEW (0)
 
-## EXCLUDE (31)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -349,6 +349,18 @@ company: Thefutureworks - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-dfd7d156-9a1c-4512-9b81-e6446c2d5571
+reason: The stated workplace belongs outside the approved Coventry employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
+company: Apex Focus Group - Company - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-a5342311-988b-4d58-8648-2dec6ab655fc
 reason: The stated workplace belongs outside the approved Coventry employment market.
 ---
 

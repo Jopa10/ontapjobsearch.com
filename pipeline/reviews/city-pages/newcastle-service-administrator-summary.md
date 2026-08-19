@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 19
 - automatic review: 31
 - automatic exclude: 23
-- effective include: 17
+- effective include: 19
 - effective review: 30
 - effective exclude: 24
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -100,11 +100,35 @@ reason: North Tyneside is within the normal Newcastle employment and commuting c
 action: 
 decision: include
 automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-33ae573bb155210411f372c9d91f6158
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-153faf593eb64b88272f45adeaa28d87
+reason: The stated workplace is Newcastle or explicitly includes Newcastle.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-405f06a99b99d692d3dbd58aa6f29272
 reason: The stated workplace is Newcastle or explicitly includes Newcastle.
 ---
 
