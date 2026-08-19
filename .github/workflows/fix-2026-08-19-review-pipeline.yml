@@ -1,0 +1,296 @@
+name: Fix and recover 19 Aug review pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-2026-08-19-review-pipeline.yml'
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  fix-and-recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install test packages
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Patch Teaching Vacancies integration guards
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          composer = Path('pipeline/external_sources/compose_teaching_vacancies_regional.py')
+          text = composer.read_text(encoding='utf-8')
+          old_import = '''from external_sources.regional_contracts import (
+              CATEGORY_ADMIN_SERVICE,
+              load_slice_authorities,
+              publishable_region,
+          )'''
+          new_import = '''from external_sources.regional_contracts import (
+              CATEGORY_ADMIN_SERVICE,
+              canonical_public_region,
+              load_slice_authorities,
+              publishable_region,
+          )'''
+          if old_import not in text:
+              raise SystemExit('composer import target not found')
+          text = text.replace(old_import, new_import, 1)
+          old_contract = '''    regions = {text(row.get("region")) for row in base if text(row.get("region"))}
+              if len(regions) != 1:
+                  raise ValueError(
+                      "current admin/service output has blank or mixed base-row regions"
+                  )
+              if any(not text(row.get("job_id")) for row in base):
+                  raise ValueError("current admin/service base row has no job_id")
+              return next(iter(regions)), base, teaching'''
+          new_contract = '''    raw_regions = [text(row.get("region")) for row in base]
+              if any(not value for value in raw_regions):
+                  raise ValueError(
+                      "current admin/service output has blank or mixed base-row regions"
+                  )
+              regions = {canonical_public_region(value) for value in raw_regions}
+              if "" in regions or len(regions) != 1:
+                  raise ValueError(
+                      "current admin/service output has blank or mixed base-row regions"
+                  )
+              if any(not text(row.get("job_id")) for row in base):
+                  raise ValueError("current admin/service base row has no job_id")
+              return next(iter(regions)), base, teaching'''
+          if old_contract not in text:
+              raise SystemExit('composer contract target not found')
+          composer.write_text(text.replace(old_contract, new_contract, 1), encoding='utf-8')
+
+          discovery = Path('pipeline/external_sources/teaching_vacancies_discovery.py')
+          text = discovery.read_text(encoding='utf-8')
+          old_setup = '''    output: list[DiscoveryRecord] = []
+              failures: list[str] = []
+              for listing_record in discovered:'''
+          new_setup = '''    output: list[DiscoveryRecord] = []
+              failures: list[str] = []
+              disappeared: list[str] = []
+              for listing_record in discovered:'''
+          if old_setup not in text:
+              raise SystemExit('discovery setup target not found')
+          text = text.replace(old_setup, new_setup, 1)
+          old_except = '''        except (OSError, ValueError, json.JSONDecodeError) as exc:
+                  failures.append(f"{url} — {type(exc).__name__}: {clean(exc)}")
+                  continue'''
+          new_except = '''        except (OSError, ValueError, json.JSONDecodeError) as exc:
+                  message = clean(exc)
+                  if isinstance(exc, OSError) and "HTTP Error 404" in message:
+                      # A vacancy can close between the stable listing sweep and
+                      # its detail fetch. A confirmed 404 means it no longer
+                      # exists and is safe to omit; all other failures remain fatal.
+                      disappeared.append(url)
+                      continue
+                  failures.append(f"{url} — {type(exc).__name__}: {message}")
+                  continue'''
+          if old_except not in text:
+              raise SystemExit('discovery exception target not found')
+          text = text.replace(old_except, new_except, 1)
+          old_return = '''    if failures:
+                  raise ValueError(
+                      "Teaching Vacancies source-wide detail fetch was incomplete:\\n- "
+                      + "\\n- ".join(failures)
+                  )
+              return tuple(merge_discovery_records(output))'''
+          new_return = '''    if failures:
+                  raise ValueError(
+                      "Teaching Vacancies source-wide detail fetch was incomplete:\\n- "
+                      + "\\n- ".join(failures)
+                  )
+              if disappeared:
+                  print(
+                      f"Teaching Vacancies detail pages disappeared after listing: {len(disappeared)}"
+                  )
+                  for url in disappeared[:20]:
+                      print(f"- skipped confirmed 404: {url}")
+              return tuple(merge_discovery_records(output))'''
+          if old_return not in text:
+              raise SystemExit('discovery return target not found')
+          discovery.write_text(text.replace(old_return, new_return, 1), encoding='utf-8')
+          PY
+
+      - name: Add focused regression tests
+        run: |
+          cat > pipeline/tests/test_compose_teaching_vacancies_regional_rollup.py <<'PY'
+          from __future__ import annotations
+
+          import pytest
+
+          from external_sources.compose_teaching_vacancies_regional import current_base_contract
+
+
+          def row(job_id: str, region: str, source: str) -> dict:
+              return {
+                  'job_id': job_id,
+                  'region': region,
+                  'source': source,
+              }
+
+
+          def test_north_east_public_rollup_accepts_detailed_external_regions() -> None:
+              region, base, teaching = current_base_contract([
+                  row('jobg8-1', 'North East', 'JobG8'),
+                  row('nejobs-1', 'North East - Tyneside, Wearside & Northumberland', 'NEJobs'),
+                  row('vonne-1', 'North East - County Durham & Darlington/Hartlepool', 'VONNE'),
+              ])
+              assert region == 'North East'
+              assert len(base) == 3
+              assert teaching == []
+
+
+          def test_unrelated_mixed_regions_remain_blocked() -> None:
+              with pytest.raises(ValueError, match='blank or mixed'):
+                  current_base_contract([
+                      row('jobg8-1', 'North East', 'JobG8'),
+                      row('jobg8-2', 'Yorkshire - West', 'JobG8'),
+                  ])
+          PY
+
+          cat > pipeline/tests/test_teaching_vacancies_discovery_404.py <<'PY'
+          from __future__ import annotations
+
+          import pytest
+
+          from external_sources import teaching_vacancies_discovery as discovery
+          from external_sources import teaching_vacancies_poc as poc
+          from external_sources.regional_contracts import DiscoveryRecord
+
+
+          def listing(url: str) -> DiscoveryRecord:
+              row = DiscoveryRecord(
+                  source=discovery.SOURCE,
+                  source_job_id='',
+                  canonical_url=url,
+              )
+              row.add_provenance(route='route', query='query', page=1)
+              return row
+
+
+          def vacancy(url: str) -> poc.Vacancy:
+              return poc.Vacancy(
+                  source_job_id='TV-1',
+                  title='Administrator',
+                  employer='Example School',
+                  location='London',
+                  salary_text='£25,000',
+                  posted_date='2026-08-19',
+                  closing_date='2026-08-31',
+                  employment_type='FULL_TIME',
+                  description_excerpt='Administrative duties',
+                  source_url=url,
+              )
+
+
+          def test_confirmed_404_after_listing_is_omitted() -> None:
+              gone = 'https://teaching-vacancies.service.gov.uk/jobs/gone'
+              live = 'https://teaching-vacancies.service.gov.uk/jobs/live'
+
+              def request_text(url: str) -> str:
+                  if url == gone:
+                      raise OSError('Teaching Vacancies request failed after 4 attempts — HTTP Error 404: Not Found')
+                  return '<html></html>'
+
+              records = discovery.detail_records(
+                  (listing(gone), listing(live)),
+                  request_text=request_text,
+                  parse_detail=lambda _document, url: vacancy(url),
+              )
+              assert len(records) == 1
+              assert records[0].canonical_url == live
+
+
+          def test_non_404_detail_failure_still_blocks_run() -> None:
+              url = 'https://teaching-vacancies.service.gov.uk/jobs/broken'
+              with pytest.raises(ValueError, match='detail fetch was incomplete'):
+                  discovery.detail_records(
+                      (listing(url),),
+                      request_text=lambda _url: (_ for _ in ()).throw(OSError('HTTP Error 500')),
+                      parse_detail=lambda _document, detail_url: vacancy(detail_url),
+                  )
+          PY
+
+      - name: Run regression and existing integration tests
+        working-directory: pipeline
+        run: |
+          python -m pytest \
+            tests/test_compose_teaching_vacancies_regional.py \
+            tests/test_compose_teaching_vacancies_regional_rollup.py \
+            tests/test_teaching_vacancies_discovery.py \
+            tests/test_teaching_vacancies_discovery_404.py \
+            -q
+
+      - name: Commit tested fixes
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            pipeline/external_sources/compose_teaching_vacancies_regional.py \
+            pipeline/external_sources/teaching_vacancies_discovery.py \
+            pipeline/tests/test_compose_teaching_vacancies_regional_rollup.py \
+            pipeline/tests/test_teaching_vacancies_discovery_404.py
+          git commit -m 'Fix regional composition and vanished Teaching Vacancies'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Refresh JobG8, Teaching Vacancies and master review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          dispatch_and_wait() {
+            workflow="$1"
+            label="$2"
+            started="$(date -u +%s)"
+            echo "Dispatching $label ($workflow)"
+            gh workflow run "$workflow" --ref main
+            for attempt in $(seq 1 60); do
+              runs_json="$(gh run list --workflow "$workflow" --branch main --event workflow_dispatch --limit 10 --json databaseId,createdAt)"
+              run_id="$(RUNS_JSON="$runs_json" STARTED="$started" python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          started = int(os.environ['STARTED'])
+          rows = json.loads(os.environ['RUNS_JSON'])
+          candidates = []
+          for row in rows:
+              created = dt.datetime.fromisoformat(row['createdAt'].replace('Z', '+00:00'))
+              if int(created.timestamp()) >= started - 3:
+                  candidates.append((created, row['databaseId']))
+          if candidates:
+              print(max(candidates)[1])
+          PY
+              )"
+              if [ -n "$run_id" ]; then
+                echo "Watching $label run $run_id"
+                gh run watch "$run_id" --exit-status
+                return 0
+              fi
+              sleep 3
+            done
+            echo "::error::Could not locate dispatched $label run"
+            return 1
+          }
+
+          dispatch_and_wait run-full-jobg8-daily-process.yml 'JobG8 daily refresh'
+          dispatch_and_wait run-teaching-vacancies-regional-review.yml 'Teaching Vacancies regional review'
+          dispatch_and_wait ontap-daily-review.yml 'Ontap daily review'
