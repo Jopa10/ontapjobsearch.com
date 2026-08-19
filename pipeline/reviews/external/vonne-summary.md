@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-08-18
-review_fingerprint: ae6cdf46ce6d205877f0c16ccd58b59074115d52afd1dacbcf4b635677b5d9c5
+review_date: 2026-08-19
+review_fingerprint: 73fb81311ea67804f5e18e5c268a3cd73ec3d71b597f43314e8340a77ada739e
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,46 +10,36 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-08-18T08:20:34+01:00
+Run generated: 2026-08-19T08:22:00+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 335
-Approved NEJobs comparison rows: 3
+JobG8 comparison rows: 283
+Approved NEJobs comparison rows: 33
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 5
-- Detail pages fetched successfully: 5
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 10
-- Tees Valley explicitly excluded: 0
+- Obvious hard passes not detail-fetched: 11
+- Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 0
 - Generic/derived geography rows requiring review: 5
-- Retained target candidates: 15
+- Retained target candidates: 14
 
 ## Outcomes
-- HC: 1
-- POSS: 8
-- HARD_PASS: 6
-- Final selected after remembered/manual actions: 4
+- HC: 0
+- POSS: 7
+- HARD_PASS: 7
+- Final selected after remembered/manual actions: 3
 - Final POSS awaiting decision: 1
-- Manually excluded: 4
+- Manually excluded: 3
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
 ## SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,213 Pro Rata | Information and Communications Administrator (Living Well North Tyneside)
-employer: North Tyneside VODA
-closing_date: Monday, August 31, 2026 - 17:00
-geography: CONFIRMED — location: approved location fallback
-reason: clear transferable title: administrator
-source: VONNE
-tracking_key: vonne-173321
-source_job_id: 173321
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173321
----
+- None.
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -65,30 +55,6 @@ source_job_id: 173334
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
 ---
 ---
-action: select
-POSS | North East | Hybrid | £ Per Annum | Business Development Manager
-employer: North East Young Dads and Lads
-closing_date: 06 September 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173336
-source_job_id: 173336
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173336
----
----
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Bereavement Counsellor
-employer: Age UK County Durham
-closing_date: 04 September 2026
-geography: CONFIRMED — location: exact area
-reason: annualised upper salary £34,592 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173322
-source_job_id: 173322
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173322
----
----
 action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Counsellor/Psychotherapist
 employer: Age UK County Durham
@@ -99,6 +65,18 @@ source: VONNE
 tracking_key: vonne-173323
 source_job_id: 173323
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £31,005 Pro Rata | Community Engagement Tutor - Ashington Learning Hive
+employer: Northern Learning Trust
+closing_date: 07 September 2026
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £31,005 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173341
+source_job_id: 173341
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173341
 ---
 ---
 action: exclude
@@ -154,6 +132,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173331
 
 ## HARD_PASS
 
+- [Business Development Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173336) — confirmed JobG8 duplicate.
 - [DadVocate Programme Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173337) — out-of-scope VONNE occupation.
 - [Deputy Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173324) — out-of-scope VONNE occupation.
 - [Energy and Retrofit Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173328) — insufficient service-admin evidence.
