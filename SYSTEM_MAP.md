@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Added post-publish production deployment verification to `publish-verified-pages.yml`: after the final user-facing publish commit, the workflow polls the live `/api/deployment-version` endpoint for up to about five minutes and accepts the published commit or any newer `main` commit. If production remains behind, it raises/updates a GitHub Issue; a later healthy verification auto-closes the alert.
 - 19 August 2026 — Activated six additional Service Admin slices from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. Dynamic LIVE slices flow through the existing configured-slice publisher, Browse Jobs and published-job search layers; the homepage now also consumes published dynamic Admin slices instead of relying only on its older hard-coded region list.
 - 19 August 2026 — Added same-feed 33-region family coverage: Service Admin and Support Worker are assessed diagnostically across all 33 canonical regions inside the main JobG8 daily run using the exact production feed and config-driven production wrappers; the later regional overview consumes that committed coverage without re-downloading JobG8.
 - 19 August 2026 — Added publication failure isolation: up to 15 unresolved/malformed jobs per source are withheld fail-closed while clean jobs continue; larger clusters isolate that source, and source publisher failures retain the last approved state rather than blocking unrelated inventory.
@@ -25,7 +26,7 @@ Purpose: how job data moves from source to published/indexed output.
 
 Canonical stages:
 
-`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → index`
+`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → deploy verification → index`
 
 ### Main scheduled JobG8 path
 
@@ -81,7 +82,7 @@ Confirmed source publisher paths include:
 - VONNE — `build-approved-vonne-output.yml`;
 - Teaching Vacancies — regional approved publisher(s), including `build-approved-teaching-vacancies-regional.yml`.
 
-`publish-verified-pages.yml` is the final bridge from reviewed/composed pipeline outputs into user-facing `app/**.json`, live-job reports and city-page outputs.
+`publish-verified-pages.yml` is the final bridge from reviewed/composed pipeline outputs into user-facing `app/**.json`, live-job reports and city-page outputs. After its final user-facing commit it also owns production deployment verification; this check is not a separate deployment pipeline.
 
 ### External-source review paths
 
@@ -156,6 +157,7 @@ Verified structure:
 - `app/browse-jobs/page.tsx` already consumes `getPublishedDynamicSlices()`, so newly published LIVE configured slices appear without hard-coded Browse entries.
 - `lib/published-jobs.ts` admits non-empty published dynamic slices into the common job pool, so `/jobs/search` automatically searches them and job-detail backlinks resolve to their dynamic slice routes.
 - the homepage Admin region grid now also consumes published dynamic Admin slices, while retaining established static/city routes.
+- `app/api/deployment-version/route.ts` exposes the currently deployed Vercel Git commit SHA with no-store caching for deployment verification.
 
 ### Website refactor rule
 
@@ -185,6 +187,19 @@ Purpose: workflows, scheduling, deployment, alerts, indexing integrations and pe
 The canonical owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`; source-specific publishers are implementation details behind that orchestration where possible.
 
 The owner-facing publish gate is fail-soft by default at job and source level. Up to 15 bad/unresolved jobs in one source are withheld and flagged while clean jobs continue; larger source problems leave that source's previous approved state in place and do not abort publication of unrelated clean inventory. A final combined/publication integrity failure remains blocking.
+
+### Post-publish production deployment verification
+
+`publish-verified-pages.yml` now verifies that the live Vercel production deployment has caught up after the workflow's final user-facing commit:
+
+- checkout uses full Git history so commit ancestry can be checked;
+- the expected commit is the final local `HEAD` after verified-page and city-page publication commits;
+- the workflow polls `https://www.ontapjobsearch.com/api/deployment-version` every 30 seconds for up to 10 attempts (about five minutes);
+- a live deployment is healthy when its deployed SHA is the expected commit or a newer commit on the same `main` history;
+- if production remains stale, the workflow records a warning and raises or updates the GitHub Issue `Ontap production deployment is stale` with the expected SHA, live SHA and workflow-run link;
+- a later healthy verification auto-closes the open stale-deployment Issue.
+
+The check is observational/fail-soft: it does not roll back clean published repository state merely because Vercel is delayed, but it prevents repo/live divergence from remaining silent.
 
 ### Google Indexing API
 
