@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 19 August 2026 — Added a separate **4-job homepage visibility floor** for active city pages. City routes remain permanent below four jobs; only the homepage card is hidden until supply returns to 4+.
 - 19 August 2026 — Approved five further Service Admin city pages: **Bradford, Huddersfield, York, Barnsley and Doncaster**. Initial catchments are exact-city only. Active city pages are permanent once launched.
 - 19 August 2026 — Made the city-page geography rule explicit: a city page represents a **city-anchored local employment/commuting catchment**, not simply an exact city-name string. Nearby towns/suburbs may be added only when they genuinely belong to the same labour market and the decision is recorded in the city-page register.
 - 19 August 2026 — Put **Durham Service Admin on HOLD** because the present `durham` opportunity-market pattern can also match broad `County Durham` locations. Durham must be separated from County Durham and then requalified before launch.
@@ -36,7 +37,15 @@ The launch gate is evidence-led: **6+ current jobs and at least 3 qualifying run
 
 Once explicitly active, a city route is permanent even if inventory later drops below six. The daily publication path continues to rebuild its private city JSON from the approved parent regional page.
 
-The geographic unit is an **approved local employment/commuting catchment anchored on the named city**. Launch should start conservatively. Catchments can later include nearby towns/suburbs only where they clearly belong to the same labour market and are recorded as explicit include/review/exclude rules.
+Homepage prominence is a separate rule: an active city page is shown as a homepage city card only at **4+ current jobs**. At 0–3 jobs the route remains live/indexable and continues to refresh, but its homepage card is hidden until supply returns to 4+.
+
+The three city thresholds are therefore:
+
+- **6 jobs** = launch qualification threshold, with 3 of 7 qualifying runs and explicit approval;
+- **4 jobs** = homepage city-card visibility floor;
+- **0 jobs** = permitted retained state for an already-active permanent route.
+
+The geographic unit is an **approved local employment/commuting catchment anchored on the named city**. Launch should start conservatively. Catchments can later include nearby towns/suburbs only where they clearly belong to the same labour market and are recorded as explicit include/review/exclude rules. Low inventory is not a reason to widen a catchment artificially.
 
 Examples: Leeds includes Pudsey; Newcastle includes Gateshead, North Tyneside, Shiremoor and Wideopen; Brighton & Hove includes Portslade.
 
@@ -60,7 +69,9 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin region grid through the shared configured-slice/published-job mechanisms.
 
-City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The five new approved routes are:
+City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The homepage city grid independently suppresses active city cards below 4 current jobs without changing the route, sitemap/indexing status or daily refresh behaviour.
+
+The five new approved routes are:
 
 - `/bradford/service-administrator-jobs`
 - `/huddersfield/service-administrator-jobs`
@@ -95,4 +106,4 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 ## Current state
 
-Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Durham remains deliberately held pending the County Durham geography safeguard.
+Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Active city routes remain permanent below four jobs but are hidden from the homepage until they return to 4+. Durham remains deliberately held pending the County Durham geography safeguard.
