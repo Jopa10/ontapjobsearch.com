@@ -7,7 +7,10 @@ from pathlib import Path
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 
-from jobg8_xml_adapter import convert
+try:
+    from .jobg8_xml_adapter import convert
+except ImportError:  # Direct script execution from pipeline/scripts.
+    from jobg8_xml_adapter import convert
 
 
 def download(feed_url: str, target: Path, attempts: int = 4, timeout: int = 180) -> None:
