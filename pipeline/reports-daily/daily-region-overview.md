@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-19T18:15:50+00:00
+Generated: 2026-08-19T19:18:27+00:00
 
 > LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-19.csv` on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-19) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor remains test-only; `—` there means not assessed / no current source.
 
