@@ -1,0 +1,50 @@
+name: Observe NEJobs failure 2026-08-19
+
+on:
+  push:
+    paths:
+      - '.github/workflows/observe-nejobs-failure-2026-08-19.yml'
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Capture latest apply and NEJobs runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p pipeline/reports-daily
+          report=pipeline/reports-daily/nejobs-failure-2026-08-19.txt
+          {
+            echo 'LATEST APPLY/PUBLISH RUNS'
+            gh run list --workflow apply-publish-ontap-daily-review.yml --limit 5 --json databaseId,createdAt,status,conclusion,headSha,event
+            echo
+            echo 'LATEST NEJOBS PUBLISH RUNS'
+            gh run list --workflow build-approved-nejobs-output.yml --limit 5 --json databaseId,createdAt,status,conclusion,headSha,event
+            echo
+          } > "$report"
+          run_id="$(gh run list --workflow build-approved-nejobs-output.yml --event workflow_dispatch --limit 1 --json databaseId --jq '.[0].databaseId')"
+          {
+            echo "LATEST_NEJOBS_RUN_ID=$run_id"
+            echo
+            echo 'FAILED LOGS'
+            gh run view "$run_id" --log-failed || true
+          } >> "$report"
+      - name: Commit diagnosis report
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pipeline/reports-daily/nejobs-failure-2026-08-19.txt
+          git commit -m 'Record NEJobs publish failure diagnosis'
+          git push origin HEAD:main
