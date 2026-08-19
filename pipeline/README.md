@@ -12,7 +12,7 @@ The primary JobG8 entry point is:
 
 It runs twice daily and performs the current production path:
 
-`JobG8 feed → materialize pipeline/input/jobg8.xlsx → validate → classify/select LIVE slices → compose approved external-source jobs → enrich metadata → write pipeline outputs/reviews/reports → commit generated state`
+`JobG8 feed → materialize pipeline/input/jobg8.xlsx → validate → classify/select LIVE slices → compose approved external-source jobs → enrich metadata → assess 33-region family coverage → write pipeline outputs/reviews/reports → commit generated state`
 
 The active category processing used by that workflow includes:
 
@@ -37,11 +37,11 @@ Do not add another copy of the download/adapter shell sequence to a workflow. Ex
 
 ## Daily 33-region family coverage
 
-`.github/workflows/build-daily-region-overview.yml` remains the single recurring owner of `reports-daily/daily-region-overview.md`.
+The 33-region Service Admin / Support Worker diagnostic assessment is now part of `.github/workflows/run-full-jobg8-daily-process.yml`, so it uses the exact same materialized JobG8 workbook as the production family run rather than downloading a later copy of the feed.
 
-After the normal overview is built, `scripts/assess_daily_family_coverage.py` runs the existing production Service Admin and Support Worker family selectors in a diagnostic-only 33-region mode against the current JobG8 input. It uses `config/job_slice_catalog.json` for the canonical 33-region set and anchor towns, the shared geo lookup, the existing title/refinement registers, salary/context rules and same-day manual decisions.
+`scripts/assess_daily_family_coverage.py` imports the config-driven production family wrappers, reuses persistent JobG8 review decisions, the canonical geo, title/refinement registers, salary/context rules and catalog anchors, then expands those selectors in memory across all 33 canonical overview regions. It writes `reports-daily/daily-family-coverage.csv` only; it does not change the slice register, production family JSON or publishing state.
 
-The diagnostic pass writes `reports-daily/daily-family-coverage.csv` and replaces the NOT LIVE Service Admin / Support Worker cells in the overview with genuine assessed counts, including true zeroes. It does not change `region_category_slice_register.csv`, production output JSON, LIVE publication thresholds, review state or website publishing behaviour. Sales Advisor remains outside this mechanism until its family is formally built.
+`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. It no longer downloads JobG8 or reruns the family assessment. Instead it builds the LIVE overview from published state and then applies the already committed same-feed `daily-family-coverage.csv` to the NOT LIVE Service Admin / Support Worker cells. A numeric zero therefore means assessed zero, not unassessed. Sales Advisor remains outside this mechanism until its family is formally built.
 
 ## External sources
 
