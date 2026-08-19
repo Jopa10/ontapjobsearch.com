@@ -7,7 +7,7 @@ on:
       - '.github/workflows/recover-2026-08-19-review.yml'
 
 permissions:
-  contents: read
+  contents: write
   actions: write
   id-token: write
 
@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -61,6 +62,18 @@ jobs:
           if resolved != '2026-08-18':
               raise SystemExit(f'Archive replay date is still wrong: {resolved}')
           PY
+
+      - name: Record archive proof
+        run: |
+          set -euo pipefail
+          mkdir -p pipeline/reports-daily
+          printf 'archive_restore_date_proof=success\narchive=jobg8/raw/2026-08-18.zip\nresolved_feed_date=2026-08-18\n' > pipeline/reports-daily/recovery-2026-08-19-status.txt
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pipeline/reports-daily/recovery-2026-08-19-status.txt
+          git commit -m 'Confirm JobG8 archive replay date fix'
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Refresh JobG8, Teaching Vacancies and master review
         env:
