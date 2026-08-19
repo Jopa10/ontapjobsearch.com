@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 28
 - automatic review: 18
 - automatic exclude: 22
-- effective include: 27
+- effective include: 28
 - effective review: 18
 - effective exclude: 22
 
-## INCLUDE (27)
+## INCLUDE (28)
 
 ---
 action: 
@@ -141,6 +141,18 @@ company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-180c56f1-188b-4257-b36d-f49bf2420346
+reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Administrator
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225408563
 reason: The stated workplace matches the approved Leeds employment-market pattern `leeds`.
 ---
 

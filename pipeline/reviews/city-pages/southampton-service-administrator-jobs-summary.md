@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 60
+- automatic review: 59
 - automatic exclude: 1
 - effective include: 1
-- effective review: 60
+- effective review: 59
 - effective exclude: 1
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
 ---
 
-## REVIEW (60)
+## REVIEW (59)
 
 ---
 action: 
@@ -138,18 +138,6 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
-title: Corporate Administrator
-company: Radcliffe & Co (Life & Pensions) Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1671015
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Crewing Coordinator
 company: TSL Lighting - Agency - Permanent
 location: Hampshire
@@ -198,11 +186,11 @@ reason: The stated location is broader or less specific than the approved Southa
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: wild recruitment - Agency - Permanent
+title: Data Entry Admin - Basingstoke
+company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
-job_id: jobg8-d085c5f2-2439-4e83-81a8-b5d43af25dff
+job_id: jobg8-23643_225510987
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -299,6 +287,18 @@ company: Office Angels - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-c7513af2-74eb-4011-bb87-5b623fbf8fc4
+reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Services Administrator
+company: AWD online - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-6996d07d-dfa8-4872-ab3c-d675c2a4932e
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 
@@ -707,18 +707,6 @@ company: Additional Resources Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-e1606359-364e-43e8-8eb4-2a52ebeee938
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor - Southampton
-company: Silcom Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-e63de2d1-ff77-49ad-8209-3e0dcb2b46eb
 reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
 ---
 

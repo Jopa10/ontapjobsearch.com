@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 12
 - automatic review: 1
 - automatic exclude: 14
-- effective include: 9
+- effective include: 12
 - effective review: 1
 - effective exclude: 14
 
-## INCLUDE (9)
+## INCLUDE (12)
 
 ---
 action: 
@@ -76,6 +76,30 @@ reason: The stated workplace matches the approved Sheffield employment-market pa
 action: 
 decision: include
 automatic_decision: include
+title: Import/Export Coordinator
+company: Hays Business Support - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225437743
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Co-ordinator
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225439789
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Resourcer / Administrator
 company: Lynx Employment Services Ltd - Agency - Temporary
 location: Sheffield
@@ -93,6 +117,18 @@ company: Reed - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-2cd38f87-cca5-45fb-886a-f1a14694c677
+reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator - German Speaking
+company: Rise Technical Recruitment - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225435429
 reason: The stated workplace matches the approved Sheffield employment-market pattern `sheffield`.
 ---
 

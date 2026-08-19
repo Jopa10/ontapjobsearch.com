@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 29
+- automatic exclude: 31
 - effective include: 2
 - effective review: 0
-- effective exclude: 29
+- effective exclude: 31
 
 ## INCLUDE (2)
 
@@ -50,7 +50,7 @@ reason: The stated workplace matches the approved Coventry employment-market pat
 
 ## REVIEW (0)
 
-## EXCLUDE (29)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -105,10 +105,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Business Administrator
-company: Get Staffed - Agency - Permanent
+company: Industrial Trading Solutions Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225397143
+job_id: jobg8-23643_225433641
 reason: The stated workplace belongs outside the approved Coventry employment market.
 ---
 
@@ -117,10 +117,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Business Administrator
-company: Industrial Trading Solutions Ltd - Agency - Permanent
+company: The Cinnamon Care Collection - Company - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225433641
+job_id: jobg8-23643_225451278
 reason: The stated workplace belongs outside the approved Coventry employment market.
 ---
 
@@ -157,6 +157,30 @@ company: AD Finance - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-00f1e237-afc8-489f-9ca4-42b6e740606a
+reason: The stated workplace belongs outside the approved Coventry employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Financial Services Administrator
+company: Recruit UK - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-c288290a-ae92-46d1-ab82-b244cc5be2b5
+reason: The stated workplace belongs outside the approved Coventry employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Hr Assistant
+company: Alliance Personnel - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225440078
 reason: The stated workplace belongs outside the approved Coventry employment market.
 ---
 
