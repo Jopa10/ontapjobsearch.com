@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Homepage browse ordering now presents regional slices before city pages. Regional inventory is the primary breadth signal; city pages remain a secondary local layer, still subject to the 4-job homepage visibility floor.
 - 19 August 2026 — Replaced reliance on Vercel noticing Git pushes with an explicit deploy-hook path. A successful `Publish verified pages` run automatically triggers `Deploy Ontap production after publish`, which POSTs the `VERCEL_DEPLOY_HOOK_URL` repository secret and verifies the live deployment SHA. Failures raise/update the GitHub Issue `Ontap production deployment is stale`; healthy recovery closes it.
 - 19 August 2026 — Added a separate city homepage visibility floor: active city pages remain permanent, but homepage city cards appear only at 4+ current jobs. The launch threshold remains 6 jobs with 3 of 7 qualifying runs plus explicit approval.
 - 19 August 2026 — Approved five additional Service Admin city pages: Bradford, Huddersfield, York, Barnsley and Doncaster. Initial include rules are exact-city only; the shared city-page framework owns derivation and permanence.
@@ -160,6 +161,7 @@ Verified structure:
 - `app/_city-pages/configured-slices/` holds dynamic configured-slice data;
 - `app/job-search/[region]/...` is the dynamic route family;
 - Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin grid consume published dynamic slices through shared mechanisms;
+- homepage browse ordering is regional-first, then city, to make regional inventory breadth the primary visual signal;
 - `lib/city-page-data.ts` reads `pipeline/city_pages/city-page-register.json` and resolves active city definitions/data;
 - public city routes read private derived JSON under `app/_city-pages/...`, preventing duplicate job-detail URLs;
 - homepage city cards are filtered independently at 4+ current jobs; this does not change route activation/permanence;
