@@ -1,91 +1,93 @@
 # Ontap System Overview
 
 **Last updated:** 19 August 2026  
-**Status:** Agreed architecture cleanup 1–5 merged into `main` via PR #211.
+**Status:** Canonical production state after architecture cleanup, regional expansion and city-page expansion.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
-- 19 August 2026 — Added post-publish production deployment verification: after the final user-facing publish commit, `Publish verified pages` waits for Vercel production to deploy that commit or a newer `main` commit. If production is still stale after the verification window, the workflow raises/updates a GitHub Issue; once production catches up, the alert is auto-closed.
-- 19 August 2026 — Activated six additional Service Admin regions from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. They now use the normal LIVE slice path; Browse and Search already consume dynamic slices automatically, and the homepage Admin grid now does too.
-- 19 August 2026 — Added same-feed daily coverage for Service Admin and Support Worker across all 33 canonical regions, allowing true current zeroes and expansion decisions without relying on stale fallback counts.
-- 19 August 2026 — Added fail-soft publication hierarchy: up to 15 problem jobs in one source are withheld and flagged while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
-- 19 August 2026 — Made NEJobs fail-soft in the owner publish workflow: an NEJobs publisher failure now keeps the last approved NEJobs snapshot, raises a workflow warning and lets the other clean sources continue publishing.
-- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; the cleanup is now part of the canonical production repository state.
-- 19 August 2026 — Implemented the agreed cleanup: removed proven one-off/recovery workflows, fixed stale pipeline documentation, shared the repeated JobG8 materialisation used by NEJobs/VONNE, retired superseded standalone category workflows/old May script, and removed dated one-off diagnostics.
-- 19 August 2026 — Made the business-priority rule explicit: Ontap is not refactored for technical neatness alone.
-- 19 August 2026 — Completed the first architecture audit and verified the main JobG8, review/publish, external-source, website-data and Google indexing paths.
+- 19 August 2026 — Approved five further Service Admin city pages: **Bradford, Huddersfield, York, Barnsley and Doncaster**. Initial catchments are exact-city only. Active city pages are permanent once launched.
+- 19 August 2026 — Made the city-page geography rule explicit: a city page represents a **city-anchored local employment/commuting catchment**, not simply an exact city-name string. Nearby towns/suburbs may be added only when they genuinely belong to the same labour market and the decision is recorded in the city-page register.
+- 19 August 2026 — Put **Durham Service Admin on HOLD** because the present `durham` opportunity-market pattern can also match broad `County Durham` locations. Durham must be separated from County Durham and then requalified before launch.
+- 19 August 2026 — Added post-publish production deployment verification: after the final user-facing publish commit, `Publish verified pages` waits for Vercel production to deploy that commit or a newer `main` commit. A stale deployment raises/updates a GitHub Issue and a later healthy verification auto-closes it.
+- 19 August 2026 — Activated six additional Service Admin regions from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
+- 19 August 2026 — Added same-feed daily coverage for Service Admin and Support Worker across all 33 canonical regions.
+- 19 August 2026 — Added fail-soft publication hierarchy: small job-level problems are withheld while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
+- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211.
 
 ## 1. Pipeline
 
-The working core is being preserved.
-
 The main JobG8 process remains the production ingest/process path. NEJobs, VONNE and Teaching Vacancies retain their review paths. After review, the single **Apply and publish Ontap daily review** workflow coordinates source publishers and the final verified-page publish.
 
-Service Admin now has six further LIVE regional slices: **Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East**. They use the same central register, production selector and verified-page publishing mechanism as other LIVE dynamic slices.
+Service Admin now includes the six additional LIVE regional slices approved on 19 August. They use the same central register, production selector and verified-page publishing mechanism as the other LIVE dynamic slices.
 
 The publish rule is deliberately fail-soft:
 
-**up to 15 bad/unresolved jobs in one source are withheld and flagged while the clean jobs continue; more than 15, or a source-integrity problem, isolates that source and keeps its last approved state; only a genuine whole-publication integrity failure should stop everything.**
+**up to 15 bad/unresolved jobs in one source are withheld and flagged while clean jobs continue; more than 15, or a source-integrity problem, isolates that source and keeps its last approved state; only a genuine whole-publication integrity failure should stop everything.**
 
-This includes simple review mistakes such as a misspelt action: the affected job is withheld rather than allowing one bad row to derail hundreds or thousands of clean jobs.
+The old May monolithic pipeline and older standalone service-admin/support-worker workflows have been removed because the current full/reviewed pipeline covers those operational paths.
 
-The cleanup removes surrounding duplication rather than redesigning selection logic. NEJobs and VONNE now share one tested current-JobG8 materialisation helper instead of carrying repeated feed-download/conversion blocks.
+### City-page pipeline
 
-The old May monolithic pipeline and the older standalone service-admin/support-worker workflows have been removed because the current full/reviewed pipeline covers those operational paths.
+City pages are derived views of final approved regional pages; they are not separate feeds or classification pipelines.
+
+The launch gate is evidence-led: **6+ current jobs and at least 3 qualifying runs in the last 7 verified-publish runs**, followed by explicit human approval. READY FOR APPROVAL does not auto-publish.
+
+Once explicitly active, a city route is permanent even if inventory later drops below six. The daily publication path continues to rebuild its private city JSON from the approved parent regional page.
+
+The geographic unit is an **approved local employment/commuting catchment anchored on the named city**. Launch should start conservatively. Catchments can later include nearby towns/suburbs only where they clearly belong to the same labour market and are recorded as explicit include/review/exclude rules.
+
+Examples: Leeds includes Pudsey; Newcastle includes Gateshead, North Tyneside, Shiremoor and Wideopen; Brighton & Hove includes Portslade.
+
+Newly approved on 19 August 2026: **Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin**. Their launch catchments are exact-city only.
+
+**Durham is not approved.** The current opportunity rule can confuse Durham city with broad County Durham locations; it must be corrected and the history recalculated before Durham can qualify.
 
 ## 2. Reports / diagnostics
 
-Routine operational reporting remains intact.
+The daily regional overview is backed by same-feed Service Admin and Support Worker assessments across all 33 canonical regions. A zero in those assessed families is a real current zero rather than “not assessed”.
 
-The daily regional overview is now backed by same-feed Service Admin and Support Worker assessments across all 33 canonical regions. A zero in those assessed families is a real current zero rather than “not assessed”; this report is now a practical expansion-control surface as well as a diagnostic.
+The city-opportunity report scans published regional/category slices against registered local markets and records seven-run qualification history. It is an expansion-control surface, not an automatic publisher.
 
-Dated one-off recovery/failure reports have been removed from the working tree. The rule going forward is:
+Dated one-off recovery/failure reports are not part of the permanent working tree. The reporting rule is:
 
 **recurring operations / specialist analysis / one-off diagnostics in Actions artifacts or Git history.**
 
-Compiler Modules 1/2/3 remain legitimate analysis tools. No broad report-folder move has been made where it could break live references just for tidiness.
+Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
-The dynamic slice mechanism is now being used for evidence-led inventory expansion rather than route tidying.
+LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin region grid through the shared configured-slice/published-job mechanisms.
 
-For LIVE dynamic slices:
+City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The five new approved routes are:
 
-- the verified publisher writes the public configured-slice data;
-- Browse Jobs lists non-empty published dynamic slices automatically;
-- the common published-job layer feeds those jobs into `/jobs/search` and job-detail backlinks;
-- the homepage Admin region grid now also includes non-empty published dynamic Admin slices automatically.
+- `/bradford/service-administrator-jobs`
+- `/huddersfield/service-administrator-jobs`
+- `/york/service-administrator-jobs`
+- `/barnsley/service-administrator-jobs`
+- `/doncaster/service-administrator-jobs`
 
-This means future evidence-led Admin activations should normally require a register decision rather than separate hard-coded homepage, browse and search implementations.
-
-Existing established public routes remain untouched unless there is a concrete business reason to change them.
+Existing established public routes remain stable unless there is a concrete business reason to change them.
 
 ## 4. Content / positioning
 
-No content-architecture cleanup is included.
+No content-architecture cleanup is included. Ontap remains positioned around useful job discovery for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the whole identity.
 
 ## 5. Operations / infrastructure
 
-The operational controls are becoming clearer:
+Core controls are:
 
 - scheduled source refresh/reviews;
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator;
-- final verified-page publishing;
+- final verified-page publishing including city-page derivation/maintenance;
 - post-publish production deployment verification;
 - Google indexing and operational monitoring.
 
-The owner publish isolates failures at the smallest sensible level. Small job-level problems do not stop a source; source-level problems do not stop unrelated sources; the last approved state is retained wherever a source is isolated.
+After the last user-facing commit, `Publish verified pages` checks the live deployment version. If Vercel production remains behind, the workflow raises/updates the GitHub Issue **Ontap production deployment is stale**; a later healthy verification closes it.
 
-After the last user-facing commit, `Publish verified pages` checks `https://www.ontapjobsearch.com/api/deployment-version` for up to about five minutes. The live deployment is healthy if it contains the just-published commit or a newer `main` commit. If Vercel production remains behind, the workflow raises or updates the GitHub Issue **Ontap production deployment is stale** and records a warning in the workflow summary. A later healthy publish verification automatically closes that issue.
-
-This deployment check is deliberately part of the existing verified-page workflow rather than a parallel deployment pipeline.
-
-Proven one-shot/recovery workflows have been removed. Specialist analysis and genuine experiments remain where there is not enough evidence to call them obsolete.
-
-The Google Indexing API remains unchanged, including the 200-notification safety limit and GitHub Issue alerting.
+The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting.
 
 ## Business rule
 
@@ -93,4 +95,4 @@ The Google Indexing API remains unchanged, including the 200-notification safety
 
 ## Current state
 
-Architecture cleanup 1–5 is merged into `main` via PR #211. The six new Service Admin slices are LIVE and published through the normal dynamic mechanism. User-facing publish state is now also checked against Vercel production after verified publishing so a stale production deployment cannot remain silent.
+Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Durham remains deliberately held pending the County Durham geography safeguard.
