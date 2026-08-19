@@ -1,5 +1,5 @@
 ﻿feed_date,region,family,selected_count
-2026-08-19,Berkshire,service_admin,37
+2026-08-19,Berkshire,service_admin,38
 2026-08-19,Berkshire,support_worker,3
 2026-08-19,Bristol & Bath,service_admin,30
 2026-08-19,Bristol & Bath,support_worker,3
@@ -23,7 +23,7 @@
 2026-08-19,Greater Manchester - Manchester & Salford,support_worker,0
 2026-08-19,Greater Manchester - South,service_admin,13
 2026-08-19,Greater Manchester - South,support_worker,1
-2026-08-19,Hampshire,service_admin,58
+2026-08-19,Hampshire,service_admin,60
 2026-08-19,Hampshire,support_worker,15
 2026-08-19,Hertfordshire,service_admin,13
 2026-08-19,Hertfordshire,support_worker,1
@@ -33,9 +33,9 @@
 2026-08-19,Lancashire - North,support_worker,1
 2026-08-19,London,service_admin,157
 2026-08-19,London,support_worker,14
-2026-08-19,Norfolk,service_admin,20
+2026-08-19,Norfolk,service_admin,21
 2026-08-19,Norfolk,support_worker,0
-2026-08-19,North East,service_admin,36
+2026-08-19,North East,service_admin,38
 2026-08-19,North East,support_worker,7
 2026-08-19,Northamptonshire,service_admin,34
 2026-08-19,Northamptonshire,support_worker,1
@@ -64,4 +64,4 @@
 2026-08-19,Yorkshire - South,service_admin,20
 2026-08-19,Yorkshire - South,support_worker,3
 2026-08-19,Yorkshire - West,service_admin,54
-2026-08-19,Yorkshire - West,support_worker,3
+2026-08-19,Yorkshire - West,support_worker,4

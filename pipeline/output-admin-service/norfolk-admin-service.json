@@ -72,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225475427",
@@ -127,11 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225401983",
@@ -206,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1d526f5a-3c8f-4d29-9260-ee0b01691183",
@@ -235,13 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fb57e97e-bdfd-4346-b283-a6d124b2bd95",
@@ -366,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "24fac795-cdac-4abf-ab13-9b445c8f0f0a",
@@ -398,6 +375,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107826314",
+    "title": "Contracts Administrator",
+    "company": "NES Fircroft Engineering Services Limited - Agency - Contract",
+    "location": "Norfolk",
+    "region": "Norfolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Contracts Administrator\n\nNES Fircroft are currently recruiting a Contracts Assistant / Contracts Administrator on behalf of a leading Oil & Gas operator based in Norwich.\n\nThis is an excellent opportunity for someone with a legal, paralegal, contracts, commercial, procurement or related background to join a Supply Chain Management team and develop their experience within the energy industry click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65TWFskYP%2fQ3uEce8Tn48Uxrx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "NES Fircroft Engineering Services Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "c05f5d9e-f888-4383-abee-f1dc19f2b309",
     "title": "Technical Talent/Executive Support Coordinator",
     "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
@@ -420,11 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107734747",

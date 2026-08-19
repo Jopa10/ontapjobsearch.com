@@ -1,5 +1,5 @@
 ﻿region,cap,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,,3,3,0,0,0,,3,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - West selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+Yorkshire - West,,4,4,0,0,0,,4,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - West selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 Yorkshire - South,,3,2,0,1,0,,3,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 North East,,7,5,0,2,0,,7,Newcastle Upon Tyne,SCENARIO_3_MANUAL_SELECTION_APPLIED,North East manual_select applied additively: 1 row(s) prioritised; 7 selected.
 Sussex,,11,5,0,6,0,,11,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 1 row(s) prioritised; 11 selected.
