@@ -1,46 +1,46 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-18T12:39:13+00:00
+Generated: 2026-08-19T10:19:53+00:00
 
-> LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-18.csv` on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile (2026-08-17). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. Sales Advisor has not yet been promoted to `main`, so `—` means no current main-branch assessment. For all columns, `—` does NOT mean zero.
+> LIVE counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-19.csv` on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile (2026-08-17). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. Sales Advisor uses local test output if present; otherwise `—`. `—` means not assessed / no current source; it does NOT mean zero.
 
 ## LIVE
 
 | Region | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Berkshire | 44 |  |  |
-| Bristol & Bath | 25 |  |  |
+| Berkshire | 48 |  |  |
+| Bristol & Bath | 32 |  |  |
 | Buckinghamshire |  |  |  |
-| Cambridgeshire | 41 |  |  |
+| Cambridgeshire | 42 |  |  |
 | Cumbria - North |  |  |  |
-| Cumbria - South |  | 5 |  |
-| Devon | 41 |  |  |
-| Dorset | 22 |  |  |
-| Essex | 41 |  |  |
-| Gloucestershire | 22 |  |  |
-| Greater Manchester - Manchester & Salford | 49 |  |  |
+| Cumbria - South |  | 3 |  |
+| Devon | 49 |  |  |
+| Dorset | 23 |  |  |
+| Essex | 42 |  |  |
+| Gloucestershire | 23 |  |  |
+| Greater Manchester - Manchester & Salford | 41 |  |  |
 | Greater Manchester - South |  |  |  |
-| Hampshire | 54 | 17 |  |
+| Hampshire | 57 | 15 |  |
 | Hertfordshire |  |  |  |
-| Kent | 45 |  |  |
+| Kent | 54 |  |  |
 | Lancashire - North |  |  |  |
 | London | 160 | 15 |  |
-| Norfolk | 11 |  |  |
-| North East | 77 | 12 |  |
-| Northamptonshire | 32 |  |  |
-| Nottinghamshire | 30 |  |  |
-| Oxfordshire | 40 |  |  |
+| Norfolk | 20 |  |  |
+| North East | 60 | 9 |  |
+| Northamptonshire | 36 |  |  |
+| Nottinghamshire | 33 |  |  |
+| Oxfordshire | 44 |  |  |
 | Somerset |  |  |  |
-| Staffordshire | 16 |  |  |
-| Surrey | 51 | 10 |  |
-| Sussex | 38 | 10 |  |
+| Staffordshire | 30 |  |  |
+| Surrey | 54 | 11 |  |
+| Sussex | 42 | 9 |  |
 | West Midlands - Birmingham & Solihull |  |  |  |
-| West Midlands - Coventry & Warwickshire | 23 |  |  |
-| Wiltshire | 21 | 4 |  |
+| West Midlands - Coventry & Warwickshire | 32 |  |  |
+| Wiltshire | 26 | 5 |  |
 | Yorkshire - East |  |  |  |
-| Yorkshire - North | 19 |  |  |
-| Yorkshire - South | 21 | 3 |  |
-| Yorkshire - West | 58 | 5 |  |
+| Yorkshire - North | 22 |  |  |
+| Yorkshire - South | 24 | 3 |  |
+| Yorkshire - West | 68 | 4 |  |
 
 ## NOT LIVE
 
@@ -85,6 +85,6 @@ Generated: 2026-08-18T12:39:13+00:00
 | Measure | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
 | Live regions | 24 / 33 | 9 / 33 | 0 / 33 |
-| Live jobs | 981 | 81 | 0 |
+| Live jobs | 1062 | 74 | 0 |
 
 **Live slices: 33 / 99.**
