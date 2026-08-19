@@ -61,9 +61,19 @@ When that approval file is committed, `pipeline/scripts/manage_city_page_approva
 
 As of 19 August 2026 the newly approved Service Admin city pages are Bradford, Huddersfield, York, Barnsley and Doncaster. Their initial launch catchments are exact-city only. Durham is explicitly held pending the County Durham safeguard and a fresh qualifying-history check.
 
-## Permanent-page rule
+## Permanent-page and homepage-visibility rules
 
-Once a city page is explicitly active, the route is permanent unless it is deliberately retired. Falling below six jobs does not remove the page, take it out of navigation/sitemap, or return 404.
+Once a city page is explicitly active, the route is permanent unless it is deliberately retired. Falling below six jobs does not remove the page, delist the URL from the site architecture/sitemap, or return 404.
+
+Homepage prominence is a separate UX decision from route permanence. An active city page is shown in the homepage city grid only while it has **at least 4 current jobs**. If it falls to 0–3 jobs, the route remains live/indexable and continues to refresh normally, but the homepage card is temporarily hidden. It automatically reappears when current inventory returns to 4+ jobs.
+
+The three canonical thresholds are therefore:
+
+- **6 jobs** = launch qualification threshold, subject to 3 of the last 7 verified-publish runs and explicit approval;
+- **4 jobs** = minimum current supply for homepage city-card visibility;
+- **0 jobs** = allowed for an already-active permanent city route; an empty active page is retained rather than removed.
+
+This presentation rule must not be used as a reason to widen a city catchment artificially. Catchments remain evidence-led labour markets; low current supply is allowed to hide a city from the homepage rather than pull unrelated nearby markets into the page.
 
 The ordinary derivation step may apply the launch threshold internally. `pipeline/scripts/maintain_active_city_pages.py` then rewrites every explicitly active city JSON from the current approved parent jobs even when the count is below six. At zero jobs it writes an empty JSON array rather than removing the output, so the page remains available and displays the site's empty-jobs state without stale vacancies.
 
