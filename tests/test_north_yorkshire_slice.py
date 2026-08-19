@@ -53,15 +53,12 @@ class NorthYorkshireSliceTests(unittest.TestCase):
         daily = (
             ROOT / ".github" / "workflows" / "run-full-jobg8-daily-process.yml"
         ).read_text(encoding="utf-8")
-        service = (
-            ROOT / ".github" / "workflows" / "run-service-admin-pipeline.yml"
-        ).read_text(encoding="utf-8")
         publish = (
             ROOT / ".github" / "workflows" / "publish-verified-pages.yml"
         ).read_text(encoding="utf-8")
 
         self.assertIn("service_admin_pipeline_north_yorkshire", daily)
-        self.assertIn("service_admin_pipeline_north_yorkshire", service)
+        self.assertIn("support_worker_pipeline_live_config", daily)
         self.assertIn("publish_verified_pages_north_yorkshire", publish)
         self.assertIn("app/north-yorkshire/service-administrator-jobs.json", publish)
 

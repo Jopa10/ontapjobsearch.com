@@ -1,15 +1,15 @@
 # Ontap System Map
 
 **Last updated:** 19 August 2026  
-**Status:** First architecture audit complete; target shape awaiting owner agreement.
+**Status:** First architecture audit complete; agreed cleanup 1–5 implemented on branch and awaiting PR validation/merge.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
-- 19 August 2026 — Completed the first architecture audit; verified reviewed-publication orchestration, source publisher paths, website data consumption and the dynamic slice mechanism; proposed a preserve-and-consolidate target shape in `SYSTEM_AUDIT.md`.
-- 19 August 2026 — Verified the main scheduled JobG8 path, recurring external-source reviews, daily owner review and Google Indexing API path.
-- 19 August 2026 — Created the five-bucket canonical system map and governance framework.
+- 19 August 2026 — Implemented the agreed architecture cleanup on `chore/architecture-cleanup-1-5`: removed proven one-off workflows, replaced stale pipeline documentation, introduced a shared current-JobG8 materializer for external-source dedupe, retired superseded standalone category workflows/old monolithic script, and removed dated one-off diagnostics.
+- 19 August 2026 — Added the business-priority rule: no refactor for technical tidiness alone; website/public-route changes require a concrete business case such as discoverability, indexing, UX, reliability or expansion benefit.
+- 19 August 2026 — Completed the first architecture audit and verified the main JobG8, master review/publish, external-source and indexing paths.
 
 ## 1. Pipeline
 
@@ -25,9 +25,20 @@ Primary scheduled entry point: `.github/workflows/run-full-jobg8-daily-process.y
 
 It runs at 07:30 and 15:30 Europe/London and performs:
 
-`JobG8 feed → jobg8_xml_adapter.py → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → metadata enrichment → pipeline outputs/reports`
+`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → metadata enrichment → pipeline outputs/reports`
 
 The raw validated feed is also archived to S3.
+
+The main daily workflow remains the canonical production ingest owner.
+
+### Shared current-feed materialization for external dedupe
+
+External-source workflows that need a fresh JobG8 workbook for dedupe use:
+
+- `pipeline/scripts/materialize_current_jobg8.py`
+- `pipeline/tests/test_materialize_current_jobg8.py`
+
+That helper centralises the repeated current-feed download, stale-input cleanup and `jobg8_xml_adapter.py` conversion used by NEJobs and VONNE review/publish workflows.
 
 ### Review / approved publication path
 
@@ -52,8 +63,6 @@ Recurring review workflows:
 - VONNE — 06:35 daily;
 - Teaching Vacancies regional/master review — 06:55 daily.
 
-NEJobs and VONNE still duplicate JobG8 download/workbook materialisation for dedupe. Consolidating this into one shared mechanism is a confirmed refactor goal.
-
 ### Core supporting areas
 
 - `pipeline/config/`
@@ -70,11 +79,13 @@ NEJobs and VONNE still duplicate JobG8 download/workbook materialisation for ded
 - `pipeline/manifests/`
 - `pipeline/city_pages/`
 
-### Known superseded/stale candidates
+### Retired from the working tree in the agreed cleanup
 
-- `pipeline/jobg8_pipeline_v7_working_2026-05-06.py` is not used by the verified main scheduled path and is a strong archive/removal candidate after final reference checks.
-- `pipeline/README.md` is stale because it still presents that May script as the current stable pipeline.
-- standalone manual category workflows overlap substantially with the current full/reviewed pipeline and are refactor candidates, not current canonical entry points.
+- `pipeline/jobg8_pipeline_v7_working_2026-05-06.py`
+- `.github/workflows/run-service-admin-pipeline.yml`
+- `.github/workflows/run-support-worker-pipeline.yml`
+
+Git history retains these historical implementations.
 
 ## 2. Reports / diagnostics
 
@@ -82,23 +93,23 @@ Purpose: persistent outputs used to reconcile, inspect or monitor Ontap.
 
 ### Operational reports
 
-- `pipeline/reviews/daily/ontap-daily-review.md` — master owner review, generated daily at 08:45 Europe/London and emailed.
+- `pipeline/reviews/daily/ontap-daily-review.md` — master owner review, generated daily and emailed.
 - `pipeline/reports-daily/` — routine production/reconciliation reports and ledgers.
 - `build-daily-region-overview.yml` refreshes `pipeline/reports-daily/daily-region-overview.md` after a successful verified publish.
 
 ### Specialist analysis
 
-Compiler Modules 1, 2 and 3 are legitimate manual/analytical workflows and should remain conceptually separate from day-to-day production operations.
+Compiler Modules 1, 2 and 3 are legitimate manual/analytical workflows and remain conceptually separate from day-to-day production operations.
 
-### Target reporting lifecycle
+### Report lifecycle rule
 
-Future cleanup should distinguish:
+`pipeline/reports/README.md` documents three lifecycles:
 
-- operational daily reports;
+- recurring operational reporting;
 - deliberate specialist analysis;
-- archived/one-off diagnostics.
+- one-off diagnostics, which should normally remain in Actions logs/artifacts or Git history.
 
-Exact folder moves are not yet implemented.
+Confirmed dated recovery/failure observer reports from 19 August have been removed from the working report tree on the cleanup branch. Broad folder moves were deliberately avoided where they could break live references merely for neatness.
 
 ## 3. Website / UX
 
@@ -110,17 +121,19 @@ Verified structure:
 - `components/` contains reusable UI components.
 - `lib/published-jobs.ts` reads published JSON from `app/`, normalises jobs, dedupes by `job_id`, and supplies the published job/search/detail layer.
 - `lib/configured-job-slices.ts` reads `pipeline/config/job_slice_catalog.json` and `pipeline/registers/region_category_slice_register.csv`.
-- LIVE dynamic region/category slices are therefore register/catalog driven.
+- LIVE dynamic region/category slices are register/catalog driven.
 - dynamic configured slice data lives under `app/_city-pages/configured-slices/`.
 - `app/job-search/[region]/...` is the dynamic route family.
 
-The existing dynamic/register-driven slice mechanism is the preferred path for future region/category expansion. Older static routes must not be removed casually because SEO/user-facing dependencies still need explicit checks during refactor.
+### Website refactor rule
+
+Website routes/public URLs are not a technical-tidiness target. They stay stable unless a specific defect or evidence shows a material benefit in indexing/discoverability, AI discoverability, user experience, reliability or inventory expansion. Existing URLs/SEO behaviour must be preserved unless changing them is itself the intended business improvement.
 
 ## 4. Content / positioning
 
 Purpose: persistent editorial, guidance and positioning structures implemented in the product/repository.
 
-No content-architecture refactor is recommended from this audit. Persistent product content belongs here when it affects product behaviour; temporary social/campaign copy does not.
+No content-architecture refactor is part of this cleanup. Persistent product content belongs here when it affects product behaviour; temporary social/campaign copy does not.
 
 ## 5. Operations / infrastructure
 
@@ -132,7 +145,7 @@ Purpose: workflows, scheduling, deployment, alerts, indexing integrations and pe
 - `run-nejobs-review.yml` — 06:15 daily.
 - `run-vonne-review.yml` — 06:35 daily.
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily.
-- `ontap-daily-review.yml` — 08:45 Europe/London daily.
+- `ontap-daily-review.yml` — daily owner review.
 - `google-indexing-api.yml` — 19:30 daily.
 
 ### Owner-triggered publication
@@ -151,13 +164,19 @@ The canonical owner-facing publication entry point is `apply-publish-ontap-daily
 
 ### Workflow hygiene
 
-Dated fix/recovery/observer workflows from 19 August are strong archive/removal candidates. Branch-specific test/experimental workflows must remain clearly separated from production workflows until promoted or removed.
+The cleanup branch removes proven one-shot/delivery-specific workflows including dated 19 August fix/recovery/observer jobs, the self-described one-time Teaching Vacancies master-review generator and the `run-module2-post-expansion-now.yml` helper.
 
-Compiler Modules and review-only experiments are analysis/testing tools, not primary production controls.
+Branch-specific experiments and specialist compiler/review tools remain separate from the canonical production controls unless there is evidence they are obsolete.
 
-## Agreed-target decision still required
+## Validation state
 
-`SYSTEM_AUDIT.md` contains the proposed target shape and recommended refactor order. No cleanup/refactor should begin until that target is reviewed and agreed.
+The agreed cleanup is isolated on `chore/architecture-cleanup-1-5`. Before merge, the PR diff and checks must confirm:
+
+- no website route changes;
+- no live job JSON changes;
+- current workflow/reference tests pass;
+- the shared JobG8 materializer is covered by tests;
+- no unexpected production path was removed.
 
 ## Documentation rule
 

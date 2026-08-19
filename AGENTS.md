@@ -16,6 +16,13 @@ All persistent Ontap system changes belong to one or more of these five buckets:
 4. **Content / positioning** — AI-at-work content, sector-switcher content, homepage/landing-page messaging and persistent editorial/content structures.
 5. **Operations / infrastructure** — GitHub Actions, scheduling, alerts, secrets/configuration, deployment, Vercel, Google/indexing integrations and other persistent infrastructure.
 
+## Business-priority rule
+
+- Business priority wins over technical tidiness.
+- Do not refactor a working area merely because another structure looks cleaner.
+- Structural cleanup needs a concrete business or operational reason: reliability, delivery speed, cost, user experience, indexing/discoverability, AI discoverability, or the ability to expand inventory safely.
+- Website routes and public URLs are especially conservative: do not reorganise them for neatness. Change them only when there is evidence of a material business benefit or a specific defect, and preserve indexing/URL behaviour unless the change itself is intended to improve it.
+
 ## Documentation rules
 
 - Any persistent system-level change must update the relevant bucket in `SYSTEM_MAP.md` in the same change.

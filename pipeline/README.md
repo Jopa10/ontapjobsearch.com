@@ -1,167 +1,98 @@
-# Ontap JobG8 Pipeline
+# Ontap Pipeline
 
-## Purpose
+This directory contains the operational job-ingest, review, composition, reporting and publishing support used by Ontap.
 
-This pipeline converts raw JobG8 export files into validated Ontap JSON slice files for SSR-rendered job pages.
+For the canonical architecture, read `/SYSTEM_MAP.md`. For owner-level context, read `/SYSTEM_OVERVIEW.md`. Repository operating rules are in `/AGENTS.md`.
 
-The process is designed to:
-- maintain strict data consistency
-- avoid fabricated values
-- preserve full job descriptions
-- enforce slice rules
-- support daily manual publishing workflows
+## Live JobG8 path
 
----
+The primary JobG8 entry point is:
 
-# Current Stable Version
+- `.github/workflows/run-full-jobg8-daily-process.yml`
 
-Current known-good version:
-`jobg8_pipeline_v7_working_2026-05-06.py`
+It runs twice daily and performs the current production path:
 
-Only promote a new version after successful:
-- JSON generation
-- validation checks
-- render testing
-- live page sanity review
+`JobG8 feed → materialize pipeline/input/jobg8.xlsx → validate → classify/select LIVE slices → compose approved external-source jobs → enrich metadata → write pipeline outputs/reviews/reports → commit generated state`
 
----
+The active category processing used by that workflow includes:
 
-# Pipeline Workflow
+- `scripts/service_admin_pipeline_north_yorkshire.py`
+- `scripts/support_worker_pipeline_live_config.py`
+- shared classification/refinement logic under `scripts/`
+- category and region authority under `registers/` and `config/`
 
-1. Download latest JobG8 export
-2. Place source file into `/input`
-3. Run Python pipeline
-4. Review generated outputs
-5. Check validation report
-6. Upload approved JSON files
-7. Verify live render on Ontap pages
-8. Request indexing in Google Search Console if required
+The old dated monolithic May 2026 JobG8 script is no longer the production entry point and has been removed from the working tree. Git history retains it if historical inspection is ever required.
 
----
+## Current JobG8 materialization
 
-# Output Files
+`pipeline/input/jobg8.xlsx` is the standard current-feed workbook used by pipeline code.
 
-Typical outputs:
-- west-yorkshire-support-worker.json
-- south-yorkshire-support-worker.json
-- validation-report.csv
+The main daily JobG8 workflow owns the canonical production ingest. External-source workflows that need a fresh JobG8 workbook for dedupe use the shared helper:
 
----
+- `scripts/materialize_current_jobg8.py`
 
-# Core Slice Rules
+That helper downloads the current feed with retries, clears stale spreadsheet input files and calls the existing `jobg8_xml_adapter.py` converter with the same expected 5,000–20,000 job safety range.
 
-## West Yorkshire
-- target: 10–12 jobs
-- Leeds-first ordering preferred
-- support worker / care assistant family only
-- no rows without apply_url
+Do not add another copy of the download/adapter shell sequence to a workflow. Extend the shared materializer instead.
 
-## South Yorkshire
-- target: 6–10 jobs
-- Sheffield-first ordering preferred
-- same validation rules apply
+## External sources
 
----
+Recurring review workflows currently include:
 
-# Data Rules
+- NEJobs — `.github/workflows/run-nejobs-review.yml`
+- VONNE — `.github/workflows/run-vonne-review.yml`
+- Teaching Vacancies regional review — `.github/workflows/run-teaching-vacancies-regional-review.yml`
 
-- Never fabricate values
-- Preserve full job descriptions
-- Clean encoding issues:
-  - Â£ → £
-  - malformed punctuation
-- Prefer town/city locations
-- Reject vague region-only locations
-- Keep clean salary formatting
-- Maintain exact schema ordering
+Approved external jobs are built by their guarded publisher workflows and composed back into the relevant JobG8 regional outputs.
 
----
+The normal owner-facing publication route is:
 
-# Editable Daily Classification Policy
+`source reviews → pipeline/reviews/daily/ontap-daily-review.md → Apply and publish Ontap daily review → source publishers → Publish verified pages`
 
-The two live selectors keep their category logic in:
+`apply-publish-ontap-daily-review.yml` is the orchestration point for applying completed review decisions and dispatching the required guarded publishers.
 
-- `scripts/service_admin_pipeline.py`
-- `scripts/support_worker_pipeline.py`
+## Publishing
 
-Shared policy is editable without creating a second-pass script:
+`publish-verified-pages.yml` is the shared final publisher. It writes the approved live JSON into the website-facing `app/` surfaces, refreshes publish metadata and live-job reporting, and maintains active city-page outputs.
 
-- `registers/pipeline_refinement_rules.csv` records agreed exact-title decisions,
-  optional description-context policies, and the highest salary already reviewed
-  for that title.
-- `config/regional_salary_review_thresholds.csv` sets the shared upper-salary
-  review point. Salary above the point becomes POSS, not an automatic exclusion.
-  Ranges use the upper figure.
+Do not bypass guarded review/publish workflows by manually writing live `app/` JSON unless a separately reviewed recovery procedure explicitly requires it.
 
-Manual `select` and `exclude` actions are stamped with the JobG8 workbook's own
-feed date. They are reused only for the same feed and are ignored when the input
-workbook changes, so a previous day's manual rerun cannot move new
-HIGH_CONFIDENCE jobs into POSS.
+## Reviews and reports
 
----
+The working distinction is:
 
-# Validation Checklist
+- `reviews/` — human decision/review surfaces and persistent review state.
+- `reports-daily/` — recurring operational reconciliation and live-state reporting.
+- `reports/` — other persistent operational reports such as city-opportunity history.
+- `reports-module1/`, `reports-module2/`, `reports-module3/` — specialist analysis/compiler outputs.
+- `reports-audit/`, `reports-discovery-audit/` — diagnostic/audit outputs; these are not production publishing inputs unless a live workflow explicitly references them.
 
-Before publish:
-- correct job count
-- no missing apply_url values
-- salary rendering correct
-- descriptions readable
-- Leeds jobs prioritised
-- JSON valid
-- live render checked
-- no duplicated jobs
-- no wrong-region jobs
+Do not commit dated failure/recovery observer files into `reports-daily/` as permanent architecture. One-off diagnostics belong in workflow logs/artifacts or Git history unless they become an intentional recurring report.
 
----
+## Monthly / specialist analysis
 
-# Backup / Versioning Rules
+Compiler Modules 1–3 are analysis/reporting tools, not live publishing entry points.
 
-- Never overwrite the last known-good script
-- Keep dated working versions
-- Store backups locally and on GitHub
-- Only delete obsolete versions after newer versions are proven stable
+- Module 1: advertiser/campaign and role trends.
+- Module 2: category/slice validation and supply profiling.
+- Module 3: remote/WFH analysis.
 
----
+Their GitHub Actions workflows are manual/specialist workflows and should remain visibly separate from the small set of recurring production workflows.
 
-# Future Expansion
+## Core data rules
 
-Possible future additions:
-- automated ingest
-- scheduled validation
-- multi-slice generation
-- QA dashboards
-- publish automation
-- feed diff tracking
+- Never fabricate job data.
+- Preserve job descriptions and application URLs.
+- Validate input/feed shape before publishing.
+- Respect the region/category slice register.
+- Treat manual review decisions as controlled state, not ad-hoc second-pass code.
+- Preserve approved external-source composition when rebuilding JobG8 output.
+- Do not create parallel ingest, classification, review or publish mechanisms when an existing shared mechanism can be extended.
 
-Do not add complexity until Phase-1 conversion/indexing signals justify it.
+## Before changing the pipeline
 
----
-
-# Compiler Module 1: Monthly Advertiser and Role Trends
-
-Module 1 is an inspection report for archived monthly JobG8 supply. It does not publish live pages and does not modify the daily pipelines.
-
-Default run:
-
-```bash
-python pipeline/scripts/jobg8_module_1_monthly_advertiser_report.py \
-  --month 2026-06 \
-  --input-dir pipeline/input-jobg8-archive/2026-06 \
-  --output-dir pipeline/reports-module1 \
-  --geo-lookup pipeline/geo/geo_lookup.xlsx \
-  --registers-dir pipeline/registers
-```
-
-Authoritative inputs:
-- `pipeline/input-jobg8-archive/<YYYY-MM>/` daily JobG8 Excel files
-- `pipeline/geo/geo_lookup.xlsx`
-- `pipeline/registers/*.csv`
-
-Generated outputs:
-- `pipeline/reports-module1/<YYYY-MM>-module1-advertiser-campaigns.csv`
-- `pipeline/reports-module1/<YYYY-MM>-module1-role-trends.csv`
-
-The role-trends report includes `top_advertiser_share_pct` as the only advertiser-concentration metric for now. Module 1 uses register-only title classification (`HIGH_CONFIDENCE` and `ELASTIC_FIT`) and has no local workstation path fallback or legacy `lookup.xlsx` discovery.
-
-A manual GitHub Actions workflow, **Run Compiler Module 1**, can run the same report for a selected month and commit only the two Module 1 report outputs.
+1. Read `/AGENTS.md` and the relevant sections of `/SYSTEM_MAP.md`.
+2. Identify the existing live workflow/script that owns the responsibility.
+3. Prefer extending that mechanism to introducing another workflow or folder.
+4. Add or update tests for changed behaviour.
+5. Update canonical documentation in the same change when persistent architecture changes.
