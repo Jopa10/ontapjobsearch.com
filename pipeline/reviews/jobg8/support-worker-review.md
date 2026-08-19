@@ -173,6 +173,12 @@ SELECTED | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
 job_id: 107658496
 ---
 
+---
+action:
+SELECTED | Sussex | Bognor Regis | £15.4 per hour | Complex Care Support Worker
+job_id: 107854068
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -183,6 +189,12 @@ _No jobs in this group._
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Relief Support Worker
 job_id: 107812778
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
+job_id: 107827128
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -235,12 +247,6 @@ job_id: 1642086
 
 ---
 action:
-SELECTED | Hampshire | Ryde | £24000 per year | Care & Support Worker
-job_id: 107807442
----
-
----
-action:
 SELECTED | Hampshire | Fareham | £27780 - £30564 per year | Children's Home Support Worker
 job_id: 1401784414
 ---
@@ -279,6 +285,12 @@ job_id: 1401784594
 action:
 SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Night Care Assistant (Adults)
 job_id: 1401784687
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
+job_id: 1674633
 ---
 
 ## HAMPSHIRE — POSSIBLES

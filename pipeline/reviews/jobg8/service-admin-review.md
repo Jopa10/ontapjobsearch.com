@@ -2301,6 +2301,12 @@ job_id: 23643_225466245
 
 ---
 action:
+SELECTED | Kent | Kent | £20592 per year | Part Time Administrator
+job_id: d09c0c8b-fb55-4580-9f94-38d12bb9f5c8
+---
+
+---
+action:
 SELECTED | Kent | Gillingham | £16 per hour (short working week) | Purchasing Administrator
 job_id: 23643_225473894
 ---
@@ -2872,6 +2878,12 @@ job_id: 107860526
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Part-Time Focus Group Panel. Call Centre Agent Advisor Welcome. Work At Home Immediate Start
 job_id: ce4a1f38-7838-4814-b760-45db6acfea73
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
+job_id: a5342311-988b-4d58-8648-2dec6ab655fc
 ---
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
@@ -4945,12 +4957,6 @@ job_id: 107819039
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £26000 per year | Support Planner
-job_id: 107830391
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £27893 - £31934 per year | Property Sales Coordinator
 job_id: a8c8f365-3a3c-4300-bf8d-0364612379c7
 ---
@@ -5409,6 +5415,18 @@ job_id: 11659309-80d2-4ea9-8567-a7bdab9077cf
 action:
 SELECTED | Staffordshire | Staffordshire | £26500 - £27500 per year | Membership Administrator
 job_id: 57c9883d-08bc-46f5-b437-b0ca826365f3
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire |  | Claims Handler - Property
+job_id: a56913fc-dee9-4fa7-b521-a3aa678a8972
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire |  | Property Claims Handler
+job_id: 639c3726-6e8e-4977-be90-966948996423
 ---
 
 ## STAFFORDSHIRE — POSSIBLES
