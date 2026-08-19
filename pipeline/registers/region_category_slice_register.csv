@@ -2,7 +2,7 @@ region,category,status
 Yorkshire - West,admin_service,LIVE
 Yorkshire - South,admin_service,LIVE
 Yorkshire - North,admin_service,LIVE
-Yorkshire - East,admin_service,CANDIDATE
+Yorkshire - East,admin_service,LIVE
 North East,admin_service,LIVE
 Yorkshire - West,support_worker,LIVE
 Yorkshire - South,support_worker,LIVE
@@ -39,11 +39,11 @@ Wiltshire,admin_service,LIVE
 Northamptonshire,admin_service,LIVE
 Berkshire,admin_service,LIVE
 Nottinghamshire,admin_service,LIVE
-Buckinghamshire,admin_service,CANDIDATE
+Buckinghamshire,admin_service,LIVE
 Surrey,support_worker,LIVE
 Greater Manchester - Manchester & Salford,customer_service_contact_centre,CANDIDATE
 Hampshire,hr_recruitment,CANDIDATE
-Hertfordshire,admin_service,CANDIDATE
+Hertfordshire,admin_service,LIVE
 Staffordshire,admin_service,LIVE
 Norfolk,admin_service,LIVE
 Sussex,finance_accounts,CANDIDATE
@@ -54,12 +54,13 @@ Bristol & Bath,finance_accounts,CANDIDATE
 Essex,customer_service_contact_centre,CANDIDATE
 Kent,hr_recruitment,CANDIDATE
 Sussex,customer_service_contact_centre,CANDIDATE
-West Midlands - Birmingham & Solihull,admin_service,CANDIDATE
+West Midlands - Birmingham & Solihull,admin_service,LIVE
 Yorkshire - West,hr_recruitment,CANDIDATE
-Greater Manchester - South,admin_service,CANDIDATE
+Greater Manchester - South,admin_service,LIVE
 Hampshire,finance_accounts,CANDIDATE
 North East,finance_accounts,CANDIDATE
 West Midlands - Birmingham & Solihull,finance_accounts,CANDIDATE
 Wiltshire,support_worker,LIVE
 Devon,support_worker,CANDIDATE
 Somerset,support_worker,CANDIDATE
+Somerset,admin_service,LIVE
