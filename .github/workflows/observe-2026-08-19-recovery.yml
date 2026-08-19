@@ -26,6 +26,8 @@ jobs:
           set -euo pipefail
           mkdir -p pipeline/reports-daily
           {
+            echo 'Final fix helper:'
+            gh run list --workflow fix-2026-08-19-review-pipeline.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
             echo 'JobG8:'
             gh run list --workflow run-full-jobg8-daily-process.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
             echo 'Teaching Vacancies:'
@@ -38,6 +40,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add pipeline/reports-daily/recovery-2026-08-19-observer.txt
-          git commit -m 'Record 19 Aug recovery workflow status'
+          git commit -m 'Record final 19 Aug fix workflow status'
           git pull --rebase origin main
           git push origin HEAD:main
