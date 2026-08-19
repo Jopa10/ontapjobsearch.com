@@ -1,52 +1,51 @@
 report_date,level,source,region,category,count
-2026-08-19,total,All,,,1210
-2026-08-19,source_summary,JobG8,,,1041
-2026-08-19,source_summary,External,,,169
-2026-08-19,provider,JobG8,,,1041
+2026-08-19,total,All,,,1217
+2026-08-19,source_summary,JobG8,,,1049
+2026-08-19,source_summary,External,,,168
+2026-08-19,provider,JobG8,,,1049
 2026-08-19,provider,NEJobs,,,33
-2026-08-19,provider,Teaching Vacancies,,,134
+2026-08-19,provider,Teaching Vacancies,,,133
 2026-08-19,provider,VONNE,,,2
-2026-08-19,region_category,JobG8,Berkshire,Admin/Service – Office Support,38
-2026-08-19,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,29
-2026-08-19,region_category,JobG8,Cambridgeshire,Admin/Service – Office Support,29
-2026-08-19,region_category,JobG8,Cumbria - South,Support Worker – Wide,3
-2026-08-19,region_category,JobG8,Devon,Admin/Service – Office Support,35
-2026-08-19,region_category,JobG8,Dorset,Admin/Service – Office Support,19
-2026-08-19,region_category,JobG8,Essex,Admin/Service – Office Support,38
-2026-08-19,region_category,JobG8,Gloucestershire,Admin/Service – Office Support,23
-2026-08-19,region_category,JobG8,Greater Manchester - Manchester & Salford,Admin/Service – Office Support,41
-2026-08-19,region_category,JobG8,Hampshire,Admin/Service – Office Support,54
-2026-08-19,region_category,JobG8,Hampshire,Customer Service / Contact Centre,8
+2026-08-19,region_category,JobG8,Berkshire,Admin/Service – Office Support,37
+2026-08-19,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,30
+2026-08-19,region_category,JobG8,Cambridgeshire,Admin/Service – Office Support,30
+2026-08-19,region_category,JobG8,Cumbria - South,Support Worker – Wide,1
+2026-08-19,region_category,JobG8,Devon,Admin/Service – Office Support,37
+2026-08-19,region_category,JobG8,Dorset,Admin/Service – Office Support,20
+2026-08-19,region_category,JobG8,Essex,Admin/Service – Office Support,39
+2026-08-19,region_category,JobG8,Gloucestershire,Admin/Service – Office Support,24
+2026-08-19,region_category,JobG8,Greater Manchester - Manchester & Salford,Admin/Service – Office Support,42
+2026-08-19,region_category,JobG8,Hampshire,Admin/Service – Office Support,53
+2026-08-19,region_category,JobG8,Hampshire,Customer Service / Contact Centre,7
 2026-08-19,region_category,JobG8,Hampshire,Support Worker – Wide,15
 2026-08-19,region_category,JobG8,Kent,Admin/Service – Office Support,51
-2026-08-19,region_category,JobG8,London,Admin/Service – Office Support,137
+2026-08-19,region_category,JobG8,London,Admin/Service – Office Support,141
 2026-08-19,region_category,JobG8,London,Customer Service / Contact Centre,10
-2026-08-19,region_category,JobG8,London,Finance / Accounts,10
+2026-08-19,region_category,JobG8,London,Finance / Accounts,9
 2026-08-19,region_category,JobG8,London,HR / Recruitment,11
-2026-08-19,region_category,JobG8,London,Support Worker – Wide,15
+2026-08-19,region_category,JobG8,London,Support Worker – Wide,14
 2026-08-19,region_category,JobG8,Norfolk,Admin/Service – Office Support,20
-2026-08-19,region_category,JobG8,North East,Admin/Service – Office Support,24
-2026-08-19,region_category,JobG8,North East,Support Worker – Wide,9
+2026-08-19,region_category,JobG8,North East,Support Worker – Wide,7
 2026-08-19,region_category,JobG8,North East - County Durham & Darlington/Hartlepool,Admin/Service – Office Support,10
-2026-08-19,region_category,JobG8,"North East - Tyneside, Wearside & Northumberland",Admin/Service – Office Support,7
-2026-08-19,region_category,JobG8,Northamptonshire,Admin/Service – Office Support,31
-2026-08-19,region_category,JobG8,Nottinghamshire,Admin/Service – Office Support,27
-2026-08-19,region_category,JobG8,Oxfordshire,Admin/Service – Office Support,36
-2026-08-19,region_category,JobG8,Staffordshire,Admin/Service – Office Support,30
+2026-08-19,region_category,JobG8,"North East - Tyneside, Wearside & Northumberland",Admin/Service – Office Support,26
+2026-08-19,region_category,JobG8,Northamptonshire,Admin/Service – Office Support,34
+2026-08-19,region_category,JobG8,Nottinghamshire,Admin/Service – Office Support,26
+2026-08-19,region_category,JobG8,Oxfordshire,Admin/Service – Office Support,37
+2026-08-19,region_category,JobG8,Staffordshire,Admin/Service – Office Support,29
 2026-08-19,region_category,JobG8,Staffordshire,Customer Service / Contact Centre,6
-2026-08-19,region_category,JobG8,Surrey,Admin/Service – Office Support,52
-2026-08-19,region_category,JobG8,Surrey,Customer Service / Contact Centre,12
+2026-08-19,region_category,JobG8,Surrey,Admin/Service – Office Support,54
+2026-08-19,region_category,JobG8,Surrey,Customer Service / Contact Centre,13
 2026-08-19,region_category,JobG8,Surrey,Support Worker – Wide,11
 2026-08-19,region_category,JobG8,Sussex,Admin/Service – Office Support,38
-2026-08-19,region_category,JobG8,Sussex,Support Worker – Wide,9
-2026-08-19,region_category,JobG8,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,28
-2026-08-19,region_category,JobG8,Wiltshire,Admin/Service – Office Support,23
-2026-08-19,region_category,JobG8,Wiltshire,Support Worker – Wide,5
-2026-08-19,region_category,JobG8,Yorkshire - North,Admin/Service – Office Support,19
-2026-08-19,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,17
+2026-08-19,region_category,JobG8,Sussex,Support Worker – Wide,10
+2026-08-19,region_category,JobG8,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,29
+2026-08-19,region_category,JobG8,Wiltshire,Admin/Service – Office Support,24
+2026-08-19,region_category,JobG8,Wiltshire,Support Worker – Wide,4
+2026-08-19,region_category,JobG8,Yorkshire - North,Admin/Service – Office Support,20
+2026-08-19,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,20
 2026-08-19,region_category,JobG8,Yorkshire - South,Support Worker – Wide,3
 2026-08-19,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,54
-2026-08-19,region_category,JobG8,Yorkshire - West,Support Worker – Wide,4
+2026-08-19,region_category,JobG8,Yorkshire - West,Support Worker – Wide,3
 2026-08-19,region_category,NEJobs,North East,Admin/Service – Office Support,33
 2026-08-19,region_category,Teaching Vacancies,Berkshire,Admin/Service – Office Support,10
 2026-08-19,region_category,Teaching Vacancies,Bristol & Bath,Admin/Service – Office Support,3
@@ -57,7 +56,6 @@ report_date,level,source,region,category,count
 2026-08-19,region_category,Teaching Vacancies,Hampshire,Admin/Service – Office Support,3
 2026-08-19,region_category,Teaching Vacancies,Kent,Admin/Service – Office Support,3
 2026-08-19,region_category,Teaching Vacancies,London,Admin/Service – Office Support,23
-2026-08-19,region_category,Teaching Vacancies,North East,Admin/Service – Office Support,1
 2026-08-19,region_category,Teaching Vacancies,Northamptonshire,Admin/Service – Office Support,5
 2026-08-19,region_category,Teaching Vacancies,Nottinghamshire,Admin/Service – Office Support,6
 2026-08-19,region_category,Teaching Vacancies,Oxfordshire,Admin/Service – Office Support,8
