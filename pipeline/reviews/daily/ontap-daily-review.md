@@ -35,7 +35,7 @@ _No new or changed human decisions required._
 ## VONNE — 1 to review
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Northumberland | £31,005 Pro Rata | Community Engagement Tutor - Ashington Le…
 source_key: vonne
 source: VONNE
