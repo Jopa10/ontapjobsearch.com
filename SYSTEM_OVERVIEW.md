@@ -1,13 +1,14 @@
 # Ontap System Overview
 
 **Last updated:** 19 August 2026  
-**Status:** Agreed architecture cleanup 1–5 implemented on a branch and awaiting PR validation/merge.
+**Status:** Agreed architecture cleanup 1–5 merged into `main` via PR #211.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
-- 19 August 2026 — Implemented the agreed cleanup on a branch: removed proven one-off/recovery workflows, fixed stale pipeline documentation, shared the repeated JobG8 materialisation used by NEJobs/VONNE, retired superseded standalone category workflows/old May script, and removed dated one-off diagnostics.
+- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; the cleanup is now part of the canonical production repository state.
+- 19 August 2026 — Implemented the agreed cleanup: removed proven one-off/recovery workflows, fixed stale pipeline documentation, shared the repeated JobG8 materialisation used by NEJobs/VONNE, retired superseded standalone category workflows/old May script, and removed dated one-off diagnostics.
 - 19 August 2026 — Made the business-priority rule explicit: Ontap is not refactored for technical neatness alone.
 - 19 August 2026 — Completed the first architecture audit and verified the main JobG8, review/publish, external-source, website-data and Google indexing paths.
 
@@ -19,7 +20,7 @@ The main JobG8 process remains the production ingest/process path. NEJobs, VONNE
 
 The cleanup removes surrounding duplication rather than redesigning selection logic. NEJobs and VONNE now share one tested current-JobG8 materialisation helper instead of carrying repeated feed-download/conversion blocks.
 
-The old May monolithic pipeline and the older standalone service-admin/support-worker workflows are removed from the cleanup branch because the current full/reviewed pipeline covers those operational paths.
+The old May monolithic pipeline and the older standalone service-admin/support-worker workflows have been removed because the current full/reviewed pipeline covers those operational paths.
 
 ## 2. Reports / diagnostics
 
@@ -53,7 +54,7 @@ The operational controls are becoming clearer:
 - final verified-page publishing;
 - Google indexing and operational monitoring.
 
-Proven one-shot/recovery workflows are removed from the cleanup branch. Specialist analysis and genuine experiments remain where there is not enough evidence to call them obsolete.
+Proven one-shot/recovery workflows have been removed. Specialist analysis and genuine experiments remain where there is not enough evidence to call them obsolete.
 
 The Google Indexing API remains unchanged, including the 200-notification safety limit and GitHub Issue alerting.
 
@@ -61,6 +62,6 @@ The Google Indexing API remains unchanged, including the 200-notification safety
 
 **Business priority wins over technical tidiness.** Cleanup is justified where it improves reliability, delivery speed, cost, UX, indexing/discoverability, AI discoverability or safe inventory growth — not simply because a cleaner-looking architecture is possible.
 
-## Current gate
+## Current state
 
-The changes are on `chore/architecture-cleanup-1-5`, not live production. The next step is PR diff/check validation. Only after those checks are clean should the branch be merged to `main`.
+Architecture cleanup 1–5 is merged into `main` via PR #211. It is no longer awaiting validation or merge; future interrogation should treat the cleaned architecture as the current canonical repository state.
