@@ -5,8 +5,12 @@ on:
     paths:
       - "pipeline/external_sources/persistent_external_review_actions.py"
       - "pipeline/tests/test_persistent_external_review_actions.py"
+      - "pipeline/scripts/materialize_current_jobg8.py"
+      - "pipeline/tests/test_materialize_current_jobg8.py"
       - ".github/workflows/run-nejobs-review.yml"
       - ".github/workflows/run-vonne-review.yml"
+      - ".github/workflows/build-approved-nejobs-output.yml"
+      - ".github/workflows/build-approved-vonne-output.yml"
       - ".github/workflows/test-persistent-external-review-actions.yml"
   workflow_dispatch:
 
@@ -21,6 +25,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install JobG8 materializer dependency
+        run: python -m pip install --upgrade pip openpyxl
       - name: Run persistent decision regression tests
         working-directory: pipeline
         run: python -m unittest tests.test_persistent_external_review_actions -v
+      - name: Run shared JobG8 materializer tests
+        working-directory: pipeline
+        run: python -m unittest tests.test_materialize_current_jobg8 -v
