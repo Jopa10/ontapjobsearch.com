@@ -7,11 +7,11 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Replaced reliance on Vercel noticing Git pushes with an explicit deploy-hook path. A successful `Publish verified pages` run automatically triggers `Deploy Ontap production after publish`, which POSTs the `VERCEL_DEPLOY_HOOK_URL` repository secret and verifies the live deployment SHA. Failures raise/update the GitHub Issue `Ontap production deployment is stale`; healthy recovery closes it.
 - 19 August 2026 — Added a separate city homepage visibility floor: active city pages remain permanent, but homepage city cards appear only at 4+ current jobs. The launch threshold remains 6 jobs with 3 of 7 qualifying runs plus explicit approval.
 - 19 August 2026 — Approved five additional Service Admin city pages: Bradford, Huddersfield, York, Barnsley and Doncaster. Initial include rules are exact-city only; the shared city-page framework owns derivation and permanence.
 - 19 August 2026 — Added explicit city catchment governance: city pages represent city-anchored local employment/commuting markets, not literal exact-name-only filters. Catchment expansions require explicit include/review/exclude rules in `pipeline/city_pages/city-page-register.json`.
 - 19 August 2026 — Durham Service Admin remains HOLD because the registered opportunity pattern `durham` can also match broad `County Durham` locations. Durham must be separated from County Durham and requalified before activation.
-- 19 August 2026 — Added post-publish production deployment verification to `publish-verified-pages.yml`; stale Vercel production raises/updates a GitHub Issue and later healthy verification auto-closes it.
 - 19 August 2026 — Activated six additional Service Admin regional slices: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
 - 19 August 2026 — Added same-feed 33-region family coverage for Service Admin and Support Worker inside the main JobG8 daily run.
 - 19 August 2026 — Added publication failure isolation and made external-source publishing fail-soft where safe.
@@ -23,7 +23,7 @@ Purpose: how job data moves from source to published/indexed output.
 
 Canonical stages:
 
-`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → city derivation → deploy verification → index`
+`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → city derivation → deploy hook → live SHA verification → index`
 
 ### Main scheduled JobG8 path
 
@@ -54,7 +54,7 @@ Publication isolation is hierarchical:
 
 Confirmed source paths include JobG8, NEJobs, VONNE and Teaching Vacancies.
 
-`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. It also performs production deployment verification after the final user-facing commit.
+`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`, which explicitly deploys current `main` through the Vercel deploy hook and verifies production.
 
 ### City-page derivation and launch governance
 
@@ -188,11 +188,21 @@ Core scheduled workflows include:
 
 The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`.
 
-### Post-publish deployment verification
+### Post-publish production deployment
 
-`publish-verified-pages.yml` polls the live `/api/deployment-version` endpoint after its final user-facing commit. A deployment is healthy when production is at the expected commit or a newer commit on the same `main` history. Persistent lag raises/updates the GitHub Issue `Ontap production deployment is stale`; a later healthy verification auto-closes the alert.
+`.github/workflows/deploy-vercel-after-publish.yml` is the canonical production-deployment guard. It starts automatically after a successful `Publish verified pages` workflow (and also supports manual dispatch for recovery/testing).
 
-The check is observational/fail-soft and does not roll back clean repository publication merely because Vercel is delayed.
+The child workflow:
+
+1. checks out current `main` and records its expected SHA;
+2. requires the repository secret `VERCEL_DEPLOY_HOOK_URL`;
+3. POSTs that Vercel deploy hook, explicitly requesting a fresh production build from `main`;
+4. polls the live `/api/deployment-version` endpoint for up to six minutes;
+5. accepts the expected SHA or a newer descendant commit on `main`;
+6. raises/updates the GitHub Issue `Ontap production deployment is stale` if deployment or verification fails;
+7. closes that issue after a later healthy deployment.
+
+This explicit hook is required because normal Git→Vercel automatic deployment was observed to miss later `main` pushes intermittently. Git integration may still create deployments, but Ontap publication no longer depends on that behaviour.
 
 ### Google Indexing API
 
