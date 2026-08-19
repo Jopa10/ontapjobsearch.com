@@ -7,11 +7,11 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 19 August 2026 — Replaced reliance on Vercel noticing Git pushes with an explicit post-publish deploy path: successful `Publish verified pages` completion automatically runs `Deploy Ontap production after publish`, POSTs the `VERCEL_DEPLOY_HOOK_URL` secret, then verifies the live deployment SHA. A stale/failed deployment raises or updates the GitHub Issue **Ontap production deployment is stale**; a later healthy run closes it.
 - 19 August 2026 — Added a separate **4-job homepage visibility floor** for active city pages. City routes remain permanent below four jobs; only the homepage card is hidden until supply returns to 4+.
 - 19 August 2026 — Approved five further Service Admin city pages: **Bradford, Huddersfield, York, Barnsley and Doncaster**. Initial catchments are exact-city only. Active city pages are permanent once launched.
 - 19 August 2026 — Made the city-page geography rule explicit: a city page represents a **city-anchored local employment/commuting catchment**, not simply an exact city-name string. Nearby towns/suburbs may be added only when they genuinely belong to the same labour market and the decision is recorded in the city-page register.
 - 19 August 2026 — Put **Durham Service Admin on HOLD** because the present `durham` opportunity-market pattern can also match broad `County Durham` locations. Durham must be separated from County Durham and then requalified before launch.
-- 19 August 2026 — Added post-publish production deployment verification: after the final user-facing publish commit, `Publish verified pages` waits for Vercel production to deploy that commit or a newer `main` commit. A stale deployment raises/updates a GitHub Issue and a later healthy verification auto-closes it.
 - 19 August 2026 — Activated six additional Service Admin regions from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
 - 19 August 2026 — Added same-feed daily coverage for Service Admin and Support Worker across all 33 canonical regions.
 - 19 August 2026 — Added fail-soft publication hierarchy: small job-level problems are withheld while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
@@ -93,10 +93,12 @@ Core controls are:
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator;
 - final verified-page publishing including city-page derivation/maintenance;
-- post-publish production deployment verification;
+- explicit post-publish Vercel deploy-hook execution and live SHA verification;
 - Google indexing and operational monitoring.
 
-After the last user-facing commit, `Publish verified pages` checks the live deployment version. If Vercel production remains behind, the workflow raises/updates the GitHub Issue **Ontap production deployment is stale**; a later healthy verification closes it.
+A successful `Publish verified pages` run automatically triggers `.github/workflows/deploy-vercel-after-publish.yml`. That workflow checks out current `main`, captures the expected SHA, POSTs the repository secret `VERCEL_DEPLOY_HOOK_URL`, and polls `https://www.ontapjobsearch.com/api/deployment-version` until production contains that commit or a newer descendant on `main`.
+
+This deploy-hook path is canonical because normal Git→Vercel automatic deployment proved intermittently unreliable. The Git integration may still deploy normally, but production publication must not depend on it noticing a push. If the hook or live-SHA verification fails, the child workflow raises/updates the GitHub Issue **Ontap production deployment is stale**; a later healthy run closes it.
 
 The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting.
 
