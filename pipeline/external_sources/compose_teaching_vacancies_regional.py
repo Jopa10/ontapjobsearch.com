@@ -32,6 +32,7 @@ from external_sources.compose_northeast_admin import (
 )
 from external_sources.regional_contracts import (
     CATEGORY_ADMIN_SERVICE,
+    canonical_public_region,
     load_slice_authorities,
     publishable_region,
 )
@@ -204,8 +205,13 @@ def current_base_contract(
     ]
     if not base:
         return "", base, teaching
-    regions = {text(row.get("region")) for row in base if text(row.get("region"))}
-    if len(regions) != 1:
+    raw_regions = [text(row.get("region")) for row in base]
+    if any(not value for value in raw_regions):
+        raise ValueError(
+            "current admin/service output has blank or mixed base-row regions"
+        )
+    regions = {canonical_public_region(value) for value in raw_regions}
+    if "" in regions or len(regions) != 1:
         raise ValueError(
             "current admin/service output has blank or mixed base-row regions"
         )

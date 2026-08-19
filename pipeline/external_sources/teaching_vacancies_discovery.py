@@ -405,7 +405,11 @@ def detail_records(
         try:
             vacancy = parse_detail(request_text(url), url)
         except (OSError, ValueError, json.JSONDecodeError) as exc:
-            failures.append(f"{url} — {type(exc).__name__}: {clean(exc)}")
+            message = clean(exc)
+            if isinstance(exc, OSError) and "HTTP Error 404" in message:
+                # Listing/detail race: a closed vacancy can disappear after discovery.
+                continue
+            failures.append(f"{url} — {type(exc).__name__}: {message}")
             continue
         record = DiscoveryRecord(
             source=SOURCE,
