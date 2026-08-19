@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Corrected Google Indexing API schedule documentation: the workflow cron is 19:30 UTC, which is 20:30 BST in summer and 19:30 GMT in winter.
 - 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; this cleaned architecture is now the canonical repository state.
 - 19 August 2026 — Implemented the agreed architecture cleanup on `chore/architecture-cleanup-1-5`: removed proven one-off workflows, replaced stale pipeline documentation, introduced a shared current-JobG8 materializer for external-source dedupe, retired superseded standalone category workflows/old monolithic script, and removed dated one-off diagnostics.
 - 19 August 2026 — Added the business-priority rule: no refactor for technical tidiness alone; website/public-route changes require a concrete business case such as discoverability, indexing, UX, reliability or expansion benefit.
@@ -147,7 +148,7 @@ Purpose: workflows, scheduling, deployment, alerts, indexing integrations and pe
 - `run-vonne-review.yml` — 06:35 daily.
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily.
 - `ontap-daily-review.yml` — daily owner review.
-- `google-indexing-api.yml` — 19:30 daily.
+- `google-indexing-api.yml` — cron 19:30 UTC daily (20:30 BST in summer; 19:30 GMT in winter).
 
 ### Owner-triggered publication
 
