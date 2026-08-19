@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Made NEJobs fail-soft in the owner publish orchestrator: an NEJobs publisher failure now retains the last approved NEJobs snapshot, records a warning, and allows other clean sources plus the final verified-page publish to continue.
 - 19 August 2026 — Documented owner review timing: the 15:30 JobG8 refresh does not rebuild `ontap-daily-review.md`; an afternoon review requires a manual run of `Ontap daily review` after the PM refresh.
 - 19 August 2026 — Clarified JobG8 feed storage: `pipeline/input/jobg8.xlsx` is a transient workflow input and is not committed to GitHub; the validated raw feed is retained durably in S3 under `jobg8/raw`.
 - 19 August 2026 — Corrected Google Indexing API schedule documentation: the workflow cron is 19:30 UTC, which is 20:30 BST in summer and 19:30 GMT in winter.
@@ -58,6 +59,8 @@ That helper centralises the repeated current-feed download, stale-input cleanup 
 Owner-facing orchestrator: `.github/workflows/apply-publish-ontap-daily-review.yml`.
 
 It reconciles the master review, requires complete decisions, fans those decisions back to source-owned review files, dispatches source-specific approved publishers sequentially, and invokes `publish-verified-pages.yml` when the shared final publish is required.
+
+NEJobs is deliberately **fail-soft** at this orchestration layer. If the NEJobs publisher fails for any reason, the workflow keeps the last approved NEJobs snapshot, records a warning with the failed run where available, and continues with the other clean source publishers. NEJobs must not block the wider Ontap publish. Other source failures remain blocking except where a separately documented isolation rule applies, such as small non-material VONNE drift.
 
 Confirmed source publisher paths include:
 
@@ -164,6 +167,8 @@ Purpose: workflows, scheduling, deployment, alerts, indexing integrations and pe
 ### Owner-triggered publication
 
 The canonical owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`; source-specific publishers are implementation details behind that orchestration where possible.
+
+NEJobs is a supplementary source and is non-blocking at the owner-facing publish gate. Its publisher failure leaves the previous approved NEJobs snapshot in place and is surfaced as a workflow warning rather than aborting the publication of clean inventory from other sources.
 
 ### Google Indexing API
 
