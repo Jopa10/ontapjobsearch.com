@@ -1420,11 +1420,10 @@ job_id: 416b6abf-6e94-416e-8b6b-36b07198a994
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £22.78 per hour | Voids Administrator £22.78ph Southwark
 job_id: 23643_225510823
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2702,7 +2701,7 @@ job_id: 1db67ba8-80b5-4d96-bb25-4ff40467d27f
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £35000 - £45000 per year | Paraplanner
 job_id: e49388ec-f35c-47c0-9694-51d60279812f
 ---
@@ -3292,11 +3291,10 @@ job_id: 23643_225510538
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £15.83 - £17.95 per hour ((DOE)) | Finance & P2P Coordinator
 job_id: 107863384
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -5696,7 +5694,7 @@ job_id: 4325fc09-4b45-4194-86b2-de98091b2283
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York | £270 - £450 per daily | Interim Assistant Company Secretary/ Co-Sec Consultant
 job_id: 8dda51f6-2fab-4c90-b591-83c818915198
 ---
