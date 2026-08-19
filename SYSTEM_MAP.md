@@ -7,8 +7,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Replaced the Vercel Deploy Hook path after a confirmed hook call returned a real `PENDING` Vercel job without creating a deployment. `Deploy Ontap production after publish` now checks out current `main`, builds and deploys it directly with the Vercel CLI using the `VERCEL_TOKEN` repository secret, then verifies the live deployment SHA.
 - 19 August 2026 — Homepage browse ordering now presents regional slices before city pages. Regional inventory is the primary breadth signal; city pages remain a secondary local layer, still subject to the 4-job homepage visibility floor.
-- 19 August 2026 — Replaced reliance on Vercel noticing Git pushes with an explicit deploy-hook path. A successful `Publish verified pages` run automatically triggers `Deploy Ontap production after publish`, which POSTs the `VERCEL_DEPLOY_HOOK_URL` repository secret and verifies the live deployment SHA. Failures raise/update the GitHub Issue `Ontap production deployment is stale`; healthy recovery closes it.
 - 19 August 2026 — Added a separate city homepage visibility floor: active city pages remain permanent, but homepage city cards appear only at 4+ current jobs. The launch threshold remains 6 jobs with 3 of 7 qualifying runs plus explicit approval.
 - 19 August 2026 — Approved five additional Service Admin city pages: Bradford, Huddersfield, York, Barnsley and Doncaster. Initial include rules are exact-city only; the shared city-page framework owns derivation and permanence.
 - 19 August 2026 — Added explicit city catchment governance: city pages represent city-anchored local employment/commuting markets, not literal exact-name-only filters. Catchment expansions require explicit include/review/exclude rules in `pipeline/city_pages/city-page-register.json`.
@@ -24,7 +24,7 @@ Purpose: how job data moves from source to published/indexed output.
 
 Canonical stages:
 
-`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → city derivation → deploy hook → live SHA verification → index`
+`source → ingest → classify/select → review → approved output → compose → verified publish → app JSON → city derivation → Vercel CLI build/deploy → live SHA verification → index`
 
 ### Main scheduled JobG8 path
 
@@ -55,7 +55,7 @@ Publication isolation is hierarchical:
 
 Confirmed source paths include JobG8, NEJobs, VONNE and Teaching Vacancies.
 
-`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`, which explicitly deploys current `main` through the Vercel deploy hook and verifies production.
+`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`, which explicitly checks out current `main`, builds and deploys it to the Ontap production project with the Vercel CLI, then verifies production.
 
 ### City-page derivation and launch governance
 
@@ -192,19 +192,21 @@ The owner-facing publication entry point is `apply-publish-ontap-daily-review.ym
 
 ### Post-publish production deployment
 
-`.github/workflows/deploy-vercel-after-publish.yml` is the canonical production-deployment guard. It starts automatically after a successful `Publish verified pages` workflow (and also supports manual dispatch for recovery/testing).
+`.github/workflows/deploy-vercel-after-publish.yml` is the canonical production-deployment guard. It starts automatically after a successful `Publish verified pages` workflow and also supports manual dispatch for recovery/testing.
 
 The child workflow:
 
 1. checks out current `main` and records its expected SHA;
-2. requires the repository secret `VERCEL_DEPLOY_HOOK_URL`;
-3. POSTs that Vercel deploy hook, explicitly requesting a fresh production build from `main`;
-4. polls the live `/api/deployment-version` endpoint for up to six minutes;
-5. accepts the expected SHA or a newer descendant commit on `main`;
-6. raises/updates the GitHub Issue `Ontap production deployment is stale` if deployment or verification fails;
-7. closes that issue after a later healthy deployment.
+2. requires the repository secret `VERCEL_TOKEN`;
+3. uses fixed Ontap `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` values to target the correct production project;
+4. runs `vercel pull --environment=production` to obtain production project settings;
+5. runs `vercel build --prod` and `vercel deploy --prebuilt --prod`, deploying the exact checked-out source rather than waiting for Git integration or a Deploy Hook;
+6. polls the live `/api/deployment-version` endpoint for up to six minutes;
+7. accepts the expected SHA or a newer descendant commit on `main`;
+8. raises/updates the GitHub Issue `Ontap production deployment is stale` if deployment or verification fails;
+9. closes that issue after a later healthy deployment.
 
-This explicit hook is required because normal Git→Vercel automatic deployment was observed to miss later `main` pushes intermittently. Git integration may still create deployments, but Ontap publication no longer depends on that behaviour.
+This direct CLI deployment is required because normal Git→Vercel automatic deployment was observed to miss later `main` pushes intermittently, and the subsequent Deploy Hook recovery path was also observed to return a real `PENDING` Vercel job without creating a deployment. Ontap production publication therefore no longer depends on either mechanism.
 
 ### Google Indexing API
 
