@@ -332,11 +332,10 @@ job_id: 107863399
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £25000 - £31000 per year (DoE and incl Bonus) | Customer Service Administrator
 job_id: 23643_225408563
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -444,23 +443,20 @@ job_id: 7cf61604-97cb-4cf2-9394-b076d27351d1
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £27000 - £35000 per year (Specialist Training + Progression) | Sales Administrator - German Speaking
 job_id: 23643_225435429
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £30000 - £35000 per year (30000-35000) | Import/Export Coordinator
 job_id: 23643_225437743
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £32000 per year | Project Co-ordinator
 job_id: 23643_225439789
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1392,35 +1388,30 @@ job_id: 7672950c-0d55-4360-8b03-46c86f2b06c6
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16 - £18 per hour | PA to COO
 job_id: 32421cf0-3398-4913-bfe6-dcc6ffa0eb12
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £38000 - £42000 per year | HR Administrator
 job_id: e930cc9c-0584-4562-8a3d-802e03f16e92
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £18 - £20 per hour | Temporary Medical Secretary - knowledge of DGL
 job_id: 23643_225509322
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £19.81 per hour | Student Enrolment Administrator
 job_id: 1674605
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 - £37000 per year | Sales Support Executive - premium homewares
 job_id: 9e7002de-c418-46bd-b7fe-166dab171bcc
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1780,11 +1771,10 @@ job_id: 23643_225425522
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | £28000 - £38000 per year | Financial Services Administrator
 job_id: 6996d07d-dfa8-4872-ab3c-d675c2a4932e
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2144,17 +2134,15 @@ job_id: 107729459
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £20 - £23 per hour | Temporary PA/Business Support Officer - NFP
 job_id: 23643_225480022
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £35000 - £40000 per year | PA to Director
 job_id: 3db58df3-3a96-4543-a554-619d20302c8b
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -2867,25 +2855,22 @@ job_id: ce4a1f38-7838-4814-b760-45db6acfea73
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £31500 per year (Plus Benefits) | Business Administrator
 job_id: 23643_225451278
 ---
-
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £26500 - £34500 per year | Financial Services Administrator
 job_id: c288290a-ae92-46d1-ab82-b244cc5be2b5
 ---
-
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £15 - £17 per hour | Hr Assistant
 job_id: 23643_225440078
 ---
-
 ---
-action:
+action: exclude
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £35000 - £45000 per year | Business support coordinator
 job_id: 81649c74-8ae3-4b9c-9c98-8154a230607c
 ---
@@ -3122,17 +3107,15 @@ job_id: 23643_225508886
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £30900 per year | Sales Administrator
 job_id: 23643_225395853
 ---
-
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £25 per hour (Days holiday) | Cabling Designer and Planner
 job_id: 107829723
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3492,11 +3475,10 @@ job_id: b9168f3b-ae51-41b5-8822-277795a7ff77
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £17 per hour | Corporate Receptionist
 job_id: 23643_225445219
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3712,17 +3694,15 @@ job_id: 23643_225509220
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £28000 - £32000 per year | Finance and Operations Administrator
 job_id: 84809d07-69f9-4987-bc95-653c367955ba
 ---
-
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £35000 per year | Accounts Assistant
 job_id: fbb25edf-7727-46c0-ad09-305ff52cff3d
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -3842,17 +3822,15 @@ job_id: 107865251
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £16 - £17 per hour | Administrator
 job_id: 23643_225449411
 ---
-
 ---
-action:
+action: exclude
 POSS - DORSET | Dorset | Dorset | £36000 - £40000 per year | Service Advisor
 job_id: 3521828d-c0f4-4a17-9767-6c8ca876e4e6
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -4086,17 +4064,15 @@ job_id: 7c8eab96-4c12-4952-a0ed-9a4128564e6c
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £23.77 per hour | Remarketing Sales & Administrator
 job_id: 23643_225401314
 ---
-
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £23.77 - £31.17 per hour | PART TIME - Administrator
 job_id: 23643_225401223
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4240,11 +4216,10 @@ job_id: 107864211
 ## GLOUCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £18 per hour | Administrator
 job_id: 23643_225321490
 ---
-
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
 
 ---
@@ -4496,17 +4471,15 @@ job_id: 23643_225509120
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £32000 per year | Human Resources Administrator
 job_id: c1d57060-6bda-42f6-8d23-55cdaae93f2f
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £28000 - £31000 per year (Pension, Healthcare, Bonus, CSR Days) | Service Helpdesk Co-ordinator
 job_id: 23643_225438494
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -4824,11 +4797,10 @@ job_id: 107702841
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £80000 per year | Financial Planner
 job_id: 107803472
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -5218,17 +5190,15 @@ job_id: 23643_225508503
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £15 - £16 per hour | Administrator
 job_id: 23643_225456749
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £16 - £20 per hour (Holiday Pay) | Temporary Team Administrator
 job_id: 23643_225464784
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -5588,17 +5558,15 @@ job_id: 107863674
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £17 per hour | Contractor Administrator
 job_id: 107857834
 ---
-
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £20.57 per hour | Resourcing & Scheduling Co-ordinator
 job_id: 23643_225423591
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
@@ -5718,7 +5686,7 @@ job_id: 5a560285-330a-4930-9fbe-bd132db1297b
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | Harrogate | £32000 per year | Training and Recruitment administrator
 job_id: 23643_225472878
 ---

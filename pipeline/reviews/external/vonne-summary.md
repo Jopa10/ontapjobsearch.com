@@ -67,7 +67,7 @@ source_job_id: 173323
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £31,005 Pro Rata | Community Engagement Tutor - Ashington Learning Hive
 employer: Northern Learning Trust
 closing_date: 07 September 2026

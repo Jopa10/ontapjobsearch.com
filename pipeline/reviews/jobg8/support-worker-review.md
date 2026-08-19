@@ -188,11 +188,10 @@ job_id: 23643_222307132
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
 job_id: 107658496
 ---
-
 ## CUMBRIA SOUTH — SELECTED
 
 ---
