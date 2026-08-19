@@ -13,6 +13,7 @@ import {
 } from '@/lib/published-jobs';
 
 const canonicalUrl = 'https://www.ontapjobsearch.com/';
+const homepageCityMinimumJobs = 4;
 
 export const metadata: Metadata = {
   title: 'UK Jobs by Role and Region | Ontap Job Search',
@@ -91,6 +92,7 @@ function activeCityLinks(kind: 'admin' | 'support'): RegionLink[] {
       href: definition.route,
       count: getCityPageJobs(definition).length,
     }))
+    .filter((route) => route.count >= homepageCityMinimumJobs)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
