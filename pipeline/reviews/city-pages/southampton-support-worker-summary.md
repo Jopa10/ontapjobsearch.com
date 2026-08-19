@@ -33,7 +33,7 @@ company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1674633
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+reason: Approved Southampton catchment.
 ---
 
 ---
@@ -45,7 +45,7 @@ company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1642086
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+reason: Approved Southampton catchment.
 ---
 
 ---
@@ -57,7 +57,7 @@ company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1401784075
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+reason: Approved Southampton catchment.
 ---
 
 ---
@@ -69,7 +69,7 @@ company: Randstad Care - Agency - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-58c3e926-cf9b-4aae-a931-e1c867a7b221
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+reason: Approved Southampton catchment.
 ---
 
 ---
@@ -81,7 +81,7 @@ company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1642087
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+reason: Approved Southampton catchment.
 ---
 
 ## REVIEW (4)
@@ -95,7 +95,7 @@ company: Hampshire County Council - Company - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-1401784493
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -107,7 +107,7 @@ company: Hampshire County Council - Company - Permanent
 location: Emsworth
 source: JobG8
 job_id: jobg8-1401784339
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -119,7 +119,7 @@ company: Barchester Healthcare - Company - Permanent
 location: Hook
 source: JobG8
 job_id: jobg8-77b95346-e87e-49a2-ba72-135448bf136e
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -131,7 +131,7 @@ company: Hampshire County Council - Company - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-1401784594
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ## EXCLUDE (6)
@@ -145,7 +145,7 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---
 
 ---
@@ -157,7 +157,7 @@ company: Randstad Care - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-62ac8011-cb52-461e-bd72-7273b61cb640
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---
 
 ---
@@ -169,7 +169,7 @@ company: Hampshire County Council - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-1401784414
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---
 
 ---
@@ -181,7 +181,7 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-202c4b49-5e6c-46f1-879f-8421db894a5b
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---
 
 ---
@@ -193,7 +193,7 @@ company: Hampshire County Council - Company - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-1401784687
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---
 
 ---
@@ -205,5 +205,5 @@ company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401784261
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---

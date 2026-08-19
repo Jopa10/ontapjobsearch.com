@@ -33,7 +33,7 @@ company: Wildern School
 location: Southampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
-reason: The stated workplace matches the approved Southampton employment-market pattern `southampton`.
+reason: Approved Southampton catchment.
 ---
 
 ## REVIEW (61)
@@ -47,7 +47,7 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225480542
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -59,7 +59,7 @@ company: Office Angels - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-752b1773-8140-4647-aa4d-481f6707de83
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -71,7 +71,7 @@ company: The Hyde Group - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-c9541cf7-4df0-4d84-bf49-6470ead69ade
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -83,7 +83,7 @@ company: Agincare Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107816328
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -95,7 +95,7 @@ company: Nurse Plus - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107824141
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -107,7 +107,7 @@ company: Reed - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-86a249ca-521e-4523-9657-9f714577b183
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -119,7 +119,7 @@ company: Barchester Healthcare - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-36665455-ee4d-4043-b39a-5c915dd4c839
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -131,7 +131,7 @@ company: Careline Support Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107688911
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -143,7 +143,7 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225431334
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -155,7 +155,7 @@ company: TSL Lighting - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225425137
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -167,7 +167,7 @@ company: Office Angels - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225407249
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -179,7 +179,7 @@ company: Office Angels - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-8ce5f464-05a9-43e0-8f2f-af12d6230bfd
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -191,7 +191,7 @@ company: Wild Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225402743
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -203,7 +203,7 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225510987
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -215,7 +215,7 @@ company: Experis - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225420218
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -227,7 +227,7 @@ company: Tate - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225436745
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -239,7 +239,7 @@ company: The Workshop - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-107835605
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -251,7 +251,7 @@ company: Workshop Recruitment - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-0a78a1e3-9c37-4454-af38-985294afc047
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -263,7 +263,7 @@ company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225497720
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -275,7 +275,7 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225425522
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -287,7 +287,7 @@ company: Reed - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-4274e7f2-0812-4082-81f0-791e07dff1cd
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -299,7 +299,7 @@ company: Office Angels - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-c7513af2-74eb-4011-bb87-5b623fbf8fc4
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -311,7 +311,7 @@ company: AWD online - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-6996d07d-dfa8-4872-ab3c-d675c2a4932e
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -323,7 +323,7 @@ company: Rise Technical Recruitment - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225422287
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -335,7 +335,7 @@ company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-84211efd-7135-4121-abc2-ba964c41865e
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -347,7 +347,7 @@ company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225467954
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -359,7 +359,7 @@ company: Kiota Recruitment - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225416645
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -371,7 +371,7 @@ company: Berry Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225477911
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -383,7 +383,7 @@ company: C&C Search Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-195be5ef-6c84-4d3a-97cc-418f791512dc
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -395,7 +395,7 @@ company: Matchtech - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-f71a8d77-aaeb-48bc-b8d9-b7a233542e5e
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -407,7 +407,7 @@ company: RGB Network - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225459037
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -419,7 +419,7 @@ company: Dynamite Recruitment - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472675
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -431,7 +431,7 @@ company: Care UK - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107605314
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -443,7 +443,7 @@ company: Entrust Resource Solutions - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225474596
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -455,7 +455,7 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452299
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -467,7 +467,7 @@ company: Premier Jobs UK Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-b984089c-968f-424c-81de-219bbe2b22b1
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -479,7 +479,7 @@ company: Matchtech - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225451240
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -491,7 +491,7 @@ company: Matchtech - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472187
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -503,7 +503,7 @@ company: Matchtech - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-e74c7499-1c4c-431a-ad2c-1e4975040487
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -515,7 +515,7 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225424393
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -527,7 +527,7 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225432762
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -539,7 +539,7 @@ company: Wild Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225508090
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -551,7 +551,7 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225497761
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -563,7 +563,7 @@ company: TSL Lighting - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225425359
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -575,7 +575,7 @@ company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225448844
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -587,7 +587,7 @@ company: Reed - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-747793e6-2c9c-46d5-9c4b-62900bf60893
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -599,7 +599,7 @@ company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-bc8e6b66-d67e-4f4c-9392-7285e25de89b
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -611,7 +611,7 @@ company: Reed - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-b06192e9-e3c3-41de-9ddd-fc7ba0c12b70
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -623,7 +623,7 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472592
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -635,7 +635,7 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -647,7 +647,7 @@ company: SSAFA - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1660397
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -659,7 +659,7 @@ company: Adecco - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225505424
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -671,7 +671,7 @@ company: Percival Aviation - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225476353
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -683,7 +683,7 @@ company: BRC - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225498334
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -695,7 +695,7 @@ company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-access-arrangements-support-assistant
-reason: No approved Southampton employment-market rule matched the stated location; local geographic review is required.
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -707,7 +707,7 @@ company: Silcom Recruitment Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1aa94c42-328c-47ba-9a97-4bceadd1d212
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -719,7 +719,7 @@ company: The Solution Automotive Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107796844
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -731,7 +731,7 @@ company: Additional Resources Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-e1606359-364e-43e8-8eb4-2a52ebeee938
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -743,7 +743,7 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225419560
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -755,7 +755,7 @@ company: Carrington West - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472585
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -767,7 +767,7 @@ company: Get Staffed Online Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1595701
-reason: The stated location is broader or less specific than the approved Southampton employment market and needs review.
+reason: Broad location; review before city inclusion.
 ---
 
 ## EXCLUDE (1)
@@ -781,5 +781,5 @@ company: The Portsmouth Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administration-assistant-the-portsmouth-academy
-reason: The stated workplace belongs outside the approved Southampton employment market.
+reason: Separate employment market.
 ---
