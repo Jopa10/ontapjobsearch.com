@@ -1,0 +1,3 @@
+archive_restore_date_proof=success
+archive=jobg8/raw/2026-08-18.zip
+resolved_feed_date=2026-08-18
