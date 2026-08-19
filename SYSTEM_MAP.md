@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Activated six additional Service Admin slices from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. Dynamic LIVE slices flow through the existing configured-slice publisher, Browse Jobs and published-job search layers; the homepage now also consumes published dynamic Admin slices instead of relying only on its older hard-coded region list.
 - 19 August 2026 — Added same-feed 33-region family coverage: Service Admin and Support Worker are assessed diagnostically across all 33 canonical regions inside the main JobG8 daily run using the exact production feed and config-driven production wrappers; the later regional overview consumes that committed coverage without re-downloading JobG8.
 - 19 August 2026 — Added publication failure isolation: up to 15 unresolved/malformed jobs per source are withheld fail-closed while clean jobs continue; larger clusters isolate that source, and source publisher failures retain the last approved state rather than blocking unrelated inventory.
 - 19 August 2026 — Made NEJobs fail-soft in the owner publish orchestrator: an NEJobs publisher failure now retains the last approved NEJobs snapshot, records a warning, and allows other clean sources plus the final verified-page publish to continue.
@@ -37,6 +38,8 @@ It runs at 07:30 and 15:30 Europe/London and performs:
 `pipeline/input/jobg8.xlsx` is created for the workflow run after the current JobG8 ZIP is downloaded and converted. It is a transient processing input and is not committed to GitHub. The validated raw feed is archived durably in S3 under `jobg8/raw`.
 
 The main daily workflow remains the canonical production ingest owner. The diagnostic Service Admin / Support Worker coverage pass runs inside that same workflow after the production family selectors, using the same materialized JobG8 workbook. It expands the config-driven production wrappers in memory across all 33 canonical regions, reuses persistent review decisions and canonical geo/rules, and writes only `pipeline/reports-daily/daily-family-coverage.csv`; it does not alter the slice register, production JSON or publishing state.
+
+The Service Admin LIVE set now includes the six 19 August evidence-led activations: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. They use the same register-driven production selector and verified-page publishing path as other dynamic LIVE slices.
 
 ### Owner review timing
 
@@ -150,6 +153,9 @@ Verified structure:
 - LIVE dynamic region/category slices are register/catalog driven.
 - dynamic configured slice data lives under `app/_city-pages/configured-slices/`.
 - `app/job-search/[region]/...` is the dynamic route family.
+- `app/browse-jobs/page.tsx` already consumes `getPublishedDynamicSlices()`, so newly published LIVE configured slices appear without hard-coded Browse entries.
+- `lib/published-jobs.ts` admits non-empty published dynamic slices into the common job pool, so `/jobs/search` automatically searches them and job-detail backlinks resolve to their dynamic slice routes.
+- the homepage Admin region grid now also consumes published dynamic Admin slices, while retaining established static/city routes.
 
 ### Website refactor rule
 
