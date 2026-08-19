@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-// Deployment touch: rebuild production from the latest published job and city-page state.
+// Deployment touch: rebuild production from the latest city homepage visibility state.
 const nextConfig: NextConfig = {
   async redirects() {
     return [
