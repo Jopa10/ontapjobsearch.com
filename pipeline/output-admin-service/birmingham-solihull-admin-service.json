@@ -22,7 +22,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling"
+    ]
   },
   {
     "job_id": "23643_225446183",
@@ -347,7 +351,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225317543",
@@ -372,7 +383,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "f44bac53-162f-42dc-bf3c-6c937035f1fc",
