@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-// Deployment touch: rebuild production after dynamic slice JSON publication.
+// Deployment touch: rebuild production from the latest published job and city-page state.
 const nextConfig: NextConfig = {
   async redirects() {
     return [
