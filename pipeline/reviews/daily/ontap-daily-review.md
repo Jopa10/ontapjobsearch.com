@@ -29,7 +29,7 @@ Edit only each `action:` line:
 ## JobG8 — 4 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £15.83 - £17.95 per hour ((DOE)) | Finance & P2P Coordinator
 source_key: jobg8
 source: JobG8
@@ -47,7 +47,7 @@ hub_fingerprint: 49c8686b7e7bbab7489f642146287b85797502c6b6745f996b84fc8082da374
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £22.78 per hour | Voids Administrator £22.78ph Southwark
 source_key: jobg8
 source: JobG8
@@ -65,7 +65,7 @@ hub_fingerprint: ac46c4870bb812621b2ce44359e95ea601ed0b57b9b5a79755bbdbd283a3db4
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Sussex | Sussex | £35000 - £45000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -83,7 +83,7 @@ hub_fingerprint: af49338f4da3a2ba2b3f4aa6fd26dc39a3602d21c4ea886d5a962499270a838
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - North | York | £270 - £450 per daily | Interim Assistant Company Secretary/ Co-Sec Consultant
 source_key: jobg8
 source: JobG8
