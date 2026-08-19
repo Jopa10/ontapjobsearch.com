@@ -233,13 +233,13 @@ function CurrentJobCard({ job }: { job: PublishedJob }) {
 export default function Page() {
   const jobs = getPublishedJobs();
   const adminRegions = [
-    ...activeCityLinks('admin'),
     ...withCounts(jobs, adminRegionRoutes),
     ...publishedDynamicAdminLinks(jobs),
+    ...activeCityLinks('admin'),
   ];
   const supportWorkerRegions = [
-    ...activeCityLinks('support'),
     ...withCounts(jobs, supportWorkerRoutes),
+    ...activeCityLinks('support'),
   ];
   const currentJobs = jobs.slice(0, 4);
 
@@ -309,14 +309,14 @@ export default function Page() {
                   <h3 className="text-lg font-semibold text-gray-900">
                     Admin, office support & customer service
                   </h3>
-                  <p className="mt-0.5 text-sm text-gray-600">Current city and regional job pages</p>
+                  <p className="mt-0.5 text-sm text-gray-600">Current regional and city job pages</p>
                 </div>
                 {adminRegions.length > 0 ? <RegionGrid regions={adminRegions} /> : null}
               </div>
 
               <div id="support-worker-regions" className="rounded-xl border border-gray-200 bg-white p-3.5 sm:p-4">
                 <h3 className="text-lg font-semibold text-gray-900">Support worker jobs</h3>
-                <p className="mt-0.5 text-sm text-gray-600">Current city and regional supply</p>
+                <p className="mt-0.5 text-sm text-gray-600">Current regional and city supply</p>
                 <div className="mt-3 grid gap-1.5">
                   {supportWorkerRegions.map((region) => (
                     <Link
