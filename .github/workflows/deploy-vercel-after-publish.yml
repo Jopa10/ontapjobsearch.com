@@ -12,6 +12,10 @@ permissions:
   contents: read
   issues: write
 
+env:
+  VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+  VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+
 jobs:
   deploy-production:
     name: Deploy and verify production
@@ -27,6 +31,11 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
       - name: Capture expected production commit
         id: expected
         run: |
@@ -36,23 +45,39 @@ jobs:
           echo "sha=$expected_sha" >> "$GITHUB_OUTPUT"
           echo "Expected production commit: $expected_sha" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Trigger Vercel production deploy hook
+      - name: Validate Vercel token
         env:
-          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           set -euo pipefail
-          if [ -z "${VERCEL_DEPLOY_HOOK_URL:-}" ]; then
-            echo "::error::Repository secret VERCEL_DEPLOY_HOOK_URL is missing."
+          if [ -z "${VERCEL_TOKEN:-}" ]; then
+            echo "::error::Repository secret VERCEL_TOKEN is missing."
             exit 1
           fi
-          response_file="$(mktemp)"
-          http_code="$(curl --silent --show-error --location --output "$response_file" --write-out '%{http_code}' --request POST "$VERCEL_DEPLOY_HOOK_URL")"
-          cat "$response_file"
-          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
-            echo "::error::Vercel deploy hook returned HTTP $http_code."
-            exit 1
-          fi
-          echo "Vercel deploy hook accepted (HTTP $http_code)." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Pull Vercel production settings
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
+
+      - name: Build production bundle with Vercel CLI
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
+
+      - name: Deploy production bundle with Vercel CLI
+        id: deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          deployment_url="$(npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN")"
+          echo "url=$deployment_url" >> "$GITHUB_OUTPUT"
+          echo "Vercel production deployment: $deployment_url" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Wait for production to reach current main
         id: verify
@@ -95,7 +120,7 @@ jobs:
         run: |
           set -euo pipefail
           title="Ontap production deployment is stale"
-          body="Deploy hook/verification failed. Expected production to contain commit ${EXPECTED_SHA:-unknown}. Workflow: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          body="Vercel CLI deployment/verification failed. Expected production to contain commit ${EXPECTED_SHA:-unknown}. Workflow: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           existing="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq '.[] | select(.title == "Ontap production deployment is stale") | .number' | head -n 1)"
           if [ -n "$existing" ]; then
             gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "$body"
