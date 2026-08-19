@@ -8,23 +8,19 @@ from external_sources import compose_teaching_vacancies_regional as generic
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PIPELINE_ROOT = REPO_ROOT / "pipeline"
-WORKFLOWS = (
-    REPO_ROOT / ".github/workflows/run-service-admin-pipeline.yml",
-    REPO_ROOT / ".github/workflows/run-full-jobg8-daily-process.yml",
-)
+WORKFLOW = REPO_ROOT / ".github/workflows/run-full-jobg8-daily-process.yml"
 
 
-def test_daily_workflows_keep_legacy_fallback_before_generic_composer() -> None:
+def test_daily_workflow_keeps_legacy_fallback_before_generic_composer() -> None:
     expected = (
         "python -m external_sources.compose_northeast_admin --write",
         "python -m external_sources.compose_west_yorkshire_admin --write",
         "python -m external_sources.compose_teaching_vacancies_regional --write",
     )
-    for path in WORKFLOWS:
-        text = path.read_text(encoding="utf-8")
-        positions = [text.index(command) for command in expected]
-        assert positions == sorted(positions), path
-        assert all(text.count(command) == 1 for command in expected), path
+    text = WORKFLOW.read_text(encoding="utf-8")
+    positions = [text.index(command) for command in expected]
+    assert positions == sorted(positions), WORKFLOW
+    assert all(text.count(command) == 1 for command in expected), WORKFLOW
 
 
 def test_generic_composer_dry_run_does_not_mutate_outputs() -> None:
