@@ -29,6 +29,12 @@ SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care As
 job_id: 107751768
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Castleford | £13.71 per hour | Health Care Assistant
+job_id: 107861373
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
