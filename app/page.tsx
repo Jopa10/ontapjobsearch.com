@@ -5,6 +5,7 @@ import {
   getCityPageJobs,
   isCityPageActive,
 } from '@/lib/city-page-data';
+import { getPublishedDynamicSlices } from '@/lib/configured-job-slices';
 import {
   getJobPath,
   getPublishedJobs,
@@ -63,6 +64,18 @@ function withCounts(
   return routes
     .map((route) => ({ ...route, count: countBySlice(jobs, route.href) }))
     .filter((route) => route.count > 0);
+}
+
+function publishedDynamicAdminLinks(jobs: PublishedJob[]): RegionLink[] {
+  return getPublishedDynamicSlices()
+    .filter((slice) => slice.category === 'admin_service')
+    .map((slice) => ({
+      label: slice.region,
+      href: slice.route,
+      count: countBySlice(jobs, slice.route),
+    }))
+    .filter((route) => route.count > 0)
+    .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
 function activeCityLinks(kind: 'admin' | 'support'): RegionLink[] {
@@ -217,7 +230,11 @@ function CurrentJobCard({ job }: { job: PublishedJob }) {
 
 export default function Page() {
   const jobs = getPublishedJobs();
-  const adminRegions = [...activeCityLinks('admin'), ...withCounts(jobs, adminRegionRoutes)];
+  const adminRegions = [
+    ...activeCityLinks('admin'),
+    ...withCounts(jobs, adminRegionRoutes),
+    ...publishedDynamicAdminLinks(jobs),
+  ];
   const supportWorkerRegions = [
     ...activeCityLinks('support'),
     ...withCounts(jobs, supportWorkerRoutes),
