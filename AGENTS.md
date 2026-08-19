@@ -23,6 +23,14 @@ All persistent Ontap system changes belong to one or more of these five buckets:
 - Structural cleanup needs a concrete business or operational reason: reliability, delivery speed, cost, user experience, indexing/discoverability, AI discoverability, or the ability to expand inventory safely.
 - Website routes and public URLs are especially conservative: do not reorganise them for neatness. Change them only when there is evidence of a material business benefit or a specific defect, and preserve indexing/URL behaviour unless the change itself is intended to improve it.
 
+## Publication failure-isolation rule
+
+- A small number of bad, ambiguous, malformed or unresolved jobs must not derail publication of otherwise clean inventory.
+- Up to 15 problem jobs in one source should fail closed at job level: withhold and flag those jobs while allowing the clean jobs from that source to continue.
+- More than 15 problem jobs, or evidence of a source-level integrity problem, should isolate that source and retain its last approved state while other clean sources continue.
+- Stop the whole owner publish only for a genuine system-level integrity failure where the combined/public output cannot safely be trusted.
+- Prefer explicit warnings, run summaries and retained prior approved state over turning a local data-quality problem into a site-wide publication outage.
+
 ## Documentation rules
 
 - Any persistent system-level change must update the relevant bucket in `SYSTEM_MAP.md` in the same change.
