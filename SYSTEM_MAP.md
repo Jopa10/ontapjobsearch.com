@@ -1,12 +1,13 @@
 # Ontap System Map
 
 **Last updated:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 implemented on branch and awaiting PR validation/merge.
+**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
+- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; this cleaned architecture is now the canonical repository state.
 - 19 August 2026 — Implemented the agreed architecture cleanup on `chore/architecture-cleanup-1-5`: removed proven one-off workflows, replaced stale pipeline documentation, introduced a shared current-JobG8 materializer for external-source dedupe, retired superseded standalone category workflows/old monolithic script, and removed dated one-off diagnostics.
 - 19 August 2026 — Added the business-priority rule: no refactor for technical tidiness alone; website/public-route changes require a concrete business case such as discoverability, indexing, UX, reliability or expansion benefit.
 - 19 August 2026 — Completed the first architecture audit and verified the main JobG8, master review/publish, external-source and indexing paths.
@@ -109,7 +110,7 @@ Compiler Modules 1, 2 and 3 are legitimate manual/analytical workflows and remai
 - deliberate specialist analysis;
 - one-off diagnostics, which should normally remain in Actions logs/artifacts or Git history.
 
-Confirmed dated recovery/failure observer reports from 19 August have been removed from the working report tree on the cleanup branch. Broad folder moves were deliberately avoided where they could break live references merely for neatness.
+Confirmed dated recovery/failure observer reports from 19 August have been removed from the working report tree. Broad folder moves were deliberately avoided where they could break live references merely for neatness.
 
 ## 3. Website / UX
 
@@ -164,19 +165,13 @@ The canonical owner-facing publication entry point is `apply-publish-ontap-daily
 
 ### Workflow hygiene
 
-The cleanup branch removes proven one-shot/delivery-specific workflows including dated 19 August fix/recovery/observer jobs, the self-described one-time Teaching Vacancies master-review generator and the `run-module2-post-expansion-now.yml` helper.
+The merged cleanup removes proven one-shot/delivery-specific workflows including dated 19 August fix/recovery/observer jobs, the self-described one-time Teaching Vacancies master-review generator and the `run-module2-post-expansion-now.yml` helper.
 
 Branch-specific experiments and specialist compiler/review tools remain separate from the canonical production controls unless there is evidence they are obsolete.
 
 ## Validation state
 
-The agreed cleanup is isolated on `chore/architecture-cleanup-1-5`. Before merge, the PR diff and checks must confirm:
-
-- no website route changes;
-- no live job JSON changes;
-- current workflow/reference tests pass;
-- the shared JobG8 materializer is covered by tests;
-- no unexpected production path was removed.
+Architecture cleanup 1–5 was merged into `main` via PR #211 on 19 August 2026. It is no longer isolated on `chore/architecture-cleanup-1-5`; future repository analysis should treat the cleaned architecture as the canonical current state.
 
 ## Documentation rule
 
