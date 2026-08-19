@@ -275,10 +275,9 @@ jobs:
           missing_ids = ids_after("missing IDs")
           total_drift = len(new_ids) + len(missing_ids)
 
-          # Operational materiality boundary for small live-refetch sources:
-          # keep that source on its last approved snapshot and let the rest of
-          # Ontap publish when at most two newly reviewable jobs and four total
-          # added/removed IDs have changed. Larger drift remains blocking.
+          # Operational materiality boundary for small live-refetch sources.
+          # VONNE can be isolated for small live drift; NEJobs is handled by the
+          # stronger fail-soft rule below regardless of failure reason.
           if total_drift and len(new_ids) <= 2 and total_drift <= 4:
               print(
                   f"Non-material {source} drift: "
@@ -316,6 +315,19 @@ jobs:
               continue
             fi
 
+            if [ "$source" = "nejobs" ]; then
+              echo "::warning::NEJobs publisher failed. Keeping its last approved snapshot and continuing with all other clean sources."
+              {
+                echo
+                echo "- NEJobs publisher failed and was isolated from the wider Ontap publish."
+                echo "- The last approved NEJobs snapshot remains in place; other clean sources continue publishing."
+                if [ -n "$LAST_RUN_ID" ]; then
+                  echo "- Failed NEJobs workflow run: $LAST_RUN_ID."
+                fi
+              } >> "$GITHUB_STEP_SUMMARY"
+              continue
+            fi
+
             if is_nonmaterial_external_drift "$source" "$LAST_RUN_ID"; then
               echo "::warning::$source changed only slightly after review. Keeping its last approved snapshot and continuing with the other clean sources."
               {
@@ -326,7 +338,7 @@ jobs:
               continue
             fi
 
-            echo "::error::$source publisher failed and was not eligible for the non-material-drift exception."
+            echo "::error::$source publisher failed and was not eligible for isolation."
             exit 1
           done < "$RUNNER_TEMP/publish-queue.tsv"
 
@@ -345,5 +357,6 @@ jobs:
             echo "If genuinely new or changed jobs appeared before validation, publishing stopped until those new blank actions were reviewed."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
-            echo "Small live drift in NEJobs or VONNE can be isolated without blocking JobG8, the other clean external sources, or the final verified-page publish; material drift still blocks."
+            echo "NEJobs is fail-soft: any NEJobs publisher failure keeps its last approved snapshot and does not block other clean sources or the final verified-page publish."
+            echo "Small live drift in VONNE can also be isolated; other material source failures remain blocking."
           } >> "$GITHUB_STEP_SUMMARY"
