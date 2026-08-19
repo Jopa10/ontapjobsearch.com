@@ -209,9 +209,6 @@ jobs:
                 return 1
               fi
 
-              # A failed HTTP response can occasionally be ambiguous. Before retrying,
-              # check whether GitHub nevertheless created the workflow run so that we
-              # never deliberately dispatch a duplicate publisher.
               run_id="$(recent_dispatched_run_id "$workflow" "$started_epoch" || true)"
               if [ -n "$run_id" ]; then
                 LAST_RUN_ID="$run_id"
@@ -275,9 +272,6 @@ jobs:
           missing_ids = ids_after("missing IDs")
           total_drift = len(new_ids) + len(missing_ids)
 
-          # Operational materiality boundary for small live-refetch sources.
-          # VONNE can be isolated for small live drift; NEJobs is handled by the
-          # stronger fail-soft rule below regardless of failure reason.
           if total_drift and len(new_ids) <= 2 and total_drift <= 4:
               print(
                   f"Non-material {source} drift: "
@@ -315,14 +309,20 @@ jobs:
               continue
             fi
 
-            if [ "$source" = "nejobs" ]; then
-              echo "::warning::NEJobs publisher failed. Keeping its last approved snapshot and continuing with all other clean sources."
+            if [ "$source" = "nejobs" ] || [ "$source" = "teaching_vacancies" ]; then
+              label="$source"
+              if [ "$source" = "nejobs" ]; then
+                label="NEJobs"
+              else
+                label="Teaching Vacancies"
+              fi
+              echo "::warning::$label publisher failed. Keeping its last approved snapshot and continuing with all other clean sources."
               {
                 echo
-                echo "- NEJobs publisher failed and was isolated from the wider Ontap publish."
-                echo "- The last approved NEJobs snapshot remains in place; other clean sources continue publishing."
+                echo "- $label publisher failed and was isolated from the wider Ontap publish."
+                echo "- Its last approved snapshot remains in place; other clean sources continue publishing."
                 if [ -n "$LAST_RUN_ID" ]; then
-                  echo "- Failed NEJobs workflow run: $LAST_RUN_ID."
+                  echo "- Failed $label workflow run: $LAST_RUN_ID."
                 fi
               } >> "$GITHUB_STEP_SUMMARY"
               continue
@@ -357,6 +357,7 @@ jobs:
             echo "If genuinely new or changed jobs appeared before validation, publishing stopped until those new blank actions were reviewed."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
-            echo "NEJobs is fail-soft: any NEJobs publisher failure keeps its last approved snapshot and does not block other clean sources or the final verified-page publish."
+            echo "NEJobs and Teaching Vacancies are fail-soft at the master-publish boundary: a publisher failure keeps that source's last approved snapshot and does not block other clean sources or the final verified-page publish."
+            echo "The Teaching Vacancies child workflow still retains its own composition safety checks; fail-soft here does not commit a failed TV run."
             echo "Small live drift in VONNE can also be isolated; other material source failures remain blocking."
           } >> "$GITHUB_STEP_SUMMARY"
