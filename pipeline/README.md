@@ -35,6 +35,14 @@ That helper downloads the current feed with retries, clears stale spreadsheet in
 
 Do not add another copy of the download/adapter shell sequence to a workflow. Extend the shared materializer instead.
 
+## Daily 33-region family coverage
+
+`.github/workflows/build-daily-region-overview.yml` remains the single recurring owner of `reports-daily/daily-region-overview.md`.
+
+After the normal overview is built, `scripts/assess_daily_family_coverage.py` runs the existing production Service Admin and Support Worker family selectors in a diagnostic-only 33-region mode against the current JobG8 input. It uses `config/job_slice_catalog.json` for the canonical 33-region set and anchor towns, the shared geo lookup, the existing title/refinement registers, salary/context rules and same-day manual decisions.
+
+The diagnostic pass writes `reports-daily/daily-family-coverage.csv` and replaces the NOT LIVE Service Admin / Support Worker cells in the overview with genuine assessed counts, including true zeroes. It does not change `region_category_slice_register.csv`, production output JSON, LIVE publication thresholds, review state or website publishing behaviour. Sales Advisor remains outside this mechanism until its family is formally built.
+
 ## External sources
 
 Recurring review workflows currently include:
