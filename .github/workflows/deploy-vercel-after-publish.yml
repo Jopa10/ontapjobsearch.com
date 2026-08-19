@@ -1,0 +1,116 @@
+name: Deploy Ontap production after publish
+
+on:
+  workflow_run:
+    workflows:
+      - Publish verified pages
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  deploy-production:
+    name: Deploy and verify production
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Capture expected production commit
+        id: expected
+        run: |
+          set -euo pipefail
+          git fetch origin main --quiet
+          expected_sha="$(git rev-parse origin/main)"
+          echo "sha=$expected_sha" >> "$GITHUB_OUTPUT"
+          echo "Expected production commit: $expected_sha" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Trigger Vercel production deploy hook
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${VERCEL_DEPLOY_HOOK_URL:-}" ]; then
+            echo "::error::Repository secret VERCEL_DEPLOY_HOOK_URL is missing."
+            exit 1
+          fi
+          response_file="$(mktemp)"
+          http_code="$(curl --silent --show-error --location --output "$response_file" --write-out '%{http_code}' --request POST "$VERCEL_DEPLOY_HOOK_URL")"
+          cat "$response_file"
+          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
+            echo "::error::Vercel deploy hook returned HTTP $http_code."
+            exit 1
+          fi
+          echo "Vercel deploy hook accepted (HTTP $http_code)." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Wait for production to reach current main
+        id: verify
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+        run: |
+          set -euo pipefail
+          production_url="https://www.ontapjobsearch.com/api/deployment-version"
+          deployed_sha=""
+          for attempt in $(seq 1 36); do
+            body="$(curl --silent --show-error --fail --header 'Cache-Control: no-cache' "${production_url}?check=${GITHUB_RUN_ID}-${attempt}" || true)"
+            deployed_sha="$(printf '%s' "$body" | python -c 'import json,sys; data=sys.stdin.read(); print((json.loads(data).get("version") or "").strip() if data else "")' 2>/dev/null || true)"
+            if [ -n "$deployed_sha" ]; then
+              git fetch origin main --quiet
+              if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
+                echo "Production reached expected commit $deployed_sha."
+                echo "deployed_sha=$deployed_sha" >> "$GITHUB_OUTPUT"
+                echo "Production verified at expected commit: $deployed_sha" >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              fi
+              if git cat-file -e "${deployed_sha}^{commit}" 2>/dev/null && git merge-base --is-ancestor "$EXPECTED_SHA" "$deployed_sha"; then
+                echo "Production is at newer main commit $deployed_sha."
+                echo "deployed_sha=$deployed_sha" >> "$GITHUB_OUTPUT"
+                echo "Production verified at newer main commit: $deployed_sha" >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              fi
+            fi
+            echo "Attempt $attempt/36: production version ${deployed_sha:-unavailable}; waiting for $EXPECTED_SHA"
+            sleep 10
+          done
+          echo "deployed_sha=$deployed_sha" >> "$GITHUB_OUTPUT"
+          echo "::error::Production did not reach expected commit $EXPECTED_SHA within 6 minutes. Last reported version: ${deployed_sha:-unavailable}."
+          exit 1
+
+      - name: Open or update stale-production issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+        run: |
+          set -euo pipefail
+          title="Ontap production deployment is stale"
+          body="Deploy hook/verification failed. Expected production to contain commit ${EXPECTED_SHA:-unknown}. Workflow: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          existing="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq '.[] | select(.title == "Ontap production deployment is stale") | .number' | head -n 1)"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi
+
+      - name: Close stale-production issue after healthy deploy
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          title="Ontap production deployment is stale"
+          existing="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq '.[] | select(.title == "Ontap production deployment is stale") | .number' | head -n 1)"
+          if [ -n "$existing" ]; then
+            gh issue close "$existing" --repo "$GITHUB_REPOSITORY" --comment "Production deployment verified healthy by run ${GITHUB_RUN_ID}."
+          fi
