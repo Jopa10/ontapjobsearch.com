@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 19 August 2026 — Added fail-soft publication hierarchy: up to 15 problem jobs in one source are withheld and flagged while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
 - 19 August 2026 — Made NEJobs fail-soft in the owner publish workflow: an NEJobs publisher failure now keeps the last approved NEJobs snapshot, raises a workflow warning and lets the other clean sources continue publishing.
 - 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; the cleanup is now part of the canonical production repository state.
 - 19 August 2026 — Implemented the agreed cleanup: removed proven one-off/recovery workflows, fixed stale pipeline documentation, shared the repeated JobG8 materialisation used by NEJobs/VONNE, retired superseded standalone category workflows/old May script, and removed dated one-off diagnostics.
@@ -19,7 +20,11 @@ The working core is being preserved.
 
 The main JobG8 process remains the production ingest/process path. NEJobs, VONNE and Teaching Vacancies retain their review paths. After review, the single **Apply and publish Ontap daily review** workflow coordinates source publishers and the final verified-page publish.
 
-NEJobs is now deliberately non-blocking at this stage: if its publisher fails, Ontap retains the last approved NEJobs snapshot, flags the failure in the workflow and continues publishing the other clean sources.
+The publish rule is now deliberately fail-soft:
+
+**up to 15 bad/unresolved jobs in one source are withheld and flagged while the clean jobs continue; more than 15, or a source-integrity problem, isolates that source and keeps its last approved state; only a genuine whole-publication integrity failure should stop everything.**
+
+This includes simple review mistakes such as a misspelt action: the affected job is withheld rather than allowing one bad row to derail hundreds or thousands of clean jobs.
 
 The cleanup removes surrounding duplication rather than redesigning selection logic. NEJobs and VONNE now share one tested current-JobG8 materialisation helper instead of carrying repeated feed-download/conversion blocks.
 
@@ -57,7 +62,7 @@ The operational controls are becoming clearer:
 - final verified-page publishing;
 - Google indexing and operational monitoring.
 
-NEJobs is a supplementary source and cannot block the wider Ontap publish. Its last approved snapshot stays live on failure while other clean sources continue.
+The owner publish now isolates failures at the smallest sensible level. Small job-level problems do not stop a source; source-level problems do not stop unrelated sources; the last approved state is retained wherever a source is isolated.
 
 Proven one-shot/recovery workflows have been removed. Specialist analysis and genuine experiments remain where there is not enough evidence to call them obsolete.
 
