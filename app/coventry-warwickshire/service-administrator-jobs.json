@@ -284,7 +284,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225440078",
@@ -309,7 +313,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "00f1e237-afc8-489f-9ca4-42b6e740606a",
@@ -409,7 +417,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Data entry",
+      "Order processing"
+    ]
   },
   {
     "job_id": "d070e819-a64d-47e5-b136-912fb4cad434",
@@ -459,7 +472,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225431697",
@@ -509,7 +526,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225433641",
@@ -534,7 +557,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225437355",
@@ -584,7 +613,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225454507",
@@ -659,7 +692,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225505608",
@@ -726,6 +763,31 @@
     "posted_date": "2026-08-19",
     "description": "Apex Focus Group collaborates with research firms, universities, and trusted brands to gather genuine consumer insights.\n\nWe help connect everyday people with flexible work at home part-time market research opportunities that influence real products, services, and customer experiences.\n\nRole Overview\n\nWe are welcoming participants from all backgrounds, including anyone looking for call centre agent advisor roles, to take part in upcoming market research studies. These may involve online discussions, product testing, or feedback sessions - typically conducted remotely online.\n\nThis is a casual, project-based opportunity ideal for anyone interested in taking part in research on a part-time basis, depending on their availability and profile fit. Some studies are available for immediate start.\n\nRequirements\n- Access to a smartphone, tablet, or computer with a functional camera\n- Reliable internet connection\n- Ability to read instructions carefully and provide honest, detailed feedback\n- An active email address to receive study invitations and participation details\n\nBenefits\n- Take part only in studies that match your interests and schedule\n- Research types include online or in-person focus groups, virtual interviews, product testing, and other feedback activities\n- No previous call centre agent advisor experience needed. Just a willingness to share your opinions\n- Some studies may include early access to new products or services before launch\n- Many studies offer compensation, which varies by study type and duration\n\nCompensation:\n- Amount varies based on the selected focus group or research assignment.\n\nIf you'd like to contribute to research that influences real-world products and decisions, or simply looking for flexible part-time, work at home roles with an immediate start, we invite you to submit your interest online today.\n\nUse the 'Apply' button to apply for this position now.\n\nImportant Notice - No Fees Required\n\nParticipation is always free. We never request or accept any fees for registration or study involvement. Please stay cautious and only respond to communications sent directly from us.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7anC9rIysZfoiTc3Cpja%2b9y",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Apex Focus Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "a5342311-988b-4d58-8648-2dec6ab655fc",
+    "title": "Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome",
+    "company": "Apex Focus Group - Company - Permanent",
+    "location": "Warwickshire",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-19",
+    "description": "Apex Focus Group collaborates with research firms, universities, and trusted brands to gather genuine consumer insights.\n\nWe help connect everyday people with flexible remote part-time market research opportunities that influence real products, services, and customer experiences.\n\nRole Overview\n\nWe are welcoming participants from all backgrounds, including anyone looking for data entry clerk roles, to take part in upcoming market research studies. These may involve online discussions, product testing, or feedback sessions - typically conducted remotely online.\n\nThis is a casual, project-based opportunity ideal for anyone interested in taking part in research on a part time basis, depending on their availability and profile fit.\n\nRequirements\n- Access to a smartphone, tablet, or computer with a functional camera\n- Reliable internet connection\n- Ability to read instructions carefully and provide honest, detailed feedback\n- An active email address to receive study invitations and participation details\n\nBenefits\n- Take part only in studies that match your interests and schedule\n- Research types include online or in-person focus groups, virtual interviews, product testing, and other feedback activities\n- No previous data entry clerk experience needed. Just a willingness to share your opinions\n- Some studies may include early access to new products or services before launch\n- Many studies offer compensation, which varies by study type and duration\n\nCompensation:\n- Amount varies based on the selected focus group or research assignment.\n\nIf you'd like to contribute to research that influences real-world products and decisions, or simply looking for flexible part-time, remote roles, we invite you to submit your interest online today.\n\nUse the 'Apply' button to apply for this position now.\n\nImportant Notice - No Fees Required\n\nParticipation is always free. We never request or accept any fees for registration or study involvement. Please stay cautious and only respond to communications sent directly from us.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIU8bXZrjnXQhV%2bhntQwZnQl",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -809,7 +871,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "107841442",
