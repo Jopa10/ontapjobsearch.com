@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,10000
-total rows included,74
+total rows included,75
 total rows dropped,9925
 title classification count - HIGH_CONFIDENCE,161
 title classification count - ELASTIC_FIT,91
@@ -31,14 +31,14 @@ anchor elastic count - North East,0
 other elastic count - North East,3
 total rows output - North East,9
 job_id included - North East,0d92fe0d-a663-4737-8a15-e07bad60e5fe; 23643_225493355; 6b804bc2-d778-42ed-bf1b-d3ec78422d8a; 35ef02dd-6e8a-4d5a-a1af-bacca950305f; f6fec1d6-1fe7-4f2f-895c-76cd05933697; 297c50e3-fd32-4f29-9de1-936c53932177; 25362_JR104883-1; 25362_JR104883-1-1908a03149bfe006218cbce2dd812797; 8f7a6b8c-ba2a-4359-bd59-869ba3fbafdb
-selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Sussex,"Sussex selection complete: 9 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Sussex,9
+selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 10 selected.
+credible total - Sussex,10
 high confidence count - Sussex,4
 anchor elastic count - Sussex,0
 other elastic count - Sussex,5
-total rows output - Sussex,9
-job_id included - Sussex,23643_225427103; 23643_222307132; 23643_225445462; 8c9c482c-941c-4dc4-8474-e83dd310005b; 99725da6-35b1-4d29-9426-1b7224ab3269; 44c04919-b68b-4946-9565-88687eb782e2; ee439ae1-b4a3-44d3-97aa-11662721c09c; e95b23da-96d7-4c92-b8a9-dc4a1c3c19c0; a3620f3e-f4b9-466e-b8e5-a5627a5b2fce
+total rows output - Sussex,10
+job_id included - Sussex,23643_225427103; 23643_222307132; 107658496; 23643_225445462; 8c9c482c-941c-4dc4-8474-e83dd310005b; 99725da6-35b1-4d29-9426-1b7224ab3269; 44c04919-b68b-4946-9565-88687eb782e2; ee439ae1-b4a3-44d3-97aa-11662721c09c; e95b23da-96d7-4c92-b8a9-dc4a1c3c19c0; a3620f3e-f4b9-466e-b8e5-a5627a5b2fce
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,3

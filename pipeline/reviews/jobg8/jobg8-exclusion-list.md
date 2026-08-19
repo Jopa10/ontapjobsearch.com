@@ -6,9 +6,105 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 71
+remembered_exclusions: 79
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Temporary Medical Secretary - knowledge of DGL
+employer: Office Angels
+region: 
+town: London
+salary: 
+job_id: 23643_225509322
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Service Advisor
+employer: Silcom Recruitment Limited
+region: 
+town: Dorset
+salary: 
+job_id: 3521828d-c0f4-4a17-9767-6c8ca876e4e6
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Remarketing Sales & Administrator
+employer: Contechs Consulting
+region: 
+town: Essex
+salary: 
+job_id: 23643_225401314
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: PART TIME - Administrator
+employer: Select Engineering
+region: 
+town: Essex
+salary: 
+job_id: 23643_225401223
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: HR Administrator
+employer: Ferreira Young Recruitment
+region: 
+town: London
+salary: 
+job_id: e930cc9c-0584-4562-8a3d-802e03f16e92
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Financial Planner
+employer: GROVE TALENT SOLUTIONS LTD
+region: 
+town: Northamptonshire
+salary: 
+job_id: 107803472
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Cabling Designer and Planner
+employer: Roc Technologies
+region: 
+town: Berkshire
+salary: 
+job_id: 107829723
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-19
+title: Business support coordinator
+employer: AD Finance
+region: 
+town: Warwickshire
+salary: 
+job_id: 81649c74-8ae3-4b9c-9c98-8154a230607c
+---
 
 ---
 action:

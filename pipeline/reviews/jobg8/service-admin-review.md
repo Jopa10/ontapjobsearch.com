@@ -31,6 +31,12 @@ job_id: 23643_225404359
 
 ---
 action:
+SELECTED | Yorkshire - West | Leeds | £25000 - £31000 per year (DoE and incl Bonus) | Customer Service Administrator
+job_id: 23643_225408563
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Wetherby | £28000 - £30000 per year (£28-30K) | Sales Administrator
 job_id: 23643_225412849
 ---
@@ -331,11 +337,8 @@ job_id: 107863399
 
 ## WEST YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £25000 - £31000 per year (DoE and incl Bonus) | Customer Service Administrator
-job_id: 23643_225408563
----
+_No jobs in this group._
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -372,6 +375,24 @@ job_id: 52198d55-9fac-4d35-8505-b9a814bc54dc
 action:
 SELECTED | Yorkshire - South | Doncaster | £30000 - £35000 per year (Progression + Great Benefits) | Sales & Marketing Coordinator
 job_id: 23643_225433915
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £27000 - £35000 per year (Specialist Training + Progression) | Sales Administrator - German Speaking
+job_id: 23643_225435429
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £30000 - £35000 per year (30000-35000) | Import/Export Coordinator
+job_id: 23643_225437743
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £32000 per year | Project Co-ordinator
+job_id: 23643_225439789
 ---
 
 ---
@@ -442,21 +463,8 @@ job_id: 7cf61604-97cb-4cf2-9394-b076d27351d1
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £27000 - £35000 per year (Specialist Training + Progression) | Sales Administrator - German Speaking
-job_id: 23643_225435429
----
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £30000 - £35000 per year (30000-35000) | Import/Export Coordinator
-job_id: 23643_225437743
----
----
-action: select
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £32000 per year | Project Co-ordinator
-job_id: 23643_225439789
----
+_No jobs in this group._
+
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1321,6 +1329,12 @@ job_id: 7c2dd964-5518-4d37-9f00-f85091ed2b2d
 
 ---
 action:
+SELECTED | London | London | £16 - £18 per hour | PA to COO
+job_id: 32421cf0-3398-4913-bfe6-dcc6ffa0eb12
+---
+
+---
+action:
 SELECTED | London | Sutton-in-ashfield | £13 - £15 per hour | Service Administrator
 job_id: 30ca5b46-aac9-404d-8d1b-8eb2b8941cdf
 ---
@@ -1341,6 +1355,12 @@ job_id: 98db520e-fecc-42d4-979f-9f11eec9c785
 action:
 SELECTED | London | London | £27000 per year | HR Administrator
 job_id: cf054858-fa00-43dc-b84f-98cacbbc668c
+---
+
+---
+action:
+SELECTED | London | London | £35000 - £37000 per year | Sales Support Executive - premium homewares
+job_id: 9e7002de-c418-46bd-b7fe-166dab171bcc
 ---
 
 ---
@@ -1385,33 +1405,16 @@ SELECTED | London | London |  | Paid Focus Group Panel. Entry Level. No Experien
 job_id: 7672950c-0d55-4360-8b03-46c86f2b06c6
 ---
 
-## LONDON — POSSIBLES
-
 ---
-action: select
-POSS - LONDON | London | London | £16 - £18 per hour | PA to COO
-job_id: 32421cf0-3398-4913-bfe6-dcc6ffa0eb12
----
----
-action: exclude
-POSS - LONDON | London | London | £38000 - £42000 per year | HR Administrator
-job_id: e930cc9c-0584-4562-8a3d-802e03f16e92
----
----
-action: exclude
-POSS - LONDON | London | London | £18 - £20 per hour | Temporary Medical Secretary - knowledge of DGL
-job_id: 23643_225509322
----
----
-action: select
-POSS - LONDON | London | London | £19.81 per hour | Student Enrolment Administrator
+action:
+SELECTED | London | London | £19.81 per hour | Student Enrolment Administrator
 job_id: 1674605
 ---
----
-action: select
-POSS - LONDON | London | London | £35000 - £37000 per year | Sales Support Executive - premium homewares
-job_id: 9e7002de-c418-46bd-b7fe-166dab171bcc
----
+
+## LONDON — POSSIBLES
+
+_No jobs in this group._
+
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1460,6 +1463,12 @@ job_id: 8ce5f464-05a9-43e0-8f2f-af12d6230bfd
 action:
 SELECTED | Hampshire | Hampshire | £27000 - £32000 per year | Service Advisor
 job_id: 1aa94c42-328c-47ba-9a97-4bceadd1d212
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £28000 - £38000 per year | Financial Services Administrator
+job_id: 6996d07d-dfa8-4872-ab3c-d675c2a4932e
 ---
 
 ---
@@ -1770,11 +1779,8 @@ job_id: 23643_225425522
 
 ## HAMPSHIRE — POSSIBLES
 
----
-action: select
-POSS - HAMPSHIRE | Hampshire | Hampshire | £28000 - £38000 per year | Financial Services Administrator
-job_id: 6996d07d-dfa8-4872-ab3c-d675c2a4932e
----
+_No jobs in this group._
+
 ## SURREY — SELECTED
 
 ---
@@ -2043,6 +2049,12 @@ job_id: 0fed4582-c688-49a7-a784-49c558219477
 
 ---
 action:
+SELECTED | Surrey | Surrey | £20 - £23 per hour | Temporary PA/Business Support Officer - NFP
+job_id: 23643_225480022
+---
+
+---
+action:
 SELECTED | Surrey | Sunbury-on-thames | £31000 per year (excellent benefits) | Customer Service Advisor
 job_id: 23643_225457929
 ---
@@ -2109,6 +2121,12 @@ job_id: 49e9b205-b4a5-43f8-bf98-22e6dd9c1202
 
 ---
 action:
+SELECTED | Surrey | Surrey | £35000 - £40000 per year | PA to Director
+job_id: 3db58df3-3a96-4543-a554-619d20302c8b
+---
+
+---
+action:
 SELECTED | Surrey | Surrey | £30000 - £40000 per year | Tender Administrator
 job_id: 19e67123-787d-40eb-bc54-4e10e57a7295
 ---
@@ -2133,16 +2151,8 @@ job_id: 107729459
 
 ## SURREY — POSSIBLES
 
----
-action: select
-POSS - SURREY | Surrey | Surrey | £20 - £23 per hour | Temporary PA/Business Support Officer - NFP
-job_id: 23643_225480022
----
----
-action: select
-POSS - SURREY | Surrey | Surrey | £35000 - £40000 per year | PA to Director
-job_id: 3db58df3-3a96-4543-a554-619d20302c8b
----
+_No jobs in this group._
+
 ## KENT — SELECTED
 
 ---
@@ -2770,8 +2780,20 @@ job_id: 23643_225436912
 
 ---
 action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £15 - £17 per hour | Hr Assistant
+job_id: 23643_225440078
+---
+
+---
+action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £200 - £300 per daily | Apprenticeship Administrator
 job_id: 23643_225441991
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £31500 per year (Plus Benefits) | Business Administrator
+job_id: 23643_225451278
 ---
 
 ---
@@ -2808,6 +2830,12 @@ job_id: 23643_225485953
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £35000 per year | Finance Assistant
 job_id: 00f1e237-afc8-489f-9ca4-42b6e740606a
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £26500 - £34500 per year | Financial Services Administrator
+job_id: c288290a-ae92-46d1-ab82-b244cc5be2b5
 ---
 
 ---
@@ -2854,26 +2882,7 @@ job_id: ce4a1f38-7838-4814-b760-45db6acfea73
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
----
-action: select
-POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £31500 per year (Plus Benefits) | Business Administrator
-job_id: 23643_225451278
----
----
-action: select
-POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £26500 - £34500 per year | Financial Services Administrator
-job_id: c288290a-ae92-46d1-ab82-b244cc5be2b5
----
----
-action: select
-POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £15 - £17 per hour | Hr Assistant
-job_id: 23643_225440078
----
----
-action: exclude
-POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £35000 - £45000 per year | Business support coordinator
-job_id: 81649c74-8ae3-4b9c-9c98-8154a230607c
----
+_No jobs in this group._
 ## BERKSHIRE — SELECTED
 
 ---
@@ -3094,6 +3103,12 @@ job_id: e12e3556-f2a6-4520-a95f-3257ce75db72
 
 ---
 action:
+SELECTED | Berkshire | Berkshire | £30900 per year | Sales Administrator
+job_id: 23643_225395853
+---
+
+---
+action:
 SELECTED | Berkshire | Berkshire | £13 - £15 per hour | Administrator
 job_id: 23643_225396743
 ---
@@ -3106,16 +3121,8 @@ job_id: 23643_225508886
 
 ## BERKSHIRE — POSSIBLES
 
----
-action: select
-POSS - BERKSHIRE | Berkshire | Berkshire | £30900 per year | Sales Administrator
-job_id: 23643_225395853
----
----
-action: exclude
-POSS - BERKSHIRE | Berkshire | Berkshire | £25 per hour (Days holiday) | Cabling Designer and Planner
-job_id: 107829723
----
+_No jobs in this group._
+
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3390,6 +3397,12 @@ job_id: 23643_225444568
 
 ---
 action:
+SELECTED | Cambridgeshire | Cambridge | £17 per hour | Corporate Receptionist
+job_id: 23643_225445219
+---
+
+---
+action:
 SELECTED | Cambridgeshire | Peterborough | £32000 - £34000 per year | Bid & Tender Co-ordinator
 job_id: 23643_225450023
 ---
@@ -3474,11 +3487,8 @@ job_id: b9168f3b-ae51-41b5-8822-277795a7ff77
 
 ## CAMBRIDGESHIRE — POSSIBLES
 
----
-action: select
-POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £17 per hour | Corporate Receptionist
-job_id: 23643_225445219
----
+_No jobs in this group._
+
 ## DEVON — SELECTED
 
 ---
@@ -3615,6 +3625,12 @@ job_id: 8fce0a69-f1e4-460e-a206-e6175c904338
 
 ---
 action:
+SELECTED | Devon | Devon | £30000 - £35000 per year | Accounts Assistant
+job_id: fbb25edf-7727-46c0-ad09-305ff52cff3d
+---
+
+---
+action:
 SELECTED | Devon | Devon | £27000 - £35000 per year | Accounts Assistant
 job_id: aa220c68-6350-484e-88dd-9f024421db4c
 ---
@@ -3687,22 +3703,20 @@ job_id: c1937b32-6e70-477d-a13f-f28113c4bf01
 
 ---
 action:
+SELECTED | Devon | Devon | £28000 - £32000 per year | Finance and Operations Administrator
+job_id: 84809d07-69f9-4987-bc95-653c367955ba
+---
+
+---
+action:
 SELECTED | Devon | Devon | £13.9 per hour | Meeting Minutes Administrator
 job_id: 23643_225509220
 ---
 
 ## DEVON — POSSIBLES
 
----
-action: select
-POSS - DEVON | Devon | Devon | £28000 - £32000 per year | Finance and Operations Administrator
-job_id: 84809d07-69f9-4987-bc95-653c367955ba
----
----
-action: select
-POSS - DEVON | Devon | Devon | £30000 - £35000 per year | Accounts Assistant
-job_id: fbb25edf-7727-46c0-ad09-305ff52cff3d
----
+_No jobs in this group._
+
 ## DORSET — SELECTED
 
 ---
@@ -3721,6 +3735,12 @@ job_id: 23643_225420664
 action:
 SELECTED | Dorset | Dorset | £26000 - £31000 per year (25 days hols) | Trust Administrator
 job_id: 23643_225429242
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £16 - £17 per hour | Administrator
+job_id: 23643_225449411
 ---
 
 ---
@@ -3821,16 +3841,8 @@ job_id: 107865251
 
 ## DORSET — POSSIBLES
 
----
-action: select
-POSS - DORSET | Dorset | Dorset | £16 - £17 per hour | Administrator
-job_id: 23643_225449411
----
----
-action: exclude
-POSS - DORSET | Dorset | Dorset | £36000 - £40000 per year | Service Advisor
-job_id: 3521828d-c0f4-4a17-9767-6c8ca876e4e6
----
+_No jobs in this group._
+
 ## ESSEX — SELECTED
 
 ---
@@ -4063,16 +4075,8 @@ job_id: 7c8eab96-4c12-4952-a0ed-9a4128564e6c
 
 ## ESSEX — POSSIBLES
 
----
-action: exclude
-POSS - ESSEX | Essex | Essex | £23.77 per hour | Remarketing Sales & Administrator
-job_id: 23643_225401314
----
----
-action: exclude
-POSS - ESSEX | Essex | Essex | £23.77 - £31.17 per hour | PART TIME - Administrator
-job_id: 23643_225401223
----
+_No jobs in this group._
+
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4091,6 +4095,12 @@ job_id: f686614d-8a99-4e03-8d15-ffc001842105
 action:
 SELECTED | Gloucestershire | Gloucestershire | £25000 - £28000 per year | Temporary HR Administrator
 job_id: 4b638464-9de4-4c80-a07f-1201c9251f5c
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £18 per hour | Administrator
+job_id: 23643_225321490
 ---
 
 ---
@@ -4215,11 +4225,8 @@ job_id: 107864211
 
 ## GLOUCESTERSHIRE — POSSIBLES
 
----
-action: select
-POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £18 per hour | Administrator
-job_id: 23643_225321490
----
+_No jobs in this group._
+
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
 
 ---
@@ -4316,6 +4323,12 @@ job_id: 09d0cdb9-be4f-4c1e-8abf-086a9b52e876
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Intercompany Buyer/Planner
 job_id: 23643_225438032
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £28000 - £31000 per year (Pension, Healthcare, Bonus, CSR Days) | Service Helpdesk Co-ordinator
+job_id: 23643_225438494
 ---
 
 ---
@@ -4458,6 +4471,12 @@ job_id: 073015fd-8d66-4c01-bc26-6e283af66c56
 
 ---
 action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £30000 - £32000 per year | Human Resources Administrator
+job_id: c1d57060-6bda-42f6-8d23-55cdaae93f2f
+---
+
+---
+action:
 SELECTED | Greater Manchester - Manchester & Salford | Salford | £26000 - £27000 per year (26500) | Lettings Administrator
 job_id: 23643_225509200
 ---
@@ -4470,16 +4489,8 @@ job_id: 23643_225509120
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
----
-action: select
-POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £32000 per year | Human Resources Administrator
-job_id: c1d57060-6bda-42f6-8d23-55cdaae93f2f
----
----
-action: select
-POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £28000 - £31000 per year (Pension, Healthcare, Bonus, CSR Days) | Service Helpdesk Co-ordinator
-job_id: 23643_225438494
----
+_No jobs in this group._
+
 ## NORFOLK — SELECTED
 
 ---
@@ -4796,11 +4807,8 @@ job_id: 107702841
 
 ## NORTHAMPTONSHIRE — POSSIBLES
 
----
-action: exclude
-POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £80000 per year | Financial Planner
-job_id: 107803472
----
+_No jobs in this group._
+
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -5069,6 +5077,12 @@ job_id: 23643_225450095
 
 ---
 action:
+SELECTED | Oxfordshire | Oxfordshire | £15 - £16 per hour | Administrator
+job_id: 23643_225456749
+---
+
+---
+action:
 SELECTED | Oxfordshire | Oxfordshire | £29000 - £29500 per year (25days holiday + bank hols + 6% pen) | PURCHASING COORDINATOR
 job_id: 23643_225462965
 ---
@@ -5077,6 +5091,12 @@ job_id: 23643_225462965
 action:
 SELECTED | Oxfordshire | Oxfordshire | £26000 per year | Sales and Parts Administrator
 job_id: 23643_225461932
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £16 - £20 per hour (Holiday Pay) | Temporary Team Administrator
+job_id: 23643_225464784
 ---
 
 ---
@@ -5189,16 +5209,8 @@ job_id: 23643_225508503
 
 ## OXFORDSHIRE — POSSIBLES
 
----
-action: select
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £15 - £16 per hour | Administrator
-job_id: 23643_225456749
----
----
-action: select
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £16 - £20 per hour (Holiday Pay) | Temporary Team Administrator
-job_id: 23643_225464784
----
+_No jobs in this group._
+
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -5425,6 +5437,12 @@ job_id: 1595753
 
 ---
 action:
+SELECTED | Wiltshire | Wiltshire | £20.57 per hour | Resourcing & Scheduling Co-ordinator
+job_id: 23643_225423591
+---
+
+---
+action:
 SELECTED | Wiltshire | Wiltshire | £26436 per year | Customer Service Advisor
 job_id: 23643_225434482
 ---
@@ -5545,6 +5563,12 @@ job_id: b9b60abf-90c5-4196-86bc-bb3e5fff5bc7
 
 ---
 action:
+SELECTED | Wiltshire | Wiltshire | £17 per hour | Contractor Administrator
+job_id: 107857834
+---
+
+---
+action:
 SELECTED | Wiltshire | Wiltshire | £27000 - £27562 per year | Mortgage Broking Administrator
 job_id: 23643_225505253
 ---
@@ -5557,16 +5581,8 @@ job_id: 107863674
 
 ## WILTSHIRE — POSSIBLES
 
----
-action: select
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £17 per hour | Contractor Administrator
-job_id: 107857834
----
----
-action: select
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £20.57 per hour | Resourcing & Scheduling Co-ordinator
-job_id: 23643_225423591
----
+_No jobs in this group._
+
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
@@ -5649,6 +5665,12 @@ job_id: 5a70e6dc-d4f6-4337-819e-1c94362f0013
 
 ---
 action:
+SELECTED | Yorkshire - North | Harrogate | £32000 per year | Training and Recruitment administrator
+job_id: 23643_225472878
+---
+
+---
+action:
 SELECTED | Yorkshire - North | Harrogate | £28000 - £30000 per year | Finance Assistant
 job_id: 23643_225477133
 ---
@@ -5685,11 +5707,7 @@ job_id: 5a560285-330a-4930-9fbe-bd132db1297b
 
 ## YORKSHIRE - NORTH — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - NORTH | Yorkshire - North | Harrogate | £32000 per year | Training and Recruitment administrator
-job_id: 23643_225472878
----
+_No jobs in this group._
 ## ACTIVE MANUAL ACTIONS
 
 ---
@@ -5892,6 +5910,18 @@ job_id: 107697649
 
 ---
 action:
+DROPPED | London | London | £38000 - £42000 per year | HR Administrator
+job_id: e930cc9c-0584-4562-8a3d-802e03f16e92
+---
+
+---
+action:
+DROPPED | London | London | £18 - £20 per hour | Temporary Medical Secretary - knowledge of DGL
+job_id: 23643_225509322
+---
+
+---
+action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £13.45 - £18.9 per hour | Customer service advisor
 job_id: 23643_225416961
 ---
@@ -5921,5 +5951,5 @@ job_id: b4eae84d-a884-4356-95b6-25bfd89c63c4
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
-{"decisions":{"007cb8d0-3fb0-480d-827f-0fd4f29a6700":{"action":"select","decided_on":"2026-08-13"},"00f003e0-65d1-48b6-86b7-36a6c34dfcb5":{"action":"select","decided_on":"2026-08-14"},"00f1e237-afc8-489f-9ca4-42b6e740606a":{"action":"select","decided_on":"2026-08-14"},"02697e6a-9b0c-4ab5-91cc-9990a77a8008":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Hampshire"},"075c3120-a5b0-4a0a-b33a-3a16d2c2216a":{"action":"exclude","decided_on":"2026-08-15","employer":"83zero Ltd","title":"Services Sales Coordinator","town":"London"},"08e3923a-5dad-40a6-8f56-feedeec4ea54":{"action":"select","decided_on":"2026-08-13"},"09d0cdb9-be4f-4c1e-8abf-086a9b52e876":{"action":"select","decided_on":"2026-08-14"},"0a0bd01f-cfe5-494f-8b61-3316520f5382":{"action":"select","decided_on":"2026-08-14"},"0a779989-1a72-441c-81a0-9d7c9963e287":{"action":"select","decided_on":"2026-08-14"},"0a8f9eff-a0c8-4927-aa27-b73f64ae9d6a":{"action":"select","decided_on":"2026-08-16","employer":"TalentTech Recruitment","title":"Technical Sales Administrator","town":"London"},"0d2eac48-d6fd-479a-9dde-4b94b2822324":{"action":"select","decided_on":"2026-08-14"},"0eace40b-439a-4085-9b58-765d6a80a231":{"action":"select","decided_on":"2026-08-14"},"0ec8b843-e3ce-433f-9980-409156d7b4ac":{"action":"select","decided_on":"2026-08-14"},"0fed4582-c688-49a7-a784-49c558219477":{"action":"select","decided_on":"2026-08-15","employer":"E Personnel Recruitment","title":"PA TO DIRECTOR","town":"Surrey"},"107649152":{"action":"select","decided_on":"2026-08-17","employer":"Kenneth Brian Associates Limited","title":"Bid Coordinator","town":"Surrey"},"107681369":{"action":"select","decided_on":"2026-08-14"},"107682969":{"action":"select","decided_on":"2026-08-13"},"107683758":{"action":"select","decided_on":"2026-08-14"},"107693534":{"action":"exclude","decided_on":"2026-08-15","employer":"TEMPLEGATE RECRUITMENT LIMITED","title":"Paraplanner","town":"Hampshire"},"107697649":{"action":"exclude","decided_on":"2026-08-18","employer":"Alexander Mae (Bristol) Ltd","title":"Patent Secretary","town":"London"},"107698624":{"action":"exclude","decided_on":"2026-08-15","employer":"Rayment Recruitment","title":"Paraplanner","town":"Kent"},"107698631":{"action":"exclude","decided_on":"2026-08-15","employer":"Rayment Recruitment","title":"Paraplanner","town":"London"},"107707703":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Berkshire"},"107709539":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Technical Paraplanner","town":"Yorkshire"},"107709574":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Technical Paraplanner","town":"Somerset"},"107716697":{"action":"select","decided_on":"2026-08-13"},"107717366":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Devon"},"107731922":{"action":"exclude","decided_on":"2026-08-15","employer":"FBI &TMT","title":"Enterprise Services Principal Administrator, Cloud","town":"London"},"107732042":{"action":"exclude","decided_on":"2026-08-15","employer":"Equals One Ltd","title":"Financial Planner","town":"Yorkshire"},"107746735":{"action":"select","decided_on":"2026-08-14"},"107756313":{"action":"exclude","decided_on":"2026-08-15","employer":"KD Recruitment Limited","title":"Paraplanner","town":"Yorkshire"},"107756513":{"action":"exclude","decided_on":"2026-08-15","employer":"Paradigm Employment Services LTD","title":"Paraplanner","town":"Sussex"},"107762743":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions (City) LLP","title":"Paraplanner","town":"Surrey"},"107763731":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions (City) LLP","title":"Paraplanner","town":"Kent"},"107764368":{"action":"select","decided_on":"2026-08-13"},"107786406":{"action":"select","decided_on":"2026-08-14"},"107787034":{"action":"exclude","decided_on":"2026-08-15","employer":"Fresh People Ltd","title":"Chartered Secretary Corporate Governance","town":"Kent"},"107787385":{"action":"exclude","decided_on":"2026-08-15","employer":"Talent Finder","title":"Paraplanner","town":"Nottinghamshire"},"107787731":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions (City) LLP","title":"Financial Planner","town":"London"},"107796387":{"action":"exclude","decided_on":"2026-08-15","employer":"IT Online Learning","title":"HR Administrator Placement Programme No Experience Needed","town":"Somerset"},"107796844":{"action":"select","decided_on":"2026-08-18","employer":"The Solution Automotive Limited","title":"Service Advisor","town":"Hampshire"},"107798281":{"action":"select","decided_on":"2026-08-13"},"107803495":{"action":"exclude","decided_on":"2026-08-17","employer":"GROVE TALENT SOLUTIONS LTD","title":"Paraplanner","town":"Wiltshire"},"107803516":{"action":"exclude","decided_on":"2026-08-15","employer":"GROVE TALENT SOLUTIONS LTD","title":"Paraplanner","town":"Cambridgeshire"},"107810460":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Hampshire"},"107830288":{"action":"exclude","decided_on":"2026-08-18","employer":"SER (Staffing) Ltd","title":"Showroom Coordinator","town":"Warwickshire"},"107830353":{"action":"exclude","decided_on":"2026-08-15","employer":"KD Recruitment Limited","title":"Trusts and Tax Accounts Administrator","town":"Yorkshire"},"107830358":{"action":"exclude","decided_on":"2026-08-15","employer":"Expleo Group","title":"Procurement Project Coordinator / Project Support Specialist","town":"Warwickshire"},"107843551":{"action":"exclude","decided_on":"2026-08-18","employer":"Experis","title":"Range Planner - Convenience","town":"London"},"12880f03-eef0-4876-b938-5335f079207f":{"action":"exclude","decided_on":"2026-08-17","employer":"Jobshop UK Limited","title":"Chartered Paraplanner","town":"Dorset"},"12ad35bf-d773-4ba1-a4f6-7282c230b637":{"action":"select","decided_on":"2026-08-13"},"1401784506":{"action":"select","decided_on":"2026-08-14"},"15891165-cdb1-4ee5-9417-2d276780298b":{"action":"select","decided_on":"2026-08-14"},"1632658":{"action":"exclude","decided_on":"2026-08-15","employer":"Care South","title":"Company Secretary & Data Protection Officer","town":"Dorset"},"1656a805-605d-40c3-aad9-9a7c849ffb83":{"action":"select","decided_on":"2026-08-18","employer":"Reed","title":"Operations Administrator","town":"Lancashire"},"195be5ef-6c84-4d3a-97cc-418f791512dc":{"action":"select","decided_on":"2026-08-14"},"19e67123-787d-40eb-bc54-4e10e57a7295":{"action":"select","decided_on":"2026-08-17","employer":"YourRecruit","title":"Tender Administrator","town":"Surrey"},"1a53e354-6a3b-4acf-9a73-6e087f284ce4":{"action":"select","decided_on":"2026-08-13"},"1bab4f68-302c-4d64-861c-37c4ec78fc63":{"action":"select","decided_on":"2026-08-14"},"2325eb41-0a0a-46f5-b197-7b6ec492b4df":{"action":"select","decided_on":"2026-08-18","employer":"Ashdown Group","title":"Accounts Administrator","town":"Essex"},"23643_225025378":{"action":"select","decided_on":"2026-08-14"},"23643_225104066":{"action":"select","decided_on":"2026-08-14"},"23643_225334055":{"action":"select","decided_on":"2026-08-14"},"23643_225346183":{"action":"select","decided_on":"2026-08-14"},"23643_225374391":{"action":"select","decided_on":"2026-08-13"},"23643_225402145":{"action":"select","decided_on":"2026-08-13"},"23643_225403562":{"action":"select","decided_on":"2026-08-18","employer":"Ernest Gordon Recruitment Limited","title":"Sales Administrator (Training/Progression)","town":"Staffordshire"},"23643_225403853":{"action":"select","decided_on":"2026-08-14"},"23643_225404128":{"action":"select","decided_on":"2026-08-18","employer":"Hays Business Support","title":"Training Coordinator","town":"Staffordshire"},"23643_225405641":{"action":"select","decided_on":"2026-08-14"},"23643_225407253":{"action":"select","decided_on":"2026-08-14"},"23643_225408133":{"action":"exclude","decided_on":"2026-08-15","employer":"Ernest Gordon Recruitment Limited","title":"Project Administrator (Power / Transmission / Electrical)","town":"Tyne And Wear"},"23643_225409884":{"action":"select","decided_on":"2026-08-14"},"23643_225410812":{"action":"select","decided_on":"2026-08-14"},"23643_225413953":{"action":"select","decided_on":"2026-08-15","employer":"Streamline Services Consultancy Limited","title":"Operations & Sales Coordinator","town":"London"},"23643_225414171":{"action":"select","decided_on":"2026-08-14"},"23643_225414242":{"action":"select","decided_on":"2026-08-14"},"23643_225414926":{"action":"select","decided_on":"2026-08-14"},"23643_225416645":{"action":"select","decided_on":"2026-08-14"},"23643_225416698":{"action":"exclude","decided_on":"2026-08-15","employer":"Hexagon Group","title":"Facilities Administrator","town":"London"},"23643_225416961":{"action":"select","decided_on":"2026-08-14"},"23643_225417469":{"action":"exclude","decided_on":"2026-08-15","employer":"Ruler Tech","title":"Temporary Administrator","town":"Oxfordshire"},"23643_225420216":{"action":"select","decided_on":"2026-08-14"},"23643_225420458":{"action":"select","decided_on":"2026-08-18","employer":"Berry Recruitment","title":"Customer Service Advisor - Part Time","town":"Staffordshire"},"23643_225420664":{"action":"select","decided_on":"2026-08-14"},"23643_225422004":{"action":"select","decided_on":"2026-08-14"},"23643_225422287":{"action":"select","decided_on":"2026-08-14"},"23643_225423837":{"action":"select","decided_on":"2026-08-14"},"23643_225425220":{"action":"select","decided_on":"2026-08-14"},"23643_225427615":{"action":"select","decided_on":"2026-08-18","employer":"Marshall Harmony","title":"SHEQ & Office Coordinator","town":"Staffordshire"},"23643_225429242":{"action":"select","decided_on":"2026-08-14"},"23643_225430342":{"action":"select","decided_on":"2026-08-18","employer":"Adecco","title":"Depot Administrator- Noons","town":"Staffordshire"},"23643_225430631":{"action":"select","decided_on":"2026-08-13"},"23643_225431204":{"action":"select","decided_on":"2026-08-14"},"23643_225433800":{"action":"select","decided_on":"2026-08-14"},"23643_225433817":{"action":"select","decided_on":"2026-08-14"},"23643_225433915":{"action":"select","decided_on":"2026-08-14"},"23643_225434826":{"action":"select","decided_on":"2026-08-15","employer":"BBS Recruitment","title":"Call Centre Advisor","town":"London"},"23643_225436223":{"action":"select","decided_on":"2026-08-14"},"23643_225436892":{"action":"select","decided_on":"2026-08-14"},"23643_225437095":{"action":"select","decided_on":"2026-08-14"},"23643_225438847":{"action":"select","decided_on":"2026-08-14"},"23643_225439422":{"action":"select","decided_on":"2026-08-18","employer":"Ernest Gordon Recruitment Limited","title":"Administrator (Sales)","town":"Staffordshire"},"23643_225440089":{"action":"select","decided_on":"2026-08-14"},"23643_225441991":{"action":"select","decided_on":"2026-08-14"},"23643_225442057":{"action":"select","decided_on":"2026-08-18","employer":"EVP Recruitment Ltd","title":"Customer Service Administrator","town":"Norfolk"},"23643_225442088":{"action":"select","decided_on":"2026-08-14"},"23643_225443454":{"action":"select","decided_on":"2026-08-15","employer":"Morgan Jones Recruitment Consultants","title":"Assistant Private Secretary","town":"London"},"23643_225444976":{"action":"select","decided_on":"2026-08-14"},"23643_225445558":{"action":"select","decided_on":"2026-08-14"},"23643_225446746":{"action":"select","decided_on":"2026-08-14"},"23643_225447263":{"action":"select","decided_on":"2026-08-14"},"23643_225448168":{"action":"select","decided_on":"2026-08-13"},"23643_225448181":{"action":"exclude","decided_on":"2026-08-15","employer":"Office Angels","title":"Document Controller - MUST HAVE EXPERIENCE","town":"Nottinghamshire"},"23643_225450023":{"action":"select","decided_on":"2026-08-14"},"23643_225450354":{"action":"select","decided_on":"2026-08-13"},"23643_225451240":{"action":"select","decided_on":"2026-08-15","employer":"Matchtech","title":"Office Administrator","town":"Hampshire"},"23643_225452921":{"action":"select","decided_on":"2026-08-14"},"23643_225458763":{"action":"select","decided_on":"2026-08-14"},"23643_225460050":{"action":"select","decided_on":"2026-08-14"},"23643_225460725":{"action":"select","decided_on":"2026-08-14"},"23643_225460911":{"action":"exclude","decided_on":"2026-08-15","employer":"Carrington West","title":"Associate Town Planner","town":"Hampshire"},"23643_225461884":{"action":"select","decided_on":"2026-08-14"},"23643_225461934":{"action":"select","decided_on":"2026-08-14"},"23643_225462047":{"action":"select","decided_on":"2026-08-14"},"23643_225462648":{"action":"select","decided_on":"2026-08-14"},"23643_225462773":{"action":"select","decided_on":"2026-08-14"},"23643_225462925":{"action":"select","decided_on":"2026-08-14"},"23643_225462949":{"action":"select","decided_on":"2026-08-14"},"23643_225463025":{"action":"select","decided_on":"2026-08-14"},"23643_225464120":{"action":"select","decided_on":"2026-08-14"},"23643_225465230":{"action":"select","decided_on":"2026-08-14"},"23643_225465331":{"action":"select","decided_on":"2026-08-14"},"23643_225467522":{"action":"select","decided_on":"2026-08-14"},"23643_225467962":{"action":"select","decided_on":"2026-08-14"},"23643_225468369":{"action":"select","decided_on":"2026-08-14"},"23643_225468442":{"action":"select","decided_on":"2026-08-13"},"23643_225468462":{"action":"select","decided_on":"2026-08-13"},"23643_225468873":{"action":"select","decided_on":"2026-08-13"},"23643_225469323":{"action":"select","decided_on":"2026-08-14"},"23643_225469648":{"action":"select","decided_on":"2026-08-14"},"23643_225469790":{"action":"select","decided_on":"2026-08-14"},"23643_225472240":{"action":"select","decided_on":"2026-08-14"},"23643_225472563":{"action":"select","decided_on":"2026-08-14"},"23643_225472925":{"action":"select","decided_on":"2026-08-14"},"23643_225473460":{"action":"select","decided_on":"2026-08-14"},"23643_225473807":{"action":"select","decided_on":"2026-08-14"},"23643_225473828":{"action":"select","decided_on":"2026-08-14"},"23643_225474593":{"action":"select","decided_on":"2026-08-14"},"23643_225474610":{"action":"select","decided_on":"2026-08-14"},"23643_225474803":{"action":"select","decided_on":"2026-08-14"},"23643_225475427":{"action":"select","decided_on":"2026-08-18","employer":"Prestige Recruitment Specialists","title":"Site Coordinator","town":"Norfolk"},"23643_225476663":{"action":"exclude","decided_on":"2026-08-15","employer":"Gill Cooke Personnel Ltd T/A The Recruitment Group","title":"Technical Business Support Officer","town":"Oxfordshire"},"23643_225477091":{"action":"select","decided_on":"2026-08-14"},"23643_225477107":{"action":"select","decided_on":"2026-08-14"},"23643_225478097":{"action":"exclude","decided_on":"2026-08-15","employer":"General Dental Council","title":"Hearings Committee Secretary","town":"London"},"23643_225479821":{"action":"select","decided_on":"2026-08-14"},"23643_225480630":{"action":"select","decided_on":"2026-08-14"},"23643_225480861":{"action":"exclude","decided_on":"2026-08-15","employer":"Rullion Engineering Cumbria","title":"Document Controller","town":"Yorkshire"},"23643_225482217":{"action":"select","decided_on":"2026-08-14"},"23643_225487328":{"action":"select","decided_on":"2026-08-15","employer":"Michael Page","title":"PA to COO","town":"London"},"23643_225488847":{"action":"select","decided_on":"2026-08-15","employer":"Michael Page","title":"PA to Director","town":"Surrey"},"23643_225494042":{"action":"select","decided_on":"2026-08-17","employer":"Jobwise Ltd","title":"HR and Facilities Coordinator","town":"Manchester"},"23643_225498172":{"action":"select","decided_on":"2026-08-15","employer":"Office Angels","title":"Temporary Complaints Handler Immediate Start","town":"London"},"23643_225498178":{"action":"select","decided_on":"2026-08-15","employer":"Office Angels","title":"Temporary Complaints Handler - 3 months","town":"London"},"23643_225498733":{"action":"select","decided_on":"2026-08-15","employer":"Rise Technical Recruitment","title":"Administrator (Renewable Energy)","town":"Cambridgeshire"},"23643_225499042":{"action":"select","decided_on":"2026-08-15","employer":"BDS (Northern) Limited","title":"Investigatory data administrator","town":"Yorkshire"},"23643_225500892":{"action":"exclude","decided_on":"2026-08-17","employer":"Red Personnel","title":"Examinations Coordinator","town":"London"},"26c4e84f-e3ee-4d79-97f9-4105c719d965":{"action":"select","decided_on":"2026-08-14"},"2735a4af-e2a1-47b9-8fe8-7bfd46267528":{"action":"select","decided_on":"2026-08-14"},"2b0f08ad-fe9d-4637-8766-17a7c353b0cd":{"action":"select","decided_on":"2026-08-17","employer":"Bis Henderson","title":"SOL Administrator","town":"Warwickshire"},"2b79d856-aaf2-45e4-b963-935a96f9e96f":{"action":"exclude","decided_on":"2026-08-17","employer":"Hays Specialist Recruitment Limited","title":"Assistant Board Secretary","town":"Lancashire"},"2cb3ac11-5022-46e9-b4dc-2fbc15d22788":{"action":"select","decided_on":"2026-08-14"},"2f01765c-5705-43c3-8e7b-12bf4fdd75d5":{"action":"select","decided_on":"2026-08-14"},"2f442938-e5f9-439b-be35-55e2bcff988a":{"action":"select","decided_on":"2026-08-13"},"30dd270a-bc10-438a-91aa-350d9861e84e":{"action":"select","decided_on":"2026-08-13"},"316f2ae5-fd75-409f-9b68-3ef8adc7fb89":{"action":"select","decided_on":"2026-08-14"},"3366a882-3f91-4d08-a293-4c57d4bba334":{"action":"exclude","decided_on":"2026-08-15","employer":"HELEN FALLON CONSULTING LTD","title":"Operations and Office Coordinator","town":"Oxfordshire"},"3403525b-043f-484a-8ba1-b8f4d8deca36":{"action":"select","decided_on":"2026-08-17","employer":"Perfect Placement Uk Ltd","title":"Service Advisor","town":"Wiltshire"},"3725658b-9fa5-4df3-bf6f-b944fff16bac":{"action":"select","decided_on":"2026-08-13"},"37de4be2-0a53-41c1-9b2c-dca52159ab6e":{"action":"select","decided_on":"2026-08-14"},"383aa9e1-6a3d-4d51-b4cb-96e98dbdcdf5":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Cambridgeshire"},"38b3ed66-693a-4892-8270-c0358f021570":{"action":"select","decided_on":"2026-08-15","employer":"Reed","title":"Property Transfer Administrator","town":"Dorset"},"3ab66fdf-d7bf-4498-a35a-7e8d7c2e5ffa":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Essex"},"3d23e61e-04ce-4692-a7dc-cd1faf36f502":{"action":"exclude","decided_on":"2026-08-15","employer":"General Dental Council","title":"Hearings Committee Secretary","town":"London"},"425e3977-cbfd-48e6-b978-156fa3fc3cc1":{"action":"select","decided_on":"2026-08-14"},"42992d6d-b64c-4ab2-b5a3-c65625521a56":{"action":"select","decided_on":"2026-08-14"},"4483b792-2906-4de2-851c-f7f74385363e":{"action":"select","decided_on":"2026-08-15","employer":"Michael Page Finance","title":"Accounts Assistant","town":"Kent"},"4517014c-d0a8-42fb-bb08-d36c6364a7be":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Northamptonshire"},"48820166-2b23-444d-9954-cfff6c033111":{"action":"select","decided_on":"2026-08-13"},"49cc3b70-6add-41fd-a179-270e1d51aaa8":{"action":"exclude","decided_on":"2026-08-15","employer":"Brevere Group","title":"Technical Paraplanner","town":"London"},"4c07739c-8565-4df6-acba-161ba2bc40c6":{"action":"exclude","decided_on":"2026-08-15","employer":"Hays Specialist Recruitment Limited","title":"Recovery Coordinator","town":"Cambridgeshire"},"4ccc09e9-cbe7-47d7-b96e-bdb3c56b9a8c":{"action":"select","decided_on":"2026-08-14"},"4dc34be1-d91b-4906-a791-21d9596136a2":{"action":"select","decided_on":"2026-08-14"},"4f942444-cc86-4f7d-85ef-74a54792f009":{"action":"select","decided_on":"2026-08-14"},"519db7dc-6478-4bd4-81a3-4382a632bb62":{"action":"select","decided_on":"2026-08-13"},"5379ec46-0160-4cda-a260-a866babe490c":{"action":"select","decided_on":"2026-08-18","employer":"Bond Williams","title":"Client Services Administrator - Poole - Up to £38,000","town":"Dorset"},"557e6633-4b02-480a-80bf-cc6c0b4c9563":{"action":"select","decided_on":"2026-08-14"},"55da75c6-162f-4106-a38d-ba0203aa1034":{"action":"select","decided_on":"2026-08-13"},"57c09aa3-10d6-4ef7-94bb-9e2981c9f002":{"action":"select","decided_on":"2026-08-17","employer":"Right Now Group","title":"HR & Operations Administrator","town":"Berkshire"},"5a70e6dc-d4f6-4337-819e-1c94362f0013":{"action":"select","decided_on":"2026-08-14"},"5f397ecd-f573-477c-bd12-80c082b2389b":{"action":"select","decided_on":"2026-08-14"},"613e2fd9-d4ba-4db1-9af4-ed5d78ce95ea":{"action":"select","decided_on":"2026-08-14"},"6575def5-b4f8-4d8f-ab32-b96037939524":{"action":"exclude","decided_on":"2026-08-15","employer":"G2 Company Secretarial","title":"Company Secretary Administrator","town":"Middlesex"},"66ad4f96-29f2-4230-9031-c1231955c1e5":{"action":"exclude","decided_on":"2026-08-15","employer":"Equals One","title":"Financial Planner","town":"Yorkshire"},"6a7f7899-fda3-4afb-9af8-d430b4235d15":{"action":"select","decided_on":"2026-08-18","employer":"Reed","title":"Service Administrator","town":"Norfolk"},"6aca5c9a-a87a-46e1-a01d-07f478618bad":{"action":"select","decided_on":"2026-08-14"},"6cc0e9b1-daae-4776-87dd-7198afbef061":{"action":"select","decided_on":"2026-08-14"},"6d09509e-78ca-4bf5-a359-ec3cc317db83":{"action":"exclude","decided_on":"2026-08-15","employer":"Ernest Gordon Recruitment Limited","title":"Project Administrator (Power / Transmission / Electrical)","town":"Tyne And Wear"},"6e92762b-5ca2-4563-a525-f086197bdaab":{"action":"exclude","decided_on":"2026-08-17","employer":"Commercial Recruitment","title":"Paraplanner","town":"Cambridgeshire"},"73c27096-8e4a-4bbb-8a13-773dcdd66a6c":{"action":"select","decided_on":"2026-08-13"},"7462e2e4-9ae5-4def-a806-28d45a4c80cd":{"action":"exclude","decided_on":"2026-08-15","employer":"Reed","title":"Paraplanner","town":"Somerset"},"760aa9f7-1694-40f5-a9cc-cff389ba7c5f":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Cambridgeshire"},"7b093470-7410-4edb-a060-551402723001":{"action":"select","decided_on":"2026-08-14"},"7b14365e-23bd-4e26-8c6b-d14607bb3f25":{"action":"select","decided_on":"2026-08-14"},"83f801d6-feef-4ea7-a4f3-188da8bcf815":{"action":"select","decided_on":"2026-08-13"},"86ccc5ec-10ec-49fa-9f00-50c5b00d39d6":{"action":"select","decided_on":"2026-08-18","employer":"Fin Search Ltd","title":"Accounts Assistant","town":"Yorkshire"},"8be51ccb-181c-4cbc-89e7-f35ce8ae9158":{"action":"select","decided_on":"2026-08-14"},"8fce0a69-f1e4-460e-a206-e6175c904338":{"action":"select","decided_on":"2026-08-14"},"9313f8d8-798c-47d4-b862-63cec763953a":{"action":"select","decided_on":"2026-08-14"},"93baa206-491b-430c-a77e-ba07b8e9564e":{"action":"select","decided_on":"2026-08-17","employer":"Ashdown Group","title":"Accounts Assistant","town":"Essex"},"943c8359-7d04-415e-bb88-ccbe46b78342":{"action":"select","decided_on":"2026-08-18","employer":"Randstad RIS","title":"HR Assistant","town":"Essex"},"96b761f8-bd64-4d5e-816b-dcccf5c1d103":{"action":"exclude","decided_on":"2026-08-15","employer":"4Recruitment Services","title":"Governance Administrator","town":"Essex"},"98db520e-fecc-42d4-979f-9f11eec9c785":{"action":"select","decided_on":"2026-08-17","employer":"Reed","title":"Brand Coordinator & Administrator","town":"London"},"9a8a65b7-5887-40a1-a98e-de57fb95676e":{"action":"exclude","decided_on":"2026-08-18","employer":"MI Search Ltd","title":"Client Facing Paraplanner, London (hybrid), Basic to circa £60k","town":"London"},"9e442b03-56f9-41d0-8fbf-c875482827ff":{"action":"select","decided_on":"2026-08-18","employer":"Workstreet","title":"Sales Administrator","town":"Staffordshire"},"9f960cb9-698b-4d0c-a9ab-36216637f126":{"action":"select","decided_on":"2026-08-18","employer":"Bis Henderson","title":"HR Systems and Administration Co-ordinator","town":"Staffordshire"},"a1a841ae-c43c-4f2d-89c0-450a6b91b1ab":{"action":"select","decided_on":"2026-08-18","employer":"Job Box Recruitment Limited","title":"Secretary","town":"London"},"a24d4cb2-62cf-4de5-9014-51c98ed8781f":{"action":"select","decided_on":"2026-08-18","employer":"Reed","title":"Customer Service Administrator","town":"Staffordshire"},"a443ff02-bebe-452b-a749-6b190d41b6d7":{"action":"select","decided_on":"2026-08-15","employer":"Purple Placements","title":"HR Coordinator","town":"Oxfordshire"},"a4658548-cea5-400a-aea0-5db656f46bf4":{"action":"exclude","decided_on":"2026-08-17","employer":"Love Success Recruitment","title":"Permanent: Operations Co-ordinator to £40,000 ( Chiswick)","town":"London"},"a55fd95b-154b-44c4-b4f3-f1e4b43b0b13":{"action":"select","decided_on":"2026-08-14"},"a6a1059f-412f-4a98-9621-dd0f56adbdea":{"action":"select","decided_on":"2026-08-13"},"a7264c1a-af8c-4f22-bc52-0dde833814c3":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions","title":"Paraplanner (route to advisor) Hybrid £50k + Bonus Bracknell","town":"Berkshire"},"a8c8f365-3a3c-4300-bf8d-0364612379c7":{"action":"select","decided_on":"2026-08-14"},"a92b6fa1-1726-4a3b-b0c3-94dbe9106220":{"action":"exclude","decided_on":"2026-08-15","employer":"Fame Recruitment Consultants Ltd","title":"Property Sales Support & Office Coordinator","town":"London"},"aa220c68-6350-484e-88dd-9f024421db4c":{"action":"select","decided_on":"2026-08-14"},"aa977cad-f14e-4a34-b5f1-9fd440d4b9ed":{"action":"select","decided_on":"2026-08-14"},"abd222ce-e7e9-4c3f-9076-03220cd33052":{"action":"select","decided_on":"2026-08-13"},"ac77bded-97ae-4769-9c90-e5e347e032eb":{"action":"select","decided_on":"2026-08-18","employer":"ASC Connections Ltd","title":"German Speaking Administrator","town":"Yorkshire"},"ad194d43-a41f-4957-a029-b15348fcba4f":{"action":"select","decided_on":"2026-08-13"},"aefb6f88-42de-4bf9-a62e-b7d63260e543":{"action":"exclude","decided_on":"2026-08-17","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Essex"},"b0e9a083-0dfc-4f3e-9014-f79a4d2fedf2":{"action":"select","decided_on":"2026-08-13"},"b409277f-51f2-4d9a-a5b0-eb6164156198":{"action":"select","decided_on":"2026-08-14"},"b4eae84d-a884-4356-95b6-25bfd89c63c4":{"action":"select","decided_on":"2026-08-15","employer":"Reed","title":"Office Coordinator","town":"Tyne And Wear"},"b83c05fc-a498-4d8a-80b5-1e32c317f50b":{"action":"exclude","decided_on":"2026-08-15","employer":"Robert Half","title":"Global NetSuite Owner/ Administrator","town":"London"},"ba8c8942-7a60-4821-959a-b7b2fe1b7c20":{"action":"exclude","decided_on":"2026-08-15","employer":"IDEX Consulting Ltd","title":"Junior Financial Planner","town":"Kent"},"bffae8f8-4b47-4b53-bd40-10fce4866cd9":{"action":"exclude","decided_on":"2026-08-18","employer":"BOWERFORD ASSOCIATES","title":"PMO Coordinator","town":"Devon"},"c17b478b-b263-4cf0-bc94-62e97f51f46e":{"action":"select","decided_on":"2026-08-14"},"c73aa678-7d7d-4684-8b42-f95464109197":{"action":"select","decided_on":"2026-08-14"},"c8cbeea8-ab73-415e-a82c-d6e53a413388":{"action":"select","decided_on":"2026-08-14"},"cabb1ecb-a960-45a4-b363-b6df17c82409":{"action":"exclude","decided_on":"2026-08-18","employer":"Eden Rose","title":"Paraplanner","town":"Gloucestershire"},"ce1a4d3a-01bd-4318-9879-9012ad1a1d1b":{"action":"select","decided_on":"2026-08-14"},"ce9667b9-d828-4c03-b90f-673e439e0f77":{"action":"select","decided_on":"2026-08-14"},"cf054858-fa00-43dc-b84f-98cacbbc668c":{"action":"select","decided_on":"2026-08-18","employer":"Axis CLC","title":"HR Administrator","town":"London"},"d1a77c0c-41aa-4cb8-b28f-d3ce829dcf81":{"action":"select","decided_on":"2026-08-15","employer":"Adjusting Appointments Limited","title":"Property Claims Handler","town":"Yorkshire"},"d348ba8c-df89-4296-a528-33001fd8a87f":{"action":"select","decided_on":"2026-08-18","employer":"Avena Environmental Ltd.","title":"Sales Administrator","town":"Norfolk"},"d515110e-8714-44d1-b3cb-fd45d96a8f8c":{"action":"exclude","decided_on":"2026-08-15","employer":"Eden Rose","title":"Remote Paraplanner","town":"London"},"d5251221-2477-4fea-af12-262a5bdfc568":{"action":"exclude","decided_on":"2026-08-17","employer":"Synchronicity Group","title":"Paraplanner","town":"Cambridgeshire"},"d7feae10-0ad2-4ec0-ab02-a93837122f34":{"action":"select","decided_on":"2026-08-14"},"d9a0579a-e559-486d-b63f-5ca0f7ae72c7":{"action":"select","decided_on":"2026-08-14"},"daac0fcc-07b5-4688-8b21-2d5b66178e57":{"action":"exclude","decided_on":"2026-08-17","employer":"Service Service Employment Agency Limited","title":"Paraplanner","town":"Essex"},"db1cfbc9-8cb7-4e91-b1f5-99dc83f06e69":{"action":"exclude","decided_on":"2026-08-15","employer":"Venn Group","title":"SMR Corporate Secretary","town":"London"},"de193a1c-f471-48e2-a2f5-cc7478cefd32":{"action":"exclude","decided_on":"2026-08-15","employer":"Larbey Evans","title":"Early Careers & Development Coordinator","town":"London"},"dfd7ef13-5504-4b7d-bfe3-86a6823baa23":{"action":"select","decided_on":"2026-08-18","employer":"Ernest Gordon Recruitment Limited","title":"Sales Administrator (Training/Progression)","town":"Staffordshire"},"e12e3556-f2a6-4520-a95f-3257ce75db72":{"action":"select","decided_on":"2026-08-18","employer":"Command Recruitment","title":"Sales Administrator","town":"Berkshire"},"e382f2be-4948-4739-ba50-58bf45106685":{"action":"exclude","decided_on":"2026-08-15","employer":"Listers Group Limited","title":"Audi Service Advisor","town":"Warwickshire"},"e63de2d1-ff77-49ad-8209-3e0dcb2b46eb":{"action":"select","decided_on":"2026-08-14"},"e6adc526-6a11-4aca-a85b-f18a9cd311ee":{"action":"select","decided_on":"2026-08-17","employer":"IPS Group","title":"Accounts Administrator","town":"Yorkshire"},"e7ffbcbb-ffc2-4f5b-9fa2-94bf92b8967f":{"action":"select","decided_on":"2026-08-17","employer":"Consula Group LTD","title":"Administrator","town":"Lancashire"},"e9a0f883-6061-4956-a196-6dcd989271ae":{"action":"select","decided_on":"2026-08-14"},"ebc3aa51-b5ba-4617-afd5-f62f4a747f13":{"action":"select","decided_on":"2026-08-13"},"ec23d80f-e4c3-4e50-8995-98eabb2874b2":{"action":"select","decided_on":"2026-08-15","employer":"Adjusting Appointments Limited","title":"Property Claims Handler","town":"Yorkshire"},"f2b1b885-1e89-40a2-9927-0632554cbc43":{"action":"select","decided_on":"2026-08-17","employer":"Provit Recruitment","title":"Part Time Secretary","town":"Warwickshire"},"f3c6c938-0c04-4bf8-a1a7-fdeabb4638e6":{"action":"exclude","decided_on":"2026-08-15","employer":"Finlink Ltd","title":"Paraplanner","town":"Berkshire"},"f4a93094-ce3d-4c03-aa63-e447bc0a4a52":{"action":"select","decided_on":"2026-08-14"},"f686614d-8a99-4e03-8d15-ffc001842105":{"action":"select","decided_on":"2026-08-14"},"f6a9d116-33f3-41b0-bb10-29c6f514487f":{"action":"select","decided_on":"2026-08-14"},"f79d7f29-92e3-4561-a015-391af173ca54":{"action":"select","decided_on":"2026-08-14"},"f808eb78-0ba8-45ef-87f9-115fc9d8628b":{"action":"select","decided_on":"2026-08-17","employer":"Hays Specialist Recruitment Limited","title":"Interim Finance & Procurement Administrator","town":"Somerset"},"f81aac2b-8606-43b8-9f23-24f40868c2ec":{"action":"select","decided_on":"2026-08-17","employer":"Handle Recruitment","title":"HR Administrator 3m FTC - Creative Agency","town":"London"},"fa72b8f1-84f7-4af8-8567-d3253780c253":{"action":"select","decided_on":"2026-08-14"},"fb041691-0d31-40d1-88ad-373066bbad8d":{"action":"select","decided_on":"2026-08-14"},"fcd4fadd-fd89-4e66-935d-88b6fb30a5f1":{"action":"select","decided_on":"2026-08-14"},"fe8f47ca-f00a-4fef-87e1-5577d1ac0b71":{"action":"select","decided_on":"2026-08-15","employer":"Optima Recruitment","title":"Finance Coordinator","town":"Surrey"}},"version":1}
+{"decisions":{"007cb8d0-3fb0-480d-827f-0fd4f29a6700":{"action":"select","decided_on":"2026-08-13"},"00f003e0-65d1-48b6-86b7-36a6c34dfcb5":{"action":"select","decided_on":"2026-08-14"},"00f1e237-afc8-489f-9ca4-42b6e740606a":{"action":"select","decided_on":"2026-08-14"},"02697e6a-9b0c-4ab5-91cc-9990a77a8008":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Hampshire"},"075c3120-a5b0-4a0a-b33a-3a16d2c2216a":{"action":"exclude","decided_on":"2026-08-15","employer":"83zero Ltd","title":"Services Sales Coordinator","town":"London"},"08e3923a-5dad-40a6-8f56-feedeec4ea54":{"action":"select","decided_on":"2026-08-13"},"09d0cdb9-be4f-4c1e-8abf-086a9b52e876":{"action":"select","decided_on":"2026-08-14"},"0a0bd01f-cfe5-494f-8b61-3316520f5382":{"action":"select","decided_on":"2026-08-14"},"0a779989-1a72-441c-81a0-9d7c9963e287":{"action":"select","decided_on":"2026-08-14"},"0a8f9eff-a0c8-4927-aa27-b73f64ae9d6a":{"action":"select","decided_on":"2026-08-16","employer":"TalentTech Recruitment","title":"Technical Sales Administrator","town":"London"},"0d2eac48-d6fd-479a-9dde-4b94b2822324":{"action":"select","decided_on":"2026-08-14"},"0eace40b-439a-4085-9b58-765d6a80a231":{"action":"select","decided_on":"2026-08-14"},"0ec8b843-e3ce-433f-9980-409156d7b4ac":{"action":"select","decided_on":"2026-08-14"},"0fed4582-c688-49a7-a784-49c558219477":{"action":"select","decided_on":"2026-08-15","employer":"E Personnel Recruitment","title":"PA TO DIRECTOR","town":"Surrey"},"107649152":{"action":"select","decided_on":"2026-08-17","employer":"Kenneth Brian Associates Limited","title":"Bid Coordinator","town":"Surrey"},"107681369":{"action":"select","decided_on":"2026-08-14"},"107682969":{"action":"select","decided_on":"2026-08-13"},"107683758":{"action":"select","decided_on":"2026-08-14"},"107693534":{"action":"exclude","decided_on":"2026-08-15","employer":"TEMPLEGATE RECRUITMENT LIMITED","title":"Paraplanner","town":"Hampshire"},"107697649":{"action":"exclude","decided_on":"2026-08-18","employer":"Alexander Mae (Bristol) Ltd","title":"Patent Secretary","town":"London"},"107698624":{"action":"exclude","decided_on":"2026-08-15","employer":"Rayment Recruitment","title":"Paraplanner","town":"Kent"},"107698631":{"action":"exclude","decided_on":"2026-08-15","employer":"Rayment Recruitment","title":"Paraplanner","town":"London"},"107707703":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Berkshire"},"107709539":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Technical Paraplanner","town":"Yorkshire"},"107709574":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Technical Paraplanner","town":"Somerset"},"107716697":{"action":"select","decided_on":"2026-08-13"},"107717366":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Devon"},"107731922":{"action":"exclude","decided_on":"2026-08-15","employer":"FBI &TMT","title":"Enterprise Services Principal Administrator, Cloud","town":"London"},"107732042":{"action":"exclude","decided_on":"2026-08-15","employer":"Equals One Ltd","title":"Financial Planner","town":"Yorkshire"},"107746735":{"action":"select","decided_on":"2026-08-14"},"107756313":{"action":"exclude","decided_on":"2026-08-15","employer":"KD Recruitment Limited","title":"Paraplanner","town":"Yorkshire"},"107756513":{"action":"exclude","decided_on":"2026-08-15","employer":"Paradigm Employment Services LTD","title":"Paraplanner","town":"Sussex"},"107762743":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions (City) LLP","title":"Paraplanner","town":"Surrey"},"107763731":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions (City) LLP","title":"Paraplanner","town":"Kent"},"107764368":{"action":"select","decided_on":"2026-08-13"},"107786406":{"action":"select","decided_on":"2026-08-14"},"107787034":{"action":"exclude","decided_on":"2026-08-15","employer":"Fresh People Ltd","title":"Chartered Secretary Corporate Governance","town":"Kent"},"107787385":{"action":"exclude","decided_on":"2026-08-15","employer":"Talent Finder","title":"Paraplanner","town":"Nottinghamshire"},"107787731":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions (City) LLP","title":"Financial Planner","town":"London"},"107796387":{"action":"exclude","decided_on":"2026-08-15","employer":"IT Online Learning","title":"HR Administrator Placement Programme No Experience Needed","town":"Somerset"},"107796844":{"action":"select","decided_on":"2026-08-18","employer":"The Solution Automotive Limited","title":"Service Advisor","town":"Hampshire"},"107798281":{"action":"select","decided_on":"2026-08-13"},"107803472":{"action":"exclude","decided_on":"2026-08-19","employer":"GROVE TALENT SOLUTIONS LTD","title":"Financial Planner","town":"Northamptonshire"},"107803495":{"action":"exclude","decided_on":"2026-08-17","employer":"GROVE TALENT SOLUTIONS LTD","title":"Paraplanner","town":"Wiltshire"},"107803516":{"action":"exclude","decided_on":"2026-08-15","employer":"GROVE TALENT SOLUTIONS LTD","title":"Paraplanner","town":"Cambridgeshire"},"107810460":{"action":"exclude","decided_on":"2026-08-15","employer":"Premier Jobs UK Limited","title":"Paraplanner","town":"Hampshire"},"107829723":{"action":"exclude","decided_on":"2026-08-19","employer":"Roc Technologies","title":"Cabling Designer and Planner","town":"Berkshire"},"107830288":{"action":"exclude","decided_on":"2026-08-18","employer":"SER (Staffing) Ltd","title":"Showroom Coordinator","town":"Warwickshire"},"107830353":{"action":"exclude","decided_on":"2026-08-15","employer":"KD Recruitment Limited","title":"Trusts and Tax Accounts Administrator","town":"Yorkshire"},"107830358":{"action":"exclude","decided_on":"2026-08-15","employer":"Expleo Group","title":"Procurement Project Coordinator / Project Support Specialist","town":"Warwickshire"},"107843551":{"action":"exclude","decided_on":"2026-08-18","employer":"Experis","title":"Range Planner - Convenience","town":"London"},"107857834":{"action":"select","decided_on":"2026-08-19","employer":"Manpower","title":"Contractor Administrator","town":"Wiltshire"},"12880f03-eef0-4876-b938-5335f079207f":{"action":"exclude","decided_on":"2026-08-17","employer":"Jobshop UK Limited","title":"Chartered Paraplanner","town":"Dorset"},"12ad35bf-d773-4ba1-a4f6-7282c230b637":{"action":"select","decided_on":"2026-08-13"},"1401784506":{"action":"select","decided_on":"2026-08-14"},"15891165-cdb1-4ee5-9417-2d276780298b":{"action":"select","decided_on":"2026-08-14"},"1632658":{"action":"exclude","decided_on":"2026-08-15","employer":"Care South","title":"Company Secretary & Data Protection Officer","town":"Dorset"},"1656a805-605d-40c3-aad9-9a7c849ffb83":{"action":"select","decided_on":"2026-08-18","employer":"Reed","title":"Operations Administrator","town":"Lancashire"},"1674605":{"action":"select","decided_on":"2026-08-19","employer":"Prospectus","title":"Student Enrolment Administrator","town":"London"},"195be5ef-6c84-4d3a-97cc-418f791512dc":{"action":"select","decided_on":"2026-08-14"},"19e67123-787d-40eb-bc54-4e10e57a7295":{"action":"select","decided_on":"2026-08-17","employer":"YourRecruit","title":"Tender Administrator","town":"Surrey"},"1a53e354-6a3b-4acf-9a73-6e087f284ce4":{"action":"select","decided_on":"2026-08-13"},"1bab4f68-302c-4d64-861c-37c4ec78fc63":{"action":"select","decided_on":"2026-08-14"},"2325eb41-0a0a-46f5-b197-7b6ec492b4df":{"action":"select","decided_on":"2026-08-18","employer":"Ashdown Group","title":"Accounts Administrator","town":"Essex"},"23643_225025378":{"action":"select","decided_on":"2026-08-14"},"23643_225104066":{"action":"select","decided_on":"2026-08-14"},"23643_225321490":{"action":"select","decided_on":"2026-08-19","employer":"BMSL Group Ltd","title":"Administrator","town":"Gloucestershire"},"23643_225334055":{"action":"select","decided_on":"2026-08-14"},"23643_225346183":{"action":"select","decided_on":"2026-08-14"},"23643_225374391":{"action":"select","decided_on":"2026-08-13"},"23643_225395853":{"action":"select","decided_on":"2026-08-19","employer":"Command Recruitment","title":"Sales Administrator","town":"Berkshire"},"23643_225401223":{"action":"exclude","decided_on":"2026-08-19","employer":"Select Engineering","title":"PART TIME - Administrator","town":"Essex"},"23643_225401314":{"action":"exclude","decided_on":"2026-08-19","employer":"Contechs Consulting","title":"Remarketing Sales & Administrator","town":"Essex"},"23643_225402145":{"action":"select","decided_on":"2026-08-13"},"23643_225403562":{"action":"select","decided_on":"2026-08-18","employer":"Ernest Gordon Recruitment Limited","title":"Sales Administrator (Training/Progression)","town":"Staffordshire"},"23643_225403853":{"action":"select","decided_on":"2026-08-14"},"23643_225404128":{"action":"select","decided_on":"2026-08-18","employer":"Hays Business Support","title":"Training Coordinator","town":"Staffordshire"},"23643_225405641":{"action":"select","decided_on":"2026-08-14"},"23643_225407253":{"action":"select","decided_on":"2026-08-14"},"23643_225408133":{"action":"exclude","decided_on":"2026-08-15","employer":"Ernest Gordon Recruitment Limited","title":"Project Administrator (Power / Transmission / Electrical)","town":"Tyne And Wear"},"23643_225408563":{"action":"select","decided_on":"2026-08-19","employer":"Huntress - Leeds","title":"Customer Service Administrator","town":"Leeds"},"23643_225409884":{"action":"select","decided_on":"2026-08-14"},"23643_225410812":{"action":"select","decided_on":"2026-08-14"},"23643_225413953":{"action":"select","decided_on":"2026-08-15","employer":"Streamline Services Consultancy Limited","title":"Operations & Sales Coordinator","town":"London"},"23643_225414171":{"action":"select","decided_on":"2026-08-14"},"23643_225414242":{"action":"select","decided_on":"2026-08-14"},"23643_225414926":{"action":"select","decided_on":"2026-08-14"},"23643_225416645":{"action":"select","decided_on":"2026-08-14"},"23643_225416698":{"action":"exclude","decided_on":"2026-08-15","employer":"Hexagon Group","title":"Facilities Administrator","town":"London"},"23643_225416961":{"action":"select","decided_on":"2026-08-14"},"23643_225417469":{"action":"exclude","decided_on":"2026-08-15","employer":"Ruler Tech","title":"Temporary Administrator","town":"Oxfordshire"},"23643_225420216":{"action":"select","decided_on":"2026-08-14"},"23643_225420458":{"action":"select","decided_on":"2026-08-18","employer":"Berry Recruitment","title":"Customer Service Advisor - Part Time","town":"Staffordshire"},"23643_225420664":{"action":"select","decided_on":"2026-08-14"},"23643_225422004":{"action":"select","decided_on":"2026-08-14"},"23643_225422287":{"action":"select","decided_on":"2026-08-14"},"23643_225423591":{"action":"select","decided_on":"2026-08-19","employer":"ARM","title":"Resourcing & Scheduling Co-ordinator","town":"Wiltshire"},"23643_225423837":{"action":"select","decided_on":"2026-08-14"},"23643_225425220":{"action":"select","decided_on":"2026-08-14"},"23643_225427615":{"action":"select","decided_on":"2026-08-18","employer":"Marshall Harmony","title":"SHEQ & Office Coordinator","town":"Staffordshire"},"23643_225429242":{"action":"select","decided_on":"2026-08-14"},"23643_225430342":{"action":"select","decided_on":"2026-08-18","employer":"Adecco","title":"Depot Administrator- Noons","town":"Staffordshire"},"23643_225430631":{"action":"select","decided_on":"2026-08-13"},"23643_225431204":{"action":"select","decided_on":"2026-08-14"},"23643_225433800":{"action":"select","decided_on":"2026-08-14"},"23643_225433817":{"action":"select","decided_on":"2026-08-14"},"23643_225433915":{"action":"select","decided_on":"2026-08-14"},"23643_225434826":{"action":"select","decided_on":"2026-08-15","employer":"BBS Recruitment","title":"Call Centre Advisor","town":"London"},"23643_225435429":{"action":"select","decided_on":"2026-08-19","employer":"Rise Technical Recruitment","title":"Sales Administrator - German Speaking","town":"Sheffield"},"23643_225436223":{"action":"select","decided_on":"2026-08-14"},"23643_225436892":{"action":"select","decided_on":"2026-08-14"},"23643_225437095":{"action":"select","decided_on":"2026-08-14"},"23643_225437743":{"action":"select","decided_on":"2026-08-19","employer":"Hays Business Support","title":"Import/Export Coordinator","town":"Sheffield"},"23643_225438494":{"action":"select","decided_on":"2026-08-19","employer":"NMS Recruit Ltd t/a Russell Taylor Group","title":"Service Helpdesk Co-ordinator","town":"Manchester"},"23643_225438847":{"action":"select","decided_on":"2026-08-14"},"23643_225439422":{"action":"select","decided_on":"2026-08-18","employer":"Ernest Gordon Recruitment Limited","title":"Administrator (Sales)","town":"Staffordshire"},"23643_225439789":{"action":"select","decided_on":"2026-08-19","employer":"Sue Ross Recruitment Ltd","title":"Project Co-ordinator","town":"Sheffield"},"23643_225440078":{"action":"select","decided_on":"2026-08-19","employer":"Alliance Personnel","title":"Hr Assistant","town":"Warwickshire"},"23643_225440089":{"action":"select","decided_on":"2026-08-14"},"23643_225441991":{"action":"select","decided_on":"2026-08-14"},"23643_225442057":{"action":"select","decided_on":"2026-08-18","employer":"EVP Recruitment Ltd","title":"Customer Service Administrator","town":"Norfolk"},"23643_225442088":{"action":"select","decided_on":"2026-08-14"},"23643_225443454":{"action":"select","decided_on":"2026-08-15","employer":"Morgan Jones Recruitment Consultants","title":"Assistant Private Secretary","town":"London"},"23643_225444976":{"action":"select","decided_on":"2026-08-14"},"23643_225445219":{"action":"select","decided_on":"2026-08-19","employer":"Invictus Group","title":"Corporate Receptionist","town":"Cambridgeshire"},"23643_225445558":{"action":"select","decided_on":"2026-08-14"},"23643_225446746":{"action":"select","decided_on":"2026-08-14"},"23643_225447263":{"action":"select","decided_on":"2026-08-14"},"23643_225448168":{"action":"select","decided_on":"2026-08-13"},"23643_225448181":{"action":"exclude","decided_on":"2026-08-15","employer":"Office Angels","title":"Document Controller - MUST HAVE EXPERIENCE","town":"Nottinghamshire"},"23643_225449411":{"action":"select","decided_on":"2026-08-19","employer":"Fawkes & Reece London","title":"Administrator","town":"Dorset"},"23643_225450023":{"action":"select","decided_on":"2026-08-14"},"23643_225450354":{"action":"select","decided_on":"2026-08-13"},"23643_225451240":{"action":"select","decided_on":"2026-08-15","employer":"Matchtech","title":"Office Administrator","town":"Hampshire"},"23643_225451278":{"action":"select","decided_on":"2026-08-19","employer":"The Cinnamon Care Collection","title":"Business Administrator","town":"Warwickshire"},"23643_225452921":{"action":"select","decided_on":"2026-08-14"},"23643_225456749":{"action":"select","decided_on":"2026-08-19","employer":"Tradestech Recruitment","title":"Administrator","town":"Oxfordshire"},"23643_225458763":{"action":"select","decided_on":"2026-08-14"},"23643_225460050":{"action":"select","decided_on":"2026-08-14"},"23643_225460725":{"action":"select","decided_on":"2026-08-14"},"23643_225460911":{"action":"exclude","decided_on":"2026-08-15","employer":"Carrington West","title":"Associate Town Planner","town":"Hampshire"},"23643_225461884":{"action":"select","decided_on":"2026-08-14"},"23643_225461934":{"action":"select","decided_on":"2026-08-14"},"23643_225462047":{"action":"select","decided_on":"2026-08-14"},"23643_225462648":{"action":"select","decided_on":"2026-08-14"},"23643_225462773":{"action":"select","decided_on":"2026-08-14"},"23643_225462925":{"action":"select","decided_on":"2026-08-14"},"23643_225462949":{"action":"select","decided_on":"2026-08-14"},"23643_225463025":{"action":"select","decided_on":"2026-08-14"},"23643_225464120":{"action":"select","decided_on":"2026-08-14"},"23643_225464784":{"action":"select","decided_on":"2026-08-19","employer":"Allen Associates","title":"Temporary Team Administrator","town":"Oxfordshire"},"23643_225465230":{"action":"select","decided_on":"2026-08-14"},"23643_225465331":{"action":"select","decided_on":"2026-08-14"},"23643_225467522":{"action":"select","decided_on":"2026-08-14"},"23643_225467962":{"action":"select","decided_on":"2026-08-14"},"23643_225468369":{"action":"select","decided_on":"2026-08-14"},"23643_225468442":{"action":"select","decided_on":"2026-08-13"},"23643_225468462":{"action":"select","decided_on":"2026-08-13"},"23643_225468873":{"action":"select","decided_on":"2026-08-13"},"23643_225469323":{"action":"select","decided_on":"2026-08-14"},"23643_225469648":{"action":"select","decided_on":"2026-08-14"},"23643_225469790":{"action":"select","decided_on":"2026-08-14"},"23643_225472240":{"action":"select","decided_on":"2026-08-14"},"23643_225472563":{"action":"select","decided_on":"2026-08-14"},"23643_225472878":{"action":"select","decided_on":"2026-08-19","employer":"Ashley Kate HR & Finance","title":"Training and Recruitment administrator","town":"Yorkshire"},"23643_225472925":{"action":"select","decided_on":"2026-08-14"},"23643_225473460":{"action":"select","decided_on":"2026-08-14"},"23643_225473807":{"action":"select","decided_on":"2026-08-14"},"23643_225473828":{"action":"select","decided_on":"2026-08-14"},"23643_225474593":{"action":"select","decided_on":"2026-08-14"},"23643_225474610":{"action":"select","decided_on":"2026-08-14"},"23643_225474803":{"action":"select","decided_on":"2026-08-14"},"23643_225475427":{"action":"select","decided_on":"2026-08-18","employer":"Prestige Recruitment Specialists","title":"Site Coordinator","town":"Norfolk"},"23643_225476663":{"action":"exclude","decided_on":"2026-08-15","employer":"Gill Cooke Personnel Ltd T/A The Recruitment Group","title":"Technical Business Support Officer","town":"Oxfordshire"},"23643_225477091":{"action":"select","decided_on":"2026-08-14"},"23643_225477107":{"action":"select","decided_on":"2026-08-14"},"23643_225478097":{"action":"exclude","decided_on":"2026-08-15","employer":"General Dental Council","title":"Hearings Committee Secretary","town":"London"},"23643_225479821":{"action":"select","decided_on":"2026-08-14"},"23643_225480022":{"action":"select","decided_on":"2026-08-19","employer":"Michael Page","title":"Temporary PA/Business Support Officer - NFP","town":"Surrey"},"23643_225480630":{"action":"select","decided_on":"2026-08-14"},"23643_225480861":{"action":"exclude","decided_on":"2026-08-15","employer":"Rullion Engineering Cumbria","title":"Document Controller","town":"Yorkshire"},"23643_225482217":{"action":"select","decided_on":"2026-08-14"},"23643_225487328":{"action":"select","decided_on":"2026-08-15","employer":"Michael Page","title":"PA to COO","town":"London"},"23643_225488847":{"action":"select","decided_on":"2026-08-15","employer":"Michael Page","title":"PA to Director","town":"Surrey"},"23643_225494042":{"action":"select","decided_on":"2026-08-17","employer":"Jobwise Ltd","title":"HR and Facilities Coordinator","town":"Manchester"},"23643_225498172":{"action":"select","decided_on":"2026-08-15","employer":"Office Angels","title":"Temporary Complaints Handler Immediate Start","town":"London"},"23643_225498178":{"action":"select","decided_on":"2026-08-15","employer":"Office Angels","title":"Temporary Complaints Handler - 3 months","town":"London"},"23643_225498733":{"action":"select","decided_on":"2026-08-15","employer":"Rise Technical Recruitment","title":"Administrator (Renewable Energy)","town":"Cambridgeshire"},"23643_225499042":{"action":"select","decided_on":"2026-08-15","employer":"BDS (Northern) Limited","title":"Investigatory data administrator","town":"Yorkshire"},"23643_225500892":{"action":"exclude","decided_on":"2026-08-17","employer":"Red Personnel","title":"Examinations Coordinator","town":"London"},"23643_225509322":{"action":"exclude","decided_on":"2026-08-19","employer":"Office Angels","title":"Temporary Medical Secretary - knowledge of DGL","town":"London"},"26c4e84f-e3ee-4d79-97f9-4105c719d965":{"action":"select","decided_on":"2026-08-14"},"2735a4af-e2a1-47b9-8fe8-7bfd46267528":{"action":"select","decided_on":"2026-08-14"},"2b0f08ad-fe9d-4637-8766-17a7c353b0cd":{"action":"select","decided_on":"2026-08-17","employer":"Bis Henderson","title":"SOL Administrator","town":"Warwickshire"},"2b79d856-aaf2-45e4-b963-935a96f9e96f":{"action":"exclude","decided_on":"2026-08-17","employer":"Hays Specialist Recruitment Limited","title":"Assistant Board Secretary","town":"Lancashire"},"2cb3ac11-5022-46e9-b4dc-2fbc15d22788":{"action":"select","decided_on":"2026-08-14"},"2f01765c-5705-43c3-8e7b-12bf4fdd75d5":{"action":"select","decided_on":"2026-08-14"},"2f442938-e5f9-439b-be35-55e2bcff988a":{"action":"select","decided_on":"2026-08-13"},"30dd270a-bc10-438a-91aa-350d9861e84e":{"action":"select","decided_on":"2026-08-13"},"316f2ae5-fd75-409f-9b68-3ef8adc7fb89":{"action":"select","decided_on":"2026-08-14"},"32421cf0-3398-4913-bfe6-dcc6ffa0eb12":{"action":"select","decided_on":"2026-08-19","employer":"Michael Page Business Support","title":"PA to COO","town":"London"},"3366a882-3f91-4d08-a293-4c57d4bba334":{"action":"exclude","decided_on":"2026-08-15","employer":"HELEN FALLON CONSULTING LTD","title":"Operations and Office Coordinator","town":"Oxfordshire"},"3403525b-043f-484a-8ba1-b8f4d8deca36":{"action":"select","decided_on":"2026-08-17","employer":"Perfect Placement Uk Ltd","title":"Service Advisor","town":"Wiltshire"},"3521828d-c0f4-4a17-9767-6c8ca876e4e6":{"action":"exclude","decided_on":"2026-08-19","employer":"Silcom Recruitment Limited","title":"Service Advisor","town":"Dorset"},"3725658b-9fa5-4df3-bf6f-b944fff16bac":{"action":"select","decided_on":"2026-08-13"},"37de4be2-0a53-41c1-9b2c-dca52159ab6e":{"action":"select","decided_on":"2026-08-14"},"383aa9e1-6a3d-4d51-b4cb-96e98dbdcdf5":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Cambridgeshire"},"38b3ed66-693a-4892-8270-c0358f021570":{"action":"select","decided_on":"2026-08-15","employer":"Reed","title":"Property Transfer Administrator","town":"Dorset"},"3ab66fdf-d7bf-4498-a35a-7e8d7c2e5ffa":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Essex"},"3d23e61e-04ce-4692-a7dc-cd1faf36f502":{"action":"exclude","decided_on":"2026-08-15","employer":"General Dental Council","title":"Hearings Committee Secretary","town":"London"},"3db58df3-3a96-4543-a554-619d20302c8b":{"action":"select","decided_on":"2026-08-19","employer":"Michael Page Business Support","title":"PA to Director","town":"Surrey"},"425e3977-cbfd-48e6-b978-156fa3fc3cc1":{"action":"select","decided_on":"2026-08-14"},"42992d6d-b64c-4ab2-b5a3-c65625521a56":{"action":"select","decided_on":"2026-08-14"},"4483b792-2906-4de2-851c-f7f74385363e":{"action":"select","decided_on":"2026-08-15","employer":"Michael Page Finance","title":"Accounts Assistant","town":"Kent"},"4517014c-d0a8-42fb-bb08-d36c6364a7be":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Northamptonshire"},"48820166-2b23-444d-9954-cfff6c033111":{"action":"select","decided_on":"2026-08-13"},"49cc3b70-6add-41fd-a179-270e1d51aaa8":{"action":"exclude","decided_on":"2026-08-15","employer":"Brevere Group","title":"Technical Paraplanner","town":"London"},"4c07739c-8565-4df6-acba-161ba2bc40c6":{"action":"exclude","decided_on":"2026-08-15","employer":"Hays Specialist Recruitment Limited","title":"Recovery Coordinator","town":"Cambridgeshire"},"4ccc09e9-cbe7-47d7-b96e-bdb3c56b9a8c":{"action":"select","decided_on":"2026-08-14"},"4dc34be1-d91b-4906-a791-21d9596136a2":{"action":"select","decided_on":"2026-08-14"},"4f942444-cc86-4f7d-85ef-74a54792f009":{"action":"select","decided_on":"2026-08-14"},"519db7dc-6478-4bd4-81a3-4382a632bb62":{"action":"select","decided_on":"2026-08-13"},"5379ec46-0160-4cda-a260-a866babe490c":{"action":"select","decided_on":"2026-08-18","employer":"Bond Williams","title":"Client Services Administrator - Poole - Up to £38,000","town":"Dorset"},"557e6633-4b02-480a-80bf-cc6c0b4c9563":{"action":"select","decided_on":"2026-08-14"},"55da75c6-162f-4106-a38d-ba0203aa1034":{"action":"select","decided_on":"2026-08-13"},"57c09aa3-10d6-4ef7-94bb-9e2981c9f002":{"action":"select","decided_on":"2026-08-17","employer":"Right Now Group","title":"HR & Operations Administrator","town":"Berkshire"},"5a70e6dc-d4f6-4337-819e-1c94362f0013":{"action":"select","decided_on":"2026-08-14"},"5f397ecd-f573-477c-bd12-80c082b2389b":{"action":"select","decided_on":"2026-08-14"},"613e2fd9-d4ba-4db1-9af4-ed5d78ce95ea":{"action":"select","decided_on":"2026-08-14"},"6575def5-b4f8-4d8f-ab32-b96037939524":{"action":"exclude","decided_on":"2026-08-15","employer":"G2 Company Secretarial","title":"Company Secretary Administrator","town":"Middlesex"},"66ad4f96-29f2-4230-9031-c1231955c1e5":{"action":"exclude","decided_on":"2026-08-15","employer":"Equals One","title":"Financial Planner","town":"Yorkshire"},"6996d07d-dfa8-4872-ab3c-d675c2a4932e":{"action":"select","decided_on":"2026-08-19","employer":"AWD online","title":"Financial Services Administrator","town":"Hampshire"},"6a7f7899-fda3-4afb-9af8-d430b4235d15":{"action":"select","decided_on":"2026-08-18","employer":"Reed","title":"Service Administrator","town":"Norfolk"},"6aca5c9a-a87a-46e1-a01d-07f478618bad":{"action":"select","decided_on":"2026-08-14"},"6cc0e9b1-daae-4776-87dd-7198afbef061":{"action":"select","decided_on":"2026-08-14"},"6d09509e-78ca-4bf5-a359-ec3cc317db83":{"action":"exclude","decided_on":"2026-08-15","employer":"Ernest Gordon Recruitment Limited","title":"Project Administrator (Power / Transmission / Electrical)","town":"Tyne And Wear"},"6e92762b-5ca2-4563-a525-f086197bdaab":{"action":"exclude","decided_on":"2026-08-17","employer":"Commercial Recruitment","title":"Paraplanner","town":"Cambridgeshire"},"73c27096-8e4a-4bbb-8a13-773dcdd66a6c":{"action":"select","decided_on":"2026-08-13"},"7462e2e4-9ae5-4def-a806-28d45a4c80cd":{"action":"exclude","decided_on":"2026-08-15","employer":"Reed","title":"Paraplanner","town":"Somerset"},"760aa9f7-1694-40f5-a9cc-cff389ba7c5f":{"action":"exclude","decided_on":"2026-08-15","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Cambridgeshire"},"7b093470-7410-4edb-a060-551402723001":{"action":"select","decided_on":"2026-08-14"},"7b14365e-23bd-4e26-8c6b-d14607bb3f25":{"action":"select","decided_on":"2026-08-14"},"81649c74-8ae3-4b9c-9c98-8154a230607c":{"action":"exclude","decided_on":"2026-08-19","employer":"AD Finance","title":"Business support coordinator","town":"Warwickshire"},"83f801d6-feef-4ea7-a4f3-188da8bcf815":{"action":"select","decided_on":"2026-08-13"},"84809d07-69f9-4987-bc95-653c367955ba":{"action":"select","decided_on":"2026-08-19","employer":"Cavendish Healthcare and Mobility","title":"Finance and Operations Administrator","town":"Devon"},"86ccc5ec-10ec-49fa-9f00-50c5b00d39d6":{"action":"select","decided_on":"2026-08-18","employer":"Fin Search Ltd","title":"Accounts Assistant","town":"Yorkshire"},"8be51ccb-181c-4cbc-89e7-f35ce8ae9158":{"action":"select","decided_on":"2026-08-14"},"8fce0a69-f1e4-460e-a206-e6175c904338":{"action":"select","decided_on":"2026-08-14"},"9313f8d8-798c-47d4-b862-63cec763953a":{"action":"select","decided_on":"2026-08-14"},"93baa206-491b-430c-a77e-ba07b8e9564e":{"action":"select","decided_on":"2026-08-17","employer":"Ashdown Group","title":"Accounts Assistant","town":"Essex"},"943c8359-7d04-415e-bb88-ccbe46b78342":{"action":"select","decided_on":"2026-08-18","employer":"Randstad RIS","title":"HR Assistant","town":"Essex"},"96b761f8-bd64-4d5e-816b-dcccf5c1d103":{"action":"exclude","decided_on":"2026-08-15","employer":"4Recruitment Services","title":"Governance Administrator","town":"Essex"},"98db520e-fecc-42d4-979f-9f11eec9c785":{"action":"select","decided_on":"2026-08-17","employer":"Reed","title":"Brand Coordinator & Administrator","town":"London"},"9a8a65b7-5887-40a1-a98e-de57fb95676e":{"action":"exclude","decided_on":"2026-08-18","employer":"MI Search Ltd","title":"Client Facing Paraplanner, London (hybrid), Basic to circa £60k","town":"London"},"9e442b03-56f9-41d0-8fbf-c875482827ff":{"action":"select","decided_on":"2026-08-18","employer":"Workstreet","title":"Sales Administrator","town":"Staffordshire"},"9e7002de-c418-46bd-b7fe-166dab171bcc":{"action":"select","decided_on":"2026-08-19","employer":"I Love My Job Ltd","title":"Sales Support Executive - premium homewares","town":"London"},"9f960cb9-698b-4d0c-a9ab-36216637f126":{"action":"select","decided_on":"2026-08-18","employer":"Bis Henderson","title":"HR Systems and Administration Co-ordinator","town":"Staffordshire"},"a1a841ae-c43c-4f2d-89c0-450a6b91b1ab":{"action":"select","decided_on":"2026-08-18","employer":"Job Box Recruitment Limited","title":"Secretary","town":"London"},"a24d4cb2-62cf-4de5-9014-51c98ed8781f":{"action":"select","decided_on":"2026-08-18","employer":"Reed","title":"Customer Service Administrator","town":"Staffordshire"},"a443ff02-bebe-452b-a749-6b190d41b6d7":{"action":"select","decided_on":"2026-08-15","employer":"Purple Placements","title":"HR Coordinator","town":"Oxfordshire"},"a4658548-cea5-400a-aea0-5db656f46bf4":{"action":"exclude","decided_on":"2026-08-17","employer":"Love Success Recruitment","title":"Permanent: Operations Co-ordinator to £40,000 ( Chiswick)","town":"London"},"a55fd95b-154b-44c4-b4f3-f1e4b43b0b13":{"action":"select","decided_on":"2026-08-14"},"a6a1059f-412f-4a98-9621-dd0f56adbdea":{"action":"select","decided_on":"2026-08-13"},"a7264c1a-af8c-4f22-bc52-0dde833814c3":{"action":"exclude","decided_on":"2026-08-15","employer":"Financial Divisions","title":"Paraplanner (route to advisor) Hybrid £50k + Bonus Bracknell","town":"Berkshire"},"a8c8f365-3a3c-4300-bf8d-0364612379c7":{"action":"select","decided_on":"2026-08-14"},"a92b6fa1-1726-4a3b-b0c3-94dbe9106220":{"action":"exclude","decided_on":"2026-08-15","employer":"Fame Recruitment Consultants Ltd","title":"Property Sales Support & Office Coordinator","town":"London"},"aa220c68-6350-484e-88dd-9f024421db4c":{"action":"select","decided_on":"2026-08-14"},"aa977cad-f14e-4a34-b5f1-9fd440d4b9ed":{"action":"select","decided_on":"2026-08-14"},"abd222ce-e7e9-4c3f-9076-03220cd33052":{"action":"select","decided_on":"2026-08-13"},"ac77bded-97ae-4769-9c90-e5e347e032eb":{"action":"select","decided_on":"2026-08-18","employer":"ASC Connections Ltd","title":"German Speaking Administrator","town":"Yorkshire"},"ad194d43-a41f-4957-a029-b15348fcba4f":{"action":"select","decided_on":"2026-08-13"},"aefb6f88-42de-4bf9-a62e-b7d63260e543":{"action":"exclude","decided_on":"2026-08-17","employer":"Resource Matters Ltd","title":"Financial Planner","town":"Essex"},"b0e9a083-0dfc-4f3e-9014-f79a4d2fedf2":{"action":"select","decided_on":"2026-08-13"},"b409277f-51f2-4d9a-a5b0-eb6164156198":{"action":"select","decided_on":"2026-08-14"},"b4eae84d-a884-4356-95b6-25bfd89c63c4":{"action":"select","decided_on":"2026-08-15","employer":"Reed","title":"Office Coordinator","town":"Tyne And Wear"},"b83c05fc-a498-4d8a-80b5-1e32c317f50b":{"action":"exclude","decided_on":"2026-08-15","employer":"Robert Half","title":"Global NetSuite Owner/ Administrator","town":"London"},"ba8c8942-7a60-4821-959a-b7b2fe1b7c20":{"action":"exclude","decided_on":"2026-08-15","employer":"IDEX Consulting Ltd","title":"Junior Financial Planner","town":"Kent"},"bffae8f8-4b47-4b53-bd40-10fce4866cd9":{"action":"exclude","decided_on":"2026-08-18","employer":"BOWERFORD ASSOCIATES","title":"PMO Coordinator","town":"Devon"},"c17b478b-b263-4cf0-bc94-62e97f51f46e":{"action":"select","decided_on":"2026-08-14"},"c1d57060-6bda-42f6-8d23-55cdaae93f2f":{"action":"select","decided_on":"2026-08-19","employer":"Michael Page HR","title":"Human Resources Administrator","town":"Lancashire"},"c288290a-ae92-46d1-ab82-b244cc5be2b5":{"action":"select","decided_on":"2026-08-19","employer":"Recruit UK","title":"Financial Services Administrator","town":"Warwickshire"},"c73aa678-7d7d-4684-8b42-f95464109197":{"action":"select","decided_on":"2026-08-14"},"c8cbeea8-ab73-415e-a82c-d6e53a413388":{"action":"select","decided_on":"2026-08-14"},"cabb1ecb-a960-45a4-b363-b6df17c82409":{"action":"exclude","decided_on":"2026-08-18","employer":"Eden Rose","title":"Paraplanner","town":"Gloucestershire"},"ce1a4d3a-01bd-4318-9879-9012ad1a1d1b":{"action":"select","decided_on":"2026-08-14"},"ce9667b9-d828-4c03-b90f-673e439e0f77":{"action":"select","decided_on":"2026-08-14"},"cf054858-fa00-43dc-b84f-98cacbbc668c":{"action":"select","decided_on":"2026-08-18","employer":"Axis CLC","title":"HR Administrator","town":"London"},"d1a77c0c-41aa-4cb8-b28f-d3ce829dcf81":{"action":"select","decided_on":"2026-08-15","employer":"Adjusting Appointments Limited","title":"Property Claims Handler","town":"Yorkshire"},"d348ba8c-df89-4296-a528-33001fd8a87f":{"action":"select","decided_on":"2026-08-18","employer":"Avena Environmental Ltd.","title":"Sales Administrator","town":"Norfolk"},"d515110e-8714-44d1-b3cb-fd45d96a8f8c":{"action":"exclude","decided_on":"2026-08-15","employer":"Eden Rose","title":"Remote Paraplanner","town":"London"},"d5251221-2477-4fea-af12-262a5bdfc568":{"action":"exclude","decided_on":"2026-08-17","employer":"Synchronicity Group","title":"Paraplanner","town":"Cambridgeshire"},"d7feae10-0ad2-4ec0-ab02-a93837122f34":{"action":"select","decided_on":"2026-08-14"},"d9a0579a-e559-486d-b63f-5ca0f7ae72c7":{"action":"select","decided_on":"2026-08-14"},"daac0fcc-07b5-4688-8b21-2d5b66178e57":{"action":"exclude","decided_on":"2026-08-17","employer":"Service Service Employment Agency Limited","title":"Paraplanner","town":"Essex"},"db1cfbc9-8cb7-4e91-b1f5-99dc83f06e69":{"action":"exclude","decided_on":"2026-08-15","employer":"Venn Group","title":"SMR Corporate Secretary","town":"London"},"de193a1c-f471-48e2-a2f5-cc7478cefd32":{"action":"exclude","decided_on":"2026-08-15","employer":"Larbey Evans","title":"Early Careers & Development Coordinator","town":"London"},"dfd7ef13-5504-4b7d-bfe3-86a6823baa23":{"action":"select","decided_on":"2026-08-18","employer":"Ernest Gordon Recruitment Limited","title":"Sales Administrator (Training/Progression)","town":"Staffordshire"},"e12e3556-f2a6-4520-a95f-3257ce75db72":{"action":"select","decided_on":"2026-08-18","employer":"Command Recruitment","title":"Sales Administrator","town":"Berkshire"},"e382f2be-4948-4739-ba50-58bf45106685":{"action":"exclude","decided_on":"2026-08-15","employer":"Listers Group Limited","title":"Audi Service Advisor","town":"Warwickshire"},"e63de2d1-ff77-49ad-8209-3e0dcb2b46eb":{"action":"select","decided_on":"2026-08-14"},"e6adc526-6a11-4aca-a85b-f18a9cd311ee":{"action":"select","decided_on":"2026-08-17","employer":"IPS Group","title":"Accounts Administrator","town":"Yorkshire"},"e7ffbcbb-ffc2-4f5b-9fa2-94bf92b8967f":{"action":"select","decided_on":"2026-08-17","employer":"Consula Group LTD","title":"Administrator","town":"Lancashire"},"e930cc9c-0584-4562-8a3d-802e03f16e92":{"action":"exclude","decided_on":"2026-08-19","employer":"Ferreira Young Recruitment","title":"HR Administrator","town":"London"},"e9a0f883-6061-4956-a196-6dcd989271ae":{"action":"select","decided_on":"2026-08-14"},"ebc3aa51-b5ba-4617-afd5-f62f4a747f13":{"action":"select","decided_on":"2026-08-13"},"ec23d80f-e4c3-4e50-8995-98eabb2874b2":{"action":"select","decided_on":"2026-08-15","employer":"Adjusting Appointments Limited","title":"Property Claims Handler","town":"Yorkshire"},"f2b1b885-1e89-40a2-9927-0632554cbc43":{"action":"select","decided_on":"2026-08-17","employer":"Provit Recruitment","title":"Part Time Secretary","town":"Warwickshire"},"f3c6c938-0c04-4bf8-a1a7-fdeabb4638e6":{"action":"exclude","decided_on":"2026-08-15","employer":"Finlink Ltd","title":"Paraplanner","town":"Berkshire"},"f4a93094-ce3d-4c03-aa63-e447bc0a4a52":{"action":"select","decided_on":"2026-08-14"},"f686614d-8a99-4e03-8d15-ffc001842105":{"action":"select","decided_on":"2026-08-14"},"f6a9d116-33f3-41b0-bb10-29c6f514487f":{"action":"select","decided_on":"2026-08-14"},"f79d7f29-92e3-4561-a015-391af173ca54":{"action":"select","decided_on":"2026-08-14"},"f808eb78-0ba8-45ef-87f9-115fc9d8628b":{"action":"select","decided_on":"2026-08-17","employer":"Hays Specialist Recruitment Limited","title":"Interim Finance & Procurement Administrator","town":"Somerset"},"f81aac2b-8606-43b8-9f23-24f40868c2ec":{"action":"select","decided_on":"2026-08-17","employer":"Handle Recruitment","title":"HR Administrator 3m FTC - Creative Agency","town":"London"},"fa72b8f1-84f7-4af8-8567-d3253780c253":{"action":"select","decided_on":"2026-08-14"},"fb041691-0d31-40d1-88ad-373066bbad8d":{"action":"select","decided_on":"2026-08-14"},"fbb25edf-7727-46c0-ad09-305ff52cff3d":{"action":"select","decided_on":"2026-08-19","employer":"Lloyd Barnes Recruitment","title":"Accounts Assistant","town":"Devon"},"fcd4fadd-fd89-4e66-935d-88b6fb30a5f1":{"action":"select","decided_on":"2026-08-14"},"fe8f47ca-f00a-4fef-87e1-5577d1ac0b71":{"action":"select","decided_on":"2026-08-15","employer":"Optima Recruitment","title":"Finance Coordinator","town":"Surrey"}},"version":1}
 -->

@@ -185,13 +185,16 @@ SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
 
-## SUSSEX — POSSIBLES
-
 ---
-action: select
-POSS - SUSSEX | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
+action:
+SELECTED | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
 job_id: 107658496
 ---
+
+## SUSSEX — POSSIBLES
+
+_No jobs in this group._
+
 ## CUMBRIA SOUTH — SELECTED
 
 ---
@@ -517,5 +520,5 @@ job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
 _No jobs in this group._
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
-{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
+{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
 -->
