@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Clarified JobG8 feed storage: `pipeline/input/jobg8.xlsx` is a transient workflow input and is not committed to GitHub; the validated raw feed is retained durably in S3 under `jobg8/raw`.
 - 19 August 2026 — Corrected Google Indexing API schedule documentation: the workflow cron is 19:30 UTC, which is 20:30 BST in summer and 19:30 GMT in winter.
 - 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; this cleaned architecture is now the canonical repository state.
 - 19 August 2026 — Implemented the agreed architecture cleanup on `chore/architecture-cleanup-1-5`: removed proven one-off workflows, replaced stale pipeline documentation, introduced a shared current-JobG8 materializer for external-source dedupe, retired superseded standalone category workflows/old monolithic script, and removed dated one-off diagnostics.
@@ -29,7 +30,7 @@ It runs at 07:30 and 15:30 Europe/London and performs:
 
 `JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → metadata enrichment → pipeline outputs/reports`
 
-The raw validated feed is also archived to S3.
+`pipeline/input/jobg8.xlsx` is created for the workflow run after the current JobG8 ZIP is downloaded and converted. It is a transient processing input and is not committed to GitHub. The validated raw feed is archived durably to S3 under `jobg8/raw`.
 
 The main daily workflow remains the canonical production ingest owner.
 
