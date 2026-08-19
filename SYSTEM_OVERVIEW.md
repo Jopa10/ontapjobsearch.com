@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 19 August 2026 — Added post-publish production deployment verification: after the final user-facing publish commit, `Publish verified pages` waits for Vercel production to deploy that commit or a newer `main` commit. If production is still stale after the verification window, the workflow raises/updates a GitHub Issue; once production catches up, the alert is auto-closed.
 - 19 August 2026 — Activated six additional Service Admin regions from same-feed 33-region evidence: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East. They now use the normal LIVE slice path; Browse and Search already consume dynamic slices automatically, and the homepage Admin grid now does too.
 - 19 August 2026 — Added same-feed daily coverage for Service Admin and Support Worker across all 33 canonical regions, allowing true current zeroes and expansion decisions without relying on stale fallback counts.
 - 19 August 2026 — Added fail-soft publication hierarchy: up to 15 problem jobs in one source are withheld and flagged while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
@@ -73,9 +74,14 @@ The operational controls are becoming clearer:
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator;
 - final verified-page publishing;
+- post-publish production deployment verification;
 - Google indexing and operational monitoring.
 
 The owner publish isolates failures at the smallest sensible level. Small job-level problems do not stop a source; source-level problems do not stop unrelated sources; the last approved state is retained wherever a source is isolated.
+
+After the last user-facing commit, `Publish verified pages` checks `https://www.ontapjobsearch.com/api/deployment-version` for up to about five minutes. The live deployment is healthy if it contains the just-published commit or a newer `main` commit. If Vercel production remains behind, the workflow raises or updates the GitHub Issue **Ontap production deployment is stale** and records a warning in the workflow summary. A later healthy publish verification automatically closes that issue.
+
+This deployment check is deliberately part of the existing verified-page workflow rather than a parallel deployment pipeline.
 
 Proven one-shot/recovery workflows have been removed. Specialist analysis and genuine experiments remain where there is not enough evidence to call them obsolete.
 
@@ -87,4 +93,4 @@ The Google Indexing API remains unchanged, including the 200-notification safety
 
 ## Current state
 
-Architecture cleanup 1–5 is merged into `main` via PR #211. The six new Service Admin slices are now marked LIVE in the central register; they will populate through the normal JobG8 and verified publication path and surface automatically through the dynamic website/search wiring once published.
+Architecture cleanup 1–5 is merged into `main` via PR #211. The six new Service Admin slices are LIVE and published through the normal dynamic mechanism. User-facing publish state is now also checked against Vercel production after verified publishing so a stale production deployment cannot remain silent.
