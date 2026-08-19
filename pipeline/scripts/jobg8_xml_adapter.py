@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -39,10 +40,14 @@ def flatten(node: ET.Element, path: list[str], out: dict[str, str]) -> None:
 
 def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> int:
     with zipfile.ZipFile(zip_path) as archive:
-        candidates = [name for name in archive.namelist() if Path(name).name.lower() == "jobs.xml"]
+        candidates = [
+            name for name in archive.namelist() if Path(name).name.lower() == "jobs.xml"
+        ]
         if len(candidates) != 1:
             raise RuntimeError(f"Expected one Jobs.xml, found {len(candidates)}")
-        with archive.open(candidates[0]) as source:
+        source_name = candidates[0]
+        source_timestamp = datetime(*archive.getinfo(source_name).date_time)
+        with archive.open(source_name) as source:
             tree = ET.parse(source)
 
     rows: list[dict[str, str]] = []
@@ -73,6 +78,11 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     workbook = Workbook(write_only=True)
+    # The selectors use the workbook core date as the feed identity. Preserve
+    # the original Jobs.xml timestamp so restoring an archived feed tomorrow
+    # does not make yesterday's feed look like a new feed.
+    workbook.properties.created = source_timestamp
+    workbook.properties.modified = source_timestamp
     sheet = workbook.create_sheet(title="Jobs")
     sheet.append(columns)
     for row in rows:
@@ -81,6 +91,7 @@ def convert(zip_path: Path, output_path: Path, minimum: int, maximum: int) -> in
 
     print(f"Converted {count} JobG8 jobs into {output_path}")
     print(f"Columns: {len(columns)}")
+    print(f"Preserved JobG8 feed timestamp: {source_timestamp.isoformat()}")
     return count
 
 
