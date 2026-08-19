@@ -26,16 +26,14 @@ jobs:
           set -euo pipefail
           mkdir -p pipeline/reports-daily
           {
-            echo 'Final fix helper retry:'
-            gh run list --workflow fix-2026-08-19-review-pipeline.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
+            echo 'Fix helper v2:'
+            gh run list --workflow fix-2026-08-19-review-pipeline-v2.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
             echo 'JobG8:'
             gh run list --workflow run-full-jobg8-daily-process.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
             echo 'Teaching Vacancies:'
             gh run list --workflow run-teaching-vacancies-regional-review.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
             echo 'Ontap daily review:'
             gh run list --workflow ontap-daily-review.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
-            echo 'Recovery helper:'
-            gh run list --workflow recover-2026-08-19-review.yml --branch main --limit 3 --json databaseId,event,status,conclusion,createdAt,headSha
           } > pipeline/reports-daily/recovery-2026-08-19-observer.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
