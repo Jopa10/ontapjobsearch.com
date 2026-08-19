@@ -13,7 +13,6 @@ permissions:
   issues: write
 
 env:
-  VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
   VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
 
 jobs:
@@ -45,7 +44,37 @@ jobs:
           echo "sha=$expected_sha" >> "$GITHUB_OUTPUT"
           echo "Expected production commit: $expected_sha" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Validate Vercel token
+      - name: Wait for normal Git deployment first
+        id: gitdeploy
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+        run: |
+          set -euo pipefail
+          production_url="https://www.ontapjobsearch.com/api/deployment-version"
+          for attempt in $(seq 1 18); do
+            body="$(curl --silent --show-error --fail --header 'Cache-Control: no-cache' "${production_url}?gitcheck=${GITHUB_RUN_ID}-${attempt}" || true)"
+            deployed_sha="$(printf '%s' "$body" | python -c 'import json,sys; data=sys.stdin.read(); print((json.loads(data).get("version") or "").strip() if data else "")' 2>/dev/null || true)"
+            if [ -n "$deployed_sha" ]; then
+              git fetch origin main --quiet
+              if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
+                echo "caught_up=true" >> "$GITHUB_OUTPUT"
+                echo "Normal Git deployment reached expected commit: $deployed_sha" >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              fi
+              if git cat-file -e "${deployed_sha}^{commit}" 2>/dev/null && git merge-base --is-ancestor "$EXPECTED_SHA" "$deployed_sha"; then
+                echo "caught_up=true" >> "$GITHUB_OUTPUT"
+                echo "Normal Git deployment reached newer main commit: $deployed_sha" >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              fi
+            fi
+            echo "Attempt $attempt/18: production ${deployed_sha:-unavailable}; waiting for Git deployment of $EXPECTED_SHA"
+            sleep 10
+          done
+          echo "caught_up=false" >> "$GITHUB_OUTPUT"
+          echo "Normal Git deployment did not catch up within 3 minutes; trying one CLI fallback." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate Vercel token for fallback
+        if: steps.gitdeploy.outputs.caught_up != 'true'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
@@ -55,19 +84,23 @@ jobs:
             exit 1
           fi
 
-      - name: Deploy current main to Vercel production
-        id: deploy
+      - name: One CLI fallback deployment
+        if: steps.gitdeploy.outputs.caught_up != 'true'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           set -euo pipefail
           rm -rf .vercel
-          deployment_url="$(npx --yes vercel@latest deploy --prod --yes --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN")"
-          echo "url=$deployment_url" >> "$GITHUB_OUTPUT"
-          echo "Vercel production deployment: $deployment_url" >> "$GITHUB_STEP_SUMMARY"
+          output_file="$(mktemp)"
+          if ! npx --yes vercel@latest deploy --prod --yes --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN" 2>&1 | tee "$output_file"; then
+            if grep -q 'api-deployments-free-per-day' "$output_file"; then
+              echo "::error::Vercel Hobby deployment quota is exhausted (100 deployments in a rolling 24-hour window). No further deploy attempts will be made in this run."
+            fi
+            exit 1
+          fi
 
-      - name: Wait for production to reach current main
-        id: verify
+      - name: Verify production after fallback
+        if: steps.gitdeploy.outputs.caught_up != 'true'
         env:
           EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
         run: |
@@ -75,27 +108,22 @@ jobs:
           production_url="https://www.ontapjobsearch.com/api/deployment-version"
           deployed_sha=""
           for attempt in $(seq 1 36); do
-            body="$(curl --silent --show-error --fail --header 'Cache-Control: no-cache' "${production_url}?check=${GITHUB_RUN_ID}-${attempt}" || true)"
+            body="$(curl --silent --show-error --fail --header 'Cache-Control: no-cache' "${production_url}?verify=${GITHUB_RUN_ID}-${attempt}" || true)"
             deployed_sha="$(printf '%s' "$body" | python -c 'import json,sys; data=sys.stdin.read(); print((json.loads(data).get("version") or "").strip() if data else "")' 2>/dev/null || true)"
             if [ -n "$deployed_sha" ]; then
               git fetch origin main --quiet
               if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
-                echo "Production reached expected commit $deployed_sha."
-                echo "deployed_sha=$deployed_sha" >> "$GITHUB_OUTPUT"
-                echo "Production verified at expected commit: $deployed_sha" >> "$GITHUB_STEP_SUMMARY"
+                echo "Production reached expected commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
                 exit 0
               fi
               if git cat-file -e "${deployed_sha}^{commit}" 2>/dev/null && git merge-base --is-ancestor "$EXPECTED_SHA" "$deployed_sha"; then
-                echo "Production is at newer main commit $deployed_sha."
-                echo "deployed_sha=$deployed_sha" >> "$GITHUB_OUTPUT"
-                echo "Production verified at newer main commit: $deployed_sha" >> "$GITHUB_STEP_SUMMARY"
+                echo "Production reached newer main commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
                 exit 0
               fi
             fi
-            echo "Attempt $attempt/36: production version ${deployed_sha:-unavailable}; waiting for $EXPECTED_SHA"
+            echo "Attempt $attempt/36: production ${deployed_sha:-unavailable}; waiting for $EXPECTED_SHA"
             sleep 10
           done
-          echo "deployed_sha=$deployed_sha" >> "$GITHUB_OUTPUT"
           echo "::error::Production did not reach expected commit $EXPECTED_SHA within 6 minutes. Last reported version: ${deployed_sha:-unavailable}."
           exit 1
 
@@ -107,7 +135,7 @@ jobs:
         run: |
           set -euo pipefail
           title="Ontap production deployment is stale"
-          body="Vercel CLI deployment/verification failed. Expected production to contain commit ${EXPECTED_SHA:-unknown}. Workflow: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          body="Production deployment/verification failed. Expected production to contain commit ${EXPECTED_SHA:-unknown}. Normal Git deployment was tried first; at most one CLI fallback was attempted. Workflow: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           existing="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$title in:title" --json number,title --jq '.[] | select(.title == "Ontap production deployment is stale") | .number' | head -n 1)"
           if [ -n "$existing" ]; then
             gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "$body"
