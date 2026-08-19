@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Added a separate city homepage visibility floor: active city pages remain permanent, but homepage city cards appear only at 4+ current jobs. The launch threshold remains 6 jobs with 3 of 7 qualifying runs plus explicit approval.
 - 19 August 2026 — Approved five additional Service Admin city pages: Bradford, Huddersfield, York, Barnsley and Doncaster. Initial include rules are exact-city only; the shared city-page framework owns derivation and permanence.
 - 19 August 2026 — Added explicit city catchment governance: city pages represent city-anchored local employment/commuting markets, not literal exact-name-only filters. Catchment expansions require explicit include/review/exclude rules in `pipeline/city_pages/city-page-register.json`.
 - 19 August 2026 — Durham Service Admin remains HOLD because the registered opportunity pattern `durham` can also match broad `County Durham` locations. Durham must be separated from County Durham and requalified before activation.
@@ -71,6 +72,16 @@ Canonical components:
 Launch gate: a candidate must have **at least 6 current jobs and at least 3 qualifying runs among the last 7 verified-publish runs**, then receive explicit human approval. READY FOR APPROVAL never publishes automatically.
 
 Once `lifecycle_state: active`, the city route is permanent unless deliberately retired. Falling below six jobs does not delist or 404 the route; the active-city maintenance step rewrites the current output, including an empty array at zero jobs.
+
+Homepage visibility is deliberately separate from permanence. An active city page appears as a homepage city card only at **4+ current jobs**. At 0–3 jobs the page remains live/indexable and refreshed, but its homepage card is hidden until supply returns to 4+.
+
+Canonical city thresholds:
+
+- **6 jobs** = launch threshold, with 3 of 7 qualifying runs plus explicit approval;
+- **4 jobs** = homepage city-card visibility floor;
+- **0 jobs** = valid retained state for an already-active permanent city route.
+
+The visibility rule must never be used to justify artificially widening a catchment merely to keep a homepage card visible.
 
 #### Catchment rule
 
@@ -151,6 +162,7 @@ Verified structure:
 - Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin grid consume published dynamic slices through shared mechanisms;
 - `lib/city-page-data.ts` reads `pipeline/city_pages/city-page-register.json` and resolves active city definitions/data;
 - public city routes read private derived JSON under `app/_city-pages/...`, preventing duplicate job-detail URLs;
+- homepage city cards are filtered independently at 4+ current jobs; this does not change route activation/permanence;
 - `app/api/deployment-version/route.ts` exposes the deployed Vercel Git SHA for verification.
 
 New approved city routes are Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin. Durham has no approved city route.
