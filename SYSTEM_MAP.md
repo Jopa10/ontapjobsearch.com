@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 19 August 2026 — Documented owner review timing: the 15:30 JobG8 refresh does not rebuild `ontap-daily-review.md`; an afternoon review requires a manual run of `Ontap daily review` after the PM refresh.
 - 19 August 2026 — Clarified JobG8 feed storage: `pipeline/input/jobg8.xlsx` is a transient workflow input and is not committed to GitHub; the validated raw feed is retained durably in S3 under `jobg8/raw`.
 - 19 August 2026 — Corrected Google Indexing API schedule documentation: the workflow cron is 19:30 UTC, which is 20:30 BST in summer and 19:30 GMT in winter.
 - 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211; this cleaned architecture is now the canonical repository state.
@@ -33,6 +34,15 @@ It runs at 07:30 and 15:30 Europe/London and performs:
 `pipeline/input/jobg8.xlsx` is created for the workflow run after the current JobG8 ZIP is downloaded and converted. It is a transient processing input and is not committed to GitHub. The validated raw feed is archived durably to S3 under `jobg8/raw`.
 
 The main daily workflow remains the canonical production ingest owner.
+
+### Owner review timing
+
+`ontap-daily-review.yml` builds `pipeline/reviews/daily/ontap-daily-review.md` automatically at 08:45 Europe/London. The 15:30 JobG8 refresh updates the underlying JobG8 pipeline state but does **not** rebuild the master review file.
+
+Operational rule:
+
+- if the owner reviews the 08:45 file in the morning, no second review is required after the 15:30 JobG8 refresh; the next normal review is the following morning;
+- if the owner chooses to review the freshest afternoon inventory, wait for the 15:30 JobG8 run and its automatic Quick View refresh to finish successfully, then manually run the workflow named `Ontap daily review` before editing `ontap-daily-review.md`.
 
 ### Shared current-feed materialization for external dedupe
 
@@ -148,7 +158,7 @@ Purpose: workflows, scheduling, deployment, alerts, indexing integrations and pe
 - `run-nejobs-review.yml` — 06:15 daily.
 - `run-vonne-review.yml` — 06:35 daily.
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily.
-- `ontap-daily-review.yml` — daily owner review.
+- `ontap-daily-review.yml` — 08:45 Europe/London daily owner review; run manually after the 15:30 refresh when an afternoon review of the freshest inventory is wanted.
 - `google-indexing-api.yml` — cron 19:30 UTC daily (20:30 BST in summer; 19:30 GMT in winter).
 
 ### Owner-triggered publication
