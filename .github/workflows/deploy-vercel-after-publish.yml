@@ -15,7 +15,6 @@ permissions:
 env:
   VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
   VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
-  VERCEL_SCOPE: ontap1
 
 jobs:
   deploy-production:
@@ -56,28 +55,14 @@ jobs:
             exit 1
           fi
 
-      - name: Pull Vercel production settings
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: |
-          set -euo pipefail
-          rm -rf .vercel
-          npx --yes vercel@latest pull --yes --environment=production --scope="$VERCEL_SCOPE" --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN"
-
-      - name: Build production bundle with Vercel CLI
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: |
-          set -euo pipefail
-          npx --yes vercel@latest build --prod --scope="$VERCEL_SCOPE" --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN"
-
-      - name: Deploy production bundle with Vercel CLI
+      - name: Deploy current main to Vercel production
         id: deploy
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           set -euo pipefail
-          deployment_url="$(npx --yes vercel@latest deploy --prebuilt --prod --scope="$VERCEL_SCOPE" --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN")"
+          rm -rf .vercel
+          deployment_url="$(npx --yes vercel@latest deploy --prod --yes --project="$VERCEL_PROJECT_ID" --token="$VERCEL_TOKEN")"
           echo "url=$deployment_url" >> "$GITHUB_OUTPUT"
           echo "Vercel production deployment: $deployment_url" >> "$GITHUB_STEP_SUMMARY"
 
