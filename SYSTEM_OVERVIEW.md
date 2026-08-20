@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 20 August 2026 — Added a standard new-family lifecycle: discovery audit → define family → proof-region review → governed register/refinement rules → national validation → 33-region diagnostic assessment → explicit LIVE-slice approval → integration into the existing pipeline. Jobs may legitimately belong to more than one family where both user intents are valid.
 - 20 August 2026 — Confirmed the production deployment model by live test: normal pushes to `main` are deployed by Vercel Git integration; the post-publish guard waits up to three minutes for production to reach the expected SHA; `VERCEL_TOKEN`/Vercel CLI is manual recovery only and does not fire automatically. The obsolete Deploy Hook was revoked and its `VERCEL_DEPLOY_HOOK_URL` repository secret removed.
 - 19 August 2026 — Homepage browse ordering now shows regional slices before city pages, so the first impression reflects Ontap's broader job coverage while retaining city pages as a secondary local layer.
 - 19 August 2026 — Added a separate **4-job homepage visibility floor** for active city pages. City routes remain permanent below four jobs; only the homepage card is hidden until supply returns to 4+.
@@ -23,6 +24,18 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 The main JobG8 process remains the production ingest/process path. NEJobs, VONNE and Teaching Vacancies retain their review paths. After review, the single **Apply and publish Ontap daily review** workflow coordinates source publishers and the final verified-page publish.
 
 Service Admin now includes the six additional LIVE regional slices approved on 19 August. They use the same central register, production selector and verified-page publishing mechanism as the other LIVE dynamic slices.
+
+### New job-family lifecycle
+
+New occupational families are governed before they become production slices. The standard path is:
+
+**discovery audit → define the family boundary → review real jobs in proof regions → create central title/refinement rules → validate against the full feed → assess all 33 canonical regions diagnostically → explicitly approve suitable LIVE slices → integrate the family into the existing daily/review/publish mechanisms.**
+
+Broad discovery regex/title buckets are evidence only; they are not publication rules. A positive regional count also does not activate a slice automatically.
+
+Family membership is not forced to be exclusive. A job can legitimately qualify for more than one family when it serves both user intents. Each family applies its own rules, and overlap is only deduped where the same job would otherwise repeat within one user-facing result set.
+
+Sales Advisor is currently a discovery candidate under this lifecycle. It is not yet a production family and is not yet part of the recurring 33-region assessment.
 
 The publish rule is deliberately fail-soft:
 
