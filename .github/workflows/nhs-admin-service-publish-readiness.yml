@@ -6,6 +6,7 @@ on:
       - agent/nhs-service-admin-publish-ready
     paths:
       - '.github/workflows/nhs-admin-service-publish-readiness.yml'
+      - '.github/workflows/publish-reviewed-nhs-admin-service.yml'
       - 'pipeline/external_sources/nhs_admin_inventory.py'
       - 'pipeline/external_sources/nhs_admin_service.py'
       - 'pipeline/external_sources/nhs_admin_dry_run.py'
@@ -15,6 +16,7 @@ on:
       - main
     paths:
       - '.github/workflows/nhs-admin-service-publish-readiness.yml'
+      - '.github/workflows/publish-reviewed-nhs-admin-service.yml'
       - 'pipeline/external_sources/nhs_admin_inventory.py'
       - 'pipeline/external_sources/nhs_admin_service.py'
       - 'pipeline/external_sources/nhs_admin_dry_run.py'
