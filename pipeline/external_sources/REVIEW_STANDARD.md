@@ -5,6 +5,30 @@ external vacancy source. Before implementing a new source, inspect the current
 NEJobs and VONNE review files and copy their established pattern. Do not invent
 a source-specific review interface.
 
+## Mandatory pre-POC intake gates
+
+Before any POC, scraper, API integration, feed parser or other ETL work begins,
+every proposed external source must pass both of these gates:
+
+1. **Legal/commercial permission gate** — confirm that Ontap's intended use is
+   permitted by the source's terms, licence, API/feed terms or explicit written
+   permission. If permission is unclear, treat the source as HOLD and do not
+   code around access controls, anti-bot measures or contractual restrictions.
+2. **Application-route / two-click gate** — confirm that the source can provide
+   an application destination that preserves Ontap's straight-to-employer / two-click
+   principle wherever practical. A route that normally becomes
+   `Ontap → source/aggregator advert → employer/application portal` is a material
+   negative and must be explicitly approved before ETL development. Prefer a
+   direct employer/application URL when the source lawfully exposes one.
+
+A source that fails either gate is **rejected or parked before coding**, even if
+its apparent vacancy volume is attractive. These gates come before volume,
+additionality, field extraction and classification checks.
+
+The canonical intake order is therefore:
+
+`legal/commercial permission → application route → volume/additionality → POC → field audit → review → approval → live`
+
 ## Initial sweep to ETL acceptance gate
 
 A source does not pass merely because vacancies were discovered and classified.
