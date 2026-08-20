@@ -74,27 +74,52 @@ jobs:
           print(reapply(review, ledger))
           PY
 
-      - name: Refuse incomplete NHS publish rows
+      - name: Enrich only NHS rows accepted after the 20 percent cap
         working-directory: pipeline
+        env:
+          PYTHONPATH: .
         run: |
+          rm -rf "$RUNNER_TEMP/nhs-admin-precompose"
           python - <<'PY'
-          import csv
+          import csv, json, os
+          from datetime import date
           from pathlib import Path
+          from external_sources import nhs_admin_inventory as inventory
+          from external_sources import nhs_admin_service as nhs
+
           review = Path('reviews/external/nhs-jobs-review.csv')
           with review.open(encoding='utf-8-sig', newline='') as handle:
               rows = list(csv.DictReader(handle))
-          selected = [
-              row for row in rows
-              if row.get('final_decision','').strip().upper() == 'SELECTED'
-              and row.get('publish_eligible','').strip().upper() == 'YES'
+
+          pre = Path(os.environ['RUNNER_TEMP']) / 'nhs-admin-precompose'
+          nhs.compose_outputs(Path('output-admin-service'), rows, pre, today=date.today())
+
+          accepted_ids = set()
+          prefix = 'nhs-'
+          for path in pre.glob('*-admin-service.json'):
+              payload = json.loads(path.read_text(encoding='utf-8'))
+              for row in payload:
+                  if str(row.get('source','')).strip().casefold() != 'nhs jobs':
+                      continue
+                  job_id = str(row.get('job_id') or '')
+                  if job_id.startswith(prefix):
+                      accepted_ids.add(job_id[len(prefix):])
+
+          enriched, stats = inventory.enrich_descriptions(rows, source_job_ids=accepted_ids)
+          nhs.write_review_csv(review, enriched)
+          missing = [
+              row for row in enriched
+              if str(row.get('source_job_id') or '') in accepted_ids
+              and not str(row.get('description') or '').strip()
           ]
-          missing = [row for row in selected if not row.get('description','').strip()]
+          print(f'NHS description enrichment: {stats}; accepted={len(accepted_ids)}')
           if missing:
+              raise SystemExit(f'STOP: {len(missing)} accepted NHS rows still have no reusable description.')
+          if stats['requested'] != len(accepted_ids) or stats['succeeded'] != len(accepted_ids):
               raise SystemExit(
-                  f'STOP: {len(missing)} selected/publishable NHS rows have no reusable description. '
-                  'Do not publish from the discovery-only search XML transport.'
+                  f"STOP: expected {len(accepted_ids)} accepted advert descriptions; got {stats['succeeded']} "
+                  f"from {stats['requested']} requests ({stats['failed']} failed)."
               )
-          print(f'NHS publish completeness passed: {len(selected)} selected/publishable rows have descriptions.')
           PY
 
       - name: Compose NHS into a guarded temporary output
@@ -137,12 +162,12 @@ jobs:
               new_base = [r for r in composed if str(r.get('source','')).strip().casefold() != source]
               if old_base != new_base:
                   raise SystemExit(f'STOP: non-NHS rows changed in {out.name}')
-              nhs = [r for r in composed if str(r.get('source','')).strip().casefold() == source]
-              if composed and len(nhs) / len(composed) > 0.200000000001:
+              nhs_rows = [r for r in composed if str(r.get('source','')).strip().casefold() == source]
+              if composed and len(nhs_rows) / len(composed) > 0.200000000001:
                   raise SystemExit(f'STOP: NHS share cap breached in {out.name}')
-              if any(not str(r.get('apply_url','')).strip() for r in nhs):
+              if any(not str(r.get('apply_url','')).strip() for r in nhs_rows):
                   raise SystemExit(f'STOP: NHS row with no apply_url in {out.name}')
-              if any(not str(r.get('description','')).strip() for r in nhs):
+              if any(not str(r.get('description','')).strip() for r in nhs_rows):
                   raise SystemExit(f'STOP: NHS row with no description in {out.name}')
           print('Verified NHS composition safety.')
           PY
@@ -212,4 +237,5 @@ jobs:
             echo
             echo 'Only same-day selected NHS Administrative & Clerical jobs in LIVE admin/service slices were eligible.'
             echo 'Existing non-NHS rows were preserved; expired NHS rows were removed by replacement; NHS share was capped at 20%.'
+            echo 'Public NHS advert details were fetched only for rows that survived classification, routing, dedupe and the 20% cap.'
           } >> "$GITHUB_STEP_SUMMARY"
