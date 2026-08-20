@@ -74,6 +74,29 @@ jobs:
           print(reapply(review, ledger))
           PY
 
+      - name: Refuse incomplete NHS publish rows
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          review = Path('reviews/external/nhs-jobs-review.csv')
+          with review.open(encoding='utf-8-sig', newline='') as handle:
+              rows = list(csv.DictReader(handle))
+          selected = [
+              row for row in rows
+              if row.get('final_decision','').strip().upper() == 'SELECTED'
+              and row.get('publish_eligible','').strip().upper() == 'YES'
+          ]
+          missing = [row for row in selected if not row.get('description','').strip()]
+          if missing:
+              raise SystemExit(
+                  f'STOP: {len(missing)} selected/publishable NHS rows have no reusable description. '
+                  'Do not publish from the discovery-only search XML transport.'
+              )
+          print(f'NHS publish completeness passed: {len(selected)} selected/publishable rows have descriptions.')
+          PY
+
       - name: Compose NHS into a guarded temporary output
         working-directory: pipeline
         env:
@@ -115,10 +138,12 @@ jobs:
               if old_base != new_base:
                   raise SystemExit(f'STOP: non-NHS rows changed in {out.name}')
               nhs = [r for r in composed if str(r.get('source','')).strip().casefold() == source]
-              if composed and len(nhs) / len(composed) > 0.250000000001:
+              if composed and len(nhs) / len(composed) > 0.200000000001:
                   raise SystemExit(f'STOP: NHS share cap breached in {out.name}')
               if any(not str(r.get('apply_url','')).strip() for r in nhs):
                   raise SystemExit(f'STOP: NHS row with no apply_url in {out.name}')
+              if any(not str(r.get('description','')).strip() for r in nhs):
+                  raise SystemExit(f'STOP: NHS row with no description in {out.name}')
           print('Verified NHS composition safety.')
           PY
 
@@ -186,5 +211,5 @@ jobs:
             echo '## NHS admin/service published'
             echo
             echo 'Only same-day selected NHS Administrative & Clerical jobs in LIVE admin/service slices were eligible.'
-            echo 'Existing non-NHS rows were preserved; expired NHS rows were removed by replacement; NHS share was capped at 25%.'
+            echo 'Existing non-NHS rows were preserved; expired NHS rows were removed by replacement; NHS share was capped at 20%.'
           } >> "$GITHUB_STEP_SUMMARY"
