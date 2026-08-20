@@ -1,13 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 19 August 2026  
-**Status:** Canonical production state after architecture cleanup, regional expansion and city-page expansion.
+**Last updated:** 20 August 2026  
+**Status:** Canonical production state after architecture cleanup, regional expansion, city-page expansion and deployment-path verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
-- 19 August 2026 — Replaced the Vercel deploy-hook mechanism after it accepted jobs as `PENDING` without creating deployments. `Deploy Ontap production after publish` now deploys the checked-out current `main` directly with the Vercel CLI using the `VERCEL_TOKEN` repository secret, then verifies the live deployment SHA.
+- 20 August 2026 — Confirmed the production deployment model by live test: normal pushes to `main` are deployed by Vercel Git integration; the post-publish guard waits up to three minutes for production to reach the expected SHA; `VERCEL_TOKEN`/Vercel CLI is manual recovery only and does not fire automatically. The obsolete Deploy Hook was revoked and its `VERCEL_DEPLOY_HOOK_URL` repository secret removed.
 - 19 August 2026 — Homepage browse ordering now shows regional slices before city pages, so the first impression reflects Ontap's broader job coverage while retaining city pages as a secondary local layer.
 - 19 August 2026 — Added a separate **4-job homepage visibility floor** for active city pages. City routes remain permanent below four jobs; only the homepage card is hidden until supply returns to 4+.
 - 19 August 2026 — Approved five further Service Admin city pages: **Bradford, Huddersfield, York, Barnsley and Doncaster**. Initial catchments are exact-city only. Active city pages are permanent once launched.
@@ -96,12 +96,17 @@ Core controls are:
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator;
 - final verified-page publishing including city-page derivation/maintenance;
-- explicit post-publish Vercel CLI production deployment and live SHA verification;
+- normal Vercel Git deployment from `main`, with explicit live-SHA verification;
+- manual-only Vercel CLI recovery using `VERCEL_TOKEN` if Git deployment fails;
 - Google indexing and operational monitoring.
 
-A successful `Publish verified pages` run automatically triggers `.github/workflows/deploy-vercel-after-publish.yml`. That workflow checks out current `main`, captures the expected SHA, uses the repository secret `VERCEL_TOKEN` with the fixed Ontap Vercel organisation/project IDs, pulls the production project settings, builds with the Vercel CLI, deploys the prebuilt output to production, and polls `https://www.ontapjobsearch.com/api/deployment-version` until production contains that commit or a newer descendant on `main`.
+A successful `Publish verified pages` run automatically triggers `.github/workflows/deploy-vercel-after-publish.yml`. That workflow checks out current `main`, captures the expected SHA, and waits up to three minutes for normal Vercel Git integration to deploy that commit or a newer descendant. It verifies production through `https://www.ontapjobsearch.com/api/deployment-version`.
 
-The CLI path is canonical because both normal Git→Vercel automatic deployment and the subsequent Deploy Hook path proved unreliable: the hook could return a real `PENDING` Vercel job without ever creating a deployment. Production publication therefore no longer depends on either Git auto-detection or Deploy Hooks. If the CLI deployment or live-SHA verification fails, the workflow raises/updates the GitHub Issue **Ontap production deployment is stale**; a later healthy run closes it.
+If normal Git deployment succeeds, the workflow finishes green and all CLI recovery steps are skipped. This behaviour was confirmed in production on 20 August 2026. If production does not catch up within the wait window, the automatic workflow fails and raises/updates the GitHub Issue **Ontap production deployment is stale**; it does **not** automatically perform a second deployment.
+
+Manual dispatch of `Deploy Ontap production after publish` is the recovery route. Only a manually dispatched run may use the `VERCEL_TOKEN` repository secret to call the Vercel CLI and deploy current `main` directly, followed by the same live-SHA verification. The old Vercel Deploy Hook has been revoked and `VERCEL_DEPLOY_HOOK_URL` removed; Deploy Hooks are no longer part of production publication.
+
+This makes normal Git→Vercel deployment the single automatic production route, while retaining an explicit manual fallback without creating routine duplicate deployments.
 
 The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting.
 
@@ -111,4 +116,4 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 ## Current state
 
-Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Active city routes remain permanent below four jobs but are hidden from the homepage until they return to 4+. Homepage browse ordering is regional-first, then city. Durham remains deliberately held pending the County Durham geography safeguard.
+Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Active city routes remain permanent below four jobs but are hidden from the homepage until they return to 4+. Homepage browse ordering is regional-first, then city. Durham remains deliberately held pending the County Durham geography safeguard. Production deployment now uses normal Vercel Git integration automatically, with CLI recovery manual-only.
