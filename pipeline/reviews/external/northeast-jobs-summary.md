@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-08-19
-review_fingerprint: e8ec5e5a39f6cd07b708897dd169885e2494427a3c1462069777f12c48ad1629
+review_date: 2026-08-20
+review_fingerprint: 7d391737fce92469bbde74b0b0613ae2a40747e63225ee4293c8a065787e38eb
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-08-19T08:08:42+01:00
+Run generated: 2026-08-20T08:07:37+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 340
+JobG8 comparison rows in target geographies: 274
 
 ## Funnel
 
-- RSS vacancies read: 662
-- Hard-pass title/teaser screen before detail requests: 609
-- Detail candidates: 53
+- RSS vacancies read: 674
+- Hard-pass title/teaser screen before detail requests: 619
+- Detail candidates: 55
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 4
-- Tees Valley explicitly excluded: 11
-- Target-geography candidates reviewed: 38
+- Tees Valley explicitly excluded: 12
+- Target-geography candidates reviewed: 39
 
 ## Detail diagnostics
 
@@ -31,21 +31,30 @@ JobG8 comparison rows in target geographies: 340
 
 ## Review outcomes
 
-- HC: 8
+- HC: 9
 - POSS: 30
 - Hard pass: 0
-- Final selected after remembered/manual actions: 33
-- Final POSS awaiting decision: 0
+- Final selected after remembered/manual actions: 32
+- Final POSS awaiting decision: 2
 - Manually excluded: 5
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 5
-- Likely unique to North East Jobs: 33
+- Likely unique to North East Jobs: 34
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-08-18 is not 2026-08-19; old actions ignored
+- Manual review warning: manual review date 2026-08-19 is not 2026-08-20; old actions ignored
 
 ## SELECTED
 
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor | Support Grade B; £26,970 per annum | Administrator
+employer: New College Durham
+closing_date: 26/08/2026
+reason: clear transferable title: administrator
+source_job_id: 300512
+source_url: https://www.northeastjobs.org.uk/job/Administrator/300512
+---
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 05 (£26,403 - £27,254) pro rata per annum | Admin Assistant
@@ -66,15 +75,6 @@ source_url: https://www.northeastjobs.org.uk/job/Admin_Assistant_Staff_Bank_Berw
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Prudhoe | SCP 2 - 5 (£24,413 - £25,583 (pro rata) depending upon qualifications and experience | Administrative Assistant
-employer: Prudhoe Town Council
-closing_date: 04/09/2026 12:00
-reason: clear transferable title: administrative assistant
-source_job_id: 300646
-source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/300646
----
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Sacred Heart Catholic High School, Fenham Hall Drive, Fenham, Newcastle upon Tyne NE4 9YH | £26,403 - £27,254 per annum pro rata (Actual salary £22,671 - £23,401 per annum) | Administrative Assistant Level 3
 employer: Bishop Bewick Catholic Education Trust
 closing_date: 03/09/2026 09:00
@@ -90,6 +90,15 @@ closing_date: 20/08/2026
 reason: clear transferable title: administrator
 source_job_id: 300550
 source_url: https://www.northeastjobs.org.uk/job/Business_Support_Administrator/300550
+---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £26,824 - £28,142 | Business Support Assistant
+employer: Gateshead Council
+closing_date: 02/09/2026
+reason: clear transferable title: business support assistant
+source_job_id: 300950
+source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant/300950
 ---
 ---
 action:
@@ -158,15 +167,6 @@ source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/299277
 ---
 ---
 action: select
-POSS | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor | Support Grade B; £26,970 per annum | Administrator
-employer: New College Durham
-closing_date: 26/08/2026
-reason: possible JobG8 duplicate requires review
-source_job_id: 300512
-source_url: https://www.northeastjobs.org.uk/job/Administrator/300512
----
----
-action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor Campus, Durham, DH1 5ES | Support Grade D; £28,980 per annum | Apprenticeship Support Officer
 employer: New College Durham
 closing_date: 26/08/2026
@@ -211,6 +211,15 @@ source_job_id: 300105
 source_url: https://www.northeastjobs.org.uk/job/Facilities_Coordinator/300105
 ---
 ---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,305.00 - £26,325.00 | Marketing & Events Assistant
+employer: Connect Multi-Academy Trust
+closing_date: 07/09/2026 12:00
+reason: provisional transferable-office review
+source_job_id: 300955
+source_url: https://www.northeastjobs.org.uk/job/Marketing_Events_Assistant/300955
+---
+---
 action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award pending) | PA Support Officer
 employer: Darlington Borough Council
@@ -245,6 +254,15 @@ closing_date: 31/08/2026
 reason: transferable office/service title with specialist or borderline wording: technical
 source_job_id: 300579
 source_url: https://www.northeastjobs.org.uk/job/Technical_and_Support_Officers/300579
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Prudhoe | SCP 2 - 5 (£24,413 - £25,583 (pro rata) depending upon qualifications and experience | Administrative Assistant
+employer: Prudhoe Town Council
+closing_date: 04/09/2026 12:00
+reason: possible JobG8 duplicate requires review
+source_job_id: 300646
+source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/300646
 ---
 ---
 action: select
@@ -311,39 +329,12 @@ source_url: https://www.northeastjobs.org.uk/job/Receptionist_Various_Posts/3006
 ---
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
-source_job_id: 256126
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256126
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout South Tyneside (derived for filtering) | From £14.54 - £15.20per hour | School Administrator
-employer: First Class Supply & Training
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_job_id: 256125
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout Gateshead (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
-employer: First Class Supply & Training
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_job_id: 256124
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
-employer: First Class Supply & Training
-closing_date: 31/08/2026
-reason: agency-style advert with no structured employment location
-source_job_id: 256122
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256122
+source_job_id: 256120
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256120
 ---
 ---
 action: select
@@ -356,12 +347,39 @@ source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256121
 ---
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
 employer: First Class Supply & Training
 closing_date: 31/08/2026
 reason: agency-style advert with no structured employment location
-source_job_id: 256120
-source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256120
+source_job_id: 256122
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256122
+---
+---
+action: select
+POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout Gateshead (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
+employer: First Class Supply & Training
+closing_date: 31/08/2026
+reason: agency-style advert with no structured employment location
+source_job_id: 256124
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
+---
+---
+action: select
+POSS | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout South Tyneside (derived for filtering) | From £14.54 - £15.20per hour | School Administrator
+employer: First Class Supply & Training
+closing_date: 31/08/2026
+reason: agency-style advert with no structured employment location
+source_job_id: 256125
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
+---
+---
+action: select
+POSS | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
+employer: First Class Supply & Training
+closing_date: 31/08/2026
+reason: agency-style advert with no structured employment location
+source_job_id: 256126
+source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256126
 ---
 ---
 action: select
@@ -371,15 +389,6 @@ closing_date: 06/09/2026
 reason: annualised upper salary £45,091 exceeds North East review point £30,000
 source_job_id: 300777
 source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coordinator/300777
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | County Hall MORPETH, United Kingdom | £21,122.40 - 22,513.60 per annum | Statutory SEND Coordinator
-employer: Northumberland County Council
-closing_date: 20/08/2026 00:00
-reason: transferable office/service title with specialist or borderline wording: send
-source_job_id: 300549
-source_url: https://www.northeastjobs.org.uk/job/Statutory_SEND_Coordinator/300549
 ---
 ---
 action: select
