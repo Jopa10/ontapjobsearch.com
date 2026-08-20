@@ -2,13 +2,195 @@
 
 review_date: 2026-08-20
 
-- Open Administrative & Clerical rows reviewed: 2471
-- Auto/remembered selected: 864
-- POSS awaiting decision: 1074
+- Open Administrative & Clerical rows reviewed: 2489
+- Auto/remembered selected: 839
+- Selected HC Tier A: 314
+- Selected HC Tier B: 525
+- POSS awaiting decision: 1113
 - Excluded: 0
-- HARD_PASS: 533
+- HARD_PASS: 537
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Salford, M6 7DU | £25500.00 | Medical Secretary/Receptionist
+source_job_id: 5552450
+title: Medical Secretary/Receptionist
+employer: Elysium Healthcare
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1850
+factual_fingerprint: ba69a624e1c2d1e3f7164c4f72bdb59a61347a50530506f5a861ce799e7434d1
+---
+
+---
+action:
+POSS | NHS Jobs | — | Oulton Broad, NR32 3AX | Negotiable | Peripatetic Administrator
+source_job_id: 5552875
+title: Peripatetic Administrator
+employer: Barchester Healthcare
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9092
+factual_fingerprint: 7fb8ce756674f175d31c725c9c146d27dcea060a3237dd247c132bf869dafeab
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Rayleigh, SS6 9XH | £13.81 | Weekend Admin Assistant -Care Home
+source_job_id: 5551385
+title: Weekend Admin Assistant -Care Home
+employer: Barchester Healthcare
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9080
+factual_fingerprint: e3be7ebfa281b1505146617514193fa4cb8b52aa2a4d60b97d989b30dacaad6a
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, N19 5NF | £47951.00 to £56863.00 | Start Well Communications Manager
+source_job_id: 5551048
+title: Start Well Communications Manager
+employer: Whittington Hospital NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0546
+factual_fingerprint: 6e828ee770d51344dffd20ecf23de93f1ba0ec126a4bd9c16020068ba54b989e
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, N19 5NF | £31554.00 to £33270.00 | Catering Stores Manager
+source_job_id: 5550992
+title: Catering Stores Manager
+employer: Whittington Hospital NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0545
+factual_fingerprint: 36bc7e90c407e8ab5e0bd411e6b1427f6339bc657328c3f1a90294a3b3417113
+---
+
+---
+action:
+POSS | NHS Jobs | London | Newham, E13 0QP | £25838.00 | Central Team Administrator
+source_job_id: 5551436
+title: Central Team Administrator
+employer: Operose Health
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0391
+factual_fingerprint: 79aaf266aa156725df490f2a78804b72c18f7af6ec84686ad05ff1ada7d17c15
+---
+
+---
+action:
+POSS | NHS Jobs | — | Redcar and Cleveland, TS10 1RT | Negotiable | Dual Registered Manager Children's Homes
+source_job_id: 5551619
+title: Dual Registered Manager Children's Homes
+employer: Agincare
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1490
+factual_fingerprint: 2bc4c0e4656d37ef2b1eafc15ee73b56713b1b7805de6bfee659361e227b9f9a
+---
+
+---
+action:
+POSS | NHS Jobs | Devon | Paignton, TQ4 5PL | £27000.00 | Care Coordinator
+source_job_id: 5551548
+title: Care Coordinator
+employer: Agincare
+region: Devon
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1481
+factual_fingerprint: 85b11489c76c04a4fe02b579f45ed3be848afebc5546d014ed78d14a4fca2380
+---
+
+---
+action:
+POSS | NHS Jobs | Dorset | Bridport, DT6 3JP | £26000.00 to £28000.00 | Care Coordinator
+source_job_id: 5551543
+title: Care Coordinator
+employer: Agincare
+region: Dorset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1478
+factual_fingerprint: f24f518b37eb43e4498472403bce4cacc79618449cba746dbe90161112b3f554
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Gateshead, NE9 6RL | £12.76 | Home Receptionist
+source_job_id: 5552725
+title: Home Receptionist
+employer: Akari Care Limited
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1125
+factual_fingerprint: a5c689134c8637aac01a65b6bb36130f59be28f8ab66eb61a1d265326520cc9a
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, N18 1QX | £32199.00 to £34876.00 | Liver Surveillance Navigator
+source_job_id: 5552808
+title: Liver Surveillance Navigator
+employer: Royal Free London NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1440
+factual_fingerprint: b44dd04ad707d5c62314ebe4838464f7434b9ca89a86417a17578d48f8852037
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Woking, GU21 5SB | £13.64 | Bank Business Support Administrator
+source_job_id: 5551068
+title: Bank Business Support Administrator
+employer: HCRG Care Group
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2155
+factual_fingerprint: 2ca5bd14f6b7aa59e1e92a717e73490c00902d7b1e4f16014b905a26d9cc7e61
+---
+
+---
+action:
+POSS | NHS Jobs | Wiltshire | Swindon, SN3 6BW | £25500.00 to £27098.00 | Discharge and Flow Coordinator (Swindon)
+source_job_id: 5550999
+title: Discharge and Flow Coordinator (Swindon)
+employer: HCRG Care Group
+region: Wiltshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2141
+factual_fingerprint: dbd061ce7c204e69b4effc980de68f06bb5ffd06fb884a2cd14f2f31b8d9ebe8
+---
+
+---
+action:
+POSS | NHS Jobs | — | Cobbett House, M13 9WL | £79504.00 to £91609.00 | Head of Security Architecture
+source_job_id: 5552663
+title: Head of Security Architecture
+employer: Manchester University NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2480
+factual_fingerprint: 662d3ffc1d2ba8ee1a44b2d8d200ec2c189fb38465e9a2c9de8d17d3d54613e5
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Maidstone, ME15 6NB | £28392.00 to £31157.00 | Project Support Officer- POD Team
+source_job_id: 5552793
+title: Project Support Officer- POD Team
+employer: NHS Kent and Medway Integrated Care Board
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9095-26-0059
+factual_fingerprint: f2d0070b4e676d5b3ad3e9a9061b3f0bdff8ffb286a05b23d9e2b24b81fa7d86
+---
 
 ---
 action:
@@ -17,9 +199,9 @@ source_job_id: 5552857
 title: WorkWell Operational Lead
 employer: Kent Community Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0516
-factual_fingerprint: 092c5d0a323683cedc87212de6270afcf98f1239dfc583214809679fcaceac41
+factual_fingerprint: 499c1a2be0f6f0ddca28a920be738ba7afb99972eda8295038c4a144cfde1419
 ---
 
 ---
@@ -29,9 +211,9 @@ source_job_id: 5552855
 title: WorkWell Coach
 employer: Kent Community Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0515
-factual_fingerprint: 7434621f6897b1f19c8e9e5a541bd23aa7cbdb17f2ca076437ea197bf6815b51
+factual_fingerprint: 0669e8e940ee57a32db41359bfac53b99fae10a59db78ae912f73c6bd6e0995a
 ---
 
 ---
@@ -41,9 +223,9 @@ source_job_id: 5552659
 title: Admin Team Leader
 employer: Kent Community Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0514
-factual_fingerprint: 59a9e6c1084ca30a4f14f9db4e3d36fcbe4db376e69d35b82b62d78c04aa0081
+factual_fingerprint: deb80af655e4583f399633335d90dbba14dd23ce6460af89f0e04eb405252df1
 ---
 
 ---
@@ -53,9 +235,9 @@ source_job_id: 5552657
 title: Disclosure Coordinator
 employer: University Hospitals Sussex NHS Foundation Trust (279)
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9279-26-1034
-factual_fingerprint: 789d4bdeef44aad16695a5fb019c20dd3c59ebb9d5a0e89122889746baca5ee3
+factual_fingerprint: 9c1ca116b65413b54626193da3f28f96826b4c52ce784aaab72e2a7d76f10030
 ---
 
 ---
@@ -65,9 +247,9 @@ source_job_id: 5550472
 title: Patient Services Advisor Central Operations Admin
 employer: Aspiro Healthcare
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3283-26-0027
-factual_fingerprint: 551292b46c3ab7f31dff193be65f31ad34db915feef4fafcf69d97b8042a9958
+factual_fingerprint: 554ba80423c6fb2f2e9c4feb91bf6d98a41108b0a355d3d6d7f8c7c5d33f00f0
 ---
 
 ---
@@ -77,9 +259,9 @@ source_job_id: 5552714
 title: GP Practice Dispenser
 employer: Kingskerswell & Ipplepen Medical Practice
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4492-26-0004
-factual_fingerprint: ca762379a1ef97c3771551f4d18fcc3e76eb34585b4c10e5cb4959548f0be0a4
+factual_fingerprint: 73a20ffe14010b5dfbc3752f6b7aebe6faf385f8ed94aa7ea129bc8085a26cee
 ---
 
 ---
@@ -89,9 +271,9 @@ source_job_id: 5552776
 title: Service Group Accountant (Medical Services)
 employer: Somerset NHS Foundation Trust
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1237
-factual_fingerprint: ae96554825cd57dcf95fa428d6e0296b443c80021a9dfd4d0ab59af831b8a430
+factual_fingerprint: f7c4d4346f924e057f5a32f5076901eb401ddc35944d82a71166ca36cd82df0c
 ---
 
 ---
@@ -101,9 +283,9 @@ source_job_id: 5548469
 title: Research Assistant
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0638
-factual_fingerprint: 9ef2c5408ad6453f8679ed4cdaa4981b0cce50843f42aec89cdd63aa094bf7ae
+factual_fingerprint: 3ec84c03ae5d7c970b9be036c2418752146503622382497fea64814a2ed7c3a2
 ---
 
 ---
@@ -113,9 +295,9 @@ source_job_id: 5550372
 title: Bank Admin and Clerical Clerk
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0643
-factual_fingerprint: 5af826b78a7afa4c562da8ba87d831effe2047b9432b75c6c703059afef2366b
+factual_fingerprint: 06b89eabf57ebdb78169c27b81e25dafad8a4ceb56bb58a445a0fc12531786ae
 ---
 
 ---
@@ -125,9 +307,9 @@ source_job_id: 5548591
 title: Administration / Clinical Support Worker
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0639
-factual_fingerprint: cf83b9d60bec38126227ee17433e81c3526aa763cc0d1a01fe79fa084287605b
+factual_fingerprint: 289c35e59096ee68e93b29fb2e0845c2068ee8a1145cbc772eac63ff715d87ea
 ---
 
 ---
@@ -137,9 +319,9 @@ source_job_id: 5552695
 title: Management Accountant
 employer: MSI Reproductive Choices
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0206
-factual_fingerprint: f5a5579636e8d3a595c1361360583a48fd1695445fa72fdcaf7ed945fe877f4c
+factual_fingerprint: fdf665b2fbfa3cb94d5e3439146f421585c7148d08b7125eebe6df4efd4887e8
 ---
 
 ---
@@ -149,9 +331,9 @@ source_job_id: 5546024
 title: Care Co - ordinator
 employer: Bromley GP Alliance Ltd
 region: London
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0166-26-0007
-factual_fingerprint: 86d52aa31fc240deb29e2561cc20bb8b071a375cea01d3963851aa25bf715f4a
+factual_fingerprint: ac14de728e092e3810e3ca49a72414c7ff64152a7c386bf43868dd217a12388d
 ---
 
 ---
@@ -161,9 +343,9 @@ source_job_id: 5552696
 title: Band 4 Medical Secretary Supervisor
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1276
-factual_fingerprint: 5d2fdd8b7d61212fb73f0ed68cb59cd61420d8dce3d40cf4b9b6bb064c31839e
+factual_fingerprint: 507a53eaf56c893740b600e45b56d9cc06fee2d77fe43b92df47f1168600ae84
 ---
 
 ---
@@ -173,9 +355,9 @@ source_job_id: 5552632
 title: Senior Business Intelligence and Data Warehousing DBA
 employer: North West London Pathology
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9290-26-0055
-factual_fingerprint: b81a81fca3fbbccff446cd64ed05730377716d2eaca120408083e85292b7cd90
+factual_fingerprint: 4ce29fdfbe9b193b16d3cd0b71993fb79de05ff8c477383c9a8372f46d63985f
 ---
 
 ---
@@ -185,9 +367,9 @@ source_job_id: 5549801
 title: Senior Business Intelligence and Data Warehousing DBA
 employer: North West London Pathology
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9290-26-0054
-factual_fingerprint: 9221b7f9e45f553596cc0fdc04113d6ae428d6a9aa83776f9ee535ad256310b2
+factual_fingerprint: 4b095acce8e70997e6a898af5d141cc2470f0a4aad38fef7e8ee006a5f0a222e
 ---
 
 ---
@@ -197,9 +379,21 @@ source_job_id: 5551808
 title: Senior Lecturer/Senior Lecturer Practitioner (Haemato-Oncology)
 employer: The Royal Marsden NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0740
-factual_fingerprint: 396c2e652b3d06b34e1d29e45f76a5536ad9bcccb9fb1bc269e26ff81be31aff
+factual_fingerprint: 2499d7aac03480728c0b7fff22498d57d83f76a93e20f579359c78c8b2932dc2
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £25760.00 to £27476.00 | Bank Recruitment Support Officer - Band 3 (Agenda for Change)
+source_job_id: 5548660
+title: Bank Recruitment Support Officer - Band 3 (Agenda for Change)
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0315
+factual_fingerprint: 3442f00d5f81e64573080870b516589fa2c1188a43aa3fe6d50de25cd3d533e1
 ---
 
 ---
@@ -209,9 +403,9 @@ source_job_id: 5552654
 title: CPU Quality Assurance Advisor
 employer: London Ambulance Service NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9308-26-0111
-factual_fingerprint: 5fc5012b34eb4563d3d10c90392f629d6fb4a08fbd384b43cb194e0155772196
+factual_fingerprint: 5c4dd59ef0d55ce2781fd7fbabad40aae60d224dc874d0ea15ea11a7a5aedcfa
 ---
 
 ---
@@ -221,9 +415,9 @@ source_job_id: 5548409
 title: Urology Rota Coordinator / Team Leader
 employer: London North West University Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0674
-factual_fingerprint: e70ace2dde68b1b63dc3223c64c3c365629b16ed46ebe045b703425a9a1063aa
+factual_fingerprint: 375d9cd45643090d33f3a261a10e5ad4927ff2a020b3de37fed192e5ad360869
 ---
 
 ---
@@ -233,9 +427,9 @@ source_job_id: 5551911
 title: Team Leader
 employer: Oxford University Hospitals NHS Foundation Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1440
-factual_fingerprint: de152d8c6e7914a5f79528733fe78fb47e7446a0d0a8f04d60e6b8c6bcaea1f6
+factual_fingerprint: 569f52cdd0f0fe9567ea21be18ccbefda17827dc22b975b9b663b65182fd0d9d
 ---
 
 ---
@@ -245,9 +439,9 @@ source_job_id: 5550632
 title: Digital Trainer
 employer: Cambridge University Hospital NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1065
-factual_fingerprint: 0fac7a616a658e4cfcbbbfd03eaeba2aa603e6b7207a2ecd39a405d6f3740fde
+factual_fingerprint: 12bfb765492dc0dd78cadfd3356c27f665f237b0ea6752228722091ccc967cbe
 ---
 
 ---
@@ -257,9 +451,9 @@ source_job_id: 5552569
 title: Quality Compliance Officer
 employer: Royal Papworth Hospital NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0236
-factual_fingerprint: d2b117ddd3a93f944f5e70404f31dfc49b740f99e9e911bcc7a6821f3b94ac28
+factual_fingerprint: 2c981af5d04e8916ab6a37d1fa9308ffe1dc11b84e05ce2a1d1835ea4da51e4f
 ---
 
 ---
@@ -269,9 +463,9 @@ source_job_id: 5552510
 title: Patient Co-ordinator
 employer: Ystradgynlais Group Practice
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4475-26-0007
-factual_fingerprint: 120831a439adaf27f522046c7052e3c44862ea8b6c1cca57037eaa4b67cefabf
+factual_fingerprint: 68b44d35519e48ef0ac132a15ae16c360fa127a04843de412524ade0bb68b25e
 ---
 
 ---
@@ -281,9 +475,9 @@ source_job_id: 5552362
 title: Trainee Analyst
 employer: Isle of Wight NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0450
-factual_fingerprint: 02bd5fde2e2c5d5778bbd6ea9a87589f1fd174d4bd9fed9a6dc46a4c4f3ded48
+factual_fingerprint: 5e6dd2a13c7d1bb47bd3f00c93cb30bd234893224eef3833b79e92e7411659ce
 ---
 
 ---
@@ -293,9 +487,9 @@ source_job_id: 5546818
 title: Support Secretary - ENT
 employer: East Suffolk and North Essex NHS Foundation Trust
 region: Suffolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0631
-factual_fingerprint: e884c3eb7c384067023931efb3858bf318f41201033355d0c881a6b060d4a757
+factual_fingerprint: 46902bb7dc2ad4d7bcdc3d491be5cfa949f17e889e820f08f55846557a3f5f5d
 ---
 
 ---
@@ -305,9 +499,9 @@ source_job_id: 5549351
 title: Hub Coordinator - Devon
 employer: Marie Curie
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0516-26-0229
-factual_fingerprint: 655e6237bdfc3c98185846126eddcf676f77f496e8268c493fbf6cafd9ca553c
+factual_fingerprint: 495a9da7dd927faea6da28946f165eb0245bc17f7c80fd080fdd3e1a058f1f69
 ---
 
 ---
@@ -317,9 +511,9 @@ source_job_id: 5551810
 title: Medical Secretary
 employer: Gladstone House Surgery
 region: Derbyshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5325-679-PRI-1204-26
-factual_fingerprint: 59c61d77a77c718e7bbc5c0f94ed5a48d2ba8d50ba640bf8e84e7ccaf24db457
+factual_fingerprint: 208b374a644bb37384d042725ce85181fa2ed7d9346ccbcf6cf7461ae159f5e2
 ---
 
 ---
@@ -329,9 +523,9 @@ source_job_id: 5552284
 title: Medical Secretary
 employer: Wells Health Centre
 region: Somerset
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0930-26-0003
-factual_fingerprint: fc4bd21757d56d4cb7414db0f4b3ef5aafaa88b862bd326f2ea335a5d730054a
+factual_fingerprint: 147f3458fe72679ef44e6727cfeadaf940e75964a21a4c67835bb5c3d66ba197
 ---
 
 ---
@@ -341,9 +535,9 @@ source_job_id: 5551874
 title: Facilities Management Monitoring Officer
 employer: Buckinghamshire Healthcare NHS Trust
 region: Buckinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0487
-factual_fingerprint: 785013cc1f09965349fc9ac8003bab3c6da142078f0a2fa2d66b1de9dbfca3cc
+factual_fingerprint: ddc3d5608e990be3a7cd6f688ba682bf6c7b7bf351713b185b7cb8d4fe16bd09
 ---
 
 ---
@@ -353,9 +547,9 @@ source_job_id: 5542801
 title: Resource Scheduling Co-Ordinator
 employer: North East Ambulance Service NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9340-RSC-08-26
-factual_fingerprint: 2f0fc9093adc925b2be11b465b0556cb8d9854789c9b75c600468723e34a28bd
+factual_fingerprint: 4f23a87f7ef7ee5a60b559de0226551862f3e1f338e795c9d30088a5d313c969
 ---
 
 ---
@@ -365,9 +559,9 @@ source_job_id: 5552345
 title: Patient Systems Officer
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0992
-factual_fingerprint: 4b006d9128fc675ec6230e0809565ca8f78119ee6c37af2086f4f85f6e1de7e2
+factual_fingerprint: 8d552d4d21c5b65df91a59aa3b4dd4785783c6cb4adc7875f1ab44732bc6c4d0
 ---
 
 ---
@@ -377,9 +571,9 @@ source_job_id: 5552364
 title: Caseload Co-ordinator (admin)
 employer: Sussex Community NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0505
-factual_fingerprint: d689109a76395ccf029cd633e2ad63d41cd85b8d9d51b9d5c74b505294f2ce92
+factual_fingerprint: 92e1286cb6686020f2d6bcf3a7559af2de2d1b7cd66cf52eb26c388ba9f6cf41
 ---
 
 ---
@@ -389,9 +583,9 @@ source_job_id: 5542423
 title: Greenwich Immunisations and Vaccinations Coordinator
 employer: Greenwich Health Ltd
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0055-26-0092
-factual_fingerprint: 0b9c4cbe4f90b1a847fa7fdabd547b83889fbb726fbc236d61c5463d30e76081
+factual_fingerprint: cf9541625b3f9d8d7eddad8257652a8bc7ae157bd2ba1eef13d863b9eb393917
 ---
 
 ---
@@ -401,9 +595,9 @@ source_job_id: 5550322
 title: Mandatory Training and Systems Co-ordinator/Assistant
 employer: Sussex Partnership NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1016
-factual_fingerprint: 5b52f75a0292f5c0c9860cd64dbf565e04aad99adb80d99abee18231693b419b
+factual_fingerprint: 65faba9e07423d0ce08bc0ef0e35f32df964f7fbacea117967c8db41356c13e6
 ---
 
 ---
@@ -413,9 +607,9 @@ source_job_id: 5552383
 title: Bank Ward Admin
 employer: West London NHS Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9222-26-0719
-factual_fingerprint: 814c0857c9fe2d90a7883dac417cd044cbc096aa8ccdd3316975df9bba439a66
+factual_fingerprint: a4b186dfb7b7e59eb1e35c4612d35efa63aeea45209f16eeb2754a99dad361d3
 ---
 
 ---
@@ -425,9 +619,9 @@ source_job_id: 5552390
 title: Research Associate (Mental Health)
 employer: Somerset NHS Foundation Trust
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1234
-factual_fingerprint: dd9f7d353f6b1934a811a98c30bcdbaee7196958c757fd41124afe356660daa7
+factual_fingerprint: f815ac140058faf07e606da6d65d4fb63d09be050b84e03d75686171bf54e12d
 ---
 
 ---
@@ -437,9 +631,9 @@ source_job_id: 5552386
 title: Band 4 Medical Secretary Supervisor-Gastroenterology
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1254
-factual_fingerprint: f8c14909adb4b2d981fa3435cd6661c1186e3ba50ad451421e5f108cf6bc7105
+factual_fingerprint: 3570a4279a21c46c8bee47d909481836f718dbc0d16384e141f08862c71a0163
 ---
 
 ---
@@ -449,9 +643,9 @@ source_job_id: 5552351
 title: Prescription Clerk
 employer: The Oaks Medical Centre
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0638-26-0005
-factual_fingerprint: f777f640a971a856b952f7b722ac27d66c8edcb776bbe8e27ffd90f9ccf1efd6
+factual_fingerprint: 43f03f0b43bed2c30b152e971ad03c75689752fad7a61594ee6f954ddb49431b
 ---
 
 ---
@@ -461,9 +655,9 @@ source_job_id: 5552343
 title: Information Governance Data Security and Protection Specialist
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0752
-factual_fingerprint: 9e64856a3251fdd934293e033a088cb9e27d7e2fcc5c84f17c2589c717d8d6c7
+factual_fingerprint: b163bcd538b3563e87e4f7dc3f10a41c1081d7eae0b1079544931974e2b30075
 ---
 
 ---
@@ -473,9 +667,9 @@ source_job_id: 5551958
 title: Patient Care Coordinator
 employer: Chelsea and Westminster Hospital NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-26-0192
-factual_fingerprint: 1b199d2bcfcddfb2840fb7baffc8aabf7d4f75b68d72cd41e3c7056db091c86f
+factual_fingerprint: b46d779fb2ba9ca426e961926675ecd05395c2eaa443ae8031984cb95740c629
 ---
 
 ---
@@ -485,9 +679,9 @@ source_job_id: 5552274
 title: Dental Call Handler
 employer: FCMS
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0055
-factual_fingerprint: 88f06fd1f391b0f04d5387565052042ead798b19a1cc88fb0001016aca1271f0
+factual_fingerprint: edfb2f15d38a9ff38d4bc69fd749e1077cf7168f6f942b14e638a841bdbf5994
 ---
 
 ---
@@ -497,9 +691,9 @@ source_job_id: 5550063
 title: Estates Support Admin
 employer: North West Ambulance Service NHS Trust
 region: Lancashire - Central
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9242-26-0164
-factual_fingerprint: 9e0712c556cdc02e9049f1eee8d322295616857eca7f077baddccff376c4fd38
+factual_fingerprint: 8da5ff38b4c811c7457e7d13b04178ed55f093c81e176fe17171c2ab32b9007b
 ---
 
 ---
@@ -509,9 +703,9 @@ source_job_id: 5552187
 title: Medical Secretary
 employer: University Hospital of North Midlands NHS Trust
 region: Staffordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1719
-factual_fingerprint: 733972d1937002c4e3f1381cec34da7ac36aa0c0635f64c5603da5ee9bce8c1e
+factual_fingerprint: 673075872137d65c8b3447e8ea6dac5f9d31c32b719de85432b8300d62bb792d
 ---
 
 ---
@@ -521,9 +715,9 @@ source_job_id: 5552161
 title: Senior Administration Officer
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1045
-factual_fingerprint: aa287a75c7ff1ab4d02184a83258b3cf13a8663327f74ae334391c24dcf5c496
+factual_fingerprint: c2742e4c56911bc8f2c63835f9cfc188c57c4e5c36e573fa86d0a980ba9d48f8
 ---
 
 ---
@@ -533,9 +727,9 @@ source_job_id: 5551985
 title: SIRT and PRRT Coordinator
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0648
-factual_fingerprint: 7ad565a7c2f23df07b5725831e3972d27a7e48302c7044790d702dd83e3fd0d1
+factual_fingerprint: adebb783c162f783435dad866f128ab05ced7244f2f0a8161c1dac474f07035d
 ---
 
 ---
@@ -545,9 +739,9 @@ source_job_id: 5552189
 title: Administration Officer
 employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0795
-factual_fingerprint: 84e97d0b433bd7342e52a2c8ec6093e2526f0e034847d3bc7f4962af2823e8e6
+factual_fingerprint: 0146a2b1565e3accc3da6d17dfc87df73b0f4fbcd19859f2e91a6694613d2b6c
 ---
 
 ---
@@ -557,9 +751,9 @@ source_job_id: 5551354
 title: Part time Patient Facilitator
 employer: LOWER CLAPTON GROUP PRACTICE
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0965-26-0004
-factual_fingerprint: 3bee5dfb3045434fbb460e1d9857b5603d963c1145f7b08d4f70d6e46fdf4848
+factual_fingerprint: 0b78e2ba17b45fb04806e44c827521e3b67598596662380734469a1ee8ba49a9
 ---
 
 ---
@@ -569,9 +763,9 @@ source_job_id: 5550587
 title: Senior Finance Analyst - Accounts
 employer: Cwm Taf Morgannwg University Health Board
 region: Wales South - Valleys
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0866
-factual_fingerprint: c050c982340e85bc4a2f6c18fb9a88bcab4e740f3b909ed06f8fc69a40dfb06f
+factual_fingerprint: 710591a1e95515b47845003b67a408419ab15a80b29027c430367e5e5710eb2a
 ---
 
 ---
@@ -581,9 +775,9 @@ source_job_id: 5552083
 title: Clinical Coder
 employer: Horder Healthcare
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0237-26-0077
-factual_fingerprint: 334f15ba89c6bd59add58a249a82435e2ec18d47b98293db69d2b9ab47fe5d63
+factual_fingerprint: 7063fccb00c6789f3aec99df49ef4c2213ea0bbeb1d9812047c6120292191ba7
 ---
 
 ---
@@ -593,9 +787,9 @@ source_job_id: 5552096
 title: Scanning Bureau Clerk
 employer: SWFT Clinical Services Ltd
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0374-26-0064
-factual_fingerprint: 475db4666a9c0cf4f59a21a10e1bf62fe6146d899b97689b2db3c28666b751c4
+factual_fingerprint: 94d643369430888cd406ffcd236c0972d1db1e96b7e5900ba3704eed9accd82c
 ---
 
 ---
@@ -605,9 +799,9 @@ source_job_id: 5552106
 title: Theatre Reception Clerk
 employer: Royal Papworth Hospital NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0233
-factual_fingerprint: 73d265e46cd49552ed8d89698e1a8660b3219d8346562af1f598bcb31bb45173
+factual_fingerprint: 952a985cdb51ad711dadd4f7790429b2ff276f4dd196fc1f079697b5b07aabcb
 ---
 
 ---
@@ -617,9 +811,9 @@ source_job_id: 5552058
 title: Care Coordinator Team Lead
 employer: Hedena Health Ltd
 region: Oxfordshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3940-26-0010
-factual_fingerprint: ef32ec7a8dee1806b554a5beb9d8d60678e6f129dd8a6ed53be96451dd8ee0b3
+factual_fingerprint: 4a27e94c29b85de049b45dc2229363dd12a0b34cd0f10b3d8e1707a005af09a0
 ---
 
 ---
@@ -629,9 +823,9 @@ source_job_id: 5551775
 title: Dental Call Handler
 employer: FCMS
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0054
-factual_fingerprint: 26e9e20de51888443d7dd95822051af5703845c79f8bc4068c679ab766da55be
+factual_fingerprint: 79b53b7635a07ad817dfbfd399de5f1845789402e289d7623391f039a6877ece
 ---
 
 ---
@@ -641,9 +835,9 @@ source_job_id: 5552012
 title: Telephone Patient Services Advisor
 employer: Danetre Medical Practice
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2927-26-0013
-factual_fingerprint: 0a2c60edd484ee7a1c7eef9f01c4aefc666b0234c7d04478b0347df70d1f100d
+factual_fingerprint: f408e55ac5d3d6020d0cbbc7a99399d41c6ab7129eda978b4bfa56a1179845de
 ---
 
 ---
@@ -653,9 +847,9 @@ source_job_id: 5552025
 title: Elective Care Hub Officer, Band 3
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0750
-factual_fingerprint: ab8e48f1fb5b8ac8a221d494e6bb40a08458485db1b21b3cf4cfff22b7c61c7f
+factual_fingerprint: 8eea2c19653362066ff642cdd69e4c688042972c72e97224ffe62096e1677f21
 ---
 
 ---
@@ -665,9 +859,9 @@ source_job_id: 5552022
 title: Elective Care Hub Officer, Band 3
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0749
-factual_fingerprint: 6ae7c16ae6a5d054f26f1f83cddc9302f2a9b570c43f1272c92b09f79bd2bd79
+factual_fingerprint: 97807160a088f612803c42473ec77d2669c01363fa57d4e695a011b94ce13481
 ---
 
 ---
@@ -677,9 +871,9 @@ source_job_id: 5546643
 title: Patient Services Advisor
 employer: Eve Hill Medical Practice
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0492-26-0000
-factual_fingerprint: 548fb67dc41d49ccb8069f2c56960fe0b88b381d9760a3872729118b7346e604
+factual_fingerprint: e8150654f47d92af0621980143896c56f541896d155ce2ab9e7870f66a634451
 ---
 
 ---
@@ -689,9 +883,9 @@ source_job_id: 5551525
 title: LCO EPR Expansion - Digital Programme Lead
 employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2475
-factual_fingerprint: 823eb542bc9d2914d5b22a4610c36307381aaf1ea9cbb35f9547301d9eef95c8
+factual_fingerprint: d203ffd603a8c63ac8a1426b4f82c18d19c6a2b50f05b24ebd5dd6169e3c2732
 ---
 
 ---
@@ -701,9 +895,9 @@ source_job_id: 5551036
 title: Clerical Supervisor
 employer: Liverpool University Hospitals NHS Foundation Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1304
-factual_fingerprint: 5e6ebbf49dd28d3398462813af4e0672dafe141c35dd1ba54cab0a0e0b9c1ab4
+factual_fingerprint: c99556f4f9ddc34a34e2bfa438dc89e99a3fbb2e3bd6d20287f4d0807abb7ecf
 ---
 
 ---
@@ -713,9 +907,21 @@ source_job_id: 5551291
 title: Neighbourhood Service Coordinator
 employer: Northamptonshire Healthcare Foundation Trust
 region: Northamptonshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0674
-factual_fingerprint: 889707c2e3adfdc57afb1994d6a0ec5cbea8d2af215f6f098c684ca7dfdaaa11
+factual_fingerprint: 5f4d7712bcf27348fa7f91b699cbb01cc1f8ea5ae2979e468038fcdc566bb124
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV10 0QP | £32073.00 to £39043.00 | Project Support Officer
+source_job_id: 5548993
+title: Project Support Officer
+employer: The Royal Wolverhampton NHS Trust
+region: West Midlands - Black Country
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0613
+factual_fingerprint: 2027facada82ae8c4501c75300d0a58ea5d6aed1875ff91d29fad58f8298f61b
 ---
 
 ---
@@ -725,9 +931,9 @@ source_job_id: 5551937
 title: Service Desk Analyst
 employer: Midlands and Lancashire Commissioning Support Unit
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9877-26-0004
-factual_fingerprint: f82c526fccb49d88478a0825ea991797b61fdf80a1ce2c0f841a1b375ec9fa56
+factual_fingerprint: e7986f12bb6a860cf346969b0186ddb3afa672cfa304a1a7d8b4cc0866f6e656
 ---
 
 ---
@@ -737,9 +943,9 @@ source_job_id: 5548908
 title: Patient Flow Co-ordinator
 employer: The Royal Wolverhampton NHS Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0612
-factual_fingerprint: e125940cf187466cc41eee6a16241d825c04ed2f42d8f86f1b37f2abc349b318
+factual_fingerprint: e3022f2b57a9bff00f390a8cf2402a26abb9f9d6594847cb5df5b90e74b29ade
 ---
 
 ---
@@ -749,9 +955,9 @@ source_job_id: 5551964
 title: SPoC Operational Hub Coordinator
 employer: East of England Community Health and Care NHS Trust
 region: Norfolk
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0320
-factual_fingerprint: f9013dc8ef02f0783788a27f021fe59ea7ab99d2138a7d9be275feac0faa404e
+factual_fingerprint: 8c39d1f10b2b90547f5fb56427793a484bcd21cf9679d05e27f2f215bd493d04
 ---
 
 ---
@@ -761,9 +967,9 @@ source_job_id: 5551935
 title: Outpatient Clinic Coordinator
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1335
-factual_fingerprint: 0f9c8e6f46cf933d5badf51c4d76304a7a88ac163812c88a60becabf59c51853
+factual_fingerprint: e1ec36a7d0f6c64a3a88cc91ddfe614bb819df56c3b6357bbe372d44a3487f79
 ---
 
 ---
@@ -773,9 +979,9 @@ source_job_id: 5549284
 title: Senior Governance Officer
 employer: Midlands Medical Partnership
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2078-SGO
-factual_fingerprint: 0ab05d7b0bcfc453d3610de939f9010bd63de665ddae0a9fbda6abe7d72e8547
+factual_fingerprint: 40b88b066e0306a3fef255c71bfce9efe315d2742ba513e5a54f83db7df46565
 ---
 
 ---
@@ -785,9 +991,9 @@ source_job_id: 5551818
 title: Deputy Chief Executive
 employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0484
-factual_fingerprint: a1107a1ea1d92ee461578bb3de36dc8ab5f70ef8c3c144598a338d9c3233a2f9
+factual_fingerprint: feb6336adc762b6bc6f149bd20f12da9ee5dd5a92534ad0dcea79dca67710935
 ---
 
 ---
@@ -797,9 +1003,9 @@ source_job_id: 5551799
 title: Chief People Officer
 employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0483
-factual_fingerprint: f30ae4eaef5c5f2e922313e349e29eae2ecf8fff13812231c49a6780a2dcabf6
+factual_fingerprint: 1a7d1076b6acabcba0feee0720c7a6d1f6421dec837a6f2f1c8b6f5fe421542c
 ---
 
 ---
@@ -809,9 +1015,9 @@ source_job_id: 5551654
 title: EPR Training Lead
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0989
-factual_fingerprint: 32ec68885383ef7092475dcb7610638724c0bdc9b5fdd3866a9c29d2fe4bc8cf
+factual_fingerprint: a54c0aaceb2334dbb73f067c52d35bf8f9af39551fdda47fad5d373975e55f11
 ---
 
 ---
@@ -821,9 +1027,9 @@ source_job_id: 5551788
 title: Senior People Advisor
 employer: Oxleas NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0846
-factual_fingerprint: 07a1128bb5c6b279a9a61515f433b9944ea5c2ef69d1b0914829498db15bf714
+factual_fingerprint: e268d51b4741fa5e0826fd2c4e5e01d728e8619577877824ce6f941e5748ef02
 ---
 
 ---
@@ -833,9 +1039,9 @@ source_job_id: 5551577
 title: Senior Patient Safety and Assurance Officer
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-1012
-factual_fingerprint: b67bb941e17d6c967711bba19d5889a224567d67c0712ad6e45fcccb144c12b3
+factual_fingerprint: d15566073d74d57872ef6e11434632b604e17f9b1b916f28dc7286997b4fb0eb
 ---
 
 ---
@@ -845,9 +1051,9 @@ source_job_id: 5551723
 title: GP Assistant (GPA)/Secretary
 employer: Southgates Medical Centre & The Woottons Surgery
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-20-08-26
-factual_fingerprint: fe590e0e9526ce8f09514ae8e6344fea72b730e3d885b95cb8cd8f804978edfe
+factual_fingerprint: 44663203728daeacd7c6aafa19a7a086ddf3ba2310bbc40a675e5e8f0f65349e
 ---
 
 ---
@@ -857,9 +1063,9 @@ source_job_id: 5546760
 title: Business Intelligence Analyst
 employer: East Lancashire Alliance
 region: Lancashire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0467-26-0029
-factual_fingerprint: d6f93f9fe385f078599bab15912fdf24b6171b1a3134c7c2d06f1ac266b4ca9f
+factual_fingerprint: 2f12fa5f1728138cb278b315bbef954e5c6195c5f86aa55f895eff86160deba6
 ---
 
 ---
@@ -869,9 +1075,9 @@ source_job_id: 5551677
 title: Patient Co-ordinator
 employer: Mendip Vale Medical Group
 region: Somerset
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0045
-factual_fingerprint: a3c305cae6b383845d7626844f8a2032fc11aaf7672e34ee348fad7bfa907f2c
+factual_fingerprint: 99f9496e50a1fb386e49efd1aac9cfee4aa72940e6a39ea4d4db7b52ee40cdf6
 ---
 
 ---
@@ -881,9 +1087,9 @@ source_job_id: 5550324
 title: Sponsorship Governance Facilitator
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0642
-factual_fingerprint: 69f97dc4a82b7873321cc8dbeed5256a3ede3ff4c2d2fdd4207f986590bb2dac
+factual_fingerprint: f4c9ae2c52f80f6c758e75657d57bd32502494f1f3db4770dc6af0c3a451724e
 ---
 
 ---
@@ -893,9 +1099,21 @@ source_job_id: 5551057
 title: Capital and Charities Accountant (Band 6/7)
 employer: Airedale NHS Foundation Trust
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9423-26-0215
-factual_fingerprint: d29d83d70939973f3cda7415f3d994bf03091ba52cce236608cd3896d6a1e583
+factual_fingerprint: 7edd2f514aad5b185d3b60a503f6d1b70852088cf4ad824964623874b687781c
+---
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Worcester, WR5 1DD | £25760.00 to £27476.00 | Digital Services Support Officer
+source_job_id: 5548797
+title: Digital Services Support Officer
+employer: Worcestershire Acute Hospitals NHS Trust
+region: Worcestershire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0278
+factual_fingerprint: 1aeb6baf2d030f6fde8578ff0cd36df9c5261fde7c7b174c249efb5ecb4c766c
 ---
 
 ---
@@ -905,9 +1123,9 @@ source_job_id: 5551273
 title: Associate Lecturer in Medical Ultrasound
 employer: Sheffield Hallam University
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/N0013-118327
-factual_fingerprint: 9d80ab33ea795df9a08ab2383bdc89977c079eec7c5d91242da1c023e8f6cacd
+factual_fingerprint: eabcb359e9dad6111f2b47dc8c434c6e94bd64d697cd2f5423ec33b7efc0f6fc
 ---
 
 ---
@@ -917,9 +1135,21 @@ source_job_id: 5551471
 title: GP Assistant
 employer: The Queensway Surgery
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1421-26-0009
-factual_fingerprint: aa18d22823e3f9f5e999860e0a619dbb4e64afdfcee20732b6316fcec6ab6338
+factual_fingerprint: a7417b68dca30acbfe7843d6025bd23c7eb3c059130a6294cd0df82572bda278
+---
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Norwich, NR1 2DH | £28392.00 to £31157.00 | IG Support Officer
+source_job_id: 5551505
+title: IG Support Officer
+employer: Norfolk & Suffolk Foundation NHS Trust
+region: Norfolk
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0946
+factual_fingerprint: 265f3f33105ef749e0ce39b49436294cfd4b66ffc076d9b008ba6b489002924c
 ---
 
 ---
@@ -929,9 +1159,9 @@ source_job_id: 5550732
 title: Clinical Services Care Co-Ordinator
 employer: University Medical Centre
 region: Kent
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3620-26-0014
-factual_fingerprint: 16645e4ef88753a8f536d9b46a4f5778553e99e9795427275b2491bc6e1babda
+factual_fingerprint: cabac9c4f5f4b8f497cda4d5f778a70b534d308f094441a157fbd760ddf964d9
 ---
 
 ---
@@ -941,9 +1171,9 @@ source_job_id: 5549107
 title: Finance Business Partner – Capital & Lease Accounting
 employer: Essex Partnership University NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0783
-factual_fingerprint: 6822b6ad17b07fc587f22ce99c33874041744207b2e810e7477a1e4f46aead5c
+factual_fingerprint: 88c39e1cea72424a6bd3816344c1fc06fb049c72cf28f0c90b7be2e491be1f20
 ---
 
 ---
@@ -953,9 +1183,21 @@ source_job_id: 5551293
 title: Catering Assistant
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0894
-factual_fingerprint: 3f62af2fd971dd6e1014f6705fd9ae4cec6345c2e2322bfdf82608e488d655f9
+factual_fingerprint: cad4ea2136f31bff95435010d9237d99960f0cd8817cfe1d030c7e65be123eba
+---
+
+---
+action:
+POSS | NHS Jobs | Leicestershire | Leicester, LE5 4QF | £25760.00 to £27476.00 | Technician Support Officer
+source_job_id: 5551229
+title: Technician Support Officer
+employer: Leicestershire Partnership NHS Trust
+region: Leicestershire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0370
+factual_fingerprint: c6a0b367a49f11ec4e03c8e5d1d97aa0bff5ec93dfd5277ac3372e0e04cd32d6
 ---
 
 ---
@@ -965,9 +1207,9 @@ source_job_id: 5550984
 title: Practice Assistant
 employer: Parliament Hill Medical Centre
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3653-26-0001
-factual_fingerprint: ccdd332cc1d47d1ffe3bd7d23ead63a7db454d39101e7cc8b779e20db22527b4
+factual_fingerprint: b402705f90baa216501332871bfcff4531650f2fa2ebe6ee8ec56b0af808dbe4
 ---
 
 ---
@@ -977,9 +1219,9 @@ source_job_id: 5550873
 title: Finance Assistant
 employer: Bexley Health Neighbourhood Care CIC
 region: London
-reason: BRIDGEABLE: Potential admin/service title: finance assistant
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0027-26-0025
-factual_fingerprint: 1433aa93c602baecf9af816dd076b7ca305ac3fee0c50165e041654a80dff23c
+factual_fingerprint: d23191931f7f0fad4a763056cfde11335448f751584306eea9e35aec22bb1d56
 ---
 
 ---
@@ -989,9 +1231,9 @@ source_job_id: 5549800
 title: Part time Patient Care coordiantor
 employer: Clifton Rise Family Practice
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4477-26-0001
-factual_fingerprint: 460a5785565326773cbcef9aa36d29712d0e3f050c13d7125e7f50e905d4685d
+factual_fingerprint: c92fcb4d70f2124ecb515adb655e56b0ca029b405efbfb7037a18cbe15060bd5
 ---
 
 ---
@@ -1001,9 +1243,9 @@ source_job_id: 5550126
 title: Senior Analyst
 employer: Mid and South Essex NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-1987
-factual_fingerprint: 08797d030941518f4b8b74b5c615d2ad449944c7e3e1275c08813ee717f9ef6f
+factual_fingerprint: 113a340efb7ed218fefe4b703c4b8a5853d00615d05c69b8bc92163510d81edf
 ---
 
 ---
@@ -1013,9 +1255,9 @@ source_job_id: 5551105
 title: Start Up Team Facilitator
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0429
-factual_fingerprint: 03ca4aaacd865e70afaa14df67c071d0df37bdc15306784a1211f3dd00b3b3b6
+factual_fingerprint: 5a7d49cee24dd7cc861edf1d7882c9b872ef5485a909841026b3ed142edb320c
 ---
 
 ---
@@ -1025,9 +1267,9 @@ source_job_id: 5550519
 title: Data Protection Officer
 employer: Lincolnshire Partnership NHS Foundation Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0324
-factual_fingerprint: 8a89b197877a5aa5363d3ceed173fdf3ee51d57066f754be5dfd39cf49da08f1
+factual_fingerprint: 1ee5ba264307d7efc557757c9d7a31d1441c020d2b646795b7b8baaccac572df
 ---
 
 ---
@@ -1037,9 +1279,9 @@ source_job_id: 5550815
 title: Admin Team Leader
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0722
-factual_fingerprint: 5670cd3d03ed6d75455daab73b110a153f78edc5cf3051054f7635b2e03601c0
+factual_fingerprint: 5b44d4864e14b03ee782a2c3d2b5899e5fbc4ac2596f2c02df84c2e34c7ee315
 ---
 
 ---
@@ -1049,9 +1291,9 @@ source_job_id: 5550921
 title: Finance Officer
 employer: Devon Partnership NHS Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0263-3
-factual_fingerprint: 879dce345b4a6b2c0aeaafa3cbeabf9d7492747c2f4884d2ebf55777246d12dc
+factual_fingerprint: 32bc588c7513530d650a8cec07c80aed9f7b814fcfa4496aabf80775b9e75388
 ---
 
 ---
@@ -1061,9 +1303,9 @@ source_job_id: 5550694
 title: Systemic Anti Cancer Therapies Treatment scheduler
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0721
-factual_fingerprint: ebdfd4ab934edd50f4e0f2ba7100e0c6bad02d2b59ca933e83a144f0a83364fc
+factual_fingerprint: 9958d9bc6a6ca80b2bb2d219994f431f4f61934d17ee7af6d1bb5e9c5775dd2b
 ---
 
 ---
@@ -1073,9 +1315,9 @@ source_job_id: 5550613
 title: Operational Coordinator
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0720
-factual_fingerprint: 1618019f783a6914f9eb7651546dff4cb70d27bc51de423100d84397edc317b3
+factual_fingerprint: 059f7d338881bab8a361fafb4a76b4ff86cfa5c4f6b1783929296799ee2e0aee
 ---
 
 ---
@@ -1085,9 +1327,9 @@ source_job_id: 5550958
 title: Clerk Typist
 employer: Swansea Bay University Health Board
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9130-26-0309
-factual_fingerprint: 4644fd4d78115f69a38eb3426772f2a1fe79b4fe0d3192ff4c98c9c28e0e4431
+factual_fingerprint: fdeeb9c6a7c85bf2aafe49ecf21bdd58e85849311b28313d7efa314a60bf5696
 ---
 
 ---
@@ -1097,9 +1339,9 @@ source_job_id: 5550910
 title: IP Team Secretary (Strategic Group Responsibility)
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1914
-factual_fingerprint: 0d20341504550feaec62721f9b8ab2ef34292a1421f4a35d9de385952b171714
+factual_fingerprint: f48ac738701654f546b1321452a34b46a157c24507c6fbc2040c6304509161f1
 ---
 
 ---
@@ -1109,9 +1351,9 @@ source_job_id: 5550415
 title: Contract Development Lead
 employer: NHS Central East ICB
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9644-26-0037
-factual_fingerprint: 0db6050a1ec7154cdd9475cf7cfcd9b73328b6fe3231bdc8bc1c00d863768e86
+factual_fingerprint: efe836eb9590cb99301f4cf2a91127b31ba36195cb1430dcdbb9928cb8c574c2
 ---
 
 ---
@@ -1121,9 +1363,9 @@ source_job_id: 5527780
 title: Team Secretary
 employer: South Warwickshire University NHS Foundation Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0463
-factual_fingerprint: d6da8324325a44a0b93320d622c8278599f2ad645339add6b63bad5006a19bd0
+factual_fingerprint: a1224e9152d4c5cfd244d960c6f10a45485f09d9d4b3c99f595441e2528b1aae
 ---
 
 ---
@@ -1133,9 +1375,9 @@ source_job_id: 5550074
 title: Clinical Systems Dispatcher
 employer: Taurus Healthcare Limited
 region: Herefordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/S0001-26-0068
-factual_fingerprint: 5af24b73f2440cffc12fe1e6c440c9cf251f1648d73eba94a8489c31a785552f
+factual_fingerprint: 3a5e93c9f5a84ff80f5f4d0b409480101e1c0b4654bad416f5d701ffcee188c5
 ---
 
 ---
@@ -1145,9 +1387,9 @@ source_job_id: 5550561
 title: Reception Supervisor
 employer: Crown Medical Practice
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4538-26-0012
-factual_fingerprint: 57b57b53a1ca58fd6bbcffb3c7b9bbaed76c022461b318b2d99117925525d2e3
+factual_fingerprint: 13405eb94d63127151858c2749d39fc7a82226200be4269057ef5abf3fbb6a84
 ---
 
 ---
@@ -1157,9 +1399,9 @@ source_job_id: 5550697
 title: Onboarding Team Secretary
 employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1755
-factual_fingerprint: 59a9a71ce26ca8ed740b796aaa21641b6b0caebc38a0f5ce7edbd0ac3282bf5d
+factual_fingerprint: 3b55167fabdf1ced5e3c70281d475e2dee4587113af694dd51ef0a961b3e225b
 ---
 
 ---
@@ -1169,9 +1411,9 @@ source_job_id: 5550679
 title: IP Team Secretary (Strategic Group Responsibility)
 employer: Betsi Cadwaladr University Health Board
 region: 
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1912
-factual_fingerprint: 7d21a21fe2bc0fc8e7305dca3a273590ca5b1c0227689f4a80755f4f45f28630
+factual_fingerprint: 910c897b9401d28d0233aa31f21ac9d3f74b2d0b5fe7c2274c0570d4a7c33625
 ---
 
 ---
@@ -1181,9 +1423,9 @@ source_job_id: 5550594
 title: Bank Radiology Clerical Support and Appointments Coordinator
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-1009
-factual_fingerprint: c503ae86a3dd1eed76c16577b9e89953acfb0d6e6b8e22be4e46bea44e0e2a58
+factual_fingerprint: adadb4d4d6262880591aeb44233416217baa509ee01b9140744e236bd63e40b1
 ---
 
 ---
@@ -1193,9 +1435,9 @@ source_job_id: 5550463
 title: Patient Services Reception Advisor
 employer: Latham House Medical Practice
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3522-26-0007
-factual_fingerprint: 4d1022a5af25a5c6d565a8b665de13f5dde256fe813655af34aeb2da418f39d7
+factual_fingerprint: 5a8c77237b0c54ee66a761046cbfea8bc77ea03cd19dbd54444c1a6a52d9b5e6
 ---
 
 ---
@@ -1205,9 +1447,9 @@ source_job_id: 5550351
 title: Senior Management Accountant
 employer: South Tees Hospitals NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9328-26-0391
-factual_fingerprint: 9a003a2bd46ec83e27924e935f4f91ca2573ea8b4331cfa39a07e4159035a62f
+factual_fingerprint: b894489e2e986cb9090cb4eb67d25411f5a143452f4bd35e0a560137a8f7bf2b
 ---
 
 ---
@@ -1217,9 +1459,9 @@ source_job_id: 5550331
 title: Senior Management Accountant
 employer: South Tees Hospitals NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9328-26-0390
-factual_fingerprint: d0381d76fe6013698d4178e7f4bba1a4d6fd7d35e8a856e6a6739c0868dc1209
+factual_fingerprint: 9841364cbf1d47b0017b68dd7e3f5b95e026476c62a75986c88f13e8b99a847f
 ---
 
 ---
@@ -1229,9 +1471,9 @@ source_job_id: 5550395
 title: Lung Cancer Screening Navigator - Band 4
 employer: United Lincolnshire Hospitals NHS Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0320
-factual_fingerprint: bf37105393acd7b293b0820d8b3f783589c4106dbf93b28db70f6ef45d90604b
+factual_fingerprint: 842774c37d40ccdac57c118215af2744bf6b295454be821b31b33976671c50ca
 ---
 
 ---
@@ -1241,9 +1483,9 @@ source_job_id: 5550419
 title: Digital Trainer Band 5
 employer: United Lincolnshire Hospitals NHS Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0321
-factual_fingerprint: c6731cf9206c4a3677897c9b1e93366cdade3411fe5e17926edad64278aac83d
+factual_fingerprint: 5c39da1a35a4df821f7f5aa59edcd3eed2d03e06a4c7e16f018870f89effdb34
 ---
 
 ---
@@ -1253,9 +1495,9 @@ source_job_id: 5549243
 title: Business Intelligence Analyst
 employer: London Ambulance Service NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9308-26-0107
-factual_fingerprint: 8cf6ee0ccbba9d1d6cabd0a3ba6de35559a56a5269334793c3af8def7ec24d3f
+factual_fingerprint: 34337938335645a89833810c3145dce0a00c168b4e20a84f27f08e414be987b2
 ---
 
 ---
@@ -1265,9 +1507,9 @@ source_job_id: 5550293
 title: Patient Co-ordinator
 employer: Mendip Vale Medical Group
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0044
-factual_fingerprint: b604966316ab54ac3f11dd2e6b22508a5d11c94113c4a4372b252c225f2218b6
+factual_fingerprint: 63800848a18f37de456783e10c84ec04ce89cecfc8759d1058e3ee1943a9e0f4
 ---
 
 ---
@@ -1277,9 +1519,9 @@ source_job_id: 5550211
 title: Phlebotomy Team Leader
 employer: Dorset County Hospital NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9405-26-0403
-factual_fingerprint: 6f33fae89e282bdba5293f51a555199cb811877a9c4782985b31054354e44fb9
+factual_fingerprint: 54b42966ed4dc05d5d762a8a46ea2bfc8826dba1289c1419d691d08c72b27bb2
 ---
 
 ---
@@ -1289,9 +1531,9 @@ source_job_id: 5547744
 title: Divisional Accounting Assistant - Financial Management
 employer: Liverpool University Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1296
-factual_fingerprint: 330cc85ac59be27b339047db41f70f811f54addea590325b8b9eafeb274f98f5
+factual_fingerprint: 709283c4d8490dd00dde0ac29cc47e66e2c77c7e0e8a5295a052bc441a336424
 ---
 
 ---
@@ -1301,9 +1543,9 @@ source_job_id: 5549971
 title: Private Patient Services Advisor
 employer: Horder Healthcare
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0237-26-0074
-factual_fingerprint: a6f4da3b3ac1fa0d7cbac8bfb672a36cc6c9246f9d14e10b2f7ec05848a873c6
+factual_fingerprint: d183b16adb180425157d96fcc21eb23910fab19d7d7f1789218553ec0ac51089
 ---
 
 ---
@@ -1313,9 +1555,9 @@ source_job_id: 5549972
 title: Finance Controller
 employer: West Kent Primary Care
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0008-WKF286
-factual_fingerprint: 8707ed589442f4749b1b6ad18de1b9fe54c05cc04b1b37a15848bde4a9382460
+factual_fingerprint: be719f1638f602b235d407bf9142db81a5b63961340b4ded04c641d9972bc398
 ---
 
 ---
@@ -1325,9 +1567,9 @@ source_job_id: 5549138
 title: Progress Coordinator - Bodmin CATU
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1066
-factual_fingerprint: 5f94041fb80aa4c45875535e1fe1ed134835b08ee38e3d0632dbf909c1cc169f
+factual_fingerprint: 6617038f68d5a514f2b06a0168501fceb3ead672924b89063f70d0c9474d3319
 ---
 
 ---
@@ -1337,9 +1579,9 @@ source_job_id: 5538685
 title: Community Clerk - Indigo Team
 employer: Lewisham and Greenwich NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0746
-factual_fingerprint: cedcdec9d4b9a7e4b5e1737cee641e2c46bb062562930438a10c402e3542392f
+factual_fingerprint: 18fcc62a2328ced4146e8dbf541842b7513b4f304fa7bb25992cf53b79f93e2b
 ---
 
 ---
@@ -1349,9 +1591,9 @@ source_job_id: 5544515
 title: Efficiency Programme Finance Lead
 employer: Lewisham and Greenwich NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0761
-factual_fingerprint: 050fe2ea2cad5432fd2eb429062e968d811dd95d1e9645be30a1068386daaf72
+factual_fingerprint: fe4e914008312798051d36726db35fe2f5d2b286400f6f35becb6f8691e17c37
 ---
 
 ---
@@ -1361,9 +1603,9 @@ source_job_id: 5549917
 title: Team Leader – Accounts Payable
 employer: Lewisham and Greenwich NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0772
-factual_fingerprint: d7cd24c8f02df712e2095a06c28d9b075146d11cfd14f382cb2b82079428ea45
+factual_fingerprint: 549fe5c1a3e427cc9c1afcd666a4b49c564b3139b0e4f1c48e7142114da2c9e0
 ---
 
 ---
@@ -1373,9 +1615,9 @@ source_job_id: 5549916
 title: Neighbourhood Support Care Coordinator
 employer: Folkestone Hythe and Rural PCN
 region: Kent
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5975-26-0012
-factual_fingerprint: 0b178c41b3665fcc4468266f3ea349f503d74c1685b137a6a6d444c94ea5d0ee
+factual_fingerprint: 8827c4f7f5c1033f58bcd9f3b2aab23af345ccb2ece4b1365bd127754a5b42a6
 ---
 
 ---
@@ -1385,9 +1627,9 @@ source_job_id: 5544702
 title: Social Prescriber / Health and Well Being Coach
 employer: Folkestone Hythe and Rural PCN
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5975-26-0011
-factual_fingerprint: 20af9483c2aee4f112fea39d6bbfae946d9836442c4bc32a3856b892792048be
+factual_fingerprint: d07e5f8dd26c644b686a1a31759c8c1e1e33ed54b113950b1f85681eb44f47ca
 ---
 
 ---
@@ -1397,9 +1639,9 @@ source_job_id: 5549666
 title: Finance Assistant
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Potential admin/service title: finance assistant
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1035
-factual_fingerprint: ba5f6db6583142a1e98d66d0c84bbb79fecc28a3d465dc65ddfffaf49418bf5a
+factual_fingerprint: 09a61aa76c07a68a60ae61723fea17b48e4084d710a8b25795a57acfcfede606
 ---
 
 ---
@@ -1409,9 +1651,9 @@ source_job_id: 5548289
 title: MLA Team Leader
 employer: The Royal Marsden NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0737
-factual_fingerprint: c09040a6b9640f9ba55d8946e145ea3155f58d97fc04183b809656987f1f73bf
+factual_fingerprint: 458d135370285916853c13adc824bc0a79f9fa98030cf6d75a5f8a6402faf673
 ---
 
 ---
@@ -1421,9 +1663,9 @@ source_job_id: 5549748
 title: Waste Officer Development Role
 employer: Herefordshire and Worcestershire Health and Care NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2567
-factual_fingerprint: bd2b6c518428a1fb30f916237d18400cd57b8a76841cf0cd2b7bc8e5b87ff508
+factual_fingerprint: c7cafc9079aedf3b23850d388d0bb99d2afc37310c9e0cf445bf9eb79336f6f5
 ---
 
 ---
@@ -1433,9 +1675,9 @@ source_job_id: 5549704
 title: Cardiology Assistant Medical Secretary
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0729
-factual_fingerprint: f37269b845a732aba760d62e0e58572712078823b34b6ba6893a0aba364f9f0c
+factual_fingerprint: 3562f186abac22b5f341a5039ce3c586db60faddb87ad6aa3151a2a0f725f4a2
 ---
 
 ---
@@ -1445,9 +1687,9 @@ source_job_id: 5549725
 title: Medical Secretary - Cardiology (INTERNAL)
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0730
-factual_fingerprint: c11c748d96b4d78762ca5e5936ddb269f58ed8e1b2c185392029edf5ae7443cc
+factual_fingerprint: 0108c5ada32727c0ea92258be5bdcd978777612e11e0e2b2476a76955017b904
 ---
 
 ---
@@ -1457,9 +1699,9 @@ source_job_id: 5549229
 title: Resourcing Officer
 employer: Royal Surrey NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0740
-factual_fingerprint: 47a8ddceab9d716e15215a2e96b59a62903e0bbae1f3961c1abb85f2b950a4a3
+factual_fingerprint: 40602bf87545509ae1cff87a439c5c7f1f4daa53d9db832a694329b54fa17916
 ---
 
 ---
@@ -1469,9 +1711,9 @@ source_job_id: 5549694
 title: Let's Talk Health and Wellbeing Advisor
 employer: Wirral Community Health and Care NHS Foundation Trust
 region: Merseyside - Wirral
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9844-26-0121
-factual_fingerprint: 5a1bc5201127d9d7ce1ed1e0c0dd4466a217743476ad6e8950c04faf766607fc
+factual_fingerprint: 35a60d06ca475d94b929be200f78f2bd9f150a82805160f1cdda2ed606bb52ad
 ---
 
 ---
@@ -1481,9 +1723,9 @@ source_job_id: 5549657
 title: Medical PA
 employer: The Royal Marsden NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0738
-factual_fingerprint: b06c8a15355535e0909ff20c5326e7efba380f48b174441d71b6c25bf8a0cbb0
+factual_fingerprint: 526389028231f436212cb84062aee223a19879897de104a43801bb95d2079325
 ---
 
 ---
@@ -1493,9 +1735,9 @@ source_job_id: 5549614
 title: Outpatient Clinic Coordinator - VR Service
 employer: Moorfields Eye Hospital NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9273-26-0205
-factual_fingerprint: abc9b8e4fe3120428c01b0b68c527b47f44cb2e0aaeba03b6b50f5453b815521
+factual_fingerprint: f84cc1c558a6b33134fcbf3eeb0627e0f348824c421424f76504408783a44cb4
 ---
 
 ---
@@ -1505,9 +1747,9 @@ source_job_id: 5547841
 title: Medical Secretary
 employer: Countess of Chester Hospital NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0387
-factual_fingerprint: cb4361b8b26b9e46e71f651fe68b0b9c89a40a5c4b0ad7ed7b4897179e15bbb7
+factual_fingerprint: fdf4c9c5ef24294dc7f8d2db3392fa84244ededd3c2a7b8d87d4564675781283
 ---
 
 ---
@@ -1517,9 +1759,9 @@ source_job_id: 5549539
 title: Pharmacy Counter Assistant - Bank
 employer: QE Facilities
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9297-26-0074
-factual_fingerprint: b8cc6f876a8442dc521a2b74b657aa366e3680b1c4eb0704319c2811d8856e24
+factual_fingerprint: c795b064b69f09e83db2c73ff90d44c628f73efbb0674079a36e06205bf98085
 ---
 
 ---
@@ -1529,9 +1771,9 @@ source_job_id: 5535749
 title: CHC Assistant
 employer: NHS Greater Manchester Integrated Care
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0033
-factual_fingerprint: 7428b5d3561e4859519552a66f918149dc3423f83c6f36605e6b05b161abd4e7
+factual_fingerprint: 2c53a153ea989976307a556884031a8ccb3179649ae02918465d71520f4e9f1d
 ---
 
 ---
@@ -1541,9 +1783,9 @@ source_job_id: 5549509
 title: Patient Co-ordinator, Band 3 - Gynaecology Oncology
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0748
-factual_fingerprint: 7604390dca167dcd38c6202d937ccc2b4a3b5c89a4db9d45d4dac35aafd0b7e5
+factual_fingerprint: c99b39562c2204cbda8c98b6537a4946a9cd46f44f13ffea6729f22d5587d6b5
 ---
 
 ---
@@ -1553,9 +1795,9 @@ source_job_id: 5548567
 title: Clinical Coding Team Leader
 employer: Sandwell and West Birmingham NHS Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9381-26-0329
-factual_fingerprint: ff842961e83c8cb483d1fa667e79eff88a1709c112f8530f4fb0c279c05d662e
+factual_fingerprint: 738bce0529cec039579545a46bc6352593d3dde1fa33d7561930d6c4a3058e69
 ---
 
 ---
@@ -1565,9 +1807,9 @@ source_job_id: 5534656
 title: Cancer Services TWR Booking Assistant
 employer: Epsom and St Helier University Hospitals NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9343-26-0678
-factual_fingerprint: 5edf55522c5f4745847eb7d3dc6e8f3ddfd199bec749b3311bcf459cfcb8778b
+factual_fingerprint: 2d02672d7b19088d191dee3efdc8fd6b227d8b1268d3a91407538c3ed739ea3f
 ---
 
 ---
@@ -1577,9 +1819,9 @@ source_job_id: 5549372
 title: Cancer MDT and Data Co-ordinator
 employer: Epsom and St Helier University Hospitals NHS Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9343-26-0690
-factual_fingerprint: 77b88ec312c7e36ab6efdc08e303259897ceffa199ceb4c77a8d9c1bc31d468e
+factual_fingerprint: af1fe75e9503cdc555f45e43b83084b69d03caf34567d1386b2750cc5fcd29ad
 ---
 
 ---
@@ -1589,9 +1831,9 @@ source_job_id: 5540648
 title: Improvement Coach
 employer: Central and North West London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1077
-factual_fingerprint: b5816b1441dc178c3e7185fe9a2c8596cf5be99f4f09ca29dc1e8d09529e1bbc
+factual_fingerprint: 9acaefdd772263f02ef88db411048caa8835c005a786ca9ac64d99bc2dd8994b
 ---
 
 ---
@@ -1601,9 +1843,9 @@ source_job_id: 5538559
 title: Research Assistant
 employer: Central and North West London NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1075
-factual_fingerprint: 402a9121c0db8926a27526f445f2db5cc9a7cfb45c2b4e3df4147c3aa4c93e79
+factual_fingerprint: c81660c1652393e1bca7f995df64bd769e3531d4c98131443fd68be54fd708fa
 ---
 
 ---
@@ -1613,9 +1855,9 @@ source_job_id: 5547836
 title: Digital and Cyber Assurance Partner
 employer: NHS Dorset
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9467-26-0007
-factual_fingerprint: 7a651a46861835ee170c9073ff9b83652d2be6ce5cb1d277ad21292b7f4b38fb
+factual_fingerprint: fbb51cebab6ba1c182fcfdfbdda3c030ac710e3e5b29dff2fdf18d0ab1f253cb
 ---
 
 ---
@@ -1625,9 +1867,9 @@ source_job_id: 5548291
 title: Pathology Subject Matter Expert
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0620
-factual_fingerprint: 7d3f3716512d3e331802c36e0e5da1a0deedcd0ce9ce6d07645fc00e7e364f4f
+factual_fingerprint: 07f1de5b29871aa333e5a65d0b1e2c76404235f4068917213be1293f52dad451
 ---
 
 ---
@@ -1637,9 +1879,9 @@ source_job_id: 5548948
 title: Media and Campaigns Assistant - 36 hours
 employer: British Pregnancy Advisory Service (BPAS)
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-HO-MCA-36-1
-factual_fingerprint: 7242c33a5081b643ac297f5edd211100b44f9da86e262bdf5b2152c1690bf678
+factual_fingerprint: af43dbc1e0c728585a863d0c9f663d618bd374e9afd4fb29ffe1b2cb24ae52d0
 ---
 
 ---
@@ -1649,9 +1891,9 @@ source_job_id: 5549375
 title: Customer Experience and Quality Lead
 employer: Royal Surrey NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0741
-factual_fingerprint: af381165c2ee1b283020ad65cb2798705d42a29d93079a616bb5ba0947bf6c7b
+factual_fingerprint: f17e3ccf71e28221076e387e12085c8824f14742989b1f0705cb26fe7f3c6609
 ---
 
 ---
@@ -1661,9 +1903,9 @@ source_job_id: 5549018
 title: Butterfly Volunteer Coordinator
 employer: Cambridgeshire and Peterborough NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0523
-factual_fingerprint: 4adf4cc6d9479e7e085a49632e4e9994cd918a23110f8bc7361dbddcfbcdd566
+factual_fingerprint: b93f8a4110ccc2bad466c4e9ff87f815bd55efe5313b629bd2e3d8d474bd9234
 ---
 
 ---
@@ -1673,9 +1915,9 @@ source_job_id: 5549191
 title: Clinic Delivery Coordinator
 employer: St George's University Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0779
-factual_fingerprint: 2a055747af3ce04871cf755eca8a3ea71688c1026fa98ed5bd39b417235be4bf
+factual_fingerprint: f8c8acffadcaf1464b410c2e07e2a4fd531c8124907c03d7e08c40000d5e31f4
 ---
 
 ---
@@ -1685,9 +1927,9 @@ source_job_id: 5548162
 title: Emergency Preparedness, Resilience and Response (EPRR) Officer
 employer: East and North Hertfordshire Teaching NHS Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0492
-factual_fingerprint: 73e18a2e6a5fa9cb19c6ef6de5106ff47281e825dd9a013a8d8dea5dcc5e1b61
+factual_fingerprint: 976e3229c6f63d7d11f7ac3828c201fcfb66931760daa3c0f991015ee9dc0556
 ---
 
 ---
@@ -1697,9 +1939,21 @@ source_job_id: 5549221
 title: People Officer
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0979
-factual_fingerprint: 0a80ea6e902828dabdef063635ce65cc875198480ab599398eca59dc6f6956e8
+factual_fingerprint: 39a8a7af2d6c00dc0edee9b50c825a40e1e56bb5447cbe668ab0f1fafd8a3e46
+---
+
+---
+action:
+POSS | NHS Jobs | Wales South - Gwent | Cwmbran, NP44 7HF | £28819.00 to £31626.00 | Support Officer, Operational Delivery Unit (ODU)
+source_job_id: 5549193
+title: Support Officer, Operational Delivery Unit (ODU)
+employer: Welsh Ambulance NHS Trust
+region: Wales South - Gwent
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9020-26-0142
+factual_fingerprint: 336910d622b65d153e709146733a35ef5a5d5a0ff0c58651124ef433841b8193
 ---
 
 ---
@@ -1709,9 +1963,9 @@ source_job_id: 5548835
 title: MDT Coordinator
 employer: City Health Care Partnership CIC
 region: Yorkshire - East
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0268
-factual_fingerprint: a00cab62f9e56b1147019e3d7b00ec7f33e7b02fd5c215a381644a4a52b886f7
+factual_fingerprint: 601618e343f1e72283479b594ef726a7f712dd6cf38a6fe3b6dd539898cc3b12
 ---
 
 ---
@@ -1721,9 +1975,9 @@ source_job_id: 5549062
 title: Medical Secretary
 employer: Black Country Healthcare NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0516
-factual_fingerprint: 2f583afadda7b940781b07ebb0b951d3325c78d1d481c4e934397c9314bbb75d
+factual_fingerprint: 5a2c3e5ca181bb022c41738c04a060524ef867cadbd5368ad2daa40a696f02d4
 ---
 
 ---
@@ -1733,9 +1987,9 @@ source_job_id: 5548599
 title: Lead Software Developer
 employer: NHS Dorset
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9467-26-0008
-factual_fingerprint: 9cd994f6d0e341a8b02c0f553484a1374fe4643fb672195c913f0ea7f4644415
+factual_fingerprint: 666557b7adb252ffe495bccd3dff6ebef5f3260e6e0ca9d8b795c04200da688c
 ---
 
 ---
@@ -1745,9 +1999,9 @@ source_job_id: 5545042
 title: Database Programmer
 employer: Cambridge University Hospital NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1058
-factual_fingerprint: 238b321568e42993531b2a4df208c1bdb8f906af2672bacc0de199785236e535
+factual_fingerprint: e4eb79b970f0af8f45f3a11f18bbb58654e186a74bbb07264d61660af4fd7260
 ---
 
 ---
@@ -1757,9 +2011,9 @@ source_job_id: 5549005
 title: Bank Driver
 employer: Practice Plus Group
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2773
-factual_fingerprint: 8cdc72d9561cf8e907b3ac4d2eceb687905f0dc1892768f860a0c26c4ba3649d
+factual_fingerprint: 400406f283ca4bbcde5b05257ddac4c4b6c7c4e643de8c432b7bb3c6a192edcb
 ---
 
 ---
@@ -1769,9 +2023,9 @@ source_job_id: 5547131
 title: Patient Records and Digitisation Services Co-ordinator
 employer: Birmingham Women's and Children's NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0378
-factual_fingerprint: c407a4f53417dfa1521661af7caa4e2835d445890f7a5bd9e8b3fa2fc70413fe
+factual_fingerprint: ec2b9a23f8a0d3509f973f08e1b24edee8ae2ea1281c989f3754831b6f47d3a3
 ---
 
 ---
@@ -1781,9 +2035,9 @@ source_job_id: 5548902
 title: Senior Information Analyst
 employer: The Mid Yorkshire Teaching NHS Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9377-26-0386
-factual_fingerprint: 65e477fd9571f739ef4ee94f5097c9ea157babc6ed0cf414a681217882d6696e
+factual_fingerprint: 4cba7d5afd48c5479ac7139ecb07c66b98a609d4557b187bef72632ca5e59a32
 ---
 
 ---
@@ -1793,9 +2047,9 @@ source_job_id: 5548856
 title: Patient Co-ordinator
 employer: Mendip Vale Medical Group
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0043
-factual_fingerprint: caacb677af40969c46d0e61d38dd1ec4de39bbb62960ac2946dc01d0726eb0f0
+factual_fingerprint: 44eb2fa7ba1e50038eab632f85b45df8a357815c2d48ed62389b2c8564274cd9
 ---
 
 ---
@@ -1805,9 +2059,9 @@ source_job_id: 5548849
 title: Chemotherapy Booking Coordinator (Haematology & Oncology)
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0425
-factual_fingerprint: a3cd7663cb809865f9e8475be9261310190f0c1537382cdbd71ced7c4c212d7d
+factual_fingerprint: 8549a98df69b73845860dc17024ae3f28688b49b4be1c62ed05a12cea1e9bc6b
 ---
 
 ---
@@ -1817,9 +2071,21 @@ source_job_id: 5547521
 title: Pathway Support Medical Secretary
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0800
-factual_fingerprint: efeb941117a4994f2ec49c54e471802d7c5ed56471de629570fe261232b1421b
+factual_fingerprint: 5d3bc8b983694ec632b29eb21ef6b30b48f3f2e1865cf786119589f6a0f004ab
+---
+
+---
+action:
+POSS | NHS Jobs | Leicestershire | Leicester, LE5 4QF | £32073.00 to £39043.00 | Primary Application & Change Support Officer
+source_job_id: 5548841
+title: Primary Application & Change Support Officer
+employer: Leicestershire Partnership NHS Trust
+region: Leicestershire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0367
+factual_fingerprint: 34a2d119227ee5bb147e4763634dd0f4f0450c4389edac0422556a9ab8c7cf17
 ---
 
 ---
@@ -1829,9 +2095,9 @@ source_job_id: 5548759
 title: Procurement Advisor
 employer: NHS Resolution
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9912-26-0031
-factual_fingerprint: 31dd1040a1f69c83d365b12cb1598dbba8b5360801009e465a28b011d0d5b0db
+factual_fingerprint: 0eafd8a173ab1bfe1a69f207875ab5957d85324e5a35681b7a8041c85cb38241
 ---
 
 ---
@@ -1841,9 +2107,9 @@ source_job_id: 5548310
 title: Prescribing Co-Ordinator
 employer: Barnstaple Alliance Primary Care Network
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3178-26-0006
-factual_fingerprint: 7cb8d25a35862eaa7871025d66737a16965b60e07f73e45f886be765048a7756
+factual_fingerprint: 8a97eed04bdaf7353d912d4dc8e21b6398094ea198517f5712a113ac0e7b8452
 ---
 
 ---
@@ -1853,9 +2119,9 @@ source_job_id: 5548700
 title: Group Capital Accountant
 employer: St George's University Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0778
-factual_fingerprint: 1ae2dd682d2b94814e0ef977fc042200eb2008c3248e1c1b312c6214e1f80e48
+factual_fingerprint: e554b97263eeeda2d10e01d6a51acba523dbdd0985a260403ebcadb49628fb81
 ---
 
 ---
@@ -1865,9 +2131,9 @@ source_job_id: 5548593
 title: Senior Data Analyst
 employer: Imperial College Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-0936
-factual_fingerprint: 416f67f95539754c965750520f7348dab845e102d2c997fbd06ced8a5ef87af7
+factual_fingerprint: 5fde24115f3753ba8b6d5955555aa73d1df97920eb201532f6a458365e642e57
 ---
 
 ---
@@ -1877,9 +2143,9 @@ source_job_id: 5547103
 title: Charity Assistant - Volunteering Team
 employer: Bedfordshire Hospitals NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0862
-factual_fingerprint: 73c923f460ac518f557a662fd076050d62235f2180ec5e65d827d14050b5418e
+factual_fingerprint: 5c83684a31c0f1a7a217617be3c1a81cf2b76b9fd1ad6277fd9a83f62b2fd385
 ---
 
 ---
@@ -1889,9 +2155,9 @@ source_job_id: 5548585
 title: Designer
 employer: Kent Community Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0512
-factual_fingerprint: c9e5fbd37c0a1870b74efa59910a49de00937525dd842ebe5ed32f0c2c7bd19c
+factual_fingerprint: 64bd663dce6d4c3f234dae82648dada6ee09211ccd546449c940dd3efe5deaa6
 ---
 
 ---
@@ -1901,9 +2167,9 @@ source_job_id: 5541973
 title: Sustainability and Engagement Officer
 employer: Sussex Community NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0494
-factual_fingerprint: b21793b688e0df24c741ae1db28c21c97a805e656f79b3ac0f4b4d9fdc68ff95
+factual_fingerprint: 71984295f270268460429bd0745a96f5287ff7ce1ffd4deb5347b14920ac205d
 ---
 
 ---
@@ -1913,9 +2179,9 @@ source_job_id: 5548559
 title: Dynamic Support Keyworker
 employer: Humber Teaching NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0415
-factual_fingerprint: 0850a2ecf63ab4699f44cc32925eb83b8ce2b3ba40639cea024ca7cd9ff10760
+factual_fingerprint: a8a9b95dd9ac6d042696e13c67ece70f647431f99e154fa11849e042ef818725
 ---
 
 ---
@@ -1925,9 +2191,9 @@ source_job_id: 5539366
 title: Care Navigator
 employer: The Old School Surgery
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0380-26-0012
-factual_fingerprint: efe1733b7bab4b764cac43d5d92d3e89a0b7d56e4e50f6b3f0f0d43934df9f21
+factual_fingerprint: 31097570915414209af188363f99f9ddc53754ff869dcaa0402bae9449e12e0f
 ---
 
 ---
@@ -1937,9 +2203,9 @@ source_job_id: 5547479
 title: Medical Secretary 12-month cover
 employer: Jubilee Street Practice
 region: London
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3743-26-0004
-factual_fingerprint: 55bf7faef4d1ff5e524e1b9ad61c3b45b8b18fec5f19fedc4cdbdd1d5ff94f6b
+factual_fingerprint: 5a83e19b14539927089c0fd8e4129677d7e7cc6beaebd874e1313ce11e67f008
 ---
 
 ---
@@ -1949,9 +2215,9 @@ source_job_id: 5541431
 title: Senior Care Navigator
 employer: Tower Hamlets GP Care Group
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0136-26-0021
-factual_fingerprint: 5e0d3cb4eeee85136a9c76f24edb72a38cbd5d52ff5dbd4f0f36f5dbd531d765
+factual_fingerprint: 1acb3f4fb46e24b2cee6fa34670ed92e31130f88ef2d22409310567b6698f4ef
 ---
 
 ---
@@ -1961,9 +2227,9 @@ source_job_id: 5547857
 title: Transport Administration/Clinical Support Worker
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0637
-factual_fingerprint: 74c1736b601cc68e2979435361054e4c5d966a67285dc652b4144cd964bc759b
+factual_fingerprint: 419c491e0362184fb27bf0e278af1fa0d4a5b881db05246ad456618d87649eaa
 ---
 
 ---
@@ -1973,9 +2239,9 @@ source_job_id: 5548373
 title: Discharge Officer
 employer: Milton Keynes University Hospital NHS Foundation Trust
 region: Buckinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0473
-factual_fingerprint: 81472db853f15618c4c8b2832ea60f182c43c836dc2f4ff3513ed0f0f7be43b1
+factual_fingerprint: d8c9f58afd20720248d05d7085f64ad1e5f045c7900b9c6be539bdb2ae39799e
 ---
 
 ---
@@ -1985,9 +2251,9 @@ source_job_id: 5548400
 title: Endoscopy Prep and Reception Clerk
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1898
-factual_fingerprint: 74fdc563f6ca37d5bb3c667097d79b6664f71b25d9bea925842e696397ed5e97
+factual_fingerprint: a731579f5d0633c56a60e727742c3270cf34535a2e839f552e5c4b5d79636dcb
 ---
 
 ---
@@ -1997,9 +2263,9 @@ source_job_id: 5548407
 title: Communications and Engagement Officer
 employer: The Shrewsbury and Telford Hospital NHS Trust
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0849
-factual_fingerprint: e1677af602486aef8db3e85b5a9e2d8fe82f01e690cb511eb2372ad01a9ce1b4
+factual_fingerprint: 88b03816a87f8695db71ca8c4ba9857018fc1f785abc383b95eae6380b5745e9
 ---
 
 ---
@@ -2009,9 +2275,9 @@ source_job_id: 5548307
 title: Patient Services Coordinator
 employer: Railway Medical Group
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0792-26-0008
-factual_fingerprint: 4550e5285898e2c8444fe5bb21261cf416c53bceb03fcf2a22965fd3ffe7ed8b
+factual_fingerprint: dc4968355cbf37e94bc9a44b4934ef6d1238665dd623c82d242d005179097a69
 ---
 
 ---
@@ -2021,9 +2287,9 @@ source_job_id: 5547653
 title: Patient Services Assistant - Birmingham Division
 employer: Modality Partnership
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0281-26-0145
-factual_fingerprint: 543a0a1dc084d5cbc735b1bb61ac046e5c9e5e2fcde15b41ebc93f80d4b365b9
+factual_fingerprint: 258ac63251a2cba142d2a174716117d540cb8b4be29ff4379760d5b574e462cb
 ---
 
 ---
@@ -2033,9 +2299,9 @@ source_job_id: 5543946
 title: Digital Trainer
 employer: East Lancashire Hospitals NHS Trust
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0466
-factual_fingerprint: c6b71650cac9ada2d965fe0a4248c0512895fcd291572621d163c1e8d2688f1f
+factual_fingerprint: 23f92d7431fef2dcd954ff18461afe71397166ab604c95cb1ddd4addf160c5c5
 ---
 
 ---
@@ -2045,9 +2311,9 @@ source_job_id: 5548152
 title: GP Practice Prescribing Clerk
 employer: Eden Park Surgery
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4852-26-0001
-factual_fingerprint: 7949b6ed6c46143a3c0f16cf765c355e971a34665cf1a7e3cede6f97dcaece66
+factual_fingerprint: 5f14d2a268bcb5784ac839904e75fc82aa08b2b919fa71fd074c7ee4daa099a4
 ---
 
 ---
@@ -2057,9 +2323,9 @@ source_job_id: 5548071
 title: Workforce Lead
 employer: Great North Medical Group
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3403-26-0005
-factual_fingerprint: c41ef3b7d58705ad7d008948223f6a378979a2e32825753bf410c3798836bab6
+factual_fingerprint: d0cb56530a85b372f6f5baf941566787fe31980d213a4d874b026f360fe15add
 ---
 
 ---
@@ -2069,9 +2335,9 @@ source_job_id: 5548133
 title: Unscheduled Care Rota Co-ordinator
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-1003
-factual_fingerprint: 0e4438756d43ebff759b8d18f50074f093fc8fe4be4442408ec5988d1d166336
+factual_fingerprint: e320d75324ce298164b57b836d70ec421a3dea98b1458e46fac0ebb47af956f6
 ---
 
 ---
@@ -2081,9 +2347,9 @@ source_job_id: 5548101
 title: Medical Secretary - Surgical Division (Band 3)
 employer: Airedale NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9423-26-0205
-factual_fingerprint: 8fb77ce5cd5115b0c5693e641c7a7781a0f3fb58cee650e373b438c0b6a5f67a
+factual_fingerprint: d6039f19c039b0ae4a87cb79c0607329e437f1df891eb7a12f1f9bb54067be28
 ---
 
 ---
@@ -2093,9 +2359,9 @@ source_job_id: 5548023
 title: Medical Secretary
 employer: Betsi Cadwaladr University Health Board
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1889
-factual_fingerprint: 0d8eda38709aa65d6dc16970395bd0e29217119281c006d70fa60936fc4738ab
+factual_fingerprint: 71e6615712660b163934701fcd69e32ec7d921f04256dbae5404aec6897ac320
 ---
 
 ---
@@ -2105,9 +2371,9 @@ source_job_id: 5547895
 title: Deputy Information Business Partner
 employer: Central London Community Health Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-0734
-factual_fingerprint: 495c8d92729a03e6f45e20da21f739dcb46698de37d21f66708501023577b923
+factual_fingerprint: 588adc92eb8ec4922f15707e92d886fc08ab07669f081ed24a0f412a93bd9f8d
 ---
 
 ---
@@ -2117,9 +2383,9 @@ source_job_id: 5547871
 title: Maternal Medicine Administrative Officer
 employer: Frimley Health NHS Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1055
-factual_fingerprint: 8beb3afe01da1e6e4b9363e6aee57ba14ebf68f6be147fbd5501c82603ae5125
+factual_fingerprint: 73fcbff385279e28c5fb9ef60c1a092bae8ab116af0fd105733d04a3fcbead3f
 ---
 
 ---
@@ -2129,9 +2395,33 @@ source_job_id: 5547676
 title: Band 4 Bank - Barber
 employer: West London NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9222-26-0625
-factual_fingerprint: 5c87e5991534581506197f6df58d9459fc66988017a9d54e99735b1e78a2c6e4
+factual_fingerprint: 79d3531d0f438dc4ea2f758149c11fdc68e7b039e1113909e954a92dc3dd00de
+---
+
+---
+action:
+POSS | NHS Jobs | Cumbria - North | Carlisle, CA6 4SJ | £32073.00 to £39043.00 | E-Roster/eCommunity Project Support Officer *Internal*
+source_job_id: 5547877
+title: E-Roster/eCommunity Project Support Officer *Internal*
+employer: North Cumbria Integrated Care NHS Foundation Trust
+region: Cumbria - North
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1324
+factual_fingerprint: 55a9bc7393d61769524e2f7d67c4585c6e4afbb081c086f21edce62852690dc6
+---
+
+---
+action:
+POSS | NHS Jobs | Shropshire | Whitchurch, BS14 0BB | £31116.00 to £37880.00 | Project Support Officer
+source_job_id: 5547433
+title: Project Support Officer
+employer: One Care (BNSSG) C.I.C.
+region: Shropshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0229-26-0006
+factual_fingerprint: 791dc7ff6bf01f0b685c688d8b313645091f89f521bc65e5cc8c6fa9be04ce5f
 ---
 
 ---
@@ -2141,9 +2431,9 @@ source_job_id: 5547854
 title: Lead Analyst
 employer: Guy's and St Thomas' NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-26-0982
-factual_fingerprint: 7362a6cb35f781829d22f705cce8751e9763f437c0eb1f8969dba9ac13095359
+factual_fingerprint: f6c5d1cfff2eb763c6fd2b3dce8006364f3708fdf79a02b2d88892365d820406
 ---
 
 ---
@@ -2153,9 +2443,9 @@ source_job_id: 5547681
 title: Medical Education Co-ordinator
 employer: Livewell Southwest
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1982-2
-factual_fingerprint: 9260e30f783d144d975b498e797a86dd7f789161b8de1fbc955790abc9dadd91
+factual_fingerprint: 68dcf4a72ec20f693aff6ab7374902a700c70f82a5637e6f59c25889a0d2ad1d
 ---
 
 ---
@@ -2165,9 +2455,9 @@ source_job_id: 5547312
 title: A&E Administration Team Leader
 employer: Tameside and Glossop Integrated Care NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0339
-factual_fingerprint: e566df9e38dfbf125554d5116ceb5c3a709c0855aa597c25a724a5a696d3ea3d
+factual_fingerprint: 9aea3b1ea8423dfc9e4599e14ec6c9e9e969f4f5564c9644ee65c48a0f4148f5
 ---
 
 ---
@@ -2177,9 +2467,9 @@ source_job_id: 5542590
 title: Health Records Supervisor
 employer: Stockport NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0612
-factual_fingerprint: 660bf84f1f56032a631fb19928429ff2996262ed1f58b7d67cb61e6d31ef991a
+factual_fingerprint: f2a6a23236cd6903bf38ba99129e412bfc7113b7fb80e220b5cf93f2f9fc04b5
 ---
 
 ---
@@ -2189,9 +2479,9 @@ source_job_id: 5547599
 title: Outpatient booking co-ordinator
 employer: Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9224-26-0308
-factual_fingerprint: 8b42f88391dfdf75edb27a09d5f4135c3a231d2ba8b263e5c1512f302c2a83fa
+factual_fingerprint: f4399b90d9619b0168d42288dd1382408495377d5680bb54b90676bad663580f
 ---
 
 ---
@@ -2201,9 +2491,9 @@ source_job_id: 5547535
 title: Rota Coordinator for Critical Care & Anaesthetics
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0619
-factual_fingerprint: 59b3352af31f96b6229cd19cc0e03d06fd0ab42d2b169570ce90832d15dcab7a
+factual_fingerprint: b1105ea87fa240a048c96468d11bbe6de7cc2e21b6ee3fc64cbf53f5657630bf
 ---
 
 ---
@@ -2213,9 +2503,9 @@ source_job_id: 5545009
 title: Quality & Governance Lead
 employer: Skylight Psychiatry
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0504-26-0003
-factual_fingerprint: 847ef0a9eda61c316d6d6ef479ca957c956c039f21a0be3bd3518b478c281a1f
+factual_fingerprint: 600c3dbd53c6e5a6e24a1cfd436aaac538481eaa1eb1af1c063866c07a42f924
 ---
 
 ---
@@ -2225,9 +2515,9 @@ source_job_id: 5547674
 title: Outpatient Clinic Coordinator
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - West
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1322
-factual_fingerprint: 02764981610a671cf5d39202a6c9dc8e96c58af531e2e67d8d3879c1b73f98f7
+factual_fingerprint: c3260467c1e12d4900e546da421a1184abc4bd22e76fdd8753860c366f1d8479
 ---
 
 ---
@@ -2237,9 +2527,33 @@ source_job_id: 5545417
 title: Urgent Care Team Leader
 employer: LCW UCC
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0441-26-0037
-factual_fingerprint: fe04614057d8ddaec53274169cbbae5dccf14219847cbd66f1c0949610ccfa0a
+factual_fingerprint: 0c3a23092aba715c401939db325e52059b516f21003af6821500576fb8cc0fbc
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £25760.00 to £27476.00 | Clinician Support Officer - Family Health Care Group Band 3
+source_job_id: 5547633
+title: Clinician Support Officer - Family Health Care Group Band 3
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0312
+factual_fingerprint: 9aff3f8ef4694560901aaa7dd3492bd1dd25d50500a1293a8e71e0b4d3b8e4c5
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Boston, PE21 9QS | £25760.00 to £27476.00 | Clinician Support Officer - Band 3
+source_job_id: 5547654
+title: Clinician Support Officer - Band 3
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0314
+factual_fingerprint: 90865d790b64fb4b9b23517b845dc496e8abb52cd82d507cd2377a4fc94c1ac2
 ---
 
 ---
@@ -2249,9 +2563,9 @@ source_job_id: 5547554
 title: Cancer Pathway Tracker
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1722
-factual_fingerprint: 399c7dedfcf849a1748aa39f11bee2da5e52386363c25793ba04770e16bcac64
+factual_fingerprint: 1f709049fb96bcead2d121549a2c582a7c9b145e7dc25d1a11d8f70b40f3ca17
 ---
 
 ---
@@ -2261,9 +2575,33 @@ source_job_id: 5547582
 title: Senior Information Analyst
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0968
-factual_fingerprint: da91ffec02d28c62b021a9b7bdbee5260f34620ae219c286970ef6217a53df9a
+factual_fingerprint: a99186a7576a9903847f4a29ed2f9df1676bbd22f4e58f951a5c3b8f48ea54d7
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Boston, PE21 9QS | £25760.00 to £27476.00 | Clinical Support Officer - Band 3
+source_job_id: 5547635
+title: Clinical Support Officer - Band 3
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0313
+factual_fingerprint: e183978693934a08779873431c6e93e209f330e58261cbab860cee5d96b26fd3
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £25760.00 to £27476.00 | Clinician Support Officer - Band 3
+source_job_id: 5547628
+title: Clinician Support Officer - Band 3
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0311
+factual_fingerprint: 98e9934d36dda412526fcd5609b4c55db41a77c16971de276f3e45d8544b0fa7
 ---
 
 ---
@@ -2273,9 +2611,9 @@ source_job_id: 5547423
 title: GP Assistant
 employer: Park Medical Practice
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1100-26-0003
-factual_fingerprint: d95165633c4ef1ac513436480ba17ea421d5de0321cefbf129e5ea4cc514f3eb
+factual_fingerprint: 9177ff377a5f0e444e070498adf3cee38c5f807f22f2468623ecf917aed98a3d
 ---
 
 ---
@@ -2285,9 +2623,9 @@ source_job_id: 5543485
 title: Specialty Coordinator
 employer: Hampshire Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0613
-factual_fingerprint: 036c375ee58db81b988127a63aeb0e7bcd51a7df8e9a75dd101bf5fbdc464b07
+factual_fingerprint: 35dfe7f9298632f360f67b924aba58a58cf91dc290cb591580e8c10d5927a98f
 ---
 
 ---
@@ -2297,9 +2635,9 @@ source_job_id: 5545963
 title: Medical Examiner Officer
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0617
-factual_fingerprint: b8de4c6cda17c2f3ee5a0b0f4da1d7021f348fc3f95d12560d3f0ba9329239c4
+factual_fingerprint: e3af639502fccf294b04ebc9c023388b5925b2b6ce844dc5b1ee28143d7182d2
 ---
 
 ---
@@ -2309,9 +2647,9 @@ source_job_id: 5545556
 title: Band 4 ED Flow Co-Ordinator
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1256
-factual_fingerprint: fa3d1621d1a020bd67cb7c4a53248d0b7e9f94bcefc5a4d2158fab437cef1abd
+factual_fingerprint: 54358e8be3f1f5ab2e834eefa3b9d68347e7de2827aee64b67e0f0a94f30e636
 ---
 
 ---
@@ -2321,9 +2659,9 @@ source_job_id: 5547394
 title: Patient Care Advisor
 employer: Lionwood Medical Practice
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5800-26-0006
-factual_fingerprint: 7ea52b45900ac947751faf1da71d5155a7186c9721fedbeb2d5ce23eade92c2a
+factual_fingerprint: 4c40aff49925bf1cd03a9409e1fcb8b438db4bdd95da6114266d5b56470efd14
 ---
 
 ---
@@ -2333,21 +2671,9 @@ source_job_id: 5547380
 title: Patient Care Co-Ordinator - Reception
 employer: Glebe Park Surgery
 region: Lincolnshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1819-26-0005
-factual_fingerprint: 7fb80d347da2b4a5c532a24409a1a76e2b7bcb920a0fb83b4d7b66c0c4360786
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B7 4BN | £26.66 | Bank level 7 Patient Safety Partner
-source_job_id: 5545244
-title: Bank level 7 Patient Safety Partner
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0568
-factual_fingerprint: de0aaa757d83261a63506d5af14ba85bb65d84ccae077a879ee0b2021ab5a343
+factual_fingerprint: 4aff35a02008ef926abc23bd92afc784f31f90de6002587b8e653142fee838ed
 ---
 
 ---
@@ -2357,9 +2683,9 @@ source_job_id: 5547266
 title: Care Navigator
 employer: West Derby Medical Centre
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3228-26-0007
-factual_fingerprint: f8d2af2d74ba55edf2d7b1a9ca6202ba6141028aec8be4322856947be72f9c92
+factual_fingerprint: f54f495ae86490d3302a5a075177d7f67176a56303de9de1d369b81ef9aebd17
 ---
 
 ---
@@ -2369,9 +2695,9 @@ source_job_id: 5547223
 title: Employee Relations Co-ordinator
 employer: Central London Community Health Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-0733
-factual_fingerprint: 70ce64ad110ca1aac453a2551f7c79542672db2f86ae267d4b21c8aeed53be2f
+factual_fingerprint: 12e46e669c89da44703f0be5755fc5316a7e8cc6021ad7604bdc93c4943e40e6
 ---
 
 ---
@@ -2381,9 +2707,9 @@ source_job_id: 5547189
 title: Clinical Governance and Data Officer
 employer: St Peter’s Hospice
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: data officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0163-26-0020
-factual_fingerprint: 163bb59f637ffebd79c04863af74d33117b41ea6222218d76de0cfcb2ed7ae79
+factual_fingerprint: e17b8b47d61633968085bf912fc64553e21681b587ec85dcea731a9108a9154a
 ---
 
 ---
@@ -2393,9 +2719,9 @@ source_job_id: 5547190
 title: OPERATIONAL LEAD
 employer: Charing Practice & Pharmacy
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2922-26-0002
-factual_fingerprint: 21c98a39e41cc59015c646e2c1527929f285734ba9f3bba140cc7b6057ab1273
+factual_fingerprint: d95aa8738eb722ecd854b7ec6b9edabe2069aa7a8976dab4a2ff83fc89d0676a
 ---
 
 ---
@@ -2405,9 +2731,9 @@ source_job_id: 5547074
 title: Workplace Adjustments Advisor
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0710
-factual_fingerprint: d296375a5698aa05f77731da09058fded55082ded619f97f9b4312ca675f1622
+factual_fingerprint: cc55f2fb24f61572dc5312b8e2d6a0e8f33a3fcd824f35522b76116a49e55dcc
 ---
 
 ---
@@ -2417,9 +2743,9 @@ source_job_id: 5545575
 title: Medical Secretarial Assistant
 employer: Velindre University NHS Trust
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8120-26-0078
-factual_fingerprint: fb7c429856e1416856e99295068f08b01d3860b7c95c062ac34b8bff537fed9d
+factual_fingerprint: 085e5565307dc6048a46f33ccd2055af4ba9ee6adffa889613c105e16c8ce517
 ---
 
 ---
@@ -2429,9 +2755,9 @@ source_job_id: 5546806
 title: Gynae Oncology Coordinator
 employer: Bedfordshire Hospitals NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0861
-factual_fingerprint: 242014ab445f377accb17269cd2be4e747300452c05054c546626614be937af3
+factual_fingerprint: f298794f7a7e71c523795dbe74978ece9a68aea91ec1f8f162b13e37f67b59b1
 ---
 
 ---
@@ -2441,9 +2767,9 @@ source_job_id: 5546617
 title: Medical Secretary - Dermatology
 employer: Northern Care Alliance NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-0934
-factual_fingerprint: 06ef4627d4d1f46c0cde6a8c09e7f55c49c403b2650112e6fb32e82ded4b3333
+factual_fingerprint: c485e05af0c3ee39ddfa26f47aa250424b76c28defadafea2d5dc9a784318431
 ---
 
 ---
@@ -2453,9 +2779,9 @@ source_job_id: 5546820
 title: Finance Officer
 employer: Bexley Health Neighbourhood Care CIC
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0027-26-0024
-factual_fingerprint: 72ec9d77ea157def7c7a9f92707d33719afba54b6263b016e32b93a928441c0b
+factual_fingerprint: 4b29d7bb78e2f133917cb3b9afc51475bb56803d680ab2b9149106f8e9e29543
 ---
 
 ---
@@ -2465,9 +2791,9 @@ source_job_id: 5546981
 title: Sustainability Officer
 employer: Leeds and York Partnership NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0390
-factual_fingerprint: 7a6b0ab2bd91213e1aef503306bbff33ad77c0d3b3333aa3be9f4d94971f0409
+factual_fingerprint: aa9e9b7e1c3cf6d9694e320957a73d350c375c018421cc620b2a6783056dd718
 ---
 
 ---
@@ -2477,9 +2803,9 @@ source_job_id: 5546833
 title: Call Handler
 employer: Shropshire Doctors Co-operative Limited ‘Shropdoc’
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0081-26-0909
-factual_fingerprint: 2e10bc5d5b21b37a403eb3dc157a454c264d6f3f0c8a377dbd3c89dc947ee1fc
+factual_fingerprint: 58212a93d3d71f6547cd540f0cf8a0d4cf2fb6e9f408a5afc43bdf86b5033973
 ---
 
 ---
@@ -2489,9 +2815,9 @@ source_job_id: 5546830
 title: Medical Secretary
 employer: Boyatt Wood Surgery
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1095-26-0005
-factual_fingerprint: 61c82742245e1ca8c21ce9026ab2bacc2671047e18ac4bdc1e0c98082432658a
+factual_fingerprint: 01d187c68eb3ea69cbbcd361342efe697069769e154f1b2bd59934669f7505fd
 ---
 
 ---
@@ -2501,9 +2827,9 @@ source_job_id: 5546925
 title: Framework Contracts Co-ordinator (MHLDVGs)
 employer: Cwm Taf Morgannwg University Health Board
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0855
-factual_fingerprint: aa72fb84cfb3c618ee10c24b7eb6cc38d51856a61d5f17e9fe4ad9a1bc3dfe45
+factual_fingerprint: f99168aa913638002e712ff7a220b5810bce16a9a62e92872dd93faa0e6a9c54
 ---
 
 ---
@@ -2513,9 +2839,9 @@ source_job_id: 5544248
 title: Medical Secretary - Specialty Medicine
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1314
-factual_fingerprint: 7034678fd71095d06a115e30a1eee9b277e4a347768527638457defc397e7466
+factual_fingerprint: 45ddb8d64ffaae4383320830f418077b967bba2e0d6bfa5a8d3d7c2cc4539956
 ---
 
 ---
@@ -2525,9 +2851,9 @@ source_job_id: 5546835
 title: Finance Assistant
 employer: NHS England
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: finance assistant
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0577
-factual_fingerprint: 7fa057aabdbc170fee495b5dc0cba92109e399afca012916b4d84fa8739d6315
+factual_fingerprint: ab524d9e21cf1e150d41151f95683fb55e9844b10c1f424c531d39d366546e4e
 ---
 
 ---
@@ -2537,9 +2863,9 @@ source_job_id: 5546740
 title: Remote ACC Clinical Coder (Band 5 +10% R&R)
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1031
-factual_fingerprint: 7bc9de8b40d25c0413c0ff0e8b5ff8e3a6f53ee0c98d372901f541f8cd274aff
+factual_fingerprint: 69dc620c2ce9a51a549b0b532d95f59c9bd90b22e9a6e1a26e11d5d624a44839
 ---
 
 ---
@@ -2549,9 +2875,9 @@ source_job_id: 5546770
 title: Team Administration Officer (AHPEC)
 employer: Norfolk & Suffolk Foundation NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0935
-factual_fingerprint: 774528c3976bfd3e668c810fce74260e6f66c569a4baf8b47f36e2d2ac692b28
+factual_fingerprint: a444ff544e8eb20f16721b2668e859c82e1e0e460032660030fd85894100b457
 ---
 
 ---
@@ -2561,9 +2887,9 @@ source_job_id: 5546750
 title: Band 3 Endoscopy Waiting List Coordinator
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: coordinator, waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1259
-factual_fingerprint: a5cabcc33ef40478384e24f17eb6224d3068cc960294af290192bb98f7433e40
+factual_fingerprint: 244d19f2806303a9a91af058fe0df708d6a52ca10793a48aea2bca9b1599ea1b
 ---
 
 ---
@@ -2573,9 +2899,9 @@ source_job_id: 5546717
 title: Accounting Officer
 employer: St Clare Hospice
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0175-26-0017
-factual_fingerprint: d4f7c86c6a75ea30616a671e6029a015525666b39cd87429c77974ce5654368b
+factual_fingerprint: 94adf07a92d41d37d0921afcb333b77c1b2f9f4833b61fd83febb715661c41c8
 ---
 
 ---
@@ -2585,9 +2911,9 @@ source_job_id: 5540443
 title: Service Desk Analyst
 employer: South West Yorkshire Partnership NHS Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9378-QA01505
-factual_fingerprint: 7de11dd1e60e3783f0959edc53fdd7ab8e80db47ef67b858d7bd43034d89ea2b
+factual_fingerprint: bc84c03225c9ead5fb3761ba370c00896dc9accbe14f4084ce1ab29740bf7c30
 ---
 
 ---
@@ -2597,9 +2923,9 @@ source_job_id: 5546508
 title: Support Medical Secretary
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1721
-factual_fingerprint: ab339a210ea780b553e3ac60287c222b0f924b3a2f7a270aaeebe29558ca705a
+factual_fingerprint: 62fb4881caf00644cb9f44b3d6989b4fbce5c3bb018de83a1e4723a8f1290c8c
 ---
 
 ---
@@ -2609,9 +2935,9 @@ source_job_id: 5546206
 title: Category Assistant
 employer: Countess of Chester Hospital NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0381
-factual_fingerprint: 9b4fe67248118a635a8444dabac52940e5d11504ee0d0ae6402bb67f05191572
+factual_fingerprint: 694dfff788fbf7126a3cf29b86da86a42c0e1eba20b71a96a121e8224b92a660
 ---
 
 ---
@@ -2621,9 +2947,9 @@ source_job_id: 5546144
 title: General Practice Assistant
 employer: Holderness Health
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1637-26-0818
-factual_fingerprint: a191923e4b8c8ecbdb344b149bf6463f2664d70a515da37d7d16fe68182e7981
+factual_fingerprint: 818e464f5e946e73ca3d82dfb0d1adf10b2e76a68fa34c1d62e93fc0f8d2e9ad
 ---
 
 ---
@@ -2633,9 +2959,9 @@ source_job_id: 5546161
 title: G.P Practice Operations Coordinator
 employer: Birtley Medical Group
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0642-26-0017
-factual_fingerprint: 1127776f5f612a4752ddc9ac0349c3aa57819628c68baea31f6d34323f5f416e
+factual_fingerprint: 33244bd2cb6e31d3d6c0c9fc6bfc7a03602481d701a50bbcb42a0153c6946120
 ---
 
 ---
@@ -2645,9 +2971,9 @@ source_job_id: 5546139
 title: Data Quality Clerk
 employer: Birmingham Women's and Children's NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0377
-factual_fingerprint: f36025467a08f467d17d98940ea70cf60c38915c0a332a0b98d25d1800c43ebd
+factual_fingerprint: 03ff623121b5b0f80400099c6b45b314cde47f66bbbd43a811f176d7f88805ba
 ---
 
 ---
@@ -2657,9 +2983,9 @@ source_job_id: 5545312
 title: Patient Pathway Co-ordinator
 employer: The Queen Elizabeth Hospital King's Lynn NHSFT
 region: Norfolk
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, patient pathway
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0289
-factual_fingerprint: e8b5bb9f8fab204c35a99dd960157f7a9f29704972ed6fd9d60c487638a5366d
+factual_fingerprint: 22aaabf76402a11e9fc373390c17e5eeca0e70e46389fe65788de9e32ad0961d
 ---
 
 ---
@@ -2669,9 +2995,9 @@ source_job_id: 5543927
 title: Reception/Admin
 employer: Dr A C Milner
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2187-26-0002
-factual_fingerprint: 444f160eb72e36e9a7a645b2c5d5d56fb6b8661b4108b07aaf7ee50442204c89
+factual_fingerprint: 5f9ac5318c15e5bebc0c43b88743d23c27226ee23c5b66d63d03e363110085da
 ---
 
 ---
@@ -2681,9 +3007,9 @@ source_job_id: 5546358
 title: Senior Research Fellow - 2 years
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0424
-factual_fingerprint: 41949017c627d236c836703bbe9ba7c7da98c8e8b13db2b9766f59dcb65035fe
+factual_fingerprint: 5f3beeb86497e0d561dc6e8f057cb909b135f5afa369749bfa46f2d0847bf897
 ---
 
 ---
@@ -2693,9 +3019,9 @@ source_job_id: 5546347
 title: Cancer MDT Co-ordinator
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1886
-factual_fingerprint: c4cd0c3b0ae949a70194d8d173910eaddb290717924a5c8d0405c07ed2fc6ad3
+factual_fingerprint: 4b01f25573c3e79c8bb276aa6bb53135df03050ec2d242039af11dba74e5af8c
 ---
 
 ---
@@ -2705,9 +3031,9 @@ source_job_id: 5546216
 title: Service Improvement Lead
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0422
-factual_fingerprint: 1d76be10bd122df8a3dcef03ba79e904038401f4578b374769547ceb64de83d3
+factual_fingerprint: d5553fcc2cb1a0ba8fe5bb603a16999732efb2501a5b34536e1f134d0c3e9452
 ---
 
 ---
@@ -2717,9 +3043,9 @@ source_job_id: 5546253
 title: Patient Services Advisor
 employer: One Stop Healthcare
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0222-26-0003
-factual_fingerprint: 1c116bbec7d991ee848e99c57185250062f539a4a8854e164e06c274c9c70f7b
+factual_fingerprint: 12dec3da991afe8cd20e5e63a70b442de7aea54a01c2f5d08168b7f6b14849db
 ---
 
 ---
@@ -2729,9 +3055,9 @@ source_job_id: 5546122
 title: People Coordinator
 employer: James' Place Charity
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0410-26-0009
-factual_fingerprint: 3f7c998ed6089e38661380792137ec667bff0a1c5afb31fa8688ea991b9f72fc
+factual_fingerprint: 021b82240299b2d07fb2c59af6a2bc70013f4bfc1930c0811f965a5db3e8d525
 ---
 
 ---
@@ -2741,9 +3067,9 @@ source_job_id: 5546151
 title: Audiology Coordinator
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-0997
-factual_fingerprint: ecd01d2e82fd2996764c676b40e52be877737ab727e0fe1fdf936168e8db299a
+factual_fingerprint: 57f8406ed3da3cfd0fb4ebba88def1d0fa92e6944399f76b2bb909120b002fcb
 ---
 
 ---
@@ -2753,9 +3079,9 @@ source_job_id: 5545368
 title: Health Courier Services Business Administration Officer
 employer: NHS Wales Shared Services Partnership
 region: North Wales - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0214
-factual_fingerprint: 5bc0c9a008678c2414898dfd0dbfd1aaddf0b8590d3cbdc110000439bb0b2195
+factual_fingerprint: b4a2c539e71c922f3403caf62b6175582a4d48eff4e550ec9d63a20b624085b7
 ---
 
 ---
@@ -2765,9 +3091,9 @@ source_job_id: 5545809
 title: Part time Medical Secretary
 employer: St James’s Medical Practice2
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1336-26-0003
-factual_fingerprint: 3e4faa5c7b85959d6453b5ea85e4109dcd3d9d8749654dec9eeae49301b42069
+factual_fingerprint: d336e4e1fb41723c33ae4ddf11ca72c87bafb7bb59fa898529d556a8fa9f6d16
 ---
 
 ---
@@ -2777,9 +3103,9 @@ source_job_id: 5545090
 title: Temporary Accounts Receivable Officer - 6 months
 employer: Oxford University Hospitals NHS Foundation Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1415
-factual_fingerprint: 8e6746f82c9ea1c1549e639617ffd8a33c1d1ade6bcaa188cc7c411c43bb06ac
+factual_fingerprint: 5e27d348df5557cb34e6f837f4a9f30e318752a20dd860f65c01bd9b0466dcd3
 ---
 
 ---
@@ -2789,9 +3115,9 @@ source_job_id: 5545971
 title: Approvals Specialist
 employer: Health Research Authority
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0116
-factual_fingerprint: 6cbbfe6a53949a5578faa41c1ba873db3faf98aadfba43e8a647af8dfb741362
+factual_fingerprint: 89c44db9e6a381ed99ca130069f7cd20ef0c2dc64fc639a74faae9ad36325d16
 ---
 
 ---
@@ -2801,9 +3127,9 @@ source_job_id: 5544901
 title: Patient Safety Support Secretary
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0794
-factual_fingerprint: 64d2d6d0e71fcb753e4f3ac8e1f1506adf9210118bca4d185c86fd4b8bc605dd
+factual_fingerprint: cb9a19091db022650d57a58e525d3240db47c73610234e718425c51ba549d82f
 ---
 
 ---
@@ -2813,9 +3139,9 @@ source_job_id: 5545479
 title: Analytics and Visualisation Lead
 employer: Northumbria Healthcare NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0752
-factual_fingerprint: 640793bb2711b84e6f5cc47b2b3aa9ce1cba192b17ff673933138248b46b9f17
+factual_fingerprint: 69f209484234bd28f3554ac15942729a425f4af558aff7e408ef549848a01ebf
 ---
 
 ---
@@ -2825,9 +3151,9 @@ source_job_id: 5545965
 title: Urology Medical Secretary, Band 3
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0741
-factual_fingerprint: 15d244b7eea11631f4e7c4f868592b5d9d82481482c09e89974f24cb732a1d6d
+factual_fingerprint: fb6b315de994d8b30ed6df1485926abff216605350b744b15d761f37cb43fe86
 ---
 
 ---
@@ -2837,9 +3163,9 @@ source_job_id: 5544482
 title: Speech and Language Therapy (SaLT) Advanced Practitioner SEND Reform
 employer: NHS Coventry & Warwickshire Integrated Care Board
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9105-0826-010
-factual_fingerprint: 42a875dd3e641ed85b305e85668e8c9c6e327d82ce7cc5223a8bdd15f76f3c7a
+factual_fingerprint: 86f0be34b99004156618131d44dbe98a7de33f0eb36f0ffc029513ab2b777e38
 ---
 
 ---
@@ -2849,9 +3175,9 @@ source_job_id: 5545679
 title: Support Medical Secretary - Pain Management
 employer: The Dudley Group NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0388
-factual_fingerprint: 9f4926cebd598736da7a9445b09bcada8440f629c86a207df42a22adcaf48cf1
+factual_fingerprint: c58625aad76b71f2f6c63a16e7e67b36cd798ed7cf2debdf58b971c3f84f038b
 ---
 
 ---
@@ -2861,9 +3187,9 @@ source_job_id: 5544861
 title: Pathway Support - IBD Admin
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0792
-factual_fingerprint: 76f712ee471e484917cb0549fbf2a49ab226b3c88b74cd975874d0483d4b1e06
+factual_fingerprint: d137d6c48cd89058f6cc8a3f235db1f5d118acc6703c3459098470a25ac50d40
 ---
 
 ---
@@ -2873,9 +3199,9 @@ source_job_id: 5545942
 title: BI & Reporting Analyst
 employer: CHEC
 region: Lancashire - Central
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0123-26-0156
-factual_fingerprint: 09f76c29d71c67355c044434879552530828d7013e372c5c3890342d01098417
+factual_fingerprint: 30ac92df0d8152187552a559d155fdd7e07fe1e207350eac815fed407f335ad3
 ---
 
 ---
@@ -2885,9 +3211,9 @@ source_job_id: 5545891
 title: Generic Supply Chain Assistant
 employer: University Hospitals Plymouth NHS Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9216-26-1357
-factual_fingerprint: ae7e19c1dc644be49979ad2c6f6d567f2b87516bb3b9da236b8f22cbb900f8a9
+factual_fingerprint: 9f462842f68d5663fb03a0f7ac140bc6245490c38bd7b791c095f9cf0280042c
 ---
 
 ---
@@ -2897,9 +3223,9 @@ source_job_id: 5542645
 title: Housekeeper
 employer: Blackpool Teaching Hospitals NHS Foundation Trust
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9382-26-0483
-factual_fingerprint: b01ae2d5dfbe75c893a251cc9b49d9c21502cdfe83b7ceab72062287b02c8533
+factual_fingerprint: a27f77379a79cfdc68c449194ef761035d1e5949e390fada34e7ac760ef7f2da
 ---
 
 ---
@@ -2909,9 +3235,9 @@ source_job_id: 5545689
 title: PA/Medical Secretary
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0634
-factual_fingerprint: 9a537106bd32de9649446b83d0d955c5cec96e427f69daafb50ae6f9d3889f96
+factual_fingerprint: 4c3daef4cb7bad77651e585ee379061033ade442fad498a65cf2d35b689a59f1
 ---
 
 ---
@@ -2921,9 +3247,9 @@ source_job_id: 5545739
 title: Research Data Officer
 employer: Royal Cornwall Hospitals Trust
 region: Cornwall
-reason: BRIDGEABLE: Potential admin/service title: data officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0479
-factual_fingerprint: fb0780b6d856d34b8e1e07ede3450843069ac3746752663236f2758e8c3a9843
+factual_fingerprint: a6de1dabd3cc7b7e7013e866d86cdd3b47c3c64e0657958d57b5db04f28ccda2
 ---
 
 ---
@@ -2933,9 +3259,9 @@ source_job_id: 5544410
 title: Medical Secretary - Trauma and Orthopaedics
 employer: East Suffolk and North Essex NHS Foundation Trust
 region: Suffolk
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0626
-factual_fingerprint: e40b556ac80e3594cc05707ffcc51f8ad9e0a7f44f7054f976465516df8ba549
+factual_fingerprint: df4384e44c2a748012bae664054e9d2f3406b1eb16c50f22abb014a693cb24c1
 ---
 
 ---
@@ -2945,9 +3271,9 @@ source_job_id: 5544326
 title: Medical Secretary - Spinal Surgery
 employer: East Suffolk and North Essex NHS Foundation Trust
 region: Suffolk
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0625
-factual_fingerprint: 7bf57c09dd081ee013f99a9305d7262b0216d69582d95e0aae8b1bdeee4abae5
+factual_fingerprint: ac643eb93c5994ae8c1ecbd046cf07ac6692a95a474dac70a96ade9ece8e24eb
 ---
 
 ---
@@ -2957,9 +3283,9 @@ source_job_id: 5545719
 title: HR Assistant
 employer: The Deepings Practice
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2501-26-0003
-factual_fingerprint: 59c6071ebff92d4c37657c843fa368d60d5ef23a5a4b4784a505be4a4676437f
+factual_fingerprint: a61ce677db26725392c92a45fcde72df6606b92d0920f419db81ff3204c83184
 ---
 
 ---
@@ -2969,9 +3295,9 @@ source_job_id: 5545712
 title: Approvals Specialist
 employer: Health Research Authority
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0115
-factual_fingerprint: 460783d8646d67943a2c180435de804e3c90a0cb3aca74702982d6a244817e72
+factual_fingerprint: 544596cc2a4ff54a89418108d23ce49380831068e147edddf9c6e87579d54efb
 ---
 
 ---
@@ -2981,9 +3307,9 @@ source_job_id: 5545684
 title: Administration Team Leader
 employer: University College London Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0841
-factual_fingerprint: 67647802b8784c2e95244220cdf709bc5f904b72ede2ef27c321fa13e6d8cbfb
+factual_fingerprint: 67a07b8862769bb6c4d2e69eb56d181e286f7097d6dd054fe377ddb4dedd275f
 ---
 
 ---
@@ -2993,9 +3319,9 @@ source_job_id: 5545670
 title: Support Medical Secretary
 employer: Bolton NHS Foundation Trust
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0295
-factual_fingerprint: 6857933206c1a206ab4e7f2bb553e84c5b3dfe3efc23416012435e2b6b5ca9d3
+factual_fingerprint: 6b5e18ebe6a682b600d1cefb18d81129b9b2befa90792c78413586da62a41a3c
 ---
 
 ---
@@ -3005,9 +3331,9 @@ source_job_id: 5545687
 title: Finance Officer
 employer: North East & North Cumbria ICB
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0059
-factual_fingerprint: 386510a6c6b6bfeb243405213b802f3d644e991366c4b11eb19265f6aa10aebb
+factual_fingerprint: e629ed586db813b1b43e6ed0b1959a80f1e5aa25c009b081444210b775d81e6d
 ---
 
 ---
@@ -3017,9 +3343,9 @@ source_job_id: 5545548
 title: Support Secretary
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0633
-factual_fingerprint: 6b1d3072335daa4e8741464087ad0f513dd36d472585932d5b1e9284f7476530
+factual_fingerprint: 796c1b63ac965c07078e32c2b49086c247269967ab9aa07ffdebedcd36343937
 ---
 
 ---
@@ -3029,9 +3355,9 @@ source_job_id: 5545535
 title: Approvals Specialist
 employer: Health Research Authority
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0114
-factual_fingerprint: d04e649565d6566f88b7de23c37ea8d6bb34bdf0e3c72de83e9f4c33cff03198
+factual_fingerprint: 265f6ca539b06e7d9691937813c614214ab83934027f92d4a36d6c821c100b42
 ---
 
 ---
@@ -3041,9 +3367,9 @@ source_job_id: 5545204
 title: Part-Time Medical Secretary
 employer: Washingborough Family Practice
 region: Lincolnshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5827-26-0000
-factual_fingerprint: bd89a04510f05f62bca78483477d409c45de444a4bd839cd7b973e0626768f56
+factual_fingerprint: 8a6a8697911ea34203490eea30331a1f5aa4d90c1e50d0e06016c40266d1d77f
 ---
 
 ---
@@ -3053,9 +3379,9 @@ source_job_id: 5540178
 title: Clinical Trial Co-ordinator
 employer: University College London Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0834
-factual_fingerprint: 8417c01037a164fd81c2c2f1fec3c1e253c7f37eba403561c32053aa80741aa1
+factual_fingerprint: 510f62b6d4ceff09029b272de17a10c1e5739f9f778de7b6acef7b4c72be714e
 ---
 
 ---
@@ -3065,9 +3391,9 @@ source_job_id: 5539334
 title: Planning Team Leader - Medway
 employer: SECamb
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9278-26-0112
-factual_fingerprint: d2e3a29471c7ff952fdff924d13caf01c8e14236d123f3077080cabee885215e
+factual_fingerprint: 9b10ee3e0db1ae935d9f179f1f7345414a3033516ca85f64eaa6d43c0b922b96
 ---
 
 ---
@@ -3077,9 +3403,9 @@ source_job_id: 5545377
 title: Quality Assurance (QA) Lead
 employer: The Adam Practice
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4962-26-0039
-factual_fingerprint: 4003ec6c332fb5170c617332c7c8921451a7b442c970ea4a043f8e60aabe835b
+factual_fingerprint: ac4450babc45094ec9731a8924cda0e9e5ee57444df4194737e91069c9a7bb36
 ---
 
 ---
@@ -3089,9 +3415,9 @@ source_job_id: 5545466
 title: Maternity Commissioner
 employer: Hampshire and Isle of Wight ICB (104)
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0052
-factual_fingerprint: 9782136b183661ffbb8eac6aee6c8ec527be0a9892a2dcca148656dfd20425df
+factual_fingerprint: 62a90b2e3579905ccb1145f0d90dea58a508f90e508d78f88cab0f34054f3d06
 ---
 
 ---
@@ -3101,9 +3427,9 @@ source_job_id: 5545446
 title: Patient Experience Assistant
 employer: The Princess Alexandra Hospital NHS Trust
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9292-26-0332
-factual_fingerprint: c808772401f305b1ad0bdabeded0a7ac456f23c9fa782ceafa15ba7dc99aa96d
+factual_fingerprint: 63eeeee843505b5576da584b3aacb294e0d6ca9e9f7878f2d5ff213685c02218
 ---
 
 ---
@@ -3113,9 +3439,9 @@ source_job_id: 5545362
 title: Recruitment Advisor
 employer: Cheshire and Wirral Partnership NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0536
-factual_fingerprint: a2e992407481deb621a8a02b79265e5ab8767289aae8d7fd16153093680ecf88
+factual_fingerprint: bd3c203606e1d1eb930fe3a428b5ef2a6b194857e24a893a82d29dc5ce3585cd
 ---
 
 ---
@@ -3125,9 +3451,9 @@ source_job_id: 5532119
 title: Summariser and Coder
 employer: Melrose Medical Centre Ltd
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5973-26-0002
-factual_fingerprint: 7535b7ab140fadad0fe4e846960a773ddac590820f6990965e9d7df9284735b9
+factual_fingerprint: 6ee8b2d44ed130a8e3662f736e3ab82040de6b177a2c7c9f72640a8c84f5cc54
 ---
 
 ---
@@ -3137,9 +3463,9 @@ source_job_id: 5545357
 title: Care Co-ordinator
 employer: Whetstone Medical Centre
 region: Merseyside - Wirral
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0043-26-0002
-factual_fingerprint: 5e823045c0cb0b15bec24eb1b35ff1db43a1f2a7e4e095ad567b90ddb60a8a07
+factual_fingerprint: c9ea92ab0088670c444ee96d0d460c3f83506aa147e2c9335462ecb109a8db2d
 ---
 
 ---
@@ -3149,9 +3475,9 @@ source_job_id: 5540470
 title: MyMFT Senior Application Analyst
 employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2420
-factual_fingerprint: 52c033a81b5037e34465beb2888dd354b9cce91b8e0844ee602a947d2df5a89c
+factual_fingerprint: 7671966e21d360a4680df0081b98f440e5a54785bac8515c02825f4d90a8b333
 ---
 
 ---
@@ -3161,9 +3487,9 @@ source_job_id: 5545296
 title: Functional Skills Tutor
 employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2453
-factual_fingerprint: db79dda798b61139e52aca4b1aa855deb6c934dd92f22035a63382389ad2703a
+factual_fingerprint: 45d57e80ed0684da5e0bc96cf61bdf63dda71bd14844f2009c3e836342392de8
 ---
 
 ---
@@ -3173,9 +3499,9 @@ source_job_id: 5545148
 title: Supply Chain Assistant
 employer: Bedfordshire Hospitals NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0853
-factual_fingerprint: adc54662bba48932ef4a912674f2380ba2cd7405a8356e03d21eae0c8f1baf37
+factual_fingerprint: 02c1f147328ce4d7e6f4e92d71deaa486c0a024a4e3050fc113680e61422e64f
 ---
 
 ---
@@ -3185,9 +3511,9 @@ source_job_id: 5545209
 title: Medical Secretary - East Home Treatment Team
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1056
-factual_fingerprint: 758892bd8eaaaebef978b7a1c01f1a3a12b415db8c9fb8a1599f3c093d3a0e85
+factual_fingerprint: 04faf30b688dcd792399ac09ba54e1cd4decad8ccb974e0452dedb1adeac9007
 ---
 
 ---
@@ -3197,9 +3523,9 @@ source_job_id: 5545257
 title: Service and Interaction Design Lead
 employer: Health Research Authority
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0113
-factual_fingerprint: 21d816ca95468275e4d1fa87326abdc0c259626aeba105dfa07474ebc2964284
+factual_fingerprint: f97e4e2030839e7ec56986aef9f39e1183cddfa9fdac5512ce0f4bea8d87d63d
 ---
 
 ---
@@ -3209,9 +3535,9 @@ source_job_id: 5545255
 title: Service and Interaction Design Lead
 employer: Health Research Authority
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0112
-factual_fingerprint: 78e428aec467e61cf22f7cb6e60dda77fce6c8b1c627c4b92432808ed6e77ca6
+factual_fingerprint: 377e8aa8cd3e2301eacae9cfa37cbb71d6398b24bccb0f1b2d3a1b62ee49577d
 ---
 
 ---
@@ -3221,9 +3547,9 @@ source_job_id: 5544666
 title: Medicines Optimisation Lead
 employer: Frimley Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1044
-factual_fingerprint: 1771290dd775d60f1298a3cfc8fc5f2003a1914483321b213aab33f722d39190
+factual_fingerprint: 414d87a6b8609709554b935009f3e108a4a398e78d011a3f728a9788010e3e3e
 ---
 
 ---
@@ -3233,9 +3559,9 @@ source_job_id: 5544662
 title: Medicines Optimisation Senior Lead
 employer: Frimley Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1043
-factual_fingerprint: 42b722bcbe2f5f3e9dc18d5295bfb800331d32c36c0ea8e3bed080dd6abb0e56
+factual_fingerprint: 111b0e676e85bdcb35d0ad31201c1bba4d2dc65293bcadbe3a62f3e03a797f78
 ---
 
 ---
@@ -3245,9 +3571,9 @@ source_job_id: 5545191
 title: Temporary Staffing Assistant
 employer: Frimley Health NHS Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1046
-factual_fingerprint: 83726f826005ad05a13391d1c985ca1233297681b8c9bd0d845f1c91889d355e
+factual_fingerprint: a552e97acc84ece12b46602066145b20ec5c7956c89d2abfb2242f81835c3a7a
 ---
 
 ---
@@ -3257,9 +3583,9 @@ source_job_id: 5542731
 title: Macmillan Cancer Information and Support Service Assistant
 employer: Bolton Hospice
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0057-26-0013
-factual_fingerprint: c51f758667f4d403692d336a29093b10d919276b4dcbe40af9e94366e3ae42c2
+factual_fingerprint: 2733b7e4c22b7a1e8da915bc676f079a4bb496c6294bb4ec5750cbe07250f0df
 ---
 
 ---
@@ -3269,9 +3595,9 @@ source_job_id: 5544748
 title: Executive Assistant
 employer: Wigan and Leigh Hospice
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0309-26-0005
-factual_fingerprint: 508d35367feca37fc6e18e74d274103d92b2770b8c49bf08b9bb30e8ad72fb6b
+factual_fingerprint: 2cd440adce8f7632312f0b3f1ef201c8ae36d378ed836a040267ee616fb51c00
 ---
 
 ---
@@ -3281,9 +3607,9 @@ source_job_id: 5545070
 title: Patient Advisor
 employer: Port View Surgery
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0831-26-0003
-factual_fingerprint: 5e1588dcf85ffc4690c5d6eb18c59dbbc3577f0c4a81a375cd648175f45341f5
+factual_fingerprint: 53955105042cc05bfae7a6190c8bdcba3bb8b056b27a86ea7e8dbf9426c6131b
 ---
 
 ---
@@ -3293,9 +3619,9 @@ source_job_id: 5545137
 title: Medical Secretary
 employer: Cardiff and Vale University Health Board
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9001-26-0772
-factual_fingerprint: e6368e27676a59788542f54e6c2bd38b4fdbb237a176799971dffb6b8dc7093f
+factual_fingerprint: 4160384219a8ee301aeade70853d41a63d0124af4f97951f4cfc338fe4cbe71c
 ---
 
 ---
@@ -3305,9 +3631,9 @@ source_job_id: 5545108
 title: Community Partnerships & Inclusion Lead
 employer: Cora Health Group Limited
 region: Buckinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0332-26-0262
-factual_fingerprint: 7c6a5e787e2e0aa230016f6fd95ea235d89c3bce5cc76e77025a4d7ca5b4bff5
+factual_fingerprint: 3a92a231bc61e5e0e5e9820aa796c77f1439e333d6c38f0d35ea549d3de02952
 ---
 
 ---
@@ -3317,9 +3643,9 @@ source_job_id: 5544483
 title: Band 3 Administrative Support
 employer: Portsmouth Hospitals University NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0452
-factual_fingerprint: 4a7f29099b0eda643e964597828a006c0d26b015087d0d383cd1e3c95d475479
+factual_fingerprint: bf038cd28a758322f84cf416852314b6cad0ca3a62b6a3235a10c1c07c9dfa9b
 ---
 
 ---
@@ -3329,9 +3655,9 @@ source_job_id: 5540418
 title: Undergraduate Coordinator
 employer: The Dudley Group NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0385
-factual_fingerprint: aa9dbda3b957d33db7d4c6518121b939b047a8bfe217ff7a4ae217fb3f02651f
+factual_fingerprint: 19aca19fc8df03f338967bc4c0f7a6ffad377bc26ea619026da6a50a2877de5b
 ---
 
 ---
@@ -3341,9 +3667,9 @@ source_job_id: 5544744
 title: Finance Officer
 employer: Hinckley And Bosworth Medical Alliance Ltd
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0055-26-0026
-factual_fingerprint: ac80f43dedfe64161d52f20cc4f04c6190fb3422dee9d1f34c700cc6c71b28fb
+factual_fingerprint: 90143b3f02cf2d07181708db9b2d442e61e88900584bd08862847e1ae2fcf5b8
 ---
 
 ---
@@ -3353,9 +3679,9 @@ source_job_id: 5543599
 title: Personal Medical Secretary
 employer: South Tyneside and Sunderland NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-GSAC-0826-18
-factual_fingerprint: 481b3f1c98ab3b3a066c40604e9a742e06b535f8451d2e67c0547e8bbf5dbbe7
+factual_fingerprint: 65532c3ba5ad2178820ece228f2a62f6c623371241aaa3a4c886628eafa8cf6f
 ---
 
 ---
@@ -3365,9 +3691,9 @@ source_job_id: 5544966
 title: Senior HR Workforce Attendance Lead
 employer: St George's University Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0773
-factual_fingerprint: d3a8ef08f588af69483b8e89cbe0d4e716627cc1ec4ab33f6d9eccb499eeca43
+factual_fingerprint: 9f654bda49c08493615af4493288db3916841862d33c0642a2f2162b33c92d99
 ---
 
 ---
@@ -3377,9 +3703,9 @@ source_job_id: 5544816
 title: Administration Officer
 employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0762
-factual_fingerprint: f0bf5124c84062f6b8efd78337e39ce3be7a050b57626d6b9c72e4567cfd673a
+factual_fingerprint: 37265f0b8408cb7c9d0a9b49d61c2655505a4594cb267b0e596e6be22d3b11e3
 ---
 
 ---
@@ -3389,9 +3715,9 @@ source_job_id: 5544726
 title: Dispenser
 employer: Wallingbrook Health Group
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3255-26-0012
-factual_fingerprint: 9471b2335ea8ce842953a7d3618a6cc0cf1caf6983c98c4dddb0cf48c7748f34
+factual_fingerprint: 92fbec9a07be23c55d9564652573f150b4a74899492222d6793124a2e3fedfa7
 ---
 
 ---
@@ -3401,9 +3727,9 @@ source_job_id: 5543677
 title: Senior People Business Partner
 employer: East London NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-0980
-factual_fingerprint: b4379b497b1ed8a3f5f395ec72496573ffa29efffef594279f791eed0c2a3048
+factual_fingerprint: 5fea06b2e5a9d54c337839edb3e9cfebd11de326e4e5d59abf301193b10f746c
 ---
 
 ---
@@ -3413,9 +3739,9 @@ source_job_id: 5544721
 title: Dispensary Counter Assistant
 employer: Wallingbrook Health Group
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3255-26-0007
-factual_fingerprint: 9577ec9df252d11c8f63d63867d1a6c67325057dbf6a98b301a8f1304fc427b9
+factual_fingerprint: 9be341ba96c44b322d23d79ea4d9495b706e05b278e31d7a61a3cae28490787a
 ---
 
 ---
@@ -3425,9 +3751,9 @@ source_job_id: 5544696
 title: Chief Experience Officer
 employer: The Mid Yorkshire Teaching NHS Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9377-26-0383
-factual_fingerprint: 8ff5d6636da672fe8d811ce00d9bc3c7e1c88cbb3480a3cd573e066f6265672d
+factual_fingerprint: 5f4f4572679bb1639dc273b2950f9010d7dacb2b22add4cf0a607f3e60b0992c
 ---
 
 ---
@@ -3437,9 +3763,9 @@ source_job_id: 5529545
 title: Regulatory Performance Officer
 employer: King's College Hospital NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0679
-factual_fingerprint: 2e4ab493d4d8a339281ffc5738dc012469963e117324793486d88062d1d67eac
+factual_fingerprint: c7deee28671089f7250e6b6aceb59248d55d5258da6af7cd1025550555e9eff0
 ---
 
 ---
@@ -3449,9 +3775,9 @@ source_job_id: 5544437
 title: Senior Administration Officer
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1027
-factual_fingerprint: b2039384588a184a32ccd9398b6b0a65f70e9d4168db018348e62241ebf0ae05
+factual_fingerprint: 8710fd63880dbc13427dc7d2f3585221319e66b0749394b18c1404dbe9deb680
 ---
 
 ---
@@ -3461,9 +3787,9 @@ source_job_id: 5544533
 title: Patient Flow Co-ordinator (Internal Only)
 employer: East Cheshire NHS Trust
 region: Cheshire - East
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9209-26-0346
-factual_fingerprint: 0f8c4cb1378a1df77e7d80673c94bafcc589a49fbdffa71ff2994d0907d6dbd8
+factual_fingerprint: f59f40d94327e091b95ce4581f9d2ef5bd838f501b504bbb481e3b66b516568c
 ---
 
 ---
@@ -3473,9 +3799,9 @@ source_job_id: 5544269
 title: Assistant Pathway Coordinator - Trafford CORE CAMHS
 employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2448
-factual_fingerprint: a0369fc13cb56ab6c173a82c63ca8f897b2d52964be6a24c3d912a57ab0db3e2
+factual_fingerprint: 5f0410d0842dccf14d2f55e91157ce898b73b70a84daf8fe11680a01d2a9e031
 ---
 
 ---
@@ -3485,9 +3811,9 @@ source_job_id: 5544292
 title: Data Subject Access Request Officer (BANK)
 employer: Berkshire Healthcare Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0653
-factual_fingerprint: 92ccdeec6c5ab206ae0d948fa2d90b4cc8e46d06176500087caea59037f8093c
+factual_fingerprint: 29b7643a33fed0b4a682a38a66e57699fcaa9914e037e1d7cedaa5c7fc359ea8
 ---
 
 ---
@@ -3497,9 +3823,9 @@ source_job_id: 5542704
 title: Team Leader
 employer: Midlands Partnership NHS Foundation Trust
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1168
-factual_fingerprint: 1ef3c019670baec0f691ee2f450957d2cda3dff84ddfce46e82ca3a636ea61d4
+factual_fingerprint: 51e3f37234e731def7661bba2d73ec5998c15e97d5753b9ed7877fe83b82047f
 ---
 
 ---
@@ -3509,9 +3835,9 @@ source_job_id: 5543921
 title: PCN Care Co-ordinator Data Analyst for QoF and Research
 employer: Taunton Deane West Primary Care Network
 region: Shropshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0068-26-0008
-factual_fingerprint: fd04011c73a44a3432e30601927f9ce930e82b50d576afbcaa0e0a00740a4e8f
+factual_fingerprint: 2df512aff477fd2da29e2ece2762fe70812acec57dc9fef03b4c61498dcb0ab4
 ---
 
 ---
@@ -3521,9 +3847,9 @@ source_job_id: 5542479
 title: Medical Secretary
 employer: Cornwall Partnership NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1050
-factual_fingerprint: c3fc689f6b7b46ad1c8e38be6f65ca4f63c4fea4088fa8675f1bd2c919e42540
+factual_fingerprint: 8fef345e14e788912e5e439166a872523b35acc4894b1a9e7695ff4084b4a668
 ---
 
 ---
@@ -3533,9 +3859,9 @@ source_job_id: 5544116
 title: Research Support Assistant
 employer: Isle of Wight NHS Trust
 region: Wales South -gwent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0435
-factual_fingerprint: a2fedde771fb14c787a0702a6337bf7a82faa6613173a21c0d3d779cde1bddb2
+factual_fingerprint: acda28abd2ab5b2a404797523edfd5d3fbf1008ed8493c9238a8d26f33943d7e
 ---
 
 ---
@@ -3545,9 +3871,9 @@ source_job_id: 5544189
 title: Bank Investigation Officer
 employer: Norfolk and Norwich University Hospital
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0718
-factual_fingerprint: cdb56dda680bc8c995766874ddac493c240b0cb30bfdae4220b431d908824d86
+factual_fingerprint: bbd33ff7a22d73cad50264282dfdcfa39174640cea79e36e5bf83a2ee616a494
 ---
 
 ---
@@ -3557,9 +3883,9 @@ source_job_id: 5544028
 title: Appointment Advisor - 24 hours - FTC until March 27
 employer: British Pregnancy Advisory Service (BPAS)
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-BIC-AA-24-FTC-1
-factual_fingerprint: 3dd721c2fdbb62e056eeb4a00365b00d372aa1f0b2cac2eff5d260144f66367f
+factual_fingerprint: 6289a82d3f25730a83e048ef9585567382f1377586ffc21fc1cfdd0c2dbd0ece
 ---
 
 ---
@@ -3569,9 +3895,9 @@ source_job_id: 5542007
 title: Waiting List Co-Ordinator
 employer: Bedfordshire Hospitals NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0837
-factual_fingerprint: f3504614701e36f1ed1d616e51ac1baf27e3eafbbf73a56c2032570884776e79
+factual_fingerprint: 255780f31a8e5677ee2c14478253dd00e9930923c8828e5d70a8598371e626e8
 ---
 
 ---
@@ -3581,9 +3907,9 @@ source_job_id: 5541959
 title: Patient Pathway Co-ordinator
 employer: Bedfordshire Hospitals NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, patient pathway
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0834
-factual_fingerprint: 4f0e1aa8fd5d1ddf1f4cafaa40cb7361bdea16c61800874b04d0c450cf813b1e
+factual_fingerprint: a7ae94f9dc386ab88d5848d4526ae9cb7bc7770315d9211798f6ef2b772666db
 ---
 
 ---
@@ -3593,9 +3919,9 @@ source_job_id: 5544072
 title: Executive Chief People Officer
 employer: County Durham & Darlington NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9439-2627-0011
-factual_fingerprint: 61477ba68d08a968ce4b2479d166f3726dd997fc0d95805dee2ed4e8941ca5c6
+factual_fingerprint: f36f35ae3f6e1530425652c49c5a29ded3da1f504a3b02d48fe4dd22bb8a4ec0
 ---
 
 ---
@@ -3605,9 +3931,9 @@ source_job_id: 5543968
 title: *Internal Vacancy* - Assistant Fire Safety Advisor (Bank)
 employer: University Hospital of North Midlands NHS Trust
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1685
-factual_fingerprint: 78c3ad23ce5b36f049b8fc01503ddc80bb51c8f3e8aab80a48e87e9fbed26398
+factual_fingerprint: 44f81cc8c4a9f1e81daf1aa22fbecdb5c95e3f3d7384771bbc55e2ee367233c1
 ---
 
 ---
@@ -3617,9 +3943,9 @@ source_job_id: 5543679
 title: Support Secretary
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1024
-factual_fingerprint: 8f972d4ebb3b8ebdefb9960aac2584afed6179fefd00c2b92a8631f8ce7e20cd
+factual_fingerprint: 893cbf1d0e39aadd9ed911a86512dda47433a34ad07d33f1eefb531fd91d509e
 ---
 
 ---
@@ -3629,9 +3955,9 @@ source_job_id: 5544020
 title: Automation Senior Developer
 employer: Isle of Wight NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0434
-factual_fingerprint: 6e4b165affb3eeb4431fcc5056db9612f70617d45bce75aa04ede69a30ba65d2
+factual_fingerprint: d2265fa50f232a22f48ea886bdacddb6142c66f07ad67d5f28230b2aac939f72
 ---
 
 ---
@@ -3641,9 +3967,9 @@ source_job_id: 5542932
 title: Medical Secretary, ENT, Maxillo Facial
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1022
-factual_fingerprint: 371d576ad8d3ca0c3af577cc12f371ca96a50713d1bce12250bc30995c577358
+factual_fingerprint: 9c7160440e7da0ba4f1b5e632b96da39e7536127a5f0b3e0b4c69d2d320f76bf
 ---
 
 ---
@@ -3653,9 +3979,9 @@ source_job_id: 5542619
 title: Waiting List Coordinator
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator, waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1021
-factual_fingerprint: 5038c17393a7b6e751c8d457e6e9732b714607ae21cfede614e45bd1cc45444f
+factual_fingerprint: c933cbc644b482cfb4a771b9c3bd946f07eeacf14e909908413425a00709b989
 ---
 
 ---
@@ -3665,9 +3991,9 @@ source_job_id: 5544123
 title: Medical Secretary, Band 3 Oncology
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0738
-factual_fingerprint: 987827f25b9912502aabc1e727a2662a765fe8c3ce4e081b7aacdb4b54cb0410
+factual_fingerprint: ec50686d3fcd589915947380ca144caf33dd92060ff1d9e99f7e281c33d0daa2
 ---
 
 ---
@@ -3677,9 +4003,9 @@ source_job_id: 5542384
 title: Appointment Scheduler
 employer: University Hospital of North Midlands NHS Trust
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1670
-factual_fingerprint: ce6b93b4f51b9e213ec73b40855d4fc5343344bb84a12e3a4a790484a5e7717e
+factual_fingerprint: 3d3d32071bc024c3c3cd3f4e7b1c29d7f146f5c204b65cd6bb8ef77d654b6b45
 ---
 
 ---
@@ -3689,9 +4015,9 @@ source_job_id: 5544143
 title: Emergency Call Taker Bicester
 employer: South Central Ambulance Service NHS Foundation Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9195-26-0544
-factual_fingerprint: 59d57b7bcca620e6b70a71ac2095ef4b11ec3f2091154ad6993d5e4cf47e5a8f
+factual_fingerprint: b5dcb7f995e02e621673593c248cb3295166a0e3fbe5cdc859e8e1530daede02
 ---
 
 ---
@@ -3701,9 +4027,9 @@ source_job_id: 5544133
 title: Emergency Call Taker - Otterbourne
 employer: South Central Ambulance Service NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9195-26-0543
-factual_fingerprint: 92114e03fbd8b5c267b589c4f219dddb0f5d6cc09f3059da270fe92503e059d8
+factual_fingerprint: bbb0c1c16eeb8564526e6d49e1a2ee00eeb5d605292f9f58122e627c171df012
 ---
 
 ---
@@ -3713,9 +4039,9 @@ source_job_id: 5544092
 title: Legal Support Specialist
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0877
-factual_fingerprint: fd14612cca38915dee4c3211c6b0535b0c6f5d358ca741e6a05abc33d630fa5a
+factual_fingerprint: 18d10e7adf5be88020c5f5786acf028a16d641cba350ef3da67342f180c66063
 ---
 
 ---
@@ -3725,9 +4051,21 @@ source_job_id: 5543913
 title: Information Systems Support Assistant
 employer: City Health Care Partnership CIC
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0270
-factual_fingerprint: 5976218fabae9e69200bb779b51d4fe74922267d1a4ab172d8bc5cba283e8022
+factual_fingerprint: f106addf9ae474c00153d0cfd3930c9cbc9f4848d9b869185869a729ca6af2df
+---
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Worcester, WR5 1JR | £32073.00 to £39043.00 | Improvement Support Officer
+source_job_id: 5543282
+title: Improvement Support Officer
+employer: Herefordshire and Worcestershire Health and Care NHS Trust
+region: Worcestershire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2550
+factual_fingerprint: ae68bc90af26db8dcc4806e646e7e44acead62fcc5180084fea9f7a2689d784d
 ---
 
 ---
@@ -3737,9 +4075,9 @@ source_job_id: 5542974
 title: Data Coordinator - Palliative Care
 employer: Cambridge University Hospital NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1049
-factual_fingerprint: 9ac17d80afbc859adafd6d63481eeaaea9a18397557a649ed9941c34cb23c9f2
+factual_fingerprint: 1b4d1a6ce1f1065a156169eb52a6fa79bc509286fc1b205a7594bd6249055a1e
 ---
 
 ---
@@ -3749,9 +4087,9 @@ source_job_id: 5543973
 title: Single Point of Contact Support Clerk
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-0993
-factual_fingerprint: 81bb2eac854c47bee76d9d01358a51a6a76d66ec1c7ed32fe6fb8baec3bc5768
+factual_fingerprint: ec5635549b0be42dcd5dd4c4f503a283eb1b45343656161304f810e6f1b0f670
 ---
 
 ---
@@ -3761,9 +4099,9 @@ source_job_id: 5543910
 title: Mortuary Assistant
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0415
-factual_fingerprint: 5c29ca2d0cb309bf3c9bda175b046df7f38ca2ffe9262e0274bea25f70cce05e
+factual_fingerprint: 8f7f6566e952a8ef516eda0aa870827ab20f0e29ee88e79ac2c689851372dd03
 ---
 
 ---
@@ -3773,9 +4111,9 @@ source_job_id: 5542027
 title: Surgical Admissions Officer
 employer: University Hospitals Dorset NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0686
-factual_fingerprint: c004eef9c5a5a12567ea28479c6727da49d2cc93a87d39b8c488d2f6faa6e245
+factual_fingerprint: 57c419dc4268cd5e5e0e260a7912d6a8c2f67d7f4643666feb90f7bb42ff3f54
 ---
 
 ---
@@ -3785,9 +4123,9 @@ source_job_id: 5543896
 title: Bank HSSU Coordinator
 employer: Nuffield Health
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0302-26-0937
-factual_fingerprint: 3afaba21e06257aee45655e6b109ecb9cb6da8e80ed659ff2295fff2f772f6bb
+factual_fingerprint: 47e31f9f8271848384f0e46bf815cfa39d44490f819ca0c627ce91c2ac8cc36a
 ---
 
 ---
@@ -3797,9 +4135,9 @@ source_job_id: 5543489
 title: Human Resources Business Partner
 employer: Cambridgeshire and Peterborough NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0515
-factual_fingerprint: 5d0a02cffa811faf7aaf38621238957885e80697939ec6456b4a1edff790e17c
+factual_fingerprint: a890a306975973ce8ed3c9fdefde71f0b3a74b48461708f5b3698b584be9c545
 ---
 
 ---
@@ -3809,9 +4147,9 @@ source_job_id: 5543415
 title: Care Home and Frailty Service Lead
 employer: Salisbury Medical Practice
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2320-26-0007
-factual_fingerprint: a022a95f2416ef62734e34ff04151009f9ebfb175261212b8864666a9323ec33
+factual_fingerprint: c6f1ea6eaa7b5cf4b7968939c05fd9f83c876435fc0739eaf9557e7b691a8f3d
 ---
 
 ---
@@ -3821,9 +4159,9 @@ source_job_id: 5543851
 title: Patient Navigator
 employer: The Avenue Surgery
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1160-26-0008
-factual_fingerprint: 39701317273d59b271fdab2fbb82b96fa7077ded290f65651765db2232a57ad0
+factual_fingerprint: 2c70769ff0086c9c3f439e72fc7a4ceab3f4bcc513b439a6eb8ab657d46b1c74
 ---
 
 ---
@@ -3833,9 +4171,9 @@ source_job_id: 5543570
 title: Health Records Supervisor
 employer: Aneurin Bevan University Health Board
 region: Wales South -gwent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9040-26-0869
-factual_fingerprint: 2ee426b17df6d0e6fc5812cfe607d79b022a455f2736d27638e4ac48fb2819a3
+factual_fingerprint: bd867bb8d4e793da3b243d5ac6d9870a2f8df293f7c4e1d8b1a81e4cc473c10a
 ---
 
 ---
@@ -3845,9 +4183,9 @@ source_job_id: 5543512
 title: Health Records Officer
 employer: Aneurin Bevan University Health Board
 region: Wales South -gwent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9040-26-0868
-factual_fingerprint: 53a489aeb96afc23037cb10318e97e54093c9d628f3fc227f177bb8cebcf590f
+factual_fingerprint: 6977e0fbdb359af4e4345d24544aa9c105cdf0b69e387ed0a0afd368b6c488db
 ---
 
 ---
@@ -3857,9 +4195,9 @@ source_job_id: 5541873
 title: Admin Officer
 employer: Sheffield Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0503
-factual_fingerprint: 5e7a8c0da3e5ac5cb8927bf02dd0bb279a40c90122cc9c8d01dc5fd53320f866
+factual_fingerprint: 30dc068a7c813ed29cdfc6f21875499720e9798ca6356b51a06639d9d777a846
 ---
 
 ---
@@ -3869,9 +4207,9 @@ source_job_id: 5541455
 title: Patient Navigator
 employer: OneMedicalGroup
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0135-26-0137
-factual_fingerprint: cef4948bcb9c8f481b47fdb052f2325e19fc5cebd8e957ec3c7c413f1582b921
+factual_fingerprint: 4865c09c6c612a28c1183a9fb02c93da74d7975f6714f214a595511d6c81cd17
 ---
 
 ---
@@ -3881,9 +4219,9 @@ source_job_id: 5543799
 title: Contact Centre Agent
 employer: Local Care Direct
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0250-26-0045
-factual_fingerprint: 3f3c192ec30f91f1b5eec593e63e5c231bb98b7c95dbbb14963ae7b7862b6d1d
+factual_fingerprint: 8b48564aee6887c102bd0d80ec7355acf88eaa54d6f5b13a080087213176ecde
 ---
 
 ---
@@ -3893,9 +4231,9 @@ source_job_id: 5543684
 title: Theatres Inventory Management Assistant
 employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0476
-factual_fingerprint: 9164266cd2733b80337a751ba2a26c1461550f69ff6f44d8664342c69a8c24a6
+factual_fingerprint: 18d87718b532373f839e4665392929a12e3140dcef1850dc2dbe059ac36662c4
 ---
 
 ---
@@ -3905,9 +4243,9 @@ source_job_id: 5542467
 title: Administration Support
 employer: Livewell Southwest
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1987-2
-factual_fingerprint: d6b6ba09c38d7c892b4479efcfa92b9b6ddcc8a70d6973ba20673c8c263817c4
+factual_fingerprint: 7a4df2a4b22a0c305e7b2b6447cf7af0c3f6dd341c242fdc7a12662dfd5b5af6
 ---
 
 ---
@@ -3917,9 +4255,9 @@ source_job_id: 5543730
 title: Triage Coordinator & Care Navigator
 employer: Torkard Hill Medical Centre
 region: Nottinghamshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1632-26-0003
-factual_fingerprint: decdc84fdceacd73268b280fab77e49ce3db95720657b8eedc6ee6859cec8b6c
+factual_fingerprint: 4775bc72a777e5c39f0f64fd1c8e9b88a9f47f03969f408c07cc1927ccebb651
 ---
 
 ---
@@ -3929,9 +4267,9 @@ source_job_id: 5543728
 title: Band 3 Medical Secretary-Urology
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1252
-factual_fingerprint: 822df702d7bb658151393628dc4fd282989c5972db01d71c1d0ff8e3b6409176
+factual_fingerprint: ee0930704d8dc11f05de6b605c282d46d76d62fbe50a3c3acdbc8814242ba617
 ---
 
 ---
@@ -3941,9 +4279,9 @@ source_job_id: 5543668
 title: Clinical Evidence Specialist
 employer: Mid and South Essex NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-1975
-factual_fingerprint: 9e88e58e02c8b6e56f42e044c81e8f0425a91f3b12f432b7b057bc700972d66d
+factual_fingerprint: a458c7d25bcd960e5af30006abf95f3be4f8dbd35214e8eaa1df3fda7d17a4e0
 ---
 
 ---
@@ -3953,9 +4291,9 @@ source_job_id: 5543354
 title: CYP Social Prescriber Burgess Hill PCN
 employer: Alliance for Better Care CIC
 region: West Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0141-26-0071
-factual_fingerprint: e3609de4e6cfb94d6e26040e74b899493add977ffbfb313c1cb004516b4b591a
+factual_fingerprint: 7dc98a2eeb67c7333d6283fad4a88f532b8ed700c97622a7001e65bec62854be
 ---
 
 ---
@@ -3965,9 +4303,9 @@ source_job_id: 5543686
 title: Temporary Staffing Assistant West
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1876
-factual_fingerprint: d8c0db8379e032b3923bf89abe69a84f2bd5e731db1eb366d7a91c8bb002b017
+factual_fingerprint: dbbfaef90936eb7c50b5efbaa7c0d1f870e30711ca54e64f356e8bddfd495858
 ---
 
 ---
@@ -3977,9 +4315,9 @@ source_job_id: 5543566
 title: FOI Officer
 employer: East Lancashire Hospitals NHS Trust
 region: Lancashire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0465
-factual_fingerprint: 04b5b7b295bafe091cb5de044585c1d2d3fefd55b9002a6ec3e4b0fa8261638e
+factual_fingerprint: 4113be240caf0b40f179601ef9d07198643a774d1df59b4c857662dbb8103093
 ---
 
 ---
@@ -3989,9 +4327,9 @@ source_job_id: 5543582
 title: Patient Services Advisor (Clinical Coder)
 employer: The Boulevard and Horne Street Practice
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0157-26-0004
-factual_fingerprint: ae02062cd169a97b0ca8afcf23a76bf12a1a60db37a4a6937aa7d883918660dc
+factual_fingerprint: de0b712a78a1c4461d8f22b21fb57f42f22308afb0e2b86fd00e25541bd8af2a
 ---
 
 ---
@@ -4001,9 +4339,9 @@ source_job_id: 5542347
 title: Bank Prevention & Management of Violence & Aggression (PMVA) Trainer
 employer: Powys Teaching Health Board
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9070-26-0385
-factual_fingerprint: 55da9ec6664571bbf0052aacb2ec61bec0d7f7a65a5e66dc524b4ac5573dbf7a
+factual_fingerprint: 4542766a6c589ef0f576828b34092f21a203922dcb7fffef38c8ec7c3ba3538c
 ---
 
 ---
@@ -4013,9 +4351,9 @@ source_job_id: 5543281
 title: Psychosocial Services Operational, Quality and Education Lead
 employer: Shooting Star Children’s Hospices
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0299-26-0017
-factual_fingerprint: 6fb26b628b7c4defa5e33245213e128a33c9595cb61acf7154d2b3ea6e726928
+factual_fingerprint: 8376ed7f650dbd392574040cc191bbf4d63daa20d57c547010bd726befd321ac
 ---
 
 ---
@@ -4025,9 +4363,9 @@ source_job_id: 5543541
 title: Sexual Health Admin Support *Internal Applicants*
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1312
-factual_fingerprint: 7591f2911dad151ba13d95a3fa762963b53b441b7621d5f3602c9d22ec0353a5
+factual_fingerprint: 8fa93574a9db8e7eaa2af5691ba332ed8ef68e6dac50a7c461260246758f8872
 ---
 
 ---
@@ -4037,9 +4375,9 @@ source_job_id: 5543445
 title: Audit & Operations Co-ordinator
 employer: Cwm Taf Morgannwg University Health Board
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0848
-factual_fingerprint: 50c81accd54727bc300d33327a7ffedf44a6692a59103e67c23e1624fdd653f5
+factual_fingerprint: f4ecf9c30eb0a643e74de30986cd4245e7270a66cce058cfde6ecf760e2864e1
 ---
 
 ---
@@ -4049,9 +4387,9 @@ source_job_id: 5543543
 title: LAC Coordinator - Administration
 employer: Bolton NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0300
-factual_fingerprint: fc49f2ed9f8ffc1fd7bf6434b97497ae429eb976728e34e5307b806c1673e36f
+factual_fingerprint: 62f5a2fc0184e761b64e066a4ba224eec0b363ab152ed1c1011415d4fc19008d
 ---
 
 ---
@@ -4061,9 +4399,9 @@ source_job_id: 5543504
 title: General Practice Reception Supervisor
 employer: Brewood Medical Practice
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2234-26-0052
-factual_fingerprint: 69f5a1512e92a3f3d3f396458fb6be1a05b9afa84098f2160194f6ae0cd78934
+factual_fingerprint: c2c08cb1595d9507d366fe8f0108145e42df048e53e888aefb900eba4cf76b47
 ---
 
 ---
@@ -4073,9 +4411,9 @@ source_job_id: 5531627
 title: Digital Automation Developer
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0622
-factual_fingerprint: 8423367d5d767b5a3ae6caddf0497311758a5e6a797865fff381664e473de74a
+factual_fingerprint: 1d0d47bd76d36b5dee5740384f90c72e7e3e93aa0f03fc020e4baa7cfbabeb84
 ---
 
 ---
@@ -4085,9 +4423,9 @@ source_job_id: 5543448
 title: Senior Medical Secretary
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1875
-factual_fingerprint: 8f9157e5910d3b7fd5265a3b08d09dafc42995a2bfa45f258dc2e7bb551260f7
+factual_fingerprint: 5493e703803454d8cd78a9e00074c933f34c53773db9b5f5c7c372be7f676a82
 ---
 
 ---
@@ -4097,9 +4435,9 @@ source_job_id: 5542958
 title: PA/Medical Secretary
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0629
-factual_fingerprint: 4f640ff49437ba41c8570cc7f061eda5e78bb3185cff0ff0aa2885df223f4bd4
+factual_fingerprint: 68dffc8a2ce4462bbf1f79e627a0d2d9d8f315732b00f14ddb2aa7dd23feea03
 ---
 
 ---
@@ -4109,9 +4447,9 @@ source_job_id: 5543334
 title: Paediatric Diabetes Care Coordinator
 employer: St George's University Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0771
-factual_fingerprint: 71d2094e60402d0632492bc0d53928b44258a5bb3b93c43c652fb75c05732946
+factual_fingerprint: c0262dadc1d726046361c3e5dd6e43f5fb376bcc862eed407471317e2889aa4f
 ---
 
 ---
@@ -4121,9 +4459,9 @@ source_job_id: 5543320
 title: Gastroenterology - Medical Secretary
 employer: Blackpool Teaching Hospitals NHS Foundation Trust
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9382-26-0486
-factual_fingerprint: 849c8d3ef1f1ceadec9d6c308363c765f334cd732d983909ca77925b8ff2b5d1
+factual_fingerprint: 80ca5811fd208e21e035f37b842199f6e2309b98a6d0fdc4c5eb40ce77a9e6df
 ---
 
 ---
@@ -4133,9 +4471,9 @@ source_job_id: 5517474
 title: Care Co-ordinator
 employer: Primary Care Careers
 region: Essex
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0752
-factual_fingerprint: abc769c20b7d3d5e3fd3779ae07fa550ffd703a1813c451cbf302dbfe0c2dd16
+factual_fingerprint: 06b8233a9017859b3e3d354fc3e9fa3dbb1cf4026f0d41522d6a0fa02192f9d6
 ---
 
 ---
@@ -4145,9 +4483,9 @@ source_job_id: 5543277
 title: Junior Graphic Designer
 employer: Provide CIC
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0182
-factual_fingerprint: fbf8c4107e7db381bd2ebb05b41d263ebeec7050c8ff8d0c6b34a0f46e02e30e
+factual_fingerprint: e129eced180189484a02708b9d1eb7a2632250b14e9104d18afcc80b440ad0b6
 ---
 
 ---
@@ -4157,9 +4495,9 @@ source_job_id: 5543249
 title: Support Secretary
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1874
-factual_fingerprint: be345efe4cd3dd3c30dc2acef9a2c354ce5dcbef44a317f1ff5fb61130c3c377
+factual_fingerprint: 5a6bf149b3f831e89aee30829ed17cefaf4b9fa2efe10ee533d2fff50c8744e8
 ---
 
 ---
@@ -4169,9 +4507,9 @@ source_job_id: 5541179
 title: Business Intelligence Analyst
 employer: Portsdown Group Practice
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0027
-factual_fingerprint: c35483f1e8d10aa70e69836d93a6ceb098bb8e1bfb801ee7a1b82d1c9175c7db
+factual_fingerprint: a0b6ec6032954b2158f5fa6ae8b5d18dd1270ccc92880cb983b3cd7e56374c0d
 ---
 
 ---
@@ -4181,9 +4519,9 @@ source_job_id: 5542313
 title: Senior Procurement Officer
 employer: NHS Kent and Medway Integrated Care Board
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9095-26-0057
-factual_fingerprint: 4dec8dd452024598de9071043631ac06e19d505eaec3407f3dbf816023454efc
+factual_fingerprint: 4cf9834d8433b8cc5c7b0a39aa9ca2995e2fa258ad7d68e74b8d4e0e4c58e516
 ---
 
 ---
@@ -4193,9 +4531,9 @@ source_job_id: 5543121
 title: Digital Service Desk Team Leader
 employer: East of England Ambulance Service
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9247-26-0041
-factual_fingerprint: c7a4c8f842c8e9b6831761e09fb3829074644f1e49f69ce611355be57003fa61
+factual_fingerprint: 546cbcd54e775199c70c8d17acd1f06f2a485110164f2496577eef115ad0ed55
 ---
 
 ---
@@ -4205,9 +4543,9 @@ source_job_id: 5542208
 title: Senior Management Accountant
 employer: NHS Kent and Medway Integrated Care Board
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9095-26-0055
-factual_fingerprint: f603566c8b2e8957174ed431ce0aea8c5edb2c2d58eb2f71be135c1839dccd8d
+factual_fingerprint: 5a973f8c72525c65f5f3943fbc5381b84251f9921b42df32c8f9a4a429eb5aff
 ---
 
 ---
@@ -4217,9 +4555,9 @@ source_job_id: 5542910
 title: Financial and Capital Accounts Assistant
 employer: London North West University Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0664
-factual_fingerprint: d2eb2113c319b59cb957f0482c7ea3fa2d30873f55c0c68f42b61e0b4e5758be
+factual_fingerprint: c12449034cc63530f4d3287f445c698678efa236b641e4f390c57818983fd486
 ---
 
 ---
@@ -4229,9 +4567,9 @@ source_job_id: 5542955
 title: Bank Admin and Clerical Support
 employer: Lewisham and Greenwich NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0722
-factual_fingerprint: 030b80f12f30eba1e953c0708d7b6ec7eead1113f8f6e67fd7253fdb6f1cbf00
+factual_fingerprint: 12ae3e0afda72343cdd3969f418f7925b9e437a2ec712fdfa8a6816a53e42224
 ---
 
 ---
@@ -4241,9 +4579,9 @@ source_job_id: 5542334
 title: Medical Secretary
 employer: The Blackmore Vale Partnership
 region: Dorset
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2355-26-0010
-factual_fingerprint: dceb567397b2cae93019297f9cabc3fc71c67367d6960c554e59d34b20d7582c
+factual_fingerprint: dd0ad1fcd6ec642f17c9aeef356cc6b72705cf30e6435e06c42c03e53f151da3
 ---
 
 ---
@@ -4253,9 +4591,9 @@ source_job_id: 5542702
 title: Medical Secretary Lead
 employer: Fremington Medical Centre
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2036-26-0004
-factual_fingerprint: 4e57c59344d8c0e7d42e5e28c8a77510830074f6a2c017a32e650c094bfffcc7
+factual_fingerprint: 4b4e9d991bffa874b56811a90412743ece89b74e28eb77c908d314dc06389d82
 ---
 
 ---
@@ -4265,9 +4603,21 @@ source_job_id: 5542569
 title: Reception Supervisor
 employer: Kingstanding Circle Surgery
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3663-26-0006
-factual_fingerprint: 5d6a6c70779515f02cfe811c65cf13a75aa0814cad909e73c69bc81e9d0bbc71
+factual_fingerprint: a17a9f256ece60275602f22f49d713e87a39e40e5bf6dbafc14c919aa864e150
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, SE5 8AF | £47951.00 to £56863.00 | EPR Programme Delivery Support Officers - 2 WTEs
+source_job_id: 5541963
+title: EPR Programme Delivery Support Officers - 2 WTEs
+employer: South London and Maudsley NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-26-0783
+factual_fingerprint: 3f80f152c7a674b42e6b293e7798d07961909ff5af12d78665f7f237d402adb9
 ---
 
 ---
@@ -4277,9 +4627,9 @@ source_job_id: 5538435
 title: Inventory Management Apprentice
 employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0472
-factual_fingerprint: 6b2c2a9adf267b873fa64f2fa1890b6d03840dbfcc178571bd355c376f26dec5
+factual_fingerprint: bff305537084a98a10be666c4393687bb780e29ef4da30eac0cce1579449a410
 ---
 
 ---
@@ -4289,9 +4639,9 @@ source_job_id: 5542649
 title: Medical Secretary
 employer: Papworth Surgery
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4346-26-0001
-factual_fingerprint: ce8de8c409bbd5116c5b29277675c026cc6fda2f671745cb65f68f760264ab05
+factual_fingerprint: a868917a1ded698a1b6decd070ef59d4152cd1dd6a6da9acc490e9dd541fbf00
 ---
 
 ---
@@ -4301,9 +4651,9 @@ source_job_id: 5542773
 title: Goods-In & Distribution Team Leader
 employer: Cambridge University Hospital NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1048
-factual_fingerprint: 7238360ff3e18746291abebbe33aa4da1741b57028893b0d1632df9ac22e23ec
+factual_fingerprint: a22b18cb5b56cb0b660b9de489b2389296fc9cb211d789ed327679811138b919
 ---
 
 ---
@@ -4313,9 +4663,9 @@ source_job_id: 5541999
 title: Pathway Support Medical Secretary
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0786
-factual_fingerprint: 6db54c41d6b000fcd9b1a2aea6495e7bde7c4b9129141df03644b8a5d0781ec7
+factual_fingerprint: f7ad5f35f2c3b086c8e9620e0043ff916ef5109289438dd02267e931f50cbcc7
 ---
 
 ---
@@ -4325,9 +4675,9 @@ source_job_id: 5521641
 title: Medical Secretary General Surgery
 employer: Lewisham and Greenwich NHS Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0720
-factual_fingerprint: b3c3bca13e88e3e276b3188497dede7684ec59aad0c6cde131e9df83211a7b00
+factual_fingerprint: 651be790c2a544d8597159bdd4b9b4b48072429a26bb1fa8a5b16f3419981d20
 ---
 
 ---
@@ -4337,9 +4687,9 @@ source_job_id: 5542691
 title: Cancer MDT Co-ordinator
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1872
-factual_fingerprint: a2ac648a826b84070fcc424e12a60f186aee993a6dd28062fd46faa8d1b8bd67
+factual_fingerprint: db29f0d95be9e25c13bd060255a73e445e0ca3ef915099d392fcf68cf449f4c4
 ---
 
 ---
@@ -4349,9 +4699,9 @@ source_job_id: 5537336
 title: Care Coordinator
 employer: Corbridge Medical Group
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3834-26-0004
-factual_fingerprint: 3fac671c06253255f5d809cbfe8ecb89e69e8fb0e8ae3b48a0342b74c09967a1
+factual_fingerprint: d01873ebe635f8aa8b27e80535fed3bb2579d319e5aacaf8d13992417a72b249
 ---
 
 ---
@@ -4361,9 +4711,9 @@ source_job_id: 5542571
 title: Information Governance Officer
 employer: Royal Berkshire NHS Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0535
-factual_fingerprint: 614edf4898136788ed850a9a5630c2beb6d7ff8c4cd7e3f3d01b16dd24e11b03
+factual_fingerprint: 04d7e41681c6eef1c588e6aba493ab051c9a3c834eb4cbf9d80a1b30ca356b3e
 ---
 
 ---
@@ -4373,9 +4723,21 @@ source_job_id: 5542340
 title: Patient Flow Coordinator
 employer: The Royal Wolverhampton NHS Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0605
-factual_fingerprint: b13e32df44add69acd6239f8042e343fe2345c424052c5a2b7a0cc401a29d972
+factual_fingerprint: 6c070a37d448fd6646ba9b7ccd0e0164ee752f6d687e878420b8c782cb10e388
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Newcastle Upon Tyne, NE2 4NQ | £28392.00 to £31157.00 | Pay Support Officer
+source_job_id: 5542452
+title: Pay Support Officer
+employer: NHS Blood and Transplant
+region: North East
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0048-26-0414
+factual_fingerprint: 99847e5c1461ae0c70cca339b4f1bceb405c656ae8f6baa516e95ca47770c956
 ---
 
 ---
@@ -4385,9 +4747,9 @@ source_job_id: 5535687
 title: Part-Time Care Coordinator - Central Camden PCN
 employer: Camden Health Evolution Ltd
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0328-26-0003
-factual_fingerprint: c0689e0ecfc4667288fdc0ef10ead3a7e62385091c657badff940a331cee8b13
+factual_fingerprint: f8b2d57fdca6cedb0e8fc09c520a7883100c17625380d1a6b80e413c5e86c7ee
 ---
 
 ---
@@ -4397,9 +4759,9 @@ source_job_id: 5537453
 title: Medical Secretary
 employer: LivingCare Group (Fountain Diagnostic)
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0109-26-0003
-factual_fingerprint: dc48fb464a5829834767f2e99643dce145c0a3683bb21092a0cce52169065d9e
+factual_fingerprint: f65c3379998321ddb0f5e53815b8953918c39590fb310eefe386bf4e58ef428f
 ---
 
 ---
@@ -4409,9 +4771,9 @@ source_job_id: 5541822
 title: Patient Support Team - Scanning & Coding
 employer: Alnwick Medical Group
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0001-26-0013
-factual_fingerprint: 58c1b0a85504b5b5caf3492861d42804be662d7349dfc6fde1d2c08371ff4d89
+factual_fingerprint: 3781dcfce315c290149db8609ed6338f91ba24615674bd06c377b3ee90cdc578
 ---
 
 ---
@@ -4421,9 +4783,9 @@ source_job_id: 5542447
 title: Patient Services Coordinator
 employer: Bugbrooke Medical Practice
 region: Northamptonshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4145-26-0015
-factual_fingerprint: 62b61ec6fa25d9b8ad349bfa3b54d529240651e68e51dccd0e1a7f24acaa3325
+factual_fingerprint: a92947669c820725f58a3336c4ad1d9531ae2ad9f39f788dfe0e415fd3559b4c
 ---
 
 ---
@@ -4433,9 +4795,9 @@ source_job_id: 5542448
 title: Chief Technology Officer (CTO)
 employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1711
-factual_fingerprint: 25a4bb8166e473c03902eba5f11f7b17d4f6c27dd83a14a0c14825373d486a62
+factual_fingerprint: bcf34816aebf3ed25133f48b32c82b0ec1c66f3348789a3d33bd12ec5db60b3f
 ---
 
 ---
@@ -4445,9 +4807,9 @@ source_job_id: 5542390
 title: Management Accountant
 employer: North East & North Cumbria ICB
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0058
-factual_fingerprint: d159913a9b0ab6a61eecf3b00752aae112e49c33465e2558f8e5ae7e1fcd2575
+factual_fingerprint: 75c2921d148139c08ff72e7b70ccb9d15215c44ed33de7291d7a55b8c93d4a51
 ---
 
 ---
@@ -4457,9 +4819,9 @@ source_job_id: 5541957
 title: Digital Elective Care Lead
 employer: Royal Cornwall Hospitals Trust
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0474
-factual_fingerprint: 14a25e6231c41f45fafe62375fd9039d409fb75e2515a1677fcdbb9b001803cb
+factual_fingerprint: 7fea23d09644bd18308fa48e3518bb90f2041ce4d0968f8f80e05ceceba6ccc8
 ---
 
 ---
@@ -4469,9 +4831,9 @@ source_job_id: 5541955
 title: Digital Elective Care Lead
 employer: Royal Cornwall Hospitals Trust
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0473
-factual_fingerprint: 6e632156860833f6c99d0f5611f0ec66a14906166d5174ad6647acff40088a20
+factual_fingerprint: 1bc668937aa4c0dbd357caa2ff76d0d58bca11ffe8b13f14ec081a994b8497f1
 ---
 
 ---
@@ -4481,9 +4843,9 @@ source_job_id: 5541866
 title: Level 3 Business Administration Apprentice
 employer: Great Western Hospitals NHS Foundation Trust
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0527
-factual_fingerprint: 30d105dc3f279d40e18fe2225633e7a034302c372d4bda6c05599acbc649485a
+factual_fingerprint: ed31ae0d38b189f0acb4abd42428a9255f8e9bbc965fbfa5ac640be6688bcb5b
 ---
 
 ---
@@ -4493,9 +4855,9 @@ source_job_id: 5542310
 title: Assistant Admin Coordinator
 employer: University College London Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0836
-factual_fingerprint: ae8ea957bafedb71dc42968868ddd4acc0e035fc7d3c24e5000be07e07a21c8a
+factual_fingerprint: e69e5639e7896d4e47cef699f30233082202c05c1aea7b0c00bdda068853a629
 ---
 
 ---
@@ -4505,9 +4867,9 @@ source_job_id: 5541516
 title: Administration Coordinator
 employer: University College London Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0835
-factual_fingerprint: b707701a3b65b59ed4d0a8974177b07610dc26c2de778176c8fd10895ea3aa79
+factual_fingerprint: 63ba45f43c156c2a54c85d868eab6ec0d07dd8a4d6f932a284e9adb707d43d8d
 ---
 
 ---
@@ -4517,9 +4879,9 @@ source_job_id: 5542222
 title: Operations Assistant
 employer: Sherwood Forest Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0736
-factual_fingerprint: 9417da98ef4182ca7345ef463775687fbaae6e156e5660f5fbc1d7d55edb590b
+factual_fingerprint: 6d0d8fbb0000a474f3d58e4fcb01850544168ad5ae603eabe8cb72b81d135a7d
 ---
 
 ---
@@ -4529,9 +4891,9 @@ source_job_id: 5542163
 title: Data Analyst
 employer: NICE – The National Institute for Health and Care Excellence
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0095
-factual_fingerprint: f9c20dc296ac37241ab93a5590472a125b0d957af7369eda7d3e5d45e3402737
+factual_fingerprint: 183869bd0b376d2530080db9eab2803981c0d74b5d89d2ad8157113cdda414ed
 ---
 
 ---
@@ -4541,9 +4903,9 @@ source_job_id: 5519918
 title: Senior Business Intelligence Analyst
 employer: Care Unbound Ltd t/a Here
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0339-26-0003
-factual_fingerprint: 33adad1cfad331bb534437f35e515c2a63be88c3997fd1ceff1486e442d63d20
+factual_fingerprint: 9925056631c4f1321412286ef4c64400bf24f6fb52eb9825f230fcd6a5d185fc
 ---
 
 ---
@@ -4553,9 +4915,9 @@ source_job_id: 5542239
 title: Prescription Clerk
 employer: Oaklands Health Centre
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3310-26-0003
-factual_fingerprint: a35628208fb4d194d08602d8601314b6fc7d7a3289e4b9def9617de2cc001ae8
+factual_fingerprint: f3a7371706a9e68121ab41e644c696fd675d8a3f57e8aff8b1160015573a338f
 ---
 
 ---
@@ -4565,9 +4927,9 @@ source_job_id: 5542168
 title: Dental Pathway Coordinator
 employer: Hampshire and Isle of Wight ICB (104)
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0051
-factual_fingerprint: 2c5546944a7e0cafd744ccc5551447051b0fbe79db70eb32d3620c1f8ca9c2f8
+factual_fingerprint: c58d523ff8a027fb6feb34df0e026c96c3a73f3721d6c09e64ecf7c5723715d1
 ---
 
 ---
@@ -4577,9 +4939,9 @@ source_job_id: 5541546
 title: Voluntary Service Co-ordinator
 employer: East Sussex Healthcare NHS Trust
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0765
-factual_fingerprint: feafb1d6ade672c3a52d59b4d78b1c884a1c74ee689c959e5de4aba9ca6587e0
+factual_fingerprint: 23df7da8ee3332bdbee2b075ae1a8a3d0b687c506d7df9b1c1e91a4fff9cd7d5
 ---
 
 ---
@@ -4589,9 +4951,9 @@ source_job_id: 5539667
 title: Clinical Coding Auditor
 employer: East Sussex Healthcare NHS Trust
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0761
-factual_fingerprint: 36fa2983a48e1f68ead9d3e6be2a18dc87367813e0b56ebb401b48431847728a
+factual_fingerprint: 1592c74d9febefbaf0e4fe7578e8bf018ce7fdfc92d4f37a11a29fbe1d7d84be
 ---
 
 ---
@@ -4601,9 +4963,9 @@ source_job_id: 5542064
 title: Partnership Development Lead
 employer: Hampshire and Isle of Wight ICB (104)
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0050
-factual_fingerprint: 6a928b9e2fca7fe51087c4baddd08a9669d15eb55a4bde8564761cdee4907d42
+factual_fingerprint: b25262fd94b45c9aa0f68b34d6e941b7757a9907a8473b36de409643bda91a65
 ---
 
 ---
@@ -4613,9 +4975,9 @@ source_job_id: 5542170
 title: Sexual Health Outreach Lead
 employer: Bromley Healthcare CIC
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9848-26-0148
-factual_fingerprint: 64c8a88799c48eeca8c8be102d345f8311588bdf56ff3a2eca0ae53e1e949fb1
+factual_fingerprint: f77b8404c7106059413e8d994c96105b960e2724cdc44a1116077881fd46d306
 ---
 
 ---
@@ -4625,9 +4987,9 @@ source_job_id: 5541313
 title: Recovery College Facilitator (CAP 50)
 employer: Black Country Healthcare NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0506
-factual_fingerprint: c7405825967fd19de6a305a48bc671b2ff4b289a5e752367e11a9f04a5aa4d59
+factual_fingerprint: 7fb1340516cdefce0a85bbad3c13ecbebf53dd5aaa6082434d14192c902b1cca
 ---
 
 ---
@@ -4637,9 +4999,9 @@ source_job_id: 5541850
 title: Reception Care Navigator
 employer: Clayton Medical Centre
 region: Lancashire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2051-26-1708
-factual_fingerprint: 3539cbea2495681768da4d4a6a7b10a37611062e77e0de9f055f6ee08fb7053d
+factual_fingerprint: 7a8ab65cde32e0cd0cb4e0dbf2388a5b8f6b675ccaf1dcc722dc562874cae4cc
 ---
 
 ---
@@ -4649,9 +5011,9 @@ source_job_id: 5541834
 title: Architecture Analyst
 employer: NHS Blood and Transplant
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0048-26-0412
-factual_fingerprint: 9b15259afc6addd98f93f67a348c63efc494ab4db71f41ff2f8409c033bfbec9
+factual_fingerprint: 39e4f3cbd6abd51ae23c685585b706f26d374885c733e14fed2e95d476029966
 ---
 
 ---
@@ -4661,9 +5023,9 @@ source_job_id: 5540718
 title: Management Accountant
 employer: University Hospitals Dorset NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0684
-factual_fingerprint: 616dc4a932eee1842b5efa9f8c24799bc286e83b4012bf23819cc924a8a5c124
+factual_fingerprint: 27d3c2a630f788ff9ebe086afbb950e303e3c103652e542be853b27ce090c2cd
 ---
 
 ---
@@ -4673,9 +5035,9 @@ source_job_id: 5541821
 title: Administrative Officer - Obstetrics & Gynaecology
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0801
-factual_fingerprint: 96b4bf37a157514ebe523498ef36126317c0c56816ff706213ae5944f1ed6fef
+factual_fingerprint: 54f8f2e15bb596b9c95b08000ec0d4bbad5e8c79239464674cd68539095dfa5b
 ---
 
 ---
@@ -4685,9 +5047,9 @@ source_job_id: 5541812
 title: Adult Social Prescriber
 employer: Foundry Healthcare Lewes
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4054-26-0010
-factual_fingerprint: b5acf151dd41bbbdfc914ff4a5a840c04df13f89ae9b60ae2eb19d1278055f3a
+factual_fingerprint: eb4aea152f93adeceb99f03342a4cb1e0911726911f9b17bcda989f3e3a96f10
 ---
 
 ---
@@ -4697,9 +5059,9 @@ source_job_id: 5541772
 title: People Partner
 employer: The Children's Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0474-26-0051
-factual_fingerprint: a4116e66b1d4fed75de3e908cb92e73afb85f93853d6f153062cb3c892fd579e
+factual_fingerprint: 80286abd14a46b41fd6a7478b98bbb5cfc69349b5078a3e2430e0bf96c3aa4aa
 ---
 
 ---
@@ -4709,9 +5071,9 @@ source_job_id: 5541747
 title: Workforce Systems Officer (XN04)
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0800
-factual_fingerprint: cbedfb1d47e7cfc1dfac362a281a926df1c1d38d6e7dd6136fd3be0717d30fd1
+factual_fingerprint: 43279a5fd500a1d516050750052ec1af58bd995ae6c8b5c85c231a1ecf558310
 ---
 
 ---
@@ -4721,9 +5083,9 @@ source_job_id: 5541746
 title: Capital Contracting officer
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0799
-factual_fingerprint: 3f5c7342a996c664c43508d665d40a8bb6973b54738785a1a26c0eda0b2f465d
+factual_fingerprint: 6c0752bfd2dbc2756f6e21a3eea35f7ea56a4638c2b68da36352ab720d3711c0
 ---
 
 ---
@@ -4733,9 +5095,9 @@ source_job_id: 5536797
 title: Clinical Research Coordinator
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0690
-factual_fingerprint: e153679c67a7780c7b312c0d1ab56b17f753f68afe64196461398e09fe0ba141
+factual_fingerprint: a8f11567bf0b5b519fef0b51345ce9feb06c72e267f09b0d9fab8fb7b28fbbfe
 ---
 
 ---
@@ -4745,9 +5107,9 @@ source_job_id: 5541707
 title: Patient Services Team Member
 employer: Castle Donington Surgery
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1688-08-2026
-factual_fingerprint: d99cbc4e326acded0334ca9ca4721af5f98a993c47b2a94069002f53d521e992
+factual_fingerprint: 9739f354105cc24dbeeb4d8ba9baaa491b430f8f59706ab70c105d720ebf14e9
 ---
 
 ---
@@ -4757,9 +5119,9 @@ source_job_id: 5541686
 title: Admin Team Leader
 employer: InHealth Group
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0410
-factual_fingerprint: 23bfcf66bf01dcd08caf1762f2e9ae743eb4d5c18bf2c197ee20396f220f132a
+factual_fingerprint: 2c48df682aa4a63eba71d9f4d99f0f63ba2c36a27ed0ff11a4f329329911741e
 ---
 
 ---
@@ -4769,9 +5131,9 @@ source_job_id: 5540559
 title: Reception/Administration Supervisor
 employer: Christiana Hartley Medical Practice
 region: Merseyside - Sefton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4758-26-0001
-factual_fingerprint: ab3cb81c6d7a18ab50551461b99c57eb58585d8dace8740e1ec753882589ad59
+factual_fingerprint: 030bbf08901be35e41ac3e9382662eb025e9c9f203ffcc34492b0bedd25eebac
 ---
 
 ---
@@ -4781,9 +5143,9 @@ source_job_id: 5541244
 title: Clinical Administration Support
 employer: Bury Hospice
 region: Greater Manchester - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0085-26-0008
-factual_fingerprint: 3d3db91313604b66b3e266baf0f4ea856e75a41c03276f1a7579d4467ac18c7a
+factual_fingerprint: 5d8fefcbf0fac84a7fddc839df6198186ef6d2a43b1d3aaad40787b581e0c334
 ---
 
 ---
@@ -4793,9 +5155,9 @@ source_job_id: 5537913
 title: Patient Services Assistant - Kilmeny Group Practice
 employer: Modality Partnership
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0281-26-0141
-factual_fingerprint: a0d95ce28f1454055f1a18c2f822ea2c512abf977c0d9a03fad5b4a507fe0c50
+factual_fingerprint: 573f9305db73be99e5b31ee6d2a22972ca1ac58ddc19b12fd3afb1916c7b41c8
 ---
 
 ---
@@ -4805,9 +5167,21 @@ source_job_id: 5534339
 title: Patient Services Assistant - Haydock Medical Centre
 employer: Modality Partnership
 region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0281-26-0140
-factual_fingerprint: 81f535b63f8cda194158304335c10697871cff0ff3757c24890ce332b637bcc7
+factual_fingerprint: 01fb652ae2effa95b05aae5eac9831c9714fe0820918956b327df96300a0543d
+---
+
+---
+action:
+POSS | NHS Jobs | Staffordshire | Stafford, ST16 3SR | £28392.00 to £31157.00 | Digital Operations & Supplier Assurance Support Officer
+source_job_id: 5541309
+title: Digital Operations & Supplier Assurance Support Officer
+employer: Midlands Partnership NHS Foundation Trust
+region: Staffordshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1164
+factual_fingerprint: 1c589b776c23f8bf23fe4f44b85dbef72099dbaab4f3e90856207126c7b3edb2
 ---
 
 ---
@@ -4817,9 +5191,9 @@ source_job_id: 5541451
 title: Booking Coordinator
 employer: Salisbury NHS Foundation Trust
 region: Wiltshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0329
-factual_fingerprint: 755b34fe7e2e762c4e7e471a9abfca8c495a236d49bc728e24e07d08741eb3cc
+factual_fingerprint: 97cc20cf6a0880cfd12312d35ca7d44bb2dd87bc9945186772d696b1154011a0
 ---
 
 ---
@@ -4829,9 +5203,9 @@ source_job_id: 5541379
 title: 999 - Dispatch Support Assistant - Bicester
 employer: South Central Ambulance Service NHS Foundation Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9195-26-0533
-factual_fingerprint: 073559ba6bac889a573bbafb593469d0b6c104cfeb4bbc16458cd3871175b054
+factual_fingerprint: 8d5155a24058251bed1abd43fb681ea301954cbbdc799dc08499e6312f12a195
 ---
 
 ---
@@ -4841,9 +5215,9 @@ source_job_id: 5541169
 title: Learning Technologies Lead
 employer: Harrogate and District NHS Foundation Trust
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9421-26-0435
-factual_fingerprint: 8fe25fb27ac220208a156c7f101d6779d5e9d6b3bc779e8646e58341b18cc2f1
+factual_fingerprint: a93718d438e59d8c08f9c96575df8028390e807fc1ce8617888c22512c15ef4f
 ---
 
 ---
@@ -4853,9 +5227,9 @@ source_job_id: 5538362
 title: Care Coordinator - Central Camden PCN
 employer: Camden Health Evolution Ltd
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0328-26-0004
-factual_fingerprint: d4dab4b0516605b5963a9b4502e48df21bd350c2790ec2299e12bd1d172fcc9d
+factual_fingerprint: 4c6dfe2eea8d31716fd60467b91eb355211649d1811099f2a91ef053171b7adc
 ---
 
 ---
@@ -4865,9 +5239,9 @@ source_job_id: 5541118
 title: Team Secretary
 employer: Sussex Partnership NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0996
-factual_fingerprint: 764d685fd8f6edff79ef8797f922ed624445783bb287b9d1dfaa75e672ecaa4f
+factual_fingerprint: 3664125d58a8a023e9ffe1e471327ca7dc27a401d6fd617793abe3fef3b47386
 ---
 
 ---
@@ -4877,9 +5251,9 @@ source_job_id: 5539058
 title: Admissions Coordinator
 employer: East Suffolk and North Essex NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0621
-factual_fingerprint: c717cc2cc5a5c2e9e4c50a96af36d2a73a0014c97383062126b55bd5d4f9e421
+factual_fingerprint: b8c4a3f74ffea325d61b1483fe2f5da33d487732e0e931622178369d9b5e63b4
 ---
 
 ---
@@ -4889,9 +5263,9 @@ source_job_id: 5536261
 title: Customer Services Supervisor **** Internal MPFT Only****
 employer: Inclusion
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0198
-factual_fingerprint: 7de90c29a0531f1d40f63ce838175687d43a3cc1c30d577b892a45aa9421da62
+factual_fingerprint: 881e315fbaa25c1d9edb317ce812d8bdb6909a89f29847badfb1110242bce24e
 ---
 
 ---
@@ -4901,9 +5275,9 @@ source_job_id: 5539359
 title: Communications Officer - Content Production
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0622
-factual_fingerprint: 83f0f1294e7d332a07c3f111ed659cfde25918e7184a6b3a6d0095c5035edad0
+factual_fingerprint: c946aa865031bb464ae4ea965d23d02556c46c85ef9a63ed2ab005ce88463dca
 ---
 
 ---
@@ -4913,9 +5287,9 @@ source_job_id: 5536450
 title: Applications Developer
 employer: Midlands Partnership NHS Foundation Trust
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1158
-factual_fingerprint: a8d3fea4f4d55b2a32e44a2f45604a34240fe8c6f69489317d2672eb78e4a436
+factual_fingerprint: 85bbcc24ac51f2f02656ef681e5b8dc7fab6c2aac1eeeae358a4df52276a81ec
 ---
 
 ---
@@ -4925,9 +5299,9 @@ source_job_id: 5538994
 title: Pathway Support (Waiting List)
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0779
-factual_fingerprint: 74473f4116cd9f89b9e6ee619a6847ab7192c54c3db73e930e276b30b53cc396
+factual_fingerprint: 37e79da13dc9f7c4a77de57d2b44ef554b7a5230ed6c1e2a7e08f101e81294ff
 ---
 
 ---
@@ -4937,9 +5311,9 @@ source_job_id: 5540766
 title: Care Co-Ordinator/Accounts Officer
 employer: Torbay and South Devon NHS Foundation Trust
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0680
-factual_fingerprint: 1ec7dc74cdea5a27aac3d668c3fc3711aeb5d5a43bfb499db4d1a9be905b9e22
+factual_fingerprint: ece90078565fc0cea91a4c333ab6fc9b73017ab2be0708cff0f271a752796c21
 ---
 
 ---
@@ -4949,9 +5323,9 @@ source_job_id: 5539077
 title: Pathway Co-ordinator (Waiting list)
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0782
-factual_fingerprint: f665e8891016e49a6c63e06548d37b6045d12a2b595990776d05b3c2f3c85234
+factual_fingerprint: b54fb6a56669113d2bf7c56333fb484b22d6e5c864d7f7d608f2668bcb018c3e
 ---
 
 ---
@@ -4961,9 +5335,9 @@ source_job_id: 5540958
 title: Strategic Planning Lead
 employer: Isle of Wight NHS Trust
 region: Wales South -gwent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0427
-factual_fingerprint: 7c0a0ed79ea0e88d8526b0b933927764039f8d689531c3b107a5f4edae4d2dbd
+factual_fingerprint: 1b00ecb48199a0b3fcc07a6584735d697da9b64688aaf971bf1d3aae5ae40913
 ---
 
 ---
@@ -4973,9 +5347,9 @@ source_job_id: 5540762
 title: Outpatient & Inpatient Waiting List Clerk - Sleep Service
 employer: Manchester University NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2425
-factual_fingerprint: b64d1824a68e80a57316ae22a280558f8f561ef05dfc5c731f65ad838dce76a0
+factual_fingerprint: e225a77a9c05d54c41cd79f5b4e4c404cf9e3c13d64325e43ff1921c6d2bf7e3
 ---
 
 ---
@@ -4985,9 +5359,9 @@ source_job_id: 5540003
 title: Switchboard Operator
 employer: East and North Hertfordshire Teaching NHS Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0475
-factual_fingerprint: 08fde90a1bfcacfe55b61e6a52cad49dcab303bbcc38fd1c51757d187a6d9997
+factual_fingerprint: caa1999e3bb3b501842b936b8a6e1be326c750d90476565183d3b28a4042eca2
 ---
 
 ---
@@ -4997,9 +5371,9 @@ source_job_id: 5540438
 title: Deputy Systems, Reporting and Subsidiary Accountant
 employer: North Tees & Hartlepool NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0314
-factual_fingerprint: 52b56782ed84b8eaf134557fc07a2e5825b27486ea2ddca51c496dd25e91658d
+factual_fingerprint: de9f582ffd84d2e4fd4e582c7fdbe2334d99ddf6e449d1121b2b6836e5f1df92
 ---
 
 ---
@@ -5009,9 +5383,9 @@ source_job_id: 5540891
 title: Inpatient Admin Coordinator
 employer: Sirona care & health CIC
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0439
-factual_fingerprint: 2200d7094afad83349fb036c96e6c92fadd56b3823ab2f39b3be0dd9a780fb05
+factual_fingerprint: 7883a42c78b12a8c7ace8c0720ab7f842e8b89aa08e01e63c340feff7939ec79
 ---
 
 ---
@@ -5021,9 +5395,9 @@ source_job_id: 5540904
 title: Immunisation Administrative School Support - Ellesmere Port, Cheshire
 employer: Intrahealth Ltd
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0143
-factual_fingerprint: 6fe19d80258d2796125d527e2322a93abd3ed272558fc9aaf37ab0b470b303ab
+factual_fingerprint: 53c4872a24c8263331407db06aeb5f7128331944e9079ed200694aa2930e8788
 ---
 
 ---
@@ -5033,9 +5407,9 @@ source_job_id: 5540159
 title: Recruitment Coordinator
 employer: HCRG Care Group
 region: Cheshire - Warrington & Halton
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2071
-factual_fingerprint: 87633e64046e4d160fd1dd47c738e86df7e156a523b8710748cae821a0bf93ac
+factual_fingerprint: 5e2854aaa183721180dbab0f5cd09591bb7f41c64ae46bfbe802260853f00e17
 ---
 
 ---
@@ -5045,9 +5419,9 @@ source_job_id: 5540876
 title: Medical & Dental Temporary Staffing Booking Coordinator
 employer: Salisbury NHS Foundation Trust
 region: Wiltshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0328
-factual_fingerprint: 411bb19b859962896ef5a825da7c7ca7468d5c6ab62c6bb1d7b2671da8ce0131
+factual_fingerprint: 5a631250829a4df0524c37d30a8101ed309a5020eb2f3fb128239affcdd8b3ee
 ---
 
 ---
@@ -5057,9 +5431,9 @@ source_job_id: 5540164
 title: Quality, Information, Safety and Governance (QISG) Co-ordinator
 employer: Integrated Care 24 Ltd
 region: Kent
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0115
-factual_fingerprint: efcbc9b758c2601d43094fa0b95803057ee21ca59898c0d3a521475b9d57a869
+factual_fingerprint: 0a9635e8e0e7d03ffc185fb6146c0cbd31071fbb47051e01d902b60000ccc3b4
 ---
 
 ---
@@ -5069,9 +5443,9 @@ source_job_id: 5540893
 title: Band 4 Medical Secretary Supervisor - Colorectal and General Surgery
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1244
-factual_fingerprint: 11ad2002bac1593d64f2ade9ca477e4784b553b4fb49c66843b487fb735dc86c
+factual_fingerprint: 7af1ddbac8c9f31ac59e45445f1c0dcb010ffb4e0464797c0d8609b638f5798f
 ---
 
 ---
@@ -5081,9 +5455,9 @@ source_job_id: 5540791
 title: Workforce Information & Analytics Lead
 employer: Wrightington Wigan & Leigh Teaching Hospitals NHS Foundation Trust
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9302-26-0365
-factual_fingerprint: 0aa4c99bd5b2097c900cad89fd7d14e45198b3bf11cac994b08d2ee724a5348f
+factual_fingerprint: 8206b2ca85aa9c3706342b21219aab0c22b71ca3809cd740b13c166ba0936eba
 ---
 
 ---
@@ -5093,9 +5467,9 @@ source_job_id: 5540821
 title: Mental Health Legislation Officer
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0960
-factual_fingerprint: c28043decc9f79d2894464f7759feab8a88c6028f1dd95542143465380ef5387
+factual_fingerprint: b5a53e4a1aa1a8e165de18cf535b6b21e041ff3b6c99c138a4aa1e5ad92e8e72
 ---
 
 ---
@@ -5105,9 +5479,9 @@ source_job_id: 5540789
 title: Paralegal
 employer: Royal Berkshire NHS Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0532
-factual_fingerprint: 823ffea5dbfe8ed130db6ff085c98887f5f3a6b20a676629a69d8066d142c710
+factual_fingerprint: c614d9cdf5f1a205d70b60a8899744459b1aecff24a7393ee292a915aefac5d6
 ---
 
 ---
@@ -5117,9 +5491,9 @@ source_job_id: 5540681
 title: Care Co-ordinator
 employer: Maidenhead Primary Care Network
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5556-26-0010
-factual_fingerprint: 3bfccdf3b69835ef80afa53b8d43e8eb688a1d25bfd58c40166d75cb5b796791
+factual_fingerprint: a558c56aa7d5186d99caa5c6c18924521f5ec223bbd7031180a3c007acf40d58
 ---
 
 ---
@@ -5129,9 +5503,9 @@ source_job_id: 5540662
 title: Contracts Assistant
 employer: City Health Care Partnership CIC
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0267
-factual_fingerprint: d1e356e55e0f9b6de0437d699a493028f7a7bd0f1d54948168c44e99edf21196
+factual_fingerprint: ed9a9d49dec6889441aca6b1a84667f3434fc9a1d29259bd57f92b47e26274db
 ---
 
 ---
@@ -5141,9 +5515,9 @@ source_job_id: 5540737
 title: Senior Programme Officer (Medical)
 employer: NHS Employers
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0532-26-0011
-factual_fingerprint: 02d77f1244277eb1967806747a45054efe765a7766bbe7a7ccadba3f9d9e2724
+factual_fingerprint: 2fb2af0350747a2eeb5f91781b6395d752f57387936a7b7b7125748698a66265
 ---
 
 ---
@@ -5153,9 +5527,9 @@ source_job_id: 5540001
 title: Patient Services Team Leader
 employer: Bowling Highfield Medical Practice
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5468-26-0006
-factual_fingerprint: bb167d2d24ce1e540825d530b3fd9efb1d89759e09ff69444dffb44a903c773e
+factual_fingerprint: 58890db9552bd30e4d78902494e14cb145600b65d298e888ca0d290069ff81ee
 ---
 
 ---
@@ -5165,9 +5539,9 @@ source_job_id: 5540710
 title: Senior People Advisor, Band 6
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0733
-factual_fingerprint: 438f5d9a15aac5cb11fc4a1e1c1b6927a66a9236a36f4138eb7e63cd17af3304
+factual_fingerprint: d2e741482b143b4213f5572891591795ec009c0b76d7a5d4493fa3f43f8cb82c
 ---
 
 ---
@@ -5177,9 +5551,9 @@ source_job_id: 5540652
 title: SharePoint Migration Officer
 employer: City Health Care Partnership CIC
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0266
-factual_fingerprint: f33370552427423e1ab26f4b7c202ac2d45b07c1eaf3f1d854b0e83d4cefc351
+factual_fingerprint: 2f9f3ec54eb899f2084093f7b928449aa815079a7f6a49d7935647d6d7616681
 ---
 
 ---
@@ -5189,9 +5563,9 @@ source_job_id: 5540650
 title: Estates Compliance Support Assistant
 employer: City Health Care Partnership CIC
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0265
-factual_fingerprint: 4e5ae75d1f01ea7823a6728f92ca013244c4c8399c3eb3ceb0a296b78cbf0931
+factual_fingerprint: 370ee8f468287c1325bb57ffa6bfe21857460b378fac96d980cec7391d5450f8
 ---
 
 ---
@@ -5201,9 +5575,9 @@ source_job_id: 5531562
 title: Apprentice Digital Automation Developer
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0620
-factual_fingerprint: 24750a94e693592adcf1dfe250408ae415d3ee85616c2d8db6935cb98cd05d1b
+factual_fingerprint: 88ef7cebb5e823e9ebff18c88f3c35dbb5c7b3b3dfc3c899ebc1a28bddc11cd3
 ---
 
 ---
@@ -5213,9 +5587,9 @@ source_job_id: 5531600
 title: Digital Automation Specialist
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0621
-factual_fingerprint: c10acddc7a367c7d97595a76bc83a4079930dbc88520cc3d8d775c5176caf933
+factual_fingerprint: 6608a0f7f701d131c3574cda9140f6eedc0038cca7ffd68bfd86ebdcf6af3a5e
 ---
 
 ---
@@ -5225,9 +5599,9 @@ source_job_id: 5531612
 title: Digital Automation Business Analyst
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0623
-factual_fingerprint: 65577cafb45016ccc03ca4927e129db267dfa6f0c64b7e655a7165228eecfb4f
+factual_fingerprint: bba2c066ee5bd0ff3d80a1ed8388e5e856e63dc3b8972c62af5df3eb57ed19e7
 ---
 
 ---
@@ -5237,9 +5611,9 @@ source_job_id: 5540326
 title: Designated Clinical Officer Special Educational Needs & Disabilities
 employer: NHS West Yorkshire Integrated Care Board
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9475-ICB-661b
-factual_fingerprint: 3467e68ec7f21d53d62fb217a482a71c9bbeb9a049d60a5fb90e133f9479405b
+factual_fingerprint: c71dbc45076fce5c4144b274d15b9b7e6bc772d74707c26a58a612bcb998227b
 ---
 
 ---
@@ -5249,9 +5623,9 @@ source_job_id: 5540320
 title: Administration and Procurement Officer
 employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0474
-factual_fingerprint: e190c62a7b838f524b7f8b182d86750d67a47436da99e7eb89ed42c0388f0357
+factual_fingerprint: 33512a4415226287a8d3731965afeb6aa3638baf91f83b964c2146c16375d0c0
 ---
 
 ---
@@ -5261,9 +5635,9 @@ source_job_id: 5540501
 title: Event Executive
 employer: Guy's and St Thomas' NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-26-0964
-factual_fingerprint: 1ecfe8ff1edb80d46937657fe96584a5defdf496d53e50baccb9cb177a4c657d
+factual_fingerprint: cd18e516a7577786aeb2ec7135af26b096d03fd2e8345d381731bf870bd56a8b
 ---
 
 ---
@@ -5273,9 +5647,9 @@ source_job_id: 5535975
 title: Care Navigator (Reception Team)
 employer: East Park Medical Centre
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0887-26-0012
-factual_fingerprint: 28bc82532ca9aec1b0fefcd6a8be20b62b0491a8bd260db37a8c79fcfaf56a68
+factual_fingerprint: 059fe24a710a892add6d33a8152361aeb959e3c818814639c548fb5f6df5e1bb
 ---
 
 ---
@@ -5285,9 +5659,9 @@ source_job_id: 5531629
 title: Junior Digital Automation Developer
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0624
-factual_fingerprint: 82c3e7abc5ccd9e106d3719a26dd98db9f4bbb686ad95b9d090498cb68d4797b
+factual_fingerprint: d825cb5eaf341dfcb8bc7f6c0c512eb12023ab095541e72883aa0cd0f63a7ca2
 ---
 
 ---
@@ -5297,9 +5671,9 @@ source_job_id: 5540410
 title: Endpoint Configuration and Deployment Lead
 employer: The Shrewsbury and Telford Hospital NHS Trust
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0845
-factual_fingerprint: 209a0411ff45a64c6bafb0af064bac449cb72a71b910de8993f0d6e1d70e8751
+factual_fingerprint: ffa8ccaa475ad1cdddc2dd8bf85e4461b2fd1de50892fa2398484bcd9231f4b9
 ---
 
 ---
@@ -5309,9 +5683,9 @@ source_job_id: 5540392
 title: Apprentice Admin and Clerical - Department of Medicine
 employer: Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9224-26-0306
-factual_fingerprint: caed359f7dd7fbe2e050023ef548fc30c35dced7c10b562c94f96b48c2834180
+factual_fingerprint: 7fc26f8768414611539bc9dfe4ca5fa27dec7ccb27492ac422eb852ad95b6649
 ---
 
 ---
@@ -5321,9 +5695,9 @@ source_job_id: 5540347
 title: General Surgery / SOS Rota Coordinator
 employer: East Lancashire Hospitals NHS Trust
 region: Lancashire - East
-reason: BRIDGEABLE: Potential admin/service title: coordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0460
-factual_fingerprint: 0dc3f3a931b84fe58d1a92f2b022b5bc009845be5b9a7ee6235ded90e9d97a5f
+factual_fingerprint: 67b1eb463b33e9f96b3f3cc2c22533a79a3b381fbe60ae2b7c805669e440be2c
 ---
 
 ---
@@ -5333,9 +5707,21 @@ source_job_id: 5540356
 title: Perinatal Pathway for Vaccinations Failsafe Officer
 employer: Royal Devon University Healthcare NHS Foundation Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-0983
-factual_fingerprint: b740dc45e658106bd65fc4817ee47101bfa2480ff3378ff2c86821414c200bd9
+factual_fingerprint: b3c4853d871b19ba950ad084b8ec994bda6a50398244dd84480627f43603c796
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, RM7 0AG | £30630.00 to £32346.00 | Commercial Procurement Logistics and Supplies Support Officer
+source_job_id: 5539868
+title: Commercial Procurement Logistics and Supplies Support Officer
+employer: Barts Health NHS Trust
+region: London
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1437
+factual_fingerprint: 4ff960ebc2c81ceb165b8a8643e981767181d0c8772d75ee55d5f879a22d6172
 ---
 
 ---
@@ -5345,9 +5731,9 @@ source_job_id: 5539971
 title: Medical Secretary
 employer: Barton House Group Practice
 region: London
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2327-26-0009
-factual_fingerprint: 4ac4e126c9e4a999dc945ac51d31e6a6ed62047956e4a469674801de19de2fc5
+factual_fingerprint: 4c04e100150d10c65fde99a1bc982a0d9f029d30f5d77f33b3fb281c5239bcc9
 ---
 
 ---
@@ -5357,9 +5743,21 @@ source_job_id: 5540234
 title: SORT Education Facilitator
 employer: SECamb
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9278-26-0113
-factual_fingerprint: 7221c842408eb4067bdbb027337feb402dfb2db99f3fb3e96485756e10d9c975
+factual_fingerprint: 87c0504576fc618f40ddce9c47e259eb8690fdb9e3564f8a446e876f6f211edd
+---
+
+---
+action:
+POSS | NHS Jobs | Wales South - Cardiff & Vale | Cardiff, CF14 2TL | £26813.00 to £27890.00 | Charity Fundraising Support Officer - Staff Bank
+source_job_id: 5540264
+title: Charity Fundraising Support Officer - Staff Bank
+employer: Velindre Cancer Centre
+region: Wales South - Cardiff & Vale
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9120-26-0110
+factual_fingerprint: e31b233bb25b5f816f2c32eb441b73ed2f392dc5b8c6d0e509298a5538411945
 ---
 
 ---
@@ -5369,9 +5767,9 @@ source_job_id: 5539762
 title: Digital Content and Engagement Officer
 employer: Barnsley Healthcare Federation
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0243-26-0047
-factual_fingerprint: 68a7aab030d3937c3e5d79cc953c8339a304707f664c2298f77a997d7e58c08c
+factual_fingerprint: ef60bc2251e51ba9287394a0c8f04425338a6337d804f2421be05e769d486573
 ---
 
 ---
@@ -5381,9 +5779,9 @@ source_job_id: 5540035
 title: Senior Programme Officer (Workforce Supply)
 employer: NHS Employers
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0532-26-0010
-factual_fingerprint: 3ba97eb44621f3ec1827c6f3638beb7431d9f96d399d13c81321b43b71fb25b4
+factual_fingerprint: 4060a5f962043dda30664adc0c9fdaff07770ec17e52c372ca0e6bb1c92f18c7
 ---
 
 ---
@@ -5393,9 +5791,9 @@ source_job_id: 5538941
 title: Health Records Scanning Bureau Clerk
 employer: University Hospitals Dorset NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0679
-factual_fingerprint: 8e93f0ab4efc7aa6784dcba39568a94fd60a347ec898081372b7dcc81a6d1b76
+factual_fingerprint: 84f8a609b534fa2c6283d7ac1e2231e7147c2a034e2654496efc184cbf07b1da
 ---
 
 ---
@@ -5405,9 +5803,9 @@ source_job_id: 5540135
 title: Clinical Systems Support Floorwalker
 employer: The Shrewsbury and Telford Hospital NHS Trust
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0840
-factual_fingerprint: 7b7576cfe35c360511e358b6d781bb6314b069ec17e2a8db647320812af24503
+factual_fingerprint: cb40597804014e2241b322d4a5a8dce08aca9189ac33ab9b7a3cc962dd5a9978
 ---
 
 ---
@@ -5417,9 +5815,9 @@ source_job_id: 5539968
 title: Prescribing Clerk
 employer: The Chislehurst Partnership
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2753-26-0017
-factual_fingerprint: 35718fc9f40654d08f9d38352d826c6531799a95ba7c61ab24cc82aa14689567
+factual_fingerprint: 36e509ae3a3c2dc24abd0783f4c153fb2c7676a4e17ba5348752e1ed2fa82365
 ---
 
 ---
@@ -5429,9 +5827,9 @@ source_job_id: 5540144
 title: Clinical Secretary
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-0939
-factual_fingerprint: d0cbc18ec77c477b43dcd04b0ef4620b7a3d0cd635c7781a91fa7cf415230fb9
+factual_fingerprint: d02db201629fdee9215990542204191d95ab5d180f1bcc0e0489b4ad571e9065
 ---
 
 ---
@@ -5441,9 +5839,9 @@ source_job_id: 5540121
 title: Approvals Specialist
 employer: Health Research Authority
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0111
-factual_fingerprint: 968b53124e00250c014196abed2f66755e7a57447ab8a5b2fd0dad52511b82bb
+factual_fingerprint: b61bc7d21fadc6e2d2e997663b9b7dd4a8ce1ea0c1cd387dbe7b972d3f92d9e5
 ---
 
 ---
@@ -5453,9 +5851,9 @@ source_job_id: 5539874
 title: Patient Care Coordinator
 employer: Diamond Health Group
 region: Somerset
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3449-26-0006
-factual_fingerprint: 5a1fb63b1cb533204e3cec6931209dd51cf7fba7748f806df9bf75f815d1d65d
+factual_fingerprint: f97144c6067c414eb45f7c044cb53a62e3bd6525697538bd72a8e0faaae022ef
 ---
 
 ---
@@ -5465,9 +5863,9 @@ source_job_id: 5538736
 title: Medical Secretary Support -St Margarets Hospital
 employer: Essex Partnership University NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0758
-factual_fingerprint: 8d19a0029ed15aa9c6539856131c2c4a552b3683170b8e216ac43b9588d5fce1
+factual_fingerprint: a3f50a61ba78d0b62e64f19edb60440c8e69d6867652c518746b21d1f32fed85
 ---
 
 ---
@@ -5477,9 +5875,9 @@ source_job_id: 5540046
 title: Senior Fire Safety Advisor
 employer: Torbay and South Devon NHS Foundation Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0678
-factual_fingerprint: 61adf2d341eb0dcde53dbe6357e3a77e7180acb38dc3a3f4003c7b09c26d354c
+factual_fingerprint: d0cdb128c142222cf40356fbd16be33482afd89b083170c4df130bd4c39f1cdf
 ---
 
 ---
@@ -5489,9 +5887,9 @@ source_job_id: 5539759
 title: Patient Services Team Member
 employer: Bowling Highfield Medical Practice
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5468-26-0005
-factual_fingerprint: 4cce0f434e155d956b8c2486d443c6042d2de9d8fb81f3337f03d3098b55afc1
+factual_fingerprint: e0e3dab0408c3bbc66d27c4a0301db2c953382529401ac225ab099d6befca874
 ---
 
 ---
@@ -5501,9 +5899,9 @@ source_job_id: 5538522
 title: Anaesthetic Coordinator
 employer: Hull University Teaching Hospitals NHS Trust
 region: Yorkshire - East
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0588
-factual_fingerprint: 4a14859c998b282217dbcade94a2235f80b3496e4c2c9b723f1fd4f88586274c
+factual_fingerprint: da5f85dd4eb3a2c945a925c4bd2d74b2630a22af9e0d4a50de274a5015595b36
 ---
 
 ---
@@ -5513,9 +5911,9 @@ source_job_id: 5539588
 title: Clinical Information Assistant
 employer: East Midlands Ambulance Service NHS Trust
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0117
-factual_fingerprint: 239a902e0a0fdfb95fa416de7307ce282777c66bdf1e3d51f9c7f2a74984ff8a
+factual_fingerprint: 095e166b4078fb34c172432d2c3833e258ec7f8e879c06ceba47659eed86fce6
 ---
 
 ---
@@ -5525,9 +5923,9 @@ source_job_id: 5539935
 title: Patient Co-ordinator
 employer: Mendip Vale Medical Group
 region: Somerset
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0042
-factual_fingerprint: f2df8db054651333ecb978b241d488c1b7f51d21dee4bf9aec1b828566d49ec9
+factual_fingerprint: 59886b49940db8314f8466294c09fa34e4186709910a56ed36aa7a9318716181
 ---
 
 ---
@@ -5537,9 +5935,9 @@ source_job_id: 5539898
 title: Patient Co-ordinator
 employer: Mendip Vale Medical Group
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0041
-factual_fingerprint: f85a1751f0aaaafb1a332f00a2a647dac3b7fe4688f688d00cf14ee2b75fd411
+factual_fingerprint: cdec6e7e29b4c317532b21538fed67d9354b43abe0c925804a8a77bcf94d4acc
 ---
 
 ---
@@ -5549,9 +5947,9 @@ source_job_id: 5539813
 title: Locality Secretary
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1851
-factual_fingerprint: 31434e2175d37698c8c2e00cc56b6a3372eff9b6105b4269e7d33cb5737d4ba1
+factual_fingerprint: 485b08f50633a3c5811e934e07c9912b488e940df5ebc1b5dd357c3c55a89ade
 ---
 
 ---
@@ -5561,9 +5959,9 @@ source_job_id: 5539795
 title: Patient Co-ordinator
 employer: Mendip Vale Medical Group
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0040
-factual_fingerprint: 85a62d43d91e555708013faff97e208b41d26dee68f7e65f698ba0781ff526f9
+factual_fingerprint: 7270139245e59ada1eff4db892811b5876a81701ae89d9b4b62018600cdc55a7
 ---
 
 ---
@@ -5573,9 +5971,9 @@ source_job_id: 5537757
 title: Patient Safety Investigator
 employer: Sandwell and West Birmingham NHS Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9381-26-0319
-factual_fingerprint: c3bf6582ec116197405ef4b35ecc6c6680ef7e81717bbe3c90a2274692297fcd
+factual_fingerprint: 3873bc8a43599e1d3c5613680c7ad79be1973353f79bffd0fd5f1d92b1539d77
 ---
 
 ---
@@ -5585,9 +5983,9 @@ source_job_id: 5538028
 title: Patient Pathway Assistant
 employer: Mid and South Essex NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Potential admin/service title: patient pathway
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-1946
-factual_fingerprint: d8700879307c406e0e2cb4057228fcc080f5d60445da2ebb39431e72e6b1fcc9
+factual_fingerprint: a0d187178d6a04d13e47bfd7e4f045f364ec9dd314ef725a09f8d1377eb3a18a
 ---
 
 ---
@@ -5597,9 +5995,9 @@ source_job_id: 5538017
 title: Senior Inquests Officer
 employer: Mid and South Essex NHS Foundation Trust
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-1945
-factual_fingerprint: 520155c7e8d48a396b767584068f4998a48b3e0287ac29bf583fc6d3eea755b8
+factual_fingerprint: e336f217acab4acd0b29eb48ff257265086b2dcc06ba647bdd69a5d4e0a1be10
 ---
 
 ---
@@ -5609,9 +6007,9 @@ source_job_id: 5539725
 title: Social Prescribing Team Care Coordinator
 employer: Island City Network PCN
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5530-26-0005
-factual_fingerprint: f16ebba909465651d0e8e6f0594cf02a8c2e6cf04ed382bda1c15ffe920e4302
+factual_fingerprint: ebede8df4ca46dd713e8b0b80317657a68a10b58e231e9ff3a367e4c4d7e9123
 ---
 
 ---
@@ -5621,9 +6019,9 @@ source_job_id: 5539705
 title: Procurement Business Officer
 employer: NHS Wales Shared Services Partnership
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0211
-factual_fingerprint: 48aea9d528d5f8d3051b270709dc5d0e8096ff7e3f30c531033744a72df992fa
+factual_fingerprint: b48083e859ea326abaa83ad98d5288fda3fe1bbf5962ec7e346d18776cee4b4e
 ---
 
 ---
@@ -5633,9 +6031,9 @@ source_job_id: 5539314
 title: RTT Validator
 employer: London North West University Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0656
-factual_fingerprint: 533640aee0a80bf88a57194eaea24faad145296e9815307cc11d60cf1c0a8980
+factual_fingerprint: 2d9c11b021b7760cc9f166e8b19d927238bb7715a9c67ae89c0998c261e3cd70
 ---
 
 ---
@@ -5645,9 +6043,9 @@ source_job_id: 5539637
 title: Healthcare Assistant
 employer: Practice Plus Group - Health in Justice
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0137
-factual_fingerprint: 8f6ed56979f3799cf820817d2f7ebd71fa379afea11718190790a14273e61e76
+factual_fingerprint: 25b834b280fd4bd66bd3642550b4b1a9e444a91cbcb1a9c506e1b8e934d248cf
 ---
 
 ---
@@ -5657,9 +6055,9 @@ source_job_id: 5539250
 title: Medical Secretary
 employer: Bosworth Medical Centre
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1736-26-0000
-factual_fingerprint: b4ff27ed8762e2d54efc82fcdef7e2e58ce5e0ccfc98e40f4c87082400d19294
+factual_fingerprint: b9a125d41a7c444b2313a095c60589def4d96033575edd121a65d4170508b791
 ---
 
 ---
@@ -5669,9 +6067,9 @@ source_job_id: 5539601
 title: Education and Wellbeing Specialist
 employer: Brook
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0332-26-0049
-factual_fingerprint: 5d5d74c412857cefad8662e2f4b41a0ef57695d14d52372ee0d42bc406604de1
+factual_fingerprint: 68f1c24ac4992da470598eb21c351396570c202fa3d8b6d5c8359ddd563f3f85
 ---
 
 ---
@@ -5681,9 +6079,9 @@ source_job_id: 5539518
 title: Medical Education Assistant
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0445-S3
-factual_fingerprint: 4918abe4793f1b406473e0be28a74b616dffb0b0f292eaa78cf966f967e4ad49
+factual_fingerprint: 9128db4ae6848c7401764ea505989638a16094dacc32c0573df9c82cf25344b7
 ---
 
 ---
@@ -5693,9 +6091,9 @@ source_job_id: 5539534
 title: Assistant Medical Secretary (INTERNAL)
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0718
-factual_fingerprint: f0cbf0d6e30115efbab23c329e1574d64eedf10814586b93109d3922e1efaf9e
+factual_fingerprint: 79f35594ce6c94bf6876dd351ff941d033949ec042362a1388cd6059a38372de
 ---
 
 ---
@@ -5705,9 +6103,9 @@ source_job_id: 5539446
 title: Service and Interaction Design Lead
 employer: Health Research Authority
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0110
-factual_fingerprint: faff7475ffd55558718b2415d0c6147e8319863a221121c7f52ff1a151bb3ee6
+factual_fingerprint: 4c7f970fb507cae64c71a1797fca4ef95a61d75e37aeae3a3de36bfa34371b10
 ---
 
 ---
@@ -5717,9 +6115,9 @@ source_job_id: 5539373
 title: Patient Services Advisor - Call Handler
 employer: Aspiro Healthcare
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3283-26-0025
-factual_fingerprint: 1bf4c01e484835062bca7cd4b4d78155aa98b583064c593a0f09e7af3ac02993
+factual_fingerprint: d3552b6c2541e96eac41e20982d7ad8cb38261c358e9d9c9f447c0e6a35cf91c
 ---
 
 ---
@@ -5729,9 +6127,9 @@ source_job_id: 5527604
 title: Radiology Administration
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1269
-factual_fingerprint: b9dd653686f32256a4ea002d31740b1f604d52a895b8f7fb1acc2be49c503f3d
+factual_fingerprint: 2a8945227b2d1af6d632c323e24b8b6e182ce7e623364307a7184fa51bdff257
 ---
 
 ---
@@ -5741,9 +6139,9 @@ source_job_id: 5528310
 title: Medical Secretary - *Internal Only*
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1272
-factual_fingerprint: a3850d569b67725957830aeeab2bc6be91a9f33067252fdb72e09c1d5595b084
+factual_fingerprint: dce28659800bd86e82a7f2523803a6b4a22a300e920af566583a44456c049b2e
 ---
 
 ---
@@ -5753,9 +6151,9 @@ source_job_id: 5539506
 title: Neurosciences Patient Services Co-Ordinator
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0787
-factual_fingerprint: ac1a92bd9f7795cf287c83dcc12086fc33ea55d2d69b9a4ab6a1c7f0aff6ab84
+factual_fingerprint: 59af92c035269e1d9e406728752d49345131e0b7d5e42de2fd114445c76e4ced
 ---
 
 ---
@@ -5765,9 +6163,9 @@ source_job_id: 5539456
 title: Patient Support Coordinator - Oncology Team
 employer: The London Clinic
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0360-26-0109
-factual_fingerprint: 2a827c52a36743e77a99cfb4021f363ded51d54dddec3534d21ab3965c0aaaa2
+factual_fingerprint: d0e80af394b86c127ab36768a916631c353e98d43565eb60643fb8840663e591
 ---
 
 ---
@@ -5777,9 +6175,9 @@ source_job_id: 5539437
 title: Category Officer
 employer: NHS Wales Shared Services Partnership
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0208
-factual_fingerprint: 94a8b6442db73ada188d251ebf4ef421133e291101174b841ca3c3317828beb7
+factual_fingerprint: 29d8fa09d0bf84550cb8ab45ee548d0b06332c65643c08e0bda02c53f616bd3c
 ---
 
 ---
@@ -5789,9 +6187,9 @@ source_job_id: 5539401
 title: Management Accountant
 employer: NHS Wales Shared Services Partnership
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0207
-factual_fingerprint: d2bade25ff164d245b8feeb8c337dd3b4bd46afce5db0b98701c1a8d14cdf1ab
+factual_fingerprint: 53b5386546ab80c926986d864263f85683b1e7b0f800e3b9ca6a838b176fd0dd
 ---
 
 ---
@@ -5801,9 +6199,9 @@ source_job_id: 5539357
 title: Resourcing Officer (INTERNAL)
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0715
-factual_fingerprint: 3539ee80c84e0cfe2f3a61289ad08cdea85e97d788fe61ade67cf3d65c44cc8a
+factual_fingerprint: f9a80e67f9eedf647a8ca6ace16f33cf25b941fcf88cceeeafcf5d10be9579be
 ---
 
 ---
@@ -5813,9 +6211,9 @@ source_job_id: 5539153
 title: Chief Finance Officer and Deputy Chief Executive Officer
 employer: North Central London Integrated Care Board
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9985-26-0005
-factual_fingerprint: 4e961ca283b02a49882197e15ace713d426014e2ffe8908adfe2b5d8ca4bc0ce
+factual_fingerprint: f8efc9b223db9e4cd8e6dba194823f18c8731ecce894814711c5b67edb128ed1
 ---
 
 ---
@@ -5825,9 +6223,9 @@ source_job_id: 5539349
 title: Immunisation Team Assistant (Flu programme) - Bromley
 employer: Kingston and Richmond NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0351
-factual_fingerprint: 295459b4eaddbe82a041b8fe6609c189c21d90d19ad661979b12c4df3344a955
+factual_fingerprint: 098125b845182c416c6592fc7a30bdda36a68285b12954849f7d209ba0f7d198
 ---
 
 ---
@@ -5837,9 +6235,9 @@ source_job_id: 5539098
 title: Flow & Discharge Coordinator
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0713
-factual_fingerprint: 97d382fcc5541ac860673d840b31dcc783b76caeae11967b9e4d98bfa3688f04
+factual_fingerprint: 2e767dbb74de765e23ec77550762aa5d22c1c2182e7b6de9199743aba8da2862
 ---
 
 ---
@@ -5849,9 +6247,9 @@ source_job_id: 5538136
 title: Outpatients Team Leader
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0693
-factual_fingerprint: e47128d8f6f7b356005c4ee9bd44d1900e9321c8241038e0acbbe60a28f95940
+factual_fingerprint: 0dd61228838b5205922b66b5b15b830bec27c28ac81fc0978910b515efc7d17e
 ---
 
 ---
@@ -5861,9 +6259,9 @@ source_job_id: 5537956
 title: SVPR Officer
 employer: North East Ambulance Service NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9340-SVPR-08-26
-factual_fingerprint: bab63bc1a0a5e7ea3d0e710b1592a9e32194ed19cd33268b6d60cd40c3a3bce7
+factual_fingerprint: 1911e59f92cf73f617d42e8ae36f873c4eae09525267eb50cb38f129010c5f72
 ---
 
 ---
@@ -5873,9 +6271,9 @@ source_job_id: 5539121
 title: Booking Coordinator - Patient Access
 employer: Buckinghamshire Healthcare NHS Trust
 region: Buckinghamshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0458
-factual_fingerprint: 9762367a64f19b73c5592607b145618b73dd1310c226b1112abccf0f222a2b3a
+factual_fingerprint: 9e08356cb3dd6b9dbf06a0273cb588ef17fca8d4179b726394c33e95267a1c74
 ---
 
 ---
@@ -5885,9 +6283,9 @@ source_job_id: 5539262
 title: Training Officer
 employer: North East Ambulance Service NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9340-TO-08-26
-factual_fingerprint: 326df63478ddd036159fd4355dd5722024b014c742117b114e4da6315149b723
+factual_fingerprint: d9dcae20d1304a445bddaf229f7007d4b35769eb400e7abf24a6119fd4cb8878
 ---
 
 ---
@@ -5897,9 +6295,9 @@ source_job_id: 5530655
 title: Care Navigator (Casual Worker Basis)
 employer: The Vine Medical Centre
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5678-26-0000
-factual_fingerprint: 8c53cd9dc6b094baa7483689ae7751d6d3cfc304b4e7b644ae18eb1766f34a4d
+factual_fingerprint: f3f294450fcdbfab55d77affd1aac9cca2f88218aca04fae1f77b155f3c07482
 ---
 
 ---
@@ -5909,9 +6307,9 @@ source_job_id: 5539201
 title: Recruitment Advisor
 employer: Dorset County Hospital NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9405-26-0395
-factual_fingerprint: 90666d21fdbdc1fc74e8efe81c6e4768707f6c99e0164450ae2d96bfc18d797d
+factual_fingerprint: 7c1a6aaa332e55f033bf71a610d92ae8a175196179689079f23c68414031ba87
 ---
 
 ---
@@ -5921,9 +6319,9 @@ source_job_id: 5539246
 title: Administrative Officer - B3 QSL & Matron Support
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0784
-factual_fingerprint: fe20128bb2208f7ac09ff02805d411a8bd03da5c34fbf79758347518ef267db0
+factual_fingerprint: 790a97e5cfb1e6ebfaa909a70433e39fca438f7308d1c4aa984af978f5e4df4e
 ---
 
 ---
@@ -5933,9 +6331,9 @@ source_job_id: 5539127
 title: Care Navigator
 employer: Wye Surgery
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3084-26-0001
-factual_fingerprint: 53093286958e31ca8627c5d8b2031c9c391e4931936f6c5b884f45dc5214e21b
+factual_fingerprint: 8a7259f9307746db23b493eac24e53c8b4656bb2c91b4158e6ac3b6e76249c2f
 ---
 
 ---
@@ -5945,9 +6343,9 @@ source_job_id: 5539074
 title: Team Secretary
 employer: Mersey Care NHS Foundation Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0770
-factual_fingerprint: c6dda9b6e1e28c9d763b73cccc19a4726d540047032db29d69318f9f6711fb4f
+factual_fingerprint: 65331e3eb50a01bb9677799bc2394769a88ef6be93e67ad3e41f44de64180c7c
 ---
 
 ---
@@ -5957,9 +6355,9 @@ source_job_id: 5539086
 title: Partnerships Project Lead
 employer: South London and Maudsley NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-26-0781
-factual_fingerprint: a04a35db3f9e96101855f9c9937b6bab7dd1e02161bfc43c0e8c9babaea736c5
+factual_fingerprint: 40193aa1ef8e14d2e199ce71319aeadd5566ce2308c5f8cc539ec8d93ff0d71d
 ---
 
 ---
@@ -5969,9 +6367,9 @@ source_job_id: 5539092
 title: HR Advisor
 employer: Connect Healthcare Rotherham CIC
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0098-26-0038
-factual_fingerprint: ac76311435d6c5c8c416e899acdfec9a46c46f15e4d157e35c0c8e2d4b22ede7
+factual_fingerprint: dee913bc9d87515f7cdd99f1e1ac0689cd42e7cc4076bf9a1d11dcad787ddafe
 ---
 
 ---
@@ -5981,9 +6379,9 @@ source_job_id: 5539071
 title: HHRP Enabling Works Lead - Hinchingbrooke
 employer: North West Anglia NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0416
-factual_fingerprint: 345375256fa54ffe08cd333bd5e2d1b8b05b7c45adc44955f4ff96c367492a9b
+factual_fingerprint: 3e05eb73a19731d36eda086bbb2d64b65b9ab54d8dd616b52fda422404cabc66
 ---
 
 ---
@@ -5993,9 +6391,9 @@ source_job_id: 5537533
 title: Reception Care Navigator
 employer: Second Street Surgery
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1470-26-0002
-factual_fingerprint: 214d67fdf2949ba9727ddadd6e1aba78c826baba2b030c342ee18ad0e4580791
+factual_fingerprint: 839400fa1e76b9c9cdfb15ec87726672389e1e40f77edc061e88eb24b55ac5d0
 ---
 
 ---
@@ -6005,9 +6403,9 @@ source_job_id: 5538913
 title: Events Assistant
 employer: NHS Blood and Transplant
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0048-26-0411
-factual_fingerprint: 08c86d605be8d34421c9545b49506c34e4761fd4d9d7b846ad824e4f0a8b9135
+factual_fingerprint: 21a4c0ce18f628a53d4ea3ca82ebabe016a5b47f8154859b1f5dec261f7ce345
 ---
 
 ---
@@ -6017,9 +6415,9 @@ source_job_id: 5529849
 title: Care Coordinator
 employer: Cornerstone
 region: Lancashire - East
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0011
-factual_fingerprint: 08685396d8c18d47a774592a82eeb85461df241fa356296c71c52f40e68bbb38
+factual_fingerprint: d6db028a7266c25e22045b4aa1f7f51fea8047a17769b9d902372e660cd396ba
 ---
 
 ---
@@ -6029,9 +6427,9 @@ source_job_id: 5538803
 title: Out of hours Despatcher
 employer: Berkshire Healthcare Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0648
-factual_fingerprint: 62ab263094d81ae61df589509538c696791bcefc49c7c70bee970f8b37e9c236
+factual_fingerprint: 61728a2d9b84d20cb47937dfd4a325586a7dc0c18c72ba5708a9ad3fee0d4c7d
 ---
 
 ---
@@ -6041,9 +6439,9 @@ source_job_id: 5538827
 title: PCN Care Coodinator
 employer: North Wilts Border PCN Ltd Company
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0050-26-0014
-factual_fingerprint: b4e0d68dc92938125e0a34a3c2b5f37ef79928873a408f986d21f7a3e037f2db
+factual_fingerprint: cecde00d129dd6c190713300dff84f1785db5b6576ca39a69cc4a427c923b426
 ---
 
 ---
@@ -6053,9 +6451,9 @@ source_job_id: 5538825
 title: Social Prescriber Link Worker
 employer: North Wilts Border PCN Ltd Company
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0050-26-0013
-factual_fingerprint: e18207a482e31d8d6e898f039d3fcaaad6b9e0f44d650dc51672cd518ac57feb
+factual_fingerprint: 329fc074a6ffaf11b2842a6e0d6d3a4adda516d5e7bc2a0d2380609e5056caaf
 ---
 
 ---
@@ -6065,9 +6463,9 @@ source_job_id: 5536530
 title: Care Navigator
 employer: Bedminster Family Practice
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3863-26-0004
-factual_fingerprint: 0209cbc10b19e0d0c5e5673cb1ba49cee61d7808093aad395c6ca6bb8c622c33
+factual_fingerprint: c8a5738fedd3d43ffdae56dc688e92f1c1b31f63ef5fb559900f253847938c5c
 ---
 
 ---
@@ -6077,9 +6475,9 @@ source_job_id: 5538676
 title: Admin and Booking Co-ordinator
 employer: London North West University Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0654
-factual_fingerprint: 5ee60528f211d1f51bf8f2053e06c08708c9bd072f58cb692fb9c03132e385ff
+factual_fingerprint: 2c46c8b6743c0d84c01b369232c67a05b1fe0608797b54d32e782790e093ad66
 ---
 
 ---
@@ -6089,9 +6487,9 @@ source_job_id: 5538624
 title: Practice Care Navigator
 employer: Islington GP Federation
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0031-26-0037
-factual_fingerprint: 3dcf922333ecab48fe4654193272eac155d06fe04a26da34d043f1b859f1bf72
+factual_fingerprint: 7bc6653a517ec183f06e715ae40f303e8dbb02ec3d8f52792b980add60a0e368
 ---
 
 ---
@@ -6101,9 +6499,21 @@ source_job_id: 5538632
 title: Patient Key Worker
 employer: Dorset County Hospital NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9405-26-0391
-factual_fingerprint: 1c2dbbe11c97dd011c455373d6a7418234a3e516fb9523abeccf858b7ad3f15e
+factual_fingerprint: 7e88e9f7082c8c928a7a57f68f0e1a7118d56346d2536c1f9a01eece3c80263e
+---
+
+---
+action:
+POSS | NHS Jobs | Northamptonshire | Kettering, NN15 7PW | £25272.00 | Buying Support Officer
+source_job_id: 5537115
+title: Buying Support Officer
+employer: Northamptonshire Healthcare Foundation Trust
+region: Northamptonshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0658
+factual_fingerprint: dcf28c0d8bf3eea0fc1470f5243c62f9af2830b4e88173ee5a6c4d776c5d51a2
 ---
 
 ---
@@ -6113,9 +6523,9 @@ source_job_id: 5538078
 title: Clinical Skills Co-ordinator
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-0981
-factual_fingerprint: 12d066d43ff03088bc6bf75f81b89c68b89fca286a08a7213c69ed7367c91c8b
+factual_fingerprint: 42cab0966fee4cd0253186447b7703bb5540016e1d69d21432b7d38741ef1367
 ---
 
 ---
@@ -6125,9 +6535,9 @@ source_job_id: 5538600
 title: Administration and Healthcare Assistant
 employer: InHealth Group
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0401
-factual_fingerprint: a27084f4c3dc6cab537d99a21c3fa7b204c771fe08c3631c2bfb328a860e9a4d
+factual_fingerprint: 55dc495084640293b373bd20ea89848841142f43e49f973d8572680382655b40
 ---
 
 ---
@@ -6137,9 +6547,9 @@ source_job_id: 5538066
 title: PA/Medical Secretary - IPMS
 employer: West Suffolk NHS Foundation Trust
 region: Suffolk
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0540
-factual_fingerprint: 3614560ec82c7fa205229cbd68aa9c11313621a8ec499937150d2e9d089a275f
+factual_fingerprint: 3b9dd2589f60118aea9ef1b154502fa9155ebf4aa0dc0994646e781b47aa41ad
 ---
 
 ---
@@ -6149,9 +6559,9 @@ source_job_id: 5538583
 title: Human Resources Advisor
 employer: Dorset County Hospital NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9405-26-0389
-factual_fingerprint: cb9a170fd00185d2bc6dd71e948dd16ac86d572ea2f863e1995122f123b40a92
+factual_fingerprint: 8185c0a45e93c7e914b76d9680d191c540a696d8b4127ce84fe2d75ee1973143
 ---
 
 ---
@@ -6161,9 +6571,9 @@ source_job_id: 5537649
 title: Support Medical Secretary
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - West
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1833
-factual_fingerprint: 09bf407ecee653f9ffcbfc80e44aaa400deaadeeb3b4f291aeb1b0c826b7922e
+factual_fingerprint: b769c7a0859b50fcb1dd2bf255554f16c183a2b204b46186d0e47d29c46fc106
 ---
 
 ---
@@ -6173,9 +6583,9 @@ source_job_id: 5524605
 title: RTT Validator
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0665
-factual_fingerprint: a4ff69df360a1ff9d69db4a3ccf18c99b739bb78df19c505a9b9922ccd20df4d
+factual_fingerprint: 4a185e22464b1e8bb8930e912d82cf88a35a8280ffe9dd13a1d1efb134b85ba6
 ---
 
 ---
@@ -6185,9 +6595,9 @@ source_job_id: 5538388
 title: RTT Data Coordinator
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0694
-factual_fingerprint: 46283ff5ea4d9d0b94408eaa81a75c8088a32da6703400dc3ff5bdf0d09e8b5a
+factual_fingerprint: 7738df83d838cb28454be6b52151b1a4ac4da1ee60ec60a7522931bc9cef66ed
 ---
 
 ---
@@ -6197,9 +6607,9 @@ source_job_id: 5538377
 title: HR Business Partner
 employer: Sheffield Children’s NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9425-26-0283
-factual_fingerprint: ec91a31b7f7cca8c82a9a819dfd40adacd1b8bc7f492fbb5a4b373cca213a381
+factual_fingerprint: 96fa67f67b997e7ccdaf8703668c44ca79185a27e3a7108004f7c8682061623b
 ---
 
 ---
@@ -6209,9 +6619,9 @@ source_job_id: 5538393
 title: Team Secretary Apprenticeship
 employer: Sussex Partnership NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0989
-factual_fingerprint: 94aa482eefc50199e2e11139ff5927e1d806ecfe6bf9ca4862980ca77c624743
+factual_fingerprint: 8edb079bb98420cdc64cdce8108bd793e50cb609dd8cdd9611ece51e4822280a
 ---
 
 ---
@@ -6221,9 +6631,9 @@ source_job_id: 5538307
 title: Head and Neck Clinical Administrative Officer
 employer: Chesterfield Royal Hospital NHS Foundation Trust
 region: Derbyshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0288
-factual_fingerprint: 608c1dc3d25f9f9c214b31f67ccaed0cde0d98cbeb3bbf84bbe38c74bb120a01
+factual_fingerprint: 1d27ded0069557f5fa3a3e8108b9722001f5be1503b37dc675a0f4297b292ff7
 ---
 
 ---
@@ -6233,9 +6643,9 @@ source_job_id: 5538391
 title: Team Secretary
 employer: Sussex Partnership NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0988
-factual_fingerprint: dd0cab188f5efdcb73e0c24399950b090cb3ed93838e7083ddb0aa6624a0c757
+factual_fingerprint: 6b136eb7e1d31bc58ab350e7b88945077bf37f55ac88665fff58dafa4d76050b
 ---
 
 ---
@@ -6245,9 +6655,9 @@ source_job_id: 5538345
 title: Team Secretary
 employer: Sussex Partnership NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0987
-factual_fingerprint: 33f7359aef01833b2ca1642783c77f813e4b8a00a3572949cbf6d4e969e3c34f
+factual_fingerprint: 5ad7ed52eba01e9a7c00a7ed74602738814ab704611ba47d7a6527073b305535
 ---
 
 ---
@@ -6257,9 +6667,9 @@ source_job_id: 5535791
 title: Medical Secretary - Respiratory (Internal)
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0710
-factual_fingerprint: de93a6af3db40695c5341d268f477bb95ad02a7b725b16354fc4b399cd6e5ace
+factual_fingerprint: f9168c94d7eea05efbbdb49327dbe4af31b7cb6fd2e8eef17a9530ff4b63afd7
 ---
 
 ---
@@ -6269,9 +6679,9 @@ source_job_id: 5537303
 title: Microbiology Secretary
 employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
 region: Merseyside - Sefton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0815
-factual_fingerprint: 0234432cc0b616d11332c63dae17bdd3faa5ce0b19e2451754f878707c6f9b1c
+factual_fingerprint: 07a7f91f3e9cc4919dc9543266390749e92cc45233b78a4379a623320626cfdc
 ---
 
 ---
@@ -6281,9 +6691,9 @@ source_job_id: 5538472
 title: Patient Pathway Coordinator
 employer: Kingston and Richmond NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator, patient pathway
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0349
-factual_fingerprint: 8be5a35201df0e11f7b368a23ccd53d594d14dd72b8e5eaa36634f563e26957f
+factual_fingerprint: 5905c25e1ae0af3ea2dee4ed8cc32481822ef05903c54152db7b6a7a2e5fc8ab
 ---
 
 ---
@@ -6293,9 +6703,9 @@ source_job_id: 5537897
 title: Apprentice Digital Web Producer
 employer: Sussex Partnership NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0979
-factual_fingerprint: 32d0b13f3f6679b30c6d71a17acbeb4108ee6db0a4ae0b684faa4a9747fe0639
+factual_fingerprint: 1c29be23d8f213288c6ddfa99a4247f05d6a940f346097f4d3cfbc82f6a3c553
 ---
 
 ---
@@ -6305,9 +6715,9 @@ source_job_id: 5538257
 title: SPA Referral Advisor
 employer: Hertfordshire Partnership University NHS Foundation Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Potential admin/service title: referral
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0757
-factual_fingerprint: 362e37cb4cc85f4f1f7792eaf1e965231ae1a37a2792534b9c9df2aa3e0d71bb
+factual_fingerprint: 269ccedccdf954ff0de79fb4fea6b886797e0018407e1ec17ec5c3b926bf4b30
 ---
 
 ---
@@ -6317,9 +6727,21 @@ source_job_id: 5538372
 title: Project Accountant
 employer: Royal Devon University Healthcare NHS Foundation Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-0981
-factual_fingerprint: 6dedf9c2c9bf6cb19d80b1ef519fdaf1b9b61247432c5535dbb6d2a227f9d80b
+factual_fingerprint: e05682c15968f1aa275950cd6d0a81acf188b9c6440f1de17b236d930a08b7da
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Worthing, BN11 1HS | £28392.00 to £31157.00 | Engagement and Support Officer
+source_job_id: 5537634
+title: Engagement and Support Officer
+employer: Sussex Partnership NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0975
+factual_fingerprint: d1fa1d37d967a4467a1da6a35ff5b2f30bf7cafa3677c74f600d9b471eb3a202
 ---
 
 ---
@@ -6329,9 +6751,9 @@ source_job_id: 5538413
 title: Accounts Officer
 employer: Chesterfield Royal Hospital NHS Foundation Trust
 region: Derbyshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0290
-factual_fingerprint: 1182124ec2ad036cec5dca59d6a3f023b4147316df26aa28b507227843a486c3
+factual_fingerprint: aaef440c1d2c7879178e70fe9d691b171fd2d5f017147629697bff6df0f691de
 ---
 
 ---
@@ -6341,9 +6763,9 @@ source_job_id: 5538126
 title: Orthopaedic Loan Kit Coordinator
 employer: Frimley Health NHS Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1033
-factual_fingerprint: 38204bcda28079d919c25697bee94f5014d68443a8cfe0f032c068a2d29dcca1
+factual_fingerprint: b728d2246b8e7898f52018a748b20c648a52a083005025b7e2b9a4e3be429b93
 ---
 
 ---
@@ -6353,9 +6775,9 @@ source_job_id: 5538353
 title: Lead Divisional Buyer
 employer: East Lancashire Hospitals NHS Trust
 region: Lancashire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0456
-factual_fingerprint: 6520afa829f35f3cfac08067751298173d5ea55a8075bab5d8fa69e7e7505158
+factual_fingerprint: 311da7ca1b0ac4748b00586072113f87df67b1fb7008312993e03b562bdc0b42
 ---
 
 ---
@@ -6365,9 +6787,9 @@ source_job_id: 5537925
 title: Materials Management Assistant
 employer: Frimley Health NHS Foundation Trust
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1031
-factual_fingerprint: a0ea3941361727bcb8ad3ba91ab5f981588c929d0257ba657eebe0543aa41306
+factual_fingerprint: d31e16b2292260800f6480126d3dcff5f99b54c204f84ee915164f27550f2625
 ---
 
 ---
@@ -6377,9 +6799,9 @@ source_job_id: 5536855
 title: E-Rostering Advisor
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1011
-factual_fingerprint: e41663d82ea373eea929935b5ee9716b113e23b003eca5bc8124cffe0e8f27b9
+factual_fingerprint: 3bc66c974e58e5ed80de8efe8d1ef42a7ff966e4cce5b47e6838d37d5fbd4b4f
 ---
 
 ---
@@ -6389,9 +6811,9 @@ source_job_id: 5538053
 title: Patient Services Assistant
 employer: Tean Surgery
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5656-26-0001
-factual_fingerprint: 2affa231c37c1ede0a3a5a2b71200a18002cc177998a5044152e8e03f96f905d
+factual_fingerprint: f7854ab5294a7618c0dfb7d67816ce7cb34abb46481be1a7d3ca3ae2c5e59ba9
 ---
 
 ---
@@ -6401,9 +6823,9 @@ source_job_id: 5538038
 title: Facilities Officer
 employer: Principal Medical Limited
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0176-26-0072
-factual_fingerprint: 8f46a1779c639f17556762e1a723edf409b39d383aaebe0e7f4d55622605c077
+factual_fingerprint: ac4711831ac38fc99d35d5d5ef65a0e9bc80119dbd365eac13e3b94f662d3dad
 ---
 
 ---
@@ -6413,9 +6835,9 @@ source_job_id: 5538115
 title: Practice Care Navigator
 employer: Islington GP Federation
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0031-26-0021
-factual_fingerprint: ec0fc11e380ac65e7227e5dd3cdf3ad0442cc6f30191aacd190449e7bb1b405c
+factual_fingerprint: 065a8c3ea4d5b28b2d83dcaebed23b4bde8ffc5d66c7aae28ac418d7384b5e1a
 ---
 
 ---
@@ -6425,9 +6847,9 @@ source_job_id: 5536972
 title: Clinical Complaints Lead - Band 8a
 employer: United Lincolnshire Hospitals NHS Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0302
-factual_fingerprint: 57ab6f9e8c63ca4d85ef299d965c1783ddcc53f922db53bf3ce75b7888a61f57
+factual_fingerprint: b2233336442ec8050f2986a8367400a0ff3fd0e40a6250c40c948d418077ddee
 ---
 
 ---
@@ -6437,9 +6859,9 @@ source_job_id: 5537991
 title: Bank Medical Secretary
 employer: James Fisher Medical Centre
 region: Dorset
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1594-26-0002
-factual_fingerprint: be5c0bec7faa71f47a4c63f338a722a67f3dee8f039d94105e133aeba2e6fd19
+factual_fingerprint: 9bc0b663c832e98411a7a10b512608bdbda4c0702c404478bc60adee0fea1b11
 ---
 
 ---
@@ -6449,9 +6871,9 @@ source_job_id: 5537961
 title: Accounts Payable Apprentice
 employer: Coventry and Warwickshire Partnership Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9444-26-0473
-factual_fingerprint: 3c136022e89e4abf021375f58c78761ba391ad11ea082eba31258788d1555dbd
+factual_fingerprint: f863e73daae19c8541075f91ecb2cdea7395bd6f3899e8646da3ad265186b99d
 ---
 
 ---
@@ -6461,9 +6883,9 @@ source_job_id: 5536390
 title: Medical Secretary
 employer: University Hospital of North Midlands NHS Trust
 region: Staffordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1655
-factual_fingerprint: 2100d565acb04e852bc9a17b339a3c0ca99c326e0665716fe0faf4dabe11ecc2
+factual_fingerprint: 92381fc5f2e1619d6a52ce2cd659420889516299780647169f973960ebd6d186
 ---
 
 ---
@@ -6473,9 +6895,9 @@ source_job_id: 5536337
 title: Medical Secretary
 employer: University Hospital of North Midlands NHS Trust
 region: Staffordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1654
-factual_fingerprint: 6be5bf970f13f37eea7d28fe469f3c4afb21ae7b03cf4e32f2225422d91b2442
+factual_fingerprint: 9afab4a3d7ed0aebc0d5ad163edd6dbc5dfa51bcd97709f93214858ec1533ce2
 ---
 
 ---
@@ -6485,9 +6907,9 @@ source_job_id: 5538069
 title: Communications and Engagement Assistant
 employer: Health Education and Improvement Wales
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9082-26-0059
-factual_fingerprint: 0366c9b91d66971bf1d4076ba82becdeb52e9f8bd7176df5f191e99ecaf62e75
+factual_fingerprint: bcd1d3eaf549a4fb5e91b381a3bc7064543bbff4631e3841ed20adeabd7f3fb5
 ---
 
 ---
@@ -6497,9 +6919,9 @@ source_job_id: 5537817
 title: Procurement Receipt and Distribution Assistant
 employer: Royal Cornwall Hospitals Trust
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0470
-factual_fingerprint: ff4b5b61c385475af33f7ed27fe969f4326a47241df22eaa7aecfaf380e02ab6
+factual_fingerprint: 331992146dfb198ba83efda3ad2333fac47a9e4171c1dbbb73376f4f023b208b
 ---
 
 ---
@@ -6509,9 +6931,9 @@ source_job_id: 5537620
 title: Administrative Lead - South West
 employer: Oxford Health NHS Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-0974
-factual_fingerprint: de10387a76353e04a7cd8c4a021e99003cd026e2ba4b613de752943be6efd330
+factual_fingerprint: 1f61dbc3b41a77504bd754dc6a7ac642c5a01fc9fd74e9adad9e3a91acb6480a
 ---
 
 ---
@@ -6521,9 +6943,9 @@ source_job_id: 5537958
 title: Rota Coordinator
 employer: Derbyshire Community Health Services NHSFT
 region: Derbyshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9842-26-0487
-factual_fingerprint: 7d4692fba602efa2b3d00d669678a467aeb40c86000271106519bbb3d86441e3
+factual_fingerprint: 0eb3079a821d9c40cd8d3c521b8d7c7102dbc7b4eb404a592c1e38f9e6aea656
 ---
 
 ---
@@ -6533,9 +6955,9 @@ source_job_id: 5537968
 title: Clinical Secretary in Oncology
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-0979
-factual_fingerprint: e56699042ffd1eb0b8d3731d20b1be587d91695e4aa9d483f2f6bec8850ad616
+factual_fingerprint: ec73946ccd8445360f13871cdfa290e03ca1de502ef436b2575a3e31bc2848a0
 ---
 
 ---
@@ -6545,9 +6967,9 @@ source_job_id: 5519786
 title: Chief Digital Information Officer
 employer: Barking, Havering and Redbridge University Hospitals NHS Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9162-26-0187
-factual_fingerprint: a053245b8f0f7a5f95458bfc0b40bfe8a1830f6658d6bea5e0499d259a1f817b
+factual_fingerprint: 11161a6d5727aec06960a493493452d7958ddded877c94c9ff0acb7e0c4d775c
 ---
 
 ---
@@ -6557,9 +6979,9 @@ source_job_id: 5537850
 title: Financial Analyst
 employer: Guy's and St Thomas' NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-26-0958
-factual_fingerprint: cb4aeac7a6198ac93870d5ed420e65dad64f32ea63176e9e4f8a65747fe2c346
+factual_fingerprint: 1d6e9ee7b84843ce077c4f3affd4b04065adcc3af3e3d88dc625dd9542a013e8
 ---
 
 ---
@@ -6569,9 +6991,9 @@ source_job_id: 5537776
 title: Management Accountant
 employer: County Durham & Darlington NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9439-2627-548-1
-factual_fingerprint: ccc3af9bc7423482e6f5f4a106489732d3d1faf6d9a9b2b3e7c2bc6965981d0b
+factual_fingerprint: d0af6141b0dc36fee112b94e2f9f5c319c88ddd0371724b051952cc263a9612b
 ---
 
 ---
@@ -6581,9 +7003,9 @@ source_job_id: 5535670
 title: Management Accountant
 employer: Care Plus Group
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-158
-factual_fingerprint: 2cd2e59353a4bce615cd7d4e38cb04bdfac67844ce71d387eb003dd6e5271cad
+factual_fingerprint: 1883bb21715247a06f4b7d761e2282bc9ed85921caeadd2343e422418a1470ee
 ---
 
 ---
@@ -6593,9 +7015,9 @@ source_job_id: 5537819
 title: Senior Employee Relations Advisor
 employer: Nottinghamshire Healthcare NHS Foundation Trust
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0588
-factual_fingerprint: d96ba28e734e9af068701b8c5d7d35fe4e86e8c38ef666af01d1589518f2bb5b
+factual_fingerprint: 9adea163622d40badb17bf47110190058d2aa6b3223be838bf4815c4f7aad889
 ---
 
 ---
@@ -6605,9 +7027,9 @@ source_job_id: 5535990
 title: Rota Co-ordinator for Obstetrics & Gynaecology and Paediatrics
 employer: The Dudley Group NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0376
-factual_fingerprint: 36097b8fe4c6f261ff99017c736a21ecf9eff8eb2db17b12951b164e980d130f
+factual_fingerprint: 3da218d30548edb625a772746a624951eece0daa5b3ca1a2fe1845a63d52e924
 ---
 
 ---
@@ -6617,9 +7039,9 @@ source_job_id: 5537712
 title: Senior Grants and Major Donor Officer
 employer: Royal Devon University Healthcare NHS Foundation Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-0979
-factual_fingerprint: 0278e1df91c2d0d0c8d5c0e7256091c8c789c5b55b0bc509f717b5f78c322b97
+factual_fingerprint: a5ea1c6ac848aa38bab5ea8c6e611ba190384756fb2d7075a27335885a753367
 ---
 
 ---
@@ -6629,9 +7051,9 @@ source_job_id: 5537751
 title: Radiology Secretary
 employer: Sherwood Forest Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0719
-factual_fingerprint: 2032fab5120f4fd3f6514b7ec91ca392eac25691c0d2542b5ed0926966781cb7
+factual_fingerprint: 3d4b714896e0c572b43569293f0dcc8000607f57591f2005bd0148691bce381e
 ---
 
 ---
@@ -6641,9 +7063,21 @@ source_job_id: 5537630
 title: Senior Auditor
 employer: Barts Health NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1431
-factual_fingerprint: aeafaf872744905138dd45c4cfba9cd4300aab8024d2840d2907dc684113ed67
+factual_fingerprint: e7e402d97544745c00c399eb991945fa63f45b1355e9487844695bad988b2a53
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS7 3JX | £28392.00 to £31157.00 | Project Support Officer
+source_job_id: 5537602
+title: Project Support Officer
+employer: Leeds and York Partnership NHS Foundation Trust
+region: Yorkshire - West
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0383
+factual_fingerprint: fe84e152130cd1212f2d77392b926b40c5d4ef351d6c3732cc56ddb5aaf7acc5
 ---
 
 ---
@@ -6653,9 +7087,9 @@ source_job_id: 5537241
 title: Clinical Admin Officer - Paediatrics
 employer: Frimley Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1028
-factual_fingerprint: 9101eccd0c5a3d38a2e71c4a1ec3d4ab06e599a285735035b187c37eccdb0b1e
+factual_fingerprint: 0cccba82b5575a41248348d5b038be302f07c9b7fb5717609cb41c92acac05dc
 ---
 
 ---
@@ -6665,9 +7099,9 @@ source_job_id: 5537608
 title: Data Lead
 employer: Practice Plus Group - Health in Justice
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0129
-factual_fingerprint: 59b7a28a1edfc835fa5fbbd3c611c6cb2264773bfbf01c0e9c39a8860e2c0448
+factual_fingerprint: 6035deb853360265c2ffb9f78ef512ab55957871787102050b7763bef565e2ba
 ---
 
 ---
@@ -6677,9 +7111,9 @@ source_job_id: 5537579
 title: Executive Assistant
 employer: The London Clinic
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0360-26-0108
-factual_fingerprint: bf73e9a09881946d159429561780e3f585f56e0a206e9e49afef2d46cd716360
+factual_fingerprint: 171f41635d56b9e4be3c1b56521c3c6b4182327368fe8638dd88d65caba90d20
 ---
 
 ---
@@ -6689,9 +7123,9 @@ source_job_id: 5535567
 title: Information Officer
 employer: Isle of Wight NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0420
-factual_fingerprint: c108435f4ae7a76ea5b9cb7974a39d4e62d21871c85f3abab290f21c7b529723
+factual_fingerprint: 11a983b8fafbb8d7ff33a19d75ff3ab7a7c893dfd60f57d38886ef5877203918
 ---
 
 ---
@@ -6701,9 +7135,9 @@ source_job_id: 5535566
 title: Information Officer
 employer: Portsmouth Hospitals University NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0445
-factual_fingerprint: 3a126ea46a1f9df88011bf815ddff671d2ab5232659599017eb09a2f2fa339d9
+factual_fingerprint: 9b1c1b0805d050a6cd4f6c309b111f85fa6ebe5100c183688471581b35d1e6d4
 ---
 
 ---
@@ -6713,9 +7147,9 @@ source_job_id: 5536939
 title: Senior Researcher
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1041
-factual_fingerprint: fadd9cd428727722cc41b08c984f8ace5ef011298577d390244e275047bedb97
+factual_fingerprint: fec8d856ed03b7984a3d9d335f8de65b15cfe397832f5f3d7f6d8a0354800260
 ---
 
 ---
@@ -6725,9 +7159,9 @@ source_job_id: 5536863
 title: Agile Research Delivery Team- Clinical Practitioner
 employer: Royal Surrey NHS Foundation Trust
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0728
-factual_fingerprint: be1796d5dfd437103294f2393a6d304fb423e512419531d76417a4475044fc22
+factual_fingerprint: 9e28509c077cd19aa5c38166c61931c2c194d56f5c10b3b043a0fe12b701c042
 ---
 
 ---
@@ -6737,9 +7171,9 @@ source_job_id: 5536830
 title: Health Inequalities Lead
 employer: Nottingham CityCare Partnership CIC
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PGCG-6532
-factual_fingerprint: 7bf1483703ba5ca9637aa28c8c58c24c9eaf679b1455e02ccbe0a851e44f5429
+factual_fingerprint: d5e42bcbec21c8594c658cbdd939cbe3e01c0dd236a19d033e4e8f444e451574
 ---
 
 ---
@@ -6749,9 +7183,9 @@ source_job_id: 5536860
 title: Appointment Coordinator/Call Handler - Fixed Term
 employer: Moorfields Eye Hospital NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9273-26-0199
-factual_fingerprint: 5e81b46074884c79e0dd9d43c76e86e5e7d7fd1e4cde478b829bfef8d63617aa
+factual_fingerprint: ea2032203d3bc73e237ecec8471e19e649a1eb59f358584f01620459658e49ac
 ---
 
 ---
@@ -6761,9 +7195,9 @@ source_job_id: 5536974
 title: Family and Administration Support Co-Ordinator
 employer: Haven House Children’s Hospice
 region: London
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0186-26-0011
-factual_fingerprint: 91e71e0ddc98c6ba0cca88023c08901284637012bc7f306027134b6c214eb7eb
+factual_fingerprint: 5ea9e3aa674173c63c2297bc3ae4c65d18c23db77a2b0cc9f2fc040393c97202
 ---
 
 ---
@@ -6773,9 +7207,9 @@ source_job_id: 5537011
 title: Mandatory Trainer/Clinical Educator
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0861
-factual_fingerprint: 04152c70e8aab155cb8a74bc552d2002f6799d1487aff320e525fb16f9ab9b73
+factual_fingerprint: d8fc8b26a476672841c90744c11ee1f1782cb2ce8b44961409ee47b8e2be9a2e
 ---
 
 ---
@@ -6785,9 +7219,9 @@ source_job_id: 5537003
 title: DISPENSARY ASSISTANT
 employer: Dr Parnell and Partners
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1006-26-0001
-factual_fingerprint: d878240578cf17afd9b08fe5a45010da44212fd5f7c7f60a2f9075014b476a22
+factual_fingerprint: bd8a4420ef37ccd8fbb0b967f1edff160c5311f9510f512abcf1d67ec668e547
 ---
 
 ---
@@ -6797,9 +7231,9 @@ source_job_id: 5536614
 title: Medical Secretary
 employer: Gloucestershire Health and Care NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0684
-factual_fingerprint: 136ce10af7776380fcfa2e035903f2fd29a4fb4432ec6f83ab9d4813b6363dfe
+factual_fingerprint: b78c13c8afcb3a351bf8f4ec6ad400930fbfdcaa2928a2d26c03ed0b081dfb06
 ---
 
 ---
@@ -6809,9 +7243,9 @@ source_job_id: 5536823
 title: Admin Coordinator
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1695
-factual_fingerprint: d23e02432a491eafe9e784211e471f6e9faf0959f69f256584d598251f3f635c
+factual_fingerprint: 2d84507d53d0db2a4734d10f63fda1d45e0f93b3919c4bc45f71137bf19322ab
 ---
 
 ---
@@ -6821,9 +7255,9 @@ source_job_id: 5536394
 title: Medical Secretary/Reception Support
 employer: Ramsbottom Group Practice
 region: Greater Manchester - North
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5563-26-0004
-factual_fingerprint: 1ac11e358d05176596efc5476bf93930c213787d6245e8d26a347de591d3ab58
+factual_fingerprint: 99f15fb7fb510522f680c2033ee2fe1fc1975f9f72eb718ce9401b30b22cad5d
 ---
 
 ---
@@ -6833,9 +7267,9 @@ source_job_id: 5536729
 title: Failsafe Officer
 employer: Surrey and Sussex Healthcare NHS Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0548
-factual_fingerprint: 7e1031243036edb921c4e974ba8e13b1e3ab23140418b8bc2c0f01139e009b65
+factual_fingerprint: f2a14ec7a38ada0b25a2a9a078554c77d46050aa2c4127f0c4e590d511ec5682
 ---
 
 ---
@@ -6845,9 +7279,9 @@ source_job_id: 5536781
 title: Medical Secretary
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0778
-factual_fingerprint: 2b88d80729e1e435329d9dc6874c2951463bff8e98b33142ed2c8b7181d08b00
+factual_fingerprint: f0a20da3613fa504530db9b729731f531c83bf64819e3abde11e35c27bc177ad
 ---
 
 ---
@@ -6857,9 +7291,9 @@ source_job_id: 5536583
 title: Ward Team Assistant
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0855
-factual_fingerprint: a265ab9dafd2ebb475f5d2d3de6c161e03b583a86b7d82b490c097477c22e341
+factual_fingerprint: 99f85316eb51b243e5a1166868a93108bf3b4bc1e466ebcfceaacf739f5b00d5
 ---
 
 ---
@@ -6869,9 +7303,9 @@ source_job_id: 5536736
 title: Assistant Accountant
 employer: North East & North Cumbria ICB
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0056
-factual_fingerprint: e8a00cf86239c75fb1ca69fa6a0d5e5af36ca736f18dc8a938054b91263caa83
+factual_fingerprint: 6dc995eff37b73674e939a3eaf697e3e0c008af218a612df140546f7a5f1d106
 ---
 
 ---
@@ -6881,9 +7315,9 @@ source_job_id: 4751035
 title: PCN Care Coordinator
 employer: Northolt PCN
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0043-25-0001
-factual_fingerprint: 9023af1188e9398741ac6cc0b63c8bcf2a7da670c5282f71caa244436fe12e1b
+factual_fingerprint: d35979b293a53b900056fbcd5e9623b8551ffba3bc46727c52fc417a7a21d584
 ---
 
 ---
@@ -6893,9 +7327,9 @@ source_job_id: 5536561
 title: PCN Management Assistant
 employer: A1 Primary Care Network Limited
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3575-26-0002
-factual_fingerprint: 104e4ecab5e0c5f30dc3722586ac5f0d2f7a1e2315a149c9f8c870ea41103f75
+factual_fingerprint: 90abee4c7abc0c2e4f58f390edfd440fd5b916357ad0fb08ec66095f32945f2e
 ---
 
 ---
@@ -6905,9 +7339,9 @@ source_job_id: 5532951
 title: Assistant Patient Services Co-ordinator
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0768
-factual_fingerprint: c3ef2d7b3ecfb2a1799b2c0b7f161e79ef113debff7c986f8d3dbfa2a34c602b
+factual_fingerprint: c6781747f21ff036442fb21979794955a1c7d4b714821f9ba521c1bedf47e18e
 ---
 
 ---
@@ -6917,9 +7351,9 @@ source_job_id: 5536448
 title: Band 4 - RAC Co-ordinator, Gynaecology
 employer: West Hertfordshire Teaching Hospitals NHS Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0349
-factual_fingerprint: a4cbacc7ac247c95da7cefeda9bfc8df803ff1df8fdc70a44abd0740ecad0109
+factual_fingerprint: 39e78ab4746dd33be03d9401ae7d244ccbacd2a9e0132fb5c0cedabdb123eb00
 ---
 
 ---
@@ -6929,9 +7363,9 @@ source_job_id: 5536187
 title: Social Prescribing Link Worker/Care Coordinator
 employer: Birtley Medical Group
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0642-26-0015
-factual_fingerprint: 82574bc7e17ebfa3b50ece1231c7ba610664dfdfa7d2be5d3104f632e3620283
+factual_fingerprint: 5dff57ba1f4645276c858f808184288e5cdbbfb86d4ee53b894b9a0f86ffd197
 ---
 
 ---
@@ -6941,9 +7375,9 @@ source_job_id: 5536441
 title: Custodial Flow Coordinator
 employer: Oxleas NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0821
-factual_fingerprint: dd0162b17543b0fead8ff95315171e2089b69b013278c78391f714e51ffff962
+factual_fingerprint: e7218628398d38753d724562118cfb5ee199b27c78425f2e63d684efa5dfee52
 ---
 
 ---
@@ -6953,9 +7387,9 @@ source_job_id: 5530122
 title: Clinical Coding Qualified Auditor
 employer: Bolton NHS Foundation Trust
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0285
-factual_fingerprint: 995892e1532c358d577c9fc5267da85a8785f9fd4a0173fd677e2cf9acdc514c
+factual_fingerprint: af2b54d7041a25aeca53ac60ed4557ddcd0f302fd1f6701f010163f341d59706
 ---
 
 ---
@@ -6965,9 +7399,9 @@ source_job_id: 5535875
 title: HR and Finance Officer
 employer: North Staffordshire GP Federation
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0070-26-0025
-factual_fingerprint: a766312188748d6761315e7cafbe07b88df4154b49508c54d659e214a40ac3b4
+factual_fingerprint: e3c2ea31d056a60788c527b3d20df142896400b5b7e141f7d29eea9efdb61e44
 ---
 
 ---
@@ -6977,9 +7411,9 @@ source_job_id: 5536018
 title: Patient Services Advisor
 employer: Lakeside Healthcare Group
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3007-26-0087
-factual_fingerprint: 5c5d9a14b7e8e37e2b5c4ae353468b111c79d795903d0ba4d213c91280e24fea
+factual_fingerprint: 632f5a482b3ce8dcf2c1e88119e6974c0b5e931f5a7ad4f2787c3b5c841b8710
 ---
 
 ---
@@ -6989,9 +7423,9 @@ source_job_id: 5536281
 title: Patient Services Supervisor
 employer: Keats Group Practice
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1209-26-0002
-factual_fingerprint: 560ad8083dd1afe36d7c3c58fc030f64ab1f38ead06e9bab68b95b93d702f858
+factual_fingerprint: a68824cc0b726681f7c9a7023de924291b72cf5a14dc4126266c260a82e55e80
 ---
 
 ---
@@ -7001,9 +7435,9 @@ source_job_id: 5535955
 title: Phlebotomist
 employer: Al-Fal Medical Group
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2395-09-2026
-factual_fingerprint: ec0af720da39dbf28370ec82a99397549750355b2f9331b42385b929dddb4779
+factual_fingerprint: b84fb02f4d54960ebbe71853b7c417d8819a8405c62b982ea6f7e112d919f3fa
 ---
 
 ---
@@ -7013,9 +7447,9 @@ source_job_id: 5536140
 title: Accounts Clerk
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0950
-factual_fingerprint: 3c40223a415fb8b32d47cf30025f735a02d57a03f1a0a40a7a2a2769dfec3dbb
+factual_fingerprint: b6c3976d4ea951b145a01c48b5e68a0f4ad39249bea68a022e447060e4defe1b
 ---
 
 ---
@@ -7025,9 +7459,9 @@ source_job_id: 5536197
 title: Assistant Research Practitioner B4
 employer: Royal Surrey NHS Foundation Trust
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0725
-factual_fingerprint: 11e5345320fc35b654d6a33b139bfea957fb13e64020055fe07d0c32b8f3369f
+factual_fingerprint: f22d65b5f59f59bab9bd872f78cb723c94ddc33958f65048b7bbb4e53d835106
 ---
 
 ---
@@ -7037,9 +7471,9 @@ source_job_id: 5533211
 title: Appointments/Call Centre Officer
 employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
 region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0809
-factual_fingerprint: 736a1cb5b11a53b4c0cb1abf4dfd7f8bbb95fbe20650286bf3a9db5c8040d1d5
+factual_fingerprint: 161a7c5868239e04650463d436aefbdd01c3540a92cf7da49d3df157fa4a6260
 ---
 
 ---
@@ -7049,9 +7483,9 @@ source_job_id: 5535961
 title: Operations Lead
 employer: Practice Plus Group
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2759
-factual_fingerprint: f762a2cdf70adeec9da711c72b725695f2c14e38e21933387d9ac27b1f063394
+factual_fingerprint: 60f741e340a6bbdef0a1a325f2bb0eb13e159fa6ef9418fda8c670ca6fb66aa3
 ---
 
 ---
@@ -7061,9 +7495,9 @@ source_job_id: 5535620
 title: Costing, Currency and Financial Transformation Lead
 employer: Royal Surrey NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0722
-factual_fingerprint: b973073a3e1f7a08370f6b9c5104fa6dffbbb8a0fca7b9ec95f889b1d54555df
+factual_fingerprint: d2cdad66df73410a8dc3d7748d19e1089716bc278385bcfc84e92e02e40529c0
 ---
 
 ---
@@ -7073,9 +7507,9 @@ source_job_id: 5534549
 title: Research Assistant Psychologist
 employer: Norfolk & Suffolk Foundation NHS Trust
 region: Suffolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0915
-factual_fingerprint: 3227da43c011f2c232e0977daebb0e68284a43b09e6f02943136b821bd2918fe
+factual_fingerprint: a13807c7acd310037e667c5c0d46350879e9ea9178acdce48f90c510a8caa981
 ---
 
 ---
@@ -7085,9 +7519,9 @@ source_job_id: 5532764
 title: Customer Service Centre And Switchboard Team Leader
 employer: University Hospitals of Leicester NHS Trust
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0523
-factual_fingerprint: 61204f1ef4c3063f836a40b35bb36e3c4022360522ca848fec0d09218e3c4761
+factual_fingerprint: fd9455907bd5a0377a7e41ea7bc705657d21aa55d5a75841d8d3477f38a055f9
 ---
 
 ---
@@ -7097,9 +7531,9 @@ source_job_id: 5533165
 title: Quality Programme and Assurance Officer
 employer: Nottingham CityCare Partnership CIC
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PGCE-6533
-factual_fingerprint: 5478b51023c1eace3768ac7c70fef50be9cdc33f80385950cce8c0bb48997f75
+factual_fingerprint: d97c14fc2aef90ad8fcb87fed12f45c9776540c63bace9fc22b55df432aaefd9
 ---
 
 ---
@@ -7109,9 +7543,9 @@ source_job_id: 5530399
 title: PA/Medical Secretary
 employer: The Christie NHS FT
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0611
-factual_fingerprint: dbac5830ac0fd66f29cb122e5b658bbeaf4213158cc6aaf6bc66a2264c6f6323
+factual_fingerprint: 65e9094660cf8896dbcc6ae884c31fe1948ceec0d0b363882574651270199d59
 ---
 
 ---
@@ -7121,9 +7555,9 @@ source_job_id: 5535773
 title: Deputy Company Secretary
 employer: Great Ormond Street Hospital for Children NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0303
-factual_fingerprint: 8e21c714b7cad9945eaf6157a23d2a7f9b9c248428757e3340c35b13854d5d5e
+factual_fingerprint: 8284234724d3e3ad7e9720bcfb62d3ada98673c1ab40fc11fd494c5a90ad26e6
 ---
 
 ---
@@ -7133,9 +7567,9 @@ source_job_id: 5535808
 title: Civic Society Advisor - B7
 employer: NHS Essex Integrated Care Board
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE548
-factual_fingerprint: 323bc429dcbbcae9c43294142057ac6f59611833ef243d307eb7dc737c2af33b
+factual_fingerprint: b3c407a213760f4a721af57e81c31693784e01438963eff24af9718e31d63654
 ---
 
 ---
@@ -7145,9 +7579,9 @@ source_job_id: 5535824
 title: Healthcare Recruitment Coordinator
 employer: Vertis Health
 region: Worcestershire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0158-26-0096
-factual_fingerprint: 16e6d63800e7e7cf8e03fe2073bb1684e5262f77dbd5d5bb52d359b91a55b5d5
+factual_fingerprint: 73ac41930ec797b5c2e81f887bcce553beea28f63843fd0b007bc9d9e7e445b0
 ---
 
 ---
@@ -7157,9 +7591,9 @@ source_job_id: 5533999
 title: Bank Quality &amp; Safety Trainer with Fire Safety Experience
 employer: HCRG Care Group
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2007
-factual_fingerprint: 9a7b12b06c5b946038e201925638fbabc35ad8d9a04385351d3d15d907bc2c0d
+factual_fingerprint: 8382dc551a84d902c45c2e5b4e8b82f025dbc9372266a987a664c95593366863
 ---
 
 ---
@@ -7169,9 +7603,9 @@ source_job_id: 5533998
 title: Bank Quality &amp; Safety Trainer with Fire Safety Experience
 employer: HCRG Care Group
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2006
-factual_fingerprint: 9a5b6ad06d0e57b52f7c1af8da0402d34de447f398fbe2f75b8d509a84b6e664
+factual_fingerprint: 73dd0e426bdf2bce9a78208b38fe753418c5ba3eeed18e394b936e01b9d91892
 ---
 
 ---
@@ -7181,9 +7615,9 @@ source_job_id: 5489723
 title: Care Navigator
 employer: Millcroft Medical Centre
 region: Cheshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2377-26-0012
-factual_fingerprint: d2871614d9b1e93b559f0eec88038ac08983929f277658858a80635f1d18b0e2
+factual_fingerprint: 9bd8feed81a9208cb4fa09c62f2428e111a4b59cb166e4125a667bd64234f3fe
 ---
 
 ---
@@ -7193,9 +7627,9 @@ source_job_id: 5535704
 title: Recruitment and ESR Assistant
 employer: Gateshead Health NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9297-26-0462
-factual_fingerprint: 601b03fd27408249b04fcd65dd1d782f135f91f2d6067f3668bfe66edf0b2366
+factual_fingerprint: 2987070e33447b79f6f21d5563eefc04c4085e635f3ba5883ab0222704cf4a79
 ---
 
 ---
@@ -7205,9 +7639,9 @@ source_job_id: 5535722
 title: Urology Cancer Care Navigator
 employer: The Queen Elizabeth Hospital King's Lynn NHSFT
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0285
-factual_fingerprint: cec36c062d008a203c7b4d3cc840ae1b370085ab2065215b73665c043481c8b8
+factual_fingerprint: 097102de859a0049437ae042450b64c9ef137ad63b5d38823c90fc7f9b874a99
 ---
 
 ---
@@ -7217,9 +7651,9 @@ source_job_id: 5535131
 title: Mandatory Training and Learning Partner
 employer: North Tees & Hartlepool NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0304
-factual_fingerprint: d8845f0fdfe0cb7bb36b996237528e5f08af9977ba83e1480044d5aceec5f113
+factual_fingerprint: 06aca980b30c1114ab5f3bb370f57b561fe533a463002a8ea8097fef8cc8e662
 ---
 
 ---
@@ -7229,9 +7663,9 @@ source_job_id: 5534020
 title: Care Co-Ordinator
 employer: Agincare
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1424
-factual_fingerprint: 24b8f6e315d0e8c0564a41aec634e459a39bd93f233ff3819e46f4631b607338
+factual_fingerprint: 4b1e1cbde29ed161309d76f0bdff5aa187eef3b8d47170827e9354df9f7ac23b
 ---
 
 ---
@@ -7241,9 +7675,9 @@ source_job_id: 5532431
 title: Administrative Co-ordinator Rheumatology CNS Team
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0767
-factual_fingerprint: 0110e96b6b16d0fb8e3e4c8f7ec9e49db73320d57e0f1a31f5b8c4ba6474af24
+factual_fingerprint: 275ffec86263ac1809414471e1e4372f01b0ebc10d37abaf034d5f1d08dfb6e2
 ---
 
 ---
@@ -7253,9 +7687,9 @@ source_job_id: 5535590
 title: Patient Services Advisor
 employer: Market Harborough & Bosworth Partnership
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1377-26-0021
-factual_fingerprint: 140600a5c4d40b044144665b47bfaaeedf3ce0ae0f3e9094bdab22d629085103
+factual_fingerprint: 98e5ef372224b9adb552a6704fb15ed57c93e06f25bf4686b03aac5b7ef87f5c
 ---
 
 ---
@@ -7265,9 +7699,9 @@ source_job_id: 5532809
 title: Medical Transcriptionist Team Leader
 employer: Mersey Care NHS Foundation Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0758
-factual_fingerprint: 0290b922f7634d2f776d3066f1f767dc19ad88d64e09122fa37d9e5d07996d88
+factual_fingerprint: fbfe856ab8d8ece7c10b41cb089d052b0e56e9dae742c91eb72cb77004ece5b2
 ---
 
 ---
@@ -7277,9 +7711,9 @@ source_job_id: 5535426
 title: Executive Assistant
 employer: East of England Community Health and Care NHS Trust (Cambridge)
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0286
-factual_fingerprint: d1e2ca5a127eda0612a4b37c340c1221dac09fc55023593100f4a51a27c9ab5a
+factual_fingerprint: 29f223fc57a2a4bd402447c8da8aff5ff474897660b58b8703da7d46f4501a5d
 ---
 
 ---
@@ -7289,9 +7723,9 @@ source_job_id: 5535511
 title: Public Health Practitioner
 employer: Cwm Taf Morgannwg University Health Board
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0822
-factual_fingerprint: 1723cbb5e306f4bc8aad6a043bed1f941e92f5f1e724eb2fcd188fa0787c0f7d
+factual_fingerprint: fa4e0ae0e861f6f1d6308131bba48eb548dd646ff1fa637a88c494040ef387c9
 ---
 
 ---
@@ -7301,9 +7735,9 @@ source_job_id: 5535396
 title: Patient Secretary
 employer: Nottinghamshire Healthcare NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0579
-factual_fingerprint: e7f0db435dac846a18431b2c23efbe0f7222b6c4b8900d2b98834091a36b119b
+factual_fingerprint: b61e3fc5a2d2344e38fd75756d766f95131adbf305bc82d3b7845b18f0c0e7dc
 ---
 
 ---
@@ -7313,9 +7747,9 @@ source_job_id: 5535390
 title: Systems Support Analyst
 employer: County Durham & Darlington NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9439-2627-RP-1318
-factual_fingerprint: ed07248b75f294416e2762b3d8ff8afd81f95384f586f393cb0903160233357a
+factual_fingerprint: 816cd420525868207968802826ecb4e6606f4fb52e02229a303d3374934a7486
 ---
 
 ---
@@ -7325,9 +7759,9 @@ source_job_id: 5533327
 title: Chief Executive Officer (CEO)
 employer: Solihealth Limited
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0072-26-0007
-factual_fingerprint: 9cefbce4ac521cb83454605c85eb192d0de0e2e1f9460228d221c57020395e36
+factual_fingerprint: 8df47ffb40e823134460068dc9656f73b32d50c5af634c497b4c370bbbfe9a6c
 ---
 
 ---
@@ -7337,9 +7771,9 @@ source_job_id: 5535282
 title: Systems Trainer
 employer: Northern Lincolnshire and Goole NHS Foundation Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0525
-factual_fingerprint: cdc36bd97a06baa02174ba8c47599576a5fa6afd599e9bcd6bf625cfa10277b4
+factual_fingerprint: f2ac3f686def4a67121e52f91308681b1c347fbe32012bb1516d5fa863f731fa
 ---
 
 ---
@@ -7349,9 +7783,9 @@ source_job_id: 5533247
 title: Engagement & Delivery Officer - Acute & Ambulance Network
 employer: The NHS Alliance
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0032-26-0034
-factual_fingerprint: bcb683ba5526f842c121324345f293e5770d33a1a05a2aef7832a3545c0156e2
+factual_fingerprint: 1cee2e6fa4cfad0f98a0af0a23850ba3cbc55b5eebb92e06085215525771be83
 ---
 
 ---
@@ -7361,9 +7795,9 @@ source_job_id: 5535337
 title: Data and Insight Officer
 employer: Tapping House
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0219-26-0015
-factual_fingerprint: 63957461df5389509794132446b114164544d9393c7735794b64dc6e2b6c4b7d
+factual_fingerprint: c3e823193cd9dadcdac0ca05bb7c227e96bba086f976467bdfd9acd3c8a35be3
 ---
 
 ---
@@ -7373,9 +7807,9 @@ source_job_id: 5533959
 title: Band 9 Chief Technology Officer
 employer: Royal Free London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1364
-factual_fingerprint: b6cbad4c0e57f773bc4adecb21eddff0613202be7bfcb144188ae87e363a2388
+factual_fingerprint: 986b8d8292260e1cc86eba4d80af1b64574554792be7af65ec05d8cdd95aa185
 ---
 
 ---
@@ -7385,9 +7819,9 @@ source_job_id: 5535202
 title: Clinical Psychologist, Psycho-Oncology Service
 employer: County Durham & Darlington NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9439-2627-NP-1276
-factual_fingerprint: d5fe09551098d7b01e0e775b15c17a77fca0a8b42f0c92cb545828fbba68cd68
+factual_fingerprint: 2bf126522a2e0a7de56a0a2f5a15174a429384633685f6bbcb44736cb3d0f9c9
 ---
 
 ---
@@ -7397,9 +7831,9 @@ source_job_id: 5535272
 title: Medical Secretary
 employer: Pelaw Medical Practice
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4866-26-0001
-factual_fingerprint: b56dca2996ae05b36e086a9fff5353e259cd7aac2c70cf881e047ce15e048aed
+factual_fingerprint: 650a1dc1e85e876a46b90119dd43fba4da200d7115622fa3449f00e27b5897b6
 ---
 
 ---
@@ -7409,9 +7843,9 @@ source_job_id: 5535254
 title: Digital Trainer
 employer: Velindre University NHS Trust
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8120-26-0076
-factual_fingerprint: 1515ed4bc6cbdc321f42b6354f37c58a76f1c3da9c98f92ca8e41e2259f6a942
+factual_fingerprint: 2382798955e2fd07950d66aaff7a5ed168208b1b08de32e8ea6b177d17711e45
 ---
 
 ---
@@ -7421,9 +7855,9 @@ source_job_id: 5531515
 title: Band 3 Bowel Cancer Screening Co-Ordinator
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1218
-factual_fingerprint: 822effb8e9b69da236fe0def65a9cc42d63f88c20ba15df2d930bdef4b572a88
+factual_fingerprint: edf9884598cf20ac8b9bf574f023a6fd4d7325feef6d7b3daf0dfd2de72933d5
 ---
 
 ---
@@ -7433,9 +7867,9 @@ source_job_id: 5533429
 title: Band 4 Medical Secretary - South NMHT
 employer: Birmingham and Solihull Mental Health NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0536
-factual_fingerprint: 85e062b4d67f8bffe1dc6029d3d1e06314eeb7162ea4219f1b5ce2c84aee38fc
+factual_fingerprint: 2f5f63615f6ff8b590bc899cadcf24e6d1d2218c9577c13b8dd603d37e3ec119
 ---
 
 ---
@@ -7445,9 +7879,9 @@ source_job_id: 5531294
 title: Electronic Patient Record (EPR) Information Governance Lead
 employer: Lewisham and Greenwich NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0732
-factual_fingerprint: f02b5ecaf6a7170a12374c6690b95ba2829a0d1f4a30e7b7109c42ed064ea592
+factual_fingerprint: a0e0178ba52492b5798a10b564000b77043e1f74dbfd89116f31c040bcea5ff0
 ---
 
 ---
@@ -7457,9 +7891,9 @@ source_job_id: 5532367
 title: PTS Communications Scheduler
 employer: Yorkshire Ambulance Service NHS Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9174-26-0134
-factual_fingerprint: d2ffd8cd4835e7e5c0751989c0d89da8ac1c3009589994ae19efe1b692503cec
+factual_fingerprint: 098bffe327d50161a926313ec5291943510ad1b5b09efdd7990230fbc1746346
 ---
 
 ---
@@ -7469,9 +7903,9 @@ source_job_id: 5532365
 title: PTS Communications Scheduler
 employer: Yorkshire Ambulance Service NHS Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9174-26-0133
-factual_fingerprint: 3e92b39de4dacede05ce8637086ae156e5eacdeaf2800a6a0080568e41a847b2
+factual_fingerprint: c576f7ee2d1ff6eadf017970c4e308cbd087d3a72e1dfad2e69298967a9df552
 ---
 
 ---
@@ -7481,9 +7915,9 @@ source_job_id: 5533796
 title: Senior Management Accountant
 employer: Hywel Dda University Health Board
 region: Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-0976
-factual_fingerprint: 3349b4ae1fd55adfdce19a865aff925f4af9b6764bff6e6347d1ff5a0cf390f4
+factual_fingerprint: 3c278448f76e136512857f7a3b4ea8263351a104cc921b613e78c01eab1833b3
 ---
 
 ---
@@ -7493,9 +7927,9 @@ source_job_id: 5535013
 title: Practice Assistant
 employer: Brigstock Family Practice
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1349-26-0005
-factual_fingerprint: 9e36734fa55bc6dfd2ae2cf1e647522aa8f0244f0f75849cd7672ef7a1ca01ef
+factual_fingerprint: 4d8f3cd31383bcbf6a142904a223031486ab4caad0dfa4178a03d99d3f0f7b13
 ---
 
 ---
@@ -7505,9 +7939,9 @@ source_job_id: 5534769
 title: PCN Business and Transformation Lead
 employer: Armley PCN Services Limited
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0023-26-0003
-factual_fingerprint: 9b03f8e4dbe060cdb3326181ec114126cc0341becb985cee929ca41f967bcef4
+factual_fingerprint: ceb273bbf799ae8afecf20795271f0f98f1791b24d43eedb9c48f66cdf2eece7
 ---
 
 ---
@@ -7517,9 +7951,9 @@ source_job_id: 5525188
 title: HR Advisor
 employer: Liverpool University Hospitals NHS Foundation Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1251
-factual_fingerprint: 4f3f4fd8c2cbca73249a989dda209e1bdbbe6fc7c9f305ba60e671c4bfc0b4df
+factual_fingerprint: 42cbaa88e6e33af9f3d9c1e1fa7d86ab3e4d4e7a4cd18aef297e26b811d678df
 ---
 
 ---
@@ -7529,9 +7963,9 @@ source_job_id: 5533804
 title: Theatre Materials Management Lead
 employer: Countess of Chester Hospital NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0372
-factual_fingerprint: 6a8db299c264af26b2035f681449c676a238e21e1732e22d91ea81315cfd2af4
+factual_fingerprint: 8ef652aa60f79e3acb0b720cffe3d8b7f067bf5aaa37b4ad2abdaa87f0212b40
 ---
 
 ---
@@ -7541,9 +7975,9 @@ source_job_id: 5534711
 title: Care Navigator
 employer: Hillfoot Surgery
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2887-26-0002
-factual_fingerprint: 660431316ea8f21a1b419a92d48dd9041f88565463792b38ca274cbe6b334556
+factual_fingerprint: baa9e6b4f1f22f790f38d8415141aae71e64d4cc832aafa4143c6dc12eee56eb
 ---
 
 ---
@@ -7553,9 +7987,9 @@ source_job_id: 5534842
 title: Support Service Team Coordinator
 employer: Leeds and York Partnership NHS Foundation Trust
 region: Yorkshire - North
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0381
-factual_fingerprint: c33826a27d8b7cbaeaa4c4128ee0e620cff1dde92a2203946c7dbdbd18713160
+factual_fingerprint: 3a865d56633b4d85c336d3e3944f62bdafcb656e273c277d3fb54ca893121155
 ---
 
 ---
@@ -7565,9 +7999,9 @@ source_job_id: 5534850
 title: IPS Employment Specialist (SW)
 employer: Hertfordshire Partnership University NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0750
-factual_fingerprint: 4dacc365ebe12b758451b9d6d4298809c205fffffde15d71ca379c9b1d4682a3
+factual_fingerprint: 9ed0a88b391191af12613ed04a2000e98a55e8f64f7e388eb73e1bbd80ee5a3f
 ---
 
 ---
@@ -7577,9 +8011,9 @@ source_job_id: 5534824
 title: Care Coordinator
 employer: Churchill Medical Centre
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2617-26-0011
-factual_fingerprint: 10dafb9d08e404a91e9a659ceb82f5a1f8e6bdb07014583bbe1cf18dd6a8ec9d
+factual_fingerprint: 9521ef185a31b057dad0e2e6cf9c6319965a7f8ef785df07f9b52d0eec43784f
 ---
 
 ---
@@ -7589,9 +8023,9 @@ source_job_id: 5534542
 title: Senior Management Accountant
 employer: Wrightington Wigan & Leigh Teaching Hospitals NHS Foundation Trust
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9302-26-0361
-factual_fingerprint: a4a1c27298e458ac1c0e23f44c9c21f8dd8c4f48139e4e6af24913df25b8e9ef
+factual_fingerprint: 43b09df0e7af78bd597d8c5a2421b19528cec338f33ac03478e68acab02983e8
 ---
 
 ---
@@ -7601,9 +8035,9 @@ source_job_id: 5531216
 title: Operational Service Assistant: Northwich Care Community
 employer: Mid Cheshire Hospitals NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9412-26-0456
-factual_fingerprint: 926143cc4c08e5e9d38ce8b6d0da4ee801467cd1b69ba7465a1806ccc18ec423
+factual_fingerprint: 04dccc0672c6a929f1f2a28e1b5b9dbe52ffbc3eb6de439f1b506418092ba0bd
 ---
 
 ---
@@ -7613,9 +8047,9 @@ source_job_id: 5533485
 title: Medical Secretary
 employer: Countess of Chester Hospital NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0359
-factual_fingerprint: c2533032beb14ec47be49b20965d816298df851ceeb16d6528d9b93a34bda3f7
+factual_fingerprint: 35580e5a9dfd4d696f8b51cdcb0472ce3bb54a8ad223c2c17a480df47f90101a
 ---
 
 ---
@@ -7625,9 +8059,9 @@ source_job_id: 5534697
 title: Procurement Specialist - Salisbury, Swindon & Bath
 employer: Great Western Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0524
-factual_fingerprint: d8b7737b693bbbc5a540e1f4b31c037e652171c7a85ae09331967b9a367a139a
+factual_fingerprint: f88a6c41f5c40ac54a72f51527c161169bd80170dacaf162aa7d0b9377efa33e
 ---
 
 ---
@@ -7637,9 +8071,9 @@ source_job_id: 5534409
 title: General Clerk
 employer: Elysium Healthcare
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1777
-factual_fingerprint: 198e5b7404ba8a4a4f58a33341bb76d309ef89d49118a1de6bdd7980268a8494
+factual_fingerprint: 170d4bff021104c14bf2dd9ff073c17d94d74cd0d318b888800d7e7263602368
 ---
 
 ---
@@ -7649,9 +8083,9 @@ source_job_id: 5534406
 title: Medical Secretary
 employer: Elysium Healthcare
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1775
-factual_fingerprint: 6b194b106b3e7cb85703dae1c2e48b1cb3318fa277f4a6ba104e58573244bf96
+factual_fingerprint: 0737678a32d99a3f2fabeff666d62f8da2b5c57913e675836869adfc0d2dbcfe
 ---
 
 ---
@@ -7661,9 +8095,9 @@ source_job_id: 5534320
 title: Medical Secretary
 employer: Elysium Healthcare
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1750
-factual_fingerprint: 9989a60c4b2372c4afc9ab19f20ac40a5658fc6c95e6af0a6498502834ccd88a
+factual_fingerprint: 6b22b399bc2f395466717bad3c83f1281966120d0cd2cd33a904cf4e584d6a6c
 ---
 
 ---
@@ -7673,9 +8107,9 @@ source_job_id: 5534518
 title: Secretary
 employer: Dorset HealthCare University NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0852
-factual_fingerprint: 9b77058d076d9247ffeff26e31bd65897cfabcf8e4e1dfd2ee34b540f3a28ffa
+factual_fingerprint: 5e86a5c6f8209a35c86b449bf092422ccf00974fb4ee4015f954ff966089dc4f
 ---
 
 ---
@@ -7685,9 +8119,9 @@ source_job_id: 5527297
 title: Application Support Lead
 employer: Northumbria Healthcare NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0732
-factual_fingerprint: 7b0e88b96c083a178aa4171f2beabd8a7a35c3409d0ba254a00b0dfba02d6f32
+factual_fingerprint: ecd5ed3b4b62fd007a17c98dc01c6bc1785d4a0c99931be2f949de8f28b733ea
 ---
 
 ---
@@ -7697,9 +8131,9 @@ source_job_id: 5534528
 title: Senior Finance Business Partner
 employer: Sirona care & health CIC
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0433
-factual_fingerprint: fc20078bc7dd1ccc6d80e4e6598bb2ebff96d59866ee2b17618813ded5d9135c
+factual_fingerprint: 891367796509b24375c4e64095bb65806e278a21bdacda6c7280f5640c8b491c
 ---
 
 ---
@@ -7709,9 +8143,9 @@ source_job_id: 5534491
 title: Department Support Volunteer
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1279
-factual_fingerprint: b6c6d8bd0a73b086181e9087ccd05592a26556196d1092fbdbbd01440078df67
+factual_fingerprint: e07b155efa8ca0543ebf9aa1f5bdb97797584b76dfbcba49539a2aa2730a4df4
 ---
 
 ---
@@ -7721,9 +8155,9 @@ source_job_id: 5532837
 title: Cancer Pathway Tracker
 employer: The Royal Wolverhampton NHS Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0594
-factual_fingerprint: e375d1e350172aeeb5ea4cd96a11c1266d4d0d3a8f9da3c51980cda79327cb99
+factual_fingerprint: d83131107a8b195ff1ac7f2ae75f0be05a019fc6f895cc802575703208d67365
 ---
 
 ---
@@ -7733,9 +8167,9 @@ source_job_id: 5532094
 title: Urology Senior Medical Secretary / Waiting List Officer
 employer: Stockport NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Potential admin/service title: medical secretary, waiting list
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0603
-factual_fingerprint: b9bc66632dfadc206449ae72acd724e774a9c40b39f3979b20b9bd86b70b2afc
+factual_fingerprint: 7ad931a149e943b094b0954f164d5b757f10f1ed17b3a37c09066b2c57bfe8b9
 ---
 
 ---
@@ -7745,9 +8179,9 @@ source_job_id: 5534402
 title: Care Navigator
 employer: Combe Down Surgery
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3964-26-0015
-factual_fingerprint: 78fad588b7ed68bffe6eaa97f140da9207509ee23275f105c7dad97ba3bb47ad
+factual_fingerprint: fc5c630fc36f5ca514c94cba691ee8d4d9bda449f04e74ede56f24d3d8715bb3
 ---
 
 ---
@@ -7757,9 +8191,9 @@ source_job_id: 5534053
 title: Care Navigator
 employer: Sixways
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0350-26-0011
-factual_fingerprint: 9ed50e7cea5f2b4e04fef1a64cfce2f55bce20fd94977189eb420b9aa059d365
+factual_fingerprint: d3e0f04d78c0ce42c506c7467067a8d0f3666f2390eec83d561a6c4f64049ea6
 ---
 
 ---
@@ -7769,9 +8203,9 @@ source_job_id: 5533835
 title: Band 7 Associate Employee Relations Partner
 employer: Royal Free London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1363
-factual_fingerprint: 7b39034497abe8bcbd2d024bbb5d5f2d552c2c61286e8fed749db0cffa8c6ec1
+factual_fingerprint: 18496e93505d660741cd667add1f581b5441af323d34494cbe4ef7302d7fb86b
 ---
 
 ---
@@ -7781,9 +8215,9 @@ source_job_id: 5524906
 title: Asset Officer
 employer: West Suffolk NHS Foundation Trust
 region: Suffolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0526
-factual_fingerprint: e1903e8618595eb5755e4e2cb23d9564f39a4d6bc3678232051db63ffae624b6
+factual_fingerprint: 5d6b412e982de916ecfb5ad46901f5708474432d0c2121d1e1b3f2156f5ebb24
 ---
 
 ---
@@ -7793,9 +8227,9 @@ source_job_id: 5533802
 title: Oral Health Resource Assistant
 employer: Bradford District Care NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9453-26-0284
-factual_fingerprint: a598724d908634e840c8c1f34029b9e32134c8defe95f13e8f56dbcaf1a28208
+factual_fingerprint: ac0d91efdc2473cc1f6c83036a8bcfc0e7a6aa2f7b619b79e91fe652da683ddc
 ---
 
 ---
@@ -7805,9 +8239,9 @@ source_job_id: 5533828
 title: Clinical Coding Specialist
 employer: The Princess Alexandra Hospital NHS Trust
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9292-26-0331
-factual_fingerprint: 158fd26fb8af8fc34f2de98aa519532d9fc813e307641d0c3640977c3eb94c80
+factual_fingerprint: 8313ea681034090288122f43abeb6940fe6a1877377252acf355b7aae1f0efc6
 ---
 
 ---
@@ -7817,9 +8251,9 @@ source_job_id: 5533565
 title: Band 6 Manual Handling Trainer
 employer: Royal Free London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1359
-factual_fingerprint: 73d6bb97ab6227cb1b03d42d7883e6aae9f3fb0eaad6c57bdf5ced9d9cd91502
+factual_fingerprint: cadfc3befd0f412494f49c1a0feb75849f9edd7f172052f6ca2488b914950c43
 ---
 
 ---
@@ -7829,9 +8263,9 @@ source_job_id: 5533317
 title: Digital, Data and Technology Business Partner
 employer: Kingston and Richmond NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0341
-factual_fingerprint: f24b7601f4e8d9fcdfea2e752d54da8f89bf6f0a2b2305d8446944e0270a7e38
+factual_fingerprint: 6ecbf63da58cd05abae641fb2c906f64fb616bad9efbec61900a21051615be55
 ---
 
 ---
@@ -7841,9 +8275,9 @@ source_job_id: 5533568
 title: Care Coordinator
 employer: Beacon Medical
 region: Lincolnshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4960-26-0002
-factual_fingerprint: ceda7c256940702fec1a3baad431f18657db9e1e377121bba2200a6be4b21c47
+factual_fingerprint: 2b5fbd1a74cb33b91a64d57a8eef287c2bd94f3f6cc4fba9d9f5705476948af1
 ---
 
 ---
@@ -7853,9 +8287,9 @@ source_job_id: 5533248
 title: Medical Education Co-ordinator
 employer: Imperial College Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-0909
-factual_fingerprint: 5a3bb52fd0ff8ddd54a4a4d4b6313a3b7bf2464c01ee34afa48e69d93d14e9b8
+factual_fingerprint: 5c23d04bae9ffd3861e8a299c72edfdcfa008ce8cf0e6cf89753e57f51322bda
 ---
 
 ---
@@ -7865,9 +8299,9 @@ source_job_id: 5533359
 title: Medical Secretary
 employer: The Coastal Partnership
 region: Norfolk
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1699-26-00002
-factual_fingerprint: 72fb4d099204bd3f94233bc1572b01cb234412a1b81b923102b3f5cb9fc89c13
+factual_fingerprint: 53e4223618e50fd89c230b7b9d4b1adcbb482073322605020ab1536f4a319e51
 ---
 
 ---
@@ -7877,9 +8311,9 @@ source_job_id: 5533345
 title: Medical Rota Coordinator
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: coordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9339-26-0983
-factual_fingerprint: b9f5a817c7647d92b9508a7295af32a6f898bc99a36abfc925a73a314a8de28c
+factual_fingerprint: 3f3aac094804431b6f41a6061b7aa8aff464ae6194e9d94e137cb49c43e35c8f
 ---
 
 ---
@@ -7889,9 +8323,9 @@ source_job_id: 5533097
 title: Clinical Audit & Effectiveness Facilitator
 employer: East Lancashire Hospitals NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0452
-factual_fingerprint: cad6ee2c927830d380126d501aa371c35b004ceb14f51aa0b569d9d7411a3539
+factual_fingerprint: 5e0393afcf96d81e0c68979077da11887a1efbbbbde5ed8f31d40501c86ccdda
 ---
 
 ---
@@ -7901,9 +8335,9 @@ source_job_id: 5533102
 title: Data Visualisation Lead (Power BI)
 employer: Primary Care 24
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0368-26-0063
-factual_fingerprint: f912c3ee15788eca393eee488e9d3b4a1e2687e1fbfa5a73433d9c194a0f0d98
+factual_fingerprint: b4ea1017dcdbf406b1aef9fba2d6c21af3f5e944357af39a636eea047d1a394e
 ---
 
 ---
@@ -7913,9 +8347,9 @@ source_job_id: 5530511
 title: Office Supervisor
 employer: Tower House Surgery
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5808-26-0002
-factual_fingerprint: bcf8eeae292017848a497000fcd990c63529ba20bcfee844d9d1f5f7bb6d2450
+factual_fingerprint: 362c953b76d4ffee8a699c49f3cb78f1a6879362f0f4f9695dc3d281e6146af3
 ---
 
 ---
@@ -7925,9 +8359,9 @@ source_job_id: 5533017
 title: Discharge Coordinator
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0593
-factual_fingerprint: 00468abfcdb77b1e1bb8d872d6f75f22b42f91a62e5e3f04ff6c1cfb298a7c1b
+factual_fingerprint: d843a2a284094375f0661ca52fed510c4e3863b2ebca0bea07f0d78f6147432a
 ---
 
 ---
@@ -7937,9 +8371,9 @@ source_job_id: 5532522
 title: MDT Coordinator
 employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0777
-factual_fingerprint: b672482197ae82b7dcc37b5b53670cbd1eded8891eb4534f15c72888d96c28d9
+factual_fingerprint: a7a6048a85cb4c588772c7b6927760d0ab5f78dfc67ea882e7c6259f12f6b9d3
 ---
 
 ---
@@ -7949,9 +8383,9 @@ source_job_id: 5532715
 title: Band 5 Clinical Research Practitioner
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1186
-factual_fingerprint: fb8b432bec3f54333761aec03713cf493d070dc8fbe9ebaaf877a3d6096ede92
+factual_fingerprint: c16833fbc39b3a5db5ff74bfb07f09958e43fe95f464778ee63b977701beebb4
 ---
 
 ---
@@ -7961,9 +8395,9 @@ source_job_id: 5532709
 title: Prescription Clerk
 employer: Chelmer Medical Partnership
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3759-26-0005
-factual_fingerprint: e9381c58b3317aaf61c4a613d762ca90593c8d633f1fea3b2bdcc48abd139595
+factual_fingerprint: bf813d28f645ab09883cd4c8cbbcadcaa70719c69483e529244cfdaae46a8830
 ---
 
 ---
@@ -7973,9 +8407,9 @@ source_job_id: 5532699
 title: Patient Services Team Member
 employer: Balmore Park GP Surgery
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2637-26-0008
-factual_fingerprint: 6ae81c361924853cb26c86c4b197b000fe6c2e000ac6ad8c89ed02d11863f13a
+factual_fingerprint: 06265dd9d227241d937df1f38f4332e4732639147370a1d7b7bec27cbb86015c
 ---
 
 ---
@@ -7985,9 +8419,9 @@ source_job_id: 5532691
 title: Care Coordinator
 employer: Bodmin Road Health Centre
 region: Greater Manchester - South
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5308-26-0004
-factual_fingerprint: 47c7f0a7bb5040d728250576d548f55143d2d76446d7894e6ee991db7c7f0c5a
+factual_fingerprint: 709341aad889f148d73b67f634e4b96ffaf3c6ff123dbce3b4f56bcef69a8d2f
 ---
 
 ---
@@ -7997,9 +8431,9 @@ source_job_id: 5532612
 title: Cancer Navigator
 employer: Milton Keynes University Hospital NHS Foundation Trust
 region: Buckinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0457
-factual_fingerprint: 864302dc5db950b79b73da53c4d4bc6fb1b1b304f75b1e6f1c3305130b6a5b6e
+factual_fingerprint: 402fbc9499fdbc975a6a8071f757ab63ad8438c7f363aa5bbd7236c38888b4ab
 ---
 
 ---
@@ -8009,9 +8443,21 @@ source_job_id: 5530485
 title: Archive Coordinator
 employer: University College London Hospitals NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0803
-factual_fingerprint: d5a951ece16190f96b2132e02f17836bb9f0c1b12b1b0167f9fa2231a24887fc
+factual_fingerprint: 61478abbc89c9698e343cb7d471c947da82a33679ec7a4b745889a5a61cb1bf4
+---
+
+---
+action:
+POSS | NHS Jobs | — | Newburn, NE15 8NY | £32073.00 to £39043.00 | Commissioning Support Officer
+source_job_id: 5532584
+title: Commissioning Support Officer
+employer: North East & North Cumbria ICB
+region: 
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0055
+factual_fingerprint: 76af20c400692fdeab82512c6b5630058b711a8a482e7efec7e662ce9a742163
 ---
 
 ---
@@ -8021,9 +8467,9 @@ source_job_id: 5532569
 title: Business Officer
 employer: North East & North Cumbria ICB
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0054
-factual_fingerprint: f8ec98b98f4aeea9a0fc4126cab01a935eabbf7d4844e814b4cc6661e9bcb214
+factual_fingerprint: d3a377bace450f35dd9f2cd8893f691197304af100836f359f45cad18e8f0b0b
 ---
 
 ---
@@ -8033,9 +8479,9 @@ source_job_id: 5532541
 title: Recruitment and ESR Apprentice
 employer: Gateshead Health NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9297-26-0455
-factual_fingerprint: 0963670552ebf1c93aba498969e7332c20bc4bcf95693fb410a70dd667363d9e
+factual_fingerprint: adeff5793b06d4a897323083ceb4144afe82fe45f92b2fff33ccb0bf4fa66b3d
 ---
 
 ---
@@ -8045,9 +8491,9 @@ source_job_id: 5532438
 title: Records Services Archive Coordinator - Fixed Term 2 Years
 employer: York and Scarborough Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - North
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0732
-factual_fingerprint: 01050bfe20082fa069d1bac69c8be2110893c60de942a53de6275269ecf2e368
+factual_fingerprint: 093b4e832af35d5bc732e3217065332f185de4d62bc72016b17b0ec8fee59842
 ---
 
 ---
@@ -8057,9 +8503,9 @@ source_job_id: 5532417
 title: Records Services Scanning Coordinator - Fixed Term 2 Years
 employer: York and Scarborough Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - North
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0731
-factual_fingerprint: 6c86b48787809de10c13833a876cac5f091367498597abbd30720e55daa4186b
+factual_fingerprint: 8169db659b0b016fa934e8e70616e0271ddd93c594bc8d403b9a96ff01bd0d4d
 ---
 
 ---
@@ -8069,9 +8515,9 @@ source_job_id: 5532446
 title: Fire Safety Advisor
 employer: Leeds and York Partnership NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0379
-factual_fingerprint: c84044e6405a210dd957db8b3ce495ae07b840f84b1f5b768e7f69d6988ff9d0
+factual_fingerprint: 12cb9d4ea27b42174c454e0883509c0a4d4aacbb6497c9f3d93fc949a075d763
 ---
 
 ---
@@ -8081,9 +8527,9 @@ source_job_id: 5531953
 title: Clinical Admin Co-ordinator
 employer: Cumbria Health
 region: Cumbria - North
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0554-26-0086
-factual_fingerprint: dff498e21ea36075ac492b7964c4159e6b6c288a0d4b2dc5e18d27e10a2f014e
+factual_fingerprint: 689ba8d27cc20d1eaac854d4ba411c187d11f69bd0fc70f4634405214e250ceb
 ---
 
 ---
@@ -8093,9 +8539,9 @@ source_job_id: 5532384
 title: Urology Medical PA
 employer: East and North Hertfordshire Teaching NHS Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0466
-factual_fingerprint: ad100c9cd58bc79f77a9b0bf5e8d11f071a9d5b59cf958e91e9a8ae2ecf59458
+factual_fingerprint: 3c027c634d4d114e600124cc3e792d98a0d390512baad9b0284da79468cf2594
 ---
 
 ---
@@ -8105,9 +8551,9 @@ source_job_id: 5528805
 title: Care Coordinator
 employer: The Grove Medical Centre
 region: Dorset
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1207-26-0011
-factual_fingerprint: 89995d03a4983689c8210433b807c1d69f306c51bdad0207742f5347ef938563
+factual_fingerprint: 22d9f2dc70295be2037eb062d4faba1929627664168513bd938ab211301949cb
 ---
 
 ---
@@ -8117,9 +8563,9 @@ source_job_id: 5532045
 title: Medical Workforce Business Partner
 employer: North Tees & Hartlepool NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0301
-factual_fingerprint: 4d3cbd45ffdf96b11f188f114c4b2f82b8b0282ac3baec44f46f09dd272837fb
+factual_fingerprint: d7fb8c80597ef1bb2112564bf1064304db2df9e3359dca0cdd5c717e45f05ad9
 ---
 
 ---
@@ -8129,9 +8575,9 @@ source_job_id: 5532154
 title: Care Coordinator - Clinical Hub Services
 employer: Royal Trinity Hospice
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0132-26-0021
-factual_fingerprint: 8df8f08b1400e6c97f192d5add656cf22fdcda8ad8b6c9260edf20ec60f05357
+factual_fingerprint: a718402258e9e91733f3da9045278d6e030eb5b5984a935ec8bd8d9264dd7bde
 ---
 
 ---
@@ -8141,9 +8587,9 @@ source_job_id: 5532148
 title: Screening Engagement Practitioner
 employer: Public Health Wales
 region: North Wales - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0146
-factual_fingerprint: e9878103b1659718cda02d4c68f889e62420160b624484e399b91b0af81062f6
+factual_fingerprint: 5c2e67da8922ca357a0fea59ee78c275f25565f0a1e751eba13e36ced13d97ef
 ---
 
 ---
@@ -8153,9 +8599,9 @@ source_job_id: 5532120
 title: Access Hub and Patient Service Advisor Floater
 employer: Nexus Health Group
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5226-26-0045
-factual_fingerprint: a393ccfe141950a23dd5e4358e4ecdf97c3181b05c80f74fff899be8de9f148c
+factual_fingerprint: 29568021426ab937c6f1bb3ebe7a77c70205b426c1c02c3b05b53e5d53e71f56
 ---
 
 ---
@@ -8165,9 +8611,9 @@ source_job_id: 5525139
 title: Support Medical Secretary
 employer: The Dudley Group NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0366
-factual_fingerprint: 5fefab5a628b4c40820b6498a84fbab49c79146a0968ac495c47b776fa50b4ca
+factual_fingerprint: 904725255a0233f3d53b30dc3746b357ff80ca7b5f227069aa854cfb21d6115a
 ---
 
 ---
@@ -8177,9 +8623,9 @@ source_job_id: 5530347
 title: Medical Secretary
 employer: Lancashire & South Cumbria NHS Foundation Trust
 region: Cumbria - South
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9351-26-0953
-factual_fingerprint: dab054127cc60fec9660af51639d24b1f220fd2238363a48a5dcdfeca580d30d
+factual_fingerprint: 47ebba3b0f6c2168adf7799c42ee410bcb469b18bce863d4a035f1a5940cacbb
 ---
 
 ---
@@ -8189,9 +8635,9 @@ source_job_id: 5532124
 title: Chief Clinical Information Officer (CCIO)
 employer: Central London Community Health Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-0714
-factual_fingerprint: 41261a0d4f0ff3acf91bb0cc1d4415df95a566e8006af688001525d3d07b9fe5
+factual_fingerprint: 716280aebe0237a212480fc66e9d57674e8f9a6d833607b213c84316e762c1fd
 ---
 
 ---
@@ -8201,9 +8647,9 @@ source_job_id: 5530247
 title: Medical Secretary
 employer: University Hospital of North Midlands NHS Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1631
-factual_fingerprint: 6232a75ed9e2730f93d2620eed359a26bba393d89c73eaab63eaf8997cce7458
+factual_fingerprint: 70cf335b3de87acb7071296da78c673306196163f1c8b1357cd33edefca7870e
 ---
 
 ---
@@ -8213,9 +8659,9 @@ source_job_id: 5532017
 title: Network and Telecoms Team Leader
 employer: Gateshead Health NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9297-26-0453
-factual_fingerprint: c852f1f4a41315d0f5bcda8d326cb4a94868f5489b559ca1d72c1f4a7f35bd78
+factual_fingerprint: d4e33ea3c667ca735346578c64da1e5e709b3330d33986ab538c1262be016cea
 ---
 
 ---
@@ -8225,9 +8671,9 @@ source_job_id: 5531669
 title: Team Leader (Management Position)
 employer: Chelsea Medical Services
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2475-26-0003
-factual_fingerprint: 1a483e44729a9e0e06595a9aa2388031e3a6b190a2acd28c02faac7583fca603
+factual_fingerprint: 9bf7d9abb4d1cad4acdbf6c01b8bbc176440fb7675cd62341a8f727fc8f9ae7c
 ---
 
 ---
@@ -8237,9 +8683,9 @@ source_job_id: 5531844
 title: Clinical Coding & Data Quality Improvement Lead
 employer: Royal Surrey NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0720
-factual_fingerprint: 4ff87385762a42c26f3b726ad17b2b518fcabcbb98871e07fd1141b240fadc98
+factual_fingerprint: 8321023ed5b8db108459c1702e3902862c303bb4595e9e577e3103a34b936b93
 ---
 
 ---
@@ -8249,9 +8695,9 @@ source_job_id: 5531823
 title: Access to Health Records Team Leader
 employer: Wrightington Wigan & Leigh Teaching Hospitals NHS Foundation Trust
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9302-26-0358
-factual_fingerprint: 6164576d1813e64d48e8601adc605c8a3a5c00e4c36878981469361c4c7ed0fd
+factual_fingerprint: 480ffbaf4847cea4ff8db391f1b89ea2dbc541d07b5b91b4c7906e3162994584
 ---
 
 ---
@@ -8261,9 +8707,9 @@ source_job_id: 5531441
 title: Operations Lead
 employer: Hedena Health Ltd
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3940-26-0008
-factual_fingerprint: 146cd9faf0bbd9e4e4c9ddd0781f45471753f5eaa2167234da90e0c99f65a0b8
+factual_fingerprint: 37f97344062a28ae90936423858ba10b1df341b5200aa244bb4fa8848509cc13
 ---
 
 ---
@@ -8273,9 +8719,9 @@ source_job_id: 5531469
 title: Employment Navigator
 employer: Locala Health and Wellbeing
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2010
-factual_fingerprint: bc588807f99ce39516ec30ee48bb28fd006f97153417da9515b9b4caf21f4359
+factual_fingerprint: 1fc0ef2e9f99e91c9dcd406ddaa13f9c9ecc59e6cd64e72918e9698e980b3752
 ---
 
 ---
@@ -8285,9 +8731,9 @@ source_job_id: 5530415
 title: Band 4 Medical Secretary - Mood Disorder Team
 employer: Birmingham and Solihull Mental Health NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0530
-factual_fingerprint: df6d2211229eb2c66eb3e705b4f0b144f01a24effa61a1f8502f6a1f3e2d58c8
+factual_fingerprint: 5a218ad78b0d468fa62c86c2af8d4e207f9cf279bfabfba04678ebb34462a04a
 ---
 
 ---
@@ -8297,9 +8743,9 @@ source_job_id: 5531758
 title: Band 6 Research Grants Officer
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1219
-factual_fingerprint: df8024f4f92652915816ae6270acf37aa0da62a587d02f01f03e0119044f09fb
+factual_fingerprint: 625cd659ce8181c66a5320a746c20dbd033e4b763fe1ac61ef47c59d8872d55c
 ---
 
 ---
@@ -8309,9 +8755,9 @@ source_job_id: 5531740
 title: Divisional Employee Relations Specialist
 employer: Imperial College Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-0904
-factual_fingerprint: 7982380785006b3e948be1ac27de8255765da22dc724a9af17f720ad07f3f180
+factual_fingerprint: a5e93f22c67f06e226a5f60b96f73f754d2242406b282b50ef846b901d8fe9e1
 ---
 
 ---
@@ -8321,9 +8767,9 @@ source_job_id: 5531640
 title: Automation Developer
 employer: Guy's and St Thomas' NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-26-0945
-factual_fingerprint: 65d390931e8c6498d8967db7ef69872329914a9c97e48fd85ac4049a220415d2
+factual_fingerprint: 2569ac5d215f7e82924df0e03ec58b7c080b1767e08d6337472062922fdbfddf
 ---
 
 ---
@@ -8333,9 +8779,9 @@ source_job_id: 5530517
 title: Just One Number Administrative Call Handler
 employer: East of England Community Health and Care NHS Trust (Cambridge)
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0284
-factual_fingerprint: 4ca1dc5c5b62b7fc24aca4cfce47a8a41c72aa0d8509c85f8e805904e679bdaf
+factual_fingerprint: 7d449ac78be96c37df8e830f2c73b19a45cc4bddf9ea19c6fbd1d56933998503
 ---
 
 ---
@@ -8345,9 +8791,9 @@ source_job_id: 5531626
 title: Patient Services Advisor - Creech Medical Centre nr Taunton, Somerset
 employer: Symphony Healthcare Services Limited
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0215-PSACMC-AUG26
-factual_fingerprint: aa6aef22f1431bbd23ca92c88e25a0bc2d87b3c9b56b73a1d7f41fed7278036c
+factual_fingerprint: e69f5f2ecb16735331dc5ba6352c50b4e3fab2e3b6a660c5cf0a3fca20f0cc8d
 ---
 
 ---
@@ -8357,9 +8803,9 @@ source_job_id: 5530014
 title: Neurology Support Medical Secretary
 employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0772
-factual_fingerprint: 9abdeb5a7b559f68d7d8737569bad93099a4bec7715c58644aba16e04c0e22d3
+factual_fingerprint: 47a71ec36668d25b264da75e0a4b8c10da0d31d6e6176ceaa0d12ad6682d69a5
 ---
 
 ---
@@ -8369,9 +8815,9 @@ source_job_id: 5531370
 title: Patient Services Advisors - Various Hours Available - South Petherton
 employer: Symphony Healthcare Services Limited
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0215-PSASS-AUG26
-factual_fingerprint: d8ba41b32c98fe6e0e216275ac5c6da0fde0767fdc3aa5d93bbb720e2fd40f3b
+factual_fingerprint: 1f69a8263989e53ceab8e651e39d6e30e0a8a3f3db4e723c0f69bf6b9e5c6249
 ---
 
 ---
@@ -8381,9 +8827,9 @@ source_job_id: 5531534
 title: Deputy Adult Community Services Lead - Upper Lea Valley ICT
 employer: Hertfordshire Community NHS Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0302
-factual_fingerprint: e4efd43df24e2cf4335b430e7b48d3c9246a1a4909bf0627b0d3eb956f0b5dc3
+factual_fingerprint: f9b39f19797fd02da0292848c8b7d8694aa48098cd0450f6ff31aa4c7fb1dd80
 ---
 
 ---
@@ -8393,9 +8839,9 @@ source_job_id: 5531501
 title: Call Centre Advisor
 employer: Lister House Surgery
 region: East Midlands
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5287-26-0027
-factual_fingerprint: 7f578fba9b13e475fe5cf43a3953e2e853ef40192705fd748beaa61adbacaa3e
+factual_fingerprint: 3c68b96b8e5ba26025898c233824fb1cbf37c4bbdcd07e36d61ab68d316128f6
 ---
 
 ---
@@ -8405,9 +8851,9 @@ source_job_id: 5530964
 title: Employee Relations Advisor
 employer: Nottingham University Hospitals NHS Trusts
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0749
-factual_fingerprint: 51c7d7756b097585e09d8b9b5413987139a05bc1893903593b048f50b0e6d97e
+factual_fingerprint: e0b42e38d668feb434140553a08070e725ad87a32ecf893dc03942af1df3c670
 ---
 
 ---
@@ -8417,9 +8863,9 @@ source_job_id: 5531476
 title: Band 8a Senior Finance Business Partner- BSOL Pathology
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1217
-factual_fingerprint: dad3dc7667791a56c8ae7ca0d64c2fa987ba8264ce1c4fa5ceee8e9e04d4b4d8
+factual_fingerprint: 48b8ec489aa7dd39acc31e126e8fad4e36f92beeaa24ffcdeb34cadb8b4a9dfe
 ---
 
 ---
@@ -8429,9 +8875,9 @@ source_job_id: 5531383
 title: Strategic Lead Acute and Specialised Care
 employer: Hampshire and Isle of Wight ICB (104)
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0046
-factual_fingerprint: c68de117da1be6bfdd01dc694d232f0bb72d401b364b1c8490e30e2a79dc1d29
+factual_fingerprint: 3f463aa6b8d78b45b7c630ab76c65c88b2e2eabc6c577f7ad943639502a07031
 ---
 
 ---
@@ -8441,9 +8887,9 @@ source_job_id: 5530996
 title: Data, Quality and Engagement Coordinator
 employer: The James Cochrane Practice
 region: Cumbria - South
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2946-26-0004
-factual_fingerprint: e41e3e42c7d6b94018405c3c4b4b810c34c9ab608e8ba1a56d86e403bb0fcef9
+factual_fingerprint: 3e46b838ed91f5a09b0e79ecc7237c1140fec6213d6ffa998934ea6c305ab9ab
 ---
 
 ---
@@ -8453,9 +8899,9 @@ source_job_id: 5530993
 title: Project Support Experts by Experience Programme
 employer: Cheshire and Wirral Partnership NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Potential admin/service title: project support
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0521
-factual_fingerprint: 0edd7a484085322332d5c12563d737e7aff7177df7e5ee064ac624fc135aa2db
+factual_fingerprint: 60b58b80f86aca6d6b98e60ca962e64efc7bf90eba24a033c280d0f3865312d4
 ---
 
 ---
@@ -8465,9 +8911,9 @@ source_job_id: 5531363
 title: Security Lead
 employer: Kent and Medway Mental Health NHS Trust
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0633
-factual_fingerprint: d1a4ae94774e1f77fb369a74eca96d9ca580de7be53d67cf0ee6a7ac05f07227
+factual_fingerprint: 77c8d0482331d6f33110d8564b4c89e8a5302987e96cc02ba5415fb3c19fe52d
 ---
 
 ---
@@ -8477,9 +8923,9 @@ source_job_id: 5531060
 title: Public Health Practitioner
 employer: Spectrum Community Health CIC
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0265
-factual_fingerprint: a0c1c37f982190afcae7adeb92f1749a6df3f4631fb50116c6b927d9aff706b9
+factual_fingerprint: ab5977bed5fe81383190c8e1914c06d498abbb7ef2a0d828e69bfaec05a5f607
 ---
 
 ---
@@ -8489,9 +8935,9 @@ source_job_id: 5531192
 title: Surgical Support Coordinator - Dermatology
 employer: The Shrewsbury and Telford Hospital NHS Trust
 region: Shropshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0826
-factual_fingerprint: 8460ac2191d892061636b7dc6dde50fd18100983cd0d58f29934c849798960c7
+factual_fingerprint: cdedd988bcd52fd6fadccddc76e7b4f8e1f3c4603d8943fe175d77f96ad6ab3d
 ---
 
 ---
@@ -8501,9 +8947,9 @@ source_job_id: 5530025
 title: Group Clinic Facilitator
 employer: The Adam Practice
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4962-26-0038
-factual_fingerprint: 647fe427c9b994367f064b92c713ff5cf4cf139def3028a75a389a2ed0f8fb66
+factual_fingerprint: ef3f57ce4e55f86063a56e6294d7802948be495a12e910f6414670bb28ad5dd4
 ---
 
 ---
@@ -8513,9 +8959,9 @@ source_job_id: 5531010
 title: Contracts Co-ordinator
 employer: SWFT Clinical Services Ltd
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0374-26-0061
-factual_fingerprint: 39980fec05e969e9295027f81560d48a8db36f3676f7e286906ddf95dde16dca
+factual_fingerprint: 49618010219d1ca0d04351596481a24aa45cd2f2a7c9be5a0710d88ae20cca98
 ---
 
 ---
@@ -8525,9 +8971,9 @@ source_job_id: 5530522
 title: Patient Safety Partner (PSP)
 employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0649
-factual_fingerprint: b81270a166bf3eba6daa9f1fe517983439a251caea83fc890fb826bc55334277
+factual_fingerprint: 0cf3968c205c008a1f28fe63bd01b625b05525438629c145c86cc1b2cd4f9c2c
 ---
 
 ---
@@ -8537,9 +8983,21 @@ source_job_id: 5530644
 title: Part time reception
 employer: The Broadway Surgery
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5714-26-0001
-factual_fingerprint: 56194f8838b9246ac5e0817591c896aa9e333f0806553f3afbbcbd69ac9ad4ff
+factual_fingerprint: 5fbae70ed266d9dec48295d78df20b2c14ceff138c4591b26863812ad9093713
+---
+
+---
+action:
+POSS | NHS Jobs | Wales South - Cardiff & Vale | Cardiff, CF14 2TL | £26813.00 to £27890.00 | Charity Fundraising Support Officer
+source_job_id: 5530835
+title: Charity Fundraising Support Officer
+employer: Velindre University NHS Trust
+region: Wales South - Cardiff & Vale
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8120-26-0075
+factual_fingerprint: 094ed7121019b0b70990b8594b5804bd9c477f61d74cefd2369eab32137ab3da
 ---
 
 ---
@@ -8549,9 +9007,9 @@ source_job_id: 5530477
 title: IT Cyber Specialist
 employer: NHS Dorset
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9467-26-0006
-factual_fingerprint: 0ecc97894e85252a83931a261463840ee37b9bead259bb8811ed731dd625e659
+factual_fingerprint: 3f2e5cebc93d0097366a039394102e96dddad19277dd699d2804a09c269272c6
 ---
 
 ---
@@ -8561,9 +9019,9 @@ source_job_id: 5521919
 title: OPIP Pathway Design Lead
 employer: Northamptonshire Healthcare Foundation Trust
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0634
-factual_fingerprint: 64553d6be0ab51e22bddb32a50c7d6db9f75feae00df50a6e116814de90bf8fc
+factual_fingerprint: 6189d356780b20bcc659cc8961d80762c2cdf847b1d48406d8e50c92ec051190
 ---
 
 ---
@@ -8573,9 +9031,9 @@ source_job_id: 5526969
 title: Senior Organisational Development Lead (Transformation)
 employer: Northamptonshire Healthcare Foundation Trust
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0639
-factual_fingerprint: 0dfeba8a052261ac076c083d475b067ef133856a1e3edb4f911bb64d9b434454
+factual_fingerprint: 0b771dd451337129c7aefa2219e0ecafeb4fcc0696c55a325cea07025fa0ad33
 ---
 
 ---
@@ -8585,9 +9043,9 @@ source_job_id: 5530673
 title: Care Navigator (Bank)
 employer: Wellspring Surgery
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2584-26-0003
-factual_fingerprint: 2c828bc36aa86bd17c0a0528853cb7b179d27ba1cc32f93bbb9f34fa8e8e054c
+factual_fingerprint: 5995b82ac22d77796f5da1e7e8a4c5b72da02db52d19a42d2dfdfa1e064a16c7
 ---
 
 ---
@@ -8597,9 +9055,9 @@ source_job_id: 5530505
 title: Administration Officer
 employer: Black Country Healthcare NHS Foundation Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0494
-factual_fingerprint: b2b0c2e97793ba4835e9f10024eab743babde2154f891f2d463c1c2ee7a7215b
+factual_fingerprint: 23d82afff9ecfbf3aea4889ddee1f0658f1de559a7ca465e83cce417c2607013
 ---
 
 ---
@@ -8609,9 +9067,9 @@ source_job_id: 5530117
 title: Organisational Development Practitioner and Trainer
 employer: Royal Surrey NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0717
-factual_fingerprint: ab93388918a7f6813f6e42ae69b9b6ee3234e48c0b4c0786574d7f77655e48f9
+factual_fingerprint: 284438f6ae84bb6e02083a46850a8433533cc68b1e607793aeb1790f93fc8470
 ---
 
 ---
@@ -8621,9 +9079,9 @@ source_job_id: 5530111
 title: Digital Team Lead (L&OD)
 employer: Royal Surrey NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0716
-factual_fingerprint: 5bea5aa7cdf31866ef7e13ea8e4e0e7f80776a788087cb140e902ff5ef88df62
+factual_fingerprint: 2ee40cb9f872db73cf60fc6c73912bb3c047aa968f3e0fb9a2a83387841c9fa5
 ---
 
 ---
@@ -8633,9 +9091,21 @@ source_job_id: 5526264
 title: Care Navigator
 employer: Canterbury Health Centre
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0464-26-0001
-factual_fingerprint: b895798518202de7c7547cd6468a78d43b3fa283a31f1f6b55175666a4c25fca
+factual_fingerprint: d2bac0ac446168cea207fe34d00889a396e663a157293fb56345cae971cb199b
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - East | Hull, HU13 0GD | £26411.65 to £28538.31 | IT Logistics Support Officer
+source_job_id: 5530369
+title: IT Logistics Support Officer
+employer: N3i Limited
+region: Yorkshire - East
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0009-26-0007
+factual_fingerprint: 42c70789d9fe933288ae57d0b5e16fea6d33355189607f0593c53579355b4fb3
 ---
 
 ---
@@ -8645,9 +9115,9 @@ source_job_id: 5530463
 title: Administration Officer
 employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0741
-factual_fingerprint: 464e8ad3d38c54e1c102f1dd2951b23a64ed7982e54a18fe362ddb03b9441fa5
+factual_fingerprint: 61f574c8ad6b87f673f3800144e0cde2d403dccbaccf0cace886e4084924f2fb
 ---
 
 ---
@@ -8657,9 +9127,9 @@ source_job_id: 5530460
 title: Administration Officer
 employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0740
-factual_fingerprint: b6d43c243d64c6da1b6c5cb7cd8a5a33a3faa7d225f6a9a91e5fc00fd9e352f8
+factual_fingerprint: d956bac33ef22fba2d56e56ea517494b4888b0c051c778b4c8c14689b77413f3
 ---
 
 ---
@@ -8669,9 +9139,9 @@ source_job_id: 5530424
 title: Administration Officer
 employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0739
-factual_fingerprint: 60ceb719b62d9d1bfee8965167c7f6240a1ef1b098b810a819075e6878f82171
+factual_fingerprint: 6d33dece2b1bdd8bbf70a0ec4235cd85d2db865d8c1519c8c7afec34a12ea969
 ---
 
 ---
@@ -8681,9 +9151,9 @@ source_job_id: 5527588
 title: Referral Coordinator - Long Lee Surgery
 employer: Modality Partnership
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: coordinator, referral
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0281-26-0138
-factual_fingerprint: f79b376f23ed7169143d160d6bb7744db6f4b27b3ab7e88969a3b5c300c3c0f2
+factual_fingerprint: 7e7694d07874c26306f99f819dada0ef9b827e6122aed9936095a12002892d86
 ---
 
 ---
@@ -8693,9 +9163,9 @@ source_job_id: 5530405
 title: Perinatal Training Co-ordinator, Band 4 (12-Month Fixed Term)
 employer: Gloucestershire Hospitals NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0717
-factual_fingerprint: 175461c0e7956ab831f75e15693b9573e76bcc2b1a267c7700ccd613d94c110c
+factual_fingerprint: 328d3ac0ce55298e0aca060de4c87d1e44401262a6f9552f47a569b6c2cac6ff
 ---
 
 ---
@@ -8705,9 +9175,9 @@ source_job_id: 5530413
 title: Bank Level 6 Oliver McGowan Mandatory Training (OMMT) Facilitator BSoL
 employer: Birmingham Community Healthcare NHS FT
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0555
-factual_fingerprint: c537d3b1351c6f21e9df6c61ff894f69cef0e766a193648e433e67a1185cc48d
+factual_fingerprint: 8058787224b71f191a3ea5d5274d3649f1d7fe79403c0ce40a18bce3dab63f88
 ---
 
 ---
@@ -8717,9 +9187,9 @@ source_job_id: 5530336
 title: Payroll Administration Apprentice
 employer: Cambridge University Hospital NHS Foundation Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1014
-factual_fingerprint: d8da8b6fed485bde397128cda116a8a2ba33f10f1773f4685be419c4a90b3181
+factual_fingerprint: 6298b858e0d164fdccb8d1de2615693451497b96f8097a75d1146adcc74c15f2
 ---
 
 ---
@@ -8729,9 +9199,9 @@ source_job_id: 5530371
 title: Pharmacy Administration Secretary
 employer: Sheffield Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0496
-factual_fingerprint: 1120c59560787c5bec2e96a47728491262b55b6a039eec9d006b27ebc3477c28
+factual_fingerprint: ae00e8c8040442716617c8094117c806bb77130651673a4f2bdbbf655cec8193
 ---
 
 ---
@@ -8741,9 +9211,9 @@ source_job_id: 5530236
 title: Business Administration Apprentice
 employer: Kent and Medway Mental Health NHS Trust
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0632
-factual_fingerprint: 0cf839c8128a444844511d6e3557307793020c2453ff03235b6ee4addad58f0f
+factual_fingerprint: 39a2e6a04847e6b98b84f9c97c5d73dc23252cc2c7eb845a82ec426c83c957fc
 ---
 
 ---
@@ -8753,9 +9223,9 @@ source_job_id: 5530293
 title: Patient Engagement And Involvement Assistant
 employer: Somerset NHS Foundation Trust
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1177
-factual_fingerprint: 7474d3d244e455879bb8d46f9042afbae12ce7e20147fa87058db8e6ee49e3de
+factual_fingerprint: 76e0f0f1d5dd40ab4dd79a827f25153f59d462335d6be2a38e4eec93884cdb54
 ---
 
 ---
@@ -8765,9 +9235,9 @@ source_job_id: 5521220
 title: Medical Secretary - Walsall Division
 employer: Modality Partnership
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0281-26-0136
-factual_fingerprint: 237ffc8b1b668580e308dfff1ba62ffc2dd147fcd8faf379172aceaddcc00a79
+factual_fingerprint: 1fbe1380616d6fe84619e4194afc732752699efadfa22b418eb32e005efe8fd8
 ---
 
 ---
@@ -8777,9 +9247,9 @@ source_job_id: 5529358
 title: Workforce Planning and Transformation Business Partner
 employer: George Eliot Hospital NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9230-26-0255
-factual_fingerprint: bdf7241a0fd7e88c3417894d950b9337ecd9adb8263b6ccc228f70d23c881f55
+factual_fingerprint: d570f7dd760eda65cd998a9527862047d0d343dfe93dad0ccaf4f5a65837eff1
 ---
 
 ---
@@ -8789,9 +9259,9 @@ source_job_id: 5527028
 title: Care Navigator
 employer: City Health Care Partnership CIC
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0256
-factual_fingerprint: ab3bd57513401cc5340c5ce6a0d06ad37419ba27eb70aa4707ae7fa636d66949
+factual_fingerprint: d414acb9fa1b7321ee3d05ddc01db0dc8a70023865b2d364457e13cda0680207
 ---
 
 ---
@@ -8801,9 +9271,9 @@ source_job_id: 5522888
 title: Band 3 Cancer Pathway Support Coordinator
 employer: University Hospitals Birmingham NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1190
-factual_fingerprint: 28ad29629a6a664a9437e82326ef586d51288ce0df94167339ed81ac26d34cd8
+factual_fingerprint: 18444dc19fe926917b334a8fb81a1140cbfa98afd9fe344f07ce3d4e0072cc72
 ---
 
 ---
@@ -8813,9 +9283,9 @@ source_job_id: 5530034
 title: Qualified Dispenser
 employer: Harbury Surgery
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0741-26-0004
-factual_fingerprint: 24bf1542be3cf5fc024316b547ba9616f0a3674abfbd66db88b65f2930671ff8
+factual_fingerprint: 1723d48a5719fe50f341eb2ce32d6fafb216d516a9823f75d2fa42ccbfbcd5d9
 ---
 
 ---
@@ -8825,9 +9295,9 @@ source_job_id: 5530022
 title: Data Warehouse Developer
 employer: Lincolnshire Partnership NHS Foundation Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0313
-factual_fingerprint: 5e5d7cafdfb51deb9b97ecd675493b5c41adac6bffd564515299da6f959c801c
+factual_fingerprint: 062186ca4f2d624342e60a165f38ea6818baddc92f026f18903d90ae6a26fdea
 ---
 
 ---
@@ -8837,9 +9307,9 @@ source_job_id: 5529797
 title: Data & Digital Degree Apprentice
 employer: Wrightington Wigan & Leigh Teaching Hospitals NHS Foundation Trust
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9302-26-0357
-factual_fingerprint: ba49a9ada71a6b45f6b009bf84726fd8ecd008ed1d3cdb0bcb88c53d57347def
+factual_fingerprint: 7c4b429ac2d7c27ba9263ffa45a42d06495512c4e0619cbe3fd737fc01fb446a
 ---
 
 ---
@@ -8849,9 +9319,9 @@ source_job_id: 5529822
 title: Medical Secretary
 employer: Grimston Medical Centre
 region: Norfolk
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1203-26-0006
-factual_fingerprint: 5658e81b1487c2115e88a665539666fd36480ac442a8ed98c6e828907490b2b8
+factual_fingerprint: 94da8dd5f054be86bc93ea26045668b6cf5457841ab4da2e89d381cdd7de775d
 ---
 
 ---
@@ -8861,9 +9331,9 @@ source_job_id: 5529806
 title: SLA Mental Health Co-ordinator
 employer: Kent and Medway Mental Health NHS Trust
 region: Kent
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0631
-factual_fingerprint: 98a46a9389810b91e4255ab1b3903e6b8af10f9899bef52d754984ccde6b04fc
+factual_fingerprint: 24d69f0b96e0a83ef0271d4e8a1feeef042228c373a0e5a9f8d30b1d51ec17a4
 ---
 
 ---
@@ -8873,9 +9343,9 @@ source_job_id: 5529802
 title: Volunteer
 employer: Northampton General Hospital
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9265-26-0575
-factual_fingerprint: 2701dc6f4e39e2da1cc4deec970f91cd7e9243912a63928da238707a2e7f3128
+factual_fingerprint: 60fc95941f44c8e961237526091711542d35acb90d25b42d99ecd9f17d11f407
 ---
 
 ---
@@ -8885,9 +9355,9 @@ source_job_id: 5529784
 title: Chief Operating Officer
 employer: Kingston and Richmond NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0336
-factual_fingerprint: 4c3e3c75539286abfcb05dd13792b73267a0f58fcfadbffe6f0c31618341d067
+factual_fingerprint: e478ec4909dbeb2a4b607e08e7c29b3cfd00343d7a4bfca94ba2805998365651
 ---
 
 ---
@@ -8897,9 +9367,9 @@ source_job_id: 5528823
 title: Learning and Development Facilitator - Leeds and surrounding area
 employer: Avery Healthcare Group Ltd.
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3288
-factual_fingerprint: 038d1f3876cb246686f7576b9cfd44155704d47e0c389e8bfd687ee16d5a13c7
+factual_fingerprint: 77110da4d86cce5abf362e0a34825ee5b9fc6d95aad65109a0fd65d78269cd0e
 ---
 
 ---
@@ -8909,9 +9379,9 @@ source_job_id: 5529618
 title: Team Secretary - Adult ADHD service
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1023
-factual_fingerprint: 0b7513c7542631a96a5dcefdb90fd3b851fd5d842e564cfff9465f1745d1229b
+factual_fingerprint: 587b71216a2585bc17d967c220d5b9d13ebb219f2dcf7371a032b5a5ef5813c7
 ---
 
 ---
@@ -8921,9 +9391,9 @@ source_job_id: 5529249
 title: Medical Secretary Supervisor
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1017
-factual_fingerprint: fc683c5bcee030ed7ec1e9616138d09e1d1f6fad2d26436664add4796bdacf84
+factual_fingerprint: bfa0239b9b6860617bf6f7c7de40ce58b7a660ef39ebd000b26b58c25e12594c
 ---
 
 ---
@@ -8933,9 +9403,9 @@ source_job_id: 5529174
 title: Inpatient Medical Secretary
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1015
-factual_fingerprint: 5a241ddde0a47678e47a19f9d09841039005d38a403ff12e2a3bd2b26db2ce72
+factual_fingerprint: e3978b4219fe60fff8c75073bc6ad50a61ee99aae9f2c3b89cddc6836a2dc119
 ---
 
 ---
@@ -8945,9 +9415,9 @@ source_job_id: 5529614
 title: EPR Go-Live Programme Lead
 employer: Lewisham and Greenwich NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0728
-factual_fingerprint: 7bea85bc1c973ef340f6997e371936151cb5870c1d4c5b8173a55781336eb089
+factual_fingerprint: 856e6b1f7ced2c4ea2caba371766b62d8a2be4189083d671738762f2a5946c6e
 ---
 
 ---
@@ -8957,9 +9427,9 @@ source_job_id: 5529168
 title: Assistant Med Sec - Ophthalmology
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0704
-factual_fingerprint: 7517f08d7d76436a7e74868ad199d36f368f7175087030055c661a3d17c325ff
+factual_fingerprint: bfaf082779e5e29c65b1754e52e958b69b52fd25c1d8e18bbba7f57e960c1089
 ---
 
 ---
@@ -8969,21 +9439,9 @@ source_job_id: 5528663
 title: Maternity Tobacco Dependency Advisor
 employer: Whittington Hospital NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0524
-factual_fingerprint: 78e56855be65be09d351abd971948fdc8f4f33cce261113bb97ee4c2d5d17f7d
----
-
----
-action:
-POSS | NHS Jobs | — | Wood Green, N176AA | £63665.00 to £70887.00 | Integrated Neighbourhood Team Lead
-source_job_id: 5526596
-title: Integrated Neighbourhood Team Lead
-employer: Whittington Hospital NHS Trust
-region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0522
-factual_fingerprint: e53475309c54e3759bac4d991e78efad861d835db390b83f83cdfd3ab01e762b
+factual_fingerprint: 0e5ceec16fffe500cbdb5cce3c353e86e81db41f0e9af9e4a684547d192ef428
 ---
 
 ---
@@ -8993,9 +9451,9 @@ source_job_id: 5529347
 title: Administration Care Coordinator
 employer: Jurassic Coast Primary Care Network
 region: Dorset
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0006-26-0008
-factual_fingerprint: 5f9cf8b0a298bb8035b9fb4bc103b3e72f420586e9716dfd85afcb15445491ec
+factual_fingerprint: ed69b87f7f2d8b69dea60e0ea0c59ddc3aa2ee094dc599a7c9e2c913040ffd53
 ---
 
 ---
@@ -9005,9 +9463,9 @@ source_job_id: 5527133
 title: Senior Security Specialist - Threat Detection/Hunting
 employer: Digital Health and Care Wales
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9025-26-0026
-factual_fingerprint: 2c83d17eec3a1846a37a7c5f68357aa119c98f36cf97e0a45c5940056542d5a9
+factual_fingerprint: 1ae4837449a71e2120fcef6be6b70dd786eee8570f351225dd27288f56e43d22
 ---
 
 ---
@@ -9017,9 +9475,9 @@ source_job_id: 5529238
 title: Medical Secretary
 employer: Woodland Avenue Practice
 region: Bedfordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4183-26-0010
-factual_fingerprint: f907432c972bfb085a4b72ea0377126b70f37e0b85d9cc5a4fb40bc8415ce72d
+factual_fingerprint: 9844cc6a8712b49c552f986b4ab1b80e03692d24b10fe3004f9ff233507a9e61
 ---
 
 ---
@@ -9029,9 +9487,9 @@ source_job_id: 5527557
 title: Senior Access to Information Officer
 employer: Innovate Healthcare Services
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9203-26-0019
-factual_fingerprint: 600641b07be8f3c7ace9077ae601d3a881233cf5c4e4d80f76bca81ff3b33e92
+factual_fingerprint: 8e687930c746187a022306d781d9f8e3f620d659682d0337c79a0287ea9beeac
 ---
 
 ---
@@ -9041,9 +9499,9 @@ source_job_id: 5529022
 title: Senior Clinical Coder/Clinical Coder (ACC/Non-ACC)
 employer: University Hospitals Dorset NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0666
-factual_fingerprint: 1f2d2cadf1a45954652d14dd878bc36b3d9c272d73bb55d6169f814daab931d7
+factual_fingerprint: 4e2a5df476503f54959286eb7868d4ba04c085cfc62eb9e4432921c5a949b479
 ---
 
 ---
@@ -9053,9 +9511,9 @@ source_job_id: 5529134
 title: Care Coordinator
 employer: WInchmore Hill Practice
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4876-26-0002
-factual_fingerprint: f7f564343cc9768b4d17954fe58ff401cbd2a5d96057959d3b616050d4a29131
+factual_fingerprint: 9556629e9b46f5f81922b4b8023508980b8d63c3518b847467116a98aa702863
 ---
 
 ---
@@ -9065,9 +9523,9 @@ source_job_id: 5528312
 title: Support Secretary - Patient
 employer: Betsi Cadwaladr University Health Board
 region: North Wales - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1797
-factual_fingerprint: 8b123ff826f78c10eb5ba0308e9ebf982a4f649457db25a160073ba2c10d1a74
+factual_fingerprint: c8ca1429de2ba3b7cb19542e4978e0824202be3f9f563fc5499bb8a4b1bc834e
 ---
 
 ---
@@ -9077,9 +9535,9 @@ source_job_id: 5527666
 title: HR Advisor
 employer: Sheffield Health Partnership University NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0226
-factual_fingerprint: c250b370538cbaed024e5273f5a657dcd5fe1313058074e07529c45521f9b193
+factual_fingerprint: 9dcf74f39147f480677587bded8f27249f0478800e01e7678a384da15682964d
 ---
 
 ---
@@ -9089,9 +9547,9 @@ source_job_id: 5529245
 title: Dose Records Officer
 employer: UK Health Security Agency
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0238
-factual_fingerprint: 6da577169be53025f3c84b12c277c8b7e4fc5c5bc22bd9bacecd8bc37933d903
+factual_fingerprint: e7b5e37cc294c8b6830641ffa900b0ac95d4d149f47b8fd56b9dcbd0c99020c5
 ---
 
 ---
@@ -9101,9 +9559,9 @@ source_job_id: 5529206
 title: Supply Chain Assistant (Internal Only)
 employer: East Cheshire NHS Trust
 region: Cheshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9209-26-0331
-factual_fingerprint: d4993e41fc312ba62d4faf0996e0ca9c9074495e15749b120dd8e88058eaa8b5
+factual_fingerprint: 41cd10b750e6f96b1cabc9136c9679ab256ffae35121be093825b9a45731a9e2
 ---
 
 ---
@@ -9113,9 +9571,9 @@ source_job_id: 5529192
 title: Payroll Team Lead
 employer: Cygnet Health Care
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-1681
-factual_fingerprint: 546b2d27649789b446cb746a123079febd9d54cacba5fd1c4702a8e7ebde2470
+factual_fingerprint: ba0f10935c1f42ea0837d3d7b6f428533aade00535ff566f704a56d499e3d8d0
 ---
 
 ---
@@ -9125,9 +9583,9 @@ source_job_id: 5529214
 title: Cancer Services TWR Booking Assistant
 employer: Epsom and St Helier University Hospitals NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9343-26-0671
-factual_fingerprint: 5dc2daad5a28e0fe69bc7a3f985ce1c7ef5b9bfd656bad5e6003b87370679075
+factual_fingerprint: 580453aa70eae80c0ebd4a69ae94c71747776e807372de5ae51e78702815cf98
 ---
 
 ---
@@ -9137,9 +9595,9 @@ source_job_id: 5529200
 title: Cancer MDT and Data Co-ordinator
 employer: Epsom and St Helier University Hospitals NHS Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9343-26-0670
-factual_fingerprint: cd4439b76fee0ee94aedc4b6e581a3fc7540352bd63da334a036ef38ddb73dc2
+factual_fingerprint: 70502a9ed837291069221bbf15c138b9fb85e26f661e039ac8d2e781ca9feedd
 ---
 
 ---
@@ -9149,9 +9607,9 @@ source_job_id: 5528878
 title: Academic Tutor in Adult Nursing
 employer: Sheffield Hallam University
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/N0013-117748
-factual_fingerprint: 341e7e28277ac12747f44224761e3b33a83879217bca50e008f97c3943f5de85
+factual_fingerprint: 394f1d6c0bebb22e2f13dde54934c76b26ad39e32b9d5ced89d538855b1c1a0e
 ---
 
 ---
@@ -9161,9 +9619,9 @@ source_job_id: 5528382
 title: MDT Patient Tracker
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1670
-factual_fingerprint: 20107558079d0e4c0184d3a72f5a50010213ca86c363f5010aafd620bdb21d83
+factual_fingerprint: 73eb65303b77e26659078c657acb3ba57f04a1afe77161fc4bbeffd75094388f
 ---
 
 ---
@@ -9173,9 +9631,9 @@ source_job_id: 5527004
 title: Band 5 Communications Officer
 employer: Birmingham and Solihull Mental Health NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0524
-factual_fingerprint: dc0eb0f56313e3088072cbed036c6994e2c1924fe49b4702612189f6600b971f
+factual_fingerprint: f9a8be406e3ef131417c8ee0c5401134949d23967abd28502f12174642e80e7d
 ---
 
 ---
@@ -9185,9 +9643,9 @@ source_job_id: 5527868
 title: Failsafe Officer, Ophthalmology
 employer: University Hospitals Coventry and Warwickshire NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-0996
-factual_fingerprint: eeeec914cc1e49ca9b4d03339f5b658a165fcbbfd2517f5217fb4d0ad23c97ee
+factual_fingerprint: 2df852b8724fbfae16390a2f95f958da91e176cbc2f34980283ea8bc1d7ff81b
 ---
 
 ---
@@ -9197,9 +9655,9 @@ source_job_id: 5529055
 title: Bank Business Partner
 employer: Xyla
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0073-26-0034
-factual_fingerprint: b0c183bbd814a95275031959bee783b4f263c6c95f4191b7831ddedaab1637ac
+factual_fingerprint: 0932c527d19fa467ba7e2b26659a35893578b1eea92cb792ce546040d638e085
 ---
 
 ---
@@ -9209,9 +9667,9 @@ source_job_id: 5528937
 title: Senior Service Designer
 employer: UK Health Security Agency
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0237
-factual_fingerprint: 458f66c417e21ba4ca5236f698b3b2ab029e4dbbde026c0f69334e091c28bc3a
+factual_fingerprint: bdfbf49fd7820b4c09b2a434fbc9e53fcf928b4394cac6a16d0221df14dac234
 ---
 
 ---
@@ -9221,9 +9679,9 @@ source_job_id: 5529018
 title: Integrated Wellbeing and Bereavement Service Co Ordinator
 employer: St. Mary's Hospice
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0378-26-0019
-factual_fingerprint: 3354f84c4dde1282896ad5069b1a2643a8850b7359e516397419896bbf66a15c
+factual_fingerprint: c2cc0f3b5d552cc7359487ed49b24b2a4cdeca3a3b29de9ea80bb91f4fd221cc
 ---
 
 ---
@@ -9233,9 +9691,9 @@ source_job_id: 5528348
 title: Band 4 Template Coordinator
 employer: Royal Free London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1345
-factual_fingerprint: ed593c2ea40de589fc440d7f6351ec91a15af79dd6de59fed6df2ca75e63f368
+factual_fingerprint: 9074257431dc124f19b930530f19fdba2f965df5c76c19211c42f28effe21a6b
 ---
 
 ---
@@ -9245,9 +9703,9 @@ source_job_id: 5528780
 title: Trainee Dispenser
 employer: Len Valley Practice
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0011
-factual_fingerprint: ba0dc2a42de8394e08d368ee739a344be05c334277873735286588de0009e125
+factual_fingerprint: bdbb5b5ddb2f6fc60ac989c0953e78722fbd4c52d0b4d9aaa06479d28d08b34f
 ---
 
 ---
@@ -9257,9 +9715,9 @@ source_job_id: 5526923
 title: EPMA Data Analyst
 employer: Cambridgeshire and Peterborough NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0486
-factual_fingerprint: d39297000beb4b7a9c27932cb4ef06f9b6e0c8eaa98e7323f0fd16327c2b8c87
+factual_fingerprint: 94b2a9d493727daf46c7d0dddc5841e0852d9c5991bc1273c0d037b790212478
 ---
 
 ---
@@ -9269,9 +9727,9 @@ source_job_id: 5528782
 title: Care Coordination Care Navigator
 employer: FCMS
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0053
-factual_fingerprint: 0c4bac7501cca28cd2bdedd0cba396ba075fe987666884ff1c56c174f4f0c00c
+factual_fingerprint: 55315eef893d12aa283c44d9e551b257826532c0c4735dc10d07c82feb47f957
 ---
 
 ---
@@ -9281,9 +9739,9 @@ source_job_id: 5528497
 title: Operational Support Coordinator
 employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1668
-factual_fingerprint: 93e42307c05a23a06fa79ef1db297c37fd4373e5656f898b3308d8f13583fcd1
+factual_fingerprint: 6e0609e9ddcfb65ee7627e467dfd509957e96822289e77c1f1af4cb4dfd898c5
 ---
 
 ---
@@ -9293,9 +9751,9 @@ source_job_id: 5528450
 title: Procurement Specialist - Salisbury, Swindon & Bath
 employer: Salisbury NHS Foundation Trust
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0321
-factual_fingerprint: 39f6363294d2cd8ee362f5b80fe0db7b92429f4aa6f0cc62f68abc71b3ca127b
+factual_fingerprint: f1b886761c034a60bc7c13796bf2f8cef09f9f633283650b22f419157018d3fc
 ---
 
 ---
@@ -9305,9 +9763,9 @@ source_job_id: 5528375
 title: Care Coordination Care Navigator
 employer: FCMS
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0051-26-0052
-factual_fingerprint: e043d820fed7c189186c3f39ee32790004a3175acdbd0c9167a5d014981a3d54
+factual_fingerprint: 6b6d816857154447558fc9baad87b3900a2f118b6eda9f1dbeeea800eaf53994
 ---
 
 ---
@@ -9317,9 +9775,9 @@ source_job_id: 5528698
 title: Cook
 employer: Demelza Hospice Care for Children
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0105-26-0006
-factual_fingerprint: 1d3f7327cf9d38990e1dfe14bac5ad7c170d5ec8b66d9944d5587b84c0f88b0c
+factual_fingerprint: 94fbc3e6f01cb8b16d85befde411f46bbc74d30d5868d419beb02ef11afb3769
 ---
 
 ---
@@ -9329,9 +9787,9 @@ source_job_id: 5528460
 title: Clinical Coder
 employer: The Maltings Surgery
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1235-26-0000Coder
-factual_fingerprint: f808d8b154e6397fa6dfa56f6732367635c78d38ad096fc83ce680416965fdfe
+factual_fingerprint: e098f8f638bf5f46bf67d53ee255a1d2f08b5061e155a6390051204bff2dd4a3
 ---
 
 ---
@@ -9341,9 +9799,9 @@ source_job_id: 5528011
 title: Radiology Appointments Officer
 employer: University Hospitals Dorset NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0662
-factual_fingerprint: 58fdd154f170250200a004112fbe0a41e5a963721976393332c816f9371c5815
+factual_fingerprint: 8ca22f402df21663f4a7583a7b18f484c4e13de759499835a637f12b1614b5a9
 ---
 
 ---
@@ -9353,9 +9811,9 @@ source_job_id: 5528462
 title: HR Lead
 employer: Salisbury Medical Practice
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2320-26-0004
-factual_fingerprint: 73b20952427acaa5f84b78b4b97ff320b020d4603d5333f99694a2ff3b085870
+factual_fingerprint: 1b4d07b4eabbf5d3a1c1b6067de652c17dc037d8d89af68bca751f762c8a9fa0
 ---
 
 ---
@@ -9365,9 +9823,9 @@ source_job_id: 5524766
 title: Business Lead – Mindworks Hub East
 employer: Surrey and Borders Partnership NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0539
-factual_fingerprint: 8aede1fd7be1bf5143bd48525aec4e899d08e5d265f8da0464f93cfe37518e2d
+factual_fingerprint: 0be60d5ad26b2b265766c883d99918b444e7b32fbbf1da4e783a6cdac4a4e25c
 ---
 
 ---
@@ -9377,9 +9835,9 @@ source_job_id: 5498136
 title: Reception/Admin
 employer: Crossfell Health Centre
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1042-26-0003
-factual_fingerprint: 5b2ccc87f077da488d4f457e99d42605478d36722e57f84d7df36719597726b2
+factual_fingerprint: f1e035b537c5f03d3c9463309eaa406e07151b3f8eb22839c748e2b273f15813
 ---
 
 ---
@@ -9389,9 +9847,9 @@ source_job_id: 5527457
 title: Finance Analyst
 employer: Northumbria Healthcare NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0734
-factual_fingerprint: bb8a020c57571cd8b1f968f1a766d01d6095bdad70de175f1d3836e0b1415e33
+factual_fingerprint: 3b71cb023fd271264877385d94117fb20e71397fd55343482fdc39a1887fdccd
 ---
 
 ---
@@ -9401,9 +9859,9 @@ source_job_id: 5526941
 title: Senior Improvement Advisor
 employer: NHS Central East ICB
 region: Bedfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9644-26-0036
-factual_fingerprint: 01e632379e6fc8a3058f01b7b8914a189dd702efb2e3c2b5f3a8601c5cd691c4
+factual_fingerprint: 24a4105e2737b92a1313872a54dd2925fd7c3083f8672c4618e03d9a8cf3b476
 ---
 
 ---
@@ -9413,9 +9871,9 @@ source_job_id: 5524786
 title: HR Systems and Data Lead
 employer: St Margaret's Somerset Hospice
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0386-26-0023
-factual_fingerprint: e9ab89d0a599817c78f429dd35d53250ce462d6fde64bf5b512541fcf82f9d47
+factual_fingerprint: b72149078db177ec2f3a02cea207a7f4e658c2a0c49d950693eaa2484e2cdf78
 ---
 
 ---
@@ -9425,9 +9883,9 @@ source_job_id: 5528087
 title: Part Time Medical Secretary
 employer: Elysium Healthcare
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1741
-factual_fingerprint: 418d07b53fe0179914cfeda4ba10b2b5a900ef88384498eb76f8aeb9affd3b9b
+factual_fingerprint: 64a499bd66180c98420ef5732cbce3b9fdb91e3a8f655c909f48ae61bc72e999
 ---
 
 ---
@@ -9437,9 +9895,9 @@ source_job_id: 5528038
 title: Senior Employee Relations Advisor
 employer: Hertfordshire Partnership University NHS Foundation Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0744
-factual_fingerprint: 9ed2ed5d52fd657296a4ad4b89dafb258fa02fbcdfd84dad809790a0bcfc68f4
+factual_fingerprint: 5bef2ef3eac7e9c8a2c1b2ca19e1a7c242a49468bd1771cfbc059a26f8211050
 ---
 
 ---
@@ -9449,9 +9907,9 @@ source_job_id: 5526043
 title: Senior Workforce Business Partner - Transformation
 employer: Sirona care & health CIC
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0428
-factual_fingerprint: 8614450d4bbf336c631c60ced7dd21eec93a7ba6eaa8a371da6e44b9bc158537
+factual_fingerprint: 5949b7a86e45151446aee78240939973ad942d7971f14df66742ab74f25a9418
 ---
 
 ---
@@ -9461,9 +9919,9 @@ source_job_id: 5503498
 title: General Practice Assistant (GPA) - South Somerset Locations
 employer: Symphony Healthcare Services Limited
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0215-GPASSL-JULY26
-factual_fingerprint: 22737094cd8c493eda39087c00ca2832036ed155189336fc2a1e61bbc8f41e14
+factual_fingerprint: 22982f584f271fcf30981078d99de8c98e711461d091ac7a09423d761bde8d3c
 ---
 
 ---
@@ -9473,9 +9931,9 @@ source_job_id: 5521675
 title: Patient Transport Services Dispatcher
 employer: Isle of Wight NHS Trust
 region: Wales South -gwent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0399
-factual_fingerprint: 691d93dfc300cf851b753f27877d038ff1d24dc85cc08e903bd28e501912017a
+factual_fingerprint: 5d75a1a6d9709451d5e6926a766610a376901bf75e9be8a4e2059997c5c2f5ce
 ---
 
 ---
@@ -9485,9 +9943,9 @@ source_job_id: 5527813
 title: Community Stop Smoking Advisor
 employer: South West Yorkshire Partnership NHS Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9378-B2316A
-factual_fingerprint: 4c341c293fc64270a171fe7f9fff0933a9ac2014970ecc748008ef31078ec900
+factual_fingerprint: eb85c73cecd4a14763961c990a239418ce1cdb93843b6947c368559c5686d760
 ---
 
 ---
@@ -9497,9 +9955,9 @@ source_job_id: 5527675
 title: Financial Analyst
 employer: Betsi Cadwaladr University Health Board
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1792
-factual_fingerprint: 3b6ff04ba2556b6a45f8a3d30a01a444749f6fe7e5d5d57a07e35235203b46eb
+factual_fingerprint: dd7bb365376677dfaf092e06066690db72e887aa0e990d7219766dc87ab68b6d
 ---
 
 ---
@@ -9509,9 +9967,9 @@ source_job_id: 5527625
 title: Triage & Needs Officer
 employer: Wiltshire Council
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-26-0026
-factual_fingerprint: 62ab5607ac8344823c6f580085d3e4883c8aa5e30b58b770d71e9db4c1f54194
+factual_fingerprint: 833fa6f43e0e125f53e392ac2d5d3a47ea9d5a07dc3336ebda35d8dd6fbfbfee
 ---
 
 ---
@@ -9521,9 +9979,9 @@ source_job_id: 5527630
 title: People Relations and Change Specialist
 employer: NICE – The National Institute for Health and Care Excellence
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0093
-factual_fingerprint: 18030489eabc7455e2502968eccad304cf132b226e9cbce8b4e2e30f085ead45
+factual_fingerprint: 0a37767ce85584c636f58054545ff37d9f5671a3fdfe50f87f5ff5f090e23f87
 ---
 
 ---
@@ -9533,9 +9991,9 @@ source_job_id: 5527589
 title: NS 18.33 Senior Lead for Evaluation and Health Economics
 employer: Norfolk and Suffolk Integrated Care Board
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D0003-ICB024
-factual_fingerprint: 7349cb1af6de706c5a7e10b9970338d05b904f02715f5c3e382a920bc08acac3
+factual_fingerprint: 2195dfbeac925d679a9e558a3f594d26126c6c2c7df0c89e26fc1570a095018b
 ---
 
 ---
@@ -9545,9 +10003,9 @@ source_job_id: 5527618
 title: Apprentice Expert by Experience
 employer: Swansea Bay University Health Board
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9130-26-0284
-factual_fingerprint: bc45ba9a18c23ef806cac1aaca7335f5b5d24102d48541a5c8d6c579c349df07
+factual_fingerprint: 96f9157124132a936057b741a3ae3139b77ce1508054ea64f34fdab5204ea655
 ---
 
 ---
@@ -9557,9 +10015,9 @@ source_job_id: 5527473
 title: Patient Coordinator
 employer: CHEC
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0123-26-0152
-factual_fingerprint: 5e43887644a2995d604bf675e1a99e66c4758a272866fb5aa92354b1e0503836
+factual_fingerprint: ec932b17806a33e5213e2f3b0415e640921a7303f11197bb5a73182d70a56669
 ---
 
 ---
@@ -9569,9 +10027,9 @@ source_job_id: 5527431
 title: Inpatient booking co-ordinator
 employer: Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust
 region: Shropshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9224-26-0302
-factual_fingerprint: fe9fa31569c6c5c83c4dcf284f5ece410734540706fd63785e22e0f30dbbc634
+factual_fingerprint: 16755d14bdd48459e9c422aee0d740645cbc79223f7a411967468a00aa0b13c7
 ---
 
 ---
@@ -9581,9 +10039,9 @@ source_job_id: 5521322
 title: Patient Pathway Coordinator - Ophthalmology
 employer: Surrey and Sussex Healthcare NHS Trust
 region: Surrey
-reason: BRIDGEABLE: Potential admin/service title: coordinator, patient pathway
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0531
-factual_fingerprint: 392893d326cc034541237fe34243c254c2eab26edab6eef3306a6290e22a6e12
+factual_fingerprint: ad9382909fc8533cdc8143caec1d651fce5f292836054c27a781cb532234cfa1
 ---
 
 ---
@@ -9593,9 +10051,9 @@ source_job_id: 5521302
 title: Outpatients Booking Officer
 employer: Surrey and Sussex Healthcare NHS Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0529
-factual_fingerprint: a10102aee596508b6d558c7dd1c1ad04f749359a86375195e5d2f1cdd8b4970b
+factual_fingerprint: 2aae6434cca0d8760a3afd66bf096256ecc7f4fc6572fec40e1a39caf7542769
 ---
 
 ---
@@ -9605,9 +10063,9 @@ source_job_id: 5521304
 title: Procurement & Invoicing Officer (Pharmacy)
 employer: Surrey and Sussex Healthcare NHS Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0530
-factual_fingerprint: 52937150a2f8c814d9cfe0a4ce988316c595ff9a46daf829550fd24550d1e5a9
+factual_fingerprint: 4e3963b6deecb15259be0ce9bf4438a9773020fdd32879785ac1fa11c69faede
 ---
 
 ---
@@ -9617,9 +10075,9 @@ source_job_id: 5515658
 title: Outpatients Reception Team Leader
 employer: Tameside and Glossop Integrated Care NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0296
-factual_fingerprint: df2346abd86ab0e754a9d7444e6359234ac4fc67b11307c4db0ece8a0cb591db
+factual_fingerprint: e940ac42ec82ac659f2a7e996dd812417ca232a30622af088899eaae46735947
 ---
 
 ---
@@ -9629,9 +10087,9 @@ source_job_id: 5519438
 title: Medical Secretary - Oncology
 employer: Stockport NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0519
-factual_fingerprint: 65eda6480978f8e934cc7564b00f7ae2501edd1557dcd7ea435664f08bb14f32
+factual_fingerprint: 5136890c9fb73a238253be495ef07b9b2e4df5e074f3a3486ca7fdd933d153ac
 ---
 
 ---
@@ -9641,9 +10099,9 @@ source_job_id: 5526583
 title: Inventory Management Assistant - Bassetlaw
 employer: Doncaster & Bassetlaw Teaching Hospitals NHS FT
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0466
-factual_fingerprint: 3bf8b6149cadc9e610bc2e3d0faed2bae40de1efe5a6c0841e05e461de2f62d4
+factual_fingerprint: d2f70d2e84927563d16c95dd36f334098146c4f1b2b3a1c946b491a6be0b7bbf
 ---
 
 ---
@@ -9653,9 +10111,9 @@ source_job_id: 5526844
 title: Clinical Coder
 employer: Clifton Medical Centre
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2561-26-0011
-factual_fingerprint: 6978d2e403c4bcf3cf67ee127f11e7326f722a911f1c679f4250792f51841ebc
+factual_fingerprint: 553a748899333f138bb8cca20062e83e43266c8799f8b15db06ae7010e9c4e2c
 ---
 
 ---
@@ -9665,9 +10123,9 @@ source_job_id: 5526783
 title: Senior Medical Secretary
 employer: Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust
 region: Shropshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9224-26-0301
-factual_fingerprint: c98fb2308316419a6d778b1510588f3b1b887c9e59561d95a799e669a11320e4
+factual_fingerprint: ceeb09692f7f8ca390221f6a99029078a80befa66ae14d2788b34e793b8afea4
 ---
 
 ---
@@ -9677,9 +10135,9 @@ source_job_id: 5526734
 title: Care Coordinator
 employer: Agincare
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1393
-factual_fingerprint: a443b972e09dccfd552b2ff4033f6d71bd84d73df4f737843aecd82de9a29b1c
+factual_fingerprint: d846fa41518ad84f921b4fec3d6867296e00e0f2d93b712c2900a8739116399e
 ---
 
 ---
@@ -9689,9 +10147,9 @@ source_job_id: 5526727
 title: Clinic Supervisor - Edgware, London
 employer: TIC Health
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0455-26-0017
-factual_fingerprint: e0a5853687cb6e29f824e143df9e101b7d8dbbe6e00f8e9cb216207b1194a14f
+factual_fingerprint: 0ae6a377ef589dbdd64c45d1ad7d373073fb87031a8224b5efee4ec594a98ab2
 ---
 
 ---
@@ -9701,9 +10159,9 @@ source_job_id: 5525681
 title: Urology Patient Pathway Assistant
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: patient pathway
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9339-26-0965
-factual_fingerprint: d7563707c3efa59399639c10cf8168d4244380d11d72b4ea7855b503c02abc7f
+factual_fingerprint: 1c5684f08bc64ecd66e06b2d9859779fb2a199cebd742a938bd55f5fe9e94c41
 ---
 
 ---
@@ -9713,9 +10171,9 @@ source_job_id: 5526637
 title: Programme Lead Health & Care
 employer: London Borough Of Merton
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/F0019-26-3412
-factual_fingerprint: 6231992cd85f45ce0bfcb65a6149b47e8ed41a238d1a205e29403ca59d506632
+factual_fingerprint: 5b04eade457688036caad7e6f3f4397035bf6a020f3f4044816fcb5d18ef7045
 ---
 
 ---
@@ -9725,9 +10183,9 @@ source_job_id: 5521993
 title: Senior OD Practitioner *INTERNAL ONLY*
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1245
-factual_fingerprint: 394c76d1704c3a6e3000cc858733aed7ff2e200b5202d061c3593b1814075c5d
+factual_fingerprint: b0c6a2e4cff17cf9568fadb7c3140ea8b4c518172ee6d30f676efe62e453c196
 ---
 
 ---
@@ -9737,9 +10195,9 @@ source_job_id: 5525614
 title: Site Flow Coordinator
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1254
-factual_fingerprint: 51e2e00af15b15d4df312e4f871b03eebd8f4a082ad6adedea3984d47254dcdd
+factual_fingerprint: 5c005aad1259a4f9498273191a12c1cb19f24949e1931271f3bee0eb1e2d2b6a
 ---
 
 ---
@@ -9749,9 +10207,9 @@ source_job_id: 5526648
 title: Phlebotomist
 employer: iPP Analytics Limited
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0307-26-0026
-factual_fingerprint: e55e22b74980af1adbe249c9dd5c699ef7af5d213f55a36d28b150438fc911e8
+factual_fingerprint: 292b723144559c8cd0e9db5b2f0777fa4be4d1191bcc040c4746d2a371d18a2b
 ---
 
 ---
@@ -9761,9 +10219,9 @@ source_job_id: 5526418
 title: Commissioning & Delivery Lead
 employer: London Borough Of Merton
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/F0019-26-3413
-factual_fingerprint: 9f06638c3ff4c6359cf1ea97247c6bae1ac06f90a73bf91be2a45a7a82da2ece
+factual_fingerprint: 9e5211634059f42ee800ff80ede3d83f31b7ccb15be523ddd9086fb95a50d430
 ---
 
 ---
@@ -9773,9 +10231,9 @@ source_job_id: 5526513
 title: Employee Relations Advisor
 employer: Stockport NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0596
-factual_fingerprint: 954a5ec7e735077bfd3be08614ca6d12539a928c01dbd1293005837bfa106382
+factual_fingerprint: 26062102e745d9cf6445025e4adb232d8d5f27a0821626cd54a12b49f9c32086
 ---
 
 ---
@@ -9785,9 +10243,9 @@ source_job_id: 5526360
 title: Safeguarding Lead
 employer: Rainbows Hospice for Children and Young People
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0345-26-0020
-factual_fingerprint: cb047ad9167c69868ae2766561c53ad0050e04844fade58ebe569d7984e9d367
+factual_fingerprint: b1dfcc5f23c8df9c553887c450d68acdd61b4551b09411185e4c94cf5132091a
 ---
 
 ---
@@ -9797,9 +10255,9 @@ source_job_id: 5526387
 title: Commissioning Officer - Children's Care
 employer: Hampshire and Isle of Wight ICB (104)
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0041
-factual_fingerprint: f4d7026733bef467116bb7972ce419aef1a88257f2ef21d7dafc421b98f12bea
+factual_fingerprint: 4e984f426be395247eb3c43632d7757a80c185895241d034660d294e64b48ac5
 ---
 
 ---
@@ -9809,9 +10267,9 @@ source_job_id: 5526311
 title: Bank Medical Secretary Band 4
 employer: NELFT North East London Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0449
-factual_fingerprint: 9fdbb5ef13995a93a8d2b142d1acf9e0f72806548c67730406139263b1f78240
+factual_fingerprint: 966ca759d8f0538edb62c3667d8fdfff3e14796019c293bc2ec85b9b1f8101eb
 ---
 
 ---
@@ -9821,9 +10279,9 @@ source_job_id: 5526273
 title: Medical Secretary - Dental Hospital
 employer: Liverpool University Hospitals NHS Foundation Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1258
-factual_fingerprint: 626f8ae0e65d84244e2e0370fed86d6e6546ac919d895a687093d62142b2b6cb
+factual_fingerprint: 89bec3a64a9985e5b594d7f2e994e41feb92771ac257e7eefad7196634b3e10f
 ---
 
 ---
@@ -9833,9 +10291,9 @@ source_job_id: 5525801
 title: Research & Evaluation Fellow (Public Health)
 employer: Public Health Wales
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0143
-factual_fingerprint: 390d009547a22dcf5a424684923606a46c3782bd60429dce2d295cb049e10d6e
+factual_fingerprint: 69aa9ae723aaa25a2b3ec59ae6ca02716a797d53e7700308b59ddb3d2a0b3135
 ---
 
 ---
@@ -9845,9 +10303,9 @@ source_job_id: 5526131
 title: Senior Data Analyst- Future Workforce Solution
 employer: NHS Wales Shared Services Partnership
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0204
-factual_fingerprint: e42e1285badc2e198a92c431ca4aff4a5ff2a9d445c65d5eacc8e24c5f77fe58
+factual_fingerprint: 8dac8036f9e1296c3054fad95cf751c232eea029b0a4004cfaaf482fea725a34
 ---
 
 ---
@@ -9857,9 +10315,9 @@ source_job_id: 5526035
 title: Health Promotion Specialist - Youth Focused (Youth Essex)
 employer: Provide CIC
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0169
-factual_fingerprint: 13e8288ff98cebf2fefa8dc0a07dc7f7ec065252ff6486860e1bb1125ef4d99a
+factual_fingerprint: 8b2c45633611b550a51bc2020f86467433d4d52280311c42828643ebdfa022c8
 ---
 
 ---
@@ -9869,9 +10327,9 @@ source_job_id: 5525959
 title: Cyber Security Operations Support Analyst
 employer: UK Health Security Agency
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0236
-factual_fingerprint: f7d6ca7d82722fdb3d502584b2db78ff114794b241a387bee0f76b8fb38fd0ba
+factual_fingerprint: 3647d56f068ffdcc58cc37470312d8efeadd750d9e2959fc275ab54a1e67f501
 ---
 
 ---
@@ -9881,9 +10339,9 @@ source_job_id: 5523829
 title: Wellbeing and Inclusion Assistant (Fixed Term/Secondment)
 employer: East Midlands Ambulance Service NHS Trust
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0111
-factual_fingerprint: eb7edde4cc96e62b09442f57f64ff5951475f8dc821d6c85cb9419c1842aa8e6
+factual_fingerprint: 3cabc602ced8f37ceb36f37e8fb11b01ae6d0f8938e87144bcf1f14c4a57aa3c
 ---
 
 ---
@@ -9893,9 +10351,9 @@ source_job_id: 5525769
 title: Legitimate Relationship Auditor
 employer: University Hospitals Sussex NHS Foundation Trust (279)
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9279-26-1018
-factual_fingerprint: d39d546ed8de093cbb25283b21e3d957fbc579cc90fa39934bac8cf8f7d64c4c
+factual_fingerprint: bdac1b1a1a4f01347040de0cbc9a4173f2fae9db3e7872518771297a94f37182
 ---
 
 ---
@@ -9905,9 +10363,9 @@ source_job_id: 5525451
 title: Payroll Officer
 employer: Barchester Healthcare
 region: North Scotland
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8679
-factual_fingerprint: 8419b15d064aefedd2eb778daaf8ecf115ac8a4bc5deb9056c98b591d4541f38
+factual_fingerprint: 7514733530bc408efbc473919b0014425ff72a34a65fc902756a66414e737e64
 ---
 
 ---
@@ -9917,9 +10375,9 @@ source_job_id: 5525593
 title: Front of House Patient Advisor
 employer: Beacon Medical Group
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0037
-factual_fingerprint: 68d97226dd0102b5dedb0099c296ad6c56ba88b034f49a9d6b12020bde53172e
+factual_fingerprint: 33abb4bc3cba65b5a308c122d04dc5c72ea0497250be75cfbeb9fdabe6dd9445
 ---
 
 ---
@@ -9929,9 +10387,9 @@ source_job_id: 5525685
 title: Medical Secretary
 employer: Herefordshire and Worcestershire Health and Care NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2524
-factual_fingerprint: 860b878575a90815b2a7d7374f1126b691d66776765563380f318c431dafb28a
+factual_fingerprint: a8e5769551f108e2cccc76408487ad0229541b571b386c60274c981b59ef114f
 ---
 
 ---
@@ -9941,9 +10399,9 @@ source_job_id: 5525567
 title: Care Navigator
 employer: PartnersHealth
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0074
-factual_fingerprint: a54bf0e25f0af84342e6de98e36f7c83cef63a58d2e2902a79f176520448ca72
+factual_fingerprint: 3e7ee0a9649f819f649bb31abc3c309ce7ba0401c5d8eab0231bf716b2940713
 ---
 
 ---
@@ -9953,9 +10411,9 @@ source_job_id: 5523983
 title: Senior Health Care Support Worker
 employer: Sandwell and West Birmingham NHS Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9381-26-0317
-factual_fingerprint: bfc7fb861f7fb7e6846c10c51e8767e7bba38d3acc85fbdbf9837d5a590a247e
+factual_fingerprint: 10df4aebd3fbad9417e269715f89b2f85bfff1ecf3174de20993cc60b13bd0fd
 ---
 
 ---
@@ -9965,9 +10423,9 @@ source_job_id: 5525503
 title: Supporter Engagement Lead
 employer: Bluebell Wood Children’s Hospice
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0039-26-0008
-factual_fingerprint: e2cf4decc0a00ebb26bc530443767af8936c835d4f8806faaeb3609862fb4c0b
+factual_fingerprint: 49956079e60c35f42ef31884b943fd31491105ecc550d3d6078477ca09347362
 ---
 
 ---
@@ -9977,9 +10435,9 @@ source_job_id: 5525484
 title: Care Navigator (Reception)
 employer: Avon Valley Practice
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4019-26-0005
-factual_fingerprint: 46c8f5a93cecce873965cbfc3e5656360071a0cc5905ffe4728071b7e36f87f4
+factual_fingerprint: 72c794760244274b5ec58bc9ed19d1a6c7e0cc834472057e1471053433181e6b
 ---
 
 ---
@@ -9989,9 +10447,9 @@ source_job_id: 5525318
 title: Technical Services Configuration Management Lead
 employer: Innovate Healthcare Services
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9203-26-0018
-factual_fingerprint: 1536f0b301b47bbea9538d3addc517c2fc6a81403ddaf2d26d377bccab3cb2ad
+factual_fingerprint: f42f67ba2d4a5d4566f2505a224fb53b527c3206a93040786e9d0f076fcae981
 ---
 
 ---
@@ -10001,9 +10459,9 @@ source_job_id: 5524273
 title: Senior Clinical Coder
 employer: The Royal Wolverhampton NHS Trust
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0587
-factual_fingerprint: 188d7442c8b41b8cf1a1365589f7c2e0d11b542d1c523c3676d4039a64460b69
+factual_fingerprint: 4938062d6ebde7a232e9d34eae180f8d5cf79dc8f05f522d47b18cb855a15e96
 ---
 
 ---
@@ -10013,9 +10471,9 @@ source_job_id: 5525377
 title: Senior Information and Insights Analyst
 employer: Norfolk & Suffolk Foundation NHS Trust
 region: Norfolk
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0880
-factual_fingerprint: c3bc378cfd2c47ceb1ae4f8f5cfaec090b7edbb2d98c58659187182decd11ffa
+factual_fingerprint: 03a9ea69f402dee777fd132639b66f055180ef5d33da2e40376987cc3b0aa37e
 ---
 
 ---
@@ -10025,9 +10483,9 @@ source_job_id: 5525365
 title: Experienced Medical summariser
 employer: Claremont Clinic
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0925-26-0012
-factual_fingerprint: 19fee43c2d73372bcfeb7110e1e067bca46c9590add01dbe7e123cd89b257c8e
+factual_fingerprint: 460ff8f5ae24eda6eb8a4c4b423ea0313bc9df1fde4b14d5331a0e247f32c1ee
 ---
 
 ---
@@ -10037,9 +10495,9 @@ source_job_id: 5525216
 title: Care Coordinator (Proactive Neighbourhood Care & Remote Monitoring
 employer: The Primary Care Alliance CIC
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3584-26-0015
-factual_fingerprint: 82f6f6bad01b4e31200c09701251d91be07661e8b85bab5166c4ddd9dde80844
+factual_fingerprint: cd19c50c2a7531c87b0f1078d77aa7d670cffed663b87f688d2b5cc012038db4
 ---
 
 ---
@@ -10049,9 +10507,9 @@ source_job_id: 5524795
 title: Knowledge Mobilisation Fellow
 employer: NHS Greater Manchester Integrated Care
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0029
-factual_fingerprint: b6ee243ebfb107533db5eea69eccbff403e88cd51f7cba68e6f7a6031dd800de
+factual_fingerprint: a237cadeabec0a8d3f9b649620adadbcd86cea1f2582de1ef55fca7cc802e43c
 ---
 
 ---
@@ -10061,9 +10519,9 @@ source_job_id: 5522181
 title: PCN Care Co-Ordinator / HCA
 employer: Hurley Group
 region: London
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1199-26-0019
-factual_fingerprint: e26be2b6421eef1a9fa274ce443d0d2335348735d731e48d2649929202c606fb
+factual_fingerprint: a941e99cb3959cf2d36a71899ae9aa805df8d30a7cf8ae61451973f86e7659c3
 ---
 
 ---
@@ -10073,9 +10531,9 @@ source_job_id: 5524211
 title: Clinical Skills Facilitator
 employer: Pilgrims Hospices in East Kent
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0497-26-0031
-factual_fingerprint: edbc6c9a40e289149e35f9406a15a4a790ab7965bdf743495dac69126b237236
+factual_fingerprint: 7da4f213c493977b2ec010cefe0f0fca15f314d6a24d9a1c99708322ab1fbf0b
 ---
 
 ---
@@ -10085,9 +10543,9 @@ source_job_id: 5524747
 title: NHS 111 Health Advisor
 employer: Practice Plus Group
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2737
-factual_fingerprint: 264e052be8e0884b01b1932965f1ec316db4118c1e6778a5a791451a21925daa
+factual_fingerprint: 2e64304929dcb1c1f9d58bb68c1a407ad669b86870917d437692cd167ee6832b
 ---
 
 ---
@@ -10097,9 +10555,9 @@ source_job_id: 5524682
 title: Senior Public Health Intelligence Analyst
 employer: Public Health Wales
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0142
-factual_fingerprint: b8e5bfd4b8a9e4096f29d5c8238f8a0551f4152a51a2d3bf1f42faf41490117d
+factual_fingerprint: c71380cbac11963f4fe91fd4a6dd1a737674131c523a7c68c36119f297526ea4
 ---
 
 ---
@@ -10109,9 +10567,9 @@ source_job_id: 5524676
 title: Care Navigator
 employer: Fuller and Forbes Partnership
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2381-26-001109
-factual_fingerprint: fba16ea8ef30a5f4df243110752e9a11513a5e1a892e91b5d1acd041962b3629
+factual_fingerprint: ab16d717d834f4ba0d80e063d0fd3fd2f4f69f5eb16cb09cb926d2991dc1ee19
 ---
 
 ---
@@ -10121,9 +10579,9 @@ source_job_id: 5523891
 title: Procurement Specialist/Senior Procurement Specialist
 employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0634
-factual_fingerprint: cec4e0ca0935bb27e4c05570c311293b03c24d2e99ef101f54a620a68b8d321f
+factual_fingerprint: 430fcf3e7c2cee26fd0c8e9282bf1b60bdd3ba2eb912d2de0f188fad727d3130
 ---
 
 ---
@@ -10133,9 +10591,9 @@ source_job_id: 5524548
 title: Vaccination Officer
 employer: NHS Central East ICB
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9644-26-0035
-factual_fingerprint: 420ac9f6f8ff505e7f93e763b768d59aaf811eb4158dda255a439cfc06dae38b
+factual_fingerprint: 1d694a81dd31c12118d660e770e868c2b854625530e41e5f6d272e8c2df42565
 ---
 
 ---
@@ -10145,9 +10603,9 @@ source_job_id: 5522687
 title: Administrative Team Assistant
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0839
-factual_fingerprint: 233c86ff5891f6c642e2107f760b112904aa7dee05e6e84f0d4d4ee6cfa0b8e7
+factual_fingerprint: d05290b9dcc16338a348410f8d695e30de852c4b49d4de6ee1bb7245e304f95d
 ---
 
 ---
@@ -10157,9 +10615,9 @@ source_job_id: 5524599
 title: E-Procurement Administrative Officer
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0393
-factual_fingerprint: 9261c6c57c82def0504ee53f3e3407c3ae652641897676faa831b1ae5d7ee0cf
+factual_fingerprint: 841ddaf3482359d23cb47813f8559b48efa29f744866be454837a9bf03328e40
 ---
 
 ---
@@ -10169,9 +10627,9 @@ source_job_id: 5524299
 title: Inventory Management System Lead
 employer: The Walton Centre NHS Foundation Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9160-26-0170
-factual_fingerprint: 3fe0525ebbdab53cacf4f58339e682ab8643b98e286b1537f40106337d2b07bb
+factual_fingerprint: 8db27b2ca4bcb1959087457b4127e3ffed64a5f08de17203a87e58d0f02bed7b
 ---
 
 ---
@@ -10181,9 +10639,9 @@ source_job_id: 5521027
 title: Health and Safety Advisor
 employer: University Hospitals of Morecambe Bay NHS Trust
 region: Cumbria - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9331-26-0580
-factual_fingerprint: 84e3c4e72e6cb4e5c2fdc8f430da422d3fbad8c8dcae4e965b78c69a5a6659f4
+factual_fingerprint: ecad382d4044d5e08823eabbdd8d57567e705e1199eb4bee9079d85dc4d7dce7
 ---
 
 ---
@@ -10193,9 +10651,9 @@ source_job_id: 5524436
 title: Medical Secretary, Neurology - 27.5hpw - FTC 12 months
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0391
-factual_fingerprint: 108a51efe4b6a19d5da4290743dee58bc89ffb2dfbec6c5fc489107fb4c9b98a
+factual_fingerprint: ba8c09d3b9033b8f6d752ca5e0fdbc26f0108f827d7300a768ae00f573bf1677
 ---
 
 ---
@@ -10205,9 +10663,9 @@ source_job_id: 5522297
 title: Medical Secretary
 employer: Livewell Southwest
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1968-2
-factual_fingerprint: 3b022101e8f23569c0b5ca45b2c0a417091149b370927770153cb25403f888eb
+factual_fingerprint: 183eb8ba303da5712953daa66ccaf6aa55166425897e09d741366b9409b10fd8
 ---
 
 ---
@@ -10217,9 +10675,9 @@ source_job_id: 5524363
 title: Medical Secretary -Palliative Care
 employer: Wye Valley NHS Trust
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0701
-factual_fingerprint: 854393845f84d08f69d21b0176aded580f3719ada038e02a532cd5e9d5dc12b9
+factual_fingerprint: 86e8843b3a0ae3e80fb772840ba358afb61f3431206daa9efc039033c820d8a0
 ---
 
 ---
@@ -10229,9 +10687,9 @@ source_job_id: 5524149
 title: Repeat Prescribing Clerk
 employer: Tyntesfield Medical Group
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0519-26-0005
-factual_fingerprint: 7808cb5384243a9c047ed8311b0a78ba6f342b441689d8b85c22db789aff6ced
+factual_fingerprint: 664402a1009a03e04067c7337d2e03a92947bed808165821c72d46265c13be85
 ---
 
 ---
@@ -10241,9 +10699,9 @@ source_job_id: 5523873
 title: HIEM Senior Innovation & Improvement Lead
 employer: Nottingham University Hospitals NHS Trusts
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0740
-factual_fingerprint: 583371293b0f43cbe95e140f57ca5201d832deb4d0d195b6405b1e7486154ddd
+factual_fingerprint: 137b6c9ff54e2fdd72f14141b19f68e68b5546c398ee96ec67af0cb26f75f803
 ---
 
 ---
@@ -10253,9 +10711,9 @@ source_job_id: 5524038
 title: Senior Employment Specialist
 employer: Nottinghamshire Healthcare NHS Foundation Trust
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0570
-factual_fingerprint: c5994deaa3a53ff2d0308f475a7606747eedf87209cb985cc0195410c45eb2d1
+factual_fingerprint: 2f71699d1ddd681bd749861318fe65f4a477c0ea0050fe8c4baa6acf5ab53584
 ---
 
 ---
@@ -10265,9 +10723,9 @@ source_job_id: 5523887
 title: Smokefree Cancer Pathways Implementation Lead
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0583
-factual_fingerprint: ac54a5fda4ff3de7b9f8f3758b6bd45609982951df763a5c61c3052acc277eb3
+factual_fingerprint: 35b2d77ddea5d2e0f3f000e2689b0dbaf40a1b3330958fc80fe0a6d6f030d62e
 ---
 
 ---
@@ -10277,9 +10735,9 @@ source_job_id: 5523854
 title: Senior Data Analyst
 employer: Hertfordshire Partnership University NHS Foundation Trust
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0723
-factual_fingerprint: c67c72572271c4bff875a87b04e9bd250b57bbb79e18e02a9dece1585e3bf572
+factual_fingerprint: 521e15114abd132403234eb38e066f2ea6cae246363925f72a091e791e6747fb
 ---
 
 ---
@@ -10289,9 +10747,21 @@ source_job_id: 5523134
 title: Human Resources Advisor
 employer: North West Ambulance Service NHS Trust
 region: Merseyside - Liverpool
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9242-26-0162
-factual_fingerprint: db2178e5e22cd63e7ded38ee92fde2786d96b3bd8e2f6090273a98cd7c1b8ccd
+factual_fingerprint: 3f3b3e74d0b012b41d39136e92675a08fe5bc0503462a888b22d884bf08db0ee
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Surrey, RH1 5GG | £31710.00 | Engagement Support Officer for Inclusion Health Team
+source_job_id: 5523737
+title: Engagement Support Officer for Inclusion Health Team
+employer: HCRG Care Group
+region: Surrey
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-1904
+factual_fingerprint: cf9db7696aae61ade759e9f72d85d5c208722b515df8421cbf05bc85be301815
 ---
 
 ---
@@ -10301,9 +10771,9 @@ source_job_id: 5523742
 title: ARRS Care Coordinator
 employer: Operose Health
 region: Devon
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0348
-factual_fingerprint: 586176f934e4c1e31d3e808a9dc53b882802d023985982ca225cabff213675ad
+factual_fingerprint: 0f6b4802c361bc052f50c3de8539bda8cc4fcdb0b9e75cdef35fad1b581f954c
 ---
 
 ---
@@ -10313,9 +10783,9 @@ source_job_id: 5523632
 title: Cot Bureau Operative
 employer: Manchester University NHS Foundation Trust
 region: Cheshire - Warrington & Halton
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2333
-factual_fingerprint: f97ce0e9b8cddb990bf2d93a3498d077c0bc0c90ccc0785311937a3c638ed8d4
+factual_fingerprint: 5d88d4e7d83a2c2a18d301b82aef5a2dfccf1f250f48dc079a3c90e191b96027
 ---
 
 ---
@@ -10325,9 +10795,9 @@ source_job_id: 5523666
 title: PCN Care Co-ordinator
 employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1657
-factual_fingerprint: 94a553e1db51cb5d20318b0d6fb419ad6829332210f12f7b7ca1e8c59184a5d4
+factual_fingerprint: 0ce383bff9836b5a70610f66a02f7b6d9834ef8bdf53ed88f5a2955772508891
 ---
 
 ---
@@ -10337,9 +10807,9 @@ source_job_id: 5523639
 title: Medical Secretary/PA
 employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1656
-factual_fingerprint: 4ef799553d578f852d576f1f873185b7a07d25b646c42485a69b1bd9a7dbb706
+factual_fingerprint: e38b43395a3c15fe4db38bc771e9d21320f6fe23e5ec8b7e9da07bd694a085f9
 ---
 
 ---
@@ -10349,9 +10819,9 @@ source_job_id: 5523637
 title: Care Navigator
 employer: Larksfield and Arlesey Medical Partnership
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0026
-factual_fingerprint: 2f5d6096aaaa41e69b50b299467a8da8425272105892f1444b7fe13c69f4079f
+factual_fingerprint: 236f1f15f36f6612d4beac34555beea526e9b05176e2ca50eb4634787ef5518a
 ---
 
 ---
@@ -10361,9 +10831,9 @@ source_job_id: 5522403
 title: Finance Lead
 employer: Spa Medical Centre
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2319-26-0006
-factual_fingerprint: 9a0c19cfceb3917cf4a9542331bd5782591effc55dac3e9416f827e0e29ca0a4
+factual_fingerprint: bc5aae212c11a12cd8f6f4e7257be88de24ec5c05f06ad49f1b8be78499e1df3
 ---
 
 ---
@@ -10373,9 +10843,9 @@ source_job_id: 5522645
 title: Medical Devices Safety Officer
 employer: Central and North West London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1030
-factual_fingerprint: 0c299dc577e82686ed1f12c6477fd5ec6fb420fedd35c85586acc8742db7dff0
+factual_fingerprint: 8bf32a84155c91e33c7f139109e05646d36b839722c7efc38b2293f170db8d39
 ---
 
 ---
@@ -10385,9 +10855,9 @@ source_job_id: 5523464
 title: Guest Services Assistant - Clinical support
 employer: Horder Healthcare
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0237-26-0073
-factual_fingerprint: d5d9fa0cd2368a14395a23ff5c173f24c1d413cc42d1d77886df97fd465270f3
+factual_fingerprint: a026acc7573720e6c919919515ee47f38d8dc2a0665e7e822bda4d4f3eadc750
 ---
 
 ---
@@ -10397,9 +10867,9 @@ source_job_id: 5523475
 title: Integrated Neighbourhood Team Co-Ordinator
 employer: West Suffolk NHS Foundation Trust
 region: Suffolk
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0524
-factual_fingerprint: 9da36264137aa58fa6e63d925bd0c7ac178f0e883dbde0aad5ff412b345429c9
+factual_fingerprint: 584e3771fa4e19650c918ad5b9d2fecde0303545bbc2740914fcc8011fd2908f
 ---
 
 ---
@@ -10409,9 +10879,9 @@ source_job_id: 5523324
 title: Outpatient Booking Officer
 employer: Oxford University Hospitals NHS Foundation Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1292
-factual_fingerprint: 9191e86a27c1580ceda12247e98f8bd590816c14792114883d9085dd4d910ff2
+factual_fingerprint: 6286ee4c25703ede2a7665f056967bcd95e21e87df76ec6d1c9ec2bd8fb3fc8c
 ---
 
 ---
@@ -10421,9 +10891,9 @@ source_job_id: 5523131
 title: Supply Chain Cardiac Angiography Stock Controller
 employer: Oxford University Hospitals NHS Foundation Trust
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1291
-factual_fingerprint: 8b948cebe1c24e5081f5bf17415c8cd375bc1acfafbc6c8259a14a565f9c9c92
+factual_fingerprint: 24bc2a8278fd702d06ecd2cd81d4016c2a0dede949d657b0438455850be94e3e
 ---
 
 ---
@@ -10433,9 +10903,9 @@ source_job_id: 5523120
 title: Housekeeping Assistant - West Midlands Hospice
 employer: Marie Curie
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0516-26-0216
-factual_fingerprint: ba6eb960ec40b50cd3afc9be11d327de8f04a2f2aa6885fb02d2ccd8d53b46e8
+factual_fingerprint: 8ed7eda823cf1413bdfbb9beb8728a73f2dcbb58bc2340c9f1d1bc9dc49419ba
 ---
 
 ---
@@ -10445,9 +10915,9 @@ source_job_id: 5522683
 title: Reception Team Leader - Windermere
 employer: Cumbria Health
 region: Cumbria - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0554-26-0081
-factual_fingerprint: b76e651745b299256a69cd68e94f0a717a927ca978ccfc37ab33a6d98bb7743a
+factual_fingerprint: c23e62f962f296e4c8eec6b518fb737de0a8239a0b331c9675ff2608ac1f5564
 ---
 
 ---
@@ -10457,9 +10927,9 @@ source_job_id: 5523317
 title: GP Reception Supervisor
 employer: The Grange Surgery
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0340-26-0007
-factual_fingerprint: cb2795ec7b64e1dbae8526b615a94686a880cbcd552e595276b822d4fb658041
+factual_fingerprint: b6bfd09d7b1b1c0527d6de2df89c833164c38fba25570dab02a02c9fa7a5a0f3
 ---
 
 ---
@@ -10469,9 +10939,9 @@ source_job_id: 5522534
 title: Band 4 Clinical Coding Officer
 employer: Royal Free London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1330
-factual_fingerprint: 442c3180dbb5a9b5427aa86a802c9e48989fd9f8745b6664c350e83d1f4c89f4
+factual_fingerprint: 0502d5c81e792dfb840963688c5beb44e3baffcd7def3aef21c665d0e39088b0
 ---
 
 ---
@@ -10481,9 +10951,9 @@ source_job_id: 5512008
 title: NHS Customer Service & Admin Apprentice
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0639
-factual_fingerprint: e87d35ad0ecbb4c54c310f9cf00b1e482b16a1ac925e8c0f5797376f87a07a8d
+factual_fingerprint: 5b234a40202fc2ceb1ec86b514f5c2a394116506d12d5d7a398e60dcd695ea7f
 ---
 
 ---
@@ -10493,9 +10963,9 @@ source_job_id: 5523105
 title: Senior Configuration Analyst
 employer: The Royal Marsden NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0695
-factual_fingerprint: 85394480fd7d4096a172c71a74622b4bb4defd0ff3c9ec79a2438547a7effe24
+factual_fingerprint: 023ba7fc502752c4367ce0f32fa77ce93b07e2ea86dac40caf84ff7c5a68bfc2
 ---
 
 ---
@@ -10505,9 +10975,9 @@ source_job_id: 5523050
 title: Call Handler
 employer: Living Well Partnership
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1799-26-0016
-factual_fingerprint: 2cd614d2359f7435f48a52c39f0b3b8dd21ddd596a447d9dcb7cb8a789868763
+factual_fingerprint: 60ed42f0714abb4218a5939c9da323aa5b3fe59ee54e539c7cf2fa8eeb55cec1
 ---
 
 ---
@@ -10517,9 +10987,9 @@ source_job_id: 5522992
 title: Operational Service Assistant: Church View Nantwich
 employer: Mid Cheshire Hospitals NHS Foundation Trust
 region: Cheshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9412-26-0451
-factual_fingerprint: cdff1d9843521e2ddf341d173e73c8051fec961129702717cb22fd093c7e1e6e
+factual_fingerprint: 0625e4ac58921abb9246d52c9c121c65589b279febbe828cf3b1f3df0f9b1460
 ---
 
 ---
@@ -10529,9 +10999,9 @@ source_job_id: 5523029
 title: Interaction Designer
 employer: UK Health Security Agency
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0233
-factual_fingerprint: bd33e3c5972bcda1006dbe1e2b02856803a565b4b5cf95910e33bdf0209d1215
+factual_fingerprint: 7f7f5ab45c3cd0b9eadb3f8c2e5d747a66827548b8d497f42bc22abef62be3c6
 ---
 
 ---
@@ -10541,9 +11011,9 @@ source_job_id: 5521700
 title: Customer Care Assistant
 employer: Mid Cheshire Hospitals NHS Foundation Trust
 region: Cheshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9412-26-0450
-factual_fingerprint: 41f6353d1bc727d43d305d5157ac78da0c162125e460113fac9539d052dcb82e
+factual_fingerprint: ecf494d6974f3f6e689e435a14ac9867a7898b3a2a0d48917e447ff018d330d4
 ---
 
 ---
@@ -10553,9 +11023,9 @@ source_job_id: 5522858
 title: Urgent Results and Booking Coordinator
 employer: Salisbury NHS Foundation Trust
 region: Wiltshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0312
-factual_fingerprint: 5a409d974d252c3edb8567a8380eeacbd8f294941f9fa086b398d93d5916e524
+factual_fingerprint: 0cad7e66f5eefdccdae046eee06ce52a0ac34104377f3fc27e6d6be5c5063370
 ---
 
 ---
@@ -10565,9 +11035,9 @@ source_job_id: 5522817
 title: Rheumatology Day Case Clinic Coordinator
 employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1650
-factual_fingerprint: dacb364b83e928612637f4e693289acb232bd584bcfac87497a0c9a404ce4e6f
+factual_fingerprint: f8167653c3506823e2d9b4e1ffd145501cd23b9123a621f1880d2a115c9572eb
 ---
 
 ---
@@ -10577,9 +11047,9 @@ source_job_id: 5522600
 title: Scheme Supervisor
 employer: Agincare
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1371
-factual_fingerprint: f2922adf8b9758bc61f4a779ad34f445a3c5ba413897aacd1cc7a24ed8fd9885
+factual_fingerprint: a4fcdd7dc88e72bcbc4841a4d4a33548555d24496ec5e76efb4d77d899cb4981
 ---
 
 ---
@@ -10589,9 +11059,9 @@ source_job_id: 5522576
 title: EIP Team Secretary
 employer: Betsi Cadwaladr University Health Board
 region: 
-reason: BRIDGEABLE: Potential admin/service title: team secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1771
-factual_fingerprint: c642da2da1eb404b2276b3a0012f04221430e0756ae35ea397972e3b41037b72
+factual_fingerprint: 7d8a82291bbde7d89d89027ea1e3bc020664cdbc535ff552180a227dc54dec2d
 ---
 
 ---
@@ -10601,9 +11071,9 @@ source_job_id: 5522069
 title: Screening Pathway Co-ordinator
 employer: Public Health Wales
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0140
-factual_fingerprint: 2c44c00f67fec2b53d475871fe6c46c729f15dc0658bdf22a7f767d093d13cbe
+factual_fingerprint: 0db9d07d7a0dd2d015b168cf11de99698429924e6751bec91872b1d21e5ccaec
 ---
 
 ---
@@ -10613,9 +11083,9 @@ source_job_id: 5521879
 title: Medical Secretary
 employer: North Staffordshire Combined Healthcare Trust
 region: Staffordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0197
-factual_fingerprint: 6364cc1961100e6426c0c539482d43889c89bd0f779d6d824329a818ed00ba6f
+factual_fingerprint: 0b8a4b5570a36b1e90edac0b0aad5dcabc8d9d95c567823c1f068d8b1bd85cb6
 ---
 
 ---
@@ -10625,9 +11095,9 @@ source_job_id: 5522318
 title: Clinical Coder / Summariser
 employer: Moorside Surgery
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2040-26-0002
-factual_fingerprint: 355b6278b4776a9b37b2b3b254efc5a833bc4be3e226de131d3dbdcd736bf82d
+factual_fingerprint: 1c551c63782ae2f3544c96e99d45f6fbfe1e935acbb681cc8fb5e10e9830864d
 ---
 
 ---
@@ -10637,9 +11107,9 @@ source_job_id: 5522214
 title: Executive Assistant
 employer: James Paget University Hospitals NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0346
-factual_fingerprint: 57b905e60e2952e9e4b96a8bb4d4d7421c643d74ce222ec7e4f1c63797e447d2
+factual_fingerprint: 1bec4756eac71adb29bc4c3e1fbcb469b430aeec66a0fd4c9d0a24300c653f46
 ---
 
 ---
@@ -10649,9 +11119,9 @@ source_job_id: 5520245
 title: Treatment Centre Deputy Locality Lead (Penrith)
 employer: Cumbria Health
 region: Cumbria - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0554-26-0084
-factual_fingerprint: 2deb95262509bad1149d93d6b9a9be030ffad636ad870670c53e36c9933ff2f5
+factual_fingerprint: ec472617f794214bed3b3db71dd1081f6819cfa6f6ed482aeafcee36d55fce7f
 ---
 
 ---
@@ -10661,9 +11131,9 @@ source_job_id: 5514498
 title: Prescription Clerk
 employer: The Symons Medical Centre
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4719-03-08-2026
-factual_fingerprint: 05bc51a52ebab7253c4fbdee51520b1b712acbdf69490255e4174c01ae7019e6
+factual_fingerprint: 0466b3e4783e0bb398e4f6988edca134dd7f16a5143099dd696158fd2fc92610
 ---
 
 ---
@@ -10673,9 +11143,9 @@ source_job_id: 5521984
 title: Deputy Chief Operating Officer
 employer: West London NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9222-26-0667
-factual_fingerprint: 4d69baac9dd952b4c93a8764b1ead242b520b827a9293f1718ae2ba434c74571
+factual_fingerprint: 1331248fb5eb5c3ec8a6e68b880219eaaf66c8e39aa351c9a9f98e846f8a679e
 ---
 
 ---
@@ -10685,9 +11155,9 @@ source_job_id: 5521842
 title: Care Navigator
 employer: Westfield Road Surgery
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3801-26-0000
-factual_fingerprint: 8dda283859471f4fb599101244619b3dc2fdebf694caed32155f2ca9247ea76e
+factual_fingerprint: 1f64d377371cc9cdede11f79c9b960939ec655689b07022c1dd0249b46225063
 ---
 
 ---
@@ -10697,9 +11167,9 @@ source_job_id: 5521531
 title: Chief Operating Officer
 employer: Bedfordshire Hospitals NHS Foundation Trust
 region: Bedfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0818
-factual_fingerprint: fb1fbd6740bc9fcfe07dc0061364c7ef21c2d9c353a9d5affe16105986de170b
+factual_fingerprint: f5a894496dc3ff5cfadb69e92597f042cc0b33c05a415ccdc850e3a362bec7cb
 ---
 
 ---
@@ -10709,9 +11179,9 @@ source_job_id: 5521647
 title: Research Governance Officer
 employer: Sussex Partnership NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0937
-factual_fingerprint: 2a6d736412bbf6ddae3acfeac723431a2f3e7273a742d1467bce710644ba0908
+factual_fingerprint: a5103aa534b64f2f1b9586ab15b9af610fd3ef2f864d4d43382b0414a33f6fc0
 ---
 
 ---
@@ -10721,9 +11191,9 @@ source_job_id: 5521607
 title: Catering Assistant - West Midlands Hospice
 employer: Marie Curie
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0516-26-0213
-factual_fingerprint: 0e687ff5d12eeb0f8b19a8599489cad08e5e88bb2cdac49d5b22e426b7b0a8fc
+factual_fingerprint: d0e9230175d61adcfad0b26a7a192547a2877b6cb41dfdffe525605a1500b01a
 ---
 
 ---
@@ -10733,9 +11203,9 @@ source_job_id: 5521649
 title: Senior Lecturer - International Focus
 employer: The Royal Marsden NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0693
-factual_fingerprint: 4eb37bf69e9ee6ee485460af58c485a4d7d1c627c9a374678d1eb4082c4c5df3
+factual_fingerprint: f06a53298ab5bf46add7a5023cacfc5af7d9851ad2d62b8ac95a22ca8318355d
 ---
 
 ---
@@ -10745,9 +11215,9 @@ source_job_id: 5521589
 title: Senior Test Analyst
 employer: Leeds Teaching Hospitals
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0748
-factual_fingerprint: 211239cc6f0902156c22c33a46fc43ebd54686b478ecb66824c3a44584756770
+factual_fingerprint: e6f3bf2a2a6aa9aadb1f408f3173e7f93af55694c487863ba602c08f33b32ebc
 ---
 
 ---
@@ -10757,9 +11227,9 @@ source_job_id: 5508793
 title: Care Navigator
 employer: Eastgate Medical Group
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4063-26-0009
-factual_fingerprint: 7049c3110da8b7c7d1c5df372eef061ff7ddb9360a006ba9b442b2bdc29c9e2b
+factual_fingerprint: d2b60f978d9513d59d07cd3299ca3f528235b1c82308a959436bb63d5598b490
 ---
 
 ---
@@ -10769,9 +11239,9 @@ source_job_id: 5521492
 title: Population Health Officer
 employer: Hampshire and Isle of Wight ICB (104)
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0039
-factual_fingerprint: 24a09e6ac49b37360fe335ccbb40b4dcefcb005f9653cfa2f4a384094fb58b42
+factual_fingerprint: 1341a95db35cff7109d1ec7df5d3a2459e595796ac5b1fc679e57cb458dbf7ff
 ---
 
 ---
@@ -10781,9 +11251,9 @@ source_job_id: 5521009
 title: People and Workforce Business Partner
 employer: South Warwickshire University NHS Foundation Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0456
-factual_fingerprint: 48946e73cb5ae4fe2735cb4f2e924e11feae1d5db62c79a183c513647988611e
+factual_fingerprint: 672c91d925babe91393fe6c322629b9fe94f524ef97b3172286fa21caee330be
 ---
 
 ---
@@ -10793,9 +11263,9 @@ source_job_id: 5521434
 title: Resource Scheduling Lead
 employer: North East Ambulance Service NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9340-RSL-08-26
-factual_fingerprint: 11021fcb94abab1fcd8f9cc0d14ef91069b63c59a2c340bdae48aa3bbdb1a533
+factual_fingerprint: 6d04d920670a539f388a637dd94018cd7cebe40fde19ce352ec528993976fcb1
 ---
 
 ---
@@ -10805,9 +11275,9 @@ source_job_id: 5520437
 title: Patient Services Coordinator
 employer: Surrey Heath Community Providers Ltd
 region: Surrey
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0037-26-0102
-factual_fingerprint: adb02b1644c7b774759da4434d486ce8d12e1927092fddf709d9aacaee0c97fe
+factual_fingerprint: 598ad7b4fcb6ff79e9ba7303f1e4c1eec78839bbc4efc7f793d426dbc7595b27
 ---
 
 ---
@@ -10817,9 +11287,9 @@ source_job_id: 5521021
 title: Safety Alerts Officer
 employer: Cornwall Partnership NHS Foundation Trust
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-0998
-factual_fingerprint: c7b5e022d81e47ed46670c818d7584689ab81da1edb1ce5dbccbb59c52b7d617
+factual_fingerprint: 416bfcaa3b2096663482ec828c90792d7210de619fb4f515b24822760bef6921
 ---
 
 ---
@@ -10829,9 +11299,9 @@ source_job_id: 5521212
 title: Department Support Volunteer
 employer: North Cumbria Integrated Care NHS Foundation Trust
 region: Cumbria - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1241
-factual_fingerprint: 7c254f03b7e3103a300519efd827f82ca43ef21253c480d7219f163898a79ad6
+factual_fingerprint: 8dc7c03217508517093c05131f2c461cd15e80271cc8adb446cb36492c0fb9ec
 ---
 
 ---
@@ -10841,9 +11311,9 @@ source_job_id: 5521168
 title: Deputy Chief Information Officer (Digital Services)
 employer: East of England Community Health and Care NHS Trust
 region: Cambridgeshire
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0302
-factual_fingerprint: bc32b1cb7fc6aa0022ae9cd6853ea1be9722d4bcf0d34c1ab71039ffef9fed29
+factual_fingerprint: 4d91f9d6d6c858b45cca674fdbcbdd76ea373630160aa8995dd071d59c26aeab
 ---
 
 ---
@@ -10853,9 +11323,9 @@ source_job_id: 5520902
 title: Clinical Services Matron (Oxford)
 employer: MSI Reproductive Choices
 region: Oxfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0201
-factual_fingerprint: a240480e7b80c6e05e3f07bd59a54276d2ca004fc739e18b3685bddfd7f36f1b
+factual_fingerprint: dcee2f3f1a59e5c508eabf9748b0fd7ad7d1677556468420a242b236cffa21e0
 ---
 
 ---
@@ -10865,9 +11335,9 @@ source_job_id: 5519525
 title: EOC Emergency Health Advisor
 employer: Yorkshire Ambulance Service NHS Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9174-26-0129
-factual_fingerprint: a512209afb2acaf06db710f5310c5ab8fbbd9c50bbd141bf4fb1cabf522df888
+factual_fingerprint: f4a111f447b953a33bfee38b4c2c285c9ffd059e90f68f05ccc9e47ad2d52ad7
 ---
 
 ---
@@ -10877,9 +11347,9 @@ source_job_id: 5520836
 title: Senior Financial Analyst (Costing and SLR)
 employer: Ashford & St. Peter's Hospitals NHS Foundation Trust
 region: Surrey
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9323-26-0384
-factual_fingerprint: 2b8104a7568aca5923fdfc470b32afdac420b42d11398d5e9174392c68df84c3
+factual_fingerprint: 5cb629336df69af803401d4b20a3eb95fea517af816f69c95635a2a5a979c42c
 ---
 
 ---
@@ -10889,9 +11359,9 @@ source_job_id: 5519859
 title: Workforce Lead
 employer: Elysium Healthcare
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1726
-factual_fingerprint: f2d5a0d912faed4f8d81916b3d03914c65993e84834d70c6235529d0ca83a216
+factual_fingerprint: fa18ef7f838f01db83ed48409f04c8499047ce2753ecfe8848cad8305909cd84
 ---
 
 ---
@@ -10901,9 +11371,9 @@ source_job_id: 5520767
 title: Care Navigator
 employer: Mortimer Medical Practice
 region: Herefordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A6023-26-0006
-factual_fingerprint: 4a59497b754669a70d348796d974d6d0bf3686ff9b9f0f42386af5ec71e6f842
+factual_fingerprint: 7c68d2414bca604d6faf77663602afd52af1ae2232e2c9bbbfcb718ddb63baa0
 ---
 
 ---
@@ -10913,9 +11383,9 @@ source_job_id: 5519124
 title: Rota Co-ordinator
 employer: Pennygate Medical Centre
 region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator, rota
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2123-26-0013
-factual_fingerprint: 534b79b41ba8e33a749c188fe0580b8448b8f75c2e85243fd45601f969aecb38
+factual_fingerprint: 9760048cd0e4d22b7591c206646b9e12f79426ef01cbcccae9bd030479ee7154
 ---
 
 ---
@@ -10925,9 +11395,9 @@ source_job_id: 5520566
 title: Knowledge and Information Management Officer
 employer: NHS Resolution
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9912-26-0029
-factual_fingerprint: 60e7583033fc19436dc82493dc02766b08be7c2364e3b0e143db42ae0b3bceb0
+factual_fingerprint: ac22d01abf869501a37cea9fd9d9bb3283e56e4809f109dd0d6b226d19b8e2d6
 ---
 
 ---
@@ -10937,9 +11407,9 @@ source_job_id: 5520403
 title: Senior Clinical Coder
 employer: Royal United Hospitals Bath NHS Foundation Trust
 region: Bristol & Bath
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9427-26-0513
-factual_fingerprint: f436dd6cc76b6bcaa3a5a5321782d3925dd9dbe90acdcc50d245ec46d6b5707d
+factual_fingerprint: 9ff805da8f5e8d123d66e0884913aa300afbee2c83f8d7c014dff3b0c83320ae
 ---
 
 ---
@@ -10949,9 +11419,9 @@ source_job_id: 5518219
 title: Patient Safety Incident Investigator
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0573
-factual_fingerprint: 19108f6df53bd7115fec64f26da6ebc9028d1ad3587c93a6af9e43f70f0e703f
+factual_fingerprint: 36073a57e811411919e1782811f4a0acc8f9f04169fea54ece098fac71805234
 ---
 
 ---
@@ -10961,9 +11431,9 @@ source_job_id: 5520305
 title: Childcare Practitioner
 employer: The Mid Yorkshire Teaching NHS Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9377-26-0372
-factual_fingerprint: e88515f7f3d57cb4b166424317e8f59902b853589343eff2be5babae2f4b667d
+factual_fingerprint: cd8313fa4a433662e75bce73f1eeed1c0dbc900437b4eea0426a7a7b72954c2a
 ---
 
 ---
@@ -10973,9 +11443,9 @@ source_job_id: 5520103
 title: Care Co-ordinator
 employer: PartnersHealth
 region: Nottinghamshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0073
-factual_fingerprint: 806cbc894b84c40f53101685a7e64b53ff0198c8c2fa1db845d32a6c36ce3d50
+factual_fingerprint: ea0d4139e90b9113c79ccdb543291dfe6d1c6ed54ca87935876141e0f7fe0174
 ---
 
 ---
@@ -10985,9 +11455,9 @@ source_job_id: 5519713
 title: Reception and Administration Officer
 employer: Public Health Wales
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0137
-factual_fingerprint: 5e2a83ef7eeebb4474a88b8cf49af2c7477502b5b317efe195e3d0fbb31ee458
+factual_fingerprint: db9aeaa4ad3142d494f2f6d50f248844dfacaca40b69c5f333c69b1961701709
 ---
 
 ---
@@ -10997,9 +11467,9 @@ source_job_id: 5519924
 title: Housekeeper (Ward 3)
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0384
-factual_fingerprint: 56e5b33c08506387c432cc756754c9de4878b98408facfbd9c8f2f0873a09258
+factual_fingerprint: 4616ecfc1df5ecd018b38460270aa9dc178e0fdcd16d86bf5b884050719d985c
 ---
 
 ---
@@ -11009,9 +11479,9 @@ source_job_id: 5518648
 title: Patient Coordinator
 employer: Hinckley And Bosworth Medical Alliance Ltd
 region: 
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0055-26-0021
-factual_fingerprint: 073fd81068b26d1c96de41d26efb97e4c9ca209394107eb72de533a8c3f8f1b6
+factual_fingerprint: 1260041079d3d3005f0d5deb9422d1e17bdd5ab99a76dbbe815191083920166b
 ---
 
 ---
@@ -11021,9 +11491,9 @@ source_job_id: 5519618
 title: Dispenser
 employer: Ystradgynlais Group Practice
 region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4475-26-0005
-factual_fingerprint: 3b95ee5fbf1649eee24293e86b10d967cb380ef569b08252aa3299da0d43986a
+factual_fingerprint: 02f000778b4953005e2e51b24875a2bfff97b21181ff294b7d44454fd3c3fc3b
 ---
 
 ---
@@ -11033,9 +11503,9 @@ source_job_id: 5516834
 title: Individual Placement Support (IPS) Team Leader
 employer: Gloucestershire Health and Care NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0657
-factual_fingerprint: 8c82f4720e16333efd98e65694489cab6426d699eb9012c5e8829a07edf130ba
+factual_fingerprint: 51f9b23a94ae3d3fd5923917dd5ed271f7256baafb1c7b1eeaacb9dcc1f3b4e9
 ---
 
 ---
@@ -11045,9 +11515,9 @@ source_job_id: 5518309
 title: Quantitative Senior Research Fellow - FTC until 30.09.28
 employer: Bradford Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0382
-factual_fingerprint: 53c1ddb60bd94256f6a235e2a021b521443dfa1ead42466c4cd0ddeb9c6c4dd6
+factual_fingerprint: d5eba6f2a4469dc7495644fa085a75cce0314becf749e49c1cb6bc4f2c91c795
 ---
 
 ---
@@ -11057,9 +11527,9 @@ source_job_id: 5517019
 title: Qualitative Evaluation Senior Lead - Population Health Improvement
 employer: NHS Dorset
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9467-26-0004
-factual_fingerprint: 921e33b8af15b2fd97374edaf40666f3f6c59b13e7073daae1e7edf9050f7bfe
+factual_fingerprint: 74e5a1f82987b5affd8c0217e2e1c42a860e68aa765ae225aa1108f35c9a4310
 ---
 
 ---
@@ -11069,9 +11539,9 @@ source_job_id: 5517951
 title: Senior Cyber Security Analyst
 employer: NTW Solutions Limited
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0031-26-0115
-factual_fingerprint: fb13f271edf7d837129c5d331e7c8744368e94e78e3fb5d7f9c248e384329980
+factual_fingerprint: 527fa41b9b18076e1dd12a23d01c8c109dd82a8fd08063758f3417a7d9b700d2
 ---
 
 ---
@@ -11081,9 +11551,9 @@ source_job_id: 5517427
 title: Executive Assistant to the Management Team
 employer: Beech Tree Surgery
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0991-26-0001
-factual_fingerprint: 854a9576e324011f233d0b987a6ea3726273f8e526309a5f9ef1e4befdd43f2a
+factual_fingerprint: 227dc7555ac5a562518cb8d2f56f1878921c10a914b0577e4edf2860aa803415
 ---
 
 ---
@@ -11093,9 +11563,9 @@ source_job_id: 5517439
 title: Medical Physics Technologist (PET Imaging)
 employer: Kings College London
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/N0067-26-0013
-factual_fingerprint: 8fb1af2c059419eeb3698aadc109fe6a588851ae87fb1c4aa03daadeee376962
+factual_fingerprint: 2c72471484bc2d84d1642edfeadd9446f45a9f35e03bb8f6c9c76229e1d79f0d
 ---
 
 ---
@@ -11105,9 +11575,9 @@ source_job_id: 5514757
 title: Deputy Associate Chief Operating Officer
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0599
-factual_fingerprint: 526953da86268da5ed4213f7659af6d4dcb54b111f084419a166eeae1bd464b9
+factual_fingerprint: bd16c75901eb1cc2a02f672f67c15a5458008f18fb3a2c487f71a6fb22e3a67f
 ---
 
 ---
@@ -11117,9 +11587,9 @@ source_job_id: 5517071
 title: Service Support for the Maternal Mental Health Service
 employer: County Durham & Darlington NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: service support
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9439-2627-NP-N78
-factual_fingerprint: 98527c5217625fe890d014b8b2943e2adeb2e75b57fe35a46181defa29e049d2
+factual_fingerprint: 20c6867b1c447729b0b9a0c565e0228c9b4ffdc862854fb86db958252d4c1704
 ---
 
 ---
@@ -11129,9 +11599,9 @@ source_job_id: 5510124
 title: Care Coordinator Lead
 employer: North Sedgemoor PCN
 region: Somerset
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3949-26-0010
-factual_fingerprint: d8c7df939ca844e441e70ff508a0a44504dbadec08f3967f402d5636f405efbf
+factual_fingerprint: 508b54bacf3c459ab8f1586fa27d9f5154e93c8d6f63a8e82b02dfb6aaf7531b
 ---
 
 ---
@@ -11141,9 +11611,9 @@ source_job_id: 5516479
 title: Chief Operating Officer
 employer: King's College Hospital NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0667
-factual_fingerprint: ab60c45571db9be9009d4c8606a052ada437b1399326e47b6d5c780912c7454c
+factual_fingerprint: 47056a27ba995b5e347b02393f2b41ed64e41352f3cbf1693342cd1c3e9fa904
 ---
 
 ---
@@ -11153,9 +11623,9 @@ source_job_id: 5516305
 title: Charity Book Merchandise Sales Volunteer
 employer: The Rotherham NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-08-000
-factual_fingerprint: 986664b1b02904935055c113e55b4c48e93e259b9e506888a98f093327897b96
+factual_fingerprint: 3e0dee175245edaab0fbe37edf56e6ef4189b459456ffe71fe8f2275c707b55e
 ---
 
 ---
@@ -11165,9 +11635,9 @@ source_job_id: 5515085
 title: Transformation Lead (non-clinical)
 employer: Yorkshire Health Partners Ltd
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0464-26-0017
-factual_fingerprint: 712446cbba8ab89af4306c54a0e9b732536cdb72e3d6bb58d50a885e9c0b3643
+factual_fingerprint: 8a60a55d65d70b3456780a4d7d1b9c62985da6b65c70ac261a377913a15c97a6
 ---
 
 ---
@@ -11177,9 +11647,9 @@ source_job_id: 5516237
 title: Supply Chain Assistant
 employer: Hull University Teaching Hospitals NHS Trust
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0584
-factual_fingerprint: 2f4d2bd36eb1eeeefda3b2a7dbfdd7ce0af1f63098cb748599f30a55cede4d4c
+factual_fingerprint: 84d50b6347d9aaeebbfd8d2d6226d13d94b7dc57886bed7e32c5a22c429a572b
 ---
 
 ---
@@ -11189,9 +11659,9 @@ source_job_id: 5513261
 title: Wellbeing and Activities Assistant
 employer: Avery Healthcare Group Ltd.
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3171
-factual_fingerprint: 9232197d6dfd79cb417260a57e00e076ebb52eed0a9b252d53d6a368de88883a
+factual_fingerprint: 6202f01a3d5a4be2bb0b3575f0e61fba88ce89a3193850a315d63b0ed244e77d
 ---
 
 ---
@@ -11201,9 +11671,9 @@ source_job_id: 5515508
 title: Catering Assistant
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0825
-factual_fingerprint: 792a70b34342c9e7364c53201903ac379fe47f90a2948d70632ee84b398554fe
+factual_fingerprint: 6a7bb24e428e0db0751ef8d918fa084351e915831ac8ca4fd9a1d6ca5190c07a
 ---
 
 ---
@@ -11213,9 +11683,9 @@ source_job_id: 5511908
 title: Senior Finance Business Partner Transformation
 employer: The Royal Marsden NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0685
-factual_fingerprint: 3d89d2005ecb578e7ca6a1a2fa0e543c525897674712856f7498935d616f34c4
+factual_fingerprint: e30fcc455a7976ca49a635e0850bd58745da9d34f6fe4e1b71b68969a771172c
 ---
 
 ---
@@ -11225,9 +11695,9 @@ source_job_id: 5514344
 title: Prescriptions Clerk
 employer: St Luke’s Primary Care Centre
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1304-26-0005
-factual_fingerprint: 1718dfa403d2aeb3e6a0a8ebfaebdd7019a92d826e8aecca56dac85bdbbb1e52
+factual_fingerprint: 95c38ee447a5b763bdaf02cc549720a5185b36208f399dce932d45f03b36e635
 ---
 
 ---
@@ -11237,9 +11707,9 @@ source_job_id: 5515563
 title: Chef - West Midlands Hospice
 employer: Marie Curie
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0516-26-0206
-factual_fingerprint: 6792757d002ebfddca916abae99aafe71ff926121e932ce1d91bc5010cebad0d
+factual_fingerprint: d63b367fcbd439e700b44a90b98bbf756cb692001c334819fa017d395bce876c
 ---
 
 ---
@@ -11249,9 +11719,9 @@ source_job_id: 5515666
 title: Medical Secretary - Acute Medicine - 12 month FTC
 employer: Airedale NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9423-26-0186
-factual_fingerprint: dfebe7c24faa11b9756d6dbc655cec63275c77b8fcd8eb4376a75404b34716e2
+factual_fingerprint: 9368fa9244f42d69acd6f7597f5b95173320c9e0c3ac5fcd8d11e3ee5bd38833
 ---
 
 ---
@@ -11261,9 +11731,9 @@ source_job_id: 5515599
 title: Patient Care Advisor
 employer: AMP Group Practice
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1885-26-0017
-factual_fingerprint: 9dcd2af4c45bfe05e862b73559259cacb3fd3f727fc826038499a85f7144a4af
+factual_fingerprint: cc3b49685fc7d0825d9d3989812ad1358a8a2fa4d9485e1e3dd3d721baf4144b
 ---
 
 ---
@@ -11273,9 +11743,9 @@ source_job_id: 5515064
 title: Care Coordinator
 employer: Barnsley Healthcare Federation
 region: Yorkshire - South
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0243-26-0044
-factual_fingerprint: 796c292c688006d8e13d8d0e5e05d5018940bddccbe2f58cd8caf13e1db13d2b
+factual_fingerprint: 01e2c11975eb076f03cbf372ba39ab049cc728d1de5e328d6609399402670a09
 ---
 
 ---
@@ -11285,9 +11755,9 @@ source_job_id: 5515060
 title: PCN Frailty Team Care Coordinator
 employer: Cheltenham Peripheral Network
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1910-26-0010
-factual_fingerprint: 6835f8cd232adc4b5350104ad2c9c5436ccb5956266358abed08cdb52c763943
+factual_fingerprint: 040db1f0fe04283e7fe9e424a027209f930c3ac65d147ff52acb3d3ba7127462
 ---
 
 ---
@@ -11297,9 +11767,9 @@ source_job_id: 5515002
 title: Operational Trainer
 employer: Barchester Healthcare
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8417
-factual_fingerprint: bfc730133afbd40fc4a3a7208892363d3a623aee368674fcdd858101c4367175
+factual_fingerprint: 143d943a1f70397d7245a192d8997c67bd73d9f3837f32fbfc72decc1c3d97a0
 ---
 
 ---
@@ -11309,9 +11779,9 @@ source_job_id: 5515001
 title: Operational Trainer
 employer: Barchester Healthcare
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8416
-factual_fingerprint: 00eced920f10fad5d4af44e3d2077fe3d7b16ec51400f533ce0ac70a35b543c5
+factual_fingerprint: 13eff97b8aff549d0b2921fa965832875fa9e157e7cf0ce4191105cc5836950a
 ---
 
 ---
@@ -11321,9 +11791,9 @@ source_job_id: 5514931
 title: Medical Administator
 employer: Ellison View Surgery
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5753-26-0015
-factual_fingerprint: 9fa0e7589b65968326b82a368de3a7ce5086e141f36656087ec7d4254e85679f
+factual_fingerprint: 1819c8f87c58a12beef7e7172eb89d34ac06839e77b4ed08d3c70ba48824dd08
 ---
 
 ---
@@ -11333,9 +11803,9 @@ source_job_id: 5514829
 title: Clinical Coding Trainer
 employer: East Sussex Healthcare NHS Trust
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0726
-factual_fingerprint: 4a8b295a5b8c2493154d46b5554d5143bbee32e2c72caec76281087315c03eb3
+factual_fingerprint: 2ee502feaeebd1f87c57cb3a3951b565a7996a92fe94112d3393fc48b379cacd
 ---
 
 ---
@@ -11345,9 +11815,9 @@ source_job_id: 5514631
 title: Workforce Projects and Job Evaluation Officer
 employer: Humber Teaching NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0390
-factual_fingerprint: 9ac4383273f4073541cc87c4bbb29112befd7cd959aa43034ed43e8571ec861a
+factual_fingerprint: ffe721eb86166f764a991cca97e94c30f6addabb060a91baef04b9eebc887258
 ---
 
 ---
@@ -11357,9 +11827,9 @@ source_job_id: 5514350
 title: Patient Services Advisor (Extended Access Sessions)
 employer: Churchmere Medical Group
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0901-26-0012
-factual_fingerprint: 593f6e23e23bc9d813e5b737afc45c0a16ed3b16b0a026ff40ef416d49adc45c
+factual_fingerprint: 80443ed7faf397e2c6f593e47a4d88a40613f42bdbbe32f5ad385e35426eb909
 ---
 
 ---
@@ -11369,9 +11839,9 @@ source_job_id: 5514182
 title: Patient Contact Advisor
 employer: Salisbury Medical Practice
 region: Wiltshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2320-26-0003
-factual_fingerprint: 36b691a663dea1daa013188b885fb7ddda1f12d766d41135402fca6cc81fe7f5
+factual_fingerprint: 0ad24e330108e5579d33a0732bef3c28db7663849d6ce597c94494a2060702a7
 ---
 
 ---
@@ -11381,9 +11851,9 @@ source_job_id: 5512902
 title: Temporary Staffing Assistant
 employer: Betsi Cadwaladr University Health Board
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1706
-factual_fingerprint: 74529f55930ad290ed9a9bd8ccc1b34307f62e0c28fac26772add179db936cf5
+factual_fingerprint: 83667ae325a0ce314bb8e3d8109e64e3eb00d47a6fab8fbd7fb5708d7831487b
 ---
 
 ---
@@ -11393,9 +11863,9 @@ source_job_id: 5511890
 title: Early Years Practitioner
 employer: Torbay and South Devon NHS Foundation Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0631
-factual_fingerprint: e3f3ad0be950b6ff6f7d07ed847cf58f2ea0662800fb17513b3b1b574c72fd31
+factual_fingerprint: 503e922bf4afa957acbfb11055d7cbace146df3091e29ead7524b0197482c1ef
 ---
 
 ---
@@ -11405,9 +11875,9 @@ source_job_id: 5512794
 title: Senior Payroll Assistant
 employer: Agincare
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1344
-factual_fingerprint: d683905cf7bdf4b91cb59e8fa593b2312ada47b6aea619babeef8df162cf0cb2
+factual_fingerprint: 94c4e83c97f5bfe5f721be8d4cae7c322ca986ee48c03acdb1f705c84f456610
 ---
 
 ---
@@ -11417,9 +11887,9 @@ source_job_id: 5513219
 title: Marketing Officer
 employer: Age UK Coventry and Warwickshire
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0136-26-0015
-factual_fingerprint: fbb1d3660277370d7482985a73af4b237fe26a6b6faa4b215240a0b9bda2309c
+factual_fingerprint: f4ab40201f5baa3bd307b34e331df856d77f1523d59d8b16ee621fa522893eae
 ---
 
 ---
@@ -11429,9 +11899,9 @@ source_job_id: 5513026
 title: Dispenser
 employer: The Mayflower Medical Practice
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5471-26-0001
-factual_fingerprint: e93ffe2daa03bd57808eca4b02a11af9aa72ed7747210ad5ce4ec10898b710dd
+factual_fingerprint: 504bcf54c48e03348e653e8fac8e6caaae7fed945c40b7d2f40d809b89a7d876
 ---
 
 ---
@@ -11441,9 +11911,9 @@ source_job_id: 5513008
 title: Senior Freedom of Information Advisor
 employer: University Hospitals Sussex NHS Foundation Trust (279)
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9279-26-1014
-factual_fingerprint: 937695cc062658a0b8354f7ecd5fad465633852fbbc847db623669d8f83ad388
+factual_fingerprint: 7964a8c0e2d55ac7e78c0b1e7c5f9d73ca460e20b62f3b0c0e6793c38821fe6e
 ---
 
 ---
@@ -11453,9 +11923,9 @@ source_job_id: 5512740
 title: Senior Solution Architect
 employer: NHS England
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0522
-factual_fingerprint: 44f587b5f5aed9a6a7b036c11362e0dd32afe964f088b79e552d266f43c0955a
+factual_fingerprint: 488adb195498a50ae977a4c8d8e450916fb56c46fea079c31c8822fe44333353
 ---
 
 ---
@@ -11465,9 +11935,9 @@ source_job_id: 5512687
 title: Community Fundraiser
 employer: South Tees Hospitals NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9328-26-0353
-factual_fingerprint: 80f00cb25ed308ef5aba0c4b09254be97925cd155e17b63a0fbc72e42da9ea49
+factual_fingerprint: 4784c8132a2e6dbb437b607af90be1671187c863592901ac37f73dd9043115a7
 ---
 
 ---
@@ -11477,9 +11947,9 @@ source_job_id: 5512603
 title: Research Governance Officer
 employer: Queen Victoria Hospital NHS Foundation Trust
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9276-26-0149
-factual_fingerprint: aa1dc286cb169442c46fba2f26386fef0f9f6bd73fd5c990ecbe21ecba6d2408
+factual_fingerprint: aead979a2273ed7a9208582d9a5202197d8d0075f36010c30c7248f5cfe67414
 ---
 
 ---
@@ -11489,9 +11959,9 @@ source_job_id: 5512194
 title: Healthcare Science Clinical Lead for Workforce Transformation MPRTD
 employer: Health Education and Improvement Wales
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9082-26-0054
-factual_fingerprint: eb352d091b2049b0ebc52c6b87a97465622063cf525a3a04967143e7c56b2d12
+factual_fingerprint: 8240172f0cac6d32b6ed25d35b958e5045125ea9a9a83cd59a37ed337da6e4fb
 ---
 
 ---
@@ -11501,9 +11971,9 @@ source_job_id: 5507066
 title: Senior Clinical Coder
 employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
 region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0781
-factual_fingerprint: 4784e3e43c2b892e4df9be5f5ecd713174de4ccd98aa8ffffad87cdbae6c6925
+factual_fingerprint: 336cd6db2871883755f4e693c68652171a19b985ae96989ef1a5df1aaccd7eed
 ---
 
 ---
@@ -11513,9 +11983,9 @@ source_job_id: 5511769
 title: Healthcare Assistant Staffordshire
 employer: HealthHarmonie
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0066
-factual_fingerprint: 5037b4835cc12aea275dc5cb13d05c1427fa00d98c0a485bb3df5cfa484c82e2
+factual_fingerprint: 64d9b9019218d04ad7a8e7a6fbc39f8b77ac5aaa66d8c6efb57cdbe4a2ae59e9
 ---
 
 ---
@@ -11525,9 +11995,9 @@ source_job_id: 5511768
 title: Healthcare Assistant Reading
 employer: HealthHarmonie
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0065
-factual_fingerprint: cb2f0167d8e17351863101ed6c945cac72f38897f7dad869338b9e796c39f1da
+factual_fingerprint: 0c21cc5bfd7f8e32b73f22a6de557619c70e22cee9aa6b80d538187cbc80f61d
 ---
 
 ---
@@ -11537,9 +12007,9 @@ source_job_id: 5511763
 title: Healthcare Assistant Gloucester
 employer: HealthHarmonie
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0063
-factual_fingerprint: 33fa4e84a1170e44fe7a2b2989e33a4d9859fa6bdf131d728f21b517dc82858f
+factual_fingerprint: f01d100b00a02986e47662c28abd5e5780d74ffc0bc66cceb4c345aa37332330
 ---
 
 ---
@@ -11549,9 +12019,9 @@ source_job_id: 5511761
 title: Healthcare Assistant Kent & Medway
 employer: HealthHarmonie
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0062
-factual_fingerprint: 972b98caff2029cfdc3836a436afab04b6e24a9af7821cb74eb06ea161603e74
+factual_fingerprint: 21fc3d72dd359357ab19a959cc4f1673aa85f036d04f105603fcc7c3bfeff6b0
 ---
 
 ---
@@ -11561,9 +12031,9 @@ source_job_id: 5511760
 title: Healthcare Assistant Nottingham
 employer: HealthHarmonie
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0061
-factual_fingerprint: 9f0e06926319b9cbf8029b5c03892b624d485fd76881dd7f7c77a050117796bc
+factual_fingerprint: 68bdf07e10e20356061515619de92a056edfceb43c9d757642c4e3ab184d4860
 ---
 
 ---
@@ -11573,9 +12043,9 @@ source_job_id: 5511759
 title: Healthcare Assistant Birmingham
 employer: HealthHarmonie
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0060
-factual_fingerprint: 9e2bd23a1daecbc3b928e787e5ed98cf2d0406938067ab2d8019f44f2b8d681d
+factual_fingerprint: 794b8a97dac52514ac79a73c00f08be85f72b507ced8536f0677361227cb0404
 ---
 
 ---
@@ -11585,9 +12055,9 @@ source_job_id: 5511757
 title: Healthcare Assistant Manchester
 employer: HealthHarmonie
 region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0059
-factual_fingerprint: 3b0125fb83ba9cd1297db1fe6fc7753eb199cd0602c82a38733adf32ac34d9db
+factual_fingerprint: 49e1d70e0c49240fa2bb15a55efd848658eed79cf9f8b704fc049e97c6489008
 ---
 
 ---
@@ -11597,9 +12067,9 @@ source_job_id: 5511755
 title: Healthcare Assistant Aberdeen
 employer: HealthHarmonie
 region: North Scotland
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0058
-factual_fingerprint: 7df44c99a6c2c46214bb452514b19f490516ef34296b7f17085bcbfbc3ff2c4f
+factual_fingerprint: 9b3241e7ba51f916550904edad33345bd927ec99c91b92264cefd8099c5dbc4b
 ---
 
 ---
@@ -11609,9 +12079,9 @@ source_job_id: 5511659
 title: Care Co-Ordinator
 employer: Martlesham Heath Surgery
 region: Suffolk
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5635-26-0006
-factual_fingerprint: a166f9d135cb4f9001e3de3b6197c7e66ea4770a300158ab3210d348dc92ad08
+factual_fingerprint: 9c7d3067f3185302b40788ec309c79c9ddf5abad7c1f57cc88f3567d27fe6c72
 ---
 
 ---
@@ -11621,9 +12091,9 @@ source_job_id: 5511443
 title: Credit Control Assistant
 employer: Agincare
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1340
-factual_fingerprint: 52fa33f6fd0e14f224302dbe4f1a94c9d58d95bf204f71027597b31fa5773562
+factual_fingerprint: 3943c47cb621c119026a1f8c372290933203fe678c70a294f57ce2d7d7f48841
 ---
 
 ---
@@ -11633,9 +12103,9 @@ source_job_id: 5066467
 title: Care Home Care Co-ordinator
 employer: Primary Healthcare Darlington
 region: North East
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0016-25-0024
-factual_fingerprint: 4629921b30fb94af68ef0d016e8c5fe2b928bbfa8435aa60d7f375667f942324
+factual_fingerprint: 4282dfd961ce642cca412e143dc8142c1de3efa32d6a0fcadec43c023f89d8a4
 ---
 
 ---
@@ -11645,9 +12115,9 @@ source_job_id: 5508950
 title: Chief Operating Officer
 employer: University Hospital Southampton NHS Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0631
-factual_fingerprint: d99f4fcf118aa4804549362dfccca9615bddbb065101f582a8688a24d09b3585
+factual_fingerprint: 57cee84a8a5107cb62cd7f2c83e2171002105e3e4c7785337354b884ed845963
 ---
 
 ---
@@ -11657,9 +12127,9 @@ source_job_id: 5510847
 title: Neighbourhood Team Care Coordinator
 employer: Folkestone Hythe and Rural PCN
 region: Kent
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5975-26-0007
-factual_fingerprint: 84f8dbecea1c1a756589c8473c906fdb956985a72280e9c6b4dfce4f0dbe6096
+factual_fingerprint: 575651d0c59ad91a3db98e698d9d5cdfb26d564eb9d71a33ae460e71ff675eed
 ---
 
 ---
@@ -11669,9 +12139,9 @@ source_job_id: 5506021
 title: Care Navigator
 employer: Eastgate Medical Group
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4063-26-0008
-factual_fingerprint: ec43d5bb62648503be4cebfeec8546b48e7bd7aa08d59243d6a91233b65d76d0
+factual_fingerprint: 76a3eb6dcb5d43b4f8559beaa216a742f8226df8b441741c9cea6d32f172f4ee
 ---
 
 ---
@@ -11681,9 +12151,9 @@ source_job_id: 5502862
 title: Senior Finance Officer
 employer: Eastgate Medical Group
 region: Yorkshire - East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4063-26-0007
-factual_fingerprint: 5f92426af4c7bf50f98854a0f2e71a873b8f6b167401056ab2e19fc0b11cb886
+factual_fingerprint: c85bcb13d056518d02590b78c50f05445029dfee8c79434d71b7f9237a8fdba1
 ---
 
 ---
@@ -11693,9 +12163,9 @@ source_job_id: 5506905
 title: Advanced Apprentice (Marketing and Communications)
 employer: Worcestershire Acute Hospitals NHS Trust
 region: Worcestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0593
-factual_fingerprint: 2ded2748dd54b6bd954b2e05d7bd1d598fdc9c4901ae47f221259017587dfe1a
+factual_fingerprint: c9380bd3ab7fd03b31f71f375ffd3676194367d302f66e16df07cc813142bb17
 ---
 
 ---
@@ -11705,9 +12175,9 @@ source_job_id: 5510545
 title: Chief Digital Information Officer
 employer: Great Ormond Street Hospital for Children NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Potential admin/service title: information officer
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0283
-factual_fingerprint: e9ab9e16a83d7da00d0f08c7b93eab39d4c5a59ae957943a308af218d9162828
+factual_fingerprint: 5ef1c1f976e86d22d8b011319c790d151de7154a137a28b148a2e9b738617d3a
 ---
 
 ---
@@ -11717,9 +12187,9 @@ source_job_id: 5510499
 title: NEPTS Control Team Leader - South East
 employer: Welsh Ambulance NHS Trust
 region: Wales South - Gwent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9020-26-0135
-factual_fingerprint: 5e057925b47c9ec776bbf27f71c445b3c1b0615e2471af9674fe0c3096d5bc73
+factual_fingerprint: 141d0767f3c7c9069321828675b1a22501ba4b7301c003ebc6373f8e0ae9f926
 ---
 
 ---
@@ -11729,9 +12199,9 @@ source_job_id: 5510285
 title: Patient Triage Advisor
 employer: InHealth Group
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0369
-factual_fingerprint: dcf36673ff909cf573e362008b4cf2dd98edb3f1b516e838e16ebe84fad9cdda
+factual_fingerprint: 4a3a064f535c73f0c7c4ad1bdc0b42ed396effc5244c481d96bf7ccfbba527d0
 ---
 
 ---
@@ -11741,9 +12211,9 @@ source_job_id: 5509943
 title: Clinical Systems Specialist
 employer: Alliance Medical Ltd
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0039
-factual_fingerprint: 5fcd0b85a745314df1e2b1d8dd161ae397c1f3ea7aa2e66fe932638354c010fc
+factual_fingerprint: 41b9300dc82b90c84195de45cab9094b414743c64db77a60ae9b1aba5f9c8a29
 ---
 
 ---
@@ -11753,9 +12223,9 @@ source_job_id: 5506436
 title: Operational Lead- CAMHS Eating Disorders (Maternity Cover)
 employer: Oxford Health NHS Trust
 region: Buckinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-0892
-factual_fingerprint: c4ee566f4592c1bc07468d623b17c18fd0985c42be64e96ead0ef0453455c51b
+factual_fingerprint: 3bc8c063fc243a572679915722a07fa084882d7beb8165d7cdaeffd6d10f8654
 ---
 
 ---
@@ -11765,9 +12235,9 @@ source_job_id: 5507094
 title: Business Practitioner Apprentice
 employer: Northumbria Healthcare NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0632
-factual_fingerprint: 5c10f221db102cde2e1847b246ed04df84ae1d0acdeb98e364e7da8170bd8eef
+factual_fingerprint: fe1973b642a3bb3491c4fc71143e6866626e94c564d2aea055442e1b54c82767
 ---
 
 ---
@@ -11777,9 +12247,9 @@ source_job_id: 5506514
 title: Business Practitioner Apprentice
 employer: Northumbria Healthcare NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0618
-factual_fingerprint: 2ff9a65b26a23af9790cdac20e59b866e46a632e674dd7a6984cee2b35818050
+factual_fingerprint: 815627a7a07d3ef2e85a8a4de6a101f7c35f8142b676b8ca35fb61a2248b2b2f
 ---
 
 ---
@@ -11789,9 +12259,9 @@ source_job_id: 5507741
 title: Care Coordinator
 employer: Agincare
 region: Worcestershire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1312
-factual_fingerprint: e71758408f575eef02ba12fe4c7322627175f8e37c21f901d4b047063b3194de
+factual_fingerprint: 9cf3ee9687d907b4886f7c299a36b49624a284027d1e7ec3b353751df542ddcb
 ---
 
 ---
@@ -11801,9 +12271,9 @@ source_job_id: 5506416
 title: NHS Business Services Practitioner Apprenticeship
 employer: Northumbria Healthcare NHS Foundation Trust
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0617
-factual_fingerprint: c4caabf16a5558665c8c100d2461edb4da48ac76db4310969b36c9d84811f709
+factual_fingerprint: 59ded76765b5ec2fbc26a5fc8af052c10ed9c0297dba9a78084c12efc59bd2bc
 ---
 
 ---
@@ -11813,9 +12283,9 @@ source_job_id: 5508091
 title: Oral Health Promotion Advisor
 employer: North Tees & Hartlepool NHS Foundation Trust
 region: North East - Tees Valley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0296
-factual_fingerprint: dbb201b3d2cc64415a1f95eb4145b59b9130e684b41a088ab35ebb5e5a3b67dc
+factual_fingerprint: 25c4495c0fc487c296eecc54ca41ddfe3a3169db6865bc95efc9ef5b1ad98d04
 ---
 
 ---
@@ -11825,9 +12295,9 @@ source_job_id: 5508288
 title: Patient Services Co-ordinator
 employer: Bersted Green Surgery
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0614-26-0008
-factual_fingerprint: cb723d74a2e9fa33ebba1976fd6461a955ac07b2d587ffe5983d18b4d9b3a5f1
+factual_fingerprint: 1724cb29ae959f9b998f32253511e1192b5b116e1b016b122ca442c95fed57c6
 ---
 
 ---
@@ -11837,9 +12307,9 @@ source_job_id: 5508300
 title: Systems Operations Team Lead
 employer: University Hospitals Plymouth NHS Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9216-26-1263
-factual_fingerprint: 2f38140fd7870b70486810e8bb3ee459be213285f4c236091daa3fd3b4b2ac2d
+factual_fingerprint: 6363409005f9081755c377ddea0c0fade74a95b7dcbc3f3795fb892d1673dd6f
 ---
 
 ---
@@ -11849,9 +12319,9 @@ source_job_id: 5507490
 title: Lincoln Procurement & Supply Chain Assistant- Band 3
 employer: United Lincolnshire Hospitals NHS Trust
 region: Lincolnshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0277
-factual_fingerprint: 8d3ab9fd57c33064b5449ce566ee3942a930b6ccdf4a2f37e000082887479b9a
+factual_fingerprint: 322da53a143c2922b607404b2184b9853457a7a000d62678152fc8206c85f311
 ---
 
 ---
@@ -11861,9 +12331,9 @@ source_job_id: 5507866
 title: Medical Admin Co-ordinator
 employer: The Roxton Practice
 region: Lincolnshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0050-26-0007
-factual_fingerprint: 603c00df961d2e0aacd8fa1a617504ffb72d07bb2c34cc2586395c76b552ed2f
+factual_fingerprint: fc60e451f5913429e5e894fbacf77beb813a554ae2a718934f5abc54198591fd
 ---
 
 ---
@@ -11873,9 +12343,9 @@ source_job_id: 5507468
 title: Patient Coordinator
 employer: The Parchmore Group
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3667-26-0009
-factual_fingerprint: 2511db32d8996c2a908451c8bf661c3c792697c9c387c4b9fdec4123702900fd
+factual_fingerprint: 570cb6131935c7811cb95693cd3a423d0c84064b977dfd0975b332ea596d25d9
 ---
 
 ---
@@ -11885,9 +12355,9 @@ source_job_id: 5507299
 title: Capital Projects & Mobilisation Coordinator
 employer: InHealth Group
 region: Buckinghamshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0365
-factual_fingerprint: 64f82938ad8ee89f3f673f4fd1107f3d4e951ed2e7338adb4a19b7a71226743e
+factual_fingerprint: 9df58780a8d1550f3118d026f5fd42ba6087418efc4bdd9c3ce5edcac8954197
 ---
 
 ---
@@ -11897,9 +12367,9 @@ source_job_id: 5506816
 title: Life Sciences Hub Engagement and Delivery Lead
 employer: Imperial College Healthcare NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-0854
-factual_fingerprint: aa5539d67539868683b8a7f825dc29793e1888a8083aa2c7c3896ac40b636417
+factual_fingerprint: 7a5c3322fb1cebdf9b02b9aeb4c57703072efabd2c1998f7beba24473bc7d552
 ---
 
 ---
@@ -11909,9 +12379,9 @@ source_job_id: 5506630
 title: Medical Examiner Officer Lead
 employer: George Eliot Hospital NHS Trust
 region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9230-26-0239
-factual_fingerprint: a90ff991815ac0308ee1f7a04aa71d97f0d6b3d6c7318ee964d3212f58255655
+factual_fingerprint: 8242e6d0c4b8b259907b1bc7ed357c30585019901bb7843c9e3a3e58cec573dd
 ---
 
 ---
@@ -11921,9 +12391,9 @@ source_job_id: 5489474
 title: Prescriptions Clerk
 employer: The Park Surgery
 region: Kent
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2757-26-0006
-factual_fingerprint: d9bb79a4133cd175a8d5ff139f1d91785fabf74478ceebed41ace88d6c306c66
+factual_fingerprint: 2af6dbaa8b85d3a2a39695b0447bb0b5a3fa9d9b54a35b2218e86e40acaebb00
 ---
 
 ---
@@ -11933,9 +12403,9 @@ source_job_id: 5506234
 title: IPS Employment Specialists
 employer: Tees Esk and Wear Valleys NHS Foundation Trust
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0893
-factual_fingerprint: 708c411c7ba7458db925d00dc2e077c2d2401b3461f14a2776a8e4d01f8e027d
+factual_fingerprint: ad5c269e43b896ce20965e639301d8be2878d319f9d715936f1a2e38db8c01fb
 ---
 
 ---
@@ -11945,9 +12415,9 @@ source_job_id: 5505413
 title: Medical Secretary
 employer: Hilary Cottage Surgery
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0469-26-0011
-factual_fingerprint: 258420c7ce36b7155af56e0d1d587cbb7c6988b2b997acf9cbebb06a3ccce633
+factual_fingerprint: ea8ed1d4847b519ac76f6fa78550aae87b57eeb27a40470371e0448b7dc38aaa
 ---
 
 ---
@@ -11957,9 +12427,9 @@ source_job_id: 5505154
 title: Medical Secretary
 employer: Gloucestershire Health and Care NHS Foundation Trust
 region: Gloucestershire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0638
-factual_fingerprint: ddca34f9e052ac9e4d46f8fee412ce0d705fbac23f44470d70530891b7e7ec26
+factual_fingerprint: c033c866ee7e6dd57f07968fd8f4108a719b1ed894bec92d5b8c1388cf3afd0c
 ---
 
 ---
@@ -11969,9 +12439,9 @@ source_job_id: 5504855
 title: Management Accounts Assistant
 employer: Tameside and Glossop Integrated Care NHS Foundation Trust
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0315
-factual_fingerprint: 555e697a69f76fe5978454eeb9897b31d5b951cdf541725d9090c8fa419e2010
+factual_fingerprint: 7fc4b507cb8d152f2cdeabc493dca67b6c729f40bec41db04b78069465febe6f
 ---
 
 ---
@@ -11981,9 +12451,9 @@ source_job_id: 5504229
 title: Principal Data Architect
 employer: NHS England
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0515
-factual_fingerprint: a9e7392b4aca6ef4ff16c1e1f6d843bea0357dfb14f19045a9a895fec42715f1
+factual_fingerprint: 87e2d424196e22b42c9164fa49b305d2c56ce44d7949ee798f084a8f167723ad
 ---
 
 ---
@@ -11993,9 +12463,9 @@ source_job_id: 5503666
 title: Patient Services Supervisor
 employer: Churchmere Medical Group
 region: Shropshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0901-26-0011
-factual_fingerprint: a00dc384aefc123c99136deb873b4f41e1a8d55da8a8148320b57cc3d15eda9c
+factual_fingerprint: d5d9fd14086bbfe9d213ae55cc55b0de4e5f904961915466db7bbe1517dc6112
 ---
 
 ---
@@ -12005,9 +12475,9 @@ source_job_id: 5503529
 title: Clinical Assistant
 employer: InHealth Group
 region: Greater Manchester - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0035-26-0363
-factual_fingerprint: 962dbb2b0b62abf5c74509f4627130c9296b3cc6618deae23cccae3884c6c6e6
+factual_fingerprint: 363165f632f6cbe8c24fde2a2e3801964509983987d2d7a999c012c62a13a743
 ---
 
 ---
@@ -12017,9 +12487,9 @@ source_job_id: 5503373
 title: Deputy Chief People Officer
 employer: Hampshire Hospitals NHS Foundation Trust
 region: Hampshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0547
-factual_fingerprint: f7033fa417b389ecbe3ee94e91d140869ea4b99d09e9052155622e087aa8c104
+factual_fingerprint: fbfa37b7249cf332b0c6665e1464e7dc4fcd1ea7816d8f824cd092c21a09f3b4
 ---
 
 ---
@@ -12029,9 +12499,9 @@ source_job_id: 5417057
 title: PCN CARE COORDINATOR
 employer: ZETLAND MEDICAL PRACTICE
 region: North East - Tees Valley
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0659-26-0005
-factual_fingerprint: d0bc8ca138e0ca6dc28ef5b2c318b63b029164eb930c40cb3cfe90af7ed7f994
+factual_fingerprint: 814317af353ca98931c2cc8453c4b6f0a95ae94b9b5fa49ebff0c0950fd081fd
 ---
 
 ---
@@ -12041,9 +12511,9 @@ source_job_id: 5503140
 title: Operational Trainer
 employer: Barchester Healthcare
 region: North Scotland
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8134
-factual_fingerprint: b117c4a93e5e2e893a3a560e4a50bd2af687f9476e36e06ddd1167875901ab0d
+factual_fingerprint: 5221a853065ec7a7f2fe430e9d203714fca59a44a8d906bb08a56a6a5985c212
 ---
 
 ---
@@ -12053,9 +12523,9 @@ source_job_id: 5502957
 title: Reception Supervisor
 employer: Larksfield and Arlesey Medical Partnership
 region: Hertfordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0024
-factual_fingerprint: 148f1532df6b2a0d2b3777c049b48cc5898303c535033dfc4295e65b93d4045f
+factual_fingerprint: 5def8f6327e8735d0fbe0536af02f5df5c743c19be3db41d634aa2710057d8a8
 ---
 
 ---
@@ -12065,9 +12535,9 @@ source_job_id: 5500866
 title: Discharge Navigator
 employer: Croydon Health Services NHS Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-26-0262
-factual_fingerprint: b8e22143a736b72ba133957b9ce72c2dba704d3cd6f39482d44fbe3f08096bf0
+factual_fingerprint: 2a8fe073bedde812b41e47caba96e39e31919209d8d0666ad51325739b035a3f
 ---
 
 ---
@@ -12077,9 +12547,9 @@ source_job_id: 5502572
 title: Patient Assistant
 employer: Vine Surgery Partnership
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0003
-factual_fingerprint: 904ec387fe8309409b07a9297dcb7c4b8d2bc5fe5b310cab9b6991ee265a16d0
+factual_fingerprint: 24802b3144cc5de02b6bdb0784629ca2caa419277340ff943daf09247deffaf8
 ---
 
 ---
@@ -12089,9 +12559,9 @@ source_job_id: 5501781
 title: Referral Coordinator
 employer: Isabellas Homes
 region: West Midlands - Black Country
-reason: BRIDGEABLE: Potential admin/service title: coordinator, referral
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0055-26-0018
-factual_fingerprint: c2d816099fbc7d014aa36b8889ad0d7d5b3f9b8211396392ee3d7b3d7f0fca2c
+factual_fingerprint: 4e6581abc1c3e45df5f11b1cff850db8a1c55a5586b8f9a78ef704069feebdfc
 ---
 
 ---
@@ -12101,9 +12571,9 @@ source_job_id: 5500913
 title: Deputy Head
 employer: North London NHS Foundation Trust
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9455-26-0517
-factual_fingerprint: f0e26de93589a2fc61a2a89a1e8849c7d8ab873e986eaa5e48f85eb27953c398
+factual_fingerprint: 2b348a0bef312a8c3267e8b415270cab5cf49c5306fe1cf744865b6207c2dd00
 ---
 
 ---
@@ -12113,9 +12583,9 @@ source_job_id: 5500723
 title: People Coordinator
 employer: Taurus Healthcare Limited
 region: Herefordshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/S0001-26-0067
-factual_fingerprint: a1458af4989d14419f223481672344955c82ecef057e115c52510cb3dc582351
+factual_fingerprint: 47b8c6f7e5fb364507c83adc8bc6810ce5b77a5303b3891cc864b29d6c209171
 ---
 
 ---
@@ -12125,9 +12595,9 @@ source_job_id: 5499625
 title: Care Navigator
 employer: The Grove Medical Practice
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1750-26-0001
-factual_fingerprint: 614cc3835a047b0f99e842c5dfefe6894417e67ab54ec82d4de9dbbc1770d402
+factual_fingerprint: 82128f2500ec8fb82723ae8af4635d23b5e00dd64bb9a133c6666637da6ae24b
 ---
 
 ---
@@ -12137,9 +12607,9 @@ source_job_id: 5500627
 title: Dispenser
 employer: Kingswell Surgery
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1125-26-0004
-factual_fingerprint: 7c08218e20c389cdfe9748ac38e4a56b65741a80e060785cf2b7afabdaff437f
+factual_fingerprint: ebdff2323fc90e6866ba1279ff41dc4b095efc6aeeaad44f0bcb6745cec1087c
 ---
 
 ---
@@ -12149,9 +12619,9 @@ source_job_id: 5500281
 title: Operational Trainer
 employer: Barchester Healthcare
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8081
-factual_fingerprint: c134cbe0e7bccc9825057f3c769ab2cac31e6da74a0e7141eebf09d01410fdc8
+factual_fingerprint: 39437ed3884cf8053855a62607aab629e64f70e12f52770f04723c4a34b8bf97
 ---
 
 ---
@@ -12161,9 +12631,9 @@ source_job_id: 5500280
 title: Operational Trainer
 employer: Barchester Healthcare
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8080
-factual_fingerprint: e4a49fd79f0c0230ea3a1f1aa7e8abbb5786d5c268a6d89f5b8bc4b8ca5a3115
+factual_fingerprint: 339fa66749667b4650e1df2d722c1a4aca105cd9030f5ff14f056cf5a044bff3
 ---
 
 ---
@@ -12173,9 +12643,9 @@ source_job_id: 5499718
 title: Care Navigator
 employer: Bedford Street Surgery
 region: Buckinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3072-26-0004
-factual_fingerprint: c89b05326f93052e62b63b94bfb3f40b70ec2aaaff672da7b915e2b57633bcc0
+factual_fingerprint: 911a9f2c5a674eba2fad724c6d5be675be57c6d4119b64b1bcba2081ea56db64
 ---
 
 ---
@@ -12185,9 +12655,9 @@ source_job_id: 5482027
 title: IDWG's Plastic, Reconstructive and Aesthetic Surgery EAG
 employer: Medicines and Healthcare Products Regulatory Agency
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K0015-PRASEAG26-2
-factual_fingerprint: f7804b51663c03151cb03713c5a40b7f34da68192804f6960412d54b060e99ba
+factual_fingerprint: 6df7807571d0db9e1419280a708c9ee89254d90323fd51c084c30168a7a6936b
 ---
 
 ---
@@ -12197,9 +12667,9 @@ source_job_id: 5497742
 title: Communications Officer
 employer: Havens Hospices
 region: Essex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0402-26-0008
-factual_fingerprint: 0e51e5fa88d3b171bd56063247b03e5d92f5339fb47123203f92683035a2cf23
+factual_fingerprint: fce81401d19eed3cd8c65a7c86091280c5f27d6ced8e8385d57a9c920b721cf6
 ---
 
 ---
@@ -12209,9 +12679,9 @@ source_job_id: 5496499
 title: Divisional Activities Lead - Central Division
 employer: Barchester Healthcare
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8017
-factual_fingerprint: 3be298d8990150f021c08f0c1bbafa6db728fe217f9510293bb0c34c3af075f0
+factual_fingerprint: aee1391621cd3f84f8df9c666d27dafd073952a032cbd73d4914297bcc5d01b9
 ---
 
 ---
@@ -12221,9 +12691,9 @@ source_job_id: 5496498
 title: Divisional Activities Lead - Central Division
 employer: Barchester Healthcare
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8016
-factual_fingerprint: ef556207294414d69dd26dca6ce7e96a061d4ed5b099fd8d59424dd5d7a93f79
+factual_fingerprint: d4b090099c9f98c39442656b7509b47bca9b7198210e594551b414de5308a241
 ---
 
 ---
@@ -12233,9 +12703,9 @@ source_job_id: 5496496
 title: Divisional Activities Lead - Central Division
 employer: Barchester Healthcare
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8015
-factual_fingerprint: f76fd291db6a89ce0e3abf5d691b656358e4d937f1cef4d3d836ee40aa7dbd8d
+factual_fingerprint: cc976b7e4450e9bc422f96b2bce202d2a808c9fd02444c118a1ec1a335c7bb5d
 ---
 
 ---
@@ -12245,9 +12715,9 @@ source_job_id: 5496495
 title: Divisional Activities Lead - Central Division
 employer: Barchester Healthcare
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8014
-factual_fingerprint: 1a53a04ebac2bbb80fdf00cc55407c993f432d313f2f9c21b3059f0949078a53
+factual_fingerprint: c7d926e901f2b389bea7e36f6b9afd48a23c6f7ef48abbff3b0658b9039390ae
 ---
 
 ---
@@ -12257,9 +12727,9 @@ source_job_id: 5496476
 title: Divisional Activities Lead - Central Division
 employer: Barchester Healthcare
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8007
-factual_fingerprint: c57302807b71b3314056347da562726707b167ae7ab63cbe2c8162e2b506f0b5
+factual_fingerprint: c41a508d3aafdcc9252c682bd0c8d0638be6de959e78e3f7c91e83c80e1b440e
 ---
 
 ---
@@ -12269,9 +12739,9 @@ source_job_id: 5494546
 title: Deputy Chief Finance Officer
 employer: NHS South Yorkshire Integrated Care Board
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9133-26-1090
-factual_fingerprint: 0c2f15bcf151839ebc8171d381967289d3a90fde1466286ab4e8ca6a14bdcc7d
+factual_fingerprint: fb47e4aff761061318a8324d92ab9171f555a553c8fb2c2ab04d85a96e1a022b
 ---
 
 ---
@@ -12281,9 +12751,9 @@ source_job_id: 5496827
 title: Pastoral Care Officer to ReSTORE programme
 employer: Primary Care Doncaster Ltd
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0011-26-0008
-factual_fingerprint: 4bc63763929baabb1d1ef277c8ba2ec9f14d04b1a1b962e4e210183aefbb084d
+factual_fingerprint: 11f58cb369ca5489b1c8a3c30fd3f3e80baecb5b9bbd486a3e5010fd916916d4
 ---
 
 ---
@@ -12293,9 +12763,9 @@ source_job_id: 5496805
 title: Senior IT System Specialist / Architect
 employer: Countess of Chester Hospital NHS Foundation Trust
 region: Cheshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0320
-factual_fingerprint: 17af17d36e97e2a4d81ff00f98a8305b20b4916d16b48afdcd53aae5ad88410d
+factual_fingerprint: 638fee296125d565a9060dec9fa2c11014f9abba910b42e12ef973ec8f80bc7d
 ---
 
 ---
@@ -12305,9 +12775,9 @@ source_job_id: 5496159
 title: Patient Services Advisor
 employer: Horder Healthcare
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0237-26-0069
-factual_fingerprint: d2e7766c481417094c633fd40d9169bcad1693f4f626d41bc1b7fbb796f9e128
+factual_fingerprint: be4cb58c9d3ca758c6e85c4ed42ad1138b093f8639611e0a6e724c34c54b26c1
 ---
 
 ---
@@ -12317,9 +12787,9 @@ source_job_id: 5496010
 title: Guest Services Assistant
 employer: Horder Healthcare
 region: Sussex
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0237-26-0067
-factual_fingerprint: c0627ebf4cc348709794164ad5348ef685ccb8fce38599ab908da88990814860
+factual_fingerprint: 20969c76722489cad00411d1c1efa5726f1ebd42d8f7e0328ebe346bfb275da3
 ---
 
 ---
@@ -12329,9 +12799,9 @@ source_job_id: 5495855
 title: Qualified Dispenser
 employer: Brampton Medical Practice
 region: Cumbria - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2826-26-0021
-factual_fingerprint: 0c84b15af70449f438ad43d943b12c83d8ec30f92b9f03fa26091342b094e9ae
+factual_fingerprint: 9ee9c2dfc6d420825a4b4ac89250985037c53d333de025fcddf4ae1472d93811
 ---
 
 ---
@@ -12341,9 +12811,9 @@ source_job_id: 5495490
 title: PCN Care Coordinator
 employer: East Croydon Medical Centre
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0433-26-0012
-factual_fingerprint: 936508fb04541735846931dbfeb86c506b371dc96d750601e7b0cd30a06f693a
+factual_fingerprint: e5a391187d51c97b822c65b11cd3444287a2266ab2ac339cee847361ca5cb2af
 ---
 
 ---
@@ -12353,9 +12823,9 @@ source_job_id: 5494119
 title: Chief Executive Officer (CEO)
 employer: General Practice Alliance Ltd
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1341-26-0003
-factual_fingerprint: 060919d94ad9e81ceebced93f234f3b693c6eee2a307f7fe0bc93d247284e57f
+factual_fingerprint: 85e9b3917b54f2317d24b9565e1d26e3132b516fcd586bc2b24895083862f4be
 ---
 
 ---
@@ -12365,9 +12835,9 @@ source_job_id: 5493383
 title: General Practice Assistant (GPA)
 employer: CUMBERLAND HOUSE
 region: Staffordshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0374-26-0007
-factual_fingerprint: 75df77db4049877009e2cf18767c423310320ffd6dbe0a0c763004824e5cbeea
+factual_fingerprint: 345b3d15dff8d78ae6eb98cc373b42ad8b094895a0bc8fab0a63922f41848e57
 ---
 
 ---
@@ -12377,9 +12847,9 @@ source_job_id: 5493034
 title: Practice Supervisor
 employer: Park House Medical Centre
 region: Nottinghamshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0009
-factual_fingerprint: a4aeb3eb2a0a6aa53382f1ca6570cd519deda19a24ca0eccfa8a5430a67b3b7b
+factual_fingerprint: a92c02d802b5ae33ae78c8014409cda80cfa2f5275b990da2e13930b716258e8
 ---
 
 ---
@@ -12389,9 +12859,9 @@ source_job_id: 5492032
 title: Sales Ledger Clerk
 employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0789
-factual_fingerprint: 2b6fd43174b7fbc89e59a5ddf3f5b01369d359cb1edfea0ae92e52393a627b19
+factual_fingerprint: 91763e6e4d2cdc175db4ea283170c075261d956b144e35453c9845dfca483fbb
 ---
 
 ---
@@ -12401,9 +12871,9 @@ source_job_id: 5491350
 title: Surgical Operations and Development Lead
 employer: The Deepings Practice
 region: Cambridgeshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2501-26-0002
-factual_fingerprint: 63fbff6660d2a569bbf3bd98acf5af1446cd9f83bfd710c3edcfd22819b9df31
+factual_fingerprint: 9fdb63aa8470ba089be6b93addf5429f0ed29968affe6c88b50cf8f0eac05ec6
 ---
 
 ---
@@ -12413,9 +12883,9 @@ source_job_id: 5491341
 title: Peripatetic Home Services Advisor
 employer: Barchester Healthcare
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-7915
-factual_fingerprint: ede96f3b25db454bb34e66f1b884623ffeec965dcdc67bdc136c884812b2e619
+factual_fingerprint: db535f5d371020a46844eb8dabae8147648f29eacc468b491f124381b19c56f0
 ---
 
 ---
@@ -12425,9 +12895,9 @@ source_job_id: 5491340
 title: Peripatetic Home Services Advisor
 employer: Barchester Healthcare
 region: Northamptonshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-7914
-factual_fingerprint: 208b86fcbc2345b32693d349afe83dacb9b187dbc4205045e6988beccabad69e
+factual_fingerprint: a10f4ee2d39e33e5e86fb951d183d612bd9a767a6b16baf4b46c6633c51737e0
 ---
 
 ---
@@ -12437,9 +12907,9 @@ source_job_id: 5489419
 title: Finance Assistant
 employer: Kiltearn Medical Centre
 region: Cheshire - East
-reason: BRIDGEABLE: Potential admin/service title: finance assistant
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1963-26-0005
-factual_fingerprint: 242b31a59d0d7e57a34f440c8e3079de713d30418c773933e8841e5a3e8df114
+factual_fingerprint: e9f7f69e8a9712425cbe9af36abf04ebbf75feb9fe0a736e230b32a6b3c84c38
 ---
 
 ---
@@ -12449,9 +12919,9 @@ source_job_id: 5489228
 title: Care Navigator - Bank
 employer: Mowbray House Surgery
 region: Yorkshire - North
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3150-26-0013
-factual_fingerprint: 3875b79a5e982624606b74d973ef39dd794c0080e609204ca71f1d68f3d92ba5
+factual_fingerprint: 86d6554c83bdeef1a4b47a899c823eac3fb8408251b605f9dde7f042abb2f192
 ---
 
 ---
@@ -12461,9 +12931,9 @@ source_job_id: 5488509
 title: PATIENT CARE NAVIGATOR
 employer: Godolphin Health
 region: Cornwall
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2721-26-0008
-factual_fingerprint: 6e55a7b96ecad122faa7a7dda4b51bc25ccd674a5a00ecc6c82f68bec5afa7f2
+factual_fingerprint: e8e2658c4dc2ba543a32adfb6030335761ff439efce7bfe6f7b7e80c003dee28
 ---
 
 ---
@@ -12473,9 +12943,9 @@ source_job_id: 5488392
 title: Chair of BEMS Council
 employer: Banes Enhanced Medical Services Ltd (BEMS)
 region: Somerset
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0063-26-0001
-factual_fingerprint: 17c58cb5c70c3c1ef5511412bb5cbbb07fe2379babb0e83f288112a908fa83a7
+factual_fingerprint: 0779d0008792be0e09f837bfaa8ea75b0f793f182499bb8862b1b13cbb469cef
 ---
 
 ---
@@ -12485,9 +12955,9 @@ source_job_id: 5488020
 title: Medical Secretary - Maternity Cover
 employer: Elysium Healthcare
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1586
-factual_fingerprint: 6d4c357baeeeb4994b0fc52f2e9f7332cb586732813dc7dd5e30c68e61e1aaaa
+factual_fingerprint: c8a819129b424f3ff228b747107609d8d1373562d1345766546a9bf9ddd6ef45
 ---
 
 ---
@@ -12497,9 +12967,9 @@ source_job_id: 5475066
 title: Estates Officer (Specialist CAFM)
 employer: Devon Partnership NHS Trust
 region: Devon
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0098
-factual_fingerprint: f401315ff7a3e9512061ca922d7bfb24199438bd8bb65fa10145c28b8f397c6c
+factual_fingerprint: 3d2cf1d19166024a183bdb9e18d36e446798baa6c2033d10a142b9765fd7152c
 ---
 
 ---
@@ -12509,9 +12979,9 @@ source_job_id: 5487472
 title: Call Handler NHS - Patient Triage
 employer: Penrose Health
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0044
-factual_fingerprint: be037b2af14c4906190be94ef76f4e925321abb06a2a433df5f45c578b271bc2
+factual_fingerprint: b74ee18675f43e498be8d40e98f6efc14f30b16323a67c4a106d411099e87425
 ---
 
 ---
@@ -12521,9 +12991,9 @@ source_job_id: 5487376
 title: Call Handler NHS - Patient Recall
 employer: Penrose Health
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0043
-factual_fingerprint: bba5a2afe6f5317432dbd50d351b618317955a684a9ef9d5b9f9323882f8a287
+factual_fingerprint: 2dfa66b9661c7183bced05bf0c0f3792c84820b2387d87feba3517d70b3c57fb
 ---
 
 ---
@@ -12533,9 +13003,9 @@ source_job_id: 5486282
 title: Care Co-ordinator
 employer: Helix Medical Centre
 region: 
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2125-26-0004
-factual_fingerprint: 9131d1c6f72fe487ddf9f096c1df426058b1face232ddb3dc5badd87eff0753f
+factual_fingerprint: 368e015442741318e7939cdb292750ad3e534d6762524599589ebb4aaded2b1c
 ---
 
 ---
@@ -12545,9 +13015,9 @@ source_job_id: 5485944
 title: Medical Secretary / Reception Support
 employer: Helix Medical Centre
 region: Hertfordshire
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2125-26-0003
-factual_fingerprint: 4113d7bcd0bf11cca982b5decf6bfadc6fc5d4f235c588e25968e96f471ffbed
+factual_fingerprint: dd481e9013192c63a19932da3285bdfcec4e998aa01e85f5ea1321fce5c18aa9
 ---
 
 ---
@@ -12557,9 +13027,9 @@ source_job_id: 5430238
 title: Training Co-Ordinator
 employer: Enviva Complex Care
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: co-ordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0456-26-0220
-factual_fingerprint: f81ac801a3347b5dfac6a07706f585d9e42625dc5e98319c5c2b84fcd0540f08
+factual_fingerprint: 3c0a02a61e010ad747e035ebe86177242819cbac01bde6cf5a24380242b017e6
 ---
 
 ---
@@ -12569,9 +13039,9 @@ source_job_id: 5438026
 title: Care Coordinator
 employer: Enviva Complex Care
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0456-26-0230
-factual_fingerprint: 069d4cf7ee8a859a8745b647f98d1516a4688204292e1f356e918a3c68feacd9
+factual_fingerprint: ea996de62b6ac9a1bb6ef543cbc9f697e54ccaf166d7398cc039e2b710e18156
 ---
 
 ---
@@ -12581,9 +13051,9 @@ source_job_id: 5467897
 title: Senior Care Coordinator
 employer: Enviva Complex Care
 region: Berkshire
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0456-26-0243
-factual_fingerprint: e6b8fbe04c54601c278c1534481fb167612577efcf8c1a89cceda0d658efd3b9
+factual_fingerprint: f2d80ff60f8fe8ea4a5d907b56dfb5c5c20cf49b96c6732dd446e07e57eacbf7
 ---
 
 ---
@@ -12593,9 +13063,9 @@ source_job_id: 5482206
 title: Administration Officer - HMP Northumberland
 employer: Spectrum Community Health CIC
 region: North East
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0231
-factual_fingerprint: 56fc2ebd98351b2bcf5e86bc44141971761111384ef4091ca17abf49cf373de1
+factual_fingerprint: 8a8855f526dbb478ee3487f8b23577d44d174caf5d613c181ba04a68d40c6194
 ---
 
 ---
@@ -12605,9 +13075,9 @@ source_job_id: 5480351
 title: Welsh Language Translator
 employer: NHS Wales Shared Services Partnership
 region: Wales South - Cardiff & Vale
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0181
-factual_fingerprint: eda6a1183d810cd3206911741176378a3c3ad0b3ee30e94d24bf1fb1849d5d56
+factual_fingerprint: 033138fc95530b423057fbf36bd79d9c5247235e145408e20d1e8166f4bce776
 ---
 
 ---
@@ -12617,9 +13087,9 @@ source_job_id: 5477851
 title: Operational Trainer
 employer: Barchester Healthcare
 region: Gloucestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-7670
-factual_fingerprint: 25769a64278f0789a16b4190598e6c27e45fa8a0e7420fd9321703500b867b67
+factual_fingerprint: 5bc13794beffa9a31f3208cea8981e6b06034a43b077187f117786b50844d0cc
 ---
 
 ---
@@ -12629,9 +13099,9 @@ source_job_id: 5476801
 title: Care Navigator
 employer: Maybush Medical Centre
 region: Yorkshire - West
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1395-26-0000
-factual_fingerprint: 04dce42bec14900f7a975c4722dfa07cb71a52fa64da34dfdacbd9bc761ec70d
+factual_fingerprint: 03a2d09ce5e23db8eecf780be4e62a4c7bb485f88acbad5f0d0111f7f51050c7
 ---
 
 ---
@@ -12641,9 +13111,9 @@ source_job_id: 5470232
 title: Practice Operations Lead
 employer: Strouts Place Medical Centre
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4143-26-0005
-factual_fingerprint: c5cd2960c4c0ec76cea58c077ab218af97efa44348c5ad9d256ee4b2ae0063b5
+factual_fingerprint: c684f937fe1c3e28a09c68e7801ca61f056591849322c64d4155545c7af4d1ce
 ---
 
 ---
@@ -12653,9 +13123,9 @@ source_job_id: 5460596
 title: Care Coordinator in Primary Care Network
 employer: North Halifax Primary Care Network
 region: Yorkshire - West
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3735-26-0005
-factual_fingerprint: 7249de75241e9d6b13607bb74641f8861564f06b876a4783c4571bd056214b0a
+factual_fingerprint: 41d902e409691cbe3c8e33bce5cf7008bea3dadd6e2252685218bae96d48cc79
 ---
 
 ---
@@ -12665,9 +13135,9 @@ source_job_id: 5453816
 title: Patient Coordinator
 employer: CHEC
 region: Kent
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0123-26-0124
-factual_fingerprint: b4e337cac6b07aa3d422451473b84a26ba89ff4d4a27d2bc8318cbc19f59ae99
+factual_fingerprint: 28a6f18f3c62aad12d2757e1fc2344731aa86aaf153e2c608cef00b8a81db7fc
 ---
 
 ---
@@ -12677,9 +13147,9 @@ source_job_id: 5464687
 title: Clinical Coding Specialist
 employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
 region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0709
-factual_fingerprint: 9c2160db275b01bbdec02a34624388c515836b180690b44888d470f2056b4075
+factual_fingerprint: 3a539aeb95c85d63937d8f291940eb7b696211c50c4194516cca95e91186fcab
 ---
 
 ---
@@ -12689,9 +13159,9 @@ source_job_id: 5464409
 title: Pathology Results (Path Links) Team Lead
 employer: Penrose Health
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0033
-factual_fingerprint: 7b005aef73de5fecc6e9aec35edab8b31f11c92a9ad545a513b654a6c56fd3d5
+factual_fingerprint: 4c8dfc2c446c055ec7dd62cc17930592350646f94e4a3b3ed1edcd0832fbbfab
 ---
 
 ---
@@ -12701,9 +13171,9 @@ source_job_id: 5464410
 title: Medical Reports Team Lead
 employer: Penrose Health
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0034
-factual_fingerprint: dffcbc441d87a4a7d75cd1e17a9d817593a4cb4da768e85edcd23141d195bdfe
+factual_fingerprint: 78e11ce21bda81bf7b1e5c2376fe02df0fc45332e658be0199f3c7197c3da894
 ---
 
 ---
@@ -12713,9 +13183,9 @@ source_job_id: 5464412
 title: Document Assessment Team Lead
 employer: Penrose Health
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0035
-factual_fingerprint: a6e3524b257633b97325c5d26c760963b6db4f3866bc401822b39107a4852023
+factual_fingerprint: 6e1ca75db061dba5f59513dd955bd778dfa26f808bef3fea95ad117f37a7f23b
 ---
 
 ---
@@ -12725,9 +13195,9 @@ source_job_id: 5464407
 title: Referrals Team Lead
 employer: Penrose Health
 region: London
-reason: BRIDGEABLE: Potential admin/service title: referral
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0032
-factual_fingerprint: 96fa6e642aabf0ec581030811cc4428cc8fec17f28f53a826a53a7bc927abf4f
+factual_fingerprint: b6a85902e2993aaf603490c4d8e9b89a72629648dc7bd790900185a3ae67d7ee
 ---
 
 ---
@@ -12737,9 +13207,9 @@ source_job_id: 5460786
 title: Clinical Coding Trainer and Auditor
 employer: East Lancashire Hospitals NHS Trust
 region: Lancashire - Blackpool & Fylde
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0372
-factual_fingerprint: 732d369b04f48dea96789f58cb0dba21034f41d660a2eb8e4ab87a3dd741b84f
+factual_fingerprint: 672ec1b563bab6e66f059a66e04f667a6aaf90c6222761e6189f00b5209247f3
 ---
 
 ---
@@ -12749,9 +13219,9 @@ source_job_id: 5457561
 title: PCN Social Prescribing Link Worker
 employer: Waltham Forest Federated GP Network
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0116-26-0026
-factual_fingerprint: d9ae6bdcd95bc84ffd86087b7e91a3fde46613831e33d10b78716a9789212395
+factual_fingerprint: dd5826513445c5774ae51d53d42e46ca9d0cc65fae3544c8e20044893e774d78
 ---
 
 ---
@@ -12761,9 +13231,9 @@ source_job_id: 5449895
 title: Non-Executive Member
 employer: Norfolk and Suffolk Integrated Care Board
 region: 
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D0003-ICB013
-factual_fingerprint: a7b3689c99a7b955bf2b4aa5e6dd3e79f9ed033284ccaab956fbc344bab9317c
+factual_fingerprint: a12c43b05e57a7061d512edc48734f4b040a1ae498dfb64de9645fb4dc1373ab
 ---
 
 ---
@@ -12773,9 +13243,9 @@ source_job_id: 5454337
 title: PCN - Care Coordinator
 employer: Waltham Forest Federated GP Network
 region: London
-reason: BRIDGEABLE: Potential admin/service title: coordinator
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0116-26-0025
-factual_fingerprint: a18cef33ba13730c9c1f8fe98cb6d53f3af618b0f56d978f68d5eb3938f3ae0c
+factual_fingerprint: 8328dce5ac17b617cffc2125127544e1d890c1338f54084eb9fa7f894aae370b
 ---
 
 ---
@@ -12785,9 +13255,9 @@ source_job_id: 5436922
 title: Medical secretary 1 year fixed term full time
 employer: Horder Healthcare
 region: Sussex
-reason: BRIDGEABLE: Potential admin/service title: medical secretary
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0237-26-0047
-factual_fingerprint: 461eeddd6c89037a041a9a1a340ac1feb59b04ebc991d2d281fbca359bdbc30a
+factual_fingerprint: 6079eb72fff518e31ad72bde4e1a8c002223c0455be67e3994e4293d54a97b60
 ---
 
 ---
@@ -12797,9 +13267,9 @@ source_job_id: 5436599
 title: Spanish-Speaking Call Centre Agent
 employer: Vaccination UK
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0069
-factual_fingerprint: 8a1d3a4c5e1492362fc1e118ea7ea9948090835bbc7fb9839afcc2564dd3da48
+factual_fingerprint: 21a49c506c13db523977a42b1a3b42c188fe203bc90b5bd46a410689298895f0
 ---
 
 ---
@@ -12809,9 +13279,9 @@ source_job_id: 5436533
 title: Portuguese-Speaking Call Centre Agent
 employer: Vaccination UK
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0068
-factual_fingerprint: 79d3f476139256344ba5c331013291a971eed23b64850c047de048e91d4c6f74
+factual_fingerprint: d4eabe8982baedd830896e7ca4b457018270afe7a8802fbfffe9be4a1e3705fd
 ---
 
 ---
@@ -12821,9 +13291,9 @@ source_job_id: 5436470
 title: Turkish-Speaking Call Centre Agent - Haringey&Islington
 employer: Vaccination UK
 region: London
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0067
-factual_fingerprint: ee54df2ae36c905725e52bce97711fab7ec1da35b0c2937c7f2e531a6bc21926
+factual_fingerprint: 75d719f084c0f52266265531718422f59d4ccffb2e9623d0f64152392fc1ae88
 ---
 
 ---
@@ -12833,9 +13303,9 @@ source_job_id: 5380379
 title: Chaplaincy Volunteer
 employer: The Rotherham NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-0017
-factual_fingerprint: 09789beef51138938340ce60d54f36a2d848bc9ad5893eb26b3dfe9e918a2775
+factual_fingerprint: 89b18ee4295713f2909af0d980afde9bf608baa6e540f5db72d4f64300a440fd
 ---
 
 ---
@@ -12845,9 +13315,9 @@ source_job_id: 5380046
 title: Sunday Service Chaplaincy Volunteer
 employer: The Rotherham NHS Foundation Trust
 region: Yorkshire - South
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-0016
-factual_fingerprint: 4ebadd4d0ab1fba0a2d35d0dffb7db1c4b40c16a29d8f19d5bf3547b2e3bef24
+factual_fingerprint: 433012cc2bc3a464f989a354e2134831afbc8b38e633a1f28f780218f6ce97a8
 ---
 
 ---
@@ -12857,9 +13327,9 @@ source_job_id: 5244595
 title: ADHD Patient Liaison Officer
 employer: HealthHarmonie
 region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0025
-factual_fingerprint: da8fc92241db26b0147b2aa659b94a7efc2440a0f695171919f3573132667929
+factual_fingerprint: c57dabdecf88f4a83082684c0432e445263b23519ed77504a9854c4db16eb157
 ---
 
 ---
@@ -12869,9 +13339,9 @@ source_job_id: 5105471
 title: End Point Assessor Associate Ambulance Practitioner
 employer: FUTURE (AWARDS AND QUALIFICATIONS) LIMITED
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/N0081-26-0001
-factual_fingerprint: 4e8bcb38761349d3a2fe020f7dd67fbf1ac1e6fd9e4515a6a88506adae545f77
+factual_fingerprint: ef2f2f4fdb3c6e61207c3a0ef20f1817bac08777f8cafd92e24c7829f670b8ef
 ---
 
 ---
@@ -12881,9 +13351,9 @@ source_job_id: 5105450
 title: Ambulance Support Worker End Point Assessor
 employer: FUTURE (AWARDS AND QUALIFICATIONS) LIMITED
 region: Leicestershire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/N0081-26-0000
-factual_fingerprint: 4e25e5cb446ab88d84e7b9922aafaac564df328cd7b7d3816af832dac691767c
+factual_fingerprint: a4cff221467d0e6038b53caddd33b46cfd2057fd3fe759acd04802756a99fec2
 ---
 
 ---
@@ -12893,7 +13363,7 @@ source_job_id: 5051140
 title: Healthcare Assistant
 employer: HealthHarmonie
 region: Berkshire
-reason: BRIDGEABLE: Administrative & Clerical role requires title/context review
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-HCA-Reading
-factual_fingerprint: 2ba9bf9621d80d0c6092dc84e8fbf8458654ab181079542b7ca5d53a94c76132
+factual_fingerprint: c3222b4b7a73add32d37d51cff0636a7e9cbc6d27e10cd2b12205460e5714e35
 ---
