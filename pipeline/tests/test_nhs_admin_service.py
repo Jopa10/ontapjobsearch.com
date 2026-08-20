@@ -1,12 +1,8 @@
 from __future__ import annotations
 
-import csv
-import json
 from datetime import date
-from pathlib import Path
 
-import pytest
-
+from external_sources import nhs_admin_inventory as inventory
 from external_sources import nhs_admin_service as nhs
 
 TODAY = date(2026, 8, 20)
@@ -53,18 +49,16 @@ def test_selected_rows_require_same_day_live_and_open() -> None:
             "switchability": "OPEN_SWITCH",
         },
         {
-            **{
-                "review_date": TODAY.isoformat(),
-                "source_job_id": "2",
-                "title": "Administrator",
-                "employer": "Example Trust",
-                "location": "Leeds",
-                "region": "Yorkshire - West",
-                "apply_url": "https://example.test/2",
-                "closing_date": "2026-08-19",
-                "final_decision": "SELECTED",
-                "publish_eligible": "YES",
-            }
+            "review_date": TODAY.isoformat(),
+            "source_job_id": "2",
+            "title": "Administrator",
+            "employer": "Example Trust",
+            "location": "Leeds",
+            "region": "Yorkshire - West",
+            "apply_url": "https://example.test/2",
+            "closing_date": "2026-08-19",
+            "final_decision": "SELECTED",
+            "publish_eligible": "YES",
         },
     ]
     selected = nhs.selected_rows_for_composition(rows, today=TODAY)
@@ -84,3 +78,25 @@ def test_fingerprint_changes_when_material_facts_change() -> None:
     first = nhs.factual_fingerprint(row)
     second = nhs.factual_fingerprint({**row, "title": "Senior Administrator"})
     assert first != second
+
+
+def test_public_advert_description_extracts_summary_and_duties_only() -> None:
+    html = """
+    <html><body>
+      <h2>Job summary</h2>
+      <p>Help the service with day-to-day administration.</p>
+      <h3>Main duties of the job</h3>
+      <p>Manage bookings and answer patient queries.</p>
+      <ul><li>Maintain accurate records.</li></ul>
+      <h2>About us</h2>
+      <p>This employer boilerplate should not be copied.</p>
+      <h2>Person Specification</h2>
+      <p>This should not be copied either.</p>
+    </body></html>
+    """
+    description = inventory.extract_advert_description(html)
+    assert "day-to-day administration" in description
+    assert "Manage bookings" in description
+    assert "Maintain accurate records" in description
+    assert "employer boilerplate" not in description
+    assert "Person Specification" not in description
