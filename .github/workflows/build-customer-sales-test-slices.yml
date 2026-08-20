@@ -10,10 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout test branch
+      - name: Checkout Sales Advisor proof branch
         uses: actions/checkout@v4
         with:
-          ref: agent/customer-sales-family
+          ref: agent/sales-advisor-overlap-proof
           fetch-depth: 0
 
       - name: Set up Python
@@ -24,23 +24,30 @@ jobs:
       - name: Install dependencies
         run: pip install pandas openpyxl
 
-      - name: Refresh JobG8 and geo from main
+      - name: Refresh current feed, geo and Service Admin proof outputs from main
         run: |
+          git fetch origin main
           git show origin/main:pipeline/input/jobg8.xlsx > pipeline/input/jobg8.xlsx
           git show origin/main:pipeline/geo/geo_lookup.xlsx > pipeline/geo/geo_lookup.xlsx
+          git show origin/main:pipeline/output-admin-service/hampshire-admin-service.json > pipeline/output-admin-service/hampshire-admin-service.json
+          git show origin/main:pipeline/output-admin-service/manchester-salford-admin-service.json > pipeline/output-admin-service/manchester-salford-admin-service.json
+          git show origin/main:pipeline/output-admin-service/west-yorkshire-admin-service.json > pipeline/output-admin-service/west-yorkshire-admin-service.json
 
-      - name: Build Customer Sales test slices
+      - name: Run Sales Advisor three-region volume proof
         working-directory: pipeline
-        run: python scripts/customer_sales_test_pipeline.py
+        run: python scripts/sales_advisor_volume_proof.py
 
-      - name: Commit refreshed test outputs
+      - name: Commit diagnostic reports only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/output-customer-sales-test/*.json
+          git add -- \
+            pipeline/reports-daily/sales-advisor-volume-proof-summary.csv \
+            pipeline/reports-daily/sales-advisor-volume-proof-detail.csv \
+            pipeline/reports-daily/sales-advisor-volume-proof.md
           if git diff --cached --quiet; then
-            echo "No output changes to commit"
+            echo "No diagnostic report changes to commit"
           else
-            git commit -m "Refresh Customer Sales test slices"
-            git push origin HEAD:agent/customer-sales-family
+            git commit -m "Refresh Sales Advisor three-region volume proof"
+            git push origin HEAD:agent/sales-advisor-overlap-proof
           fi
