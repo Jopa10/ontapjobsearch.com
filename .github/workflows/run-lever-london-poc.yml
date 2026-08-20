@@ -1,0 +1,76 @@
+name: Run Lever London POC
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lever-london-poc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out selected branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install runtime packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Compile Lever POC
+        working-directory: pipeline
+        run: python -m py_compile external_sources/lever_london_poc.py
+
+      - name: Run review-only Lever London POC
+        working-directory: pipeline
+        run: |
+          python -m external_sources.lever_london_poc \
+            --review-csv /tmp/london-lever-review.csv \
+            --review-md /tmp/london-lever-summary.md
+
+      - name: Verify review output and live-site isolation
+        run: |
+          test -s /tmp/london-lever-review.csv
+          test -s /tmp/london-lever-summary.md
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          csv_path = Path('/tmp/london-lever-review.csv')
+          with csv_path.open(newline='', encoding='utf-8-sig') as handle:
+              reader = csv.DictReader(handle)
+              assert reader.fieldnames and reader.fieldnames[0] == 'final_decision', reader.fieldnames
+              rows = list(reader)
+
+          assert rows, 'Lever POC returned no London review rows'
+          reviewable = [r for r in rows if r['final_decision'] in {'SELECTED', 'POSS'}]
+          additional = [r for r in reviewable if r['duplicate_status'] == 'ADDITIONAL']
+          print(f'Lever London review rows: {len(rows)}')
+          print(f'Reviewable: {len(reviewable)}')
+          print(f'Likely additional reviewable: {len(additional)}')
+
+          summary = Path('/tmp/london-lever-summary.md').read_text(encoding='utf-8')
+          assert 'safety: review-only POC; no approved-output or publishing path' in summary
+          assert '## SELECTED' in summary
+          assert '## POSS — choose SELECT or EXCLUDE' in summary
+          assert '## EXCLUDED' in summary
+          assert '## HARD_PASS' in summary
+          PY
+          git diff --exit-code -- app pipeline/output-admin-service pipeline/output-support-worker pipeline/output-external
+
+      - name: Show summary in workflow log
+        run: cat /tmp/london-lever-summary.md
+
+      - name: Upload Lever London POC review
+        uses: actions/upload-artifact@v4
+        with:
+          name: lever-london-poc-review
+          path: |
+            /tmp/london-lever-review.csv
+            /tmp/london-lever-summary.md
+          if-no-files-found: error
+          retention-days: 7
