@@ -427,14 +427,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462648",
@@ -484,12 +477,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1bab4f68-302c-4d64-861c-37c4ec78fc63",
@@ -689,11 +677,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225431869",
@@ -768,11 +752,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225451460",
@@ -972,11 +952,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4fdbf2c6-e0d2-4e84-80e4-fcbe0929eba3",
@@ -1076,11 +1052,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225223268",
@@ -1130,11 +1102,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "da48f93a-8393-482d-bde7-d6542c6110dc",

@@ -5,6 +5,6 @@ North East,,7,5,0,2,0,,7,Newcastle Upon Tyne,SCENARIO_3_MANUAL_SELECTION_APPLIED
 Sussex,,12,6,0,6,0,,12,Brighton,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Sussex selection complete: 12 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
 Cumbria - South,,3,1,1,1,0,,3,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 Hampshire,,15,12,1,2,0,,15,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 3 row(s) prioritised; 15 selected.
-London,,15,12,2,1,0,,15,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 1 row(s) prioritised; 15 selected.
+London,,16,13,2,1,0,,16,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 1 row(s) prioritised; 16 selected.
 Surrey,,12,5,2,5,0,,12,Guildford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Surrey manual_select applied additively: 1 row(s) prioritised; 12 selected.
 Wiltshire,,3,2,0,1,0,,3,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.

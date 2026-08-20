@@ -514,12 +514,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "84809d07-69f9-4987-bc95-653c367955ba",
@@ -869,13 +864,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461743",
@@ -925,13 +914,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463000",
@@ -1031,13 +1014,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107818981",
@@ -1261,6 +1238,31 @@
     "advertiser_name": "North Devon Homes",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107868788",
+    "title": "Receptionist",
+    "company": "Premier Foods - Agency - Permanent",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "TBC\nTBC\nAt Premier foods we believe in inclusion, authenticity and individuality. We aim to ensure all existing and future colleagues are given equitable opportunities and are respected, valued and encouraged to bring their true authentic selves to work no matter who they are, what they look like, who they love or what they believe in click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7B%2bGMsCunV1dfFuVkc%2bUP7z",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Premier Foods",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },

@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,1031
-total rows dropped,8896
-title classification count - HIGH_CONFIDENCE,1182
+total rows included,1032
+total rows dropped,8894
+title classification count - HIGH_CONFIDENCE,1183
 title classification count - ELASTIC_FIT,476
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,4236
-title classification count - OUT_OF_SCOPE,4106
+title classification count - HARD_PASS,4243
+title classification count - OUT_OF_SCOPE,4098
 selection scenario - Yorkshire - West,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Yorkshire - West,Yorkshire - West manual_select applied additively: 12 row(s) prioritised; 49 selected.
 credible total - Yorkshire - West,49
@@ -112,13 +112,13 @@ other elastic count - Cambridgeshire,4
 total rows output - Cambridgeshire,32
 job_id included - Cambridgeshire,107683758; 23643_225445219; 23643_225498733; 23643_225468873; ce9667b9-d828-4c03-b90f-673e439e0f77; 23643_225423110; 23643_225429684; 23643_225444568; 23643_225451600; 23643_225463613; bc06c685-cd6b-44da-a6c0-dfb6cdcf10c9; b9168f3b-ae51-41b5-8822-277795a7ff77; 23643_225513578; 107729655; 23643_225413779; 1618642; 23643_225451667; 23643_225407253; a55fd95b-154b-44c4-b4f3-f1e4b43b0b13; 23643_225436892; 23643_225468369; 23643_225474610; 23643_225402145; 23643_225450023; 23643_225452723; 23643_225478255; 23643_225412665; 107791497; 23643_225406910; 23643_225419926; 68b01811-8de7-4587-98a4-702866cb9237; 69e0dfe0-062a-449e-962d-e87504d3bdcd
 selection scenario - Devon,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Devon,Devon manual_select applied additively: 9 row(s) prioritised; 38 selected.
-credible total - Devon,38
-high confidence count - Devon,25
+selection message - Devon,Devon manual_select applied additively: 9 row(s) prioritised; 39 selected.
+credible total - Devon,39
+high confidence count - Devon,26
 anchor elastic count - Devon,0
 other elastic count - Devon,4
-total rows output - Devon,38
-job_id included - Devon,f6a9d116-33f3-41b0-bb10-29c6f514487f; 23643_225462047; 42992d6d-b64c-4ab2-b5a3-c65625521a56; 23643_225469790; 8fce0a69-f1e4-460e-a206-e6175c904338; 84809d07-69f9-4987-bc95-653c367955ba; fcd4fadd-fd89-4e66-935d-88b6fb30a5f1; fbb25edf-7727-46c0-ad09-305ff52cff3d; aa220c68-6350-484e-88dd-9f024421db4c; 23643_225412932; 23643_225416379; 23643_225422547; 4b5f472e-fdb3-485c-9958-5a26952fddfe; cb7344e4-0f63-4f14-a492-b04e187c2bd2; 23643_225433488; 107689505; 23643_225452796; 23643_225455962; 23643_225460045; 23643_225461743; 23643_225462053; 23643_225463000; 23643_225467655; 23643_225474549; 3efcf2a3-32ea-4db8-837b-c29157dddca8; 107818981; 21618_20279_61828-d8f2458bb8fbb1375374a754551ee136; 21618_20279_61828-f4ca70fb2411d9e8ac70e55d073c537d; 21618_20279_61828-91898f3f2096b1f003e560ccccf12c45; 21618_20279_61828; 21618_20279_61828-ef868f196988a42ee59302a88bab91e6; c1937b32-6e70-477d-a13f-f28113c4bf01; 23643_225509220; 018f28ce-6faa-4237-b550-a14257bc7242; 23643_225466401; 5351cfdd-a8ae-45ab-b0fe-ce5b476a4e7a; 107682300; e2a131fb-171d-4e60-ba26-c3f4ccedbb59
+total rows output - Devon,39
+job_id included - Devon,f6a9d116-33f3-41b0-bb10-29c6f514487f; 23643_225462047; 42992d6d-b64c-4ab2-b5a3-c65625521a56; 23643_225469790; 8fce0a69-f1e4-460e-a206-e6175c904338; 84809d07-69f9-4987-bc95-653c367955ba; fcd4fadd-fd89-4e66-935d-88b6fb30a5f1; fbb25edf-7727-46c0-ad09-305ff52cff3d; aa220c68-6350-484e-88dd-9f024421db4c; 23643_225412932; 23643_225416379; 23643_225422547; 4b5f472e-fdb3-485c-9958-5a26952fddfe; cb7344e4-0f63-4f14-a492-b04e187c2bd2; 23643_225433488; 107689505; 23643_225452796; 23643_225455962; 23643_225460045; 23643_225461743; 23643_225462053; 23643_225463000; 23643_225467655; 23643_225474549; 3efcf2a3-32ea-4db8-837b-c29157dddca8; 107818981; 21618_20279_61828-d8f2458bb8fbb1375374a754551ee136; 21618_20279_61828-f4ca70fb2411d9e8ac70e55d073c537d; 21618_20279_61828-91898f3f2096b1f003e560ccccf12c45; 21618_20279_61828; 21618_20279_61828-ef868f196988a42ee59302a88bab91e6; c1937b32-6e70-477d-a13f-f28113c4bf01; 23643_225509220; 018f28ce-6faa-4237-b550-a14257bc7242; 107868788; 23643_225466401; 5351cfdd-a8ae-45ab-b0fe-ce5b476a4e7a; 107682300; e2a131fb-171d-4e60-ba26-c3f4ccedbb59
 selection scenario - Dorset,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Dorset,Dorset manual_select applied additively: 5 row(s) prioritised; 19 selected.
 credible total - Dorset,19
