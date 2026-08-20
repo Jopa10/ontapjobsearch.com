@@ -33,6 +33,8 @@ jobs:
         run: python -m py_compile external_sources/workable_london_poc.py
 
       - name: Run review-only Workable London POC
+        id: run_poc
+        continue-on-error: true
         working-directory: pipeline
         run: |
           python -m external_sources.workable_london_poc \
@@ -40,6 +42,9 @@ jobs:
             --review-md /tmp/london-workable-summary.md
 
       - name: Verify review output and live-site isolation
+        id: verify_poc
+        if: steps.run_poc.outcome == 'success'
+        continue-on-error: true
         run: |
           test -s /tmp/london-workable-review.csv
           test -s /tmp/london-workable-summary.md
@@ -73,23 +78,33 @@ jobs:
           PY
           git diff --exit-code -- app pipeline/output-admin-service pipeline/output-support-worker pipeline/output-external
 
-      - name: Store review files on POC branch
+      - name: Store review or failure status on POC branch
+        if: always()
         run: |
           mkdir -p pipeline/reviews/external
-          cp /tmp/london-workable-review.csv pipeline/reviews/external/london-workable-review.csv
-          cp /tmp/london-workable-summary.md pipeline/reviews/external/london-workable-summary.md
+          printf 'run_poc=%s\nverify_poc=%s\n' '${{ steps.run_poc.outcome }}' '${{ steps.verify_poc.outcome }}' > pipeline/reviews/external/london-workable-run-status.txt
+          if [ -s /tmp/london-workable-review.csv ]; then
+            cp /tmp/london-workable-review.csv pipeline/reviews/external/london-workable-review.csv
+          fi
+          if [ -s /tmp/london-workable-summary.md ]; then
+            cp /tmp/london-workable-summary.md pipeline/reviews/external/london-workable-summary.md
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/reviews/external/london-workable-review.csv pipeline/reviews/external/london-workable-summary.md
+          git add pipeline/reviews/external/london-workable-run-status.txt
+          [ ! -f pipeline/reviews/external/london-workable-review.csv ] || git add pipeline/reviews/external/london-workable-review.csv
+          [ ! -f pipeline/reviews/external/london-workable-summary.md ] || git add pipeline/reviews/external/london-workable-summary.md
           if ! git diff --cached --quiet; then
-            git commit -m "Store Workable London POC review"
+            git commit -m "Store Workable London POC result"
             git push
           fi
 
       - name: Show summary in workflow log
+        if: steps.run_poc.outcome == 'success'
         run: cat /tmp/london-workable-summary.md
 
       - name: Upload Workable London POC review
+        if: steps.run_poc.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: workable-london-poc-review
@@ -98,3 +113,7 @@ jobs:
             /tmp/london-workable-summary.md
           if-no-files-found: error
           retention-days: 7
+
+      - name: Fail if POC did not complete cleanly
+        if: steps.run_poc.outcome != 'success' || steps.verify_poc.outcome != 'success'
+        run: exit 1
