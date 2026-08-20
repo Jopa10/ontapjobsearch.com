@@ -15,7 +15,7 @@ Composition stage:
 - accepts only SELECTED/HC rows for LIVE admin_service slices;
 - replaces the previous NHS subset while preserving every non-NHS row;
 - removes expired NHS rows by replacement, not by mutating other sources;
-- enforces a maximum 25% NHS share in a normal composed slice;
+- enforces a maximum 20% NHS share in a normal composed slice;
 - writes only to a caller-supplied output directory.  The caller decides whether
   that directory is a dry-run location or the live output-admin-service folder.
 
@@ -45,7 +45,7 @@ from external_sources.regional_contracts import (
 SOURCE = "NHS Jobs"
 SOURCE_KEY = "nhs"
 JOB_ID_PREFIX = "nhs-"
-MAX_NHS_SHARE = 0.25
+MAX_NHS_SHARE = 0.20
 DEFAULT_GEO = Path("geo/geo_lookup.xlsx")
 DEFAULT_SLICE_REGISTER = Path("registers/region_category_slice_register.csv")
 DEFAULT_CURRENT_OUTPUT = Path("output-admin-service")
