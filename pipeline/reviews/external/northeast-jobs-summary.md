@@ -211,7 +211,7 @@ source_job_id: 300105
 source_url: https://www.northeastjobs.org.uk/job/Facilities_Coordinator/300105
 ---
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,305.00 - £26,325.00 | Marketing & Events Assistant
 employer: Connect Multi-Academy Trust
 closing_date: 07/09/2026 12:00
@@ -256,7 +256,7 @@ source_job_id: 300579
 source_url: https://www.northeastjobs.org.uk/job/Technical_and_Support_Officers/300579
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Prudhoe | SCP 2 - 5 (£24,413 - £25,583 (pro rata) depending upon qualifications and experience | Administrative Assistant
 employer: Prudhoe Town Council
 closing_date: 04/09/2026 12:00

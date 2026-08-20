@@ -308,17 +308,15 @@ job_id: 107685611
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £18.65 - £21.93 per hour | Temporary PA to Director
 job_id: 8b5d69a1-48d6-4be5-9dd3-074dfdbceaa0
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17 per hour | Document Controller
 job_id: 23643_224689396
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -444,11 +442,10 @@ job_id: 107728351
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
 job_id: 107830594
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1392,83 +1389,70 @@ job_id: 23643_225454050
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £19.73 per hour | Student Enrolment Administrator
 job_id: 07e9bb97-19a8-48c9-a679-ec0d1de6d09d
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £21.81 per hour | Business Support Officer - Data & Excel
 job_id: 23643_225511991
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £40000 per year | Mortgage Administrator
 job_id: d11f930d-f008-4a99-b5b6-b51e4692c43d
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £19.46 - £21.48 per hour | Talent Acquisition Administrator
 job_id: 2ea6b5df-ac6c-4847-9647-7041c4fd89dc
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £18.5 - £24.32 per hour | Assessment & Support Administrator (Temporary)
 job_id: 833306bd-570e-4362-bb08-0e7fae9b02cc
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40,000 per annum | Assistant Company Secretary
 job_id: 1682657
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16.48 - £19.24 per hour | Business Support Officer
 job_id: 1682618
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £38000 - £42000 per year | HR Coordinator
 job_id: 0b78f170-1175-4f29-9cc9-435f2b1f1c44
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 - £55000 per year | Paraplanner (Client-Facing)-City of London (Hybrid Working) -£50,000 - £55,000 + Excellent Benefits
 job_id: eb41e477-1346-4a5c-925d-190b2c4b4832
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 per year | Talent Acquisition Coordinator
 job_id: dfbc3c26-dcb0-4d88-b3d5-5610fab241a9
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 - £42000 per year | HR Coordinator
 job_id: b7d827fd-6ceb-45b2-9bfd-2afa3c70535a
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £75000 - £80000 per year | Chartered Financial Planner - Location - London - Salary: £80,000 + Bonus + Excellent Benefits
 job_id: ae829fa3-7199-427f-8fd5-610cdbd79ef0
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Romford | £16 - £18 per hour | Finance Assistant 6 month FTC
 job_id: 93f909f6-20d2-4495-ac42-828964a59ea9
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1840,11 +1824,10 @@ job_id: 4d0ba43c-b778-48f0-b1f7-17d2dba33c6e
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £40000 - £45000 per year | Paraplanner
 job_id: 3baf1212-0895-4e32-a208-8698284280e4
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2552,11 +2535,10 @@ job_id: 1a126f03-f402-4dac-9593-ec773a7e9461
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £200 per daily | Business Support Officer
 job_id: 23643_225509698
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -2796,13 +2778,12 @@ job_id: 107806176
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £35000 - £45000 per year | Paraplanner
 job_id: 00a86590-8353-4ca7-8346-95648211160d
 ---
-
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £35000 - £45000 per year | Paraplanner
 job_id: 5e397a0e-5c3e-4d80-a9bd-c1a34127d9c1
 ---
@@ -2967,7 +2948,7 @@ job_id: a5342311-988b-4d58-8648-2dec6ab655fc
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £32000 - £35000 per year | Internal Sales & Customer Services Co-ordinator
 job_id: ed64b0d2-c820-4078-987d-5988e6824c4a
 ---
@@ -3198,11 +3179,10 @@ job_id: 23643_225511380
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £30000 - £35000 per year | HR Administrator
 job_id: 20179531-accc-469d-9bc0-08788bd1a53c
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3370,17 +3350,15 @@ job_id: ec3304a0-aed0-40d1-bade-ac54c91302a0
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £29000 - £33000 per year | Administration Assistant
 job_id: 555cff26-0847-4dc8-a153-e9f1e841fb3e
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £28000 - £35000 per year | Project Administrator
 job_id: 44e7eb54-f63b-4771-9ed6-4626bc3c6470
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -3470,47 +3448,40 @@ job_id: 00c593cf-9722-49f9-989a-ba0fca117f91
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £29000 - £32000 per year | Customer Service Advisor
 job_id: 23643_225465957
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £32000 - £37000 per year | Sales Administrator
 job_id: e0a165a2-d2e1-4615-9593-929fb2eda820
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £30000 - £34000 per year | Sales Account Administrator (6mth FTC)
 job_id: 5db93674-fc85-4c58-b0e8-e77756ef79b2
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £30000 - £35000 per year | Business Coordinator/ Junior PA
 job_id: 23643_225427059
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £45000 - £60000 per year | Paraplanner
 job_id: 7dd05b0a-104f-408d-8bd7-54be423c3105
 ---
-
 ---
-action:
+action: exclude
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £35000 - £45000 per year | Paraplanner
 job_id: bebd63f9-fc33-4363-a082-fa0618f4e970
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £35000 - £40000 per year | Operations Finance Assistant
 job_id: d1e4708e-d19d-443a-be15-877c600a8491
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3708,17 +3679,15 @@ job_id: 107729655
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £27000 - £35000 per year | Administrator (Renewable Energy)
 job_id: 990fcb6f-011a-45c3-883b-b0b9a701b20d
 ---
-
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £45000 - £50000 per year | Executive Assistant / Document Controller
 job_id: 23643_225386959
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -4330,11 +4299,10 @@ job_id: 23643_225513101
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex | £26208 - £31820 per year | Customer Service Advisor
 job_id: 23643_225499225
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4802,23 +4770,20 @@ job_id: 23643_225505461
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Altrincham | £26000 - £32000 per year | Customer Support Advisor - Older/Vulnerable People
 job_id: 249d24bb-c074-4984-ab55-d046faa41c6b
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Altrincham | £26000 - £32000 per year | Customer Service Administrator
 job_id: b9d87bd9-a900-44e1-8257-e039617d03e2
 ---
-
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Altrincham | £30000 - £37000 per year | Town Planner
 job_id: 23643_225466983
 ---
-
 ## HERTFORDSHIRE — SELECTED
 
 ---
@@ -4902,53 +4867,45 @@ job_id: 1682613
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Letchworth Garden City | £27500 - £31000 per year | Internal Sales Administrator
 job_id: 5582b17d-7741-4c9a-9d77-69afac7db9e5
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hatfield | £30000 - £32000 per year | Administrator
 job_id: 8e6c1a5a-c668-45b1-9de6-53d744d43a70
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hemel Hempstead | £29000 - £35000 per year | HR Administrator
 job_id: 6d20b85d-445b-4c01-8daf-f64841e51b77
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Welwyn Garden City | £16.5 per hour | Financial Administrator
 job_id: 32e86874-0dbd-4e77-9626-669751cee6f7
 ---
-
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Hitchin | £30000 - £45000 per year (Super benefits - see advert) | Town Planner
 job_id: 23643_225477735
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hemel Hempstead | £34000 - £38000 per year | HR Coordinator
 job_id: dcbcfd5c-1ef5-4bcb-9280-e2d1c999aae6
 ---
-
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Sawbridgeworth | £60000 per year | Paraplanner
 job_id: 107698641
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Royston | £32000 - £35000 per year | Office Coordinator
 job_id: 1c101d4c-f45a-480d-af54-c5f42e61ed95
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -5266,11 +5223,10 @@ job_id: eb469c2f-fa6f-4a56-9e6d-59b9012ce36f
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £30000 - £35000 per year | Finance Assistant
 job_id: 2443da42-6bda-4deb-8e4b-d6979a48a52c
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -5420,11 +5376,10 @@ job_id: 23643_225403352
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £19.46 - £21.48 per hour | Talent Acquisition Administrator
 job_id: 5e119b30-65c6-4f62-a824-01804f557170
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -5658,11 +5613,10 @@ job_id: 23643_225508503
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £28000 - £31000 per year | Service Advisor
 job_id: 27605ca5-976c-402c-8333-5b87caf84bf4
 ---
-
 ## SOMERSET — SELECTED
 
 ---
@@ -5734,47 +5688,40 @@ job_id: 107742675
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £28000 - £32000 per year (Benefits) | Technical Administrator
 job_id: 23643_225431426
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £15 - £17 per hour (Holiday) | Part-time Administrative Assistant - Temp Ongoing
 job_id: 23643_225466290
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £15 - £16 per hour | PO Purchasing Administrator
 job_id: 9820bf06-51bb-4f69-82e6-2b5eac9ddf77
 ---
-
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £35000 per year | Service Advisor
 job_id: 107797839
 ---
-
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £28000 - £35000 per year | Office Coordinator (Construction) -12 month Maternity Cover
 job_id: 23643_225410819
 ---
-
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £19.94 - £21.68 per hour | Cell Coordinator Am / PM
 job_id: 51460dc9-b197-4145-b5f4-2affecd56523
 ---
-
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £35000 per year | Paraplanner
 job_id: 107857224
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -6092,83 +6039,70 @@ job_id: 4dd0d8a3-6312-4de1-b425-0ff0d3ef6898
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £28000 - £35000 per year | Customer Care Administrator
 job_id: 23643_225465498
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £16 - £18 per hour | Temporary Administrative Assistant, International Invetsment firm
 job_id: 783e7429-d7b4-4f8a-aef3-dbdd94c55d2f
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £200 - £260 per daily | Service Delivery Coordinator
 job_id: 33b1b57b-3dfd-4e05-9096-ff0af2a6589d
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £35000 per year | HR Assistant
 job_id: 23643_225473913
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £35000 - £40000 per year | Property Accounts Assistant - Temp to perm
 job_id: 23643_225476111
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £27000 - £32000 per year | Marketing and Internal Communications Coordinator
 job_id: a9f0a355-f3f3-4514-b212-f3e05899857e
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £35000 per year | Paraplanner
 job_id: 9b92601e-aca8-462b-8ac4-74cdef622b47
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield | £13.5 - £16 per hour | Administration Coordinator
 job_id: dc9247fe-2ebb-4f69-be7e-13f7cf36860a
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield | £45000 - £60000 per year | Principal Town Planner
 job_id: 23643_225466839
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield | £35000 per year | Trainee Paraplanner
 job_id: b5dbb84c-aa8f-4ae0-927a-1aba670684c7
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield | £35000 - £45000 per year | Paraplanner
 job_id: 3ac6475b-70d1-423b-865f-7df3015177f6
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Sutton Coldfield | £28000 - £36000 per year | Trainee Paraplanner
 job_id: 05346a59-95b2-49e4-b678-e1d85d4c19d8
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Solihull | £29000 - £32000 per year | Recruitment Coordinator
 job_id: cd92f4f8-e5d6-4d87-bbb7-4ea9bda6dd8e
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---
@@ -6300,17 +6234,15 @@ job_id: 0da1c313-2ec4-4e7d-ae98-1e1788031278
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £32000 per year | Call Centre Team Leader
 job_id: 55e1efc3-731e-4ede-9494-f2b46ee6d410
 ---
-
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £16.23 per hour | Medical Records Administrator
 job_id: 23643_225514912
 ---
-
 ## YORKSHIRE - EAST — SELECTED
 
 ---
@@ -6400,17 +6332,15 @@ job_id: 107686523
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull | £15.4 per hour | HR Administrator
 job_id: 23643_225429963
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hessle | £35000 per year | Service Advisor
 job_id: 107718257
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
