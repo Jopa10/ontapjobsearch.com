@@ -46,6 +46,7 @@ def load_title_registry(path: Path = DEFAULT_TITLE_REGISTRY) -> dict[str, dict[s
         raise FileNotFoundError(f"NHS admin/service title registry not found or empty: {path}")
     registry: dict[str, dict[str, str]] = {}
     for registry_file in files:
+        is_poss_override = registry_file.name == "poss_overrides.csv"
         with registry_file.open(encoding="utf-8-sig", newline="") as handle:
             rows = csv.DictReader(handle)
             fields = set(rows.fieldnames or [])
@@ -73,7 +74,8 @@ def load_title_registry(path: Path = DEFAULT_TITLE_REGISTRY) -> dict[str, dict[s
                     ),
                 }
                 if key in registry and registry[key] != entry:
-                    raise ValueError(f"Conflicting NHS registry entries for {key!r}")
+                    if not (is_poss_override and classification == "POSS"):
+                        raise ValueError(f"Conflicting NHS registry entries for {key!r}")
                 registry[key] = entry
     return registry
 

@@ -15,6 +15,11 @@ def test_title_classification_uses_registry_and_is_conservative() -> None:
     assert nhs.classify_title("Medical Receptionist")[3] == "B"
     assert nhs.classify_title("Medical Secretary")[0:2] == ("POSS", "BRIDGEABLE")
     assert nhs.classify_title("Technician Support Officer")[0:2] == ("POSS", "BRIDGEABLE")
+    assert nhs.classify_title("Network Administrator")[0:2] == ("POSS", "BRIDGEABLE")
+    assert nhs.classify_title("SQL Database Administrator")[0:2] == ("POSS", "BRIDGEABLE")
+    assert nhs.classify_title("Business Support Manager")[0:2] == ("POSS", "BRIDGEABLE")
+    assert nhs.classify_title("Administrator and Health Care Support Worker")[0:2] == ("POSS", "BRIDGEABLE")
+    assert nhs.classify_title("Medical Receptionist Team Lead")[0:2] == ("POSS", "BRIDGEABLE")
     assert nhs.classify_title("Service Manager")[0] == "HARD_PASS"
     assert nhs.classify_title("A completely unseen NHS admin title")[0] == "POSS"
 
