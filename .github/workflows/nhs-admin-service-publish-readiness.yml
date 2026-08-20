@@ -103,14 +103,17 @@ jobs:
           import json
           from pathlib import Path
           report = json.loads(Path('reports/nhs-admin-service-publish-readiness.json').read_text(encoding='utf-8'))
-          missing = int(report.get('selected_publishable_missing_description') or 0)
+          missing = int(report.get('accepted_publishable_missing_description') or 0)
           if missing:
               raise SystemExit(
-                  f'STOP: {missing} selected/publishable NHS rows have no reusable description. '
-                  'The public search XML is discovery-only; do not publish until the production transport supplies descriptions.'
+                  f'STOP: {missing} NHS rows accepted after the source cap still have no public advert description.'
               )
+          enrichment = report.get('description_enrichment', {})
+          failed = int(enrichment.get('failed') or 0)
+          if failed:
+              raise SystemExit(f'STOP: {failed} accepted NHS advert detail fetches failed.')
           cap = float(report.get('safety', {}).get('nhs_share_cap') or 0)
           if abs(cap - 0.20) > 1e-12:
               raise SystemExit(f'STOP: NHS share cap is {cap:.2%}, expected 20%.')
-          print('NHS readiness gate passed: descriptions present and source cap is 20%.')
+          print('NHS readiness gate passed: accepted rows enriched and source cap is 20%.')
           PY
