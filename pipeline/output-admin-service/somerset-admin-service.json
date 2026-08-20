@@ -122,7 +122,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "51b7084a-1bde-4019-b7ad-d02dbe202fc3",
@@ -147,7 +152,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "fa1ef494-67a9-42e9-9ce7-97a835002722",
@@ -247,7 +257,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107804771",
