@@ -1,0 +1,121 @@
+name: NHS admin/service publish readiness
+
+on:
+  push:
+    branches:
+      - agent/nhs-service-admin-publish-ready
+    paths:
+      - '.github/workflows/nhs-admin-service-publish-readiness.yml'
+      - '.github/workflows/publish-reviewed-nhs-admin-service.yml'
+      - 'pipeline/external_sources/nhs_admin_inventory.py'
+      - 'pipeline/external_sources/nhs_admin_service.py'
+      - 'pipeline/external_sources/nhs_admin_dry_run.py'
+      - 'pipeline/tests/test_nhs_admin_service.py'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/nhs-admin-service-publish-readiness.yml'
+      - '.github/workflows/publish-reviewed-nhs-admin-service.yml'
+      - 'pipeline/external_sources/nhs_admin_inventory.py'
+      - 'pipeline/external_sources/nhs_admin_service.py'
+      - 'pipeline/external_sources/nhs_admin_dry_run.py'
+      - 'pipeline/tests/test_nhs_admin_service.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/nhs-service-admin-publish-ready
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pipeline dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest openpyxl
+      - name: Run NHS admin unit tests
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: pytest -q tests/test_nhs_admin_service.py
+      - name: Fetch NHS Administrative & Clerical inventory
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python -m external_sources.nhs_admin_inventory \
+            --output reports/nhs-admin-service-inventory.json
+      - name: Build review and dry-run regional composition
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python -m external_sources.nhs_admin_dry_run \
+            --inventory reports/nhs-admin-service-inventory.json \
+            --review-csv reviews/external/nhs-jobs-review.csv \
+            --summary-md reviews/external/nhs-jobs-summary.md \
+            --composed-dir reports/nhs-admin-service-composed \
+            --report-json reports/nhs-admin-service-publish-readiness.json \
+            --report-md reports/nhs-admin-service-publish-readiness.md
+      - name: Commit dry-run evidence to branch
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet -- pipeline/reports pipeline/reviews/external/nhs-jobs-review.csv pipeline/reviews/external/nhs-jobs-summary.md; then
+            echo 'No dry-run evidence changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- pipeline/reports/nhs-admin-service-inventory.json \
+            pipeline/reports/nhs-admin-service-publish-readiness.json \
+            pipeline/reports/nhs-admin-service-publish-readiness.md \
+            pipeline/reports/nhs-admin-service-composed \
+            pipeline/reviews/external/nhs-jobs-review.csv \
+            pipeline/reviews/external/nhs-jobs-summary.md
+          git commit -m 'Run NHS admin/service publish-readiness dry run'
+          git push origin HEAD:agent/nhs-service-admin-publish-ready
+
+      - name: Upload readiness evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nhs-admin-service-publish-readiness
+          path: |
+            pipeline/reports/nhs-admin-service-inventory.json
+            pipeline/reports/nhs-admin-service-publish-readiness.json
+            pipeline/reports/nhs-admin-service-publish-readiness.md
+            pipeline/reports/nhs-admin-service-composed/
+            pipeline/reviews/external/nhs-jobs-review.csv
+            pipeline/reviews/external/nhs-jobs-summary.md
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Assert NHS rows are publish-ready
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('reports/nhs-admin-service-publish-readiness.json').read_text(encoding='utf-8'))
+          missing = int(report.get('accepted_publishable_missing_description') or 0)
+          if missing:
+              raise SystemExit(
+                  f'STOP: {missing} NHS rows accepted after the source cap still have no public advert description.'
+              )
+          enrichment = report.get('description_enrichment', {})
+          failed = int(enrichment.get('failed') or 0)
+          if failed:
+              raise SystemExit(f'STOP: {failed} accepted NHS advert detail fetches failed.')
+          cap = float(report.get('safety', {}).get('nhs_share_cap') or 0)
+          if abs(cap - 0.20) > 1e-12:
+              raise SystemExit(f'STOP: NHS share cap is {cap:.2%}, expected 20%.')
+          print('NHS readiness gate passed: accepted rows enriched and source cap is 20%.')
+          PY

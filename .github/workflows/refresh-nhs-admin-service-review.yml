@@ -1,0 +1,108 @@
+name: Refresh NHS admin/service review
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 10 * * *'
+
+concurrency:
+  group: nhs-admin-service-review
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pytest openpyxl
+      - name: Run NHS review tests
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          pytest -q tests/test_nhs_admin_service.py tests/test_review_hub_nhs_admin.py
+      - name: Fetch current NHS Administrative & Clerical inventory
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python -m external_sources.nhs_admin_inventory \
+            --output "$RUNNER_TEMP/nhs-admin-inventory.json"
+      - name: Build today's NHS review and restore remembered decisions
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import date
+          from pathlib import Path
+          from external_sources import nhs_admin_service as nhs
+          from external_sources.nhs_review_actions import reapply
+
+          inventory = Path(__import__('os').environ['RUNNER_TEMP']) / 'nhs-admin-inventory.json'
+          payload = json.loads(inventory.read_text(encoding='utf-8'))
+          today = date.today()
+          review = Path('reviews/external/nhs-jobs-review.csv')
+          summary = Path('reviews/external/nhs-jobs-summary.md')
+          ledger = Path('reviews/external/nhs-jobs-decisions.csv')
+
+          rows = nhs.review_rows(payload.get('rows', []), today=today)
+          nhs.write_review_csv(review, rows)
+          if ledger.is_file():
+              reapply(review, ledger)
+              import csv
+              with review.open(encoding='utf-8-sig', newline='') as handle:
+                  rows = list(csv.DictReader(handle))
+          summary.parent.mkdir(parents=True, exist_ok=True)
+          summary.write_text(nhs.review_summary(rows, today=today), encoding='utf-8')
+          print(f'NHS review refreshed: {len(rows)} rows')
+          PY
+      - name: Verify refresh changed only NHS review surfaces
+        run: |
+          set -euo pipefail
+          unexpected="$({ git diff --name-only | awk '
+            $0 != "pipeline/reviews/external/nhs-jobs-review.csv" &&
+            $0 != "pipeline/reviews/external/nhs-jobs-summary.md"'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::NHS refresh changed unexpected files:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+      - name: Commit today's NHS review
+        run: |
+          set -euo pipefail
+          git add -- pipeline/reviews/external/nhs-jobs-review.csv pipeline/reviews/external/nhs-jobs-summary.md
+          if git diff --cached --quiet; then
+            echo 'NHS review already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh NHS admin service review'
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            [ "$attempt" -lt 3 ] && sleep 5
+          done
+          echo '::error::Could not safely commit NHS review.'
+          exit 1
+      - name: Summary
+        run: |
+          {
+            echo '## NHS admin/service review refreshed'
+            echo
+            echo 'Administrative & Clerical inventory was refreshed, routed through current Ontap geography and LIVE slice authorities, deduped against current admin/service output, and remembered decisions were reapplied only where facts were unchanged.'
+          } >> "$GITHUB_STEP_SUMMARY"

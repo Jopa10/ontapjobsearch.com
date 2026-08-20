@@ -211,7 +211,6 @@ def _latest_tv_review_date() -> str:
 
 
 def _tv_review_date(today: date) -> str:
-    """Use committed routing evidence as the authority for a complete daily TV run."""
     routing_summary = (
         PIPELINE_ROOT
         / "manifests/external/teaching-vacancies"
@@ -268,14 +267,62 @@ def load_teaching_vacancies(today: date) -> SourceResult:
     )
 
 
-def load_nhs_future(today: date) -> SourceResult:
-    del today
+def load_nhs(today: date) -> SourceResult:
+    csv_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-review.csv"
+    md_path = PIPELINE_ROOT / "reviews/external/nhs-jobs-summary.md"
+    if not csv_path.is_file() or not md_path.is_file():
+        return SourceResult(
+            "nhs",
+            "NHS Jobs",
+            "FUTURE",
+            "",
+            note="adapter ready; activates after first NHS admin/service refresh",
+            publish_workflow="publish-reviewed-nhs-admin-service.yml",
+            publish_requires_approval=True,
+            shared_publish_after=True,
+        )
+    review_date = _metadata_date(md_path)
+    state = _state(review_date, today)
+    try:
+        rows = _csv_rows(csv_path)
+    except FileNotFoundError:
+        return SourceResult(
+            "nhs",
+            "NHS Jobs",
+            "MISSING",
+            review_date,
+            publish_workflow="publish-reviewed-nhs-admin-service.yml",
+            publish_requires_approval=True,
+            shared_publish_after=True,
+        )
+    items: list[ReviewItem] = []
+    if state == "OK":
+        for row in rows:
+            if clean(row.get("final_decision")).upper() != "POSS":
+                continue
+            if clean(row.get("manual_action")):
+                continue
+            item = item_from_mapping(
+                "NHS Jobs",
+                row,
+                category="admin_service",
+                region=clean(row.get("region")),
+                location=clean(row.get("location")),
+                reason=(
+                    f"{clean(row.get('switchability'))}: "
+                    f"{clean(row.get('classification_reason'))}"
+                ).strip(": "),
+            )
+            items.append(item)
     return SourceResult(
         "nhs",
         "NHS Jobs",
-        "FUTURE",
-        "",
-        note="adapter reserved; enable when NHS ingestion/review output is live",
+        state,
+        review_date,
+        tuple(items),
+        publish_workflow="publish-reviewed-nhs-admin-service.yml",
+        publish_requires_approval=True,
+        shared_publish_after=True,
     )
 
 
@@ -284,7 +331,7 @@ SOURCE_LOADERS: tuple[Callable[[date], SourceResult], ...] = (
     load_nejobs,
     load_vonne,
     load_teaching_vacancies,
-    load_nhs_future,
+    load_nhs,
 )
 
 

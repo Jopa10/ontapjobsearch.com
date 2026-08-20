@@ -227,8 +227,6 @@ def parse_master(path: Path = DEFAULT_MASTER) -> tuple[str, list[ParsedDecision]
             continue
         action = _field(block, "action").casefold()
         if action not in VALID_ACTIONS:
-            # Fail closed at job level. A typo such as "exlcude" becomes an
-            # unresolved action and is handled by the quarantine threshold.
             action = ""
         item = ReviewItem(
             source=_field(block, "source"),
@@ -330,6 +328,10 @@ def _route_action(decision: ParsedDecision) -> None:
             / "reviews/external/teaching-vacancies/england-wide-admin-service-summary.md",
             "source_job_id",
         ),
+        "nhs": (
+            PIPELINE_ROOT / "reviews/external/nhs-jobs-summary.md",
+            "source_job_id",
+        ),
     }
     if decision.source_key not in routes:
         raise ValueError(
@@ -367,10 +369,6 @@ def apply_master(
         if decision.source_key not in isolated_sources
     ]
 
-    # `require_complete` now means complete-or-safely-isolated. Up to 15 bad or
-    # unresolved action rows per source are withheld as excludes for this
-    # publication boundary; a larger cluster isolates that source instead of
-    # blocking unrelated inventory.
     del require_complete
 
     results = load_all_sources(today)
