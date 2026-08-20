@@ -113,7 +113,8 @@ jobs:
             $0 != "pipeline/reviews/jobg8/support-worker-review.md" &&
             $0 != "pipeline/reviews/external/northeast-jobs-summary.md" &&
             $0 != "pipeline/reviews/external/vonne-summary.md" &&
-            $0 != "pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md"'; } || true)"
+            $0 != "pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md" &&
+            $0 != "pipeline/reviews/external/nhs-jobs-summary.md"'; } || true)"
           if [ -n "$unexpected" ]; then
             echo "::error::Review Hub fanout changed unexpected files:"
             printf '%s\n' "$unexpected"
@@ -130,7 +131,8 @@ jobs:
             pipeline/reviews/jobg8/support-worker-review.md \
             pipeline/reviews/external/northeast-jobs-summary.md \
             pipeline/reviews/external/vonne-summary.md \
-            pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md
+            pipeline/reviews/external/teaching-vacancies/england-wide-admin-service-summary.md \
+            pipeline/reviews/external/nhs-jobs-summary.md
           if git diff --cached --quiet; then
             echo "No manual action fanout changes to commit"
             exit 0
@@ -288,6 +290,7 @@ jobs:
               nejobs) label="NEJobs" ;;
               vonne) label="VONNE" ;;
               teaching_vacancies) label="Teaching Vacancies" ;;
+              nhs) label="NHS Jobs" ;;
             esac
             echo "::warning::$label publisher failed. Keeping its last approved state and continuing with other clean sources."
             {
