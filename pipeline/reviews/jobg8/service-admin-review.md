@@ -443,7 +443,11 @@ job_id: 107728351
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
+job_id: 107830594
+---
 
 ## NORTH EAST — SELECTED
 
@@ -3943,6 +3947,12 @@ job_id: e2a131fb-171d-4e60-ba26-c3f4ccedbb59
 action:
 SELECTED | Devon | Devon | £25128 - £29296 per year | Customer Service Adviser
 job_id: 018f28ce-6faa-4237-b550-a14257bc7242
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | Receptionist
+job_id: 107868788
 ---
 
 ## DEVON — POSSIBLES
