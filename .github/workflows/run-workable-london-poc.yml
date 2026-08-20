@@ -10,7 +10,7 @@ on:
       - "pipeline/external_sources/workable_london_poc.py"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   workable-london-poc:
@@ -72,6 +72,19 @@ jobs:
           assert '## HARD_PASS' in summary
           PY
           git diff --exit-code -- app pipeline/output-admin-service pipeline/output-support-worker pipeline/output-external
+
+      - name: Store review files on POC branch
+        run: |
+          mkdir -p pipeline/reviews/external
+          cp /tmp/london-workable-review.csv pipeline/reviews/external/london-workable-review.csv
+          cp /tmp/london-workable-summary.md pipeline/reviews/external/london-workable-summary.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/reviews/external/london-workable-review.csv pipeline/reviews/external/london-workable-summary.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Store Workable London POC review"
+            git push
+          fi
 
       - name: Show summary in workflow log
         run: cat /tmp/london-workable-summary.md
