@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-08-20
-generated_at: 2026-08-20T08:17:16+00:00
+generated_at: 2026-08-20T09:22:19+00:00
 
-**73 job(s) need a human decision.**
+**74 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-20 | 71 | — |
+| JobG8 | OK | 2026-08-20 | 72 | — |
 | NEJobs | OK | 2026-08-20 | 2 | — |
 | VONNE | OK | 2026-08-20 | 0 | — |
 | Teaching Vacancies | STALE | 2026-08-19 | 0 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 71 to review
+## JobG8 — 72 to review
 
 ---
 action: select
@@ -230,7 +230,7 @@ hub_fingerprint: 2be945265b0f98ee09f4cbd7e24855b650945a71c967198771067ee03b9dc35
 ---
 
 ---
-action: exlude
+action:
 POSS | JobG8 | Cambridgeshire | Cambridge | £45000 - £50000 per year | Executive Assistant / Document Controller
 source_key: jobg8
 source: JobG8
@@ -1271,6 +1271,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 860d5ed19d97ef36c58e8ff01654970a92ff9b6813f8cbf302b3e2e9fcfd4aa0
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107830594
+title: German Speaking Administrator
+employer: 
+location: Barnsley
+region: Yorkshire - South
+salary: £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 9a7f502d7c36f6853a1b3f18723c107197d4e6ace50f20103a471dfd0698390a
 ---
 
 ---
