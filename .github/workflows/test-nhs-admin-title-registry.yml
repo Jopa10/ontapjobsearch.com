@@ -1,0 +1,32 @@
+name: Test NHS admin title registry
+
+on:
+  pull_request:
+    paths:
+      - 'pipeline/external_sources/nhs_admin_service.py'
+      - 'pipeline/external_sources/nhs_admin_service_core.py'
+      - 'pipeline/registers/nhs_admin_service_title_registry/**'
+      - 'pipeline/tests/test_nhs_admin_service.py'
+      - 'pipeline/tests/test_review_hub_nhs_admin.py'
+      - '.github/workflows/test-nhs-admin-title-registry.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest openpyxl
+      - name: Run NHS admin/service tests
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: pytest -q tests/test_nhs_admin_service.py tests/test_review_hub_nhs_admin.py
