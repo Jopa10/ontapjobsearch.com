@@ -6,9 +6,393 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 82
+remembered_exclusions: 114
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Trainee Paraplanner
+employer: Gemini Wealth Management Limited
+region: 
+town: West Midlands
+salary: 
+job_id: b5dbb84c-aa8f-4ae0-927a-1aba670684c7
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Trainee Paraplanner
+employer: Recruit UK
+region: 
+town: West Midlands
+salary: 
+job_id: 05346a59-95b2-49e4-b678-e1d85d4c19d8
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Town Planner
+employer: Tate
+region: 
+town: Hertfordshire
+salary: 
+job_id: 23643_225477735
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Town Planner
+employer: Carrington West
+region: 
+town: Cheshire
+salary: 
+job_id: 23643_225466983
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Temporary PA to Director
+employer: Hays Specialist Recruitment Limited
+region: 
+town: Yorkshire
+salary: 
+job_id: 8b5d69a1-48d6-4be5-9dd3-074dfdbceaa0
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Technical Administrator
+employer: Manucomm Recruitment Ltd
+region: 
+town: Somerset
+salary: 
+job_id: 23643_225431426
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Talent Acquisition Coordinator
+employer: The Law Support Group
+region: 
+town: London
+salary: 
+job_id: dfbc3c26-dcb0-4d88-b3d5-5610fab241a9
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Talent Acquisition Administrator
+employer: Reed
+region: 
+town: Nottinghamshire
+salary: 
+job_id: 5e119b30-65c6-4f62-a824-01804f557170
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Talent Acquisition Administrator
+employer: Reed
+region: 
+town: London
+salary: 
+job_id: 2ea6b5df-ac6c-4847-9647-7041c4fd89dc
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Student Enrolment Administrator
+employer: Prospect Us
+region: 
+town: London
+salary: 
+job_id: 07e9bb97-19a8-48c9-a679-ec0d1de6d09d
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Service Delivery Coordinator
+employer: Randstad Delivery (GBS)
+region: 
+town: Birmingham
+salary: 
+job_id: 33b1b57b-3dfd-4e05-9096-ff0af2a6589d
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Service Advisor
+employer: The Solution Automotive Limited
+region: 
+town: Somerset
+salary: 
+job_id: 107797839
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Property Accounts Assistant - Temp to perm
+employer: Gleeson Recruitment Group
+region: 
+town: Birmingham
+salary: 
+job_id: 23643_225476111
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Principal Town Planner
+employer: Carrington West
+region: 
+town: West Midlands
+salary: 
+job_id: 23643_225466839
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner (Client-Facing)-City of London (Hybrid Working) -£50,000 - £55,000 + Excellent Benefits
+employer: Financial Divisions
+region: 
+town: London
+salary: 
+job_id: eb41e477-1346-4a5c-925d-190b2c4b4832
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Buckinghamshire
+salary: 
+job_id: bebd63f9-fc33-4363-a082-fa0618f4e970
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Premier Jobs UK Limited
+region: 
+town: Birmingham
+salary: 
+job_id: 9b92601e-aca8-462b-8ac4-74cdef622b47
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Sussex
+salary: 
+job_id: 5e397a0e-5c3e-4d80-a9bd-c1a34127d9c1
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Hampshire
+salary: 
+job_id: 3baf1212-0895-4e32-a208-8698284280e4
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Reed
+region: 
+town: West Midlands
+salary: 
+job_id: 3ac6475b-70d1-423b-865f-7df3015177f6
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Talent Finder
+region: 
+town: Somerset
+salary: 
+job_id: 107857224
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Rayment Recruitment
+region: 
+town: Hertfordshire
+salary: 
+job_id: 107698641
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Sussex
+salary: 
+job_id: 00a86590-8353-4ca7-8346-95648211160d
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Mortgage Administrator
+employer: Your Mortgage Recruiter Ltd
+region: 
+town: London
+salary: 
+job_id: d11f930d-f008-4a99-b5b6-b51e4692c43d
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: HR Coordinator
+employer: Ferreira Young Recruitment
+region: 
+town: London
+salary: 
+job_id: 0b78f170-1175-4f29-9cc9-435f2b1f1c44
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: German Speaking Administrator
+employer: ASC Connections Ltd
+region: 
+town: Yorkshire
+salary: 
+job_id: 107830594
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Executive Assistant / Document Controller
+employer: Skyward Select Recruitment Solutions Ltd
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 23643_225386959
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Chartered Financial Planner - Location - London - Salary: £80,000 + Bonus + Excellent Benefits
+employer: Financial Divisions
+region: 
+town: London
+salary: 
+job_id: ae829fa3-7199-427f-8fd5-610cdbd79ef0
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Cell Coordinator Am / PM
+employer: Pertemps Bristol Industrial
+region: 
+town: Somerset
+salary: 
+job_id: 51460dc9-b197-4145-b5f4-2affecd56523
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Call Centre Team Leader
+employer: CCA Recruitment Group
+region: 
+town: Wiltshire
+salary: 
+job_id: 55e1efc3-731e-4ede-9494-f2b46ee6d410
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Business Support Officer
+employer: Huntress - Maidstone
+region: 
+town: Kent
+salary: 
+job_id: 23643_225509698
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-20
+title: Assistant Company Secretary
+employer: Marie Curie
+region: 
+town: London
+salary: 
+job_id: 1682657
+---
 
 ---
 action:
