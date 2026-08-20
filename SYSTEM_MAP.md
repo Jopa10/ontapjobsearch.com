@@ -7,6 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 20 August 2026 — Added canonical governance for discovering and activating new job families: discovery audit → family boundary → proof-region review → title register/refinement rules → national validation → 33-region diagnostic assessment → explicit LIVE-slice approval → integration into the existing daily/publish mechanisms. Family membership is non-exclusive where a job genuinely fits more than one user-facing family.
 - 20 August 2026 — Confirmed the production deployment model by live test: normal Vercel Git integration is the single automatic deployment route for `main`; `Deploy Ontap production after publish` waits up to three minutes for production to reach the expected SHA and fails/alerts if it does not. `VERCEL_TOKEN`/Vercel CLI is manual recovery only. The obsolete Deploy Hook was revoked and the `VERCEL_DEPLOY_HOOK_URL` repository secret removed.
 - 19 August 2026 — Homepage browse ordering now presents regional slices before city pages. Regional inventory is the primary breadth signal; city pages remain a secondary local layer, still subject to the 4-job homepage visibility floor.
 - 19 August 2026 — Added a separate city homepage visibility floor: active city pages remain permanent, but homepage city cards appear only at 4+ current jobs. The launch threshold remains 6 jobs with 3 of 7 qualifying runs plus explicit approval.
@@ -39,6 +40,23 @@ It runs at 07:30 and 15:30 Europe/London and performs:
 The daily coverage pass reuses the same materialized JobG8 workbook and production rules across all 33 canonical regions. It writes diagnostic coverage only; it does not itself activate slices.
 
 The Service Admin LIVE set includes the six 19 August evidence-led regional activations: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
+
+### New job-family discovery and activation governance
+
+A new job family must not move directly from a broad title/regex discovery result into production slices. The canonical lifecycle is:
+
+1. **Discovery audit** — use the current feed, specialist analysis or one-off diagnostics to identify a plausible occupational seam and estimate its scale. Discovery rules are evidence gathering, not publish rules.
+2. **Define the family boundary** — state the jobseeker proposition in occupational terms: what belongs, what does not, and the important ambiguous/overlap cases.
+3. **Proof-region review** — inspect real jobs in a small number of representative regions before national rollout. The objective is page quality and false-positive/false-negative discovery, not simply volume.
+4. **Create governed classification state** — encode recurring title decisions in the appropriate central title register and add contextual/refinement rules where title alone is insufficient. Do not leave persistent family logic as an ad-hoc regex report.
+5. **National validation** — apply the candidate selector to the full current feed and review selected/rejected examples, scale, specialist contamination, salary/context effects and material false positives/negatives.
+6. **33-region diagnostic assessment** — once the selector is credible, assess every canonical region using the same family logic. This produces evidence only and must not activate slices automatically.
+7. **Explicit LIVE-slice approval** — activate only regions with sufficient recurring quantity and page quality. A non-zero diagnostic count is not by itself an activation decision.
+8. **Integrate, do not parallel-build** — once approved, the family must use the existing shared ingest, registers/config, review, publishing, reporting and website mechanisms wherever those mechanisms can be extended safely.
+
+Family classification is **not required to be mutually exclusive**. A single underlying job may legitimately qualify for more than one Ontap family when it genuinely serves both user intents (for example, a customer/commercial support role that fits both Service Admin and a future Sales Advisor family). Each family applies its own eligibility/refinement rules. Duplication should be suppressed only where the same job would otherwise appear redundantly in one user-facing result set; a job must not be removed from one valid family merely because it also qualifies for another.
+
+The current Sales Advisor work is a discovery candidate under this lifecycle. It is not yet a production family and remains outside the recurring 33-region family assessment until its boundary, register/refinement rules and validation are approved.
 
 ### Owner review / approved publication
 
