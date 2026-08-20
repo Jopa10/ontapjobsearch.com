@@ -61,12 +61,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £15 per hour | Male Support Worker
-job_id: 35ef02dd-6e8a-4d5a-a1af-bacca950305f
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Rowlands Gill | £12.75 per hour | Enabling Support Worker
 job_id: f6fec1d6-1fe7-4f2f-895c-76cd05933697
 ---
@@ -90,12 +84,6 @@ job_id: 0d92fe0d-a663-4737-8a15-e07bad60e5fe
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £13.15 per hour | Support Worker
-job_id: 6b804bc2-d778-42ed-bf1b-d3ec78422d8a
----
 
 ---
 action:
@@ -183,6 +171,18 @@ job_id: ec026cec-5f4c-49af-882b-c4fa51afbadc
 action:
 SELECTED | Sussex | Battle | £14.31 per hour | Care Assistant - Care Home
 job_id: d2504dfa-0b4a-4aa4-a74e-6a0c24e6b17f
+---
+
+---
+action:
+SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant - Bank
+job_id: 107870957
+---
+
+---
+action:
+SELECTED | Sussex | Chichester | £15 - £17 per hour | Complex Care Support Worker
+job_id: 107664527
 ---
 
 ## SUSSEX — POSSIBLES
@@ -407,17 +407,17 @@ SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assi
 job_id: 23643_225513634
 ---
 
+---
+action:
+SELECTED | London | London | £85 - £105 per daily (Excellent training and Career progression) | Support Worker
+job_id: 23643_225516212
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Caterham | £14.5 per hour | Female Healthcare Assistant
-job_id: 31d22526-587a-4ee0-a94d-865f483b82cc
----
 
 ---
 action:
@@ -507,6 +507,12 @@ job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
 action:
 SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Worker
 job_id: 107829437
+---
+
+---
+action:
+SELECTED | Wiltshire | Devizes | £14.29 per hour (holiday pay inclusive) | Healthcare Assistants
+job_id: 107863276
 ---
 
 ## WILTSHIRE — POSSIBLES
