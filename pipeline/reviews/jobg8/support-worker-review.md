@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-19
+feed_date: 2026-08-20
 
 Edit only the `action:` line in each block:
 
@@ -45,12 +45,6 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
 job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
-job_id: 107798506
 ---
 
 ---
@@ -175,14 +169,20 @@ job_id: 23643_222307132
 
 ---
 action:
-SELECTED | Sussex | Chichester | £17.9 - £19 per hour | Female Support Worker
-job_id: 107658496
+SELECTED | Sussex | Bognor Regis | £15.4 per hour | Complex Care Support Worker
+job_id: 107854068
 ---
 
 ---
 action:
-SELECTED | Sussex | Bognor Regis | £15.4 per hour | Complex Care Support Worker
-job_id: 107854068
+SELECTED | Sussex | Eastbourne | £13.4 per hour | Care Assistant - Care Home
+job_id: ec026cec-5f4c-49af-882b-c4fa51afbadc
+---
+
+---
+action:
+SELECTED | Sussex | Battle | £14.31 per hour | Care Assistant - Care Home
+job_id: d2504dfa-0b4a-4aa4-a74e-6a0c24e6b17f
 ---
 
 ## SUSSEX — POSSIBLES
@@ -201,6 +201,12 @@ job_id: 107812778
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
 job_id: 107827128
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107800894
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -389,6 +395,12 @@ SELECTED | London | Croydon | £14 per hour | Domiciliary Care Assistant
 job_id: 86f892d4-8c90-4c6b-b4d3-a12bcd351d01
 ---
 
+---
+action:
+SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
+job_id: 23643_225513634
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -461,23 +473,17 @@ SELECTED | Surrey | Addlestone | £28687 - £32786 per year ((FTE)) | Family Sup
 job_id: 328187
 ---
 
+---
+action:
+SELECTED | Surrey | Guildford | £13.21 per hour | Night Care Assistant
+job_id: cf31f9cd-838b-407d-b8c6-cebc439995e6
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Salisbury | £28222 per year | Young People Support Worker
-job_id: f3025bfd-33f8-41b8-a6c4-f8541ae66355
----
-
----
-action:
-SELECTED | Wiltshire | Chippenham | £13.81 per hour | Care Assistant - Bank - Care Home
-job_id: 3f4c625b-5417-4417-b340-71ab7e4ff941
----
 
 ---
 action:
@@ -489,6 +495,12 @@ job_id: 328178
 action:
 SELECTED | Wiltshire | Swindon | £26056 per year | Mental Health Support Worker
 job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
+---
+
+---
+action:
+SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Worker
+job_id: 107829437
 ---
 
 ## WILTSHIRE — POSSIBLES
