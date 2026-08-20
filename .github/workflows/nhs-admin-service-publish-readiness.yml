@@ -95,3 +95,22 @@ jobs:
             pipeline/reviews/external/nhs-jobs-summary.md
           if-no-files-found: warn
           retention-days: 14
+
+      - name: Assert NHS rows are publish-ready
+        working-directory: pipeline
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('reports/nhs-admin-service-publish-readiness.json').read_text(encoding='utf-8'))
+          missing = int(report.get('selected_publishable_missing_description') or 0)
+          if missing:
+              raise SystemExit(
+                  f'STOP: {missing} selected/publishable NHS rows have no reusable description. '
+                  'The public search XML is discovery-only; do not publish until the production transport supplies descriptions.'
+              )
+          cap = float(report.get('safety', {}).get('nhs_share_cap') or 0)
+          if abs(cap - 0.20) > 1e-12:
+              raise SystemExit(f'STOP: NHS share cap is {cap:.2%}, expected 20%.')
+          print('NHS readiness gate passed: descriptions present and source cap is 20%.')
+          PY
