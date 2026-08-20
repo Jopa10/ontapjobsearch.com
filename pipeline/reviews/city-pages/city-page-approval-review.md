@@ -16,9 +16,9 @@ status: READY FOR APPROVAL
 city: Warwickshire
 region: coventry-warwickshire
 slice: service-administrator-jobs
-current_jobs: 30
-qualifying_runs: 4/3
-last_pipeline_runs: 0, 0, 0, 17, 29, 30, 30
+current_jobs: 27
+qualifying_runs: 6/3
+last_pipeline_runs: 0, 17, 29, 30, 30, 27, 27
 ---
 
 ---
@@ -28,8 +28,8 @@ city: Durham
 region: north-east
 slice: service-administrator-jobs
 current_jobs: 12
-qualifying_runs: 5/3
-last_pipeline_runs: 5, 5, 6, 12, 12, 12, 12
+qualifying_runs: 7/3
+last_pipeline_runs: 6, 12, 12, 12, 12, 12, 12
 ---
 
 ---
@@ -39,8 +39,8 @@ city: Tyne And Wear
 region: north-east
 slice: service-administrator-jobs
 current_jobs: 21
-qualifying_runs: 4/3
-last_pipeline_runs: 0, 0, 0, 6, 21, 21, 21
+qualifying_runs: 6/3
+last_pipeline_runs: 0, 6, 21, 21, 21, 21, 21
 ---
 
 ---
