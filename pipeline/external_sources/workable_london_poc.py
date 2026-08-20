@@ -11,7 +11,8 @@ import sys
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import date, datetime
+from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
@@ -36,7 +37,7 @@ REGISTERS = (
 )
 FIELDS = (
     "final_decision", "title", "employer", "location", "salary_text", "salary_status",
-    "salary_evidence", "posted_date", "closing_date", "closing_status", "closing_evidence",
+    "salary_evidence", "posted_date", "closing_date", "closing_date_iso", "closing_status", "closing_evidence",
     "employment_type", "workplace_type", "source_category", "category", "classification",
     "classification_reason", "duplicate_status", "duplicate_candidate_title",
     "duplicate_candidate_employer", "duplicate_score", "source_job_id", "source_url",
@@ -59,7 +60,7 @@ SALARY_CUES = ("salary", "compensation", "pay range", "pay:", "per annum", "p.a.
 DATE_TOKEN = (
     r"(?:"
     r"(?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|"
-    r"Sat(?:urday)?|Sun(?:day)?)\s+)?"
+    r"Sat(?:urday)?|Sun(?:day)?)(?:,\s*|\s+))?"
     r"(?:"
     r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}"
     r"|"
@@ -75,15 +76,20 @@ DATE_TOKEN = (
 )
 CLOSING_PATTERNS = (
     re.compile(
-        rf"(?ix)\b(?:closing\s+date|application\s+deadline|applications?\s+deadline)"
-        rf"\s*(?:is|:|-)?\s*(?P<date>{DATE_TOKEN})"
+        rf"(?ix)\b(?:closing\s+date(?:\s+for\s+applications?)?"
+        rf"|application\s+deadline|applications?\s+deadline|deadline\s+for\s+applications?)"
+        rf"\s*(?:is|:|-)?\s*"
+        rf"(?:(?:extended\s+until|until|by)\s+)?"
+        rf"(?:(?:\d{{1,2}}(?::\d{{2}})?\s*(?:am|pm))\s*,?\s*)?"
+        rf"(?P<date>{DATE_TOKEN})"
     ),
     re.compile(
         rf"(?ix)\bapplications?(?:\s+for\s+(?:this|the)\s+role)?"
         rf"(?:\s+will)?\s+close\s+(?:on\s+)?(?P<date>{DATE_TOKEN})"
     ),
     re.compile(
-        rf"(?ix)\b(?:role|vacancy)\s+closes?\s+(?:on\s+)?(?P<date>{DATE_TOKEN})"
+        rf"(?ix)\b(?:role|vacancy|position)\s+(?:will\s+)?closes?\s+"
+        rf"(?:on\s+)?(?P<date>{DATE_TOKEN})"
     ),
 )
 
@@ -173,21 +179,83 @@ def closing_from_description(description_html: str) -> tuple[str, str, str]:
     return "", "NOT_STATED_BY_SOURCE", ""
 
 
+def closing_to_iso(raw: str, posted_date: str) -> str:
+    if not raw:
+        return ""
+
+    text = clean(raw)
+    text = re.sub(
+        r"(?i)^(?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|"
+        r"Sat(?:urday)?|Sun(?:day)?)(?:,\s*|\s+)",
+        "",
+        text,
+    )
+    text = re.sub(r"(?i)(\d{1,2})(?:st|nd|rd|th)\b", r"\1", text)
+    text = clean(text.replace(",", " "))
+
+    try:
+        posted = parsedate_to_datetime(posted_date).date() if posted_date else None
+    except (TypeError, ValueError, OverflowError):
+        posted = None
+
+    has_year = bool(re.search(r"\b\d{4}\b", text))
+    formats = (
+        "%d/%m/%Y", "%d-%m-%Y",
+        "%d %B %Y", "%d %b %Y",
+        "%B %d %Y", "%b %d %Y",
+        "%d %B", "%d %b",
+    )
+    for fmt in formats:
+        try:
+            parsed = datetime.strptime(text, fmt).date()
+        except ValueError:
+            continue
+
+        if not has_year:
+            fallback_year = posted.year if posted else datetime.now(ZoneInfo("Europe/London")).year
+            parsed = parsed.replace(year=fallback_year)
+            if posted and parsed < posted and parsed.month < posted.month:
+                parsed = parsed.replace(year=fallback_year + 1)
+        return parsed.isoformat()
+
+    return ""
+
+
+def closing_metadata(description_html: str, posted_date: str) -> tuple[str, str, str, str]:
+    raw, status, evidence = closing_from_description(description_html)
+    if status != "VISIBLE_EXTRACTED":
+        return raw, "", status, evidence
+
+    iso = closing_to_iso(raw, posted_date)
+    if not iso:
+        return raw, "", "VISIBLE_UNPARSED", evidence
+
+    if date.fromisoformat(iso) < datetime.now(ZoneInfo("Europe/London")).date():
+        return raw, iso, "VISIBLE_EXPIRED", evidence
+    return raw, iso, "VISIBLE_EXTRACTED", evidence
+
+
 def fixture_checks() -> None:
     salary, status, _evidence = salary_from_description(
         "<p>Salary: Between £28,000 - £36,000 depending on experience.</p>"
     )
     assert salary == "£28,000–£36,000" and status == "USABLE_REVIEW"
 
-    closing, status, _evidence = closing_from_description(
-        "Applications for this role will close on Sunday 13th September."
+    examples = (
+        ("Applications for this role will close on Sunday 13th September.", "Sunday 13th September"),
+        ("Closing Date: 17/07/2026", "17/07/2026"),
+        ("Closing date for applications: 5pm, Thursday 3rd September.", "Thursday 3rd September"),
+        ("CLOSING DATE: Extended until Monday 24th August 2026.", "Monday 24th August 2026"),
+        ("Closing Date: Sunday, 24th May 2026.", "Sunday, 24th May 2026"),
+        ("The position will close on Sunday 30th August.", "Sunday 30th August"),
+        ("Closing Date for Applications 21 August 2026", "21 August 2026"),
     )
-    assert closing == "Sunday 13th September" and status == "VISIBLE_EXTRACTED"
+    for text, expected in examples:
+        closing, status, evidence = closing_from_description(text)
+        assert closing == expected and status == "VISIBLE_EXTRACTED" and evidence
 
-    closing, status, _evidence = closing_from_description(
-        "Closing Date: 17/07/2026"
-    )
-    assert closing == "17/07/2026" and status == "VISIBLE_EXTRACTED"
+    assert closing_to_iso("Sunday 13th September", "Wed, 19 Aug 2026 15:52:00 UTC") == "2026-09-13"
+    assert closing_to_iso("17/07/2026", "Mon, 10 Aug 2026 09:54:42 UTC") == "2026-07-17"
 
     closing, status, evidence = closing_from_description(
         "Applications are reviewed on a rolling basis."
@@ -223,8 +291,11 @@ def source_row(elem: ET.Element) -> dict[str, str] | None:
         return None
 
     description = child_text(elem, "description")
+    posted_date = child_text(elem, "date")
     salary_text, salary_status, salary_evidence = salary_from_description(description)
-    closing_date, closing_status, closing_evidence = closing_from_description(description)
+    closing_date, closing_date_iso, closing_status, closing_evidence = closing_metadata(
+        description, posted_date
+    )
     location = ", ".join(dict.fromkeys(x for x in (city, state, country) if x))
     remote = child_text(elem, "remote").casefold()
     workplace = "Remote" if remote == "true" else ""
@@ -235,8 +306,9 @@ def source_row(elem: ET.Element) -> dict[str, str] | None:
         "salary_text": salary_text,
         "salary_status": salary_status,
         "salary_evidence": salary_evidence,
-        "posted_date": child_text(elem, "date"),
+        "posted_date": posted_date,
         "closing_date": closing_date,
+        "closing_date_iso": closing_date_iso,
         "closing_status": closing_status,
         "closing_evidence": closing_evidence,
         "employment_type": child_text(elem, "jobtype"),
@@ -359,6 +431,8 @@ def dedupe(row: dict[str, str], existing: list[dict[str, str]]) -> None:
 def auto_decision(row: dict[str, str]) -> str:
     if row["salary_status"] != "USABLE_REVIEW":
         return "HARD_PASS"
+    if row["closing_status"] in {"VISIBLE_EXPIRED", "VISIBLE_UNPARSED"}:
+        return "HARD_PASS"
     if row["duplicate_status"] == "CONFIRMED_DUPLICATE":
         return "EXCLUDED"
     if row["classification"] in {"HARD_PASS", "OUT_OF_SCOPE"}:
@@ -431,7 +505,8 @@ def write_outputs(
 
     counts = {d: sum(r["final_decision"] == d for r in rows) for d in ("SELECTED", "POSS", "EXCLUDED", "HARD_PASS")}
     salary_jobs = sum(r["salary_status"] == "USABLE_REVIEW" for r in rows)
-    closing_jobs = sum(r["closing_status"] == "VISIBLE_EXTRACTED" for r in rows)
+    closing_jobs = sum(r["closing_status"] in {"VISIBLE_EXTRACTED", "VISIBLE_EXPIRED"} for r in rows)
+    expired_jobs = sum(r["closing_status"] == "VISIBLE_EXPIRED" for r in rows)
     reviewable_salary = [
         r for r in rows
         if r["salary_status"] == "USABLE_REVIEW"
@@ -455,10 +530,11 @@ def write_outputs(
         f"salary_published_london_jobs: {salary_jobs}",
         f"salary_coverage_london: {salary_pct:.1f}%",
         f"closing_dates_extracted_from_advert_text: {closing_jobs}",
+        f"expired_adverts_blocked_by_visible_closing_date: {expired_jobs}",
         f"likely_additional_reviewable_with_salary: {len(reviewable_salary)}",
         f"outcomes: SELECTED {counts['SELECTED']} | POSS {counts['POSS']} | EXCLUDED {counts['EXCLUDED']} | HARD_PASS {counts['HARD_PASS']}",
         "",
-        "field_note: Workable XML has no dedicated closing-date field; explicit closing dates are conservatively extracted from advert description text, otherwise the review records not stated by source.",
+        "field_note: Workable XML has no dedicated closing-date field; explicit closing dates are conservatively extracted from advert description text, normalized where possible, and past deadlines are HARD_PASS; otherwise the review records not stated by source.",
         "workplace_note: the global XML feed exposes a remote boolean but not a reliable hybrid/on-site subtype; blank workplace_type therefore means not supplied by the structured feed, not an extraction failure.",
         "salary_note: salary is extracted conservatively from advert description text; every salary-bearing row includes a salary_evidence snippet for manual verification.",
     ]
@@ -483,10 +559,11 @@ def write_outputs(
                 f"employer: {r['employer']}",
                 f"posted_date: {r['posted_date'] or 'not stated by source'}",
                 f"closing_date: {closing_display}",
+                f"closing_date_iso: {r['closing_date_iso'] or 'none'}",
                 f"closing_status: {r['closing_status']}",
                 f"closing_evidence: {r['closing_evidence'] or 'none'}",
                 f"salary_evidence: {r['salary_evidence'] or 'none'}",
-                f"reason: {r['classification_reason']}; duplicate={r['duplicate_status']}",
+                f"reason: {r['classification_reason']}; duplicate={r['duplicate_status']}; closing={r['closing_status']}",
                 f"source: {SOURCE}",
                 f"source_job_id: {r['source_job_id']}",
                 f"source_url: {r['source_url']}",
@@ -502,6 +579,7 @@ def write_outputs(
     print(
         f"Workable London POC: {len(rows)} London; {salary_jobs} salary-bearing "
         f"({salary_pct:.1f}%); {closing_jobs} explicit closing dates; "
+        f"{expired_jobs} expired adverts blocked; "
         f"{len(reviewable_salary)} likely additional reviewable with salary"
     )
 
