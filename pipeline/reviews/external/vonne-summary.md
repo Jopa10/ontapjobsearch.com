@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-08-19
-review_fingerprint: 73fb81311ea67804f5e18e5c268a3cd73ec3d71b597f43314e8340a77ada739e
+review_date: 2026-08-20
+review_fingerprint: 410a84fe338e4ca1288fe4e5f81b64d837f1a96bb28203e60ff9777c7b822db9
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,10 +10,10 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-08-19T08:22:00+01:00
+Run generated: 2026-08-20T08:23:53+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 283
-Approved NEJobs comparison rows: 33
+JobG8 comparison rows: 274
+Approved NEJobs comparison rows: 32
 
 ## Funnel
 - VONNE listings read: 15
@@ -28,11 +28,11 @@ Approved NEJobs comparison rows: 33
 
 ## Outcomes
 - HC: 0
-- POSS: 7
-- HARD_PASS: 7
-- Final selected after remembered/manual actions: 3
-- Final POSS awaiting decision: 1
-- Manually excluded: 3
+- POSS: 6
+- HARD_PASS: 8
+- Final selected after remembered/manual actions: 4
+- Final POSS awaiting decision: 0
+- Manually excluded: 2
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -53,18 +53,6 @@ source: VONNE
 tracking_key: vonne-173334
 source_job_id: 173334
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
----
----
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | Durham | £34,592 Per Annum | Counsellor/Psychotherapist
-employer: Age UK County Durham
-closing_date: 04 September 2026
-geography: CONFIRMED — location: exact area
-reason: annualised upper salary £34,592 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173323
-source_job_id: 173323
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173323
 ---
 ---
 action: select
@@ -134,8 +122,9 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173331
 
 - [Business Development Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173336) — confirmed JobG8 duplicate.
 - [DadVocate Programme Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173337) — out-of-scope VONNE occupation.
-- [Deputy Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173324) — out-of-scope VONNE occupation.
+- [Energy Advice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173343) — out-of-scope VONNE occupation.
 - [Energy and Retrofit Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173328) — insufficient service-admin evidence.
+- [Experienced Manager – Adult Training Services](https://www.vonne.org.uk/vonne-jobs-details?cid=173342) — out-of-scope VONNE occupation.
 - [Head of Business Development and Fundraising](https://www.vonne.org.uk/vonne-jobs-details?cid=172957) — out-of-scope VONNE occupation.
 - [Positive Behaviour Support Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173327) — out-of-scope VONNE occupation.
 - [Senior Young Dads Worker - Sunderland](https://www.vonne.org.uk/vonne-jobs-details?cid=173338) — out-of-scope VONNE occupation.
