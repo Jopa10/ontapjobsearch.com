@@ -1,0 +1,190 @@
+name: Publish reviewed NHS admin/service
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Type PUBLISH after completing the unified Ontap daily review
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  publish-nhs-admin-service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check explicit approval
+        env:
+          APPROVAL: ${{ inputs.approval }}
+        run: |
+          if [ "$APPROVAL" != "PUBLISH" ]; then
+            echo "::error::Approval must be exactly PUBLISH."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pytest openpyxl
+
+      - name: Run NHS publishing tests
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: pytest -q tests/test_nhs_admin_service.py
+
+      - name: Verify same-day NHS review exists
+        working-directory: pipeline
+        run: |
+          test -s reviews/external/nhs-jobs-review.csv
+          test -s reviews/external/nhs-jobs-summary.md
+          python - <<'PY'
+          import csv
+          from datetime import date
+          from pathlib import Path
+          path = Path('reviews/external/nhs-jobs-review.csv')
+          with path.open(encoding='utf-8-sig', newline='') as handle:
+              rows = list(csv.DictReader(handle))
+          dates = {row.get('review_date','').strip() for row in rows if row.get('review_date','').strip()}
+          if dates != {date.today().isoformat()}:
+              raise SystemExit(f'STOP: NHS review is not same-day: {sorted(dates)}')
+          print(f'NHS same-day review rows: {len(rows)}')
+          PY
+
+      - name: Capture NHS decisions from unified daily review
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from external_sources.nhs_review_actions import capture_from_master, reapply
+          master = Path('reviews/daily/ontap-daily-review.md')
+          review = Path('reviews/external/nhs-jobs-review.csv')
+          ledger = Path('reviews/external/nhs-jobs-decisions.csv')
+          print(capture_from_master(master, review, ledger))
+          print(reapply(review, ledger))
+          PY
+
+      - name: Compose NHS into a guarded temporary output
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          rm -rf "$RUNNER_TEMP/nhs-admin-composed"
+          python - <<'PY'
+          import csv, json, os
+          from datetime import date
+          from pathlib import Path
+          from external_sources.nhs_admin_service import compose_outputs
+          review = Path('reviews/external/nhs-jobs-review.csv')
+          with review.open(encoding='utf-8-sig', newline='') as handle:
+              rows = list(csv.DictReader(handle))
+          out = Path(os.environ['RUNNER_TEMP']) / 'nhs-admin-composed'
+          report = compose_outputs(Path('output-admin-service'), rows, out, today=date.today())
+          (Path(os.environ['RUNNER_TEMP']) / 'nhs-admin-compose-report.json').write_text(
+              json.dumps(report, indent=2) + '\n', encoding='utf-8'
+          )
+          print(json.dumps(report, indent=2))
+          PY
+
+      - name: Verify composition preserves non-NHS rows and obeys cap
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          source = 'nhs jobs'
+          current_dir = Path('output-admin-service')
+          composed_dir = Path(os.environ['RUNNER_TEMP']) / 'nhs-admin-composed'
+          for out in composed_dir.glob('*-admin-service.json'):
+              current = json.loads((current_dir / out.name).read_text(encoding='utf-8'))
+              composed = json.loads(out.read_text(encoding='utf-8'))
+              old_base = [r for r in current if str(r.get('source','')).strip().casefold() != source]
+              new_base = [r for r in composed if str(r.get('source','')).strip().casefold() != source]
+              if old_base != new_base:
+                  raise SystemExit(f'STOP: non-NHS rows changed in {out.name}')
+              nhs = [r for r in composed if str(r.get('source','')).strip().casefold() == source]
+              if composed and len(nhs) / len(composed) > 0.250000000001:
+                  raise SystemExit(f'STOP: NHS share cap breached in {out.name}')
+              if any(not str(r.get('apply_url','')).strip() for r in nhs):
+                  raise SystemExit(f'STOP: NHS row with no apply_url in {out.name}')
+          print('Verified NHS composition safety.')
+          PY
+
+      - name: Copy verified composition into pipeline outputs
+        working-directory: pipeline
+        run: |
+          cp "$RUNNER_TEMP"/nhs-admin-composed/*-admin-service.json output-admin-service/
+
+      - name: Verify only admin-service pipeline outputs changed
+        run: |
+          set -euo pipefail
+          unexpected="$({ git diff --name-only -- pipeline/output-admin-service | awk '$0 !~ /-admin-service\.json$/'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::NHS composer changed unexpected pipeline outputs:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+
+      - name: Publish verified service-admin pages
+        working-directory: pipeline
+        run: python -m scripts.publish_verified_service_admin_pages --write
+
+      - name: Verify live-page scope
+        run: |
+          set -euo pipefail
+          unexpected="$({ git diff --name-only -- app | awk '$0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/ && $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::NHS publisher changed unexpected live files:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+
+      - name: Commit reviewed NHS decisions and verified pages
+        run: |
+          set -euo pipefail
+          git add -- \
+            pipeline/reviews/external/nhs-jobs-review.csv \
+            pipeline/reviews/external/nhs-jobs-decisions.csv \
+            pipeline/output-admin-service/*-admin-service.json \
+            app/*/service-administrator-jobs.json \
+            app/_city-pages/configured-slices/*/service-administrator-jobs.json
+          if git diff --cached --quiet; then
+            echo 'No NHS publishing changes to commit.'
+            exit 0
+          fi
+          staged="$(git diff --cached --name-only)"
+          unexpected="$({ printf '%s\n' "$staged" | awk '
+            $0 !~ /^pipeline\/reviews\/external\/nhs-jobs-(review|decisions)\.csv$/ &&
+            $0 !~ /^pipeline\/output-admin-service\/.*-admin-service\.json$/ &&
+            $0 !~ /^app\/[^/]+\/service-administrator-jobs\.json$/ &&
+            $0 !~ /^app\/_city-pages\/configured-slices\/[^/]+\/service-administrator-jobs\.json$/'; } || true)"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Refusing unexpected NHS publishing paths:"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish reviewed NHS admin service jobs'
+          git push origin main
+
+      - name: Summary
+        run: |
+          {
+            echo '## NHS admin/service published'
+            echo
+            echo 'Only same-day selected NHS Administrative & Clerical jobs in LIVE admin/service slices were eligible.'
+            echo 'Existing non-NHS rows were preserved; expired NHS rows were removed by replacement; NHS share was capped at 25%.'
+          } >> "$GITHUB_STEP_SUMMARY"
