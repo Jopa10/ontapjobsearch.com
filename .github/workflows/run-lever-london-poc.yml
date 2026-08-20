@@ -2,6 +2,13 @@ name: Run Lever London POC
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - "poc/lever-london-direct-employers"
+    paths:
+      - ".github/workflows/run-lever-london-poc.yml"
+      - "pipeline/config/lever-employers.json"
+      - "pipeline/external_sources/lever_london_poc.py"
 
 permissions:
   contents: read
