@@ -6,7 +6,6 @@ on:
     branches:
       - "poc/workable-london-review"
     paths:
-      - ".github/workflows/run-workable-london-poc.yml"
       - "pipeline/external_sources/workable_london_poc.py"
 
 permissions:
@@ -41,7 +40,7 @@ jobs:
             --review-csv /tmp/london-workable-review.csv \
             --review-md /tmp/london-workable-summary.md
 
-      - name: Verify review output and live-site isolation
+      - name: Verify review output and field-audit safeguards
         id: verify_poc
         if: steps.run_poc.outcome == 'success'
         continue-on-error: true
@@ -56,6 +55,8 @@ jobs:
           with csv_path.open(newline='', encoding='utf-8-sig') as handle:
               reader = csv.DictReader(handle)
               assert reader.fieldnames and reader.fieldnames[0] == 'final_decision', reader.fieldnames
+              assert 'closing_status' in reader.fieldnames, reader.fieldnames
+              assert 'closing_evidence' in reader.fieldnames, reader.fieldnames
               rows = list(reader)
 
           assert rows, 'Workable POC returned no London review rows'
@@ -65,37 +66,54 @@ jobs:
               r for r in reviewable
               if r['salary_status'] == 'USABLE_REVIEW' and r['duplicate_status'] == 'ADDITIONAL'
           ]
+          explicit_closing = [r for r in rows if r['closing_status'] == 'VISIBLE_EXTRACTED']
+          assert explicit_closing, 'Field audit expected at least one explicit closing date in current London feed'
+          assert all(r['closing_date'] and r['closing_evidence'] for r in explicit_closing)
+
           print(f'Workable London review rows: {len(rows)}')
           print(f'Salary-bearing London rows: {len(salary)}')
+          print(f'Explicit closing dates extracted: {len(explicit_closing)}')
           print(f'Likely additional reviewable with salary: {len(additional_salary)}')
 
           summary = Path('/tmp/london-workable-summary.md').read_text(encoding='utf-8')
-          assert 'safety: review-only POC; no approved-output or publishing path' in summary
           assert '## SELECTED' in summary
           assert '## POSS — choose SELECT or EXCLUDE' in summary
-          assert '## EXCLUDED' in summary
+          assert '## EXCLUDED BY REVIEW' in summary
           assert '## HARD_PASS' in summary
+          assert 'not stated by source' in summary
+          assert summary.rstrip().endswith('safety: review-only POC; no approved-output or publishing path')
           PY
           git diff --exit-code -- app pipeline/output-admin-service pipeline/output-support-worker pipeline/output-external
 
-      - name: Store review or failure status on POC branch
-        if: always()
+      - name: Store only canonical review files on POC branch
+        if: steps.run_poc.outcome == 'success' && steps.verify_poc.outcome == 'success'
         run: |
           mkdir -p pipeline/reviews/external
-          printf 'run_poc=%s\nverify_poc=%s\n' '${{ steps.run_poc.outcome }}' '${{ steps.verify_poc.outcome }}' > pipeline/reviews/external/london-workable-run-status.txt
-          if [ -s /tmp/london-workable-review.csv ]; then
-            cp /tmp/london-workable-review.csv pipeline/reviews/external/london-workable-review.csv
-          fi
-          if [ -s /tmp/london-workable-summary.md ]; then
-            cp /tmp/london-workable-summary.md pipeline/reviews/external/london-workable-summary.md
-          fi
+          cp /tmp/london-workable-review.csv pipeline/reviews/external/london-workable-review.csv
+          cp /tmp/london-workable-summary.md pipeline/reviews/external/london-workable-summary.md
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/reviews/external/london-workable-run-status.txt
-          [ ! -f pipeline/reviews/external/london-workable-review.csv ] || git add pipeline/reviews/external/london-workable-review.csv
-          [ ! -f pipeline/reviews/external/london-workable-summary.md ] || git add pipeline/reviews/external/london-workable-summary.md
+          git add \
+            pipeline/reviews/external/london-workable-review.csv \
+            pipeline/reviews/external/london-workable-summary.md
+          python - <<'PY'
+          import subprocess
+
+          allowed = {
+              'pipeline/reviews/external/london-workable-review.csv',
+              'pipeline/reviews/external/london-workable-summary.md',
+          }
+          staged = set(
+              subprocess.check_output(
+                  ['git', 'diff', '--cached', '--name-only'],
+                  text=True,
+              ).splitlines()
+          )
+          unexpected = staged - allowed
+          assert not unexpected, f'unexpected staged review paths: {sorted(unexpected)}'
+          PY
           if ! git diff --cached --quiet; then
-            git commit -m "Store Workable London POC result"
+            git commit -m "Store Workable London field-audit review"
             git push
           fi
 
@@ -104,7 +122,7 @@ jobs:
         run: cat /tmp/london-workable-summary.md
 
       - name: Upload Workable London POC review
-        if: steps.run_poc.outcome == 'success'
+        if: steps.run_poc.outcome == 'success' && steps.verify_poc.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: workable-london-poc-review
