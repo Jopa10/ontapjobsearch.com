@@ -303,11 +303,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225405924",
@@ -332,11 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225409338",
@@ -360,35 +352,6 @@
     "advertiser_name": "Tate",
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Correspondence"
-    ]
-  },
-  {
-    "job_id": "b3c542f7-b4d2-4602-ba47-60d4f270b39a",
-    "title": "Office Administrator",
-    "company": "Effective Recruitment Solutions Ltd - Agency - Permanent",
-    "location": "Surrey",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "32500",
-    "salary_text": "£28000 - £32500 per year",
-    "posted_date": "2026-08-04",
-    "description": "Office Administrator\n\nOffice Administrator. A Weybridge electrical wholesale business is looking for an Office Administrator / Accounts Administration / Sales Support person to join the team. The Office Administrator role will be in office, 8:00-17:30 Monday to Friday (42.5 hours) plus one Saturday morning in four paid as overtime. The Office Administrator / Accounts Administration / Sales Support will be responsible for:\n- General administration duties\n- Sales Support\n- Raising invoices and credit notes\n- Paying suppliers\n- Health and Safety duties\n\nThe Office Administrator / Accounts Administration / Sales Support will have performed a similar role, ideally in an electrical wholesale or trade counter or warehouse environment.The Office Administrator salary is dependant on age and experience, £28-32.5k + benefits",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5qpftk4NETD%2flhAsHm7VPDq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Effective Recruitment Solutions Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -440,11 +403,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225425807",
@@ -544,12 +503,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "f545a2c8-eeed-4001-aafd-8e0b48332e01",
@@ -574,13 +528,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225434720",
@@ -655,14 +603,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225447538",
@@ -687,12 +628,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225445519",
@@ -767,12 +703,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry",
-      "Payroll administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225448746",
@@ -872,11 +803,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225462857",
@@ -951,12 +878,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "751b68c6-1308-4594-b5f1-8360ef67ae64",
@@ -1031,14 +953,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "d33ae84b-3d04-499d-aa6d-57d9112cce12",
@@ -1063,14 +978,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225494521",
@@ -1095,12 +1003,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "d318f4e4-d47b-496e-ad29-a3a8d7979ae5",
@@ -1175,12 +1078,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "49e9b205-b4a5-43f8-bf98-22e6dd9c1202",
@@ -1204,31 +1102,6 @@
     "advertiser_name": "Michael Page Business Support",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "1670892",
-    "title": "Fundraising & Database Administrator",
-    "company": "Young Epilepsy - Agency - Permanent",
-    "location": "Surrey",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-18",
-    "description": "Job Title: Fundraising & Database Administrator\n\nDepartment: Fundraising and Development\n\nReports to: Data & Insights Manager\n\nLocation: Hybrid including working in Lingfield, Surrey\n\nSalary: Up to £14,681.27per annum based on 21 hours per week (FTE - £25,867 per annum)\n\nHours: 21 hours per week (can be worked over 3 - 5 days)\n\nContract: Permanent, all year round\n\nClosing Date: 7th September 2026\n\nYoung Epilepsy and St. Piers is committed to safeguarding and protecting our children and young people and promotes the welfare of all learners.\n\nAs part of our safer recruitment process and in line with Keeping Children Safe in Education 2022, online searches will form part of this process.\n\nAn Enhanced Disclosure with relevant Barring Service checks and full referencing will be required before employment can commence.\n\nYour Role\n\nAre you passionate about fundraising, data and improving the lives of children and young people with epilepsy? Join the fundraising team at Young Epilepsy and take on an important role delivering outstanding supporter experience and ensuring the accuracy of financial and supporter data.\n\nThis role is central to deepening supporter relationships, inspiring long-term loyalty, and helping to grow sustainable income for Young Epilepsy. Acting as a key point of contact for supporters, the postholder will build positive and memorable relationships through personalised stewardship, excellent customer service, and engaging communications that demonstrate the impact of supporters' generosity.\n\nA key responsibility of the role is ensuring the accuracy, integrity, and effective use of supporter and financial data. You will maintain high-quality records, support the ongoing development of our CRM (Beacon), and contribute to accurate reporting and analysis.\n\nOur supporters play a vital role in enabling us to deliver life-changing services and support for children and young people with epilepsy. We aspire to be the charity of choice for donors, creating relevant, meaningful, and rewarding experiences that make every interaction count and encourage lasting support.\n\nThe role will:\n- Engage and steward supporters by inspiring them around their giving, maximising their fundraising, and ensuring their donor journey is tailored, relevant and exciting.\n- Maintain high-quality financial and supporter data, ensuring accuracy, integrity, and compliance while supporting robust reporting, analysis, and insight generation\n- Ensure the timely and accurate processing of donations, while acting as a first point of contact for supporters and delivering excellent customer service.\n- Ensure the smooth running of the CRM (Beacon) and support its development.\n- Implement engaging supporter focused communications that inspire and delight.\n- Undertake a range of administrative and support functions to ensure the effective running of the Fundraising and Data teams.\n\nThis is a varied role with lots of potential for growth and development.\n\nWhat we need from you\n- A positive, warm and pro-active approach to your work and other people.\n- Passionate about supporter experience and improving the lives of children and young people with epilepsy.\n- Excellent attention to detail and accuracy when working with supporter and financial information.\n- A willingness to continually learn and upskill.\n- Experience of supporter or customer care with a proven track record in excellent customer relationships.\n- Comfortable working with numbers and processing payments, donations, and invoices.\n- Experience using databases or CRM systems to maintain and update records.\n- Strong communication skills and the ability to work well with different teams.\n- Ability to follow processes and handle confidential information appropriately.\n- Experience of working in an administration role.\n\nYour benefits\n- Comprehensive training and professional development opportunities\n- Generous annual leave\n- Occupational pension scheme\n- Subsidised dining room\n- Your Rewards, giving you access to nationwide discounts and benefits\n- Free parking on campus\n- Access to a working farm and horticultural area\n\nWe are accessible by bus, by train via the East Grinstead branch of the Oxted Line and by car\n\nAbout us\n\nEpilepsy can be one of the most frightening and isolating conditions a child can experience. The loss of any sense of safety, trapped in an unpredictable world, not knowing when their next seizure will happen, where it will happen, who will be there and if they will be hurt.\n\nLiving in this unpredictable world takes its toll on a child's physical and mental health, as well as impacting their education and social life. It can limit opportunities for the rest of their life.\n\nChildren with epilepsy have a right to be heard. We are here for them.\n\nTogether we can create a society where children and young people with epilepsy have a voice and can live happy, fulfilled lives. Through research that improves diagnosis and treatments, campaigning for children's rights, and providing innovative tools, information, and practical support for living day-to-day life.\n\nTogether we create possible.\n\nNo agencies please\n\nYoung Epilepsy strives to employ people that reflect the community it serves; therefore, applications from minority groups and people with disabilities are particularly welcomed.\nYoung Epilepsy is the operating name of the National Centre for Young People with Epilepsy. Registered Charity No: 311877 (England and Wales).\n\nIf you do not hear anything within two weeks of the closing date, please assume you have been unsuccessful.\n\nYoung Epilepsy is the operating name of the National Centre for Young People with Epilepsy. Registered Charity No: 311877 (England and Wales).",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAzw9CnBj2xKX20%2fC0%2fZuAVvv",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Fundraising & Database Administrator Job Title: Fundraising & Database Administrator Department: Fundraising and Development Reports to: Data & Insights Manager Location: Hybrid including working in Lingfield, Surrey Salary: Up to £14,681.27per annum based on 21 hours per week (FTE - £25,867 per annum) Hours: 21 hours per week (can be worked over 3 - 5 days) Contract: Permanent, all year round Closing Date: 7th September 2026 Young Epilepsy and St.",
-    "advertiser_name": "Young Epilepsy",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -1305,11 +1178,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225511011",
@@ -1334,12 +1203,82 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225513051",
+    "title": "Temp - Perm Customer Service Coordinator",
+    "company": "Amber Employment Services - Agency - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "27000",
+    "salary_text": "£27000 per year",
+    "posted_date": "2026-08-20",
+    "description": "Customer Service Coordinator Temp to Perm\n\nLocation: Woking\nHours: Monday Friday, 9am 6pm, 40 hours per week\nSalary: £27,001 per annum (permanent equivalent)\n\nAre you an experienced customer service professional who can combine genuine empathy with the ability to work at pace?\n\nWe're recruiting two Customer Service Coordinators to join a busy, purpose-led organisation providing essential services to people across Surrey.\n\nThis is a busy, people-focused role where you ll handle a wide range of calls where no two conversations will necessarily be the same. You'll speak with a wide range of people, including service users, family members and professionals, some of whom may be contacting the service during difficult or sensitive circumstances.\n\nYou'll need to be someone who can make people feel heard, respected and cared for, while confidently managing conversations and working efficiently within a busy call environment.\n\nWhat you'll be doing\n- Handling a high volume of inbound telephone calls\n- Making outbound calls when required\n- Responding to queries professionally, sensitively and efficiently\n- Coordinating and processing service requests and orders\n- Checking information and identifying errors or discrepancies\n- Accurately updating internal systems and records\n- Completing general administration to support the wider operation\n- Handling confidential and sensitive information appropriately\n- Working as part of a close-knit team to meet service levels and respond to busy periods\n\nWhat we're looking for\n\nPrevious call centre or contact centre experience would be desirable but not essential, particularly if you're accustomed to high call volumes and working to SLAs.\n\nMore importantly, we're looking for someone who brings the right combination of confidence, empathy and personality.\n\nYou'll need:\n- Strong telephone-based customer service experience\n- A warm, empathetic and professional communication style\n- The confidence to manage and sensitively control conversations\n- Strong attention to detail and accurate administration skills\n- An understanding of GDPR, confidentiality and handling sensitive information\n- Confidence using Microsoft Office and learning new systems\n- A positive, team-focused attitude\n- Flexibility to occasionally adjust your working hours to support holiday or sickness cover\n\nThe environment\n\nThis is a genuinely welcoming and supportive team with managers who are invested in helping the right people succeed.\n\nThey recognise that everyone works and learns differently and are committed to creating an inclusive environment where individuals can be supported to develop and perform at their best.\n\nThe role can be demanding and fast-paced, but the work has a real purpose. You'll be part of a service that makes a tangible difference to people's everyday lives, with training designed to help you understand the wider impact of the work you do.\n\nThe wider service operates between 8am and 8pm, although these vacancies are specifically for the 9am 6pm shift, Monday to Friday. Some flexibility will be required to support the wider team when needed, and paid overtime may also be available.\n\nThis position will initially be offered on a temp-to-perm basis\n\nIf you're looking for more than just another call centre role and want to join a supportive team where empathy, personality and teamwork genuinely matter, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMVbXi2Cs%2b3U76sE87%2fm1Jdr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Amber Employment Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225514212",
+    "title": "Administrator",
+    "company": "Matchtech - Agency - Contract",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-20",
+    "description": "We're looking for Administrators to join a busy team supporting streetworks operations for a Utilities company.\nThis role is initially a 6-month temporary assignment, with a strong possibility of becoming permanent for the right candidates.\n\nThis is a great opportunity for someone who enjoys working in a fast-paced environment and communicating with a variety of stakeholders.\n\nAdministrator What you'll be doing:\n- Coordinating with operational field teams\n- Liaising with clients and local authorities\n- Processing streetworks permits and related administration\n- Handling telephone queries and providing excellent customer service\n- Maintaining records and updating information on Excel and Google Sheets\n- Supporting planning and scheduling activities where required\n\nWhat we're looking for:\n- NRSWA knowledge or experience desirable\n- Good working knowledge of Excel\n- Experience using Google Sheets\n- Strong communication and customer service skills\n- Confident speaking on the phone and managing multiple stakeholders\n- Planning or scheduling experience desirable\n- Experience within utilities, highways, telecoms, or civil engineering\n\nWorking Hours:\n- Monday to Friday\n- 8:00am - 5:00pm\n- 30-minute lunch break and 2x 15-minute breaks\n\nIf you're organised, customer-focused, and have experience within streetworks or utilities administration, we'd love to hear from you",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaxtqygelLJwqXQhCspmE3a1b",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Matchtech",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225514331",
+    "title": "System Support Administrator",
+    "company": "Impact Food Group - Company - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-20",
+    "description": "System Support Administrator\n\nImpact Food Group\n\nWe one of England s fastest-growing school food providers, serving around one million students every day across more than 1,500 schools. We are dedicated to delivering high-quality, nutritious meals that support student wellbeing and enjoyment.\n\nOur brands include Innovate, Cucina, Chapter One (Independent Schools), Hutchison, and Dolce, reflecting our breadth of experience and reach across the school catering sector.\n\nWe are looking for a proactive, analytical, and detail-oriented System Support Administrator to support the day-to-day operation of our Point of Sale (POS) systems and associated business applications.\n\nGuided by our values, integrity, bold, impactful, humble and community; you will help us shape a workplace and culture we can all be proud of.\n\nWhat you ll be Doing\n\nThis is an excellent opportunity for someone with strong technical aptitude, a passion for problem-solving, and a customer-focused approach. You'll work closely with internal teams and third-party providers to ensure systems operate efficiently, resolve technical issues, and provide valuable data insights that support business performance.\n\nKey Responsibilities:\n\nMaintain and support a range of POS systems, ensuring they remain accurate, reliable, and up to date.\nProvide first-line support to our operators, responding promptly to support tickets, emails, and system enquiries.\nInvestigate and resolve technical, system, and data issues, working with third-party providers where necessary to identifying root causes.\nMonitor recurring issues, identify trends, and recommend improvements to enhance system performance and reliability.\nExtract, analyse, and interpret data from multiple systems to support reporting, projects, and business decision-making.\n\nWhat are we looking for?\n\nExperience working with multiple business systems in a busy operational or support environment.\nExperience supporting POS systems; experience with tills or cashless payment providers would be an advantage.\nStrong technical aptitude with the ability to quickly learn new systems and technologies.\nExcellent analytical, troubleshooting, and problem-solving skills, with the persistence to investigate issues thoroughly until the root cause is understood.\nIntermediate to advanced Microsoft Excel skills, including data analysis, reporting, and manipulation.\nExcellent customer service skills, with experience managing support tickets and email enquiries professionally and efficiently.\nStrong planning and organisational skills, with the ability to prioritise workloads, multitask, and adapt to changing priorities.\n\nIf you re a collaborative, solution-focused professional who thrives in a busy and purposeful environment, we d love to hear from you. Join us and be part of a team that is transforming lives through the power of food, making a genuine difference for students across the UK.\n\nWhat s in It for You?\n- The opportunity to build a career you can be proud of in a growing business.\n- Access to a wide range of free training, qualifications, and development opportunities\n- 25 days annual leave plus bank holidays\n- Staff discount scheme across 850+ retailers\n- Pension scheme and other great company benefits\n- Monthly incentives and recognition for top performers\n\nOur Team\n\nIf you re looking for your next step and want to be part of an organisation that genuinely makes a difference, we d love to hear from you.\n\nIFG are committed to the safeguarding of children, and our employees share this commitment. Successful candidates are required to undergo an enhanced DBS check, which IFG will pay for.\n\nWe are a committed equal opportunities employer - if you require any assistance for the interview process, please detail within your application. All information is kept confidential and in compliance with GDPR requirements.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCLmiSkbgC3LoWQ4lS0tB7tql",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Impact Food Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475597",
@@ -1389,11 +1328,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225457929",
@@ -1443,11 +1378,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225405060",
@@ -1547,11 +1478,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225438595",
@@ -1698,6 +1625,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Optima Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "d11bad31-aa91-4f6a-9e74-4af7e8361c91",
+    "title": "Customer Complaints Handler",
+    "company": "Reed - Agency - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "31750",
+    "salary_max": "31750",
+    "salary_text": "£31750 per year",
+    "posted_date": "2026-08-20",
+    "description": "Working hours: Full time - 37 hours per week\n\nSchedule type: Hybrid working - expected office days 2 days per week (after initial 6 weeks training). However, this is dependent on business needs.\n\nThe Role\n\nAre you ready to make a real difference in people's lives while building a rewarding career? At Raven Housing Trust, we're passionate about creating safe, healthy homes for our residents-and we're looking for someone who shares that commitment.\n\nAs a Customer Complaints Handler, you'll join a forward-thinking customer service & engagement team tackling some of the most important challenges in housing today. This is your chance to play a key role in improving living conditions and shaping services that truly matter.\n\nThis is more than a job-it's an opportunity to be part of a team that values innovation, collaboration, and customer focus. At Raven, we empower our people to lead with purpose. You'll join an organisation that values belonging, ownership, and collaboration-where your voice matters and your impact is felt across our communities. We're proud of our inclusive, supportive culture and our commitment to professional development.\n\nWhat you'll be doing\n\nIn this role, you'll play a crucial part in ensuring our teams have the tools, knowledge, and processes they need to deliver a high-quality service. You will:\n- Ensure a high-quality, fair complaints handling process that resolves issues promptly, improves satisfaction, and reinforces trust between Raven and its residents.\n- Act on customer feedback by listening, analysing complaints, and ensuring the voice of the customer is reflected in service improvements.\n- Engage directly with customers, including via social media, to ensure concerns are heard, addressed, and responded to in a timely and empathetic manner.\n- Improve complaint resolution outcomes by identifying root causes of dissatisfaction, reducing repeat contacts, and feeding insights into service redesign.\n- Ensure full compliance with the Housing Ombudsman Complaint Handling Code and act as first point of contact for the Housing Ombudsman Service, providing accurate and timely information to caseworkers and legal teams.\n\nWhat you'll bring\n\nWe're looking for someone who:\n- Will bring excellent GDPR and data protection legislation knowledge.\n- Proven experience of providing customer service in a housing association or similar regulated sector.\n- An understanding of regulatory requirements and standards for complaint handling.\n- Knowledge of Risk, Governance and Assurance in the Housing Sector.\n\nWhy join Raven?\n\nAt Raven, we're more than just a housing association - we're a community-focused organisation committed to creating positive change. You'll be joining a supportive, forward-thinking team where your ideas and expertise will genuinely make a difference.\n\nYou will also share our values: earning trust by being open and accountable, listening with an open mind, working collaboratively, and caring about making things better.\n\nWhat Raven will offer in return\n\nTo create a great experience for our customers, we need to create a great experience for one another. What Raven offers goes beyond the ordinary, giving you the opportunity to join a community of people who share the same values and are passionate about making a difference.\n\nOur reward package includes:\n- Competitive salaries\n- Fantastic work/life balance with flexible working and generous leave entitlement\n- Strong focus on learning and development, with opportunities to grow your skills and career\n- Enhanced maternity, paternity, and adoption pay\n- Funded health cash plan\n- Extensive wellbeing support\n- Voucher-based recognition scheme\n- Retail discounts\n\nRaven are focused on creating a diverse and inclusive workplace. We encourage applications form all candidates, including minority ethnics, the LBGTQ+ community, people with disabilities and long-term health conditions, neurodivergent people, parents, carers, and people from lower socio-economic backgrounds.\n\nFurther information\n\nAs a Disability Confident Committed employer, we run a guaranteed interview scheme for disabled applicants. If you meet the essential criteria listed in the job description for this position and would like to be considered under this scheme, please state this in your application.\n\nAll data collected is anonymous and has zero bearing on your application. If there is anything we can do to accommodate your specific situation, please let the recruitment team know.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fiHuU0bfz84AZ2h62Hfu90wi",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Customer Complaints Handler Working hours: Full time - 37 hours per week Schedule type: Hybrid working - expected office days 2 days per week (after initial 6 weeks training).",
+    "advertiser_name": "Reed",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
