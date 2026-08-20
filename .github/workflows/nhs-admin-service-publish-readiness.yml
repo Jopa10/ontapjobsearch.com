@@ -26,6 +26,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: nhs-admin-service-publish-readiness
+  cancel-in-progress: false
+
 jobs:
   dry-run:
     runs-on: ubuntu-latest
@@ -64,7 +68,7 @@ jobs:
             --report-json reports/nhs-admin-service-publish-readiness.json \
             --report-md reports/nhs-admin-service-publish-readiness.md
       - name: Commit dry-run evidence to branch
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'push'
         run: |
           if git diff --quiet -- pipeline/reports pipeline/reviews/external/nhs-jobs-review.csv pipeline/reviews/external/nhs-jobs-summary.md; then
             echo 'No dry-run evidence changes.'
