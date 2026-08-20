@@ -1,0 +1,11 @@
+[
+  {"employer":"Splend","site":"splend","instance":"global","enabled":true},
+  {"employer":"MOO","site":"moo","instance":"global","enabled":true},
+  {"employer":"Duffel","site":"duffel","instance":"global","enabled":true},
+  {"employer":"WisdomTree UK","site":"wisdomtree-2","instance":"global","enabled":true},
+  {"employer":"Sofar Sounds","site":"sofarsounds","instance":"global","enabled":true},
+  {"employer":"Mulberry","site":"mulberry","instance":"global","enabled":true},
+  {"employer":"Palantir Technologies","site":"palantir","instance":"global","enabled":true},
+  {"employer":"Getty Images","site":"gettyimages","instance":"global","enabled":true},
+  {"employer":"e.l.f. Beauty","site":"elfbeauty","instance":"global","enabled":true}
+]
