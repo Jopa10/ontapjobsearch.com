@@ -1,0 +1,87 @@
+name: Run Workable London POC
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "poc/workable-london-review"
+    paths:
+      - ".github/workflows/run-workable-london-poc.yml"
+      - "pipeline/external_sources/workable_london_poc.py"
+
+permissions:
+  contents: read
+
+jobs:
+  workable-london-poc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out selected branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install runtime packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Compile Workable POC
+        working-directory: pipeline
+        run: python -m py_compile external_sources/workable_london_poc.py
+
+      - name: Run review-only Workable London POC
+        working-directory: pipeline
+        run: |
+          python -m external_sources.workable_london_poc \
+            --review-csv /tmp/london-workable-review.csv \
+            --review-md /tmp/london-workable-summary.md
+
+      - name: Verify review output and live-site isolation
+        run: |
+          test -s /tmp/london-workable-review.csv
+          test -s /tmp/london-workable-summary.md
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          csv_path = Path('/tmp/london-workable-review.csv')
+          with csv_path.open(newline='', encoding='utf-8-sig') as handle:
+              reader = csv.DictReader(handle)
+              assert reader.fieldnames and reader.fieldnames[0] == 'final_decision', reader.fieldnames
+              rows = list(reader)
+
+          assert rows, 'Workable POC returned no London review rows'
+          salary = [r for r in rows if r['salary_status'] == 'USABLE_REVIEW']
+          reviewable = [r for r in rows if r['final_decision'] in {'SELECTED', 'POSS'}]
+          additional_salary = [
+              r for r in reviewable
+              if r['salary_status'] == 'USABLE_REVIEW' and r['duplicate_status'] == 'ADDITIONAL'
+          ]
+          print(f'Workable London review rows: {len(rows)}')
+          print(f'Salary-bearing London rows: {len(salary)}')
+          print(f'Likely additional reviewable with salary: {len(additional_salary)}')
+
+          summary = Path('/tmp/london-workable-summary.md').read_text(encoding='utf-8')
+          assert 'safety: review-only POC; no approved-output or publishing path' in summary
+          assert '## SELECTED' in summary
+          assert '## POSS — choose SELECT or EXCLUDE' in summary
+          assert '## EXCLUDED' in summary
+          assert '## HARD_PASS' in summary
+          PY
+          git diff --exit-code -- app pipeline/output-admin-service pipeline/output-support-worker pipeline/output-external
+
+      - name: Show summary in workflow log
+        run: cat /tmp/london-workable-summary.md
+
+      - name: Upload Workable London POC review
+        uses: actions/upload-artifact@v4
+        with:
+          name: workable-london-poc-review
+          path: |
+            /tmp/london-workable-review.csv
+            /tmp/london-workable-summary.md
+          if-no-files-found: error
+          retention-days: 7
