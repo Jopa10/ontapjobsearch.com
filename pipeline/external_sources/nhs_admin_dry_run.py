@@ -9,6 +9,8 @@ from pathlib import Path
 from external_sources import nhs_admin_inventory as inventory
 from external_sources import nhs_admin_service as nhs
 
+NHS_JOB_PREFIX = "nhs-"
+
 
 def accepted_nhs_source_ids(composed_dir: Path) -> set[str]:
     ids: set[str] = set()
@@ -25,8 +27,8 @@ def accepted_nhs_source_ids(composed_dir: Path) -> set[str]:
             if not isinstance(row, dict) or row.get("source") != nhs.SOURCE:
                 continue
             job_id = str(row.get("job_id") or "")
-            if job_id.startswith(nhs.NHS_JOB_PREFIX):
-                ids.add(job_id[len(nhs.NHS_JOB_PREFIX):])
+            if job_id.startswith(NHS_JOB_PREFIX):
+                ids.add(job_id[len(NHS_JOB_PREFIX):])
     return ids
 
 
