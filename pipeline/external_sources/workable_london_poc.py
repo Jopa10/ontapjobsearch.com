@@ -36,10 +36,11 @@ REGISTERS = (
 )
 FIELDS = (
     "final_decision", "title", "employer", "location", "salary_text", "salary_status",
-    "salary_evidence", "posted_date", "closing_date", "employment_type", "workplace_type",
-    "source_category", "category", "classification", "classification_reason", "duplicate_status",
-    "duplicate_candidate_title", "duplicate_candidate_employer", "duplicate_score",
-    "source_job_id", "source_url", "apply_url", "manual_action", "source",
+    "salary_evidence", "posted_date", "closing_date", "closing_status", "closing_evidence",
+    "employment_type", "workplace_type", "source_category", "category", "classification",
+    "classification_reason", "duplicate_status", "duplicate_candidate_title",
+    "duplicate_candidate_employer", "duplicate_score", "source_job_id", "source_url",
+    "apply_url", "manual_action", "source",
 )
 
 MONEY_RANGE = re.compile(
@@ -54,6 +55,37 @@ MONEY_SINGLE = re.compile(
     r"(?ix)(?P<prefix>£|GBP\s*)(?P<value>\d{2,3}(?:,\d{3})?(?:\.\d+)?)\s*(?P<k>k)?"
 )
 SALARY_CUES = ("salary", "compensation", "pay range", "pay:", "per annum", "p.a.", " pa ", "annual")
+
+DATE_TOKEN = (
+    r"(?:"
+    r"(?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|"
+    r"Sat(?:urday)?|Sun(?:day)?)\s+)?"
+    r"(?:"
+    r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}"
+    r"|"
+    r"\d{1,2}(?:st|nd|rd|th)?\s+"
+    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+    r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+    r"(?:\s+\d{4})?"
+    r"|"
+    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+    r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+    r"\s+\d{1,2}(?:st|nd|rd|th)?(?:,\s*|\s+)\d{4}"
+    r")"
+)
+CLOSING_PATTERNS = (
+    re.compile(
+        rf"(?ix)\b(?:closing\s+date|application\s+deadline|applications?\s+deadline)"
+        rf"\s*(?:is|:|-)?\s*(?P<date>{DATE_TOKEN})"
+    ),
+    re.compile(
+        rf"(?ix)\bapplications?(?:\s+for\s+(?:this|the)\s+role)?"
+        rf"(?:\s+will)?\s+close\s+(?:on\s+)?(?P<date>{DATE_TOKEN})"
+    ),
+    re.compile(
+        rf"(?ix)\b(?:role|vacancy)\s+closes?\s+(?:on\s+)?(?P<date>{DATE_TOKEN})"
+    ),
+)
 
 
 def clean(value: Any) -> str:
@@ -123,6 +155,46 @@ def salary_from_description(description_html: str) -> tuple[str, str, str]:
     return salary, "USABLE_REVIEW", evidence
 
 
+def closing_from_description(description_html: str) -> tuple[str, str, str]:
+    """Extract only an explicitly-labelled closing/deadline date from advert text."""
+    text = strip_html(description_html)
+    if not text:
+        return "", "NOT_STATED_BY_SOURCE", ""
+
+    for pattern in CLOSING_PATTERNS:
+        match = pattern.search(text)
+        if not match:
+            continue
+        value = clean(match.group("date")).rstrip(".,;:")
+        start, end = match.span()
+        evidence = clean(text[max(0, start - 90): min(len(text), end + 90)])
+        return value, "VISIBLE_EXTRACTED", evidence
+
+    return "", "NOT_STATED_BY_SOURCE", ""
+
+
+def fixture_checks() -> None:
+    salary, status, _evidence = salary_from_description(
+        "<p>Salary: Between £28,000 - £36,000 depending on experience.</p>"
+    )
+    assert salary == "£28,000–£36,000" and status == "USABLE_REVIEW"
+
+    closing, status, _evidence = closing_from_description(
+        "Applications for this role will close on Sunday 13th September."
+    )
+    assert closing == "Sunday 13th September" and status == "VISIBLE_EXTRACTED"
+
+    closing, status, _evidence = closing_from_description(
+        "Closing Date: 17/07/2026"
+    )
+    assert closing == "17/07/2026" and status == "VISIBLE_EXTRACTED"
+
+    closing, status, evidence = closing_from_description(
+        "Applications are reviewed on a rolling basis."
+    )
+    assert closing == "" and status == "NOT_STATED_BY_SOURCE" and evidence == ""
+
+
 def child_text(elem: ET.Element, name: str) -> str:
     child = elem.find(name)
     return clean(child.text if child is not None else "")
@@ -152,6 +224,7 @@ def source_row(elem: ET.Element) -> dict[str, str] | None:
 
     description = child_text(elem, "description")
     salary_text, salary_status, salary_evidence = salary_from_description(description)
+    closing_date, closing_status, closing_evidence = closing_from_description(description)
     location = ", ".join(dict.fromkeys(x for x in (city, state, country) if x))
     remote = child_text(elem, "remote").casefold()
     workplace = "Remote" if remote == "true" else ""
@@ -163,7 +236,9 @@ def source_row(elem: ET.Element) -> dict[str, str] | None:
         "salary_status": salary_status,
         "salary_evidence": salary_evidence,
         "posted_date": child_text(elem, "date"),
-        "closing_date": "",
+        "closing_date": closing_date,
+        "closing_status": closing_status,
+        "closing_evidence": closing_evidence,
         "employment_type": child_text(elem, "jobtype"),
         "workplace_type": workplace,
         "source_category": child_text(elem, "category"),
@@ -294,15 +369,19 @@ def auto_decision(row: dict[str, str]) -> str:
 
 
 def review_fingerprint(rows: list[dict[str, str]]) -> str:
+    factual_fields = tuple(
+        field for field in FIELDS if field not in {"final_decision", "manual_action"}
+    )
     keep = [
-        {k: row[k] for k in (
-            "source_job_id", "title", "employer", "location", "salary_text", "salary_status",
-            "category", "classification", "duplicate_status", "source_url", "apply_url"
-        )}
+        {field: row.get(field, "") for field in factual_fields}
         for row in rows
     ]
     return hashlib.sha256(
-        json.dumps(sorted(keep, key=lambda x: x["source_job_id"]), ensure_ascii=False, sort_keys=True).encode()
+        json.dumps(
+            sorted(keep, key=lambda x: x["source_job_id"]),
+            ensure_ascii=False,
+            sort_keys=True,
+        ).encode()
     ).hexdigest()
 
 
@@ -352,6 +431,7 @@ def write_outputs(
 
     counts = {d: sum(r["final_decision"] == d for r in rows) for d in ("SELECTED", "POSS", "EXCLUDED", "HARD_PASS")}
     salary_jobs = sum(r["salary_status"] == "USABLE_REVIEW" for r in rows)
+    closing_jobs = sum(r["closing_status"] == "VISIBLE_EXTRACTED" for r in rows)
     reviewable_salary = [
         r for r in rows
         if r["salary_status"] == "USABLE_REVIEW"
@@ -374,27 +454,37 @@ def write_outputs(
         f"london_jobs_in_feed: {stats['london_jobs']}",
         f"salary_published_london_jobs: {salary_jobs}",
         f"salary_coverage_london: {salary_pct:.1f}%",
+        f"closing_dates_extracted_from_advert_text: {closing_jobs}",
         f"likely_additional_reviewable_with_salary: {len(reviewable_salary)}",
         f"outcomes: SELECTED {counts['SELECTED']} | POSS {counts['POSS']} | EXCLUDED {counts['EXCLUDED']} | HARD_PASS {counts['HARD_PASS']}",
-        "safety: review-only POC; no approved-output or publishing path",
         "",
-        "field_note: Workable XML supplies posted date and application URL but no closing-date field.",
+        "field_note: Workable XML has no dedicated closing-date field; explicit closing dates are conservatively extracted from advert description text, otherwise the review records not stated by source.",
+        "workplace_note: the global XML feed exposes a remote boolean but not a reliable hybrid/on-site subtype; blank workplace_type therefore means not supplied by the structured feed, not an extraction failure.",
         "salary_note: salary is extracted conservatively from advert description text; every salary-bearing row includes a salary_evidence snippet for manual verification.",
     ]
 
     for decision in ("SELECTED", "POSS", "EXCLUDED", "HARD_PASS"):
-        lines += ["", "## POSS — choose SELECT or EXCLUDE" if decision == "POSS" else f"## {decision}", ""]
+        if decision == "POSS":
+            heading = "## POSS — choose SELECT or EXCLUDE"
+        elif decision == "EXCLUDED":
+            heading = "## EXCLUDED BY REVIEW"
+        else:
+            heading = f"## {decision}"
+        lines += ["", heading, ""]
         matches = [r for r in rows if r["final_decision"] == decision]
         if not matches:
             lines.append("None.")
         for r in matches:
+            closing_display = r["closing_date"] or "not stated by source"
             lines += [
                 "---",
                 f"action: {r['manual_action']}",
                 f"{decision} | London | {r['location']} | {r['salary_text'] or 'salary not stated'} | {r['title']}",
                 f"employer: {r['employer']}",
-                f"posted_date: {r['posted_date'] or 'not supplied'}",
-                "closing_date: not supplied by Workable XML feed",
+                f"posted_date: {r['posted_date'] or 'not stated by source'}",
+                f"closing_date: {closing_display}",
+                f"closing_status: {r['closing_status']}",
+                f"closing_evidence: {r['closing_evidence'] or 'none'}",
                 f"salary_evidence: {r['salary_evidence'] or 'none'}",
                 f"reason: {r['classification_reason']}; duplicate={r['duplicate_status']}",
                 f"source: {SOURCE}",
@@ -404,14 +494,20 @@ def write_outputs(
                 "---",
             ]
 
+    lines += [
+        "",
+        "safety: review-only POC; no approved-output or publishing path",
+    ]
     md_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(
         f"Workable London POC: {len(rows)} London; {salary_jobs} salary-bearing "
-        f"({salary_pct:.1f}%); {len(reviewable_salary)} likely additional reviewable with salary"
+        f"({salary_pct:.1f}%); {closing_jobs} explicit closing dates; "
+        f"{len(reviewable_salary)} likely additional reviewable with salary"
     )
 
 
 def run(feed_url: str, csv_path: Path, md_path: Path) -> int:
+    fixture_checks()
     try:
         rows, stats = fetch_london_jobs(feed_url)
     except (urllib.error.URLError, TimeoutError, ET.ParseError) as exc:
