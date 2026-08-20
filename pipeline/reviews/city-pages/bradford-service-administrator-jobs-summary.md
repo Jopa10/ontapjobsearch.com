@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 16
-- automatic exclude: 43
-- effective include: 9
+- automatic exclude: 40
+- effective include: 8
 - effective review: 16
-- effective exclude: 43
+- effective exclude: 40
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Proactive Global - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225404256
-reason: Approved Bradford catchment.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -326,7 +314,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (43)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -524,18 +512,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Connections Support Administrator
-company: Pertemps Leeds - Agency - Temporary
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225403696
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Administrator
 company: Huntress - Leeds - Agency - Permanent
 location: Leeds
@@ -553,6 +529,18 @@ company: InfoTrack UK - Company - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Document Controller
+company: CSS - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_224689396
 reason: Separate employment market.
 ---
 
@@ -596,18 +584,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Facilities Coordinator
-company: Morgan King - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225481420
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Graduate Finance Assistant
 company: T3AM Global - Agency - Permanent
 location: Leeds
@@ -637,18 +613,6 @@ company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225451264
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Hr Administrator (Immediate start)
-company: HVAC Recruitment - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225404359
 reason: Separate employment market.
 ---
 
@@ -716,6 +680,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Property & Facilities Co-ordinator
+company: Baker Harding Limited - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-107685611
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Property Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -776,18 +752,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Ledger Administrator
-company: Abbeygate Search Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-ea7b8167-e326-4990-b4be-25a564037ae6
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: School Receptionist
 company: Cross Gates Primary School
 location: Leeds
@@ -817,18 +781,6 @@ company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sustainable Funding Coordinator
-company: Alf Recruit Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107863399
 reason: Separate employment market.
 ---
 

@@ -236,18 +236,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor - Dearne
-company: Angard Staffing - Agency - Contract
-location: Barnsley
-source: JobG8
-job_id: jobg8-ddcb07a8-84c1-4f7f-80ce-31bd938e8831
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -349,5 +337,17 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225433915
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Warranty Support Coordinator
+company: Switch Mobility Ltd - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-107728351
 reason: Separate employment market.
 ---

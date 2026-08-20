@@ -200,18 +200,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor - Dearne
-company: Angard Staffing - Agency - Contract
-location: Barnsley
-source: JobG8
-job_id: jobg8-ddcb07a8-84c1-4f7f-80ce-31bd938e8831
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -349,5 +337,17 @@ company: B. Braun Medical Limited - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2ed67242-6482-4fe0-9cbb-7881b58f5424
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Warranty Support Coordinator
+company: Switch Mobility Ltd - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-107728351
 reason: Separate employment market.
 ---

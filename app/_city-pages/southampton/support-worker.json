@@ -19,11 +19,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Safeguarding",
-      "Emotional support"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1642086",
@@ -88,11 +84,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1642087",

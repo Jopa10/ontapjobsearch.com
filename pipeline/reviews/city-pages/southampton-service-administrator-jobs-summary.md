@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 61
+- automatic review: 62
 - automatic exclude: 1
 - effective include: 1
-- effective review: 61
+- effective review: 62
 - effective exclude: 1
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (61)
+## REVIEW (62)
 
 ---
 action: 
@@ -186,23 +186,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Wild Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225402743
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Entry Admin - Basingstoke
 company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225510987
+job_id: jobg8-23643_225512479
 reason: Broad location; review before city inclusion.
 ---
 
@@ -262,6 +250,18 @@ title: Expediting Administrator
 company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
+job_id: jobg8-1e95d440-805a-4ed6-848d-b78b9be437d2
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Expediting Administrator
+company: Workshop Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
 job_id: jobg8-23643_225497720
 reason: Broad location; review before city inclusion.
 ---
@@ -299,18 +299,6 @@ company: Office Angels - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-c7513af2-74eb-4011-bb87-5b623fbf8fc4
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: AWD online - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-6996d07d-dfa8-4872-ab3c-d675c2a4932e
 reason: Broad location; review before city inclusion.
 ---
 
@@ -371,18 +359,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225477911
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: C&C Search Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-195be5ef-6c84-4d3a-97cc-418f791512dc
 reason: Broad location; review before city inclusion.
 ---
 
@@ -522,11 +498,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Onsite Workforce Coordinator
-company: Adecco - Agency - Temporary
+title: Operations & Project Administrator
+company: OP - Agency - Contract
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225432762
+job_id: jobg8-cf2750f1-fb39-480d-a553-cb965ae7d57a
 reason: Broad location; review before city inclusion.
 ---
 
@@ -551,6 +527,18 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225497761
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project & Office Administrator
+company: Venus Recruitment Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225511982
 reason: Broad location; review before city inclusion.
 ---
 
@@ -647,6 +635,30 @@ company: SSAFA - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1660397
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Pertemps Basingstoke - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-4d0ba43c-b778-48f0-b1f7-17d2dba33c6e
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Vanta Staffing Limited - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225512978
 reason: Broad location; review before city inclusion.
 ---
 

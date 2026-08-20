@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 32
+- automatic exclude: 29
 - effective include: 2
 - effective review: 0
-- effective exclude: 32
+- effective exclude: 29
 
 ## INCLUDE (2)
 
@@ -50,7 +50,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (32)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -176,18 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Hr Assistant
-company: Alliance Personnel - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225440078
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Assistant
 company: Bell Cornwall Recruitment - Agency - Permanent
 location: Warwickshire
@@ -200,23 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Dudley Lodge - Company - Permanent
+title: Internal Sales & Customer Services Co-ordinator
+company: Thefutureworks - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-cb8ddb07-5b0c-41f6-8cde-41758bcae9a7
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Jaguar Land Rover Service Advisor
-company: Sytner Group - Company - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-d070e819-a64d-47e5-b136-912fb4cad434
+job_id: jobg8-ed64b0d2-c820-4078-987d-5988e6824c4a
 reason: Separate employment market.
 ---
 
@@ -289,18 +265,6 @@ company: The Princethorpe Foundation - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-107860526
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Programme Coordinator
-company: Reed in Partnership - Company - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-26c4e84f-e3ee-4d79-97f9-4105c719d965
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 1
-- automatic exclude: 19
-- effective include: 7
+- automatic exclude: 20
+- effective include: 6
 - effective review: 1
-- effective exclude: 19
+- effective exclude: 20
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Springwell Special Academy
 location: Barnsley
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Dearne
-company: Angard Staffing - Agency - Contract
-location: Barnsley
-source: JobG8
-job_id: jobg8-ddcb07a8-84c1-4f7f-80ce-31bd938e8831
 reason: Approved Barnsley catchment.
 ---
 
@@ -122,7 +110,7 @@ job_id: jobg8-23643_225459485
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -349,5 +337,17 @@ company: B. Braun Medical Limited - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2ed67242-6482-4fe0-9cbb-7881b58f5424
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Warranty Support Coordinator
+company: Switch Mobility Ltd - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-107728351
 reason: Separate employment market.
 ---

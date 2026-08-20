@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 31
-- automatic exclude: 23
+- automatic review: 32
+- automatic exclude: 24
 - effective include: 19
-- effective review: 30
+- effective review: 32
 - effective exclude: 24
 
 ## INCLUDE (19)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accreditation and Outreach Officer
-company: The Young Women's Film Academy
-location: Newcastle / Regionwide
-source: VONNE
-job_id: vonne-173252
-reason: Approved Newcastle catchment.
----
 
 ---
 action: 
@@ -81,6 +69,18 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-14ed80d091f0fb71e92c86010d5a3182
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-73862c8b83139033e4e4a8b6efca9a33
 reason: Approved Newcastle catchment.
 ---
 
@@ -252,7 +252,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (30)
+## REVIEW (32)
 
 ---
 action: 
@@ -366,6 +366,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Bid Writer
+company: People First Independent Advocacy
+location: North East (hybrid)
+source: VONNE
+job_id: vonne-173334
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Administrator
 company: Spire Healthcare - Company - Permanent
 location: Tyne And Wear
@@ -396,6 +408,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-37de4be2-0a53-41c1-9b2c-dca52159ab6e
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Community Engagement Tutor - Ashington Learning Hive
+company: Northern Learning Trust
+location: Northumberland
+source: VONNE
+job_id: vonne-173341
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -450,11 +474,11 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance and Admin Assistant
-company: Paul Card Recruitment Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-ac5f1d15-4dcd-4491-aa7d-f0c2cde06ef0
+title: Health & Wellbeing Projects Support Officer
+company: VONNE
+location: Tyne and Wear
+source: VONNE
+job_id: vonne-173310
 reason: Broad location; review before city inclusion.
 ---
 
@@ -491,6 +515,18 @@ company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-b4eae84d-a884-4356-95b6-25bfd89c63c4
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Support Assistant/ Administrator
+company: Pertemps Scotland Temps - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-57b0c50b-a987-496c-9f86-52267c454f09
 reason: Broad location; review before city inclusion.
 ---
 
@@ -551,18 +587,6 @@ company: First Class Supply & Training
 location: School Administrators required, various roles available throughout South Tyneside
 source: NEJobs
 job_id: nejobs-256125
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Statutory SEND Coordinator
-company: Northumberland County Council
-location: County Hall MORPETH, United Kingdom
-source: NEJobs
-job_id: nejobs-300549
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -776,6 +800,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR & Accounts Assistant
+company: Candidate Source - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107836549
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Maintenance Administrator
+company: Hays Business Support - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225512280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Operations Administrator (Administration and Customer Service)
 company: Impellam - Agency - Contract
 location: County Durham
@@ -817,18 +865,6 @@ company: Reed - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-eb882a3e-7edf-4fe0-8fe1-cf24c12bf16f
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Support Administrator
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-646b596c-525f-4641-9329-03f131b59e32
 reason: Separate employment market.
 ---
 
@@ -884,22 +920,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Temporary Administrator
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-e12fcfe3-076c-47be-a30c-227026a13277
-reason: Separate employment market.
----
-
----
-action: exclude
-decision: exclude
-automatic_decision: review
-title: VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
-company: VONNE
-location: Tyne and Wear
+title: Youth Engagement Officer
+company: Foundation of Light
+location: Sunderland
 source: VONNE
-job_id: vonne-173253
-reason: Broad location; review before city inclusion.
+job_id: vonne-173331
+reason: Separate employment market.
 ---

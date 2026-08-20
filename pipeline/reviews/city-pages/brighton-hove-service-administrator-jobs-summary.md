@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 38
+- automatic review: 39
 - automatic exclude: 3
 - effective include: 1
-- effective review: 38
+- effective review: 39
 - effective exclude: 3
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-administrative-assistants-cardinal-newman-catholic-sc
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (39)
 
 ---
 action: 
@@ -198,6 +198,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Financial Services Administrator
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225514099
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Higher Education Administrator 3 days a week M/T/W
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -318,6 +330,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: People Services Administrator
+company: Southdown - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107806176
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Premises Co-ordinator - ASAP Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -378,18 +402,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator 9am - 3pm 3 days per week
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225400823
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Co-ordinator
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -415,10 +427,10 @@ action:
 decision: review
 automatic_decision: review
 title: School HR Administrator
-company: Office Angels - Agency - Permanent
+company: Office Angels - Agency - Contract
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225498357
+job_id: jobg8-347cfddc-439f-4318-bf5c-81d17bdb84bb
 reason: Broad location; review before city inclusion.
 ---
 
@@ -426,11 +438,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Travail Employment Group - Agency - Permanent
+title: School HR Administrator
+company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225431879
+job_id: jobg8-23643_225498357
 reason: Broad location; review before city inclusion.
 ---
 

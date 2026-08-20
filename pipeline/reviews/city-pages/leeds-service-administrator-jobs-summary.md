@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 18
-- automatic exclude: 22
-- effective include: 28
-- effective review: 18
-- effective exclude: 22
+- automatic include: 26
+- automatic review: 17
+- automatic exclude: 21
+- effective include: 26
+- effective review: 17
+- effective exclude: 21
 
-## INCLUDE (28)
+## INCLUDE (26)
 
 ---
 action: 
@@ -172,6 +172,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Document Controller
+company: CSS - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_224689396
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: EL/PL Claims Handler
 company: Keoghs LLP - Company - Permanent
 location: Leeds
@@ -201,18 +213,6 @@ company: Baker Harding Limited - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-107680320
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Facilities Coordinator
-company: Morgan King - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225481420
 reason: Approved Leeds catchment.
 ---
 
@@ -256,18 +256,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Hr Administrator (Immediate start)
-company: HVAC Recruitment - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225404359
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Assistant
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Leeds
@@ -285,6 +273,18 @@ company: Huntress - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-e8be6b4a-3c51-4aaa-95e5-513bc3de6296
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property & Facilities Co-ordinator
+company: Baker Harding Limited - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-107685611
 reason: Approved Leeds catchment.
 ---
 
@@ -316,18 +316,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Ledger Administrator
-company: Abbeygate Search Ltd - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-ea7b8167-e326-4990-b4be-25a564037ae6
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Receptionist
 company: Cross Gates Primary School
 location: Leeds
@@ -348,19 +336,7 @@ job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-we
 reason: Approved Leeds catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sustainable Funding Coordinator
-company: Alf Recruit Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107863399
-reason: Approved Leeds catchment.
----
-
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -395,18 +371,6 @@ company: Moulds Accountants & Advisory Services - Agency - Permanent
 location: Wetherby
 source: JobG8
 job_id: jobg8-23643_225458763
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Connections Support Administrator
-company: Pertemps Leeds - Agency - Temporary
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225403696
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -578,7 +542,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -589,18 +553,6 @@ company: Woodkirk Academy
 location: Wakefield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Proactive Global - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225404256
 reason: Separate employment market.
 ---
 
