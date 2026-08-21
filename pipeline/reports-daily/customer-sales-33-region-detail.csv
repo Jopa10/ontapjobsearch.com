@@ -1,0 +1,204 @@
+job_id,title,employer,location,region,classification,selection_reason,boundary_review,service_admin_overlap,campaign_key,campaign_representative
+965a7a3a-0171-406f-b889-5a5da163359f,Account Manager,Rise Technical Recruitment Limited,Bracknell,Berkshire,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,346d7cb07af1f7d9,True
+02705dec-12f7-4ed9-9981-85c8fe260f88,German Speaking Customer Support Administrator,Euro London,Bristol,Bristol & Bath,CUSTOMER_SALES,customer/service role with sales evidence: sales opportunities,False,False,5120c63ffb3d17b8,True
+107785118,Telesales Executive (Recruitment / Full Training),Ernest Gordon Recruitment,Bristol,Bristol & Bath,DIRECT_SALES,"sales-led title: sales executive, telesales",False,False,a81d33127d6910a4,True
+23643_225363989,Sales Executive,Henley Executive,Bristol,Bristol & Bath,DIRECT_SALES,sales-led title: sales executive,False,False,f0a63576ba0094eb,True
+107539278,Business Development Executive,SCG South West,Bristol,Bristol & Bath,DIRECT_SALES,sales-led title: business development executive,False,False,54c2e0fe6551b35c,True
+23643_225475667,Customer Sales Advisor,hireful,Bristol,Bristol & Bath,DIRECT_SALES,"sales-led title: sales advisor, customer sales",False,False,94787ec343e53f27,True
+9bc9d711-fb4b-4f77-bc40-a68556344876,Sales Executive,ACS Recruitment Solutions Ltd,Milton Keynes,Buckinghamshire,DIRECT_SALES,sales-led title: sales executive,False,False,731a793c03ec9eea,True
+23044cef-642a-414d-be58-8a32d7d7a7c2,Internal Sales / Sales Specialist,GCS Associates,Milton Keynes,Buckinghamshire,DIRECT_SALES,sales-led title: internal sales,False,False,7f9e8b95e2ff1367,True
+fb07d9c1-7d00-4de7-baec-301d38396806,Sales Consultant,RELOcruitment,Not Specified,Buckinghamshire,DIRECT_SALES,sales-led title: sales consultant,False,False,787b6f7a98884fee,True
+39442676-47a1-4913-807d-28456ee41bc8,Sales Consultant,Red Recruit Ltd,Not Specified,Buckinghamshire,DIRECT_SALES,sales-led title: sales consultant,False,False,2f34e9af5dd0ccee,True
+82d836a9-ab4a-46b3-b6b5-b3e0e87ad42b,Client Account Manager,360 Resourcing Solutions,Cambridge,Cambridgeshire,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,d594205556d370d0,True
+bc06c685-cd6b-44da-a6c0-dfb6cdcf10c9,Customer Service Administrator,RELOcruitment,Cambridge,Cambridgeshire,CUSTOMER_SALES,"customer/service role with sales evidence: upsell, selling",False,False,dc1c9ea0a974377c,True
+107757902,Sales Executive - Lithuanian Latvian Ukrainian or Russian,Advancing People Limited,Peterborough,Cambridgeshire,DIRECT_SALES,sales-led title: sales executive,False,False,387b6cc929f99b70,True
+6ac5c8ef-4394-421d-b227-88419fa1579d,B2B Sales Executive,O'Loughlin Recruitment Ltd,Peterborough,Cambridgeshire,DIRECT_SALES,sales-led title: sales executive,False,False,0f2e2c473df9c95b,True
+74a0760c-8a24-4ca5-b3c9-1e4c398a0e94,Sales Consultant,Red Recruit Ltd,Cambridge,Cambridgeshire,DIRECT_SALES,sales-led title: sales consultant,False,False,a1b7704b826e1c9e,True
+57c8c747-6731-423a-b8b4-3ed04b06dfa5,Life Insurance Sales Executive,Red Robin Resources Ltd,Peterborough,Cambridgeshire,DIRECT_SALES,sales-led title: sales executive,False,False,3c8d7088fd0fd218,True
+8ed1450a-17f0-4ee6-8e9d-ca1ccb8cd5bd,Client Services Administrator,Adecco,Kendal,Cumbria - South,CUSTOMER_SALES,customer/service role with sales evidence: new business,False,False,5429c136f7278e0b,True
+e2eef43c-8912-4632-be1d-5d4bf47040a5,Customer Account Manager,Acorn by Synergie,Newton Abbot,Devon,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,2247386ed346bdb5,True
+33544226-0ceb-460d-b580-a2a1f6e39989,Account Manager,BOWERFORD ASSOCIATES,Exeter,Devon,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,4857ed2a8f8533ab,True
+107798107,Internal Sales Executive,Rubix,Plymouth,Devon,DIRECT_SALES,"sales-led title: sales executive, internal sales",False,False,9a5d63a38299e489,True
+c614b298-cb74-4367-ac59-4a131f9373b4,"Customer Service Adviser - Poole - £27,000",Bond Williams,Poole,Dorset,CUSTOMER_SALES,"customer/service role with sales evidence: sales opportunities, sales experience",False,False,4862b36f539a6727,True
+107693325,"Telemarketer - Bournemouth - £30,000 + Uncapped Commission",Bond Williams Limited,Bournemouth,Dorset,DIRECT_SALES,sales-led title: telemarketer,False,False,8d005af324ecbf90,True
+107871826,Sales Representative,Everest,Dorchester,Dorset,DIRECT_SALES,sales-led title: sales representative,False,False,c1c3de6f8bcaa02a,True
+107776337,Road Logistics Sales Representative,Kuehne+Nagel,Poole,Dorset,DIRECT_SALES,sales-led title: sales representative,False,False,01142ef6efe47806,True
+5b1d0ec7-1f64-4f90-9764-d8b0caf2089f,Sales Consultant,RELOcruitment,Not Specified,Dorset,DIRECT_SALES,sales-led title: sales consultant,False,False,77bcf9b68d90f961,True
+dca638eb-5190-42ca-88ca-f50b5ac8d1a2,Business Development Executive,Adore Recruitment,Basildon,Essex,DIRECT_SALES,sales-led title: business development executive,False,False,228f92a6c73e25e7,True
+107830751,Part Time Telemarketer,Employment Specialists,Colchester,Essex,DIRECT_SALES,sales-led title: telemarketer,False,False,54b5a176fc7c157d,True
+29fd4ecd-591f-49b5-b19b-db0a6f8197ee,Business Development Executive,Employment Specialists Ltd,Colchester,Essex,DIRECT_SALES,sales-led title: business development executive,False,False,fd17eb8ac8926ff1,True
+45e9d7e5-245f-4ebd-8f15-77a6a1555e2f,Part Time Telemarketer,Employment Specialists Ltd,Colchester,Essex,DIRECT_SALES,sales-led title: telemarketer,False,False,17ef037001490180,True
+287d42cc-e180-499f-a041-2360f561bb03,Business Development Executive,GreatFind Recruitment,Harlow,Essex,DIRECT_SALES,sales-led title: business development executive,False,False,241b1f5024f74356,True
+56cfb4ca-ef24-48d2-96ca-0f7f1d5da2f4,Customer Success Manager,i2i Recruitment Consultancy,Tewkesbury,Gloucestershire,CUSTOMER_SALES,customer/service role with sales evidence: renewals,False,False,6b4f07fde0ad700e,True
+32be9bbf-e40c-490f-b38b-64de132b0888,Internal Sales Executive (B2B),Ernest Gordon Recruitment Limited,Not Specified,Gloucestershire,DIRECT_SALES,"sales-led title: sales executive, internal sales",False,False,9b6b348c7641fd33,True
+23643_225453895,Internal Sales Coordinator,RE Recruitment,Tewkesbury,Gloucestershire,DIRECT_SALES,sales-led title: internal sales,False,False,981a29a8c50ce8bc,True
+69ba10e7-c44c-4ed8-b7d8-497c37f6ed4a,Netsuite Account Manager,Chapman Tate Associates,Manchester,Greater Manchester - Manchester & Salford,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,62128aa00f617b8e,True
+23643_225473515,Temporary Outbound Customer Advisor - Warm Enquiries,Office Angels,Salford,Greater Manchester - Manchester & Salford,CUSTOMER_SALES,"customer/service role with sales evidence: warm enquiries, booked and paid",False,False,1e25c8feef01ac88,True
+23643_225489378,Customer Service Representative,Pickfords,Stretford,Greater Manchester - Manchester & Salford,CUSTOMER_SALES,"customer/service role with sales evidence: sales opportunities, upsell",False,False,ab725166e99befa8,True
+107799162,Sales Executive - German Speaking,Advancing People Limited,Not Specified,Greater Manchester - Manchester & Salford,DIRECT_SALES,sales-led title: sales executive,False,False,276347ed699b0847,True
+fcf2e079-d798-4f6d-8157-849c7b544577,Business Development Executive,Aimee Willow Connex,Manchester,Greater Manchester - Manchester & Salford,DIRECT_SALES,sales-led title: business development executive,False,False,8e1c68b1a493a62f,True
+8e8f62b4-86be-43cd-9ab3-410bfe5b9bb1,Sales Executive - Financial Services,CCA Recruitment Group,Manchester,Greater Manchester - Manchester & Salford,DIRECT_SALES,sales-led title: sales executive,False,False,22883e13791bf303,True
+23643_225512046,Temporary Outbound Sales Executive,Office Angels,Salford,Greater Manchester - Manchester & Salford,DIRECT_SALES,"sales-led title: sales executive, outbound sales",False,False,f06b48ca05902c4d,True
+2b230770-fb76-4188-b2ab-ed1cff7806e2,Client Services Administrator,Hays Specialist Recruitment Limited,Cheadle,Greater Manchester - South,CUSTOMER_SALES,customer/service role with sales evidence: new business,False,False,5c3c1e29bcb64ce5,True
+23643_225434313,Customer Support Specialist,Jobwise Ltd,Altrincham,Greater Manchester - South,CUSTOMER_SALES,"customer/service role with sales evidence: warm leads, telesales, cold calling",False,False,a729b29834749c0c,True
+12363982-eb5f-4819-9e6f-aa37a5c81ec1,French speaking Customer Service - Golf sector,The Language Business - Language Recruitment Specialists,Basingstoke,Hampshire,CUSTOMER_SALES,"customer/service role with sales evidence: upsell, outbound sales, sales role",False,False,a0ad01e1ac439c04,True
+107389072,Business Development Executive,Paragon Marketing,Portsmouth,Hampshire,DIRECT_SALES,sales-led title: business development executive,False,False,8a7bddc6a7fbcebd,True
+107759279,Sales Executive,Searchability (UK) Ltd,Fareham,Hampshire,DIRECT_SALES,sales-led title: sales executive,False,False,f3845d078c19bd20,True
+23643_225435473,Internal Sales Executive,TRS (Technical Recruitment Solutions),Fareham,Hampshire,DIRECT_SALES,"sales-led title: sales executive, internal sales",False,False,0f2af3bf475bae88,True
+ecaf72b2-9d7c-4994-a184-b358c500ec97,German/Hebrew Customer Service,Parkside Office Professional,Watford,Hertfordshire,CUSTOMER_SALES,"customer/service role with sales evidence: sales opportunities, upsell",False,False,5db38d71115e3976,True
+d6608522-0f2d-497f-b6a5-9ad1b1c9e549,Business Development Executive,Fortrade,Watford,Hertfordshire,DIRECT_SALES,sales-led title: business development executive,False,False,f4af4459bd72a842,True
+220f2187-9d2e-4714-bbe4-82112fdfabac,Electrical SERVICE SALES Executive - Electrical/Electronics Industry,Virtuoso Recruitment Limited,Letchworth Garden City,Hertfordshire,DIRECT_SALES,sales-led title: sales executive,False,False,00001c9dd35cfb76,True
+db261fce-bc72-4699-8504-ee766ecc1449,Customer Service Coordinator,Insight Select Ltd,Maidstone,Kent,CUSTOMER_SALES,customer/service role with sales evidence: upsell,False,True,2cc7fd110d7b3a01,True
+a04537cd-6891-4560-92f6-9edbd552d487,Commercial Insurance Sales Executive,CKB Recruitment,Gravesend,Kent,DIRECT_SALES,sales-led title: sales executive,False,False,bc96ed122245bfa3,True
+4755e1cf-2b3f-48e1-b331-b80957da08d7,Trainee Commercial Insurance Sales Executive,CKB Recruitment,Gravesend,Kent,DIRECT_SALES,sales-led title: sales executive,False,False,f67955a0b269c48d,True
+107841713,Business Development Executive,Data Careers,Gravesend,Kent,DIRECT_SALES,sales-led title: business development executive,False,False,39389a3cdd7f737b,True
+23643_225476712,Business Development Executive,EA First,Maidstone,Kent,DIRECT_SALES,sales-led title: business development executive,False,False,ff27fcd04d49d7bf,True
+d70f0134-e88a-41a5-bdb8-f00d0e4a38a6,Business Development Executive,Employal,Tunbridge Wells,Kent,DIRECT_SALES,sales-led title: business development executive,False,False,8a4563f08eeb8355,True
+23643_224012114,Account Manager,Blayze Unguem Ltd,City,London,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,e96674c3fb860a01,True
+23643_224897599,Account Manager,Buchan and London Recruitment,Not Specified,London,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,5d3f3b6cb5461999,True
+7ae6cbfa-cff8-4be0-a58d-c32a3c5e523f,Account Manager / New business,Buchan and London Recruitment Ltd,Not Specified,London,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,e86cb6d9d3e121d5,True
+23643_225476170,Account Manager - IT Recruitment,Four Squared Recruitment Ltd,City,London,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,5bac0ef0c7023416,True
+0201c38f-0759-4e8b-afe9-886f5032cc78,Account Manager,VCL Vintners,Not Specified,London,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,834334de701ae4f6,True
+b7108d2d-f7fb-4cab-96eb-c10fa654f722,Client Service Specialist,Alexander Lloyd,Not Specified,London,CUSTOMER_SALES,customer/service role with sales evidence: renewals,False,False,d3ce0cbb3eaebfa8,True
+4dd8d513-8ffd-4e38-846c-a67afb0e54c2,Sales & Customer Service Advisor - No Experience Required,Blackwater Recruitment,Not Specified,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, close sales, sales role",False,True,1f094cf3ee739594,True
+c9f7a00a-95db-4213-b848-09cd5c2b289e,Sales & Customer Service Associate - Immediate Start,Blackwater Recruitment,Harrow,London,CUSTOMER_SALES,customer/service role with sales evidence: commission,False,False,1ba8f418f79561e1,True
+11c24264-c81e-4a6d-9f1a-e6092c68772f,Client Services Manager - Wealth Management,Brevere Group,Not Specified,London,CUSTOMER_SALES,customer/service role with sales evidence: new business,False,False,41f3224e720794fc,True
+20279_60790-d7c6b8836d8aad88b024254f869d65a8,Call Centre Agent,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,05ee55427a44ff44,False
+20279_60790-85269a08ed0b6ec178c60afb43d9fa54,Call Centre Operator,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,05ee55427a44ff44,True
+20279_61775-87702a1e673975e9bbf89c3879ce0d96,Contact Centre Agent,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,3bc6036e1c0070e9,False
+20279_60790-f8145293a99ee8a5fe099e7dc9419d9b,Customer Service Advisor,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,05ee55427a44ff44,False
+20279_61775-bc676c40e9c09bc657b1565a872d1105,Customer Service Advisor,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,3bc6036e1c0070e9,False
+20279_61775-6b97dbbc118795a15440939a53353897,Customer Service Representative,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,3bc6036e1c0070e9,True
+20279_60790-df4eab5dbda5be3eff287c452fdbaf77,Customer Service Representative,EE,City,London,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,05ee55427a44ff44,False
+24879_106835890,German or French Speaking Institutional Client Service Relationship Manager,Fisher Investments,City,London,CUSTOMER_SALES,customer/service role with sales evidence: cross-sell,False,False,902320fb741a1463,True
+23643_225515951,Customer Success Executive,GlobalData UK Ltd,City,London,CUSTOMER_SALES,customer/service role with sales evidence: upsell,False,False,fd19db8e75efd223,True
+f52351f4-c6e4-44f5-9240-3578866b4c12,Marketing and Business Development Executive,Birchrose Associates,Not Specified,London,DIRECT_SALES,sales-led title: business development executive,False,False,1073247c7d48c06a,True
+107835574,Telesales Executive,Brook Street UK,City,London,DIRECT_SALES,"sales-led title: sales executive, telesales",False,False,617349c1cfd67c82,True
+04cd2bad-6518-4380-a200-df5a10ef38c6,Graduate Business Development Executive,Celsius Graduate Recruitment Limited,Not Specified,London,DIRECT_SALES,sales-led title: business development executive,False,False,c907b3d16e87ae2b,True
+23643_225194717,Business Development Executive,Cure Talent Ltd,Not Specified,London,DIRECT_SALES,sales-led title: business development executive,False,False,4b9dc4727e27e7d1,True
+23643_225194773,Business Development Executive,Cure Talent Ltd,City,London,DIRECT_SALES,sales-led title: business development executive,False,False,4b9dc4727e27e7d1,False
+20279_61775-714afb01ebf3664bdb0febe6b0f96c3d,Sales Advisor,EE,City,London,DIRECT_SALES,sales-led title: sales advisor,False,False,3bc6036e1c0070e9,False
+20279_61897-714afb01ebf3664bdb0febe6b0f96c3d,Sales Advisor - Part Time,EE,City,London,DIRECT_SALES,sales-led title: sales advisor,False,False,c8f9bfef5d88c0f7,True
+20279_61775-3fb52e8ffb53f69992f313179317e2cb,Sales Agent,EE,City,London,DIRECT_SALES,sales-led title: sales agent,False,False,3bc6036e1c0070e9,False
+20279_60790-4b19af7798ce6842b69ea938e45d303f,Sales Representative,EE,City,London,DIRECT_SALES,sales-led title: sales representative,False,False,05ee55427a44ff44,False
+20279_61775-7eec87a0c00a7c487fb28dbb3484fe04,Sales Representative,EE,City,London,DIRECT_SALES,sales-led title: sales representative,False,False,3bc6036e1c0070e9,False
+b40d2063-966a-4eca-9262-3829f03ad16e,Business Development Executive,Intretech,Not Specified,London,DIRECT_SALES,sales-led title: business development executive,False,False,cd4f2171bd4ddc80,True
+23643_225044734,Wholesale Sales Executive for Luxurious Fashion Apparel,JAC Recruitment,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,f4ac72bc8b075211,True
+23643_225364181,Media Sales Executive,Lipton Media,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,d677a8d7d5e28f82,True
+23643_225403423,Graduate Media Sales Executive,Monroe & Chase,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,b916a40e2e6e146e,True
+ab1dadc2-a539-43e2-8bf5-e328e49052bb,Security Sales Executive - Security Manned Guarding- London,Newton Colmore Consulting Ltd,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,eafb588d2cf5fb58,True
+4b64215e-9e6d-4ca0-bae6-b756e99874bf,Part Time Telemarketing Temp Events,Office Angels,Twickenham,London,DIRECT_SALES,sales-led title: telemarketing,False,False,95feccbe1176345a,True
+23643_225472975,Part-Time Sales Executive - EV Car Chargers,Office Angels,City,London,DIRECT_SALES,sales-led title: sales executive,False,False,408d26de79508724,True
+23643_225478155,Internal Sales,Options Resourcing Ltd,City,London,DIRECT_SALES,sales-led title: internal sales,False,False,aa440f7626117f11,True
+c1ccfd51-0220-4afe-bb71-2087508de0d6,Sales Executive,Parkside Office Professional,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,eb9b65563846d664,True
+107863502,Full-Time Sales Executive,Status Motor Group,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,6cac2ffc0c8de9de,True
+1651379,Sales Executive,The Talent Set,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,cdf504ecf916bb74,True
+3d84b654-afab-4754-a2f7-cd3bb7179fd2,Business Development Executive,Tony Alan Recruitment,Not Specified,London,DIRECT_SALES,sales-led title: business development executive,False,False,820d3dcaafe191cf,True
+548b583a-1933-4b65-bdfd-039b37fc0a5b,Business Development Executive,Upgrade Recruitment Ltd,Not Specified,London,DIRECT_SALES,sales-led title: business development executive,False,False,b3f70e9ece2898a8,True
+107792817,Luxury Sales Consultant,Zachary Daniels,City,London,DIRECT_SALES,sales-led title: sales consultant,False,False,0b4fe411787d1660,True
+23643_225489841,B2B Sales Executive,Zachary Daniels Recruitment,Not Specified,London,DIRECT_SALES,sales-led title: sales executive,False,False,67f55219700b29ae,True
+ff9f5bdd-cb7a-44dc-81c5-be214519b7b2,Sales Executive / Account Manager,ALH Recruitment Ltd,King's Lynn,Norfolk,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,ded782e1cde906fb,True
+3122a3ed-db4e-4686-9d89-961fdb5641b2,Customer Account Manager,Zero Surplus,King's Lynn,Norfolk,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,0d6a7b5906716b21,True
+a0ca396e-d60d-430e-9825-955b9a01f863,Sales Advisor,ALH Recruitment Ltd,King's Lynn,Norfolk,DIRECT_SALES,sales-led title: sales advisor,False,False,3b73cdf28388e79b,True
+dfa2ccf7-17b8-4ab8-8f84-068d14afa090,Sales Executive,First City Recruitment Ltd,King's Lynn,Norfolk,DIRECT_SALES,sales-led title: sales executive,False,False,c9365b4a516b9603,True
+c3f7f19c-a0fb-4730-9d98-0ad3cd9a0faa,Media Sales Executive,Service Service Employment Agency Limited,Norwich,Norfolk,DIRECT_SALES,sales-led title: sales executive,False,False,f0d304e9fdfeabd3,True
+20279_61775-deab967b99c6e63d0dd459a12179664a,Call Centre Agent,EE,Gateshead,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-8bb4b73a68aaaf346f4a919e26e44f12,Call Centre Agent,EE,Wallsend,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-33210dbc92626a35bffe42114b330ff3,Call Centre Agent,EE,South Shields,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-20fc350b6789c39cd18ccac91ac57148,Call Centre Agent,EE,North Shields,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-14ed80d091f0fb71e92c86010d5a3182,Call Centre Agent,EE,Whitley Bay,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-0dc834e990c9af3799011e2ebb0fc687,Call Centre Operator,EE,South Shields,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-bbd8f3ecb6935e720a2d5c3d16688989,Call Centre Operator,EE,Washington,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-5eabb6aaa6c5dac84023535f868d0408,Call Centre Operator,EE,Gateshead,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,EE,Newcastle Upon Tyne,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE,Newcastle Upon Tyne,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-b84827dfe56f1cdb62c773823ebeb739,Contact Centre Agent,EE,Whitley Bay,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-274537a8c8f64b291278ed309ad39199,Contact Centre Agent,EE,Jarrow,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-33ae573bb155210411f372c9d91f6158,Contact Centre Agent,EE,North Shields,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-dc0a27dec7f9767a517f1bdee6e96749,Customer Service Advisor,EE,Cramlington,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-8ef0e6749cf58d9b5561096820a10361,Customer Service Advisor,EE,Jarrow,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-405f06a99b99d692d3dbd58aa6f29272,Customer Service Advisor,EE,Washington,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE,Newcastle Upon Tyne,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-bc07315b5e693bf3b4ea520e30fc6b93,Customer Service Advisor,EE,Whitley Bay,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,True,f55b9a88e9443e86,False
+20279_61775-bc1f612ea8cca2ca26144bf48157219f,Customer Service Representative,EE,South Shields,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-a7a3c096bd98e731264c684f71b08f27,Customer Service Representative,EE,Washington,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61775-b6f536e2f3588a7554a90a1b17ad819c,Customer Service Representative,EE,Whitley Bay,North East,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission, cold calling",False,False,f55b9a88e9443e86,False
+20279_61122-b6a5abb8cb239edda734f83e02af7151,Apprentice Sales Advisor,EE,Washington,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,True
+20279_61122-59c59f9b3c520d22bb5c2866f13441cf,Apprentice Sales Advisor,EE,North Shields,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,False
+20279_61122-ef7f539b8e9ba33cad21e044c32527c2,Apprentice Sales Advisor,EE,Wallsend,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,False
+20279_61122-b3dfc7fb9161b3eb7c4abe3945172d88,Apprentice Sales Advisor,EE,Hebburn,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,False
+20279_61122-6244596d725e8bfdfd2d12eee2f9a237,Apprentice Sales Advisor,EE,Jarrow,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,False
+20279_61122,Apprentice Sales Advisor,EE,Newcastle Upon Tyne,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,False
+20279_61122-97dd20c4ebf6ff9280a87b3c8decd99f,Apprentice Sales Advisor,EE,Gateshead,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,9e02851f585bcf64,False
+20279_61775,Sales Advisor,EE,Newcastle Upon Tyne,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,f55b9a88e9443e86,True
+20279_61775-b6a5abb8cb239edda734f83e02af7151,Sales Advisor,EE,Washington,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,f55b9a88e9443e86,False
+20279_61775-59c59f9b3c520d22bb5c2866f13441cf,Sales Advisor,EE,North Shields,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,f55b9a88e9443e86,False
+20279_61775-9590fcbeb2a607842ad3c14eab014f49,Sales Advisor,EE,Whitley Bay,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,f55b9a88e9443e86,False
+20279_61775-41cdf25d056349db306149492f169b31,Sales Advisor,EE,South Shields,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,f55b9a88e9443e86,False
+20279_61897-6244596d725e8bfdfd2d12eee2f9a237,Sales Advisor - Part Time,EE,Jarrow,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,1792d1c620468981,True
+20279_61897-9590fcbeb2a607842ad3c14eab014f49,Sales Advisor - Part Time,EE,Whitley Bay,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,1792d1c620468981,False
+20279_61897,Sales Advisor - Part Time,EE,Newcastle Upon Tyne,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,1792d1c620468981,False
+20279_61897-8a947d76c6803dd88116d68f668dce22,Sales Advisor - Part Time,EE,Cramlington,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,1792d1c620468981,False
+20279_61897-b3dfc7fb9161b3eb7c4abe3945172d88,Sales Advisor - Part Time,EE,Hebburn,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,1792d1c620468981,False
+20279_61897-b6a5abb8cb239edda734f83e02af7151,Sales Advisor - Part Time,EE,Washington,North East,DIRECT_SALES,sales-led title: sales advisor,False,False,1792d1c620468981,False
+20279_61775-830d9edb19fe94dc89e41d49b2ae306e,Sales Agent,EE,North Shields,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-5e1b2fa9c543df563e4c374a01c75b13,Sales Agent,EE,Newcastle Upon Tyne,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-18a220cf64d07127f597b79770dde552,Sales Agent,EE,Jarrow,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-e987296dda43166d6ba2e152db0e619a,Sales Agent,EE,Cramlington,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-88da17e82b50cfcf5c070e4e93ac6fa4,Sales Agent,EE,Wallsend,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-6902b7bed7f6c845729e38affd3dcf8a,Sales Agent,EE,Hebburn,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-efab97229eb36dce5cfa169571d011db,Sales Agent,EE,South Shields,North East,DIRECT_SALES,sales-led title: sales agent,False,False,f55b9a88e9443e86,False
+20279_61775-323080519a936acaad6f9612c9c37ca4,Sales Representative,EE,Wallsend,North East,DIRECT_SALES,sales-led title: sales representative,False,False,f55b9a88e9443e86,False
+20279_61775-ed5b6b7358a742a3c7d24f43dc1cee0b,Sales Representative,EE,Hebburn,North East,DIRECT_SALES,sales-led title: sales representative,False,False,f55b9a88e9443e86,False
+20279_61775-1ee54115fce26cc3bc57535271198682,Sales Representative,EE,Whitley Bay,North East,DIRECT_SALES,sales-led title: sales representative,False,False,f55b9a88e9443e86,False
+20279_61775-d8de2b0c11db24b6274a698cb2af3e3f,Sales Representative,EE,South Shields,North East,DIRECT_SALES,sales-led title: sales representative,False,False,f55b9a88e9443e86,False
+20279_61775-1a9ab48d0ef0f61d70b3780dfb1654b4,Sales Representative,EE,Newcastle Upon Tyne,North East,DIRECT_SALES,sales-led title: sales representative,False,False,f55b9a88e9443e86,False
+20279_61775-e43772ab1139935047e9826b48c5fafa,Sales Representative,EE,Gateshead,North East,DIRECT_SALES,sales-led title: sales representative,False,False,f55b9a88e9443e86,False
+107825119,Conservatory Sales Consultant,Everest,Newcastle Upon Tyne,North East,DIRECT_SALES,sales-led title: sales consultant,False,False,bfcd52eca1f9bad8,True
+107804119,Sales Executive,GoFibre Broadband Limited,Berwick-upon-tweed,North East,DIRECT_SALES,sales-led title: sales executive,False,False,4683d1dbf6933108,True
+107810309,Sales Executive Part Time,GoFibre Broadband Limited,Berwick-upon-tweed,North East,DIRECT_SALES,sales-led title: sales executive,False,False,56ca73c85dc90fdc,True
+442dfc05-0164-45a4-b775-2bf07a9f46da,Sales Consultant,Red Rhino Solutions,Gateshead,North East,DIRECT_SALES,sales-led title: sales consultant,False,False,3948d3a82fdcec22,True
+b995df7b-a734-4ec5-af37-89a2bc0ec7b2,New Business Account Manager,Chapman Tate Associates,Northampton,Northamptonshire,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,48fee6a66351b8bf,True
+abc60543-37b1-44b4-a422-70eb974ef02f,Telesales & Marketing Executive,ACS Recruitment Solutions Ltd,Rushden,Northamptonshire,DIRECT_SALES,sales-led title: telesales,False,False,e29e0432953086f5,True
+4e16ba67-b983-4672-a535-2ecd7cd143dc,Sales Executive,Get Staffed Online Recruitment Limited,Kettering,Northamptonshire,DIRECT_SALES,sales-led title: sales executive,False,False,4ac5e2dfcc433e57,True
+e6bdd061-79b5-46d7-86dd-b1bb2c501d40,Telesales Executive - Energy,Green Light Consultancy,Rushden,Northamptonshire,DIRECT_SALES,"sales-led title: sales executive, telesales",False,False,ae584955b28875fe,True
+107862353,Telesales Operatives,SolviT Recruitment Ltd,Daventry,Northamptonshire,DIRECT_SALES,sales-led title: telesales,False,False,ca5d84c4b43f0bc9,True
+23643_225429650,Customer Service Advisor,SF Partners,Mansfield,Nottinghamshire,CUSTOMER_SALES,"customer/service role with sales evidence: upsell, cross-sell, new business",False,False,f4a3caa08fcbbf63,True
+20279_60619-06eee134c262db4de9799bdb51011c6a,Apprentice Sales Advisor,EE,Retford,Nottinghamshire,DIRECT_SALES,sales-led title: sales advisor,False,False,71d694c4a99ec217,True
+9ca1dd04-fa07-4ebd-9f2d-1ed133fe0523,Trade Counter Sales Advisor,GBR Recruitment Ltd,Newark,Nottinghamshire,DIRECT_SALES,sales-led title: sales advisor,False,False,698883f6bfe0a6b7,True
+107870264,Pre-Sales Consultant,IO Associates,Nottingham,Nottinghamshire,DIRECT_SALES,sales-led title: sales consultant,False,False,28ba078f5009bb0a,True
+107834886,Sales Executive - Fiat Nissan,Stoneacre Motor Group.,Worksop,Nottinghamshire,DIRECT_SALES,sales-led title: sales executive,False,False,276a2e6b79a12d5f,True
+107765563,Solar Sales Consultant,Vision Personnel,Bampton,Oxfordshire,DIRECT_SALES,sales-led title: sales consultant,False,False,ce27a6fc71dd503c,True
+54d716cd-9048-4aef-af77-c81ac9cad4c9,Sales Consultant,Red Recruit Ltd,Tamworth,Staffordshire,DIRECT_SALES,sales-led title: sales consultant,False,False,1bd84065707b7f66,True
+23643_225458787,Customer Service Agent,First Military Recruitment Ltd,Fetcham,Surrey,CUSTOMER_SALES,"customer/service role with sales evidence: book appointments, sales experience",False,False,33f40a73e86eaa10,True
+107449465,Sales Advisor,BODYPOWER SPORTS LTD,Camberley,Surrey,DIRECT_SALES,sales-led title: sales advisor,False,False,75f74b244630be4c,True
+107800753,Business Development Executive,EMPLOYAL LTD,Epsom,Surrey,DIRECT_SALES,sales-led title: business development executive,False,False,f8807264dbe36a1b,True
+107767694,Sales Executive,Group 1 Automotive,Guildford,Surrey,DIRECT_SALES,sales-led title: sales executive,False,False,f4c0f92a9b1eabcb,True
+107862837,Parts Sales Executive,TPS,Guildford,Surrey,DIRECT_SALES,sales-led title: sales executive,False,False,b36f2f9269067376,True
+23643_225365618,Account Executive,Global 4 Communications Ltd,Horsham,Sussex,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,a0bad1c5b7aabf29,True
+107858623,Sales Advisor,Persimmon Homes,Littlehampton,Sussex,DIRECT_SALES,sales-led title: sales advisor,False,False,7950d7d4db0712b1,True
+229b6f3c-c067-4605-b92d-efb4c6438066,Account Sales Executive,Reed,Horsham,Sussex,DIRECT_SALES,sales-led title: sales executive,False,False,55d9489570b07082,True
+107872280,Sales Executive,The Workshop,Chichester,Sussex,DIRECT_SALES,sales-led title: sales executive,False,False,1bc3252e74d8834d,True
+f88e5817-025b-4d04-b53f-868c888a2f32,Customer Service Advisor - Remote work uk,Coaching & Recruitment,Not Specified,West Midlands - Birmingham & Solihull,CUSTOMER_SALES,"customer/service role with sales evidence: commission, uncapped commission",False,False,82d9c8e91cd09840,True
+107854117,Internal Sales Executive,Cameo Consultancy (Recruitment) Limited,Not Specified,West Midlands - Birmingham & Solihull,DIRECT_SALES,"sales-led title: sales executive, internal sales",False,False,6e6805b58ffb0814,True
+107743326,South African English-Speaking Telemarketing Specialist,Warwick Recruit Ltd,Solihull,West Midlands - Birmingham & Solihull,DIRECT_SALES,sales-led title: telemarketing,False,False,c3ba59c9933de68f,True
+ed64b0d2-c820-4078-987d-5988e6824c4a,Internal Sales & Customer Services Co-ordinator,Thefutureworks,Coventry,West Midlands - Coventry & Warwickshire,DIRECT_SALES,sales-led title: internal sales,False,True,c512f5f74807cf46,True
+107871861,Sales Executive,Octane Recruitment,Swindon,Wiltshire,DIRECT_SALES,sales-led title: sales executive,False,False,018b847881d4718a,True
+3863ab23-4c7b-4d8f-9698-75306a4c88b2,Sales Advisor,Purely Recruitment Solutions,Swindon,Wiltshire,DIRECT_SALES,sales-led title: sales advisor,False,False,fe8c5b9902b927f3,True
+107759554,Business Development Executive,Consortium Professional Recruitment,Hull,Yorkshire - East,DIRECT_SALES,sales-led title: business development executive,False,False,ac539358e3fb5db1,True
+107751424,Sales Executive,CITRUS CONNECT LTD,York,Yorkshire - North,DIRECT_SALES,sales-led title: sales executive,False,False,627052079aa67ae3,True
+23643_225474362,New Homes Sales Advisor,Chris Main LTD,Harrogate,Yorkshire - North,DIRECT_SALES,sales-led title: sales advisor,False,False,4d350259277d4fbd,True
+107751384,Sales Executive,CITRUS CONNECT LTD,Doncaster,Yorkshire - South,DIRECT_SALES,sales-led title: sales executive,False,False,0e682e26f55f43a6,True
+20279_60619-02bd04639776900fb7c3ac9d83270e45,Apprentice Sales Advisor,EE,Brinsworth,Yorkshire - South,DIRECT_SALES,sales-led title: sales advisor,False,False,36da0a036b45947b,True
+20279_61539-73c6bdafd2de8d1f8e432733f85ddafd,Sales Advisor,EE,Barnsley,Yorkshire - South,DIRECT_SALES,sales-led title: sales advisor,False,False,578b37bdb92256b1,True
+20279_61539,Sales Advisor,EE,Doncaster,Yorkshire - South,DIRECT_SALES,sales-led title: sales advisor,False,False,578b37bdb92256b1,False
+20279_61539-02bd04639776900fb7c3ac9d83270e45,Sales Advisor,EE,Brinsworth,Yorkshire - South,DIRECT_SALES,sales-led title: sales advisor,False,False,578b37bdb92256b1,False
+20279_59837-1a9ab48d0ef0f61d70b3780dfb1654b4,Sales Representative,EE,Doncaster,Yorkshire - South,DIRECT_SALES,sales-led title: sales representative,False,False,e317b2dac739a1f8,True
+7ceec93d-fc67-4e2e-b642-4839fc820203,Sales Executive,Red Rhino Solutions,Sheffield,Yorkshire - South,DIRECT_SALES,sales-led title: sales executive,False,False,4f8b817e27d761ac,True
+0d48cb3f-312a-47c0-b9e9-7327ffc427ac,Telesales - Appointment Setter,Reed,Sheffield,Yorkshire - South,DIRECT_SALES,"sales-led title: telesales, appointment setter",False,False,40b242672136654c,True
+ed2bf6d4-8dae-4fa6-a0b8-2f811492b9b0,IT Account Manager,Context Recruitment Limited,Leeds,Yorkshire - West,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,dd169a6ab87f389a,True
+6eb583d0-99e1-4c5c-99f0-ebed4f22f7c0,Account Executive,Lucy Walker Recruitment Ltd,Leeds,Yorkshire - West,CONDITIONAL_ACCOUNT_SALES,account-based title with sales and office/digital evidence,True,False,e28f4a669f935634,True
+7035088a-3232-4f3e-82a8-4d277efd40d8,Sales Executive,Adecco,Leeds,Yorkshire - West,DIRECT_SALES,sales-led title: sales executive,False,False,341ca1d1369bd03e,True
+b79dda43-6548-42a7-9fea-ce94421b4625,Internal Sales Coordinator,Elevation Recruitment Group,Leeds,Yorkshire - West,DIRECT_SALES,sales-led title: internal sales,False,False,6413b1593ca2f825,True
+d5c74a27-8231-43bf-b5b3-075136db9f01,Internal Sales Executive,Elevation Recruitment Group,Castleford,Yorkshire - West,DIRECT_SALES,"sales-led title: sales executive, internal sales",False,False,1c00a6edf20460b2,True
+7d3debba-3dcd-4b72-b3e3-5028021f7b48,Sales Executives,Red Rhino Solutions,Leeds,Yorkshire - West,DIRECT_SALES,sales-led title: sales executive,False,False,b8a3129fee56ce0e,True
