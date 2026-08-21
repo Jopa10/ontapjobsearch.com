@@ -22,11 +22,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d5c74a27-8231-43bf-b5b3-075136db9f01",
@@ -177,34 +173,5 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
-  },
-  {
-    "job_id": "8043597e-1b02-4933-9b50-c53e7abaf8b1",
-    "title": "Part-time Customer Service Administrator",
-    "company": "Reed - Agency - Temporary",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "location": "Keighley",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "13",
-    "salary_text": "£13 per hour",
-    "posted_date": "",
-    "description": "Part-time Temporary Sales Administrator - Immediate Start\n\nLocation: Silsden, West YorkshireSalary: £13.00 per hourHours: Monday to Tuesday, 9:00am to 3:15pm - increasing to include Wednesdays 9.00am to 3.15pm- ideal if you are looking for school hoursContract: Temporary, Immediate Start\n\nOur key client based in Silsden/Keighley is seeking an experienced and proactive Sales Administrator to join their busy office team on a temporary basis with an immediate start available.\n\nThis is a varied role suited to someone who enjoys customer interaction, administration, and providing excellent service within a fast-paced office environment.\n\nKey Responsibilities\n- Proactively contact existing customers on a daily basis to obtain recurring orders\n- Answer incoming customer enquiries via telephone\n- Make outbound calls to customers to support sales activity and maintain relationships\n- Process card payments accurately and efficiently\n- Raise invoices and carry out general sales administration duties\n- Maintain customer records and order information using Sage 50\n- Handle general office administration and support the wider team as required\n- Deliver a professional and friendly customer service experience at all times\n\nSkills & Experience Required\n- Previous experience in a sales administration, customer service or office administration role\n- Strong working knowledge of Sage 50 is essential\n- Excellent telephone manner and customer service skills\n- Confident communicating with customers by phone and email\n- Good attention to detail and organisational skills\n- Ability to manage multiple tasks and prioritise workload effectively\n- Competent with Microsoft Office applications\n\nBenefits\n- Immediate start available\n- £13.00 per hour\n- Part-time hours offering excellent work-life balance\n- Opportunity for the assignment to be extended into maternity cover\n- Friendly and supportive working environment\n\nTo apply, please submit your CV today for immediate consideration.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgomoMbeNrgLWlWGL4Dw4%2b%2bQn",
-    "source": "JobG8",
-    "customer_sales_classification": "CUSTOMER_SALES",
-    "customer_sales_reason": "customer/service role with sales evidence: outbound calls",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
   }
 ]
