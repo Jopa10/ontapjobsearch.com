@@ -7,7 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 21 August 2026 — Customer Sales / Sales Advisor discovery has reached proof-region testing. The agreed first test regions are Hampshire, Greater Manchester - Manchester & Salford, and Yorkshire - West, using `agent/customer-sales-family` only. Genuine jobs may belong to both Customer Sales and Service Admin; overlap is not a reason to remove a job from Customer Sales. These slices are for inspection only and are not production-approved or LIVE.
+- 21 August 2026 — Customer Sales / Sales Advisor completed proof-region testing, governed national validation and 33-region diagnostic assessment. Explicit LIVE approval is limited to **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West**. Production generation is integrated into the existing JobG8/configured-slice/verified-publish chain; genuine Sales/Service Admin overlap remains valid. North East and all other Customer Sales regions remain non-LIVE diagnostics until separately approved.
 - 21 August 2026 — NHS job-detail presentation now preserves the source vacancy text while rendering it as readable headings, paragraphs and bullets instead of a flattened text dump. Long NHS descriptions show the first six presentation blocks and place the remainder behind `Show full NHS role information`; this is presentation-only and does not rewrite/summarise the vacancy.
 - 21 August 2026 — Regional Service Admin display ordering now treats NHS as a complementary stream after composition: non-NHS jobs retain the normal location-first scan, NHS jobs retain Tier A/B → switchability → freshness priority, and at most one NHS role is inserted after each four non-NHS roles. The upstream hard 20% NHS source ceiling remains unchanged and is not replaced by the display rhythm.
 - 21 August 2026 — `/jobs/search` now supports multi-field one-box matching across title, employer/advertiser, location, region and curated category. Role-like terms are protected from accidental geography inference even when source location data contains job-title prose. High-confidence spelling correction, browser spellcheck/autocorrect and cached spelling vocabularies/results are live; the search route prefers Vercel London (`lhr1`) to reduce UK latency.
@@ -44,13 +44,15 @@ Primary scheduled entry point: `.github/workflows/run-full-jobg8-daily-process.y
 
 It runs at 07:30 and 15:30 Europe/London and performs:
 
-`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → fresh transactional NHS composition → metadata enrichment → 33-region family coverage → pipeline outputs/reports`
+`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → registered category selectors + Customer Sales selector → approved external-source composition → fresh transactional NHS composition → metadata enrichment → 33-region family coverage → pipeline outputs/reports`
 
 `pipeline/input/jobg8.xlsx` is transient workflow input and is not committed. The validated raw feed is retained durably in S3 under `jobg8/raw`.
 
 The daily coverage pass reuses the same materialized JobG8 workbook and production rules across all 33 canonical regions. It writes diagnostic coverage only; it does not itself activate slices.
 
 The Service Admin LIVE set includes the six 19 August evidence-led regional activations: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
+
+Customer Sales production generation is owned by `pipeline/scripts/customer_sales_pipeline.py`. It reads the central LIVE slice register and therefore generates only explicitly approved Customer Sales regions. Output files use the shared `pipeline/output-admin-service/` staging area with the `customer-sales` suffix so the existing daily commit and verified-page mechanisms carry them without a parallel workflow.
 
 ### NHS Administrative & Clerical integration
 
@@ -106,7 +108,7 @@ A new job family must not move directly from a broad title/regex discovery resul
 
 Family classification is **not required to be mutually exclusive**. A single underlying job may legitimately qualify for more than one Ontap family when it genuinely serves both user intents. Each family applies its own eligibility/refinement rules. Duplication should be suppressed only where the same job would otherwise appear redundantly in one user-facing result set; a job must not be removed from one valid family merely because it also qualifies for another.
 
-The current Customer Sales / Sales Advisor work is at the **proof-region test** stage of this lifecycle. The working family is sales-led office/contact-centre/home/hybrid work, and legitimate family membership may include both sales-only jobs and jobs that also qualify for Service Admin. The agreed first test regions are **Hampshire**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West**. These should be built and inspected on `agent/customer-sales-family` only so the actual job mix, employer concentration and page quality can be reviewed before approval. This checkpoint does **not** make Customer Sales a production family, does not make the three regions LIVE, and does not authorise changes to `main` production pipeline/config or the recurring 33-region assessment.
+Customer Sales / Sales Advisor has completed this lifecycle through explicit LIVE-slice approval. The approved production set is **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West** only. `pipeline/config/job_slice_catalog.json` defines the `customer_sales` category and route metadata; `pipeline/registers/region_category_slice_register.csv` is the activation gate; `pipeline/scripts/customer_sales_pipeline.py` owns production classification and campaign dedupe; and the existing config-driven verified publisher owns public materialization. Direct office/contact-centre/home/hybrid sales roles qualify; customer/service roles require explicit sales/conversion evidence; generic Account Manager/Account Executive roles require strong sales plus office/digital evidence. Field/in-home/event/self-employed, automotive dealership/showroom, retail/property and senior/specialist contamination is excluded. Legitimate Sales + Service Admin crossover remains valid. **North East and every other Customer Sales region remain non-LIVE diagnostic candidates until separately approved.**
 
 ### Owner review / approved publication
 
@@ -212,6 +214,8 @@ Operational reports include:
 - `pipeline/reports/city-opportunities-current.md` and `.json` — current city/local-market opportunity state;
 - `pipeline/reports/city-opportunity-history.json` — rolling qualification history.
 
+Customer Sales national/33-region assessment remains diagnostic evidence for non-LIVE regions. A positive count does not activate a region; only the three explicitly approved Customer Sales slices are in production.
+
 The city-opportunity scanner is diagnostic/decision support. It must not auto-activate a city page.
 
 Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflows.
@@ -232,6 +236,7 @@ Verified structure:
 - `app/_city-pages/configured-slices/` holds dynamic configured-slice data;
 - `app/job-search/[region]/...` is the dynamic route family;
 - Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin grid consume published dynamic slices through shared mechanisms;
+- the approved Customer Sales routes use that same mechanism: `/job-search/london/customer-sales-jobs`, `/job-search/west-yorkshire/customer-sales-jobs`, and `/job-search/manchester-salford/customer-sales-jobs`;
 - homepage browse ordering is regional-first, then city, to make regional inventory breadth the primary visual signal;
 - `lib/city-page-data.ts` reads `pipeline/city_pages/city-page-register.json` and resolves active city definitions/data;
 - public city routes read private derived JSON under `app/_city-pages/...`, preventing duplicate job-detail URLs;
@@ -266,7 +271,7 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 Core scheduled workflows include:
 
-- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London; includes a fresh transactional NHS Service Admin composition stage;
+- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London; includes fresh transactional NHS Service Admin composition and generation of all currently LIVE Customer Sales slices from the same JobG8 feed;
 - `run-nejobs-review.yml` — 06:15 daily;
 - `run-vonne-review.yml` — 06:35 daily;
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily;
@@ -274,7 +279,7 @@ Core scheduled workflows include:
 - `ontap-daily-review.yml` — 08:45 Europe/London;
 - `google-indexing-api.yml` — 19:30 UTC daily.
 
-The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`. NHS is one of its source publishers. The reviewed NHS publisher uses `compose_nhs_admin_daily.py`, the same transactional composer as the normal daily run, before the shared verified Service Admin page publish.
+The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`. NHS is one of its source publishers. The reviewed NHS publisher uses `compose_nhs_admin_daily.py`, the same transactional composer as the normal daily run, before the shared verified Service Admin page publish. Customer Sales requires no separate production workflow: its output is generated in the main JobG8 chain and published by the common configured-slice verified publisher.
 
 `npm run build` regenerates the published-job search index before `prisma generate` and `next build`. The generated artifact contains the current published result-card fields plus precomputed `_search` metadata and omits the raw advert description/full-description payload from the runtime search bundle. Every Vercel deployment therefore searches the published supply represented by that deployment without reconstructing the source tree or repeatedly normalising/tokenising stable job fields on each request.
 
@@ -311,7 +316,7 @@ This leaves one automatic route — `main` → Vercel Git integration — plus o
 
 ## Validation state
 
-Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery, now operating on Vercel Pro. NHS Administrative & Clerical inventory is part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling plus non-dominating 4+1 display mixing. NHS detail formatting and forgiving search are live; production search uses a deployment-time precomputed `_search` index rather than request-time file-tree scanning or repeated per-job field normalisation/tokenisation, and remains verified for typo correction, `lumley office`, and both normal/swapped `admin` + `newcastle` inputs. Live browser retest after the final performance optimisation confirmed the earlier several-second perceived delay was removed without changing those results.
+Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery, now operating on Vercel Pro. NHS Administrative & Clerical inventory is part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling plus non-dominating 4+1 display mixing. NHS detail formatting and forgiving search are live; production search uses a deployment-time precomputed `_search` index rather than request-time file-tree scanning or repeated per-job field normalisation/tokenisation, and remains verified for typo correction, `lumley office`, and both normal/swapped `admin` + `newcastle` inputs. Live browser retest after the final performance optimisation confirmed the earlier several-second perceived delay was removed without changing those results. Customer Sales / Sales Advisor is production-approved for **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West** only. Its generation is integrated into the main JobG8/configured-slice/verified-publish path; every other Customer Sales region remains non-LIVE until a separate explicit approval.
 
 ## Documentation rule
 
