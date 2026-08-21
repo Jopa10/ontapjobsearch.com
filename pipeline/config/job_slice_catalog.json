@@ -34,6 +34,13 @@
       "file_suffix": "hr-recruitment",
       "display_label": "HR & Recruitment",
       "category_label": "HR / Recruitment"
+    },
+    "customer_sales": {
+      "route_slug": "customer-sales-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "customer-sales",
+      "display_label": "Customer Sales & Sales Advisor",
+      "category_label": "Customer Sales / Sales Advisor"
     }
   },
   "regions": {

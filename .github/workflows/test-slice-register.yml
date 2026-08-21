@@ -8,6 +8,7 @@ on:
       - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
+      - 'pipeline/scripts/customer_sales_pipeline.py'
       - 'pipeline/scripts/publish_verified_pages.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
@@ -47,6 +48,7 @@ on:
       - '.github/workflows/publish-verified-pages.yml'
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
+      - 'tests/test_customer_sales_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
       - 'tests/test_newcastle_city_launch.py'
@@ -61,6 +63,7 @@ on:
       - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
+      - 'pipeline/scripts/customer_sales_pipeline.py'
       - 'pipeline/scripts/publish_verified_pages.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
@@ -100,6 +103,7 @@ on:
       - '.github/workflows/publish-verified-pages.yml'
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
+      - 'tests/test_customer_sales_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
       - 'tests/test_newcastle_city_launch.py'
@@ -123,6 +127,7 @@ jobs:
             pipeline/scripts/slice_catalog.py \
             pipeline/scripts/slice_registry.py \
             pipeline/scripts/registered_category_pipeline.py \
+            pipeline/scripts/customer_sales_pipeline.py \
             pipeline/scripts/publish_verified_pages.py \
             pipeline/scripts/publish_verified_pages_sussex.py \
             pipeline/scripts/publish_verified_pages_coventry.py \
@@ -140,6 +145,7 @@ jobs:
             pipeline/scripts/maintain_active_city_pages.py
           python -m unittest \
             tests.test_slice_registry \
+            tests.test_customer_sales_pipeline \
             tests.test_publish_verified_pages \
             tests.test_sussex_admin_launch \
             tests.test_newcastle_city_launch \

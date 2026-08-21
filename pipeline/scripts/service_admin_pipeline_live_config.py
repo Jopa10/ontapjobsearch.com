@@ -2,7 +2,8 @@
 
 This wraps the established Sussex/Coventry chain rather than replacing its
 selection logic. North Yorkshire and all later regions are added from the
-central slice register/catalog.
+central slice register/catalog. Registered secondary categories and Customer
+Sales are then generated from the same current JobG8 input.
 """
 from __future__ import annotations
 
@@ -161,8 +162,14 @@ def main() -> int:
     result = established.main()
     if result:
         return result
+
     from .registered_category_pipeline import run_live_registered_categories
-    return run_live_registered_categories()
+    result = run_live_registered_categories()
+    if result:
+        return result
+
+    from .customer_sales_pipeline import main as run_live_customer_sales
+    return run_live_customer_sales()
 
 
 if __name__ == "__main__":

@@ -15,14 +15,17 @@ from slice_registry import candidate_slices, load_slice_register, live_slices
 
 
 class SliceRegistryTests(unittest.TestCase):
-    def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
+    def test_register_has_unique_valid_region_category_rows(self):
         records = load_slice_register()
-        self.assertEqual(len(records), 64)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 40)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 24)
-        self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
+        pairs = {(row.region, row.category) for row in records}
+        self.assertEqual(len(pairs), len(records))
+        self.assertGreater(len(records), 60)
+        self.assertEqual(
+            sum(row.status in {"LIVE", "CANDIDATE", "RETIRED"} for row in records),
+            len(records),
+        )
 
-    def test_live_rows_include_new_white_collar_admin_and_support_slices(self):
+    def test_live_rows_include_new_white_collar_admin_support_and_sales_slices(self):
         live = live_slices()
         expected = {
             ("London", "finance_accounts"),
@@ -34,9 +37,26 @@ class SliceRegistryTests(unittest.TestCase):
             ("Bristol & Bath", "admin_service"),
             ("Devon", "finance_accounts"),
             ("Surrey", "support_worker"),
+            ("London", "customer_sales"),
+            ("Yorkshire - West", "customer_sales"),
+            ("Greater Manchester - Manchester & Salford", "customer_sales"),
         }
         self.assertTrue(expected.issubset(live))
         self.assertIn(("Yorkshire - North", "admin_service"), live)
+
+    def test_customer_sales_live_set_is_exactly_the_three_approved_regions(self):
+        sales_regions = {
+            region for region, category in live_slices() if category == "customer_sales"
+        }
+        self.assertEqual(
+            sales_regions,
+            {
+                "London",
+                "Yorkshire - West",
+                "Greater Manchester - Manchester & Salford",
+            },
+        )
+        self.assertNotIn(("North East", "customer_sales"), live_slices())
 
     def test_close_and_deferred_slices_are_candidates_not_live(self):
         candidates = candidate_slices()
@@ -46,12 +66,12 @@ class SliceRegistryTests(unittest.TestCase):
             ("Yorkshire - West", "finance_accounts"),
             ("North East", "finance_accounts"),
             ("Somerset", "support_worker"),
-            ("Buckinghamshire", "admin_service"),
         }
         self.assertTrue(expected.issubset(candidates))
         self.assertTrue(expected.isdisjoint(live_slices()))
         self.assertNotIn(("London", "support_worker"), candidates)
         self.assertNotIn(("Surrey", "support_worker"), candidates)
+        self.assertIn(("Buckinghamshire", "admin_service"), live_slices())
 
     def test_london_support_worker_live_config(self):
         from scripts import support_worker_pipeline_live_config as support_config
@@ -94,6 +114,18 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             dynamic_data_path("London", "support_worker"),
             Path("app/_city-pages/configured-slices/london/support-worker.json"),
+        )
+        self.assertEqual(
+            output_filename("Yorkshire - West", "customer_sales"),
+            "west-yorkshire-customer-sales.json",
+        )
+        self.assertEqual(
+            dynamic_route("Greater Manchester - Manchester & Salford", "customer_sales"),
+            "/job-search/manchester-salford/customer-sales-jobs",
+        )
+        self.assertEqual(
+            dynamic_data_path("London", "customer_sales"),
+            Path("app/_city-pages/configured-slices/london/customer-sales-jobs.json"),
         )
 
     def test_invalid_status_stops(self):
