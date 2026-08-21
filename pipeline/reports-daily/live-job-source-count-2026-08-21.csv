@@ -1,8 +1,8 @@
 report_date,level,source,region,category,count
-2026-08-21,total,All,,,1310
-2026-08-21,source_summary,JobG8,,,1159
+2026-08-21,total,All,,,1302
+2026-08-21,source_summary,JobG8,,,1151
 2026-08-21,source_summary,External,,,151
-2026-08-21,provider,JobG8,,,1159
+2026-08-21,provider,JobG8,,,1151
 2026-08-21,provider,NEJobs,,,28
 2026-08-21,provider,Teaching Vacancies,,,119
 2026-08-21,provider,VONNE,,,4
@@ -18,7 +18,7 @@ report_date,level,source,region,category,count
 2026-08-21,region_category,JobG8,Greater Manchester - Manchester & Salford,Admin/Service – Office Support,36
 2026-08-21,region_category,JobG8,Greater Manchester - South,Admin/Service – Office Support,15
 2026-08-21,region_category,JobG8,Hampshire,Admin/Service – Office Support,56
-2026-08-21,region_category,JobG8,Hampshire,Support Worker – Wide,15
+2026-08-21,region_category,JobG8,Hampshire,Support Worker – Wide,14
 2026-08-21,region_category,JobG8,Hertfordshire,Admin/Service – Office Support,19
 2026-08-21,region_category,JobG8,Kent,Admin/Service – Office Support,49
 2026-08-21,region_category,JobG8,London,Admin/Service – Office Support,142
@@ -29,7 +29,7 @@ report_date,level,source,region,category,count
 2026-08-21,region_category,JobG8,Norfolk,Admin/Service – Office Support,15
 2026-08-21,region_category,JobG8,North East,Support Worker – Wide,6
 2026-08-21,region_category,JobG8,North East - County Durham & Darlington/Hartlepool,Admin/Service – Office Support,8
-2026-08-21,region_category,JobG8,"North East - Tyneside, Wearside & Northumberland",Admin/Service – Office Support,40
+2026-08-21,region_category,JobG8,"North East - Tyneside, Wearside & Northumberland",Admin/Service – Office Support,38
 2026-08-21,region_category,JobG8,Northamptonshire,Admin/Service – Office Support,30
 2026-08-21,region_category,JobG8,Nottinghamshire,Admin/Service – Office Support,20
 2026-08-21,region_category,JobG8,Oxfordshire,Admin/Service – Office Support,44
@@ -46,9 +46,9 @@ report_date,level,source,region,category,count
 2026-08-21,region_category,JobG8,Wiltshire,Support Worker – Wide,3
 2026-08-21,region_category,JobG8,Yorkshire - East,Admin/Service – Office Support,15
 2026-08-21,region_category,JobG8,Yorkshire - North,Admin/Service – Office Support,18
-2026-08-21,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,23
+2026-08-21,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,22
 2026-08-21,region_category,JobG8,Yorkshire - South,Support Worker – Wide,1
-2026-08-21,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,57
+2026-08-21,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,53
 2026-08-21,region_category,JobG8,Yorkshire - West,Support Worker – Wide,3
 2026-08-21,region_category,NEJobs,North East,Admin/Service – Office Support,28
 2026-08-21,region_category,Teaching Vacancies,Berkshire,Admin/Service – Office Support,5
