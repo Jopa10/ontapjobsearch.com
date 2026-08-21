@@ -18,7 +18,7 @@ const homepageCityMinimumJobs = 4;
 export const metadata: Metadata = {
   title: 'UK Jobs by Role and Region | Ontap Job Search',
   description:
-    'Search and browse current UK admin, office support, customer service and support worker jobs by role and region. Updated daily with direct application links.',
+    'Search and browse current UK admin, office support, customer service, sales advisor and support worker jobs by role and region. Updated daily with direct application links.',
   alternates: { canonical: canonicalUrl },
 };
 
@@ -50,6 +50,12 @@ const supportWorkerRoutes = [
   { label: 'South Cumbria', href: '/cumbria-south/support-worker' },
 ];
 
+const customerSalesHomepageLabels: Record<string, string> = {
+  London: 'London',
+  'Greater Manchester - Manchester & Salford': 'Manchester & Salford',
+  'Yorkshire - West': 'West Yorkshire',
+};
+
 function cleanSalary(value: string): string {
   return value.replaceAll('Â£', '£');
 }
@@ -72,6 +78,18 @@ function publishedDynamicAdminLinks(jobs: PublishedJob[]): RegionLink[] {
     .filter((slice) => slice.category === 'admin_service')
     .map((slice) => ({
       label: slice.region,
+      href: slice.route,
+      count: countBySlice(jobs, slice.route),
+    }))
+    .filter((route) => route.count > 0)
+    .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
+}
+
+function publishedDynamicCustomerSalesLinks(jobs: PublishedJob[]): RegionLink[] {
+  return getPublishedDynamicSlices()
+    .filter((slice) => slice.category === 'customer_sales')
+    .map((slice) => ({
+      label: customerSalesHomepageLabels[slice.region] ?? slice.region,
       href: slice.route,
       count: countBySlice(jobs, slice.route),
     }))
@@ -129,7 +147,7 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
             id="homepage-job-query"
             name="q"
             type="search"
-            placeholder="e.g. Administrator, Customer Service, PA"
+            placeholder="e.g. Administrator, Customer Service, Sales Advisor"
             className="w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
           />
         </div>
@@ -203,6 +221,26 @@ function RegionGrid({ regions }: { regions: RegionLink[] }) {
   );
 }
 
+function CompactRegionLinks({ regions }: { regions: RegionLink[] }) {
+  return (
+    <div className="mt-3 grid gap-1.5">
+      {regions.map((region) => (
+        <Link
+          key={region.href}
+          href={region.href}
+          className="flex items-center justify-between rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm transition hover:border-blue-300 hover:bg-blue-50"
+        >
+          <span>
+            <span className="font-semibold text-gray-900">{region.label}</span>
+            <span className="ml-2 text-xs text-gray-500">{region.count}</span>
+          </span>
+          <span aria-hidden="true" className="text-blue-600">→</span>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
 function CurrentJobCard({ job }: { job: PublishedJob }) {
   const company = job.company || job.advertiser_name;
 
@@ -237,6 +275,7 @@ export default function Page() {
     ...publishedDynamicAdminLinks(jobs),
     ...activeCityLinks('admin'),
   ];
+  const customerSalesRegions = publishedDynamicCustomerSalesLinks(jobs);
   const supportWorkerRegions = [
     ...withCounts(jobs, supportWorkerRoutes),
     ...activeCityLinks('support'),
@@ -271,7 +310,7 @@ export default function Page() {
           <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-5">
             <div>
               <h1 className="max-w-3xl text-3xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-4xl">
-                Find admin, office support and customer service jobs across the UK
+                Find admin, office support, customer service and sales jobs across the UK
               </h1>
               <p className="mt-2 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
                 Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
@@ -314,23 +353,19 @@ export default function Page() {
                 {adminRegions.length > 0 ? <RegionGrid regions={adminRegions} /> : null}
               </div>
 
-              <div id="support-worker-regions" className="rounded-xl border border-gray-200 bg-white p-3.5 sm:p-4">
-                <h3 className="text-lg font-semibold text-gray-900">Support worker jobs</h3>
-                <p className="mt-0.5 text-sm text-gray-600">Current regional and city supply</p>
-                <div className="mt-3 grid gap-1.5">
-                  {supportWorkerRegions.map((region) => (
-                    <Link
-                      key={region.href}
-                      href={region.href}
-                      className="flex items-center justify-between rounded-lg border border-gray-200 px-3 py-2 text-sm transition hover:border-blue-300 hover:bg-blue-50"
-                    >
-                      <span>
-                        <span className="font-semibold text-gray-900">{region.label}</span>
-                        <span className="ml-2 text-xs text-gray-500">{region.count}</span>
-                      </span>
-                      <span aria-hidden="true" className="text-blue-600">→</span>
-                    </Link>
-                  ))}
+              <div className="grid content-start gap-3">
+                {customerSalesRegions.length > 0 ? (
+                  <div id="customer-sales-regions" className="rounded-xl border border-blue-100 bg-blue-50 p-3.5 sm:p-4">
+                    <h3 className="text-lg font-semibold text-gray-900">Customer Sales & Sales Advisor</h3>
+                    <p className="mt-0.5 text-sm text-gray-600">Current live regional pages</p>
+                    <CompactRegionLinks regions={customerSalesRegions} />
+                  </div>
+                ) : null}
+
+                <div id="support-worker-regions" className="rounded-xl border border-gray-200 bg-white p-3.5 sm:p-4">
+                  <h3 className="text-lg font-semibold text-gray-900">Support worker jobs</h3>
+                  <p className="mt-0.5 text-sm text-gray-600">Current regional and city supply</p>
+                  <CompactRegionLinks regions={supportWorkerRegions} />
                 </div>
               </div>
             </div>
