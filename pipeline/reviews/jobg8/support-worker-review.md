@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-20
+feed_date: 2026-08-21
 
 Edit only the `action:` line in each block:
 
@@ -29,23 +29,11 @@ SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care As
 job_id: 107751768
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Castleford | £13.71 per hour | Health Care Assistant
-job_id: 107861373
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £14.16 - £16.22 per hour | Support Worker ( Female Only )
-job_id: dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7
----
 
 ---
 action:
@@ -83,6 +71,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyn
 job_id: 0d92fe0d-a663-4737-8a15-e07bad60e5fe
 ---
 
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Ashington | £13.21 per hour | Care Assistant - Care Home
+job_id: 3b657a35-ff63-4dcc-aaef-b5c015e7ce03
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -100,18 +94,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Chichester | £13.21 per hour | Night Care Assistant
-job_id: 99725da6-35b1-4d29-9426-1b7224ab3269
----
-
----
-action:
-SELECTED | Sussex | Crawley | £14.5 per hour | Night Care Assistant
-job_id: 44c04919-b68b-4946-9565-88687eb782e2
----
 
 ---
 action:
@@ -175,14 +157,14 @@ job_id: d2504dfa-0b4a-4aa4-a74e-6a0c24e6b17f
 
 ---
 action:
-SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant - Bank
-job_id: 107870957
+SELECTED | Sussex | Horsham | £13.05 per hour | Residential Childcare Support Worker (Casual)
+job_id: 107811772
 ---
 
 ---
 action:
-SELECTED | Sussex | Chichester | £15 - £17 per hour | Complex Care Support Worker
-job_id: 107664527
+SELECTED | Sussex | Brighton | £14.4 per hour | Female Support Worker
+job_id: 107693840
 ---
 
 ## SUSSEX — POSSIBLES
@@ -199,12 +181,6 @@ job_id: 107812778
 
 ---
 action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 107827128
----
-
----
-action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107800894
 ---
@@ -214,18 +190,6 @@ job_id: 107800894
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Southampton | £27780 - £30564 per year | Secure Childrens Home Support Worker (Weekends)
-job_id: 1401784075
----
-
----
-action:
-SELECTED | Hampshire | Hook | £14 per hour | Care Assistant - Care Home
-job_id: 77b95346-e87e-49a2-ba72-135448bf136e
----
 
 ---
 action:
@@ -305,6 +269,12 @@ SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodati
 job_id: 1674633
 ---
 
+---
+action:
+SELECTED | Hampshire | Andover | £13.21 per hour | Night Care Assistant
+job_id: 8e6242db-cd62-4802-934f-7ad53601c988
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -357,12 +327,6 @@ job_id: 23643_225476071
 action:
 SELECTED | London | London | £12.82 per hour | Care Assistant
 job_id: 23643_223283749
----
-
----
-action:
-SELECTED | London | London | £31,593.00 per annum | Specialist Support Worker
-job_id: 1664747
 ---
 
 ---
@@ -505,19 +469,17 @@ job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
 
 ---
 action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Worker
-job_id: 107829437
----
-
----
-action:
 SELECTED | Wiltshire | Devizes | £14.29 per hour (holiday pay inclusive) | Healthcare Assistants
 job_id: 107863276
 ---
 
 ## WILTSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WILTSHIRE | Wiltshire | Salisbury | £22.25 - £28 per hour | Mental Health Support Worker
+job_id: 107832011
+---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
 {"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
