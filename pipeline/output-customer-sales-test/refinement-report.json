@@ -1,8 +1,15 @@
 {
   "hampshire.json": {
     "before": 7,
-    "after": 5,
+    "after": 4,
     "removed": [
+      {
+        "job_id": "6b25c6aa-dc72-4e32-9928-455e821dc48f",
+        "title": "Sales Executive",
+        "location": "Fareham",
+        "region": "Hampshire",
+        "reason": "automotive dealership/showroom sales signal: car dealership, new & used vehicles, used car sales"
+      },
       {
         "job_id": "5fd59761-b015-48ef-84b9-b49b71995cff",
         "title": "Sales Representative - Immediate Start",
@@ -34,8 +41,15 @@
   },
   "west-yorkshire.json": {
     "before": 8,
-    "after": 7,
+    "after": 6,
     "removed": [
+      {
+        "job_id": "48ac331e-441e-47f3-9dd2-8e29b373ef1c",
+        "title": "Audi Sales Executive",
+        "location": "Leeds",
+        "region": "Yorkshire - West",
+        "reason": "automotive dealership/showroom sales signal: buying their car, buying a new car"
+      },
       {
         "job_id": "8043597e-1b02-4933-9b50-c53e7abaf8b1",
         "title": "Part-time Customer Service Administrator",

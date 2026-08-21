@@ -1,4 +1,4 @@
-Customer Sales proof run: 2026-08-21T17:15:45Z
+Customer Sales proof run: 2026-08-21T17:31:26Z
 Scope: Hampshire; Greater Manchester - Manchester & Salford; Yorkshire - West
 Governance: branch-only proof slices; no LIVE activation; Sales/Service Admin overlap allowed
 OK: JobG8 feed secret available
@@ -19,6 +19,6 @@ Yorkshire - West: 6 jobs / 5 employers
 Hampshire: +0 conditional account sales; 7 total before QA refinement
 Greater Manchester - Manchester & Salford: +1 conditional account sales; 7 total before QA refinement
 Yorkshire - West: +2 conditional account sales; 8 total before QA refinement
-hampshire.json: 7 -> 5 jobs (2 removed)
+hampshire.json: 7 -> 4 jobs (3 removed)
 manchester-salford.json: 7 -> 6 jobs (1 removed)
-west-yorkshire.json: 8 -> 7 jobs (1 removed)
+west-yorkshire.json: 8 -> 6 jobs (2 removed)
