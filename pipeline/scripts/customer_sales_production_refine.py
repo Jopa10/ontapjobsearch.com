@@ -4,7 +4,7 @@ This is the production equivalent of the proof-region refinement stage. It keeps
 legitimate office/contact-centre/home/hybrid sales (including Service Admin
 crossover) while fail-closing weak customer-service evidence, obvious geography
 conflicts, field/in-home campaigns, dealership/retail/property sales and senior or
-specialist customer-service contamination.
+specialist customer-service/account contamination.
 """
 from __future__ import annotations
 
@@ -29,7 +29,7 @@ STRONG_CUSTOMER_SALES_EVIDENCE = [
     "inbound sales", "outbound sales", "telesales", "telephone sales",
     "cold calling", "new business", "lead generation", "sales pipeline",
     "close sales", "closing sales", "close deals", "closing deals",
-    "booked and paid", "retention target", "renewal target", "renewals",
+    "booked and paid", "retention target", "renewal target",
     "retain customers", "increase membership", "sales experience", "sales role",
 ]
 
@@ -38,9 +38,13 @@ CUSTOMER_TITLE_EXCLUDES = [
     "senior customer success manager", "client services manager", "client service manager",
 ]
 
-DIRECT_DESCRIPTION_EXCLUDES = [
+# These signals are outside the agreed office/contact-centre/home/hybrid seam for
+# every Customer Sales classification, not only roles with a direct sales title.
+OUT_OF_BOUND_DESCRIPTION_EXCLUDES = [
     "door to door", "door-to-door", "event-based campaigns",
-    "face-to-face sales environments", "travel to different campaign locations",
+    "face-to-face sales environments", "face-to-face customer engagement",
+    "face to face customer engagement", "high-footfall venues", "high footfall venues",
+    "retail spaces and events", "travel to different campaign locations",
     "subcontracted basis", "self-employed", "self employed",
     "commission-only", "commission only", "in-home consultation",
     "in home consultation", "visit customers in their homes",
@@ -61,6 +65,12 @@ RETAIL_PROPERTY_DESCRIPTION_EXCLUDES = [
     "luxury retail", "premium retail", "retail environment", "shop floor",
     "luxury jewellery", "fine timepieces", "estate agency", "house builder",
     "new homes development",
+]
+
+SPECIALIST_ACCOUNT_CONTEXT_EXCLUDES = [
+    "rare cask assets", "premium whisky casks", "whisky cask",
+    "new investment opportunities", "investment opportunity", "investment opportunities",
+    "supply-constrained asset class", "asset class", "private client investment",
 ]
 
 DIRECT_TITLE_EXCLUDES = [
@@ -161,6 +171,10 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
     if conflict:
         return False, conflict
 
+    out_of_bound = contains_any(description, OUT_OF_BOUND_DESCRIPTION_EXCLUDES)
+    if out_of_bound:
+        return False, "field/event/self-employed sales signal: " + ", ".join(out_of_bound[:3])
+
     if classification == "CUSTOMER_SALES":
         title_excludes = contains_any(title, CUSTOMER_TITLE_EXCLUDES)
         if title_excludes:
@@ -168,6 +182,11 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
         evidence = contains_any(combined, STRONG_CUSTOMER_SALES_EVIDENCE)
         if not evidence:
             return False, "customer/service role has no strong sales/conversion evidence"
+
+    if classification == "CONDITIONAL_ACCOUNT_SALES":
+        specialist_excludes = contains_any(context, SPECIALIST_ACCOUNT_CONTEXT_EXCLUDES)
+        if specialist_excludes:
+            return False, "specialist investment/account-sales signal: " + ", ".join(specialist_excludes[:3])
 
     if classification == "DIRECT_SALES":
         title_excludes = contains_any(title, DIRECT_TITLE_EXCLUDES)
@@ -179,9 +198,6 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
         retail_property_excludes = contains_any(description, RETAIL_PROPERTY_DESCRIPTION_EXCLUDES)
         if retail_property_excludes:
             return False, "retail/property sales signal: " + ", ".join(retail_property_excludes[:3])
-        description_excludes = contains_any(description, DIRECT_DESCRIPTION_EXCLUDES)
-        if description_excludes:
-            return False, "field/event/self-employed sales signal: " + ", ".join(description_excludes[:3])
 
     return True, ""
 
