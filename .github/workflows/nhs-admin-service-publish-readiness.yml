@@ -7,20 +7,26 @@ on:
     paths:
       - '.github/workflows/nhs-admin-service-publish-readiness.yml'
       - '.github/workflows/publish-reviewed-nhs-admin-service.yml'
+      - '.github/workflows/run-full-jobg8-daily-process.yml'
       - 'pipeline/external_sources/nhs_admin_inventory.py'
       - 'pipeline/external_sources/nhs_admin_service.py'
       - 'pipeline/external_sources/nhs_admin_dry_run.py'
+      - 'pipeline/external_sources/compose_nhs_admin_daily.py'
       - 'pipeline/tests/test_nhs_admin_service.py'
+      - 'pipeline/tests/test_nhs_admin_daily_compose.py'
   pull_request:
     branches:
       - main
     paths:
       - '.github/workflows/nhs-admin-service-publish-readiness.yml'
       - '.github/workflows/publish-reviewed-nhs-admin-service.yml'
+      - '.github/workflows/run-full-jobg8-daily-process.yml'
       - 'pipeline/external_sources/nhs_admin_inventory.py'
       - 'pipeline/external_sources/nhs_admin_service.py'
       - 'pipeline/external_sources/nhs_admin_dry_run.py'
+      - 'pipeline/external_sources/compose_nhs_admin_daily.py'
       - 'pipeline/tests/test_nhs_admin_service.py'
+      - 'pipeline/tests/test_nhs_admin_daily_compose.py'
   workflow_dispatch:
 
 permissions:
@@ -47,7 +53,7 @@ jobs:
         working-directory: pipeline
         env:
           PYTHONPATH: .
-        run: pytest -q tests/test_nhs_admin_service.py
+        run: pytest -q tests/test_nhs_admin_service.py tests/test_nhs_admin_daily_compose.py
       - name: Fetch NHS Administrative & Clerical inventory
         working-directory: pipeline
         env:
@@ -121,3 +127,9 @@ jobs:
               raise SystemExit(f'STOP: NHS share cap is {cap:.2%}, expected 20%.')
           print('NHS readiness gate passed: accepted rows enriched and source cap is 20%.')
           PY
+
+      - name: Smoke-test normal daily NHS composer
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: python -m external_sources.compose_nhs_admin_daily
