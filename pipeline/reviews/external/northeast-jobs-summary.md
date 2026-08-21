@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-08-20
-review_fingerprint: 7d391737fce92469bbde74b0b0613ae2a40747e63225ee4293c8a065787e38eb
+review_date: 2026-08-21
+review_fingerprint: c6b4aca31483a6883975e791c1496f09afb1790426bbdf541331172e07bc0cc0
 
 Edit only the `action:` line in each editable block:
 
@@ -11,18 +11,18 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-08-20T08:07:37+01:00
+Run generated: 2026-08-21T08:09:10+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 274
+JobG8 comparison rows in target geographies: 293
 
 ## Funnel
 
-- RSS vacancies read: 674
-- Hard-pass title/teaser screen before detail requests: 619
-- Detail candidates: 55
+- RSS vacancies read: 688
+- Hard-pass title/teaser screen before detail requests: 635
+- Detail candidates: 53
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 4
-- Tees Valley explicitly excluded: 12
+- Tees Valley explicitly excluded: 10
 - Target-geography candidates reviewed: 39
 
 ## Detail diagnostics
@@ -34,15 +34,15 @@ JobG8 comparison rows in target geographies: 274
 - HC: 9
 - POSS: 30
 - Hard pass: 0
-- Final selected after remembered/manual actions: 32
-- Final POSS awaiting decision: 2
+- Final selected after remembered/manual actions: 31
+- Final POSS awaiting decision: 3
 - Manually excluded: 5
 - Confirmed JobG8 duplicates: 0
-- Possible JobG8 duplicates: 5
-- Likely unique to North East Jobs: 34
+- Possible JobG8 duplicates: 4
+- Likely unique to North East Jobs: 35
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-08-19 is not 2026-08-20; old actions ignored
+- Manual review warning: manual review date 2026-08-20 is not 2026-08-21; old actions ignored
 
 ## SELECTED
 
@@ -84,12 +84,12 @@ source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Unit 43 Colbourne Crescent, Nelson Park Industrial Estate, Cramlington, United Kingdom | £20,742 - £21,072 | Business Support Administrator
-employer: Northumberland County Council
-closing_date: 20/08/2026
-reason: clear transferable title: administrator
-source_job_id: 300550
-source_url: https://www.northeastjobs.org.uk/job/Business_Support_Administrator/300550
+SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £26,824 - £28,142 | Business Support Assistant
+employer: Gateshead Council
+closing_date: 02/09/2026
+reason: clear transferable title: business support assistant
+source_job_id: 301018
+source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant/301018
 ---
 ---
 action:
@@ -102,12 +102,12 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant/3009
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 4 (£25,583 - £25,989) per annum | Casual Clerical Receptionist
-employer: North Tyneside Council
-closing_date: 21/08/2026 00:00
-reason: clear transferable title: receptionist, clerical
-source_job_id: 300594
-source_url: https://www.northeastjobs.org.uk/job/Casual_Clerical_Receptionist/300594
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | £26,403- £27,254 per annum, pro-rata | Business Support Officer
+employer: Newcastle City Council
+closing_date: 04/09/2026 22:59
+reason: clear transferable title: business support officer
+source_job_id: 300710
+source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer/300710
 ---
 ---
 action:
@@ -146,15 +146,6 @@ closing_date: 21/08/2026
 reason: possible JobG8 duplicate requires review
 source_job_id: 300212
 source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/300212
----
----
-action: select
-POSS | North East - County Durham & Darlington/Hartlepool | St Joseph’s Catholic Junior School, Birtley, Chester-le-Street, DH3 | Grade D, SCP 5 - 7 (£25,583 - £26,403 per annum, pro rata) | Administration Assistant
-employer: Bishop Wilkinson Catholic Education Trust
-closing_date: 20/08/2026
-reason: possible JobG8 duplicate requires review
-source_job_id: 300360
-source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant/300360
 ---
 ---
 action: select
@@ -220,13 +211,13 @@ source_job_id: 300955
 source_url: https://www.northeastjobs.org.uk/job/Marketing_Events_Assistant/300955
 ---
 ---
-action: select
+action:
 POSS | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award pending) | PA Support Officer
 employer: Darlington Borough Council
-closing_date: 30/08/2026
+closing_date: 31/08/2026
 reason: provisional transferable-office review
-source_job_id: 300628
-source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300628
+source_job_id: 300972
+source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300972
 ---
 ---
 action: select
@@ -283,15 +274,6 @@ source_job_id: 300592
 source_url: https://www.northeastjobs.org.uk/job/Claims_Support_Officer/300592
 ---
 ---
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 3 (SCP 7- 11) £26,403-£28,142 | Customer Enabling Services Advocate
-employer: Sunderland City Council
-closing_date: 20/08/2026
-reason: provisional transferable-office review
-source_job_id: 300485
-source_url: https://www.northeastjobs.org.uk/job/Customer_Enabling_Services_Advocate/300485
----
----
 action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | SCP 23-25, FTE salary (£34,434.00 - £36,363.00) | Data and Exams Officer
 employer: Walbottle Academy
@@ -299,6 +281,15 @@ closing_date: 24/08/2026 09:00
 reason: annualised upper salary £36,363 exceeds North East review point £30,000
 source_job_id: 300012
 source_url: https://www.northeastjobs.org.uk/job/Data_and_Exams_Officer/300012
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Culture House | Grade 4 (SCP 12 - 17) £28,598 - £31,022 pro rata | Digital Systems Administrator
+employer: Sunderland City Council
+closing_date: 02/09/2026
+reason: annualised upper salary £31,022 exceeds North East review point £30,000
+source_job_id: 300715
+source_url: https://www.northeastjobs.org.uk/job/Digital_Systems_Administrator/300715
 ---
 ---
 action: exclude
@@ -398,6 +389,15 @@ closing_date: 24/08/2026 12:00
 reason: transferable office/service title with specialist or borderline wording: technical
 source_job_id: 300614
 source_url: https://www.northeastjobs.org.uk/job/Technical_Support_Officer_Licensing/300614
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £32,061 to £ 33,699 per annum + benefits (pay award pending) | Trauma Support Coordinator
+employer: Tyne and Wear Fire and Rescue Service
+closing_date: 02/09/2026 12:00
+reason: annualised upper salary £33,699 exceeds North East review point £30,000
+source_job_id: 301015
+source_url: https://www.northeastjobs.org.uk/job/Trauma_Support_Coordinator/301015
 ---
 ## EXCLUDED BY REVIEW
 
