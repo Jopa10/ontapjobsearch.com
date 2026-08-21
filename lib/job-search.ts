@@ -384,7 +384,11 @@ function bestMatch(job: PublishedJob, input: string): FieldMatch {
     if (score > best.score) best = { score, kind };
   }
 
-  const combined = `${job.title} ${job.location} ${job.region}`;
+  // Multi-word one-box searches often span structured fields: employer + title
+  // ("Lumley administrator"), employer + curated category ("Lumley office"),
+  // or role + place. Treat those as a strong match without opening the door to
+  // incidental prose in the description.
+  const combined = `${job.title} ${job.company} ${job.advertiser_name} ${job.location} ${job.region} ${job.category}`;
   if (allTokensMatch(input, combined) && best.score < 150) {
     best = { score: 150, kind: "combined" };
   }
