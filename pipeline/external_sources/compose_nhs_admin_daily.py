@@ -1,11 +1,12 @@
 """Refresh and compose reviewed NHS admin/service jobs into daily pipeline output.
 
 This is the non-interactive NHS stage used by the normal Ontap daily process.
-It refreshes current Administrative & Clerical inventory, reapplies remembered
+It captures any valid manual NHS decisions already present in the unified review,
+refreshes current Administrative & Clerical inventory, reapplies remembered
 review decisions, applies the existing routing/dedupe/Tier A-before-B/20% source
 cap rules, fetches descriptions only for accepted NHS rows, verifies that
 non-NHS rows are unchanged, then atomically replaces the combined pipeline
-outputs and same-day NHS review surfaces.
+outputs and NHS review surfaces.
 """
 from __future__ import annotations
 
@@ -20,7 +21,7 @@ from pathlib import Path
 from external_sources import nhs_admin_inventory as inventory
 from external_sources import nhs_admin_service as nhs
 from external_sources.nhs_admin_dry_run import accepted_nhs_source_ids
-from external_sources.nhs_review_actions import reapply
+from external_sources.nhs_review_actions import capture_from_master, reapply
 
 
 def load_review_rows(path: Path) -> list[dict[str, str]]:
@@ -62,23 +63,31 @@ def run_daily_compose(
     review_csv: Path,
     summary_md: Path,
     ledger_csv: Path,
+    master_review: Path,
     today: date,
     write: bool,
 ) -> dict[str, object]:
-    vacancies, reported_total = inventory.fetch_all()
-
     with tempfile.TemporaryDirectory(prefix="ontap-nhs-daily-") as tmp_name:
         tmp = Path(tmp_name)
         tmp_review = tmp / "nhs-jobs-review.csv"
         tmp_summary = tmp / "nhs-jobs-summary.md"
+        tmp_ledger = tmp / "nhs-jobs-decisions.csv"
         precompose = tmp / "precompose"
         composed = tmp / "composed"
 
+        if ledger_csv.is_file():
+            shutil.copy2(ledger_csv, tmp_ledger)
+
+        captured = {"captured": 0, "changed": 0, "remembered": 0}
+        if master_review.is_file() and review_csv.is_file():
+            captured = capture_from_master(master_review, review_csv, tmp_ledger)
+
+        vacancies, reported_total = inventory.fetch_all()
         rows = nhs.review_rows(vacancies, today=today)
         nhs.write_review_csv(tmp_review, rows)
         reapplied = {"reapplied": 0, "changed_facts": 0}
-        if ledger_csv.is_file():
-            reapplied = reapply(tmp_review, ledger_csv)
+        if tmp_ledger.is_file():
+            reapplied = reapply(tmp_review, tmp_ledger)
         rows = load_review_rows(tmp_review)
 
         # First composition uses lightweight NHS search metadata only. This identifies
@@ -110,13 +119,17 @@ def run_daily_compose(
                 shutil.copy2(path, output_dir / path.name)
             review_csv.parent.mkdir(parents=True, exist_ok=True)
             summary_md.parent.mkdir(parents=True, exist_ok=True)
+            ledger_csv.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(tmp_review, review_csv)
             shutil.copy2(tmp_summary, summary_md)
+            if tmp_ledger.is_file():
+                shutil.copy2(tmp_ledger, ledger_csv)
 
     result: dict[str, object] = {
         "review_date": today.isoformat(),
         "api_reported_total": reported_total,
         "reviewed_open_rows": len(rows),
+        "captured_decisions": captured,
         "remembered_decisions": reapplied,
         "accepted_after_source_cap": len(accepted_ids),
         "description_enrichment": enrichment,
@@ -139,6 +152,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--ledger-csv", type=Path, default=Path("reviews/external/nhs-jobs-decisions.csv")
     )
+    parser.add_argument(
+        "--master-review", type=Path, default=Path("reviews/daily/ontap-daily-review.md")
+    )
     parser.add_argument("--today", type=date.fromisoformat, default=date.today())
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args(argv)
@@ -148,6 +164,7 @@ def main(argv: list[str] | None = None) -> int:
         review_csv=args.review_csv,
         summary_md=args.summary_md,
         ledger_csv=args.ledger_csv,
+        master_review=args.master_review,
         today=args.today,
         write=args.write,
     )
