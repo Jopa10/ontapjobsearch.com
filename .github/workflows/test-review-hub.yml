@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - "pipeline/review_hub/**"
-      - "pipeline/tests/test_review_hub.py"
+      - "pipeline/tests/test_review_hub*.py"
       - ".github/workflows/ontap-daily-review.yml"
       - ".github/workflows/apply-publish-ontap-daily-review.yml"
       - ".github/workflows/test-review-hub.yml"
@@ -13,7 +13,7 @@ on:
       - feature/ontap-review-hub-impl
     paths:
       - "pipeline/review_hub/**"
-      - "pipeline/tests/test_review_hub.py"
+      - "pipeline/tests/test_review_hub*.py"
       - ".github/workflows/ontap-daily-review.yml"
       - ".github/workflows/apply-publish-ontap-daily-review.yml"
       - ".github/workflows/test-review-hub.yml"
@@ -37,7 +37,7 @@ jobs:
         run: python -m compileall -q review_hub
       - name: Run Review Hub tests
         working-directory: pipeline
-        run: python -m pytest tests/test_review_hub.py -q
+        run: python -m pytest tests/test_review_hub*.py -q
       - name: Smoke-test current source adapters and dry-run apply plan
         working-directory: pipeline
         run: |
