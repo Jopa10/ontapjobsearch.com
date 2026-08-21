@@ -42,6 +42,10 @@ DIRECT_DESCRIPTION_EXCLUDES = [
     "commission-only", "commission only", "in-home consultation",
     "in home consultation", "visit customers in their homes",
     "visit customers at home", "travel time from your home postcode",
+    # Some national home-improvement campaigns are truncated in the JobG8 feed
+    # before the later self-employed/in-home wording. Their opening copy is still
+    # distinctive enough to keep them outside the office/contact-centre seam.
+    "transforming kitchens", "kitchen transformation journey", "kitchen makeovers",
 ]
 
 # Direct titles such as "Sales Executive" are too generic to identify showroom/car
