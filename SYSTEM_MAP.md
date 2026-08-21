@@ -1,12 +1,16 @@
 # Ontap System Map
 
-**Last updated:** 20 August 2026  
-**Status:** Canonical production architecture after cleanup, regional expansion, city-page expansion and deployment-path verification.
+**Last updated:** 21 August 2026  
+**Status:** Canonical production architecture after cleanup, regional/city expansion, deployment-path verification and NHS Administrative & Clerical integration.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
+- 21 August 2026 — NHS Jobs Administrative & Clerical inventory is now a live Service Admin source. Fresh NHS inventory is classified and routed through the existing LIVE Service Admin geography, composed transactionally with current non-NHS output, capped at a hard maximum 20% of each regional Service Admin page, and published through the common verified-page path.
+- 21 August 2026 — NHS selection is governed by title classification and switchability: HC Tier A ranks before Tier B; within equivalent quality, OPEN/PURE SWITCH ranks before BRIDGEABLE/POSSIBLE and NHS-experience-needed roles; freshness is a later tie-breaker. Unreviewed POSS rows remain fail-closed and are not required in the normal daily owner edit queue.
+- 21 August 2026 — The main JobG8 daily workflow and the standalone reviewed NHS publisher now use the same transactional composer, `pipeline/external_sources/compose_nhs_admin_daily.py`. It refreshes current NHS inventory, restores valid remembered decisions, enriches only rows that survive routing/dedupe/cap, verifies non-NHS preservation and required fields, then replaces NHS review/output state only after validation succeeds.
+- 21 August 2026 — The Review Hub treats untouched NHS POSS rows as optional review opportunities rather than unresolved failures. Hundreds of untouched NHS POSS rows therefore do not isolate NHS; automatically accepted HC rows can continue to publish under the 20% cap.
 - 20 August 2026 — Added canonical governance for discovering and activating new job families: discovery audit → family boundary → proof-region review → title register/refinement rules → national validation → 33-region diagnostic assessment → explicit LIVE-slice approval → integration into the existing daily/publish mechanisms. Family membership is non-exclusive where a job genuinely fits more than one user-facing family.
 - 20 August 2026 — Confirmed the production deployment model by live test: normal Vercel Git integration is the single automatic deployment route for `main`; `Deploy Ontap production after publish` waits up to three minutes for production to reach the expected SHA and fails/alerts if it does not. `VERCEL_TOKEN`/Vercel CLI is manual recovery only. The obsolete Deploy Hook was revoked and the `VERCEL_DEPLOY_HOOK_URL` repository secret removed.
 - 19 August 2026 — Homepage browse ordering now presents regional slices before city pages. Regional inventory is the primary breadth signal; city pages remain a secondary local layer, still subject to the 4-job homepage visibility floor.
@@ -33,13 +37,50 @@ Primary scheduled entry point: `.github/workflows/run-full-jobg8-daily-process.y
 
 It runs at 07:30 and 15:30 Europe/London and performs:
 
-`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → metadata enrichment → 33-region family coverage → pipeline outputs/reports`
+`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → approved external-source composition → fresh transactional NHS composition → metadata enrichment → 33-region family coverage → pipeline outputs/reports`
 
 `pipeline/input/jobg8.xlsx` is transient workflow input and is not committed. The validated raw feed is retained durably in S3 under `jobg8/raw`.
 
 The daily coverage pass reuses the same materialized JobG8 workbook and production rules across all 33 canonical regions. It writes diagnostic coverage only; it does not itself activate slices.
 
 The Service Admin LIVE set includes the six 19 August evidence-led regional activations: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
+
+### NHS Administrative & Clerical integration
+
+NHS Jobs is a production source for Service Admin, not a separate user-facing job family.
+
+Canonical components:
+
+- `pipeline/external_sources/nhs_admin_inventory.py` — fetch current NHS Administrative & Clerical inventory;
+- `pipeline/external_sources/nhs_admin_service.py` — classification, routing, dedupe, ranking, cap and composition rules;
+- `pipeline/external_sources/nhs_review_actions.py` — remembered manual decision ledger/reapply behaviour;
+- `pipeline/external_sources/compose_nhs_admin_daily.py` — transactional production composer used by both the normal daily path and reviewed NHS publisher;
+- `pipeline/reviews/external/nhs-jobs-review.csv` — current detailed NHS review state;
+- `pipeline/reviews/external/nhs-jobs-summary.md` — current NHS review summary;
+- `pipeline/reviews/external/nhs-jobs-decisions.csv` — remembered valid manual decisions;
+- `.github/workflows/refresh-nhs-admin-service-review.yml` — scheduled 10:05 UTC review refresh plus manual dispatch;
+- `.github/workflows/publish-reviewed-nhs-admin-service.yml` — source-specific reviewed NHS publisher.
+
+Classification state is fail-closed:
+
+- HC Tier A and Tier B rows can be automatically selected when otherwise publishable;
+- HARD_PASS rows are excluded;
+- unseen/ambiguous titles default to POSS/BRIDGEABLE and do not publish unless a valid remembered/manual select decision exists;
+- ambiguous title overrides are governed centrally rather than silently promoted.
+
+Ranking priority is:
+
+1. HC Tier A before Tier B;
+2. within equivalent quality, OPEN/PURE SWITCH before BRIDGEABLE/POSSIBLE before NHS-experience-needed;
+3. freshness after quality/switchability.
+
+NHS is a complementary source. **20% is a hard ceiling, not a target.** Composition must never exceed 20% NHS share in an eligible regional Service Admin output.
+
+`compose_nhs_admin_daily.py` is transactional. It works in temporary state first, preserves current non-NHS rows exactly, refreshes current NHS inventory, reapplies valid remembered decisions, pre-composes against current Service Admin output, enriches descriptions only for NHS rows that survive classification/routing/dedupe/cap, verifies required apply URLs/descriptions and the 20% ceiling, then replaces the real NHS review/output files only after all checks pass.
+
+The normal daily JobG8 workflow invokes this composer before Service Admin metadata enrichment. The reviewed NHS publisher invokes the same composer rather than maintaining a parallel implementation, then runs the common verified Service Admin page publisher.
+
+The unified Review Hub deliberately does **not** require the large NHS POSS population to be edited every day. Untouched NHS POSS rows are omitted from the normal mandatory owner edit queue and stay fail-closed; their volume does not isolate NHS or block automatically accepted HC rows.
 
 ### New job-family discovery and activation governance
 
@@ -54,7 +95,7 @@ A new job family must not move directly from a broad title/regex discovery resul
 7. **Explicit LIVE-slice approval** — activate only regions with sufficient recurring quantity and page quality. A non-zero diagnostic count is not by itself an activation decision.
 8. **Integrate, do not parallel-build** — once approved, the family must use the existing shared ingest, registers/config, review, publishing, reporting and website mechanisms wherever those mechanisms can be extended safely.
 
-Family classification is **not required to be mutually exclusive**. A single underlying job may legitimately qualify for more than one Ontap family when it genuinely serves both user intents (for example, a customer/commercial support role that fits both Service Admin and a future Sales Advisor family). Each family applies its own eligibility/refinement rules. Duplication should be suppressed only where the same job would otherwise appear redundantly in one user-facing result set; a job must not be removed from one valid family merely because it also qualifies for another.
+Family classification is **not required to be mutually exclusive**. A single underlying job may legitimately qualify for more than one Ontap family when it genuinely serves both user intents. Each family applies its own eligibility/refinement rules. Duplication should be suppressed only where the same job would otherwise appear redundantly in one user-facing result set; a job must not be removed from one valid family merely because it also qualifies for another.
 
 The current Sales Advisor work is a discovery candidate under this lifecycle. It is not yet a production family and remains outside the recurring 33-region family assessment until its boundary, register/refinement rules and validation are approved.
 
@@ -66,12 +107,13 @@ It reconciles the master review, applies valid decisions back to source-owned re
 
 Publication isolation is hierarchical:
 
-- up to 15 unresolved/malformed jobs in one source are withheld fail-closed while clean jobs continue;
-- more than 15 such jobs, or a source-level integrity mismatch, isolates that source and retains its previous approved state;
+- up to 15 unresolved/malformed **mandatory-review** jobs in one source are withheld fail-closed while clean jobs continue;
+- more than 15 such mandatory-review jobs, or a source-level integrity mismatch, isolates that source and retains its previous approved state;
+- NHS untouched POSS rows are optional review opportunities and therefore do not count toward that isolation threshold;
 - source publisher failures are fail-soft where the prior approved state can safely be retained;
 - only a genuine combined/publication integrity failure should stop the whole publish.
 
-Confirmed source paths include JobG8, NEJobs, VONNE and Teaching Vacancies.
+Confirmed source paths include JobG8, NEJobs, VONNE, Teaching Vacancies and NHS Jobs.
 
 `publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`. That guard checks out current `main`, records the expected SHA and waits for the normal Vercel Git integration deployment to reach that commit or a newer descendant. Automatic runs do not invoke Vercel CLI recovery.
 
@@ -130,7 +172,8 @@ Recurring review workflows:
 
 - NEJobs — 06:15 daily;
 - VONNE — 06:35 daily;
-- Teaching Vacancies regional/master review — 06:55 daily.
+- Teaching Vacancies regional/master review — 06:55 daily;
+- NHS Administrative & Clerical review — 10:05 UTC daily, with the production composers also refreshing NHS inventory themselves before composition.
 
 ### Core supporting areas
 
@@ -156,6 +199,7 @@ Operational reports include:
 - `pipeline/reviews/daily/ontap-daily-review.md` — daily owner review;
 - `pipeline/reports-daily/daily-family-coverage.csv` — same-feed Service Admin and Support Worker coverage across all 33 canonical regions;
 - `pipeline/reports-daily/daily-region-overview.md` — regional live/not-live overview;
+- `pipeline/reports-daily/live-job-source-count-YYYY-MM-DD.csv` — current provider/source counts, including NHS Jobs after verified publication;
 - `pipeline/reports/city-opportunities-current.md` and `.json` — current city/local-market opportunity state;
 - `pipeline/reports/city-opportunity-history.json` — rolling qualification history.
 
@@ -183,6 +227,7 @@ Verified structure:
 - `lib/city-page-data.ts` reads `pipeline/city_pages/city-page-register.json` and resolves active city definitions/data;
 - public city routes read private derived JSON under `app/_city-pages/...`, preventing duplicate job-detail URLs;
 - homepage city cards are filtered independently at 4+ current jobs; this does not change route activation/permanence;
+- NHS-sourced jobs use the same Service Admin regional/job-detail routes as other inventory and retain `source: "NHS Jobs"` plus the original NHS apply URL; employer names do not necessarily contain the word NHS;
 - `app/api/deployment-version/route.ts` exposes the deployed Vercel Git SHA for verification.
 
 New approved city routes are Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin. Durham has no approved city route.
@@ -195,18 +240,21 @@ Public URLs remain stable unless a concrete business benefit or defect justifies
 
 Persistent product content belongs here when it changes product behaviour. Ontap's broad direction remains a job site for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the entire identity.
 
+NHS/public-sector inventory is a complementary supply and sector-switching advantage; it must not redefine Ontap as an NHS job board. Generic job discovery should continue to mix NHS into the wider inventory under the source cap, while explicit NHS/public/charity interest can be surfaced more strongly through later UX work.
+
 ## 5. Operations / infrastructure
 
 Core scheduled workflows include:
 
-- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London;
+- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London; includes a fresh transactional NHS Service Admin composition stage;
 - `run-nejobs-review.yml` — 06:15 daily;
 - `run-vonne-review.yml` — 06:35 daily;
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily;
+- `refresh-nhs-admin-service-review.yml` — 10:05 UTC daily;
 - `ontap-daily-review.yml` — 08:45 Europe/London;
 - `google-indexing-api.yml` — 19:30 UTC daily.
 
-The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`.
+The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`. NHS is one of its source publishers. The reviewed NHS publisher uses `compose_nhs_admin_daily.py`, the same transactional composer as the normal daily path, before the shared verified Service Admin page publish.
 
 ### Post-publish production deployment
 
@@ -239,7 +287,7 @@ This leaves one automatic route — `main` → Vercel Git integration — plus o
 
 ## Validation state
 
-Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are now part of the documented production state. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery.
+Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery. NHS Administrative & Clerical inventory is now part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling.
 
 ## Documentation rule
 
