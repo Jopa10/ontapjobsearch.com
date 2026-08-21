@@ -402,19 +402,31 @@ function preferredBonus(kind: MatchKind, preferred: "role" | "location"): number
   return 0;
 }
 
+function hasRoleAnchor(jobs: PublishedJob[], input: string): boolean {
+  return jobs.some((job) => {
+    const titleScore = scoreField(input, job.title, [240, 215, 190, 165]);
+    const categoryScore = scoreField(input, job.category, [145, 130, 120, 110]);
+    return Math.max(titleScore, categoryScore) >= 30;
+  });
+}
+
 export function searchJobs(jobs: PublishedJob[], query: string, location: string): PublishedJob[] {
   let roleQuery = query.trim();
   let effectiveLocation = location.trim();
 
   // A rushed one-box search such as "cust srv ncl" or "west york admin"
   // should still separate a recognisable place from the role terms. Only infer
-  // geography when the dedicated location box is empty.
+  // geography when the dedicated location box is empty. A role-like token stays
+  // a role even if a bad source record has job-title prose in its location field.
   if (roleQuery && !effectiveLocation) {
     const rawTokens = normalise(roleQuery).split(/\s+/).filter(Boolean);
     const geoTokenIndexes = new Set<number>();
 
     rawTokens.forEach((token, index) => {
-      if (jobs.some((job) => bestGeoMatch(job, token).score >= 30)) {
+      if (
+        !hasRoleAnchor(jobs, token) &&
+        jobs.some((job) => bestGeoMatch(job, token).score >= 30)
+      ) {
         geoTokenIndexes.add(index);
       }
     });
