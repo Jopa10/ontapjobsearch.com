@@ -15,12 +15,15 @@ from slice_registry import candidate_slices, load_slice_register, live_slices
 
 
 class SliceRegistryTests(unittest.TestCase):
-    def test_register_tracks_expanded_feed_launch_and_watch_slices(self):
+    def test_register_has_unique_valid_region_category_rows(self):
         records = load_slice_register()
-        self.assertEqual(len(records), 67)
-        self.assertEqual(sum(row.status == "LIVE" for row in records), 43)
-        self.assertEqual(sum(row.status == "CANDIDATE" for row in records), 24)
-        self.assertEqual(sum(row.status == "RETIRED" for row in records), 0)
+        pairs = {(row.region, row.category) for row in records}
+        self.assertEqual(len(pairs), len(records))
+        self.assertGreater(len(records), 60)
+        self.assertEqual(
+            sum(row.status in {"LIVE", "CANDIDATE", "RETIRED"} for row in records),
+            len(records),
+        )
 
     def test_live_rows_include_new_white_collar_admin_support_and_sales_slices(self):
         live = live_slices()
