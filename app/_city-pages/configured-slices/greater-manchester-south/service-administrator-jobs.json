@@ -47,11 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "5b9c38d1-2d2e-427d-bc2a-a4feac3ed9b0",
@@ -76,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225474612",
@@ -356,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225446755",
@@ -386,43 +373,5 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "nhs-5525079",
-    "source": "NHS Jobs",
-    "title": "Bank Receptionist - Ashton GP Service & Gordon Street Medical Centre",
-    "company": "Gtd Healthcare",
-    "advertiser_name": "Gtd Healthcare",
-    "location": "Greater Manchester, OL6 7SR, Ashton-under-Lyne, OL6 6PR",
-    "region": "Greater Manchester - South",
-    "salary": "£13.45",
-    "employment_type": "Bank",
-    "posted_date": "2026-08-10T09:39:14.441337625",
-    "closing_date": "2026-08-23",
-    "description": "Are you looking for additional hours with flexibility where you can pick up shifts when you want to work? gtd healthcare is one of the largest, not-for-profit, NHS commissioned primary and urgent care providers in North West England. Due to growth of our primary care services, we are looking to employ additional Bank Receptionists to work across Ashton GP Service and Gordon Street Medical Centre. Both practices have a combined list size of approximately 8,000 patients. Ourpopulation is diverse and multi-cultural with a strong community spirit. A high percentage of our patients face deprivation and multi morbidity, this makes for a varied role as well as an opportunity to make a real different to individuals, families and the wider community. The successful candidates will be friendly, confident, resilient, flexible, have well developed team work, communication, organisational and customer service skills. Primary care or secondary care reception experience is essential for this role. We are a values driven organisation and we are passionate about providing the best possible healthcare for our patients. We are keen to develop and support staff to excel their career aspirations whilst making a positive difference to patients and the community. Welcome and receive all patients and visitors to the Practice. Assist and direct patients to the appropriate healthcare professional/service when they arrive at the Practice. Process all requests for appointments, visits and telephone consultation/triage ensuring all calls are directed to the appropriate healthcare professional. Project a positive and friendly image to patients and visitors either in person or on the telephone. Explain Practice arrangements and formal requirements to new patients wishing to register and those seeking temporary registration. Complete new registration procedures and ensure accurate recording of details at all times. Receive and make telephone calls as required. Divert calls and take messages ensuring accuracy of detail and prompt appropriate delivery. Action repeat prescription requests and ensure they are ready for collection by the patient within 48 hours. Accept payment and issue receipts for private (non general medical services) services. Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies. Act as a chaperone for general examinations if requested following appropriate training. Maintain a general overview of the reception area and take appropriate action to manage difficult/aggressive patient behaviour or those whose illness/condition worsens while waiting to be seen. For further details, please refer to the atatched job description. Reception duties Process all requests for appointments, visits and telephone consultation/triage ensuring all calls are directed to the appropriate healthcare professional and ensuring careful and accurate recording of details at all times. Explain Practice arrangements and formal requirements to new patients wishing to register and those seeking temporary registration ensuring all registration procedures are completed. Provide test results to patients on advice from the GP or Nurse. Deal with general enquiries and explain procedures as requested. Offer general assistance to the Practice team. Clerical/administration To have a thorough knowledge of all Practice procedures and protocols and know where to access them for reference adhering to them at all times. Ensure adherence at all times to the requirements of the Data Protection Act. Maintain and monitor Practice appointment system. Process all incoming and outgoing mail. Action information received. Undertake choose and book appointments as requested. Action, retrieve and accurately re-file patient notes and records as required. Ensure correspondence, reports, results etc. are filed/scanned promptly in the correct patient record and are available when patients are seen. Action notes from GPs for individual patients using the Practice clinical system. Enter and code specific data from Consultant letters, and other correspondence. Summarise new and existing patient notes following appropriate training. Premises Open up premises at the start of the day, if first to arrive, de-activate the alarm make all necessary preparations to receive patients for the opening time of the Practice. When last to leave premises at the end of the day, ensure that the building is totally secured, telephone diverted to Out of Hours number, internal lights are switched off and the alarm activated. Clear and re-stock consulting rooms as required. Ensure the reception area, notice boards and leaflet racks are tidy and free from clutter and obstructions. Personal/Professional development The post holder will participate in any training activity implemented by the Practice or gtd healthcare as part of this employment, such activity to include: Participation in an annual performance review (appraisal), including taking responsibility for maintaining a record of own development activity. Taking responsibility for own development and learning by following through objectives set at appraisal. Ensure attendance at identified training events. Attend induction training, mandatory training and mandatory updates as required. Attendance at Practice meetings. Support the induction and training of new members of staff in reception procedures. Quality The post holder will strive to maintain quality within the Practice by: Alerting other team members to issues of quality and risk. Assessing own performance and taking accountability for own actions, either directly or under supervision. Contribute to the effectiveness of the team by reflecting on own and teams activities and making suggestions on ways to improve and enhance the teams performance. Work effectively with individuals in other agencies to meet patients needs. Effectively manage own time, workload and resources. Other duties Any other duties, as agreed with the line manager to meet the needs of the organisation. This may include travel to other sites within the organisation.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0101",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0101",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5516165",
-    "source": "NHS Jobs",
-    "title": "Practice Receptionist / Administrator - Hattersley Group Practice",
-    "company": "Gtd Healthcare",
-    "advertiser_name": "Gtd Healthcare",
-    "location": "Hyde, SK14 3EH",
-    "region": "Greater Manchester - South",
-    "salary": "£26300.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-05T08:41:49.234414572",
-    "closing_date": "2026-08-23",
-    "description": "gtd healthcare is one of the largest, not-for-profit, NHS commissioned primary and urgent care providers in North West England. An exciting opportunity has arisen for an enthusiastic and committed individuals to work as a Receptionist in our Hattersley Group Practice. We are a busy but friendly Practice, dedicated to serving our registered patients across the Hyde community for over 25 years. The practice's are keen to develop and support staff to excel their career aspirations whilst making a positive difference to patients and the community. The successful candidate will be friendly, confident, resilient, flexible, have well developed team work, communication, organisational and customer service skills. Experience of working in a GP Practice and using Emis Web & docman would be desirable but not essential. We are looking to recruit We put our people at the heart of everything we do. We are a values driven organisation and we are passionate about providing the best possible healthcare for our patients. The hours of work for this post are 25 hours per week, Monday to Friday 13:30 to 18:30. Welcome and receive all patients and visitors to the Practice. Assist and direct patients to the appropriate healthcare professional/service. Process all requests for appointments, visits and telephone consultation/triage ensuring all calls are directed to the appropriate healthcare professional. Project a positive and friendly image to patients and visitors either in person or on the telephone. Complete new registration procedures and ensure accurate recording of details at all times. Receive and make telephone calls as required. Divert calls and take messages ensuring accuracy of detail and prompt appropriate delivery. Action repeat prescription requests. Provide test results to patients. Accept payment and issue receipts for private services. Facilitate effective communication between patients, staff, secondary care and other associated healthcare agencies. Act as a chaperone for general examinations if requested. Maintain a general overview of the reception area and take appropriate action to manage difficult/aggressive patient behaviour or those whose illness/condition worsens while waiting to be seen. Deal with general enquiries and explain procedures as requested. For further details, please refer to the atatched job description. Reception duties Assist and direct patients to the appropriate healthcare professional/service when they arrive at the Practice. Process all requests for appointments, visits and telephone consultation/triage ensuring all calls are directed to the appropriate healthcare professional and ensuring careful and accurate recording of details at all times. Explain Practice arrangements and formal requirements to new patients wishing to register and those seeking temporary registration ensuring all registration procedures are completed. Action repeat prescription requests and ensure they are ready for collection by the patient within 48 hours. Provide test results to patients on advice from the GP or Nurse. Accept payment and issue receipts for private (non general medical services) services. Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies. Act as a chaperone for general examinations if requested following appropriate training. Offer general assistance to the Practice team. Clerical/administration To have a thorough knowledge of all Practice procedures and protocols and know where to access them for reference adhering to them at all times. Ensure adherence at all times to the requirements of the Data Protection Act. Maintain and monitor Practice appointment system Process all incoming and outgoing mail. Action information received via email and fax. Undertake Choose and Book appointments as requested. Action, retrieve and accurately re-file patient notes and records as required. Ensure correspondence, reports, results etc. are filed/scanned promptly in the correct patient record and are available when patients are seen. Action notes from GPs for individual patients using the Practice clinical system. Enter and code specific data from Consultant letters, faxes and other correspondence. Summarise new and existing patient notes following appropriate training. Premises Open up premises at the start of the day, if first to arrive, de-activate the alarm make all necessary preparations to receive patients for the opening time of the Practice. When last to leave premises at the end of the day, ensure that the building is totally secured, telephone diverted to Out of Hours number, internal lights are switched off and the alarm activated. Clear and re-stock consulting rooms as required. Ensure the reception area, notice boards and leaflet racks are tidy and free from clutter and obstructions.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0095",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0095",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
   }
 ]

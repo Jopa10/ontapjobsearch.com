@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 4
-- automatic exclude: 6
-- effective include: 5
-- effective review: 4
-- effective exclude: 6
+- automatic include: 4
+- automatic review: 3
+- automatic exclude: 7
+- effective include: 4
+- effective review: 3
+- effective exclude: 7
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Secure Childrens Home Support Worker (Weekends)
-company: Hampshire County Council - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1401784075
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Support Worker - Children & Young People
 company: Randstad Care - Agency - Temporary
 location: Southampton
@@ -84,7 +72,7 @@ job_id: jobg8-1642087
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -114,18 +102,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Assistant - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Hook
-source: JobG8
-job_id: jobg8-77b95346-e87e-49a2-ba72-135448bf136e
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Day Opportunities Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Alton
@@ -134,7 +110,7 @@ job_id: jobg8-1401784594
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -181,6 +157,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-202c4b49-5e6c-46f1-879f-8421db894a5b
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Night Care Assistant
+company: Barchester Healthcare - Company - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-8e6242db-cd62-4802-934f-7ad53601c988
 reason: Separate employment market.
 ---
 

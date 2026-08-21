@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 62
+- automatic review: 57
 - automatic exclude: 1
 - effective include: 1
-- effective review: 62
+- effective review: 57
 - effective exclude: 1
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (62)
+## REVIEW (57)
 
 ---
 action: 
@@ -66,11 +66,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Boiler Installs Administrator
+title: Appointment Booking Administrator
 company: The Hyde Group - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-c9541cf7-4df0-4d84-bf49-6470ead69ade
+job_id: jobg8-a0639dfd-56cb-4c60-95e9-ec98745f232c
 reason: Broad location; review before city inclusion.
 ---
 
@@ -126,11 +126,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Contact Centre Director
-company: Careline Support Ltd - Agency - Permanent
+title: Contract Service Desk Lead
+company: Spectrum It Recruitment Limited - Agency - Contract
 location: Hampshire
 source: JobG8
-job_id: jobg8-107688911
+job_id: jobg8-107843259
 reason: Broad location; review before city inclusion.
 ---
 
@@ -143,42 +143,6 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225431334
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Crewing Coordinator
-company: TSL Lighting - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225425137
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Office Angels - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225407249
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Office Angels - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-8ce5f464-05a9-43e0-8f2f-af12d6230bfd
 reason: Broad location; review before city inclusion.
 ---
 
@@ -223,18 +187,6 @@ action:
 decision: review
 automatic_decision: review
 title: Executive Assistant & Operations Coordinator
-company: The Workshop - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-107835605
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Assistant & Operations Coordinator
 company: Workshop Recruitment - Agency - Temporary
 location: Hampshire
 source: JobG8
@@ -263,18 +215,6 @@ company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225497720
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225425522
 reason: Broad location; review before city inclusion.
 ---
 
@@ -323,6 +263,18 @@ company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-84211efd-7135-4121-abc2-ba964c41865e
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Administrator
+company: Hartley Resourcing - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-32422e23-2052-4af5-82d5-a882f45bb0b6
 reason: Broad location; review before city inclusion.
 ---
 
@@ -383,6 +335,18 @@ company: RGB Network - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225459037
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insight Administrator
+company: Hays Business Support - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225519192
 reason: Broad location; review before city inclusion.
 ---
 
@@ -570,18 +534,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Administrator
-company: Reed - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-747793e6-2c9c-46d5-9c4b-62900bf60893
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Michael Page Finance - Agency - Permanent
 location: Hampshire
@@ -714,30 +666,6 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Silcom Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1aa94c42-328c-47ba-9a97-4bceadd1d212
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: The Solution Automotive Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107796844
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor - Automotive
 company: Additional Resources Ltd - Agency - Permanent
 location: Hampshire
@@ -755,6 +683,18 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225419560
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shipping Administrator
+company: Hartley Resourcing - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-a262381a-344d-4c47-bd8e-534b46571e9a
 reason: Broad location; review before city inclusion.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 29
+- automatic exclude: 28
 - effective include: 2
 - effective review: 0
-- effective exclude: 29
+- effective exclude: 28
 
 ## INCLUDE (2)
 
@@ -50,7 +50,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (29)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -200,11 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Logistics & Customer Service Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+title: Learning and Development Coordinator
+company: Rose & Young Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225467522
+job_id: jobg8-107875425
 reason: Separate employment market.
 ---
 
@@ -212,11 +212,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: My Way Facilitator (Transitions Co-ordinator)
-company: MacIntyre - Agency - Permanent
+title: Logistics & Customer Service Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Warwickshire
 source: JobG8
-job_id: jobg8-107841442
+job_id: jobg8-23643_225467522
 reason: Separate employment market.
 ---
 
@@ -289,30 +289,6 @@ company: Macildowie Recruitment and Retention - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-9bccef77-3de5-4082-92cc-aefc7bf20d50
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Registry Administrator
-company: thefutureworks - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225406898
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Registry Administrator
-company: Thefutureworks - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-dfd7d156-9a1c-4512-9b81-e6446c2d5571
 reason: Separate employment market.
 ---
 
@@ -397,5 +373,17 @@ company: Bis Henderson - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2b0f08ad-fe9d-4637-8766-17a7c353b0cd
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: X2 Administrators - Coventry - £14.00 - £15.00 p/h
+company: Oakley Recruitment Limited - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225516949
 reason: Separate employment market.
 ---

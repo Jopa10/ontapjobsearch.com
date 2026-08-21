@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 4
-- automatic exclude: 10
+- automatic exclude: 8
 - effective include: 9
 - effective review: 4
-- effective exclude: 10
+- effective exclude: 8
 
 ## INCLUDE (9)
 
@@ -182,7 +182,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -236,35 +236,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-9b15b052-ee03-4bba-8d2e-fafc74d60cc4
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Senior Administrator
 company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor - Toyota
-company: Stoneacre Motor Group. - Company - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107669843
 reason: Separate employment market.
 ---
 

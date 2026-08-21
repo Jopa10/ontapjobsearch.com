@@ -1,16 +1,15 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1674633,Accommodation Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1642086,Care and Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
-include,jobg8-1401784075,Secure Childrens Home Support Worker (Weekends),Hampshire County Council - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-58c3e926-cf9b-4aae-a931-e1c867a7b221,Support Worker - Children & Young People,Randstad Care - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1642087,Waking Night Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-1401784493,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784339,Care Assistant (Older Adults),Hampshire County Council - Company - Permanent,Emsworth,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
-review,jobg8-77b95346-e87e-49a2-ba72-135448bf136e,Care Assistant - Care Home,Barchester Healthcare - Company - Permanent,Hook,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401784594,Day Opportunities Support Worker,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 exclude,jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61,Care Assistant - Bank - Care Home,Barchester Healthcare - Company - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
 exclude,jobg8-62ac8011-cb52-461e-bd72-7273b61cb640,Child Support Worker,Randstad Care - Agency - Temporary,Portsmouth,JobG8,exclude,exclude,Separate employment market.,portsmouth,southampton-support-worker
 exclude,jobg8-1401784414,Children's Home Support Worker,Hampshire County Council - Company - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
 exclude,jobg8-202c4b49-5e6c-46f1-879f-8421db894a5b,Night Care Assistant,Barchester Healthcare - Company - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
+exclude,jobg8-8e6242db-cd62-4802-934f-7ad53601c988,Night Care Assistant,Barchester Healthcare - Company - Permanent,Andover,JobG8,exclude,exclude,Separate employment market.,andover,southampton-support-worker
 exclude,jobg8-1401784687,Night Care Assistant (Adults),Hampshire County Council - Company - Permanent,Basingstoke,JobG8,exclude,exclude,Separate employment market.,basingstoke,southampton-support-worker
 exclude,jobg8-1401784261,Secure Children's Home Support Worker,Hampshire County Council - Company - Permanent,Eastleigh,JobG8,exclude,exclude,Separate employment market.,eastleigh,southampton-support-worker

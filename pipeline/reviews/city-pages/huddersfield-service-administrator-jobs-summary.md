@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 16
-- automatic exclude: 41
+- automatic exclude: 43
 - effective include: 7
 - effective review: 16
-- effective exclude: 41
+- effective exclude: 43
 
 ## INCLUDE (7)
 
@@ -186,11 +186,11 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Reed - Agency - Permanent
+title: Office Coordinator
+company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
 source: JobG8
-job_id: jobg8-6aca5c9a-a87a-46e1-a01d-07f478618bad
+job_id: jobg8-23643_225476804
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -198,11 +198,11 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Sayjo Recruitment Ltd - Agency - Permanent
-location: Brighouse
+title: Part-time Customer Service Administrator
+company: Reed - Agency - Temporary
+location: Keighley
 source: JobG8
-job_id: jobg8-23643_225476804
+job_id: jobg8-8043597e-1b02-4933-9b50-c53e7abaf8b1
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -302,7 +302,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (41)
+## EXCLUDE (43)
 
 ---
 action: 
@@ -344,18 +344,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Woodkirk Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrator
 company: Nigel Wright Recruitment - Agency - Temporary
 location: Leeds
@@ -373,18 +361,6 @@ company: Nigel Wright Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225488843
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Financial Services)
-company: FindCore - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-00f003e0-65d1-48b6-86b7-36a6c34dfcb5
 reason: Separate employment market.
 ---
 
@@ -440,18 +416,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Claims Handler - Industrial Disease
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-180c56f1-188b-4257-b36d-f49bf2420346
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Administrator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Wakefield
@@ -464,23 +428,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Administrator
-company: Huntress - Leeds - Agency - Permanent
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-23643_225408563
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Support Advisor
-company: InfoTrack UK - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64
+job_id: jobg8-23643_225516031
 reason: Separate employment market.
 ---
 
@@ -536,6 +488,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Fees Administrator
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-465443f5-5849-44a3-88a7-f6d16f74388b
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Graduate Finance Assistant
 company: T3AM Global - Agency - Permanent
 location: Leeds
@@ -565,6 +529,18 @@ company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225451264
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
+company: Reed - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-bd7ebfd9-eca9-4788-aae5-8ff1fc7649fe
 reason: Separate employment market.
 ---
 
@@ -613,6 +589,30 @@ company: Hays Business Support - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225500836
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: Office Angels - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-bd623950-5977-468e-9053-63bca82caef4
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: TRC Yorkshire - Agency - Temporary
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225514711
 reason: Separate employment market.
 ---
 
@@ -716,6 +716,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Recruitment Administrator
+company: Adecco - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225515250
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Receptionist
 company: Cross Gates Primary School
 location: Leeds
@@ -757,6 +769,18 @@ company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Executive Support Administrator
+company: Hays Business Support - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225519206
 reason: Separate employment market.
 ---
 

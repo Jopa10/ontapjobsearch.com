@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 39
-- automatic exclude: 3
+- automatic review: 38
+- automatic exclude: 2
 - effective include: 1
-- effective review: 39
-- effective exclude: 3
+- effective review: 38
+- effective exclude: 2
 
 ## INCLUDE (1)
 
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-administrative-assistants-cardinal-newman-catholic-sc
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (39)
+## REVIEW (38)
 
 ---
 action: 
@@ -91,34 +91,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Grafters Recruitment Consultants Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225416287
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Hays Business Support - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225428472
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Randstad Construction and Property - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225407733
 reason: Broad location; review before city inclusion.
 ---
 
@@ -138,11 +114,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Home Administrator
-company: Barchester Healthcare - Company - Permanent
+title: Coordinator Administrator
+company: HR GO Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-02105912-ef82-4655-8db1-021718e86c92
+job_id: jobg8-39048220-853f-45fa-bca5-958a6e7b5669
 reason: Broad location; review before city inclusion.
 ---
 
@@ -150,11 +126,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Dispatch Administrator
-company: Reed - Agency - Permanent
+title: Customer Service Administrator
+company: Morgan McKinley - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-18ff30b5-3cdf-40e4-891b-cbed54aee5aa
+job_id: jobg8-b9b29cf0-2281-4013-99a7-b2e6124067b9
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-ba7142e5-3e8f-4baa-b926-65b283c2a0b8
 reason: Broad location; review before city inclusion.
 ---
 
@@ -179,18 +167,6 @@ company: Clearline Recruitment Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-fb3fe47d-5d59-4623-9913-6e6cc881ded7
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Administrator
-company: Financial Divisions - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-73c27096-8e4a-4bbb-8a13-773dcdd66a6c
 reason: Broad location; review before city inclusion.
 ---
 
@@ -239,6 +215,18 @@ company: Office Angels - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225454060
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Oraculum - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225517937
 reason: Broad location; review before city inclusion.
 ---
 
@@ -318,18 +306,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Care Coordinator
-company: Clearline Recruitment Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-3b53cb0f-6ff5-487a-a44c-2f2e6f60719a
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: People Services Administrator
 company: Southdown - Agency - Permanent
 location: Sussex
@@ -347,6 +323,18 @@ company: Office Angels - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225460325
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Administrator - Immediate Start!
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-5e20f6b2-7c09-4f8a-b8e7-d039791767e1
 reason: Broad location; review before city inclusion.
 ---
 
@@ -506,7 +494,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -529,17 +517,5 @@ company: Robsack Wood Primary School
 location: St Leonards-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-admin-assistant-robsack-wood-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Admin Assistant
-company: Greenway Junior School
-location: Horsham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-admin-assistant-greenway-junior-school
 reason: Separate employment market.
 ---

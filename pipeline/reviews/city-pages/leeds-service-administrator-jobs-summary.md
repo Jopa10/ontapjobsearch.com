@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 28
 - automatic review: 17
 - automatic exclude: 21
-- effective include: 26
+- effective include: 28
 - effective review: 17
 - effective exclude: 21
 
-## INCLUDE (26)
+## INCLUDE (28)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator (Financial Services)
-company: FindCore - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-00f003e0-65d1-48b6-86b7-36a6c34dfcb5
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrator - Leeds Head Office
 company: T3AM Global - Agency - Permanent
 location: Leeds
@@ -136,35 +124,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Claims Handler - Industrial Disease
-company: IPS Group - Agency - Permanent
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-180c56f1-188b-4257-b36d-f49bf2420346
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: Huntress - Leeds - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225408563
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Support Advisor
-company: InfoTrack UK - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-4ecd3b80-caa6-4b13-9b6c-bff6b32a5d64
+job_id: jobg8-23643_225516031
 reason: Approved Leeds catchment.
 ---
 
@@ -220,6 +184,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Fees Administrator
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-465443f5-5849-44a3-88a7-f6d16f74388b
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Graduate Finance Assistant
 company: T3AM Global - Agency - Permanent
 location: Leeds
@@ -257,10 +233,34 @@ action:
 decision: include
 automatic_decision: include
 title: HR Assistant
+company: Reed - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-bd7ebfd9-eca9-4788-aae5-8ff1fc7649fe
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225476554
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Office Angels - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-bd623950-5977-468e-9053-63bca82caef4
 reason: Approved Leeds catchment.
 ---
 
@@ -316,6 +316,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Recruitment Administrator
+company: Adecco - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225515250
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Receptionist
 company: Cross Gates Primary School
 location: Leeds
@@ -333,6 +345,18 @@ company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Executive Support Administrator
+company: Hays Business Support - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
@@ -414,18 +438,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Reed - Agency - Permanent
-location: Brighouse
-source: JobG8
-job_id: jobg8-6aca5c9a-a87a-46e1-a01d-07f478618bad
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -443,6 +455,18 @@ company: Huntress - Leeds - Agency - Permanent
 location: Wetherby
 source: JobG8
 job_id: jobg8-23643_225445220
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Customer Service Administrator
+company: Reed - Agency - Temporary
+location: Keighley
+source: JobG8
+job_id: jobg8-8043597e-1b02-4933-9b50-c53e7abaf8b1
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -543,18 +567,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (21)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Woodkirk Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-afae22fe-4a1f-474e-8115-8152163d6795
-reason: Separate employment market.
----
 
 ---
 action: 
@@ -661,6 +673,18 @@ company: Hays Business Support - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225500836
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: TRC Yorkshire - Agency - Temporary
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225514711
 reason: Separate employment market.
 ---
 

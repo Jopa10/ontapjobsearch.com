@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 1
+- automatic review: 3
 - automatic exclude: 20
 - effective include: 6
-- effective review: 1
+- effective review: 3
 - effective exclude: 20
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225433915
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (3)
 
 ---
 action: 
@@ -107,6 +107,30 @@ company: V-Recruit - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225459485
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Receptionist/Administrative Assistant
+company: Beyond Talent Solutions Ltd - Agency - Contract
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225516026
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Post Completion Administration Assistant
+company: Andy File Associates Ltd - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -145,6 +169,18 @@ company: Anonymous - Agency - Contract
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225457187
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: BMW/MINI Service Advisor
+company: Sytner Group - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-adf64226-53b0-42b1-966f-f25e74fb3ff5
 reason: Separate employment market.
 ---
 
@@ -325,18 +361,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Talent Acquisition Coordinator
-company: B. Braun Medical Limited - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2ed67242-6482-4fe0-9cbb-7881b58f5424
 reason: Separate employment market.
 ---
 

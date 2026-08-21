@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 1
+- automatic review: 3
 - automatic exclude: 14
 - effective include: 12
-- effective review: 1
+- effective review: 3
 - effective exclude: 14
 
 ## INCLUDE (12)
@@ -33,6 +33,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: BMW/MINI Service Advisor
+company: Sytner Group - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-adf64226-53b0-42b1-966f-f25e74fb3ff5
 reason: Approved Sheffield catchment.
 ---
 
@@ -156,19 +168,7 @@ job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-york
 reason: Approved Sheffield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Talent Acquisition Coordinator
-company: B. Braun Medical Limited - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2ed67242-6482-4fe0-9cbb-7881b58f5424
-reason: Approved Sheffield catchment.
----
-
-## REVIEW (1)
+## REVIEW (3)
 
 ---
 action: 
@@ -179,6 +179,30 @@ company: V-Recruit - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225459485
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Receptionist/Administrative Assistant
+company: Beyond Talent Solutions Ltd - Agency - Contract
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225516026
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Post Completion Administration Assistant
+company: Andy File Associates Ltd - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
