@@ -1,4 +1,4 @@
-Customer Sales proof + national diagnostic run: 2026-08-21T18:45:19Z
+Customer Sales proof + national diagnostic run: 2026-08-21T18:46:34Z
 Proof scope: Hampshire; Greater Manchester - Manchester & Salford; Yorkshire - West
 National scope: current 33 Ontap regions from main catalog
 Governance: branch-only diagnostic; no LIVE activation; Sales/Service Admin overlap allowed
