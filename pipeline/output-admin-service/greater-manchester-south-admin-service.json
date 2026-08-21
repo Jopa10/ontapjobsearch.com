@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "5b9c38d1-2d2e-427d-bc2a-a4feac3ed9b0",
-    "title": "Administrator",
-    "company": "Reed - Agency - Temporary",
-    "location": "Stockport",
-    "region": "Greater Manchester - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour",
-    "posted_date": "",
-    "description": "Our client looking for an experienced and organised Administrator to join our team on a temporary basis This is an excellent opportunity for a proactive individual who can provide comprehensive administrative support while coordinating domestic and international shipments, maintaining accurate records, and supporting the smooth day-to-day running of the business.\n\nThe successful candidate will have strong communication skills, excellent attention to detail, and the ability to manage multiple tasks in a fast-paced environment.\n\nTEMPORARY CONTRACT - start date August 3rd 2026 to 4th September 2026\n\nKey Responsibilities\n- Provide general office administration and administrative support across the business.\n- Communicate with DHL regarding collections, deliveries, shipment tracking, and delivery queries.\n- Monitor shipments and resolve any issues or delays promptly.\n- Perform accurate data entry and maintain records and databases.\n- Manage emails, diaries, and administrative correspondence.\n- Coordinate courier collections and deliveries.\n- Prepare, update, and file business documentation.\n- Maintain electronic and paper filing systems.\n- Provide excellent customer service and professional communication with internal and external contacts.\n- Handle confidential company information with discretion and professionalism.\n- Support colleagues across departments and assist with general office projects as required.\n\nSkills & Experience Required\n\nEssential\n- Previous experience in an administrative role.\n- Experience arranging and tracking shipments, ideally using DHL systems.\n- Strong Microsoft Office skills, including Word, Excel, and Outlook.\n- Excellent verbal and written communication skills.\n- Strong organisational and time management abilities.\n- Accurate data entry and record-keeping skills.\n- Ability to multitask and prioritise workload effectively.\n- Strong attention to detail.\n- Problem-solving skills and the ability to work independently.\n- Professional approach to customer service.\n- Ability to maintain confidentiality.\n- Strong team-working and cross-department collaboration skills.\n\nDesirable\n- Experience within a logistics, manufacturing, distribution, or office environment.\n- Knowledge of domestic and international shipping processes.\n\nWhat We Offer\n- Competitive pay of £14.00 per hour.\n- Monday to Friday working pattern.\n- Supportive and friendly working environment.\n- Opportunity to develop your skills within a growing business.\n- Varied and engaging role with responsibility and autonomy.\n\nIf you are a highly organised administrator with excellent communication skills and experience in office administration and shipment coordination, we would love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLAxUjRfO8Kg7tdaLj8of%2b8w",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225474612",
     "title": "Junior Data Administrator",
     "company": "Zachary Daniels Recruitment - Agency - Permanent",
@@ -390,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0101",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0101",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5516165",
@@ -408,6 +387,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0095",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0061-26-0095",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

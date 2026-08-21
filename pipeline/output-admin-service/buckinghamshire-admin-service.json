@@ -425,6 +425,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225522682",
+    "title": "Service Delivery Coordinator",
+    "company": "BSI - Agency - Permanent",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26775",
+    "salary_max": "28000",
+    "salary_text": "£26775 - £28000 per year (Bonus and company benefits)",
+    "posted_date": "",
+    "description": "Job Title: Service Delivery Coordinator\nLocation: Milton Keynes\nWork Model: Hybrid\n\nAre you a highly organised professional who thrives in a fast-paced environment? Do you enjoy bringing people, schedules and priorities together to achieve outstanding results?\n\nIf so, we are looking for a motivated Service Delivery Coordinator to join our Client Services and Operational Delivery teams on a full-time and permanent basis.\n\nThis is a fantastic opportunity for someone who enjoys problem-solving, relationship building, and ensuring that business commitments are delivered efficiently and effectively.\n\nAbout the role:\n\nIn this role, you will play a key part in coordinating internal resources, managing schedules, supporting operational delivery, and providing an exceptional experience for both internal and external stakeholders. Working closely with colleagues across multiple teams, you will help maximise diary availability and achieve performance targets whilst contributing to operational success.\n\nWhat you'll be doing:\n- Proactive diary management which involves managing schedules, bookings, and resource allocation for our Audit and Training delivery teams.\n- Coordinating activities across internal teams and external stakeholders to meet operational targets and service commitments.\n- Monitoring workloads, utilisation levels, and key performance indicators to identify opportunities for optimisation.\n- Communicating confidently with clients and colleagues via telephone, email, and virtual meetings.\n- Build strong relationships with stakeholders to resolve issues, manage expectations, and support business objectives.\n- Handle administrative and system-based processes accurately and within agreed service levels.\n- Support planning activities, reporting requirements, and operational projects as required.\n- Manage changing priorities whilst finding practical solutions to scheduling and delivery challenges.\n\nRequired experience:\n- Experience in a planning, coordination, administration, customer service, and/or an operations support role.\n- Excellent organisational and time management skills with the ability to manage multiple priorities.\n- Strong communication and relationship-building abilities.\n- Experience working to targets, KPIs, or service level agreements.\n- Strong problem-solving skills with a proactive approach to finding solutions.\n- Excellent attention to detail and commitment to quality.\n- Good working knowledge of Microsoft Office, particularly Excel.\n- Ability to work collaboratively within a team.\n- Knowledge of systems such as SAP, Salesforce, or similar would be desirable.\n\nLanguage Requirements: English with European languages desirable e.g. German, Dutch, Spanish, Italian and French.\n\nWhat will make you successful?\n\nIn this role, you'll be someone who:\n- Puts customers and stakeholders at the heart of everything you do.\n- Enjoys collaborating with others to achieve shared goals.\n- Remains calm and resilient when priorities change.\n- Takes ownership and accountability for delivering results.\n- Is adaptable, agile, and constantly looking for ways to improve processes.\n\nWhy join us?\n\nYou'll join a collaborative and supportive team where your contribution has a real impact on business performance and customer satisfaction. We invest in our people, encourage continuous learning, and provide opportunities to develop your career within a dynamic and growing organisation.\n\nOur benefits\nBSI offers an independent and varied job in an international environment, flexible working hours, ongoing training and development with the inclusion of; 27-days annual leave excludin Bank Holidays, paid sick leave, health insurance, life insurance, pension plan with company contribution, income protection, paid maternity leave, paid paternity leave, paid parental leave, adoption leave, compassionate leave, paid bereavement leave, learning and development opportunities, and a wide range of flexible benefits that you can tailor to suit your lifestyle.\n\nSalary Range\nThe base salary for this position can range from £26,775 - £28,000 per annum; actual compensation is based on various factors, including but not limited to; candidate competencies, level of experience, education, location, divisional budget and internal peer compensation comparisons.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7Bu0cqkPxcgaCSfCwg%2ftTgy",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Service Delivery Coordinator Job Title: Service Delivery Coordinator Location: Milton Keynes Work Model: Hybrid Are you a highly organised professional who thrives in a fast-paced environment?",
+    "advertiser_name": "BSI",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5545769",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -440,7 +465,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1089",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1089",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551438",
@@ -458,7 +487,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0393",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0393",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -476,7 +509,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534158",
@@ -494,6 +531,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -683,31 +683,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107729655",
-    "title": "SharePoint Administrator",
-    "company": "Belcan Technical Recruiting (UK) Ltd - Agency - Permanent",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "SharePoint Administrator\nHelp shape the future of digital working\n\nAre you passionate about creating smarter ways of working with Microsoft technologies? Do you enjoy solving business challenges through automation, collaboration, and data-driven insights?\n\nWe're looking for a SharePoint & Power Platform Specialist to join our team and play a key role in driving digital transformation across the organis click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzfrNJXskE3qABkNfh%2bGd7ap",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Belcan Technical Recruiting (UK) Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225517573",
     "title": "Administrator",
     "company": "Select Recruitment Specialists Ltd - Agency - Temporary",
@@ -1008,31 +983,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107791497",
-    "title": "Conveyancing Administrators and Case Handlers",
-    "company": "AllAboutRecruitmentLtd - Agency - Permanent",
-    "location": "St. Neots",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "All About Recruitment Ltd have ongoing vacancies for Conveyancing staff such as a Conveyancing Assistant, Conveyancing Administrator, Legal Assistant, Conveyancer Paralegal\n\nSalary: £Neg £26 - £32 K\n\nLocation: St Neots\n\nTo Start: ASAP, subject to interview/s and referencing click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbw4pxx38obAlZAKZYHFBcVbt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "AllAboutRecruitmentLtd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225519683",
     "title": "Stock Administrator",
     "company": "Interaction Recruitment - Agency - Permanent",
@@ -1148,7 +1098,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1046",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1046",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530537",
@@ -1166,7 +1120,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0491",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0491",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530494",
@@ -1184,7 +1142,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5527690",
@@ -1202,7 +1164,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0172-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0172-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550201",
@@ -1220,7 +1186,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0421",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0421",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547053",
@@ -1238,7 +1208,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0418",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0418",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547956",
@@ -1256,7 +1230,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543257",
@@ -1274,7 +1252,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0295",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0295",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5542656",
@@ -1292,7 +1274,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1047",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1047",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5532772",
@@ -1310,24 +1296,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0502",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0502",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5530863",
-    "source": "NHS Jobs",
-    "title": "Care Coordinator/Medical Receptionist",
-    "company": "Bretton Park Healthcare",
-    "advertiser_name": "Bretton Park Healthcare",
-    "location": "Peterborough, PE3 8DT, Peterborough, PE1 2UF",
-    "region": "Cambridgeshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-11T11:51:31.940691335",
-    "closing_date": "2026-09-01",
-    "description": "Bretton Park Healthcare are looking for a full time/part time Care coordinator/receptionist with the following skills to join our Administration Team. We are looking for a highly motivated individual who is able to work as part of a team and be flexible. The ideal candidates will be positive and friendly with excellent customer service skills. The role requires you to provide customer service both face to face and via the telephone, some experience of working as a medical receptionist is desirable but not essential. The position is full time/part time Mon- Fri, plus a Saturday morning on rotation - (each shift Mon - Fri will either be an 8am start or 6pm finish) The practice has 2 sites located at Bretton and Park and the successful applicant will be required to work at both as part of the rota. As part of your role you will be required to provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Part of your role will be as a care coordinator, receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Attend to patients at the reception desk, deal with enquiries Respond to patient queries in a friendly manner and resolve the issue Taking messages, dealing with queries Using computer clinical system (SystmOne) for a variety of tasks; making, amending appointments, registration of patients, processing repeat prescription requests and updating the database and all other administrative duties as directed by the practice leads JOB DESCRIPTION JOB TITLE: Medical Receptionist/Care Coordinator REPORTS TO: Administration Leads and Practice Manager Job Summary : Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Job Responsibilities : Administration To have a thorough knowledge of all practice procedures To work in accordance with written protocols To carry out specific administrative tasks as requested by the Administration Leads Receptionist Tasks You will be assisting and directing patients toward the appropriate service or healthcare professional in a courteous, efficient, and effective way. Duties include: Receiving patients and consulting with members of the practice team Be able to cover all reception positions as necessary Process digital platform submissions Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter Working knowledge of the telephone system and all IT systems Process appointment requests from patients for on the day and future appointments by telephone and in person Deal with visit requests Registration of new patients computer data entry and medical records Process patients change of address computer data and medical records Process repeat prescription requests in accordance with practice guidelines Care Coordinator Tasks A Care Co-ordinator (CC) may be required to deal with patients and, if appropriate, their carer, before or after the patients consultation with a clinician or other healthcare professional. To also include the following tasks covering the reception duties, document scanning, dealing with tasks and queries from clinicians as well as other reception activities that help to facilitate care between the patients and the clinicians. This also includes liaising with Care / Nursing homes and other health and care providers when and where necessary. Working closely with the patient and their clinician or other healthcare professional, the care co-ordinator co-ordinates patients healthcare and directs them to the appropriate service to ensure that they get the most suitable care from whatever health or social care provider is appropriate. To help people to manage their needs by answering their queries and supporting them in making appointments To provide coordination and navigation of patients, and where appropriate their carers, across health and social care services, where appropriate working hand in hand with social prescribing link workers (SPLW) To undertake all mandatory training and induction programmes To develop in the role through participation in training and service redesign activities, including monthly clinical governance training N.B It is recognised that additional training will be required for some of the tasks listed. Applicants to the post are not expected to be proficient in all tasks listed in the short term but will work towards them.. Other Tasks Ensure building security have thorough knowledge of doors/windows/alarm. Maintain notice boards in waiting areas to ensure information is not out of date and information is appropriate Assisting the the Leadership Team with tasks as required Confidentiality : In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately In the performance of the duties outlined in this Job Description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health & Safety : Employees must take reasonable care for the health, safety and security of themselves and others who may be affected by their acts or omissions at work. Using personal security systems within the workplace according to Practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Making effective use of training to update knowledge and skills Using appropriate infection prevention and control procedures, maintaining work areas in a tidy and safe way and free from hazards Actively reporting of health and safety hazards and infection hazards immediately when recognised Keeping own work areas and general / patient areas generally clean, assisting in the maintenance of general standards of cleanliness consistent with the scope of the job holders role Undertaking periodic infection control training (minimum annually) Reporting potential risks identified Equality, Diversity and Inclusion : The post-holder will support the equality, diversity and inclusion rights of patients, carers and colleagues, to include: Acting in a way that recognizes the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Behaving in a manner which is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Personal/Professional Development : The post-holder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in an annual appraisal, including taking responsibility for maintaining a record of own personal and/or professional development All staff are required to attend and/or carry out on-line essential training as instructed by the Practice Manager (Fire Safety, Health & Safety, Safeguarding Children and Adults, Mental Capacity Act, Information Governance, Resuscitation Procedure) Attend Staff Meetings which provide opportunity to discuss any matters arising from the job and to instruct on new procedures, policies and training requirements",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0017",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0017",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
