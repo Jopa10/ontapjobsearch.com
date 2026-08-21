@@ -2,6 +2,16 @@ name: Build daily regional overview
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - pipeline/registers/region_category_slice_register.csv
+      - pipeline/reports-daily/live-job-source-count-*.csv
+      - app/_city-pages/configured-slices/**/customer-sales-jobs.json
+      - pipeline/scripts/build_daily_region_overview.py
+      - pipeline/scripts/assess_daily_family_coverage.py
+      - .github/workflows/build-daily-region-overview.yml
   workflow_run:
     workflows:
       - Publish verified pages
@@ -15,6 +25,7 @@ jobs:
   build-overview:
     if: >-
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
       (github.event.workflow_run.conclusion == 'success' &&
        github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
