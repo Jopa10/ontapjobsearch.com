@@ -1,8 +1,11 @@
-"""Branch-only Customer Sales / Sales Advisor family benchmark.
+"""Branch-only Customer Sales / Sales Advisor proof-region selector.
 
-Reproduces the earlier discovery definition: genuine office/contact-centre/home/hybrid
-selling, conversion, retention and renewal roles. A job may also belong to Service
-Admin; overlap is explicitly allowed.
+Family boundary: genuine sales-led office/contact-centre/home/hybrid roles where the
+candidate sells, converts, retains or renews customers. A job may also belong to
+Service Admin; overlap is explicitly allowed and is never an exclusion reason.
+
+This is proof-stage classification only. It generates the three agreed inspection
+slices and does not activate a production family or LIVE slice.
 """
 from __future__ import annotations
 
@@ -29,14 +32,11 @@ INPUT_PATH = Path("input/jobg8.xlsx")
 GEO_PATH = Path("geo/geo_lookup.xlsx")
 OUTPUT_DIR = Path("output-customer-sales-test")
 
+# Governance checkpoint: these are the only proof regions authorised for this stage.
 TARGETS = {
     "Hampshire": "hampshire.json",
     "Greater Manchester - Manchester & Salford": "manchester-salford.json",
     "Yorkshire - West": "west-yorkshire.json",
-    "Northern Ireland - East": "northern-ireland-east.json",
-    "Cheshire - Warrington & Halton": "warrington-halton.json",
-    "Cornwall": "cornwall.json",
-    "Yorkshire - South": "south-yorkshire.json",
 }
 
 DIRECT_TITLE_TERMS = [
@@ -50,7 +50,7 @@ DIRECT_TITLE_TERMS = [
     "membership sales", "membership advisor", "membership adviser",
 ]
 
-# Broad doorway used in the original discovery: do not require one exact title variant.
+# Customer/service titles qualify only when the advert contains real sales evidence.
 CUSTOMER_TITLE_TERMS = [
     "customer service", "customer care", "customer support", "customer advisor", "customer adviser",
     "customer representative", "customer account", "customer success", "client service", "client services",
@@ -70,6 +70,9 @@ SALES_EVIDENCE_TERMS = [
     "increase membership", "sales experience", "sales role", "selling",
 ]
 
+# These are outside the agreed customer-sales proposition even when they contain "sales".
+# Generic account roles are handled separately by customer_sales_test_expand.py and only
+# reintroduced when there is strong sales plus office/digital evidence.
 HARD_EXCLUDE_TERMS = [
     "field sales", "door to door", "door-to-door", "territory sales", "area sales", "regional sales",
     "sales manager", "business development manager", "head of sales", "sales director",
@@ -206,6 +209,7 @@ def main() -> None:
             "source": "JobG8",
             "customer_sales_classification": classification,
             "customer_sales_reason": reason,
+            "customer_sales_overlap_policy": "non-exclusive",
         })
         outputs[region].append(item)
         seen[region].add(job_id)
