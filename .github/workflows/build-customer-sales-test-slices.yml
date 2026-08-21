@@ -10,6 +10,9 @@ on:
       - 'pipeline/scripts/customer_sales_test_pipeline.py'
       - 'pipeline/scripts/customer_sales_test_expand.py'
       - 'pipeline/scripts/customer_sales_test_refine.py'
+      - 'pipeline/scripts/customer_sales_33_region_diagnostic.py'
+      - 'pipeline/registers/customer_sales_title_classification_register.csv'
+      - 'pipeline/registers/customer_sales_family_rules.md'
 
 permissions:
   contents: write
@@ -46,9 +49,10 @@ jobs:
           mkdir -p pipeline/output-customer-sales-test
           : > "$STATUS"
           : > "$LOG"
-          echo "Customer Sales proof run: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$STATUS"
-          echo "Scope: Hampshire; Greater Manchester - Manchester & Salford; Yorkshire - West" >> "$STATUS"
-          echo "Governance: branch-only proof slices; no LIVE activation; Sales/Service Admin overlap allowed" >> "$STATUS"
+          echo "Customer Sales proof + national diagnostic run: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$STATUS"
+          echo "Proof scope: Hampshire; Greater Manchester - Manchester & Salford; Yorkshire - West" >> "$STATUS"
+          echo "National scope: current 33 Ontap regions from main catalog" >> "$STATUS"
+          echo "Governance: branch-only diagnostic; no LIVE activation; Sales/Service Admin overlap allowed" >> "$STATUS"
 
           if [ -z "${JOBG8_FEED_URL:-}" ]; then
             echo "FAILED: JOBG8_FEED_URL secret is not configured" >> "$STATUS"
@@ -142,7 +146,7 @@ jobs:
           echo "OK: converted current JobG8 feed" >> "$STATUS"
 
           if ! git fetch origin +refs/heads/main:refs/remotes/origin/main >> "$LOG" 2>&1; then
-            echo "FAILED: fetch main for current geography" >> "$STATUS"
+            echo "FAILED: fetch main for current geography and published comparison" >> "$STATUS"
             tail -100 "$LOG" >> "$STATUS"
             exit 1
           fi
@@ -175,9 +179,16 @@ jobs:
             exit 1
           fi
           echo "OK: Customer Sales QA refinement completed" >> "$STATUS"
-          tail -60 "$LOG" >> "$STATUS"
 
-      - name: Commit proof outputs and diagnostic status
+          if ! (cd pipeline && python -m scripts.customer_sales_33_region_diagnostic) >> "$LOG" 2>&1; then
+            echo "FAILED: governed Customer Sales 33-region diagnostic" >> "$STATUS"
+            tail -120 "$LOG" >> "$STATUS"
+            exit 1
+          fi
+          echo "OK: governed Customer Sales 33-region diagnostic completed" >> "$STATUS"
+          tail -80 "$LOG" >> "$STATUS"
+
+      - name: Commit proof outputs and national diagnostic
         if: always()
         run: |
           set -euo pipefail
@@ -198,16 +209,19 @@ jobs:
             pipeline/output-customer-sales-test/hampshire.json \
             pipeline/output-customer-sales-test/manchester-salford.json \
             pipeline/output-customer-sales-test/west-yorkshire.json \
-            pipeline/output-customer-sales-test/refinement-report.json; do
+            pipeline/output-customer-sales-test/refinement-report.json \
+            pipeline/reports-daily/customer-sales-33-region-diagnostic.csv \
+            pipeline/reports-daily/customer-sales-33-region-detail.csv \
+            pipeline/reports-daily/customer-sales-33-region-diagnostic.md; do
             if [ -f "$path" ]; then
               git add -- "$path"
             fi
           done
 
           if git diff --cached --quiet; then
-            echo "No Customer Sales proof changes to commit"
+            echo "No Customer Sales proof/diagnostic changes to commit"
           else
-            git commit -m "Refresh Customer Sales proof slices"
+            git commit -m "Refresh Customer Sales proof and 33-region diagnostic"
             git push origin HEAD:agent/customer-sales-family
           fi
 
