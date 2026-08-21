@@ -55,7 +55,7 @@ source_job_id: 173334
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
 ---
 ---
-action:
+action: exclude
 POSS | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
 employer: The Wise Group
 closing_date: 27 August 2026
@@ -103,7 +103,7 @@ source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
 employer: Age UK North Tyneside
 closing_date: Wednesday, September 2, 2026 - 12:00

@@ -211,7 +211,7 @@ source_job_id: 300955
 source_url: https://www.northeastjobs.org.uk/job/Marketing_Events_Assistant/300955
 ---
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award pending) | PA Support Officer
 employer: Darlington Borough Council
 closing_date: 31/08/2026
@@ -283,7 +283,7 @@ source_job_id: 300012
 source_url: https://www.northeastjobs.org.uk/job/Data_and_Exams_Officer/300012
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Culture House | Grade 4 (SCP 12 - 17) £28,598 - £31,022 pro rata | Digital Systems Administrator
 employer: Sunderland City Council
 closing_date: 02/09/2026
@@ -391,7 +391,7 @@ source_job_id: 300614
 source_url: https://www.northeastjobs.org.uk/job/Technical_Support_Officer_Licensing/300614
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £32,061 to £ 33,699 per annum + benefits (pay award pending) | Trauma Support Coordinator
 employer: Tyne and Wear Fire and Rescue Service
 closing_date: 02/09/2026 12:00

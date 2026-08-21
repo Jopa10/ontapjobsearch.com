@@ -1402,29 +1402,25 @@ job_id: 1688656
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £55000 per year | Administrative Assistant (Work from Home, UK)
 job_id: c8227c63-6b2b-42f6-b5aa-4e43eb8f7c4c
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £55000 per year | Operations & Admin Assistant (Remote, UK-Based)
 job_id: 6f74cab2-ea3a-4ea1-a42f-33df90ed12fa
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 - £50000 per year | Operations Coordinator - Property
 job_id: 9bc0d5b0-fdef-4be7-af67-805aab68f62e
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year | Associate Financial Planner
 job_id: 3ab2f392-af18-4209-9778-2c4dea787073
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1766,11 +1762,10 @@ job_id: 23643_225519192
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Fareham | £40000 - £45000 per year | Associate Financial Planner
 job_id: 191768fb-7fc5-4834-bdc7-31791090ae55
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2508,11 +2503,10 @@ job_id: 23643_225519271
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £35000 - £50000 per year | Paraplanner
 job_id: 21b54962-3f9e-44ad-b605-8727489e5ab8
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -2907,7 +2901,7 @@ job_id: 23643_225516949
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £28.43 per hour | Business Planner
 job_id: 107805369
 ---
@@ -3642,17 +3636,15 @@ job_id: 23643_225406910
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £15.53 - £17.06 per hour | Business Support Administrator
 job_id: e7ffc459-2241-4694-baf4-e7161d94cff2
 ---
-
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £30000 - £33000 per year | HR Co-Ordinator - maternity cover FTC
 job_id: 54dcf7f3-93a1-4f6a-bab3-c0b7ef6e9296
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3994,11 +3986,10 @@ job_id: 107865251
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £27500 - £31500 per year | Service Advisor
 job_id: 9d81b63d-0534-4d3d-8369-551d82c1dd67
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -4622,11 +4613,10 @@ job_id: 23643_225409112
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £35000 - £40800 per year | Service Advisor
 job_id: 51228016-0a1f-4d13-9cbb-4dae4e659c93
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4842,11 +4832,10 @@ job_id: 1682613
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Hertford | £35000 per year | Japanese Speaking Financial Administrator
 job_id: 107761194
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -5248,11 +5237,10 @@ job_id: 107837200
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £15.95 per hour | PA/Secretary
 job_id: 23643_225519438
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -5936,17 +5924,15 @@ job_id: 9e8be0cb-6c6b-4925-9514-17172100a212
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £55000 per year | Administrative Assistant (Work from Home, UK)
 job_id: c944c618-406c-48d8-a9eb-c335d4627b57
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £35000 per year | Part Time Finance Assistant / Bookkeeper
 job_id: 23643_225407499
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---
@@ -6090,11 +6076,10 @@ job_id: 8f0cc031-a7c3-41cc-9679-cee4b3b739de
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £28000 - £32500 per year | Service Desk Receptionist
 job_id: 1dcb8564-5899-4b01-99a5-fbe86bd9a0b6
 ---
-
 ## YORKSHIRE - EAST — SELECTED
 
 ---
