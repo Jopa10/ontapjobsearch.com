@@ -284,7 +284,7 @@ def load_nhs(today: date) -> SourceResult:
     review_date = _metadata_date(md_path)
     state = _state(review_date, today)
     try:
-        rows = _csv_rows(csv_path)
+        _csv_rows(csv_path)
     except FileNotFoundError:
         return SourceResult(
             "nhs",
@@ -295,31 +295,24 @@ def load_nhs(today: date) -> SourceResult:
             publish_requires_approval=True,
             shared_publish_after=True,
         )
-    items: list[ReviewItem] = []
-    if state == "OK":
-        for row in rows:
-            if clean(row.get("final_decision")).upper() != "POSS":
-                continue
-            if clean(row.get("manual_action")):
-                continue
-            item = item_from_mapping(
-                "NHS Jobs",
-                row,
-                category="admin_service",
-                region=clean(row.get("region")),
-                location=clean(row.get("location")),
-                reason=(
-                    f"{clean(row.get('switchability'))}: "
-                    f"{clean(row.get('classification_reason'))}"
-                ).strip(": "),
-            )
-            items.append(item)
+
+    # NHS POSS is deliberately optional review inventory. The NHS publisher already
+    # fail-closes untouched POSS rows while automatically composing the approved
+    # Tier A/B selections under the 20% source cap. Putting every NHS POSS row into
+    # the unified daily edit queue would isolate NHS (>15 blanks) and prevent that
+    # automatic publisher from running. Keep POSS available in the NHS-specific
+    # review surface instead; the unified daily workflow should always dispatch NHS
+    # whenever the same-day source review itself is healthy.
     return SourceResult(
         "nhs",
         "NHS Jobs",
         state,
         review_date,
-        tuple(items),
+        (),
+        note=(
+            "automatic Tier A/B publish; NHS POSS stays in the NHS-specific "
+            "review and is optional"
+        ),
         publish_workflow="publish-reviewed-nhs-admin-service.yml",
         publish_requires_approval=True,
         shared_publish_after=True,
