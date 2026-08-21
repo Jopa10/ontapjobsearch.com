@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "9820bf06-51bb-4f69-82e6-2b5eac9ddf77",
@@ -201,12 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "51b7084a-1bde-4019-b7ad-d02dbe202fc3",
@@ -231,12 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fa1ef494-67a9-42e9-9ce7-97a835002722",
@@ -314,6 +300,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "690e2029-c759-4ab7-8373-b2b9e688a411",
+    "title": "Administrative Assistant",
+    "company": "Acorn by Synergie - Agency - Temporary",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "13.5",
+    "salary_text": "£13.5 per hour",
+    "posted_date": "",
+    "description": "Administrative Assistant\n\nBridgwater £13.50 per hour 37 Hours per Week Temporary Minimum 5-Month Contract\n\nIntroduction\n\nAcorn by Synergie is currently recruiting for an Administrative Assistant to support general administrative tasks within production, order processing and finance in Bridgwater.\n\nThis is a minimum five-month contract with the opportunity to secure a permanent position for the right candidate. Immediate starts are available.\n\nWhat We Offer\n- £13.50 per hour.\n- Minimum five-month contract with potential for permanent employment.\n- Monday to Thursday, 8am-4:30pm.\n- Friday, 8am-1pm.\n- 37 hours per week.\n- Early finish on Fridays.\n- Immediate start available.\n\nKey Duties\n- Provide administrative support to the Senior Financial/Accounts team.\n- Enter sales orders accurately onto the internal system.\n- Run and maintain the in-house daily order system.\n- Process credit notes and supplier invoices.\n- Support other areas of the business when required.\n- Progress into additional responsibilities as experience develops.\n\nRequirements\n- Previous experience in an administrative role is essential.\n- Experience in credit control is desirable.\n- Excellent attention to detail.\n- Strong organisational skills with the ability to multitask.\n- Good team-working skills and a flexible approach.\n\nInterested?\n\nIf you're an experienced Administrative Assistant looking for a temporary opportunity in Bridgwater with the potential for permanent employment, apply now or contact Jamie at Acorn by Synergie for more information.\n\nAcorn by Synergie acts as an employment business for the supply of temporary workers.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIO3mhEv4PUWmBWrEIeiws2l",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Acorn by Synergie",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "b057a60a-2c93-4db4-9c58-db8583ada38e",
     "title": "Trust Operations Co-ordinator",
     "company": "Reed - Agency - Permanent",
@@ -336,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107804771",

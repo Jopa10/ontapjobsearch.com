@@ -1,145 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-hr-level-3-apprenticeship",
-    "title": "HR Level 3 Apprenticeship",
-    "company": "The Keys Academy Trust",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age.",
-    "work_pattern": "",
-    "posted_date": "2026-07-29",
-    "closing_date": "2026-08-20",
-    "closing_datetime": "2026-08-20T23:59:00+01:00",
-    "summary": "HR Level 3 Apprenticeship with The Keys Academy Trust in Reading. ['full time']; £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age..",
-    "description": "The Keys Academy Trust is recruiting for this vacancy in Reading.\n\nThe advertised position is HR Level 3 Apprenticeship.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age..\n\nThe stated application deadline is 2026-08-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Keys Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-office-assistant-churchend-primary-academy-reading-berkshire",
-    "title": "Office Assistant",
-    "company": "Churchend Primary Academy",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,403.00 - £28,142.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-07-29",
-    "closing_date": "2026-08-20",
-    "closing_datetime": "2026-08-20T23:59:00+01:00",
-    "summary": "Office Assistant with Churchend Primary Academy in Reading. ['part time']; £26,403.00 - £28,142.00 Annually (FTE).",
-    "description": "Churchend Primary Academy is recruiting for this vacancy in Reading.\n\nThe advertised position is Office Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,403.00 - £28,142.00 Annually (FTE).\n\nThe stated application deadline is 2026-08-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/office-assistant-churchend-primary-academy-reading-berkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Churchend Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-secretary-polehampton-church-of-england-junior-school-reading-berkshire",
-    "title": "School Secretary",
-    "company": "Polehampton Church of England Junior School",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22,077.00 - £23,531.00 Annually (Actual) Pay range: Grade 4 SCP 7-11",
-    "work_pattern": "",
-    "posted_date": "2026-07-29",
-    "closing_date": "2026-08-20",
-    "closing_datetime": "2026-08-20T23:59:00+01:00",
-    "summary": "School Secretary with Polehampton Church of England Junior School in Reading. ['full time']; £22,077.00 - £23,531.00 Annually (Actual) Pay range: Grade 4 SCP 7-11.",
-    "description": "Polehampton Church of England Junior School is recruiting for this vacancy in Reading.\n\nThe advertised position is School Secretary.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22,077.00 - £23,531.00 Annually (Actual) Pay range: Grade 4 SCP 7-11.\n\nThe stated application deadline is 2026-08-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-secretary-polehampton-church-of-england-junior-school-reading-berkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Polehampton Church of England Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-secretary-part-time-polehampton-church-of-england-junior-school",
-    "title": "School Secretary (part time)",
-    "company": "Polehampton Church of England Junior School",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11",
-    "work_pattern": "",
-    "posted_date": "2026-07-29",
-    "closing_date": "2026-08-20",
-    "closing_datetime": "2026-08-20T23:59:00+01:00",
-    "summary": "School Secretary (part time) with Polehampton Church of England Junior School in Reading. ['part time']; £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11.",
-    "description": "Polehampton Church of England Junior School is recruiting for this vacancy in Reading.\n\nThe advertised position is School Secretary (part time).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11.\n\nThe stated application deadline is 2026-08-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Polehampton Church of England Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-tkat-hr-assistant",
-    "title": "TKAT HR Assistant",
-    "company": "The Keys Academy Trust",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11",
-    "work_pattern": "",
-    "posted_date": "2026-07-29",
-    "closing_date": "2026-08-20",
-    "closing_datetime": "2026-08-20T23:59:00+01:00",
-    "summary": "TKAT HR Assistant with The Keys Academy Trust in Reading. ['part time']; £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11.",
-    "description": "The Keys Academy Trust is recruiting for this vacancy in Reading.\n\nThe advertised position is TKAT HR Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11.\n\nThe stated application deadline is 2026-08-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Keys Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-general-administrator-waingels",
     "title": "General Administrator",
     "company": "Waingels",
@@ -402,14 +262,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462648",
@@ -459,12 +312,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1bab4f68-302c-4d64-861c-37c4ec78fc63",
@@ -539,11 +387,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "e12e3556-f2a6-4520-a95f-3257ce75db72",
@@ -718,11 +562,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225451460",
@@ -922,11 +762,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4fdbf2c6-e0d2-4e84-80e4-fcbe0929eba3",
@@ -1026,11 +862,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225223268",
@@ -1080,11 +912,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "da48f93a-8393-482d-bde7-d6542c6110dc",

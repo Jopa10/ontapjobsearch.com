@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2",
-    "title": "PA to Leadership Team",
-    "company": "The Bishop of Winchester Academy",
-    "location": "Bournemouth",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,466.48 Annually (Actual) Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078).",
-    "work_pattern": "",
-    "posted_date": "2026-08-11",
-    "closing_date": "2026-08-21",
-    "closing_datetime": "2026-08-21T08:00:00+01:00",
-    "summary": "PA to Leadership Team with The Bishop of Winchester Academy in Bournemouth. ['full time']; £26,466.48 Annually (Actual) Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078)..",
-    "description": "The Bishop of Winchester Academy is recruiting for this vacancy in Bournemouth.\n\nThe advertised position is PA to Leadership Team.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,466.48 Annually (Actual) Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078)..\n\nThe stated application deadline is 2026-08-21T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Bishop of Winchester Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-260720b-administrator",
     "title": "[260720B] Administrator",
     "company": "Hill View Primary Academy",
@@ -234,11 +206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225447329",
@@ -263,12 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "680e9123-95cb-46b6-a3f2-ff77295aa8b8",
@@ -318,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225483669",
@@ -347,11 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c614b298-cb74-4367-ac59-4a131f9373b4",
@@ -376,13 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a063bb22-c3e3-401a-88bc-c801d296bd2f",
@@ -407,11 +356,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497856",
@@ -436,11 +381,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fd7b404d-5ab4-401b-aaba-501823cbae1c",
@@ -465,11 +406,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "e6491e45-1ff3-4831-b047-f34e830cb99d",

@@ -131,14 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Email handling",
-      "Data entry",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225438303",
@@ -163,11 +156,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225437275",
@@ -192,14 +181,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries",
-      "Data entry",
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "8bcbe25e-ee11-497f-97b9-227ebd11dbe9",
@@ -299,13 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Reporting",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "5a560285-330a-4930-9fbe-bd132db1297b",
@@ -383,31 +359,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225409226",
-    "title": "Technical & Quality Support Administrator",
-    "company": "Unity Resourcing Ltd - Agency - Permanent",
-    "location": "Harrogate",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "30000",
-    "salary_text": "£28000 - £30000 per year",
-    "posted_date": "",
-    "description": "Technical & Quality Support Administrator\n\nHarrogate £28,000 - £30,000 Monday to Friday\n\nUnity Resourcing is recruiting for a Technical & Quality Support Administrator on behalf of a successful and ambitious food manufacturing business in Harrogate.\n\nThis opportunity would suit either a Food Science (or similar) graduate looking to start their career, or someone with previous experience in a QA, QC, Technical or Food Safety role.\n\nThe Role\n\nSupporting the Quality Manager, you'll help ensure products, processes and documentation meet customer, legal and company standards.\n\nKey responsibilities include:\n- Completing customer specifications and technical documentation\n- Investigating customer complaints\n- Conducting GMP and internal audits\n- Supporting HACCP and food safety activities\n- Maintaining quality systems, procedures and records\n- Supporting external audits and certification requirements\n- Managing supplier approvals and raw material specifications\n- Assisting with environmental monitoring, calibration and shelf-life testing\n- Delivering training and supporting continuous improvement initiatives\n\nAbout You\n- Degree in Food Science or a related discipline, or previous food manufacturing quality experience\n- Knowledge of GMP and food safety principles\n- Strong attention to detail and organisational skills\n- Excellent communication skills\n- Proficient with IT systems and documentation\n- HACCP and audit experience would be advantageous but not essential\n\nTo apply, please contact Unity Resourcing today.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fh5ri9TkMp%2bpkQb4a8gLYTGi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Unity Resourcing Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225420830",
     "title": "Administrator",
     "company": "Unity Resourcing Ltd - Agency - Permanent",
@@ -422,6 +373,31 @@
     "posted_date": "",
     "description": "Administrator\n\nLocation: Harrogate, North Yorkshire\n\nSalary: £26,000 per annum (pro rata for part-time hours)\n\nHours: Full-time, Monday to Friday, 9:00am - 5:00pm with a 1 hour lunch break Part-time considered, including school hours and reduced working days Flexible working patterns available\n\nBenefits: 25 days annual leave plus bank holidays Private cash plan Death in service Flexible working options Free parking Supportive and friendly team environment Modern office environment Company events and team socials\n\nThe Opportunity\n\nThis is an excellent opportunity for someone with previous office administration experience who is looking for a varied and rewarding role with genuine flexibility. Whether you are seeking a full-time position or a part-time role that fits around school hours or other commitments, we would love to hear from you.\n\nAdministrator Responsibilities\n- Preparing and maintaining client records and documentation\n- Managing administration systems and processes\n- Coordinating and booking meetings\n- Preparing business correspondence and reports\n- Gathering information to support business activities\n- Acting as a first point of contact for enquiries\n- Liaising with clients and third parties\n- Providing general administrative support to the wider team\n\nAbout You\n- Previous office administration experience\n- Excellent written and verbal communication skills\n- Strong organisational skills with excellent attention to detail\n- Confident using Microsoft Office, including Outlook, Word and Excel\n- Able to manage multiple priorities and work effectively to deadlines\n- Professional, positive and adaptable approach\n- Strong customer service skills with the ability to build rapport quickly\n- Comfortable working independently and as part of a team\n\nWhy Apply?\n\nThis is a fantastic opportunity to join a supportive and friendly business that values its people and offers flexibility, stability and excellent work-life balance.\n\nSubmit your CV or contact Beth Davies at Unity Resourcing for more information.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPGReYZkRazZ6HHvQbSDt8Sr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Unity Resourcing Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225409226",
+    "title": "Technical & Quality Support Administrator",
+    "company": "Unity Resourcing Ltd - Agency - Permanent",
+    "location": "Harrogate",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "30000",
+    "salary_text": "£28000 - £30000 per year",
+    "posted_date": "",
+    "description": "Technical & Quality Support Administrator\n\nHarrogate £28,000 - £30,000 Monday to Friday\n\nUnity Resourcing is recruiting for a Technical & Quality Support Administrator on behalf of a successful and ambitious food manufacturing business in Harrogate.\n\nThis opportunity would suit either a Food Science (or similar) graduate looking to start their career, or someone with previous experience in a QA, QC, Technical or Food Safety role.\n\nThe Role\n\nSupporting the Quality Manager, you'll help ensure products, processes and documentation meet customer, legal and company standards.\n\nKey responsibilities include:\n- Completing customer specifications and technical documentation\n- Investigating customer complaints\n- Conducting GMP and internal audits\n- Supporting HACCP and food safety activities\n- Maintaining quality systems, procedures and records\n- Supporting external audits and certification requirements\n- Managing supplier approvals and raw material specifications\n- Assisting with environmental monitoring, calibration and shelf-life testing\n- Delivering training and supporting continuous improvement initiatives\n\nAbout You\n- Degree in Food Science or a related discipline, or previous food manufacturing quality experience\n- Knowledge of GMP and food safety principles\n- Strong attention to detail and organisational skills\n- Excellent communication skills\n- Proficient with IT systems and documentation\n- HACCP and audit experience would be advantageous but not essential\n\nTo apply, please contact Unity Resourcing today.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fiL4CE6fIa4ysyXq6zPYv%2fni",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -479,36 +455,6 @@
     "advertiser_name": "KD Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Data entry"
-    ]
-  },
-  {
-    "job_id": "107669843",
-    "title": "Service Advisor - Toyota",
-    "company": "Stoneacre Motor Group. - Company - Permanent",
-    "location": "Northallerton",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "About the role\n\nWe are excited to be recruiting for a Service Advisor. This is an unrivalled opportunity to join one of the UK's fastest growing motor groups.\n\nA fantastic opportunity to take the next step into your customer service development and become the best of the best.\n\nYou will be responsible for delivering the highest level of customer experience, managing the fast flow of information between click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3TVIuJmHJQeZTkW2GfplJdu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Stoneacre Motor Group.",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
