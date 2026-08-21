@@ -1,4 +1,4 @@
-Customer Sales proof run: 2026-08-21T17:31:26Z
+Customer Sales proof run: 2026-08-21T17:36:33Z
 Scope: Hampshire; Greater Manchester - Manchester & Salford; Yorkshire - West
 Governance: branch-only proof slices; no LIVE activation; Sales/Service Admin overlap allowed
 OK: JobG8 feed secret available
