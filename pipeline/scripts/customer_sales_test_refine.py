@@ -2,7 +2,8 @@
 
 Keeps genuine office/contact-centre/customer-led sales while removing obvious
 non-sales customer service, field/event campaign sales, specialist/senior sales,
-and title/location conflicts. Overlap with Service Admin is deliberately allowed.
+automotive dealership sales, and title/location conflicts. Overlap with Service
+Admin is deliberately allowed.
 """
 from __future__ import annotations
 
@@ -39,6 +40,15 @@ DIRECT_DESCRIPTION_EXCLUDES = [
     "face-to-face sales environments", "travel to different campaign locations",
     "subcontracted basis", "self-employed", "self employed",
     "commission-only", "commission only",
+]
+
+# Direct titles such as "Sales Executive" are too generic to identify showroom/car
+# sales from title alone, so catch unmistakable dealership context in the advert body.
+AUTOMOTIVE_DESCRIPTION_EXCLUDES = [
+    "car dealership", "vehicle dealership", "motor dealership",
+    "buying their car", "buying a new car", "buying a used car",
+    "new & used vehicles", "new and used vehicles", "used car sales",
+    "new car sales", "vehicle presentations", "test drives",
 ]
 
 DIRECT_TITLE_EXCLUDES = [
@@ -121,6 +131,9 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
         title_excludes = contains_any(title, DIRECT_TITLE_EXCLUDES)
         if title_excludes:
             return False, "specialist/senior direct-sales title: " + ", ".join(title_excludes)
+        automotive_excludes = contains_any(description, AUTOMOTIVE_DESCRIPTION_EXCLUDES)
+        if automotive_excludes:
+            return False, "automotive dealership/showroom sales signal: " + ", ".join(automotive_excludes[:3])
         description_excludes = contains_any(description, DIRECT_DESCRIPTION_EXCLUDES)
         if description_excludes:
             return False, "field/event/self-employed sales signal: " + ", ".join(description_excludes[:3])
