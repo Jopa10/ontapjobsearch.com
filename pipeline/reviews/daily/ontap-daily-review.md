@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 17 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Cambridge | £15.53 - £17.06 per hour | Business Support Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 751d75d64a3fd3e9aa51a0869062110a5f22eaa32d7e21a6a0ae5e37ccde785
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Peterborough | £30000 - £33000 per year | HR Co-Ordinator - maternity cover FTC
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 8a5248fbbcd37d884cde5fede68cf742119faf6e08b2da9ca811dddaa1347a1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Dorset | £27500 - £31500 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: d8a9f9562accfcced8cb001997c362e6423f2f8bb8e587415496e2def282b1b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £35000 - £40800 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: a7548e43ba448347de7b7025fdfc493573c871cb513d6e7ad24e32f3ee73f5a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Fareham | £40000 - £45000 per year | Associate Financial Planner
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: aa1f29da47727be8e7fca3b41343dc33589a5e981f7f77ba014c95962098e9c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hertfordshire | Hertford | £35000 per year | Japanese Speaking Financial Administrator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: de62854242868dfc0480eb680e4c98b20d8f2c70f83d1015253ad9d59f16c36
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Kent | Kent | £35000 - £50000 per year | Paraplanner
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 49c173dcdb157b88c49ed887b4c47a1a2d169ea2ce78c38959e1d831b3c79bf
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £30000 - £55000 per year | Administrative Assistant (Work from Home, UK)
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: f20fe4966a58afad7ff4c9fddac55524f3f32d19d85a38471bfceb93a126d56
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £40000 - £45000 per year | Associate Financial Planner
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 195850641c82b481d3cb4b6c679b480671267b08e423c876123c575b28a6080
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £30000 - £55000 per year | Operations & Admin Assistant (Remote, UK-Based)
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: ea649a137ca04cec26340a16d0db39b3ec6734642aaa302c4cd20d1a0ba01e6
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £45000 - £50000 per year | Operations Coordinator - Property
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: b73910249103784e4ca6b193b48e59564d036fe152abae00b4a4a2c63fec169
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £15.95 per hour | PA/Secretary
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: 7f11d4b634f14bcc095dad51ed7b50a179f1ca9ca4df93f155022b3acb76983
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £55000 per year | Administrative Assistant (Work from Home, UK)
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: 858d8ca800449c1d7a8b294153c4a89c04309f130555fbf4e931dd1225a8383
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £35000 per year | Part Time Finance Assistant / Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: 8e75b23fee55242e338642678ed31d10aa204f233b1e2f418c82258abfe241f
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £28.43 per hour | Business Planner
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: a60b4048e4fe781680be3b8af14a50691530ee8e817704d5c8d63bbb00d2eb4
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Wiltshire | Salisbury | £22.25 - £28 per hour | Mental Health Support Worker
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: 567b5dc6f54456458ffa82acbc295a30f5eb52e78b0913ce860933dc7bf4042
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wiltshire | Wiltshire | £28000 - £32500 per year | Service Desk Receptionist
 source_key: jobg8
 source: JobG8
@@ -340,7 +340,7 @@ hub_fingerprint: 1f8e5e418f5de3478e961ba6be9147561b68f312f35ce667c45c65532e93a31
 ## NEJobs — 3 to review
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award… | PA Support Officer
 source_key: nejobs
 source: NEJobs
@@ -358,7 +358,7 @@ hub_fingerprint: 0ff1c693796e419256960b1228626fbf42c1b885d5b48e4e5b84b11e64d7d5b
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Culture House | Grade 4 (SCP 12 - 17) £28,598… | Digital Systems Administrator
 source_key: nejobs
 source: NEJobs
@@ -376,7 +376,7 @@ hub_fingerprint: 49e727b6f01dec75a14ed6e223ff24c3da27d9cca3a9729120df6788331ef59
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £32,061 to £ 33,699 per annum… | Trauma Support Coordinator
 source_key: nejobs
 source: NEJobs
@@ -396,7 +396,7 @@ hub_fingerprint: 4d9f7c6ba147d32d0bdb54835c00cf192e87dcdc1b0a48232145810e4c7feb9
 ## VONNE — 2 to review
 
 ---
-action:
+action: exclude
 POSS | VONNE | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
 source_key: vonne
 source: VONNE
@@ -414,7 +414,7 @@ hub_fingerprint: cbe2371fb48869c31b89deaade2a23bc71f0b21d879658f5e43f76661d551bf
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
 source_key: vonne
 source: VONNE
