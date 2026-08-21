@@ -2,15 +2,39 @@
 
 review_date: 2026-08-21
 
-- Open Administrative & Clerical rows reviewed: 2535
+- Open Administrative & Clerical rows reviewed: 2537
 - Auto/remembered selected: 789
 - Selected HC Tier A: 310
 - Selected HC Tier B: 479
-- POSS awaiting decision: 1238
+- POSS awaiting decision: 1240
 - Excluded: 0
 - HARD_PASS: 508
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Leicestershire | Leicester, LE3 8TB | £25272.00 to £25272.00 | Band 2 - Administrative Assistant
+source_job_id: 5555782
+title: Band 2 - Administrative Assistant
+employer: Leicestershire Partnership NHS Trust
+region: Leicestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0372
+factual_fingerprint: 4321bae2db675534b15ce8ef2e3e7119e7de3877753519c32aefa883c9176244
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Halesowen, B63 3HN | Negotiable | Temporary Contract- General Practice Assistant- GPA
+source_job_id: 5555779
+title: Temporary Contract- General Practice Assistant- GPA
+employer: Stourside Medical Practice
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0805-26-0012
+factual_fingerprint: c9ed1f3688b832c238cfb27c751b345f75b5b64bf3c574a393c880303290e32c
+---
 
 ---
 action:

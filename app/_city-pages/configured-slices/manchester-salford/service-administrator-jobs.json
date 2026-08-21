@@ -47,7 +47,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "c1d57060-6bda-42f6-8d23-55cdaae93f2f",
@@ -72,7 +77,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "51228016-0a1f-4d13-9cbb-4dae4e659c93",
@@ -94,31 +104,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "The Solution Auto",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "09d0cdb9-be4f-4c1e-8abf-086a9b52e876",
-    "title": "Credit Hire Claims Handler",
-    "company": "NJR Recruitment - Agency - Permanent",
-    "location": "Manchester",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "29000",
-    "salary_max": "33000",
-    "salary_text": "£29000 - £33000 per year",
-    "posted_date": "2026-08-14",
-    "description": "Are you seeking the opportunity to further your career within Motor Claims?\n\nIf so, due to a sustained period of growth, a Fleet insurance business is currently recruiting an additional Claims Handler to join its expanding team based in Manchester City Centre.\n\nThis is a great opportunity for a Credit Hire Claims Handler to work as part of this growing business, where you will be responsible for dealing with all aspects of motor claims from cradle to grave including the investigation, negotiation and settlement of claims.\n\nWith growth comes good opportunities for future progression and development so if you are looking for that next step in your Motor Claims career, please apply with your CV today!\n\nKey Responsibilities:\n- Dealing with motor claim cases in a proactive manner.\n- Ensuring a first in class service is delivered at all times.\n- Developing and maintaining excellent working relationships with clients and colleagues.\n- Ensuring reserves are amended appropriately and inactive cases are regularly reviewed.\n\nRequirements:\n- Prior Claims Handler experience is essential, with a good understanding of the Motor process.\n- Experience in looking at indemnity, third party capture or intervention is a bonus.\n- Excellent communication skills are vital, with a highly professional telephone manner.\n- Good time management skills and being extremely well organised.\n- Being adaptable and a strong team player.\n\nApply:\n\nIf you are interested in the Claims Handler opportunity, please apply with your CV today\n\nFor further information please contact one of our specialist consultants and quote job reference NJR16867",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2byUUgBQugbXpxA3qsp7MU1c",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "NJR Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -247,7 +232,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225422206",
@@ -272,7 +261,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "989559d5-cac2-4421-909f-4e1b2e0c2dbd",
@@ -322,7 +316,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Records administration",
+      "Document preparation",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225445466",
@@ -372,7 +372,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107694241",
@@ -672,7 +676,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "328ae4e0-c969-4e37-8a58-1ef8da5c8a2e",
@@ -697,32 +705,42 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
-    "job_id": "23643_225409112",
-    "title": "Student Income Administrator",
-    "company": "Hays Business Support - Agency - Temporary",
+    "job_id": "23643_225522116",
+    "title": "Temporary Office Administrator",
+    "company": "Office Angels - Agency - Temporary",
     "location": "Manchester",
     "region": "Greater Manchester - Manchester & Salford",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Temporary",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "plus holiday pay",
-    "posted_date": "2026-08-12",
-    "description": "Student Income AdministratorLocation: Hybrid Working\nHours: 35 Hours per Week\nContract: Temporary Assignment\nStart Date: ASAP - temporary for 3 months - could extend\nGrade: 3 or 15.01 per hour plus holiday pay\nWe are seeking a highly organised and customer-focused Student Income Administrator to provide administrative and financial support within a busy student income environment.\n\nThe successful candidate will be responsible for assisting with student finance administration, processing transactions, responding to queries and delivering a high standard of customer service to students and colleagues. This role requires excellent communication skills, attention to detail and the ability to manage a varied workload in a fast-paced environment.\nKey Responsibilities\nProvide administrative support to the Student Income Team.\nProcess basic financial transactions accurately and efficiently.\nAssist with student fee and income-related administration.\nRespond to enquiries by telephone, email and face-to-face.\nDeliver excellent customer service to students, staff and external stakeholders.\nMaintain accurate records and update relevant databases and systems.\nResolve routine enquiries and escalate more complex matters where required.\nSupport the team with general administration duties including data entry, document management and correspondence.\nEnsure all work is completed in line with departmental procedures and deadlines.\nContribute to the efficient day-to-day operation of the Student Income function.\nPerson Specification\nEssential Skills and Experience\nExcellent communication skills, both written and verbal.\nStrong customer service experience.\nExperience dealing with enquiries via phone, email and face-to-face.\nGood administrative and organisational skills.\nBasic finance processing experience.\nAbility to work accurately with a high level of attention to detail.\nProficiency in Microsoft Office, including Outlook, Word and Excel.\nAbility to manage competing priorities and work to deadlines.\nExperience using finance or student record systems.\nKnowledge of tuition fee or income administration processes.\nThis opportunity would suit an experienced administrator with strong customer service skills and a background in finance administration, student services or office support. You will be confident dealing with a high volume of queries, providing excellent service and maintaining accuracy when processing financial information.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6cANh8eS47vJzbBs9X3uq8Sh",
+    "salary_min": "14",
+    "salary_max": "14",
+    "salary_text": "£14 per hour",
+    "posted_date": "2026-08-21",
+    "description": "Temporary Office Administrator\n\nWalkden, Worsley (Parking Onsite)\n\nMonday - Friday\n\n7am-4pm\n\n14 per hour\n\n1st September 2026 - Ongoing (No current end date)\n\nOur client, a leading global engineering organisation based in Walkden, is seeking a dedicated and proactive Reception & Admin Support professional to join their dynamic team. This is a fantastic opportunity for an established administrator who thrives in a fast-paced environment and is eager to contribute to the smooth operation of the office.\n\nKey Responsibilities:\n\nAs the first point of contact for all visitors and employees, you will play a vital role in ensuring a warm welcome and efficient reception service. Your day-to-day activities will include:\n\nReception and Front of House:\n- Welcome Visitors: Greet clients, guests and suppliers with a warm smile, ensuring they adhere to security protocols by signing in. Offer refreshments as needed to create a hospitable atmosphere.\n- PPE Management: Issue relevant personal protective equipment to visitors, ensuring compliance with safety standards.\n- Emergency Preparedness: Take roll calls of visitors in case of emergency situations, contributing to a safe environment.\n- Maintain Front Desk Area: Keep the reception area, lobby and main meeting rooms tidy, presentable and fully stocked with necessary materials.\n- Meeting Room Management: Coordinate the booking calendar for conference rooms and prepare these spaces prior to meetings.\n\nAdministration Duties:\n- Post and Deliveries: Sort and distribute incoming post and packages daily, prepare outgoing post, arrange couriers and handle special deliveries efficiently.\n- Office Supplies Management: Monitor inventory levels for office stationery, kitchen supplies and printing materials, placing orders when stocks run low.\n- Data Entry and Filing: Update company databases, spreadsheets and electronic filing systems with accuracy and attention to detail.\n- General Clerical Tasks: Assist team members with photocopying, scanning, printing and binding documents as needed.\n- Team Support: Help arrange catering for lunch and transportation for visitors, ensuring a seamless experience.\n- Event Coordination: Support in organising team social events for a positive workplace culture.\n- Health and Safety Updates: Keep health and safety records up to date and manage confidential health information responsibly.\n- Uniform Ordering: Assist with ordering uniforms, contributing to a professional appearance for the team.\n\nIdeal Candidate:\nThe ideal candidate will possess:\n- Proven experience in a similar administrative role.\n- Excellent communication and interpersonal skills.\n- Strong organisational abilities and a knack for multitasking.\n- Proficiency in Microsoft Office Suite and familiarity with database management.\n- A proactive approach, with the ability to think on your feet and adapt to evolving tasks.\n\nDue to the location of our client, applicants must either be local to Walkden or be a driver!\n\nPlease make an application or email (url removed)\n\nOffice Angels is an employment agency. We are an equal opportunities employer who put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. We do this by showcasing their talents, skills and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5fsK56uIvPLhvdWh%2bnDaAgy",
     "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Student Income Administrator Student Income Administrator Location: Hybrid Working Hours: 35 Hours per Week Contract: Temporary Assignment Start Date: ASAP - temporary for 3 months - could extend Grade: 3 or 15.01 per hour plus holiday pay We are seeking a highly organised and customer-focused Student Income Administrator to provide administrative and financial support within a busy student income environment.",
-    "advertiser_name": "Hays Business Support",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Data entry"
+    ]
   },
   {
     "job_id": "4a3240a4-7ac5-4829-9657-42b832f0e002",
@@ -772,7 +790,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225494043",
@@ -847,7 +870,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225509200",
@@ -872,7 +900,42 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
+  },
+  {
+    "job_id": "d7be9799-436b-4c20-88a8-635a2a6b822a",
+    "title": "Lettings Administrator",
+    "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
+    "location": "Salford",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "27000",
+    "salary_text": "£26000 - £27000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Your new company\n\nHays are recruiting for a permanent Lettings Administrator based in Salford Quays, Manchester. This role is ideal for someone with strong administrative experience who enjoys working in a fast-paced, process-driven environment. You will support customers throughout their rental journey, ensuring applications are progressed efficiently while delivering an excellent customer experience.Your new role\n\nKey Responsibilities\n- Manage incoming lettings enquiries via telephone, email and online channels.\n- Support prospective residents through the application and reservation process.\n- Book and coordinate property viewings.\n- Process references, deposits and tenancy documentation.\n- Maintain accurate records and update internal systems.\n- Progress applications in line with company policies and procedures.\n- Liaise with applicants and internal stakeholders to ensure a smooth customer journey.\n- Provide administrative support to the wider lettings team.\n- Assist in achieving team targets and occupancy objectives.\n- Ensure compliance with relevant legislation and regulatory requirements.\n\nWhat you'll need to succeed\n- Previous administrative experience within a busy office environment.\n- Highly organised with strong attention to detail.\n- Comfortable speaking with customers over the phone.\n- Able to manage multiple priorities and work to deadlines.\n- Strong communication and relationship-building skills.\n- Customer-focused with a proactive approach.\n- Experience within property, housing, student accommodation or a similar customer-focused sector would be advantageous.\n- Experience working towards targets or service KPIs would be beneficial.\n\nWhat you'll get in return\n- Salary of £26,228.\n- Up to 10% discretionary annual bonus.\n- Hybrid working model.\n- Supportive team environment.\n- Opportunity to develop a career within a growing property organisation.\n\nThis position would suit an experienced administrator who enjoys working in a structured environment, delivering excellent customer service and supporting customers through an important life event such as finding their next home.\n\nWhat you need to do now\n\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at hays.co.uk",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHNi7NPyLvK5c0kDyXKZumDd",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "What you'll get in return - Salary of £26,228. - Up to 10% discretionary annual bonus. - Hybrid working model. - Supportive team environment. - Opportunity to develop a career within a growing property organisation.",
+    "advertiser_name": "Hays Specialist Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "58d8d671-be15-4ec0-82bd-3ac53a37c782",

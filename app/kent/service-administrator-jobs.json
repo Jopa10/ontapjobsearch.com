@@ -106,7 +106,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225461884",
@@ -156,7 +160,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225445558",
@@ -206,32 +214,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "cdaa6451-c124-4d67-8245-06563ce1db7d",
-    "title": "Service and Warranty Administrator",
-    "company": "HTC - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-19",
-    "description": "HTC is a long-established, privately owned group that has been at the forefront of the UK commercial vehicle industry since 1970. As one of the original DAF franchises, we have grown into a powerhouse within the Ballyvesey Holdings Ltd family. We proudly represent industry leaders including DAF Trucks, FiatPro, and Maxus, providing world-class vehicle sales and aftersales support.\n\nWe are currently looking to recruit for an experienced Service and Warranty administrator to join our team in Belvedere.\n\nMain Purpose of Job:\n- To oversee service/warranty and PFL invoice procedures ensuring compliance to Manufacturers' policy and procedures.\n- To process all service/warranty and PFL job cards to ensure maximum profitability for each repair and full compliance with the manufacturers' requirements.\n\nIndividual Key Objectives:\n- To check and raise retail pro-forma invoices for quotation and passing to the customer.\n- To co-ordinate the closing of purchase order numbers.\n- To reconcile warranty and Paccar Finance Limited (PFL) self-billing invoices (SBIs).\n- To raise warranty and PFL credit notes for customer accounts.\n- To investigate and resolve CCM queries for warranty and PFL accounts.\n- To carry out warranty and PFL risk assessments on claims submitted.\n- Check daily workshop work in progress (WIP) levels and strive to maintain WIP levels below 250 hours.\n- To manage all warranty and PFL job cards and determine from the technicians write up those claims which are warranty or PFL.\n- To ensure all correct coding and repair times claimed are correct and raise any discrepancies with the Service Manager.\n- To liaise with the Workshop Manager over any discrepancies with technicians' write-ups, parts omitted or claim details missing.\n- To submit all claims through the Haddenham system in a timely manner to achieve submission times in line with current DAF requirements.\n- To manage all referred and rejected claims daily, ensuring all are resolved in a timely manner in line with current DAF requirements.\n- To manage daily all parts label requests from the Manufacturer i.e., print all parts labels and pass to the Parts Department for action. Record all labels produced on a separate spreadsheet and liaise with the Parts Department on any missing parts requested. Update spreadsheet daily, with parts consignment note details, when received from the Parts Department.\n- To ensure all non-warranty repairs are passed to the Service Advisor for process and recharge.\n- On a weekly basis, to check the verification report and ensure all warranty jobs raised on the GDMS system have been sent to Haddenham.\n- To ensure all parts to be held off on a weekly basis and pass to the Parts Department to action\n\nHours:\n\n8:00-17:30\n\nAt Ballyvesey Holdings your right to privacy is important to us. By applying for this job, your information will be entered into our recruitment system. This will enable you to register for job alerts, apply for jobs and for us to help you find your next role. To read our full privacy policy please follow the link:",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7gnHJacMbTtXz5dosbO%2b4Hg",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "HTC",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225434600",
@@ -331,7 +318,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Reporting",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "23643_225444978",
@@ -356,7 +348,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225447784",
@@ -506,7 +504,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "d09c0c8b-fb55-4580-9f94-38d12bb9f5c8",
@@ -531,7 +533,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225473631",
@@ -581,7 +588,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225476340",
@@ -606,7 +620,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225475645",
@@ -756,7 +774,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "49068dbe-9a25-482b-8a0a-055a4b08065a",
@@ -806,7 +828,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225493825",
@@ -1059,6 +1085,112 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "0a982992-6f9c-4c32-9821-dd37021b8cc5",
+    "title": "Sales Administrator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25000",
+    "salary_max": "28000",
+    "salary_text": "£25000 - £28000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Reed Business Support are recruiting for a Sales Administrator on behalf of our valued client. This Sales Administrator opportunity is ideal for an individual who is confident, proactive, and able to thrive in a busy, fast-paced environment. As the appointed Sales Administrator, you will play a key role in supporting the sales team, managing customer orders and contributing to the smooth running of daily operations.\n\nAbout the Role:\n- Processing customer orders accurately and efficiently from receipt through to completion\n- Supporting the sales team with quotations, pricing information and customer communications\n- Acting as a key point of contact for customers, suppliers and internal departments\n- Maintaining accurate records, systems and documentation\n- Managing sales inboxes and responding to customer enquiries in a professional manner\n- Monitoring order progress and providing updates to customers where required\n- Supporting wider teams with reporting, administration and general coordination\n- Delivering exceptional service and demonstrating a professional approach at all times\n\nAbout You:\n- Previous experience within a Sales Administrator, Customer Service Administrator or similar office-based support role\n- Excellent communication and interpersonal skills\n- Highly organised with strong attention to detail\n- Confident using Microsoft Office and CRM/Database systems\n- Experience processing orders and handling customer enquiries\n- Proactive, team-focused, and able to manage multiple priorities\n- Strong problem-solving skills and a positive approach to customer service\n\nBenefits:\n- Competitive salary with annual salary reviews\n- Hybrid working opportunities following successful probation\n- 25 days annual leave plus bank holidays\n- Company pension scheme\n- Free on-site parking\n- Ongoing training and professional development opportunities\n- Clear career progression pathways within a growing business\n- Employee Assistance Programme and wellbeing support\n- Modern office environment with a collaborative team culture\n- Regular company socials and recognition schemes\n\nIf you are interested in this Sales Administrator position, please apply today. Reed Business Support look forward to assisting you with the next step in your career.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawB97aZk4ANAJjVsqawnFODb",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "About the Role: - Processing customer orders accurately and efficiently from receipt through to completion - Supporting the sales team with quotations, pricing information and customer communications - Acting as a key point of contact for customers, suppliers and internal departments - Maintaining accurate records, systems and documentation - Managing sales inboxes and responding to customer enquiries in a professional manner - Monitoring order progress and providing updates to customers where required - Supporting wider teams with reporting, administration and general coordination - Delivering exceptional service and demonstrating a professional approach at all times About You: - Previous experience within a Sales Administrator, Customer Service Administrator or similar office-based support role - Excellent communication and interpersonal skills - Highly organised with strong attention to detail - Confident using Microsoft Office and CRM/Database systems - Experience processing orders and handling customer enquiries - Proactive, team-focused, and able to manage multiple priorities - Strong problem-solving skills and a positive approach to customer service Benefits: - Competitive s",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
+  },
+  {
+    "job_id": "db2b0707-14a8-4fb2-bb6e-8c00d4efa502",
+    "title": "Supply Chain Administrator",
+    "company": "Huntress - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Supply Chain Administrator\n\nLocation: Medway, KentSalary: £28,000 per annumJob Type: Full-time, Permanent\n\nAbout the Role\n\nWe are seeking a detail-oriented Supply Chain Administrator to join our team in Medway. This is an excellent opportunity for someone with strong organisational skills and a passion for maintaining high standards. You will play a key role in supporting quality assurance processes, ensuring compliance, and driving continuous improvement across operations.\n\nKey Responsibilities\n- Maintain and update quality control documentation and records\n- Support internal audits and ensure compliance with company procedures\n- Assist with monitoring and reporting quality metrics and KPIs\n- Investigate and log non-conformances, ensuring corrective actions are followed up\n- Work closely with internal teams to maintain quality standards\n- Ensure all documentation is accurate, up-to-date, and audit-ready\n- Provide administrative support to the supply chain team\n- Contribute to process improvement initiatives\n\nAbout You\n- Previous experience in a quality, compliance, or administrative role\n- Strong attention to detail and organisational skills\n- Excellent written and verbal communication abilities\n- Proficient in Microsoft Office (Excel, Word, Outlook)\n- Ability to manage multiple tasks and meet deadlines\n- A proactive and methodical approach to work\n- Experience working in regulated or manufacturing environments (desirable but not essential)\n\nWhat We Offer\n- Competitive salary of £28,000\n- Opportunity to develop within a supportive team\n- Training and career progression opportunities\n- Friendly and professional working environment\n- Company benefits package\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6e5xH6F5DgRAlsOe1B9vhImh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Huntress",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "22c4c6f8-5572-482a-8e51-8ef4cb55155b",
+    "title": "Property Services Planner/Scheduler",
+    "company": "Riverside Group - Company - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32815",
+    "salary_max": "32815",
+    "salary_text": "£32815 per year",
+    "posted_date": "2026-08-21",
+    "description": "Job Title: Property Services Planner/SchedulerContract Type: PermanentSalary: £32,814.98 per annum Working Hours: 40 Hours per weekWorking Pattern: Monday-Friday/HybridLocation: Dartford, KentIf you share our values and are excited about making a significant impact at Riverside, please ensure you attach a current CV and covering letter. At Riverside we recruit to potential not just on skills and experience, so we encourage you to apply even if you don't meet all the essential criteria on the job description. Please note that whilst we will accept applications on the basis of any form of valid legal permission to work in the UK, we will be surrendering the Riverside Sponsorship licence, so for the avoidance of doubt, we are unable to apply for any further sponsorships whether on behalf of existing colleagues or candidates. The difference you'll make as a Property Services Planner/Scheduler Riverside Property Services manages the repairs and maintenance service to over 24,000 properties across London, the Southeast and Home Counties. Riverside Property Services undertakes repairs, servicing, voids and planned maintenance work to our customers' homes via our in-house team and a variety of contractors and service providers who are employed on our behalf. This includes repairs to general needs, leasehold, market rent and our specialist Care and Support schemes. Our work also includes statutory and regulatory compliance checks. The planning team located within the Camden and Dartford office locations provides support across the property services delivery model. Scheduling works for all Riverside Property Services gas servicing, communal heating servicing, EICRs, M&E PPM and repairs (all trades) activities. Which ensures that works orders are scheduled through the In-house appointments system, repairs works are allocated to trade operatives and all works are carried out with minimal average turnaround time. The role will also Include oversight of all sub-contracted work allocations. The Property Services Planner will plan schedules and undertake any administrative tasks relating to the property services team, ensuring efficient and effective scheduling and delivery of repairs and compliance work.About youWe are looking for someone with:\n- Good level IT skills and literacy\n- Good communication skills, both oral and written\n- Self-motivated, resilient, assertive and confident\n- Proven experience of excellent customer service skillsWhy Riverside?At Riverside, we're a housing association with a difference - enhancing the everyday for all our customers. For 90 years, we've been revitalising neighbourhoods and supporting communities by providing the homes they need to live full, fulfilling and rewarding lives. We have a portfolio of over 75,000 affordable residential and retirement homes across the UK. Our work ranges from homelessness services to social care, employment support to retirement living, and we need the best people on board to help us.Working with us, you'll enjoy:\n- Competitive pay & generous pension\n- 28 days holidays plus bank holidays\n- Flexible working options available\n- Investment in your learning, personal development and technology\n- A wide range of benefitsDiversity and Inclusion at Riverside: We are inclusive. At Riverside, we value diversity in all its forms. We foster a workplace where all individuals are respected, empowered, and heard. Our commitment to inclusivity drives our success and enriches the lives of our customers and colleagues. Riverside is a Disability Confident Employer and operates a Guaranteed Interview Scheme for any applicant who declares they have a disability. If the applicant meets the minimum requirements for the role (as set out in the role profile and/or person specification) they will be guaranteed an interview. Applications may close before the deadline, so please apply early to avoid disappointment. Role ProfileYou will be responsible for planning the schedule of operatives within the Property Services Operations. You will ensure the provision of effective and efficient administration surrounding the repairs, services, compliance works and other technical projects. Supporting your team leaders, managers and operational teams to achieve KPI's. Although you may predominantly cover one area, you may be asked to support/cover other areas as the business needs.Key Tasks\n- Responsible for an effective administration contribution to enable work to be carried out in a timely and compliant manner.\n- Work as part of a high performing team and ensure your actions are supportive of the team being successful.\n- Answers phones, emails, CRM cases and schedules and confirms appointments and inputs data into the system.\n- Maintaining all tasks, including raising jobs, requisitions, follow on works, sub-contractor works; ensure all records are always kept up to date including job details, appointments, job statuses, relevant time & dates, costs.\n- Ensuring that operatives are working efficiently, and operative workload is maintained in line with the WIPs (Works in progress).\n- Phoning residents to ensure access is gained for works.\n- Work with emergency appointments and resolve scheduling conflicts.\n- Ensuring that subcontractors are completing jobs on time, and they submit completed documents and photographic evidence correctly ready for supervisor' review and contractor payment\n- Escalate any operatives/ contractors' issues to the relevant surveyor/manager\n- Ensuring you have the \"first time fix\" approach.\n- Assisting operatives/ supervisors / surveyors / complaints officers\n- Assisting in the investigation and resolution of",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh1IF0T5ia06JjMA%2fDwQdfwju",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Property Services Planner/Scheduler Job Title: Property Services Planner/Scheduler Contract Type: Permanent Salary: £32,814.98 per annum Working Hours: 40 Hours per week Working Pattern: Monday-Friday/Hybrid Location: Dartford, Kent If you share our values and are excited about making a significant impact at Riverside, please ensure you attach a current CV and covering letter.",
+    "advertiser_name": "Riverside Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "c769b3eb-9326-4776-9651-eb1cc11e2319",
+    "title": "Taskforce Administrator",
+    "company": "Randstad Delivery (GBS) - Agency - Contract",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Role: Taskforce Administrator\n\nLocation: Ashford, Kent\n\nContract Length: 6 to 12 Months\n\nSalary: £30,000 to £35,000\n\nRandstad has partnered with a dedicated public service organisation to recruit for this position.\n\nThe role\n\nIn this role, you'll be at the forefront of providing comprehensive administrative support to the Taskforce and associated national enquiry requirements. The post holder will support administratively; governance, meetings, activity tracking, performance monitoring, data quality, victim engagement processes, intelligence management and reporting requirements. You will also ensure information is accurate, timely and compliant with force and national standards.\n\nKey Responsibilities\n- Provide administrative support to the Taskforce, maintaining accurate records, correspondence, trackers, databases and filing systems.\n- Co-ordinate and maintain taskforce performance data, ensuring information relating to investigations, safeguarding activity, disruptions, victim engagement and offender management is accurately recorded.\n- Maintain oversight trackers for ongoing, reopened and emerging and investigations, ensuring records remain up to date and highlighting risks, gaps, deadlines or outstanding actions from updates provided by Taskforce.\n- Organise and administer meetings, including scheduling, agenda preparation, minute taking, action tracking and dissemination of documents.\n- Support the quality assurance process by collating data, maintaining audit records and assisting with the monitoring of compliance against force and national requirements.\n- Assist with the management of victim and survivor engagement records, ensuring accurate recording of contact, support referrals, feedback and safeguarding activity in line with data protection requirements.\n- Act as a point of contact for internal departments and external safeguarding partners, ensuring requests for information are managed efficiently and appropriately escalated.\n- Support the maintenance of training, accreditation and workforce capability records for taskforce personnel, identifying renewals, expiry dates and development requirements.\n- Support procurement, finance and resource management processes where required, including monitoring equipment inventories, training bookings and expenditure records.\n- Ensure all information is handled securely and in accordance with force policies, information management standards and data protection legislation.\n- Undertake any other administrative or co-ordination duties commensurate with the grade of the post.\n\nWhat you'll bring\n- Experience of providing high-quality administrative and business support services within a complex organisation.\n- Strong organisational skills with the ability to manage multiple priorities, deadlines and competing demands.\n- Experience of maintaining accurate records, databases and management information systems.\n- Ability to produce spreadsheets, meeting minutes and presentations to a high standard.\n- Excellent communication and interpersonal skills with the ability to work effectively with internal and external stakeholders.\n- Strong attention to detail and ability to manage sensitive and confidential information appropriately.\n- Competent in Microsoft Office applications, including Outlook, Word, Excel, PowerPoint and Teams.\n- Understanding of safeguarding, vulnerability or public protection environments, or the ability to quickly develop knowledge in these areas.\n- Experience of working within policing, criminal justice, safeguarding, public protection or multi-agency environments (Desirable).\n- Experience of supporting performance management, governance or project delivery activity (Desirable).\n- Experience of maintaining records on systems such as Athena, Power BI, APMIS or other performance and case management applications (Desirable).\n- Experience of minute taking and action tracking at senior management or partnership meetings (Desirable).\n\nRandstad Business Support is acting as an Employment Business in relation to this vacancy.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7QLgm%2fMf7l8RdcbxJOXoa4g",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Randstad Delivery (GBS)",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225473894",
     "title": "Purchasing Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -1081,7 +1213,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225519271",
@@ -1106,7 +1242,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225466245",

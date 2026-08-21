@@ -489,7 +489,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "84809d07-69f9-4987-bc95-653c367955ba",
@@ -592,31 +597,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225412932",
-    "title": "Project Administrator Temp to Perm",
-    "company": "Hays Business Support - Agency - Temporary",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-12",
-    "description": "Your new company\nWorking for a large organisation with businesses based across the country.\nThey are looking for someone for their base in Exeter.\nWorking hours are 9am - 5pm - Pay 14 per hour.\n3 months minimum chance of extension or permanent for the right person.\nYour new role\nWorking for a window cleaning company based in their office in Exeter.\nYou will have experience as a project/ sales administrator before as you will be dealing with business queries in relation to window cleaning.\nYou will ideally have experience of using Excel within a working environment.\nWhat you'll need to succeed\nExperience of working in a project admin role before\nExcellent on Excel\nIdeally, experience of working with compliance/audits\nIdeally experience of working with purchase/ contract agreements.\nWhat you'll get in return\nWeekly pay while temping\nPension contribution\nHoliday Pay\nChance of the role going permanent.\nWhat you need to do now\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgqyhJlTq9CwRFHXCAVOK2oUn",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hays Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225416379",
     "title": "Administrator",
     "company": "Pertemps Plymouth - Agency - Permanent",
@@ -662,56 +642,6 @@
     "working_arrangement_evidence": "",
     "advertiser_name": "Bennett and Game Recruitment LTD",
     "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "4b5f472e-fdb3-485c-9958-5a26952fddfe",
-    "title": "Project Administrator Temp to Perm",
-    "company": "Hays Specialist Recruitment Limited - Agency - Temporary",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour",
-    "posted_date": "2026-08-12",
-    "description": "Your new companyWorking for a large organisation with businesses based across the country.They are looking for someone for their base in Exeter.Working hours are 9am - 5pm - Pay £14 per hour.3 months minimum chance of extension or permanent for the right person.Your new roleWorking for a window cleaning company based in their office in Exeter.You will have experience as a project/ sales administrator before as you will be dealing with business queries in relation to window cleaning.You will ideally have experience of using Excel within a working environment. What you'll need to succeedExperience of working in a project admin role beforeExcellent on Excel Ideally, experience of working with compliance/auditsIdeally experience of working with purchase/ contract agreements. What you'll get in returnWeekly pay while temping Pension contributionHoliday PayChance of the role going permanent.What you need to do nowIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.If this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at hays.co.uk",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMAEeA45Q%2b7W3kpB5xIzZzFo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hays Specialist Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "cb7344e4-0f63-4f14-a492-b04e187c2bd2",
-    "title": "Service Receptionist",
-    "company": "Darthaven Marina - Company - Permanent",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "30000",
-    "salary_text": "£26000 - £30000 per year",
-    "posted_date": "2026-08-19",
-    "description": "Service ReceptionistKingswear, DevonAre you a highly organised, outgoing individual with excellent customer service skills, strong computer literacy and attention to detail? Could you thrive within a fast-paced team in a professional environment? If so, read on.Who will I be working for?Darthaven Marina is located in the stunning South Hams countryside, surrounded by rolling hills and in a truly tranquil setting. Our impressive 270 berth marina and boatyard have grown over the past 30 years, and we pride ourselves in the first-class service all our teams provide to our berth holders, visitors and customers. You will be working with our teams of Marine Engineers, Marine Electricians, Shipwrights and our Quayside Lifting team.We're currently looking for a Service Receptionist to join us on a full-time basis.What are the benefits?- Salary of £26,000 - £30,000 dependent on experience- Generous holiday entitlement- Pension- Branded company clothing- Stunning working location- On-site parkingThis is a brilliant opportunity for an individual with a great customer focus to join our team providing services for some of the most prestigious boats available.Working in one of the South West's most beautiful settings, you will have the chance to contribute to the day-to-day running of our stunning marina while acting as a key point of contact for customers and staff.What will I be doing?As a Service Receptionist, you will politely greet and articulately assist our service customers and support our Service Team who manage a wide range of duties, often with tight deadlines.You will triage customer requests in person, over the telephone and by email. You will prompt for and accurately record relevant information to enable you to efficiently take messages and route requests to the appropriate service colleague. You will distribute customer requests evenly across the Service Team and gain an awareness of the Service Coordinator role so you may support our team most effectively.Using Sage CRM, you will support our Service Team to raise accurate work instructions. Where required, you will also produce high-quality estimates and raise customer invoices.You will keep our customers regularly informed in person, by telephone and email and in a professional manner throughout.You will handle customer card payments, including taking deposits, often liaising with other teams, such as our Quayside Lifting Team, to ensure this process is handled effectively.You will also be responsible for the smooth handling of a number of specific administrative tasks over the course of the boating year, including our 'Winter Lay-up' process. This involves administering the works requests of approximately 200 customers, so utmost attention to detail is essential.What do I need?To join us as a Service Receptionist, you'll need:- The ability to multi-task and prioritise in a busy office environment- Excellent customer service skills- Strong communication, time management and IT skills- An enthusiastic, flexible attitudeKnowledge of the marine industry and/or technical terminology would be beneficial, but not essential.Other organisations may call this role Service Advisor, Service Administrator, Marine Administrator, Office Administrator, Admin Assistant, Secretary, Executive Assistant, Personal Assistant, Administrator, Customer Service Administrator, Office Co-ordinator, or Administration Assistant.Webrecruit and Darthaven Marina are equal opportunities employers, value diversity and are strongly committed to providing equal employment opportunities for all employees and all applicants for employment. Equal opportunities are the only acceptable way to conduct business and we believe that the more inclusive our environments are, the better our work will be.So, if you're seeking your next challenge as a Service Receptionist, please apply via the button shown. This vacancy is being advertised by Webrecruit. The services advertised by Webrecruit are those of an Employment Agency.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6e9sVrT2D9XBgFXcYIQWRf7h",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Darthaven Marina",
-    "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
@@ -839,7 +769,13 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225461743",
@@ -889,7 +825,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225463000",
@@ -989,7 +931,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107818981",
@@ -1067,56 +1015,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "018f28ce-6faa-4237-b550-a14257bc7242",
-    "title": "Customer Service Adviser",
-    "company": "North Devon Homes - Company - Permanent",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25128",
-    "salary_max": "29296",
-    "salary_text": "£25128 - £29296 per year",
-    "posted_date": "2026-08-20",
-    "description": "Customer Service Adviser\n\n£25,128 - £29,296 per annum\n\nBarnstaple\n\nPermanent, Full Time\n\nAre you a team player and love working alongside colleagues throughout the business to deliver a first-class service to customers?\n\nAre you a whizz at computers and can get up to speed on a variety of computer systems in no time?\n\nAre you resilient and can keep a cool head under pressure, turning tricky situations into positive ones?\n\nIf so, this could be the role for you!\n\nNorth Devon Homes (NDH) is a registered charity providing affordable homes for people who need them. We are a housing association covering the North Devon area and have over 3,300 homes we provide accommodation to over 10,000 customers.\n\nWe're now seeking a Customer Service Adviser - someone to act as first point of contact for our customers, ensuring queries (whether that be by phone, in person, or email) are dealt with in a positive, professional, and helpful manner. You will resolve issues or effectively signpost customers to specialist teams and partner agencies, giving informed guidance on a variety of NDH services to include repairs, rent enquiries, anti-social behaviour queries and other housing related matters. No two calls or days are the same!\n\nWe're looking for someone who is able to offer advice and practical solutions to customers. With strong communication skills and an excellent telephone manner, you'll be able to deal tactfully with a wide range of customers and always remain empathetic, calm, and courteous.\n\nYou'll have a high level of diplomacy skills to enable effective negotiations with both internal and external groups and be a strong team player, able to positively contribute to team goals.\n\nYour starting salary will reflect any direct experience you can bring, and as there'll be so much for you to learn, support and guidance will be provided to help you reach your potential through graduated salary increments up to a possible £29,296.\n\nIf this sounds like what you're looking for and you want the opportunity to make a difference to our customers' lives, we want to hear from you!\n\nIn return for your hard work, we can offer you a wealth of benefits;\n- 27 days holiday plus Bank Holidays\n- 7% Employer Contribution Pension\n- Cash Plan of up to £1,600 per year\n- Employee Assistance Programme (EAP)\n- Health & Wellbeing Support\n- Family Friendly Policies\n- Cycle to Work Scheme\n- Tech Scheme\n- Refer a Friend Scheme\n\nNorth Devon Homes is predominately an office-based, with a strong emphasis on team working and service delivery.\n\nDue to the nature of the role, successful candidates will be required to complete a basic DBS check.\n\nPrevious applicants within the last six months need not re-apply.\n\nClosing Date: Tuesday 1 September - 09:00\n\nWe are proud to be a Disability Confident Employer. As part of this commitment, we operate a guaranteed interview scheme for disabled applicants who meet the minimum criteria for the role to which they have applied. We request that all applications are submitted with a completed Equality & Diversity Form.\n\nThe Company\n\nNorth Devon Homes (NDH) is a registered charity providing affordable homes for people who need them. We are a housing association covering the North Devon district and have over 3,250 homes we are responsible for, providing accommodation to 10,000 total customers.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttpvrzE7CmSP1i6kztCrif14a",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "North Devon Homes",
-    "advertiser_type": "Company",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107868788",
-    "title": "Receptionist",
-    "company": "Premier Foods - Agency - Permanent",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-20",
-    "description": "TBC\nTBC\nAt Premier foods we believe in inclusion, authenticity and individuality. We aim to ensure all existing and future colleagues are given equitable opportunities and are respected, valued and encouraged to bring their true authentic selves to work no matter who they are, what they look like, who they love or what they believe in click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7B%2bGMsCunV1dfFuVkc%2bUP7z",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Premier Foods",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "725a5bfe-7f34-44f4-a836-50cf62652677",
     "title": "Administrator",
     "company": "RGB Recruitment - Agency - Permanent",
@@ -1139,7 +1037,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "fd906ab6-1763-4bd9-805a-fc9b6aa92538",
@@ -1498,7 +1400,7 @@
     "salary": "£25760.00 to £27476.00",
     "employment_type": "Permanent",
     "posted_date": "2026-08-07T15:48:18.470407",
-    "closing_date": "2026-08-23",
+    "closing_date": "2026-08-22",
     "description": "Join our friendly recruitment team and help Devon Partnership NHS Trust attract and appoint people who deliver outstanding care across our services. This is a varied and rewarding role where you will support recruitment activity and create a positive, professional experience for candidates and recruiting managers. You will often be the first point of contact for candidates and hiring managers, so we are looking for a real people person who is confident, approachable and able to communicate clearly in person and over the phone. You will take pride in excellent customer service and building effective working relationships. Once trained, you will work autonomously, using your judgement to organise and prioritise a busy workload. You will manage multiple tasks accurately and efficiently, supporting a recruitment process that is fast, responsive, safe, thorough and compliant. The Recruitment Team sits within the Workforce Directorate and is responsible for managing recruitment across Devon Partnership NHS Trust. This is a substantive full-time role working Monday to Friday, 09:00 - 17:00, with some flexibility. There will be a requirement to support recruitment events which occasionally fall on a weekend. The working base will be Wonford House in Exeter, with a mix of office and home working. There will also be very occasional travel across Devon and to other local careers events. In this role, you will support recruitment activity including making offers of appointment, completing pre-employment checks, liaising with candidates and recruiting managers, and generating contracts of employment. You will conduct face-to-face ID checks, respond to recruitment enquiries and support candidates through the process. You will bring team-working experience, administrative expertise and excellent customer service skills. The role is busy and often time pressured. You will need to be self-motivated, confident and able to work independently and as part of a team, with the ability to organise and prioritise a frequently interrupted workload. As a team, we support one another to find solutions and complete work to a high standard. Your role will be key to the teams success, with strong communication skills and a clear focus on customer satisfaction. You will help plan and support recruitment events throughout the year, follow up with candidates and act as a key contact for recruitment process queries. You will play an important role in helping us connect with potential applicants and promote the wide range of opportunities available across the Trust. If you are looking for a new and exciting challenge with the opportunity to contribute to a successful, high-performing team, we would like to hear from you. Please note this is a full time role and we are therefore unfortunately unable to consider part time requests. Please refer to the full Job Description and Person specification attached to this advert which will provide further information on this role",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0600",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0600",
@@ -1521,25 +1423,6 @@
     "description": "This is an exciting opportunity to join a dynamic and forward-thinking practice. Corner Place Surgery is a well-established practice of over 16,000 patients in the heart of Paignton. We take pride in delivering high quality care whilst maintaining sustainable working conditions for the whole team. We are friendly, hardworking and innovative and enjoy working together and have an experienced team with an excellent clinical skill mix of 8 Partners, 4 Salaried GPs, Clinical Pharmacists, 2 Advanced Nurse Practitioners, a Paramedic and a highly trained nursing team, along with a supportive and dynamic administration team. We are looking for 2 Receptionist / Telephonist/ Administrator with a caring nature and proactive professional manner to provide a high standard of care for our patients. This is a fantastic opportunity for someone with good communication skills, and a commitment to working as part of a strong and effective team. To follow practice protocols in relation to appointments, telephone contact, messages, requests for home visits, repeat prescriptions and all other patient contact. To ensure that all contact with patients is done in a sensitive way with a high level of customer service skills, taking into account that patients, their relatives and carers may be distressed at times. Telephones are to be answered promptly and politely and within the protocols of the practice. To make, change and delete appointments as appropriate, whilst taking into account the needs of the clinical team. To direct patients where appropriate to the correct part of the surgery in a timely manner and keep a watching brief on the situation around clinic delays etc. to inform patients attending appointments. To inform patients of payments to be made for non NHS services and receive and record such payments. Photo copying as necessary Register patients correctly, accurately, including the completion of all paperwork and computer records, for New Babies, fully registered patients and Temporary Residents. To handle prescription requests accurately and follow practice protocol. Taking responsibility for all messages that you have taken until they have been actioned. Make sure they are appropriate, accurate, passed to the right person and dealt with by you where possible. Other related duties: To manage data and information systems including Emis, NHS Email etc. To proactively contact patients to pass on information from the clinical staff relating to appointments or information. To handle specimens to go to pathology labs as appropriate, taking care with accurate labelling and appropriate handling. To cover your colleagues workload when they are away Chase referrals, results etc for patients and other duties requested by the GPs Assist with opening and closing the practice at the start and end of the day. Full Vacancy details can be found on the attached Job Description/Person Specification. Please refer to your suitability to the post in your supporting information from the role requirements or person specification .",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0646",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0646",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5514367",
-    "source": "NHS Jobs",
-    "title": "Learning Management System (LMS ) Administrator",
-    "company": "Torbay and South Devon NHS Foundation Trust",
-    "advertiser_name": "Torbay and South Devon NHS Foundation Trust",
-    "location": "Torquay, TQ2 7AA",
-    "region": "Devon",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-03T14:41:45.508523868",
-    "closing_date": "2026-08-31",
-    "description": "We are looking for an experienced Learning Management System (LMS) Administrator to join the Digital Education Team, providing both front-end and back-end LMS support. It is essential that applicants have proven experience as a Totara Administrator. You will be responsible for managing and maintaining all back-end aspects of the Learning Management System (HIVE), which supports Torbay and South Devon NHS Foundation Trust and over 400 external partner organisations. You will play a key role in ensuring the effective delivery, development, and administration of the Trust's digital learning environment. Working closely with departments, subject matter experts, Learning Technologists, and other stakeholders, you will create and maintain online training courses, utilise Moodle learning activities, and develop organisation-specific and role-specific dashboards. You will support the ongoing enhancement of the HIVE, ensuring courses, certifications, user accounts, and system content remain accurate, compliant, and fit for purpose. You will use a range of analytical and data management skills to collect, manipulate, validate, interpret, and report on learning data, providing both routine and ad-hoc information to support organisational and workforce development needs. You will be responsible for the quality, accuracy, and integrity of data held within the Learning Management System, including carrying out audits and data validation processes. The post holderwill support and manage the Trusts Learning Management System (HIVE), ensuring the smooth operation, maintenance, and development of online learning and training resources. They will work closely with internal departments, trainers, subject matter experts, and external partner organisations to provide system support, develop and maintain training courses, and ensure data quality and compliance. Key responsibilities include managing a large catalogue of online training courses, creating and developing new learning content, dashboards, assessments and evaluations, maintaining user accounts and certification records, producing statutory and ad-hoc reports, and ensuring accurate learner data and compliance with Information Governance standards. The role requires collaboration with education, workforce, digital transformation, and administration teams, as well as external system providers, to support system enhancements and testing. The post holder will also monitor HIVE licences, support mandatory training requirements, provide user training, and deliver guidance on course maintenance and reporting. Working with a high degree of autonomy, the successful candidate will be responsible for prioritising their workload, responding to changing business demands, and contributing to the continuous improvement of the Trusts digital learning environment.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0633",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0633",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"

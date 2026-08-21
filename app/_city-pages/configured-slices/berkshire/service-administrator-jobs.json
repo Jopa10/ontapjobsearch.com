@@ -262,7 +262,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Reporting",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225462648",
@@ -312,7 +319,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations",
+      "Mail handling"
+    ]
   },
   {
     "job_id": "1bab4f68-302c-4d64-861c-37c4ec78fc63",
@@ -387,7 +399,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "e12e3556-f2a6-4520-a95f-3257ce75db72",
@@ -412,56 +428,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225412809",
-    "title": "Administrator",
-    "company": "Clements Young - Agency - Contract",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "12.71",
-    "salary_max": "14",
-    "salary_text": "£12.71 - £14 per hour (Holiday Pay & Pension)",
-    "posted_date": "2026-08-19",
-    "description": "Administrator required to work on busy construction site at AWE Aldermaston, therefore transport to this remote location will be necessary.\n\nPrior working in the construction environment would be advantageous but not essential.\n\nDuties will include.\n- Admin for Site Supervisors\n- Filing\n- Document control support\n- Timesheets\n- General admin duties\n- Site pass administration\n\nThis will last until December 2026 (minimum).\n\nOffice hours will be 07.30-16.30 (1/2 hour lunch break).\n\n12.71 - 14.00p/h (PAYE) dependant upon experience.\n\nStatutory holiday pay + auto-enrolment pension (after qualifying period).\n\nThere will be security clearance to obtain of which further details will be explained to you during the on-boarding process (likely to take 7-10 days). This will require an application for a basic DBS check.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0JPMQpM5VlURCET0GcpWArps",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Clements Young",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225411716",
-    "title": "Administrator",
-    "company": "Huntress - Bracknell - Agency - Temporary",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.7",
-    "salary_max": "14.5",
-    "salary_text": "£13.7 - £14.5 per hour",
-    "posted_date": "2026-08-12",
-    "description": "Looking for flexible Temporary Office Work? We've got opportunities for you!\n\nWhether you're looking to fit work around your busy lifestyle, earn extra income between permanent roles, or gain valuable experience while studying, we'd love to hear from you!\n\nWe're expanding our bank of reliable temporary office support candidates to work with a variety of fantastic clients across Berkshire and Surrey. With assignments ranging from a single day to a number of months, temporary work offers the flexibility to fit around your schedule.\n\nWe regularly recruit for roles including:\n- Reception & Front of House\n- Administration\n- Data Entry\n- Customer Service\n- General Office Support\n\nWhy choose temporary work?\n- Flexible assignments to suit your availability\n- Weekly pay\n- Opportunity to gain experience with a variety of businesses\n- Perfect while searching for a permanent position or during university breaks\n- Build on your skills\n\nPay: 12.71 - 14.00 per hour (depending on experience)\n\nLocations: Bracknell, Wokingham, Ascot, Reading, Camberley, Windsor and surrounding areas.\n\nAssignment Lengths: From ad hoc day cover to longer-term placements lasting weeks or months.\n\nIf you're organised, professional, and ready to take on your next temporary opportunity, we'd love to hear from you.\n\nApply today by attaching your CV!\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh371VFsie%2bUeCKJ07va1wlnu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Huntress - Bracknell",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -562,7 +528,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling"
+    ]
   },
   {
     "job_id": "23643_225451460",
@@ -715,31 +685,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "2a7361cc-c431-4bc7-b960-6f3946a1c3c9",
-    "title": "Temporary Receptionist",
-    "company": "Office Angels - Agency - Temporary",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour",
-    "posted_date": "2026-08-18",
-    "description": "Position: Receptionist\n\nContract Type: Temporary\n\nHourly Rate: Up to £14.00\n\nAre you a dynamic and friendly individual with a passion for providing exceptional customer service? We are seeking a Temporary Receptionist. This is a fantastic opportunity to showcase your skills in a vibrant and professional environment.\n\nAs part of our recruitment process, you will be contacted by our AI-powered screening assistant via SMS to help us gather additional information. Please be assured that every application is reviewed and assessed by a member of our team.\n\nKey Responsibilities:\n- Answering and transferring incoming calls with a cheerful and professional demeanour.\n- Greeting customers and visitors upon arrival, ensuring a warm and inviting atmosphere.\n- Taking messages and efficiently passing enquiries to the relevant departments.\n- Managing the reception desk and maintaining a polished front-of-house presence.\n- Assisting with general administrative tasks, including filing and data entry to support the team.\n- Providing support to the sales teams as required, contributing to the overall success of the organisation.\n- Keeping the reception area tidy and presentable, creating a positive first impression for all visitors.\n\nIdeal Candidate:\n- Strong communication skills, both verbal and written, with an enthusiastic approach to customer service.\n- Proven experience in a similar receptionist role or front-of-house position.\n- Proficiency in handling phone systems and basic office software.\n- An ability to multitask in a fast-paced environment while maintaining attention to detail.\n- A proactive attitude and a willingness to assist colleagues as needed.\n\nNote: This is a temporary position, and candidates must be available immediately.\n\nWe use generative AI tools to support our candidate screening process. This helps us ensure a fair, consistent, and efficient experience for all applicants. Rest assured, all final decisions are made by our hiring team, and your application will be reviewed with care and attention.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctwS3uPwWY6y9c3lpQb1M4X6p",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "42e70a2c-0c22-4a8e-86c3-6e992dc748fb",
     "title": "Corporate Receptionist - Slough",
     "company": "Office Angels - Agency - Temporary",
@@ -762,7 +707,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "4fdbf2c6-e0d2-4e84-80e4-fcbe0929eba3",
@@ -840,6 +789,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "f5b4af55-a9db-437a-b0e3-6da6c8d925f4",
+    "title": "Customer Service Administrator",
+    "company": "Adecco - Agency - Temporary",
+    "location": "Berkshire",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.33",
+    "salary_max": "13.33",
+    "salary_text": "£13.33 per hour",
+    "posted_date": "2026-08-21",
+    "description": "Customer Service Administrator\n\nLocation: Lambourn, West Berkshire (please note, you must be able to drive and have your own mode of transport due to the location of the client). Pay Rate: £13.33 per hourHours: Monday to Friday, 9:00 am to 5:30 pmContract: Temporary to Permanent (permanent opportunity after 12 weeks)\n\nOur client is seeking a motivated and detail-oriented Customer Service Administrator to join their dynamic operation. This temporary-to-permanent role offers an exciting opportunity to become an integral part of a thriving team, dedicated to delivering exceptional service within the logistics and transportation industry.\n\nAbout the Role:\n\nIn this fast-paced position, the successful candidate will work closely with Client Relationship Managers and Account Managers to ensure that customer orders are processed accurately and efficiently. The role involves a variety of administrative tasks, making it perfect for someone who enjoys a structured environment and is passionate about customer service.\n\nKey Responsibilities:\n- Process and run customer orders\n- Distribute printed orders to warehouse teams and trays\n- Provide daily administrative support\n- Produce stock reports and complete authorised system adjustments\n- Process shipping labels\n- Maintain shipping information\n- Close all orders with the correct costs prior to invoicing\n- Use shipping calculators to determine delivery and carrier costs\n- Assist in the production of customer and operational KPI reports\n- Monitor daily order volumes and activity\n- Escalate changes in demand or workload to relevant stakeholders\n- Support operational teams in identifying resource and staffing requirements\n- Maintain regular communication with Client Relationship Managers and warehouse teams\n- Assist with customer charge sheets and invoicing processes\n- Utilise CHESS outputs and available data\n- Ensure all administrative tasks are completed accurately\n- Identify and report health and safety concerns\n- Attend internal meetings\n- Answer incoming telephone calls and provide reception cover as needed\n- Deliver a professional service when communicating with customers, suppliers, and colleagues\n\nAbout You:\n- Strong organisational and time management skills\n- Excellent attention to detail\n- Strong written and verbal communication skills\n- Good numeracy skills\n- Confidence to raise concerns and escalate issues\n- A practical, solutions-focused mindset\n- Ability to work independently and collaboratively within a team\n- A professional telephone manner and experience maintaining accurate records\n\nSystems & Technical Skills:\n\nEssential:\n- Proficient in Microsoft Office, especially Excel and Outlook.\n- Strong data entry skills with a high level of accuracy.\n- Ability to learn new systems and processes quickly.\n\nDesirable:\n- Experience using CHESS or another Warehouse Management System (WMS).\n- Knowledge of SharePoint.\n- Familiarity with shipping calculators or carrier management systems.\n- Background in stock reporting and order processing.\n- Experience with KPI and operational reporting tools.\n\nWhat's in It for You?\n- Competitive pay rate of £13.33 per hour.\n- Monday to Friday working pattern (9:00 am - 5:30 pm).\n- Temporary-to-permanent opportunity after 12 weeks.\n- A chance to develop your career within a successful logistics business.\n- A friendly and supportive team environment.\n- A varied role with exposure to customer service, logistics, and operations.\n\nIf you are looking for an engaging and fast-paced administrative role where accuracy, organisation, and teamwork are highly valued, apply today! Don't miss out on this fantastic opportunity to enhance your career in logistics and customer service.\n\nAdecco is a disability-confident employer. It is important to us that we run an inclusive and accessible recruitment process to support candidates of all backgrounds and all abilities to apply. Adecco is committed to building a supportive environment for you to explore the next steps in your career. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5b24TUhrl7rOLn%2fK2Y7JT1q",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Adecco",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225416106",
     "title": "Helpdesk Admin",
     "company": "Winner Recruitment - Agency - Permanent",
@@ -862,7 +836,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225223268",
@@ -912,7 +890,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "da48f93a-8393-482d-bde7-d6542c6110dc",
@@ -1029,25 +1011,6 @@
     "description": "We are seeking to recruit a highly motivated and experienced Band 4 Administrator, working 37.5 hrs across Monday-Friday 9am-5pm, as a member of the Crisis Resolution and Home Treatment Administration Team, to assist in providing a high level of confidential administrative and minute taking support to the Business & Performance Manager and Service Manager in the implementation, delivery and co-ordination of the locally deployed CRHTT services, service specification and Trust objectives. The post holder will also assist the Business & Performance Lead with collating data for information and performance requirements. You will be joining a very dedicated administrative team. This senior role is invaluable for the smooth running and efficiency of the overall service. You will need to be highly organised and able to work well under pressure. Although this is a very demanding role you will be working with a very dedicated and forward-thinking team and you will be able to play a key role in the ongoing provision and development of service. You will need to work flexibly in response to service need across multiple sites Support colleagues in the delivery of compassionate, safe, and structured care Develop the team to provide timely support to the clinical team. The must haves for this role: Ability to use own initiative and apply a practical problem-solving approach Demonstrate confidential and effective written and verbal communication skill Demonstrate an enthusiastic and flexible approach Have excellent attention to detail For further information about the role, please see attached job description and person specification. Your application is your opportunity to demonstrate to us how you meet the requirements of the role. Your application is your opportunity to demonstrate to us how you meet the requirements of the role. We recognise that AI tools can support accessibility, equity and confidence for applicants. However, its important that examples and responses given in your supporting statement genuinely reflect your own experience and abilities, as these will be explored further during the selection process. AI must not be used to provide misleading or false information during any stage of the application journey. In addition to explaining how you meet the person specification, you must complete your employment history for at least the last five years. Any experience, skills or responsibilities referenced in your supporting statement should be evidenced within your employment history. Applications that do not include sufficient employment history to support the experience claimed may not be shortlisted. Were committed to equal opportunities and welcome applications from all sections of the community. Our commitment to inclusion is reflected in our accreditations: Stonewall Proud Employer, Race Equality Matters Silver Trailblazer, Neurodiversity in Business Corporate Member, Disability Confident Leader, Carer Confident Level 2, and the Armed Forces Covenant Gold Award. Reasonable adjustments will be provided to candidates as needed.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0665",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0665",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5550720",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Berkshire Healthcare Foundation Trust",
-    "advertiser_name": "Berkshire Healthcare Foundation Trust",
-    "location": "Windsor, SL4 3DP",
-    "region": "Berkshire",
-    "salary": "£27106.00 to £28850.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T10:00:14.606891560",
-    "closing_date": "2026-08-27",
-    "description": "This post offers an exciting opportunity to work within the award winning AIR service (Adult Integrated Respiratory Service), based in East Berkshire. AIR is a leading light specialist community service so as well as providing premium care we also provide training to less specialist health care This post is part of the administration team supporting a range of health professionals to deliver excellent care for patients with respiratory diseases. Using excellent organisational skills you will provide day to day support for a range in clinical professionals .This will include: Being the first point of contact for health care professionals and patients Taking and processing referrals Direct patients, visitors and colleagues to correct clinician. Answer telephone, deal with enquiries, direct as appropriate, take accurate messages and forward to relevant person/department Provide information, written, verbal by telephone, e-mail, letter etc to staff from other departments and partner agencies Make appointments for team, adjusting where necessary, i.e., conflicting diary appointments and ensuring documents and equipment is available. Plan and prioritise own workload. Maintain relevant documents and databases. Assist in the preparation, collection, scanning, photocopying, printing and processing of materials for training, service information and meetings. Typing letters and various correspondences as and when required to support service delivery. The must haves for this role: Excellent people skills Excellent organisational skills Excellent administration and office skills For further information about the role, please see attached job description and person specification. Your application is your opportunity to demonstrate to us how you meet the requirements of the role. We recognise that AI tools can support accessibility, equity and confidence for applicants. However, its important that examples and responses given in your supporting statement genuinely reflect your own experience and abilities, as these will be explored further during the selection process. AI must not be used to provide misleading or false information during any stage of the application journey. In addition to explaining how you meet the person specification, you must complete your employment history for at least the last five years. Any experience, skills or responsibilities referenced in your supporting statement should be evidenced within your employment history. Applications that do not include sufficient employment history to support the experience claimed may not be shortlisted. Were committed to equal opportunities and welcome applications from all sections of the community. Our commitment to inclusion is reflected in our accreditations: Stonewall Proud Employer, Race Equality Matters Silver Trailblazer, Neurodiversity in Business Corporate Member, Disability Confident Leader, Carer Confident Level 2, and the Armed Forces Covenant Gold Award. Reasonable adjustments will be provided to candidates as needed. We welcome a conversation about flexibility and any other questions you may have. Please don't hesitate to call: harriet.jarman@berkshire.nhs.uk 0300 614 6796 / 07976 393 831 who'll be delighted to help. Please note, if we receive a high number of applications, we may close this role earlier than the advertised closing date, so please submit your application as soon as possible.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0663",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0663",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"

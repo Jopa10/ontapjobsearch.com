@@ -630,7 +630,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "b9168f3b-ae51-41b5-8822-277795a7ff77",
@@ -680,32 +684,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107729655",
-    "title": "SharePoint Administrator",
-    "company": "Belcan Technical Recruiting (UK) Ltd - Agency - Permanent",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-20",
-    "description": "SharePoint Administrator\nHelp shape the future of digital working\n\nAre you passionate about creating smarter ways of working with Microsoft technologies? Do you enjoy solving business challenges through automation, collaboration, and data-driven insights?\n\nWe're looking for a SharePoint & Power Platform Specialist to join our team and play a key role in driving digital transformation across the organis click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzfrNJXskE3qABkNfh%2bGd7ap",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Belcan Technical Recruiting (UK) Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225517573",
@@ -805,7 +788,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225436892",
@@ -855,7 +843,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225474610",
@@ -933,31 +925,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225412665",
-    "title": "Administrator",
-    "company": "Reed Specialist Recruitment - Agency - Temporary",
-    "location": "Huntingdon",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "13.25",
-    "salary_text": "£13 - £13.25 per hour",
-    "posted_date": "2026-08-19",
-    "description": "Practice Administrator\n- Hourly Rate: 13.00 - 13.25\n- Location: Huntingdon (with one day per week in St Neots and at least one day per month in Bedford)\n- Job Type: Full-time, office based\n\nReed are delighted to be working with a nationally recognised accountants, a busy firm dedicated to delivering exceptional accounting, tax and financial services. They are seeking a Practice Administrator to support their Senior Administrator and enhance their client service delivery in Huntingdon. This role could also be worked on a part time basis 9.00am to 3.00pm Monday to Friday.\n\nDay-to-day of the role:\n- Engage in daily practice operations and new client onboarding to ensure a smooth workflow.\n- Ensure compliance with industry regulations and standards.\n- Foster a positive work environment that promotes team collaboration.\n- Assist in client relationship management and service delivery, including front of house duties.\n- Deliver new business proposals using class-leading accounting software.\n\nRequired Skills & Qualifications:\n- Proven administrative experience within an accounting or professional services environment.\n- Excellent organisational and communication skills.\n- Prior experience in a busy practice setting is preferred but not essential.\n- Ability to handle multiple priorities with professionalism.\n\nBenefits:\n- Casual dress code.\n- Company events.\n- Company pension.\n- Cycle to work scheme.\n- Sick pay.\n\nTo apply for this Practice Administrator position, please submit your CV detailing your relevant experience and why you are interested in this position.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyZ7FidXvcRfnB92P%2f54fZxf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed Specialist Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225452723",
     "title": "Administrator",
     "company": "Barker Ross - Agency - Temporary",
@@ -980,7 +947,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225478255",
@@ -1005,32 +978,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107791497",
-    "title": "Conveyancing Administrators and Case Handlers",
-    "company": "AllAboutRecruitmentLtd - Agency - Permanent",
-    "location": "St. Neots",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-12",
-    "description": "All About Recruitment Ltd have ongoing vacancies for Conveyancing staff such as a Conveyancing Assistant, Conveyancing Administrator, Legal Assistant, Conveyancer Paralegal\n\nSalary: £Neg £26 - £32 K\n\nLocation: St Neots\n\nTo Start: ASAP, subject to interview/s and referencing click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbw4pxx38obAlZAKZYHFBcVbt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "AllAboutRecruitmentLtd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Filing and document handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225519683",
@@ -1105,7 +1058,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "69e0dfe0-062a-449e-962d-e87504d3bdcd",
@@ -1318,25 +1276,6 @@
     "description": "We are looking for an organised, proactive and approachable Undergraduate Medical Education Administrator to join our Medical Services team. This is an excellent opportunity for someone with strong administrative skills who enjoys working with a range of people and supporting high-quality education and training within an NHS environment. This role would suit someone who is confident in managing competing priorities, has excellent communication and organisational skills, and is able to provide a professional and responsive service to students, educators and internal colleagues. To provide dedicated administrative support for undergraduate medical education within CPFT, with a primary focus on coordinating psychiatry placements, teaching programmes, and student experience.The post holder will act as the main point of contact for undergraduate medical students and the Clinical School, supporting the planning, delivery and evaluation of placements and teaching sessions, and ensuring students are able to meet their curriculum requirements. The role will involve close liaison with consultants, clinical teams and teaching faculty to coordinate placements, manage timetables, support teaching delivery, and oversee key administrative processes such as student assessments, onboarding and finance claims.During periods where undergraduate activity is reduced, the post holder will contribute flexibly to the wider work of the Medical Education Team, including support for postgraduate education, induction programmes and general administrative functions. Please refer to the attached job description and person specification for full details of responsibilities. Serve as a primary point of contact within the Medical Education Department, acting as a key liaison between CPFT, the Clinical School, consultants and undergraduate students. Provide comprehensive administrative support across undergraduate (primary focus) and postgraduate medical education activities, including responding to queries,arranging meetings, booking rooms and coordinating teaching sessions. Support the Medical Education Coordinator with Resident Doctor induction and wider Medical Education activities as required. Coordinate undergraduate psychiatry placements, including developing and disseminating timetables and placement allocations, liaising with consultants to establish availability, and organising suitable clinical learning opportunities. Coordinate clinic schedules and allocate students to appropriate clinical sessions, including CAMHS and Drug & Alcohol services. Act as the main administrative contact for undergraduate students during placements, supporting their experience and monitoring completion of requirements, including chasing signoffs and case documentation. Provide administrative support for undergraduate teaching programmes, including lived experience and communication skills sessions, liaising with tutors, actors and individuals with lived experience, and managing session allocation and room bookings. Support student onboarding processes, including facilitating access to CPFT IT systems, SystmOne (S1) and Smartcard IDs in collaboration with the Clinical School and relevant teams. Process student and lived experience tutor expense claims (e.g. travel) and maintain accurate financial records. Collate student assessment outcomes and upload results to university systems in line with required processes and deadlines.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0502",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0502",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5530863",
-    "source": "NHS Jobs",
-    "title": "Care Coordinator/Medical Receptionist",
-    "company": "Bretton Park Healthcare",
-    "advertiser_name": "Bretton Park Healthcare",
-    "location": "Peterborough, PE3 8DT, Peterborough, PE1 2UF",
-    "region": "Cambridgeshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-11T11:51:31.940691335",
-    "closing_date": "2026-09-01",
-    "description": "Bretton Park Healthcare are looking for a full time/part time Care coordinator/receptionist with the following skills to join our Administration Team. We are looking for a highly motivated individual who is able to work as part of a team and be flexible. The ideal candidates will be positive and friendly with excellent customer service skills. The role requires you to provide customer service both face to face and via the telephone, some experience of working as a medical receptionist is desirable but not essential. The position is full time/part time Mon- Fri, plus a Saturday morning on rotation - (each shift Mon - Fri will either be an 8am start or 6pm finish) The practice has 2 sites located at Bretton and Park and the successful applicant will be required to work at both as part of the rota. As part of your role you will be required to provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Part of your role will be as a care coordinator, receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Attend to patients at the reception desk, deal with enquiries Respond to patient queries in a friendly manner and resolve the issue Taking messages, dealing with queries Using computer clinical system (SystmOne) for a variety of tasks; making, amending appointments, registration of patients, processing repeat prescription requests and updating the database and all other administrative duties as directed by the practice leads JOB DESCRIPTION JOB TITLE: Medical Receptionist/Care Coordinator REPORTS TO: Administration Leads and Practice Manager Job Summary : Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Job Responsibilities : Administration To have a thorough knowledge of all practice procedures To work in accordance with written protocols To carry out specific administrative tasks as requested by the Administration Leads Receptionist Tasks You will be assisting and directing patients toward the appropriate service or healthcare professional in a courteous, efficient, and effective way. Duties include: Receiving patients and consulting with members of the practice team Be able to cover all reception positions as necessary Process digital platform submissions Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter Working knowledge of the telephone system and all IT systems Process appointment requests from patients for on the day and future appointments by telephone and in person Deal with visit requests Registration of new patients computer data entry and medical records Process patients change of address computer data and medical records Process repeat prescription requests in accordance with practice guidelines Care Coordinator Tasks A Care Co-ordinator (CC) may be required to deal with patients and, if appropriate, their carer, before or after the patients consultation with a clinician or other healthcare professional. To also include the following tasks covering the reception duties, document scanning, dealing with tasks and queries from clinicians as well as other reception activities that help to facilitate care between the patients and the clinicians. This also includes liaising with Care / Nursing homes and other health and care providers when and where necessary. Working closely with the patient and their clinician or other healthcare professional, the care co-ordinator co-ordinates patients healthcare and directs them to the appropriate service to ensure that they get the most suitable care from whatever health or social care provider is appropriate. To help people to manage their needs by answering their queries and supporting them in making appointments To provide coordination and navigation of patients, and where appropriate their carers, across health and social care services, where appropriate working hand in hand with social prescribing link workers (SPLW) To undertake all mandatory training and induction programmes To develop in the role through participation in training and service redesign activities, including monthly clinical governance training N.B It is recognised that additional training will be required for some of the tasks listed. Applicants to the post are not expected to be proficient in all tasks listed in the short term but will work towards them.. Other Tasks Ensure building security have thorough knowledge of doors/windows/alarm. Maintain notice boards in waiting areas to ensure information is not out of date and information is appropriate Assisting the the Leadership Team with tasks as required Confidentiality : In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately In the performance of the duties outlined in this Job Description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health & Safety : Employees must take reasonable care for the health, safety and security of themselves and others who may be affected by their acts or omissions at work. Using personal security systems within the workplace according to Practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Making effective use of training to update knowledge and skills Using appropriate infection prevention and control procedures, maintaining work areas in a tidy and safe way and free from hazards Actively reporting of health and safety hazards and infection hazards immediately when recognised Keeping own work areas and general / patient areas generally clean, assisting in the maintenance of general standards of cleanliness consistent with the scope of the job holders role Undertaking periodic infection control training (minimum annually) Reporting potential risks identified Equality, Diversity and Inclusion : The post-holder will support the equality, diversity and inclusion rights of patients, carers and colleagues, to include: Acting in a way that recognizes the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Behaving in a manner which is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Personal/Professional Development : The post-holder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in an annual appraisal, including taking responsibility for maintaining a record of own personal and/or professional development All staff are required to attend and/or carry out on-line essential training as instructed by the Practice Manager (Fire Safety, Health & Safety, Safeguarding Children and Adults, Mental Capacity Act, Information Governance, Resuscitation Procedure) Attend Staff Meetings which provide opportunity to discuss any matters arising from the job and to instruct on new procedures, policies and training requirements",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0017",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0017",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "posted_date_basis": "source"
