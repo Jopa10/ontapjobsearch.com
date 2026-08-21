@@ -29,22 +29,24 @@ def test_nhs_is_future_until_first_review(tmp_path: Path, monkeypatch) -> None:
     assert result.items == ()
 
 
-def test_nhs_poss_appears_in_unified_review(tmp_path: Path, monkeypatch) -> None:
+def test_nhs_poss_stays_out_of_unified_review_but_source_publishes(
+    tmp_path: Path,
+    monkeypatch,
+) -> None:
     _write_review(tmp_path)
     monkeypatch.setattr(adapters, "PIPELINE_ROOT", tmp_path)
     result = adapters.load_nhs(TODAY)
     assert result.state == "OK"
-    assert len(result.items) == 1
-    item = result.items[0]
-    assert item.category == "admin_service"
-    assert item.source_job_id == "nhs1"
-    assert item.reason.startswith("BRIDGEABLE:")
+    assert result.items == ()
+    assert result.publish_workflow == "publish-reviewed-nhs-admin-service.yml"
+    assert result.publish_requires_approval is True
+    assert result.shared_publish_after is True
+    assert "optional" in result.note
 
 
 def test_master_routes_nhs_action_to_nhs_summary(tmp_path: Path, monkeypatch) -> None:
     _write_review(tmp_path)
     monkeypatch.setattr(master_review, "PIPELINE_ROOT", tmp_path)
-    item = adapters.load_nhs(TODAY).items[0] if False else None
     from review_hub.contracts import ParsedDecision, ReviewItem
     decision = ParsedDecision(
         "select",
