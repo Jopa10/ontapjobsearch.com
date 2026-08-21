@@ -166,6 +166,48 @@ class CustomerSalesPipelineTests(unittest.TestCase):
         self.assertFalse(keep)
         self.assertIn("advert opening location", reason)
 
+    def test_final_qa_does_not_treat_plain_renewals_as_sales(self):
+        keep, reason = keep_job(
+            {
+                "title": "Client Service Specialist",
+                "description": "Support consultants with administration, client queries and healthcare scheme renewals.",
+                "advertiser_name": "Example Benefits",
+                "region": "London",
+                "customer_sales_classification": "CUSTOMER_SALES",
+            },
+            [],
+        )
+        self.assertFalse(keep)
+        self.assertIn("no strong sales/conversion evidence", reason)
+
+    def test_final_qa_rejects_face_to_face_event_campaigns_across_customer_sales(self):
+        keep, reason = keep_job(
+            {
+                "title": "Sales & Customer Service Advisor - No Experience Required",
+                "description": "Represent client campaigns through face-to-face customer engagement at high-footfall venues, retail spaces and events. Close sales using a tablet.",
+                "advertiser_name": "Example Recruitment",
+                "region": "London",
+                "customer_sales_classification": "CUSTOMER_SALES",
+            },
+            [],
+        )
+        self.assertFalse(keep)
+        self.assertIn("field/event/self-employed sales signal", reason)
+
+    def test_final_qa_rejects_specialist_investment_account_sales(self):
+        keep, reason = keep_job(
+            {
+                "title": "Account Manager",
+                "description": "Advise private clients on rare cask assets and introduce new investment opportunities within a supply-constrained asset class.",
+                "advertiser_name": "Example Vintners",
+                "region": "London",
+                "customer_sales_classification": "CONDITIONAL_ACCOUNT_SALES",
+            },
+            [],
+        )
+        self.assertFalse(keep)
+        self.assertIn("specialist investment/account-sales signal", reason)
+
 
 if __name__ == "__main__":
     unittest.main()
