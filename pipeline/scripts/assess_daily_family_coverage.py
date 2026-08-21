@@ -207,10 +207,11 @@ def _apply_to_overview(
     patched: list[str] = []
 
     for line in lines:
-        if line.startswith("> LIVE counts reconcile"):
+        if line.startswith("> LIVE Service Admin") or line.startswith("> LIVE counts reconcile"):
+            live_prefix = line.split(". NOT LIVE", 1)[0]
             patched.append(
-                line.split(". NOT LIVE", 1)[0]
-                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor remains test-only; `—` there means not assessed / no current source."
+                live_prefix
+                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor is now a LIVE registered family where the slice register says LIVE; its LIVE counts come from the current published Customer Sales configured-slice JSON. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily assessment is wired into this overview."
             )
             continue
 
