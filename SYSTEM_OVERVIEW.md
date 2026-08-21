@@ -1,12 +1,16 @@
 # Ontap System Overview
 
 **Last updated:** 21 August 2026  
-**Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification and NHS Administrative & Clerical integration.
+**Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration and search/UX hardening.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 21 August 2026 — NHS job-detail pages now present NHS source text as readable paragraphs/headings/bullets instead of a flattened text dump. Long descriptions show six blocks initially, with the remainder available under **Show full NHS role information**; the vacancy wording itself is not rewritten.
+- 21 August 2026 — NHS jobs are now deliberately mixed into regional Service Admin pages rather than bunching near the top: non-NHS jobs keep the normal location-first order, while accepted NHS jobs retain Tier A/B → switchability → freshness order and are inserted at no more than one after every four non-NHS jobs. The hard **20% NHS ceiling** remains the upstream source cap.
+- 21 August 2026 — Search now handles multi-field one-box queries across role, employer, place and curated category, protects genuine role terms from accidental location inference, and applies only high-confidence typo correction. Browser spellcheck/autocorrect is enabled; spelling vocabularies/results are cached and the search route prefers Vercel London (`lhr1`) for lower UK latency.
+- 21 August 2026 — Vercel was upgraded from Hobby to Pro after the Hobby build-rate limit blocked a valid production build. The deployment model is unchanged: normal Git deployment from `main` remains the sole automatic route.
 - 21 August 2026 — NHS Jobs Administrative & Clerical inventory is now live inside Service Admin. NHS is a complementary source, not a separate job board: each eligible regional Service Admin page has a hard **20% NHS ceiling**, not a 20% target.
 - 21 August 2026 — NHS quality/order is governed before freshness: **HC Tier A before Tier B**, then switchability preference within equivalent quality; ambiguous/unseen titles stay POSS/fail-closed unless explicitly/validly selected.
 - 21 August 2026 — The normal daily workflow and the reviewed NHS publisher now use the same transactional NHS composer. It refreshes current NHS inventory, restores valid remembered decisions, preserves non-NHS jobs, enriches only accepted NHS rows and verifies the 20% cap before replacing production output.
@@ -40,6 +44,8 @@ The production rule is:
 The 20% figure is a ceiling, not a quota. A region may contain less NHS inventory if there are not enough suitable jobs.
 
 NHS ranking prefers HC Tier A over Tier B. Within equivalent quality, open/pure switch opportunities are preferred ahead of bridgeable/possible and NHS-experience-needed roles; freshness comes later.
+
+Regional presentation applies a separate non-dominance rule after composition: non-NHS jobs keep their normal location-first ordering, the accepted NHS subset keeps the same quality/switchability/freshness priority, and no more than one NHS job is placed after each four non-NHS jobs. This does not alter the 20% composition ceiling.
 
 Ambiguous/unseen titles are POSS by default. Untouched POSS jobs remain fail-closed and are not required in the normal daily owner edit queue. This means the large POSS population does not create hundreds of mandatory edits or isolate NHS from the wider publish.
 
@@ -109,6 +115,14 @@ LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backli
 
 NHS jobs use those same Service Admin pages and job-detail routes. A job is identified reliably by `source: "NHS Jobs"`; the employer itself may be an NHS trust, GP surgery, healthcare provider or other organisation whose visible name does not contain “NHS”. The job-detail page links to the original NHS Jobs advert for application.
 
+NHS detail copy is now presentation-formatted rather than shown as a single flattened block. Existing structured headings/bullets are respected; otherwise long flattened NHS text is split into readable short paragraphs without changing the wording. The first six blocks remain visible and any remainder is available under **Show full NHS role information**.
+
+Regional Service Admin pages deliberately mix NHS into the wider result set. NHS does not take the first slots simply because its internal quality ranking is strong: the normal inventory stays location-first and NHS is interleaved at the 4 non-NHS : 1 NHS rhythm while retaining the accepted NHS priority order.
+
+Search is deliberately forgiving but guarded. One-box queries can span title, employer/advertiser, location, region and curated category, so combinations such as employer/place + role can work naturally. When the dedicated location field is empty, a token is inferred as geography only if it lacks a credible title/category role anchor; polluted source location text therefore cannot steal a real role term such as `administrator`.
+
+High-confidence spelling correction is applied from the current published-job vocabulary, with ambiguous/tied corrections left unchanged. Both search inputs also enable browser spellcheck/autocorrect. Correction vocabularies and recent correction results are cached rather than rebuilt on every request, and the dynamic search route prefers Vercel London (`lhr1`) to reduce UK response latency.
+
 On the homepage, regional slices are deliberately listed before city pages. This gives the primary browse area a stronger sense of breadth and current inventory; city pages remain a secondary local-discovery layer beneath the regional coverage.
 
 City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The homepage city grid independently suppresses active city cards below 4 current jobs without changing the route, sitemap/indexing status or daily refresh behaviour.
@@ -127,7 +141,7 @@ Existing established public routes remain stable unless there is a concrete busi
 
 Ontap remains positioned around useful job discovery for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the whole identity.
 
-NHS/public-sector inventory is an advantage for switchers and existing sector workers, but it must remain subordinate to the overall Ontap proposition. Generic searches should not be swamped by NHS; explicit NHS/public/charity interest can be surfaced more strongly through user-facing UX without changing the underlying 20% generic-page source ceiling.
+NHS/public-sector inventory is an advantage for switchers and existing sector workers, but it must remain subordinate to the overall Ontap proposition. Generic regional discovery should not be swamped by NHS: the hard 20% source ceiling and the 4+1 display rhythm both enforce that principle. Explicit NHS/public/charity interest can be surfaced more strongly through user-facing UX without changing the underlying generic-page source ceiling.
 
 ## 5. Operations / infrastructure
 
@@ -149,6 +163,8 @@ If normal Git deployment succeeds, the workflow finishes green and all CLI recov
 
 Manual dispatch of `Deploy Ontap production after publish` is the recovery route. Only a manually dispatched run may use the `VERCEL_TOKEN` repository secret to call the Vercel CLI and deploy current `main` directly, followed by the same live-SHA verification. The old Vercel Deploy Hook has been revoked and `VERCEL_DEPLOY_HOOK_URL` removed; Deploy Hooks are no longer part of production publication.
 
+Vercel is now on **Pro**. The upgrade was made on 21 August after the Hobby build-rate ceiling refused to start a valid deployment; once upgraded, the pending `main` search fix deployed successfully through the same Git integration. This changes capacity, not architecture.
+
 This makes normal Git→Vercel deployment the single automatic production route, while retaining an explicit manual fallback without creating routine duplicate deployments.
 
 The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting.
@@ -159,4 +175,4 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 ## Current state
 
-Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Active city routes remain permanent below four jobs but are hidden from the homepage until they return to 4+. Homepage browse ordering is regional-first, then city. Durham remains deliberately held pending the County Durham geography safeguard. Production deployment uses normal Vercel Git integration automatically, with CLI recovery manual-only. NHS Administrative & Clerical inventory is live inside Service Admin through the shared transactional composer, with untouched POSS rows fail-closed and a hard 20% regional source ceiling.
+Architecture cleanup 1–5 is merged into `main`. The six additional Service Admin regional slices are LIVE. Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin are approved permanent city pages using the shared city-page mechanism. Active city routes remain permanent below four jobs but are hidden from the homepage until they return to 4+. Homepage browse ordering is regional-first, then city. Durham remains deliberately held pending the County Durham geography safeguard. Production deployment uses normal Vercel Git integration automatically, with CLI recovery manual-only, and Vercel is now on Pro. NHS Administrative & Clerical inventory is live inside Service Admin through the shared transactional composer, with untouched POSS rows fail-closed, a hard 20% regional source ceiling and 4+1 non-dominating display order. NHS detail formatting and the corrected/cached forgiving search behaviour are live.
