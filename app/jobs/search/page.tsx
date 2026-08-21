@@ -17,9 +17,19 @@ export const metadata: Metadata = {
   },
 };
 
+export const preferredRegion = 'lhr1';
+
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
 type CorrectionScope = 'query' | 'location';
+
+type CorrectionVocabularies = Record<CorrectionScope, Map<string, number>>;
+
+let correctionVocabularyCache:
+  | { jobs: PublishedJob[]; vocabularies: CorrectionVocabularies }
+  | undefined;
+
+const correctionResultCache = new Map<string, string>();
 
 function firstValue(value: string | string[] | undefined): string {
   return Array.isArray(value) ? value[0] || '' : value || '';
@@ -71,31 +81,49 @@ function damerauLevenshtein(a: string, b: string): number {
   return matrix[a.length][b.length];
 }
 
-function correctionVocabulary(jobs: PublishedJob[], scope: CorrectionScope): Map<string, number> {
-  const counts = new Map<string, number>();
+function addVocabularyValue(counts: Map<string, number>, value: string) {
+  for (const rawToken of value.split(/\s+/)) {
+    const token = normaliseToken(rawToken);
+    if (token.length < 4) continue;
+    counts.set(token, (counts.get(token) || 0) + 1);
+  }
+}
+
+function correctionVocabularies(jobs: PublishedJob[]): CorrectionVocabularies {
+  if (correctionVocabularyCache?.jobs === jobs) {
+    return correctionVocabularyCache.vocabularies;
+  }
+
+  const query = new Map<string, number>();
+  const location = new Map<string, number>();
 
   for (const job of jobs) {
-    const values = scope === 'location'
-      ? [job.location, job.region]
-      : [job.title, job.category, job.company, job.advertiser_name, job.location, job.region];
+    for (const value of [job.title, job.category, job.company, job.advertiser_name]) {
+      addVocabularyValue(query, value);
+    }
 
-    for (const value of values) {
-      for (const rawToken of value.split(/\s+/)) {
-        const token = normaliseToken(rawToken);
-        if (token.length < 4) continue;
-        counts.set(token, (counts.get(token) || 0) + 1);
-      }
+    for (const value of [job.location, job.region]) {
+      addVocabularyValue(query, value);
+      addVocabularyValue(location, value);
     }
   }
 
-  return counts;
+  const vocabularies = { query, location };
+  correctionVocabularyCache = { jobs, vocabularies };
+  correctionResultCache.clear();
+  return vocabularies;
 }
 
 function correctSearchText(input: string, jobs: PublishedJob[], scope: CorrectionScope): string {
-  if (!input.trim()) return input.trim();
+  const trimmed = input.trim();
+  if (!trimmed) return trimmed;
 
-  const vocabulary = correctionVocabulary(jobs, scope);
-  const corrected = input.trim().split(/\s+/).map((rawToken) => {
+  const cacheKey = `${scope}:${trimmed.toLowerCase()}`;
+  const cached = correctionResultCache.get(cacheKey);
+  if (cached !== undefined) return cached;
+
+  const vocabulary = correctionVocabularies(jobs)[scope];
+  const corrected = trimmed.split(/\s+/).map((rawToken) => {
     const token = normaliseToken(rawToken);
     if (token.length < 4 || vocabulary.has(token)) return rawToken;
 
@@ -118,9 +146,11 @@ function correctSearchText(input: string, jobs: PublishedJob[], scope: Correctio
     if (runnerUp && runnerUp.distance === best.distance) return rawToken;
 
     return best.token;
-  });
+  }).join(' ');
 
-  return corrected.join(' ');
+  if (correctionResultCache.size >= 500) correctionResultCache.clear();
+  correctionResultCache.set(cacheKey, corrected);
+  return corrected;
 }
 
 function SearchForm({ query, location }: { query: string; location: string }) {
