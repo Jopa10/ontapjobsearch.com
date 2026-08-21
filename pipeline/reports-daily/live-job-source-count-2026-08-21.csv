@@ -1,10 +1,11 @@
 report_date,level,source,region,category,count
-2026-08-21,total,All,,,1302
+2026-08-21,total,All,,,1577
 2026-08-21,source_summary,JobG8,,,1151
-2026-08-21,source_summary,External,,,151
+2026-08-21,source_summary,External,,,426
 2026-08-21,provider,JobG8,,,1151
-2026-08-21,provider,NEJobs,,,28
-2026-08-21,provider,Teaching Vacancies,,,119
+2026-08-21,provider,NEJobs,,,27
+2026-08-21,provider,NHS Jobs,,,277
+2026-08-21,provider,Teaching Vacancies,,,118
 2026-08-21,provider,VONNE,,,4
 2026-08-21,region_category,JobG8,Berkshire,Admin/Service – Office Support,35
 2026-08-21,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,35
@@ -50,7 +51,37 @@ report_date,level,source,region,category,count
 2026-08-21,region_category,JobG8,Yorkshire - South,Support Worker – Wide,1
 2026-08-21,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,53
 2026-08-21,region_category,JobG8,Yorkshire - West,Support Worker – Wide,3
-2026-08-21,region_category,NEJobs,North East,Admin/Service – Office Support,28
+2026-08-21,region_category,NEJobs,North East,Admin/Service – Office Support,27
+2026-08-21,region_category,NHS Jobs,Berkshire,Unspecified,6
+2026-08-21,region_category,NHS Jobs,Bristol & Bath,Unspecified,9
+2026-08-21,region_category,NHS Jobs,Buckinghamshire,Unspecified,4
+2026-08-21,region_category,NHS Jobs,Cambridgeshire,Unspecified,11
+2026-08-21,region_category,NHS Jobs,Devon,Unspecified,12
+2026-08-21,region_category,NHS Jobs,Dorset,Unspecified,5
+2026-08-21,region_category,NHS Jobs,Essex,Unspecified,11
+2026-08-21,region_category,NHS Jobs,Gloucestershire,Unspecified,6
+2026-08-21,region_category,NHS Jobs,Greater Manchester - Manchester & Salford,Unspecified,9
+2026-08-21,region_category,NHS Jobs,Greater Manchester - South,Unspecified,2
+2026-08-21,region_category,NHS Jobs,Hampshire,Unspecified,14
+2026-08-21,region_category,NHS Jobs,Hertfordshire,Unspecified,4
+2026-08-21,region_category,NHS Jobs,Kent,Unspecified,13
+2026-08-21,region_category,NHS Jobs,London,Unspecified,43
+2026-08-21,region_category,NHS Jobs,Norfolk,Unspecified,3
+2026-08-21,region_category,NHS Jobs,North East,Unspecified,19
+2026-08-21,region_category,NHS Jobs,Northamptonshire,Unspecified,6
+2026-08-21,region_category,NHS Jobs,Nottinghamshire,Unspecified,6
+2026-08-21,region_category,NHS Jobs,Oxfordshire,Unspecified,13
+2026-08-21,region_category,NHS Jobs,Somerset,Unspecified,3
+2026-08-21,region_category,NHS Jobs,Staffordshire,Unspecified,6
+2026-08-21,region_category,NHS Jobs,Surrey,Unspecified,12
+2026-08-21,region_category,NHS Jobs,Sussex,Unspecified,10
+2026-08-21,region_category,NHS Jobs,West Midlands - Birmingham & Solihull,Unspecified,6
+2026-08-21,region_category,NHS Jobs,West Midlands - Coventry & Warwickshire,Unspecified,7
+2026-08-21,region_category,NHS Jobs,Wiltshire,Unspecified,6
+2026-08-21,region_category,NHS Jobs,Yorkshire - East,Unspecified,3
+2026-08-21,region_category,NHS Jobs,Yorkshire - North,Unspecified,5
+2026-08-21,region_category,NHS Jobs,Yorkshire - South,Unspecified,7
+2026-08-21,region_category,NHS Jobs,Yorkshire - West,Unspecified,16
 2026-08-21,region_category,Teaching Vacancies,Berkshire,Admin/Service – Office Support,5
 2026-08-21,region_category,Teaching Vacancies,Bristol & Bath,Admin/Service – Office Support,3
 2026-08-21,region_category,Teaching Vacancies,Cambridgeshire,Admin/Service – Office Support,11
@@ -59,7 +90,7 @@ report_date,level,source,region,category,count
 2026-08-21,region_category,Teaching Vacancies,Essex,Admin/Service – Office Support,4
 2026-08-21,region_category,Teaching Vacancies,Hampshire,Admin/Service – Office Support,3
 2026-08-21,region_category,Teaching Vacancies,Kent,Admin/Service – Office Support,3
-2026-08-21,region_category,Teaching Vacancies,London,Admin/Service – Office Support,20
+2026-08-21,region_category,Teaching Vacancies,London,Admin/Service – Office Support,19
 2026-08-21,region_category,Teaching Vacancies,Northamptonshire,Admin/Service – Office Support,5
 2026-08-21,region_category,Teaching Vacancies,Nottinghamshire,Admin/Service – Office Support,5
 2026-08-21,region_category,Teaching Vacancies,Oxfordshire,Admin/Service – Office Support,8
