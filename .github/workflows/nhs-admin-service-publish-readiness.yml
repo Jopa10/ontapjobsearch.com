@@ -127,3 +127,9 @@ jobs:
               raise SystemExit(f'STOP: NHS share cap is {cap:.2%}, expected 20%.')
           print('NHS readiness gate passed: accepted rows enriched and source cap is 20%.')
           PY
+
+      - name: Smoke-test normal daily NHS composer
+        working-directory: pipeline
+        env:
+          PYTHONPATH: .
+        run: python -m external_sources.compose_nhs_admin_daily
