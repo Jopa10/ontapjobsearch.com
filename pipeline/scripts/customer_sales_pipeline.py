@@ -72,6 +72,13 @@ SALES_EVIDENCE = [
     "grow revenue", "account growth", "grow accounts", "business growth",
 ]
 
+# Remove explicit negations before looking for contextual sales evidence. This avoids
+# a pure service advert qualifying merely because it says e.g. "no selling responsibility".
+NEGATED_SALES_PHRASES = [
+    "no selling", "not a sales role", "not a sales position", "no sales targets",
+    "non-sales role", "non sales role", "no sales responsibility", "no sales responsibilities",
+]
+
 OFFICE_EVIDENCE = [
     "office", "office-based", "office based", "hybrid", "remote", "home-based", "home based",
     "phone", "telephone", "crm", "inbound", "outbound", "email", "contact centre",
@@ -134,6 +141,13 @@ def contains_any(text: str, terms: list[str]) -> list[str]:
     return [term for term in terms if term in text]
 
 
+def evidence_text_without_negations(text: str) -> str:
+    cleaned = text
+    for phrase in NEGATED_SALES_PHRASES:
+        cleaned = cleaned.replace(phrase, " ")
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
 def canonical_region(value: Any) -> str:
     region = norm(value)
     if region.startswith("North East - "):
@@ -183,6 +197,7 @@ def classify(title: str, description: str, employer: str) -> tuple[str, str] | N
     e = norm_key(employer)
     combined = f"{t} {d}"
     context = f"{t} {d} {e}"
+    sales_evidence_text = evidence_text_without_negations(combined)
 
     if contains_any(t, HARD_TITLE_EXCLUDES):
         return None
@@ -196,7 +211,7 @@ def classify(title: str, description: str, employer: str) -> tuple[str, str] | N
     if contains_any(t, ACCOUNT_TITLE_TERMS):
         if contains_any(combined, ACCOUNT_EXCLUDES):
             return None
-        if contains_any(combined, SALES_EVIDENCE) and contains_any(combined, OFFICE_EVIDENCE):
+        if contains_any(sales_evidence_text, SALES_EVIDENCE) and contains_any(combined, OFFICE_EVIDENCE):
             return "CONDITIONAL_ACCOUNT_SALES", "account-based title with sales and office/digital evidence"
         return None
 
@@ -210,7 +225,7 @@ def classify(title: str, description: str, employer: str) -> tuple[str, str] | N
             return None
         if contains_any(combined, SPECIALIST_CUSTOMER_CONTEXT_EXCLUDES):
             return None
-        evidence = contains_any(combined, SALES_EVIDENCE)
+        evidence = contains_any(sales_evidence_text, SALES_EVIDENCE)
         if evidence:
             return "CUSTOMER_SALES", "customer/service role with sales evidence: " + ", ".join(evidence[:3])
     return None
