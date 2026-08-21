@@ -4,6 +4,7 @@ import Link from "next/link";
 import DetailedJobList from "@/components/DetailedJobList";
 import JobViewSwitcher from "@/components/JobViewSwitcher";
 import QuickJobList from "@/components/QuickJobList";
+import { orderJobsForDisplay } from "@/lib/job-display-order";
 import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
@@ -35,6 +36,8 @@ type JobRow = {
   full_description: string;
   apply_url: string;
   source: string;
+  hc_tier: string;
+  switchability: string;
   at_a_glance_attributes: string[];
 };
 
@@ -127,23 +130,10 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
       ),
       apply_url: String(row.apply_url || row["/Job/ApplicationURL"] || ""),
       source: String(row.source || "JobG8"),
+      hc_tier: String(row.hc_tier || ""),
+      switchability: String(row.switchability || ""),
       at_a_glance_attributes: stringList(row.at_a_glance_attributes),
     }));
-}
-
-function locationFirst(jobs: JobRow[]) {
-  return [...jobs].sort((left, right) => {
-    const locationOrder = (left.location || "ZZZ").localeCompare(
-      right.location || "ZZZ",
-      "en-GB",
-      { sensitivity: "base", numeric: true }
-    );
-    if (locationOrder) return locationOrder;
-    return left.title.localeCompare(right.title, "en-GB", {
-      sensitivity: "base",
-      numeric: true,
-    });
-  });
 }
 
 const careTraining: TrainingItem[] = [
@@ -249,7 +239,7 @@ export default function JobSlicePage({
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
-  const jobs = locationFirst(filteredJobs);
+  const jobs = orderJobsForDisplay(filteredJobs);
   const sidebarItems = trainingItems || careTraining;
 
   return (

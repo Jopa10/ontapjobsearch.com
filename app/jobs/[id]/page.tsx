@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
+import JobDescription from "@/components/JobDescription";
 import JobFacts from "@/components/JobFacts";
 import MoreJobsNearby from "@/components/MoreJobsNearby";
 import TransferableFitCard from "@/components/TransferableFitCard";
@@ -47,6 +48,10 @@ function validClosingDateTime(value: string) {
 
 function isExternalSource(source: string) {
   return Boolean(source && source.toLowerCase() !== "jobg8");
+}
+
+function isNhsSource(source: string) {
+  return source.trim().toLowerCase() === "nhs jobs";
 }
 
 function hasCompleteDescription(value: string) {
@@ -273,9 +278,7 @@ export default async function JobPage({ params }: PageProps) {
           <h2 style={{ fontSize: 21, fontWeight: 800, marginBottom: 12 }}>
             {isExternalSource(job.source) ? "Role overview" : "Job description"}
           </h2>
-          <div style={{ whiteSpace: "pre-line", lineHeight: 1.6, color: "#374151" }}>
-            {job.description}
-          </div>
+          <JobDescription value={job.description} source={job.source} />
 
           {isExternalSource(job.source) ? (
             <div
@@ -289,9 +292,19 @@ export default async function JobPage({ params }: PageProps) {
                 lineHeight: 1.5,
               }}
             >
-              This is an Ontap-written summary of the vacancy’s factual details.
-              Check the original advert for the complete role information and
-              application requirements.
+              {isNhsSource(job.source) ? (
+                <>
+                  This overview is taken from the public NHS Jobs advert. Check the
+                  original advert for the complete role information, person specification
+                  and application requirements.
+                </>
+              ) : (
+                <>
+                  This is an Ontap-written summary of the vacancy’s factual details.
+                  Check the original advert for the complete role information and
+                  application requirements.
+                </>
+              )}
             </div>
           ) : null}
 
