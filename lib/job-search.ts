@@ -7,6 +7,35 @@ type FieldMatch = {
   kind: MatchKind;
 };
 
+type SearchFieldData = {
+  text: string;
+  tokens: string[];
+};
+
+type GeoSearchFieldData = SearchFieldData & {
+  geoTokens: string[];
+};
+
+export type PublishedJobSearchData = {
+  title: SearchFieldData;
+  location: GeoSearchFieldData;
+  region: GeoSearchFieldData;
+  category: SearchFieldData;
+  company: SearchFieldData;
+  description: SearchFieldData;
+  combined: SearchFieldData;
+  sliceLabel: SearchFieldData;
+};
+
+export type SearchablePublishedJob = PublishedJob & {
+  _search?: PublishedJobSearchData;
+};
+
+export type SearchInputEvidence = {
+  roleMatches: number;
+  geoMatches: number;
+};
+
 const TOKEN_ALIASES: Record<string, string> = {
   administrators: "admin",
   administrator: "admin",
@@ -47,6 +76,9 @@ const LOCATION_TOKEN_ALIASES: Record<string, string> = {
 // highest. Customer-service and reception searches remain title-anchored.
 const TITLE_REQUIRED_ROLE_TOKENS = new Set(["admin", "customerservice", "reception"]);
 
+const jobSearchDataCache = new WeakMap<object, PublishedJobSearchData>();
+const corpusCache = new WeakMap<object, { geoVocabulary: string[] }>();
+
 function normalise(value: string): string {
   return value
     .normalize("NFKD")
@@ -58,6 +90,17 @@ function normalise(value: string): string {
     .replace(/[^a-z0-9+£.\s]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function simpleWords(value: string): string[] {
+  return value
+    .normalize("NFKD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
 }
 
 function cleanToken(token: string): string {
@@ -119,8 +162,6 @@ function canonicalQueryToken(token: string): string {
     const maxLength = Math.max(clean.length, known.length);
     let allowedDistance = maxLength >= 10 ? 3 : maxLength >= 7 ? 2 : 1;
 
-    // Long, recognisably same-stem words can survive several omitted letters
-    // (e.g. "admistrtr" -> "administrator") without making short tokens loose.
     if (maxLength >= 10 && clean.slice(0, 4) === known.slice(0, 4)) {
       allowedDistance = 4;
     }
@@ -148,8 +189,8 @@ function applyPhraseAliases(text: string): string {
     .trim();
 }
 
-function queryTokens(value: string): string[] {
-  const canonicalText = normalise(value)
+function queryTokensFromNormalised(text: string): string[] {
+  const canonicalText = text
     .split(/\s+/)
     .filter(Boolean)
     .map(canonicalQueryToken)
@@ -158,8 +199,7 @@ function queryTokens(value: string): string[] {
   return applyPhraseAliases(canonicalText).split(/\s+/).filter(Boolean);
 }
 
-function candidateTokens(value: string): string[] {
-  const text = normalise(value);
+function candidateTokensFromNormalised(text: string): string[] {
   const tokens = text.split(/\s+/).filter(Boolean).map(canonicalToken);
   const aliases: string[] = [];
 
@@ -172,6 +212,69 @@ function candidateTokens(value: string): string[] {
   if (/\bsupport worker\b/.test(text)) aliases.push("supportworker");
 
   return [...tokens, ...aliases];
+}
+
+function buildField(value: string): SearchFieldData {
+  const text = normalise(value);
+  return { text, tokens: candidateTokensFromNormalised(text) };
+}
+
+function buildGeoField(value: string): GeoSearchFieldData {
+  const text = normalise(value);
+  return {
+    text,
+    tokens: candidateTokensFromNormalised(text),
+    geoTokens: text.split(/\s+/).filter(Boolean),
+  };
+}
+
+export function buildPublishedJobSearchData(job: PublishedJob): PublishedJobSearchData {
+  const company = `${job.company} ${job.advertiser_name}`;
+  const description = job.description.slice(0, 2200);
+  const combined = `${job.title} ${job.company} ${job.advertiser_name} ${job.location} ${job.region} ${job.category}`;
+
+  return {
+    title: buildField(job.title),
+    location: buildGeoField(job.location),
+    region: buildGeoField(job.region),
+    category: buildField(job.category),
+    company: buildField(company),
+    description: buildField(description),
+    combined: buildField(combined),
+    sliceLabel: buildField(job.slice_label),
+  };
+}
+
+function searchData(job: SearchablePublishedJob): PublishedJobSearchData {
+  if (job._search) return job._search;
+
+  const cached = jobSearchDataCache.get(job);
+  if (cached) return cached;
+
+  const built = buildPublishedJobSearchData(job);
+  jobSearchDataCache.set(job, built);
+  return built;
+}
+
+type PreparedQuery = {
+  raw: string;
+  text: string;
+  tokens: string[];
+  geoTokens: string[];
+  requiredRoleTokens: string[];
+};
+
+function prepareQuery(value: string): PreparedQuery {
+  const raw = value.trim();
+  const text = normalise(raw);
+  const tokens = queryTokensFromNormalised(text);
+  return {
+    raw,
+    text,
+    tokens,
+    geoTokens: text.split(/\s+/).filter(Boolean),
+    requiredRoleTokens: tokens.filter((token) => TITLE_REQUIRED_ROLE_TOKENS.has(token)),
+  };
 }
 
 function levenshtein(a: string, b: string): number {
@@ -265,21 +368,127 @@ function geoTokenMatchQuality(query: string, candidate: string): number {
   return 0;
 }
 
-function geoTokenMatches(query: string, candidate: string): boolean {
-  return geoTokenMatchQuality(query, candidate) > 0;
+function allTokensMatch(wanted: string[], available: string[]): boolean {
+  if (!wanted.length) return false;
+  return wanted.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
 }
 
-function resolveGeoQuery(jobs: PublishedJob[], input: string): string {
-  const wanted = normalise(input).split(/\s+/).filter(Boolean);
-  if (!wanted.length) return input;
+function allGeoTokensMatch(wanted: string[], available: string[]): boolean {
+  if (!wanted.length) return false;
+  return wanted.every((token) => available.some((candidateToken) => geoTokenMatchQuality(token, candidateToken) > 0));
+}
+
+function scoreField(query: PreparedQuery, field: SearchFieldData, scores: [number, number, number, number]): number {
+  if (!query.raw || !field.text) return 0;
+  const [exact, starts, contains, token] = scores;
+
+  if (field.text === query.text) return exact;
+  if (field.text.startsWith(`${query.text} `) || query.text.startsWith(`${field.text} `)) return starts;
+  if (field.text.includes(query.text)) return contains;
+  if (allTokensMatch(query.tokens, field.tokens)) return token;
+  return 0;
+}
+
+function scoreGeoField(query: PreparedQuery, field: GeoSearchFieldData, scores: [number, number, number, number]): number {
+  if (!query.raw || !field.text) return 0;
+  const [exact, starts, contains, token] = scores;
+
+  if (field.text === query.text) return exact;
+  if (field.text.startsWith(`${query.text} `) || query.text.startsWith(`${field.text} `)) return starts;
+  if (field.text.includes(query.text) && query.text.length >= 4) return contains;
+  if (allGeoTokensMatch(query.geoTokens, field.geoTokens)) return token;
+  return 0;
+}
+
+function bestGeoMatch(job: SearchablePublishedJob, query: PreparedQuery): FieldMatch {
+  const data = searchData(job);
+  const fields: Array<[MatchKind, GeoSearchFieldData, [number, number, number, number]]> = [
+    ["location", data.location, [230, 205, 180, 160]],
+    ["region", data.region, [225, 200, 175, 155]],
+  ];
+
+  let best: FieldMatch = { score: 0, kind: "location" };
+  for (const [kind, field, scores] of fields) {
+    const score = scoreGeoField(query, field, scores);
+    if (score > best.score) best = { score, kind };
+  }
+  return best;
+}
+
+function bestMatch(job: SearchablePublishedJob, query: PreparedQuery): FieldMatch {
+  const data = searchData(job);
+  const fields: Array<[MatchKind, SearchFieldData, [number, number, number, number]]> = [
+    ["title", data.title, [240, 215, 190, 165]],
+    ["location", data.location, [230, 205, 180, 160]],
+    ["region", data.region, [225, 200, 175, 155]],
+    ["category", data.category, [145, 130, 120, 110]],
+    ["company", data.company, [105, 95, 85, 75]],
+    ["description", data.description, [50, 45, 38, 32]],
+  ];
+
+  let best: FieldMatch = { score: 0, kind: "description" };
+  for (const [kind, field, scores] of fields) {
+    const score = scoreField(query, field, scores);
+    if (score > best.score) best = { score, kind };
+
+    // No later field can beat an exact title match.
+    if (best.score === 240) break;
+  }
+
+  if (allTokensMatch(query.tokens, data.combined.tokens) && best.score < 150) {
+    best = { score: 150, kind: "combined" };
+  }
+
+  return best;
+}
+
+function preferredBonus(kind: MatchKind, preferred: "role" | "location"): number {
+  if (preferred === "role" && (kind === "title" || kind === "category")) return 12;
+  if (preferred === "location" && (kind === "location" || kind === "region")) return 12;
+  return 0;
+}
+
+function titleSupportsRequiredRoleTokens(query: PreparedQuery, job: SearchablePublishedJob): boolean {
+  if (!query.requiredRoleTokens.length) return true;
+
+  const data = searchData(job);
+  return query.requiredRoleTokens.every((token) => {
+    if (data.title.tokens.some((candidateToken) => tokenMatches(token, candidateToken))) return true;
+    if (token !== "admin") return false;
+    return data.category.tokens.some((candidateToken) => tokenMatches(token, candidateToken));
+  });
+}
+
+function hasRoleAnchor(jobs: SearchablePublishedJob[], query: PreparedQuery): boolean {
+  return jobs.some((job) => {
+    const data = searchData(job);
+    const titleScore = scoreField(query, data.title, [240, 215, 190, 165]);
+    const categoryScore = scoreField(query, data.category, [145, 130, 120, 110]);
+    return Math.max(titleScore, categoryScore) >= 30;
+  });
+}
+
+function getGeoVocabulary(jobs: SearchablePublishedJob[]): string[] {
+  const cached = corpusCache.get(jobs);
+  if (cached) return cached.geoVocabulary;
 
   const available = new Set<string>();
   for (const job of jobs) {
-    for (const value of [job.location, job.region]) {
-      normalise(value).split(/\s+/).filter(Boolean).forEach((token) => available.add(token));
-    }
+    const data = searchData(job);
+    data.location.geoTokens.forEach((token) => available.add(token));
+    data.region.geoTokens.forEach((token) => available.add(token));
   }
 
+  const geoVocabulary = [...available];
+  corpusCache.set(jobs, { geoVocabulary });
+  return geoVocabulary;
+}
+
+function resolveGeoQuery(jobs: SearchablePublishedJob[], input: string): string {
+  const wanted = normalise(input).split(/\s+/).filter(Boolean);
+  if (!wanted.length) return input;
+
+  const available = getGeoVocabulary(jobs);
   const resolved = wanted.map((queryToken) => {
     const alias = LOCATION_TOKEN_ALIASES[queryToken];
     if (alias) return alias;
@@ -301,131 +510,53 @@ function resolveGeoQuery(jobs: PublishedJob[], input: string): string {
   return resolved.join(" ");
 }
 
-function allTokensMatch(query: string, candidate: string): boolean {
-  const wanted = queryTokens(query);
-  if (!wanted.length) return false;
-  const available = candidateTokens(candidate);
-  return wanted.every((token) => available.some((candidateToken) => tokenMatches(token, candidateToken)));
-}
+export function searchInputEvidence(jobs: SearchablePublishedJob[], value: string): SearchInputEvidence {
+  const wanted = simpleWords(value);
+  if (!wanted.length) return { roleMatches: 0, geoMatches: 0 };
 
-function titleSupportsRequiredRoleTokens(query: string, title: string, category = ""): boolean {
-  const required = queryTokens(query).filter((token) => TITLE_REQUIRED_ROLE_TOKENS.has(token));
-  if (!required.length) return true;
+  let roleMatches = 0;
+  let geoMatches = 0;
 
-  const titleTokens = candidateTokens(title);
-  const categoryTokens = candidateTokens(category);
-  return required.every((token) => {
-    if (titleTokens.some((candidateToken) => tokenMatches(token, candidateToken))) return true;
-    if (token !== "admin") return false;
-    return categoryTokens.some((candidateToken) => tokenMatches(token, candidateToken));
-  });
-}
+  for (const job of jobs) {
+    const data = searchData(job);
+    const roleFields = [data.title.text, data.category.text, data.sliceLabel.text];
+    const geoFields = [data.location.text, data.region.text];
 
-function allGeoTokensMatch(query: string, candidate: string): boolean {
-  const wanted = normalise(query).split(/\s+/).filter(Boolean);
-  if (!wanted.length) return false;
-  const available = normalise(candidate).split(/\s+/).filter(Boolean);
-  return wanted.every((token) => available.some((candidateToken) => geoTokenMatches(token, candidateToken)));
-}
+    if (roleFields.some((field) => {
+      const available = new Set(simpleWords(field));
+      return wanted.every((token) => available.has(token));
+    })) {
+      roleMatches += 1;
+    }
 
-function scoreField(query: string, value: string, scores: [number, number, number, number]): number {
-  if (!query.trim() || !value.trim()) return 0;
-  const q = normalise(query);
-  const field = normalise(value);
-  const [exact, starts, contains, token] = scores;
-
-  if (field === q) return exact;
-  if (field.startsWith(`${q} `) || q.startsWith(`${field} `)) return starts;
-  if (field.includes(q)) return contains;
-  if (allTokensMatch(query, value)) return token;
-  return 0;
-}
-
-function scoreGeoField(query: string, value: string, scores: [number, number, number, number]): number {
-  if (!query.trim() || !value.trim()) return 0;
-  const q = normalise(query);
-  const field = normalise(value);
-  const [exact, starts, contains, token] = scores;
-
-  if (field === q) return exact;
-  if (field.startsWith(`${q} `) || q.startsWith(`${field} `)) return starts;
-  if (field.includes(q) && q.length >= 4) return contains;
-  if (allGeoTokensMatch(query, value)) return token;
-  return 0;
-}
-
-function bestGeoMatch(job: PublishedJob, input: string): FieldMatch {
-  const fields: Array<[MatchKind, string, [number, number, number, number]]> = [
-    ["location", job.location, [230, 205, 180, 160]],
-    ["region", job.region, [225, 200, 175, 155]],
-  ];
-
-  let best: FieldMatch = { score: 0, kind: "location" };
-  for (const [kind, value, scores] of fields) {
-    const score = scoreGeoField(input, value, scores);
-    if (score > best.score) best = { score, kind };
-  }
-  return best;
-}
-
-function bestMatch(job: PublishedJob, input: string): FieldMatch {
-  const fields: Array<[MatchKind, string, [number, number, number, number]]> = [
-    ["title", job.title, [240, 215, 190, 165]],
-    ["location", job.location, [230, 205, 180, 160]],
-    ["region", job.region, [225, 200, 175, 155]],
-    ["category", job.category, [145, 130, 120, 110]],
-    ["company", `${job.company} ${job.advertiser_name}`, [105, 95, 85, 75]],
-    ["description", job.description.slice(0, 2200), [50, 45, 38, 32]],
-  ];
-
-  let best: FieldMatch = { score: 0, kind: "description" };
-  for (const [kind, value, scores] of fields) {
-    const score = scoreField(input, value, scores);
-    if (score > best.score) best = { score, kind };
+    if (geoFields.some((field) => {
+      const available = new Set(simpleWords(field));
+      return wanted.every((token) => available.has(token));
+    })) {
+      geoMatches += 1;
+    }
   }
 
-  // Multi-word one-box searches often span structured fields: employer + title
-  // ("Lumley administrator"), employer + curated category ("Lumley office"),
-  // or role + place. Treat those as a strong match without opening the door to
-  // incidental prose in the description.
-  const combined = `${job.title} ${job.company} ${job.advertiser_name} ${job.location} ${job.region} ${job.category}`;
-  if (allTokensMatch(input, combined) && best.score < 150) {
-    best = { score: 150, kind: "combined" };
-  }
-
-  return best;
+  return { roleMatches, geoMatches };
 }
 
-function preferredBonus(kind: MatchKind, preferred: "role" | "location"): number {
-  if (preferred === "role" && (kind === "title" || kind === "category")) return 12;
-  if (preferred === "location" && (kind === "location" || kind === "region")) return 12;
-  return 0;
-}
-
-function hasRoleAnchor(jobs: PublishedJob[], input: string): boolean {
-  return jobs.some((job) => {
-    const titleScore = scoreField(input, job.title, [240, 215, 190, 165]);
-    const categoryScore = scoreField(input, job.category, [145, 130, 120, 110]);
-    return Math.max(titleScore, categoryScore) >= 30;
-  });
-}
-
-export function searchJobs(jobs: PublishedJob[], query: string, location: string): PublishedJob[] {
+export function searchJobs(
+  jobs: SearchablePublishedJob[],
+  query: string,
+  location: string
+): SearchablePublishedJob[] {
   let roleQuery = query.trim();
   let effectiveLocation = location.trim();
 
-  // A rushed one-box search such as "cust srv ncl" or "west york admin"
-  // should still separate a recognisable place from the role terms. Only infer
-  // geography when the dedicated location box is empty. A role-like token stays
-  // a role even if a bad source record has job-title prose in its location field.
   if (roleQuery && !effectiveLocation) {
     const rawTokens = normalise(roleQuery).split(/\s+/).filter(Boolean);
     const geoTokenIndexes = new Set<number>();
 
     rawTokens.forEach((token, index) => {
+      const preparedToken = prepareQuery(token);
       if (
-        !hasRoleAnchor(jobs, token) &&
-        jobs.some((job) => bestGeoMatch(job, token).score >= 30)
+        !hasRoleAnchor(jobs, preparedToken) &&
+        jobs.some((job) => bestGeoMatch(job, preparedToken).score >= 30)
       ) {
         geoTokenIndexes.add(index);
       }
@@ -441,31 +572,51 @@ export function searchJobs(jobs: PublishedJob[], query: string, location: string
     effectiveLocation = resolveGeoQuery(jobs, effectiveLocation);
   }
 
-  const locationActsAsGeo = Boolean(effectiveLocation) && jobs.some((job) => bestGeoMatch(job, effectiveLocation).score >= 30);
+  const preparedRole = prepareQuery(roleQuery);
+  const preparedLocation = prepareQuery(effectiveLocation);
+  const locationActsAsGeo =
+    Boolean(effectiveLocation) &&
+    jobs.some((job) => bestGeoMatch(job, preparedLocation).score >= 30);
 
   const inputs = [
-    { value: roleQuery, preferred: "role" as const },
-    { value: effectiveLocation, preferred: "location" as const },
-  ].filter(({ value }) => Boolean(value));
+    { query: preparedRole, preferred: "role" as const },
+    { query: preparedLocation, preferred: "location" as const },
+  ].filter(({ query: prepared }) => Boolean(prepared.raw));
 
   if (!inputs.length) return [];
 
-  const ranked = jobs.flatMap((job) => {
+  const ranked: Array<{ job: SearchablePublishedJob; score: number }> = [];
+
+  for (const job of jobs) {
     let score = 0;
     const kinds: MatchKind[] = [];
+    let rejected = false;
 
     for (const input of inputs) {
-      const inputActsAsRole = input.preferred === "role" || (input.preferred === "location" && !locationActsAsGeo);
-      if (inputActsAsRole && !titleSupportsRequiredRoleTokens(input.value, job.title, job.category)) return [];
+      const inputActsAsRole =
+        input.preferred === "role" ||
+        (input.preferred === "location" && !locationActsAsGeo);
+
+      if (inputActsAsRole && !titleSupportsRequiredRoleTokens(input.query, job)) {
+        rejected = true;
+        break;
+      }
 
       const match =
         input.preferred === "location" && locationActsAsGeo
-          ? bestGeoMatch(job, input.value)
-          : bestMatch(job, input.value);
-      if (match.score < 30) return [];
+          ? bestGeoMatch(job, input.query)
+          : bestMatch(job, input.query);
+
+      if (match.score < 30) {
+        rejected = true;
+        break;
+      }
+
       score += match.score + preferredBonus(match.kind, input.preferred);
       kinds.push(match.kind);
     }
+
+    if (rejected) continue;
 
     if (
       inputs.length > 1 &&
@@ -475,8 +626,8 @@ export function searchJobs(jobs: PublishedJob[], query: string, location: string
       score += 15;
     }
 
-    return [{ job, score }];
-  });
+    ranked.push({ job, score });
+  }
 
   ranked.sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
