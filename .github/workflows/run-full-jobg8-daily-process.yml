@@ -220,6 +220,7 @@ jobs:
             "pipeline/reports-daily"
             "pipeline/reviews/external/nhs-jobs-review.csv"
             "pipeline/reviews/external/nhs-jobs-summary.md"
+            "pipeline/reviews/external/nhs-jobs-decisions.csv"
           )
 
           if [ -z "$(git status --porcelain -- "${output_paths[@]}")" ]; then
@@ -237,7 +238,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$unexpected_files"
