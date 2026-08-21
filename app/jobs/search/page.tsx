@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import generatedJobs from '@/generated/published-jobs-search.json';
 import { searchJobs } from '@/lib/job-search';
-import {
-  getJobPath,
-  getPublishedJobs,
-  type PublishedJob,
-} from '@/lib/published-jobs';
+import type { PublishedJob } from '@/lib/published-jobs';
 
 export const metadata: Metadata = {
   title: 'Search UK Jobs | Ontap Job Search',
@@ -20,15 +17,19 @@ export const metadata: Metadata = {
 export const preferredRegion = 'lhr1';
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
-
 type CorrectionScope = 'query' | 'location';
-
 type CorrectionVocabularies = Record<CorrectionScope, Map<string, number>>;
 
-let correctionVocabularyCache:
-  | { jobs: PublishedJob[]; vocabularies: CorrectionVocabularies }
-  | undefined;
+type SearchResolution = {
+  formQuery: string;
+  formLocation: string;
+  searchQuery: string;
+  searchLocation: string;
+  reinterpreted: boolean;
+};
 
+const jobs = generatedJobs as PublishedJob[];
+let correctionVocabularyCache: CorrectionVocabularies | undefined;
 const correctionResultCache = new Map<string, string>();
 
 function firstValue(value: string | string[] | undefined): string {
@@ -39,12 +40,69 @@ function cleanSalary(value: string): string {
   return value.replaceAll('Â£', '£');
 }
 
+function getJobPath(jobId: string): string {
+  return `/jobs/${encodeURIComponent(jobId)}`;
+}
+
 function normaliseToken(value: string): string {
   return value
     .normalize('NFKD')
     .replace(/\p{Diacritic}/gu, '')
     .toLowerCase()
     .replace(/[^a-z0-9]/g, '');
+}
+
+function wordTokens(value: string): string[] {
+  return value
+    .normalize('NFKD')
+    .replace(/\p{Diacritic}/gu, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+function fieldContainsAllWords(value: string, wanted: string[]): boolean {
+  if (!wanted.length) return false;
+  const available = new Set(wordTokens(value));
+  return wanted.every((token) => available.has(token));
+}
+
+function inputEvidence(value: string): { role: boolean; geo: boolean } {
+  const wanted = wordTokens(value);
+  if (!wanted.length) return { role: false, geo: false };
+
+  let role = false;
+  let geo = false;
+
+  for (const job of jobs) {
+    if (
+      !role &&
+      [job.title, job.category, job.slice_label].some((field) => fieldContainsAllWords(field, wanted))
+    ) {
+      role = true;
+    }
+
+    if (
+      !geo &&
+      [job.location, job.region].some((field) => fieldContainsAllWords(field, wanted))
+    ) {
+      geo = true;
+    }
+
+    if (role && geo) break;
+  }
+
+  return { role, geo };
+}
+
+function roleAliases(value: string): string {
+  return value
+    .replace(/\boffice\b/gi, 'admin')
+    .replace(/\bclerical\b/gi, 'admin')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function damerauLevenshtein(a: string, b: string): number {
@@ -89,16 +147,14 @@ function addVocabularyValue(counts: Map<string, number>, value: string) {
   }
 }
 
-function correctionVocabularies(jobs: PublishedJob[]): CorrectionVocabularies {
-  if (correctionVocabularyCache?.jobs === jobs) {
-    return correctionVocabularyCache.vocabularies;
-  }
+function correctionVocabularies(): CorrectionVocabularies {
+  if (correctionVocabularyCache) return correctionVocabularyCache;
 
   const query = new Map<string, number>();
   const location = new Map<string, number>();
 
   for (const job of jobs) {
-    for (const value of [job.title, job.category, job.company, job.advertiser_name]) {
+    for (const value of [job.title, job.category, job.slice_label, job.company, job.advertiser_name]) {
       addVocabularyValue(query, value);
     }
 
@@ -108,13 +164,12 @@ function correctionVocabularies(jobs: PublishedJob[]): CorrectionVocabularies {
     }
   }
 
-  const vocabularies = { query, location };
-  correctionVocabularyCache = { jobs, vocabularies };
+  correctionVocabularyCache = { query, location };
   correctionResultCache.clear();
-  return vocabularies;
+  return correctionVocabularyCache;
 }
 
-function correctSearchText(input: string, jobs: PublishedJob[], scope: CorrectionScope): string {
+function correctSearchText(input: string, scope: CorrectionScope): string {
   const trimmed = input.trim();
   if (!trimmed) return trimmed;
 
@@ -122,7 +177,7 @@ function correctSearchText(input: string, jobs: PublishedJob[], scope: Correctio
   const cached = correctionResultCache.get(cacheKey);
   if (cached !== undefined) return cached;
 
-  const vocabulary = correctionVocabularies(jobs)[scope];
+  const vocabulary = correctionVocabularies()[scope];
   const corrected = trimmed.split(/\s+/).map((rawToken) => {
     const token = normaliseToken(rawToken);
     if (token.length < 4 || vocabulary.has(token)) return rawToken;
@@ -153,36 +208,84 @@ function correctSearchText(input: string, jobs: PublishedJob[], scope: Correctio
   return corrected;
 }
 
+function resolveSearchInputs(originalQuery: string, originalLocation: string): SearchResolution {
+  const queryAsQuery = correctSearchText(originalQuery, 'query');
+  const queryAsLocation = correctSearchText(originalQuery, 'location');
+  const locationAsQuery = correctSearchText(originalLocation, 'query');
+  const locationAsLocation = correctSearchText(originalLocation, 'location');
+
+  const queryEvidence = inputEvidence(queryAsQuery);
+  const locationRoleEvidence = inputEvidence(locationAsQuery);
+  const locationGeoEvidence = inputEvidence(locationAsLocation);
+
+  let formQuery = queryAsQuery;
+  let formLocation = locationAsLocation;
+  let reinterpreted = false;
+
+  // Be forgiving when the user puts the place in the first box and the role in
+  // the second. Source-data pollution must not make a role term behave as geo.
+  if (
+    queryAsQuery &&
+    originalLocation &&
+    queryEvidence.geo &&
+    !queryEvidence.role &&
+    locationRoleEvidence.role &&
+    !locationGeoEvidence.geo
+  ) {
+    formQuery = locationAsQuery;
+    formLocation = queryAsLocation;
+    reinterpreted = true;
+  } else if (
+    !queryAsQuery &&
+    originalLocation &&
+    locationRoleEvidence.role &&
+    !locationGeoEvidence.geo
+  ) {
+    // A role typed into the location box should still behave as a role search.
+    formQuery = locationAsQuery;
+    formLocation = '';
+    reinterpreted = true;
+  }
+
+  return {
+    formQuery,
+    formLocation,
+    searchQuery: roleAliases(formQuery),
+    searchLocation: formLocation,
+    reinterpreted,
+  };
+}
+
 function SearchForm({ query, location }: { query: string; location: string }) {
   return (
-    <form method="get" action="/jobs/search" className="grid gap-3 sm:grid-cols-[1fr_1fr_auto]">
-      <label className="sr-only" htmlFor="job-search-query">
-        Role or keyword
+    <form method="get" action="/jobs/search" className="grid gap-3 sm:grid-cols-[1fr_1fr_auto] sm:items-end">
+      <label className="min-w-0" htmlFor="job-search-query">
+        <span className="mb-1 block px-1 text-xs font-semibold text-gray-500">Role or keyword</span>
+        <input
+          id="job-search-query"
+          name="q"
+          type="search"
+          defaultValue={query}
+          autoCorrect="on"
+          spellCheck={true}
+          placeholder="e.g. Administrator, Customer Service, PA"
+          className="w-full min-w-0 rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+        />
       </label>
-      <input
-        id="job-search-query"
-        name="q"
-        type="search"
-        defaultValue={query}
-        autoCorrect="on"
-        spellCheck={true}
-        placeholder="e.g. Administrator, Customer Service, PA"
-        className="min-w-0 rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
-      />
 
-      <label className="sr-only" htmlFor="job-search-location">
-        Location
+      <label className="min-w-0" htmlFor="job-search-location">
+        <span className="mb-1 block px-1 text-xs font-semibold text-gray-500">Location</span>
+        <input
+          id="job-search-location"
+          name="location"
+          type="search"
+          defaultValue={location}
+          autoCorrect="on"
+          spellCheck={true}
+          placeholder="e.g. Newcastle, Surrey, Leeds"
+          className="w-full min-w-0 rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+        />
       </label>
-      <input
-        id="job-search-location"
-        name="location"
-        type="search"
-        defaultValue={location}
-        autoCorrect="on"
-        spellCheck={true}
-        placeholder="e.g. Newcastle, Surrey, Leeds"
-        className="min-w-0 rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
-      />
 
       <button
         type="submit"
@@ -233,13 +336,13 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
   const originalLocation = firstValue(params.location).trim();
   const searched = Boolean(originalQuery || originalLocation);
 
-  const jobs = getPublishedJobs();
-  const query = correctSearchText(originalQuery, jobs, 'query');
-  const location = correctSearchText(originalLocation, jobs, 'location');
-  const corrected = query !== originalQuery || location !== originalLocation;
-
-  const matches = searchJobs(jobs, query, location);
+  const resolved = resolveSearchInputs(originalQuery, originalLocation);
+  const matches = searchJobs(jobs, resolved.searchQuery, resolved.searchLocation);
   const visibleMatches = matches.slice(0, 60);
+
+  const spellingCorrected = !resolved.reinterpreted && (
+    resolved.formQuery !== originalQuery || resolved.formLocation !== originalLocation
+  );
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
@@ -259,10 +362,14 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
       </div>
 
       <div className="sticky top-2 z-20 mt-3 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-md backdrop-blur">
-        <SearchForm query={query} location={location} />
-        {corrected ? (
+        <SearchForm query={resolved.formQuery} location={resolved.formLocation} />
+        {spellingCorrected ? (
           <p className="mt-2 px-1 text-sm text-gray-600">
-            Spelling corrected to {[query && `“${query}”`, location && `in ${location}`].filter(Boolean).join(' ')}.
+            Spelling corrected to {[resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}.
+          </p>
+        ) : resolved.reinterpreted ? (
+          <p className="mt-2 px-1 text-sm text-gray-600">
+            Interpreted as {[resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}.
           </p>
         ) : null}
       </div>
@@ -282,7 +389,7 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
                 {matches.length} matching job{matches.length === 1 ? '' : 's'}
               </h2>
               <p className="mt-1 text-sm text-gray-600">
-                {[query && `“${query}”`, location && `in ${location}`].filter(Boolean).join(' ')}
+                {[resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}
               </p>
             </div>
             <Link href="/browse-jobs" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
