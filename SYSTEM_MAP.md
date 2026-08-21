@@ -11,6 +11,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 - 21 August 2026 — NHS job-detail presentation now preserves the source vacancy text while rendering it as readable headings, paragraphs and bullets instead of a flattened text dump. Long NHS descriptions show the first six presentation blocks and place the remainder behind `Show full NHS role information`; this is presentation-only and does not rewrite/summarise the vacancy.
 - 21 August 2026 — Regional Service Admin display ordering now treats NHS as a complementary stream after composition: non-NHS jobs retain the normal location-first scan, NHS jobs retain Tier A/B → switchability → freshness priority, and at most one NHS role is inserted after each four non-NHS roles. The upstream hard 20% NHS source ceiling remains unchanged and is not replaced by the display rhythm.
 - 21 August 2026 — `/jobs/search` now supports multi-field one-box matching across title, employer/advertiser, location, region and curated category. Role-like terms are protected from accidental geography inference even when source location data contains job-title prose. High-confidence spelling correction, browser spellcheck/autocorrect and cached spelling vocabularies/results are live; the search route prefers Vercel London (`lhr1`) to reduce UK latency.
+- 21 August 2026 — Search inventory is now generated once at build/deployment time by `scripts/generate-search-index.ts` into `generated/published-jobs-search.json`; the request path no longer recursively walks and parses the published route JSON tree. The two search fields are explicitly labelled, `office`/`clerical` are treated as admin intent internally, and weighted role-vs-geography evidence recovers accidentally swapped role/location inputs without allowing a few polluted source fields to dominate interpretation. Production verification includes `lumley office`, typo `lumley offcie`, and both orientations of `admin` + `newcastle`.
 - 21 August 2026 — Vercel was upgraded from Hobby to Pro after the Hobby build-rate limit blocked a production deployment. The deployment architecture itself is unchanged: `main` still deploys through normal Vercel Git integration, with the existing manual-only CLI recovery path.
 - 21 August 2026 — NHS Jobs Administrative & Clerical inventory is now a live Service Admin source. Fresh NHS inventory is classified and routed through the existing LIVE Service Admin geography, composed transactionally with current non-NHS output, capped at a hard maximum 20% of each regional Service Admin page, and published through the common verified-page path.
 - 21 August 2026 — NHS selection is governed by title classification and switchability: HC Tier A ranks before Tier B; within equivalent quality, OPEN/PURE SWITCH ranks before BRIDGEABLE/POSSIBLE and NHS-experience-needed roles; freshness is a later tie-breaker. Unreviewed POSS rows remain fail-closed and are not required in the normal daily owner edit queue.
@@ -224,7 +225,7 @@ Verified structure:
 
 - `app/` is the primary application route/data tree;
 - `components/` contains reusable UI components;
-- `lib/published-jobs.ts` supplies the common published job/search/detail layer;
+- `lib/published-jobs.ts` supplies the common published job/detail layer and is also the build-time source for the compact search index;
 - `lib/configured-job-slices.ts` reads the configured regional slice catalog/register;
 - LIVE dynamic regional/category slices are register/catalog driven;
 - `app/_city-pages/configured-slices/` holds dynamic configured-slice data;
@@ -237,15 +238,16 @@ Verified structure:
 - NHS-sourced jobs use the same Service Admin regional/job-detail routes as other inventory and retain `source: "NHS Jobs"` plus the original NHS apply URL; employer names do not necessarily contain the word NHS;
 - `components/JobDescription.tsx` + `lib/job-description.ts` provide presentation-only readable vacancy formatting. NHS flattened source text is split into short paragraphs while structured headings/bullets are preserved; long NHS adverts expose six blocks initially and keep the rest available under `Show full NHS role information`;
 - `lib/job-display-order.ts` owns page-level source mixing after composition: normal inventory stays location-first and accepted NHS inventory is interleaved at no more than one after every four non-NHS jobs while preserving NHS Tier/switchability/freshness ranking;
+- `scripts/generate-search-index.ts` runs during `npm run build` and writes `generated/published-jobs-search.json` from the current published jobs. It keeps only the search-relevant advert prefix and drops the unused full-description payload so the search function does not carry or rebuild the whole route-data corpus on each request;
 - `lib/job-search.ts` matches one-box searches across structured fields and protects role anchors before geo inference, so bad source location prose cannot turn a genuine role term into a location;
-- `/jobs/search` applies only high-confidence typo correction from the current published vocabulary, enables browser spellcheck/autocorrect, caches both correction vocabularies and up to 500 correction results, and prefers Vercel region `lhr1` for the UK search route;
+- `/jobs/search` imports the generated index directly, labels its inputs **Role or keyword** and **Location**, applies only high-confidence typo correction, enables browser spellcheck/autocorrect, caches correction vocabularies/results, maps `office`/`clerical` to admin intent for matching, uses weighted role-vs-geo evidence to recover swapped fields, and prefers Vercel region `lhr1` for the UK search route;
 - `app/api/deployment-version/route.ts` exposes the deployed Vercel Git SHA for verification.
 
 New approved city routes are Bradford, Huddersfield, York, Barnsley and Doncaster Service Admin. Durham has no approved city route.
 
 ### Search behaviour rule
 
-Search should be forgiving of rushed user input without becoming semantically loose. Multi-word one-box queries may match across title, company/advertiser, location, region and curated category. When the dedicated location box is empty, geography may be inferred only from tokens that do not have a credible role anchor in titles/categories. Fuzzy correction should be high-confidence: short/ambiguous terms or tied candidates are left unchanged rather than guessed.
+Search should be forgiving of rushed user input without becoming semantically loose. Multi-word one-box queries may match across title, company/advertiser, location, region and curated category. When the dedicated location box is empty, geography may be inferred only from tokens that do not have a credible role anchor in titles/categories. If the two labelled fields appear to have been reversed, Ontap compares the weight of role evidence against geography evidence and may reinterpret them rather than returning an avoidable zero; a few polluted source strings must not outweigh the wider evidence. `office` and `clerical` are accepted as admin intent for matching while preserving what the user typed in the displayed query. Fuzzy correction should be high-confidence: short/ambiguous terms or tied candidates are left unchanged rather than guessed.
 
 ### Website refactor rule
 
@@ -270,6 +272,8 @@ Core scheduled workflows include:
 - `google-indexing-api.yml` — 19:30 UTC daily.
 
 The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`. NHS is one of its source publishers. The reviewed NHS publisher uses `compose_nhs_admin_daily.py`, the same transactional composer as the normal daily run, before the shared verified Service Admin page publish.
+
+`npm run build` now regenerates the compact published-job search index before `prisma generate` and `next build`, so every Vercel deployment searches the published supply represented by that deployment without reconstructing the source tree at request time.
 
 ### Post-publish production deployment
 
@@ -304,7 +308,7 @@ This leaves one automatic route — `main` → Vercel Git integration — plus o
 
 ## Validation state
 
-Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery, now operating on Vercel Pro. NHS Administrative & Clerical inventory is part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling plus non-dominating 4+1 display mixing. NHS detail formatting and the corrected/cached forgiving search behaviour are live production UX.
+Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery, now operating on Vercel Pro. NHS Administrative & Clerical inventory is part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling plus non-dominating 4+1 display mixing. NHS detail formatting and forgiving search are live; production search now uses a build-time compact index rather than request-time file-tree scanning, and has been verified for typo correction, `lumley office`, and both normal/swapped `admin` + `newcastle` inputs.
 
 ## Documentation rule
 
