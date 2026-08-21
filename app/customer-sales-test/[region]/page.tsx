@@ -7,7 +7,7 @@ import {
 } from "@/lib/customer-sales-test";
 
 export const metadata: Metadata = {
-  title: "Customer Sales Test | Ontap Job Search",
+  title: "Customer Sales Proof Test | Ontap Job Search",
   description: "Branch-only inspection page for the proposed Ontap Customer Sales / Sales Advisor family.",
   robots: { index: false, follow: false },
 };
@@ -33,6 +33,10 @@ function text(value?: string) {
   return (value || "").trim();
 }
 
+function percent(value: number) {
+  return `${Math.round(value * 100)}%`;
+}
+
 export default async function Page({ params, searchParams }: PageProps) {
   const { region } = await params;
   const slice = getCustomerSalesTestSlice(region);
@@ -53,24 +57,106 @@ export default async function Page({ params, searchParams }: PageProps) {
     <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
       <nav className="mb-5 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/customer-sales-test" className="hover:text-blue-700">
-          Customer Sales test
+          Customer Sales proof test
         </Link>
         <span className="mx-2">/</span>
         <span className="text-gray-700">{slice.label}</span>
       </nav>
 
       <section className="rounded-2xl border border-amber-200 bg-amber-50 p-5 sm:p-6">
-        <p className="text-xs font-bold uppercase tracking-wide text-amber-800">Test branch only · noindex</p>
+        <p className="text-xs font-bold uppercase tracking-wide text-amber-800">Governed proof slice · branch only · noindex</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900">
           {slice.label} Customer Sales / Sales Advisor Jobs
         </h1>
         <p className="mt-3 max-w-4xl text-gray-700">
-          Broad trial family for genuine selling, conversion, retention and renewal roles in office,
-          contact-centre, home and hybrid settings. A job may also fit Service Admin; overlap is allowed.
+          Genuine selling, conversion, retention and renewal roles in office, contact-centre, home and hybrid settings.
+          A job may also fit Service Admin; overlap is deliberately allowed. This page is for quality inspection only.
         </p>
-        <p className="mt-3 text-sm font-semibold text-gray-900">
-          {slice.jobs.length} candidate job{slice.jobs.length === 1 ? "" : "s"} in the current raw-feed test.
-        </p>
+      </section>
+
+      <section className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4" aria-label="Proof slice QA summary">
+        <div className="rounded-xl border border-gray-200 bg-white p-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Jobs</p>
+          <p className="mt-1 text-2xl font-bold text-gray-900">{slice.jobs.length}</p>
+        </div>
+        <div className="rounded-xl border border-gray-200 bg-white p-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Employers</p>
+          <p className="mt-1 text-2xl font-bold text-gray-900">{slice.stats.employerCount}</p>
+        </div>
+        <div className="rounded-xl border border-gray-200 bg-white p-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Duplicate groups</p>
+          <p className="mt-1 text-2xl font-bold text-gray-900">{slice.stats.duplicateGroups.length}</p>
+        </div>
+        <div className="rounded-xl border border-gray-200 bg-white p-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Campaign employers</p>
+          <p className="mt-1 text-2xl font-bold text-gray-900">{slice.stats.campaignEmployers.length}</p>
+        </div>
+      </section>
+
+      <section className="mt-5 grid gap-4 lg:grid-cols-2">
+        <div className="rounded-xl border border-gray-200 bg-white p-5">
+          <h2 className="text-lg font-semibold text-gray-900">Employer concentration</h2>
+          {slice.stats.topEmployers.length ? (
+            <div className="mt-3 space-y-2">
+              {slice.stats.topEmployers.slice(0, 8).map((employer) => (
+                <div key={employer.name} className="flex items-center justify-between gap-3 text-sm">
+                  <span className="min-w-0 truncate text-gray-700">{employer.name}</span>
+                  <span className="shrink-0 font-semibold text-gray-900">
+                    {employer.count} · {percent(employer.share)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="mt-3 text-sm text-gray-500">No current jobs.</p>
+          )}
+          {slice.stats.dominantEmployer ? (
+            <p className="mt-4 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">
+              Concentration flag: {slice.stats.dominantEmployer.name} supplies {percent(slice.stats.dominantEmployer.share)} of this slice.
+            </p>
+          ) : (
+            <p className="mt-4 text-sm text-gray-500">No single employer supplies 40% or more of this slice.</p>
+          )}
+        </div>
+
+        <div className="rounded-xl border border-gray-200 bg-white p-5">
+          <h2 className="text-lg font-semibold text-gray-900">Classification / campaign checks</h2>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {slice.stats.classificationCounts.map((item) => (
+              <span key={item.classification} className="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-700">
+                {item.classification}: {item.count}
+              </span>
+            ))}
+          </div>
+          <div className="mt-4 text-sm text-gray-600">
+            {slice.stats.campaignEmployers.length ? (
+              <>
+                <p className="font-semibold text-gray-900">Possible campaign concentration (3+ jobs):</p>
+                <ul className="mt-2 list-disc space-y-1 pl-5">
+                  {slice.stats.campaignEmployers.map((item) => (
+                    <li key={item.name}>{item.name}: {item.count} jobs ({percent(item.share)})</li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p>No employer currently has 3+ jobs in this proof slice.</p>
+            )}
+          </div>
+          <div className="mt-4 text-sm text-gray-600">
+            {slice.stats.duplicateGroups.length ? (
+              <>
+                <p className="font-semibold text-gray-900">Exact employer/title/location duplicate groups:</p>
+                <ul className="mt-2 list-disc space-y-1 pl-5">
+                  {slice.stats.duplicateGroups.map((group) => (
+                    <li key={group.key}>{group.title} · {group.employer} · {group.location}: {group.count}</li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p>No exact employer/title/location duplicate groups detected.</p>
+            )}
+          </div>
+        </div>
       </section>
 
       <form method="get" className="mt-5 flex gap-2 rounded-xl border border-gray-200 bg-white p-3 shadow-sm">
@@ -138,8 +224,19 @@ export default async function Page({ params, searchParams }: PageProps) {
                       {job.working_arrangement_text || job.working_arrangement}
                     </p>
                   ) : null}
+                  <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                    {job.customer_sales_classification ? (
+                      <span className="rounded-full bg-blue-50 px-2.5 py-1 font-semibold text-blue-800">
+                        {job.customer_sales_classification}
+                      </span>
+                    ) : null}
+                    <span className="rounded-full bg-gray-100 px-2.5 py-1 font-medium text-gray-600">Service Admin overlap permitted</span>
+                  </div>
+                  {job.customer_sales_reason ? (
+                    <p className="mt-3 text-xs leading-5 text-gray-500">Selector: {job.customer_sales_reason}</p>
+                  ) : null}
                   {description ? (
-                    <p className="mt-3 line-clamp-5 text-sm leading-6 text-gray-600">{description}</p>
+                    <p className="mt-3 line-clamp-6 text-sm leading-6 text-gray-600">{description}</p>
                   ) : null}
                   <div className="mt-4 flex items-center justify-between gap-3 border-t border-gray-100 pt-4">
                     <span className="text-xs text-gray-400">{job.source || "JobG8"} · {job.job_id}</span>
@@ -158,9 +255,9 @@ export default async function Page({ params, searchParams }: PageProps) {
           </div>
         ) : (
           <div className="rounded-xl border border-gray-200 bg-gray-50 p-8 text-center">
-            <h2 className="text-xl font-semibold text-gray-900">No matching trial jobs</h2>
+            <h2 className="text-xl font-semibold text-gray-900">No matching proof jobs</h2>
             <p className="mt-2 text-gray-600">
-              This page is for inspecting the broad agreed Customer Sales family, not for setting final production thresholds.
+              This page is for inspecting the agreed Customer Sales family, not for setting final production thresholds.
             </p>
           </div>
         )}
@@ -168,7 +265,8 @@ export default async function Page({ params, searchParams }: PageProps) {
 
       <aside className="mt-8 rounded-xl border border-gray-200 bg-gray-50 p-4 text-sm text-gray-600">
         This page reads branch-only Customer Sales output generated from the current raw JobG8 feed. It does not
-        publish a live family, alter the production daily pipeline, add sitemap entries, or change main.
+        publish a LIVE family, alter the production daily pipeline, add sitemap entries, change the recurring 33-region
+        assessment, or change main.
       </aside>
     </main>
   );
