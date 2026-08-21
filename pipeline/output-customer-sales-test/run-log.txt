@@ -1,4 +1,12 @@
 JobG8 download attempt 1/6
+Attempt 1 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 2/6
+Attempt 2 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 3/6
+Attempt 3 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 4/6
+Attempt 4 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 5/6
 Download is a ZIP archive
 Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
 Columns: 30
@@ -6,15 +14,15 @@ Hampshire: 7 jobs / 7 employers
 Greater Manchester - Manchester & Salford: 7 jobs / 6 employers
 Yorkshire - West: 6 jobs / 5 employers
 Hampshire: +0 conditional account sales; 7 total before QA refinement
-Greater Manchester - Manchester & Salford: +1 conditional account sales; 8 total before QA refinement
-Yorkshire - West: +2 conditional account sales; 8 total before QA refinement
+Greater Manchester - Manchester & Salford: +0 conditional account sales; 7 total before QA refinement
+Yorkshire - West: +3 conditional account sales; 9 total before QA refinement
 hampshire.json: 7 -> 4 jobs (3 removed)
-manchester-salford.json: 8 -> 7 jobs (1 removed)
-west-yorkshire.json: 8 -> 6 jobs (2 removed)
-Customer Sales governed 33-region diagnostic: 142 campaign-deduped jobs
-Service Admin exact-ID overlap: 3; incremental: 139
-Regions with 6+ jobs: 7
-Conditional account-role jobs: 16
+manchester-salford.json: 7 -> 6 jobs (1 removed)
+west-yorkshire.json: 9 -> 7 jobs (2 removed)
+Customer Sales governed 33-region diagnostic: 136 campaign-deduped jobs
+Service Admin exact-ID overlap: 3; incremental: 133
+Regions with 6+ jobs: 5
+Conditional account-role jobs: 17
 Wrote reports-daily/customer-sales-33-region-diagnostic.csv
 Wrote reports-daily/customer-sales-33-region-detail.csv
 Wrote reports-daily/customer-sales-33-region-diagnostic.md

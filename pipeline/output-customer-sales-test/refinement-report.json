@@ -8,7 +8,7 @@
         "title": "Sales Executive",
         "location": "Fareham",
         "region": "Hampshire",
-        "reason": "automotive dealership/showroom sales signal: car dealership, new & used vehicles, used car sales"
+        "reason": "automotive dealership/showroom sales signal: car dealership, car dealer, new & used vehicles"
       },
       {
         "job_id": "5fd59761-b015-48ef-84b9-b49b71995cff",
@@ -27,8 +27,8 @@
     ]
   },
   "manchester-salford.json": {
-    "before": 8,
-    "after": 7,
+    "before": 7,
+    "after": 6,
     "removed": [
       {
         "job_id": "107813958",
@@ -40,8 +40,8 @@
     ]
   },
   "west-yorkshire.json": {
-    "before": 8,
-    "after": 6,
+    "before": 9,
+    "after": 7,
     "removed": [
       {
         "job_id": "48ac331e-441e-47f3-9dd2-8e29b373ef1c",

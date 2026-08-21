@@ -1,34 +1,34 @@
 region,selected_rows_before_campaign_dedupe,campaign_deduped_jobs,duplicate_campaign_rows_removed,unique_employers,top_employer,top_employer_jobs,top_employer_share_pct,employers_with_3_plus_jobs,direct_sales,customer_sales_crossover,conditional_account_sales,also_in_current_main_service_admin,incremental_vs_current_main_service_admin,volume_band,concentration_flag
-London,43,33,10,29,EE,3,9.1,1,20,8,5,1,32,6_PLUS,False
-Greater Manchester - Manchester & Salford,7,7,0,6,Office Angels,2,28.6,0,4,2,1,0,7,6_PLUS,False
-North East,56,7,49,4,EE,3,42.9,1,7,0,0,0,7,6_PLUS,True
-Cambridgeshire,6,6,0,6,Red Recruit Ltd,1,16.7,0,4,1,1,0,6,6_PLUS,False
-Kent,6,6,0,5,CKB Recruitment,2,33.3,0,5,1,0,1,5,6_PLUS,False
-Yorkshire - West,6,6,0,5,Elevation Recruitment Group,2,33.3,0,4,0,2,0,6,6_PLUS,False
+London,41,31,10,27,EE,3,9.7,1,19,7,5,1,30,6_PLUS,False
+Yorkshire - West,7,7,0,6,Elevation Recruitment Group,2,28.6,0,4,0,3,0,7,6_PLUS,False
+Greater Manchester - Manchester & Salford,6,6,0,5,Office Angels,2,33.3,0,4,2,0,0,6,6_PLUS,False
 Yorkshire - South,8,6,2,4,EE,3,50.0,1,6,0,0,0,6,6_PLUS,True
+North East,57,6,51,3,EE,3,50.0,1,6,0,0,0,6,6_PLUS,True
 Bristol & Bath,5,5,0,5,hireful,1,20.0,0,4,1,0,0,5,3_TO_5,False
-Dorset,5,5,0,5,Kuehne+Nagel,1,20.0,0,4,1,0,0,5,3_TO_5,False
+Cambridgeshire,5,5,0,5,RELOcruitment,1,20.0,0,3,1,1,0,5,3_TO_5,False
+Kent,5,5,0,5,EA First,1,20.0,0,4,1,0,1,4,3_TO_5,False
 Northamptonshire,5,5,0,5,Get Staffed Online Recruitment Limited,1,20.0,0,4,0,1,0,5,3_TO_5,False
 Nottinghamshire,5,5,0,5,SF Partners,1,20.0,0,4,1,0,0,5,3_TO_5,False
 Surrey,5,5,0,5,First Military Recruitment Ltd,1,20.0,0,4,1,0,0,5,3_TO_5,False
 Essex,5,5,0,4,Employment Specialists Ltd,2,40.0,0,5,0,0,0,5,3_TO_5,True
 Norfolk,5,5,0,4,ALH Recruitment Ltd,2,40.0,0,3,0,2,0,5,3_TO_5,True
-Buckinghamshire,4,4,0,4,ACS Recruitment Solutions Ltd,1,25.0,0,4,0,0,0,4,3_TO_5,False
+Dorset,4,4,0,4,Kuehne+Nagel,1,25.0,0,3,1,0,0,4,3_TO_5,False
 Hampshire,4,4,0,4,TRS (Technical Recruitment Solutions),1,25.0,0,3,1,0,0,4,3_TO_5,False
 Sussex,4,4,0,4,Global 4 Communications Ltd,1,25.0,0,3,0,1,0,4,3_TO_5,False
+West Midlands - Birmingham & Solihull,4,4,0,4,Warwick Recruit Ltd,1,25.0,0,2,1,1,0,4,3_TO_5,False
+Gloucestershire,4,4,0,3,i2i Recruitment Consultancy,2,50.0,0,3,1,0,0,4,3_TO_5,True
 Devon,3,3,0,3,Acorn by Synergie,1,33.3,0,1,0,2,0,3,3_TO_5,False
-Gloucestershire,3,3,0,3,RE Recruitment,1,33.3,0,2,1,0,0,3,3_TO_5,False
 Hertfordshire,3,3,0,3,Fortrade,1,33.3,0,2,1,0,0,3,3_TO_5,False
-West Midlands - Birmingham & Solihull,3,3,0,3,Warwick Recruit Ltd,1,33.3,0,2,1,0,0,3,3_TO_5,False
+Yorkshire - East,3,3,0,2,Consortium Professional Recruitment,2,66.7,0,2,1,0,0,3,3_TO_5,True
+Buckinghamshire,2,2,0,2,ACS Recruitment Solutions Ltd,1,50.0,0,2,0,0,0,2,1_TO_2,False
 Greater Manchester - South,2,2,0,2,Jobwise Ltd,1,50.0,0,0,2,0,0,2,1_TO_2,False
 Wiltshire,2,2,0,2,Purely Recruitment Solutions,1,50.0,0,2,0,0,0,2,1_TO_2,False
-Yorkshire - North,2,2,0,2,CITRUS CONNECT LTD,1,50.0,0,2,0,0,0,2,1_TO_2,False
 Berkshire,1,1,0,1,Rise Technical Recruitment Limited,1,100.0,0,0,0,1,0,1,1_TO_2,False
 Cumbria - South,1,1,0,1,Adecco,1,100.0,0,0,1,0,0,1,1_TO_2,False
 Oxfordshire,1,1,0,1,Vision Personnel,1,100.0,0,1,0,0,0,1,1_TO_2,False
-Staffordshire,1,1,0,1,Red Recruit Ltd,1,100.0,0,1,0,0,0,1,1_TO_2,False
 West Midlands - Coventry & Warwickshire,1,1,0,1,Thefutureworks,1,100.0,0,1,0,0,1,0,1_TO_2,False
-Yorkshire - East,1,1,0,1,Consortium Professional Recruitment,1,100.0,0,1,0,0,0,1,1_TO_2,False
+Yorkshire - North,1,1,0,1,CITRUS CONNECT LTD,1,100.0,0,1,0,0,0,1,1_TO_2,False
 Cumbria - North,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
 Lancashire - North,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
 Somerset,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
+Staffordshire,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
