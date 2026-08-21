@@ -41,6 +41,12 @@ SELECTED | Yorkshire - South | Doncaster | £14.13 - £15 per hour | Children's 
 job_id: 644ad7a6-f985-4576-807e-d5dbedad1b4c
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £12.71 per hour | Care Assistant (Days and Nights)
+job_id: 107686466
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -139,12 +145,6 @@ job_id: 23643_222307132
 
 ---
 action:
-SELECTED | Sussex | Bognor Regis | £15.4 per hour | Complex Care Support Worker
-job_id: 107854068
----
-
----
-action:
 SELECTED | Sussex | Eastbourne | £13.4 per hour | Care Assistant - Care Home
 job_id: ec026cec-5f4c-49af-882b-c4fa51afbadc
 ---
@@ -167,6 +167,18 @@ SELECTED | Sussex | Brighton | £14.4 per hour | Female Support Worker
 job_id: 107693840
 ---
 
+---
+action:
+SELECTED | Sussex | Bognor Regis | £13 - £14.5 per hour | Healthcare Support Worker
+job_id: 107861316
+---
+
+---
+action:
+SELECTED | Sussex | Bexhill-on-sea | £13.79 per hour | Care Assistant
+job_id: 107864483
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -183,6 +195,12 @@ job_id: 107812778
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107800894
+---
+
+---
+action:
+SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
+job_id: 107870592
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -271,8 +289,26 @@ job_id: 1674633
 
 ---
 action:
+SELECTED | Hampshire | Alton | £14 - £15 per hour (Excellent Pay) | Domiciliary Care Assistant
+job_id: 107332363
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £14.31 per hour | Night Care Assistant
+job_id: 107776250
+---
+
+---
+action:
 SELECTED | Hampshire | Andover | £13.21 per hour | Night Care Assistant
 job_id: 8e6242db-cd62-4802-934f-7ad53601c988
+---
+
+---
+action:
+SELECTED | Hampshire | Tadley | £13.2 per hour | Female Waking Night Support Worker
+job_id: 107812604
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -280,18 +316,6 @@ job_id: 8e6242db-cd62-4802-934f-7ad53601c988
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £15 - £18 per hour | Family Support Worker/ South London/ £15-18 p/h.
-job_id: 848d12d1-73ad-460f-89ef-48c6e24b3f6b
----
-
----
-action:
-SELECTED | London | Sutton-in-ashfield | £13.16 - £13.8 per hour | Care Assistant
-job_id: 281f76c8-4bbe-4cc0-8651-945559a163d4
----
 
 ---
 action:
@@ -303,12 +327,6 @@ job_id: 1621461
 action:
 SELECTED | London | City | £13.45 per hour | Support Worker
 job_id: 2047793
----
-
----
-action:
-SELECTED | London | London | £14.8 per hour | Relief Support Worker
-job_id: ac5d5840-151a-4857-9bcc-dcb8c776c918
 ---
 
 ---
@@ -355,12 +373,6 @@ job_id: 197faf69-e78e-4a9a-affd-80959ed23008
 
 ---
 action:
-SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
-job_id: 107751975
----
-
----
-action:
 SELECTED | London | Croydon | £14 per hour | Domiciliary Care Assistant
 job_id: 86f892d4-8c90-4c6b-b4d3-a12bcd351d01
 ---
@@ -375,6 +387,18 @@ job_id: 23643_225513634
 action:
 SELECTED | London | London | £85 - £105 per daily (Excellent training and Career progression) | Support Worker
 job_id: 23643_225516212
+---
+
+---
+action:
+SELECTED | London | London | £14.5 - £15 per hour | Residential Support Worker - Bank Staff
+job_id: cf658a6f-c60f-4064-8c86-c869438f2917
+---
+
+---
+action:
+SELECTED | London | Croydon | £12.82 - £14.55 per hour | Care Assistant
+job_id: 107877842
 ---
 
 ## LONDON — POSSIBLES
@@ -449,6 +473,12 @@ SELECTED | Surrey | Guildford | £13.21 per hour | Night Care Assistant
 job_id: cf31f9cd-838b-407d-b8c6-cebc439995e6
 ---
 
+---
+action:
+SELECTED | Surrey | Haslemere | £14 - £15 per hour | Children's Support Worker
+job_id: 107741924
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -471,6 +501,12 @@ job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
 action:
 SELECTED | Wiltshire | Devizes | £14.29 per hour (holiday pay inclusive) | Healthcare Assistants
 job_id: 107863276
+---
+
+---
+action:
+SELECTED | Wiltshire | Devizes | £14.29 per hour | Support Worker
+job_id: 107863273
 ---
 
 ## WILTSHIRE — POSSIBLES
