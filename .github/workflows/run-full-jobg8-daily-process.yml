@@ -120,6 +120,7 @@ jobs:
           with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
               handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
               handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
+              handle.write(f"customer_sales={'true' if 'customer_sales' in categories else 'false'}\n")
           PY
 
       - name: Resolve current JobG8 month
@@ -160,6 +161,33 @@ jobs:
           test -s pipeline/output-admin-service/hampshire-admin-service.json
           test -s pipeline/output-admin-service/sussex-admin-service.json
           test -s pipeline/output-admin-service/coventry-warwickshire-admin-service.json
+
+      - name: Verify Customer Sales outputs
+        if: steps.slice-register.outputs.customer_sales == 'true'
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          scripts = Path("pipeline/scripts").resolve()
+          sys.path.insert(0, str(scripts))
+          from slice_catalog import output_source_path
+          from slice_registry import live_slices
+
+          sales = sorted((region, category) for region, category in live_slices() if category == "customer_sales")
+          if not sales:
+              raise SystemExit("Customer Sales flag was true but no LIVE Customer Sales slices were found")
+          for region, category in sales:
+              path = output_source_path(region, category)
+              if not path.is_file():
+                  raise SystemExit(f"Missing LIVE Customer Sales output: {path}")
+              data = json.loads(path.read_text(encoding="utf-8"))
+              if not isinstance(data, list):
+                  raise SystemExit(f"Customer Sales output is not an array: {path}")
+              print(f"Verified {region}: {len(data)} jobs -> {path}")
+          PY
 
       - name: Run support-worker pipeline
         if: steps.slice-register.outputs.support_worker == 'true'
