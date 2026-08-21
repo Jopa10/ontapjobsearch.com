@@ -1,12 +1,13 @@
 # Ontap System Overview
 
 **Last updated:** 21 August 2026  
-**Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening and initial Customer Sales production launch.
+**Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales production launch and live regional reporting.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 21 August 2026 — The daily regional overview now treats **Customer Sales / Sales Advisor as a first-class LIVE family** rather than test-only. The current verified snapshot is **3 / 33 LIVE regions and 33 LIVE jobs**: **London 20, Greater Manchester - Manchester & Salford 6, Yorkshire - West 7**. LIVE Sales counts are read from the current published Customer Sales configured-slice JSON, and the overview refreshes when relevant Sales register/report/page inputs change. NOT LIVE Sales Advisor remains `—` until the governed 33-region daily Sales assessment is wired into this overview; `—` means not assessed, not zero.
 - 21 August 2026 — Customer Sales / Sales Advisor completed governed proof-region review and national/33-region validation. Explicit LIVE approval is limited to **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West**. The first verified production publish completed successfully on 21 August: **London 20 jobs, Manchester & Salford 6, Yorkshire - West 7**. All three public `/job-search/.../customer-sales-jobs` routes returned HTTP 200 with job-detail links and JobG8 Apply wiring present. These counts are a launch snapshot, not automatic activation/deactivation thresholds. The production family keeps genuine sales-led office/contact-centre/home/hybrid roles, allows valid Sales/Service Admin overlap, and excludes field/in-home/event/self-employed, automotive dealership, retail/property and senior/specialist contamination. North East and all other regions remain non-LIVE diagnostics.
 - 21 August 2026 — NHS job-detail pages now present NHS source text as readable paragraphs/headings/bullets instead of a flattened text dump. Long descriptions show six blocks initially, with the remainder available under **Show full NHS role information**; the vacancy wording itself is not rewritten.
 - 21 August 2026 — NHS jobs are now deliberately mixed into regional Service Admin pages rather than bunching near the top: non-NHS jobs keep the normal location-first order, while accepted NHS jobs retain Tier A/B → switchability → freshness order and are inserted at no more than one after every four non-NHS jobs. The hard **20% NHS ceiling** remains the upstream source cap.
@@ -101,6 +102,8 @@ Newly approved on 19 August 2026: **Bradford, Huddersfield, York, Barnsley and D
 ## 2. Reports / diagnostics
 
 The daily regional overview is backed by same-feed Service Admin and Support Worker assessments across all 33 canonical regions. A zero in those assessed families is a real current zero rather than “not assessed”.
+
+Customer Sales / Sales Advisor is now represented in that overview as a LIVE production family wherever `region_category_slice_register.csv` says `customer_sales,LIVE`. Its LIVE counts come directly from the current published configured-slice JSON rather than the old proof/test outputs. The 21 August snapshot is **3 / 33 LIVE regions and 33 LIVE jobs (London 20, Manchester & Salford 6, Yorkshire - West 7)**. NOT LIVE Sales Advisor cells remain `—` for now because the governed 33-region daily Sales diagnostic has not yet been integrated into the overview; this is explicitly ‘not assessed’, not zero.
 
 Live source reporting now also records NHS Jobs as a provider after verified publication, alongside JobG8 and the other external sources.
 
