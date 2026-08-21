@@ -7,6 +7,7 @@ if str(PIPELINE_DIR) not in sys.path:
     sys.path.insert(0, str(PIPELINE_DIR))
 
 from scripts.customer_sales_pipeline import classify
+from scripts.customer_sales_production_refine import keep_job
 
 
 class CustomerSalesPipelineTests(unittest.TestCase):
@@ -109,6 +110,61 @@ class CustomerSalesPipelineTests(unittest.TestCase):
                 "Example Wealth",
             )
         )
+
+    def test_final_qa_removes_weak_customer_service(self):
+        keep, reason = keep_job(
+            {
+                "title": "Part-time Customer Service Administrator",
+                "description": "Make outbound calls to customers to update records and answer service queries.",
+                "advertiser_name": "Example Ltd",
+                "region": "Yorkshire - West",
+                "customer_sales_classification": "CUSTOMER_SALES",
+            },
+            [],
+        )
+        self.assertFalse(keep)
+        self.assertIn("no strong sales/conversion evidence", reason)
+
+    def test_final_qa_keeps_real_service_sales_crossover(self):
+        keep, reason = keep_job(
+            {
+                "title": "Customer Service Representative",
+                "description": "Handle enquiries, identify sales opportunities, upsell and convert enquiries to bookings.",
+                "advertiser_name": "Example Ltd",
+                "region": "Greater Manchester - Manchester & Salford",
+                "customer_sales_classification": "CUSTOMER_SALES",
+            },
+            [],
+        )
+        self.assertTrue(keep, reason)
+
+    def test_final_qa_rejects_title_location_conflict(self):
+        keep, reason = keep_job(
+            {
+                "title": "Bournemouth- Sales Executive",
+                "description": "Join our new office and convert warm leads.",
+                "advertiser_name": "Example Ltd",
+                "region": "Greater Manchester - Manchester & Salford",
+                "customer_sales_classification": "DIRECT_SALES",
+            },
+            [("bournemouth", "Dorset")],
+        )
+        self.assertFalse(keep)
+        self.assertIn("title location", reason)
+
+    def test_final_qa_rejects_opening_location_conflict(self):
+        keep, reason = keep_job(
+            {
+                "title": "Luxury Sales Consultant",
+                "description": "Luxury Sales Consultant Belfast. Join a premium retail business selling luxury jewellery and fine timepieces.",
+                "advertiser_name": "Example Ltd",
+                "region": "London",
+                "customer_sales_classification": "DIRECT_SALES",
+            },
+            [("belfast", "Northern Ireland - East")],
+        )
+        self.assertFalse(keep)
+        self.assertIn("advert opening location", reason)
 
 
 if __name__ == "__main__":
