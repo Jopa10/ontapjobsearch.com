@@ -1,6 +1,7 @@
-"""Compiler Module 2 entry point using the authoritative live slice register."""
+"""Compiler Module 2 entry point using live slices and shared JobG8 geography."""
 from __future__ import annotations
 
+from . import jobg8_module_2_geo_adapter
 from . import jobg8_module_2_monthly_category_profiler as compiler
 from .slice_registry import live_slices
 
@@ -30,6 +31,7 @@ def configure_live_slice_groups() -> None:
     compiler.LIVE_SLICE_GROUPS.update(groups)
 
 
+jobg8_module_2_geo_adapter.install(compiler)
 configure_live_slice_groups()
 
 
