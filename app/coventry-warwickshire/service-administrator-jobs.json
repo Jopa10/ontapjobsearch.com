@@ -309,57 +309,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225406898",
-    "title": "Registry Administrator",
-    "company": "thefutureworks - Agency - Temporary",
-    "location": "Warwickshire",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "2026-08-12",
-    "description": "We are recruiting for a Registry Administrator on a temporary basis until end of September to work within a team on supporting compliance checks of students and ensuring all records are kept up to date.\nAs an Registry Administrator your main responsibilities will be:\nManaging and arranging appointments\nManaging the centralised inbox\nScanning and uploading documentation\nUpdating all records on internal systems\nMeet and greet students\nSupporting the team where required\nSkills and experience required:\nGood administration and customer service skills\nGood telephone manner\nTeam player\nCommunication skills\nProfessional\nAttention to detail\nIT literate e.g. confident using Microsoft packages\nThis is a full-time vacancy, working Monday to Friday 08:30am till 17:00pm with an hour lunch.\nHourly pay rate of 12.71 p/h.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaz9VBl6VxVZpCI%2bXXix4Kdib",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "thefutureworks",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "dfd7d156-9a1c-4512-9b81-e6446c2d5571",
-    "title": "Registry Administrator",
-    "company": "Thefutureworks - Agency - Temporary",
-    "location": "Warwickshire",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "2026-08-06",
-    "description": "We are recruiting for a Registry Administrator on a temporary basis until end of September to work within a team on supporting compliance checks of students and ensuring all records are kept up to date.As an Registry Administrator your main responsibilities will be: Managing and arranging appointments Managing the centralised inbox Scanning and uploading documentation Updating all records on internal systems Meet and greet students Supporting the team where requiredSkills and experience required: Good administration and customer service skills Good telephone manner Team player Communication skills Professional Attention to detail IT literate e.g. confident using Microsoft packagesThis is a full-time vacancy, working Monday to Friday 08:30am till 17:00pm with an hour lunch.Hourly pay rate of £12.71 p/h.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDxLh1WXWOK8Iqg%2fJztUS4GCf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thefutureworks",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225429653",
@@ -384,7 +339,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Data entry",
+      "Order processing"
+    ]
   },
   {
     "job_id": "9bccef77-3de5-4082-92cc-aefc7bf20d50",
@@ -409,7 +369,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225431697",
@@ -459,7 +423,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225433641",
@@ -484,7 +454,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Data entry",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225437355",
@@ -534,7 +510,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225454507",
@@ -609,7 +589,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225505608",
@@ -712,6 +696,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225516949",
+    "title": "X2 Administrators - Coventry - £14.00 - £15.00 p/h",
+    "company": "Oakley Recruitment Limited - Agency - Temporary",
+    "location": "Warwickshire",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14",
+    "salary_max": "15",
+    "salary_text": "£14 - £15 per hour",
+    "posted_date": "2026-08-21",
+    "description": "Oakley Recruitment is working in partnership with an expanding organisation based in Coventry. This is an excellent opportunity to join the team as an Administrator on a full-time ongoing temporary basis\n\nCulture and Environment\n\nYou will be joining a busy, deadline-driven environment where teamwork is essential. The department works at pace, particularly during peak periods, so you will need to be adaptable, organised and comfortable changing priorities when required.\n\nOur client offers a collaborative and fast-paced environment where accuracy, accountability, and continuous improvement are highly valued. This is a business that encourages professional growth, cross-functional collaboration, and proactive thinking, within a supportive hybrid working environment.\n\nPersonality\n\nThis is a fantastic opportunity for an experienced Administrator who enjoys working in a varied role, managing multiple priorities and taking ownership of their workload. We are looking for a highly organised and proactive individual who ithrives working in a busy environment where priorities can change throughout the day.\n\nReward\n- Temporary on going\n- (phone number removed) hours per week\n- Hybrid available 3 days from home 2 days in office\n- Free parking\n\nJob Role:\n- Managing and progressing orders\n- Reviewing documentation, identifying missing or incorrect information and taking appropriate action\n- Processing and checking information accurately in line with internal procedures and deadlines\n- Managing shared mailboxes and responding to queries from customers and external partners\n- Proactively chasing outstanding documentation to prevent unnecessary delays\n- Liaising with internal departments and external stakeholders to resolve queries\n- Investigating system errors and coordinating with relevant teams to resolve issues\n- Maintaining accurate system records, trackers and error logs\n- Producing and updating daily reports using Excel\n- Identifying potential delays or issues and escalating these where appropriate\n- Supporting colleagues with wider team responsibilities\n- Ensuring administration is completed accurately and within agreed service levels\n\nSkills and experience:\n- Previous operations, administration or customer service experience\n- Strong Excel skills\n- Excellent attention to detail and a high level of accuracy\n- Strong organisational and time-management skills\n- The ability to confidently manage multiple priorities\n- Clear and professional written and verbal communication skills\n- A proactive, solution-focused approach to resolving problems\n- The ability to work effectively under pressure and meet tight deadlines\n\nPlease Note: We do not contact or write to unsuccessful candidates. If we have not contacted you within 48 hours of your application, you should presume that your application was unsuccessful. By applying for this vacancy, you are permitting for Oakley Recruitment to contact you and retain your details. In compliance with the regulations (April 2004) in place under the Employment Agencies Act, Oakley Recruitment will require proof of identification. A copy of your passport, birth certificate and NI number will be required, as part of your interview process.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgoB7H%2fUwxJ3PJNcVbakwlFBn",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "3 days from home / 2 days in office",
+    "working_arrangement_evidence": "This is a business that encourages professional growth, cross-functional collaboration, and proactive thinking, within a supportive hybrid working environment.",
+    "advertiser_name": "Oakley Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225430942",
     "title": "Service Desk Co-ordinator",
     "company": "Arden Personnel - Agency - Contract",
@@ -759,31 +768,168 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Pre-employment administration"
+    ]
   },
   {
-    "job_id": "107841442",
-    "title": "My Way Facilitator (Transitions Co-ordinator)",
-    "company": "MacIntyre - Agency - Permanent",
+    "job_id": "107875425",
+    "title": "Learning and Development Coordinator",
+    "company": "Rose & Young Recruitment Ltd - Agency - Permanent",
     "location": "Warwickshire",
     "region": "West Midlands - Coventry & Warwickshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "2026-08-19",
-    "description": "At MacIntyre, we see the person first.\n\nAt MacIntyre, we believe everyone has the potential to live a life that is meaningful, connected and full of opportunity. We know this happens when people are surrounded by others who listen deeply, value their voice and work alongside them to achieve what matters most.\n\nThis is an exciting opportunity to make a genuine difference by supporting young people, fam click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTdt2%2fcR7zLLpz2Ce0dOHo%2bm",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Training & Development Coordinator\n\nRugby 100% office-based\n\n£26,600 plus 2 x yearly bonus OTE £28,000\n\nThe role is dayshift working 37.5 hours a week.\n\nOur very successful and forward-thinking client is looking for a Training & Development Coordinator to join their HR Team click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbxddMcIsKBM5jwzfgRpUZYTt",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "MacIntyre",
+    "advertiser_name": "Rose & Young Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5551216",
+    "source": "NHS Jobs",
+    "title": "Clerical Assistant",
+    "company": "South Warwickshire University NHS Foundation Trust",
+    "advertiser_name": "South Warwickshire University NHS Foundation Trust",
+    "location": "Rugby, CV21 3SR",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-20T11:11:59.640362101",
+    "closing_date": "2026-09-04",
+    "description": "An exciting opportunity has arisen for a Band 3 Administration Assistant to join the Urgent Community Response (UCR), Community Response Team (CRT) and Rapid Response (RR) service at South Warwickshire University NHS Foundation Trust. The post holder will provide comprehensive administrative and clerical support to the multidisciplinary community teams, ensuring the smooth day-to-day running of the service. Working closely with the Admin Team Lead, Professional Team Leads and Locality Manager, the successful candidate will support patient pathways through the accurate processing of referrals, maintenance of electronic patient records, data collection and reporting, workforce administration and effective communication across internal and external stakeholders. This role is integral to supporting clinicians to deliver timely, high-quality care by ensuring administrative processes are completed efficiently and accurately. To provide high-quality administrative and clerical support to Urgent Community Response (UCR), Community Response Team (CRT) and Rapid Response (RR), Professional Leads and Locality Manager Input into Health Roster: e-expenses, e-roster shift changes, annual leave changes InPhase: Check incident actions, collate incidents, create reports from incidents to assist Team / Professional Leads and Locality Manager To access relevant systems, update risks, HR information, staff records, milestones and actions, including Word and Excel documents on the instruction of Admin Team Lead, Professional Leads and Locality Managers EMIS support, caseload maintenance and problem solving Referral and data inputting (EMIS) Data collection to assist Team / Professional Lead and Locality Manager to produce CCIs / KPIs / IWGC / Orbis Lone Worker Device reports Data collection to assist the Teams / Professional Lead and Locality Manager to produce data quality reports To update as instructed by Team / Professional Lead and Locality Manager, Team action plan as required Complete staff change forms as per policy and as instructed by Team / Professional Lead and Locality Manager Communicates with internal and external stakeholders passing relevant information to team or Professional Leads and Locality Manager as required Disseminate appropriate communications to other Administration Support Communicates using a wide range of sources including telephone, IT, emails, written and face to face contact Takes and conveys messages, reporting any changes to the Team or Professional Lead in charge. This may be work scheduled or changes in patients conditions and disseminate appropriate information to junior staff Undertake data collection and collation activities effectively and to time using agreed systems",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5549024",
+    "source": "NHS Jobs",
+    "title": "Bank Receptionist",
+    "company": "Practice Plus Group",
+    "advertiser_name": "Practice Plus Group",
+    "location": "Nuneaton, CV10 7DJ",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£19.00",
+    "employment_type": "Bank",
+    "posted_date": "2026-08-19T12:44:32.052602247",
+    "closing_date": "2026-09-02",
+    "description": "Practice Plus Group are looking for a Bank Receptionist at our Warwickshire service to prepare and open a centre for patients, doctors and nurses arrival and ensure patients are seen in a professional manner following the guidelines issued by Practice Plus Group. Our OOH service is open from 18.30-08.00 Monday to Friday and 24 hours over the weekend. We can offer a range of sessions to allow you to flexibly choose the right shift pattern for you. Our Warwickshire OOH service is spread across the county with sites in; Nuneaton, Coventry, Rugby, Warwick, Stratford-upon-Avon and Shipston-on-Stour. Please see the link below to see the site map. Click Here At Practice Plus Group, were here to make healthcare betterfor patients, clinicians and everyone in between. As one of the UKs largest independent providers of NHS services, we offer consistent, high-quality care through our urgent treatment centres, walk-in clinics, and GP practices. Our Out of Hours Receptionists ensure that even when most of the world has switched off, care continues seamlessly. With a bank contract, youll have the flexibility to pick up shifts that suit your schedule while contributing to a team that truly values compassion and reliability. Youll be the welcoming presence and organised mind that helps keep things running smoothly during our out-of-hours services. Your responsibilities will include: Greeting patients warmly and registering them efficiently Managing telephone enquiries, bookings and patient queries Supporting clinical teams by coordinating patient flow Handling data entry and maintaining accurate records Ensuring the reception area is calm, tidy and professional Adapting quickly to changing demands during busy periods Every shift brings a new set of challenges, and your flexibility will help us meet them with confidence.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5539672",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Practice Plus Group - Health in Justice",
+    "advertiser_name": "Practice Plus Group - Health in Justice",
+    "location": "Rugby, CV23 8SZ",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£25821.00 to £28575.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-14T11:28:08.818280076",
+    "closing_date": "2026-08-21",
+    "description": "UNLOCK YOUR BEST WORK LIFE + MAKE A DIFFERENCE TO EVERY LIFE We have an exciting opportunity for a Administrator to join our Administration Team at HMP Rye Hill a category C Prison located in Willoughby, Rugby. Hours Monday - Friday Salary This position is part time, youll receive an annual salary up to £14,287 per annum (pro rata for 18.75 hours) How will we support you? Bespoke induction, including our Introducing Health in Justice training course Competency framework Regional and national career development opportunities Our bespoke Learning Management System to address your learning needs Support from the wider team Candidates are required to have a Legal right to work in the UK and due to the nature of the role, offers of employment will be subject to additional vetting and security checks As an Administrator your responsibilities will vary. You will Contribute to the delivery of administration services, to the healthcare team on site. Dealing with referrals Arranging appointments Reporting General administration duties Answering and directing telephone calls / emails. Work within a busy team, completing a variety of administrative tasks, working on IT systems, maintaining databases/waiting lists/call-up lists, customer service, answering and directing telephone calls, general office duties such as typing, ordering and stock control, scanning etc. If you are interested in career development, we have a wide range of opportunities for you to develop your skills and experience, which include both internal and external options for development and learning. It doesnt stop there we also offer: Discounts on shopping and leisure activities Support to grow in your role and continue your professional development 24/7 employee assistance helpline and financial assistance when you need it",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0138",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0138",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5538096",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Abbey Medical Centre",
+    "advertiser_name": "Abbey Medical Centre",
+    "location": "Kenilworth, CV8 1JD",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-13T13:52:19.875670003",
+    "closing_date": "2026-08-28",
+    "description": "We are looking for a proactive, organised, and detail-focused part-time Workflow/Docman Administrator to join our friendly GP Practice team. This is a key role supporting clinicians and ensuring timely, accurate processing of all incoming clinical correspondence. Please note - this advert may close early if enough suitable candidates apply for the position. Working within our friendly, supportive, admin team you will process all incoming clinical documents ensuring they are filed and actioned as appropriate. From these documents, you will prioritise any letters requiring urgent action and complete any related administrative tasks. Using your understanding of the patient record system, patient recalls, coding and reporting requirements for QOF, you will work with the team to ensure the patient record is as accurate as possible. You will work to meet both individual and organisational targets to ensure workload is completed in a timely manner to support our clinicians. Other duties commensurate with the role including auditing and reporting may also be required. Although experience of working in this area is desirable, full training will be available to the right candidate. Document Management Process all incoming clinical correspondence via Docman and Workflow systems, ensuring documents are scanned, coded, categorised, and assigned correctly. Prioritise urgent correspondence and escalate when necessary. Maintain accurate patient records, following practice protocols and information governance standards. Clinical Support Use approved read codes and SNOMED coding to support safe and efficient patient care. Identify and action administrative tasks within clinical letters e.g., medication queries, appointments, and follow-up actions. Work closely with GPs, nurses, pharmacists, and the admin team to ensure timely completion of workflow tasks. Administrative Duties Assist with general administrative tasks related to patient records. Support continuous improvement of workflow processes. Participate in audits and contribute to data quality initiatives. Uphold confidentiality and GDPR compliance at all times.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5530549",
+    "source": "NHS Jobs",
+    "title": "Admin Assistant - 20 hours",
+    "company": "British Pregnancy Advisory Service (BPAS)",
+    "advertiser_name": "British Pregnancy Advisory Service (BPAS)",
+    "location": "Coventry, CV3 5PZ, Nuneaton, CV10 8EJ, Stratford-upon-avon, CV37 6PP",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£24484.00 to £27583.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-11T09:49:41.984911312",
+    "closing_date": "2026-08-25",
+    "description": "*This role is working in our 3 units in the Warwickshire Cluster Do you enjoy working within a busy office or reception environment, where no two days are the same? We are looking for an experienced Admin Assistant to come and join our Warwickshire Cluster for 20 hours per week over Monday to Saturday. The role covers our units in Coventry, Nuneaton and Stratford. More details can be found in the further information section below. You'll work as part of the team in carrying out administration tasks in an efficient and friendly manner ensuring that clients feel accepted, supported, and confident about BPAS services. About You You will have proven experience of working within an office environment, where you've carried out administration duties. You will be an excellent communicator both internally and externally and will demonstrate a friendly and positive attitude when interacting with clients, colleagues, and external parties. Answer and direct telephone queries, liaising with both internal and external colleagues, as necessary. Accurately check or complete BPAS and legal paperwork, ensuring all relevant documentation is available for the clients episode of care. Monitor, edit and amend appointment list, using as appropriate BPAS booking system, informing clients if changes to their appointment become necessary. Assist in the monitoring, control and ordering of stock, sort and distribute incoming mail and prepare and despatch statistical information and reports. We are also looking for: Experience of dealing face to face with patients who may be upset, within a care environment. Knowledge of clerical procedures including checking documentation, telephone, and reception duties. Good attention to detail, supportive towards colleagues and clients and is an effective team player. The full job description and salary details can be found in the supporting documents on the right hand side. These are available for you to download and review. Further Information We may close this advert early if we receive a high number of suitable applications, although we aim to keep it open long enough to ensure a diverse and representative applicant pool. If you have any questions about the role or require adjustments to support your application, please get in touch, we are happy to help. Salary: £24,484 - £27,583 per annum pro rata (£13.08-£14.73p/h) - depending on skills/experience. Hours: 20 hours per week to be worked flexibly over Monday to Saturday within the opening hours of the units. Exact shifts between those parameters will be confirmed 2 weeks in advance. Saturday shifts are paid at time and a half. Locations: BPAS Coventry - Oasis Health Care Cheyslesmore Surgery, 51 Quinton Park, Coventry CV3 5PZ - base unit BPAS Nuneaton - Stockingford Medical Centre, 13 Northumberland Ave, Nuneaton CV10 8EJ BPAS Stratford - Rother House Medical Centre, Alcester Rd, Stratford-upon-Avon CV37 6PP Coventry will be your base unit with mileage paid to the Nuneaton and Stratford sites as per the expenses policy. Apply now Interested in making a difference? Apply today to join our team. Values & eligibility All applicants must be pro choice and support a woman's right to choose, in line with BPAS values and mission. Applicants must have the legal right to work in the UK at the time of application. Unfortunately, we are unable to offer visa sponsorship for this role. Application outcome If you do not hear from us within two weeks of the closing date, unfortunately you have not been shortlisted on this occasion. References & pre-employment checks All offers of employment are conditional on satisfactory pre-employment checks. Applicants must provide three years of employment references, including reasons for leaving and details of any gaps in employment.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-WARCL-AA-20-3",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-WARCL-AA-20-3",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5525238",
+    "source": "NHS Jobs",
+    "title": "Receptionist/Admin",
+    "company": "Godiva Group Practice",
+    "advertiser_name": "Godiva Group Practice",
+    "location": "Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-07T11:40:20.925596007",
+    "closing_date": "2026-09-10",
+    "description": "x 2 Roles required over our 4 sites. 20 + hours needed for each role. Experience of primary care or secondary care office work required. These roles will require you working am and pm shift. Receptionist/Administration Role To ensure that the reception area of the Practice runs smoothly, provides a high level of service to patients, doctors, Nurses and other members of the Practice team. * Telephone Duties * Reception Duties * Filing * Dealing with prescriptions orders and completion *General office duties * Administration (Dependant on experience) Duties and Responsibilities 1. Making appointments 2. Taking requests for prescriptions 3. Giving out results 4. Ambulance transport bookings 5. Home visit requests 6. Deal with general enquiries and complaints 7. Contacting other providers 8. Register new patients and temporary residents 9. Greet and direct patients and visitors 10. Making appointments 11. Handing out prescriptions 12. Ensure outstanding queries are explained and handed over to next shift 14. Collect payments from patients for non-NHS services 15. Deal with general enquiries and complaints 16. Pulling Lloyd George envelopes when requested by doctors 17. Dealing with requests for repeat prescriptions 18. Handing out Prescriptions 19. Dealing with queries relating to repeat prescriptions 20. Input and extract information from Practice computer system 21. Observe health and safety guidelines at all times 22. General housekeeping (e.g. keeping reception and waiting areas tidy) 23. Make refreshments for doctors and other team members, participate in washing Up 24. Clean and replenish GP surgery rooms 25. Any other reasonable duties as necessary (dependant on experience) 26. Process Referrals 27. Extract and prepare GDPR requests",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5552219",
+    "source": "NHS Jobs",
+    "title": "Cardiac Rehabilitation Administration Assistant",
+    "company": "University Hospitals Coventry and Warwickshire NHS Trust",
+    "advertiser_name": "University Hospitals Coventry and Warwickshire NHS Trust",
+    "location": "Coventry, CV1 3LN",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-08-20T14:28:13.627505972",
+    "closing_date": "2026-09-03",
+    "description": "Are you an organised and motivated administrator looking to develop your career within the NHS while making a real difference to patients' lives? We are seeking an enthusiastic individual to join our Cardiac Rehabilitation Service at UHCW on a 12-month fixed-term contract. You will provide vital administrative and clerical support to a multidisciplinary team delivering specialist rehabilitation services for patients with heart disease and heart failure across Coventry and Rugby. Based at the Centre for Exercise and Health in Coventry , you will play a key role in supporting the patient journey, helping to ensure the smooth delivery of services that enable patients to improve their health, regain confidence, and return to active, independent lives. Working closely with nurses, exercise specialists, pharmacists, admin specialists and other healthcare professionals, you will be part of a friendly and supportive team committed to delivering high-quality patient care and service excellence. This is an excellent opportunity to gain valuable NHS experience within a well-established and growing specialist service, while contributing to improved outcomes for patients across Coventry and Warwickshire. Please be advised that sponsorship is not eligible for this post. Closing Date: Please be advised that this job advert will close as soon as sufficient applications have been received. Please apply for this job as soon as you can, if interested. This role is ideally suited to an organised, proactive and motivated individual who enjoys working in a patient-focused environment. It offers the opportunity to work as part of a supportive multidisciplinary team and gain valuable experience within specialist cardiovascular services. The post holder will have regular direct contact with patients and healthcare professionals, supporting the coordination and delivery of heart failure and cardiac rehabilitation services across Coventry and Rugby. Key responsibilities include scheduling and managing patient appointments using the Trust's Electronic Patient Record (EPR) system, maintaining and updating clinical databases, making telephone calls to patients to confirm appointments, and providing comprehensive administrative and clerical support to ensure the effective day-to-day running of the service. The role provides an excellent opportunity to develop strong communication, organisational and administrative skills whilst contributing to the delivery of high-quality care. By helping to ensure patients receive timely access to rehabilitation services and a positive patient experience, the post holder will play an important role in supporting improved health outcomes for people living with cardiovascular disease The post holder will support the comprehensive administrative and clerical support to the Cardiac Rehabilitation Heart Failure Service and wider Cardiac Rehabilitation Team, contributing to the efficient delivery of patient care across Coventry and Rugby. Key responsibilities include coordinating and scheduling patient appointments using the Trust's Electronic Patient Record (EPR) system, preparing and distributing appointment letters and related correspondence, and maintaining regular telephone contact with patients to confirm appointments and support their journey through the service. The role will involve producing letters, reports, clinic documentation and other correspondence to a high standard, maintaining accurate electronic databases and filing systems, and ensuring patient information is recorded, stored and archived in accordance with Trust policies and information governance requirements. The post holder will act as a key point of contact for patients, carers and external organisations, responding to telephone and email enquiries in a professional and timely manner. They will support data collection and entry activities required for service monitoring, audit and reporting, helping to ensure the accuracy and quality of clinical information held within Trust systems. Working closely with the multidisciplinary cardiac rehabilitation team, the post holder will contribute to the smooth day-to-day running of the service, provide administrative cover during periods of staff absence, and support ongoing service improvement and development initiatives. They will undertake additional duties appropriate to the role as required by line management, demonstrating flexibility and a commitment to delivering a high-quality administrative service. For further details please see the attached job description. Secondment will be considered for internal candidates If you are successful after interview, you must obtain approval from your current line manager to accept the offer.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1046",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1046",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

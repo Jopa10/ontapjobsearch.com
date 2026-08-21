@@ -22,7 +22,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "9820bf06-51bb-4f69-82e6-2b5eac9ddf77",
@@ -197,7 +201,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "51b7084a-1bde-4019-b7ad-d02dbe202fc3",
@@ -222,7 +231,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "fa1ef494-67a9-42e9-9ce7-97a835002722",
@@ -300,6 +314,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "690e2029-c759-4ab7-8373-b2b9e688a411",
+    "title": "Administrative Assistant",
+    "company": "Acorn by Synergie - Agency - Temporary",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "13.5",
+    "salary_text": "£13.5 per hour",
+    "posted_date": "2026-08-21",
+    "description": "Administrative Assistant\n\nBridgwater £13.50 per hour 37 Hours per Week Temporary Minimum 5-Month Contract\n\nIntroduction\n\nAcorn by Synergie is currently recruiting for an Administrative Assistant to support general administrative tasks within production, order processing and finance in Bridgwater.\n\nThis is a minimum five-month contract with the opportunity to secure a permanent position for the right candidate. Immediate starts are available.\n\nWhat We Offer\n- £13.50 per hour.\n- Minimum five-month contract with potential for permanent employment.\n- Monday to Thursday, 8am-4:30pm.\n- Friday, 8am-1pm.\n- 37 hours per week.\n- Early finish on Fridays.\n- Immediate start available.\n\nKey Duties\n- Provide administrative support to the Senior Financial/Accounts team.\n- Enter sales orders accurately onto the internal system.\n- Run and maintain the in-house daily order system.\n- Process credit notes and supplier invoices.\n- Support other areas of the business when required.\n- Progress into additional responsibilities as experience develops.\n\nRequirements\n- Previous experience in an administrative role is essential.\n- Experience in credit control is desirable.\n- Excellent attention to detail.\n- Strong organisational skills with the ability to multitask.\n- Good team-working skills and a flexible approach.\n\nInterested?\n\nIf you're an experienced Administrative Assistant looking for a temporary opportunity in Bridgwater with the potential for permanent employment, apply now or contact Jamie at Acorn by Synergie for more information.\n\nAcorn by Synergie acts as an employment business for the supply of temporary workers.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIO3mhEv4PUWmBWrEIeiws2l",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Acorn by Synergie",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "b057a60a-2c93-4db4-9c58-db8583ada38e",
     "title": "Trust Operations Co-ordinator",
     "company": "Reed - Agency - Permanent",
@@ -322,7 +361,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107804771",
@@ -348,5 +391,62 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5538452",
+    "source": "NHS Jobs",
+    "title": "Clerical Officer Central Bookings",
+    "company": "Somerset NHS Foundation Trust",
+    "advertiser_name": "Somerset NHS Foundation Trust",
+    "location": "Yeovil, BA21 4AT",
+    "region": "Somerset",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-13T14:44:38.124334688",
+    "closing_date": "2026-08-25",
+    "description": "Are you an organised and customer-focused administrator who enjoys helping people? Do you thrive in a busy environment where no two days are the same? We are looking for a Radiology Booking Officer to join our friendly Radiology team at Yeovil Hospital on a weekend basis. This is a rewarding opportunity to play a vital role in supporting patient care by ensuring appointments are booked efficiently and patients receive an excellent experience from the moment they arrive. As the first point of contact for many patients, you will be welcoming visitors to the department, managing appointments, and supporting the smooth running of radiology services across the Trust and peripheral hospitals. Hours areSaturday & Sunday, 08:30 - 16:00. Working within a busy appointments and reception team, you will: Welcome and check in patients attending for scans and X-rays Provide a professional and friendly service both face-to-face and over the telephone Book, amend and reschedule radiology appointments in line with clinical priorities and Trust policies Ensure patients receive the information and preparation guidance needed for their procedures Liaise with clinicians, specialty teams, GP practices and community hospitals Maintain accurate patient records using Trust IT systems Support the management of appointment capacity and short-notice cancellations Help ensure patients receive timely access to diagnostic services Provide administrative support and assist with general office duties as required Please see attached Job Description & Person Specification for further details of duties and responsibilities.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1201",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1201",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5532487",
+    "source": "NHS Jobs",
+    "title": "Workflow/Admin Assistant",
+    "company": "Vine Surgery Partnership",
+    "advertiser_name": "Vine Surgery Partnership",
+    "location": "Street, BA16 0ET",
+    "region": "Somerset",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-11T16:01:40.863456074",
+    "closing_date": "2026-09-08",
+    "description": "We are looking for a skilled Workflow/ Admin Assistant to join our GP surgery team. This role would suit someone who is friendly and empathetic, highly organised and accurate, calm when busy, confident using computers, experienced in customer service or office work and willing to learn and work as part of a team. Working at our practice in Street, Somerset offers the opportunity to be part of a friendly, supportive team serving a welcoming and close-knit community. Street is a vibrant village with a strong community feel, well known for Clarks Village and its beautiful Somerset surroundings, while still within easy reach of Glastonbury, Wells and the Mendip Hills. As a practice, we pride ourselves on teamwork, mutual support and providing high quality care to our patients. We value staff who are approachable, organised and compassionate, and in return we offer a supportive working environment where people are encouraged to learn, develop and feel part of the team. This is a varied and sometimes challenging role. A full description is available but you will be part of a supportive team and each day will be full and rewarding. Liaises with patients, doctors, staff, other support staff, nursing staff, both surgery and attached, community nursing teams, mental health groups, funeral directors, counsellors, pharmacy, social services, commissioning groups, secondary care (acute and community hospitals), care homes, complex care hub and social prescribers Job Purpose, Aims and Profile The Workflow/Admin Assistant post is a multi-skilled position providing a high level of service to patients, internal and external clients and institutions. The post-holder: Works in Workflow responsible for processing and managing all incoming correspondence (electronically and paper) including coding and keeping the patients records accurate and up to date. Works in Data responsible for inputting and updating medical data for an agreed set of patients, and all related administrative tasks. General administrative and clerical duties as requested. Works in Admin responsible for all onward referrals to Secondary Care and other relevant services using systems such as Cinapsis, E-Referrals etc. Organising the timely completion of private medical reports Works in Reception (although the applicant will not specifically work within reception, they would need to have an understanding of how reception works as there may be times that cover and support is needed) working with the Rapid Health triage system; dealing with enquiries; advising on doctors and nurses availability; recording and passing messages on accurately and efficiently; carrying out a range of related reception duties as appropriate. Working Hours and Work Schedule Surgery working week: 08.00 6.30pm Monday to Friday, 08.00 08.00 pm on selected dates. Shared rota with 4 other local practices. Working hours; normal working schedule between 08.30 and 17:00pm or 20.00 pm Monday to Friday as required. Occasional Saturdays throughout the year on a rota basis. Monday; Tuesday; Wednesday; Thursday; Friday: daily schedules to be determined. The post-holder will be required to cover for colleagues who are absent on annual leave or sickness. Duties and Responsibilities Sort all prescription requests, both electronic and manual guided by Pharmacy Team Record any acute prescriptions and pass to the pharmacy team for consideration. Contact patients (when requested) to pass on doctors instructions and requests. Add messages/instructions/date for future action to the medication screen. Sort and place prescriptions ready for collection or according to their destination. Process all information flowing from/to doctors and external institutions as appropriate. Check and process any electronic information as appropriate each day. Process all records from Primary Care Support England as appropriate. Enter appropriate x-ray results read codes and comments from doctors. Sort and distribute all processed, scanned and unscanned documents as appropriate. Add delivery/birth details on mothers and babys screens; including Hospital Unit No. Assist in the processing of Prior Notification Lists from Open Exeter in connection with cervical smears. Ensure correct forms are completed and signed by a GP and returned if a patient needs to be removed from the cervical smear recall list. Check lab links on the screen each day, match any unmatched patients. Undertake SNOMED coding into EMIS. Update, maintain, file and retrieve patient records as appropriate. Scan medical records and file into the EMIS system. Set up systems in preparation for the working day. To assist with the gathering of statistics and information when required. Process deceased patients notes when required. Carry out searches of computerised medical records as requested. Check address template regularly to delete any errors. Process new patient registrations and questionnaires. Process deductions of patient notes when a patient leaves the surgery. Process and manage queries relating to online access requests. Process and manage all incoming correspondence. Managing the diary recall system, to include adding requests onto ICE for blood tests and booking appointments. NHS App and Proxy Access Set up and management Diary Entries Recall Support (including Child Imms, Minor Ops & QOF/Recall) Referrals (ERS & 2WW) - Prepare, process and submit referrals accurately using NHS e-Referral Service (e-RS), Advice and Guidance and other referral pathways such as secure email. Process suspected cancer referrals using C the Signs. Ensure urgent suspected cancer referrals are submitted within required timescales. Cinapsis Referrals and Admin SARS Private Medical Reports Attend for staff training when necessary. Receive, sort and circulate/distribute post. Filing of paper medical records. Attend any other training courses deemed necessary by the Practice Manager or Operations Manager. Carry out any other duties as requested by the Practice Manager or Operations Manager. Other General Conditions Holiday entitlement is five working weeks per year (pro rata) plus any Bank Holidays that fall on a normal working day. All employees are required to adhere to the Health and Safety at Work Act (1974) The job description will be subject to periodic reviews and may be changed in consultation with the post holder. On Appointment the post holder must agree to abide by the Statement of Terms and Conditions of Service and the Contract requirements; all published Surgery protocols; policies; procedures; guidelines and work-rules; and any other approved instruction & documentation that may be amended and issued from time to time.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5496755",
+    "source": "NHS Jobs",
+    "title": "Bank Administrator",
+    "company": "Practice Plus Group",
+    "advertiser_name": "Practice Plus Group",
+    "location": "Shepton Mallet, BA4 4LP",
+    "region": "Somerset",
+    "salary": "£12.72",
+    "employment_type": "Bank",
+    "posted_date": "2026-07-24T14:48:45.155313",
+    "closing_date": "2026-08-31",
+    "description": "UNLOCK YOUR BEST WORK LIFE + make a difference for every patient We're looking for a friendly, organised and customer-focused Bank Administrator to join our team and help deliver an exceptional experience for our patients. As part of our Administration Team, you'll play a vital role in supporting the smooth day-to-day running of hospital services, ensuring patients, visitors and colleagues receive a professional, efficient and welcoming service at every interaction. You'll work across a variety of administrative functions, helping to keep patient pathways moving and supporting the delivery of outstanding patient care. This is a Bank role; however, we are particularly interested to hear from candidates who can commit to working at least 34 days per week, or who are specifically looking for regular weekend work. The role offers flexibility while providing valuable experience within a busy healthcare environment. As our Bank Administrator, you will be: Providing an efficient appointment booking service for patients across outpatient and theatre services. Handling telephone enquiries from patients, GP surgeries and colleagues in a professional and courteous manner. Supporting patients with appointment queries both over the phone and face-to-face. Contacting patients to offer earlier appointments and supporting the management of internal waiting lists. Processing referrals and maintaining accurate patient records using the Patient Administration System (PAS). Monitoring clinic and theatre lists to help maximise capacity and support RTT targets. Coordinating outpatient clinics and ensuring documentation is prepared and available when required. Working collaboratively with departments across the hospital to ensure patients receive a seamless service. For more information request a copy of the full job description from sarah.melder@practiceplusgroup.com",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]
