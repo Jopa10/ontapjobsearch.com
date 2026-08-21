@@ -6,9 +6,93 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 114
+remembered_exclusions: 122
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Paraplanner
+employer: Dynamite Recruitment Solutions Ltd
+region: 
+town: Kent
+salary: 
+job_id: 21b54962-3f9e-44ad-b605-8727489e5ab8
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Operations Coordinator - Property
+employer: Fame Recruitment Consultants Ltd
+region: 
+town: London
+salary: 
+job_id: 9bc0d5b0-fdef-4be7-af67-805aab68f62e
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Japanese Speaking Financial Administrator
+employer: People First Recruitment
+region: 
+town: Hertfordshire
+salary: 
+job_id: 107761194
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Business Planner
+employer: Futura Design Limited
+region: 
+town: Warwickshire
+salary: 
+job_id: 107805369
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Associate Financial Planner
+employer: Capio Recruitment Financial Planning
+region: 
+town: London
+salary: 
+job_id: 3ab2f392-af18-4209-9778-2c4dea787073
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Associate Financial Planner
+employer: Capio Recruitment Financial Planning
+region: 
+town: Not Specified
+salary: 
+job_id: 191768fb-7fc5-4834-bdc7-31791090ae55
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-21
+title: Administrative Assistant (Work from Home, UK)
+employer: My VA business
+region: 
+town: Birmingham
+salary: 
+job_id: c944c618-406c-48d8-a9eb-c335d4627b57
+---
 
 ---
 action:
@@ -1355,6 +1439,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-21
+title: Mental Health Support Worker
+employer: Medgen Ltd
+region: 
+town: Wiltshire
+salary: 
+job_id: 107832011
+---
 
 ---
 action:

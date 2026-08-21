@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "5582b17d-7741-4c9a-9d77-69afac7db9e5",
@@ -51,14 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "8e6c1a5a-c668-45b1-9de6-53d744d43a70",
@@ -83,13 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration",
-      "Filing and document handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "6d20b85d-445b-4c01-8daf-f64841e51b77",
@@ -189,12 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225315175",
@@ -294,11 +272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "71430e77-0ba5-4c96-b670-57709e51ac59",
@@ -348,11 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0166c82c-3d15-4d2a-a8cf-a06c2cfa9336",
@@ -427,11 +397,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1682613",
@@ -481,12 +447,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107821330",
@@ -512,77 +473,5 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
-  },
-  {
-    "job_id": "nhs-5548501",
-    "source": "NHS Jobs",
-    "title": "Bank Booking Administrator",
-    "company": "Hertfordshire Partnership University NHS Foundation Trust",
-    "advertiser_name": "Hertfordshire Partnership University NHS Foundation Trust",
-    "location": "Hatfield, AL10 8YE",
-    "region": "Hertfordshire",
-    "salary": "£29812.00 to £32715.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T11:01:42.074806",
-    "closing_date": "2026-08-23",
-    "description": "An excellent opportunity has arisen for an experienced Administrator to join The Staff Bank Bureau in Hertfordshire Partnership University NHS Foundation, an CQC Outstanding Trust, based in Hatfield. We are seeking a competent, experienced administrator with good organisational skills to provide effective support to clinical and corporate services in the provision of booking appropriate staff to fill outstanding shifts within our Trust. The post holder will receive and process availability notifications and booking requests using the electronic Bank booking system to cover with Bank or Agency staff (if applicable). The role will be to provide support to all wards Managers / Team Leaders to ensure Inpatients shifts are covered and help to meet the needs of the service. The post holder will communicate and build a working relationship with staff at all levels as well as external Agencies and provide administration support to the Bank Team when required. Unfortunately this role is not eligible for Sponsorship Previous experience within administration is essential in addition to a sound knowledge of Microsoft packages and Healthroster / bank staff, excellent organisational skills and the ability to communicate at all levels. Full training will be provided for this role. The booking Team would also be expected to undertake On Call one evening per week for two & half hrs. If you would like to work in a dynamic and friendly environment, where no two days are the same, have excellent communication skills and the ability to remain calm and helpful, then we would like to hear from you. To contribute as part of the Staff Bank Bureau team in providing effective support to clinical and corporate services in the provision of booking appropriate staff to fill shifts and hours for the Trust services which request them. This will include the booking of temporary administrative, nursing, allied health professionals and social work staff. All staff should comply with the Trusts Anti-Discriminatory Statement, Employee Charter, Trust Policies and Procedures, Code of Conduct and Equality and Diversity. For further information - Please refer to Job Description.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0774",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0774",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5538325",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Hertfordshire Community NHS Trust",
-    "advertiser_name": "Hertfordshire Community NHS Trust",
-    "location": "St Albans, AL1 3JE",
-    "region": "Hertfordshire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-14T15:16:04.952584",
-    "closing_date": "2026-08-21",
-    "description": "Are you a highly motivated, organised and flexible receptionist? If so, we are looking for a full-time Band 2 Receptionist to be based at the St Albans Health and Wellbeing Centre and Sandridge Gate Business Park, St Albans. We are seeking an experienced and motivated receptionist to work Monday - Friday, 9-5pm or 8.30-4.30pm depending on demand. The receptionist is the first point of contact for all patients, staff and visitors to these busy centres. This role requires travel between centres in St Albans and travel to Watford to cover for annual leave and sickness periods. HCT will prioritise recruitment of workers living in England under the new immigration rules for care workers effective from 9 April 2025. Employers must first prove that they have attempted to recruit a worker from within England who needs new sponsorship. This ensures that those who came to the UK to pursue a career in adult social care can do so. Applicants must have good organisational skills, a range of office skills and experience in working in reception/administration. Excellent customer service skills are essential, as you will have both face to face and telephone contact with service users on a daily basis. Good written and verbal communication and interpersonal skills, a friendly approach and being enthusiastic are all required for this post. A knowledge of SystmOne would be an advantage but not essential as training will be provided. Part of this role will require the successful applicant to be flexible to provide receptionist cover for holiday/sickness when required, this will involve travelling to other centres within the locality. A full valid driving licence and access to a car to use regularly for business purposes is essential (unless you have a disability as defined by the Equality Act 2010). To meet and greet all visitors/patients face to face at the centre, ensuring visitors and staff complete the signing in/out book. Checking patients in for appointments via our patient system (SystmOne). To deal with telephone enquiries. To ensure that all visitors/clients are dealt with in a professional and helpful manner. To be the first point of contact for the day-to-day administration of facilities operations. Manage the reporting of maintenance jobs. Be responsible for the security, appearance and general tidiness of reception including ensuring leaflets and posters around the centre are up to date and relevant to the service. Undertake other duties that may occur from time to time as directed by senior management. To manage room bookings, ensuring that the computerised system is updated and all clinical space is used as effectively as possible. To manage all incoming and outgoing post, liaising with courier drivers and other departmental staff as required. Maintain and update any contact details and instructions at the front desk. To be prepared to work at other Trust sites in an emergency and cover annual leave. Direct all patients and visitors to the correct waiting area. Deal with any incidents in the waiting/reception area (including the cleaning of spillages) and to keep the area tidy. Be responsible for monitoring stationery, stock and non-stock supplies and equipment. To record and receipt of supplies and manage rotation of stock orders. Please see attached Job Description for full details. The use of AI is monitored and if you have used it then you are required to declare this, as well as what type of AI tools you have used and for what purpose. We reserve the right to further test your individual knowledge and skills in relation to the requirements for the post through robust and thorough interview and assessment.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0311",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0311",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5523647",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Larksfield and Arlesey Medical Partnership",
-    "advertiser_name": "Larksfield and Arlesey Medical Partnership",
-    "location": "Hitchin, SG54HB, ARLESEY, SG15 6SN",
-    "region": "Hertfordshire",
-    "salary": "£12.71 to £14.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-06T16:45:48.521652151",
-    "closing_date": "2026-08-31",
-    "description": "Larksfield and Arlesey Medical Partnership is seeking a motivated and organised Administrator to join our friendly and supportive team. This is a varied role that provides essential administrative support across the practice, helping to ensure the efficient day-to-day running of services and supporting the delivery of safe, high-quality patient care. Working closely with the management team, clinicians and colleagues, you will contribute to a range of administrative functions while maintaining professionalism, confidentiality and excellent customer service he successful candidate will support safeguarding administration, manage incoming and outgoing correspondence, prepare meeting agendas and minutes, maintain safeguarding registers and action logs, and respond to administrative queries. The role also includes supporting the Rota Manager with clinician rota coordination, maintaining accurate records and clinical rotas, producing reports and documentation, and assisting with governance, quality improvement and CQC compliance activities. You may also provide administrative support to the reception and secretarial teams during periods of operational demand. Provide comprehensive administrative support across the practice. Support safeguarding administration, including maintaining safeguarding registers, trackers and action logs. Process safeguarding correspondence, referrals and information requests. Prepare meeting agendas, take accurate minutes and circulate actions. Monitor shared email inboxes and ensure correspondence is actioned appropriately. Respond professionally to administrative queries from patients, staff and external organisations. Escalate urgent clinical, safeguarding or operational concerns where appropriate. Support the Rota Manager with booking locum clinicians and maintaining clinical rotas. Ensure clinician sessions and rota changes are accurately recorded and communicated. Maintain accurate electronic records, spreadsheets and filing systems. Produce reports, letters and other administrative documentation. Support audits, searches and governance activities, including CQC evidence gathering. Work collaboratively with clinicians, reception, secretarial teams and external stakeholders. Maintain confidentiality and comply with all practice policies, information governance and safeguarding procedures. Provide additional administrative support across departments during periods of increased operational demand.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5520329",
-    "source": "NHS Jobs",
-    "title": "Coordination Centre Administrator",
-    "company": "Rennie Grove Peace Hospice Care",
-    "advertiser_name": "Rennie Grove Peace Hospice Care",
-    "location": "Watford, WD17 3PH",
-    "region": "Hertfordshire",
-    "salary": "£25446.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-05T14:39:12.018516083",
-    "closing_date": "2026-09-03",
-    "description": "Coordination Centre Administrator Hours: 37.5 hours per week Location: Peace Hospice, Watford Salary: £25,446 per annum (pro rata) Closing date: 3 September 2026 at 12 noon Interview date: TBC What you will do: Acting as the first point of contact for patients, families and professionals and provide a kind and knowledgeable response when dealing with callers and knowing how and when to escalate. To deal appropriately and sensitively with all callers, adhering to hospice policies on confidentiality at all times. Working collaboratively with others in the Coordination Centre, including clinical colleagues and support them to ensure the patient and family receive the appropriate care in a timely way. Ensuring that data entry on to the clinical systems is complete and accurate. Work on a rota basis covering 8am to 6pm, seven days a week. --Shifts could be: Earlies: 8am - 4pm Day: 9am - 5pm Late: 10am - 6pm Acting as a Rennie Grove Peace Hospice Care ambassador Management of all referrals into Rennie Grove Peace, both those from external sources and internal referrals. Ensure that the correct team is notified of the referral and the priority score in order that the patient and family receive care in a timely fashion. Ensure that the correct data is entered into the clinical system. Call patients and family members to arrange appointments. Take messages from professionals, patients and family members to ensure they are passed to the most appropriate person. Pull data from the clinical system for pre-planned reports such as patient lists or missing data reports. Book rooms for appointments, prepare clinic letters and process patient discharge summaries, ensuring these are all completed in a timely manner. Support and train those new to the team including volunteers. To work with the SystmOne (S1) champions across the hospice, being able to provide the S1 admin induction sessions for all new staff and contribute to the S1 train the trainer sessions. Lead others across the organisation by acting in a professional, kind and competent manner at all times.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
   }
 ]

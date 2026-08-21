@@ -63,11 +63,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "45bae37e-0b67-4df4-ae16-6dd3348fcfeb",
@@ -133,11 +129,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "ac5d5840-151a-4857-9bcc-dcb8c776c918",
@@ -247,11 +239,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476071",
@@ -339,12 +327,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Safeguarding",
-      "Emotional support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225513634",
