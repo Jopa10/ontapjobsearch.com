@@ -1,12 +1,13 @@
 # Ontap System Map
 
 **Last updated:** 21 August 2026  
-**Status:** Canonical production architecture after cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening and initial Customer Sales production launch.
+**Status:** Canonical production architecture after cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales production launch and live regional reporting.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
+- 21 August 2026 — The daily regional overview now treats **Customer Sales / Sales Advisor as a first-class LIVE family** rather than test-only. The current verified snapshot is **3 / 33 LIVE regions and 33 LIVE jobs**: **London 20, Greater Manchester - Manchester & Salford 6, Yorkshire - West 7**. LIVE Sales counts are read from the current published Customer Sales configured-slice JSON, and the overview refreshes when relevant Sales register/report/page inputs change. NOT LIVE Sales Advisor remains `—` until the governed 33-region daily Sales assessment is wired into this overview; `—` means not assessed, not zero.
 - 21 August 2026 — Customer Sales / Sales Advisor completed proof-region testing, governed national validation and 33-region diagnostic assessment. Explicit LIVE approval is limited to **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West**. The first verified production publish completed successfully on 21 August with **20 London jobs, 6 Manchester & Salford jobs and 7 Yorkshire - West jobs**. All three public `/job-search/.../customer-sales-jobs` routes returned HTTP 200, rendered job-detail links and exposed the expected JobG8-backed Apply actions. These counts are a launch snapshot, not automatic activation/deactivation thresholds. Production generation is integrated into the existing JobG8/configured-slice/verified-publish chain; genuine Sales/Service Admin overlap remains valid. North East and all other Customer Sales regions remain non-LIVE diagnostics until separately approved.
 - 21 August 2026 — NHS job-detail presentation now preserves the source vacancy text while rendering it as readable headings, paragraphs and bullets instead of a flattened text dump. Long NHS descriptions show the first six presentation blocks and place the remainder behind `Show full NHS role information`; this is presentation-only and does not rewrite/summarise the vacancy.
 - 21 August 2026 — Regional Service Admin display ordering now treats NHS as a complementary stream after composition: non-NHS jobs retain the normal location-first scan, NHS jobs retain Tier A/B → switchability → freshness priority, and at most one NHS role is inserted after each four non-NHS roles. The upstream hard 20% NHS source ceiling remains unchanged and is not replaced by the display rhythm.
@@ -216,6 +217,8 @@ Operational reports include:
 
 Customer Sales national/33-region assessment remains diagnostic evidence for non-LIVE regions. A positive count does not activate a region; only the three explicitly approved Customer Sales slices are in production. The 21 August **20 / 6 / 7** first-live counts are therefore a verification snapshot, not a standing publish threshold.
 
+`pipeline/reports-daily/daily-region-overview.md` now treats Sales Advisor as a production family for LIVE reporting. Its current snapshot is **3 / 33 LIVE regions and 33 LIVE jobs**: London 20, Greater Manchester - Manchester & Salford 6, Yorkshire - West 7. For these LIVE rows the overview reads the current published `app/_city-pages/configured-slices/**/customer-sales-jobs.json` data directly. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily Sales assessment is integrated; `—` is deliberately ‘not assessed’, not zero.
+
 The city-opportunity scanner is diagnostic/decision support. It must not auto-activate a city page.
 
 Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflows.
@@ -277,6 +280,7 @@ Core scheduled workflows include:
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily;
 - `refresh-nhs-admin-service-review.yml` — 10:05 UTC daily;
 - `ontap-daily-review.yml` — 08:45 Europe/London;
+- `build-daily-region-overview.yml` — rebuilds the 33-region overview after verified publication and when relevant Sales register, live-count, published Sales-slice or overview-code inputs change; LIVE Sales counts are sourced from published configured-slice JSON;
 - `google-indexing-api.yml` — 19:30 UTC daily.
 
 The owner-facing publication entry point is `apply-publish-ontap-daily-review.yml`. NHS is one of its source publishers. The reviewed NHS publisher uses `compose_nhs_admin_daily.py`, the same transactional composer as the normal daily run, before the shared verified Service Admin page publish. Customer Sales requires no separate production workflow: its output is generated in the main JobG8 chain and published by the common configured-slice verified publisher.
