@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 57
-- automatic exclude: 1
-- effective include: 1
-- effective review: 57
-- effective exclude: 1
+- automatic include: 4
+- automatic review: 59
+- automatic exclude: 10
+- effective include: 4
+- effective review: 59
+- effective exclude: 10
 
-## INCLUDE (1)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Locality Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0JY
+source: NHS Jobs
+job_id: nhs-5541835
+reason: Approved Southampton catchment.
+---
 
 ---
 action: 
@@ -36,7 +48,31 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (57)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Registration Authority Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO30 3JB
+source: NHS Jobs
+job_id: nhs-5531319
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: UEL Business Administrator
+company: UHS Estates Limited
+location: Southampton, SO16 6YD
+source: NHS Jobs
+job_id: nhs-5534493
+reason: Approved Southampton catchment.
+---
+
+## REVIEW (59)
 
 ---
 action: 
@@ -126,6 +162,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Care Navigator (Medical Receptionist)
+company: Vine Medical Group
+location: Waterlooville, PO7 7AH, Waterlooville, PO7 6AL, Waterlooville, PO7 8NS
+source: NHS Jobs
+job_id: nhs-5538036
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contract Service Desk Lead
 company: Spectrum It Recruitment Limited - Agency - Contract
 location: Hampshire
@@ -155,6 +203,18 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225512479
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Dental Receptionist
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Petersfield, GU32 3LB
+source: NHS Jobs
+job_id: nhs-5545728
 reason: Broad location; review before city inclusion.
 ---
 
@@ -722,7 +782,67 @@ job_id: jobg8-1595701
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (1)
+## EXCLUDE (10)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant (Head Office)
+company: Mid Hampshire Healthcare Ltd
+location: Winchester, SO23 0LD
+source: NHS Jobs
+job_id: nhs-5531413
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
+source: NHS Jobs
+job_id: nhs-5538687
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Derby Road Practice
+location: Portsmouth, PO2 8HW
+source: NHS Jobs
+job_id: nhs-5544734
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5534148
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist - Kingston Crescent Surgery
+company: Portsdown Group Practice
+location: Portsmouth, PO2 8AL
+source: NHS Jobs
+job_id: nhs-5536224
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -733,5 +853,53 @@ company: The Portsmouth Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administration-assistant-the-portsmouth-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
+source: NHS Jobs
+job_id: nhs-5553368
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Subject Access Request Clerical Administrator
+company: Isle of Wight NHS Trust
+location: Portsmouth, PO3 5PR
+source: NHS Jobs
+job_id: nhs-5549069
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Basingstoke, RG21 4AP
+source: NHS Jobs
+job_id: nhs-5544487
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Trust Wide Band 2 Administrator
+company: Portsmouth Hospitals University NHS Trust
+location: Cosham, PO6 3LY
+source: NHS Jobs
+job_id: nhs-5544429
 reason: Separate employment market.
 ---

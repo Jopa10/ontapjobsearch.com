@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 38
-- automatic exclude: 2
-- effective include: 1
-- effective review: 38
-- effective exclude: 2
+- automatic include: 3
+- automatic review: 40
+- automatic exclude: 8
+- effective include: 3
+- effective review: 40
+- effective exclude: 8
 
-## INCLUDE (1)
+## INCLUDE (3)
 
 ---
 action: 
@@ -36,7 +36,31 @@ job_id: teaching-vacancies-administrative-assistants-cardinal-newman-catholic-sc
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (38)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist (Bank)
+company: Warmdene Surgery
+location: Brighton, BN1 8DD
+source: NHS Jobs
+job_id: nhs-5548209
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Administrator
+company: Ardingly Court Surgery
+location: Brighton, BN21SS
+source: NHS Jobs
+job_id: nhs-5529564
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (40)
 
 ---
 action: 
@@ -355,10 +379,34 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Bird In Eye Surgery
+location: Uckfield, TN22 5AW
+source: NHS Jobs
+job_id: nhs-5534860
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Grafters Recruitment Consultants Ltd - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225448794
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist - Hillrise Newhaven
+company: Sussex Partnership NHS Foundation Trust
+location: Newhaven, East Sussex,, BN9 9HH
+source: NHS Jobs
+job_id: nhs-5527606
 reason: Broad location; review before city inclusion.
 ---
 
@@ -494,7 +542,31 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (8)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Bersted Green Surgery
+location: Bognor Regis, PO22 9TD
+source: NHS Jobs
+job_id: nhs-5546075
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Sussex Community NHS Foundation Trust
+location: Chichester, PO201EZ
+source: NHS Jobs
+job_id: nhs-5550487
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -517,5 +589,53 @@ company: Robsack Wood Primary School
 location: St Leonards-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-admin-assistant-robsack-wood-primary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Arlington Road Medical Practice
+location: Eastbourne, BN21 1DH
+source: NHS Jobs
+job_id: nhs-5536742
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: St Leonards on Sea, TN37 7PT
+source: NHS Jobs
+job_id: nhs-5546281
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Crawley, RH11 7DH
+source: NHS Jobs
+job_id: nhs-5537052
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator / Coordinator
+company: Sussex Partnership NHS Foundation Trust
+location: Worthing, BN11 1HS
+source: NHS Jobs
+job_id: nhs-5538492
 reason: Separate employment market.
 ---

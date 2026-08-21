@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 16
-- automatic exclude: 43
-- effective include: 7
-- effective review: 16
-- effective exclude: 43
+- automatic include: 8
+- automatic review: 22
+- automatic exclude: 52
+- effective include: 8
+- effective review: 22
+- effective exclude: 52
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Approved Huddersfield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: New Street and Netherton Group Practice
+location: Huddersfield, HD3 4LB, HUDDERSFIELD, HD4 7EX
+source: NHS Jobs
+job_id: nhs-5528376
+reason: Approved Huddersfield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Dental
 company: Edgerton Dental Clinic - Agency - Permanent
 location: Huddersfield
@@ -108,7 +120,7 @@ job_id: jobg8-fd387b6d-bd12-42df-b80e-63b0c3763922
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (22)
 
 ---
 action: 
@@ -150,6 +162,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator/Secretary
+company: Hillfoot Surgery
+location: Pudsey, LS28 7QR
+source: NHS Jobs
+job_id: nhs-5534882
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Data Officer
 company: De Lacy Academy
 location: Knottingley
@@ -174,6 +198,30 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist / Care Navigator
+company: Robin Lane Health & Wellbeing Centre
+location: Pudsey, LS28 7DE
+source: NHS Jobs
+job_id: nhs-5550046
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Surgery Receptionist
+company: NORTHGATE SURGERY
+location: Pontefract, WF8 1NF
+source: NHS Jobs
+job_id: nhs-5535823
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: HR 180 - Agency - Permanent
 location: Wetherby
@@ -186,11 +234,35 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Honley Surgery
+location: Holmfirth, HD9 6AG
+source: NHS Jobs
+job_id: nhs-5538365
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225476804
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations & Compliance Administrator
+company: Blackburn Road Medical Centre
+location: Batley, WF17 9PL
+source: NHS Jobs
+job_id: nhs-5551474
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -294,6 +366,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Team Administrator - Single Point of Access
+company: South West Yorkshire Partnership NHS Trust
+location: Batley, WF17 5PW
+source: NHS Jobs
+job_id: nhs-5546637
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Administration Assistant
 company: Pyramid8 - Agency - Permanent
 location: Castleford
@@ -302,7 +386,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (43)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -368,11 +452,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Leeds, LS12 2TJ
+source: NHS Jobs
+job_id: nhs-5544150
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrator - Leeds Head Office
 company: T3AM Global - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225425538
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Coordinator
+company: Conexus Healthcare CIC
+location: Wakefield, WF2 7PJ
+source: NHS Jobs
+job_id: nhs-5532564
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Conexus Healthcare CIC
+location: Wakefield, WF2 7PJ
+source: NHS Jobs
+job_id: nhs-5532434
 reason: Separate employment market.
 ---
 
@@ -476,6 +596,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Experienced Medical Centre Receptionist
+company: Arthington Medical Centre
+location: Leeds, LS10 2JJ
+source: NHS Jobs
+job_id: nhs-5528274
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Facilities Coordinator
 company: Baker Harding Limited - Agency - Contract
 location: Leeds
@@ -536,6 +668,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Administrator
+company: The Pharmacist Network
+location: Leeds, NE4 7YB
+source: NHS Jobs
+job_id: nhs-5549735
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Reed - Agency - Temporary
 location: Leeds
@@ -565,6 +709,18 @@ company: BDS (Northern) Limited - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225499042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Centre Receptionist / Care Navigator
+company: Arthington Medical Centre
+location: Leeds, LS10 2JJ
+source: NHS Jobs
+job_id: nhs-5549469
 reason: Separate employment market.
 ---
 
@@ -644,6 +800,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: People and Culture Administrator (Resourcing)
+company: Spectrum Community Health CIC
+location: Wakefield, WF1 5RH
+source: NHS Jobs
+job_id: nhs-5539626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
+company: Trust Primary Care Ltd
+location: Bradford, BD7 3JX
+source: NHS Jobs
+job_id: nhs-5530362
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Property & Facilities Co-ordinator
 company: Baker Harding Limited - Agency - Contract
 location: Leeds
@@ -697,6 +877,18 @@ company: Manpower UK Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225463852
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Wilsden Medical Practice
+location: Bradford, BD15 0NJ
+source: NHS Jobs
+job_id: nhs-5526900
 reason: Separate employment market.
 ---
 

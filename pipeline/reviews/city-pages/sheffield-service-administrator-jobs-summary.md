@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 14
 - automatic review: 3
-- automatic exclude: 14
-- effective include: 12
+- automatic exclude: 19
+- effective include: 14
 - effective review: 3
-- effective exclude: 14
+- effective exclude: 19
 
-## INCLUDE (12)
+## INCLUDE (14)
 
 ---
 action: 
@@ -105,6 +105,30 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225439789
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5538767
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Beauchief Medical Practice
+location: Sheffield, S8 0BJ, Sheffield, S174DQ
+source: NHS Jobs
+job_id: nhs-5549526
 reason: Approved Sheffield catchment.
 ---
 
@@ -206,7 +230,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -229,6 +253,18 @@ company: Anonymous - Agency - Contract
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225457187
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Doncaster, DN5 8UX
+source: NHS Jobs
+job_id: nhs-5537316
 reason: Separate employment market.
 ---
 
@@ -332,11 +368,59 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544450
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544481
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist - AM shift - DN1
 company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225488492
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Admin Assistant
+company: High Street Practice
+location: Barnsley, S71 4RF
+source: NHS Jobs
+job_id: nhs-5535510
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
+source: NHS Jobs
+job_id: nhs-5550923
 reason: Separate employment market.
 ---
 

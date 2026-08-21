@@ -150,5 +150,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5537316",
+    "source": "NHS Jobs",
+    "title": "Administrator (Part Time)",
+    "company": "Practice Plus Group - Health in Justice",
+    "advertiser_name": "Practice Plus Group - Health in Justice",
+    "location": "Doncaster, DN5 8UX",
+    "region": "Yorkshire - South",
+    "salary": "£12049.80 to £13334.53",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-14T09:42:17.288504541",
+    "closing_date": "2026-08-21",
+    "description": "UNLOCK YOUR BEST WORK LIFE + MAKE A DIFFERENCE TO EVERY LIFE We have an exciting opportunity for an Administrator to join the team at HMP YOI Doncaster, a busy male remand prison in Doncaster. Practice Plus Group provides healthcare services across the wings, clinic areas, inpatient facilities, and reception services. Bespoke induction, including our Introducing Health in Justice training course Competency framework Regional and national career development opportunities Our bespoke Learning Management System to address your learning needs Support from the wider team Candidates are required to have a Legal right to work in the UK and due to the nature of the role, offers of employment will be subject to additional vetting and security checks As our new Administrator, your responsibilities will include: As the first point of contact for the healthcare team, you will actively speak to hospitals, GP surgeries, solicitors and others, arranging external appointments for patients, requesting discharge summaries and patient summaries etc Work closely with the wider prison team to arrange hospital appointments, escorts and bed watch. You will also ensure that prison officers have up to date clinic lists Process E Referrals and appointment requests Minute take as needed in meetings Update trackers, systems and spreadsheets for hospital appointments, admissions, consent forms etc General admin duties such as scanning, post, and stock check If you are interested in career development, we have a wide range of opportunities for you to develop your skills and experience, which include both internal and external options for development and learning. It doesnt stop there we also offer: Company pension scheme 25 days annual leave increasing with service up to 28 days per year, plus public bank holidays An extensive range of wellbeing and lifestyle benefits Discounts on shopping and leisure activities Support to grow in your role and continue your professional development Excellent long-term career prospects 24/7 employee assistance helpline and financial assistance when you need it",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0126",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0126",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

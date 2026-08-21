@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 34
-- automatic exclude: 21
-- effective include: 23
-- effective review: 34
-- effective exclude: 21
+- automatic include: 29
+- automatic review: 41
+- automatic exclude: 26
+- effective include: 29
+- effective review: 41
+- effective exclude: 26
 
-## INCLUDE (23)
+## INCLUDE (29)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: North Tyneside Council
 location: North Tyneside
 source: NEJobs
 job_id: nejobs-300537
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Gateshead, NE11 0AL
+source: NHS Jobs
+job_id: nhs-5541050
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Newcastle Upon Tyne, NE6 4PF
+source: NHS Jobs
+job_id: nhs-5550089
 reason: Approved Newcastle catchment.
 ---
 
@@ -232,11 +256,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: DBS01116/26 - Admin Assistant - Hazlewood Community Primary School
+title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
 company: North Tyneside Council
-location: Hazlewood Community Primary School, Canterbury Way, Wideopen, Newcastle upon Tyne
+location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
 source: NEJobs
-job_id: nejobs-299761
+job_id: nejobs-300866
 reason: Approved Newcastle catchment.
 ---
 
@@ -244,11 +268,59 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
-company: North Tyneside Council
-location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
-source: NEJobs
-job_id: nejobs-300866
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE11 9AE
+source: NHS Jobs
+job_id: nhs-5534064
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5HQ
+source: NHS Jobs
+job_id: nhs-5541887
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Heaton Road Surgery
+location: Newcastle Upon Tyne, NE6 1SA
+source: NHS Jobs
+job_id: nhs-5539455
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Northumberland Park Medical Group
+location: Newcastle upon Tyne, NE27 0HJ
+source: NHS Jobs
+job_id: nhs-5546520
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: The Village Surgery
+location: Newcastle, ST5 0ET
+source: NHS Jobs
+job_id: nhs-5525341
 reason: Approved Newcastle catchment.
 ---
 
@@ -300,7 +372,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (34)
+## REVIEW (41)
 
 ---
 action: 
@@ -408,6 +480,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-3f80b0ca-14b3-48bf-add3-29c3133d4940
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator / Care Coordinator
+company: Great Lumley Surgery
+location: Chester le Street, DH3 4LE
+source: NHS Jobs
+job_id: nhs-5545378
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -547,11 +631,47 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Leadgate Surgery
+location: Consett, DH8 6DP
+source: NHS Jobs
+job_id: nhs-5540152
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Staff Partners Business - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225449718
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist (Fixed Term Contract)
+company: Birtley Medical Group
+location: Chester Le Street, DH3 2QT
+source: NHS Jobs
+job_id: nhs-5545473
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist/Administrator
+company: Concord Medical Practice
+location: Washington, NE37 2PU
+source: NHS Jobs
+job_id: nhs-3933853
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -606,11 +726,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Marlborough Surgery
+location: Seaham, SR7 7JE
+source: NHS Jobs
+job_id: nhs-5532281
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist – Various Posts
 company: South Tyneside Council
 location: Various Locations
 source: NEJobs
 job_id: nejobs-300662
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: St. Andrew’s Medical Practice
+location: Spennymoor, DL16 6QA
+source: NHS Jobs
+job_id: nhs-5532977
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -647,6 +791,18 @@ company: First Class Supply & Training
 location: School Administrators required, various roles available throughout South Tyneside
 source: NEJobs
 job_id: nejobs-256125
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Customer Care Administrator
+company: Northumbria Healthcare NHS Foundation Trust
+location: Ashington, NE63 9UT
+source: NHS Jobs
+job_id: nhs-5550263
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -710,7 +866,7 @@ job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -812,6 +968,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer (Therapy Services)
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: Sunderland, SR4 7TP, JARROW, NE32 3UX, SOUTH SHIELDS, NE34 0PL, SOUTH SHIELDS, NE34 8PS, Sunderland, SR3 4AG
+source: NHS Jobs
+job_id: nhs-5544416
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer service advisor
 company: Berry Recruitment - Agency - Temporary
 location: County Durham
@@ -841,6 +1009,30 @@ company: Hays Business Support - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225512280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Claypath and University Medical Practice
+location: Durham, DH1 1QW, DURHAM, DH1 3JX
+source: NHS Jobs
+job_id: nhs-5547933
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Lanchester Medical Centre
+location: Durham, DH7 0LS
+source: NHS Jobs
+job_id: nhs-5547068
 reason: Separate employment market.
 ---
 
@@ -896,6 +1088,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Havelock Grange Practice
+location: Hartlepool, TS24 7PW
+source: NHS Jobs
+job_id: nhs-5544630
+reason: Outside Newcastle catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Administrator
 company: First Class Supply & Training
 location: Sunderland
@@ -937,6 +1141,18 @@ company: Randstad Construction & Property - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-36547dcd-c244-44e4-85dc-381581cc0e47
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5RD
+source: NHS Jobs
+job_id: nhs-5539752
 reason: Separate employment market.
 ---
 

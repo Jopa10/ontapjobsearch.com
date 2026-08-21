@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 3
-- automatic exclude: 20
-- effective include: 6
+- automatic exclude: 26
+- effective include: 7
 - effective review: 3
-- effective exclude: 20
+- effective exclude: 26
 
-## INCLUDE (6)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Doncaster, DN5 8UX
+source: NHS Jobs
+job_id: nhs-5537316
+reason: Approved Doncaster catchment.
+---
 
 ---
 action: 
@@ -134,7 +146,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -301,6 +313,78 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225439789
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5538767
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Beauchief Medical Practice
+location: Sheffield, S8 0BJ, Sheffield, S174DQ
+source: NHS Jobs
+job_id: nhs-5549526
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544450
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544481
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Admin Assistant
+company: High Street Practice
+location: Barnsley, S71 4RF
+source: NHS Jobs
+job_id: nhs-5535510
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
+source: NHS Jobs
+job_id: nhs-5550923
 reason: Separate employment market.
 ---
 

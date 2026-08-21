@@ -181,5 +181,24 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual"
+  },
+  {
+    "job_id": "nhs-5528376",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "New Street and Netherton Group Practice",
+    "advertiser_name": "New Street and Netherton Group Practice",
+    "location": "Huddersfield, HD3 4LB, HUDDERSFIELD, HD4 7EX",
+    "region": "Yorkshire - West",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-10T13:59:58.187893207",
+    "closing_date": "2026-09-07",
+    "description": "New Street & Netherton Group Practice is looking to recruit a full time medical receptionist to join our friendly experienced team. The position offered is for 38 hours per week. Working on Monday AND Friday will be a requirement for this role. Job share will be considered. We are looking for hardworking, committed and enthusiastic individuals with good IT skills who are able to demonstrate excellent customer care. Previous experience of working in general practice is desirable but not essential as full training will be provided. Applicants must be able to work both independently and as part of a team. They will need to be able to adapt to the day to day demands of working in a busy general practice setting. Remuneration for the role exceeds the National Living wage. We offer attractive employment benefits including an annual leave entitlement of 4 weeks, pro rata, and access to the NHS Pension Scheme. To carry out a range of reception and administrative tasks in relation to the day-to-day running of the practice's reception service. Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient way. Provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. These duties will be carried out at both our Milnsbridge and Netherton sites. The following are the core responsibilities of the Receptionist. There may be, on occasion, a requirement to carry out other tasks. This will be dependent upon factors such as workload and staffing levels: a. Maintain and monitor the practice appointment system b. Process personal, telephone and e-requests for appointments c. Answer incoming phone calls, transferring calls or dealing with the callers request appropriately d. Signpost patients to the correct service e. Initiating contact with and responding to, requests from patients, team members and external agencies f. As required support in the management of repeat prescriptions, ensuring they are processed accurately and efficiently g. Clinically code data on SystmOne h. Photocopy documentation as required i. Data entry of new and temporary registrations and relevant patient information as required j. Input data into patients healthcare records as necessary k. Action patient correspondence as necessary l. Scan patient related documentation and attach scanned documents to patients healthcare records m. Direct requests for information, i.e., SAR, insurance/solicitors letters and DVLA forms to the administrative team n. Manage all queries as necessary in an efficient manner o. Carry out system searches as requested p. Maintain a clean, tidy, effective working area at all times q. Monitor and maintain the reception area and notice boards r. Complete opening and closing procedures in accordance with the duty rota s. Order and monitor stationery supplies t. Support all clinical staff with general tasks as requested",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1091-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1091-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]
