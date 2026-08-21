@@ -46,8 +46,8 @@ FAMILIES = (
         "source_category": "Customer Sales / Sales Advisor",
         "decision_report": "",
         "profile_category": "",
-        "candidate_dir": "output-customer-sales-test",
-        "candidate_pattern": "{slug}.json",
+        "candidate_dir": "",
+        "candidate_pattern": "",
     },
 )
 
@@ -74,6 +74,19 @@ def _count_json_data(data) -> int:
 
 def _job_count(path: Path) -> int:
     return _count_json_data(_load_json(path))
+
+
+def _published_sales_count(region_slug: str) -> int:
+    """Count the current published Customer Sales configured-slice JSON directly."""
+    path = (
+        REPO_ROOT
+        / "app"
+        / "_city-pages"
+        / "configured-slices"
+        / region_slug
+        / "customer-sales-jobs.json"
+    )
+    return _job_count(path) if path.is_file() else 0
 
 
 def _load_statuses() -> dict[tuple[str, str], str]:
@@ -243,6 +256,8 @@ def _load_teaching_vacancies_counts(regions: list[tuple[str, str]]) -> dict[str,
 
 
 def _candidate_count_if_present(region_slug: str, family: dict[str, str]) -> int | None:
+    if not family["candidate_dir"] or not family["candidate_pattern"]:
+        return None
     candidate_path = (
         PIPELINE_ROOT
         / family["candidate_dir"]
@@ -289,7 +304,10 @@ def build() -> str:
         for family in FAMILIES:
             status = statuses.get((region_name, family["register_category"]), "")
             is_live = status == "LIVE"
-            live_count = live_counts.get((region_name, family["source_category"]), 0) if is_live else 0
+            if is_live and family["key"] == "sales_advisor":
+                live_count = _published_sales_count(slug)
+            else:
+                live_count = live_counts.get((region_name, family["source_category"]), 0) if is_live else 0
 
             candidate_count: int | None = None
             candidate_source = ""
@@ -300,9 +318,6 @@ def build() -> str:
                 elif family["profile_category"] and (region_name, family["profile_category"]) in profile_counts:
                     candidate_count = profile_counts[(region_name, family["profile_category"])]
                     candidate_source = "profile"
-                elif family["key"] == "sales_advisor":
-                    candidate_count = _candidate_count_if_present(slug, family)
-                    candidate_source = "test" if candidate_count is not None else ""
 
                 if family["key"] == "service_admin" and region_name in teaching_counts:
                     candidate_count = (candidate_count or 0) + teaching_counts[region_name]
@@ -322,7 +337,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE counts reconcile to `{source_report}` on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile ({profile_date or 'unavailable'}). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. Sales Advisor uses local test output if present; otherwise `—`. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile ({profile_date or 'unavailable'}). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily assessment is wired into this overview. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
