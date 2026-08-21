@@ -1,12 +1,4 @@
 JobG8 download attempt 1/6
-Attempt 1 returned unusable feed (27 bytes); waiting before retry
-JobG8 download attempt 2/6
-Attempt 2 returned unusable feed (27 bytes); waiting before retry
-JobG8 download attempt 3/6
-Attempt 3 returned unusable feed (27 bytes); waiting before retry
-JobG8 download attempt 4/6
-Attempt 4 returned unusable feed (27 bytes); waiting before retry
-JobG8 download attempt 5/6
 Download is a ZIP archive
 Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
 Columns: 30
