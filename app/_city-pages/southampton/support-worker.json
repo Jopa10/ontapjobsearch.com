@@ -19,7 +19,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Safeguarding",
+      "Emotional support"
+    ]
   },
   {
     "job_id": "1642086",
@@ -44,6 +48,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107776250",
+    "title": "Night Care Assistant",
+    "company": "Crystal Care Group South East - Agency - Permanent",
+    "location": "Southampton",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "14.31",
+    "salary_max": "14.31",
+    "salary_text": "£14.31 per hour",
+    "posted_date": "2026-08-21",
+    "description": "Night Care Assistant\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nMake Every Night Matter\n\nAre you looking for a rewarding career where you can genuinely make a difference to people's lives?\n\nAt Crystal Care Collection , we're committed to creating luxury homes where r click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4ijjAX4IKWIxXoFXNVfyt4z",
+    "source": "JobG8",
+    "advertiser_name": "Crystal Care Group South East",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "58c3e926-cf9b-4aae-a931-e1c867a7b221",
     "title": "Support Worker - Children & Young People",
     "company": "Randstad Care - Agency - Temporary",
@@ -63,7 +89,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   },
   {
     "job_id": "1642087",

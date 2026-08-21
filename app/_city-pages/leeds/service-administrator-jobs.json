@@ -122,7 +122,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225425538",
@@ -275,31 +281,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107752534",
-    "title": "Emerging Talent and Careers Coordinator",
-    "company": "Hackajob Ltd - Agency - Contract",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-12",
-    "description": "hackajob is partnering directly with and Jet 2holidays to hire for this role.\n\nAt\n\nand\n\nJet 2holidays\n\n, we're working together to deliver an amazing journey, literally! As our business continues to grow, developing a strong pipeline of future talent is vital, and that's where you come in click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5X6xWjEGVsIB93LapJB8wMz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hackajob Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107680320",
     "title": "Facilities Coordinator",
     "company": "Baker Harding Limited - Agency - Contract",
@@ -447,7 +428,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225476554",
@@ -473,6 +459,35 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "b79dda43-6548-42a7-9fea-ce94421b4625",
+    "title": "Internal Sales Coordinator",
+    "company": "Elevation Recruitment Group - Agency - Permanent",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "30000",
+    "salary_text": "£28000 - £30000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Internal Sales Coordinator Location: Sherburn in Elmet (Office-based)Salary: £28,000 - £32,000\n\nWe're recruiting an Internal Sales Coordinator to join a reputable engineering business based in Sherburn in Elmet. This is a fantastic opportunity for a confident and driven sales professional who enjoys speaking with customers, building relationships and converting opportunities.\n\nThe role will focus on developing new and existing B2 B customer relationships, generating sales opportunities and supporting business growth. You'll need to be comfortable picking up the phone, speaking with customers and proactively following up opportunities.\n\nThe Role:\n- Contact new and existing B2 B customers to generate sales opportunities\n- Build relationships and understand customer requirements\n- Follow up enquiries and quotations to maximise conversions\n- Make outbound calls and engage with key contacts\n- Maintain accurate records of sales activity\n- Work closely with the wider sales team to support growth\n\nWhat We're Looking For:\n- Confident communicator with a proactive sales approach\n- Comfortable speaking with customers over the phone\n- Strong relationship-building skills\n- Motivated, organised and target-focused\n- Previous experience in internal sales, telesales or a customer-facing role would be beneficial\n\nIf you're passionate about sales, enjoy building relationships and want to be part of a growing business, this could be a great opportunity.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZuj%2fQy2yNLT7BBisLyGwwBk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Elevation Recruitment Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "bd623950-5977-468e-9053-63bca82caef4",
@@ -622,7 +637,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-cross-gates-primary-school",
@@ -681,6 +701,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "107876115",
+    "title": "Sustainable Funding Coordinator",
+    "company": "LJ Recruitment Limited - Agency - Permanent",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-21",
+    "description": "Sustainable Funding Coordinator\n\nSalary: £30,000 per annum + 25 days annual leave\nLocation: Remote - with occasional travel to head office in Leeds\nReports to: Bids and Contracts Manager\nContract Type: Full-time / Permanent\n\nRole Overview\n\nWe are seeking a proactive and highly organised Sustainable Funding Coordinator to support the delivery of funding and expansion initiatives across our organisation click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyfKn0fqSRmqF9jP5fHz2Ezv",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "LJ Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225519206",
     "title": "Temporary Executive Support Administrator",
     "company": "Hays Business Support - Agency - Temporary",
@@ -703,7 +748,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "nhs-5528274",
@@ -758,6 +807,25 @@
     "description": "UNLOCK YOUR BEST WORK LIFE + MAKE A DIFFERENCE TO EVERY LIFE We have an exciting opportunity for an Administrator to join the team at HMP Leeds a category B male prison located in Leeds. HMP Leeds is a busy remand prison, so we have a high turnover of men, which makes for a fast paced, challenging, but exciting environment! This role offers a lot of variety, where no 2 days are ever the same - you will be the first point of contact for healthcare! You will work on the wings regularly, interacting with patients during drop in sessions as well as working with the wider prison team. Bespoke induction, including our Introducing Health in Justice training course Competency framework Regional and national career development opportunities Our bespoke Learning Management System to address your learning needs Support from the wider team Candidates are required to have a Legal right to work in the UK and due to the nature of the role, offers of employment will be subject to additional vetting and security checks As our new Administrator, your responsibilities will include: Being the first point of call for the healthcare team, you will respond to emails (Practice Plus Group and NHS), receive and make calls, as well as general admin duties, Arrange and chase referrals and appointments (internal and external), coordinating external hospital appointments alongside the wider prison team, coordinating bed watch in external hospitals, arranging escorts for external appointments etc Working alongside the Patient Engagement Lead, assist with the release and transfer of patients (including follow on care and medication) and much more! Work on the wings for drop in sessions regularly, acting as the admin contact for prisoners and helping them with any healthcare queries, applications or issues Carry out group inductions with new inmates, explaining more about the healthcare service Minute take as necessary If you are interested in career development, we have a wide range of opportunities for you to develop your skills and experience, which include both internal and external options for development and learning. It doesnt stop there we also offer: Company pension scheme 25 days annual leave increasing with service up to 28 days per year, plus public bank holidays An extensive range of wellbeing and lifestyle benefits Discounts on shopping and leisure activities Excellent long-term career prospects 24/7 employee assistance helpline and financial assistance when you need it",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5555590",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "The Pharmacist Network",
+    "advertiser_name": "The Pharmacist Network",
+    "location": "Leeds, NE4 7YB",
+    "region": "Yorkshire - West",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-21T15:42:27.459375128",
+    "closing_date": "2026-09-01",
+    "description": "THE PHARMACIST NETWORK Administrator Job Description Reports to: Business Operations Coordinator Direct reports: None Location: Newcastle, Hybrid Working pattern: Full-time, Monday-Friday 9am-5pm Salary: £26,000 £27,000 The Administrator keeps the day-to-day administration of the TPN central team running. It is a broad, hands-on support role: managing shared inboxes and correspondence, maintaining accurate records across TPN's systems, preparing documentation, and coordinating the routine processes that keep a busy operations function moving. The role suits someone organised and IT literate who is comfortable owning routine work end to end, spotting when something has been missed, and keeping records clean without being chased. Key accountabilities: Manage TPN's shared administrative inboxes triaging enquiries, responding to routine correspondence, and routing what needs a specialist to the right person. Maintain accurate, current records across TPN's systems and shared drives data entry, file management, version control, and routine housekeeping. Prepare and format documents, templates, reports, and correspondence to a consistent standard. Support the compliance administration around TPN's workforce collating and filing documentation, tracking what is outstanding, and flagging gaps for the responsible manager. Coordinate meetings and diary logistics scheduling, room and video setup, circulating papers, and taking and distributing notes where required. Provide administrative support to the wider central team on projects and recurring operational tasks. Handle sensitive and confidential information in line with GDPR and TPN's data handling requirements. Contribute to improving administrative processes surfacing what is slow, duplicated, or manual, and helping tidy it up. This list is not exhaustive; the role may include other administrative responsibilities as the central team develops. Skills and experience Essential skills: Organisation and prioritisation managing a varied workload across competing requests without dropping detail IT literacy confident across Microsoft 365 (Outlook, Word, Excel, Teams, SharePoint) and quick to pick up new systems Accuracy and attention to detail, particularly in data entry and record keeping Clear written and verbal communication, including professional correspondence with colleagues and external contacts Discretion and confidentiality when handling personal and sensitive information Self-direction and initiative - comfortable organising and managing your own workload. Essential experience: Prior administrative experience in an office, operations, or business support setting Experience maintaining records or databases with a high standard of accuracy Experience managing a shared inbox or handling routine correspondence on behalf of a team Desirable: Healthcare, primary care, pharmacy, or NHS-adjacent experience Experience supporting a compliance, HR, or recruitment administration process Familiarity with CRM, ATS, or workflow systems (TPN is moving onto the Zoho ecosystem) Experience working in a hybrid team across multiple sites",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"

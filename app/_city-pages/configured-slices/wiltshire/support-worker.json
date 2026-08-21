@@ -19,7 +19,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Support plans",
+      "Risk and needs assessments",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "107863276",
@@ -36,6 +41,28 @@
     "posted_date": "2026-08-21",
     "description": "Agency Healthcare Assistant\n\nPay rate: £14.29 an hour, weekly pay\n\nReference: HCA/SWINDON/4\n\nAre you a compassionate individual looking to make a difference in people's lives? We'd like you to join us at Jane Lewis as an Agency Care Assistant in Swindon.\n\nWe are offering an exciting opportunity to support a range of individuals with varying needs click apply for full job details",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6ecJwEjvJ13vzwsAm8pPCBvh",
+    "source": "JobG8",
+    "advertiser_name": "Chester Health TA Janes Lewis",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107863273",
+    "title": "Support Worker",
+    "company": "Chester Health TA Janes Lewis - Agency - Temporary",
+    "location": "Devizes",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Temporary",
+    "salary_min": "14.29",
+    "salary_max": "14.29",
+    "salary_text": "£14.29 per hour",
+    "posted_date": "2026-08-21",
+    "description": "Support Worker\n\nLocation: Rhyl\nPay Rate: £14.29 per hour\nReference: SW/SWINDON/4\n\nAre you a compassionate individual looking to make a difference in people's lives? We'd like you to join us at Jane Lewis as a Support Worker in Swindon\n\nWhat We Offer you as a Support Worker:\n- Competitive pay: £14 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4C1iJ4KkVaj2WgH3OF5f4Bg",
     "source": "JobG8",
     "advertiser_name": "Chester Health TA Janes Lewis",
     "advertiser_type": "Agency",

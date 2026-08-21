@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 59
+- automatic review: 58
 - automatic exclude: 10
 - effective include: 4
-- effective review: 59
+- effective review: 58
 - effective exclude: 10
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (59)
+## REVIEW (58)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: The Hyde Group - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-a0639dfd-56cb-4c60-95e9-ec98745f232c
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Coordinator
+company: South Hampshire College Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107825061
 reason: Broad location; review before city inclusion.
 ---
 
@@ -275,42 +287,6 @@ company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225497720
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-4274e7f2-0812-4082-81f0-791e07dff1cd
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant- Xero experience
-company: Office Angels - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-c7513af2-74eb-4011-bb87-5b623fbf8fc4
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fleet/Lease Administrator
-company: Rise Technical Recruitment - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225422287
 reason: Broad location; review before city inclusion.
 ---
 
@@ -546,6 +522,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: wild recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-9503494c-fa67-4792-9c23-2e76f3e3d564
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planner
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -587,18 +575,6 @@ company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225448844
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Michael Page Finance - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-bc8e6b66-d67e-4f4c-9392-7285e25de89b
 reason: Broad location; review before city inclusion.
 ---
 
@@ -702,6 +678,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Coordinator
+company: Workshop Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225520689
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Scheduler
 company: BRC - Agency - Permanent
 location: Hampshire
@@ -726,11 +714,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor - Automotive
-company: Additional Resources Ltd - Agency - Permanent
+title: Service Coordinator
+company: Rise Technical Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-e1606359-364e-43e8-8eb4-2a52ebeee938
+job_id: jobg8-23643_225419560
 reason: Broad location; review before city inclusion.
 ---
 
@@ -739,10 +727,10 @@ action:
 decision: review
 automatic_decision: review
 title: Service Coordinator
-company: Rise Technical Recruitment - Agency - Permanent
+company: The Workshop - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225419560
+job_id: jobg8-107770605
 reason: Broad location; review before city inclusion.
 ---
 
@@ -836,11 +824,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist - Kingston Crescent Surgery
-company: Portsdown Group Practice
-location: Portsmouth, PO2 8AL
+title: Receptionist - Community Mental Health
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO3 6AD, Portsmouth, PO4 8LD
 source: NHS Jobs
-job_id: nhs-5536224
+job_id: nhs-5532705
 reason: Separate employment market.
 ---
 

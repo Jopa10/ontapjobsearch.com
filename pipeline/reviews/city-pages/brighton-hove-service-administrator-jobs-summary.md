@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 40
+- automatic review: 34
 - automatic exclude: 8
 - effective include: 3
-- effective review: 40
+- effective review: 34
 - effective exclude: 8
 
 ## INCLUDE (3)
@@ -40,6 +40,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 1AE
+source: NHS Jobs
+job_id: nhs-5555750
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist (Bank)
 company: Warmdene Surgery
 location: Brighton, BN1 8DD
@@ -48,19 +60,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist / Administrator
-company: Ardingly Court Surgery
-location: Brighton, BN21SS
-source: NHS Jobs
-job_id: nhs-5529564
-reason: Approved Brighton & Hove catchment.
----
-
-## REVIEW (40)
+## REVIEW (34)
 
 ---
 action: 
@@ -138,6 +138,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Part-Time)
+company: First Recruitment Services - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225523989
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Coordinator Administrator
 company: HR GO Recruitment - Agency - Permanent
 location: Sussex
@@ -174,18 +186,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: 77 Diamonds - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-f87870ad-8f06-4bfa-9d7b-2d83b9b6f0b8
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Administrator
 company: Clearline Recruitment Ltd - Agency - Permanent
 location: Sussex
@@ -203,30 +203,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225514099
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Higher Education Administrator 3 days a week M/T/W
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225411917
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Higher Education Administrator 3 days a week M/T/W
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-8dfd4428-944d-4205-9e14-933991d5c6b1
 reason: Broad location; review before city inclusion.
 ---
 
@@ -258,18 +234,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marine Commercial Administrator
-company: Tarmac Trading Limited - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107683890
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist Apprentice
 company: Clearline Recruitment Ltd - Agency - Permanent
 location: Sussex
@@ -282,23 +246,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Premier Work Support - Agency - Temporary
+title: Mental Health Support Coordinator
+company: Southdown - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225411840
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Coordinator
-company: Premier Work Support - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-deebf7d4-f859-450f-8762-ca06bf59a65d
+job_id: jobg8-107869789
 reason: Broad location; review before city inclusion.
 ---
 
@@ -402,18 +354,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Hillrise Newhaven
-company: Sussex Partnership NHS Foundation Trust
-location: Newhaven, East Sussex,, BN9 9HH
-source: NHS Jobs
-job_id: nhs-5527606
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Administrator P/T
 company: Pertemps Crawley - Agency - Permanent
 location: Sussex
@@ -479,18 +419,6 @@ company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225498357
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor - Automotive
-company: Additional Resources Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-6f77c841-20b0-4658-8d97-6d3801a3aed6
 reason: Broad location; review before city inclusion.
 ---
 

@@ -1,11 +1,14 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1674633,Accommodation Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1642086,Care and Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
+include,jobg8-107776250,Night Care Assistant,Crystal Care Group South East - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-58c3e926-cf9b-4aae-a931-e1c867a7b221,Support Worker - Children & Young People,Randstad Care - Agency - Temporary,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1642087,Waking Night Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-1401784493,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784339,Care Assistant (Older Adults),Hampshire County Council - Company - Permanent,Emsworth,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784594,Day Opportunities Support Worker,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+review,jobg8-107332363,Domiciliary Care Assistant,ECS Recruitment Consultants Ltd - Agency - Permanent,Alton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
+review,jobg8-107812604,Female Waking Night Support Worker,SeeAbility - Agency - Permanent,Tadley,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 exclude,jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61,Care Assistant - Bank - Care Home,Barchester Healthcare - Company - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker
 exclude,jobg8-62ac8011-cb52-461e-bd72-7273b61cb640,Child Support Worker,Randstad Care - Agency - Temporary,Portsmouth,JobG8,exclude,exclude,Separate employment market.,portsmouth,southampton-support-worker
 exclude,jobg8-1401784414,Children's Home Support Worker,Hampshire County Council - Company - Permanent,Fareham,JobG8,exclude,exclude,Separate employment market.,fareham,southampton-support-worker

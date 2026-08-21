@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 3
+- automatic include: 5
+- automatic review: 5
 - automatic exclude: 7
-- effective include: 4
-- effective review: 3
+- effective include: 5
+- effective review: 5
 - effective exclude: 7
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Night Care Assistant
+company: Crystal Care Group South East - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-107776250
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Support Worker - Children & Young People
 company: Randstad Care - Agency - Temporary
 location: Southampton
@@ -72,7 +84,7 @@ job_id: jobg8-1642087
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (5)
 
 ---
 action: 
@@ -108,6 +120,30 @@ location: Alton
 source: JobG8
 job_id: jobg8-1401784594
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Domiciliary Care Assistant
+company: ECS Recruitment Consultants Ltd - Agency - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-107332363
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Female Waking Night Support Worker
+company: SeeAbility - Agency - Permanent
+location: Tadley
+source: JobG8
+job_id: jobg8-107812604
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (7)

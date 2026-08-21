@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 3
-- automatic exclude: 26
-- effective include: 7
+- automatic exclude: 28
+- effective include: 6
 - effective review: 3
-- effective exclude: 26
+- effective exclude: 28
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -96,18 +96,6 @@ job_id: jobg8-23643_225423861
 reason: Approved Barnsley catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist Admin Assistant
-company: High Street Practice
-location: Barnsley, S71 4RF
-source: NHS Jobs
-job_id: nhs-5535510
-reason: Approved Barnsley catchment.
----
-
 ## REVIEW (3)
 
 ---
@@ -146,7 +134,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -212,11 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer - Local Authority Library
-company: Reed - Agency - Temporary
+title: Business Support Officer – Attendance
+company: King Edward VII School
 location: Sheffield
-source: JobG8
-job_id: jobg8-52198d55-9fac-4d35-8505-b9a814bc54dc
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 reason: Separate employment market.
 ---
 
@@ -224,11 +212,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer – Attendance
-company: King Edward VII School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
 reason: Separate employment market.
 ---
 
@@ -248,6 +248,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Import/Export Coordinator
 company: Hays Business Support - Agency - Permanent
 location: Sheffield
@@ -260,11 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225439789
+job_id: jobg8-23643_225522912
 reason: Separate employment market.
 ---
 
@@ -272,11 +284,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Support Administrator (Doncaster)
-company: BMC Recruitment Group - Agency - Permanent
-location: Doncaster
+title: Project Co-ordinator
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
 source: JobG8
-job_id: jobg8-9d793cd4-ff2a-4749-9512-a7407298f539
+job_id: jobg8-23643_225439789
 reason: Separate employment market.
 ---
 
@@ -368,6 +380,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist/Administrator
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
+source: NHS Jobs
+job_id: nhs-5554992
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Account Coordinator
 company: Staffline Recruitment Limited - Agency - Contract
 location: Doncaster
@@ -445,17 +469,5 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Warranty Support Coordinator
-company: Switch Mobility Ltd - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-107728351
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 41
-- automatic exclude: 26
-- effective include: 29
-- effective review: 41
-- effective exclude: 26
+- automatic include: 37
+- automatic review: 40
+- automatic exclude: 25
+- effective include: 37
+- effective review: 40
+- effective exclude: 25
 
-## INCLUDE (29)
+## INCLUDE (37)
 
 ---
 action: 
@@ -136,6 +136,30 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-deab967b99c6e63d0dd459a12179664a
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-0dc834e990c9af3799011e2ebb0fc687
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Call Centre Operator
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
@@ -196,11 +220,59 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-87702a1e673975e9bbf89c3879ce0d96
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-b84827dfe56f1cdb62c773823ebeb739
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-d24d3d6916a209e15b1680693740da2f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-153faf593eb64b88272f45adeaa28d87
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-18920c4c3acd80a428cbeccf0253ec33
 reason: Approved Newcastle catchment.
 ---
 
@@ -256,6 +328,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-dc0a27dec7f9767a517f1bdee6e96749
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
 company: North Tyneside Council
 location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
@@ -285,6 +369,18 @@ company: Akari Care Limited
 location: Newcastle, NE5 5HQ
 source: NHS Jobs
 job_id: nhs-5541887
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Betts Avenue Medical Centre
+location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+source: NHS Jobs
+job_id: nhs-5555684
 reason: Approved Newcastle catchment.
 ---
 
@@ -372,7 +468,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (41)
+## REVIEW (40)
 
 ---
 action: 
@@ -594,6 +690,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Development Planner
+company: Persimmon Homes - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107869330
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Facilities Coordinator
 company: The Bowes Museum
 location: Barnard Castle
@@ -672,18 +780,6 @@ location: Washington, NE37 2PU
 source: NHS Jobs
 job_id: nhs-3933853
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Coordinator
-company: FRP Group - Company - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-eafa8287-56b3-4ecd-a9bc-8fb95aa554c4
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -854,19 +950,7 @@ job_id: jobg8-943068d0-ae1e-4bc4-b25a-1ed0b4d06b93
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Office Coordinator
-company: FRP Group - Company - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-fc295d6b-6c54-413b-8ca1-0bef809a8273
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (26)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -1069,18 +1153,6 @@ company: Verelogic Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-107798281
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part-Time Accounts Assistant
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-eb882a3e-7edf-4fe0-8fe1-cf24c12bf16f
 reason: Separate employment market.
 ---
 

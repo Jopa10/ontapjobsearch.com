@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 10
 - automatic review: 3
-- automatic exclude: 26
-- effective include: 7
+- automatic exclude: 24
+- effective include: 10
 - effective review: 3
-- effective exclude: 26
+- effective exclude: 24
 
-## INCLUDE (7)
+## INCLUDE (10)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Project Support Administrator (Doncaster)
-company: BMC Recruitment Group - Agency - Permanent
+title: Call Centre Agent
+company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-9d793cd4-ff2a-4749-9512-a7407298f539
+job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
 reason: Approved Doncaster catchment.
 ---
 
@@ -81,6 +105,18 @@ company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225488492
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
+source: NHS Jobs
+job_id: nhs-5554992
 reason: Approved Doncaster catchment.
 ---
 
@@ -146,7 +182,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -205,18 +241,6 @@ company: Springwell Special Academy
 location: Barnsley
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Officer - Local Authority Library
-company: Reed - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-52198d55-9fac-4d35-8505-b9a814bc54dc
 reason: Separate employment market.
 ---
 
@@ -308,6 +332,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225522912
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Project Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -361,18 +397,6 @@ company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
 job_id: nhs-5544481
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist Admin Assistant
-company: High Street Practice
-location: Barnsley, S71 4RF
-source: NHS Jobs
-job_id: nhs-5535510
 reason: Separate employment market.
 ---
 
@@ -445,17 +469,5 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Warranty Support Coordinator
-company: Switch Mobility Ltd - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-107728351
 reason: Separate employment market.
 ---

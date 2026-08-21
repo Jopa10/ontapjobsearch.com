@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 1
-- automatic exclude: 33
+- automatic exclude: 34
 - effective include: 3
 - effective review: 1
-- effective exclude: 33
+- effective exclude: 34
 
 ## INCLUDE (3)
 
@@ -74,7 +74,7 @@ job_id: nhs-5538096
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -284,6 +284,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Sales Administrator
+company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-337293d6-0b83-4e3a-a2cb-3b48b534647b
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Learning and Development Coordinator
 company: Rose & Young Recruitment Ltd - Agency - Permanent
 location: Warwickshire
@@ -368,18 +380,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Macildowie Recruitment and Retention - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-9bccef77-3de5-4082-92cc-aefc7bf20d50
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
 company: Apex Focus Group - Company - Permanent
 location: Warwickshire
@@ -457,6 +457,18 @@ company: Bis Henderson - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2b0f08ad-fe9d-4637-8766-17a7c353b0cd
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Customer Service Administrator
+company: BRELLIS RECRUITMENT LIMITED - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-ad75989e-18ff-4ce7-8011-5c311dcf878f
 reason: Separate employment market.
 ---
 

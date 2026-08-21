@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 9
 - automatic review: 6
-- automatic exclude: 9
-- effective include: 11
+- automatic exclude: 8
+- effective include: 9
 - effective review: 6
-- effective exclude: 9
+- effective exclude: 8
 
-## INCLUDE (11)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Unity Resourcing Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225438303
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Claims Advisor
-company: Michael Page Business Support - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-f5b72259-1b25-4076-9a2d-968b31c64d5d
 reason: Approved York catchment.
 ---
 
@@ -144,18 +132,6 @@ job_id: nhs-5550198
 reason: Approved York catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator - York and Selby Talking Therapies Team
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO32 9XW
-source: NHS Jobs
-job_id: nhs-5547601
-reason: Approved York catchment.
----
-
 ## REVIEW (6)
 
 ---
@@ -230,7 +206,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -301,18 +277,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Northallerton, DL6 2FG
 source: NHS Jobs
 job_id: nhs-5520240
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Technical & Quality Support Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225409226
 reason: Separate employment market.
 ---
 

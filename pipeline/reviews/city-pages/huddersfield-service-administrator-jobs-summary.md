@@ -4,8 +4,8 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 22
-- automatic exclude: 52
-- effective include: 8
-- effective review: 22
-- effective exclude: 52
+- automatic include: 5
+- automatic review: 20
+- automatic exclude: 57
+- effective include: 5
+- effective review: 20
+- effective exclude: 57
 
-## INCLUDE (8)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,30 +64,6 @@ reason: Approved Huddersfield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Claims Handler
-company: HARKAYE CORE TALENT LIMITED - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-6a55e736-5510-42ab-be96-7fd29e0f09b7
-reason: Approved Huddersfield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: New Street and Netherton Group Practice
-location: Huddersfield, HD3 4LB, HUDDERSFIELD, HD4 7EX
-source: NHS Jobs
-job_id: nhs-5528376
-reason: Approved Huddersfield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist / Dental
 company: Edgerton Dental Clinic - Agency - Permanent
 location: Huddersfield
@@ -108,19 +84,7 @@ job_id: jobg8-23643_225413268
 reason: Approved Huddersfield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Kingdom People - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-fd387b6d-bd12-42df-b80e-63b0c3763922
-reason: Approved Huddersfield catchment.
----
-
-## REVIEW (22)
+## REVIEW (20)
 
 ---
 action: 
@@ -319,30 +283,6 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
-company: Hays Business Support - Agency - Permanent
-location: Wetherby
-source: JobG8
-job_id: jobg8-23643_225412849
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Wetherby
-source: JobG8
-job_id: jobg8-9334c81f-29de-4db5-8094-52bdf13c7291
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
 company: Reed - Agency - Permanent
 location: Shipley
 source: JobG8
@@ -386,7 +326,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (52)
+## EXCLUDE (57)
 
 ---
 action: 
@@ -457,6 +397,18 @@ company: Practice Plus Group - Health in Justice
 location: Leeds, LS12 2TJ
 source: NHS Jobs
 job_id: nhs-5544150
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: The Pharmacist Network
+location: Leeds, NE4 7YB
+source: NHS Jobs
+job_id: nhs-5555590
 reason: Separate employment market.
 ---
 
@@ -584,18 +536,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Emerging Talent and Careers Coordinator
-company: Hackajob Ltd - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-107752534
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Experienced Medical Centre Receptionist
 company: Arthington Medical Centre
 location: Leeds, LS10 2JJ
@@ -704,6 +644,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Sales Coordinator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-b79dda43-6548-42a7-9fea-ce94421b4625
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Investigatory data administrator
 company: BDS (Northern) Limited - Agency - Temporary
 location: Bradford
@@ -781,6 +733,18 @@ company: Huntress - Leeds - Agency - Permanent
 location: Wetherby
 source: JobG8
 job_id: jobg8-23643_225445220
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Order Management Administrator
+company: Winsearch - Agency - Temporary
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225522242
 reason: Separate employment market.
 ---
 
@@ -920,6 +884,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Administrator
+company: Huntress - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-b22620c4-8d84-4bd4-b0f6-2706961f635a
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: pyramid8 - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-0b881fe3-bb4b-4e81-b879-b9af36114fe7
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Receptionist
 company: Cross Gates Primary School
 location: Leeds
@@ -961,6 +949,18 @@ company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sustainable Funding Coordinator
+company: LJ Recruitment Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107876115
 reason: Separate employment market.
 ---
 

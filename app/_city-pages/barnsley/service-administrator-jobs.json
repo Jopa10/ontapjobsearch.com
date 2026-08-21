@@ -22,7 +22,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1",
@@ -125,7 +130,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225423861",
@@ -151,24 +161,5 @@
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "nhs-5535510",
-    "source": "NHS Jobs",
-    "title": "Receptionist Admin Assistant",
-    "company": "High Street Practice",
-    "advertiser_name": "High Street Practice",
-    "location": "Barnsley, S71 4RF",
-    "region": "Yorkshire - South",
-    "salary": "£13.07",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-13T16:18:45.504349498",
-    "closing_date": "2026-08-28",
-    "description": "Job summary We are looking to appoint a new full time admin/receptionist. As a member of the admin team your input to our practice team and our patients will be important. You will be integral to the delivery of high-quality patient care for our patients. Candidates must be flexible as cover may be required to cover annual leave for other members of the team. CV's will not be accepted. We may close this advert early if we receive enough suitable applicants. You would be part of a team of admin and will provide admin and receptionist support for clinicians and patients. PRINCIPAL RESPONSIBILITIES 1 To receive and direct patients and other professionals in a courteous and efficient manner. 2 To operate the telephone system 3 To make appointments on the computerized system. 4 To deal with enquiries from patients and other professionals. 5 To process computerized repeat prescriptions in the prescribed manner. 6 To record messages and requests for home visits on the computer in the prescribed manner. 7 To open and process mail 8 To file correspondence and medical records and to extract same as appropriate. 9 To generate and issue standard computerized letters. 10 To input and extract data from the computerized medical system 11 Photocopying documents 12 To process patient hospital referrals on an online booking system 13 To cover for absent colleagues 14 Liaise with patients, hospitals and chemists as requested by the Gps 15 Supporting and assisting the Doctors during surgery times as required 16 Liaising with secondary care providers and arranging transport as necessary. 17 liaise with attached staff, including health visitors, district nurses, midwives, counsellors etc 18 Any other task required by the Gp or practice manager. 19 Be able to send and receive emails. Duties could possibly be amended due to the changing needs of the Practice and NHS healthcare.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2859-26-0005",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2859-26-0005",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
   }
 ]

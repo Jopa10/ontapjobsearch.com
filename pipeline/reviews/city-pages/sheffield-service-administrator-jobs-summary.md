@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 3
-- automatic exclude: 19
+- automatic exclude: 20
 - effective include: 14
 - effective review: 3
-- effective exclude: 19
+- effective exclude: 20
 
 ## INCLUDE (14)
 
@@ -45,18 +45,6 @@ company: Sytner Group - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-adf64226-53b0-42b1-966f-f25e74fb3ff5
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer - Local Authority Library
-company: Reed - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-52198d55-9fac-4d35-8505-b9a814bc54dc
 reason: Approved Sheffield catchment.
 ---
 
@@ -93,6 +81,18 @@ company: Hays Business Support - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225437743
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225522912
 reason: Approved Sheffield catchment.
 ---
 
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -296,6 +296,42 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -337,18 +373,6 @@ company: TRC Yorkshire - Agency - Temporary
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225423861
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Support Administrator (Doncaster)
-company: BMC Recruitment Group - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-9d793cd4-ff2a-4749-9512-a7407298f539
 reason: Separate employment market.
 ---
 
@@ -404,11 +428,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist Admin Assistant
-company: High Street Practice
-location: Barnsley, S71 4RF
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
 source: NHS Jobs
-job_id: nhs-5535510
+job_id: nhs-5550923
 reason: Separate employment market.
 ---
 
@@ -417,10 +441,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
 source: NHS Jobs
-job_id: nhs-5550923
+job_id: nhs-5554992
 reason: Separate employment market.
 ---
 
@@ -445,17 +469,5 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225433915
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Warranty Support Coordinator
-company: Switch Mobility Ltd - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-107728351
 reason: Separate employment market.
 ---
