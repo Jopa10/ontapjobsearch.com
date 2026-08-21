@@ -3,11 +3,12 @@ Download is a ZIP archive
 Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
 Columns: 30
 Hampshire: 7 jobs / 7 employers
-Greater Manchester - Manchester & Salford: 6 jobs / 5 employers
+Greater Manchester - Manchester & Salford: 7 jobs / 6 employers
 Yorkshire - West: 6 jobs / 5 employers
 Hampshire: +0 conditional account sales; 7 total before QA refinement
-Greater Manchester - Manchester & Salford: +1 conditional account sales; 7 total before QA refinement
+Greater Manchester - Manchester & Salford: +1 conditional account sales; 8 total before QA refinement
 Yorkshire - West: +2 conditional account sales; 8 total before QA refinement
 hampshire.json: 7 -> 4 jobs (3 removed)
-manchester-salford.json: 7 -> 6 jobs (1 removed)
+manchester-salford.json: 8 -> 7 jobs (1 removed)
 west-yorkshire.json: 8 -> 6 jobs (2 removed)
+STOP: expected 33 Ontap regions from main catalog; found 34
