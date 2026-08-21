@@ -1,5 +1,4 @@
 ﻿feed_date,decision,region,title,town,salary_text,working_arrangement,working_arrangement_text,working_arrangement_evidence,manual_override,manual_select,job_id
-2026-08-21,SELECTED,Yorkshire - West,Sales Administrator,Wetherby,£28000 - £30000 per year (£28-30K),onsite_or_not_stated,,,,,23643_225412849
 2026-08-21,SELECTED,Yorkshire - West,Sales Administrator,Huddersfield,£28000 - £30000 per year,onsite_or_not_stated,,,,,23643_225413268
 2026-08-21,SELECTED,Yorkshire - West,Sales / Admin Coordinator,Castleford,£25000 - £35000 per year,onsite_or_not_stated,,,,,23643_225414242
 2026-08-21,SELECTED,Yorkshire - West,Office / Purchasing Administrator,Wakefield,£27000 - £27500 per year,onsite_or_not_stated,,,,,23643_225420186
@@ -52,6 +51,7 @@
 2026-08-21,SELECTED,Yorkshire - West,Sales Administrator,Wakefield,£28000 per year,onsite_or_not_stated,,,,,0b881fe3-bb4b-4e81-b879-b9af36114fe7
 2026-08-21,SELECTED,Yorkshire - West,Internal Sales Coordinator,Leeds,£28000 - £30000 per year,onsite_or_not_stated,,,,,b79dda43-6548-42a7-9fea-ce94421b4625
 2026-08-21,SELECTED,Yorkshire - West,Sales Administrator,Wakefield,£26500 per year,onsite_or_not_stated,,,,,b22620c4-8d84-4bd4-b0f6-2706961f635a
+2026-08-21,SELECTED,Yorkshire - West,Order Management Administrator,Wakefield,£13.68 per hour,onsite_or_not_stated,,,,,23643_225522242
 2026-08-21,POSS - YORKSHIRE - WEST,Yorkshire - West,HR Coordinator,Leeds,£28000 - £35000 per year,hybrid,Hybrid working,"HR Coordinator Job: HR Coordinator Location: Leeds Salary: £28,000 - £35,000 per annum Hours: Monday - Friday, 8.30am - 5pm Hybrid working available following successful completion of probation About the Opportunity Are you an HR professional looking for a role where you can broaden your experience, work closely with managers and become genuinely involved in the day to day people agenda?",,,1aeda8d2-9bcf-427d-a763-2013f15b9630
 2026-08-21,SELECTED,Yorkshire - South,Project Support Administrator (Doncaster),Doncaster,,onsite_or_not_stated,,,,,23643_225414146
 2026-08-21,SELECTED,Yorkshire - South,NTD Coordinator,Barnsley,£12.71 per hour,onsite_or_not_stated,,,,,23643_225423861
@@ -75,9 +75,7 @@
 2026-08-21,SELECTED,Yorkshire - South,Part Time Receptionist/Administrative Assistant,Brinsworth,£25000 - £26500 per year,onsite_or_not_stated,,,,,23643_225516026
 2026-08-21,SELECTED,Yorkshire - South,Post Completion Administration Assistant,Brinsworth,£24785 - £26000 per year (DOE plus excellent benefits),onsite_or_not_stated,,,,,23643_225516072
 2026-08-21,SELECTED,Yorkshire - South,BMW/MINI Service Advisor,Sheffield,,onsite_or_not_stated,,,,,adf64226-53b0-42b1-966f-f25e74fb3ff5
-2026-08-21,SELECTED,London,Workplace Office Coordinator,London,£16 - £18 per hour,onsite_or_not_stated,,,,,23643_225410812
-2026-08-21,SELECTED,London,Administrator,London,£26000 - £28000 per year,hybrid,Hybrid working,"Administrator Administrator Salary: up to £28,(Apply online only) Location: London Tower Hill Hours: 9am to 5:15pm Benefits: Hybrid working opportunity JRRL have an exciting new opportunity for an Administrator to join their market leading client.",,,23643_225411938
-2026-08-21,SELECTED,London,Temporary Administrator Romford,Romford,£13.5 - £14 per hour,onsite_or_not_stated,,,,,23643_225411504
+2026-08-21,SELECTED,Yorkshire - South,Operations Administrator,Sheffield,£28000 - £30000 per year,onsite_or_not_stated,,,,,23643_225522912
 2026-08-21,SELECTED,London,Data Administrator,London,£17 - £18.57 per hour,hybrid,Hybrid working,Data Administrator Data Administrator 18.57ph-Temp Bank Station Financial Services 9am-5pm-Monday to Friday Hybrid A leading Wealth Management firm requires a data administrator to support to their small Training & Development team on temp basis to start ASAP.,,,23643_225414926
 2026-08-21,SELECTED,London,Revenue & Payments Coordinator,London,£28000 - £29500 per year,onsite_or_not_stated,,,,,23643_225418138
 2026-08-21,SELECTED,London,Accommodation Solution Administrator,Barnet,£14.8 per hour,hybrid,Hybrid working,"Accommodation Solution Administrator Role - Accommodation Solution Administrator Location - Barnet NW9 Hybrid Working Salary - 14.80 per hour Contract - 12 months Tate are recruiting for an Accommodation Solution Administrator providing housing advice and support, assisting with housing needs assessments, coordinate temporary accommodation placements, and maintain accurate case records.",,,23643_225418831
@@ -227,10 +225,14 @@
 2026-08-21,SELECTED,London,HR Administrator,Harrow,£26500 - £28000 per year,onsite_or_not_stated,,,,,a36ca112-1fcc-4950-ab57-f6225f19172f
 2026-08-21,SELECTED,London,Data Campaign Coordinator Apprentice,London,£22000 per year,onsite_or_not_stated,,,,,9b8bf81b-c1eb-4bb8-b65e-eb982b50af66
 2026-08-21,SELECTED,London,HR Administrator,Mitcham,£26000 - £30000 per year,onsite_or_not_stated,,,,,94fb388f-9b78-47ca-9f17-d73a9c3c76a0
+2026-08-21,SELECTED,London,Sales Administrator/Sales support Executive,Uxbridge,£26436 per year,onsite_or_not_stated,,,,,23643_225522486
 2026-08-21,POSS - LONDON,London,"PA to Creative Director, Fashion",London,£50000 per year,onsite_or_not_stated,,,,,d639aa24-68a0-41df-8951-1e948bf468e7
 2026-08-21,POSS - LONDON,London,Customer Service Administrative Assistant (Housing),London,£18.65 per hour,hybrid,Hybrid working,Customer Service Administrative Assistant (Housing) Administrative Assistant - Housing & Neighbourhoods Local Authority Wembley Hybrid Working Immediate Start Ongoing Temporary Contract Are you an experienced Administrator or Customer Service professional looking for your next opportunity within local government?,,,b13a47bb-9ab3-4708-b56d-3700fa5565e9
 2026-08-21,POSS - LONDON,London,Office Assistant,London,£45000 - £55000 per year,onsite_or_not_stated,,,,,a81aadac-514f-4727-a071-1c6db13128fa
 2026-08-21,POSS - LONDON,London,Team Secretary,London,£40000 per year,hybrid,Hybrid working,"Requirements - Previous secretarial experience within a law firm is essential - Previous experience within an Intellectual Property or Trademark environment would be desirable Vacancy Highlights - Flexible hybrid working - Competitive salary and benefits package - Generous bonus scheme - Private medical insurance To be considered for this Team Secretary opportunity, please contact Birchrose Associates for a confidential discussion.",,,c5468ff5-9e14-4dca-a6f1-8b23c73fa819
+2026-08-21,POSS - LONDON,London,Front of House Lead,London,£58000 - £70000 per year,onsite_or_not_stated,,,,,23643_225522596
+2026-08-21,POSS - LONDON,London,Front of House Supervisor,London,£32000 - £42000 per year,onsite_or_not_stated,,,,,23643_225522484
+2026-08-21,POSS - LONDON,London,Helpline Administrator,Southall,£15.5 - £20 per hour,onsite_or_not_stated,,,,,23643_225523432
 2026-08-21,POSS - LONDON,London,Contracts Coordinator,London,£18 - £19 per hour,onsite_or_not_stated,,,,,23643_224527201
 2026-08-21,SELECTED,Hampshire,HR Administrator,Hampshire,£14.62 - £18.96 per hour,hybrid,Hybrid working,"What The Role Offers - Hybrid working pattern - Competitive salary - Eligible for annual and quarterly bonus schemes - Opportunity to develop specialist knowledge within reward and benefits - Varied HR administration role with genuine responsibility - Ongoing training and development - 25 days holiday plus Bank Holidays - Pension scheme - Medicash healthcare scheme - Life assurance - Employee Assistance Programme - Employee discount scheme - Employee referral scheme What You Will Be Doing - Administer a wide range of employee benefits, including medical plans, insurance schemes and employee reward programmes. - Prepare and distribute employee correspondence, including long service awards and reward-related communications. - Reconcile benefit invoices and ensure employee benefit data remains accurate. - Produce payroll information relating to benefits in kind and salary deductions. - Maintain reward and bonus scheme records, supporting new joiners and ongoing scheme administration. - Support quarterly and annual reward activities, including salary surveys, benefit renewals and data submissions. - Respond to employee and manager queries relating to benefits, reward and HR administrat",,,23643_225416645
 2026-08-21,SELECTED,Hampshire,Service Coordinator,Hampshire,£26000 - £28000 per year (Progression + Excellent Benefits),onsite_or_not_stated,,,,,23643_225419560
@@ -520,7 +522,6 @@
 2026-08-21,SELECTED,Oxfordshire,Front of House Assistant,Oxfordshire,£17 per hour,onsite_or_not_stated,,,,,23643_225472563
 2026-08-21,SELECTED,Oxfordshire,HR Coordinator,Oxfordshire,£27000 - £33000 per year,onsite_or_not_stated,,,,,a443ff02-bebe-452b-a749-6b190d41b6d7
 2026-08-21,SELECTED,Oxfordshire,Service Advisor,Oxfordshire,£28000 - £31000 per year,onsite_or_not_stated,,,,,27605ca5-976c-402c-8333-5b87caf84bf4
-2026-08-21,SELECTED,Somerset,Office Coordinator (Construction) -12 month Maternity Cover,Somerset,£28000 - £35000 per year,onsite_or_not_stated,,,,,23643_225410819
 2026-08-21,SELECTED,Somerset,Part-time Administrative Assistant - Temp Ongoing,Somerset,£15 - £17 per hour (Holiday),onsite_or_not_stated,,,,,23643_225466290
 2026-08-21,SELECTED,Staffordshire,Depot Administrator- Noons,Staffordshire,£14.02 - £15.53 per hour,onsite_or_not_stated,,,,,23643_225430342
 2026-08-21,SELECTED,Staffordshire,Administrator (Sales),Staffordshire,£28000 - £35000 per year (Training + Progression),onsite_or_not_stated,,,,,23643_225439422
@@ -638,8 +639,6 @@
 2026-08-21,SELECTED,North East - County Durham & Darlington/Hartlepool,Paraplanner,County Durham,"£30,000 - £35,000 per annum",onsite_or_not_stated,,,,,107798281
 2026-08-21,SELECTED,"North East - Tyneside, Wearside & Northumberland",Client Administrator,Tyne And Wear,£28000 - £32000 per year,hybrid,Hybrid working,Hybrid working (3 days office minimum) Visit the IDEX Consulting Ltd website for further opportunities.,,,37de4be2-0a53-41c1-9b2c-dca52159ab6e
 2026-08-21,SELECTED,"North East - Tyneside, Wearside & Northumberland",Office Coordinator,Tyne And Wear,£30000 - £35000 per year,onsite_or_not_stated,,,,,b4eae84d-a884-4356-95b6-25bfd89c63c4
-2026-08-21,SELECTED,Sussex,Higher Education Administrator 3 days a week M/T/W,Sussex,£13.75 per hour,onsite_or_not_stated,,,,,23643_225411917
-2026-08-21,SELECTED,Sussex,Office Coordinator,Sussex,£13.95 per hour (accrude holidays and on site parking),onsite_or_not_stated,,,,,23643_225411840
 2026-08-21,SELECTED,Sussex,Team Administrator,Sussex,£26500 - £28400 per year,onsite_or_not_stated,,,,,23643_225424968
 2026-08-21,SELECTED,Sussex,Administrator,Sussex,,onsite_or_not_stated,,,,,23643_225428472
 2026-08-21,SELECTED,Sussex,Receptionist,Sussex,£13 - £13.5 per hour,onsite_or_not_stated,,,,,23643_225448794
@@ -671,6 +670,7 @@
 2026-08-21,SELECTED,Sussex,Customer Service Administrator,Sussex,,onsite_or_not_stated,,,,,b9b29cf0-2281-4013-99a7-b2e6124067b9
 2026-08-21,SELECTED,Sussex,Procurement Administrator - Immediate Start!,Sussex,£15 per hour,onsite_or_not_stated,,,,,5e20f6b2-7c09-4f8a-b8e7-d039791767e1
 2026-08-21,SELECTED,Sussex,Mental Health Support Coordinator,Sussex,£18000 per year,onsite_or_not_stated,,,,,107869789
+2026-08-21,SELECTED,Sussex,Administrator (Part-Time),Sussex,£17 per hour,onsite_or_not_stated,,,,,23643_225523989
 2026-08-21,SELECTED,West Midlands - Coventry & Warwickshire,SAP Administrator,Warwickshire,£14.24 per hour,onsite_or_not_stated,,,,,23643_225429653
 2026-08-21,SELECTED,West Midlands - Coventry & Warwickshire,Office & Facilities Administrator (Part-time),Warwickshire,£15 per hour,onsite_or_not_stated,,,,,23643_225431697
 2026-08-21,SELECTED,West Midlands - Coventry & Warwickshire,Reception & Administration Assistant,Warwickshire,£13.26 per hour,onsite_or_not_stated,,,,,23643_225431898
@@ -690,8 +690,6 @@
 2026-08-21,SELECTED,West Midlands - Coventry & Warwickshire,Learning and Development Coordinator,Warwickshire,£28000 per year,onsite_or_not_stated,,,,,107875425
 2026-08-21,SELECTED,West Midlands - Coventry & Warwickshire,Temporary Customer Service Administrator,Warwickshire,£13.45 per hour,onsite_or_not_stated,,,,,ad75989e-18ff-4ce7-8011-5c311dcf878f
 2026-08-21,SELECTED,West Midlands - Coventry & Warwickshire,Internal Sales Administrator,Warwickshire,£25000 - £29000 per year,onsite_or_not_stated,,,,,337293d6-0b83-4e3a-a2cb-3b48b534647b
-2026-08-21,SELECTED,Berkshire,Administrator,Berkshire,£12.71 - £14 per hour (Holiday Pay & Pension),onsite_or_not_stated,,,,,23643_225412809
-2026-08-21,SELECTED,Berkshire,Administrator,Berkshire,£13.7 - £14.5 per hour,onsite_or_not_stated,,,,,23643_225411716
 2026-08-21,SELECTED,Berkshire,Facilities Helpdesk Administrator,Berkshire,£25000 - £26000 per year,onsite_or_not_stated,,,,,23643_225418084
 2026-08-21,SELECTED,Berkshire,Helpdesk Admin,Berkshire,£14.5 per hour (temp to perm),onsite_or_not_stated,,,,,23643_225416106
 2026-08-21,SELECTED,Berkshire,HR and Office Administrator,Berkshire,£15 per hour,hybrid,Hybrid working,"HR and Office Administrator Office & HR Administrator Temporary - 6 months initially with review for further extension Full-time hours 9am 5pm £15 per hour plus holiday pay Location: Slough Working pattern: Hybrid office-based every Monday, Tuesday and Wednesday Our client is seeking a highly organised and proactive Office & HR Administrator to support the smooth day-to-day running of its UK office while providing valuable administrative support to the HR function.",,,23643_225431869
@@ -756,7 +754,6 @@
 2026-08-21,SELECTED,Buckinghamshire,Administrator,Buckinghamshire,£30000 per year,onsite_or_not_stated,,,,,23643_225506226
 2026-08-21,SELECTED,Buckinghamshire,Sales Administrator,Buckinghamshire,£25000 - £28000 per year,onsite_or_not_stated,,,,,00c593cf-9722-49f9-989a-ba0fca117f91
 2026-08-21,SELECTED,Buckinghamshire,Service Delivery Coordinator,Buckinghamshire,£26775 - £28000 per year (Bonus and company benefits),hybrid,Hybrid working,Service Delivery Coordinator Job Title: Service Delivery Coordinator Location: Milton Keynes Work Model: Hybrid Are you a highly organised professional who thrives in a fast-paced environment?,,,23643_225522682
-2026-08-21,SELECTED,Cambridgeshire,Administrator,Huntingdon,£13 - £13.25 per hour,onsite_or_not_stated,,,,,23643_225412665
 2026-08-21,SELECTED,Cambridgeshire,Business Operations Coordinator,Cambridge,£26000 - £27000 per year,hybrid,Hybrid working,"Business Operations Coordinator Business Operations Coordinator (12 months FTC) Location: Cambridge (Hybrid) Salary: 26,000 Working Pattern: Full-time (flexible working options considered) We are working with an organisation based in Cambridge who are looking to recruit a Business Operations Coordinator to join their team.",,,23643_225413779
 2026-08-21,SELECTED,Cambridgeshire,Facilities Co-ordinator,Peterborough,£25000 per year (plus car allowance and benefits),onsite_or_not_stated,,,,,23643_225419926
 2026-08-21,SELECTED,Cambridgeshire,Administrator,Cambridge,£26500 per year,onsite_or_not_stated,,,,,23643_225423110
@@ -864,6 +861,7 @@
 2026-08-21,SELECTED,Gloucestershire,Sales Support Executive,Gloucestershire,,onsite_or_not_stated,,,,,107870311
 2026-08-21,SELECTED,Gloucestershire,Accounts Assistant,Gloucestershire,,onsite_or_not_stated,,,,,b41f26d1-6b49-4653-aa72-1709fefc99c7
 2026-08-21,SELECTED,Gloucestershire,Pricing & Contracts Administrator - Excellent benefits + Flexible Working!,Gloucestershire,£26509 per year,onsite_or_not_stated,,,,,9650db73-bab6-4c68-acfa-da1eba761128
+2026-08-21,SELECTED,Gloucestershire,Scheduling Administrator,Gloucestershire,£28000 - £30000 per year,onsite_or_not_stated,,,,,23643_225522823
 2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Liaison Administrator,Manchester,,hybrid,Hybrid working,What you'll get in return Hybrid working pattern after initial first week of training (1 once a week in the office) Competitive hourly rate Supportive and inclusive environment Ongoing temp contract 35 hours working week Opportunities for professional development and continuous learning.,,,23643_225414625
 2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Data Administrator,Manchester,£13.45 per hour (gain valuable experience within HR),onsite_or_not_stated,,,,,23643_225420282
 2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Customer Service Administrator,Manchester,£26500 per year,onsite_or_not_stated,,,,,23643_225422206
@@ -892,6 +890,7 @@
 2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Finance Assistant,Manchester,£26000 - £29000 per year,onsite_or_not_stated,,,,,23643_225501230
 2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Customer Service Administrator,Manchester,£26000 per year,hybrid,Hybrid working,"Customer Service Administrator Customer Service Administrator Location: Irlam office (4 days office-based, 1 day hybrid following successful probation)Salary: £26,000 Contract: Full-time The Opportunity We are looking for an organised, proactive and customer-focused administrator to join a growing business.",,,328ae4e0-c969-4e37-8a58-1ef8da5c8a2e
 2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Lettings Administrator,Salford,£26000 - £27000 per year,hybrid,Hybrid working,"What you'll get in return - Salary of £26,228. - Up to 10% discretionary annual bonus. - Hybrid working model. - Supportive team environment. - Opportunity to develop a career within a growing property organisation.",,,d7be9799-436b-4c20-88a8-635a2a6b822a
+2026-08-21,SELECTED,Greater Manchester - Manchester & Salford,Temporary Office Administrator,Manchester,£14 per hour,onsite_or_not_stated,,,,,23643_225522116
 2026-08-21,SELECTED,Greater Manchester - South,Administrator,Altrincham,£27000 - £30000 per year,onsite_or_not_stated,,,,,23643_225413791
 2026-08-21,SELECTED,Greater Manchester - South,Administrator,Stockport,£13 - £15 per hour,onsite_or_not_stated,,,,,23643_225416274
 2026-08-21,SELECTED,Greater Manchester - South,Junior Project Coordinator,Altrincham,£25000 - £27000 per year,onsite_or_not_stated,,,,,23643_225446755
@@ -916,7 +915,9 @@
 2026-08-21,SELECTED,Hertfordshire,Customer Service Advisor,Stevenage,£12.71 per hour,onsite_or_not_stated,,,,,71430e77-0ba5-4c96-b670-57709e51ac59
 2026-08-21,SELECTED,Hertfordshire,Finance Assistant,St. Albans,"£25,000-£26,000 per annum",onsite_or_not_stated,,,,,1682613
 2026-08-21,SELECTED,Hertfordshire,Contracts Administrator,Royston,,onsite_or_not_stated,,,,,107580099
-2026-08-21,SELECTED,Norfolk,Technical Administrator,Norfolk,,onsite_or_not_stated,,,,,23643_225413146
+2026-08-21,SELECTED,Hertfordshire,Office Administrator,Puckeridge,£28000 - £29000 per year (+ benefits),onsite_or_not_stated,,,,,23643_225521989
+2026-08-21,POSS - HERTFORDSHIRE,Hertfordshire,Administrator,Welwyn Garden City,£17 per hour,onsite_or_not_stated,,,,,23643_225471282
+2026-08-21,POSS - HERTFORDSHIRE,Hertfordshire,Office Operations and Customer Care Co-ordinator,Hemel Hempstead,£35000 - £40000 per year,hybrid,Hybrid working,"Office Operations and Customer Care Co-ordinator Office Operations & Customer Care Coordinator Hemel Hempstead 35,000 - 40,000 Hybrid Working Available Free Parking Are you an organised, proactive professional who enjoys variety in your role?",,,23643_225522507
 2026-08-21,SELECTED,Norfolk,Experienced Motor Claims Handler,Norfolk,£30000 per year,onsite_or_not_stated,,,,,107734747
 2026-08-21,SELECTED,Norfolk,Administrator,Norfolk,,onsite_or_not_stated,,,,,1642193
 2026-08-21,SELECTED,Norfolk,Data Administrator,Norfolk,£12.82 per hour,onsite_or_not_stated,,,,,23643_225469088
@@ -950,6 +951,7 @@
 2026-08-21,SELECTED,Northamptonshire,Recruitment Account Coordinator - FTC,Northamptonshire,£27500 - £28000 per year,onsite_or_not_stated,,,,,eb469c2f-fa6f-4a56-9e6d-59b9012ce36f
 2026-08-21,SELECTED,Northamptonshire,Sales Administrator,Northamptonshire,£26500 - £27500 per year (benefits),onsite_or_not_stated,,,,,23643_225516355
 2026-08-21,SELECTED,Northamptonshire,Financial Planner,Northamptonshire,,onsite_or_not_stated,,,,,6039bbac-4ca1-4fc6-b0f9-1a84681fffd0
+2026-08-21,SELECTED,Northamptonshire,Client Relations Administrator,Northamptonshire,£26000 - £28000 per year (+ Benefits),onsite_or_not_stated,,,,,23643_225521648
 2026-08-21,SELECTED,Northamptonshire,Customer Support Administrator,Northamptonshire,£24000 per year,onsite_or_not_stated,,,,,23643_225524164
 2026-08-21,POSS - NORTHAMPTONSHIRE,Northamptonshire,Planner,Northamptonshire,£28000 - £33000 per year,onsite_or_not_stated,,,,,23643_225389352
 2026-08-21,SELECTED,Nottinghamshire,Receptionist,Nottinghamshire,£12.71 per hour,onsite_or_not_stated,,,,,23643_225419531
@@ -967,9 +969,6 @@
 2026-08-21,SELECTED,Nottinghamshire,Lettings Coordinator,Nottinghamshire,£26000 - £28000 per year,onsite_or_not_stated,,,,,8e19422a-40bf-4ae0-a59b-f38a372bb881
 2026-08-21,SELECTED,Nottinghamshire,Receptionist - Bank,Nottinghamshire,£12.72 per hour,onsite_or_not_stated,,,,,23643_225494401
 2026-08-21,SELECTED,Nottinghamshire,Gatehouse Administrator,Nottinghamshire,£24000 per year,onsite_or_not_stated,,,,,107837200
-2026-08-21,SELECTED,Oxfordshire,Temporary Receptionist,Oxfordshire,£14.06 - £15 per hour (Holiday pay),onsite_or_not_stated,,,,,23643_225410964
-2026-08-21,SELECTED,Oxfordshire,Claims Administrator,Oxfordshire,£26000 - £28000 per year,onsite_or_not_stated,,,,,23643_225412786
-2026-08-21,SELECTED,Oxfordshire,Temporary Receptionist,Oxfordshire,£13.16 - £15 per hour (Holiday Pay),onsite_or_not_stated,,,,,23643_225410963
 2026-08-21,SELECTED,Oxfordshire,Bid Coordinator,Oxfordshire,£26000 - £29000 per year,hybrid,Hybrid working,"Bid Coordinator Didcot, Oxfordshire Hybrid Working Full Time Help turn great ideas into winning opportunities Are you highly organised, naturally curious and someone who takes real pride in producing work to a high standard?",,,23643_225414350
 2026-08-21,SELECTED,Oxfordshire,Administrator,Oxfordshire,£29400 per year,hybrid,Hybrid working,Administrator Assessment Administrator (12-Month Fixed-Term Contract) Hybrid Working 12-Month Fixed-Term Contract Competitive Salary + Excellent Benefits Are you an experienced administrator with exceptional organisational skills and a talent for coordinating multiple processes at once?,,,23643_225426419
 2026-08-21,SELECTED,Oxfordshire,Office Coordinator,Oxfordshire,£28000 per year,onsite_or_not_stated,,,,,23643_225433735
@@ -1017,7 +1016,6 @@
 2026-08-21,SELECTED,Somerset,Technical Coordinator,Somerset,,onsite_or_not_stated,,,,,107866477
 2026-08-21,SELECTED,Somerset,SAP Data Coordinator,Somerset,,onsite_or_not_stated,,,,,107804771
 2026-08-21,SELECTED,Somerset,Office Administrator,Somerset,£25000 - £27000 per year,onsite_or_not_stated,,,,,d041d971-2f23-4845-b891-817910d97a34
-2026-08-21,SELECTED,Staffordshire,Administrator,Staffordshire,£12.71 per hour,onsite_or_not_stated,,,,,23643_225410437
 2026-08-21,SELECTED,Staffordshire,Communications and Engagement Coordinator,Staffordshire,£27000 - £28000 per year (£27000 - £28000),onsite_or_not_stated,,,,,23643_225413573
 2026-08-21,SELECTED,Staffordshire,Administrator - Customer Service,Staffordshire,£26250 per year,onsite_or_not_stated,,,,,23643_225419575
 2026-08-21,SELECTED,Staffordshire,Communications and Engagement Coordinator,Staffordshire,£27000 - £28000 per year (£27000 - £28000),onsite_or_not_stated,,,,,23643_225422588
