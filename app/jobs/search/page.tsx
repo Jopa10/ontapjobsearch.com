@@ -19,12 +19,108 @@ export const metadata: Metadata = {
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
+type CorrectionScope = 'query' | 'location';
+
 function firstValue(value: string | string[] | undefined): string {
   return Array.isArray(value) ? value[0] || '' : value || '';
 }
 
 function cleanSalary(value: string): string {
   return value.replaceAll('Â£', '£');
+}
+
+function normaliseToken(value: string): string {
+  return value
+    .normalize('NFKD')
+    .replace(/\p{Diacritic}/gu, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
+}
+
+function damerauLevenshtein(a: string, b: string): number {
+  if (a === b) return 0;
+  if (!a.length) return b.length;
+  if (!b.length) return a.length;
+
+  const matrix = Array.from({ length: a.length + 1 }, () =>
+    new Array<number>(b.length + 1).fill(0)
+  );
+  for (let i = 0; i <= a.length; i += 1) matrix[i][0] = i;
+  for (let j = 0; j <= b.length; j += 1) matrix[0][j] = j;
+
+  for (let i = 1; i <= a.length; i += 1) {
+    for (let j = 1; j <= b.length; j += 1) {
+      const substitution = a[i - 1] === b[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + substitution
+      );
+
+      if (
+        i > 1 &&
+        j > 1 &&
+        a[i - 1] === b[j - 2] &&
+        a[i - 2] === b[j - 1]
+      ) {
+        matrix[i][j] = Math.min(matrix[i][j], matrix[i - 2][j - 2] + 1);
+      }
+    }
+  }
+
+  return matrix[a.length][b.length];
+}
+
+function correctionVocabulary(jobs: PublishedJob[], scope: CorrectionScope): Map<string, number> {
+  const counts = new Map<string, number>();
+
+  for (const job of jobs) {
+    const values = scope === 'location'
+      ? [job.location, job.region]
+      : [job.title, job.category, job.company, job.advertiser_name, job.location, job.region];
+
+    for (const value of values) {
+      for (const rawToken of value.split(/\s+/)) {
+        const token = normaliseToken(rawToken);
+        if (token.length < 4) continue;
+        counts.set(token, (counts.get(token) || 0) + 1);
+      }
+    }
+  }
+
+  return counts;
+}
+
+function correctSearchText(input: string, jobs: PublishedJob[], scope: CorrectionScope): string {
+  if (!input.trim()) return input.trim();
+
+  const vocabulary = correctionVocabulary(jobs, scope);
+  const corrected = input.trim().split(/\s+/).map((rawToken) => {
+    const token = normaliseToken(rawToken);
+    if (token.length < 4 || vocabulary.has(token)) return rawToken;
+
+    const allowedDistance = token.length >= 8 ? 2 : 1;
+    const candidates: Array<{ token: string; distance: number; count: number }> = [];
+
+    for (const [candidate, count] of vocabulary) {
+      if (candidate[0] !== token[0]) continue;
+      if (Math.abs(candidate.length - token.length) > allowedDistance) continue;
+
+      const distance = damerauLevenshtein(token, candidate);
+      if (distance <= allowedDistance) candidates.push({ token: candidate, distance, count });
+    }
+
+    candidates.sort((a, b) => a.distance - b.distance || b.count - a.count || a.token.localeCompare(b.token));
+    if (!candidates.length) return rawToken;
+
+    const best = candidates[0];
+    const runnerUp = candidates[1];
+    if (runnerUp && runnerUp.distance === best.distance) return rawToken;
+
+    return best.token;
+  });
+
+  return corrected.join(' ');
 }
 
 function SearchForm({ query, location }: { query: string; location: string }) {
@@ -38,6 +134,8 @@ function SearchForm({ query, location }: { query: string; location: string }) {
         name="q"
         type="search"
         defaultValue={query}
+        autoCorrect="on"
+        spellCheck={true}
         placeholder="e.g. Administrator, Customer Service, PA"
         className="min-w-0 rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
       />
@@ -50,6 +148,8 @@ function SearchForm({ query, location }: { query: string; location: string }) {
         name="location"
         type="search"
         defaultValue={location}
+        autoCorrect="on"
+        spellCheck={true}
         placeholder="e.g. Newcastle, Surrey, Leeds"
         className="min-w-0 rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
       />
@@ -99,11 +199,16 @@ function ResultCard({ job }: { job: PublishedJob }) {
 
 export default async function Page({ searchParams }: { searchParams: SearchParams }) {
   const params = await searchParams;
-  const query = firstValue(params.q).trim();
-  const location = firstValue(params.location).trim();
-  const searched = Boolean(query || location);
+  const originalQuery = firstValue(params.q).trim();
+  const originalLocation = firstValue(params.location).trim();
+  const searched = Boolean(originalQuery || originalLocation);
 
-  const matches = searchJobs(getPublishedJobs(), query, location);
+  const jobs = getPublishedJobs();
+  const query = correctSearchText(originalQuery, jobs, 'query');
+  const location = correctSearchText(originalLocation, jobs, 'location');
+  const corrected = query !== originalQuery || location !== originalLocation;
+
+  const matches = searchJobs(jobs, query, location);
   const visibleMatches = matches.slice(0, 60);
 
   return (
@@ -125,6 +230,11 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
 
       <div className="sticky top-2 z-20 mt-3 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-md backdrop-blur">
         <SearchForm query={query} location={location} />
+        {corrected ? (
+          <p className="mt-2 px-1 text-sm text-gray-600">
+            Spelling corrected to {[query && `“${query}”`, location && `in ${location}`].filter(Boolean).join(' ')}.
+          </p>
+        ) : null}
       </div>
 
       {!searched ? (
