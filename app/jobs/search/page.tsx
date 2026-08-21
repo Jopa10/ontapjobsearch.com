@@ -28,6 +28,11 @@ type SearchResolution = {
   reinterpreted: boolean;
 };
 
+type InputEvidence = {
+  roleMatches: number;
+  geoMatches: number;
+};
+
 const jobs = generatedJobs as PublishedJob[];
 let correctionVocabularyCache: CorrectionVocabularies | undefined;
 const correctionResultCache = new Map<string, string>();
@@ -69,32 +74,24 @@ function fieldContainsAllWords(value: string, wanted: string[]): boolean {
   return wanted.every((token) => available.has(token));
 }
 
-function inputEvidence(value: string): { role: boolean; geo: boolean } {
+function inputEvidence(value: string): InputEvidence {
   const wanted = wordTokens(value);
-  if (!wanted.length) return { role: false, geo: false };
+  if (!wanted.length) return { roleMatches: 0, geoMatches: 0 };
 
-  let role = false;
-  let geo = false;
+  let roleMatches = 0;
+  let geoMatches = 0;
 
   for (const job of jobs) {
-    if (
-      !role &&
-      [job.title, job.category, job.slice_label].some((field) => fieldContainsAllWords(field, wanted))
-    ) {
-      role = true;
+    if ([job.title, job.category, job.slice_label].some((field) => fieldContainsAllWords(field, wanted))) {
+      roleMatches += 1;
     }
 
-    if (
-      !geo &&
-      [job.location, job.region].some((field) => fieldContainsAllWords(field, wanted))
-    ) {
-      geo = true;
+    if ([job.location, job.region].some((field) => fieldContainsAllWords(field, wanted))) {
+      geoMatches += 1;
     }
-
-    if (role && geo) break;
   }
 
-  return { role, geo };
+  return { roleMatches, geoMatches };
 }
 
 function roleAliases(value: string): string {
@@ -215,21 +212,23 @@ function resolveSearchInputs(originalQuery: string, originalLocation: string): S
   const locationAsLocation = correctSearchText(originalLocation, 'location');
 
   const queryEvidence = inputEvidence(queryAsQuery);
-  const locationRoleEvidence = inputEvidence(locationAsQuery);
+  const locationEvidence = inputEvidence(locationAsQuery);
 
   let formQuery = queryAsQuery;
   let formLocation = locationAsLocation;
   let reinterpreted = false;
 
+  const firstLooksMoreGeographic = queryEvidence.geoMatches > queryEvidence.roleMatches;
+  const secondLooksMoreRoleLike = locationEvidence.roleMatches > locationEvidence.geoMatches;
+
   // Be forgiving when the user puts the place in the first box and the role in
-  // the second. Role evidence wins over polluted source location fields: a few
-  // bad location strings containing words such as "admin" must not block the swap.
+  // the second. Compare the weight of real role vs geo evidence so a handful of
+  // polluted source location strings cannot make "admin" behave like a place.
   if (
     queryAsQuery &&
     originalLocation &&
-    queryEvidence.geo &&
-    !queryEvidence.role &&
-    locationRoleEvidence.role
+    firstLooksMoreGeographic &&
+    secondLooksMoreRoleLike
   ) {
     formQuery = locationAsQuery;
     formLocation = queryAsLocation;
@@ -237,7 +236,7 @@ function resolveSearchInputs(originalQuery: string, originalLocation: string): S
   } else if (
     !queryAsQuery &&
     originalLocation &&
-    locationRoleEvidence.role
+    secondLooksMoreRoleLike
   ) {
     // A role typed into the location box should still behave as a role search.
     formQuery = locationAsQuery;
