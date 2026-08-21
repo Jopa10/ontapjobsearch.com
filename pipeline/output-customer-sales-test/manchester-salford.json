@@ -18,7 +18,52 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhLQZsiWVCPbtyWXqGHcgXKi",
     "source": "JobG8",
     "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: business development executive"
+    "customer_sales_reason": "sales-led title: business development executive",
+    "customer_sales_overlap_policy": "non-exclusive"
+  },
+  {
+    "job_id": "107799162",
+    "title": "Sales Executive - German Speaking",
+    "company": "Advancing People Limited - Agency - Permanent",
+    "advertiser_name": "Advancing People Limited",
+    "advertiser_type": "Agency",
+    "location": "Not Specified",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "55000",
+    "salary_max": "55000",
+    "salary_text": "£55000 per year",
+    "posted_date": "",
+    "description": "Advancing People Multilingual - Recruitment Specialists are now recruiting for a German Speaking Sales Executive to join a global US Owned Publications company. This is a fantastic opportunity to join an innovative company, who are based in Manchester City Centre\n\nKey Responsibilities:\n- Development new business opportunities within the German speaking region click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgEZuI4icqNNF%2bLsz2eZk7Wi",
+    "source": "JobG8",
+    "customer_sales_classification": "DIRECT_SALES",
+    "customer_sales_reason": "sales-led title: sales executive",
+    "customer_sales_overlap_policy": "non-exclusive"
+  },
+  {
+    "job_id": "23643_225512046",
+    "title": "Temporary Outbound Sales Executive",
+    "company": "Office Angels - Agency - Temporary",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "location": "Salford",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Temporary",
+    "salary_min": "13.33",
+    "salary_max": "14.36",
+    "salary_text": "£13.33 - £14.36 per hour",
+    "posted_date": "",
+    "description": "Temporary Outbound Sales Executive\n\nSalford - M50 (Free Parking Onsite)\n\nMonday - Friday (Fulltime in the office)\n\n9am-5pm (1hr lunch)\n\nUp to 14.36 per hour (Depending on Experience)\n\nASAP - 4 Weeks (Possibility to be extended or taken on permanently for the right person)\n\nMust have previous Outbound Sales Experience\n\nOur client, a dynamic organisation within the Manufacturing of Medical Equipment, is seeking a Temporary Outbound Sales Executive to join their team during a busy period of growth. This is an exceptional opportunity to engage with a variety of healthcare organisations across the UK, promoting vital equipment and services that enhance patient care.\n\nKey Responsibilities:\n- Proactively contact existing customers to explore opportunities for additional products and services.\n- Focus on upselling calibration and servicing solutions to clients who have previously purchased equipment.\n- Build and maintain strong relationships with customers, identifying ways to add value and boost account revenue.\n- Follow up on warm leads generated from the existing customer base, making a high volume of outbound calls.\n- Understand customer requirements and provide tailored recommendations based on their specific products and servicing needs.\n- Accurately manage and update customer information within the CRM system.\n- Collaborate closely with internal teams to ensure a seamless customer experience.\n\nAbout the Role:\n- This is a predominantly outbound sales position with access to a robust pipeline of warm leads.\n- Perfect for individuals who thrive in relationship-led sales rather than cold calling.\n- An ideal opportunity for ambitious candidates looking to develop their sales career within a growing organisation.\n\nSkills & Experience:\n- Previous experience in sales, telesales, account management or customer service roles is essential.\n- Confident communicator with exceptional telephone and relationship-building skills.\n- Commercially minded with a natural flair for identifying upselling opportunities.\n- Self-motivated, proactive and target-driven to achieve success.\n- Strong organisational skills with meticulous attention to detail.\n- A positive attitude and a genuine desire to grow and advance within the organisation.\n\nOffice Angels is an employment agency. We are an equal opportunities employer who put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. We do this by showcasing their talents, skills and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N7L9B1ZyeG7eSxV2%2faLdj30q",
+    "source": "JobG8",
+    "customer_sales_classification": "DIRECT_SALES",
+    "customer_sales_reason": "sales-led title: sales executive, outbound sales",
+    "customer_sales_overlap_policy": "non-exclusive"
   },
   {
     "job_id": "23643_225489378",
@@ -39,7 +84,8 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVbign8%2bfmmmYIcKJIP98%2bOaj",
     "source": "JobG8",
     "customer_sales_classification": "CUSTOMER_SALES",
-    "customer_sales_reason": "customer/service role with sales evidence: sales opportunities, upsell"
+    "customer_sales_reason": "customer/service role with sales evidence: sales opportunities, upsell",
+    "customer_sales_overlap_policy": "non-exclusive"
   },
   {
     "job_id": "69ba10e7-c44c-4ed8-b7d8-497c37f6ed4a",
@@ -81,6 +127,7 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREIGqQCvVJgkhYTaHLs%2fhLqd",
     "source": "JobG8",
     "customer_sales_classification": "CUSTOMER_SALES",
-    "customer_sales_reason": "customer/service role with sales evidence: warm enquiries, booked and paid"
+    "customer_sales_reason": "customer/service role with sales evidence: warm enquiries, booked and paid",
+    "customer_sales_overlap_policy": "non-exclusive"
   }
 ]
