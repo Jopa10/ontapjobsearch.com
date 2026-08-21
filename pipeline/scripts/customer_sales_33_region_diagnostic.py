@@ -1,4 +1,4 @@
-"""Run the governed Customer Sales family boundary across Ontap's current 33 regions.
+"""Run the governed Customer Sales family boundary across Ontap's operational 33 regions.
 
 Diagnostic only. This script does not publish Customer Sales pages or change LIVE
 slice state. It intentionally reuses the proof selector, guarded account-role pass
@@ -37,6 +37,12 @@ MD_PATH = REPORT_DIR / "customer-sales-33-region-diagnostic.md"
 REPO_ROOT = Path(__file__).resolve().parents[2]
 AREA_UNUSABLE = {"", "not specified", "unknown"}
 
+# job_slice_catalog currently retains Northern Ireland - East for historical/catalogue
+# purposes, but Ontap's governed operational national-assessment set is the 33 regions
+# used by the daily family diagnostics. Keep that distinction explicit here rather
+# than silently accepting whatever raw catalogue count happens to exist.
+NON_OPERATIONAL_CATALOG_REGIONS = {"Northern Ireland - East"}
+
 
 def git_show_text(path: str) -> str:
     result = subprocess.run(
@@ -69,13 +75,19 @@ def load_current_region_catalog() -> dict[str, str]:
 
     result: dict[str, str] = {}
     for region, meta in regions.items():
+        region_name = str(region).strip()
+        if region_name in NON_OPERATIONAL_CATALOG_REGIONS:
+            continue
         if not isinstance(meta, dict):
             continue
         slug = str(meta.get("slug", "")).strip()
-        if region and slug:
-            result[str(region).strip()] = slug
+        if region_name and slug:
+            result[region_name] = slug
     if len(result) != 33:
-        raise SystemExit(f"STOP: expected 33 Ontap regions from main catalog; found {len(result)}")
+        excluded = ", ".join(sorted(NON_OPERATIONAL_CATALOG_REGIONS))
+        raise SystemExit(
+            f"STOP: expected 33 operational Ontap regions after excluding {excluded}; found {len(result)}"
+        )
     return result
 
 
@@ -254,7 +266,7 @@ def main() -> None:
             "region": region,
             "customer_sales_classification": classification,
         }
-        keep, qa_reason = keep_job(qa_job, title_location_lookup)
+        keep, _qa_reason = keep_job(qa_job, title_location_lookup)
         if not keep:
             continue
 
