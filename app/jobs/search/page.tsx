@@ -216,21 +216,20 @@ function resolveSearchInputs(originalQuery: string, originalLocation: string): S
 
   const queryEvidence = inputEvidence(queryAsQuery);
   const locationRoleEvidence = inputEvidence(locationAsQuery);
-  const locationGeoEvidence = inputEvidence(locationAsLocation);
 
   let formQuery = queryAsQuery;
   let formLocation = locationAsLocation;
   let reinterpreted = false;
 
   // Be forgiving when the user puts the place in the first box and the role in
-  // the second. Source-data pollution must not make a role term behave as geo.
+  // the second. Role evidence wins over polluted source location fields: a few
+  // bad location strings containing words such as "admin" must not block the swap.
   if (
     queryAsQuery &&
     originalLocation &&
     queryEvidence.geo &&
     !queryEvidence.role &&
-    locationRoleEvidence.role &&
-    !locationGeoEvidence.geo
+    locationRoleEvidence.role
   ) {
     formQuery = locationAsQuery;
     formLocation = queryAsLocation;
@@ -238,8 +237,7 @@ function resolveSearchInputs(originalQuery: string, originalLocation: string): S
   } else if (
     !queryAsQuery &&
     originalLocation &&
-    locationRoleEvidence.role &&
-    !locationGeoEvidence.geo
+    locationRoleEvidence.role
   ) {
     // A role typed into the location box should still behave as a role search.
     formQuery = locationAsQuery;
