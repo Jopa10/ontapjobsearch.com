@@ -2,8 +2,8 @@
 
 Keeps genuine office/contact-centre/customer-led sales while removing obvious
 non-sales customer service, field/event campaign sales, specialist/senior sales,
-automotive dealership sales, and title/location conflicts. Overlap with Service
-Admin is deliberately allowed.
+automotive dealership sales, property/showroom/retail sales, and title/location
+conflicts. Overlap with Service Admin is deliberately allowed.
 """
 from __future__ import annotations
 
@@ -39,20 +39,31 @@ DIRECT_DESCRIPTION_EXCLUDES = [
     "door to door", "door-to-door", "event-based campaigns",
     "face-to-face sales environments", "travel to different campaign locations",
     "subcontracted basis", "self-employed", "self employed",
-    "commission-only", "commission only",
+    "commission-only", "commission only", "in-home consultation",
+    "in home consultation", "visit customers in their homes",
+    "visit customers at home", "travel time from your home postcode",
 ]
 
 # Direct titles such as "Sales Executive" are too generic to identify showroom/car
-# sales from title alone, so catch unmistakable dealership context in the advert body.
-AUTOMOTIVE_DESCRIPTION_EXCLUDES = [
-    "car dealership", "vehicle dealership", "motor dealership",
+# sales from title alone. Check employer as well as advert copy so obvious dealership
+# businesses cannot leak through just because the title is generic.
+AUTOMOTIVE_CONTEXT_EXCLUDES = [
+    "car dealership", "vehicle dealership", "motor dealership", "motor group",
+    "car dealer", "vehicle dealer", "main dealership", "franchised dealership",
     "buying their car", "buying a new car", "buying a used car",
     "new & used vehicles", "new and used vehicles", "used car sales",
     "new car sales", "vehicle presentations", "test drives",
 ]
 
+# Retail/property context is outside the agreed office/contact-centre/home/hybrid seam.
+RETAIL_PROPERTY_DESCRIPTION_EXCLUDES = [
+    "luxury retail", "retail environment", "shop floor", "estate agency",
+    "house builder", "new homes development",
+]
+
 DIRECT_TITLE_EXCLUDES = [
     "product sales executive", "senior sales executive", "senior sales consultant",
+    "conservatory sales", "new homes sales",
 ]
 
 
@@ -111,7 +122,9 @@ def title_location_conflict(title: str, region: str, lookup: list[tuple[str, str
 def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
     title = norm(job.get("title"))
     description = norm(job.get("description"))
+    employer = norm(job.get("advertiser_name")) or norm(job.get("company"))
     combined = f"{title} {description}"
+    context = f"{title} {description} {employer}"
     classification = str(job.get("customer_sales_classification", ""))
     region = str(job.get("region", ""))
 
@@ -130,10 +143,13 @@ def keep_job(job: dict, lookup: list[tuple[str, str]]) -> tuple[bool, str]:
     if classification == "DIRECT_SALES":
         title_excludes = contains_any(title, DIRECT_TITLE_EXCLUDES)
         if title_excludes:
-            return False, "specialist/senior direct-sales title: " + ", ".join(title_excludes)
-        automotive_excludes = contains_any(description, AUTOMOTIVE_DESCRIPTION_EXCLUDES)
+            return False, "out-of-bound direct-sales title: " + ", ".join(title_excludes)
+        automotive_excludes = contains_any(context, AUTOMOTIVE_CONTEXT_EXCLUDES)
         if automotive_excludes:
             return False, "automotive dealership/showroom sales signal: " + ", ".join(automotive_excludes[:3])
+        retail_property_excludes = contains_any(description, RETAIL_PROPERTY_DESCRIPTION_EXCLUDES)
+        if retail_property_excludes:
+            return False, "retail/property sales signal: " + ", ".join(retail_property_excludes[:3])
         description_excludes = contains_any(description, DIRECT_DESCRIPTION_EXCLUDES)
         if description_excludes:
             return False, "field/event/self-employed sales signal: " + ", ".join(description_excludes[:3])
