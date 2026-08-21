@@ -2,7 +2,6 @@ region,selected_rows_before_campaign_dedupe,campaign_deduped_jobs,duplicate_camp
 London,41,31,10,27,EE,3,9.7,1,19,7,5,1,30,6_PLUS,False
 Yorkshire - West,7,7,0,6,Elevation Recruitment Group,2,28.6,0,4,0,3,0,7,6_PLUS,False
 Greater Manchester - Manchester & Salford,6,6,0,5,Office Angels,2,33.3,0,4,2,0,0,6,6_PLUS,False
-Yorkshire - South,8,6,2,4,EE,3,50.0,1,6,0,0,0,6,6_PLUS,True
 North East,57,6,51,3,EE,3,50.0,1,6,0,0,0,6,6_PLUS,True
 Bristol & Bath,5,5,0,5,hireful,1,20.0,0,4,1,0,0,5,3_TO_5,False
 Cambridgeshire,5,5,0,5,RELOcruitment,1,20.0,0,3,1,1,0,5,3_TO_5,False
@@ -12,6 +11,7 @@ Nottinghamshire,5,5,0,5,SF Partners,1,20.0,0,4,1,0,0,5,3_TO_5,False
 Surrey,5,5,0,5,First Military Recruitment Ltd,1,20.0,0,4,1,0,0,5,3_TO_5,False
 Essex,5,5,0,4,Employment Specialists Ltd,2,40.0,0,5,0,0,0,5,3_TO_5,True
 Norfolk,5,5,0,4,ALH Recruitment Ltd,2,40.0,0,3,0,2,0,5,3_TO_5,True
+Yorkshire - South,7,5,2,3,EE,3,60.0,1,5,0,0,0,5,3_TO_5,True
 Dorset,4,4,0,4,Kuehne+Nagel,1,25.0,0,3,1,0,0,4,3_TO_5,False
 Hampshire,4,4,0,4,TRS (Technical Recruitment Solutions),1,25.0,0,3,1,0,0,4,3_TO_5,False
 Sussex,4,4,0,4,Global 4 Communications Ltd,1,25.0,0,3,0,1,0,4,3_TO_5,False
@@ -27,8 +27,8 @@ Berkshire,1,1,0,1,Rise Technical Recruitment Limited,1,100.0,0,0,0,1,0,1,1_TO_2,
 Cumbria - South,1,1,0,1,Adecco,1,100.0,0,0,1,0,0,1,1_TO_2,False
 Oxfordshire,1,1,0,1,Vision Personnel,1,100.0,0,1,0,0,0,1,1_TO_2,False
 West Midlands - Coventry & Warwickshire,1,1,0,1,Thefutureworks,1,100.0,0,1,0,0,1,0,1_TO_2,False
-Yorkshire - North,1,1,0,1,CITRUS CONNECT LTD,1,100.0,0,1,0,0,0,1,1_TO_2,False
 Cumbria - North,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
 Lancashire - North,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
 Somerset,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
 Staffordshire,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False
+Yorkshire - North,0,0,0,0,,0,0.0,0,0,0,0,0,0,ZERO,False

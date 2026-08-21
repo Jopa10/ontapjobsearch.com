@@ -1,4 +1,4 @@
-Customer Sales proof + national diagnostic run: 2026-08-21T18:58:12Z
+Customer Sales proof + national diagnostic run: 2026-08-21T19:02:49Z
 Proof scope: Hampshire; Greater Manchester - Manchester & Salford; Yorkshire - West
 National scope: current 33 Ontap regions from main catalog
 Governance: branch-only diagnostic; no LIVE activation; Sales/Service Admin overlap allowed
@@ -12,6 +12,14 @@ OK: Customer Sales guarded account-role expansion completed
 OK: Customer Sales QA refinement completed
 OK: governed Customer Sales 33-region diagnostic completed
 JobG8 download attempt 1/6
+Attempt 1 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 2/6
+Attempt 2 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 3/6
+Attempt 3 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 4/6
+Attempt 4 returned unusable feed (27 bytes); waiting before retry
+JobG8 download attempt 5/6
 Download is a ZIP archive
 Converted 10000 JobG8 jobs into pipeline/input/jobg8.xlsx
 Columns: 30
@@ -24,9 +32,9 @@ Yorkshire - West: +3 conditional account sales; 9 total before QA refinement
 hampshire.json: 7 -> 4 jobs (3 removed)
 manchester-salford.json: 7 -> 6 jobs (1 removed)
 west-yorkshire.json: 9 -> 7 jobs (2 removed)
-Customer Sales governed 33-region diagnostic: 136 campaign-deduped jobs
-Service Admin exact-ID overlap: 3; incremental: 133
-Regions with 6+ jobs: 5
+Customer Sales governed 33-region diagnostic: 134 campaign-deduped jobs
+Service Admin exact-ID overlap: 3; incremental: 131
+Regions with 6+ jobs: 4
 Conditional account-role jobs: 17
 Wrote reports-daily/customer-sales-33-region-diagnostic.csv
 Wrote reports-daily/customer-sales-33-region-detail.csv

@@ -3,10 +3,10 @@
 Diagnostic only. No Customer Sales slice is LIVE and no production selector is changed.
 
 - Current JobG8 rows analysed: 10000
-- Campaign-deduped Customer Sales jobs across the 33 regions: 136
+- Campaign-deduped Customer Sales jobs across the 33 regions: 134
 - Exact overlap with current main Service Admin pages: 3
-- Incremental versus current main Service Admin pages: 133
-- Regions with 6+ jobs: 5
+- Incremental versus current main Service Admin pages: 131
+- Regions with 6+ jobs: 4
 - Conditional account-role jobs requiring boundary attention: 17
 - Regions with >=40% top-employer concentration (where 3+ jobs): 6
 
@@ -15,7 +15,6 @@ Diagnostic only. No Customer Sales slice is LIVE and no production selector is c
 | London | 31 | 27 | 19 | 7 | 5 | 1 | 9.7% | 1 | 6_PLUS |
 | Yorkshire - West | 7 | 6 | 4 | 0 | 3 | 0 | 28.6% | 0 | 6_PLUS |
 | Greater Manchester - Manchester & Salford | 6 | 5 | 4 | 2 | 0 | 0 | 33.3% | 0 | 6_PLUS |
-| Yorkshire - South | 6 | 4 | 6 | 0 | 0 | 0 | 50.0% | 1 | 6_PLUS |
 | North East | 6 | 3 | 6 | 0 | 0 | 0 | 50.0% | 1 | 6_PLUS |
 | Bristol & Bath | 5 | 5 | 4 | 1 | 0 | 0 | 20.0% | 0 | 3_TO_5 |
 | Cambridgeshire | 5 | 5 | 3 | 1 | 1 | 0 | 20.0% | 0 | 3_TO_5 |
@@ -25,6 +24,7 @@ Diagnostic only. No Customer Sales slice is LIVE and no production selector is c
 | Surrey | 5 | 5 | 4 | 1 | 0 | 0 | 20.0% | 0 | 3_TO_5 |
 | Essex | 5 | 4 | 5 | 0 | 0 | 0 | 40.0% | 0 | 3_TO_5 |
 | Norfolk | 5 | 4 | 3 | 0 | 2 | 0 | 40.0% | 0 | 3_TO_5 |
+| Yorkshire - South | 5 | 3 | 5 | 0 | 0 | 0 | 60.0% | 1 | 3_TO_5 |
 | Dorset | 4 | 4 | 3 | 1 | 0 | 0 | 25.0% | 0 | 3_TO_5 |
 | Hampshire | 4 | 4 | 3 | 1 | 0 | 0 | 25.0% | 0 | 3_TO_5 |
 | Sussex | 4 | 4 | 3 | 0 | 1 | 0 | 25.0% | 0 | 3_TO_5 |
@@ -40,11 +40,11 @@ Diagnostic only. No Customer Sales slice is LIVE and no production selector is c
 | Cumbria - South | 1 | 1 | 0 | 1 | 0 | 0 | 100.0% | 0 | 1_TO_2 |
 | Oxfordshire | 1 | 1 | 1 | 0 | 0 | 0 | 100.0% | 0 | 1_TO_2 |
 | West Midlands - Coventry & Warwickshire | 1 | 1 | 1 | 0 | 0 | 1 | 100.0% | 0 | 1_TO_2 |
-| Yorkshire - North | 1 | 1 | 1 | 0 | 0 | 0 | 100.0% | 0 | 1_TO_2 |
 | Cumbria - North | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% | 0 | ZERO |
 | Lancashire - North | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% | 0 | ZERO |
 | Somerset | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% | 0 | ZERO |
 | Staffordshire | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% | 0 | ZERO |
+| Yorkshire - North | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% | 0 | ZERO |
 
 ## Interpretation guardrails
 
