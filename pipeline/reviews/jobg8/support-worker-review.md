@@ -167,6 +167,12 @@ SELECTED | Sussex | Bexhill-on-sea | £13.79 per hour | Care Assistant
 job_id: 107864483
 ---
 
+---
+action:
+SELECTED | Sussex | Seaford | £15.68 per hour | Care Assistant - Bank - Care Home
+job_id: 2e029135-f091-4af7-ad82-7ede21ba2b47
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
