@@ -61,6 +61,8 @@ When that approval file is committed, `pipeline/scripts/manage_city_page_approva
 
 As of 19 August 2026 the newly approved Service Admin city pages are Bradford, Huddersfield, York, Barnsley and Doncaster. Their initial launch catchments are exact-city only. Durham is explicitly held pending the County Durham safeguard and a fresh qualifying-history check.
 
+On 22 August 2026 the owner approved a named one-off exception for Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford Service Admin. The 55-region audit found current exact-city counts of 38, 35, 27, 24, 14, 14, 12, 11 and 10 respectively, but their dynamic configured-slice parents had not accumulated city-opportunity history. Each page therefore uses the normal active/permanent city mechanism and a conservative exact-city catchment, while its register entry records the explicit waiver of the 3-of-7 evidence requirement. The standing launch rule is unchanged for later candidates.
+
 ## Permanent-page and homepage-visibility rules
 
 Once a city page is explicitly active, the route is permanent unless it is deliberately retired. Falling below six jobs does not remove the page, delist the URL from the site architecture/sitemap, or return 404.
