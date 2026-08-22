@@ -3,7 +3,7 @@
   "display_name": "IT Support",
   "hard_salary_max": 50000,
   "viability_floor": 100,
-  "purpose": "Broad national discovery before advert-level boundary review; configured geography must not gate occupational scale.",
+  "purpose": "Broad national discovery before advert-level boundary review; assessable geography must not gate occupational scale.",
   "broad_title_patterns": [
     "\\bit\\s+support\\b",
     "\\bhelp\\s*desk\\b",
@@ -13,10 +13,20 @@
     "\\b2nd\\s+line\\b",
     "\\bsecond\\s+line\\b",
     "\\bdesktop\\s+support\\b",
+    "\\bdeskside\\s+support\\b",
+    "\\bend[- ]user\\s+(support|computing)\\b",
+    "\\buser\\s+support\\b",
     "\\btechnical\\s+support\\b",
     "\\bit\\s+technician\\b",
+    "\\bict\\s+(support|technician|engineer|analyst)\\b",
+    "\\bcomputer\\s+technician\\b",
     "\\bsupport\\s+analyst\\b",
+    "\\bsupport\\s+engineer\\b",
     "\\bservice\\s+desk\\s+analyst\\b",
+    "\\bapplication\\s+support\\b",
+    "\\bsystems?\\s+support\\b",
+    "\\bsoftware\\s+support\\b",
+    "\\bit\\s+(engineer|officer|analyst)\\b",
     "\\bhelpdesk\\s+(analyst|technician|engineer|support)\\b",
     "\\bit\\s+(support|service)\\s+(analyst|technician|engineer)\\b"
   ],
@@ -30,6 +40,7 @@
     "second line support",
     "2nd line support",
     "desktop support",
+    "deskside support",
     "active directory",
     "microsoft 365",
     "office 365",
@@ -37,11 +48,12 @@
     "ticketing system",
     "remote support",
     "user support",
-    "end user support"
+    "end user support",
+    "end-user support"
   ],
   "description_min_hits": 2,
   "description_title_context_patterns": [
-    "\\b(support|technician|analyst|helpdesk|service\\s+desk|desktop)\\b"
+    "\\b(it|ict|support|technician|analyst|engineer|officer|helpdesk|service\\s+desk|desktop|deskside)\\b"
   ],
   "likely_in_title_patterns": [
     "\\bit\\s+support\\b",
@@ -49,16 +61,22 @@
     "\\bservice\\s+desk\\b",
     "\\b(1st|first|2nd|second)\\s+line\\b",
     "\\bdesktop\\s+support\\b",
+    "\\bdeskside\\s+support\\b",
+    "\\bend[- ]user\\s+support\\b",
     "\\bit\\s+technician\\b",
+    "\\bict\\s+(support|technician)\\b",
     "\\bservice\\s+desk\\s+analyst\\b",
     "\\bit\\s+support\\s+(analyst|technician|engineer)\\b"
   ],
   "borderline_title_patterns": [
     "\\btechnical\\s+support\\b",
     "\\bsupport\\s+analyst\\b",
+    "\\bsupport\\s+engineer\\b",
     "\\bapplication\\s+support\\b",
     "\\bsystems?\\s+support\\b",
-    "\\bsoftware\\s+support\\b"
+    "\\bsoftware\\s+support\\b",
+    "\\bit\\s+(engineer|officer|analyst)\\b",
+    "\\bict\\s+(engineer|analyst)\\b"
   ],
   "specialist_out_title_patterns": [
     "\\b(developer|programmer|software\\s+engineer|data\\s+engineer|devops|site\\s+reliability|sre)\\b",
