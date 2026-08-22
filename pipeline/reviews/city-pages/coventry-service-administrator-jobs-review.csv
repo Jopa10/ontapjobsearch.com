@@ -1,12 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,teaching-vacancies-administration-assistant-meadow-park-school,Administration Assistant,Meadow Park School,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
+include,nhs-5552219,Cardiac Rehabilitation Administration Assistant,University Hospitals Coventry and Warwickshire NHS Trust,"Coventry, CV1 3LN",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,nhs-5525238,Receptionist/Admin,Godiva Group Practice,"Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,teaching-vacancies-school-administrator-president-kennedy-school-academy-coventry-west-midlands,School Administrator,President Kennedy School Academy,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 review,nhs-5538096,Administrator,Abbey Medical Centre,"Kenilworth, CV8 1JD",NHS Jobs,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 exclude,teaching-vacancies-admin-assistant-wellesbourne-cofe-primary-school,Admin Assistant,Wellesbourne CofE Primary School,Warwick,Teaching Vacancies,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-5530549,Admin Assistant - 20 hours,British Pregnancy Advisory Service (BPAS),"Coventry, CV3 5PZ, Nuneaton, CV10 8EJ, Stratford-upon-avon, CV37 6PP",NHS Jobs,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
 exclude,jobg8-23643_225436912,Administrator,Pertemps Contracts - Agency - Temporary,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
-exclude,nhs-5539672,Administrator,Practice Plus Group - Health in Justice,"Rugby, CV23 8SZ",NHS Jobs,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
 exclude,nhs-5553809,Administrator,Practice Plus Group - Health in Justice,"Rugby, CV23 8SZ",NHS Jobs,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
 exclude,jobg8-23643_225437355,Administrator,SF Partners - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225441991,Apprenticeship Administrator,Adecco - Agency - Contract,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

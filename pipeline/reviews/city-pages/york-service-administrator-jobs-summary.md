@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 11
 - automatic review: 6
-- automatic exclude: 8
-- effective include: 9
+- automatic exclude: 9
+- effective include: 11
 - effective review: 6
-- effective exclude: 8
+- effective exclude: 9
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales and Marketing Coordinator
+company: KD Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107804499
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor - Ford
 company: Stoneacre Motor Group. - Company - Permanent
 location: York
@@ -129,6 +141,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: York, YO31 7DE
 source: NHS Jobs
 job_id: nhs-5550198
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator - York and Selby Talking Therapies Team
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: York, YO32 9XW
+source: NHS Jobs
+job_id: nhs-5547601
 reason: Approved York catchment.
 ---
 
@@ -206,7 +230,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -289,6 +313,18 @@ company: KD Recruitment - Agency - Temporary
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225424341
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Procurement Administrator
+company: Broster Buchanan - Agency - Temporary
+location: Harrogate
+source: JobG8
+job_id: jobg8-37fb4c28-ec90-4f45-91d0-8aa8c857a868
 reason: Separate employment market.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 3
-- automatic exclude: 20
+- automatic exclude: 19
 - effective include: 14
 - effective review: 3
-- effective exclude: 20
+- effective exclude: 19
 
 ## INCLUDE (14)
 
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -253,18 +253,6 @@ company: Anonymous - Agency - Contract
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225457187
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Doncaster, DN5 8UX
-source: NHS Jobs
-job_id: nhs-5537316
 reason: Separate employment market.
 ---
 
@@ -380,18 +368,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Support Administrator (Doncaster)
-company: BMC Recruitment Group Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225414146
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
@@ -421,6 +397,18 @@ company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225488492
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Admin Assistant
+company: High Street Practice
+location: Barnsley, S71 4RF
+source: NHS Jobs
+job_id: nhs-5535510
 reason: Separate employment market.
 ---
 

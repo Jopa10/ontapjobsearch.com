@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 3
-- automatic exclude: 28
-- effective include: 6
+- automatic exclude: 26
+- effective include: 7
 - effective review: 3
-- effective exclude: 28
+- effective exclude: 26
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -96,6 +96,18 @@ job_id: jobg8-23643_225423861
 reason: Approved Barnsley catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist Admin Assistant
+company: High Street Practice
+location: Barnsley, S71 4RF
+source: NHS Jobs
+job_id: nhs-5535510
+reason: Approved Barnsley catchment.
+---
+
 ## REVIEW (3)
 
 ---
@@ -134,7 +146,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -157,18 +169,6 @@ company: Treeton Church of England Primary School
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Doncaster, DN5 8UX
-source: NHS Jobs
-job_id: nhs-5537316
 reason: Separate employment market.
 ---
 
@@ -289,18 +289,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225439789
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Support Administrator (Doncaster)
-company: BMC Recruitment Group Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225414146
 reason: Separate employment market.
 ---
 

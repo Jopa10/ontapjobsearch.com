@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 20
-- automatic exclude: 57
-- effective include: 5
-- effective review: 20
-- effective exclude: 57
+- automatic include: 4
+- automatic review: 19
+- automatic exclude: 54
+- effective include: 4
+- effective review: 19
+- effective exclude: 54
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-23643_225463726
 reason: Approved Huddersfield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Kingdom People - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-23643_225413268
-reason: Approved Huddersfield catchment.
----
-
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -258,18 +246,6 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales / Admin Coordinator
-company: Pertemps Bristol Commercial - Agency - Permanent
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225414242
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Account Coordinator
 company: Reed - Agency - Permanent
 location: Shipley
@@ -326,19 +302,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (57)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-e6adc526-6a11-4aca-a85b-f18a9cd311ee
-reason: Separate employment market.
----
+## EXCLUDE (54)
 
 ---
 action: 
@@ -644,6 +608,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Coordinator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1aeda8d2-9bcf-427d-a763-2013f15b9630
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Internal Sales Coordinator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Leeds
@@ -685,18 +661,6 @@ company: Pertemps Bristol Commercial - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225420186
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: Hays Business Support - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225500836
 reason: Separate employment market.
 ---
 
@@ -848,18 +812,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Wilsden Medical Practice
-location: Bradford, BD15 0NJ
-source: NHS Jobs
-job_id: nhs-5526900
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/Administrator
 company: Oastlers School
 location: Bradford
@@ -949,18 +901,6 @@ company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sustainable Funding Coordinator
-company: LJ Recruitment Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107876115
 reason: Separate employment market.
 ---
 

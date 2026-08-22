@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 20
-- automatic exclude: 52
-- effective include: 10
-- effective review: 20
-- effective exclude: 52
+- automatic include: 9
+- automatic review: 19
+- automatic exclude: 49
+- effective include: 9
+- effective review: 19
+- effective exclude: 49
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Wilsden Medical Practice
-location: Bradford, BD15 0NJ
-source: NHS Jobs
-job_id: nhs-5526900
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Oastlers School
 location: Bradford
@@ -144,7 +132,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -318,18 +306,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales / Admin Coordinator
-company: Pertemps Bristol Commercial - Agency - Permanent
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225414242
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Account Coordinator
 company: Reed - Agency - Permanent
 location: Shipley
@@ -386,19 +362,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (52)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-e6adc526-6a11-4aca-a85b-f18a9cd311ee
-reason: Separate employment market.
----
+## EXCLUDE (49)
 
 ---
 action: 
@@ -728,6 +692,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Coordinator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1aeda8d2-9bcf-427d-a763-2013f15b9630
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Internal Sales Coordinator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Leeds
@@ -757,18 +733,6 @@ company: Pertemps Bristol Commercial - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225420186
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: Hays Business Support - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225500836
 reason: Separate employment market.
 ---
 
@@ -921,18 +885,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Sales Administrator
-company: Kingdom People - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-23643_225413268
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
 company: pyramid8 - Agency - Permanent
 location: Wakefield
 source: JobG8
@@ -973,18 +925,6 @@ company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sustainable Funding Coordinator
-company: LJ Recruitment Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107876115
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 42
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
-- automatic review: 40
-- automatic exclude: 25
-- effective include: 37
-- effective review: 40
-- effective exclude: 25
+- automatic include: 42
+- automatic review: 42
+- automatic exclude: 24
+- effective include: 42
+- effective review: 42
+- effective exclude: 24
 
-## INCLUDE (37)
+## INCLUDE (42)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-33210dbc92626a35bffe42114b330ff3
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-3c79e0d2d8b9dc829f1439ebfbd69827
 reason: Approved Newcastle catchment.
 ---
 
@@ -224,6 +236,18 @@ title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-20279_61775-3718a736a0687d2f5641b4cf254429ac
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-20279_61775-87702a1e673975e9bbf89c3879ce0d96
 reason: Approved Newcastle catchment.
 ---
@@ -249,6 +273,18 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-d24d3d6916a209e15b1680693740da2f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-d4d35e2bbb6c679f616e4c8b02eb2ef5
 reason: Approved Newcastle catchment.
 ---
 
@@ -340,6 +376,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-f8d5be08cfc7a3399ff87aa3de9e4a4a
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
 company: North Tyneside Council
 location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
@@ -369,6 +417,18 @@ company: Akari Care Limited
 location: Newcastle, NE5 5HQ
 source: NHS Jobs
 job_id: nhs-5541887
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Coordinator
+company: Age UK North Tyneside
+location: North Tyneside
+source: VONNE
+job_id: vonne-173347
 reason: Approved Newcastle catchment.
 ---
 
@@ -412,11 +472,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: The Village Surgery
-location: Newcastle, ST5 0ET
+title: Renal Supplies Administrator
+company: University Hospital of North Midlands NHS Trust
+location: Newcastle, ST4 6QG
 source: NHS Jobs
-job_id: nhs-5525341
+job_id: nhs-5536548
 reason: Approved Newcastle catchment.
 ---
 
@@ -468,7 +528,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (40)
+## REVIEW (42)
 
 ---
 action: 
@@ -606,18 +666,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Bid Writer
-company: People First Independent Advocacy
-location: North East (hybrid)
-source: VONNE
-job_id: vonne-173334
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Administrator
 company: Spire Healthcare - Company - Permanent
 location: Tyne And Wear
@@ -683,6 +731,30 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-c53d7893-2946-4e1b-a6a5-7c10048932af
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - NEWCASTLE BASED
+company: Brook Street - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225524830
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Administrator Apprentice
+company: QA - Company - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-8769e019-39af-41cb-98ee-9c0a7717aa0d
 reason: Broad location; review before city inclusion.
 ---
 
@@ -950,7 +1022,19 @@ job_id: jobg8-943068d0-ae1e-4bc4-b25a-1ed0b4d06b93
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (25)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trusts and Community Fundraising Officer
+company: Durham County Carers Support
+location: North East (hybrid)
+source: VONNE
+job_id: vonne-173349
+reason: Broad location; review before city inclusion.
+---
+
+## EXCLUDE (24)
 
 ---
 action: 
@@ -962,18 +1046,6 @@ location: Bishop Auckland
 source: NEJobs
 job_id: nejobs-300742
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Hartlepool Borough Council
-location: CETL
-source: NEJobs
-job_id: nejobs-300212
-reason: Outside Newcastle catchment.
 ---
 
 ---
@@ -1057,6 +1129,18 @@ company: South Tyneside and Sunderland NHS Foundation Trust
 location: Sunderland, SR4 7TP, JARROW, NE32 3UX, SOUTH SHIELDS, NE34 0PL, SOUTH SHIELDS, NE34 8PS, Sunderland, SR3 4AG
 source: NHS Jobs
 job_id: nhs-5544416
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clinical Team Secretary/Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5RD
+source: NHS Jobs
+job_id: nhs-5535270
 reason: Separate employment market.
 ---
 
@@ -1237,17 +1321,5 @@ company: Durham County Council
 location: Council Offices, Green Lane, Spennymoor
 source: NEJobs
 job_id: nejobs-300579
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Youth Engagement Officer
-company: Foundation of Light
-location: Sunderland
-source: VONNE
-job_id: vonne-173331
 reason: Separate employment market.
 ---

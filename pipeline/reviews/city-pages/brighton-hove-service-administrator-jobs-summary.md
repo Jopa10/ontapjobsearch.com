@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 34
+- automatic review: 31
 - automatic exclude: 8
 - effective include: 3
-- effective review: 34
+- effective review: 31
 - effective exclude: 8
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (34)
+## REVIEW (31)
 
 ---
 action: 
@@ -186,18 +186,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Financial Administrator
-company: Clearline Recruitment Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-fb3fe47d-5d59-4623-9913-6e6cc881ded7
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Services Administrator
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -282,18 +270,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: People Services Administrator
-company: Southdown - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107806176
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Premises Co-ordinator - ASAP Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -324,18 +300,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225464735
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Bird In Eye Surgery
-location: Uckfield, TN22 5AW
-source: NHS Jobs
-job_id: nhs-5534860
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---

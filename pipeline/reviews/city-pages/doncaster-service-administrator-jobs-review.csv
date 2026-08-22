@@ -1,10 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,nhs-5537316,Administrator (Part Time),Practice Plus Group - Health in Justice,"Doncaster, DN5 8UX",NHS Jobs,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,teaching-vacancies-attendance-officer-trinity-academy,Attendance Officer,Trinity Academy,Doncaster,Teaching Vacancies,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
-include,jobg8-23643_225414146,Project Support Administrator (Doncaster),BMC Recruitment Group Ltd - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225488492,Receptionist - AM shift - DN1,Ideal Recruit Ltd - Agency - Temporary,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,nhs-5554992,Receptionist/Administrator,Tickhill and Colliery Medical Practice,"Doncaster, DN11 9NA, Doncaster, DN11 8JT",NHS Jobs,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-78f4c04c-6e64-45dd-b8b3-2ba440f0f9f1,Recruitment Account Coordinator,Staffline Recruitment Limited - Agency - Contract,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
@@ -30,6 +28,7 @@ exclude,nhs-5538767,Receptionist,Avery Healthcare Group Ltd.,"Sheffield, S6 4TF"
 exclude,nhs-5549526,Receptionist,Beauchief Medical Practice,"Sheffield, S8 0BJ, Sheffield, S174DQ",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,nhs-5544450,Receptionist,Hollygreen Practice,"Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
 exclude,nhs-5544481,Receptionist,Hollygreen Practice,"Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
+exclude,nhs-5535510,Receptionist Admin Assistant,High Street Practice,"Barnsley, S71 4RF",NHS Jobs,exclude,exclude,Separate employment market.,barnsley,doncaster-service-administrator-jobs
 exclude,nhs-5550923,Receptionist/Administrator,Broom Lane Medical Centre,"Rotherham, S60 3EW, Rotherham, S61 3QH",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225478960,Recruitment Resourcer / Administrator,Lynx Employment Services Ltd - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-2cd38f87-cca5-45fb-886a-f1a14694c677,Regeneration and Property Service Support Help Desk Officer,Reed - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs

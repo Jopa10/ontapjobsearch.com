@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 1
-- automatic exclude: 34
-- effective include: 3
+- automatic exclude: 33
+- effective include: 4
 - effective review: 1
-- effective exclude: 34
+- effective exclude: 33
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Meadow Park School
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-meadow-park-school
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Cardiac Rehabilitation Administration Assistant
+company: University Hospitals Coventry and Warwickshire NHS Trust
+location: Coventry, CV1 3LN
+source: NHS Jobs
+job_id: nhs-5552219
 reason: Approved Coventry catchment.
 ---
 
@@ -74,7 +86,7 @@ job_id: nhs-5538096
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -109,18 +121,6 @@ company: Pertemps Contracts - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225436912
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Rugby, CV23 8SZ
-source: NHS Jobs
-job_id: nhs-5539672
 reason: Separate employment market.
 ---
 

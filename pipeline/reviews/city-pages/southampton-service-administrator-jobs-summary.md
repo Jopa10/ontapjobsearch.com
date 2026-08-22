@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 58
+- automatic review: 57
 - automatic exclude: 10
 - effective include: 4
-- effective review: 58
+- effective review: 57
 - effective exclude: 10
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (58)
+## REVIEW (57)
 
 ---
 action: 
@@ -126,11 +126,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
+title: Bank Admin Assistant
+company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107816328
+job_id: jobg8-23643_225524482
 reason: Broad location; review before city inclusion.
 ---
 
@@ -186,11 +186,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Contract Service Desk Lead
-company: Spectrum It Recruitment Limited - Agency - Contract
+title: Contract Planning Administrator
+company: Virtuoso Recruitment Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107843259
+job_id: jobg8-73b68ea5-1637-4e98-8534-2f3bc015b041
 reason: Broad location; review before city inclusion.
 ---
 
@@ -726,18 +726,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: The Workshop - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107770605
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Shipping Administrator
 company: Hartley Resourcing - Agency - Temporary
 location: Hampshire
@@ -788,11 +776,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
+title: Medical Receptionist
+company: Derby Road Practice
+location: Portsmouth, PO2 8HW
 source: NHS Jobs
-job_id: nhs-5538687
+job_id: nhs-5544734
 reason: Separate employment market.
 ---
 
@@ -800,11 +788,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Derby Road Practice
-location: Portsmouth, PO2 8HW
+title: POD Administrator
+company: Hampshire and Isle of Wight ICB (104)
+location: Eastleigh, SO50 5PB
 source: NHS Jobs
-job_id: nhs-5544734
+job_id: nhs-5530658
 reason: Separate employment market.
 ---
 

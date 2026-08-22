@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 2
 - automatic review: 5
-- automatic exclude: 7
-- effective include: 5
+- automatic exclude: 6
+- effective include: 2
 - effective review: 5
-- effective exclude: 7
+- effective exclude: 6
 
-## INCLUDE (5)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,47 +40,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Care and Support Worker
-company: The Society of St James - Agency - Permanent
+title: Secure Childrens Home Support Worker (Weekends)
+company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-1642086
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Night Care Assistant
-company: Crystal Care Group South East - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-107776250
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker - Children & Young People
-company: Randstad Care - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-58c3e926-cf9b-4aae-a931-e1c867a7b221
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Waking Night Support Worker
-company: The Society of St James - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1642087
+job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
@@ -114,6 +78,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Children's Homes Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Romsey
+source: JobG8
+job_id: jobg8-1401784767
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Day Opportunities Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Alton
@@ -134,19 +110,7 @@ job_id: jobg8-107332363
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Waking Night Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-107812604
-reason: No approved Southampton catchment rule matched; local review required.
----
-
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -157,18 +121,6 @@ company: Barchester Healthcare - Company - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Child Support Worker
-company: Randstad Care - Agency - Temporary
-location: Portsmouth
-source: JobG8
-job_id: jobg8-62ac8011-cb52-461e-bd72-7273b61cb640
 reason: Separate employment market.
 ---
 
