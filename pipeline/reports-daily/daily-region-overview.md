@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-22T22:41:01+00:00
+Generated: 2026-08-22T22:41:24+00:00
 
-> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all 55 assessable England markets; LIVE status remains controlled only by the slice register. Before same-feed 55-region coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across 55 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 55 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
+> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all 73 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 73-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across 55 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 55 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
 ## LIVE
 
@@ -44,16 +44,34 @@ Generated: 2026-08-22T22:41:01+00:00
 | Merseyside - Wirral |  |  |  |
 | Norfolk | 18 |  |  |
 | North East | 30 | 6 |  |
+| North Scotland |  |  |  |
+| North Wales - East |  |  |  |
+| North Wales - West |  |  |  |
 | Northamptonshire | 30 |  |  |
+| Northern Ireland - East |  |  |  |
+| Northern Ireland - West |  |  |  |
 | Nottinghamshire | 23 |  |  |
 | Oxfordshire | 51 |  |  |
 | Rutland |  |  |  |
+| Scotland Central - Edinburgh & Lothians |  |  |  |
+| Scotland Central - Falkirk & Stirling |  |  |  |
+| Scotland Central - Fife |  |  |  |
+| Scotland Central - Tayside |  |  |  |
+| Scotland West - Ayrshire |  |  |  |
+| Scotland West - Glasgow |  |  |  |
+| Scotland West - Lanarkshire |  |  |  |
+| Scotland West - Renfrewshire & Inverclyde |  |  |  |
 | Shropshire | 10 |  |  |
 | Somerset | 16 |  |  |
 | Staffordshire | 17 |  |  |
 | Suffolk | 17 |  |  |
 | Surrey | 73 | 11 |  |
 | Sussex | 34 | 13 |  |
+| Wales - West |  |  |  |
+| Wales South - Cardiff & Vale |  |  |  |
+| Wales South - Gwent |  |  |  |
+| Wales South - Swansea Bay |  |  |  |
+| Wales South - Valleys |  |  |  |
 | West Midlands - Birmingham & Solihull | 25 |  |  |
 | West Midlands - Black Country | 9 |  |  |
 | West Midlands - Coventry & Warwickshire | 31 |  |  |
@@ -106,16 +124,34 @@ Generated: 2026-08-22T22:41:01+00:00
 | Merseyside - Wirral | 2 / 2.0 / 0/1 | 0 / 0.0 / 0/1 | 1 / 1.0 / 0/1 |
 | Norfolk |  | 0 / 0.0 / 0/1 | 4 / 4.0 / 0/1 |
 | North East |  |  | 6 / 6.0 / 1/1 |
+| North Scotland | 1 | 0 | — |
+| North Wales - East | 3 | 0 | — |
+| North Wales - West | — | 0 | — |
 | Northamptonshire |  | 0 / 0.0 / 0/1 | 4 / 4.0 / 0/1 |
+| Northern Ireland - East | 2 | 1 | — |
+| Northern Ireland - West | 2 | — | — |
 | Nottinghamshire |  | 2 / 2.0 / 0/1 | 3 / 3.0 / 0/1 |
 | Oxfordshire |  | 3 / 3.0 / 0/1 | 1 / 1.0 / 0/1 |
 | Rutland | 0 / 0.0 / 0/1 | 0 / 0.0 / 0/1 | 0 / 0.0 / 0/1 |
+| Scotland Central - Edinburgh & Lothians | 4 | 1 | — |
+| Scotland Central - Falkirk & Stirling | 1 | 1 | — |
+| Scotland Central - Fife | — | 0 | — |
+| Scotland Central - Tayside | 4 | — | — |
+| Scotland West - Ayrshire | — | — | — |
+| Scotland West - Glasgow | 0 | 0 | — |
+| Scotland West - Lanarkshire | 1 | — | — |
+| Scotland West - Renfrewshire & Inverclyde | — | 0 | — |
 | Shropshire |  | 2 / 2.0 / 0/1 | 2 / 2.0 / 0/1 |
 | Somerset |  | 3 / 3.0 / 0/1 | 0 / 0.0 / 0/1 |
 | Staffordshire |  | 0 / 0.0 / 0/1 | 0 / 0.0 / 0/1 |
 | Suffolk |  | 2 / 2.0 / 0/1 | 3 / 3.0 / 0/1 |
 | Surrey |  |  | 5 / 5.0 / 0/1 |
 | Sussex |  |  | 4 / 4.0 / 0/1 |
+| Wales - West | 1 | 1 | — |
+| Wales South - Cardiff & Vale | 1 | 1 | — |
+| Wales South - Gwent | — | — | — |
+| Wales South - Swansea Bay | 1 | 1 | — |
+| Wales South - Valleys | — | 0 | — |
 | West Midlands - Birmingham & Solihull |  | 1 / 1.0 / 0/1 | 5 / 5.0 / 0/1 |
 | West Midlands - Black Country |  | 2 / 2.0 / 0/1 | 1 / 1.0 / 0/1 |
 | West Midlands - Coventry & Warwickshire |  | 0 / 0.0 / 0/1 | 1 / 1.0 / 0/1 |
@@ -130,7 +166,7 @@ Generated: 2026-08-22T22:41:01+00:00
 
 | Measure | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Live regions | 41 / 55 | 9 / 55 | 3 / 55 |
+| Live regions | 41 / 73 | 9 / 73 | 3 / 73 |
 | Live jobs | 1272 | 66 | 33 |
 
-**Live slices: 53 / 165.**
+**Live slices: 53 / 219.**
