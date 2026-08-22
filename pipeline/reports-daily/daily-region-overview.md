@@ -1,46 +1,46 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-21T22:44:16+00:00
+Generated: 2026-08-22T11:42:41+00:00
 
-> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-21.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-21) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor is now a LIVE registered family where the slice register says LIVE; its LIVE counts come from the current published Customer Sales configured-slice JSON. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily assessment is wired into this overview.
+> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor is now a LIVE registered family where the slice register says LIVE; its LIVE counts come from the current published Customer Sales configured-slice JSON. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily assessment is wired into this overview.
 
 ## LIVE
 
 | Region | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Berkshire | 38 |  |  |
-| Bristol & Bath | 36 |  |  |
+| Berkshire | 39 |  |  |
+| Bristol & Bath | 35 |  |  |
 | Buckinghamshire | 18 |  |  |
 | Cambridgeshire | 41 |  |  |
 | Cumbria - North |  |  |  |
-| Cumbria - South |  | 3 |  |
-| Devon | 46 |  |  |
-| Dorset | 22 |  |  |
-| Essex | 45 |  |  |
-| Gloucestershire | 24 |  |  |
-| Greater Manchester - Manchester & Salford | 36 |  | 6 |
-| Greater Manchester - South | 14 |  |  |
-| Hampshire | 58 | 17 |  |
-| Hertfordshire | 20 |  |  |
-| Kent | 55 |  |  |
+| Cumbria - South |  | 2 |  |
+| Devon | 45 |  |  |
+| Dorset | 23 |  |  |
+| Essex | 46 |  |  |
+| Gloucestershire | 23 |  |  |
+| Greater Manchester - Manchester & Salford | 35 |  | 6 |
+| Greater Manchester - South | 13 |  |  |
+| Hampshire | 57 | 13 |  |
+| Hertfordshire | 22 |  |  |
+| Kent | 57 |  |  |
 | Lancashire - North |  |  |  |
-| London | 156 | 14 | 20 |
-| Norfolk | 16 |  |  |
-| North East | 31 | 6 |  |
+| London | 161 | 14 | 20 |
+| Norfolk | 19 |  |  |
+| North East | 30 | 6 |  |
 | Northamptonshire | 30 |  |  |
 | Nottinghamshire | 24 |  |  |
-| Oxfordshire | 46 |  |  |
-| Somerset | 14 |  |  |
-| Staffordshire | 22 |  |  |
-| Surrey | 70 | 12 |  |
-| Sussex | 36 | 13 |  |
+| Oxfordshire | 50 |  |  |
+| Somerset | 16 |  |  |
+| Staffordshire | 18 |  |  |
+| Surrey | 71 | 12 |  |
+| Sussex | 34 | 13 |  |
 | West Midlands - Birmingham & Solihull | 26 |  |  |
 | West Midlands - Coventry & Warwickshire | 31 |  |  |
-| Wiltshire | 28 | 4 |  |
+| Wiltshire | 29 | 4 |  |
 | Yorkshire - East | 14 |  |  |
-| Yorkshire - North | 20 |  |  |
-| Yorkshire - South | 32 | 2 |  |
-| Yorkshire - West | 68 | 3 | 7 |
+| Yorkshire - North | 21 |  |  |
+| Yorkshire - South | 29 | 2 |  |
+| Yorkshire - West | 61 | 2 | 7 |
 
 ## NOT LIVE
 
@@ -50,25 +50,25 @@ Generated: 2026-08-21T22:44:16+00:00
 | Bristol & Bath |  | 1 | — |
 | Buckinghamshire |  | 2 | — |
 | Cambridgeshire |  | 0 | — |
-| Cumbria - North | 3 | 7 | — |
+| Cumbria - North | 3 | 6 | — |
 | Cumbria - South | 2 |  | — |
 | Devon |  | 0 | — |
 | Dorset |  | 1 | — |
 | Essex |  | 1 | — |
-| Gloucestershire |  | 2 | — |
+| Gloucestershire |  | 1 | — |
 | Greater Manchester - Manchester & Salford |  | 0 |  |
 | Greater Manchester - South |  | 1 | — |
 | Hampshire |  |  | — |
 | Hertfordshire |  | 3 | — |
-| Kent |  | 7 | — |
-| Lancashire - North | 1 | 2 | — |
+| Kent |  | 4 | — |
+| Lancashire - North | 1 | 1 | — |
 | London |  |  |  |
-| Norfolk |  | 2 | — |
+| Norfolk |  | 1 | — |
 | North East |  |  | — |
 | Northamptonshire |  | 0 | — |
 | Nottinghamshire |  | 2 | — |
-| Oxfordshire |  | 2 | — |
-| Somerset |  | 4 | — |
+| Oxfordshire |  | 3 | — |
+| Somerset |  | 3 | — |
 | Staffordshire |  | 0 | — |
 | Surrey |  |  | — |
 | Sussex |  |  | — |
@@ -85,6 +85,6 @@ Generated: 2026-08-21T22:44:16+00:00
 | Measure | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
 | Live regions | 30 / 33 | 9 / 33 | 3 / 33 |
-| Live jobs | 1117 | 74 | 33 |
+| Live jobs | 1118 | 68 | 33 |
 
 **Live slices: 42 / 99.**
