@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-holly-lodge-primary-academy-ash-vale-surrey",
-    "title": "Admin Assistant",
-    "company": "Holly Lodge Primary Academy",
-    "location": "Ash Vale",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£7,244 - £7,898 actual (£23,859 - £26, 014 FTE )",
-    "work_pattern": "",
-    "posted_date": "2026-07-10",
-    "closing_date": "2026-08-21",
-    "closing_datetime": "2026-08-21T23:59:59+01:00",
-    "summary": "Admin Assistant with Holly Lodge Primary Academy in Ash Vale. ['part time']; £7,244 - £7,898 actual (£23,859 - £26, 014 FTE ).",
-    "description": "Holly Lodge Primary Academy is recruiting for this vacancy in Ash Vale.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £7,244 - £7,898 actual (£23,859 - £26, 014 FTE ).\n\nThe stated application deadline is 2026-08-21T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-holly-lodge-primary-academy-ash-vale-surrey?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Holly Lodge Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-office-administrator-bramley-cofe-infant-school-and-nursery",
     "title": "Receptionist/Office Administrator",
     "company": "Bramley CofE Infant School and Nursery",
@@ -231,6 +203,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "1ca981dd-6428-404a-8931-b38eb954935d",
+    "title": "Service Advisor",
+    "company": "Perfect Placement Uk Ltd - Agency - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "40000",
+    "salary_text": "£32000 - £40000 per year",
+    "posted_date": "2026-08-22",
+    "description": "Our client, a reputable motor trade dealership based in Epsom, Surrey, is seeking an experienced Service Advisor to join their dedicated team. This role offers a rewarding career within a well-established business known for its excellent customer service and staff development.Benefits of the Service Advisor:\n- Up to £32,000 salary depending on experience, with a realistic uncapped OTE of £40,000+\n- 8am to 6pm, Monday to Friday, with 1 in 4 Saturday mornings\n- Full industry recognised training provided\n- Career development opportunities into senior roles\n- Supportive, family-run dealership environment with a close-knit team\n- Regular social events to foster team spirit\n- Opportunities to enhance skills through industry recognised courses\n\nDuties of the Service Advisor:\n- Handling inbound bookings for vehicle repairs and MOTs\n- Updating customers on vehicle availability and pricing\n- Checking customers in and informing them of scheduled repairs\n- Assisting the Aftersales Manager and wider team to improve customer satisfaction\n- Administering customer information and repair details onto dealership software systems\n- Contributing to the administration of the service department\n\nRequirements of the Service Advisor:\n- At least 2 years' experience as a Service Advisor or within the automotive aftersales sector\n- Excellent communication skills and a helpful, friendly manner\n- Enthusiastic attitude with a willingness to learn and develop\n- Strong organisational skills and attention to detail\n- Ability to work within a team and build rapport with customers\n- Knowledge of dealership industry standards and processes is advantageous but not essential\n\nThis is an excellent opportunity for a motivated Service Advisor to join a reputable dealership that values its staff and promotes career progression. The successful individual will benefit from ongoing training, a supportive working environment, and the chance to develop their automotive career.Contact Darwin Manship, Automotive Recruitment Specialist at Perfect Placement covering Epsom and Surrey, today to discover more about this fantasticopportunity.Our team of Automotive recruitment specialists are dedicated to finding the perfect match for both job seekers and employers in the motor trade. Let us help you take the first step towards your dream Motor Trade career.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRFgqPIZZmUb7wvmRtlsvRaOd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Perfect Placement Uk Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225436223",
     "title": "Document Controller",
     "company": "Faith Recruitment - Agency - Contract",
@@ -328,11 +325,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225425807",
@@ -482,14 +475,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225447538",
@@ -514,12 +500,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225445519",
@@ -594,12 +575,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry",
-      "Payroll administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225448746",
@@ -699,11 +675,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225462857",
@@ -778,12 +750,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "751b68c6-1308-4594-b5f1-8360ef67ae64",
@@ -858,14 +825,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "d33ae84b-3d04-499d-aa6d-57d9112cce12",
@@ -890,14 +850,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225494521",
@@ -922,12 +875,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "d318f4e4-d47b-496e-ad29-a3a8d7979ae5",
@@ -1002,12 +950,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "49e9b205-b4a5-43f8-bf98-22e6dd9c1202",
@@ -1107,11 +1050,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225511011",
@@ -1136,12 +1075,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225513051",
@@ -1266,11 +1200,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107831076",
+    "title": "Medical Secretary",
+    "company": "Elysium Healthcare - Company - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "24000",
+    "salary_max": "24000",
+    "salary_text": "£24000 per year",
+    "posted_date": "2026-08-22",
+    "description": "Do you have administration experience and are looking to step into a new role? Join Farmfield Hospital as a Medical Secretary and enjoy a career where you are valued and supported to be the best you can be.\n\nWorking 37.5, you will be responsible for providing administrative support to the medical team at Farmfield Hospital From managing their diaries, planning meetings to updating records, you will click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RNqdEgyeUg0eWBeunavKjQx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Elysium Healthcare",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225516106",
@@ -1370,12 +1325,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "807b518b-1232-4c30-b8d3-777557234073",
@@ -1400,12 +1350,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225517884",
@@ -1530,11 +1475,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "bac215d3-7977-4dd0-b20c-0d53357d5009",
@@ -1659,11 +1600,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225457929",
@@ -1713,11 +1650,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225415851",
@@ -1767,11 +1700,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225438595",
@@ -1996,13 +1925,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "51d5169c-a29a-4e29-a236-3da93cb51551",

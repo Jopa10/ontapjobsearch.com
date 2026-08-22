@@ -106,11 +106,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475225",
@@ -185,12 +181,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225423591",
@@ -290,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225454192",
@@ -319,11 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "f681071c-0bb0-44d6-93f9-69def4367131",
@@ -373,12 +356,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225478870",
@@ -503,11 +481,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "0da1c313-2ec4-4e7d-ae98-1e1788031278",
@@ -532,11 +506,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225515784",
@@ -589,6 +559,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107686202",
+    "title": "Part-Time Administrator (Financial Services)",
+    "company": "Siamo Group Ltd - Agency - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15",
+    "salary_max": "15",
+    "salary_text": "£15 per hour (Benefits Excellent Company Benefits)",
+    "posted_date": "2026-08-22",
+    "description": "Salary/Rate: £15/hour + 25 Days Annual Leave Entitlement\nWorking Hours: 09 00 Thursday & Friday OR 10 30 Wednesday, Thursday & Friday (Can be negotiated)\nWe here at Siamo are thrilled to be working with an established, family-run financial services firm that operates across a variety of financial click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgpl76H4P4MHFGSY%2b%2bNoam9Qn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Siamo Group Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "1595753",
     "title": "Quality Team Coordinator",
     "company": "Barnabas Aid - Agency - Permanent",
@@ -611,12 +606,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107762896",
@@ -691,12 +681,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107863674",
@@ -749,6 +734,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5555785",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Avery Healthcare Group Ltd.",
+    "advertiser_name": "Avery Healthcare Group Ltd.",
+    "location": "Marlborough, SN8 1JR",
+    "region": "Wiltshire",
+    "salary": "£12.72",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-22T06:14:11.938428649",
+    "closing_date": "2026-09-10",
+    "description": "Maternity cover At Avery Healthcare, we are all about supporting the people who care for our residents. We know how hard our teams work, and were here to celebrate and support you every step of the way. When you join us, youll be making a positive impact on residents lives every day your compassion and dedication truly make a difference. Were committed to helping you grow in a caring, supportive environment, with opportunities to learn and develop throughout your career. And as part of our close-knit team, youll experience a culture that values respect, compassion, and a shared commitment to exceptional care. Were now looking for a warm, enthusiastic, and dedicated individual to join our award-winning team as a Receptionist at Merlin Court Care Home in Marlborough, Wiltshire. If this sounds like the place for you, wed love to hear from you! ABOUT THE ROLE Your focus as a receptionist will be to offer professional, high quality customer service as first point of contact within the home as well as providing a range of administrative services. Other responsibilities will include: Answering the telephone and responding to enquiries at reception, redirecting calls to relevant staff and recording messages accordingly. Completing reception-related administration, maintaining databases, and providing administrative assistance as required by the General Manager. Maintaining the general tidiness of the reception area, liaising with Housekeeping to ensure standards are maintained. As a receptionist at Avery Healthcare, your primary focus will be to offer professional, high-quality customer service and act as the first point of contact within the care home. You will be responsible for answering telephone inquiries, redirecting calls to relevant staff, and recording messages. Additional duties include handling reception-related administrative tasks, maintaining databases, and providing administrative assistance to the General Manager when needed. The role also involves ensuring the tidiness of the reception area and working closely with the Housekeeping team to maintain required standards. The position is designed to support and celebrate the individuals dedicated to caring for the homes residents. Package Description: Maternity cover ABOUT THE ROLE Your focus as a receptionist will be to offer professional, high quality customer service as first point of contact within the home as well as providing a range of administrative services. Other responsibilitieswillinclude: Answering the telephone and responding to enquiries at reception, redirecting calls to relevant staff and recording messages accordingly. Completingreception-related administration,maintainingdatabases,and providing administrativeassistanceas required by the General Manager. Maintainingthe general tidiness of the reception area, liaising with Housekeeping to ensure standards aremaintained. ABOUT YOU To be successful in your application, you will live our values of caring, supportive, honest, respectful and accountable in all that you do. Our ideal candidatemust: Have excellent communication skills both verbal and written. Be confident in using computers. Have a positive,friendly,and welcoming attitude. Havepreviousexposure to problem-solving and client complaints. ABOUT AVERY Please note this role will require: ADBS Disclosure check, the cost of which will be met by Avery Healthcare. Proof of eligibility to work in the UK. This advert may be withdrawn prior to the advertised deadline depending on the volume of applications received and business needs.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5547427",
     "source": "NHS Jobs",
     "title": "Receptionist / Administrator (25 hours per week)",
@@ -782,25 +786,6 @@
     "description": "***WE ARE CURRENTLY UNABLE TO ACCEPT APPLICATIONS DIRECT ON NHS JOBS. IF YOU WISH TO BE CONSIDERED FOR THE ROLE PLEASE APPLY ON OUR WEBSITE OR COPY AND PASTE THE LINK BELOW IN TO YOUR BROWSER*** https://fa-euxi-saasfaukgovprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/8118/?utm_medium=jobshare&utm_source=External+Job+Share Adoption West is a regional adoption agency and registered voluntary adoption agency that provides adoption services for Bath & North East Somerset, Bristol, Gloucestershire, North Somerset, South Gloucestershire and Wiltshire Councils. Adoption West operates out of 3 hubs across the region, with offices based in Bristol, Gloucester and Trowbridge. You will be part of the wider Business Support Team, ensuring that all administration systems and processes are maintained and developed to meet the performance needs of the service. The role will also provide secretarial support for confidential and sensitive matters relating to various investigations, providing a fully responsive and flexible business support service within the department. Prepare and plan agendas for statutory Adoption Panels. Co-ordinating papers to ensure members have everything required to make safe recommendations to the Agency Decision Maker in relation to adopter approvals and adoption placements To attend and take full, formal and detailed minutes of the confidential Adoption Panels which are a statutory requirement. Minutes produced are distributed within and outside the organisation, forming part of a childs record. To attend and take full minutes of other confidential meetings. To initiate and maintain systems for the recording of panel items and changes to data as required. Finding solutions to unexpected problems such as Panel quoracy, missing paperwork, unexpected gaps in agendas To organise and book the Adoption Panels, along with co-ordinating independent and internal panel members attendance to ensure quoracy. Responsibility for the organisation of associated activities relating to Adoption Panels such as conferences, annual events, training days, etc; undertaking all associated activities (e.g. booking of venues, refreshments etc) assist the wider service in providing an effective and efficient administrative support function answer routine enquiries from service users, and internal and external customers, and ensure that enquiries are responded to professionally and relayed accurately maintaining systems / spreadsheets as appropriate to aid monitoring processes and enable the production of accurate records. The daily working environment for all administrative staff therefore necessitates dealing with distressing and sensitive information.Under the direction of the Administration Manager manage own workload and prioritise effectively:-1.To provide a confidential, secretarial minute taking and admin support service to Adoption Wests Adoption Panels and other meetings as required. Panels are held frequently and the post holder is responsible for ensuring Agendas are efficiently arranged, quoracy is maintained and that statutory guidelines and timescales are met.2.To be part of the wider Business Support Team, ensuring that all departmental systems and processes are maintained and developed to meet the performance needs of the service;3.To provide secretarial support for all confidential and sensitive matters relating to various investigations, providing a fully responsive and flexible business support service within the department.Specific duties and responsibilities include:Minute Taking and Administering MeetingsTo service meetings, including:-Prepare and plan agendas for statutory Adoption Panels. Co-ordinating papers to ensure members have everything required to make safe recommendations to the Agency Decision Maker in relation to adoption placementsTo attend and take full, formal and detailed minutes of the confidential Adoption Panels which are a statutory requirement. Minutes produced are distributed within and outside the organization and are kept for up to 100 years, forming part of a childs record. It is vital that minutes are accurate as failure to do so could lead to an illegal and potentially dangerous placement of a childTo attend and take full minutes of other confidential meetings.To initiate and maintain systems for the recording of panel items and changes to data as required.Liaise with all attendees of meetings and act as the contact point for communications. Attendees may be internal or external to the organization. Actions to be taken will include agreeing Panel member attendance to ensure quoracy and equity of attendance across the year; management of agenda items to ensure Panels run efficiently including postponing or replacing items.Finding solutions to unexpected problems such as Panel quoracy, missing paperwork, unexpected gaps in agendasOrganisation and Co-ordination ActivitiesTo organise and book the Adoption Panels, along with co-ordinating independent and internal panel members attendance to ensure quoracy.Responsibility for the organisation of associated activities relating to Adoption Panels such as conferences, annual events, training days, etc; undertaking all associated activities (e.g. booking of venues, refreshments etc)Text ProcessingTo apply a high skill level to the production of all text processing as required by senior managers (e.g. Complex reports, tables, minutes, presentations, leaflets, brochures, statistics etc), including the drafting of routine correspondence in the absence of managers; utilising shorthand skills and copy typing as required.Customer Care -To ensure a professional response service to all callers, including:-Being the point of contact for communications, ensuring the highest level of confidentiality, tact and discretion.Providing advice and guidance on Panel processes and requirements to practitioners, managers and attendees as necessary.Records and Information Systems -To be responsible for all records and information held in relation Adoption Panels, including:-Maintaining a confidential filing system, holding sensitive records, both electronic and paper based, ensuring the security of information/data and complying with policy and procedure.To assist with the maintenance of departmental databases Charms and operate all software systems, ensuring the accurate collection and recording of data and information.To interrogate and produce reports from various systems for senior managers as required.To collate statistical and other management information as requested.General Administrative Duties -To support the Business Services Team to deliver the full range of secretarial and administrative services across the Department, including:-To provide advice/guidance to other administrative staff as necessaryTo carry out specific project work, under the direction of the managerTo undertake routine processes associated with Reviews/Conferences of Children who are In Care and subject to Child Protection ProceduresTo respond flexibly to the needs of the whole service, providing cover across teams/Offices as and when requiredAssist in the development of all systems/procedures operating with the Team/Area",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5534585",
-    "source": "NHS Jobs",
-    "title": "Receptionist / Administrator (part-time)",
-    "company": "Northlands Surgery",
-    "advertiser_name": "Northlands Surgery",
-    "location": "Calne, SN11 0HH",
-    "region": "Wiltshire",
-    "salary": "£13.09",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-12T12:37:17.342211633",
-    "closing_date": "2026-08-21",
-    "description": "We are looking to recruit a motivated and enthusiastic Receptionist / Administrator to join our friendly and supportive team in a busy doctors surgery in Calne, Wiltshire. There are two shift patterns available: A: Tuesday (1:30pm-6:30pm), Wednesday (8:00am-1:00pm), Thursday (8:00am-1:00pm) and Friday (1:30pm-6:30pm) (20 hours per week) B: Tuesday (8:30am-6:30pm), Wednesday (2pm-7:30pm) and Thursday (2pm-7:30pm) (20 hours per week) You will need to deal with people at all levels in a calm and courteous manner, even when under pressure. We are looking for strong team players who enjoy a challenge. If you have excellent people skills, good computer skills and a flexible approach to working, we would love to hear from you. Ensure an effective and efficient reception service is provided to patients and any other visitors to the practice Maintaining and monitoring the practice appointments system Processing personal and telephone requests for appointments, visits and telephone consultations, and ensuring callers are directed to the appropriate healthcare professional Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures Initiating contact with, and responding to, requests from patients, other team member and associated healthcare agencies and providers Providing clerical assistance to practice staff as required from time to time, including word/data processing, filing, photocopying and scanning Explain practice arrangements and formal requirements to new patients and those seeking temporary cover and ensure that all new patients are registered onto the computer system promptly and accurately Advise patients of relevant charges for private (non General Medical Services) services, accept payment and issue receipts for same. Scanning hospital and other healthcare professional correspondence Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter Job responsibilities: Opening up/locking up of practice premises and maintaining security in accordance with practice protocols Enter patient information on to the computer as required Taking messages and passing on information Filing and retrieving paperwork Processing repeat prescriptions in accordance with practice guidelines Undertake any other additional duties appropriate to the post as requested by the Practice Manager. Confidentiality In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately In the performance of the duties outlined in this Job Description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health and Safety The post-holder will assist in promoting and maintaining their own and others health, safety and security as defined in the practice Health & Safety Policy, to include: Using personal security systems within the workplace according to practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Making effective use of training to update knowledge and skills Using appropriate infection control procedures, maintaining work areas in a tidy and safe way and free from hazards Reporting potential risks identified. Equality and Diversity The post-holder will support the equality, diversity and rights of patients, carers and colleagues, to include: Acting in a way that recognizes the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Behaving in a manner which is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Professional / Personal Development The post-holder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in an annual individual performance review, including taking responsibility for maintaining a record of own personal and/or professional development Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work. Quality The post-holder will strive to maintain quality within the practice, and will: Alert other team members to issues of quality and risk Assess own performance and take accountability for own actions, either directly or under supervision Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance Work effectively with individuals in other agencies to meet patients needs Effectively manage own time, workload and resources. Communication: The post-holder should recognize the importance of effective communication within the team and will strive to: Communicate effectively with other team members Communicate effectively with patients and carers Recognize peoples needs for alternative methods of communication and respond accordingly.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4487-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4487-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"

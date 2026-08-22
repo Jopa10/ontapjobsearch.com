@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_224591553",
@@ -126,12 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "51b7084a-1bde-4019-b7ad-d02dbe202fc3",
@@ -156,12 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "fa1ef494-67a9-42e9-9ce7-97a835002722",
@@ -311,11 +297,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107857540",
+    "title": "Patient Co-ordinator, Yatton, North Somerset",
+    "company": "Menlo Park - Agency - Permanent",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "2026-08-22",
+    "description": "Patient Co-ordinator, Yatton\n\nProgressive GP Group of Practices\n\nLooking for a career that matters?\n\nEvery day, thousands of patients contact the practices in this large, innovative group looking for help, advice and support.\n\nAs a Patient Co-ordinator, you'll be the first person they speak to click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVbOl5aLiByyxoZ%2bCqn6WmmKj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Menlo Park",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107866477",
@@ -364,6 +371,31 @@
     "advertiser_name": "Refresco Drinks UK Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "641c5500-7bd3-4aeb-95af-9fa1924b6f36",
+    "title": "Finance Assistant",
+    "company": "Change Recruitment Services Ltd - Agency - Permanent",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-22",
+    "description": "Change Recruitment as currently recruiting a Finance Assistant role for a growing business based in Taunton. This role is offered on both a temp to perm or straight permanent basis. Working in a small finance team you will be responsible for the day to day transactional accounting and credit control duties.\n\nDuties for this role include:\n- Purchase ledger posting and control\n- Sales ledger management\n- Bank reconciliations\n- Some credit control as required\n- Ad-hoc duties to support the wider finance team\n\nThe ideal candidate will have experience using Sage 200 and used to working with both sales and purchase ledgers. In return this role offers a very competitive salary and the chance for the role to grow with responsibility as the business grows.\n\nIf you are interested in this role please apply today or call for a more in depth conversation.\n\nChange Recruitment Services Limited provides services as an Agency and an Employment Business, and is committed to equal opportunities for all candidates",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawF0Ib8srN2OQHj3Jj6uoIqb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Change Recruitment Services Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -422,6 +454,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5540884",
+    "source": "NHS Jobs",
+    "title": "Administrator for School Nursing",
+    "company": "Sirona care & health CIC",
+    "advertiser_name": "Sirona care & health CIC",
+    "location": "Weston-super-Mare, BS24 9AY",
+    "region": "Somerset",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-14T13:26:23.983778",
+    "closing_date": "2026-09-02",
+    "description": "We are looking for an Administrator to join our School Nursing Service! Through delivery of the Healthy Child Programme, our School Nursing Service work in partnership with children, families and professionals to promote health and wellbeing by supporting children, young people and their carers with their physical, mental and emotional health and wellbeing, and by equipping young people with the resources they need to make healthy lifestyle choices throughout life. The School Nursing Service supports all school aged (5-19) children and young people across Bristol, working in partnership with multi-disciplinary health teams within community and acute services, local authority and voluntary sector teams - to deliver a clinically effective, high quality health service to the school aged population, in a variety of settings. The working hours are 9am to 5pm, Monday to Friday. To provide comprehensive administrative support to the School Nursing team. To act as an effective link across CCHP staff, Schools, Children's Social Care, GPs, the general public and other relevant bodies. The post requires organisation, attention to detail and initiative to ensure that the best possible care is delivered to children, young people, their families and that targeted tasks are completed on time. The post holder will be based in North Somerset at Badger House, and will work closely with administrators in other areas such as Health Visiting, Children's Continence and the Children Looked After and Care Leavers Teams. The Post Holder will be responsible for: Liaising with families, other health professionals and other agencies to make appointments on behalf of and at the request of the school nursing team. Acting as the central information and contact point for parents/ carers, medical and nursing staff and other agencies and disseminating information as appropriate to the school nursing team. Data entry of information into pre-populated templates and work based systems. Undertaking any necessary photocopying, filing, and other administrative duties to ensure the effective running of the office. Arranging, organising and co-ordinating the booking of premises for meetings. Working flexibly to support other school nursing team administrators across the area. Please see the attached Job Description for a full list of duties and responsibilities before applying for this position. We are unable to provide sponsorship for this role and can only accept applications from UK based applicants.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0438",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0438",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

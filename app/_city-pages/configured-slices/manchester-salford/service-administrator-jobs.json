@@ -47,12 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "c1d57060-6bda-42f6-8d23-55cdaae93f2f",
@@ -77,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Payroll administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "51228016-0a1f-4d13-9cbb-4dae4e659c93",
@@ -232,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225422206",
@@ -261,12 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "989559d5-cac2-4421-909f-4e1b2e0c2dbd",
@@ -316,13 +297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Document preparation",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225445466",
@@ -372,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107694241",
@@ -676,11 +647,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "328ae4e0-c969-4e37-8a58-1ef8da5c8a2e",
@@ -705,13 +672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225522116",
@@ -733,35 +694,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Data entry"
-    ]
-  },
-  {
-    "job_id": "4a3240a4-7ac5-4829-9657-42b832f0e002",
-    "title": "HR Assistant",
-    "company": "SF Partners - Agency - Temporary",
-    "location": "Manchester",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour",
-    "posted_date": "2026-08-12",
-    "description": "My client is a further education organisation based in Manchester. Due to gaps in the team they are recruiting this role on a temporary basis although there could be the potential for longer term opportunities. As a HR Assistant you will be responsible for various administrative duties within the HR function. This will include responding to generic HR queries, employment references, change to T&C letters, processing leavers, vacancy uploads, issuing contracts for new starters, completing right to work and onboarding checks as well as dealing with basic payroll administration. This role will suit a candidate who is available immediately and has experience in a varied administrative position within a HR function so you can hit the ground running with the above named duties. The hourly rate is paying up to £14 per hour dependant on experience with the ability to work on a hybrid basis.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh01r3a9ONf9GSkNovHnrwdvu",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "The hourly rate is paying up to £14 per hour dependant on experience with the ability to work on a hybrid basis.",
-    "advertiser_name": "SF Partners",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
@@ -790,12 +722,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225494043",
@@ -870,12 +797,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225509200",
@@ -900,12 +822,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "d7be9799-436b-4c20-88a8-635a2a6b822a",
@@ -930,12 +847,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "58d8d671-be15-4ec0-82bd-3ac53a37c782",
@@ -1110,25 +1022,6 @@
     "description": "We are looking for a committed and enthusiasticMedical Receptionistto join our Reception Team as soon as possible. The successful candidate will provide a high quality and responsive Reception service to all our patients, ensuring that all administrative processes run efficiently and in accordance with the practices requirements. We reserve the right to close this advert early if we receive a suitable number of high-quality applications, so please apply early to avoid disappointment. Please see the job description attached for full details on the main duties and person specification required for this role. Please see the job description document attached for full details on the roles and responsibilities for the position. As a Medical Receptionist, you will have the following key responsibilities: 1.Provide cover on our front reception desks, ensuring that any and all visitors to the practice are welcomed, greeted professionally, and dealt with accordingly, while managing the flow of patients arriving for appointments, prescriptions, or general queries. 2.Cover the inbound call queue, ensuring that all inbound telephone calls are answered in a timely manner and managed appropriately, and dealing with all enquiries efficiently and courteously. 3.Monitor the main email inbox for the practice, escalate urgent queries according to the relevant protocols, and respond to all emails in a timely and professional manner. 4.Make outgoing contact with patients through outbound calls, text messages, emails, or by sending letters through the post as required. 5.Manage appointment booking processes through all streams and for all clinics through using a number of systems such as EMIS, AccuRx, and Docman in line with the relevant criteria. 6.Receive new patient registrations, input them on the system, and file medical records as needed. 7.Process all correspondence received directly from patients or via the postal service, by scanning and filing it in the most appropriate way as soon as possible, whilst always adhering to our policies and processes surrounding Confidentiality and Consent. 8.Receive laboratory specimens from patients, ensuring all their details have been recorded and the correct sample containers have been used, whilst following Health & Safety policy. 9.Tidy the waiting room area and the reception office area at the end of your shift, by appropriately discarding any old or damaged items and paperwork, closing all windows, ensuring premises are kept tidy and secure by switching off all lights and locking away confidential documentation. 10.Have a thorough knowledge of all internal and patient-facing practice policies and procedures, by always following the relevant written protocols. 11.Provide any administrative support required by the clinical staff. 12.Maintain the appropriate level of printed forms and sample pots at the front reception desk. 13.Process any administrative requests from patients, including for non-NHS paid services, such as providing summaries, medication lists, prepared letters, or SARs, and such as updating any contact details on our clinical system in line with the relevant protocols.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3078-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3078-26-0007",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5550785",
-    "source": "NHS Jobs",
-    "title": "Senior Administration Assistant",
-    "company": "The Christie NHS FT",
-    "advertiser_name": "The Christie NHS FT",
-    "location": "Manchester, M20 4BX",
-    "region": "Greater Manchester - Manchester & Salford",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T16:00:08.381241",
-    "closing_date": "2026-09-10",
-    "description": "We are the Administration team of Christie Medical Physics & Engineering (CMPE), based at The Christie in Manchester. We're looking for an organised, proactive and improvement-focused Senior Administration Assistant to join us.You'll play a key part in supporting the day-to-day operation of a large directorate of over 300 staff, coordinating workforce administration, financial processes, governance activities and operational support that enables clinical and technical teams to deliver excellent services.As part of our ongoing programme to modernise administrative services, you'll also have the opportunity to help improve how we work. We're actively reviewing processes and embracing digital technologies to streamline routine tasks. We're looking for someone who enjoys finding better ways of working and wants to help shape the future of our administrative function.You'll be part of a supportive team where your ideas will be valued and where you'll have the opportunity to develop a broad understanding of operations within a specialist NHS service.The post available is established as part time (20 hours per week) and we aim to accommodate flexible working requests. The majority of the work will be on site at The Christie but some working from home will be supported where this does not interfere with the role. CMPE deals with a wide range of professional, technical and medical staff both locally and in the North West Region and on occasions supports with telephone patient enquires. You'll play an important role in keeping the Directorate running smoothly by:o Ensuring sensitive and confidential information is dealt with in an appropriate manner.o Supporting financial processes including procurement, purchase orders, invoices, expenses and study leave administration.o Organising meetings, preparing documentation and maintaining governance records.o Supporting managers with workforce administration including onboarding, leavers and system updates.o Helping develop and improve administrative processes, standard operating procedures and digital ways of working.o Providing deputy support to the Directorate Administrator. DUTIES AND RESPONSIBILITIES GENERAL OFFICE 1. Act as Deputy to Directorate Administrator: Provides a confidential administrative support to the Director, including the handling of sensitive documents. Acts as deputy to the Directorate Administrator in their absence and assists with supervising staff. Provides secretarial support to CMPE groups and their sub sections in the region. Produces accurate minutes for the Directorate Board and Group LeaderMeetings. Arranges internal and external meetings when required. Ensures sensitive and confidential information is dealt with in an appropriate manner. CMPE deal with a wide range of professional, technical and medical staff both locally and in the North West Region and on occasions with telephone patient enquires. 2. Invoicing and other financial functions: Raises external invoice request forms and processes own invoices. Required to generate non-stock requisitions and call off orders, liaises with Requisition and Supplies and Stores. Carries out workflow invoice approvals via integra. Monitors goods received receipting for Radiopharmacy invoices. Provides details to Radioisotope Service Manager on daily basis. Carries out GRNs of Radiopharmacy invoices when authorised and list received from Radioisotope Service Manager. Processes Study Leave requests in an appropriate and timely manner. Oversees the maintenance and ordering of stationary stock. 3. Staffing Inputs overtime and allowances into e-Pay. Checks accuracy of staff travel expenses that have been entered into e-Pay. Conducts random monthly audits of expenses with Group Leaders. Inputs absence recording and terminations in ESR. Calculates staffs annual leave entitlements as and when required via ESR. Completes administrative local inductions for new starters. Updates NHS Portal Distribution Lists of any new starters and leavers. Is able to cover for other administrative staff during working hours and in their absence as and when required. 4. General Administration Duties Works closely daily and able to have a good working relationship with Directorate Administrator. At year end, prepares files for archiving and sends them away to secure Document Storage Facility using their specific database. On a daily basis, completes fire safety checks as directed. Collates records and updates Key Performance Indicators on Balance Scorecard for Directorate Board meetings on a monthly basis. Liaises with contributors to ensure timely completion prior to directorate boards. Provide details of KPI results to Head of Performance on a monthly basis. Prepares own work procedures and also produces and maintains the standard operating procedures for the admin group. Is able to work on their own initiative and organises own workload. Automatically covers for Directorate Administrator in periods of high pressure. Handles confidential situations or paperwork with respect and responsibly. Provides assistance and advises colleagues from other groups on Admin processes. Any other duties commensurate with the grade.This job description is not intended to be exhaustive but reflects the main responsibilities of the post holder which may be reviewed in the light of experience and developments within the service commensurate with the grade of the post. This job description is subject to regular review and appropriate modification. Any review will be undertaken in conjunction with the post holder.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0644",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0644",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "posted_date_basis": "source"
