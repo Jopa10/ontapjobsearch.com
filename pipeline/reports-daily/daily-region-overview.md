@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-22T20:57:53+00:00
+Generated: 2026-08-22T20:58:32+00:00
 
 > LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all 55 assessable England markets; LIVE status remains controlled only by the slice register. Before same-feed 55-region coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across 55 England regions with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 55 England regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
