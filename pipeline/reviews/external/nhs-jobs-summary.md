@@ -2,11 +2,11 @@
 
 review_date: 2026-08-22
 
-- Open Administrative & Clerical rows reviewed: 2419
-- Auto/remembered selected: 745
-- Selected HC Tier A: 288
+- Open Administrative & Clerical rows reviewed: 2418
+- Auto/remembered selected: 746
+- Selected HC Tier A: 289
 - Selected HC Tier B: 457
-- POSS awaiting decision: 1190
+- POSS awaiting decision: 1188
 - Excluded: 0
 - HARD_PASS: 484
 
@@ -154,18 +154,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0333
 factual_fingerprint: 037ad2b5105b5236280def4c8e60950b1bb4f57ff471b0320eedef93a611f0a4
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3JH | £31554.00 to £33270.00 | Scheduling Adminstrator
-source_job_id: 5555715
-title: Scheduling Adminstrator
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0332
-factual_fingerprint: 239f719940bff47e74e6ee031c6dfbd13f2d860abb76269effd2d59174a5e44f
 ---
 
 ---
@@ -2230,18 +2218,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9985-26-0006
 factual_fingerprint: 4bf3b37a418c0f3223da86a92ece57dc3ec195ebc4f2d8dd3d6293e3924527ca
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV6 6NY | £49387.00 to £56515.00 | Operational Lead
-source_job_id: 5553524
-title: Operational Lead
-employer: Coventry and Warwickshire Partnership Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9444-26-0493
-factual_fingerprint: 18c89a8041484fee03788fa5daebe3684c3eddf5acd2439adc62a2d2fccbc891
 ---
 
 ---

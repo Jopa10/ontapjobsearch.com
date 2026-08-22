@@ -3,7 +3,7 @@ Yorkshire - West,48,31,13,4,0,,48,Leeds,SCENARIO_3_MANUAL_SELECTION_APPLIED,York
 Yorkshire - South,22,14,4,4,0,,22,Sheffield,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - South manual_select applied additively: 6 row(s) prioritised; 22 selected.
 North East,0,0,0,0,0,,57,Newcastle Upon Tyne,SCENARIO_3_MANUAL_SELECTION_APPLIED,North East manual_select applied additively: 5 row(s) prioritised; 57 selected.
 London,154,118,32,4,1,,154,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 36 row(s) prioritised; 154 selected.
-Hampshire,54,37,0,17,0,,54,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 3 row(s) prioritised; 54 selected.
+Hampshire,54,37,0,17,1,,54,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 3 row(s) prioritised; 54 selected.
 Surrey,77,63,0,14,0,,77,Guildford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Surrey manual_select applied additively: 10 row(s) prioritised; 77 selected.
 Kent,53,44,0,9,0,,53,Maidstone,SCENARIO_3_MANUAL_SELECTION_APPLIED,Kent manual_select applied additively: 6 row(s) prioritised; 53 selected.
 Sussex,31,21,0,10,0,,31,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 1 row(s) prioritised; 31 selected.
