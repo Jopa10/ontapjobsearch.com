@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-22T13:42:53+00:00
+Generated: 2026-08-22T14:17:13+00:00
 
-> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across all 33 regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON.
+> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across all 33 regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
 ## LIVE
 
@@ -44,40 +44,42 @@ Generated: 2026-08-22T13:42:53+00:00
 
 ## NOT LIVE
 
+> Cells show `today / 14d avg / 6+ days` over observed feed dates (maximum 14). The 6+ measure is a watch signal only, not an automatic activation threshold.
+
 | Region | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
-| Berkshire |  | 1 | 1 |
-| Bristol & Bath |  | 1 | 5 |
-| Buckinghamshire |  | 2 | 2 |
-| Cambridgeshire |  | 0 | 5 |
-| Cumbria - North | 3 | 6 | 0 |
-| Cumbria - South | 2 |  | 1 |
-| Devon |  | 0 | 2 |
-| Dorset |  | 1 | 4 |
-| Essex |  | 1 | 4 |
-| Gloucestershire |  | 1 | 3 |
-| Greater Manchester - Manchester & Salford |  | 0 |  |
-| Greater Manchester - South |  | 1 | 1 |
-| Hampshire |  |  | 4 |
-| Hertfordshire |  | 3 | 4 |
-| Kent |  | 4 | 5 |
-| Lancashire - North | 1 | 1 | 0 |
+| Berkshire |  | 1 / 1.0 / 0/1 | 1 / 1.0 / 0/1 |
+| Bristol & Bath |  | 1 / 1.0 / 0/1 | 5 / 5.0 / 0/1 |
+| Buckinghamshire |  | 2 / 2.0 / 0/1 | 2 / 2.0 / 0/1 |
+| Cambridgeshire |  | 0 / 0.0 / 0/1 | 5 / 5.0 / 0/1 |
+| Cumbria - North | 3 / 3.0 / 0/1 | 6 / 6.0 / 1/1 | 0 / 0.0 / 0/1 |
+| Cumbria - South | 2 / 2.0 / 0/1 |  | 1 / 1.0 / 0/1 |
+| Devon |  | 0 / 0.0 / 0/1 | 2 / 2.0 / 0/1 |
+| Dorset |  | 1 / 1.0 / 0/1 | 4 / 4.0 / 0/1 |
+| Essex |  | 1 / 1.0 / 0/1 | 4 / 4.0 / 0/1 |
+| Gloucestershire |  | 1 / 1.0 / 0/1 | 3 / 3.0 / 0/1 |
+| Greater Manchester - Manchester & Salford |  | 0 / 0.0 / 0/1 |  |
+| Greater Manchester - South |  | 1 / 1.0 / 0/1 | 1 / 1.0 / 0/1 |
+| Hampshire |  |  | 4 / 4.0 / 0/1 |
+| Hertfordshire |  | 3 / 3.0 / 0/1 | 4 / 4.0 / 0/1 |
+| Kent |  | 4 / 4.0 / 0/1 | 5 / 5.0 / 0/1 |
+| Lancashire - North | 1 / 1.0 / 0/1 | 1 / 1.0 / 0/1 | 0 / 0.0 / 0/1 |
 | London |  |  |  |
-| Norfolk |  | 1 | 4 |
-| North East |  |  | 6 |
-| Northamptonshire |  | 0 | 4 |
-| Nottinghamshire |  | 2 | 3 |
-| Oxfordshire |  | 3 | 1 |
-| Somerset |  | 3 | 0 |
-| Staffordshire |  | 0 | 0 |
-| Surrey |  |  | 5 |
-| Sussex |  |  | 3 |
-| West Midlands - Birmingham & Solihull |  | 1 | 5 |
-| West Midlands - Coventry & Warwickshire |  | 0 | 1 |
-| Wiltshire |  |  | 3 |
-| Yorkshire - East |  | 1 | 3 |
-| Yorkshire - North |  | 5 | 0 |
-| Yorkshire - South |  |  | 5 |
+| Norfolk |  | 1 / 1.0 / 0/1 | 4 / 4.0 / 0/1 |
+| North East |  |  | 6 / 6.0 / 1/1 |
+| Northamptonshire |  | 0 / 0.0 / 0/1 | 4 / 4.0 / 0/1 |
+| Nottinghamshire |  | 2 / 2.0 / 0/1 | 3 / 3.0 / 0/1 |
+| Oxfordshire |  | 3 / 3.0 / 0/1 | 1 / 1.0 / 0/1 |
+| Somerset |  | 3 / 3.0 / 0/1 | 0 / 0.0 / 0/1 |
+| Staffordshire |  | 0 / 0.0 / 0/1 | 0 / 0.0 / 0/1 |
+| Surrey |  |  | 5 / 5.0 / 0/1 |
+| Sussex |  |  | 3 / 3.0 / 0/1 |
+| West Midlands - Birmingham & Solihull |  | 1 / 1.0 / 0/1 | 5 / 5.0 / 0/1 |
+| West Midlands - Coventry & Warwickshire |  | 0 / 0.0 / 0/1 | 1 / 1.0 / 0/1 |
+| Wiltshire |  |  | 3 / 3.0 / 0/1 |
+| Yorkshire - East |  | 1 / 1.0 / 0/1 | 3 / 3.0 / 0/1 |
+| Yorkshire - North |  | 5 / 5.0 / 0/1 | 0 / 0.0 / 0/1 |
+| Yorkshire - South |  |  | 5 / 5.0 / 0/1 |
 | Yorkshire - West |  |  |  |
 
 ## HEADLINE
