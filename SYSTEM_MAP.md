@@ -32,7 +32,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 - 19 August 2026 — Added a separate city homepage visibility floor: active city pages remain permanent, but homepage city cards appear only at 4+ current jobs. The launch threshold remains 6 jobs with 3 of 7 qualifying runs plus explicit approval.
 - 19 August 2026 — Approved five additional Service Admin city pages: Bradford, Huddersfield, York, Barnsley and Doncaster. Initial include rules are exact-city only; the shared city-page framework owns derivation and permanence.
 - 19 August 2026 — Added explicit city catchment governance: city pages represent city-anchored local employment/commuting markets, not literal exact-name-only filters. Catchment expansions require explicit include/review/exclude rules in `pipeline/city_pages/city-page-register.json`.
-- 19 August 2026 — Durham Service Admin remains HOLD because the registered opportunity pattern `durham` can also match broad `County Durham` locations. Durham must be separated from County Durham and requalified before activation.
+- 19 August 2026 — Durham Service Admin remains HOLD because the original registered opportunity pattern `durham` could also match broad `County Durham` locations. The 22 August city audit added `exclude_patterns: ["county durham"]`; Durham still requires clean post-fix history before activation.
 - 19 August 2026 — Activated six additional Service Admin regional slices: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
 - 19 August 2026 — Added the first same-feed family coverage for Service Admin and Support Worker across the then-configured 33-market footprint; this was expanded to the complete 55 assessable England markets on 22 August.
 - 19 August 2026 — Added publication failure isolation and made external-source publishing fail-soft where safe.
@@ -188,7 +188,7 @@ Established examples:
 - Newcastle: Newcastle + Gateshead + North Tyneside + Shiremoor + Wideopen;
 - Brighton & Hove: Brighton + Hove + Portslade.
 
-Broad county/region labels are not proof of city membership. **Durham is the explicit safeguard case:** a location containing `County Durham` must not count as Durham-city evidence merely because it contains the word `durham`. Durham Service Admin remains HOLD until the opportunity rule distinguishes Durham city from County Durham and its seven-run history is recalculated.
+Broad county/region labels are not proof of city membership. **Durham is the explicit safeguard case:** `opportunity-market-register.json` now excludes `County Durham` from Durham-city evidence. Durham Service Admin remains HOLD until its seven-run history is rebuilt from clean post-fix counts.
 
 Approved on 19 August 2026 with exact-city launch catchments:
 

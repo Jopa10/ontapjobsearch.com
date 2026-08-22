@@ -101,6 +101,11 @@ def ready_candidates(root: Path) -> list[dict[str, Any]]:
     history = load_history(root / DEFAULT_HISTORY)
     ready: list[dict[str, Any]] = []
     for history_key, row in candidates.items():
+        # The approval manager can only build a governed catchment from a
+        # registered market. Exact-location fallback rows remain useful audit
+        # signals, but must not be presented as directly actionable approvals.
+        if not bool(row.get("registered_market", False)):
+            continue
         counts = recent_counts(history, history_key)
         qualifying_runs = sum(value >= DEFAULT_THRESHOLD for value in counts)
         status = lifecycle_status(

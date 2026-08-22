@@ -46,19 +46,6 @@
       "registered_market": true
     },
     {
-      "region": "north-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "York",
-      "jobs": 11,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/north-yorkshire/service-administrator-jobs.json",
-      "existing_route": "/york/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
       "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Bradford",
@@ -68,6 +55,19 @@
       "basis": "configured-catchment",
       "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
       "existing_route": "/bradford/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
+      "region": "north-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "York",
+      "jobs": 8,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/north-yorkshire/service-administrator-jobs.json",
+      "existing_route": "/york/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -189,19 +189,6 @@
       "registered_market": false
     },
     {
-      "region": "north-east",
-      "slice": "service-administrator-jobs",
-      "locality": "Durham",
-      "jobs": 14,
-      "threshold": 6,
-      "status": "QUALIFIES",
-      "basis": "regional-market",
-      "parent_json": "app/north-east/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
       "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Wakefield",
@@ -226,6 +213,32 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
+    },
+    {
+      "region": "north-east",
+      "slice": "service-administrator-jobs",
+      "locality": "County Durham",
+      "jobs": 8,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "exact-location-unregistered",
+      "parent_json": "app/north-east/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": false
+    },
+    {
+      "region": "north-east",
+      "slice": "service-administrator-jobs",
+      "locality": "Durham",
+      "jobs": 6,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "regional-market",
+      "parent_json": "app/north-east/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
     },
     {
       "region": "kent",

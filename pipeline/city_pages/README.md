@@ -32,7 +32,7 @@ Examples already approved in production:
 
 New city pages should therefore be thought of as **city-anchored labour-market pages**, not literal string filters. Catchment additions are a governance decision and must be recorded in `city-page-register.json` with include/review/exclude rules.
 
-Broad county or regional labels must never be treated as proof that a vacancy belongs to the anchor city. In particular, `Durham` must not match broad `County Durham` locations for city-page launch purposes unless the stated workplace is actually Durham city or an explicitly approved Durham-city catchment location. The August 2026 Durham candidate remains on hold until this distinction is enforced and its qualifying history is recalculated.
+Broad county or regional labels must never be treated as proof that a vacancy belongs to the anchor city. In particular, `Durham` must not match broad `County Durham` locations for city-page launch purposes unless the stated workplace is actually Durham city or an explicitly approved Durham-city catchment location. The market register now enforces that exclusion; the August 2026 Durham candidate remains on hold until its qualifying history is rebuilt from clean post-fix counts.
 
 ## Regional opportunity markets
 

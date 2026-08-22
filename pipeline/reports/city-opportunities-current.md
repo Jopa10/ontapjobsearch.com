@@ -13,14 +13,13 @@
 |---|---|---|---|---:|---|---|
 | READY FOR APPROVAL | coventry-warwickshire | service-administrator-jobs | Warwickshire | 27 | 26, 26, 26, 27, 27, 27, 27 | exact-location-unregistered |
 | READY FOR APPROVAL | north-east | service-administrator-jobs | Tyne And Wear | 24 | 24, 24, 24, 23, 25, 25, 24 | exact-location-unregistered |
-| READY FOR APPROVAL | north-east | service-administrator-jobs | Durham | 14 | 10, 10, 13, 12, 13, 13, 14 | regional-market |
 | READY FOR APPROVAL | west-yorkshire | service-administrator-jobs | Wakefield | 10 | 5, 5, 8, 11, 10, 10, 10 | regional-market |
 | READY FOR APPROVAL | london | service-administrator-jobs | Croydon | 8 | 7, 7, 9, 9, 8, 8, 8 | exact-location-unregistered |
 | LIVE | north-east | service-administrator-jobs | Newcastle | 42 | 19, 23, 23, 29, 37, 42, 42 | configured-catchment |
 | LIVE | west-yorkshire | service-administrator-jobs | Leeds | 35 | 26, 28, 28, 34, 36, 35, 35 | configured-catchment |
 | LIVE | south-yorkshire | service-administrator-jobs | Sheffield | 14 | 12, 12, 12, 14, 14, 14, 14 | configured-catchment |
-| LIVE | north-yorkshire | service-administrator-jobs | York | 11 | 9, 9, 9, 11, 9, 11, 11 | configured-catchment |
 | LIVE | west-yorkshire | service-administrator-jobs | Bradford | 9 | 8, 8, 8, 10, 10, 9, 9 | configured-catchment |
+| LIVE | north-yorkshire | service-administrator-jobs | York | 8 | 9, 9, 9, 11, 9, 11, 11 | configured-catchment |
 | LIVE | south-yorkshire | service-administrator-jobs | Doncaster | 8 | 6, 6, 6, 7, 10, 8, 8 | configured-catchment |
 | LIVE | south-yorkshire | service-administrator-jobs | Barnsley | 7 | 6, 6, 6, 7, 6, 7, 7 | configured-catchment |
 | LIVE | coventry-warwickshire | service-administrator-jobs | Coventry | 4 | 2, 2, 2, 3, 3, 4, 4 | configured-catchment |
@@ -28,6 +27,8 @@
 | LIVE | west-yorkshire | service-administrator-jobs | Huddersfield | 4 | 7, 7, 7, 8, 5, 4, 4 | configured-catchment |
 | LIVE | sussex | service-administrator-jobs | Brighton & Hove | 3 | 1, 1, 1, 3, 3, 3, 3 | configured-catchment |
 | LIVE | hampshire | support-worker | Southampton | 2 | 5, 4, 4, 4, 5, 2, 2 | configured-catchment |
+| QUALIFIES 0/3 | north-east | service-administrator-jobs | County Durham | 8 | 0, 0, 0, 0, 0, 0, 0 | exact-location-unregistered |
+| QUALIFIES 0/3 | north-east | service-administrator-jobs | Durham | 6 | 0, 0, 0, 0, 0, 0, 0 | regional-market |
 | NEAR | kent | service-administrator-jobs | Maidstone | 5 | 0, 0, 4, 4, 5, 5, 5 | regional-market |
 | NEAR | london | service-administrator-jobs | Bromley | 5 | 0, 0, 0, 5, 5, 5, 5 | exact-location-unregistered |
 | NEAR | surrey | service-administrator-jobs | Guildford | 5 | 1, 1, 5, 5, 5, 5, 5 | regional-market |

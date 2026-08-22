@@ -32,7 +32,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 - 19 August 2026 — Added a separate **4-job homepage visibility floor** for active city pages. City routes remain permanent below four jobs; only the homepage card is hidden until supply returns to 4+.
 - 19 August 2026 — Approved five further Service Admin city pages: **Bradford, Huddersfield, York, Barnsley and Doncaster**. Initial catchments are exact-city only. Active city pages are permanent once launched.
 - 19 August 2026 — Made the city-page geography rule explicit: a city page represents a **city-anchored local employment/commuting catchment**, not simply an exact city-name string. Nearby towns/suburbs may be added only when they genuinely belong to the same labour market and the decision is recorded in the city-page register.
-- 19 August 2026 — Put **Durham Service Admin on HOLD** because the present `durham` opportunity-market pattern can also match broad `County Durham` locations. Durham must be separated from County Durham and then requalified before launch.
+- 19 August 2026 — Put **Durham Service Admin on HOLD** because the original `durham` opportunity-market pattern could also match broad `County Durham` locations. The 22 August city audit added an explicit County Durham exclusion, but Durham remains HOLD until clean post-fix history requalifies it.
 - 19 August 2026 — Activated six additional Service Admin regions from same-feed evidence against the then-configured 33-market footprint: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
 - 19 August 2026 — Added the first same-feed daily coverage for Service Admin and Support Worker across the then-configured 33-market footprint; this was expanded to all 55 assessable England markets on 22 August.
 - 19 August 2026 — Added fail-soft publication hierarchy: small job-level problems are withheld while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
@@ -110,7 +110,7 @@ Newly approved on 19 August 2026: **Bradford, Huddersfield, York, Barnsley and D
 
 One-off owner approval on 22 August 2026: **Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford Service Admin**. Each launched from a conservative exact-city catchment using current published regional inventory, with the one-off waiver of the missing 3-of-7 history explicitly recorded in `city-page-register.json`. This exception does not replace the standing launch gate.
 
-**Durham is not approved.** The current opportunity rule can confuse Durham city with broad County Durham locations; it must be corrected and the history recalculated before Durham can qualify.
+**Durham is not approved.** The opportunity rule now excludes broad County Durham locations, but Durham must accumulate clean post-fix history before it can qualify.
 
 ## 2. Reports / diagnostics
 
