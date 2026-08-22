@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import csv
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -50,6 +52,45 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
             self.assertIn("| London | 100 | 10 |  |", text)
             self.assertIn("Sales diagnostic counts are evidence only", text)
             self.assertNotIn("NOT LIVE Sales Advisor remains `—`", text)
+
+    def test_legacy_two_family_coverage_is_readable_until_next_full_run(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            catalog = root / "job_slice_catalog.json"
+            report = root / "daily-family-coverage.csv"
+            regions = {f"Region {index}": {"slug": f"region-{index}"} for index in range(33)}
+            catalog.write_text(json.dumps({"regions": regions}), encoding="utf-8")
+
+            with report.open("w", encoding="utf-8-sig", newline="") as handle:
+                writer = csv.DictWriter(
+                    handle,
+                    fieldnames=["feed_date", "region", "family", "selected_count"],
+                    lineterminator="\n",
+                )
+                writer.writeheader()
+                for region in regions:
+                    writer.writerow({
+                        "feed_date": "2026-08-22",
+                        "region": region,
+                        "family": "service_admin",
+                        "selected_count": 1,
+                    })
+                    writer.writerow({
+                        "feed_date": "2026-08-22",
+                        "region": region,
+                        "family": "support_worker",
+                        "selected_count": 2,
+                    })
+
+            with mock.patch.object(coverage, "CATALOG_PATH", catalog), mock.patch.object(
+                coverage, "OUTPUT_PATH", report
+            ):
+                feed_date, admin, support, sales = coverage._load_coverage_csv()
+
+            self.assertEqual(feed_date, "2026-08-22")
+            self.assertEqual(len(admin), 33)
+            self.assertEqual(len(support), 33)
+            self.assertEqual(sales, {})
 
 
 if __name__ == "__main__":
