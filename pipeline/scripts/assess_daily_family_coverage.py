@@ -306,11 +306,22 @@ def _load_coverage_csv() -> tuple[str, dict[str, int], dict[str, int], dict[str,
             counts[family][region] = int((row.get("selected_count") or "0").strip())
     if len(dates) != 1:
         raise RuntimeError(f"Daily family coverage must contain one feed date, found {sorted(dates)}")
+
     regions = _load_regions()
-    for family, family_counts in counts.items():
-        missing = sorted(set(regions) - set(family_counts))
+    for family in ("service_admin", "support_worker"):
+        missing = sorted(set(regions) - set(counts[family]))
         if missing:
             raise RuntimeError(f"Coverage missing {family} region(s): " + ", ".join(missing))
+
+    # Transitional compatibility: main may still contain the pre-Sales 66-row
+    # coverage file when this code first lands. Do not fail the overview refresh
+    # before the next full JobG8 run has upgraded coverage to 99 rows. Once any
+    # Customer Sales rows are present, require the complete 33-region set.
+    if counts["customer_sales"]:
+        missing_sales = sorted(set(regions) - set(counts["customer_sales"]))
+        if missing_sales:
+            raise RuntimeError("Coverage missing customer_sales region(s): " + ", ".join(missing_sales))
+
     return (
         next(iter(dates)),
         counts["service_admin"],
@@ -325,7 +336,7 @@ def _apply_to_overview(
     support_counts: dict[str, int],
     sales_counts: dict[str, int],
 ) -> None:
-    """Replace NOT LIVE cells with same-feed diagnostic counts for all three families."""
+    """Replace NOT LIVE cells with same-feed diagnostic counts for available families."""
     if not OVERVIEW_PATH.is_file():
         raise RuntimeError(f"Daily overview must be built before coverage is applied: {OVERVIEW_PATH}")
 
@@ -334,13 +345,23 @@ def _apply_to_overview(
     in_not_live = False
     seen_regions: set[str] = set()
     patched: list[str] = []
+    sales_ready = bool(sales_counts)
 
     for line in lines:
         if line.startswith("> LIVE Service Admin") or line.startswith("> LIVE counts reconcile"):
             live_prefix = line.split(". NOT LIVE", 1)[0]
+            if sales_ready:
+                sales_note = (
+                    " NOT LIVE Sales Advisor was assessed from that same feed across all 33 regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
+                )
+            else:
+                sales_note = (
+                    " NOT LIVE Sales Advisor remains `—` for this transitional snapshot because the persisted coverage file predates the three-family rollout; the next full JobG8 run will replace it with governed 33-region Sales diagnostics. LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
+                )
             patched.append(
                 live_prefix
-                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across all 33 regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
+                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo."
+                + sales_note
             )
             continue
 
@@ -357,10 +378,11 @@ def _apply_to_overview(
             cells = [cell.strip() for cell in line.split("|")]
             if len(cells) >= 6:
                 region = cells[1]
-                if region in admin_counts and region in support_counts and region in sales_counts:
+                if region in admin_counts and region in support_counts:
                     cells[2] = "" if statuses.get((region, "admin_service"), "") == "LIVE" else str(admin_counts[region])
                     cells[3] = "" if statuses.get((region, "support_worker"), "") == "LIVE" else str(support_counts[region])
-                    cells[4] = "" if statuses.get((region, "customer_sales"), "") == "LIVE" else str(sales_counts[region])
+                    if region in sales_counts:
+                        cells[4] = "" if statuses.get((region, "customer_sales"), "") == "LIVE" else str(sales_counts[region])
                     line = "| " + " | ".join(cells[1:-1]) + " |"
                     seen_regions.add(region)
         patched.append(line)
