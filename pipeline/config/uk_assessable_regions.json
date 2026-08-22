@@ -107,15 +107,15 @@
     "Caerphilly": "Wales South - Valleys",
     "Monmouthshire": "Wales South - Gwent",
     "Vale of Glamorgan": "Wales South - Cardiff & Vale",
-    "Wales South -gwent": "Wales South - Gwent",
-    "South West": "Hampshire",
-    "West Midlands": "Somerset"
+    "Wales South -gwent": "Wales South - Gwent"
   },
   "excluded_non_market_clusters": [
     "Channel Islands",
     "Other / Unknown",
     "unknown",
     "East Midlands",
-    "East of England"
+    "East of England",
+    "South West",
+    "West Midlands"
   ]
 }
