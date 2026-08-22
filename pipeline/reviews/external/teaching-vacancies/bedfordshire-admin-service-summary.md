@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-19
-review_fingerprint: 3f21a93a96d19535896f23446bbc7f8124c02053c426a373db9395db425aaa68
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 8ce49b2e94aae02f0dee2bb39ac3e1905600f171b17408210fa448aad4d569cc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 11
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK45 4NS | £4,366.00 Annually (Actual) Level 2A point 4 | Administration Assistant
-employer: Ramsey Manor Lower School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c118d74ab318bfdce3db4f3a81f0859f9c33b271947f91a2baa1efae81f5843c
-source: Teaching Vacancies
-source_job_id: administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
----
 
 ---
 action: 
@@ -113,7 +98,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-cler
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
+employer: St Thomas Catholic Academies Trust
+closing_date: 2026-08-24T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: ee63a6c9156f4aad7722b73ae7a6a37c843eeaceeb07ce17e674452f09f16cff
+source: Teaching Vacancies
+source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -121,8 +119,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-cler
 
 ## HARD_PASS
 
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy-luton-bedfordshire) — Manager title salary ceiling £45,401 is not below £28,000.
+- [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Insufficient admin/service evidence.
+- [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

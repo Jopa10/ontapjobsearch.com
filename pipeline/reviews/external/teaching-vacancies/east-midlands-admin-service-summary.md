@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-08-19
-review_fingerprint: 4d55a01728d09582c85ba7f4423dade11ffd73faf05018f41507743e1351fbb9
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 4f6144360a405db092ff22e9ac5ca4c8745d21bdf84d07e9fb4c8deb4d696604
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Derby, East Midlands, DE23 2FS | Garde 5 £25,989-£27,254 FTE Pay Award Pending | Administration Assistant
-employer: Ivy House School
-closing_date: 2026-08-21T09:00:59+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8c02ac8d9eee8b6fa9083e9e8f02fac7f097e80a67afe707f89e78002d2ea2b3
-source: Teaching Vacancies
-source_job_id: administration-assistant-ivy-house-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ivy-house-school
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: ac3ee6d728da681b84e86e0641d0e27114641be84396880c4d54dfad1fa
 source: Teaching Vacancies
 source_job_id: administrative-assistant-pear-tree-community-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pear-tree-community-junior-school
+---
+
+---
+action: 
+SELECTED | East Midlands | Alfreton, East Midlands, DE55 7JA | £32,347.00 - £34,317.00 Annually (FTE) Actual Salary £29,249.58 - £31,030.94) Pay award pending | Exams Officer
+employer: David Nieper Academy
+closing_date: 2026-09-11T09:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 639bcbecd1d587695e7793913ac03e796593a1dfff23e5746dea9c2c2a1f7e5d
+source: Teaching Vacancies
+source_job_id: exams-officer-david-nieper-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-david-nieper-academy
 ---
 
 ---
@@ -77,7 +77,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0873411c
 ## HARD_PASS
 
 - [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-37d931fd-e898-412f-bd8e-d53558f8deba) — Manager title salary ceiling £29,362 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
+- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-affinity-learning-partnership) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-mowbray-education-trust-limited-melton-mowbray-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

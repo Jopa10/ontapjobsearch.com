@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-19
+review_date: 2026-08-22
 review_fingerprint: edf3bd9c0da1073be83c20bce5dca1f33367fc28b53b6eacfe6573b16c7558dd
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 23
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
 
@@ -166,14 +166,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 - [Administration Assistant and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-receptionist-king-edward-vii-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-south-axholme-academy) — Insufficient admin/service evidence.
+- [Attendance and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-manager-westfield-school-sheffield) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-mossbrook-school) — Insufficient admin/service evidence.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
-- [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Manager title salary ceiling £50,269 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust) — Manager title salary ceiling £53,052 is not below £28,000.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Manager title salary ceiling £38,502 is not below £28,000.
+- [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [Trust Operations Director](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-director) — Insufficient admin/service evidence.
 

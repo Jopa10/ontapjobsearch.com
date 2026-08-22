@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-19
-review_fingerprint: 4a90f88b49bdebd0da4213ca6bbc98dbbc6d8b3be0c00ce65d7d29da3061a23e
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 12d9536b613af585cd575d5d4799792fc962a6dc6ba2049700321f82a24ba58e
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 21
 - Selected: 11
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
@@ -143,17 +143,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-SELECTED | Cambridgeshire | Huntingdon, East of England, PE28 0TH | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6 . Actual salary £11,408.64 per annum on point 5. | Office Administrator
-employer: Spaldwick Primary School
-closing_date: 2026-08-21T09:00:00+01:00
+SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
+employer: St Peter's School
+closing_date: 2026-09-04T09:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2c86e389f4bd9e5461f8e35f9532aefe507d875faaa22c7f1dcca0918b5475fd
+factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
 source: Teaching Vacancies
-source_job_id: office-administrator-spaldwick-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-spaldwick-primary-school
+source_job_id: office-administrator-st-peter-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
 ---
 
 ---
@@ -205,32 +205,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-go
 
 ---
 action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB23 6FR | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, points 5 to 6. Actual salary £8,775.87 per annum | Maths Hub Administration & Communications Officer
-employer: Cambourne Village College
-closing_date: 2026-08-20T09:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cdd6d08475ebd4fee8b8e31c1043cdcc3744243cfcc9dff13d67e9de262a8d05
-source: Teaching Vacancies
-source_job_id: maths-hub-administration-communications-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-administration-communications-officer
----
-
----
-action: 
-POSS | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
-employer: St Peter's School
-closing_date: 2026-09-04T09:00:00+01:00
+POSS | Cambridgeshire | Ely, East of England, CB6 2JA | £26,403 | Receptionist
+employer: Witchford Village College
+closing_date: 2026-09-07T12:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
+factual_fingerprint: 95dc52e6e03500dbf8356b18366e94c1f9b40d9a4acf21f9ee0913faedd48bc2
 source: Teaching Vacancies
-source_job_id: office-administrator-st-peter-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
+source_job_id: receptionist-witchford-village-college-ely-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-witchford-village-college-ely-cambridgeshire
 ---
 
 ## EXCLUDED BY REVIEW

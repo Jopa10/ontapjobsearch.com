@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-19
-review_fingerprint: a39dc6365429b368aab098044c606ca828c119e529d89b1ae78c15dcf21973ff
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 99c8c379a209f4b85d8db674fa6566d27d124844f74643d4c0296847cb177a92
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE5 6HN | Grade 3, £26,388 - £27,188 per annum, pro rata. Approximately £20,783 - £21,413 per annum (0.78758 FTE) | Administrative Assistant / Receptionist
+employer: Krishna Avanti Primary School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 50886f798c3d43b595826d92fb49a4991abad95caed3d66fa83e8f5b942d7fee
+source: Teaching Vacancies
+source_job_id: administrative-assistant-receptionist-krishna-avanti-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-krishna-avanti-primary-school
+---
 
 ---
 action: 

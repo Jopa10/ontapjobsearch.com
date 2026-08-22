@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-19
-review_fingerprint: 241f3d7bb9ff8befd198736703dff397e0e3f7f4f343b5123b9b26d22f2df7a6
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 65ab06a587646666002e5eed83e98ba121a506f3a9f3512a292ad54cd86581c4
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 9
-- POSS awaiting decision: 3
+- Records: 17
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Berkshire | Slough, South East, SL1 5AH | £24,523.00 - £26,907.00 Annually (Actual) NJC Level 4 Points 8-12 | Admissions Officer
+employer: The Westgate School
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 54e3609401caefa3994767441c85b6c84cf6ecd083e9e3cee5a525dd209de92a
+source: Teaching Vacancies
+source_job_id: admissions-officer-the-westgate-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-westgate-school
+---
 
 ---
 action: 
@@ -64,51 +79,6 @@ factual_fingerprint: 29771f0f5f04ee1e39585cca8d0dfa342155dbb762f8d32abe36fe8dda2
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-maiden-erlegh-school-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-maiden-erlegh-school-reading-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG30 4HP | £26,403.00 - £28,142.00 Annually (FTE) | Office Assistant
-employer: Churchend Primary Academy
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8f48f6caea683aef1c7254308b065f2a0303c402dbebefe104fbf7c0479fbe9c
-source: Teaching Vacancies
-source_job_id: office-assistant-churchend-primary-academy-reading-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-churchend-primary-academy-reading-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG10 9AX | £22,077.00 - £23,531.00 Annually (Actual) Pay range: Grade 4 SCP 7-11 | School Secretary
-employer: Polehampton Church of England Junior School
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 49c580f2bac0b779310505634bced7d63be343b37b7457f91a456e19381726aa
-source: Teaching Vacancies
-source_job_id: school-secretary-polehampton-church-of-england-junior-school-reading-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-polehampton-church-of-england-junior-school-reading-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG10 9AX | £5,967.00 - £7,632.00 Annually (Actual) Pay range: Grade 4 Scale point 7 - 11 | School Secretary (part time)
-employer: Polehampton Church of England Junior School
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 50b7de5b190c1c166b60222edef2db654a4bfbbd8f0b1e869176b260f7c69833
-source: Teaching Vacancies
-source_job_id: school-secretary-part-time-polehampton-church-of-england-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-part-time-polehampton-church-of-england-junior-school
 ---
 
 ---
@@ -160,36 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
-POSS | Berkshire | Reading, RG6 1EY | £12,869.00 Annually (Actual) For successful applicants aged 19 or over who have completed their first 12 months, they will be paid at National Minimum Wage or National Living Wage for their age. | HR Level 3 Apprenticeship
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ae2806bbfe6c804fb5a24888c9b344b32e02903467ab51738b1c091e0008954a
-source: Teaching Vacancies
-source_job_id: hr-level-3-apprenticeship
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-level-3-apprenticeship
----
-
----
-action: 
-POSS | Berkshire | Reading, RG6 1EY | £11,038.00 - £11,765.00 Annually (Actual) Pay range: Grade 4 SCP 4 - 11 | TKAT HR Assistant
-employer: The Keys Academy Trust
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e320130b7b2cdc1eabb3f5aec2793705095bbb042a89eef0b0b6ebfdb88b25ae
-source: Teaching Vacancies
-source_job_id: tkat-hr-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/tkat-hr-assistant
----
-
----
-action: 
 POSS | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
 employer: The Keys Academy Trust
 closing_date: 2026-09-07T09:00:00+01:00
@@ -215,7 +155,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school) — Manager title salary ceiling £34,386 is not below £28,000.
-- [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-polehampton-church-of-england-junior-school-reading-berkshire) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.

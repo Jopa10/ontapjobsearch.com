@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-08-19
-review_fingerprint: 355f373303f2a8220a4ad4ebdacf06f5cbdb7f531ef84d19d7da879637be73f3
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: bc6ef791662c462aed68bebf60af007c119d576665fb9cb8366e1d43c62cf515
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Greater Manchester - South
 slice_category: admin_service
-slice_status: CANDIDATE
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Elmridge Primary School
 closing_date: 2026-09-09T12:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
-slice_status: CANDIDATE
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 0f5bd2f1d4f519cb20de50e1c068c99f376b227c1426fc186288cfe892b28f57
 source: Teaching Vacancies

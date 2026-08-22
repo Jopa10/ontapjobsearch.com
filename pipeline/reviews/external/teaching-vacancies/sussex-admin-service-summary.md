@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-08-19
-review_fingerprint: b24fa961cb3511bdf85f60cdcc485de2952ddd9115f0fba067d870353ca68397
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 4f6b1b902833403b820ff8bf69fa8c4463e6fa0a17ee2b82128e843f26eae72e
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -51,21 +51,6 @@ source_job_id: hr-admin-assistant-robsack-wood-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-robsack-wood-primary-school
 ---
 
----
-action: 
-SELECTED | Sussex | Horsham, South East, RH12 2JS | Actual Salary: £13,143.90 | Office Admin Assistant
-employer: Greenway Junior School
-closing_date: 2026-08-20T23:59:59+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9520d2b8fc1e16cbe472ca2e67aacad1ed3be5cf63ef128d4a15936b4d3bf03a
-source: Teaching Vacancies
-source_job_id: office-admin-assistant-greenway-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-greenway-junior-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -89,7 +74,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-littlehampton-academy-littlehampton-west-sussex) — Insufficient admin/service evidence.
+- [MI Systems and Reporting Manager](https://teaching-vacancies.service.gov.uk/jobs/mi-systems-and-reporting-manager) — Manager title salary ceiling £48,633 is not below £28,000.
+- [MIS Director](https://teaching-vacancies.service.gov.uk/jobs/mis-director) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

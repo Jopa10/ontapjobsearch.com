@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-08-19
+review_date: 2026-08-22
 review_fingerprint: 5a8742afa17e761fce3bfbab521623642626468c17b849f9e69029f3c67be472
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Local Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/local-governance-support-officer-star-academies) — Insufficient admin/service evidence.
+- [Finance & Data Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-data-admin-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

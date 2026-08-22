@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-19
-review_fingerprint: 49b5a4445f717de9f8cd6b0333c461d23dc69fc89f4ddd2bd12b5f871c7d2898
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: dc235c72364baf94db74136306abc3e6369c03818d34c01b43d0882d8ee8a9b1
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Somerset
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
 
@@ -28,7 +28,7 @@ employer: Winterstoke Hundred Academy
 closing_date: 2026-08-31T23:59:59+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 588c894e22bc304271f29fa46890c9d5bc24802c912330c9619e2232c6d59e45
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Kingsmead Academy
 closing_date: 2026-08-30T23:59:59+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 06441a592219c2370fb60da94f5a6ed1225e4852a41a033acfe4fdcf31f40b3c
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: Willow Vale School
 closing_date: 2026-09-06T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 47d4224a146f4e568934f93d9c35821d69684417cb97bc2f0c8559c6e3b86bd5
 source: Teaching Vacancies
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/level-3-business-admi
 
 ---
 action: 
-SELECTED | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
-employer: West Monkton Church of England School
-closing_date: 2026-09-02T17:00:59+01:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | Somerset | Weston-Super-Mare, BS22 8XX | £27,275 - £29,542. DOE | People Administrator (Learning and Development)
+employer: Pathway Trust
+closing_date: 2026-09-08T21:00:59+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9635d7fcfa24ad8ea27d94caeb5c619a2b50e3a903767e77b82a7c27e4ab4ac8
+factual_fingerprint: 6d0f4ee29a73619a08a09351e9965f336c02fa07dcd63188ddf0830139c3deac
 source: Teaching Vacancies
-source_job_id: senior-office-administrator-west-monkton-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+source_job_id: people-administrator-learning-and-development
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-learning-and-development
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -90,7 +90,7 @@ employer: Kingsmead Academy
 closing_date: 2026-09-06T23:59:59+01:00
 reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 75a8f2e94a4b9e6fcb6ece1f0cf10c4892803a75b04b96fe99f6daf1eb697699
 source: Teaching Vacancies
@@ -105,12 +105,27 @@ employer: Kingsmead Academy
 closing_date: 2026-09-21T23:59:59+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: e2ef416884654f5754753dc6d133c310ea638adad699077b63c0b33e367c6f95
 source: Teaching Vacancies
 source_job_id: senior-administration-assistant-send
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-send
+---
+
+---
+action: 
+POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+employer: West Monkton Church of England School
+closing_date: 2026-09-02T17:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9635d7fcfa24ad8ea27d94caeb5c619a2b50e3a903767e77b82a7c27e4ab4ac8
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
 
 ## EXCLUDED BY REVIEW

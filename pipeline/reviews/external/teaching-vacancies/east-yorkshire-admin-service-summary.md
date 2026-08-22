@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-08-19
-review_fingerprint: d1b208c29b009b38a91ad49c36d5523b013c65f2f0017cfe5bb23f169d38b7e9
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 66136be5159093d83643594391e99453597788878d8a249601304aef5c65c93f
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Yorkshire - East
 slice_category: admin_service
-slice_status: CANDIDATE
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -28,7 +28,7 @@ employer: Kingswood Parks Primary School
 closing_date: 2026-08-28T08:00:59+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: CANDIDATE
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 3bf4d52060418259f565058683b7707de2f46556a419a90fb41fac5e7bda0e9f
 source: Teaching Vacancies
@@ -48,6 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 - [Exams Access Arrangements (EAA) Assessor](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-eaa-assessor) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-cuthbert-s-roman-catholic-academy-trust) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-91c235c5-da46-4798-9b1d-e61f74a63da1) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-08-19
-review_fingerprint: 2ef0b67a401448f6717781c604dca20651d41c6910ea11a0253f51fcaecee123
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: d844a27f6d9e1920e1573e89681a91ac685879dcc63a35b4af9512dbcda06f4e
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Surrey | Ash Vale, South East, GU12 5PX | £7,244 - £7,898 actual (£23,859 - £26, 014 FTE ) | Admin Assistant
-employer: Holly Lodge Primary Academy
-closing_date: 2026-08-21T23:59:59+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0eb60d863cb6729e7056a13b963af7ece68fa536dee5e3cd0f3fe82c64cd7ecd
-source: Teaching Vacancies
-source_job_id: admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-holly-lodge-primary-academy-ash-vale-surrey
----
 
 ---
 action: 
@@ -76,11 +61,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-a
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-matthew-s-cofe-primary-school) — Insufficient admin/service evidence.
-- [Director of Learning and Development](https://teaching-vacancies.service.gov.uk/jobs/director-of-learning-and-development) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-kite-academy-trust) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-three-rivers-academy) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-matthew-s-cofe-primary-school) — Manager title salary ceiling £29,725 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
 
 ## Safety boundary

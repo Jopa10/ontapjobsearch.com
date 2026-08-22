@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-08-19
-review_fingerprint: d43682da96e8d93fd1a98d20f7c2c943709fd69f1aebbec58865e23192eaba18
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 20c9622b2c894fe9f8539cfa47e35c8afa37c0601a27746777122eacd99ff509
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 2
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cheshire - West | Ellesmere Port, North West, CH66 2NU | £22,429.00 - £24,821.00 Annually (Actual) Full-Time Equivalent: £25,989 to £28,142 | Pastoral Administrator
+employer: The Whitby High School
+closing_date: 2026-09-16T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 70a90e575968e6dd31a3c0941cd9d3e8167bc17400f329af995df60154c7ad1a
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire
+---
 
 ---
 action: 
@@ -46,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-upton-by
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-whitby-high-school-ellesmere-port-cheshire) — Manager title salary ceiling £39,152 is not below £28,000.
+- None.
 
 ## Safety boundary
 

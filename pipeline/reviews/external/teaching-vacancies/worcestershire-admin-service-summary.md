@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-08-19
-review_fingerprint: 0e4221fb4e05a84fb253c8afee161967723fb8a2c247e08482b45acbab73709e
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 008e69bbdd8b9c346182cb950c21876bb66fff004d1693c34234e3802d286381
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 4
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Worcestershire | Malvern, West Midlands, WR14 1WD | £28,598.00 - £31,022.00 Annually (FTE) | Examinations and Data Officer
+employer: Dyson Perrins CofE Academy
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: fa6f89684111e0102db412e3c9dff8d25fb12323967e36d9dd8e6fc4f53aae05
+source: Teaching Vacancies
+source_job_id: examinations-and-data-officer-dyson-perrins-cofe-academy-malvern-worcestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data-officer-dyson-perrins-cofe-academy-malvern-worcestershire
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -46,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ## HARD_PASS
 
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bca8d2ce-d3de-4803-b468-990dee53ef44) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-wolverley-cofe-secondary-school) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-the-diocese-of-worcester-multi-academy-trust-pershore-not-recorded) — Manager title salary ceiling £36,363 is not below £28,000.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-08-19
-review_fingerprint: 2f46bd5e75e3902743d2d3f8606fe636b32ab5247c59cc9982e4ef037bd33e11
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 3766200594f81f050c2e3764a894c2d5d3a3506aa670b3a0726e24a941994c60
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: 09157be9e09515264e158313ca671a02675152c74681ee385fff4095acb
 source: Teaching Vacancies
 source_job_id: administrator-first-aider
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-first-aider
+---
+
+---
+action: 
+SELECTED | Cornwall | Falmouth, South West, TR11 4LH | Salary range - £27,665 - £30,366 per annum | Exams Officer
+employer: Falmouth School
+closing_date: 2026-09-10T09:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a54d235d3c7da3b9641a602dd2c92e9bdfdbc46c5ac2ab78d27a2d544523647a
+source: Teaching Vacancies
+source_job_id: exams-officer-falmouth-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmouth-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

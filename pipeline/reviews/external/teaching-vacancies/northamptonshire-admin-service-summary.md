@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-08-19
-review_fingerprint: 9d2672a767eca720b7b37edc6dad6afe01ab8808f5556c7f915b63c4db975a29
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: ba42fa9c00565d87a146bc26e1b5547fcb34ee4d7c18618210bff8193ab019f2
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 5
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -83,14 +83,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6LR | £26,824.00 - £28,598.00 Annually (FTE) | Receptionist / Administrator
+SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6LR | £26,824.00 - £28,598.00 Annually (Actual) | Receptionist / Administrator
 employer: Northgate School Academy Trust
 closing_date: 2026-08-28T23:59:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ad1c9f64019a7d2839924dc1548cbdc56042fd695c4d881162f5d2b0568f96da
+factual_fingerprint: 3b555bf9bd1c88c9d649ed9e4f14d04a7c2fc4e373769b329bcabc9fdd21b0e2
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-northgate-school-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-northgate-school-academy-trust
@@ -113,21 +113,6 @@ source_job_id: administrator-guilsborough-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsborough-church-of-england-primary-school
 ---
 
----
-action: 
-POSS | Northamptonshire | Wellingborough, East Midlands, NN9 6PA | £26,016.00 - £26,427.00 Annually (FTE) | Assessment and Data Admin Officer
-employer: Manor School
-closing_date: 2026-08-21T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38f12a801fc0be1855191627b502843a87c0e8e0a77457e91a4ae0d96c3c9887
-source: Teaching Vacancies
-source_job_id: assessment-and-data-admin-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/assessment-and-data-admin-officer
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -137,8 +122,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/assessment-and-data-a
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-81894eca-540a-4c37-9aa9-e636b35a6199) — Manager title salary ceiling £30,000 is not below £28,000.
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-ce-academy-northampton-northamptonshire) — Manager title salary ceiling £33,142 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Manager title without salary evidence below £28,000.
+- [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

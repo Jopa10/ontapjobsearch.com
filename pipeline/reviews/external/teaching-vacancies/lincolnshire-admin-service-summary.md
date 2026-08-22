@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-08-19
-review_fingerprint: 614adf868307795f660950b08abaed46e72b9d048948d5edfa4073c391386a7f
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 82ea90743050cfbcd8912c7e73b250d23b65873246829295ba58a0e524ba735b
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
-- POSS awaiting decision: 3
+- Records: 20
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN32 8JH | £24,796.00 - £24,796.00 Annually (FTE) NJC3 : 7.30am-3.30pm Mon-Th : 7.30am-3.00pm Fri - Term Time Only | Academy Administrator
-employer: Havelock Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 54732863d13e6ab1351bf1bc6a9ad47a7072955474805790845e44fb1fd3dd7a
-source: Teaching Vacancies
-source_job_id: academy-administrator-havelock-academy-grimsby-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-havelock-academy-grimsby-lincolnshire
----
 
 ---
 action: 
@@ -68,6 +53,51 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-administrat
 
 ---
 action: 
+SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
+employer: Tulip Academy
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
+source: Teaching Vacancies
+source_job_id: hr-administrator-tulip-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Cleethorpes, Yorkshire and the Humber, DN35 9NF | SC03 (Salary £24,796 FTE, actual salary £21,234.22) - Term Time Only + 5 days | Receptionist / Administrator
+employer: Beacon Academy
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 079038fdbb520dedd9508894bc52855d3ffa09e741f4c9e5bdc1ada11a6eac5e
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-beacon-academy-cleethorpes-north-east-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-beacon-academy-cleethorpes-north-east-lincolnshire
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN17 1SS | SCP 4–8 (£25,185–£26,824 FTE) | Receptionist/Admin Officer
+employer: Oasis Academy Parkwood
+closing_date: 2026-09-11T09:00:59+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 0cfcadc4e0784b055a7a6276d94bfb45444ca15854f1c3c768752b224fc1c3cc
+source: Teaching Vacancies
+source_job_id: receptionist-admin-officer-oasis-academy-parkwood
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-officer-oasis-academy-parkwood
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN32 8JH | £25,583.00 Annually (FTE) NJC 5: £25,583.00 FTE, £13,482.93 pro rata per annum | Teaching School Hub Administrator
 employer: Havelock Academy
 closing_date: 2026-08-24T23:59:00+01:00
@@ -82,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/teaching-school-hub-a
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
+employer: Macaulay Primary Academy
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a3ea0d2a35d1ceeb389c364c85759f57cb0dad649bdc73ddc62f659eabd90b86
+source: Teaching Vacancies
+source_job_id: administration-officer-macaulay-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-macaulay-primary-academy
+---
 
 ---
 action: 
@@ -134,6 +179,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 
 ## HARD_PASS
 
+- [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
+- [Admin and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reception-assistant-outwood-academy-brumby) — Missing salary or pay scale.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school) — Missing salary or pay scale.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.

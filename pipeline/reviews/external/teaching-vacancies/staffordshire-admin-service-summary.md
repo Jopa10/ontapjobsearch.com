@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-08-19
-review_fingerprint: 23968c162d7a6bca71fa05caf01181d587bc8da6322e001e813fc5e4228c2c43
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: ad1726576b42c96f4bb7256b89a2fdf8484caa177438a8ad3e4e7ede6903232f
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Staffordshire | Stoke on Trent, West Midlands, ST6 6JZ | £28,038.34 - £31,277.68 Annually (Actual) | Attendance Officer
-employer: Ormiston Horizon Academy
-closing_date: 2026-08-20T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5f8de5584d8df53232d3a9f2935ecd0b8eae6babd9d1c311d58f01595c476054
-source: Teaching Vacancies
-source_job_id: attendance-officer-ormiston-horizon-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ormiston-horizon-academy
----
-
----
-action: 
 SELECTED | Staffordshire | Cannock, West Midlands, WS11 1PD | £25,185.00 - £26,403.00 Annually (FTE) Mornings, Monday to Friday - pro rata, term time | Attendance Officer - Level 4
 employer: Longford Primary Academy
 closing_date: 2026-09-10T12:00:00+01:00
@@ -64,6 +49,21 @@ factual_fingerprint: f4455e989e4688917fb04cf60d807f41123d5838dd0489c9c68ac8053e6
 source: Teaching Vacancies
 source_job_id: attendance-officer-level-4-longford-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy
+---
+
+---
+action: 
+SELECTED | Staffordshire | Stoke-On-Trent, ST4 2LW | £15,434.00 Annually (Actual) Salary review pending | Finance Administrator Apprentice
+employer: Manor Hall Academy Trust
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b6de7879489dec7e35f1768b336790c7724cf0511d262f05bd784d1ae1790aa9
+source: Teaching Vacancies
+source_job_id: finance-administrator-apprentice-manor-hall-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-apprentice-manor-hall-academy-trust
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-08-19
-review_fingerprint: 0130cb63d7820238938ae006ca7f3c937ffdea4f1afe14dc20cec3d2341967a1
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 2
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Cheshire - Warrington & Halton | Daresbury, WA4 4GE | SCP 18-23 | PA to the CEO
-employer: Chester Diocesan Learning Trust
-closing_date: 2026-08-20T12:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a1cbe6e188a0ba1bf04583eda43391a8aa8b97a0ec75d520bcb91b683cdeccc4
-source: Teaching Vacancies
-source_job_id: pa-to-the-ceo-chester-diocesan-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-ceo-chester-diocesan-learning-trust
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,6 +33,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-ceo-chester
 
 ## HARD_PASS
 
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-halton-lodge-nursery-primary-school) — Insufficient admin/service evidence.
 - [Trust HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-the-heath-family-north-west) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-19
-review_fingerprint: d115a357f522fab1c1965fe70d461a27a7abd838de05a3c2904aad8e88318789
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 4b6ec38942c7413868cdf683429c16960799d1724198e50f40a7390b66edb850
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 9
+- Records: 26
+- Selected: 11
 - POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Devon | Plymouth, PL1 4RL | £26,824.00 - £29,540.00 Annually (FTE) NJC Plymouth Grade D Pt 8-14 | [260819] People Team Administrator
+employer: Reach South Academy Trust
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 63801244f23b42a3bcabf6408e8d70cfbd109a767f3f447e30cb86d4f1782812
+source: Teaching Vacancies
+source_job_id: 260819-people-team-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/260819-people-team-administrator
+---
+
+---
+action: 
+SELECTED | Devon | Tiverton, South West, EX16 5HB | £25,185.00 - £26,403.00 Annually (FTE) NJC Grade C Pt 5 - 7 | [260820C] Administrator
+employer: ACE Tiverton Special School
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1df285a129f76ce523da74c8a8e5a5a8d7c6c48deba3b467a5322cd4b0b56526
+source: Teaching Vacancies
+source_job_id: 260820c-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/260820c-administrator
+---
 
 ---
 action: 
@@ -256,11 +286,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 - [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
 - [HR Policy and Projects Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-policy-and-projects-officer) — Insufficient admin/service evidence.
-- [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover-bideford-college) — Insufficient admin/service evidence.
 - [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 

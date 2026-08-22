@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-08-19
+review_date: 2026-08-22
 review_fingerprint: 9e199c6e3e29a1f81d724b32b5a9bb6f60d5ec6cdab501fc259d17b022b85ae7
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -91,10 +91,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ho
 
 ## HARD_PASS
 
+- [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-benedict-s-catholic-high-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-raphael-the-archangel-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-harris-church-of-england-academy-rugby-warwickshire) — Insufficient admin/service evidence.
+- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

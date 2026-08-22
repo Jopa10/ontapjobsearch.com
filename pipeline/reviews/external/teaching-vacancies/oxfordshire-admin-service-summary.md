@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-08-19
+review_date: 2026-08-22
 review_fingerprint: ab02edc7a2d37127f94b8574b001d0ff49f2ee8ade446d60fbf91376f1900498
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -158,7 +158,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdo
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-ridgeway-education-trust-didcot-not-recorded) — Insufficient admin/service evidence.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
-- [School Estate Manager](https://teaching-vacancies.service.gov.uk/jobs/school-estate-manager-1bd2efee-7c43-4b8a-9822-59d12f5fbaf5) — Manager title salary ceiling £37,280 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2dc35396-b77a-41b8-a703-575c9daf92f9) — Manager title salary ceiling £40,777 is not below £28,000.
+- [School Estate Manager](https://teaching-vacancies.service.gov.uk/jobs/school-estate-manager-a1b43e3d-6235-42a9-8b76-35a83994f635) — Manager title salary ceiling £37,280 is not below £28,000.
 
 ## Safety boundary
 

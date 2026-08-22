@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-08-19
-review_fingerprint: e2bd97504aba6c373c897bd31fa21a4fdc404225b2d2fd50db0362aaad6e98ba
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: 37f5b5907b98e53518bc58bce96b8995cae81a0fc996f24a7936ccc12d15d926
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: governance-administrator-diocese-of-salisbury-academy-trust-salis
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded
 ---
 
+---
+action: 
+SELECTED | Wiltshire | Marlborough, SN8 4AX | £34,541.00 - £38,212.00 Annually (FTE) NJC Point 22-26 | IT System Administrator - Excalibur Shared Services
+employer: Excalibur Academies Trust
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ac87d40cabb5045c058c55bab1f459b4b18efd08cc590a85d8d05f551c4c98fb
+source: Teaching Vacancies
+source_job_id: it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -74,9 +89,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s
 
 ## HARD_PASS
 
-- [[260720A] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260720a-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
+- [Exams & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-admin-officer) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-lions-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [School Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-officer-westwood-with-iford-primary-school) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-19
-review_fingerprint: ea154d07f25ae487b423afc6dbd2019d6416296b6525a351794ad2234ecad614
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: fe6212466d7c4b182290a0365f505dd2fd7f609c468d83ba6a2fcf5d499befd0
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 13
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 724efa9fa5ba790ea57c3e92f0bbaf91fa0cdd1a7fee7fcfe7787789684
 source: Teaching Vacancies
 source_job_id: administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
+---
+
+---
+action: 
+SELECTED | Norfolk | Norwich, East of England, NR2 2LJ | £24,848 - £25,163 per annum | Office Administrator
+employer: Norwich City College of Further and Higher Education
+closing_date: 2026-08-28T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1978ded33cdad6343e35faf44e91833e70b62b58447cc5b43f7775bc68490dd
+source: Teaching Vacancies
+source_job_id: office-administrator-norwich-city-college-of-further-and-higher-education
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-norwich-city-college-of-further-and-higher-education
 ---
 
 ---
@@ -94,7 +109,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
-- [Maths Hub Support Lead](https://teaching-vacancies.service.gov.uk/jobs/maths-hub-support-lead-inspiration-trust-norwich-not-recorded) — Insufficient admin/service evidence.
+- [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
+- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
+- [Planning and Timetabling Officer](https://teaching-vacancies.service.gov.uk/jobs/planning-and-timetabling-officer) — Insufficient admin/service evidence.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-sheringham-woodfields-school-sheringham-norfolk) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 

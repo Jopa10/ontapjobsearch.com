@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-08-19
+review_date: 2026-08-22
 review_fingerprint: e2b097f8eb866bb5f03ee6f03ae388c0d570b048b3f0190d2d2316a36ed5f305
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 7
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -75,7 +75,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-aca
 ## HARD_PASS
 
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-swale-academies-trust) — Insufficient admin/service evidence.
+- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-5e7c23e7-9011-422c-8af6-459ace63c7f0) — Insufficient admin/service evidence.
 - [Medway Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/medway-attendance-lead-barnsole-primary-school) — Insufficient admin/service evidence.
+- [School Data and Exam Support Officer](https://teaching-vacancies.service.gov.uk/jobs/school-data-and-exam-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

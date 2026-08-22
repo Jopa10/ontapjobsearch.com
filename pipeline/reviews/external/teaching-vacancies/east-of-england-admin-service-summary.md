@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Merseyside - Wirral
+# Teaching Vacancies regional review — East of England
 
 review_date: 2026-08-22
-review_fingerprint: 5f70c2e58b821cf38c04ef2973bd692cf968a168178734bc29ad9d396dbe3838
+review_fingerprint: 03d8024d0fa040fde90046a4c9ca140666af54f65c0be22ae6d632e81b6fc4b4
 routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
-ontap_region: Merseyside - Wirral
+ontap_region: East of England
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Merseyside - Wirral | Wirral, North West, CH63 3HW | £20,359.87 Annually (Actual) Band D | Office Administrator
-employer: Stanton Road Primary School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | East of England | Diss, East of England, IP22 4NT | £9,168 - £9,772 actual pa | Attendance Officer
+employer: Diss Church of England Junior Academy
+closing_date: 2026-09-04T01:00:00+01:00
+reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 2c0fa854cd591e1dc4f30edd16f36cfb3957e8c5fdcbcaf16b33be769bf69881
+factual_fingerprint: 143b7a8d39f562c4fbb73c37bf1ced97141434d5d5480a6c8bf6dc17b1631113
 source: Teaching Vacancies
-source_job_id: office-administrator-stanton-road-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-stanton-road-primary-school
+source_job_id: attendance-officer-diss-church-of-england-junior-academy-diss
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-diss-church-of-england-junior-academy-diss
 ---
 
 ## POSS — choose SELECT or EXCLUDE

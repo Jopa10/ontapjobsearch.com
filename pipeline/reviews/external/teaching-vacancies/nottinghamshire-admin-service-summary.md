@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-19
-review_fingerprint: 6a8e0e659357f95288cf194d491c0e6e8da1f2cf1facaa6348d10ea8edcd0d12
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: db4b9755b91db0e7c95d1486e1b5447b80c25fe8a3049bb623747aef4577bf80
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -38,6 +38,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant
+employer: Christ The King Voluntary Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1596477af103822603c2aafed29b5a1894f36fef4c9e255a15fa6989155ccc1a
+source: Teaching Vacancies
+source_job_id: administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £25,989.00 - £27,254.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant - Sixth Form and Work-Related Learning
+employer: Christ The King Voluntary Academy
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e2db5b2181a3e134f4f9d6d4987fb8b27642dfe8fe01c0674f6d8b33213e75f4
+source: Teaching Vacancies
+source_job_id: administrative-assistant-sixth-form-and-work-related-learning
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
 employer: Park Vale Academy
 closing_date: 2026-08-25T12:00:00+01:00
@@ -49,21 +79,6 @@ factual_fingerprint: 769395cebb2f4e1bba222b8f01396233948877fa228a3a8c81cf47caf2e
 source: Teaching Vacancies
 source_job_id: healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £37,280.00 - £39,862.00 Annually (Actual) GAT 9, 37 hours per week, 52 weeks per year | PA to the Executive Principal - Secondary Site
-employer: Nottingham Academy
-closing_date: 2026-08-19T23:59:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 73b265c991779d57e6c765b5e5286f55b09d20f0dcf5c4c23887bb5f0039f2a2
-source: Teaching Vacancies
-source_job_id: pa-to-the-executive-principal-secondary-site
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-executive-principal-secondary-site
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -123,7 +138,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Administration and Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/administration-and-attendance-support) — Insufficient admin/service evidence.
 - [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-8e287efa-6467-481b-8c80-56f74d927bdb) — Manager title salary ceiling £33,699 is not below £28,000.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-spencer-academies-trust) — Insufficient admin/service evidence.
-- [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-portland) — Missing salary or pay scale.
 - [Maternity Cover – Fixed Term Receptionist/Administrator Ref: ADM26](https://teaching-vacancies.service.gov.uk/jobs/maternity-cover-fixed-term-receptionist-administrator-ref-adm26) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.

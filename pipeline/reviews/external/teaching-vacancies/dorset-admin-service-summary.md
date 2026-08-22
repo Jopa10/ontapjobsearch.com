@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-19
-review_fingerprint: a97cf87cf358c1e2ca10b906ec18331aa262c1ae5158da7cd8c50d65012c0f60
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+review_date: 2026-08-22
+review_fingerprint: c157c8fd953106ca51122f31af9ef0e368d9c9c571c07e3a7fd4100f98b0823d
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: cd33c06cd70221cfb10166fa57f0b8631b9cfa7aabcb3ffa4712c982c0b
 source: Teaching Vacancies
 source_job_id: finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset
----
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | £26,466.48 Annually (Actual) Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078). | PA to Leadership Team
-employer: The Bishop of Winchester Academy
-closing_date: 2026-08-21T08:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c77f091fe93bc23a54ee632144e91407e6f1e77c3df86613a3cc1f232b3dfd1e
-source: Teaching Vacancies
-source_job_id: pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2
 ---
 
 ---
@@ -104,7 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administ
 
 ## HARD_PASS
 
-- None.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Manager title salary ceiling £35,377 is not below £28,000.
 
 ## Safety boundary
 

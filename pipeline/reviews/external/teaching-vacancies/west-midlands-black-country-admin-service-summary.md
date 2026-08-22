@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-08-19
+review_date: 2026-08-22
 review_fingerprint: 1064245042584cc9e9f00cb9a32c1eeeef9e20923a3dcaf04f26f828e05558db
-routing_manifest_sha256: 86c61c3e5966bec260d7c2b93f642d3eefd17b074ee18ec8cb851a08e37a32dc
+routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -79,7 +79,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-st-regis-church-of-england-academy-wolverhampton-west-midlands) — Insufficient admin/service evidence.
 - [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Manager title salary ceiling £32,079 is not below £28,000.
 - [Data and MIS Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-mis-manager-ormiston-new-academy-wolverhampton-west-midlands) — Manager title salary ceiling £36,363 is not below £28,000.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy) — Manager title salary ceiling £36,363 is not below £28,000.
 
 ## Safety boundary
 
