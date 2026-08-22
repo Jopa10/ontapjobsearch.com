@@ -1,0 +1,34 @@
+﻿region,days_observed,latest_feed_date,latest_count,average_count,median_count,minimum_count,maximum_count,days_with_1_plus,days_with_4_plus,days_with_6_plus,recent_counts,evidence_grade
+Yorkshire - West,7,2026-08-22,3,4.0,4,3,5,7,5,0,4 / 4 / 5 / 5 / 4 / 3 / 3,THIN
+Staffordshire,7,2026-08-22,3,2.71,3,2,4,7,1,0,2 / 2 / 2 / 4 / 3 / 3 / 3,THIN
+Bristol & Bath,7,2026-08-22,3,2.14,3,0,3,5,0,0,0 / 0 / 3 / 3 / 3 / 3 / 3,THIN
+Northamptonshire,7,2026-08-22,2,2.29,2,2,3,7,0,0,2 / 2 / 2 / 3 / 3 / 2 / 2,THIN
+Oxfordshire,7,2026-08-22,2,2.0,2,1,3,7,0,0,2 / 2 / 2 / 2 / 3 / 1 / 2,THIN
+Kent,7,2026-08-22,2,1.57,2,1,2,7,0,0,1 / 1 / 1 / 2 / 2 / 2 / 2,THIN
+Norfolk,7,2026-08-22,2,1.14,1,1,2,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 2,THIN
+Cambridgeshire,7,2026-08-22,1,1.0,1,1,1,7,0,0,1 / 1 / 1 / 1 / 1 / 1 / 1,THIN
+Buckinghamshire,7,2026-08-22,1,0.71,1,0,1,5,0,0,0 / 0 / 1 / 1 / 1 / 1 / 1,THIN
+Essex,7,2026-08-22,1,0.71,1,0,1,5,0,0,0 / 0 / 1 / 1 / 1 / 1 / 1,THIN
+Gloucestershire,7,2026-08-22,1,0.29,0,0,1,2,0,0,0 / 0 / 0 / 0 / 0 / 1 / 1,THIN
+Greater Manchester - Manchester & Salford,7,2026-08-22,0,1.86,3,0,3,5,0,0,3 / 3 / 3 / 3 / 1 / 0 / 0,THIN
+West Midlands - Birmingham & Solihull,7,2026-08-22,0,1.57,2,0,3,5,0,0,3 / 3 / 2 / 2 / 1 / 0 / 0,THIN
+Yorkshire - North,7,2026-08-22,0,0.71,1,0,1,5,0,0,1 / 1 / 1 / 1 / 1 / 0 / 0,THIN
+London,7,2026-08-22,0,0.57,1,0,1,4,0,0,1 / 1 / 1 / 1 / 0 / 0 / 0,THIN
+Berkshire,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cumbria - North,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Cumbria - South,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Devon,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Dorset,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Greater Manchester - South,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Hampshire,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Hertfordshire,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Lancashire - North,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+North East,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Nottinghamshire,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Somerset,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Surrey,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Sussex,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+West Midlands - Coventry & Warwickshire,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Wiltshire,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Yorkshire - East,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
+Yorkshire - South,7,2026-08-22,0,0.0,0,0,0,0,0,0,0 / 0 / 0 / 0 / 0 / 0 / 0,THIN
