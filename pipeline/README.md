@@ -49,13 +49,20 @@ Recurring review workflows currently include:
 
 - NEJobs — `.github/workflows/run-nejobs-review.yml`
 - VONNE — `.github/workflows/run-vonne-review.yml`
-- Teaching Vacancies regional review — `.github/workflows/run-teaching-vacancies-regional-review.yml`
+- Teaching Vacancies regional/master review — `.github/workflows/run-teaching-vacancies-regional-review.yml`
+- NHS Administrative & Clerical — `.github/workflows/refresh-nhs-admin-service-review.yml`
+
+Teaching Vacancies discovery/routing/review state is written back by the regional/master workflow. Its `main` writeback uses full-history checkout plus pull-rebase/push retries so another workflow advancing `main` during the several-minute TV refresh does not strand a successfully generated review as stale.
+
+NHS Jobs is a live Service Admin source. The normal full JobG8 path and the reviewed NHS publisher both use `external_sources/compose_nhs_admin_daily.py`, which refreshes current NHS inventory transactionally, reapplies valid remembered decisions, preserves non-NHS output, enforces the hard 20% regional NHS ceiling and only replaces production state after verification. HC Tier A/B rows may auto-publish when otherwise eligible; untouched NHS POSS rows are optional review opportunities and remain fail-closed.
 
 Approved external jobs are built by their guarded publisher workflows and composed back into the relevant JobG8 regional outputs.
 
 The normal owner-facing publication route is:
 
 `source reviews → pipeline/reviews/daily/ontap-daily-review.md → Apply and publish Ontap daily review → source publishers → Publish verified pages`
+
+If a source is shown as `STALE` or `MISSING`, repair/rerun that source first and then rerun `Ontap daily review` to rebuild the one master edit file. Do not interpret a stale source as zero inventory. Publication remains fail-soft where the previous approved state can safely be retained.
 
 `apply-publish-ontap-daily-review.yml` is the orchestration point for applying completed review decisions and dispatching the required guarded publishers.
 

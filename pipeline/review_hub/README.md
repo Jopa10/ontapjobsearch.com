@@ -12,18 +12,19 @@ Each morning the hub reads current source review outputs and includes only vacan
 
 Edit only `action:` in each review block (`select`, `exclude`, or blank). The apply workflow validates the stored fingerprint against the current source facts before copying a non-blank action back to the owning review surface.
 
+If a source refresh is stale, fix/rerun that source first and then rerun `Ontap daily review` to rebuild the master edit file before reviewing. The publication layer is fail-soft where safe: a stale or failed source can be isolated while clean sources continue, but that does not make stale inventory equivalent to zero.
+
 ## Enabled sources
 
 - JobG8 — service/admin and support-worker review queues.
 - North East Jobs (NEJobs).
 - VONNE.
 - Teaching Vacancies — England-wide master review surface.
+- NHS Jobs — live Administrative & Clerical Service Admin source. HC Tier A/B rows can publish automatically when otherwise eligible; untouched NHS POSS rows are optional review opportunities, remain fail-closed and are omitted from the normal mandatory owner queue.
 
-## NHS and future sources
+## Adding future sources
 
-NHS Jobs is deliberately registered now as `FUTURE`. It is not treated as missing or failed while its ingestion pipeline is unfinished.
-
-To add NHS or another source, add one adapter to `adapters.py` that returns a `SourceResult` and `ReviewItem` records using the shared fields below. Add the source-specific action-routing branch only when the source becomes reviewable. Existing master-file, email and publishing orchestration do not need to be redesigned.
+To add another source, add one adapter to `adapters.py` that returns a `SourceResult` and `ReviewItem` records using the shared fields below. Add the source-specific action-routing branch only when the source becomes reviewable. Existing master-file, email and publishing orchestration should be extended rather than redesigned.
 
 Required review item fields:
 
@@ -46,9 +47,9 @@ The hub fingerprints the factual review record. A remembered decision is valid o
 
 ## Workflows
 
-`Ontap daily review` runs after the morning source refreshes, writes the one master review file and sends the review email when SMTP secrets are configured.
+`Ontap daily review` runs after the morning source refreshes, writes the one master review file and sends the review email when SMTP secrets are configured. It is the workflow to rerun after repairing a stale source when the operator needs a fresh edit surface.
 
-`Apply and publish Ontap daily review` requires explicit `PUBLISH`, fans decisions back to their owning source review files, then dispatches only current source publishers sequentially. Existing source-specific approval and publication guards remain authoritative underneath the hub.
+`Apply and publish Ontap daily review` requires explicit `PUBLISH` after the master review has been completed, reconciles the current source state, fans decisions back to their owning source review files, then dispatches current source publishers sequentially. Existing source-specific approval and publication guards remain authoritative underneath the hub.
 
 ## Email secrets
 
