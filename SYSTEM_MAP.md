@@ -1,12 +1,13 @@
 # Ontap System Map
 
-**Last updated:** 21 August 2026  
+**Last updated:** 22 August 2026  
 **Status:** Canonical production architecture after cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales production launch and live regional reporting.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
+- 22 August 2026 — The Teaching Vacancies regional/master refresh was hardened against concurrent `main` writes after the 22 August run completed discovery, routing and review generation but its final plain `git push origin main` was rejected because `main` had advanced during the run. `.github/workflows/run-teaching-vacancies-regional-review.yml` now checks out full history and uses up to three `git pull --rebase origin main` + `git push origin HEAD:main` attempts, aborting safely if it still cannot reconcile. A post-fix rerun successfully committed fresh 22 August Teaching Vacancies evidence to `main`, removing the stale 19 August source state without overwriting concurrent work.
 - 21 August 2026 — The daily regional overview now treats **Customer Sales / Sales Advisor as a first-class LIVE family** rather than test-only. The current verified snapshot is **3 / 33 LIVE regions and 33 LIVE jobs**: **London 20, Greater Manchester - Manchester & Salford 6, Yorkshire - West 7**. LIVE Sales counts are read from the current published Customer Sales configured-slice JSON, and the overview refreshes when relevant Sales register/report/page inputs change. NOT LIVE Sales Advisor remains `—` until the governed 33-region daily Sales assessment is wired into this overview; `—` means not assessed, not zero.
 - 21 August 2026 — Customer Sales / Sales Advisor completed proof-region testing, governed national validation and 33-region diagnostic assessment. Explicit LIVE approval is limited to **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West**. The first verified production publish completed successfully on 21 August with **20 London jobs, 6 Manchester & Salford jobs and 7 Yorkshire - West jobs**. All three public `/job-search/.../customer-sales-jobs` routes returned HTTP 200, rendered job-detail links and exposed the expected JobG8-backed Apply actions. These counts are a launch snapshot, not automatic activation/deactivation thresholds. Production generation is integrated into the existing JobG8/configured-slice/verified-publish chain; genuine Sales/Service Admin overlap remains valid. North East and all other Customer Sales regions remain non-LIVE diagnostics until separately approved.
 - 21 August 2026 — NHS job-detail presentation now preserves the source vacancy text while rendering it as readable headings, paragraphs and bullets instead of a flattened text dump. Long NHS descriptions show the first six presentation blocks and place the remainder behind `Show full NHS role information`; this is presentation-only and does not rewrite/summarise the vacancy.
@@ -127,6 +128,8 @@ Publication isolation is hierarchical:
 
 Confirmed source paths include JobG8, NEJobs, VONNE, Teaching Vacancies and NHS Jobs.
 
+Source freshness is owned upstream of the apply/publish orchestrator. If an active source review is stale or missing, the master review flags `NOT READY TO REVIEW`, excludes that stale source from the current master-review jobs, and must not treat its absence as zero inventory. A stale source does not by itself convert a later apply/publish run into a system-level failure: clean sources can continue under the isolation model. In particular, the parent apply/publish workflow does not refresh Teaching Vacancies; fresh TV state is produced by `run-teaching-vacancies-regional-review.yml`.
+
 `publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`. That guard checks out current `main`, records the expected SHA and waits for the normal Vercel Git integration deployment to reach that commit or a newer descendant. Automatic runs do not invoke Vercel CLI recovery.
 
 ### City-page derivation and launch governance
@@ -184,7 +187,7 @@ Recurring review workflows:
 
 - NEJobs — 06:15 daily;
 - VONNE — 06:35 daily;
-- Teaching Vacancies regional/master review — 06:55 daily;
+- Teaching Vacancies regional/master review — 06:55 daily; its review/manifests writeback uses rebase-and-retry protection against concurrent `main` updates;
 - NHS Administrative & Clerical review — 10:05 UTC daily, with the production composers also refreshing NHS inventory themselves before composition.
 
 ### Core supporting areas
@@ -277,7 +280,7 @@ Core scheduled workflows include:
 - `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London; includes fresh transactional NHS Service Admin composition and generation of all currently LIVE Customer Sales slices from the same JobG8 feed;
 - `run-nejobs-review.yml` — 06:15 daily;
 - `run-vonne-review.yml` — 06:35 daily;
-- `run-teaching-vacancies-regional-review.yml` — 06:55 daily;
+- `run-teaching-vacancies-regional-review.yml` — 06:55 daily; final review/manifests commit is protected by full-history checkout plus up to three pull-rebase/push attempts so concurrent `main` writes do not strand fresh TV state;
 - `refresh-nhs-admin-service-review.yml` — 10:05 UTC daily;
 - `ontap-daily-review.yml` — 08:45 Europe/London;
 - `build-daily-region-overview.yml` — rebuilds the 33-region overview after verified publication and when relevant Sales register, live-count, published Sales-slice or overview-code inputs change; LIVE Sales counts are sourced from published configured-slice JSON;
@@ -320,7 +323,7 @@ This leaves one automatic route — `main` → Vercel Git integration — plus o
 
 ## Validation state
 
-Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery, now operating on Vercel Pro. NHS Administrative & Clerical inventory is part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling plus non-dominating 4+1 display mixing. NHS detail formatting and forgiving search are live; production search uses a deployment-time precomputed `_search` index rather than request-time file-tree scanning or repeated per-job field normalisation/tokenisation, and remains verified for typo correction, `lumley office`, and both normal/swapped `admin` + `newcastle` inputs. Live browser retest after the final performance optimisation confirmed the earlier several-second perceived delay was removed without changing those results. Customer Sales / Sales Advisor is LIVE for **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West** only. Its generation is integrated into the main JobG8/configured-slice/verified-publish path; the first production publish was verified at **20, 6 and 7 jobs respectively**, with all three public routes returning 200 and JobG8-backed Apply actions present. Every other Customer Sales region remains non-LIVE until a separate explicit approval.
+Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. The six additional regional Service Admin slices and five additional Service Admin city pages described above are part of production. Durham remains deliberately unapproved pending the County Durham safeguard. The Vercel production deployment route is verified as normal Git deployment with manual-only CLI recovery, now operating on Vercel Pro. NHS Administrative & Clerical inventory is part of production Service Admin through the shared transactional composer and verified publish route, with a hard 20% regional source ceiling plus non-dominating 4+1 display mixing. NHS detail formatting and forgiving search are live; production search uses a deployment-time precomputed `_search` index rather than request-time file-tree scanning or repeated per-job field normalisation/tokenisation, and remains verified for typo correction, `lumley office`, and both normal/swapped `admin` + `newcastle` inputs. Live browser retest after the final performance optimisation confirmed the earlier several-second perceived delay was removed without changing those results. Customer Sales / Sales Advisor is LIVE for **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West** only. Its generation is integrated into the main JobG8/configured-slice/verified-publish path; the first production publish was verified at **20, 6 and 7 jobs respectively**, with all three public routes returning 200 and JobG8-backed Apply actions present. Every other Customer Sales region remains non-LIVE until a separate explicit approval. Teaching Vacancies review writeback resilience was verified on 22 August 2026 after a concurrent-`main` push race: the hardened workflow successfully committed fresh same-day England-wide evidence after rebase/retry protection was added.
 
 ## Documentation rule
 
