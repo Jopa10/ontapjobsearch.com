@@ -99,7 +99,7 @@ def main() -> int:
         source = raw_lookup.get(ref, {})
         description = source.get("description", "")
         annual_max = numeric(row.get("annualised_maximum_estimate", ""))
-        hard_salary_out = bool(annual_max is not None and annual_max >= args.hard_salary_max)
+        hard_salary_out = bool(annual_max is not None and annual_max > args.hard_salary_max)
         rows.append({
             "display_reference": ref,
             "title": norm(row.get("title", "")) or source.get("raw_title", ""),
@@ -111,7 +111,7 @@ def main() -> int:
             "salary_maximum_raw": norm(row.get("salary_maximum_raw", "")),
             "salary_period": norm(row.get("salary_period", "")),
             "annualised_maximum_estimate": row.get("annualised_maximum_estimate", ""),
-            "hard_salary_out_50k_plus": "YES" if hard_salary_out else "NO",
+            "hard_salary_out_over_50k": "YES" if hard_salary_out else "NO",
             "description_evidence": evidence_snippet(description, keywords),
             "manual_boundary_decision": "",
             "manual_boundary_note": "",
@@ -121,7 +121,7 @@ def main() -> int:
     args.output_csv.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(args.output_csv, index=False, encoding="utf-8-sig")
     print(f"Boundary review rows: {len(out):,}")
-    print(f"Hard salary outs (>= £{args.hard_salary_max:,.0f} max): {(out['hard_salary_out_50k_plus'] == 'YES').sum():,}")
+    print(f"Hard salary outs (> £{args.hard_salary_max:,.0f} max): {(out['hard_salary_out_over_50k'] == 'YES').sum():,}")
     print(f"Output: {args.output_csv}")
     return 0
 
