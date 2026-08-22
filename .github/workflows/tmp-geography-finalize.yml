@@ -1,6 +1,11 @@
 name: Temporary geography finalizer
 
 on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/tmp-geography-finalize.yml
   push:
     branches:
       - agent/geography-reconciliation-20260822
@@ -53,11 +58,7 @@ jobs:
 
           readme = Path('pipeline/README.md')
           text = readme.read_text(encoding='utf-8')
-          text = text.replace(
-              'assess 33-region family coverage',
-              'assess 55-market family coverage',
-              1,
-          )
+          text = text.replace('assess 33-region family coverage', 'assess 55-market family coverage', 1)
           start = text.index('## Daily 33-region family coverage')
           end = text.index('\n## External sources', start)
           replacement = '''## Daily 55-market family coverage
@@ -165,9 +166,7 @@ The diagnostic writes `reports-daily/daily-family-coverage.csv` and updates roll
               '|---|---:|---:|---:|',
           ]
           for region in recovered:
-              lines.append(
-                  f"| {region} | {by_key[(region, 'service_admin')]} | {by_key[(region, 'support_worker')]} | {by_key[(region, 'customer_sales')]} |"
-              )
+              lines.append(f"| {region} | {by_key[(region, 'service_admin')]} | {by_key[(region, 'support_worker')]} | {by_key[(region, 'customer_sales')]} |")
           lines += [
               '',
               'Validation result: **PASS — 55 markets × 3 families = 165 unique diagnostic rows, including the exact 22 markets omitted by the old configured 33-market footprint.**',
