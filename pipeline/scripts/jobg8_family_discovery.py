@@ -124,9 +124,7 @@ def load_assessable_markets(path: Path) -> tuple[set[str], dict[str, str]]:
     rollups = {str(k): str(v) for k, v in data.get("detail_rollups", {}).items()}
     expected = data.get("region_count")
     if expected is not None and int(expected) != len(markets):
-        raise SystemExit(
-            f"Assessable-market config says {expected} regions but contains {len(markets)}"
-        )
+        raise SystemExit(f"Assessable-market config says {expected} regions but contains {len(markets)}")
     return markets, rollups
 
 
@@ -163,11 +161,7 @@ def main() -> int:
     ap.add_argument("--config", required=True, type=Path)
     ap.add_argument("--output-dir", required=True, type=Path)
     ap.add_argument("--geo-lookup", type=Path, default=Path("pipeline/geo/geo_lookup.xlsx"))
-    ap.add_argument(
-        "--assessable-regions",
-        type=Path,
-        default=Path("pipeline/config/england_assessable_regions.json"),
-    )
+    ap.add_argument("--assessable-regions", type=Path, default=Path("pipeline/config/uk_assessable_regions.json"))
     args = ap.parse_args()
 
     cfg = json.loads(args.config.read_text(encoding="utf-8"))
@@ -225,9 +219,7 @@ def main() -> int:
             provisional = "BORDERLINE"
             reason = "description-led IT support signal needs advert review"
 
-        geo_cluster = ontap_region(
-            source.get(AREA_COL, ""), source.get(LOCATION_COL, ""), area_lookup, fallback
-        )
+        geo_cluster = ontap_region(source.get(AREA_COL, ""), source.get(LOCATION_COL, ""), area_lookup, fallback)
         assessable_market = detail_rollups.get(geo_cluster, geo_cluster)
         market_status = "YES" if assessable_market in assessable_markets else "NO"
         row = {
@@ -237,7 +229,7 @@ def main() -> int:
             "location": norm(source.get(LOCATION_COL, "")),
             "ontap_geo_cluster": geo_cluster,
             "assessable_market": assessable_market,
-            "in_55_market_universe": market_status,
+            "in_uk_market_universe": market_status,
             "jobg8_classification": norm(source.get(classification_col, "")) if classification_col else "",
             "salary_minimum_raw": norm(source.get(SALARY_MIN_COL, "")),
             "salary_maximum_raw": norm(source.get(SALARY_MAX_COL, "")),
@@ -285,34 +277,26 @@ def main() -> int:
     salary_counts = deduped["salary_bucket"].value_counts()
     class_counts = deduped["jobg8_classification"].replace("", "(blank)").value_counts().head(20)
     market_counts = deduped["assessable_market"].replace("", "Other / Unknown").value_counts().head(30)
-    assessable_yes = int((deduped["in_55_market_universe"] == "YES").sum())
+    assessable_yes = int((deduped["in_uk_market_universe"] == "YES").sum())
     assessable_no = len(deduped) - assessable_yes
 
     lines = [
-        f"# JobG8 {display_name} family discovery",
-        "",
+        f"# JobG8 {display_name} family discovery", "",
         f"Feed: **{feed.name}**",
         f"Jobs in feed: **{len(raw):,}**",
         f"Raw broad possible universe before exclusions/dedupe: **{len(out):,}**",
         f"Duplicates within broad universe: **{int(out['is_duplicate'].sum()):,}**",
-        f"Deduped broad universe: **{len(deduped):,}**",
-        "",
+        f"Deduped broad universe: **{len(deduped):,}**", "",
         "This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.",
-        f"Salary rule applied diagnostically: **over £{hard_max:,.0f} = OUT; exactly £{hard_max:,.0f} is not excluded; missing salary is retained.**",
-        "",
-        "## Early volume viability gate",
-        "",
+        f"Salary rule applied diagnostically: **over £{hard_max:,.0f} = OUT; exactly £{hard_max:,.0f} is not excluded; missing salary is retained.**", "",
+        "## Early volume viability gate", "",
         f"Provisional LIKELY_IN: **{likely_n:,}**",
         f"Provisional BORDERLINE: **{borderline_n:,}**",
         f"Provisional OUT (specialist/salary): **{out_n:,}**",
         f"Estimated genuine inventory before deep advert review: **~{estimate:,}** (working range **{lower:,}–{upper:,}**).",
         f"Viability floor: **~{floor:,} genuine jobs nationally**.",
-        f"Early verdict: **{viability}**.",
-        "",
-        "## Provisional decision breakdown",
-        "",
-        "| Decision | Deduped jobs |",
-        "|---|---:|",
+        f"Early verdict: **{viability}**.", "",
+        "## Provisional decision breakdown", "", "| Decision | Deduped jobs |", "|---|---:|",
     ]
     for decision, count in decision_counts.most_common():
         lines.append(f"| {decision} | {count:,} |")
@@ -321,43 +305,26 @@ def main() -> int:
     for bucket, count in salary_counts.items():
         lines.append(f"| {bucket} | {count:,} |")
 
-    lines += [
-        "",
-        "## JobG8 classifications feeding the seam",
-        "",
-        f"Classification column: **{classification_col or 'NONE'}**",
-        "",
-        "| JobG8 classification | Jobs |",
-        "|---|---:|",
-    ]
+    lines += ["", "## JobG8 classifications feeding the seam", "", f"Classification column: **{classification_col or 'NONE'}**", "", "| JobG8 classification | Jobs |", "|---|---:|"]
     for name, count in class_counts.items():
         lines.append(f"| {str(name).replace('|', '/')} | {count:,} |")
 
     lines += [
-        "",
-        "## Geography — evidence only, not an occupational gate",
-        "",
-        f"Canonical England assessment universe: **{len(assessable_markets):,} markets**.",
-        f"Deduped candidates mapping into that 55-market universe: **{assessable_yes:,}**.",
+        "", "## Geography — evidence only, not an occupational gate", "",
+        f"Canonical UK assessment universe: **{len(assessable_markets):,} markets**.",
+        f"Deduped candidates mapping into that UK market universe: **{assessable_yes:,}**.",
         f"Deduped candidates outside it or unresolved: **{assessable_no:,}**.",
         "The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.",
-        "North East detail clusters are rolled up to the canonical North East assessment market.",
-        "",
-        "| Assessable market / geo result | Jobs | In 55-market universe? |",
-        "|---|---:|---|",
+        "Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.", "",
+        "| Assessable market / geo result | Jobs | In UK market universe? |", "|---|---:|---|",
     ]
     for market, count in market_counts.items():
-        lines.append(
-            f"| {str(market).replace('|', '/')} | {count:,} | "
-            f"{'YES' if market in assessable_markets else 'NO'} |"
-        )
+        lines.append(f"| {str(market).replace('|', '/')} | {count:,} | {'YES' if market in assessable_markets else 'NO'} |")
 
     lines += [
-        "",
-        "## Next gate",
-        "",
+        "", "## Next gate", "",
         "If the early verdict is STOP / VERY THIN or CAUTION / LIKELY BELOW GATE, do not spend time on full advert-level boundary work yet.",
-        "If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 55-market recurrence/slice assessment.",
+        "If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 73-market UK recurrence/slice assessment.",
     ]
     summary_md.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(summary_md.read_text(encoding="utf-8"))
