@@ -1,0 +1,62 @@
+name: Run BVSC review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "agent/bvsc-review-poc"
+    paths:
+      - ".github/workflows/run-bvsc-review.yml"
+      - "pipeline/external_sources/bvsc_poc.py"
+      - "pipeline/tests/test_bvsc_poc.py"
+
+permissions:
+  contents: write
+
+jobs:
+  run-bvsc-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install packages
+        run: python -m pip install --upgrade pip pandas openpyxl pytest
+      - name: Test BVSC proof of concept
+        working-directory: pipeline
+        run: python -m pytest tests/test_bvsc_poc.py -q
+      - name: Refresh BVSC review only
+        working-directory: pipeline
+        run: python -m external_sources.bvsc_poc --fetch-live
+      - name: Verify review outputs and live-site isolation
+        run: |
+          test -s pipeline/reviews/external/bvsc-review.csv
+          test -s pipeline/reviews/external/bvsc-summary.md
+          git diff --exit-code -- \
+            pipeline/output-external \
+            pipeline/output-admin-service \
+            app
+      - name: Commit review files only
+        run: |
+          set -euo pipefail
+          git add -- \
+            pipeline/reviews/external/bvsc-review.csv \
+            pipeline/reviews/external/bvsc-summary.md
+          staged="$(git diff --cached --name-only)"
+          if [ -z "$staged" ]; then
+            echo "No BVSC review changes"
+            exit 0
+          fi
+          unexpected="$(printf '%s\n' "$staged" | awk '$0 != "pipeline/reviews/external/bvsc-review.csv" && $0 != "pipeline/reviews/external/bvsc-summary.md"')"
+          if [ -n "$unexpected" ]; then
+            echo "::error::Refusing to commit non-review files"
+            printf '%s\n' "$unexpected"
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh BVSC review"
+          git push
