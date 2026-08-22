@@ -12,7 +12,7 @@ The primary JobG8 entry point is:
 
 It runs twice daily and performs the current production path:
 
-`JobG8 feed → materialize pipeline/input/jobg8.xlsx → validate → classify/select LIVE slices → compose approved external-source jobs → enrich metadata → assess 33-region family coverage → write pipeline outputs/reviews/reports → commit generated state`
+`JobG8 feed → materialize pipeline/input/jobg8.xlsx → validate → classify/select LIVE slices → compose approved external-source jobs → enrich metadata → assess 55-market family coverage → write pipeline outputs/reviews/reports → commit generated state`
 
 The active category processing used by that workflow includes:
 
@@ -35,13 +35,15 @@ That helper downloads the current feed with retries, clears stale spreadsheet in
 
 Do not add another copy of the download/adapter shell sequence to a workflow. Extend the shared materializer instead.
 
-## Daily 33-region family coverage
+## Daily 55-market family coverage
 
-The 33-region Service Admin / Support Worker diagnostic assessment is now part of `.github/workflows/run-full-jobg8-daily-process.yml`, so it uses the exact same materialized JobG8 workbook as the production family run rather than downloading a later copy of the feed.
+The Service Admin / Support Worker / Customer Sales diagnostic assessment is part of `.github/workflows/run-full-jobg8-daily-process.yml`, so it uses the exact same materialized JobG8 workbook as the production family run rather than downloading a later copy of the feed.
 
-`scripts/assess_daily_family_coverage.py` imports the config-driven production family wrappers, reuses persistent JobG8 review decisions, the canonical geo, title/refinement registers, salary/context rules and catalog anchors, then expands those selectors in memory across all 33 canonical overview regions. It writes `reports-daily/daily-family-coverage.csv` only; it does not change the slice register, production family JSON or publishing state.
+`scripts/assess_daily_family_coverage.py` imports the config-driven production family wrappers, reuses persistent JobG8 review decisions and governed family rules, resolves factual locations through `geo/geo_lookup.xlsx`, and assesses the complete set in `config/england_assessable_regions.json`. That file contains **55 assessable England markets**: the former configured 33-market footprint plus the exact 22 omitted non-North-East lookup markets. `North East` is the deliberate diagnostic roll-up of all three underlying North East lookup regions, including Tees Valley.
 
-`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. It no longer downloads JobG8 or reruns the family assessment. Instead it builds the LIVE overview from published state and then applies the already committed same-feed `daily-family-coverage.csv` to the NOT LIVE Service Admin / Support Worker cells. A numeric zero therefore means assessed zero, not unassessed. Sales Advisor remains outside this mechanism until its family is formally built.
+The diagnostic writes `reports-daily/daily-family-coverage.csv` and updates rolling diagnostic history only. It does **not** change the slice register, production family JSON, LIVE status or public routes. A market may therefore be assessed even when no public slice exists for it.
+
+`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. It builds LIVE state from published/configured data and applies the already committed same-feed 55-market family coverage to NOT LIVE cells. Service Admin, Support Worker and Customer Sales / Sales Advisor all use this recurring diagnostic evidence. A numeric zero means assessed zero, not unassessed.
 
 ## External sources
 
