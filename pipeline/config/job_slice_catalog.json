@@ -77,6 +77,17 @@
     "Hertfordshire": { "slug": "hertfordshire", "anchor_town": "Watford" },
     "West Midlands - Birmingham & Solihull": { "slug": "birmingham-solihull", "anchor_town": "Birmingham" },
     "Somerset": { "slug": "somerset", "anchor_town": "Taunton" },
-    "Norfolk": { "slug": "norfolk", "anchor_town": "Norwich" }
+    "Norfolk": { "slug": "norfolk", "anchor_town": "Norwich" },
+    "Cheshire - East": { "slug": "cheshire-east", "anchor_town": "Crewe" },
+    "Cheshire - Warrington & Halton": { "slug": "warrington-halton", "anchor_town": "Warrington" },
+    "Cornwall": { "slug": "cornwall", "anchor_town": "Truro" },
+    "Derbyshire": { "slug": "derbyshire", "anchor_town": "Derby" },
+    "Greater Manchester - Wigan & Bolton": { "slug": "wigan-bolton", "anchor_town": "Bolton" },
+    "Leicestershire": { "slug": "leicestershire", "anchor_town": "Leicester" },
+    "Lincolnshire": { "slug": "lincolnshire", "anchor_town": "Lincoln" },
+    "Merseyside - Liverpool": { "slug": "merseyside-liverpool", "anchor_town": "Liverpool" },
+    "Shropshire": { "slug": "shropshire", "anchor_town": "Shrewsbury" },
+    "Suffolk": { "slug": "suffolk", "anchor_town": "Ipswich" },
+    "West Midlands - Black Country": { "slug": "black-country", "anchor_town": "Wolverhampton" }
   }
 }
