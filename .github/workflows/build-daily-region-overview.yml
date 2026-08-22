@@ -15,6 +15,7 @@ on:
       - .github/workflows/build-daily-region-overview.yml
   workflow_run:
     workflows:
+      - Run full JobG8 daily process
       - Apply and publish Ontap daily review
     types:
       - completed
