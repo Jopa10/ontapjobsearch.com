@@ -20,27 +20,41 @@ from .pipeline_refinement import resolve_feed_date
 
 # Import through the config-driven production wrappers, not the bare family
 # modules. This preserves the same established wrapper mutations used by the
-# live daily pipelines before we expand them in-memory to all 33 regions.
+# live daily pipelines before diagnostic expansion happens in-memory.
 admin = admin_config.core
 support = support_config.core
 
-CATALOG_PATH = Path("config/job_slice_catalog.json")
+DEFAULT_ASSESSABLE_REGIONS_PATH = Path("config/england_assessable_regions.json")
+CATALOG_PATH = DEFAULT_ASSESSABLE_REGIONS_PATH
 REGISTER_PATH = Path("registers/region_category_slice_register.csv")
 OUTPUT_PATH = Path("reports-daily/daily-family-coverage.csv")
 OVERVIEW_PATH = Path("reports-daily/daily-region-overview.md")
-EXCLUDED_REGIONS = {"Northern Ireland - East"}
+EXPECTED_REGION_COUNT = 55
+
+
+def _load_region_config() -> tuple[dict[str, dict[str, str]], dict[str, str]]:
+    raw = json.loads(CATALOG_PATH.read_text(encoding="utf-8-sig"))
+    regions = raw.get("regions", {})
+    rollups = raw.get("detail_rollups", {})
+    if not isinstance(regions, dict) or not all(isinstance(v, dict) for v in regions.values()):
+        raise RuntimeError(f"Invalid assessable-region catalogue: {CATALOG_PATH}")
+    if not isinstance(rollups, dict):
+        raise RuntimeError(f"Invalid detail_rollups in {CATALOG_PATH}")
+
+    declared_count = raw.get("region_count")
+    if declared_count is not None and int(declared_count) != len(regions):
+        raise RuntimeError(
+            f"Assessable-region catalogue declares {declared_count} regions but contains {len(regions)}"
+        )
+    if CATALOG_PATH == DEFAULT_ASSESSABLE_REGIONS_PATH and len(regions) != EXPECTED_REGION_COUNT:
+        raise RuntimeError(
+            f"Expected {EXPECTED_REGION_COUNT} assessable England regions, found {len(regions)}"
+        )
+    return regions, {str(k): str(v) for k, v in rollups.items()}
 
 
 def _load_regions() -> dict[str, dict[str, str]]:
-    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8-sig"))
-    regions = {
-        name: facts
-        for name, facts in catalog.get("regions", {}).items()
-        if name not in EXCLUDED_REGIONS
-    }
-    if len(regions) != 33:
-        raise RuntimeError(f"Expected 33 daily overview regions, found {len(regions)}")
-    return regions
+    return _load_region_config()[0]
 
 
 def _load_statuses() -> dict[tuple[str, str], str]:
@@ -70,14 +84,19 @@ def _prepare_family_module(module: Any, regions: dict[str, dict[str, str]]) -> N
         for region, facts in regions.items()
     }
 
-    # Keep every special mapping installed by the production wrappers, then add
-    # canonical 33-region identity mappings for regions that are normally NOT LIVE.
+    # Identity-map every assessable market that is not normally LIVE.
     for region in regions:
         module.REGION_MAP[module.norm_key(region)] = region
 
-    # Support-worker geography has a second detail->publish mapping layer.
+    # Apply explicit detail -> assessable-market rollups only inside the diagnostic
+    # process. In particular all three North East lookup regions are assessed in
+    # the single North East public/assessment market.
+    _regions, rollups = _load_region_config()
+    if hasattr(module, "COMBINED_OUTPUT_REGION_MAP"):
+        module.COMBINED_OUTPUT_REGION_MAP.update(rollups)
     if hasattr(module, "PUBLISH_REGION_BY_DETAIL_REGION"):
         module.PUBLISH_REGION_BY_DETAIL_REGION.update({region: region for region in regions})
+        module.PUBLISH_REGION_BY_DETAIL_REGION.update(rollups)
 
 
 def _persistent_actions(category: str) -> tuple[dict[str, str], set[str]]:
@@ -134,7 +153,7 @@ def _assess_family(
     missing = sorted(set(regions) - set(selected))
     if missing:
         raise RuntimeError(
-            f"{family_key} selector failed to assess canonical region(s): " + ", ".join(missing)
+            f"{family_key} selector failed to assess region(s): " + ", ".join(missing)
         )
     return feed_date, {region: len(selected[region]) for region in regions}
 
@@ -142,12 +161,7 @@ def _assess_family(
 def _assess_customer_sales(
     regions: dict[str, dict[str, str]],
 ) -> tuple[str, dict[str, int]]:
-    """Assess all 33 regions with the exact governed Customer Sales production rules.
-
-    This is diagnostic only. It mirrors the LIVE path's base classifier, canonical
-    geography, campaign dedupe and final production QA, but it does not write or
-    activate any Customer Sales slice.
-    """
+    """Assess every England market with the governed Customer Sales production rules."""
     if not sales.INPUT_PATH.is_file():
         raise RuntimeError(f"Missing current JobG8 input: {sales.INPUT_PATH}")
     if not sales.GEO_PATH.is_file():
@@ -309,18 +323,25 @@ def _load_coverage_csv() -> tuple[str, dict[str, int], dict[str, int], dict[str,
         raise RuntimeError(f"Daily family coverage must contain one feed date, found {sorted(dates)}")
 
     regions = _load_regions()
+    assessable = set(regions)
     for family in ("service_admin", "support_worker"):
-        missing = sorted(set(regions) - set(counts[family]))
-        if missing:
+        present = set(counts[family])
+        if not present.issubset(assessable):
+            unexpected = sorted(present - assessable)
+            raise RuntimeError(f"Coverage contains unknown {family} region(s): " + ", ".join(unexpected))
+        # Migration safety: allow the saved pre-expansion 33-region snapshot to be
+        # applied until the next full JobG8 run writes all 55 markets.
+        if present != assessable and len(present) != 33:
+            missing = sorted(assessable - present)
             raise RuntimeError(f"Coverage missing {family} region(s): " + ", ".join(missing))
 
-    # Transitional compatibility: main may still contain the pre-Sales 66-row
-    # coverage file when this code first lands. Do not fail the overview refresh
-    # before the next full JobG8 run has upgraded coverage to 99 rows. Once any
-    # Customer Sales rows are present, require the complete 33-region set.
     if counts["customer_sales"]:
-        missing_sales = sorted(set(regions) - set(counts["customer_sales"]))
-        if missing_sales:
+        present_sales = set(counts["customer_sales"])
+        if not present_sales.issubset(assessable):
+            unexpected = sorted(present_sales - assessable)
+            raise RuntimeError("Coverage contains unknown customer_sales region(s): " + ", ".join(unexpected))
+        if present_sales != assessable and len(present_sales) != 33:
+            missing_sales = sorted(assessable - present_sales)
             raise RuntimeError("Coverage missing customer_sales region(s): " + ", ".join(missing_sales))
 
     return (
@@ -348,21 +369,22 @@ def _apply_to_overview(
     seen_regions: set[str] = set()
     patched: list[str] = []
     sales_ready = bool(sales_counts)
+    assessed_count = len(admin_counts)
 
     for line in lines:
         if line.startswith("> LIVE Service Admin") or line.startswith("> LIVE counts reconcile"):
             live_prefix = line.split(". NOT LIVE", 1)[0]
             if sales_ready:
                 sales_note = (
-                    " NOT LIVE Sales Advisor was assessed from that same feed across all 33 regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
+                    f" NOT LIVE Sales Advisor was assessed from that same feed across {len(sales_counts)} England regions using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
                 )
             else:
                 sales_note = (
-                    " NOT LIVE Sales Advisor remains `—` for this transitional snapshot because the persisted coverage file predates the three-family rollout; the next full JobG8 run will replace it with governed 33-region Sales diagnostics. LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
+                    " NOT LIVE Sales Advisor remains `—` for this transitional snapshot because the persisted coverage file predates the three-family rollout. LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON."
                 )
             patched.append(
                 live_prefix
-                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo."
+                + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across {assessed_count} England regions with the config-driven production wrappers, persistent review decisions and canonical geo."
                 + sales_note
                 + " Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices."
             )
@@ -426,7 +448,7 @@ def _apply_to_overview(
 
     missing = sorted(set(admin_counts) - seen_regions)
     if missing:
-        raise RuntimeError("Overview NOT LIVE table missing canonical region(s): " + ", ".join(missing))
+        raise RuntimeError("Overview NOT LIVE table missing assessed region(s): " + ", ".join(missing))
 
     OVERVIEW_PATH.write_text("\n".join(patched) + "\n", encoding="utf-8")
 
@@ -473,7 +495,7 @@ def main() -> int:
 
     feed_date, _admin_counts, _support_counts, _sales_counts = build_coverage()
     print(
-        f"Wrote {OUTPUT_PATH}: 33 regions x 3 families for feed {feed_date}; "
+        f"Wrote {OUTPUT_PATH}: {EXPECTED_REGION_COUNT} regions x 3 families for feed {feed_date}; "
         f"updated {coverage_history.HISTORY_PATH}"
     )
     return 0
