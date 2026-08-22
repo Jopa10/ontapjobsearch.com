@@ -6,6 +6,11 @@
     {
       "feed_date": "2026-08-22",
       "counts": {
+        "Bedfordshire": {
+          "service_admin": 4,
+          "support_worker": 1,
+          "customer_sales": 3
+        },
         "Berkshire": {
           "service_admin": 34,
           "support_worker": 1,
@@ -14,7 +19,7 @@
         "Bristol & Bath": {
           "service_admin": 33,
           "support_worker": 1,
-          "customer_sales": 5
+          "customer_sales": 6
         },
         "Buckinghamshire": {
           "service_admin": 18,
@@ -22,9 +27,29 @@
           "customer_sales": 2
         },
         "Cambridgeshire": {
-          "service_admin": 31,
+          "service_admin": 30,
           "support_worker": 0,
           "customer_sales": 5
+        },
+        "Cheshire - East": {
+          "service_admin": 13,
+          "support_worker": 1,
+          "customer_sales": 2
+        },
+        "Cheshire - Warrington & Halton": {
+          "service_admin": 20,
+          "support_worker": 1,
+          "customer_sales": 3
+        },
+        "Cheshire - West": {
+          "service_admin": 7,
+          "support_worker": 1,
+          "customer_sales": 3
+        },
+        "Cornwall": {
+          "service_admin": 17,
+          "support_worker": 0,
+          "customer_sales": 2
         },
         "Cumbria - North": {
           "service_admin": 3,
@@ -35,6 +60,16 @@
           "service_admin": 2,
           "support_worker": 2,
           "customer_sales": 1
+        },
+        "Cumbria - West": {
+          "service_admin": 2,
+          "support_worker": 1,
+          "customer_sales": 0
+        },
+        "Derbyshire": {
+          "service_admin": 14,
+          "support_worker": 0,
+          "customer_sales": 4
         },
         "Devon": {
           "service_admin": 31,
@@ -47,29 +82,44 @@
           "customer_sales": 4
         },
         "Essex": {
-          "service_admin": 42,
+          "service_admin": 43,
           "support_worker": 1,
           "customer_sales": 4
         },
         "Gloucestershire": {
-          "service_admin": 23,
+          "service_admin": 22,
           "support_worker": 1,
           "customer_sales": 3
         },
         "Greater Manchester - Manchester & Salford": {
-          "service_admin": 35,
+          "service_admin": 33,
           "support_worker": 0,
           "customer_sales": 6
+        },
+        "Greater Manchester - North": {
+          "service_admin": 4,
+          "support_worker": 0,
+          "customer_sales": 1
         },
         "Greater Manchester - South": {
           "service_admin": 13,
           "support_worker": 1,
           "customer_sales": 1
         },
+        "Greater Manchester - Wigan & Bolton": {
+          "service_admin": 9,
+          "support_worker": 0,
+          "customer_sales": 2
+        },
         "Hampshire": {
-          "service_admin": 54,
+          "service_admin": 55,
           "support_worker": 13,
           "customer_sales": 4
+        },
+        "Herefordshire": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0
         },
         "Hertfordshire": {
           "service_admin": 22,
@@ -81,24 +131,59 @@
           "support_worker": 4,
           "customer_sales": 5
         },
+        "Lancashire - Blackpool & Fylde": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0
+        },
+        "Lancashire - Central": {
+          "service_admin": 3,
+          "support_worker": 1,
+          "customer_sales": 0
+        },
+        "Lancashire - East": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 0
+        },
         "Lancashire - North": {
           "service_admin": 1,
           "support_worker": 1,
           "customer_sales": 0
         },
+        "Leicestershire": {
+          "service_admin": 27,
+          "support_worker": 0,
+          "customer_sales": 2
+        },
+        "Lincolnshire": {
+          "service_admin": 11,
+          "support_worker": 1,
+          "customer_sales": 2
+        },
         "London": {
-          "service_admin": 154,
+          "service_admin": 152,
           "support_worker": 13,
           "customer_sales": 20
         },
+        "Merseyside - Liverpool": {
+          "service_admin": 10,
+          "support_worker": 2,
+          "customer_sales": 2
+        },
+        "Merseyside - Wirral": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 1
+        },
         "Norfolk": {
-          "service_admin": 19,
-          "support_worker": 1,
+          "service_admin": 18,
+          "support_worker": 0,
           "customer_sales": 4
         },
         "North East": {
-          "service_admin": 57,
-          "support_worker": 6,
+          "service_admin": 59,
+          "support_worker": 7,
           "customer_sales": 6
         },
         "Northamptonshire": {
@@ -112,9 +197,19 @@
           "customer_sales": 3
         },
         "Oxfordshire": {
-          "service_admin": 42,
+          "service_admin": 43,
           "support_worker": 3,
           "customer_sales": 1
+        },
+        "Rutland": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0
+        },
+        "Shropshire": {
+          "service_admin": 10,
+          "support_worker": 2,
+          "customer_sales": 2
         },
         "Somerset": {
           "service_admin": 16,
@@ -122,24 +217,34 @@
           "customer_sales": 0
         },
         "Staffordshire": {
-          "service_admin": 23,
+          "service_admin": 22,
           "support_worker": 0,
           "customer_sales": 0
         },
+        "Suffolk": {
+          "service_admin": 17,
+          "support_worker": 2,
+          "customer_sales": 3
+        },
         "Surrey": {
-          "service_admin": 77,
+          "service_admin": 79,
           "support_worker": 11,
           "customer_sales": 5
         },
         "Sussex": {
           "service_admin": 31,
-          "support_worker": 12,
-          "customer_sales": 3
+          "support_worker": 13,
+          "customer_sales": 4
         },
         "West Midlands - Birmingham & Solihull": {
-          "service_admin": 26,
+          "service_admin": 25,
           "support_worker": 1,
           "customer_sales": 5
+        },
+        "West Midlands - Black Country": {
+          "service_admin": 9,
+          "support_worker": 2,
+          "customer_sales": 1
         },
         "West Midlands - Coventry & Warwickshire": {
           "service_admin": 27,
@@ -149,15 +254,20 @@
         "Wiltshire": {
           "service_admin": 26,
           "support_worker": 4,
+          "customer_sales": 2
+        },
+        "Worcestershire": {
+          "service_admin": 8,
+          "support_worker": 2,
           "customer_sales": 3
         },
         "Yorkshire - East": {
-          "service_admin": 14,
+          "service_admin": 13,
           "support_worker": 1,
           "customer_sales": 3
         },
         "Yorkshire - North": {
-          "service_admin": 17,
+          "service_admin": 16,
           "support_worker": 5,
           "customer_sales": 0
         },
@@ -167,7 +277,7 @@
           "customer_sales": 5
         },
         "Yorkshire - West": {
-          "service_admin": 48,
+          "service_admin": 49,
           "support_worker": 2,
           "customer_sales": 7
         }

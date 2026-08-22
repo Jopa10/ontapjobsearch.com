@@ -1712,11 +1712,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225523621",
+    "title": "Temporary Data Administrator",
+    "company": "Hays Business Support - Agency - Temporary",
+    "location": "County Durham",
+    "region": "North East - County Durham & Darlington/Hartlepool",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.45",
+    "salary_max": "15",
+    "salary_text": "£13.45 - £15 per hour (13.45 -15.00)",
+    "posted_date": "",
+    "description": "Working for a Durham-based organisation which designs, builds, and maintains vital utility networks\nYour new role\nThe successful candidate will be responsible for accurately transferring data from the original system to a new platform, ensuring information is correctly entered, validated, and maintained throughout the transition process.This is an excellent opportunity for someone with strong administration and data processing skills who enjoy working with accuracy and attention to detail.\nKey Responsibilities\n- Transfer data from an existing system into a new database.\n- Verify and validate information to ensure data accuracy and integrity.\n- Identify and resolve any data discrepancies, duplicates, or missing information.\n- Maintain confidentiality and security of sensitive company data.\n- Update records and ensure information is current and accurate.\n- Liaise with internal departments to clarify and obtain missing data where required.\n- Undertake general administrative duties associated with the data migration project.\n\nPerson Specification-Essential Requirements\n- Previous experience in an administration or data entry role.\n- Excellent attention to detail and a high level of accuracy.\n- Strong IT skills, including Microsoft Excel and Microsoft Office applications.\n- Ability to work with large volumes of data efficiently.\n- Good organisational and time-management skills.\n- Strong communication skills, both written and verbal.\n- Ability to work independently and meet project deadlines.\n\n.\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDz6pvTbxT%2b%2fuwjQaM6Q0F52f",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays Business Support",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225423298",
@@ -1741,13 +1762,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225433780",
@@ -1797,12 +1812,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225445993",
@@ -1852,11 +1862,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225456443",
@@ -1931,11 +1937,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474293",
@@ -1985,11 +1987,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474615",
@@ -2014,13 +2012,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "3f80b0ca-14b3-48bf-add3-29c3133d4940",
@@ -2045,11 +2037,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c53d7893-2946-4e1b-a6a5-7c10048932af",
@@ -2099,12 +2087,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515748",
@@ -2207,31 +2190,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225524830",
-    "title": "Customer Service Advisor - NEWCASTLE BASED",
-    "company": "Brook Street - Agency - Permanent",
-    "location": "Tyne And Wear",
-    "region": "North East - Tyneside, Wearside & Northumberland",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "14.56",
-    "salary_max": "14.56",
-    "salary_text": "£14.56 per hour",
-    "posted_date": "",
-    "description": "HMRC Customer Service Advisor - Telephony\nNewcastle: NE98 1 ZZ - Applicants must be able to attend this HMRC office on day 1 to collect IT. MUST LIVE IN NEWCASTLE\nWorking as part of the Customer Service Group within HMRC, the UK's tax, payments, and customs authority, you will be helping to support a vital purpose: to collect the money that pays for the UK's public services and help families and individuals with targeted financial support.\nA number of exciting customer service opportunities have arisen on an ongoing temporary basis, and we are looking for individuals who are passionate about delivering excellent customer service and making a difference. As a Customer Service Advisor, you will be supporting HMRC's customers with their telephone queries and you will play an important role in ensuring customers receive quality guidance and support. You will be working within a fast-paced environment and working to targets, whilst dealing with multiple complex customer queries over the telephone regarding their tax accounts, so we are looking for people who are comfortable with working in this type of role and environment.\nThis role will be a remote working role; however, all applicants must be situated within an hour of a HMRC site location as you will be required to attend the office from time to time and on day 1 for Induction, IT Collection and for any other business needs.\nAn excellent package is offered, including:\n- 14.56 per hour pay rate (equivalent to 28,000 yearly salary)\n- Start date September 2026 upon successful completion of government screening checks\n- Expected assignment length, 3 months with the possibility of extension\n- Accrual of up to 34 days paid annual leave pro rata available (inclusive of bank holidays)\n- Home-based working with all IT equipment supplied to carry out your role\n- Working 37 hours per week, shifts will be Monday to Friday either 9am to 5pm or 10am to 6pm.These shifts will be allocated to you by HMRC and the expectation will be that you are flexible across all shifts.\n- Applicants must be able to attend an HMRC office within one of these locations as and when required. - Day 1 collection of IT equipment is a necessity.\n\nKey Responsibilities:\n- Your primary role will be to provide a first-rate quality service through inbound telephony calls from customers regarding their tax accounts. You may also be required to undertake administrative work in addition to telephony work via HMRCs Digital Mail Service or work with customers on Web Chat.\n- Following guidance, updating HMRC systems and handling customer data sensitively will be key aspects of your role to support the delivery of world-class customer service.\n- You will help and support customers with their enquiries over the telephone - giving them more information, pointing them to the right guidance or escalating their enquiry so they are able to get the answers they need to support themselves, their clients, and their businesses.\n- You will seek to resolve customer queries at the first point of contact where possible and use your brilliant communication skills to handle sometimes complex but rewarding conversations.\n\nWhat are we looking for\n- Strong telephony skills and the ability to communicate well with customers on the telephone and via other communication channels such as email and Web Chat where required.\n- A can-do attitude and a real passion for supporting people.\n- You will be trained on several software packages but being a confident IT user is essential for the role, particularly the use of MS Office packages.\n- Whilst this is a home-based role, you must be able to travel to one of the specified HMRC locations as and when required, including to collect and return IT\n- Candidates applying must be able to pass a Standard DBS check and provide proof of Right to Work in the UK.\n\nTraining:\n- You will receive 1 week of online training to ensure you have the best knowledge to carry out your role and you will have a supportive and friendly management structure to support you on a day-to-day basis. Our teams keep in touch using Microsoft Teams and, although you will be working from home, you will feel part of the HMRC wider community and be able to keep in touch with your line manager as well as colleagues joining HMRC at the same time as you.\n- Training will be a mixture of self-learning and virtual classroom training on HMRC policies, processes and systems including telephony. You will undertake live listening throughout the training period, and you will have the assistance of a buddy who will be there to support you during the first couple of weeks.\n\nFor successful applicants, HMRC may collect and use personal information about you before, during and after your working relationship with us, in accordance with data protection law including the UK General Data Protection Regulation and the Data Protection Act 2018. The types of information may include Information about criminal convictions/allegations and offences.\n\nDue to the high volume of applications we receive, we are only able to contact candidates who have been selected to progress to the next stage of the recruitment process. If you have not heard from us within 1 week of your application, please assume that your application has not been successful on this occasion. We encourage you to keep an eye on our current vacancies and welcome applications for any future roles that match your skills and experience.\n\nIf you receive suspicious outreach claiming to be from us, please contact us via the ManpowerGroup website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpzWcw1ahBA%2bz%2fc4FyPLqb7Ue",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Brook Street",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225494451",
     "title": "Customer Experience Coordinator",
     "company": "Linear Recruitment Ltd - Agency - Contract",
@@ -2254,12 +2212,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107869330",

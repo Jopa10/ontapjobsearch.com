@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,65
-total rows dropped,9935
+total rows included,66
+total rows dropped,9934
 title classification count - HIGH_CONFIDENCE,146
-title classification count - ELASTIC_FIT,47
+title classification count - ELASTIC_FIT,48
 title classification count - REVIEW_CONTEXT_DEPENDENT,19
-title classification count - HARD_PASS,4733
-title classification count - OUT_OF_SCOPE,5055
+title classification count - HARD_PASS,4735
+title classification count - OUT_OF_SCOPE,5052
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,2
@@ -32,13 +32,13 @@ other elastic count - North East,1
 total rows output - North East,6
 job_id included - North East,0d92fe0d-a663-4737-8a15-e07bad60e5fe; 23643_225493355; f6fec1d6-1fe7-4f2f-895c-76cd05933697; 297c50e3-fd32-4f29-9de1-936c53932177; 3b657a35-ff63-4dcc-aaef-b5c015e7ce03; 8f7a6b8c-ba2a-4359-bd59-869ba3fbafdb
 selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Sussex,"Sussex selection complete: 12 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Sussex,12
+selection message - Sussex,"Sussex selection complete: 13 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Sussex,13
 high confidence count - Sussex,8
 anchor elastic count - Sussex,0
-other elastic count - Sussex,4
-total rows output - Sussex,12
-job_id included - Sussex,23643_225427103; 23643_222307132; 23643_225445462; 107861316; d2504dfa-0b4a-4aa4-a74e-6a0c24e6b17f; 8c9c482c-941c-4dc4-8474-e83dd310005b; ec026cec-5f4c-49af-882b-c4fa51afbadc; 107864483; ee439ae1-b4a3-44d3-97aa-11662721c09c; e95b23da-96d7-4c92-b8a9-dc4a1c3c19c0; a3620f3e-f4b9-466e-b8e5-a5627a5b2fce; 107811772
+other elastic count - Sussex,5
+total rows output - Sussex,13
+job_id included - Sussex,23643_225427103; 23643_222307132; 23643_225445462; 107861316; d2504dfa-0b4a-4aa4-a74e-6a0c24e6b17f; 8c9c482c-941c-4dc4-8474-e83dd310005b; ec026cec-5f4c-49af-882b-c4fa51afbadc; 107864483; ee439ae1-b4a3-44d3-97aa-11662721c09c; e95b23da-96d7-4c92-b8a9-dc4a1c3c19c0; a3620f3e-f4b9-466e-b8e5-a5627a5b2fce; 107811772; 2e029135-f091-4af7-ad82-7ede21ba2b47
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,2

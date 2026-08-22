@@ -2,15 +2,27 @@
 
 review_date: 2026-08-22
 
-- Open Administrative & Clerical rows reviewed: 2418
-- Auto/remembered selected: 746
+- Open Administrative & Clerical rows reviewed: 2413
+- Auto/remembered selected: 743
 - Selected HC Tier A: 289
-- Selected HC Tier B: 457
-- POSS awaiting decision: 1188
+- Selected HC Tier B: 454
+- POSS awaiting decision: 1186
 - Excluded: 0
 - HARD_PASS: 484
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Lancashire - Central | Chorley, PR6 9NW, Chorley, PR7 7HZ, Preston, PR5 5RZ, Leyland, PR26 9HY, Chorley, PR6 0QA | Negotiable | Receptionist multiple Sites within the Organisation
+source_job_id: 5555841
+title: Receptionist multiple Sites within the Organisation
+employer: Buckshaw Village Surgery Group
+region: Lancashire - Central
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3353-26-0016
+factual_fingerprint: 0c19ed07b31a81d75655b33f41bc4778c12919aad5ac79a0b5afe14c5628937a
+---
 
 ---
 action:
@@ -6146,18 +6158,6 @@ factual_fingerprint: c7deee28671089f7250e6b6aceb59248d55d5258da6af7cd1025550555e
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £25760.00 to £27476.00 | Senior Administration Officer
-source_job_id: 5544437
-title: Senior Administration Officer
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1027
-factual_fingerprint: 8710fd63880dbc13427dc7d2f3585221319e66b0749394b18c1404dbe9deb680
----
-
----
-action:
 POSS | NHS Jobs | Cheshire - East | Victoria Road, Macclesfield, SK10 3BL | £25760.00 to £27476.00 | Patient Flow Co-ordinator (Internal Only)
 source_job_id: 5544533
 title: Patient Flow Co-ordinator (Internal Only)
@@ -6262,18 +6262,6 @@ region: Bedfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0837
 factual_fingerprint: 255780f31a8e5677ee2c14478253dd00e9930923c8828e5d70a8598371e626e8
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Bedford, MK42 9DJ | £25760.00 to £27476.00 | Patient Pathway Co-ordinator
-source_job_id: 5541959
-title: Patient Pathway Co-ordinator
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0834
-factual_fingerprint: a7ae94f9dc386ab88d5848d4526ae9cb7bc7770315d9211798f6ef2b772666db
 ---
 
 ---
@@ -7018,18 +7006,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3834-26-0004
 factual_fingerprint: d01873ebe635f8aa8b27e80535fed3bb2579d319e5aacaf8d13992417a72b249
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £39959.00 to £48117.00 | Information Governance Officer
-source_job_id: 5542571
-title: Information Governance Officer
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0535
-factual_fingerprint: 04d7e41681c6eef1c588e6aba493ab051c9a3c834eb4cbf9d80a1b30ca356b3e
 ---
 
 ---
