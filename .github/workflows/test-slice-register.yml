@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'pipeline/config/job_slice_catalog.json'
+      - 'pipeline/config/england_assessable_regions.json'
       - 'pipeline/registers/region_category_slice_register.csv'
       - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
@@ -28,6 +29,7 @@ on:
       - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_england_assessable_regions.py'
       - 'pipeline/tests/test_daily_family_coverage_sales.py'
       - 'pipeline/tests/test_report_jobg8_potential_duplicates.py'
       - 'pipeline/tests/test_derive_city_pages.py'
@@ -62,6 +64,7 @@ on:
     branches: [main]
     paths:
       - 'pipeline/config/job_slice_catalog.json'
+      - 'pipeline/config/england_assessable_regions.json'
       - 'pipeline/registers/region_category_slice_register.csv'
       - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
@@ -86,6 +89,7 @@ on:
       - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_england_assessable_regions.py'
       - 'pipeline/tests/test_daily_family_coverage_sales.py'
       - 'pipeline/tests/test_report_jobg8_potential_duplicates.py'
       - 'pipeline/tests/test_derive_city_pages.py'
@@ -161,6 +165,7 @@ jobs:
             tests.test_module2_live_slices \
             tests.test_north_yorkshire_slice \
             -v
+          PYTHONPATH=pipeline python -m unittest discover -s pipeline/tests -p 'test_england_assessable_regions.py' -v
           PYTHONPATH=pipeline python -m unittest discover -s pipeline/tests -p 'test_daily_family_coverage_sales.py' -v
           PYTHONPATH=pipeline python -m unittest discover -s pipeline/tests -p 'test_report_jobg8_potential_duplicates.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_derive_city_pages.py' -v
