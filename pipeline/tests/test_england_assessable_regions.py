@@ -22,15 +22,28 @@ class EnglandAssessableRegionTests(unittest.TestCase):
         self.assertIn("Derbyshire", regions)
         self.assertIn("Suffolk", regions)
 
-    def test_old_operational_33_is_a_strict_subset_of_assessable_universe(self) -> None:
-        assessable = json.loads(ASSESSABLE.read_text(encoding="utf-8"))["regions"]
+    def test_configured_england_markets_must_be_inside_assessable_universe(self) -> None:
+        assessable = set(json.loads(ASSESSABLE.read_text(encoding="utf-8"))["regions"])
         operational = json.loads(OPERATIONAL.read_text(encoding="utf-8"))["regions"]
-        operational_england = {
+        configured_england = {
             name for name in operational if name != "Northern Ireland - East"
         }
-        self.assertEqual(len(operational_england), 33)
-        self.assertTrue(operational_england < set(assessable))
-        self.assertEqual(len(set(assessable) - operational_england), 22)
+        self.assertTrue(configured_england <= assessable)
+
+        immediate_live_additions = {
+            "Leicestershire",
+            "Cheshire - Warrington & Halton",
+            "Cornwall",
+            "Suffolk",
+            "Derbyshire",
+            "Cheshire - East",
+            "Lincolnshire",
+            "Merseyside - Liverpool",
+            "Shropshire",
+            "Greater Manchester - Wigan & Bolton",
+            "West Midlands - Black Country",
+        }
+        self.assertTrue(immediate_live_additions <= configured_england)
 
     def test_north_east_rollup_covers_all_three_lookup_components(self) -> None:
         data = json.loads(ASSESSABLE.read_text(encoding="utf-8"))
