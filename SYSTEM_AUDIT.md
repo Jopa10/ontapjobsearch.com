@@ -1,7 +1,7 @@
 # Ontap System Audit
 
 **Audit started:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211.
+**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211. Teaching Vacancies review writeback resilience verified 22 August 2026.
 
 The audit conclusion remains: **preserve the working core; remove historical scaffolding; consolidate duplicated mechanics; do not refactor for technical tidiness alone.**
 
@@ -16,7 +16,7 @@ Business priority wins over technical neatness. Website routes and public URLs a
 - `run-full-jobg8-daily-process.yml` — primary JobG8 production entry point, twice daily.
 - `run-nejobs-review.yml` — daily NEJobs review refresh.
 - `run-vonne-review.yml` — daily VONNE review refresh.
-- `run-teaching-vacancies-regional-review.yml` — daily Teaching Vacancies review refresh.
+- `run-teaching-vacancies-regional-review.yml` — daily Teaching Vacancies review refresh; its evidence writeback now uses full-history checkout plus pull-rebase/push retry protection against concurrent `main` updates.
 - `ontap-daily-review.yml` — builds/emails the master owner review.
 
 ### Reviewed publication
@@ -87,6 +87,14 @@ Added `pipeline/reports/README.md` and updated `pipeline/README.md` to distingui
 - one-off diagnostics, which should normally live in Actions logs/artifacts or Git history.
 
 No broad folder moves were made where a live reference could be broken merely for neatness.
+
+## Reliability follow-up — 22 August 2026
+
+The scheduled Teaching Vacancies regional/master workflow successfully completed its live discovery, routing, review generation and verification on 22 August, but its final plain `git push origin main` was rejected with `fetch first` because another workflow had advanced `main` during the roughly nine-minute run. The generated 22 August TV evidence therefore never reached the repository, and the master Review Hub correctly continued to report the previous 19 August Teaching Vacancies state as stale.
+
+This was a repository-write race, not a Teaching Vacancies discovery/classification failure. The workflow was hardened to check out full history and retry the final write up to three times using `git pull --rebase origin main` followed by `git push origin HEAD:main`, aborting a failed rebase safely before retrying. A manual post-fix rerun then green-ticked and committed fresh 22 August England-wide Teaching Vacancies evidence to `main`.
+
+The operating implication is explicit: source refresh freshness is upstream of `apply-publish-ontap-daily-review.yml`. A stale/missing source is flagged and must not be interpreted as zero inventory, but source isolation allows the parent publication path to continue with clean sources rather than turning one stale source into a whole-system failure.
 
 ## Website / UX
 
