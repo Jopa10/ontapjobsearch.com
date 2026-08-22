@@ -364,18 +364,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Property & Facilities Co-ordinator
-company: Baker Harding Limited - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-107685611
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Property Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -429,6 +417,18 @@ company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Administrator
+company: Working Solutions Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225524513
 reason: Approved Leeds catchment.
 ---
 

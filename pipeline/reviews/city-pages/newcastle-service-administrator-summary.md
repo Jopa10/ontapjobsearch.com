@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 42
-- automatic review: 42
-- automatic exclude: 24
+- automatic review: 41
+- automatic exclude: 25
 - effective include: 42
-- effective review: 42
-- effective exclude: 24
+- effective review: 41
+- effective exclude: 25
 
 ## INCLUDE (42)
 
@@ -528,7 +528,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (42)
+## REVIEW (41)
 
 ---
 action: 
@@ -731,18 +731,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-c53d7893-2946-4e1b-a6a5-7c10048932af
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor - NEWCASTLE BASED
-company: Brook Street - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225524830
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1034,7 +1022,7 @@ job_id: vonne-173349
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -1321,5 +1309,17 @@ company: Durham County Council
 location: Council Offices, Green Lane, Spennymoor
 source: NEJobs
 job_id: nejobs-300579
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Data Administrator
+company: Hays Business Support - Agency - Temporary
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225523621
 reason: Separate employment market.
 ---

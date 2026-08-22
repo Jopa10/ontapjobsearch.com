@@ -1074,6 +1074,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1046",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1093,6 +1096,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0491",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1112,6 +1118,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1131,6 +1140,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0172-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1150,25 +1162,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0421",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5547053",
-    "source": "NHS Jobs",
-    "title": "Project Support Administrator - Hinchingbrooke",
-    "company": "North West Anglia NHS Foundation Trust",
-    "advertiser_name": "North West Anglia NHS Foundation Trust",
-    "location": "Huntingdon, PE29 6NT",
-    "region": "Cambridgeshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T09:25:03.370669220",
-    "closing_date": "2026-09-01",
-    "description": "We are seeking a proactive and organised Project Support Administrator to join the Capital Projects Department at Hinchingbrooke Hospital. This role will provide vital administrative and coordination support to ensure the smooth delivery of capital and estates projects across North West Anglia NHS Foundation Trust. The post holder will support Project Managers and the wider Capital Projects team with key administrative duties including minute-taking, document control, requisition processes, and coordination of meetings with internal and external stakeholders. The role is integral to maintaining project governance, communication, and efficiency across the department. Arrange and coordinate project meetings, including programme board sessions, site progress meetings, and stakeholder workshops.Support the Capital Projects PMO function by assisting in the coordination of project governance activities, documentation, and performance reporting. Assist with diary management, meeting room bookings, and logistics for on-site and virtual meeting Support basic monitoring of expenditure by tracking requisitions, invoices and approvals, escalating discrepancies to Project Managers or the Project Support and Business Manager. Please see attached detailed Job Description and Personal Specification for more information regarding this role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0418",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0418",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1188,6 +1184,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1207,6 +1206,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0295",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1226,6 +1228,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1047",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1245,6 +1250,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0502",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5530863",
+    "source": "NHS Jobs",
+    "title": "Care Coordinator/Medical Receptionist",
+    "company": "Bretton Park Healthcare",
+    "advertiser_name": "Bretton Park Healthcare",
+    "location": "Peterborough, PE3 8DT, Peterborough, PE1 2UF",
+    "region": "Cambridgeshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-11T11:51:31.940691335",
+    "closing_date": "2026-09-01",
+    "description": "Bretton Park Healthcare are looking for a full time/part time Care coordinator/receptionist with the following skills to join our Administration Team. We are looking for a highly motivated individual who is able to work as part of a team and be flexible. The ideal candidates will be positive and friendly with excellent customer service skills. The role requires you to provide customer service both face to face and via the telephone, some experience of working as a medical receptionist is desirable but not essential. The position is full time/part time Mon- Fri, plus a Saturday morning on rotation - (each shift Mon - Fri will either be an 8am start or 6pm finish) The practice has 2 sites located at Bretton and Park and the successful applicant will be required to work at both as part of the rota. As part of your role you will be required to provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Part of your role will be as a care coordinator, receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Attend to patients at the reception desk, deal with enquiries Respond to patient queries in a friendly manner and resolve the issue Taking messages, dealing with queries Using computer clinical system (SystmOne) for a variety of tasks; making, amending appointments, registration of patients, processing repeat prescription requests and updating the database and all other administrative duties as directed by the practice leads JOB DESCRIPTION JOB TITLE: Medical Receptionist/Care Coordinator REPORTS TO: Administration Leads and Practice Manager Job Summary : Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Job Responsibilities : Administration To have a thorough knowledge of all practice procedures To work in accordance with written protocols To carry out specific administrative tasks as requested by the Administration Leads Receptionist Tasks You will be assisting and directing patients toward the appropriate service or healthcare professional in a courteous, efficient, and effective way. Duties include: Receiving patients and consulting with members of the practice team Be able to cover all reception positions as necessary Process digital platform submissions Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter Working knowledge of the telephone system and all IT systems Process appointment requests from patients for on the day and future appointments by telephone and in person Deal with visit requests Registration of new patients computer data entry and medical records Process patients change of address computer data and medical records Process repeat prescription requests in accordance with practice guidelines Care Coordinator Tasks A Care Co-ordinator (CC) may be required to deal with patients and, if appropriate, their carer, before or after the patients consultation with a clinician or other healthcare professional. To also include the following tasks covering the reception duties, document scanning, dealing with tasks and queries from clinicians as well as other reception activities that help to facilitate care between the patients and the clinicians. This also includes liaising with Care / Nursing homes and other health and care providers when and where necessary. Working closely with the patient and their clinician or other healthcare professional, the care co-ordinator co-ordinates patients healthcare and directs them to the appropriate service to ensure that they get the most suitable care from whatever health or social care provider is appropriate. To help people to manage their needs by answering their queries and supporting them in making appointments To provide coordination and navigation of patients, and where appropriate their carers, across health and social care services, where appropriate working hand in hand with social prescribing link workers (SPLW) To undertake all mandatory training and induction programmes To develop in the role through participation in training and service redesign activities, including monthly clinical governance training N.B It is recognised that additional training will be required for some of the tasks listed. Applicants to the post are not expected to be proficient in all tasks listed in the short term but will work towards them.. Other Tasks Ensure building security have thorough knowledge of doors/windows/alarm. Maintain notice boards in waiting areas to ensure information is not out of date and information is appropriate Assisting the the Leadership Team with tasks as required Confidentiality : In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately In the performance of the duties outlined in this Job Description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health & Safety : Employees must take reasonable care for the health, safety and security of themselves and others who may be affected by their acts or omissions at work. Using personal security systems within the workplace according to Practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Making effective use of training to update knowledge and skills Using appropriate infection prevention and control procedures, maintaining work areas in a tidy and safe way and free from hazards Actively reporting of health and safety hazards and infection hazards immediately when recognised Keeping own work areas and general / patient areas generally clean, assisting in the maintenance of general standards of cleanliness consistent with the scope of the job holders role Undertaking periodic infection control training (minimum annually) Reporting potential risks identified Equality, Diversity and Inclusion : The post-holder will support the equality, diversity and inclusion rights of patients, carers and colleagues, to include: Acting in a way that recognizes the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Behaving in a manner which is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Personal/Professional Development : The post-holder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in an annual appraisal, including taking responsibility for maintaining a record of own personal and/or professional development All staff are required to attend and/or carry out on-line essential training as instructed by the Practice Manager (Fire Safety, Health & Safety, Safeguarding Children and Adults, Mental Capacity Act, Information Governance, Resuscitation Procedure) Attend Staff Meetings which provide opportunity to discuss any matters arising from the job and to instruct on new procedures, policies and training requirements",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0017",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0017",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -200,31 +200,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107718257",
-    "title": "Service Advisor",
-    "company": "Listers - Agency - Permanent",
-    "location": "Hessle",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "35000",
-    "salary_text": "£35000 per year",
-    "posted_date": "2026-08-20",
-    "description": "Job Introduction\n\nWe are recruiting for a Service Advisor to join our Porsche Dealership in Hull.\n\nThe hours of work are Monday - Friday, 08:00 - 18:00 as well as working 1 in 5 Saturdays in the morning.\n\nSalaries include basic salary plus a monthly bonus, with an OTE of£35,000.\n\nRole and Responsibilities\n\nYou will be well versed in delivering high levels of customer satisfaction in a very busy and de click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKeKH9hqq%2f8avDipQ59hHbll",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Listers",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225425823",
     "title": "Graduate Administrator / Office Support",
     "company": "Winsearch - Agency - Permanent",
@@ -366,6 +341,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5769-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -385,6 +363,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0412",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -404,6 +385,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

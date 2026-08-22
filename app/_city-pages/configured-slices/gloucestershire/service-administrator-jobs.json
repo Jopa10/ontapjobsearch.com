@@ -100,31 +100,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107746735",
-    "title": "Housekeeper and Operations Co-Ordinator",
-    "company": "Siamo Group Ltd - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "15",
-    "salary_max": "15.5",
-    "salary_text": "£15 - £15.5 per hour (Benefits + Excellent Company Benefits)",
-    "posted_date": "2026-08-14",
-    "description": "We here at Siamo Recruitment are proud to working with one of The Cotswolds leading holiday home specialists.\nDue to continued success and operational changes our client is looking for a part time Housekeeper with a twist.\nOur client prides themselves in providing a unique and industry leading service to their customer base click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzQhRA039uqnnQ2u0Wvl0Zwt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Siamo Group Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225452737",
     "title": "Receptionist",
     "company": "Travail Employment Group - Agency - Temporary",
@@ -591,6 +566,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -610,6 +588,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0726",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -629,6 +610,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0613-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -648,6 +632,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -667,6 +654,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

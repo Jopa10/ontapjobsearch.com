@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 8
 - automatic review: 6
 - automatic exclude: 9
-- effective include: 11
+- effective include: 8
 - effective review: 6
 - effective exclude: 9
 
-## INCLUDE (11)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Unity Resourcing Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225438303
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Assistant
-company: HR GO Recruitment - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-8bcbe25e-ee11-497f-97b9-227ebd11dbe9
 reason: Approved York catchment.
 ---
 
@@ -100,18 +88,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administration Assistant
-company: SI Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107787537
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales and Marketing Coordinator
 company: KD Recruitment Limited - Agency - Permanent
 location: York
@@ -141,18 +117,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: York, YO31 7DE
 source: NHS Jobs
 job_id: nhs-5550198
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator - York and Selby Talking Therapies Team
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO32 9XW
-source: NHS Jobs
-job_id: nhs-5547601
 reason: Approved York catchment.
 ---
 

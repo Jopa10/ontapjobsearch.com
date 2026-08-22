@@ -752,18 +752,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Property & Facilities Co-ordinator
-company: Baker Harding Limited - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-107685611
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Property Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Bradford
@@ -889,6 +877,18 @@ company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Administrator
+company: Working Solutions Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225524513
 reason: Separate employment market.
 ---
 

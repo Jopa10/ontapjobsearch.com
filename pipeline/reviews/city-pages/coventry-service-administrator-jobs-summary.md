@@ -332,6 +332,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Marketing Administrator
+company: Provit Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-266c72a7-06f0-4e64-b4f8-1b5ddd206da4
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part Time Secretary
 company: Provit Recruitment - Agency - Permanent
 location: Warwickshire
@@ -349,18 +361,6 @@ company: Apex Focus Group - Company - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-ce4a1f38-7838-4814-b760-45db6acfea73
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Performing Arts and LAMDA Administrator
-company: The Princethorpe Foundation - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107860526
 reason: Separate employment market.
 ---
 
