@@ -145,3 +145,5 @@ The launch reused the existing central catalog, slice register, production selec
           git commit -m "Sync geography governance after Service Admin expansion [skip ci]"
           git pull --rebase origin main
           git push origin HEAD:main
+
+# trigger
