@@ -214,21 +214,43 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage
 
-      - name: Verify 33-region family coverage
+      - name: Verify 33-region family coverage and history
         run: |
           set -euo pipefail
           test -s pipeline/reports-daily/daily-family-coverage.csv
+          test -s pipeline/reports-daily/daily-family-coverage-history.json
           python - <<'PY'
           import csv
+          import json
           from pathlib import Path
+
           path = Path('pipeline/reports-daily/daily-family-coverage.csv')
           with path.open(encoding='utf-8-sig', newline='') as handle:
               rows = list(csv.DictReader(handle))
           assert len(rows) == 99, f'expected 99 family coverage rows, found {len(rows)}'
           pairs = {(row['region'], row['family']) for row in rows}
           assert len(pairs) == 99, f'expected 99 unique region/family pairs, found {len(pairs)}'
-          assert {row['family'] for row in rows} == {'service_admin', 'support_worker', 'customer_sales'}
-          print('Verified 33 regions x 3 families')
+          families = {'service_admin', 'support_worker', 'customer_sales'}
+          assert {row['family'] for row in rows} == families
+          feed_dates = {row['feed_date'] for row in rows}
+          assert len(feed_dates) == 1, f'expected one family coverage feed date, found {feed_dates}'
+          feed_date = next(iter(feed_dates))
+
+          history_path = Path('pipeline/reports-daily/daily-family-coverage-history.json')
+          history = json.loads(history_path.read_text(encoding='utf-8'))
+          snapshots = history.get('snapshots', [])
+          assert 1 <= len(snapshots) <= 14, f'expected 1-14 history snapshots, found {len(snapshots)}'
+          assert history.get('window_days') == 14
+          assert history.get('threshold') == 6
+          latest = snapshots[-1]
+          assert latest.get('feed_date') == feed_date, (
+              f"latest history date {latest.get('feed_date')} does not match coverage {feed_date}"
+          )
+          counts = latest.get('counts', {})
+          assert len(counts) == 33, f'expected 33 regions in latest history snapshot, found {len(counts)}'
+          for region, regional in counts.items():
+              assert set(regional) == families, f'{region} missing history family counts: {regional}'
+          print('Verified 33 regions x 3 families plus rolling 14-day history')
           PY
 
       - name: Test persistent review and exclusion behavior
@@ -266,7 +288,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reports-daily/daily-family-coverage-history.json" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$unexpected_files"

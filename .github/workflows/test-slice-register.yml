@@ -9,6 +9,8 @@ on:
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
       - 'pipeline/scripts/customer_sales_pipeline.py'
+      - 'pipeline/scripts/assess_daily_family_coverage.py'
+      - 'pipeline/scripts/daily_family_coverage_history.py'
       - 'pipeline/scripts/publish_verified_pages.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
@@ -26,6 +28,7 @@ on:
       - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_daily_family_coverage_sales.py'
       - 'pipeline/tests/test_report_jobg8_potential_duplicates.py'
       - 'pipeline/tests/test_derive_city_pages.py'
       - 'pipeline/tests/test_scan_city_opportunities.py'
@@ -64,6 +67,8 @@ on:
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
       - 'pipeline/scripts/customer_sales_pipeline.py'
+      - 'pipeline/scripts/assess_daily_family_coverage.py'
+      - 'pipeline/scripts/daily_family_coverage_history.py'
       - 'pipeline/scripts/publish_verified_pages.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
@@ -81,6 +86,7 @@ on:
       - 'pipeline/scripts/maintain_active_city_pages.py'
       - 'pipeline/city_pages/**'
       - 'pipeline/reviews/city-pages/**'
+      - 'pipeline/tests/test_daily_family_coverage_sales.py'
       - 'pipeline/tests/test_report_jobg8_potential_duplicates.py'
       - 'pipeline/tests/test_derive_city_pages.py'
       - 'pipeline/tests/test_scan_city_opportunities.py'
@@ -128,6 +134,8 @@ jobs:
             pipeline/scripts/slice_registry.py \
             pipeline/scripts/registered_category_pipeline.py \
             pipeline/scripts/customer_sales_pipeline.py \
+            pipeline/scripts/assess_daily_family_coverage.py \
+            pipeline/scripts/daily_family_coverage_history.py \
             pipeline/scripts/publish_verified_pages.py \
             pipeline/scripts/publish_verified_pages_sussex.py \
             pipeline/scripts/publish_verified_pages_coventry.py \
@@ -153,6 +161,7 @@ jobs:
             tests.test_module2_live_slices \
             tests.test_north_yorkshire_slice \
             -v
+          PYTHONPATH=pipeline python -m unittest discover -s pipeline/tests -p 'test_daily_family_coverage_sales.py' -v
           PYTHONPATH=pipeline python -m unittest discover -s pipeline/tests -p 'test_report_jobg8_potential_duplicates.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_derive_city_pages.py' -v
           python -m unittest discover -s pipeline/tests -p 'test_scan_city_opportunities.py' -v
