@@ -44,6 +44,26 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertTrue(expected.issubset(live))
         self.assertIn(("Yorkshire - North", "admin_service"), live)
 
+    def test_immediate_live_service_admin_set_from_22_august_owner_rule(self):
+        live = live_slices()
+        approved = {
+            "Leicestershire",
+            "Cheshire - Warrington & Halton",
+            "Cornwall",
+            "Suffolk",
+            "Derbyshire",
+            "Cheshire - East",
+            "Lincolnshire",
+            "Merseyside - Liverpool",
+            "Shropshire",
+            "Greater Manchester - Wigan & Bolton",
+            "West Midlands - Black Country",
+        }
+        self.assertTrue({(region, "admin_service") for region in approved}.issubset(live))
+        for region in approved:
+            self.assertTrue(output_filename(region, "admin_service").endswith("-admin-service.json"))
+            self.assertTrue(dynamic_route(region, "admin_service").endswith("/service-administrator-jobs"))
+
     def test_customer_sales_live_set_is_exactly_the_three_approved_regions(self):
         sales_regions = {
             region for region, category in live_slices() if category == "customer_sales"
@@ -126,6 +146,14 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             dynamic_data_path("London", "customer_sales"),
             Path("app/_city-pages/configured-slices/london/customer-sales-jobs.json"),
+        )
+        self.assertEqual(
+            dynamic_route("Merseyside - Liverpool", "admin_service"),
+            "/job-search/merseyside-liverpool/service-administrator-jobs",
+        )
+        self.assertEqual(
+            dynamic_route("West Midlands - Black Country", "admin_service"),
+            "/job-search/black-country/service-administrator-jobs",
         )
 
     def test_invalid_status_stops(self):
