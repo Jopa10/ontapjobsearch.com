@@ -8,7 +8,7 @@ on:
       - .github/workflows/tmp-validate-55-market-geography.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate-55-market-geography:
@@ -17,6 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: agent/geography-reconciliation-20260822
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -53,11 +54,12 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage
 
-      - name: Verify 165 rows and report recovered markets
+      - name: Verify and write audit evidence
         run: |
           python - <<'PY'
           import csv
           import json
+          import shutil
           from pathlib import Path
 
           coverage = Path('pipeline/reports-daily/daily-family-coverage.csv')
@@ -77,25 +79,64 @@ jobs:
           assert len(recovered) == 22, f'expected exact 22 recovered markets, found {len(recovered)}: {recovered}'
 
           by_key = {(row['region'], row['family']): int(row['selected_count']) for row in rows}
-          print(f'feed_date={rows[0]["feed_date"]}')
-          print(f'markets={len(regions)} families={len(families)} rows={len(rows)} recovered={len(recovered)}')
-          print('RECOVERED_MARKET_COUNTS')
-          print('region,service_admin,support_worker,customer_sales')
+          feed_date = rows[0]['feed_date']
+          out_dir = Path('pipeline/reports-discovery-audit')
+          out_dir.mkdir(parents=True, exist_ok=True)
+          audit_csv = out_dir / 'geography-55-market-current-feed-coverage.csv'
+          shutil.copyfile(coverage, audit_csv)
+
+          lines = [
+              '# Ontap 55-market current-feed validation',
+              '',
+              f'Feed date: **{feed_date}**',
+              '',
+              '- Assessable England markets: **55**',
+              '- Families: **3** (Service Admin, Support Worker, Customer Sales)',
+              '- Region/family rows: **165**',
+              '- Markets recovered beyond the old configured 33: **22**',
+              '- This is diagnostic evidence only; no LIVE slice or public route is activated by this run.',
+              '',
+              '## Recovered-market counts',
+              '',
+              '| Market | Service Admin | Support Worker | Customer Sales |',
+              '|---|---:|---:|---:|',
+          ]
           for region in recovered:
-              print(','.join([
-                  region,
-                  str(by_key[(region, 'service_admin')]),
-                  str(by_key[(region, 'support_worker')]),
-                  str(by_key[(region, 'customer_sales')]),
-              ]))
+              lines.append(
+                  f"| {region} | {by_key[(region, 'service_admin')]} | {by_key[(region, 'support_worker')]} | {by_key[(region, 'customer_sales')]} |"
+              )
+          lines.extend([
+              '',
+              '## Mechanical checks',
+              '',
+              '- Exactly 55 unique markets were present.',
+              '- Exactly 165 unique market/family pairs were present.',
+              '- The recovered set was exactly the 22 markets absent from the former 33-market England footprint.',
+              '- Full CSV evidence is retained alongside this report.',
+              '',
+          ])
+          (out_dir / 'geography-55-market-current-feed-validation.md').write_text('\n'.join(lines), encoding='utf-8')
+          print('\n'.join(lines))
           PY
+
+      - name: Commit audit evidence to branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            pipeline/reports-discovery-audit/geography-55-market-current-feed-validation.md \
+            pipeline/reports-discovery-audit/geography-55-market-current-feed-coverage.csv
+          git commit -m 'Record current-feed 55-market geography validation'
+          git push origin HEAD:agent/geography-reconciliation-20260822
 
       - name: Upload validation evidence
         uses: actions/upload-artifact@v4
         with:
           name: geography-55-market-validation
           path: |
-            pipeline/reports-daily/daily-family-coverage.csv
+            pipeline/reports-discovery-audit/geography-55-market-current-feed-validation.md
+            pipeline/reports-discovery-audit/geography-55-market-current-feed-coverage.csv
             pipeline/reports-daily/daily-family-coverage-history.json
           if-no-files-found: error
           retention-days: 7
