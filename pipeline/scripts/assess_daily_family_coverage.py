@@ -11,6 +11,7 @@ import pandas as pd
 
 from . import customer_sales_pipeline as sales
 from . import customer_sales_production_refine as sales_refine
+from . import daily_family_coverage_history as coverage_history
 from . import persistent_jobg8_review as persistence
 from . import service_admin_pipeline_live_config as admin_config
 from . import support_worker_pipeline_live_config as support_config
@@ -336,11 +337,12 @@ def _apply_to_overview(
     support_counts: dict[str, int],
     sales_counts: dict[str, int],
 ) -> None:
-    """Replace NOT LIVE cells with same-feed diagnostic counts for available families."""
+    """Render current and rolling diagnostics in NOT LIVE cells only."""
     if not OVERVIEW_PATH.is_file():
         raise RuntimeError(f"Daily overview must be built before coverage is applied: {OVERVIEW_PATH}")
 
     statuses = _load_statuses()
+    history = coverage_history.load_history()
     lines = OVERVIEW_PATH.read_text(encoding="utf-8").splitlines()
     in_not_live = False
     seen_regions: set[str] = set()
@@ -362,12 +364,17 @@ def _apply_to_overview(
                 live_prefix
                 + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo."
                 + sales_note
+                + " Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices."
             )
             continue
 
         if line == "## NOT LIVE":
             in_not_live = True
             patched.append(line)
+            patched.append("")
+            patched.append(
+                "> Cells show `today / 14d avg / 6+ days` over observed feed dates (maximum 14). The 6+ measure is a watch signal only, not an automatic activation threshold."
+            )
             continue
         if line == "## HEADLINE":
             in_not_live = False
@@ -379,10 +386,40 @@ def _apply_to_overview(
             if len(cells) >= 6:
                 region = cells[1]
                 if region in admin_counts and region in support_counts:
-                    cells[2] = "" if statuses.get((region, "admin_service"), "") == "LIVE" else str(admin_counts[region])
-                    cells[3] = "" if statuses.get((region, "support_worker"), "") == "LIVE" else str(support_counts[region])
+                    cells[2] = (
+                        ""
+                        if statuses.get((region, "admin_service"), "") == "LIVE"
+                        else coverage_history.format_metric(
+                            history,
+                            region,
+                            "service_admin",
+                            admin_counts[region],
+                            as_of_date=feed_date,
+                        )
+                    )
+                    cells[3] = (
+                        ""
+                        if statuses.get((region, "support_worker"), "") == "LIVE"
+                        else coverage_history.format_metric(
+                            history,
+                            region,
+                            "support_worker",
+                            support_counts[region],
+                            as_of_date=feed_date,
+                        )
+                    )
                     if region in sales_counts:
-                        cells[4] = "" if statuses.get((region, "customer_sales"), "") == "LIVE" else str(sales_counts[region])
+                        cells[4] = (
+                            ""
+                            if statuses.get((region, "customer_sales"), "") == "LIVE"
+                            else coverage_history.format_metric(
+                                history,
+                                region,
+                                "customer_sales",
+                                sales_counts[region],
+                                as_of_date=feed_date,
+                            )
+                        )
                     line = "| " + " | ".join(cells[1:-1]) + " |"
                     seen_regions.add(region)
         patched.append(line)
@@ -409,6 +446,13 @@ def build_coverage() -> tuple[str, dict[str, int], dict[str, int], dict[str, int
             f"Family assessment feed-date mismatch: admin={admin_date}, support={support_date}, sales={sales_date}"
         )
     _write_coverage_csv(admin_date, regions, admin_counts, support_counts, sales_counts)
+    coverage_history.record_snapshot(
+        admin_date,
+        regions,
+        admin_counts,
+        support_counts,
+        sales_counts,
+    )
     return admin_date, admin_counts, support_counts, sales_counts
 
 
@@ -428,7 +472,10 @@ def main() -> int:
         return 0
 
     feed_date, _admin_counts, _support_counts, _sales_counts = build_coverage()
-    print(f"Wrote {OUTPUT_PATH}: 33 regions x 3 families for feed {feed_date}")
+    print(
+        f"Wrote {OUTPUT_PATH}: 33 regions x 3 families for feed {feed_date}; "
+        f"updated {coverage_history.HISTORY_PATH}"
+    )
     return 0
 
 
