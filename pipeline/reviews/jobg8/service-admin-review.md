@@ -241,12 +241,6 @@ job_id: 23643_225515250
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds | £26000 per year | Property & Facilities Co-ordinator
-job_id: 107685611
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds | £26227 per year | Customer Service Advisor
 job_id: 23643_225516031
 ---
@@ -1101,12 +1095,6 @@ job_id: 23643_225506513
 
 ---
 action:
-SELECTED | London | London |  | Occupancy Planner
-job_id: 107822213
----
-
----
-action:
 SELECTED | London | London |  | Part-Time Focus Group Panel. Call Centre Agent Advisor Welcome. Work At Home Immediate Start
 job_id: 55859cba-e014-436d-8930-50fb7aace6a7
 ---
@@ -1381,9 +1369,19 @@ SELECTED | London | London | £29000 per year | Front Of House Property Admin
 job_id: 23643_225454050
 ---
 
+---
+action:
+SELECTED | London | London | £28500 - £30000 per year | Showroom + Office Coordinator! Interior Design
+job_id: 3822269a-ea40-4ff4-b51c-53b2a39ffe08
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | London | £40000 - £45000 per year | Accounts Assistant (German Speaking)
+job_id: 320cf36b-5564-46ae-8728-e381ad44f5e8
+---
 
 ## HAMPSHIRE — SELECTED
 
@@ -2273,12 +2271,6 @@ job_id: 23643_225461884
 action:
 SELECTED | Kent | Kent | £35000 - £38000 per year | Service & Quotations Coordinator
 job_id: 23643_225463025
----
-
----
-action:
-SELECTED | Kent | Kent | £30000 - £35000 per year | Project Coordinator
-job_id: 23643_225466245
 ---
 
 ---
@@ -3275,6 +3267,12 @@ SELECTED | Bristol & Bath | Bristol | £20 - £25 per hour | Recruitment Adminis
 job_id: 618ef8c7-eddf-45aa-bb0c-c25d528ae448
 ---
 
+---
+action:
+SELECTED | Bristol & Bath | Bath | £29350 per year | 6 Week Interim Finance Assistant
+job_id: 107881565
+---
+
 ## BRISTOL & BATH — POSSIBLES
 
 _No jobs in this group._
@@ -3573,6 +3571,12 @@ job_id: 23643_225519683
 action:
 SELECTED | Cambridgeshire | Peterborough | £27000 per year (salary pro rata plus benefits) | Sales Admin Coordinator
 job_id: 23643_225406910
+---
+
+---
+action:
+SELECTED | Cambridgeshire | March |  | Scheduler & Permitter
+job_id: 107876964
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -4897,6 +4901,12 @@ job_id: 23643_225452802
 
 ---
 action:
+SELECTED | Northamptonshire | Northamptonshire | £28000 per year (office based, free parking) | Scheduling Administrator
+job_id: 23643_225451400
+---
+
+---
+action:
 SELECTED | Northamptonshire | Northamptonshire |  | Office Administrator
 job_id: 23643_225451122
 ---
@@ -4911,12 +4921,6 @@ job_id: 23643_225346183
 action:
 SELECTED | Northamptonshire | Northamptonshire | £16 per hour | Recruitment Operations Coordinator
 job_id: 107786406
----
-
----
-action:
-SELECTED | Northamptonshire | Northamptonshire | £29000 - £29500 per year (25days holiday + bank hols + 6% pen) | PURCHASING COORDINATOR
-job_id: 23643_225462965
 ---
 
 ---
@@ -5119,12 +5123,6 @@ job_id: 23643_225494401
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £24000 per year | Gatehouse Administrator
-job_id: 107837200
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £15.95 per hour | PA/Secretary
 job_id: 23643_225519438
 ---
@@ -5191,14 +5189,14 @@ job_id: 23643_225450095
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £28000 per year (office based, free parking) | Scheduling Administrator
-job_id: 23643_225451400
+SELECTED | Oxfordshire | Oxfordshire | £15 - £16 per hour | Administrator
+job_id: 23643_225456749
 ---
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £15 - £16 per hour | Administrator
-job_id: 23643_225456749
+SELECTED | Oxfordshire | Oxfordshire | £29000 - £29500 per year (25days holiday + bank hols + 6% pen) | PURCHASING COORDINATOR
+job_id: 23643_225462965
 ---
 
 ---
@@ -5395,7 +5393,11 @@ job_id: 1780036
 
 ## OXFORDSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £35000 per year | Sales Administrator
+job_id: 31e99910-3837-466c-b1ba-75c970d482f4
+---
 
 ## SOMERSET — SELECTED
 
@@ -6093,12 +6095,6 @@ job_id: 23643_225439444
 action:
 SELECTED | Yorkshire - North | York | £13.87 per hour | Depot Administrator
 job_id: 23643_225437275
----
-
----
-action:
-SELECTED | Yorkshire - North | York | £13.45 per hour | Customer Service Assistant
-job_id: 8bcbe25e-ee11-497f-97b9-227ebd11dbe9
 ---
 
 ---

@@ -157,12 +157,6 @@ job_id: 107811772
 
 ---
 action:
-SELECTED | Sussex | Brighton | £14.4 per hour | Female Support Worker
-job_id: 107693840
----
-
----
-action:
 SELECTED | Sussex | Bognor Regis | £13 - £14.5 per hour | Healthcare Support Worker
 job_id: 107861316
 ---
@@ -289,12 +283,6 @@ job_id: 1621461
 
 ---
 action:
-SELECTED | London | City | £13.45 per hour | Support Worker
-job_id: 2047793
----
-
----
-action:
 SELECTED | London | Bromley | £12.8 per hour | Enabling Support Worker
 job_id: 3b6a79fe-bdd8-45a4-977b-61888453872c
 ---
@@ -399,12 +387,6 @@ job_id: a854b6bf-3ea8-4382-ba7d-0c7ffbe7d2f0
 action:
 SELECTED | Surrey | Camberley | £14 - £18 per hour | Support Care Workers - Camberley
 job_id: 23643_225134809
----
-
----
-action:
-SELECTED | Surrey | Guildford | £28032 per year | Support Worker (Outreach)
-job_id: 070e00df-8c9a-476f-af6a-9929561460df
 ---
 
 ---
