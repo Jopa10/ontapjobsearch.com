@@ -3,10 +3,10 @@
 > **NOT READY TO REVIEW — waiting for: Teaching Vacancies**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
-review_date: 2026-08-21
-generated_at: 2026-08-21T20:48:30+00:00
+review_date: 2026-08-22
+generated_at: 2026-08-22T07:59:14+00:00
 
-**27 job(s) need a human decision.**
+**33 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,15 +21,15 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-21 | 22 | — |
-| NEJobs | OK | 2026-08-21 | 3 | — |
-| VONNE | OK | 2026-08-21 | 2 | — |
+| JobG8 | OK | 2026-08-22 | 30 | — |
+| NEJobs | OK | 2026-08-22 | 2 | — |
+| VONNE | OK | 2026-08-22 | 1 | — |
 | Teaching Vacancies | STALE | 2026-08-19 | 0 | — |
-| NHS Jobs | OK | 2026-08-21 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
+| NHS Jobs | OK | 2026-08-22 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 22 to review
+## JobG8 — 30 to review
 
 ---
 action:
@@ -87,6 +87,24 @@ hub_fingerprint: 3727be8d290773d10cd11b6db622b261a042fdebb3f02c3ab7c69edea880be1
 
 ---
 action:
+POSS | JobG8 | Bristol & Bath | Bristol | £20 - £25 per hour | Recruitment Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 618ef8c7-eddf-45aa-bb0c-c25d528ae448
+title: Recruitment Administrator
+employer: 
+location: Bristol
+region: Bristol & Bath
+salary: £20 - £25 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d34efe1a012b89df334867bf2ae9f92b65e319348af1b677c9a2088ed053305a
+---
+
+---
+action:
 POSS | JobG8 | Dorset | Dorset | £40000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -105,6 +123,24 @@ hub_fingerprint: d3dd6b2cd0c51f886a744ea6f59e1e711c3a93a27227f02087b55ccae1a67e6
 
 ---
 action:
+POSS | JobG8 | Essex | Essex | £35000 - £45000 per year | Paraplanner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 913e9ff6-289d-4a39-8928-6ac716381ff0
+title: Paraplanner
+employer: 
+location: Essex
+region: Essex
+salary: £35000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 71a195610d894824ab2efd7aae15ad2c65755b1550e350242d1b680373d6f434
+---
+
+---
+action:
 POSS | JobG8 | Essex | Essex | £16.3 per hour | Planner/ Administrator
 source_key: jobg8
 source: JobG8
@@ -119,6 +155,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 59e60f87375f53f4f3264b301292daf6a521db2a1709083bda43fce190019fc4
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Hampshire | £45000 - £50000 per year | Paraplanner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 8958800f-b5ad-4768-a36c-71e7af68c634
+title: Paraplanner
+employer: 
+location: Hampshire
+region: Hampshire
+salary: £45000 - £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b5f13f212cdacbe40cebff54951d961f0be384f172e948aaf22486eaeb4720fe
 ---
 
 ---
@@ -285,6 +339,42 @@ hub_fingerprint: b1ec01334d52dd45a818086bc27964291bf77ae04ff9a198db56ec670a35c07
 
 ---
 action:
+POSS | JobG8 | London | London | £18 per hour | Part time Receptionist (Afternoons)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 8531d02a-7070-4c80-953e-9cdb59ec5081
+title: Part time Receptionist (Afternoons)
+employer: 
+location: London
+region: London
+salary: £18 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 03875dc283ef3de7c4e4b9efde6d28965b01c0fd58849e2abc72f012cf2c9b0d
+---
+
+---
+action:
+POSS | JobG8 | London | London | £32000 - £40000 per year | Recruitment Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 7c2305b4-0ed5-4124-bb2d-c8373523e178
+title: Recruitment Coordinator
+employer: 
+location: London
+region: London
+salary: £32000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 43255e92a4f07b9c1aad18b809aa3f726c1aff199eb5f9a4449d0ff7dc99d6a9
+---
+
+---
+action:
 POSS | JobG8 | London | London | £40000 per year | Team Secretary
 source_key: jobg8
 source: JobG8
@@ -375,6 +465,42 @@ hub_fingerprint: d153a1a6d2efef1167b035dbe4039f6ee3485cc8159db14f233c6755a357925
 
 ---
 action:
+POSS | JobG8 | Somerset | Somerset | £45000 - £50000 per year | Paraplanner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: c027df0b-625b-410b-98e5-a1625ff03657
+title: Paraplanner
+employer: 
+location: Somerset
+region: Somerset
+salary: £45000 - £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b2f001fe222eaf7ec7c03c393fef09ae0e0d25ca51d4fee11fa9c21d7a303721
+---
+
+---
+action:
+POSS | JobG8 | Somerset | Somerset | £45000 - £50000 per year | Paraplanner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: d01c0627-6f2c-45ee-a5a1-1a308f6d579f
+title: Paraplanner
+employer: 
+location: Somerset
+region: Somerset
+salary: £45000 - £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e97793972c5945221268e3e5beda0797017dc1e6cff73f4fb8623de8ca3fe423
+---
+
+---
+action:
 POSS | JobG8 | Surrey | Surrey | £32000 - £40000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -389,6 +515,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 2b8d0b463233a360d6c526ce2c4392518c9bfc85991250419d811341d497b3de
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Birmingham & Solihull | Solihull | £29000 - £31000 per year | Purchase Ledger Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 65c1600a-3447-4c43-9eed-fd4ff5c2ff91
+title: Purchase Ledger Administrator
+employer: 
+location: Solihull
+region: West Midlands - Birmingham & Solihull
+salary: £29000 - £31000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 05d090fa94eb5e47eb5b7cbbf8f85ee9afd81e1139ab19bd943ccd9425350454
 ---
 
 ---
@@ -427,10 +571,10 @@ source_url:
 hub_fingerprint: 444797087f43d1a257187da1be56053f22e5e8e902863a114d94789669845688
 ---
 
-## NEJobs — 3 to review
+## NEJobs — 2 to review
 
 ---
-action: select
+action:
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award… | PA Support Officer
 source_key: nejobs
 source: NEJobs
@@ -441,84 +585,48 @@ employer: Darlington Borough Council
 location: Town Hall, Darlington
 region: North East - County Durham & Darlington/Hartlepool
 salary: £25,989 per annum (pay award…
-closing_date: 31/08/2026
+closing_date: 07/09/2026
 reason: provisional transferable-office review
 source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300972
-hub_fingerprint: 0ff1c693796e419256960b1228626fbf42c1b885d5b48e4e5b84b11e64d7d5b5
+hub_fingerprint: 0d54ebed6320ca9ca9c51d880324e49d8664d1020a69eef51141ba8fb0322a64
 ---
 
 ---
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Culture House | Grade 4 (SCP 12 - 17) £28,598… | Digital Systems Administrator
+action:
+POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Adult Social Care, Support Co… | £33,699 pa | Senior Support Coordinator
 source_key: nejobs
 source: NEJobs
 category: admin_service
-source_job_id: 300715
-title: Digital Systems Administrator
-employer: Sunderland City Council
-location: Culture House
+source_job_id: 301056
+title: Senior Support Coordinator
+employer: South Tyneside Council
+location: Adult Social Care, Support Co…
 region: North East - Tyneside, Wearside & Northumberland
-salary: Grade 4 (SCP 12 - 17) £28,598…
-closing_date: 02/09/2026
-reason: annualised upper salary £31,022 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Digital_Systems_Administrator/300715
-hub_fingerprint: 49e727b6f01dec75a14ed6e223ff24c3da27d9cca3a9729120df6788331ef590
+salary: £33,699 pa
+closing_date: 11/09/2026 12:00
+reason: transferable office/service title with specialist or borderline wording: senior
+source_url: https://www.northeastjobs.org.uk/job/Senior_Support_Coordinator/301056
+hub_fingerprint: ca2b8abad3c29153773256bc164707680711698f65dceb3561f052e18d80fe4c
 ---
 
----
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £32,061 to £ 33,699 per annum… | Trauma Support Coordinator
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 301015
-title: Trauma Support Coordinator
-employer: Tyne and Wear Fire and Res…
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £32,061 to £ 33,699 per annum…
-closing_date: 02/09/2026 12:00
-reason: annualised upper salary £33,699 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Trauma_Support_Coordinator/301015
-hub_fingerprint: 4d9f7c6ba147d32d0bdb54835c00cf192e87dcdc1b0a48232145810e4c7feb9a
----
-
-## VONNE — 2 to review
+## VONNE — 1 to review
 
 ---
-action: exclude
-POSS | VONNE | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
+action:
+POSS | VONNE | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
 source_key: vonne
 source: VONNE
 category: admin_service
-source_job_id: 173344
-title: Mentor (HEAT) - North East England
-employer: The Wise Group
-location: Home-based
-region: North East
-salary: £25,664 Per Annum
-closing_date: 27 August 2026
+source_job_id: 173349
+title: Trusts and Community Fundraising Officer
+employer: Durham County Carers Support
+location: Hybrid
+region: North East - County Durham & Darlington/Hartlepool
+salary: £31,500 Pro Rata
+closing_date: 25 September 2026
 reason: North East geography is generic or derived and requires review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
-hub_fingerprint: cbe2371fb48869c31b89deaade2a23bc71f0b21d879658f5e43f76661d551bf8
----
-
----
-action: select
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173347
-title: Marketing Coordinator
-employer: Age UK North Tyneside
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £25,334 to 26,419 Per Annum
-closing_date: Wednesday, September 2, 2026 - 12:00
-reason: provisional transferable-office review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173347
-hub_fingerprint: cf873105dc37d39d1d7ccb1a0b5efd8c122a00df6edd9c63f416966f49d25698
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173349
+hub_fingerprint: 84cc16de44af8566fe190658687868b5844b9d095c4a71b7470ebb33b4827f62
 ---
 
 ## NHS Jobs — 0 to review
