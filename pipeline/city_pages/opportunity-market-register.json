@@ -1,7 +1,7 @@
 [
   {"region_key":"north-east","market_key":"newcastle","display_name":"Newcastle","include_patterns":["newcastle","gateshead","north tyneside","shiremoor","wideopen"]},
   {"region_key":"north-east","market_key":"sunderland","display_name":"Sunderland","include_patterns":["sunderland"]},
-  {"region_key":"north-east","market_key":"durham","display_name":"Durham","include_patterns":["durham"]},
+  {"region_key":"north-east","market_key":"durham","display_name":"Durham","include_patterns":["durham"],"exclude_patterns":["county durham"]},
   {"region_key":"north-east","market_key":"darlington","display_name":"Darlington","include_patterns":["darlington"]},
   {"region_key":"north-east","market_key":"hartlepool","display_name":"Hartlepool","include_patterns":["hartlepool"]},
   {"region_key":"west-yorkshire","market_key":"leeds","display_name":"Leeds","include_patterns":["leeds","pudsey"]},

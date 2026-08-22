@@ -32,7 +32,7 @@ Examples already approved in production:
 
 New city pages should therefore be thought of as **city-anchored labour-market pages**, not literal string filters. Catchment additions are a governance decision and must be recorded in `city-page-register.json` with include/review/exclude rules.
 
-Broad county or regional labels must never be treated as proof that a vacancy belongs to the anchor city. In particular, `Durham` must not match broad `County Durham` locations for city-page launch purposes unless the stated workplace is actually Durham city or an explicitly approved Durham-city catchment location. The August 2026 Durham candidate remains on hold until this distinction is enforced and its qualifying history is recalculated.
+Broad county or regional labels must never be treated as proof that a vacancy belongs to the anchor city. In particular, `Durham` must not match broad `County Durham` locations for city-page launch purposes unless the stated workplace is actually Durham city or an explicitly approved Durham-city catchment location. The market register now enforces that exclusion; the August 2026 Durham candidate remains on hold until its qualifying history is rebuilt from clean post-fix counts.
 
 ## Regional opportunity markets
 
@@ -60,6 +60,8 @@ For the human approval step, edit only the `action:` line in the relevant city b
 When that approval file is committed, `pipeline/scripts/manage_city_page_approvals.py` validates the candidate against the current registered market, generates the technical city configuration and route, and the city derivation pipeline writes the live city JSON. Future approved cities use the same generic process; they do not require city-specific classification logic.
 
 As of 19 August 2026 the newly approved Service Admin city pages are Bradford, Huddersfield, York, Barnsley and Doncaster. Their initial launch catchments are exact-city only. Durham is explicitly held pending the County Durham safeguard and a fresh qualifying-history check.
+
+On 22 August 2026 the owner approved a named one-off exception for Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford Service Admin. The 55-region audit found current exact-city counts of 38, 35, 27, 24, 14, 14, 12, 11 and 10 respectively, but their dynamic configured-slice parents had not accumulated city-opportunity history. Each page therefore uses the normal active/permanent city mechanism and a conservative exact-city catchment, while its register entry records the explicit waiver of the 3-of-7 evidence requirement. The standing launch rule is unchanged for later candidates.
 
 ## Permanent-page and homepage-visibility rules
 
