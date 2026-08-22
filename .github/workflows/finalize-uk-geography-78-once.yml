@@ -1,0 +1,125 @@
+name: Finalize 78-market UK geography once
+
+on:
+  push:
+    paths:
+      - '.github/uk-geography-78-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Finalize code tests and governance at 78 markets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          # Do not force ambiguous generic lookup clusters into an arbitrary market.
+          p = Path('pipeline/config/uk_assessable_regions.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          for key in ('South West', 'West Midlands'):
+              data.get('detail_rollups', {}).pop(key, None)
+          excluded = data.setdefault('excluded_non_market_clusters', [])
+          for key in ('South West', 'West Midlands'):
+              if key not in excluded:
+                  excluded.append(key)
+          p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          def repl(path, pairs):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              for old, new in pairs:
+                  if old not in text:
+                      raise SystemExit(f'missing expected text in {path}: {old}')
+                  text = text.replace(old, new)
+              p.write_text(text, encoding='utf-8')
+
+          repl('pipeline/scripts/assess_daily_family_coverage.py', [
+              ('EXPECTED_REGION_COUNT = 73', 'EXPECTED_REGION_COUNT = 78'),
+              ('LEGACY_REGION_COUNTS = {33, 55}', 'LEGACY_REGION_COUNTS = {33, 55, 73}'),
+              ('73 UK markets x 3 families', '78 UK markets x 3 families'),
+          ])
+          repl('pipeline/scripts/build_daily_region_overview.py', [
+              ('EXPECTED_REGION_COUNT = 73', 'EXPECTED_REGION_COUNT = 78'),
+              ('same-feed 73-market coverage', 'same-feed 78-market coverage'),
+          ])
+          repl('pipeline/scripts/jobg8_family_discovery.py', [
+              ('73-market UK recurrence/slice assessment', '78-market UK recurrence/slice assessment'),
+          ])
+          repl('.github/workflows/run-full-jobg8-daily-process.yml', [
+              ('all 73 assessable UK markets', 'all 78 assessable UK markets'),
+              ('Verify 73-market UK family coverage and history', 'Verify 78-market UK family coverage and history'),
+              ('len(rows) == 219', 'len(rows) == 234'),
+              ('expected 219 family coverage rows', 'expected 234 family coverage rows'),
+              ('len(pairs) == 219', 'len(pairs) == 234'),
+              ('expected 219 unique region/family pairs', 'expected 234 unique region/family pairs'),
+              ('len(counts) == 73', 'len(counts) == 78'),
+              ('expected 73 assessable UK markets', 'expected 78 assessable UK markets'),
+              ('Verified 73 assessable UK markets x 3 families', 'Verified 78 assessable UK markets x 3 families'),
+          ])
+
+          p = Path('pipeline/tests/test_uk_assessable_regions.py')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace('test_uk_universe_is_73_and_contains_all_four_nations', 'test_uk_universe_is_78_and_contains_all_four_nations')
+          text = text.replace('self.assertEqual(data["region_count"], 73)', 'self.assertEqual(data["region_count"], 78)')
+          text = text.replace('self.assertEqual(len(regions), 73)', 'self.assertEqual(len(regions), 78)')
+          text = text.replace('self.assertEqual(len(uk - england), 18)', 'self.assertEqual(len(uk - england), 23)')
+          needle = '        self.assertIn("Northern Ireland - West", regions)\n'
+          extra = ('        self.assertIn("Lancashire - West", regions)\n'
+                   '        self.assertIn("Merseyside - Sefton", regions)\n'
+                   '        self.assertIn("Merseyside - St Helens & Knowsley", regions)\n'
+                   '        self.assertIn("Scotland - Borders", regions)\n'
+                   '        self.assertIn("Wales - Mid", regions)\n')
+          if extra not in text:
+              text = text.replace(needle, needle + extra, 1)
+          p.write_text(text, encoding='utf-8')
+
+          # Canonical technical map: replace the interim 73-market correction with the full-inventory result.
+          p = Path('SYSTEM_MAP.md')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace('73-market UK geography governance', '78-market UK geography governance', 1)
+          old = ('- 22 August 2026 — **UK geography scope correction:** the 55-market reconciliation completed earlier on 22 August was an England-only audit, not the complete Ontap national geography. `pipeline/config/uk_assessable_regions.json` is now the canonical diagnostic geography authority with **73 UK markets: 55 England + 9 Scotland + 7 Wales + 2 Northern Ireland**. `pipeline/config/england_assessable_regions.json` is retained as the verified England subset/reference, not the national authority. `geo_lookup.xlsx` remains factual source-location authority; explicit safe aliases roll into canonical UK markets; ambiguous generic geo labels remain unresolved rather than being forced into a market. The daily Service Admin, Support Worker and Customer Sales diagnostics now target **219 market/family rows (73 × 3)**. This is diagnostic completeness only and does not auto-create LIVE/public slices; `job_slice_catalog.json` remains public/configured metadata and `region_category_slice_register.csv` remains the LIVE gate.')
+          new = ('- 22 August 2026 — **UK geography scope correction, reconciled against the full 104-label geo lookup inventory:** the earlier 55-market result was England-only and the interim 73-market UK pass still missed five legitimate lookup markets. `pipeline/config/uk_assessable_regions.json` is now the canonical diagnostic geography authority with **78 UK markets: 58 England + 10 Scotland + 8 Wales + 2 Northern Ireland**. The five recovered markets are **Lancashire - West, Merseyside - Sefton, Merseyside - St Helens & Knowsley, Scotland - Borders and Wales - Mid**. `pipeline/config/england_assessable_regions.json` is retained only as the verified historic 55-market England subset/reference, not the current England or UK authority. `geo_lookup.xlsx` remains factual source-location authority; exact aliases roll into canonical UK markets; Channel Islands/unknown and ambiguous generic labels remain outside the market universe rather than being force-assigned. Daily Service Admin, Support Worker and Customer Sales diagnostics now target **234 market/family rows (78 × 3)**. This is diagnostic completeness only and does not auto-create LIVE/public slices; `job_slice_catalog.json` remains public/configured metadata and `region_category_slice_register.csv` remains the LIVE gate.')
+          if old not in text:
+              raise SystemExit('SYSTEM_MAP interim UK correction not found')
+          p.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          p = Path('SYSTEM_OVERVIEW.md')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace('73-market UK geography governance', '78-market UK geography governance', 1)
+          old = ('- 22 August 2026 — **Corrected the regional diagnostic scope from England-only to UK-wide.** The earlier 55-market result remains the complete England subset, but it is no longer the national assessment authority. Ontap now uses `pipeline/config/uk_assessable_regions.json` for **73 assessable UK markets: 55 England, 9 Scotland, 7 Wales and 2 Northern Ireland**. Daily Service Admin, Support Worker and Sales Advisor diagnostics therefore target **219 rows (73 × 3)**, while LIVE/public pages remain separately controlled by the existing catalogue/register approval mechanism.')
+          new = ('- 22 August 2026 — **Corrected regional diagnostics to the full UK lookup universe.** The full `geo_lookup.xlsx` cluster inventory contains 104 raw labels; after preserving genuine employment markets, rolling exact aliases and excluding non-UK/unknown/ambiguous generic labels, Ontap now uses `pipeline/config/uk_assessable_regions.json` for **78 assessable UK markets: 58 England, 10 Scotland, 8 Wales and 2 Northern Ireland**. This recovers Lancashire - West, Merseyside - Sefton, Merseyside - St Helens & Knowsley, Scotland - Borders and Wales - Mid beyond the interim 73-market pass. Daily Service Admin, Support Worker and Sales Advisor diagnostics target **234 rows (78 × 3)**; LIVE/public pages remain separately controlled by the existing catalogue/register approval mechanism.')
+          if old not in text:
+              raise SystemExit('SYSTEM_OVERVIEW interim UK correction not found')
+          p.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          repl('SYSTEM_AUDIT.md', [
+              ('`pipeline/config/uk_assessable_regions.json` is now the recurring diagnostic authority with **73 UK markets: 55 England + 9 Scotland + 7 Wales + 2 Northern Ireland**.', '`pipeline/config/uk_assessable_regions.json` is now the recurring diagnostic authority with **78 UK markets: 58 England + 10 Scotland + 8 Wales + 2 Northern Ireland**, reconciled against the full 104-label lookup inventory.'),
+              ('across all 73 UK markets and targets **219 market/family rows**', 'across all 78 UK markets and targets **234 market/family rows**'),
+              ('complete 73-market UK diagnostic geography', 'complete 78-market UK diagnostic geography'),
+          ])
+          repl('pipeline/README.md', [
+              ('assess 73-market UK family coverage', 'assess 78-market UK family coverage'),
+              ('## Daily 73-market UK family coverage', '## Daily 78-market UK family coverage'),
+              ('That file contains **73 assessable UK markets**: **55 England + 9 Scotland + 7 Wales + 2 Northern Ireland**.', 'That file contains **78 assessable UK markets**: **58 England + 10 Scotland + 8 Wales + 2 Northern Ireland**, reconciled against the full 104-label `geo_lookup.xlsx` cluster inventory.'),
+              ('same-feed 73-market UK family coverage', 'same-feed 78-market UK family coverage'),
+          ])
+          PY
+      - name: Commit final UK geography correction and remove one-time mechanism
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/finalize-uk-geography-78-once.yml .github/uk-geography-78-trigger
+          git add pipeline/config/uk_assessable_regions.json pipeline/scripts/assess_daily_family_coverage.py pipeline/scripts/build_daily_region_overview.py pipeline/scripts/jobg8_family_discovery.py pipeline/tests/test_uk_assessable_regions.py .github/workflows/run-full-jobg8-daily-process.yml SYSTEM_MAP.md SYSTEM_OVERVIEW.md SYSTEM_AUDIT.md pipeline/README.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Finalize 78-market UK geography governance'
+          git pull --rebase origin main
+          git push origin HEAD:main
