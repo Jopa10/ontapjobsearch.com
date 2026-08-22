@@ -229,7 +229,7 @@ source_job_id: 300955
 source_url: https://www.northeastjobs.org.uk/job/Marketing_Events_Assistant/300955
 ---
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award pending) | PA Support Officer
 employer: Darlington Borough Council
 closing_date: 07/09/2026
@@ -391,7 +391,7 @@ source_job_id: 256120
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256120
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Adult Social Care, Support Coordination Team, Town Hall and Civic Offices | £33,699 pa | Senior Support Coordinator
 employer: South Tyneside Council
 closing_date: 11/09/2026 12:00

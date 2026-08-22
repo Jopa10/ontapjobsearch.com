@@ -55,7 +55,7 @@ source_job_id: 173344
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
 ---
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
 employer: Durham County Carers Support
 closing_date: 25 September 2026
