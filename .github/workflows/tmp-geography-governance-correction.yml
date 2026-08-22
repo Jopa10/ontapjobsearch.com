@@ -17,7 +17,7 @@ jobs:
         with:
           ref: agent/geography-reconciliation-20260822
           fetch-depth: 0
-      - name: Correct timeline wording
+      - name: Correct geography wording and workflow guards
         shell: bash
         run: |
           python - <<'PY'
@@ -41,6 +41,14 @@ jobs:
               ('The change was immediately verified when the overview regenerated from 22 August data and again showed **3 / 55 LIVE Sales Advisor markets and 33 LIVE Sales Advisor jobs**.', 'The change was immediately verified when the overview regenerated from 22 August data and again showed **3 / 33 LIVE Sales Advisor regions and 33 LIVE Sales Advisor jobs** under the then-configured footprint.'),
               ('The file stores all 165 region/family counts for continuity,', 'New or replaced 55-market snapshots store all 165 region/family counts for continuity; the history reader remains migration-safe if an earlier 33-market snapshot is still present;'),
             ],
+            '.github/workflows/run-full-jobg8-daily-process.yml': [
+              ('Assess Service Admin, Support Worker and Customer Sales across all 33 regions', 'Assess Service Admin, Support Worker and Customer Sales across all 55 assessable England markets'),
+              ('Verify 33-region family coverage and history', 'Verify 55-market family coverage and history'),
+              ("assert len(rows) == 99, f'expected 99 family coverage rows, found {len(rows)}'", "assert len(rows) == 165, f'expected 165 family coverage rows, found {len(rows)}'"),
+              ("assert len(pairs) == 99, f'expected 99 unique region/family pairs, found {len(pairs)}'", "assert len(pairs) == 165, f'expected 165 unique region/family pairs, found {len(pairs)}'"),
+              ("assert len(counts) == 33, f'expected 33 regions in latest history snapshot, found {len(counts)}'", "assert len(counts) == 55, f'expected 55 assessable England markets in latest history snapshot, found {len(counts)}'"),
+              ("print('Verified 33 regions x 3 families plus rolling 14-day history')", "print('Verified 55 assessable England markets x 3 families plus rolling 14-day history')"),
+            ],
           }
 
           for filename, pairs in replacements.items():
@@ -54,6 +62,6 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add SYSTEM_MAP.md SYSTEM_OVERVIEW.md
-          git commit -m 'Correct geography governance timeline wording'
+          git add SYSTEM_MAP.md SYSTEM_OVERVIEW.md .github/workflows/run-full-jobg8-daily-process.yml
+          git commit -m 'Correct 55-market geography governance and workflow guards'
           git push origin HEAD:agent/geography-reconciliation-20260822
