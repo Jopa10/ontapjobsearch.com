@@ -142,8 +142,8 @@ The launch reused the existing central catalog, slice register, production selec
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git rm .github/workflows/update-geo-governance-once.yml
           git add SYSTEM_MAP.md SYSTEM_AUDIT.md
-          git commit -m "Sync geography governance after Service Admin expansion [skip ci]"
+          git commit -m "Sync geography governance after Service Admin expansion"
           git pull --rebase origin main
           git push origin HEAD:main
 
-# trigger
+# trigger 2
