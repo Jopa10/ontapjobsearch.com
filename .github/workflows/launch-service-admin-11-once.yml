@@ -8,7 +8,11 @@ on:
 
 permissions:
   actions: write
-  contents: read
+  contents: write
+
+concurrency:
+  group: service-admin-11-one-time-launch
+  cancel-in-progress: true
 
 jobs:
   launch:
@@ -23,35 +27,25 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+            const launchCutoff = Date.parse('2026-08-22T20:27:00Z');
 
-            async function dispatchAndWait(workflowId, label, maxMinutes) {
-              const started = Date.now();
-              await github.rest.actions.createWorkflowDispatch({
+            async function recentRun(workflowId) {
+              const { data } = await github.rest.actions.listWorkflowRuns({
                 owner,
                 repo,
                 workflow_id: workflowId,
-                ref: 'main',
+                event: 'workflow_dispatch',
+                branch: 'main',
+                per_page: 20,
               });
-              core.info(`Dispatched ${label}`);
+              return data.workflow_runs.find((candidate) => {
+                const created = Date.parse(candidate.created_at || '');
+                return Number.isFinite(created) && created >= launchCutoff;
+              }) || null;
+            }
 
-              let run = null;
+            async function waitForRun(run, label, maxMinutes) {
               for (let attempt = 0; attempt < maxMinutes * 6; attempt += 1) {
-                await sleep(10000);
-                const { data } = await github.rest.actions.listWorkflowRuns({
-                  owner,
-                  repo,
-                  workflow_id: workflowId,
-                  event: 'workflow_dispatch',
-                  branch: 'main',
-                  per_page: 20,
-                });
-                run = data.workflow_runs.find((candidate) => {
-                  const created = Date.parse(candidate.created_at || '');
-                  return Number.isFinite(created) && created >= started - 5000;
-                }) || null;
-
-                if (!run) continue;
-                core.info(`${label}: ${run.status}${run.conclusion ? ` / ${run.conclusion}` : ''}`);
                 if (run.status === 'completed') {
                   if (run.conclusion !== 'success') {
                     core.setFailed(`${label} failed: ${run.html_url}`);
@@ -59,24 +53,90 @@ jobs:
                   }
                   return run;
                 }
+                await sleep(10000);
+                const { data } = await github.rest.actions.getWorkflowRun({
+                  owner,
+                  repo,
+                  run_id: run.id,
+                });
+                run = data;
+                core.info(`${label}: ${run.status}${run.conclusion ? ` / ${run.conclusion}` : ''}`);
               }
               core.setFailed(`${label} did not complete within ${maxMinutes} minutes`);
               return null;
             }
 
-            const daily = await dispatchAndWait(
+            async function attachOrDispatch(workflowId, label, maxMinutes) {
+              let run = await recentRun(workflowId);
+              if (!run) {
+                const dispatchedAt = Date.now();
+                await github.rest.actions.createWorkflowDispatch({
+                  owner,
+                  repo,
+                  workflow_id: workflowId,
+                  ref: 'main',
+                });
+                core.info(`Dispatched ${label}`);
+                for (let attempt = 0; attempt < 18 && !run; attempt += 1) {
+                  await sleep(5000);
+                  const candidate = await recentRun(workflowId);
+                  if (candidate && Date.parse(candidate.created_at || '') >= dispatchedAt - 5000) {
+                    run = candidate;
+                  }
+                }
+              } else {
+                core.info(`Attached to existing ${label}: ${run.html_url}`);
+              }
+              if (!run) {
+                core.setFailed(`Could not locate ${label} after dispatch`);
+                return null;
+              }
+              return waitForRun(run, label, maxMinutes);
+            }
+
+            const daily = await attachOrDispatch(
               'run-full-jobg8-daily-process.yml',
               'Run full JobG8 daily process',
               35
             );
             if (!daily) return;
 
-            const publish = await dispatchAndWait(
+            const publish = await attachOrDispatch(
               'publish-verified-pages.yml',
               'Publish verified pages',
               20
             );
             if (!publish) return;
+
+            const resultPath = 'pipeline/reports-discovery-audit/service-admin-11-launch-result-2026-08-22.md';
+            const result = [
+              '# Service Admin 11-market launch result — 22 August 2026',
+              '',
+              'Result: **PASS**',
+              '',
+              `- Full JobG8 daily process: ${daily.html_url}`,
+              `- Verified publish: ${publish.html_url}`,
+              '- LIVE approvals: 11 Service Admin markets with governed current-feed count over 8.',
+              '- Public integration: config-driven dynamic regional routes, homepage, Browse Jobs, sitemap and search inventory.',
+              '',
+            ].join('\n');
+
+            let sha;
+            try {
+              const existing = await github.rest.repos.getContent({ owner, repo, path: resultPath, ref: 'main' });
+              if (!Array.isArray(existing.data)) sha = existing.data.sha;
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path: resultPath,
+              message: 'Record 11-region Service Admin launch result',
+              content: Buffer.from(result, 'utf8').toString('base64'),
+              branch: 'main',
+              ...(sha ? { sha } : {}),
+            });
 
             await core.summary
               .addHeading('11-market Service Admin launch')
