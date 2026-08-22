@@ -10,13 +10,10 @@ import subprocess
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 REPO_ROOT = PIPELINE_ROOT.parent
-CATALOG = PIPELINE_ROOT / "config" / "job_slice_catalog.json"
+CATALOG = PIPELINE_ROOT / "config" / "england_assessable_regions.json"
 REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
-
-# The daily overview is the 33-region England set. Northern Ireland - East remains
-# in the wider slice catalogue but is intentionally excluded here for now.
-EXCLUDED_REGIONS = {"Northern Ireland - East"}
+EXPECTED_REGION_COUNT = 55
 
 FAMILIES = (
     {
@@ -271,7 +268,7 @@ def _candidate_count_if_present(region_slug: str, family: dict[str, str]) -> int
 def build() -> str:
     catalog = _load_json(CATALOG)
     if not isinstance(catalog, dict) or not isinstance(catalog.get("regions"), dict):
-        raise RuntimeError(f"Could not load region catalogue: {CATALOG}")
+        raise RuntimeError(f"Could not load assessable region catalogue: {CATALOG}")
 
     statuses = _load_statuses()
     source_report, live_counts = _load_live_counts()
@@ -286,14 +283,14 @@ def build() -> str:
         (
             (name, facts["slug"])
             for name, facts in catalog["regions"].items()
-            if name not in EXCLUDED_REGIONS
         ),
         key=lambda item: item[0].casefold(),
     )
-    if len(regions) != 33:
+    declared_count = int(catalog.get("region_count") or len(regions))
+    if declared_count != len(regions) or len(regions) != EXPECTED_REGION_COUNT:
         raise RuntimeError(
-            f"Daily overview expected 33 regions, found {len(regions)}. "
-            "Update EXCLUDED_REGIONS or the catalogue deliberately."
+            f"Daily overview expected {EXPECTED_REGION_COUNT} assessable England regions, "
+            f"catalogue declares {declared_count} and contains {len(regions)}."
         )
 
     teaching_counts = _load_teaching_vacancies_counts(regions)
@@ -337,7 +334,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Admin/Support use JobG8 daily selection where assessed, otherwise the latest all-region Module 2 profile ({profile_date or 'unavailable'}). Service Admin also adds current Teaching Vacancies regional candidate output. NEJobs and VONNE currently only contribute to the North East Service Admin slice, which is LIVE. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily assessment is wired into this overview. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable England markets; LIVE status remains controlled only by the slice register. Before same-feed 55-region coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
@@ -411,7 +408,9 @@ def build() -> str:
         "",
         "| Measure | Service admin | Support worker | Sales advisor |",
         "|---|---:|---:|---:|",
-        "| Live regions | " + " | ".join(f"{live_regions[f['key']]} / 33" for f in FAMILIES) + " |",
+        "| Live regions | " + " | ".join(
+            f"{live_regions[f['key']]} / {EXPECTED_REGION_COUNT}" for f in FAMILIES
+        ) + " |",
         "| Live jobs | " + " | ".join(headline_value(f["key"]) for f in FAMILIES) + " |",
         "",
         f"**Live slices: {total_live_slices} / {total_possible}.**",
