@@ -28,6 +28,26 @@ jobs:
             const repo = context.repo.repo;
             const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
             const launchCutoff = Date.parse('2026-08-22T20:27:00Z');
+            const progressPath = 'pipeline/reports-discovery-audit/service-admin-11-launch-progress-2026-08-22.md';
+
+            async function writeProgress(lines) {
+              let sha;
+              try {
+                const existing = await github.rest.repos.getContent({ owner, repo, path: progressPath, ref: 'main' });
+                if (!Array.isArray(existing.data)) sha = existing.data.sha;
+              } catch (error) {
+                if (error.status !== 404) throw error;
+              }
+              await github.rest.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path: progressPath,
+                message: 'Update 11-region Service Admin launch progress',
+                content: Buffer.from(lines.join('\n') + '\n', 'utf8').toString('base64'),
+                branch: 'main',
+                ...(sha ? { sha } : {}),
+              });
+            }
 
             async function recentRun(workflowId) {
               const { data } = await github.rest.actions.listWorkflowRuns({
@@ -44,10 +64,24 @@ jobs:
               }) || null;
             }
 
-            async function waitForRun(run, label, maxMinutes) {
+            async function waitForRun(run, label, maxMinutes, stage) {
+              await writeProgress([
+                '# Service Admin 11-market launch progress — 22 August 2026',
+                '',
+                `Stage: **${stage}**`,
+                `Workflow: ${run.html_url}`,
+                `Status: **${run.status}${run.conclusion ? ` / ${run.conclusion}` : ''}**`,
+              ]);
               for (let attempt = 0; attempt < maxMinutes * 6; attempt += 1) {
                 if (run.status === 'completed') {
                   if (run.conclusion !== 'success') {
+                    await writeProgress([
+                      '# Service Admin 11-market launch progress — 22 August 2026',
+                      '',
+                      `Stage: **${stage}**`,
+                      `Workflow: ${run.html_url}`,
+                      `Status: **completed / ${run.conclusion}**`,
+                    ]);
                     core.setFailed(`${label} failed: ${run.html_url}`);
                     return null;
                   }
@@ -66,23 +100,16 @@ jobs:
               return null;
             }
 
-            async function attachOrDispatch(workflowId, label, maxMinutes) {
+            async function attachOrDispatch(workflowId, label, maxMinutes, stage) {
               let run = await recentRun(workflowId);
               if (!run) {
                 const dispatchedAt = Date.now();
-                await github.rest.actions.createWorkflowDispatch({
-                  owner,
-                  repo,
-                  workflow_id: workflowId,
-                  ref: 'main',
-                });
+                await github.rest.actions.createWorkflowDispatch({ owner, repo, workflow_id: workflowId, ref: 'main' });
                 core.info(`Dispatched ${label}`);
                 for (let attempt = 0; attempt < 18 && !run; attempt += 1) {
                   await sleep(5000);
                   const candidate = await recentRun(workflowId);
-                  if (candidate && Date.parse(candidate.created_at || '') >= dispatchedAt - 5000) {
-                    run = candidate;
-                  }
+                  if (candidate && Date.parse(candidate.created_at || '') >= dispatchedAt - 5000) run = candidate;
                 }
               } else {
                 core.info(`Attached to existing ${label}: ${run.html_url}`);
@@ -91,20 +118,30 @@ jobs:
                 core.setFailed(`Could not locate ${label} after dispatch`);
                 return null;
               }
-              return waitForRun(run, label, maxMinutes);
+              return waitForRun(run, label, maxMinutes, stage);
             }
 
             const daily = await attachOrDispatch(
               'run-full-jobg8-daily-process.yml',
               'Run full JobG8 daily process',
-              35
+              35,
+              'full JobG8 generation'
             );
             if (!daily) return;
+
+            await writeProgress([
+              '# Service Admin 11-market launch progress — 22 August 2026',
+              '',
+              'Stage: **full JobG8 generation complete; starting verified publish**',
+              `Full daily workflow: ${daily.html_url}`,
+              'Status: **success**',
+            ]);
 
             const publish = await attachOrDispatch(
               'publish-verified-pages.yml',
               'Publish verified pages',
-              20
+              20,
+              'verified publish'
             );
             if (!publish) return;
 
@@ -138,8 +175,11 @@ jobs:
               ...(sha ? { sha } : {}),
             });
 
-            await core.summary
-              .addHeading('11-market Service Admin launch')
-              .addRaw(`Full JobG8 run: ${daily.html_url}\n`)
-              .addRaw(`Verified publish: ${publish.html_url}\n`)
-              .write();
+            await writeProgress([
+              '# Service Admin 11-market launch progress — 22 August 2026',
+              '',
+              'Stage: **complete**',
+              `Full daily workflow: ${daily.html_url}`,
+              `Verified publish: ${publish.html_url}`,
+              'Status: **PASS**',
+            ]);
