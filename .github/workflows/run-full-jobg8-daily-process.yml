@@ -210,11 +210,11 @@ jobs:
           test -s pipeline/output-support-worker/hampshire-support-worker.json
           test -s pipeline/output-support-worker/london-support-worker.json
 
-      - name: Assess Service Admin, Support Worker and Customer Sales across all 55 assessable England markets
+      - name: Assess Service Admin, Support Worker and Customer Sales across all 73 assessable UK markets
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage
 
-      - name: Verify 55-market family coverage and history
+      - name: Verify 73-market UK family coverage and history
         run: |
           set -euo pipefail
           test -s pipeline/reports-daily/daily-family-coverage.csv
@@ -227,9 +227,9 @@ jobs:
           path = Path('pipeline/reports-daily/daily-family-coverage.csv')
           with path.open(encoding='utf-8-sig', newline='') as handle:
               rows = list(csv.DictReader(handle))
-          assert len(rows) == 165, f'expected 165 family coverage rows, found {len(rows)}'
+          assert len(rows) == 219, f'expected 219 family coverage rows, found {len(rows)}'
           pairs = {(row['region'], row['family']) for row in rows}
-          assert len(pairs) == 165, f'expected 165 unique region/family pairs, found {len(pairs)}'
+          assert len(pairs) == 219, f'expected 219 unique region/family pairs, found {len(pairs)}'
           families = {'service_admin', 'support_worker', 'customer_sales'}
           assert {row['family'] for row in rows} == families
           feed_dates = {row['feed_date'] for row in rows}
@@ -247,10 +247,10 @@ jobs:
               f"latest history date {latest.get('feed_date')} does not match coverage {feed_date}"
           )
           counts = latest.get('counts', {})
-          assert len(counts) == 55, f'expected 55 assessable England markets in latest history snapshot, found {len(counts)}'
+          assert len(counts) == 73, f'expected 73 assessable UK markets in latest history snapshot, found {len(counts)}'
           for region, regional in counts.items():
               assert set(regional) == families, f'{region} missing history family counts: {regional}'
-          print('Verified 55 assessable England markets x 3 families plus rolling 14-day history')
+          print('Verified 73 assessable UK markets x 3 families plus rolling 14-day history')
           PY
 
       - name: Test persistent review and exclusion behavior
