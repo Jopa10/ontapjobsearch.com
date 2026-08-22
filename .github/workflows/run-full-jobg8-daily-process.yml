@@ -210,7 +210,7 @@ jobs:
           test -s pipeline/output-support-worker/hampshire-support-worker.json
           test -s pipeline/output-support-worker/london-support-worker.json
 
-      - name: Assess Service Admin and Support Worker across all 33 regions
+      - name: Assess Service Admin, Support Worker and Customer Sales across all 33 regions
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage
 
@@ -224,11 +224,11 @@ jobs:
           path = Path('pipeline/reports-daily/daily-family-coverage.csv')
           with path.open(encoding='utf-8-sig', newline='') as handle:
               rows = list(csv.DictReader(handle))
-          assert len(rows) == 66, f'expected 66 family coverage rows, found {len(rows)}'
+          assert len(rows) == 99, f'expected 99 family coverage rows, found {len(rows)}'
           pairs = {(row['region'], row['family']) for row in rows}
-          assert len(pairs) == 66, f'expected 66 unique region/family pairs, found {len(pairs)}'
-          assert {row['family'] for row in rows} == {'service_admin', 'support_worker'}
-          print('Verified 33 regions x 2 families')
+          assert len(pairs) == 99, f'expected 99 unique region/family pairs, found {len(pairs)}'
+          assert {row['family'] for row in rows} == {'service_admin', 'support_worker', 'customer_sales'}
+          print('Verified 33 regions x 3 families')
           PY
 
       - name: Test persistent review and exclusion behavior
