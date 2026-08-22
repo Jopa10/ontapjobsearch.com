@@ -8,6 +8,7 @@ on:
       - 'pipeline/scripts/jobg8_discovery_coverage_audit.py'
       - 'pipeline/scripts/jobg8_refine_other_families.py'
       - 'pipeline/scripts/jobg8_insurance_claims_discovery.py'
+      - 'pipeline/scripts/jobg8_family_boundary_review.py'
 
 permissions:
   contents: write
@@ -84,6 +85,17 @@ jobs:
             --output-dir pipeline/reports-discovery-audit
           cat pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.md >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Build Claims boundary-review evidence file
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/jobg8_family_boundary_review.py \
+            --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
+            --diagnostic-csv pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.csv \
+            --output-csv pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current.csv \
+            --keywords 'claim,insurance,policyholder,fnol,broker,underwriter,adjuster' \
+            --exclude-decision EXCLUDE_SPECIALIST \
+            --hard-salary-max 50000
+
       - name: Commit diagnostic outputs only
         run: |
           set -euo pipefail
@@ -94,6 +106,7 @@ jobs:
             pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.md
             pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.csv
             pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.md
+            pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current.csv
           )
           git add -- "${files[@]}"
           if git diff --cached --quiet; then
@@ -101,7 +114,7 @@ jobs:
             exit 0
           fi
           staged="$(git diff --cached --name-only)"
-          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current)\.(csv|md)$' || true)"
+          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$' || true)"
           if [ -n "$unexpected" ]; then
             echo '::error::Unexpected staged path(s):'
             printf '%s\n' "$unexpected"
