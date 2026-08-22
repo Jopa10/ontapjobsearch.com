@@ -1,0 +1,46 @@
+name: Temporary patch full daily 55-market guards
+
+on:
+  push:
+    branches:
+      - agent/geography-reconciliation-20260822
+    paths:
+      - .github/workflows/tmp-patch-full-daily-55.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/geography-reconciliation-20260822
+          fetch-depth: 0
+      - name: Patch stale 33/99 verification guards
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('.github/workflows/run-full-jobg8-daily-process.yml')
+          text = path.read_text(encoding='utf-8')
+          replacements = [
+              ('Assess Service Admin, Support Worker and Customer Sales across all 33 regions', 'Assess Service Admin, Support Worker and Customer Sales across all 55 assessable England markets'),
+              ('Verify 33-region family coverage and history', 'Verify 55-market family coverage and history'),
+              ("assert len(rows) == 99, f'expected 99 family coverage rows, found {len(rows)}'", "assert len(rows) == 165, f'expected 165 family coverage rows, found {len(rows)}'"),
+              ("assert len(pairs) == 99, f'expected 99 unique region/family pairs, found {len(pairs)}'", "assert len(pairs) == 165, f'expected 165 unique region/family pairs, found {len(pairs)}'"),
+              ("assert len(counts) == 33, f'expected 33 regions in latest history snapshot, found {len(counts)}'", "assert len(counts) == 55, f'expected 55 assessable England markets in latest history snapshot, found {len(counts)}'"),
+              ("print('Verified 33 regions x 3 families plus rolling 14-day history')", "print('Verified 55 assessable England markets x 3 families plus rolling 14-day history')"),
+          ]
+          for old, new in replacements:
+              if old not in text:
+                  raise SystemExit(f'Missing expected workflow guard: {old}')
+              text = text.replace(old, new, 1)
+          path.write_text(text, encoding='utf-8')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/workflows/run-full-jobg8-daily-process.yml
+          git commit -m 'Update full JobG8 guards for 55-market diagnostics'
+          git push origin HEAD:agent/geography-reconciliation-20260822
