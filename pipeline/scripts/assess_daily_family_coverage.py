@@ -29,8 +29,8 @@ CATALOG_PATH = DEFAULT_ASSESSABLE_REGIONS_PATH
 REGISTER_PATH = Path("registers/region_category_slice_register.csv")
 OUTPUT_PATH = Path("reports-daily/daily-family-coverage.csv")
 OVERVIEW_PATH = Path("reports-daily/daily-region-overview.md")
-EXPECTED_REGION_COUNT = 73
-LEGACY_REGION_COUNTS = {33, 55}
+EXPECTED_REGION_COUNT = 78
+LEGACY_REGION_COUNTS = {33, 55, 73}
 
 
 def _load_region_config() -> tuple[dict[str, dict[str, str]], dict[str, str]]:
