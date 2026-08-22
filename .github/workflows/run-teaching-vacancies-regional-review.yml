@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -120,7 +121,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Refresh Teaching Vacancies regional and master reviews"
-          git push origin main
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Teaching Vacancies review evidence committed"
+              exit 0
+            fi
+            git rebase --abort >/dev/null 2>&1 || true
+            if [ "$attempt" -lt 3 ]; then
+              echo "::warning::Teaching Vacancies push raced with another main update; retrying in 5 seconds."
+              sleep 5
+            fi
+          done
+          echo "::error::Could not safely push Teaching Vacancies review evidence after 3 attempts."
+          exit 1
 
       - name: Upload review evidence
         if: always()
