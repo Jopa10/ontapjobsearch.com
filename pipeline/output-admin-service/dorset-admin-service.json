@@ -206,11 +206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "9d81b63d-0534-4d3d-8369-551d82c1dd67",
@@ -260,12 +256,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "680e9123-95cb-46b6-a3f2-ff77295aa8b8",
@@ -315,11 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225483669",
@@ -344,11 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c614b298-cb74-4367-ac59-4a131f9373b4",
@@ -373,13 +356,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a063bb22-c3e3-401a-88bc-c801d296bd2f",
@@ -404,11 +381,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497856",
@@ -433,11 +406,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fd7b404d-5ab4-401b-aaba-501823cbae1c",
@@ -462,11 +431,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "e6491e45-1ff3-4831-b047-f34e830cb99d",
@@ -515,6 +480,31 @@
     "advertiser_name": "Agincare Group",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "3b096429-356b-42a7-a2b1-8d61dc1a09a7",
+    "title": "French or Spanish speaking Administrator",
+    "company": "Michael Page Finance - Agency - Permanent",
+    "location": "Dorset",
+    "region": "Dorset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year",
+    "posted_date": "",
+    "description": "This French or Spanish Speaking Administrator role in Poole is all about keeping things organised and running smoothly in the transport and distribution industry. You'll handle a mix of admin tasks, ensuring everything is in place to support the business effectively.\n\nClient Details\n\nOur client is based in Poole and due to a busy period and various ongoing projects, the team is looking for additional support.\n\nDescription\n- Provide administrative support to ensure smooth daily operations.\n- Communicate effectively in French or Spanish, both written and verbal.\n- Maintain accurate records and organise documentation efficiently.\n- Assist with scheduling and coordinating meetings or activities.\n- Handle correspondence and respond to queries promptly.\n- Collaborate with team members to support ongoing projects.\n- Ensure compliance with company procedures and guidelines.\n- Prepare reports and summaries as required.\n\nProfile\n\nA successful French or Spanish Speaking Administrator should have:\n- Fluency in French or Spanish, alongside strong English communication skills.\n- Previous experience in an administrative or support role.\n- Strong organisational and multitasking abilities.\n- Attention to detail and a high level of accuracy.\n- Proficiency with standard office software and tools.\n- A proactive and reliable approach to work.\n\nJob Offer\n- Salary ranging from £26,000 - £28,000 , dependent on the level of experience.\n- Opportunity to work in Poole with a focus on bilingual communication.\n\nIf you're interested in this role, apply now.\n\nPeople are at the heart of Michael Page. We are committed to creating an inclusive environment. As an inclusive recruiter we welcome applications from people of all backgrounds, identities and experiences. If you require any adjustments or accommodations during the recruitment process, we'll work with you to ensure you can perform at your best.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyjP21bsiNaplu8n38HY1udt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page Finance",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -609,7 +599,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2682-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2682-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544998",
@@ -627,7 +621,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0878",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0878",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5524867",
@@ -645,7 +643,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554209",
@@ -663,7 +665,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0701",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0701",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550744",
@@ -681,6 +687,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0889",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0889",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

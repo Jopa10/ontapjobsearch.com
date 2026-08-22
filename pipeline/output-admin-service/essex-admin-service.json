@@ -134,11 +134,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473828",
@@ -188,13 +184,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0eace40b-439a-4085-9b58-765d6a80a231",
@@ -344,11 +334,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225415987",
@@ -373,11 +359,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225416119",
@@ -477,13 +459,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Data entry",
-      "Document preparation",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444703",
@@ -508,11 +484,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225450352",
@@ -562,11 +534,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464133",
@@ -616,12 +584,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fc888ab0-1af2-4cbf-95a4-38d8060b0dae",
@@ -646,11 +609,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473584",
@@ -675,11 +634,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472719",
@@ -704,11 +659,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474041",
@@ -808,12 +759,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "bfef19ef-9951-4459-83f2-28c06dfe7c2c",
@@ -838,11 +784,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fdf4ce6a-ca7e-4ffe-8a01-451d877ac55d",
@@ -942,11 +884,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "918f45c7-b8bf-4109-8205-5541f5e1c56d",
@@ -971,11 +909,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "8dda56c7-2269-4c5f-9191-a6ae2e1745e5",
+    "title": "Admin Assistant - Care Home",
+    "company": "Barchester Healthcare - Company - Permanent",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "13.21",
+    "salary_max": "13.21",
+    "salary_text": "£13.21 per hour",
+    "posted_date": "",
+    "description": "ABOUT THE ROLEAs an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment.\n\nABOUT YOUIf you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities.\n\nREWARDS PACKAGEIn return for your dedication, you'll receive a competitive rate of pay plus our sector-leading benefits and rewards package including:Free training and development for all rolesAccess to wellbeing and support tools A range of retail discounts and savingsUnlimited referrals with our Refer a Friend' bonus schemeEmployee of the Month' rewards and Long Service Awards'\n\nWorkplace Pension scheme, with Employer contributions from 3%\n\nAnd so much more!\n\nIf you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5euMQQNU1SkOjq%2bD4cpdcbq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Barchester Healthcare",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225435199",
@@ -1100,11 +1059,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Document preparation",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225513101",
@@ -1222,7 +1177,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5548458",
@@ -1240,7 +1199,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551434",
@@ -1258,7 +1221,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0389",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0389",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5545787",
@@ -1276,7 +1243,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3403",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3403",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5465926",
@@ -1294,7 +1265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5446642",
@@ -1312,7 +1287,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551155",
@@ -1330,7 +1309,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5542165",
@@ -1348,7 +1331,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0768",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0768",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5526857",
@@ -1366,7 +1353,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0450",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0450",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5529757",
@@ -1384,24 +1375,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE544",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE544",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5526122",
+    "job_id": "nhs-5524194",
     "source": "NHS Jobs",
-    "title": "Senior Administrator",
-    "company": "Provide CIC",
-    "advertiser_name": "Provide CIC",
-    "location": "Braintree, CM77 8FG",
+    "title": "Ward Administrator",
+    "company": "Essex Partnership University NHS Foundation Trust",
+    "advertiser_name": "Essex Partnership University NHS Foundation Trust",
+    "location": "Chelmsford, CM1 7LF",
     "region": "Essex",
     "salary": "£25760.00 to £27476.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-07T14:38:23.565622",
-    "closing_date": "2026-08-21",
-    "description": "Joining an established administration team, the post holder will provide comprehensive, professional and effective administrative support across the Chelmsford/Maldon/Braintree area. The post holder must display a considerable degree of initiative, possess good judgement and maintain a calm, friendly and efficient manner when dealing with staff, service users, colleagues and visitors. The post holder will be required to work independently using initiative, and applying a high degree of confidentiality to all of their work, whilst ensuring clear communication with all services, teams and colleagues. Applicants will have previous administrative experience, including excellent typing skills including audio typing and working in a healthcare setting; experience of using IT systems like SystmOne or relevant IT skills and be able to work on own their initiative with minimal supervision. Providing comprehensive administrative support for clinicians and medical staff.Specialist knowledge of a clinical service area or range of services supported by the Administration Support Team.Answering queries, progress chasing, task-related problem solving and resolving issues for clinical/medical staff or patients and providing non-clinical advice or information to others.Data inputting into clinical and administrative systems and ensuring data quality/accuracy.Use of SystmOne. Maintaining equipment records. Producing standard reports from databasesAudio Typing Please see the attached job description for a full list of the main responsibilities for this role. Thank you for taking the time to apply for a role within Provide.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0171",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0171",
+    "posted_date": "2026-08-07T08:55:44.464934229",
+    "closing_date": "2026-08-23",
+    "description": "Ward Administrator Band 3 - £25,760 - £27,476 per annum pro rata 22.5 hours per week Base - Chelmsford The role of the Ward Administrator requires a passion for making a difference to join our team, helping to ensure the safe and smooth running of services for the people in our care. The post holder will be expected to provide clerical, administrative and information technology support to nursing and other staff in relation to the needs of patients being cared for within the Unit. Although primarily based within a particular area/ward, the post holder maybe required to work anywhere within the Trust to cover short-term absence. The post holder will work under the direction of the Admin Area Lead / Ward Manager in supporting the smooth running of the service. You will be required to skillfully manage all incoming and outgoing telephone calls to the clinical team, managing all calls in a polite and efficient manner. You will be required to receive and deal with telephone enquiries to the service, reaching out to and responding appropriately to callers including high risk, abusive, threatening, depressed, suicidal and vulnerable patients and family / carer's. You will maintain confidentiality at all times in line with Trust policies & procedures. You will be required to record accurate messages and follow them up appropriately in accordance to department guidelines. To deal face to face with patients and families / carer's seeking further help or information. To be aware of the needs of patients and to deal in an appropriate manner with patients who can be hostile, abusive or aggressive. Be responsible for ensuring all correspondence is accurately and appropriately presented using Trust standard templates in line with Trust policies & procedures. To be skilled and experienced in the full range of administration practices, software programmes and specialised functional terms. To be proficient with the knowledge of patient records management, including use of electronic patient record systems, supporting new users and directing them as necessary. To apply knowledge and experience to meet the needs of the clinical teams by completing non-routine tasks on a daily basis. To operate the Trusts telephony systems.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0723",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0723",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

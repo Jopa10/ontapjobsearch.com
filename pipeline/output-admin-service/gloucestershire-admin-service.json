@@ -97,13 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Email handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107746735",
@@ -156,31 +150,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107794610",
-    "title": "Quality Assurance Administrator",
-    "company": "Usay Compare - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "About Usay Compare\n\nUsay Compare is one of the UKs leading comparison services for Health and Protection Insurance. We provide clear, expert and impartial advice to help clients make informed decisions with confidence. Our reputation is built on professionalism, service quality and a people-centred approach.\n\nWith continued growth across our UK offices, we offer a supportive environment where individu click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh0ySacpYx7Z9On2oZUzpXnQu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Usay Compare",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225465867",
     "title": "Sales Administrator",
     "company": "Jackie Kerr Recruitment - Agency - Permanent",
@@ -203,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476234",
@@ -232,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225488647",
@@ -361,11 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517075",
@@ -390,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "9650db73-bab6-4c68-acfa-da1eba761128",
@@ -444,12 +397,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225453895",
@@ -474,12 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a629b325-4de9-4e14-afdf-80855038b1e8",
@@ -647,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535229",
@@ -665,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0726",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0726",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5526629",
@@ -683,7 +634,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0613-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0613-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551856",
@@ -701,7 +656,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546699",
@@ -719,24 +678,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5549456",
-    "source": "NHS Jobs",
-    "title": "Medical Secretary / Administrator",
-    "company": "The White House Surgery",
-    "advertiser_name": "The White House Surgery",
-    "location": "Moreton-in-Marsh, GL56 0DS",
-    "region": "Gloucestershire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T15:03:32.649971945",
-    "closing_date": "2026-08-31",
-    "description": "Due to retirement, White House Surgery is seeking a friendly, organised, and professional Medical Secretary to join our busy practice team. We are seeking a dedicated and highly organised person to join our team. The ideal candidate will provide a comprehensive medical secretarial service, supporting our clinical team and ensuring the smooth administration of patient referrals and correspondence. Understands the importance of confidentiality and professionalism Duties Processing referrals and managing appointments Typing and handling clinical correspondence Liaising with hospitals, community services, and patients Managing incoming and outgoing communications Maintaining accurate patient records Providing administrative support to GPs and the wider clinical team Handle incoming calls, inquiries, and correspondence promptly, providing clear information and assistance to patients and visitors. Maintain accurate and confidential medical records in compliance with privacy regulations.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0568-26-0001",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0568-26-0001",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
