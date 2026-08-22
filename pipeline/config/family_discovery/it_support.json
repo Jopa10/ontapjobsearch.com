@@ -3,6 +3,7 @@
   "display_name": "IT Support",
   "hard_salary_max": 50000,
   "viability_floor": 100,
+  "purpose": "Broad national discovery before advert-level boundary review; configured geography must not gate occupational scale.",
   "broad_title_patterns": [
     "\\bit\\s+support\\b",
     "\\bhelp\\s*desk\\b",
