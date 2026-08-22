@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-08-21
-review_fingerprint: 1ba6add1370f8c1ad9d0d6d87a6e216d96d52323a2425c4d4bc8228fc5d5a06b
+review_date: 2026-08-22
+review_fingerprint: fe2ebc2e8be75e70c6b66a1d1eb36e8e4ef0cdf6cc09baca6ea39ac086624e9b
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,10 +10,10 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-08-21T08:24:47+01:00
+Run generated: 2026-08-22T08:10:37+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 293
-Approved NEJobs comparison rows: 28
+JobG8 comparison rows: 326
+Approved NEJobs comparison rows: 26
 
 ## Funnel
 - VONNE listings read: 15
@@ -22,17 +22,17 @@ Approved NEJobs comparison rows: 28
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 0
-- Generic/derived geography rows requiring review: 5
-- Retained target candidates: 14
+- Outside or unmapped geography excluded: 1
+- Generic/derived geography rows requiring review: 3
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
 - POSS: 7
-- HARD_PASS: 7
+- HARD_PASS: 6
 - Final selected after remembered/manual actions: 3
-- Final POSS awaiting decision: 2
-- Manually excluded: 2
+- Final POSS awaiting decision: 1
+- Manually excluded: 3
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -42,18 +42,6 @@ Approved NEJobs comparison rows: 28
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: select
-POSS | North East | Hybrid | £ Per Annum | Bid Writer
-employer: People First Independent Advocacy
-closing_date: 01 September 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173334
-source_job_id: 173334
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173334
----
 ---
 action: exclude
 POSS | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
@@ -65,6 +53,18 @@ source: VONNE
 tracking_key: vonne-173344
 source_job_id: 173344
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
+---
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
+employer: Durham County Carers Support
+closing_date: 25 September 2026
+geography: DERIVED_REVIEW — employer-derived geography: area found in address: durham
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173349
+source_job_id: 173349
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173349
 ---
 ---
 action: select
@@ -132,13 +132,12 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
 
 ## HARD_PASS
 
-- [Business Development Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173336) — confirmed JobG8 duplicate.
-- [DadVocate Programme Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173337) — out-of-scope VONNE occupation.
 - [Energy Advice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173343) — out-of-scope VONNE occupation.
 - [Experienced &Trainee Telephone Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173346) — out-of-scope VONNE occupation.
 - [Experienced Manager – Adult Training Services](https://www.vonne.org.uk/vonne-jobs-details?cid=173342) — out-of-scope VONNE occupation.
+- [Families Advice and Support Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173348) — out-of-scope VONNE occupation.
 - [Head of Business Development and Fundraising](https://www.vonne.org.uk/vonne-jobs-details?cid=172957) — out-of-scope VONNE occupation.
-- [Senior Young Dads Worker - Sunderland](https://www.vonne.org.uk/vonne-jobs-details?cid=173338) — out-of-scope VONNE occupation.
+- [Welfare Benefits Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=172790) — insufficient service-admin evidence.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
