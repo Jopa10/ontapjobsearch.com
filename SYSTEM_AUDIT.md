@@ -1,7 +1,7 @@
 # Ontap System Audit
 
 **Audit started:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211. Teaching Vacancies review writeback resilience verified 22 August 2026.
+**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211. Teaching Vacancies writeback resilience, 55-market geography reconciliation and 11-market Service Admin expansion verified 22 August 2026.
 
 The audit conclusion remains: **preserve the working core; remove historical scaffolding; consolidate duplicated mechanics; do not refactor for technical tidiness alone.**
 
@@ -96,6 +96,16 @@ This was a repository-write race, not a Teaching Vacancies discovery/classificat
 
 The operating implication is explicit: source refresh freshness is upstream of `apply-publish-ontap-daily-review.yml`. A stale/missing source is flagged and must not be interpreted as zero inventory, but source isolation allows the parent publication path to continue with clean sources rather than turning one stale source into a whole-system failure.
 
+## Geography / regional expansion follow-up — 22 August 2026
+
+The geography audit proved that the former **33-region England footprint was a configured operational subset, not complete national coverage**. The recurring assessable England universe is now explicitly stored in `pipeline/config/england_assessable_regions.json` as **55 markets**. `pipeline/geo/geo_lookup.xlsx` remains the factual location-routing authority; `pipeline/config/job_slice_catalog.json` is configured/public market metadata; and `pipeline/registers/region_category_slice_register.csv` remains the LIVE-state gate.
+
+The full JobG8 daily process now assesses Service Admin, Support Worker and Customer Sales / Sales Advisor across all 55 markets and stores **165 market/family rows** plus rolling 14-feed history. The North East remains one public/assessment roll-up over its three underlying lookup regions, including Tees Valley.
+
+The owner set a Service Admin-specific standing launch rule on 22 August: **a governed same-feed Service Admin count over 8 is immediate approval for LIVE; 8 or below remains NOT LIVE and is tracked**. Applying that rule to the recovered geography launched 11 additional Service Admin markets: Cheshire - East, Cheshire - Warrington & Halton, Cornwall, Derbyshire, Greater Manchester - Wigan & Bolton, Leicestershire, Lincolnshire, Merseyside - Liverpool, Shropshire, Suffolk and West Midlands - Black Country.
+
+The launch reused the existing central catalog, slice register, production selector, configured-slice routes and verified publisher. It did not remove or rename any previously live URL. After the launch, the daily regional overview reconciled to **41 / 55 LIVE Service Admin markets** and numeric live counts for all 11 newly activated markets. Support Worker and Customer Sales retain their existing explicit-approval rules unless the owner changes them separately.
+
 ## Website / UX
 
 No website route cleanup is part of this refactor. Existing static and dynamic public routes remain untouched.
@@ -116,4 +126,4 @@ Architecture cleanup 1–5 was merged into `main` via PR #211 on 19 August 2026.
 
 ## Current production repository state
 
-The cleanup changes are now part of `main`. The merged PR was deliberately scoped away from website/public-route changes, live job JSON changes, selection-rule rewrites and Google Indexing API changes.
+The cleanup changes are part of `main`. Subsequent governed production changes now also include the complete 55-market England diagnostic geography and the 11 additional Service Admin LIVE markets approved under the 22 August >8 standing rule. No previously live public URL was removed or renamed by that expansion.
