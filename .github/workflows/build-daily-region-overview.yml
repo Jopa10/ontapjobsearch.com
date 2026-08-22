@@ -14,7 +14,7 @@ on:
       - .github/workflows/build-daily-region-overview.yml
   workflow_run:
     workflows:
-      - Publish verified pages
+      - Apply and publish Ontap daily review
     types:
       - completed
 
