@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-21
+feed_date: 2026-08-22
 
 Edit only the `action:` line in each block:
 
@@ -21,12 +21,6 @@ job_id: 23643_225476096
 action:
 SELECTED | Yorkshire - West | Bradford | £13.15 per hour | Support Worker
 job_id: d7f7304a-e0cf-4296-8ceb-6f4fb55c5a74
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
-job_id: 107751768
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -193,12 +187,6 @@ job_id: 107812778
 
 ---
 action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107800894
----
-
----
-action:
 SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
 job_id: 107870592
 ---
@@ -211,32 +199,8 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Hampshire | Portsmouth | £16 - £18 per hour | Child Support Worker
-job_id: 62ac8011-cb52-461e-bd72-7273b61cb640
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £16 - £18 per hour | Support Worker - Children & Young People
-job_id: 58c3e926-cf9b-4aae-a931-e1c867a7b221
----
-
----
-action:
 SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401784261
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £16,830 per annum | Waking Night Support Worker
-job_id: 1642087
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £25,947 per annum | Care and Support Worker
-job_id: 1642086
 ---
 
 ---
@@ -295,20 +259,20 @@ job_id: 107332363
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £14.31 per hour | Night Care Assistant
-job_id: 107776250
----
-
----
-action:
 SELECTED | Hampshire | Andover | £13.21 per hour | Night Care Assistant
 job_id: 8e6242db-cd62-4802-934f-7ad53601c988
 ---
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £13.2 per hour | Female Waking Night Support Worker
-job_id: 107812604
+SELECTED | Hampshire | Southampton | £27780 - £30564 per year | Secure Childrens Home Support Worker (Weekends)
+job_id: 1401784780
+---
+
+---
+action:
+SELECTED | Hampshire | Romsey | £27780 - £30564 per year | Children's Homes Support Worker
+job_id: 1401784767
 ---
 
 ## HAMPSHIRE — POSSIBLES
