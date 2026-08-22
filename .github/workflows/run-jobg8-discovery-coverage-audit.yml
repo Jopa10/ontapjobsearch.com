@@ -79,7 +79,7 @@ jobs:
       - name: Audit Insurance and Claims Support opportunity
         run: |
           set -euo pipefail
-          python pipeline/scripts/jobg8_insurance_claims_discovery.py \
+          python -m pipeline.scripts.jobg8_insurance_claims_discovery \
             --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
             --output-dir pipeline/reports-discovery-audit
           cat pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.md >> "$GITHUB_STEP_SUMMARY"
