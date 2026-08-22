@@ -94,18 +94,16 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
             admin = {"Cumbria - North": 3, "London": 100, "Yorkshire - North": 4}
             support = {"Cumbria - North": 6, "London": 10, "Yorkshire - North": 5}
             sales = {"Cumbria - North": 2, "London": 20, "Yorkshire - North": 8}
+            original_load_history = history.load_history
 
             with mock.patch.object(coverage, "REGISTER_PATH", register), mock.patch.object(
                 coverage, "OVERVIEW_PATH", overview
-            ), mock.patch.object(history, "HISTORY_PATH", history_path):
-                # load_history's default parameter is bound at definition time, so
-                # route the call explicitly through the test path.
-                with mock.patch.object(
-                    coverage.coverage_history,
-                    "load_history",
-                    side_effect=lambda: history.load_history(history_path),
-                ):
-                    coverage._apply_to_overview("2026-08-22", admin, support, sales)
+            ), mock.patch.object(
+                coverage.coverage_history,
+                "load_history",
+                side_effect=lambda: original_load_history(history_path),
+            ):
+                coverage._apply_to_overview("2026-08-22", admin, support, sales)
 
             text = overview.read_text(encoding="utf-8")
             self.assertIn("| Cumbria - North | 3 / 2.0 / 0/2 | 6 / 5.0 / 1/2 | 2 / 2.5 / 0/2 |", text)
