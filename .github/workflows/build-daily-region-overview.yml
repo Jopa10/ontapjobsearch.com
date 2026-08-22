@@ -8,6 +8,7 @@ on:
     paths:
       - pipeline/registers/region_category_slice_register.csv
       - pipeline/reports-daily/live-job-source-count-*.csv
+      - pipeline/reports-daily/daily-family-coverage.csv
       - app/_city-pages/configured-slices/**/customer-sales-jobs.json
       - pipeline/scripts/build_daily_region_overview.py
       - pipeline/scripts/assess_daily_family_coverage.py
