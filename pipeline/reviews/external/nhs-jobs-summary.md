@@ -2,13 +2,13 @@
 
 review_date: 2026-08-22
 
-- Open Administrative & Clerical rows reviewed: 2422
-- Auto/remembered selected: 747
-- Selected HC Tier A: 289
+- Open Administrative & Clerical rows reviewed: 2420
+- Auto/remembered selected: 746
+- Selected HC Tier A: 288
 - Selected HC Tier B: 458
 - POSS awaiting decision: 1190
 - Excluded: 0
-- HARD_PASS: 485
+- HARD_PASS: 484
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
