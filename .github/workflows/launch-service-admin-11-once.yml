@@ -1,0 +1,85 @@
+name: One-time launch 11 Service Admin markets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/launch-service-admin-11-once.yml'
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Run full JobG8 process then verified publish
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+            async function dispatchAndWait(workflowId, label, maxMinutes) {
+              const started = Date.now();
+              await github.rest.actions.createWorkflowDispatch({
+                owner,
+                repo,
+                workflow_id: workflowId,
+                ref: 'main',
+              });
+              core.info(`Dispatched ${label}`);
+
+              let run = null;
+              for (let attempt = 0; attempt < maxMinutes * 6; attempt += 1) {
+                await sleep(10000);
+                const { data } = await github.rest.actions.listWorkflowRuns({
+                  owner,
+                  repo,
+                  workflow_id: workflowId,
+                  event: 'workflow_dispatch',
+                  branch: 'main',
+                  per_page: 20,
+                });
+                run = data.workflow_runs.find((candidate) => {
+                  const created = Date.parse(candidate.created_at || '');
+                  return Number.isFinite(created) && created >= started - 5000;
+                }) || null;
+
+                if (!run) continue;
+                core.info(`${label}: ${run.status}${run.conclusion ? ` / ${run.conclusion}` : ''}`);
+                if (run.status === 'completed') {
+                  if (run.conclusion !== 'success') {
+                    core.setFailed(`${label} failed: ${run.html_url}`);
+                    return null;
+                  }
+                  return run;
+                }
+              }
+              core.setFailed(`${label} did not complete within ${maxMinutes} minutes`);
+              return null;
+            }
+
+            const daily = await dispatchAndWait(
+              'run-full-jobg8-daily-process.yml',
+              'Run full JobG8 daily process',
+              35
+            );
+            if (!daily) return;
+
+            const publish = await dispatchAndWait(
+              'publish-verified-pages.yml',
+              'Publish verified pages',
+              20
+            );
+            if (!publish) return;
+
+            await core.summary
+              .addHeading('11-market Service Admin launch')
+              .addRaw(`Full JobG8 run: ${daily.html_url}\n`)
+              .addRaw(`Verified publish: ${publish.html_url}\n`)
+              .write();
