@@ -13,7 +13,7 @@ REPO_ROOT = PIPELINE_ROOT.parent
 CATALOG = PIPELINE_ROOT / "config" / "uk_assessable_regions.json"
 REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
-EXPECTED_REGION_COUNT = 73
+EXPECTED_REGION_COUNT = 78
 
 FAMILIES = (
     {
@@ -274,7 +274,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 73-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
