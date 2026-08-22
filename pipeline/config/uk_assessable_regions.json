@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "scope": "United Kingdom diagnostic geography",
-  "region_count": 73,
-  "description": "Complete governed Ontap UK assessment universe: 55 England markets plus 18 Scotland, Wales and Northern Ireland markets already represented by the factual geo lookup. Inclusion here means assessable geography, not LIVE/public slice approval.",
+  "region_count": 78,
+  "description": "Complete governed Ontap UK assessment universe reconciled against the full geo_lookup cluster inventory: 58 England markets, 10 Scotland markets, 8 Wales markets and 2 Northern Ireland markets. Inclusion here means assessable geography, not LIVE/public slice approval.",
   "regions": {
     "Bedfordshire": { "slug": "bedfordshire", "anchor_town": "Bedford" },
     "Berkshire": { "slug": "berkshire", "anchor_town": "Reading" },
@@ -33,10 +33,13 @@
     "Lancashire - Central": { "slug": "lancashire-central", "anchor_town": "Preston" },
     "Lancashire - East": { "slug": "lancashire-east", "anchor_town": "Blackburn" },
     "Lancashire - North": { "slug": "lancashire-north", "anchor_town": "Lancaster" },
+    "Lancashire - West": { "slug": "lancashire-west", "anchor_town": "Ormskirk" },
     "Leicestershire": { "slug": "leicestershire", "anchor_town": "Leicester" },
     "Lincolnshire": { "slug": "lincolnshire", "anchor_town": "Lincoln" },
     "London": { "slug": "london", "anchor_town": "London" },
     "Merseyside - Liverpool": { "slug": "merseyside-liverpool", "anchor_town": "Liverpool" },
+    "Merseyside - Sefton": { "slug": "merseyside-sefton", "anchor_town": "Southport" },
+    "Merseyside - St Helens & Knowsley": { "slug": "st-helens-knowsley", "anchor_town": "St Helens" },
     "Merseyside - Wirral": { "slug": "merseyside-wirral", "anchor_town": "Birkenhead" },
     "Norfolk": { "slug": "norfolk", "anchor_town": "Norwich" },
     "North East": { "slug": "north-east", "anchor_town": "Newcastle" },
@@ -61,6 +64,7 @@
     "Yorkshire - West": { "slug": "west-yorkshire", "anchor_town": "Leeds" },
 
     "North Scotland": { "slug": "north-scotland", "anchor_town": "Aberdeen" },
+    "Scotland - Borders": { "slug": "scotland-borders", "anchor_town": "Dumfries" },
     "Scotland Central - Edinburgh & Lothians": { "slug": "edinburgh-lothians", "anchor_town": "Edinburgh" },
     "Scotland Central - Falkirk & Stirling": { "slug": "falkirk-stirling", "anchor_town": "Stirling" },
     "Scotland Central - Fife": { "slug": "fife", "anchor_town": "Dunfermline" },
@@ -72,6 +76,7 @@
 
     "North Wales - East": { "slug": "north-wales-east", "anchor_town": "Wrexham" },
     "North Wales - West": { "slug": "north-wales-west", "anchor_town": "Bangor" },
+    "Wales - Mid": { "slug": "wales-mid", "anchor_town": "Newtown" },
     "Wales - West": { "slug": "wales-west", "anchor_town": "Carmarthen" },
     "Wales South - Cardiff & Vale": { "slug": "cardiff-vale", "anchor_town": "Cardiff" },
     "Wales South - Gwent": { "slug": "gwent", "anchor_town": "Newport" },
@@ -85,9 +90,32 @@
     "North East - Tyneside, Wearside & Northumberland": "North East",
     "North East - County Durham & Darlington/Hartlepool": "North East",
     "North East - Tees Valley": "North East",
+    "devon": "Devon",
+    "West Sussex": "Sussex",
+    "Aberdeenshire": "North Scotland",
+    "Highland": "North Scotland",
+    "Highlands & Islands": "North Scotland",
+    "Dumfries & Galloway, Scotland": "Scotland - Borders",
+    "Clackmannanshire": "Scotland Central - Falkirk & Stirling",
+    "Midlothian": "Scotland Central - Edinburgh & Lothians",
+    "West Lothian": "Scotland Central - Edinburgh & Lothians",
+    "South Lanarkshire": "Scotland West - Lanarkshire",
     "Flintshire": "North Wales - East",
+    "Gwynedd": "North Wales - West",
+    "Isle of Anglesey": "North Wales - West",
+    "Carmarthenshire": "Wales - West",
     "Caerphilly": "Wales South - Valleys",
+    "Monmouthshire": "Wales South - Gwent",
+    "Vale of Glamorgan": "Wales South - Cardiff & Vale",
     "Wales South -gwent": "Wales South - Gwent",
-    "South Lanarkshire": "Scotland West - Lanarkshire"
-  }
+    "South West": "Hampshire",
+    "West Midlands": "Somerset"
+  },
+  "excluded_non_market_clusters": [
+    "Channel Islands",
+    "Other / Unknown",
+    "unknown",
+    "East Midlands",
+    "East of England"
+  ]
 }
