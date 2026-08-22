@@ -1,0 +1,59 @@
+name: Temporary geography governance correction
+
+on:
+  push:
+    branches:
+      - agent/geography-reconciliation-20260822
+
+permissions:
+  contents: write
+
+jobs:
+  correct-docs:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/geography-reconciliation-20260822
+          fetch-depth: 0
+      - name: Correct timeline wording
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+            'SYSTEM_MAP.md': [
+              ('`pipeline/reports-daily/daily-family-coverage.csv` expands from **165 rows (55 × 3)**.', '`pipeline/reports-daily/daily-family-coverage.csv` is now **165 rows (55 × 3)**, replacing the prior 99-row snapshot from the configured 33-market footprint.'),
+              ('Customer Sales / Sales Advisor completed proof-region testing, governed national validation and 55-market diagnostic assessment.', 'Customer Sales / Sales Advisor completed proof-region testing, governed national validation and the then-configured 33-market diagnostic assessment; the 22 August geography reconciliation subsequently extended recurring diagnostics to 55 assessable England markets without changing LIVE approval.'),
+              ('Added canonical governance for discovering and activating new job families: discovery audit → family boundary → proof-region review → title register/refinement rules → national validation → 55-market diagnostic assessment → explicit LIVE-slice approval → integration into the existing daily/publish mechanisms.', 'Added canonical governance for discovering and activating new job families: discovery audit → family boundary → proof-region review → title register/refinement rules → national validation → diagnostic assessment across the governed assessable geography → explicit LIVE-slice approval → integration into the existing daily/publish mechanisms. The assessable geography was corrected from the configured 33-market footprint to the complete 55-market England universe on 22 August.'),
+              ('Added same-feed 55-market family coverage for Service Admin and Support Worker inside the main JobG8 daily run.', 'Added the first same-feed family coverage for Service Admin and Support Worker across the then-configured 33-market footprint; this was expanded to the complete 55 assessable England markets on 22 August.'),
+              ('Each snapshot stores all 165 region/family counts;', 'Each new or replaced 55-market snapshot stores all 165 region/family counts; the history reader remains migration-safe if an earlier 33-market snapshot is still present;'),
+              ('all 165 region/family counts are stored, same-date reruns replace the prior snapshot,', '55-market runs store all 165 region/family counts, same-date reruns replace the prior snapshot, and earlier pre-expansion snapshots may contain the former 99-count footprint until replaced or aged out;'),
+            ],
+            'SYSTEM_OVERVIEW.md': [
+              ('`pipeline/reports-daily/daily-family-coverage.csv` expands from 165 rows (55 × 3).', '`pipeline/reports-daily/daily-family-coverage.csv` is now 165 rows (55 × 3), replacing the prior 99-row snapshot from the configured 33-market footprint.'),
+              ('Customer Sales / Sales Advisor completed governed proof-region review and national/55-market validation.', 'Customer Sales / Sales Advisor completed governed proof-region review and national validation against the then-configured 33-market footprint; the 22 August geography reconciliation subsequently extended recurring diagnostics to 55 assessable England markets without changing the LIVE launch set.'),
+              ('Added a standard new-family lifecycle: discovery audit → define family → proof-region review → governed register/refinement rules → national validation → 55-market diagnostic assessment → explicit LIVE-slice approval → integration into the existing pipeline.', 'Added a standard new-family lifecycle: discovery audit → define family → proof-region review → governed register/refinement rules → national validation → diagnostic assessment across the governed assessable geography → explicit LIVE-slice approval → integration into the existing pipeline. The assessable geography was corrected from the configured 33-market footprint to the complete 55-market England universe on 22 August.'),
+              ('Activated six additional Service Admin regions from same-feed 55-market evidence:', 'Activated six additional Service Admin regions from same-feed evidence against the then-configured 33-market footprint:'),
+              ('Added same-feed daily coverage for Service Admin and Support Worker across all 55 assessable England markets.', 'Added the first same-feed daily coverage for Service Admin and Support Worker across the then-configured 33-market footprint; this was expanded to all 55 assessable England markets on 22 August.'),
+              ('The change was immediately verified when the overview regenerated from 22 August data and again showed **3 / 55 LIVE Sales Advisor markets and 33 LIVE Sales Advisor jobs**.', 'The change was immediately verified when the overview regenerated from 22 August data and again showed **3 / 33 LIVE Sales Advisor regions and 33 LIVE Sales Advisor jobs** under the then-configured footprint.'),
+              ('The file stores all 165 region/family counts for continuity,', 'New or replaced 55-market snapshots store all 165 region/family counts for continuity; the history reader remains migration-safe if an earlier 33-market snapshot is still present;'),
+            ],
+          }
+
+          for filename, pairs in replacements.items():
+              path = Path(filename)
+              text = path.read_text(encoding='utf-8')
+              for old, new in pairs:
+                  if old not in text:
+                      raise SystemExit(f'Missing expected wording in {filename}: {old}')
+                  text = text.replace(old, new, 1)
+              path.write_text(text, encoding='utf-8')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add SYSTEM_MAP.md SYSTEM_OVERVIEW.md
+          git commit -m 'Correct geography governance timeline wording'
+          git push origin HEAD:agent/geography-reconciliation-20260822
