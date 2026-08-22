@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-22T11:42:41+00:00
+Generated: 2026-08-22T12:13:50+00:00
 
-> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. Sales Advisor is now a LIVE registered family where the slice register says LIVE; its LIVE counts come from the current published Customer Sales configured-slice JSON. NOT LIVE Sales Advisor remains `—` until a governed 33-region daily assessment is wired into this overview.
+> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-22.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-22) used by the production family run, across all 33 canonical regions with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor remains `—` for this transitional snapshot because the persisted coverage file predates the three-family rollout; the next full JobG8 run will replace it with governed 33-region Sales diagnostics. LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON.
 
 ## LIVE
 
