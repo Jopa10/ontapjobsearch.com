@@ -50,7 +50,7 @@ jobs:
       - name: Build daily regional overview
         run: python pipeline/scripts/build_daily_region_overview.py
 
-      - name: Apply same-feed 33-region family coverage
+      - name: Apply same-feed 55-market family coverage
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage --apply-existing
 
