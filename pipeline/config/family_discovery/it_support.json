@@ -1,0 +1,72 @@
+{
+  "family_key": "it_support",
+  "display_name": "IT Support",
+  "hard_salary_max": 50000,
+  "viability_floor": 100,
+  "broad_title_patterns": [
+    "\\bit\\s+support\\b",
+    "\\bhelp\\s*desk\\b",
+    "\\bservice\\s+desk\\b",
+    "\\b1st\\s+line\\b",
+    "\\bfirst\\s+line\\b",
+    "\\b2nd\\s+line\\b",
+    "\\bsecond\\s+line\\b",
+    "\\bdesktop\\s+support\\b",
+    "\\btechnical\\s+support\\b",
+    "\\bit\\s+technician\\b",
+    "\\bsupport\\s+analyst\\b",
+    "\\bservice\\s+desk\\s+analyst\\b",
+    "\\bhelpdesk\\s+(analyst|technician|engineer|support)\\b",
+    "\\bit\\s+(support|service)\\s+(analyst|technician|engineer)\\b"
+  ],
+  "description_signals": [
+    "it support",
+    "service desk",
+    "help desk",
+    "helpdesk",
+    "first line support",
+    "1st line support",
+    "second line support",
+    "2nd line support",
+    "desktop support",
+    "active directory",
+    "microsoft 365",
+    "office 365",
+    "incident management",
+    "ticketing system",
+    "remote support",
+    "user support",
+    "end user support"
+  ],
+  "description_min_hits": 2,
+  "description_title_context_patterns": [
+    "\\b(support|technician|analyst|helpdesk|service\\s+desk|desktop)\\b"
+  ],
+  "likely_in_title_patterns": [
+    "\\bit\\s+support\\b",
+    "\\bhelp\\s*desk\\b",
+    "\\bservice\\s+desk\\b",
+    "\\b(1st|first|2nd|second)\\s+line\\b",
+    "\\bdesktop\\s+support\\b",
+    "\\bit\\s+technician\\b",
+    "\\bservice\\s+desk\\s+analyst\\b",
+    "\\bit\\s+support\\s+(analyst|technician|engineer)\\b"
+  ],
+  "borderline_title_patterns": [
+    "\\btechnical\\s+support\\b",
+    "\\bsupport\\s+analyst\\b",
+    "\\bapplication\\s+support\\b",
+    "\\bsystems?\\s+support\\b",
+    "\\bsoftware\\s+support\\b"
+  ],
+  "specialist_out_title_patterns": [
+    "\\b(developer|programmer|software\\s+engineer|data\\s+engineer|devops|site\\s+reliability|sre)\\b",
+    "\\b(cloud|azure|aws)\\s+(engineer|architect|consultant)\\b",
+    "\\b(cyber|cybersecurity|information\\s+security|security)\\s+(engineer|analyst|architect|consultant)\\b",
+    "\\b(network|infrastructure|server|database|dba)\\s+(engineer|architect|administrator|consultant)\\b",
+    "\\b(solution|solutions|technical)\\s+architect\\b",
+    "\\b(head|director)\\s+of\\s+(it|technology|infrastructure|engineering)\\b",
+    "\\b(it|technical|service\\s+desk|support)\\s+manager\\b",
+    "\\bproject\\s+manager\\b"
+  ]
+}
