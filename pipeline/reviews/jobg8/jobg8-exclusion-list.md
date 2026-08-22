@@ -6,9 +6,153 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 122
+remembered_exclusions: 134
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Team Secretary
+employer: Birchrose Associates
+region: 
+town: London
+salary: 
+job_id: c5468ff5-9e14-4dca-a6f1-8b23c73fa819
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Service Advisor
+employer: The Solution Automotive Limited
+region: 
+town: Dorset
+salary: 
+job_id: 107804297
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Planner/ Administrator
+employer: Pertemps Scotland Temps
+region: 
+town: Essex
+salary: 
+job_id: 99d2fbca-9eca-4648-ba86-c3702005183f
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Paraplanner (Bath)
+employer: IDEX Consulting Ltd
+region: 
+town: Somerset
+salary: 
+job_id: cfcfb2f2-2ce7-4982-a217-9718f489df18
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Paraplanner
+employer: Reed
+region: 
+town: Somerset
+salary: 
+job_id: d01c0627-6f2c-45ee-a5a1-1a308f6d579f
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Paraplanner
+employer: Recruit UK
+region: 
+town: Somerset
+salary: 
+job_id: c027df0b-625b-410b-98e5-a1625ff03657
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Paraplanner
+employer: Eden Rose
+region: 
+town: Essex
+salary: 
+job_id: 913e9ff6-289d-4a39-8928-6ac716381ff0
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Paraplanner
+employer: Recruit UK
+region: 
+town: Hampshire
+salary: 
+job_id: 8958800f-b5ad-4768-a36c-71e7af68c634
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: PA to Creative Director, Fashion
+employer: Office Angels
+region: 
+town: London
+salary: 
+job_id: d639aa24-68a0-41df-8951-1e948bf468e7
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Office Assistant
+employer: Advert Clock Ltd
+region: 
+town: London
+salary: 
+job_id: a81aadac-514f-4727-a071-1c6db13128fa
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Front of House Supervisor
+employer: Adecco
+region: 
+town: London
+salary: 
+job_id: 23643_225522484
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-22
+title: Front of House Lead
+employer: Adecco
+region: 
+town: London
+salary: 
+job_id: 23643_225522596
+---
 
 ---
 action:
