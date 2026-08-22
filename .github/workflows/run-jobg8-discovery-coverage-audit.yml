@@ -9,23 +9,24 @@ on:
       - 'pipeline/scripts/jobg8_refine_other_families.py'
       - 'pipeline/scripts/jobg8_insurance_claims_discovery.py'
       - 'pipeline/scripts/jobg8_family_boundary_review.py'
+      - 'pipeline/scripts/jobg8_claims_family_validate.py'
 
 permissions:
   contents: write
   id-token: write
 
 concurrency:
-  group: jobg8-discovery-coverage-audit
+  group: jobg8-discovery-coverage-audit-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out main
+      - name: Check out selected ref
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -96,6 +97,14 @@ jobs:
             --exclude-decision EXCLUDE_SPECIALIST \
             --hard-salary-max 50000
 
+      - name: Validate Claims Support family boundary
+        run: |
+          set -euo pipefail
+          python -m pipeline.scripts.jobg8_claims_family_validate \
+            --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
+            --output-dir pipeline/reports-discovery-audit
+          cat pipeline/reports-discovery-audit/jobg8-claims-family-validation-current.md >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit diagnostic outputs only
         run: |
           set -euo pipefail
@@ -107,6 +116,8 @@ jobs:
             pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.csv
             pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.md
             pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current.csv
+            pipeline/reports-discovery-audit/jobg8-claims-family-validation-current.csv
+            pipeline/reports-discovery-audit/jobg8-claims-family-validation-current.md
           )
           git add -- "${files[@]}"
           if git diff --cached --quiet; then
@@ -114,7 +125,7 @@ jobs:
             exit 0
           fi
           staged="$(git diff --cached --name-only)"
-          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$' || true)"
+          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current|jobg8-claims-family-validation-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$' || true)"
           if [ -n "$unexpected" ]; then
             echo '::error::Unexpected staged path(s):'
             printf '%s\n' "$unexpected"
@@ -124,8 +135,8 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Run JobG8 discovery diagnostics'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
 
       - name: Upload audit artifact
         if: always()
