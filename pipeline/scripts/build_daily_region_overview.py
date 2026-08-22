@@ -10,10 +10,10 @@ import subprocess
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 REPO_ROOT = PIPELINE_ROOT.parent
-CATALOG = PIPELINE_ROOT / "config" / "england_assessable_regions.json"
+CATALOG = PIPELINE_ROOT / "config" / "uk_assessable_regions.json"
 REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
-EXPECTED_REGION_COUNT = 55
+EXPECTED_REGION_COUNT = 73
 
 FAMILIES = (
     {
@@ -74,15 +74,7 @@ def _job_count(path: Path) -> int:
 
 
 def _published_sales_count(region_slug: str) -> int:
-    """Count the current published Customer Sales configured-slice JSON directly."""
-    path = (
-        REPO_ROOT
-        / "app"
-        / "_city-pages"
-        / "configured-slices"
-        / region_slug
-        / "customer-sales-jobs.json"
-    )
+    path = REPO_ROOT / "app" / "_city-pages" / "configured-slices" / region_slug / "customer-sales-jobs.json"
     return _job_count(path) if path.is_file() else 0
 
 
@@ -103,32 +95,22 @@ def _load_statuses() -> dict[tuple[str, str], str]:
 
 def _git_show_main(repo_path: str) -> str:
     try:
-        return subprocess.check_output(
-            ["git", "show", f"origin/main:{repo_path}"],
-            cwd=REPO_ROOT,
-            text=True,
-        )
+        return subprocess.check_output(["git", "show", f"origin/main:{repo_path}"], cwd=REPO_ROOT, text=True)
     except subprocess.CalledProcessError as exc:
         raise RuntimeError(f"Could not read {repo_path} from origin/main") from exc
 
 
 def _main_tree_names(folder: str) -> list[str]:
     try:
-        return subprocess.check_output(
-            ["git", "ls-tree", "-r", "--name-only", "origin/main", folder],
-            cwd=REPO_ROOT,
-            text=True,
-        ).splitlines()
+        return subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "origin/main", folder], cwd=REPO_ROOT, text=True).splitlines()
     except subprocess.CalledProcessError as exc:
         raise RuntimeError(f"Could not inspect origin/main/{folder}") from exc
 
 
 def _latest_live_source_report() -> tuple[str, str]:
     candidates = sorted(
-        name
-        for name in _main_tree_names("pipeline/reports-daily")
-        if name.startswith("pipeline/reports-daily/live-job-source-count-")
-        and name.endswith(".csv")
+        name for name in _main_tree_names("pipeline/reports-daily")
+        if name.startswith("pipeline/reports-daily/live-job-source-count-") and name.endswith(".csv")
     )
     if not candidates:
         raise RuntimeError("No live-job-source-count report found on origin/main")
@@ -143,7 +125,6 @@ def _load_live_counts() -> tuple[str, dict[tuple[str, str], int]]:
     required = {"level", "region", "category", "count"}
     if not reader.fieldnames or not required.issubset(reader.fieldnames):
         raise RuntimeError(f"Unexpected live source report header in {report_path}")
-
     for row in reader:
         if (row.get("level") or "").strip() != "region_category":
             continue
@@ -151,21 +132,15 @@ def _load_live_counts() -> tuple[str, dict[tuple[str, str], int]]:
         category = (row.get("category") or "").strip()
         if not region or not category:
             continue
-        try:
-            count = int((row.get("count") or "0").strip())
-        except ValueError as exc:
-            raise RuntimeError(f"Invalid count in {report_path}: {row}") from exc
-        counts[(region, category)] = counts.get((region, category), 0) + count
+        counts[(region, category)] = counts.get((region, category), 0) + int((row.get("count") or "0").strip())
     return report_path, counts
 
 
 def _load_selected_counts(repo_path: str) -> dict[str, int]:
-    """Count unique SELECTED jobs by region from a main daily decision report."""
     text = _git_show_main(repo_path)
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")))
     if not reader.fieldnames or "region" not in reader.fieldnames:
         raise RuntimeError(f"Unexpected decision report header in {repo_path}")
-
     selected_ids: dict[str, set[str]] = {}
     anonymous_counts: dict[str, int] = {}
     for row in reader:
@@ -181,62 +156,40 @@ def _load_selected_counts(repo_path: str) -> dict[str, int]:
             selected_ids.setdefault(region, set()).add(job_id)
         else:
             anonymous_counts[region] = anonymous_counts.get(region, 0) + 1
-
     regions = set(selected_ids) | set(anonymous_counts)
-    return {
-        region: len(selected_ids.get(region, set())) + anonymous_counts.get(region, 0)
-        for region in regions
-    }
+    return {region: len(selected_ids.get(region, set())) + anonymous_counts.get(region, 0) for region in regions}
 
 
 def _load_latest_profile_counts() -> tuple[str, str, dict[tuple[str, str], int]]:
-    """Latest all-region Module 2 daily counts from main.
-
-    This is the fallback for regions the targeted daily selection pipelines did not
-    assess. It prevents 'not assessed' from being silently rendered as zero.
-    """
     candidates = sorted(
-        name
-        for name in _main_tree_names("pipeline/reports-module2")
-        if name.startswith("pipeline/reports-module2/")
-        and name.endswith("-module2-daily-counts.csv")
+        name for name in _main_tree_names("pipeline/reports-module2")
+        if name.startswith("pipeline/reports-module2/") and name.endswith("-module2-daily-counts.csv")
     )
     if not candidates:
         return "", "", {}
-
     report_path = candidates[-1]
     text = _git_show_main(report_path)
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")))
     required = {"date", "region", "region_scope", "category", "daily_job_count"}
     if not reader.fieldnames or not required.issubset(reader.fieldnames):
         raise RuntimeError(f"Unexpected Module 2 daily-counts header in {report_path}")
-
     rows = list(reader)
     dates = sorted({(row.get("date") or "").strip() for row in rows if (row.get("date") or "").strip()})
     if not dates:
         return report_path, "", {}
     latest_date = dates[-1]
-
     counts: dict[tuple[str, str], int] = {}
     for row in rows:
-        if (row.get("date") or "").strip() != latest_date:
-            continue
-        if (row.get("region_scope") or "").strip() != "lookup_region":
+        if (row.get("date") or "").strip() != latest_date or (row.get("region_scope") or "").strip() != "lookup_region":
             continue
         region = (row.get("region") or "").strip()
         category = (row.get("category") or "").strip()
-        if not region or not category:
-            continue
-        try:
-            count = int(float((row.get("daily_job_count") or "0").strip()))
-        except ValueError as exc:
-            raise RuntimeError(f"Invalid Module 2 count in {report_path}: {row}") from exc
-        counts[(region, category)] = count
+        if region and category:
+            counts[(region, category)] = int(float((row.get("daily_job_count") or "0").strip()))
     return report_path, latest_date, counts
 
 
 def _load_teaching_vacancies_counts(regions: list[tuple[str, str]]) -> dict[str, int]:
-    """Current Teaching Vacancies admin/service candidates by region from main."""
     folder = "pipeline/output-external/teaching-vacancies-regional"
     available = set(_main_tree_names(folder))
     counts: dict[str, int] = {}
@@ -244,25 +197,9 @@ def _load_teaching_vacancies_counts(regions: list[tuple[str, str]]) -> dict[str,
         path = f"{folder}/{slug}-admin-service.json"
         if path not in available:
             continue
-        try:
-            data = json.loads(_git_show_main(path).lstrip("\ufeff"))
-        except json.JSONDecodeError as exc:
-            raise RuntimeError(f"Invalid JSON in {path}") from exc
+        data = json.loads(_git_show_main(path).lstrip("\ufeff"))
         counts[region_name] = _count_json_data(data)
     return counts
-
-
-def _candidate_count_if_present(region_slug: str, family: dict[str, str]) -> int | None:
-    if not family["candidate_dir"] or not family["candidate_pattern"]:
-        return None
-    candidate_path = (
-        PIPELINE_ROOT
-        / family["candidate_dir"]
-        / family["candidate_pattern"].format(slug=region_slug)
-    )
-    if not candidate_path.is_file():
-        return None
-    return _job_count(candidate_path)
 
 
 def build() -> str:
@@ -272,28 +209,31 @@ def build() -> str:
 
     statuses = _load_statuses()
     source_report, live_counts = _load_live_counts()
-    profile_report, profile_date, profile_counts = _load_latest_profile_counts()
+    _profile_report, profile_date, profile_counts = _load_latest_profile_counts()
     decision_counts = {
         family["key"]: _load_selected_counts(family["decision_report"])
-        for family in FAMILIES
-        if family["decision_report"]
+        for family in FAMILIES if family["decision_report"]
     }
 
-    regions = sorted(
-        (
-            (name, facts["slug"])
-            for name, facts in catalog["regions"].items()
-        ),
-        key=lambda item: item[0].casefold(),
-    )
+    regions = sorted(((name, facts["slug"]) for name, facts in catalog["regions"].items()), key=lambda item: item[0].casefold())
     declared_count = int(catalog.get("region_count") or len(regions))
     if declared_count != len(regions) or len(regions) != EXPECTED_REGION_COUNT:
         raise RuntimeError(
-            f"Daily overview expected {EXPECTED_REGION_COUNT} assessable England regions, "
-            f"catalogue declares {declared_count} and contains {len(regions)}."
+            f"Daily overview expected {EXPECTED_REGION_COUNT} assessable UK markets, catalogue declares {declared_count} and contains {len(regions)}."
         )
 
+    rollups = {str(k): str(v) for k, v in catalog.get("detail_rollups", {}).items()}
     teaching_counts = _load_teaching_vacancies_counts(regions)
+
+    def profile_count(region_name: str, category: str) -> int | None:
+        direct = profile_counts.get((region_name, category))
+        if direct is not None:
+            return direct
+        alias_total = sum(
+            count for (raw_region, raw_category), count in profile_counts.items()
+            if raw_category == category and rollups.get(raw_region) == region_name
+        )
+        return alias_total if alias_total else None
 
     rows = []
     for region_name, slug in regions:
@@ -312,10 +252,10 @@ def build() -> str:
                 if family["decision_report"] and region_name in decision_counts[family["key"]]:
                     candidate_count = decision_counts[family["key"]][region_name]
                     candidate_source = "daily"
-                elif family["profile_category"] and (region_name, family["profile_category"]) in profile_counts:
-                    candidate_count = profile_counts[(region_name, family["profile_category"])]
-                    candidate_source = "profile"
-
+                elif family["profile_category"]:
+                    candidate_count = profile_count(region_name, family["profile_category"])
+                    if candidate_count is not None:
+                        candidate_source = "profile"
                 if family["key"] == "service_admin" and region_name in teaching_counts:
                     candidate_count = (candidate_count or 0) + teaching_counts[region_name]
                     candidate_source = (candidate_source + "+teaching").strip("+")
@@ -334,7 +274,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable England markets; LIVE status remains controlled only by the slice register. Before same-feed 55-region coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 73-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
@@ -354,13 +294,7 @@ def build() -> str:
                 live_cells.append(str(item["live_count"]))
         lines.append(f"| {region_name} | " + " | ".join(live_cells) + " |")
 
-    lines.extend([
-        "",
-        "## NOT LIVE",
-        "",
-        "| Region | Service admin | Support worker | Sales advisor |",
-        "|---|---:|---:|---:|",
-    ])
+    lines.extend(["", "## NOT LIVE", "", "| Region | Service admin | Support worker | Sales advisor |", "|---|---:|---:|---:|"])
     for region_name, _slug, state in rows:
         cells = []
         for family in FAMILIES:
@@ -373,24 +307,13 @@ def build() -> str:
                 cells.append(str(item["candidate_count"]))
         lines.append(f"| {region_name} | " + " | ".join(cells) + " |")
 
-    live_regions = {
-        f["key"]: sum(1 for _name, _slug, state in rows if state[f["key"]]["live"])
-        for f in FAMILIES
-    }
+    live_regions = {f["key"]: sum(1 for _n, _s, state in rows if state[f["key"]]["live"]) for f in FAMILIES}
     live_jobs = {
-        f["key"]: sum(
-            state[f["key"]]["live_count"]
-            for _name, _slug, state in rows
-            if state[f["key"]]["live"]
-        )
+        f["key"]: sum(state[f["key"]]["live_count"] for _n, _s, state in rows if state[f["key"]]["live"])
         for f in FAMILIES
     }
     checks = {
-        f["key"]: sum(
-            1
-            for _name, _slug, state in rows
-            if state[f["key"]]["live"] and state[f["key"]]["live_count"] == 0
-        )
+        f["key"]: sum(1 for _n, _s, state in rows if state[f["key"]]["live"] and state[f["key"]]["live_count"] == 0)
         for f in FAMILIES
     }
     total_live_slices = sum(live_regions.values())
@@ -403,18 +326,12 @@ def build() -> str:
         return value
 
     lines.extend([
-        "",
-        "## HEADLINE",
-        "",
+        "", "## HEADLINE", "",
         "| Measure | Service admin | Support worker | Sales advisor |",
         "|---|---:|---:|---:|",
-        "| Live regions | " + " | ".join(
-            f"{live_regions[f['key']]} / {EXPECTED_REGION_COUNT}" for f in FAMILIES
-        ) + " |",
+        "| Live regions | " + " | ".join(f"{live_regions[f['key']]} / {EXPECTED_REGION_COUNT}" for f in FAMILIES) + " |",
         "| Live jobs | " + " | ".join(headline_value(f["key"]) for f in FAMILIES) + " |",
-        "",
-        f"**Live slices: {total_live_slices} / {total_possible}.**",
-        "",
+        "", f"**Live slices: {total_live_slices} / {total_possible}.**", "",
     ])
     return "\n".join(lines)
 
