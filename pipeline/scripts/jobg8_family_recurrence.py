@@ -37,6 +37,8 @@ def main() -> int:
 
     if "is_duplicate" in df.columns:
         df = df.loc[df["is_duplicate"].map(as_bool_false)].copy()
+    if "is_content_duplicate" in df.columns:
+        df = df.loc[df["is_content_duplicate"].map(as_bool_false)].copy()
     df = df.loc[df["in_uk_market_universe"].str.upper().eq("YES")].copy()
 
     rows = []
@@ -73,6 +75,7 @@ def main() -> int:
     lines = [
         f"# JobG8 {display_name} regional recurrence — current feed", "",
         f"Canonical UK assessment universe: **{len(markets)} markets**.",
+        "Counts use content-unique adverts after source-reference dedupe.",
         f"LIKELY_IN jobs mapped into the universe: **{likely_total}**.",
         f"BORDERLINE jobs mapped into the universe: **{borderline_total}**.",
         f"Markets with at least one LIKELY_IN job: **{active_markets} / {len(markets)}**.", "",
