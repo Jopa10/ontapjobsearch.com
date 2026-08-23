@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import html
 import json
 import math
 import re
@@ -141,21 +140,13 @@ def dedupe_key(row: dict[str, Any]) -> str:
     ])
 
 
-def clean_content(value: object) -> str:
-    text = html.unescape(norm(value))
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"https?://\S+", " ", text)
-    return re.sub(r"\s+", " ", text).strip().casefold()
-
-
-def content_dedupe_key(title: object, area: object, location: object, description: object) -> str:
-    payload = "|".join([
-        norm(title).casefold(),
-        norm(area).casefold(),
-        norm(location).casefold(),
-        clean_content(description),
+def content_dedupe_key(title: object, location: object, description: object) -> str:
+    basis = "|".join([
+        re.sub(r"\W+", " ", norm(title).casefold()).strip(),
+        re.sub(r"\W+", " ", norm(description).casefold()).strip()[:1200],
+        re.sub(r"\W+", " ", norm(location).casefold()).strip(),
     ])
-    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]
 
 
 def salary_bucket(annual_min: float | None, annual_max: float | None, hard_max: float) -> str:
@@ -264,7 +255,7 @@ def main() -> int:
             "provisional_decision": provisional,
             "provisional_reason": reason,
             "description_excerpt": description[:700],
-            "content_dedupe_key": content_dedupe_key(title, area, location, description),
+            "content_dedupe_key": content_dedupe_key(title, location, description),
         }
         row["dedupe_key"] = dedupe_key(row)
         rows.append(row)
