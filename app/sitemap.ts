@@ -16,6 +16,7 @@ const baseRoutes = [
   '/contact',
   '/privacy-policy',
   '/terms-of-service',
+  '/sector-switching',
   '/west-yorkshire/support-worker',
   '/south-yorkshire/support-worker',
   '/north-east/support-worker',

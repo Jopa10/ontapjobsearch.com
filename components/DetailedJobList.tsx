@@ -3,6 +3,10 @@ import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
 import { sourceLabel } from "@/lib/job-facts";
 import { getJobPath } from "@/lib/published-jobs";
+import { classifyJobSector, findNthJobSectorIndex } from "@/lib/job-sector";
+import SectorBadge from "@/components/SectorBadge";
+import SectorSwitchBanner from "@/components/SectorSwitchBanner";
+import { Fragment } from "react";
 
 export type DetailedJob = {
   job_id: string;
@@ -30,6 +34,7 @@ export type DetailedJob = {
 type DetailedJobListProps = {
   jobs: DetailedJob[];
   anchorTown?: string;
+  sectorFilterEnabled?: boolean;
 };
 
 function decodeMojibake(value: string) {
@@ -110,25 +115,38 @@ function externalApplicationSource(source: string) {
   return sourceLabel(normalised);
 }
 
-export default function DetailedJobList({ jobs, anchorTown }: DetailedJobListProps) {
+export default function DetailedJobList({
+  jobs,
+  anchorTown,
+  sectorFilterEnabled = false,
+}: DetailedJobListProps) {
+  const fifthBusinessIndex = findNthJobSectorIndex(jobs, "business", 5);
+
   return (
     <div style={{ display: "grid", gap: 10 }}>
       {jobs.map((job, index) => {
         const summary = getSummary(job);
         const applicationSource = externalApplicationSource(job.source);
+        const sector = classifyJobSector(job);
 
         return (
-          <article
-            key={job.job_id || index}
-            style={{
-              border: "1px solid #dbe3ee",
-              borderRadius: 12,
-              padding: "14px 16px",
-              background: "#fff",
-            }}
-          >
-            <div style={{ fontWeight: 800, fontSize: 16 }}>{job.title}</div>
-            <JobFacts job={job} anchorTown={anchorTown} />
+          <Fragment key={job.job_id || index}>
+            <article
+              data-job-sector={sectorFilterEnabled ? sector.sector : undefined}
+              style={{
+                border: "1px solid #dbe3ee",
+                borderRadius: 12,
+                padding: "14px 16px",
+                background: "#fff",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: 7 }}>
+                <span style={{ fontWeight: 800, fontSize: 16 }}>{job.title}</span>
+                {sectorFilterEnabled && sector.label ? (
+                  <SectorBadge label={sector.label} />
+                ) : null}
+              </div>
+              <JobFacts job={job} anchorTown={anchorTown} />
 
             {summary ? (
               <div style={{ fontSize: 13, color: "#666", marginBottom: 8, lineHeight: 1.5 }}>
@@ -160,7 +178,14 @@ export default function DetailedJobList({ jobs, anchorTown }: DetailedJobListPro
                 source={job.source}
               />
             </div>
-          </article>
+            </article>
+            {sectorFilterEnabled && index === 4 ? (
+              <SectorSwitchBanner audience="all" />
+            ) : null}
+            {sectorFilterEnabled && index === fifthBusinessIndex ? (
+              <SectorSwitchBanner audience="business" />
+            ) : null}
+          </Fragment>
         );
       })}
     </div>

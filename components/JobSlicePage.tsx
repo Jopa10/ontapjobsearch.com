@@ -8,6 +8,7 @@ import { orderJobsForDisplay } from "@/lib/job-display-order";
 import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
+import { classifyJobSector } from "@/lib/job-sector";
 
 type JobRow = {
   job_id: string;
@@ -76,6 +77,7 @@ type JobSlicePageProps = {
   jobFilter?: (job: JobRow) => boolean;
   relatedPage?: RelatedPage;
   browseLinks?: BrowseLinks;
+  sectorFilterEnabled?: boolean;
 };
 
 function stringList(value: unknown): string[] {
@@ -236,11 +238,20 @@ export default function JobSlicePage({
   jobFilter,
   relatedPage,
   browseLinks,
+  sectorFilterEnabled = false,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
   const jobs = orderJobsForDisplay(filteredJobs);
   const sidebarItems = trainingItems || careTraining;
+  const publicJobCount = jobs.filter(
+    (job) => classifyJobSector(job).sector === "public"
+  ).length;
+  const sectorCounts = {
+    all: jobs.length,
+    business: jobs.length - publicJobCount,
+    public: publicJobCount,
+  };
 
   return (
     <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
@@ -303,8 +314,18 @@ export default function JobSlicePage({
 
           {jobs.length ? (
             <JobViewSwitcher
-              quickView={<QuickJobList jobs={jobs} />}
-              detailedView={<DetailedJobList jobs={jobs} anchorTown={anchorTown} />}
+              sectorFilterEnabled={sectorFilterEnabled}
+              sectorCounts={sectorCounts}
+              quickView={
+                <QuickJobList jobs={jobs} sectorFilterEnabled={sectorFilterEnabled} />
+              }
+              detailedView={
+                <DetailedJobList
+                  jobs={jobs}
+                  anchorTown={anchorTown}
+                  sectorFilterEnabled={sectorFilterEnabled}
+                />
+              }
             />
           ) : (
             <EmptyJobs />
