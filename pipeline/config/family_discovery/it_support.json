@@ -4,6 +4,7 @@
   "hard_salary_max": 50000,
   "viability_floor": 100,
   "purpose": "Broad national discovery before advert-level boundary review; assessable geography must not gate occupational scale.",
+  "assessable_geography": "pipeline/config/uk_assessable_regions.json",
   "broad_title_patterns": [
     "\\bit\\s+support\\b",
     "\\bhelp\\s*desk\\b",
