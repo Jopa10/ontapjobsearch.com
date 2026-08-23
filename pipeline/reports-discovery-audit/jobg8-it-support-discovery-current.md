@@ -1,10 +1,10 @@
 # JobG8 IT Support family discovery
 
-Feed: **2026-08-22.xlsx**
+Feed: **2026-08-23.xlsx**
 Jobs in feed: **10,000**
-Raw broad possible universe before exclusions/dedupe: **59**
+Raw broad possible universe before exclusions/dedupe: **75**
 Duplicates within broad universe: **0**
-Deduped broad universe: **59**
+Deduped broad universe: **75**
 
 This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.
 Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is not excluded; missing salary is retained.**
@@ -12,9 +12,9 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 ## Early volume viability gate
 
 Provisional LIKELY_IN: **42**
-Provisional BORDERLINE: **14**
-Provisional OUT (specialist/salary): **3**
-Estimated genuine inventory before deep advert review: **~49** (working range **42–56**).
+Provisional BORDERLINE: **28**
+Provisional OUT (specialist/salary): **5**
+Estimated genuine inventory before deep advert review: **~56** (working range **42–70**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **STOP / VERY THIN**.
 
@@ -23,19 +23,19 @@ Early verdict: **STOP / VERY THIN**.
 | Decision | Deduped jobs |
 |---|---:|
 | LIKELY_IN | 42 |
-| BORDERLINE | 14 |
-| OUT_SALARY | 2 |
-| OUT_SPECIALIST | 1 |
+| BORDERLINE | 28 |
+| OUT_SALARY | 3 |
+| OUT_SPECIALIST | 2 |
 
 ## Salary distribution — deduped broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| £25k–£30k | 22 |
-| £30k–£40k | 17 |
-| missing/unknown | 15 |
-| >£50,000 OUT | 2 |
-| £40k–£50,000 | 2 |
+| £25k–£30k | 24 |
+| £30k–£40k | 23 |
+| missing/unknown | 18 |
+| £40k–£50,000 | 6 |
+| >£50,000 OUT | 3 |
 | <£25k | 1 |
 
 ## JobG8 classifications feeding the seam
@@ -44,46 +44,54 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| I.T. & Communications | 34 |
-| Administration | 21 |
+| I.T. & Communications | 47 |
+| Administration | 23 |
 | Call Centre / CustomerService | 3 |
+| Legal | 1 |
 | Real Estate & Property | 1 |
 
 ## Geography — evidence only, not an occupational gate
 
-Deduped candidates mapping to the currently configured region set: **43**.
-Deduped candidates outside that configured set (including valid other geo clusters and unknowns): **16**.
-The occupational discovery count above includes both. This avoids the separate 33-region audit distorting family scale.
+Canonical UK assessment universe: **78 markets**.
+Deduped candidates mapping into that UK market universe: **63**.
+Deduped candidates outside it or unresolved: **12**.
+The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
+Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
-| Ontap geo cluster | Jobs | In configured region set? |
+| Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
+| Other / Unknown | 11 | NO |
 | London | 11 | YES |
-| Other / Unknown | 8 | NO |
 | Essex | 5 | YES |
+| Surrey | 4 | YES |
+| Kent | 4 | YES |
+| Berkshire | 3 | YES |
 | Hertfordshire | 3 | YES |
-| Surrey | 3 | YES |
-| Kent | 3 | YES |
-| Berkshire | 2 | YES |
-| Worcestershire | 2 | NO |
-| Hampshire | 2 | YES |
+| Hampshire | 3 | YES |
 | Sussex | 2 | YES |
-| Scotland West - Glasgow | 2 | NO |
+| West Midlands - Birmingham & Solihull | 2 | YES |
+| North East | 2 | YES |
+| Scotland West - Glasgow | 2 | YES |
 | Yorkshire - North | 2 | YES |
+| Devon | 2 | YES |
+| West Midlands - Black Country | 2 | YES |
 | Staffordshire | 2 | YES |
-| Cheshire - East | 1 | NO |
+| Cheshire - East | 1 | YES |
+| Worcestershire | 1 | YES |
 | West Midlands - Coventry & Warwickshire | 1 | YES |
-| Leicestershire | 1 | NO |
+| Leicestershire | 1 | YES |
+| Norfolk | 1 | YES |
 | South West | 1 | NO |
-| West Midlands - Birmingham & Solihull | 1 | YES |
+| Derbyshire | 1 | YES |
 | Gloucestershire | 1 | YES |
-| Wales South - Cardiff & Vale | 1 | NO |
+| Northamptonshire | 1 | YES |
+| Wales South - Cardiff & Vale | 1 | YES |
 | Oxfordshire | 1 | YES |
 | Yorkshire - South | 1 | YES |
 | Dorset | 1 | YES |
 | Yorkshire - West | 1 | YES |
-| Wiltshire | 1 | YES |
 
 ## Next gate
 
 If the early verdict is STOP / VERY THIN or CAUTION / LIKELY BELOW GATE, do not spend time on full advert-level boundary work yet.
-If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any regional recurrence/slice assessment.
+If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 73-market UK recurrence/slice assessment.

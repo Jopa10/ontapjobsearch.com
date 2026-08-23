@@ -1,11 +1,11 @@
 # JobG8 Insurance & Claims Support discovery audit
 
-Feed: **2026-08-22.xlsx**
+Feed: **2026-08-23.xlsx**
 Jobs in feed: **10,000**
 Broad insurance/claims candidates: **184**
-Core support candidates: **46**
-Boundary-review candidates: **58**
-Specialist/senior exclusions at discovery stage: **80**
+Core support candidates: **47**
+Boundary-review candidates: **60**
+Specialist/senior exclusions at discovery stage: **77**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
 
@@ -13,20 +13,20 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 
 | Decision | Jobs |
 |---|---:|
-| EXCLUDE_SPECIALIST | 80 |
-| REVIEW_OTHER_INSURANCE | 36 |
-| CORE_CLAIMS_SUPPORT | 31 |
-| CORE_INSURANCE_SUPPORT | 15 |
-| REVIEW_ACCOUNT_HANDLER | 12 |
+| EXCLUDE_SPECIALIST | 77 |
+| REVIEW_OTHER_INSURANCE | 37 |
+| CORE_CLAIMS_SUPPORT | 30 |
+| CORE_INSURANCE_SUPPORT | 17 |
+| REVIEW_ACCOUNT_HANDLER | 13 |
 | REVIEW_CLAIMS_TECHNICAL | 7 |
 | REVIEW_DESCRIPTION_ONLY | 3 |
 
 ## Salary shape — core support only
 
 Soft reference range: **£25,000–£40,000** (diagnostic, not a hard gate).
-Core jobs with usable annualised salary: **28 / 46**.
-Median annualised midpoint: **£30,460**.
-Within soft range: **28 (100%)**; below: **0**; above: **0**.
+Core jobs with usable annualised salary: **30 / 47**.
+Median annualised midpoint: **£30,500**.
+Within soft range: **30 (100%)**; below: **0**; above: **0**.
 Hourly/daily/weekly figures are annualised approximately for discovery only.
 
 ## Recurring core titles
@@ -38,11 +38,11 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | 2 | Senior Claims Handler |
 | 2 | Property Claims Handler |
 | 2 | Legal Expenses Claims Handler |
+| 2 | Commercial Insurance Account Advisor |
 | 1 | Motor Insurance Sales advisor |
 | 1 | Experienced Motor Claims Handler |
 | 1 | Third-Party Capture Claims Handler |
 | 1 | Insurance Administrator Friendly team + 25 days A/L |
-| 1 | Employer Liability and Public Liability Claims Handler (6 - Month FTC) |
 | 1 | PROPERTY INSURANCE ACCOUNT HANDLER |
 | 1 | SENIOR MOTOR CLAIMS HANDLER -INTERVENTION |
 | 1 | COMMERCIAL INSURANCE ACCOUNT HANDLER |
@@ -83,9 +83,9 @@ Classification column detected: **/Job/Classification**.
 | 36 | Insurance & Superannuation |
 | 4 | Legal |
 | 2 | Administration |
+| 2 | Sales & Marketing |
 | 2 | Accounting |
 | 1 | Call Centre / CustomerService |
-| 1 | Sales & Marketing |
 
 ## Core regional shape
 
@@ -97,12 +97,12 @@ Classification column detected: **/Job/Classification**.
 | 3 | Staffordshire |
 | 3 | London |
 | 3 | Bristol & Bath |
+| 3 | Essex |
 | 2 | Norfolk |
-| 2 | Northamptonshire |
 | 2 | Greater Manchester - Wigan & Bolton |
 | 2 | Worcestershire |
 | 2 | Hampshire |
-| 2 | Essex |
+| 2 | Oxfordshire |
 
 ## Discovery interpretation
 
