@@ -23,6 +23,10 @@ def norm(value: object) -> str:
     return re.sub(r"\s+", " ", str(value).strip())
 
 
+def falseish(value: object) -> bool:
+    return str(value).strip().casefold() in {"", "false", "0", "no"}
+
+
 def clean_description(value: object) -> str:
     text = html.unescape(norm(value))
     text = re.sub(r"<[^>]+>", " ", text)
@@ -92,6 +96,10 @@ def main() -> int:
     if not decision_col:
         raise SystemExit("Diagnostic CSV must contain discovery_decision or provisional_decision")
 
+    if "is_duplicate" in diagnostic.columns:
+        diagnostic = diagnostic.loc[diagnostic["is_duplicate"].map(falseish)].copy()
+    if "is_content_duplicate" in diagnostic.columns:
+        diagnostic = diagnostic.loc[diagnostic["is_content_duplicate"].map(falseish)].copy()
     if args.exclude_decision:
         diagnostic = diagnostic.loc[~diagnostic[decision_col].isin(args.exclude_decision)].copy()
 
@@ -147,18 +155,12 @@ def main() -> int:
         title_counts = out["title"].value_counts().head(40)
         class_counts = out["jobg8_classification"].replace("", "(blank)").value_counts().head(20)
         lines = [
-            f"# {args.family_name} boundary-review evidence",
-            "",
+            f"# {args.family_name} boundary-review evidence", "",
             f"Feed: **{feed.name}**",
-            f"Advert rows for boundary review: **{len(out):,}**.",
-            f"Hard salary outs above £{args.hard_salary_max:,.0f}: **{(out['hard_salary_out_over_50k'] == 'YES').sum():,}**.",
-            "",
-            "This is boundary-review evidence only. The current discovery decision is provisional; `manual_boundary_decision` remains blank until the family boundary is frozen.",
-            "",
-            "## Current provisional decisions",
-            "",
-            "| Decision | Jobs |",
-            "|---|---:|",
+            f"Content-unique advert rows for boundary review: **{len(out):,}**.",
+            f"Hard salary outs above £{args.hard_salary_max:,.0f}: **{(out['hard_salary_out_over_50k'] == 'YES').sum():,}**.", "",
+            "This is boundary-review evidence only. The current discovery decision is provisional; `manual_boundary_decision` remains blank until the family boundary is frozen.", "",
+            "## Current provisional decisions", "", "| Decision | Jobs |", "|---|---:|",
         ]
         for decision, count in decision_counts.most_common():
             lines.append(f"| {decision or '(blank)'} | {count:,} |")
