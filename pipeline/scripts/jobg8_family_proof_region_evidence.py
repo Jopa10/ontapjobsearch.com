@@ -32,6 +32,8 @@ def main() -> int:
         raise SystemExit(f"Discovery CSV missing columns: {sorted(missing)}")
     if "is_duplicate" in df.columns:
         df = df.loc[df["is_duplicate"].map(falseish)].copy()
+    if "is_content_duplicate" in df.columns:
+        df = df.loc[df["is_content_duplicate"].map(falseish)].copy()
 
     plausible_national = int(df["provisional_decision"].isin(["LIKELY_IN", "BORDERLINE"]).sum())
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -43,7 +45,7 @@ def main() -> int:
         lines = [
             f"# JobG8 {display_name} proof-region evidence candidates", "",
             f"Status: **SKIPPED / BELOW NATIONAL VIABILITY FLOOR**.", "",
-            f"LIKELY_IN + BORDERLINE national inventory: **{plausible_national}**.",
+            f"Content-unique LIKELY_IN + BORDERLINE national inventory: **{plausible_national}**.",
             f"Viability floor: **{viability_floor}**.", "",
             "No proof-region advert expansion is generated for a family that is below the national scale gate.",
         ]
@@ -67,7 +69,7 @@ def main() -> int:
 
     lines = [
         f"# JobG8 {display_name} proof-region evidence candidates", "",
-        f"National LIKELY_IN + BORDERLINE inventory: **{plausible_national}** against viability floor **{viability_floor}**.",
+        f"Content-unique national LIKELY_IN + BORDERLINE inventory: **{plausible_national}** against viability floor **{viability_floor}**.",
         "This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.", "",
     ]
     evidence_rows: list[dict[str, object]] = []
