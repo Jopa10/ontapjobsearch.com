@@ -8,6 +8,7 @@
   "broad_title_patterns": [
     "\\bparalegal\\b",
     "\\blegal\\s+assistant\\b",
+    "\\blegal\\s+asistant\\b",
     "\\blegal\\s+administrator\\b",
     "\\blegal\\s+admin\\b",
     "\\blegal\\s+secretar(y|ial)\\b",
@@ -43,6 +44,7 @@
   "likely_in_title_patterns": [
     "\\bparalegal\\b",
     "\\blegal\\s+assistant\\b",
+    "\\blegal\\s+asistant\\b",
     "\\blegal\\s+administrator\\b",
     "\\blegal\\s+admin\\b",
     "\\blegal\\s+secretar(y|ial)\\b",
