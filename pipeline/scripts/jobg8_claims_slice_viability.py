@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import statistics
 from collections import Counter
@@ -22,10 +23,10 @@ from pipeline.scripts.jobg8_insurance_claims_discovery import (
     norm,
     ontap_region,
 )
-from pipeline.scripts.slice_catalog import load_catalog
 
-EXCLUDED_REGIONS = {"Northern Ireland - East"}
 DATE_RE = re.compile(r"(20\d{2}-\d{2}-\d{2})")
+DEFAULT_ASSESSABLE_REGIONS = Path("pipeline/config/uk_assessable_regions.json")
+EXPECTED_REGION_COUNT = 78
 
 
 def dated_feeds(input_dir: Path, max_dates: int = 7) -> list[tuple[str, Path]]:
@@ -42,20 +43,26 @@ def dated_feeds(input_dir: Path, max_dates: int = 7) -> list[tuple[str, Path]]:
     return [(date, by_date[date]) for date in dates]
 
 
-def canonical_regions() -> list[str]:
-    catalog = load_catalog()
-    regions = sorted(
-        [name for name in catalog.get("regions", {}) if name not in EXCLUDED_REGIONS],
-        key=str.casefold,
-    )
-    if len(regions) != 33:
-        raise RuntimeError(f"Expected 33 canonical regions, found {len(regions)}")
-    return regions
+def canonical_regions(path: Path = DEFAULT_ASSESSABLE_REGIONS) -> tuple[list[str], dict[str, str]]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    region_map = data.get("regions", {})
+    if not isinstance(region_map, dict):
+        raise RuntimeError(f"Invalid assessable-region config: {path}")
+    regions = sorted(region_map, key=str.casefold)
+    declared = int(data.get("region_count") or len(regions))
+    if declared != len(regions) or len(regions) != EXPECTED_REGION_COUNT:
+        raise RuntimeError(
+            f"Expected {EXPECTED_REGION_COUNT} canonical UK markets; "
+            f"config declares {declared} and contains {len(regions)}"
+        )
+    rollups = {str(raw): str(target) for raw, target in data.get("detail_rollups", {}).items()}
+    return regions, rollups
 
 
 def assess_feed(
     feed: Path,
     regions: set[str],
+    rollups: dict[str, str],
     area_lookup: dict[str, str],
     fallback: dict[str, str],
 ) -> tuple[Counter[str], int, int]:
@@ -82,12 +89,13 @@ def assess_feed(
             continue
         seen.add(fp)
 
-        region = ontap_region(
+        raw_region = ontap_region(
             row.get(AREA_COL, ""),
             row.get(LOCATION_COL, ""),
             area_lookup,
             fallback,
         )
+        region = rollups.get(raw_region, raw_region)
         if region in regions:
             counts[region] += 1
         else:
@@ -116,11 +124,12 @@ def main() -> int:
     ap.add_argument("--input-dir", required=True, type=Path)
     ap.add_argument("--output-dir", required=True, type=Path)
     ap.add_argument("--geo-lookup", type=Path, default=Path("pipeline/geo/geo_lookup.xlsx"))
+    ap.add_argument("--assessable-regions", type=Path, default=DEFAULT_ASSESSABLE_REGIONS)
     ap.add_argument("--max-dates", type=int, default=7)
     args = ap.parse_args()
 
     feeds = dated_feeds(args.input_dir, max_dates=max(1, args.max_dates))
-    region_list = canonical_regions()
+    region_list, rollups = canonical_regions(args.assessable_regions)
     region_set = set(region_list)
     area_lookup, fallback = load_geo_lookups(args.geo_lookup)
 
@@ -129,7 +138,9 @@ def main() -> int:
     unknown_by_date: dict[str, int] = {}
 
     for feed_date, feed in feeds:
-        counts, total_unique_in, unknown = assess_feed(feed, region_set, area_lookup, fallback)
+        counts, total_unique_in, unknown = assess_feed(
+            feed, region_set, rollups, area_lookup, fallback
+        )
         total_by_date[feed_date] = total_unique_in
         unknown_by_date[feed_date] = unknown
         for region in region_list:
@@ -183,6 +194,7 @@ def main() -> int:
     lines = [
         "# JobG8 Claims Support regional viability diagnostic",
         "",
+        f"Canonical UK assessment universe: **{len(region_list)} markets**.",
         f"Observed feed dates: **{len(dates)}** ({dates[0]} to {dates[-1]}).",
         f"Latest feed: **{latest_date}**.",
         f"Content-unique IN jobs on latest feed: **{total_by_date[latest_date]}**; unmapped/unknown region: **{unknown_by_date[latest_date]}**.",
