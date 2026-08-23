@@ -11,10 +11,10 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **231**
-Provisional BORDERLINE: **11**
+Provisional LIKELY_IN: **233**
+Provisional BORDERLINE: **9**
 Provisional OUT (specialist/salary): **39**
-Estimated genuine inventory before deep advert review: **~237** (working range **231–242**).
+Estimated genuine inventory before deep advert review: **~237** (working range **233–242**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **GO / SCALE CLEAR**.
 
@@ -22,10 +22,10 @@ Early verdict: **GO / SCALE CLEAR**.
 
 | Decision | Deduped jobs |
 |---|---:|
-| LIKELY_IN | 231 |
+| LIKELY_IN | 233 |
 | OUT_SALARY | 21 |
 | OUT_SPECIALIST | 18 |
-| BORDERLINE | 11 |
+| BORDERLINE | 9 |
 
 ## Salary distribution — deduped broad universe
 
@@ -93,4 +93,4 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 ## Next gate
 
 If the early verdict is STOP / VERY THIN or CAUTION / LIKELY BELOW GATE, do not spend time on full advert-level boundary work yet.
-If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 73-market UK recurrence/slice assessment.
+If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 78-market UK recurrence/slice assessment.
