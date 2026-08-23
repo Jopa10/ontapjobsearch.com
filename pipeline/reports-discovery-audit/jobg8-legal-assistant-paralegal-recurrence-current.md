@@ -1,8 +1,9 @@
 # JobG8 Legal Assistant / Paralegal regional recurrence — current feed
 
 Canonical UK assessment universe: **78 markets**.
-LIKELY_IN jobs mapped into the universe: **231**.
-BORDERLINE jobs mapped into the universe: **9**.
+Counts use content-unique adverts after source-reference dedupe.
+LIKELY_IN jobs mapped into the universe: **228**.
+BORDERLINE jobs mapped into the universe: **8**.
 Markets with at least one LIKELY_IN job: **45 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
@@ -14,7 +15,7 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| London | 49 | 0 | 49 |
+| London | 48 | 0 | 48 |
 | Suffolk | 28 | 2 | 30 |
 | Essex | 22 | 0 | 22 |
 | Norfolk | 13 | 0 | 13 |
@@ -23,10 +24,10 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Surrey | 7 | 0 | 7 |
 | West Midlands - Birmingham & Solihull | 6 | 0 | 6 |
 | Greater Manchester - Manchester & Salford | 5 | 2 | 7 |
-| Bedfordshire | 5 | 0 | 5 |
 | Hertfordshire | 5 | 0 | 5 |
 | Nottinghamshire | 5 | 0 | 5 |
 | Wiltshire | 4 | 1 | 5 |
+| Bedfordshire | 4 | 0 | 4 |
 | Derbyshire | 4 | 0 | 4 |
 | Devon | 4 | 0 | 4 |
 | North Scotland | 4 | 0 | 4 |
@@ -39,10 +40,10 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Scotland West - Glasgow | 3 | 0 | 3 |
 | Berkshire | 2 | 0 | 2 |
 | Cambridgeshire | 2 | 0 | 2 |
-| Lincolnshire | 2 | 0 | 2 |
 | North East | 2 | 0 | 2 |
 | Oxfordshire | 2 | 0 | 2 |
 | Scotland Central - Edinburgh & Lothians | 2 | 0 | 2 |
 | Shropshire | 2 | 0 | 2 |
+| Wales South - Cardiff & Vale | 2 | 0 | 2 |
 
 This report is diagnostic evidence only. New-family LIVE activation remains an explicit owner decision after the governed family boundary and national validation are complete.

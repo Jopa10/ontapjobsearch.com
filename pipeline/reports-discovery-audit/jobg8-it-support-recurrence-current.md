@@ -1,6 +1,7 @@
 # JobG8 IT Support regional recurrence — current feed
 
 Canonical UK assessment universe: **78 markets**.
+Counts use content-unique adverts after source-reference dedupe.
 LIKELY_IN jobs mapped into the universe: **33**.
 BORDERLINE jobs mapped into the universe: **26**.
 Markets with at least one LIKELY_IN job: **16 / 78**.

@@ -1,19 +1,19 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-National LIKELY_IN + BORDERLINE inventory: **242** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **238** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **49**
+- LIKELY_IN: **48**
 - BORDERLINE: **0**
 - Provisional OUT: **11**
 
 Most common LIKELY_IN titles:
 
 - Conveyancing Assistant: 4
-- Legal Secretary: 3
 - Legal Admin & PA FTC: 2
+- Legal Secretary: 2
 - Legal PA: 2
 - Trade Mark Paralegal: 2
 - Immigration Paralegal: 2

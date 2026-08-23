@@ -3,35 +3,38 @@
 Feed: **2026-08-23.xlsx**
 Jobs in feed: **10,000**
 Raw broad possible universe before exclusions/dedupe: **281**
-Duplicates within broad universe: **0**
-Deduped broad universe: **281**
+Reference-key duplicates within broad universe: **0**
+Reference-deduped broad universe: **281**
+Additional cross-reference content duplicates: **4**
+Content-unique broad universe: **277**
 
 This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.
+All source rows remain in the CSV with duplicate flags; viability, geography and recurrence use content-unique adverts.
 Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is not excluded; missing salary is retained.**
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **233**
-Provisional BORDERLINE: **9**
+Provisional LIKELY_IN: **230**
+Provisional BORDERLINE: **8**
 Provisional OUT (specialist/salary): **39**
-Estimated genuine inventory before deep advert review: **~237** (working range **233–242**).
+Estimated genuine inventory before deep advert review: **~234** (working range **230–238**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **GO / SCALE CLEAR**.
 
 ## Provisional decision breakdown
 
-| Decision | Deduped jobs |
+| Decision | Content-unique jobs |
 |---|---:|
-| LIKELY_IN | 233 |
+| LIKELY_IN | 230 |
 | OUT_SALARY | 21 |
 | OUT_SPECIALIST | 18 |
-| BORDERLINE | 9 |
+| BORDERLINE | 8 |
 
-## Salary distribution — deduped broad universe
+## Salary distribution — content-unique broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| £25k–£30k | 97 |
+| £25k–£30k | 93 |
 | missing/unknown | 63 |
 | £30k–£40k | 57 |
 | <£25k | 30 |
@@ -44,22 +47,22 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| Legal | 219 |
-| Administration | 56 |
+| Legal | 218 |
+| Administration | 53 |
 | Executive Positions | 5 |
 | Call Centre / CustomerService | 1 |
 
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Deduped candidates mapping into that UK market universe: **278**.
-Deduped candidates outside it or unresolved: **3**.
+Content-unique candidates mapping into that UK market universe: **274**.
+Content-unique candidates outside it or unresolved: **3**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| London | 60 | YES |
+| London | 59 | YES |
 | Suffolk | 35 | YES |
 | Essex | 26 | YES |
 | Norfolk | 13 | YES |
@@ -71,11 +74,11 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | Surrey | 7 | YES |
 | Hertfordshire | 6 | YES |
 | Devon | 5 | YES |
-| Leicestershire | 5 | YES |
-| Bedfordshire | 5 | YES |
 | Nottinghamshire | 5 | YES |
 | Yorkshire - South | 5 | YES |
 | Wiltshire | 5 | YES |
+| Leicestershire | 4 | YES |
+| Bedfordshire | 4 | YES |
 | Derbyshire | 4 | YES |
 | North Scotland | 4 | YES |
 | Yorkshire - North | 4 | YES |
@@ -86,9 +89,9 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | Scotland West - Glasgow | 3 | YES |
 | Oxfordshire | 2 | YES |
 | Shropshire | 2 | YES |
-| Lincolnshire | 2 | YES |
 | Yorkshire - East | 2 | YES |
 | Berkshire | 2 | YES |
+| North East | 2 | YES |
 
 ## Next gate
 
