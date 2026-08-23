@@ -12,6 +12,7 @@ on:
       - app/_city-pages/configured-slices/**/customer-sales-jobs.json
       - pipeline/scripts/build_daily_region_overview.py
       - pipeline/scripts/assess_daily_family_coverage.py
+      - pipeline/tests/test_build_daily_region_overview.py
       - .github/workflows/build-daily-region-overview.yml
   workflow_run:
     workflows:
@@ -47,10 +48,14 @@ jobs:
       - name: Install overview dependencies
         run: python -m pip install --upgrade pip pandas openpyxl
 
+      - name: Test canonical LIVE region rollups
+        working-directory: pipeline
+        run: python -m unittest tests.test_build_daily_region_overview -v
+
       - name: Build daily regional overview
         run: python pipeline/scripts/build_daily_region_overview.py
 
-      - name: Apply same-feed 55-market family coverage
+      - name: Apply same-feed 78-market family coverage
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage --apply-existing
 
