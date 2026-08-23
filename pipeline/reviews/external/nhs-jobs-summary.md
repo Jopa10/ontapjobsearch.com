@@ -2,10 +2,10 @@
 
 review_date: 2026-08-23
 
-- Open Administrative & Clerical rows reviewed: 2401
-- Auto/remembered selected: 742
-- Selected HC Tier A: 288
-- Selected HC Tier B: 454
+- Open Administrative & Clerical rows reviewed: 2399
+- Auto/remembered selected: 740
+- Selected HC Tier A: 287
+- Selected HC Tier B: 453
 - POSS awaiting decision: 1179
 - Excluded: 0
 - HARD_PASS: 480
