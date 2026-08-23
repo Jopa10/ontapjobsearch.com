@@ -4,6 +4,9 @@ Uses the governed reusable family-discovery output as the occupational selector,
 joins accepted content-unique JobG8 rows back to the current feed to produce inspectable
 proof slices. This is test evidence only: it does not touch the LIVE slice register,
 production output or public pages.
+
+The workflow deliberately rebuilds discovery from current main inputs before this
+selector runs, so proof output never depends on a stale branch-side feed snapshot.
 """
 from __future__ import annotations
 
