@@ -12,8 +12,10 @@ on:
       - 'pipeline/scripts/jobg8_claims_family_validate.py'
       - 'pipeline/scripts/jobg8_claims_slice_viability.py'
       - 'pipeline/scripts/jobg8_family_discovery.py'
+      - 'pipeline/scripts/jobg8_family_recurrence.py'
       - 'pipeline/config/family_discovery/*.json'
       - 'pipeline/config/uk_assessable_regions.json'
+      - 'pipeline/geo/geo_lookup.xlsx'
 
 permissions:
   contents: write
@@ -132,6 +134,23 @@ jobs:
             [ -f "$report" ] && cat "$report" >> "$GITHUB_STEP_SUMMARY"
           done
 
+      - name: Build governed family regional recurrence
+        run: |
+          set -euo pipefail
+          for config in pipeline/config/family_discovery/*.json; do
+            family_key="$(python -c 'import json,sys; print(json.load(open(sys.argv[1]))["family_key"])' "$config")"
+            stem="${family_key//_/-}"
+            discovery="pipeline/reports-discovery-audit/jobg8-${stem}-discovery-current.csv"
+            if [ -f "$discovery" ]; then
+              python -m pipeline.scripts.jobg8_family_recurrence \
+                --discovery-csv "$discovery" \
+                --config "$config" \
+                --assessable-regions pipeline/config/uk_assessable_regions.json \
+                --output-dir pipeline/reports-discovery-audit
+              cat "pipeline/reports-discovery-audit/jobg8-${stem}-recurrence-current.md" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
       - name: Commit diagnostic outputs only
         run: |
           set -euo pipefail
@@ -150,14 +169,14 @@ jobs:
           )
           while IFS= read -r -d '' file; do
             files+=("$file")
-          done < <(find pipeline/reports-discovery-audit -maxdepth 1 -type f \( -name 'jobg8-*-discovery-current.csv' -o -name 'jobg8-*-discovery-current.md' \) -print0)
+          done < <(find pipeline/reports-discovery-audit -maxdepth 1 -type f \( -name 'jobg8-*-discovery-current.csv' -o -name 'jobg8-*-discovery-current.md' -o -name 'jobg8-*-recurrence-current.csv' -o -name 'jobg8-*-recurrence-current.md' \) -print0)
           git add -- "${files[@]}"
           if git diff --cached --quiet; then
             echo 'Discovery audit unchanged'
             exit 0
           fi
           staged="$(git diff --cached --name-only)"
-          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current|jobg8-claims-family-validation-current|jobg8-claims-slice-viability-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$|^pipeline/reports-discovery-audit/jobg8-[a-z0-9-]+-discovery-current\.(csv|md)$' || true)"
+          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current|jobg8-claims-family-validation-current|jobg8-claims-slice-viability-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$|^pipeline/reports-discovery-audit/jobg8-[a-z0-9-]+-(discovery|recurrence)-current\.(csv|md)$' || true)"
           if [ -n "$unexpected" ]; then
             echo '::error::Unexpected staged path(s):'
             printf '%s\n' "$unexpected"
