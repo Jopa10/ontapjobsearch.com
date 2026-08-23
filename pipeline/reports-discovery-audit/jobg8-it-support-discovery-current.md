@@ -53,20 +53,20 @@ Classification column: **/Job/Classification**
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Deduped candidates mapping into that UK market universe: **63**.
-Deduped candidates outside it or unresolved: **12**.
+Deduped candidates mapping into that UK market universe: **64**.
+Deduped candidates outside it or unresolved: **11**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| Other / Unknown | 11 | NO |
 | London | 11 | YES |
+| Other / Unknown | 10 | NO |
 | Essex | 5 | YES |
+| Hertfordshire | 4 | YES |
 | Surrey | 4 | YES |
 | Kent | 4 | YES |
 | Berkshire | 3 | YES |
-| Hertfordshire | 3 | YES |
 | Hampshire | 3 | YES |
 | Sussex | 2 | YES |
 | West Midlands - Birmingham & Solihull | 2 | YES |

@@ -51,34 +51,34 @@ Geography uses the same geo_lookup Area→Cluster and controlled LocationFallbac
 
 | Broad family | Total | Existing register | New / uncovered | Ontap regions | Median / region | Regions 5+ | Regions 10+ | Geo unknown | Top regions |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Admin / Customer Service | 1,560 | 679 | 881 | 85 | 8 | 53 | 40 | 248 | London (241); Surrey (74); North East - Tyneside, Wearside & Northumberland (57); Hampshire (53); Kent (41) |
-| Professional Finance / Accountancy | 1,248 | 220 | 1,028 | 78 | 11.0 | 54 | 42 | 65 | London (182); Bristol & Bath (48); Yorkshire - West (41); Devon (39); Sussex (39) |
-| Sales / Business Development | 898 | 0 | 898 | 77 | 7 | 50 | 26 | 74 | London (128); North East - Tyneside, Wearside & Northumberland (70); Hampshire (34); Kent (26); Yorkshire - West (25) |
-| Legal / Conveyancing | 817 | 0 | 817 | 65 | 5 | 33 | 21 | 23 | London (162); Essex (67); Suffolk (64); Norfolk (39); Yorkshire - West (31) |
-| Healthcare / Clinical | 565 | 0 | 565 | 78 | 4.0 | 31 | 13 | 54 | London (83); Hampshire (31); Sussex (29); Surrey (23); North East - Tyneside, Wearside & Northumberland (18) |
-| HR / Recruitment | 479 | 119 | 360 | 62 | 4.0 | 29 | 14 | 46 | London (71); Bristol & Bath (25); Hampshire (22); Yorkshire - West (17); Berkshire (15) |
-| Management / Team Leadership | 360 | 0 | 360 | 74 | 3.0 | 26 | 7 | 30 | London (23); Oxfordshire (19); Kent (16); Hampshire (13); Sussex (12) |
-| IT / Data / Software | 360 | 0 | 360 | 55 | 3 | 19 | 6 | 31 | London (73); Hampshire (39); Bristol & Bath (20); Gloucestershire (15); Greater Manchester - Manchester & Salford (13) |
-| Care / Support Work | 331 | 111 | 220 | 68 | 2.5 | 19 | 4 | 34 | London (34); Hampshire (25); Sussex (17); Surrey (13); Greater Manchester - Manchester & Salford (9) |
+| Admin / Customer Service | 1,560 | 679 | 881 | 85 | 8 | 53 | 40 | 233 | London (241); Surrey (74); North East - Tyneside, Wearside & Northumberland (57); Hampshire (53); Kent (41) |
+| Professional Finance / Accountancy | 1,248 | 220 | 1,028 | 78 | 11.0 | 54 | 42 | 62 | London (182); Bristol & Bath (48); Yorkshire - West (41); Devon (39); Sussex (39) |
+| Sales / Business Development | 898 | 0 | 898 | 77 | 7 | 50 | 26 | 73 | London (128); North East - Tyneside, Wearside & Northumberland (70); Hampshire (34); Kent (26); Yorkshire - West (25) |
+| Legal / Conveyancing | 817 | 0 | 817 | 66 | 5.5 | 34 | 21 | 15 | London (162); Essex (67); Suffolk (64); Norfolk (39); Yorkshire - West (32) |
+| Healthcare / Clinical | 565 | 0 | 565 | 78 | 4.0 | 31 | 14 | 52 | London (83); Hampshire (31); Sussex (29); Surrey (23); North East - Tyneside, Wearside & Northumberland (18) |
+| HR / Recruitment | 479 | 119 | 360 | 62 | 4.0 | 29 | 14 | 44 | London (71); Bristol & Bath (25); Hampshire (22); Yorkshire - West (17); Hertfordshire (15) |
+| Management / Team Leadership | 360 | 0 | 360 | 74 | 3.0 | 26 | 8 | 27 | London (23); Oxfordshire (20); Kent (16); Hampshire (13); Sussex (12) |
+| IT / Data / Software | 360 | 0 | 360 | 55 | 3 | 19 | 6 | 30 | London (73); Hampshire (39); Bristol & Bath (20); Gloucestershire (15); Greater Manchester - Manchester & Salford (13) |
+| Care / Support Work | 331 | 111 | 220 | 68 | 2.5 | 20 | 4 | 29 | London (34); Hampshire (25); Sussex (17); Surrey (13); Greater Manchester - Manchester & Salford (9) |
 | Engineering / Technical | 310 | 0 | 310 | 59 | 3 | 22 | 7 | 27 | London (41); Bristol & Bath (16); Hertfordshire (11); Gloucestershire (10); Sussex (10) |
-| Financial Advice / Mortgages | 227 | 0 | 227 | 54 | 3.0 | 16 | 5 | 6 | London (21); Bristol & Bath (13); Hampshire (11); Essex (11); Yorkshire - West (11) |
-| Marketing / Digital / Creative | 219 | 0 | 219 | 51 | 2 | 9 | 2 | 26 | London (62); Surrey (10); Greater Manchester - Manchester & Salford (9); Kent (8); Yorkshire - North (7) |
+| Financial Advice / Mortgages | 227 | 0 | 227 | 54 | 3.0 | 16 | 5 | 5 | London (21); Bristol & Bath (13); Hampshire (11); Essex (11); Yorkshire - West (11) |
+| Marketing / Digital / Creative | 219 | 0 | 219 | 51 | 2 | 9 | 2 | 25 | London (62); Surrey (10); Greater Manchester - Manchester & Salford (9); Kent (8); Yorkshire - North (7) |
 | Retail / Store | 208 | 0 | 208 | 61 | 2 | 10 | 2 | 25 | London (17); Yorkshire - North (12); Greater Manchester - Manchester & Salford (9); Wiltshire (8); Oxfordshire (7) |
 | Market Research / Field Interviewing | 158 | 0 | 158 | 39 | 1 | 8 | 2 | 51 | Wiltshire (12); London (11); Worcestershire (9); North Scotland (6); Northamptonshire (5) |
 | Construction / Trades / Property | 142 | 0 | 142 | 42 | 2.0 | 7 | 1 | 9 | London (27); Greater Manchester - Manchester & Salford (9); Cambridgeshire (7); Essex (6); Kent (5) |
 | Insurance / Claims | 137 | 0 | 137 | 31 | 2 | 4 | 1 | 12 | London (43); Yorkshire - West (9); Merseyside - Liverpool (8); Essex (7); Norfolk (4) |
-| Operations / General Management | 114 | 0 | 114 | 41 | 1 | 6 | 1 | 11 | London (22); Oxfordshire (8); Hampshire (7); Devon (6); Essex (5) |
+| Operations / General Management | 114 | 0 | 114 | 41 | 1 | 6 | 1 | 10 | London (22); Oxfordshire (8); Hampshire (7); Devon (6); Essex (5) |
 | Property / Housing / Planning | 79 | 0 | 79 | 35 | 1 | 1 | 1 | 10 | London (13); Sussex (4); Hertfordshire (4); Cumbria - North (3); Nottinghamshire (3) |
 | Procurement / Buying / Supply Chain | 64 | 0 | 64 | 27 | 2 | 2 | 0 | 12 | London (8); Essex (5); Derbyshire (3); Surrey (3); Yorkshire - West (2) |
 | Compliance / Risk / Quality | 63 | 0 | 63 | 24 | 1.0 | 1 | 1 | 5 | London (18); Cambridgeshire (4); Scotland Central - Edinburgh & Lothians (4); Wiltshire (3); Bristol & Bath (3) |
 | Education / Teaching | 60 | 0 | 60 | 23 | 1 | 3 | 1 | 8 | London (12); Cumbria - South (6); Sussex (5); Lancashire - North (4); Wiltshire (3) |
-| Charity / Fundraising / Community | 43 | 0 | 43 | 17 | 1 | 1 | 1 | 4 | London (14); Buckinghamshire (4); Surrey (3); Yorkshire - West (2); Hampshire (2) |
+| Charity / Fundraising / Community | 43 | 0 | 43 | 18 | 1.0 | 1 | 1 | 3 | London (14); Buckinghamshire (4); Surrey (3); Yorkshire - West (2); Hampshire (2) |
 | Driving / Warehouse / Logistics | 42 | 3 | 39 | 26 | 1.0 | 1 | 0 | 5 | London (5); Kent (2); West Midlands - Coventry & Warwickshire (2); West Midlands - Birmingham & Solihull (2); Berkshire (2) |
 | Employment Support / Careers | 32 | 0 | 32 | 15 | 1 | 1 | 1 | 2 | London (12); Wales - Mid (2); Hampshire (2); Cornwall (2); Yorkshire - North (2) |
 | Hospitality / Catering | 19 | 0 | 19 | 9 | 1 | 1 | 0 | 0 | London (6); Gloucestershire (4); Lincolnshire (2); Oxfordshire (2); Essex (1) |
 | Science / Laboratory | 15 | 0 | 15 | 9 | 1 | 0 | 0 | 3 | Gloucestershire (3); Oxfordshire (2); Worcestershire (1); Kent (1); London (1) |
 | Security / Emergency Services | 15 | 0 | 15 | 7 | 1 | 0 | 0 | 2 | London (4); Hampshire (3); Bristol & Bath (2); Greater Manchester - South (1); Cambridgeshire (1) |
-| Agriculture / Environment | 10 | 0 | 10 | 5 | 2 | 0 | 0 | 2 | London (2); Kent (2); Cheshire - Warrington & Halton (2); Oxfordshire (1); Devon (1) |
+| Agriculture / Environment | 10 | 0 | 10 | 5 | 2 | 0 | 0 | 1 | Cheshire - Warrington & Halton (3); London (2); Kent (2); Oxfordshire (1); Devon (1) |
 | Manufacturing / Production | 10 | 0 | 10 | 8 | 1.0 | 0 | 0 | 1 | Worcestershire (2); Norfolk (1); Hampshire (1); Suffolk (1); North East - Tyneside, Wearside & Northumberland (1) |
 | Cleaning / Domestic / Facilities | 9 | 0 | 9 | 6 | 1.0 | 0 | 0 | 1 | Northamptonshire (2); Hertfordshire (2); Dorset (1); London (1); Essex (1) |
 
