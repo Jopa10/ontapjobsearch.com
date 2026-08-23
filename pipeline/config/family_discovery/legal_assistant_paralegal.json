@@ -11,20 +11,18 @@
     "\\blegal\\s+administrator\\b",
     "\\blegal\\s+admin\\b",
     "\\blegal\\s+secretar(y|ial)\\b",
+    "\\blegal\\s+(pa|personal\\s+assistant)\\b",
+    "\\blegal\\s+(team|support)\\s+assistant\\b",
+    "\\blegal\\s+support\\s+(assistant|administrator)\\b",
     "\\blaw\\s+assistant\\b",
-    "\\bcasework(er)?\\b",
-    "\\bcase\\s+handler\\b",
-    "\\bcase\\s+administrator\\b",
-    "\\bcase\\s+assistant\\b",
     "\\blitigation\\s+assistant\\b",
     "\\bconveyancing\\s+assistant\\b",
-    "\\bconveyancing\\s+paralegal\\b",
+    "\\bconveyancing\\s+(administrator|secretary|paralegal)\\b",
+    "\\bresidential\\s+conveyancing\\s+secretary\\b",
     "\\bproperty\\s+paralegal\\b",
-    "\\bprobate\\s+assistant\\b",
-    "\\bprobate\\s+paralegal\\b",
-    "\\bfamily\\s+law\\s+(assistant|paralegal)\\b",
-    "\\bemployment\\s+law\\s+(assistant|paralegal)\\b",
-    "\\bclaims?\\s+handler\\b"
+    "\\bprobate\\s+(assistant|administrator|paralegal)\\b",
+    "\\bfamily\\s+(law\\s+)?(assistant|paralegal)\\b",
+    "\\bemployment\\s+(law\\s+)?(assistant|paralegal)\\b"
   ],
   "description_signals": [
     "legal assistant",
@@ -32,20 +30,15 @@
     "legal administration",
     "legal administrator",
     "legal secretary",
-    "case management",
-    "case files",
     "legal documents",
     "court documents",
-    "client files",
     "conveyancing",
     "probate",
-    "litigation",
-    "law firm",
-    "solicitors"
+    "litigation"
   ],
   "description_min_hits": 2,
   "description_title_context_patterns": [
-    "\\b(legal|law|paralegal|case|claims?|conveyancing|litigation|probate|secretary|administrator|assistant)\\b"
+    "\\b(legal|law|paralegal|conveyancing|litigation|probate|secretary|administrator|assistant|pa)\\b"
   ],
   "likely_in_title_patterns": [
     "\\bparalegal\\b",
@@ -53,21 +46,23 @@
     "\\blegal\\s+administrator\\b",
     "\\blegal\\s+admin\\b",
     "\\blegal\\s+secretar(y|ial)\\b",
+    "\\blegal\\s+(pa|personal\\s+assistant)\\b",
+    "\\blegal\\s+(team|support)\\s+assistant\\b",
+    "\\blegal\\s+support\\s+(assistant|administrator)\\b",
     "\\blaw\\s+assistant\\b",
-    "\\bcase\\s+administrator\\b",
-    "\\bcase\\s+assistant\\b",
     "\\blitigation\\s+assistant\\b",
     "\\bconveyancing\\s+assistant\\b",
-    "\\bconveyancing\\s+paralegal\\b"
+    "\\bconveyancing\\s+(administrator|secretary|paralegal)\\b",
+    "\\bresidential\\s+conveyancing\\s+secretary\\b",
+    "\\bprobate\\s+(assistant|administrator|paralegal)\\b"
   ],
   "borderline_title_patterns": [
-    "\\bcasework(er)?\\b",
-    "\\bcase\\s+handler\\b",
     "\\bproperty\\s+paralegal\\b",
-    "\\bprobate\\s+(assistant|paralegal)\\b",
-    "\\bfamily\\s+law\\s+(assistant|paralegal)\\b",
-    "\\bemployment\\s+law\\s+(assistant|paralegal)\\b",
-    "\\bclaims?\\s+handler\\b"
+    "\\bfamily\\s+(law\\s+)?(assistant|paralegal)\\b",
+    "\\bemployment\\s+(law\\s+)?(assistant|paralegal)\\b",
+    "\\bfee\\s+earner\\b",
+    "\\bfile\\s+handler\\b",
+    "\\blitigation\\s+officer\\b"
   ],
   "specialist_out_title_patterns": [
     "\\b(solicitor|barrister|lawyer|attorney)\\b",
@@ -80,6 +75,8 @@
     "\\blegal\\s+manager\\b",
     "\\bsenior\\s+associate\\b",
     "\\bassociate\\s+solicitor\\b",
-    "\\btrainee\\s+solicitor\\b"
+    "\\btrainee\\s+solicitor\\b",
+    "\\blicensed\\s+conveyancer\\b",
+    "\\blegal\\s+executive\\b"
   ]
 }
