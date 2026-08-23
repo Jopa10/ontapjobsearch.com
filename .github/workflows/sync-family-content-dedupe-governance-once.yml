@@ -1,0 +1,44 @@
+name: Sync family content dedupe governance once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-family-content-dedupe-governance-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Document content-unique family evidence
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          additions = {
+            'SYSTEM_MAP.md': '- 23 August 2026 — **Content-unique new-family evidence:** reusable family discovery now retains every source row and reference-level duplicate flag for audit, but also calculates a normalized advert-content fingerprint so the same vacancy syndicated under different JobG8 display references is counted once. National viability, 78-market recurrence, proof-region evidence and reusable boundary-review queues all use the content-unique advert set.\n',
+            'SYSTEM_OVERVIEW.md': '- 23 August 2026 — New-family scale and regional spread now use **content-unique adverts**, so the same vacancy arriving under different JobG8 reference IDs does not inflate family viability or market counts; all original rows remain available for audit.\n',
+          }
+          for filename, bullet in additions.items():
+              p = Path(filename)
+              text = p.read_text(encoding='utf-8')
+              marker = '**Content-unique new-family evidence:**' if filename == 'SYSTEM_MAP.md' else '**content-unique adverts**'
+              if marker not in text:
+                  text = text.replace('## Recent canonical changes\n\n', '## Recent canonical changes\n\n' + bullet, 1)
+                  p.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit and remove helper
+        run: |
+          set -euo pipefail
+          git add SYSTEM_MAP.md SYSTEM_OVERVIEW.md
+          git rm .github/workflows/sync-family-content-dedupe-governance-once.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Document content-unique family evidence'
+          git pull --rebase origin main
+          git push origin HEAD:main
