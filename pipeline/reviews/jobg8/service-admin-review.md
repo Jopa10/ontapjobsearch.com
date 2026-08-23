@@ -1293,12 +1293,6 @@ job_id: c44ee367-0046-4f1f-a9d9-03a689ed7be6
 
 ---
 action:
-SELECTED | London | London |  | Paraplanner to Junior Adviser
-job_id: a8297d2c-e64f-4d8c-8058-8ff1f2a42db0
----
-
----
-action:
 SELECTED | London | Harrow | £26500 - £28000 per year | HR Administrator
 job_id: a36ca112-1fcc-4950-ab57-f6225f19172f
 ---
@@ -1871,12 +1865,6 @@ job_id: 107812501
 action:
 SELECTED | Surrey | Surrey | £16 per hour | Customer Service Administrator
 job_id: 565cad20-0b54-4bc6-bad6-0feb63197949
----
-
----
-action:
-SELECTED | Surrey | Surrey |  | Paraplanner to Trainee Financial Adviser
-job_id: 354c474c-e339-4a7e-bb0e-d2913171b3f8
 ---
 
 ---
@@ -2846,12 +2834,6 @@ job_id: 23643_225516949
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £28000 per year | Learning and Development Coordinator
-job_id: 107875425
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £13.45 per hour | Temporary Customer Service Administrator
 job_id: ad75989e-18ff-4ce7-8011-5c311dcf878f
 ---
@@ -2876,7 +2858,11 @@ job_id: 3b87e4c5-8d1e-4007-869f-caf58a2f5d37
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | HR Assistant
+job_id: 4aeb6dcb-44ea-4503-b1f4-0ba011dd9846
+---
 ## BERKSHIRE — SELECTED
 
 ---
@@ -3349,12 +3335,6 @@ job_id: 23643_225465957
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire | £45000 - £60000 per year | Paraplanner
-job_id: 7dd05b0a-104f-408d-8bd7-54be423c3105
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £26000 - £28000 per year | Field Services Coordinator
 job_id: 23643_225473506
 ---
@@ -3363,12 +3343,6 @@ job_id: 23643_225473506
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £32000 - £37000 per year | Sales Administrator
 job_id: e0a165a2-d2e1-4615-9593-929fb2eda820
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Paraplanner
-job_id: 107835081
 ---
 
 ---
@@ -3941,6 +3915,12 @@ SELECTED | Cornwall | Redruth | £13.5 per hour | On Site Coordinator
 job_id: 107870927
 ---
 
+---
+action:
+SELECTED | Cornwall | St. Austell |  | Streetworks Administrator
+job_id: 107864350
+---
+
 ## CORNWALL — POSSIBLES
 
 _No jobs in this group._
@@ -4215,6 +4195,12 @@ job_id: 9969fb1e-f185-4eae-9773-c2befd320b74
 action:
 SELECTED | Devon | Devon | £27000 - £28000 per year | Finance & Accounts Administrator
 job_id: 55f2c426-2154-47c1-b35e-9a27256673ee
+---
+
+---
+action:
+SELECTED | Devon | Devon | £28000 per year | Project Administrator
+job_id: 107770661
 ---
 
 ## DEVON — POSSIBLES
@@ -4497,12 +4483,6 @@ job_id: 23643_225476476
 action:
 SELECTED | Essex | Essex | £20 per hour | HR Administrator
 job_id: 0eace40b-439a-4085-9b58-765d6a80a231
----
-
----
-action:
-SELECTED | Essex | Essex | £27976 - £31820 per year | Customer Service Advisor
-job_id: 23643_225499225
 ---
 
 ---
@@ -5125,139 +5105,157 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Hertfordshire | Watford | £30000 per year | Sales Administrator
+SELECTED | Hertfordshire | Hertfordshire | £30000 per year | Sales Administrator
 job_id: 23643_225418404
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Letchworth Garden City | £14.24 per hour | Medical Receptionist
+SELECTED | Hertfordshire | Hertfordshire | £14.24 per hour | Medical Receptionist
 job_id: 23643_225315175
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | St. Albans |  | Project and Sales Support Coordinator
+SELECTED | Hertfordshire | Hertfordshire |  | Project and Sales Support Coordinator
 job_id: 23643_225429500
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hitchin | £14.83 per hour (+ Permanent staff benefits) | Part Time Administrator
+SELECTED | Hertfordshire | Hertfordshire | £14.83 per hour (+ Permanent staff benefits) | Part Time Administrator
 job_id: 23643_225445999
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Stevenage | £14 per hour | Receptionist
+SELECTED | Hertfordshire | Hertfordshire | £14 per hour | Receptionist
 job_id: 23643_225446764
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Stevenage | £26000 - £28000 per year (benefits) | Sales Coordinator
+SELECTED | Hertfordshire | Hertfordshire | £28000 - £28300 per year | Office administrator
+job_id: 23643_225469966
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £26000 - £28000 per year (benefits) | Sales Coordinator
 job_id: 23643_225473001
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Bishop's Stortford | £13 - £15 per hour | Temporary Receptionist
+SELECTED | Hertfordshire | Hertfordshire | £13 - £15 per hour | Temporary Receptionist
 job_id: 23643_225476681
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hatfield | £29000 - £30000 per year | Van Sales Administrator
+SELECTED | Hertfordshire | Hertfordshire | £29000 - £30000 per year | Van Sales Administrator
 job_id: 0166c82c-3d15-4d2a-a8cf-a06c2cfa9336
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hoddesdon | £10 per hour | Apprentice Bid Coordinator
+SELECTED | Hertfordshire | Hertfordshire | £10 per hour | Apprentice Bid Coordinator
 job_id: 107821330
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hemel Hempstead | £29000 - £35000 per year | HR Administrator
+SELECTED | Hertfordshire | Hertfordshire | £29000 - £35000 per year | HR Administrator
 job_id: 6d20b85d-445b-4c01-8daf-f64841e51b77
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hemel Hempstead | £34000 - £38000 per year | HR Coordinator
+SELECTED | Hertfordshire | Hertfordshire | £34000 - £38000 per year | HR Coordinator
 job_id: dcbcfd5c-1ef5-4bcb-9280-e2d1c999aae6
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hemel Hempstead | £13 per hour | Medical Receptionist
+SELECTED | Hertfordshire | Hertfordshire | £13 per hour | Medical Receptionist
 job_id: 23643_225498009
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Royston | £32000 - £35000 per year | Office Coordinator
+SELECTED | Hertfordshire | Hertfordshire | £27976 - £31820 per year | Customer Service Advisor
+job_id: 23643_225499225
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £32000 - £35000 per year | Office Coordinator
 job_id: 1c101d4c-f45a-480d-af54-c5f42e61ed95
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Letchworth Garden City | £27500 - £31000 per year | Internal Sales Administrator
+SELECTED | Hertfordshire | Hertfordshire | £27500 - £31000 per year | Internal Sales Administrator
 job_id: 5582b17d-7741-4c9a-9d77-69afac7db9e5
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Welwyn Garden City | £16.5 per hour | Financial Administrator
+SELECTED | Hertfordshire | Hertfordshire | £16.5 per hour | Financial Administrator
 job_id: 32e86874-0dbd-4e77-9626-669751cee6f7
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Stevenage | £12.71 per hour | Customer Service Advisor
+SELECTED | Hertfordshire | Hertfordshire | £12.71 per hour | Customer Service Advisor
 job_id: 71430e77-0ba5-4c96-b670-57709e51ac59
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hatfield | £30000 - £32000 per year | Administrator
+SELECTED | Hertfordshire | Hertfordshire | £14 - £15 per hour (Remote working) | Administrator
+job_id: 23643_225511173
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £30000 - £32000 per year | Administrator
 job_id: 8e6c1a5a-c668-45b1-9de6-53d744d43a70
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | St. Albans | £25,000-£26,000 per annum | Finance Assistant
+SELECTED | Hertfordshire | Hertfordshire | £25,000-£26,000 per annum | Finance Assistant
 job_id: 1682613
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Royston |  | Contracts Administrator
+SELECTED | Hertfordshire | Hertfordshire |  | Contracts Administrator
 job_id: 107580099
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Stevenage | £13 - £13.5 per hour | Administrator
+SELECTED | Hertfordshire | Hertfordshire | £13 - £13.5 per hour | Administrator
 job_id: 23643_225522549
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hemel Hempstead | £35000 - £40000 per year | Office Operations and Customer Care Co-ordinator
+SELECTED | Hertfordshire | Hertfordshire | £35000 - £40000 per year | Office Operations and Customer Care Co-ordinator
 job_id: 23643_225522507
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Puckeridge | £28000 - £29000 per year (+ benefits) | Office Administrator
+SELECTED | Hertfordshire | Hertfordshire | £28000 - £29000 per year (+ benefits) | Office Administrator
 job_id: 23643_225521989
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Welwyn Garden City | £17 per hour | Administrator
+SELECTED | Hertfordshire | Hertfordshire | £17 per hour | Administrator
 job_id: 23643_225471282
 ---
 
@@ -5341,20 +5339,8 @@ job_id: 107759995
 
 ---
 action:
-SELECTED | Leicestershire | Leicestershire |  | Paraplanner
-job_id: 107681241
----
-
----
-action:
 SELECTED | Leicestershire | Leicestershire | £30000 - £34000 per year | Claims Handler
 job_id: e6761f0d-dbba-47d5-8ce5-77ed94a16271
----
-
----
-action:
-SELECTED | Leicestershire | Leicestershire |  | Paraplanner
-job_id: e3418414-c1c3-4d7b-8cfb-7aa4b639c4c0
 ---
 
 ---
@@ -5671,6 +5657,12 @@ job_id: 23643_225469088
 
 ---
 action:
+SELECTED | Norfolk | Norfolk |  | Distribution Administrator
+job_id: 8ca5d9cf-ca80-4cfd-9d69-5c8823722459
+---
+
+---
+action:
 SELECTED | Norfolk | Norfolk | £26500 per year | Student Administration Assistant
 job_id: 23643_225475160
 ---
@@ -5685,6 +5677,12 @@ job_id: 23643_225475427
 action:
 SELECTED | Norfolk | Norfolk | £12.82 per hour | Data Administrator
 job_id: 24fac795-cdac-4abf-ab13-9b445c8f0f0a
+---
+
+---
+action:
+SELECTED | Norfolk | Norfolk | £28000 - £30000 per year | Accounts Assistant
+job_id: 2cf4c039-9ac0-45fb-b382-236bfe10f796
 ---
 
 ---
@@ -5753,6 +5751,18 @@ SELECTED | Norfolk | Norfolk | £27000 - £29000 per year | Accounts Assistant
 job_id: 87eab4a8-d3f1-4f72-b100-308aadab90cc
 ---
 
+---
+action:
+SELECTED | Norfolk | Norfolk | £26000 per year | Motor Claims Handler
+job_id: 107734785
+---
+
+---
+action:
+SELECTED | Norfolk | Norfolk | £30000 per year | Building Safety Levy Administrator
+job_id: 107881724
+---
+
 ## NORFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -5793,6 +5803,12 @@ job_id: 23643_225437824
 action:
 SELECTED | Northamptonshire | Northamptonshire | £12.71 per hour | Administrator
 job_id: 23643_225452802
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £28000 per year (office based, free parking) | Scheduling Administrator
+job_id: 23643_225451400
 ---
 
 ---
@@ -6011,6 +6027,12 @@ SELECTED | Nottinghamshire | Nottinghamshire |  | Bid Coordinator
 job_id: 107830819
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £26000 per year | Personal Development Coordinator
+job_id: 107880833
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -6063,12 +6085,6 @@ job_id: 107723275
 action:
 SELECTED | Oxfordshire | Oxfordshire | £12.71 - £13.5 per hour | Administrator
 job_id: 23643_225450095
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £28000 per year (office based, free parking) | Scheduling Administrator
-job_id: 23643_225451400
 ---
 
 ---
@@ -6893,6 +6909,12 @@ SELECTED | West Midlands - Birmingham & Solihull | Solihull | £29000 - £31000 
 job_id: 65c1600a-3447-4c43-9eed-fd4ff5c2ff91
 ---
 
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Solihull |  | Vehicle Sales & Accounts Administrator
+job_id: 3a0f7e52-4bbc-4a11-9c99-bd0bb417db16
+---
+
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 _No jobs in this group._
@@ -7009,12 +7031,6 @@ job_id: 107764572
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire |  | Paraplanner
-job_id: 107762896
----
-
----
-action:
 SELECTED | Wiltshire | Wiltshire |  | Office Administrator
 job_id: 23643_225454207
 ---
@@ -7093,12 +7109,6 @@ job_id: 23643_225505253
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire |  | Technical Paraplanner
-job_id: 107863674
----
-
----
-action:
 SELECTED | Wiltshire | Wiltshire | £16.23 per hour | Medical Records Administrator
 job_id: 23643_225514912
 ---
@@ -7147,7 +7157,7 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Yorkshire - East | Hull | £26000 - £30000 per year | Graduate Administrator / Office Support
+SELECTED | Yorkshire - East | Hessle | £26000 - £30000 per year | Graduate Administrator / Office Support
 job_id: 23643_225425823
 ---
 
@@ -7209,12 +7219,6 @@ job_id: 23643_225510748
 action:
 SELECTED | Yorkshire - East | Hull | £26364 per year (Benefits) | Sales Administrator
 job_id: 23643_225511107
----
-
----
-action:
-SELECTED | Yorkshire - East | Driffield | £12.71 per hour (Free Parking, Uniform provided, Discounts available) | Customer Service Assistant
-job_id: 107686523
 ---
 
 ---
@@ -7362,6 +7366,12 @@ job_id: 23643_225460911
 
 ---
 action:
+DROPPED | North East - County Durham & Darlington/Hartlepool | County Durham | £30,000 - £35,000 per annum | Paraplanner
+job_id: 107798281
+---
+
+---
+action:
 DROPPED | London | London | £75000 per year | Financial Planner
 job_id: 107787731
 ---
@@ -7424,12 +7434,6 @@ job_id: 02697e6a-9b0c-4ab5-91cc-9990a77a8008
 action:
 DROPPED | London | London | £47862 - £55514 per year | Hearings Committee Secretary
 job_id: 3d23e61e-04ce-4692-a7dc-cd1faf36f502
----
-
----
-action:
-DROPPED | London | London | £55000 per year | Paraplanner
-job_id: 107698631
 ---
 
 ---
@@ -7608,6 +7612,12 @@ job_id: 23643_225524961
 
 ---
 action:
+DROPPED | Kent | Kent | £50000 per year | Paraplanner
+job_id: 107698624
+---
+
+---
+action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £13.45 - £18.9 per hour | Customer service advisor
 job_id: 23643_225416961
 ---
@@ -7616,12 +7626,6 @@ job_id: 23643_225416961
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £35000 per year | Recruitment Coordinator
 job_id: 107682969
----
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £30,000 - £35,000 per annum | Paraplanner
-job_id: 107798281
 ---
 
 ---
