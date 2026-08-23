@@ -63,8 +63,7 @@
     "\\bfamily\\s+(law\\s+)?(assistant|paralegal)\\b",
     "\\bemployment\\s+(law\\s+)?(assistant|paralegal)\\b",
     "\\bfee\\s+earner\\b",
-    "\\bfile\\s+handler\\b",
-    "\\blitigation\\s+officer\\b"
+    "\\bfile\\s+handler\\b"
   ],
   "specialist_out_title_patterns": [
     "\\b(solicitor|barrister|lawyer|attorney)\\b",
@@ -82,6 +81,8 @@
     "\\blegal\\s+executive\\b",
     "\\bclaims?\\s+handler\\b",
     "\\blegal\\s+cashier\\b",
-    "\\bfinance\\s+assistant\\b"
+    "\\bfinance\\s+assistant\\b",
+    "\\blitigation\\s+officer\\b",
+    "\\bprobate\\s+specialist\\b"
   ]
 }
