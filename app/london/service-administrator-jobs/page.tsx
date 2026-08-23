@@ -60,6 +60,7 @@ export default function Page() {
       anchorTown="London"
       jobFilter={isLondonJob}
       sectorFilterEnabled
+      softPageBackground
       browseLinks={{
         heading: "Browse London by area",
         intro: "Use an area when the vacancy gives a reliable London location; otherwise it stays on this London-wide page.",

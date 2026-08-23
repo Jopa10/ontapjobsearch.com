@@ -79,6 +79,7 @@ type JobSlicePageProps = {
   relatedPage?: RelatedPage;
   browseLinks?: BrowseLinks;
   sectorFilterEnabled?: boolean;
+  softPageBackground?: boolean;
 };
 
 function stringList(value: unknown): string[] {
@@ -249,6 +250,7 @@ export default function JobSlicePage({
   relatedPage,
   browseLinks,
   sectorFilterEnabled = false,
+  softPageBackground = false,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
@@ -264,7 +266,14 @@ export default function JobSlicePage({
   };
 
   return (
-    <main style={{ maxWidth: 1180, margin: "36px auto", padding: "0 16px" }}>
+    <div className={softPageBackground ? styles.softPageBackground : undefined}>
+    <main
+      style={{
+        maxWidth: 1180,
+        margin: softPageBackground ? "0 auto" : "36px auto",
+        padding: softPageBackground ? "24px 16px 48px" : "0 16px",
+      }}
+    >
       <div className={styles.layout}>
         <aside className={styles.sidebar}>
           <div style={{ fontWeight: 800, marginBottom: 6 }}>
@@ -349,5 +358,6 @@ export default function JobSlicePage({
         </div>
       </div>
     </main>
+    </div>
   );
 }
