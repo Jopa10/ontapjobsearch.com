@@ -1,8 +1,9 @@
 """Build England-wide Teaching Vacancies review outputs from regional CSVs.
 
 Regional review files remain the authoritative regional evidence and approval
-boundaries. The England-wide Markdown file is the single human review surface;
-the master CSV is the quick overview. Neither output publishes jobs.
+boundaries. The England-wide Markdown file is the single human review surface
+for unresolved rows; the master CSV retains the complete review state. Neither
+output publishes jobs.
 """
 from __future__ import annotations
 
@@ -125,6 +126,12 @@ def _review_block(row: dict[str, str]) -> list[str]:
 
 def master_summary_text(rows: list[dict[str, str]]) -> str:
     live_rows = [row for row in rows if row["review_scope"] == REVIEW_NOW]
+    editable_rows = [
+        row for row in live_rows if not row.get("manual_action", "").strip()
+    ]
+    resolved_rows = [
+        row for row in live_rows if row.get("manual_action", "").strip()
+    ]
     deferred_rows = [row for row in rows if row["review_scope"] == DEFERRED]
     live_decisions = Counter(row["final_decision"] or "BLANK" for row in live_rows)
     deferred_by_region: dict[str, Counter[str]] = defaultdict(Counter)
@@ -136,12 +143,13 @@ def master_summary_text(rows: list[dict[str, str]]) -> str:
     lines = [
         "# England-wide Teaching Vacancies admin/service manual review",
         "",
-        "Edit only the `action:` line in each block:",
+        "Edit only the `action:` line in each unresolved block:",
         "",
         "- For a selected job, use `action: exclude` to remove it.",
         "- For a possible job, use `action: select` to add it.",
         "- Leave `action:` blank for no change.",
         "- Manual edits are matched by `source_job_id` and checked against the vacancy facts.",
+        "- Remembered `select` / `exclude` decisions remain in the master CSV and regional approval state, but are omitted from these editable blocks.",
         "- Only LIVE Ontap regions appear as individual review blocks.",
         "- This England-wide file is the review surface; regional files remain the approval boundaries.",
         "",
@@ -149,6 +157,8 @@ def master_summary_text(rows: list[dict[str, str]]) -> str:
         "",
         f"- All routed roles: **{len(rows)}**",
         f"- REVIEW NOW (LIVE regions): **{len(live_rows)}**",
+        f"- EDITABLE NOW (no remembered action): **{len(editable_rows)}**",
+        f"- REMEMBERED / RESOLVED: **{len(resolved_rows)}**",
         f"- DEFERRED - REGION NOT LIVE: **{len(deferred_rows)}**",
         f"- SELECTED: **{live_decisions['SELECTED']}**",
         f"- POSS: **{live_decisions['POSS']}**",
@@ -157,16 +167,17 @@ def master_summary_text(rows: list[dict[str, str]]) -> str:
     ]
 
     regions = sorted(
-        {row["ontap_region"] for row in live_rows if row["ontap_region"]},
+        {row["ontap_region"] for row in editable_rows if row["ontap_region"]},
         key=str.casefold,
     )
     sections = (
         ("SELECTED", "SELECTED"),
         ("POSS", "POSSIBLES"),
-        ("EXCLUDED", "EXCLUDED BY REVIEW"),
     )
     for region in regions:
-        region_rows = [row for row in live_rows if row["ontap_region"] == region]
+        region_rows = [
+            row for row in editable_rows if row["ontap_region"] == region
+        ]
         for decision, heading in sections:
             grouped = [row for row in region_rows if row["final_decision"] == decision]
             lines.extend([f"## {region.upper()} — {heading}", ""])

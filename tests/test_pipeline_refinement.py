@@ -185,6 +185,23 @@ class AgreedTitleRuleTests(unittest.TestCase):
         rule = self.support_register[support.normalise_title_for_register("Personal Assistant")]
         self.assertEqual("support_personal_assistant", rule["context_policy"])
 
+    def test_paraplanner_titles_are_hard_passed_before_manual_review(self) -> None:
+        titles = (
+            "Paraplanner",
+            "Trainee Paraplanner",
+            "Paraplanning Administrator",
+            "Para-Planner",
+            "Para Planning Administrator",
+        )
+        for title in titles:
+            with self.subTest(title=title):
+                classification, reason, _priority, _stability = admin.classify_title(
+                    title,
+                    self.admin_register,
+                )
+                self.assertEqual("HARD_PASS", classification)
+                self.assertIn("para", reason.casefold())
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

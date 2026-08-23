@@ -213,13 +213,54 @@ def test_master_actions_require_every_live_review_block(tmp_path: Path) -> None:
     assert "source_job_id: two" not in text
     master_md.write_text(text, encoding="utf-8")
 
-    with pytest.raises(ValueError, match="missing 1 LIVE review block"):
+    with pytest.raises(ValueError, match="missing 1 editable LIVE review block"):
         actions.apply_master_actions(
             master_csv=master_csv,
             master_summary=master_md,
             review_dir=tmp_path,
             write=False,
         )
+
+
+def test_resolved_selection_carries_from_csv_without_editable_block(
+    tmp_path: Path,
+) -> None:
+    old_dir = tmp_path / "old"
+    old_dir.mkdir()
+    old_record = make_record(
+        "remembered",
+        classification="POSS",
+        title="Admin Assistant",
+    )
+    old_record.manual_action = "select"
+    write_region(old_dir, [old_record])
+    old_rows = master.build_master_rows(old_dir)
+
+    old_csv = tmp_path / "old-master.csv"
+    old_md = tmp_path / "old-master.md"
+    old_csv.write_bytes(master.master_csv_bytes(old_rows))
+    old_md.write_text(master.master_summary_text(old_rows), encoding="utf-8")
+    assert "source_job_id: remembered" not in old_md.read_text(encoding="utf-8")
+
+    current_dir = tmp_path / "current"
+    current_dir.mkdir()
+    current_record = make_record(
+        "remembered",
+        classification="POSS",
+        title="Admin Assistant",
+    )
+    write_region(current_dir, [current_record])
+    current_rows = master.build_master_rows(current_dir)
+
+    carried = actions.carry_existing_actions(
+        current_rows,
+        old_master_csv=old_csv,
+        old_master_summary=old_md,
+    )
+
+    assert carried == 1
+    assert current_rows[0]["manual_action"] == "select"
+    assert current_rows[0]["final_decision"] == "SELECTED"
 
 def test_master_carry_does_not_reselect_possible_jobg8_duplicate(
     tmp_path: Path,

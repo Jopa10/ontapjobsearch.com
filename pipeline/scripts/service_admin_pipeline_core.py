@@ -280,6 +280,7 @@ HARD_PASS_PATTERNS = [
     # Agreed specialist-function and seniority barriers.
     "senior", "manager", "legal", "pensions", "pension ", "ifa ", "wealth",
     "financial planning", "finance administrator", "credit administrator", "loan administrator",
+    "paraplanner", "paraplanning", "para-planner", "para-planning", "para planner", "para planning",
     "billing administrator", "employee benefits", "payroll", "compliance", "regulatory affairs",
     "health & safety", "health and safety", "property administrator", "erp systems",
     "server administrator", "systems administrator", "asbestos administrator", "merchandising administrator",

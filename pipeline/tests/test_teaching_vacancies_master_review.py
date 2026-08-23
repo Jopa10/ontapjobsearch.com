@@ -14,6 +14,7 @@ def write_review(
     source_job_id: str,
     slice_status: str,
     final_decision: str = "SELECTED",
+    manual_action: str = "",
 ) -> None:
     fields = [
         field
@@ -38,6 +39,7 @@ def write_review(
             "source_job_id": source_job_id,
             "source_url": f"https://example.test/{source_job_id}",
             "factual_fingerprint": f"fp-{source_job_id}",
+            "manual_action": manual_action,
         }
     )
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -80,9 +82,10 @@ def test_master_review_marks_live_regions_and_writes_summary(tmp_path: Path) -> 
 
     summary = master.master_summary_text(rows)
     assert "REVIEW NOW (LIVE regions): **1**" in summary
+    assert "EDITABLE NOW (no remembered action): **1**" in summary
+    assert "REMEMBERED / RESOLVED: **0**" in summary
     assert "DEFERRED - REGION NOT LIVE: **1**" in summary
     assert "## YORKSHIRE - WEST — SELECTED" in summary
-    assert "## YORKSHIRE - WEST — EXCLUDED BY REVIEW" in summary
     assert "action:" in summary
     assert "SELECTED | Yorkshire - West | Leeds | £25,000 | Administrator" in summary
     assert "employer: Example School" in summary
@@ -93,6 +96,44 @@ def test_master_review_marks_live_regions_and_writes_summary(tmp_path: Path) -> 
     assert "## DEFERRED REGIONS — NOT FOR MANUAL REVIEW" in summary
     assert "Bedfordshire / admin_service" in summary
     assert "source_job_id: beds" not in summary
+
+
+def test_master_summary_omits_resolved_actions_but_csv_keeps_them(
+    tmp_path: Path,
+) -> None:
+    write_review(
+        tmp_path / "a-editable-admin-service-review.csv",
+        region="Hampshire",
+        source_job_id="editable",
+        slice_status="LIVE",
+    )
+    write_review(
+        tmp_path / "b-selected-admin-service-review.csv",
+        region="Hampshire",
+        source_job_id="remembered-select",
+        slice_status="LIVE",
+        manual_action="select",
+    )
+    write_review(
+        tmp_path / "c-excluded-admin-service-review.csv",
+        region="Hampshire",
+        source_job_id="remembered-exclude",
+        slice_status="LIVE",
+        final_decision="EXCLUDED",
+        manual_action="exclude",
+    )
+
+    rows = master.build_master_rows(tmp_path)
+    summary = master.master_summary_text(rows)
+    csv_text = master.master_csv_bytes(rows).decode("utf-8")
+
+    assert "EDITABLE NOW (no remembered action): **1**" in summary
+    assert "REMEMBERED / RESOLVED: **2**" in summary
+    assert "source_job_id: editable" in summary
+    assert "source_job_id: remembered-select" not in summary
+    assert "source_job_id: remembered-exclude" not in summary
+    assert "remembered-select" in csv_text
+    assert "remembered-exclude" in csv_text
 
 
 def test_master_csv_orders_all_decisions_before_review_scope(tmp_path: Path) -> None:
