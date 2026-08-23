@@ -1,0 +1,50 @@
+name: Align family content fingerprint once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/align-family-content-fingerprint-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Align with established Claims fingerprint
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('pipeline/scripts/jobg8_family_discovery.py')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace('import hashlib\nimport html\n', 'import hashlib\n')
+          old = '''def clean_content(value: object) -> str:\n    text = html.unescape(norm(value))\n    text = re.sub(r"<[^>]+>", " ", text)\n    text = re.sub(r"https?://\\S+", " ", text)\n    return re.sub(r"\\s+", " ", text).strip().casefold()\n\n\ndef content_dedupe_key(title: object, area: object, location: object, description: object) -> str:\n    payload = "|".join([\n        norm(title).casefold(),\n        norm(area).casefold(),\n        norm(location).casefold(),\n        clean_content(description),\n    ])\n    return hashlib.sha256(payload.encode("utf-8")).hexdigest()\n'''
+          new = '''def content_dedupe_key(title: object, location: object, description: object) -> str:\n    basis = "|".join([\n        re.sub(r"\\W+", " ", norm(title).casefold()).strip(),\n        re.sub(r"\\W+", " ", norm(description).casefold()).strip()[:1200],\n        re.sub(r"\\W+", " ", norm(location).casefold()).strip(),\n    ])\n    return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]\n'''
+          if old not in text:
+              raise SystemExit('Current content fingerprint block not found')
+          text = text.replace(old, new)
+          text = text.replace('"content_dedupe_key": content_dedupe_key(title, area, location, description),', '"content_dedupe_key": content_dedupe_key(title, location, description),')
+          p.write_text(text, encoding='utf-8')
+
+          map_path = Path('SYSTEM_MAP.md')
+          body = map_path.read_text(encoding='utf-8')
+          marker = '**Shared Claims-style family content fingerprint:**'
+          bullet = '- 23 August 2026 — **Shared Claims-style family content fingerprint:** reusable family discovery uses the already-proven Claims normalization for content uniqueness (normalized title + first 1,200 description characters + location), so family scale evidence is consistent rather than maintaining a separate Legal-specific fingerprint definition.\n'
+          if marker not in body:
+              map_path.write_text(body.replace('## Recent canonical changes\n\n', '## Recent canonical changes\n\n' + bullet, 1), encoding='utf-8')
+          PY
+      - name: Commit and remove helper
+        run: |
+          set -euo pipefail
+          git add pipeline/scripts/jobg8_family_discovery.py SYSTEM_MAP.md
+          git rm .github/workflows/align-family-content-fingerprint-once.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Align family content fingerprint with Claims'
+          git pull --rebase origin main
+          git push origin HEAD:main
