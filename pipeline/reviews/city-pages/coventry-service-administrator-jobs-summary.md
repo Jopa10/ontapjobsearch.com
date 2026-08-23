@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 1
-- automatic exclude: 33
+- automatic exclude: 35
 - effective include: 4
 - effective review: 1
-- effective exclude: 33
+- effective exclude: 35
 
 ## INCLUDE (4)
 
@@ -86,7 +86,7 @@ job_id: nhs-5538096
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -320,6 +320,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketplace Administrator
+company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-3b87e4c5-8d1e-4007-869f-caf58a2f5d37
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Warwickshire
@@ -421,6 +433,18 @@ company: Winner Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225429653
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Screening Administrator
+company: University Hospitals Coventry and Warwickshire NHS Trust
+location: Rugby, CV22 5PX
+source: NHS Jobs
+job_id: nhs-5551079
 reason: Separate employment market.
 ---
 

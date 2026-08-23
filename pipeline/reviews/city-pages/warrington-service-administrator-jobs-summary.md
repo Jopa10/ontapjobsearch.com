@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 15
 - automatic review: 6
-- automatic exclude: 4
-- effective include: 14
+- automatic exclude: 6
+- effective include: 15
 - effective review: 6
-- effective exclude: 4
+- effective exclude: 6
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Forrest Recruitment - Agency - Temporary
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225424866
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: USDAW - Company - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-30a53517-3266-46a8-8156-fa74a556c3da
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -266,7 +278,19 @@ job_id: jobg8-21618_20279_61698-872ae37268a541755e97df9c9ced56fa
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (6)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Temporary
+location: Runcorn
+source: JobG8
+job_id: jobg8-7bf27e74-db27-4504-8b9a-cf5ac96e2d5b
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -289,6 +313,18 @@ company: EE - Company - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-21618_20279_61698-00a9a6350da241ecc876a19e242c605c
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contribution Co-Ordinator
+company: Adecco - Agency - Temporary
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225434841
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 58
+- automatic review: 57
 - automatic exclude: 10
 - effective include: 4
-- effective review: 58
+- effective review: 57
 - effective exclude: 10
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (58)
+## REVIEW (57)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: Nurse Plus - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107824141
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Reed - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-86a249ca-521e-4523-9657-9f714577b183
 reason: Broad location; review before city inclusion.
 ---
 

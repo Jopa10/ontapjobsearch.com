@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 42
-- automatic review: 41
+- automatic review: 40
 - automatic exclude: 25
 - effective include: 42
-- effective review: 41
+- effective review: 40
 - effective exclude: 25
 
 ## INCLUDE (42)
@@ -528,7 +528,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (41)
+## REVIEW (40)
 
 ---
 action: 
@@ -564,18 +564,6 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225461787
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Staff Bank (Berwick)
-company: Northumberland County Council
-location: Berwick, United Kingdom
-source: NEJobs
-job_id: nejobs-300726
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---

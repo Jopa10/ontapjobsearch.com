@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 39
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 39
 - automatic review: 2
-- automatic exclude: 5
-- effective include: 38
+- automatic exclude: 6
+- effective include: 39
 - effective review: 2
-- effective exclude: 5
+- effective exclude: 6
 
-## INCLUDE (38)
+## INCLUDE (39)
 
 ---
 action: 
@@ -189,6 +189,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225419388
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Administrator
+company: Pertemps Bristol Commercial - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-43c28539-e6a0-4522-8b66-5a97638bff0b
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -506,7 +518,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -517,6 +529,18 @@ company: Hays - Agency - Temporary
 location: Bath
 source: JobG8
 job_id: jobg8-107881565
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: 6 Week Interim Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Temporary
+location: Bath
+source: JobG8
+job_id: jobg8-e4b56bfb-57fa-4e55-8f13-16b75571c606
 reason: Separate employment market.
 ---
 

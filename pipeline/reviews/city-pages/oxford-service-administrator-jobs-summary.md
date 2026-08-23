@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 11
-- automatic exclude: 42
+- automatic review: 12
+- automatic exclude: 44
 - effective include: 10
-- effective review: 11
-- effective exclude: 42
+- effective review: 12
+- effective exclude: 44
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: nhs-5539257
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -191,6 +191,18 @@ company: The Abingdon Surgery
 location: Abingdon, OX14 3LB
 source: NHS Jobs
 job_id: nhs-5540156
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Bampton Medical Practice
+location: Bampton, OX18 2LJ
+source: NHS Jobs
+job_id: nhs-5516742
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -278,7 +290,7 @@ job_id: nhs-5537618
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -680,6 +692,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Administrator
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-31e99910-3837-466c-b1ba-75c970d482f4
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales and Parts Administrator
 company: K2 Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -709,6 +733,18 @@ company: Glen Callum Associates Automotive Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-0120fc48-32fe-4086-a954-2ee95bdcd898
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Scheduling Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225451400
 reason: Broad county location; not Oxford-city evidence.
 ---
 
