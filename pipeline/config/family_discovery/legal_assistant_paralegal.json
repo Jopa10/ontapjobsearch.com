@@ -83,6 +83,7 @@
     "\\blegal\\s+cashier\\b",
     "\\bfinance\\s+assistant\\b",
     "\\blitigation\\s+officer\\b",
-    "\\bprobate\\s+specialist\\b"
+    "\\bprobate\\s+specialist\\b",
+    "^(?!.*\\bparalegal\\b)(?=.*\\bconveyancing\\b)(?=.*\\bfee\\s+earner\\b).*$"
   ]
 }
