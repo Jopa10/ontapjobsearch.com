@@ -74,6 +74,7 @@
     "\\blegal\\s+director\\b",
     "\\bpractice\\s+manager\\b",
     "\\blegal\\s+manager\\b",
+    "\\bteam\\s+leader\\b",
     "\\bsenior\\s+associate\\b",
     "\\bassociate\\s+solicitor\\b",
     "\\btrainee\\s+solicitor\\b",
