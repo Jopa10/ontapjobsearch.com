@@ -8,11 +8,11 @@ This implementation is review-only. It has no approved-JSON or publishing mode.
 Edit only the `action:` line in editable blocks:
 - `action: select` promotes a POSS vacancy for discussion.
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
-- Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
+- Actions are same-day only and do not publish anything.
 
-Run generated: 2026-08-23T08:11:28+01:00
+Run generated: 2026-08-23T09:36:57+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 330
+JobG8 comparison rows: 328
 Approved NEJobs comparison rows: 25
 
 ## Funnel
@@ -30,33 +30,18 @@ Approved NEJobs comparison rows: 25
 - HC: 0
 - POSS: 7
 - HARD_PASS: 6
-- Final selected after remembered/manual actions: 4
+- Final selected after same-day actions: 4
 - Final POSS awaiting decision: 0
 - Manually excluded: 3
+
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: exclude
-POSS | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
-employer: The Wise Group
-closing_date: 27 August 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173344
-source_job_id: 173344
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
----
 ---
 action: select
-POSS | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
+SELECTED | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
 employer: Durham County Carers Support
 closing_date: 25 September 2026
 geography: DERIVED_REVIEW — employer-derived geography: area found in address: durham
@@ -66,9 +51,10 @@ tracking_key: vonne-173349
 source_job_id: 173349
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173349
 ---
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £31,005 Pro Rata | Community Engagement Tutor - Ashington Learning Hive
+SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland | £31,005 Pro Rata | Community Engagement Tutor - Ashington Learning Hive
 employer: Northern Learning Trust
 closing_date: 07 September 2026
 geography: CONFIRMED — location: approved location fallback
@@ -78,21 +64,10 @@ tracking_key: vonne-173341
 source_job_id: 173341
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173341
 ---
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
-employer: VONNE
-closing_date: Sunday, September 13, 2026 - 00:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173309
-source_job_id: 173309
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
----
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
@@ -102,9 +77,10 @@ tracking_key: vonne-173310
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
 employer: Age UK North Tyneside
 closing_date: Wednesday, September 2, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
@@ -114,9 +90,43 @@ tracking_key: vonne-173347
 source_job_id: 173347
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173347
 ---
+
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
+
+## EXCLUDED BY REVIEW
+
 ---
 action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
+EXCLUDED | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
+employer: The Wise Group
+closing_date: 27 August 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173344
+source_job_id: 173344
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
+---
+
+---
+action: exclude
+EXCLUDED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
+employer: VONNE
+closing_date: Sunday, September 13, 2026 - 00:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £36,363 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173309
+source_job_id: 173309
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
+---
+
+---
+action: exclude
+EXCLUDED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Pro Rata | VCSE Health & Wellbeing Research Partnerships Coordinator (Maternity Cover)
 employer: VONNE
 closing_date: Sunday, August 23, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
@@ -126,9 +136,7 @@ tracking_key: vonne-173253
 source_job_id: 173253
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173253
 ---
-## EXCLUDED BY REVIEW
 
-- None.
 
 ## HARD_PASS
 
