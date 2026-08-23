@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-23T08:42:54+00:00
+Generated: 2026-08-23T09:05:21+00:00
 
-> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-23.csv` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-23) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
+> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-23.csv` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-23) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
 ## LIVE
 
@@ -46,7 +46,7 @@ Generated: 2026-08-23T08:42:54+00:00
 | Merseyside - St Helens & Knowsley |  |  |  |
 | Merseyside - Wirral |  |  |  |
 | Norfolk | 19 |  |  |
-| North East | 29 | 6 |  |
+| North East | 86 | 6 |  |
 | North Scotland |  |  |  |
 | North Wales - East |  |  |  |
 | North Wales - West |  |  |  |
@@ -177,6 +177,6 @@ Generated: 2026-08-23T08:42:54+00:00
 | Measure | Service admin | Support worker | Sales advisor |
 |---|---:|---:|---:|
 | Live regions | 41 / 78 | 9 / 78 | 3 / 78 |
-| Live jobs | 1300 | 64 | 34 |
+| Live jobs | 1357 | 64 | 34 |
 
 **Live slices: 53 / 234.**
