@@ -1,10 +1,11 @@
 """Apply England-wide Teaching Vacancies review actions to regional boundaries.
 
-The England-wide Markdown file is the human review surface. This module verifies
-that every LIVE, non-hard-pass block still matches the master CSV, then copies
-only the action decisions into the corresponding regional review CSVs and
-regenerates their Markdown summaries. It does not approve, compose or publish
-jobs; those remain separate guarded stages.
+The England-wide Markdown file is the unresolved human review surface. This
+module verifies that every editable LIVE block still matches the master CSV,
+then copies only the action decisions into the corresponding regional review
+CSVs and regenerates their Markdown summaries. Resolved actions remain in the
+master CSV/regional state without being re-presented for edit. It does not
+approve, compose or publish jobs; those remain separate guarded stages.
 """
 from __future__ import annotations
 
@@ -71,6 +72,7 @@ def parse_master_actions(
         for row in rows
         if row.get("review_scope") == master.REVIEW_NOW
         and clean(row.get("final_decision")).upper() != "HARD_PASS"
+        and not clean(row.get("manual_action"))
     }
     actions: dict[str, str] = {}
     for block in re.findall(r"(?ms)^---\s*$\n(.*?)^---\s*$", text):
@@ -119,7 +121,7 @@ def parse_master_actions(
         preview = ", ".join(missing[:8])
         suffix = " ..." if len(missing) > 8 else ""
         raise ValueError(
-            f"England-wide Markdown is missing {len(missing)} LIVE review block(s): "
+            f"England-wide Markdown is missing {len(missing)} editable LIVE review block(s): "
             f"{preview}{suffix}"
         )
     return actions
@@ -148,7 +150,15 @@ def carry_existing_actions(
     if not old_master_csv.is_file() or not old_master_summary.is_file():
         return 0
     old_rows = load_master_csv(old_master_csv)
-    old_actions = parse_master_actions(old_rows, old_master_summary)
+    # Resolved actions are intentionally absent from the editable Markdown.
+    # The generated master CSV is therefore the persistence source for them;
+    # still parse the Markdown to capture any new edit made before the next run.
+    old_actions = {
+        clean(row["source_job_id"]): clean(row.get("manual_action")).casefold()
+        for row in old_rows
+        if clean(row.get("manual_action")).casefold() in {"select", "exclude"}
+    }
+    old_actions.update(parse_master_actions(old_rows, old_master_summary))
     old_by_id = {clean(row["source_job_id"]): row for row in old_rows}
     current_by_id = {clean(row["source_job_id"]): row for row in current_rows}
     carried = 0
