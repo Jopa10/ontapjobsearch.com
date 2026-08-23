@@ -1,14 +1,14 @@
 # NHS Jobs admin/service review
 
-review_date: 2026-08-22
+review_date: 2026-08-23
 
-- Open Administrative & Clerical rows reviewed: 2413
-- Auto/remembered selected: 743
-- Selected HC Tier A: 289
+- Open Administrative & Clerical rows reviewed: 2401
+- Auto/remembered selected: 742
+- Selected HC Tier A: 288
 - Selected HC Tier B: 454
-- POSS awaiting decision: 1186
+- POSS awaiting decision: 1179
 - Excluded: 0
-- HARD_PASS: 484
+- HARD_PASS: 480
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -1786,18 +1786,6 @@ region: Worcestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0647
 factual_fingerprint: c98df1a8c31aa918ff963165eff2ab137715be59c7ece633d130011b95cccd7a
----
-
----
-action:
-POSS | NHS Jobs | London | Stanmore, HA7 4LP | £36943.00 to £44900.00 | LSCIC Outreach & Community Liaison Administration Coordinator
-source_job_id: 5554148
-title: LSCIC Outreach & Community Liaison Administration Coordinator
-employer: Royal National Orthopaedic Hospital NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9392-26-0193
-factual_fingerprint: f3b85b670aab2551fe33e279b6db4d64f4b92546d1862a0db4f3d14a7a0f17f8
 ---
 
 ---
@@ -7358,18 +7346,6 @@ factual_fingerprint: 43279a5fd500a1d516050750052ec1af58bd995ae6c8b5c85c231a1ecf5
 
 ---
 action:
-POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | Capital Contracting officer
-source_job_id: 5541746
-title: Capital Contracting officer
-employer: Leeds Teaching Hospitals
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0799
-factual_fingerprint: 6c0752bfd2dbc2756f6e21a3eea35f7ea56a4638c2b68da36352ab720d3711c0
----
-
----
-action:
 POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | Negotiable | Clinical Research Coordinator
 source_job_id: 5536797
 title: Clinical Research Coordinator
@@ -9626,18 +9602,6 @@ factual_fingerprint: 097102de859a0049437ae042450b64c9ef137ad63b5d38823c90fc7f9b8
 
 ---
 action:
-POSS | NHS Jobs | North East - Tees Valley | Stockton on Tees, TS198PE | £39959.00 to £48117.00 | Mandatory Training and Learning Partner
-source_job_id: 5535131
-title: Mandatory Training and Learning Partner
-employer: North Tees & Hartlepool NHS Foundation Trust
-region: North East - Tees Valley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0304
-factual_fingerprint: 06aca980b30c1114ab5f3bb370f57b561fe533a463002a8ea8097fef8cc8e662
----
-
----
-action:
 POSS | NHS Jobs | Devon | Paignton, TQ4 5PL | £27000.00 | Care Co-Ordinator
 source_job_id: 5534020
 title: Care Co-Ordinator
@@ -9730,18 +9694,6 @@ region: Lincolnshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0525
 factual_fingerprint: f2ac3f686def4a67121e52f91308681b1c347fbe32012bb1516d5fa863f731fa
----
-
----
-action:
-POSS | NHS Jobs | London | London, SW1P 3HZ, London, SW1P 3HZ, Leeds, LS2 7JU | £26043.00 | Engagement & Delivery Officer - Acute & Ambulance Network
-source_job_id: 5533247
-title: Engagement & Delivery Officer - Acute & Ambulance Network
-employer: The NHS Alliance
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0032-26-0034
-factual_fingerprint: 1cee2e6fa4cfad0f98a0af0a23850ba3cbc55b5eebb92e06085215525771be83
 ---
 
 ---
@@ -10306,18 +10258,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0777
 factual_fingerprint: a7a6048a85cb4c588772c7b6927760d0ab5f78dfc67ea882e7c6259f12f6b9d3
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £32073.00 to £39043.00 | Band 5 Clinical Research Practitioner
-source_job_id: 5532715
-title: Band 5 Clinical Research Practitioner
-employer: University Hospitals Birmingham NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1186
-factual_fingerprint: c16833fbc39b3a5db5ff74bfb07f09958e43fe95f464778ee63b977701beebb4
 ---
 
 ---
@@ -13010,18 +12950,6 @@ factual_fingerprint: 4784c8132a2e6dbb437b607af90be1671187c863592901ac37f73dd9043
 
 ---
 action:
-POSS | NHS Jobs | Sussex | East Grinstead, RH19 3DZ | £39959.00 to £48117.00 | Research Governance Officer
-source_job_id: 5512603
-title: Research Governance Officer
-employer: Queen Victoria Hospital NHS Foundation Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9276-26-0149
-factual_fingerprint: aead979a2273ed7a9208582d9a5202197d8d0075f36010c30c7248f5cfe67414
----
-
----
-action:
 POSS | NHS Jobs | Merseyside - St Helens & Knowsley | Prescot, L35 5DR | £28392.00 to £31157.00 | Senior Clinical Coder
 source_job_id: 5507066
 title: Senior Clinical Coder
@@ -13726,18 +13654,6 @@ region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0011-26-0008
 factual_fingerprint: 11f58cb369ca5489b1c8a3c30fd3f3e80baecb5b9bbd486a3e5010fd916916d4
----
-
----
-action:
-POSS | NHS Jobs | Cheshire - West | Chester, CH2 1UL | £49387.00 to £56515.00 | Senior IT System Specialist / Architect
-source_job_id: 5496805
-title: Senior IT System Specialist / Architect
-employer: Countess of Chester Hospital NHS Foundation Trust
-region: Cheshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0320
-factual_fingerprint: 638fee296125d565a9060dec9fa2c11014f9abba910b42e12ef973ec8f80bc7d
 ---
 
 ---
