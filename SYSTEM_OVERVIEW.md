@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 23 August 2026 — **Legal Assistant / Paralegal boundary is now materially cleaner:** standalone conveyancing fee-earners and Team Leader management roles are OUT; genuine paralegals remain eligible even when they manage files/caseloads, while mixed `Paralegal/Fee Earner` adverts stay under review. Current same-feed evidence remains comfortably viable at about 227 genuine jobs nationally, including 120 paralegal-titled roles.
 - 23 August 2026 — New-family regional evidence no longer treats generic JobG8 **`Area=City`** as proof of London when the advert has a specific named location elsewhere; the specific location is used where safely mapped, otherwise the row stays unresolved.
 - 23 August 2026 — New-family scale and regional spread now use **content-unique adverts**, so the same vacancy arriving under different JobG8 reference IDs does not inflate family viability or market counts; all original rows remain available for audit.
 - 23 August 2026 — New-family discovery now also prepares **proof-region evidence** automatically: the five strongest current markets are surfaced with title mix and remaining borderlines for review, without approving or publishing any region.
