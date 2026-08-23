@@ -6,6 +6,7 @@ from openpyxl import load_workbook
 
 PATH = Path("pipeline/geo/geo_lookup.xlsx")
 
+# One-shot canonical corrections found while validating the Legal family across all 78 markets.
 AREA_FIXES = {
     "diss": ("Diss", "Norfolk"),
     "studley": ("Studley", "West Midlands - Coventry & Warwickshire"),
