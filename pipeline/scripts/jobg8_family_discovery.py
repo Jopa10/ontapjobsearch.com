@@ -21,7 +21,7 @@ SALARY_MIN_COL = "/Job/SalaryMinimum"
 SALARY_MAX_COL = "/Job/SalaryMaximum"
 SALARY_PERIOD_COL = "/Job/SalaryPeriod"
 CLASSIFICATION_COL = "/Job/Classification"
-AREA_UNUSABLE_VALUES = {"", "not specified", "unknown"}
+AREA_UNUSABLE_VALUES = {"", "not specified", "unknown", "city"}
 
 
 def norm(value: object) -> str:
