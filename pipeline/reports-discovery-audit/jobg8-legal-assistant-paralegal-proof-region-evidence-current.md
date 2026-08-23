@@ -1,6 +1,6 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **228** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **227** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
@@ -26,9 +26,9 @@ Most common LIKELY_IN titles:
 
 ## Suffolk
 
-- LIKELY_IN: **28**
+- LIKELY_IN: **27**
 - BORDERLINE: **1**
-- Provisional OUT: **6**
+- Provisional OUT: **7**
 
 Most common LIKELY_IN titles:
 
@@ -42,8 +42,8 @@ Most common LIKELY_IN titles:
 - Legal Secretary Woodbridge Part Time: 1
 - Legal Secretary - Full or Part Time: 1
 - Property Assistant Paralegal: 1
-- Property Paralegal/Team Leader: 1
 - Paralegal - Property Litigation - Full or Part Time: 1
+- Employment Paralegal - Fully Flexible Working: 1
 
 Borderline titles:
 

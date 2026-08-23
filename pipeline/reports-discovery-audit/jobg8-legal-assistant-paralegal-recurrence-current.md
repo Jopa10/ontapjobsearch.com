@@ -2,7 +2,7 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **220**.
+LIKELY_IN jobs mapped into the universe: **219**.
 BORDERLINE jobs mapped into the universe: **2**.
 Markets with at least one LIKELY_IN job: **45 / 78**.
 
@@ -16,7 +16,7 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
 | London | 40 | 0 | 40 |
-| Suffolk | 28 | 1 | 29 |
+| Suffolk | 27 | 1 | 28 |
 | Essex | 22 | 0 | 22 |
 | Norfolk | 13 | 0 | 13 |
 | Bristol & Bath | 7 | 0 | 7 |
