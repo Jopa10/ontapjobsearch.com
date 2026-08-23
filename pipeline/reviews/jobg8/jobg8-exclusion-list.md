@@ -6,9 +6,177 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 134
+remembered_exclusions: 148
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Trainee Paraplanner
+employer: Search
+region: 
+town: Liverpool
+salary: 
+job_id: 23643_225475838
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: TechnicaL Paraplanner - Diploma Qualified
+employer: NJR Recruitment
+region: 
+town: Cheshire
+salary: 
+job_id: 3290d898-416d-4a74-863c-c8535b6ccf2b
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Paraplanner
+employer: TEMPLEGATE RECRUITMENT
+region: 
+town: Cheshire
+salary: 
+job_id: 4bd898ba-2017-4405-83cb-b40ebf690e6e
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Paraplanner
+employer: North Oak Recruitment
+region: 
+town: Leicestershire
+salary: 
+job_id: 23643_224143322
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Paraplanner
+employer: North Oak Recruitment
+region: 
+town: Leicestershire
+salary: 
+job_id: 107809749
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Paraplanner
+employer: North Oak Recruitment
+region: 
+town: Leicestershire
+salary: 
+job_id: 107705426
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Paraplanner
+employer: TEMPLEGATE RECRUITMENT LIMITED
+region: 
+town: Derbyshire
+salary: 
+job_id: 107698285
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Operations Planner & Scheduler - Warrington
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Warrington
+salary: 
+job_id: 23643_225435369
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Junior Paraplanner
+employer: TEMPLEGATE RECRUITMENT
+region: 
+town: Cheshire
+salary: 
+job_id: abc1cc88-4a18-4247-a01a-1188018dde27
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Financial Planner
+employer: Resource Matters Ltd
+region: 
+town: Leicestershire
+salary: 
+job_id: c30753e8-4447-4167-967c-e24a9a39be3d
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Fertility Care Coordinator
+employer: Office Angels
+region: 
+town: London
+salary: 
+job_id: 23643_225524961
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: CAFM Admin Coordinator
+employer: Boden Group
+region: 
+town: Leicestershire
+salary: 
+job_id: 23643_225451992
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Associate Financial Planner
+employer: Capio Recruitment Financial Planning
+region: 
+town: Hampshire
+salary: 
+job_id: 8914091b-3f03-4001-80d5-2f3292a436da
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-23
+title: Accounts Assistant (German Speaking)
+employer: Robert Walters
+region: 
+town: London
+salary: 
+job_id: 320cf36b-5564-46ae-8728-e381ad44f5e8
+---
 
 ---
 action:
