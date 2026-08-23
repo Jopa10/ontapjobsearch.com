@@ -1,0 +1,72 @@
+name: Build Legal Assistant Test Slices
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/legal-assistant-family
+    paths:
+      - '.github/workflows/build-legal-assistant-test-slices.yml'
+      - 'pipeline/scripts/legal_assistant_test_pipeline.py'
+      - 'pipeline/scripts/jobg8_family_discovery.py'
+      - 'pipeline/config/family_discovery/legal_assistant_paralegal.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legal-assistant-proof-slices
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Legal test branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/legal-assistant-family
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+
+      - name: Refresh governed inputs from main
+        run: |
+          git fetch origin main
+          git show origin/main:pipeline/input/jobg8.xlsx > pipeline/input/jobg8.xlsx
+          git show origin/main:pipeline/geo/geo_lookup.xlsx > pipeline/geo/geo_lookup.xlsx
+          git show origin/main:pipeline/config/uk_assessable_regions.json > pipeline/config/uk_assessable_regions.json
+          git show origin/main:pipeline/config/family_discovery/legal_assistant_paralegal.json > pipeline/config/family_discovery/legal_assistant_paralegal.json
+          git show origin/main:pipeline/scripts/jobg8_family_discovery.py > pipeline/scripts/jobg8_family_discovery.py
+
+      - name: Rebuild current Legal discovery evidence
+        run: |
+          python pipeline/scripts/jobg8_family_discovery.py \
+            --input-dir pipeline/input \
+            --config pipeline/config/family_discovery/legal_assistant_paralegal.json \
+            --output-dir pipeline/reports-discovery-audit \
+            --geo-lookup pipeline/geo/geo_lookup.xlsx \
+            --assessable-regions pipeline/config/uk_assessable_regions.json
+
+      - name: Build Legal proof-region slices
+        working-directory: pipeline
+        run: python scripts/legal_assistant_test_pipeline.py
+
+      - name: Commit refreshed proof outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/output-legal-assistant-test/*.json
+          if git diff --cached --quiet; then
+            echo "No proof output changes to commit"
+          else
+            git commit -m "Refresh Legal Assistant proof slices"
+            git pull --rebase origin agent/legal-assistant-family
+            git push origin HEAD:agent/legal-assistant-family
+          fi
