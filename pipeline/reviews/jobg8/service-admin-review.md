@@ -1378,17 +1378,15 @@ job_id: 1781095
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year | Accounts Assistant (German Speaking)
 job_id: 320cf36b-5564-46ae-8728-e381ad44f5e8
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £38000 - £40000 per year | Fertility Care Coordinator
 job_id: 23643_225524961
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1718,11 +1716,10 @@ job_id: 23643_225524482
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £40000 - £45000 per year | Associate Financial Planner
 job_id: 8914091b-3f03-4001-80d5-2f3292a436da
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2885,7 +2882,7 @@ job_id: 266c72a7-06f0-4e64-b4f8-1b5ddd206da4
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £28000 - £32000 per year | Marketplace Administrator
 job_id: 3b87e4c5-8d1e-4007-869f-caf58a2f5d37
 ---
@@ -3308,11 +3305,10 @@ job_id: 107881565
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £16.00 per hour | 6 Week Interim Finance Assistant
 job_id: e4b56bfb-57fa-4e55-8f13-16b75571c606
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -3690,29 +3686,25 @@ job_id: 23643_225521146
 ## CHESHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - EAST | Cheshire - East | Knutsford | £47000 - £50000 per year | TechnicaL Paraplanner - Diploma Qualified
 job_id: 3290d898-416d-4a74-863c-c8535b6ccf2b
 ---
-
 ---
-action:
+action: exclude
 POSS - CHESHIRE - EAST | Cheshire - East | Knutsford | £45000 - £50000 per year | Paraplanner
 job_id: 4bd898ba-2017-4405-83cb-b40ebf690e6e
 ---
-
 ---
-action:
+action: exclude
 POSS - CHESHIRE - EAST | Cheshire - East | Knutsford | £28000 - £38000 per year | Junior Paraplanner
 job_id: abc1cc88-4a18-4247-a01a-1188018dde27
 ---
-
 ---
-action:
+action: select
 POSS - CHESHIRE - EAST | Cheshire - East | Alderley Edge | £31000 per year | HR Advisor (Coordinator)
 job_id: 3637db77-9ab1-42b9-826f-050c78b7b550
 ---
-
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
 ---
@@ -3838,29 +3830,25 @@ job_id: 21618_20279_61698-e22242ba84bf98abd1c8488521625d74
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £35000 - £37000 per year (Training + Monday to Friday + Days) | Operations Planner & Scheduler - Warrington
 job_id: 23643_225435369
 ---
-
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £29891 - £35278 per year | Administrator
 job_id: 30a53517-3266-46a8-8156-fa74a556c3da
 ---
-
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Runcorn | £15.71 per hour | Contribution Co-Ordinator
 job_id: 23643_225434841
 ---
-
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Runcorn | £14 - £15.5 per hour | Accounts Assistant
 job_id: 7bf27e74-db27-4504-8b9a-cf5ac96e2d5b
 ---
-
 ## CORNWALL — SELECTED
 
 ---
@@ -3968,11 +3956,10 @@ job_id: 107870927
 ## CORNWALL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Liskeard | £29000 - £33000 per year | People & Culture Coordinator
 job_id: 90f5e738-a253-40b6-8a27-92481388e90c
 ---
-
 ## DERBYSHIRE — SELECTED
 
 ---
@@ -4056,11 +4043,10 @@ job_id: 23643_225470678
 ## DERBYSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £65000 per year | Paraplanner
 job_id: 107698285
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -5140,17 +5126,15 @@ job_id: ac3b071f-487b-4993-83f0-1b1a3bca3304
 ## GREATER MANCHESTER - WIGAN & BOLTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - WIGAN & BOLTON | Greater Manchester - Wigan & Bolton | Wigan | £28000 - £32000 per year | Service Coordinator
 job_id: 23643_225445636
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - WIGAN & BOLTON | Greater Manchester - Wigan & Bolton | Bolton | £30000 - £35000 per year (+ Professional Development) | HR Coordinator (Construction / FM)
 job_id: 23643_225473127
 ---
-
 ## HERTFORDSHIRE — SELECTED
 
 ---
@@ -5462,59 +5446,50 @@ job_id: bb0c4338-6d07-4655-a9c6-e47cf01ee288
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £30000 - £35000 per year | CAFM Admin Coordinator
 job_id: 23643_225451992
 ---
-
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £16 per hour | Recruitment Operations Coordinator
 job_id: 107786802
 ---
-
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £45000 per year | Paraplanner
 job_id: 107809749
 ---
-
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £30000 - £34000 per year | Claims Handler
 job_id: e6761f0d-dbba-47d5-8ce5-77ed94a16271
 ---
-
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £35000 - £41200 per year (plus benefits) | Paraplanner
 job_id: 23643_224143322
 ---
-
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £30000 - £34000 per year | Commercial Services Coordinator
 job_id: 23643_225493612
 ---
-
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £50000 - £80000 per year | Financial Planner
 job_id: c30753e8-4447-4167-967c-e24a9a39be3d
 ---
-
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £30000 - £37000 per year | Lettings Coordinator
 job_id: 4a10db24-7114-4354-9615-e3111e6a33ed
 ---
-
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £50000 per year | Paraplanner
 job_id: 107705426
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -5586,23 +5561,20 @@ job_id: 23643_225523480
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Stamford | £30000 - £35000 per year (DOE plus bonus) | Billing & Data Administrator
 job_id: 23643_225467286
 ---
-
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Stamford | £30000 - £35000 per year | Billing & Data Administrator
 job_id: b46452d4-7f5b-4a4e-9034-56140c0e8368
 ---
-
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £28500 - £32500 per year (Generous Package) | Marketing Coordinator
 job_id: 23643_225476109
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -5668,35 +5640,30 @@ job_id: 56f46394-a761-4ac7-b2e1-3ec11fad4494
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £40000 - £48000 per year | HR Administrator
 job_id: 98a6c3eb-f57a-4145-989c-cd329d440d01
 ---
-
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £14 - £16 per hour | Events Administrator
 job_id: 23643_225524310
 ---
-
 ---
-action:
+action: exclude
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £28000 - £35000 per year | Trainee Paraplanner
 job_id: 23643_225475838
 ---
-
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £35000 - £37000 per year | Site Admin + Document Controller! TRAVEL PAID
 job_id: 0360bf1d-9b45-46ed-8a20-defc3ae64e21
 ---
-
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £30000 - £32000 per year | Accounts Assistant
 job_id: a5cca5c2-bd08-4fd0-abcb-541aa750e518
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -6344,11 +6311,10 @@ job_id: 107876963
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £35000 per year | Sales Administrator
 job_id: 31e99910-3837-466c-b1ba-75c970d482f4
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -6414,17 +6380,15 @@ job_id: 107876962
 ## SHROPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SHROPSHIRE | Shropshire | Shropshire | £14 - £16 per hour | Learning & Development Coordinator
 job_id: 23643_225476516
 ---
-
 ---
-action:
+action: select
 POSS - SHROPSHIRE | Shropshire | Shropshire | £28000 - £33000 per year | Client Coordinator
 job_id: 23643_225512376
 ---
-
 ## SOMERSET — SELECTED
 
 ---
@@ -6772,29 +6736,25 @@ job_id: 4df4d666-05e3-4397-8027-5146de4b0e5d
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £40000 per year | Service Advisor
 job_id: 107683722
 ---
-
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £35000 - £37000 per year (Pro Rata + 22 Days Holiday) | HR Administrator (Part Time)
 job_id: 23643_225457123
 ---
-
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £32640 per year | Hire Desk Coordinator
 job_id: 23643_225466833
 ---
-
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £35000 per year | HR Assistant
 job_id: e8af6ad8-27e4-4662-8039-c5c1fe8813cb
 ---
-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — SELECTED
 
 ---
@@ -7010,29 +6970,25 @@ job_id: 4857bd7a-e5b8-4276-81c0-46301f16fa9e
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Dudley | £28000 - £38000 per year | Project Administrator
 job_id: 23643_225339944
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Tipton | £32000 - £35000 per year | Operations Coordinator
 job_id: 23643_225476102
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Oldbury | £16 - £17 per hour | Voids Administrator
 job_id: 23643_225524390
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Oldbury | £28000 - £32000 per year | Accounts Assistant
 job_id: e326255f-f1c2-425d-bc70-e6a623c48df1
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---
