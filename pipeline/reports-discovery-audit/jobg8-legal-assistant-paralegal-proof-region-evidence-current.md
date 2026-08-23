@@ -1,6 +1,6 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **232** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **228** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
@@ -27,8 +27,8 @@ Most common LIKELY_IN titles:
 ## Suffolk
 
 - LIKELY_IN: **28**
-- BORDERLINE: **2**
-- Provisional OUT: **5**
+- BORDERLINE: **1**
+- Provisional OUT: **6**
 
 Most common LIKELY_IN titles:
 
@@ -47,7 +47,6 @@ Most common LIKELY_IN titles:
 
 Borderline titles:
 
-- Conveyancing - Fee Earner - Excellent Bonus & Flexible Working: 1
 - Legal: 1
 
 ## Essex
@@ -90,23 +89,18 @@ Most common LIKELY_IN titles:
 - Legal Secretary / Legal PA: 1
 - Corporate Commercial Legal Secretary - Norwich: 1
 
-## Greater Manchester - Manchester & Salford
+## Bristol & Bath
 
 - LIKELY_IN: **7**
-- BORDERLINE: **1**
-- Provisional OUT: **3**
+- BORDERLINE: **0**
+- Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
 
-- RTA Legal Secretary: 1
-- Public Law Paralegal - Manchester: 1
-- Children Law Paralegal: 1
-- Public Law Paralegal: 1
-- Children Law Paralegal - Manchester: 1
+- Paralegal: 2
+- In-House Paralegal Commercial Contracts/Tech Bristol: 1
+- In-House Paralegal Commercial/Tech Bristol + Hybrid: 1
 - Remote Conveyancing Paralegal: 1
-- Legal PA: 1
-
-Borderline titles:
-
-- Conveyancing Fee Earner - 6-Month Fixed-Term Contract Mostly Remote Manchester £45,000: 1
+- Legal Secretary: 1
+- Legal Assistant: 1
 
