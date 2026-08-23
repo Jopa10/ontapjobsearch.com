@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 23 August 2026 — New-family discovery now also prepares **proof-region evidence** automatically: the five strongest current markets are surfaced with title mix and remaining borderlines for review, without approving or publishing any region.
 - 23 August 2026 — **New-family discovery is now reusable end-to-end through regional evidence.** Family config or canonical geo changes automatically rerun the shared discovery audit, which now follows national scale with a 78-market spread report. The 3+/6+/9+ figures are evidence only and never launch a slice. Legal Assistant / Paralegal clearly passed the scale gate; its boundary has been tightened to remove insurance claims, legal cashier/finance and qualified-lawyer noise while retaining genuine legal support/paralegal work.
 - 23 August 2026 — Claims recurrence diagnostics now use the same canonical **78 UK markets** as other new-family assessment rather than the former 33-region assumption; Claims remains non-LIVE.
 - 23 August 2026 — The daily regional overview now rolls factual geo detail/alias rows into the canonical 78-market region before calculating LIVE Service Admin/Support Worker rows and headline totals. This corrected North East Service Admin from 29 to 86 and the Service Admin headline from 1,300 to **1,357** on the 23 August snapshot; Support Worker remains 64 and Sales Advisor 34. A regression test now protects the roll-up behaviour.
