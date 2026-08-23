@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-08-22
-review_fingerprint: 3766200594f81f050c2e3764a894c2d5d3a3506aa670b3a0726e24a941994c60
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 63664107c1f5191ba347da8cecc3076814dcc5b5f2b6655552283ead0e845447
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Cornwall
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Launceston College
 closing_date: 2026-08-25T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 09157be9e09515264e158313ca671a02675152c74681ee385fff4095acb45d77
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Falmouth School
 closing_date: 2026-09-10T09:00:00+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: a54d235d3c7da3b9641a602dd2c92e9bdfdbc46c5ac2ab78d27a2d544523647a
 source: Teaching Vacancies

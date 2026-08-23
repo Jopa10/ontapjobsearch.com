@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-08-22
+review_date: 2026-08-23
 review_fingerprint: 54f789d9d78391482b194b8c7bc91f7025c81f202af85ddaf4ac884fd7adfe52
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -453,6 +453,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Administration and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-reprographics-assistant-the-ravensbourne-school-bromley-kent) — Insufficient admin/service evidence.
 - [Assistant Business Manager (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/assistant-business-manager-part-time) — Manager title salary ceiling £40,681 is not below £28,000.
 - [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Manager title salary ceiling £45,157 is not below £28,000.
+- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
 - [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Communications Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/communications-admin-officer) — Insufficient admin/service evidence.
 - [Cover Manager and Sixth Form Assistant](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-and-sixth-form-assistant-hayes-school) — Manager title salary ceiling £29,486 is not below £28,000.
@@ -484,7 +485,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-gladstone-park-primary-school) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-b59b5f04-d0f8-4bf4-90be-32c5ddf40c75) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
-- [Workforce Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/workforce-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

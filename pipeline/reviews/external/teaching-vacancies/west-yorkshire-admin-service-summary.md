@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-22
-review_fingerprint: f2aa31bd5ad4a94022bd65b4f5f710f0aab980a7c11b583b3206f607c71fe0c7
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 6015f2d830637505ce86c4333bbf0c321893d8efd32ac067d934f674cb1b96cb
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 13
+- Records: 22
+- Selected: 12
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
@@ -49,21 +49,6 @@ factual_fingerprint: 2637683a3b809a8f7e8cb6d22e2918670880d11fb710f8be7c7e91e54c3
 source: Teaching Vacancies
 source_job_id: administrator-inc-finance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-inc-finance
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
-employer: All Saints Catholic College
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 28528b9942817fec0855ff5883017caebbd1d779b72a2c38aaf5d019f953303a
-source: Teaching Vacancies
-source_job_id: business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49
 ---
 
 ---

@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-08-22
-review_fingerprint: ed3d9d140317fab7b10bd514109582e4a412c1dd5f45ab4a2ef23bfcfbb44ce9
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: f21e99cbc98e55d76393d6d391a9cfd44210eaa658c19b4b4a04cd6274d5fdc0
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: The Beacon Church of England Primary School
 closing_date: 2026-09-01T23:59:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 54413cf712ace5c00e8995fd5a654e609b1949c8e7962ad24fd09439785a3f4f
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Knotty Ash Primary School
 closing_date: 2026-08-23T12:00:00+01:00
 reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: c4b761d14660d5d169799070d22ada229a9e894309aa74a7dceb811a77ae4ad8
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: King's Leadership Academy Wavertree
 closing_date: 2026-09-13T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 0b9b14ab4c1467274fb32118e3b10864178aa3729bde48cbe33ee33c61349fa7
 source: Teaching Vacancies

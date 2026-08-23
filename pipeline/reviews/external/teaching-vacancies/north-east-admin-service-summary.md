@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-08-22
-review_fingerprint: c06b863ef82e0180fcd0b8d96367185c893934c209fce185e19e7fe212a08efb
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 5f02eeda2d0261e12bb673dc9b733925d8bcb28379e5c65828357597704d8649
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: efba484b296e0dc97829bab00fec8c13f328160365ba19a84a3dd732093
 source: Teaching Vacancies
 source_job_id: administrative-assistant-level-3-sacred-heart-catholic-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-sacred-heart-catholic-high-school
----
-
----
-action: 
-SELECTED | North East | Darlington, North East, DL3 8RW | £13.05 Hourly | Casual Administrative Assistant - Reprographics (Temporary)
-employer: Carmel College
-closing_date: 2026-08-22T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a4608369c2dcaba83f297afc02a1ed72a04c5504b2ba5eec5105869ed001cc4c
-source: Teaching Vacancies
-source_job_id: casual-administrative-assistant-reprographics-temporary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant-reprographics-temporary
 ---
 
 ## POSS — choose SELECT or EXCLUDE

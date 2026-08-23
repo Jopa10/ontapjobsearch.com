@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-08-22
-review_fingerprint: b13db6d8078ce71185740f26fb6f4b7300623bf8e57803775f203f29393a2ae2
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 3de123d4829da5e17b6870f1dcd5147c2f84fe8d43f345141f5ed2bc2883715c
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Suffolk
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -32,7 +32,7 @@ employer: St Felix Roman Catholic Primary School, Haverhill
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 6a1caf670004c41c896a9490c983be22ed6c60d8680d82bed99e69c5abab7496
 source: Teaching Vacancies

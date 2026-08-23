@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-22
-review_fingerprint: 99c8c379a209f4b85d8db674fa6566d27d124844f74643d4c0296847cb177a92
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 8f7e481ebe6f3cdec101f2d7e2c02d2bb31e73e124c7e011e26d1f66e71a4454
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Leicestershire
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 3
-- POSS awaiting decision: 1
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -28,7 +28,7 @@ employer: Krishna Avanti Primary School
 closing_date: 2026-09-06T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 50886f798c3d43b595826d92fb49a4991abad95caed3d66fa83e8f5b942d7fee
 source: Teaching Vacancies
@@ -38,27 +38,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Leicestershire | Blaby, East Midlands, LE8 4FE | £23,375.00 - £25,751.00 Annually (Actual) | Administrator
-employer: Foxfields Academy
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 83d6e5c6466b99c69fe7cccf1a8d12f153b9c947756b9680288fd9ef20dc1d85
-source: Teaching Vacancies
-source_job_id: administrator-foxfields-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-foxfields-academy
----
-
----
-action: 
 SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BY | £20,395.00 - £20,718.00 Annually (Actual) LCC Pay Award Pending | School Administrator
 employer: Loughborough Church of England Primary School
 closing_date: 2026-08-24T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 83ed0bb2148507808087b18c5ed37669731f74afa261ca4df0e310b983606dd4
 source: Teaching Vacancies
@@ -75,12 +60,27 @@ employer: Water Leys Primary School
 closing_date: 2026-09-04T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: ed819a3dc6cdd5e17abbcbb9f1f2d714518601f944ce81f20855d92dc143b4be
 source: Teaching Vacancies
 source_job_id: administrative-officer-water-leys-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-water-leys-primary-school
+---
+
+---
+action: 
+POSS | Leicestershire | Blaby, East Midlands, LE8 4FE | £23,375.00 - £25,751.00 Annually (Actual) | Administrator
+employer: Foxfields Academy
+closing_date: 2026-08-23T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 83d6e5c6466b99c69fe7cccf1a8d12f153b9c947756b9680288fd9ef20dc1d85
+source: Teaching Vacancies
+source_job_id: administrator-foxfields-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-foxfields-academy
 ---
 
 ## EXCLUDED BY REVIEW

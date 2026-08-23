@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-08-22
+review_date: 2026-08-23
 review_fingerprint: ba42fa9c00565d87a146bc26e1b5547fcb34ee4d7c18618210bff8193ab019f2
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-22
-review_fingerprint: edf3bd9c0da1073be83c20bce5dca1f33367fc28b53b6eacfe6573b16c7558dd
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 6cb7382d74997281fc0b377e5cf1edc438dd82506501dc2a227251328ff2a181
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 23
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
-employer: The Rowan School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: admin clerical officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a11851681c25b233b9f9725a6d0ab9dc5dd163a371597d66bbdc33febc9dce5b
-source: Teaching Vacancies
-source_job_id: admin-clerical-officer-level-2-rowan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
 
 ---
 action: 
@@ -175,6 +160,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Manager title salary ceiling £38,502 is not below £28,000.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [Trust Operations Director](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-director) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-22
+review_date: 2026-08-23
 review_fingerprint: db4b9755b91db0e7c95d1486e1b5447b80c25fe8a3049bb623747aef4577bf80
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 19
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -146,7 +146,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Personal Care and Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-teaching-assistant-colonel-frank-seely-academy) — Out-of-scope occupation: teaching assistant.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-redgate-primary-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-yeoman-park-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
-- [Trust Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-safeguarding-lead-redhill-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

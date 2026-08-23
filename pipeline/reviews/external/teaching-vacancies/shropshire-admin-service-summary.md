@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-08-22
-review_fingerprint: 546a4afdb6839b3556966592698fe915d76f95dec184317ffdad02cacf6796be
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: e13cecff965b5cfdc62b2302f2cd4d41c138770a58273d52cc759a1e6e5ddfd5
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: Shropshire
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -32,7 +32,7 @@ employer: Shropshire Church Of England Academies Trust
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Borderline school administration title: clerk to governors
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 8b750c07215556b6445d529594383056bc403763a77f7ed91218299951663d6d
 source: Teaching Vacancies

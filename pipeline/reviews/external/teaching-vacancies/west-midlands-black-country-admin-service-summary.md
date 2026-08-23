@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-08-22
-review_fingerprint: 1064245042584cc9e9f00cb9a32c1eeeef9e20923a3dcaf04f26f828e05558db
-routing_manifest_sha256: add66d7d105a105618cbf58b523b0d4548e806186c27be0bb1c0cb30cb1eb7a7
+review_date: 2026-08-23
+review_fingerprint: 802a339381c95c05498b113215e839fdd46ccab1b9e6b79a9a8a699d805d6402
+routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Tipton Green Junior School
 closing_date: 2026-08-31T09:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 101c226ec566144d503f690e36627a9e5bfdf748236a06a0e96921e321196f1a
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: St Christopher's Catholic Primary Academy
 closing_date: 2026-09-07T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 8ec1f9988ec20ca44195d1fa8b94c6e452938ce6f182f792b6986237116e7b6d
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: St James Academy
 closing_date: 2026-08-31T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 0fad2d21d1d181e28853fc6c4ab9ce9789be1d97375807c429e4a402d9643902
 source: Teaching Vacancies
