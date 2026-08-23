@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | London | Wallington, SM6 0DE, 6 Mollison Square, SM6 9DW | Negotiable | Practice Receptionist & Administrator
+source_job_id: 5555864
+title: Practice Receptionist & Administrator
+employer: Manor Practice
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3357-26-0012
+factual_fingerprint: dc3c06ab67a837bf9eb97f5ee1da47f018a55a0b3fa92e0b30ef9cc3fb411d6d
+---
+
+---
+action:
 POSS | NHS Jobs | Lancashire - Central | Chorley, PR6 9NW, Chorley, PR7 7HZ, Preston, PR5 5RZ, Leyland, PR26 9HY, Chorley, PR6 0QA | Negotiable | Receptionist multiple Sites within the Organisation
 source_job_id: 5555841
 title: Receptionist multiple Sites within the Organisation
@@ -1570,18 +1582,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2011
 factual_fingerprint: d85aa3b8a1275d5d5b2968c9d25b8eff5b31b81a341298eb6c4432f412457365
----
-
----
-action:
-POSS | NHS Jobs | Essex | Basildon, SS14 1DL | £25760.00 | Booking Clerk - Outpatients Call Centre
-source_job_id: 5553519
-title: Booking Clerk - Outpatients Call Centre
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2008
-factual_fingerprint: 918d58b2227c81487e16ae2e6b262060851b1a9a3eec3d14210f9b6bb8d09b69
 ---
 
 ---
@@ -4845,7 +4845,7 @@ employer: Tameside and Glossop Integrated Care NHS Foundation Trust
 region: Greater Manchester - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0339
-factual_fingerprint: 9aea3b1ea8423dfc9e4599e14ec6c9e9e969f4f5564c9644ee65c48a0f4148f5
+factual_fingerprint: c9a2307a8209ca3be733f21be76a1b2ad3f984da075a9944aa0eea4907eae5bf
 ---
 
 ---

@@ -1183,9 +1183,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1205,9 +1202,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1227,9 +1221,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-0994",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1249,9 +1240,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1975",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1271,9 +1259,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0599",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1293,9 +1278,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0610",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1315,9 +1297,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0369",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1337,31 +1316,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0655",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5523702",
-    "source": "NHS Jobs",
-    "title": "Recruitment Administrator",
-    "company": "Devon Partnership NHS Trust",
-    "advertiser_name": "Devon Partnership NHS Trust",
-    "location": "Exeter, EX2 5AF, Dawlish, EX7 0NR",
-    "region": "Devon",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-07T15:48:18.470407",
-    "closing_date": "2026-08-22",
-    "description": "Join our friendly recruitment team and help Devon Partnership NHS Trust attract and appoint people who deliver outstanding care across our services. This is a varied and rewarding role where you will support recruitment activity and create a positive, professional experience for candidates and recruiting managers. You will often be the first point of contact for candidates and hiring managers, so we are looking for a real people person who is confident, approachable and able to communicate clearly in person and over the phone. You will take pride in excellent customer service and building effective working relationships. Once trained, you will work autonomously, using your judgement to organise and prioritise a busy workload. You will manage multiple tasks accurately and efficiently, supporting a recruitment process that is fast, responsive, safe, thorough and compliant. The Recruitment Team sits within the Workforce Directorate and is responsible for managing recruitment across Devon Partnership NHS Trust. This is a substantive full-time role working Monday to Friday, 09:00 - 17:00, with some flexibility. There will be a requirement to support recruitment events which occasionally fall on a weekend. The working base will be Wonford House in Exeter, with a mix of office and home working. There will also be very occasional travel across Devon and to other local careers events. In this role, you will support recruitment activity including making offers of appointment, completing pre-employment checks, liaising with candidates and recruiting managers, and generating contracts of employment. You will conduct face-to-face ID checks, respond to recruitment enquiries and support candidates through the process. You will bring team-working experience, administrative expertise and excellent customer service skills. The role is busy and often time pressured. You will need to be self-motivated, confident and able to work independently and as part of a team, with the ability to organise and prioritise a frequently interrupted workload. As a team, we support one another to find solutions and complete work to a high standard. Your role will be key to the teams success, with strong communication skills and a clear focus on customer satisfaction. You will help plan and support recruitment events throughout the year, follow up with candidates and act as a key contact for recruitment process queries. You will play an important role in helping us connect with potential applicants and promote the wide range of opportunities available across the Trust. If you are looking for a new and exciting challenge with the opportunity to contribute to a successful, high-performing team, we would like to hear from you. Please note this is a full time role and we are therefore unfortunately unable to consider part time requests. Please refer to the full Job Description and Person specification attached to this advert which will provide further information on this role",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0600",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0600",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1381,9 +1335,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0646",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1403,9 +1354,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0633",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5554416",
+    "source": "NHS Jobs",
+    "title": "QOF Support Administrator",
+    "company": "Beacon Medical Group",
+    "advertiser_name": "Beacon Medical Group",
+    "location": "Plymouth, PL7 1AD",
+    "region": "Devon",
+    "salary": "£12.90",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-08-21T11:56:33.533009",
+    "closing_date": "2026-09-06",
+    "description": "An exciting opportunity has arisen for a QOF Support Administrator to join the Business Intelligence team at Beacon Medical Group. This is a six-month fixed term contract with a view to extend to a permanent position, working 26.5 hours per week. The postholder will run their own areas of our Quality and Outcomes Framework (QOF) and similar schemes, keeping up to date with any changes and fully understanding any business rules that are published. They will be required to play a central role in the delivery of QOF, supporting the practice to deliver best care to our patients ensuring all long-term condition reviews are attended, and routine data gathering. The postholder will be responsible for prioritisation of their own workload, often to changing deadlines and priorities. We are looking for someone who can effectively work as part of a team, has an eye for detail, is proud of their work and ensures everything is fully documented and delivered to high a standard. A working knowledge of general practice is desirable. Working Pattern: Tuesday 08:30 - 18:00 Wednesday 08:30 - 18:00 Friday 09:00 - 18:00 The hourly rate for the role is £12.90. Please ensure that your application is entirely your own original work. Applications found to be generated by artificial intelligence (AI) will not be considered. This is a varied administrative role providing dedicated support to the business agenda. To play an active role to support patient care by ensuring checks are carried out promptly and patients needs are recorded though coding. To assist the business intelligence team to co-ordinate all matters concerned with the delivery of QOF and similar schemes. Assisting the business intelligence team with the recall process to enable the practice to meet its QOF targets. To ensure the administration of QOF within the Practice are carried out within the Practices guidelines and policies. To run set quality outcome framework domain, following annual NHS guidelines, ensuring all targets are meet. Other work as required to meet the administration support needs of the Business intelligence team, allocated by the team leader. Key responsibilities Quality and outcome framework (QOF) Run & be responsible for set QOF domain following QOF guidelines. Contact patients using letter, SMS, email & phone call to ensure contact is made with patients in correct time scales. Ensuring patients are booked into the correct clinics for owned QOF domain. Achieving QOF targets in a timely manner to set business targets. Recalls Action Recalls within own area of responsibility; Child Immunisations, Womans health etc. Completion of Childhood Immunisation Returns if this is an area of responsibility. Coding Assist the Business Intelligence team with audits related to QOF and Enhanced services, updating and amending coding as required. Ensure accurate read-codingSupport Dealing with queries relating to coding, where suitable. Administrative Support the business intelligence team with any admin work, folding letters in envelopes, adding information leaflets. Liaising with the patient liaison manager ensuring promotions for health awareness & promotions run alongside business plan. Confidentiality The post holder must maintain confidentiality, security and integrity of information relating to patients, staff and the business. In the performance of the duties outlined in this job description, the postholder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential. Personal/Professional Development The postholder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in an annual individual performance review, including taking responsibility for maintaining a record of own personal and/or professional development. Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work. Quality The postholder will strive to maintain quality within the practice, and will: Alert other team members to issues of quality and risk. Assess own performance and take accountability for own actions, either directly or under supervision. Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance. Work effectively with individuals in other agencies to meet patients needs. Effectively manage own time, workload and resources. Contribution to the implementation of services Apply practice policies, standards and guidance. Discuss with other members of the team how the policies, standards and guidelines will affect own work. Participate in audit where appropriate. Health and Safety Ensure all members of staff comply with the Groups health and safety policy. Carry out risk assessments to comply with current Health and Safety legislation. Ensure any health and safety concerns are reported to the Operations Manager. To be aware of and adhere to applicable practice rules, regulations, legislation and procedures, national legislation (Health and Safety, COSHH, Data Protection). Equality and Diversity: The post-holder will support the equality, diversity and rights of patients, carers and colleagues. Act in a way that recognises the importance of peoples rights, interpreting them in a way that is consistent with group processes and policies and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues. Behaving in a manner that is welcoming, non-judgemental and respects the individuals circumstances, feelings, priorities and rights. Governance Identify and record risks and issues, developing contingency plans with service and contract leads. Ensure the PCN is compliant with health and safety policies and procedures to reflect current best practice. Ensure that the PCN board and Clinical Director adhere to the governance structure as set out in the network agreement. To maintain confidentiality of information acquired in the course of undertaking duties for the practice. The details contained in this job description are not exhaustive and may change as the post develops.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0042",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0042",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]
