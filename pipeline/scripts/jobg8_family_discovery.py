@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import html
 import json
 import math
 import re
@@ -139,6 +141,23 @@ def dedupe_key(row: dict[str, Any]) -> str:
     ])
 
 
+def clean_content(value: object) -> str:
+    text = html.unescape(norm(value))
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"https?://\S+", " ", text)
+    return re.sub(r"\s+", " ", text).strip().casefold()
+
+
+def content_dedupe_key(title: object, area: object, location: object, description: object) -> str:
+    payload = "|".join([
+        norm(title).casefold(),
+        norm(area).casefold(),
+        norm(location).casefold(),
+        clean_content(description),
+    ])
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
 def salary_bucket(annual_min: float | None, annual_max: float | None, hard_max: float) -> str:
     vals = [v for v in (annual_min, annual_max) if v is not None]
     if not vals:
@@ -219,14 +238,16 @@ def main() -> int:
             provisional = "BORDERLINE"
             reason = "description-led family signal needs advert review"
 
-        geo_cluster = ontap_region(source.get(AREA_COL, ""), source.get(LOCATION_COL, ""), area_lookup, fallback)
+        area = norm(source.get(AREA_COL, ""))
+        location = norm(source.get(LOCATION_COL, ""))
+        geo_cluster = ontap_region(area, location, area_lookup, fallback)
         assessable_market = detail_rollups.get(geo_cluster, geo_cluster)
         market_status = "YES" if assessable_market in assessable_markets else "NO"
         row = {
             "display_reference": norm(source.get(DISPLAY_REF_COL, "")),
             "title": title,
-            "area": norm(source.get(AREA_COL, "")),
-            "location": norm(source.get(LOCATION_COL, "")),
+            "area": area,
+            "location": location,
             "ontap_geo_cluster": geo_cluster,
             "assessable_market": assessable_market,
             "in_uk_market_universe": market_status,
@@ -243,6 +264,7 @@ def main() -> int:
             "provisional_decision": provisional,
             "provisional_reason": reason,
             "description_excerpt": description[:700],
+            "content_dedupe_key": content_dedupe_key(title, area, location, description),
         }
         row["dedupe_key"] = dedupe_key(row)
         rows.append(row)
@@ -252,13 +274,16 @@ def main() -> int:
         raise SystemExit(f"{display_name} discovery produced no candidates")
 
     out["is_duplicate"] = out.duplicated("dedupe_key", keep="first")
-    deduped = out.loc[~out["is_duplicate"]].copy()
+    out["is_content_duplicate"] = out.duplicated("content_dedupe_key", keep="first")
+    ref_deduped = out.loc[~out["is_duplicate"]].copy()
+    content_unique = out.loc[~out["is_duplicate"] & ~out["is_content_duplicate"]].copy()
+
     args.output_dir.mkdir(parents=True, exist_ok=True)
     raw_csv = args.output_dir / f"jobg8-{key.replace('_', '-')}-discovery-current.csv"
     summary_md = args.output_dir / f"jobg8-{key.replace('_', '-')}-discovery-current.md"
     out.to_csv(raw_csv, index=False, encoding="utf-8-sig")
 
-    decision_counts = Counter(deduped["provisional_decision"])
+    decision_counts = Counter(content_unique["provisional_decision"])
     likely_n = decision_counts.get("LIKELY_IN", 0)
     borderline_n = decision_counts.get("BORDERLINE", 0)
     out_n = decision_counts.get("OUT_SPECIALIST", 0) + decision_counts.get("OUT_SALARY", 0)
@@ -274,20 +299,25 @@ def main() -> int:
     else:
         viability = "GO TO BOUNDARY SAMPLE / SCALE PLAUSIBLE"
 
-    salary_counts = deduped["salary_bucket"].value_counts()
-    class_counts = deduped["jobg8_classification"].replace("", "(blank)").value_counts().head(20)
-    market_counts = deduped["assessable_market"].replace("", "Other / Unknown").value_counts().head(30)
-    assessable_yes = int((deduped["in_uk_market_universe"] == "YES").sum())
-    assessable_no = len(deduped) - assessable_yes
+    salary_counts = content_unique["salary_bucket"].value_counts()
+    class_counts = content_unique["jobg8_classification"].replace("", "(blank)").value_counts().head(20)
+    market_counts = content_unique["assessable_market"].replace("", "Other / Unknown").value_counts().head(30)
+    assessable_yes = int((content_unique["in_uk_market_universe"] == "YES").sum())
+    assessable_no = len(content_unique) - assessable_yes
 
+    reference_dupes = int(out["is_duplicate"].sum())
+    content_dupes = int((~out["is_duplicate"] & out["is_content_duplicate"]).sum())
     lines = [
         f"# JobG8 {display_name} family discovery", "",
         f"Feed: **{feed.name}**",
         f"Jobs in feed: **{len(raw):,}**",
         f"Raw broad possible universe before exclusions/dedupe: **{len(out):,}**",
-        f"Duplicates within broad universe: **{int(out['is_duplicate'].sum()):,}**",
-        f"Deduped broad universe: **{len(deduped):,}**", "",
+        f"Reference-key duplicates within broad universe: **{reference_dupes:,}**",
+        f"Reference-deduped broad universe: **{len(ref_deduped):,}**",
+        f"Additional cross-reference content duplicates: **{content_dupes:,}**",
+        f"Content-unique broad universe: **{len(content_unique):,}**", "",
         "This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.",
+        "All source rows remain in the CSV with duplicate flags; viability, geography and recurrence use content-unique adverts.",
         f"Salary rule applied diagnostically: **over £{hard_max:,.0f} = OUT; exactly £{hard_max:,.0f} is not excluded; missing salary is retained.**", "",
         "## Early volume viability gate", "",
         f"Provisional LIKELY_IN: **{likely_n:,}**",
@@ -296,12 +326,12 @@ def main() -> int:
         f"Estimated genuine inventory before deep advert review: **~{estimate:,}** (working range **{lower:,}–{upper:,}**).",
         f"Viability floor: **~{floor:,} genuine jobs nationally**.",
         f"Early verdict: **{viability}**.", "",
-        "## Provisional decision breakdown", "", "| Decision | Deduped jobs |", "|---|---:|",
+        "## Provisional decision breakdown", "", "| Decision | Content-unique jobs |", "|---|---:|",
     ]
     for decision, count in decision_counts.most_common():
         lines.append(f"| {decision} | {count:,} |")
 
-    lines += ["", "## Salary distribution — deduped broad universe", "", "| Salary bucket | Jobs |", "|---|---:|"]
+    lines += ["", "## Salary distribution — content-unique broad universe", "", "| Salary bucket | Jobs |", "|---|---:|"]
     for bucket, count in salary_counts.items():
         lines.append(f"| {bucket} | {count:,} |")
 
@@ -312,8 +342,8 @@ def main() -> int:
     lines += [
         "", "## Geography — evidence only, not an occupational gate", "",
         f"Canonical UK assessment universe: **{len(assessable_markets):,} markets**.",
-        f"Deduped candidates mapping into that UK market universe: **{assessable_yes:,}**.",
-        f"Deduped candidates outside it or unresolved: **{assessable_no:,}**.",
+        f"Content-unique candidates mapping into that UK market universe: **{assessable_yes:,}**.",
+        f"Content-unique candidates outside it or unresolved: **{assessable_no:,}**.",
         "The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.",
         "Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.", "",
         "| Assessable market / geo result | Jobs | In UK market universe? |", "|---|---:|---|",
