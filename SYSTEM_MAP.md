@@ -365,3 +365,5 @@ Architecture cleanup 1–5 is merged into `main` via PR #211 and is canonical. S
 ## Documentation rule
 
 When a persistent system-level change alters any canonical bucket, update this file in the same change. If live/active/user-facing state changes, update `SYSTEM_OVERVIEW.md` as well.
+
+23 August 2026 — **safe geo lookup gap correction:** `pipeline/geo/geo_lookup.xlsx` remains the factual location-routing authority. Specific missing place mappings found during Legal Assistant / Paralegal discovery were added for Hook Norton, Woolston, Filey, Ware, Longfield, Milford Haven, Otley and Birmingham, plus safe county/location fallbacks where unambiguous. Broad ambiguous values such as `East of England` and bare `Merseyside` remain deliberately unresolved rather than being forced into a canonical market.
