@@ -1,28 +1,28 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **238** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **232** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **48**
+- LIKELY_IN: **40**
 - BORDERLINE: **0**
 - Provisional OUT: **11**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing Assistant: 4
 - Legal Admin & PA FTC: 2
-- Legal Secretary: 2
-- Legal PA: 2
-- Trade Mark Paralegal: 2
+- Conveyancing Assistant: 2
 - Immigration Paralegal: 2
 - Legal Admin Assistant: 1
-- Paralegal/Legal Secretary - Belfast: 1
 - Probate Administrator: 1
 - Residential Property Paralegal: 1
-- RTA Legal Secretary: 1
+- Legal Secretary: 1
 - Trade Mark Paralegal £45,000-£50,000++ - London/Hybrid: 1
+- Legal PA - Disputes: 1
+- Patent Litigation Paralegal: 1
+- Trade Mark Paralegal: 1
+- Employment Paralegal (x2) - City of London: 1
 
 ## Suffolk
 
@@ -90,22 +90,23 @@ Most common LIKELY_IN titles:
 - Legal Secretary / Legal PA: 1
 - Corporate Commercial Legal Secretary - Norwich: 1
 
-## Yorkshire - West
+## Greater Manchester - Manchester & Salford
 
 - LIKELY_IN: **7**
 - BORDERLINE: **1**
-- Provisional OUT: **2**
+- Provisional OUT: **3**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing Assistant: 2
-- Experienced Conveyancing Assistant: 1
-- Family Legal Secretary - Leeds: 1
-- Industrial Disease Paralegal: 1
+- RTA Legal Secretary: 1
+- Public Law Paralegal - Manchester: 1
+- Children Law Paralegal: 1
+- Public Law Paralegal: 1
+- Children Law Paralegal - Manchester: 1
 - Remote Conveyancing Paralegal: 1
-- Legal Secretary: 1
+- Legal PA: 1
 
 Borderline titles:
 
-- Probate Specialist - Huddersfield - HNW/Complex Estates: 1
+- Conveyancing Fee Earner - 6-Month Fixed-Term Contract Mostly Remote Manchester £45,000: 1
 

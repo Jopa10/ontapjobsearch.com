@@ -2,20 +2,20 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **33**.
-BORDERLINE jobs mapped into the universe: **26**.
+LIKELY_IN jobs mapped into the universe: **30**.
+BORDERLINE jobs mapped into the universe: **25**.
 Markets with at least one LIKELY_IN job: **16 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
 - markets with 3+ LIKELY_IN: **4**
-- markets with 6+ LIKELY_IN: **1**
+- markets with 6+ LIKELY_IN: **0**
 - markets with 9+ LIKELY_IN: **0**
 
 ## Strongest current markets
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| London | 7 | 3 | 10 |
+| London | 4 | 2 | 6 |
 | Essex | 3 | 2 | 5 |
 | Kent | 3 | 1 | 4 |
 | Surrey | 3 | 1 | 4 |
