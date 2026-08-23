@@ -4,7 +4,7 @@
 > All active sources are current for 2026-08-23. You can start reviewing.
 
 review_date: 2026-08-23
-generated_at: 2026-08-23T07:59:47+00:00
+generated_at: 2026-08-23T08:25:19+00:00
 
 **77 job(s) need a human decision.**
 
@@ -174,7 +174,7 @@ hub_fingerprint: b06f0ba8df1d2fb8d1697e8397a2f983f7f9dd3baab865e1e1732524bdf14c2
 ---
 
 ---
-action: excluder
+action:
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £35000 - £37000 per year (Training + Monday to Friday + Days) | Operations Planner & Scheduler - Warrington
 source_key: jobg8
 source: JobG8
