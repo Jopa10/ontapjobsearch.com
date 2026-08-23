@@ -100,31 +100,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "7dd05b0a-104f-408d-8bd7-54be423c3105",
-    "title": "Paraplanner",
-    "company": "Synchronicity Group - Agency - Permanent",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "45000",
-    "salary_max": "60000",
-    "salary_text": "£45000 - £60000 per year",
-    "posted_date": "",
-    "description": "Paraplanner Buckinghamshire Up to £65,000 + Benefits and annual bonus\n\nWe are working with a highly regarded, chartered financial planning firm seeking an experienced Technical Paraplanner to join their team. The practice specialises in working with High-Net-Worth clients, offering a sophisticated and comprehensive financial planning service.\n\nThe Role\n- This is a technically demanding position in which you will work closely with 1 or 2 Advisers to deliver high-quality, fully researched client solutions across a broad range of complex cases.\n- You will conduct extensive research and produce technical assessments, suitability letters and full financial plans, including cashflow modelling, contingency planning, legacy and succession planning, and tax planning.\n- You will attend client meetings where appropriate, conduct in-depth meeting preparation, and produce follow-up reports and analysis, ensuring complex information is translated into clear and accessible client correspondence.\n- You will manage ongoing portfolio reviews, liaise with providers, maintain accurate client records, and obtain product quotes, illustrations and supporting literature, whilst ensuring all work meets compliance and high ethical standards.\n\nAbout You\n- Level 4 CII Diploma in Financial Planning (or equivalent) is essential for this role.\n- You will be a technically strong Paraplanner with experience working on complex cases for sophisticated, well-informed clients who may challenge advice.\n- You will take an analytical and methodical approach to client recommendations, with excellent attention to detail, strong data skills and the ability to prioritise effectively to meet deadlines.\n- Above all, you will bring professionalism, initiative and a genuine commitment to delivering outstanding outcomes for clients and contributing positively to the wider team.\n\nFor further details about this and many other opportunities within Financial Services, please contact Andrew Stark at Synchronicity Wealth.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctyuB8fPT6NCsD5lvEYYcG%2fEp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Synchronicity Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "d1e4708e-d19d-443a-be15-877c600a8491",
     "title": "Operations Finance Assistant",
     "company": "Oxby Recruitment Ltd - Agency - Permanent",
@@ -400,31 +375,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107835081",
-    "title": "Paraplanner",
-    "company": "Premier Jobs UK Limited - Agency - Permanent",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "This Paraplanner job offers an excellent opportunity if you are a genuine Paraplanner who enjoys being actively involved in complex financial planning work.\nIn this Paraplanner job, you will work closely with advisers on thoughtful, holistic client planning. Your involvement will go far beyond report writing, with a strong emphasis on research, technical analysis and contributing to client strategy click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4m09noU2uurPNn78wqfiuHz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Premier Jobs UK Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225522682",
     "title": "Service Delivery Coordinator",
     "company": "BSI - Agency - Permanent",
@@ -465,7 +415,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1089",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1089",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551438",
@@ -483,7 +437,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0393",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0393",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -501,7 +459,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534158",
@@ -519,6 +481,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

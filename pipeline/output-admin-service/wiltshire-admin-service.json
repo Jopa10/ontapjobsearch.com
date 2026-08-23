@@ -609,31 +609,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107762896",
-    "title": "Paraplanner",
-    "company": "Premier Jobs UK Limited - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "This Paraplanner job offers an excellent opportunity if you are a genuine Paraplanner who enjoys being actively involved in complex financial planning work.\nIn this Paraplanner job, you will work closely with advisers on thoughtful, holistic client planning. Your involvement will go far beyond report writing, with a strong emphasis on research, technical analysis and contributing to client strategy click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fh%2fWAtBqnVVEdl7eXfhUe01i",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Premier Jobs UK Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2e108e98-a7de-4a5d-87c1-b82190063317",
     "title": "Accounts Assistant",
     "company": "Reed - Agency - Permanent",
@@ -684,31 +659,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107863674",
-    "title": "Technical Paraplanner",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Thrive Group are delighted to be actively recruiting for our client, who are experts in providing tailored financial planning advice. They urgently seek a Technical Paraplanner to join the team on a permanent basis.\nWhat you will be doing :\n- Supporting the Consultants ahead of client meetings\n- Preparing compliant, technical suitability reports and 'Financial Life Plan' reports detailing the Consulta click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJy03LKQYCXE5d0Mg7P7D19l",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "7f0f4505-247d-4506-93f8-3410286e37f4",
     "title": "Regional HR Assistant (South)",
     "company": "GXO Logistics - Company - Permanent",
@@ -749,7 +699,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547427",
@@ -767,7 +721,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4487-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4487-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535946",
@@ -785,7 +743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550277",
@@ -803,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0997-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0997-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5542712",
@@ -821,7 +787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0069-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0069-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5542636",
@@ -839,24 +809,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0551-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0551-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5342242",
-    "source": "NHS Jobs",
-    "title": "GP receptionist/administrator",
-    "company": "Ashington House Surgery",
-    "advertiser_name": "Ashington House Surgery",
-    "location": "Swindon, SN25 4XF",
-    "region": "Wiltshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-14T11:32:04.495731595",
-    "closing_date": "2026-08-30",
-    "description": "Full Time or Part Time receptionist/administrator. Starting Salary meeting national minimum wage. Full time working pattern 5days per week (38hrs) Part time working pattern over 3days per week either Monday - Wednesday or Wednesday - Friday. Hours 8am to 4pm with 30min lunch or 10/10.30am to 6/6.30pm with 30min lunch, this is on a 3 weekly rotation. We are seeking a friendly, organised and motivated GP Receptionist/Administrator to join our busy practice team. This is a key frontfacing role supporting patients, clinicians and the wider practice with a range of administrative and reception duties. Your responsibilities will include: Welcoming and assisting patients at reception Handling telephone and online enquiries Booking appointments and managing patient records Processing prescriptions and carrying out general administrative tasks Supporting the practice team with daytoday operations GCSE English (or equivalent) Experience in a customer service environment or within general practice Strong attention to detail and accuracy Confident grammar and written communication skills Solid IT ability and willingness to learn new systems A professional, calm and compassionate approach The post holder will provide a courteous, efficient and effective reception service to all patients, members of the public, staff and other professionals visiting or contacting the Practice. The post holder will ensure effective and timely communication with all members of the Primary Healthcare Team and will carry out all associated administrative tasks in line with Practice policies, with particular attention to confidentiality at all times. Greet and appropriately mark patients as arrived for their appointments. Answer queries from patients and visitors to the practice at reception desk. Answer telephone calls promptly, dealing with requests from patients, other healthcare professionals and companies contacting the surgery. Recording information onto patient records within our clinical system. Making appointments as required, take messages, answer or redirect queries, and pass on accurate and complete information. File and retrieve paperwork as required. Provide administrative support to process repeat prescriptions with the pharmacy team. Input, allocate and scan data accurately onto clinical systems. Initiate contact with patients, colleagues and external healthcare agencies as necessary. General Duties Keep the reception area, notice boards and leaflet dispensers tidy and free from obstructions or clutter. Support the smooth running of the practice as part of the wider administrative and reception team. This list is not exhaustive and is intended to reflect the core elements of the role. Primary Care is a continually evolving environment, and the post holder will be expected to adapt to reasonable changes in duties that remain consistent with the job summary. The post holder is expected to promote and support the health, safety and wellbeing of patients, staff and visitors as outlined in the Practice Health and Safety Policy. They must: Report any incidents, concerns or unsafe practices immediately. Ensure that their own actions do not put others at risk. In carrying out their duties, the post holder will have access to confidential information relating to patients, staff and the business of the Practice. All such information must be treated as strictly confidential. Confidential information must only be shared with authorised personnel involved in patient care or practice operations. Any breach of patient confidentiality may result in disciplinary action, including dismissal.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3520-26-0006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3520-26-0006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

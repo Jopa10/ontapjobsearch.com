@@ -2,13 +2,13 @@
 
 review_date: 2026-08-23
 
-- Open Administrative & Clerical rows reviewed: 2399
+- Open Administrative & Clerical rows reviewed: 2400
 - Auto/remembered selected: 740
 - Selected HC Tier A: 287
 - Selected HC Tier B: 453
 - POSS awaiting decision: 1179
 - Excluded: 0
-- HARD_PASS: 480
+- HARD_PASS: 481
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -9950,26 +9950,26 @@ factual_fingerprint: f88a6c41f5c40ac54a72f51527c161169bd80170dacaf162aa7d0b9377e
 
 ---
 action:
-POSS | NHS Jobs | — | Hertfordshire, AL9 6NN | £25565.00 | General Clerk
+POSS | NHS Jobs | Hertfordshire | Hertfordshire, AL9 6NN | £25565.00 | General Clerk
 source_job_id: 5534409
 title: General Clerk
 employer: Elysium Healthcare
-region: 
+region: Hertfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1777
-factual_fingerprint: 170d4bff021104c14bf2dd9ff073c17d94d74cd0d318b888800d7e7263602368
+factual_fingerprint: 3611228507e4d0a994c8e9c4c7157e6889a19927b867372d8c86b4e069121274
 ---
 
 ---
 action:
-POSS | NHS Jobs | — | Hertfordshire, AL9 6NN | £26500.00 | Medical Secretary
+POSS | NHS Jobs | Hertfordshire | Hertfordshire, AL9 6NN | £26500.00 | Medical Secretary
 source_job_id: 5534406
 title: Medical Secretary
 employer: Elysium Healthcare
-region: 
+region: Hertfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1775
-factual_fingerprint: 0737678a32d99a3f2fabeff666d62f8da2b5c57913e675836869adfc0d2dbcfe
+factual_fingerprint: 28ae4598b73fbd25972625dccc784bf0d7267ddab105b24681fe3a43425050c9
 ---
 
 ---

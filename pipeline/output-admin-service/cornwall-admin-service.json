@@ -125,6 +125,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107864350",
+    "title": "Streetworks Administrator",
+    "company": "Network Plus - Agency - Permanent",
+    "location": "St. Austell",
+    "region": "Cornwall",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Description\nAs a Streetworks Administrator, you will support the Operational Support team. You will provide support to ensure that the companys work is effectively programmed by submitting notices/permits, responding to council comments and jeopardy managing notices/permits to minimise the risk of Streetworks non-compliance click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctx%2fo9ll1YKmjPrTyklZWT9Gp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Network Plus",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "20279_60958-c5602722ee02b74c04b92a1b3d7cd56e",
     "title": "Call Centre Agent",
     "company": "EE - Company - Permanent",
@@ -465,7 +490,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4355-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4355-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5539940",
@@ -483,7 +512,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1048",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1048",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5531582",
@@ -501,7 +534,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1030",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1030",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5501383",
@@ -519,6 +556,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
