@@ -4,6 +4,7 @@ import argparse
 import html
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -37,7 +38,7 @@ def latest_feed(input_dir: Path) -> Path:
     return max(dated, key=lambda x: x[1])[0] if dated else files[-1]
 
 
-def evidence_snippet(description: str, keywords: list[str], width: int = 900) -> str:
+def evidence_snippet(description: str, keywords: list[str], width: int = 1200) -> str:
     if not description:
         return ""
     folded = description.casefold()
@@ -61,22 +62,38 @@ def numeric(value: object) -> float | None:
     return n if pd.notna(n) else None
 
 
+def first_existing(columns: set[str], *names: str) -> str | None:
+    for name in names:
+        if name in columns:
+            return name
+    return None
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build a compact one-advert-per-row family boundary review file.")
     ap.add_argument("--input-dir", required=True, type=Path)
     ap.add_argument("--diagnostic-csv", required=True, type=Path)
     ap.add_argument("--output-csv", required=True, type=Path)
+    ap.add_argument("--summary-md", type=Path)
+    ap.add_argument("--family-name", default="Family")
     ap.add_argument("--keywords", default="")
     ap.add_argument("--exclude-decision", action="append", default=[])
     ap.add_argument("--hard-salary-max", type=float, default=50000)
     args = ap.parse_args()
 
     diagnostic = pd.read_csv(args.diagnostic_csv, dtype=str).fillna("")
-    if "display_reference" not in diagnostic.columns or "discovery_decision" not in diagnostic.columns:
-        raise SystemExit("Diagnostic CSV must contain display_reference and discovery_decision")
+    columns = set(diagnostic.columns)
+    if "display_reference" not in columns:
+        raise SystemExit("Diagnostic CSV must contain display_reference")
+
+    decision_col = first_existing(columns, "discovery_decision", "provisional_decision")
+    reason_col = first_existing(columns, "discovery_reason", "provisional_reason")
+    region_col = first_existing(columns, "ontap_region", "assessable_market", "ontap_geo_cluster")
+    if not decision_col:
+        raise SystemExit("Diagnostic CSV must contain discovery_decision or provisional_decision")
 
     if args.exclude_decision:
-        diagnostic = diagnostic.loc[~diagnostic["discovery_decision"].isin(args.exclude_decision)].copy()
+        diagnostic = diagnostic.loc[~diagnostic[decision_col].isin(args.exclude_decision)].copy()
 
     feed = latest_feed(args.input_dir)
     raw = pd.read_excel(feed, dtype=str).fillna("")
@@ -103,10 +120,10 @@ def main() -> int:
         rows.append({
             "display_reference": ref,
             "title": norm(row.get("title", "")) or source.get("raw_title", ""),
-            "current_decision": norm(row.get("discovery_decision", "")),
-            "current_reason": norm(row.get("discovery_reason", "")),
+            "current_decision": norm(row.get(decision_col, "")),
+            "current_reason": norm(row.get(reason_col, "")) if reason_col else "",
             "jobg8_classification": norm(row.get("jobg8_classification", "")),
-            "ontap_region": norm(row.get("ontap_region", "")),
+            "ontap_region": norm(row.get(region_col, "")) if region_col else "",
             "salary_minimum_raw": norm(row.get("salary_minimum_raw", "")),
             "salary_maximum_raw": norm(row.get("salary_maximum_raw", "")),
             "salary_period": norm(row.get("salary_period", "")),
@@ -120,9 +137,41 @@ def main() -> int:
     out = pd.DataFrame(rows)
     args.output_csv.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(args.output_csv, index=False, encoding="utf-8-sig")
+
     print(f"Boundary review rows: {len(out):,}")
     print(f"Hard salary outs (> £{args.hard_salary_max:,.0f} max): {(out['hard_salary_out_over_50k'] == 'YES').sum():,}")
     print(f"Output: {args.output_csv}")
+
+    if args.summary_md:
+        decision_counts = Counter(out["current_decision"])
+        title_counts = out["title"].value_counts().head(40)
+        class_counts = out["jobg8_classification"].replace("", "(blank)").value_counts().head(20)
+        lines = [
+            f"# {args.family_name} boundary-review evidence",
+            "",
+            f"Feed: **{feed.name}**",
+            f"Advert rows for boundary review: **{len(out):,}**.",
+            f"Hard salary outs above £{args.hard_salary_max:,.0f}: **{(out['hard_salary_out_over_50k'] == 'YES').sum():,}**.",
+            "",
+            "This is boundary-review evidence only. The current discovery decision is provisional; `manual_boundary_decision` remains blank until the family boundary is frozen.",
+            "",
+            "## Current provisional decisions",
+            "",
+            "| Decision | Jobs |",
+            "|---|---:|",
+        ]
+        for decision, count in decision_counts.most_common():
+            lines.append(f"| {decision or '(blank)'} | {count:,} |")
+        lines += ["", "## Most common exact titles", "", "| Title | Jobs |", "|---|---:|"]
+        for title, count in title_counts.items():
+            lines.append(f"| {str(title).replace('|', '/')} | {count:,} |")
+        lines += ["", "## JobG8 classification spread", "", "| Classification | Jobs |", "|---|---:|"]
+        for classification, count in class_counts.items():
+            lines.append(f"| {str(classification).replace('|', '/')} | {count:,} |")
+        args.summary_md.parent.mkdir(parents=True, exist_ok=True)
+        args.summary_md.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        print(f"Summary: {args.summary_md}")
+
     return 0
 
 
