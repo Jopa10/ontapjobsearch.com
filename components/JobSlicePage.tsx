@@ -58,6 +58,7 @@ type RelatedPage = {
 type BrowseLinks = {
   heading: string;
   intro?: string;
+  compact?: boolean;
   links: Array<{
     href: string;
     label: string;
@@ -187,10 +188,19 @@ function BrowseLinksPanel({ browseLinks }: { browseLinks: BrowseLinks }) {
   if (!browseLinks.links.length) return null;
 
   return (
-    <nav className={styles.browsePanel} aria-label={browseLinks.heading}>
+    <nav
+      className={`${styles.browsePanel} ${browseLinks.compact ? styles.compactBrowsePanel : ""}`}
+      aria-label={browseLinks.heading}
+    >
       <div>
-        <div className={styles.relatedEyebrow}>{browseLinks.heading}</div>
-        {browseLinks.intro ? (
+        <div
+          className={
+            browseLinks.compact ? styles.compactBrowseHeading : styles.relatedEyebrow
+          }
+        >
+          {browseLinks.heading}
+        </div>
+        {browseLinks.intro && !browseLinks.compact ? (
           <p className={styles.relatedPrompt}>{browseLinks.intro}</p>
         ) : null}
       </div>

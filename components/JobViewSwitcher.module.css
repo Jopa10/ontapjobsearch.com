@@ -3,35 +3,45 @@
   align-items: center;
   justify-content: flex-end;
   gap: 6px;
-  margin: 0 0 12px;
+  margin: 0;
 }
 
 .sectorBlock {
-  margin-bottom: 12px;
-  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
   border: 1px solid #dbe3ee;
-  border-radius: 12px;
+  border-radius: 10px;
   background: #f8fafc;
 }
 
-.sectorHeading {
-  margin-bottom: 8px;
-  color: #172033;
-  font-size: 15px;
+.sectorGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.compactPrompt {
+  color: #64748b;
+  font-size: 12px;
   font-weight: 800;
 }
 
 .sectorControls {
   display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
+  flex-wrap: nowrap;
+  gap: 6px;
 }
 
 .sectorButton {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border: 1px solid #cbd5e1;
   border-radius: 999px;
   background: #fff;
@@ -71,13 +81,6 @@
   background: #124b2e;
 }
 
-.sectorNote {
-  margin: 8px 0 0;
-  color: #64748b;
-  font-size: 12px;
-  line-height: 1.45;
-}
-
 .sectorBusiness :global([data-job-sector="public"]),
 .sectorPublic :global([data-job-sector="business"]) {
   display: none;
@@ -102,7 +105,7 @@
 .button {
   border: 1px solid #cbd5e1;
   border-radius: 8px;
-  padding: 7px 11px;
+  padding: 6px 9px;
   background: #fff;
   color: #334155;
   cursor: pointer;
@@ -131,7 +134,27 @@
   background: #1d4ed8;
 }
 
+@media (max-width: 940px) {
+  .sectorBlock {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .sectorGroup {
+    width: 100%;
+  }
+
+  .sectorControls {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 640px) {
+  .sectorGroup {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .sectorControls {
     align-items: stretch;
     flex-direction: column;

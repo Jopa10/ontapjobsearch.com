@@ -51,6 +51,27 @@
   gap: 7px;
 }
 
+.compactBrowsePanel {
+  padding: 8px 10px;
+}
+
+.compactBrowseHeading {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.compactBrowsePanel .relatedLink {
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.compactBrowsePanel .browseLinkList {
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
 .relatedLink {
   display: inline-flex;
   flex: 0 0 auto;
@@ -103,6 +124,14 @@
 
   .browseLinkList {
     justify-content: flex-start;
+  }
+
+  .compactBrowsePanel {
+    gap: 7px;
+  }
+
+  .compactBrowsePanel .browseLinkList {
+    flex-wrap: wrap;
   }
 }
 

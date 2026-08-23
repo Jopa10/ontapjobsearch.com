@@ -87,7 +87,7 @@ test("server markup keeps all sector jobs available and visibly labels public jo
     />,
   );
 
-  assert.match(html, /All jobs/);
+  assert.match(html, /Jobs:.*All/);
   assert.match(html, /Business &amp; agency/);
   assert.match(html, /Public service &amp; charity/);
   assert.equal((html.match(/data-job-sector="business"/g) || []).length, 2);

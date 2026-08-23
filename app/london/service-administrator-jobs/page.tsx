@@ -63,6 +63,7 @@ export default function Page() {
       browseLinks={{
         heading: "Browse London by area",
         intro: "Use an area when the vacancy gives a reliable London location; otherwise it stays on this London-wide page.",
+        compact: true,
         links: londonAreaLinks,
       }}
       trainingHeading="Boost your admin applications"
