@@ -2,7 +2,7 @@
   "threshold": 6,
   "near_threshold": 4,
   "published_slices_scanned": 16,
-  "jobs_scanned": 808,
+  "jobs_scanned": 809,
   "regional_markets_defined": 61,
   "market_rows_monitored": 94,
   "opportunities": [
@@ -166,7 +166,7 @@
       "region": "coventry-warwickshire",
       "slice": "service-administrator-jobs",
       "locality": "Warwickshire",
-      "jobs": 27,
+      "jobs": 28,
       "threshold": 6,
       "status": "QUALIFIES",
       "basis": "exact-location-unregistered",
@@ -280,6 +280,19 @@
       "registered_market": true
     },
     {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Rugby",
+      "jobs": 4,
+      "threshold": 6,
+      "status": "NEAR",
+      "basis": "regional-market",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
       "region": "hampshire",
       "slice": "service-administrator-jobs",
       "locality": "Portsmouth",
@@ -369,19 +382,6 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
-    },
-    {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Rugby",
-      "jobs": 3,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
     },
     {
       "region": "hampshire",
@@ -813,19 +813,6 @@
       "registered_market": true
     },
     {
-      "region": "south-yorkshire",
-      "slice": "support-worker",
-      "locality": "Sheffield",
-      "jobs": 1,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/south-yorkshire/support-worker.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
       "region": "surrey",
       "slice": "service-administrator-jobs",
       "locality": "Reigate & Redhill",
@@ -1141,6 +1128,19 @@
       "region": "south-yorkshire",
       "slice": "support-worker",
       "locality": "Rotherham",
+      "jobs": 0,
+      "threshold": 6,
+      "status": "BELOW",
+      "basis": "regional-market",
+      "parent_json": "app/south-yorkshire/support-worker.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "south-yorkshire",
+      "slice": "support-worker",
+      "locality": "Sheffield",
       "jobs": 0,
       "threshold": 6,
       "status": "BELOW",
