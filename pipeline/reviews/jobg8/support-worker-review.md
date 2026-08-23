@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-22
+feed_date: 2026-08-23
 
 Edit only the `action:` line in each block:
 
@@ -33,12 +33,6 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Doncaster | £14.13 - £15 per hour | Children's Residential Support Worker
 job_id: 644ad7a6-f985-4576-807e-d5dbedad1b4c
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £12.71 per hour | Care Assistant (Days and Nights)
-job_id: 107686466
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -351,12 +345,6 @@ job_id: 23643_225516212
 action:
 SELECTED | London | London | £14.5 - £15 per hour | Residential Support Worker - Bank Staff
 job_id: cf658a6f-c60f-4064-8c86-c869438f2917
----
-
----
-action:
-SELECTED | London | Croydon | £12.82 - £14.55 per hour | Care Assistant
-job_id: 107877842
 ---
 
 ## LONDON — POSSIBLES
