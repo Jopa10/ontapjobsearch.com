@@ -136,6 +136,29 @@ def _load_live_counts() -> tuple[str, dict[tuple[str, str], int]]:
     return report_path, counts
 
 
+def _live_count_for_market(
+    live_counts: dict[tuple[str, str], int],
+    rollups: dict[str, str],
+    region_name: str,
+    category: str,
+) -> int:
+    """Count canonical-market LIVE jobs, including exact geo aliases/detail regions.
+
+    The live-source report records the factual region carried by each unique
+    published vacancy. A canonical market may therefore have both direct rows
+    (for example external sources already labelled ``North East``) and detail
+    rows (for example JobG8 Tyneside or County Durham). Both belong to the same
+    governed market and must contribute to its LIVE count.
+    """
+    total = live_counts.get((region_name, category), 0)
+    total += sum(
+        count
+        for (raw_region, raw_category), count in live_counts.items()
+        if raw_category == category and rollups.get(raw_region) == region_name
+    )
+    return total
+
+
 def _load_selected_counts(repo_path: str) -> dict[str, int]:
     text = _git_show_main(repo_path)
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")))
@@ -243,8 +266,15 @@ def build() -> str:
             is_live = status == "LIVE"
             if is_live and family["key"] == "sales_advisor":
                 live_count = _published_sales_count(slug)
+            elif is_live:
+                live_count = _live_count_for_market(
+                    live_counts,
+                    rollups,
+                    region_name,
+                    family["source_category"],
+                )
             else:
-                live_count = live_counts.get((region_name, family["source_category"]), 0) if is_live else 0
+                live_count = 0
 
             candidate_count: int | None = None
             candidate_source = ""
@@ -274,7 +304,7 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
