@@ -1,0 +1,50 @@
+name: Sync live rollup governance once
+
+on:
+  push:
+    paths:
+      - '.github/live-rollup-governance-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Record canonical live-count rollup rule
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          entries = {
+              'SYSTEM_MAP.md': '- 23 August 2026 — **LIVE regional headline geo-rollup fix:** `pipeline/scripts/build_daily_region_overview.py` now applies `uk_assessable_regions.json` detail/alias roll-ups to LIVE Service Admin and Support Worker counts before rendering canonical-market rows and headline totals. This fixes the North East case where factual JobG8 detail rows were previously omitted from the aggregate `North East` LIVE count while NEJobs/VONNE aggregate rows were counted. The 23 August corrected snapshot is **North East Service Admin 86** and **Service Admin headline 1,357**; Support Worker remains 64 and Sales Advisor 34. `pipeline/tests/test_build_daily_region_overview.py` guards direct-plus-detail roll-up behaviour, and the overview workflow runs that regression test before rebuilding the report.\n',
+              'SYSTEM_OVERVIEW.md': '- 23 August 2026 — The daily regional overview now rolls factual geo detail/alias rows into the canonical 78-market region before calculating LIVE Service Admin/Support Worker rows and headline totals. This corrected North East Service Admin from 29 to 86 and the Service Admin headline from 1,300 to **1,357** on the 23 August snapshot; Support Worker remains 64 and Sales Advisor 34. A regression test now protects the roll-up behaviour.\n',
+          }
+
+          marker = '## Recent canonical changes\n\n'
+          for filename, entry in entries.items():
+              path = Path(filename)
+              text = path.read_text(encoding='utf-8')
+              if entry.strip() in text:
+                  continue
+              if marker not in text:
+                  raise SystemExit(f'missing recent-changes marker in {filename}')
+              path.write_text(text.replace(marker, marker + entry, 1), encoding='utf-8')
+          PY
+
+      - name: Commit governance and remove one-time files
+        run: |
+          set -euo pipefail
+          git rm .github/workflows/sync-live-rollup-governance-once.yml .github/live-rollup-governance-trigger
+          git add SYSTEM_MAP.md SYSTEM_OVERVIEW.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Document canonical live regional rollups'
+          git pull --rebase origin main
+          git push origin HEAD:main
