@@ -211,13 +211,13 @@ def main() -> int:
             reason = "specialist/senior technical title boundary"
         elif any_match(likely_in, title):
             provisional = "LIKELY_IN"
-            reason = "ordinary workplace IT support title signal"
+            reason = "family title is a strong inclusion signal"
         elif any_match(borderline, title):
             provisional = "BORDERLINE"
-            reason = "support title needs advert-context review"
+            reason = "title needs advert-context review"
         else:
             provisional = "BORDERLINE"
-            reason = "description-led IT support signal needs advert review"
+            reason = "description-led family signal needs advert review"
 
         geo_cluster = ontap_region(source.get(AREA_COL, ""), source.get(LOCATION_COL, ""), area_lookup, fallback)
         assessable_market = detail_rollups.get(geo_cluster, geo_cluster)
@@ -324,7 +324,7 @@ def main() -> int:
     lines += [
         "", "## Next gate", "",
         "If the early verdict is STOP / VERY THIN or CAUTION / LIKELY BELOW GATE, do not spend time on full advert-level boundary work yet.",
-        "If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 73-market UK recurrence/slice assessment.",
+        "If scale is plausible, use the candidate CSV for advert-level IN / BORDERLINE / OUT review, freeze reusable family rules, then validate the frozen selector against the whole feed before any 78-market UK recurrence/slice assessment.",
     ]
     summary_md.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(summary_md.read_text(encoding="utf-8"))
