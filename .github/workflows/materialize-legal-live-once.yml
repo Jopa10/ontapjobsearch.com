@@ -2,6 +2,7 @@
 name: Materialize approved Legal live slices once
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/materialize-legal-live-once.yml'
