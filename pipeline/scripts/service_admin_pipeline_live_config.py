@@ -2,8 +2,9 @@
 
 This wraps the established Sussex/Coventry chain rather than replacing its
 selection logic. North Yorkshire and all later regions are added from the
-central slice register/catalog. Registered secondary categories and Customer
-Sales are then generated from the same current JobG8 input.
+central slice register/catalog. Registered secondary categories, Customer
+Sales and Legal Assistant / Paralegal are then generated from the same current
+JobG8 input.
 """
 from __future__ import annotations
 
@@ -118,7 +119,11 @@ def main() -> int:
     if result:
         return result
     from .customer_sales_production_refine import main as refine_live_customer_sales
-    return refine_live_customer_sales()
+    result = refine_live_customer_sales()
+    if result:
+        return result
+    from .legal_assistant_pipeline import main as run_live_legal_assistant
+    return run_live_legal_assistant()
 
 
 if __name__ == "__main__":
