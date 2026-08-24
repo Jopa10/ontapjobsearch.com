@@ -13,6 +13,7 @@ from .contracts import ParsedDecision, ReviewItem, SourceResult, VALID_ACTIONS, 
 
 DEFAULT_MASTER = PIPELINE_ROOT / "reviews/daily/ontap-daily-review.md"
 MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE = 15
+UNRESOLVED_POLICIES = {"quarantine", "withhold"}
 
 
 def _md(value: object) -> str:
@@ -348,8 +349,13 @@ def apply_master(
     write: bool = False,
     plan_path: Path | None = None,
     require_complete: bool = False,
+    unresolved_policy: str = "quarantine",
 ) -> dict[str, object]:
     today = today or date.today()
+    if unresolved_policy not in UNRESOLVED_POLICIES:
+        raise ValueError(
+            f"unsupported unresolved policy: {unresolved_policy}"
+        )
     review_date, decisions = parse_master(path)
     if review_date != today.isoformat():
         raise ValueError(
@@ -357,17 +363,30 @@ def apply_master(
         )
 
     unresolved = [decision for decision in decisions if not decision.action]
-    unresolved_counts = Counter(decision.source_key for decision in unresolved)
-    isolated_sources = {
-        source
-        for source, count in unresolved_counts.items()
-        if count > MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE
-    }
-    quarantined = [
-        decision
-        for decision in unresolved
-        if decision.source_key not in isolated_sources
-    ]
+    if unresolved_policy == "quarantine":
+        unresolved_counts = Counter(
+            decision.source_key for decision in unresolved
+        )
+        isolated_sources = {
+            source
+            for source, count in unresolved_counts.items()
+            if count > MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE
+        }
+        quarantined = [
+            decision
+            for decision in unresolved
+            if decision.source_key not in isolated_sources
+        ]
+        withheld: list[ParsedDecision] = []
+    else:
+        # The scheduled day-off path must not turn an untouched review queue
+        # into remembered exclusions or retain an entire source merely because
+        # it has more than 15 pending decisions. Source publishers already
+        # omit blank actions fail-closed, so leave them untouched for a later
+        # review while refreshing each source's clean/automatic inventory.
+        isolated_sources = set()
+        quarantined = []
+        withheld = unresolved
 
     del require_complete
 
@@ -401,6 +420,7 @@ def apply_master(
     if isolated_sources:
         acted = [d for d in acted if d.source_key not in isolated_sources]
         quarantined = [d for d in quarantined if d.source_key not in isolated_sources]
+        withheld = [d for d in withheld if d.source_key not in isolated_sources]
 
     quarantine_excludes = [
         ParsedDecision(
@@ -431,6 +451,7 @@ def apply_master(
         "actions": len(acted),
         "selected": sum(d.action == "select" for d in acted),
         "excluded": sum(d.action == "exclude" for d in acted),
+        "unresolved_policy": unresolved_policy,
         "quarantined": len(quarantine_excludes),
         "quarantined_jobs": [
             {
@@ -440,6 +461,19 @@ def apply_master(
                 "reason": "blank or invalid action; withheld fail-closed",
             }
             for decision in quarantined
+        ],
+        "withheld": len(withheld),
+        "withheld_jobs": [
+            {
+                "source": decision.source_key,
+                "source_job_id": decision.item.source_job_id,
+                "title": decision.item.title,
+                "reason": (
+                    "blank or invalid action; withheld for this publication "
+                    "without recording an exclusion"
+                ),
+            }
+            for decision in withheld
         ],
         "isolated_sources": sorted(isolated_sources),
         "complete": len(unresolved) == 0,
@@ -475,6 +509,15 @@ def main(argv: list[str] | None = None) -> int:
     apply.add_argument("--write", action="store_true")
     apply.add_argument("--plan", type=Path)
     apply.add_argument("--require-complete", action="store_true")
+    apply.add_argument(
+        "--unresolved-policy",
+        choices=sorted(UNRESOLVED_POLICIES),
+        default="quarantine",
+        help=(
+            "quarantine blanks as explicit exclusions under the normal manual "
+            "threshold, or withhold them without persisting a decision"
+        ),
+    )
     args = parser.parse_args(argv)
     try:
         if args.command == "build":
@@ -485,6 +528,7 @@ def main(argv: list[str] | None = None) -> int:
                 write=args.write,
                 plan_path=args.plan,
                 require_complete=args.require_complete,
+                unresolved_policy=args.unresolved_policy,
             )
     except ValueError as exc:
         raise SystemExit(f"STOP: {exc}") from exc

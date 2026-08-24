@@ -22,6 +22,7 @@ Business priority wins over technical neatness. Website routes and public URLs a
 ### Reviewed publication
 
 - `apply-publish-ontap-daily-review.yml` — owner-facing orchestration point.
+- The same workflow provides the 11:45 Europe/London no-edit publication safety net; it skips after a successful same-date manual run and otherwise withholds unresolved jobs without persisting exclusions while using the existing guarded publishers.
 - `apply-jobg8-review-decisions.yml` — exact reviewed JobG8 replay/apply path.
 - source-specific approved publishers — NEJobs, VONNE and Teaching Vacancies.
 - `publish-verified-pages.yml` — final shared bridge into live `app/**.json`, live-job reporting and city-page outputs.
@@ -97,6 +98,8 @@ This was a repository-write race, not a Teaching Vacancies discovery/classificat
 The operating implication is explicit: source refresh freshness is upstream of `apply-publish-ontap-daily-review.yml`. A stale/missing source is flagged and must not be interpreted as zero inventory, but source isolation allows the parent publication path to continue with clean sources rather than turning one stale source into a whole-system failure.
 
 On 24 August, the live-site discovery guard was refined after an otherwise healthy run failed because one vacancy disappeared between two complete national sweeps. TV now performs one fully audited sweep: advertised page ranges, totals and vacancy-link counts must reconcile; transient page failures retain their targeted retries; inconsistent route facts retry only that route; and persistent route/page integrity failure still stops the source. This removes the false requirement that a live job board remain byte-for-byte static across two complete sweeps without weakening fail-closed source integrity.
+
+Also on 24 August, daily publication gained an 11:45 Europe/London safety net inside the existing owner-facing orchestrator. It checks for a successful manual workflow dispatch on the same local date and skips if found. If no manual publication completed, it reconciles current sources and publishes through the existing guarded chain using a distinct automatic-withhold policy: unresolved jobs are not published, not persisted as exclusions and do not isolate an otherwise healthy source merely because there are more than 15. Source staleness, changed review fingerprints, source-publisher failure isolation and the final verified-page integrity gate remain unchanged. This closes the operational dependency on the owner completing an edit session every day without weakening job-level fail-closed selection.
 
 ## Geography / regional expansion follow-up — 22 August 2026
 

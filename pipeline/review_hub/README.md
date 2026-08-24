@@ -49,7 +49,9 @@ The hub fingerprints the factual review record. A remembered decision is valid o
 
 `Ontap daily review` runs after the morning source refreshes, writes the one master review file and sends the review email when SMTP secrets are configured. It is the workflow to rerun after repairing a stale source when the operator needs a fresh edit surface.
 
-`Apply and publish Ontap daily review` requires explicit `PUBLISH` after the master review has been completed, reconciles the current source state, fans decisions back to their owning source review files, then dispatches current source publishers sequentially. Existing source-specific approval and publication guards remain authoritative underneath the hub.
+Manual `Apply and publish Ontap daily review` requires explicit `PUBLISH` after the master review has been completed, reconciles the current source state, fans decisions back to their owning source review files, then dispatches current source publishers sequentially. Existing source-specific approval and publication guards remain authoritative underneath the hub.
+
+The same workflow has an 11:45 Europe/London safety-net schedule. It checks whether a successful manual dispatch already completed on the same London date and exits without publishing if so. Otherwise it uses `--unresolved-policy withhold`: blank/invalid review jobs are omitted for that publication but no `exclude` action is written to a source review, the normal 15-job unresolved threshold does not isolate an otherwise healthy source, and the pending jobs remain eligible to return in a later review. Existing non-blank decisions still require a current factual fingerprint; stale or mismatched sources remain isolated and final publication guards are unchanged.
 
 ## Email secrets
 

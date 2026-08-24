@@ -200,6 +200,60 @@ def test_more_than_15_blank_actions_isolates_source_not_whole_run(
     assert routed == []
 
 
+def test_automatic_withhold_keeps_large_blank_queue_publishable(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    review_items = tuple(item(source_job_id=f"job-{index}") for index in range(20))
+    source = result_many(review_items)
+    path = tmp_path / "ontap-daily-review.md"
+    path.write_text(
+        master_review.master_text([source], today=TODAY, previous=path),
+        encoding="utf-8",
+    )
+    routed = []
+    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [source])
+    monkeypatch.setattr(master_review, "_route_action", routed.append)
+
+    plan = master_review.apply_master(
+        path,
+        today=TODAY,
+        write=True,
+        unresolved_policy="withhold",
+    )
+
+    assert plan["unresolved_policy"] == "withhold"
+    assert plan["withheld"] == 20
+    assert plan["quarantined"] == 0
+    assert plan["isolated_sources"] == []
+    assert plan["complete"] is False
+    assert plan["publish"][0]["source"] == "test"
+    assert routed == []
+
+
+def test_automatic_withhold_still_isolates_changed_review_facts(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    path = tmp_path / "ontap-daily-review.md"
+    text = master_review.master_text([result(item())], today=TODAY, previous=path)
+    path.write_text(text.replace("action:\n", "action: select\n", 1), encoding="utf-8")
+    monkeypatch.setattr(
+        master_review,
+        "load_all_sources",
+        lambda today: [result(item(title="Changed after review"))],
+    )
+
+    plan = master_review.apply_master(
+        path,
+        today=TODAY,
+        unresolved_policy="withhold",
+    )
+
+    assert plan["isolated_sources"] == ["test"]
+    assert plan["publish"] == []
+
+
 def test_invalid_action_is_treated_as_job_level_quarantine(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
