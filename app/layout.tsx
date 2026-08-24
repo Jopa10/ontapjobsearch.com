@@ -80,6 +80,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta
+          name="impact-site-verification"
+          {...{ value: '04d049d4-d81c-4ec1-8457-5d8d8bc86487' }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
