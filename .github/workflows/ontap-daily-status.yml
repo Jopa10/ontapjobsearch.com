@@ -1,0 +1,103 @@
+name: Ontap daily status
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 9 * * *"
+      timezone: "Europe/London"
+    - cron: "15 12 * * *"
+      timezone: "Europe/London"
+  workflow_run:
+    workflows:
+      - Ontap daily review
+      - Deploy Ontap production after publish
+    types:
+      - completed
+
+concurrency:
+  group: ontap-daily-status
+  cancel-in-progress: true
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  daily-status:
+    name: Check readiness and publication
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect today's operating workflow runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          runs_jsonl="$RUNNER_TEMP/ontap-daily-status-runs.jsonl"
+          : > "$runs_jsonl"
+          for workflow in \
+            run-full-jobg8-daily-process.yml \
+            run-teaching-vacancies-regional-review.yml \
+            refresh-nhs-admin-service-review.yml \
+            run-nejobs-review.yml \
+            run-vonne-review.yml \
+            ontap-daily-review.yml \
+            apply-publish-ontap-daily-review.yml \
+            apply-jobg8-review-decisions.yml \
+            build-approved-nejobs-output.yml \
+            build-approved-vonne-output.yml \
+            publish-reviewed-teaching-vacancies-england.yml \
+            publish-reviewed-nhs-admin-service.yml \
+            publish-verified-pages.yml \
+            deploy-vercel-after-publish.yml
+          do
+            gh run list \
+              --workflow "$workflow" \
+              --branch main \
+              --limit 30 \
+              --json workflowName,event,status,conclusion,createdAt,updatedAt,url \
+              >> "$runs_jsonl"
+          done
+          jq -s 'add' "$runs_jsonl" > "$RUNNER_TEMP/ontap-daily-status-runs.json"
+
+      - name: Decide whether publication is due
+        id: phase
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          TRIGGER_WORKFLOW: ${{ github.event.workflow_run.name }}
+        run: |
+          set -euo pipefail
+          require=false
+          if [ "$EVENT_SCHEDULE" = "15 12 * * *" ]; then
+            require=true
+          elif [ "$EVENT_NAME" = "workflow_run" ] && [ "$TRIGGER_WORKFLOW" = "Deploy Ontap production after publish" ]; then
+            require=true
+          elif [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$(TZ=Europe/London date +%H%M)" -ge 1215 ]; then
+            require=true
+          fi
+          echo "require_publish=$require" >> "$GITHUB_OUTPUT"
+
+      - name: Build the owner-facing daily status
+        working-directory: pipeline
+        run: |
+          set -euo pipefail
+          publish_arg=""
+          if [ "${{ steps.phase.outputs.require_publish }}" = "true" ]; then
+            publish_arg="--require-publish"
+          fi
+          python -m scripts.owner_daily_status \
+            --runs-json "$RUNNER_TEMP/ontap-daily-status-runs.json" \
+            --summary "$GITHUB_STEP_SUMMARY" \
+            $publish_arg

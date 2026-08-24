@@ -31,6 +31,7 @@ Business priority wins over technical neatness. Website routes and public URLs a
 
 - `google-indexing-api.yml` — daily Google Indexing API submission, 200-notification cap, persistent submission state and GitHub Issue alerting.
 - `build-daily-region-overview.yml` — post-publish regional operational overview.
+- `ontap-daily-status.yml` — single owner-facing Actions check for same-day source/review readiness and complete manual-or-automatic publication/deployment. It links failures back to the technical run while leaving the underlying failure-isolation architecture intact.
 
 ## Agreed cleanup 1–5
 
