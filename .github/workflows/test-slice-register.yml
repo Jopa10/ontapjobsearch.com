@@ -13,6 +13,8 @@ on:
       - 'pipeline/scripts/customer_sales_pipeline.py'
       - 'pipeline/scripts/customer_sales_production_refine.py'
       - 'pipeline/scripts/marketing_pipeline.py'
+      - 'pipeline/scripts/hr_recruitment_pipeline.py'
+      - 'pipeline/config/family_discovery/hr_recruitment.json'
       - 'pipeline/config/family_discovery/marketing.json'
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
@@ -61,6 +63,7 @@ on:
       - 'tests/test_slice_registry.py'
       - 'tests/test_customer_sales_pipeline.py'
       - 'tests/test_marketing_pipeline.py'
+      - 'tests/test_hr_recruitment_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
       - 'tests/test_newcastle_city_launch.py'
@@ -80,6 +83,8 @@ on:
       - 'pipeline/scripts/customer_sales_pipeline.py'
       - 'pipeline/scripts/customer_sales_production_refine.py'
       - 'pipeline/scripts/marketing_pipeline.py'
+      - 'pipeline/scripts/hr_recruitment_pipeline.py'
+      - 'pipeline/config/family_discovery/hr_recruitment.json'
       - 'pipeline/config/family_discovery/marketing.json'
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
@@ -128,6 +133,7 @@ on:
       - 'tests/test_slice_registry.py'
       - 'tests/test_customer_sales_pipeline.py'
       - 'tests/test_marketing_pipeline.py'
+      - 'tests/test_hr_recruitment_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
       - 'tests/test_newcastle_city_launch.py'
@@ -154,6 +160,7 @@ jobs:
             pipeline/scripts/customer_sales_pipeline.py \
             pipeline/scripts/customer_sales_production_refine.py \
             pipeline/scripts/marketing_pipeline.py \
+            pipeline/scripts/hr_recruitment_pipeline.py \
             pipeline/scripts/assess_daily_family_coverage.py \
             pipeline/scripts/daily_family_coverage_history.py \
             pipeline/scripts/publish_verified_pages.py \
@@ -177,6 +184,7 @@ jobs:
             tests.test_slice_registry \
             tests.test_customer_sales_pipeline \
             tests.test_marketing_pipeline \
+            tests.test_hr_recruitment_pipeline \
             tests.test_publish_verified_pages \
             tests.test_sussex_admin_launch \
             tests.test_newcastle_city_launch \
