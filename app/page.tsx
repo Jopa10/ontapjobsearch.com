@@ -18,7 +18,7 @@ const homepageCityMinimumJobs = 4;
 export const metadata: Metadata = {
   title: 'UK Jobs by Role and Region | Ontap Job Search',
   description:
-    'Search and browse current UK admin, office support, customer service, sales advisor and support worker jobs by role and region. Updated daily with direct application links.',
+    'Search and browse current UK admin, office support, customer service, sales advisor, legal assistant, paralegal and support worker jobs by role and region. Updated daily with direct application links.',
   alternates: { canonical: canonicalUrl },
 };
 
@@ -97,6 +97,18 @@ function publishedDynamicCustomerSalesLinks(jobs: PublishedJob[]): RegionLink[] 
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
+function publishedDynamicLegalLinks(jobs: PublishedJob[]): RegionLink[] {
+  return getPublishedDynamicSlices()
+    .filter((slice) => slice.category === 'legal_assistant_paralegal')
+    .map((slice) => ({
+      label: slice.region,
+      href: slice.route,
+      count: countBySlice(jobs, slice.route),
+    }))
+    .filter((route) => route.count > 0)
+    .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
+}
+
 function activeCityLinks(kind: 'admin' | 'support'): RegionLink[] {
   return cityPageDefinitions
     .filter((definition) => isCityPageActive(definition))
@@ -147,7 +159,7 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
             id="homepage-job-query"
             name="q"
             type="search"
-            placeholder="e.g. Administrator, Customer Service, Sales Advisor"
+            placeholder="e.g. Administrator, Paralegal, Sales Advisor"
             className="w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
           />
         </div>
@@ -276,6 +288,7 @@ export default function Page() {
     ...activeCityLinks('admin'),
   ];
   const customerSalesRegions = publishedDynamicCustomerSalesLinks(jobs);
+  const legalRegions = publishedDynamicLegalLinks(jobs);
   const supportWorkerRegions = [
     ...withCounts(jobs, supportWorkerRoutes),
     ...activeCityLinks('support'),
@@ -310,7 +323,7 @@ export default function Page() {
           <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-5">
             <div>
               <h1 className="max-w-3xl text-3xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-4xl">
-                Find admin, office support, customer service and sales jobs across the UK
+                Find admin, office support, customer service, sales and legal support jobs across the UK
               </h1>
               <p className="mt-2 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
                 Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
@@ -354,6 +367,14 @@ export default function Page() {
               </div>
 
               <div className="grid content-start gap-3">
+                {legalRegions.length > 0 ? (
+                  <div id="legal-regions" className="rounded-xl border border-blue-100 bg-blue-50 p-3.5 sm:p-4">
+                    <h3 className="text-lg font-semibold text-gray-900">Legal Assistant & Paralegal</h3>
+                    <p className="mt-0.5 text-sm text-gray-600">Current live regional pages</p>
+                    <CompactRegionLinks regions={legalRegions} />
+                  </div>
+                ) : null}
+
                 {customerSalesRegions.length > 0 ? (
                   <div id="customer-sales-regions" className="rounded-xl border border-blue-100 bg-blue-50 p-3.5 sm:p-4">
                     <h3 className="text-lg font-semibold text-gray-900">Customer Sales & Sales Advisor</h3>
