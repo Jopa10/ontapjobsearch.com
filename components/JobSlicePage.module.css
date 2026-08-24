@@ -1,3 +1,9 @@
+.softPageBackground {
+  min-height: calc(100vh - 90px);
+  border-top: 1px solid #e2e8f0;
+  background: #f1f6fb;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 250px minmax(0, 1fr);
