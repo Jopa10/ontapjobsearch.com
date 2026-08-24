@@ -69,14 +69,59 @@ jobs:
                   raise SystemExit(f'Legal output empty/invalid: {path}')
               print(f'{name}: {len(jobs)}')
           PY
-      - name: Commit generated Legal outputs
+      - name: Update canonical governance for Legal launch
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('pipeline/output-admin-service')
+          counts = {
+              'London': len(json.loads((root / 'london-paralegal.json').read_text(encoding='utf-8'))),
+              'Suffolk': len(json.loads((root / 'suffolk-paralegal.json').read_text(encoding='utf-8'))),
+              'Essex': len(json.loads((root / 'essex-paralegal.json').read_text(encoding='utf-8'))),
+              'Norfolk': len(json.loads((root / 'norfolk-paralegal.json').read_text(encoding='utf-8'))),
+          }
+          count_text = ', '.join(f'{region} {count}' for region, count in counts.items())
+          bullet = (
+              '- 24 August 2026 — **Legal Assistant / Paralegal production launch:** after national discovery, boundary review, '
+              'proof-region review and 78-market assessment, the owner explicitly approved **London, Suffolk, Essex and Norfolk** '
+              f'as the first LIVE markets. Fresh launch counts are **{count_text}**. The registered route slug is `paralegal-jobs`; '
+              '`pipeline/scripts/legal_assistant_pipeline.py` reuses the frozen >£50k/specialist/standalone-fee-earner boundary, '
+              'content dedupe and canonical geography, and output is published through the existing configured-slice/verified-page '
+              'mechanism. All other Legal markets remain non-LIVE until separately approved.\n'
+          )
+
+          for filename in ('SYSTEM_MAP.md', 'SYSTEM_OVERVIEW.md'):
+              path = Path(filename)
+              text = path.read_text(encoding='utf-8')
+              marker = '## Recent canonical changes\n\n'
+              if bullet not in text:
+                  if marker not in text:
+                      raise SystemExit(f'Missing recent-changes marker in {filename}')
+                  text = text.replace(marker, marker + bullet, 1)
+              if filename == 'SYSTEM_MAP.md':
+                  text = text.replace(
+                      'Customer Sales production launch, 78-market UK geography governance',
+                      'Customer Sales and Legal Assistant / Paralegal production launches, 78-market UK geography governance',
+                      1,
+                  )
+              else:
+                  text = text.replace(
+                      'Customer Sales production launch, 78-market UK geography governance',
+                      'Customer Sales and Legal Assistant / Paralegal production launches, 78-market UK geography governance',
+                      1,
+                  )
+              path.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit generated Legal outputs and governance
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add pipeline/output-admin-service/*-paralegal.json
+          git add pipeline/output-admin-service/*-paralegal.json SYSTEM_MAP.md SYSTEM_OVERVIEW.md
           if ! git diff --cached --quiet; then
-            git commit -m 'Generate four approved Legal Assistant Paralegal slices'
+            git commit -m 'Generate approved Legal slices and update governance'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
