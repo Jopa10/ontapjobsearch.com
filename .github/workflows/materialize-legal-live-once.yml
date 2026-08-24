@@ -1,0 +1,77 @@
+name: Materialize approved Legal live slices once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/materialize-legal-live-once.yml'
+      - 'pipeline/scripts/legal_assistant_pipeline.py'
+      - 'pipeline/config/job_slice_catalog.json'
+      - 'pipeline/registers/region_category_slice_register.csv'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-legal-live-once
+  cancel-in-progress: true
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip pandas openpyxl
+      - name: Generate approved Legal slices
+        working-directory: pipeline
+        run: python -m scripts.legal_assistant_pipeline
+      - name: Verify generated Legal slices
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          expected = {
+              'london-paralegal.json': 1,
+              'suffolk-paralegal.json': 1,
+              'essex-paralegal.json': 1,
+              'norfolk-paralegal.json': 1,
+          }
+          root = Path('pipeline/output-admin-service')
+          for name, minimum in expected.items():
+              path = root / name
+              if not path.is_file():
+                  raise SystemExit(f'Missing Legal output: {path}')
+              jobs = json.loads(path.read_text(encoding='utf-8'))
+              if not isinstance(jobs, list) or len(jobs) < minimum:
+                  raise SystemExit(f'Legal output empty/invalid: {path}')
+              print(f'{name}: {len(jobs)}')
+          PY
+      - name: Publish through configured verified-page mechanism
+        run: python -m pipeline.scripts.publish_verified_pages_live_config
+      - name: Commit Legal production and public data
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            pipeline/output-admin-service/london-paralegal.json \
+            pipeline/output-admin-service/suffolk-paralegal.json \
+            pipeline/output-admin-service/essex-paralegal.json \
+            pipeline/output-admin-service/norfolk-paralegal.json \
+            app/_city-pages/configured-slices/london/paralegal-jobs.json \
+            app/_city-pages/configured-slices/suffolk/paralegal-jobs.json \
+            app/_city-pages/configured-slices/essex/paralegal-jobs.json \
+            app/_city-pages/configured-slices/norfolk/paralegal-jobs.json
+          if git diff --cached --quiet; then
+            echo 'Legal live slices already current'
+            exit 0
+          fi
+          git commit -m 'Materialize four approved Legal Assistant Paralegal slices'
+          git pull --rebase origin main
+          git push origin HEAD:main
