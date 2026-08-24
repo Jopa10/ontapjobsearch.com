@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-23
-review_fingerprint: fe6212466d7c4b182290a0365f505dd2fd7f609c468d83ba6a2fcf5d499befd0
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 9c1384e79835ef96f3a369ea9c593d3fd42424be022e2c42b760cd37b76f18f4
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 724efa9fa5ba790ea57c3e92f0bbaf91fa0cdd1a7fee7fcfe7787789684
 source: Teaching Vacancies
 source_job_id: administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
+---
+
+---
+action: 
+SELECTED | Norfolk | Diss, East of England, IP22 4NT | £9,168 - £9,772 actual pa | Attendance Officer
+employer: Diss Church of England Junior Academy
+closing_date: 2026-09-04T01:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 143b7a8d39f562c4fbb73c37bf1ced97141434d5d5480a6c8bf6dc17b1631113
+source: Teaching Vacancies
+source_job_id: attendance-officer-diss-church-of-england-junior-academy-diss
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-diss-church-of-england-junior-academy-diss
 ---
 
 ---
@@ -110,7 +125,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
-- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Planning and Timetabling Officer](https://teaching-vacancies.service.gov.uk/jobs/planning-and-timetabling-officer) — Insufficient admin/service evidence.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-sheringham-woodfields-school-sheringham-norfolk) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.

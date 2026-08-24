@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-23
-review_fingerprint: 3c1607c7974ff46f394eabcf5c97f2bfd6b33d0bc0b0d64a21e611e02eef352d
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: d52083a029d486d980e6530e95676a8595a01783794fec261b6465d5e88995da
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 15
+- Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: f7e66b255404cd81fe7ac61d43817525cae45c48cab4c64443a0fb381e4
 source: Teaching Vacancies
 source_job_id: academy-administrator-chepping-view-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-chepping-view-primary-academy
----
-
----
-action: 
-SELECTED | Buckinghamshire | Beaconsfield, South East, HP9 1SJ | H7 19 to 23 - Actual starting salary - £2,410.81 per year including fringe | Administrator (Clerk) to the School Board
-employer: The Beaconsfield School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ddff6aff8595beb33c9846fdced1c1aff34f063bcd638f6d282d66cd0a803b8
-source: Teaching Vacancies
-source_job_id: administrator-clerk-to-the-school-board-the-beaconsfield-school-beaconsfield-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-the-beaconsfield-school-beaconsfield-buckinghamshire
 ---
 
 ---
@@ -195,7 +180,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
-- [Exams and Data Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-macintyre-academies) — Missing salary or pay scale.
 - [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - West
 
-review_date: 2026-08-23
+review_date: 2026-08-24
 review_fingerprint: 175b5a0f446b8ee3148693311742e31be4b8eaabedcf6c1c8b65db1455a1ece2
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-08-23
-review_fingerprint: 54f789d9d78391482b194b8c7bc91f7025c81f202af85ddaf4ac884fd7adfe52
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 426fa42bfab2353eadf66332f4b0cfb68d87f19f490e32b0aa62694060723592
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 64
-- Selected: 17
-- POSS awaiting decision: 11
+- Records: 61
+- Selected: 16
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 36
+- Hard pass: 37
 
 ## SELECTED
 
@@ -128,17 +128,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/course-administrator
 
 ---
 action: 
-SELECTED | London | Wembley, London, HA0 4JE | £38,689.00 - £41,134.00 Annually (Actual) | Exams Officer
-employer: Alperton Community School
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: exams officer
+SELECTED | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
+employer: Beecholme Primary School
+closing_date: 2026-08-30T23:59:59+01:00
+reason: Clear admin/service title: administrator, finance administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fc4edc51b8a535d7190c051abe113178b8b35ea451aced09e31614c0dda80f4a
+factual_fingerprint: 6a0603ac9d36f3f4025fcbef57d39258a7ac3358fd536e145d7e0ae8e43991c7
 source: Teaching Vacancies
-source_job_id: exams-officer-alperton-community-school-wembley-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-alperton-community-school-wembley-middlesex
+source_job_id: finance-administrator-beecholme-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-beecholme-primary-school
 ---
 
 ---
@@ -169,21 +169,6 @@ factual_fingerprint: d54c6e19d2b224f68173e20840ff699b0c8319fd95ee37c0e1301d48c17
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
----
-
----
-action: 
-SELECTED | London | London, London, SW3 2QS | Scale 3 - £27,738.27-£28,782 | Receptionist & Administrative Assistant
-employer: St. Thomas More Language College
-closing_date: 2026-08-24T08:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2e2e082fc0919e6a2ef43c3958293b3c921c99dc28a38c65f531cd10b2d3db25
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-68fdbe69-d591-4204-a119-22911245a99a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-68fdbe69-d591-4204-a119-22911245a99a
 ---
 
 ---
@@ -370,36 +355,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-d
 
 ---
 action: 
-POSS | London | Mitcham, London, CR4 2HZ | £13,007 (FTE Salary is £29,436) | Finance Administrator
-employer: Beecholme Primary School
-closing_date: 2026-08-30T23:59:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a0603ac9d36f3f4025fcbef57d39258a7ac3358fd536e145d7e0ae8e43991c7
-source: Teaching Vacancies
-source_job_id: finance-administrator-beecholme-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-beecholme-primary-school
----
-
----
-action: 
-POSS | London | Sutton, SM3 8AB | £13,395.00 Annually (Actual) £33,129 (FTE) | HR Admin Assistant
-employer: Girls' Learning Trust
-closing_date: 2026-08-23T22:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9aeecc9d451919899b8222c1402015efa5e454b4b4df20f9fba65d4cdfd34133
-source: Teaching Vacancies
-source_job_id: hr-admin-assistant-girls-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-girls-learning-trust
----
-
----
-action: 
 POSS | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
 employer: Belleville Wix Academy
 closing_date: 2026-09-09T23:59:00+01:00
@@ -428,21 +383,6 @@ source_job_id: school-administrator-nishkam-school-west-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
----
-action: 
-POSS | London | London, London, E20 2AE | £32,442.00 - £32,442.00 Annually (FTE) Inner London NJC 08 - £32,442 FTE, £28,496 pro rata | Senior Administrator
-employer: Bobby Moore Academy
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 11d04814ca002bc5a2f490f8a9c2af188ef142253e021203463344b24e2d6025
-source: Teaching Vacancies
-source_job_id: senior-administrator-bobby-moore-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bobby-moore-academy-london
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -450,8 +390,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 ## HARD_PASS
 
 - [Admin and Reprographics Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-officer-b4fcc8c7-2a12-4494-bebd-e40569928970) — Insufficient admin/service evidence.
-- [Administration and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-reprographics-assistant-the-ravensbourne-school-bromley-kent) — Insufficient admin/service evidence.
 - [Assistant Business Manager (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/assistant-business-manager-part-time) — Manager title salary ceiling £40,681 is not below £28,000.
+- [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-st-thomas-more-language-college-london) — Insufficient admin/service evidence.
 - [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Manager title salary ceiling £45,157 is not below £28,000.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
 - [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
@@ -472,7 +412,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-harris-primary-academy-east-dulwich-london) — Manager title salary ceiling £41,637 is not below £28,000.
-- [Part Time Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/part-time-administration-assistant-mill-hill-county-high-school) — Insufficient admin/service evidence.
+- [Personal Care and Medical Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-medical-teaching-assistant-heron-hall-academy) — Out-of-scope occupation: teaching assistant.
 - [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager) — Manager title salary ceiling £50,675 is not below £28,000.
 - [Reception and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/reception-and-welfare-officer) — Insufficient admin/service evidence.
 - [Receptionist & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy) — Missing salary or pay scale.
@@ -485,6 +425,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-gladstone-park-primary-school) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-b59b5f04-d0f8-4bf4-90be-32c5ddf40c75) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
+- [Workforce Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/workforce-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

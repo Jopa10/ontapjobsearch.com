@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-08-23
+review_date: 2026-08-24
 review_fingerprint: 63664107c1f5191ba347da8cecc3076814dcc5b5f2b6655552283ead0e845447
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -61,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmout
 
 ## HARD_PASS
 
-- [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-crowan-primary-school) — Missing salary or pay scale.
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cubert-primary-school) — Missing salary or pay scale.
 - [Trust Learning & Development (L&D) Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-learning-development-l-d-coordinator) — Insufficient admin/service evidence.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-special-partnership-trust) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-23
-review_fingerprint: a943783c810406a6403d7c6fa517344f8873ea067da4305c646608e07890c9bc
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 4425f119c4451707dffd0c3a0a91cb43ee22911d7f17492fe3ef7706ad15e1af
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 7
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £23,939.00 - £25,947.00 Annually (Actual) Term time plus two weeks | Academy Administrator
-employer: The Adeyfield Academy
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3b93587acd81ca49c9bd5df2efbb03d2df55f660cb5a62b23611a06fbb5b88fc
-source: Teaching Vacancies
-source_job_id: academy-administrator-2decb1eb-10bf-41ec-b839-97ff2b75324b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-2decb1eb-10bf-41ec-b839-97ff2b75324b
----
-
----
-action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL10 8AB | H7 19 to 23 - Actual starting salary - £2,387.80 per year including fringe | Administrator (Clerk) to the School Board
-employer: Onslow St Audrey's School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 152c6578821bb1e17789081f16afb1f6dd8c70c7254ff2e15ab1798868d209c6
-source: Teaching Vacancies
-source_job_id: administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-clerk-to-the-school-board-5fd4211b-d8ff-4b96-b7e4-85c3843e5a8e
----
 
 ---
 action: 
@@ -83,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administra
 
 ---
 action: 
-SELECTED | Hertfordshire | Hitchin, East of England, SG5 2UR | £25,989.00 - £25,989.00 Annually (FTE) | Receptionist & General Administrator
-employer: The Priory School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 785d4f60c0eebe662f6d6357068f731bc77af296d9080f474a348b28c53b6bba
-source: Teaching Vacancies
-source_job_id: receptionist-general-administrator-the-priory-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-general-administrator-the-priory-school
----
-
----
-action: 
 SELECTED | Hertfordshire | Stevenage, East of England, SG2 8UT | £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days | Receptionist/Admin Assistant and Student Support Coordinator
 employer: Marriotts School
 closing_date: 2026-09-01T10:00:00+01:00
@@ -112,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
-employer: Danes Educational Trust
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd0eee79ace1c4f2b0b324116a0ca7502c7ad4db921ae881113ed5e75564dfeb
-source: Teaching Vacancies
-source_job_id: hr-advisor-danes-educational-trust-chorleywood-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-danes-educational-trust-chorleywood-not-recorded
----
 
 ---
 action: 

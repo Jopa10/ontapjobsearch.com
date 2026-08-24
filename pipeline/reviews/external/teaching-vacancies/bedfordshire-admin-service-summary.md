@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-23
-review_fingerprint: 8ce49b2e94aae02f0dee2bb39ac3e1905600f171b17408210fa448aad4d569cc
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 69c169dbd84203622e9849ccb6657bc280deecbf93036e6b6e6b661e9b9a41ce
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bedfordshire | Biggleswade, East of England, SG18 8JU | £12.85 Hourly Level 2A point 3 (£12.85 per hour). | Administrative Assistant
+employer: Biggleswade Academy
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e1bb6ab1271b728a537c3bd419112165cfe8d20d8674fc7a512e71a6e2e416bc
+source: Teaching Vacancies
+source_job_id: administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
+---
 
 ---
 action: 
@@ -122,7 +137,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy-luton-bedfordshire) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
-- [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Insufficient admin/service evidence.
 - [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

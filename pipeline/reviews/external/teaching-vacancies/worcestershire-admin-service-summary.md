@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-08-23
+review_date: 2026-08-24
 review_fingerprint: 008e69bbdd8b9c346182cb950c21876bb66fff004d1693c34234e3802d286381
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -60,7 +60,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data
 ## HARD_PASS
 
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-wolverley-cofe-secondary-school) — Manager title salary ceiling £36,363 is not below £28,000.
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-the-diocese-of-worcester-multi-academy-trust-pershore-not-recorded) — Manager title salary ceiling £36,363 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-23
-review_fingerprint: 6cb7382d74997281fc0b377e5cf1edc438dd82506501dc2a227251328ff2a181
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: c0499e137ce881e11a93f1b990be9608a092b3cb005f12aa780c42efd54ddbde
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 7
+- Records: 22
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 15
@@ -23,32 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5QS | £12,019.00 - £12,288.00 Annually (Actual) pay award pending | Administration Assistant
-employer: Treeton Church of England Primary School
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
+employer: The Rowan School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Clear admin/service title: admin clerical officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
+factual_fingerprint: a11851681c25b233b9f9725a6d0ab9dc5dd163a371597d66bbdc33febc9dce5b
 source: Teaching Vacancies
-source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN8 5BY | £25,230.00 Annually (Actual) Scale point 11, Actual Annual Salary £25,230.38 (0.87% FTE, Full Time Equivalent) | Attendance Officer
-employer: Trinity Academy
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4ff32272562a7eba5ade77fe1f598be5039464453ead764598454781da908091
-source: Teaching Vacancies
-source_job_id: attendance-officer-trinity-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-trinity-academy
+source_job_id: admin-clerical-officer-level-2-rowan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
 ---
 
 ---
@@ -156,14 +141,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-mossbrook-school) — Insufficient admin/service evidence.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
+- [Endowment Fund Manager](https://teaching-vacancies.service.gov.uk/jobs/endowment-fund-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Manager title salary ceiling £38,502 is not below £28,000.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
-- [Trust Operations Director](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-director) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

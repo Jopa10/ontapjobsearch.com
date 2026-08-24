@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-23
-review_fingerprint: 6015f2d830637505ce86c4333bbf0c321893d8efd32ac067d934f674cb1b96cb
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: f9ad206c3e84a37600c5135765550ed6c6c2d64edb532c6b13704e091ed07265
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 22
-- Selected: 12
-- POSS awaiting decision: 1
+- Selected: 11
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-inc-fin
 
 ---
 action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 6NR | £25,989 to £26,403 per annum (pro rata £22,927.22 to £23.292.45 per annum) | Business Support Officer
-employer: Tong Leadership Academy
-closing_date: 2026-08-23T23:59:00+01:00
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
+employer: All Saints Catholic College
+closing_date: 2026-09-01T09:00:00+01:00
 reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 5c0238a553c79cf069cbbb901a1373a65a103c9c915f3c4b2cf27fa859a22d51
+factual_fingerprint: 28528b9942817fec0855ff5883017caebbd1d779b72a2c38aaf5d019f953303a
 source: Teaching Vacancies
-source_job_id: business-support-officer-tong-leadership-academy-bradford-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-tong-leadership-academy-bradford-west-yorkshire
+source_job_id: business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49
 ---
 
 ---
@@ -143,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS15 7NB | Grade: Level 1 A1/B1 | School Receptionist
-employer: Cross Gates Primary School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: 62b9e4eed9519c06f9dfac500c01d010dcf5d37a08755cafb98a10618a450ffb
-source: Teaching Vacancies
-source_job_id: school-receptionist-cross-gates-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-cross-gates-primary-school
----
-
----
-action: 
 SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £24,939.00 - £29,387.00 Annually (Actual) Term time plus 5 days | SEND & Exam Access Arrangements Administrator
 employer: The North Halifax Grammar School
 closing_date: 2026-09-03T12:00:00+01:00
@@ -218,6 +203,21 @@ source_job_id: administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
 ---
 
+---
+action: 
+POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £29,540.00 - £32,061.00 Annually (FTE) Grade F Points 14 to 19 (£29,540 to £32,061) Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £15,121.29 | Data Officer
+employer: De Lacy Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a529a19ced0fcc98f3c591fa736507a0eee96fcae59c1a59e56526a2aae8d393
+source: Teaching Vacancies
+source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -229,9 +229,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-466b204
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
-- [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-abbey-multi-academy-trust-leeds-not-recorded) — Insufficient admin/service evidence.
+- [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
+- [Reprographics and Digital Resource Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-digital-resource-technician) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.
-- [TRUST ATTENDANCE IMPROVEMENT OFFICER](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-improvement-officer) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-f1cbc046-b59f-467c-960b-8fc5c55604ba) — Insufficient admin/service evidence.
 
 ## Safety boundary

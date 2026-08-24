@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-08-23
-review_fingerprint: e2b097f8eb866bb5f03ee6f03ae388c0d570b048b3f0190d2d2316a36ed5f305
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: b795dac4518e98abd67d39cbb3c8b71850f87ce5170310dac8d787d5fc780ff1
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 1
+- Records: 6
+- Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
 
----
-action: 
-SELECTED | Kent | Swanley, London, BR8 8DR | Scale 4 (£24,950 to £26,539) | Pupil Records Administrator
-employer: Parkwood Hall Co-Operative Academy
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 64f2cc14a637151ca76929681b797bdb64435551fb59bb9b5a25dc52e474139d
-source: Teaching Vacancies
-source_job_id: pupil-records-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-administrator
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

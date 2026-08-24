@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-08-23
-review_fingerprint: b679a3b8b4f34fbebc52d4be5efc4cdfc75cbe8df20fa1692de3741346fa1a1b
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 7c8dfb7e8ec52c3af889b5d9e6a93d30a14f47dc1429b598addb119386f1fc2c
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 5
+- Records: 19
+- Selected: 4
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lincolnshire | Grantham, East Midlands, NG31 9AX | £8,621.00 Annually (Actual) G3.6 £24,796 FTE | Administration Assistant/Receptionist
-employer: Newton Bridge Academy
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: receptionist, administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd6e18981374ecf61ac2e16e9ca32d47303713a4efcdb7546013004d2b6af1b7
-source: Teaching Vacancies
-source_job_id: administration-assistant-receptionist-newton-bridge-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-newton-bridge-academy
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-08-23
-review_fingerprint: f21e99cbc98e55d76393d6d391a9cfd44210eaa658c19b4b4a04cd6274d5fdc0
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: a94f77293003c0faca958e3ba112f2e7ff09c0811719c9a5d7980d13f4a4d9a7
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 0
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 54413cf712ace5c00e8995fd5a654e609b1949c8e7962ad24fd09439785
 source: Teaching Vacancies
 source_job_id: administration-assistant-the-beacon-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £30,024.00 - £32,061.00 Annually (FTE) NJC SCP 15 - 19 (Pay award pending) | PA to Headteacher and School Operations
-employer: Knotty Ash Primary School
-closing_date: 2026-08-23T12:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c4b761d14660d5d169799070d22ada229a9e894309aa74a7dceb811a77ae4ad8
-source: Teaching Vacancies
-source_job_id: pa-to-headteacher-and-school-operations
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-and-school-operations
 ---
 
 ---
@@ -76,8 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-s-l
 
 ## HARD_PASS
 
-- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-st-joseph-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Governance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/governance-business-partner) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

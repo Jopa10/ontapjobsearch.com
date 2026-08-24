@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-08-23
+review_date: 2026-08-24
 review_fingerprint: 37f5b5907b98e53518bc58bce96b8995cae81a0fc996f24a7936ccc12d15d926
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -96,7 +96,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-lions-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
-- [School Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-officer-westwood-with-iford-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

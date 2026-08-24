@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-08-23
-review_fingerprint: f15341515aec1d3b0ae274aa6fb7256cdd1994988a2e525624feec1b61f35efe
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: b06b63f43d236ab32872d78158006e2473fa261dfe68cd0dc5fa856724f75529
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 5
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
 
----
-action: 
-SELECTED | North East - Tees Valley | Yarm, North East, TS15 9ET | Grade F, SCP 7 to 8, pending job evaluation | Administration Assistant
-employer: Conyers School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: f0c7d988ab42bc7dc694d98ec1966cdcd0721360c14b037c9ed05ec81b92b813
-source: Teaching Vacancies
-source_job_id: administration-assistant-conyers-school-yarm-cleveland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-conyers-school-yarm-cleveland
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

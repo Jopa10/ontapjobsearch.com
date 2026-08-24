@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-08-23
+review_date: 2026-08-24
 review_fingerprint: 13fefdbb2a85610e11ae25116aabb8e97fa43116c40a4a455f7db9ebe3fb2192
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -76,8 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-le
 
 ## HARD_PASS
 
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-cabot-learning-federation-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-9097ffb6-9d63-4285-9dd2-537e38cf05ad) — Insufficient admin/service evidence.
+- [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Senior Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-frome-vale-academy) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.

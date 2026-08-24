@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-23
-review_fingerprint: 4b6ec38942c7413868cdf683429c16960799d1724198e50f40a7390b66edb850
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 447e5461b5864361e42fd799d6825f41747372ed935aaaeb518611dc4f00b0d9
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 11
-- POSS awaiting decision: 6
+- Records: 24
+- Selected: 10
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: 9494f7b60d2da66a0947caa74256a0b71e5b87a872415fdb7b4b4c6176d
 source: Teaching Vacancies
 source_job_id: administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL1 4DJ | Between £25,185 and £25,989 | Administrative Assistant
-employer: St Joseph's Catholic Primary School
-closing_date: 2026-08-24T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4cea7f1f9eab10a6cf4a5a83730f89d3095f9cdeb7aa062440398e7895413c16
-source: Teaching Vacancies
-source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school
 ---
 
 ---
@@ -205,21 +190,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-POSS | Devon | Exeter, EX5 3JG | FTE £25660 | Hub Administrator
-employer: Cornerstone Academy Trust
-closing_date: 2026-08-23T23:59:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 39ca36d0cf4bdcbd91590074e1ac03b2d04512ffd1f8396c991cb7dd4d7453ed
-source: Teaching Vacancies
-source_job_id: hub-administrator-cornerstone-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cornerstone-academy-trust
----
-
----
-action: 
 POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
 employer: St Marychurch Church of England Primary and Nursery School
 closing_date: 2026-09-03T09:00:00+01:00
@@ -285,11 +255,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ## HARD_PASS
 
 - [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
-- [HR Policy and Projects Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-policy-and-projects-officer) — Insufficient admin/service evidence.
+- [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover-bideford-college) — Insufficient admin/service evidence.
 - [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 

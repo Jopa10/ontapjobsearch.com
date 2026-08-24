@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-23
-review_fingerprint: 8f7e481ebe6f3cdec101f2d7e2c02d2bb31e73e124c7e011e26d1f66e71a4454
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 0e4f38b3862926e6cc974e49abbe0c2cfb9cf80af3f4c362b7361eceb2871fb6
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 2
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE2 6DW | £25,191.00 - £25,590.00 Annually (FTE) Approximate starting salary of £21,552.62 | Administration Assistant (MIL138BC)
+employer: Millgate School
+closing_date: 2026-08-31T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: af002fb46e563adb7c9ee3cdeebf9a4a849a5f65284d2dc6a0a16819fe1c1468
+source: Teaching Vacancies
+source_job_id: administration-assistant-mil138bc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-mil138bc
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: 50886f798c3d43b595826d92fb49a4991abad95caed3d66fa83e8f5b942
 source: Teaching Vacancies
 source_job_id: administrative-assistant-receptionist-krishna-avanti-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-krishna-avanti-primary-school
+---
+
+---
+action: 
+SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BT | £25,266 - £25,950 Per Annum | Learning Support Administrator
+employer: Loughborough College
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 90c6618c7197d28e427087141240239c8919980aa19db022e763950510f66e05
+source: Teaching Vacancies
+source_job_id: learning-support-administrator-loughborough-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/learning-support-administrator-loughborough-college
 ---
 
 ---
@@ -68,21 +98,6 @@ source_job_id: administrative-officer-water-leys-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-water-leys-primary-school
 ---
 
----
-action: 
-POSS | Leicestershire | Blaby, East Midlands, LE8 4FE | £23,375.00 - £25,751.00 Annually (Actual) | Administrator
-employer: Foxfields Academy
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 83d6e5c6466b99c69fe7cccf1a8d12f153b9c947756b9680288fd9ef20dc1d85
-source: Teaching Vacancies
-source_job_id: administrator-foxfields-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-foxfields-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -92,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-foxfiel
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-discovery-schools-academies-trust-ltd-leicester-not-recorded) — Manager title salary ceiling £39,165 is not below £28,000.
-- [Music Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/music-support-assistant) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
 - [School Office Lead](https://teaching-vacancies.service.gov.uk/jobs/school-office-lead) — Insufficient admin/service evidence.
 

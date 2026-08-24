@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-23
-review_fingerprint: 12d9536b613af585cd575d5d4799792fc962a6dc6ba2049700321f82a24ba58e
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: a3426770181e8fc7a5da1127eb6ffaf0277f803785d034a765396c26a3f88c62
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 11
+- Records: 22
+- Selected: 12
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -124,6 +124,21 @@ factual_fingerprint: c80439bcbbfd2aff0f1641ff51d771a7b8449e27815fce5af53b1c1ce51
 source: Teaching Vacancies
 source_job_id: exams-officer-ernulf-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ernulf-academy
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | St Neots, East of England, PE19 1TF | £24,404.00 Annually (FTE) | Finance / Admin Assistant
+employer: Priory Junior School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b21b66c
+source: Teaching Vacancies
+source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 ---
 
 ---

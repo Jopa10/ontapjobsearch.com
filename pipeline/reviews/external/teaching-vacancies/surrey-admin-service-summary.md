@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-08-23
-review_fingerprint: d844a27f6d9e1920e1573e89681a91ac685879dcc63a35b4af9512dbcda06f4e
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: 82a457cd9a1bc95cc5adb2fa740f126766445d61e9c7a4d3eaea62cf9ef96a3a
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £27,061 FTE (Actual - £16,166.96) | Attendance and Admissions Officer
+employer: Danetree Primary School
+closing_date: 2026-08-31T23:59:59+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8616c90c400318ded82e05becd41666362dd4d28e8b6be7cd492789b267443c2
+source: Teaching Vacancies
+source_job_id: attendance-and-admissions-officer-danetree-primary-school-epsom-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-danetree-primary-school-epsom-surrey
+---
 
 ---
 action: 
@@ -63,7 +78,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-a
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-kite-academy-trust) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-three-rivers-academy) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
 
 ## Safety boundary
 

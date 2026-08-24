@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-23
-review_fingerprint: c157c8fd953106ca51122f31af9ef0e368d9c9c571c07e3a7fd4100f98b0823d
-routing_manifest_sha256: d3bcf36a5a593af92e6bf3976da555defd71dd7add19d862b304b90ebbba89b2
+review_date: 2026-08-24
+review_fingerprint: ea41245e1e5f795edafc5364833fb84ca3aaaf93944adf886cc6f39e08d72434
+routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 2
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH10 5BD | £25,989.00 - £27,254.00 Annually (FTE) NJC Grade 4 Pt 6-9 | [260720B] Administrator
-employer: Hill View Primary Academy
-closing_date: 2026-08-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f72bf258a0002b822edcfbc421fe30725fec6747668fab2028bee7c89f6d8325
-source: Teaching Vacancies
-source_job_id: 260720b-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/260720b-administrator
----
 
 ---
 action: 
@@ -68,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Dorset | Bournemouth, South West, BH10 4EX | £13,461.00 - £18,054.00 Annually (Actual) Term time only | Business and Administration Apprentice
-employer: Glenmoor Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c9bafd0c46b726ea184b41cbdb29ec00a259b1ed3800d08ed0d77ec8d8c90d94
-source: Teaching Vacancies
-source_job_id: business-and-administration-apprentice
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administration-apprentice
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -89,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administ
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Manager title salary ceiling £35,377 is not below £28,000.
+- None.
 
 ## Safety boundary
 
