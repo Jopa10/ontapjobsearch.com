@@ -41,6 +41,13 @@
       "file_suffix": "customer-sales",
       "display_label": "Customer Sales & Sales Advisor",
       "category_label": "Customer Sales / Sales Advisor"
+    },
+    "legal_assistant_paralegal": {
+      "route_slug": "paralegal-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "paralegal",
+      "display_label": "Legal Assistant & Paralegal",
+      "category_label": "Legal Assistant / Paralegal"
     }
   },
   "regions": {
