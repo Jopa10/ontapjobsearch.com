@@ -1,7 +1,12 @@
 .softPageBackground {
   min-height: calc(100vh - 90px);
   border-top: 1px solid #edf1f6;
-  background: #f7f9fc;
+  background: linear-gradient(
+    180deg,
+    #edf3f9 0,
+    #f3f7fb 360px,
+    #f7f9fc 640px
+  );
 }
 
 .layout {
