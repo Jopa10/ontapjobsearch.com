@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 25
 - automatic review: 2
-- automatic exclude: 6
-- effective include: 38
+- automatic exclude: 4
+- effective include: 25
 - effective review: 2
-- effective exclude: 6
+- effective exclude: 4
 
-## INCLUDE (38)
+## INCLUDE (25)
 
 ---
 action: 
@@ -40,35 +40,23 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Admin Assistant - HR Direct
-company: NHS Blood and Transplant
-location: Bristol, BS34 7QH
-source: NHS Jobs
-job_id: nhs-5547649
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Support Administrator
-company: East Trees Health Centre
-location: Bristol, BS5 6SA
-source: NHS Jobs
-job_id: nhs-5498703
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Framatome Limited - Company - Permanent
+title: Accounts Assistant - Part-Time
+company: Change Recruitment Services Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-555cff26-0847-4dc8-a153-e9f1e841fb3e
+job_id: jobg8-1738142
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Adecco - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1733944
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -93,18 +81,6 @@ company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8AE
 source: NHS Jobs
 job_id: nhs-5550852
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Veolia - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225516307
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -172,11 +148,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customs Administrator
-company: Travail Employment Group - Agency - Permanent
+title: Customer Service Administrator
+company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225419388
+job_id: jobg8-1766135
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,11 +160,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Data Administrator
-company: Pertemps Bristol Commercial - Agency - Temporary
+title: Customs Administrator
+company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-43c28539-e6a0-4522-8b66-5a97638bff0b
+job_id: jobg8-23643_225419388
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -220,23 +196,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Robert Half - Agency - Permanent
+title: Helpdesk Consultant
+company: Hargreaves Lansdown - Company - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-82b3a06c-5702-4c1b-8613-cbd287b5460a
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: German Speaking Customer Support Administrator
-company: Euro London - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-02705dec-12f7-4ed9-9981-85c8fe260f88
+job_id: jobg8-107855508
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -256,47 +220,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IP Administrator
-company: Withers & Rogers - Company - Permanent
+title: Kitchen Planner
+company: IKEA - Company - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-cd448628-3a6c-4228-84a6-ead526564490
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Jaguar Land Rover Accounts Assistant
-company: Sytner Group - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-f41faabb-d30e-45e9-92c2-7108caf061a1
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lettings Administrator
-company: Clearview Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-ec3304a0-aed0-40d1-bade-ac54c91302a0
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Administrator
-company: Marstep Resourcing Solutions - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-6a3c4b7c-b1b0-441d-97bd-b7474fbc29f9
+job_id: jobg8-107835912
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -309,18 +237,6 @@ company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225469737
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Coordinator
-company: Adecco - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-4ccc09e9-cbe7-47d7-b96e-bdb3c56b9a8c
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -352,30 +268,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: InHealth Group
-location: BRISTOL, BS34 5TL
-source: NHS Jobs
-job_id: nhs-5553860
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Administrator
-company: Neon Talent Solutions - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-44e7eb54-f63b-4771-9ed6-4626bc3c6470
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception and Appointment Clerk
 company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EL
@@ -388,11 +280,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Administrator
-company: Adecco - Agency - Temporary
+title: Sales Administrator
+company: Aaron Wallis Sales Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-618ef8c7-eddf-45aa-bb0c-c25d528ae448
+job_id: jobg8-1780698
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -424,59 +316,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Administrator
-company: WH Bence - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-5450e357-de71-4bdf-8a32-fde779bf85e1
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: Sytner Group - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-ec746fa0-3f32-402e-a228-ade32c229251
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temp Receptionist
 company: Hays Business Support - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225425172
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Receptionist
-company: Alexander Mae (Bristol) Ltd - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-19061726-de02-4a9e-b02c-7c8386a33669
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Warranty Administrator
-company: Reed - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-663120b3-6dbe-4525-8015-678f1ca6b73a
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -506,29 +350,17 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (4)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: 6 Week Interim Finance Assistant
-company: Hays - Agency - Temporary
+title: Customer Service Advisor
+company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-107881565
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: 6 Week Interim Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Temporary
-location: Bath
-source: JobG8
-job_id: jobg8-e4b56bfb-57fa-4e55-8f13-16b75571c606
+job_id: jobg8-1766156
 reason: Separate employment market.
 ---
 
@@ -565,17 +397,5 @@ company: Alexander Mae (HR) Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-107793815
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Coordinator
-company: Reed - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-b6910623-60e6-48ec-8808-a3af05e67a6f
 reason: Separate employment market.
 ---

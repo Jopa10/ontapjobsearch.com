@@ -4,8 +4,8 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 4
 - automatic review: 3
-- automatic exclude: 22
-- effective include: 6
+- automatic exclude: 18
+- effective include: 4
 - effective review: 3
-- effective exclude: 22
+- effective exclude: 18
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -57,30 +57,6 @@ company: Gi Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225475228
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Elevation Recruitment Group - Agency - Contract
-location: Barnsley
-source: JobG8
-job_id: jobg8-0d2eac48-d6fd-479a-9dde-4b94b2822324
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: German Speaking Administrator
-company: ASC Connections Ltd - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-ac77bded-97ae-4769-9c90-e5e347e032eb
 reason: Approved Barnsley catchment.
 ---
 
@@ -134,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -164,18 +140,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: BMW/MINI Service Advisor
-company: Sytner Group - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-adf64226-53b0-42b1-966f-f25e74fb3ff5
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Support Officer – Attendance
 company: King Edward VII School
 location: Sheffield
@@ -188,23 +152,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller & Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
+title: Commercial Office Administrator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
 source: JobG8
-job_id: jobg8-7cf61604-97cb-4cf2-9394-b076d27351d1
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Import/Export Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225437743
+job_id: jobg8-1770785
 reason: Separate employment market.
 ---
 
@@ -224,11 +176,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
+title: Part Time Receptionist/Administrative Assistant
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Rotherham
 source: JobG8
-job_id: jobg8-23643_225439789
+job_id: jobg8-1771622
 reason: Separate employment market.
 ---
 
@@ -236,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5538767
+title: Project Co-ordinator
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225439789
 reason: Separate employment market.
 ---
 
@@ -320,35 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Contract
-location: Doncaster
-source: JobG8
-job_id: jobg8-78f4c04c-6e64-45dd-b8b3-2ba440f0f9f1
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Recruitment Resourcer / Administrator
 company: Lynx Employment Services Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225478960
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Regeneration and Property Service Support Help Desk Officer
-company: Reed - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-2cd38f87-cca5-45fb-886a-f1a14694c677
 reason: Separate employment market.
 ---
 

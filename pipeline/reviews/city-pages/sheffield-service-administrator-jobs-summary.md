@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 9
 - automatic review: 3
-- automatic exclude: 14
-- effective include: 14
+- automatic exclude: 13
+- effective include: 9
 - effective review: 3
-- effective exclude: 14
+- effective exclude: 13
 
-## INCLUDE (14)
+## INCLUDE (9)
 
 ---
 action: 
@@ -40,47 +40,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: BMW/MINI Service Advisor
-company: Sytner Group - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-adf64226-53b0-42b1-966f-f25e74fb3ff5
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Business Support Officer – Attendance
 company: King Edward VII School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller & Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-7cf61604-97cb-4cf2-9394-b076d27351d1
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Import/Export Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225437743
 reason: Approved Sheffield catchment.
 ---
 
@@ -113,18 +77,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5538767
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Beauchief Medical Practice
 location: Sheffield, S8 0BJ, Sheffield, S174DQ
 source: NHS Jobs
@@ -141,18 +93,6 @@ company: Lynx Employment Services Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225478960
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Regeneration and Property Service Support Help Desk Officer
-company: Reed - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-2cd38f87-cca5-45fb-886a-f1a14694c677
 reason: Approved Sheffield catchment.
 ---
 
@@ -230,7 +170,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -272,6 +212,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial Office Administrator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1770785
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -284,35 +236,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Elevation Recruitment Group - Agency - Contract
-location: Barnsley
-source: JobG8
-job_id: jobg8-0d2eac48-d6fd-479a-9dde-4b94b2822324
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: German Speaking Administrator
-company: ASC Connections Ltd - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-ac77bded-97ae-4769-9c90-e5e347e032eb
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: NTD Coordinator
 company: TRC Yorkshire - Agency - Temporary
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225423861
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Receptionist/Administrative Assistant
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1771622
 reason: Separate employment market.
 ---
 
@@ -373,18 +313,6 @@ company: Tickhill and Colliery Medical Practice
 location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
 source: NHS Jobs
 job_id: nhs-5554992
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Contract
-location: Doncaster
-source: JobG8
-job_id: jobg8-78f4c04c-6e64-45dd-b8b3-2ba440f0f9f1
 reason: Separate employment market.
 ---
 

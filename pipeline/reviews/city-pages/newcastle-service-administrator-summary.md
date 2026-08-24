@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 36
-- automatic exclude: 22
+- automatic review: 42
+- automatic exclude: 26
 - effective include: 15
-- effective review: 36
-- effective exclude: 22
+- effective review: 42
+- effective exclude: 26
 
 ## INCLUDE (15)
 
@@ -204,19 +204,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (36)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Temporary
-location: Northumberland
-source: JobG8
-job_id: jobg8-4ba9f2a1-736c-4839-b5c3-5017577ed8b0
-reason: No approved Newcastle catchment rule matched; local review required.
----
+## REVIEW (42)
 
 ---
 action: 
@@ -259,10 +247,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Nigel Wright Group - Agency - Temporary
+company: R3vamp Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-27392603-97e3-47a1-be6b-c22d4a826a3d
+job_id: jobg8-1743955
 reason: Broad location; review before city inclusion.
 ---
 
@@ -287,18 +275,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225468085
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Temporary to Permanent - Team Valley
-company: Office Angels - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-3f80b0ca-14b3-48bf-add3-29c3133d4940
 reason: Broad location; review before city inclusion.
 ---
 
@@ -342,11 +318,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Client Administrator
-company: IDEX Consulting Ltd - Agency - Permanent
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-37de4be2-0a53-41c1-9b2c-dca52159ab6e
+job_id: jobg8-1785990
 reason: Broad location; review before city inclusion.
 ---
 
@@ -390,11 +366,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service & Complaints Administrator - Team Valley
-company: Office Angels - Agency - Temporary
+title: Customer Service Advisor
+company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-c53d7893-2946-4e1b-a6a5-7c10048932af
+job_id: jobg8-1766754
 reason: Broad location; review before city inclusion.
 ---
 
@@ -402,11 +378,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Data Administrator Apprentice
-company: QA - Company - Permanent
+title: Customer Service Advisor
+company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-8769e019-39af-41cb-98ee-9c0a7717aa0d
+job_id: jobg8-1767584
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data & Reporting Administrator
+company: Pertemps Scotland Temps - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1770980
 reason: Broad location; review before city inclusion.
 ---
 
@@ -419,6 +407,42 @@ company: Persimmon Homes - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-107869330
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: ELPL Claims Handler
+company: NRG - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107820080
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: National Learning Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107776158
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Full Time Administrator - Temp to Perm - Gosforth
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1771437
 reason: Broad location; review before city inclusion.
 ---
 
@@ -450,6 +474,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1771050
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Staff Partners Business - Agency - Temporary
 location: Tyne And Wear
@@ -462,12 +498,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Reed - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-b4eae84d-a884-4356-95b6-25bfd89c63c4
-reason: Broad location; review before city inclusion.
+title: Medical Receptionist
+company: The Stephenson Medical Practice
+location: Washington, NE37 2PU
+source: NHS Jobs
+job_id: nhs-5556970
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -475,10 +511,22 @@ action:
 decision: review
 automatic_decision: review
 title: Operations Support Assistant/ Administrator
-company: Pertemps Scotland Temps - Agency - Temporary
+company: Pertemps Scotland Temps - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-57b0c50b-a987-496c-9f86-52267c454f09
+job_id: jobg8-1768554
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Order & Delivery Administrator - Temp to Perm - Team Valley
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1748505
 reason: Broad location; review before city inclusion.
 ---
 
@@ -491,6 +539,18 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225474615
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Sales Administrator - Hebburn - Immediate Start
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1744866
 reason: Broad location; review before city inclusion.
 ---
 
@@ -534,18 +594,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Coordinator
-company: Catalyst - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107682969
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrator
 company: First Class Supply & Training
 location: Northumberland
@@ -582,11 +630,35 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Technical Support Officer – Licensing
-company: South Tyneside Council
-location: Town Hall, South Shields
-source: NEJobs
-job_id: nejobs-300614
+title: Support Administrator ? TOTEX Cluster
+company: Northern Gas - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225527268
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator - Houghton le Spring - Immediate Start
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1769286
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator - Ryton - Immediate Start
+company: Office Angels - Agency - Temporary
+location: Ryton
+source: JobG8
+job_id: jobg8-23643_225527835
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -594,11 +666,11 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Administrator - South Tyneside
-company: Office Angels - Agency - Temporary
+title: Temporary Customer Service Advisor
+company: Gem Partnership Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-40e191c1-6a98-48eb-91b0-6d618aad7c84
+job_id: jobg8-1703707
 reason: Broad location; review before city inclusion.
 ---
 
@@ -619,10 +691,10 @@ action:
 decision: review
 automatic_decision: review
 title: Temporary Receptionist - Sunderland
-company: Office Angels - Agency - Temporary
+company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-943068d0-ae1e-4bc4-b25a-1ed0b4d06b93
+job_id: jobg8-1704676
 reason: Broad location; review before city inclusion.
 ---
 
@@ -638,7 +710,7 @@ job_id: vonne-173349
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -716,11 +788,11 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Services Co-ordination and Improvement Officer
-company: Durham County Council
-location: Annand House, Meadowfield
-source: NEJobs
-job_id: nejobs-300776
+title: Billing and Invoicing Coordinator
+company: SI Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107820163
 reason: Separate employment market.
 ---
 
@@ -728,11 +800,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer service advisor
-company: Berry Recruitment - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225416961
+title: Business Services Co-ordination and Improvement Officer
+company: Durham County Council
+location: Annand House, Meadowfield
+source: NEJobs
+job_id: nejobs-300776
 reason: Separate employment market.
 ---
 
@@ -752,11 +824,71 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Sales Administrator
+company: Breedon Group plc - Company - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1782635
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Invoicing and Billing Coordinator
+company: Si Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1748861
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Invoicing and Billing Coordinator - Part Time
+company: SI Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107820330
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Lettings Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1770020
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Maintenance Administrator
 company: Hays Business Support - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225512280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Maintenance Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1769398
 reason: Separate employment market.
 ---
 
@@ -777,10 +909,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
-company: Lanchester Medical Centre
-location: Durham, DH7 0LS
+company: Dunelm Medical Practice
+location: Durham, DH1 5BL, Durham, DH1 2QQ, Durham, DH7 7DG
 source: NHS Jobs
-job_id: nhs-5547068
+job_id: nhs-5558529
 reason: Separate employment market.
 ---
 
@@ -788,11 +920,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Operations Administrator (Administration and Customer Service)
-company: Impellam - Agency - Contract
-location: County Durham
-source: JobG8
-job_id: jobg8-930a57b3-46a6-4cd1-9cdc-511973de2f28
+title: Medical Receptionist
+company: Lanchester Medical Centre
+location: Durham, DH7 0LS
+source: NHS Jobs
+job_id: nhs-5547068
 reason: Separate employment market.
 ---
 
@@ -824,6 +956,18 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Administrator
+company: Reed - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1743125
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Administrator
 company: First Class Supply & Training
 location: Sunderland
@@ -841,30 +985,6 @@ company: First Class Supply & Training
 location: Durham
 source: NEJobs
 job_id: nejobs-256127
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Stores Administrator
-company: Reed - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-46b61289-e2a4-47f8-913a-e292f57a8f7d
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Services Administrator
-company: Randstad Construction & Property - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-36547dcd-c244-44e4-85dc-381581cc0e47
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 2
-- automatic exclude: 6
-- effective include: 24
-- effective review: 2
-- effective exclude: 6
+- automatic include: 26
+- automatic review: 3
+- automatic exclude: 2
+- effective include: 26
+- effective review: 3
+- effective exclude: 2
 
-## INCLUDE (24)
+## INCLUDE (26)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Account Coordinator
-company: Baltic Recruitment Services Ltd - Agency - Permanent
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-107796411
+job_id: jobg8-1749327
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -64,11 +64,23 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Band 3 Early Intervention Team Administrator - West-15 hours
-company: Birmingham Community Healthcare NHS FT
-location: Birmingham, B7 5JR
+title: Assistant Co-ordinator - Statutory Levy
+company: Michael Page Business Support - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1702752
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Band 2 Receptionist - FTB Washwood Heath Health and Wellbeing Centre
+company: Birmingham and Solihull Mental Health NHS Foundation Trust
+location: Birmingham, B8 3SN
 source: NHS Jobs
-job_id: nhs-5541903
+job_id: nhs-5556036
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -88,11 +100,35 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Support & Team Coordinator - Birmingham City Centre
+company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1748872
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Support Officer
 company: Sellick Partnership - Agency - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225521012
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1785910
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -124,11 +160,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Elite People - Agency - Permanent
+title: Customer Service Coordinator
+company: Bridge Recruitment UK Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-9e8be0cb-6c6b-4925-9514-17172100a212
+job_id: jobg8-1769273
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -136,11 +172,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Remote work uk
-company: Coaching & Recruitment - Company - Permanent
+title: Customer Support Advisor
+company: AX UK - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-f88e5817-025b-4d04-b53f-868c888a2f32
+job_id: jobg8-1789841
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -148,35 +184,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Data Entry Administrator
-company: Options Resourcing Ltd - Agency - Temporary
+title: Finance Admin Assistant
+company: University College Birmingham - Company - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-23643_225517930
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Event Administrator
-company: Morgan Parkes Recruitment Limited - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-b4dc6c6f-4505-4f0e-b3bd-1aa97a8b9113
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Governance Administrator & Executive Assistant
-company: Morgan Hunt Recruitment - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-adf76449-3930-4181-859a-3f45a6280d69
+job_id: jobg8-1738115
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -196,11 +208,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing and Internal Communications Coordinator
-company: Aston Peters Professional Recruitment - Agency - Permanent
+title: Inspection Administrator
+company: Office Angels - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-a9f0a355-f3f3-4514-b212-f3e05899857e
+job_id: jobg8-1771922
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -208,11 +220,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Hollyoaks Medical Centre
-location: Birmingham, B47 6ET
-source: NHS Jobs
-job_id: nhs-5556384
+title: Inspection Support Administrator
+company: Office Angels - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1771921
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -256,11 +268,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part-Time Focus Group Panel. Call Centre Agent Advisor Welcome. Work At Home Immediate Start
-company: Apex Focus Group - Company - Permanent
+title: Part-time Business Support Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-4dd0d8a3-6312-4de1-b425-0ff0d3ef6898
+job_id: jobg8-1769725
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -268,23 +280,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Reception & Administration Assistant - City Centre
-company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-5e0c1a45-0101-44ab-9e93-b59bfaa5eda1
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Tate - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225415481
+title: Receptionist/Administrator
+company: The Wand Medical Centre
+location: Birmingham, B12 0UF
+source: NHS Jobs
+job_id: nhs-5557628
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -312,7 +312,43 @@ job_id: jobg8-23643_225445846
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (2)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
+company: Apex Focus Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1763901
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Work From Home Market Research Panelist - Part Time Administration Assistant Welcome
+company: Apex Focus Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1763910
+reason: Approved conservative Birmingham launch catchment.
+---
+
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Administrator
+company: Simpson Recruitment Services - Agency - Permanent
+location: Sutton Coldfield
+source: JobG8
+job_id: jobg8-1787285
+reason: No approved Birmingham catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -338,41 +374,17 @@ job_id: jobg8-23643_225507846
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (2)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - Property & Facilities
-company: Listers Group Limited - Company - Permanent
+title: Motor Trade Sales Administrator
+company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
 location: Solihull
 source: JobG8
-job_id: jobg8-e25d46c6-eb96-414b-bc7a-c3048e087bfb
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: Pertemps Solihull - Agency - Temporary
-location: Shirley
-source: JobG8
-job_id: jobg8-23643_225418765
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Administrator
-company: Tirebuck Recruitment - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-65c1600a-3447-4c43-9eed-fd4ff5c2ff91
+job_id: jobg8-1782932
 reason: Separate exact-city market at launch.
 ---
 
@@ -385,29 +397,5 @@ company: Tanworth in Arden Medical Practice
 location: Solihull, B94 5DY
 source: NHS Jobs
 job_id: nhs-5530420
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Coordinator
-company: Tirebuck Recruitment - Agency - Contract
-location: Solihull
-source: JobG8
-job_id: jobg8-cd92f4f8-e5d6-4d87-bbb7-4ea9bda6dd8e
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Vehicle Sales & Accounts Administrator
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-3a0f7e52-4bbc-4a11-9c99-bd0bb417db16
 reason: Separate exact-city market at launch.
 ---

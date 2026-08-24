@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 12
-- automatic exclude: 43
-- effective include: 9
+- automatic exclude: 35
+- effective include: 8
 - effective review: 12
-- effective exclude: 43
+- effective exclude: 35
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Pathology Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7QU
-source: NHS Jobs
-job_id: nhs-5527785
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Programme Administrator
 company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 9DU
@@ -133,6 +121,18 @@ reason: Approved conservative Oxford launch catchment.
 ---
 
 ## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Banbury, OX15 6EH
+source: NHS Jobs
+job_id: nhs-5558600
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: The Abingdon Surgery
 location: Abingdon, OX14 3LB
 source: NHS Jobs
 job_id: nhs-5540156
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Bampton Medical Practice
-location: Bampton, OX18 2LJ
-source: NHS Jobs
-job_id: nhs-5516742
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -278,17 +266,17 @@ job_id: nhs-5537618
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (43)
+## EXCLUDE (35)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
 title: Accounts Administrator
-company: Reading Industrial Pertemps - Agency - Temporary
+company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-e1de4ec3-ecc2-4440-868b-dd72f6a4e398
+job_id: jobg8-107862291
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -296,11 +284,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Adecco - Agency - Temporary
+title: Accounts Administrator Entry Level Opportunity
+company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-fa79e272-5ce9-4e06-b2a9-1af5aa9bb5d5
+job_id: jobg8-107856250
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -325,18 +313,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225475163
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Downtown Recruitment - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-3a8bc0bc-391b-421f-9a87-c9c1c863ba6e
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -405,18 +381,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Rapier - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-abf54638-704c-46fd-b9be-f74b1db2fcdf
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Reed Specialist Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
@@ -452,42 +416,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Cash Management Administrator
-company: Cameo Consultancy Recruitment Ltd - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-ab9be747-b9c9-409c-9ff5-ea77490b011d
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Centre Administrator
-company: Talent Staffing Ltd - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-a5e4102e-33e3-4785-b63a-3f84f3600596
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Centre Administrator - South Oxfordshire
-company: Elevation Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-21d359db-27db-431d-8b47-07a216dd13bf
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Claims Administrator
 company: K2 Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -500,35 +428,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Contracts Administrator
-company: Downtown Recruitment - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-15cb77a6-9ba9-41cc-adbc-d773f416a836
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
 company: The Rosalind Franklin Institute - Company - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1247531 [JSP51654]
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant/Accounts Payable
-company: Robert Half - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-ab1f2e5e-deed-45cc-8d6b-d8cac794e167
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -560,11 +464,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Coordinator
-company: Purple Placements - Agency - Permanent
+title: HR Operations Coordinator
+company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-a443ff02-bebe-452b-a749-6b190d41b6d7
+job_id: jobg8-1789720
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -624,7 +528,7 @@ title: Office Coordinator
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-c1d47d98-f4cd-4a6c-938c-f5c648a90021
+job_id: jobg8-1748929
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -637,6 +541,18 @@ company: Euro-Projects Recruitment Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225462965
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Australasian Recruitment Company - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1789870
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -669,22 +585,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Sales Administrator
-company: Cameo Consultancy Recruitment Ltd - Agency - Permanent
+company: Cameo Consultancy (Recruitment) Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-c0d7bd28-5c96-436b-ae74-c0ea13952fdc
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-31e99910-3837-466c-b1ba-75c970d482f4
+job_id: jobg8-107863291
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -704,30 +608,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales and Parts Administrator
-company: K2 Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-9f9928af-1951-4779-9994-46b0353c077d
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Operations Administrator
-company: Glen Callum Associates Automotive Ltd - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-0120fc48-32fe-4086-a954-2ee95bdcd898
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Scheduling Co-ordinator
 company: DJ Doors - Agency - Permanent
 location: Oxfordshire
@@ -740,11 +620,35 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Service Advisor
-company: The Solution Auto - Agency - Permanent
+title: Service Administrator
+company: FCR PROPERTY LIMITED - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-27605ca5-976c-402c-8333-5b87caf84bf4
+job_id: jobg8-1769321
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Coordinator
+company: Downtown Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1704964
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Administrator
+company: Berry Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1778720
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -781,17 +685,5 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225464784
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Warranty Administrator
-company: Adecco - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-6e4b348e-92cc-42c3-abde-fe3e4615490c
 reason: Broad county location; not Oxford-city evidence.
 ---

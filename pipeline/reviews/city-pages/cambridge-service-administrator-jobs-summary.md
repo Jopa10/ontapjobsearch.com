@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 6
-- automatic exclude: 20
-- effective include: 25
-- effective review: 6
-- effective exclude: 20
+- automatic include: 20
+- automatic review: 5
+- automatic exclude: 21
+- effective include: 20
+- effective review: 5
+- effective exclude: 21
 
-## INCLUDE (25)
+## INCLUDE (20)
 
 ---
 action: 
@@ -65,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Select Recruitment Specialists Ltd - Agency - Temporary
+company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-23643_225517573
+job_id: jobg8-1770672
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -88,18 +88,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator (Renewable Energy)
-company: Rise Technical Recruitment Limited - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-990fcb6f-011a-45c3-883b-b0b9a701b20d
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Assistant Town Planner
 company: Penguin Recruitment - Agency - Permanent
 location: Cambridge
@@ -112,47 +100,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Administrator
-company: Reed - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-e7ffc459-2241-4694-baf4-e7161d94cff2
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Client Services Co-Ordinator/Receptionist
-company: RecruitAbility Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-b9168f3b-ae51-41b5-8822-277795a7ff77
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate Receptionist
 company: Invictus Group - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225445219
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: RELOcruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-bc06c685-cd6b-44da-a6c0-dfb6cdcf10c9
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -189,18 +141,6 @@ company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 9LG
 source: NHS Jobs
 job_id: nhs-5547956
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Interim Accounts Assistant
-company: Abacus Consulting - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-ce9667b9-d828-4c03-b90f-673e439e0f77
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -292,11 +232,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: The Solution Automotive Limited - Agency - Permanent
+title: SharePoint Administrator
+company: Belcan Technical Recruiting (UK) Ltd - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-107683758
+job_id: jobg8-107729655
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -324,19 +264,7 @@ job_id: nhs-5532772
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Broster Buchanan - Agency - Contract
-location: Wisbech
-source: JobG8
-job_id: jobg8-69e0dfe0-062a-449e-962d-e87504d3bdcd
-reason: No approved Cambridge catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -398,7 +326,19 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (21)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: Blusource - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1778529
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -433,18 +373,6 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225452723
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Rise Technical Recruitment - Agency - Contract
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225474610
 reason: Separate employment market.
 ---
 
@@ -512,6 +440,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial Insurance Claims Handler
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1749201
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Order Administrator
+company: New Appointments Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1749732
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Order Administrator
 company: New Appointments Group - Agency - Temporary
 location: Peterborough
@@ -560,35 +512,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Co-Ordinator - maternity cover FTC
-company: Hays Specialist Recruitment Limited - Agency - Contract
-location: Peterborough
-source: JobG8
-job_id: jobg8-54dcf7f3-93a1-4f6a-bab3-c0b7ef6e9296
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Inclusion Administrator
 company: Discovery Primary Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Secretary / Referrals Administrator
-company: Thomas Walker Westgate Healthcare
-location: Peterborough, PE1 2QP
-source: NHS Jobs
-job_id: nhs-5527904
 reason: Separate employment market.
 ---
 
@@ -637,5 +565,17 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225406910
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Accounts Assistant
+company: Interaction - Huntingdon - Agency - Temporary
+location: Huntingdon
+source: JobG8
+job_id: jobg8-107803434
 reason: Separate employment market.
 ---

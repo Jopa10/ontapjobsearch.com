@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 56
+- automatic include: 5
+- automatic review: 65
 - automatic exclude: 11
-- effective include: 3
-- effective review: 56
+- effective include: 5
+- effective review: 65
 - effective exclude: 11
 
-## INCLUDE (3)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 3DT
+source: NHS Jobs
+job_id: nhs-5558135
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4XE
+source: NHS Jobs
+job_id: nhs-5557418
+reason: Approved Southampton catchment.
+---
 
 ---
 action: 
@@ -32,7 +56,7 @@ title: Locality Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO14 0JY
 source: NHS Jobs
-job_id: nhs-5541835
+job_id: nhs-5556972
 reason: Approved Southampton catchment.
 ---
 
@@ -60,7 +84,31 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (56)
+## REVIEW (65)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107689740
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Adecco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1742710
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -78,11 +126,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - IMMEDIATE START
-company: Office Angels - Agency - Temporary
+title: Administrator
+company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-752b1773-8140-4647-aa4d-481f6707de83
+job_id: jobg8-1743458
 reason: Broad location; review before city inclusion.
 ---
 
@@ -90,11 +138,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Appointment Booking Administrator
-company: The Hyde Group - Company - Permanent
+title: Air Conditioning Coordinator/ Administrator
+company: Infinity Energy Services - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-a0639dfd-56cb-4c60-95e9-ec98745f232c
+job_id: jobg8-1743583
 reason: Broad location; review before city inclusion.
 ---
 
@@ -127,6 +175,18 @@ action:
 decision: review
 automatic_decision: review
 title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107816328
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
 company: Nurse Plus - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -138,23 +198,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Home Administrator
-company: Barchester Healthcare - Company - Permanent
+title: Claims Handler
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-36665455-ee4d-4043-b39a-5c915dd4c839
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contract Planning Administrator
-company: Virtuoso Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-73b68ea5-1637-4e98-8534-2f3bc015b041
+job_id: jobg8-1769981
 reason: Broad location; review before city inclusion.
 ---
 
@@ -179,6 +227,78 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225523973
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: JDR - Just Dynamic Recruitment - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-107825959
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: REFRESH RECRUITMENT LIMITED - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1743065
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: South West Recruitment Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1743407
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Coordinator
+company: The Workshop - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-107787258
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Coordinator
+company: Workshop Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1738066
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Entry Admin - Basingstoke
+company: Adecco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1769524
 reason: Broad location; review before city inclusion.
 ---
 
@@ -234,30 +354,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant & Operations Coordinator
-company: Workshop Recruitment - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-0a78a1e3-9c37-4454-af38-985294afc047
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Expediting Administrator
-company: Workshop Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1e95d440-805a-4ed6-848d-b78b9be437d2
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Expediting Administrator
 company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
@@ -270,11 +366,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Governance Coordinator
-company: Reed - Agency - Permanent
+title: Finance Assistant
+company: Oaklands Catholic School - Agency - Contract
 location: Hampshire
 source: JobG8
-job_id: jobg8-84211efd-7135-4121-abc2-ba964c41865e
+job_id: jobg8-107716803
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,11 +378,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Administrator
-company: Hartley Resourcing - Agency - Permanent
+title: Finance Assistant
+company: Thorngate Churcher Trust - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-32422e23-2052-4af5-82d5-a882f45bb0b6
+job_id: jobg8-107718072
 reason: Broad location; review before city inclusion.
 ---
 
@@ -306,11 +402,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Kiota Recruitment - Agency - Contract
+title: HR Administrator - Permanent Position
+company: Berry Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225416645
+job_id: jobg8-1749557
 reason: Broad location; review before city inclusion.
 ---
 
@@ -331,10 +427,22 @@ action:
 decision: review
 automatic_decision: review
 title: HR Assistant
-company: Matchtech - Agency - Permanent
+company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-f71a8d77-aaeb-48bc-b8d9-b7a233542e5e
+job_id: jobg8-1769284
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1749664
 reason: Broad location; review before city inclusion.
 ---
 
@@ -359,18 +467,6 @@ company: Hays Business Support - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225519192
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Project Coordinator
-company: Dynamite Recruitment - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225472675
 reason: Broad location; review before city inclusion.
 ---
 
@@ -414,18 +510,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: New Business Administrator
-company: Premier Jobs UK Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-b984089c-968f-424c-81de-219bbe2b22b1
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: Matchtech - Agency - Contract
 location: Hampshire
@@ -450,18 +534,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Onboarding Administrator
-company: Matchtech - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-e74c7499-1c4c-431a-ad2c-1e4975040487
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Onsite Recruitment Coordinator / Consultant
 company: Adecco - Agency - Temporary
 location: Hampshire
@@ -474,11 +546,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Operations & Project Administrator
-company: OP - Agency - Contract
+title: Operations Administrator
+company: wild recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-cf2750f1-fb39-480d-a553-cb965ae7d57a
+job_id: jobg8-1786588
 reason: Broad location; review before city inclusion.
 ---
 
@@ -498,11 +570,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: wild recruitment - Agency - Permanent
+title: Part Time Customer Service Advisor
+company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-9503494c-fa67-4792-9c23-2e76f3e3d564
+job_id: jobg8-1733605
 reason: Broad location; review before city inclusion.
 ---
 
@@ -534,6 +606,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Planner
+company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1782929
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project & Office Administrator
+company: Venus Recruitment Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1769316
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project & Office Administrator
 company: Venus Recruitment Ltd - Agency - Permanent
 location: Hampshire
@@ -558,23 +654,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Project Support Administrator
-company: Lloyd Recruitment - Epsom - Agency - Permanent
+title: Receptionist - Part Time
+company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225448844
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Reed - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-b06192e9-e3c3-41de-9ddd-fc7ba0c12b70
+job_id: jobg8-1751725
 reason: Broad location; review before city inclusion.
 ---
 
@@ -607,10 +691,22 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
-company: Pertemps Basingstoke - Agency - Permanent
+company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-4d0ba43c-b778-48f0-b1f7-17d2dba33c6e
+job_id: jobg8-1749891
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Vanta Staffing Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1769812
 reason: Broad location; review before city inclusion.
 ---
 
@@ -635,6 +731,18 @@ company: Adecco - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225505424
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Percival Aviation - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1749178
 reason: Broad location; review before city inclusion.
 ---
 
@@ -702,11 +810,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Shipping Administrator
-company: Hartley Resourcing - Agency - Temporary
+title: SME Administrator
+company: Rapier - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-a262381a-344d-4c47-bd8e-534b46571e9a
+job_id: jobg8-1767352
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Customer Service Advisor
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1767511
 reason: Broad location; review before city inclusion.
 ---
 
@@ -719,6 +839,18 @@ company: Carrington West - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472585
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: TRI Administrator
+company: R3vamp Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1733980
 reason: Broad location; review before city inclusion.
 ---
 

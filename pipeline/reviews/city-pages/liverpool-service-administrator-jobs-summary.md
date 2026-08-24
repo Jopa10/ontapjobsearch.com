@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 12
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 17
+- effective include: 12
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (17)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-a5cca5c2-bd08-4fd0-abcb-541aa750e518
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant - 30 hours
-company: British Pregnancy Advisory Service (BPAS)
-location: LIVERPOOL, L3 8JA, WARRINGTON, WA1 1SR, LIVERPOOL, L17 8UJ, ST. HELENS, WA10 1HJ
-source: NHS Jobs
-job_id: nhs-5532195
-reason: Approved conservative Liverpool launch catchment.
----
+## INCLUDE (12)
 
 ---
 action: 
@@ -65,10 +41,10 @@ action:
 decision: include
 automatic_decision: include
 title: Claims Handler CH1
-company: Keoghs LLP - Company - Permanent
+company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-19b69519-b19a-4e1a-ad2c-af5634865460
+job_id: jobg8-1763920
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -76,11 +52,23 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: COMPLEX PERSONAL INJURY CLAIMS HANDLER
-company: Clark James Recruitment - Agency - Permanent
+title: Complaints Handler
+company: Riverside Group - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-56f46394-a761-4ac7-b2e1-3ec11fad4494
+job_id: jobg8-1780932
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Corporate Actions Administrator
+company: Rathbones Group Plc - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-107876066
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -124,47 +112,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: The Coast Partnership Ltd - Agency - Permanent
+title: Part Time Receptionist
+company: Adecco - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-98a6c3eb-f57a-4145-989c-cd329d440d01
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Litigated Motor Recoveries Claims Handler
-company: Keoghs LLP - Company - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-10d0e646-bd37-44ec-97de-e3bddec73fb8
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Motor claims handler
-company: Spotlightjobs - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-e95dfc74-8ca3-4f45-9ab4-1be437e1e38d
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Motor Claims Handler CH3
-company: Keoghs LLP - Company - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-5153020d-0678-4742-ab06-9a993c96b853
+job_id: jobg8-1749103
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -208,23 +160,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recoveries claims handler
-company: Spotlightjobs - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-044e88f1-c6c5-42f0-aca1-53e54bf66142
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Site Admin + Document Controller! TRAVEL PAID
+title: Temporary Receptionist
 company: Office Angels - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-0360bf1d-9b45-46ed-8a20-defc3ae64e21
+job_id: jobg8-1744017
 reason: Approved conservative Liverpool launch catchment.
 ---
 

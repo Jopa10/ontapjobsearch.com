@@ -1,15 +1,18 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,jobg8-23643_225436605,Administrator,Mane Contract Services - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-23643_225438303,Administrator,Unity Resourcing Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-107743190,Accounts Administrator,Invigorate Recruitment - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-107830734,Accounts Administrator FTC,Brook Street UK - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-107771451,Accounts Assistant,Pratap Partnership Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225437275,Depot Administrator,Adecco - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-a1ec977a-f77f-4fd9-ae8d-79c46c801179,HR Administrator,Candidate Source - TEAM - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-5a560285-330a-4930-9fbe-bd132db1297b,Invoicing Administrator,Capital Outsourcing Group Ltd - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-107804499,Sales and Marketing Coordinator,KD Recruitment Limited - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-107836541,Service Advisor - Ford,Stoneacre Motor Group. - Company - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5550198,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"York, YO31 7DE",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
-review,jobg8-5a70e6dc-d4f6-4337-819e-1c94362f0013,Accounts Assistant,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
-review,jobg8-4325fc09-4b45-4194-86b2-de98091b2283,Junior Administrator,Capital Outsourcing Group Ltd - Agency - Permanent,Pickering,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+include,nhs-5547601,Team Administrator - York and Selby Talking Therapies Team,Tees Esk and Wear Valleys NHS Foundation Trust,"York, YO32 9XW",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
+review,jobg8-1749032,Admin Assistant,Si Recruitment - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-1742546,HR Coordinator,C&C Search Ltd - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-107871574,Lifestyle Co-ordinator,Care UK - Company - Permanent,Whitby,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-1778958,Office Administrator,ianson - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225480415,Office Administrator,KD Recruitment - Agency - Permanent,Pickering,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-1742952,Office Administrator,KD Recruitment Limited - Agency - Permanent,Pickering,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,nhs-5533330,Part-time Receptionist,The Paradise Road Practice,"Richmond, TW9 1SA",NHS Jobs,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,nhs-5501480,Receptionist/Administrator,Ripon Spa Surgery,"Ripon, HG4 2BE",NHS Jobs,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,teaching-vacancies-school-office-administrator-askwith-primary-school,School Office Administrator,Askwith Primary School,Otley,Teaching Vacancies,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -20,5 +23,4 @@ exclude,jobg8-23643_225439444,Receptionist Part Time,KD Recruitment - Agency - P
 exclude,teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire,Senior Administrator,Braeburn Primary and Nursery Academy,Scarborough,Teaching Vacancies,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,nhs-5520240,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Northallerton, DL6 2FG",NHS Jobs,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-23643_225424341,Temporary Administrator,KD Recruitment - Agency - Temporary,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
-exclude,jobg8-37fb4c28-ec90-4f45-91d0-8aa8c857a868,Temporary Procurement Administrator,Broster Buchanan - Agency - Temporary,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-23643_225472878,Training and Recruitment administrator,Ashley Kate HR & Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

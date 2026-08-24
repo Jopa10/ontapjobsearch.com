@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 6
-- automatic exclude: 6
-- effective include: 2
-- effective review: 6
-- effective exclude: 6
+- automatic include: 3
+- automatic review: 8
+- automatic exclude: 4
+- effective include: 3
+- effective review: 8
+- effective exclude: 4
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -40,6 +40,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Family Support Worker/Hampshire/ &;15-18 p/h.
+company: Prospero Health & Social Care - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1778648
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Secure Childrens Home Support Worker (Weekends)
 company: Hampshire County Council - Company - Permanent
 location: Southampton
@@ -48,7 +60,7 @@ job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -122,19 +134,31 @@ job_id: jobg8-107332363
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Opportunity: Hourly Personal Care Assistant
+company: Ask Jules - Agency - Permanent
+location: Petersfield
+source: JobG8
+job_id: jobg8-107769099
+reason: No approved Southampton catchment rule matched; local review required.
+---
 
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant - Bank - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Fareham
+decision: review
+automatic_decision: review
+title: Waking Night Childrens Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Romsey
 source: JobG8
-job_id: jobg8-4a74d1e7-f86f-4dad-965a-206ba0f5fa61
-reason: Separate employment market.
+job_id: jobg8-1401784682
+reason: Broad location; review before city inclusion.
 ---
+
+## EXCLUDE (4)
 
 ---
 action: 
@@ -152,35 +176,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Night Care Assistant
-company: Barchester Healthcare - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-202c4b49-5e6c-46f1-879f-8421db894a5b
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Night Care Assistant
-company: Barchester Healthcare - Company - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-8e6242db-cd62-4802-934f-7ad53601c988
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Night Care Assistant (Adults)
 company: Hampshire County Council - Company - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-1401784687
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Residential Support Worker
+company: SWAAY - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-107856573
 reason: Separate employment market.
 ---
 

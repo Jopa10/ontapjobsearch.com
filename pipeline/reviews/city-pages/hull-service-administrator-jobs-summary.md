@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 4
+- automatic include: 12
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 11
-- effective review: 4
+- effective include: 12
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225499816
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Co-Ordinator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-f06cab2e-20d1-4ffc-b0cd-1b01280bc7ec
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -88,11 +76,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Office Angels - Agency - Temporary
+title: Graduate Administrator
+company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225429963
+job_id: jobg8-1750023
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -100,11 +88,23 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Maritime Operations Administrator
-company: Consortium Professional Recruitment - Agency - Permanent
+title: Graduate Administrator / Office Support
+company: Winsearch - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-ca93ed5e-32b0-40c9-ba85-5077d96ce05a
+job_id: jobg8-23643_225425823
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Office Angels - Agency - Temporary
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225429963
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -156,17 +156,29 @@ job_id: jobg8-23643_225511107
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-1734284
+reason: Approved conservative Hull launch catchment.
+---
+
+## REVIEW (5)
 
 ---
 action: 
 decision: review
 automatic_decision: review
 title: Accounts Administrator
-company: Edwards & Pearce - Doncaster - Agency - Permanent
+company: Edwards & Pearce Limited - Agency - Permanent
 location: Beverley
 source: JobG8
-job_id: jobg8-063a7f22-b670-4732-ac41-577734db0fd8
+job_id: jobg8-107841883
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -174,11 +186,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Administrator / Office Support
-company: Winsearch - Agency - Permanent
-location: Hessle
+title: Market Research Coordinator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Driffield
 source: JobG8
-job_id: jobg8-23643_225425823
+job_id: jobg8-1776844
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -190,7 +202,7 @@ title: Part time Office and Accounts Administrator - Hessle
 company: Office Angels - Agency - Permanent
 location: Hessle
 source: JobG8
-job_id: jobg8-04005cf8-394e-41fa-af3d-51070795c494
+job_id: jobg8-1763883
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -203,6 +215,18 @@ company: Office Angels - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225499018
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administration Assistant
+company: Recruitment Services UK - Agency - Permanent
+location: Cottingham
+source: JobG8
+job_id: jobg8-23643_225527411
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

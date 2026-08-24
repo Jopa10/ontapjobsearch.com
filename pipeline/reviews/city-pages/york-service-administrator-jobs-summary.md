@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 6
-- automatic exclude: 9
+- automatic review: 9
+- automatic exclude: 8
 - effective include: 8
-- effective review: 6
-- effective exclude: 9
+- effective review: 9
+- effective exclude: 8
 
 ## INCLUDE (8)
 
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Mane Contract Services - Agency - Contract
+title: Accounts Administrator
+company: Invigorate Recruitment - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-23643_225436605
+job_id: jobg8-107743190
 reason: Approved York catchment.
 ---
 
@@ -40,11 +40,23 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
+title: Accounts Administrator FTC
+company: Brook Street UK - Agency - Contract
 location: York
 source: JobG8
-job_id: jobg8-23643_225438303
+job_id: jobg8-107830734
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Pratap Partnership Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107771451
 reason: Approved York catchment.
 ---
 
@@ -57,30 +69,6 @@ company: Adecco - Agency - Temporary
 location: York
 source: JobG8
 job_id: jobg8-23643_225437275
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Candidate Source - TEAM - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-a1ec977a-f77f-4fd9-ae8d-79c46c801179
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Invoicing Administrator
-company: Capital Outsourcing Group Ltd - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-5a560285-330a-4930-9fbe-bd132db1297b
 reason: Approved York catchment.
 ---
 
@@ -120,17 +108,29 @@ job_id: nhs-5550198
 reason: Approved York catchment.
 ---
 
-## REVIEW (6)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator - York and Selby Talking Therapies Team
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: York, YO32 9XW
+source: NHS Jobs
+job_id: nhs-5547601
+reason: Approved York catchment.
+---
+
+## REVIEW (9)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Ripon
+title: Admin Assistant
+company: Si Recruitment - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-5a70e6dc-d4f6-4337-819e-1c94362f0013
+job_id: jobg8-1749032
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -138,11 +138,35 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Junior Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Pickering
+title: HR Coordinator
+company: C&C Search Ltd - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-4325fc09-4b45-4194-86b2-de98091b2283
+job_id: jobg8-1742546
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lifestyle Co-ordinator
+company: Care UK - Company - Permanent
+location: Whitby
+source: JobG8
+job_id: jobg8-107871574
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: ianson - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-1778958
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -155,6 +179,18 @@ company: KD Recruitment - Agency - Permanent
 location: Pickering
 source: JobG8
 job_id: jobg8-23643_225480415
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Pickering
+source: JobG8
+job_id: jobg8-1742952
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -194,7 +230,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -277,18 +313,6 @@ company: KD Recruitment - Agency - Temporary
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225424341
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Procurement Administrator
-company: Broster Buchanan - Agency - Temporary
-location: Harrogate
-source: JobG8
-job_id: jobg8-37fb4c28-ec90-4f45-91d0-8aa8c857a868
 reason: Separate employment market.
 ---
 

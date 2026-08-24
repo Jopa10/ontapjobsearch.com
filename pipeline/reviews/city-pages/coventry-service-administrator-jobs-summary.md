@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 1
-- automatic exclude: 37
+- automatic review: 2
+- automatic exclude: 32
 - effective include: 3
-- effective review: 1
-- effective exclude: 37
+- effective review: 2
+- effective exclude: 32
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-school-administrator-president-kennedy-school-academy
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (2)
 
 ---
 action: 
@@ -74,7 +74,19 @@ job_id: nhs-5538096
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Purchasing
+company: Options Resourcing Ltd - Agency - Permanent
+location: Southam
+source: JobG8
+job_id: jobg8-23643_225526928
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+## EXCLUDE (32)
 
 ---
 action: 
@@ -92,11 +104,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant - 20 hours
-company: British Pregnancy Advisory Service (BPAS)
-location: Coventry, CV3 5PZ, Nuneaton, CV10 8EJ, Stratford-upon-avon, CV37 6PP
-source: NHS Jobs
-job_id: nhs-5530549
+title: Administration Assistant
+company: Reed - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1769740
 reason: Separate employment market.
 ---
 
@@ -228,31 +240,19 @@ title: Customer Service Advisor - Full Time
 company: Adecco - Agency - Permanent
 location: Warwickshire
 source: JobG8
+job_id: jobg8-1766758
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor - Full Time
+company: Adecco - Agency - Permanent
+location: Warwickshire
+source: JobG8
 job_id: jobg8-23643_225505608
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: AD Finance - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-00f1e237-afc8-489f-9ca4-42b6e740606a
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Financial Services Administrator
-company: Recruit UK - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-c288290a-ae92-46d1-ab82-b244cc5be2b5
 reason: Separate employment market.
 ---
 
@@ -272,11 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Pertemps Black Country Perms - Agency - Permanent
+title: Immediate Start Accounts Administrator
+company: Mitchell Adam - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-4aeb6dcb-44ea-4503-b1f4-0ba011dd9846
+job_id: jobg8-1778472
 reason: Separate employment market.
 ---
 
@@ -284,23 +284,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Internal Sales & Customer Services Co-ordinator
-company: Thefutureworks - Agency - Permanent
+title: Learning and Development Coordinator
+company: Rose & Young Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-ed64b0d2-c820-4078-987d-5988e6824c4a
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Internal Sales Administrator
-company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-337293d6-0b83-4e3a-a2cb-3b48b534647b
+job_id: jobg8-107875425
 reason: Separate employment market.
 ---
 
@@ -320,71 +308,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketplace Administrator
-company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-3b87e4c5-8d1e-4007-869f-caf58a2f5d37
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225431697
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Marketing Administrator
-company: Provit Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-266c72a7-06f0-4e64-b4f8-1b5ddd206da4
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Secretary
-company: Provit Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-f2b1b885-1e89-40a2-9927-0632554cbc43
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part-Time Focus Group Panel. Call Centre Agent Advisor Welcome. Work At Home Immediate Start
-company: Apex Focus Group - Company - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-ce4a1f38-7838-4814-b760-45db6acfea73
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Performing Arts and LAMDA Administrator
-company: The Princethorpe Foundation - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107860526
 reason: Separate employment market.
 ---
 
@@ -405,10 +333,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
-company: Apex Focus Group - Company - Permanent
+company: Apex Focus Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-a5342311-988b-4d58-8648-2dec6ab655fc
+job_id: jobg8-1763902
 reason: Separate employment market.
 ---
 
@@ -488,11 +416,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SOL Administrator
-company: Bis Henderson - Agency - Permanent
+title: Team Data Administrator
+company: Pontoon - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2b0f08ad-fe9d-4637-8766-17a7c353b0cd
+job_id: jobg8-1775929
 reason: Separate employment market.
 ---
 
@@ -500,11 +428,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Temporary Customer Service Administrator
-company: BRELLIS RECRUITMENT LIMITED - Agency - Temporary
+title: Trainee Administrator
+company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-ad75989e-18ff-4ce7-8011-5c311dcf878f
+job_id: jobg8-1742728
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Weekend Receptionist
+company: Listers Group Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1756888
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Work From Home Market Research Panelist - Part Time Administration Assistant Welcome
+company: Apex Focus Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1763911
 reason: Separate employment market.
 ---
 

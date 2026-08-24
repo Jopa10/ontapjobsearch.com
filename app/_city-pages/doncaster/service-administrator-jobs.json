@@ -22,32 +22,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "78f4c04c-6e64-45dd-b8b3-2ba440f0f9f1",
-    "title": "Recruitment Account Coordinator",
-    "company": "Staffline Recruitment Limited - Agency - Contract",
-    "location": "Doncaster",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "27000",
-    "salary_max": "28000",
-    "salary_text": "£27000 - £28000 per year",
-    "posted_date": "2026-08-14",
-    "description": "Full time - On-site - 6-12 M FTC - 5 out of 7\n\nSalary: £28,000 per annum + bonus\n\nHave you considered a career in recruitment? You possess drive, ambition, discipline, and structure, but haven't yet had the opportunity to put it all into practice? Come and showcase your potential at Staffline.\n\nThe Opportunity\n\nThis is your chance to join the UK's largest recruitment business as a Temporary Onsite Recruitment Account Coordinator. In this role, you'll be providing temporary workers to our highly successful warehousing operation in Thorne.\n\nTo excel in this role, your focus will be on customers, committed to delivering the best service, and a natural problem solver. While experience in on-site recruitment would be beneficial, it's not an essential requirement. If you have transferable skills, we can provide training on all the elements essential for success in this position.\n\nWhat you'll do as a Onsite Recruitment Account Coordinator\n\nThis role thrives on pace - helping candidates find the best jobs, solving problems, and enhancing the candidate experience and work environment. It's a wonderfully diverse role that will undoubtedly keep you engaged. Here's a glimpse of what you can expect:\n- Meeting client deadlines by fulfilling staffing requirements\n- Recruitment, selection, and onboarding of workers\n- Accurate data input and validation for weekly payroll\n- Handling administrative processes such as absences and change requests\n- Ensuring compliance and maintaining secure records for audits\n- Providing a positive customer experience and efficiently addressing worker queries\n\nThe skills you'll develop as a Onsite Recruitment Account Coordinator\n\nThroughout your time at Staffline, you'll receive coaching and challenges that will facilitate skill growth. In this role, you can anticipate enhancing skills related to client and relationship management, hiring and staffing processes, and identifying opportunities for performance improvement - among a range of other areas. At Staffline, we actively encourage progression and personal development, with dedicated progression paths for those who join us.\n\nWhat we need from you\n\nBy now, it should be evident that we're dedicated to your development, fair rewards, and encouraging you to excel in your role at Staffline. To succeed in this position, a few things are required:\n- Swift adaptation to changing priorities and effective problem-solving skills\n- A customer-centric mindset, prioritizing people above all else\n- Ideally, experience within the recruitment industry (though not essential)\n- A growth mindset, consistently seeking innovative approaches while fulfilling both client and customer needs\n- Strong relationship-building abilities, confidently establishing and maintaining connections with clients and customers\n- Most importantly, tenacity, drive, flexibility, and a positive attitude toward delivering excellent service.\n\nDiversity and Inclusion: A Core Focus\n\nAt Staffline, we are deeply committed to building a diverse and inclusive workforce. We believe that a diverse team brings different perspectives, ideas, and experiences, enhancing our overall effectiveness and success. We value and celebrate the uniqueness of each individual, and we actively encourage applications from candidates of all backgrounds.\n\nIntrigued? Why not apply now? Or if you need more information, get in touch!\n\nNote: All candidates must demonstrate their Right to Work in the UK. A full UK driver's license is highly desired for this role.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpz5iyjWef1Y7F5BJN6pz0iSe",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Staffline Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling"
+    ]
   },
   {
     "job_id": "23643_225433915",
@@ -91,6 +70,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
