@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,1199
-total rows dropped,8794
+total rows included,1200
+total rows dropped,8795
 title classification count - HIGH_CONFIDENCE,1120
 title classification count - ELASTIC_FIT,404
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -72,13 +72,13 @@ other elastic count - Sussex,9
 total rows output - Sussex,31
 job_id included - Sussex,23643_225468462; 23643_225424968; 23643_225428472; 23643_225448794; 23643_225452492; 23643_225454060; 23643_225460713; 23643_225473875; 23643_225475468; 23643_225476714; 5688078e-d798-4bcd-84d6-62baed25a773; 23643_225498357; 23643_225283461; 23643_225461960; 23643_225506282; 23643_225514099; 347cfddc-439f-4318-bf5c-81d17bdb84bb; ba7142e5-3e8f-4baa-b926-65b283c2a0b8; 39048220-853f-45fa-bca5-958a6e7b5669; b9b29cf0-2281-4013-99a7-b2e6124067b9; 5e20f6b2-7c09-4f8a-b8e7-d039791767e1; 23643_225523989; 23643_225460325; 23643_225462263; 23643_225464735; 107805697; d6235c67-4823-4bef-8c7d-4a77b8a5b2b6; 23643_225475445; 1db67ba8-80b5-4d96-bb25-4ff40467d27f; 23643_225517937; 107869789
 selection scenario - West Midlands - Coventry & Warwickshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - West Midlands - Coventry & Warwickshire,West Midlands - Coventry & Warwickshire manual_select applied additively: 9 row(s) prioritised; 28 selected.
-credible total - West Midlands - Coventry & Warwickshire,28
+selection message - West Midlands - Coventry & Warwickshire,West Midlands - Coventry & Warwickshire manual_select applied additively: 10 row(s) prioritised; 29 selected.
+credible total - West Midlands - Coventry & Warwickshire,29
 high confidence count - West Midlands - Coventry & Warwickshire,17
 anchor elastic count - West Midlands - Coventry & Warwickshire,0
 other elastic count - West Midlands - Coventry & Warwickshire,2
-total rows output - West Midlands - Coventry & Warwickshire,28
-job_id included - West Midlands - Coventry & Warwickshire,23643_225441991; 23643_225451278; 23643_225467522; c288290a-ae92-46d1-ab82-b244cc5be2b5; f2b1b885-1e89-40a2-9927-0632554cbc43; 2b0f08ad-fe9d-4637-8766-17a7c353b0cd; 3b87e4c5-8d1e-4007-869f-caf58a2f5d37; 00f1e237-afc8-489f-9ca4-42b6e740606a; ed64b0d2-c820-4078-987d-5988e6824c4a; 23643_225429653; 23643_225431697; 23643_225431898; 23643_225433641; 23643_225437355; 23643_225436912; 23643_225454507; 23643_225460316; 23643_225485953; 23643_225505608; ce4a1f38-7838-4814-b760-45db6acfea73; a5342311-988b-4d58-8648-2dec6ab655fc; 23643_225516949; ad75989e-18ff-4ce7-8011-5c311dcf878f; 337293d6-0b83-4e3a-a2cb-3b48b534647b; 107860526; 266c72a7-06f0-4e64-b4f8-1b5ddd206da4; 23643_225430942; 23643_225473970
+total rows output - West Midlands - Coventry & Warwickshire,29
+job_id included - West Midlands - Coventry & Warwickshire,23643_225441991; 23643_225451278; 23643_225467522; c288290a-ae92-46d1-ab82-b244cc5be2b5; f2b1b885-1e89-40a2-9927-0632554cbc43; 2b0f08ad-fe9d-4637-8766-17a7c353b0cd; 3b87e4c5-8d1e-4007-869f-caf58a2f5d37; 00f1e237-afc8-489f-9ca4-42b6e740606a; ed64b0d2-c820-4078-987d-5988e6824c4a; 4aeb6dcb-44ea-4503-b1f4-0ba011dd9846; 23643_225429653; 23643_225431697; 23643_225431898; 23643_225433641; 23643_225437355; 23643_225436912; 23643_225454507; 23643_225460316; 23643_225485953; 23643_225505608; ce4a1f38-7838-4814-b760-45db6acfea73; a5342311-988b-4d58-8648-2dec6ab655fc; 23643_225516949; ad75989e-18ff-4ce7-8011-5c311dcf878f; 337293d6-0b83-4e3a-a2cb-3b48b534647b; 107860526; 266c72a7-06f0-4e64-b4f8-1b5ddd206da4; 23643_225430942; 23643_225473970
 selection scenario - Berkshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Berkshire,Berkshire manual_select applied additively: 10 row(s) prioritised; 34 selected.
 credible total - Berkshire,34
