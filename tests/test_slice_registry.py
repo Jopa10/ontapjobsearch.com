@@ -93,6 +93,29 @@ class SliceRegistryTests(unittest.TestCase):
         )
         self.assertNotIn(("Kent", "marketing"), live_slices())
 
+    def test_hr_recruitment_live_set_is_exactly_the_six_owner_approved_regions(self):
+        hr_regions = {
+            region for region, category in live_slices() if category == "hr_recruitment"
+        }
+        self.assertEqual(
+            hr_regions,
+            {
+                "London",
+                "Yorkshire - West",
+                "Berkshire",
+                "Greater Manchester - Manchester & Salford",
+                "Nottinghamshire",
+                "West Midlands - Birmingham & Solihull",
+            },
+        )
+        reserves = {"Sussex", "Bristol & Bath", "Essex"}
+        self.assertTrue(
+            {(region, "hr_recruitment") for region in reserves}.issubset(candidate_slices())
+        )
+        self.assertTrue(
+            {(region, "hr_recruitment") for region in reserves}.isdisjoint(live_slices())
+        )
+
     def test_close_and_deferred_slices_are_candidates_not_live(self):
         candidates = candidate_slices()
         expected = {
