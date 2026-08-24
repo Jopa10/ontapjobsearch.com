@@ -262,6 +262,57 @@ def test_resolved_selection_carries_from_csv_without_editable_block(
     assert current_rows[0]["manual_action"] == "select"
     assert current_rows[0]["final_decision"] == "SELECTED"
 
+
+def test_resolved_selection_carries_when_old_markdown_still_has_block(
+    tmp_path: Path,
+) -> None:
+    old_dir = tmp_path / "old"
+    old_dir.mkdir()
+    old_record = make_record(
+        "remembered",
+        classification="POSS",
+        title="Admin Assistant",
+    )
+    write_region(old_dir, [old_record])
+    unresolved_rows = master.build_master_rows(old_dir)
+    stale_markdown = master.master_summary_text(unresolved_rows)
+
+    old_record.manual_action = "select"
+    write_region(old_dir, [old_record])
+    resolved_rows = master.build_master_rows(old_dir)
+    old_csv = tmp_path / "old-master.csv"
+    old_md = tmp_path / "old-master.md"
+    old_csv.write_bytes(master.master_csv_bytes(resolved_rows))
+    old_md.write_text(stale_markdown, encoding="utf-8")
+
+    current_dir = tmp_path / "current"
+    current_dir.mkdir()
+    write_region(
+        current_dir,
+        [
+            make_record(
+                "remembered",
+                classification="POSS",
+                title="Admin Assistant",
+            )
+        ],
+    )
+    current_rows = master.build_master_rows(current_dir)
+
+    carried = actions.carry_existing_actions(
+        current_rows,
+        old_master_csv=old_csv,
+        old_master_summary=old_md,
+    )
+
+    assert carried == 1
+    assert current_rows[0]["manual_action"] == "select"
+    assert current_rows[0]["final_decision"] == "SELECTED"
+
+    with pytest.raises(ValueError, match="non-reviewable or unknown ID"):
+        actions.parse_master_actions(resolved_rows, old_md)
+
+
 def test_master_carry_does_not_reselect_possible_jobg8_duplicate(
     tmp_path: Path,
 ) -> None:
@@ -302,4 +353,3 @@ def test_master_carry_does_not_reselect_possible_jobg8_duplicate(
     assert carried == 0
     assert current_rows[0]["manual_action"] == ""
     assert current_rows[0]["final_decision"] == "POSS"
-

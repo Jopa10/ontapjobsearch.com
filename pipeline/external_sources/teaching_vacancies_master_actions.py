@@ -63,6 +63,8 @@ def _expected_facts(row: dict[str, str]) -> dict[str, str]:
 def parse_master_actions(
     rows: list[dict[str, str]],
     summary_path: Path,
+    *,
+    allow_nonreviewable_blocks: bool = False,
 ) -> dict[str, str]:
     if not summary_path.is_file():
         raise ValueError(f"England-wide Teaching Vacancies Markdown not found: {summary_path}")
@@ -85,6 +87,8 @@ def parse_master_actions(
             )
         row = reviewable.get(source_job_id)
         if row is None:
+            if allow_nonreviewable_blocks:
+                continue
             raise ValueError(
                 f"England-wide Markdown contains a non-reviewable or unknown ID: {source_job_id}"
             )
@@ -158,7 +162,19 @@ def carry_existing_actions(
         for row in old_rows
         if clean(row.get("manual_action")).casefold() in {"select", "exclude"}
     }
-    old_actions.update(parse_master_actions(old_rows, old_master_summary))
+    # A previously generated Markdown queue can still contain a block whose
+    # action has already been persisted into the master CSV. Such a block is no
+    # longer reviewable and must not prevent a fresh source review from being
+    # generated. The normal owner apply path remains strict; this tolerance is
+    # limited to cross-run carry-forward, where non-reviewable/vanished rows
+    # cannot be copied into the current review in any event.
+    old_actions.update(
+        parse_master_actions(
+            old_rows,
+            old_master_summary,
+            allow_nonreviewable_blocks=True,
+        )
+    )
     old_by_id = {clean(row["source_job_id"]): row for row in old_rows}
     current_by_id = {clean(row["source_job_id"]): row for row in current_rows}
     carried = 0

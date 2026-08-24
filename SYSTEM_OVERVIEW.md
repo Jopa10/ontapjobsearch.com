@@ -1,12 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 23 August 2026  
+**Last updated:** 24 August 2026  
 **Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales production launch, 78-market UK geography governance, three-family regional diagnostics/history and Teaching Vacancies review-queue refinement.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 24 August 2026 — Teaching Vacancies refresh no longer fails because an older edit-file block has already been resolved in the authoritative CSV or has left the current review. Those obsolete blocks are ignored only while carrying decisions into a new daily review; normal owner-edit validation remains strict.
 - 23 August 2026 — **London sector-view trial:** the London-wide Admin & Customer Service page now lets users switch among all jobs, business/agency jobs, and clearly identified public-service/charity jobs. Every job remains server-rendered at the existing URL; the client controls only the visible view. Known NHS Jobs and Teaching Vacancies sources are grouped directly, clearly charitable/public JobG8 roles can be grouped conservatively, and ambiguity defaults to business/agency. Badges, matched switch guidance after five visible jobs and a new `/sector-switching` explainer support interpretation without changing job-detail URLs or the underlying source mix.
 - 23 August 2026 — **Legal Assistant / Paralegal boundary is now materially cleaner:** standalone conveyancing fee-earners and Team Leader management roles are OUT; genuine paralegals remain eligible even when they manage files/caseloads, while mixed `Paralegal/Fee Earner` adverts stay under review. Current same-feed evidence remains comfortably viable at about 227 genuine jobs nationally, including 120 paralegal-titled roles.
 - 23 August 2026 — New-family regional evidence no longer treats generic JobG8 **`Area=City`** as proof of London when the advert has a specific named location elsewhere; the specific location is used where safely mapped, otherwise the row stays unresolved.
