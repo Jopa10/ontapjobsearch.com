@@ -121,6 +121,7 @@ jobs:
               handle.write(f"admin_service={'true' if 'admin_service' in categories else 'false'}\n")
               handle.write(f"support_worker={'true' if 'support_worker' in categories else 'false'}\n")
               handle.write(f"customer_sales={'true' if 'customer_sales' in categories else 'false'}\n")
+              handle.write(f"marketing={'true' if 'marketing' in categories else 'false'}\n")
           PY
 
       - name: Resolve current JobG8 month
@@ -186,6 +187,35 @@ jobs:
               data = json.loads(path.read_text(encoding="utf-8"))
               if not isinstance(data, list):
                   raise SystemExit(f"Customer Sales output is not an array: {path}")
+              print(f"Verified {region}: {len(data)} jobs -> {path}")
+          PY
+
+      - name: Verify Marketing outputs
+        if: steps.slice-register.outputs.marketing == 'true'
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          scripts = Path("pipeline/scripts").resolve()
+          sys.path.insert(0, str(scripts))
+          from slice_catalog import output_source_path
+          from slice_registry import live_slices
+
+          slices = sorted((region, category) for region, category in live_slices() if category == "marketing")
+          if not slices:
+              raise SystemExit("Marketing flag was true but no LIVE Marketing slices were found")
+          for region, category in slices:
+              path = output_source_path(region, category)
+              if not path.is_file():
+                  raise SystemExit(f"Missing LIVE Marketing output: {path}")
+              data = json.loads(path.read_text(encoding="utf-8"))
+              if not isinstance(data, list):
+                  raise SystemExit(f"Marketing output is not an array: {path}")
+              if not data:
+                  raise SystemExit(f"LIVE Marketing output is empty: {path}")
               print(f"Verified {region}: {len(data)} jobs -> {path}")
           PY
 

@@ -11,6 +11,9 @@ on:
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
       - 'pipeline/scripts/customer_sales_pipeline.py'
+      - 'pipeline/scripts/customer_sales_production_refine.py'
+      - 'pipeline/scripts/marketing_pipeline.py'
+      - 'pipeline/config/family_discovery/marketing.json'
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
       - 'pipeline/scripts/publish_verified_pages.py'
@@ -44,6 +47,7 @@ on:
       - 'app/north-east/service-administrator-jobs/page.tsx'
       - 'app/north-yorkshire/**'
       - 'app/browse-jobs/page.tsx'
+      - 'app/page.tsx'
       - 'app/sitemap.ts'
       - 'lib/configured-job-slices.ts'
       - 'lib/city-page-data.ts'
@@ -56,6 +60,7 @@ on:
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
       - 'tests/test_customer_sales_pipeline.py'
+      - 'tests/test_marketing_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
       - 'tests/test_newcastle_city_launch.py'
@@ -73,6 +78,9 @@ on:
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
       - 'pipeline/scripts/customer_sales_pipeline.py'
+      - 'pipeline/scripts/customer_sales_production_refine.py'
+      - 'pipeline/scripts/marketing_pipeline.py'
+      - 'pipeline/config/family_discovery/marketing.json'
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
       - 'pipeline/scripts/publish_verified_pages.py'
@@ -106,6 +114,7 @@ on:
       - 'app/north-east/service-administrator-jobs/page.tsx'
       - 'app/north-yorkshire/**'
       - 'app/browse-jobs/page.tsx'
+      - 'app/page.tsx'
       - 'app/sitemap.ts'
       - 'lib/configured-job-slices.ts'
       - 'lib/city-page-data.ts'
@@ -118,6 +127,7 @@ on:
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
       - 'tests/test_customer_sales_pipeline.py'
+      - 'tests/test_marketing_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
       - 'tests/test_sussex_admin_launch.py'
       - 'tests/test_newcastle_city_launch.py'
@@ -142,6 +152,8 @@ jobs:
             pipeline/scripts/slice_registry.py \
             pipeline/scripts/registered_category_pipeline.py \
             pipeline/scripts/customer_sales_pipeline.py \
+            pipeline/scripts/customer_sales_production_refine.py \
+            pipeline/scripts/marketing_pipeline.py \
             pipeline/scripts/assess_daily_family_coverage.py \
             pipeline/scripts/daily_family_coverage_history.py \
             pipeline/scripts/publish_verified_pages.py \
@@ -159,11 +171,12 @@ jobs:
             pipeline/scripts/scan_city_opportunities.py \
             pipeline/scripts/update_city_opportunity_history.py \
             pipeline/scripts/maintain_active_city_pages.py \
-            pipeline/scripts/jobg8_family_discovery.py
+            pipeline/scripts/jobg8_family_discovery.py \
             pipeline/scripts/jobg8_family_boundary_review.py
           python -m unittest \
             tests.test_slice_registry \
             tests.test_customer_sales_pipeline \
+            tests.test_marketing_pipeline \
             tests.test_publish_verified_pages \
             tests.test_sussex_admin_launch \
             tests.test_newcastle_city_launch \
