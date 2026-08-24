@@ -6,7 +6,11 @@ PIPELINE_DIR = Path(__file__).resolve().parents[1] / "pipeline"
 if str(PIPELINE_DIR) not in sys.path:
     sys.path.insert(0, str(PIPELINE_DIR))
 
-from scripts.hr_recruitment_pipeline import classify, is_near_duplicate
+from scripts.hr_recruitment_pipeline import (
+    _approved_proof_market_exception,
+    classify,
+    is_near_duplicate,
+)
 
 
 class HrRecruitmentPipelineTests(unittest.TestCase):
@@ -120,6 +124,28 @@ class HrRecruitmentPipelineTests(unittest.TestCase):
         )
         self.assertFalse(
             is_near_duplicate("People Systems Administrator", "Nottinghamshire", "Nottingham", opening + "Short copy", seen)
+        )
+
+    def test_owner_approved_ashton_tameside_proof_exception_is_narrow(self):
+        conflict = (
+            "advert opening location 'tameside' maps to Greater Manchester - South, "
+            "not Greater Manchester - Manchester & Salford"
+        )
+        description = "Administrator (HR & Compliance) - Ashton Under Lyne (Tameside)."
+        self.assertTrue(
+            _approved_proof_market_exception(
+                "Greater Manchester - Manchester & Salford", description, conflict
+            )
+        )
+        self.assertFalse(
+            _approved_proof_market_exception("London", description, conflict)
+        )
+        self.assertFalse(
+            _approved_proof_market_exception(
+                "Greater Manchester - Manchester & Salford",
+                "HR Administrator based in Stockport.",
+                conflict,
+            )
         )
 
 

@@ -126,6 +126,22 @@ def _based_in_conflict(description: str, region: str, lookup: list[tuple[str, st
     return None
 
 
+def _approved_proof_market_exception(region: str, description: str, conflict: str | None) -> bool:
+    """Preserve the explicitly reviewed Ashton-under-Lyne/Tameside proof advert.
+
+    The proof-page review accepted this Manchester-coded source row after
+    advert-level inspection. Keep the exception narrow to that named locality
+    and the specific Greater Manchester detail conflict; other cross-market
+    contradictions remain hard withholds.
+    """
+    if not conflict or canonical_region(region) != "Greater Manchester - Manchester & Salford":
+        return False
+    if "Greater Manchester - South" not in conflict:
+        return False
+    opening = re.sub(r"\s+", " ", description.casefold())[:700]
+    return bool(re.search(r"\b(?:ashton[- ]under[- ]lyne|tameside)\b", opening))
+
+
 def _near_duplicate_text(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", re.sub(r"<[^>]+>", " ", value.casefold()))
 
@@ -291,6 +307,12 @@ def main() -> int:
 
         conflict = location_conflict(title, raw_description, region, location_lookup)
         conflict = conflict or _based_in_conflict(raw_description, region, location_lookup)
+        if _approved_proof_market_exception(region, raw_description, conflict):
+            print(
+                f"HR / Recruitment LOCATION ACCEPT {norm(row.get(DISPLAY_REF_COL, ''))} | "
+                f"{title} | owner-approved Ashton-under-Lyne/Tameside proof exception"
+            )
+            conflict = None
         if conflict:
             print(f"HR / Recruitment WITHHOLD {norm(row.get(DISPLAY_REF_COL, ''))} | {title} | {conflict}")
             continue
