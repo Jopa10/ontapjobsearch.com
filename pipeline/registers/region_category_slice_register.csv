@@ -55,7 +55,7 @@ Essex,customer_service_contact_centre,CANDIDATE
 Kent,hr_recruitment,CANDIDATE
 Sussex,customer_service_contact_centre,CANDIDATE
 West Midlands - Birmingham & Solihull,admin_service,LIVE
-Yorkshire - West,hr_recruitment,CANDIDATE
+Yorkshire - West,hr_recruitment,LIVE
 Greater Manchester - South,admin_service,LIVE
 Hampshire,finance_accounts,CANDIDATE
 North East,finance_accounts,CANDIDATE
@@ -86,3 +86,10 @@ London,marketing,LIVE
 Surrey,marketing,LIVE
 Greater Manchester - Manchester & Salford,marketing,LIVE
 West Midlands - Birmingham & Solihull,marketing,LIVE
+Berkshire,hr_recruitment,LIVE
+Greater Manchester - Manchester & Salford,hr_recruitment,LIVE
+Nottinghamshire,hr_recruitment,LIVE
+West Midlands - Birmingham & Solihull,hr_recruitment,LIVE
+Sussex,hr_recruitment,CANDIDATE
+Bristol & Bath,hr_recruitment,CANDIDATE
+Essex,hr_recruitment,CANDIDATE
