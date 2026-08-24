@@ -251,7 +251,7 @@ export default function JobSlicePage({
   relatedPage,
   browseLinks,
   sectorFilterEnabled = false,
-  compactPageSpacing = false,
+  compactPageSpacing = true,
   softPageBackground = false,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
