@@ -54,4 +54,6 @@ The six recommended markets retain useful, varied pages after all withholds: HR 
 
 ## Activation status
 
-**No HR / Recruitment market is LIVE or approved by this report.** LIVE activation requires the owner's explicit approval. If approved, the production implementation must freeze these advert-level exclusions, apply content dedupe and cross-market location safeguards daily, and activate only the specifically approved region/category pairs.
+After this review, the owner explicitly approved the six recommended markets: **London, Yorkshire - West, Berkshire, Greater Manchester - Manchester & Salford, Nottinghamshire and West Midlands - Birmingham & Solihull**. Those six region/category pairs are LIVE. The production selector freezes the advert-level exclusions above and applies content dedupe plus cross-market location safeguards daily.
+
+**Sussex, Bristol & Bath and Essex remain CANDIDATE reserves and are not LIVE.** No other HR / Recruitment market was activated.
