@@ -984,6 +984,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107825959",
+    "title": "Customer Service Advisor",
+    "company": "JDR - Just Dynamic Recruitment - Agency - Temporary",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.8",
+    "salary_max": "12.8",
+    "salary_text": "£12.8 per hour (+ Bonus opportunities)",
+    "posted_date": "",
+    "description": "Customer Service Advisor\n\n£12.80 per hour + bonus opportunities\n\nRingwood\n\nWe are currently recruiting for a Customer Service Advisor role on behalf of a global outsourcing client in Ringwood. You'll be for a well known brand acting as the first point of contact for a range of customer queries click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyXw35JwKMRv5ZvurAg4zK5t",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "JDR - Just Dynamic Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1595701",
     "title": "Young Carers Support Coordinator",
     "company": "Get Staffed Online Recruitment - Agency - Permanent",
@@ -1409,6 +1434,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5558135",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Southampton, SO14 3DT",
+    "region": "Hampshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-24T14:27:22.916725956",
+    "closing_date": "2026-09-06",
+    "description": "Make a Difference Every Day Are you an organised, proactive administrator looking for a rewarding role where your work truly matters? We are recruiting for a 30hr - 37.5hr per week Administrator to join our friendly and supportive Central Community Mental Health Team (CMHT) based at College Keep. Our service provides specialist secondary mental health care for adults aged 18-65 living with severe and enduring mental health conditions. As a key member of our established administration team, you will play a vital role in supporting clinicians, consultants, service users and carers, helping to ensure the smooth running of a busy and compassionate service. At Central CMHT, we are committed to creating an inclusive, supportive workplace where staff wellbeing is a priority. You'll be joining a welcoming team environment that values collaboration, development and continuous learning. This is an opportunity to build a rewarding career while making a genuine difference to the lives of people accessing mental health services. If you thrive in a fast-paced environment, enjoy helping people, and can remain calm and organised when managing competing priorities, we'd love to hear from you. What You'll Be Doing: As the first point of contact for many of our service users, you'll provide a professional, welcoming and supportive service while delivering essential administrative support to the wider clinical team. Key responsibilities include: Acting as the first point of contact for service users, carers and professionals Managing high volumes of telephone calls and enquiries Monitoring and responding to incoming emails Carrying out reception duties when required Processing referrals accurately and efficiently Booking and amending appointments Preparing and typing clinical correspondence Preparing agendas and taking meeting minutes Maintaining accurate records on our electronic patient record system (RIO) Providing administrative support to clinicians and the wider multidisciplinary team We're looking for someone who is: Enthusiastic, motivated and highly organised Able to work effectively in a busy environment with changing priorities A strong team player with a positive, can-do attitude Professional, compassionate and able to communicate confidently with a wide range of people Comfortable handling sensitive and confidential information Detail-focused with excellent administration skills Confident using Microsoft Office applications, including Word, Excel and Outlook - training will be provided for our electronic patient record system, RIO. Able to maintain accurate records and demonstrate good literacy and numeracy skills Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1828",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1828",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5549069",
     "source": "NHS Jobs",
     "title": "Subject Access Request Clerical Administrator",
@@ -1424,7 +1471,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0441",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0441",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534493",
@@ -1442,7 +1493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9188-26-0028",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9188-26-0028",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544429",
@@ -1460,7 +1515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0451",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0451",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544487",
@@ -1478,7 +1537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1724",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1724",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534148",
@@ -1496,7 +1559,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3321",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3321",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5531413",
@@ -1514,7 +1581,55 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3690-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3690-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5557418",
+    "source": "NHS Jobs",
+    "title": "Business Support Administrator",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Southampton, SO16 4XE",
+    "region": "Hampshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-24T14:34:45.148221371",
+    "closing_date": "2026-09-06",
+    "description": "Are you an organised, adaptable, and proactive individual who enjoys variety in your work. We are looking for a Flexible Business Support Administrator to join our Physical Health Service, providing essential support across multiple teams. No two days are the same in this role. While you will provide reception cover when required, your primary focus will be supporting three different teams across the service, stepping in where demand is greatest and ensuring our patients and staff continue to receive an excellent service. This is a unique opportunity to develop a broad understanding of physical health services, build relationships with a wide range of professionals. The role is ideal for someone who thrives in a fast paced environment, enjoys learning new skills, and takes pride in making a real difference. Key Responsibilities Provide a welcoming and professional reception service when required. Offer administrative support across multiple physical health teams. Adapt quickly to changing priorities and service needs. Manage appointments, referrals, correspondence, and patient records. Support teams during periods of annual leave, sickness absence, and increased demand. Build effective working relationships with colleagues across the service. Help ensure smooth day-to-day operations and excellent patient experience. This role is for 34 hours per week. For further information about the post or for an informal discussion please call Jane Brown, Business Support Manager on 0300 123 6661. To support the Reception, Therapies, Community Paediatric Medical and Community Nursing Service. To work as part of a skill mix team to provide comprehensive administrative support to the service To effectively prioritise and manage own workload and oversee workload of team as necessary, whilst maintaining confidentiality and diplomacy at all times, as you will be working with extremely confidential and sometimes distressing information To work flexibly and be willing to cover any administration tasks across the wider Business Support teams Produce letters and/or emails using standard Trust templates, ensuring accurate filing, recording and distribution To work without direct supervision and show extensive use of initiative in prioritising and making decisions in relation to effectively supporting the smooth operation of the service To carry out other duties as necessary to meet the changing needs of Solent NHS Trust, in accordance with management requirements and appropriate to banding All duties will be carried out within the Trusts Information Governance, recording, and data sharing procedures and guidance Occasional home working at weekends will be required. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1804",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1804",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5556972",
+    "source": "NHS Jobs",
+    "title": "Locality Administrator",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Southampton, SO14 0JY",
+    "region": "Hampshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-24T10:46:20.774244283",
+    "closing_date": "2026-08-30",
+    "description": "Open only to applicants from Hampshire & Isle of Wight NHS system, which is limited to; Hampshire IOW Healthcare NHS Trust, Hampshire and Isle of Wight ICB, Portsmouth Hospitals University NHS Trust, Isle of Wight NHS Trust, University Hospital Southampton Foundation Trust, South Central Ambulance Service or Hampshire Hospitals Foundation Trust. An exciting opportunity has arisen for an enthusiastic, committed and well-motivated Locality Administrator to join the Community Nursing and CIS Team based at Thomas Lewis House in Southampton. The Locality Administrator role is a pivotal part of the Service, supporting both the administrative and clinical teams across Southampton City. You will need to possess strong prioritising and excellent organisational skills together with the ability to remain calm in a busy and dynamic environment. The work is varied, challenging and fast paced which requires a flexible approach. We are looking for someone that has experience in working in a team. You need to be able to demonstrate strong communication skills, be organised and possess good IT skills, including competence with Microsoft Office. Experience of System One is desirable although all training will be provided. The successful applicant must be flexible, should possess excellent time management skills, be self-motivated and have a positive attitude with a customer focused approach. The role is full time based on 37.5 hours per week, Monday to Friday. Our core hours are 08:30 to 16:30. To provide comprehensive administrative support to the service. To work as part of a skill mix team to provide a comprehensive administrative support service. To effectively prioritise and manage own workload and oversee workload of team as necessary, whilst maintaining confidentiality and diplomacy at all times, both independently and as part of a team. To work without direct supervision and show extensive use of initiative in prioritising and making decisions in relation to effectively supporting the smooth operation of the service. To carry out other duties as necessary to meet the changing needs of HIOW Healthcare NHS Trust, accordance with management requirements and appropriate to banding. All duties will be carried out within the Trusts Information Governance, recording, and data sharing procedures and guidance. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1797",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1797",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5553368",
@@ -1532,7 +1647,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1773",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1773",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5545728",
@@ -1550,7 +1669,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1737",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1737",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544734",
@@ -1568,25 +1691,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1999-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1999-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5541835",
-    "source": "NHS Jobs",
-    "title": "Locality Administrator",
-    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "location": "Southampton, SO14 0JY",
-    "region": "Hampshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T07:39:28.791620983",
-    "closing_date": "2026-08-30",
-    "description": "Open only to applicants from Hampshire & Isle of Wight NHS system, which is limited to; Hampshire IOW Healthcare NHS Trust, Hampshire and Isle of Wight ICB, Portsmouth Hospitals University NHS Trust, Isle of Wight NHS Trust, University Hospital Southampton Foundation Trust, South Central Ambulance Service or Hampshire Hospitals Foundation Trust. An exciting opportunity has arisen for an enthusiastic, committed and well-motivated Locality Administrator to join the Community Nursing and CIS Team based at Royal South Hants Hospital in Southampton. The Locality Administrator role is a pivotal part of the Service, supporting both the administrative and clinical teams across Southampton City. You will need to possess strong prioritising and excellent organisational skills together with the ability to remain calm in a busy and dynamic environment. The work is varied, challenging and fast paced which requires a flexible approach. We are looking for someone that has experience in working in a team. You need to be able to demonstrate strong communication skills, be organised and possess good IT skills, including competence with Microsoft Office. Experience of System One is desirable although all training will be provided. The successful applicant must be flexible, should possess excellent time management skills, be self-motivated and have a positive attitude with a customer focused approach. The role is full time based on 37.5 hours per week, Monday to Friday. Our core hours are 08:30 to 16:30. To provide comprehensive administrative support to the service. To work as part of a skill mix team to provide a comprehensive administrative support service. To effectively prioritise and manage own workload and oversee workload of team as necessary, whilst maintaining confidentiality and diplomacy at all times, both independently and as part of a team. To work without direct supervision and show extensive use of initiative in prioritising and making decisions in relation to effectively supporting the smooth operation of the service. To carry out other duties as necessary to meet the changing needs of HIOW Healthcare NHS Trust, accordance with management requirements and appropriate to banding. All duties will be carried out within the Trusts Information Governance, recording, and data sharing procedures and guidance. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1712",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1712",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530658",
@@ -1604,7 +1713,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0043",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9104-26-0043",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5522934",
@@ -1622,42 +1735,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5522929",
-    "source": "NHS Jobs",
-    "title": "Care Home Administrator",
-    "company": "Barchester Healthcare",
-    "advertiser_name": "Barchester Healthcare",
-    "location": "Fareham, PO14 2NF",
-    "region": "Hampshire",
-    "salary": "£34000.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-06T15:58:17.477403712",
-    "closing_date": "2026-10-05",
-    "description": "Barchester Healthcare are looking for an experienced and dedicated Administrator to join our team and play a pivotal role within the home's management team. Providing the General Manager with the support needed to ensure the efficient running of a high quality home, this varied position encompasses managing Customer Experience elements alongside, HR, Recruitment, Payroll, Finance and the supervision of junior members of the administration team. You'll need to be a self-sufficient and professional individual who is enthusiastic and promotes a positive image when communicating with others and talking about the home, creating a positive impression. Along with strong IT skills and excellent organisation, our Administrators will need to be comfortable in giving others direction. RESPONSIBILITIES Promote a warm and welcoming environment for residents, staff and visitors Manage enquiries and showrounds of the home for prospective families, including managing the customer database appropriately to support the commercial performance and conversion of enquiries for the home Drive the occupancy and reputation of the Care Home as part of a community engagement team Support residen Barchester Healthcare is seeking a skilled Administrator to be an integral part of the home's management team. This role involves supporting the General Manager to ensure smooth home operations, incorporating tasks in Customer Experience, HR, Recruitment, Payroll, Finance, and overseeing junior admin staff. The ideal candidate will be self-reliant, professional, and capable of fostering a positive image in communications about the home. Strong IT skills, organisational abilities, and confidence in directing others are essential. Responsibilities include creating a welcoming environment, managing enquiries and showrounds, enhancing home occupancy and reputation, assisting with staff recruitment, preparing payroll, and supporting employee queries with HR resources. Additionally, the role includes managing resident feedback and finances, attending meetings, completing rotas, and maintaining secure personal files. Experience in customer-facing roles and HR administration is required, and a CIPD qualification is advantageous. Barchester Healthcare are looking for an experienced and dedicated Administrator to join our team and play a pivotal role within the home's management team. Providing the General Manager with the support needed to ensure the efficient running of a high quality home, this varied position encompasses managing Customer Experience elements alongside, HR, Recruitment, Payroll, Finance and the supervision of junior members of the administration team. You'll need to be a self-sufficient and professional individual who is enthusiastic and promotes a positive image when communicating with others and talking about the home, creating a positive impression. Along with strong IT skills and excellent organisation, our Administrators will need to be comfortable in giving others direction. RESPONSIBILITIES Promote a warm and welcoming environment for residents, staff and visitors Manage enquiries and showrounds of the home for prospective families, including managing the customer database appropriately to support the commercial performance and conversion of enquiries for the home Drive the occupancy and reputation of the Care Home as part of a community engagement team Support resident and family feedback with a focus on customer care Assist with the recruitment of home staff, completing employment new starter checks and arranging inductions Payroll preparation for home based staff Provide advice and guidance to employees on queries using the HR tools and resources available Ensure that all personal files are stored securely Attend meetings and produce accurate notes and minutes where required Ensure all rotas are complete Manage safe contents, petty cash, and resident fund accounts Update ad-hoc training, supervisions, and appraisals on staff records Offer guidance on staff development opportunities including signposting to Apprenticeships and qualifications NEED TO HAVE Experience in a customer facing role Previous involvement in HR administration and recruitment High level of attention to detail and the ability to prioritise Proficient user of Microsoft- specifically Word, Excel and Outlook CIPD qualification would be beneficial REWARDS AND BENEFITS Rewarding Excellence bonus, meaning you will be financially rewarded by up to £500* for a Good or Outstanding CQC inspection Unlimited access to our generous refer a friend scheme, earning up to £500* per referral Access to a wide range of retail and leisure discounts at big brands and supermarkets Free access to medical specialists, who are available for a second opinion if you need it to make a decision with confidence Confidential and free access to counselling and legal services Tax code review service, where we will check that you are on the right code and paying the right level of tax Option to join our monthly staff lottery alongside thousands of colleagues across the UK As the only healthcare provider to be accredited as one of the best companies to work for in the UK, Barchester are dedicated to ensuring that our team are respected and their contribution valued. If you are looking to develop your administrative career with an employer that is supportive and offers progression opportunities, Barchester is an empowering and rewarding place to be.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8608",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8608",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5522984",
-    "source": "NHS Jobs",
-    "title": "Patient Care Co-ordinator/Receptionist",
-    "company": "Abbeywell Surgery",
-    "advertiser_name": "Abbeywell Surgery",
-    "location": "Romsey, SO51 8EN, Romsey, SO517QN",
-    "region": "Hampshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-06T14:14:36.516795872",
-    "closing_date": "2026-09-18",
-    "description": "Abbeywell Surgery is situated in the market town of Romsey. We are looking for a Patient Care Adviser/ co-ordinator to join our friendly and supportive team. We work across two surgeries in the area. We are looking for someone who enjoys working as part of a dedicated team: with the added satisfaction of working for a GP practice Committed to the care and wellbeing of others. The key role within our administration team includes greeting patients, dealing with patient queries, booking appointments for all the clinical team, answering telephones, scanning, coding, referrals and supporting our clinical team, Full time and Part time hours available between 0800-1830 - days to be confirmed Ensure an effective and efficient reception service is provided to patients and other visitors to the Practice. Deal with all general enquiries, explain procedures and make new and follow-up appointments. Using your own judgement and communication skills, ensure that patients with no prior appointment but who need an urgent consultation are seen in a logical and non-disruptive manner. Explain Practice arrangements and formal NHS requirements to new patients and those seeking temporary/emergency cover and ensure procedures and paperwork are completed. Receive and make telephone calls as required. Divert calls and take messages, ensuring accuracy of detail and prompt delivery to the most appropriate person. When necessary, enter requests for home visits to the computer, ensuring careful recording of all relevant details and where necessary, refer to the Duty Doctor. Refer repeat prescription requests on to the prescription clerks. When necessary, file completed prescriptions accurately, hand to patients ensuring correct. Advise patients of relevant charges for private (non General Medical Services) services, accept payment, and issue receipts/invoices for same when necessary. Enter patient information on to the computer as required. Maintain a thorough knowledge of all Practice procedures. Email and photocopy as required. Open post and distribute as required. Scan and code documents as appropriate, ensuring complete accuracy, when required Be able to cover all reception positions. Maintain a working knowledge of unfamiliar tasks. Ensure all administrative tasks are completed accurately and thoroughly change of address forms, requests for medical information, certificate requests etc. Accurately add the necessary coding to the computer. Have a working knowledge of the telephone system, during and after hours. Have a knowledge of opening up premises at the start of the day when first to arrive, deactivate alarms and make all necessary preparations to receive patients. When last to leave at the end of the day, ensure that the building is totally secured, internal lights are off and the alarm activated. Clear rooms, communal areas and ensure the kitchen and waiting room is kept clean and tidy. Undertake any other additional duties appropriate to the post, as requested by the Partners or the Practice Manager. Ensure a good working knowledge of use of the computer, coding, information gathering and data input. Maintain and develop this knowledge and ask for help if required. Provide cover to ensure the smooth running of the Practice and to support the rest of the team",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0002",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

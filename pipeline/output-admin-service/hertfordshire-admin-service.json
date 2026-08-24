@@ -550,6 +550,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "db17a2eb-3509-4899-84ba-30bcc7ca0c81",
+    "title": "Projects and Order Processing Administrator",
+    "company": "Think Specialist Recruitment - Agency - Temporary",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "28000",
+    "salary_max": "29000",
+    "salary_text": "£28000 - £29000 per year",
+    "posted_date": "",
+    "description": "Are you an organised administrator who enjoys keeping projects, systems and suppliers running smoothly?\n\nWe're recruiting for a Projects and Order Processing Administrator to join a global business in Watford. This is a varied role supporting sites across the UK and Europe, coordinating project orders, maintaining accurate systems and working closely with vendors, contractors and internal teams.\n\nThis is a long-term temporary opportunity as a maternity cover, starting in September so that you are able to have an in-depth handover before the current administrator begins her maternity leave.\n\nHourly rate equivalent of £28,800pa.\n\nMonday - Friday, fully office-based.\n\nDuties to include:\n- Raising and logging equipment and project orders for new and existing warehouse sites, ensuring everything is delivered on time.\n- Supporting warehouse teams with project work, equipment queries and general advice.\n- Managing and maintaining spreadsheets and tracker records, ensuring vendor, equipment and pricing information is accurate and up to date across the regions.\n- Producing spreadsheets, management information and general reports.\n- Updating and issuing company manuals, including equipment specifications and signage information.\n- Coordinating diaries and meetings with external consultants and contractors.\n- Carrying out vendor due diligence, including checking insurance and legal certifications.\n\nCandidate Requirements:\n- Good working knowledge of all Microsoft packages including MS Excel\n- Strong administration and organisational skills.\n- Excellent attention to detail.\n- The ability to work under pressure and manage competing deadlines.\n- A self-motivated approach, with the confidence to use your own initiative.\n- Strong communication skills and a collaborative, team-focused attitude.\n\nLooking for the next step in your career? Think Specialist Recruitment.\n\nThink Specialist Recruitment is an independent support staff recruitment agency based in Hemel Hempstead and working across the Herts, Beds and Bucks area. We specialise in permanent, temporary and contract recruitment with areas of expertise including: administration, customer service/call centre, PA/secretarial, human resources, accountancy and finance, sales admin/sales support, marketing and IT Helpdesk/IT support",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0Img3NRuTV1SFvPMydHyVDCs",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Think Specialist Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225429500",
     "title": "Project and Sales Support Coordinator",
     "company": "Think Specialist Recruitment - Agency - Permanent",
@@ -665,7 +690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5523647",
@@ -683,7 +712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5520329",
@@ -701,7 +734,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -719,7 +756,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555027",
@@ -737,7 +778,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549480",
@@ -755,6 +800,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0495",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0495",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -175,6 +175,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "ef17074f-7396-458c-b9a3-a550fbd566ca",
+    "title": "Call Handler",
+    "company": "Shropshire Doctors Co-operative Limited - Company - Permanent",
+    "location": "Shropshire",
+    "region": "Shropshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.94",
+    "salary_max": "12.94",
+    "salary_text": "£12.94 per hour",
+    "posted_date": "",
+    "description": "Call Handler\n\nLocation: Shrewsbury\n\nSalary: £12.94 per hour (with a 30% uplift when working between 8pm and 8am on weekdays and for Saturday shifts, 60% uplift on Sundays and Bank Holidays)\n\nVacancy Type: Permanent, Part-time (18 hours per week)\n\nClosing Date: 09/09/2026\n\nAbout us:\n\nShropdoc is a not-for-profit company established in 1996. Our core services include Out of Hours (OOH) GP care, urgent care triage, home visiting, and face-to-face clinical services. We work collaboratively with NHS partners and other health and care organisations to ensure patients receive safe, responsive, and high-quality care when their usual GP practice is closed or when urgent support is needed.\n\nShropdoc's mission is to 'keep the patient at the heart of all that we do'. We aim to achieve excellence in the care we offer to our patients, providing a safe and high-quality service that is easily accessible. We strive to provide quality patient care, a working community with integrity and kindness, and are committed to continually developing our staff. Our vision and values of Community, Quality, Kindness, Integrity, and Development are at the heart of all that we do, enabling us to achieve the best outcomes for patients and for our colleagues.\n\nThe Person:\n\nWe are looking for a highly organised, flexible individual with experience together with the following skills:\n- Call handling or phone-based customer service experience.\n- An excellent telephone manner, with strong communication and interpersonal skills.\n- Good geographical knowledge of the Powys area is desirable.\n- Ability to prioritise, work on your own initiative, and as part of a team.\n- Discretion and integrity with the ability to handle confidential information.\n- Experience of working across multiple computer platforms and using data systems.\n- Good working knowledge of Microsoft Office.\n- Although not essential, as full training will be provided, experience gained in a healthcare setting, call centre or hospitality environment would be advantageous.\n\nThe Role - Call Handler\n\nAs a Call Handler, you will coordinate and facilitate the care of patients being admitted to hospital from Health Care Professionals, GP Practices and our own Clinicians by:\n- Acting as a single point of contact for Clinicians accessing emergency secondary care.\n- Making outbound calls and handling incoming calls from patients, health care professionals and services, fast tracking to the appropriate services.\n- Arranging outpatient appointments and hospital admissions.\n- Working directly with health care professionals and patients over the phone, via email and electronic fax.\n- Accurately entering patient data into our systems.\n- Providing administrative support to colleagues and clinicians.\n\nWhat We Offer:\n- Competitive salary and benefits package: Benefits include access to the NHS Pension Scheme, cycle to work scheme, Generous holiday allowance, sick pay, Employee Assistance health programme (Paycare).\n- A supportive and inclusive work environment: Join a team that values collaboration, innovation, and personal growth.\n- Work-life balance: We understand the importance of work-life balance and will discuss hours with the successful candidate.\n\nTo Apply\n\nIf you feel you are a suitable candidate and would like to work for Shropdoc, please click apply to be redirected to our website to complete your application.\n\nAt Shropdoc, we are committed to creating an inclusive workplace where all individuals, including those with disabilities, are valued and supported. We encourage applications from candidates with disabilities and are dedicated to providing the necessary adjustments to ensure success in the role.\n\nIn line with our Armed Forces Covenant, we guarantee an interview to any applicant who meets all of the essential criteria listed in the person specification.\n\nShropdoc is committed to safeguarding and promoting the welfare of our patients and expects all staff, contractors and volunteers to share this commitment. Candidates will undergo thorough onboarding and safeguarding checks including checks with the Disclosure and Barring Service.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6ewxEqPLwUtXJI7OC4JdSjXh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Shropshire Doctors Co-operative Limited",
+    "advertiser_type": "Company",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225492971",
     "title": "Temporary Sales Administrator Immediate Start",
     "company": "Office Angels - Agency - Temporary",
@@ -315,7 +340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1212",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1212",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554340",
@@ -333,7 +362,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1218",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1218",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554195",
@@ -351,6 +384,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1214",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1214",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -687,31 +687,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "ad75989e-18ff-4ce7-8011-5c311dcf878f",
-    "title": "Temporary Customer Service Administrator",
-    "company": "BRELLIS RECRUITMENT LIMITED - Agency - Temporary",
-    "location": "Warwickshire",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.45",
-    "salary_max": "13.45",
-    "salary_text": "£13.45 per hour",
-    "posted_date": "",
-    "description": "Due to an upturn in business, we have a superb opportunity to join a leading company and work within a friendly, close-knit team. This role will be on a temporary basis until mid-January and will be fully office based, Monday-Friday.\n\nKey responsibilities\n\nProvide Customer service support for all Customers; this includes the following:\n- Answering inbound telephone queries, analysing and resolving problems as efficiently as possible\n- Making outgoing calls to customers and retail partners to troubleshoot issues relating to our equipment and service to maintain uptime\n- Dealing with customer emails relating to enquiries, ensuring responses are professional, grammatically correct and fully address the issues raised.\n- Responding to live chats relating to enquiries, ensuring responses are professional, grammatically correct and fully address the issues raised.\n- Dealing with returns, analysing issues and taking appropriate action in line with company policy and advising customers\n- Ensuring customers are kept informed at every stage and concerns are appropriately addressed and resolved.\n\n2. Provide Administration support to ensure we maintain accurate stock levels:\n- Booking of equipment and material into SAP, ensuring the accurate stock transfer of all unique ids.\n- Liaising with the Field Services Team and Third-party suppliers to ensure they have up to date information regarding their tasks and report on completion rates.\n- Ensuring customers/retail colleagues are kept informed at every stage and concerns are appropriately addressed and resolved.\n- Handle any questions, concerns or complaints from the store and raise with appropriate colleagues if cannot answer.\n- Provide feedback from stores and experiences to the Customer Support Exec to enable proactive service improvements.\n\n3. Support with the set up, maintenance and participation of the company Webinar program, including implementation of the required tools and ongoing schedule to communicate details of our service for our customers.\n\n4. Undertake additional training as required to develop and maintain knowledge expected of the role.\n\n5. Effectively maintain, monitor and report relevant statistics as provided by Management team.\n\n6. Attend team meetings as and when required and provide feedback useful for building the team and maintaining strong relationships.\n\n7. Use internal systems to investigate and record actions, responding to tickets within 2 working days.\n\n8.Undertake allocated admin tasks when briefed in the given time frames.\n\n9. Meet all targets and objectives set for our Sales & Customer Support Agents.\n\n10. Promote our excellent Service Plans to our customers to give them long term cover and solutions.\n\nPerson specification\n\nWe are looking for someone who is self-motivated, capable of working both individually and within a team, organised, and someone who has an excellent eye for detail.\n\nEssential:\n- Outstanding Attention to detail\n- Outstanding communication skills\n- Customer focused problem-solving skills\n- Proven ability to multitask to a high level\n- Previous Customer Service Experience\n- Intermediate knowledge of Microsoft Package/Internet/Email\n- Advanced Excel Knowledge\n- Willingness to learn\n- Ability to diagnose and trouble shoot problems.\n- Ability to listen, empathise and confidently respond to our customers.\n\nDesirable:\n- SAP Experience\n\nINDL",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDzfuuejxKgbo5cHkIcwpgM%2bf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "BRELLIS RECRUITMENT LIMITED",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "337293d6-0b83-4e3a-a2cb-3b48b534647b",
     "title": "Internal Sales Administrator",
     "company": "West Midlands & Worcestershire Perm Hub - Agency - Permanent",
@@ -733,31 +708,6 @@
     "advertiser_name": "West Midlands & Worcestershire Perm Hub",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107860526",
-    "title": "Performing Arts and LAMDA Administrator",
-    "company": "The Princethorpe Foundation - Agency - Permanent",
-    "location": "Warwickshire",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "14000",
-    "salary_max": "14000",
-    "salary_text": "£14000 per year",
-    "posted_date": "",
-    "description": "We are seeking a candidate on a term time only part time basis, to provide comprehensive technical and administrative support to the Performing Arts life of the School, both curricular and co-curricular. The Performing Arts and LAMDA Administrator will fulfil the technical requirements and necessary administration for Performing Arts performances, charity events, and trips click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMMt6VwlhIoq1wpuWE0UEAcr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Princethorpe Foundation",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -852,7 +802,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0225",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0225",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551216",
@@ -870,7 +824,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549024",
@@ -888,7 +846,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5538096",
@@ -906,25 +868,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5530549",
-    "source": "NHS Jobs",
-    "title": "Admin Assistant - 20 hours",
-    "company": "British Pregnancy Advisory Service (BPAS)",
-    "advertiser_name": "British Pregnancy Advisory Service (BPAS)",
-    "location": "Coventry, CV3 5PZ, Nuneaton, CV10 8EJ, Stratford-upon-avon, CV37 6PP",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "salary": "£24484.00 to £27583.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-11T09:49:41.984911312",
-    "closing_date": "2026-08-25",
-    "description": "*This role is working in our 3 units in the Warwickshire Cluster Do you enjoy working within a busy office or reception environment, where no two days are the same? We are looking for an experienced Admin Assistant to come and join our Warwickshire Cluster for 20 hours per week over Monday to Saturday. The role covers our units in Coventry, Nuneaton and Stratford. More details can be found in the further information section below. You'll work as part of the team in carrying out administration tasks in an efficient and friendly manner ensuring that clients feel accepted, supported, and confident about BPAS services. About You You will have proven experience of working within an office environment, where you've carried out administration duties. You will be an excellent communicator both internally and externally and will demonstrate a friendly and positive attitude when interacting with clients, colleagues, and external parties. Answer and direct telephone queries, liaising with both internal and external colleagues, as necessary. Accurately check or complete BPAS and legal paperwork, ensuring all relevant documentation is available for the clients episode of care. Monitor, edit and amend appointment list, using as appropriate BPAS booking system, informing clients if changes to their appointment become necessary. Assist in the monitoring, control and ordering of stock, sort and distribute incoming mail and prepare and despatch statistical information and reports. We are also looking for: Experience of dealing face to face with patients who may be upset, within a care environment. Knowledge of clerical procedures including checking documentation, telephone, and reception duties. Good attention to detail, supportive towards colleagues and clients and is an effective team player. The full job description and salary details can be found in the supporting documents on the right hand side. These are available for you to download and review. Further Information We may close this advert early if we receive a high number of suitable applications, although we aim to keep it open long enough to ensure a diverse and representative applicant pool. If you have any questions about the role or require adjustments to support your application, please get in touch, we are happy to help. Salary: £24,484 - £27,583 per annum pro rata (£13.08-£14.73p/h) - depending on skills/experience. Hours: 20 hours per week to be worked flexibly over Monday to Saturday within the opening hours of the units. Exact shifts between those parameters will be confirmed 2 weeks in advance. Saturday shifts are paid at time and a half. Locations: BPAS Coventry - Oasis Health Care Cheyslesmore Surgery, 51 Quinton Park, Coventry CV3 5PZ - base unit BPAS Nuneaton - Stockingford Medical Centre, 13 Northumberland Ave, Nuneaton CV10 8EJ BPAS Stratford - Rother House Medical Centre, Alcester Rd, Stratford-upon-Avon CV37 6PP Coventry will be your base unit with mileage paid to the Nuneaton and Stratford sites as per the expenses policy. Apply now Interested in making a difference? Apply today to join our team. Values & eligibility All applicants must be pro choice and support a woman's right to choose, in line with BPAS values and mission. Applicants must have the legal right to work in the UK at the time of application. Unfortunately, we are unable to offer visa sponsorship for this role. Application outcome If you do not hear from us within two weeks of the closing date, unfortunately you have not been shortlisted on this occasion. References & pre-employment checks All offers of employment are conditional on satisfactory pre-employment checks. Applicants must provide three years of employment references, including reasons for leaving and details of any gaps in employment.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-WARCL-AA-20-3",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-WARCL-AA-20-3",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5525238",
@@ -942,7 +890,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551079",
@@ -960,7 +912,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1037",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1037",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5542156",
@@ -978,6 +934,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0492",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0492",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

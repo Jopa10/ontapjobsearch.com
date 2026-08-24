@@ -375,6 +375,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "c0aa2d16-6bc5-42d6-91b6-00c91861805e",
+    "title": "Financial Planner",
+    "company": "Focus Search and Selection - Agency - Permanent",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Financial Planner\n\nMilton Keynes Negotiable Salary + Benefits\n\nAn established and growing professional services business is looking to appoint an experienced Financial Planner to join its wealth management team.\n\nThis is an excellent opportunity for a client-focused adviser who enjoys delivering holistic financial planning and building long-term relationships with clients.\n\nThe role will involve managing an established client portfolio, conducting regular financial reviews and providing tailored advice across investments, pensions, protection, tax planning, trusts and estate planning.\n\nAlongside client management, you'll have the opportunity to develop new relationships through networking, professional introducers and the wider business, with the support of a broader professional services environment.\n\nWe're looking for someone who:\n- Is an experienced Financial Adviser / Financial Planner with Competent Adviser Status\n- Is Chartered or actively working towards Chartered status\n- Has strong technical knowledge across holistic financial planning\n- Builds trusted, long-term client relationships\n- Is commercially minded and comfortable developing new business\n- Has excellent communication skills and a professional, personable approach\n- Takes pride in delivering high-quality, compliant advice\n\nThis role would suit a Financial Planner who wants to work within a well-established professional services environment, with the opportunity to work with an interesting client base and develop relationships that can span generations.\n\nDue to the high amount of interest that we receive for each of our roles unfortunately we cannot respond to each application individually, therefore if you do not hear back from one of our consultants you have not been shortlisted for this role.\n\nPlease note that our client is an equal opportunities Employer and adheres to all relevant legislation and offer services regardless of age, race, sex, disability or religious belief.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5tcegW5lNoQvcndIKF5AhRq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Focus Search and Selection",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225522682",
     "title": "Service Delivery Coordinator",
     "company": "BSI - Agency - Permanent",
@@ -440,7 +465,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1089",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1089",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551438",
@@ -458,7 +487,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0393",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0393",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -476,7 +509,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534158",
@@ -494,6 +531,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,64
-total rows dropped,9936
+total rows included,65
+total rows dropped,9935
 title classification count - HIGH_CONFIDENCE,143
 title classification count - ELASTIC_FIT,47
 title classification count - REVIEW_CONTEXT_DEPENDENT,19
-title classification count - HARD_PASS,4810
-title classification count - OUT_OF_SCOPE,4981
+title classification count - HARD_PASS,4837
+title classification count - OUT_OF_SCOPE,4954
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,2
@@ -48,13 +48,13 @@ other elastic count - Cumbria - South,2
 total rows output - Cumbria - South,2
 job_id included - Cumbria - South,107812778; 107870592
 selection scenario - Hampshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Hampshire,Hampshire manual_select applied additively: 1 row(s) prioritised; 14 selected.
-credible total - Hampshire,14
-high confidence count - Hampshire,10
+selection message - Hampshire,Hampshire manual_select applied additively: 1 row(s) prioritised; 15 selected.
+credible total - Hampshire,15
+high confidence count - Hampshire,11
 anchor elastic count - Hampshire,0
 other elastic count - Hampshire,3
-total rows output - Hampshire,14
-job_id included - Hampshire,1674633; 1401784780; 1401784261; 1401784414; 1401784339; 1401784493; 1401784594; 107332363; 1401784687; 1401784767; 1401784679; 202c4b49-5e6c-46f1-879f-8421db894a5b; 4a74d1e7-f86f-4dad-965a-206ba0f5fa61; 8e6242db-cd62-4802-934f-7ad53601c988
+total rows output - Hampshire,15
+job_id included - Hampshire,1674633; 1401784780; 1401784261; 1401784414; 1401784339; 1401784493; 1401784594; 107332363; 1401784687; 1401784767; 1401784682; 1401784679; 202c4b49-5e6c-46f1-879f-8421db894a5b; 4a74d1e7-f86f-4dad-965a-206ba0f5fa61; 8e6242db-cd62-4802-934f-7ad53601c988
 selection scenario - London,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - London,"London selection complete: 13 selected after HIGH_CONFIDENCE, London ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - London,13

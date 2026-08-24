@@ -425,31 +425,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "4df4d666-05e3-4397-8027-5146de4b0e5d",
-    "title": "Customer Service Advisor - SZC",
-    "company": "Somerset Passenger Solutions - Company - Permanent",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27000",
-    "salary_text": "£27000 per year",
-    "posted_date": "",
-    "description": "SPS was formed in 2016 and serves the passenger transport needs of the EDF Nuclear Project at Hinkley Point C (HPC) in Bridgwater, the largest construction project in Europe. We are the only transport provider for the thousands of people who go to the construction site daily to work or visit. We are now bringing this experience to Sizewell C in Suffolk, providing safe, reliable, and efficient transport for its workforce.\n\nWe are seeking a motivated individual with strong customer service and interpersonal skills to join our dedicated customer service team. You will act as the primary point of contact for all travel and parking queries.\n\nThrough clear and efficient communication channels, you will ensure compliance with promoting sustainable travel options, encouraging car sharing, and maintaining positive relationships within the local community.\n\nThe role requires a proactive, professional, customer-focused approach, engaging positively with local residents, businesses, and community stakeholders. If you want to build a long-term career with lots of opportunity to grow, then this role is for you.\n\nHours: 39hrs pw. 5 over 7 days between 04:00-19:00 on a 4-week shift rotation.\n\nSalary: £27,000\n\nSummary of benefits\n- Pension - 5% contributory pension matched by us.\n- Employee retail discount scheme\n- Free bus travel & significantly reduced rail travel for you & family members\n- Life assurance\n- Health benefits\n- 24/7 Employee Assistance Programme\n\nSummary of role & main responsibilities\n- Delivering the full induction process for all new SZC workforce members, explaining the overall transport strategy.\n- Allocate appropriate transport solutions to workers and provide clear guidance on parking applications, transport eligibility, and allocation processes.\n- Briefing all inductees on driving rules, the correct use of park and ride sites, and worker codes of conduct, ensuring expectations are fully understood.\n- Providing each inductee with a detailed induction information pack, including up to date timetables, local bus and rail information, sustainable travel options, route guidance, and promotional car sharing materials.\n- Acting as a Customer Service Advisor onsite and within the main office/helpline team, ensuring all workforce members receive accurate, timely updates as required.\n- Communicating all relevant updates regarding bus service routes, pick-up points, car-sharing promotions, road closures, delays, or service changes across multiple platforms.\n- Serving as the main point of contact for all parking enquiries, including allocation updates, questions relating to parking enforcement across park and ride sites, and community-related parking concerns.\n- Logging all travel- and parking-related enquiries into the data management system, ensuring every case is investigated and responded to within agreed timelines.\n- Conducting timely follow ups on all complaints, providing customers with clear, consistent updates within set response times.\n- Handle complaints professionally via phone and written correspondence, conducting timely follow-ups and providing clear, consistent updates in line with SPS service standards.\n- Ensure complaint responses are accurate and detailed to support root cause analysis and continuous improvement activities.\n- Liaising effectively with internal departments to resolve issues and ensure actions are delivered within time frames and communicated appropriately.\n- Providing cross-cover for SZC Inductions and the SPS onsite office as required, ensuring continuity of service and consistent performance.\n\nSkills & Experience\n\nEssential\n- GCSEs (or equivalent) in English and Maths,\n- Valid UK driving licence,\n- Basic IT proficiency and knowledge (Microsoft Office, email systems, data entry),\n- Basic knowledge of transport, travel planning, or workforce movement processes,\n- A strong understanding of customer service standards and complaint handling principles with the ability to follow operational policies, guidelines, or travel/transport procedures.\n- Proficiency in a customer service environment across face to face, phone, and email channels with experience in handling and resolving conflicts within set processes, timelines, and experience delivering information or briefings to groups.\n- Accurate data entry and use of the Complaints Management System or operational systems.\n- Knowledge of data accuracy, record keeping, and confidentiality requirements.\n- A strong awareness of Health and Safety, security, and compliance within a safety critical environment with the ability to effectively communicate service changes and updates.\n\nDesirable\n- Background in transport, logistics, parking, or travel planning and an understanding of sustainable travel modes, park & ride operations, and car-sharing schemes.\n- Knowledge of Complaints Management Systems, travel, or park & ride operations.\n- Familiarity with reporting, data monitoring, client facing summaries or delivering inductions/ onboarding sessions.\n- Relevant customer service or HSSE training or qualifications.\n- Awareness of local transport networks (bus, rail, road layouts, timetables).\n- Experience working with a large infrastructure, construction, or regulated project with a strong understanding of complaints management systems, helpdesk tools, or transport scheduling systems.\n\nWant a career change? We make it easy. This is your chance to join the team driving passengers to and from one of the UK's most exciting infrastructure projects.\n\nAll employees must be willing to undergo the Baseline Personnel Security Standard (BPSS) check and obtain a DBS certificate. These checks help ensure the honesty and integrity of individuals working at a Nuclear Licensed Site or with sensitive nuclear information.\n\nSPS Bus welcomes applicants from all backgrounds and is committed to diversity and inclusion regardless of gender, race, religion, disability, sexual orientation, or age.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttqCraA7eJe%2bdWDGUDwc7mo3a",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Somerset Passenger Solutions",
-    "advertiser_type": "Company",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1645265",
     "title": "Finance Assistant",
     "company": "World Land Trust - Agency - Permanent",
@@ -540,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0934",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0934",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5536497",
@@ -558,6 +537,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4547-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4547-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

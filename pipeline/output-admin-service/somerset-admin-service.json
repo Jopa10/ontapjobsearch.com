@@ -440,25 +440,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1201",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1201",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5532487",
-    "source": "NHS Jobs",
-    "title": "Workflow/Admin Assistant",
-    "company": "Vine Surgery Partnership",
-    "advertiser_name": "Vine Surgery Partnership",
-    "location": "Street, BA16 0ET",
-    "region": "Somerset",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-11T16:01:40.863456074",
-    "closing_date": "2026-09-08",
-    "description": "We are looking for a skilled Workflow/ Admin Assistant to join our GP surgery team. This role would suit someone who is friendly and empathetic, highly organised and accurate, calm when busy, confident using computers, experienced in customer service or office work and willing to learn and work as part of a team. Working at our practice in Street, Somerset offers the opportunity to be part of a friendly, supportive team serving a welcoming and close-knit community. Street is a vibrant village with a strong community feel, well known for Clarks Village and its beautiful Somerset surroundings, while still within easy reach of Glastonbury, Wells and the Mendip Hills. As a practice, we pride ourselves on teamwork, mutual support and providing high quality care to our patients. We value staff who are approachable, organised and compassionate, and in return we offer a supportive working environment where people are encouraged to learn, develop and feel part of the team. This is a varied and sometimes challenging role. A full description is available but you will be part of a supportive team and each day will be full and rewarding. Liaises with patients, doctors, staff, other support staff, nursing staff, both surgery and attached, community nursing teams, mental health groups, funeral directors, counsellors, pharmacy, social services, commissioning groups, secondary care (acute and community hospitals), care homes, complex care hub and social prescribers Job Purpose, Aims and Profile The Workflow/Admin Assistant post is a multi-skilled position providing a high level of service to patients, internal and external clients and institutions. The post-holder: Works in Workflow responsible for processing and managing all incoming correspondence (electronically and paper) including coding and keeping the patients records accurate and up to date. Works in Data responsible for inputting and updating medical data for an agreed set of patients, and all related administrative tasks. General administrative and clerical duties as requested. Works in Admin responsible for all onward referrals to Secondary Care and other relevant services using systems such as Cinapsis, E-Referrals etc. Organising the timely completion of private medical reports Works in Reception (although the applicant will not specifically work within reception, they would need to have an understanding of how reception works as there may be times that cover and support is needed) working with the Rapid Health triage system; dealing with enquiries; advising on doctors and nurses availability; recording and passing messages on accurately and efficiently; carrying out a range of related reception duties as appropriate. Working Hours and Work Schedule Surgery working week: 08.00 6.30pm Monday to Friday, 08.00 08.00 pm on selected dates. Shared rota with 4 other local practices. Working hours; normal working schedule between 08.30 and 17:00pm or 20.00 pm Monday to Friday as required. Occasional Saturdays throughout the year on a rota basis. Monday; Tuesday; Wednesday; Thursday; Friday: daily schedules to be determined. The post-holder will be required to cover for colleagues who are absent on annual leave or sickness. Duties and Responsibilities Sort all prescription requests, both electronic and manual guided by Pharmacy Team Record any acute prescriptions and pass to the pharmacy team for consideration. Contact patients (when requested) to pass on doctors instructions and requests. Add messages/instructions/date for future action to the medication screen. Sort and place prescriptions ready for collection or according to their destination. Process all information flowing from/to doctors and external institutions as appropriate. Check and process any electronic information as appropriate each day. Process all records from Primary Care Support England as appropriate. Enter appropriate x-ray results read codes and comments from doctors. Sort and distribute all processed, scanned and unscanned documents as appropriate. Add delivery/birth details on mothers and babys screens; including Hospital Unit No. Assist in the processing of Prior Notification Lists from Open Exeter in connection with cervical smears. Ensure correct forms are completed and signed by a GP and returned if a patient needs to be removed from the cervical smear recall list. Check lab links on the screen each day, match any unmatched patients. Undertake SNOMED coding into EMIS. Update, maintain, file and retrieve patient records as appropriate. Scan medical records and file into the EMIS system. Set up systems in preparation for the working day. To assist with the gathering of statistics and information when required. Process deceased patients notes when required. Carry out searches of computerised medical records as requested. Check address template regularly to delete any errors. Process new patient registrations and questionnaires. Process deductions of patient notes when a patient leaves the surgery. Process and manage queries relating to online access requests. Process and manage all incoming correspondence. Managing the diary recall system, to include adding requests onto ICE for blood tests and booking appointments. NHS App and Proxy Access Set up and management Diary Entries Recall Support (including Child Imms, Minor Ops & QOF/Recall) Referrals (ERS & 2WW) - Prepare, process and submit referrals accurately using NHS e-Referral Service (e-RS), Advice and Guidance and other referral pathways such as secure email. Process suspected cancer referrals using C the Signs. Ensure urgent suspected cancer referrals are submitted within required timescales. Cinapsis Referrals and Admin SARS Private Medical Reports Attend for staff training when necessary. Receive, sort and circulate/distribute post. Filing of paper medical records. Attend any other training courses deemed necessary by the Practice Manager or Operations Manager. Carry out any other duties as requested by the Practice Manager or Operations Manager. Other General Conditions Holiday entitlement is five working weeks per year (pro rata) plus any Bank Holidays that fall on a normal working day. All employees are required to adhere to the Health and Safety at Work Act (1974) The job description will be subject to periodic reviews and may be changed in consultation with the post holder. On Appointment the post holder must agree to abide by the Statement of Terms and Conditions of Service and the Contract requirements; all published Surgery protocols; policies; procedures; guidelines and work-rules; and any other approved instruction & documentation that may be amended and issued from time to time.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0004",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0004",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5496755",
@@ -476,7 +462,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5540884",
@@ -494,6 +484,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0438",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0438",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5532241",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Somerset NHS Foundation Trust",
+    "advertiser_name": "Somerset NHS Foundation Trust",
+    "location": "Yeovil, BA20 2BX",
+    "region": "Somerset",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-12T08:11:21.463115718",
+    "closing_date": "2026-08-25",
+    "description": "Are you an organised, approachable administrator who thrives in a busy environment and enjoys making a real difference behind the scenes? If so, we'd love to hear from you. As a Ward Clerk, you will play a vital role in supporting the day-to-day running of Rowan Ward 2 at Summerlands Hospital in Yeovil. Acting as the first point of contact for patients, visitors and colleagues, you'll help create a welcoming, professional environment while ensuring essential administrative processes run smoothly and efficiently. This is a varied and rewarding role where no two days are the same. You'll work closely with the multidisciplinary team, providing high-quality clerical, reception and administrative support that enables clinical staff to focus on delivering outstanding patient care. You'll also have opportunities to contribute to Quality Improvement projects, helping to shape and enhance services for the future. As a Ward Clerk, you will: Provide a professional and friendly reception service for patients, visitors and staff. Manage incoming telephone calls, emails and correspondence, ensuring enquiries are handled efficiently and appropriately. Support the smooth running of the ward through a wide range of administrative and clerical duties. Maintain accurate patient records and electronic systems, ensuring confidentiality is always upheld. Organise meetings, appointments and room bookings, and prepare documentation as required. Take notes and minutes at meetings and distribute actions where appropriate. Create and maintain spreadsheets and databases to support reporting, training records and workforce information. Process orders, invoices, petty cash transactions and maintain stocks of office supplies. Work collaboratively with ward staff, managers and administrative colleagues across the service. Provide flexible administrative support to the wider team and assist with cover arrangements when required. Participate in Quality Improvement initiatives and contribute ideas that support service development. This is an excellent opportunity for an experienced administrator who enjoys working in a fast-paced healthcare setting and takes pride in delivering a high standard of service. You'll become an integral member of a supportive ward team, providing comprehensive administrative support across reception, office management and patient record systems. Your strong organisational skills will help keep processes running efficiently, whether you're coordinating meetings, managing diaries, handling correspondence, maintaining records or responding to enquiries. We're looking for someone who can confidently manage multiple priorities, remain calm under pressure and communicate professionally with a wide range of people. You'll regularly interact with patients, carers, visitors, healthcare professionals and external agencies, making excellent interpersonal skills essential. The successful candidate will be comfortable using a variety of IT systems and Microsoft Office applications, with the ability to produce accurate documents, maintain databases and monitor information effectively. Attention to detail, discretion and a commitment to confidentiality will be key to success in this role. In return, you'll join a welcoming team where your contribution is genuinely valued. You'll have the opportunity to develop your skills, support meaningful healthcare services and become involved in projects that improve quality, patient experience and team effectiveness. If you're looking for a rewarding administrative role where you can make a positive impact every day, we'd love to receive your application.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1188",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1188",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

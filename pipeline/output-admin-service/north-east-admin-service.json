@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "nejobs-300614",
-    "title": "Technical Support Officer – Licensing",
-    "company": "South Tyneside Council",
-    "location": "Town Hall, South Shields",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,598 pa",
-    "work_pattern": "Full time",
-    "posted_date": "2026-08-10",
-    "closing_date": "2026-08-24",
-    "closing_datetime": "2026-08-24T12:00:00+01:00",
-    "summary": "Technical Support Officer – Licensing with South Tyneside Council in Town Hall, South Shields. Permanent; Full time; £28,598 pa.",
-    "description": "South Tyneside Council is recruiting for this vacancy in Town Hall, South Shields.\n\nThe advertised position is Technical Support Officer – Licensing, with the working terms listed as Permanent; Full time.\n\nThe advertised salary is £28,598 pa.\n\nThe stated closing date is 24/08/2026 12:00.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/Technical_Support_Officer_Licensing/300614?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "nejobs-300662",
     "title": "Receptionist – Various Posts",
     "company": "South Tyneside Council",
@@ -45,7 +21,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "South Tyneside Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300512",
@@ -69,7 +49,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "New College Durham",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300505",
@@ -93,7 +77,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "New College Durham",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300537",
@@ -117,7 +105,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North Tyneside Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300742",
@@ -141,7 +133,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Durham County Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300628",
@@ -165,7 +161,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Darlington Borough Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-299277",
@@ -189,7 +189,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Durham County Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-299796",
@@ -213,7 +217,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hartlepool Borough Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256120",
@@ -237,7 +245,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256121",
@@ -261,7 +273,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256122",
@@ -285,7 +301,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256124",
@@ -309,7 +329,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256125",
@@ -333,7 +357,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256126",
@@ -357,7 +385,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-256127",
@@ -381,7 +413,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "First Class Supply & Training",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300579",
@@ -405,7 +441,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Durham County Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300745",
@@ -429,7 +469,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bishop Bewick Catholic Education Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300646",
@@ -453,7 +497,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Prudhoe Town Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-299877",
@@ -477,7 +525,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hartlepool Borough Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300776",
@@ -501,7 +553,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Durham County Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300777",
@@ -525,7 +581,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Gateshead Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300632",
@@ -549,7 +609,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North East Futures - UTC",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nejobs-300866",
@@ -573,7 +637,11 @@
     "source": "NEJobs",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North Tyneside Council",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "vonne-173347",
@@ -597,7 +665,11 @@
     "source": "VONNE",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Age UK North Tyneside",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": ""
   },
   {
     "job_id": "vonne-173341",
@@ -621,7 +693,11 @@
     "source": "VONNE",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Northern Learning Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": ""
   },
   {
     "job_id": "vonne-173310",
@@ -645,7 +721,11 @@
     "source": "VONNE",
     "working_arrangement": "partly_remote",
     "working_arrangement_text": "Home-based working indicated",
-    "working_arrangement_evidence": "The source vacancy's factual location or based field indicates home-based working."
+    "working_arrangement_evidence": "The source vacancy's factual location or based field indicates home-based working.",
+    "advertiser_name": "VONNE",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": ""
   },
   {
     "job_id": "vonne-173349",
@@ -669,7 +749,11 @@
     "source": "VONNE",
     "working_arrangement": "hybrid",
     "working_arrangement_text": "Hybrid working indicated",
-    "working_arrangement_evidence": "The source vacancy's factual location or based field indicates hybrid working."
+    "working_arrangement_evidence": "The source vacancy's factual location or based field indicates hybrid working.",
+    "advertiser_name": "Durham County Carers Support",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225416961",
@@ -1422,6 +1506,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107820080",
+    "title": "ELPL Claims Handler",
+    "company": "NRG - Agency - Permanent",
+    "location": "Tyne And Wear",
+    "region": "North East - Tyneside, Wearside & Northumberland",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "An exciting opportunity has arisen for an experienced EL/PL Portal Claims Handler to join a well-established and highly regarded claimant personal injury law firm. This role is ideal for someone with experience managing Employers' Liability and Public Liability Portal claims who is looking to develop their career within a supportive and collaborative team click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJND6GZGDyr9U7HsVBoJ9kbl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "NRG",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "4ba9f2a1-736c-4839-b5c3-5017577ed8b0",
     "title": "Accounts Assistant",
     "company": "Reed - Agency - Temporary",
@@ -1462,7 +1571,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0783",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0783",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5541887",
@@ -1480,7 +1593,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544630",
@@ -1498,7 +1615,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2611-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2611-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5539752",
@@ -1516,7 +1637,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0957",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-0957",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5541050",
@@ -1534,7 +1659,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0755",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0755",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534064",
@@ -1552,7 +1681,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1091",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1091",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5532977",
@@ -1570,7 +1703,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2190-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2190-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5532281",
@@ -1588,7 +1725,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5604-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5604-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5556970",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "The Stephenson Medical Practice",
+    "advertiser_name": "The Stephenson Medical Practice",
+    "location": "Washington, NE37 2PU",
+    "region": "North East",
+    "salary": "£24344.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-24T10:49:24.960638048",
+    "closing_date": "2026-09-07",
+    "description": "INTERVIEW DATE: 22nd September 2026 Main duties: Covering reception desk (on a rota basis) Answering telephones Arranging appointments Scanning of clinical documents Supporting the administration team with our daily \"running\" task (please see full job description) 4.2Responsibilities To provide support to all clinical staff To ensure computers are made ready, telephones diverted and re-diverted, rooms opened for surgeries to commence Deal with all incoming and outgoing post Enter updated patient information onto the practice clinical system Receive telephone calls, take messages and respond to enquiries Receive and deal with any requests for repeat medication as appropriate to the role Deal with all ambulance booking requests Ensure collection and distribution of any specimens received Arrange and maintain appointment systems for the primary care team booking and cancelling appointments where appropriate Ensure waiting room is tidy at all times Ensuring locums receive all necessary information Provide support to the attached staff, to ensure patients receive an efficient service Responsible for dealing with actions required on path lab results and correspondence Responsible for IT issues, problem solving including hardware issues with support from third party provider Main duties of the job",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1981-26-0009",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1981-26-0009",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555684",
@@ -1606,7 +1769,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0814-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0814-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550263",
@@ -1624,7 +1791,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0757",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0757",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547933",
@@ -1642,7 +1813,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5962-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5962-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547068",
@@ -1660,7 +1835,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4459-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4459-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5545378",
@@ -1678,24 +1857,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2183-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2183-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5546520",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Northumberland Park Medical Group",
-    "advertiser_name": "Northumberland Park Medical Group",
-    "location": "Newcastle upon Tyne, NE27 0HJ",
-    "region": "North East",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T13:24:56.575968",
-    "closing_date": "2026-09-01",
-    "description": "Northumberland Park Medical Group are seeking a Medical Receptionist to provide a friendly and efficient service to our busy practice. We're looking for individuals with experience in healthcare administration, particularly within the NHS, but we're also open to candidates with transferable skills who are passionate about patient care. AMENDMENT TO ORIGINAL ADVERT 19/08/2026: Working hours will be between Monday-Friday between the hours of 8.00am-6.00pm, 36 hours per week. Key Responsibilities: Provide exceptional customer service: Greet patients warmly, assist with inquiries, and ensure a positive experience. Maintain a professional demeanor: a polite and courteous telephone manner. Manage multiple tasks: Effectively handle various responsibilities simultaneously, including scheduling appointments, answering calls, and processing paperwork. Work collaboratively: Function well within a multi-disciplinary team, collaborating with healthcare professionals and other staff. Utilize technology proficiently: Demonstrate strong IT skills and proficiency in medical software systems. Please see attached document for full details. Duties and responsibilities: The duties and responsibilities to be undertaken by members of the practice administration team may include any or all the items in the following list. Duties may be varied from time to time under the direction of the Practice Manager, dependent on current and evolving practice workload and staffing levels: Maintaining and monitoring the practice appointments system Processing personal and telephone requests for appointments, visits, and telephone consultations, and ensuring callers are directed to the appropriate healthcare professional Processing and distributing incoming (and outgoing) mail Taking messages and passing on information Filing and retrieving paperwork Processing repeat prescriptions in accordance with practice guidelines Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures Dealing with medical records for patient joining and leaving the practice via PCSE Initiating contact with and responding to requests from patients, other team member and associated healthcare agencies and providers Using e-referral system where necessary Clearing and re-stocking of consulting rooms as required Providing clerical assistance to practice staff as required from time to time, including word/data processing, filing, photocopying and scanning Ordering, re-ordering and monitoring of stationery and other supplies Dealing with clinical waste when necessary Provision of refreshments for staff and visitors as required; and keeping the kitchen area clean and tidy Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter Promote on-line services Any other reasonable duties commensurate with the post",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0320-26-0006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0320-26-0006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

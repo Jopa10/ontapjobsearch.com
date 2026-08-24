@@ -325,6 +325,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5557579",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "The Royal Wolverhampton NHS Trust",
+    "advertiser_name": "The Royal Wolverhampton NHS Trust",
+    "location": "Wolverhampton, WV10 0QP",
+    "region": "West Midlands - Black Country",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-24T13:26:59.844910835",
+    "closing_date": "2026-09-07",
+    "description": "We are looking to recruit a receptionist to join our reception team within the Sexual Health Service. The role will encompass dealing with patients, clinical and non-clinical staff by face to face and telephone; subsequently you will require excellent communications skills. A flexible approach to this role is essential to ensure the demands of the service are met. As part of the team you will be registering patients onto the clinic computer system whereby accuracy is essential. Working knowledge of all common computer applications including word is essential, as you will be required to carry out a wide range of transactions and associated data input. Specialist training will be given on 'in house' systems. You should have a good standard of general education and have attained qualifications in English & Mathematics e.g. GSCE or equivalent. You will also require a clear understanding of the concept of confidentiality of personal health information. The role will encompass dealing with patients, clinical and non-clinical staff by face to face and telephone; subsequently you will require excellent communications skills. A flexible approach to this role is essential to ensure the demands of the service are met. As part of the team you will be registering patients onto the Trust computer system whereby accuracy is essential. A full clean driving license is preferred as the post holder will be required to cover reception duties at West Park Hospital, Bilston Health Centre and New Cross Hospital when other receptionists take annual leave. Please see attached Job Description/Person Specification for a full detail of role and main responsibilities",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0625",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0625",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5552683",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -340,7 +362,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0519",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0519",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550908",
@@ -358,24 +384,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0615",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0615",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5528732",
-    "source": "NHS Jobs",
-    "title": "Administrator - Walsall",
-    "company": "Vaccination UK",
-    "advertiser_name": "Vaccination UK",
-    "location": "Wednesbury, WS10 7DD",
-    "region": "West Midlands - Black Country",
-    "salary": "£13.45",
-    "employment_type": "Bank",
-    "posted_date": "2026-08-10T12:42:24.512898267",
-    "closing_date": "2026-08-31",
-    "description": "Job title: Administrator Contract: Bank Start: September 2026 until December 2026 Working Hours: Monday to Friday between 8:00am - 5:00pm. (7.5 hour shift per day) BENEFITS: Pension - 5% employer contribution based on qualified earnings. VIVUP - Supermarket & High Street Discounts & Employee Assistant Programme. Blue Light Card - Supermarket & High Street Discounts. Employee referral scheme. 28 days annual leave including Bank Holidays (pro-rata). The post holder will be responsible for promoting, delivering, and facilitating various programmes directed by management as part of the School-Aged Immunisation Service assisting nurses in the schools or office. KEY RESPONSIBILITIES: Assist in the planning, delivery and evaluation of health promotion/education and public health school age immunisation programmes. Attend community-based vaccination sessions in both schools and local based settings. Work with the nursing team to ensure productive and safe sessions. Promote and facilitate collaborative working between the team, schools and other educational institutions and families, in the delivery of the immunisation programmes. Focus on ensuring all consent forms have been returned, guaranteeing new ideas go towards achieving local area targets. Ensure the process for storing, transporting, collecting and delivering vaccinations to site are adhered to. Assist in identifying home schooled children and those in Pupil Referral Units. Maintain databases to ensure records are kept up to date and that documents are prepared for school visits. Ensure online consent systems have been triaged and completed ahead of a vaccination session. Adhere to the Standard Operating Procedure for School Immunisation (SOPs). First point of contact for all administrative tasks. Have clear communication via face to face, by phone and email with children, parents and school staff. Responsible for maintaining the cold chain, ordering, and arranging transport of vaccinations to site. Actively and constructively contribute to team meetings. Undertake other duties commensurate with the level of this position. Comply with Company policies & procedures.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0107",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0107",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

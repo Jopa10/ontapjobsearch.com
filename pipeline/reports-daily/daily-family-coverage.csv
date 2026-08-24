@@ -4,11 +4,11 @@
 2026-08-24,Bedfordshire,customer_sales,3
 2026-08-24,Berkshire,service_admin,34
 2026-08-24,Berkshire,support_worker,1
-2026-08-24,Berkshire,customer_sales,1
-2026-08-24,Bristol & Bath,service_admin,34
+2026-08-24,Berkshire,customer_sales,0
+2026-08-24,Bristol & Bath,service_admin,33
 2026-08-24,Bristol & Bath,support_worker,1
-2026-08-24,Bristol & Bath,customer_sales,6
-2026-08-24,Buckinghamshire,service_admin,17
+2026-08-24,Bristol & Bath,customer_sales,7
+2026-08-24,Buckinghamshire,service_admin,18
 2026-08-24,Buckinghamshire,support_worker,2
 2026-08-24,Buckinghamshire,customer_sales,2
 2026-08-24,Cambridgeshire,service_admin,30
@@ -20,7 +20,7 @@
 2026-08-24,Cheshire - Warrington & Halton,service_admin,23
 2026-08-24,Cheshire - Warrington & Halton,support_worker,2
 2026-08-24,Cheshire - Warrington & Halton,customer_sales,3
-2026-08-24,Cheshire - West,service_admin,7
+2026-08-24,Cheshire - West,service_admin,8
 2026-08-24,Cheshire - West,support_worker,1
 2026-08-24,Cheshire - West,customer_sales,5
 2026-08-24,Cornwall,service_admin,6
@@ -38,7 +38,7 @@
 2026-08-24,Derbyshire,service_admin,14
 2026-08-24,Derbyshire,support_worker,0
 2026-08-24,Derbyshire,customer_sales,4
-2026-08-24,Devon,service_admin,34
+2026-08-24,Devon,service_admin,35
 2026-08-24,Devon,support_worker,0
 2026-08-24,Devon,customer_sales,3
 2026-08-24,Dorset,service_admin,20
@@ -48,7 +48,7 @@
 2026-08-24,Essex,support_worker,1
 2026-08-24,Essex,customer_sales,4
 2026-08-24,Gloucestershire,service_admin,25
-2026-08-24,Gloucestershire,support_worker,2
+2026-08-24,Gloucestershire,support_worker,3
 2026-08-24,Gloucestershire,customer_sales,3
 2026-08-24,Greater Manchester - Manchester & Salford,service_admin,33
 2026-08-24,Greater Manchester - Manchester & Salford,support_worker,1
@@ -62,19 +62,19 @@
 2026-08-24,Greater Manchester - Wigan & Bolton,service_admin,11
 2026-08-24,Greater Manchester - Wigan & Bolton,support_worker,0
 2026-08-24,Greater Manchester - Wigan & Bolton,customer_sales,2
-2026-08-24,Hampshire,service_admin,53
-2026-08-24,Hampshire,support_worker,14
+2026-08-24,Hampshire,service_admin,54
+2026-08-24,Hampshire,support_worker,15
 2026-08-24,Hampshire,customer_sales,4
 2026-08-24,Herefordshire,service_admin,2
 2026-08-24,Herefordshire,support_worker,0
 2026-08-24,Herefordshire,customer_sales,0
-2026-08-24,Hertfordshire,service_admin,26
+2026-08-24,Hertfordshire,service_admin,27
 2026-08-24,Hertfordshire,support_worker,3
 2026-08-24,Hertfordshire,customer_sales,5
-2026-08-24,Kent,service_admin,55
+2026-08-24,Kent,service_admin,53
 2026-08-24,Kent,support_worker,4
 2026-08-24,Kent,customer_sales,5
-2026-08-24,Lancashire - Blackpool & Fylde,service_admin,0
+2026-08-24,Lancashire - Blackpool & Fylde,service_admin,1
 2026-08-24,Lancashire - Blackpool & Fylde,support_worker,0
 2026-08-24,Lancashire - Blackpool & Fylde,customer_sales,0
 2026-08-24,Lancashire - Central,service_admin,3
@@ -86,16 +86,16 @@
 2026-08-24,Lancashire - North,service_admin,1
 2026-08-24,Lancashire - North,support_worker,0
 2026-08-24,Lancashire - North,customer_sales,0
-2026-08-24,Lancashire - West,service_admin,3
+2026-08-24,Lancashire - West,service_admin,2
 2026-08-24,Lancashire - West,support_worker,0
 2026-08-24,Lancashire - West,customer_sales,0
 2026-08-24,Leicestershire,service_admin,29
 2026-08-24,Leicestershire,support_worker,0
 2026-08-24,Leicestershire,customer_sales,2
-2026-08-24,Lincolnshire,service_admin,16
+2026-08-24,Lincolnshire,service_admin,15
 2026-08-24,Lincolnshire,support_worker,1
 2026-08-24,Lincolnshire,customer_sales,1
-2026-08-24,London,service_admin,149
+2026-08-24,London,service_admin,154
 2026-08-24,London,support_worker,13
 2026-08-24,London,customer_sales,21
 2026-08-24,Merseyside - Liverpool,service_admin,14
@@ -110,12 +110,12 @@
 2026-08-24,Merseyside - Wirral,service_admin,2
 2026-08-24,Merseyside - Wirral,support_worker,0
 2026-08-24,Merseyside - Wirral,customer_sales,1
-2026-08-24,Norfolk,service_admin,22
+2026-08-24,Norfolk,service_admin,23
 2026-08-24,Norfolk,support_worker,0
 2026-08-24,Norfolk,customer_sales,4
-2026-08-24,North East,service_admin,33
+2026-08-24,North East,service_admin,34
 2026-08-24,North East,support_worker,9
-2026-08-24,North East,customer_sales,3
+2026-08-24,North East,customer_sales,4
 2026-08-24,North Scotland,service_admin,5
 2026-08-24,North Scotland,support_worker,0
 2026-08-24,North Scotland,customer_sales,1
@@ -134,7 +134,7 @@
 2026-08-24,Northern Ireland - West,service_admin,4
 2026-08-24,Northern Ireland - West,support_worker,0
 2026-08-24,Northern Ireland - West,customer_sales,1
-2026-08-24,Nottinghamshire,service_admin,19
+2026-08-24,Nottinghamshire,service_admin,20
 2026-08-24,Nottinghamshire,support_worker,1
 2026-08-24,Nottinghamshire,customer_sales,2
 2026-08-24,Oxfordshire,service_admin,44
@@ -155,13 +155,13 @@
 2026-08-24,Scotland Central - Fife,service_admin,1
 2026-08-24,Scotland Central - Fife,support_worker,0
 2026-08-24,Scotland Central - Fife,customer_sales,1
-2026-08-24,Scotland Central - Tayside,service_admin,4
+2026-08-24,Scotland Central - Tayside,service_admin,5
 2026-08-24,Scotland Central - Tayside,support_worker,0
 2026-08-24,Scotland Central - Tayside,customer_sales,0
-2026-08-24,Scotland West - Ayrshire,service_admin,0
+2026-08-24,Scotland West - Ayrshire,service_admin,1
 2026-08-24,Scotland West - Ayrshire,support_worker,0
 2026-08-24,Scotland West - Ayrshire,customer_sales,0
-2026-08-24,Scotland West - Glasgow,service_admin,14
+2026-08-24,Scotland West - Glasgow,service_admin,13
 2026-08-24,Scotland West - Glasgow,support_worker,0
 2026-08-24,Scotland West - Glasgow,customer_sales,2
 2026-08-24,Scotland West - Lanarkshire,service_admin,0
@@ -170,7 +170,7 @@
 2026-08-24,Scotland West - Renfrewshire & Inverclyde,service_admin,1
 2026-08-24,Scotland West - Renfrewshire & Inverclyde,support_worker,0
 2026-08-24,Scotland West - Renfrewshire & Inverclyde,customer_sales,0
-2026-08-24,Shropshire,service_admin,12
+2026-08-24,Shropshire,service_admin,13
 2026-08-24,Shropshire,support_worker,2
 2026-08-24,Shropshire,customer_sales,2
 2026-08-24,Somerset,service_admin,17
@@ -179,13 +179,13 @@
 2026-08-24,Staffordshire,service_admin,22
 2026-08-24,Staffordshire,support_worker,0
 2026-08-24,Staffordshire,customer_sales,0
-2026-08-24,Suffolk,service_admin,21
+2026-08-24,Suffolk,service_admin,20
 2026-08-24,Suffolk,support_worker,2
 2026-08-24,Suffolk,customer_sales,2
-2026-08-24,Surrey,service_admin,77
+2026-08-24,Surrey,service_admin,75
 2026-08-24,Surrey,support_worker,11
 2026-08-24,Surrey,customer_sales,6
-2026-08-24,Sussex,service_admin,32
+2026-08-24,Sussex,service_admin,34
 2026-08-24,Sussex,support_worker,12
 2026-08-24,Sussex,customer_sales,3
 2026-08-24,Wales - Mid,service_admin,1
@@ -206,30 +206,30 @@
 2026-08-24,Wales South - Valleys,service_admin,0
 2026-08-24,Wales South - Valleys,support_worker,0
 2026-08-24,Wales South - Valleys,customer_sales,0
-2026-08-24,West Midlands - Birmingham & Solihull,service_admin,26
+2026-08-24,West Midlands - Birmingham & Solihull,service_admin,24
 2026-08-24,West Midlands - Birmingham & Solihull,support_worker,2
 2026-08-24,West Midlands - Birmingham & Solihull,customer_sales,5
 2026-08-24,West Midlands - Black Country,service_admin,13
-2026-08-24,West Midlands - Black Country,support_worker,2
+2026-08-24,West Midlands - Black Country,support_worker,1
 2026-08-24,West Midlands - Black Country,customer_sales,1
-2026-08-24,West Midlands - Coventry & Warwickshire,service_admin,28
+2026-08-24,West Midlands - Coventry & Warwickshire,service_admin,27
 2026-08-24,West Midlands - Coventry & Warwickshire,support_worker,0
 2026-08-24,West Midlands - Coventry & Warwickshire,customer_sales,1
 2026-08-24,Wiltshire,service_admin,24
 2026-08-24,Wiltshire,support_worker,2
-2026-08-24,Wiltshire,customer_sales,2
+2026-08-24,Wiltshire,customer_sales,3
 2026-08-24,Worcestershire,service_admin,9
-2026-08-24,Worcestershire,support_worker,2
+2026-08-24,Worcestershire,support_worker,1
 2026-08-24,Worcestershire,customer_sales,3
 2026-08-24,Yorkshire - East,service_admin,12
 2026-08-24,Yorkshire - East,support_worker,1
 2026-08-24,Yorkshire - East,customer_sales,3
-2026-08-24,Yorkshire - North,service_admin,16
+2026-08-24,Yorkshire - North,service_admin,17
 2026-08-24,Yorkshire - North,support_worker,4
 2026-08-24,Yorkshire - North,customer_sales,0
 2026-08-24,Yorkshire - South,service_admin,19
 2026-08-24,Yorkshire - South,support_worker,1
 2026-08-24,Yorkshire - South,customer_sales,2
-2026-08-24,Yorkshire - West,service_admin,47
+2026-08-24,Yorkshire - West,service_admin,46
 2026-08-24,Yorkshire - West,support_worker,2
 2026-08-24,Yorkshire - West,customer_sales,8

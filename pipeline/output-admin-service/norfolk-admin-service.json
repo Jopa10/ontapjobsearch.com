@@ -350,6 +350,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225525272",
+    "title": "Customer Service Coordinator",
+    "company": "Smurfit Westrock - Agency - Permanent",
+    "location": "Norfolk",
+    "region": "Norfolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Join Our Team at Smurfit Westrock!\n\nAre you searching for a workplace that values you and your growth? At Smurfit Westrock, we re committed to sustainability, employee well-being, and personal development.\n\nAbout Us\n\nWe are a global leader in sustainable paper and packaging. Our focus is on the health and safety of our employees, the well-being of our communities, and delivering exceptional service to our customers. We support our team members to reach their full potential in an inclusive environment that values diversity.\n\nThe Role\n\nHere at Smurfit Westrock Diss, we are looking for a Customer Service Coordinator to join our internal sales team on a full time basis, working 8.30am-5pm\n\nReporting to the Customer Service Manager, this is an excellent opportunity for someone looking to build a career in customer service and develop their commercial and business skills within a fast-paced manufacturing environment.\n\nAs part of our Customer Service team, you'll be the first point of contact for customers, providing exceptional service while working closely with colleagues across sales, production and logistics. You'll gain exposure to a wide range of business activities, making this an ideal role for someone who enjoys learning, building relationships and taking on new challenges.\n\nWhat we're looking for:\n- A positive, proactive attitude and eagerness to learn.\n- Excellent communication and customer service skills.\n- Strong attention to detail and accuracy.\n- Good organisational skills and the ability to prioritise workload.\n- Confidence using Microsoft Office applications, including Excel.\n- Ability to work independently and as part of a team.\n- A professional approach and willingness to take ownership of tasks and customer enquiries.\n- Resilience and the ability to remain calm in a busy environment.\n\nIn return, you'll have the opportunity to develop valuable commercial, customer service and business administration skills as part of a supportive and collaborative team.\n\nWhat We Offer\n- Competitive salary & benefits, including annual leave, pension, and a Cycle to Work scheme\n- Ongoing training and development opportunities\n- 24/7 confidential support for you and your family\n- Flexible working options and family-friendly policies\n- Guaranteed interview for candidates meeting essential criteria (Disability Confident Employer)\n\nReady to make an impact? Apply today and help us build a sustainable future together.\n\nSmurfit Westrock reserve the right to only shortlist candidates who meet both the Essential and Desirable Criteria.\n\nWe are an equal opportunities employer, and we welcome applications from all suitably qualified persons regardless of their sex; religious or similar philosophical belief; political opinion; race; age; sexual orientation; or, whether they are married or are in a civil partnership; or, whether they are disabled; or whether they have undergone, are undergoing or intend to undergo gender reassignment.\n\nWe practice equality of opportunity in employment and select the best person for the job.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZ76I1tWsx0QpEvljNXE6Bkj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Smurfit Westrock",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107734747",
     "title": "Experienced Motor Claims Handler",
     "company": "Hackajob Ltd - Agency - Permanent",
@@ -550,6 +575,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5557389",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Norfolk & Suffolk Foundation NHS Trust",
+    "advertiser_name": "Norfolk & Suffolk Foundation NHS Trust",
+    "location": "Norwich, NR1 3RE",
+    "region": "Norfolk",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-08-24T11:47:18.393127554",
+    "closing_date": "2026-08-30",
+    "description": "Are you looking for a reception based role based in Norwich? Our friendly, fast-paced team have an exciting opportunity for a Receptionist to join the existing team... We are currently seeking an enthusiastic and motivated Receptionist to work in our Central Youth Team based at 80 St Stephens in Norwich. We offer a welcoming, friendly, and supportive environment that puts the needs and care of our service users first and provides a responsive administration service. This role will require a confident individual who has experience of supporting a busy team and should have a good understanding of confidentiality and data protection. You must possess excellent time management skills, a positive approach and be able to remain calm under pressure. The successful candidate will need to have the ability to confidently and sensitively deal with telephone calls from individuals who may sometimes be distressed or upset. To provide reception cover during working hours of Monday to Friday 9:00am to 5:00pm. Communication: Operate the Locality switchboard directing calls or taking messages and ensuring all messages are passed on in an appropriate and timely manner. Provide a reception service, dealing with enquiries and maintaining customer service standards at all times. Knowledge & Training: Undertake professional development as identified in appraisal and supervision. Enter and retrieve day to / from Trust Electronic Systems to support data quality and business performance. General: Log visitors in and out of building, allocating ID badges as appropriate. Sort and distribute incoming and outgoing mail. Ensure staff location system is up to date and supporting the Lone Working Policy and protocols. Receive and process information from teams including typing, photocopying and faxing documents. Maintain room booking systems. Please find attached our Job Description and Person Specification for more detail on your Key Accountabilities, then if you feel you have what it takes to make a difference in your local communities, click APPLY! Please visit our Facebook and Twitter page @NSFTjobs Interviews are yet to be confirmed, and candidates may only be given a minimum of 3 days notice. You will be contacted via email and invited to book a time. These emails may go to your SPAM, so please keep checking all your emails if applying.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0957",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0957",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5554600",
     "source": "NHS Jobs",
     "title": "Clerical Assistant",
@@ -565,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0727",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0727",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550506",
@@ -583,7 +634,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1085",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1085",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549454",
@@ -601,7 +656,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0315",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0315",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544865",
@@ -619,24 +678,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0296",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0296",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5542759",
-    "source": "NHS Jobs",
-    "title": "Administration Assistant",
-    "company": "Norfolk and Suffolk Integrated Care Board",
-    "advertiser_name": "Norfolk and Suffolk Integrated Care Board",
-    "location": "Norwich, NR1 2DH",
-    "region": "Norfolk",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T10:32:09.124719597",
-    "closing_date": "2026-08-31",
-    "description": "We are looking for a highly organised Administration Assistant to join the Continuing Healthcare Operations team at Norfolk and Suffolk ICB. The Continuing Healthcare Operations team provides administrative and business support to a large team of skilled clinicians who provide Continuing Healthcare services to patients across Norfolk and Suffolk. Continuing Healthcare (CHC) is a package of care, arranged and funded by the NHS, for patients who have been assessed as having a primary health need. The CHC process involves assessing individuals with ongoing health and care needs to determine whether they are eligible for NHS-funded support, either in their own home or in a residential or nursing home setting. The Operations team is a busy administrative function, supporting with a wide range of duties, including dealing with enquiries from patients, their families and health and social care professionals. Excellent customer service skills, the ability to organise and prioritise tasks and work effectively as a team are key skills required for this role. Main Duties As an Administration Assistant in the CHC Operations team you will provide comprehensive administrative support to the wider CHC team. This will include managing correspondence, telephone enquiries and email communications from patients and their families, accurately updating electronic records and databases and coordinating meetings and appointments. You will prepare documentation and outcome letters and ensure that any queries relating to cases are dealt with in a timely and efficient manner. You will work as part of a team that processes personal and sensitive information and as such will be expected to uphold high professional standards in your communication with patients, their families and health and care professionals. Working as part of a team, you will adopt a flexible approach to switching between tasks, providing cover when required across different administrative and business tasks. About you We are looking for someone who has excellent organisational and time-management skills and who can prioritise a varied workload to meet critical deadlines. You must be able to demonstrate strong communication skills and first-class customer service skills. You will be highly professional and able to work with sensitive and emotive information, observing the importance of confidentiality at all times. You will be able to work effectively, both independently and as part of a team, and have a positive, flexible and collaborative approach. The job description and person specification are an outline of the tasks, responsibilities and outcomes required of the role. The job holder will carry out any other duties as may reasonably be required by their line manager. The job description and person specification may be reviewed on an ongoing basis in accordance with the changing needs of the Department and the Organisation.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D0003-ICB027",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D0003-ICB027",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
