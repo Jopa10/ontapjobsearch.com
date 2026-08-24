@@ -79,7 +79,7 @@ type JobSlicePageProps = {
   relatedPage?: RelatedPage;
   browseLinks?: BrowseLinks;
   sectorFilterEnabled?: boolean;
-  softPageBackground?: boolean;
+  compactPageSpacing?: boolean;
 };
 
 function stringList(value: unknown): string[] {
@@ -250,7 +250,7 @@ export default function JobSlicePage({
   relatedPage,
   browseLinks,
   sectorFilterEnabled = false,
-  softPageBackground = false,
+  compactPageSpacing = false,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
@@ -266,12 +266,11 @@ export default function JobSlicePage({
   };
 
   return (
-    <div className={softPageBackground ? styles.softPageBackground : undefined}>
     <main
       style={{
         maxWidth: 1180,
-        margin: softPageBackground ? "0 auto" : "36px auto",
-        padding: softPageBackground ? "24px 16px 48px" : "0 16px",
+        margin: compactPageSpacing ? "16px auto 36px" : "36px auto",
+        padding: "0 16px",
       }}
     >
       <div className={styles.layout}>
@@ -311,16 +310,32 @@ export default function JobSlicePage({
         </aside>
 
         <div className={styles.content}>
-          <div style={{ marginBottom: 14 }}>
-            <h1 style={{ fontSize: 28, fontWeight: 800, marginBottom: 6 }}>{title}</h1>
-            <p style={{ color: "#6b7280", fontSize: 14 }}>
+          <div style={{ marginBottom: compactPageSpacing ? 8 : 14 }}>
+            <h1
+              style={{
+                fontSize: compactPageSpacing ? 26 : 28,
+                fontWeight: 800,
+                margin: compactPageSpacing ? "0 0 1px" : undefined,
+                marginBottom: compactPageSpacing ? 1 : 6,
+              }}
+            >
+              {title}
+            </h1>
+            <p
+              style={{
+                color: "#6b7280",
+                fontSize: compactPageSpacing ? 13 : 14,
+                lineHeight: compactPageSpacing ? 1.35 : undefined,
+                margin: compactPageSpacing ? 0 : undefined,
+              }}
+            >
               {introText ||
                 `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
             </p>
           </div>
 
           {browseLinks ? (
-            <div style={{ marginBottom: 12 }}>
+            <div style={{ marginBottom: browseLinks.compact ? 8 : 12 }}>
               <BrowseLinksPanel browseLinks={browseLinks} />
             </div>
           ) : null}
@@ -358,6 +373,5 @@ export default function JobSlicePage({
         </div>
       </div>
     </main>
-    </div>
   );
 }
