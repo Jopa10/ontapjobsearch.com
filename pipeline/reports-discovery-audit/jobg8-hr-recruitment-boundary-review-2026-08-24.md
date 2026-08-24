@@ -67,7 +67,7 @@ The 38 rejected contextual adverts are recorded below. Repeated titles represent
 
 ## False-negative check
 
-The current title inventory contained **486 advert instances across 241 HR/recruitment-adjacent exact titles**. Seven one-off titles initially sat outside the title net. Six were clear adjacent/noise roles: sales L&D, customer onboarding, legal onboarding or training leadership. `Resourcing & Scheduling Co-ordinator` was the only plausible occupational miss, so the broad net now also captures `resourcing` for review. This widens discovery without automatically accepting workforce-planning or scheduling work.
+The current title inventory contained **486 advert instances across 241 HR/recruitment-adjacent exact titles**. Seven one-off titles initially sat outside the title net. Six were clear adjacent/noise roles: sales L&D, customer onboarding, legal onboarding or training leadership. `Resourcing & Scheduling Co-ordinator` was the only plausible title-level miss, so the broad net now also captures `resourcing` for review. Its advert was then checked and rejected: it is operational field-service scheduling requiring DRS planning experience, not employee recruitment or HR. The final definite count therefore remains **163**. Keeping `resourcing` in the broad net ensures future adverts are reviewed without automatically accepting workforce-planning or scheduling work.
 
 ## Activation status
 
