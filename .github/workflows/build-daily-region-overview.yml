@@ -12,6 +12,7 @@ on:
       - app/_city-pages/configured-slices/**/customer-sales-jobs.json
       - app/_city-pages/configured-slices/**/paralegal-jobs.json
       - app/_city-pages/configured-slices/**/marketing-jobs.json
+      - app/_city-pages/configured-slices/**/hr-recruitment-jobs.json
       - pipeline/scripts/build_daily_region_overview.py
       - pipeline/scripts/assess_daily_family_coverage.py
       - pipeline/scripts/daily_family_coverage_history.py
