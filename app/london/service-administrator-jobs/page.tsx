@@ -62,6 +62,11 @@ export default function Page() {
       sectorFilterEnabled
       compactPageSpacing
       softPageBackground
+      relatedPage={{
+        href: "/job-search/london/paralegal-jobs",
+        prompt: "Looking for legal support work in London?",
+        label: "Paralegal jobs",
+      }}
       browseLinks={{
         heading: "Browse London by area",
         intro: "Use an area when the vacancy gives a reliable London location; otherwise it stays on this London-wide page.",
