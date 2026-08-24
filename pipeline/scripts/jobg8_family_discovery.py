@@ -141,7 +141,10 @@ def ontap_region(area: object, location: object, area_lookup: dict[str, str], fa
     loc = norm(location).casefold()
     if a in AREA_UNUSABLE_VALUES:
         return fallback.get(loc, "Other / Unknown")
-    return area_lookup.get(a, "Other / Unknown")
+    area_region = area_lookup.get(a)
+    if area_region:
+        return area_region
+    return fallback.get(loc, "Other / Unknown")
 
 
 def load_assessable_markets(path: Path) -> tuple[set[str], dict[str, str]]:

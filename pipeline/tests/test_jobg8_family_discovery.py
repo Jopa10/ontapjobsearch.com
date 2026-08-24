@@ -13,6 +13,34 @@ from pipeline.scripts import jobg8_family_discovery
 
 
 class FamilyDiscoveryTests(unittest.TestCase):
+    def test_unknown_area_uses_safe_location_fallback(self) -> None:
+        area_lookup = {"aylesford": "Kent"}
+        fallback = {"kent": "Kent", "essex": "Essex"}
+
+        self.assertEqual(
+            jobg8_family_discovery.ontap_region("Ditton", "Kent", area_lookup, fallback),
+            "Kent",
+        )
+        self.assertEqual(
+            jobg8_family_discovery.ontap_region("Hutton", "Essex", area_lookup, fallback),
+            "Essex",
+        )
+        self.assertEqual(
+            jobg8_family_discovery.ontap_region("Ditton", "Cheshire", area_lookup, fallback),
+            "Other / Unknown",
+        )
+
+    def test_known_area_remains_authoritative_over_location_fallback(self) -> None:
+        self.assertEqual(
+            jobg8_family_discovery.ontap_region(
+                "Aylesford",
+                "Essex",
+                {"aylesford": "Kent"},
+                {"essex": "Essex"},
+            ),
+            "Kent",
+        )
+
     def test_description_day_rate_is_annualised(self) -> None:
         self.assertEqual(
             jobg8_family_discovery.description_annualised_max("Contract: £300-£400 per day"),

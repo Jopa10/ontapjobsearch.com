@@ -15,10 +15,10 @@ Marketing passes the national viability gate after advert-level review, but the 
 - contextual adverts accepted: **38**
 - contextual adverts rejected: **1**
 - final definite national Marketing inventory: **135**
-- final definite inventory mapped into the 78-market universe: **119** across **38 markets**
-- markets with 3+ / 6+ / 9+ definite jobs: **14 / 4 / 1**
+- final definite inventory mapped into the 78-market universe after the same-day safe geo gap correction: **129** across **40 markets**
+- markets with 3+ / 6+ / 9+ definite jobs: **16 / 5 / 1**
 
-Strongest final markets are **London 27, Surrey 8, Greater Manchester - Manchester & Salford 7, West Midlands - Birmingham & Solihull 7, Kent 5 and Yorkshire - West 5**. These are proof-region/recurrence facts only.
+Strongest final markets are **London 27, Surrey 8, Greater Manchester - Manchester & Salford 7, West Midlands - Birmingham & Solihull 7, Kent 6, Berkshire 5 and Yorkshire - West 5**. These are proof-region/recurrence facts only. The geo correction maps six safe missing towns directly, adds exact Glasgow/Gwynedd fallbacks and lets unrecognised ambiguous towns use an already-approved specific location fallback; it does not create a new canonical market.
 
 ## Frozen occupational boundary
 
@@ -53,10 +53,10 @@ OVERLAP: a genuine Marketing role may also fit Service Admin or Customer Sales. 
 | 1688718 | Media & PR Manager | London | IN | advert evidence confirms core Marketing/communications delivery |
 | 3ce5f4f8-4897-4a81-90ef-8c030e54a55e | PPC Manager | London | IN | advert evidence confirms core Marketing/communications delivery |
 | 1688709 | Communications and Media Officer | Other / Unknown | IN | advert evidence confirms core Marketing/communications delivery |
-| cf6225f5-f643-403e-95c2-41b352b1a1ee | Digital Marketing and Social Media Creator | Other / Unknown | IN | advert evidence confirms core Marketing/communications delivery |
-| 23643_225473409 | Direct Response Marketing Specialist | Other / Unknown | IN | advert evidence confirms core Marketing/communications delivery |
-| 23643_225513399 | Marketing Business Partner | Other / Unknown | IN | advert evidence confirms core Marketing/communications delivery |
-| 23643_225473914 | PR Account Manager | Other / Unknown | IN | advert evidence confirms core Marketing/communications delivery |
+| cf6225f5-f643-403e-95c2-41b352b1a1ee | Digital Marketing and Social Media Creator | Devon | IN | advert evidence confirms core Marketing/communications delivery |
+| 23643_225473409 | Direct Response Marketing Specialist | Kent | IN | advert evidence confirms core Marketing/communications delivery |
+| 23643_225513399 | Marketing Business Partner | North East | IN | advert evidence confirms core Marketing/communications delivery |
+| 23643_225473914 | PR Account Manager | Sussex | IN | advert evidence confirms core Marketing/communications delivery |
 | 107752430 | Recruitment Marketing Specialist | Oxfordshire | IN | advert evidence confirms core Marketing/communications delivery |
 | 23643_225519487 | Temporary Marketing Account Manager | Oxfordshire | IN | advert evidence confirms core Marketing/communications delivery |
 | 29820d34-be7c-4606-95b0-1f2c2c4887ed | PR Manager | Suffolk | IN | advert evidence confirms core Marketing/communications delivery |
