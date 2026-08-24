@@ -2817,7 +2817,7 @@ job_id: 3b87e4c5-8d1e-4007-869f-caf58a2f5d37
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | HR Assistant
 job_id: 4aeb6dcb-44ea-4503-b1f4-0ba011dd9846
 ---
@@ -6312,11 +6312,10 @@ job_id: 107876962
 ## SHROPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SHROPSHIRE | Shropshire | Shropshire | £28000 - £34000 per year | TPA Liability Claims Handler
 job_id: ac37883a-9d84-4fb5-94a8-d2a287db3aa4
 ---
-
 ## SOMERSET — SELECTED
 
 ---
