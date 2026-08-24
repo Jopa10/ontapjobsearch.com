@@ -5,6 +5,7 @@ import {
   isCityPageActive,
   newcastleServiceAdministratorPage,
 } from "@/lib/city-page-data";
+import AiTipsCard from "@/components/AiTipsCard";
 
 const routeKey = "north-east/service-administrator-jobs";
 const canonicalUrl = "https://www.ontapjobsearch.com/north-east/service-administrator-jobs";
@@ -64,6 +65,7 @@ export default function Page() {
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
       relatedPage={relatedPage}
+      sidebarExtra={<AiTipsCard />}
     />
   );
 }
