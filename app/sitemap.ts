@@ -13,6 +13,7 @@ const baseRoutes = [
   '/',
   '/browse-jobs',
   '/about',
+  '/ai-tips',
   '/contact',
   '/privacy-policy',
   '/terms-of-service',
