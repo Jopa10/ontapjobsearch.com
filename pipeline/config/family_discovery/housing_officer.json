@@ -25,6 +25,7 @@
     "\\b(income|rent|arrears)\\s+(recovery\\s+)?officers?\\b",
     "\\b(resident|tenant)\\s+(engagement|involvement|liaison)\\s+officers?\\b",
     "\\bresident\\s+(engagement|service)\\s+(assistants?|officers?|coordinators?|leads?)\\b",
+    "\\bresident\\s+(insight|experience|improvement)\\s+(assistants?|officers?|coordinators?|leads?)\\b",
     "\\b(supported|sheltered|retirement)\\s+housing\\s+(officers?|assistants?|administrators?|coordinators?|managers?)\\b",
     "\\bhousing\\s+(and|&)\\s+support\\s+officers?\\b",
     "\\b(asb|anti[- ]social\\s+behavio[u]r)\\s+(officers?|caseworkers?|case\\s+managers?)\\b",
@@ -34,6 +35,10 @@
     "^(interim\\s+|assistant\\s+)?income\\s+officers?$",
     "\\brent\\s+income\\s+managers?\\b",
     "\\baccommodation\\s+solutions?\\s+(officers?|assistants?|administrators?|coordinators?)\\b",
+    "\\baccommodation\\s+support\\s+officers?\\b",
+    "\\bhome\\s*ownership\\s+services?\\s+(officers?|assistants?|administrators?|coordinators?)\\b",
+    "\\bleasehold\\s+(services?\\s+)?(officers?|assistants?|administrators?|coordinators?)\\b",
+    "\\bneighbou?rhood\\s+(services?\\s+)?officers?\\b",
     "^estate\\s+officers?$"
   ],
   "description_signals": [
@@ -63,7 +68,7 @@
     "\\b(officers?|advisers?|advisors?|assistants?|administrators?|coordinators?|caseworkers?|liaison|complaints?|income|allocations?|lettings|property\\s+managers?)\\b"
   ],
   "likely_in_title_patterns": [
-    "^(generic\\s+|contingency\\s+)?housing\\s+officers?(?:\\s*[-(].*)?$",
+    "\\bhousing\\s+officers?\\b",
     "\\bneighbou?rhood\\s+housing\\s+officers?\\b",
     "\\bhousing\\s+(options?|solutions?|needs?)\\s+officers?\\b",
     "\\b(homelessness|homeless)\\s+(prevention\\s+)?(officers?|advisers?|advisors?|caseworkers?)\\b",
@@ -72,17 +77,23 @@
     "\\b(allocations?|social\\s+housing\\s+lettings)\\s+(officers?|assistants?|administrators?|coordinators?)\\b",
     "\\b(income|rent|arrears)\\s+(recovery\\s+)?officers?\\b",
     "\\bhousing\\s+(services?|options?|solutions?)\\s+(assistants?|administrators?|coordinators?)\\b",
+    "\\bhousing\\s+(management|solutions?)\\s+(officers?|assistants?|administrators?|coordinators?)\\b",
+    "\\bcommunity\\s+housing\\s+(officers?|assistants?|administrators?|coordinators?)\\b",
+    "\\bhome\\s*ownership\\s+services?\\s+(officers?|assistants?|administrators?|coordinators?)\\b",
+    "\\bleasehold\\s+(services?\\s+)?(officers?|assistants?|administrators?|coordinators?)\\b",
     "\\bhousing\\s+(and|&)\\s+resident\\s+engagement\\s+officers?\\b",
     "\\b(resident|tenant)\\s+(engagement|involvement)\\s+officers?\\b"
   ],
   "borderline_override_title_patterns": [
     "\\b(senior|specialist)\\s+housing\\s+officers?\\b",
+    "\\bprivate\\s+sector\\s+housing\\s+officers?\\b",
     "\\bhousing\\s+(services?|operations?|neighbou?rhood)?\\s*managers?\\b",
     "\\b(supported|sheltered|retirement)\\s+housing\\s+(officers?|assistants?|administrators?|coordinators?|managers?)\\b",
     "\\bhousing\\s+(and|&)\\s+support\\s+officers?\\b",
     "\\b(asb|anti[- ]social\\s+behavio[u]r)\\s+(officers?|caseworkers?|case\\s+managers?)\\b",
     "\\b(resident|tenant)\\s+liaison\\s+officers?\\b",
-    "\\bhousing\\s+(complaints?|customer\\s+service|enforcement)\\s+officers?\\b"
+    "\\bhousing\\s+(complaints?|customer\\s+service|enforcement)\\s+officers?\\b",
+    "\\baccommodation\\s+support\\s+officers?\\b"
   ],
   "borderline_title_patterns": [
     "\\bhousing\\s+(assistants?|administrators?|coordinators?|advisers?|advisors?|caseworkers?|liaison\\s+officers?)\\b",
