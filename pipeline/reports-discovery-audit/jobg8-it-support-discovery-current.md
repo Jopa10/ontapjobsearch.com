@@ -1,12 +1,12 @@
 # JobG8 IT Support family discovery
 
-Feed: **2026-08-23.xlsx**
+Feed: **2026-08-24.xlsx**
 Jobs in feed: **10,000**
-Raw broad possible universe before exclusions/dedupe: **75**
+Raw broad possible universe before exclusions/dedupe: **79**
 Reference-key duplicates within broad universe: **0**
-Reference-deduped broad universe: **75**
+Reference-deduped broad universe: **79**
 Additional cross-reference content duplicates: **0**
-Content-unique broad universe: **75**
+Content-unique broad universe: **79**
 
 This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.
 All source rows remain in the CSV with duplicate flags; viability, geography and recurrence use content-unique adverts.
@@ -14,10 +14,10 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **42**
-Provisional BORDERLINE: **28**
-Provisional OUT (specialist/salary): **5**
-Estimated genuine inventory before deep advert review: **~56** (working range **42–70**).
+Provisional LIKELY_IN: **44**
+Provisional BORDERLINE: **29**
+Provisional OUT (specialist/salary): **6**
+Estimated genuine inventory before deep advert review: **~58** (working range **44–73**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **STOP / VERY THIN**.
 
@@ -25,18 +25,18 @@ Early verdict: **STOP / VERY THIN**.
 
 | Decision | Content-unique jobs |
 |---|---:|
-| LIKELY_IN | 42 |
-| BORDERLINE | 28 |
+| LIKELY_IN | 44 |
+| BORDERLINE | 29 |
+| OUT_SPECIALIST | 3 |
 | OUT_SALARY | 3 |
-| OUT_SPECIALIST | 2 |
 
 ## Salary distribution — content-unique broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| £25k–£30k | 24 |
-| £30k–£40k | 23 |
-| missing/unknown | 18 |
+| £25k–£30k | 25 |
+| £30k–£40k | 25 |
+| missing/unknown | 19 |
 | £40k–£50,000 | 6 |
 | >£50,000 OUT | 3 |
 | <£25k | 1 |
@@ -47,7 +47,7 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| I.T. & Communications | 47 |
+| I.T. & Communications | 51 |
 | Administration | 23 |
 | Call Centre / CustomerService | 3 |
 | Legal | 1 |
@@ -56,21 +56,24 @@ Classification column: **/Job/Classification**
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Content-unique candidates mapping into that UK market universe: **60**.
-Content-unique candidates outside it or unresolved: **15**.
+Content-unique candidates mapping into that UK market universe: **67**.
+Content-unique candidates outside it or unresolved: **12**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| Other / Unknown | 14 | NO |
+| Other / Unknown | 11 | NO |
 | London | 7 | YES |
 | Essex | 5 | YES |
 | Hertfordshire | 4 | YES |
 | Surrey | 4 | YES |
 | Kent | 4 | YES |
 | Berkshire | 3 | YES |
+| Yorkshire - West | 3 | YES |
 | Hampshire | 3 | YES |
+| Worcestershire | 2 | YES |
+| Northern Ireland - East | 2 | YES |
 | Sussex | 2 | YES |
 | West Midlands - Birmingham & Solihull | 2 | YES |
 | North East | 2 | YES |
@@ -80,7 +83,6 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | West Midlands - Black Country | 2 | YES |
 | Staffordshire | 2 | YES |
 | Cheshire - East | 1 | YES |
-| Worcestershire | 1 | YES |
 | West Midlands - Coventry & Warwickshire | 1 | YES |
 | Leicestershire | 1 | YES |
 | Norfolk | 1 | YES |
@@ -91,8 +93,6 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | Wales South - Cardiff & Vale | 1 | YES |
 | Oxfordshire | 1 | YES |
 | Yorkshire - South | 1 | YES |
-| Dorset | 1 | YES |
-| Yorkshire - West | 1 | YES |
 
 ## Next gate
 

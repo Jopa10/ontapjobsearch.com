@@ -1,9 +1,9 @@
 # JobG8 Claims Support regional viability diagnostic
 
 Canonical UK assessment universe: **78 markets**.
-Observed feed dates: **7** (2026-08-17 to 2026-08-23).
-Latest feed: **2026-08-23**.
-Content-unique IN jobs on latest feed: **28**; unmapped/unknown region: **1**.
+Observed feed dates: **7** (2026-08-18 to 2026-08-24).
+Latest feed: **2026-08-24**.
+Content-unique IN jobs on latest feed: **31**; unmapped/unknown region: **1**.
 
 Diagnostic only: this does not activate a slice. `STRONG_REVIEW_CANDIDATE` is deliberately an evidence signal, not an automatic LIVE gate.
 
@@ -16,24 +16,24 @@ Watch regions: **0**.
 
 | Region | Latest | Avg | Median | 6+ days | Recent counts | Evidence |
 |---|---:|---:|---:|---:|---|---|
-| Merseyside - Liverpool | 6 | 5.00 | 6.0 | 4 | 2 / 4 / 5 / 6 / 6 / 6 / 6 | STRONG_REVIEW_CANDIDATE |
-| Yorkshire - West | 3 | 3.86 | 4.0 | 0 | 4 / 5 / 5 / 4 / 3 / 3 / 3 | THIN |
-| Staffordshire | 3 | 2.86 | 3.0 | 0 | 2 / 2 / 4 / 3 / 3 / 3 / 3 | THIN |
-| Bristol & Bath | 3 | 2.57 | 3.0 | 0 | 0 / 3 / 3 / 3 / 3 / 3 / 3 | THIN |
-| Oxfordshire | 2 | 2.00 | 2.0 | 0 | 2 / 2 / 2 / 3 / 1 / 2 / 2 | THIN |
-| Kent | 2 | 1.71 | 2.0 | 0 | 1 / 1 / 2 / 2 / 2 / 2 / 2 | THIN |
-| Norfolk | 2 | 1.29 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 2 / 2 | THIN |
-| Essex | 2 | 1.14 | 1.0 | 0 | 0 / 1 / 1 / 1 / 1 / 2 / 2 | THIN |
+| Merseyside - Liverpool | 6 | 5.57 | 6.0 | 5 | 4 / 5 / 6 / 6 / 6 / 6 / 6 | STRONG_REVIEW_CANDIDATE |
+| Yorkshire - West | 3 | 3.71 | 3.0 | 0 | 5 / 5 / 4 / 3 / 3 / 3 / 3 | THIN |
+| Bristol & Bath | 3 | 3.00 | 3.0 | 0 | 3 / 3 / 3 / 3 / 3 / 3 / 3 | THIN |
+| Staffordshire | 3 | 3.00 | 3.0 | 0 | 2 / 4 / 3 / 3 / 3 / 3 / 3 | THIN |
+| Norfolk | 3 | 1.71 | 1.0 | 0 | 1 / 1 / 1 / 1 / 2 / 3 / 3 | THIN |
+| Northamptonshire | 2 | 2.00 | 2.0 | 0 | 2 / 3 / 3 / 2 / 2 / 0 / 2 | THIN |
+| Oxfordshire | 2 | 2.00 | 2.0 | 0 | 2 / 2 / 3 / 1 / 2 / 2 / 2 | THIN |
+| Kent | 2 | 1.86 | 2.0 | 0 | 1 / 2 / 2 / 2 / 2 / 2 / 2 | THIN |
+| Essex | 2 | 1.43 | 1.0 | 0 | 1 / 1 / 1 / 1 / 2 / 2 / 2 | THIN |
+| Buckinghamshire | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
 | Cambridgeshire | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
 | Leicestershire | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
-| Buckinghamshire | 1 | 0.86 | 1.0 | 0 | 0 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
-| Gloucestershire | 1 | 0.43 | 0.0 | 0 | 0 / 0 / 0 / 0 / 1 / 1 / 1 | THIN |
-| Northamptonshire | 0 | 2.00 | 2.0 | 0 | 2 / 2 / 3 / 3 / 2 / 2 / 0 | THIN |
-| Greater Manchester - Manchester & Salford | 0 | 1.43 | 1.0 | 0 | 3 / 3 / 3 / 1 / 0 / 0 / 0 | THIN |
-| West Midlands - Birmingham & Solihull | 0 | 1.14 | 1.0 | 0 | 3 / 2 / 2 / 1 / 0 / 0 / 0 | THIN |
-| Yorkshire - North | 0 | 0.57 | 1.0 | 0 | 1 / 1 / 1 / 1 / 0 / 0 / 0 | THIN |
-| London | 0 | 0.43 | 0.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 0 | THIN |
-| Scotland West - Glasgow | 0 | 0.43 | 0.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 0 | THIN |
+| Gloucestershire | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| Greater Manchester - Manchester & Salford | 0 | 1.00 | 0.0 | 0 | 3 / 3 / 1 / 0 / 0 / 0 / 0 | THIN |
+| West Midlands - Birmingham & Solihull | 0 | 0.71 | 0.0 | 0 | 2 / 2 / 1 / 0 / 0 / 0 / 0 | THIN |
+| Yorkshire - North | 0 | 0.43 | 0.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 0 | THIN |
+| London | 0 | 0.29 | 0.0 | 0 | 1 / 1 / 0 / 0 / 0 / 0 / 0 | THIN |
+| Scotland West - Glasgow | 0 | 0.29 | 0.0 | 0 | 1 / 1 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Bedfordshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Berkshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Cheshire - East | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |

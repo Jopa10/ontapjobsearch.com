@@ -1,13 +1,13 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **227** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **238** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
 - LIKELY_IN: **40**
 - BORDERLINE: **0**
-- Provisional OUT: **11**
+- Provisional OUT: **12**
 
 Most common LIKELY_IN titles:
 
@@ -26,24 +26,24 @@ Most common LIKELY_IN titles:
 
 ## Suffolk
 
-- LIKELY_IN: **27**
+- LIKELY_IN: **30**
 - BORDERLINE: **1**
 - Provisional OUT: **7**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing - Flexible Working - Fee Earner/Paralegal: 3
+- Conveyancing - Flexible Working - Fee Earner/Paralegal: 4
 - Private Client Legal Assistant / Paralegal: 2
 - Legal Secretary - Flexible Working - Excellent Benefits & Environment: 2
 - Private Client Fee Earner/ Paralegal: 2
+- Paralegal/Fee Earner - Private Client: 2
+- Fee Earner/Paralegal - Conveyancing: 2
 - Conveyancing Assistant/Paralegal: 2
 - Family Law Legal Assistant / Paralegal: 2
 - Conveyancing - Fee Earner/Paralegal: 1
 - Legal Secretary Woodbridge Part Time: 1
 - Legal Secretary - Full or Part Time: 1
 - Property Assistant Paralegal: 1
-- Paralegal - Property Litigation - Full or Part Time: 1
-- Employment Paralegal - Fully Flexible Working: 1
 
 Borderline titles:
 
@@ -51,36 +51,38 @@ Borderline titles:
 
 ## Essex
 
-- LIKELY_IN: **22**
+- LIKELY_IN: **29**
 - BORDERLINE: **0**
-- Provisional OUT: **4**
+- Provisional OUT: **6**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing - Fee Earner/Paralegal: 3
+- Conveyancing - Fee Earner/Paralegal: 4
 - Conveyancing Legal Secretary: 2
 - Conveyancing Fee Earner/Paralegal WITH Training Contract: 2
 - Conveyancing - Flexible Working - Fee Earner/Paralegal: 2
+- Paralegal/NQ Private Client - Excellent Rewards & Prospects: 2
 - Residential Property Paralegal: 1
 - Conveyancing - Paralegal /Fee Earner - Near Southend: 1
 - Paralegal Conveyancing - Residential / Commercial after training: 1
 - Paralegal Family Law: 1
-- Wills & Probate Paralegal: 1
-- Conveyancing Paralegal/Fee Earner: 1
-- Conveyancing Paralegal: 1
-- Conveyancing - Paralegal - Flexible Working: 1
+- Conveyancing Assistant/Paralegal: 1
+- Private Client Fee Earner/ Paralegal: 1
+- Paralegal Litigation with SQE Support - Hybrid & Bonus: 1
 
 ## Norfolk
 
-- LIKELY_IN: **13**
+- LIKELY_IN: **15**
 - BORDERLINE: **0**
-- Provisional OUT: **0**
+- Provisional OUT: **1**
 
 Most common LIKELY_IN titles:
 
 - Legal Secretary - Excellent Benefits & Environment: 3
 - Conveyancing Assistant/Paralegal: 2
 - Private Client Fee Earner/ Paralegal: 1
+- Legal Secretary - Private Client: 1
+- Property Paralegal: 1
 - Conveyancing Paralegal/Fee Earner: 1
 - Paralegal - Conveyancing: 1
 - Legal Secretary - Private Client - Excellent Benefits & Environment: 1
@@ -89,18 +91,18 @@ Most common LIKELY_IN titles:
 - Legal Secretary / Legal PA: 1
 - Corporate Commercial Legal Secretary - Norwich: 1
 
-## Bristol & Bath
+## Yorkshire - West
 
-- LIKELY_IN: **7**
+- LIKELY_IN: **8**
 - BORDERLINE: **0**
-- Provisional OUT: **0**
+- Provisional OUT: **3**
 
 Most common LIKELY_IN titles:
 
-- Paralegal: 2
-- In-House Paralegal Commercial Contracts/Tech Bristol: 1
-- In-House Paralegal Commercial/Tech Bristol + Hybrid: 1
+- Conveyancing Assistant: 3
+- Experienced Conveyancing Assistant: 1
+- Family Legal Secretary - Leeds: 1
+- Industrial Disease Paralegal: 1
 - Remote Conveyancing Paralegal: 1
 - Legal Secretary: 1
-- Legal Assistant: 1
 

@@ -1,5 +1,4 @@
 ﻿display_reference,title,area,location,ontap_region,jobg8_classification,salary_minimum_raw,salary_maximum_raw,salary_period,annualised_minimum_estimate,annualised_maximum_estimate,annualised_midpoint_estimate,discovery_decision,discovery_reason
-c8b1299b-e708-4fd4-ac18-a278a99aa347,Motor Insurance Sales advisor,Liverpool,Merseyside,Merseyside - Liverpool,Insurance & Superannuation,26000.00,36000.00,Annual,26000.0,36000.0,31000.0,CORE_INSURANCE_SUPPORT,insurance + support/service title
 107754488,Head of Distribution - Commercial Insurance,Not Specified,Essex,Essex,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107686128,Senior New Business Underwriter- Property & Casualty,Not Specified,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,70000.00,70000.00,Annual,70000.0,70000.0,70000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107728507,Senior Claims Adjuster - Casualty,City,London,London,Insurance & Superannuation,,,Annual,,,,REVIEW_CLAIMS_TECHNICAL,claims technical boundary
@@ -27,7 +26,6 @@ c8b1299b-e708-4fd4-ac18-a278a99aa347,Motor Insurance Sales advisor,Liverpool,Mer
 107796772,Delegated Authority Underwriter - Property & Casualty,Bristol,Somerset,Bristol & Bath,Executive Positions,45000.00,45000.00,Annual,45000.0,45000.0,45000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107794361,Senior New Business Underwriter- Property & Casualty,Not Specified,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,60000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107765632,Property Claims Technician,Stoke-on-trent,Staffordshire,Staffordshire,Real Estate & Property,,,Annual,,,,REVIEW_CLAIMS_TECHNICAL,claims technical boundary
-107785821,Strategic Pricing Actuary,Not Specified,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107790787,Insurance Account Manager,City,Belfast,London,Sales & Marketing,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 23643_225471384,Claims Handler,Not Specified,Staffordshire,Staffordshire,Call Centre / CustomerService,24000.00,26000.00,Annual,24000.0,26000.0,25000.0,CORE_CLAIMS_SUPPORT,claims + support/service title
 107792646,Insurance Account Handler,City,Belfast,London,Sales & Marketing,,,Annual,,,,CORE_INSURANCE_SUPPORT,insurance + support/service title
@@ -175,11 +173,26 @@ c7f4fe76-1a66-4737-bb81-ec2bf8b3992b,Claims Handler,Stoke-on-trent,Staffordshire
 a3a9b63c-8ae0-4bf5-b3e4-8bda6a131d5d,Experienced Insurance Technician,Cheltenham,Gloucestershire,Gloucestershire,Insurance & Superannuation,30000.00,42000.00,Annual,30000.0,42000.0,36000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 8bacbd3d-b1e4-4aa9-bf3c-e34902d8394c,Risk and Insurance Manager,Not Specified,London,London,Insurance & Superannuation,360.00,420.00,Daily,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 23643_225412786,Claims Administrator,Ambrosden,Oxfordshire,Oxfordshire,Administration,26000.00,28000.00,Annual,26000.0,28000.0,27000.0,CORE_CLAIMS_SUPPORT,claims + support/service title
-107882023,Actuarial Manager (Life Valuations Reporting),City,London,London,Insurance & Superannuation,85000.00,85000.00,Annual,85000.0,85000.0,85000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 56f46394-a761-4ac7-b2e1-3ec11fad4494,COMPLEX PERSONAL INJURY CLAIMS HANDLER,Liverpool,Merseyside,Merseyside - Liverpool,Insurance & Superannuation,,,Annual,,,,CORE_CLAIMS_SUPPORT,claims + support/service title
 107836205,Head of Underwriting Governance and Controls,City,London,London,Insurance & Superannuation,800.00,825.00,Daily,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107881499,Motor Claims Intervention Team Leader,Not Specified,Not Specified,Other / Unknown,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,40000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107882016,Commercial Insurance Account Advisor,Newton Abbot,Devon,Devon,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,35000.0,CORE_INSURANCE_SUPPORT,insurance + support/service title
 337a2517-28e3-42c2-b3ff-cb600c5eb69c,Senior Motor Fraud Claims Handler,Not Specified,Essex,Essex,Insurance & Superannuation,,,Annual,,,,CORE_CLAIMS_SUPPORT,claims + support/service title
-107694006,Senior Commercial Account Handler,Chester,Cheshire,Cheshire - West,Sales & Marketing,45000.00,45000.00,Annual,45000.0,45000.0,45000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
 e01f6780-4abd-4c55-b0be-e7446e815eae,Commercial Insurance Account Advisor,Newton Abbot,Devon,Devon,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,35000.0,CORE_INSURANCE_SUPPORT,insurance + support/service title
+107734785,Motor Claims Handler,Norwich,Norfolk,Norfolk,Insurance & Superannuation,26000.00,26000.00,Annual,26000.0,26000.0,26000.0,CORE_CLAIMS_SUPPORT,claims + support/service title
+107862411,Mortgage Broker,Amersham,Buckinghamshire,Buckinghamshire,Banking & Financial Services,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107881301,Insurance Apprentice,Lancing,Sussex,Sussex,Insurance & Superannuation,20000.00,20000.00,Annual,20000.0,20000.0,20000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
+107881821,Mortgage Broker,Basildon,Essex,Essex,Banking & Financial Services,30000.00,30000.00,Annual,30000.0,30000.0,30000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107862674,Credit Analyst - LBO Underwriting,City,London,London,Accounting,95000.00,95000.00,Annual,95000.0,95000.0,95000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107747408,Senior Account Handler,Cambridge,Cambridgeshire,Cambridgeshire,Sales & Marketing,45000.00,45000.00,Annual,45000.0,45000.0,45000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
+107882023,Actuarial Manager (Life Valuations Reporting),City,London,London,Insurance & Superannuation,85000.00,85000.00,Annual,85000.0,85000.0,85000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107785821,Strategic Pricing Actuary,Not Specified,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+ac37883a-9d84-4fb5-94a8-d2a287db3aa4,TPA Liability Claims Handler,Telford,Shropshire,Shropshire,Insurance & Superannuation,28000.00,34000.00,Annual,28000.0,34000.0,31000.0,CORE_CLAIMS_SUPPORT,claims + support/service title
+107792061,Senior Underwriter,Leeds,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107853950,UK Technical Underwriting Manager Risk Managed,City,London,London,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107702841,Travel Claims Handler,Northampton,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,,CORE_CLAIMS_SUPPORT,claims + support/service title
+107792065,Employer Liability and Public Liability Claims Handler (6 - Month FTC),Northampton,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,,CORE_CLAIMS_SUPPORT,claims + support/service title
+107829184,FAC Reinsurance Pricing Actuary,City,London,London,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107686377,Senior Actuary UK&I,City,London,London,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107783628,Defence Claims Manager,Northampton,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+bdc99b9c-63f1-4379-bbaa-eccf4f1b1728,Marine Claims Manager,Ipswich,Suffolk,Suffolk,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary

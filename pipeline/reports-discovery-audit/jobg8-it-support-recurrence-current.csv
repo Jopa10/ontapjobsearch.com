@@ -16,7 +16,7 @@ Devon,0,2,2,0,0
 Dorset,1,0,1,0,0
 Essex,3,2,5,0,0
 Gloucestershire,0,1,1,0,0
-Greater Manchester - Manchester & Salford,0,0,0,0,0
+Greater Manchester - Manchester & Salford,0,0,0,0,1
 Greater Manchester - North,0,0,0,0,0
 Greater Manchester - South,0,0,0,0,0
 Greater Manchester - Wigan & Bolton,0,0,0,0,0
@@ -52,14 +52,14 @@ West Midlands - Birmingham & Solihull,0,1,1,1,0
 West Midlands - Black Country,0,1,1,1,0
 West Midlands - Coventry & Warwickshire,1,0,1,0,0
 Wiltshire,1,0,1,0,0
-Worcestershire,0,1,1,0,0
+Worcestershire,1,1,2,0,0
 Yorkshire - East,0,0,0,0,0
 Yorkshire - North,0,2,2,0,0
 Yorkshire - South,1,0,1,0,0
-Yorkshire - West,0,1,1,0,0
+Yorkshire - West,1,2,3,0,0
 North Scotland,0,0,0,0,0
 Scotland - Borders,0,0,0,0,0
-Scotland Central - Edinburgh & Lothians,0,0,0,0,0
+Scotland Central - Edinburgh & Lothians,1,0,1,0,0
 Scotland Central - Falkirk & Stirling,0,0,0,0,0
 Scotland Central - Fife,0,0,0,0,0
 Scotland Central - Tayside,0,0,0,0,0
@@ -75,5 +75,5 @@ Wales South - Cardiff & Vale,1,0,1,0,0
 Wales South - Gwent,0,0,0,0,0
 Wales South - Swansea Bay,0,0,0,0,0
 Wales South - Valleys,0,0,0,0,0
-Northern Ireland - East,0,0,0,0,0
+Northern Ireland - East,1,1,2,0,0
 Northern Ireland - West,0,0,0,0,0

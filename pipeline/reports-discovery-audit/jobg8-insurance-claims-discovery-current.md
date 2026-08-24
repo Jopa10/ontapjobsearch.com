@@ -1,11 +1,11 @@
 # JobG8 Insurance & Claims Support discovery audit
 
-Feed: **2026-08-23.xlsx**
+Feed: **2026-08-24.xlsx**
 Jobs in feed: **10,000**
-Broad insurance/claims candidates: **184**
-Core support candidates: **47**
-Boundary-review candidates: **60**
-Specialist/senior exclusions at discovery stage: **77**
+Broad insurance/claims candidates: **197**
+Core support candidates: **50**
+Boundary-review candidates: **61**
+Specialist/senior exclusions at discovery stage: **86**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
 
@@ -13,10 +13,10 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 
 | Decision | Jobs |
 |---|---:|
-| EXCLUDE_SPECIALIST | 77 |
-| REVIEW_OTHER_INSURANCE | 37 |
-| CORE_CLAIMS_SUPPORT | 30 |
-| CORE_INSURANCE_SUPPORT | 17 |
+| EXCLUDE_SPECIALIST | 86 |
+| REVIEW_OTHER_INSURANCE | 38 |
+| CORE_CLAIMS_SUPPORT | 34 |
+| CORE_INSURANCE_SUPPORT | 16 |
 | REVIEW_ACCOUNT_HANDLER | 13 |
 | REVIEW_CLAIMS_TECHNICAL | 7 |
 | REVIEW_DESCRIPTION_ONLY | 3 |
@@ -24,9 +24,9 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 ## Salary shape — core support only
 
 Soft reference range: **£25,000–£40,000** (diagnostic, not a hard gate).
-Core jobs with usable annualised salary: **30 / 47**.
+Core jobs with usable annualised salary: **31 / 50**.
 Median annualised midpoint: **£30,500**.
-Within soft range: **30 (100%)**; below: **0**; above: **0**.
+Within soft range: **31 (100%)**; below: **0**; above: **0**.
 Hourly/daily/weekly figures are annualised approximately for discovery only.
 
 ## Recurring core titles
@@ -37,9 +37,9 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | 3 | Insurance Account Handler |
 | 2 | Senior Claims Handler |
 | 2 | Property Claims Handler |
+| 2 | Motor Claims Handler |
 | 2 | Legal Expenses Claims Handler |
 | 2 | Commercial Insurance Account Advisor |
-| 1 | Motor Insurance Sales advisor |
 | 1 | Experienced Motor Claims Handler |
 | 1 | Third-Party Capture Claims Handler |
 | 1 | Insurance Administrator Friendly team + 25 days A/L |
@@ -80,7 +80,7 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 36 | Insurance & Superannuation |
+| 39 | Insurance & Superannuation |
 | 4 | Legal |
 | 2 | Administration |
 | 2 | Sales & Marketing |
@@ -91,14 +91,14 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | Ontap region |
 |---:|---|
-| 9 | Merseyside - Liverpool |
+| 8 | Merseyside - Liverpool |
 | 5 | Yorkshire - West |
+| 3 | Norfolk |
 | 3 | Kent |
 | 3 | Staffordshire |
 | 3 | London |
 | 3 | Bristol & Bath |
 | 3 | Essex |
-| 2 | Norfolk |
 | 2 | Greater Manchester - Wigan & Bolton |
 | 2 | Worcestershire |
 | 2 | Hampshire |

@@ -2,9 +2,9 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **30**.
-BORDERLINE jobs mapped into the universe: **25**.
-Markets with at least one LIKELY_IN job: **16 / 78**.
+LIKELY_IN jobs mapped into the universe: **34**.
+BORDERLINE jobs mapped into the universe: **27**.
+Markets with at least one LIKELY_IN job: **20 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
 - markets with 3+ LIKELY_IN: **4**
@@ -25,8 +25,12 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Staffordshire | 2 | 0 | 2 |
 | Sussex | 2 | 0 | 2 |
 | Hertfordshire | 1 | 3 | 4 |
+| Yorkshire - West | 1 | 2 | 3 |
+| Northern Ireland - East | 1 | 1 | 2 |
+| Worcestershire | 1 | 1 | 2 |
 | Cheshire - East | 1 | 0 | 1 |
 | Dorset | 1 | 0 | 1 |
+| Scotland Central - Edinburgh & Lothians | 1 | 0 | 1 |
 | Wales South - Cardiff & Vale | 1 | 0 | 1 |
 | West Midlands - Coventry & Warwickshire | 1 | 0 | 1 |
 | Wiltshire | 1 | 0 | 1 |
@@ -41,9 +45,5 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Oxfordshire | 0 | 1 | 1 |
 | West Midlands - Birmingham & Solihull | 0 | 1 | 1 |
 | West Midlands - Black Country | 0 | 1 | 1 |
-| Worcestershire | 0 | 1 | 1 |
-| Yorkshire - West | 0 | 1 | 1 |
-| Bedfordshire | 0 | 0 | 0 |
-| Bristol & Bath | 0 | 0 | 0 |
 
 This report is diagnostic evidence only. New-family LIVE activation remains an explicit owner decision after the governed family boundary and national validation are complete.
