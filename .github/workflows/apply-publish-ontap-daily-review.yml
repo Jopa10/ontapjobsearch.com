@@ -7,6 +7,9 @@ on:
         description: Type PUBLISH after completing the one Ontap daily review file
         required: true
         type: string
+  schedule:
+    - cron: "45 11 * * *"
+      timezone: "Europe/London"
 
 concurrency:
   group: ontap-review-publish
@@ -23,6 +26,7 @@ jobs:
 
     steps:
       - name: Check explicit approval
+        if: github.event_name == 'workflow_dispatch'
         env:
           APPROVAL: ${{ inputs.approval }}
         run: |
@@ -31,23 +35,78 @@ jobs:
             exit 1
           fi
 
+      - name: Determine manual or automatic publication mode
+        id: mode
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "unresolved_policy=quarantine" >> "$GITHUB_OUTPUT"
+            echo "Manual PUBLISH mode selected."
+            exit 0
+          fi
+
+          runs_json="$(gh run list \
+            --workflow apply-publish-ontap-daily-review.yml \
+            --branch main \
+            --event workflow_dispatch \
+            --limit 50 \
+            --json databaseId,createdAt,status,conclusion,url)"
+          successful_run="$(RUNS_JSON="$runs_json" python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          from zoneinfo import ZoneInfo
+
+          london = ZoneInfo("Europe/London")
+          today = dt.datetime.now(dt.timezone.utc).astimezone(london).date()
+          matches = []
+          for row in json.loads(os.environ["RUNS_JSON"]):
+              created = dt.datetime.fromisoformat(
+                  row["createdAt"].replace("Z", "+00:00")
+              ).astimezone(london)
+              if created.date() == today and row.get("conclusion") == "success":
+                  matches.append((created, row))
+          if matches:
+              print(max(matches, key=lambda item: item[0])[1]["url"])
+          PY
+          )"
+
+          echo "unresolved_policy=withhold" >> "$GITHUB_OUTPUT"
+          if [ -n "$successful_run" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "manual_run_url=$successful_run" >> "$GITHUB_OUTPUT"
+            echo "A successful manual publication already completed today: $successful_run"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "No successful manual publication found today; starting the 11:45 automatic safety-net publish."
+          fi
+
       - name: Check out main
+        if: steps.mode.outputs.skip != 'true'
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
 
       - name: Set up Python
+        if: steps.mode.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Reconcile master review with latest source state
+        if: steps.mode.outputs.skip != 'true'
         working-directory: pipeline
         run: |
           python -m review_hub.master_review build
 
       - name: Commit reconciled master review
+        if: steps.mode.outputs.skip != 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -71,11 +130,13 @@ jobs:
           exit 1
 
       - name: Validate review with job-level isolation and fan out decisions
+        if: steps.mode.outputs.skip != 'true'
         working-directory: pipeline
         run: |
           python -m review_hub.master_review apply \
             --require-complete \
             --write \
+            --unresolved-policy "${{ steps.mode.outputs.unresolved_policy }}" \
             --plan "$RUNNER_TEMP/ontap-review-publish-plan.json"
           cat "$RUNNER_TEMP/ontap-review-publish-plan.json"
           python - "$RUNNER_TEMP/ontap-review-publish-plan.json" <<'PY'
@@ -85,6 +146,7 @@ jobs:
 
           plan = json.load(open(sys.argv[1], encoding="utf-8"))
           quarantined = plan.get("quarantined_jobs", [])
+          withheld = plan.get("withheld_jobs", [])
           isolated = plan.get("isolated_sources", [])
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
               if quarantined:
@@ -96,6 +158,11 @@ jobs:
                       handle.write(
                           f"- {row['source']}/{row['source_job_id']}: {row['title']}\n"
                       )
+              if withheld:
+                  handle.write("\n### Automatic no-edit withholding\n\n")
+                  handle.write(
+                      f"{len(withheld)} unresolved review job(s) were withheld for this publication without recording exclusions; clean and automatic inventory continues.\n"
+                  )
               if isolated:
                   handle.write("\n### Source isolation\n\n")
                   handle.write(
@@ -106,6 +173,7 @@ jobs:
           PY
 
       - name: Verify fanout changed only source review surfaces
+        if: steps.mode.outputs.skip != 'true'
         run: |
           set -euo pipefail
           unexpected="$({ git diff --name-only | awk '
@@ -122,6 +190,7 @@ jobs:
           fi
 
       - name: Commit fanned-out review decisions
+        if: steps.mode.outputs.skip != 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -151,6 +220,7 @@ jobs:
           exit 1
 
       - name: Dispatch current source publishers sequentially
+        if: steps.mode.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -308,17 +378,31 @@ jobs:
           fi
 
       - name: Publish summary
-        if: always()
+        if: ${{ always() && steps.mode.outputs.skip != 'true' }}
         run: |
           {
             echo "## Ontap Review Hub apply/publish"
             echo
             echo "The master review was reconciled against the latest committed source state before validation."
+            if [ "${{ steps.mode.outputs.unresolved_policy }}" = "withhold" ]; then
+              echo "The 11:45 safety net ran because no successful manual publication was found today. Blank review jobs were withheld without becoming remembered exclusions; clean and automatic inventory continued."
+            else
+              echo "Up to 15 unresolved or malformed review actions per source were withheld fail-closed at job level and flagged; more than 15 isolates that source under the normal manual policy."
+            fi
             echo "Unchanged manual decisions were retained; jobs no longer requiring review were removed."
-            echo "Up to 15 unresolved or malformed review actions per source are withheld fail-closed at job level and flagged; clean jobs in that source can continue."
-            echo "More than 15 unresolved/problem jobs, or a source-level integrity mismatch, isolates that source rather than blocking unrelated inventory."
+            echo "A source-level integrity mismatch isolates that source rather than blocking unrelated inventory."
             echo "Manual actions were fanned out to the owning source review files."
             echo "Current source publishers were dispatched sequentially, with transient GitHub dispatch failures retried automatically."
             echo "Any source publisher failure is fail-soft at the master boundary: its last approved state remains in place and other clean sources continue."
             echo "The final shared verified-page publisher remains a system-level integrity gate and is still blocking if it fails."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Already published today summary
+        if: steps.mode.outputs.skip == 'true'
+        run: |
+          {
+            echo "## Ontap 11:45 publication safety net"
+            echo
+            echo "No automatic publication was needed because a successful manual Apply and publish run already completed today."
+            echo "Manual run: ${{ steps.mode.outputs.manual_run_url }}"
           } >> "$GITHUB_STEP_SUMMARY"

@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 August 2026 — Daily publication now has an **11:45am UK-time safety net**. If the normal manual Apply and publish workflow has already succeeded that day, the scheduled run does nothing. If not, it publishes fresh clean/automatic inventory through the same guarded chain while withholding every untouched review job for that day without saving it as an exclusion. Those jobs can therefore return for later review; stale or factually inconsistent sources remain isolated safely.
 - 24 August 2026 — Teaching Vacancies now uses one complete, page-audited national discovery pass with targeted page/route retries, replacing the former requirement for two identical full sweeps. Genuine vacancy arrivals/closures no longer abort the daily refresh; persistent incomplete or inconsistent route evidence still stops TV safely.
 - 24 August 2026 — Teaching Vacancies refresh no longer fails because an older edit-file block has already been resolved in the authoritative CSV or has left the current review. Those obsolete blocks are ignored only while carrying decisions into a new daily review; normal owner-edit validation remains strict.
 - 23 August 2026 — **London sector-view trial:** the London-wide Admin & Customer Service page now lets users switch among all jobs, business/agency jobs, and clearly identified public-service/charity jobs. Every job remains server-rendered at the existing URL; the client controls only the visible view. Known NHS Jobs and Teaching Vacancies sources are grouped directly, clearly charitable/public JobG8 roles can be grouped conservatively, and ambiguity defaults to business/agency. Badges, matched switch guidance after five visible jobs and a new `/sector-switching` explainer support interpretation without changing job-detail URLs or the underlying source mix.
@@ -193,12 +194,14 @@ Core controls are:
 - scheduled source refresh/reviews, including NEJobs, VONNE, Teaching Vacancies regional/master review and the NHS Administrative & Clerical review refresh at 10:05 UTC;
 - the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved Customer Sales slice, persists the current 55-market × 3-family diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
-- one owner-facing apply/publish orchestrator;
+- one owner-facing apply/publish orchestrator, with manual `PUBLISH` control and an 11:45 Europe/London no-edit safety net;
 - source-specific publishers, including NHS, with the reviewed NHS publisher using the same transactional composer as the normal daily run;
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
 - normal Vercel Git deployment from `main`, with explicit live-SHA verification;
 - manual-only Vercel CLI recovery using `VERCEL_TOKEN` if Git deployment fails;
 - Google indexing and operational monitoring.
+
+The 11:45 safety net checks for a successful manual Apply and publish run on the current London date. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
 
 Teaching Vacancies regional/master review uses one complete audited discovery pass with targeted retries for a failed page or internally inconsistent route; it does not require an identical second national sweep. Its writeback is protected against concurrent `main` movement by full-history checkout plus up to three pull-rebase/push attempts. The 22 August recovery proved the generated source evidence, rebuilt master review, reviewed publication and final deployment chain end-to-end.
 

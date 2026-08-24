@@ -68,6 +68,8 @@ If a source is shown as `STALE` or `MISSING`, repair/rerun that source first and
 
 `apply-publish-ontap-daily-review.yml` is the orchestration point for applying completed review decisions and dispatching the required guarded publishers.
 
+It also runs at 11:45 Europe/London as the no-edit safety net. A successful manual dispatch earlier on the same London date makes the scheduled run a no-op. Otherwise blank review jobs are withheld from that publication without being saved as exclusions, while clean/automatic inventory continues through the existing source publishers and final verified-page gate.
+
 ## Publishing
 
 `publish-verified-pages.yml` is the shared final publisher. It writes the approved live JSON into the website-facing `app/` surfaces, refreshes publish metadata and live-job reporting, and maintains active city-page outputs.
