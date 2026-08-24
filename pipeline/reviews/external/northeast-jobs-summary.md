@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-08-23
-review_fingerprint: ccc152883867115f57cce0aa276d32fc2007ca25b9e6cedae7f3b50ba9f112c3
+review_date: 2026-08-24
+review_fingerprint: c82fdb316bcf136a296020fb644f004eabaf16044fbd67cf14a278775aa27e34
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-08-23T08:04:27+01:00
+Run generated: 2026-08-24T08:23:25+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 330
+JobG8 comparison rows in target geographies: 236
 
 ## Funnel
 
-- RSS vacancies read: 693
-- Hard-pass title/teaser screen before detail requests: 638
-- Detail candidates: 55
+- RSS vacancies read: 667
+- Hard-pass title/teaser screen before detail requests: 613
+- Detail candidates: 54
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 4
 - Tees Valley explicitly excluded: 10
-- Target-geography candidates reviewed: 41
+- Target-geography candidates reviewed: 40
 
 ## Detail diagnostics
 
@@ -32,17 +32,17 @@ JobG8 comparison rows in target geographies: 330
 ## Review outcomes
 
 - HC: 11
-- POSS: 30
+- POSS: 29
 - Hard pass: 0
-- Final selected after remembered/manual actions: 33
+- Final selected after remembered/manual actions: 32
 - Final POSS awaiting decision: 0
 - Manually excluded: 8
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 3
-- Likely unique to North East Jobs: 38
+- Likely unique to North East Jobs: 37
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-08-22 is not 2026-08-23; old actions ignored
+- Manual review warning: manual review date 2026-08-23 is not 2026-08-24; old actions ignored
 
 ## SELECTED
 
@@ -200,15 +200,6 @@ closing_date: 31/08/2026
 reason: possible JobG8 duplicate requires review
 source_job_id: 299796
 source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/299796
----
----
-action: select
-POSS | North East - County Durham & Darlington/Hartlepool | Barnard Castle | £27,128.40 | Facilities Coordinator
-employer: The Bowes Museum
-closing_date: 24/08/2026 08:00
-reason: transferable office/service title with specialist or borderline wording: facilities
-source_job_id: 300105
-source_url: https://www.northeastjobs.org.uk/job/Facilities_Coordinator/300105
 ---
 ---
 action: select
