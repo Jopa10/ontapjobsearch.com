@@ -184,6 +184,7 @@ def main() -> int:
     description_context = compile_many(cfg.get("description_title_context_patterns", []))
     likely_in = compile_many(cfg.get("likely_in_title_patterns", []))
     borderline = compile_many(cfg.get("borderline_title_patterns", []))
+    borderline_override = compile_many(cfg.get("borderline_override_title_patterns", []))
     specialist_out = compile_many(cfg.get("specialist_out_title_patterns", []))
     description_signals = [s.casefold() for s in cfg.get("description_signals", [])]
     description_min_hits = int(cfg.get("description_min_hits", 2))
@@ -218,7 +219,10 @@ def main() -> int:
             reason = f"annualised salary exceeds £{hard_max:,.0f}"
         elif any_match(specialist_out, title):
             provisional = "OUT_SPECIALIST"
-            reason = "specialist/senior technical title boundary"
+            reason = "specialist/senior title boundary"
+        elif any_match(borderline_override, title):
+            provisional = "BORDERLINE"
+            reason = "mixed/ambiguous title requires advert-context review"
         elif any_match(likely_in, title):
             provisional = "LIKELY_IN"
             reason = "family title is a strong inclusion signal"
