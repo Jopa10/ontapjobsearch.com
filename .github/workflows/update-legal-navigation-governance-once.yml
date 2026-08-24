@@ -1,0 +1,56 @@
+name: Update Legal navigation governance once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/update-legal-navigation-governance-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Record Legal navigation integration
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          bullet = (
+              '- 24 August 2026 — **Legal Assistant / Paralegal user-facing navigation integration:** '
+              'the homepage now exposes a dedicated `Legal Assistant & Paralegal` regional block driven by the existing '
+              'configured dynamic-slice mechanism, currently surfacing London, Suffolk, Essex and Norfolk with live counts. '
+              'The London-wide Admin & Customer Service page now cross-links directly to `/job-search/london/paralegal-jobs` '
+              'as `Paralegal jobs`. `/browse-jobs` already consumes all published dynamic slices, so the four Legal pages are '
+              'also present there without a separate hard-coded list. No Legal market beyond the four owner-approved LIVE '
+              'regions is activated by this navigation change.\n'
+          )
+
+          for filename in ('SYSTEM_MAP.md', 'SYSTEM_OVERVIEW.md'):
+              path = Path(filename)
+              text = path.read_text(encoding='utf-8')
+              marker = '## Recent canonical changes\n\n'
+              if bullet not in text:
+                  if marker not in text:
+                      raise SystemExit(f'Missing Recent canonical changes marker in {filename}')
+                  text = text.replace(marker, marker + bullet, 1)
+              path.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit governance update
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add SYSTEM_MAP.md SYSTEM_OVERVIEW.md
+          if git diff --cached --quiet; then
+            echo 'Governance already current'
+            exit 0
+          fi
+          git commit -m 'Document Legal navigation integration'
+          git pull --rebase origin main
+          git push origin HEAD:main
