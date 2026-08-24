@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 3
-- automatic exclude: 26
-- effective include: 7
+- automatic exclude: 22
+- effective include: 6
 - effective review: 3
-- effective exclude: 26
+- effective exclude: 22
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -96,18 +96,6 @@ job_id: jobg8-23643_225423861
 reason: Approved Barnsley catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist Admin Assistant
-company: High Street Practice
-location: Barnsley, S71 4RF
-source: NHS Jobs
-job_id: nhs-5535510
-reason: Approved Barnsley catchment.
----
-
 ## REVIEW (3)
 
 ---
@@ -146,7 +134,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -169,18 +157,6 @@ company: Treeton Church of England Primary School
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Attendance Officer
-company: Trinity Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-trinity-academy
 reason: Separate employment market.
 ---
 
@@ -212,47 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Credit Controller & Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-7cf61604-97cb-4cf2-9394-b076d27351d1
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 

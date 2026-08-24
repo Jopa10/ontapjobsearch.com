@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 57
-- automatic exclude: 10
-- effective include: 4
-- effective review: 57
-- effective exclude: 10
+- automatic include: 3
+- automatic review: 56
+- automatic exclude: 11
+- effective include: 3
+- effective review: 56
+- effective exclude: 11
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Registration Authority Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO30 3JB
-source: NHS Jobs
-job_id: nhs-5531319
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: UEL Business Administrator
 company: UHS Estates Limited
 location: Southampton, SO16 6YD
@@ -72,7 +60,7 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (57)
+## REVIEW (56)
 
 ---
 action: 
@@ -156,18 +144,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-36665455-ee4d-4043-b39a-5c915dd4c839
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Navigator (Medical Receptionist)
-company: Vine Medical Group
-location: Waterlooville, PO7 7AH, Waterlooville, PO7 6AL, Waterlooville, PO7 8NS
-source: NHS Jobs
-job_id: nhs-5538036
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -534,6 +510,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Patient Care Co-ordinator/Receptionist
+company: Abbeywell Surgery
+location: Romsey, SO51 8EN, Romsey, SO517QN
+source: NHS Jobs
+job_id: nhs-5522984
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planner
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -611,18 +599,6 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Regional Casework Administrator - South East
-company: SSAFA - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1660397
 reason: Broad location; review before city inclusion.
 ---
 
@@ -758,7 +734,19 @@ job_id: jobg8-1595701
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (11)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Fareham, PO14 2NF
+source: NHS Jobs
+job_id: nhs-5522934
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -769,6 +757,18 @@ company: Mid Hampshire Healthcare Ltd
 location: Winchester, SO23 0LD
 source: NHS Jobs
 job_id: nhs-5531413
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Home Administrator
+company: Barchester Healthcare
+location: Fareham, PO14 2NF
+source: NHS Jobs
+job_id: nhs-5522929
 reason: Separate employment market.
 ---
 
@@ -805,18 +805,6 @@ company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
 source: NHS Jobs
 job_id: nhs-5534148
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist - Community Mental Health
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO3 6AD, Portsmouth, PO4 8LD
-source: NHS Jobs
-job_id: nhs-5532705
 reason: Separate employment market.
 ---
 

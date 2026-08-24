@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
-- automatic review: 18
-- automatic exclude: 24
-- effective include: 35
-- effective review: 18
-- effective exclude: 24
+- automatic include: 33
+- automatic review: 16
+- automatic exclude: 23
+- effective include: 33
+- effective review: 16
+- effective exclude: 23
 
-## INCLUDE (35)
+## INCLUDE (33)
 
 ---
 action: 
@@ -177,18 +177,6 @@ company: Keoghs LLP - Company - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-fb796b57-2279-47a1-89ba-57ad2e8e3bd2
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Experienced Medical Centre Receptionist
-company: Arthington Medical Centre
-location: Leeds, LS10 2JJ
-source: NHS Jobs
-job_id: nhs-5528274
 reason: Approved Leeds catchment.
 ---
 
@@ -400,18 +388,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Receptionist
-company: Cross Gates Primary School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-cross-gates-primary-school
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Administrator
 company: Fountain Primary School
 location: Leeds
@@ -444,7 +420,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (16)
 
 ---
 action: 
@@ -606,30 +582,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Account Coordinator
-company: Reed - Agency - Permanent
-location: Shipley
-source: JobG8
-job_id: jobg8-de6b9bdd-58fb-408f-bede-6bc82fbefbd9
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: Shipley
-source: JobG8
-job_id: jobg8-5ccea683-f379-4de2-ae85-b4bb35d83e2c
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Office Administrator
 company: Office Angels - Agency - Permanent
 location: Wetherby
@@ -662,7 +614,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -697,18 +649,6 @@ company: Conexus Healthcare CIC
 location: Wakefield, WF2 7PJ
 source: NHS Jobs
 job_id: nhs-5532434
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Officer
-company: Tong Leadership Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-tong-leadership-academy-bradford-west-yorkshire
 reason: Separate employment market.
 ---
 

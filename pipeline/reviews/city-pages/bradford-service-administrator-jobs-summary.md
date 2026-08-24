@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 19
-- automatic exclude: 49
-- effective include: 9
-- effective review: 19
-- effective exclude: 49
+- automatic include: 8
+- automatic review: 17
+- automatic exclude: 47
+- effective include: 8
+- effective review: 17
+- effective exclude: 47
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: Tong Leadership Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-tong-leadership-academy-bradford-west-yorkshire
-reason: Approved Bradford catchment.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (17)
 
 ---
 action: 
@@ -306,30 +294,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Account Coordinator
-company: Reed - Agency - Permanent
-location: Shipley
-source: JobG8
-job_id: jobg8-de6b9bdd-58fb-408f-bede-6bc82fbefbd9
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: Shipley
-source: JobG8
-job_id: jobg8-5ccea683-f379-4de2-ae85-b4bb35d83e2c
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Office Administrator
 company: Office Angels - Agency - Permanent
 location: Wetherby
@@ -362,7 +326,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (49)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -577,18 +541,6 @@ company: Keoghs LLP - Company - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-fb796b57-2279-47a1-89ba-57ad2e8e3bd2
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Experienced Medical Centre Receptionist
-company: Arthington Medical Centre
-location: Leeds, LS10 2JJ
-source: NHS Jobs
-job_id: nhs-5528274
 reason: Separate employment market.
 ---
 
@@ -877,18 +829,6 @@ company: pyramid8 - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-0b881fe3-bb4b-4e81-b879-b9af36114fe7
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Receptionist
-company: Cross Gates Primary School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-cross-gates-primary-school
 reason: Separate employment market.
 ---
 

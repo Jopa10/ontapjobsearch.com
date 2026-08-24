@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 3
-- automatic exclude: 19
+- automatic exclude: 14
 - effective include: 14
 - effective review: 3
-- effective exclude: 19
+- effective exclude: 14
 
 ## INCLUDE (14)
 
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -260,59 +260,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Attendance Officer
-company: Trinity Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-trinity-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Support Officer
 company: Springwell Special Academy
 location: Barnsley
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -397,18 +349,6 @@ company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225488492
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist Admin Assistant
-company: High Street Practice
-location: Barnsley, S71 4RF
-source: NHS Jobs
-job_id: nhs-5535510
 reason: Separate employment market.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 24
 - automatic review: 2
-- automatic exclude: 5
+- automatic exclude: 6
 - effective include: 24
 - effective review: 2
-- effective exclude: 5
+- effective exclude: 6
 
 ## INCLUDE (24)
 
@@ -57,18 +57,6 @@ company: Vaccination UK
 location: Birmingham, B18 7EE
 source: NHS Jobs
 job_id: nhs-5501562
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Band 3 Administrator
-company: Birmingham Community Healthcare NHS FT
-location: Birmingham, B29 6JA
-source: NHS Jobs
-job_id: nhs-5542070
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -220,6 +208,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Hollyoaks Medical Centre
+location: Birmingham, B47 6ET
+source: NHS Jobs
+job_id: nhs-5556384
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Alliance Personnel - Agency - Permanent
 location: Birmingham
@@ -338,7 +338,7 @@ job_id: jobg8-23643_225507846
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -397,5 +397,17 @@ company: Tirebuck Recruitment - Agency - Contract
 location: Solihull
 source: JobG8
 job_id: jobg8-cd92f4f8-e5d6-4d87-bbb7-4ea9bda6dd8e
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Vehicle Sales & Accounts Administrator
+company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-3a0f7e52-4bbc-4a11-9c99-bd0bb417db16
 reason: Separate exact-city market at launch.
 ---

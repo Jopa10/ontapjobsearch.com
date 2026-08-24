@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 1
-- automatic exclude: 35
-- effective include: 4
+- automatic exclude: 37
+- effective include: 3
 - effective review: 1
-- effective exclude: 35
+- effective exclude: 37
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Meadow Park School
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-meadow-park-school
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Cardiac Rehabilitation Administration Assistant
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Coventry, CV1 3LN
-source: NHS Jobs
-job_id: nhs-5552219
 reason: Approved Coventry catchment.
 ---
 
@@ -86,7 +74,7 @@ job_id: nhs-5538096
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -200,6 +188,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: CERU Patient Flow Administrator
+company: South Warwickshire University NHS Foundation Trust
+location: Warwick, CV34 6SR
+source: NHS Jobs
+job_id: nhs-5542156
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clerical Assistant
 company: South Warwickshire University NHS Foundation Trust
 location: Rugby, CV21 3SR
@@ -272,6 +272,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Assistant
+company: Pertemps Black Country Perms - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-4aeb6dcb-44ea-4503-b1f4-0ba011dd9846
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Internal Sales & Customer Services Co-ordinator
 company: Thefutureworks - Agency - Permanent
 location: Warwickshire
@@ -289,18 +301,6 @@ company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-337293d6-0b83-4e3a-a2cb-3b48b534647b
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning and Development Coordinator
-company: Rose & Young Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107875425
 reason: Separate employment market.
 ---
 
@@ -373,6 +373,18 @@ company: Apex Focus Group - Company - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-ce4a1f38-7838-4814-b760-45db6acfea73
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Performing Arts and LAMDA Administrator
+company: The Princethorpe Foundation - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107860526
 reason: Separate employment market.
 ---
 

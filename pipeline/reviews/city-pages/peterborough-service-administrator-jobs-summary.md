@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 16
 - automatic review: 5
-- automatic exclude: 32
-- effective include: 14
+- automatic exclude: 30
+- effective include: 16
 - effective review: 5
-- effective exclude: 32
+- effective exclude: 30
 
-## INCLUDE (14)
+## INCLUDE (16)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: GP Receptionist / Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527811
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Co-Ordinator - maternity cover FTC
 company: Hays Specialist Recruitment Limited - Agency - Contract
 location: Peterborough
@@ -153,6 +165,18 @@ company: Discovery Primary Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Secretary / Referrals Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527904
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -254,7 +278,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -488,18 +512,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medico-Legal Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5542656
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office Administrator
 company: St Peter's School
 location: Huntingdon
@@ -565,18 +577,6 @@ company: The HireWorks Ltd - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225444568
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 9LG
-source: NHS Jobs
-job_id: nhs-5542344
 reason: Separate employment market.
 ---
 

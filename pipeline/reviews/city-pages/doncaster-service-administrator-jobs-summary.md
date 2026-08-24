@@ -4,8 +4,8 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,62 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 4
 - automatic review: 3
-- automatic exclude: 25
-- effective include: 8
+- automatic exclude: 24
+- effective include: 4
 - effective review: 3
-- effective exclude: 25
+- effective exclude: 24
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Trinity Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-trinity-academy
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-89740a075c6163b74ea2c52702062e5d
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-d24d3d6916a209e15b1680693740da2f
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_59837-153faf593eb64b88272f45adeaa28d87
-reason: Approved Doncaster catchment.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -158,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -373,18 +325,6 @@ company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
 job_id: nhs-5544481
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist Admin Assistant
-company: High Street Practice
-location: Barnsley, S71 4RF
-source: NHS Jobs
-job_id: nhs-5535510
 reason: Separate employment market.
 ---
 
