@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 August 2026 — Teaching Vacancies now uses one complete, page-audited national discovery pass with targeted page/route retries, replacing the former requirement for two identical full sweeps. Genuine vacancy arrivals/closures no longer abort the daily refresh; persistent incomplete or inconsistent route evidence still stops TV safely.
 - 24 August 2026 — Teaching Vacancies refresh no longer fails because an older edit-file block has already been resolved in the authoritative CSV or has left the current review. Those obsolete blocks are ignored only while carrying decisions into a new daily review; normal owner-edit validation remains strict.
 - 23 August 2026 — **London sector-view trial:** the London-wide Admin & Customer Service page now lets users switch among all jobs, business/agency jobs, and clearly identified public-service/charity jobs. Every job remains server-rendered at the existing URL; the client controls only the visible view. Known NHS Jobs and Teaching Vacancies sources are grouped directly, clearly charitable/public JobG8 roles can be grouped conservatively, and ambiguity defaults to business/agency. Badges, matched switch guidance after five visible jobs and a new `/sector-switching` explainer support interpretation without changing job-detail URLs or the underlying source mix.
 - 23 August 2026 — **Legal Assistant / Paralegal boundary is now materially cleaner:** standalone conveyancing fee-earners and Team Leader management roles are OUT; genuine paralegals remain eligible even when they manage files/caseloads, while mixed `Paralegal/Fee Earner` adverts stay under review. Current same-feed evidence remains comfortably viable at about 227 genuine jobs nationally, including 120 paralegal-titled roles.
@@ -199,7 +200,7 @@ Core controls are:
 - manual-only Vercel CLI recovery using `VERCEL_TOKEN` if Git deployment fails;
 - Google indexing and operational monitoring.
 
-Teaching Vacancies regional/master review writeback is protected against concurrent `main` movement by full-history checkout plus up to three pull-rebase/push attempts. The 22 August recovery proved the generated source evidence, rebuilt master review, reviewed publication and final deployment chain end-to-end.
+Teaching Vacancies regional/master review uses one complete audited discovery pass with targeted retries for a failed page or internally inconsistent route; it does not require an identical second national sweep. Its writeback is protected against concurrent `main` movement by full-history checkout plus up to three pull-rebase/push attempts. The 22 August recovery proved the generated source evidence, rebuilt master review, reviewed publication and final deployment chain end-to-end.
 
 Every `npm run build` now regenerates the published-job search index before `prisma generate` and `next build`. That generated index contains both the current result-card fields and the precomputed `_search` metadata needed for matching, while omitting the raw description/full-description payload from the runtime search bundle. Search therefore uses the exact published inventory captured by that deployment without rebuilding inventory or normalised/tokenised field structures on individual search requests.
 

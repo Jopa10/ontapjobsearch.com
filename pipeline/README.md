@@ -54,7 +54,7 @@ Recurring review workflows currently include:
 - Teaching Vacancies regional/master review — `.github/workflows/run-teaching-vacancies-regional-review.yml`
 - NHS Administrative & Clerical — `.github/workflows/refresh-nhs-admin-service-review.yml`
 
-Teaching Vacancies discovery/routing/review state is written back by the regional/master workflow. Its `main` writeback uses full-history checkout plus pull-rebase/push retries so another workflow advancing `main` during the several-minute TV refresh does not strand a successfully generated review as stale.
+Teaching Vacancies discovery/routing/review state is written back by the regional/master workflow. Discovery uses one complete audited national sweep: page-level audit failures retry the page and inconsistent route facts retry only that route; persistent integrity failure stops the source. Its `main` writeback uses full-history checkout plus pull-rebase/push retries so another workflow advancing `main` during the several-minute TV refresh does not strand a successfully generated review as stale.
 
 NHS Jobs is a live Service Admin source. The normal full JobG8 path and the reviewed NHS publisher both use `external_sources/compose_nhs_admin_daily.py`, which refreshes current NHS inventory transactionally, reapplies valid remembered decisions, preserves non-NHS output, enforces the hard 20% regional NHS ceiling and only replaces production state after verification. HC Tier A/B rows may auto-publish when otherwise eligible; untouched NHS POSS rows are optional review opportunities and remain fail-closed.
 

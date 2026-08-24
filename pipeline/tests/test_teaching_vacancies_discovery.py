@@ -155,18 +155,77 @@ def test_discover_route_blocks_changed_total() -> None:
         )
 
 
-def test_stable_discovery_blocks_changed_url_set() -> None:
+def test_discover_route_blocks_short_page() -> None:
     route = discovery.SearchRoute("route", "query", "https://example.test/jobs")
-    calls = 0
+    document = listing_document(1, 2, 2, ["only-one"])
 
-    def request_text(_url: str) -> str:
-        nonlocal calls
-        calls += 1
-        slug = "first" if calls == 1 else "second"
-        return listing_document(1, 1, 1, [slug])
+    with pytest.raises(ValueError, match="1 unique vacancy URL.*2 advertised"):
+        discovery.discover_route(route, request_text=lambda _url: document)
 
-    with pytest.raises(ValueError, match="was not stable"):
-        discovery.stable_discovery((route,), request_text=request_text)
+
+def test_audited_discovery_uses_one_complete_sweep() -> None:
+    route = discovery.SearchRoute("route", "query", "https://example.test/jobs")
+    requested: list[str] = []
+
+    def request_text(url: str) -> str:
+        requested.append(url)
+        return listing_document(1, 1, 1, ["vacancy"])
+
+    records, sweeps = discovery.audited_discovery(
+        (route,),
+        request_text=request_text,
+        retry_delays=(),
+    )
+
+    assert requested == [route.url]
+    assert records[0].canonical_url.endswith("/vacancy")
+    assert sweeps[0].attempts == 1
+
+
+def test_route_audit_retries_only_inconsistent_route() -> None:
+    route = discovery.SearchRoute("route", "query", "https://example.test/jobs")
+    attempt = 1
+    first_page_calls = 0
+    sleeps: list[float] = []
+
+    def request_text(url: str) -> str:
+        nonlocal attempt, first_page_calls
+        if url == route.url:
+            first_page_calls += 1
+            attempt = first_page_calls
+            return listing_document(
+                1,
+                10,
+                11,
+                [f"vacancy-{number}" for number in range(1, 11)],
+            )
+        total = 12 if attempt == 1 else 11
+        return listing_document(11, 11, total, ["vacancy-11"])
+
+    sweep = discovery.discover_route_with_retries(
+        route,
+        request_text=request_text,
+        retry_delays=(0.25,),
+        sleep_fn=sleeps.append,
+    )
+
+    assert first_page_calls == 2
+    assert sleeps == [0.25]
+    assert sweep.total == 11
+    assert sweep.attempts == 2
+
+
+def test_route_audit_still_blocks_persistent_integrity_failure() -> None:
+    route = discovery.SearchRoute("route", "query", "https://example.test/jobs")
+    document = listing_document(1, 2, 2, ["only-one"])
+
+    with pytest.raises(ValueError, match="failed its complete listing audit"):
+        discovery.discover_route_with_retries(
+            route,
+            request_text=lambda _url: document,
+            retry_delays=(0.25,),
+            sleep_fn=lambda _delay: None,
+        )
 
 
 def test_detail_records_merge_overlapping_route_provenance() -> None:
