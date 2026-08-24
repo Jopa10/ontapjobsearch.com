@@ -3,7 +3,7 @@
 Canonical UK assessment universe: **78 markets**.
 Observed feed dates: **7** (2026-08-18 to 2026-08-24).
 Latest feed: **2026-08-24**.
-Content-unique IN jobs on latest feed: **31**; unmapped/unknown region: **1**.
+Content-unique IN jobs on latest feed: **32**; unmapped/unknown region: **1**.
 
 Diagnostic only: this does not activate a slice. `STRONG_REVIEW_CANDIDATE` is deliberately an evidence signal, not an automatic LIVE gate.
 
@@ -29,6 +29,7 @@ Watch regions: **0**.
 | Cambridgeshire | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
 | Leicestershire | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
 | Gloucestershire | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| North East | 1 | 0.14 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 1 | THIN |
 | Greater Manchester - Manchester & Salford | 0 | 1.00 | 0.0 | 0 | 3 / 3 / 1 / 0 / 0 / 0 / 0 | THIN |
 | West Midlands - Birmingham & Solihull | 0 | 0.71 | 0.0 | 0 | 2 / 2 / 1 / 0 / 0 / 0 / 0 | THIN |
 | Yorkshire - North | 0 | 0.43 | 0.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 0 | THIN |
@@ -61,7 +62,6 @@ Watch regions: **0**.
 | Merseyside - Sefton | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Merseyside - St Helens & Knowsley | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Merseyside - Wirral | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
-| North East | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | North Scotland | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | North Wales - East | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | North Wales - West | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |

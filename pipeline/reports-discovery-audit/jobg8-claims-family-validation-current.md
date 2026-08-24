@@ -2,11 +2,11 @@
 
 Feed: **2026-08-24.xlsx**
 Jobs in feed: **10,000**
-Broad insurance/claims universe: **197** raw rows
-IN after advert-level boundary rules: **31** raw rows
+Broad insurance/claims universe: **201** raw rows
+IN after advert-level boundary rules: **32** raw rows
 BORDERLINE: **4** raw rows
-OUT: **162** raw rows
-Content-unique IN jobs: **31** (removed **0** exact-content duplicate rows)
+OUT: **165** raw rows
+Content-unique IN jobs: **32** (removed **0** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,9 +23,9 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 31 |
+| IN | 32 |
 | BORDERLINE | 4 |
-| OUT | 162 |
+| OUT | 165 |
 
 ## Content-unique IN regional shape
 
@@ -44,12 +44,13 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Cambridgeshire |
 | 1 | Buckinghamshire |
 | 1 | Gloucestershire |
+| 1 | North East - Tyneside, Wearside & Northumberland |
 
 ## JobG8 classifications feeding content-unique IN jobs
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 24 | Insurance & Superannuation |
+| 25 | Insurance & Superannuation |
 | 3 | Call Centre / CustomerService |
 | 2 | Administration |
 | 1 | Legal |
@@ -83,8 +84,9 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Senior Motor Fraud Claims Handler |
 | 1 | Travel Claims Handler |
 | 1 | Employer Liability and Public Liability Claims Handler (6 - Month FTC) |
+| 1 | ELPL Claims Handler |
 
 ## Salary guard check
 
-Content-unique IN jobs with usable annualised maximum: **20**.
+Content-unique IN jobs with usable annualised maximum: **21**.
 IN jobs still over £50k: **0** (must be zero).

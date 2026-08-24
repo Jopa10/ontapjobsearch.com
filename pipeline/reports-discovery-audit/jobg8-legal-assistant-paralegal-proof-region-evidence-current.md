@@ -1,6 +1,6 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **238** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **241** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
@@ -26,13 +26,13 @@ Most common LIKELY_IN titles:
 
 ## Suffolk
 
-- LIKELY_IN: **30**
+- LIKELY_IN: **31**
 - BORDERLINE: **1**
-- Provisional OUT: **7**
+- Provisional OUT: **8**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing - Flexible Working - Fee Earner/Paralegal: 4
+- Conveyancing - Flexible Working - Fee Earner/Paralegal: 5
 - Private Client Legal Assistant / Paralegal: 2
 - Legal Secretary - Flexible Working - Excellent Benefits & Environment: 2
 - Private Client Fee Earner/ Paralegal: 2
@@ -53,7 +53,7 @@ Borderline titles:
 
 - LIKELY_IN: **29**
 - BORDERLINE: **0**
-- Provisional OUT: **6**
+- Provisional OUT: **7**
 
 Most common LIKELY_IN titles:
 
@@ -72,7 +72,7 @@ Most common LIKELY_IN titles:
 
 ## Norfolk
 
-- LIKELY_IN: **15**
+- LIKELY_IN: **16**
 - BORDERLINE: **0**
 - Provisional OUT: **1**
 
@@ -82,6 +82,7 @@ Most common LIKELY_IN titles:
 - Conveyancing Assistant/Paralegal: 2
 - Private Client Fee Earner/ Paralegal: 1
 - Legal Secretary - Private Client: 1
+- Dispute Resolution Paralegal: 1
 - Property Paralegal: 1
 - Conveyancing Paralegal/Fee Earner: 1
 - Paralegal - Conveyancing: 1
@@ -89,20 +90,20 @@ Most common LIKELY_IN titles:
 - Legal Administrator / Graduate Opportunity: 1
 - Conveyancing Assistant/Paralegal Hybrid - Full or Part Time: 1
 - Legal Secretary / Legal PA: 1
-- Corporate Commercial Legal Secretary - Norwich: 1
 
-## Yorkshire - West
+## Surrey
 
 - LIKELY_IN: **8**
 - BORDERLINE: **0**
-- Provisional OUT: **3**
+- Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing Assistant: 3
-- Experienced Conveyancing Assistant: 1
-- Family Legal Secretary - Leeds: 1
-- Industrial Disease Paralegal: 1
-- Remote Conveyancing Paralegal: 1
-- Legal Secretary: 1
+- Conveyancing Assistant: 2
+- Public Health Paralegal: 1
+- Private Client Legal Secretary: 1
+- Paralegal (Commercial Property): 1
+- Senior Residential Conveyancing Paralegal: 1
+- Conveyancing Legal Secretary: 1
+- Senior Paralegal - Residential Conveyancing: 1
 

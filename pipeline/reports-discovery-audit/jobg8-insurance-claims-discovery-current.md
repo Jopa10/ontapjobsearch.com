@@ -2,10 +2,10 @@
 
 Feed: **2026-08-24.xlsx**
 Jobs in feed: **10,000**
-Broad insurance/claims candidates: **197**
-Core support candidates: **50**
-Boundary-review candidates: **61**
-Specialist/senior exclusions at discovery stage: **86**
+Broad insurance/claims candidates: **201**
+Core support candidates: **51**
+Boundary-review candidates: **62**
+Specialist/senior exclusions at discovery stage: **88**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
 
@@ -13,20 +13,20 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 
 | Decision | Jobs |
 |---|---:|
-| EXCLUDE_SPECIALIST | 86 |
+| EXCLUDE_SPECIALIST | 88 |
 | REVIEW_OTHER_INSURANCE | 38 |
-| CORE_CLAIMS_SUPPORT | 34 |
+| CORE_CLAIMS_SUPPORT | 35 |
 | CORE_INSURANCE_SUPPORT | 16 |
-| REVIEW_ACCOUNT_HANDLER | 13 |
+| REVIEW_ACCOUNT_HANDLER | 14 |
 | REVIEW_CLAIMS_TECHNICAL | 7 |
 | REVIEW_DESCRIPTION_ONLY | 3 |
 
 ## Salary shape — core support only
 
 Soft reference range: **£25,000–£40,000** (diagnostic, not a hard gate).
-Core jobs with usable annualised salary: **31 / 50**.
-Median annualised midpoint: **£30,500**.
-Within soft range: **31 (100%)**; below: **0**; above: **0**.
+Core jobs with usable annualised salary: **32 / 51**.
+Median annualised midpoint: **£30,460**.
+Within soft range: **32 (100%)**; below: **0**; above: **0**.
 Hourly/daily/weekly figures are annualised approximately for discovery only.
 
 ## Recurring core titles
@@ -61,18 +61,18 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | 7 | Commercial Account Handler |
 | 6 | Commercial Property Adjuster |
 | 3 | Personal Lines Account Handler |
-| 2 | Insurance Account Executive |
 | 2 | Property Desktop Adjuster |
+| 2 | Insurance Account Executive |
 | 1 | Senior Claims Adjuster - Casualty |
 | 1 | Account Executive - Commercial Insurance |
 | 1 | Claims Specialist |
-| 1 | Property Claims Technician |
 | 1 | Senior Commercial Account Handler/Broker Manager |
 | 1 | Senior Insurance Account Executive |
 | 1 | Senior Internal Auditor - Insurance |
 | 1 | Commercial Insurance Account Executive - Book to take over |
 | 1 | Senior Claims Adjuster - Property D&F |
 | 1 | Claims Executive - CT Claims |
+| 1 | Insurance Technician |
 
 ## JobG8 classifications feeding core support
 
@@ -80,7 +80,7 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 39 | Insurance & Superannuation |
+| 40 | Insurance & Superannuation |
 | 4 | Legal |
 | 2 | Administration |
 | 2 | Sales & Marketing |

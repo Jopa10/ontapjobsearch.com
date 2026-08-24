@@ -27,18 +27,18 @@ Early verdict: **GO TO BOUNDARY SAMPLE / SCALE PLAUSIBLE**.
 |---|---:|
 | LIKELY_IN | 97 |
 | BORDERLINE | 39 |
-| OUT_SPECIALIST | 32 |
-| OUT_SALARY | 29 |
+| OUT_SPECIALIST | 33 |
+| OUT_SALARY | 28 |
 
 ## Salary distribution — content-unique broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| missing/unknown | 53 |
+| missing/unknown | 54 |
 | £30k–£40k | 52 |
-| £25k–£30k | 30 |
-| >£50,000 OUT | 29 |
-| £40k–£50,000 | 28 |
+| £40k–£50,000 | 29 |
+| £25k–£30k | 29 |
+| >£50,000 OUT | 28 |
 | <£25k | 5 |
 
 ## JobG8 classifications feeding the seam
@@ -47,56 +47,57 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| Sales & Marketing | 103 |
-| Advert / Media / Entertainment | 53 |
+| Sales & Marketing | 104 |
+| Advert / Media / Entertainment | 50 |
 | I.T. & Communications | 20 |
 | Administration | 10 |
-| Executive Positions | 5 |
+| Executive Positions | 6 |
 | Retail & Consumer Products | 2 |
 | Banking & Financial Services | 2 |
 | Consulting & Corporate Strategy | 1 |
 | Legal | 1 |
+| Healthcare & Medical | 1 |
 
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Content-unique candidates mapping into that UK market universe: **176**.
-Content-unique candidates outside it or unresolved: **21**.
+Content-unique candidates mapping into that UK market universe: **185**.
+Content-unique candidates outside it or unresolved: **12**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| London | 54 | YES |
-| Other / Unknown | 21 | NO |
-| Surrey | 9 | YES |
+| London | 55 | YES |
+| Other / Unknown | 11 | NO |
+| Surrey | 8 | YES |
 | Greater Manchester - Manchester & Salford | 8 | YES |
 | West Midlands - Birmingham & Solihull | 8 | YES |
-| Berkshire | 6 | YES |
-| Kent | 6 | YES |
-| Yorkshire - West | 6 | YES |
+| Berkshire | 7 | YES |
+| Kent | 7 | YES |
 | Yorkshire - South | 5 | YES |
+| Hampshire | 5 | YES |
 | Yorkshire - North | 5 | YES |
+| Yorkshire - West | 5 | YES |
 | Norfolk | 5 | YES |
 | Oxfordshire | 4 | YES |
-| Hampshire | 4 | YES |
+| Sussex | 4 | YES |
 | Nottinghamshire | 4 | YES |
 | Lincolnshire | 4 | YES |
-| Sussex | 3 | YES |
+| Buckinghamshire | 3 | YES |
 | Bristol & Bath | 3 | YES |
 | Merseyside - Liverpool | 3 | YES |
 | Hertfordshire | 3 | YES |
 | Northamptonshire | 3 | YES |
 | Cambridgeshire | 3 | YES |
+| Scotland West - Glasgow | 2 | YES |
 | Dorset | 2 | YES |
 | Northern Ireland - East | 2 | YES |
 | Wales South - Swansea Bay | 2 | YES |
 | Wales - West | 2 | YES |
-| Buckinghamshire | 2 | YES |
-| Staffordshire | 2 | YES |
-| Scotland West - Glasgow | 2 | YES |
-| West Midlands - Coventry & Warwickshire | 2 | YES |
-| Derbyshire | 1 | YES |
+| Essex | 2 | YES |
+| North East | 2 | YES |
+| Devon | 2 | YES |
 
 ## Next gate
 

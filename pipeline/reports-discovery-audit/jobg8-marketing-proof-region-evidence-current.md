@@ -5,7 +5,7 @@ This report does not approve proof regions or any LIVE slice. It surfaces the st
 
 ## London
 
-- LIKELY_IN: **16**
+- LIKELY_IN: **17**
 - BORDERLINE: **11**
 - Provisional OUT: **27**
 
@@ -38,26 +38,6 @@ Borderline titles:
 - Media & PR Manager: 1
 - Marketing and Business Development Executive: 1
 
-## Surrey
-
-- LIKELY_IN: **6**
-- BORDERLINE: **2**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Communications Officer - Health Determinants Research: 1
-- Junior Marketing Executive: 1
-- Digital Marketing Manager - Luxury: 1
-- Junior Cluster Brand Manager: 1
-- Digital Marketing Manager: 1
-- Brand Marketing Assistant: 1
-
-Borderline titles:
-
-- Marketing Account Manager: 1
-- Paid Media Consultant: 1
-
 ## Greater Manchester - Manchester & Salford
 
 - LIKELY_IN: **6**
@@ -77,6 +57,39 @@ Borderline titles:
 
 - Paid Media Specialist: 1
 
+## Surrey
+
+- LIKELY_IN: **6**
+- BORDERLINE: **1**
+- Provisional OUT: **1**
+
+Most common LIKELY_IN titles:
+
+- Communications Officer - Health Determinants Research: 1
+- Junior Marketing Executive: 1
+- Digital Marketing Manager - Luxury: 1
+- Junior Cluster Brand Manager: 1
+- Digital Marketing Manager: 1
+- Brand Marketing Assistant: 1
+
+Borderline titles:
+
+- Marketing Account Manager: 1
+
+## Berkshire
+
+- LIKELY_IN: **5**
+- BORDERLINE: **0**
+- Provisional OUT: **2**
+
+Most common LIKELY_IN titles:
+
+- Marketing Assistant/Administrator: 1
+- Shopper Marketing Assistant: 1
+- Marketing Executive: 1
+- Graduate Social Media & Content Executive: 1
+- Marketing Officer: 1
+
 ## West Midlands - Birmingham & Solihull
 
 - LIKELY_IN: **4**
@@ -95,20 +108,4 @@ Borderline titles:
 - PPC: 1
 - Paid Media Specialist: 1
 - Senior PR Account Manager: 1
-
-## Yorkshire - West
-
-- LIKELY_IN: **4**
-- BORDERLINE: **1**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Social Media and Content Executive: 2
-- Marketing Assistant Apprentice: 1
-- Marketing Executive: 1
-
-Borderline titles:
-
-- Social Media and Influencer Manager: 1
 
