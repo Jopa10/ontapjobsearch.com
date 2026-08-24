@@ -17,6 +17,6 @@ city: Wakefield
 region: west-yorkshire
 slice: service-administrator-jobs
 current_jobs: 10
-qualifying_runs: 5/3
-last_pipeline_runs: 5, 5, 8, 11, 10, 10, 10
+qualifying_runs: 7/3
+last_pipeline_runs: 11, 10, 10, 10, 10, 10, 10
 ---
