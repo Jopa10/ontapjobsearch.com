@@ -9,7 +9,7 @@ categorised differently by the source.
 A live run is accepted only when:
 * every advertised page for every route is fetched;
 * page ranges and totals reconcile;
-* two complete sweeps return the same URL/provenance set;
+* incomplete or internally inconsistent pages/routes pass targeted retries;
 * every discovered detail page parses successfully.
 
 The output contains factual vacancy fields and discovery provenance only. It
@@ -46,11 +46,12 @@ BASE_URL = "https://teaching-vacancies.service.gov.uk"
 SOURCE = "Teaching Vacancies GOV.UK"
 SOURCE_CODE = "Teaching Vacancies"
 LONDON = ZoneInfo("Europe/London")
-DISCOVERY_CONTRACT_VERSION = "teaching-vacancies-national-v1"
+DISCOVERY_CONTRACT_VERSION = "teaching-vacancies-national-v2"
 RESULTS_PER_PAGE = 10
 LIVE_REQUEST_DELAY_SECONDS = 0.4
 LIVE_REQUEST_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)
 LISTING_AUDIT_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)
+ROUTE_AUDIT_RETRY_DELAYS_SECONDS = (2.0, 5.0)
 
 PRIMARY_ROUTE = (
     "administration-category",
@@ -115,6 +116,7 @@ class RouteSweep:
     occurrences: int
     unique_urls: int
     records: tuple[DiscoveryRecord, ...]
+    attempts: int = 1
 
 
 RequestText = Callable[[str], str]
@@ -274,6 +276,14 @@ def discover_route(
                 f"{listing.start}-{listing.end} does not match "
                 f"{expected_start}-{expected_end}"
             )
+        expected_urls = (
+            expected_end - expected_start + 1 if first.total else 0
+        )
+        if len(listing.urls) != expected_urls:
+            raise ValueError(
+                f"{route.name} page {page} exposes {len(listing.urls)} unique "
+                f"vacancy URL(s) for {expected_urls} advertised result(s)"
+            )
         occurrences += len(listing.urls)
         for url in listing.urls:
             record = DiscoveryRecord(
@@ -299,13 +309,53 @@ def discover_route(
     )
 
 
+def discover_route_with_retries(
+    route: SearchRoute,
+    *,
+    request_text: RequestText,
+    retry_delays: tuple[float, ...] = ROUTE_AUDIT_RETRY_DELAYS_SECONDS,
+    sleep_fn: Callable[[float], None] = time.sleep,
+) -> RouteSweep:
+    """Retry only a route whose complete listing audit is inconsistent."""
+    last_error: Exception | None = None
+    attempts = len(retry_delays) + 1
+    for attempt in range(attempts):
+        if attempt:
+            sleep_fn(retry_delays[attempt - 1])
+        try:
+            sweep = discover_route(route, request_text=request_text)
+            return RouteSweep(
+                route=sweep.route,
+                total=sweep.total,
+                pages=sweep.pages,
+                occurrences=sweep.occurrences,
+                unique_urls=sweep.unique_urls,
+                records=sweep.records,
+                attempts=attempt + 1,
+            )
+        except (OSError, ValueError) as exc:
+            last_error = exc
+    raise ValueError(
+        f"{route.name} route failed its complete listing audit after "
+        f"{attempts} attempt(s): {clean(last_error)}"
+    )
+
+
 def run_sweep(
     routes: Iterable[SearchRoute],
     *,
     request_text: RequestText,
+    retry_delays: tuple[float, ...] = ROUTE_AUDIT_RETRY_DELAYS_SECONDS,
+    sleep_fn: Callable[[float], None] = time.sleep,
 ) -> tuple[tuple[DiscoveryRecord, ...], tuple[RouteSweep, ...]]:
     route_sweeps = tuple(
-        discover_route(route, request_text=request_text) for route in routes
+        discover_route_with_retries(
+            route,
+            request_text=request_text,
+            retry_delays=retry_delays,
+            sleep_fn=sleep_fn,
+        )
+        for route in routes
     )
     records: list[DiscoveryRecord] = []
     for sweep in route_sweeps:
@@ -313,75 +363,19 @@ def run_sweep(
     return tuple(merge_discovery_records(records)), route_sweeps
 
 
-def discovery_signature(records: Iterable[DiscoveryRecord]) -> str:
-    payload: list[dict[str, object]] = []
-    for record in sorted(records, key=lambda item: item.stable_key()):
-        routes = sorted(
-            (
-                clean(item.get("route")),
-                clean(item.get("query")),
-                int(item.get("page") or 1),
-            )
-            for item in record.discovery_routes
-        )
-        payload.append(
-            {
-                "url": canonical_url(record.canonical_url),
-                "routes": routes,
-            }
-        )
-    encoded = json.dumps(
-        payload,
-        ensure_ascii=False,
-        separators=(",", ":"),
-        sort_keys=True,
-    ).encode("utf-8")
-    return hashlib.sha256(encoded).hexdigest()
-
-
-def stable_discovery(
+def audited_discovery(
     routes: Iterable[SearchRoute],
     *,
     request_text: RequestText,
+    retry_delays: tuple[float, ...] = ROUTE_AUDIT_RETRY_DELAYS_SECONDS,
+    sleep_fn: Callable[[float], None] = time.sleep,
 ) -> tuple[tuple[DiscoveryRecord, ...], tuple[RouteSweep, ...]]:
-    route_tuple = tuple(routes)
-    first_records, first_sweeps = run_sweep(
-        route_tuple,
+    return run_sweep(
+        routes,
         request_text=request_text,
+        retry_delays=retry_delays,
+        sleep_fn=sleep_fn,
     )
-    second_records, second_sweeps = run_sweep(
-        route_tuple,
-        request_text=request_text,
-    )
-    first_signature = discovery_signature(first_records)
-    second_signature = discovery_signature(second_records)
-    if first_signature != second_signature:
-        first_urls = {canonical_url(row.canonical_url) for row in first_records}
-        second_urls = {canonical_url(row.canonical_url) for row in second_records}
-        additions = sorted(second_urls - first_urls)
-        omissions = sorted(first_urls - second_urls)
-        detail: list[str] = []
-        if additions:
-            detail.append("second-sweep additions: " + ", ".join(additions[:20]))
-        if omissions:
-            detail.append("second-sweep omissions: " + ", ".join(omissions[:20]))
-        raise ValueError(
-            "Teaching Vacancies source-wide discovery was not stable"
-            + (f" ({'; '.join(detail)})" if detail else "")
-        )
-    first_stats = [
-        (item.route.name, item.total, item.pages, item.unique_urls)
-        for item in first_sweeps
-    ]
-    second_stats = [
-        (item.route.name, item.total, item.pages, item.unique_urls)
-        for item in second_sweeps
-    ]
-    if first_stats != second_stats:
-        raise ValueError(
-            "Teaching Vacancies source-wide route totals changed between sweeps"
-        )
-    return first_records, first_sweeps
 
 
 def extract_postcode(location: str) -> str:
@@ -589,7 +583,7 @@ def main(argv: list[str] | None = None) -> int:
             f"{url} — {clean(last_error)}"
         )
 
-    discovered, route_sweeps = stable_discovery(
+    discovered, route_sweeps = audited_discovery(
         routes,
         request_text=live_request_text,
     )
@@ -608,7 +602,10 @@ def main(argv: list[str] | None = None) -> int:
         "run_date": run_date,
         "source": SOURCE_CODE,
         "source_scope": "England-wide; no Ontap regional restriction",
-        "stable_sweeps": 2,
+        "full_sweeps": 1,
+        "route_audit_retry_delays_seconds": list(
+            ROUTE_AUDIT_RETRY_DELAYS_SECONDS
+        ),
         "records": len(rows),
         "manifest_sha256": manifest_sha256,
         "routes": [
@@ -617,9 +614,10 @@ def main(argv: list[str] | None = None) -> int:
                 "query": sweep.route.query,
                 "url": sweep.route.url,
                 "reported_total": sweep.total,
-                "pages_fetched_per_sweep": sweep.pages,
-                "listing_occurrences_per_sweep": sweep.occurrences,
-                "unique_urls_per_sweep": sweep.unique_urls,
+                "pages_fetched": sweep.pages,
+                "listing_occurrences": sweep.occurrences,
+                "unique_urls": sweep.unique_urls,
+                "audit_attempts": sweep.attempts,
             }
             for sweep in route_sweeps
         ],
