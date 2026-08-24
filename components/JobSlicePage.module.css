@@ -17,6 +17,59 @@
   top: 24px;
 }
 
+.aiTipsCard {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+  min-height: 112px;
+  overflow: hidden;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f8fbff 100%);
+}
+
+.aiTipsMascot {
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+  transform: translateX(-7px);
+}
+
+.aiTipsCopy {
+  position: relative;
+  z-index: 1;
+  padding: 12px 10px 12px 0;
+}
+
+.aiTipsTitle {
+  margin-bottom: 4px;
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.aiTipsLink {
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.aiTipsLink:hover {
+  color: #1e40af;
+}
+
+.aiTipsLink:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid rgba(37, 99, 235, 0.25);
+  outline-offset: 3px;
+}
+
 .relatedPanel,
 .browsePanel {
   display: flex;

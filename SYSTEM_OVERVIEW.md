@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 August 2026 — Ontap's first practical AI-help trial is live only on the North East Service Administrator page. A compact animated mascot card sits below the existing course cards and links to `/ai-tips`, which gives jobseekers plain-English examples for notes, emails, documents and customer replies plus privacy and checking guidance. On tablet/mobile the normal responsive layout keeps the jobs first and moves training and the AI card underneath. Card clicks are measured through GA4; no signup is introduced and no other job page changes during the trial.
+
 - 24 August 2026 — **Marketing geography correction, with no new regions and nothing activated:** six missing towns now route into their existing Ontap regions, Glasgow and Gwynedd have exact fallbacks, and ambiguous Ditton/Hutton adverts use their specific Kent/Essex location only when the town is not already mapped. The frozen Marketing evidence therefore improves from **119 mapped adverts across 38 markets to 129 across 40**; 6 remain genuinely unresolved. Marketing remains non-LIVE pending proof-page review and explicit owner approval.
 - 24 August 2026 — **Legal Assistant / Paralegal user-facing navigation integration:** the homepage now exposes a dedicated `Legal Assistant & Paralegal` regional block driven by the existing configured dynamic-slice mechanism, currently surfacing London, Suffolk, Essex and Norfolk with live counts. The London-wide Admin & Customer Service page now cross-links directly to `/job-search/london/paralegal-jobs` as `Paralegal jobs`. `/browse-jobs` already consumes all published dynamic slices, so the four Legal pages are also present there without a separate hard-coded list. No Legal market beyond the four owner-approved LIVE regions is activated by this navigation change.
 - 24 August 2026 — **Marketing has passed the national discovery gate, with no launch approval:** advert review leaves **135 definite jobs nationally**, including **129 across 40 mapped UK markets** after the safe geo correction. The strongest current markets are **London 27, Surrey 8, Manchester & Salford 7, Birmingham & Solihull 7, Kent 6, Berkshire 5 and West Yorkshire 5**. That is enough to continue to proof-page review, not to publish: Marketing still has no LIVE market, catalogue entry or public route.
@@ -150,6 +152,8 @@ Dated one-off recovery/failure reports are not part of the permanent working tre
 Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
+
+The North East Service Administrator page is the single-page trial location for Ontap's practical AI-help card. Desktop users see it below the three training cards in the left sidebar; below 1024 px the existing responsive order places the job list first and the training/sidebar content afterwards. The card's subtle waving/twitching mascot links to the public `/ai-tips` page. That page uses normal searchable HTML for its advice and examples, so the animated WebP does not reduce AI/search discoverability. It also keeps Ontap's no-signup job-search proposition unchanged. GA4 records an `ai_tips_click` event for trial evaluation before any wider rollout.
 
 LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin region grid through the shared configured-slice/published-job mechanisms.
 

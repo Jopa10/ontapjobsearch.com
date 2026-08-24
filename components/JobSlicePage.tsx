@@ -9,6 +9,7 @@ import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
 import { classifyJobSector } from "@/lib/job-sector";
+import type { ReactNode } from "react";
 
 type JobRow = {
   job_id: string;
@@ -81,6 +82,7 @@ type JobSlicePageProps = {
   sectorFilterEnabled?: boolean;
   compactPageSpacing?: boolean;
   softPageBackground?: boolean;
+  sidebarExtra?: ReactNode;
 };
 
 function stringList(value: unknown): string[] {
@@ -253,6 +255,7 @@ export default function JobSlicePage({
   sectorFilterEnabled = false,
   compactPageSpacing = true,
   softPageBackground = false,
+  sidebarExtra,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
@@ -310,6 +313,7 @@ export default function JobSlicePage({
               </div>
             ))}
           </div>
+          {sidebarExtra}
         </aside>
 
         <div className={styles.content}>
