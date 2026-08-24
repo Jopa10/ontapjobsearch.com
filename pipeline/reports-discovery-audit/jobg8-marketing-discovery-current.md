@@ -14,32 +14,32 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **101**
-Provisional BORDERLINE: **49**
-Provisional OUT (specialist/salary): **47**
-Estimated genuine inventory before deep advert review: **~125** (working range **101–150**).
+Provisional LIKELY_IN: **97**
+Provisional BORDERLINE: **39**
+Provisional OUT (specialist/salary): **61**
+Estimated genuine inventory before deep advert review: **~117** (working range **97–136**).
 Viability floor: **~100 genuine jobs nationally**.
-Early verdict: **GO / SCALE CLEAR**.
+Early verdict: **GO TO BOUNDARY SAMPLE / SCALE PLAUSIBLE**.
 
 ## Provisional decision breakdown
 
 | Decision | Content-unique jobs |
 |---|---:|
-| LIKELY_IN | 101 |
-| BORDERLINE | 49 |
-| OUT_SALARY | 25 |
-| OUT_SPECIALIST | 22 |
+| LIKELY_IN | 97 |
+| BORDERLINE | 39 |
+| OUT_SPECIALIST | 32 |
+| OUT_SALARY | 29 |
 
 ## Salary distribution — content-unique broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| missing/unknown | 63 |
-| £30k–£40k | 51 |
-| £25k–£30k | 29 |
-| >£50,000 OUT | 25 |
-| £40k–£50,000 | 25 |
-| <£25k | 4 |
+| missing/unknown | 53 |
+| £30k–£40k | 52 |
+| £25k–£30k | 30 |
+| >£50,000 OUT | 29 |
+| £40k–£50,000 | 28 |
+| <£25k | 5 |
 
 ## JobG8 classifications feeding the seam
 

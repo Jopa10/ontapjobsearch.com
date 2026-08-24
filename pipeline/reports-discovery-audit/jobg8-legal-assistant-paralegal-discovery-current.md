@@ -34,12 +34,12 @@ Early verdict: **GO / SCALE CLEAR**.
 
 | Salary bucket | Jobs |
 |---|---:|
-| £25k–£30k | 98 |
-| missing/unknown | 65 |
+| £25k–£30k | 99 |
+| missing/unknown | 63 |
 | £30k–£40k | 59 |
 | <£25k | 30 |
 | >£50,000 OUT | 22 |
-| £40k–£50,000 | 15 |
+| £40k–£50,000 | 16 |
 
 ## JobG8 classifications feeding the seam
 

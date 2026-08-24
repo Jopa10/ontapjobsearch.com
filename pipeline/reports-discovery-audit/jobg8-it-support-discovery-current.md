@@ -34,9 +34,9 @@ Early verdict: **STOP / VERY THIN**.
 
 | Salary bucket | Jobs |
 |---|---:|
+| £30k–£40k | 27 |
 | £25k–£30k | 25 |
-| £30k–£40k | 25 |
-| missing/unknown | 19 |
+| missing/unknown | 17 |
 | £40k–£50,000 | 6 |
 | >£50,000 OUT | 3 |
 | <£25k | 1 |
