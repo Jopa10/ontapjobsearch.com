@@ -45,6 +45,29 @@ FAMILIES = (
         "profile_category": "",
         "candidate_dir": "",
         "candidate_pattern": "",
+        "published_slug": "customer-sales-jobs",
+    },
+    {
+        "key": "legal_assistant_paralegal",
+        "label": "Paralegal",
+        "register_category": "legal_assistant_paralegal",
+        "source_category": "",
+        "decision_report": "",
+        "profile_category": "",
+        "candidate_dir": "",
+        "candidate_pattern": "",
+        "published_slug": "paralegal-jobs",
+    },
+    {
+        "key": "marketing",
+        "label": "Marketing",
+        "register_category": "marketing",
+        "source_category": "",
+        "decision_report": "",
+        "profile_category": "",
+        "candidate_dir": "",
+        "candidate_pattern": "",
+        "published_slug": "marketing-jobs",
     },
 )
 
@@ -73,8 +96,8 @@ def _job_count(path: Path) -> int:
     return _count_json_data(_load_json(path))
 
 
-def _published_sales_count(region_slug: str) -> int:
-    path = REPO_ROOT / "app" / "_city-pages" / "configured-slices" / region_slug / "customer-sales-jobs.json"
+def _published_configured_count(region_slug: str, category_slug: str) -> int:
+    path = REPO_ROOT / "app" / "_city-pages" / "configured-slices" / region_slug / f"{category_slug}.json"
     return _job_count(path) if path.is_file() else 0
 
 
@@ -264,8 +287,8 @@ def build() -> str:
         for family in FAMILIES:
             status = statuses.get((region_name, family["register_category"]), "")
             is_live = status == "LIVE"
-            if is_live and family["key"] == "sales_advisor":
-                live_count = _published_sales_count(slug)
+            if is_live and family.get("published_slug"):
+                live_count = _published_configured_count(slug, family["published_slug"])
             elif is_live:
                 live_count = _live_count_for_market(
                     live_counts,
@@ -304,12 +327,12 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor counts come from the current published Customer Sales configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal and Marketing counts come from their current published configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
-        "| Region | Service admin | Support worker | Sales advisor |",
-        "|---|---:|---:|---:|",
+        "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing |",
+        "|---|---:|---:|---:|---:|---:|",
     ]
 
     for region_name, _slug, state in rows:
@@ -324,7 +347,7 @@ def build() -> str:
                 live_cells.append(str(item["live_count"]))
         lines.append(f"| {region_name} | " + " | ".join(live_cells) + " |")
 
-    lines.extend(["", "## NOT LIVE", "", "| Region | Service admin | Support worker | Sales advisor |", "|---|---:|---:|---:|"])
+    lines.extend(["", "## NOT LIVE", "", "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing |", "|---|---:|---:|---:|---:|---:|"])
     for region_name, _slug, state in rows:
         cells = []
         for family in FAMILIES:
@@ -357,8 +380,8 @@ def build() -> str:
 
     lines.extend([
         "", "## HEADLINE", "",
-        "| Measure | Service admin | Support worker | Sales advisor |",
-        "|---|---:|---:|---:|",
+        "| Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing |",
+        "|---|---:|---:|---:|---:|---:|",
         "| Live regions | " + " | ".join(f"{live_regions[f['key']]} / {EXPECTED_REGION_COUNT}" for f in FAMILIES) + " |",
         "| Live jobs | " + " | ".join(headline_value(f["key"]) for f in FAMILIES) + " |",
         "", f"**Live slices: {total_live_slices} / {total_possible}.**", "",

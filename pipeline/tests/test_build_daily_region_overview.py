@@ -2,10 +2,18 @@ from __future__ import annotations
 
 import unittest
 
-from scripts.build_daily_region_overview import _live_count_for_market
+from scripts.build_daily_region_overview import FAMILIES, _live_count_for_market
 
 
 class LiveRegionalRollupTests(unittest.TestCase):
+    def test_overview_includes_paralegal_and_marketing_families(self) -> None:
+        self.assertEqual(
+            [family["label"] for family in FAMILIES],
+            ["Service admin", "Support worker", "Sales advisor", "Paralegal", "Marketing"],
+        )
+        self.assertEqual(FAMILIES[3]["published_slug"], "paralegal-jobs")
+        self.assertEqual(FAMILIES[4]["published_slug"], "marketing-jobs")
+
     def test_canonical_market_includes_direct_and_detail_alias_counts(self) -> None:
         category = "Admin/Service – Office Support"
         counts = {
