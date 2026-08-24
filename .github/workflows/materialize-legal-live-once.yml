@@ -59,42 +59,38 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          expected = {
-              'london-paralegal.json': 1,
-              'suffolk-paralegal.json': 1,
-              'essex-paralegal.json': 1,
-              'norfolk-paralegal.json': 1,
-          }
+          expected = ['london-paralegal.json','suffolk-paralegal.json','essex-paralegal.json','norfolk-paralegal.json']
           root = Path('pipeline/output-admin-service')
-          for name, minimum in expected.items():
+          for name in expected:
               path = root / name
-              if not path.is_file():
-                  raise SystemExit(f'Missing Legal output: {path}')
               jobs = json.loads(path.read_text(encoding='utf-8'))
-              if not isinstance(jobs, list) or len(jobs) < minimum:
+              if not isinstance(jobs, list) or not jobs:
                   raise SystemExit(f'Legal output empty/invalid: {path}')
               print(f'{name}: {len(jobs)}')
           PY
-      - name: Publish through configured verified-page mechanism
-        run: python -m pipeline.scripts.publish_verified_pages_live_config
-      - name: Commit Legal production and public data
+      - name: Commit generated Legal outputs
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pipeline/output-admin-service/*-paralegal.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate four approved Legal Assistant Paralegal slices'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish through configured verified-page mechanism
+        run: python -m pipeline.scripts.publish_verified_pages_live_config
+      - name: Commit Legal public data
+        run: |
+          set -euo pipefail
           git add \
-            pipeline/output-admin-service/london-paralegal.json \
-            pipeline/output-admin-service/suffolk-paralegal.json \
-            pipeline/output-admin-service/essex-paralegal.json \
-            pipeline/output-admin-service/norfolk-paralegal.json \
             app/_city-pages/configured-slices/london/paralegal-jobs.json \
             app/_city-pages/configured-slices/suffolk/paralegal-jobs.json \
             app/_city-pages/configured-slices/essex/paralegal-jobs.json \
             app/_city-pages/configured-slices/norfolk/paralegal-jobs.json
-          if git diff --cached --quiet; then
-            echo 'Legal live slices already current'
-            exit 0
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish four approved Legal Assistant Paralegal slices'
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
-          git commit -m 'Materialize four approved Legal Assistant Paralegal slices'
-          git pull --rebase origin main
-          git push origin HEAD:main
