@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 2 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Shropshire | Shropshire | £28000 - £34000 per year | TPA Liability Claims Handler
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: d2abcf0434c126e2aa72169d69000812875253c2195ac63b8f210353e16a7ee
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £32000 per year | HR Assistant
 source_key: jobg8
 source: JobG8
