@@ -106,11 +106,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461884",
@@ -160,11 +156,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "0893e39d-9930-4d5d-8e85-21e19656f985",
@@ -239,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434600",
@@ -343,12 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Reporting",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444978",
@@ -373,13 +356,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225447784",
@@ -529,11 +506,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "d09c0c8b-fb55-4580-9f94-38d12bb9f5c8",
@@ -558,12 +531,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473631",
@@ -613,14 +581,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476340",
@@ -645,11 +606,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225475645",
@@ -799,11 +756,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "49068dbe-9a25-482b-8a0a-055a4b08065a",
@@ -853,11 +806,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225493825",
@@ -1132,13 +1081,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "db2b0707-14a8-4fb2-bb6e-8c00d4efa502",
@@ -1263,11 +1206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225519271",
@@ -1292,12 +1231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466245",
@@ -1497,6 +1431,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107883785",
+    "title": "Planner",
+    "company": "Sureserve Group - Company - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "The Sureserve Group of businesses provides market-leading compliance and energy services across the UK, with 4000 employees working from over 20 offices.\nSureserve Compliance South, delivers heating services within the social housing sector across London & the South East. We support our clients across domestic gas, commercial gas, renewables, and electrical services click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzr7pcIU6Ve7xHulP0qu116p",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sureserve Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -1764,28 +1723,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5525359",
-    "source": "NHS Jobs",
-    "title": "Medical Resourcing Administrator",
-    "company": "Medway NHS Foundation Trust",
-    "advertiser_name": "Medway NHS Foundation Trust",
-    "location": "Gillingham, ME7 5NY",
-    "region": "Kent",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-10T09:07:51.226795",
-    "closing_date": "2026-08-23",
-    "description": "Medical Resourcing Administrator Division: Corporate Care Group: HR and OD Band: 3 Salary: £25,760 - £27,476 per annum/pro rata Interview date: Week Commencing 31st August 2026 We are looking for a Medical Resourcing Administrator to work within our busy fast-paced but friendly Recruitment Team. The successful candidate will need to be well-organised, self-motivated and have great telephone manners with the ability toremaincalm under pressure. The successful applicant will be required to work from the office for the first 3 months as you develop into the role.However, once training is completed a hybrid working pattern will be in place. You will work across the full end-to-end recruitment cycle(from vacancy creation to on-boarding)for vacancies across the trust. Therefore, the ideal candidate must haveprevious recruitment experience along with experience of working in a busy administrative role(s). You will also be good on the telephone as the role will involve engaging and liaising with your recruiting managers, candidatesand a wide range of staff groupsdaily. To provide strong and collaborative administration support to the Medical Resourcing Team throughout the end to end recruitment process to enable the delivery of a first class recruitment service, and to enhance the department's reputation as a centre of excellence. Build solid working relationships with key stakeholders and hiring managers. Take an active part in the continual streamlining of the recruitment process for permanent and temporary staff. Our values are B old, E very Person Counts, S haring and Open and T ogether. It is important that you understand and to refer to our values when completing your application and always reflect our values throughout your employment with the Trust. We are committed to endorsing diversity, multiculturalism, and inclusion; our policies / procedures ensure that all applicants are treated fairly at every stage of the recruitment process. To contribute to our exciting future and become part of our team, apply today. Support with contacts to the Medical Resourcing department via phone and e-mail, ensuring that these are dealt with in a timely, accurate and professionally customer focused manner. Ensure the delivery of an excellent medical recruitment service to managers, staff and applicants through provision of administrative and advisory support throughout the recruitment process. Awareness of the medical resourcing teams key performance indicators and actively work towards meeting them. Review new vacancy submissions on TRAC, ensuring there is valid vacancy control panel approval. Advertise roles on TRAC and NHS jobs and other relevant channels, ensuring accuracy, consistency and relevance. Support with the shortlisting process. Coordinate the setting up of interview schedules and contact candidates electronically, prepare recruitment packs for interviews. Produce offer letters, agree start dates, book induction and issue contracts for successful candidates. Conduct all pre-employment checks for successful candidates in line with NHS Employers guidance. This may also include HEE junior doctors in training, honorary doctors and clinicalattachments.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9275-26-0143",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9275-26-0143",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5528953",
     "source": "NHS Jobs",
     "title": "Receptionist & Prescription Clerk",
@@ -1800,6 +1737,28 @@
     "description": "We are looking for a friendly, organised and reliable Receptionist & Prescription Clerk to join our busy and welcoming GP practice at Len Valley Practice. This is a varied role offering the opportunity to work across both patient reception and prescription administration, making it ideal for someone who enjoys a busy working environment and likes having a role with plenty of variety. You will be one of the first points of contact for our patients, providing a friendly, professional and caring service while helping the practice run smoothly. Alongside your reception duties, you will support the safe and accurate processing of repeat prescriptions and develop your knowledge of NHS prescribing and dispensary processes. You will work closely with our reception, dispensary and clinical teams, building strong relationships with colleagues and healthcare professionals. We are looking for someone who is confident communicating with people, organised, able to prioritise their workload and remains calm and professional when things get busy. Previous GP or healthcare experience would be welcomed but is not essential. What matters most to us is your attitude, reliability, willingness to learn and commitment to providing an excellent service to our patients. If you are looking for a rewarding role where no two days are quite the same and you can make a genuine difference to patients and the wider practice team, we would love to hear from you. This is a varied role combining GP reception and prescription administration, with responsibilities across both areas of the practice. You will: Welcome and assist patients, visitors and healthcare professionals. Manage telephone calls, appointments, enquiries and messages. Support patient registrations, online services and routine administrative tasks. Process repeat prescription requests accurately and within agreed timescales. Prepare prescriptions and medication labels for dispensing patients. Liaise with GPs, pharmacists, hospitals and other healthcare professionals regarding prescription queries. Support prescription administration, filing, delivery schedules and dispensary paperwork. Use EMIS Web, Patient Access and other practice systems to keep patient information accurate and up to date. Monitor emails, tasks and workflows and ensure work is completed or appropriately handed over. Help maintain an organised, welcoming and professional reception environment. The role requires someone who can confidently switch between reception and prescription duties, prioritise competing demands and maintain accuracy and confidentiality in a busy practice. Full training and support will be provided to help you develop confidence across both areas of the role. Job Title: Receptionist & Prescription Clerk Responsible to: Practice Manager Accountable to: Practice Partnership Job Summary We are looking for a friendly, organised and reliable individual to join our busy GP practice as a Receptionist & Prescription Clerk. This varied role combines front-of-house reception duties with the administration and processing of repeat prescriptions. The successful candidate will provide excellent customer service to patients and visitors while supporting the safe, accurate and efficient processing of prescriptions. They will be able to work independently, communicate effectively, prioritise a varied workload and maintain the highest standards of confidentiality at all times. A flexible approach is essential, as additional hours may occasionally be required to provide cover for annual leave and sickness. Main Responsibilities Reception Duties Welcome patients and visitors in a friendly, professional and confidential manner. Ensure all visitors sign in and out appropriately. Answer incoming telephone calls promptly, directing enquiries to the appropriate member of staff where necessary. Book, amend and cancel appointments in accordance with practice protocols. Accurately record telephone messages, appointment requests and home visit requests on the clinical system. Relay test results to patients once authorised by a GP or clinician. Handle patient enquiries and concerns professionally, escalating complaints to the Reception Lead or Practice Manager where appropriate. Process new patient registrations and assist patients with Online Services registration. Monitor emails, tasks and workflows regularly and action them appropriately. Process incoming and outgoing correspondence, including scanning documents and distributing internal and external mail. Assist with patient recalls and other routine correspondence. File patient records and ensure electronic records are maintained accurately. Ensure reception and waiting areas remain clean, tidy and well stocked with forms and stationery. Keep patient information displays and noticeboards up to date. Complete opening and closing reception procedures as required. Support the induction and training of new reception staff where appropriate. Prescription & Dispensary Duties Process repeat prescription requests received online, by paper, telephone or from external organisations in accordance with practice protocols. Print repeat prescriptions for dispensing, non-dispensing and weekly MDS patients within agreed timescales. Accurately issue labels for repeat medication for dispensing patients. Liaise with GPs, pharmacists, hospitals, care homes and other healthcare providers regarding prescription queries. Assist with prescription administration, filing and preparation for payment claims. Prepare delivery schedules where required. Sort and file dispensary invoices and other documentation. Undertake general dispensary administrative duties. Ensure prescriptions are processed safely, accurately and in accordance with Standard Operating Procedures (SOPs). Escalate prescription queries or discrepancies to the Pharmacist or Dispensary Lead where appropriate. General Responsibilities Develop and maintain positive working relationships with colleagues, patients and external organisations. Use EMIS Web, Patient Access, NHS systems and Microsoft Office confidently and accurately. Ensure outstanding work and important information are handed over appropriately at the end of each shift. Attend staff meetings, mandatory training and practice events as required. Participate in the practice appraisal process and complete agreed learning objectives. Maintain strict patient and staff confidentiality in accordance with GDPR and NHS policies. Adhere to all practice policies, procedures and Standard Operating Procedures. Comply with Health & Safety requirements and contribute to maintaining a safe working environment. Maintain a professional appearance and behave courteously and respectfully at all times. Undertake any other reasonable duties appropriate to the role as requested by the Practice Manager or Practice Partners. Person Specification Essential Excellent verbal and written communication skills. Strong customer service skills with a caring and professional approach. Good organisational skills and attention to detail. Ability to work independently and prioritise a varied workload. Confident using computer systems and learning new software. Ability to remain calm under pressure in a busy environment. Flexible and reliable team player. Commitment to maintaining patient confidentiality. Desirable Previous experience working in General Practice or another healthcare setting. Experience using EMIS Web. Previous dispensary or prescription processing experience. Knowledge of NHS prescribing processes. Experience of dealing with the public in a customer-facing role. Training & Development The post-holder will: Participate fully in the annual appraisal process. Complete all mandatory training required by the practice. Attend additional training and development opportunities appropriate to the role. Keep knowledge and skills up to date to support both reception and prescription responsibilities.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0012",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5510745",
+    "source": "NHS Jobs",
+    "title": "Receptionist / Administrator (Care Coordinator)",
+    "company": "Faversham Medical Practice",
+    "advertiser_name": "Faversham Medical Practice",
+    "location": "Faversham, ME13 8QR, Faversham, ME13 8FH",
+    "region": "Kent",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-06T16:55:01.987750",
+    "closing_date": "2026-08-30",
+    "description": "We are looking for a part time Receptionist/Administrator (Care Coordinator) to work with our friendly and supportive team at Faversham Medical Group. We are looking for someone to work 30 hours. The hours required are: Monday: 2 pm to 8 pm Tuesday: 2 pm to 8 pm Wednesday: 8 am to 2 pm Thursday: 2 pm to 8 pm Saturday: 8 am to 2 pm Please note we are unable to offer visa sponsorship for this role. Employment will be by Faversham Medical Group at Faversham Medical Practice, with cross-site working as required. However, this role is an Additional Roles Reimbursement Scheme (ARRS) funded role across Faversham PCN. The purpose of the role is to support the PCN Practice at the above locations to: Offer general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Undertake a variety of administrative duties to assist in the smooth running of the practice including the provision of administrative support to clinical staff and other members of the practice team. Ensure the delivery of safe, effective and efficient systems for repeat prescribing efficiency, medicines optimisation, medication enquiries triage and maximising patient outcomes. Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies. Job summary: Duties and responsibilities: The duties and responsibilities to be undertaken by members of the practice reception team may include any or all of the items in the following list. Duties may be varied from time to time under the direction of the Reception Managers/Business Managers, dependent on current and evolving practice workload and staffing levels: Processing personal and telephone requests for appointments, visits and telephone consultations and ensuring callers are directed to the appropriate healthcare professional. This may be for GP or nurse/HCA clinics, UTC or any other service as required. Processing and distributing incoming (and outgoing) mail. Taking messages and passing on information. Filing and retrieving paperwork. Processing repeat prescriptions in accordance with practice guidelines. Scanning of post, new patient notes, previously filed patient notes and other documents as required. Administrative duties. Chaperoning duties. Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures. Providing help and information to patients and visitors. Initiating contact with and responding to requests from patients, other team members and associated healthcare agencies and providers. Clearing and re-stocking consulting rooms as required. Providing clerical assistance to practice staff as required from time to time, including word/data processing, filing, photocopying and scanning. Ordering, re-ordering and monitoring of stationery and other supplies. Re-stocking the stationery cupboard with these supplies. Provision of refreshments for staff and visitors as required; washing up afterwards and keeping the kitchen area clean and tidy. Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter. Ensuring off site external storage unit is kept organised, clean and accessible when instructed by the Reception Managers or Reception/Administrator Supervisor, retrieving, updating and filing of stored information as required. Confidentiality: In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately. In the performance of the duties outlined in this job description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential. Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health & safety: The post-holder will assist in promoting and maintaining their own and others health, safety and security as defined in the practice Health & Safety Policy, the practice Health & Safety Manual, and the practice Infection Control Policy and published procedures. This will include: Using personal security systems within the workplace according to practice guidelines. Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks. Making effective use of training to update knowledge and skills. Using appropriate infection control procedures, maintaining work areas in a tidy and safe way and free from hazards. Actively reporting of health and safety hazards and infection hazards immediately when recognised. Keeping own work areas and general / patient areas generally clean, assisting in the maintenance of general standards of cleanliness consistent with the scope of the job holders role. Undertaking periodic infection control training (minimum annually). Reporting potential risks identified. Safeguarding: It is the responsibility of all staff at Faversham Medical Group to; Safeguard and promote the welfare of children and vulnerable adults. Ensure their safeguarding adults and safeguarding children training is up to date at the level appropriate to their role. Ensure the safeguarding policies and procedures in place within the Practice are adhered to during employment. Equality and diversity: The post-holder will support the equality, diversity and rights of patients, carers and colleagues, to include: Acting in a way that recognise the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation. Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues. Behaving in a manner which is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Personal/professional development: The post-holder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in an annual individual performance review, including taking responsibility for maintaining a record of own personal and/or professional development. Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work. Quality: The post-holder will strive to maintain quality within the practice, and will: Alert other team members to issues of quality and risk. Assess own performance and take accountability for own actions, either directly or under supervision. Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance. Work effectively with individuals in other agencies to meet patients needs. Effectively manage own time, workload and resources. Communication: The post-holder should recognise the importance of effective communication within the team and will strive to: Communicate effectively with other team members. Communicate effectively with patients and carers. Recognise peoples needs for alternative methods of communication and respond accordingly. Contribution to the implementation of services: The post-holder will: Apply practice policies, standards and guidance. Discuss with other members of the team how the policies, standards and guidelines will affect own work. Participate in audit where appropriate. Housekeeping duties Serve refreshments, clean and tidy away afterwards. Defrost fridge if appropriate. Ensure premises are kept clean and tidy between visits from cleaning staff. Replace and maintain indoor plants. Tidy and sort toys, magazines, leaflets etc. Discard old or damaged items. It is important that all members of staff are prepared to take on additional duties or relinquish existing duties in order to maintain the efficient running of the practice. The Partners reserve the right to redistribute duties and functions among members of staff from time to time, and requests for such changes shall not be reasonably refused.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0646-26-0020",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0646-26-0020",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

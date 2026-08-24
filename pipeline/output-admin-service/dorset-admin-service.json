@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-260720b-administrator",
-    "title": "[260720B] Administrator",
-    "company": "Hill View Primary Academy",
-    "location": "Bournemouth",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,989.00 - £27,254.00 Annually (FTE) NJC Grade 4 Pt 6-9",
-    "work_pattern": "",
-    "posted_date": "2026-07-16",
-    "closing_date": "2026-08-23",
-    "closing_datetime": "2026-08-23T23:59:00+01:00",
-    "summary": "[260720B] Administrator with Hill View Primary Academy in Bournemouth. ['part time']; £25,989.00 - £27,254.00 Annually (FTE) NJC Grade 4 Pt 6-9.",
-    "description": "Hill View Primary Academy is recruiting for this vacancy in Bournemouth.\n\nThe advertised position is [260720B] Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,989.00 - £27,254.00 Annually (FTE) NJC Grade 4 Pt 6-9.\n\nThe stated application deadline is 2026-08-23T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/260720b-administrator?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hill View Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset",
     "title": "Finance and HR Administrator",
     "company": "Cranborne Church of England First School",
@@ -206,11 +178,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "9d81b63d-0534-4d3d-8369-551d82c1dd67",
@@ -260,12 +228,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "680e9123-95cb-46b6-a3f2-ff77295aa8b8",
@@ -315,11 +278,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225483669",
@@ -344,11 +303,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "c614b298-cb74-4367-ac59-4a131f9373b4",
@@ -373,13 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "a063bb22-c3e3-401a-88bc-c801d296bd2f",
@@ -404,11 +353,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497856",
@@ -433,11 +378,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fd7b404d-5ab4-401b-aaba-501823cbae1c",
@@ -462,11 +403,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "e6491e45-1ff3-4831-b047-f34e830cb99d",
@@ -541,11 +478,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465013",

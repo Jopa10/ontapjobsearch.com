@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "e0a165a2-d2e1-4615-9593-929fb2eda820",
@@ -76,11 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225427059",
@@ -330,12 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225427196",
@@ -360,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473506",
@@ -414,6 +397,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107880406",
+    "title": "Recruitment Coordinator",
+    "company": "24-7 Recruitment Services - Agency - Temporary",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "14.5",
+    "salary_text": "£13.5 - £14.5 per hour",
+    "posted_date": "",
+    "description": "Job Title: Multi-Site Recruitment Co-ordinator FTC 12 months\n\nLocation: (Liverpool, Runcorn and Skelmersdale - WA 12 ) Regional travel required across 3 sites Own vehicle required.\n\nSalary: £13.50-14.50 per hour\n\nAbout the Role\n\nWe are seeking an experienced Multi-Site Recruitment Co-ordinator to oversee and drive the operational success of our recruitment contracts across multiple client sites click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttqjHB75%2fkHVq4iQsuP62bBBa",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "24-7 Recruitment Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {

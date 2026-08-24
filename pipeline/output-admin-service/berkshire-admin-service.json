@@ -237,14 +237,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462648",
@@ -294,12 +287,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1bab4f68-302c-4d64-861c-37c4ec78fc63",
@@ -374,11 +362,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "e12e3556-f2a6-4520-a95f-3257ce75db72",
@@ -553,11 +537,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225451460",
@@ -732,11 +712,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "4fdbf2c6-e0d2-4e84-80e4-fcbe0929eba3",
@@ -886,11 +862,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225223268",
@@ -940,11 +912,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472204",
@@ -1060,28 +1028,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0666",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5540816",
-    "source": "NHS Jobs",
-    "title": "Access to Health / Health Records Clerk (Part Time 30 hours per week)",
-    "company": "Royal Berkshire NHS Foundation Trust",
-    "advertiser_name": "Royal Berkshire NHS Foundation Trust",
-    "location": "Reading, RG1 5AN",
-    "region": "Berkshire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-14T13:43:38.888268606",
-    "closing_date": "2026-08-23",
-    "description": "PLEASE NOTE: PREVIOUS APPLICANTS NEED NOT REAPPLY Band 2 Access To Health / Health Records Clerk This is a part-time post for 30 hours per week. The post holder assigned to the Access to Health or Health Records Clerk section of the department will be responsible for ensuring their daily allocation of requests are managed accordingly. This will include dealing with the public, legal services and other Hospitals. In addition to their primary responsibilities in the Access to Health section, the post holder may also assume responsibility for the retrieval/scanning of records You will be part of a team of Health Record Clerks and will be responsible for ensuring your daily allocation of record/Wallet requests, together with record/Wallet transfers and the return of spent records/Wallets to the Records Library is completed. Receive requests via telephone, email and post and log all applications in line with Trust Administration polices. Provide professional advice and assistance to requestors (patients; medico-legal, etc.) with due empathy and understanding. Manage requests and enquiries from Patient Relations Team. Ensure the validity of the request and accompanying ID is thoroughly assessed. Coordinate and liaise with Radiology Department where applicable. Retrieve all relevant patient records, in any form, and media pertaining to the request on any RBH used system, as well as, off-site storage and Library locations. Copy all required information; present in a continuous format for relevant requestor (patient or otherwise). Prepare and ensure right information is timeously sent to the correct consultant/area to gain necessary signed authorisation to allow the despatch of copied patient records. Use the Trust Medical Transcription System to maintain patient Information security. Invoice and monitor payment if/where applicable. The primary role of the Access to Health Clerk requires the professional responsibility to ensuring all services are completed in a timely and accurate manner, meeting the requirements as set out in the Data Protection 1998 and General Data Protection Regulation (GDPR). The Health Records Clerk is responsible for providing a high standard of records management services to the Royal Berkshire Hospital and satellite locations. Working within the criteria of Trust Policy, the Health Records Clerk will provide primary records management services, ensuring that all requested Health Records are located, retrieved and delivered to the requestor (clinic ward or admin area) within the departmental service level agreement (SLA). Please refer to the attached Job Description & Person Specification for further details.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0533",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0533",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
     "advertiser_type": "",
     "work_pattern": "",
     "salary_period": "",

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-hub-administrator-cornerstone-academy-trust",
-    "title": "Hub Administrator",
-    "company": "Cornerstone Academy Trust",
-    "location": "Exeter",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "FTE £25660",
-    "work_pattern": "",
-    "posted_date": "2026-07-24",
-    "closing_date": "2026-08-23",
-    "closing_datetime": "2026-08-23T23:59:59+01:00",
-    "summary": "Hub Administrator with Cornerstone Academy Trust in Exeter. ['full time']; FTE £25660.",
-    "description": "Cornerstone Academy Trust is recruiting for this vacancy in Exeter.\n\nThe advertised position is Hub Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is FTE £25660.\n\nThe stated application deadline is 2026-08-23T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hub-administrator-cornerstone-academy-trust?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Cornerstone Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-st-joseph-s-catholic-primary-school",
     "title": "Administrative Assistant",
     "company": "St Joseph's Catholic Primary School",
@@ -489,12 +461,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "84809d07-69f9-4987-bc95-653c367955ba",
@@ -769,13 +736,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461743",
@@ -825,13 +786,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463000",
@@ -906,13 +861,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107818981",
@@ -1012,11 +961,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "fd906ab6-1763-4bd9-805a-fc9b6aa92538",
@@ -1094,6 +1039,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107830237",
+    "title": "HR Administrator",
+    "company": "Hays - Agency - Temporary",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.75",
+    "salary_max": "13.75",
+    "salary_text": "£13.75 per hour",
+    "posted_date": "",
+    "description": "Your new company\nWorking from September till the end of this year as a minimum for a Schools Trust based in Totnes.\nThe role is full time Monday - Friday 8am - 4pm.\nPay is £13.75 per hour.\nYour new role\nWe are seeking an HR & Recruitment Administrator to join an internal HR team from September until Christmas (but this could be extended or even permanent) click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7oy6WOkWp3mxVP4vT3DPZay",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107770661",
     "title": "Project Administrator",
     "company": "Systems Engineering and Assessment Limited - Agency - Permanent",
@@ -1115,6 +1085,31 @@
     "advertiser_name": "Systems Engineering and Assessment Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "251ff804-99ab-496b-b09c-9289e41c61ba",
+    "title": "Administrator - 6 Month FTC",
+    "company": "Artis Recruitment - Agency - Contract",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "25000",
+    "salary_max": "27000",
+    "salary_text": "£25000 - £27000 per year",
+    "posted_date": "",
+    "description": "Artis HR are supporting a well-established organisation in Newton Abbot with the appointment of an Administrator on a 6-month fixed-term contract, with the potential for this to be extended.This is a great opportunity for someone with strong general administration experience who is looking to join a busy team and gain valuable exposure to HR and people processes.You don't need previous HR experience for this role. What's most important is that you're organised, detail-focused, confident using systems and comfortable dealing with people across a business.What you'll be doingSupporting the team with a range of day-to-day administrationProcessing new starters and leavers and ensuring paperwork is completedChecking documentation and maintaining accurate recordsUpdating systems and employee recordsKeeping training and other records up to dateCoordinating appointments and other employee processesSending communications and following up with managers where neededProcessing references and other administrative requestsAnswering queries and directing them to the right personSupporting with general admin and ad-hoc projectsWhat we're looking for Previous experience in a general administration or office-based roleStrong organisation skills and excellent attention to detailConfident communicating with people at all levelsComfortable handling confidential informationGood working knowledge of Microsoft Office, particularly Word, Excel and OutlookA proactive approach and the ability to manage your own workloadHR experience would be a bonus, but is not essentialWhat's on offer?£27,000 salary 6-month fixed-term contract, with extension likelyFull-time, 5 days a week in the officeBased in Newton AbbotImmediate start availableA great opportunity to gain exposure to HR and people processesIf you're an experienced Administrator looking for your next opportunity, or you're keen to move into an HR-focused environment, we'd love to hear from you.Artis HR are managing the recruitment process, so please get in touch for more information.Artis Recruitment provide specialist recruitment services within HR, Finance, IT, Procurement, Marketing, Customer Contact and Executive Search. By applying to this position, you acknowledge that you have read and accept our Privacy Policy:",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTKDic9erGtS4K44JCdqsHXm",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Artis Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },

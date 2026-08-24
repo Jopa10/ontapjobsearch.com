@@ -41,12 +41,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Support plans",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "f6fec1d6-1fe7-4f2f-895c-76cd05933697",
@@ -133,6 +128,28 @@
     "advertiser_name": "Barchester Healthcare",
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "51b62aab-8430-41cc-96ad-800c11e65210",
+    "title": "Relief Support Worker",
+    "company": "Creative Support Ltd - Company - Temporary",
+    "location": "County Durham",
+    "region": "North East",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Temporary",
+    "salary_min": "12.85",
+    "salary_max": "12.85",
+    "salary_text": "£12.85 per hour",
+    "posted_date": "",
+    "description": "We are seeking experienced, calm, and resourceful relief support workers for the Durham region. You will provide person-centred support to individuals with learning disabilities and complex needs, helping them achieve personal development.\n\nKey skills include positive communication, engagement, and unconditional positive regard for the people we support. You should be confident in working within a positive behaviour support framework, accepting responsibility, and developing as a skilled practitioner.\n\nResponsibilities include building trusting relationships, supporting a range of activities, ensuring physical well-being, and addressing frustrations. Experience with learning disabilities and complex needs is essential.\n\nAs a member of Creative Support, you'll have access to our app for picking up shifts nationwide, with weekly pay. Car drivers are preferred to transport service users to community activities. Join us to make a difference!\n\nVacancy Reference Number: 94005\n\nApplications for this role must be submitted via the Creative Support website using the above vacancy reference number\n\nWe are a passionate, inclusive, and anti-racist organization - Stonewall Diversity Champion, Disability Confident Employer who have recently received Investors in People Gold awarded. SVC: DHRD\n\nApplications are reviewed as they are received, we do not provide feedback for unsuccessful applications. We can only accept applications from candidates who are located in and eligible to work within the UK - This post will not be open to Sponsorship under the UKVI scheme, and we are unable to accept applicants with Skilled Worker Visas.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOacuIkMagP5FV46WhheDslr",
+    "source": "JobG8",
+    "advertiser_name": "Creative Support Ltd",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": ""
   }
