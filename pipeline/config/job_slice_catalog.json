@@ -48,6 +48,13 @@
       "file_suffix": "paralegal",
       "display_label": "Legal Assistant & Paralegal",
       "category_label": "Legal Assistant / Paralegal"
+    },
+    "marketing": {
+      "route_slug": "marketing-jobs",
+      "output_dir": "output-admin-service",
+      "file_suffix": "marketing",
+      "display_label": "Marketing",
+      "category_label": "Marketing"
     }
   },
   "regions": {

@@ -78,6 +78,21 @@ class SliceRegistryTests(unittest.TestCase):
         )
         self.assertNotIn(("North East", "customer_sales"), live_slices())
 
+    def test_marketing_live_set_is_exactly_the_four_owner_approved_regions(self):
+        marketing_regions = {
+            region for region, category in live_slices() if category == "marketing"
+        }
+        self.assertEqual(
+            marketing_regions,
+            {
+                "London",
+                "Surrey",
+                "Greater Manchester - Manchester & Salford",
+                "West Midlands - Birmingham & Solihull",
+            },
+        )
+        self.assertNotIn(("Kent", "marketing"), live_slices())
+
     def test_close_and_deferred_slices_are_candidates_not_live(self):
         candidates = candidate_slices()
         expected = {
@@ -146,6 +161,18 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             dynamic_data_path("London", "customer_sales"),
             Path("app/_city-pages/configured-slices/london/customer-sales-jobs.json"),
+        )
+        self.assertEqual(
+            output_filename("London", "marketing"),
+            "london-marketing.json",
+        )
+        self.assertEqual(
+            dynamic_route("West Midlands - Birmingham & Solihull", "marketing"),
+            "/job-search/birmingham-solihull/marketing-jobs",
+        )
+        self.assertEqual(
+            dynamic_data_path("Surrey", "marketing"),
+            Path("app/_city-pages/configured-slices/surrey/marketing-jobs.json"),
         )
         self.assertEqual(
             dynamic_route("Merseyside - Liverpool", "admin_service"),

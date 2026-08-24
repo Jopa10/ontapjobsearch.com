@@ -18,7 +18,7 @@ const officeTraining = [
     title: "Microsoft 365 training",
     provider: "Microsoft Learn",
     description:
-      "Refresh Excel, Outlook and everyday office-productivity skills used across many admin, finance, customer-service and HR roles.",
+      "Refresh Excel, Outlook and everyday office-productivity skills used across many admin, finance, customer-service, HR and marketing roles.",
     link: "https://learn.microsoft.com/training/",
   },
 ];

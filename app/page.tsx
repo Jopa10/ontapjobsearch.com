@@ -18,7 +18,7 @@ const homepageCityMinimumJobs = 4;
 export const metadata: Metadata = {
   title: 'UK Jobs by Role and Region | Ontap Job Search',
   description:
-    'Search and browse current UK admin, office support, customer service, sales advisor, legal assistant, paralegal and support worker jobs by role and region. Updated daily with direct application links.',
+    'Search and browse current UK admin, office support, customer service, sales advisor, marketing, legal assistant, paralegal and support worker jobs by role and region. Updated daily with direct application links.',
   alternates: { canonical: canonicalUrl },
 };
 
@@ -100,6 +100,18 @@ function publishedDynamicCustomerSalesLinks(jobs: PublishedJob[]): RegionLink[] 
 function publishedDynamicLegalLinks(jobs: PublishedJob[]): RegionLink[] {
   return getPublishedDynamicSlices()
     .filter((slice) => slice.category === 'legal_assistant_paralegal')
+    .map((slice) => ({
+      label: slice.region,
+      href: slice.route,
+      count: countBySlice(jobs, slice.route),
+    }))
+    .filter((route) => route.count > 0)
+    .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
+}
+
+function publishedDynamicMarketingLinks(jobs: PublishedJob[]): RegionLink[] {
+  return getPublishedDynamicSlices()
+    .filter((slice) => slice.category === 'marketing')
     .map((slice) => ({
       label: slice.region,
       href: slice.route,
@@ -289,6 +301,7 @@ export default function Page() {
   ];
   const customerSalesRegions = publishedDynamicCustomerSalesLinks(jobs);
   const legalRegions = publishedDynamicLegalLinks(jobs);
+  const marketingRegions = publishedDynamicMarketingLinks(jobs);
   const supportWorkerRegions = [
     ...withCounts(jobs, supportWorkerRoutes),
     ...activeCityLinks('support'),
@@ -323,7 +336,7 @@ export default function Page() {
           <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-5">
             <div>
               <h1 className="max-w-3xl text-3xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-4xl">
-                Find admin, office support, customer service, sales and legal support jobs across the UK
+                Find admin, office support, customer service, sales, marketing and legal support jobs across the UK
               </h1>
               <p className="mt-2 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
                 Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
@@ -367,6 +380,14 @@ export default function Page() {
               </div>
 
               <div className="grid content-start gap-3">
+                {marketingRegions.length > 0 ? (
+                  <div id="marketing-regions" className="rounded-xl border border-blue-100 bg-blue-50 p-3.5 sm:p-4">
+                    <h3 className="text-lg font-semibold text-gray-900">Marketing</h3>
+                    <p className="mt-0.5 text-sm text-gray-600">Current live regional pages</p>
+                    <CompactRegionLinks regions={marketingRegions} />
+                  </div>
+                ) : null}
+
                 {legalRegions.length > 0 ? (
                   <div id="legal-regions" className="rounded-xl border border-blue-100 bg-blue-50 p-3.5 sm:p-4">
                     <h3 className="text-lg font-semibold text-gray-900">Legal Assistant & Paralegal</h3>

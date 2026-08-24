@@ -99,12 +99,12 @@ def contains_any(text: str, terms: list[str]) -> list[str]:
     return [term for term in terms if term in text]
 
 
-def load_location_lookup() -> list[tuple[str, str]]:
-    if not GEO_PATH.exists():
+def load_location_lookup(path: Path = GEO_PATH) -> list[tuple[str, str]]:
+    if not path.exists():
         return []
 
     pairs: dict[str, str] = {}
-    geo = pd.read_excel(GEO_PATH, dtype=str).fillna("")
+    geo = pd.read_excel(path, dtype=str).fillna("")
     if {"Area", "Cluster"}.issubset(geo.columns):
         for _, row in geo.iterrows():
             place = norm(row.get("Area"))
@@ -113,7 +113,7 @@ def load_location_lookup() -> list[tuple[str, str]]:
                 pairs.setdefault(place, region)
 
     try:
-        fallback = pd.read_excel(GEO_PATH, sheet_name="LocationFallback", dtype=str).fillna("")
+        fallback = pd.read_excel(path, sheet_name="LocationFallback", dtype=str).fillna("")
     except ValueError:
         fallback = pd.DataFrame()
     if {"Location", "Cluster"}.issubset(fallback.columns):
