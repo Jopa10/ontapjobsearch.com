@@ -2,10 +2,10 @@
 
 This wraps the established Sussex/Coventry chain rather than replacing its
 selection logic. North Yorkshire and all later regions are added from the
-central slice register/catalog. Registered secondary categories, Customer
-Sales and Legal Assistant / Paralegal are then generated from the same current
-JobG8 input. Marketing is generated last through its separately frozen family
-boundary and the same explicit LIVE register gate.
+central slice register/catalog. Finance and Customer Service keep their audited
+title-register selector; HR / Recruitment, Customer Sales, Legal Assistant /
+Paralegal and Marketing then use their separately frozen family boundaries
+against the same current JobG8 input and explicit LIVE register gate.
 """
 from __future__ import annotations
 
@@ -113,6 +113,10 @@ def main() -> int:
         return result
     from .registered_category_pipeline import run_live_registered_categories
     result = run_live_registered_categories()
+    if result:
+        return result
+    from .hr_recruitment_pipeline import main as run_live_hr_recruitment
+    result = run_live_hr_recruitment()
     if result:
         return result
     from .customer_sales_pipeline import main as run_live_customer_sales
