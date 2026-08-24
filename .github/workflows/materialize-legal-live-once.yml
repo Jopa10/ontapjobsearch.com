@@ -100,18 +100,11 @@ jobs:
                   if marker not in text:
                       raise SystemExit(f'Missing recent-changes marker in {filename}')
                   text = text.replace(marker, marker + bullet, 1)
-              if filename == 'SYSTEM_MAP.md':
-                  text = text.replace(
-                      'Customer Sales production launch, 78-market UK geography governance',
-                      'Customer Sales and Legal Assistant / Paralegal production launches, 78-market UK geography governance',
-                      1,
-                  )
-              else:
-                  text = text.replace(
-                      'Customer Sales production launch, 78-market UK geography governance',
-                      'Customer Sales and Legal Assistant / Paralegal production launches, 78-market UK geography governance',
-                      1,
-                  )
+              text = text.replace(
+                  'Customer Sales production launch, 78-market UK geography governance',
+                  'Customer Sales and Legal Assistant / Paralegal production launches, 78-market UK geography governance',
+                  1,
+              )
               path.write_text(text, encoding='utf-8')
           PY
       - name: Commit generated Legal outputs and governance
@@ -126,7 +119,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Publish through configured verified-page mechanism
-        run: python -m pipeline.scripts.publish_verified_pages_live_config
+        run: python -m pipeline.scripts.publish_verified_pages_live_config --write
       - name: Commit Legal public data
         run: |
           set -euo pipefail
