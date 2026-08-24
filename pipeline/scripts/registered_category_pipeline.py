@@ -1,4 +1,4 @@
-"""Generate LIVE Finance, Customer-Service and HR slices from audited title registers.
+"""Generate LIVE Finance and Customer-Service slices from audited title registers.
 
 Selection is deliberately narrow:
 - exact normalised title match only;
@@ -39,7 +39,6 @@ PUBLISH_THRESHOLD = 6
 CATEGORIES = {
     "finance_accounts": "finance_accounts_title_classification_register.csv",
     "customer_service_contact_centre": "customer_service_contact_centre_title_classification_register.csv",
-    "hr_recruitment": "hr_recruitment_title_classification_register.csv",
 }
 SELECTED_CLASSIFICATIONS = {"HIGH_CONFIDENCE", "ELASTIC_FIT"}
 NE_DETAIL_REGIONS = {
@@ -150,7 +149,7 @@ def run_live_registered_categories() -> int:
         if category in CATEGORIES
     }
     if not active:
-        print("Registered Finance/Customer-Service/HR slices: none LIVE; nothing to generate")
+        print("Registered Finance/Customer-Service slices: none LIVE; nothing to generate")
         return 0
 
     active_categories = sorted({category for _, category in active})
