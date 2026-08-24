@@ -59,9 +59,13 @@ export default function Page() {
       introText={`Updated daily • Latest update: ${latestUpdate} • Roles across London • Apply on employer sites`}
       anchorTown="London"
       jobFilter={isLondonJob}
+      sectorFilterEnabled
+      compactPageSpacing
+      softPageBackground
       browseLinks={{
         heading: "Browse London by area",
         intro: "Use an area when the vacancy gives a reliable London location; otherwise it stays on this London-wide page.",
+        compact: true,
         links: londonAreaLinks,
       }}
       trainingHeading="Boost your admin applications"

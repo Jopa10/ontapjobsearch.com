@@ -3,7 +3,96 @@
   align-items: center;
   justify-content: flex-end;
   gap: 6px;
-  margin: 0 0 12px;
+  margin: 0;
+}
+
+.sectorBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border: 1px solid #dbe3ee;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.sectorGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.compactPrompt {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.sectorControls {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+
+.sectorButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #fff;
+  color: #334155;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.sectorButton span {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.sectorButton:hover {
+  border-color: #86a99a;
+  background: #f2f8f5;
+}
+
+.sectorButton:focus-visible {
+  outline: 3px solid rgba(23, 96, 58, 0.25);
+  outline-offset: 2px;
+}
+
+.sectorActive {
+  border-color: #17603a;
+  background: #17603a;
+  color: #fff;
+}
+
+.sectorActive span {
+  color: #d6eee1;
+}
+
+.sectorActive:hover {
+  background: #124b2e;
+}
+
+.sectorBusiness :global([data-job-sector="public"]),
+.sectorPublic :global([data-job-sector="business"]) {
+  display: none;
+}
+
+.sectorPublic :global([data-sector-switch-banner="inline"]) {
+  display: none;
+}
+
+.sectorAll :global([data-sector-banner-view="business"]),
+.sectorBusiness :global([data-sector-banner-view="all"]) {
+  display: none;
 }
 
 .prompt {
@@ -16,7 +105,7 @@
 .button {
   border: 1px solid #cbd5e1;
   border-radius: 8px;
-  padding: 7px 11px;
+  padding: 6px 9px;
   background: #fff;
   color: #334155;
   cursor: pointer;
@@ -45,7 +134,37 @@
   background: #1d4ed8;
 }
 
+@media (max-width: 940px) {
+  .sectorBlock {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .sectorGroup {
+    width: 100%;
+  }
+
+  .sectorControls {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 640px) {
+  .sectorGroup {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .sectorControls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .sectorButton {
+    justify-content: space-between;
+    width: 100%;
+  }
+
   .controls {
     justify-content: flex-start;
     flex-wrap: wrap;

@@ -11,7 +11,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
-    "test:frontend": "tsx --test tests/hybrid-working-badge.test.tsx tests/job-facts.test.ts tests/related-jobs.test.ts tests/city-page-data.test.ts tests/london-job-area.test.ts tests/job-search.test.ts tests/job-display-order.test.ts tests/job-description.test.ts"
+    "test:frontend": "tsx --test tests/hybrid-working-badge.test.tsx tests/job-facts.test.ts tests/related-jobs.test.ts tests/city-page-data.test.ts tests/london-job-area.test.ts tests/job-search.test.ts tests/job-display-order.test.ts tests/job-description.test.ts tests/job-sector.test.tsx"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
