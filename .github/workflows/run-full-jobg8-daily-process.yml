@@ -270,7 +270,7 @@ jobs:
           test -s pipeline/output-support-worker/hampshire-support-worker.json
           test -s pipeline/output-support-worker/london-support-worker.json
 
-      - name: Assess five governed families across all 78 assessable UK markets
+      - name: Assess six governed families across all 78 assessable UK markets
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage
 
@@ -287,15 +287,16 @@ jobs:
           path = Path('pipeline/reports-daily/daily-family-coverage.csv')
           with path.open(encoding='utf-8-sig', newline='') as handle:
               rows = list(csv.DictReader(handle))
-          assert len(rows) == 390, f'expected 390 family coverage rows, found {len(rows)}'
+          assert len(rows) == 468, f'expected 468 family coverage rows, found {len(rows)}'
           pairs = {(row['region'], row['family']) for row in rows}
-          assert len(pairs) == 390, f'expected 390 unique region/family pairs, found {len(pairs)}'
+          assert len(pairs) == 468, f'expected 468 unique region/family pairs, found {len(pairs)}'
           families = {
               'service_admin',
               'support_worker',
               'customer_sales',
               'legal_assistant_paralegal',
               'marketing',
+              'hr_recruitment',
           }
           assert {row['family'] for row in rows} == families
           feed_dates = {row['feed_date'] for row in rows}
@@ -316,7 +317,7 @@ jobs:
           assert len(counts) == 78, f'expected 78 assessable UK markets in latest history snapshot, found {len(counts)}'
           for region, regional in counts.items():
               assert set(regional) == families, f'{region} missing history family counts: {regional}'
-          print('Verified 78 assessable UK markets x 5 families plus rolling 14-day history')
+          print('Verified 78 assessable UK markets x 6 families plus rolling 14-day history')
           PY
 
       - name: Test persistent review and exclusion behavior
