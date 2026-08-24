@@ -1,12 +1,13 @@
 # Ontap System Map
 
 **Last updated:** 24 August 2026  
-**Status:** Canonical production architecture after cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales, Legal Assistant / Paralegal and Marketing production launches, 78-market UK geography governance and three-family live/diagnostic regional reporting with rolling history.
+**Status:** Canonical production architecture after cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales, Legal Assistant / Paralegal and Marketing production launches, 78-market UK geography governance and five-family live/diagnostic regional reporting with rolling history.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
+- 24 August 2026 — **Daily regional overview expanded from three to five families:** `daily-region-overview.md`, `daily-family-coverage.csv` and the rolling 14-date history now cover **Service Admin, Support Worker, Sales Advisor, Paralegal and Marketing across all 78 canonical UK markets**. LIVE Paralegal/Marketing counts come from their published configured-slice JSON; NOT LIVE counts reuse each family's frozen production selector, content dedupe and canonical geography against the same JobG8 feed. Older three-family history remains readable and contributes only where that family existed. The explicit slice register remains the sole activation gate; diagnostics never make a market LIVE.
 - 24 August 2026 — **North East AI-help card trial:** `/north-east/service-administrator-jobs` is the only job page currently given the optional animated Ontap AI card beneath its training links. The card links to the new public, indexable `/ai-tips` guidance page and emits the GA4 event `ai_tips_click` with placement and source-page context. `JobSlicePage` exposes the card as an optional `sidebarExtra` slot, so every other regional and city route remains unchanged. The 320×320 animated WebP is approximately 196 KB, uses real alternative text and is not used as a substitute for the page's indexable HTML content.
 
 - 24 August 2026 — **Marketing launched in four owner-approved proof markets:** advert-level proof-page review passed **London (27), Surrey (8), Greater Manchester - Manchester & Salford (6 publishable after one contradictory Manchester/Derbyshire location advert is withheld), and West Midlands - Birmingham & Solihull (7)**. `marketing` is now a governed catalogue category and exactly those four region/category pairs are `LIVE`; Kent remains reserve/non-LIVE. `pipeline/scripts/marketing_pipeline.py` applies the frozen £50k, specialist, training-advert, contextual-title, content-dedupe and cross-market location guards before the shared verified dynamic-page publisher. The public routes are `/job-search/{region-slug}/marketing-jobs`, and the homepage exposes only non-empty published slices. Proof evidence is recorded in `pipeline/reports-discovery-audit/jobg8-marketing-proof-page-review-2026-08-24.md`.
@@ -75,14 +76,14 @@ Primary scheduled entry point: `.github/workflows/run-full-jobg8-daily-process.y
 
 It runs at 07:30 and 15:30 Europe/London and performs:
 
-`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → service-admin/support-worker selectors → registered category selectors + Customer Sales selector → approved external-source composition → fresh transactional NHS composition → metadata enrichment → three-family 55-market diagnostic coverage → current coverage + rolling history → pipeline outputs/reports`
+`JobG8 feed → pipeline/input/jobg8.xlsx → validation + duplicate report → LIVE slice register → governed family selectors → approved external-source composition → fresh transactional NHS composition → metadata enrichment → five-family 78-market UK diagnostic coverage → current coverage + rolling history → pipeline outputs/reports`
 
 `pipeline/input/jobg8.xlsx` is transient workflow input and is not committed. The validated raw feed is retained durably in S3 under `jobg8/raw`.
 
 Geography governance is layered deliberately:
 
 - `pipeline/geo/geo_lookup.xlsx` maps factual source locations to Ontap lookup regions;
-- `pipeline/config/england_assessable_regions.json` defines the complete 55-market England universe used by recurring family diagnostics and the regional overview;
+- `pipeline/config/uk_assessable_regions.json` defines the complete 78-market UK universe used by recurring family diagnostics and the regional overview; `england_assessable_regions.json` is retained as a historical England subset;
 - `pipeline/config/job_slice_catalog.json` supplies configured market/category route metadata and must not be treated as exhaustive geography;
 - `pipeline/registers/region_category_slice_register.csv` is the explicit LIVE/CANDIDATE/other slice-state gate.
 

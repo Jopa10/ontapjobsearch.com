@@ -1,12 +1,13 @@
 # Ontap System Overview
 
 **Last updated:** 24 August 2026  
-**Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales, Legal Assistant / Paralegal and Marketing production launches, 78-market UK geography governance, three-family regional diagnostics/history and Teaching Vacancies review-queue refinement.
+**Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales, Legal Assistant / Paralegal and Marketing production launches, 78-market UK geography governance, five-family regional diagnostics/history and Teaching Vacancies review-queue refinement.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 24 August 2026 — **The daily regional overview now includes Paralegal and Marketing:** both appear beside Service Admin, Support Worker and Sales Advisor across all 78 UK markets. LIVE columns show actual published jobs; NOT LIVE columns build rolling same-feed evidence from the frozen family selectors. These figures support expansion decisions only and cannot activate a market without explicit approval in the LIVE register.
 - 24 August 2026 — Ontap's first practical AI-help trial is live only on the North East Service Administrator page. A compact animated mascot card sits below the existing course cards and links to `/ai-tips`, which gives jobseekers plain-English examples for notes, emails, documents and customer replies plus privacy and checking guidance. On tablet/mobile the normal responsive layout keeps the jobs first and moves training and the AI card underneath. Card clicks are measured through GA4; no signup is introduced and no other job page changes during the trial.
 
 - 24 August 2026 — **Marketing is LIVE in four explicitly approved markets:** London, Surrey, Manchester & Salford, and Birmingham & Solihull. Proof-page review found 27, 8, 6 and 7 publishable adverts respectively; the Manchester total deliberately withholds one advert with contradictory Manchester/Derbyshire location evidence. The daily selector rechecks the frozen Marketing boundary, £50k ceiling, training/specialist exclusions, content duplicates and geographic conflicts. Kent remains reserve and no other Marketing market is LIVE.
@@ -136,9 +137,9 @@ One-off owner approval on 22 August 2026: **Bristol, Manchester, Cambridge, Birm
 
 ## 2. Reports / diagnostics
 
-The daily regional overview is backed by same-feed **Service Admin, Support Worker and Customer Sales / Sales Advisor** assessments across all 55 assessable England markets. For NOT LIVE cells, a numeric zero now means the current feed was assessed and no jobs survived that family's governed selector; it is no longer shorthand for “not assessed”.
+The daily regional overview is backed by same-feed **Service Admin, Support Worker, Customer Sales / Sales Advisor, Paralegal and Marketing** assessments across all 78 canonical UK markets. For NOT LIVE cells, a numeric zero means the current feed was assessed and no jobs survived that family's governed selector; `—` means that family was not present in the persisted transitional snapshot.
 
-`pipeline/reports-daily/daily-family-coverage.csv` remains the current 165-row snapshot. `pipeline/reports-daily/daily-family-coverage-history.json` is the rolling evidence store: one snapshot per feed date, same-date reruns replace the existing date, all 165 counts are retained within each snapshot, and only the latest 14 feed dates are kept. The history starts on **22 August 2026**; no artificial backfill is used. In `daily-region-overview.md`, rolling metrics are shown only for NOT LIVE slices as **today / 14d average / days at 6+**. The 6+ count is deliberately a watch signal rather than an activation rule.
+`pipeline/reports-daily/daily-family-coverage.csv` is the current 390-row snapshot (78 markets × 5 families). `pipeline/reports-daily/daily-family-coverage-history.json` is the rolling evidence store: one snapshot per feed date, same-date reruns replace the existing date, all current counts are retained within each snapshot, and only the latest 14 feed dates are kept. Older three-family snapshots remain readable and contribute only to families present in them. The history starts on **22 August 2026**; no artificial backfill is used. In `daily-region-overview.md`, rolling metrics are shown only for NOT LIVE slices as **today / 14d average / days at 6+**. The 6+ count is deliberately a watch signal rather than an activation rule.
 
 Customer Sales / Sales Advisor LIVE counts still come directly from the current published configured-slice JSON rather than diagnostic output. The first live snapshot was **3 / 55 LIVE markets and 33 LIVE jobs (London 20, Manchester & Salford 6, Yorkshire - West 7)**. For every NOT LIVE region, the overview now shows the same-feed Customer Sales diagnostic count generated with the governed classifier, canonical geo, campaign dedupe and final production QA. These counts are expansion evidence only: a positive count never activates a region without separate explicit approval.
 
@@ -203,7 +204,7 @@ NHS/public-sector inventory is an advantage for switchers and existing sector wo
 Core controls are:
 
 - scheduled source refresh/reviews, including NEJobs, VONNE, Teaching Vacancies regional/master review and the NHS Administrative & Clerical review refresh at 10:05 UTC;
-- the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved Customer Sales slice, persists the current 55-market × 3-family diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
+- the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current 78-market × 5-family diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator, with manual `PUBLISH` control and an 11:45 Europe/London no-edit safety net;
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;

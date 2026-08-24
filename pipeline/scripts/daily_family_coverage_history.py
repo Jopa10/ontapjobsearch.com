@@ -8,7 +8,13 @@ from typing import Any
 HISTORY_PATH = Path("reports-daily/daily-family-coverage-history.json")
 WINDOW_DAYS = 14
 WATCH_THRESHOLD = 6
-FAMILIES = ("service_admin", "support_worker", "customer_sales")
+FAMILIES = (
+    "service_admin",
+    "support_worker",
+    "customer_sales",
+    "legal_assistant_paralegal",
+    "marketing",
+)
 
 
 def empty_history() -> dict[str, Any]:
@@ -41,6 +47,8 @@ def _snapshot_counts(
     admin_counts: dict[str, int],
     support_counts: dict[str, int],
     sales_counts: dict[str, int],
+    legal_counts: dict[str, int] | None = None,
+    marketing_counts: dict[str, int] | None = None,
 ) -> dict[str, dict[str, int]]:
     counts: dict[str, dict[str, int]] = {}
     for region in sorted(regions, key=str.casefold):
@@ -49,6 +57,10 @@ def _snapshot_counts(
             "support_worker": int(support_counts[region]),
             "customer_sales": int(sales_counts[region]),
         }
+        if legal_counts is not None:
+            counts[region]["legal_assistant_paralegal"] = int(legal_counts[region])
+        if marketing_counts is not None:
+            counts[region]["marketing"] = int(marketing_counts[region])
     return counts
 
 
@@ -58,13 +70,16 @@ def record_snapshot(
     admin_counts: dict[str, int],
     support_counts: dict[str, int],
     sales_counts: dict[str, int],
+    legal_counts: dict[str, int] | None = None,
+    marketing_counts: dict[str, int] | None = None,
     *,
     path: Path = HISTORY_PATH,
 ) -> dict[str, Any]:
     """Persist one snapshot per feed date, replacing same-date reruns.
 
-    The file retains only the latest 14 feed dates. All 33 x 3 family counts are
-    stored so history remains continuous when a slice later changes LIVE status.
+    The file retains only the latest 14 feed dates. Every current assessable
+    market/family count is stored so history remains continuous when a slice
+    later changes LIVE status. Older three-family snapshots remain readable.
     """
     history = load_history(path)
     snapshots = [
@@ -75,7 +90,14 @@ def record_snapshot(
     snapshots.append(
         {
             "feed_date": feed_date,
-            "counts": _snapshot_counts(regions, admin_counts, support_counts, sales_counts),
+            "counts": _snapshot_counts(
+                regions,
+                admin_counts,
+                support_counts,
+                sales_counts,
+                legal_counts,
+                marketing_counts,
+            ),
         }
     )
     snapshots.sort(key=lambda item: str(item.get("feed_date") or ""))
