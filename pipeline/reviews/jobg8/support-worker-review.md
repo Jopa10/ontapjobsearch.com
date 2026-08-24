@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-23
+feed_date: 2026-08-24
 
 Edit only the `action:` line in each block:
 
@@ -79,6 +79,12 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - 
 job_id: 23643_225493355
 ---
 
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour | Relief Support Worker
+job_id: 51b62aab-8430-41cc-96ad-800c11e65210
+---
+
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 _No jobs in this group._
@@ -147,12 +153,6 @@ job_id: d2504dfa-0b4a-4aa4-a74e-6a0c24e6b17f
 action:
 SELECTED | Sussex | Horsham | £13.05 per hour | Residential Childcare Support Worker (Casual)
 job_id: 107811772
----
-
----
-action:
-SELECTED | Sussex | Bognor Regis | £13 - £14.5 per hour | Healthcare Support Worker
-job_id: 107861316
 ---
 
 ---
@@ -269,6 +269,12 @@ SELECTED | Hampshire | Romsey | £27780 - £30564 per year | Children's Homes Su
 job_id: 1401784767
 ---
 
+---
+action:
+SELECTED | Hampshire | Havant | £25186 - £26244 per year | Care Assistant
+job_id: 1401784679
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -345,6 +351,12 @@ job_id: 23643_225516212
 action:
 SELECTED | London | London | £14.5 - £15 per hour | Residential Support Worker - Bank Staff
 job_id: cf658a6f-c60f-4064-8c86-c869438f2917
+---
+
+---
+action:
+SELECTED | London | London | £14.80 per hour | Support Worker
+job_id: 1780022
 ---
 
 ## LONDON — POSSIBLES
@@ -427,20 +439,8 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Wiltshire | Devizes | £13.75 per hour | Bank Support Worker
-job_id: 328178
----
-
----
-action:
 SELECTED | Wiltshire | Swindon | £26056 per year | Mental Health Support Worker
 job_id: 9e51064a-b8b0-42d0-8aca-7f83b3d89661
----
-
----
-action:
-SELECTED | Wiltshire | Devizes | £14.29 per hour (holiday pay inclusive) | Healthcare Assistants
-job_id: 107863276
 ---
 
 ---
