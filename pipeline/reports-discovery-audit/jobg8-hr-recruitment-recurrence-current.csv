@@ -1,7 +1,7 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
 Bedfordshire,0,1,1,0,3
 Berkshire,4,4,8,3,4
-Bristol & Bath,5,3,8,4,16
+Bristol & Bath,5,2,7,4,17
 Buckinghamshire,1,0,1,4,9
 Cambridgeshire,1,2,3,1,3
 Cheshire - East,0,0,0,0,1
@@ -16,7 +16,7 @@ Devon,3,2,5,2,6
 Dorset,0,1,1,0,3
 Essex,2,3,5,3,4
 Gloucestershire,0,2,2,0,4
-Greater Manchester - Manchester & Salford,5,3,8,3,6
+Greater Manchester - Manchester & Salford,5,2,7,3,7
 Greater Manchester - North,0,0,0,0,0
 Greater Manchester - South,0,0,0,0,1
 Greater Manchester - Wigan & Bolton,1,0,1,0,1
@@ -32,31 +32,31 @@ Lancashire - West,0,0,0,0,0
 Leicestershire,2,1,3,1,4
 Lincolnshire,1,5,6,0,4
 London,20,12,32,18,17
-Merseyside - Liverpool,0,2,2,0,1
+Merseyside - Liverpool,0,1,1,0,2
 Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,0,0,0,0
 Merseyside - Wirral,0,0,0,0,1
 Norfolk,1,0,1,0,2
 North East,4,1,5,0,12
 Northamptonshire,2,1,3,3,5
-Nottinghamshire,5,6,11,3,4
-Oxfordshire,1,1,2,1,4
+Nottinghamshire,5,4,9,3,6
+Oxfordshire,1,0,1,1,5
 Rutland,0,0,0,0,0
 Shropshire,1,1,2,1,2
 Somerset,0,1,1,0,5
 Staffordshire,0,4,4,0,2
 Suffolk,3,0,3,2,4
-Surrey,3,5,8,1,6
+Surrey,3,4,7,1,7
 Sussex,5,2,7,2,3
-West Midlands - Birmingham & Solihull,4,4,8,5,5
+West Midlands - Birmingham & Solihull,4,3,7,5,6
 West Midlands - Black Country,0,0,0,0,1
-West Midlands - Coventry & Warwickshire,2,1,3,0,4
-Wiltshire,1,0,1,0,1
+West Midlands - Coventry & Warwickshire,2,0,2,0,5
+Wiltshire,1,1,2,0,1
 Worcestershire,0,0,0,0,3
 Yorkshire - East,1,2,3,0,5
 Yorkshire - North,1,4,5,0,2
 Yorkshire - South,0,1,1,1,4
-Yorkshire - West,6,4,10,5,8
+Yorkshire - West,6,3,9,5,9
 North Scotland,0,0,0,1,2
 Scotland - Borders,0,0,0,0,0
 Scotland Central - Edinburgh & Lothians,3,0,3,0,2

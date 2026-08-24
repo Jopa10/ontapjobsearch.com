@@ -1,6 +1,6 @@
 # JobG8 HR / Recruitment proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **201** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **190** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
@@ -41,8 +41,8 @@ Borderline titles:
 ## Yorkshire - West
 
 - LIKELY_IN: **6**
-- BORDERLINE: **4**
-- Provisional OUT: **13**
+- BORDERLINE: **3**
+- Provisional OUT: **14**
 
 Most common LIKELY_IN titles:
 
@@ -56,13 +56,12 @@ Borderline titles:
 - HR and Compliance Administrator: 1
 - Branch Admin/ Resourcer: 1
 - Payroll & HR Coordinator: 1
-- HR Operations and Systems Specialist: 1
 
 ## Nottinghamshire
 
 - LIKELY_IN: **5**
-- BORDERLINE: **6**
-- Provisional OUT: **7**
+- BORDERLINE: **4**
+- Provisional OUT: **9**
 
 Most common LIKELY_IN titles:
 
@@ -74,7 +73,6 @@ Most common LIKELY_IN titles:
 
 Borderline titles:
 
-- HR & Payroll Lead: 2
 - HR Officer: 2
 - Resourcing Advisor: 1
 - HR & Payroll Coordinator: 1
@@ -82,8 +80,8 @@ Borderline titles:
 ## Bristol & Bath
 
 - LIKELY_IN: **5**
-- BORDERLINE: **3**
-- Provisional OUT: **20**
+- BORDERLINE: **2**
+- Provisional OUT: **21**
 
 Most common LIKELY_IN titles:
 
@@ -94,15 +92,14 @@ Most common LIKELY_IN titles:
 
 Borderline titles:
 
-- Telesales Executive (Recruitment / Full Training): 1
 - HR Officer: 1
 - Volunteer Recruitment and Support Volunteer - Bristol: 1
 
 ## Greater Manchester - Manchester & Salford
 
 - LIKELY_IN: **5**
-- BORDERLINE: **3**
-- Provisional OUT: **9**
+- BORDERLINE: **2**
+- Provisional OUT: **10**
 
 Most common LIKELY_IN titles:
 
@@ -116,5 +113,4 @@ Borderline titles:
 
 - Data Administrator: 1
 - HR and Facilities Coordinator: 1
-- Senior Human Resources Officer: 1
 
