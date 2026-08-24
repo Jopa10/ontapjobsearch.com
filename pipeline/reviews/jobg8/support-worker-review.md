@@ -271,6 +271,12 @@ job_id: 1401784767
 
 ---
 action:
+SELECTED | Hampshire | Romsey | £27780 - £30564 per year (), plus Market Supplement of £3,000 pro-rata, per annum and enhancemen) | Waking Night Childrens Home Support Worker
+job_id: 1401784682
+---
+
+---
+action:
 SELECTED | Hampshire | Havant | £25186 - £26244 per year | Care Assistant
 job_id: 1401784679
 ---
