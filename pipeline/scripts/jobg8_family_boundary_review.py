@@ -123,7 +123,9 @@ def main() -> int:
         ref = norm(row.get("display_reference", ""))
         source = raw_lookup.get(ref, {})
         description = source.get("description", "")
-        annual_max = numeric(row.get("annualised_maximum_estimate", ""))
+        structured_max = numeric(row.get("annualised_maximum_estimate", ""))
+        description_max = numeric(row.get("description_annualised_maximum_estimate", ""))
+        annual_max = max(v for v in (structured_max, description_max) if v is not None) if structured_max is not None or description_max is not None else None
         hard_salary_out = bool(annual_max is not None and annual_max > args.hard_salary_max)
         rows.append({
             "display_reference": ref,
@@ -136,6 +138,8 @@ def main() -> int:
             "salary_maximum_raw": norm(row.get("salary_maximum_raw", "")),
             "salary_period": norm(row.get("salary_period", "")),
             "annualised_maximum_estimate": row.get("annualised_maximum_estimate", ""),
+            "description_annualised_maximum_estimate": row.get("description_annualised_maximum_estimate", ""),
+            "salary_evidence_source": norm(row.get("salary_evidence_source", "")),
             "hard_salary_out_over_50k": "YES" if hard_salary_out else "NO",
             "description_evidence": evidence_snippet(description, keywords),
             "manual_boundary_decision": "",

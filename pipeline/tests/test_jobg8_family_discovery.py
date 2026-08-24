@@ -13,6 +13,16 @@ from pipeline.scripts import jobg8_family_discovery
 
 
 class FamilyDiscoveryTests(unittest.TestCase):
+    def test_description_day_rate_is_annualised(self) -> None:
+        self.assertEqual(
+            jobg8_family_discovery.description_annualised_max("Contract: £300-£400 per day"),
+            104000.0,
+        )
+        self.assertEqual(
+            jobg8_family_discovery.description_annualised_max("Salary: £50,000 per year"),
+            50000.0,
+        )
+
     def test_borderline_override_precedes_likely_title_pattern(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
