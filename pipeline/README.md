@@ -70,6 +70,8 @@ If a source is shown as `STALE` or `MISSING`, repair/rerun that source first and
 
 It also runs at 11:45 Europe/London as the no-edit safety net. A successful manual dispatch earlier on the same London date makes the scheduled run a no-op. Otherwise blank review jobs are withheld from that publication without being saved as exclusions, while clean/automatic inventory continues through the existing source publishers and final verified-page gate.
 
+The normal owner monitoring surface is the single **Ontap daily status** workflow on the GitHub Actions page. Its morning summary lists the five source/feed checks and the master review under **READY TO EDIT**. Its post-publish summary identifies manual or automatic mode and verifies all five source publishers, `Publish verified pages`, the same-day live-source report and the production deployment. Inspect the technical workflows only when this owner check names a problem.
+
 ## Publishing
 
 `publish-verified-pages.yml` is the shared final publisher. It writes the approved live JSON into the website-facing `app/` surfaces, refreshes publish metadata and live-job reporting, and maintains active city-page outputs.

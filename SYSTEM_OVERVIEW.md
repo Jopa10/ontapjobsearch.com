@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 August 2026 — GitHub Actions now has one owner-facing **Ontap daily status** check instead of requiring the owner to inspect the technical workflow chain. **READY TO EDIT** lists JobG8, Teaching Vacancies, NHS Jobs, NEJobs, VONNE and the master review as current or not ready. **PUBLISH STATUS** says whether publication was manual or the 11:45 safety net and confirms all source publishers, verified pages, the current live-source report and production deployment. A fully healthy cycle is green; any item needing attention is named and linked in the run summary.
 - 24 August 2026 — Daily publication now has an **11:45am UK-time safety net**. If the normal manual Apply and publish workflow has already succeeded that day, the scheduled run does nothing. If not, it publishes fresh clean/automatic inventory through the same guarded chain while withholding every untouched review job for that day without saving it as an exclusion. Those jobs can therefore return for later review; stale or factually inconsistent sources remain isolated safely.
 - 24 August 2026 — Teaching Vacancies now uses one complete, page-audited national discovery pass with targeted page/route retries, replacing the former requirement for two identical full sweeps. Genuine vacancy arrivals/closures no longer abort the daily refresh; persistent incomplete or inconsistent route evidence still stops TV safely.
 - 24 August 2026 — Teaching Vacancies refresh no longer fails because an older edit-file block has already been resolved in the authoritative CSV or has left the current review. Those obsolete blocks are ignored only while carrying decisions into a new daily review; normal owner-edit validation remains strict.
@@ -195,6 +196,7 @@ Core controls are:
 - the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved Customer Sales slice, persists the current 55-market × 3-family diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator, with manual `PUBLISH` control and an 11:45 Europe/London no-edit safety net;
+- one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
 - source-specific publishers, including NHS, with the reviewed NHS publisher using the same transactional composer as the normal daily run;
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
 - normal Vercel Git deployment from `main`, with explicit live-SHA verification;
@@ -202,6 +204,8 @@ Core controls are:
 - Google indexing and operational monitoring.
 
 The 11:45 safety net checks for a successful manual Apply and publish run on the current London date. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
+
+`Ontap daily status` is the normal owner check. It runs when the daily master review finishes and when the production deployment guard finishes, plus 09:15 and 12:15 UK-time fallback snapshots. Before publication, a green result means every named source has same-day review state and the master edit file is current. After publication, green means every source publisher, verified-page build, same-day live-source report and Vercel deployment completed; the summary explicitly says **MANUAL** or **AUTOMATIC**. If a source was retained fail-soft, the site may still have updated, but the status check fails visibly and names that source rather than presenting the day as wholly green.
 
 Teaching Vacancies regional/master review uses one complete audited discovery pass with targeted retries for a failed page or internally inconsistent route; it does not require an identical second national sweep. Its writeback is protected against concurrent `main` movement by full-history checkout plus up to three pull-rebase/push attempts. The 22 August recovery proved the generated source evidence, rebuilt master review, reviewed publication and final deployment chain end-to-end.
 
