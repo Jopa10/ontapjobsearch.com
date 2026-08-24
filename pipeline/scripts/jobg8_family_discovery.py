@@ -21,6 +21,12 @@ SALARY_MAX_COL = "/Job/SalaryMaximum"
 SALARY_PERIOD_COL = "/Job/SalaryPeriod"
 CLASSIFICATION_COL = "/Job/Classification"
 AREA_UNUSABLE_VALUES = {"", "not specified", "unknown", "city"}
+DESCRIPTION_SALARY_PATTERN = re.compile(
+    r"£\s*(?P<low>\d{1,3}(?:,\d{3})*(?:\.\d+)?)\s*(?P<low_k>k)?"
+    r"(?:\s*(?:-|–|—|to)\s*£?\s*(?P<high>\d{1,3}(?:,\d{3})*(?:\.\d+)?)\s*(?P<high_k>k)?)?"
+    r"\s*(?P<period>per\s+(?:hour|hr|day|week|month|annum|year)|an?\s+(?:hour|day|week|month|year)|p\s*/?\s*[had]|p\.?\s*a\.?|hourly|daily|weekly|monthly|annually)",
+    re.IGNORECASE,
+)
 
 
 def norm(value: object) -> str:
@@ -72,6 +78,12 @@ def annual_factor(period: object) -> float | None:
         return 260.0
     if "hour" in p:
         return 1950.0
+    if re.fullmatch(r"p\s*/?\s*h", p):
+        return 1950.0
+    if re.fullmatch(r"p\s*/?\s*d", p):
+        return 260.0
+    if re.fullmatch(r"p\.?\s*a\.?", p):
+        return 1.0
     return None
 
 
@@ -79,6 +91,19 @@ def annualise(value: object, period: object) -> float | None:
     n = parse_salary(value)
     factor = annual_factor(period)
     return n * factor if n is not None and factor is not None else None
+
+
+def description_annualised_max(description: object) -> float | None:
+    estimates: list[float] = []
+    for match in DESCRIPTION_SALARY_PATTERN.finditer(norm(description)):
+        raw = match.group("high") or match.group("low")
+        value = float(raw.replace(",", ""))
+        if (match.group("high_k") if match.group("high") else match.group("low_k")):
+            value *= 1000
+        factor = annual_factor(match.group("period"))
+        if factor is not None:
+            estimates.append(value * factor)
+    return max(estimates) if estimates else None
 
 
 def find_classification_col(columns: list[str]) -> str | None:
@@ -212,7 +237,9 @@ def main() -> int:
         period = norm(source.get(SALARY_PERIOD_COL, ""))
         annual_min = annualise(source.get(SALARY_MIN_COL, ""), period)
         annual_max = annualise(source.get(SALARY_MAX_COL, ""), period)
-        salary_out = any(v is not None and v > hard_max for v in (annual_min, annual_max))
+        description_annual_max = description_annualised_max(description)
+        salary_evidence_source = "structured" if annual_min is not None or annual_max is not None else "description_fallback" if description_annual_max is not None else "missing"
+        salary_out = any(v is not None and v > hard_max for v in (annual_min, annual_max, description_annual_max))
 
         if salary_out:
             provisional = "OUT_SALARY"
@@ -252,7 +279,9 @@ def main() -> int:
             "salary_period": period,
             "annualised_minimum_estimate": annual_min,
             "annualised_maximum_estimate": annual_max,
-            "salary_bucket": salary_bucket(annual_min, annual_max, hard_max),
+            "description_annualised_maximum_estimate": description_annual_max,
+            "salary_evidence_source": salary_evidence_source,
+            "salary_bucket": salary_bucket(annual_min, annual_max if annual_max is not None else description_annual_max, hard_max),
             "discovery_source": "TITLE" if title_hit else "DESCRIPTION",
             "description_signal_count": len(desc_hits),
             "description_signals": "; ".join(desc_hits),
