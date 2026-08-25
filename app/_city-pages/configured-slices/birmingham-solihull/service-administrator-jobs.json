@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473913",
@@ -50,6 +46,31 @@
     "advertiser_name": "Gleeson Recruitment Group",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1742939",
+    "title": "HR Coordinator",
+    "company": "Rise Technical Recruitment Limited - Agency - Permanent",
+    "location": "Birmingham",
+    "region": "West Midlands - Birmingham & Solihull",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "38000",
+    "salary_max": "40000",
+    "salary_text": "£38000 - £40000 per year",
+    "posted_date": "2026-08-25",
+    "description": "HR Coordinator\n\nMidlands (Can be located: Birmingham, Coventry, Rugby, Nuneaton, Leicester, Wolverhampton, Stafford, Telford, Derby, Nottingham)\n1 year Fixed Term Contract\n\n£38,000 - £40,000 + Remote Working + Training + Progression + Benefits\n\nDo you have HR experience looking to join a UK leading Automotive business is a highly varied role where you will receive continued training and competitive benefits during the fixed term contract?\n\nThis is a fantastic opportunity to have a high degree of flexibility to work remotely whilst also travelling to leading dealership within the Midlands.\n\nOur client is a Multi-million pound business becoming a household name in the Automotive sector. This role is due to continued growth.\n\nThis is a Monday - Friday days based role from both your home and occasional dealership visits. You will support a range of HR duties ranging from business function, admin and recruitment.\n\nThis role would suit a HR advisor looking for a 1 year stable contract with good flexibility and development opportunities.\n\nThe role:\n- HR duties - Recruitment, Dealership support, Administration\n- Monday - Friday (8.30 - 5pm) early finish Friday.\n- Home working with occasional site travel.\n\nThe person:\n- HR experience (Advisor, Administrator, Manager, Assistant).\n- Automotive, Engineering or similar experience preferred.\n- Commutable to Midlands.\n\nRise Technical Recruitment Ltd acts an employment agency for permanent roles and an employment business for temporary roles.\n\nThe salary advertised is the bracket available for this position. The actual salary paid will be dependent on your level of experience, qualifications and skill set and will be decided by our client, the employer. Rise are not responsible or liable for any hiring decisions made by the end client.\n\nWe are an equal opportunities company and welcome applications from all suitable candidates.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VJsi5HuvQTrhv4s2cQvmdNyw",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Rise Technical Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -176,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1771922",
@@ -205,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1771921",
@@ -234,11 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1763910",
@@ -313,11 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1769273",
@@ -342,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1738115",
@@ -571,15 +572,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225507846",
-    "title": "Vehicle Sales & Accounts Administrator",
+    "title": "Motor Trade Sales Administrator",
     "company": "Brellis Recruitment - Agency - Permanent",
     "location": "Chelmsley Wood",
     "region": "West Midlands - Birmingham & Solihull",
@@ -669,9 +666,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -691,9 +685,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5987-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -713,9 +704,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-BIRSO-AA-CASU-1",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -735,9 +723,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4784-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -757,31 +742,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0100",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5556036",
+    "job_id": "nhs-5558970",
     "source": "NHS Jobs",
-    "title": "Band 2 Receptionist - FTB Washwood Heath Health and Wellbeing Centre",
-    "company": "Birmingham and Solihull Mental Health NHS Foundation Trust",
-    "advertiser_name": "Birmingham and Solihull Mental Health NHS Foundation Trust",
-    "location": "Birmingham, B8 3SN",
+    "title": "Medical Receptionist",
+    "company": "Yardley Wood Health Centre",
+    "advertiser_name": "Yardley Wood Health Centre",
+    "location": "Birmingham, B14 4DU",
     "region": "West Midlands - Birmingham & Solihull",
-    "salary": "£25272.00",
+    "salary": "£12.80",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-24T13:52:48.023460321",
-    "closing_date": "2026-08-26",
-    "description": "The Band 2 Receptionist provides a professional and efficient front-line reception and administrative service, acting as the first point of contact for service users, GPs, patients, relatives, and other healthcare professionals. The post holder will manage face-to-face and telephone enquiries in a courteous and professional manner, ensuring compliance with Trust policies, procedures, data protection regulations, and confidentiality requirements. The role involves responding to routine queries, prescription request, sourcing and providing relevant information where appropriate, taking accurate messages, and escalating more complex enquiries to the relevant member of staff. The post holder will support the smooth day-to-day running of the service by maintaining effective communication, delivering excellent customer service, and ensuring a positive experience for all service users. Provide comprehensive reception and administrative support to the FTB service, ensuring a professional and efficient service is delivered at all times. Use Microsoft Office applications, including Word and Outlook, to produce, format and distribute a range of documents such as letters, reports, tables, notices and other correspondence. Manage daily email communications, including sending and receiving emails, responding to routine enquiries and escalating issues where appropriate. Undertake a range of routine administrative duties including filing, photocopying, scanning, record management and document production using appropriate office systems and equipment. Provide a telephone and reception service for the locality team, receiving and directing calls appropriately, taking accurate messages and ensuring timely communication with relevant staff members. Maintain accurate records of telephone messages and enquiries in line with departmental procedures.Validate and update patient demographics and personal details on the FTB database and other relevant systems, ensuring information is accurate and up to date. Ensure all administrative duties are carried out in accordance with Trust policies, information governance requirements, data protection legislation and confidentiality standards. Contribute to the smooth day-to-day operation of the service and support the delivery of a positive experience for patients, families and healthcare professionals. For further information about the main responsibilities please view the attached job description and person specification. We highly recommend you submit your application as soon as possible, this post may close earlier than the indicated closing date if a sufficient number of applications are received. We are unable to support applications from job seekers who require sponsorship to work the United Kingdom (UK)",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0569",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0569",
+    "posted_date": "2026-08-25T09:14:07.335065303",
+    "closing_date": "2026-09-14",
+    "description": "Ready to be the heart of healthcare? Your smile can change a patients day! The Medical Receptionist Role As a Medical Receptionist, you are the first point of contact and the comforting voice for our patients. This vital role blends compassionate communication with structured multi-tasking. Patient Management: Greeting visitors, answering calls, and managing electronic bookings via AccuRx. Care Navigation: Active listening to signpost patients directly to the right multi-disciplinary clinic or expert. Practice Support: Updating medical data, processing documentation, and managing clinical correspondence. Why Choose Yardley Wood Health Centre? Joining Yardley Wood Health Centre means working in a modernised facility with an incredible reputation. 94% Support Rating: Our receptionist and administration team achieved a staggering 94% helpfulness score in the official NHS GP Patient Survey. Innovative Digital Tools: We use advanced workflows, like automated call volume support, allowing you to focus on complex, sensitive, and deeply rewarding patient interactions. Amazing Team Vibe: Work alongside a skilled, vibrant team of GPs, paramedics, and clinical pharmacists within a community-focused multidisciplinary environment. Perfect Location: Easily accessible next to Chinn Brook ground, with excellent local bus routes (3, 27, 76) and a 5-minute walk from Yardley Wood Train Station, added bonus of a staff car park. Core Duties of the role include: Patient Contact: Welcoming visitors warmly and answering phone calls efficiently. Care Navigation: Active listening to signpost patients to the right healthcare professional. Appointment Booking: Managing electronic clinics, triage systems, and booking slots. Data Administration: Registering new patients, scanning files, and updating electronic health records. Prescription Support: Processing repeat medication requests safely. Compliance Checks: Dedicated time monthly to perform room checks Recall Support: Working as part of a team to support long term condition recall The above list is not exhaustive 1. Role Overview & Framework Line Management & Accountability: Reports directly to and is accountable to Kelly Carney . Working Hours: 20 hours per week . Core Mission: Driven by the surgery's core philosophy: \"Putting you at the heart of what we do\" . Main Objective: Acting as the primary, central hub of communication for patients, the wider multidisciplinary team, and external health agencies (such as community services and secondary care). 2. Primary Key Responsibilities The post holder manages everyday operations, digital workflows, and frontline patient interactions. Key daily tasks include: Appointment System Management: Processing online, telephone, and face-to-face booking requests; scheduling, altering, or cancelling clinics via EMIS Care Navigation: Welcoming, screening, and actively signposting patients to the correct internal or external medical services. Telephony & Communications: Managing incoming switchboard calls, routing queries correctly, and resolving digital tasks or internal emails. Medical Data Entry: Formally registering new or temporary patients, entering key information into electronic health records, and applying clinical coding using EMIS and accurate SNOMED codes. Prescription Processing: Administering and reviewing repeat prescription requests with high accuracy and efficiency. Clinic & Administrative Support: Printing specialised urine forms for the nursing team, sorting documentation requests (such as insurance, DVLA, or SAR files), photocopying, and executing data system searches. Environment & Compliance: Maintaining clean, professional notice boards and workspaces, alongside executing monthly governance checks (e.g., testing fire alarms and performing infection control audits). 3. Secondary Responsibilities When workload or staff shortages require flexibility, the receptionist is expected to support adjacent administrative functions: Document Management: Digitally scanning and attaching physical correspondence or patient documents to healthcare profiles. Facility Logistics: Executing building opening and closing checklists in full compliance with the practice's duty rotas. Team Operations: Cooperatively organising lunchtime or out-of-hours coverage rotas, checking stationery stock levels, and assisting with audits directed by the practice's audit lead. 4. Generic Responsibilities & Compliance Standards All personnel must adhere strictly to organisational values, local protocols, and UK statutory laws: Equality, Diversity, and Inclusion (ED&I): Promoting an environment free from discrimination across all legally protected characteristics. Patients must be routinely included in treatment decisions, and all colleagues must be treated with dignity and fairness. Safety, Health, Environment, and Fire (SHEF): Continually evaluating risks to keep the workplace hazard-free. Compliance is mandatory under legislation including the Health and Safety at Work Act 1974 , Environmental Protection Act 1990 , and Fire Precautions Regulations 1999 . Confidentiality & Data Protection: Safeguarding highly sensitive patient health data to protect privacy and preserve legal and institutional trust. Continuous Improvement (CI): Participating in multidisciplinary case reviews, analyzing serious incidents, and offering proactive suggestions to refine practice workflows and clinical safety. Professional Development: Completing the custom practice induction program, undergoing mandatory training assigned by Sophia Raja , and mentoring other team members to share best practices. Security Protocols: Strictly guarding physical and digital access codes or passwords. Door lock codes must never be shared, and suspicious activity must be instantly flagged to Kelly Carney. Professional Conduct & Leave: Maintaining an appropriate dress code for the public-facing role. Annual leave is fully supported, with bank holidays calculated on a pro-rata baseline reflective of the 20-hour contract.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3952-26-0000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3952-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

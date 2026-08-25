@@ -271,11 +271,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225456749",
@@ -350,11 +346,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225426419",
@@ -379,12 +371,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225435666",
@@ -409,11 +396,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225450095",
@@ -438,11 +421,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225461932",
@@ -517,12 +496,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Customer portals",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225358207",
@@ -547,11 +521,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472773",
@@ -876,11 +846,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1778720",
@@ -930,11 +896,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225433735",
@@ -1059,12 +1021,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1247531 [JSP51654]",
@@ -1164,11 +1121,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "nhs-5549776",
@@ -1187,9 +1140,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1433",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1209,9 +1159,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-0990",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1231,9 +1178,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1360",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1253,9 +1197,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1275,9 +1216,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9201",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1297,9 +1235,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1436",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1319,9 +1254,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-0984",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1341,31 +1273,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-0987",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5544060",
-    "source": "NHS Jobs",
-    "title": "Team Administrator - District Nurse Duty Desk",
-    "company": "Oxford Health NHS Trust",
-    "advertiser_name": "Oxford Health NHS Trust",
-    "location": "Abingdon, OX14 1AG",
-    "region": "Oxfordshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T14:18:51.267715244",
-    "closing_date": "2026-08-24",
-    "description": "Would you like the opportunity to be involved in an exciting project establishing a central team for managing referrals to Oxfordshire District Nurses? This is a team that supports the District Nurses to provide the very best care to patients in Oxfordshire. It will give the potential post holders the opportunity to be a vital component of this supportive service with committed colleagues. We are seeking a passionate and efficient Administrator to join this team. This is a varied and demanding role that will provide opportunities for developing and supporting admin processes to ensure patient needs are met and that accurate paper and electronic records are maintained. In this varied role, you will have an active involvement in supporting the District Nursing Service administratively to run efficiently and deliver excellent patient care. You will support the team in processing new referrals using the electronic patient record system, typing and sending reports, dealing with telephone and email enquiries, ordering stock and equipment and booking patient appointments. You will need be able to work calmly and efficiently in a busy environment, working alongside administrators from other health services and be able to work autonomously. This job role will involve working between 08:00 - 16:00 (the core District Nurse Service hours), with some weekend work required. This role is based at Abingdon Community Hospital. We hope that the advert has given you a clear understanding of the skills we are seeking and the opportunity at hand. You will need to use the supporting statement element of your application form to demonstrate your suitability for this role and you should refer to the job description, person specification and the guidance notes attached to this role to help you tailor your application. The essential and desirable criteria will be used to shortlist for interview and you should ensure that you refer to these within your application to increase your chances of being selected for interview.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1001",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1001",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1385,9 +1292,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0699-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1407,9 +1311,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-0973",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5516742",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Bampton Medical Practice",
+    "advertiser_name": "Bampton Medical Practice",
+    "location": "Bampton, OX18 2LJ",
+    "region": "Oxfordshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-04T12:10:20.311546995",
+    "closing_date": "2026-08-31",
+    "description": "The post-holder is a Medical Receptionist. The post-holder will be responsible for undertaking a wide range of reception duties and the provision of general support to the wider team. Duties can include, but are not limited to, greeting and directing patients, use of the appointment booking system, processing of patient information in a timely manner and in accordance with practice policies, assisting patients as required and supporting the administration team with patient registration. The post-holder will act as a central point of contact for patients, be responsible for the distribution of information, messages and enquiries for the clinical team, liaise with wider team members and external agencies such as secondary care and community service providers. The post-holder will be an integral part of the general practice team. Some core responsibilities of a Medical Receptionist: 1. Accurately detail information on patients records within the clinical system 2. Maintain and monitor the practice appointment system 3.Process personal, telephone and online requests for appointments 4.Answer incoming phone calls, transferring calls and dealing with the caller requests 5.Signpost patients to the correct service 6.Respond to requests from patients, team members and external agencies 7.Photocopy and scan documentation as required 8.Input data into patients healthcare records as necessary 9. Direct requests for information, e.g. insurance/solicitors letters and DVLA forms to the administrative team 10.Manage all queries as necessary in an efficient manner 11. Be an integral part of the general practice team 12. Act as a chaperone as required As listed under Main duties of the job In addition to the primary responsibilities, the Medical Receptionist has the following wider responsibilities: Support administrative staff, providing cover during staff absences Action incoming emails and correspondence as necessary Scan patient related documentation and attach scanned documents to patients healthcare records Participate in local initiatives to enhance service delivery and patient care Support in the management of repeat prescriptions, ensuring they are processed accurately and efficiently Support and participate in shared learning This role is specifically for the hours of: Tuesday Thursday & Friday afternoons13:00 - 18:00",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2351-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2351-26-0007",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

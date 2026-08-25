@@ -134,11 +134,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473828",
@@ -188,36 +184,55 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225420216",
-    "title": "Service Desk Controller",
-    "company": "Adecco - Agency - Permanent",
+    "job_id": "1775925",
+    "title": "Sales Administrator Temp to Perm",
+    "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
     "location": "Essex",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
     "salary_min": "32000",
-    "salary_max": "32000",
-    "salary_text": "£32000 per year",
-    "posted_date": "2026-08-14",
-    "description": "Service Desk Controller\nLocation: Witham\nContract Type: Permanent\n\nAre you ready to take your career to the next level? Join our dynamic team as a Service Desk Controller. We are on the lookout for an enthusiastic individual who thrives in a fast-paced environment and is passionate about providing exceptional service.\n\nWhat You'll Do:\nAs a Service Desk Controller, you will play a crucial role in ensuring our service desk runs smoothly and efficiently. Your responsibilities will include:\n- Managing Service Requests: Oversee incoming service requests, ensuring timely and accurate responses.\n- Troubleshooting & Support: Provide first-line support for technical issues and escalate when necessary, ensuring minimal disruption to operations.\n- Communication: Liaise with various departments to facilitate smooth operations and foster a collaborative environment.\n- Documentation: Maintain accurate records of service requests and resolutions to enhance our service delivery.\n- Process Improvement: Identify opportunities for enhancing service desk processes and procedures.\n\nWho You Are:\nWe're looking for someone who brings a mix of skills and attributes that will help us continue to thrive:\n- Experience: Previous experience in a service desk or Sales Admin is desirable\n- Tech-Savvy: Proficient in using IT service management tools and Microsoft Office Suite.\n- Problem Solver: Excellent analytical skills and the ability to think on your feet.\n- People Person: Strong communication and interpersonal skills to connect with team members and stakeholders.\n- Detail-Oriented: A keen eye for detail to ensure high-quality service delivery.\n\nWhy Join Us?\nAt our company, we believe that our people are our greatest asset! Here's what you can look forward to:\n- Positive Work Environment: A cheerful and professional workplace where you can thrive\n- Competitive Salary: An attractive salary package commensurate with experience.\n- Benefits: Enjoy a range of benefits including health insurance, pension plan, 25 days holiday plus bank holiday, free parking\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVbOfa3Pw6BtSMzwKCe5BMzSj",
+    "salary_max": "35000",
+    "salary_text": "£32000 - £35000 per year",
+    "posted_date": "2026-08-25",
+    "description": "Your new company\n\nA well-established and growing organisation is seeking a proactive and customer-focused Sales Administrator to join their team in Waltham Abbey. This is an excellent opportunity to join a successful business with a strong reputation in its sector, offering a varied role supporting both customers and a busy field sales team.\n\nYour new role\n\nWorking closely with the Sales Manager and external sales team, you will play a key role in ensuring the smooth day-to-day running of sales administration activities. Responsibilities will include:\n- Processing customer orders accurately and efficiently.\n- Providing administrative support to the external sales team.\n- Acting as a first point of contact for customer enquiries via telephone and email.\n- Providing pricing information and assisting with order management.\n- Conducting outbound calls to existing and prospective customers.\n- Following up on sales enquiries and marketing campaigns.\n- Maintaining accurate customer, product and pricing information.\n- Coordinating delivery updates and resolving customer service queries.\n- Supporting invoicing, credit notes and payment enquiries alongside internal teams.\n- Analysing customer activity and identifying opportunities to encourage repeat business.\n\nWhat you'll need to succeed\n- Previous experience within a sales administration, customer service or sales support role.\n- Strong organisational skills with the ability to manage multiple priorities.\n- Excellent communication and customer service skills.\n- High attention to detail and accuracy.\n- Proficiency in Microsoft Office, particularly Excel and Word.\n- Ability to work effectively within a fast-paced environment.\n- Experience of CRM or ERP systems would be advantageous.\n- Experience within a B2 B environment would be beneficial but is not essential.\n\nWhat you'll get in return\n- Salary of £32,000-£35,000 depending on experience.\n- Temporary to permanent opportunity with an immediate start available.\n- Full-time hours: Monday to Thursday 8:00am-5:00pm and Friday 8:00am-4:30pm.\n- Opportunity to join a supportive and growing business.\n- Varied role with genuine long-term career prospects.\n\nWhat you need to do now\n\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or contact us for a confidential discussion about your career.\n\nHays EA is a trading division of Hays Specialist Recruitment Limited and acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at hays.co.uk",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHgttii42oUubE96X4tRtqRd",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
+    "advertiser_name": "Hays Specialist Recruitment Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107694534",
+    "title": "QMS and Sales Support Coordinator",
+    "company": "Just Recruitment Group Ltd - Agency - Permanent",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "2026-08-25",
+    "description": "The Just Recruitment Group is currently recruiting for a QMS and Sales Support Coordinator for their client who operate a specialist test facility, based on the outskirts of Great Dunmow, Essex.\nPlease note that due to the rural location of the site, you would need to have access to your own transport.\nRole will involve:\nManagement of support team\nMaintain and support document control of QMS 17025 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7jcPwM%2fWeIET232tbGDGZ%2bz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Just Recruitment Group Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -294,11 +309,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225426201",
@@ -373,13 +384,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Data entry",
-      "Document preparation",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225461819",
@@ -404,11 +409,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225464133",
@@ -458,12 +459,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473584",
@@ -488,11 +484,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472719",
@@ -517,11 +509,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225474041",
@@ -571,12 +559,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225512952",
@@ -651,11 +634,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225523466",
@@ -705,11 +684,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1769936",
@@ -759,11 +734,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1769452",
@@ -788,12 +759,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1733700",
@@ -843,12 +809,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1732595",
@@ -873,11 +834,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1744074",
@@ -902,11 +859,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1744022",
@@ -931,12 +884,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Customer portals"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1743423",
@@ -1136,11 +1084,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Document preparation",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225513101",
@@ -1318,28 +1262,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "nhs-5553626",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Mid and South Essex NHS Foundation Trust",
-    "advertiser_name": "Mid and South Essex NHS Foundation Trust",
-    "location": "Westcliff-On-Sea, SS0 0RY",
-    "region": "Essex",
-    "salary": "£25760.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-21T11:42:13.018004",
-    "closing_date": "2026-08-26",
-    "description": "The Integrated Discharge Team are looking for an Administrator at our Southend site The role is to provide clerical and administrative support and facilitate the smooth running of processes within the Integrated Discharge Team. The Integrated Discharge Team support patients with complex healthcare needs, who may require long-term health and social care planning or a short term intervention following a change of condition or acute illness. We aim to anticipate, co-ordinate and join up health and social care needs for patients at a high risk of unplanned admissions to hospital. If you are interested in the role and believe you hold the qualities we require, then apply today! Please be aware that we reserve the right to close this vacancy early if we receive a suitable number of applications. No VISA sponsorship available for this role For full details about this varied and rewarding role, please see attached job description, but some of the responsibilities include Compile and update the Discharge tracker throughout the day liaising with all multi-disciplinary teams, to ensure all information within the report is accurate. Undertake the full range of clerical and administrative duties which include dealing with the public via the telephone to provide support and advice, dealing with staff from multi agencies to ensure information is shared appropriately with the Information Governance policy . To have a comprehensive range of typing and keyboard skills. Answer internal telephone enquiries, in a courteous and helpful manner, seeking clarification where appropriate. Maintain knowledge and skills by undertaking appropriate training and development to provide a high quality administrative service. Maintain confidentiality relating to patients and staff at all times Possess effective communication with colleagues and patients. Update and disseminate the updated information with the Discharge tracker to all members of the MDT three times a day Ensure entries into the computer system are timely and accurate maintaining patient and clinical confidentiality at all times. Are you looking for an exciting Administrator role using your unique qualities, then we want to hear from you. For full details about this varied and rewarding role, please see attached job description. We look forward to your application.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2009",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2009",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5548458",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -1356,9 +1278,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1378,9 +1297,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0389",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1400,9 +1316,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3403",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1422,9 +1335,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1444,9 +1354,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1466,9 +1373,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1488,31 +1392,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0768",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5526857",
-    "source": "NHS Jobs",
-    "title": "Stroke Team Administrator",
-    "company": "NELFT North East London Foundation Trust",
-    "advertiser_name": "NELFT North East London Foundation Trust",
-    "location": "Brentwood, CM15 8DR",
-    "region": "Essex",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T12:56:16.825553431",
-    "closing_date": "2026-08-24",
-    "description": "Job Overview: You will possess excellent administrative skills and good working relationships with colleagues. You will be an excellent communicator and can prioritise your workload ensuring that work is completed in a safe and timely manner. You will be working within the Stroke Hub Team and supporting the community service, this is an office-based role. 22.5 hours per week. Flexibility with working hours. Communicate on the telephone, promptly and in a professional and courteous manner whilst recognising barriers to communication. Work with the Stroke team staff and other community services delivering admin assistance Ensure that complex calls from anxious and distressed clients are passed to an correct person to deal with effectively and appropriately or escalated to a senior staff member if appropriate. Respond to enquiries, and take appropriate action Manage and maintain an efficient administrative system Ensure workload is managed and prioritised Establish and maintain electronic filing systems. knowledge of SystmOne, Teams and Cisco Jabber, also Microsoft Office Package. Prepare agendas, update action Logs, arrange and take minutes at meetings intended for internal review only. Book meeting rooms.Input generic data into organisational systems or in-house records. Receive and action queries via various routes, including email, telephone, online, ensuring these are actioned promptly. Receive and register referrals on SystmOne, email and online, and offer appointments with clinicians for an assessment. Cancelling and amending appointments. Sending emails and SMS to patients. Ordering of all supplies, managing stock rotation, including putting stock away on receipt of delivery. Mems and other equipment audits. Making up equipment/supply packs for the team members. In phase reporting Power Bi Health roster Booking clinics Cover other admin Hubs, at various locations Working alongside the Stroke Hub team delivering admin assistance as and when required. Respond to enquiries, and take appropriate action on behalf of the service, either by telephone, or correspondence, within agreed time limits. Ensure workload is managed and prioritised appropriately. Establish and maintain electronic filing systems. knowledge of SystmOne, Teams and Cisco Jabber, also Microsoft Office Package. Prepare agenda’s, update action Logs, arrange and take minutes at meetings intended for internal review only. Book meeting rooms. Input generic data into organisational systems or in-house records. Receive and action queries via various routes, including email, telephone, online, ensuring these are actioned promptly. Receive & register referrals onto SystmOne, email and online, and offer appointments with clinicians for an assessment. Cancelling and amending appointments. Sending emails and SMS to patients. Ordering of all supplies, managing stock rotation, including putting stock away on receipt of delivery. Mems and other equipment audits. Making up equipment/supply packs for the team members. In phase reporting – complaints and compliments Power Bi – reporting Health roster – reporting on sickness Booking clinics Work without supervision and ensure urgent situations are addressed swiftly. Our Values 2025 - 2030 Working with our colleagues, patients and carers we have co-produced three new values that we aim to embed within our culture here at NELFT. They are: We are kind. We are respectful. We work together with our communities. These three values help us to strive to provide the best care by the best people. Probationary Period This post will be subject to a probationary period. Certificates of Sponsorship Although we are a registered sponsor organisation, we are unable to offer sponsorship for all job roles. Please check your eligibility under the UKVI points-based system. When calculating the basic salary for sponsorship, HCAS (High-Cost Area Supplement) is not included to ensure fairness and consistency within our Trust. Use of AI Please see attached document regarding acceptable use of AI during the recruitment process. High Cost Area Supplement – Fringe (Basildon, Thurrock, Brentwood, Harlow and Dartford only) This post also attracts payment for High Cost Area Supplement of 5% of the basic salary (with a minimum of £1,303 to a maximum of £2,198 p.a. pro rata for part time) Working for Us Joining #TeamNELFT means you’ll become part of a welcoming and supportive working environment. We’re CQC rated Good, and we want you to join us on the journey towards an Outstanding rating. NELFT has sites across North East London and Essex. We provide community and mental healthcare services to adults and children within these areas. The Trust has award-winning equality and diversity initiatives, along with staff health and wellbeing activities. We invest significantly in your development because when you feel valued and supported, we can deliver the highest quality care to our patients. We are a Level 3 Disability Confident Leader, have been recognised in the Working Families Top 10 Employers benchmark for five consecutive years, and hold a Carers UK Level 1 Accreditation. Through our staff networks and training opportunities, we strive to foster a just and compassionate culture at NELFT.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0450",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9395-26-0450",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1532,9 +1411,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE544",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1554,9 +1430,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1646",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1576,9 +1449,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
