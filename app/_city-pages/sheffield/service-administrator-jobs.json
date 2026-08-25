@@ -78,11 +78,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225439789",
@@ -132,11 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225435429",
@@ -236,9 +228,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

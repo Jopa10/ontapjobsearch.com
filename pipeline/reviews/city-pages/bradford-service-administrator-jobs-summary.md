@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 17
-- automatic exclude: 47
-- effective include: 7
-- effective review: 17
-- effective exclude: 47
+- automatic include: 9
+- automatic review: 16
+- automatic exclude: 51
+- effective include: 9
+- effective review: 16
+- effective exclude: 51
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,6 +45,30 @@ company: Reed - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-1770678
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Administrator
+company: Trust Primary Care Ltd
+location: Bradford, BD7 3JX
+source: NHS Jobs
+job_id: nhs-5530362
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1732131
 reason: Approved Bradford catchment.
 ---
 
@@ -108,7 +132,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -191,18 +215,6 @@ company: Robin Lane Health & Wellbeing Centre
 location: Pudsey, LS28 7DE
 source: NHS Jobs
 job_id: nhs-5550046
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Surgery Receptionist
-company: NORTHGATE SURGERY
-location: Pontefract, WF8 1NF
-source: NHS Jobs
-job_id: nhs-5535823
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -314,7 +326,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (47)
+## EXCLUDE (51)
 
 ---
 action: 
@@ -536,6 +548,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Experienced Medical Centre Receptionist
+company: Arthington Medical Centre
+location: Leeds, LS10 2JJ
+source: NHS Jobs
+job_id: nhs-5528274
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: H-Seventeen - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107891625
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Graduate Finance Assistant
 company: T3AM Global - Agency - Permanent
 location: Leeds
@@ -649,6 +685,18 @@ company: TRC Yorkshire - Agency - Temporary
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225514711
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Operations & Admin Assistant (Remote, UK-Based)
+company: My VA business - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1786169
 reason: Separate employment market.
 ---
 
@@ -817,6 +865,18 @@ company: WSR (Working Solutions Recruitment Services) - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1778694
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Stock & Purchasing Coordinator
+company: Kinetic Office Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225526372
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 16
-- automatic exclude: 23
-- effective include: 32
-- effective review: 16
-- effective exclude: 23
+- automatic include: 36
+- automatic review: 15
+- automatic exclude: 25
+- effective include: 36
+- effective review: 15
+- effective exclude: 25
 
-## INCLUDE (32)
+## INCLUDE (36)
 
 ---
 action: 
@@ -184,6 +184,30 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Experienced Medical Centre Receptionist
+company: Arthington Medical Centre
+location: Leeds, LS10 2JJ
+source: NHS Jobs
+job_id: nhs-5528274
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: H-Seventeen - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107891625
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP Receptionist / Care Navigator
 company: Robin Lane Health & Wellbeing Centre
 location: Pudsey, LS28 7DE
@@ -292,6 +316,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations & Admin Assistant (Remote, UK-Based)
+company: My VA business - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1786169
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Administrator
 company: Adecco - Agency - Permanent
 location: Leeds
@@ -364,6 +400,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Stock & Purchasing Coordinator
+company: Kinetic Office Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225526372
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sustainable Funding Coordinator
 company: LJ Recruitment Limited - Agency - Permanent
 location: Leeds
@@ -408,7 +456,7 @@ job_id: jobg8-1768484
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -467,18 +515,6 @@ company: Bingley Grammar School
 location: Bingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-bingley-grammar-school
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Surgery Receptionist
-company: NORTHGATE SURGERY
-location: Pontefract, WF8 1NF
-source: NHS Jobs
-job_id: nhs-5535823
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -602,7 +638,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -745,6 +781,30 @@ company: Spectrum Community Health CIC
 location: Wakefield, WF1 5RH
 source: NHS Jobs
 job_id: nhs-5539626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
+company: Trust Primary Care Ltd
+location: Bradford, BD7 3JX
+source: NHS Jobs
+job_id: nhs-5530362
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Property Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1732131
 reason: Separate employment market.
 ---
 

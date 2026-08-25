@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 39
+- automatic review: 37
 - automatic exclude: 8
 - effective include: 5
-- effective review: 39
+- effective review: 37
 - effective exclude: 8
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (39)
+## REVIEW (37)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: Grafters Recruitment Consultants Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_224364482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator - Brighton College
-company: Compass UK & Ireland - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107860492
 reason: Broad location; review before city inclusion.
 ---
 
@@ -491,18 +479,6 @@ company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225498357
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: British Red Cross - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107885562
 reason: Broad location; review before city inclusion.
 ---
 

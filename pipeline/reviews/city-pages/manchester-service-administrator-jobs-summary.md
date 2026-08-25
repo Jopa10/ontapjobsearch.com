@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 44
+- Effective included jobs: 46
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 44
+- automatic include: 46
 - automatic review: 0
-- automatic exclude: 6
-- effective include: 44
+- automatic exclude: 5
+- effective include: 46
 - effective review: 0
-- effective exclude: 6
+- effective exclude: 5
 
-## INCLUDE (44)
+## INCLUDE (46)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: V7 Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225527036
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support, Individualised Commissioning
+company: NHS Greater Manchester Integrated Care
+location: Manchester, M1 6EU
+source: NHS Jobs
+job_id: nhs-5540278
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -340,6 +352,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations & Admin Assistant (Remote, UK-Based)
+company: My VA business - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1786197
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: MFK Recruitment - Agency - Permanent
 location: Manchester
@@ -554,19 +578,7 @@ reason: Approved conservative Manchester launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (6)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Manchester University NHS Foundation Trust
-location: Ardwick, Manchester, M12 4JD
-source: NHS Jobs
-job_id: nhs-5528736
-reason: Held outside the exact-city launch count pending catchment review.
----
+## EXCLUDE (5)
 
 ---
 action: 

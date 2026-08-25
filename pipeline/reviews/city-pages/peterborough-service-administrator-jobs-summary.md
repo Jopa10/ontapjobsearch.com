@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 16
 - automatic review: 4
-- automatic exclude: 26
+- automatic exclude: 25
 - effective include: 16
 - effective review: 4
-- effective exclude: 26
+- effective exclude: 25
 
 ## INCLUDE (16)
 
@@ -148,11 +148,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Co-ordinator
-company: Office Angels - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225419926
+title: GP Receptionist / Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527811
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -160,11 +160,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist / Administrator
-company: Thomas Walker Westgate Healthcare
-location: Peterborough, PE1 2QP
-source: NHS Jobs
-job_id: nhs-5527811
+title: HR Co-Ordinator - maternity cover FTC
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1733715
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -259,14 +259,14 @@ action:
 decision: review
 automatic_decision: review
 title: Stock Administrator
-company: Interaction Recruitment - Agency - Permanent
+company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -553,18 +553,6 @@ company: Interaction - Huntingdon - Agency - Temporary
 location: Huntingdon
 source: JobG8
 job_id: jobg8-107803434
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Treasury Coordinator - FEBS Treasury
-company: Federation of European Biochemical Societies - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1618642
 reason: Separate employment market.
 ---
 

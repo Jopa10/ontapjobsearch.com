@@ -28,18 +28,6 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Administrator
-company: Invigorate Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107743190
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Accounts Administrator FTC
 company: Brook Street UK - Agency - Contract
 location: York
@@ -57,6 +45,18 @@ company: Pratap Partnership Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107771451
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Stoneacre Motor Group. - Company - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107760736
 reason: Approved York catchment.
 ---
 

@@ -47,11 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225498733",
@@ -232,12 +228,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225513578",
@@ -262,11 +253,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225451600",
@@ -397,31 +384,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "1618642",
-    "title": "Treasury Coordinator - FEBS Treasury",
-    "company": "Federation of European Biochemical Societies - Agency - Permanent",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-12",
-    "description": "Treasury Coordinator\n\nFull-time, 35 hours per week Monday to Friday, 3 days in office in central Cambridge (Tuesday, Wednesday and Thursday) and 2 days working from home (Monday and Friday).\n\nRole Summary\nFEBS Treasury Is a small department at Federation of European Biochemical Societies. The Treasury deals with all aspects of FEBS' finances and comprises the Treasury Manager and the Deputy Treasury Manager. The work done in The Treasury is under the direction of the Honorary Treasurer, Professor Frank Michelangeli.\n\nKey Responsibilities\n\nCoordination of finance email\n- Check emails receive a response in a timely manner\n- Flag complicated queries or where possible resolve them\n\nPreparation of bills on Xero:\n- Prepare payments for expenses reimbursement, goods and services invoices, prizes\n- Prepare bursaries and other grants on Xero\n\nLiaison and coordination with Fellowship and Advanced Courses Committee administrators\n- Coordinate with committee administrators to ensure a smooth processing, and correct payment of grants\n- Check payments are valid and have approval\n- Deal with queries from grantees\n\nProcessing of receipts\n- Membership societies subscriptions\n- Recharges in relation to Advanced Courses\n\nAssist with administration of Finance Committee meetings and other Treasury events\n- Assist with the administration of FEBS Treasury meeting including arranging meetings and booking facilities\n- Travel to European countries to attend FEBS Treasury and other meetings and events\n\nOther responsibilities:\n- Duties may evolve with time, according to requirements of FEBS.\n- Any other reasonable duties as requested by line manager.\n\nFEBS is looking for someone who is:\n- Diligent and reliable\n- Educated to degree level or equivalent\n- Experience of accounting systems is beneficial, ideally Xero, although training will be given\n- Confident working independently without supervision and has good time management skills\n- Knowledgeable of Microsoft Office including Word and Excel\n- Confident liaising with a range of people\n- Accurate with excellent attention to detail\n- Experience of project administration would be a benefit.\n\nAnnual leave: 24 days (plus English bank and public holidays)\n\nSalary: £28,371, moving to £30,951 on successful completion of probation period.\n\nPension: employer contribution of 15% of gross annual salary to NEST company pension scheme.\n\nTraining: up to £2,500 allowance for approved job-related training eg. AAT or ACCA.\n\nThe application process will involve an on-line interview plus at least one face-to-face interview in Cambridge. Reasonable travel costs to the interview will be reimbursed by FEBS.\nTwo references are required, and these will be contacted by FEBS once an offer of employment is made. One referee should be the current or most recent employer and, ideally, the other should be a previous employer. However, if this is not possible for both referees, you can provide the details of another person who can confirm that you are suitable for the post.\nThe offer of employment is subject to satisfactory references.\nFEBS has a responsibility to ensure that all employees are eligible to live and work in the UK.\nThe deadline for receipt of applications is Monday 24 August 2026.\nThe interviews are expected to be held on either Friday 4 or Monday 7 September 2026.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbsJQlz7VWsP5S%2bir5BBahXk",
-    "source": "JobG8",
-    "working_arrangement": "partly_remote",
-    "working_arrangement_text": "2 days from home / 3 days in office",
-    "working_arrangement_evidence": "Treasury Coordinator - FEBS Treasury Treasury Coordinator Full-time, 35 hours per week Monday to Friday, 3 days in office in central Cambridge (Tuesday, Wednesday and Thursday) and 2 days working from home (Monday and Friday).",
-    "advertiser_name": "Federation of European Biochemical Societies",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5530537",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -438,9 +400,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0491",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -460,9 +419,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -482,9 +438,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0502",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -504,9 +457,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0172-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

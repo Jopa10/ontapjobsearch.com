@@ -23,9 +23,11 @@ include,nhs-5550686,Reception and Appointment Clerk,Bristol NHS Foundation Trust
 include,jobg8-1780698,Sales Administrator,Aaron Wallis Sales Recruitment - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225104066,Sales Administrator,Alexander Mae HR Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225466068,Sales Support Administrator,Fusion People Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,jobg8-1772093,Service Coordinator - Equipment Hire,Elix Sourcing Solutions Limited - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225425172,Temp Receptionist,Hays Business Support - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 review,nhs-5545118,Administrator,Oxford Health NHS Trust,"Keynsham, BS31 1HA",NHS Jobs,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-23643_225515534,Venue Finder & Sales Co-ordinator,In Any Event - Agency - Permanent,Portishead,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
+exclude,jobg8-107881565,6 Week Interim Finance Assistant,Hays - Agency - Temporary,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,jobg8-1766156,Customer Service Advisor,Juice Recruitment Ltd - Agency - Permanent,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,nhs-5555799,Receptionist - Care Home,Barchester Healthcare,"Bath, BA2 3NR",NHS Jobs,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,nhs-5550823,Receptionist Call Handler,Fairfield Park Health Centre,"Bath, BA1 6EA",NHS Jobs,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs

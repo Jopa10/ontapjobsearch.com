@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 17
-- automatic exclude: 50
+- automatic review: 16
+- automatic exclude: 56
 - effective include: 4
-- effective review: 17
-- effective exclude: 50
+- effective review: 16
+- effective exclude: 56
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225463726
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Robin Lane Health & Wellbeing Centre
 location: Pudsey, LS28 7DE
 source: NHS Jobs
 job_id: nhs-5550046
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Surgery Receptionist
-company: NORTHGATE SURGERY
-location: Pontefract, WF8 1NF
-source: NHS Jobs
-job_id: nhs-5535823
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -278,7 +266,7 @@ job_id: jobg8-23643_225422964
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (50)
+## EXCLUDE (56)
 
 ---
 action: 
@@ -464,6 +452,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Experienced Medical Centre Receptionist
+company: Arthington Medical Centre
+location: Leeds, LS10 2JJ
+source: NHS Jobs
+job_id: nhs-5528274
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: H-Seventeen - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107891625
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Graduate Finance Assistant
 company: T3AM Global - Agency - Permanent
 location: Leeds
@@ -596,6 +608,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Operations & Admin Assistant (Remote, UK-Based)
+company: My VA business - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1786169
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Operations Coordinator
 company: Huntress - Leeds - Agency - Permanent
 location: Wetherby
@@ -637,6 +661,30 @@ company: Spectrum Community Health CIC
 location: Wakefield, WF1 5RH
 source: NHS Jobs
 job_id: nhs-5539626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
+company: Trust Primary Care Ltd
+location: Bradford, BD7 3JX
+source: NHS Jobs
+job_id: nhs-5530362
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Property Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1732131
 reason: Separate employment market.
 ---
 
@@ -793,6 +841,18 @@ company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Stock & Purchasing Coordinator
+company: Kinetic Office Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225526372
 reason: Separate employment market.
 ---
 

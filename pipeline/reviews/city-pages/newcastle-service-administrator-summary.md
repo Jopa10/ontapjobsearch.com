@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 42
-- automatic exclude: 26
+- automatic review: 43
+- automatic exclude: 27
 - effective include: 15
-- effective review: 42
-- effective exclude: 26
+- effective review: 43
+- effective exclude: 27
 
 ## INCLUDE (15)
 
@@ -204,7 +204,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (42)
+## REVIEW (43)
 
 ---
 action: 
@@ -510,6 +510,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist/Administrator
+company: Concord Medical Practice
+location: Washington, NE37 2PU
+source: NHS Jobs
+job_id: nhs-3933853
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Support Assistant/ Administrator
 company: Pertemps Scotland Temps - Agency - Permanent
 location: Tyne And Wear
@@ -710,7 +722,19 @@ job_id: vonne-173349
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (27)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: SI Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107752679
+reason: Separate employment market.
+---
 
 ---
 action: 

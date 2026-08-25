@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 19
 - automatic review: 8
 - automatic exclude: 6
-- effective include: 17
+- effective include: 19
 - effective review: 8
 - effective exclude: 6
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -165,6 +165,30 @@ company: EE - Company - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-21618_20279_61698-637fc511e4eb560482b6812cdcd0d531
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-21618_20279_61698-d24d3d6916a209e15b1680693740da2f
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-21618_20279_61698-ff99aaa433b07ac45aacb2d328e68571-63789b22995f685322503af42147450a
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -356,6 +380,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-21618_20279_61698-3e92b47ad3dbb60c9078d91c7601c50b
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Contribution Co-Ordinator
 company: Adecco - Agency - Temporary
 location: Runcorn
@@ -373,18 +409,6 @@ company: EE - Company - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-21618_20279_61698-fe97affcb7eb2cdceb67019e12eb7199
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: MedPal AI Plc - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-107824915
 reason: Separate employment market.
 ---
 

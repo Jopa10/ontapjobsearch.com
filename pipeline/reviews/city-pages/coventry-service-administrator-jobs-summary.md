@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 2
-- automatic exclude: 32
+- automatic exclude: 36
 - effective include: 3
 - effective review: 2
-- effective exclude: 32
+- effective exclude: 36
 
 ## INCLUDE (3)
 
@@ -86,7 +86,7 @@ job_id: jobg8-23643_225526928
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -260,11 +260,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: GP Surgery Receptionist
+company: Station Street Surgery
+location: Nuneaton, CV11 6HH
+source: NHS Jobs
+job_id: nhs-5535941
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Bell Cornwall Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225473970
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Coordinator (2-Month Temporary Contract)
+company: Arden Personnel - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225526643
 reason: Separate employment market.
 ---
 
@@ -301,6 +325,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225467522
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketplace Administrator
+company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1778769
 reason: Separate employment market.
 ---
 
@@ -433,6 +469,18 @@ company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1742728
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Training & HR Coordinator
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1772113
 reason: Separate employment market.
 ---
 

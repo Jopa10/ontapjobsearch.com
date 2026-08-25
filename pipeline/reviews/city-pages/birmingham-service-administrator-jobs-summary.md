@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 27
 - automatic review: 3
 - automatic exclude: 2
-- effective include: 26
+- effective include: 27
 - effective review: 3
 - effective exclude: 2
 
-## INCLUDE (26)
+## INCLUDE (27)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1702752
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Band 2 Receptionist - FTB Washwood Heath Health and Wellbeing Centre
-company: Birmingham and Solihull Mental Health NHS Foundation Trust
-location: Birmingham, B8 3SN
-source: NHS Jobs
-job_id: nhs-5556036
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -208,6 +196,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Coordinator
+company: Rise Technical Recruitment Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1742939
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Inspection Administrator
 company: Office Angels - Agency - Permanent
 location: Birmingham
@@ -225,6 +225,18 @@ company: Office Angels - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1771921
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Yardley Wood Health Centre
+location: Birmingham, B14 4DU
+source: NHS Jobs
+job_id: nhs-5558970
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -354,11 +366,11 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Plum Personnel - Agency - Permanent
-location: Shirley
+title: Motor Trade Sales Administrator
+company: Brellis Recruitment - Agency - Permanent
+location: Chelmsley Wood
 source: JobG8
-job_id: jobg8-23643_225317543
+job_id: jobg8-23643_225507846
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -366,11 +378,11 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Vehicle Sales & Accounts Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Chelmsley Wood
+title: Sales Administrator
+company: Plum Personnel - Agency - Permanent
+location: Shirley
 source: JobG8
-job_id: jobg8-23643_225507846
+job_id: jobg8-23643_225317543
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

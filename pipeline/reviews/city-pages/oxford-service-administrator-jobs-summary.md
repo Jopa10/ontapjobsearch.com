@@ -186,6 +186,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Bampton Medical Practice
+location: Bampton, OX18 2LJ
+source: NHS Jobs
+job_id: nhs-5516742
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Forensic Administrator - HMP Huntercombe
 company: Oxford Health NHS Trust
 location: Henley-On-Thames, RG9 5SG
@@ -239,18 +251,6 @@ company: Lord Williams's School
 location: Thame
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-office-receptionist-administrative-assistant
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator - District Nurse Duty Desk
-company: Oxford Health NHS Trust
-location: Abingdon, OX14 1AG
-source: NHS Jobs
-job_id: nhs-5544060
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

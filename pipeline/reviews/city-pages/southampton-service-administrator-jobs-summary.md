@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 65
+- automatic review: 62
 - automatic exclude: 11
 - effective include: 5
-- effective review: 65
+- effective review: 62
 - effective exclude: 11
 
 ## INCLUDE (5)
@@ -84,17 +84,17 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (65)
+## REVIEW (62)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Get Recruited (UK) Ltd - Agency - Permanent
+title: Account Coordinator
+company: Hampshire Recruitment Group LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107689740
+job_id: jobg8-23643_225529475
 reason: Broad location; review before city inclusion.
 ---
 
@@ -167,18 +167,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107816328
 reason: Broad location; review before city inclusion.
 ---
 
@@ -582,18 +570,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Care Co-ordinator/Receptionist
-company: Abbeywell Surgery
-location: Romsey, SO51 8EN, Romsey, SO517QN
-source: NHS Jobs
-job_id: nhs-5522984
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Planner
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -792,18 +768,6 @@ location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-access-arrangements-support-assistant
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225419560
-reason: Broad location; review before city inclusion.
 ---
 
 ---
